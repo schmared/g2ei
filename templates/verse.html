@@ -1,0 +1,49 @@
+<!-- ===================== {{banner}} ===================== -->
+<section class="{{section_class}}">
+{{#demo}}
+  <p class="kicker">{{kicker}} · {{num}}</p>
+  <p class="kicker-sub">{{{note}}}</p>
+{{/demo}}
+{{^demo}}
+  <div class="ref">
+    <span class="num">{{num}}</span>
+    <span class="src">{{src}}</span>
+  </div>
+{{/demo}}
+
+  <div class="greekblock">
+    <p class="greek" data-greek>{{greek}}</p>
+    <div class="greek-foot">
+      <p class="hint">{{{hint}}}</p>
+      <button class="spacer" type="button" data-spacer>Close the spaces</button>
+    </div>
+  </div>
+
+  <div class="panels">
+    <article class="panel panel--notes" data-panel="notes">
+      <h3>Notes</h3>
+      <p class="sub">{{notes_sub}}</p>
+      <dl>
+{{#notes}}
+{{^first}}
+
+{{/first}}
+        <dt{{#latin}} class="latin"{{/latin}}>{{{lemma}}}</dt>
+        <dd>{{{text}}}</dd>
+{{/notes}}
+      </dl>
+    </article>
+
+    <article class="panel" data-panel="open">
+      <h3>Unanchored</h3>
+      <p class="sub">Headwords removed — the reader rebuilds the referent</p>
+      <p class="text">{{{unanchored}}}</p>
+    </article>
+
+    <article class="panel" data-panel="anchor">
+      <h3>Anchored</h3>
+      <p class="sub">Headwords kept — the chain trails behind</p>
+      <p class="text">{{{anchored}}}</p>
+    </article>
+  </div>
+</section>

@@ -1,0 +1,110 @@
+[
+  {
+    "ref": "JHN 1:1",
+    "greek": "Ἐν ἀρχῇ ἦν ὁ λόγος, καὶ ὁ λόγος ἦν πρὸς τὸν θεόν, καὶ θεὸς ἦν ὁ λόγος.",
+    "hint": "Closed, the first three letters are the same three that open Genesis. That is the point of the verse.",
+    "notes": [
+      {
+        "lemma": "Ἐν ἀρχῇ",
+        "flag": null,
+        "text": "Word for word the opening of LXX Genesis. John is quoting the *Greek* Old Testament, not the Hebrew. On a Septuagint base the citation is simply visible on the page instead of buried in a footnote — which is the whole argument for reading the Old Testament in Greek alongside the New."
+      },
+      {
+        "lemma": "ἦν",
+        "flag": null,
+        "text": "Imperfect of εἰμί — and emphatically *not* ἐγένετο, *came to be*, which the prologue reserves for created things from verse 3 onward. The entire architecture of the passage rests on this one contrast, and English *was* carries none of it. Hence the expansion: *was already in unbroken existence without any point of having come to be*."
+      },
+      {
+        "lemma": "ὁ λόγος",
+        "flag": null,
+        "text": "Articular. The range: the spoken word, the utterance, the thing said; the account or reckoning, as in rendering an account; ratio and proportion; reasoned discourse; and in Stoic usage the rational principle ordering the cosmos. English *Word* keeps the speech and drops the reason. Latin had the same problem — *verbum* won, though *sermo* held more."
+      },
+      {
+        "lemma": "πρὸς τὸν θεόν",
+        "flag": null,
+        "text": "πρός with the accusative is directional: toward, facing, up against. It is not παρά (beside), not μετά (in company with), not σύν (together with) — any of which the writer could have used. English *with* is static; πρός is vectored. This is the largest single loss in the standard versions."
+      },
+      {
+        "lemma": "θεὸς ἦν ὁ λόγος",
+        "flag": null,
+        "text": "The predicate θεός stands without the article and is thrown to the front; ὁ λόγος carries the article and is the subject. A fronted anarthrous predicate nominative is normally *qualitative* — it says what the subject is by nature, not which individual it is identical with. So: not *the Word was the Father*, which the article placement refuses, and not *a god*, which the fronting refuses. Word order does work here that no English word order can do, which is why this clause has been fought over for eighteen centuries."
+      },
+      {
+        "lemma": "Names",
+        "flag": null,
+        "text": "None. λόγος is expanded rather than transliterated; *Logos* is retained only where the reading text needs the noun to function as a title."
+      }
+    ],
+    "unanchored": "Within, inside of, and by means of the first moment, the origin-point, the source, the first principle, the headship and the governing precedence over all that follows — the same opening with which the first book begins — there was, and was continuously, and was already in unbroken existence without any point of having come to be, the Utterance, the spoken Word, the thing-said, the Account, the Reckoning, the Rationale, the Reasoned Discourse, the intelligible ordering by which a mind is expressed and by which that mind itself coheres. And the Utterance, the Account, was and remained toward the God — facing Him, oriented to Him, in living motion and address toward Him, held face to face in a nearness that never collapses into sameness. And everything that God is by nature, deity in full and undiminished kind, was what that Utterance was.",
+    "anchored": "In the beginning — within, inside of, and by means of the first moment, the origin-point, the source, the first principle, the headship and the governing precedence over all that follows — was the Word, the Logos: the Utterance, the spoken Word, the thing-said, the Account, the Reckoning, the Rationale, the Reasoned Discourse, the intelligible ordering by which a mind is expressed and by which that mind itself coheres — was, and was continuously, and was already in unbroken existence without any point of having come to be. And the Word was with God — toward the God, facing Him, oriented to Him, in living motion and address toward Him, held face to face in a nearness that never collapses into sameness. And the Word was God — everything that God is by nature, deity in full and undiminished kind, was what that Word was.",
+    "names": []
+  },
+  {
+    "ref": "JHN 1:2",
+    "greek": "οὗτος ἦν ἐν ἀρχῇ πρὸς τὸν θεόν.",
+    "hint": "Six words, and every one of them has already appeared in verse 1.",
+    "notes": [
+      {
+        "lemma": "οὗτος",
+        "flag": null,
+        "text": "Near demonstrative — *this one here*. It gathers up everything just said and pins it to one referent, which is why the expansion adds *and no other*."
+      },
+      {
+        "lemma": "Function of the verse",
+        "flag": null,
+        "text": "It restates 1a and 1b together, and its work is to block a reading in which the θεός of 1c is a different party from the τὸν θεόν of 1b. The one who is God by nature is the same one who stands face to face toward God. The verse looks redundant in English and is not redundant in Greek."
+      },
+      {
+        "lemma": "ἦν",
+        "flag": null,
+        "text": "The fourth imperfect in two verses. Still no ἐγένετο. The writer is being relentless, and a version that renders all four as a flat *was* hides the relentlessness."
+      },
+      {
+        "lemma": "Names",
+        "flag": null,
+        "text": "None in this verse."
+      }
+    ],
+    "unanchored": "This same one, this very one and no other, was — continuously, and without any point of having come to be — within, inside of, and by means of the first moment, the origin-point, the source, the first principle, facing, oriented toward, and in living address toward the God.",
+    "anchored": "This one — this same one, this very one and no other — was, continuously and without any point of having come to be, in the beginning — the first moment, the origin-point, the source, the first principle — with God: toward Him, facing Him, oriented to Him, in living address toward Him.",
+    "names": []
+  },
+  {
+    "ref": "JHN 1:6",
+    "greek": "Ἐγένετο ἄνθρωπος ἀπεσταλμένος παρὰ θεοῦ, ὄνομα αὐτῷ Ἰωάννης·",
+    "hint": "The sentence opens with the verb the Logos was never given.",
+    "notes": [
+      {
+        "lemma": "Ἐγένετο",
+        "flag": null,
+        "text": "Aorist middle of γίνομαι — *came to be, came into existence, arose*. Placed first for emphasis. This is precisely the verb withheld from the Logos in verses 1–2, and it arrives the moment a creature enters the sentence."
+      },
+      {
+        "lemma": "ἀπεσταλμένος",
+        "flag": null,
+        "text": "Perfect passive participle of ἀποστέλλω — sent off on another's authority, dispatched with a commission. The perfect makes it a standing status, not a past errand. Root of ἀπόστολος."
+      },
+      {
+        "lemma": "Ἰωάννης",
+        "flag": "name",
+        "text": "A Greek transliteration of Hebrew *Yôḥānān*, a compound of the divine name with the verb *ḥānan*, to show favour or be gracious: *Yah has shown favour*. The name is kept in the Greek form and glossed in parentheses. It is not translated away, because it is what the man was called; it is not left bare, because to the first hearers it was a sentence."
+      }
+    ],
+    "unanchored": "There came to be, there arose, there was brought into existence — and it is this verb, the one withheld until now, that arrives first in the sentence — a man, a human being, one sent off, dispatched, and commissioned on another's authority, from alongside and from the side of God; and the name belonging to him: [[name:Ἰωάννης]].",
+    "anchored": "There came to be a man — there arose, there was brought into existence, a human being — sent from God: sent off, dispatched, and commissioned on another's authority, from alongside and from the side of God — whose name was [[name:Ἰωάννης]].",
+    "names": [
+      {
+        "greek": "Ἰωάννης",
+        "unanchored": "Iōannēs",
+        "anchored": "John",
+        "gloss": "(Ἰωάννης, from Hebrew Yôḥānān, \"Yah has shown favour\")"
+      }
+    ],
+    "banner": "NAME CONVENTION DEMO",
+    "demo": {
+      "kicker": "Convention demonstrated",
+      "note": "None of the four verses above contains a proper name, so here is the naming rule working on the first one the prologue offers — a verse that also puts the ἦν / ἐγένετο contrast on display."
+    },
+    "notes_sub": "Lexical range, aspect, and the naming rule"
+  }
+]

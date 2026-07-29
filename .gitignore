@@ -1,0 +1,16 @@
+# Third-party source editions — deliberately not redistributed.
+# The Rahlfs data is CC BY-NC-SA 4.0 and its upstream gates access behind a CCAT
+# user declaration. See NOTICE.md. sources/README.md says how to fetch them.
+/sources/*
+!/sources/README.md
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Editors and OS
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp

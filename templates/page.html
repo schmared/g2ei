@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>An Exhaustive Reading — Genesis 1 · John 1</title>
+<style>
+  :root{
+    --ground:#E4E2D9;
+    --panel:#F5F3ED;
+    --panel-notes:#EDECE3;
+    --ink:#22201B;
+    --ink-soft:#5C574B;
+    --ink-faint:#8B8575;
+    --rubric:#8C2F23;
+    --verdigris:#3B5A4F;
+    --rule:#C9C5B7;
+
+    --greek: "GFS Didot", "New Athena Unicode", "Palatino Linotype", "Book Antiqua", Palatino, "Iowan Old Style", Georgia, serif;
+    --body: "Palatino Linotype", "Book Antiqua", Palatino, "Iowan Old Style", Georgia, serif;
+    --util: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
+    --sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
+  }
+
+  *{box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%}
+  body{
+    margin:0;
+    background:var(--ground);
+    color:var(--ink);
+    font-family:var(--body);
+    line-height:1.6;
+  }
+
+  .wrap{max-width:1440px;margin:0 auto;padding:0 clamp(16px,3vw,44px) 96px}
+
+  /* ---------- masthead ---------- */
+  header.masthead{
+    padding:clamp(40px,7vw,88px) 0 clamp(24px,3vw,36px);
+    border-bottom:2px solid var(--ink);
+  }
+  .eyebrow{
+    font-family:var(--util);
+    font-size:11px;
+    letter-spacing:.22em;
+    text-transform:uppercase;
+    color:var(--rubric);
+    margin:0 0 18px;
+  }
+  h1{
+    font-family:var(--greek);
+    font-weight:400;
+    font-size:clamp(30px,5.2vw,58px);
+    line-height:1.06;
+    letter-spacing:-.015em;
+    margin:0 0 18px;
+    max-width:16ch;
+  }
+  h1 em{font-style:italic;color:var(--rubric)}
+  .thesis{
+    margin:0;
+    max-width:62ch;
+    font-size:clamp(15px,1.5vw,18px);
+    color:var(--ink-soft);
+  }
+
+  /* ---------- conventions ---------- */
+  .conventions{
+    margin:clamp(24px,3vw,34px) 0 0;
+    border-top:1px solid var(--rule);
+    padding-top:20px;
+  }
+  .conventions summary{
+    font-family:var(--util);
+    font-size:11px;
+    letter-spacing:.16em;
+    text-transform:uppercase;
+    color:var(--verdigris);
+    cursor:pointer;
+    list-style:none;
+    display:inline-flex;
+    align-items:center;
+    gap:8px;
+  }
+  .conventions summary::-webkit-details-marker{display:none}
+  .conventions summary::before{content:"＋";font-size:13px;line-height:1}
+  .conventions[open] summary::before{content:"−"}
+  .conventions summary:focus-visible{outline:2px solid var(--rubric);outline-offset:4px}
+  .conv-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(240px,1fr));
+    gap:22px 40px;
+    margin-top:22px;
+  }
+  .conv-grid h4{
+    font-family:var(--util);
+    font-size:10.5px;
+    letter-spacing:.14em;
+    text-transform:uppercase;
+    color:var(--rubric);
+    margin:0 0 6px;
+    font-weight:400;
+  }
+  .conv-grid p{margin:0;font-family:var(--sans);font-size:13.5px;line-height:1.62;color:var(--ink-soft)}
+
+  /* ---------- controls ---------- */
+  .controls{
+    position:sticky;
+    top:0;
+    z-index:20;
+    background:var(--ground);
+    padding:14px 0 12px;
+    border-bottom:1px solid var(--rule);
+    display:flex;
+    flex-wrap:wrap;
+    align-items:center;
+    gap:8px;
+  }
+  .controls .label{
+    font-family:var(--util);
+    font-size:10px;
+    letter-spacing:.16em;
+    text-transform:uppercase;
+    color:var(--ink-soft);
+    margin-right:6px;
+  }
+  button.pill{
+    font-family:var(--util);
+    font-size:11px;
+    letter-spacing:.1em;
+    text-transform:uppercase;
+    padding:7px 13px;
+    border:1px solid var(--rule);
+    background:transparent;
+    color:var(--ink-soft);
+    border-radius:2px;
+    cursor:pointer;
+    transition:background .15s,color .15s,border-color .15s;
+  }
+  button.pill:hover{border-color:var(--ink-soft)}
+  button.pill:focus-visible{outline:2px solid var(--rubric);outline-offset:3px}
+  button.pill[aria-pressed="true"]{
+    background:var(--ink);
+    color:var(--ground);
+    border-color:var(--ink);
+  }
+
+  /* ---------- verse ---------- */
+  .verse{padding:clamp(38px,5vw,70px) 0;border-bottom:1px solid var(--rule)}
+  .verse:last-of-type{border-bottom:none}
+
+  .ref{
+    display:flex;
+    align-items:baseline;
+    gap:14px;
+    margin-bottom:20px;
+    flex-wrap:wrap;
+  }
+  .ref .num{
+    font-family:var(--util);
+    font-size:12px;
+    letter-spacing:.14em;
+    color:var(--rubric);
+    text-transform:uppercase;
+  }
+  .ref .src{
+    font-family:var(--util);
+    font-size:10.5px;
+    letter-spacing:.12em;
+    text-transform:uppercase;
+    color:var(--ink-faint);
+  }
+
+  /* signature: the scriptio continua block */
+  .greekblock{
+    background:var(--panel);
+    border-left:3px solid var(--rubric);
+    padding:clamp(20px,2.6vw,30px) clamp(18px,2.6vw,32px);
+    margin-bottom:clamp(22px,2.6vw,30px);
+  }
+  .greek{
+    font-family:var(--greek);
+    font-size:clamp(19px,2.15vw,26px);
+    line-height:1.62;
+    margin:0;
+    color:var(--ink);
+    transition:opacity .18s ease;
+  }
+  .greek.closed{
+    letter-spacing:.06em;
+    line-height:1.78;
+    word-break:break-all;
+    color:var(--verdigris);
+  }
+  .greek-foot{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:14px;
+    flex-wrap:wrap;
+    margin-top:16px;
+    padding-top:13px;
+    border-top:1px solid var(--rule);
+  }
+  .greek-foot .hint{
+    font-family:var(--sans);
+    font-size:12px;
+    color:var(--ink-faint);
+    margin:0;
+    max-width:56ch;
+  }
+  button.spacer{
+    font-family:var(--util);
+    font-size:10.5px;
+    letter-spacing:.12em;
+    text-transform:uppercase;
+    background:transparent;
+    border:1px solid var(--verdigris);
+    color:var(--verdigris);
+    padding:6px 12px;
+    border-radius:2px;
+    cursor:pointer;
+    white-space:nowrap;
+    transition:background .15s,color .15s;
+  }
+  button.spacer:hover{background:var(--verdigris);color:var(--panel)}
+  button.spacer:focus-visible{outline:2px solid var(--rubric);outline-offset:3px}
+
+  /* ---------- panels ---------- */
+  .panels{
+    display:grid;
+    gap:clamp(18px,1.8vw,26px);
+    grid-template-columns:repeat(var(--cols,3),minmax(0,1fr));
+    align-items:start;
+  }
+  .panel{
+    background:var(--panel);
+    padding:clamp(20px,2.2vw,28px);
+    border-top:2px solid var(--ink);
+  }
+  .panel[hidden]{display:none}
+  .panel h3{
+    font-family:var(--util);
+    font-size:10.5px;
+    letter-spacing:.16em;
+    text-transform:uppercase;
+    font-weight:400;
+    color:var(--rubric);
+    margin:0 0 4px;
+  }
+  .panel .sub{
+    font-family:var(--sans);
+    font-size:11.5px;
+    color:var(--ink-faint);
+    margin:0 0 18px;
+    padding-bottom:14px;
+    border-bottom:1px solid var(--rule);
+  }
+  .panel p.text{
+    margin:0;
+    font-size:clamp(15.5px,1.15vw,17px);
+    line-height:1.78;
+    hanging-punctuation:first;
+  }
+
+  .panel--notes{background:var(--panel-notes);border-top-color:var(--verdigris)}
+  .panel--notes h3{color:var(--verdigris)}
+  .panel--notes dl{margin:0;font-family:var(--sans)}
+  .panel--notes dt{
+    font-family:var(--greek);
+    font-size:16px;
+    color:var(--ink);
+    margin-top:16px;
+  }
+  .panel--notes dt:first-of-type{margin-top:0}
+  .panel--notes dt.latin{font-family:var(--util);font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--verdigris)}
+  .panel--notes dd{
+    margin:3px 0 0;
+    font-size:13.5px;
+    line-height:1.62;
+    color:var(--ink-soft);
+  }
+  .panel--notes dd em{color:var(--ink)}
+
+  .flag{
+    display:inline-block;
+    font-family:var(--util);
+    font-size:9.5px;
+    letter-spacing:.1em;
+    text-transform:uppercase;
+    color:var(--rubric);
+    border:1px solid var(--rubric);
+    padding:1px 5px;
+    border-radius:2px;
+    margin-right:6px;
+    vertical-align:1px;
+  }
+
+  .name{color:var(--rubric)}
+  .paren{color:var(--ink-soft);font-style:italic}
+
+  /* demo block */
+  .demo{
+    margin-top:clamp(40px,5vw,64px);
+    border:1px solid var(--verdigris);
+    padding:clamp(20px,3vw,34px);
+  }
+  .demo > .kicker{
+    font-family:var(--util);
+    font-size:10.5px;
+    letter-spacing:.16em;
+    text-transform:uppercase;
+    color:var(--verdigris);
+    margin:0 0 6px;
+  }
+  .demo > .kicker-sub{
+    font-family:var(--sans);
+    font-size:13.5px;
+    color:var(--ink-soft);
+    margin:0 0 24px;
+    max-width:70ch;
+  }
+
+  footer{
+    padding-top:34px;
+    font-family:var(--sans);
+    font-size:12.5px;
+    color:var(--ink-faint);
+    max-width:70ch;
+  }
+
+  @media (max-width:860px){
+    .panels{grid-template-columns:1fr !important}
+    .controls{gap:6px;padding:11px 0 10px}
+    button.pill{padding:6px 10px;font-size:10px}
+    .controls .label{width:100%;margin-bottom:2px}
+  }
+  @media (prefers-reduced-motion:reduce){
+    *{transition:none !important;animation:none !important}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header class="masthead">
+  <p class="eyebrow">Septuagint base · exhaustive interpretation · not a translation</p>
+  <h1>Ἐν ἀρχῇ<br><em>as far as English can be made to carry it</em></h1>
+  <p class="thesis">Every load-bearing word is opened to the full range its lexicon gives it, and left open — no single English equivalent is chosen, because choosing one is where the meaning goes. Three parallel readings run against each verse: the apparatus, the unanchored text, and the anchored text. The Old Testament is read from the Greek throughout, so that when the New Testament quotes it, the quotation is visible on the page.</p>
+
+  <details class="conventions">
+    <summary>Conventions</summary>
+    <div class="conv-grid">
+      <div>
+        <h4>Unanchored</h4>
+        <p>The headword is removed entirely. The reader rebuilds the referent from the gloss-chain alone. Best for poetry, prologue, and theological argument, where the familiar word is exactly what stops the reader from seeing.</p>
+      </div>
+      <div>
+        <h4>Anchored</h4>
+        <p>The conventional word is kept and the chain trails behind it, set off by dashes. Best for narrative, law, and genealogy, where a reader needs to hold a referent across many verses without losing the thread.</p>
+      </div>
+      <div>
+        <h4>Names</h4>
+        <p>Transliterated names keep the form the Greek gives them, with the meaning in parentheses immediately after, in both reading texts. A name left unglossed is a hole in the sentence — it is a word that meant something to the first hearer and means nothing now.</p>
+      </div>
+      <div>
+        <h4>Verbal aspect</h4>
+        <p>Where the Greek aspect carries weight English cannot, it is stated in the text rather than footnoted: <em>one completed act seen whole</em> for the aorist, <em>and kept on being</em> for the imperfect.</p>
+      </div>
+      <div>
+        <h4>The apparatus</h4>
+        <p>Hebrew-to-Greek divergences stay in the notes and never enter the reading text. The Septuagint's own reading is the text; where it parts from the Masoretic Hebrew, that is a fact about the text, not a defect to be quietly repaired.</p>
+      </div>
+      <div>
+        <h4>What is not added</h4>
+        <p>No sense is imported that the Greek word does not carry, however familiar it is from other English versions. Where a well-known English phrase has no basis in this text, the notes say so.</p>
+      </div>
+    </div>
+  </details>
+</header>
+
+<div class="controls" role="group" aria-label="Show or hide reading panels">
+  <span class="label">Panels</span>
+  <button class="pill" type="button" data-panel="notes" aria-pressed="true">Notes</button>
+  <button class="pill" type="button" data-panel="open" aria-pressed="true">Unanchored</button>
+  <button class="pill" type="button" data-panel="anchor" aria-pressed="true">Anchored</button>
+</div>
+
+{{{sections}}}
+
+<footer>
+  <p>Genesis follows the Septuagint (Rahlfs–Hanhart); John follows Nestle-Aland. Divergence notes compare the Greek against the Masoretic Hebrew and never alter the reading text. Where an English phrase familiar from other versions has no basis in the Greek, the notes mark it rather than supplying it.</p>
+</footer>
+
+</div>
+
+<script>
+(function(){
+  /* ---- panel visibility ---- */
+  var buttons = document.querySelectorAll('.pill');
+  function apply(){
+    var on = [];
+    buttons.forEach(function(b){
+      if(b.getAttribute('aria-pressed') === 'true') on.push(b.dataset.panel);
+    });
+    document.querySelectorAll('.panel').forEach(function(p){
+      p.hidden = on.indexOf(p.dataset.panel) === -1;
+    });
+    document.querySelectorAll('.panels').forEach(function(g){
+      g.style.setProperty('--cols', Math.max(on.length, 1));
+    });
+  }
+  buttons.forEach(function(b){
+    b.addEventListener('click', function(){
+      var pressed = b.getAttribute('aria-pressed') === 'true';
+      var count = 0;
+      buttons.forEach(function(x){ if(x.getAttribute('aria-pressed') === 'true') count++; });
+      if(pressed && count === 1) return; /* never hide the last panel */
+      b.setAttribute('aria-pressed', pressed ? 'false' : 'true');
+      apply();
+    });
+  });
+
+  /* narrow screens open on the unanchored reading only */
+  if(window.matchMedia('(max-width: 860px)').matches){
+    buttons.forEach(function(b){
+      b.setAttribute('aria-pressed', b.dataset.panel === 'open' ? 'true' : 'false');
+    });
+  }
+  apply();
+
+  /* ---- signature: scriptio continua ---- */
+  function uncial(s){
+    return s.normalize('NFD')
+            .replace(/[\u0300-\u036f\u0345]/g, '')
+            .toUpperCase()
+            .replace(/[^\u0391-\u03A9]/g, '');
+  }
+  document.querySelectorAll('[data-spacer]').forEach(function(btn){
+    var block = btn.closest('.greekblock');
+    var line  = block.querySelector('[data-greek]');
+    var open  = line.textContent;
+    var shut  = uncial(open);
+    var closed = false;
+    btn.addEventListener('click', function(){
+      closed = !closed;
+      line.textContent = closed ? shut : open;
+      line.classList.toggle('closed', closed);
+      btn.textContent = closed ? 'Open the spaces' : 'Close the spaces';
+      btn.setAttribute('aria-pressed', closed ? 'true' : 'false');
+    });
+  });
+})();
+</script>
+</body>
+</html>

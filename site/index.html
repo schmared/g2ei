@@ -1,0 +1,719 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>An Exhaustive Reading — Genesis 1 · John 1</title>
+<style>
+  :root{
+    --ground:#E4E2D9;
+    --panel:#F5F3ED;
+    --panel-notes:#EDECE3;
+    --ink:#22201B;
+    --ink-soft:#5C574B;
+    --ink-faint:#8B8575;
+    --rubric:#8C2F23;
+    --verdigris:#3B5A4F;
+    --rule:#C9C5B7;
+
+    --greek: "GFS Didot", "New Athena Unicode", "Palatino Linotype", "Book Antiqua", Palatino, "Iowan Old Style", Georgia, serif;
+    --body: "Palatino Linotype", "Book Antiqua", Palatino, "Iowan Old Style", Georgia, serif;
+    --util: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
+    --sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
+  }
+
+  *{box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%}
+  body{
+    margin:0;
+    background:var(--ground);
+    color:var(--ink);
+    font-family:var(--body);
+    line-height:1.6;
+  }
+
+  .wrap{max-width:1440px;margin:0 auto;padding:0 clamp(16px,3vw,44px) 96px}
+
+  /* ---------- masthead ---------- */
+  header.masthead{
+    padding:clamp(40px,7vw,88px) 0 clamp(24px,3vw,36px);
+    border-bottom:2px solid var(--ink);
+  }
+  .eyebrow{
+    font-family:var(--util);
+    font-size:11px;
+    letter-spacing:.22em;
+    text-transform:uppercase;
+    color:var(--rubric);
+    margin:0 0 18px;
+  }
+  h1{
+    font-family:var(--greek);
+    font-weight:400;
+    font-size:clamp(30px,5.2vw,58px);
+    line-height:1.06;
+    letter-spacing:-.015em;
+    margin:0 0 18px;
+    max-width:16ch;
+  }
+  h1 em{font-style:italic;color:var(--rubric)}
+  .thesis{
+    margin:0;
+    max-width:62ch;
+    font-size:clamp(15px,1.5vw,18px);
+    color:var(--ink-soft);
+  }
+
+  /* ---------- conventions ---------- */
+  .conventions{
+    margin:clamp(24px,3vw,34px) 0 0;
+    border-top:1px solid var(--rule);
+    padding-top:20px;
+  }
+  .conventions summary{
+    font-family:var(--util);
+    font-size:11px;
+    letter-spacing:.16em;
+    text-transform:uppercase;
+    color:var(--verdigris);
+    cursor:pointer;
+    list-style:none;
+    display:inline-flex;
+    align-items:center;
+    gap:8px;
+  }
+  .conventions summary::-webkit-details-marker{display:none}
+  .conventions summary::before{content:"＋";font-size:13px;line-height:1}
+  .conventions[open] summary::before{content:"−"}
+  .conventions summary:focus-visible{outline:2px solid var(--rubric);outline-offset:4px}
+  .conv-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(240px,1fr));
+    gap:22px 40px;
+    margin-top:22px;
+  }
+  .conv-grid h4{
+    font-family:var(--util);
+    font-size:10.5px;
+    letter-spacing:.14em;
+    text-transform:uppercase;
+    color:var(--rubric);
+    margin:0 0 6px;
+    font-weight:400;
+  }
+  .conv-grid p{margin:0;font-family:var(--sans);font-size:13.5px;line-height:1.62;color:var(--ink-soft)}
+
+  /* ---------- controls ---------- */
+  .controls{
+    position:sticky;
+    top:0;
+    z-index:20;
+    background:var(--ground);
+    padding:14px 0 12px;
+    border-bottom:1px solid var(--rule);
+    display:flex;
+    flex-wrap:wrap;
+    align-items:center;
+    gap:8px;
+  }
+  .controls .label{
+    font-family:var(--util);
+    font-size:10px;
+    letter-spacing:.16em;
+    text-transform:uppercase;
+    color:var(--ink-soft);
+    margin-right:6px;
+  }
+  button.pill{
+    font-family:var(--util);
+    font-size:11px;
+    letter-spacing:.1em;
+    text-transform:uppercase;
+    padding:7px 13px;
+    border:1px solid var(--rule);
+    background:transparent;
+    color:var(--ink-soft);
+    border-radius:2px;
+    cursor:pointer;
+    transition:background .15s,color .15s,border-color .15s;
+  }
+  button.pill:hover{border-color:var(--ink-soft)}
+  button.pill:focus-visible{outline:2px solid var(--rubric);outline-offset:3px}
+  button.pill[aria-pressed="true"]{
+    background:var(--ink);
+    color:var(--ground);
+    border-color:var(--ink);
+  }
+
+  /* ---------- verse ---------- */
+  .verse{padding:clamp(38px,5vw,70px) 0;border-bottom:1px solid var(--rule)}
+  .verse:last-of-type{border-bottom:none}
+
+  .ref{
+    display:flex;
+    align-items:baseline;
+    gap:14px;
+    margin-bottom:20px;
+    flex-wrap:wrap;
+  }
+  .ref .num{
+    font-family:var(--util);
+    font-size:12px;
+    letter-spacing:.14em;
+    color:var(--rubric);
+    text-transform:uppercase;
+  }
+  .ref .src{
+    font-family:var(--util);
+    font-size:10.5px;
+    letter-spacing:.12em;
+    text-transform:uppercase;
+    color:var(--ink-faint);
+  }
+
+  /* signature: the scriptio continua block */
+  .greekblock{
+    background:var(--panel);
+    border-left:3px solid var(--rubric);
+    padding:clamp(20px,2.6vw,30px) clamp(18px,2.6vw,32px);
+    margin-bottom:clamp(22px,2.6vw,30px);
+  }
+  .greek{
+    font-family:var(--greek);
+    font-size:clamp(19px,2.15vw,26px);
+    line-height:1.62;
+    margin:0;
+    color:var(--ink);
+    transition:opacity .18s ease;
+  }
+  .greek.closed{
+    letter-spacing:.06em;
+    line-height:1.78;
+    word-break:break-all;
+    color:var(--verdigris);
+  }
+  .greek-foot{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:14px;
+    flex-wrap:wrap;
+    margin-top:16px;
+    padding-top:13px;
+    border-top:1px solid var(--rule);
+  }
+  .greek-foot .hint{
+    font-family:var(--sans);
+    font-size:12px;
+    color:var(--ink-faint);
+    margin:0;
+    max-width:56ch;
+  }
+  button.spacer{
+    font-family:var(--util);
+    font-size:10.5px;
+    letter-spacing:.12em;
+    text-transform:uppercase;
+    background:transparent;
+    border:1px solid var(--verdigris);
+    color:var(--verdigris);
+    padding:6px 12px;
+    border-radius:2px;
+    cursor:pointer;
+    white-space:nowrap;
+    transition:background .15s,color .15s;
+  }
+  button.spacer:hover{background:var(--verdigris);color:var(--panel)}
+  button.spacer:focus-visible{outline:2px solid var(--rubric);outline-offset:3px}
+
+  /* ---------- panels ---------- */
+  .panels{
+    display:grid;
+    gap:clamp(18px,1.8vw,26px);
+    grid-template-columns:repeat(var(--cols,3),minmax(0,1fr));
+    align-items:start;
+  }
+  .panel{
+    background:var(--panel);
+    padding:clamp(20px,2.2vw,28px);
+    border-top:2px solid var(--ink);
+  }
+  .panel[hidden]{display:none}
+  .panel h3{
+    font-family:var(--util);
+    font-size:10.5px;
+    letter-spacing:.16em;
+    text-transform:uppercase;
+    font-weight:400;
+    color:var(--rubric);
+    margin:0 0 4px;
+  }
+  .panel .sub{
+    font-family:var(--sans);
+    font-size:11.5px;
+    color:var(--ink-faint);
+    margin:0 0 18px;
+    padding-bottom:14px;
+    border-bottom:1px solid var(--rule);
+  }
+  .panel p.text{
+    margin:0;
+    font-size:clamp(15.5px,1.15vw,17px);
+    line-height:1.78;
+    hanging-punctuation:first;
+  }
+
+  .panel--notes{background:var(--panel-notes);border-top-color:var(--verdigris)}
+  .panel--notes h3{color:var(--verdigris)}
+  .panel--notes dl{margin:0;font-family:var(--sans)}
+  .panel--notes dt{
+    font-family:var(--greek);
+    font-size:16px;
+    color:var(--ink);
+    margin-top:16px;
+  }
+  .panel--notes dt:first-of-type{margin-top:0}
+  .panel--notes dt.latin{font-family:var(--util);font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--verdigris)}
+  .panel--notes dd{
+    margin:3px 0 0;
+    font-size:13.5px;
+    line-height:1.62;
+    color:var(--ink-soft);
+  }
+  .panel--notes dd em{color:var(--ink)}
+
+  .flag{
+    display:inline-block;
+    font-family:var(--util);
+    font-size:9.5px;
+    letter-spacing:.1em;
+    text-transform:uppercase;
+    color:var(--rubric);
+    border:1px solid var(--rubric);
+    padding:1px 5px;
+    border-radius:2px;
+    margin-right:6px;
+    vertical-align:1px;
+  }
+
+  .name{color:var(--rubric)}
+  .paren{color:var(--ink-soft);font-style:italic}
+
+  /* demo block */
+  .demo{
+    margin-top:clamp(40px,5vw,64px);
+    border:1px solid var(--verdigris);
+    padding:clamp(20px,3vw,34px);
+  }
+  .demo > .kicker{
+    font-family:var(--util);
+    font-size:10.5px;
+    letter-spacing:.16em;
+    text-transform:uppercase;
+    color:var(--verdigris);
+    margin:0 0 6px;
+  }
+  .demo > .kicker-sub{
+    font-family:var(--sans);
+    font-size:13.5px;
+    color:var(--ink-soft);
+    margin:0 0 24px;
+    max-width:70ch;
+  }
+
+  footer{
+    padding-top:34px;
+    font-family:var(--sans);
+    font-size:12.5px;
+    color:var(--ink-faint);
+    max-width:70ch;
+  }
+
+  @media (max-width:860px){
+    .panels{grid-template-columns:1fr !important}
+    .controls{gap:6px;padding:11px 0 10px}
+    button.pill{padding:6px 10px;font-size:10px}
+    .controls .label{width:100%;margin-bottom:2px}
+  }
+  @media (prefers-reduced-motion:reduce){
+    *{transition:none !important;animation:none !important}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header class="masthead">
+  <p class="eyebrow">Septuagint base · exhaustive interpretation · not a translation</p>
+  <h1>Ἐν ἀρχῇ<br><em>as far as English can be made to carry it</em></h1>
+  <p class="thesis">Every load-bearing word is opened to the full range its lexicon gives it, and left open — no single English equivalent is chosen, because choosing one is where the meaning goes. Three parallel readings run against each verse: the apparatus, the unanchored text, and the anchored text. The Old Testament is read from the Greek throughout, so that when the New Testament quotes it, the quotation is visible on the page.</p>
+
+  <details class="conventions">
+    <summary>Conventions</summary>
+    <div class="conv-grid">
+      <div>
+        <h4>Unanchored</h4>
+        <p>The headword is removed entirely. The reader rebuilds the referent from the gloss-chain alone. Best for poetry, prologue, and theological argument, where the familiar word is exactly what stops the reader from seeing.</p>
+      </div>
+      <div>
+        <h4>Anchored</h4>
+        <p>The conventional word is kept and the chain trails behind it, set off by dashes. Best for narrative, law, and genealogy, where a reader needs to hold a referent across many verses without losing the thread.</p>
+      </div>
+      <div>
+        <h4>Names</h4>
+        <p>Transliterated names keep the form the Greek gives them, with the meaning in parentheses immediately after, in both reading texts. A name left unglossed is a hole in the sentence — it is a word that meant something to the first hearer and means nothing now.</p>
+      </div>
+      <div>
+        <h4>Verbal aspect</h4>
+        <p>Where the Greek aspect carries weight English cannot, it is stated in the text rather than footnoted: <em>one completed act seen whole</em> for the aorist, <em>and kept on being</em> for the imperfect.</p>
+      </div>
+      <div>
+        <h4>The apparatus</h4>
+        <p>Hebrew-to-Greek divergences stay in the notes and never enter the reading text. The Septuagint's own reading is the text; where it parts from the Masoretic Hebrew, that is a fact about the text, not a defect to be quietly repaired.</p>
+      </div>
+      <div>
+        <h4>What is not added</h4>
+        <p>No sense is imported that the Greek word does not carry, however familiar it is from other English versions. Where a well-known English phrase has no basis in this text, the notes say so.</p>
+      </div>
+    </div>
+  </details>
+</header>
+
+<div class="controls" role="group" aria-label="Show or hide reading panels">
+  <span class="label">Panels</span>
+  <button class="pill" type="button" data-panel="notes" aria-pressed="true">Notes</button>
+  <button class="pill" type="button" data-panel="open" aria-pressed="true">Unanchored</button>
+  <button class="pill" type="button" data-panel="anchor" aria-pressed="true">Anchored</button>
+</div>
+
+<!-- ===================== GENESIS 1:1 ===================== -->
+<section class="verse">
+  <div class="ref">
+    <span class="num">Genesis 1 : 1</span>
+    <span class="src">Septuagint · Rahlfs</span>
+  </div>
+
+  <div class="greekblock">
+    <p class="greek" data-greek>Ἐν ἀρχῇ ἐποίησεν ὁ θεὸς τὸν οὐρανὸν καὶ τὴν γῆν.</p>
+    <div class="greek-foot">
+      <p class="hint">The oldest manuscripts carry no spaces, no accents, no lower case. Word division is already an act of interpretation.</p>
+      <button class="spacer" type="button" data-spacer>Close the spaces</button>
+    </div>
+  </div>
+
+  <div class="panels">
+    <article class="panel panel--notes" data-panel="notes">
+      <h3>Notes</h3>
+      <p class="sub">Lexical range, aspect, and where the Greek parts from the Hebrew</p>
+      <dl>
+        <dt>ἐν ἀρχῇ</dt>
+        <dd>ἀρχή holds together two things English must split: the temporal origin-point, and ruling precedence. The second sense is alive in ἄρχων, <em>ruler</em>, and in the ἀρχ- of every English word from <em>monarch</em> to <em>architect</em>. Neither sense is optional here.</dd>
+
+        <dt>ἐποίησεν</dt>
+        <dd>Aorist active indicative, 3rd singular, of ποιέω — the everyday verb for making and doing, used of potters, poets, and God alike. <span class="flag">divergence</span> Hebrew <em>bārā'</em> is a verb that in this stem never takes a human subject. ποιέω takes any subject at all. The exclusivity — <em>this is a thing only God does</em> — is not in the Greek.</dd>
+
+        <dt>ὁ θεός</dt>
+        <dd>Articular: <em>the</em> God, the known and definite one. Renders Hebrew <em>Elohim</em>, plural in form but taking singular agreement. Greek has no way to show that and does not try.</dd>
+
+        <dt>τὸν οὐρανόν</dt>
+        <dd><span class="flag">divergence</span> Singular. Hebrew <em>šāmayim</em> is a dual or plural form — <em>heavens</em>. The LXX collapses it to one vaulted arch.</dd>
+
+        <dt>τὴν γῆν</dt>
+        <dd>γῆ runs from soil underfoot, to farmland, to a country, to dry land as against the sea, to the whole terrestrial realm. Pairing it with οὐρανός pulls toward the widest sense without cancelling the narrow ones.</dd>
+
+        <dt class="latin">Names</dt>
+        <dd>None in this verse.</dd>
+      </dl>
+    </article>
+
+    <article class="panel" data-panel="open">
+      <h3>Unanchored</h3>
+      <p class="sub">Headwords removed — the reader rebuilds the referent</p>
+      <p class="text">Within, inside of, and by means of the first moment, the origin-point, the source, the first principle from which a thing proceeds, and simultaneously the headship, the rule, and the governing precedence over all that follows, He who is God definitively, the One the article marks out, the known and the only, fashioned, wrought, manufactured, produced, performed, and brought to a finished and accomplished state — one completed act seen whole, not a process observed in progress — the vaulted arch, the sky-expanse, the region above and over; and the land, the dry ground, the soil, the territory, the terrestrial realm as the counterpart-below.</p>
+    </article>
+
+    <article class="panel" data-panel="anchor">
+      <h3>Anchored</h3>
+      <p class="sub">Headwords kept — the chain trails behind</p>
+      <p class="text">In the beginning — within, inside of, and by means of the first moment, the origin-point, the source, the first principle from which a thing proceeds, and at the same time the headship, the rule, and the governing precedence over all that follows — God, He who is God definitively, the One the article marks out, the known and the only, made: fashioned, wrought, manufactured, produced, performed, and brought to a finished and accomplished state in one completed act seen whole, not a process observed in progress — the heaven, the vaulted arch, the sky-expanse, the region above and over, and the earth, the land, the dry ground, the soil, the territory, the terrestrial realm as the counterpart-below.</p>
+    </article>
+  </div>
+</section>
+
+<!-- ===================== GENESIS 1:2 ===================== -->
+<section class="verse">
+  <div class="ref">
+    <span class="num">Genesis 1 : 2</span>
+    <span class="src">Septuagint · Rahlfs</span>
+  </div>
+
+  <div class="greekblock">
+    <p class="greek" data-greek>ἡ δὲ γῆ ἦν ἀόρατος καὶ ἀκατασκεύαστος, καὶ σκότος ἐπάνω τῆς ἀβύσσου, καὶ πνεῦμα θεοῦ ἐπεφέρετο ἐπάνω τοῦ ὕδατος.</p>
+    <div class="greek-foot">
+      <p class="hint">Closed, the line is what a fourth-century reader actually met on the page.</p>
+      <button class="spacer" type="button" data-spacer>Close the spaces</button>
+    </div>
+  </div>
+
+  <div class="panels">
+    <article class="panel panel--notes" data-panel="notes">
+      <h3>Notes</h3>
+      <p class="sub">Lexical range, aspect, and where the Greek parts from the Hebrew</p>
+      <dl>
+        <dt>δέ</dt>
+        <dd>A soft adversative, not the hard ἀλλά. It pivots the narrative without contradicting what came before: <em>however, whereas, on the other hand</em>.</dd>
+
+        <dt>ἦν</dt>
+        <dd>Imperfect of εἰμί. Durative — a condition that held and kept holding, not a snapshot. English <em>was</em> is aspectually blank, so the duration has to be spelled out.</dd>
+
+        <dt>ἀόρατος καὶ ἀκατασκεύαστος</dt>
+        <dd><span class="flag">divergence</span> The single largest departure in the verse, and possibly in the chapter. Hebrew <em>tōhû wā-bōhû</em> is desolation and emptiness — trackless waste, ruin, the wilderness where nothing is. The Greek says <em>invisible and un-outfitted</em>: a thing that exists but is neither perceptible nor yet furnished. On this reading Philo and much of the patristic tradition built a pre-cosmic, formless substrate. It is not what the Hebrew says.</dd>
+
+        <dt>ἀόρατος</dt>
+        <dd>Un-seeable, not presenting itself to sight. The same word Paul uses of God himself — <em>the image of the invisible God</em>, Col 1:15.</dd>
+
+        <dt>ἀκατασκεύαστος</dt>
+        <dd>Built on κατασκευή: the full outfitting of a house or a ship — fittings, provisions, installed equipment. <em>Formless</em> is too abstract; the word means <em>not yet fitted out</em>.</dd>
+
+        <dt>ἄβυσσος</dt>
+        <dd>a-βυσσος, <em>without a sounding</em> — a depth no plumb line reaches. Renders Hebrew <em>tĕhôm</em>, the primeval deep.</dd>
+
+        <dt>πνεῦμα θεοῦ</dt>
+        <dd>Anarthrous. πνεῦμα and Hebrew <em>rûaḥ</em> share the same triple range — wind, breath, spirit — one of the rare places where the two languages line up exactly and nothing at all is lost.</dd>
+
+        <dt>ἐπεφέρετο</dt>
+        <dd><span class="flag">divergence</span> Imperfect middle-passive of ἐπιφέρω, <em>to be borne upon</em>. Hebrew <em>mĕraḥepet</em> is a bird word — hovering, fluttering, brooding over young, used of an eagle over the nest in Deut 32:11. The Greek is a current, not a wing.</dd>
+
+        <dt>ἐπάνω τοῦ ὕδατος</dt>
+        <dd><span class="flag">not in this text</span> The familiar <em>face of the waters</em> is not here. The Hebrew has <em>face of</em> at both points; the LXX drops it at both. ὕδατος is also singular against Hebrew plural <em>mayim</em>.</dd>
+
+        <dt class="latin">Names</dt>
+        <dd>None in this verse.</dd>
+      </dl>
+    </article>
+
+    <article class="panel" data-panel="open">
+      <h3>Unanchored</h3>
+      <p class="sub">Headwords removed — the reader rebuilds the referent</p>
+      <p class="text">But — however, whereas, on the other hand — the land, the dry ground, the terrestrial realm was, and kept on being as a standing and continuing condition and not a momentary one, unseeable, un-viewable, not presenting itself to the eye, imperceptible to sight; and un-built-out, unfurnished, unequipped, unprovisioned, not fitted out with its appointments, lacking the constructed arrangement that a full outfitting would supply. And obscurity, gloom, the privation and the absence of light lay upon, over, and atop the bottomless, the depth without a floor to sound, the unfathomable and unmeasurable deep. And Breath, wind, moving air, respiration, Spirit — God's own, divine in character — was being borne along, carried over, swept upon, brought continuously to bear over and atop the water.</p>
+    </article>
+
+    <article class="panel" data-panel="anchor">
+      <h3>Anchored</h3>
+      <p class="sub">Headwords kept — the chain trails behind</p>
+      <p class="text">But the earth — the land, the dry ground, the terrestrial realm — was, and kept on being as a standing and continuing condition, invisible — unseeable, un-viewable, not presenting itself to the eye, imperceptible to sight — and unfurnished — un-built-out, unequipped, unprovisioned, not fitted out with its appointments, lacking the constructed arrangement that a full outfitting would supply. And darkness — obscurity, gloom, the privation and the absence of light — was upon, over, and atop the abyss — the bottomless, the depth without a floor to sound, the unfathomable and unmeasurable deep. And the Breath of God — wind, moving air, respiration, Spirit, God's own and divine in character — was being borne along — carried over, swept upon, brought continuously to bear — over and atop the water.</p>
+    </article>
+  </div>
+</section>
+
+<!-- ===================== JOHN 1:1 ===================== -->
+<section class="verse">
+  <div class="ref">
+    <span class="num">John 1 : 1</span>
+    <span class="src">Nestle-Aland</span>
+  </div>
+
+  <div class="greekblock">
+    <p class="greek" data-greek>Ἐν ἀρχῇ ἦν ὁ λόγος, καὶ ὁ λόγος ἦν πρὸς τὸν θεόν, καὶ θεὸς ἦν ὁ λόγος.</p>
+    <div class="greek-foot">
+      <p class="hint">Closed, the first three letters are the same three that open Genesis. That is the point of the verse.</p>
+      <button class="spacer" type="button" data-spacer>Close the spaces</button>
+    </div>
+  </div>
+
+  <div class="panels">
+    <article class="panel panel--notes" data-panel="notes">
+      <h3>Notes</h3>
+      <p class="sub">Lexical range, aspect, and the grammar English cannot reproduce</p>
+      <dl>
+        <dt>Ἐν ἀρχῇ</dt>
+        <dd>Word for word the opening of LXX Genesis. John is quoting the <em>Greek</em> Old Testament, not the Hebrew. On a Septuagint base the citation is simply visible on the page instead of buried in a footnote — which is the whole argument for reading the Old Testament in Greek alongside the New.</dd>
+
+        <dt>ἦν</dt>
+        <dd>Imperfect of εἰμί — and emphatically <em>not</em> ἐγένετο, <em>came to be</em>, which the prologue reserves for created things from verse 3 onward. The entire architecture of the passage rests on this one contrast, and English <em>was</em> carries none of it. Hence the expansion: <em>was already in unbroken existence without any point of having come to be</em>.</dd>
+
+        <dt>ὁ λόγος</dt>
+        <dd>Articular. The range: the spoken word, the utterance, the thing said; the account or reckoning, as in rendering an account; ratio and proportion; reasoned discourse; and in Stoic usage the rational principle ordering the cosmos. English <em>Word</em> keeps the speech and drops the reason. Latin had the same problem — <em>verbum</em> won, though <em>sermo</em> held more.</dd>
+
+        <dt>πρὸς τὸν θεόν</dt>
+        <dd>πρός with the accusative is directional: toward, facing, up against. It is not παρά (beside), not μετά (in company with), not σύν (together with) — any of which the writer could have used. English <em>with</em> is static; πρός is vectored. This is the largest single loss in the standard versions.</dd>
+
+        <dt>θεὸς ἦν ὁ λόγος</dt>
+        <dd>The predicate θεός stands without the article and is thrown to the front; ὁ λόγος carries the article and is the subject. A fronted anarthrous predicate nominative is normally <em>qualitative</em> — it says what the subject is by nature, not which individual it is identical with. So: not <em>the Word was the Father</em>, which the article placement refuses, and not <em>a god</em>, which the fronting refuses. Word order does work here that no English word order can do, which is why this clause has been fought over for eighteen centuries.</dd>
+
+        <dt class="latin">Names</dt>
+        <dd>None. λόγος is expanded rather than transliterated; <em>Logos</em> is retained only where the reading text needs the noun to function as a title.</dd>
+      </dl>
+    </article>
+
+    <article class="panel" data-panel="open">
+      <h3>Unanchored</h3>
+      <p class="sub">Headwords removed — the reader rebuilds the referent</p>
+      <p class="text">Within, inside of, and by means of the first moment, the origin-point, the source, the first principle, the headship and the governing precedence over all that follows — the same opening with which the first book begins — there was, and was continuously, and was already in unbroken existence without any point of having come to be, the Utterance, the spoken Word, the thing-said, the Account, the Reckoning, the Rationale, the Reasoned Discourse, the intelligible ordering by which a mind is expressed and by which that mind itself coheres. And the Utterance, the Account, was and remained toward the God — facing Him, oriented to Him, in living motion and address toward Him, held face to face in a nearness that never collapses into sameness. And everything that God is by nature, deity in full and undiminished kind, was what that Utterance was.</p>
+    </article>
+
+    <article class="panel" data-panel="anchor">
+      <h3>Anchored</h3>
+      <p class="sub">Headwords kept — the chain trails behind</p>
+      <p class="text">In the beginning — within, inside of, and by means of the first moment, the origin-point, the source, the first principle, the headship and the governing precedence over all that follows — was the Word, the Logos: the Utterance, the spoken Word, the thing-said, the Account, the Reckoning, the Rationale, the Reasoned Discourse, the intelligible ordering by which a mind is expressed and by which that mind itself coheres — was, and was continuously, and was already in unbroken existence without any point of having come to be. And the Word was with God — toward the God, facing Him, oriented to Him, in living motion and address toward Him, held face to face in a nearness that never collapses into sameness. And the Word was God — everything that God is by nature, deity in full and undiminished kind, was what that Word was.</p>
+    </article>
+  </div>
+</section>
+
+<!-- ===================== JOHN 1:2 ===================== -->
+<section class="verse">
+  <div class="ref">
+    <span class="num">John 1 : 2</span>
+    <span class="src">Nestle-Aland</span>
+  </div>
+
+  <div class="greekblock">
+    <p class="greek" data-greek>οὗτος ἦν ἐν ἀρχῇ πρὸς τὸν θεόν.</p>
+    <div class="greek-foot">
+      <p class="hint">Six words, and every one of them has already appeared in verse 1.</p>
+      <button class="spacer" type="button" data-spacer>Close the spaces</button>
+    </div>
+  </div>
+
+  <div class="panels">
+    <article class="panel panel--notes" data-panel="notes">
+      <h3>Notes</h3>
+      <p class="sub">Lexical range, aspect, and the grammar English cannot reproduce</p>
+      <dl>
+        <dt>οὗτος</dt>
+        <dd>Near demonstrative — <em>this one here</em>. It gathers up everything just said and pins it to one referent, which is why the expansion adds <em>and no other</em>.</dd>
+
+        <dt class="latin">Function of the verse</dt>
+        <dd>It restates 1a and 1b together, and its work is to block a reading in which the θεός of 1c is a different party from the τὸν θεόν of 1b. The one who is God by nature is the same one who stands face to face toward God. The verse looks redundant in English and is not redundant in Greek.</dd>
+
+        <dt>ἦν</dt>
+        <dd>The fourth imperfect in two verses. Still no ἐγένετο. The writer is being relentless, and a version that renders all four as a flat <em>was</em> hides the relentlessness.</dd>
+
+        <dt class="latin">Names</dt>
+        <dd>None in this verse.</dd>
+      </dl>
+    </article>
+
+    <article class="panel" data-panel="open">
+      <h3>Unanchored</h3>
+      <p class="sub">Headwords removed — the reader rebuilds the referent</p>
+      <p class="text">This same one, this very one and no other, was — continuously, and without any point of having come to be — within, inside of, and by means of the first moment, the origin-point, the source, the first principle, facing, oriented toward, and in living address toward the God.</p>
+    </article>
+
+    <article class="panel" data-panel="anchor">
+      <h3>Anchored</h3>
+      <p class="sub">Headwords kept — the chain trails behind</p>
+      <p class="text">This one — this same one, this very one and no other — was, continuously and without any point of having come to be, in the beginning — the first moment, the origin-point, the source, the first principle — with God: toward Him, facing Him, oriented to Him, in living address toward Him.</p>
+    </article>
+  </div>
+</section>
+
+<!-- ===================== NAME CONVENTION DEMO ===================== -->
+<section class="demo">
+  <p class="kicker">Convention demonstrated · John 1 : 6</p>
+  <p class="kicker-sub">None of the four verses above contains a proper name, so here is the naming rule working on the first one the prologue offers — a verse that also puts the ἦν / ἐγένετο contrast on display.</p>
+
+  <div class="greekblock">
+    <p class="greek" data-greek>Ἐγένετο ἄνθρωπος ἀπεσταλμένος παρὰ θεοῦ, ὄνομα αὐτῷ Ἰωάννης·</p>
+    <div class="greek-foot">
+      <p class="hint">The sentence opens with the verb the Logos was never given.</p>
+      <button class="spacer" type="button" data-spacer>Close the spaces</button>
+    </div>
+  </div>
+
+  <div class="panels">
+    <article class="panel panel--notes" data-panel="notes">
+      <h3>Notes</h3>
+      <p class="sub">Lexical range, aspect, and the naming rule</p>
+      <dl>
+        <dt>Ἐγένετο</dt>
+        <dd>Aorist middle of γίνομαι — <em>came to be, came into existence, arose</em>. Placed first for emphasis. This is precisely the verb withheld from the Logos in verses 1–2, and it arrives the moment a creature enters the sentence.</dd>
+
+        <dt>ἀπεσταλμένος</dt>
+        <dd>Perfect passive participle of ἀποστέλλω — sent off on another's authority, dispatched with a commission. The perfect makes it a standing status, not a past errand. Root of ἀπόστολος.</dd>
+
+        <dt>Ἰωάννης</dt>
+        <dd><span class="flag">name</span> A Greek transliteration of Hebrew <em>Yôḥānān</em>, a compound of the divine name with the verb <em>ḥānan</em>, to show favour or be gracious: <em>Yah has shown favour</em>. The name is kept in the Greek form and glossed in parentheses. It is not translated away, because it is what the man was called; it is not left bare, because to the first hearers it was a sentence.</dd>
+      </dl>
+    </article>
+
+    <article class="panel" data-panel="open">
+      <h3>Unanchored</h3>
+      <p class="sub">Headwords removed — the reader rebuilds the referent</p>
+      <p class="text">There came to be, there arose, there was brought into existence — and it is this verb, the one withheld until now, that arrives first in the sentence — a man, a human being, one sent off, dispatched, and commissioned on another's authority, from alongside and from the side of God; and the name belonging to him: <span class="name">Iōannēs</span> <span class="paren">(Ἰωάννης, from Hebrew Yôḥānān, "Yah has shown favour")</span>.</p>
+    </article>
+
+    <article class="panel" data-panel="anchor">
+      <h3>Anchored</h3>
+      <p class="sub">Headwords kept — the chain trails behind</p>
+      <p class="text">There came to be a man — there arose, there was brought into existence, a human being — sent from God: sent off, dispatched, and commissioned on another's authority, from alongside and from the side of God — whose name was <span class="name">John</span> <span class="paren">(Ἰωάννης, from Hebrew Yôḥānān, "Yah has shown favour")</span>.</p>
+    </article>
+  </div>
+</section>
+
+<footer>
+  <p>Genesis follows the Septuagint (Rahlfs–Hanhart); John follows Nestle-Aland. Divergence notes compare the Greek against the Masoretic Hebrew and never alter the reading text. Where an English phrase familiar from other versions has no basis in the Greek, the notes mark it rather than supplying it.</p>
+</footer>
+
+</div>
+
+<script>
+(function(){
+  /* ---- panel visibility ---- */
+  var buttons = document.querySelectorAll('.pill');
+  function apply(){
+    var on = [];
+    buttons.forEach(function(b){
+      if(b.getAttribute('aria-pressed') === 'true') on.push(b.dataset.panel);
+    });
+    document.querySelectorAll('.panel').forEach(function(p){
+      p.hidden = on.indexOf(p.dataset.panel) === -1;
+    });
+    document.querySelectorAll('.panels').forEach(function(g){
+      g.style.setProperty('--cols', Math.max(on.length, 1));
+    });
+  }
+  buttons.forEach(function(b){
+    b.addEventListener('click', function(){
+      var pressed = b.getAttribute('aria-pressed') === 'true';
+      var count = 0;
+      buttons.forEach(function(x){ if(x.getAttribute('aria-pressed') === 'true') count++; });
+      if(pressed && count === 1) return; /* never hide the last panel */
+      b.setAttribute('aria-pressed', pressed ? 'false' : 'true');
+      apply();
+    });
+  });
+
+  /* narrow screens open on the unanchored reading only */
+  if(window.matchMedia('(max-width: 860px)').matches){
+    buttons.forEach(function(b){
+      b.setAttribute('aria-pressed', b.dataset.panel === 'open' ? 'true' : 'false');
+    });
+  }
+  apply();
+
+  /* ---- signature: scriptio continua ---- */
+  function uncial(s){
+    return s.normalize('NFD')
+            .replace(/[\u0300-\u036f\u0345]/g, '')
+            .toUpperCase()
+            .replace(/[^\u0391-\u03A9]/g, '');
+  }
+  document.querySelectorAll('[data-spacer]').forEach(function(btn){
+    var block = btn.closest('.greekblock');
+    var line  = block.querySelector('[data-greek]');
+    var open  = line.textContent;
+    var shut  = uncial(open);
+    var closed = false;
+    btn.addEventListener('click', function(){
+      closed = !closed;
+      line.textContent = closed ? shut : open;
+      line.classList.toggle('closed', closed);
+      btn.textContent = closed ? 'Open the spaces' : 'Close the spaces';
+      btn.setAttribute('aria-pressed', closed ? 'true' : 'false');
+    });
+  });
+})();
+</script>
+</body>
+</html>
