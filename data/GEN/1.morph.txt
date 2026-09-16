@@ -1,8 +1,7 @@
 # Genesis 1 — morphology, one word per line.
 #
-# This is the project's own grammatical analysis of each form. It is not copied from
-# the CCAT tagging in sources/, which may not be redistributed; build/validate.py
-# checks it against CCAT locally and reports any disagreement.
+# This is the project's own grammatical analysis of each form, written alongside the
+# transcription and not copied from any digital edition.
 #
 # Columns: verse, part of speech, parse, form, lemma — in MorphGNT's code scheme, so
 # the Old and New Testament layers read alike. The parse is eight places: person,

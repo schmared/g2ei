@@ -1,6 +1,5 @@
-# Third-party source editions — deliberately not redistributed.
-# The Rahlfs data is CC BY-NC-SA 4.0 and its upstream gates access behind a CCAT
-# user declaration. See NOTICE.md. sources/README.md says how to fetch them.
+# Third-party source editions — fetched, not redistributed. NOTICE.md has their terms;
+# sources/README.md says how to fetch them.
 /sources/*
 !/sources/README.md
 

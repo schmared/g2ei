@@ -177,7 +177,7 @@ verse's Greek changes without the layer being rebuilt.
 
 | | lemma and parse | senses |
 | --- | --- | --- |
-| Old Testament | the project's own analysis, `data/<BOOK>/<chapter>.morph.txt`, checked against CCAT locally | Middle Liddell (1889); LSJ (PerseusDL) where it has no entry |
+| Old Testament | the project's own analysis, `data/<BOOK>/<chapter>.morph.txt` | Middle Liddell (1889); LSJ (PerseusDL) where it has no entry |
 | New Testament | MorphGNT's analysis of the SBLGNT, in `sources/morphgnt/` | Middle Liddell (1889); LSJ where it has no entry |
 
 A `.morph.txt` file is one word per line in MorphGNT's code scheme, so both testaments read
@@ -235,8 +235,8 @@ One chapter per session. Commit per chapter, with the reference as the message.
 | `names` | every proper name in the Greek glossed on first occurrence **in the chapter**, and bare thereafter |
 | `banned` | no phrase from `BANNED_PHRASES` in either panel |
 | `anchors` | no headword stands bare — none written as plain text outside its unit |
-| `words` | the word-by-word layer, where there is one, still matches the verse's Greek; for the LXX, the project's own morphology agrees with CCAT's |
-| `greek` | New Testament character-for-character against SBLGNT; Old Testament word forms against CCAT — the pointing is checked by transcribing it from the page |
+| `words` | the word-by-word layer, where there is one, still matches the verse's Greek |
+| `greek` | New Testament character-for-character against SBLGNT; the Old Testament against the printed page each verse cites |
 
 `BANNED_PHRASES` and `ANCHORS` are maintained editorial lists at the top of
 `build/validate.py`. They grow as chapters are written.
@@ -267,19 +267,17 @@ nominative in `names` on a shared accent-stripped prefix, so Ἰωάννου fin
 
 ## Where the Old Testament Greek comes from
 
-Every freely available digital Rahlfs descends from the CCAT/CATSS `lxxmorph` database, and
-CCAT's user agreement requires recipients to control access and to have anyone they pass any
-portion to sign it — which an open repository cannot do. So nothing from it is committed.
-Instead:
+Every freely available digital Rahlfs carries terms this repository cannot pass on, so none
+of them is used or committed. Instead:
 
 - **The Greek is transcribed by hand from Rahlfs's printed 1935 edition**, from the 1950
   printing (a reprint of the same text) scanned at the Internet Archive. Each verse cites its
-  page in `print`, and the punctuation is Rahlfs's own. Genesis 1:1–2, transcribed, matches
-  what was here before, character for character.
+  page in `print`, and the punctuation is Rahlfs's own.
 - **The Old Testament morphology is the project's own analysis**, in
-  `data/<BOOK>/<chapter>.morph.txt`.
-- **CCAT stays in `sources/`, uncommitted, as a check.** `validate.py` compares the
-  transcription's word forms, and the morphology, against it — locally.
+  `data/<BOOK>/<chapter>.morph.txt`, written alongside the transcription.
+- **Both can be cross-checked** against a local Rahlfs morphological module, if
+  `LXX_RAHLFS_DIR` points at one. Nothing here needs it, none is distributed with this
+  repository, and without it those two checks report `SKIP`.
 
 Swete's edition, the open alternative, was tested and set aside. Codex Vaticanus has lost
 Genesis 1–46, so there Swete prints Alexandrinus — a different text from Rahlfs, with its own
@@ -304,11 +302,9 @@ The content licence covers this project's own contributions — the notes, the g
 the two reading texts, and its own Septuagint morphology. The Greek source lines are
 quotations from the editions below and stay under their terms.
 
-**`sources/` is not committed.** The CCAT Septuagint data carries a user agreement an open
-repository cannot meet, and CC BY-NC-SA terms that could not sit under this project's
-licences, so it is used locally as a check and never copied into `data/`.
-[`sources/README.md`](sources/README.md) has fetch instructions; without the sources, the
-checks that need them report `SKIP` and the rest still run.
+**`sources/` is not committed.** The source editions are fetched rather than redistributed;
+[`sources/README.md`](sources/README.md) has the instructions. Without them the checks that
+need them report `SKIP` and the rest still run.
 
 | source | licence | used for |
 | --- | --- | --- |
@@ -317,6 +313,5 @@ checks that need them report `SKIP` and the rest still run.
 | MorphGNT | **CC BY-SA 3.0**, adaptable under CC BY-SA 4.0 — J. K. Tauber, ed. | NT lemma and parse |
 | Middle Liddell (1889), Perseus XML | text out of copyright; digital edition **CC BY-SA 3.0 US** | headwords and lexicon senses |
 | LSJ, PerseusDL edition | **CC BY-SA 4.0** | senses Middle Liddell lacks |
-| LXX-Rahlfs-1935 (CCAT) | **CC BY-NC-SA 4.0** and the CCAT user agreement | local checks only — never committed |
 
 Full attributions and the reasoning are in [`NOTICE.md`](NOTICE.md).

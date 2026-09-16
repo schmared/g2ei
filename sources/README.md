@@ -4,9 +4,9 @@ The Greek editions this project reads from. **They are not committed** — every
 directory except this file is excluded by [`../.gitignore`](../.gitignore). See
 [`../NOTICE.md`](../NOTICE.md) for why.
 
-Fetch them here before running `python build/validate.py`. Without them the `greek` check
-cannot run; it reports `SKIP` and the summary says so explicitly rather than passing
-quietly. The other four checks work without any of this.
+Fetch them here before running `python build/words.py` or `python build/validate.py`.
+Without the SBLGNT the `greek` check cannot run: it reports `SKIP` and the summary says so
+explicitly rather than passing quietly. Every other check works without any of this.
 
 ## New Testament — SBL Greek New Testament
 
@@ -54,33 +54,18 @@ leaf: in volume I, leaf 26 is the title page and **leaf 27's right-hand page is 
 p. 1**. A single leaf is at `https://archive.org/download/<item>/page/n27.jpg`. Cite the
 printed page in each verse's `print` field. Don't commit the images.
 
-## Old Testament — the CCAT data, for checking only
-
-**Used only by `validate.py`**, to check the transcription's word forms and the project's own
-morphology. Nothing from it is copied into `data/`. It is CC BY-NC-SA 4.0, **and the upstream repository asks that you agree to send a CCAT user
-declaration before downloading any of its data.** Read
-<https://github.com/eliranwong/LXX-Rahlfs-1935> and the
-[CCAT declaration](http://ccat.sas.upenn.edu/gopher/text/religion/biblical/lxxmorph/0-user-declaration.txt)
-first, and do not download if you do not agree.
-
-```bash
-git clone --depth 1 https://github.com/eliranwong/LXX-Rahlfs-1935.git sources/LXX-Rahlfs-1935
-```
-
-`validate.py` reads the MyBible module at
-`sources/LXX-Rahlfs-1935/11_end-users_files/MyBible/Bibles/LXX1.SQLite3`, table `verses`,
-stripping the `<S>`/`<m>` tags to recover the word forms and parse codes, and the
-`09a_LXX_lexicon` for each word's lemma — the local check on `data/*/*.morph.txt`. Nothing
-else reads it: `build/words.py` takes its senses from the Perseus Middle Liddell above.
-
 ## What these can and cannot verify
 
 | | word forms | accents | punctuation | capitalisation |
 | --- | --- | --- | --- | --- |
 | SBLGNT | yes | yes | yes | yes |
-| Rahlfs (CCAT-derived) | yes | yes | **no** | **no** |
 | Rahlfs, printed (the scan above) | yes | yes | yes | yes |
 
-The CCAT data is a word-level morphological analysis with no sentence punctuation, so it can
-check a transcription's words but not its pointing. The pointing comes from the printed page
-each verse cites.
+The New Testament is checked mechanically, character for character. The Old Testament has no
+digital edition behind it at all: its Greek — words, accents and pointing alike — comes from
+the printed page each verse cites in `print`, and its morphology is the project's own
+analysis.
+
+`validate.py` can cross-check those two against a local Rahlfs morphological module if the
+environment variable `LXX_RAHLFS_DIR` points at one. Nothing in the repository needs it, no
+such module is distributed with it, and without it both checks report `SKIP`.

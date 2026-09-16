@@ -183,8 +183,8 @@ def main():
     print()
     print("%d case%s wrong" % (bad, "" if bad == 1 else "s") if bad else "all cases as expected")
     if skipped:
-        print("%d negative case%s skipped for want of sources/ — see sources/README.md"
-              % (skipped, "" if skipped == 1 else "s"))
+        print("%d negative case%s skipped — the check needs a source this repository does "
+              "not carry; see sources/README.md" % (skipped, "" if skipped == 1 else "s"))
     return 1 if bad else 0
 
 

@@ -17,9 +17,8 @@ whole range, *and* what this particular form adds to it.
 
 Where the lemma and parse come from:
 
-    LXX books   data/<BOOK>/<chapter>.morph.txt — the project's own analysis. The CCAT
-                tagging in sources/ may not be redistributed, so it is used only by
-                validate.py, as a local check on that analysis.
+    LXX books   data/<BOOK>/<chapter>.morph.txt — the project's own analysis, written
+                a chapter at a time alongside the transcription.
     NT books    sources/morphgnt/ — MorphGNT, CC BY-SA.
 
 Senses come from Middle Liddell (1889) in the Perseus Digital Library's XML (CC BY-SA
@@ -65,8 +64,7 @@ _SENSES_NOTE = ("Senses: Middle Liddell (1889; Perseus Digital Library, CC BY-SA
                 "entry. Middle/passive marks a tense in which the two voices share one "
                 "form; masculine/feminine, an adjective whose form does not distinguish them.")
 SOURCE_NOTE = {
-    "lxx": "Dictionary form and parse: this project's own analysis, checked against the "
-           "CCAT analysis of Rahlfs. " + _SENSES_NOTE,
+    "lxx": "Dictionary form and parse: this project's own analysis. " + _SENSES_NOTE,
     "nt": "Dictionary form and parse: MorphGNT's analysis of the SBLGNT. " + _SENSES_NOTE,
 }
 

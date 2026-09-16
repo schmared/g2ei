@@ -19,8 +19,9 @@ To attribute the content, name the project and link back to it, and keep derivat
 interpretive work under CC BY-SA 4.0.
 
 Everything committed to this repository is either the project's own work, out of copyright,
-or openly licensed. Nothing is copied from the CCAT Septuagint data, which carries terms an
-open repository cannot meet (see below).
+or openly licensed. The source editions in `sources/` are fetched, not redistributed:
+[`.gitignore`](.gitignore) excludes them, and [`sources/README.md`](sources/README.md) says
+where each one comes from.
 
 ## Source editions
 
@@ -54,30 +55,6 @@ all. Printed a verse at a time beside commentary, the practical risk is small, a
 question lapses entirely in 2031. *Rahlfs–Hanhart* (2006) is a later revision under
 Deutsche Bibelgesellschaft copyright and is not used.
 
-### Reference only — the CCAT Septuagint data
-
-> LXX-Rahlfs-1935, copyright 2017 Eliran Wong, licensed under
-> [CC BY-NC-SA 4.0](http://creativecommons.org/licenses/by-nc-sa/4.0/).
-> <https://github.com/eliranwong/LXX-Rahlfs-1935>
-> Based on CCAT/CATSS at the University of Pennsylvania
-> (<http://ccat.sas.upenn.edu/gopher/text/religion/biblical/lxxmorph/>), directed by
-> Robert Kraft; the CCAT material is itself derivative, from the Thesaurus Linguae Graecae
-> and with permissions from the United Bible Societies among others.
-
-This dataset is used **only locally, to check** the transcription's word forms and the
-project's own morphology. Nothing from it is committed. Its terms rule out committing it:
-
-1. **The CCAT user agreement** requires anyone who receives the material to control access
-   to it, and to have anyone they pass *any portion* to sign the agreement too. An open
-   repository can do neither. This holds whether or not money is involved.
-2. **NonCommercial and ShareAlike.** CC BY-NC-SA 4.0 material can only be passed on under
-   CC BY-NC-SA 4.0, so it could not sit under this project's CC BY-SA 4.0 or MIT licences,
-   which permit commercial use downstream.
-
-`sources/` is therefore excluded by [`.gitignore`](.gitignore). Anyone who wants to run the
-checks fetches it and signs CCAT's agreement themselves — see
-[`sources/README.md`](sources/README.md).
-
 ## The word-by-word files
 
 `data/*/*.words.json` record, for each word of the verses rendered, its dictionary form, its
@@ -85,7 +62,7 @@ parse — restated in plain English by `build/words.py` — and the opening sens
 entry.
 
 - **Old Testament lemma and parse** are the project's own analysis, in
-  `data/*/*.morph.txt`, checked against the CCAT analysis locally. They are original to this
+  `data/*/*.morph.txt`, written alongside the transcription. They are original to this
   project and fall under the content licence.
 - **New Testament lemma and parse** come from MorphGNT, CC BY-SA 3.0, which may be adapted
   under CC BY-SA 4.0:
@@ -101,7 +78,5 @@ entry.
   Where it has no entry, senses are from LSJ as published by
   [PerseusDL](https://github.com/PerseusDL/lexica), CC BY-SA 4.0 — at present for one word,
   ἀκατασκεύαστος.
-
-The build reads nothing from the CCAT dataset; only `validate.py` does, as a local check.
 
 None of this is legal advice.

@@ -21,7 +21,10 @@ Six checks — the five CLAUDE.md asks for, and one for the word-by-word layer:
            inside its own chain — the chain is the whole range, the headword its
            first sense.)
   words    the word-by-word file, where there is one, still matches the verse's Greek
-  greek    the Greek matches the source edition in sources/ character-for-character
+  greek    the New Testament, character-for-character against the SBLGNT in sources/.
+           The Old Testament is transcribed from the printed Rahlfs, so its word forms
+           are cross-checked only where LXX_RAHLFS_DIR points at a local morphological
+           module; otherwise that check, and the one on our own morphology, report SKIP
 
 Both reading panels are derived from the one `reading` string (see build/render.py),
 so they cannot disagree with each other. These checks are about what that string says.
@@ -32,6 +35,7 @@ written; see the comments on each.
 import argparse
 import html
 import json
+import os
 import pathlib
 import re
 import sqlite3
@@ -50,7 +54,14 @@ FLAGS = {None, "divergence", "not in this text", "name", "variant"}
 # MyBible module; NT books from the SBLGNT plain-text files.
 EDITIONS = {"GEN": "lxx", "JHN": "sblgnt"}
 
-LXX_DB = SOURCES / "LXX-Rahlfs-1935/11_end-users_files/MyBible/Bibles/LXX1.SQLite3"
+# The two Old Testament cross-checks are optional and off by default. They read a local
+# Rahlfs morphological module, which is no part of this repository and never a source for
+# it: the Greek in data/ is transcribed from the printed page each verse cites, and the
+# morphology in data/*/*.morph.txt is the project's own. Point LXX_RAHLFS_DIR at a module
+# to turn them on for a session; without it both report SKIP and everything else runs.
+_RAHLFS_DIR = os.environ.get("LXX_RAHLFS_DIR")
+LXX_RAHLFS = pathlib.Path(_RAHLFS_DIR) if _RAHLFS_DIR else None
+LXX_DB = LXX_RAHLFS / "11_end-users_files/MyBible/Bibles/LXX1.SQLite3" if LXX_RAHLFS else None
 SBLGNT_DIR = SOURCES / "sblgnt/text"
 
 
@@ -436,11 +447,11 @@ def check_words(book, chapter, verses, rep):
     rep.done("words", "%d verses match the Greek" % len(verses), before)
 
 
-LXX_LEXEMES = SOURCES / "LXX-Rahlfs-1935/09a_LXX_lexicon/01-04.csv"
+LXX_LEXEMES = LXX_RAHLFS / "09a_LXX_lexicon/01-04.csv" if LXX_RAHLFS else None
 FEATURES = ("person", "tense", "voice", "mood", "case", "number", "gender")
 
 
-def ccat_features(code):
+def module_features(code):
     """lxx.V.AAI3S -> {tense: A, voice: A, mood: I, person: 3, number: S}"""
     code = code[4:] if code.startswith("lxx.") else code
     pos, _, f = code.partition(".")
@@ -460,8 +471,8 @@ def morph_features(code):
 
 
 def agrees(ours, theirs):
-    """Our analysis against CCAT's. Part of speech is not compared — the two schemes
-    label δέ, for instance, differently. Our E (middle/passive) and C
+    """Our analysis against the module's. Part of speech is not compared — the two
+    schemes label δέ, for instance, differently. Our E (middle/passive) and C
     (masculine/feminine) agree with either of the pair they stand for."""
     either = {("voice", "E"): {"M", "P", "E"}, ("gender", "C"): {"M", "F", "C"}}
     for k in FEATURES:
@@ -472,17 +483,19 @@ def agrees(ours, theirs):
 
 
 def check_analysis(book, chapter, rep):
-    """The project's own LXX morphology against the CCAT analysis, locally.
+    """The project's own LXX morphology against a local module, where one is configured.
 
-    CCAT is a reference here, never a source: nothing from it is written into data/.
+    A reference, never a source: nothing from it is written into data/, and the check is
+    optional — see the note on LXX_RAHLFS above.
     """
     import words
     morph = words.read_morph(book, chapter)
     if morph is None:
         rep.fail("words", "%s %d" % (book, chapter), "no data/%s/%d.morph.txt" % (book, chapter))
         return
-    if not (LXX_DB.exists() and LXX_LEXEMES.exists()):
-        rep.skip("words", "our analysis not checked against CCAT — sources/ absent")
+    if not (LXX_DB and LXX_DB.exists() and LXX_LEXEMES.exists()):
+        rep.skip("words", "our morphology not cross-checked — no local module "
+                          "(set LXX_RAHLFS_DIR)")
         return
     lemmas = {}
     for line in LXX_LEXEMES.read_text(encoding="utf-8").splitlines():
@@ -503,15 +516,16 @@ def check_analysis(book, chapter, rep):
         theirs = [re.match(r"(.+?)<S>(\d+)</S>.*?<m>([^<]+)</m>", t).groups()
                   for t in rows.get(verse, "").split()]
         if len(ours) != len(theirs):
-            rep.fail("words", ref, "%d words analysed, %d in CCAT" % (len(ours), len(theirs)))
+            rep.fail("words", ref, "%d words analysed, %d in the module"
+                     % (len(ours), len(theirs)))
             continue
-        for i, ((form, lemma, _, code), (_, lexeme, ccode)) in enumerate(zip(ours, theirs), 1):
+        for i, ((form, lemma, _, code), (_, lexeme, mcode)) in enumerate(zip(ours, theirs), 1):
             if nfc(lemma) != nfc(lemmas.get(lexeme, "")):
-                rep.fail("words", ref, "word %d (%s): our lemma %s, CCAT %s — check which "
-                         "is right" % (i, form, lemma, lemmas.get(lexeme, "?")))
-            elif not agrees(morph_features(code), ccat_features(ccode)):
-                rep.fail("words", ref, "word %d (%s): our parse %s, CCAT %s — check which "
-                         "is right" % (i, form, code, ccode))
+                rep.fail("words", ref, "word %d (%s): our lemma %s, the module %s — check "
+                         "which is right" % (i, form, lemma, lemmas.get(lexeme, "?")))
+            elif not agrees(morph_features(code), module_features(mcode)):
+                rep.fail("words", ref, "word %d (%s): our parse %s, the module %s — check "
+                         "which is right" % (i, form, code, mcode))
 
 
 # --------------------------------------------------------------------------
@@ -534,8 +548,10 @@ def sblgnt_source(name):
 
 
 def lxx_source(name, chapter):
-    if not LXX_DB.exists():
-        return None, "%s not found" % LXX_DB.relative_to(ROOT).as_posix()
+    if not (LXX_DB and LXX_DB.exists()):
+        return None, ("Old Testament word forms not cross-checked — no local module "
+                      "(set LXX_RAHLFS_DIR); the Greek is transcribed from the printed "
+                      "page each verse cites")
     con = sqlite3.connect(LXX_DB)
     try:
         row = con.execute(
@@ -602,9 +618,9 @@ def check_greek(book, chapter, verses, rep):
             if a != b:
                 rep.fail("greek", verse["ref"],
                          "word %d: Rahlfs %r / data %r" % (i + 1, a, b))
-    rep.done("greek", "%d verses against LXX-Rahlfs-1935" % len(verses), before)
-    rep.note("greek", "word forms checked against CCAT; the pointing is Rahlfs's own, "
-                      "transcribed from the printed page each verse cites")
+    rep.done("greek", "%d verses against the local module" % len(verses), before)
+    rep.note("greek", "word forms only; the pointing is Rahlfs's own, transcribed from "
+                      "the printed page each verse cites")
 
 
 # --------------------------------------------------------------------------
