@@ -80,6 +80,19 @@ LSJ = {
     "μώλωψ": ["mark of a stripe, weal, bruise", "blood-clot"],
     # No Middle Liddell entry. LSJ (eng5) cites GEN 4:24 and Matthew 18:22, and nothing else.
     "ἑβδομηκοντάκις": ["seventy times"],
+    # No Middle Liddell entry. LSJ (eng5) cites GEN 5:22 for the first sense; the second is
+    # the impersonal of decrees; "well pleased, satisfied" is the passive's, and the active's
+    # used intransitively. The passive's medical "get relief" is left out.
+    "εὐαρεστέω": ["to be well pleasing", "it seemed good, it was resolved",
+                  "to be well pleased, satisfied"],
+    # Middle Liddell has only the middle, διαναπαύομαι, "to rest awhile". LSJ (eng4) has
+    # the active, which GEN 5:29 διαναπαύσει ἡμᾶς is, and gives the middle's gloss after it.
+    "διαναπαύω": ["allow to rest awhile", "interrupt", "relieve", "rest awhile"],
+    # Middle Liddell has both numerals but tags no translation in either: "Lat. octo,
+    # eight", "Lat. tres, tria, three". LSJ tags them — ὀκτώ in eng16; τρεῖς is filed in
+    # eng22 under its neuter, τρία, whose entry opens "three".
+    "ὀκτώ": ["eight"],
+    "τρεῖς": ["three"],
 }
 
 # New Testament books: MorphGNT file and its book number.
@@ -226,6 +239,12 @@ NOT_SENSES = {
     "xalko/s": {"a blacksmith."},               # from a cross-reference to χαλκεύς
     "e)cani/sthmi": {"bid one", "rise"},        # from "bid one rise from suppliant posture"
     "h(suxa/zw": {"the dead"},                  # from "of the dead"
+    # GEN 5
+    "qh=lus": {"of", "by women"},              # from "of or belonging to women", "murder by women"
+    "metati/qhmi": {"he would", "have caused", "among", "and call them", "to put", "in place",
+                    "for oneself"},             # pieces of worked examples
+    "katara/omai": {"they pray"},               # "they pray that he may perish" — one construction
+    "pentako/sioi": {"the senate of"},          # from "the senate of five hundred"
 }
 # The key the lexicon files a word under, where that is not the key the lemma itself
 # gives: a different spelling (Attic γίγνομαι for Koine γίνομαι), the active a deponent

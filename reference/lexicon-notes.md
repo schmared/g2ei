@@ -105,6 +105,12 @@ Where Middle Liddell has no entry a word can be found under, LSJ supplies the se
 σφυροκοπέω. With no lexicon sense to head it, it stands as plain text, *a hammer-beater*, and
 the note says why.
 
+GEN 5 adds εὐαρεστέω, which Middle Liddell lacks, and the active διαναπαύω: Middle Liddell has
+only the middle, διαναπαύομαι, *to rest awhile*, and 5:29 διαναπαύσει ἡμᾶς is transitive. It
+also adds two numerals whose Middle Liddell entries, like ὀστέον's, tag no translation at all —
+*Lat. octo, eight*; *Lat. tres, tria, three* — so ὀκτώ and τρεῖς take LSJ's, which files τρεῖς
+under its neuter, τρία.
+
 The last is the same shape as ἁγιάζω in LSJ (`= ἁγίζω`): an entry that exists, carries no
 translation, and names the entry that does. Following it is not interpretation — the lexicon
 is saying where the word is defined.
@@ -254,11 +260,12 @@ aorist formula, *not a process observed in progress*, and refuse it as a bare he
 
 - **headword:** `down` — Middle Liddell, first sense *down, downwards*.
 - **chain:** `down, downwards, down from, down upon, over, upon`
-- **used:** GEN 2:8
+- **used:** GEN 2:8, GEN 2:18, GEN 5:1, GEN 5:3 (twice)
 
 Like ἐπί, the entry heads all its cases together and its tagged translations do not separate
 them. κατὰ ἀνατολάς is the idiom *eastward*, which the first sense does not give; the note
-records the idiom and the reading prints the lexicon.
+records the idiom and the reading prints the lexicon. κατʼ εἰκόνα at GEN 5:1 and κατὰ τὴν
+ἰδέαν at 5:3 are *according to*, and are settled the same way.
 
 ### Adverbs of place — ἐκεῖ, ἐκεῖθεν
 
@@ -369,6 +376,13 @@ the same ground as `the sixth` and `the seventh`: one sense each, so no range to
 - εἰ, ἐάν — `if`; τί in ἵνα τί — `what` (4:6); ἐν τῷ εἶναι — `in the being of` (4:8).
 - εἰμί with a participle (ἦν ἐργαζόμενος, 4:2; ἦν οἰκοδομῶν, 4:17) — `was, and kept on being,`
   before the participle's unit, the imperfect formula of 2:5 in short.
+- One sense each in GEN 5, so plain text: every numeral — `two hundred`, `thirty`, `a hundred`,
+  `nine hundred` and the rest (*the Thirty*, *the Forty*, *the Three Hundred* name bodies of men,
+  not further senses of the number) — with ὀκτώ `eight` and τρεῖς `three` from LSJ; ἔτος `years`,
+  `of years`; υἱός `sons`, `a son`; θυγάτηρ `daughters`. δέκα πέντε (5:10), printed as two words,
+  is `fifteen`, and the note says so.
+- εἰμί of age (ἦν Νωε ἐτῶν πεντακοσίων, 5:32) — the state formula of GEN 1:2 in full.
+- τὸ before an infinitive (μετὰ τὸ γεννῆσαι, 5:4 and after) — not printed, as with τοῦ at 2:5.
 
 ### διά + genitive
 
@@ -930,6 +944,28 @@ Where the lexicon restricts a sense to one voice, the entry's own labels decide,
 φοβέω's *A. Act.*, ἅπτω's active sense I against *II. Mid. … c. gen.*, στρέφω's *B. Pass.
 and Mid.* A headword that takes a person from the form says it — `they ate` and `I ate` are
 one Greek form, ἔφαγον, at 3:6 and 3:12.
+
+### Verbs new in GEN 5
+
+| lemma | form | headword | chain | used |
+| --- | --- | --- | --- | --- |
+| ποιέω | aor. 3 sg | `made` | the chains of GEN 1:1 (full) and 2:2 (short) | 5:1, 5:2 |
+| εὐλογέω | aor. 3 sg | `spoke well of` | the chain of GEN 2:3; Rahlfs prints εὐλόγησεν here without the augment | 5:2 |
+| ἐπονομάζω | aor. 3 sg | `gave a surname` | the chain of GEN 4:17 | 5:2, 5:3, 5:29 |
+| ζάω | aor. 3 sg | `lived` | `lived, was in full life and strength, was fresh and strong` — the chain of GEN 3:22, in the aorist | 5:3–30 |
+| γεννάω | aor. 3 sg / aor. inf. | `begot` · `to beget` | the chain of GEN 4:18, in the form | 5:3–32 |
+| γίνομαι | aor. 3 pl | `came into being` | `came to be, arose, were brought into existence` — no *there*, the subject standing in the clause | 5:4–31 |
+| ἀποθνήσκω | aor. 3 sg | `died off` | `died off, died, was put to death, was slain` | 5:5–31 |
+| εὐαρεστέω | aor. 3 sg | `was well pleasing` | `was well pleasing, seemed good, was resolved, was well pleased and satisfied` — **no Middle Liddell entry**; LSJ, citing 5:22. The passive's own senses are left out; *well pleased* is also the active's, used intransitively | 5:22, 5:24 |
+| εὑρίσκω | impf. pass. 3 sg | `was being found` | `was being found, was being found out, was being discovered` | 5:24 |
+| μετατίθημι | aor. 3 sg | `placed among` | `placed among, placed differently, transposed, changed and altered, put in the place of another and substituted` — the entry's *Mid.* and *Pass.* senses left out | 5:24 |
+| λέγω | pres. ptcp. | `saying` | the chain of GEN 2:16 | 5:29 |
+| διαναπαύω | fut. 3 sg | `will allow to rest awhile` | `will allow to rest awhile, will interrupt, will relieve, will rest awhile` — LSJ's active; Middle Liddell has only the middle | 5:29 |
+| καταράομαι | aor. mid. 3 sg | `called down curses upon` | `called down curses upon, imprecated upon, cursed and execrated, uttered imprecations` — *accursed*, the entry's sense for the perfect passive participle alone, left out | 5:29 |
+
+Every verb of the genealogy's frame is aorist. The aorist formula stands after the first
+aorist of 5:1 and 5:3 and after εὐηρέστησεν and μετέθηκεν (5:22, 5:24), not after each of the
+chapter's sixty-seven aorist indicatives, as GEN 4:18 set it once in a run of ἐγέννησεν.
 
 ---
 
@@ -1514,6 +1550,27 @@ Three headwords read furthest from the expected word, and all three are the lexi
 σπέρμα is *that which is sown* before it is offspring; τέκνον is *that which is borne* before
 it is a child; τρίβολος is a spiked iron for laming horses before it is a thistle.
 
+### Nouns and adjectives new in GEN 5
+
+| lemma | headword | chain | used |
+| --- | --- | --- | --- |
+| βίβλος, γένεσις | `the inner bark of the papyrus` · `of origin` | the chains of GEN 2:4 | 5:1 |
+| ἄνθρωπος (anarthrous gen. pl.) | `of men` | `of men, of human beings` | 5:1 |
+| ἡμέρα | `day` · `the days` | the chains of GEN 2:4 and 3:14 | 5:1–31 |
+| θεός (anarthrous gen.) | `of God` | the chain of GEN 1:2 | 5:1 |
+| θεός (articular dat.) | `to the God` | `to him who is God definitively, to the one the article marks out, to the known and the only` | 5:22, 5:24 |
+| εἰκών | `a likeness` · `the likeness` | `a likeness, an image, a portrait, an image in a mirror, a semblance and phantom, an image in the mind, a similitude and simile` | 5:1, 5:3 |
+| ἄρσην | `male` | `male, the male sex, masculine and strong, mighty` | 5:2 |
+| θῆλυς | `female` | `female, the female sex and womankind, belonging to women, feminine, fresh and refreshing, tender and delicate and gentle, soft and yielding and weak` | 5:2 |
+| ὄνομα (articular) | `the name` | the chain of GEN 3:20 | 5:2, 5:3, 5:29 |
+| ἰδέα | `the form` | `the form, the look, the outward appearance, the kind and sort and nature, the mode and fashion, the class and species` — sense I reads *= εἶδος, form* | 5:3 |
+| ἔργον (gen. pl.) | `of the works` | the short chain of GEN 2:2, in the genitive | 5:29 |
+| λύπη (gen. pl.) | `of the pains of body` | the chain of GEN 3:17, in the genitive | 5:29 |
+| χείρ (gen. pl.) | `of the hands` | `of the hands, of the hands and arms, of the arms` | 5:29 |
+
+ἰδέα and εἰκών at 5:3 render one Hebrew pair, *dĕmût* and *ṣelem*, that 1:26 rendered with
+εἰκών and ὁμοίωσις; each Greek word keeps its own chain, so the reader sees the change of word.
+
 ---
 
 ## Aspect formulas
@@ -1566,6 +1623,24 @@ Gloss on first occurrence per chapter, bare thereafter.
 | Νοεμα | Noema | Naamah | `(Νοεμα, from Hebrew Naʿămâ, "pleasant")` |
 | Σηθ | Sēth | Seth | `(Σηθ, from Hebrew Šēt, which the verse ties to šît, "to set, appoint")` |
 | Ενως | Enōs | Enosh | `(Ενως, from Hebrew ʾĕnôš, "man, mankind")` |
+| Σηθ (GEN 5) | Sēth | Seth | `(Σηθ, from Hebrew Šēt, which 4:25 ties to šît, "to set, appoint")` |
+| Καιναν | Kainan | Kenan | `(Καιναν, from Hebrew Qênān, usually connected with Qayin, the name of Cain)` |
+| Μαλελεηλ | Maleleēl | Mahalalel | `(Μαλελεηλ, from Hebrew Mahălalʾēl, "praise of God")` |
+| Ιαρεδ | Iared | Jared | `(Ιαρεδ, from Hebrew Yered, usually connected with yārad, "to go down")` |
+| Μαθουσαλα (GEN 5) | Mathousala | Methuselah | `(Μαθουσαλα, from Hebrew Mĕtûšelaḥ, usually explained as "man of the javelin")` |
+| Νωε | Nōe | Noah | `(Νωε, from Hebrew Nōaḥ, usually connected with nûaḥ, "to rest")` |
+| Σημ | Sēm | Shem | `(Σημ, from Hebrew Šēm, "name")` |
+| Χαμ | Cham | Ham | `(Χαμ, from Hebrew Ḥām, usually connected with ḥam, "hot")` |
+| Ιαφεθ | Iapheth | Japheth | `(Ιαφεθ, from Hebrew Yepet, which 9:27 ties to pātâ, "to make wide")` |
+
+A name glossed again in a later chapter keeps its gloss, unless the gloss spoke of the verse it
+stood in: Σηθ's *which the verse ties* becomes *which 4:25 ties*. Μαθουσαλα at GEN 5 is glossed
+for Mĕtûšelaḥ himself, where 4:18 gave the Greek name to Mĕtûšāʾēl.
+
+Where the Greek and the English Bible name the same person with one name, differently spelled,
+the anchored form is the English Bible's: Ενως is *Enosh*, Καιναν *Kenan*. Luke 3:36–38 spells
+Καιναν and Ιαρεδ Καϊνάμ and Ἰάρετ; for that reason their dictionary forms are the forms Rahlfs
+prints, not MorphGNT's (see the second-pass brief).
 
 The anchored form is the English form of the name the *Greek* prints, which is not always the
 English Bible's name for the person. Μαθουσαλα at GEN 4:18 is *Methuselah*, though the Hebrew

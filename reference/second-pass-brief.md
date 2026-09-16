@@ -68,6 +68,15 @@ Three disagreements over 531 words, and the second pass was right all three time
 brief; its names rule, extended beforehand with MorphGNT's spellings of the personal names
 the New Testament shares, drew no disagreement at all.
 
+### What it found in Genesis 5
+
+Nothing: the two passes agreed on all 482 words. The chapter is a genealogy, its frame repeated
+nine times, and the conventions it needed were added beforehand — MorphGNT's spellings of
+Μαλελεήλ, Νῶε and Σήμ, the rule for a name the New Testament spells with other letters, gender
+`C` for τρεῖς, numerals printed as several words, ἐνακόσιοι. The reference module disagreed with
+both in eighty places, all annotated: it gives the indeclinable numerals no case, reads the years
+after ἐγένοντο αἱ ἡμέραι as accusative everywhere but 5:31, and codes τρία at 5:31 masculine.
+
 ## The brief
 
 Copy everything below the rule into a new agent. Replace `<BOOK NAME>`, `<CHAPTER>`,
@@ -148,7 +157,7 @@ Conventions:
   imperfect, perfect, pluperfect — deponents included. Aorist and future distinguish the two,
   so use M or P there.
 - **Gender C** for an adjective whose form does not distinguish masculine from feminine:
-  two-termination adjectives (ἀόρατος, πράσινος) and numerals like τέσσαρας.
+  two-termination adjectives (ἀόρατος, πράσινος) and numerals like τέσσαρας and τρεῖς.
 - **Indeclinables** take case and number from the syntax, as MorphGNT does, and gender where
   there is one to take: a personal name, from the person (Αδαμ `----DSM-`, a woman's name
   `F`), or a numeral agreeing with its noun (οἱ δύο `----NPM-`, as MorphGNT codes δύο at
@@ -165,7 +174,9 @@ Conventions:
   `RI ----NSN-`. (MorphGNT prints the pair as one word, ἱνατί, and so cannot guide it.)
 - `ὁ δέ`, *and he*, is still the article: `RA ----NSM-`, as MorphGNT codes it.
 - Numerals take case, number and gender like any adjective — ἑπτά `A- ----APN-` beside a
-  neuter plural — and a multiplicative adverb (ἑπτάκις) is `D-`.
+  neuter plural — and a multiplicative adverb (ἑπτάκις) is `D-`. A number printed as several
+  words (ἑκατὸν καὶ ἑξήκοντα πέντε, δέκα πέντε) is several words: each numeral agrees with the
+  noun.
 - Comparatives in -ων (μείζων) have one form for masculine and feminine: gender `C`, degree `C`.
 - οἶδα's past forms (ᾔδει) are pluperfect, `Y`, as MorphGNT codes them.
 - Where the form is ambiguous, case, number and gender come from the syntax: neuters in the
@@ -178,16 +189,18 @@ The dictionary form as Middle Liddell (Perseus) files it:
 - Koine spellings: γίνομαι, γινώσκω. No iota subscript where Perseus has none: ἀποθνήσκω.
   Enclitics unaccented: τε.
 - Verbs with no active in use under their middle form, as MorphGNT files them: ἐργάζομαι,
-  πορεύομαι, ἐκπορεύομαι, ἐντέλλομαι, φοβέομαι, ἀπέρχομαι.
+  πορεύομαι, ἐκπορεύομαι, ἐντέλλομαι, φοβέομαι, ἀπέρχομαι, καταράομαι.
 - εἰδέναι → οἶδα · εἶπεν → λέγω · ἰδεῖν → ὁράω · φαγ- forms → ἐσθίω · μου → ἐγώ ·
   every article → ὁ.
 - A contracted form goes under whichever spelling Middle Liddell heads the entry with — the
   uncontracted ὀστέον for ὀστοῦν, but the contracted συκῆ for συκῆς, as MorphGNT has it.
-  ἕνεκεν → ἕνεκα. A neuter noun filed as such: πετεινόν.
+  ἕνεκεν → ἕνεκα. A neuter noun filed as such: πετεινόν. A later spelling goes under the one
+  Middle Liddell heads: ἐννακόσιοι → ἐνακόσιοι.
 - Proper names: a personal name the New Testament also uses takes MorphGNT's dictionary form,
   accented though Rahlfs prints it bare — Ἀδάμ, Εὕα, Κάϊν, Ἅβελ, Σήθ, Ἐνώς, Ἑνώχ,
-  Μαθουσαλά, Λάμεχ so far. Every other Semitic name, of a person or a place, exactly as
-  printed, unaccented (Εδεμ, Φισων, Ναιδ). Greek names in the nominative singular (Αἰθιοπία,
+  Μαθουσαλά, Λάμεχ, Μαλελεήλ, Νῶε, Σήμ so far. Where the New Testament spells the name with
+  other letters (Luke 3:37 Καϊνάμ, Ἰάρετ), it is not the same dictionary form. Every other
+  Semitic name, of a person or a place, exactly as printed, unaccented (Εδεμ, Φισων, Ναιδ). Greek names in the nominative singular (Αἰθιοπία,
   Τίγρις, Ἀσσύριος, Εὐφράτης). A Greek word the text prints capitalised as a name keeps its
   capital in the lemma.
 - Any other Semitic word printed unaccented: exactly as printed, like the place names.

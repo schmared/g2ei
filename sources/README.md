@@ -66,11 +66,13 @@ curl -sL --create-dirs -o sources/lsj/grc.lsj.perseus-eng1.xml https://raw.githu
 | file | covers | fetched for |
 | --- | --- | --- |
 | `eng1` | the whole of alpha, `*a` to `ἄωτος` (42 MB) | ἀκατασκεύαστος (Gen 1:2), ἁγιάζω (Gen 2:3) |
-| `eng5` | epsilon (40 MB) | ἑβδομηκοντάκις (Gen 4:24) |
+| `eng4` | delta (15 MB) | διαναπαύω (Gen 5:29) |
+| `eng5` | epsilon (40 MB) | ἑβδομηκοντάκις (Gen 4:24), εὐαρεστέω (Gen 5:22) |
 | `eng13` | mu (12 MB) | μώλωψ (Gen 4:23) |
-| `eng16` | omicron (12 MB) | ὀστέον (Gen 2:23) |
+| `eng16` | omicron (12 MB) | ὀστέον (Gen 2:23), ὀκτώ (Gen 5:28) |
 | `eng17` | pi, `p` to `πώϋξ` (38 MB) | πράσινος (Gen 2:12), ποιμήν (Gen 4:2) |
 | `eng21` | sigma (23 MB) | σύ (Gen 3), which Middle Liddell omits |
+| `eng22` | tau (12 MB) | τρεῖς (Gen 5:32), filed under τρία |
 | `eng24` | phi (8 MB) | φλόγινος (Gen 3:24) |
 | `eng26` | psi (2 MB) | ψαλτήριον (Gen 4:21) |
 
@@ -81,7 +83,8 @@ and look at the first entry's key:
 curl -sL -r 0-199999 https://raw.githubusercontent.com/PerseusDL/lexica/master/CTS_XML_TEI/perseus/pdllex/grc/lsj/grc.lsj.perseus-eng17.xml | grep -o 'key="[^"]*"' | head -1
 ```
 
-`eng13` opens at mu, `eng14` nu, `eng16` omicron, `eng20` rho, `eng21` sigma, `eng22` tau.
+`eng4` opens at delta, `eng5` epsilon, `eng13` mu, `eng14` nu, `eng16` omicron, `eng20` rho,
+`eng21` sigma, `eng22` tau.
 
 Entries are `<entryFree key="…">` in Beta Code, with `<tr>` for each translation, as in
 Middle Liddell. Some entries define a word only by cross-reference (`ἁγιάζω` reads

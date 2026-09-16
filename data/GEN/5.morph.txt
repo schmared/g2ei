@@ -1,0 +1,509 @@
+# Genesis 5 — morphology, one word per line.
+#
+# This is the project's own grammatical analysis of each form, written alongside the
+# transcription and not copied from any digital edition.
+#
+# Columns: verse, part of speech, parse, form, lemma — in MorphGNT's code scheme, so
+# the Old and New Testament layers read alike. The parse is eight places: person,
+# tense, voice, mood, case, number, gender, degree ("-" where it does not apply).
+#
+# Two codes go beyond MorphGNT, both to record only what the form itself says:
+#   voice  E  middle/passive — a tense in which the two share one form
+#   gender C  masculine/feminine — an adjective whose form does not distinguish them
+#
+# A trailing annotation records a deliberate difference and the reason for it:
+#   "# module …"  from the reference module, checked when LXX_RAHLFS_DIR is set
+#   "# corpus …"  from this project's own analysis of the same form elsewhere
+# A line may carry both. validate.py prints them as notes instead of failures — and
+# fails if the difference a note claims is not there, so they cannot go stale. The
+# analysis here is this project's own: the module is a reference, not an authority,
+# and the corpus is held to itself.
+#
+# Indeclinables take case and number from the syntax, as MorphGNT does, and gender
+# where there is one to take: a personal name, from the person; a numeral agreeing
+# with its noun; a common noun whose article shows it — but not an indeclinable place
+# name, which has none. A personal name the New Testament also uses takes MorphGNT's
+# dictionary form (Μαλελεήλ, Νῶε); one the New Testament spells with other letters
+# (Luke 3:37 Καϊνάμ, Ἰάρετ) and every other Semitic name, the form Rahlfs prints.
+5:1 RD ----NSF- Αὕτη οὗτος
+5:1 RA ----NSF- ἡ ὁ
+5:1 N- ----NSF- βίβλος βίβλος
+5:1 N- ----GSF- γενέσεως γένεσις
+5:1 N- ----GPM- ἀνθρώπων ἄνθρωπος
+5:1 RR ----DSF- ᾗ ὅς
+5:1 N- ----DSF- ἡμέρᾳ ἡμέρα
+5:1 V- 3AAI-S-- ἐποίησεν ποιέω
+5:1 RA ----NSM- ὁ ὁ
+5:1 N- ----NSM- θεὸς θεός
+5:1 RA ----ASM- τὸν ὁ
+5:1 N- ----ASM- Αδαμ Ἀδάμ
+5:1 P- -------- κατʼ κατά
+5:1 N- ----ASF- εἰκόνα εἰκών
+5:1 N- ----GSM- θεοῦ θεός
+5:1 V- 3AAI-S-- ἐποίησεν ποιέω
+5:1 RP ----ASM- αὐτόν αὐτός
+5:2 A- ----ASN- ἄρσεν ἄρσην
+5:2 C- -------- καὶ καί
+5:2 A- ----ASN- θῆλυ θῆλυς
+5:2 V- 3AAI-S-- ἐποίησεν ποιέω
+5:2 RP ----APM- αὐτοὺς αὐτός
+5:2 C- -------- καὶ καί
+5:2 V- 3AAI-S-- εὐλόγησεν εὐλογέω
+5:2 RP ----APM- αὐτούς αὐτός
+5:2 C- -------- καὶ καί
+5:2 V- 3AAI-S-- ἐπωνόμασεν ἐπονομάζω
+5:2 RA ----ASN- τὸ ὁ
+5:2 N- ----ASN- ὄνομα ὄνομα
+5:2 RP ----GPM- αὐτῶν αὐτός
+5:2 N- ----ASM- Αδαμ Ἀδάμ
+5:2 RR ----DSF- ᾗ ὅς
+5:2 N- ----DSF- ἡμέρᾳ ἡμέρα
+5:2 V- 3AAI-S-- ἐποίησεν ποιέω
+5:2 RP ----APM- αὐτούς αὐτός
+5:3 V- 3AAI-S-- ἔζησεν ζάω
+5:3 C- -------- δὲ δέ
+5:3 N- ----NSM- Αδαμ Ἀδάμ
+5:3 A- ----APN- διακόσια διακόσιοι
+5:3 C- -------- καὶ καί
+5:3 A- ----APN- τριάκοντα τριάκοντα  # module M, no features — MorphGNT gives τριάκοντα case, number and gender like any adjective
+5:3 N- ----APN- ἔτη ἔτος
+5:3 C- -------- καὶ καί
+5:3 V- 3AAI-S-- ἐγέννησεν γεννάω
+5:3 P- -------- κατὰ κατά
+5:3 RA ----ASF- τὴν ὁ
+5:3 N- ----ASF- ἰδέαν ἰδέα
+5:3 RP ----GSM- αὐτοῦ αὐτός
+5:3 C- -------- καὶ καί
+5:3 P- -------- κατὰ κατά
+5:3 RA ----ASF- τὴν ὁ
+5:3 N- ----ASF- εἰκόνα εἰκών
+5:3 RP ----GSM- αὐτοῦ αὐτός
+5:3 C- -------- καὶ καί
+5:3 V- 3AAI-S-- ἐπωνόμασεν ἐπονομάζω
+5:3 RA ----ASN- τὸ ὁ
+5:3 N- ----ASN- ὄνομα ὄνομα
+5:3 RP ----GSM- αὐτοῦ αὐτός
+5:3 N- ----ASM- Σηθ Σήθ
+5:4 V- 3AMI-P-- ἐγένοντο γίνομαι
+5:4 C- -------- δὲ δέ
+5:4 RA ----NPF- αἱ ὁ
+5:4 N- ----NPF- ἡμέραι ἡμέρα
+5:4 N- ----GSM- Αδαμ Ἀδάμ
+5:4 P- -------- μετὰ μετά
+5:4 RA ----ASN- τὸ ὁ
+5:4 V- -AAN---- γεννῆσαι γεννάω
+5:4 RP ----ASM- αὐτὸν αὐτός
+5:4 RA ----ASM- τὸν ὁ
+5:4 N- ----ASM- Σηθ Σήθ
+5:4 A- ----NPN- ἑπτακόσια ἑπτακόσιοι  # module APN — the predicate of ἐγένοντο, the days came to be so many years, as the module reads 5:31
+5:4 N- ----NPN- ἔτη ἔτος  # module APN — the predicate of ἐγένοντο, the days came to be so many years, as the module reads 5:31
+5:4 C- -------- καὶ καί
+5:4 V- 3AAI-S-- ἐγέννησεν γεννάω
+5:4 N- ----APM- υἱοὺς υἱός
+5:4 C- -------- καὶ καί
+5:4 N- ----APF- θυγατέρας θυγάτηρ
+5:5 C- -------- καὶ καί
+5:5 V- 3AMI-P-- ἐγένοντο γίνομαι
+5:5 A- ----NPF- πᾶσαι πᾶς
+5:5 RA ----NPF- αἱ ὁ
+5:5 N- ----NPF- ἡμέραι ἡμέρα
+5:5 N- ----GSM- Αδαμ Ἀδάμ
+5:5 RR ----APF- ἃς ὅς
+5:5 V- 3AAI-S-- ἔζησεν ζάω
+5:5 A- ----NPN- ἐννακόσια ἐνακόσιοι  # module lemma ἐννακόσιοι — ἐνακόσιοι, as Middle Liddell heads the later spelling; and APN — the predicate of ἐγένοντο, the days came to be so many years, as the module reads 5:31
+5:5 C- -------- καὶ καί
+5:5 A- ----NPN- τριάκοντα τριάκοντα  # module M, no features — MorphGNT gives τριάκοντα case, number and gender like any adjective
+5:5 N- ----NPN- ἔτη ἔτος  # module APN — the predicate of ἐγένοντο, the days came to be so many years, as the module reads 5:31
+5:5 C- -------- καὶ καί
+5:5 V- 3AAI-S-- ἀπέθανεν ἀποθνήσκω
+5:6 V- 3AAI-S-- Ἔζησεν ζάω
+5:6 C- -------- δὲ δέ
+5:6 N- ----NSM- Σηθ Σήθ
+5:6 A- ----APN- διακόσια διακόσιοι
+5:6 C- -------- καὶ καί
+5:6 A- ----APN- πέντε πέντε  # module M, no features — MorphGNT gives πέντε case, number and gender like any adjective
+5:6 N- ----APN- ἔτη ἔτος
+5:6 C- -------- καὶ καί
+5:6 V- 3AAI-S-- ἐγέννησεν γεννάω
+5:6 RA ----ASM- τὸν ὁ
+5:6 N- ----ASM- Ενως Ἐνώς
+5:7 C- -------- καὶ καί
+5:7 V- 3AAI-S-- ἔζησεν ζάω
+5:7 N- ----NSM- Σηθ Σήθ
+5:7 P- -------- μετὰ μετά
+5:7 RA ----ASN- τὸ ὁ
+5:7 V- -AAN---- γεννῆσαι γεννάω
+5:7 RP ----ASM- αὐτὸν αὐτός
+5:7 RA ----ASM- τὸν ὁ
+5:7 N- ----ASM- Ενως Ἐνώς
+5:7 A- ----APN- ἑπτακόσια ἑπτακόσιοι
+5:7 C- -------- καὶ καί
+5:7 A- ----APN- ἑπτὰ ἑπτά  # module M, no features — MorphGNT gives ἑπτά case, number and gender like any adjective
+5:7 N- ----APN- ἔτη ἔτος
+5:7 C- -------- καὶ καί
+5:7 V- 3AAI-S-- ἐγέννησεν γεννάω
+5:7 N- ----APM- υἱοὺς υἱός
+5:7 C- -------- καὶ καί
+5:7 N- ----APF- θυγατέρας θυγάτηρ
+5:8 C- -------- καὶ καί
+5:8 V- 3AMI-P-- ἐγένοντο γίνομαι
+5:8 A- ----NPF- πᾶσαι πᾶς
+5:8 RA ----NPF- αἱ ὁ
+5:8 N- ----NPF- ἡμέραι ἡμέρα
+5:8 N- ----GSM- Σηθ Σήθ
+5:8 A- ----NPN- ἐννακόσια ἐνακόσιοι  # module lemma ἐννακόσιοι — ἐνακόσιοι, as Middle Liddell heads the later spelling; and APN — the predicate of ἐγένοντο, the days came to be so many years, as the module reads 5:31
+5:8 C- -------- καὶ καί
+5:8 A- ----NPN- δώδεκα δώδεκα  # module M, no features — MorphGNT gives δώδεκα case, number and gender like any adjective
+5:8 N- ----NPN- ἔτη ἔτος  # module APN — the predicate of ἐγένοντο, the days came to be so many years, as the module reads 5:31
+5:8 C- -------- καὶ καί
+5:8 V- 3AAI-S-- ἀπέθανεν ἀποθνήσκω
+5:9 C- -------- Καὶ καί
+5:9 V- 3AAI-S-- ἔζησεν ζάω
+5:9 N- ----NSM- Ενως Ἐνώς
+5:9 A- ----APN- ἑκατὸν ἑκατόν  # module M, no features — MorphGNT gives ἑκατόν case, number and gender like any adjective
+5:9 A- ----APN- ἐνενήκοντα ἐνενήκοντα  # module M, no features — MorphGNT gives ἐνενήκοντα case, number and gender like any adjective
+5:9 N- ----APN- ἔτη ἔτος
+5:9 C- -------- καὶ καί
+5:9 V- 3AAI-S-- ἐγέννησεν γεννάω
+5:9 RA ----ASM- τὸν ὁ
+5:9 N- ----ASM- Καιναν Καιναν  # module lemma Καϊνάν — the form Rahlfs prints; Luke 3:37 spells the name Καϊνάμ
+5:10 C- -------- καὶ καί
+5:10 V- 3AAI-S-- ἔζησεν ζάω
+5:10 N- ----NSM- Ενως Ἐνώς
+5:10 P- -------- μετὰ μετά
+5:10 RA ----ASN- τὸ ὁ
+5:10 V- -AAN---- γεννῆσαι γεννάω
+5:10 RP ----ASM- αὐτὸν αὐτός
+5:10 RA ----ASM- τὸν ὁ
+5:10 N- ----ASM- Καιναν Καιναν  # module lemma Καϊνάν — the form Rahlfs prints; Luke 3:37 spells the name Καϊνάμ
+5:10 A- ----APN- ἑπτακόσια ἑπτακόσιοι
+5:10 C- -------- καὶ καί
+5:10 A- ----APN- δέκα δέκα  # module M, no features — MorphGNT gives δέκα case, number and gender like any adjective
+5:10 A- ----APN- πέντε πέντε  # module M, no features — MorphGNT gives πέντε case, number and gender like any adjective
+5:10 N- ----APN- ἔτη ἔτος
+5:10 C- -------- καὶ καί
+5:10 V- 3AAI-S-- ἐγέννησεν γεννάω
+5:10 N- ----APM- υἱοὺς υἱός
+5:10 C- -------- καὶ καί
+5:10 N- ----APF- θυγατέρας θυγάτηρ
+5:11 C- -------- καὶ καί
+5:11 V- 3AMI-P-- ἐγένοντο γίνομαι
+5:11 A- ----NPF- πᾶσαι πᾶς
+5:11 RA ----NPF- αἱ ὁ
+5:11 N- ----NPF- ἡμέραι ἡμέρα
+5:11 N- ----GSM- Ενως Ἐνώς
+5:11 A- ----NPN- ἐννακόσια ἐνακόσιοι  # module lemma ἐννακόσιοι — ἐνακόσιοι, as Middle Liddell heads the later spelling; and APN — the predicate of ἐγένοντο, the days came to be so many years, as the module reads 5:31
+5:11 C- -------- καὶ καί
+5:11 A- ----NPN- πέντε πέντε  # module M, no features — MorphGNT gives πέντε case, number and gender like any adjective
+5:11 N- ----NPN- ἔτη ἔτος  # module APN — the predicate of ἐγένοντο, the days came to be so many years, as the module reads 5:31
+5:11 C- -------- καὶ καί
+5:11 V- 3AAI-S-- ἀπέθανεν ἀποθνήσκω
+5:12 C- -------- Καὶ καί
+5:12 V- 3AAI-S-- ἔζησεν ζάω
+5:12 N- ----NSM- Καιναν Καιναν  # module lemma Καϊνάν — the form Rahlfs prints; Luke 3:37 spells the name Καϊνάμ
+5:12 A- ----APN- ἑκατὸν ἑκατόν  # module M, no features — MorphGNT gives ἑκατόν case, number and gender like any adjective
+5:12 A- ----APN- ἑβδομήκοντα ἑβδομήκοντα  # module M, no features — MorphGNT gives ἑβδομήκοντα case, number and gender like any adjective
+5:12 N- ----APN- ἔτη ἔτος
+5:12 C- -------- καὶ καί
+5:12 V- 3AAI-S-- ἐγέννησεν γεννάω
+5:12 RA ----ASM- τὸν ὁ
+5:12 N- ----ASM- Μαλελεηλ Μαλελεήλ
+5:13 C- -------- καὶ καί
+5:13 V- 3AAI-S-- ἔζησεν ζάω
+5:13 N- ----NSM- Καιναν Καιναν  # module lemma Καϊνάν — the form Rahlfs prints; Luke 3:37 spells the name Καϊνάμ
+5:13 P- -------- μετὰ μετά
+5:13 RA ----ASN- τὸ ὁ
+5:13 V- -AAN---- γεννῆσαι γεννάω
+5:13 RP ----ASM- αὐτὸν αὐτός
+5:13 RA ----ASM- τὸν ὁ
+5:13 N- ----ASM- Μαλελεηλ Μαλελεήλ
+5:13 A- ----APN- ἑπτακόσια ἑπτακόσιοι
+5:13 C- -------- καὶ καί
+5:13 A- ----APN- τεσσαράκοντα τεσσαράκοντα  # module M, no features — MorphGNT gives τεσσαράκοντα case, number and gender like any adjective
+5:13 N- ----APN- ἔτη ἔτος
+5:13 C- -------- καὶ καί
+5:13 V- 3AAI-S-- ἐγέννησεν γεννάω
+5:13 N- ----APM- υἱοὺς υἱός
+5:13 C- -------- καὶ καί
+5:13 N- ----APF- θυγατέρας θυγάτηρ
+5:14 C- -------- καὶ καί
+5:14 V- 3AMI-P-- ἐγένοντο γίνομαι
+5:14 A- ----NPF- πᾶσαι πᾶς
+5:14 RA ----NPF- αἱ ὁ
+5:14 N- ----NPF- ἡμέραι ἡμέρα
+5:14 N- ----GSM- Καιναν Καιναν  # module lemma Καϊνάν — the form Rahlfs prints; Luke 3:37 spells the name Καϊνάμ
+5:14 A- ----NPN- ἐννακόσια ἐνακόσιοι  # module lemma ἐννακόσιοι — ἐνακόσιοι, as Middle Liddell heads the later spelling; and APN — the predicate of ἐγένοντο, the days came to be so many years, as the module reads 5:31
+5:14 C- -------- καὶ καί
+5:14 A- ----NPN- δέκα δέκα  # module M, no features — MorphGNT gives δέκα case, number and gender like any adjective
+5:14 N- ----NPN- ἔτη ἔτος  # module APN — the predicate of ἐγένοντο, the days came to be so many years, as the module reads 5:31
+5:14 C- -------- καὶ καί
+5:14 V- 3AAI-S-- ἀπέθανεν ἀποθνήσκω
+5:15 C- -------- Καὶ καί
+5:15 V- 3AAI-S-- ἔζησεν ζάω
+5:15 N- ----NSM- Μαλελεηλ Μαλελεήλ
+5:15 A- ----APN- ἑκατὸν ἑκατόν  # module M, no features — MorphGNT gives ἑκατόν case, number and gender like any adjective
+5:15 C- -------- καὶ καί
+5:15 A- ----APN- ἑξήκοντα ἑξήκοντα  # module M, no features — MorphGNT gives ἑξήκοντα case, number and gender like any adjective
+5:15 A- ----APN- πέντε πέντε  # module M, no features — MorphGNT gives πέντε case, number and gender like any adjective
+5:15 N- ----APN- ἔτη ἔτος
+5:15 C- -------- καὶ καί
+5:15 V- 3AAI-S-- ἐγέννησεν γεννάω
+5:15 RA ----ASM- τὸν ὁ
+5:15 N- ----ASM- Ιαρεδ Ιαρεδ  # module lemma Ἰάρεδ — the form Rahlfs prints; Luke 3:37 spells the name Ἰάρετ
+5:16 C- -------- καὶ καί
+5:16 V- 3AAI-S-- ἔζησεν ζάω
+5:16 N- ----NSM- Μαλελεηλ Μαλελεήλ
+5:16 P- -------- μετὰ μετά
+5:16 RA ----ASN- τὸ ὁ
+5:16 V- -AAN---- γεννῆσαι γεννάω
+5:16 RP ----ASM- αὐτὸν αὐτός
+5:16 RA ----ASM- τὸν ὁ
+5:16 N- ----ASM- Ιαρεδ Ιαρεδ  # module lemma Ἰάρεδ — the form Rahlfs prints; Luke 3:37 spells the name Ἰάρετ
+5:16 A- ----APN- ἑπτακόσια ἑπτακόσιοι
+5:16 C- -------- καὶ καί
+5:16 A- ----APN- τριάκοντα τριάκοντα  # module M, no features — MorphGNT gives τριάκοντα case, number and gender like any adjective
+5:16 N- ----APN- ἔτη ἔτος
+5:16 C- -------- καὶ καί
+5:16 V- 3AAI-S-- ἐγέννησεν γεννάω
+5:16 N- ----APM- υἱοὺς υἱός
+5:16 C- -------- καὶ καί
+5:16 N- ----APF- θυγατέρας θυγάτηρ
+5:17 C- -------- καὶ καί
+5:17 V- 3AMI-P-- ἐγένοντο γίνομαι
+5:17 A- ----NPF- πᾶσαι πᾶς
+5:17 RA ----NPF- αἱ ὁ
+5:17 N- ----NPF- ἡμέραι ἡμέρα
+5:17 N- ----GSM- Μαλελεηλ Μαλελεήλ
+5:17 A- ----NPN- ὀκτακόσια ὀκτακόσιοι  # module APN — the predicate of ἐγένοντο, the days came to be so many years, as the module reads 5:31
+5:17 C- -------- καὶ καί
+5:17 A- ----NPN- ἐνενήκοντα ἐνενήκοντα  # module M, no features — MorphGNT gives ἐνενήκοντα case, number and gender like any adjective
+5:17 A- ----NPN- πέντε πέντε  # module M, no features — MorphGNT gives πέντε case, number and gender like any adjective
+5:17 N- ----NPN- ἔτη ἔτος  # module APN — the predicate of ἐγένοντο, the days came to be so many years, as the module reads 5:31
+5:17 C- -------- καὶ καί
+5:17 V- 3AAI-S-- ἀπέθανεν ἀποθνήσκω
+5:18 C- -------- Καὶ καί
+5:18 V- 3AAI-S-- ἔζησεν ζάω
+5:18 N- ----NSM- Ιαρεδ Ιαρεδ  # module lemma Ἰάρεδ — the form Rahlfs prints; Luke 3:37 spells the name Ἰάρετ
+5:18 A- ----APN- ἑκατὸν ἑκατόν  # module M, no features — MorphGNT gives ἑκατόν case, number and gender like any adjective
+5:18 C- -------- καὶ καί
+5:18 A- ----APN- ἑξήκοντα ἑξήκοντα  # module M, no features — MorphGNT gives ἑξήκοντα case, number and gender like any adjective
+5:18 A- ----APN- δύο δύο  # module M, no features — MorphGNT gives δύο case, number and gender like any adjective
+5:18 N- ----APN- ἔτη ἔτος
+5:18 C- -------- καὶ καί
+5:18 V- 3AAI-S-- ἐγέννησεν γεννάω
+5:18 RA ----ASM- τὸν ὁ
+5:18 N- ----ASM- Ενωχ Ἑνώχ  # module lemma Ἐνώχ — Ἑνώχ, as MorphGNT files it
+5:19 C- -------- καὶ καί
+5:19 V- 3AAI-S-- ἔζησεν ζάω
+5:19 N- ----NSM- Ιαρεδ Ιαρεδ  # module lemma Ἰάρεδ — the form Rahlfs prints; Luke 3:37 spells the name Ἰάρετ
+5:19 P- -------- μετὰ μετά
+5:19 RA ----ASN- τὸ ὁ
+5:19 V- -AAN---- γεννῆσαι γεννάω
+5:19 RP ----ASM- αὐτὸν αὐτός
+5:19 RA ----ASM- τὸν ὁ
+5:19 N- ----ASM- Ενωχ Ἑνώχ  # module lemma Ἐνώχ — Ἑνώχ, as MorphGNT files it
+5:19 A- ----APN- ὀκτακόσια ὀκτακόσιοι
+5:19 N- ----APN- ἔτη ἔτος
+5:19 C- -------- καὶ καί
+5:19 V- 3AAI-S-- ἐγέννησεν γεννάω
+5:19 N- ----APM- υἱοὺς υἱός
+5:19 C- -------- καὶ καί
+5:19 N- ----APF- θυγατέρας θυγάτηρ
+5:20 C- -------- καὶ καί
+5:20 V- 3AMI-P-- ἐγένοντο γίνομαι
+5:20 A- ----NPF- πᾶσαι πᾶς
+5:20 RA ----NPF- αἱ ὁ
+5:20 N- ----NPF- ἡμέραι ἡμέρα
+5:20 N- ----GSM- Ιαρεδ Ιαρεδ  # module lemma Ἰάρεδ — the form Rahlfs prints; Luke 3:37 spells the name Ἰάρετ
+5:20 A- ----NPN- ἐννακόσια ἐνακόσιοι  # module lemma ἐννακόσιοι — ἐνακόσιοι, as Middle Liddell heads the later spelling; and APN — the predicate of ἐγένοντο, the days came to be so many years, as the module reads 5:31
+5:20 C- -------- καὶ καί
+5:20 A- ----NPN- ἑξήκοντα ἑξήκοντα  # module M, no features — MorphGNT gives ἑξήκοντα case, number and gender like any adjective
+5:20 A- ----NPN- δύο δύο  # module M, no features — MorphGNT gives δύο case, number and gender like any adjective
+5:20 N- ----NPN- ἔτη ἔτος  # module APN — the predicate of ἐγένοντο, the days came to be so many years, as the module reads 5:31
+5:20 C- -------- καὶ καί
+5:20 V- 3AAI-S-- ἀπέθανεν ἀποθνήσκω
+5:21 C- -------- Καὶ καί
+5:21 V- 3AAI-S-- ἔζησεν ζάω
+5:21 N- ----NSM- Ενωχ Ἑνώχ  # module lemma Ἐνώχ — Ἑνώχ, as MorphGNT files it
+5:21 A- ----APN- ἑκατὸν ἑκατόν  # module M, no features — MorphGNT gives ἑκατόν case, number and gender like any adjective
+5:21 C- -------- καὶ καί
+5:21 A- ----APN- ἑξήκοντα ἑξήκοντα  # module M, no features — MorphGNT gives ἑξήκοντα case, number and gender like any adjective
+5:21 A- ----APN- πέντε πέντε  # module M, no features — MorphGNT gives πέντε case, number and gender like any adjective
+5:21 N- ----APN- ἔτη ἔτος
+5:21 C- -------- καὶ καί
+5:21 V- 3AAI-S-- ἐγέννησεν γεννάω
+5:21 RA ----ASM- τὸν ὁ
+5:21 N- ----ASM- Μαθουσαλα Μαθουσαλά
+5:22 V- 3AAI-S-- εὐηρέστησεν εὐαρεστέω
+5:22 C- -------- δὲ δέ
+5:22 N- ----NSM- Ενωχ Ἑνώχ  # module lemma Ἐνώχ — Ἑνώχ, as MorphGNT files it
+5:22 RA ----DSM- τῷ ὁ
+5:22 N- ----DSM- θεῷ θεός
+5:22 P- -------- μετὰ μετά
+5:22 RA ----ASN- τὸ ὁ
+5:22 V- -AAN---- γεννῆσαι γεννάω
+5:22 RP ----ASM- αὐτὸν αὐτός
+5:22 RA ----ASM- τὸν ὁ
+5:22 N- ----ASM- Μαθουσαλα Μαθουσαλά
+5:22 A- ----APN- διακόσια διακόσιοι
+5:22 N- ----APN- ἔτη ἔτος
+5:22 C- -------- καὶ καί
+5:22 V- 3AAI-S-- ἐγέννησεν γεννάω
+5:22 N- ----APM- υἱοὺς υἱός
+5:22 C- -------- καὶ καί
+5:22 N- ----APF- θυγατέρας θυγάτηρ
+5:23 C- -------- καὶ καί
+5:23 V- 3AMI-P-- ἐγένοντο γίνομαι
+5:23 A- ----NPF- πᾶσαι πᾶς
+5:23 RA ----NPF- αἱ ὁ
+5:23 N- ----NPF- ἡμέραι ἡμέρα
+5:23 N- ----GSM- Ενωχ Ἑνώχ  # module lemma Ἐνώχ — Ἑνώχ, as MorphGNT files it
+5:23 A- ----NPN- τριακόσια τριακόσιοι  # module APN — the predicate of ἐγένοντο, the days came to be so many years, as the module reads 5:31
+5:23 A- ----NPN- ἑξήκοντα ἑξήκοντα  # module M, no features — MorphGNT gives ἑξήκοντα case, number and gender like any adjective
+5:23 A- ----NPN- πέντε πέντε  # module M, no features — MorphGNT gives πέντε case, number and gender like any adjective
+5:23 N- ----NPN- ἔτη ἔτος  # module APN — the predicate of ἐγένοντο, the days came to be so many years, as the module reads 5:31
+5:24 C- -------- καὶ καί
+5:24 V- 3AAI-S-- εὐηρέστησεν εὐαρεστέω
+5:24 N- ----NSM- Ενωχ Ἑνώχ  # module lemma Ἐνώχ — Ἑνώχ, as MorphGNT files it
+5:24 RA ----DSM- τῷ ὁ
+5:24 N- ----DSM- θεῷ θεός
+5:24 C- -------- καὶ καί
+5:24 D- -------- οὐχ οὐ
+5:24 V- 3IEI-S-- ηὑρίσκετο εὑρίσκω
+5:24 C- -------- ὅτι ὅτι
+5:24 V- 3AAI-S-- μετέθηκεν μετατίθημι
+5:24 RP ----ASM- αὐτὸν αὐτός
+5:24 RA ----NSM- ὁ ὁ
+5:24 N- ----NSM- θεός θεός
+5:25 C- -------- Καὶ καί
+5:25 V- 3AAI-S-- ἔζησεν ζάω
+5:25 N- ----NSM- Μαθουσαλα Μαθουσαλά
+5:25 A- ----APN- ἑκατὸν ἑκατόν  # module M, no features — MorphGNT gives ἑκατόν case, number and gender like any adjective
+5:25 C- -------- καὶ καί
+5:25 A- ----APN- ἑξήκοντα ἑξήκοντα  # module M, no features — MorphGNT gives ἑξήκοντα case, number and gender like any adjective
+5:25 A- ----APN- ἑπτὰ ἑπτά  # module M, no features — MorphGNT gives ἑπτά case, number and gender like any adjective
+5:25 N- ----APN- ἔτη ἔτος
+5:25 C- -------- καὶ καί
+5:25 V- 3AAI-S-- ἐγέννησεν γεννάω
+5:25 RA ----ASM- τὸν ὁ
+5:25 N- ----ASM- Λαμεχ Λάμεχ
+5:26 C- -------- καὶ καί
+5:26 V- 3AAI-S-- ἔζησεν ζάω
+5:26 N- ----NSM- Μαθουσαλα Μαθουσαλά
+5:26 P- -------- μετὰ μετά
+5:26 RA ----ASN- τὸ ὁ
+5:26 V- -AAN---- γεννῆσαι γεννάω
+5:26 RP ----ASM- αὐτὸν αὐτός
+5:26 RA ----ASM- τὸν ὁ
+5:26 N- ----ASM- Λαμεχ Λάμεχ
+5:26 A- ----APN- ὀκτακόσια ὀκτακόσιοι
+5:26 A- ----APN- δύο δύο  # module M, no features — MorphGNT gives δύο case, number and gender like any adjective
+5:26 N- ----APN- ἔτη ἔτος
+5:26 C- -------- καὶ καί
+5:26 V- 3AAI-S-- ἐγέννησεν γεννάω
+5:26 N- ----APM- υἱοὺς υἱός
+5:26 C- -------- καὶ καί
+5:26 N- ----APF- θυγατέρας θυγάτηρ
+5:27 C- -------- καὶ καί
+5:27 V- 3AMI-P-- ἐγένοντο γίνομαι
+5:27 A- ----NPF- πᾶσαι πᾶς
+5:27 RA ----NPF- αἱ ὁ
+5:27 N- ----NPF- ἡμέραι ἡμέρα
+5:27 N- ----GSM- Μαθουσαλα Μαθουσαλά
+5:27 RR ----APF- ἃς ὅς
+5:27 V- 3AAI-S-- ἔζησεν ζάω
+5:27 A- ----NPN- ἐννακόσια ἐνακόσιοι  # module lemma ἐννακόσιοι — ἐνακόσιοι, as Middle Liddell heads the later spelling; and APN — the predicate of ἐγένοντο, the days came to be so many years, as the module reads 5:31
+5:27 C- -------- καὶ καί
+5:27 A- ----NPN- ἑξήκοντα ἑξήκοντα  # module M, no features — MorphGNT gives ἑξήκοντα case, number and gender like any adjective
+5:27 A- ----NPN- ἐννέα ἐννέα  # module M, no features — MorphGNT gives ἐννέα case, number and gender like any adjective
+5:27 N- ----NPN- ἔτη ἔτος  # module APN — the predicate of ἐγένοντο, the days came to be so many years, as the module reads 5:31
+5:27 C- -------- καὶ καί
+5:27 V- 3AAI-S-- ἀπέθανεν ἀποθνήσκω
+5:28 C- -------- Καὶ καί
+5:28 V- 3AAI-S-- ἔζησεν ζάω
+5:28 N- ----NSM- Λαμεχ Λάμεχ
+5:28 A- ----APN- ἑκατὸν ἑκατόν  # module M, no features — MorphGNT gives ἑκατόν case, number and gender like any adjective
+5:28 A- ----APN- ὀγδοήκοντα ὀγδοήκοντα  # module M, no features — MorphGNT gives ὀγδοήκοντα case, number and gender like any adjective
+5:28 A- ----APN- ὀκτὼ ὀκτώ  # module M, no features — MorphGNT gives ὀκτώ case, number and gender like any adjective
+5:28 N- ----APN- ἔτη ἔτος
+5:28 C- -------- καὶ καί
+5:28 V- 3AAI-S-- ἐγέννησεν γεννάω
+5:28 N- ----ASM- υἱὸν υἱός
+5:29 C- -------- καὶ καί
+5:29 V- 3AAI-S-- ἐπωνόμασεν ἐπονομάζω
+5:29 RA ----ASN- τὸ ὁ
+5:29 N- ----ASN- ὄνομα ὄνομα
+5:29 RP ----GSM- αὐτοῦ αὐτός
+5:29 N- ----ASM- Νωε Νῶε
+5:29 V- -PAPNSM- λέγων λέγω
+5:29 RD ----NSM- Οὗτος οὗτος
+5:29 V- 3FAI-S-- διαναπαύσει διαναπαύω
+5:29 RP ----AP-- ἡμᾶς ἐγώ  # module lemma ἡμᾶς, the form itself — ἐγώ is the dictionary form
+5:29 P- -------- ἀπὸ ἀπό
+5:29 RA ----GPN- τῶν ὁ
+5:29 N- ----GPN- ἔργων ἔργον
+5:29 RP ----GP-- ἡμῶν ἐγώ  # module lemma ἡμῶν, the form itself — ἐγώ is the dictionary form
+5:29 C- -------- καὶ καί
+5:29 P- -------- ἀπὸ ἀπό
+5:29 RA ----GPF- τῶν ὁ
+5:29 N- ----GPF- λυπῶν λύπη
+5:29 RA ----GPF- τῶν ὁ
+5:29 N- ----GPF- χειρῶν χείρ
+5:29 RP ----GP-- ἡμῶν ἐγώ  # module lemma ἡμῶν, the form itself — ἐγώ is the dictionary form
+5:29 C- -------- καὶ καί
+5:29 P- -------- ἀπὸ ἀπό
+5:29 RA ----GSF- τῆς ὁ
+5:29 N- ----GSF- γῆς γῆ
+5:29 RR ----GSF- ἧς ὅς
+5:29 V- 3AMI-S-- κατηράσατο καταράομαι
+5:29 N- ----NSM- κύριος κύριος
+5:29 RA ----NSM- ὁ ὁ
+5:29 N- ----NSM- θεός θεός
+5:30 C- -------- καὶ καί
+5:30 V- 3AAI-S-- ἔζησεν ζάω
+5:30 N- ----NSM- Λαμεχ Λάμεχ
+5:30 P- -------- μετὰ μετά
+5:30 RA ----ASN- τὸ ὁ
+5:30 V- -AAN---- γεννῆσαι γεννάω
+5:30 RP ----ASM- αὐτὸν αὐτός
+5:30 RA ----ASM- τὸν ὁ
+5:30 N- ----ASM- Νωε Νῶε
+5:30 A- ----APN- πεντακόσια πεντακόσιοι
+5:30 C- -------- καὶ καί
+5:30 A- ----APN- ἑξήκοντα ἑξήκοντα  # module M, no features — MorphGNT gives ἑξήκοντα case, number and gender like any adjective
+5:30 A- ----APN- πέντε πέντε  # module M, no features — MorphGNT gives πέντε case, number and gender like any adjective
+5:30 N- ----APN- ἔτη ἔτος
+5:30 C- -------- καὶ καί
+5:30 V- 3AAI-S-- ἐγέννησεν γεννάω
+5:30 N- ----APM- υἱοὺς υἱός
+5:30 C- -------- καὶ καί
+5:30 N- ----APF- θυγατέρας θυγάτηρ
+5:31 C- -------- καὶ καί
+5:31 V- 3AMI-P-- ἐγένοντο γίνομαι
+5:31 A- ----NPF- πᾶσαι πᾶς
+5:31 RA ----NPF- αἱ ὁ
+5:31 N- ----NPF- ἡμέραι ἡμέρα
+5:31 N- ----GSM- Λαμεχ Λάμεχ
+5:31 A- ----NPN- ἑπτακόσια ἑπτακόσιοι
+5:31 C- -------- καὶ καί
+5:31 A- ----NPN- πεντήκοντα πεντήκοντα  # module M, no features — MorphGNT gives πεντήκοντα case, number and gender like any adjective
+5:31 A- ----NPN- τρία τρεῖς  # module NPM — τρία is the neuter, agreeing with ἔτη
+5:31 N- ----NPN- ἔτη ἔτος
+5:31 C- -------- καὶ καί
+5:31 V- 3AAI-S-- ἀπέθανεν ἀποθνήσκω
+5:32 C- -------- Καὶ καί
+5:32 V- 3IAI-S-- ἦν εἰμί
+5:32 N- ----NSM- Νωε Νῶε
+5:32 N- ----GPN- ἐτῶν ἔτος
+5:32 A- ----GPN- πεντακοσίων πεντακόσιοι
+5:32 C- -------- καὶ καί
+5:32 V- 3AAI-S-- ἐγέννησεν γεννάω
+5:32 N- ----NSM- Νωε Νῶε
+5:32 A- ----APC- τρεῖς τρεῖς
+5:32 N- ----APM- υἱούς υἱός
+5:32 RA ----ASM- τὸν ὁ
+5:32 N- ----ASM- Σημ Σήμ
+5:32 RA ----ASM- τὸν ὁ
+5:32 N- ----ASM- Χαμ Χαμ
+5:32 RA ----ASM- τὸν ὁ
+5:32 N- ----ASM- Ιαφεθ Ιαφεθ
