@@ -51,6 +51,11 @@ def run(fn, *args):
     return rep.failed, rep.skipped, buf.getvalue().strip().splitlines()
 
 
+def holds(expr, message):
+    """A plain assertion in the (failed, skipped, lines) shape the runners expect."""
+    return (0, 0, []) if expr else (1, 0, ["  FAIL  %s" % message])
+
+
 def with_words(edit):
     """check_words against a copy of data/ whose GEN word-by-word layer is edited.
 
@@ -76,7 +81,31 @@ def with_words(edit):
     return go
 
 
+def with_morph(edit):
+    """check_analysis against a copy of data/ whose GEN 1 morphology is edited."""
+    def go():
+        tmp = pathlib.Path(tempfile.mkdtemp())
+        try:
+            shutil.copytree(render.DATA, tmp / "data")
+            path = tmp / "data/GEN/1.morph.txt"
+            path.write_text(edit(path.read_text(encoding="utf-8")),
+                            encoding="utf-8", newline="\n")
+            saved, render.DATA = render.DATA, tmp / "data"
+            try:
+                return run(V.check_analysis, "GEN", 1)
+            finally:
+                render.DATA = saved
+        finally:
+            shutil.rmtree(tmp, ignore_errors=True)
+    return go
+
+
 R11 = GEN[0]["reading"]
+
+# The same name entry as John 1:6's, marked as a later occurrence: no gloss, and the
+# panel-specific form kept.
+BARE = {k: v for k, v in JHN[2]["names"][0].items() if k != "gloss"}
+BARE["bare"] = True
 
 # Each must report at least one failure.
 NEGATIVE = [
@@ -98,12 +127,23 @@ NEGATIVE = [
     ("banned   inside a chain",          lambda: run(V.check_banned, mut(GEN, [1, "reading"], "[[x|upon the Face Of The Deep]]"))),
     ("anchors  listed headword as text", lambda: run(V.check_anchors, mut(GEN, [0, "reading"], "In the beginning, " + R11))),
     ("anchors  own headword as text",    lambda: run(V.check_anchors, mut(GEN, [1, "reading"], "[[wind|a, b]] and the wind"))),
-    ("anchors  English name unanchored", lambda: run(V.check_anchors, mut(JHN, [2, "names", 0, "unanchored"], "John"))),
+    ("anchors  name written as plain text",
+                                         lambda: run(V.check_anchors, mut(JHN, [2, "reading"], "there came to be John, [[name:Ἰωάννης]]"))),
+    ("words    a recorded difference that is not there",
+                                         with_morph(lambda t: t.replace(
+                                             "1:1 V- 3AAI-S-- ἐποίησεν ποιέω",
+                                             "1:1 V- 3AAI-S-- ἐποίησεν ποιέω  # module 3AAI-P-- — stale"))),
     ("words    Greek changed, now stale", lambda: run(V.check_words, "GEN", 1, mut(GEN, [0, "greek"], "Ἐν ἀρχῇ ἐποίησε ὁ θεὸς τὸν οὐρανὸν καὶ τὴν γῆν."))),
     ("words    verse missing from layer", with_words(lambda l: l["verses"].pop())),
     ("words    word with no lemma",      with_words(lambda l: l["verses"][0]["words"][2].update(lemma=""))),
     ("greek    OT word altered",         lambda: run(V.check_greek, "GEN", 1, mut(GEN, [0, "greek"], "Ἐν ἀρχῇ ἐποίησεν ὁ θεὸς τὸν οὐρανὸν καὶ τὴν γῆ."))),
     ("greek    NT verse altered",        lambda: run(V.check_greek, "JHN", 1, mut(JHN, [0, "greek"], "Ἐν ἀρχῇ ἦν ὁ λόγος."))),
+    ("greek    capital with no reason for it",
+                                         lambda: run(V.check_greek, "GEN", 1, mut(GEN, [0, "greek"], "Ἐν ἀρχῇ ἐποίησεν ὁ Θεὸς τὸν οὐρανὸν καὶ τὴν γῆν."))),
+    ("names    bare entry on a first occurrence",
+                                         lambda: run(V.check_names, mut(JHN, [2, "names"], [BARE]))),
+    ("fields   bare entry still carrying a gloss",
+                                         lambda: run(V.check_fields, [dict(JHN[2], names=[dict(JHN[2]["names"][0], bare=True)])])),
 ]
 
 # Each must report no failure. The last three are the allowances, which a check
@@ -122,6 +162,34 @@ CONTROL = [
                                          lambda: run(V.check_names, mut(GEN, [0, "names"], []))),
     ("words    a chapter with no layer is a note, not a failure",
                                          lambda: run(V.check_words, "JHN", 2, JHN)),
+    # The module's own spelling conventions are not discrepancies; anything else is.
+    ("greek    the module's elision mark compares equal",
+                                         lambda: holds(V.same_form("ἀπ᾿", "ἀπʼ"),
+                                                       "U+1FBF and U+02BC must compare equal")),
+    ("greek    a verse-initial capital is allowed",
+                                         lambda: holds(V.same_form("καὶ", "Καὶ", initial=True),
+                                                       "the head of a verse may be capitalised")),
+    ("greek    a capital listed in speech is allowed",
+                                         lambda: holds(V.same_form("ἀπὸ", "Ἀπὸ", speech={"Ἀπὸ"}),
+                                                       "a word opening direct speech may be capitalised")),
+    ("greek    a capital not listed in speech is refused",
+                                         lambda: holds(not V.same_form("θεὸς", "Θεὸς"),
+                                                       "a capital with no reason must be a discrepancy")),
+    # A name glossed once per chapter, bare after that, and still panel-specific.
+    ("fields   a bare name needs no gloss",
+                                         lambda: run(V.check_fields, [dict(JHN[2], names=[BARE])])),
+    ("names    a later occurrence takes a bare entry",
+                                         lambda: run(V.check_names, JHN + [dict(JHN[2], ref="JHN 1:15", names=[BARE])])),
+    ("words    a documented difference is a note, not a failure",
+                                         lambda: run(V.check_analysis, "GEN", 2)),
+    ("anchors  a chain may contain the conventional form",
+                                         lambda: run(V.check_anchors, mut(JHN, [2, "reading"], "[[a park|a park, the garden of John, paradise]] [[name:Ἰωάννης]]"))),
+    ("names    a bare name prints its form with no parenthetical",
+                                         lambda: holds(
+                                             'class="paren"' not in render.reading(JHN[2]["reading"], [BARE], "anchored")
+                                             and "John" in render.reading(JHN[2]["reading"], [BARE], "anchored")
+                                             and "Iōannēs" in render.reading(JHN[2]["reading"], [BARE], "unanchored"),
+                                             "a bare name keeps its panel form and drops the gloss")),
 ]
 
 SHADED = re.compile(r'<span class="chain">(.*?)</span>')

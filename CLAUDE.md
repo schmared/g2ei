@@ -105,6 +105,11 @@ A name left unglossed is a hole in the sentence — a word that meant something 
 hearer and means nothing now. Gloss on **first occurrence per chapter**, bare thereafter,
 so genealogies stay readable.
 
+Both occurrences are written `[[name:…]]`. The first carries a full `names` entry; every
+later one carries an entry marked `"bare": true` with no `gloss`, which prints the form
+alone. A later occurrence is never plain text: the two panels print different forms of a
+name (*Edem* / *Eden*), and plain text cannot.
+
 Both editions also capitalise the first word of direct speech (Gen 1:3 *Γενηθήτω*). List
 such words in the verse's `speech` field, so `validate.py` does not take them for names.
 

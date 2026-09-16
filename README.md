@@ -184,6 +184,17 @@ A `.morph.txt` file is one word per line in MorphGNT's code scheme, so both test
 alike; the header of `data/GEN/1.morph.txt` explains the columns and the two codes added to
 record only what a form itself says.
 
+The analysis is the project's own, and a local reference module is only a reference. Where
+the two differ deliberately, the line says so and why:
+
+```
+2:13 N- ----NSN- ὄνομα ὄνομα  # module ASN — verbless clause, as at 2:11 where the module has NSN
+```
+
+`validate.py` prints an annotated difference as a note rather than a failure, and **fails if
+the difference a note claims is no longer there** — so the annotations cannot quietly become
+a place to bury mistakes.
+
 Middle Liddell is read from the Perseus Digital Library's XML: only the translations inside
 an entry's numbered senses, never its etymology. Perseus marks a few Latin equivalents and
 one-construction glosses as translations too; `NOT_SENSES` in `build/words.py` skips those
@@ -202,6 +213,12 @@ rather than retyped:
   "gloss": "(Ἰωάννης, from Hebrew Yôḥānān, \"Yah has shown favour\")"
 }]
 ```
+
+A name is glossed once per chapter. Later occurrences carry the same entry marked
+`"bare": true` and no `gloss`, and print the form by itself — still `Iōannēs` in one panel
+and `John` in the other, which is why a later occurrence is a marker rather than plain text.
+`validate.py` enforces both halves: a bare entry on a first occurrence fails, and so does a
+second entry that tries to gloss again.
 
 ## Adding a chapter
 

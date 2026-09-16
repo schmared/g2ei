@@ -44,12 +44,26 @@ import render  # noqa: E402  — for ROOT, DATA, PAGE, BOOKS
 SOURCES = render.ROOT / "sources"
 MIDDLE_LIDDELL = SOURCES / "middle-liddell/Perseus_text_1999.04.0058.xml"
 
-# Lemmas Middle Liddell lacks, with LSJ's senses in LSJ's order — from LSJ as
-# published by PerseusDL/lexica, CC BY-SA 4.0. Add an entry when words.py reports
-# a lemma with no senses.
+# Lemmas Middle Liddell lacks — or has, but tags with nothing usable — with LSJ's
+# senses in LSJ's order, from LSJ as published by PerseusDL/lexica, CC BY-SA 4.0.
+# Add an entry when words.py reports a lemma with no senses. Perseus's own markup
+# sometimes wraps citation fragments in <tr>; those are left out here by hand, and
+# the entry records which file the senses came from.
 LSJ = {
     "ἀκατασκεύαστος": ["not properly prepared", "unwrought, unformed", "chaos",
                         "unpolished, unartificial"],
+    # LSJ gives ἁγιάζω no gloss of its own: the entry reads "= ἁγίζω, LXX Ge. 2.3",
+    # so the senses are the ones the cross-reference points at, under ἁγίζω.
+    "ἁγιάζω": ["hallow, make sacred"],
+    # Middle Liddell has no πράσινος at all. LSJ prints "leek-green, light green" and
+    # cites this very verse for the stone: "λίθος π., = πρασῖτις, LXX Ge. 2.12". Its
+    # later sense, "the green faction", is the Circus faction, a substantive plural.
+    "πράσινος": ["leek-green, light green"],
+    # Middle Liddell *has* ὀστέον, but tags only "the" — sliced out of "the bleached
+    # bones of the dead" — and never tags its actual gloss, which the entry gives as
+    # the Latin os, ossis. LSJ (eng16) tags "bone" among citation debris (d)Fr., a
+    # mangled ´sthi) that is not part of any sense.
+    "ὀστέον": ["bone", "the bleached bones of the dead"],
 }
 
 # New Testament books: MorphGNT file and its book number.
@@ -83,9 +97,74 @@ NOT_SENSES = {
     "gh=": {"ubi terrarum, where in (in what quarter of) the world, where on earth"},  # ποῦ γῆς
     "sko/tos": {"nocte premere"},               # Latin
     "e)pa/nw": {"part", "upper"},               # scraps of "the upper part"
+    "o(/ti": {"knowing, thinking", "saying",    # ὅτι with a participle — constructions
+              "came that", "has", "had)",
+              "that they would", "that I would", "not only"},
+    # Perseus opens ἄρχω with "in pass. sense:— to be first", a gloss for the passive
+    # alone; the entry's first numbered sense is "to begin, make a beginning", marked
+    # "both in Act. and Mid.", which is the ἤρξατο of GEN 2:3. Skipped by name, because
+    # that same opening position carries the principal sense in most entries — λόγος's
+    # "the word" among them — and must not be skipped by rule.
+    "a)/rxw": {"to be first"},
+    # βρέχω the same way: every gloss Perseus tags in sense I stands inside that sense's
+    # ":—Pass." clause, and its active gloss ("to wet", Lat. rigo) is never tagged at all.
+    # GEN 2:5 ἔβρεξεν is active, and sense II — "to rain, send rain" — is the one it uses.
+    "bre/xw": {"to be wetted, get wet", "to bathe", "soaked"},
+    # Fragments of the phrase the entry uses to distinguish πηγή *from* κρουνός, which
+    # is what "(the spring or well-head)" glosses — a different word.
+    "phgh/": {"(the spring", "well-head)"},
+    "pla/ssw": {"made clay", "is a-moulding"},   # pieces of quoted examples
+    # πορεύω files the deponent πορεύομαι, and its sense I is marked "Act." where the
+    # text's form is middle. Sense II is left whole — the entry marks it "Pass. and
+    # Mid.", so its opening gloss, "to be driven or carried", is available to a middle
+    # form and is not skipped. Only the actives go.
+    "poreu/w": {"to make to go, carry, convey", "to carry", "ferry over",
+                "to bring, furnish, bestow, find"},
+    # ἐκπορεύω likewise: the active "to make to go out, fetch out" heads the entry, and
+    # the middle glosses it tags after it — "to go out", "forth, march out" — are the
+    # ἐκπορεύεται of GEN 2:10.
+    "e)kporeu/w": {"to make to go out, fetch out"},
+    "a)nh/r": {"homo", "vir gregis",            # Latin, and the entry says "not homo"
+               "a woman", "wife, a husband"},   # from "a man, opp. to a woman"
+    # οὐ's entry lists the quasi-compounds it forms — οὐ δίδωμι "to withhold", οὐκ ἐῶ
+    # "to refuse" — and their Latin equivalents, which are not senses of the negative.
+    "ou)": {"to withhold", "to refuse", "nolo", "nego.", "nondissolution", "of its not"},
+    "proskolla/w": {"to"},                      # from "to glue on or to"
+    "o)ste/on": {"the"},                        # from "the bleached bones of the dead"
+    # αἰσχύνω's sense I and its subsenses are the active — "to make ugly, disfigure",
+    # "to dishonour" — and GEN 2:25 ᾐσχύνοντο is middle/passive. Sense II, the first
+    # numbered sense open to that voice, is "to be ashamed, feel shame".
+    "ai)sxu/nw": {"to make ugly, disfigure, mar", "to dishonour, tarnish", "to dishonour"},
 }
-# Lemmas the lexicon files under another spelling (Attic γίγνομαι for Koine γίνομαι).
-SPELLING = {"gi/nomai": "gi/gnomai", "ginw/skw": "gignw/skw"}
+# The key the lexicon files a word under, where that is not the key the lemma itself
+# gives: a different spelling (Attic γίγνομαι for Koine γίνομαι), the active a deponent
+# is filed beneath (πορεύω for πορεύομαι), or the entry a bare cross-reference points at
+# (κατέναντι reads "= κατεναντίον" and glosses nothing itself). Each is recorded in
+# reference/lexicon-notes.md with the entry it resolves to.
+SPELLING = {
+    "gi/nomai": "gi/gnomai",
+    "ginw/skw": "gignw/skw",
+    "ei(=s": "ei(/s",               # Perseus keys the numeral with an acute
+    "poreu/omai": "poreu/w",        # deponent, filed under the active
+    "e)kporeu/omai": "e)kporeu/w",  # likewise
+    "kate/nanti": "katenanti/on",   # cross-reference; the entry has no <tr> of its own
+    "peteino/n": "peteino/s",       # the neuter noun, filed under the adjective
+    "e(/neken": "e(/neka",          # the Koine form of the Attic preposition
+    "e)nte/llomai": "e)nte/llw",    # deponent, filed under the active
+}
+
+# Homographs where Perseus's *first* entry is a different word from the one the text
+# uses, so the first sense of the first entry would be the first sense of the wrong
+# word. This says which entry is the word; the lexicon still says what it means, and
+# the reason for each is recorded in reference/lexicon-notes.md. Keep it short: a
+# lemma belongs here only when the entries are genuinely different words.
+ENTRY = {
+    "xou=s": "xou=s2",   # xou=s1 is the Pitcher-feast, the liquid measure; GEN 2:7 is dust
+    "o(/ti": "o(/ti2",   # o(/ti1 is ὅ τι, "for what"; the conjunction is the second entry
+    "le/gw": "le/gw3",   # le/gw1 is "to lull to sleep", le/gw2 "to gather"; saying is the third
+    "ou)": "ou)8",       # of eighteen entries, all but this one gloss an idiom (ou) ga/r,
+                         # ou) mh/n …); ou)8 is the plain negative, "not", Lat. non
+}
 
 PUNCT = re.compile(r"[.,;:·!?—·]")
 
@@ -158,29 +237,34 @@ def load_middle_liddell():
     """{Beta Code key: [translation, …]} from Perseus's Middle Liddell, in entry order.
 
     Only <tr> elements from the first <sense> on count: the headword line, principal
-    parts and etymology stand before the senses and are not glosses. Of homographs
-    (key1, key2 …) the first entry is kept.
+    parts and etymology stand before the senses and are not glosses.
+
+    Homographs are stored twice: under the key the lexicon prints (xou=s1, xou=s2 …)
+    and, for the first of them, under the bare key as well. An uncurated lemma still
+    resolves to the first entry, exactly as before; ENTRY names the few lemmas where
+    that entry is the wrong word.
     """
     xml = MIDDLE_LIDDELL.read_text(encoding="utf-8")
     entries = {}
     for m in re.finditer(r'<entry\b[^>]*\bkey="([^"]+)"[^>]*>(.*?)</entry>', xml, re.S):
-        key = re.sub(r"\d+$", "", m.group(1))
-        if key in entries:
-            continue
-        body = m.group(2)
+        key, body = m.group(1), m.group(2)
         start = body.find("<sense")
         scope = body[start:] if start >= 0 else body
         glosses = (re.sub(r"\s+", " ", re.sub(r"<[^>]+>", "", t)).strip()
                    for t in re.findall(r"<tr\b[^>]*>(.*?)</tr>", scope, re.S))
-        entries[key] = [g for g in glosses if g]
+        senses = [g for g in glosses if g]
+        entries.setdefault(key, senses)
+        entries.setdefault(re.sub(r"\d+$", "", key), senses)
     return entries
 
 
 def lexicon_senses(entries, lemma):
     key = SPELLING.get(beta(lemma), beta(lemma))
+    key = ENTRY.get(key, key)
     if key not in entries:
         return None
-    skip, seen, out = NOT_SENSES.get(key, set()), set(), []
+    skip = NOT_SENSES.get(re.sub(r"\d+$", "", key), set())
+    seen, out = set(), []
     for sense in entries[key]:
         if sense not in skip and sense not in seen:
             seen.add(sense)
@@ -203,11 +287,16 @@ def read_morph(book, chapter):
         line = line.strip()
         if not line or line.startswith("#"):
             continue
-        cols = line.split()
+        # A trailing comment records a deliberate difference from the reference module
+        # and why; validate.py reports those as notes rather than failures, and fails
+        # if the difference it names is no longer there.
+        body, _, reason = line.partition("#")
+        cols = body.split()
         if len(cols) != 5 or ":" not in cols[0]:
             raise SystemExit("%s line %d: expected 'verse pos parse form lemma'" % (path.name, n))
         ref, pos, code, form, lemma = cols
-        out.setdefault(int(ref.split(":")[1]), []).append((form, lemma, pos, code))
+        out.setdefault(int(ref.split(":")[1]), []).append(
+            (form, lemma, pos, code, reason.strip()))
     return out
 
 
@@ -215,7 +304,8 @@ def lxx_tokens(book, chapter):
     morph = read_morph(book, chapter)
     if morph is None:
         return None
-    return {verse: [(form, lemma, "", morphgnt(pos, code)) for form, lemma, pos, code in words]
+    return {verse: [(form, lemma, "", morphgnt(pos, code))
+                    for form, lemma, pos, code, _ in words]
             for verse, words in morph.items()}
 
 
@@ -258,6 +348,12 @@ def build(book, chapter, entries):
             return None, ("data/%s/%d.morph.txt not found — the LXX layer needs the "
                           "project's own analysis (see that file's header in GEN/1)" % (book, chapter))
 
+    # A name is glossed once per chapter in the reading text, but every card wants its
+    # sense, so the map is built across the chapter; an entry marked bare carries no
+    # gloss and contributes nothing to it.
+    names = {n["greek"]: n["gloss"] for verse in verses
+             for n in verse.get("names", []) if n.get("gloss")}
+
     out = []
     for verse in verses:
         number = int(verse["ref"].rsplit(":", 1)[1])
@@ -267,12 +363,23 @@ def build(book, chapter, entries):
             raise SystemExit("%s: the source's words do not match the verse's Greek\n  ours:   %s\n"
                              "  source: %s" % (verse["ref"], " ".join(ours),
                                                " ".join(t[0] for t in theirs)))
-        names = {n["greek"]: n["gloss"] for n in verse.get("names", [])}
         words = []
         for form, (_, lemma, _, (parse, aspect)) in zip(ours, theirs):
+            if lemma in LSJ:
+                # An explicit LSJ entry wins: the table holds the words Middle Liddell
+                # lacks *and* the ones whose entry it tags with nothing usable, like
+                # ὀστέον, where taking what Perseus tagged would give "bones of the dead"
+                # for a single bone.
+                senses, lexicon = LSJ[lemma], "LSJ"
+                words.append({"form": form, "lemma": lemma, "parse": parse, "aspect": aspect,
+                              "senses": senses[:SHOWN], "more": max(0, len(senses) - SHOWN),
+                              "lexicon": lexicon})
+                continue
             senses, lexicon = lexicon_senses(entries, lemma), "Middle Liddell"
-            if senses is None and lemma in names:
-                senses, lexicon = [names[lemma]], "name"
+            if senses is None and (lemma in names or form in names):
+                # A name entry is keyed by the form the verse prints (Ἀσσυρίων), which
+                # is not always the dictionary form the morphology gives (Ἀσσύριος).
+                senses, lexicon = [names.get(lemma) or names[form]], "name"
             elif senses is None and lemma in LSJ:
                 senses, lexicon = LSJ[lemma], "LSJ"
             elif senses is None:

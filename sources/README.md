@@ -41,6 +41,38 @@ each word's senses from it, and the headword rule takes each headword from it.
 curl -sL --create-dirs -o sources/middle-liddell/Perseus_text_1999.04.0058.xml https://raw.githubusercontent.com/blinskey/middle-liddell/master/Perseus_text_1999.04.0058.xml
 ```
 
+## Lexicon — LSJ, where Middle Liddell has no entry
+
+Liddell–Scott–Jones as [PerseusDL](https://github.com/PerseusDL/lexica) publishes it,
+CC BY-SA 4.0. Middle Liddell is an abridgement and drops words the Septuagint uses —
+ἀκατασκεύαστος (Gen 1:2), ἁγιάζω (Gen 2:3) — so those senses come from LSJ.
+
+The lexicon is split into 27 files of about 270 MB in total, alphabetically. Fetch only the
+files a chapter needs:
+
+```bash
+curl -sL --create-dirs -o sources/lsj/grc.lsj.perseus-eng1.xml https://raw.githubusercontent.com/PerseusDL/lexica/master/CTS_XML_TEI/perseus/pdllex/grc/lsj/grc.lsj.perseus-eng1.xml
+```
+
+| file | covers | fetched for |
+| --- | --- | --- |
+| `eng1` | the whole of alpha, `*a` to `ἄωτος` (42 MB) | ἀκατασκεύαστος (Gen 1:2), ἁγιάζω (Gen 2:3) |
+| `eng17` | pi, `p` to `πώϋξ` (38 MB) | πράσινος (Gen 2:12) |
+
+To find which file holds a letter without downloading any of them, read the head of a few
+and look at the first entry's key:
+
+```bash
+curl -sL -r 0-199999 https://raw.githubusercontent.com/PerseusDL/lexica/master/CTS_XML_TEI/perseus/pdllex/grc/lsj/grc.lsj.perseus-eng17.xml | grep -o 'key="[^"]*"' | head -1
+```
+
+`eng13` opens at mu, `eng14` nu, `eng16` omicron, `eng20` rho, `eng21` sigma, `eng22` tau.
+
+Entries are `<entryFree key="…">` in Beta Code, with `<tr>` for each translation, as in
+Middle Liddell. Some entries define a word only by cross-reference (`ἁγιάζω` reads
+`= ἁγίζω`), in which case the senses are the ones the reference points at. `build/words.py`
+carries the handful found so far in its `LSJ` table, each with the entry it came from.
+
 ## The printed Rahlfs — where the Old Testament Greek comes from
 
 The Greek in `data/` is transcribed by hand from Rahlfs's printed edition, not copied from

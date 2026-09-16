@@ -28,12 +28,55 @@ consulted.
    principal parts and etymology stand before the senses and are never taken. For a
    preposition, the first sense for the case it governs. For a word used as a noun, the
    first noun sense.
+
+   Where Perseus's opening gloss belongs to one voice only — ἄρχω's *in pass. sense:— to be
+   first*, against its numbered I, *to begin, make a beginning* ("both in Act. and Mid.") —
+   it is skipped **by name** in `NOT_SENSES`. Not by rule: the same opening position carries
+   the principal sense in most entries, λόγος's *the word* among them, and a rule that
+   skipped it would rewrite the prologue's headword to *spoken*.
 3. **Form.** Tense, voice, mood, person and number come from the Greek form.
 4. **Article.** English gets *the* where the Greek has the article, and nothing where it
    does not. The *a* in a lexicon's gloss (*a beginning*) is its citation form, not the text's.
 5. **Capitals.** None the Greek does not mark. Proper names and *God* are capitalised, as
    the lexicon prints them; nothing is capitalised to make it a title, and no pronoun
    standing for God takes a reverential capital.
+
+### Homographs
+
+Where the lexicon prints two entries under one spelling, the first is not always the word
+the text uses, and "the first sense of the first entry" would then be the first sense of the
+wrong word. `ENTRY` in `build/words.py` names which entry is meant; it decides nothing about
+what the word means, only which entry is the word, and every case is listed here:
+
+| lemma | entry taken | why not the first |
+| --- | --- | --- |
+| χοῦς (GEN 2:7) | `xou=s2` — *earth thrown down, heaped up, dust* | `xou=s1` is the Pitcher-feast, the liquid measure |
+| ὅτι (GEN 2:3) | `o(/ti2` — *that* | `o(/ti1` is ὅ τι, *for what, wherefore* |
+
+A lemma belongs there only where the entries are genuinely different words. A word with one
+entry and several senses is not a homograph: its first numbered sense stands, however far
+from the expected meaning it reads.
+
+### Where the lexicon files a word elsewhere
+
+`SPELLING` in `build/words.py` redirects a lemma to the key its entry actually sits under.
+Three reasons, and all of them are the lexicon's filing rather than a decision about sense:
+
+| lemma | filed under | why |
+| --- | --- | --- |
+| γίνομαι, γινώσκω | γίγνομαι, γιγνώσκω | the Attic spelling of a Koine form |
+| εἷς (GEN 2:11) | `ei(/s` | Perseus keys the numeral with an acute, not a circumflex |
+| πορεύομαι (GEN 2:14) | πορεύω | a deponent, filed under its active |
+| ἐκπορεύομαι (GEN 2:10) | ἐκπορεύω | likewise |
+| κατέναντι (GEN 2:14) | κατεναντίον | the entry is a bare cross-reference, `= κατεναντίον`, and glosses nothing itself |
+
+The last is the same shape as ἁγιάζω in LSJ (`= ἁγίζω`): an entry that exists, carries no
+translation, and names the entry that does. Following it is not interpretation — the lexicon
+is saying where the word is defined.
+
+Where a deponent is filed under its active, the entry's opening gloss is usually the active
+one and the form in the text is not. That is the ἄρχω and βρέχω situation again, and it is
+settled the same way: by name, per lemma, with the entry's own voice labels quoted.
 
 Each entry below records the lexicon sense its headword came from.
 
@@ -99,6 +142,112 @@ Soft adversative. Never rendered with the force of ἀλλά.
 
 `upon, over, and atop` (full) / `over and atop` (short). No unit. GEN 1:2, twice: full at the
 abyss, short at the water.
+
+### ἀπό + genitive
+
+- **headword:** `from` — Middle Liddell, first sense with the genitive: *from, away from*.
+- **chain:** `from, away from, far from, apart from`
+- **used:** GEN 2:2, GEN 2:3
+
+Separation, not source. Resting ἀπὸ τῶν ἔργων is a standing apart *from* the works.
+
+### ὅτι
+
+- **headword:** `that` — the conjunction; the lexicon prints two entries under this
+  spelling and this is the second (see *Homographs* above). First sense *that*.
+- **chain:** `that, seeing that, although, for that, because, inasmuch as`
+- **used:** GEN 2:3
+
+Both the *that* of reported speech and the *because* the sense wants; neither is chosen.
+
+### ὅτε
+
+- **headword:** `when` — Middle Liddell, first sense.
+- **chain:** `when, sometimes`
+- **used:** GEN 2:4
+
+### Ordinals — plain text
+
+`the sixth`, `the seventh`. No unit: Middle Liddell gives ἕκτος one sense, *sixth*, and
+ἕβδομος *seventh*, so there is no range to open and a unit would only repeat the headword.
+GEN 2:2, GEN 2:3.
+
+### πρό + genitive
+
+- **headword:** `before` — Middle Liddell, first sense *before*.
+- **chain:** `before, in front of, further on, sooner, rather than`
+- **used:** GEN 2:5, twice, both with the articular infinitive (πρὸ τοῦ γενέσθαι, πρὸ τοῦ
+  ἀνατεῖλαι)
+
+### ἐπί
+
+- **headword:** `upon` — Middle Liddell, first sense *on, upon*.
+- **chain:** `upon, on, in, at, near`
+- **used:** GEN 2:5, twice — with the genitive (ἐπὶ τῆς γῆς) and with the accusative
+  (ἐπὶ τὴν γῆν)
+
+The entry opens with one heading for all three cases, and its tagged translations do not
+separate them, so the case cannot be read off the lexicon the way it can for πρός and παρά.
+One chain serves both, and the case is recorded here rather than guessed at in the text.
+
+### ἐκ + genitive
+
+- **headword:** `out of` — Middle Liddell, first sense *out of, from*.
+- **chain:** `out of, forth from, from`
+- **used:** GEN 2:6
+
+### εἰς + accusative
+
+- **headword:** `into` — Middle Liddell, first sense *into, to*.
+- **chain:** `into, to, in, rest in`
+- **used:** GEN 2:7, twice — of place (εἰς τὸ πρόσωπον) and of result (εἰς ψυχὴν ζῶσαν);
+  GEN 2:9, twice; GEN 2:10
+
+### ἐν — joined to its object
+
+ἐν is never a unit by itself. It joins its object, as in ἐν ἀρχῇ:
+
+- **ἐν μέσῳ** (GEN 2:9) — **headword** `in middle`; **chain** `within, inside of, and by
+  means of the middle, in the middle, the centre, mid, between two`.
+- **ἐν Εδεμ** (GEN 2:8) — the object is a proper name, which carries its own marker, so
+  ἐν stands as plain text `in` and opens no chain.
+
+A one-word anchor `in` is unusable in any case: `validate.py` would find it inside the fixed
+aorist formula, *not a process observed in progress*, and refuse it as a bare headword.
+
+### κατά
+
+- **headword:** `down` — Middle Liddell, first sense *down, downwards*.
+- **chain:** `down, downwards, down from, down upon, over, upon`
+- **used:** GEN 2:8
+
+Like ἐπί, the entry heads all its cases together and its tagged translations do not separate
+them. κατὰ ἀνατολάς is the idiom *eastward*, which the first sense does not give; the note
+records the idiom and the reading prints the lexicon.
+
+### Adverbs of place — ἐκεῖ, ἐκεῖθεν
+
+- ἐκεῖ — **headword** `there`; **chain** `there, in that place`. GEN 2:8, 2:11, 2:12.
+- ἐκεῖθεν — **headword** `from that place`; **chain** `from that place, thence, thereafter,
+  next`. GEN 2:10.
+
+### ἔτι
+
+- **headword:** `yet` — Middle Liddell, first sense *yet, as yet, still*.
+- **chain:** `yet, as yet, still, further, besides, moreover`
+- **used:** GEN 2:9
+
+### κατέναντι
+
+- **headword:** `over against` — the entry carries no translation of its own, reading
+  `κατέναντι = κατεναντίον`; the senses are that entry's, *over against, opposite, before*.
+- **chain:** `over against, opposite, before`
+- **used:** GEN 2:14
+
+### Ordinals, continued — plain text
+
+`the second`, `the third`, `the fourth` (GEN 2:13, 2:14) and `four` (τέσσαρες, GEN 2:10), on
+the same ground as `the sixth` and `the seventh`: one sense each, so no range to open.
 
 ---
 
@@ -188,6 +337,342 @@ the chain.
 - **used:** JHN 1:6
 
 Perfect — a standing status, not a past errand.
+
+### συντελέω — aorist
+
+- **headword:** `were brought quite to an end` (aorist passive, 3rd plural, GEN 2:1) /
+  `brought quite to an end` (aorist active, 3rd singular, GEN 2:2) — Middle Liddell, first
+  sense *to bring quite to an end, complete, accomplish*.
+- **chain (passive):** `were brought quite to an end, were completed, were accomplished, were made up into the whole and into the number`
+- **chain (active):** `brought quite to an end, completed, accomplished, made up into the whole and into the number`
+- **used:** GEN 2:1, GEN 2:2
+
+The *make up the whole* / *make up the number* senses are the lexicon's second and third and
+stay in the chain: finishing here is also completing a count.
+
+### καταπαύω — aorist
+
+- **headword:** `laid to rest` — Middle Liddell, first sense *to lay to rest, put an end to*;
+  aorist active, 3rd singular.
+- **chain (full):** `laid to rest, put an end to, made to cease, stopped and kept in check, put down`
+- **short:** `laid to rest, put an end to, made to cease`
+- **used:** GEN 2:2 (full), GEN 2:3 (short)
+
+Transitive in the lexicon's first sense, where English *rested* is intransitive. The range
+runs as far as *kill*, which the chain does not carry; the note says so instead.
+
+### εὐλογέω — aorist
+
+- **headword:** `spoke well of` — Middle Liddell, first sense *to speak well of, praise,
+  honour*; aorist active, 3rd singular. Rahlfs prints the augment ηὐ-.
+- **chain:** `spoke well of, praised, honoured, blessed`
+- **used:** GEN 2:3
+
+*Blessed* is the entry's fourth gloss and comes last in the chain for that reason.
+
+### ἁγιάζω — aorist
+
+- **headword:** `hallowed` — no Middle Liddell entry; LSJ gives the word no gloss of its own
+  either, reading `= ἁγίζω` and citing this verse, so the sense is ἁγίζω's, *hallow, make
+  sacred*. Aorist active, 3rd singular.
+- **chain:** `hallowed, made sacred`
+- **used:** GEN 2:3
+
+### ἄρχω — aorist middle
+
+- **headword:** `began` — Middle Liddell's first *numbered* sense, *to begin, make a
+  beginning*, marked "both in Act. and Mid."; aorist middle, 3rd singular. Perseus's opening
+  gloss *in pass. sense:— to be first* belongs to the passive alone and is skipped by name in
+  `NOT_SENSES` (see the headword rule above).
+- **chain:** `began, made a beginning, made a beginning of, began from`
+- **used:** GEN 2:3
+
+### ποιέω — aorist infinitive
+
+- **headword:** `to make` — the same entry as the indicative above, in the infinitive.
+- **chain:** `to make, to do, to produce, to create`
+- **used:** GEN 2:3 (ποιῆσαι, after ἤρξατο)
+
+### γίνομαι — aorist infinitive
+
+- **headword:** `to come into being` — the same entry as the indicative, in the infinitive.
+- **chain:** `to come to be, to arise, to be brought into existence`
+- **used:** GEN 2:5 (γενέσθαι, under πρὸ τοῦ)
+
+### ἀνατέλλω — aorist infinitive
+
+- **headword:** `to make to rise up` — Middle Liddell, first sense *to make to rise up*.
+- **chain:** `to make to rise up, to grow up, to give birth to and bring to light, to rise, to take its rise, to grow`
+- **used:** GEN 2:5 (ἀνατεῖλαι, under πρὸ τοῦ)
+
+Transitive first, intransitive later, and the LXX uses it intransitively of the plant.
+
+### βρέχω — aorist
+
+- **headword:** `rained` — Middle Liddell's second sense, *to rain, send rain*, which the
+  entry marks as New Testament usage. Every translation Perseus tags in the first sense
+  stands inside that sense's `:—Pass.` clause, and its active gloss (*to wet*, Lat. *rigo*)
+  is never tagged at all, so the passive glosses are skipped by name in `NOT_SENSES` — the
+  same treatment as ἄρχω, for the same reason. Aorist active, 3rd singular.
+- **chain:** `rained, sent rain`
+- **used:** GEN 2:5
+
+### ἐργάζομαι — present infinitive
+
+- **headword:** `to work` — Middle Liddell, first sense *to work, labour*.
+- **chain:** `to work, to labour, to work at and make and build, to do and perform and accomplish, to work the land, to earn by working`
+- **used:** GEN 2:5
+
+### ἀναβαίνω — imperfect
+
+- **headword:** `was going up` — Middle Liddell, first sense *to go up, mount*; imperfect
+  active, 3rd singular.
+- **chain:** `was going up, was mounting, was going up to, was embarking`
+- **used:** GEN 2:6
+
+### ποτίζω — imperfect
+
+- **headword:** `was giving to drink` — Middle Liddell, first sense *to give to drink*;
+  imperfect active, 3rd singular.
+- **chain:** `was giving to drink, was watering, was watering the cattle`
+- **used:** GEN 2:6
+
+### πλάσσω — aorist
+
+- **headword:** `formed` — Middle Liddell, first sense *to form, mould, shape*; aorist
+  active, 3rd singular.
+- **chain:** `formed, moulded, shaped, moulded and formed by training, formed in the mind, put into a certain form`
+- **used:** GEN 2:7
+
+The potter's verb, Latin *fingere*. Not the ἐποίησεν of chapter 1.
+
+### ἐμφυσάω — aorist
+
+- **headword:** `blew in` — Middle Liddell gives the entry one sense and one translation,
+  *to blow in: to play the flute*, where the colon marks a special application rather than a
+  second sense. Aorist active, 3rd singular.
+- **chain:** `blew in, played the flute`
+- **used:** GEN 2:7
+
+The chain carries the flute because the lexicon does. The note explains the colon.
+
+### ζάω — present participle
+
+- **headword:** `living` — Middle Liddell, first sense *to live*; present active participle,
+  accusative singular feminine, agreeing with ψυχήν.
+- **chain:** `living, alive, in full life and strength, fresh, strong`
+- **used:** GEN 2:7
+
+### φυτεύω — aorist
+
+- **headword:** `planted` — Middle Liddell, first sense *to plant*; aorist active, 3rd singular.
+- **chain:** `planted, planted for himself, begot, produced and brought about and caused`
+- **used:** GEN 2:8
+
+### τίθημι — aorist middle
+
+- **headword:** `set` — Middle Liddell, first sense *to set, put, place*; aorist middle,
+  3rd singular.
+- **chain:** `set, put, placed, planted, laid`
+- **used:** GEN 2:8
+
+### ἐξανατέλλω — plain text
+
+`sprang up from`. No unit: Middle Liddell gives the entry a single sense, *to spring up
+from*, so there is no range to open. The LXX uses it transitively — God made the trees spring
+up — where the lexicon has it intransitive; the verse's note records that. GEN 2:9.
+
+### οἶδα — perfect infinitive
+
+- **headword:** `to know` — Middle Liddell, first sense *to know*; perfect active infinitive,
+  articular (τοῦ εἰδέναι).
+- **chain:** `to know, to be assured, to be versed in`
+- **used:** GEN 2:9
+
+### ἐκπορεύομαι — present
+
+- **headword:** `goes out` — filed under the active ἐκπορεύω, whose opening gloss, *to make
+  to go out, fetch out*, is the active alone and is skipped by name; the middle glosses the
+  entry tags next, *to go out* and *forth, march out*, are this form. Present middle,
+  3rd singular.
+- **chain:** `goes out, goes forth, marches out`
+- **used:** GEN 2:10
+
+### ἀφορίζω — present middle/passive
+
+- **headword:** `is marked off by boundaries` — Middle Liddell, first sense *to mark off by
+  boundaries*; present, 3rd singular, one form for middle and passive.
+- **chain:** `is marked off by boundaries, is marked off for itself, is distinguished and determined and defined, is set apart and separated`
+- **used:** GEN 2:10
+
+### κυκλόω — present participle
+
+- **headword:** `the one encircling` — Middle Liddell, first sense *to encircle, surround*;
+  present active participle, articular.
+- **chain:** `the one encircling, surrounding, moving in a circle, going round`
+- **used:** GEN 2:11, GEN 2:13
+
+### πορεύομαι — present participle
+
+- **headword:** `the one being driven` — filed under the active πορεύω. Sense I is marked
+  *Act.* and is skipped by name; sense II is marked *Pass. and Mid.* and is kept whole, so
+  its first translation, *to be driven or carried*, stands — the middle has a claim on it.
+  *To go, walk, march* follows in the same sense group. Present middle participle, articular.
+- **chain:** `the one being driven, being carried, going, walking, marching, going across and passing`
+- **used:** GEN 2:14
+
+### λαμβάνω — aorist
+
+- **headword:** `took` — Middle Liddell, first sense *to take*; aorist active, 3rd singular.
+- **chain:** `took, received, took hold of and grasped and seized`
+- **used:** GEN 2:15
+
+### φυλάσσω — present infinitive
+
+- **headword:** `to keep watch and ward` — Middle Liddell, first sense *to keep watch and
+  ward, keep guard*.
+- **chain:** `to keep watch and ward, to keep guard, to watch and guard and keep and defend`
+- **used:** GEN 2:15
+
+A sentry's word before it is a gardener's. The garden is given a guard, not only a keeper.
+
+### ἐντέλλομαι — aorist middle
+
+- **headword:** `enjoined` — filed under the active ἐντέλλω, whose single sense, *to enjoin,
+  command*, is not restricted to a voice, so nothing is skipped. Aorist middle, 3rd singular.
+- **chain:** `enjoined, commanded`
+- **used:** GEN 2:16
+
+### λέγω
+
+- **headword:** `saying` (present active participle, GEN 2:16) / `said` (aorist, GEN 2:18).
+  The lexicon prints three entries under this spelling: λέγω¹ *to lull to sleep*, λέγω²
+  *to gather, pick up*, λέγω³ *to say, speak*. The third is the word (see *Homographs*).
+- **chain:** `saying, speaking, declaring, calling by name, telling`
+- **used:** GEN 2:16, GEN 2:18
+
+### ἐσθίω — future and aorist subjunctive
+
+- **headword:** `you will eat` (future middle, 2nd singular GEN 2:16, plural GEN 2:17) /
+  `you may eat` (aorist subjunctive, GEN 2:17) — Middle Liddell, first sense *to eat*.
+- **chain:** `you will eat, you will eat of` / `you may eat, you may eat of`
+- **used:** GEN 2:16, GEN 2:17
+
+### γινώσκω — present infinitive
+
+- **headword:** `to learn to know` — Middle Liddell, first sense *to learn to know, to
+  perceive, mark, learn*. Filed under the Attic γιγνώσκω.
+- **chain:** `to learn to know, to perceive, to mark, to learn, to discern and distinguish`
+- **used:** GEN 2:17
+
+Not οἶδα. The tree is τοῦ εἰδέναι at 2:9 and τοῦ γινώσκειν at 2:17 — knowledge one has,
+against knowledge one comes by — and the two headwords keep the two verbs apart.
+
+### ἀποθνῄσκω — future middle
+
+- **headword:** `you will die off` — Middle Liddell, first sense *to die off, die*; future
+  middle, 2nd plural. Perseus keys it without the iota subscript, `a)poqnh/skw`.
+- **chain:** `you will die off, you will die, you will be put to death, you will be slain`
+- **used:** GEN 2:17
+
+### ἄγω — aorist
+
+- **headword:** `led` — Middle Liddell, first sense *to lead*; aorist active, 3rd singular.
+- **chain:** `led, carried, conveyed, brought, marched`
+- **used:** GEN 2:19
+
+### ὁράω — aorist infinitive
+
+- **headword:** `to see` — Middle Liddell, first sense *to see*; aorist infinitive (ἰδεῖν).
+- **chain:** `to see, to perceive, to behold, to look at`
+- **used:** GEN 2:19
+
+### καλέω
+
+- **headword:** `he will call` (future, GEN 2:19) / `called` (aorist, GEN 2:19, 2:20) —
+  Middle Liddell, first sense *to call, summon*.
+- **chain:** `called, summoned, called to himself, invited`
+- **used:** GEN 2:19, GEN 2:20
+
+### εὑρίσκω — aorist passive
+
+- **headword:** `was found` — Middle Liddell, first sense *to find*; aorist passive,
+  3rd singular.
+- **chain:** `was found, was found out, was discovered`
+- **used:** GEN 2:20
+
+A search that came to nothing, not a simple absence.
+
+### ἐπιβάλλω — aorist
+
+- **headword:** `threw` — Middle Liddell, first sense *to throw*; aorist active, 3rd singular.
+- **chain:** `threw, cast upon, laid on, affixed, added`
+- **used:** GEN 2:21
+
+### ὑπνόω — aorist
+
+- **headword:** `put to sleep` — Middle Liddell, first sense *to put to sleep*, transitive and
+  causative; *to fall asleep, sleep* is its second. Aorist active, 3rd singular.
+- **chain:** `put to sleep, fell asleep, slept`
+- **used:** GEN 2:21
+
+The Septuagint uses the active intransitively — *and he slept*. The headword keeps the
+lexicon's order and the verse's note carries the usage.
+
+### ἀναπληρόω — aorist
+
+- **headword:** `filled up` — Middle Liddell, first sense *to fill up*; aorist active,
+  3rd singular.
+- **chain:** `filled up, made up and supplied, filled, paid in full`
+- **used:** GEN 2:21
+
+Making good a deficiency — a gap in a line of troops, a debt paid in full.
+
+### οἰκοδομέω — aorist
+
+- **headword:** `built a house` — Middle Liddell, first sense *to build a house*, before the
+  general *to build*. Aorist active, 3rd singular.
+- **chain:** `built a house, built, built for himself`
+- **used:** GEN 2:22
+
+### λαμβάνω — aorist passive
+
+- **headword:** `was taken` — the same entry as the active `took`; aorist passive,
+  3rd singular.
+- **chain:** `was taken, was received, was taken hold of and seized`
+- **used:** GEN 2:23
+
+### καλέω — future passive
+
+- **headword:** `she will be called` — the same entry as `called`; future passive,
+  3rd singular.
+- **chain:** `she will be called, she will be summoned, she will be invited`
+- **used:** GEN 2:23
+
+### καταλείπω — future
+
+- **headword:** `will leave behind` — Middle Liddell, first sense *to leave behind*; future
+  active, 3rd singular.
+- **chain:** `will leave behind, will leave behind him, will leave as an inheritance`
+- **used:** GEN 2:24
+
+### προσκολλάω — future passive
+
+- **headword:** `will be glued on` — Middle Liddell, first sense *to glue on*; future
+  passive, 3rd singular. `NOT_SENSES` drops the scrap *to*, sliced from "to glue on or to".
+- **chain:** `will be glued on, will stick, will cleave to`
+- **used:** GEN 2:24
+
+Passive in form where English makes it active. κόλλα is glue; *collagen* is its relative.
+
+### αἰσχύνω — imperfect middle/passive
+
+- **headword:** `were being ashamed` — sense I and its subsenses are the active (*to make
+  ugly, disfigure, mar*; *to dishonour*) and are skipped by name; the first numbered sense
+  open to this voice is II, *to be ashamed, feel shame*. Imperfect, 3rd plural, one form for
+  middle and passive.
+- **chain:** `were being ashamed, were feeling shame, were being dishonoured`
+- **used:** GEN 2:25
 
 ---
 
@@ -292,6 +777,381 @@ points in this verse and must not appear in either reading text.**
 Both stand under one `divergence` flag against Hebrew *tōhû wā-bōhû*. *Formless* is too
 abstract for ἀκατασκεύαστος and is not used.
 
+### κόσμος
+
+- **headword:** `the order` — Middle Liddell, first sense *order*; articular.
+- **chain:** `the order, the good order and decency, the form and fashion, the government, the ornament and adornment`
+- **used:** GEN 2:1
+
+*World* is a late sense and is not the lexicon's first. Flag `divergence` against Hebrew
+*ṣābāʾ*, *host*: the Greek keeps the ranked arrangement and loses the army.
+
+### ἡμέρα
+
+- **headword:** `the day` — Middle Liddell, first sense *day*; articular where the Greek has
+  the article (GEN 2:2, 2:3), anarthrous in ᾗ ἡμέρᾳ (GEN 2:4), which takes `day`.
+- **chain:** `the day, the day-break, the time`
+- **with ἐν:** `in the day` / `within, inside of, and by means of the day, the day-break, the time`
+- **used:** GEN 2:2, GEN 2:3, GEN 2:4
+
+### ἔργον
+
+- **headword:** `the works` — Middle Liddell, first sense *work*; articular, plural.
+- **chain (full):** `the works, the business, the deeds, the action, the works of industry and the tilled lands`
+- **short:** `the works, the business, the deeds`
+- **used:** GEN 2:2 (full, then short), GEN 2:3 (short)
+
+### βίβλος
+
+- **headword:** `the inner bark of the papyrus` — Middle Liddell, first sense; articular.
+  *A book* is the entry's third sense and is not taken.
+- **chain:** `the inner bark of the papyrus, the bark, the book`
+- **used:** GEN 2:4
+
+The plainest case so far of the rule against the expected word. The material stands where
+the reader expects the object; the note carries the explanation.
+
+### γένεσις
+
+- **headword:** `of origin` — Middle Liddell, first sense *an origin, source, productive
+  cause*; genitive, anarthrous.
+- **chain:** `of origin, of source, of productive cause, of beginning, of manner of birth, of race and descent, of production and generation, of creation and the created things`
+- **used:** GEN 2:4
+
+The word the book is named from. It holds the origin of a thing and the account of that
+origin together, where English splits *genesis* from *generations*.
+
+### πᾶς
+
+- **headword:** `all` — Middle Liddell, first sense *all, the whole*.
+- **chain:** `all, the whole, every, every single`
+- **used:** GEN 2:1, GEN 2:2, GEN 2:3
+
+The whole taken together, not merely each part.
+
+### οὐρανός and γῆ — anarthrous genitive
+
+GEN 2:4 has them without the article, so no *the*:
+
+- `of heaven` / `of heaven, of the vault, of the firmament and the sky`
+- `of earth` / `of earth, of land, of the ground`
+
+The articular forms are unchanged above.
+
+### χλωρός
+
+- **headword:** `greenish-yellow` — Middle Liddell, first sense; a colour, anarthrous.
+- **chain:** `greenish-yellow, pale-green, light-green, green and grassy, yellow, pale and bleached, fresh and living`
+- **used:** GEN 2:5
+
+The colour comes first and the plant is named from it, which is the lexicon's order.
+
+### χόρτος
+
+- **headword:** `an inclosed place` — Middle Liddell, first sense *an inclosed place, a
+  feeding-place*; anarthrous, accusative.
+- **chain:** `an inclosed place, a feeding-place, any feeding-ground, food and fodder and provender, grass, hay`
+- **used:** GEN 2:5
+
+*Grass* is the entry's fourth sense. The enclosure stands where the reader expects the crop.
+
+### ἀγρός — genitive
+
+- **headword:** `of field` — Middle Liddell, first sense *fields, lands*; genitive singular,
+  anarthrous, so the singular against the lexicon's plural citation form.
+- **chain:** `of field, of lands, of a farm, of the country`
+- **used:** GEN 2:5, twice
+
+### πηγή
+
+- **headword:** `running waters` — Middle Liddell, first sense *running waters, streams*,
+  which the entry marks *mostly in pl.* while the text has the singular. The lexicon's
+  first translation stands; the number is recorded in the verse's notes.
+- **chain:** `running waters, streams, a fount, a source, an origin`
+- **used:** GEN 2:6
+
+`NOT_SENSES` drops *(the spring* and *well-head)* — fragments of the phrase by which the
+entry distinguishes πηγή *from* κρουνός, and so glosses of a different word.
+
+### πρόσωπον
+
+- **headword:** `the face` — Middle Liddell, first sense *the face, visage, countenance*;
+  articular. Genitive articular τῆς γῆς beside it takes `of the earth`.
+- **chain:** `the face, the visage, the countenance, the look, the mask, the outward appearance`
+- **used:** GEN 2:6, GEN 2:7
+
+The LXX renders Hebrew *pānîm* here, having dropped it twice in 1:2. That difference is the
+reason `face of the waters` is a banned phrase and `the face of the earth` is not.
+
+### χοῦς
+
+- **headword:** `earth thrown down` — the second of the two entries under this spelling (see
+  *Homographs* above); accusative, anarthrous.
+- **chain:** `earth thrown down, heaped up, dust`
+- **used:** GEN 2:7
+
+### πνοή
+
+- **headword:** `a blowing` — Middle Liddell, first sense *a blowing, blast, breeze*;
+  accusative, anarthrous.
+- **chain:** `a blowing, a blast, a breeze, a breathing hard, breath, flame`
+- **used:** GEN 2:7
+
+The same opening gloss the lexicon gives πνεῦμα at 1:2. Two different words for moving air,
+and *spirit* is first in neither.
+
+### ζωή — genitive
+
+- **headword:** `of a living` — Middle Liddell, first sense *a living*; genitive, anarthrous.
+- **chain:** `of a living, of the means of life and substance, of life and existence, of a way of life`
+- **used:** GEN 2:7
+
+*A living* in the sense of a livelihood stands before *life*, and the chain keeps the order.
+
+### ψυχή
+
+- **headword:** `breath` — Middle Liddell, first sense; accusative, anarthrous.
+- **chain:** `breath, the life, the spirit, life and death, the ghost, the departed soul`
+- **used:** GEN 2:7
+
+*Soul* is not the first sense and is not the headword. With πνοήν in the same verse the
+phrase runs breath into breath.
+
+### ἄνθρωπος — articular
+
+- **headword:** `the man` — the same entry as the anarthrous `man` (JHN 1:6, GEN 2:5), with
+  the article the Greek prints.
+- **chain:** `the man, the human being, mankind`
+- **used:** GEN 2:7, twice
+
+### κύριος
+
+- **headword:** `lord` — the entry opens as an adjective, *having power*; the first **noun**
+  sense is *authority over, lord*, and the rule takes the first noun sense. Anarthrous.
+- **chain:** `lord, master, the one having power and authority over`
+- **used:** GEN 2:8
+
+Renders the Hebrew divine name, which the Greek replaces with a title rather than
+transliterating. Say so in the notes wherever it first appears in a chapter.
+
+### παράδεισος
+
+- **headword:** `a park` — Middle Liddell, first sense *a park*; anarthrous at GEN 2:8,
+  articular after (`the park`).
+- **chain:** `a park, the garden of Eden, paradise`
+- **used:** GEN 2:8, 2:9, 2:10
+
+A Persian loanword for a walled enclosure. The lexicon's second sense names this very
+garden, which is where the English word comes from.
+
+### ἀνατολή
+
+- **headword:** `risings` — Middle Liddell, first sense *a rising, rise*; accusative plural,
+  anarthrous.
+- **chain:** `risings, rises, the quarter of sunrise, the east`
+- **used:** GEN 2:8
+
+### ξύλον
+
+- **headword:** `wood` — Middle Liddell, first sense *wood*; `the wood` where articular.
+- **chain:** `wood, firewood, timber, a piece of wood, a post, a stick`
+- **short:** `the wood, the timber, the piece of wood`
+- **used:** GEN 2:9, three times
+
+Cut material, not the living δένδρον. The same word carries the cross in Acts and Galatians.
+
+### ὅρασις, βρῶσις
+
+- ὅρασις — **headword** `seeing`; **chain** `seeing, the act of sight, a vision`. GEN 2:9.
+- βρῶσις — **headword** `meat`; **chain** `meat, eating, corrosion and rust`. GEN 2:9.
+  *Meat* stands first and *eating* second; the third sense is the rust of Matthew 6:19.
+
+### ὡραῖος
+
+- **headword:** `produced at the right season` — Middle Liddell, first sense.
+- **chain:** `produced at the right season, seasonable, timely, of the season, gathered in due season`
+- **used:** GEN 2:9
+
+### μέσος
+
+- **headword:** `middle` — Middle Liddell, first sense *middle, in the middle*.
+- **chain:** `middle, in the middle, the centre, mid, between two`
+- **used:** GEN 2:9
+
+### καλός and πονηρός
+
+- καλός — **headword** `beautiful` (`of beautiful` in the genitive); **chain** `beautiful,
+  beauteous, fair, good`. GEN 2:9, 2:12.
+- πονηρός — **headword** `of toilsome`; **chain** `of toilsome, of painful, of grievous, of
+  good-for-nothing, of bad and worthless, of wicked`. GEN 2:9.
+
+πονηρός begins as the word for hard labour and arrives at wickedness only later in the
+entry. The pair καλοῦ καὶ πονηροῦ is therefore not *good and evil* in the lexicon's order.
+
+### γνωστός
+
+- **headword:** `known` — Middle Liddell, first sense *known, to be known*.
+- **chain:** `known, to be known`
+- **used:** GEN 2:9 — a word the Hebrew of this phrase does not have; flag `divergence`.
+
+### ποταμός
+
+- **headword:** `a river` — Middle Liddell, first sense *a river, stream*; `the river` where
+  articular, `to the river` in the dative.
+- **chain:** `a river, a stream, a river-god`
+- **used:** GEN 2:10, 2:13, 2:14
+
+### ἀρχή — plural, of rivers
+
+- **headword:** `beginnings` — the same entry as ἐν ἀρχῇ; accusative plural, anarthrous.
+- **chain:** `beginnings, origins, first causes, headships and rules and governing precedences`
+- **used:** GEN 2:10
+
+The word that opens Genesis and John, here of the heads of four rivers. The full range is
+kept precisely so the connection stays on the page.
+
+### ὄνομα, εἷς
+
+- ὄνομα — **headword** `a name`; **chain** `a name, fame, a mere name, a phrase and
+  expression`. GEN 2:11, 2:13.
+- εἷς — **headword** `to the one` (dative); **chain** `to the one, to a single one, to one
+  alone`. GEN 2:11. Perseus keys the numeral `ei(/s`, with an acute.
+
+### χρυσίον, ἄνθραξ, λίθος, πράσινος
+
+- χρυσίον — **headword** `the piece of gold`; **chain** `the piece of gold, gold, gold coin
+  and money`. The diminutive names a nugget before the metal. GEN 2:11, 2:12.
+- ἄνθραξ — **headword** `the charcoal`; **chain** `the charcoal, the coal`. One sense only;
+  the gem is named from the burning coal, as Latin *carbunculus* is. GEN 2:12.
+- λίθος — **headword** `the stone`; **chain** `the stone, the precious stone, the marble`.
+  GEN 2:12.
+- πράσινος — **headword** `the leek-green`; **chain** `the leek-green, the light green`.
+  **No Middle Liddell entry**; LSJ gives *leek-green, light green* and cites this verse for
+  the stone (λίθος π. = πρασῖτις). Its *green faction* sense is the Circus and is not in
+  play. GEN 2:12.
+
+### ἐκεῖνος
+
+- **headword:** `of that` — Middle Liddell, first sense *the person there, that person*;
+  genitive, agreeing with γῆς.
+- **chain:** `of that, of the one there, of the more remote`
+- **used:** GEN 2:12
+
+### θάνατος
+
+- **headword:** `with death` — Middle Liddell, first sense *death*; dative, anarthrous.
+- **chain:** `with death, with the death threatened, with the sentence of death`
+- **used:** GEN 2:17 — θανάτῳ ἀποθανεῖσθε, the Hebrew infinitive absolute imitated
+
+### μόνος
+
+- **headword:** `alone` — Middle Liddell, first sense *alone, left alone, forsaken solitary*.
+- **chain:** `alone, left alone, forsaken and solitary, only`
+- **used:** GEN 2:18
+
+### βοηθός
+
+- **headword:** `an assistant` — the entry opens as an adjective, *assisting, auxiliary*;
+  the first **noun** sense is *an assistant*, and the rule takes it.
+- **chain:** `an assistant, one assisting and auxiliary`
+- **used:** GEN 2:18, GEN 2:20
+
+The Septuagint uses the word of God himself as Israel's helper, so nothing in it implies
+lesser rank. Say so in the notes rather than choosing a word that decides it.
+
+### θηρίον, κτῆνος, πετεινόν
+
+- θηρίον — **headword** `the wild animals`; **chain** `the wild animals, the beasts, the
+  savage beasts, the game`. GEN 2:19, 2:20.
+- κτῆνος — **headword** `to the flocks and herds` (dative plural); **chain** `to the flocks
+  and herds, to the single beast, to the ox, to the sheep, to the beast for riding`. From
+  κτάομαι, to acquire: the domestic animals are named by their belonging. GEN 2:20.
+- πετεινόν — **headword** `the winged fowl`; **chain** `the winged fowl, the birds, the able
+  to fly and full fledged`. The neuter noun is filed under the adjective πετεινός, whose
+  first **noun** sense is *winged fowl*. GEN 2:19, 2:20.
+
+### ὅμοιος
+
+- **headword:** `like` — Middle Liddell, first sense *like, resembling*.
+- **chain:** `like, resembling, the same, all one, shared alike by both`
+- **used:** GEN 2:20
+
+ὅμοιος αὐτῷ here against κατʼ αὐτόν at 2:18 — two Greek phrases for one Hebrew *kĕnegdô*,
+and both are kept.
+
+### ἔκστασις
+
+- **headword:** `any displacement` — Middle Liddell gives one sense, *any displacement:
+  entrancement, astonishment*, where the colon marks the application, as with ἐμφυσάω;
+  *a trance* follows. Accusative, anarthrous.
+- **chain:** `any displacement, entrancement, astonishment, a trance`
+- **used:** GEN 2:21
+
+A standing outside oneself, not sleep. The word of Acts 10:10 and Mark 16:8.
+
+### πλευρά
+
+- **headword:** `of ribs` (genitive plural, GEN 2:21) / `the rib` (accusative articular,
+  GEN 2:22) — Middle Liddell, first sense *a rib*.
+- **chain:** `of ribs, of the ribs and the side, of one side, of the page`
+- **used:** GEN 2:21, GEN 2:22
+
+*A rib* and *the side* are one word; Greek does not choose between them and neither does
+the chain.
+
+### σάρξ
+
+- **headword:** `flesh` — Middle Liddell, first sense; anarthrous.
+- **chain:** `flesh, the flesh, muscles, the body, man's nature generally`
+- **used:** GEN 2:21, GEN 2:23, GEN 2:24
+
+### ὀστέον
+
+- **headword:** `bone` (GEN 2:23, the Attic contraction ὀστοῦν) / `of the bones` (genitive
+  plural) — **Middle Liddell has the entry but tags no usable translation in it**: only
+  *the*, sliced out of "the bleached bones of the dead". The sense is LSJ's, *bone*, and
+  `LSJ` in `build/words.py` overrides the entry for that reason.
+- **chain:** `bone, the bones of the dead`
+- **used:** GEN 2:23
+
+The first case of an entry that exists and glosses nothing usable — distinct from ἁγιάζω,
+which exists and glosses nothing at all.
+
+### γυνή and ἀνήρ
+
+- γυνή — **headword** `a woman` (anarthrous) / `the woman` (articular); **chain** `a woman,
+  a mistress and lady, a wife and spouse, a mortal woman`. GEN 2:22, 2:23, 2:24, 2:25.
+- ἀνήρ — **headword** `of the man`; **chain** `of the man, of the man in the prime of life`.
+  `NOT_SENSES` drops the Latin *homo* and *vir gregis*, and the scrap *a woman* from "opp.
+  to a woman". GEN 2:23.
+
+Two unrelated Greek words where the Hebrew has a pun — *ʾiššâ* from *ʾîš*. The reason clause
+of 2:23 loses its hinge in Greek, and the note says so. ἀνήρ is also the first word in the
+chapter that means the male as against ἄνθρωπος, the human being.
+
+### πατήρ, μήτηρ
+
+- πατήρ — **headword** `the father`; **chain** `the father, the grandfather`. GEN 2:24.
+- μήτηρ — **headword** `the mother`; **chain** `the mother, the dam, the source`. GEN 2:24.
+
+### γυμνός
+
+- **headword:** `naked` — Middle Liddell, first sense *naked, unclad*.
+- **chain:** `naked, unclad, unarmed, uncovered, stripped of`
+- **used:** GEN 2:25
+
+*Unarmed* is the entry's second sense, and chapter 3 turns on it.
+
+### νῦν, εἷς, δύο
+
+- νῦν — **headword** `now`; **chain** `now, even now, just now`. GEN 2:23.
+- εἷς — **headword** `one`; **chain** `one, a single one, one alone`. GEN 2:21 (μίαν, of the
+  rib), GEN 2:24 (μίαν, of the flesh).
+- δύο — plain text `the two`. One sense, so no range to open. GEN 2:24, 2:25.
+
+`οἱ δύο` at 2:24 is not in the Hebrew at all, and every New Testament quotation of the verse
+quotes the Greek with it. Flag `divergence` there.
+
 ---
 
 ## Aspect formulas
@@ -316,8 +1176,26 @@ Gloss on first occurrence per chapter, bare thereafter.
 | Greek | unanchored form | anchored form | gloss |
 | --- | --- | --- | --- |
 | Ἰωάννης | Iōannēs | John | `(Ἰωάννης, from Hebrew Yôḥānān, "Yah has shown favour")` |
+| Εδεμ | Edem | Eden | `(Εδεμ, from Hebrew ʿĒden, "delight, luxury")` |
+| Φισων | Phisōn | Pishon | `(Φισων, from Hebrew Pîšôn, perhaps from pûš, "to leap, spring")` |
+| Ευιλατ | Euilat | Havilah | `(Ευιλατ, from Hebrew Ḥăwîlâ, usually connected with ḥôl, "sand")` |
+| Γηων | Gēōn | Gihon | `(Γηων, from Hebrew Gîḥôn, from gîaḥ, "to burst forth")` |
+| Αἰθιοπίας | Aithiopia | Ethiopia | `(Αἰθιοπίας, from αἴθω, "to burn", and ὤψ, "face"; Hebrew Kûš)` |
+| Τίγρις | Tigris | Tigris | `(Τίγρις, from Old Persian tigrā, "arrow", for its swiftness; Hebrew Ḥiddeqel)` |
+| Ἀσσυρίων | Assyriōn | Assyrians | `(Ἀσσυρίων, the Assyrians, from Aššur — their god, their city, and their land)` |
+| Εὐφράτης | Euphratēs | Euphrates | `(Εὐφράτης, from Old Persian Ufrātu; Hebrew Pĕrāt)` |
+
+Rahlfs prints the Semitic names bare — Εδεμ, Φισων, Ευιλατ, Γηων — with no accent or
+breathing, and the Greek-formed ones accented: Αἰθιοπίας, Ἀσσυρίων, Εὐφράτης, Τίγρις. The
+transcription keeps that distinction, and it is itself evidence of which names the
+translators felt to be Greek words.
 
 Written `[[name:Ἰωάννης]]` in `reading`; the renderer picks the form by panel.
+
+Every occurrence is written that way, including the ones after the first. The first carries
+the entry above; each later one carries the same entry with `"bare": true` and no `gloss`,
+so the form prints alone. Genesis 2 needs this from the start — Εδεμ stands in 2:8 and again
+in 2:10, and Αδαμ runs through 2:16–23.
 
 ---
 

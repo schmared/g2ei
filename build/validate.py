@@ -252,9 +252,18 @@ def check_fields(verses, rep):
             rep.fail("fields", ref, "unbalanced [[ ]] in reading")
 
         for n in verse.get("names", []):
-            for field in ("greek", "unanchored", "anchored", "gloss"):
+            bare = n.get("bare", False)
+            if not isinstance(bare, bool):
+                rep.fail("fields", ref, "name %r: `bare` is %r; it must be true or false"
+                         % (n.get("greek"), bare))
+            fields = ("greek", "unanchored", "anchored")
+            for field in fields if bare else fields + ("gloss",):
                 if not str(n.get(field, "")).strip():
                     rep.fail("fields", ref, "name %r has no %s" % (n.get("greek"), field))
+            if bare and str(n.get("gloss", "")).strip():
+                rep.fail("fields", ref, "name %r is marked bare but carries a gloss; a name "
+                                        "is glossed on its first occurrence only"
+                         % n.get("greek"))
 
     rep.done("fields", "%d verses" % len(verses), before)
 
@@ -321,24 +330,31 @@ def check_names(verses, rep):
             entry = next((e for e in entries if matches(candidate, e["greek"])), None)
             key = next((k for k in glossed if matches(candidate, k)), None)
 
+            marker = "[[name:%s]]" % (entry["greek"] if entry else candidate)
             if key is None:
                 if entry is None:
                     rep.fail("names", ref,
                              "%s is a proper name on first occurrence with no entry in names"
                              % candidate)
                     continue
+                if entry.get("bare"):
+                    rep.fail("names", ref,
+                             "%s is marked bare here, but this is its first occurrence in "
+                             "the chapter, where it carries its gloss" % candidate)
                 used.add(entry["greek"])
                 glossed[entry["greek"]] = ref
-                marker = "[[name:%s]]" % entry["greek"]
                 if marker not in verse["reading"]:
                     rep.fail("names", ref, "%s is glossed here first but the reading "
                                            "carries no %s" % (candidate, marker))
-            else:
-                if entry is not None:
-                    used.add(entry["greek"])
+            elif entry is not None:
+                used.add(entry["greek"])
+                if not entry.get("bare"):
                     rep.fail("names", ref,
-                             "%s was already glossed at %s; later occurrences are bare"
-                             % (candidate, glossed[key]))
+                             "%s was already glossed at %s; a later occurrence takes an "
+                             "entry marked bare" % (candidate, glossed[key]))
+                elif marker not in verse["reading"]:
+                    rep.fail("names", ref, "%s has a bare entry here but the reading "
+                                           "carries no %s" % (candidate, marker))
 
         for entry in entries:
             if entry["greek"] not in used:
@@ -388,13 +404,17 @@ def check_anchors(verses, rep):
         own = units(text)
         total += len(own)
 
-        unanchored = panels(verse)["unanchored"]
-        for name in verse.get("names", []):
-            if re.search(r"\b%s\b" % re.escape(name["anchored"]), unanchored):
+        for entry in verse.get("names", []):
+            # Plain text only. A name written as prose would print the same form in
+            # both panels, which is the failure worth catching; a name inside a unit's
+            # chain or inside its own gloss is not. Middle Liddell's second sense for
+            # παράδεισος is "the garden of Eden", and a gloss may name the conventional
+            # form in passing — neither reaches the reader as the name itself.
+            if re.search(r"\b%s\b" % re.escape(entry["anchored"]), bare):
                 rep.fail("anchors", ref,
-                         "unanchored uses the conventional form %r for %s; it takes the "
-                         "transliteration %r" % (name["anchored"], name["greek"],
-                                                 name["unanchored"]))
+                         "%r is written as plain text; a proper name is always a "
+                         "[[name:%s]] marker, so each panel prints its own form of it"
+                         % (entry["anchored"], entry["greek"]))
 
         watch = {}
         for anchor, _ in own:
@@ -519,11 +539,28 @@ def check_analysis(book, chapter, rep):
             rep.fail("words", ref, "%d words analysed, %d in the module"
                      % (len(ours), len(theirs)))
             continue
-        for i, ((form, lemma, _, code), (_, lexeme, mcode)) in enumerate(zip(ours, theirs), 1):
-            if nfc(lemma) != nfc(lemmas.get(lexeme, "")):
+        for i, ((form, lemma, _, code, reason), (_, lexeme, mcode)) in enumerate(
+                zip(ours, theirs), 1):
+            theirs_lemma = lemmas.get(lexeme, "?")
+            lemma_differs = nfc(lemma) != nfc(lemmas.get(lexeme, ""))
+            parse_differs = not agrees(morph_features(code), module_features(mcode))
+            if reason:
+                # The analysis is the project's own; where it knowingly departs from the
+                # module, the morph file says so and why, and the difference is reported
+                # rather than passed over. A reason that names a difference no longer
+                # there is itself a failure, so the annotations cannot go stale.
+                if lemma_differs or parse_differs:
+                    rep.note("words", "%s word %d (%s): ours %s, module %s — %s"
+                             % (ref, i, form,
+                                lemma if lemma_differs else code,
+                                theirs_lemma if lemma_differs else mcode, reason))
+                else:
+                    rep.fail("words", ref, "word %d (%s) records a difference from the "
+                             "module that is not there; delete the note" % (i, form))
+            elif lemma_differs:
                 rep.fail("words", ref, "word %d (%s): our lemma %s, the module %s — check "
-                         "which is right" % (i, form, lemma, lemmas.get(lexeme, "?")))
-            elif not agrees(morph_features(code), module_features(mcode)):
+                         "which is right" % (i, form, lemma, theirs_lemma))
+            elif parse_differs:
                 rep.fail("words", ref, "word %d (%s): our parse %s, the module %s — check "
                          "which is right" % (i, form, code, mcode))
 
@@ -533,6 +570,25 @@ def check_analysis(book, chapter, rep):
 # --------------------------------------------------------------------------
 
 PUNCT = re.compile(r"[.,;:·!?—·]")
+
+# A local module carries bare word forms: no capitals, and its own choice of elision
+# mark. Neither is evidence about what the printed page has, so neither counts as a
+# discrepancy. The data's own mark is U+02BC, as in the SBLGNT, so one convention
+# covers both testaments.
+ELISION = dict.fromkeys(map(ord, "’᾿᾽ʼ'"), "ʼ")
+
+
+def same_form(module, data, initial=False, speech=()):
+    """One word of the module against the same word of the transcription.
+
+    A capital the printed page has a reason for is not a discrepancy: the head of a
+    verse, or a word opening direct speech, which the verse lists in `speech` — the
+    same field check_names reads. Any other capital is a real difference and fails.
+    """
+    a, b = module.translate(ELISION), data.translate(ELISION)
+    if a == b:
+        return True
+    return (initial or data in speech) and a[:1].upper() + a[1:] == b
 
 
 def sblgnt_source(name):
@@ -610,12 +666,9 @@ def check_greek(book, chapter, verses, rep):
             rep.fail("greek", verse["ref"],
                      "%d words in the data, %d in Rahlfs" % (len(got), len(want)))
             continue
+        speech = {nfc(w) for w in verse.get("speech", [])}
         for i, (a, b) in enumerate(zip(want, got)):
-            # Rahlfs prints a capital at the head of a sentence; the module carries
-            # bare word forms, so the verse-initial capital is not a discrepancy.
-            if i == 0 and a[:1].upper() + a[1:] == b:
-                continue
-            if a != b:
+            if not same_form(a, b, initial=(i == 0), speech=speech):
                 rep.fail("greek", verse["ref"],
                          "word %d: Rahlfs %r / data %r" % (i + 1, a, b))
     rep.done("greek", "%d verses against the local module" % len(verses), before)

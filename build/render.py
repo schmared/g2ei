@@ -16,7 +16,10 @@ Inline markup permitted inside JSON strings:
     [[name:Ἰωάννης]]  -> (reading) the name span plus its parenthetical gloss, drawn
                          from the verse's "names" list; the form used is the
                          Greek transliteration in the unanchored panel and the
-                         conventional English one in the anchored panel
+                         conventional English one in the anchored panel. An entry
+                         marked "bare" prints the form alone: a name is glossed on
+                         its first occurrence in the chapter and bare thereafter,
+                         and both panels still print their own form of it.
 
 Both reading panels are derived from the verse's single `reading` string, so the
 anchored text is always exactly the unanchored text with the headwords added.
@@ -40,7 +43,7 @@ TEMPLATES = ROOT / "templates"
 SITE = ROOT / "site"
 
 # Chapters on the page, in order.
-PAGE = [("GEN", 1), ("JHN", 1)]
+PAGE = [("GEN", 1), ("GEN", 2), ("JHN", 1)]
 
 BOOKS = {
     "GEN": {
@@ -143,8 +146,12 @@ def reading(text, names, form):
 
     def name(m):
         n = by_greek[m.group(1)]
-        return '<span class="name">%s</span> <span class="paren">%s</span>' % (
-            esc(n[form]), esc(n["gloss"]))
+        span = '<span class="name">%s</span>' % esc(n[form])
+        if n.get("bare"):
+            # Glossed on its first occurrence in the chapter, bare after that — but
+            # still panel-specific: Iōannēs unanchored, John anchored.
+            return span
+        return '%s <span class="paren">%s</span>' % (span, esc(n["gloss"]))
 
     return emphasis(NAME.sub(name, "".join(out)))
 
