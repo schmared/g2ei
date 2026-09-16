@@ -1,0 +1,496 @@
+{
+  "source": "Dictionary form and parse: MorphGNT's analysis of the SBLGNT. Senses: Middle Liddell (1889; Perseus Digital Library, CC BY-SA 3.0 US), in the lexicon's own order, without regard to context; LSJ (PerseusDL, CC BY-SA 4.0) where Middle Liddell has no entry. Middle/passive marks a tense in which the two voices share one form; masculine/feminine, an adjective whose form does not distinguish them.",
+  "verses": [
+    {
+      "ref": "JHN 1:1",
+      "words": [
+        {
+          "form": "Ἐν",
+          "lemma": "ἐν",
+          "parse": "preposition",
+          "aspect": "",
+          "senses": [
+            "in, among. c. dat.",
+            "in",
+            "at the school of",
+            "in, upon",
+            "in the number of, amongst"
+          ],
+          "more": 23,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "ἀρχῇ",
+          "lemma": "ἀρχή",
+          "parse": "noun · dative · singular · feminine",
+          "aspect": "",
+          "senses": [
+            "a beginning, origin, first cause",
+            "from the beginning, from of old",
+            "anew, afresh",
+            "in the beginning, at first",
+            "to begin with, first"
+          ],
+          "more": 11,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "ἦν",
+          "lemma": "εἰμί",
+          "parse": "verb · imperfect · active · indicative · 3rd person · singular",
+          "aspect": "was, and kept on being: action going on in past time",
+          "senses": [
+            "to be, to exist",
+            "to be, exist",
+            "last",
+            "to be",
+            "appearing to be"
+          ],
+          "more": 11,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "ὁ",
+          "lemma": "ὁ",
+          "parse": "article · nominative · singular · masculine",
+          "aspect": "",
+          "senses": [
+            "the",
+            "that",
+            "famous",
+            "namely that",
+            "he, she, it"
+          ],
+          "more": 31,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "λόγος",
+          "lemma": "λόγος",
+          "parse": "noun · nominative · singular · masculine",
+          "aspect": "",
+          "senses": [
+            "the word",
+            "that by which the inward thought is expressed",
+            "the inward thought itself",
+            "spoken",
+            "a word"
+          ],
+          "more": 45,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "καὶ",
+          "lemma": "καί",
+          "parse": "conjunction",
+          "aspect": "",
+          "senses": [
+            "and",
+            "also, even",
+            "both",
+            "and above all",
+            "or"
+          ],
+          "more": 8,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "ὁ",
+          "lemma": "ὁ",
+          "parse": "article · nominative · singular · masculine",
+          "aspect": "",
+          "senses": [
+            "the",
+            "that",
+            "famous",
+            "namely that",
+            "he, she, it"
+          ],
+          "more": 31,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "λόγος",
+          "lemma": "λόγος",
+          "parse": "noun · nominative · singular · masculine",
+          "aspect": "",
+          "senses": [
+            "the word",
+            "that by which the inward thought is expressed",
+            "the inward thought itself",
+            "spoken",
+            "a word"
+          ],
+          "more": 45,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "ἦν",
+          "lemma": "εἰμί",
+          "parse": "verb · imperfect · active · indicative · 3rd person · singular",
+          "aspect": "was, and kept on being: action going on in past time",
+          "senses": [
+            "to be, to exist",
+            "to be, exist",
+            "last",
+            "to be",
+            "appearing to be"
+          ],
+          "more": 11,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "πρὸς",
+          "lemma": "πρός",
+          "parse": "preposition",
+          "aspect": "",
+          "senses": [
+            "motion from",
+            "abiding at",
+            "motion to",
+            "from, from forth",
+            "on the side"
+          ],
+          "more": 71,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "τὸν",
+          "lemma": "ὁ",
+          "parse": "article · accusative · singular · masculine",
+          "aspect": "",
+          "senses": [
+            "the",
+            "that",
+            "famous",
+            "namely that",
+            "he, she, it"
+          ],
+          "more": 31,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "θεόν",
+          "lemma": "θεός",
+          "parse": "noun · accusative · singular · masculine",
+          "aspect": "",
+          "senses": [
+            "God",
+            "a god;",
+            "his will",
+            "the gods",
+            "God's name"
+          ],
+          "more": 3,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "καὶ",
+          "lemma": "καί",
+          "parse": "conjunction",
+          "aspect": "",
+          "senses": [
+            "and",
+            "also, even",
+            "both",
+            "and above all",
+            "or"
+          ],
+          "more": 8,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "θεὸς",
+          "lemma": "θεός",
+          "parse": "noun · nominative · singular · masculine",
+          "aspect": "",
+          "senses": [
+            "God",
+            "a god;",
+            "his will",
+            "the gods",
+            "God's name"
+          ],
+          "more": 3,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "ἦν",
+          "lemma": "εἰμί",
+          "parse": "verb · imperfect · active · indicative · 3rd person · singular",
+          "aspect": "was, and kept on being: action going on in past time",
+          "senses": [
+            "to be, to exist",
+            "to be, exist",
+            "last",
+            "to be",
+            "appearing to be"
+          ],
+          "more": 11,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "ὁ",
+          "lemma": "ὁ",
+          "parse": "article · nominative · singular · masculine",
+          "aspect": "",
+          "senses": [
+            "the",
+            "that",
+            "famous",
+            "namely that",
+            "he, she, it"
+          ],
+          "more": 31,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "λόγος",
+          "lemma": "λόγος",
+          "parse": "noun · nominative · singular · masculine",
+          "aspect": "",
+          "senses": [
+            "the word",
+            "that by which the inward thought is expressed",
+            "the inward thought itself",
+            "spoken",
+            "a word"
+          ],
+          "more": 45,
+          "lexicon": "Middle Liddell"
+        }
+      ]
+    },
+    {
+      "ref": "JHN 1:2",
+      "words": [
+        {
+          "form": "οὗτος",
+          "lemma": "οὗτος",
+          "parse": "demonstrative pronoun · nominative · singular · masculine",
+          "aspect": "",
+          "senses": [
+            "this",
+            "the nearer",
+            "the more remote",
+            "what follows",
+            "what precedes"
+          ],
+          "more": 18,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "ἦν",
+          "lemma": "εἰμί",
+          "parse": "verb · imperfect · active · indicative · 3rd person · singular",
+          "aspect": "was, and kept on being: action going on in past time",
+          "senses": [
+            "to be, to exist",
+            "to be, exist",
+            "last",
+            "to be",
+            "appearing to be"
+          ],
+          "more": 11,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "ἐν",
+          "lemma": "ἐν",
+          "parse": "preposition",
+          "aspect": "",
+          "senses": [
+            "in, among. c. dat.",
+            "in",
+            "at the school of",
+            "in, upon",
+            "in the number of, amongst"
+          ],
+          "more": 23,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "ἀρχῇ",
+          "lemma": "ἀρχή",
+          "parse": "noun · dative · singular · feminine",
+          "aspect": "",
+          "senses": [
+            "a beginning, origin, first cause",
+            "from the beginning, from of old",
+            "anew, afresh",
+            "in the beginning, at first",
+            "to begin with, first"
+          ],
+          "more": 11,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "πρὸς",
+          "lemma": "πρός",
+          "parse": "preposition",
+          "aspect": "",
+          "senses": [
+            "motion from",
+            "abiding at",
+            "motion to",
+            "from, from forth",
+            "on the side"
+          ],
+          "more": 71,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "τὸν",
+          "lemma": "ὁ",
+          "parse": "article · accusative · singular · masculine",
+          "aspect": "",
+          "senses": [
+            "the",
+            "that",
+            "famous",
+            "namely that",
+            "he, she, it"
+          ],
+          "more": 31,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "θεόν",
+          "lemma": "θεός",
+          "parse": "noun · accusative · singular · masculine",
+          "aspect": "",
+          "senses": [
+            "God",
+            "a god;",
+            "his will",
+            "the gods",
+            "God's name"
+          ],
+          "more": 3,
+          "lexicon": "Middle Liddell"
+        }
+      ]
+    },
+    {
+      "ref": "JHN 1:6",
+      "words": [
+        {
+          "form": "Ἐγένετο",
+          "lemma": "γίνομαι",
+          "parse": "verb · aorist · middle · indicative · 3rd person · singular",
+          "aspect": "one completed act seen whole, not a process observed in progress",
+          "senses": [
+            "to come into being",
+            "to be born",
+            "born",
+            "to be produced",
+            "the result"
+          ],
+          "more": 27,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "ἄνθρωπος",
+          "lemma": "ἄνθρωπος",
+          "parse": "noun · nominative · singular · masculine",
+          "aspect": "",
+          "senses": [
+            "man",
+            "mankind",
+            "the man, the fellow",
+            "sirrah! you sir",
+            "a woman"
+          ],
+          "more": 0,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "ἀπεσταλμένος",
+          "lemma": "ἀποστέλλω",
+          "parse": "verb · perfect · middle/passive · participle · nominative · singular · masculine",
+          "aspect": "a standing resultant state, not a past event",
+          "senses": [
+            "to send off",
+            "away from",
+            "to send away, banish",
+            "to go away, depart, set out",
+            "to send off, despatch"
+          ],
+          "more": 1,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "παρὰ",
+          "lemma": "παρά",
+          "parse": "preposition",
+          "aspect": "",
+          "senses": [
+            "from the side of, c. gen., beside, alongside of, c. dat., to the side of, motion alongside of, c. acc.",
+            "beside",
+            "from the side of, from beside: from",
+            "issuing from",
+            "to be born"
+          ],
+          "more": 48,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "θεοῦ",
+          "lemma": "θεός",
+          "parse": "noun · genitive · singular · masculine",
+          "aspect": "",
+          "senses": [
+            "God",
+            "a god;",
+            "his will",
+            "the gods",
+            "God's name"
+          ],
+          "more": 3,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "ὄνομα",
+          "lemma": "ὄνομα",
+          "parse": "noun · nominative · singular · neuter",
+          "aspect": "",
+          "senses": [
+            "a name",
+            "name. fame",
+            "a mere name",
+            "a false name, pretence, pretext",
+            "pretence"
+          ],
+          "more": 4,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "αὐτῷ",
+          "lemma": "αὐτός",
+          "parse": "personal pronoun · dative · singular · masculine",
+          "aspect": "",
+          "senses": [
+            "self",
+            "him, her, it",
+            "the very one, the same",
+            "self, myself, thyself",
+            "oneself, one's true self"
+          ],
+          "more": 25,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "Ἰωάννης",
+          "lemma": "Ἰωάννης",
+          "parse": "noun · nominative · singular · masculine",
+          "aspect": "",
+          "senses": [
+            "(Ἰωάννης, from Hebrew Yôḥānān, \"Yah has shown favour\")"
+          ],
+          "more": 0,
+          "lexicon": "name"
+        }
+      ]
+    }
+  ]
+}

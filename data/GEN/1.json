@@ -2,6 +2,7 @@
   {
     "ref": "GEN 1:1",
     "greek": "Ἐν ἀρχῇ ἐποίησεν ὁ θεὸς τὸν οὐρανὸν καὶ τὴν γῆν.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 1",
     "hint": "The oldest manuscripts carry no spaces, no accents, no lower case. Word division is already an act of interpretation.",
     "notes": [
       {
@@ -30,18 +31,23 @@
         "text": "γῆ runs from soil underfoot, to farmland, to a country, to dry land as against the sea, to the whole terrestrial realm. Pairing it with οὐρανός pulls toward the widest sense without cancelling the narrow ones."
       },
       {
+        "lemma": "Capitals",
+        "flag": null,
+        "text": "*God* is capitalised because the lexicon prints it so. The pronouns standing for God in the chain are not: *he who is God definitively, the one the article marks out*. The manuscripts have no lower case, so a reverential capital is never in the text — it is an editorial decision, and this rendering does not make it."
+      },
+      {
         "lemma": "Names",
         "flag": null,
         "text": "None in this verse."
       }
     ],
-    "unanchored": "Within, inside of, and by means of the first moment, the origin-point, the source, the first principle from which a thing proceeds, and simultaneously the headship, the rule, and the governing precedence over all that follows, He who is God definitively, the One the article marks out, the known and the only, fashioned, wrought, manufactured, produced, performed, and brought to a finished and accomplished state — one completed act seen whole, not a process observed in progress — the vaulted arch, the sky-expanse, the region above and over; and the land, the dry ground, the soil, the territory, the terrestrial realm as the counterpart-below.",
-    "anchored": "In the beginning — within, inside of, and by means of the first moment, the origin-point, the source, the first principle from which a thing proceeds, and at the same time the headship, the rule, and the governing precedence over all that follows — God, He who is God definitively, the One the article marks out, the known and the only, made: fashioned, wrought, manufactured, produced, performed, and brought to a finished and accomplished state in one completed act seen whole, not a process observed in progress — the heaven, the vaulted arch, the sky-expanse, the region above and over, and the earth, the land, the dry ground, the soil, the territory, the terrestrial realm as the counterpart-below.",
+    "reading": "[[in beginning|within, inside of, and by means of the first moment, the origin-point, the source, the first principle from which a thing proceeds, and simultaneously the headship, the rule, and the governing precedence over all that follows]], [[the God|he who is God definitively, the one the article marks out, the known and the only]], [[made|fashioned, wrought, manufactured, produced, performed, and brought to a finished and accomplished state]] — one completed act seen whole, not a process observed in progress — [[the heaven|the vaulted arch, the sky-expanse, the region above and over]]; and [[the earth|the land, the dry ground, the soil, the territory, the terrestrial realm as the counterpart-below]].",
     "names": []
   },
   {
     "ref": "GEN 1:2",
     "greek": "ἡ δὲ γῆ ἦν ἀόρατος καὶ ἀκατασκεύαστος, καὶ σκότος ἐπάνω τῆς ἀβύσσου, καὶ πνεῦμα θεοῦ ἐπεφέρετο ἐπάνω τοῦ ὕδατος.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 1",
     "hint": "Closed, the line is what a fourth-century reader actually met on the page.",
     "notes": [
       {
@@ -90,13 +96,17 @@
         "text": "The familiar *face of the waters* is not here. The Hebrew has *face of* at both points; the LXX drops it at both. ὕδατος is also singular against Hebrew plural *mayim*."
       },
       {
+        "lemma": "Capitals",
+        "flag": null,
+        "text": "πνεῦμα is printed lowercase in both reading texts. The manuscripts have no lower case at all, so a capital is never in the text: *Spirit* with a capital would decide for the reader that the word is a title."
+      },
+      {
         "lemma": "Names",
         "flag": null,
         "text": "None in this verse."
       }
     ],
-    "unanchored": "But — however, whereas, on the other hand — the land, the dry ground, the terrestrial realm was, and kept on being as a standing and continuing condition and not a momentary one, unseeable, un-viewable, not presenting itself to the eye, imperceptible to sight; and un-built-out, unfurnished, unequipped, unprovisioned, not fitted out with its appointments, lacking the constructed arrangement that a full outfitting would supply. And obscurity, gloom, the privation and the absence of light lay upon, over, and atop the bottomless, the depth without a floor to sound, the unfathomable and unmeasurable deep. And Breath, wind, moving air, respiration, Spirit — God's own, divine in character — was being borne along, carried over, swept upon, brought continuously to bear over and atop the water.",
-    "anchored": "But the earth — the land, the dry ground, the terrestrial realm — was, and kept on being as a standing and continuing condition, invisible — unseeable, un-viewable, not presenting itself to the eye, imperceptible to sight — and unfurnished — un-built-out, unequipped, unprovisioned, not fitted out with its appointments, lacking the constructed arrangement that a full outfitting would supply. And darkness — obscurity, gloom, the privation and the absence of light — was upon, over, and atop the abyss — the bottomless, the depth without a floor to sound, the unfathomable and unmeasurable deep. And the Breath of God — wind, moving air, respiration, Spirit, God's own and divine in character — was being borne along — carried over, swept upon, brought continuously to bear — over and atop the water.",
+    "reading": "[[but|but, however, whereas, on the other hand]], [[the earth|the land, the dry ground, the terrestrial realm]] was, and kept on being as a standing and continuing condition and not a momentary one, [[unseen|unseeable, un-viewable, not presenting itself to the eye, imperceptible to sight]]; and [[not properly prepared|un-built-out, unfurnished, unequipped, unprovisioned, not fitted out with its appointments, lacking the constructed arrangement that a full outfitting would supply]]. And [[darkness|obscurity, gloom, the privation and the absence of light]] was upon, over, and atop [[the great deep|the bottomless, the depth without a floor to sound, the unfathomable and unmeasurable deep]]. And [[blowing|breath, wind, moving air, respiration, spirit]] — [[of God|God's own, divine in character]] — [[was being brought upon|was being borne along, carried over, swept upon, brought continuously to bear]] over and atop the water.",
     "names": []
   }
 ]

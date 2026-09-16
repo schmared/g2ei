@@ -15,8 +15,31 @@
     <p class="greek" data-greek>{{greek}}</p>
     <div class="greek-foot">
       <p class="hint">{{{hint}}}</p>
-      <button class="spacer" type="button" data-spacer>Close the spaces</button>
+      <div class="greek-actions">
+{{#has_words}}
+        <button class="spacer" type="button" data-words-toggle aria-expanded="false">Word by word</button>
+{{/has_words}}
+        <button class="spacer" type="button" data-spacer>Close the spaces</button>
+      </div>
     </div>
+{{#has_words}}
+    <div class="words" data-words hidden>
+      <ol class="word-list">
+{{#words}}
+        <li class="word">
+          <span class="w-form">{{form}}</span>
+          <span class="w-lemma" title="dictionary form (lemma)">{{lemma}}</span>
+          <span class="w-parse">{{parse}}</span>
+{{#aspect}}
+          <span class="w-aspect">{{aspect}}</span>
+{{/aspect}}
+          <span class="w-senses">{{senses}}{{#more}} <span class="w-more">+{{more}} more</span>{{/more}}</span>
+        </li>
+{{/words}}
+      </ol>
+      <p class="words-src">{{words_src}}</p>
+    </div>
+{{/has_words}}
   </div>
 
   <div class="panels">

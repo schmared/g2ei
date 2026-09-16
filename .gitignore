@@ -9,6 +9,7 @@ __pycache__/
 *.py[cod]
 
 # Editors and OS
+.claude/
 .DS_Store
 Thumbs.db
 .idea/

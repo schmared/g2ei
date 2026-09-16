@@ -15,6 +15,7 @@
     --rubric:#8C2F23;
     --verdigris:#3B5A4F;
     --rule:#C9C5B7;
+    --chain:rgba(59,90,79,.11);
 
     --greek: "GFS Didot", "New Athena Unicode", "Palatino Linotype", "Book Antiqua", Palatino, "Iowan Old Style", Georgia, serif;
     --body: "Palatino Linotype", "Book Antiqua", Palatino, "Iowan Old Style", Georgia, serif;
@@ -225,6 +226,43 @@
   }
   button.spacer:hover{background:var(--verdigris);color:var(--panel)}
   button.spacer:focus-visible{outline:2px solid var(--rubric);outline-offset:3px}
+  button.spacer[aria-expanded="true"]{background:var(--verdigris);color:var(--panel)}
+  .greek-actions{display:flex;gap:8px;flex-wrap:wrap}
+
+  /* word by word: each form with its dictionary form, its parse, and its lexicon senses */
+  .words{margin-top:18px;padding-top:16px;border-top:1px solid var(--rule)}
+  .word-list{
+    list-style:none;
+    margin:0;
+    padding:0;
+    display:grid;
+    grid-template-columns:repeat(auto-fill,minmax(168px,1fr));
+    gap:10px;
+  }
+  .word{
+    background:var(--panel-notes);
+    border-top:2px solid var(--verdigris);
+    padding:10px 12px 12px;
+    display:flex;
+    flex-direction:column;
+    gap:3px;
+    min-width:0;
+  }
+  .w-form{font-family:var(--greek);font-size:21px;line-height:1.2;color:var(--ink)}
+  .w-lemma{font-family:var(--greek);font-size:14px;color:var(--ink-soft)}
+  .w-parse{
+    font-family:var(--util);
+    font-size:9.5px;
+    letter-spacing:.08em;
+    text-transform:uppercase;
+    line-height:1.55;
+    color:var(--verdigris);
+    margin-top:5px;
+  }
+  .w-aspect{font-family:var(--sans);font-size:11.5px;font-style:italic;line-height:1.45;color:var(--ink-soft)}
+  .w-senses{font-family:var(--sans);font-size:12.5px;line-height:1.5;color:var(--ink);margin-top:5px}
+  .w-more{color:var(--ink-faint);font-size:11px;white-space:nowrap}
+  .words-src{margin:12px 0 0;font-family:var(--sans);font-size:11.5px;line-height:1.55;color:var(--ink-faint);max-width:78ch}
 
   /* ---------- panels ---------- */
   .panels{
@@ -299,6 +337,15 @@
   .name{color:var(--rubric)}
   .paren{color:var(--ink-soft);font-style:italic}
 
+  /* anchored panel: the chain behind each headword, shaded so the seam is visible */
+  .chain{
+    background:var(--chain);
+    border-radius:2px;
+    padding:.06em .24em;
+    -webkit-box-decoration-break:clone;
+    box-decoration-break:clone;
+  }
+
   /* demo block */
   .demo{
     margin-top:clamp(40px,5vw,64px);
@@ -357,7 +404,7 @@
       </div>
       <div>
         <h4>Anchored</h4>
-        <p>The conventional word is kept and the chain trails behind it, set off by dashes. Best for narrative, law, and genealogy, where a reader needs to hold a referent across many verses without losing the thread.</p>
+        <p>Each word is headed by the first sense its lexicon gives, in the form the text uses, and its chain trails behind, set off by dashes and shaded. Read only the unshaded words for a plain word-for-word rendering; the chains are word for word the unanchored text. Best for narrative, law, and genealogy, where a reader needs to hold a referent across many verses without losing the thread.</p>
       </div>
       <div>
         <h4>Names</h4>
@@ -373,7 +420,11 @@
       </div>
       <div>
         <h4>What is not added</h4>
-        <p>No sense is imported that the Greek word does not carry, however familiar it is from other English versions. Where a well-known English phrase has no basis in this text, the notes say so.</p>
+        <p>No sense is imported that the Greek word does not carry, however familiar it is from other English versions. Where a well-known English phrase has no basis in this text, the notes say so. Nor are capitals added: the manuscripts have none, so no word is capitalised to make it a title.</p>
+      </div>
+      <div>
+        <h4>Word by word</h4>
+        <p>Under each Greek line, every word with its dictionary form, what its own form adds — tense, voice, mood, case — and the opening senses of its lexicon entry, in the lexicon's order. A concordance stops at the dictionary form; this takes the step after it.</p>
       </div>
     </div>
   </details>
@@ -397,7 +448,76 @@
     <p class="greek" data-greek>Ἐν ἀρχῇ ἐποίησεν ὁ θεὸς τὸν οὐρανὸν καὶ τὴν γῆν.</p>
     <div class="greek-foot">
       <p class="hint">The oldest manuscripts carry no spaces, no accents, no lower case. Word division is already an act of interpretation.</p>
-      <button class="spacer" type="button" data-spacer>Close the spaces</button>
+      <div class="greek-actions">
+        <button class="spacer" type="button" data-words-toggle aria-expanded="false">Word by word</button>
+        <button class="spacer" type="button" data-spacer>Close the spaces</button>
+      </div>
+    </div>
+    <div class="words" data-words hidden>
+      <ol class="word-list">
+        <li class="word">
+          <span class="w-form">Ἐν</span>
+          <span class="w-lemma" title="dictionary form (lemma)">ἐν</span>
+          <span class="w-parse">preposition</span>
+          <span class="w-senses">in, among. c. dat. · in · at the school of · in, upon · in the number of, amongst <span class="w-more">+23 more</span></span>
+        </li>
+        <li class="word">
+          <span class="w-form">ἀρχῇ</span>
+          <span class="w-lemma" title="dictionary form (lemma)">ἀρχή</span>
+          <span class="w-parse">noun · dative · singular · feminine</span>
+          <span class="w-senses">a beginning, origin, first cause · from the beginning, from of old · anew, afresh · in the beginning, at first · to begin with, first <span class="w-more">+11 more</span></span>
+        </li>
+        <li class="word">
+          <span class="w-form">ἐποίησεν</span>
+          <span class="w-lemma" title="dictionary form (lemma)">ποιέω</span>
+          <span class="w-parse">verb · aorist · active · indicative · 3rd person · singular</span>
+          <span class="w-aspect">one completed act seen whole, not a process observed in progress</span>
+          <span class="w-senses">to make · to do · to make, produce, create · to build them · to have <span class="w-more">+31 more</span></span>
+        </li>
+        <li class="word">
+          <span class="w-form">ὁ</span>
+          <span class="w-lemma" title="dictionary form (lemma)">ὁ</span>
+          <span class="w-parse">article · nominative · singular · masculine</span>
+          <span class="w-senses">the · that · famous · namely that · he, she, it <span class="w-more">+31 more</span></span>
+        </li>
+        <li class="word">
+          <span class="w-form">θεὸς</span>
+          <span class="w-lemma" title="dictionary form (lemma)">θεός</span>
+          <span class="w-parse">noun · nominative · singular · masculine</span>
+          <span class="w-senses">God · a god; · his will · the gods · God's name <span class="w-more">+3 more</span></span>
+        </li>
+        <li class="word">
+          <span class="w-form">τὸν</span>
+          <span class="w-lemma" title="dictionary form (lemma)">ὁ</span>
+          <span class="w-parse">article · accusative · singular · masculine</span>
+          <span class="w-senses">the · that · famous · namely that · he, she, it <span class="w-more">+31 more</span></span>
+        </li>
+        <li class="word">
+          <span class="w-form">οὐρανὸν</span>
+          <span class="w-lemma" title="dictionary form (lemma)">οὐρανός</span>
+          <span class="w-parse">noun · accusative · singular · masculine</span>
+          <span class="w-senses">heaven · the vault · firmament of heaven, the sky · Heavengate · heaven, the sky <span class="w-more">+5 more</span></span>
+        </li>
+        <li class="word">
+          <span class="w-form">καὶ</span>
+          <span class="w-lemma" title="dictionary form (lemma)">καί</span>
+          <span class="w-parse">conjunction</span>
+          <span class="w-senses">and · also, even · both · and above all · or <span class="w-more">+8 more</span></span>
+        </li>
+        <li class="word">
+          <span class="w-form">τὴν</span>
+          <span class="w-lemma" title="dictionary form (lemma)">ὁ</span>
+          <span class="w-parse">article · accusative · singular · feminine</span>
+          <span class="w-senses">the · that · famous · namely that · he, she, it <span class="w-more">+31 more</span></span>
+        </li>
+        <li class="word">
+          <span class="w-form">γῆν</span>
+          <span class="w-lemma" title="dictionary form (lemma)">γῆ</span>
+          <span class="w-parse">noun · accusative · singular · feminine</span>
+          <span class="w-senses">earth · land · on land, by land · the earth · a land, country <span class="w-more">+3 more</span></span>
+        </li>
+      </ol>
+      <p class="words-src">Dictionary form and parse: this project's own analysis, checked against the CCAT analysis of Rahlfs. Senses: Middle Liddell (1889; Perseus Digital Library, CC BY-SA 3.0 US), in the lexicon's own order, without regard to context; LSJ (PerseusDL, CC BY-SA 4.0) where Middle Liddell has no entry. Middle/passive marks a tense in which the two voices share one form; masculine/feminine, an adjective whose form does not distinguish them.</p>
     </div>
   </div>
 
@@ -421,6 +541,9 @@
         <dt>τὴν γῆν</dt>
         <dd>γῆ runs from soil underfoot, to farmland, to a country, to dry land as against the sea, to the whole terrestrial realm. Pairing it with οὐρανός pulls toward the widest sense without cancelling the narrow ones.</dd>
 
+        <dt class="latin">Capitals</dt>
+        <dd><em>God</em> is capitalised because the lexicon prints it so. The pronouns standing for God in the chain are not: <em>he who is God definitively, the one the article marks out</em>. The manuscripts have no lower case, so a reverential capital is never in the text — it is an editorial decision, and this rendering does not make it.</dd>
+
         <dt class="latin">Names</dt>
         <dd>None in this verse.</dd>
       </dl>
@@ -429,13 +552,13 @@
     <article class="panel" data-panel="open">
       <h3>Unanchored</h3>
       <p class="sub">Headwords removed — the reader rebuilds the referent</p>
-      <p class="text">Within, inside of, and by means of the first moment, the origin-point, the source, the first principle from which a thing proceeds, and simultaneously the headship, the rule, and the governing precedence over all that follows, He who is God definitively, the One the article marks out, the known and the only, fashioned, wrought, manufactured, produced, performed, and brought to a finished and accomplished state — one completed act seen whole, not a process observed in progress — the vaulted arch, the sky-expanse, the region above and over; and the land, the dry ground, the soil, the territory, the terrestrial realm as the counterpart-below.</p>
+      <p class="text">Within, inside of, and by means of the first moment, the origin-point, the source, the first principle from which a thing proceeds, and simultaneously the headship, the rule, and the governing precedence over all that follows, he who is God definitively, the one the article marks out, the known and the only, fashioned, wrought, manufactured, produced, performed, and brought to a finished and accomplished state — one completed act seen whole, not a process observed in progress — the vaulted arch, the sky-expanse, the region above and over; and the land, the dry ground, the soil, the territory, the terrestrial realm as the counterpart-below.</p>
     </article>
 
     <article class="panel" data-panel="anchor">
       <h3>Anchored</h3>
       <p class="sub">Headwords kept — the chain trails behind</p>
-      <p class="text">In the beginning — within, inside of, and by means of the first moment, the origin-point, the source, the first principle from which a thing proceeds, and at the same time the headship, the rule, and the governing precedence over all that follows — God, He who is God definitively, the One the article marks out, the known and the only, made: fashioned, wrought, manufactured, produced, performed, and brought to a finished and accomplished state in one completed act seen whole, not a process observed in progress — the heaven, the vaulted arch, the sky-expanse, the region above and over, and the earth, the land, the dry ground, the soil, the territory, the terrestrial realm as the counterpart-below.</p>
+      <p class="text">In beginning <span class="chain">— within, inside of, and by means of the first moment, the origin-point, the source, the first principle from which a thing proceeds, and simultaneously the headship, the rule, and the governing precedence over all that follows —</span> the God <span class="chain">— he who is God definitively, the one the article marks out, the known and the only —</span> made <span class="chain">— fashioned, wrought, manufactured, produced, performed, and brought to a finished and accomplished state —</span> one completed act seen whole, not a process observed in progress — the heaven <span class="chain">— the vaulted arch, the sky-expanse, the region above and over</span>; and the earth <span class="chain">— the land, the dry ground, the soil, the territory, the terrestrial realm as the counterpart-below</span>.</p>
     </article>
   </div>
 </section>
@@ -451,7 +574,131 @@
     <p class="greek" data-greek>ἡ δὲ γῆ ἦν ἀόρατος καὶ ἀκατασκεύαστος, καὶ σκότος ἐπάνω τῆς ἀβύσσου, καὶ πνεῦμα θεοῦ ἐπεφέρετο ἐπάνω τοῦ ὕδατος.</p>
     <div class="greek-foot">
       <p class="hint">Closed, the line is what a fourth-century reader actually met on the page.</p>
-      <button class="spacer" type="button" data-spacer>Close the spaces</button>
+      <div class="greek-actions">
+        <button class="spacer" type="button" data-words-toggle aria-expanded="false">Word by word</button>
+        <button class="spacer" type="button" data-spacer>Close the spaces</button>
+      </div>
+    </div>
+    <div class="words" data-words hidden>
+      <ol class="word-list">
+        <li class="word">
+          <span class="w-form">ἡ</span>
+          <span class="w-lemma" title="dictionary form (lemma)">ὁ</span>
+          <span class="w-parse">article · nominative · singular · feminine</span>
+          <span class="w-senses">the · that · famous · namely that · he, she, it <span class="w-more">+31 more</span></span>
+        </li>
+        <li class="word">
+          <span class="w-form">δὲ</span>
+          <span class="w-lemma" title="dictionary form (lemma)">δέ</span>
+          <span class="w-parse">conjunction</span>
+          <span class="w-senses">but · adversative · while, whereas, on the other hand · then, yet · then <span class="w-more">+3 more</span></span>
+        </li>
+        <li class="word">
+          <span class="w-form">γῆ</span>
+          <span class="w-lemma" title="dictionary form (lemma)">γῆ</span>
+          <span class="w-parse">noun · nominative · singular · feminine</span>
+          <span class="w-senses">earth · land · on land, by land · the earth · a land, country <span class="w-more">+3 more</span></span>
+        </li>
+        <li class="word">
+          <span class="w-form">ἦν</span>
+          <span class="w-lemma" title="dictionary form (lemma)">εἰμί</span>
+          <span class="w-parse">verb · imperfect · active · indicative · 3rd person · singular</span>
+          <span class="w-aspect">was, and kept on being: action going on in past time</span>
+          <span class="w-senses">to be, to exist · to be, exist · last · to be · appearing to be <span class="w-more">+11 more</span></span>
+        </li>
+        <li class="word">
+          <span class="w-form">ἀόρατος</span>
+          <span class="w-lemma" title="dictionary form (lemma)">ἀόρατος</span>
+          <span class="w-parse">adjective · nominative · singular · masculine/feminine</span>
+          <span class="w-senses">unseen, not to be seen, invisible · without sight</span>
+        </li>
+        <li class="word">
+          <span class="w-form">καὶ</span>
+          <span class="w-lemma" title="dictionary form (lemma)">καί</span>
+          <span class="w-parse">conjunction</span>
+          <span class="w-senses">and · also, even · both · and above all · or <span class="w-more">+8 more</span></span>
+        </li>
+        <li class="word">
+          <span class="w-form">ἀκατασκεύαστος</span>
+          <span class="w-lemma" title="dictionary form (lemma)">ἀκατασκεύαστος</span>
+          <span class="w-parse">adjective · nominative · singular · masculine/feminine</span>
+          <span class="w-senses">not properly prepared · unwrought, unformed · chaos · unpolished, unartificial</span>
+        </li>
+        <li class="word">
+          <span class="w-form">καὶ</span>
+          <span class="w-lemma" title="dictionary form (lemma)">καί</span>
+          <span class="w-parse">conjunction</span>
+          <span class="w-senses">and · also, even · both · and above all · or <span class="w-more">+8 more</span></span>
+        </li>
+        <li class="word">
+          <span class="w-form">σκότος</span>
+          <span class="w-lemma" title="dictionary form (lemma)">σκότος</span>
+          <span class="w-parse">noun · nominative · singular · neuter</span>
+          <span class="w-senses">darkness, gloom · the darkness of death · darkness</span>
+        </li>
+        <li class="word">
+          <span class="w-form">ἐπάνω</span>
+          <span class="w-lemma" title="dictionary form (lemma)">ἐπάνω</span>
+          <span class="w-parse">preposition</span>
+          <span class="w-senses">above, atop, on the upper side · above · above, more than</span>
+        </li>
+        <li class="word">
+          <span class="w-form">τῆς</span>
+          <span class="w-lemma" title="dictionary form (lemma)">ὁ</span>
+          <span class="w-parse">article · genitive · singular · feminine</span>
+          <span class="w-senses">the · that · famous · namely that · he, she, it <span class="w-more">+31 more</span></span>
+        </li>
+        <li class="word">
+          <span class="w-form">ἀβύσσου</span>
+          <span class="w-lemma" title="dictionary form (lemma)">ἄβυσσος</span>
+          <span class="w-parse">noun · genitive · singular · feminine</span>
+          <span class="w-senses">with no bottom, bottomless, unfathomed · unfathomable, enormous · the great deep, the abyss, bottomless pit</span>
+        </li>
+        <li class="word">
+          <span class="w-form">καὶ</span>
+          <span class="w-lemma" title="dictionary form (lemma)">καί</span>
+          <span class="w-parse">conjunction</span>
+          <span class="w-senses">and · also, even · both · and above all · or <span class="w-more">+8 more</span></span>
+        </li>
+        <li class="word">
+          <span class="w-form">πνεῦμα</span>
+          <span class="w-lemma" title="dictionary form (lemma)">πνεῦμα</span>
+          <span class="w-parse">noun · nominative · singular · neuter</span>
+          <span class="w-senses">a blowing · a wind, blast · breeze · influence · the wind <span class="w-more">+12 more</span></span>
+        </li>
+        <li class="word">
+          <span class="w-form">θεοῦ</span>
+          <span class="w-lemma" title="dictionary form (lemma)">θεός</span>
+          <span class="w-parse">noun · genitive · singular · masculine</span>
+          <span class="w-senses">God · a god; · his will · the gods · God's name <span class="w-more">+3 more</span></span>
+        </li>
+        <li class="word">
+          <span class="w-form">ἐπεφέρετο</span>
+          <span class="w-lemma" title="dictionary form (lemma)">ἐπιφέρω</span>
+          <span class="w-parse">verb · imperfect · middle/passive · indicative · 3rd person · singular</span>
+          <span class="w-aspect">was, and kept on being: action going on in past time</span>
+          <span class="w-senses">to bring, put · lay upon · upon · to attack, assail · to bring <span class="w-more">+15 more</span></span>
+        </li>
+        <li class="word">
+          <span class="w-form">ἐπάνω</span>
+          <span class="w-lemma" title="dictionary form (lemma)">ἐπάνω</span>
+          <span class="w-parse">preposition</span>
+          <span class="w-senses">above, atop, on the upper side · above · above, more than</span>
+        </li>
+        <li class="word">
+          <span class="w-form">τοῦ</span>
+          <span class="w-lemma" title="dictionary form (lemma)">ὁ</span>
+          <span class="w-parse">article · genitive · singular · neuter</span>
+          <span class="w-senses">the · that · famous · namely that · he, she, it <span class="w-more">+31 more</span></span>
+        </li>
+        <li class="word">
+          <span class="w-form">ὕδατος</span>
+          <span class="w-lemma" title="dictionary form (lemma)">ὕδωρ</span>
+          <span class="w-parse">noun · genitive · singular · neuter</span>
+          <span class="w-senses">water · the waters · rain-water, rain · the water of the water-clock · the water</span>
+        </li>
+      </ol>
+      <p class="words-src">Dictionary form and parse: this project's own analysis, checked against the CCAT analysis of Rahlfs. Senses: Middle Liddell (1889; Perseus Digital Library, CC BY-SA 3.0 US), in the lexicon's own order, without regard to context; LSJ (PerseusDL, CC BY-SA 4.0) where Middle Liddell has no entry. Middle/passive marks a tense in which the two voices share one form; masculine/feminine, an adjective whose form does not distinguish them.</p>
     </div>
   </div>
 
@@ -487,6 +734,9 @@
         <dt>ἐπάνω τοῦ ὕδατος</dt>
         <dd><span class="flag">not in this text</span> The familiar <em>face of the waters</em> is not here. The Hebrew has <em>face of</em> at both points; the LXX drops it at both. ὕδατος is also singular against Hebrew plural <em>mayim</em>.</dd>
 
+        <dt class="latin">Capitals</dt>
+        <dd>πνεῦμα is printed lowercase in both reading texts. The manuscripts have no lower case at all, so a capital is never in the text: <em>Spirit</em> with a capital would decide for the reader that the word is a title.</dd>
+
         <dt class="latin">Names</dt>
         <dd>None in this verse.</dd>
       </dl>
@@ -495,13 +745,13 @@
     <article class="panel" data-panel="open">
       <h3>Unanchored</h3>
       <p class="sub">Headwords removed — the reader rebuilds the referent</p>
-      <p class="text">But — however, whereas, on the other hand — the land, the dry ground, the terrestrial realm was, and kept on being as a standing and continuing condition and not a momentary one, unseeable, un-viewable, not presenting itself to the eye, imperceptible to sight; and un-built-out, unfurnished, unequipped, unprovisioned, not fitted out with its appointments, lacking the constructed arrangement that a full outfitting would supply. And obscurity, gloom, the privation and the absence of light lay upon, over, and atop the bottomless, the depth without a floor to sound, the unfathomable and unmeasurable deep. And Breath, wind, moving air, respiration, Spirit — God's own, divine in character — was being borne along, carried over, swept upon, brought continuously to bear over and atop the water.</p>
+      <p class="text">But, however, whereas, on the other hand, the land, the dry ground, the terrestrial realm was, and kept on being as a standing and continuing condition and not a momentary one, unseeable, un-viewable, not presenting itself to the eye, imperceptible to sight; and un-built-out, unfurnished, unequipped, unprovisioned, not fitted out with its appointments, lacking the constructed arrangement that a full outfitting would supply. And obscurity, gloom, the privation and the absence of light was upon, over, and atop the bottomless, the depth without a floor to sound, the unfathomable and unmeasurable deep. And breath, wind, moving air, respiration, spirit — God's own, divine in character — was being borne along, carried over, swept upon, brought continuously to bear over and atop the water.</p>
     </article>
 
     <article class="panel" data-panel="anchor">
       <h3>Anchored</h3>
       <p class="sub">Headwords kept — the chain trails behind</p>
-      <p class="text">But the earth — the land, the dry ground, the terrestrial realm — was, and kept on being as a standing and continuing condition, invisible — unseeable, un-viewable, not presenting itself to the eye, imperceptible to sight — and unfurnished — un-built-out, unequipped, unprovisioned, not fitted out with its appointments, lacking the constructed arrangement that a full outfitting would supply. And darkness — obscurity, gloom, the privation and the absence of light — was upon, over, and atop the abyss — the bottomless, the depth without a floor to sound, the unfathomable and unmeasurable deep. And the Breath of God — wind, moving air, respiration, Spirit, God's own and divine in character — was being borne along — carried over, swept upon, brought continuously to bear — over and atop the water.</p>
+      <p class="text">But <span class="chain">— but, however, whereas, on the other hand —</span> the earth <span class="chain">— the land, the dry ground, the terrestrial realm —</span> was, and kept on being as a standing and continuing condition and not a momentary one, unseen <span class="chain">— unseeable, un-viewable, not presenting itself to the eye, imperceptible to sight</span>; and not properly prepared <span class="chain">— un-built-out, unfurnished, unequipped, unprovisioned, not fitted out with its appointments, lacking the constructed arrangement that a full outfitting would supply</span>. And darkness <span class="chain">— obscurity, gloom, the privation and the absence of light —</span> was upon, over, and atop the great deep <span class="chain">— the bottomless, the depth without a floor to sound, the unfathomable and unmeasurable deep</span>. And blowing <span class="chain">— breath, wind, moving air, respiration, spirit —</span> of God <span class="chain">— God's own, divine in character —</span> was being brought upon <span class="chain">— was being borne along, carried over, swept upon, brought continuously to bear —</span> over and atop the water.</p>
     </article>
   </div>
 </section>
@@ -517,7 +767,120 @@
     <p class="greek" data-greek>Ἐν ἀρχῇ ἦν ὁ λόγος, καὶ ὁ λόγος ἦν πρὸς τὸν θεόν, καὶ θεὸς ἦν ὁ λόγος.</p>
     <div class="greek-foot">
       <p class="hint">Closed, the first three letters are the same three that open Genesis. That is the point of the verse.</p>
-      <button class="spacer" type="button" data-spacer>Close the spaces</button>
+      <div class="greek-actions">
+        <button class="spacer" type="button" data-words-toggle aria-expanded="false">Word by word</button>
+        <button class="spacer" type="button" data-spacer>Close the spaces</button>
+      </div>
+    </div>
+    <div class="words" data-words hidden>
+      <ol class="word-list">
+        <li class="word">
+          <span class="w-form">Ἐν</span>
+          <span class="w-lemma" title="dictionary form (lemma)">ἐν</span>
+          <span class="w-parse">preposition</span>
+          <span class="w-senses">in, among. c. dat. · in · at the school of · in, upon · in the number of, amongst <span class="w-more">+23 more</span></span>
+        </li>
+        <li class="word">
+          <span class="w-form">ἀρχῇ</span>
+          <span class="w-lemma" title="dictionary form (lemma)">ἀρχή</span>
+          <span class="w-parse">noun · dative · singular · feminine</span>
+          <span class="w-senses">a beginning, origin, first cause · from the beginning, from of old · anew, afresh · in the beginning, at first · to begin with, first <span class="w-more">+11 more</span></span>
+        </li>
+        <li class="word">
+          <span class="w-form">ἦν</span>
+          <span class="w-lemma" title="dictionary form (lemma)">εἰμί</span>
+          <span class="w-parse">verb · imperfect · active · indicative · 3rd person · singular</span>
+          <span class="w-aspect">was, and kept on being: action going on in past time</span>
+          <span class="w-senses">to be, to exist · to be, exist · last · to be · appearing to be <span class="w-more">+11 more</span></span>
+        </li>
+        <li class="word">
+          <span class="w-form">ὁ</span>
+          <span class="w-lemma" title="dictionary form (lemma)">ὁ</span>
+          <span class="w-parse">article · nominative · singular · masculine</span>
+          <span class="w-senses">the · that · famous · namely that · he, she, it <span class="w-more">+31 more</span></span>
+        </li>
+        <li class="word">
+          <span class="w-form">λόγος</span>
+          <span class="w-lemma" title="dictionary form (lemma)">λόγος</span>
+          <span class="w-parse">noun · nominative · singular · masculine</span>
+          <span class="w-senses">the word · that by which the inward thought is expressed · the inward thought itself · spoken · a word <span class="w-more">+45 more</span></span>
+        </li>
+        <li class="word">
+          <span class="w-form">καὶ</span>
+          <span class="w-lemma" title="dictionary form (lemma)">καί</span>
+          <span class="w-parse">conjunction</span>
+          <span class="w-senses">and · also, even · both · and above all · or <span class="w-more">+8 more</span></span>
+        </li>
+        <li class="word">
+          <span class="w-form">ὁ</span>
+          <span class="w-lemma" title="dictionary form (lemma)">ὁ</span>
+          <span class="w-parse">article · nominative · singular · masculine</span>
+          <span class="w-senses">the · that · famous · namely that · he, she, it <span class="w-more">+31 more</span></span>
+        </li>
+        <li class="word">
+          <span class="w-form">λόγος</span>
+          <span class="w-lemma" title="dictionary form (lemma)">λόγος</span>
+          <span class="w-parse">noun · nominative · singular · masculine</span>
+          <span class="w-senses">the word · that by which the inward thought is expressed · the inward thought itself · spoken · a word <span class="w-more">+45 more</span></span>
+        </li>
+        <li class="word">
+          <span class="w-form">ἦν</span>
+          <span class="w-lemma" title="dictionary form (lemma)">εἰμί</span>
+          <span class="w-parse">verb · imperfect · active · indicative · 3rd person · singular</span>
+          <span class="w-aspect">was, and kept on being: action going on in past time</span>
+          <span class="w-senses">to be, to exist · to be, exist · last · to be · appearing to be <span class="w-more">+11 more</span></span>
+        </li>
+        <li class="word">
+          <span class="w-form">πρὸς</span>
+          <span class="w-lemma" title="dictionary form (lemma)">πρός</span>
+          <span class="w-parse">preposition</span>
+          <span class="w-senses">motion from · abiding at · motion to · from, from forth · on the side <span class="w-more">+71 more</span></span>
+        </li>
+        <li class="word">
+          <span class="w-form">τὸν</span>
+          <span class="w-lemma" title="dictionary form (lemma)">ὁ</span>
+          <span class="w-parse">article · accusative · singular · masculine</span>
+          <span class="w-senses">the · that · famous · namely that · he, she, it <span class="w-more">+31 more</span></span>
+        </li>
+        <li class="word">
+          <span class="w-form">θεόν</span>
+          <span class="w-lemma" title="dictionary form (lemma)">θεός</span>
+          <span class="w-parse">noun · accusative · singular · masculine</span>
+          <span class="w-senses">God · a god; · his will · the gods · God's name <span class="w-more">+3 more</span></span>
+        </li>
+        <li class="word">
+          <span class="w-form">καὶ</span>
+          <span class="w-lemma" title="dictionary form (lemma)">καί</span>
+          <span class="w-parse">conjunction</span>
+          <span class="w-senses">and · also, even · both · and above all · or <span class="w-more">+8 more</span></span>
+        </li>
+        <li class="word">
+          <span class="w-form">θεὸς</span>
+          <span class="w-lemma" title="dictionary form (lemma)">θεός</span>
+          <span class="w-parse">noun · nominative · singular · masculine</span>
+          <span class="w-senses">God · a god; · his will · the gods · God's name <span class="w-more">+3 more</span></span>
+        </li>
+        <li class="word">
+          <span class="w-form">ἦν</span>
+          <span class="w-lemma" title="dictionary form (lemma)">εἰμί</span>
+          <span class="w-parse">verb · imperfect · active · indicative · 3rd person · singular</span>
+          <span class="w-aspect">was, and kept on being: action going on in past time</span>
+          <span class="w-senses">to be, to exist · to be, exist · last · to be · appearing to be <span class="w-more">+11 more</span></span>
+        </li>
+        <li class="word">
+          <span class="w-form">ὁ</span>
+          <span class="w-lemma" title="dictionary form (lemma)">ὁ</span>
+          <span class="w-parse">article · nominative · singular · masculine</span>
+          <span class="w-senses">the · that · famous · namely that · he, she, it <span class="w-more">+31 more</span></span>
+        </li>
+        <li class="word">
+          <span class="w-form">λόγος</span>
+          <span class="w-lemma" title="dictionary form (lemma)">λόγος</span>
+          <span class="w-parse">noun · nominative · singular · masculine</span>
+          <span class="w-senses">the word · that by which the inward thought is expressed · the inward thought itself · spoken · a word <span class="w-more">+45 more</span></span>
+        </li>
+      </ol>
+      <p class="words-src">Dictionary form and parse: MorphGNT's analysis of the SBLGNT. Senses: Middle Liddell (1889; Perseus Digital Library, CC BY-SA 3.0 US), in the lexicon's own order, without regard to context; LSJ (PerseusDL, CC BY-SA 4.0) where Middle Liddell has no entry. Middle/passive marks a tense in which the two voices share one form; masculine/feminine, an adjective whose form does not distinguish them.</p>
     </div>
   </div>
 
@@ -541,21 +904,24 @@
         <dt>θεὸς ἦν ὁ λόγος</dt>
         <dd>The predicate θεός stands without the article and is thrown to the front; ὁ λόγος carries the article and is the subject. A fronted anarthrous predicate nominative is normally <em>qualitative</em> — it says what the subject is by nature, not which individual it is identical with. So: not <em>the Word was the Father</em>, which the article placement refuses, and not <em>a god</em>, which the fronting refuses. Word order does work here that no English word order can do, which is why this clause has been fought over for eighteen centuries.</dd>
 
+        <dt class="latin">Capitals</dt>
+        <dd>λόγος and its chain are printed lowercase. The manuscripts have no lower case, so the capital in the familiar <em>Word</em> is not in the text; it is an editorial decision that the noun is a title.</dd>
+
         <dt class="latin">Names</dt>
-        <dd>None. λόγος is expanded rather than transliterated; <em>Logos</em> is retained only where the reading text needs the noun to function as a title.</dd>
+        <dd>None. λόγος is expanded, not transliterated.</dd>
       </dl>
     </article>
 
     <article class="panel" data-panel="open">
       <h3>Unanchored</h3>
       <p class="sub">Headwords removed — the reader rebuilds the referent</p>
-      <p class="text">Within, inside of, and by means of the first moment, the origin-point, the source, the first principle, the headship and the governing precedence over all that follows — the same opening with which the first book begins — there was, and was continuously, and was already in unbroken existence without any point of having come to be, the Utterance, the spoken Word, the thing-said, the Account, the Reckoning, the Rationale, the Reasoned Discourse, the intelligible ordering by which a mind is expressed and by which that mind itself coheres. And the Utterance, the Account, was and remained toward the God — facing Him, oriented to Him, in living motion and address toward Him, held face to face in a nearness that never collapses into sameness. And everything that God is by nature, deity in full and undiminished kind, was what that Utterance was.</p>
+      <p class="text">Within, inside of, and by means of the first moment, the origin-point, the source, the first principle from which a thing proceeds, and simultaneously the headship, the rule, and the governing precedence over all that follows, there was, and was continuously, and was already in unbroken existence without any point of having come to be, the utterance, the spoken word, the thing-said, the account, the reckoning, the rationale, the reasoned discourse, the intelligible ordering by which a mind is expressed and by which that mind itself coheres. And the utterance, the account, was and remained toward the God, facing him, oriented to him, in living motion and address toward him, held face to face in a nearness that never collapses into sameness. And everything that God is by nature, deity in full and undiminished kind, was what that utterance was.</p>
     </article>
 
     <article class="panel" data-panel="anchor">
       <h3>Anchored</h3>
       <p class="sub">Headwords kept — the chain trails behind</p>
-      <p class="text">In the beginning — within, inside of, and by means of the first moment, the origin-point, the source, the first principle, the headship and the governing precedence over all that follows — was the Word, the Logos: the Utterance, the spoken Word, the thing-said, the Account, the Reckoning, the Rationale, the Reasoned Discourse, the intelligible ordering by which a mind is expressed and by which that mind itself coheres — was, and was continuously, and was already in unbroken existence without any point of having come to be. And the Word was with God — toward the God, facing Him, oriented to Him, in living motion and address toward Him, held face to face in a nearness that never collapses into sameness. And the Word was God — everything that God is by nature, deity in full and undiminished kind, was what that Word was.</p>
+      <p class="text">In beginning <span class="chain">— within, inside of, and by means of the first moment, the origin-point, the source, the first principle from which a thing proceeds, and simultaneously the headship, the rule, and the governing precedence over all that follows —</span> there was, and was continuously, and was already in unbroken existence without any point of having come to be, the word <span class="chain">— the utterance, the spoken word, the thing-said, the account, the reckoning, the rationale, the reasoned discourse, the intelligible ordering by which a mind is expressed and by which that mind itself coheres</span>. And the word <span class="chain">— the utterance, the account —</span> was and remained towards the God <span class="chain">— toward the God, facing him, oriented to him, in living motion and address toward him, held face to face in a nearness that never collapses into sameness</span>. And the word was God <span class="chain">— everything that God is by nature, deity in full and undiminished kind, was what that utterance was</span>.</p>
     </article>
   </div>
 </section>
@@ -571,7 +937,58 @@
     <p class="greek" data-greek>οὗτος ἦν ἐν ἀρχῇ πρὸς τὸν θεόν.</p>
     <div class="greek-foot">
       <p class="hint">Six words, and every one of them has already appeared in verse 1.</p>
-      <button class="spacer" type="button" data-spacer>Close the spaces</button>
+      <div class="greek-actions">
+        <button class="spacer" type="button" data-words-toggle aria-expanded="false">Word by word</button>
+        <button class="spacer" type="button" data-spacer>Close the spaces</button>
+      </div>
+    </div>
+    <div class="words" data-words hidden>
+      <ol class="word-list">
+        <li class="word">
+          <span class="w-form">οὗτος</span>
+          <span class="w-lemma" title="dictionary form (lemma)">οὗτος</span>
+          <span class="w-parse">demonstrative pronoun · nominative · singular · masculine</span>
+          <span class="w-senses">this · the nearer · the more remote · what follows · what precedes <span class="w-more">+18 more</span></span>
+        </li>
+        <li class="word">
+          <span class="w-form">ἦν</span>
+          <span class="w-lemma" title="dictionary form (lemma)">εἰμί</span>
+          <span class="w-parse">verb · imperfect · active · indicative · 3rd person · singular</span>
+          <span class="w-aspect">was, and kept on being: action going on in past time</span>
+          <span class="w-senses">to be, to exist · to be, exist · last · to be · appearing to be <span class="w-more">+11 more</span></span>
+        </li>
+        <li class="word">
+          <span class="w-form">ἐν</span>
+          <span class="w-lemma" title="dictionary form (lemma)">ἐν</span>
+          <span class="w-parse">preposition</span>
+          <span class="w-senses">in, among. c. dat. · in · at the school of · in, upon · in the number of, amongst <span class="w-more">+23 more</span></span>
+        </li>
+        <li class="word">
+          <span class="w-form">ἀρχῇ</span>
+          <span class="w-lemma" title="dictionary form (lemma)">ἀρχή</span>
+          <span class="w-parse">noun · dative · singular · feminine</span>
+          <span class="w-senses">a beginning, origin, first cause · from the beginning, from of old · anew, afresh · in the beginning, at first · to begin with, first <span class="w-more">+11 more</span></span>
+        </li>
+        <li class="word">
+          <span class="w-form">πρὸς</span>
+          <span class="w-lemma" title="dictionary form (lemma)">πρός</span>
+          <span class="w-parse">preposition</span>
+          <span class="w-senses">motion from · abiding at · motion to · from, from forth · on the side <span class="w-more">+71 more</span></span>
+        </li>
+        <li class="word">
+          <span class="w-form">τὸν</span>
+          <span class="w-lemma" title="dictionary form (lemma)">ὁ</span>
+          <span class="w-parse">article · accusative · singular · masculine</span>
+          <span class="w-senses">the · that · famous · namely that · he, she, it <span class="w-more">+31 more</span></span>
+        </li>
+        <li class="word">
+          <span class="w-form">θεόν</span>
+          <span class="w-lemma" title="dictionary form (lemma)">θεός</span>
+          <span class="w-parse">noun · accusative · singular · masculine</span>
+          <span class="w-senses">God · a god; · his will · the gods · God's name <span class="w-more">+3 more</span></span>
+        </li>
+      </ol>
+      <p class="words-src">Dictionary form and parse: MorphGNT's analysis of the SBLGNT. Senses: Middle Liddell (1889; Perseus Digital Library, CC BY-SA 3.0 US), in the lexicon's own order, without regard to context; LSJ (PerseusDL, CC BY-SA 4.0) where Middle Liddell has no entry. Middle/passive marks a tense in which the two voices share one form; masculine/feminine, an adjective whose form does not distinguish them.</p>
     </div>
   </div>
 
@@ -603,7 +1020,7 @@
     <article class="panel" data-panel="anchor">
       <h3>Anchored</h3>
       <p class="sub">Headwords kept — the chain trails behind</p>
-      <p class="text">This one — this same one, this very one and no other — was, continuously and without any point of having come to be, in the beginning — the first moment, the origin-point, the source, the first principle — with God: toward Him, facing Him, oriented to Him, in living address toward Him.</p>
+      <p class="text">This <span class="chain">— this same one, this very one and no other —</span> was — continuously, and without any point of having come to be — in beginning <span class="chain">— within, inside of, and by means of the first moment, the origin-point, the source, the first principle —</span> towards the God <span class="chain">— facing, oriented toward, and in living address toward the God</span>.</p>
     </article>
   </div>
 </section>
@@ -617,7 +1034,65 @@
     <p class="greek" data-greek>Ἐγένετο ἄνθρωπος ἀπεσταλμένος παρὰ θεοῦ, ὄνομα αὐτῷ Ἰωάννης·</p>
     <div class="greek-foot">
       <p class="hint">The sentence opens with the verb the Logos was never given.</p>
-      <button class="spacer" type="button" data-spacer>Close the spaces</button>
+      <div class="greek-actions">
+        <button class="spacer" type="button" data-words-toggle aria-expanded="false">Word by word</button>
+        <button class="spacer" type="button" data-spacer>Close the spaces</button>
+      </div>
+    </div>
+    <div class="words" data-words hidden>
+      <ol class="word-list">
+        <li class="word">
+          <span class="w-form">Ἐγένετο</span>
+          <span class="w-lemma" title="dictionary form (lemma)">γίνομαι</span>
+          <span class="w-parse">verb · aorist · middle · indicative · 3rd person · singular</span>
+          <span class="w-aspect">one completed act seen whole, not a process observed in progress</span>
+          <span class="w-senses">to come into being · to be born · born · to be produced · the result <span class="w-more">+27 more</span></span>
+        </li>
+        <li class="word">
+          <span class="w-form">ἄνθρωπος</span>
+          <span class="w-lemma" title="dictionary form (lemma)">ἄνθρωπος</span>
+          <span class="w-parse">noun · nominative · singular · masculine</span>
+          <span class="w-senses">man · mankind · the man, the fellow · sirrah! you sir · a woman</span>
+        </li>
+        <li class="word">
+          <span class="w-form">ἀπεσταλμένος</span>
+          <span class="w-lemma" title="dictionary form (lemma)">ἀποστέλλω</span>
+          <span class="w-parse">verb · perfect · middle/passive · participle · nominative · singular · masculine</span>
+          <span class="w-aspect">a standing resultant state, not a past event</span>
+          <span class="w-senses">to send off · away from · to send away, banish · to go away, depart, set out · to send off, despatch <span class="w-more">+1 more</span></span>
+        </li>
+        <li class="word">
+          <span class="w-form">παρὰ</span>
+          <span class="w-lemma" title="dictionary form (lemma)">παρά</span>
+          <span class="w-parse">preposition</span>
+          <span class="w-senses">from the side of, c. gen., beside, alongside of, c. dat., to the side of, motion alongside of, c. acc. · beside · from the side of, from beside: from · issuing from · to be born <span class="w-more">+48 more</span></span>
+        </li>
+        <li class="word">
+          <span class="w-form">θεοῦ</span>
+          <span class="w-lemma" title="dictionary form (lemma)">θεός</span>
+          <span class="w-parse">noun · genitive · singular · masculine</span>
+          <span class="w-senses">God · a god; · his will · the gods · God's name <span class="w-more">+3 more</span></span>
+        </li>
+        <li class="word">
+          <span class="w-form">ὄνομα</span>
+          <span class="w-lemma" title="dictionary form (lemma)">ὄνομα</span>
+          <span class="w-parse">noun · nominative · singular · neuter</span>
+          <span class="w-senses">a name · name. fame · a mere name · a false name, pretence, pretext · pretence <span class="w-more">+4 more</span></span>
+        </li>
+        <li class="word">
+          <span class="w-form">αὐτῷ</span>
+          <span class="w-lemma" title="dictionary form (lemma)">αὐτός</span>
+          <span class="w-parse">personal pronoun · dative · singular · masculine</span>
+          <span class="w-senses">self · him, her, it · the very one, the same · self, myself, thyself · oneself, one's true self <span class="w-more">+25 more</span></span>
+        </li>
+        <li class="word">
+          <span class="w-form">Ἰωάννης</span>
+          <span class="w-lemma" title="dictionary form (lemma)">Ἰωάννης</span>
+          <span class="w-parse">noun · nominative · singular · masculine</span>
+          <span class="w-senses">(Ἰωάννης, from Hebrew Yôḥānān, "Yah has shown favour")</span>
+        </li>
+      </ol>
+      <p class="words-src">Dictionary form and parse: MorphGNT's analysis of the SBLGNT. Senses: Middle Liddell (1889; Perseus Digital Library, CC BY-SA 3.0 US), in the lexicon's own order, without regard to context; LSJ (PerseusDL, CC BY-SA 4.0) where Middle Liddell has no entry. Middle/passive marks a tense in which the two voices share one form; masculine/feminine, an adjective whose form does not distinguish them.</p>
     </div>
   </div>
 
@@ -640,13 +1115,13 @@
     <article class="panel" data-panel="open">
       <h3>Unanchored</h3>
       <p class="sub">Headwords removed — the reader rebuilds the referent</p>
-      <p class="text">There came to be, there arose, there was brought into existence — and it is this verb, the one withheld until now, that arrives first in the sentence — a man, a human being, one sent off, dispatched, and commissioned on another's authority, from alongside and from the side of God; and the name belonging to him: <span class="name">Iōannēs</span> <span class="paren">(Ἰωάννης, from Hebrew Yôḥānān, "Yah has shown favour")</span>.</p>
+      <p class="text">There came to be, there arose, there was brought into existence, a man, a human being, one sent off, dispatched, and commissioned on another's authority, from alongside and from the side of God; and the name belonging to him: <span class="name">Iōannēs</span> <span class="paren">(Ἰωάννης, from Hebrew Yôḥānān, "Yah has shown favour")</span>.</p>
     </article>
 
     <article class="panel" data-panel="anchor">
       <h3>Anchored</h3>
       <p class="sub">Headwords kept — the chain trails behind</p>
-      <p class="text">There came to be a man — there arose, there was brought into existence, a human being — sent from God: sent off, dispatched, and commissioned on another's authority, from alongside and from the side of God — whose name was <span class="name">John</span> <span class="paren">(Ἰωάννης, from Hebrew Yôḥānān, "Yah has shown favour")</span>.</p>
+      <p class="text">Came into being <span class="chain">— there came to be, there arose, there was brought into existence —</span> man <span class="chain">— a man, a human being —</span> sent off <span class="chain">— one sent off, dispatched, and commissioned on another's authority —</span> from the side of God <span class="chain">— from alongside and from the side of God</span>; and the name belonging to him: <span class="name">John</span> <span class="paren">(Ἰωάννης, from Hebrew Yôḥānān, "Yah has shown favour")</span>.</p>
     </article>
   </div>
 </section>
@@ -711,6 +1186,17 @@
       line.classList.toggle('closed', closed);
       btn.textContent = closed ? 'Open the spaces' : 'Close the spaces';
       btn.setAttribute('aria-pressed', closed ? 'true' : 'false');
+    });
+  });
+
+  /* ---- word by word ---- */
+  document.querySelectorAll('[data-words-toggle]').forEach(function(btn){
+    var layer = btn.closest('.greekblock').querySelector('[data-words]');
+    btn.addEventListener('click', function(){
+      var open = layer.hidden;
+      layer.hidden = !open;
+      btn.setAttribute('aria-expanded', open ? 'true' : 'false');
+      btn.textContent = open ? 'Hide word by word' : 'Word by word';
     });
   });
 })();

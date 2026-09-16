@@ -1,0 +1,42 @@
+# Genesis 1 — morphology, one word per line.
+#
+# This is the project's own grammatical analysis of each form. It is not copied from
+# the CCAT tagging in sources/, which may not be redistributed; build/validate.py
+# checks it against CCAT locally and reports any disagreement.
+#
+# Columns: verse, part of speech, parse, form, lemma — in MorphGNT's code scheme, so
+# the Old and New Testament layers read alike. The parse is eight places: person,
+# tense, voice, mood, case, number, gender, degree ("-" where it does not apply).
+#
+# Two codes go beyond MorphGNT, both to record only what the form itself says:
+#   voice  E  middle/passive — a tense in which the two share one form
+#   gender C  masculine/feminine — an adjective whose form does not distinguish them
+1:1 P- -------- Ἐν ἐν
+1:1 N- ----DSF- ἀρχῇ ἀρχή
+1:1 V- 3AAI-S-- ἐποίησεν ποιέω
+1:1 RA ----NSM- ὁ ὁ
+1:1 N- ----NSM- θεὸς θεός
+1:1 RA ----ASM- τὸν ὁ
+1:1 N- ----ASM- οὐρανὸν οὐρανός
+1:1 C- -------- καὶ καί
+1:1 RA ----ASF- τὴν ὁ
+1:1 N- ----ASF- γῆν γῆ
+1:2 RA ----NSF- ἡ ὁ
+1:2 C- -------- δὲ δέ
+1:2 N- ----NSF- γῆ γῆ
+1:2 V- 3IAI-S-- ἦν εἰμί
+1:2 A- ----NSC- ἀόρατος ἀόρατος
+1:2 C- -------- καὶ καί
+1:2 A- ----NSC- ἀκατασκεύαστος ἀκατασκεύαστος
+1:2 C- -------- καὶ καί
+1:2 N- ----NSN- σκότος σκότος
+1:2 P- -------- ἐπάνω ἐπάνω
+1:2 RA ----GSF- τῆς ὁ
+1:2 N- ----GSF- ἀβύσσου ἄβυσσος
+1:2 C- -------- καὶ καί
+1:2 N- ----NSN- πνεῦμα πνεῦμα
+1:2 N- ----GSM- θεοῦ θεός
+1:2 V- 3IEI-S-- ἐπεφέρετο ἐπιφέρω
+1:2 P- -------- ἐπάνω ἐπάνω
+1:2 RA ----GSN- τοῦ ὁ
+1:2 N- ----GSN- ὕδατος ὕδωρ

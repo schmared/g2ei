@@ -15,6 +15,7 @@
     --rubric:#8C2F23;
     --verdigris:#3B5A4F;
     --rule:#C9C5B7;
+    --chain:rgba(59,90,79,.11);
 
     --greek: "GFS Didot", "New Athena Unicode", "Palatino Linotype", "Book Antiqua", Palatino, "Iowan Old Style", Georgia, serif;
     --body: "Palatino Linotype", "Book Antiqua", Palatino, "Iowan Old Style", Georgia, serif;
@@ -225,6 +226,43 @@
   }
   button.spacer:hover{background:var(--verdigris);color:var(--panel)}
   button.spacer:focus-visible{outline:2px solid var(--rubric);outline-offset:3px}
+  button.spacer[aria-expanded="true"]{background:var(--verdigris);color:var(--panel)}
+  .greek-actions{display:flex;gap:8px;flex-wrap:wrap}
+
+  /* word by word: each form with its dictionary form, its parse, and its lexicon senses */
+  .words{margin-top:18px;padding-top:16px;border-top:1px solid var(--rule)}
+  .word-list{
+    list-style:none;
+    margin:0;
+    padding:0;
+    display:grid;
+    grid-template-columns:repeat(auto-fill,minmax(168px,1fr));
+    gap:10px;
+  }
+  .word{
+    background:var(--panel-notes);
+    border-top:2px solid var(--verdigris);
+    padding:10px 12px 12px;
+    display:flex;
+    flex-direction:column;
+    gap:3px;
+    min-width:0;
+  }
+  .w-form{font-family:var(--greek);font-size:21px;line-height:1.2;color:var(--ink)}
+  .w-lemma{font-family:var(--greek);font-size:14px;color:var(--ink-soft)}
+  .w-parse{
+    font-family:var(--util);
+    font-size:9.5px;
+    letter-spacing:.08em;
+    text-transform:uppercase;
+    line-height:1.55;
+    color:var(--verdigris);
+    margin-top:5px;
+  }
+  .w-aspect{font-family:var(--sans);font-size:11.5px;font-style:italic;line-height:1.45;color:var(--ink-soft)}
+  .w-senses{font-family:var(--sans);font-size:12.5px;line-height:1.5;color:var(--ink);margin-top:5px}
+  .w-more{color:var(--ink-faint);font-size:11px;white-space:nowrap}
+  .words-src{margin:12px 0 0;font-family:var(--sans);font-size:11.5px;line-height:1.55;color:var(--ink-faint);max-width:78ch}
 
   /* ---------- panels ---------- */
   .panels{
@@ -299,6 +337,15 @@
   .name{color:var(--rubric)}
   .paren{color:var(--ink-soft);font-style:italic}
 
+  /* anchored panel: the chain behind each headword, shaded so the seam is visible */
+  .chain{
+    background:var(--chain);
+    border-radius:2px;
+    padding:.06em .24em;
+    -webkit-box-decoration-break:clone;
+    box-decoration-break:clone;
+  }
+
   /* demo block */
   .demo{
     margin-top:clamp(40px,5vw,64px);
@@ -357,7 +404,7 @@
       </div>
       <div>
         <h4>Anchored</h4>
-        <p>The conventional word is kept and the chain trails behind it, set off by dashes. Best for narrative, law, and genealogy, where a reader needs to hold a referent across many verses without losing the thread.</p>
+        <p>Each word is headed by the first sense its lexicon gives, in the form the text uses, and its chain trails behind, set off by dashes and shaded. Read only the unshaded words for a plain word-for-word rendering; the chains are word for word the unanchored text. Best for narrative, law, and genealogy, where a reader needs to hold a referent across many verses without losing the thread.</p>
       </div>
       <div>
         <h4>Names</h4>
@@ -373,7 +420,11 @@
       </div>
       <div>
         <h4>What is not added</h4>
-        <p>No sense is imported that the Greek word does not carry, however familiar it is from other English versions. Where a well-known English phrase has no basis in this text, the notes say so.</p>
+        <p>No sense is imported that the Greek word does not carry, however familiar it is from other English versions. Where a well-known English phrase has no basis in this text, the notes say so. Nor are capitals added: the manuscripts have none, so no word is capitalised to make it a title.</p>
+      </div>
+      <div>
+        <h4>Word by word</h4>
+        <p>Under each Greek line, every word with its dictionary form, what its own form adds — tense, voice, mood, case — and the opening senses of its lexicon entry, in the lexicon's order. A concordance stops at the dictionary form; this takes the step after it.</p>
       </div>
     </div>
   </details>
@@ -448,6 +499,17 @@
       line.classList.toggle('closed', closed);
       btn.textContent = closed ? 'Open the spaces' : 'Close the spaces';
       btn.setAttribute('aria-pressed', closed ? 'true' : 'false');
+    });
+  });
+
+  /* ---- word by word ---- */
+  document.querySelectorAll('[data-words-toggle]').forEach(function(btn){
+    var layer = btn.closest('.greekblock').querySelector('[data-words]');
+    btn.addEventListener('click', function(){
+      var open = layer.hidden;
+      layer.hidden = !open;
+      btn.setAttribute('aria-expanded', open ? 'true' : 'false');
+      btn.textContent = open ? 'Hide word by word' : 'Word by word';
     });
   });
 })();

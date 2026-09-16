@@ -8,12 +8,21 @@ Nothing here should hand-write per-chapter markup.
 Inline markup permitted inside JSON strings:
 
     *emphasis*        -> <em>emphasis</em>
-    [[flag]]          -> the note's flag badge, at that position
+    [[flag]]          -> (notes) the note's flag badge, at that position
                          (a note with a flag and no [[flag]] gets it prepended)
-    [[name:Ἰωάννης]]  -> the name span plus its parenthetical gloss, drawn
+    [[anchor|chain]]  -> (reading) the chain alone in the unanchored panel; in the
+                         anchored panel the anchor, then the chain set off in em
+                         dashes and shaded — see reading()
+    [[name:Ἰωάννης]]  -> (reading) the name span plus its parenthetical gloss, drawn
                          from the verse's "names" list; the form used is the
                          Greek transliteration in the unanchored panel and the
                          conventional English one in the anchored panel
+
+Both reading panels are derived from the verse's single `reading` string, so the
+anchored text is always exactly the unanchored text with the headwords added.
+
+Where data/<BOOK>/<chapter>.words.json exists (written by build/words.py), each
+Greek line gets the word-by-word layer: form, lemma, parse, and lexicon senses.
 
 Usage:
     python build/render.py                 # write site/index.html
@@ -62,9 +71,13 @@ def esc(s):
     return s.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
 
 
-def inline(text, flag=None, names=(), form=None):
-    out = esc(text)
-    out = re.sub(r"\*(.+?)\*", r"<em>\1</em>", out, flags=re.S)
+def emphasis(html):
+    return re.sub(r"\*(.+?)\*", r"<em>\1</em>", html, flags=re.S)
+
+
+def inline(text, flag=None):
+    """Notes and hints: *emphasis* and the positional [[flag]] badge."""
+    out = emphasis(esc(text))
 
     if flag:
         badge = '<span class="flag">%s</span>' % esc(flag)
@@ -74,6 +87,57 @@ def inline(text, flag=None, names=(), form=None):
             out = badge + " " + out
     elif "[[flag]]" in out:
         raise ValueError("[[flag]] used in a note with no flag: %r" % text)
+    return out
+
+
+UNIT = re.compile(r"\[\[(?!name:)([^|\[\]]+)\|([^\[\]]+)\]\]")
+NAME = re.compile(r"\[\[name:([^\]]+)\]\]")
+SENTENCE_START = re.compile(r"(?:^|[.!?]\s+)$")
+
+
+def capitalise(s):
+    for i, c in enumerate(s):
+        if c.isalpha():
+            return s[:i] + c.upper() + s[i + 1:]
+    return s
+
+
+def reading(text, names, form):
+    """Derive one panel ("unanchored" or "anchored") from a verse's `reading`.
+
+    A unit [[anchor|chain]] becomes the chain alone in the unanchored panel, and in
+    the anchored panel the anchor followed by the chain in em dashes, shaded:
+
+        anchor <span class="chain">— chain —</span>
+
+    Nothing else differs between the panels. The rest is typography, not wording:
+    a comma or em dash straight after a unit is absorbed into its closing dash, no
+    closing dash is added before . ; : ! ? or the end, and a unit at the head of a
+    sentence is capitalised — the chain in the unanchored panel, the anchor in the
+    anchored one.
+    """
+    src = esc(text)
+    out, pos = [], 0
+    for m in UNIT.finditer(src):
+        out.append(src[pos:m.start()])
+        anchor, chain = m.group(1).strip(), m.group(2).strip()
+        initial = bool(SENTENCE_START.search(src[:m.start()]))
+        pos = m.end()
+        if form == "unanchored":
+            out.append(capitalise(chain) if initial else chain)
+            continue
+        rest = src[pos:]
+        absorbed = re.match(r"\s*[,—]\s*", rest)
+        if absorbed:
+            close, gap = " —", " "
+            pos += absorbed.end()
+        elif re.match(r"\s*(?:[.;:!?)]|$)", rest):
+            close, gap = "", ""
+        else:
+            close, gap = " —", ""
+        out.append('%s <span class="chain">— %s%s</span>%s'
+                   % (capitalise(anchor) if initial else anchor, chain, close, gap))
+    out.append(src[pos:])
 
     by_greek = {n["greek"]: n for n in names}
 
@@ -82,7 +146,7 @@ def inline(text, flag=None, names=(), form=None):
         return '<span class="name">%s</span> <span class="paren">%s</span>' % (
             esc(n[form]), esc(n["gloss"]))
 
-    return re.sub(r"\[\[name:([^\]]+)\]\]", name, out)
+    return emphasis(NAME.sub(name, "".join(out)))
 
 
 # --------------------------------------------------------------------------
@@ -155,7 +219,7 @@ def load_template(name):
 # verse -> template context
 # --------------------------------------------------------------------------
 
-def context(verse):
+def context(verse, words=None, words_src=""):
     book, chapter_verse = verse["ref"].split(" ")
     chapter, number = chapter_verse.split(":")
     meta = BOOKS[book]
@@ -181,9 +245,21 @@ def context(verse):
         "hint": inline(verse["hint"]),
         "notes_sub": verse.get("notes_sub", meta["notes_sub"]),
         "notes": notes,
-        "unanchored": inline(verse["unanchored"], names=names, form="unanchored"),
-        "anchored": inline(verse["anchored"], names=names, form="anchored"),
+        "unanchored": reading(verse["reading"], names, "unanchored"),
+        "anchored": reading(verse["reading"], names, "anchored"),
+        "has_words": bool(words),
+        "words": [dict(w, senses=" · ".join(w["senses"])) for w in (words or [])],
+        "words_src": words_src,
     }
+
+
+def load_words(book, chapter):
+    """The word-by-word layer for a chapter, as {ref: words}, and its source note."""
+    path = DATA / book / ("%d.words.json" % chapter)
+    if not path.exists():
+        return {}, ""
+    layer = json.loads(path.read_text(encoding="utf-8"))
+    return {v["ref"]: v["words"] for v in layer["verses"]}, layer.get("source", "")
 
 
 def build():
@@ -193,8 +269,10 @@ def build():
     sections = []
     for book, chapter in PAGE:
         verses = json.loads((DATA / book / ("%d.json" % chapter)).read_text(encoding="utf-8"))
+        words, words_src = load_words(book, chapter)
         for verse in verses:
-            sections.append(render(verse_tpl, [context(verse)]).rstrip("\n"))
+            ctx = context(verse, words.get(verse["ref"]), words_src)
+            sections.append(render(verse_tpl, [ctx]).rstrip("\n"))
 
     return render(page_tpl, [{"sections": "\n\n".join(sections)}])
 
@@ -204,6 +282,9 @@ def main():
     ap.add_argument("--check", metavar="FILE",
                     help="compare the render against FILE instead of writing site/")
     args = ap.parse_args()
+    # a --check diff carries Greek; don't let a cp1252 pipe on Windows crash on it
+    if hasattr(sys.stdout, "reconfigure"):
+        sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 
     html = build()
 
