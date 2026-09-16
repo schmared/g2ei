@@ -97,6 +97,12 @@ LSJ = {
     "ἀσφαλτόω": ["smear with pitch"],
     # No Middle Liddell entry. LSJ (eng4) gives one sense and cites GEN 6:16.
     "διώροφος": ["with two roofs or stories"],
+    # No Middle Liddell entry. LSJ (eng5) gives one sense and cites GEN 7:11.
+    "ἑξακοσιοστός": ["six hundredth"],
+    # No Middle Liddell entry. LSJ (eng1): "height", of plants, animals and royal majesty,
+    # then the senses below; GEN 7:23 renders the Hebrew yĕqûm, "living substance", with it.
+    "ἀνάστημα": ["height", "protuberance, prominence", "high ground", "erection, building",
+                 "eruption"],
 }
 
 # New Testament books: MorphGNT file and its book number.
@@ -257,6 +263,13 @@ NOT_SENSES = {
     "e)kle/gw": {"to pick", "single out", "to levy taxes", "tribute", "to levy", "on"},
     "ei)sporeu/w": {"to lead into"},            # the active; GEN 6:4 is the middle, "to go into, enter"
     "qumo/w": {"to make angry", "passion", "irasci in cornua"},  # the active, τὸ θυμούμενον, and Latin
+    # GEN 7
+    "a)noi/gnumi": {"they tried to put back", "so as to open", "took off"},  # pieces of Homeric examples
+    "chro/s": {"siccis oculis"},                # Latin
+    "mei/s": {"the beginning", "the waning", "from the end of the month", "the three-and twentieth"},  # the Attic calendar
+    "u(eto/s": {"a lasting", "a drizzling"},     # pieces of the distinction from ὄμβρος and ψακάς
+    "katarra/kths": {"rushing down upon"},      # the reason the gull is named
+    "e)calei/fw": {"to strike", "off"},         # from "to strike his name off the roll"
     "e)nqume/omai": {"was not conscious"},      # a worked example
     "o)nomasto/s": {"not to be named", "mentioned", "abominable"},  # οὐκ ὀνομαστός, one construction
     "fqei/rw": {"may ye perish! ruin seize ye!", "plague take thee! away with thee!", "thou depart",
@@ -289,6 +302,11 @@ SPELLING = {
     "e)nanti/on": "e)nanti/os",     # cross-reference; "adverb v. ἐναντίος" glosses nothing
     "nossia/": "neossia/",          # the contracted spelling; the entry is headed with νεοσσιά
     "kata/gaios": "kata/geios",     # cross-reference; "ionic for κατάγειος" glosses nothing
+    # The month. Middle Liddell's μήν is the particle, "verily"; it files the month under the
+    # nominative μείς. When the particle appears it will need its own way in.
+    "mh/n": "mei/s",
+    "a)noi/gw": "a)noi/gnumi",     # the -νυμι form heads the entry
+    "sfodrw=s": "sfodro/s",        # the adverb, filed inside the adjective's entry
 }
 
 # Homographs where Perseus's *first* entry is a different word from the one the text

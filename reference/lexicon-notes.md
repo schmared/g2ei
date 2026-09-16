@@ -110,12 +110,17 @@ Three reasons, and all of them are the lexicon's filing rather than a decision a
 | ἐναντίον (GEN 6:8) | ἐναντίος | the entry is a bare cross-reference, *adverb v. ἐναντίος* |
 | νοσσιά (GEN 6:14) | νεοσσιά | the contracted spelling; the entry is headed with the full one |
 | κατάγαιος (GEN 6:16) | κατάγειος | a cross-reference, *ionic for κατάγειος* |
+| μήν, the month (GEN 7:11) | μείς | Middle Liddell's μήν is the particle, *verily*; the month is filed under its nominative μείς |
+| ἀνοίγω (GEN 7:11) | ἀνοίγνυμι | the -νυμι form heads the entry |
+| σφοδρῶς (GEN 7:19) | σφοδρός | the adverb, filed inside the adjective's entry |
 
-The dictionary form itself does not follow the lexicon's filing. A word the New Testament uses
-takes MorphGNT's spelling — γίνομαι, ἔχθρα, νοσσιά — and any other word the spelling the text
-prints — δειλινός, κατέναντι, ἐννακόσιοι, κατάγαιος — and this table finds its entry. GEN 5
-first filed ἐννακόσιοι under ἐνακόσιοι itself; the second pass of GEN 6, following the brief's
-rule that came from that, showed it at odds with every filing before it, and both were corrected.
+The dictionary form itself does not follow the lexicon's filing: it keeps the spelling the text
+prints — γίνομαι, ἔχθρα, νοσσιά, δειλινός, κατέναντι, ἐννακόσιοι, κατάγαιος, τεσσαράκοντα — and
+this table finds its entry. Only the form is the dictionary's: ὀστοῦν goes under ὀστέον. GEN 5
+first filed ἐννακόσιοι under ἐνακόσιοι itself; the second pass of GEN 6 showed that at odds with
+every filing before it. The brief's rule was then worded as *a word the New Testament uses takes
+MorphGNT's spelling*, and GEN 7's second pass, applying it, filed τεσσαράκοντα under SBLGNT's
+τεσσεράκοντα: MorphGNT had only ever agreed with the text's spelling, never decided it.
 
 Where Middle Liddell has no entry a word can be found under, LSJ supplies the senses (`LSJ` in
 `build/words.py`): σύ, φλόγινος (GEN 3); ποιμήν — Middle Liddell has only the Doric ποιμάν,
@@ -412,6 +417,12 @@ the same ground as `the sixth` and `the seventh`: one sense each, so no range to
 - One sense each in GEN 6, so plain text: ἀσφαλτόω `you will smear with pitch` (6:14, LSJ);
   διώροφος `with two roofs or stories` (LSJ) and τριώροφος `of three stories or floors` (6:16);
   εἴκοσι `twenty`; θυγάτηρ `daughters`; υἱός `sons`.
+- One sense each in GEN 7, so plain text: διατρέφω `to sustain continually` (7:3); ἑξακοσιοστός
+  `six hundredth` (7:11, LSJ); μείς `month`; εἰκάς `twentieth`, *the twentieth day of the month*
+  (7:11); ἡ ξηρά `the dry land` (7:22), the noun sense of ξηρός; ἐπάνω without a genitive —
+  `upon, over, and atop` (7:20), and with one `over and atop` (7:18), the forms of GEN 1:2; ὕδωρ,
+  `the water`, `of water` (7:6–24); ἐν τῷ ἑξακοσιοστῷ ἔτει — `in the six hundredth year` (7:11),
+  ἐν joined to plain words as at 2:8.
 
 ### διά + genitive
 
@@ -457,6 +468,13 @@ the same ground as `the sixth` and `the seventh`: one sense each, so no range to
   country, above and on high, from the beginning, by descent, over again and anew`. 6:14, 6:16.
 - ἐκεῖνος — `those`, `that`, `to those` / `those, the ones there, the more remote`, in the form:
   the chain of GEN 2:12. 6:4, 6:21.
+- καθά — **headword** `according as`; **chain** `according as, just as, like as if, exactly as`.
+  7:9, 7:16.
+- ἔτι — **headword** `yet`, the chain of GEN 2:9. 7:4.
+- σφόδρα, σφοδρῶς — `very` / `very, very much, exceedingly, violently, far, most certainly`;
+  `vehemently` / `vehemently, violently, excessively, impetuously, strongly and robustly`, the
+  adverb of σφοδρός, *vehement*. 7:18, 7:19.
+- ἔξωθεν with a genitive — `from without`, the chain of GEN 6:14. 7:16.
 
 ---
 
@@ -1058,6 +1076,34 @@ chapter's sixty-seven aorist indicatives, as GEN 4:18 set it once in a run of �
 
 τρέφω is this chapter's σπέρμα: the verb for keeping the animals alive reads, in the lexicon's
 order, *thicken* and *congeal* before *rear*, *keep* and *maintain*.
+
+### Verbs new in GEN 7
+
+| lemma | form | headword | chain | used |
+| --- | --- | --- | --- | --- |
+| εἰσέρχομαι | aor. impv. / aor. 3 sg and 3 pl | `go in` · `went in` | the chain of GEN 6:18, in the form | 7:1–16 |
+| εἰσπορεύομαι | pres. ptcp. n. pl., articular | `the ones going into` | `the ones going into, the ones entering` | 7:16 |
+| ὁράω | aor. 1 sg | `I saw` | `I saw, I perceived, I beheld, I looked at` | 7:1 |
+| εἰσάγω | aor. impv. | `lead in` | the chain of GEN 6:19, in the imperative | 7:2 |
+| ἐπάγω | pres. 1 sg | `I bring on` | the chain of GEN 6:17 | 7:4 |
+| ἐξαλείφω | fut. 1 sg / aor. 3 sg / aor. pass. 3 pl | `I will plaster` · `plastered` · `were plastered` | `I will plaster, I will wash over, I will wipe out and obliterate, I will strike off, I will destroy utterly`, in the form — *to plaster* or *wash over* is sense I, *to wipe out* sense II | 7:4, 7:23 |
+| ῥήγνυμι | aor. pass. 3 pl | `broke` | `broke, burst, broke asunder and were rent, burst forth` — the entry's *Pass.*, *to break, burst* | 7:11 |
+| ἀνοίγω | aor. pass. 3 pl | `were open` | `were open, stood open, were opened, were undone, were laid open and unfolded and disclosed` — the passive's own gloss, *to be open, stand open* | 7:11 |
+| κινέω | pres. mid.-pass. ptcp. | `being put in motion` | `being put in motion, being moved, moving, stirring, moving forward` — the entry's *Pass.* | 7:14, 7:21 |
+| κλείω | aor. 3 sg | `shut` | `shut, closed, barred, shut up and blocked, confined` | 7:16 |
+| πληθύνω | aor. pass. / impf. mid.-pass. 3 sg | `was made full` · `was being made full` | the chain of GEN 6:5, in the form | 7:17, 7:18 |
+| ἐπαίρω | aor. 3 sg | `lifted up and set on` | `lifted up and set on, lifted and raised, exalted and magnified, stirred up and excited, induced and persuaded` | 7:17 |
+| ὑψόω | aor. pass. 3 sg | `was lifted high` | `was lifted high, was raised up, was elevated and exalted` | 7:17, 7:20, 7:24 |
+| ἐπικρατέω | impf. 3 sg | `was ruling over` | `was ruling over, was holding power, was prevailing and conquering, was getting the mastery, was superior` | 7:18, 7:19 |
+| ἐπιφέρω | impf. mid.-pass. 3 sg | `was being brought upon` | the chain of GEN 1:2, word for word, in the same phrase | 7:18 |
+| ἐπικαλύπτω | aor. 3 sg | `covered over` | `covered over, covered up, shrouded, put as a covering over` | 7:19, 7:20 |
+| ἔχω | pres. 3 sg | `has` | `has, holds, possesses, keeps, dwells in and inhabits, holds fast, bears up against and supports` | 7:22 |
+| καταλείπω | aor. pass. 3 sg | `was left behind` | the chain of GEN 2:24, in the passive | 7:23 |
+| ἀποθνήσκω | aor. 3 sg | `died off` | the chain of GEN 5:5 | 7:21, 7:22 |
+
+ἐπεφέρετο ἡ κιβωτὸς ἐπάνω τοῦ ὕδατος at 7:18 repeats 1:2's πνεῦμα θεοῦ ἐπεφέρετο ἐπάνω τοῦ ὕδατος,
+where the Hebrew has *face of* at both; the chain of 1:2 is reused verbatim, and *face of the
+waters* is refused by `validate.py` here as there.
 
 ---
 
@@ -1710,6 +1756,28 @@ it is a child; τρίβολος is a spiked iron for laming horses before it is 
 | ὄρνεον | `of the birds` | `of the birds, of the bird-market` | 6:20 |
 | γένος | `race` | `race, stock and family, offspring and posterity, a clan and house, a tribe and caste, a breed, an age and generation, sex and gender, a class and sort and kind, genus` | 6:20 |
 | βρῶμα | `of the things which are eaten` | `of the things which are eaten, of the foods, of the meats` | 6:21 |
+
+### Nouns and adjectives new in GEN 7
+
+| lemma | headword | chain | used |
+| --- | --- | --- | --- |
+| οἶκος | `the house` | `the house, the abode and dwelling, the room and chamber, the house of a god and temple, the household goods and substance, the household and family` | 7:1 |
+| καθαρός (articular gen. pl.) | `of the clear of dirt` | `of the clear of dirt, of the clean and spotless and unsoiled, of the clear and open and free, of the clear from shame and pollution and pure, of the clear of admixture, of the genuine`; μή before it as plain `not` | 7:2, 7:3, 7:8 |
+| ἡμέρα (anarthrous gen. pl.) | `of days` | `of days, of day-breaks, of times` | 7:4 |
+| ὑετός | `rain` · `the rain` | `rain, a heavy shower` | 7:4, 7:12 |
+| νύξ (pl.) | `night-seasons` | `night-seasons, nights, watches of the night, darknesses of night, nights of death` — the first tagged translation is *the night-season* | 7:4, 7:12, 7:17 |
+| ἐξανάστασις | `the rising up from` | `the rising up from, the resurrection` | 7:4 |
+| ἀνάστημα | `the height` | `the height, the majesty, the protuberance and prominence, the high ground, the erection and building and structure, the eruption` — LSJ | 7:23 |
+| ζωή with ἐν | `in the life` | `within, inside of, and by means of the life, the means of life and substance, existence, a way of life` — the articular chain of GEN 3:17 | 7:11 |
+| πηγή (pl., articular) | `the running waters` | `the running waters, the streams, the founts, the sources, the origins` — the chain of GEN 2:6 | 7:11 |
+| ἄβυσσος (gen.) | `of the great deep` | the chain of GEN 1:2, in the genitive | 7:11 |
+| καταρράκτης (pl.) | `the broken waters` | `the broken waters, the waterfalls, the portcullises, the gulls` — the first noun sense; *down-rushing* is the adjective | 7:11 |
+| θηρίον, κτῆνος, ἑρπετόν, πετεινόν (nom.) | `the wild animals` · `the flocks and herds` · `walking animal` · `winged fowl` | the chains of GEN 6, in the nominative | 7:14 |
+| ὄρος (pl.) | `the mountains` | `the mountains, the hills` | 7:19, 7:20 |
+| ὑψηλός (articular pl.) | `the high` | `the high, the lofty, the high-raised, the highland, the stately` | 7:19, 7:20 |
+| πῆχυς (acc. pl.) | `fore-arms` | the chain of GEN 6:15, in the accusative | 7:20 |
+| πνοή | `a blowing` | the chain of GEN 2:7 | 7:22 |
+| κιβωτός with ἐν | `in the wooden box` | `within, inside of, and by means of the wooden box, the chest, the coffer` | 7:23 |
 
 ---
 

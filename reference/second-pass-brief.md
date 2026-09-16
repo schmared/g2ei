@@ -89,6 +89,16 @@ spelling goes under the one Middle Liddell heads. That rule contradicted every e
 γίνομαι, ἔχθρα, δειλινός, κατέναντι — and MorphGNT's νοσσιά at Luke 13:34. The rule below is
 corrected, and so is Genesis 5's ἐννακόσιοι.
 
+### What it found in Genesis 7
+
+Six disagreements over 521 words, all one word. The second pass filed τεσσαράκοντα under
+SBLGNT's spelling, τεσσεράκοντα, following the rule as Genesis 6 left it: a word the New
+Testament uses takes MorphGNT's spelling. That wording went further than the filings it
+summarised. In every one of them — γίνομαι, ἔχθρα, νοσσιά — MorphGNT only agreed with the
+spelling the text prints, and the spelling the text prints was the rule. It is restated below as
+what the filings do. Nothing else disagreed; the chapter's new small words — καθά, ἐπάνω and
+ἔξωθεν with and without a genitive, ἡ ξηρά — were added beforehand.
+
 ## The brief
 
 Copy everything below the rule into a new agent. Replace `<BOOK NAME>`, `<CHAPTER>`,
@@ -132,15 +142,16 @@ N- noun · V- verb · A- adjective (numerals included) · RA article · RP perso
 
 Small words are tagged as MorphGNT tags them:
 
-- **C-** καί, δέ, γάρ, ὅτι, τε, ἵνα, οὖν, ἡνίκα; ἐάν meaning *if*; ὅτε introducing a clause, including
+- **C-** καί, δέ, γάρ, ὅτι, τε, ἵνα, οὖν, ἡνίκα, καθά; ἐάν meaning *if*; ὅτε introducing a clause, including
   after a noun that is not a time (`ἡ μαρτυρία … ὅτε`, John 1:19); οὐδέ meaning *nor*; μήποτε
   meaning *lest*; ὡς meaning *as, like*, and the ὡς of `ὡς ἄν` (Rom 15:24), with ἄν `X-`
 - **X-** ἄν; ἐάν where it stands for ἄν after a relative (`ὃ ἐὰν θέλητε`, John 15:7); ἰδού;
   μή opening a question that expects *no*
 - **D-** οὐ, μή, νῦν, ἔτι, ἐκεῖ, ἐκεῖθεν, ποῦ; καί meaning *also, even*; οὐδέ meaning *not
-  even*; ὅτε after a noun of time (`ἔρχεται ὥρα ὅτε`, John 4:21); οὗ meaning *where*
+  even*; ὅτε after a noun of time (`ἔρχεται ὥρα ὅτε`, John 4:21); οὗ meaning *where*; ἐπάνω and
+  ἔξωθεν with no genitive after them (1 Cor 15:6)
 - **P-** a word governing a genitive as a preposition does — ἐπάνω, ἀπέναντι, ἀνά, ἐναντίον,
-  ὑποκάτω — and ἕως
+  ὑποκάτω, and ἔξωθεν with a genitive (Mark 7:15) — and ἕως
   governing a genitive, an articular infinitive included
 
 ## Parse (column 3) — exactly 8 characters
@@ -179,6 +190,8 @@ Conventions:
   are masculine (Τίγρις, Εὐφράτης).
 - An indeclinable common noun takes its gender from the article or adjective beside it.
 - An article before an indeclinable name still carries full case, number and gender.
+- An adjective used as a noun stays `A-`: ἡ ξηρά, *the dry land*, is `A- ----NSF- ξηρός`, as
+  MorphGNT codes it.
 - μέσος with a genitive after it — `ἐν μέσῳ τοῦ …`, `ἀνὰ μέσον τοῦ …` — is the neuter
   adjective used as a noun: `A- ----DSN-`, `A- ----ASN-`.
 - A word of address is vocative, case `V`.
@@ -211,11 +224,12 @@ The dictionary form as Middle Liddell (Perseus) files it:
   διανοέομαι.
 - εἰδέναι → οἶδα · εἶπεν → λέγω · ἰδεῖν → ὁράω · φαγ- forms → ἐσθίω · μου → ἐγώ ·
   every article → ὁ.
-- A word the New Testament uses takes MorphGNT's spelling of it, whichever spelling Middle
-  Liddell heads: the uncontracted ὀστέον for ὀστοῦν, but the contracted συκῆ and νοσσιά;
-  ἕνεκεν → ἕνεκα. A word it does not use takes the spelling the text prints, even where Middle
-  Liddell files it under another: δειλινός, ἐννακόσιοι, κατάγαιος. A neuter noun filed as such:
-  πετεινόν.
+- The dictionary form keeps the spelling the text prints — γίνομαι, ἔχθρα, νοσσιά, δειλινός,
+  ἐννακόσιοι, κατάγαιος, τεσσαράκοντα — even where Middle Liddell or MorphGNT spells the word
+  otherwise (γίγνομαι, ἔχθρη, νεοσσιά, ἐνακόσιοι, κατάγειος, τεσσεράκοντα). What goes to the
+  dictionary is the form, not the spelling: a contracted form goes under the form Middle Liddell
+  cites, the uncontracted ὀστέον for ὀστοῦν but the contracted συκῆ; ἕνεκεν → ἕνεκα. A neuter
+  noun filed as such: πετεινόν.
 - Proper names: a personal name the New Testament also uses takes MorphGNT's dictionary form,
   accented though Rahlfs prints it bare — Ἀδάμ, Εὕα, Κάϊν, Ἅβελ, Σήθ, Ἐνώς, Ἑνώχ,
   Μαθουσαλά, Λάμεχ, Μαλελεήλ, Νῶε, Σήμ so far. Where the New Testament spells the name with

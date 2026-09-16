@@ -1,0 +1,548 @@
+# Genesis 7 — morphology, one word per line.
+#
+# This is the project's own grammatical analysis of each form, written alongside the
+# transcription and not copied from any digital edition.
+#
+# Columns: verse, part of speech, parse, form, lemma — in MorphGNT's code scheme, so
+# the Old and New Testament layers read alike. The parse is eight places: person,
+# tense, voice, mood, case, number, gender, degree ("-" where it does not apply).
+#
+# Two codes go beyond MorphGNT, both to record only what the form itself says:
+#   voice  E  middle/passive — a tense in which the two share one form
+#   gender C  masculine/feminine — an adjective whose form does not distinguish them
+#
+# A trailing annotation records a deliberate difference and the reason for it:
+#   "# module …"  from the reference module, checked when LXX_RAHLFS_DIR is set
+#   "# corpus …"  from this project's own analysis of the same form elsewhere
+# A line may carry both. validate.py prints them as notes instead of failures — and
+# fails if the difference a note claims is not there, so they cannot go stale. The
+# analysis here is this project's own: the module is a reference, not an authority,
+# and the corpus is held to itself.
+#
+# Indeclinables take case and number from the syntax, as MorphGNT does, and gender
+# where there is one to take: a personal name, from the person; a numeral agreeing
+# with its noun; a common noun whose article shows it — but not an indeclinable place
+# name, which has none. A personal name the New Testament also uses takes MorphGNT's
+# dictionary form (Νῶε, Σήμ); every other Semitic name (Χαμ, Ιαφεθ), the form Rahlfs
+# prints.
+7:1 C- -------- Καὶ καί
+7:1 V- 3AAI-S-- εἶπεν λέγω  # module lemma ἔπω — λέγω keeps one dictionary form across both testaments
+7:1 N- ----NSM- κύριος κύριος
+7:1 RA ----NSM- ὁ ὁ
+7:1 N- ----NSM- θεὸς θεός
+7:1 P- -------- πρὸς πρός
+7:1 N- ----ASM- Νωε Νῶε
+7:1 V- 2AAD-S-- Εἴσελθε εἰσέρχομαι
+7:1 RP ----NS-- σὺ σύ
+7:1 C- -------- καὶ καί
+7:1 A- ----NSM- πᾶς πᾶς
+7:1 RA ----NSM- ὁ ὁ
+7:1 N- ----NSM- οἶκός οἶκος
+7:1 RP ----GS-- σου σύ  # module lemma σοῦ, the form itself — σύ is the dictionary form
+7:1 P- -------- εἰς εἰς
+7:1 RA ----ASF- τὴν ὁ
+7:1 N- ----ASF- κιβωτόν κιβωτός
+7:1 C- -------- ὅτι ὅτι
+7:1 RP ----AS-- σὲ σύ  # module lemma σέ, the form itself — σύ is the dictionary form
+7:1 V- 1AAI-S-- εἶδον ὁράω  # module third plural — God speaks: I saw you righteous before me
+7:1 A- ----ASM- δίκαιον δίκαιος
+7:1 P- -------- ἐναντίον ἐναντίον
+7:1 RP ----GS-- μου ἐγώ  # module lemma μου, the form itself — ἐγώ is the dictionary form
+7:1 P- -------- ἐν ἐν
+7:1 RA ----DSF- τῇ ὁ
+7:1 N- ----DSF- γενεᾷ γενεά
+7:1 RD ----DSF- ταύτῃ οὗτος
+7:2 P- -------- ἀπὸ ἀπό
+7:2 C- -------- δὲ δέ
+7:2 RA ----GPN- τῶν ὁ
+7:2 N- ----GPN- κτηνῶν κτῆνος
+7:2 RA ----GPN- τῶν ὁ
+7:2 A- ----GPN- καθαρῶν καθαρός
+7:2 V- 2AAD-S-- εἰσάγαγε εἰσάγω
+7:2 P- -------- πρὸς πρός
+7:2 RP ----AS-- σὲ σύ  # module lemma σέ, the form itself — σύ is the dictionary form
+7:2 A- ----APN- ἑπτὰ ἑπτά  # module M, no features — MorphGNT gives ἑπτά case, number and gender like any adjective
+7:2 A- ----APN- ἑπτά ἑπτά  # module M, no features — MorphGNT gives ἑπτά case, number and gender like any adjective
+7:2 A- ----ASN- ἄρσεν ἄρσην
+7:2 C- -------- καὶ καί
+7:2 A- ----ASN- θῆλυ θῆλυς
+7:2 P- -------- ἀπὸ ἀπό
+7:2 C- -------- δὲ δέ
+7:2 RA ----GPN- τῶν ὁ
+7:2 N- ----GPN- κτηνῶν κτῆνος
+7:2 RA ----GPN- τῶν ὁ
+7:2 D- -------- μὴ μή
+7:2 A- ----GPN- καθαρῶν καθαρός
+7:2 A- ----APN- δύο δύο  # module M, no features — MorphGNT gives δύο case, number and gender like any adjective
+7:2 A- ----APN- δύο δύο  # module M, no features — MorphGNT gives δύο case, number and gender like any adjective
+7:2 A- ----ASN- ἄρσεν ἄρσην
+7:2 C- -------- καὶ καί
+7:2 A- ----ASN- θῆλυ θῆλυς
+7:3 C- -------- καὶ καί
+7:3 P- -------- ἀπὸ ἀπό
+7:3 RA ----GPN- τῶν ὁ
+7:3 N- ----GPN- πετεινῶν πετεινόν
+7:3 RA ----GSM- τοῦ ὁ
+7:3 N- ----GSM- οὐρανοῦ οὐρανός
+7:3 RA ----GPN- τῶν ὁ
+7:3 A- ----GPN- καθαρῶν καθαρός
+7:3 A- ----APN- ἑπτὰ ἑπτά  # module M, no features — MorphGNT gives ἑπτά case, number and gender like any adjective
+7:3 A- ----APN- ἑπτά ἑπτά  # module M, no features — MorphGNT gives ἑπτά case, number and gender like any adjective
+7:3 A- ----ASN- ἄρσεν ἄρσην
+7:3 C- -------- καὶ καί
+7:3 A- ----ASN- θῆλυ θῆλυς
+7:3 C- -------- καὶ καί
+7:3 P- -------- ἀπὸ ἀπό
+7:3 RA ----GPN- τῶν ὁ
+7:3 N- ----GPN- πετεινῶν πετεινόν
+7:3 RA ----GPN- τῶν ὁ
+7:3 D- -------- μὴ μή
+7:3 A- ----GPN- καθαρῶν καθαρός
+7:3 A- ----APN- δύο δύο  # module M, no features — MorphGNT gives δύο case, number and gender like any adjective
+7:3 A- ----APN- δύο δύο  # module M, no features — MorphGNT gives δύο case, number and gender like any adjective
+7:3 A- ----ASN- ἄρσεν ἄρσην
+7:3 C- -------- καὶ καί
+7:3 A- ----ASN- θῆλυ θῆλυς
+7:3 V- -AAN---- διαθρέψαι διατρέφω
+7:3 N- ----ASN- σπέρμα σπέρμα
+7:3 P- -------- ἐπὶ ἐπί
+7:3 A- ----ASF- πᾶσαν πᾶς
+7:3 RA ----ASF- τὴν ὁ
+7:3 N- ----ASF- γῆν γῆ
+7:4 D- -------- ἔτι ἔτι
+7:4 C- -------- γὰρ γάρ
+7:4 N- ----GPF- ἡμερῶν ἡμέρα
+7:4 A- ----GPF- ἑπτὰ ἑπτά  # module M, no features — MorphGNT gives ἑπτά case, number and gender like any adjective
+7:4 RP ----NS-- ἐγὼ ἐγώ
+7:4 V- 1PAI-S-- ἐπάγω ἐπάγω
+7:4 N- ----ASM- ὑετὸν ὑετός
+7:4 P- -------- ἐπὶ ἐπί
+7:4 RA ----ASF- τὴν ὁ
+7:4 N- ----ASF- γῆν γῆ
+7:4 A- ----APF- τεσσαράκοντα τεσσαράκοντα  # module M, no features — MorphGNT gives τεσσαράκοντα case, number and gender like any adjective
+7:4 N- ----APF- ἡμέρας ἡμέρα
+7:4 C- -------- καὶ καί
+7:4 A- ----APF- τεσσαράκοντα τεσσαράκοντα  # module M, no features — MorphGNT gives τεσσαράκοντα case, number and gender like any adjective
+7:4 N- ----APF- νύκτας νύξ
+7:4 C- -------- καὶ καί
+7:4 V- 1FAI-S-- ἐξαλείψω ἐξαλείφω  # module aorist subjunctive — future, joined by καί to the present ἐπάγω in a statement
+7:4 A- ----ASF- πᾶσαν πᾶς
+7:4 RA ----ASF- τὴν ὁ
+7:4 N- ----ASF- ἐξανάστασιν ἐξανάστασις
+7:4 RR ----ASF- ἣν ὅς
+7:4 V- 1AAI-S-- ἐποίησα ποιέω
+7:4 P- -------- ἀπὸ ἀπό
+7:4 N- ----GSN- προσώπου πρόσωπον
+7:4 RA ----GSF- τῆς ὁ
+7:4 N- ----GSF- γῆς γῆ
+7:5 C- -------- καὶ καί
+7:5 V- 3AAI-S-- ἐποίησεν ποιέω
+7:5 N- ----NSM- Νωε Νῶε
+7:5 A- ----APN- πάντα πᾶς
+7:5 RR ----APN- ὅσα ὅσος
+7:5 V- 3AMI-S-- ἐνετείλατο ἐντέλλομαι
+7:5 RP ----DSM- αὐτῷ αὐτός
+7:5 N- ----NSM- κύριος κύριος
+7:5 RA ----NSM- ὁ ὁ
+7:5 N- ----NSM- θεός θεός
+7:6 N- ----NSM- Νωε Νῶε
+7:6 C- -------- δὲ δέ
+7:6 V- 3IAI-S-- ἦν εἰμί
+7:6 N- ----GPN- ἐτῶν ἔτος
+7:6 A- ----GPN- ἑξακοσίων ἑξακόσιοι
+7:6 C- -------- καὶ καί
+7:6 RA ----NSM- ὁ ὁ
+7:6 N- ----NSM- κατακλυσμὸς κατακλυσμός
+7:6 V- 3AMI-S-- ἐγένετο γίνομαι
+7:6 N- ----GSN- ὕδατος ὕδωρ
+7:6 P- -------- ἐπὶ ἐπί
+7:6 RA ----GSF- τῆς ὁ
+7:6 N- ----GSF- γῆς γῆ
+7:7 V- 3AAI-S-- εἰσῆλθεν εἰσέρχομαι
+7:7 C- -------- δὲ δέ
+7:7 N- ----NSM- Νωε Νῶε
+7:7 C- -------- καὶ καί
+7:7 RA ----NPM- οἱ ὁ
+7:7 N- ----NPM- υἱοὶ υἱός
+7:7 RP ----GSM- αὐτοῦ αὐτός
+7:7 C- -------- καὶ καί
+7:7 RA ----NSF- ἡ ὁ
+7:7 N- ----NSF- γυνὴ γυνή
+7:7 RP ----GSM- αὐτοῦ αὐτός
+7:7 C- -------- καὶ καί
+7:7 RA ----NPF- αἱ ὁ
+7:7 N- ----NPF- γυναῖκες γυνή
+7:7 RA ----GPM- τῶν ὁ
+7:7 N- ----GPM- υἱῶν υἱός
+7:7 RP ----GSM- αὐτοῦ αὐτός
+7:7 P- -------- μετʼ μετά
+7:7 RP ----GSM- αὐτοῦ αὐτός
+7:7 P- -------- εἰς εἰς
+7:7 RA ----ASF- τὴν ὁ
+7:7 N- ----ASF- κιβωτὸν κιβωτός
+7:7 P- -------- διὰ διά
+7:7 RA ----ASN- τὸ ὁ
+7:7 N- ----ASN- ὕδωρ ὕδωρ
+7:7 RA ----GSM- τοῦ ὁ
+7:7 N- ----GSM- κατακλυσμοῦ κατακλυσμός
+7:8 C- -------- καὶ καί
+7:8 P- -------- ἀπὸ ἀπό
+7:8 RA ----GPN- τῶν ὁ
+7:8 N- ----GPN- πετεινῶν πετεινόν
+7:8 C- -------- καὶ καί
+7:8 P- -------- ἀπὸ ἀπό
+7:8 RA ----GPN- τῶν ὁ
+7:8 N- ----GPN- κτηνῶν κτῆνος
+7:8 RA ----GPN- τῶν ὁ
+7:8 A- ----GPN- καθαρῶν καθαρός
+7:8 C- -------- καὶ καί
+7:8 P- -------- ἀπὸ ἀπό
+7:8 RA ----GPN- τῶν ὁ
+7:8 N- ----GPN- κτηνῶν κτῆνος
+7:8 RA ----GPN- τῶν ὁ
+7:8 D- -------- μὴ μή
+7:8 A- ----GPN- καθαρῶν καθαρός
+7:8 C- -------- καὶ καί
+7:8 P- -------- ἀπὸ ἀπό
+7:8 A- ----GPN- πάντων πᾶς
+7:8 RA ----GPN- τῶν ὁ
+7:8 N- ----GPN- ἑρπετῶν ἑρπετόν
+7:8 RA ----GPN- τῶν ὁ
+7:8 P- -------- ἐπὶ ἐπί
+7:8 RA ----GSF- τῆς ὁ
+7:8 N- ----GSF- γῆς γῆ
+7:9 A- ----NPN- δύο δύο  # module M, no features — MorphGNT gives δύο case, number and gender like any adjective
+7:9 A- ----NPN- δύο δύο  # module M, no features — MorphGNT gives δύο case, number and gender like any adjective
+7:9 V- 3AAI-P-- εἰσῆλθον εἰσέρχομαι
+7:9 P- -------- πρὸς πρός
+7:9 N- ----ASM- Νωε Νῶε
+7:9 P- -------- εἰς εἰς
+7:9 RA ----ASF- τὴν ὁ
+7:9 N- ----ASF- κιβωτόν κιβωτός
+7:9 A- ----NSN- ἄρσεν ἄρσην  # module ASN — in apposition to δύο δύο, the nominative subject
+7:9 C- -------- καὶ καί
+7:9 A- ----NSN- θῆλυ θῆλυς  # module ASN — in apposition to δύο δύο, the nominative subject
+7:9 C- -------- καθὰ καθά
+7:9 V- 3AMI-S-- ἐνετείλατο ἐντέλλομαι
+7:9 RP ----DSM- αὐτῷ αὐτός
+7:9 RA ----NSM- ὁ ὁ
+7:9 N- ----NSM- θεός θεός
+7:10 C- -------- καὶ καί
+7:10 V- 3AMI-S-- ἐγένετο γίνομαι
+7:10 P- -------- μετὰ μετά
+7:10 RA ----APF- τὰς ὁ
+7:10 A- ----APF- ἑπτὰ ἑπτά  # module M, no features — MorphGNT gives ἑπτά case, number and gender like any adjective
+7:10 N- ----APF- ἡμέρας ἡμέρα
+7:10 C- -------- καὶ καί
+7:10 RA ----NSN- τὸ ὁ
+7:10 N- ----NSN- ὕδωρ ὕδωρ
+7:10 RA ----GSM- τοῦ ὁ
+7:10 N- ----GSM- κατακλυσμοῦ κατακλυσμός
+7:10 V- 3AMI-S-- ἐγένετο γίνομαι
+7:10 P- -------- ἐπὶ ἐπί
+7:10 RA ----GSF- τῆς ὁ
+7:10 N- ----GSF- γῆς γῆ
+7:11 P- -------- ἐν ἐν
+7:11 RA ----DSN- τῷ ὁ
+7:11 A- ----DSN- ἑξακοσιοστῷ ἑξακοσιοστός
+7:11 N- ----DSN- ἔτει ἔτος
+7:11 P- -------- ἐν ἐν
+7:11 RA ----DSF- τῇ ὁ
+7:11 N- ----DSF- ζωῇ ζωή
+7:11 RA ----GSM- τοῦ ὁ
+7:11 N- ----GSM- Νωε Νῶε
+7:11 RA ----GSM- τοῦ ὁ
+7:11 A- ----GSM- δευτέρου δεύτερος
+7:11 N- ----GSM- μηνός μήν
+7:11 A- ----DSF- ἑβδόμῃ ἕβδομος
+7:11 C- -------- καὶ καί
+7:11 N- ----DSF- εἰκάδι εἰκάς
+7:11 RA ----GSM- τοῦ ὁ
+7:11 N- ----GSM- μηνός μήν
+7:11 RA ----DSF- τῇ ὁ
+7:11 N- ----DSF- ἡμέρᾳ ἡμέρα
+7:11 RD ----DSF- ταύτῃ οὗτος
+7:11 V- 3API-P-- ἐρράγησαν ῥήγνυμι  # module active — ἐρράγην is the second aorist passive, as Middle Liddell gives it
+7:11 A- ----NPF- πᾶσαι πᾶς
+7:11 RA ----NPF- αἱ ὁ
+7:11 N- ----NPF- πηγαὶ πηγή
+7:11 RA ----GSF- τῆς ὁ
+7:11 N- ----GSF- ἀβύσσου ἄβυσσος
+7:11 C- -------- καὶ καί
+7:11 RA ----NPM- οἱ ὁ
+7:11 N- ----NPM- καταρράκται καταρράκτης
+7:11 RA ----GSM- τοῦ ὁ
+7:11 N- ----GSM- οὐρανοῦ οὐρανός
+7:11 V- 3API-P-- ἠνεῴχθησαν ἀνοίγω
+7:12 C- -------- καὶ καί
+7:12 V- 3AMI-S-- ἐγένετο γίνομαι
+7:12 RA ----NSM- ὁ ὁ
+7:12 N- ----NSM- ὑετὸς ὑετός
+7:12 P- -------- ἐπὶ ἐπί
+7:12 RA ----GSF- τῆς ὁ
+7:12 N- ----GSF- γῆς γῆ
+7:12 A- ----APF- τεσσαράκοντα τεσσαράκοντα  # module M, no features — MorphGNT gives τεσσαράκοντα case, number and gender like any adjective
+7:12 N- ----APF- ἡμέρας ἡμέρα
+7:12 C- -------- καὶ καί
+7:12 A- ----APF- τεσσαράκοντα τεσσαράκοντα  # module M, no features — MorphGNT gives τεσσαράκοντα case, number and gender like any adjective
+7:12 N- ----APF- νύκτας νύξ
+7:13 P- -------- ἐν ἐν
+7:13 RA ----DSF- τῇ ὁ
+7:13 N- ----DSF- ἡμέρᾳ ἡμέρα
+7:13 RD ----DSF- ταύτῃ οὗτος
+7:13 V- 3AAI-S-- εἰσῆλθεν εἰσέρχομαι
+7:13 N- ----NSM- Νωε Νῶε
+7:13 N- ----NSM- Σημ Σήμ
+7:13 N- ----NSM- Χαμ Χαμ
+7:13 N- ----NSM- Ιαφεθ Ιαφεθ
+7:13 N- ----NPM- υἱοὶ υἱός
+7:13 N- ----GSM- Νωε Νῶε
+7:13 C- -------- καὶ καί
+7:13 RA ----NSF- ἡ ὁ
+7:13 N- ----NSF- γυνὴ γυνή
+7:13 N- ----GSM- Νωε Νῶε
+7:13 C- -------- καὶ καί
+7:13 RA ----NPF- αἱ ὁ
+7:13 A- ----NPC- τρεῖς τρεῖς
+7:13 N- ----NPF- γυναῖκες γυνή
+7:13 RA ----GPM- τῶν ὁ
+7:13 N- ----GPM- υἱῶν υἱός
+7:13 RP ----GSM- αὐτοῦ αὐτός
+7:13 P- -------- μετʼ μετά
+7:13 RP ----GSM- αὐτοῦ αὐτός
+7:13 P- -------- εἰς εἰς
+7:13 RA ----ASF- τὴν ὁ
+7:13 N- ----ASF- κιβωτόν κιβωτός
+7:14 C- -------- καὶ καί
+7:14 A- ----NPN- πάντα πᾶς
+7:14 RA ----NPN- τὰ ὁ
+7:14 N- ----NPN- θηρία θηρίον
+7:14 P- -------- κατὰ κατά
+7:14 N- ----ASN- γένος γένος
+7:14 C- -------- καὶ καί
+7:14 A- ----NPN- πάντα πᾶς
+7:14 RA ----NPN- τὰ ὁ
+7:14 N- ----NPN- κτήνη κτῆνος
+7:14 P- -------- κατὰ κατά
+7:14 N- ----ASN- γένος γένος
+7:14 C- -------- καὶ καί
+7:14 A- ----NSN- πᾶν πᾶς
+7:14 N- ----NSN- ἑρπετὸν ἑρπετόν
+7:14 V- -PEPNSN- κινούμενον κινέω
+7:14 P- -------- ἐπὶ ἐπί
+7:14 RA ----GSF- τῆς ὁ
+7:14 N- ----GSF- γῆς γῆ
+7:14 P- -------- κατὰ κατά
+7:14 N- ----ASN- γένος γένος
+7:14 C- -------- καὶ καί
+7:14 A- ----NSN- πᾶν πᾶς
+7:14 N- ----NSN- πετεινὸν πετεινόν
+7:14 P- -------- κατὰ κατά
+7:14 N- ----ASN- γένος γένος
+7:15 V- 3AAI-P-- εἰσῆλθον εἰσέρχομαι
+7:15 P- -------- πρὸς πρός
+7:15 N- ----ASM- Νωε Νῶε
+7:15 P- -------- εἰς εἰς
+7:15 RA ----ASF- τὴν ὁ
+7:15 N- ----ASF- κιβωτόν κιβωτός
+7:15 A- ----NPN- δύο δύο  # module M, no features — MorphGNT gives δύο case, number and gender like any adjective
+7:15 A- ----NPN- δύο δύο  # module M, no features — MorphGNT gives δύο case, number and gender like any adjective
+7:15 P- -------- ἀπὸ ἀπό
+7:15 A- ----GSF- πάσης πᾶς
+7:15 N- ----GSF- σαρκός σάρξ
+7:15 P- -------- ἐν ἐν
+7:15 RR ----DSN- ᾧ ὅς
+7:15 V- 3PAI-S-- ἐστιν εἰμί
+7:15 N- ----NSN- πνεῦμα πνεῦμα
+7:15 N- ----GSF- ζωῆς ζωή
+7:16 C- -------- καὶ καί
+7:16 RA ----NPN- τὰ ὁ
+7:16 V- -PEPNPN- εἰσπορευόμενα εἰσπορεύομαι
+7:16 A- ----NSN- ἄρσεν ἄρσην  # module ASN — in apposition to τὰ εἰσπορευόμενα, the nominative subject
+7:16 C- -------- καὶ καί
+7:16 A- ----NSN- θῆλυ θῆλυς  # module ASN — in apposition to τὰ εἰσπορευόμενα, the nominative subject
+7:16 P- -------- ἀπὸ ἀπό
+7:16 A- ----GSF- πάσης πᾶς
+7:16 N- ----GSF- σαρκὸς σάρξ
+7:16 V- 3AAI-S-- εἰσῆλθεν εἰσέρχομαι
+7:16 C- -------- καθὰ καθά
+7:16 V- 3AMI-S-- ἐνετείλατο ἐντέλλομαι
+7:16 RA ----NSM- ὁ ὁ
+7:16 N- ----NSM- θεὸς θεός
+7:16 RA ----DSM- τῷ ὁ
+7:16 N- ----DSM- Νωε Νῶε
+7:16 C- -------- καὶ καί
+7:16 V- 3AAI-S-- ἔκλεισεν κλείω
+7:16 N- ----NSM- κύριος κύριος
+7:16 RA ----NSM- ὁ ὁ
+7:16 N- ----NSM- θεὸς θεός
+7:16 P- -------- ἔξωθεν ἔξωθεν
+7:16 RP ----GSM- αὐτοῦ αὐτός
+7:16 RA ----ASF- τὴν ὁ
+7:16 N- ----ASF- κιβωτόν κιβωτός
+7:17 C- -------- Καὶ καί
+7:17 V- 3AMI-S-- ἐγένετο γίνομαι
+7:17 RA ----NSM- ὁ ὁ
+7:17 N- ----NSM- κατακλυσμὸς κατακλυσμός
+7:17 A- ----APF- τεσσαράκοντα τεσσαράκοντα  # module M, no features — MorphGNT gives τεσσαράκοντα case, number and gender like any adjective
+7:17 N- ----APF- ἡμέρας ἡμέρα
+7:17 C- -------- καὶ καί
+7:17 A- ----APF- τεσσαράκοντα τεσσαράκοντα  # module M, no features — MorphGNT gives τεσσαράκοντα case, number and gender like any adjective
+7:17 N- ----APF- νύκτας νύξ
+7:17 P- -------- ἐπὶ ἐπί
+7:17 RA ----GSF- τῆς ὁ
+7:17 N- ----GSF- γῆς γῆ
+7:17 C- -------- καὶ καί
+7:17 V- 3API-S-- ἐπληθύνθη πληθύνω
+7:17 RA ----NSN- τὸ ὁ
+7:17 N- ----NSN- ὕδωρ ὕδωρ
+7:17 C- -------- καὶ καί
+7:17 V- 3AAI-S-- ἐπῆρεν ἐπαίρω
+7:17 RA ----ASF- τὴν ὁ
+7:17 N- ----ASF- κιβωτόν κιβωτός
+7:17 C- -------- καὶ καί
+7:17 V- 3API-S-- ὑψώθη ὑψόω
+7:17 P- -------- ἀπὸ ἀπό
+7:17 RA ----GSF- τῆς ὁ
+7:17 N- ----GSF- γῆς γῆ
+7:18 C- -------- καὶ καί
+7:18 V- 3IAI-S-- ἐπεκράτει ἐπικρατέω
+7:18 RA ----NSN- τὸ ὁ
+7:18 N- ----NSN- ὕδωρ ὕδωρ
+7:18 C- -------- καὶ καί
+7:18 V- 3IEI-S-- ἐπληθύνετο πληθύνω
+7:18 D- -------- σφόδρα σφόδρα
+7:18 P- -------- ἐπὶ ἐπί
+7:18 RA ----GSF- τῆς ὁ
+7:18 N- ----GSF- γῆς γῆ
+7:18 C- -------- καὶ καί
+7:18 V- 3IEI-S-- ἐπεφέρετο ἐπιφέρω
+7:18 RA ----NSF- ἡ ὁ
+7:18 N- ----NSF- κιβωτὸς κιβωτός
+7:18 P- -------- ἐπάνω ἐπάνω
+7:18 RA ----GSN- τοῦ ὁ
+7:18 N- ----GSN- ὕδατος ὕδωρ
+7:19 RA ----NSN- τὸ ὁ
+7:19 C- -------- δὲ δέ
+7:19 N- ----NSN- ὕδωρ ὕδωρ
+7:19 V- 3IAI-S-- ἐπεκράτει ἐπικρατέω
+7:19 D- -------- σφόδρα σφόδρα
+7:19 D- -------- σφοδρῶς σφοδρῶς
+7:19 P- -------- ἐπὶ ἐπί
+7:19 RA ----GSF- τῆς ὁ
+7:19 N- ----GSF- γῆς γῆ
+7:19 C- -------- καὶ καί
+7:19 V- 3AAI-S-- ἐπεκάλυψεν ἐπικαλύπτω
+7:19 A- ----APN- πάντα πᾶς
+7:19 RA ----APN- τὰ ὁ
+7:19 N- ----APN- ὄρη ὄρος
+7:19 RA ----APN- τὰ ὁ
+7:19 A- ----APN- ὑψηλά ὑψηλός
+7:19 RR ----NPN- ἃ ὅς  # module APN — subject of ἦν
+7:19 V- 3IAI-S-- ἦν εἰμί
+7:19 P- -------- ὑποκάτω ὑποκάτω
+7:19 RA ----GSM- τοῦ ὁ
+7:19 N- ----GSM- οὐρανοῦ οὐρανός
+7:20 A- ----APM- δέκα δέκα  # module M, no features — MorphGNT gives δέκα case, number and gender like any adjective
+7:20 A- ----APM- πέντε πέντε  # module M, no features — MorphGNT gives πέντε case, number and gender like any adjective
+7:20 N- ----APM- πήχεις πῆχυς
+7:20 D- -------- ἐπάνω ἐπάνω
+7:20 V- 3API-S-- ὑψώθη ὑψόω
+7:20 RA ----NSN- τὸ ὁ
+7:20 N- ----NSN- ὕδωρ ὕδωρ
+7:20 C- -------- καὶ καί
+7:20 V- 3AAI-S-- ἐπεκάλυψεν ἐπικαλύπτω
+7:20 A- ----APN- πάντα πᾶς
+7:20 RA ----APN- τὰ ὁ
+7:20 N- ----APN- ὄρη ὄρος
+7:20 RA ----APN- τὰ ὁ
+7:20 A- ----APN- ὑψηλά ὑψηλός
+7:21 C- -------- καὶ καί
+7:21 V- 3AAI-S-- ἀπέθανεν ἀποθνήσκω
+7:21 A- ----NSF- πᾶσα πᾶς
+7:21 N- ----NSF- σὰρξ σάρξ
+7:21 V- -PEPNSF- κινουμένη κινέω
+7:21 P- -------- ἐπὶ ἐπί
+7:21 RA ----GSF- τῆς ὁ
+7:21 N- ----GSF- γῆς γῆ
+7:21 RA ----GPN- τῶν ὁ
+7:21 N- ----GPN- πετεινῶν πετεινόν
+7:21 C- -------- καὶ καί
+7:21 RA ----GPN- τῶν ὁ
+7:21 N- ----GPN- κτηνῶν κτῆνος
+7:21 C- -------- καὶ καί
+7:21 RA ----GPN- τῶν ὁ
+7:21 N- ----GPN- θηρίων θηρίον
+7:21 C- -------- καὶ καί
+7:21 A- ----NSN- πᾶν πᾶς
+7:21 N- ----NSN- ἑρπετὸν ἑρπετόν
+7:21 V- -PEPNSN- κινούμενον κινέω  # module accusative masculine — agrees with πᾶν ἑρπετόν, neuter and the subject
+7:21 P- -------- ἐπὶ ἐπί
+7:21 RA ----GSF- τῆς ὁ
+7:21 N- ----GSF- γῆς γῆ
+7:21 C- -------- καὶ καί
+7:21 A- ----NSM- πᾶς πᾶς
+7:21 N- ----NSM- ἄνθρωπος ἄνθρωπος
+7:22 C- -------- καὶ καί
+7:22 A- ----NPN- πάντα πᾶς  # module APN — subject of ἀπέθανεν
+7:22 RR ----NPN- ὅσα ὅσος  # module APN — subject of ἔχει, with πνοήν its object
+7:22 V- 3PAI-S-- ἔχει ἔχω
+7:22 N- ----ASF- πνοὴν πνοή
+7:22 N- ----GSF- ζωῆς ζωή
+7:22 C- -------- καὶ καί
+7:22 A- ----NSM- πᾶς πᾶς
+7:22 RR ----NSM- ὃς ὅς
+7:22 V- 3IAI-S-- ἦν εἰμί
+7:22 P- -------- ἐπὶ ἐπί
+7:22 RA ----GSF- τῆς ὁ
+7:22 A- ----GSF- ξηρᾶς ξηρός
+7:22 V- 3AAI-S-- ἀπέθανεν ἀποθνήσκω
+7:23 C- -------- καὶ καί
+7:23 V- 3AAI-S-- ἐξήλειψεν ἐξαλείφω
+7:23 A- ----ASN- πᾶν πᾶς  # module NSN — object of ἐξήλειψεν, whose subject is God, as the Hebrew wayyimaḥ's is
+7:23 RA ----ASN- τὸ ὁ  # module NSN — object of ἐξήλειψεν, whose subject is God, as the Hebrew wayyimaḥ's is
+7:23 N- ----ASN- ἀνάστημα ἀνάστημα  # module NSN — object of ἐξήλειψεν, whose subject is God, as the Hebrew wayyimaḥ's is
+7:23 RR ----NSN- ὃ ὅς
+7:23 V- 3IAI-S-- ἦν εἰμί
+7:23 P- -------- ἐπὶ ἐπί
+7:23 N- ----GSN- προσώπου πρόσωπον
+7:23 A- ----GSF- πάσης πᾶς
+7:23 RA ----GSF- τῆς ὁ
+7:23 N- ----GSF- γῆς γῆ
+7:23 P- -------- ἀπὸ ἀπό
+7:23 N- ----GSM- ἀνθρώπου ἄνθρωπος
+7:23 P- -------- ἕως ἕως
+7:23 N- ----GSN- κτήνους κτῆνος
+7:23 C- -------- καὶ καί
+7:23 N- ----GPN- ἑρπετῶν ἑρπετόν
+7:23 C- -------- καὶ καί
+7:23 RA ----GPN- τῶν ὁ
+7:23 N- ----GPN- πετεινῶν πετεινόν
+7:23 RA ----GSM- τοῦ ὁ
+7:23 N- ----GSM- οὐρανοῦ οὐρανός
+7:23 C- -------- καὶ καί
+7:23 V- 3API-P-- ἐξηλείφθησαν ἐξαλείφω
+7:23 P- -------- ἀπὸ ἀπό
+7:23 RA ----GSF- τῆς ὁ
+7:23 N- ----GSF- γῆς γῆ
+7:23 C- -------- καὶ καί
+7:23 V- 3API-S-- κατελείφθη καταλείπω
+7:23 A- ----NSM- μόνος μόνος
+7:23 N- ----NSM- Νωε Νῶε
+7:23 C- -------- καὶ καί
+7:23 RA ----NPM- οἱ ὁ
+7:23 P- -------- μετʼ μετά
+7:23 RP ----GSM- αὐτοῦ αὐτός
+7:23 P- -------- ἐν ἐν
+7:23 RA ----DSF- τῇ ὁ
+7:23 N- ----DSF- κιβωτῷ κιβωτός
+7:24 C- -------- καὶ καί
+7:24 V- 3API-S-- ὑψώθη ὑψόω
+7:24 RA ----NSN- τὸ ὁ
+7:24 N- ----NSN- ὕδωρ ὕδωρ
+7:24 P- -------- ἐπὶ ἐπί
+7:24 RA ----GSF- τῆς ὁ
+7:24 N- ----GSF- γῆς γῆ
+7:24 N- ----APF- ἡμέρας ἡμέρα
+7:24 A- ----APF- ἑκατὸν ἑκατόν  # module M, no features — MorphGNT gives ἑκατόν case, number and gender like any adjective
+7:24 A- ----APF- πεντήκοντα πεντήκοντα  # module M, no features — MorphGNT gives πεντήκοντα case, number and gender like any adjective
