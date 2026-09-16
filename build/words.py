@@ -93,6 +93,10 @@ LSJ = {
     # eng22 under its neuter, τρία, whose entry opens "three".
     "ὀκτώ": ["eight"],
     "τρεῖς": ["three"],
+    # No Middle Liddell entry. LSJ (eng1) gives one sense and cites GEN 6:14.
+    "ἀσφαλτόω": ["smear with pitch"],
+    # No Middle Liddell entry. LSJ (eng4) gives one sense and cites GEN 6:16.
+    "διώροφος": ["with two roofs or stories"],
 }
 
 # New Testament books: MorphGNT file and its book number.
@@ -245,6 +249,18 @@ NOT_SENSES = {
                     "for oneself"},             # pieces of worked examples
     "katara/omai": {"they pray"},               # "they pray that he may perish" — one construction
     "pentako/sioi": {"the senate of"},          # from "the senate of five hundred"
+    # GEN 6
+    "xa/ris": {"Grace", "well", "ill favoured), grace, loveliness"},  # Perseus's heading, and pieces of "well or ill favoured"
+    "o(/sos": {"quantus"},                      # Latin
+    # ἐκλέγω's opening glosses, "to pick or single out", and its sense II, "to levy taxes",
+    # are the active; GEN 6:2 ἐξελέξαντο is middle, "to pick out for oneself, choose out".
+    "e)kle/gw": {"to pick", "single out", "to levy taxes", "tribute", "to levy", "on"},
+    "ei)sporeu/w": {"to lead into"},            # the active; GEN 6:4 is the middle, "to go into, enter"
+    "qumo/w": {"to make angry", "passion", "irasci in cornua"},  # the active, τὸ θυμούμενον, and Latin
+    "e)nqume/omai": {"was not conscious"},      # a worked example
+    "o)nomasto/s": {"not to be named", "mentioned", "abominable"},  # οὐκ ὀνομαστός, one construction
+    "fqei/rw": {"may ye perish! ruin seize ye!", "plague take thee! away with thee!", "thou depart",
+                "off from", "to run headlong"},  # curses and idioms of the passive
 }
 # The key the lexicon files a word under, where that is not the key the lemma itself
 # gives: a different spelling (Attic γίγνομαι for Koine γίνομαι), the active a deponent
@@ -265,6 +281,14 @@ SPELLING = {
     "e)/xqra": "e)/xqrh",           # the entry is headed with the Ionic spelling
     "deilino/s": "deielino/s",      # cross-reference; "contr. for δειελινός" glosses nothing
     "o)rqw=s": "o)rqo/s",           # the adverb, filed inside the adjective's entry
+    "e)nnako/sioi": "e)nako/sioi",  # the later spelling; the entry is headed with the earlier
+    "e)kle/gomai": "e)kle/gw",      # MorphGNT's middle, filed under the active
+    "ei)sporeu/omai": "ei)sporeu/w",  # likewise
+    "qumo/omai": "qumo/w",          # likewise
+    "e)pimelw=s": "e)pimelh/s",     # the adverb, filed inside the adjective's entry
+    "e)nanti/on": "e)nanti/os",     # cross-reference; "adverb v. ἐναντίος" glosses nothing
+    "nossia/": "neossia/",          # the contracted spelling; the entry is headed with νεοσσιά
+    "kata/gaios": "kata/geios",     # cross-reference; "ionic for κατάγειος" glosses nothing
 }
 
 # Homographs where Perseus's *first* entry is a different word from the one the text

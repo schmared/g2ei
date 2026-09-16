@@ -73,9 +73,21 @@ the New Testament shares, drew no disagreement at all.
 Nothing: the two passes agreed on all 482 words. The chapter is a genealogy, its frame repeated
 nine times, and the conventions it needed were added beforehand — MorphGNT's spellings of
 Μαλελεήλ, Νῶε and Σήμ, the rule for a name the New Testament spells with other letters, gender
-`C` for τρεῖς, numerals printed as several words, ἐνακόσιοι. The reference module disagreed with
+`C` for τρεῖς, numerals printed as several words, and a rule filing ἐννακόσιοι under Middle
+Liddell's ἐνακόσιοι, which Genesis 6 showed to be wrong. The reference module disagreed with
 both in eighty places, all annotated: it gives the indeclinable numerals no case, reads the years
 after ἐγένοντο αἱ ἡμέραι as accusative everywhere but 5:31, and codes τρία at 5:31 masculine.
+
+### What it found in Genesis 6
+
+Three disagreements over 505 words, with MorphGNT's tags for the chapter's new small words —
+ἡνίκα, οὖν, ὡς ἄν, the indefinite τις, ἐναντίον, ὑποκάτω, ὅσος — and its middle lemmas for the
+deponents added beforehand. The second pass was right once: ἐκείνοις at 6:21 are the animals
+of 6:19–20, neuter. It was wrong twice, and both trace to this brief. It filed νοσσιάς under
+νεοσσιά and κατάγαια under κατάγειος, following the rule added for Genesis 5 that a later
+spelling goes under the one Middle Liddell heads. That rule contradicted every earlier filing —
+γίνομαι, ἔχθρα, δειλινός, κατέναντι — and MorphGNT's νοσσιά at Luke 13:34. The rule below is
+corrected, and so is Genesis 5's ἐννακόσιοι.
 
 ## The brief
 
@@ -115,19 +127,20 @@ finishing.
 ## Part of speech (column 2)
 
 N- noun · V- verb · A- adjective (numerals included) · RA article · RP personal pronoun
-(αὐτός and the reflexive ἑαυτοῦ included) · RD demonstrative · RR relative pronoun · RI
-interrogative · P- preposition · C- conjunction · D- adverb · X- particle · I- interjection
+(αὐτός and the reflexives ἑαυτοῦ, σεαυτοῦ included) · RD demonstrative · RR relative pronoun
+(ὅσος included) · RI interrogative (the indefinite τις included) · P- preposition · C- conjunction · D- adverb · X- particle · I- interjection
 
 Small words are tagged as MorphGNT tags them:
 
-- **C-** καί, δέ, γάρ, ὅτι, τε, ἵνα; ἐάν meaning *if*; ὅτε introducing a clause, including
+- **C-** καί, δέ, γάρ, ὅτι, τε, ἵνα, οὖν, ἡνίκα; ἐάν meaning *if*; ὅτε introducing a clause, including
   after a noun that is not a time (`ἡ μαρτυρία … ὅτε`, John 1:19); οὐδέ meaning *nor*; μήποτε
-  meaning *lest*; ὡς meaning *as, like*
+  meaning *lest*; ὡς meaning *as, like*, and the ὡς of `ὡς ἄν` (Rom 15:24), with ἄν `X-`
 - **X-** ἄν; ἐάν where it stands for ἄν after a relative (`ὃ ἐὰν θέλητε`, John 15:7); ἰδού;
   μή opening a question that expects *no*
 - **D-** οὐ, μή, νῦν, ἔτι, ἐκεῖ, ἐκεῖθεν, ποῦ; καί meaning *also, even*; οὐδέ meaning *not
   even*; ὅτε after a noun of time (`ἔρχεται ὥρα ὅτε`, John 4:21); οὗ meaning *where*
-- **P-** a word governing a genitive as a preposition does — ἐπάνω, ἀπέναντι, ἀνά — and ἕως
+- **P-** a word governing a genitive as a preposition does — ἐπάνω, ἀπέναντι, ἀνά, ἐναντίον,
+  ὑποκάτω — and ἕως
   governing a genitive, an articular infinitive included
 
 ## Parse (column 3) — exactly 8 characters
@@ -155,7 +168,8 @@ Conventions:
 
 - **Voice E** only in the tenses where middle and passive share one form — present,
   imperfect, perfect, pluperfect — deponents included. Aorist and future distinguish the two,
-  so use M or P there.
+  so use M or P there, by the form: a deponent's aorist in -θη- is `P` (ἐνεθυμήθη `3API-S--`,
+  as MorphGNT codes ἐνθυμηθέντος).
 - **Gender C** for an adjective whose form does not distinguish masculine from feminine:
   two-termination adjectives (ἀόρατος, πράσινος) and numerals like τέσσαρας and τρεῖς.
 - **Indeclinables** take case and number from the syntax, as MorphGNT does, and gender where
@@ -178,7 +192,10 @@ Conventions:
   words (ἑκατὸν καὶ ἑξήκοντα πέντε, δέκα πέντε) is several words: each numeral agrees with the
   noun.
 - Comparatives in -ων (μείζων) have one form for masculine and feminine: gender `C`, degree `C`.
-- οἶδα's past forms (ᾔδει) are pluperfect, `Y`, as MorphGNT codes them.
+- οἶδα's past forms (ᾔδει) are pluperfect, `Y`, as MorphGNT codes them. ἥκω is present, `P`,
+  though it means *have come*.
+- A repeated distributive numeral (`δύο δύο`, Mark 6:7) is two words, each agreeing with its
+  noun.
 - Where the form is ambiguous, case, number and gender come from the syntax: neuters in the
   nominative and accusative, verbless clauses, agreement with a noun, a hanging nominative.
 
@@ -189,13 +206,16 @@ The dictionary form as Middle Liddell (Perseus) files it:
 - Koine spellings: γίνομαι, γινώσκω. No iota subscript where Perseus has none: ἀποθνήσκω.
   Enclitics unaccented: τε.
 - Verbs with no active in use under their middle form, as MorphGNT files them: ἐργάζομαι,
-  πορεύομαι, ἐκπορεύομαι, ἐντέλλομαι, φοβέομαι, ἀπέρχομαι, καταράομαι.
+  πορεύομαι, ἐκπορεύομαι, εἰσπορεύομαι, εἰσέρχομαι, ἐντέλλομαι, φοβέομαι, ἀπέρχομαι,
+  καταράομαι, ἐκλέγομαι, ἐνθυμέομαι, θυμόομαι (for ἐθυμώθη, as MorphGNT has it at Matt 2:16),
+  διανοέομαι.
 - εἰδέναι → οἶδα · εἶπεν → λέγω · ἰδεῖν → ὁράω · φαγ- forms → ἐσθίω · μου → ἐγώ ·
   every article → ὁ.
-- A contracted form goes under whichever spelling Middle Liddell heads the entry with — the
-  uncontracted ὀστέον for ὀστοῦν, but the contracted συκῆ for συκῆς, as MorphGNT has it.
-  ἕνεκεν → ἕνεκα. A neuter noun filed as such: πετεινόν. A later spelling goes under the one
-  Middle Liddell heads: ἐννακόσιοι → ἐνακόσιοι.
+- A word the New Testament uses takes MorphGNT's spelling of it, whichever spelling Middle
+  Liddell heads: the uncontracted ὀστέον for ὀστοῦν, but the contracted συκῆ and νοσσιά;
+  ἕνεκεν → ἕνεκα. A word it does not use takes the spelling the text prints, even where Middle
+  Liddell files it under another: δειλινός, ἐννακόσιοι, κατάγαιος. A neuter noun filed as such:
+  πετεινόν.
 - Proper names: a personal name the New Testament also uses takes MorphGNT's dictionary form,
   accented though Rahlfs prints it bare — Ἀδάμ, Εὕα, Κάϊν, Ἅβελ, Σήθ, Ἐνώς, Ἑνώχ,
   Μαθουσαλά, Λάμεχ, Μαλελεήλ, Νῶε, Σήμ so far. Where the New Testament spells the name with

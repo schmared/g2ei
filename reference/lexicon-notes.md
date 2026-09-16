@@ -55,6 +55,13 @@ consulted.
    *anything that walks forward*, which Middle Liddell gives as the word's proper sense before
    *cattle, flocks* and, in Attic, *sheep*. The chain carries the rest, and the notes say
    where the verse's meaning stands in the entry.
+
+   A passive or middle form takes the first gloss the entry gives *that voice*, where it gives
+   one: φθείρω is *to ruin* and its passive *to go to ruin*, so GEN 6:11 ἐφθάρη is *went to
+   ruin*; πίμπλημι's passive is *to be filled*; τρέφω's first sense is *to thicken* or *congeal*
+   a liquid, with the passive *to become firm*, so τρέφεσθαι at 6:20 is *to become firm*, and the
+   active τρέφῃς at 6:19 *you may thicken*. Where the entry gives the voice no gloss of its own,
+   the first sense is put into the form's voice, as ἀφορίζω is at 2:10 and εὑρίσκω at 2:20.
 3. **Form.** Tense, voice, mood, person and number come from the Greek form.
 4. **Article.** English gets *the* where the Greek has the article, and nothing where it
    does not. The *a* in a lexicon's gloss (*a beginning*) is its citation form, not the text's.
@@ -97,6 +104,18 @@ Three reasons, and all of them are the lexicon's filing rather than a decision a
 | ἔχθρα (GEN 3:15) | ἔχθρη | the entry is headed with the Ionic spelling |
 | δειλινός (GEN 3:8) | δειελινός | a cross-reference, *contr. for δειελινός* |
 | ὀρθῶς (GEN 4:7) | ὀρθός | the adverb, filed inside the adjective's entry |
+| ἐννακόσιοι (GEN 5:5) | ἐνακόσιοι | the later spelling; the entry is headed with the earlier |
+| ἐκλέγομαι, εἰσπορεύομαι, θυμόομαι (GEN 6) | ἐκλέγω, εἰσπορεύω, θυμόω | MorphGNT's middles, filed under the active |
+| ἐπιμελῶς (GEN 6:5) | ἐπιμελής | the adverb, filed inside the adjective's entry |
+| ἐναντίον (GEN 6:8) | ἐναντίος | the entry is a bare cross-reference, *adverb v. ἐναντίος* |
+| νοσσιά (GEN 6:14) | νεοσσιά | the contracted spelling; the entry is headed with the full one |
+| κατάγαιος (GEN 6:16) | κατάγειος | a cross-reference, *ionic for κατάγειος* |
+
+The dictionary form itself does not follow the lexicon's filing. A word the New Testament uses
+takes MorphGNT's spelling — γίνομαι, ἔχθρα, νοσσιά — and any other word the spelling the text
+prints — δειλινός, κατέναντι, ἐννακόσιοι, κατάγαιος — and this table finds its entry. GEN 5
+first filed ἐννακόσιοι under ἐνακόσιοι itself; the second pass of GEN 6, following the brief's
+rule that came from that, showed it at odds with every filing before it, and both were corrected.
 
 Where Middle Liddell has no entry a word can be found under, LSJ supplies the senses (`LSJ` in
 `build/words.py`): σύ, φλόγινος (GEN 3); ποιμήν — Middle Liddell has only the Doric ποιμάν,
@@ -114,6 +133,8 @@ under its neuter, τρία.
 The last is the same shape as ἁγιάζω in LSJ (`= ἁγίζω`): an entry that exists, carries no
 translation, and names the entry that does. Following it is not interpretation — the lexicon
 is saying where the word is defined.
+
+GEN 6 adds ἀσφαλτόω and διώροφος from LSJ, each with one sense and each citing the verse.
 
 Where a deponent is filed under its active, the entry's opening gloss is usually the active
 one and the form in the text is not. That is the ἄρχω and βρέχω situation again, and it is
@@ -383,6 +404,14 @@ the same ground as `the sixth` and `the seventh`: one sense each, so no range to
   is `fifteen`, and the note says so.
 - εἰμί of age (ἦν Νωε ἐτῶν πεντακοσίων, 5:32) — the state formula of GEN 1:2 in full.
 - τὸ before an infinitive (μετὰ τὸ γεννῆσαι, 5:4 and after) — not printed, as with τοῦ at 2:5.
+- GEN 6: ἄν and ἐάν after a relative or ὡς — `ever` (6:4, 6:17), as ἄν was at 2:17; the
+  reflexives — `for themselves` (6:2, 6:4), `for yourself`, `yourself` (6:14, 6:19, 6:21);
+  εἰμί — `are` (6:2), `being` (6:9), `is` and `may be` (6:17), `will be` (6:3, 6:19), `it will
+  be` (6:21), and ἦσαν `were, and kept on being,` (6:4), the short formula, since the full one's
+  *as* would stand beside ὡς's headword; δύο δύο — `two two` (6:19, 6:20).
+- One sense each in GEN 6, so plain text: ἀσφαλτόω `you will smear with pitch` (6:14, LSJ);
+  διώροφος `with two roofs or stories` (LSJ) and τριώροφος `of three stories or floors` (6:16);
+  εἴκοσι `twenty`; θυγάτηρ `daughters`; υἱός `sons`.
 
 ### διά + genitive
 
@@ -405,6 +434,29 @@ the same ground as `the sixth` and `the seventh`: one sense each, so no range to
 - οὕτως — **headword** `in this way`; **chain** `in this way, in this manner, so, thus, even so,
   so much`. GEN 4:15.
 - λίαν — **headword** `very`; **chain** `very, exceedingly, very much, overmuch`. GEN 4:5.
+
+### Small words new in GEN 6
+
+- ἡνίκα — **headword** `at which time`; **chain** `at which time, when, since, whenever`. 6:1.
+- διά + accusative — **headword** `through`, the entry's first translation for that case;
+  **chain** `through, throughout and over, during, by aid of and by means of, by reason of,
+  because of, for the sake of`. 6:3, with the articular infinitive.
+- ἐναντίον + genitive — **headword** `in the presence of`, the neuter used as a preposition inside
+  the entry for ἐναντίος; **chain** `in the presence of, before, opposite and face to face,
+  against`. 6:8, 6:11, 6:13.
+- ὑποκάτω — **headword** `below`; **chain** `below, under`. 6:17.
+- ὅσος — **headword** `as great as`, after Perseus's Latin *quantus*, left out; **chain** `as great
+  as, as much as, as far as, as long as, as many as`. 6:17, 6:22.
+- οὖν — **headword** `really`; **chain** `really, at all events, surely, so, then and therefore`.
+  6:14.
+- τις — **headword** `any one`; **chain** `any one, some one, many a one, each one, every man`. 6:5.
+- ἐπιμελῶς — **headword** `carefully`, the adverb of ἐπιμελής, *careful*; **chain** `carefully,
+  anxiously, attentively`. 6:5.
+- ἔσωθεν, ἔξωθεν, ἄνωθεν — `from within` / `from within, within`; `from without` / `from without,
+  outside, without and free from`; `from above` / `from above, from on high, from the upper
+  country, above and on high, from the beginning, by descent, over again and anew`. 6:14, 6:16.
+- ἐκεῖνος — `those`, `that`, `to those` / `those, the ones there, the more remote`, in the form:
+  the chain of GEN 2:12. 6:4, 6:21.
 
 ---
 
@@ -966,6 +1018,46 @@ one Greek form, ἔφαγον, at 3:6 and 3:12.
 Every verb of the genealogy's frame is aorist. The aorist formula stands after the first
 aorist of 5:1 and 5:3 and after εὐηρέστησεν and μετέθηκεν (5:22, 5:24), not after each of the
 chapter's sixty-seven aorist indicatives, as GEN 4:18 set it once in a run of ἐγέννησεν.
+
+### Verbs new in GEN 6
+
+| lemma | form | headword | chain | used |
+| --- | --- | --- | --- | --- |
+| γίνομαι | pres. inf. | `to come into being` | the chain of GEN 2:5 | 6:1 |
+| ἄρχω | aor. mid. 3 pl | `began` | the chain of GEN 2:3 | 6:1 |
+| ὁράω | aor. ptcp. / aor. 3 sg | `having seen` · `saw` | `having seen, having perceived, having beheld, having looked at`; the chain of GEN 3:6 | 6:2, 6:5, 6:12 |
+| λαμβάνω | aor. 3 pl / fut. 2 sg | `they took` · `you will take` | the chain of GEN 2:15, in the form | 6:2, 6:21 |
+| ἐκλέγομαι | aor. 3 pl | `they picked out for themselves` | `they picked out for themselves, they chose out, they pulled out` — the entry's *Mid.*; its actives, *to pick, single out* and *to levy taxes*, left out | 6:2 |
+| καταμένω | aor. subj. 3 sg | `may stay behind` | `may stay behind, may stay, may remain fixed, may continue` | 6:3 |
+| εἰμί | pres. inf. | `to be` | the chain of GEN 2:18 | 6:3 |
+| εἰσπορεύομαι | impf. 3 pl | `were going into` | `were going into, were entering` — the entry's passive gloss; *to lead into*, the active, left out | 6:4 |
+| γεννάω | impf. 3 pl | `were begetting` | `were begetting, were engendering, were bringing forth, were producing` | 6:4 |
+| πληθύνω | aor. pass. 3 pl | `were made full` | `were made full, were increased, were multiplied` | 6:5 |
+| διανοέομαι | pres. / aor. 3 sg | `is minded` · `was minded` | `is minded, intends, purposes, thinks over, thinks of, thinks and supposes, is disposed`, in the form | 6:5, 6:6 |
+| ἐνθυμέομαι | aor. 3 sg | `laid to heart` | `laid to heart, considered well, reflected on, pondered, thought much and deeply of, took to heart, was hurt and angry at, thought out a thing and formed a plan, inferred and concluded` | 6:6 |
+| ἀπαλείφω | fut. 1 sg | `I will wipe off` | `I will wipe off, I will expunge, I will cancel` | 6:7 |
+| ποιέω | aor. 1 sg / impv. / fut. 2 sg | `I made` · `make` · `you will make` | `I fashioned, I wrought, I produced, I performed, I did`, the chain of GEN 3:13 · `make, do, produce, create` · `you will make, you will do, you will produce, you will create` | 6:7, 6:14–16 |
+| θυμόομαι | aor. pass. 1 sg | `I was wroth` | `I was wroth, I was angry, I was wild and restive, I vented fury, I was angry with, I was angry at` — *to make angry*, the active, left out | 6:7 |
+| εὑρίσκω | aor. 3 sg | `found` | `found, found out, discovered` | 6:8 |
+| φθείρω | aor. pass. 3 sg | `went to ruin` | `went to ruin, perished, was ruined, was wasted, was spoiled, was destroyed` — the passive's own gloss first | 6:11 |
+| πίμπλημι | aor. pass. 3 sg | `was filled` | `was filled, became full of, was full of, had enough of` — sense III, *Pass.* | 6:11, 6:13 |
+| καταφθείρω | perf. pass. ptcp. / aor. 3 sg / pres. 1 sg / aor. inf. | `having been destroyed` · `destroyed` · `I destroy` · `to destroy` | `destroyed, spoiled utterly, brought to naught`, in the form; the perfect, `having been destroyed and standing destroyed, having been spoiled utterly and remaining so, having been brought to naught and remaining so` | 6:12, 6:13, 6:17 |
+| ἥκω | pres. 3 sg | `has come` | `has come, is present, is here, has returned, has reached a point` — the entry's own perfect sense | 6:13 |
+| συντελέω | fut. 2 sg | `you will bring quite to an end` | the active chain of GEN 2:2, in the future | 6:16 |
+| ἐπισυνάγω | pres. ptcp. | `collecting and bringing to` | `collecting and bringing to, gathering together` | 6:16 |
+| ἐπάγω | pres. 1 sg | `I bring on` | `I bring on, I bring upon, I set on and urge on, I lead on, I bring in and invite, I bring to, I lay on and apply, I bring forward, I add` | 6:17 |
+| τελευτάω | fut. 3 sg | `will complete` | `will complete, will finish, will accomplish, will fulfil, will bring about, will bring to an end, will make an end of, will end life and die, will come to an end` — the entry's passives left out | 6:17 |
+| ἵστημι | fut. 1 sg | `I will make to stand` | `I will make to stand, I will set, I will stop and stay and check, I will set up and raise, I will establish and institute, I will appoint, I will weigh` — the causal tenses | 6:18 |
+| εἰσέρχομαι | fut. 2 sg / 3 pl | `you will go in` · `will go in` | `you will go in, you will go into and enter, you will come into, you will come in, you will come upon`, in the form | 6:18, 6:20 |
+| εἰσάγω | fut. 2 sg | `you will lead in` | `you will lead in, you will lead into and introduce, you will admit, you will import, you will call in, you will bring in and bring forward` | 6:19 |
+| τρέφω | pres. subj. 2 sg / pres. inf. mid.-pass. | `you may thicken` · `to become firm` | `you may thicken, you may congeal, you may curdle, you may make to grow and increase, you may bring up and breed and rear, you may rear and keep, you may let grow and cherish and foster, you may produce and teem with, you may contain and have, you may maintain and support` · `to become firm, to rear for oneself, to be reared and grow up, to be kept, to be let grow and cherished and fostered, to be maintained and supported` | 6:19, 6:20 |
+| ἕρπω | pres. ptcp. gen. pl., articular | `of the creeping` | `of the creeping, of the crawling, of the moving slowly and walking, of the going and coming, of the stealing on and spreading` | 6:20 |
+| ἐσθίω | fut. 2 pl / aor. inf. | `you will eat` · `to eat` | the chains of GEN 2:16 and 3:11 | 6:21 |
+| συνάγω | fut. 2 sg | `you will bring together` | `you will bring together, you will gather together and collect and convene, you will join, you will unite, you will receive into your house, you will gather in stores, you will draw together, you will conclude and infer` | 6:21 |
+| ἐντέλλομαι | aor. 3 sg | `enjoined` | the chain of GEN 2:16 | 6:22 |
+
+τρέφω is this chapter's σπέρμα: the verb for keeping the animals alive reads, in the lexicon's
+order, *thicken* and *congeal* before *rear*, *keep* and *maintain*.
 
 ---
 
@@ -1570,6 +1662,54 @@ it is a child; τρίβολος is a spiked iron for laming horses before it is 
 
 ἰδέα and εἰκών at 5:3 render one Hebrew pair, *dĕmût* and *ṣelem*, that 1:26 rendered with
 εἰκών and ὁμοίωσις; each Greek word keeps its own chain, so the reader sees the change of word.
+
+### Nouns and adjectives new in GEN 6
+
+| lemma | headword | chain | used |
+| --- | --- | --- | --- |
+| ἄνθρωπος (articular pl.) | `the men` · `of the men` · `in the men` | `the men, the human beings, mankind`, in the form | 6:1–5 |
+| ἄνθρωπος (anarthrous gen.) | `of man` | `of a man, of a human being` | 6:7, 6:13 |
+| πολύς | `many` | `many, often, much and mighty and great, deep, loud, strong, large and wide, far, long` | 6:1 |
+| καλός (pl.) | `beautiful` | the chain of GEN 2:9 | 6:2 |
+| γυνή | `women` · `the woman` · `the women` | the chains of GEN 2:22 and 4:19, in the form | 6:2, 6:18 |
+| πνεῦμα | `the blowing` · `blowing` | the chain of GEN 1:2, with the article at 6:3 | 6:3, 6:17 |
+| σάρξ | `fleshes` · `flesh` · `of flesh` | the chain of GEN 2:21, in the form; the plural `fleshes, the flesh, muscles, bodies, man's nature generally` | 6:3, 6:12, 6:17, 6:19 |
+| αἰών | `the period of existence` · `of period of existence` | the chain of GEN 3:22, in the form | 6:3, 6:4 |
+| γίγας | `the giants` | `the giants, the sons of Gaia, the mighty` — Middle Liddell's *the Giants*, lower case as the Greek is | 6:4 |
+| ἡμέρα with ἐν | `in the days` | `within, inside of, and by means of the days, the day-breaks, the times` | 6:4 |
+| ὀνομαστός | `named` | `named, to be named, of name and note, notable, famous` | 6:4 |
+| κακία (pl.) | `the badnesses` | `the badnesses, the defects, the cowardices and sloths, the moral badnesses and wickednesses and vices, the ill-reputes, the evils` | 6:5 |
+| καρδία with ἐν | `in the heart` | `within, inside of, and by means of the heart, the stomach` | 6:5 |
+| πονηρός (articular n. pl.) | `the toilsome` | the chain of GEN 2:9, with the article | 6:5 |
+| πρόσωπον (anarthrous) | `face` | the chain of GEN 4:14, in the same phrase | 6:7 |
+| κτῆνος | `of flocks and herds` · `of the flocks and herds` | `of flocks and herds, of a single beast, of an ox, of a sheep, of a beast for riding`; the articular plural of GEN 3:14 | 6:7, 6:19, 6:20 |
+| ἑρπετόν | `of walking animals` · `of the walking animals` | `of walking animals, of quadrupeds, of creeping things, of reptiles` — *a walking animal* is the first sense, *a creeping thing* the second | 6:7, 6:19, 6:20 |
+| πετεινόν, οὐρανός | `of the winged fowl` · `of the heaven` | the chains of GEN 2:19–20, in the genitive | 6:7, 6:17, 6:20 |
+| χάρις | `outward grace` | `outward grace, favour, loveliness, graciousness and kindness and goodwill, thankfulness and thanks and gratitude, a favour and kindness and boon, a gratification and delight` — the numbered senses; Perseus's heading, *Grace*, left out | 6:8 |
+| γένεσις (pl.) | `the origins` | the chain of GEN 2:4, in the nominative plural | 6:9 |
+| δίκαιος | `observant of custom and social rule` | `observant of custom and social rule, well-ordered and civilised, observant of right and righteous, even and well-balanced, regular and exact, right and lawful and just, real and genuine and true, fair and moderate` | 6:9 |
+| τέλειος | `having reached its end` | `having reached its end, finished and complete, perfect and without spot or blemish, fullgrown, absolute and accomplished and perfect in his kind, fulfilled` | 6:9 |
+| γενεά with ἐν | `in the race` | `within, inside of, and by means of the race, the stock and family, the breed, the tribe and nation, the generation, the offspring, the birth-place, the age and time of life` | 6:9 |
+| ἀδικία | `of wrong-doing` | `of wrong-doing, of injustice, of a wrong, of an injury` | 6:11, 6:13 |
+| ὁδός | `the way` | the chain of GEN 3:24 | 6:12 |
+| καιρός | `due measure` | `due measure, proportion, fitness, a vital part, the right point of time, the proper time and season, the exact and critical time, the time, advantage and profit and fruit` | 6:13 |
+| κιβωτός | `a wooden box` · `the wooden box` · `of the wooden box` | `a wooden box, a chest, a coffer`, in the form | 6:14–16, 6:18, 6:19 |
+| ξύλον (gen. pl.) | `of woods` | `of woods, of firewood, of timbers, of pieces of wood, of posts, of sticks` | 6:14 |
+| τετράγωνος | `of with four equal angles` | `of with four equal angles, of rectangular, of square, of squared, of perfect` — an adjective in the genitive takes *of*, as at 2:9 | 6:14 |
+| νοσσιά | `nests of young birds` | `nests of young birds, nests` — under νεοσσιά | 6:14 |
+| ἄσφαλτος | `with the asphalt` | `with the asphalt, with the bitumen` | 6:14 |
+| πῆχυς | `of fore-arms` · `fore-arm` | `of fore-arms, of arms, of centrepieces of the bow, of horns and sides of the lyre, of cubits and ells, of cubit-rules`, in the form — the measure is sense IV | 6:15, 6:16 |
+| μῆκος, πλάτος, ὕψος | `the length` · `the breadth` · `the height` | `the length, the distances, the height and tallness and stature` · `the breadth, the width` · `the height, the top and summit and crown` | 6:15 |
+| θύρα | `the door` | `the door, the folding doors, the gate, the court, the trap-door, the frame of planks and raft, the entrance` | 6:16 |
+| πλάγιος (n. pl. as noun) | `of sides` | `of sides, of flanks` — the first noun sense | 6:16 |
+| κατάγαιος | `in the earth` | `in the earth, under the earth, underground, subterranean` — under κατάγειος | 6:16 |
+| κατακλυσμός | `the deluge` | `the deluge, the inundation` | 6:17 |
+| ζωή (anarthrous gen.) | `of a living` | the chain of GEN 2:7 | 6:17 |
+| διαθήκη | `the disposition` | `the disposition of property by will, the will and testament, the arrangement between two parties, the covenant` | 6:18 |
+| θηρίον (gen. pl.) | `of the wild animals` | the chain of GEN 3:1 | 6:19 |
+| ὄρνεον | `of the birds` | `of the birds, of the bird-market` | 6:20 |
+| γένος | `race` | `race, stock and family, offspring and posterity, a clan and house, a tribe and caste, a breed, an age and generation, sex and gender, a class and sort and kind, genus` | 6:20 |
+| βρῶμα | `of the things which are eaten` | `of the things which are eaten, of the foods, of the meats` | 6:21 |
 
 ---
 
