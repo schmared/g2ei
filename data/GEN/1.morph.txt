@@ -10,6 +10,18 @@
 # Two codes go beyond MorphGNT, both to record only what the form itself says:
 #   voice  E  middle/passive — a tense in which the two share one form
 #   gender C  masculine/feminine — an adjective whose form does not distinguish them
+#
+# A trailing annotation records a deliberate difference and the reason for it:
+#   "# module …"  from the reference module, checked when LXX_RAHLFS_DIR is set
+#   "# corpus …"  from this project's own analysis of the same form elsewhere
+# A line may carry both. validate.py prints them as notes instead of failures — and
+# fails if the difference a note claims is not there, so they cannot go stale. The
+# analysis here is this project's own: the module is a reference, not an authority,
+# and the corpus is held to itself.
+#
+# Indeclinables take case and number from the syntax, as MorphGNT does, and gender
+# where there is one to take: a personal name, or a numeral agreeing with its noun —
+# but not an indeclinable place name, which has none.
 1:1 P- -------- Ἐν ἐν
 1:1 N- ----DSF- ἀρχῇ ἀρχή
 1:1 V- 3AAI-S-- ἐποίησεν ποιέω

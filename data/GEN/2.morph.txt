@@ -11,10 +11,17 @@
 #   voice  E  middle/passive — a tense in which the two share one form
 #   gender C  masculine/feminine — an adjective whose form does not distinguish them
 #
-# A trailing "# …" records a deliberate difference from the reference module and the
-# reason for it. validate.py prints those as notes instead of failures — and fails if
-# the difference a note claims is no longer there, so the annotations cannot go stale.
-# The analysis here is this project's own; the module is a reference, not an authority.
+# A trailing annotation records a deliberate difference and the reason for it:
+#   "# module …"  from the reference module, checked when LXX_RAHLFS_DIR is set
+#   "# corpus …"  from this project's own analysis of the same form elsewhere
+# A line may carry both. validate.py prints them as notes instead of failures — and
+# fails if the difference a note claims is not there, so they cannot go stale. The
+# analysis here is this project's own: the module is a reference, not an authority,
+# and the corpus is held to itself.
+#
+# Indeclinables take case and number from the syntax, as MorphGNT does, and gender
+# where there is one to take: a personal name, or a numeral agreeing with its noun —
+# but not an indeclinable place name, which has none.
 2:1 C- -------- Καὶ καί
 2:1 V- 3API-P-- συνετελέσθησαν συντελέω
 2:1 RA ----NSM- ὁ ὁ
@@ -86,7 +93,7 @@
 2:4 N- ----GSM- οὐρανοῦ οὐρανός
 2:4 C- -------- καὶ καί
 2:4 N- ----GSF- γῆς γῆ
-2:4 D- -------- ὅτε ὅτε
+2:4 C- -------- ὅτε ὅτε
 2:4 V- 3AMI-S-- ἐγένετο γίνομαι
 2:4 RR ----DSF- ᾗ ὅς
 2:4 N- ----DSF- ἡμέρᾳ ἡμέρα
@@ -231,7 +238,7 @@
 2:10 D- -------- ἐκεῖθεν ἐκεῖθεν
 2:10 V- 3PEI-S-- ἀφορίζεται ἀφορίζω
 2:10 P- -------- εἰς εἰς
-2:10 A- ----APF- τέσσαρας τέσσαρες
+2:10 A- ----APC- τέσσαρας τέσσαρες
 2:10 N- ----APF- ἀρχάς ἀρχή
 2:11 N- ----NSN- ὄνομα ὄνομα
 2:11 RA ----DSM- τῷ ὁ
@@ -265,7 +272,7 @@
 2:12 RA ----NSM- ὁ ὁ
 2:12 N- ----NSM- λίθος λίθος
 2:12 RA ----NSM- ὁ ὁ
-2:12 A- ----NSM- πράσινος πράσινος
+2:12 A- ----NSC- πράσινος πράσινος
 2:13 C- -------- καὶ καί
 2:13 N- ----NSN- ὄνομα ὄνομα  # module ASN — verbless clause, as at 2:11 where the module has NSN
 2:13 RA ----DSM- τῷ ὁ
@@ -285,7 +292,7 @@
 2:14 N- ----NSM- ποταμὸς ποταμός
 2:14 RA ----NSM- ὁ ὁ
 2:14 A- ----NSM- τρίτος τρίτος
-2:14 N- ----NS-- Τίγρις Τίγρις
+2:14 N- ----NSM- Τίγρις Τίγρις  # module NS, no gender — Τίγρις is a declinable Greek noun, masculine like every river, as Εὐφράτης is in this verse; the no-gender rule is for indeclinable names
 2:14 RD ----NSM- οὗτος οὗτος
 2:14 RA ----NSM- ὁ ὁ
 2:14 V- -PEPNSM- πορευόμενος πορεύομαι
@@ -527,17 +534,17 @@
 2:24 C- -------- καὶ καί
 2:24 V- 3FMI-P-- ἔσονται εἰμί
 2:24 RA ----NPM- οἱ ὁ
-2:24 A- -------- δύο δύο
+2:24 A- ----NPM- δύο δύο  # module M, no features — MorphGNT gives δύο case, number and gender from the syntax (John 1:35 ----NPM-), as this file does every indeclinable
 2:24 P- -------- εἰς εἰς
 2:24 N- ----ASF- σάρκα σάρξ
 2:24 A- ----ASF- μίαν εἷς
 2:25 C- -------- καὶ καί
 2:25 V- 3IAI-P-- ἦσαν εἰμί
 2:25 RA ----NPM- οἱ ὁ
-2:25 A- -------- δύο δύο
+2:25 A- ----NPM- δύο δύο  # module M, no features — MorphGNT gives δύο case, number and gender from the syntax, as at 2:24
 2:25 A- ----NPM- γυμνοί γυμνός
-2:25 RA ----NSM- ὅ ὁ  # module lemma ὅς — the article, accented ὅ because the enclitic τε throws its accent back
-2:25 X- -------- τε τε
+2:25 RA ----NSM- ὅ ὁ  # module lemma ὅς — the article, accented ὅ because the enclitic τε throws its accent back  # corpus the article here, where ὃ at 2:19 is the relative — one spelling, two words
+2:25 C- -------- τε τε
 2:25 N- ----NSM- Αδαμ Ἀδάμ
 2:25 C- -------- καὶ καί
 2:25 RA ----NSF- ἡ ὁ

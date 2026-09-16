@@ -276,28 +276,42 @@ def lexicon_senses(entries, lemma):
 # the sources
 # --------------------------------------------------------------------------
 
-def read_morph(book, chapter):
-    """The project's own analysis of an LXX chapter, as {verse: [(form, lemma, pos, code)]},
-    or None if it has not been written yet."""
-    path = render.DATA / book / ("%d.morph.txt" % chapter)
-    if not path.exists():
-        return None
+# The kinds of trailing annotation a morph line may carry: a deliberate difference from
+# the reference module, or from this project's own analysis of the same form elsewhere.
+ANNOTATIONS = ("module", "corpus")
+
+
+def parse_morph(path):
+    """A morphology file as {verse: [(form, lemma, pos, code, notes)]}.
+
+    `notes` maps each trailing annotation's kind to its text — "# module …" or
+    "# corpus …", and a line may carry both. validate.py reports an annotated difference
+    as a note rather than a failure, and fails if the difference it names is not there.
+    An annotation of any other kind is kept under "?", so that it can be refused.
+    """
     out = {}
     for n, line in enumerate(path.read_text(encoding="utf-8").splitlines(), 1):
         line = line.strip()
         if not line or line.startswith("#"):
             continue
-        # A trailing comment records a deliberate difference from the reference module
-        # and why; validate.py reports those as notes rather than failures, and fails
-        # if the difference it names is no longer there.
-        body, _, reason = line.partition("#")
+        body, *annotations = line.split("#")
         cols = body.split()
         if len(cols) != 5 or ":" not in cols[0]:
             raise SystemExit("%s line %d: expected 'verse pos parse form lemma'" % (path.name, n))
+        notes = {}
+        for text in (a.strip() for a in annotations):
+            kind = text.split(None, 1)[0] if text else ""
+            notes[kind if kind in ANNOTATIONS else "?"] = text
         ref, pos, code, form, lemma = cols
-        out.setdefault(int(ref.split(":")[1]), []).append(
-            (form, lemma, pos, code, reason.strip()))
+        out.setdefault(int(ref.split(":")[1]), []).append((form, lemma, pos, code, notes))
     return out
+
+
+def read_morph(book, chapter):
+    """The project's own analysis of an LXX chapter (see parse_morph), or None if it has
+    not been written yet."""
+    path = render.DATA / book / ("%d.morph.txt" % chapter)
+    return parse_morph(path) if path.exists() else None
 
 
 def lxx_tokens(book, chapter):

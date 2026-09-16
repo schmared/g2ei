@@ -28,6 +28,7 @@ import tempfile
 sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
 import render  # noqa: E402
 import validate as V  # noqa: E402
+import morph_diff as D  # noqa: E402
 
 GEN = json.loads((render.DATA / "GEN/1.json").read_text(encoding="utf-8"))
 JHN = json.loads((render.DATA / "JHN/1.json").read_text(encoding="utf-8"))
@@ -81,8 +82,9 @@ def with_words(edit):
     return go
 
 
-def with_morph(edit):
-    """check_analysis against a copy of data/ whose GEN 1 morphology is edited."""
+def with_morph(edit, check="check_analysis", chapter=1):
+    """A morphology check against a copy of data/ whose GEN 1 morphology is edited, run
+    for `chapter` — a corpus difference is reported on the later of its two lines."""
     def go():
         tmp = pathlib.Path(tempfile.mkdtemp())
         try:
@@ -92,9 +94,29 @@ def with_morph(edit):
                             encoding="utf-8", newline="\n")
             saved, render.DATA = render.DATA, tmp / "data"
             try:
-                return run(V.check_analysis, "GEN", 1)
+                return run(getattr(V, check), "GEN", chapter)
             finally:
                 render.DATA = saved
+        finally:
+            shutil.rmtree(tmp, ignore_errors=True)
+    return go
+
+
+GEN2_MORPH = render.DATA / "GEN/2.morph.txt"
+
+
+def with_second_pass(edit, expect):
+    """morph_diff between GEN 2's morphology and an edited copy standing in for a second
+    pass; `expect` is how many disagreements it must find."""
+    def go():
+        tmp = pathlib.Path(tempfile.mkdtemp())
+        try:
+            second = tmp / "second.txt"
+            second.write_text(edit(GEN2_MORPH.read_text(encoding="utf-8")),
+                              encoding="utf-8", newline="\n")
+            found = D.diff(GEN2_MORPH, second)
+            return holds(len(found) == expect, "expected %d disagreement(s), found %d: %s"
+                         % (expect, len(found), found[:3]))
         finally:
             shutil.rmtree(tmp, ignore_errors=True)
     return go
@@ -144,6 +166,33 @@ NEGATIVE = [
                                          lambda: run(V.check_names, mut(JHN, [2, "names"], [BARE]))),
     ("fields   bare entry still carrying a gloss",
                                          lambda: run(V.check_fields, [dict(JHN[2], names=[dict(JHN[2]["names"][0], bare=True)])])),
+    # the project's own morphology, judged by its code's own grammar
+    ("morph    infinitive with its slots shifted",
+                                         with_morph(lambda t: t.replace("1:1 V- 3AAI-S-- ἐποίησεν", "1:1 V- --AAN--- ἐποίησεν"), "check_morph_shape")),
+    ("morph    participle missing its case",
+                                         with_morph(lambda t: t.replace("1:1 V- 3AAI-S-- ἐποίησεν", "1:1 V- -PAP-ASF ἐποίησεν"), "check_morph_shape")),
+    ("morph    finite verb carrying a case",
+                                         with_morph(lambda t: t.replace("1:1 V- 3AAI-S-- ἐποίησεν", "1:1 V- 3AAIAS-- ἐποίησεν"), "check_morph_shape")),
+    ("morph    noun with no number",     with_morph(lambda t: t.replace("1:1 N- ----DSF- ἀρχῇ", "1:1 N- ----D-F- ἀρχῇ"), "check_morph_shape")),
+    ("morph    preposition with a case", with_morph(lambda t: t.replace("1:1 P- -------- Ἐν", "1:1 P- ----D--- Ἐν"), "check_morph_shape")),
+    ("morph    parse the wrong length",  with_morph(lambda t: t.replace("1:1 V- 3AAI-S-- ἐποίησεν", "1:1 V- 3AAI-S- ἐποίησεν"), "check_morph_shape")),
+    ("morph    article not filed under ὁ",
+                                         with_morph(lambda t: t.replace("1:1 RA ----NSM- ὁ ὁ", "1:1 RA ----NSM- ὁ ὅς"), "check_morph_shape")),
+    ("morph    annotation of no known kind",
+                                         with_morph(lambda t: t.replace("1:1 N- ----DSF- ἀρχῇ ἀρχή", "1:1 N- ----DSF- ἀρχῇ ἀρχή  # someone said so"), "check_morph_shape")),
+    # the project's own morphology, held to itself across chapters
+    ("corpus   verb form parsed two ways",
+                                         with_morph(lambda t: t.replace("1:1 V- 3AAI-S-- ἐποίησεν", "1:1 V- 3AAI-P-- ἐποίησεν"), "check_corpus", 2)),
+    ("corpus   form under two dictionary forms",
+                                         with_morph(lambda t: t.replace("1:1 N- ----NSM- θεὸς θεός", "1:1 N- ----NSM- θεὸς Θεός"), "check_corpus", 2)),
+    ("corpus   noun changing its gender",
+                                         with_morph(lambda t: t.replace("1:1 N- ----NSM- θεὸς θεός", "1:1 N- ----NSF- θεὸς θεός"), "check_corpus", 2)),
+    ("corpus   lemma bare, then accented",
+                                         with_morph(lambda t: t + "1:2 N- ----DSM- Αδαμ Αδαμ\n", "check_corpus", 2)),
+    ("corpus   lemma with, then without, iota subscript",
+                                         with_morph(lambda t: t + "1:2 V- 2FMI-P-- ἀποθανεῖσθε ἀποθνῄσκω\n", "check_corpus", 2)),
+    ("corpus   note with no difference to explain",
+                                         with_morph(lambda t: t.replace("1:1 C- -------- καὶ καί", "1:1 C- -------- καὶ καί  # corpus — stale"), "check_corpus", 1)),
 ]
 
 # Each must report no failure. The last three are the allowances, which a check
@@ -190,6 +239,31 @@ CONTROL = [
                                              and "John" in render.reading(JHN[2]["reading"], [BARE], "anchored")
                                              and "Iōannēs" in render.reading(JHN[2]["reading"], [BARE], "unanchored"),
                                              "a bare name keeps its panel form and drops the gloss")),
+    # the morphology: well-formed, consistent with itself, and comparable across passes
+    ("morph    clean GEN 1",             lambda: run(V.check_morph_shape, "GEN", 1)),
+    ("morph    clean GEN 2",             lambda: run(V.check_morph_shape, "GEN", 2)),
+    ("corpus   clean GEN 1",             lambda: run(V.check_corpus, "GEN", 1)),
+    ("corpus   clean GEN 2, with its noted homograph ὅ",
+                                         lambda: run(V.check_corpus, "GEN", 2)),
+    ("corpus   grave and acute are one form",
+                                         lambda: holds(V.corpus_key("καλὸν") == V.corpus_key("καλόν"),
+                                                       "a grave is the acute before another word")),
+    ("corpus   a capital is the same form",
+                                         lambda: holds(V.corpus_key("Καὶ") == V.corpus_key("καὶ"),
+                                                       "a capital marks position only")),
+    ("corpus   εἰς and εἷς stay two words",
+                                         lambda: holds(not V.spelled_twice("εἰς", "εἷς") and not V.spelled_twice("οὐ", "οὗ"),
+                                                       "differently marked words are different words")),
+    ("corpus   one word spelled two ways is caught",
+                                         lambda: holds(V.spelled_twice("ἀποθνῄσκω", "ἀποθνήσκω") and V.spelled_twice("Αδαμ", "Ἀδάμ"),
+                                                       "iota subscript, and bare against accented")),
+    ("diff     E agrees with M; M never with P",
+                                         lambda: holds(V.codes_agree("3PEI-S--", "3PMI-S--") and not V.codes_agree("3AMI-S--", "3API-S--"),
+                                                       "voice compatibility")),
+    ("diff     an analysis agrees with itself",
+                                         lambda: holds(D.diff(GEN2_MORPH, GEN2_MORPH) == [], "identical files must not differ")),
+    ("diff     one changed parse is one disagreement",
+                                         with_second_pass(lambda t: t.replace("2:1 V- 3API-P-- συνετελέσθησαν", "2:1 V- 3AAI-P-- συνετελέσθησαν"), 1)),
 ]
 
 SHADED = re.compile(r'<span class="chain">(.*?)</span>')

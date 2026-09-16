@@ -84,11 +84,13 @@ build/words.py               sources/ -> the word-by-word layer
 build/render.py              data -> site/index.html
 build/validate.py            mechanical checks; run before committing
 build/test_validate.py       those checks, fired at broken data
+build/morph_diff.py          two independent passes at a chapter's morphology, compared
 templates/page.html          the page shell (masthead, CSS, controls, footer, script)
 templates/verse.html         one verse section — the three-panel layout
 site/                        generated output — never hand-edit
 reference/gold-standard.html the rendering baseline; regenerate, don't edit
 reference/lexicon-notes.md   recurring gloss-chains, reused verbatim across books
+reference/second-pass-brief.md  the brief for a chapter's independent second morphology pass
 sources/                     the Greek source editions (see Licensing below)
 CLAUDE.md                    editorial conventions
 ```
@@ -195,6 +197,23 @@ the two differ deliberately, the line says so and why:
 the difference a note claims is no longer there** — so the annotations cannot quietly become
 a place to bury mistakes.
 
+The repository is also its own reference. `validate.py` holds the morphology to itself across
+every chapter: a form keeps its dictionary form, a verb its parse and a noun its gender and
+number wherever they recur. Where a form genuinely reads two ways — ὃ the relative at 2:19, ὅ
+the article at 2:25 — the line that introduces the second reading says so with `# corpus …`,
+under the same rule: a note that explains no difference fails.
+
+And every chapter's morphology is written twice. The second pass is made by a separate agent,
+briefed from [`reference/second-pass-brief.md`](reference/second-pass-brief.md) and never shown
+the first, and
+
+```bash
+python build/morph_diff.py data/GEN/3.morph.txt second-pass.txt
+```
+
+lists every place the two disagree. Each is settled before the chapter is committed: two
+passes seldom make the same slip in the same place.
+
 Middle Liddell is read from the Perseus Digital Library's XML: only the translations inside
 an entry's numbered senses, never its etymology. Perseus marks a few Latin equivalents and
 one-construction glosses as translations too; `NOT_SENSES` in `build/words.py` skips those
@@ -235,7 +254,9 @@ One chapter per session. Commit per chapter, with the reference as the message.
    as `[[headword|chain]]`. The headword is the lexicon's first sense in the form the text
    uses; record how you derived it.
 4. For an Old Testament chapter, write its morphology as your own analysis in
-   `data/<BOOK>/<chapter>.morph.txt`.
+   `data/<BOOK>/<chapter>.morph.txt` — then again, by a separate agent briefed from
+   [`reference/second-pass-brief.md`](reference/second-pass-brief.md) and never shown the
+   first, and settle every disagreement `python build/morph_diff.py` reports.
 5. Add the chapter to `PAGE` in `build/render.py`, and the book to `BOOKS` and to
    `EDITIONS` in `build/validate.py` if it is new.
 6. Append any newly-established gloss-chains and headwords to
@@ -253,6 +274,8 @@ One chapter per session. Commit per chapter, with the reference as the message.
 | `banned` | no phrase from `BANNED_PHRASES` in either panel |
 | `anchors` | no headword stands bare — none written as plain text outside its unit |
 | `words` | the word-by-word layer, where there is one, still matches the verse's Greek |
+| `morph` | the project's own Old Testament morphology is well-formed by its code's own grammar — an infinitive has a tense and no case, a participle has a case — so a shifted slot fails with no reference at all |
+| `corpus` | that morphology agrees with itself: a form keeps its dictionary form, a verb its parse, a noun its gender and number, wherever they recur |
 | `greek` | New Testament character-for-character against SBLGNT; the Old Testament against the printed page each verse cites |
 
 `BANNED_PHRASES` and `ANCHORS` are maintained editorial lists at the top of

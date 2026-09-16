@@ -7,7 +7,8 @@ Run before committing a chapter. Exit status is 0 only if nothing failed.
     python build/validate.py GEN/1 JHN/1     # named chapters only
     python build/validate.py -v              # list every passing check too
 
-Six checks — the five CLAUDE.md asks for, and one for the word-by-word layer:
+Eight checks — the ones CLAUDE.md asks for, one for the word-by-word layer, and two
+that hold the project's own morphology to its own grammar and to itself:
 
   fields   every verse has ref / greek / notes / reading, non-empty; notes well-formed;
            flags drawn from the permitted vocabulary; every [[anchor|chain]] unit and
@@ -21,6 +22,12 @@ Six checks — the five CLAUDE.md asks for, and one for the word-by-word layer:
            inside its own chain — the chain is the whole range, the headword its
            first sense.)
   words    the word-by-word file, where there is one, still matches the verse's Greek
+  morph    the project's own Old Testament morphology is well-formed by the code's own
+           grammar: an infinitive has a tense and no case, a participle has a case, a
+           preposition has no features — so a shifted slot fails with no reference
+  corpus   that morphology agrees with itself: a form keeps its dictionary form, a
+           verb its parse and a noun its gender and number wherever they recur,
+           unless the line says why with "# corpus ..."
   greek    the New Testament, character-for-character against the SBLGNT in sources/.
            The Old Testament is transcribed from the printed Rahlfs, so its word forms
            are cross-checked only where LXX_RAHLFS_DIR points at a local morphological
@@ -539,8 +546,9 @@ def check_analysis(book, chapter, rep):
             rep.fail("words", ref, "%d words analysed, %d in the module"
                      % (len(ours), len(theirs)))
             continue
-        for i, ((form, lemma, _, code, reason), (_, lexeme, mcode)) in enumerate(
+        for i, ((form, lemma, _, code, notes), (_, lexeme, mcode)) in enumerate(
                 zip(ours, theirs), 1):
+            reason = notes.get("module", "")
             theirs_lemma = lemmas.get(lexeme, "?")
             lemma_differs = nfc(lemma) != nfc(lemmas.get(lexeme, ""))
             parse_differs = not agrees(morph_features(code), module_features(mcode))
@@ -563,6 +571,210 @@ def check_analysis(book, chapter, rep):
             elif parse_differs:
                 rep.fail("words", ref, "word %d (%s): our parse %s, the module %s — check "
                          "which is right" % (i, form, code, mcode))
+
+
+# --------------------------------------------------------------------------
+# 5b. the project's own morphology: well-formed, and consistent with itself
+# --------------------------------------------------------------------------
+
+POSITIONS = ("person", "tense", "voice", "mood", "case", "number", "gender", "degree")
+ALPHABET = dict(zip(POSITIONS, ("123", "PIFAXY", "AMPE", "ISODNP", "NGDAV", "SPD", "MFNC",
+                                "CS")))
+PARTS = {"N-": "a noun", "V-": "a verb", "A-": "an adjective", "RA": "an article",
+         "RP": "a personal pronoun", "RD": "a demonstrative", "RR": "a relative",
+         "RI": "an interrogative", "P-": "a preposition", "C-": "a conjunction",
+         "D-": "an adverb", "X-": "a particle", "I-": "an interjection"}
+
+
+def shape_problems(pos, code, lemma):
+    """What is wrong with a line's part of speech and parse, judged by the code's own
+    grammar alone — no reference needed. An empty list means well-formed.
+
+    Most slips in a hand-written parse are not wrong analysis but a character in the
+    wrong place: ποιῆσαι written --AAN--- leaves the tense empty and puts the mood in
+    the voice slot. Each slot has its own alphabet, so a shifted slot usually shows as
+    a letter that cannot stand there; the shape each part of speech takes catches the
+    rest. A noun's gender stays optional, because an indeclinable foreign place name
+    has none to record.
+    """
+    if pos not in PARTS:
+        return ["part of speech %r is not one of %s" % (pos, " ".join(PARTS))]
+    if len(code) != 8:
+        return ["parse %r has %d places; it takes 8" % (code, len(code))]
+    f = dict(zip(POSITIONS, code))
+    wrong = ["%r cannot stand in the %s slot" % (v, k) for k, v in f.items()
+             if v != "-" and v not in ALPHABET[k]]
+    if wrong:
+        return wrong
+    label = PARTS[pos]
+    if pos == "V-":
+        label = {"N": "an infinitive", "P": "a participle"}.get(f["mood"], "a finite verb")
+    need = lambda *keys: ["%s needs a %s" % (label, k) for k in keys if f[k] == "-"]
+    none = lambda *keys: ["%s takes no %s" % (label, k) for k in keys if f[k] != "-"]
+
+    if pos in ("P-", "C-", "D-", "X-", "I-"):
+        return none(*POSITIONS)
+    if pos == "V-" and f["mood"] == "N":
+        return need("tense", "voice") + none("person", "case", "number", "gender", "degree")
+    if pos == "V-" and f["mood"] == "P":
+        return need("tense", "voice", "case", "number", "gender") + none("person", "degree")
+    if pos == "V-":
+        return (need("person", "tense", "voice", "mood", "number")
+                + none("case", "gender", "degree"))
+    out = none("person", "tense", "voice", "mood") + need("case", "number")
+    if pos != "A-":
+        out += none("degree")
+    if pos in ("A-", "RA", "RD", "RR"):
+        out += need("gender")
+    if pos == "RA" and unicodedata.normalize("NFC", lemma) != "ὁ":
+        out.append("an article's dictionary form is ὁ, not %s" % lemma)
+    return out
+
+
+def check_morph_shape(book, chapter, rep):
+    """Every line of the project's own morphology well-formed, and every annotation of a
+    kind this file knows. Needs nothing outside the repository."""
+    import words
+    morph = words.read_morph(book, chapter)
+    if morph is None:
+        return
+    before, total = rep.failed, 0
+    for verse, lines in sorted(morph.items()):
+        ref = "%s %d:%d" % (book, chapter, verse)
+        for i, (form, lemma, pos, code, notes) in enumerate(lines, 1):
+            total += 1
+            for problem in shape_problems(pos, code, lemma):
+                rep.fail("morph", ref, "word %d (%s) %s %s: %s" % (i, form, pos, code, problem))
+            if "?" in notes:
+                rep.fail("morph", ref, "word %d (%s) carries an annotation of no known kind, "
+                         "%r; an annotation begins 'module' or 'corpus'" % (i, form, notes["?"]))
+    rep.done("morph", "%d words well-formed" % total, before)
+
+
+COMPATIBLE = {("voice", "E"): {"M", "P"}, ("gender", "C"): {"M", "F"}}
+
+
+def codes_agree(a, b):
+    """Two parse codes in the project's own scheme, place by place. E (middle/passive)
+    agrees with M or P, and C (masculine/feminine) with M or F, in either direction;
+    M and P never agree with each other."""
+    if len(a) != len(b):
+        return False
+    for k, x, y in zip(POSITIONS, a, b):
+        if x != y and y not in COMPATIBLE.get((k, x), ()) and x not in COMPATIBLE.get((k, y), ()):
+            return False
+    return True
+
+
+def corpus_key(form):
+    """A form as the corpus compares it: a grave written as the acute it stands for, and
+    lower case, since a capital marks only a position in the sentence."""
+    d = unicodedata.normalize("NFD", form).replace("̀", "́")
+    return unicodedata.normalize("NFC", d).lower()
+
+
+def spelled_twice(a, b):
+    """Are two different spellings of a dictionary form the same word written two ways?
+
+    Two slips count, both made in Genesis 2: a lemma with and without its iota subscript
+    (ἀποθνῄσκω / ἀποθνήσκω), and one written bare and accented (Αδαμ / Ἀδάμ). Words that
+    differ in breathing or accent while both are marked — εἰς and εἷς, οὐ and οὗ — are
+    different words, and never match.
+    """
+    if a == b:
+        return False
+    nfd = lambda s: unicodedata.normalize("NFD", s)
+    if nfd(a).replace("ͅ", "") == nfd(b).replace("ͅ", ""):
+        return True
+    marked = lambda s: any(unicodedata.category(c) == "Mn" for c in nfd(s))
+    return fold(a) == fold(b) and marked(a) != marked(b)
+
+
+def corpus():
+    """Every word of the project's own morphology, in corpus order — books as the page
+    orders them, chapters by number, words as written — as
+    ((book, chapter), ref, index, form, lemma, pos, code, notes)."""
+    import words
+    out = []
+    for book in render.BOOKS:
+        paths = sorted((render.DATA / book).glob("*.morph.txt"),
+                       key=lambda p: int(p.name.split(".")[0]))
+        for path in paths:
+            chapter = int(path.name.split(".")[0])
+            for verse, lines in sorted(words.parse_morph(path).items()):
+                ref = "%s %d:%d" % (book, chapter, verse)
+                for i, line in enumerate(lines, 1):
+                    out.append(((book, chapter), ref, i) + tuple(line))
+    return out
+
+
+def check_corpus(book, chapter, rep):
+    """The repository is its own reference: a form analysed one way anywhere in the
+    corpus is analysed that way wherever it recurs, unless the line says why.
+
+    Each word is held against everything before it, in corpus order:
+      lemma     a form keeps its dictionary form
+      spelling  a dictionary form keeps one spelling (see spelled_twice)
+      verb      a finite verb or infinitive keeps its whole parse; a participle its
+                tense, voice and mood, since its case follows the syntax
+      noun      a noun keeps its gender and number, since its case follows the syntax
+    A reading new to the corpus is reported once, on the line that introduces it, in
+    that line's chapter. "# corpus ..." on the line makes it a note, and a "# corpus ..."
+    note on a line that introduces nothing fails — so a genuine homograph is recorded
+    where it first divides, and the record cannot outlive its reason.
+    """
+    before, checked = rep.failed, 0
+    lemmas, spellings, verbs, nouns = {}, {}, {}, {}
+
+    def introduces(table, key, value, ref, agree):
+        """Record `value` under `key`; if no reading already there agrees with it, return
+        the first reading there as (value, ref), else None."""
+        seen = table.setdefault(key, {})
+        first = next(iter(seen.items()), None)
+        new = bool(seen) and not any(agree(value, s) for s in seen)
+        seen.setdefault(value, ref)
+        return first if new else None
+
+    same = lambda a, b: a == b
+    for place, ref, i, form, lemma, pos, code, notes in corpus():
+        key, lemma = corpus_key(form), unicodedata.normalize("NFC", lemma)
+        found = []
+        hit = introduces(lemmas, key, lemma, ref, same)
+        if hit:
+            found.append("dictionary form %s, where %s has %s" % (lemma, hit[1], hit[0]))
+        group = spellings.setdefault(fold(lemma), {})
+        if lemma not in group:
+            twin = next((s for s in group if spelled_twice(s, lemma)), None)
+            if twin:
+                found.append("dictionary form spelled %s, where %s spells it %s"
+                             % (lemma, group[twin], twin))
+            group[lemma] = ref
+        if len(code) == 8 and pos == "V-":
+            shape = "-" + code[1:4] + "----" if code[3] == "P" else code
+            hit = introduces(verbs, (key, lemma), shape, ref, codes_agree)
+            if hit:
+                found.append("parse %s, where %s has %s" % (code, hit[1], hit[0]))
+        elif len(code) == 8 and pos == "N-":
+            hit = introduces(nouns, (key, lemma), "-----" + code[5:7] + "-", ref, codes_agree)
+            if hit:
+                found.append("number and gender %s, where %s has %s"
+                             % (code[5:7], hit[1], hit[0][5:7]))
+
+        if place != (book, chapter):
+            continue
+        checked += 1
+        note = notes.get("corpus")
+        if found and note:
+            for what in found:
+                rep.note("corpus", "%s word %d (%s): %s — %s" % (ref, i, form, what, note))
+        elif found:
+            for what in found:
+                rep.fail("corpus", ref, "word %d (%s): %s — correct one, or say why on "
+                         "this line with '# corpus ...'" % (i, form, what))
+        elif note:
+            rep.fail("corpus", ref, "word %d (%s) records a difference from the corpus that "
+                     "is not there; delete the note" % (i, form))
+    rep.done("corpus", "%d words consistent with the corpus" % checked, before)
 
 
 # --------------------------------------------------------------------------
@@ -693,6 +905,9 @@ def validate(book, chapter, rep):
     check_names(verses, rep)
     check_banned(verses, rep)
     check_anchors(verses, rep)
+    if EDITIONS.get(book) == "lxx":
+        check_morph_shape(book, chapter, rep)
+        check_corpus(book, chapter, rep)
     check_words(book, chapter, verses, rep)
     check_greek(book, chapter, verses, rep)
 

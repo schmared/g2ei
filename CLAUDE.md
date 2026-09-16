@@ -138,9 +138,11 @@ reading requires — do not adjudicate.
 /build/render.py                data → HTML
 /build/words.py                 /sources → the word-by-word layer
 /build/validate.py              mechanical checks
+/build/morph_diff.py            two independent passes at a chapter's morphology, compared
 /templates/verse.html           the three-panel layout
 /site/                          generated output — never hand-edit
 /reference/lexicon-notes.md     recurring gloss-chains, kept consistent across books
+/reference/second-pass-brief.md the brief for a chapter's independent second morphology pass
 CLAUDE.md                       this file
 /sources						original Greek text resources to use as reference instead of relying on search data
 ```
@@ -188,7 +190,10 @@ so they cannot drift. Chains come from `/reference/lexicon-notes.md`.
 - For an Old Testament chapter, transcribe the Greek from the printed Rahlfs (see
   `/sources/README.md` for the scan) and cite each verse's page in `print`. Never copy it
   from `/sources` — those files are for checking only and may not be committed. Write the
-  chapter's morphology in `data/<book>/<chapter>.morph.txt` as your own analysis.
+  chapter's morphology in `data/<book>/<chapter>.morph.txt` as your own analysis — then a
+  second time, by a separate agent briefed from `/reference/second-pass-brief.md` and never
+  shown the first, and settle every disagreement `python build/morph_diff.py` reports
+  before going on.
 - After writing a chapter, append any newly-established gloss-chains to that file.
 - Run `python build/words.py <BOOK>/<chapter>` to build the word-by-word layer from
   `/sources`, and skim the cards for lexicon scraps to add to its `NOT_SENSES`.
@@ -202,6 +207,9 @@ so they cannot drift. Chains come from `/reference/lexicon-notes.md`.
 - no banned imported phrases (maintain a list; seed it with "face of the waters")
 - no headword stands bare — none written as plain text outside its unit
 - the word-by-word layer, where there is one, still matches the verse's Greek
+- the project's own morphology is well-formed by its code's own grammar
+- that morphology agrees with itself across every chapter — a form keeps its dictionary
+  form, a verb its parse, a noun its gender and number — unless the line says why
 - Greek text matches the source edition — New Testament character-for-character against
   SBLGNT; the Old Testament against the printed page every verse cites in `print`
 

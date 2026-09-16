@@ -1069,7 +1069,7 @@
         {
           "form": "ὅτε",
           "lemma": "ὅτε",
-          "parse": "adverb",
+          "parse": "conjunction",
           "aspect": "",
           "senses": [
             "when",
@@ -3214,7 +3214,7 @@
         {
           "form": "τέσσαρας",
           "lemma": "τέσσαρες",
-          "parse": "adjective · accusative · plural · feminine",
+          "parse": "adjective · accusative · plural · masculine/feminine",
           "aspect": "",
           "senses": [
             "four"
@@ -3714,7 +3714,7 @@
         {
           "form": "πράσινος",
           "lemma": "πράσινος",
-          "parse": "adjective · nominative · singular · masculine",
+          "parse": "adjective · nominative · singular · masculine/feminine",
           "aspect": "",
           "senses": [
             "leek-green, light green"
@@ -4010,7 +4010,7 @@
         {
           "form": "Τίγρις",
           "lemma": "Τίγρις",
-          "parse": "noun · nominative · singular",
+          "parse": "noun · nominative · singular · masculine",
           "aspect": "",
           "senses": [
             "a tiger"
@@ -7571,7 +7571,7 @@
         {
           "form": "δύο",
           "lemma": "δύο",
-          "parse": "adjective",
+          "parse": "adjective · nominative · plural · masculine",
           "aspect": "",
           "senses": [
             "two",
@@ -7678,7 +7678,7 @@
         {
           "form": "δύο",
           "lemma": "δύο",
-          "parse": "adjective",
+          "parse": "adjective · nominative · plural · masculine",
           "aspect": "",
           "senses": [
             "two",
@@ -7720,7 +7720,7 @@
         {
           "form": "τε",
           "lemma": "τε",
-          "parse": "particle",
+          "parse": "conjunction",
           "aspect": "",
           "senses": [
             "and",
