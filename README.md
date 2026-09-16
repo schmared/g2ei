@@ -303,7 +303,9 @@ Proper names are detected as capitalised words that are not sentence-initial. Bo
 capitalise only sentence starts, names, and the first word of direct speech; a verse lists
 its speech-openers in `speech`, and a listed word that is not actually capitalised there
 fails the check, so the list cannot go stale. Inflected forms are matched to the
-nominative in `names` on a shared accent-stripped prefix, so Ἰωάννου finds Ἰωάννης.
+nominative in `names` on a shared accent-stripped prefix, so Ἰωάννου finds Ἰωάννης. A
+transliteration the edition prints in lower case — χερουβιμ at Gen 3:24 — has no capital to
+be found by, so its `names` entry finds it instead, wherever the verse prints that word.
 
 ## Where the Old Testament Greek comes from
 

@@ -34,6 +34,17 @@ consulted.
    it is skipped **by name** in `NOT_SENSES`. Not by rule: the same opening position carries
    the principal sense in most entries, λόγος's *the word* among them, and a rule that
    skipped it would rewrite the prologue's headword to *spoken*.
+
+   The same holds for a sense restricted to a *form* rather than a voice. ἐνδύω's sense I,
+   *to go into, put on*, is dressing oneself; the entry marks sense II "Causal … aor1
+   -έδυσα", and GEN 3:21 ἐνέδυσεν is that aorist, so sense I is skipped by name. And one
+   entry can hold two words: ὡς's opens with the accented demonstrative ὥς, *so, thus*,
+   before the relative ὡς, *as*, which is the word Rahlfs prints.
+
+   A word used as a conjunction takes the first conjunction sense, as a word used as a noun
+   takes the first noun sense: ἵνα is an adverb of place in its first sense and *that, in
+   order that* in its second; μήποτε is *never* as an adverb and *that at no time, lest
+   ever* as a conjunction.
 3. **Form.** Tense, voice, mood, person and number come from the Greek form.
 4. **Article.** English gets *the* where the Greek has the article, and nothing where it
    does not. The *a* in a lexicon's gloss (*a beginning*) is its citation form, not the text's.
@@ -52,6 +63,9 @@ what the word means, only which entry is the word, and every case is listed here
 | --- | --- | --- |
 | χοῦς (GEN 2:7) | `xou=s2` — *earth thrown down, heaped up, dust* | `xou=s1` is the Pitcher-feast, the liquid measure |
 | ὅτι (GEN 2:3) | `o(/ti2` — *that* | `o(/ti1` is ὅ τι, *for what, wherefore* |
+| λέγω (GEN 2:16) | `le/gw3` — *to say, speak* | `le/gw1` is *to lull to sleep*, `le/gw2` *to gather* |
+| οὐ (GEN 2:5) | `ou)8` — *not* | the other seventeen gloss idioms, οὐ γάρ, οὐ μήν … |
+| ὁδός (GEN 3:24) | `o(do/s2` — *a way, path* | `o(do/s1` is the Attic ὀδός for οὐδός, *a threshold* |
 
 A lemma belongs there only where the entries are genuinely different words. A word with one
 entry and several senses is not a homograph: its first numbered sense stands, however far
@@ -69,6 +83,9 @@ Three reasons, and all of them are the lexicon's filing rather than a decision a
 | πορεύομαι (GEN 2:14) | πορεύω | a deponent, filed under its active |
 | ἐκπορεύομαι (GEN 2:10) | ἐκπορεύω | likewise |
 | κατέναντι (GEN 2:14) | κατεναντίον | the entry is a bare cross-reference, `= κατεναντίον`, and glosses nothing itself |
+| φοβέομαι (GEN 3:10) | φοβέω | MorphGNT's middle, filed under the active |
+| ἔχθρα (GEN 3:15) | ἔχθρη | the entry is headed with the Ionic spelling |
+| δειλινός (GEN 3:8) | δειελινός | a cross-reference, *contr. for δειελινός* |
 
 The last is the same shape as ἁγιάζω in LSJ (`= ἁγίζω`): an entry that exists, carries no
 translation, and names the entry that does. Following it is not interpretation — the lexicon
@@ -249,6 +266,83 @@ records the idiom and the reading prints the lexicon.
 `the second`, `the third`, `the fourth` (GEN 2:13, 2:14) and `four` (τέσσαρες, GEN 2:10), on
 the same ground as `the sixth` and `the seventh`: one sense each, so no range to open.
 
+### ἵνα
+
+- **headword:** `that` — used as a conjunction, so the first conjunction sense, *that, in
+  order that*; the entry's first sense is the adverb of place, *there, where*.
+- **chain:** `that, in order that`
+- **used:** GEN 3:3 (ἵνα μή, with `not` as plain text)
+
+### οὐδέ
+
+- **headword:** `but not` — Middle Liddell, first sense, *but not*, answering to μέν.
+- **chain:** `but not, and not, nor, not even, not at all`
+- **used:** GEN 3:3
+
+### μήποτε
+
+- **headword:** `that at no time` — used as a conjunction, so sense II, *that at no time,
+  lest ever*; sense I is the adverb, *never, on no account*.
+- **chain:** `that at no time, lest ever, never, on no account, perhaps`
+- **used:** GEN 3:22
+
+### ὡς
+
+- **headword:** `as` — the relative, sense A.II. The entry opens with the accented
+  demonstrative ὥς, *so, thus*, a different word, and those glosses are skipped by name.
+- **chain:** `as, according as, considering, like`
+- **used:** GEN 3:5, GEN 3:22
+
+### ἕως + genitive
+
+- **headword:** `until` — Middle Liddell, first sense *until, till*. The entry itself cites
+  ἕως with the articular infinitive, ἕως τοῦ ἀποτῖσαι, the construction of GEN 3:19.
+- **chain:** `until, till, while, so long as`
+- **used:** GEN 3:19
+
+### ἀνά — joined to its object
+
+- **ἀνὰ μέσον** (GEN 3:15, four times) — **headword** `up to middle`; **chain** `up to, up
+  along, and throughout the middle, in the middle, the centre, mid, between two`. ἀνά with
+  the accusative: the entry describes that case as *motion upwards*, which glosses nothing and
+  is skipped by name, and its first translation is *up to, up along*. The pair is the idiom
+  *between*, recorded in the verse's note, as κατὰ ἀνατολάς was.
+
+### μετά + genitive
+
+- **headword:** `in the midst of` — Middle Liddell, first sense with the genitive, *in the
+  midst of, among*; *along with* is the second and *with* the third. Perseus's opening
+  summary, *in the midst of, among with gen., dat., and acc.*, is skipped by name.
+- **chain:** `in the midst of, among, in common, along with, with, by means of`
+- **used:** GEN 3:6, GEN 3:12, with the pronoun as plain text
+
+### ἀπέναντι
+
+- **headword:** `opposite` — Middle Liddell, one sense, *opposite, against*, c. gen.
+- **chain:** `opposite, against`
+- **used:** GEN 3:24
+
+### ποῦ
+
+- **headword:** `where` — *where?* first; *how? by what right?* second.
+- **chain:** `where, at what point, how, by what right`
+- **used:** GEN 3:9
+
+### ἰδού
+
+- **headword:** `lo` — Middle Liddell, first sense *lo! behold! see there!*
+- **chain:** `lo, behold, see there`
+- **used:** GEN 3:22
+
+### Plain text — small words and single senses
+
+- μή — `not`, like οὐ; οὐ μή — `no, not` (GEN 3:1).
+- τί in τί ὅτι and τί τοῦτο — `why` (GEN 3:1, 3:13).
+- καί as *also* — `also` (GEN 3:6).
+- ἑαυτοῖς — `for themselves` (GEN 3:7).
+- ἐπικατάρατος — `yet more accursed`: Middle Liddell's one sense (GEN 3:14, 3:17).
+- τὸ δειλινόν — `at evening`: filed under δειελινός, one sense (GEN 3:8).
+
 ---
 
 ## Divine designations
@@ -282,6 +376,21 @@ without indefiniteness. Flag the fronting in the notes every time it occurs.
 
 Rendered `the God` in the πρός headword and chain. The article is carried into English
 against normal usage, because John 1:1c turns on articular τὸν θεόν against anarthrous θεός.
+
+### κυρίου τοῦ θεοῦ — genitive
+
+- `of lord` / `of lord, of master, of the one having power and authority over`
+- `of the God` / `of him who is God definitively, of the one the article marks out, of the known and the only`
+- **used:** GEN 3:8, twice
+
+The nominative chains, in the genitive.
+
+### θεοί — plural, anarthrous
+
+- **headword:** `gods` — Middle Liddell's first sense is *God*; its second, *a god*, is the
+  one a plural can take, lower case as the lexicon prints it.
+- **chain:** `gods, the gods, goddesses`
+- **used:** GEN 3:5 (ὡς θεοί)
 
 ---
 
@@ -673,6 +782,58 @@ Passive in form where English makes it active. κόλλα is glue; *collagen* is
   middle and passive.
 - **chain:** `were being ashamed, were feeling shame, were being dishonoured`
 - **used:** GEN 2:25
+
+### Verbs new in GEN 3
+
+Each headword is Middle Liddell's first sense, in the form the text uses, unless a note says
+otherwise.
+
+| lemma | form | headword | chain | used |
+| --- | --- | --- | --- | --- |
+| ἐσθίω | aor. 3 sg / 3 pl / 1 sg / 2 sg | `ate` · `they ate` · `I ate` · `you ate` | `ate, ate of` (with the person) | 3:6, 3:11, 3:12, 3:13, 3:17 |
+| ἐσθίω | fut. 1 pl | `we will eat` | `we will eat, we will eat of` | 3:2 |
+| ἐσθίω | aor. inf. / aor. subj. 3 sg | `to eat` · `he may eat` | `to eat, to eat of` · `he may eat, he may eat of` | 3:11, 3:17, 3:22 |
+| ἀποθνήσκω | aor. subj. 2 pl | `you may die off` | `you may die off, you may die, you may be put to death, you may be slain` | 3:3 |
+| ἅπτω | aor. mid. subj. 2 pl | `you may fasten yourselves to` | `you may fasten yourselves to, you may cling to, you may hang on by, you may lay hold of, you may grasp, you may touch` | 3:3 |
+| οἶδα | pluperf. 3 sg | `knew` | `knew, was assured, was versed in` | 3:5 |
+| διανοίγω | fut. / aor. pass. 3 pl | `will be opened` · `were opened` | `will be opened, will be opened and explained` · `were opened, were opened and explained` | 3:5, 3:7 |
+| γινώσκω | pres. ptcp. / aor. 3 pl | `learning to know` · `learned to know` | `learning to know, perceiving, marking, learning, discerning and distinguishing` · the same in the aorist | 3:5, 3:7 |
+| ὁράω | aor. 3 sg | `saw` | `saw, perceived, beheld, looked at` | 3:6 |
+| κατανοέω | aor. inf. | `to observe well` | `to observe well, to understand, to perceive, to learn, to consider` | 3:6 |
+| λαμβάνω | aor. ptcp. / aor. subj. / aor. pass. 2 sg | `having taken` · `he may take` · `you were taken` | `having taken, having received, having taken hold of and grasped and seized` · likewise | 3:6, 3:19, 3:22 |
+| δίδωμι | aor. 3 sg / 2 sg | `gave` · `you gave` | `gave, granted, provided, gave over and delivered up` | 3:6, 3:12 |
+| ῥάπτω | aor. 3 pl | `sewed` | `sewed, stitched together, devised and contrived and plotted` | 3:7 |
+| ἀκούω | aor. 3 pl / 1 sg / 2 sg | `heard` · `I heard` · `you heard` | `heard, had hearing of, heard tell of, hearkened and gave ear, listened to and obeyed` | 3:8, 3:10, 3:17 |
+| περιπατέω | pres. ptcp. | `walking up and down` | `walking up and down, walking about, walking, living` | 3:8, 3:10 |
+| κρύπτω | aor. pass. 3 pl / 1 sg | `were hidden` · `I was hidden` | `were hidden, were covered and cloaked, hid themselves and lay hidden, were concealed and kept secret` | 3:8, 3:10 |
+| φοβέομαι | aor. pass. 1 sg | `I was put to flight` | `I was put to flight, I fled affrighted, I fled, I was seized with fear, I was affrighted, I feared` | 3:10 |
+| ἀναγγέλλω | aor. 3 sg | `carried back tidings of` | `carried back tidings of, reported` | 3:11 |
+| ἐντέλλομαι | aor. 1 sg | `I enjoined` | `I enjoined, I commanded` | 3:11, 3:17 |
+| ποιέω | aor. 2 sg | `you made` | `you fashioned, you wrought, you produced, you performed, you did` | 3:13, 3:14 |
+| ἀπατάω | aor. 3 sg | `cheated` | `cheated, tricked, outwitted, beguiled, deceived` | 3:13 |
+| πορεύομαι | fut. 2 sg | `you will be driven` | `you will be driven, you will be carried, you will go, you will walk, you will march` | 3:14 |
+| τίθημι | fut. 1 sg | `I will set` | `I will set, I will put, I will place, I will plant, I will lay` | 3:15 |
+| τηρέω | fut. 3 sg / 2 sg | `will watch over` | `will watch over, will protect and guard, will give heed to and watch narrowly, will watch for, will keep` | 3:15 |
+| πληθύνω | pres. ptcp. / fut. 1 sg | `making full` · `I will make full` | `making full, increasing, multiplying` · likewise | 3:16 |
+| τίκτω | fut. mid. 2 sg | `you will bring into the world` | `you will bring into the world, you will bring forth, you will bear, you will produce` | 3:16 |
+| κυριεύω | fut. 3 sg | `will be lord` | `will be lord, will be master of, will have legal power` | 3:16 |
+| ἀνατέλλω | fut. 3 sg | `will make to rise up` | the chain of GEN 2:5, in the future | 3:18 |
+| ἀποστρέφω | aor. inf. | `to turn` | `to turn, to turn back, to turn away, to turn oneself about, to bring back` | 3:19 |
+| ἀπέρχομαι | fut. 2 sg | `you will go away` | `you will go away, you will depart from, you will depart, you will depart from life` | 3:19 |
+| ζάω | pres. ptcp. gen. pl. / fut. 3 sg | `of the living` · `he will live` | `of the living, of the alive, of those in full life and strength, of the fresh and strong` · `he will live, he will be in full life and strength, he will be fresh and strong` | 3:20, 3:22 |
+| ἐνδύω | aor. 3 sg | `clothed in` | `clothed in, clothed` — sense II, the causal aorist | 3:21 |
+| γίνομαι | perf. 3 sg | `has come into being` | `has come to be and stands so, has arisen and remains arisen, has been brought into existence and continues so` — a standing resultant state | 3:22 |
+| ἐκτείνω | aor. subj. 3 sg | `he may stretch out` | `he may stretch out, he may spread out, he may put forth` | 3:22 |
+| ἐξαποστέλλω | aor. 3 sg | `sent quite away` | `sent quite away, dispatched` | 3:23 |
+| ἐκβάλλω | aor. 3 sg | `threw` | `threw, cast out of, threw out, cast out and banished, deposed, threw away and rejected` | 3:24 |
+| κατοικίζω | aor. 3 sg | `removed to` | `removed to, planted, settled, established as a colonist, restored to one's country` | 3:24 |
+| τάσσω | aor. 3 sg | `arranged` | `arranged, put in order, drew up in order of battle, posted and stationed, appointed` | 3:24 |
+| στρέφω | pres. mid./pass. ptcp. | `the one turning itself` | `the one turning itself, turning round, turning about, turning to and fro, turning back, revolving` — the entry's actives skipped by name | 3:24 |
+
+Where the lexicon restricts a sense to one voice, the entry's own labels decide, as for ἄρχω:
+φοβέω's *A. Act.*, ἅπτω's active sense I against *II. Mid. … c. gen.*, στρέφω's *B. Pass.
+and Mid.* A headword that takes a person from the form says it — `they ate` and `I ate` are
+one Greek form, ἔφαγον, at 3:6 and 3:12.
 
 ---
 
@@ -1152,6 +1313,67 @@ chapter that means the male as against ἄνθρωπος, the human being.
 `οἱ δύο` at 2:24 is not in the Hebrew at all, and every New Testament quotation of the verse
 quotes the Greek with it. Flag `divergence` there.
 
+### ἀγρός and οὐρανός — articular genitive
+
+τοῦ ἀγροῦ and τοῦ οὐρανοῦ take the article in English, as the rule requires:
+
+- `of the field` / `of the field, of the lands, of the farm, of the country`
+- `of the heaven` / `of the heaven, of the vault, of the firmament and the sky`
+- **used:** GEN 2:19, GEN 2:20, GEN 3:18
+
+GEN 2:19 and 2:20 first carried the anarthrous chains of 2:4–5, *of field* and *of heaven*,
+though both have the article; they were corrected when GEN 3:18 reused them.
+
+### Nouns and adjectives new in GEN 3
+
+| lemma | headword | chain | used |
+| --- | --- | --- | --- |
+| ὄφις | `the serpent` | `the serpent, the snake` | 3:1, 3:4, 3:13 |
+| φρόνιμος (superl.) | `most in one's right mind` | `most in one's right mind, most in one's senses, most staid and unmoved and discreet, wisest, most sensible, most prudent` | 3:1 |
+| θηρίον (gen. pl.) | `of the wild animals` | `of the wild animals, of the beasts, of the savage beasts, of the game` | 3:1, 3:14 |
+| κτῆνος (gen. pl.) | `of the flocks and herds` | `of the flocks and herds, of the single beasts, of the oxen, of the sheep, of the beasts for riding` | 3:14 |
+| καρπός | `fruit` · `of the fruit` | `fruit, produce, returns, profits, result` | 3:2, 3:3, 3:6 |
+| ὀφθαλμός (pl.) | `the eyes` · `to the eyes` | `the eyes, the sight, the dearest and best, the buds` | 3:5, 3:6, 3:7 |
+| ἀρεστός | `acceptable` | `acceptable, pleasing` | 3:6 |
+| φύλλον (pl.) | `leaves` | `leaves, foliage, petals, herbs` | 3:7 |
+| συκῆ | `of fig-tree` | `of fig-tree, of fig` | 3:7 |
+| περίζωμα (pl.) | `girdles round the loins` | `girdles round the loins, aprons` | 3:7 |
+| φωνή | `the sound` · `of the sound` | `the sound, the tone, the sound of the voice, the cry, the faculty of speech and discourse, the language, the saying` | 3:8, 3:10, 3:17 |
+| πρόσωπον (anarthrous) | `face` · `of the face` | `face, visage, countenance, look, outward appearance` | 3:8, 3:19 |
+| στῆθος | `the breast` | `the breast, the breast as the seat of feeling, the heart` | 3:14 |
+| κοιλία | `the large cavity of the body` | `the large cavity of the body, the belly, the intestines, the bowels` | 3:14 |
+| γῆ (anarthrous acc., nom.) | `earth` | `earth, land, the ground` | 3:14, 3:19 |
+| ἡμέρα (pl.) | `the days` | `the days, the day-breaks, the times` | 3:14, 3:17 |
+| ἔχθρα | `hatred` | `hatred, enmity, hatred for and enmity to, feud, hostility` | 3:15 |
+| σπέρμα | `of that which is sown` | `of that which is sown, of the seed, of the germ and origin and element, of the offspring and issue, of the race and descent` | 3:15 |
+| κεφαλή | `head` | `head, the whole person, the life, the top, the source, the crown` | 3:15 |
+| πτέρνα | `heel` | `heel, the under part of the heel, the ham` | 3:15 |
+| λύπη (pl.) | `the pains of body` · `in pains of body` | `the pains of body, the distresses and sad plights, the pains of mind, the griefs` | 3:16, 3:17 |
+| στεναγμός | `the sighing` | `the sighing, the groaning, the moaning` | 3:16 |
+| τέκνον (pl.) | `things borne` | `things borne, the born, children, the young` | 3:16 |
+| ἀνήρ (acc., dat.) | `the man` · `to the man` | `the man, the man in the prime of life` | 3:6, 3:16 |
+| ἀποστροφή | `the turning back` | `the turning back, the turning away from, the escape from, the resort and resource` | 3:16 |
+| ἔργον, with ἐν | `in the works` | `within, inside of, and by means of the works, the business, the deeds` | 3:17 |
+| ἄκανθα (pl.) | `thorns` | `thorns, prickles, prickly plants, thistles, thistledown, spines` | 3:18 |
+| τρίβολος (pl.) | `caltrops` | `caltrops, three-spiked implements, prickly plants, burrs, thistles, threshing-boards` | 3:18 |
+| χόρτος (articular) | `the inclosed place` | `the inclosed place, the feeding-place, the feeding-ground, the food and fodder and provender, the grass, the hay` | 3:18 |
+| ἱδρώς, with ἐν | `in sweat` | `within, inside of, and by means of sweat, exudation, gum` | 3:19 |
+| ἄρτος | `the cake` | `the cake, the loaf of wheat-bread, the bread` | 3:19 |
+| ὄνομα (articular) | `the name` | `the name, the fame, the mere name, the phrase and expression` | 3:20 |
+| μήτηρ (anarthrous) | `mother` | `mother, dam, source` | 3:20 |
+| χιτών (pl.) | `garments worn next the skin` | `garments worn next the skin, frocks, coats of mail, coverings, skins` | 3:21 |
+| δερμάτινος | `of skin` | `of skin, leathern` | 3:21 |
+| χείρ | `the hand` | `the hand, the hand and arm, the arm` | 3:22 |
+| αἰών | `the period of existence` | `the period of existence, the life-time and life, the age and generation, the long space of time, the era and epoch, the world` | 3:22 |
+| τρυφή | `of the softness` | `of the softness, of the delicacy and daintiness, of the luxuries, of the luxuriousness and wantonness` | 3:23, 3:24 |
+| φλόγινος | `the flaming` | `the flaming, the fiery, the flame-coloured` — **no Middle Liddell entry**; LSJ, citing this verse | 3:24 |
+| ῥομφαία | `large sword` | `large sword, scymitar` — the article stands on φλογίνην before it | 3:24 |
+| ὁδός | `the way` | `the way, the path, the track, the road, the highway, the course, the journey, the manner and method` | 3:24 |
+
+Three headwords read furthest from the expected word, and all three are the lexicon's order:
+σπέρμα is *that which is sown* before it is offspring; τέκνον is *that which is borne* before
+it is a child; τρίβολος is a spiked iron for laming horses before it is a thistle.
+
 ---
 
 ## Aspect formulas
@@ -1184,6 +1406,14 @@ Gloss on first occurrence per chapter, bare thereafter.
 | Τίγρις | Tigris | Tigris | `(Τίγρις, from Old Persian tigrā, "arrow", for its swiftness; Hebrew Ḥiddeqel)` |
 | Ἀσσυρίων | Assyriōn | Assyrians | `(Ἀσσυρίων, the Assyrians, from Aššur — their god, their city, and their land)` |
 | Εὐφράτης | Euphratēs | Euphrates | `(Εὐφράτης, from Old Persian Ufrātu; Hebrew Pĕrāt)` |
+| Αδαμ | Adam | Adam | `(Αδαμ, from Hebrew ʾādām, "man", from ʾădāmâ, "ground")` |
+| Ζωή | Zōē | Zoe | `(Ζωή, "life"; Hebrew Ḥawwâ, from ḥāyâ, "to live")` |
+| χερουβιμ | cheroubim | cherubim | `(χερουβιμ, the Hebrew plural kĕrûbîm, of kĕrûb, a word of uncertain derivation)` |
+
+Ζωή at GEN 3:20 translates the Hebrew name instead of transliterating it, and Rahlfs
+capitalises it as a name; so the anchored form is the English form of *that* name, *Zoe*, not
+*Eve*, which comes from the Hebrew. χερουβιμ is printed in lower case, and
+stays lower case in both panels; its `names` entry is what makes it a name to the checks.
 
 Rahlfs prints the Semitic names bare — Εδεμ, Φισων, Ευιλατ, Γηων — with no accent or
 breathing, and the Greek-formed ones accented: Αἰθιοπίας, Ἀσσυρίων, Εὐφράτης, Τίγρις. The

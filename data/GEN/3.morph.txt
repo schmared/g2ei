@@ -1,0 +1,606 @@
+# Genesis 3 — morphology, one word per line.
+#
+# This is the project's own grammatical analysis of each form, written alongside the
+# transcription and not copied from any digital edition.
+#
+# Columns: verse, part of speech, parse, form, lemma — in MorphGNT's code scheme, so
+# the Old and New Testament layers read alike. The parse is eight places: person,
+# tense, voice, mood, case, number, gender, degree ("-" where it does not apply).
+#
+# Two codes go beyond MorphGNT, both to record only what the form itself says:
+#   voice  E  middle/passive — a tense in which the two share one form
+#   gender C  masculine/feminine — an adjective whose form does not distinguish them
+#
+# A trailing annotation records a deliberate difference and the reason for it:
+#   "# module …"  from the reference module, checked when LXX_RAHLFS_DIR is set
+#   "# corpus …"  from this project's own analysis of the same form elsewhere
+# A line may carry both. validate.py prints them as notes instead of failures — and
+# fails if the difference a note claims is not there, so they cannot go stale. The
+# analysis here is this project's own: the module is a reference, not an authority,
+# and the corpus is held to itself.
+#
+# Indeclinables take case and number from the syntax, as MorphGNT does, and gender
+# where there is one to take: a personal name, a numeral agreeing with its noun, or a
+# common noun whose article shows it — but not an indeclinable place name, which has
+# none.
+3:1 RA ----NSM- Ὁ ὁ
+3:1 C- -------- δὲ δέ
+3:1 N- ----NSM- ὄφις ὄφις
+3:1 V- 3IAI-S-- ἦν εἰμί
+3:1 A- ----NSMS φρονιμώτατος φρόνιμος
+3:1 A- ----GPN- πάντων πᾶς
+3:1 RA ----GPN- τῶν ὁ
+3:1 N- ----GPN- θηρίων θηρίον
+3:1 RA ----GPN- τῶν ὁ
+3:1 P- -------- ἐπὶ ἐπί
+3:1 RA ----GSF- τῆς ὁ
+3:1 N- ----GSF- γῆς γῆ
+3:1 RR ----GPN- ὧν ὅς
+3:1 V- 3AAI-S-- ἐποίησεν ποιέω
+3:1 N- ----NSM- κύριος κύριος
+3:1 RA ----NSM- ὁ ὁ
+3:1 N- ----NSM- θεός θεός
+3:1 C- -------- καὶ καί
+3:1 V- 3AAI-S-- εἶπεν λέγω  # module lemma ἔπω — λέγω keeps one dictionary form across both testaments
+3:1 RA ----NSM- ὁ ὁ
+3:1 N- ----NSM- ὄφις ὄφις
+3:1 RA ----DSF- τῇ ὁ
+3:1 N- ----DSF- γυναικί γυνή
+3:1 RI ----ASN- Τί τίς
+3:1 C- -------- ὅτι ὅτι
+3:1 V- 3AAI-S-- εἶπεν λέγω  # module lemma ἔπω — λέγω keeps one dictionary form across both testaments
+3:1 RA ----NSM- ὁ ὁ
+3:1 N- ----NSM- θεός θεός
+3:1 D- -------- Οὐ οὐ
+3:1 D- -------- μὴ μή
+3:1 V- 2AAS-P-- φάγητε ἐσθίω
+3:1 P- -------- ἀπὸ ἀπό
+3:1 A- ----GSN- παντὸς πᾶς
+3:1 N- ----GSN- ξύλου ξύλον
+3:1 RA ----GSN- τοῦ ὁ
+3:1 P- -------- ἐν ἐν
+3:1 RA ----DSM- τῷ ὁ
+3:1 N- ----DSM- παραδείσῳ παράδεισος
+3:2 C- -------- καὶ καί
+3:2 V- 3AAI-S-- εἶπεν λέγω  # module lemma ἔπω — λέγω keeps one dictionary form across both testaments
+3:2 RA ----NSF- ἡ ὁ
+3:2 N- ----NSF- γυνὴ γυνή
+3:2 RA ----DSM- τῷ ὁ
+3:2 N- ----DSM- ὄφει ὄφις
+3:2 P- -------- Ἀπὸ ἀπό
+3:2 N- ----GSM- καρποῦ καρπός
+3:2 N- ----GSN- ξύλου ξύλον
+3:2 RA ----GSM- τοῦ ὁ
+3:2 N- ----GSM- παραδείσου παράδεισος
+3:2 V- 1FMI-P-- φαγόμεθα ἐσθίω
+3:3 P- -------- ἀπὸ ἀπό
+3:3 C- -------- δὲ δέ
+3:3 N- ----GSM- καρποῦ καρπός
+3:3 RA ----GSN- τοῦ ὁ
+3:3 N- ----GSN- ξύλου ξύλον
+3:3 RR ----NSN- ὅ ὅς
+3:3 V- 3PAI-S-- ἐστιν εἰμί
+3:3 P- -------- ἐν ἐν
+3:3 A- ----DSN- μέσῳ μέσος  # module DSM — with a genitive after it, the neuter used as a noun, as MorphGNT codes ἐν μέσῳ
+3:3 RA ----GSM- τοῦ ὁ
+3:3 N- ----GSM- παραδείσου παράδεισος
+3:3 V- 3AAI-S-- εἶπεν λέγω  # module lemma ἔπω — λέγω keeps one dictionary form across both testaments
+3:3 RA ----NSM- ὁ ὁ
+3:3 N- ----NSM- θεός θεός
+3:3 D- -------- Οὐ οὐ
+3:3 V- 2FMI-P-- φάγεσθε ἐσθίω
+3:3 P- -------- ἀπʼ ἀπό
+3:3 RP ----GSM- αὐτοῦ αὐτός
+3:3 C- -------- οὐδὲ οὐδέ
+3:3 D- -------- μὴ μή
+3:3 V- 2AMS-P-- ἅψησθε ἅπτω  # module lemma ἅπτομαι — ἅπτω, as MorphGNT files the middle
+3:3 RP ----GSM- αὐτοῦ αὐτός
+3:3 C- -------- ἵνα ἵνα
+3:3 D- -------- μὴ μή
+3:3 V- 2AAS-P-- ἀποθάνητε ἀποθνήσκω
+3:4 C- -------- καὶ καί
+3:4 V- 3AAI-S-- εἶπεν λέγω  # module lemma ἔπω — λέγω keeps one dictionary form across both testaments
+3:4 RA ----NSM- ὁ ὁ
+3:4 N- ----NSM- ὄφις ὄφις
+3:4 RA ----DSF- τῇ ὁ
+3:4 N- ----DSF- γυναικί γυνή
+3:4 D- -------- Οὐ οὐ
+3:4 N- ----DSM- θανάτῳ θάνατος
+3:4 V- 2FMI-P-- ἀποθανεῖσθε ἀποθνήσκω
+3:5 V- 3YAI-S-- ᾔδει οἶδα  # module lemma εἴδω — Middle Liddell files this under οἶδα
+3:5 C- -------- γὰρ γάρ
+3:5 RA ----NSM- ὁ ὁ
+3:5 N- ----NSM- θεὸς θεός
+3:5 C- -------- ὅτι ὅτι
+3:5 P- -------- ἐν ἐν
+3:5 RR ----DSF- ᾗ ὅς
+3:5 X- -------- ἂν ἄν
+3:5 N- ----DSF- ἡμέρᾳ ἡμέρα
+3:5 V- 2AAS-P-- φάγητε ἐσθίω
+3:5 P- -------- ἀπʼ ἀπό
+3:5 RP ----GSM- αὐτοῦ αὐτός
+3:5 V- 3FPI-P-- διανοιχθήσονται διανοίγω
+3:5 RP ----GP-- ὑμῶν σύ  # module lemma ὑμῶν, the form itself — σύ is the dictionary form
+3:5 RA ----NPM- οἱ ὁ
+3:5 N- ----NPM- ὀφθαλμοί ὀφθαλμός
+3:5 C- -------- καὶ καί
+3:5 V- 2FMI-P-- ἔσεσθε εἰμί
+3:5 C- -------- ὡς ὡς  # module lemma ὥς — ὡς, the comparative particle, as MorphGNT files it
+3:5 N- ----NPM- θεοὶ θεός
+3:5 V- -PAPNPM- γινώσκοντες γινώσκω
+3:5 A- ----ASN- καλὸν καλός
+3:5 C- -------- καὶ καί
+3:5 A- ----ASN- πονηρόν πονηρός
+3:6 C- -------- καὶ καί
+3:6 V- 3AAI-S-- εἶδεν ὁράω
+3:6 RA ----NSF- ἡ ὁ
+3:6 N- ----NSF- γυνὴ γυνή
+3:6 C- -------- ὅτι ὅτι
+3:6 A- ----NSN- καλὸν καλός
+3:6 RA ----NSN- τὸ ὁ
+3:6 N- ----NSN- ξύλον ξύλον
+3:6 P- -------- εἰς εἰς
+3:6 N- ----ASF- βρῶσιν βρῶσις
+3:6 C- -------- καὶ καί
+3:6 C- -------- ὅτι ὅτι
+3:6 A- ----NSN- ἀρεστὸν ἀρεστός
+3:6 RA ----DPM- τοῖς ὁ
+3:6 N- ----DPM- ὀφθαλμοῖς ὀφθαλμός
+3:6 V- -AAN---- ἰδεῖν ὁράω
+3:6 C- -------- καὶ καί
+3:6 A- ----NSN- ὡραῖόν ὡραῖος
+3:6 V- 3PAI-S-- ἐστιν εἰμί
+3:6 RA ----GSN- τοῦ ὁ
+3:6 V- -AAN---- κατανοῆσαι κατανοέω
+3:6 C- -------- καὶ καί
+3:6 V- -AAPNSF- λαβοῦσα λαμβάνω
+3:6 RA ----GSM- τοῦ ὁ
+3:6 N- ----GSM- καρποῦ καρπός
+3:6 RP ----GSN- αὐτοῦ αὐτός
+3:6 V- 3AAI-S-- ἔφαγεν ἐσθίω
+3:6 C- -------- καὶ καί
+3:6 V- 3AAI-S-- ἔδωκεν δίδωμι
+3:6 D- -------- καὶ καί
+3:6 RA ----DSM- τῷ ὁ
+3:6 N- ----DSM- ἀνδρὶ ἀνήρ
+3:6 RP ----GSF- αὐτῆς αὐτός
+3:6 P- -------- μετʼ μετά
+3:6 RP ----GSF- αὐτῆς αὐτός
+3:6 C- -------- καὶ καί
+3:6 V- 3AAI-P-- ἔφαγον ἐσθίω
+3:7 C- -------- καὶ καί
+3:7 V- 3API-P-- διηνοίχθησαν διανοίγω
+3:7 RA ----NPM- οἱ ὁ
+3:7 N- ----NPM- ὀφθαλμοὶ ὀφθαλμός
+3:7 RA ----GPM- τῶν ὁ
+3:7 A- ----GPM- δύο δύο  # module M, no features — MorphGNT gives δύο case, number and gender from the syntax, as at 2:24
+3:7 C- -------- καὶ καί
+3:7 V- 3AAI-P-- ἔγνωσαν γινώσκω
+3:7 C- -------- ὅτι ὅτι
+3:7 A- ----NPM- γυμνοὶ γυμνός
+3:7 V- 3IAI-P-- ἦσαν εἰμί
+3:7 C- -------- καὶ καί
+3:7 V- 3AAI-P-- ἔρραψαν ῥάπτω
+3:7 N- ----APN- φύλλα φύλλον
+3:7 N- ----GSF- συκῆς συκῆ
+3:7 C- -------- καὶ καί
+3:7 V- 3AAI-P-- ἐποίησαν ποιέω
+3:7 RP ----DPM- ἑαυτοῖς ἑαυτοῦ
+3:7 N- ----APN- περιζώματα περίζωμα
+3:8 C- -------- Καὶ καί
+3:8 V- 3AAI-P-- ἤκουσαν ἀκούω
+3:8 RA ----ASF- τὴν ὁ
+3:8 N- ----ASF- φωνὴν φωνή
+3:8 N- ----GSM- κυρίου κύριος
+3:8 RA ----GSM- τοῦ ὁ
+3:8 N- ----GSM- θεοῦ θεός
+3:8 V- -PAPGSM- περιπατοῦντος περιπατέω
+3:8 P- -------- ἐν ἐν
+3:8 RA ----DSM- τῷ ὁ
+3:8 N- ----DSM- παραδείσῳ παράδεισος
+3:8 RA ----ASN- τὸ ὁ
+3:8 A- ----ASN- δειλινόν δειλινός
+3:8 C- -------- καὶ καί
+3:8 V- 3API-P-- ἐκρύβησαν κρύπτω  # module AAI3P — ἐκρύβησαν is the second aorist passive, as ἐκρύβην at 3:10
+3:8 RA ----NSM- ὅ ὁ  # module lemma ὅς — the article, accented ὅ before the enclitic τε, as at 2:25
+3:8 C- -------- τε τε
+3:8 N- ----NSM- Αδαμ Ἀδάμ
+3:8 C- -------- καὶ καί
+3:8 RA ----NSF- ἡ ὁ
+3:8 N- ----NSF- γυνὴ γυνή
+3:8 RP ----GSM- αὐτοῦ αὐτός
+3:8 P- -------- ἀπὸ ἀπό
+3:8 N- ----GSN- προσώπου πρόσωπον
+3:8 N- ----GSM- κυρίου κύριος
+3:8 RA ----GSM- τοῦ ὁ
+3:8 N- ----GSM- θεοῦ θεός
+3:8 P- -------- ἐν ἐν
+3:8 A- ----DSN- μέσῳ μέσος  # module DSM — with a genitive after it, the neuter used as a noun, as MorphGNT codes ἐν μέσῳ
+3:8 RA ----GSN- τοῦ ὁ
+3:8 N- ----GSN- ξύλου ξύλον
+3:8 RA ----GSM- τοῦ ὁ
+3:8 N- ----GSM- παραδείσου παράδεισος
+3:9 C- -------- καὶ καί
+3:9 V- 3AAI-S-- ἐκάλεσεν καλέω
+3:9 N- ----NSM- κύριος κύριος
+3:9 RA ----NSM- ὁ ὁ
+3:9 N- ----NSM- θεὸς θεός
+3:9 RA ----ASM- τὸν ὁ
+3:9 N- ----ASM- Αδαμ Ἀδάμ
+3:9 C- -------- καὶ καί
+3:9 V- 3AAI-S-- εἶπεν λέγω  # module lemma ἔπω — λέγω keeps one dictionary form across both testaments
+3:9 RP ----DSM- αὐτῷ αὐτός
+3:9 N- ----VSM- Αδαμ Ἀδάμ
+3:9 D- -------- ποῦ ποῦ
+3:9 V- 2PAI-S-- εἶ εἰμί
+3:10 C- -------- καὶ καί
+3:10 V- 3AAI-S-- εἶπεν λέγω  # module lemma ἔπω — λέγω keeps one dictionary form across both testaments
+3:10 RP ----DSM- αὐτῷ αὐτός
+3:10 RA ----ASF- Τὴν ὁ
+3:10 N- ----ASF- φωνήν φωνή
+3:10 RP ----GS-- σου σύ  # module lemma σοῦ, the form itself — σύ is the dictionary form
+3:10 V- 1AAI-S-- ἤκουσα ἀκούω
+3:10 V- -PAPGSM- περιπατοῦντος περιπατέω
+3:10 P- -------- ἐν ἐν
+3:10 RA ----DSM- τῷ ὁ
+3:10 N- ----DSM- παραδείσῳ παράδεισος
+3:10 C- -------- καὶ καί
+3:10 V- 1API-S-- ἐφοβήθην φοβέομαι  # module lemma φοβέω — φοβέομαι, as MorphGNT files it
+3:10 C- -------- ὅτι ὅτι
+3:10 A- ----NSM- γυμνός γυμνός
+3:10 V- 1PAI-S-- εἰμι εἰμί
+3:10 C- -------- καὶ καί
+3:10 V- 1API-S-- ἐκρύβην κρύπτω
+3:11 C- -------- καὶ καί
+3:11 V- 3AAI-S-- εἶπεν λέγω  # module lemma ἔπω — λέγω keeps one dictionary form across both testaments
+3:11 RP ----DSM- αὐτῷ αὐτός
+3:11 RI ----NSM- Τίς τίς
+3:11 V- 3AAI-S-- ἀνήγγειλέν ἀναγγέλλω
+3:11 RP ----DS-- σοι σύ  # module lemma σοί, the form itself — σύ is the dictionary form
+3:11 C- -------- ὅτι ὅτι
+3:11 A- ----NSM- γυμνὸς γυμνός
+3:11 V- 2PAI-S-- εἶ εἰμί
+3:11 X- -------- μὴ μή
+3:11 P- -------- ἀπὸ ἀπό
+3:11 RA ----GSN- τοῦ ὁ
+3:11 N- ----GSN- ξύλου ξύλον
+3:11 RR ----GSN- οὗ ὅς  # module lemma οὗ, the form itself — ὅς is the dictionary form  # corpus the relative, of the tree, where οὗ at 2:11 is the adverb of place — one spelling, two words
+3:11 V- 1AMI-S-- ἐνετειλάμην ἐντέλλομαι
+3:11 RP ----DS-- σοι σύ  # module lemma σοί, the form itself — σύ is the dictionary form
+3:11 RD ----GSN- τούτου οὗτος  # module GSM — resumes τοῦ ξύλου, which is neuter
+3:11 A- ----GSN- μόνου μόνος  # module GSM — agrees with τούτου, the tree
+3:11 D- -------- μὴ μή
+3:11 V- -AAN---- φαγεῖν ἐσθίω
+3:11 P- -------- ἀπʼ ἀπό
+3:11 RP ----GSN- αὐτοῦ αὐτός
+3:11 V- 2AAI-S-- ἔφαγες ἐσθίω
+3:12 C- -------- καὶ καί
+3:12 V- 3AAI-S-- εἶπεν λέγω  # module lemma ἔπω — λέγω keeps one dictionary form across both testaments
+3:12 RA ----NSM- ὁ ὁ
+3:12 N- ----NSM- Αδαμ Ἀδάμ
+3:12 RA ----NSF- Ἡ ὁ
+3:12 N- ----NSF- γυνή γυνή
+3:12 RR ----ASF- ἣν ὅς
+3:12 V- 2AAI-S-- ἔδωκας δίδωμι
+3:12 P- -------- μετʼ μετά
+3:12 RP ----GS-- ἐμοῦ ἐγώ  # module lemma ἐμοῦ, the form itself — ἐγώ is the dictionary form
+3:12 RD ----NSF- αὕτη οὗτος
+3:12 RP ----DS-- μοι ἐγώ  # module lemma μοι, the form itself — ἐγώ is the dictionary form
+3:12 V- 3AAI-S-- ἔδωκεν δίδωμι
+3:12 P- -------- ἀπὸ ἀπό
+3:12 RA ----GSN- τοῦ ὁ
+3:12 N- ----GSN- ξύλου ξύλον
+3:12 C- -------- καὶ καί
+3:12 V- 1AAI-S-- ἔφαγον ἐσθίω  # module AAI3P — the man speaking of himself: καὶ ἔφαγον, and I ate  # corpus the man speaking, first singular, where ἔφαγον at 3:6 is the third plural — one form, two persons
+3:13 C- -------- καὶ καί
+3:13 V- 3AAI-S-- εἶπεν λέγω  # module lemma ἔπω — λέγω keeps one dictionary form across both testaments
+3:13 N- ----NSM- κύριος κύριος
+3:13 RA ----NSM- ὁ ὁ
+3:13 N- ----NSM- θεὸς θεός
+3:13 RA ----DSF- τῇ ὁ
+3:13 N- ----DSF- γυναικί γυνή
+3:13 RI ----ASN- Τί τίς
+3:13 RD ----ASN- τοῦτο οὗτος
+3:13 V- 2AAI-S-- ἐποίησας ποιέω
+3:13 C- -------- καὶ καί
+3:13 V- 3AAI-S-- εἶπεν λέγω  # module lemma ἔπω — λέγω keeps one dictionary form across both testaments
+3:13 RA ----NSF- ἡ ὁ
+3:13 N- ----NSF- γυνή γυνή
+3:13 RA ----NSM- Ὁ ὁ
+3:13 N- ----NSM- ὄφις ὄφις
+3:13 V- 3AAI-S-- ἠπάτησέν ἀπατάω
+3:13 RP ----AS-- με ἐγώ  # module lemma μέ, the form itself — ἐγώ is the dictionary form
+3:13 C- -------- καὶ καί
+3:13 V- 1AAI-S-- ἔφαγον ἐσθίω  # module AAI3P — the woman speaking of herself: καὶ ἔφαγον, and I ate
+3:14 C- -------- καὶ καί
+3:14 V- 3AAI-S-- εἶπεν λέγω  # module lemma ἔπω — λέγω keeps one dictionary form across both testaments
+3:14 N- ----NSM- κύριος κύριος
+3:14 RA ----NSM- ὁ ὁ
+3:14 N- ----NSM- θεὸς θεός
+3:14 RA ----DSM- τῷ ὁ
+3:14 N- ----DSM- ὄφει ὄφις
+3:14 C- -------- Ὅτι ὅτι
+3:14 V- 2AAI-S-- ἐποίησας ποιέω
+3:14 RD ----ASN- τοῦτο οὗτος
+3:14 A- ----NSC- ἐπικατάρατος ἐπικατάρατος
+3:14 RP ----NS-- σὺ σύ
+3:14 P- -------- ἀπὸ ἀπό
+3:14 A- ----GPN- πάντων πᾶς
+3:14 RA ----GPN- τῶν ὁ
+3:14 N- ----GPN- κτηνῶν κτῆνος
+3:14 C- -------- καὶ καί
+3:14 P- -------- ἀπὸ ἀπό
+3:14 A- ----GPN- πάντων πᾶς
+3:14 RA ----GPN- τῶν ὁ
+3:14 N- ----GPN- θηρίων θηρίον
+3:14 RA ----GSF- τῆς ὁ
+3:14 N- ----GSF- γῆς γῆ
+3:14 P- -------- ἐπὶ ἐπί
+3:14 RA ----DSN- τῷ ὁ
+3:14 N- ----DSN- στήθει στῆθος
+3:14 RP ----GS-- σου σύ  # module lemma σοῦ, the form itself — σύ is the dictionary form
+3:14 C- -------- καὶ καί
+3:14 RA ----DSF- τῇ ὁ
+3:14 N- ----DSF- κοιλίᾳ κοιλία
+3:14 V- 2FMI-S-- πορεύσῃ πορεύομαι
+3:14 C- -------- καὶ καί
+3:14 N- ----ASF- γῆν γῆ
+3:14 V- 2FMI-S-- φάγῃ ἐσθίω
+3:14 A- ----APF- πάσας πᾶς
+3:14 RA ----APF- τὰς ὁ
+3:14 N- ----APF- ἡμέρας ἡμέρα
+3:14 RA ----GSF- τῆς ὁ
+3:14 N- ----GSF- ζωῆς ζωή
+3:14 RP ----GS-- σου σύ  # module lemma σοῦ, the form itself — σύ is the dictionary form
+3:15 C- -------- καὶ καί
+3:15 N- ----ASF- ἔχθραν ἔχθρα
+3:15 V- 1FAI-S-- θήσω τίθημι
+3:15 P- -------- ἀνὰ ἀνά
+3:15 A- ----ASN- μέσον μέσος
+3:15 RP ----GS-- σου σύ  # module lemma σοῦ, the form itself — σύ is the dictionary form
+3:15 C- -------- καὶ καί
+3:15 P- -------- ἀνὰ ἀνά
+3:15 A- ----ASN- μέσον μέσος  # module ASM — with a genitive after it, the neuter used as a noun, as MorphGNT codes ἀνὰ μέσον
+3:15 RA ----GSF- τῆς ὁ
+3:15 N- ----GSF- γυναικὸς γυνή
+3:15 C- -------- καὶ καί
+3:15 P- -------- ἀνὰ ἀνά
+3:15 A- ----ASN- μέσον μέσος  # module ASM — with a genitive after it, the neuter used as a noun, as MorphGNT codes ἀνὰ μέσον
+3:15 RA ----GSN- τοῦ ὁ
+3:15 N- ----GSN- σπέρματός σπέρμα
+3:15 RP ----GS-- σου σύ  # module lemma σοῦ, the form itself — σύ is the dictionary form
+3:15 C- -------- καὶ καί
+3:15 P- -------- ἀνὰ ἀνά
+3:15 A- ----ASN- μέσον μέσος  # module ASM — with a genitive after it, the neuter used as a noun, as MorphGNT codes ἀνὰ μέσον
+3:15 RA ----GSN- τοῦ ὁ
+3:15 N- ----GSN- σπέρματος σπέρμα
+3:15 RP ----GSF- αὐτῆς αὐτός
+3:15 RP ----NSM- αὐτός αὐτός
+3:15 RP ----GS-- σου σύ  # module lemma σοῦ, the form itself — σύ is the dictionary form
+3:15 V- 3FAI-S-- τηρήσει τηρέω
+3:15 N- ----ASF- κεφαλήν κεφαλή
+3:15 C- -------- καὶ καί
+3:15 RP ----NS-- σὺ σύ
+3:15 V- 2FAI-S-- τηρήσεις τηρέω
+3:15 RP ----GSM- αὐτοῦ αὐτός
+3:15 N- ----ASF- πτέρναν πτέρνα
+3:16 C- -------- καὶ καί
+3:16 RA ----DSF- τῇ ὁ
+3:16 N- ----DSF- γυναικὶ γυνή
+3:16 V- 3AAI-S-- εἶπεν λέγω  # module lemma ἔπω — λέγω keeps one dictionary form across both testaments
+3:16 V- -PAPNSM- Πληθύνων πληθύνω
+3:16 V- 1FAI-S-- πληθυνῶ πληθύνω
+3:16 RA ----APF- τὰς ὁ
+3:16 N- ----APF- λύπας λύπη
+3:16 RP ----GS-- σου σύ  # module lemma σοῦ, the form itself — σύ is the dictionary form
+3:16 C- -------- καὶ καί
+3:16 RA ----ASM- τὸν ὁ
+3:16 N- ----ASM- στεναγμόν στεναγμός
+3:16 RP ----GS-- σου σύ  # module lemma σοῦ, the form itself — σύ is the dictionary form
+3:16 P- -------- ἐν ἐν
+3:16 N- ----DPF- λύπαις λύπη
+3:16 V- 2FMI-S-- τέξῃ τίκτω
+3:16 N- ----APN- τέκνα τέκνον
+3:16 C- -------- καὶ καί
+3:16 P- -------- πρὸς πρός
+3:16 RA ----ASM- τὸν ὁ
+3:16 N- ----ASM- ἄνδρα ἀνήρ
+3:16 RP ----GS-- σου σύ  # module lemma σοῦ, the form itself — σύ is the dictionary form
+3:16 RA ----NSF- ἡ ὁ
+3:16 N- ----NSF- ἀποστροφή ἀποστροφή
+3:16 RP ----GS-- σου σύ  # module lemma σοῦ, the form itself — σύ is the dictionary form
+3:16 C- -------- καὶ καί
+3:16 RP ----NSM- αὐτός αὐτός
+3:16 RP ----GS-- σου σύ  # module lemma σοῦ, the form itself — σύ is the dictionary form
+3:16 V- 3FAI-S-- κυριεύσει κυριεύω
+3:17 RA ----DSM- τῷ ὁ
+3:17 C- -------- δὲ δέ
+3:17 N- ----DSM- Αδαμ Ἀδάμ
+3:17 V- 3AAI-S-- εἶπεν λέγω  # module lemma ἔπω — λέγω keeps one dictionary form across both testaments
+3:17 C- -------- Ὅτι ὅτι
+3:17 V- 2AAI-S-- ἤκουσας ἀκούω
+3:17 RA ----GSF- τῆς ὁ
+3:17 N- ----GSF- φωνῆς φωνή
+3:17 RA ----GSF- τῆς ὁ
+3:17 N- ----GSF- γυναικός γυνή
+3:17 RP ----GS-- σου σύ  # module lemma σοῦ, the form itself — σύ is the dictionary form
+3:17 C- -------- καὶ καί
+3:17 V- 2AAI-S-- ἔφαγες ἐσθίω
+3:17 P- -------- ἀπὸ ἀπό
+3:17 RA ----GSN- τοῦ ὁ
+3:17 N- ----GSN- ξύλου ξύλον
+3:17 RR ----GSN- οὗ ὅς  # module lemma οὗ, the form itself — ὅς is the dictionary form
+3:17 V- 1AMI-S-- ἐνετειλάμην ἐντέλλομαι
+3:17 RP ----DS-- σοι σύ  # module lemma σοί, the form itself — σύ is the dictionary form
+3:17 RD ----GSN- τούτου οὗτος  # module GSM — resumes τοῦ ξύλου, which is neuter
+3:17 A- ----GSN- μόνου μόνος  # module GSM — agrees with τούτου, the tree
+3:17 D- -------- μὴ μή
+3:17 V- -AAN---- φαγεῖν ἐσθίω
+3:17 P- -------- ἀπʼ ἀπό
+3:17 RP ----GSN- αὐτοῦ αὐτός
+3:17 A- ----NSC- ἐπικατάρατος ἐπικατάρατος
+3:17 RA ----NSF- ἡ ὁ
+3:17 N- ----NSF- γῆ γῆ
+3:17 P- -------- ἐν ἐν
+3:17 RA ----DPN- τοῖς ὁ
+3:17 N- ----DPN- ἔργοις ἔργον
+3:17 RP ----GS-- σου σύ  # module lemma σοῦ, the form itself — σύ is the dictionary form
+3:17 P- -------- ἐν ἐν
+3:17 N- ----DPF- λύπαις λύπη
+3:17 V- 2FMI-S-- φάγῃ ἐσθίω
+3:17 RP ----ASF- αὐτὴν αὐτός
+3:17 A- ----APF- πάσας πᾶς
+3:17 RA ----APF- τὰς ὁ
+3:17 N- ----APF- ἡμέρας ἡμέρα
+3:17 RA ----GSF- τῆς ὁ
+3:17 N- ----GSF- ζωῆς ζωή
+3:17 RP ----GS-- σου σύ  # module lemma σοῦ, the form itself — σύ is the dictionary form
+3:18 N- ----APF- ἀκάνθας ἄκανθα
+3:18 C- -------- καὶ καί
+3:18 N- ----APM- τριβόλους τρίβολος
+3:18 V- 3FAI-S-- ἀνατελεῖ ἀνατέλλω
+3:18 RP ----DS-- σοι σύ  # module lemma σοί, the form itself — σύ is the dictionary form
+3:18 C- -------- καὶ καί
+3:18 V- 2FMI-S-- φάγῃ ἐσθίω
+3:18 RA ----ASM- τὸν ὁ
+3:18 N- ----ASM- χόρτον χόρτος
+3:18 RA ----GSM- τοῦ ὁ
+3:18 N- ----GSM- ἀγροῦ ἀγρός
+3:19 P- -------- ἐν ἐν
+3:19 N- ----DSM- ἱδρῶτι ἱδρώς
+3:19 RA ----GSN- τοῦ ὁ
+3:19 N- ----GSN- προσώπου πρόσωπον
+3:19 RP ----GS-- σου σύ  # module lemma σοῦ, the form itself — σύ is the dictionary form
+3:19 V- 2FMI-S-- φάγῃ ἐσθίω
+3:19 RA ----ASM- τὸν ὁ
+3:19 N- ----ASM- ἄρτον ἄρτος
+3:19 RP ----GS-- σου σύ  # module lemma σοῦ, the form itself — σύ is the dictionary form
+3:19 P- -------- ἕως ἕως
+3:19 RA ----GSN- τοῦ ὁ
+3:19 V- -AAN---- ἀποστρέψαι ἀποστρέφω
+3:19 RP ----AS-- σε σύ  # module lemma σέ, the form itself — σύ is the dictionary form
+3:19 P- -------- εἰς εἰς
+3:19 RA ----ASF- τὴν ὁ
+3:19 N- ----ASF- γῆν γῆ
+3:19 P- -------- ἐξ ἐκ
+3:19 RR ----GSF- ἧς ὅς
+3:19 V- 2API-S-- ἐλήμφθης λαμβάνω
+3:19 C- -------- ὅτι ὅτι
+3:19 N- ----NSF- γῆ γῆ
+3:19 V- 2PAI-S-- εἶ εἰμί
+3:19 C- -------- καὶ καί
+3:19 P- -------- εἰς εἰς
+3:19 N- ----ASF- γῆν γῆ
+3:19 V- 2FMI-S-- ἀπελεύσῃ ἀπέρχομαι
+3:20 C- -------- καὶ καί
+3:20 V- 3AAI-S-- ἐκάλεσεν καλέω
+3:20 N- ----NSM- Αδαμ Ἀδάμ
+3:20 RA ----ASN- τὸ ὁ
+3:20 N- ----ASN- ὄνομα ὄνομα
+3:20 RA ----GSF- τῆς ὁ
+3:20 N- ----GSF- γυναικὸς γυνή
+3:20 RP ----GSM- αὐτοῦ αὐτός
+3:20 N- ----NSF- Ζωή Ζωή  # module lemma ζωή — printed capitalised as a name, and lemmatised as one
+3:20 C- -------- ὅτι ὅτι
+3:20 RD ----NSF- αὕτη οὗτος
+3:20 N- ----NSF- μήτηρ μήτηρ
+3:20 A- ----GPM- πάντων πᾶς
+3:20 RA ----GPM- τῶν ὁ
+3:20 V- -PAPGPM- ζώντων ζάω
+3:21 C- -------- Καὶ καί
+3:21 V- 3AAI-S-- ἐποίησεν ποιέω
+3:21 N- ----NSM- κύριος κύριος
+3:21 RA ----NSM- ὁ ὁ
+3:21 N- ----NSM- θεὸς θεός
+3:21 RA ----DSM- τῷ ὁ
+3:21 N- ----DSM- Αδαμ Ἀδάμ
+3:21 C- -------- καὶ καί
+3:21 RA ----DSF- τῇ ὁ
+3:21 N- ----DSF- γυναικὶ γυνή
+3:21 RP ----GSM- αὐτοῦ αὐτός
+3:21 N- ----APM- χιτῶνας χιτών
+3:21 A- ----APM- δερματίνους δερμάτινος
+3:21 C- -------- καὶ καί
+3:21 V- 3AAI-S-- ἐνέδυσεν ἐνδύω
+3:21 RP ----APM- αὐτούς αὐτός
+3:22 C- -------- καὶ καί
+3:22 V- 3AAI-S-- εἶπεν λέγω  # module lemma ἔπω — λέγω keeps one dictionary form across both testaments
+3:22 RA ----NSM- ὁ ὁ
+3:22 N- ----NSM- θεός θεός
+3:22 X- -------- Ἰδοὺ ἰδού
+3:22 N- ----NSM- Αδαμ Ἀδάμ
+3:22 V- 3XAI-S-- γέγονεν γίνομαι
+3:22 C- -------- ὡς ὡς  # module lemma ὥς — ὡς, the comparative particle, as MorphGNT files it
+3:22 A- ----NSM- εἷς εἷς
+3:22 P- -------- ἐξ ἐκ
+3:22 RP ----GP-- ἡμῶν ἐγώ  # module lemma ἡμῶν, the form itself — ἐγώ is the dictionary form
+3:22 RA ----GSN- τοῦ ὁ
+3:22 V- -PAN---- γινώσκειν γινώσκω
+3:22 A- ----ASN- καλὸν καλός  # module ASM — substantival neuter: good and evil as things, as at 3:5
+3:22 C- -------- καὶ καί
+3:22 A- ----ASN- πονηρόν πονηρός  # module ASM — substantival neuter, with καλόν
+3:22 C- -------- καὶ καί
+3:22 D- -------- νῦν νῦν
+3:22 C- -------- μήποτε μήποτε
+3:22 V- 3AAS-S-- ἐκτείνῃ ἐκτείνω
+3:22 RA ----ASF- τὴν ὁ
+3:22 N- ----ASF- χεῖρα χείρ
+3:22 C- -------- καὶ καί
+3:22 V- 3AAS-S-- λάβῃ λαμβάνω
+3:22 RA ----GSN- τοῦ ὁ
+3:22 N- ----GSN- ξύλου ξύλον
+3:22 RA ----GSF- τῆς ὁ
+3:22 N- ----GSF- ζωῆς ζωή
+3:22 C- -------- καὶ καί
+3:22 V- 3AAS-S-- φάγῃ ἐσθίω  # module FMI2S — third singular under μήποτε, with ἐκτείνῃ and λάβῃ: the man is spoken of, not to  # corpus aorist subjunctive, third singular, under μήποτε, where φάγῃ at 2:16 is the future, second singular — one form, two parses
+3:22 C- -------- καὶ καί
+3:22 V- 3FMI-S-- ζήσεται ζάω
+3:22 P- -------- εἰς εἰς
+3:22 RA ----ASM- τὸν ὁ
+3:22 N- ----ASM- αἰῶνα αἰών
+3:23 C- -------- καὶ καί
+3:23 V- 3AAI-S-- ἐξαπέστειλεν ἐξαποστέλλω
+3:23 RP ----ASM- αὐτὸν αὐτός
+3:23 N- ----NSM- κύριος κύριος
+3:23 RA ----NSM- ὁ ὁ
+3:23 N- ----NSM- θεὸς θεός
+3:23 P- -------- ἐκ ἐκ
+3:23 RA ----GSM- τοῦ ὁ
+3:23 N- ----GSM- παραδείσου παράδεισος
+3:23 RA ----GSF- τῆς ὁ
+3:23 N- ----GSF- τρυφῆς τρυφή
+3:23 V- -PEN---- ἐργάζεσθαι ἐργάζομαι
+3:23 RA ----ASF- τὴν ὁ
+3:23 N- ----ASF- γῆν γῆ
+3:23 P- -------- ἐξ ἐκ
+3:23 RR ----GSF- ἧς ὅς
+3:23 V- 3API-S-- ἐλήμφθη λαμβάνω
+3:24 C- -------- καὶ καί
+3:24 V- 3AAI-S-- ἐξέβαλεν ἐκβάλλω
+3:24 RA ----ASM- τὸν ὁ
+3:24 N- ----ASM- Αδαμ Ἀδάμ
+3:24 C- -------- καὶ καί
+3:24 V- 3AAI-S-- κατῴκισεν κατοικίζω  # module lemma κατοικέω — κατῴκισεν is the aorist of κατοικίζω; κατοικέω would give κατῴκησεν
+3:24 RP ----ASM- αὐτὸν αὐτός
+3:24 P- -------- ἀπέναντι ἀπέναντι
+3:24 RA ----GSM- τοῦ ὁ
+3:24 N- ----GSM- παραδείσου παράδεισος
+3:24 RA ----GSF- τῆς ὁ
+3:24 N- ----GSF- τρυφῆς τρυφή
+3:24 C- -------- καὶ καί
+3:24 V- 3AAI-S-- ἔταξεν τάσσω
+3:24 RA ----APN- τὰ ὁ
+3:24 N- ----APN- χερουβιμ χερουβιμ  # module lemma χερούβ — as printed, unaccented, like the Semitic names
+3:24 C- -------- καὶ καί
+3:24 RA ----ASF- τὴν ὁ
+3:24 A- ----ASF- φλογίνην φλόγινος
+3:24 N- ----ASF- ῥομφαίαν ῥομφαία
+3:24 RA ----ASF- τὴν ὁ
+3:24 V- -PEPASF- στρεφομένην στρέφω
+3:24 V- -PAN---- φυλάσσειν φυλάσσω
+3:24 RA ----ASF- τὴν ὁ
+3:24 N- ----ASF- ὁδὸν ὁδός
+3:24 RA ----GSN- τοῦ ὁ
+3:24 N- ----GSN- ξύλου ξύλον
+3:24 RA ----GSF- τῆς ὁ
+3:24 N- ----GSF- ζωῆς ζωή

@@ -64,6 +64,12 @@ LSJ = {
     # the Latin os, ossis. LSJ (eng16) tags "bone" among citation debris (d)Fr., a
     # mangled ´sthi) that is not part of any sense.
     "ὀστέον": ["bone", "the bleached bones of the dead"],
+    # Middle Liddell has no entry for the pronoun of the second person at all. LSJ
+    # (eng21) opens it "thou", and everything after is paradigm, not sense.
+    "σύ": ["thou"],
+    # Middle Liddell has no φλόγινος. LSJ (eng24) gives "flaming, fiery" and cites this
+    # very verse for the sword, "ῥομφαία LXX Ge. 3.24"; then "flame-coloured" of garments.
+    "φλόγινος": ["flaming, fiery", "flame-coloured"],
 }
 
 # New Testament books: MorphGNT file and its book number.
@@ -135,6 +141,49 @@ NOT_SENSES = {
     # "to dishonour" — and GEN 2:25 ᾐσχύνοντο is middle/passive. Sense II, the first
     # numbered sense open to that voice, is "to be ashamed, feel shame".
     "ai)sxu/nw": {"to make ugly, disfigure, mar", "to dishonour, tarnish", "to dishonour"},
+    # φοβέω heads its actives "A. Act." — to put to flight, to terrify — and its passive
+    # and middle "B. Pass. and Mid."; GEN 3:10 ἐφοβήθην is passive, so the actives go.
+    "fobe/w": {"to put to flight", "to strike with fear, to terrify, frighten, alarm",
+               "alarm", "by terror"},
+    # ἅπτω's sense I is the active, "to fasten, bind fast", with a transitive middle
+    # beside it; sense II is marked "Mid." and "c. gen." — the construction of GEN 3:3
+    # ἅψησθε αὐτοῦ — and its opening gloss, "to fasten oneself to", is that form's.
+    "a(/ptw": {"to fasten, bind fast", "to fasten for oneself", "to join", "to fasten", "on"},
+    # στρέφω's senses A.I–VI are the active; "B. Pass. and Mid." opens "to turn oneself,
+    # to turn round", which is GEN 3:24 στρεφομένην.
+    "stre/fw": {"to turn about", "aside, turn", "to turn", "guide", "to sway",
+                "to overturn, upset", "to twist", "to twist, torture", "to twist, plait",
+                "to spin", "over", "to turn from the right course, divert, embezzle"},
+    # ἐνδύω's sense I, "to go into, put on", is the intransitive and the middle; the
+    # entry marks sense II "Causal in pres. ἐνδύω, fut. -δύσω, aor1 -έδυσα", which is
+    # GEN 3:21 ἐνέδυσεν, the aorist that clothes another.
+    "e)ndu/w": {"to go into", "to put on", "to wear", "to put on, assume",
+                "to enter, to press into", "to enter"},
+    # One entry for two words: ὥς, accented, the demonstrative "so, thus", and ὡς, the
+    # relative "as" — the entry's own words. Perseus's opening summary mixes the two.
+    # GEN 3:5 and 3:22 print the relative, so the demonstrative's glosses go.
+    "w(s": {"thus, as, so that, since", "so, thus", "even so, nevertheless",
+            "not even so, in no wise", "so . . as . .", "thus, for instance"},
+    "meta/": {"in the midst of, among with gen., dat., and acc."},  # Perseus's summary
+    "a)resto/s": {"quite", "satisfaction"},     # from the adverb "quite to his satisfaction"
+    "a)na/": {"motion upwards"},                # describes the accusative; glosses nothing
+    "fwnh/": {"rumpere vocem"},                 # Latin
+    # Scraps from the opening senses of GEN 3's new words: pieces of longer glosses,
+    # descriptions of a construction, and an etymology tagged as a translation.
+    "te/knon": {"bairn", "beran, to bear)"},    # "(cf. Scottish bairn, from Anglo-S. beran, to bear)"
+    "a)kou/w": {"thing heard", "pers. from whom it is heard"},  # "c. acc. of thing heard, gen. of pers."
+    "a)pe/rxomai": {"departure from one", "and arrival at"},     # describes εἰς after the verb
+    "a)postre/fw": {"back", "back from"},       # from "to turn one back", "back from flight"
+    "katoiki/zw": {"as colonists", "in"},       # from "establish there as colonists", "plant one in"
+    "w(rai=os": {"hora)"},                      # etymology
+    "kru/ptw": {"having cloaked his"},          # from "having cloaked his head"
+    "e(/ws": {"future"},                        # from "in future time"
+    "lu/ph": {"condition"},                     # from "distress, sad plight or condition"
+    "mh/": {"thought", "statement", "that one thinks a thing is not", "that it is not."},  # the note on μή and οὐ
+    "o)fqalmo/s": {"before", "to one's face"},  # from "before one's eyes", "to one's face"
+    "r(a/ptw": {"to make oneself", "having got"},  # from quoted examples
+    "plhqu/nw": {"I am led by general opinion"},   # a construction
+    "fu/llon": {"of leaves"},                   # from "the generation of leaves"
 }
 # The key the lexicon files a word under, where that is not the key the lemma itself
 # gives: a different spelling (Attic γίγνομαι for Koine γίνομαι), the active a deponent
@@ -151,6 +200,9 @@ SPELLING = {
     "peteino/n": "peteino/s",       # the neuter noun, filed under the adjective
     "e(/neken": "e(/neka",          # the Koine form of the Attic preposition
     "e)nte/llomai": "e)nte/llw",    # deponent, filed under the active
+    "fobe/omai": "fobe/w",          # MorphGNT's middle, filed under the active
+    "e)/xqra": "e)/xqrh",           # the entry is headed with the Ionic spelling
+    "deilino/s": "deielino/s",      # cross-reference; "contr. for δειελινός" glosses nothing
 }
 
 # Homographs where Perseus's *first* entry is a different word from the one the text
@@ -164,6 +216,7 @@ ENTRY = {
     "le/gw": "le/gw3",   # le/gw1 is "to lull to sleep", le/gw2 "to gather"; saying is the third
     "ou)": "ou)8",       # of eighteen entries, all but this one gloss an idiom (ou) ga/r,
                          # ou) mh/n …); ou)8 is the plain negative, "not", Lat. non
+    "o(do/s": "o(do/s2",  # o(do/s1 is the attic ὀδός for οὐδός, "a threshold"; GEN 3:24 is the way
 }
 
 PUNCT = re.compile(r"[.,;:·!?—·]")
@@ -252,6 +305,9 @@ def load_middle_liddell():
         scope = body[start:] if start >= 0 else body
         glosses = (re.sub(r"\s+", " ", re.sub(r"<[^>]+>", "", t)).strip()
                    for t in re.findall(r"<tr\b[^>]*>(.*?)</tr>", scope, re.S))
+        # One translation in the whole lexicon runs on into the voice label after it —
+        # ἐξαποστέλλω's "to send quite away:—Pass." — so the label is cut off, not the gloss.
+        glosses = (re.sub(r":\s*—\s*(?:Pass|Mid|Act)\.$", "", g) for g in glosses)
         senses = [g for g in glosses if g]
         entries.setdefault(key, senses)
         entries.setdefault(re.sub(r"\d+$", "", key), senses)

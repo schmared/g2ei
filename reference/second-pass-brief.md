@@ -49,6 +49,16 @@ conjunction where MorphGNT tags that construction as a particle. The other eight
 this brief: it told the second pass to give δύο no features, before MorphGNT was checked and
 found to code δύο like any adjective. The brief below is corrected.
 
+### What it found in Genesis 3
+
+Six disagreements over 581 words, with the conventions for the chapter's new small words — ἰδού,
+μήποτε, adverbial καί, ἀνὰ μέσον — added to the brief beforehand from MorphGNT counts. The
+second pass was right four times: τοῦ at 3:2 goes with masculine παραδείσου, and αὐτοῦ at 3:3
+(twice) and 3:5 resumes the fronted ἀπὸ καρποῦ, the fruit, not the tree — the reference module
+reads all three the same way. It was wrong twice, and both trace to this brief: it had no rule
+for τί ὅτι, and its rule for contracted nouns sent συκῆς to συκέα, where Middle Liddell and
+MorphGNT both file συκῆ. Both rules are corrected below.
+
 ## The brief
 
 Copy everything below the rule into a new agent. Replace `<BOOK NAME>`, `<CHAPTER>`,
@@ -87,17 +97,20 @@ finishing.
 ## Part of speech (column 2)
 
 N- noun · V- verb · A- adjective (numerals included) · RA article · RP personal pronoun
-(αὐτός included) · RD demonstrative · RR relative pronoun · RI interrogative · P- preposition
-· C- conjunction · D- adverb · X- particle · I- interjection
+(αὐτός and the reflexive ἑαυτοῦ included) · RD demonstrative · RR relative pronoun · RI
+interrogative · P- preposition · C- conjunction · D- adverb · X- particle · I- interjection
 
 Small words are tagged as MorphGNT tags them:
 
-- **C-** καί, δέ, γάρ, ὅτι, τε; ἐάν meaning *if*; ὅτε introducing a clause, including after a
-  noun that is not a time (`ἡ μαρτυρία … ὅτε`, John 1:19)
-- **X-** ἄν; and ἐάν where it stands for ἄν after a relative (`ὃ ἐὰν θέλητε`, John 15:7)
-- **D-** οὐ, νῦν, ἔτι, ἐκεῖ, ἐκεῖθεν; ὅτε after a noun of time (`ἔρχεται ὥρα ὅτε`, John
-  4:21); οὗ meaning *where*
-- **P-** a word governing a genitive as a preposition does, such as ἐπάνω
+- **C-** καί, δέ, γάρ, ὅτι, τε, ἵνα; ἐάν meaning *if*; ὅτε introducing a clause, including
+  after a noun that is not a time (`ἡ μαρτυρία … ὅτε`, John 1:19); οὐδέ meaning *nor*; μήποτε
+  meaning *lest*; ὡς meaning *as, like*
+- **X-** ἄν; ἐάν where it stands for ἄν after a relative (`ὃ ἐὰν θέλητε`, John 15:7); ἰδού;
+  μή opening a question that expects *no*
+- **D-** οὐ, μή, νῦν, ἔτι, ἐκεῖ, ἐκεῖθεν, ποῦ; καί meaning *also, even*; οὐδέ meaning *not
+  even*; ὅτε after a noun of time (`ἔρχεται ὥρα ὅτε`, John 4:21); οὗ meaning *where*
+- **P-** a word governing a genitive as a preposition does — ἐπάνω, ἀπέναντι, ἀνά — and ἕως
+  governing a genitive, an articular infinitive included
 
 ## Parse (column 3) — exactly 8 characters
 
@@ -132,7 +145,14 @@ Conventions:
   noun (οἱ δύο `----NPM-`, as MorphGNT codes δύο at John 1:35). An indeclinable place name
   has none (Εδεμ `----DS--`). A declinable Greek name keeps its gender like any noun — rivers
   are masculine (Τίγρις, Εὐφράτης).
+- An indeclinable common noun takes its gender from the article or adjective beside it.
 - An article before an indeclinable name still carries full case, number and gender.
+- μέσος with a genitive after it — `ἐν μέσῳ τοῦ …`, `ἀνὰ μέσον τοῦ …` — is the neuter
+  adjective used as a noun: `A- ----DSN-`, `A- ----ASN-`.
+- A word of address is vocative, case `V`.
+- τί in `τί ὅτι`, *why is it that*, is accusative, `RI ----ASN-`, as MorphGNT codes it all
+  three times (Luke 2:49; Acts 5:4, 5:9).
+- οἶδα's past forms (ᾔδει) are pluperfect, `Y`, as MorphGNT codes them.
 - Where the form is ambiguous, case, number and gender come from the syntax: neuters in the
   nominative and accusative, verbless clauses, agreement with a noun, a hanging nominative.
 
@@ -142,14 +162,18 @@ The dictionary form as Middle Liddell (Perseus) files it:
 
 - Koine spellings: γίνομαι, γινώσκω. No iota subscript where Perseus has none: ἀποθνήσκω.
   Enclitics unaccented: τε.
-- Deponents under their middle form: ἐργάζομαι, πορεύομαι, ἐκπορεύομαι, ἐντέλλομαι.
+- Verbs with no active in use under their middle form, as MorphGNT files them: ἐργάζομαι,
+  πορεύομαι, ἐκπορεύομαι, ἐντέλλομαι, φοβέομαι, ἀπέρχομαι.
 - εἰδέναι → οἶδα · εἶπεν → λέγω · ἰδεῖν → ὁράω · φαγ- forms → ἐσθίω · μου → ἐγώ ·
   every article → ὁ.
-- Contracted forms under the uncontracted lemma: ὀστοῦν → ὀστέον. ἕνεκεν → ἕνεκα. A neuter
-  noun filed as such: πετεινόν.
+- A contracted form goes under whichever spelling Middle Liddell heads the entry with — the
+  uncontracted ὀστέον for ὀστοῦν, but the contracted συκῆ for συκῆς, as MorphGNT has it.
+  ἕνεκεν → ἕνεκα. A neuter noun filed as such: πετεινόν.
 - Proper names: Semitic place names exactly as printed, unaccented (Εδεμ, Φισων); Ἀδάμ
   accented, though printed Αδαμ; Greek names in the nominative singular (Αἰθιοπία, Τίγρις,
-  Ἀσσύριος, Εὐφράτης).
+  Ἀσσύριος, Εὐφράτης). A Greek word the text prints capitalised as a name keeps its capital
+  in the lemma.
+- Any other Semitic word printed unaccented: exactly as printed, like the place names.
 
 ## The text
 

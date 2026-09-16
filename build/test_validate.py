@@ -31,6 +31,7 @@ import validate as V  # noqa: E402
 import morph_diff as D  # noqa: E402
 
 GEN = json.loads((render.DATA / "GEN/1.json").read_text(encoding="utf-8"))
+GEN3 = json.loads((render.DATA / "GEN/3.json").read_text(encoding="utf-8"))
 JHN = json.loads((render.DATA / "JHN/1.json").read_text(encoding="utf-8"))
 
 
@@ -129,6 +130,12 @@ R11 = GEN[0]["reading"]
 BARE = {k: v for k, v in JHN[2]["names"][0].items() if k != "gloss"}
 BARE["bare"] = True
 
+# A transliteration the edition prints in lower case (GEN 3:24), in a verse of its own.
+CHERUBIM = {"greek": "χερουβιμ", "unanchored": "cheroubim", "anchored": "cherubim",
+            "gloss": "(χερουβιμ, from Hebrew kĕrûbîm)"}
+TRANSLIT = dict(GEN[0], greek="καὶ ἔταξεν τὰ χερουβιμ.", reading="and [[name:χερουβιμ]].",
+                names=[CHERUBIM])
+
 # Each must report at least one failure.
 NEGATIVE = [
     ("fields   empty reading",           lambda: run(V.check_fields, mut(GEN, [0, "reading"], "  "))),
@@ -164,6 +171,10 @@ NEGATIVE = [
                                          lambda: run(V.check_greek, "GEN", 1, mut(GEN, [0, "greek"], "Ἐν ἀρχῇ ἐποίησεν ὁ Θεὸς τὸν οὐρανὸν καὶ τὴν γῆν."))),
     ("names    bare entry on a first occurrence",
                                          lambda: run(V.check_names, mut(JHN, [2, "names"], [BARE]))),
+    ("names    lower-case transliteration with no marker",
+                                         lambda: run(V.check_names, [dict(TRANSLIT, reading="and cherubim.")])),
+    ("names    transliteration entry for a word not printed",
+                                         lambda: run(V.check_names, [dict(TRANSLIT, greek="καὶ ἔταξεν αὐτούς.")])),
     ("fields   bare entry still carrying a gloss",
                                          lambda: run(V.check_fields, [dict(JHN[2], names=[dict(JHN[2]["names"][0], bare=True)])])),
     # the project's own morphology, judged by its code's own grammar
@@ -229,6 +240,10 @@ CONTROL = [
                                          lambda: run(V.check_fields, [dict(JHN[2], names=[BARE])])),
     ("names    a later occurrence takes a bare entry",
                                          lambda: run(V.check_names, JHN + [dict(JHN[2], ref="JHN 1:15", names=[BARE])])),
+    ("names    a lower-case transliteration is glossed like a name",
+                                         lambda: run(V.check_names, [TRANSLIT])),
+    ("names    clean GEN 3, with lower-case χερουβιμ",
+                                         lambda: run(V.check_names, GEN3)),
     ("words    a documented difference is a note, not a failure",
                                          lambda: run(V.check_analysis, "GEN", 2)),
     ("anchors  a chain may contain the conventional form",
@@ -245,6 +260,9 @@ CONTROL = [
     ("corpus   clean GEN 1",             lambda: run(V.check_corpus, "GEN", 1)),
     ("corpus   clean GEN 2, with its noted homograph ὅ",
                                          lambda: run(V.check_corpus, "GEN", 2)),
+    ("morph    clean GEN 3",             lambda: run(V.check_morph_shape, "GEN", 3)),
+    ("corpus   clean GEN 3, with its noted ἔφαγον and φάγῃ",
+                                         lambda: run(V.check_corpus, "GEN", 3)),
     ("corpus   grave and acute are one form",
                                          lambda: holds(V.corpus_key("καλὸν") == V.corpus_key("καλόν"),
                                                        "a grave is the acute before another word")),
@@ -316,7 +334,9 @@ def main():
                 print("       %s" % line.strip())
 
     print("\nDERIVATION — every chain appears in both panels, in order")
-    for verse in GEN + JHN:
+    page = [v for book, chapter in render.PAGE
+            for v in json.loads((render.DATA / book / ("%d.json" % chapter)).read_text(encoding="utf-8"))]
+    for verse in page:
         ok, n = derivation(verse)
         if not ok:
             bad += 1

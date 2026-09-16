@@ -31,6 +31,15 @@ curl -sL --create-dirs -o sources/morphgnt/64-Jn-morphgnt.txt https://raw.github
 `build/words.py` reads it for the word-by-word layer. Until it is present, John's Greek lines
 render without that layer.
 
+The second morphology pass settles questions of convention — what part of speech a small word
+is, which spelling a lemma takes — by counting what MorphGNT does across the whole New
+Testament (see `reference/second-pass-brief.md`), so it is worth fetching every book, about
+9 MB in all:
+
+```bash
+for f in 61-Mt 62-Mk 63-Lk 64-Jn 65-Ac 66-Ro 67-1Co 68-2Co 69-Ga 70-Eph 71-Php 72-Col 73-1Th 74-2Th 75-1Ti 76-2Ti 77-Tit 78-Phm 79-Heb 80-Jas 81-1Pe 82-2Pe 83-1Jn 84-2Jn 85-3Jn 86-Jud 87-Re; do curl -sL -o sources/morphgnt/$f-morphgnt.txt https://raw.githubusercontent.com/morphgnt/sblgnt/master/$f-morphgnt.txt; done
+```
+
 ## Lexicon — Middle Liddell, Perseus XML
 
 Liddell and Scott's *Intermediate Greek-English Lexicon* (1889) as the Perseus Digital
@@ -57,7 +66,10 @@ curl -sL --create-dirs -o sources/lsj/grc.lsj.perseus-eng1.xml https://raw.githu
 | file | covers | fetched for |
 | --- | --- | --- |
 | `eng1` | the whole of alpha, `*a` to `ἄωτος` (42 MB) | ἀκατασκεύαστος (Gen 1:2), ἁγιάζω (Gen 2:3) |
+| `eng16` | omicron (12 MB) | ὀστέον (Gen 2:23) |
 | `eng17` | pi, `p` to `πώϋξ` (38 MB) | πράσινος (Gen 2:12) |
+| `eng21` | sigma (23 MB) | σύ (Gen 3), which Middle Liddell omits |
+| `eng24` | phi (8 MB) | φλόγινος (Gen 3:24) |
 
 To find which file holds a letter without downloading any of them, read the head of a few
 and look at the first entry's key:

@@ -15,7 +15,8 @@ that hold the project's own morphology to its own grammar and to itself:
            [[name:…]] marker well-formed and resolvable; every Old Testament verse cites
            the printed page its Greek was transcribed from
   names    every proper name in the Greek is glossed on its first occurrence in the
-           chapter and left bare after that
+           chapter and left bare after that — and so is a transliteration the edition
+           prints in lower case, once its entry names it
   banned   no phrase from BANNED_PHRASES in either reading panel
   anchors  no headword stands bare: an anchor never appears as plain text outside its
            unit, so the unanchored panel never shows it on its own. (It may appear
@@ -317,6 +318,17 @@ def matches(candidate, entry_greek):
     return shared >= min(4, len(a), len(b))
 
 
+def transliterations(greek, entries):
+    """The names entries for words this verse prints in lower case.
+
+    An obvious transliteration carries its meaning as a proper name does (CLAUDE.md), but
+    the edition gives it no capital — τὰ χερουβιμ, GEN 3:24 — so capitals cannot find it.
+    Its entry names it instead, and it counts wherever the verse prints that exact word.
+    """
+    words = set(PUNCT.sub(" ", greek).split())
+    return [e["greek"] for e in entries if e["greek"][:1].islower() and e["greek"] in words]
+
+
 def check_names(verses, rep):
     before = rep.failed
     glossed, found_any = {}, False
@@ -329,7 +341,8 @@ def check_names(verses, rep):
             if word not in capitals:
                 rep.fail("names", ref, "`speech` lists %s, which is not a capitalised word "
                                        "inside this verse's Greek" % word)
-        candidates = [c for c in capitals if c not in speech]
+        candidates = ([c for c in capitals if c not in speech]
+                      + transliterations(verse["greek"], entries))
         found_any = found_any or bool(candidates)
         used = set()
 
