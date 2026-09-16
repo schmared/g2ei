@@ -43,7 +43,7 @@ TEMPLATES = ROOT / "templates"
 SITE = ROOT / "site"
 
 # Chapters on the page, in order.
-PAGE = [("GEN", 1), ("GEN", 2), ("GEN", 3), ("JHN", 1)]
+PAGE = [("GEN", 1), ("GEN", 2), ("GEN", 3), ("GEN", 4), ("JHN", 1)]
 
 BOOKS = {
     "GEN": {
@@ -143,14 +143,18 @@ def reading(text, names, form):
     out.append(src[pos:])
 
     by_greek = {n["greek"]: n for n in names}
+    glossed = set()
 
     def name(m):
         n = by_greek[m.group(1)]
         span = '<span class="name">%s</span>' % esc(n[form])
-        if n.get("bare"):
-            # Glossed on its first occurrence in the chapter, bare after that — but
-            # still panel-specific: Iōannēs unanchored, John anchored.
+        if n.get("bare") or n["greek"] in glossed:
+            # Glossed on its first occurrence in the chapter, bare after that — which
+            # includes a second occurrence in the verse that carries the gloss (Αβελ
+            # twice in GEN 4:2) — but still panel-specific: Iōannēs unanchored, John
+            # anchored.
             return span
+        glossed.add(n["greek"])
         return '%s <span class="paren">%s</span>' % (span, esc(n["gloss"]))
 
     return emphasis(NAME.sub(name, "".join(out)))

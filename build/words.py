@@ -70,6 +70,16 @@ LSJ = {
     # Middle Liddell has no φλόγινος. LSJ (eng24) gives "flaming, fiery" and cites this
     # very verse for the sword, "ῥομφαία LXX Ge. 3.24"; then "flame-coloured" of garments.
     "φλόγινος": ["flaming, fiery", "flame-coloured"],
+    # Middle Liddell's only entry is ποιμάν, "doric for ποιμήν", which glosses nothing and
+    # points at an entry the abridgement does not have. LSJ (eng17) cites GEN 4:2 for
+    # "shepherd": "π. προβάτων LXX Ge. 4.2".
+    "ποιμήν": ["herdsman", "shepherd", "captain, chief", "master, lord", "pastor, teacher"],
+    # No Middle Liddell entry. LSJ (eng26) cites GEN 4:21.
+    "ψαλτήριον": ["stringed instrument, psaltery, harp"],
+    # No Middle Liddell entry. LSJ (eng13): the weal of Isaiah 53:5 as well as GEN 4:23.
+    "μώλωψ": ["mark of a stripe, weal, bruise", "blood-clot"],
+    # No Middle Liddell entry. LSJ (eng5) cites GEN 4:24 and Matthew 18:22, and nothing else.
+    "ἑβδομηκοντάκις": ["seventy times"],
 }
 
 # New Testament books: MorphGNT file and its book number.
@@ -184,6 +194,38 @@ NOT_SENSES = {
     "r(a/ptw": {"to make oneself", "having got"},  # from quoted examples
     "plhqu/nw": {"I am led by general opinion"},   # a construction
     "fu/llon": {"of leaves"},                   # from "the generation of leaves"
+    # ἀνίστημι heads its senses "A. Causal in pres., imperf." — to make to stand up — and
+    # "B. Intr. … in aor2 ἀνέστην": GEN 4:8 ἀνέστη is that aorist, so the causals go.
+    "a)ni/sthmi": {"to make to stand up, raise up", "by", "to raise from sleep, wake up",
+                   "to raise from the dead", "to set up, build", "to set up", "to build oneself",
+                   "to build up again, restore", "to put up for sale", "to rouse to action, stir up",
+                   "to rouse to arms, raise", "to make", "rise, break up", "rise", "make",
+                   "emigrate, transplant", "rise and leave sanctuary", "to put up", "spring"},
+    "dia/": {"through c. gen. through, by means of c. acc."},   # Perseus's summary
+    # ἕτερος: Perseus tags scraps of "one of the two gates" and "one depends upon the
+    # other" ahead of the sense itself, the other of two.
+    "e(/teros": {"one of the", "one of two parties", "one", "the one"},
+    "prose/xw": {"near", "bring", "to port", "brought", "to land here?"},  # pieces of "bring a ship near a place, to port"
+    "ei)": {"shall do)", "had done)"},           # pieces of worked examples
+    "dw=ron": {"the gifts of", "given by"},
+    "fe/rw": {"motion", "is fair"},
+    "boa/w": {"men ready to shout", "it proclaims"},
+    "de/xomai": {"at the hand of"},
+    "ste/nw": {"for"},
+    "me/gas": {"women"},                        # from "tall women"
+    "ai)ti/a": {"of"},
+    "e)ponoma/zw": {"after"},
+    "genna/w": {"the child", "he grow, get"},
+    "si/dhros": {"wrought with much toil"},
+    "paralu/w": {"part from", "to dismiss from the", "to set", "free from . .", "one beside another"},
+    "kta/omai": {"to get one's"},
+    "diaire/w": {"open", "into"},
+    "o)rqo/s": {"standing with their walls entire"},
+    "xa/skw": {"may", "I was all agape", "gaping fools"},  # from "then may earth yawn for me"
+    "kiqa/ra": {"guitar)"},                     # "(whence guitar)"
+    "xalko/s": {"a blacksmith."},               # from a cross-reference to χαλκεύς
+    "e)cani/sthmi": {"bid one", "rise"},        # from "bid one rise from suppliant posture"
+    "h(suxa/zw": {"the dead"},                  # from "of the dead"
 }
 # The key the lexicon files a word under, where that is not the key the lemma itself
 # gives: a different spelling (Attic γίγνομαι for Koine γίνομαι), the active a deponent
@@ -203,6 +245,7 @@ SPELLING = {
     "fobe/omai": "fobe/w",          # MorphGNT's middle, filed under the active
     "e)/xqra": "e)/xqrh",           # the entry is headed with the Ionic spelling
     "deilino/s": "deielino/s",      # cross-reference; "contr. for δειελινός" glosses nothing
+    "o)rqw=s": "o)rqo/s",           # the adverb, filed inside the adjective's entry
 }
 
 # Homographs where Perseus's *first* entry is a different word from the one the text

@@ -59,6 +59,15 @@ reads all three the same way. It was wrong twice, and both trace to this brief: 
 for τί ὅτι, and its rule for contracted nouns sent συκῆς to συκέα, where Middle Liddell and
 MorphGNT both file συκῆ. Both rules are corrected below.
 
+### What it found in Genesis 4
+
+Three disagreements over 531 words, and the second pass was right all three times. ἐργᾷ at
+4:12 is the contracted future of ἐργάζομαι, not a present — the reference module agreed.
+σφυροκόπος at 4:22 is a second noun beside χαλκεύς, as the Hebrew has two. And ἑπτά closing
+4:24 is an adverbial accusative, *seventy times seven*, not a nominative. None traced to this
+brief; its names rule, extended beforehand with MorphGNT's spellings of the personal names
+the New Testament shares, drew no disagreement at all.
+
 ## The brief
 
 Copy everything below the rule into a new agent. Replace `<BOOK NAME>`, `<CHAPTER>`,
@@ -141,9 +150,9 @@ Conventions:
 - **Gender C** for an adjective whose form does not distinguish masculine from feminine:
   two-termination adjectives (ἀόρατος, πράσινος) and numerals like τέσσαρας.
 - **Indeclinables** take case and number from the syntax, as MorphGNT does, and gender where
-  there is one to take: a personal name (Αδαμ `----DSM-`), or a numeral agreeing with its
-  noun (οἱ δύο `----NPM-`, as MorphGNT codes δύο at John 1:35). An indeclinable place name
-  has none (Εδεμ `----DS--`). A declinable Greek name keeps its gender like any noun — rivers
+  there is one to take: a personal name, from the person (Αδαμ `----DSM-`, a woman's name
+  `F`), or a numeral agreeing with its noun (οἱ δύο `----NPM-`, as MorphGNT codes δύο at
+  John 1:35). An indeclinable place name has none (Εδεμ `----DS--`). A declinable Greek name keeps its gender like any noun — rivers
   are masculine (Τίγρις, Εὐφράτης).
 - An indeclinable common noun takes its gender from the article or adjective beside it.
 - An article before an indeclinable name still carries full case, number and gender.
@@ -152,6 +161,12 @@ Conventions:
 - A word of address is vocative, case `V`.
 - τί in `τί ὅτι`, *why is it that*, is accusative, `RI ----ASN-`, as MorphGNT codes it all
   three times (Luke 2:49; Acts 5:4, 5:9).
+- `ἵνα τί`, *why*, printed as two words, is the ellipsis ἵνα τί γένηται: ἵνα `C-`, τί
+  `RI ----NSN-`. (MorphGNT prints the pair as one word, ἱνατί, and so cannot guide it.)
+- `ὁ δέ`, *and he*, is still the article: `RA ----NSM-`, as MorphGNT codes it.
+- Numerals take case, number and gender like any adjective — ἑπτά `A- ----APN-` beside a
+  neuter plural — and a multiplicative adverb (ἑπτάκις) is `D-`.
+- Comparatives in -ων (μείζων) have one form for masculine and feminine: gender `C`, degree `C`.
 - οἶδα's past forms (ᾔδει) are pluperfect, `Y`, as MorphGNT codes them.
 - Where the form is ambiguous, case, number and gender come from the syntax: neuters in the
   nominative and accusative, verbless clauses, agreement with a noun, a hanging nominative.
@@ -169,10 +184,12 @@ The dictionary form as Middle Liddell (Perseus) files it:
 - A contracted form goes under whichever spelling Middle Liddell heads the entry with — the
   uncontracted ὀστέον for ὀστοῦν, but the contracted συκῆ for συκῆς, as MorphGNT has it.
   ἕνεκεν → ἕνεκα. A neuter noun filed as such: πετεινόν.
-- Proper names: Semitic place names exactly as printed, unaccented (Εδεμ, Φισων); Ἀδάμ
-  accented, though printed Αδαμ; Greek names in the nominative singular (Αἰθιοπία, Τίγρις,
-  Ἀσσύριος, Εὐφράτης). A Greek word the text prints capitalised as a name keeps its capital
-  in the lemma.
+- Proper names: a personal name the New Testament also uses takes MorphGNT's dictionary form,
+  accented though Rahlfs prints it bare — Ἀδάμ, Εὕα, Κάϊν, Ἅβελ, Σήθ, Ἐνώς, Ἑνώχ,
+  Μαθουσαλά, Λάμεχ so far. Every other Semitic name, of a person or a place, exactly as
+  printed, unaccented (Εδεμ, Φισων, Ναιδ). Greek names in the nominative singular (Αἰθιοπία,
+  Τίγρις, Ἀσσύριος, Εὐφράτης). A Greek word the text prints capitalised as a name keeps its
+  capital in the lemma.
 - Any other Semitic word printed unaccented: exactly as printed, like the place names.
 
 ## The text

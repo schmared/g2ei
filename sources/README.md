@@ -66,10 +66,13 @@ curl -sL --create-dirs -o sources/lsj/grc.lsj.perseus-eng1.xml https://raw.githu
 | file | covers | fetched for |
 | --- | --- | --- |
 | `eng1` | the whole of alpha, `*a` to `ἄωτος` (42 MB) | ἀκατασκεύαστος (Gen 1:2), ἁγιάζω (Gen 2:3) |
+| `eng5` | epsilon (40 MB) | ἑβδομηκοντάκις (Gen 4:24) |
+| `eng13` | mu (12 MB) | μώλωψ (Gen 4:23) |
 | `eng16` | omicron (12 MB) | ὀστέον (Gen 2:23) |
-| `eng17` | pi, `p` to `πώϋξ` (38 MB) | πράσινος (Gen 2:12) |
+| `eng17` | pi, `p` to `πώϋξ` (38 MB) | πράσινος (Gen 2:12), ποιμήν (Gen 4:2) |
 | `eng21` | sigma (23 MB) | σύ (Gen 3), which Middle Liddell omits |
 | `eng24` | phi (8 MB) | φλόγινος (Gen 3:24) |
+| `eng26` | psi (2 MB) | ψαλτήριον (Gen 4:21) |
 
 To find which file holds a letter without downloading any of them, read the head of a few
 and look at the first entry's key:

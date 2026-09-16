@@ -15,8 +15,9 @@ that hold the project's own morphology to its own grammar and to itself:
            [[name:…]] marker well-formed and resolvable; every Old Testament verse cites
            the printed page its Greek was transcribed from
   names    every proper name in the Greek is glossed on its first occurrence in the
-           chapter and left bare after that — and so is a transliteration the edition
-           prints in lower case, once its entry names it
+           chapter and left bare after that — and so is a name its capital cannot show,
+           a transliteration in lower case or a name opening a sentence, once its entry
+           names it
   banned   no phrase from BANNED_PHRASES in either reading panel
   anchors  no headword stands bare: an anchor never appears as plain text outside its
            unit, so the unanchored panel never shows it on its own. (It may appear
@@ -303,30 +304,37 @@ def proper_names(greek):
 def matches(candidate, entry_greek):
     """Is `candidate` an inflected form of the name recorded as `entry_greek`?
 
-    Compared on a shared accent-stripped prefix, so oblique cases match the
-    nominative the names entry records — Ἰωάννου against Ἰωάννης, Μωυσέως
-    against Μωυσῆς.
+    Compared accent-stripped, so oblique cases match the nominative the names entry
+    records — Ἰωάννου against Ἰωάννης, Μωυσέως against Μωυσῆς: a shared stem of at
+    least four letters, lengths within one of each other, and what differs no longer
+    than a case ending. A Semitic name is indeclinable and matches only itself, so two
+    names that merely begin alike stay two names — Αδα is not Αδαμ (GEN 4:19), and
+    Καιν is not Καιναν.
     """
     a, b = fold(candidate), fold(entry_greek)
     if not a or not b:
         return False
+    if a == b:
+        return True
     shared = 0
     for x, y in zip(a, b):
         if x != y:
             break
         shared += 1
-    return shared >= min(4, len(a), len(b))
+    return (shared >= 4 and abs(len(a) - len(b)) <= 1
+            and len(a) - shared <= 3 and len(b) - shared <= 3)
 
 
-def transliterations(greek, entries):
-    """The names entries for words this verse prints in lower case.
+def named_words(greek, entries):
+    """Words this verse prints that one of its names entries names, wherever they stand.
 
-    An obvious transliteration carries its meaning as a proper name does (CLAUDE.md), but
-    the edition gives it no capital — τὰ χερουβιμ, GEN 3:24 — so capitals cannot find it.
-    Its entry names it instead, and it counts wherever the verse prints that exact word.
+    Capitals find most names, but not two kinds. An obvious transliteration carries its
+    meaning as a proper name does (CLAUDE.md), yet the edition may print it in lower
+    case — τὰ χερουβιμ, GEN 3:24. And a name that opens a sentence has a capital that
+    proves nothing — Αδαμ δὲ ἔγνω, GEN 4:1. The entry names both, and they count.
     """
-    words = set(PUNCT.sub(" ", greek).split())
-    return [e["greek"] for e in entries if e["greek"][:1].islower() and e["greek"] in words]
+    words = PUNCT.sub(" ", greek).split()
+    return [w for w in words if any(matches(w, e.get("greek", "")) for e in entries)]
 
 
 def check_names(verses, rep):
@@ -341,8 +349,8 @@ def check_names(verses, rep):
             if word not in capitals:
                 rep.fail("names", ref, "`speech` lists %s, which is not a capitalised word "
                                        "inside this verse's Greek" % word)
-        candidates = ([c for c in capitals if c not in speech]
-                      + transliterations(verse["greek"], entries))
+        candidates = [c for c in capitals if c not in speech]
+        candidates += [w for w in named_words(verse["greek"], entries) if w not in candidates]
         found_any = found_any or bool(candidates)
         used = set()
 
@@ -368,6 +376,10 @@ def check_names(verses, rep):
                                            "carries no %s" % (candidate, marker))
             elif entry is not None:
                 used.add(entry["greek"])
+                if glossed[key] == ref and not entry.get("bare"):
+                    # the same name again in the verse that glosses it: the renderer
+                    # glosses the first marker only
+                    continue
                 if not entry.get("bare"):
                     rep.fail("names", ref,
                              "%s was already glossed at %s; a later occurrence takes an "

@@ -45,6 +45,16 @@ consulted.
    takes the first noun sense: ἵνα is an adverb of place in its first sense and *that, in
    order that* in its second; μήποτε is *never* as an adverb and *that at no time, lest
    ever* as a conjunction.
+
+   A sense the entry restricts to one *tense* is skipped the same way: ἀνίστημι heads its
+   causal senses "in pres., imperf." and its intransitive ones "in aor2 ἀνέστην", so GEN 4:8
+   ἀνέστη is *stood up*. A sense restricted only by *subject* or *construction* is not: the
+   rule reads the lexicon, not the verse. So συλλαμβάνω is *having collected* at GEN 4:1,
+   though its fourth sense, "of females, to conceive", is what the verse means; ἄρχω with the
+   genitive is *will begin* at 4:7, though *to rule* is its second sense; and πρόβατον is
+   *anything that walks forward*, which Middle Liddell gives as the word's proper sense before
+   *cattle, flocks* and, in Attic, *sheep*. The chain carries the rest, and the notes say
+   where the verse's meaning stands in the entry.
 3. **Form.** Tense, voice, mood, person and number come from the Greek form.
 4. **Article.** English gets *the* where the Greek has the article, and nothing where it
    does not. The *a* in a lexicon's gloss (*a beginning*) is its citation form, not the text's.
@@ -86,6 +96,14 @@ Three reasons, and all of them are the lexicon's filing rather than a decision a
 | φοβέομαι (GEN 3:10) | φοβέω | MorphGNT's middle, filed under the active |
 | ἔχθρα (GEN 3:15) | ἔχθρη | the entry is headed with the Ionic spelling |
 | δειλινός (GEN 3:8) | δειελινός | a cross-reference, *contr. for δειελινός* |
+| ὀρθῶς (GEN 4:7) | ὀρθός | the adverb, filed inside the adjective's entry |
+
+Where Middle Liddell has no entry a word can be found under, LSJ supplies the senses (`LSJ` in
+`build/words.py`): σύ, φλόγινος (GEN 3); ποιμήν — Middle Liddell has only the Doric ποιμάν,
+*doric for ποιμήν*, pointing at an entry it lacks — ψαλτήριον, μώλωψ and ἑβδομηκοντάκις
+(GEN 4). One word is in neither: σφυροκόπος (GEN 4:22), for which LSJ has only the verb
+σφυροκοπέω. With no lexicon sense to head it, it stands as plain text, *a hammer-beater*, and
+the note says why.
 
 The last is the same shape as ἁγιάζω in LSJ (`= ἁγίζω`): an entry that exists, carries no
 translation, and names the entry that does. Following it is not interpretation — the lexicon
@@ -340,8 +358,39 @@ the same ground as `the sixth` and `the seventh`: one sense each, so no range to
 - τί in τί ὅτι and τί τοῦτο — `why` (GEN 3:1, 3:13).
 - καί as *also* — `also` (GEN 3:6).
 - ἑαυτοῖς — `for themselves` (GEN 3:7).
-- ἐπικατάρατος — `yet more accursed`: Middle Liddell's one sense (GEN 3:14, 3:17).
+- ἐπικατάρατος — `yet more accursed`: Middle Liddell's one sense (GEN 3:14, 3:17, 4:11).
 - τὸ δειλινόν — `at evening`: filed under δειελινός, one sense (GEN 3:8).
+- One sense each in GEN 4, so plain text: πρωτότοκος `the first-born` (4:4), περίλυπος `deeply
+  grieved` (4:6), σήμερον `to-day` (4:14), ἑπτά `seven` and ἑπτάκις `seven times` (4:15, 4:24),
+  ἑβδομηκοντάκις `seventy times` (4:24, LSJ), ἀδελφή `sister` (4:22), νεανίσκος `a youth` and
+  ἐνωτίζομαι `hearken to` (4:23), υἱός `son` (4:17, 4:25, 4:26 — Middle Liddell's *A son* and *a
+  son* are one sense).
+- σφυροκόπος — `a hammer-beater`: in no lexicon here (4:22).
+- εἰ, ἐάν — `if`; τί in ἵνα τί — `what` (4:6); ἐν τῷ εἶναι — `in the being of` (4:8).
+- εἰμί with a participle (ἦν ἐργαζόμενος, 4:2; ἦν οἰκοδομῶν, 4:17) — `was, and kept on being,`
+  before the participle's unit, the imperfect formula of 2:5 in short.
+
+### διά + genitive
+
+- **headword:** `through` — Middle Liddell, with the genitive, *in a line, through, right
+  through*; Perseus's opening summary is skipped by name.
+- **chain:** `through, right through, by means of, by the agency of`
+- **used:** GEN 4:1 (διὰ τοῦ θεοῦ)
+
+### μετά + accusative
+
+- **headword:** `into the middle of` — the first translation for the accusative; *after*, of
+  time, comes later.
+- **chain:** `into the middle of, coming among, in pursuit and quest of, after`
+- **used:** GEN 4:3 (μεθʼ ἡμέρας)
+
+### ὀρθῶς, οὕτως, λίαν
+
+- ὀρθῶς — **headword** `straight`; **chain** `straight, uprightly, rightly, truly and
+  correctly, justly`. The adverb of ὀρθός, whose first sense is *straight*. GEN 4:7.
+- οὕτως — **headword** `in this way`; **chain** `in this way, in this manner, so, thus, even so,
+  so much`. GEN 4:15.
+- λίαν — **headword** `very`; **chain** `very, exceedingly, very much, overmuch`. GEN 4:5.
 
 ---
 
@@ -829,6 +878,53 @@ otherwise.
 | κατοικίζω | aor. 3 sg | `removed to` | `removed to, planted, settled, established as a colonist, restored to one's country` | 3:24 |
 | τάσσω | aor. 3 sg | `arranged` | `arranged, put in order, drew up in order of battle, posted and stationed, appointed` | 3:24 |
 | στρέφω | pres. mid./pass. ptcp. | `the one turning itself` | `the one turning itself, turning round, turning about, turning to and fro, turning back, revolving` — the entry's actives skipped by name | 3:24 |
+
+### Verbs new in GEN 4
+
+| lemma | form | headword | chain | used |
+| --- | --- | --- | --- | --- |
+| γινώσκω | aor. 3 sg / pres. 1 sg | `learned to know` · `I learn to know` | the chain of GEN 3:7, in the form | 4:1, 4:9, 4:17, 4:25 |
+| συλλαμβάνω | aor. ptcp. fem. | `having collected` | `having collected, having gathered together, having taken up, having laid hold of and seized, having comprehended, having conceived` | 4:1, 4:17, 4:25 |
+| τίκτω | aor. 3 sg / aor. inf. | `brought into the world` · `to bring into the world` | `brought into the world, brought forth, bore, produced` | 4:1, 4:2, 4:17, 4:20, 4:22, 4:25 |
+| κτάομαι | aor. mid. 1 sg | `I procured for myself` | `I procured for myself, I got, I gained, I acquired` | 4:1 |
+| προστίθημι | aor. / fut. 3 sg | `put to` · `will put to` | `put to, handed over and delivered, gave and bestowed, imposed further, attributed, added` | 4:2, 4:12 |
+| γίνομαι | aor. 3 sg (mid. and pass.) / aor. 2 sg | `came into being` · `you came into being` | the chain of JHN 1:6, in the form | 4:2, 4:3, 4:6, 4:8, 4:18, 4:26 |
+| ἐργάζομαι | pres. ptcp. / fut. 2 sg (ἐργᾷ) | `working` · `you will work` | the chain of GEN 2:5, in the form | 4:2, 4:12 |
+| φέρω | aor. 3 sg | `bore` | `bore, carried, bore along, brought and fetched, brought and offered and presented` | 4:3, 4:4 |
+| ἐφοράω | aor. 3 sg (ἐπεῖδεν) | `oversaw` | `oversaw, observed, surveyed, watched over and took notice of, looked upon and beheld` | 4:4 |
+| προσέχω | aor. 3 sg | `held to` | `held to, offered, brought to, turned to, turned the mind to, gave heed to` | 4:5 |
+| λυπέω | aor. 3 sg | `gave pain to` | `gave pain to, pained, distressed, grieved, vexed, annoyed` | 4:5 |
+| συμπίπτω | aor. 3 sg | `fell together` | `fell together, met in battle and came to blows, fell in with and met, fell upon and happened, concurred` | 4:5, 4:6 |
+| προσφέρω | aor. subj. 2 sg | `you may bring to` | `you may bring to, you may apply, you may lay upon, you may offer, you may present and give, you may set before` | 4:7 |
+| διαιρέω | aor. subj. 2 sg | `you may take one from another` | `you may take one from another, you may cleave in twain, you may divide into parts, you may divide, you may distinguish, you may determine` | 4:7 |
+| ἁμαρτάνω | aor. 2 sg | `you missed the mark` | `you missed the mark, you failed of your purpose, you went wrong, you erred, you sinned` | 4:7 |
+| ἡσυχάζω | aor. impv. 2 sg | `be still` | `be still, keep quiet, be at rest` | 4:7 |
+| ἄρχω | fut. 2 sg, c. gen. | `will begin` | `will begin, will make a beginning of, will lead the way, will lead and rule and govern, will rule over` | 4:7 |
+| διέρχομαι | aor. subj. 1 pl | `let us go through` | `let us go through, let us pass through, let us go through in detail` | 4:8 |
+| ἀνίστημι | aor2 3 sg | `stood up` | `stood up, rose, rose to fight against, rose to go and set out` | 4:8 |
+| ἀποκτείνω | aor. / fut. / aor. ptcp. / aor. 1 sg | `killed` · `will kill` · `the one having killed` · `I killed` | `killed, slew, condemned to death`, in the form | 4:8, 4:14, 4:15, 4:23, 4:25 |
+| βοάω | pres. 3 sg | `cries aloud` | `cries aloud, shouts, sounds and resounds and roars, calls on, calls for` | 4:10 |
+| χάσκω | aor. 3 sg (ἔχανεν) | `yawned` | `yawned, gaped, uttered with open mouth` | 4:11 |
+| δέχομαι | aor. inf. | `to take` | `to take, to accept, to receive, to receive in exchange, to give ear to` | 4:11 |
+| δίδωμι | aor. inf. | `to give` | `to give, to grant, to provide, to give over and deliver up` | 4:12 |
+| στένω, τρέμω | pres. ptcp. | `moaning` · `trembling` | `moaning, sighing, groaning, bewailing and lamenting` · `trembling, fearing, trembling at` | 4:12, 4:14 |
+| ἀφίημι | aor. pass. inf. | `to be sent forth` | `to be sent forth, to be discharged, to be sent away and let go, to be set free, to be released` | 4:13 |
+| ἐκβάλλω | pres. 2 sg | `you throw` | the chain of GEN 3:24, in the form | 4:14 |
+| κρύπτω | fut. pass. 1 sg | `I will be hidden` | the chain of GEN 3:10, in the form | 4:14 |
+| εὑρίσκω | pres. ptcp. | `the one finding` | `the one finding, the one finding out, the one discovering` | 4:14, 4:15 |
+| ἐκδικέω | pres. ptcp. pass. pl. / perf. 3 sg | `things being avenged` · `has been avenged` | `things being avenged, things being punished, things on which vengeance is exacted` · `has been avenged and stands avenged, has been punished and stands punished` | 4:15, 4:24 |
+| παραλύω | fut. 3 sg | `will loose from the side` | `will loose from the side, will take off and detach, will undo and put an end to, will set free, will loose beside` | 4:15 |
+| ἀναιρέω | aor. inf. | `to take up` | `to take up, to raise, to take up and carry off, to make away with and destroy and kill, to abolish` | 4:15 |
+| ἐξέρχομαι | aor. 3 sg | `went out of` | `went out of, came out, went away and marched off, went forth` | 4:16 |
+| οἰκέω | aor. 3 sg / pres. ptcp. | `inhabited` · `of those inhabiting` | `inhabited, occupied, dwelt and lived, was settled`, in the form | 4:16, 4:20 |
+| οἰκοδομέω | pres. ptcp. | `building a house` | the chain of GEN 2:22, in the form | 4:17 |
+| ἐπονομάζω | aor. 3 sg | `gave a surname` | `gave a surname, named, called, pronounced` | 4:17, 4:25, 4:26 |
+| γεννάω | aor. 3 sg | `begot` | `begot, engendered, brought forth, produced` | 4:18 |
+| καταδείκνυμι | aor. ptcp. | `the one having discovered and made known` | `the one having discovered and made known, the one having invented and taught and introduced, the one having shown how` | 4:21 |
+| ἀκούω | aor. impv. 2 pl | `hear` | the chain of GEN 3:8, in the form | 4:23 |
+| ἐξανίστημι | aor1 3 sg | `raised up` | `raised up, made to rise, removed and expelled, roused` | 4:25 |
+| ἐλπίζω | aor. 3 sg | `hoped for` | `hoped for, looked for, expected, hoped, thought and supposed, hoped in` | 4:26 |
+| ἐπικαλέω | pres. mid. inf. | `to call upon` | `to call upon, to invoke and appeal to, to invite, to call in as a helper, to be called by surname` | 4:26 |
 
 Where the lexicon restricts a sense to one voice, the entry's own labels decide, as for ἄρχω:
 φοβέω's *A. Act.*, ἅπτω's active sense I against *II. Mid. … c. gen.*, στρέφω's *B. Pass.
@@ -1370,6 +1466,50 @@ though both have the article; they were corrected when GEN 3:18 reused them.
 | ῥομφαία | `large sword` | `large sword, scymitar` — the article stands on φλογίνην before it | 3:24 |
 | ὁδός | `the way` | `the way, the path, the track, the road, the highway, the course, the journey, the manner and method` | 3:24 |
 
+### Nouns and adjectives new in GEN 4
+
+| lemma | headword | chain | used |
+| --- | --- | --- | --- |
+| ἀδελφός | `the son of the same mother` · `of …` · `to …` | `the son of the same mother, the brother, the near kinsman` | 4:2, 4:8–11, 4:21 |
+| ποιμήν | `herdsman` | `herdsman, shepherd, captain and chief, master and lord, pastor and teacher` — LSJ | 4:2 |
+| πρόβατον (gen. pl.) | `of anything that walks forward` | `of anything that walks forward, of cattle, of flocks and herds, of horses, of small cattle, of sheep` | 4:2, 4:4 |
+| ἡμέρα (anarthrous pl.) | `days` | `days, day-breaks, times` | 4:3 |
+| καρπός (gen. pl.) | `of the fruits` | `of the fruits, of the produce, of the returns and profits, of the results` | 4:3 |
+| θυσία | `an offering` · `the offerings` | `an offering, a mode of offering, offerings and sacrifices and sacred rites, a festival, the victim` | 4:3, 4:5 |
+| κύριος (articular) | `to the lord` · `the lord` | the chain of `lord`, with the article | 4:3, 4:13 |
+| στέαρ | `of the stiff fats` | `of the stiff fats, of the tallow, of the suet` | 4:4 |
+| δῶρον | `the gifts` | `the gifts, the presents, the votive gifts, the blessings` | 4:4 |
+| πεδίον | `the plain` · `in the plain` | `the plain, the flat, the plain flat open country` | 4:8 |
+| φύλαξ | `a watcher` | `a watcher, a guard, a sentinel, a guardian and keeper and protector, an observer` | 4:9 |
+| φωνή (anarthrous) | `sound` | `sound, tone, sound of the voice, cry, faculty of speech and discourse, language, saying` | 4:10 |
+| αἷμα | `of blood` · `the blood` | `of blood, of bloodshed and murder, of race and kinship` | 4:10, 4:11 |
+| στόμα | `the mouth` | `the mouth, the mouth as the organ of speech, the mouthpiece, the face, the chasm and cleft` | 4:11 |
+| χείρ (gen.) | `of the hand` | `of the hand, of the hand and arm, of the arm` | 4:11 |
+| ἰσχύς | `the strength` | `the strength, the might and power and force` | 4:12 |
+| μέγας (comp.) | `bigger` | `bigger, greater, taller, vaster, stronger and mightier, weightier and more important` | 4:13 |
+| αἰτία | `the charge` | `the charge, the accusation, the guilt, the fault, the cause` | 4:13 |
+| σημεῖον | `a sign` | `a sign, a mark and token, a sign from the gods and an omen, a signal, a standard and ensign, a boundary` | 4:15 |
+| γῆ, with ἐν, anarthrous | `in earth` | `within, inside of, and by means of earth, land, the ground` | 4:16 |
+| πόλις | `a city` · `the city` | `a city, a citadel, a country, a body of citizens, a state` | 4:17 |
+| γυνή (pl.) | `women` · `to the women` | `women, mistresses and ladies, wives and spouses, mortal women` | 4:19, 4:23 |
+| εἷς (dat.) | `to the one` | the chain of GEN 2:11 | 4:19 |
+| πατήρ | `the father` | the chain of GEN 2:24 | 4:20 |
+| σκηνή, with ἐν | `in covered places` | `within, inside of, and by means of covered places, tents, camps, dwelling-places, temples` | 4:20 |
+| κτηνοτρόφος | `of those keeping cattle` | `of those keeping cattle, of the pastoral` | 4:20 |
+| ψαλτήριον | `stringed instrument` | `stringed instrument, psaltery, harp` — LSJ | 4:21 |
+| κιθάρα | `lyre` | `lyre, lute` | 4:21 |
+| χαλκεύς | `a worker in copper` | `a worker in copper, a smith, a joiner, a worker in metal` | 4:22 |
+| χαλκός, σίδηρος | `of copper` · `of iron` | `of copper, of metal, of bronze, of brass` · `of iron, of a weapon and sword, of a knife and axe-head` | 4:22 |
+| λόγος (pl.) | `the words` | `the words, the language and talk, the sayings and statements, the speech and discourse` | 4:23 |
+| ἀνήρ (anarthrous) | `man` | `man, man in the prime of life` | 4:23 |
+| τραῦμα | `a wound` | `a wound, a hurt and damage, a blow and defeat` | 4:23 |
+| μώλωψ | `mark of a stripe` | `mark of a stripe, weal, bruise, blood-clot` — LSJ | 4:23 |
+| σπέρμα (acc.) | `that which is sown` | the chain of GEN 3:15, in the accusative | 4:25 |
+| ἕτερος | `other` | `other, the other of two, another, second, other than usual and different` | 4:25 |
+
+λόγος in the plural, Lamech's words, takes a chain of its own, from the entry's senses for
+*words, a saying, speech*; the prologue's chain for ὁ λόγος is not borrowed for it.
+
 Three headwords read furthest from the expected word, and all three are the lexicon's order:
 σπέρμα is *that which is sown* before it is offspring; τέκνον is *that which is borne* before
 it is a child; τρίβολος is a spiked iron for laming horses before it is a thistle.
@@ -1409,6 +1549,31 @@ Gloss on first occurrence per chapter, bare thereafter.
 | Αδαμ | Adam | Adam | `(Αδαμ, from Hebrew ʾādām, "man", from ʾădāmâ, "ground")` |
 | Ζωή | Zōē | Zoe | `(Ζωή, "life"; Hebrew Ḥawwâ, from ḥāyâ, "to live")` |
 | χερουβιμ | cheroubim | cherubim | `(χερουβιμ, the Hebrew plural kĕrûbîm, of kĕrûb, a word of uncertain derivation)` |
+| Ευαν | Euan | Eve | `(Ευαν, from Hebrew Ḥawwâ, which 3:20 translated Ζωή, "life")` |
+| Καιν | Kain | Cain | `(Καιν, from Hebrew Qayin, which the verse ties to qānâ, "to get, acquire")` |
+| Αβελ | Abel | Abel | `(Αβελ, from Hebrew Hebel, "breath, vapour")` |
+| Ναιδ | Naid | Nod | `(Ναιδ, from Hebrew Nôd, "wandering")` |
+| Ενωχ | Enōch | Enoch | `(Ενωχ, from Hebrew Ḥănôk, usually connected with ḥānak, "to dedicate")` |
+| Γαιδαδ | Gaidad | Irad | `(Γαιδαδ, from Hebrew ʿÎrād, of uncertain meaning)` |
+| Μαιηλ | Maiēl | Mehujael | `(Μαιηλ, from Hebrew Mĕḥûyāʾēl, of uncertain meaning, ending in ʾēl, "God")` |
+| Μαθουσαλα | Mathousala | Methuselah | `(Μαθουσαλα, the Greek form of Hebrew Mĕtûšelaḥ at 5:21, given here for Mĕtûšāʾēl, usually explained as "man of God")` |
+| Λαμεχ | Lamech | Lamech | `(Λαμεχ, from Hebrew Lemek, of uncertain meaning)` |
+| Αδα | Ada | Adah | `(Αδα, from Hebrew ʿĀdâ, usually connected with ʿădî, "ornament")` |
+| Σελλα | Sella | Zillah | `(Σελλα, from Hebrew Ṣillâ, usually connected with ṣēl, "shade")` |
+| Ιωβελ | Iōbel | Jabal | `(Ιωβελ, from Hebrew Yābāl, usually connected with yābal, "to lead, bring")` |
+| Ιουβαλ | Ioubal | Jubal | `(Ιουβαλ, from Hebrew Yûbal, usually connected with yābal, "to lead, bring")` |
+| Θοβελ | Thobel | Tubal | `(Θοβελ, from Hebrew Tûbal-qayin, without its second part)` |
+| Νοεμα | Noema | Naamah | `(Νοεμα, from Hebrew Naʿămâ, "pleasant")` |
+| Σηθ | Sēth | Seth | `(Σηθ, from Hebrew Šēt, which the verse ties to šît, "to set, appoint")` |
+| Ενως | Enōs | Enosh | `(Ενως, from Hebrew ʾĕnôš, "man, mankind")` |
+
+The anchored form is the English form of the name the *Greek* prints, which is not always the
+English Bible's name for the person. Μαθουσαλα at GEN 4:18 is *Methuselah*, though the Hebrew
+there names Cain's descendant Methushael; Θοβελ at 4:22 is *Tubal*, though the Hebrew has
+Tubal-cain. The gloss records the Hebrew, and the note flags the difference.
+
+A name that appears twice in the verse that glosses it (Αβελ at GEN 4:2) prints its gloss the
+first time only.
 
 Ζωή at GEN 3:20 translates the Hebrew name instead of transliterating it, and Rahlfs
 capitalises it as a name; so the anchored form is the English form of *that* name, *Zoe*, not
