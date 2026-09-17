@@ -305,6 +305,17 @@ duration, that Ιακωβ at 31:48 is the dative after εἶπεν, and that ἐ
 particle after a relative. The first pass kept ἀποκρίνω, περιποιέω and διατίθημι under the actives Middle
 Liddell heads, and Γαλααδ in the dative at 31:23, where the second article makes it agree with ὄρει.
 
+### What it found in Genesis 32
+
+Thirty disagreements over 715 words, and the second pass carried most of them: ποιεῖτε at 32:17 is the
+imperative beside προπορεύεσθε, ἐρωτᾷ at 32:18 the subjunctive after ἐάν, Ιακωβ at 32:19, 32:26 and 32:33
+the genitive after παιδός and μηροῦ, πᾶσι at 32:20 masculine with the servants, πρόσωπόν at 32:21 the
+object of προσδέξεται, τὰ δῶρα at 32:22 the subject of παρεπορεύοντο, and τὸ πλάτος at 32:26, τὸ Εἶδος at
+32:32 and ὅ at 32:33 the subjects of the intransitive ἐνάρκησεν and παρῆλθεν. The first pass kept the
+nominative in address at 32:10, which the brief settles; φοβέομαι, ἅπτω, σῴζω and πρωΐ as the corpus and
+Middle Liddell have them; βοῦς feminine; ἰδού as X-; and Εἶδος accusative in apposition to τὸ ὄνομα at
+32:31, where the same word is the subject at 32:32.
+
 ## The brief
 
 Copy everything below the rule into a new agent. Replace `<BOOK NAME>`, `<CHAPTER>`,

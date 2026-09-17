@@ -241,6 +241,13 @@ LSJ = {
     # Middle Liddell has the entry but tags no translation in it. LSJ (eng1): "αἰχμαλωτίς,
     # captive", citing this very verse, and then the feminine of the adjective.
     "αἰχμαλωτίς": ["captive"],
+    # GEN 32. LSJ (eng25) heads the adjective χειμάρροος, "winter-flowing, swollen by rain and
+    # melted snow", contracted χείμαρρους and shortened χείμαρρος; as a substantive, "torrent",
+    # and in the Septuagint "river" and "valley, watercourse".
+    "χείμαρρος": ["winter-flowing, swollen by rain and melted snow", "torrent", "river", "drain, gutter",
+                  "valley, watercourse"],
+    # LSJ (eng5) cites this very verse: "ἐπισκάζω, limp upon, μηρῷ LXX Ge. 32.31(32)".
+    "ἐπισκάζω": ["limp upon"],
 }
 
 # New Testament books: MorphGNT file and its book number.
@@ -847,6 +854,27 @@ NOT_SENSES = {
     "kaki/a": {"(excellence)", "defects"},       # the word it is opposed to, and a plural
     "qu/w1": {"offering", "burning", "to slaughter for sacrifice)"},  # pieces of the parenthesis the entry opens with
     "qusi/a": {"mode of offering", "sacrifices"},  # a piece of sense I, and a repetition
+    # GEN 32
+    "paremba/llw": {"to put", "in line with"},   # pieces of "to put in line with"
+    "xroni/zw": {"to delay", "long"},            # pieces of examples
+    "a)pore/w": {"resource", "to be at a loss", "to be at a loss about"},  # a piece of sense I, and two repetitions
+    "e)kko/ptw": {"he had", "knocked out", "to cut", "out of"},  # pieces of examples
+    "sw/|zw": {"to keep", "preserve for oneself"},  # a repetition, and a piece of the middle
+    "e)caire/w": {"to take out", "to discharge their"},  # a repetition, and a piece of an example
+    "pw=los": {"colt", "filly"},                 # pieces of "a foal, young horse, colt, filly"
+    "proporeu/omai": {"forward"},                # a piece of "to go before or forward"
+    "poi/mnh": {"of sheep"},                     # a piece of "properly of sheep"
+    "e)rwta/w": {"to be asked", "question"},     # the passive, and a piece of sense II
+    "prosde/xomai": {"to admit"},                # a bare repetition
+    "paraporeu/omai": {"alongside"},             # a piece of "to go beside or alongside"
+    "e(/ndeka": {"the Eleven, the Police-commissioners"},  # the Athenian magistrates
+    "dia/basis": {"a means"},                    # a piece of "a means or place of crossing"
+    "palai/w": {"beaten"},                       # the passive participle of an example
+    "a(/ptw": {"to reach the mark", "engaged in"},  # pieces of examples
+    "pla/tos": {"in breadth"},                   # a piece of an example
+    "o)/rqros": {"in the morning"},              # a piece of an example
+    "dunato/s": {"the chief men of rank and influence"},  # a piece of an example
+    "a)nate/llw": {"mounting up"},               # a piece of the passive
 }
 
 # An entry that divides its senses by tense and voice, so that which of them belong to a

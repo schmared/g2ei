@@ -1,0 +1,742 @@
+# Genesis 32 — morphology, one word per line.
+#
+# This is the project's own grammatical analysis of each form, written alongside the
+# transcription and not copied from any digital edition.
+#
+# Columns: verse, part of speech, parse, form, lemma — in MorphGNT's code scheme, so
+# the Old and New Testament layers read alike. The parse is eight places: person,
+# tense, voice, mood, case, number, gender, degree ("-" where it does not apply).
+#
+# Two codes go beyond MorphGNT, both to record only what the form itself says:
+#   voice  E  middle/passive — a tense in which the two share one form
+#   gender C  masculine/feminine — an adjective whose form does not distinguish them
+#
+# A trailing annotation records a deliberate difference and the reason for it:
+#   "# module …"  from the reference module, checked when LXX_RAHLFS_DIR is set
+#   "# corpus …"  from this project's own analysis of the same form elsewhere
+# A line may carry both. validate.py prints them as notes instead of failures — and
+# fails if the difference a note claims is not there, so they cannot go stale. The
+# analysis here is this project's own: the module is a reference, not an authority,
+# and the corpus is held to itself.
+#
+# Indeclinables take case and number from the syntax, as MorphGNT does, and gender
+# where there is one to take: a personal name, from the person; a numeral agreeing
+# with its noun; a common noun whose article shows it — but not an indeclinable place
+# name, which has none. A personal name the New Testament also uses takes MorphGNT's
+# dictionary form (Νῶε, Σήμ); every other Semitic name (Χαμ, Ιαφεθ), the form Rahlfs
+# prints.
+32:1 V- -AAPNSM- ἀναστὰς ἀνίστημι
+32:1 C- -------- δὲ δέ
+32:1 N- ----NSM- Λαβαν Λαβαν
+32:1 RA ----ASN- τὸ ὁ
+32:1 D- -------- πρωὶ πρωΐ
+32:1 V- 3AAI-S-- κατεφίλησεν καταφιλέω
+32:1 RA ----APM- τοὺς ὁ
+32:1 N- ----APM- υἱοὺς υἱός
+32:1 RP ----GSM- αὐτοῦ αὐτός
+32:1 C- -------- καὶ καί
+32:1 RA ----APF- τὰς ὁ
+32:1 N- ----APF- θυγατέρας θυγάτηρ
+32:1 RP ----GSM- αὐτοῦ αὐτός
+32:1 C- -------- καὶ καί
+32:1 V- 3AAI-S-- εὐλόγησεν εὐλογέω
+32:1 RP ----APM- αὐτούς αὐτός
+32:1 C- -------- καὶ καί
+32:1 V- -APPNSM- ἀποστραφεὶς ἀποστρέφω
+32:1 N- ----NSM- Λαβαν Λαβαν
+32:1 V- 3AAI-S-- ἀπῆλθεν ἀπέρχομαι
+32:1 P- -------- εἰς εἰς
+32:1 RA ----ASM- τὸν ὁ
+32:1 N- ----ASM- τόπον τόπος
+32:1 RP ----GSM- αὐτοῦ αὐτός
+32:2 C- -------- Καὶ καί
+32:2 N- ----NSM- Ιακωβ Ἰακώβ
+32:2 V- 3AAI-S-- ἀπῆλθεν ἀπέρχομαι
+32:2 P- -------- εἰς εἰς
+32:2 RA ----ASF- τὴν ὁ
+32:2 RP ----GSM- ἑαυτοῦ ἑαυτοῦ
+32:2 N- ----ASF- ὁδόν ὁδός
+32:2 C- -------- καὶ καί
+32:2 V- -AAPNSM- ἀναβλέψας ἀναβλέπω
+32:2 V- 3AAI-S-- εἶδεν ὁράω
+32:2 N- ----ASF- παρεμβολὴν παρεμβολή
+32:2 N- ----GSM- θεοῦ θεός
+32:2 V- -XAPASF- παρεμβεβληκυῖαν παρεμβάλλω
+32:2 C- -------- καὶ καί
+32:2 V- 3AAI-P-- συνήντησαν συναντάω
+32:2 RP ----DSM- αὐτῷ αὐτός
+32:2 RA ----NPM- οἱ ὁ
+32:2 N- ----NPM- ἄγγελοι ἄγγελος
+32:2 RA ----GSM- τοῦ ὁ
+32:2 N- ----GSM- θεοῦ θεός
+32:3 V- 3AAI-S-- εἶπεν λέγω  # module lemma ἔπω — λέγω keeps one dictionary form across both testaments
+32:3 C- -------- δὲ δέ
+32:3 N- ----NSM- Ιακωβ Ἰακώβ
+32:3 C- -------- ἡνίκα ἡνίκα
+32:3 V- 3AAI-S-- εἶδεν ὁράω
+32:3 RP ----APM- αὐτούς αὐτός
+32:3 N- ----NSF- Παρεμβολὴ παρεμβολή
+32:3 N- ----GSM- θεοῦ θεός
+32:3 RD ----NSF- αὕτη οὗτος
+32:3 C- -------- καὶ καί
+32:3 V- 3AAI-S-- ἐκάλεσεν καλέω
+32:3 RA ----ASN- τὸ ὁ
+32:3 N- ----ASN- ὄνομα ὄνομα
+32:3 RA ----GSM- τοῦ ὁ
+32:3 N- ----GSM- τόπου τόπος
+32:3 RD ----GSM- ἐκείνου ἐκεῖνος
+32:3 N- ----NPF- Παρεμβολαί Παρεμβολαί  # module lemma the common noun — the name keeps its capital
+32:4 V- 3AAI-S-- Ἀπέστειλεν ἀποστέλλω
+32:4 C- -------- δὲ δέ
+32:4 N- ----NSM- Ιακωβ Ἰακώβ
+32:4 N- ----APM- ἀγγέλους ἄγγελος
+32:4 P- -------- ἔμπροσθεν ἔμπροσθεν
+32:4 RP ----GSM- αὐτοῦ αὐτός
+32:4 P- -------- πρὸς πρός
+32:4 N- ----ASM- Ησαυ Ἠσαῦ
+32:4 RA ----ASM- τὸν ὁ
+32:4 N- ----ASM- ἀδελφὸν ἀδελφός
+32:4 RP ----GSM- αὐτοῦ αὐτός
+32:4 P- -------- εἰς εἰς
+32:4 N- ----ASF- γῆν γῆ
+32:4 N- ----GS-- Σηιρ Σηιρ  # module with a case — the indeclinable name, as Χανααν
+32:4 P- -------- εἰς εἰς
+32:4 N- ----ASF- χώραν χώρα
+32:4 N- ----GS-- Εδωμ Εδωμ  # corpus the land, without gender, where Εδωμ at 25:30 is the man  # module with a case — the indeclinable name, as Χανααν
+32:5 C- -------- καὶ καί
+32:5 V- 3AMI-S-- ἐνετείλατο ἐντέλλομαι
+32:5 RP ----DPM- αὐτοῖς αὐτός
+32:5 V- -PAPNSM- λέγων λέγω
+32:5 D- -------- Οὕτως οὕτως
+32:5 V- 2FAI-P-- ἐρεῖτε λέγω  # module lemma ἐρέω — λέγω, as MorphGNT files ἐροῦσιν (Luke 17:21)
+32:5 RA ----DSM- τῷ ὁ
+32:5 N- ----DSM- κυρίῳ κύριος
+32:5 RP ----GS-- μου ἐγώ  # module lemma μου, the form itself — ἐγώ is the dictionary form
+32:5 N- ----DSM- Ησαυ Ἠσαῦ
+32:5 D- -------- Οὕτως οὕτως
+32:5 V- 3PAI-S-- λέγει λέγω
+32:5 RA ----NSM- ὁ ὁ
+32:5 N- ----NSM- παῖς παῖς
+32:5 RP ----GS-- σου σύ  # module lemma σοῦ, the form itself — σύ is the dictionary form
+32:5 N- ----NSM- Ιακωβ Ἰακώβ
+32:5 P- -------- Μετὰ μετά
+32:5 N- ----GSM- Λαβαν Λαβαν
+32:5 V- 1AAI-S-- παρῴκησα παροικέω
+32:5 C- -------- καὶ καί
+32:5 V- 1AAI-S-- ἐχρόνισα χρονίζω
+32:5 P- -------- ἕως ἕως
+32:5 RA ----GSN- τοῦ ὁ
+32:5 D- -------- νῦν νῦν
+32:6 C- -------- καὶ καί
+32:6 V- 3AMI-P-- ἐγένοντό γίνομαι
+32:6 RP ----DS-- μοι ἐγώ  # module lemma μοι, the form itself — ἐγώ is the dictionary form
+32:6 N- ----NPM- βόες βοῦς
+32:6 C- -------- καὶ καί
+32:6 N- ----NPM- ὄνοι ὄνος
+32:6 C- -------- καὶ καί
+32:6 N- ----NPN- πρόβατα πρόβατον
+32:6 C- -------- καὶ καί
+32:6 N- ----NPM- παῖδες παῖς
+32:6 C- -------- καὶ καί
+32:6 N- ----NPF- παιδίσκαι παιδίσκη
+32:6 C- -------- καὶ καί
+32:6 V- 1AAI-S-- ἀπέστειλα ἀποστέλλω
+32:6 V- -AAN---- ἀναγγεῖλαι ἀναγγέλλω
+32:6 RA ----DSM- τῷ ὁ
+32:6 N- ----DSM- κυρίῳ κύριος
+32:6 RP ----GS-- μου ἐγώ  # module lemma μου, the form itself — ἐγώ is the dictionary form
+32:6 N- ----DSM- Ησαυ Ἠσαῦ
+32:6 C- -------- ἵνα ἵνα
+32:6 V- 3AAS-S-- εὕρῃ εὑρίσκω
+32:6 RA ----NSM- ὁ ὁ
+32:6 N- ----NSM- παῖς παῖς
+32:6 RP ----GS-- σου σύ  # module lemma σοῦ, the form itself — σύ is the dictionary form
+32:6 N- ----ASF- χάριν χάρις
+32:6 P- -------- ἐναντίον ἐναντίον
+32:6 RP ----GS-- σου σύ  # module lemma σοῦ, the form itself — σύ is the dictionary form
+32:7 C- -------- καὶ καί
+32:7 V- 3AAI-P-- ἀνέστρεψαν ἀναστρέφω
+32:7 RA ----NPM- οἱ ὁ
+32:7 N- ----NPM- ἄγγελοι ἄγγελος
+32:7 P- -------- πρὸς πρός
+32:7 N- ----ASM- Ιακωβ Ἰακώβ
+32:7 V- -PAPNPM- λέγοντες λέγω
+32:7 V- 1AAI-P-- Ἤλθομεν ἔρχομαι
+32:7 P- -------- πρὸς πρός
+32:7 RA ----ASM- τὸν ὁ
+32:7 N- ----ASM- ἀδελφόν ἀδελφός
+32:7 RP ----GS-- σου σύ  # module lemma σοῦ, the form itself — σύ is the dictionary form
+32:7 N- ----ASM- Ησαυ Ἠσαῦ
+32:7 C- -------- καὶ καί
+32:7 X- -------- ἰδοὺ ἰδού
+32:7 RP ----NSM- αὐτὸς αὐτός
+32:7 V- 3PEI-S-- ἔρχεται ἔρχομαι
+32:7 P- -------- εἰς εἰς
+32:7 N- ----ASF- συνάντησίν συνάντησις
+32:7 RP ----DS-- σοι σύ  # module lemma σοί, the form itself — σύ is the dictionary form
+32:7 C- -------- καὶ καί
+32:7 A- ----NPM- τετρακόσιοι τετρακόσιοι
+32:7 N- ----NPM- ἄνδρες ἀνήρ
+32:7 P- -------- μετʼ μετά
+32:7 RP ----GSM- αὐτοῦ αὐτός
+32:8 V- 3API-S-- ἐφοβήθη φοβέομαι  # module lemma φοβέω — φοβέομαι, the middle the corpus files
+32:8 C- -------- δὲ δέ
+32:8 N- ----NSM- Ιακωβ Ἰακώβ
+32:8 D- -------- σφόδρα σφόδρα
+32:8 C- -------- καὶ καί
+32:8 V- 3IEI-S-- ἠπορεῖτο ἀπορέω
+32:8 C- -------- καὶ καί
+32:8 V- 3AAI-S-- διεῖλεν διαιρέω
+32:8 RA ----ASM- τὸν ὁ
+32:8 N- ----ASM- λαὸν λαός
+32:8 RA ----ASM- τὸν ὁ
+32:8 P- -------- μετʼ μετά
+32:8 RP ----GSM- αὐτοῦ αὐτός
+32:8 C- -------- καὶ καί
+32:8 RA ----APM- τοὺς ὁ
+32:8 N- ----APF- βόας βοῦς  # module APM — βοῦς feminine, as the corpus has had it
+32:8 C- -------- καὶ καί
+32:8 RA ----APN- τὰ ὁ
+32:8 N- ----APN- πρόβατα πρόβατον
+32:8 P- -------- εἰς εἰς
+32:8 A- ----APF- δύο δύο  # module M, no features — MorphGNT gives δύο case, number and gender like any adjective
+32:8 N- ----APF- παρεμβολάς παρεμβολή
+32:9 C- -------- καὶ καί
+32:9 V- 3AAI-S-- εἶπεν λέγω  # module lemma ἔπω — λέγω keeps one dictionary form across both testaments
+32:9 N- ----NSM- Ιακωβ Ἰακώβ
+32:9 C- -------- Ἐὰν ἐάν
+32:9 V- 3AAS-S-- ἔλθῃ ἔρχομαι
+32:9 N- ----NSM- Ησαυ Ἠσαῦ
+32:9 P- -------- εἰς εἰς
+32:9 N- ----ASF- παρεμβολὴν παρεμβολή
+32:9 A- ----ASF- μίαν εἷς
+32:9 C- -------- καὶ καί
+32:9 V- 3AAS-S-- ἐκκόψῃ ἐκκόπτω
+32:9 RP ----ASF- αὐτήν αὐτός
+32:9 V- 3FMI-S-- ἔσται εἰμί
+32:9 RA ----NSF- ἡ ὁ
+32:9 N- ----NSF- παρεμβολὴ παρεμβολή
+32:9 RA ----NSF- ἡ ὁ
+32:9 A- ----NSF- δευτέρα δεύτερος
+32:9 P- -------- εἰς εἰς
+32:9 RA ----ASN- τὸ ὁ
+32:9 V- -PEN---- σῴζεσθαι σῴζω  # module lemma σώζω — σῴζω, as Middle Liddell heads it
+32:10 V- 3AAI-S-- εἶπεν λέγω  # module lemma ἔπω — λέγω keeps one dictionary form across both testaments
+32:10 C- -------- δὲ δέ
+32:10 N- ----NSM- Ιακωβ Ἰακώβ
+32:10 RA ----NSM- Ὁ ὁ
+32:10 N- ----NSM- θεὸς θεός
+32:10 RA ----GSM- τοῦ ὁ
+32:10 N- ----GSM- πατρός πατήρ
+32:10 RP ----GS-- μου ἐγώ  # module lemma μου, the form itself — ἐγώ is the dictionary form
+32:10 N- ----GSM- Αβρααμ Ἀβραάμ
+32:10 C- -------- καὶ καί
+32:10 RA ----NSM- ὁ ὁ
+32:10 N- ----NSM- θεὸς θεός
+32:10 RA ----GSM- τοῦ ὁ
+32:10 N- ----GSM- πατρός πατήρ
+32:10 RP ----GS-- μου ἐγώ  # module lemma μου, the form itself — ἐγώ is the dictionary form
+32:10 N- ----GSM- Ισαακ Ἰσαάκ
+32:10 N- ----VSM- κύριε κύριος
+32:10 RA ----NSM- ὁ ὁ
+32:10 V- -AAPNSM- εἴπας λέγω  # module lemma ἔπω — λέγω keeps one dictionary form across both testaments
+32:10 RP ----DS-- μοι ἐγώ  # module lemma μοι, the form itself — ἐγώ is the dictionary form
+32:10 V- 2PAD-S-- Ἀπότρεχε ἀποτρέχω
+32:10 P- -------- εἰς εἰς
+32:10 RA ----ASF- τὴν ὁ
+32:10 N- ----ASF- γῆν γῆ
+32:10 RA ----GSF- τῆς ὁ
+32:10 N- ----GSF- γενέσεώς γένεσις
+32:10 RP ----GS-- σου σύ  # module lemma σοῦ, the form itself — σύ is the dictionary form
+32:10 C- -------- καὶ καί
+32:10 D- -------- εὖ εὖ
+32:10 RP ----AS-- σε σύ  # module lemma σέ, the form itself — σύ is the dictionary form
+32:10 V- 1FAI-S-- ποιήσω ποιέω
+32:11 V- 3PEI-S-- ἱκανοῦταί ἱκανόω
+32:11 RP ----DS-- μοι ἐγώ  # module lemma μοι, the form itself — ἐγώ is the dictionary form
+32:11 P- -------- ἀπὸ ἀπό
+32:11 A- ----GSF- πάσης πᾶς
+32:11 N- ----GSF- δικαιοσύνης δικαιοσύνη
+32:11 C- -------- καὶ καί
+32:11 P- -------- ἀπὸ ἀπό
+32:11 A- ----GSF- πάσης πᾶς
+32:11 N- ----GSF- ἀληθείας ἀλήθεια
+32:11 RR ----GSF- ἧς ὅς
+32:11 V- 2AAI-S-- ἐποίησας ποιέω
+32:11 RA ----DSM- τῷ ὁ
+32:11 N- ----DSM- παιδί παῖς
+32:11 RP ----GS-- σου σύ  # module lemma σοῦ, the form itself — σύ is the dictionary form
+32:11 P- -------- ἐν ἐν
+32:11 C- -------- γὰρ γάρ
+32:11 RA ----DSF- τῇ ὁ
+32:11 N- ----DSF- ῥάβδῳ ῥάβδος
+32:11 RP ----GS-- μου ἐγώ  # module lemma μου, the form itself — ἐγώ is the dictionary form
+32:11 V- 1AAI-S-- διέβην διαβαίνω
+32:11 RA ----ASM- τὸν ὁ
+32:11 N- ----ASM- Ιορδάνην Ἰορδάνης
+32:11 RD ----ASM- τοῦτον οὗτος
+32:11 D- -------- νῦν νῦν
+32:11 C- -------- δὲ δέ
+32:11 V- 1XAI-S-- γέγονα γίνομαι
+32:11 P- -------- εἰς εἰς
+32:11 A- ----APF- δύο δύο  # module M, no features — MorphGNT gives δύο case, number and gender like any adjective
+32:11 N- ----APF- παρεμβολάς παρεμβολή
+32:12 V- 2AMD-S-- ἐξελοῦ ἐξαιρέω
+32:12 RP ----AS-- με ἐγώ  # module lemma μέ, the form itself — ἐγώ is the dictionary form
+32:12 P- -------- ἐκ ἐκ
+32:12 N- ----GSF- χειρὸς χείρ
+32:12 RA ----GSM- τοῦ ὁ
+32:12 N- ----GSM- ἀδελφοῦ ἀδελφός
+32:12 RP ----GS-- μου ἐγώ  # module lemma μου, the form itself — ἐγώ is the dictionary form
+32:12 N- ----GSM- Ησαυ Ἠσαῦ
+32:12 C- -------- ὅτι ὅτι
+32:12 V- 1PEI-S-- φοβοῦμαι φοβέομαι  # module lemma φοβέω — φοβέομαι, the middle the corpus files
+32:12 RP ----NS-- ἐγὼ ἐγώ
+32:12 RP ----ASM- αὐτόν αὐτός
+32:12 C- -------- μήποτε μήποτε
+32:12 V- -AAPNSM- ἐλθὼν ἔρχομαι
+32:12 V- 3AAS-S-- πατάξῃ πατάσσω
+32:12 RP ----AS-- με ἐγώ  # module lemma μέ, the form itself — ἐγώ is the dictionary form
+32:12 C- -------- καὶ καί
+32:12 N- ----ASF- μητέρα μήτηρ
+32:12 P- -------- ἐπὶ ἐπί
+32:12 N- ----DPN- τέκνοις τέκνον
+32:13 RP ----NS-- σὺ σύ
+32:13 C- -------- δὲ δέ
+32:13 V- 2AAI-S-- εἶπας λέγω  # module lemma ἔπω — λέγω keeps one dictionary form across both testaments
+32:13 D- -------- Καλῶς καλῶς
+32:13 D- -------- εὖ εὖ
+32:13 RP ----AS-- σε σύ  # module lemma σέ, the form itself — σύ is the dictionary form
+32:13 V- 1FAI-S-- ποιήσω ποιέω
+32:13 C- -------- καὶ καί
+32:13 V- 1FAI-S-- θήσω τίθημι
+32:13 RA ----ASN- τὸ ὁ
+32:13 N- ----ASN- σπέρμα σπέρμα
+32:13 RP ----GS-- σου σύ  # module lemma σοῦ, the form itself — σύ is the dictionary form
+32:13 C- -------- ὡς ὡς  # module lemma ὥς — ὡς, the comparative particle, as MorphGNT files it
+32:13 RA ----ASF- τὴν ὁ
+32:13 N- ----ASF- ἄμμον ἄμμος
+32:13 RA ----GSF- τῆς ὁ
+32:13 N- ----GSF- θαλάσσης θάλασσα
+32:13 RR ----NSF- ἣ ὅς
+32:13 D- -------- οὐκ οὐ
+32:13 V- 3FPI-S-- ἀριθμηθήσεται ἀριθμέω
+32:13 P- -------- ἀπὸ ἀπό
+32:13 RA ----GSN- τοῦ ὁ
+32:13 N- ----GSN- πλήθους πλῆθος
+32:14 C- -------- καὶ καί
+32:14 V- 3API-S-- ἐκοιμήθη κοιμάω
+32:14 D- -------- ἐκεῖ ἐκεῖ
+32:14 RA ----ASF- τὴν ὁ
+32:14 N- ----ASF- νύκτα νύξ
+32:14 RD ----ASF- ἐκείνην ἐκεῖνος
+32:14 C- -------- καὶ καί
+32:14 V- 3AAI-S-- ἔλαβεν λαμβάνω
+32:14 RR ----GPN- ὧν ὅς  # module GPM — the relative takes δῶρα, which is neuter
+32:14 V- 3IAI-S-- ἔφερεν φέρω
+32:14 N- ----APN- δῶρα δῶρον
+32:14 C- -------- καὶ καί
+32:14 V- 3AAI-S-- ἐξαπέστειλεν ἐξαποστέλλω
+32:14 N- ----DSM- Ησαυ Ἠσαῦ
+32:14 RA ----DSM- τῷ ὁ
+32:14 N- ----DSM- ἀδελφῷ ἀδελφός
+32:14 RP ----GSM- αὐτοῦ αὐτός
+32:15 N- ----APF- αἶγας αἴξ
+32:15 A- ----APF- διακοσίας διακόσιοι
+32:15 N- ----APM- τράγους τράγος
+32:15 A- ----APM- εἴκοσι εἴκοσι  # module M, no features — MorphGNT gives εἴκοσι case, number and gender like any adjective
+32:15 N- ----APN- πρόβατα πρόβατον
+32:15 A- ----APN- διακόσια διακόσιοι
+32:15 N- ----APM- κριοὺς κριός
+32:15 A- ----APM- εἴκοσι εἴκοσι  # module M, no features — MorphGNT gives εἴκοσι case, number and gender like any adjective
+32:16 N- ----APF- καμήλους κάμηλος
+32:16 V- -PAPAPF- θηλαζούσας θηλάζω
+32:16 C- -------- καὶ καί
+32:16 RA ----APN- τὰ ὁ
+32:16 N- ----APN- παιδία παιδίον
+32:16 RP ----GPF- αὐτῶν αὐτός  # module GPM — the camels are feminine
+32:16 A- ----APN- τριάκοντα τριάκοντα  # module M, no features — MorphGNT gives τριάκοντα case, number and gender like any adjective
+32:16 N- ----APF- βόας βοῦς  # module APM — βοῦς feminine, as the corpus has had it
+32:16 A- ----APF- τεσσαράκοντα τεσσαράκοντα  # module M, no features — MorphGNT gives τεσσαράκοντα case, number and gender like any adjective
+32:16 N- ----APM- ταύρους ταῦρος
+32:16 A- ----APM- δέκα δέκα  # module M, no features — MorphGNT gives δέκα case, number and gender like any adjective
+32:16 N- ----APM- ὄνους ὄνος
+32:16 A- ----APM- εἴκοσι εἴκοσι  # module M, no features — MorphGNT gives εἴκοσι case, number and gender like any adjective
+32:16 C- -------- καὶ καί
+32:16 N- ----APM- πώλους πῶλος
+32:16 A- ----APM- δέκα δέκα  # module M, no features — MorphGNT gives δέκα case, number and gender like any adjective
+32:17 C- -------- καὶ καί
+32:17 V- 3AAI-S-- ἔδωκεν δίδωμι
+32:17 P- -------- διὰ διά
+32:17 N- ----GSF- χειρὸς χείρ
+32:17 RA ----DPM- τοῖς ὁ
+32:17 N- ----DPM- παισὶν παῖς
+32:17 RP ----GSM- αὐτοῦ αὐτός
+32:17 N- ----ASN- ποίμνιον ποίμνιον
+32:17 P- -------- κατὰ κατά
+32:17 A- ----APF- μόνας μόνος
+32:17 V- 3AAI-S-- εἶπεν λέγω  # module lemma ἔπω — λέγω keeps one dictionary form across both testaments
+32:17 C- -------- δὲ δέ
+32:17 RA ----DPM- τοῖς ὁ
+32:17 N- ----DPM- παισὶν παῖς
+32:17 RP ----GSM- αὐτοῦ αὐτός
+32:17 V- 2PED-P-- Προπορεύεσθε προπορεύομαι
+32:17 P- -------- ἔμπροσθέν ἔμπροσθεν
+32:17 RP ----GS-- μου ἐγώ  # module lemma μου, the form itself — ἐγώ is the dictionary form
+32:17 C- -------- καὶ καί
+32:17 N- ----ASN- διάστημα διάστημα
+32:17 V- 2PAD-P-- ποιεῖτε ποιέω  # corpus the imperative, where ποιεῖτε at 24:49 is the indicative — one form, two parses  # module indicative — the imperative, beside προπορεύεσθε
+32:17 P- -------- ἀνὰ ἀνά
+32:17 A- ----ASN- μέσον μέσος  # module ASM — with a genitive after it, the neuter used as a noun, as MorphGNT codes ἀνὰ μέσον
+32:17 N- ----GSF- ποίμνης ποίμνη
+32:17 C- -------- καὶ καί
+32:17 N- ----GSF- ποίμνης ποίμνη
+32:18 C- -------- καὶ καί
+32:18 V- 3AMI-S-- ἐνετείλατο ἐντέλλομαι
+32:18 RA ----DSM- τῷ ὁ
+32:18 A- ----DSM- πρώτῳ πρῶτος
+32:18 V- -PAPNSM- λέγων λέγω
+32:18 C- -------- Ἐάν ἐάν
+32:18 RP ----DS-- σοι σύ  # module lemma σοί, the form itself — σύ is the dictionary form
+32:18 V- 3AAS-S-- συναντήσῃ συναντάω
+32:18 N- ----NSM- Ησαυ Ἠσαῦ
+32:18 RA ----NSM- ὁ ὁ
+32:18 N- ----NSM- ἀδελφός ἀδελφός
+32:18 RP ----GS-- μου ἐγώ  # module lemma μου, the form itself — ἐγώ is the dictionary form
+32:18 C- -------- καὶ καί
+32:18 V- 3PAS-S-- ἐρωτᾷ ἐρωτάω  # module indicative — the subjunctive after ἐάν, with συναντήσῃ
+32:18 RP ----AS-- σε σύ  # module lemma σέ, the form itself — σύ is the dictionary form
+32:18 V- -PAPNSM- λέγων λέγω
+32:18 RI ----GSM- Τίνος τίς
+32:18 V- 2PAI-S-- εἶ εἰμί
+32:18 C- -------- καὶ καί
+32:18 D- -------- ποῦ ποῦ
+32:18 V- 2PEI-S-- πορεύῃ πορεύομαι  # module 3rd singular subjunctive — the second person, in the question ποῦ πορεύῃ
+32:18 C- -------- καὶ καί
+32:18 RI ----GSM- τίνος τίς  # module GSN — whose, of a person
+32:18 RD ----NPN- ταῦτα οὗτος
+32:18 RA ----NPN- τὰ ὁ
+32:18 V- -PEPNPN- προπορευόμενά προπορεύομαι  # module accusative — the nominative, the subject of the verbless question
+32:18 RP ----GS-- σου σύ  # module lemma σοῦ, the form itself — σύ is the dictionary form
+32:19 V- 2FAI-S-- ἐρεῖς λέγω  # module lemma ἐρέω — λέγω, as MorphGNT files ἐροῦσιν (Luke 17:21)
+32:19 RA ----GSM- Τοῦ ὁ
+32:19 N- ----GSM- παιδός παῖς
+32:19 RP ----GS-- σου σύ  # module lemma σοῦ, the form itself — σύ is the dictionary form
+32:19 N- ----GSM- Ιακωβ Ἰακώβ
+32:19 N- ----APN- δῶρα δῶρον
+32:19 V- 3XAI-S-- ἀπέσταλκεν ἀποστέλλω
+32:19 RA ----DSM- τῷ ὁ
+32:19 N- ----DSM- κυρίῳ κύριος
+32:19 RP ----GS-- μου ἐγώ  # module lemma μου, the form itself — ἐγώ is the dictionary form
+32:19 N- ----DSM- Ησαυ Ἠσαῦ  # module GSM — the dative in apposition to τῷ κυρίῳ μου
+32:19 C- -------- καὶ καί
+32:19 X- -------- ἰδοὺ ἰδού
+32:19 RP ----NSM- αὐτὸς αὐτός
+32:19 P- -------- ὀπίσω ὀπίσω
+32:19 RP ----GP-- ἡμῶν ἐγώ  # module lemma ἡμῶν, the form itself — ἐγώ is the dictionary form
+32:20 C- -------- καὶ καί
+32:20 V- 3AMI-S-- ἐνετείλατο ἐντέλλομαι
+32:20 RA ----DSM- τῷ ὁ
+32:20 A- ----DSM- πρώτῳ πρῶτος
+32:20 C- -------- καὶ καί
+32:20 RA ----DSM- τῷ ὁ
+32:20 A- ----DSM- δευτέρῳ δεύτερος
+32:20 C- -------- καὶ καί
+32:20 RA ----DSM- τῷ ὁ
+32:20 A- ----DSM- τρίτῳ τρίτος
+32:20 C- -------- καὶ καί
+32:20 A- ----DPM- πᾶσι πᾶς
+32:20 RA ----DPM- τοῖς ὁ
+32:20 V- -PEPDPM- προπορευομένοις προπορεύομαι
+32:20 P- -------- ὀπίσω ὀπίσω
+32:20 RA ----GPN- τῶν ὁ
+32:20 N- ----GPN- ποιμνίων ποίμνιον
+32:20 RD ----GPN- τούτων οὗτος
+32:20 V- -PAPNSM- λέγων λέγω
+32:20 P- -------- Κατὰ κατά
+32:20 RA ----ASN- τὸ ὁ
+32:20 N- ----ASN- ῥῆμα ῥῆμα
+32:20 RD ----ASN- τοῦτο οὗτος
+32:20 V- 2AAD-P-- λαλήσατε λαλέω
+32:20 N- ----DSM- Ησαυ Ἠσαῦ
+32:20 P- -------- ἐν ἐν
+32:20 RA ----DSN- τῷ ὁ
+32:20 V- -AAN---- εὑρεῖν εὑρίσκω
+32:20 RP ----AP-- ὑμᾶς σύ  # module lemma ὑμᾶς, the form itself — σύ is the dictionary form
+32:20 RP ----ASM- αὐτὸν αὐτός
+32:21 C- -------- καὶ καί
+32:21 V- 2FAI-P-- ἐρεῖτε λέγω  # module lemma ἐρέω — λέγω, as MorphGNT files ἐροῦσιν (Luke 17:21)
+32:21 X- -------- Ἰδοὺ ἰδού
+32:21 RA ----NSM- ὁ ὁ
+32:21 N- ----NSM- παῖς παῖς
+32:21 RP ----GS-- σου σύ  # module lemma σοῦ, the form itself — σύ is the dictionary form
+32:21 N- ----NSM- Ιακωβ Ἰακώβ
+32:21 V- 3PEI-S-- παραγίνεται παραγίνομαι
+32:21 P- -------- ὀπίσω ὀπίσω
+32:21 RP ----GP-- ἡμῶν ἐγώ  # module lemma ἡμῶν, the form itself — ἐγώ is the dictionary form
+32:21 V- 3AAI-S-- εἶπεν λέγω  # module lemma ἔπω — λέγω keeps one dictionary form across both testaments
+32:21 C- -------- γάρ γάρ
+32:21 V- 1FMI-S-- Ἐξιλάσομαι ἐξιλάσκομαι
+32:21 RA ----ASN- τὸ ὁ
+32:21 N- ----ASN- πρόσωπον πρόσωπον
+32:21 RP ----GSM- αὐτοῦ αὐτός
+32:21 P- -------- ἐν ἐν
+32:21 RA ----DPN- τοῖς ὁ
+32:21 N- ----DPN- δώροις δῶρον
+32:21 RA ----DPN- τοῖς ὁ
+32:21 V- -PEPDPN- προπορευομένοις προπορεύομαι
+32:21 RP ----GSM- αὐτοῦ αὐτός
+32:21 C- -------- καὶ καί
+32:21 P- -------- μετὰ μετά
+32:21 RD ----ASN- τοῦτο οὗτος
+32:21 V- 1FMI-S-- ὄψομαι ὁράω  # module lemma ὀπτάνομαι — ὁράω, whose future middle this is
+32:21 RA ----ASN- τὸ ὁ
+32:21 N- ----ASN- πρόσωπον πρόσωπον
+32:21 RP ----GSM- αὐτοῦ αὐτός
+32:21 D- -------- ἴσως ἴσως
+32:21 C- -------- γὰρ γάρ
+32:21 V- 3FMI-S-- προσδέξεται προσδέχομαι
+32:21 RA ----ASN- τὸ ὁ
+32:21 N- ----ASN- πρόσωπόν πρόσωπον
+32:21 RP ----GS-- μου ἐγώ  # module lemma μου, the form itself — ἐγώ is the dictionary form
+32:22 C- -------- καὶ καί
+32:22 V- 3IEI-P-- παρεπορεύοντο παραπορεύομαι
+32:22 RA ----NPN- τὰ ὁ  # module APN — the subject of παρεπορεύοντο, which is intransitive
+32:22 N- ----NPN- δῶρα δῶρον  # module APN — the subject of παρεπορεύοντο
+32:22 P- -------- κατὰ κατά
+32:22 N- ----ASN- πρόσωπον πρόσωπον
+32:22 RP ----GSM- αὐτοῦ αὐτός
+32:22 RP ----NSM- αὐτὸς αὐτός
+32:22 C- -------- δὲ δέ
+32:22 V- 3API-S-- ἐκοιμήθη κοιμάω
+32:22 RA ----ASF- τὴν ὁ
+32:22 N- ----ASF- νύκτα νύξ
+32:22 RD ----ASF- ἐκείνην ἐκεῖνος
+32:22 P- -------- ἐν ἐν
+32:22 RA ----DSF- τῇ ὁ
+32:22 N- ----DSF- παρεμβολῇ παρεμβολή
+32:23 V- -AAPNSM- Ἀναστὰς ἀνίστημι
+32:23 C- -------- δὲ δέ
+32:23 RA ----ASF- τὴν ὁ
+32:23 N- ----ASF- νύκτα νύξ
+32:23 RD ----ASF- ἐκείνην ἐκεῖνος
+32:23 V- 3AAI-S-- ἔλαβεν λαμβάνω
+32:23 RA ----APF- τὰς ὁ
+32:23 A- ----APF- δύο δύο  # module M, no features — MorphGNT gives δύο case, number and gender like any adjective
+32:23 N- ----APF- γυναῖκας γυνή
+32:23 C- -------- καὶ καί
+32:23 RA ----APF- τὰς ὁ
+32:23 A- ----APF- δύο δύο  # module M, no features — MorphGNT gives δύο case, number and gender like any adjective
+32:23 N- ----APF- παιδίσκας παιδίσκη
+32:23 C- -------- καὶ καί
+32:23 RA ----APN- τὰ ὁ
+32:23 A- ----APN- ἕνδεκα ἕνδεκα  # module M, no features — MorphGNT gives ἕνδεκα case, number and gender like any adjective
+32:23 N- ----APN- παιδία παιδίον
+32:23 RP ----GSM- αὐτοῦ αὐτός
+32:23 C- -------- καὶ καί
+32:23 V- 3AAI-S-- διέβη διαβαίνω
+32:23 RA ----ASF- τὴν ὁ
+32:23 N- ----ASF- διάβασιν διάβασις
+32:23 RA ----GSM- τοῦ ὁ
+32:23 N- ----GS-- Ιαβοκ Ιαβοκ  # module with a case — the indeclinable name, as Χανααν
+32:24 C- -------- καὶ καί
+32:24 V- 3AAI-S-- ἔλαβεν λαμβάνω
+32:24 RP ----APM- αὐτοὺς αὐτός
+32:24 C- -------- καὶ καί
+32:24 V- 3AAI-S-- διέβη διαβαίνω
+32:24 RA ----ASM- τὸν ὁ
+32:24 N- ----ASM- χειμάρρουν χείμαρρος  # module lemma χειμάρρους — χείμαρρος, the shortened form LSJ gives beside χειμάρροος
+32:24 C- -------- καὶ καί
+32:24 V- 3AAI-S-- διεβίβασεν διαβιβάζω
+32:24 A- ----APN- πάντα πᾶς
+32:24 RA ----APN- τὰ ὁ
+32:24 RP ----GSM- αὐτοῦ αὐτός
+32:25 V- 3API-S-- ὑπελείφθη ὑπολείπω
+32:25 C- -------- δὲ δέ
+32:25 N- ----NSM- Ιακωβ Ἰακώβ
+32:25 A- ----NSM- μόνος μόνος
+32:25 C- -------- καὶ καί
+32:25 V- 3IAI-S-- ἐπάλαιεν παλαίω  # module aorist — the imperfect: the aorist would be ἐπάλαισεν
+32:25 N- ----NSM- ἄνθρωπος ἄνθρωπος
+32:25 P- -------- μετʼ μετά
+32:25 RP ----GSM- αὐτοῦ αὐτός
+32:25 P- -------- ἕως ἕως
+32:25 D- -------- πρωί πρωΐ
+32:26 V- 3AAI-S-- εἶδεν ὁράω
+32:26 C- -------- δὲ δέ
+32:26 C- -------- ὅτι ὅτι
+32:26 D- -------- οὐ οὐ
+32:26 V- 3PEI-S-- δύναται δύναμαι
+32:26 P- -------- πρὸς πρός
+32:26 RP ----ASM- αὐτόν αὐτός
+32:26 C- -------- καὶ καί
+32:26 V- 3AMI-S-- ἥψατο ἅπτω  # module lemma ἅπτομαι — ἅπτω, the active Middle Liddell heads
+32:26 RA ----GSN- τοῦ ὁ
+32:26 N- ----GSN- πλάτους πλάτος
+32:26 RA ----GSM- τοῦ ὁ
+32:26 N- ----GSM- μηροῦ μηρός
+32:26 RP ----GSM- αὐτοῦ αὐτός
+32:26 C- -------- καὶ καί
+32:26 V- 3AAI-S-- ἐνάρκησεν ναρκάω
+32:26 RA ----NSN- τὸ ὁ  # module ASN — the subject of ἐνάρκησεν, which is intransitive
+32:26 N- ----NSN- πλάτος πλάτος  # module ASN — the subject of ἐνάρκησεν
+32:26 RA ----GSM- τοῦ ὁ
+32:26 N- ----GSM- μηροῦ μηρός
+32:26 N- ----GSM- Ιακωβ Ἰακώβ
+32:26 P- -------- ἐν ἐν
+32:26 RA ----DSN- τῷ ὁ
+32:26 V- -PAN---- παλαίειν παλαίω
+32:26 RP ----ASM- αὐτὸν αὐτός
+32:26 P- -------- μετʼ μετά
+32:26 RP ----GSM- αὐτοῦ αὐτός
+32:27 C- -------- καὶ καί
+32:27 V- 3AAI-S-- εἶπεν λέγω  # module lemma ἔπω — λέγω keeps one dictionary form across both testaments
+32:27 RP ----DSM- αὐτῷ αὐτός
+32:27 V- 2AAD-S-- Ἀπόστειλόν ἀποστέλλω
+32:27 RP ----AS-- με ἐγώ  # module lemma μέ, the form itself — ἐγώ is the dictionary form
+32:27 V- 3AAI-S-- ἀνέβη ἀναβαίνω
+32:27 C- -------- γὰρ γάρ
+32:27 RA ----NSM- ὁ ὁ
+32:27 N- ----NSM- ὄρθρος ὄρθρος
+32:27 RA ----NSM- ὁ ὁ
+32:27 C- -------- δὲ δέ
+32:27 V- 3AAI-S-- εἶπεν λέγω  # module lemma ἔπω — λέγω keeps one dictionary form across both testaments
+32:27 D- -------- Οὐ οὐ
+32:27 D- -------- μή μή
+32:27 RP ----AS-- σε σύ  # module lemma σέ, the form itself — σύ is the dictionary form
+32:27 V- 1AAS-S-- ἀποστείλω ἀποστέλλω
+32:27 C- -------- ἐὰν ἐάν
+32:27 D- -------- μή μή
+32:27 RP ----AS-- με ἐγώ  # module lemma μέ, the form itself — ἐγώ is the dictionary form
+32:27 V- 2AAS-S-- εὐλογήσῃς εὐλογέω
+32:28 V- 3AAI-S-- εἶπεν λέγω  # module lemma ἔπω — λέγω keeps one dictionary form across both testaments
+32:28 C- -------- δὲ δέ
+32:28 RP ----DSM- αὐτῷ αὐτός
+32:28 RI ----NSN- Τί τίς
+32:28 RA ----NSN- τὸ ὁ
+32:28 N- ----NSN- ὄνομά ὄνομα
+32:28 RP ----GS-- σού σύ  # module lemma σοῦ, the form itself — σύ is the dictionary form
+32:28 V- 3PAI-S-- ἐστιν εἰμί
+32:28 RA ----NSM- ὁ ὁ
+32:28 C- -------- δὲ δέ
+32:28 V- 3AAI-S-- εἶπεν λέγω  # module lemma ἔπω — λέγω keeps one dictionary form across both testaments
+32:28 N- ----NSM- Ιακωβ Ἰακώβ
+32:29 V- 3AAI-S-- εἶπεν λέγω  # module lemma ἔπω — λέγω keeps one dictionary form across both testaments
+32:29 C- -------- δὲ δέ
+32:29 RP ----DSM- αὐτῷ αὐτός
+32:29 D- -------- Οὐ οὐ
+32:29 V- 3FPI-S-- κληθήσεται καλέω
+32:29 D- -------- ἔτι ἔτι
+32:29 RA ----NSN- τὸ ὁ
+32:29 N- ----NSN- ὄνομά ὄνομα
+32:29 RP ----GS-- σου σύ  # module lemma σοῦ, the form itself — σύ is the dictionary form
+32:29 N- ----NSM- Ιακωβ Ἰακώβ
+32:29 C- -------- ἀλλὰ ἀλλά
+32:29 N- ----NSM- Ισραηλ Ἰσραήλ
+32:29 V- 3FMI-S-- ἔσται εἰμί
+32:29 RA ----NSN- τὸ ὁ
+32:29 N- ----NSN- ὄνομά ὄνομα
+32:29 RP ----GS-- σου σύ  # module lemma σοῦ, the form itself — σύ is the dictionary form
+32:29 C- -------- ὅτι ὅτι
+32:29 V- 2AAI-S-- ἐνίσχυσας ἐνισχύω
+32:29 P- -------- μετὰ μετά
+32:29 N- ----GSM- θεοῦ θεός
+32:29 C- -------- καὶ καί
+32:29 P- -------- μετὰ μετά
+32:29 N- ----GPM- ἀνθρώπων ἄνθρωπος
+32:29 A- ----NSM- δυνατός δυνατός
+32:30 V- 3AAI-S-- ἠρώτησεν ἐρωτάω
+32:30 C- -------- δὲ δέ
+32:30 N- ----NSM- Ιακωβ Ἰακώβ
+32:30 C- -------- καὶ καί
+32:30 V- 3AAI-S-- εἶπεν λέγω  # module lemma ἔπω — λέγω keeps one dictionary form across both testaments
+32:30 V- 2AAD-S-- Ἀνάγγειλόν ἀναγγέλλω
+32:30 RP ----DS-- μοι ἐγώ  # module lemma μοι, the form itself — ἐγώ is the dictionary form
+32:30 RA ----ASN- τὸ ὁ
+32:30 N- ----ASN- ὄνομά ὄνομα
+32:30 RP ----GS-- σου σύ  # module lemma σοῦ, the form itself — σύ is the dictionary form
+32:30 C- -------- καὶ καί
+32:30 V- 3AAI-S-- εἶπεν λέγω  # module lemma ἔπω — λέγω keeps one dictionary form across both testaments
+32:30 C- -------- Ἵνα ἵνα
+32:30 RI ----NSN- τί τίς  # module ASN — ἵνα τί is the ellipsis ἵνα τί γένηται, with τί its subject
+32:30 RD ----ASN- τοῦτο οὗτος
+32:30 V- 2PAI-S-- ἐρωτᾷς ἐρωτάω
+32:30 RA ----ASN- τὸ ὁ
+32:30 N- ----ASN- ὄνομά ὄνομα
+32:30 RP ----GS-- μου ἐγώ  # module lemma μου, the form itself — ἐγώ is the dictionary form
+32:30 C- -------- καὶ καί
+32:30 V- 3AAI-S-- ηὐλόγησεν εὐλογέω
+32:30 RP ----ASM- αὐτὸν αὐτός
+32:30 D- -------- ἐκεῖ ἐκεῖ
+32:31 C- -------- καὶ καί
+32:31 V- 3AAI-S-- ἐκάλεσεν καλέω
+32:31 N- ----NSM- Ιακωβ Ἰακώβ
+32:31 RA ----ASN- τὸ ὁ
+32:31 N- ----ASN- ὄνομα ὄνομα
+32:31 RA ----GSM- τοῦ ὁ
+32:31 N- ----GSM- τόπου τόπος
+32:31 RD ----GSM- ἐκείνου ἐκεῖνος
+32:31 N- ----ASN- Εἶδος Εἶδος  # module lemma the common noun — the name keeps its capital
+32:31 N- ----GSM- θεοῦ θεός
+32:31 V- 1AAI-S-- εἶδον ὁράω
+32:31 C- -------- γὰρ γάρ
+32:31 N- ----ASM- θεὸν θεός
+32:31 N- ----ASN- πρόσωπον πρόσωπον
+32:31 P- -------- πρὸς πρός
+32:31 N- ----ASN- πρόσωπον πρόσωπον
+32:31 C- -------- καὶ καί
+32:31 V- 3API-S-- ἐσώθη σῴζω  # module lemma σώζω — σῴζω, as Middle Liddell heads it
+32:31 RP ----GS-- μου ἐγώ  # module lemma μου, the form itself — ἐγώ is the dictionary form
+32:31 RA ----NSF- ἡ ὁ
+32:31 N- ----NSF- ψυχή ψυχή
+32:32 V- 3AAI-S-- ἀνέτειλεν ἀνατέλλω
+32:32 C- -------- δὲ δέ
+32:32 RP ----DSM- αὐτῷ αὐτός
+32:32 RA ----NSM- ὁ ὁ
+32:32 N- ----NSM- ἥλιος ἥλιος
+32:32 C- -------- ἡνίκα ἡνίκα
+32:32 V- 3AAI-S-- παρῆλθεν παρέρχομαι
+32:32 RA ----NSN- τὸ ὁ  # module ASN — the subject of παρῆλθεν
+32:32 N- ----NSN- Εἶδος Εἶδος  # module lemma the common noun — the name keeps its capital
+32:32 RA ----GSM- τοῦ ὁ
+32:32 N- ----GSM- θεοῦ θεός
+32:32 RP ----NSM- αὐτὸς αὐτός
+32:32 C- -------- δὲ δέ
+32:32 V- 3IAI-S-- ἐπέσκαζεν ἐπισκάζω
+32:32 RA ----DSM- τῷ ὁ
+32:32 N- ----DSM- μηρῷ μηρός
+32:32 RP ----GSM- αὐτοῦ αὐτός
+32:33 P- -------- ἕνεκεν ἕνεκα
+32:33 RD ----GSN- τούτου οὗτος  # module GSM — the neuter, of the thing just told
+32:33 D- -------- οὐ οὐ
+32:33 D- -------- μὴ μή
+32:33 V- 3AAS-P-- φάγωσιν ἐσθίω
+32:33 RA ----NPM- οἱ ὁ
+32:33 N- ----NPM- υἱοὶ υἱός
+32:33 N- ----GSM- Ισραηλ Ἰσραήλ
+32:33 RA ----ASN- τὸ ὁ
+32:33 N- ----ASN- νεῦρον νεῦρον
+32:33 RR ----NSN- ὃ ὅς  # module ASN — the subject of ἐνάρκησεν
+32:33 V- 3AAI-S-- ἐνάρκησεν ναρκάω
+32:33 RR ----NSN- ὅ ὅς
+32:33 V- 3PAI-S-- ἐστιν εἰμί
+32:33 P- -------- ἐπὶ ἐπί
+32:33 RA ----GSN- τοῦ ὁ
+32:33 N- ----GSN- πλάτους πλάτος
+32:33 RA ----GSM- τοῦ ὁ
+32:33 N- ----GSM- μηροῦ μηρός
+32:33 P- -------- ἕως ἕως
+32:33 RA ----GSF- τῆς ὁ
+32:33 N- ----GSF- ἡμέρας ἡμέρα
+32:33 RD ----GSF- ταύτης οὗτος
+32:33 C- -------- ὅτι ὅτι
+32:33 V- 3AMI-S-- ἥψατο ἅπτω
+32:33 RA ----GSN- τοῦ ὁ
+32:33 N- ----GSN- πλάτους πλάτος
+32:33 RA ----GSM- τοῦ ὁ
+32:33 N- ----GSM- μηροῦ μηρός
+32:33 N- ----GSM- Ιακωβ Ἰακώβ
+32:33 RA ----GSN- τοῦ ὁ
+32:33 N- ----GSN- νεύρου νεῦρον
+32:33 C- -------- καὶ καί
+32:33 V- 3AAI-S-- ἐνάρκησεν ναρκάω

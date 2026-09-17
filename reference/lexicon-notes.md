@@ -185,6 +185,7 @@ Three reasons, and all of them are the lexicon's filing rather than a decision a
 | οὐθείς (GEN 30:31) | οὐδείς | the later spelling |
 | βαρέως (GEN 31:35) | βαρύς | the adverb, filed inside the adjective's entry |
 | ἀφρόνως (GEN 31:28) | ἄφρων | the adverb, which the entry glosses *senselessly* |
+| πρῶτος (GEN 32:18) | πρότερος | the superlative filed under the comparative, as at 8:5 |
 <!-- spelling rows above -->
 
 The dictionary form itself does not follow the lexicon's filing: it keeps the spelling the text
@@ -218,7 +219,7 @@ GEN 9 adds ὀπισθοφανής, *seen from behind*, and its adverb ὀπισ
 ἔτασις, *trial, affliction*. GEN 14 adds ἁλυκός, *salt, brackish*; ἀποσκευή, whose *removal,
 riddance* comes before *baggage*; σφαιρωτήρ, *thong, latchet*; and περάτης, which opens "= πορθμεύς",
 so that πορθμεύς's LSJ senses, *ferryman*, *boatman, seaman*, *conveyer*, stand before its own
-*wanderer, emigrant*, as ἁγίζω's stand for ἁγιάζω. GEN 15 adds ὑπερασπίζω, *cover with a shield*, from the upsilon file; τριετίζω, *to be three years old*; and διχοτόμημα, *half of a thing cut in two*. GEN 17 adds κατάσχεσις, *holding back, restraining, retention*, then *possession*, from the kappa file; and ἑκατονταέτης, *of a hundred years*, *years old*, citing 17:17. GEN 18 adds μοσχάριον, *little calf*, and, from the beta file, βούτυρον, *butter*, then *a plant*. GEN 19 adds προσοίγνυμι, *shut*; ἀορασία, *inability to see, blindness*; γελοιάζω, *jest*, from the gamma file; ἐπαύριον, *on the morrow*; and εἰσσπάομαι, *draw into oneself*. GEN 20 adds μήτρα, *womb*, whose Middle Liddell entry tags only Latin; δίδραχμον, *coin of two drachms*, under δίδραχμος; and κἀγώ, *crasis for καὶ ἐγώ*. GEN 21 adds ἀπογαλακτίζω, *wean from the mother's milk*; ἀρχιστράτηγος, *commander-in-chief*; and, from the omega file, ὦμος, *the shoulder with the upper arm*. GEN 23 adds παρεπίδημος, *sojourning in a strange place*, and μνημεῖον, *memorial, remembrance, record*, whose Middle Liddell entry tags its first sense only in Latin. GEN 24 adds ποτιστήριον, *drinking-trough for cattle*; ἐνώτιον, *ear-ring*; ἅβρα, *favourite slave*; and ἀποσάττω, *unsaddle, unpack*, *stop up, caulk*, *stuff with food*. GEN 25 adds three more: ὅλος, which Middle Liddell lacks altogether, *whole, entire, complete in all its parts*; δόμα, *gift*, then *payment*; and πυρράκης, *red, ruddy*, which LSJ files as a masculine noun. GEN 26 adds ἑκατοστεύω, *bear a hundredfold*, and γεώργιον, *field*, then *orchard*, *husbandry*, *crop* and, in the plural, a *tax* on land. GEN 27 adds four more: πιότης, *fattiness*, then *wealth, prosperity*; πτερνίζω, *strike with the heel*, *trip up, supplant*; προσοχθίζω, *to be wroth with*, and of this chapter's phrase *am weary* of; and κατανύσσω, *stab, gouge*, and in the passive *to be sorely pricked*. GEN 28 adds one more: ἐνυπνιάζομαι, *dream*, which Middle Liddell does not have at all. GEN 30 adds eight, the whole vocabulary of Jacob's flocks: ἀρήν, *lamb*; διάλευκος, *quite white*; ῥαντός, *sprinkled*, then *speckled or spotted*; σποδοειδής, *ashy, ash-coloured*; ἐγκισσάω, *have yearnings like one pregnant*; λεπίζω, *peel off the husk, skin or bark*; λέπισμα, *peel*; and καρύινος, *of nuts*, *made of walnut-wood*. LSJ cites this chapter for six of the eight. GEN 31 adds six: κρυφῇ, *secretly, in secret*, which Middle Liddell has only as the Doric κρύφα; κατάβρωσις, *eating up, devouring*; κλοποφορέω, *steal from, rob*; ἐθισμός, *accustoming, habituation*; θηριάλωτος, *caught by wild beasts*; and αἰχμαλωτίς, *captive*, which Middle Liddell has as an entry with no translation tagged in it. LSJ cites this chapter for four of the six.
+*wanderer, emigrant*, as ἁγίζω's stand for ἁγιάζω. GEN 15 adds ὑπερασπίζω, *cover with a shield*, from the upsilon file; τριετίζω, *to be three years old*; and διχοτόμημα, *half of a thing cut in two*. GEN 17 adds κατάσχεσις, *holding back, restraining, retention*, then *possession*, from the kappa file; and ἑκατονταέτης, *of a hundred years*, *years old*, citing 17:17. GEN 18 adds μοσχάριον, *little calf*, and, from the beta file, βούτυρον, *butter*, then *a plant*. GEN 19 adds προσοίγνυμι, *shut*; ἀορασία, *inability to see, blindness*; γελοιάζω, *jest*, from the gamma file; ἐπαύριον, *on the morrow*; and εἰσσπάομαι, *draw into oneself*. GEN 20 adds μήτρα, *womb*, whose Middle Liddell entry tags only Latin; δίδραχμον, *coin of two drachms*, under δίδραχμος; and κἀγώ, *crasis for καὶ ἐγώ*. GEN 21 adds ἀπογαλακτίζω, *wean from the mother's milk*; ἀρχιστράτηγος, *commander-in-chief*; and, from the omega file, ὦμος, *the shoulder with the upper arm*. GEN 23 adds παρεπίδημος, *sojourning in a strange place*, and μνημεῖον, *memorial, remembrance, record*, whose Middle Liddell entry tags its first sense only in Latin. GEN 24 adds ποτιστήριον, *drinking-trough for cattle*; ἐνώτιον, *ear-ring*; ἅβρα, *favourite slave*; and ἀποσάττω, *unsaddle, unpack*, *stop up, caulk*, *stuff with food*. GEN 25 adds three more: ὅλος, which Middle Liddell lacks altogether, *whole, entire, complete in all its parts*; δόμα, *gift*, then *payment*; and πυρράκης, *red, ruddy*, which LSJ files as a masculine noun. GEN 26 adds ἑκατοστεύω, *bear a hundredfold*, and γεώργιον, *field*, then *orchard*, *husbandry*, *crop* and, in the plural, a *tax* on land. GEN 27 adds four more: πιότης, *fattiness*, then *wealth, prosperity*; πτερνίζω, *strike with the heel*, *trip up, supplant*; προσοχθίζω, *to be wroth with*, and of this chapter's phrase *am weary* of; and κατανύσσω, *stab, gouge*, and in the passive *to be sorely pricked*. GEN 28 adds one more: ἐνυπνιάζομαι, *dream*, which Middle Liddell does not have at all. GEN 30 adds eight, the whole vocabulary of Jacob's flocks: ἀρήν, *lamb*; διάλευκος, *quite white*; ῥαντός, *sprinkled*, then *speckled or spotted*; σποδοειδής, *ashy, ash-coloured*; ἐγκισσάω, *have yearnings like one pregnant*; λεπίζω, *peel off the husk, skin or bark*; λέπισμα, *peel*; and καρύινος, *of nuts*, *made of walnut-wood*. LSJ cites this chapter for six of the eight. GEN 31 adds six: κρυφῇ, *secretly, in secret*, which Middle Liddell has only as the Doric κρύφα; κατάβρωσις, *eating up, devouring*; κλοποφορέω, *steal from, rob*; ἐθισμός, *accustoming, habituation*; θηριάλωτος, *caught by wild beasts*; and αἰχμαλωτίς, *captive*, which Middle Liddell has as an entry with no translation tagged in it. LSJ cites this chapter for four of the six. GEN 32 adds two: χείμαρρος, which LSJ heads χειμάρροος, *winter-flowing*, and as a noun *torrent*, *river*, *valley, watercourse*; and ἐπισκάζω, *limp upon*, cited from this chapter.
 <!-- LSJ sentences above -->
 
 GEN 9 also files ἐμεθύσθη under μεθύσκω, *to make drunk*, where Middle Liddell gives its aorist
@@ -618,6 +619,123 @@ the same ground as `the sixth` and `the seventh`: one sense each, so no range to
   settling in` (10:30); δύο `two`; υἱός `sons`.
 - The article before a people's name (τοὺς Λουδιιμ, τὸν Χετταῖον, τῶν Χαναναίων) is not printed,
   as before a person's name.
+
+### Words new in GEN 32
+
+- The chapter is Rahlfs's, not the Hebrew's: what the Hebrew numbers 31:55 the Greek has as 32:1, and
+  the Greek runs one verse ahead of the Hebrew to the end of the chapter.
+- παρεμβολή — *insertion, interpolation* first, and *an encampment, fortress* second; the Hebrew is
+  *maḥăneh*, the camp, and the place-name Παρεμβολαί, Rahlfs's capital and all, is Mahanaim. 32:2–32:22.
+- παρεμβάλλω — the perfect participle παρεμβεβληκυῖαν, the standing state: the camp stands encamped. 32:2.
+- συναντάω — *to meet face to face*, of the angels at 32:2 and of Esau at 32:18.
+- ἱκανόω — *to make sufficient, qualify*; the Hebrew is *qāṭōntî*, *I am too small for all the mercies*,
+  and the Greek turns it about: the mercies are made sufficient. 32:11.
+- ἐξαιρέω — the middle imperative ἐξελοῦ takes the Mid., *to take out for oneself*, then *to choose for
+  oneself, carry off as booty*. 32:12.
+- ἅπτω — ἥψατο is the middle, whose first sense is *to fasten oneself to, cling to, hang on by, lay hold
+  of, grasp, touch*. 32:26, 32:33.
+- ναρκάω — *to grow stiff, numb*, of the thigh; πλάτος, *breadth, width*, of its broad part. 32:26, 32:33.
+- ἐνισχύω — no Middle Liddell entry; LSJ gives *strengthen, confirm*, then *prevail in, prevail among*,
+  which is the striving with God the name Ισραηλ is heard in. 32:29.
+- ἐπισκάζω — no Middle Liddell entry either; LSJ has *limp upon* and cites this very verse. 32:32.
+- χείμαρρος — Middle Liddell has nothing; LSJ heads the adjective χειμάρροος, *winter-flowing, swollen by
+  rain and melted snow*, and as a noun *torrent*, and in the Septuagint *river* and *valley, watercourse*.
+  Rahlfs prints the shortened χείμαρρος. 32:24.
+- Εἶδος θεοῦ — the Greek of Peniel, and the Greek says *form of God* where the Hebrew says *face*; the
+  face is kept in πρόσωπον πρὸς πρόσωπον in the same verse. 32:31, 32:32.
+- κύριε ὁ εἴπας — the nominative article and participle in address beside the vocative κύριε, as the
+  brief's rule has it: the nominative in address keeps its case. 32:10.
+- εὖ and καλῶς stand side by side at 32:13, and both head as `well`: two Greek words, one English word,
+  and only the Greek line tells them apart.
+- πρῶτος — filed under πρότερος, as at 8:5, so `to the before` heads the first servant's rank. 32:18, 32:20.
+- One sense each in GEN 32, and so plain text: ταῦρος `bulls`; διάστημα `an interval`; ἱκανόω; ποίμνιον
+  `flock`, as at 29:2; τίς `what`, `of what`; τρίτος `to the third`; and the numerals.
+
+| lemma | headword | chain | used |
+| --- | --- | --- | --- |
+| αἴξ | `goats` | `goats, wild goats and ibexes, waves` | 32:15 |
+| γίνομαι | `I have come to be` | `I have come to be and it stands so, I have arisen, I have been brought into existence` | 32:11 |
+| γίνομαι | `came to be` | `came to be, arose, were brought into existence` | 32:6 |
+| δεύτερος | `the second` | `the second, the next` | 32:9 |
+| δεύτερος | `to the second` | `to the second, to the next` | 32:20 |
+| διάβασις | `the crossing over` | `the crossing over, the passage, the means and place of crossing, the ford, the bridge` | 32:23 |
+| διάστημα | `an interval` | `an interval` | 32:17 |
+| διαβαίνω | `I made a stride` | `I made a stride, I walked and stood with the legs apart, I stepped across and passed over, I crossed over` | 32:11 |
+| διαβιβάζω | `carried over` | `carried over, carried across, transported` | 32:24 |
+| δικαιοσύνη | `of righteousness` | `of righteousness, of justice, of the observance of custom and rule` | 32:11 |
+| δυνατός | `strong` | `strong, mighty, able, powerful, possible, practicable` | 32:29 |
+| δύναμαι | `is able` | `is able, is capable, is strong enough, dares and bears, passes for, is worth, is equivalent to, signifies and means` | 32:26 |
+| δῶρον, with ἐν | `in the gifts` | `within, inside of, and by means of the gifts, the presents, the votive gifts, the blessings` | 32:21 |
+| εὐλογέω | `you may speak well of` | `you may speak well of, you may praise, you may honour, you may bless` | 32:27 |
+| εὑρίσκω | `may find` | `may find, may find out, may discover` | 32:6 |
+| εὑρίσκω, with ἐν | `in the finding` | `within, inside of, and by means of the finding, the finding out, the discovering` | 32:20 |
+| θηλάζω | `suckling` | `suckling, giving suck` | 32:16 |
+| καταφιλέω | `kissed tenderly` | `kissed tenderly, caressed` | 32:1 |
+| λέγω | `you will say` | `you will say, you will speak, you will declare, you will call by name, you will tell` | 32:5, 32:19, 32:21 |
+| λέγω | `you will say` | `you will say, you will speak, you will declare, you will call by name, you will tell` | 32:5, 32:19, 32:21 |
+| μηρός | `to the thigh` | `to the thigh` | 32:32 |
+| ναρκάω | `grew stiff` | `grew stiff, grew numb` | 32:26, 32:33 |
+| νεῦρον | `of the sinew` | `of the sinew, of the tendon, of the tendons of the feet, of the sinews and vigour, of the gut and cord made of sinew, of the cord of a sling` | 32:33 |
+| νεῦρον | `the sinew` | `the sinew, the tendon, the tendons of the feet, the sinews and vigour, the gut and cord made of sinew, the cord of a sling` | 32:33 |
+| παλαίω | `was wrestling` | `was wrestling, was wrestling with` | 32:25 |
+| παλαίω, with ἐν | `in the wrestling` | `within, inside of, and by means of the wrestling, the wrestling with` | 32:26 |
+| παρέρχομαι | `went by` | `went by, went beside, went past, passed by and outstripped, came forward` | 32:32 |
+| παραγίνομαι | `comes to be beside` | `comes to be beside, is present, arrives, comes to help` | 32:21 |
+| παραπορεύομαι | `were going beside` | `were going beside, were going alongside, were going past, were passing` | 32:22 |
+| παρεμβάλλω | `having put in beside` | `having put in beside and it stands so, having inserted, having interpolated, having interposed, having insinuated, having put in line with, having fallen into line and encamped` | 32:2 |
+| παρεμβολή | `an insertion` | `an insertion, an interpolation, an encampment and fortress` | 32:2, 32:3, 32:9 |
+| παρεμβολή | `insertions` | `insertions, interpolations, encampments and fortresses` | 32:8, 32:11 |
+| παρεμβολή | `the insertion` | `the insertion, the interpolation, the encampment and fortress` | 32:9 |
+| παρεμβολή, with ἐν | `in the insertion` | `within, inside of, and by means of the insertion, the interpolation, the encampment and fortress` | 32:22 |
+| παροικέω | `I dwelt beside` | `I dwelt beside, I lived among, I settled as a stranger` | 32:5 |
+| πατάσσω | `may beat` | `may beat, may knock, may strike and smite, may knock at` | 32:12 |
+| πλάτος | `of the breadth` | `of the breadth, of the width` | 32:26, 32:33 |
+| ποίμνη | `of a flock` | `of a flock, of a flock of sheep` | 32:17 |
+| προπορεύομαι | `go before` | `go before, go forward, come forward, be promoted and advance` | 32:17 |
+| προπορεύομαι | `the ones going before` | `the ones going before, the ones going forward, the ones coming forward, the ones being promoted and advancing` | 32:18 |
+| προπορεύομαι | `to the ones going before` | `to the ones going before, to the ones going forward, to the ones coming forward, to the ones being promoted and advancing` | 32:20, 32:21 |
+| προπορεύομαι | `to the ones going before` | `to the ones going before, to the ones going forward, to the ones coming forward, to the ones being promoted and advancing` | 32:20, 32:21 |
+| προσδέχομαι | `will receive favourably` | `will receive favourably, will accept, will receive hospitably, will admit into, will admit to citizenship, will admit, will wait for and expect, will wait patiently` | 32:21 |
+| πρῶτος | `to the before` | `to the before, to the in front and forward, to the former and sooner, to the elder, to the above and superior, to the earlier` | 32:18, 32:20 |
+| πῶλος | `foals` | `foals, young horses, colts, fillies, young animals and puppies, young girls and maidens` | 32:16 |
+| συναντάω | `may meet face to face` | `may meet face to face, may meet together and assemble, may meet with, may come in contact with, may befall` | 32:18 |
+| συναντάω | `met face to face` | `met face to face, met together and assembled, met with, came in contact with, befell` | 32:2 |
+| σῴζω | `to be saved` | `to be saved, to be kept, to be saved from death and kept alive and preserved, to be kept safe, to be kept and observed and maintained, to be kept in mind and remembered, to be brought safe to, to come safe and escape to` | 32:9 |
+| σῴζω | `was saved` | `was saved, was kept, was saved from death and kept alive and preserved, was kept safe, was kept and observed and maintained, was kept in mind and remembered, was brought safe to, came safe and escaped to` | 32:31 |
+| τέκνον | `to the things borne` | `to the things borne, to the born, to children, to the young` | 32:12 |
+| ταῦρος | `bulls` | `bulls` | 32:16 |
+| φέρω | `was bringing` | `was bringing, was bearing, was carrying, was enduring` | 32:14 |
+| φοβέω | `I am put to flight` | `I am put to flight, I flee affrighted, I flee, I am seized with fear, I am affrighted, I fear` | 32:12 |
+| χείμαρρος | `the winter-flowing` | `the winter-flowing, the swollen by rain and melted snow, the torrent, the river, the drain and gutter, the valley and watercourse` | 32:24 |
+| χρονίζω | `I spent time` | `I spent time, I took time, I tarried, I lingered, I delayed, I was slow, I remained long` | 32:5 |
+| χώρα | `space in which a thing is` | `space in which a thing is, place, position and post, place in life and station, land and country, piece of land and estate and farm` | 32:4 |
+| ἀναστρέφω | `turned upside down` | `turned upside down, upset, turned back and brought back, rallied, turned back and returned and retired, dwelt, conducted themselves, revolved, faced about` | 32:7 |
+| ἀνατέλλω | `made to rise up` | `made to rise up, made to grow up, gave birth to and brought to light, rose, took its rise, grew` | 32:32 |
+| ἀπορέω | `was without means` | `was without means, was without resource, was at a loss, was in doubt, was puzzled, was left wanting and unprovided for` | 32:8 |
+| ἀποστέλλω | `I may send off` | `I may send off, I may send away, I may banish, I may despatch, I may go away and depart` | 32:27 |
+| ἀποστέλλω | `I sent off` | `I sent off, I sent away, I banished, I despatched, I went away and departed` | 32:6 |
+| ἀποστέλλω | `has sent off` | `has sent off and it stands so, has sent away, has banished, has despatched, has gone away and departed` | 32:19 |
+| ἀποστρέφω | `having been turned` | `having been turned, having been turned back, having been turned away, having been brought back, having turned himself about` | 32:1 |
+| ἄγγελος | `messengers` | `messengers and envoys, ones that announce, divine messengers and angels` | 32:4 |
+| ἄνθρωπος | `man` | `man, human being, mankind` | 32:25 |
+| ἄνθρωπος | `of men` | `of men, of human beings, of mankind` | 32:29 |
+| ἅπτω | `fastened himself to` | `fastened himself to, clung to, hung on by, laid hold of, grasped, touched, engaged in and took part in, laid hold of and disputed` | 32:26, 32:33 |
+| ἐκκόπτω | `may cut out` | `may cut out, may knock out, may cut out of a wood and fell, may cut off and make an end of, may beat off and repulse` | 32:9 |
+| ἐνισχύω | `you strengthened` | `you strengthened, you confirmed, you prevailed in, you prevailed among` | 32:29 |
+| ἐξαιρέω | `take out for yourself` | `take out for yourself, choose for yourself and carry off as booty` | 32:12 |
+| ἐξιλάσκομαι | `I will propitiate` | `I will propitiate` | 32:21 |
+| ἐπισκάζω | `was limping upon` | `was limping upon` | 32:32 |
+| ἐρωτάω | `asked` | `asked, asked about, enquired of and questioned, begged and solicited` | 32:30 |
+| ἐρωτάω | `asks` | `asks, asks about, enquires of and questions, begs and solicits` | 32:18 |
+| ἐρωτάω | `you ask` | `you ask, you ask about, you enquire of and question, you beg and solicit` | 32:30 |
+| ἐσθίω | `may eat` | `may eat, may eat of` | 32:33 |
+| ἔρχομαι | `comes` | `comes, goes, goes back and returns, is going to and intends, comes within a little of and is near` | 32:7 |
+| ἔρχομαι | `we came` | `we came, we went, we went back and returned, we were going to and intended, we came within a little of and were near` | 32:7 |
+| ἱκανόω | `is made sufficient` | `is made sufficient, is qualified` | 32:11 |
+| ἴσως | `equally` | `equally, in like manner, fairly and equitably, probably and perhaps, about` | 32:21 |
+| ὄρθρος | `the day-break` | `the day-break, the dawn, the cock-crow` | 32:27 |
+| ὑπολείπω | `was left behind` | `was left behind, was left remaining, was left in reserve` | 32:25 |
+| ῥάβδος | `to the rod` | `to the rod, to the wand, to the stick, to the switch, to the magic wand, to the fishing-rod, to the limed twig, to the spear-staff and shaft, to the staff of office, to the rod for chastisement, to the stripe and strip` | 32:11 |
 
 ### Words new in GEN 31
 
@@ -4703,6 +4821,12 @@ Greek makes it a woman's, the mother of Eliezer, whom it calls Δαμασκὸς
 | Σύρῳ | Syrō | Syrian | `(Σύρος again, in the dative)` |
 | Βουνὸς | Bounos | Hill | `(Βουνός, "hill", the Greek of Hebrew Galʿēd and Yĕgar-śāhădûtā, the heap of witness of 31:47)` |
 | Ἡ | Hē | The | `(Ἡ ὅρασις, "the vision", the Greek of Hebrew Miṣpâ, Mizpah, which the Hebrew hears in ṣāpâ, "he watched")` |
+
+| Παρεμβολαί | Parembolai | Encampments | `(Παρεμβολαί, "encampments", the Greek of Hebrew Maḥănayim, the two camps)` |
+| Ιορδάνην | Iordanēn | Jordan | `(Ἰορδάνης, from Hebrew Yardēn, which the Hebrew connects with yārad, "go down")` |
+| Ιαβοκ | Iabok | Jabbok | `(Ιαβοκ, from Hebrew Yabbōq, which the Hebrew of this verse hears in the wrestling, yēʾābēq)` |
+| Ισραηλ | Israēl | Israel | `(Ισραηλ, from Hebrew Yiśrāʾēl, which the Hebrew of this verse hears in śārâ ʿim ʾĕlōhîm, "he strove with God")` |
+| Εἶδος | Eidos | Form | `(Εἶδος θεοῦ, "form of God", the Greek of Hebrew Pĕnîʾēl, Peniel, the face of God)` |
 <!-- name rows above -->
 
 Σύγχυσις translates the name where 10:10 gave the city its Greek name, Βαβυλών; as with Ζωή at
