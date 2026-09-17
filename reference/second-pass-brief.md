@@ -316,6 +316,14 @@ nominative in address at 32:10, which the brief settles; φοβέομαι, ἅπ
 Middle Liddell have them; βοῦς feminine; ἰδού as X-; and Εἶδος accusative in apposition to τὸ ὄνομα at
 32:31, where the same word is the subject at 32:32.
 
+### What it found in Genesis 33
+
+Four disagreements over 413 words, and none of them changed the file: ἰδού stays X- as the corpus has
+tagged it since GEN 1, βοῦς stays masculine as at 30:43, ἑαυτῷ stays RP, and Σικιμων takes the neuter
+plural gender the second pass gave it, since the name is declined Greek and not an indeclinable. The
+module's own reading settled seven places where the first pass had the wrong case: Ιωσηφ at 33:7, τὰς
+εὐλογίας at 33:11, οἰκίας at 33:17, Συχεμ at 33:19, and Σηιρ and Σαλημ after εἰς.
+
 ## The brief
 
 Copy everything below the rule into a new agent. Replace `<BOOK NAME>`, `<CHAPTER>`,

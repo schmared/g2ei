@@ -219,7 +219,7 @@ GEN 9 adds ὀπισθοφανής, *seen from behind*, and its adverb ὀπισ
 ἔτασις, *trial, affliction*. GEN 14 adds ἁλυκός, *salt, brackish*; ἀποσκευή, whose *removal,
 riddance* comes before *baggage*; σφαιρωτήρ, *thong, latchet*; and περάτης, which opens "= πορθμεύς",
 so that πορθμεύς's LSJ senses, *ferryman*, *boatman, seaman*, *conveyer*, stand before its own
-*wanderer, emigrant*, as ἁγίζω's stand for ἁγιάζω. GEN 15 adds ὑπερασπίζω, *cover with a shield*, from the upsilon file; τριετίζω, *to be three years old*; and διχοτόμημα, *half of a thing cut in two*. GEN 17 adds κατάσχεσις, *holding back, restraining, retention*, then *possession*, from the kappa file; and ἑκατονταέτης, *of a hundred years*, *years old*, citing 17:17. GEN 18 adds μοσχάριον, *little calf*, and, from the beta file, βούτυρον, *butter*, then *a plant*. GEN 19 adds προσοίγνυμι, *shut*; ἀορασία, *inability to see, blindness*; γελοιάζω, *jest*, from the gamma file; ἐπαύριον, *on the morrow*; and εἰσσπάομαι, *draw into oneself*. GEN 20 adds μήτρα, *womb*, whose Middle Liddell entry tags only Latin; δίδραχμον, *coin of two drachms*, under δίδραχμος; and κἀγώ, *crasis for καὶ ἐγώ*. GEN 21 adds ἀπογαλακτίζω, *wean from the mother's milk*; ἀρχιστράτηγος, *commander-in-chief*; and, from the omega file, ὦμος, *the shoulder with the upper arm*. GEN 23 adds παρεπίδημος, *sojourning in a strange place*, and μνημεῖον, *memorial, remembrance, record*, whose Middle Liddell entry tags its first sense only in Latin. GEN 24 adds ποτιστήριον, *drinking-trough for cattle*; ἐνώτιον, *ear-ring*; ἅβρα, *favourite slave*; and ἀποσάττω, *unsaddle, unpack*, *stop up, caulk*, *stuff with food*. GEN 25 adds three more: ὅλος, which Middle Liddell lacks altogether, *whole, entire, complete in all its parts*; δόμα, *gift*, then *payment*; and πυρράκης, *red, ruddy*, which LSJ files as a masculine noun. GEN 26 adds ἑκατοστεύω, *bear a hundredfold*, and γεώργιον, *field*, then *orchard*, *husbandry*, *crop* and, in the plural, a *tax* on land. GEN 27 adds four more: πιότης, *fattiness*, then *wealth, prosperity*; πτερνίζω, *strike with the heel*, *trip up, supplant*; προσοχθίζω, *to be wroth with*, and of this chapter's phrase *am weary* of; and κατανύσσω, *stab, gouge*, and in the passive *to be sorely pricked*. GEN 28 adds one more: ἐνυπνιάζομαι, *dream*, which Middle Liddell does not have at all. GEN 30 adds eight, the whole vocabulary of Jacob's flocks: ἀρήν, *lamb*; διάλευκος, *quite white*; ῥαντός, *sprinkled*, then *speckled or spotted*; σποδοειδής, *ashy, ash-coloured*; ἐγκισσάω, *have yearnings like one pregnant*; λεπίζω, *peel off the husk, skin or bark*; λέπισμα, *peel*; and καρύινος, *of nuts*, *made of walnut-wood*. LSJ cites this chapter for six of the eight. GEN 31 adds six: κρυφῇ, *secretly, in secret*, which Middle Liddell has only as the Doric κρύφα; κατάβρωσις, *eating up, devouring*; κλοποφορέω, *steal from, rob*; ἐθισμός, *accustoming, habituation*; θηριάλωτος, *caught by wild beasts*; and αἰχμαλωτίς, *captive*, which Middle Liddell has as an entry with no translation tagged in it. LSJ cites this chapter for four of the six. GEN 32 adds two: χείμαρρος, which LSJ heads χειμάρροος, *winter-flowing*, and as a noun *torrent*, *river*, *valley, watercourse*; and ἐπισκάζω, *limp upon*, cited from this chapter.
+*wanderer, emigrant*, as ἁγίζω's stand for ἁγιάζω. GEN 15 adds ὑπερασπίζω, *cover with a shield*, from the upsilon file; τριετίζω, *to be three years old*; and διχοτόμημα, *half of a thing cut in two*. GEN 17 adds κατάσχεσις, *holding back, restraining, retention*, then *possession*, from the kappa file; and ἑκατονταέτης, *of a hundred years*, *years old*, citing 17:17. GEN 18 adds μοσχάριον, *little calf*, and, from the beta file, βούτυρον, *butter*, then *a plant*. GEN 19 adds προσοίγνυμι, *shut*; ἀορασία, *inability to see, blindness*; γελοιάζω, *jest*, from the gamma file; ἐπαύριον, *on the morrow*; and εἰσσπάομαι, *draw into oneself*. GEN 20 adds μήτρα, *womb*, whose Middle Liddell entry tags only Latin; δίδραχμον, *coin of two drachms*, under δίδραχμος; and κἀγώ, *crasis for καὶ ἐγώ*. GEN 21 adds ἀπογαλακτίζω, *wean from the mother's milk*; ἀρχιστράτηγος, *commander-in-chief*; and, from the omega file, ὦμος, *the shoulder with the upper arm*. GEN 23 adds παρεπίδημος, *sojourning in a strange place*, and μνημεῖον, *memorial, remembrance, record*, whose Middle Liddell entry tags its first sense only in Latin. GEN 24 adds ποτιστήριον, *drinking-trough for cattle*; ἐνώτιον, *ear-ring*; ἅβρα, *favourite slave*; and ἀποσάττω, *unsaddle, unpack*, *stop up, caulk*, *stuff with food*. GEN 25 adds three more: ὅλος, which Middle Liddell lacks altogether, *whole, entire, complete in all its parts*; δόμα, *gift*, then *payment*; and πυρράκης, *red, ruddy*, which LSJ files as a masculine noun. GEN 26 adds ἑκατοστεύω, *bear a hundredfold*, and γεώργιον, *field*, then *orchard*, *husbandry*, *crop* and, in the plural, a *tax* on land. GEN 27 adds four more: πιότης, *fattiness*, then *wealth, prosperity*; πτερνίζω, *strike with the heel*, *trip up, supplant*; προσοχθίζω, *to be wroth with*, and of this chapter's phrase *am weary* of; and κατανύσσω, *stab, gouge*, and in the passive *to be sorely pricked*. GEN 28 adds one more: ἐνυπνιάζομαι, *dream*, which Middle Liddell does not have at all. GEN 30 adds eight, the whole vocabulary of Jacob's flocks: ἀρήν, *lamb*; διάλευκος, *quite white*; ῥαντός, *sprinkled*, then *speckled or spotted*; σποδοειδής, *ashy, ash-coloured*; ἐγκισσάω, *have yearnings like one pregnant*; λεπίζω, *peel off the husk, skin or bark*; λέπισμα, *peel*; and καρύινος, *of nuts*, *made of walnut-wood*. LSJ cites this chapter for six of the eight. GEN 31 adds six: κρυφῇ, *secretly, in secret*, which Middle Liddell has only as the Doric κρύφα; κατάβρωσις, *eating up, devouring*; κλοποφορέω, *steal from, rob*; ἐθισμός, *accustoming, habituation*; θηριάλωτος, *caught by wild beasts*; and αἰχμαλωτίς, *captive*, which Middle Liddell has as an entry with no translation tagged in it. LSJ cites this chapter for four of the six. GEN 32 adds two: χείμαρρος, which LSJ heads χειμάρροος, *winter-flowing*, and as a noun *torrent*, *river*, *valley, watercourse*; and ἐπισκάζω, *limp upon*, cited from this chapter. GEN 33 adds πόρευσις, which LSJ defines only by cross-reference, "= πορεία", citing this verse.
 <!-- LSJ sentences above -->
 
 GEN 9 also files ἐμεθύσθη under μεθύσκω, *to make drunk*, where Middle Liddell gives its aorist
@@ -619,6 +619,70 @@ the same ground as `the sixth` and `the seventh`: one sense each, so no range to
   settling in` (10:30); δύο `two`; υἱός `sons`.
 - The article before a people's name (τοὺς Λουδιιμ, τὸν Χετταῖον, τῶν Χαναναίων) is not printed,
   as before a person's name.
+
+### Words new in GEN 33
+
+- ἐπιδιαιρέω — *to divide anew*, of the ranking of the wives and children before Esau. 33:1.
+- ἔσχατος — *outermost* first, and *the last* third: Rachel and Joseph are put outermost. 33:2.
+- προσεγγίζω — one sense, *to approach*, three times over as each household comes near. 33:6, 33:7.
+- βιάζω — the middle, *to overpower by force, press hard*: Jacob presses the gift on Esau. 33:11.
+- λοχεύω — *to bring forth, bear*, in the passive of the flocks in labour. 33:13.
+- σχολή — *spare time, leisure*: κατὰ σχολήν, at the pace the road allows, and κατὰ πόδα at the
+  children's step. 33:14.
+- πόρευσις — Middle Liddell has nothing; LSJ gives it no gloss of its own but reads "= πορεία", and
+  cites this verse, so the senses are πορεία's. 33:14.
+- Σκηναί and Παρεμβολαί — two place-names the Greek translates and Rahlfs prints with a capital, and in
+  33:17 the common noun σκηνάς stands in the same verse as the name Σκηναί. 32:3, 33:17.
+- Σαλημ — the Hebrew is *šālēm ʿîr šĕkem*, *safe to the city of Shechem*; the Greek reads Salem as a
+  place, as at 14:18. 33:18.
+- εὐθεῖαν — the feminine of εὐθύς, of the straight way. The lexicon prints two entries under the one
+  spelling and the project files the adverb's, so the chain here reads `straightway`. 33:12.
+- ἑκατὸν ἀμνῶν — a hundred lambs, where the Hebrew has a hundred *qĕśîṭâ*, a weight the Greek does not
+  name. 33:19.
+- One sense each in GEN 33, and so plain text: ἑπτάκις `seven times`; θυσιαστήριον `an altar`, kept as a
+  unit; τίς `what`; and the numerals.
+
+| lemma | headword | chain | used |
+| --- | --- | --- | --- |
+| βιάζω | `overpowered by force` | `overpowered by force, pressed hard, did violence to, laid violent hands on, forced` | 33:11 |
+| γινώσκω | `learns to know` | `learns to know, perceives, marks, learns, discerns and distinguishes` | 33:13 |
+| δέχομαι | `take` | `take, accept, receive, receive in exchange for, take rather and choose` | 33:10 |
+| εὐδοκέω | `you will be well pleased` | `you will be well pleased, you will consent, you will be glad` | 33:10 |
+| εὑρίσκω | `I have found` | `I have found and it stands so, I have found out, I have discovered` | 33:10 |
+| θυσιαστήριον | `an altar` | `an altar` | 33:20 |
+| καταδιώκω | `I may pursue closely` | `I may pursue closely` | 33:13 |
+| καταλείπω | `I will leave behind` | `I will leave behind, I will leave in the lurch, I will leave out and omit` | 33:15 |
+| κλαίω | `they wept` | `they wept, they lamented, they wailed` | 33:4 |
+| λοχεύω | `are brought forth` | `are brought forth, are borne, are brought to the birth and attended in childbirth and delivered, are delivered and bear children, are born` | 33:13 |
+| οἰκία | `buildings` | `buildings, houses, dwellings, households and domestic establishments, households and inmates of the house, houses and families` | 33:17 |
+| παιδάριον | `of the young little boys` | `of the young little boys, of the young slaves` | 33:14 |
+| παρεμβάλλω | `put in beside` | `put in beside, inserted, interpolated, interposed, insinuated, put in line with, fell into line and encamped` | 33:18 |
+| πορεύομαι | `we will be driven` | `we will be driven, we will be carried, we will go, we will walk, we will march, we will go across and pass` | 33:12 |
+| πούς | `foot` | `foot, talon, the foot of a hill` | 33:14 |
+| προέρχομαι | `let him go forward` | `let him go forward, let him go on, let him advance, let him go before` | 33:14 |
+| προέρχομαι | `went forward` | `went forward, went on, advanced, went before` | 33:3 |
+| προσεγγίζω | `came near` | `came near, approached` | 33:6, 33:7 |
+| προσεγγίζω | `came near` | `came near, approached` | 33:6, 33:7 |
+| προσπίπτω | `fell upon` | `fell upon, struck against, fell against, attacked and assaulted, ran to, embraced, fell in with and lighted upon and met with` | 33:4 |
+| πρῶτος, with ἐν | `in first` | `within, inside of, and by means of first, in front and forward, former and sooner, the elder, above and superior, earlier` | 33:2 |
+| πόλις | `city` | `city, citadel, country, body of citizens, state` | 33:18 |
+| πόρευσις | `of the walking` | `of the walking, of the mode of walking, of the going and journey and way and passage, of the march, of the crossing of water` | 33:14 |
+| σχολή | `spare time` | `spare time, leisure, rest, ease, rest from, idleness, the learned discussion and lecture` | 33:14 |
+| τράχηλος | `the neck` | `the neck, the throat` | 33:4 |
+| φέρω | `I brought` | `I brought, I bore, I carried, I endured` | 33:11 |
+| ἀδελφός | `son of the same mother` | `son of the same mother, brother, near kinsman` | 33:9 |
+| ἀμνός | `of lambs` | `of lambs` | 33:19 |
+| ἀπαίρω | `having lifted off` | `having lifted off, having carried off, having taken away, having removed from, having led away, having sailed and marched away and departed` | 33:12 |
+| ἀπαίρω | `lifts off` | `lifts off, carries off, takes away, removes from, leads away, sails and marches away and departs` | 33:17 |
+| ἀπαντάω | `I have moved from` | `I have moved from and it stands so, I have met, I have met and encountered, I have come` | 33:8 |
+| ἀποθνήσκω | `they will die off` | `they will die off, they will die, they will be put to death, they will be slain` | 33:13 |
+| ἁπαλός | `softer to the touch` | `softer to the touch, more tender, fresher, softer and gentler, more soft and delicate` | 33:13 |
+| ἐγγίζω | `to bring near` | `to bring near, to bring up to, to draw near and approach` | 33:3 |
+| ἐλεέω | `had pity on` | `had pity on, shewed mercy upon, felt pity` | 33:5, 33:11 |
+| ἐνισχύω | `I will strengthen` | `I will strengthen, I will confirm, I will prevail in, I will prevail among` | 33:14 |
+| ἐπιδιαιρέω | `divided anew` | `divided anew` | 33:1 |
+| ἐπικαλέω | `called upon for himself` | `called upon for himself, invoked and appealed to, invited, called in as a helper or ally, called before him and summoned, challenged` | 33:20 |
+| ἔσχατος | `outermost` | `outermost, furthest and uttermost and extreme, last, uppermost, lowest and deepest, innermost` | 33:2 |
 
 ### Words new in GEN 32
 
@@ -4827,6 +4891,10 @@ Greek makes it a woman's, the mother of Eliezer, whom it calls Δαμασκὸς
 | Ιαβοκ | Iabok | Jabbok | `(Ιαβοκ, from Hebrew Yabbōq, which the Hebrew of this verse hears in the wrestling, yēʾābēq)` |
 | Ισραηλ | Israēl | Israel | `(Ισραηλ, from Hebrew Yiśrāʾēl, which the Hebrew of this verse hears in śārâ ʿim ʾĕlōhîm, "he strove with God")` |
 | Εἶδος | Eidos | Form | `(Εἶδος θεοῦ, "form of God", the Greek of Hebrew Pĕnîʾēl, Peniel, the face of God)` |
+
+| Σκηνάς | Skēnas | Tents | `(Σκηναί, "tents", the Greek of Hebrew Sukkôt, Succoth, the booths)` |
+| Σικιμων | Sikimōn | Shechem | `(Σικιμα, from Hebrew Šĕkem, "shoulder")` |
+| Εμμωρ | Emmōr | Hamor | `(Εμμωρ, from Hebrew Ḥămôr, "ass")` |
 <!-- name rows above -->
 
 Σύγχυσις translates the name where 10:10 gave the city its Greek name, Βαβυλών; as with Ζωή at

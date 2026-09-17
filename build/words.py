@@ -248,6 +248,10 @@ LSJ = {
                   "valley, watercourse"],
     # LSJ (eng5) cites this very verse: "ἐπισκάζω, limp upon, μηρῷ LXX Ge. 32.31(32)".
     "ἐπισκάζω": ["limp upon"],
+    # GEN 33. LSJ (eng17) gives πόρευσις no gloss of its own: the entry reads "= πορεία … cf.
+    # LXX Ge. 33.14", so the senses are Middle Liddell's πορεία.
+    "πόρευσις": ["a walking, mode of walking", "a going, a journey, way, passage", "a march",
+                 "a crossing of water, passage"],
 }
 
 # New Testament books: MorphGNT file and its book number.
@@ -875,6 +879,16 @@ NOT_SENSES = {
     "o)/rqros": {"in the morning"},              # a piece of an example
     "dunato/s": {"the chief men of rank and influence"},  # a piece of an example
     "a)nate/llw": {"mounting up"},               # a piece of the passive
+    # GEN 33
+    "e)/sxatos": {"the furthest", "extremities"},  # a repetition, and a piece of an example
+    "proe/rxomai": {"far advanced", "to go on"},  # a piece of an example, and a repetition
+    "prostre/xw": {"towards, come to"},          # a piece of "to run to or towards"
+    "e)lee/w": {"mercy shewn one"},               # a piece of the passive
+    "de/xomai": {"to receive", "to accept"},     # two bare repetitions
+    "bia/zw": {"overpowered", "suffer violence", "forcibly made slaves"},  # pieces of the passive
+    "loxeu/w": {"brought to birth"},             # a piece of an example
+    "sxolh/": {"leisure", "quiet", "time", "a fit time"},  # pieces of examples
+    "e)pikale/w": {"to invoke", "to watch over"},  # a repetition, and a piece of an example
 }
 
 # An entry that divides its senses by tense and voice, so that which of them belong to a

@@ -1,0 +1,536 @@
+[
+  {
+    "ref": "GEN 33:1",
+    "greek": "Ἀναβλέψας δὲ Ιακωβ εἶδεν καὶ ἰδοὺ Ησαυ ὁ ἀδελφὸς αὐτοῦ ἐρχόμενος καὶ τετρακόσιοι ἄνδρες μετʼ αὐτοῦ. καὶ ἐπιδιεῖλεν Ιακωβ τὰ παιδία ἐπὶ Λειαν καὶ Ραχηλ καὶ τὰς δύο παιδίσκας",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 53",
+    "hint": "Jacob looked up and saw Esau his brother coming, and four hundred men with him. And Jacob divided the children between Leah and Rachel and the two slave-girls",
+    "notes": [
+      {
+        "lemma": "ἐπιδιεῖλεν",
+        "flag": null,
+        "text": "ἐπιδιαιρέω, *to divide anew*, which Middle Liddell gives that sense and the middle's *to distribute among themselves*."
+      },
+      {
+        "lemma": "καί",
+        "flag": "variant",
+        "text": "[[flag]] Codex Alexandrinus puts αὐτός before the second καί, and ἐπί before Ραχηλ."
+      }
+    ],
+    "reading": "[[having looked up|having looked up, having looked, having looked up at, having cast up, having recovered one's sight]] [[but|but, however, whereas, on the other hand]], [[name:Ιακωβ]] [[saw|saw, perceived, beheld, looked at]] and [[lo|lo, behold, see there]] [[name:Ησαυ]] the [[son of the same mother|a son of the same mother, a brother, a near kinsman]] of him [[coming|coming, going, going back and returning, going to and intending, coming within a little of and being near]] and four hundred [[men|men, men in the prime of life]] [[in the midst of|in the midst of, among, in common, along with, with, by means of]] of him. and [[divided anew|divided anew]] [[name:Ιακωβ]] the [[children|children, sons, daughters, grandchildren, boys and youths and lads, girls and maidens, slaves and servants and men and maids]] [[upon|upon, on, in, at, near]] [[name:Λειαν]] and [[name:Ραχηλ]] and the two [[young girls|young girls, maidens, young slaves, courtesans]]",
+    "names": [
+      {
+        "greek": "Ιακωβ",
+        "unanchored": "Iakōb",
+        "anchored": "Jacob",
+        "gloss": "(Ιακωβ, from Hebrew Yaʿăqōb, which the Hebrew of 25:26 hears in ʿāqēb, \"heel\")"
+      },
+      {
+        "greek": "Ησαυ",
+        "unanchored": "Ēsau",
+        "anchored": "Esau",
+        "gloss": "(Ησαυ, from Hebrew ʿĒśāw, usually connected with śēʿār, \"hair\")"
+      },
+      {
+        "greek": "Λειαν",
+        "unanchored": "Leian",
+        "anchored": "Leah",
+        "gloss": "(Λεια, from Hebrew Lēʾâ, of uncertain meaning, perhaps \"wild cow\")"
+      },
+      {
+        "greek": "Ραχηλ",
+        "unanchored": "Rachēl",
+        "anchored": "Rachel",
+        "gloss": "(Ραχηλ, from Hebrew Rāḥēl, \"ewe\")"
+      }
+    ]
+  },
+  {
+    "ref": "GEN 33:2",
+    "greek": "καὶ ἐποίησεν τὰς δύο παιδίσκας καὶ τοὺς υἱοὺς αὐτῶν ἐν πρώτοις καὶ Λειαν καὶ τὰ παιδία αὐτῆς ὀπίσω καὶ Ραχηλ καὶ Ιωσηφ ἐσχάτους.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 53",
+    "hint": "and he put the two slave-girls and their sons first, and Leah and her children behind, and Rachel and Joseph last.",
+    "notes": [
+      {
+        "lemma": "ἐν πρώτοις",
+        "flag": null,
+        "text": "ἐν takes the word beside it into the unit; πρῶτος is filed under πρότερος, as at 8:5."
+      }
+    ],
+    "reading": "and [[made|fashioned, wrought, produced, performed, did]] the two [[young girls|young girls, maidens, young slaves, courtesans]] and the sons of them [[in first|within, inside of, and by means of first, in front and forward, former and sooner, the elder, above and superior, earlier]] and [[name:Λειαν]] and the [[children|children, sons, daughters, grandchildren, boys and youths and lads, girls and maidens, slaves and servants and men and maids]] of her [[behind|behind, at the back, the rear and back, back and backwards, in future and hereafter, following]] and [[name:Ραχηλ]] and [[name:Ιωσηφ]] [[outermost|outermost, furthest and uttermost and extreme, last, uppermost, lowest and deepest, innermost]].",
+    "names": [
+      {
+        "greek": "Λειαν",
+        "unanchored": "Leian",
+        "anchored": "Leah",
+        "bare": true
+      },
+      {
+        "greek": "Ραχηλ",
+        "unanchored": "Rachēl",
+        "anchored": "Rachel",
+        "bare": true
+      },
+      {
+        "greek": "Ιωσηφ",
+        "unanchored": "Iōsēph",
+        "anchored": "Joseph",
+        "gloss": "(Ιωσηφ, from Hebrew Yôsēp̄, which the Hebrew of 30:24 hears in yōsēp̄, \"may he add\")"
+      }
+    ]
+  },
+  {
+    "ref": "GEN 33:3",
+    "greek": "αὐτὸς δὲ προῆλθεν ἔμπροσθεν αὐτῶν καὶ προσεκύνησεν ἐπὶ τὴν γῆν ἑπτάκις ἕως τοῦ ἐγγίσαι τοῦ ἀδελφοῦ αὐτοῦ.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 53",
+    "hint": "And he himself went on before them and did obeisance to the ground seven times, until he came near his brother.",
+    "notes": [
+      {
+        "lemma": "προῆλθεν",
+        "flag": "variant",
+        "text": "[[flag]] Codex Alexandrinus reads παρῆλθεν, *went past*."
+      }
+    ],
+    "reading": "he [[but|but, however, whereas, on the other hand]], [[went forward|went forward, went on, advanced, went before]] [[before|before, in front of, further on, sooner, rather than]] of them and [[made obeisance|made obeisance, fell down and worshipped, worshipped, adored, did reverence to, made the salam, prostrated himself before]] [[upon|upon, on, in, at, near]] [[the earth|the land, the dry ground, the terrestrial realm]] seven times [[until|until, till, while, so long as]] [[to bring near|to bring near, to bring up to, to draw near and approach]] [[of the son of the same mother|of the son of the same mother, of the brother, of the near kinsman]] of him.",
+    "names": []
+  },
+  {
+    "ref": "GEN 33:4",
+    "greek": "καὶ προσέδραμεν Ησαυ εἰς συνάντησιν αὐτῷ καὶ περιλαβὼν αὐτὸν ἐφίλησεν καὶ προσέπεσεν ἐπὶ τὸν τράχηλον αὐτοῦ, καὶ ἔκλαυσαν ἀμφότεροι.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 53",
+    "hint": "And Esau ran to meet him and embraced him and kissed him and fell on his neck, and they both wept.",
+    "notes": [
+      {
+        "lemma": "ἐφίλησεν",
+        "flag": null,
+        "text": "φιλέω, *to love, regard with affection*, where the Hebrew has *kiss*, as through GEN 27 and 29."
+      }
+    ],
+    "reading": "and [[ran to|ran to, ran towards and came to, ran up, ran at and made a sally]] [[name:Ησαυ]] [[into|into, to, in, rest in]] a meeting to him and [[having seized around|having seized around and embraced, having encompassed and surrounded, having intercepted, having got hold of and caught, having comprehended and included]] him [[loved|loved, regarded with affection, felt affection, loved and cherished, treated affectionately and kindly and welcomed]] and [[fell upon|fell upon, struck against, fell against, attacked and assaulted, ran to, embraced, fell in with and lighted upon and met with]] [[upon|upon, on, in, at, near]] [[the neck|the neck, the throat]] of him, and [[they wept|they wept, they lamented, they wailed]] [[each|each, both of two]].",
+    "names": [
+      {
+        "greek": "Ησαυ",
+        "unanchored": "Ēsau",
+        "anchored": "Esau",
+        "bare": true
+      }
+    ]
+  },
+  {
+    "ref": "GEN 33:5",
+    "greek": "καὶ ἀναβλέψας εἶδεν τὰς γυναῖκας καὶ τὰ παιδία καὶ εἶπεν Τί ταῦτά σοί ἐστιν; ὁ δὲ εἶπεν Τὰ παιδία, οἷς ἠλέησεν ὁ θεὸς τὸν παῖδά σου.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 53",
+    "speech": ["Τί", "Τὰ"],
+    "hint": "And he looked up and saw the women and the children and said: What are these to you? And he said: The children with which God had mercy on your servant.",
+    "notes": [
+      {
+        "lemma": "Τί, Τὰ",
+        "flag": null,
+        "text": "Capitalised because it opens direct speech, as Rahlfs prints it; listed in `speech` so the checks do not take them for a proper name."
+      }
+    ],
+    "reading": "and [[having looked up|having looked up, having looked, having looked up at, having cast up, having recovered one's sight]] [[saw|saw, perceived, beheld, looked at]] the [[women|women, mistresses and ladies, wives and spouses, mortal women]] and the [[children|children, sons, daughters, grandchildren, boys and youths and lads, girls and maidens, slaves and servants and men and maids]] and [[said|said, spoke, declared, called by name, told]] what [[these|these, the nearer, what follows]] to you is; the [[but|but, however, whereas, on the other hand]], [[said|said, spoke, declared, called by name, told]] the [[children|children, sons, daughters, grandchildren, boys and youths and lads, girls and maidens, slaves and servants and men and maids]], to which [[had pity on|had pity on, shewed mercy upon, felt pity]] [[the God|him who is God definitively, the one the article marks out, the known and the only]] the [[child|child, son, daughter, grandchild, boy and youth and lad, girl and maiden, slave and servant and man and maid]] of you.",
+    "names": []
+  },
+  {
+    "ref": "GEN 33:6",
+    "greek": "καὶ προσήγγισαν αἱ παιδίσκαι καὶ τὰ τέκνα αὐτῶν καὶ προσεκύνησαν,",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 53",
+    "hint": "And the slave-girls came near, and their children, and did obeisance,",
+    "notes": [
+      {
+        "lemma": "τέκνα",
+        "flag": "variant",
+        "text": "[[flag]] Codex Alexandrinus reads παιδία, the other word for children."
+      }
+    ],
+    "reading": "and [[came near|came near, approached]] the [[young girls|young girls, maidens, young slaves, courtesans]] and the [[things borne|things borne, the born, children, the young]] of them and [[made obeisance|made obeisance, fell down and worshipped, worshipped, adored, did reverence to, made the salam, prostrated himself before]],",
+    "names": []
+  },
+  {
+    "ref": "GEN 33:7",
+    "greek": "καὶ προσήγγισεν Λεια καὶ τὰ τέκνα αὐτῆς καὶ προσεκύνησαν, καὶ μετὰ ταῦτα προσήγγισεν Ραχηλ καὶ Ιωσηφ καὶ προσεκύνησαν.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 53",
+    "hint": "and Leah came near, and her children, and did obeisance; and after these Rachel and Joseph came near and did obeisance.",
+    "notes": [
+      {
+        "lemma": "προσήγγισεν",
+        "flag": null,
+        "text": "προσεγγίζω, one sense, *to approach*; the singular verb with Rachel and Joseph both."
+      }
+    ],
+    "reading": "and [[came near|came near, approached]] [[name:Λεια]] and the [[things borne|things borne, the born, children, the young]] of her and [[made obeisance|made obeisance, fell down and worshipped, worshipped, adored, did reverence to, made the salam, prostrated himself before]], and [[into the middle of|into the middle of, coming among, in pursuit and quest of, after]] [[these|these, the nearer, what follows]] [[came near|came near, approached]] [[name:Ραχηλ]] and [[name:Ιωσηφ]] and [[made obeisance|made obeisance, fell down and worshipped, worshipped, adored, did reverence to, made the salam, prostrated himself before]].",
+    "names": [
+      {
+        "greek": "Λεια",
+        "unanchored": "Leia",
+        "anchored": "Leah",
+        "bare": true
+      },
+      {
+        "greek": "Ραχηλ",
+        "unanchored": "Rachēl",
+        "anchored": "Rachel",
+        "bare": true
+      },
+      {
+        "greek": "Ιωσηφ",
+        "unanchored": "Iōsēph",
+        "anchored": "Joseph",
+        "bare": true
+      }
+    ]
+  },
+  {
+    "ref": "GEN 33:8",
+    "greek": "καὶ εἶπεν Τί ταῦτά σοί ἐστιν, πᾶσαι αἱ παρεμβολαὶ αὗται, αἷς ἀπήντηκα; ὁ δὲ εἶπεν Ἵνα εὕρῃ ὁ παῖς σου χάριν ἐναντίον σου, κύριε.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 53",
+    "speech": ["Τί", "Ἵνα"],
+    "hint": "And he said: What are these to you, all these encampments I have met? And he said: So that your servant might find favour before you, lord.",
+    "notes": [
+      {
+        "lemma": "ἐναντίον",
+        "flag": "variant",
+        "text": "[[flag]] Codex Alexandrinus reads ἐν ὀφθαλμοῖς, *in the eyes of*."
+      },
+      {
+        "lemma": "Τί, Ἵνα",
+        "flag": null,
+        "text": "Capitalised because it opens direct speech, as Rahlfs prints it; listed in `speech` so the checks do not take them for a proper name."
+      }
+    ],
+    "reading": "and [[said|said, spoke, declared, called by name, told]] what [[these|these, the nearer, what follows]] to you is, [[all|all, the whole, every, every single]] the [[insertions|insertions, interpolations, encampments and fortresses]] [[these|these, the nearer, what follows]], to which [[I have moved from|I have moved from and it stands so, I have met, I have met and encountered, I have come]]; the [[but|but, however, whereas, on the other hand]], [[said|said, spoke, declared, called by name, told]] [[in order that|in order that, so that]] [[may find|may find, may find out, may discover]] the [[child|child, son, daughter, grandchild, boy and youth and lad, girl and maiden, slave and servant and man and maid]] of you [[outward grace|outward grace, favour, loveliness, graciousness and kindness and goodwill, thankfulness and thanks and gratitude, a favour and kindness and boon, a gratification and delight]] [[in the presence of|in the presence of, before, opposite and face to face, against]] of you, [[lord|lord, master, the one having power and authority over]].",
+    "names": []
+  },
+  {
+    "ref": "GEN 33:9",
+    "greek": "εἶπεν δὲ Ησαυ Ἔστιν μοι πολλά, ἄδελφε· ἔστω σοι τὰ σά.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 53",
+    "speech": ["Ἔστιν"],
+    "hint": "And Esau said: I have much, brother; let what is yours be yours.",
+    "notes": [
+      {
+        "lemma": "Ἔστιν",
+        "flag": null,
+        "text": "Capitalised because it opens direct speech, as Rahlfs prints it; listed in `speech` so the checks do not take it for a proper name."
+      }
+    ],
+    "reading": "[[said|said, spoke, declared, called by name, told]] [[but|but, however, whereas, on the other hand]], [[name:Ησαυ]] is to me [[many|many, often, much and mighty and great, deep, loud, strong, large and wide, far, long]], [[son of the same mother|son of the same mother, brother, near kinsman]]; [[let be|let be]] to you the [[thy|thy, thine]].",
+    "names": [
+      {
+        "greek": "Ησαυ",
+        "unanchored": "Ēsau",
+        "anchored": "Esau",
+        "bare": true
+      }
+    ]
+  },
+  {
+    "ref": "GEN 33:10",
+    "greek": "εἶπεν δὲ Ιακωβ Εἰ εὕρηκα χάριν ἐναντίον σου, δέξαι τὰ δῶρα διὰ τῶν ἐμῶν χειρῶν· ἕνεκεν τούτου εἶδον τὸ πρόσωπόν σου, ὡς ἄν τις ἴδοι πρόσωπον θεοῦ, καὶ εὐδοκήσεις με·",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 53",
+    "speech": ["Εἰ"],
+    "hint": "And Jacob said: If I have found favour before you, receive the gifts from my hands; for this reason I saw your face as one might see the face of God, and you will be pleased with me;",
+    "notes": [
+      {
+        "lemma": "ὡς ἄν τις ἴδοι",
+        "flag": null,
+        "text": "The potential optative with ἄν: *as one might see*."
+      },
+      {
+        "lemma": "Εἰ",
+        "flag": null,
+        "text": "Capitalised because it opens direct speech, as Rahlfs prints it; listed in `speech` so the checks do not take it for a proper name."
+      }
+    ],
+    "reading": "[[said|said, spoke, declared, called by name, told]] [[but|but, however, whereas, on the other hand]], [[name:Ιακωβ]] if [[I have found|I have found and it stands so, I have found out, I have discovered]] [[outward grace|outward grace, favour, loveliness, graciousness and kindness and goodwill, thankfulness and thanks and gratitude, a favour and kindness and boon, a gratification and delight]] [[in the presence of|in the presence of, before, opposite and face to face, against]] of you, [[take|take, accept, receive, receive in exchange for, take rather and choose]] the [[gifts|gifts, presents, votive gifts, blessings]] [[through|through, throughout and over, during, by aid of and by means of, by reason of, because of, for the sake of]] of the [[of the mine|of the mine, of the to me and relating to me and against me, of the by me]] [[of hands|of hands, of hands and arms, of arms]]; [[on account of|on account of, for the sake of, because of, for, as far as regards]] [[of this|of this, of the nearer, of what follows]] [[I saw|I saw, I perceived, I beheld, I looked at]] [[the face|the face, the visage, the countenance, the look, the outward appearance]] of you, [[as|as, according as, considering, like]] ever [[some|some, any, a certain one]] [[may see|may see, may perceive, may behold, may look at]] [[face|face, visage, countenance, look, outward appearance]] [[of God|God's own, divine in character]], and [[you will be well pleased|you will be well pleased, you will consent, you will be glad]] me;",
+    "names": [
+      {
+        "greek": "Ιακωβ",
+        "unanchored": "Iakōb",
+        "anchored": "Jacob",
+        "bare": true
+      }
+    ]
+  },
+  {
+    "ref": "GEN 33:11",
+    "greek": "λαβὲ τὰς εὐλογίας μου, ἃς ἤνεγκά σοι, ὅτι ἠλέησέν με ὁ θεὸς καὶ ἔστιν μοι πάντα. καὶ ἐβιάσατο αὐτόν, καὶ ἔλαβεν.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 53",
+    "hint": "take my blessings, which I have brought you, because God had mercy on me and I have everything. And he pressed him, and he took them.",
+    "notes": [
+      {
+        "lemma": "τὰς εὐλογίας",
+        "flag": null,
+        "text": "εὐλογία, *good language* first: the gifts are called blessings, as at 27:12."
+      }
+    ],
+    "reading": "[[take|take, receive, take hold of and grasp and seize]] the [[the good language|the good language, the fine language, the fair speech and specious talk, the eulogy and panegyric, the blessing]] of me, which [[I brought|I brought, I bore, I carried, I endured]] to you, [[that|that, seeing that, although, for that, because, inasmuch as]] [[had pity on|had pity on, shewed mercy upon, felt pity]] me [[the God|him who is God definitively, the one the article marks out, the known and the only]] and is to me [[all|all, the whole, every, every single]]. and [[overpowered by force|overpowered by force, pressed hard, did violence to, laid violent hands on, forced]] him, and [[took|took, received, took hold of and grasped and seized]].",
+    "names": []
+  },
+  {
+    "ref": "GEN 33:12",
+    "greek": "καὶ εἶπεν Ἀπάραντες πορευσόμεθα ἐπʼ εὐθεῖαν.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 53",
+    "speech": ["Ἀπάραντες"],
+    "hint": "And he said: Let us set out and go straight on.",
+    "notes": [
+      {
+        "lemma": "ἐπʼ εὐθεῖαν",
+        "flag": null,
+        "text": "The feminine of εὐθύς, of the straight way; the entry the lexicon files for this lemma is the adverb's, *straightway*."
+      },
+      {
+        "lemma": "πορευσόμεθα",
+        "flag": "variant",
+        "text": "[[flag]] Codex Alexandrinus reads πορευθῶμεν, *let us go*."
+      },
+      {
+        "lemma": "Ἀπάραντες",
+        "flag": null,
+        "text": "Capitalised because it opens direct speech, as Rahlfs prints it; listed in `speech` so the checks do not take it for a proper name."
+      }
+    ],
+    "reading": "and [[said|said, spoke, declared, called by name, told]] [[having lifted off|having lifted off, having carried off, having taken away, having removed from, having led away, having sailed and marched away and departed]] [[we will be driven|we will be driven, we will be carried, we will go, we will walk, we will march, we will go across and pass]] [[upon|upon, on, in, at, near]] [[straightway|straightway, forthwith, at once, just, directly and simply]].",
+    "names": []
+  },
+  {
+    "ref": "GEN 33:13",
+    "greek": "εἶπεν δὲ αὐτῷ Ὁ κύριός μου γινώσκει ὅτι τὰ παιδία ἁπαλώτερα καὶ τὰ πρόβατα καὶ αἱ βόες λοχεύονται ἐπʼ ἐμέ· ἐὰν οὖν καταδιώξω αὐτοὺς ἡμέραν μίαν, ἀποθανοῦνται πάντα τὰ κτήνη.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 53",
+    "speech": ["Ὁ"],
+    "hint": "And he said to him: My lord knows that the children are tender and the sheep and the cows are giving birth upon me; if I drive them one day, all the cattle will die.",
+    "notes": [
+      {
+        "lemma": "λοχεύονται",
+        "flag": null,
+        "text": "λοχεύω, *to bring forth, bear*, in the passive: the flocks are in labour."
+      },
+      {
+        "lemma": "Ὁ",
+        "flag": null,
+        "text": "Capitalised because it opens direct speech, as Rahlfs prints it; listed in `speech` so the checks do not take it for a proper name."
+      }
+    ],
+    "reading": "[[said|said, spoke, declared, called by name, told]] [[but|but, however, whereas, on the other hand]], to him the [[lord|lord, master, the one having power and authority over]] of me [[learns to know|learns to know, perceives, marks, learns, discerns and distinguishes]] [[that|that, seeing that, although, for that, because, inasmuch as]] the [[children|children, sons, daughters, grandchildren, boys and youths and lads, girls and maidens, slaves and servants and men and maids]] [[softer to the touch|softer to the touch, more tender, fresher, softer and gentler, more soft and delicate]] and the [[things that walk forward|things that walk forward, cattle, flocks and herds, horses, small cattle, sheep]] and the [[cows|cows, oxen, kine and cattle, ox-hide shields]] [[are brought forth|are brought forth, are borne, are brought to the birth and attended in childbirth and delivered, are delivered and bear children, are born]] [[upon|upon, on, in, at, near]] me; if [[really|really, at all events, surely, so, then and therefore]] [[I may pursue closely|I may pursue closely]] them [[day|day, day-break, time]] [[one|one, a single one, one alone]], [[they will die off|they will die off, they will die, they will be put to death, they will be slain]] [[all|all, the whole, every, every single]] the [[flocks and herds|flocks and herds, single beasts, oxen, sheep, beasts for riding]].",
+    "names": []
+  },
+  {
+    "ref": "GEN 33:14",
+    "greek": "προελθέτω ὁ κύριός μου ἔμπροσθεν τοῦ παιδός, ἐγὼ δὲ ἐνισχύσω ἐν τῇ ὁδῷ κατὰ σχολὴν τῆς πορεύσεως τῆς ἐναντίον μου καὶ κατὰ πόδα τῶν παιδαρίων ἕως τοῦ με ἐλθεῖν πρὸς τὸν κύριόν μου εἰς Σηιρ.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 53",
+    "hint": "Let my lord go on before his servant, and I will keep my strength on the way, at the leisure of the journey before me and at the pace of the little children, until I come to my lord in Seir.",
+    "notes": [
+      {
+        "lemma": "κατὰ σχολήν",
+        "flag": null,
+        "text": "σχολή, *spare time, leisure*: at the pace the road allows."
+      },
+      {
+        "lemma": "κατὰ πόδα",
+        "flag": null,
+        "text": "*At the foot* of the children: at their walking pace."
+      }
+    ],
+    "reading": "[[let him go forward|let him go forward, let him go on, let him advance, let him go before]] the [[lord|lord, master, the one having power and authority over]] of me [[before|before, in front of, further on, sooner, rather than]] [[of the child|of the child, of the son, of the daughter, of the grandchild, of the boy and youth and lad, of the girl and maiden, of the slave and servant and man and maid]], I [[but|but, however, whereas, on the other hand]], [[I will strengthen|I will strengthen, I will confirm, I will prevail in, I will prevail among]] [[in the way|within, inside of, and by means of the way, the path, the track, the road, the highway, the course, the journey, the manner and method]] [[down|down, downwards, down from, down upon, over, upon]] [[spare time|spare time, leisure, rest, ease, rest from, idleness, the learned discussion and lecture]] [[of the walking|of the walking, of the mode of walking, of the going and journey and way and passage, of the march, of the crossing of water]] the [[in the presence of|in the presence of, before, opposite and face to face, against]] of me and [[down|down, downwards, down from, down upon, over, upon]] [[foot|foot, talon, the foot of a hill]] of the [[of the young little boys|of the young little boys, of the young slaves]] [[until|until, till, while, so long as]] [[to come|to come, to go, to go back and return, to be going to and intend, to come within a little of and be near]] me [[toward|toward, facing, oriented to, in living motion and address toward]] the [[lord|lord, master, the one having power and authority over]] of me [[into|into, to, in, rest in]] [[name:Σηιρ]].",
+    "names": [
+      {
+        "greek": "Σηιρ",
+        "unanchored": "Sēir",
+        "anchored": "Seir",
+        "gloss": "(Σηιρ, from Hebrew Śēʿîr, \"shaggy\")"
+      }
+    ]
+  },
+  {
+    "ref": "GEN 33:15",
+    "greek": "εἶπεν δὲ Ησαυ Καταλείψω μετὰ σοῦ ἀπὸ τοῦ λαοῦ τοῦ μετʼ ἐμοῦ. ὁ δὲ εἶπεν Ἵνα τί τοῦτο; ἱκανὸν ὅτι εὗρον χάριν ἐναντίον σου, κύριε.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 53",
+    "speech": ["Καταλείψω", "Ἵνα"],
+    "hint": "And Esau said: I will leave with you some of the people who are with me. And he said: Why this? It is enough that I found favour before you, lord.",
+    "notes": [
+      {
+        "lemma": "Καταλείψω, Ἵνα",
+        "flag": null,
+        "text": "Capitalised because it opens direct speech, as Rahlfs prints it; listed in `speech` so the checks do not take them for a proper name."
+      }
+    ],
+    "reading": "[[said|said, spoke, declared, called by name, told]] [[but|but, however, whereas, on the other hand]], [[name:Ησαυ]] [[I will leave behind|I will leave behind, I will leave in the lurch, I will leave out and omit]] [[in the midst of|in the midst of, among, in common, along with, with, by means of]] of you [[from|from, away from, far from, apart from]] [[of the people|of the people, of the men, of the soldiers, of the land-army, of the common men, of the folk, of the Jews, of the Christians]] the [[in the midst of|in the midst of, among, in common, along with, with, by means of]] of me. the [[but|but, however, whereas, on the other hand]], [[said|said, spoke, declared, called by name, told]] [[in order that|in order that, so that]] what [[this|this, the nearer, what follows]]; [[becoming|becoming, befitting, sufficing, sufficient and competent, sufficient and adequate and enough, large enough, considerable and long, satisfactory]] [[that|that, seeing that, although, for that, because, inasmuch as]] [[I found|I found, I found out, I discovered]] [[outward grace|outward grace, favour, loveliness, graciousness and kindness and goodwill, thankfulness and thanks and gratitude, a favour and kindness and boon, a gratification and delight]] [[in the presence of|in the presence of, before, opposite and face to face, against]] of you, [[lord|lord, master, the one having power and authority over]].",
+    "names": [
+      {
+        "greek": "Ησαυ",
+        "unanchored": "Ēsau",
+        "anchored": "Esau",
+        "bare": true
+      }
+    ]
+  },
+  {
+    "ref": "GEN 33:16",
+    "greek": "ἀπέστρεψεν δὲ Ησαυ ἐν τῇ ἡμέρᾳ ἐκείνῃ εἰς τὴν ὁδὸν αὐτοῦ εἰς Σηιρ.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 53",
+    "hint": "And Esau turned back that day to his own way, to Seir.",
+    "notes": [
+      {
+        "lemma": "ἀπέστρεψεν",
+        "flag": null,
+        "text": "ἀποστρέφω in the active, as at 14:16: he turned back."
+      }
+    ],
+    "reading": "[[turned|turned, turned back, turned away, turned oneself about, brought back]] [[but|but, however, whereas, on the other hand]], [[name:Ησαυ]] [[in the day|within, inside of, and by means of the day, the day-break, the time]] [[that|that, in order that]] [[into|into, to, in, rest in]] [[the way|the way, the path, the track, the road, the highway, the course, the journey, the manner and method]] of him [[into|into, to, in, rest in]] [[name:Σηιρ]].",
+    "names": [
+      {
+        "greek": "Ησαυ",
+        "unanchored": "Ēsau",
+        "anchored": "Esau",
+        "bare": true
+      },
+      {
+        "greek": "Σηιρ",
+        "unanchored": "Sēir",
+        "anchored": "Seir",
+        "bare": true
+      }
+    ]
+  },
+  {
+    "ref": "GEN 33:17",
+    "greek": "Καὶ Ιακωβ ἀπαίρει εἰς Σκηνάς· καὶ ἐποίησεν ἑαυτῷ ἐκεῖ οἰκίας καὶ τοῖς κτήνεσιν αὐτοῦ ἐποίησεν σκηνάς· διὰ τοῦτο ἐκάλεσεν τὸ ὄνομα τοῦ τόπου ἐκείνου Σκηναί.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 53",
+    "hint": "And Jacob set out for Tents; and there he made himself houses, and for his cattle he made tents; therefore he called the name of that place Tents.",
+    "notes": [
+      {
+        "lemma": "Σκηνάς … Σκηναί",
+        "flag": "divergence",
+        "text": "[[flag]] The Hebrew is Sukkôt, Succoth, the booths; the Greek translates the name, and Rahlfs prints it with a capital."
+      },
+      {
+        "lemma": "ἑαυτῷ",
+        "flag": "variant",
+        "text": "[[flag]] Rahlfs takes ἑαυτῷ from the Cairo Geniza witness; Codex Alexandrinus reads αὐτῷ."
+      }
+    ],
+    "reading": "And [[name:Ιακωβ]] [[lifts off|lifts off, carries off, takes away, removes from, leads away, sails and marches away and departs]] [[into|into, to, in, rest in]] [[name:Σκηνάς]]; and [[made|fashioned, wrought, produced, performed, did]] to himself [[there|there, in that place]] [[buildings|buildings, houses, dwellings, households and domestic establishments, households and inmates of the house, houses and families]] and [[to the flocks and herds|to the flocks and herds, to the single beast, to the ox, to the sheep, to the beast for riding]] of him [[made|fashioned, wrought, produced, performed, did]] [[covered places|covered places, tents, camps, dwelling-places, temples]]; [[through|through, throughout and over, during, by aid of and by means of, by reason of, because of, for the sake of]] [[this|this, the nearer, what follows]] [[called|called, summoned, called to himself, invited]] [[the name|the name, the fame, the mere name, the phrase and expression]] [[of the place|of the place, of the local circumstances, of the position, of the passage in a book, of the topic, of the common-place, of the occasion and opportunity]] [[of that|of that, of the one there, of the more remote]] [[name:Σκηναί]].",
+    "names": [
+      {
+        "greek": "Ιακωβ",
+        "unanchored": "Iakōb",
+        "anchored": "Jacob",
+        "bare": true
+      },
+      {
+        "greek": "Σκηνάς",
+        "unanchored": "Skēnas",
+        "anchored": "Tents",
+        "gloss": "(Σκηναί, \"tents\", the Greek of Hebrew Sukkôt, Succoth, the booths)"
+      },
+      {
+        "greek": "Σκηναί",
+        "unanchored": "Skēnai",
+        "anchored": "Tents",
+        "bare": true
+      }
+    ]
+  },
+  {
+    "ref": "GEN 33:18",
+    "greek": "καὶ ἦλθεν Ιακωβ εἰς Σαλημ πόλιν Σικιμων, ἥ ἐστιν ἐν γῇ Χανααν, ὅτε ἦλθεν ἐκ τῆς Μεσοποταμίας Συρίας, καὶ παρενέβαλεν κατὰ πρόσωπον τῆς πόλεως.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 53",
+    "hint": "And Jacob came to Salem, a city of the Shechemites, which is in the land of Canaan, when he came from Mesopotamia of Syria, and he encamped before the face of the city.",
+    "notes": [
+      {
+        "lemma": "εἰς Σαλημ πόλιν Σικιμων",
+        "flag": "divergence",
+        "text": "[[flag]] The Hebrew is *šālēm ʿîr šĕkem*, *safe to the city of Shechem*; the Greek reads Salem as a place-name."
+      }
+    ],
+    "reading": "and [[came|came, went, went back and returned, were going to and intended, came within a little of and were near]] [[name:Ιακωβ]] [[into|into, to, in, rest in]] [[name:Σαλημ]] [[city|city, citadel, country, body of citizens, state]] [[name:Σικιμων]], which is [[in earth|within, inside of, and by means of earth, land, the ground]] [[name:Χανααν]], [[when|when, sometimes]] [[came|came, went, went back and returned, were going to and intended, came within a little of and were near]] [[out of|out of, forth from, from]] the [[name:Μεσοποταμίας]] [[name:Συρίας]], and [[put in beside|put in beside, inserted, interpolated, interposed, insinuated, put in line with, fell into line and encamped]] [[down|down, downwards, down from, down upon, over, upon]] [[face|face, visage, countenance, look, outward appearance]] [[of the city|of the city, of the citadel, of the country, of the body of citizens, of the state]].",
+    "names": [
+      {
+        "greek": "Ιακωβ",
+        "unanchored": "Iakōb",
+        "anchored": "Jacob",
+        "bare": true
+      },
+      {
+        "greek": "Σαλημ",
+        "unanchored": "Salēm",
+        "anchored": "Salem",
+        "gloss": "(Σαλημ, from Hebrew Šālēm, which the Hebrew hears in šālôm, \"peace\", and which the Hebrew of this verse reads as šālēm, \"safe\")"
+      },
+      {
+        "greek": "Σικιμων",
+        "unanchored": "Sikimōn",
+        "anchored": "Shechem",
+        "gloss": "(Σικιμα, from Hebrew Šĕkem, \"shoulder\")"
+      },
+      {
+        "greek": "Χανααν",
+        "unanchored": "Chanaan",
+        "anchored": "Canaan",
+        "gloss": "(Χανααν, from Hebrew Kĕnaʿan, of uncertain meaning)"
+      },
+      {
+        "greek": "Μεσοποταμίας",
+        "unanchored": "Mesopotamias",
+        "anchored": "Mesopotamia",
+        "gloss": "(Μεσοποταμία, Greek, \"the land between the rivers\", for Hebrew Paddan-ʾĂrām)"
+      },
+      {
+        "greek": "Συρίας",
+        "unanchored": "Syrias",
+        "anchored": "Syria",
+        "gloss": "(Συρία, the Greek name of the land; the Hebrew here is Paddan-ʾĂrām)"
+      }
+    ]
+  },
+  {
+    "ref": "GEN 33:19",
+    "greek": "καὶ ἐκτήσατο τὴν μερίδα τοῦ ἀγροῦ, οὗ ἔστησεν ἐκεῖ τὴν σκηνὴν αὐτοῦ, παρὰ Εμμωρ πατρὸς Συχεμ ἑκατὸν ἀμνῶν",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 53",
+    "hint": "And he bought the portion of the field where he had set up his tent, from Hamor father of Shechem, for a hundred lambs",
+    "notes": [
+      {
+        "lemma": "ἑκατὸν ἀμνῶν",
+        "flag": null,
+        "text": "A hundred lambs, where the Hebrew has a hundred *qĕśîṭâ*, a weight of silver the Greek does not name."
+      }
+    ],
+    "reading": "and [[procured for himself|procured for himself, got, gained, acquired, brought upon himself and incurred, procured for another]] the [[a part|a part, a portion, a share, a parcel, a contribution, a part and division and class]] [[of the field|of the field, of the lands, of the farm, of the country]] , where [[made to stand|made to stand, set, stopped and stayed and checked, set up and raised, established and instituted, appointed, weighed]] [[there|there, in that place]] the [[the covered place|the covered place, the tent, the camp, the dwelling-place, the temple]] of him, [[to the side of|to the side of, motion alongside of, to, beside and near and by, passing by, beyond, contrary to and against, beside and except, on account of and because of and by means of, along the whole course of and during]] [[name:Εμμωρ]] [[of father|of father, of grandfather]] [[name:Συχεμ]] hundred [[of lambs|of lambs]]",
+    "names": [
+      {
+        "greek": "Εμμωρ",
+        "unanchored": "Emmōr",
+        "anchored": "Hamor",
+        "gloss": "(Εμμωρ, from Hebrew Ḥămôr, \"ass\")"
+      },
+      {
+        "greek": "Συχεμ",
+        "unanchored": "Sychem",
+        "anchored": "Shechem",
+        "gloss": "(Συχεμ, from Hebrew Šĕkem, \"shoulder\", the man who bears the city's name)"
+      }
+    ]
+  },
+  {
+    "ref": "GEN 33:20",
+    "greek": "καὶ ἔστησεν ἐκεῖ θυσιαστήριον καὶ ἐπεκαλέσατο τὸν θεὸν Ισραηλ.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 54",
+    "hint": "and he set up an altar there and called upon the God of Israel.",
+    "notes": [
+      {
+        "lemma": "ἐπεκαλέσατο",
+        "flag": null,
+        "text": "The middle of ἐπικαλέω, *to call upon*, as at 4:26 and 12:8."
+      }
+    ],
+    "reading": "and [[made to stand|made to stand, set, stopped and stayed and checked, set up and raised, established and instituted, appointed, weighed]] [[there|there, in that place]] [[an altar|an altar]] and [[called upon for himself|called upon for himself, invoked and appealed to, invited, called in as a helper or ally, called before him and summoned, challenged]] the [[God|everything that God is by nature, deity in full and undiminished kind]] [[name:Ισραηλ]].",
+    "names": [
+      {
+        "greek": "Ισραηλ",
+        "unanchored": "Israēl",
+        "anchored": "Israel",
+        "gloss": "(Ισραηλ, from Hebrew Yiśrāʾēl, which the Hebrew of 32:29 hears in śārâ ʿim ʾĕlōhîm, \"he strove with God\")"
+      }
+    ]
+  }
+]
