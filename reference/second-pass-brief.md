@@ -171,6 +171,12 @@ twice, on small words the brief did not name: εὐθύς, *immediately*, which 
 adjective all 51 times, and the τοῦ of ἕως τοῦ νῦν, which it codes masculine. The brief names both
 now, and the reciprocal ἀλλήλων, which the second pass rightly put with the personal pronouns.
 
+### What it found in Genesis 16
+
+One disagreement over 355 words. At 16:14, Φρέαρ οὗ ἐνώπιον εἶδον, the second pass read οὗ as the
+relative, *the well of him whom I saw*; the first read the adverb, *the well where I saw face to
+face*, since the name repeats Hagar's ἐνώπιον εἶδον of 16:13, and that reading was kept.
+
 ## The brief
 
 Copy everything below the rule into a new agent. Replace `<BOOK NAME>`, `<CHAPTER>`,

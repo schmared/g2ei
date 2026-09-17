@@ -245,6 +245,8 @@ CONTROL = [
                                          lambda: run(V.check_fields, [dict(JHN[2], names=[BARE])])),
     ("names    a later occurrence takes a bare entry",
                                          lambda: run(V.check_names, JHN + [dict(JHN[2], ref="JHN 1:15", names=[BARE])])),
+    ("names    two cases of one name in one verse, each with its entry",
+                                         lambda: run(V.check_names, json.loads((render.DATA / "GEN/16.json").read_text(encoding="utf-8"))[:2])),
     ("names    one form naming two bearers is glossed for each",
                                          lambda: run(V.check_names, JHN + [dict(JHN[2], ref="JHN 1:15",
                                                      names=[dict(JHN[2]["names"][0], anchored="Jonah")])])),

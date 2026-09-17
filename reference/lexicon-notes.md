@@ -137,6 +137,7 @@ Three reasons, and all of them are the lexicon's filing rather than a decision a
 | δεκάτη (GEN 14:20) | δέκατος | cross-reference; "v. δέκατος II." glosses nothing |
 | ἐπειδή (GEN 15:3) | ἐπεί | not in Middle Liddell; LSJ's entry reads "v. ἐπεί" |
 | κλίβανος (GEN 15:17) | κρίβανος | the entry is headed with the Attic κρίβανος |
+| κυρία (GEN 16:4) | κύριος (the second entry) | cross-reference; "fem. of κύριος signf. B. 1. 2." |
 <!-- spelling rows above -->
 
 The dictionary form itself does not follow the lexicon's filing: it keeps the spelling the text
@@ -570,6 +571,69 @@ the same ground as `the sixth` and `the seventh`: one sense each, so no range to
   settling in` (10:30); δύο `two`; υἱός `sons`.
 - The article before a people's name (τοὺς Λουδιιμ, τὸν Χετταῖον, τῶν Χαναναίων) is not printed,
   as before a person's name.
+
+### Words new in GEN 16
+
+- ἀδικέω — its first sense, *to do wrong*, has no object a passive could make its subject, so *to
+  do one wrong, to wrong*, heads the passive `I am done wrong`, and the first follows in its own
+  voice, as καπνίζω at 15:17. 16:5.
+- γαστήρ — ἐν γαστρὶ ἔχειν, *to be with child*, stands in Middle Liddell under the last sense, *the
+  womb*; the headword is the first, *paunch*. 16:4, 16:5, 16:11.
+- κυρία — filed under κύριος, whose noun sense gives ἡ κυρία, *mistress* or *lady of the house*.
+  16:4, 16:8, 16:9.
+- Φρέαρ — capitalised as the first word of the well's name, glossed as a name; φρέαρ before it is
+  the common noun. οὗ after it is the adverb, *where*, plain. 16:14.
+- Αἰγυπτία — glossed `(Αἰγυπτία, the woman of Αἴγυπτος, Egypt)`, the feminine of 12:12's gloss. 16:1.
+- One sense each in GEN 16, so plain text: τεκνοποιέω `you may bear children` (16:2), as at 11:30;
+  ὕδωρ `of the water` (16:7); ἐνώπιον `face to face` (16:13, 16:14), as at 11:28; ἕξ `six` (16:16).
+
+| lemma | headword | chain | used |
+| --- | --- | --- | --- |
+| γαστήρ, with ἐν | `in paunch` | `within, inside of, and by means of paunch and belly, hollow, greed and gluttony, paunch stuffed with mince-meat and black-pudding and sausage, womb` | 16:4, 16:5, 16:11 |
+| κακόω | `treated ill` | `treated ill and maltreated and afflicted and distressed, spoiled and ruined, suffered ill and was in ill plight and was distressed` | 16:6 |
+| καλέω | `you will call` | `you will call, you will summon, you will call to yourself, you will invite` | 16:11 |
+| κατοικέω | `will dwell in` | `will dwell in, will settle in, will colonise, will inhabit, will settle and dwell, will lie and be situate` | 16:12 |
+| κρίνω | `may pick out` | `may pick out and choose, may pick out for oneself and choose, may decide, may judge, may adjudge, may judge of and estimate, may expound and interpret, may determine, may question, may bring to trial and accuse, may pass sentence upon and condemn, may be chosen, may be brought to trial` | 16:5 |
+| κυρία | `of the mistress` | `of the mistress, of the lady of the house` | 16:8 |
+| κυρία | `the mistress` | `the mistress, the lady of the house` | 16:4, 16:9 |
+| κόλπος | `the bosom` | `the bosom, the womb, the fold formed by a loose garment, the pocket, any hollow, the deep hollow between waves, the bay and gulf, the vale` | 16:5 |
+| λαλέω | `of the one talking` | `of the one talking, chatting, prattling, babbling, saying, talking of, speaking, chattering, chirping` | 16:13 |
+| οἰκέω | `to inhabit` | `to inhabit, to occupy, to dwell and live, to be settled` | 16:3 |
+| παιδίσκη | `a young girl` | `a young girl, a maiden, a young slave, a courtesan` | 16:1 |
+| παιδίσκη | `the young girl` | `the young girl, the maiden, the young slave, the courtesan` | 16:2, 16:5, 16:6 |
+| παιδίσκη | `young girl` | `young girl, maiden, young slave, courtesan` | 16:3, 16:8 |
+| πηγή | `of the running waters` | `of the running waters, of the streams, of the fount, of the source, of the origin` | 16:7 |
+| πλῆθος | `of the great number` | `of the great number and throng and crowd and multitude, of the greater number and greater part and mass and main body, of the majority and people, of the populace and mob, of the quantity, of the number, of the magnitude and size, of the extent, of the amount, of the length` | 16:10 |
+| πορεύομαι | `you are driven` | `you are driven, you are carried, you go, you walk, you march, you go across and pass` | 16:8 |
+| πόθεν | `whence` | `whence, from what and from what source, wherefore, how can it be and impossible` | 16:8 |
+| συγκλείω | `shut` | `shut and cooped up and hemmed in and enclosed, set together to fight as in the lists, shut close and closed, locked, closed up, was well linked` | 16:2 |
+| συλλαμβάνω | `collected` | `collected, gathered together, took up, laid hold of and seized, comprehended, conceived` | 16:4 |
+| τίκτω | `was bringing into the world` | `was bringing into the world, was bringing forth, was bearing, was producing` | 16:1 |
+| ταπείνωσις | `to the humiliation` | `to the humiliation and abasement and defeat, to the low estate and low condition` | 16:11 |
+| ταπεινόω | `be lowered` | `be lowered, be lessened, be disparaged, be humbled and abased, be made lowly and humbled, humble oneself` | 16:9 |
+| φρέαρ | `the well` | `the well, the tank and cistern and reservoir, the oil jar` | 16:14 |
+| χείρ | `the hands` | `the hands, the hands and arms, the arms` | 16:9, 16:12 |
+| χείρ, with ἐν | `in the hands` | `within, inside of, and by means of the hands, the hands and arms, the arms` | 16:6 |
+| χράομαι | `use` | `use, have and use, indulge, experience and suffer and be subject to, come to, live under, make use of, treat, be intimate with, be in need and yearn after, have in use and possess` | 16:6 |
+| ἀδελφός | `of the sons of the same mother` | `of the sons of the same mother, of the brothers, of the near kinsmen` | 16:12 |
+| ἀδικέω | `I am done wrong` | `I am done wrong and wronged and injured, I am spoiled and damaged, I do wrong, I am wronged` | 16:5 |
+| ἀποδιδράσκω | `I run away` | `I run away and off and escape, I flee from, I desert, I flee and shun` | 16:8 |
+| ἀποδιδράσκω | `ran away` | `ran away and off and escaped, fled from, deserted, fled and shunned` | 16:6 |
+| ἀποστρέφω | `be turned` | `be turned, be turned back, be turned away, be brought back, turn oneself about` | 16:9 |
+| ἀριθμέω | `will be numbered` | `will be numbered, will be counted and reckoned up, will be counted out and paid, will be reckoned and counted as, will be reckoned, will be counted` | 16:10 |
+| ἀτιμάζω | `I was held in no honour` | `I was held in no honour and esteemed lightly and dishonoured and slighted, I was treated as unworthy of and deemed unworthy, I was deprived of civil rights, I suffered dishonour` | 16:5 |
+| ἀτιμάζω | `was held in no honour` | `was held in no honour and esteemed lightly and dishonoured and slighted, was treated as unworthy of and deemed unworthy, was deprived of civil rights, suffered dishonour` | 16:4 |
+| ἄγγελος | `a messenger` | `a messenger and envoy, one that announces, a divine messenger and an angel` | 16:7 |
+| ἄγγελος | `the messenger` | `the messenger and envoy, the one that announces, the divine messenger and the angel` | 16:8, 16:9, 16:10, 16:11 |
+| ἄγροικος | `of or in the country` | `of or in the country, dwelling in the country and a countryman and rustic, clownish and boorish and rude, rough and uncultivated` | 16:12 |
+| ἐπακούω | `listened` | `listened, hearkened to and heard, gave ear and hearkened, obeyed` | 16:11 |
+| ἐφοράω | `the one having overseen` | `the one having overseen, having observed, having surveyed, having watched over and taken notice of, having looked upon and beheld` | 16:13 |
+| ἔρχομαι | `you come` | `you come, you go, you go back and return, you are going to and intend, you come within a little of and are near` | 16:8 |
+| ἔχω | `has` | `has, holds, possesses, keeps, holds fast, bears up against and supports` | 16:4, 16:5 |
+| ἔχω | `you have` | `you have, you hold, you possess, you keep, you hold fast, you bear up against and support` | 16:11 |
+| ὁδός, with ἐν | `in the way` | `within, inside of, and by means of the way, the path, the track, the road, the highway, the course, the journey, the manner and method` | 16:7 |
+| ὁράω | `having been seen` | `having been seen, having been looked at, having been beheld and perceived and observed, having been looked out for` | 16:13 |
+| ὑπακούω | `listened` | `listened and hearkened and gave ear, made answer when called, hearkened to and gave ear to and attended to, answered, answered to a charge, submitted to, yielded to and complied with, gave way and submitted and complied, answered one's expectations and succeeded, was subject` | 16:2 |
 
 ### Words new in GEN 15
 
@@ -2717,6 +2781,13 @@ bearer's gloss. Σηγωρ is the Ζογορα of 13:10, spelt another way.
 
 GEN 15:2's Μασεκ is the Hebrew *mešeq*, which occurs nowhere else and is not a name there; the
 Greek makes it a woman's, the mother of Eliezer, whom it calls Δαμασκὸς Ελιεζερ.
+
+| Αἰγυπτία | Aigyptia | Egyptian | `(Αἰγυπτία, the woman of Αἴγυπτος, Egypt)` |
+| Αγαρ | Agar | Hagar | `(Αγαρ, from Hebrew Hāgār, of uncertain meaning)` |
+| Σουρ | Sour | Shur | `(Σουρ, from Hebrew Šûr, "wall")` |
+| Ισμαηλ | Ismaēl | Ishmael | `(Ισμαηλ, from Hebrew Yišmāʿēʾl, "God hears")` |
+| Φρέαρ | Phrear | Well | `(Φρέαρ, "a well", the first word of the name the verse gives the well, for Hebrew Bĕʾēr laḥay rōʾî)` |
+| Βαραδ | Barad | Bered | `(Βαραδ, from Hebrew Bered, "hail")` |
 <!-- name rows above -->
 
 Σύγχυσις translates the name where 10:10 gave the city its Greek name, Βαβυλών; as with Ζωή at

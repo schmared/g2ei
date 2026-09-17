@@ -1,0 +1,382 @@
+# Genesis 16 — morphology, one word per line.
+#
+# This is the project's own grammatical analysis of each form, written alongside the
+# transcription and not copied from any digital edition.
+#
+# Columns: verse, part of speech, parse, form, lemma — in MorphGNT's code scheme, so
+# the Old and New Testament layers read alike. The parse is eight places: person,
+# tense, voice, mood, case, number, gender, degree ("-" where it does not apply).
+#
+# Two codes go beyond MorphGNT, both to record only what the form itself says:
+#   voice  E  middle/passive — a tense in which the two share one form
+#   gender C  masculine/feminine — an adjective whose form does not distinguish them
+#
+# A trailing annotation records a deliberate difference and the reason for it:
+#   "# module …"  from the reference module, checked when LXX_RAHLFS_DIR is set
+#   "# corpus …"  from this project's own analysis of the same form elsewhere
+# A line may carry both. validate.py prints them as notes instead of failures — and
+# fails if the difference a note claims is not there, so they cannot go stale. The
+# analysis here is this project's own: the module is a reference, not an authority,
+# and the corpus is held to itself.
+#
+# Indeclinables take case and number from the syntax, as MorphGNT does, and gender
+# where there is one to take: a personal name, from the person; a numeral agreeing
+# with its noun; a common noun whose article shows it — but not an indeclinable place
+# name, which has none. A personal name the New Testament also uses takes MorphGNT's
+# dictionary form (Νῶε, Σήμ); every other Semitic name (Χαμ, Ιαφεθ), the form Rahlfs
+# prints.
+16:1 N- ----NSF- Σαρα Σαρα
+16:1 C- -------- δὲ δέ
+16:1 RA ----NSF- ἡ ὁ
+16:1 N- ----NSF- γυνὴ γυνή
+16:1 N- ----GSM- Αβραμ Αβραμ
+16:1 D- -------- οὐκ οὐ
+16:1 V- 3IAI-S-- ἔτικτεν τίκτω
+16:1 RP ----DSM- αὐτῷ αὐτός
+16:1 V- 3IAI-S-- ἦν εἰμί
+16:1 C- -------- δὲ δέ
+16:1 RP ----DSF- αὐτῇ αὐτός
+16:1 N- ----NSF- παιδίσκη παιδίσκη
+16:1 N- ----NSF- Αἰγυπτία Αἰγύπτιος  # module lemma Αἰγυπτία — Αἰγύπτιος, a people's name filed in the masculine, as at 12:14
+16:1 RR ----DSF- ᾗ ὅς
+16:1 N- ----NSN- ὄνομα ὄνομα
+16:1 N- ----NSF- Αγαρ Ἁγάρ  # module lemma Ἄγαρ — Ἁγάρ, as MorphGNT files it (Gal 4:24)
+16:2 V- 3AAI-S-- εἶπεν λέγω  # module lemma ἔπω — λέγω keeps one dictionary form across both testaments
+16:2 C- -------- δὲ δέ
+16:2 N- ----NSF- Σαρα Σαρα
+16:2 P- -------- πρὸς πρός
+16:2 N- ----ASM- Αβραμ Αβραμ
+16:2 X- -------- Ἰδοὺ ἰδού
+16:2 V- 3AAI-S-- συνέκλεισέν συγκλείω
+16:2 RP ----AS-- με ἐγώ  # module lemma μέ, the form itself — ἐγώ is the dictionary form
+16:2 N- ----NSM- κύριος κύριος
+16:2 RA ----GSN- τοῦ ὁ
+16:2 D- -------- μὴ μή
+16:2 V- -PAN---- τίκτειν τίκτω
+16:2 V- 2AAD-S-- εἴσελθε εἰσέρχομαι
+16:2 C- -------- οὖν οὖν
+16:2 P- -------- πρὸς πρός
+16:2 RA ----ASF- τὴν ὁ
+16:2 N- ----ASF- παιδίσκην παιδίσκη
+16:2 RP ----GS-- μου ἐγώ  # module lemma μου, the form itself — ἐγώ is the dictionary form
+16:2 C- -------- ἵνα ἵνα
+16:2 V- 2AAS-S-- τεκνοποιήσῃς τεκνοποιέω
+16:2 P- -------- ἐξ ἐκ
+16:2 RP ----GSF- αὐτῆς αὐτός
+16:2 V- 3AAI-S-- ὑπήκουσεν ὑπακούω
+16:2 C- -------- δὲ δέ
+16:2 N- ----NSM- Αβραμ Αβραμ
+16:2 RA ----GSF- τῆς ὁ
+16:2 N- ----GSF- φωνῆς φωνή
+16:2 N- ----GSF- Σαρας Σαρα
+16:3 C- -------- καὶ καί
+16:3 V- -AAPNSF- λαβοῦσα λαμβάνω
+16:3 N- ----NSF- Σαρα Σαρα
+16:3 RA ----NSF- ἡ ὁ
+16:3 N- ----NSF- γυνὴ γυνή
+16:3 N- ----GSM- Αβραμ Αβραμ
+16:3 N- ----ASF- Αγαρ Ἁγάρ  # module lemma Ἄγαρ — Ἁγάρ, as MorphGNT files it (Gal 4:24)
+16:3 RA ----ASF- τὴν ὁ
+16:3 N- ----ASF- Αἰγυπτίαν Αἰγύπτιος  # module lemma Αἰγυπτία — Αἰγύπτιος, a people's name filed in the masculine, as at 12:14
+16:3 RA ----ASF- τὴν ὁ
+16:3 RP ----GSF- ἑαυτῆς ἑαυτοῦ
+16:3 N- ----ASF- παιδίσκην παιδίσκη
+16:3 P- -------- μετὰ μετά
+16:3 A- ----APN- δέκα δέκα  # module M, no features — MorphGNT gives δέκα case, number and gender like any adjective
+16:3 N- ----APN- ἔτη ἔτος
+16:3 RA ----GSN- τοῦ ὁ
+16:3 V- -AAN---- οἰκῆσαι οἰκέω
+16:3 N- ----ASM- Αβραμ Αβραμ
+16:3 P- -------- ἐν ἐν
+16:3 N- ----DSF- γῇ γῆ
+16:3 N- ----GS-- Χανααν Χανάαν  # module lemma Χαναάν — Χανάαν, as MorphGNT files it
+16:3 C- -------- καὶ καί
+16:3 V- 3AAI-S-- ἔδωκεν δίδωμι
+16:3 RP ----ASF- αὐτὴν αὐτός
+16:3 N- ----DSM- Αβραμ Αβραμ
+16:3 RA ----DSM- τῷ ὁ
+16:3 N- ----DSM- ἀνδρὶ ἀνήρ
+16:3 RP ----GSF- αὐτῆς αὐτός
+16:3 RP ----DSM- αὐτῷ αὐτός
+16:3 N- ----ASF- γυναῖκα γυνή
+16:4 C- -------- καὶ καί
+16:4 V- 3AAI-S-- εἰσῆλθεν εἰσέρχομαι
+16:4 P- -------- πρὸς πρός
+16:4 N- ----ASF- Αγαρ Ἁγάρ  # module lemma Ἄγαρ — Ἁγάρ, as MorphGNT files it (Gal 4:24)
+16:4 C- -------- καὶ καί
+16:4 V- 3AAI-S-- συνέλαβεν συλλαμβάνω
+16:4 C- -------- καὶ καί
+16:4 V- 3AAI-S-- εἶδεν ὁράω
+16:4 C- -------- ὅτι ὅτι
+16:4 P- -------- ἐν ἐν
+16:4 N- ----DSF- γαστρὶ γαστήρ
+16:4 V- 3PAI-S-- ἔχει ἔχω
+16:4 C- -------- καὶ καί
+16:4 V- 3API-S-- ἠτιμάσθη ἀτιμάζω
+16:4 RA ----NSF- ἡ ὁ
+16:4 N- ----NSF- κυρία κυρία
+16:4 P- -------- ἐναντίον ἐναντίον
+16:4 RP ----GSF- αὐτῆς αὐτός
+16:5 V- 3AAI-S-- εἶπεν λέγω  # module lemma ἔπω — λέγω keeps one dictionary form across both testaments
+16:5 C- -------- δὲ δέ
+16:5 N- ----NSF- Σαρα Σαρα
+16:5 P- -------- πρὸς πρός
+16:5 N- ----ASM- Αβραμ Αβραμ
+16:5 V- 1PEI-S-- Ἀδικοῦμαι ἀδικέω
+16:5 P- -------- ἐκ ἐκ
+16:5 RP ----GS-- σοῦ σύ  # module lemma σοῦ, the form itself — σύ is the dictionary form
+16:5 RP ----NS-- ἐγὼ ἐγώ
+16:5 V- 1XAI-S-- δέδωκα δίδωμι
+16:5 RA ----ASF- τὴν ὁ
+16:5 N- ----ASF- παιδίσκην παιδίσκη
+16:5 RP ----GS-- μου ἐγώ  # module lemma μου, the form itself — ἐγώ is the dictionary form
+16:5 P- -------- εἰς εἰς
+16:5 RA ----ASM- τὸν ὁ
+16:5 N- ----ASM- κόλπον κόλπος
+16:5 RP ----GS-- σου σύ  # module lemma σοῦ, the form itself — σύ is the dictionary form
+16:5 V- -AAPNSF- ἰδοῦσα ὁράω
+16:5 C- -------- δὲ δέ
+16:5 C- -------- ὅτι ὅτι
+16:5 P- -------- ἐν ἐν
+16:5 N- ----DSF- γαστρὶ γαστήρ
+16:5 V- 3PAI-S-- ἔχει ἔχω
+16:5 V- 1API-S-- ἠτιμάσθην ἀτιμάζω
+16:5 P- -------- ἐναντίον ἐναντίον
+16:5 RP ----GSF- αὐτῆς αὐτός
+16:5 V- 3AAO-S-- κρίναι κρίνω
+16:5 RA ----NSM- ὁ ὁ
+16:5 N- ----NSM- θεὸς θεός
+16:5 P- -------- ἀνὰ ἀνά
+16:5 A- ----ASN- μέσον μέσος  # module ASM — with a genitive after it, the neuter used as a noun, as MorphGNT codes ἀνὰ μέσον
+16:5 RP ----GS-- ἐμοῦ ἐγώ  # module lemma ἐμοῦ, the form itself — ἐγώ is the dictionary form
+16:5 C- -------- καὶ καί
+16:5 RP ----GS-- σοῦ σύ  # module lemma σοῦ, the form itself — σύ is the dictionary form
+16:6 V- 3AAI-S-- εἶπεν λέγω  # module lemma ἔπω — λέγω keeps one dictionary form across both testaments
+16:6 C- -------- δὲ δέ
+16:6 N- ----NSM- Αβραμ Αβραμ
+16:6 P- -------- πρὸς πρός
+16:6 N- ----ASF- Σαραν Σαρα
+16:6 X- -------- Ἰδοὺ ἰδού
+16:6 RA ----NSF- ἡ ὁ
+16:6 N- ----NSF- παιδίσκη παιδίσκη
+16:6 RP ----GS-- σου σύ  # module lemma σοῦ, the form itself — σύ is the dictionary form
+16:6 P- -------- ἐν ἐν
+16:6 RA ----DPF- ταῖς ὁ
+16:6 N- ----DPF- χερσίν χείρ
+16:6 RP ----GS-- σου σύ  # module lemma σοῦ, the form itself — σύ is the dictionary form
+16:6 V- 2PED-S-- χρῶ χράομαι
+16:6 RP ----DSF- αὐτῇ αὐτός
+16:6 C- -------- ὡς ὡς  # module lemma ὥς — ὡς, the comparative particle, as MorphGNT files it
+16:6 X- -------- ἄν ἄν
+16:6 RP ----DS-- σοι σύ  # module lemma σοί, the form itself — σύ is the dictionary form
+16:6 A- ----NSN- ἀρεστὸν ἀρεστός
+16:6 V- 3PAS-S-- ᾖ εἰμί
+16:6 C- -------- καὶ καί
+16:6 V- 3AAI-S-- ἐκάκωσεν κακόω
+16:6 RP ----ASF- αὐτὴν αὐτός
+16:6 N- ----NSF- Σαρα Σαρα
+16:6 C- -------- καὶ καί
+16:6 V- 3AAI-S-- ἀπέδρα ἀποδιδράσκω
+16:6 P- -------- ἀπὸ ἀπό
+16:6 N- ----GSN- προσώπου πρόσωπον
+16:6 RP ----GSF- αὐτῆς αὐτός
+16:7 V- 3AAI-S-- Εὗρεν εὑρίσκω
+16:7 C- -------- δὲ δέ
+16:7 RP ----ASF- αὐτὴν αὐτός
+16:7 N- ----NSM- ἄγγελος ἄγγελος
+16:7 N- ----GSM- κυρίου κύριος
+16:7 P- -------- ἐπὶ ἐπί
+16:7 RA ----GSF- τῆς ὁ
+16:7 N- ----GSF- πηγῆς πηγή
+16:7 RA ----GSN- τοῦ ὁ
+16:7 N- ----GSN- ὕδατος ὕδωρ
+16:7 P- -------- ἐν ἐν
+16:7 RA ----DSF- τῇ ὁ
+16:7 A- ----DSF- ἐρήμῳ ἔρημος
+16:7 P- -------- ἐπὶ ἐπί
+16:7 RA ----GSF- τῆς ὁ
+16:7 N- ----GSF- πηγῆς πηγή
+16:7 P- -------- ἐν ἐν
+16:7 RA ----DSF- τῇ ὁ
+16:7 N- ----DSF- ὁδῷ ὁδός
+16:7 N- ----GS-- Σουρ Σουρ  # module S, no case — the genitive after ὁδός, the road of Sur
+16:8 C- -------- καὶ καί
+16:8 V- 3AAI-S-- εἶπεν λέγω  # module lemma ἔπω — λέγω keeps one dictionary form across both testaments
+16:8 RP ----DSF- αὐτῇ αὐτός
+16:8 RA ----NSM- ὁ ὁ
+16:8 N- ----NSM- ἄγγελος ἄγγελος
+16:8 N- ----GSM- κυρίου κύριος
+16:8 N- ----VSF- Αγαρ Ἁγάρ  # module lemma Ἄγαρ — Ἁγάρ, as MorphGNT files it (Gal 4:24)
+16:8 N- ----VSF- παιδίσκη παιδίσκη
+16:8 N- ----GSF- Σαρας Σαρα
+16:8 D- -------- πόθεν πόθεν
+16:8 V- 2PEI-S-- ἔρχῃ ἔρχομαι
+16:8 C- -------- καὶ καί
+16:8 D- -------- ποῦ ποῦ
+16:8 V- 2PEI-S-- πορεύῃ πορεύομαι
+16:8 C- -------- καὶ καί
+16:8 V- 3AAI-S-- εἶπεν λέγω  # module lemma ἔπω — λέγω keeps one dictionary form across both testaments
+16:8 P- -------- Ἀπὸ ἀπό
+16:8 N- ----GSN- προσώπου πρόσωπον
+16:8 N- ----GSF- Σαρας Σαρα
+16:8 RA ----GSF- τῆς ὁ
+16:8 N- ----GSF- κυρίας κυρία
+16:8 RP ----GS-- μου ἐγώ  # module lemma μου, the form itself — ἐγώ is the dictionary form
+16:8 RP ----NS-- ἐγὼ ἐγώ
+16:8 V- 1PAI-S-- ἀποδιδράσκω ἀποδιδράσκω
+16:9 V- 3AAI-S-- εἶπεν λέγω  # module lemma ἔπω — λέγω keeps one dictionary form across both testaments
+16:9 C- -------- δὲ δέ
+16:9 RP ----DSF- αὐτῇ αὐτός
+16:9 RA ----NSM- ὁ ὁ
+16:9 N- ----NSM- ἄγγελος ἄγγελος
+16:9 N- ----GSM- κυρίου κύριος
+16:9 V- 2APD-S-- Ἀποστράφητι ἀποστρέφω
+16:9 P- -------- πρὸς πρός
+16:9 RA ----ASF- τὴν ὁ
+16:9 N- ----ASF- κυρίαν κυρία
+16:9 RP ----GS-- σου σύ  # module lemma σοῦ, the form itself — σύ is the dictionary form
+16:9 C- -------- καὶ καί
+16:9 V- 2APD-S-- ταπεινώθητι ταπεινόω
+16:9 P- -------- ὑπὸ ὑπό
+16:9 RA ----APF- τὰς ὁ
+16:9 N- ----APF- χεῖρας χείρ
+16:9 RP ----GSF- αὐτῆς αὐτός
+16:10 C- -------- καὶ καί
+16:10 V- 3AAI-S-- εἶπεν λέγω  # module lemma ἔπω — λέγω keeps one dictionary form across both testaments
+16:10 RP ----DSF- αὐτῇ αὐτός
+16:10 RA ----NSM- ὁ ὁ
+16:10 N- ----NSM- ἄγγελος ἄγγελος
+16:10 N- ----GSM- κυρίου κύριος
+16:10 V- -PAPNSM- Πληθύνων πληθύνω
+16:10 V- 1FAI-S-- πληθυνῶ πληθύνω
+16:10 RA ----ASN- τὸ ὁ
+16:10 N- ----ASN- σπέρμα σπέρμα
+16:10 RP ----GS-- σου σύ  # module lemma σοῦ, the form itself — σύ is the dictionary form
+16:10 C- -------- καὶ καί
+16:10 D- -------- οὐκ οὐ
+16:10 V- 3FPI-S-- ἀριθμηθήσεται ἀριθμέω
+16:10 P- -------- ἀπὸ ἀπό
+16:10 RA ----GSN- τοῦ ὁ
+16:10 N- ----GSN- πλήθους πλῆθος
+16:11 C- -------- καὶ καί
+16:11 V- 3AAI-S-- εἶπεν λέγω  # module lemma ἔπω — λέγω keeps one dictionary form across both testaments
+16:11 RP ----DSF- αὐτῇ αὐτός
+16:11 RA ----NSM- ὁ ὁ
+16:11 N- ----NSM- ἄγγελος ἄγγελος
+16:11 N- ----GSM- κυρίου κύριος
+16:11 X- -------- Ἰδοὺ ἰδού
+16:11 RP ----NS-- σὺ σύ
+16:11 P- -------- ἐν ἐν
+16:11 N- ----DSF- γαστρὶ γαστήρ
+16:11 V- 2PAI-S-- ἔχεις ἔχω
+16:11 C- -------- καὶ καί
+16:11 V- 2FMI-S-- τέξῃ τίκτω
+16:11 N- ----ASM- υἱὸν υἱός
+16:11 C- -------- καὶ καί
+16:11 V- 2FAI-S-- καλέσεις καλέω
+16:11 RA ----ASN- τὸ ὁ
+16:11 N- ----ASN- ὄνομα ὄνομα
+16:11 RP ----GSM- αὐτοῦ αὐτός
+16:11 N- ----ASM- Ισμαηλ Ισμαηλ
+16:11 C- -------- ὅτι ὅτι
+16:11 V- 3AAI-S-- ἐπήκουσεν ἐπακούω
+16:11 N- ----NSM- κύριος κύριος
+16:11 RA ----DSF- τῇ ὁ
+16:11 N- ----DSF- ταπεινώσει ταπείνωσις
+16:11 RP ----GS-- σου σύ  # module lemma σοῦ, the form itself — σύ is the dictionary form
+16:12 RD ----NSM- οὗτος οὗτος
+16:12 V- 3FMI-S-- ἔσται εἰμί
+16:12 A- ----NSC- ἄγροικος ἄγροικος
+16:12 N- ----NSM- ἄνθρωπος ἄνθρωπος
+16:12 RA ----NPF- αἱ ὁ
+16:12 N- ----NPF- χεῖρες χείρ
+16:12 RP ----GSM- αὐτοῦ αὐτός
+16:12 P- -------- ἐπὶ ἐπί
+16:12 A- ----APM- πάντας πᾶς
+16:12 C- -------- καὶ καί
+16:12 RA ----NPF- αἱ ὁ
+16:12 N- ----NPF- χεῖρες χείρ
+16:12 A- ----GPM- πάντων πᾶς
+16:12 P- -------- ἐπʼ ἐπί
+16:12 RP ----ASM- αὐτόν αὐτός
+16:12 C- -------- καὶ καί
+16:12 P- -------- κατὰ κατά
+16:12 N- ----ASN- πρόσωπον πρόσωπον
+16:12 A- ----GPM- πάντων πᾶς
+16:12 RA ----GPM- τῶν ὁ
+16:12 N- ----GPM- ἀδελφῶν ἀδελφός
+16:12 RP ----GSM- αὐτοῦ αὐτός
+16:12 V- 3FAI-S-- κατοικήσει κατοικέω
+16:13 C- -------- καὶ καί
+16:13 V- 3AAI-S-- ἐκάλεσεν καλέω
+16:13 N- ----NSF- Αγαρ Ἁγάρ  # module lemma Ἄγαρ — Ἁγάρ, as MorphGNT files it (Gal 4:24)
+16:13 RA ----ASN- τὸ ὁ
+16:13 N- ----ASN- ὄνομα ὄνομα
+16:13 N- ----GSM- κυρίου κύριος
+16:13 RA ----GSM- τοῦ ὁ
+16:13 V- -PAPGSM- λαλοῦντος λαλέω
+16:13 P- -------- πρὸς πρός
+16:13 RP ----ASF- αὐτήν αὐτός
+16:13 RP ----NS-- Σὺ σύ
+16:13 RA ----NSM- ὁ ὁ
+16:13 N- ----NSM- θεὸς θεός
+16:13 RA ----NSM- ὁ ὁ
+16:13 V- -AAPNSM- ἐπιδών ἐφοράω  # module lemma ἐπεῖδον — ἐφοράω, as MorphGNT files ἐπεῖδεν (Luke 1:25)
+16:13 RP ----AS-- με ἐγώ  # module lemma μέ, the form itself — ἐγώ is the dictionary form
+16:13 C- -------- ὅτι ὅτι
+16:13 V- 3AAI-S-- εἶπεν λέγω  # module lemma ἔπω — λέγω keeps one dictionary form across both testaments
+16:13 D- -------- Καὶ καί
+16:13 C- -------- γὰρ γάρ
+16:13 D- -------- ἐνώπιον ἐνώπιον  # module lemma ἐνώπιος — ἐνώπιον, as MorphGNT files it
+16:13 V- 1AAI-S-- εἶδον ὁράω
+16:13 V- -APPASM- ὀφθέντα ὁράω
+16:13 RP ----DS-- μοι ἐγώ  # module lemma μοι, the form itself — ἐγώ is the dictionary form
+16:14 P- -------- ἕνεκεν ἕνεκα
+16:14 RD ----GSN- τούτου οὗτος  # module GSM — the neuter, on account of this, as MorphGNT codes ἕνεκα τούτου (Matt 19:5)
+16:14 V- 3AAI-S-- ἐκάλεσεν καλέω
+16:14 RA ----ASN- τὸ ὁ
+16:14 N- ----ASN- φρέαρ φρέαρ
+16:14 N- ----ASN- Φρέαρ Φρέαρ  # module lemma φρέαρ — the name of the well, capitalised as Rahlfs prints it  # corpus the name, where φρέαρ before it is the common noun
+16:14 D- -------- οὗ οὗ  # module RR.GSM — the adverb, where: the name repeats Hagar's ἐνώπιον εἶδον of 16:13
+16:14 D- -------- ἐνώπιον ἐνώπιον  # module lemma ἐνώπιος — ἐνώπιον, as MorphGNT files it
+16:14 V- 1AAI-S-- εἶδον ὁράω  # module AAI3P — first singular: the name repeats Hagar's εἶδον of 16:13
+16:14 X- -------- ἰδοὺ ἰδού
+16:14 P- -------- ἀνὰ ἀνά
+16:14 A- ----ASN- μέσον μέσος  # module ASM — with a genitive after it, the neuter used as a noun, as MorphGNT codes ἀνὰ μέσον
+16:14 N- ----GS-- Καδης Καδης
+16:14 C- -------- καὶ καί
+16:14 P- -------- ἀνὰ ἀνά
+16:14 A- ----ASN- μέσον μέσος  # module ASM — with a genitive after it, the neuter used as a noun, as MorphGNT codes ἀνὰ μέσον
+16:14 N- ----GS-- Βαραδ Βαραδ
+16:15 C- -------- Καὶ καί
+16:15 V- 3AAI-S-- ἔτεκεν τίκτω
+16:15 N- ----NSF- Αγαρ Ἁγάρ  # module lemma Ἄγαρ — Ἁγάρ, as MorphGNT files it (Gal 4:24)
+16:15 RA ----DSM- τῷ ὁ
+16:15 N- ----DSM- Αβραμ Αβραμ
+16:15 N- ----ASM- υἱόν υἱός
+16:15 C- -------- καὶ καί
+16:15 V- 3AAI-S-- ἐκάλεσεν καλέω
+16:15 N- ----NSM- Αβραμ Αβραμ
+16:15 RA ----ASN- τὸ ὁ
+16:15 N- ----ASN- ὄνομα ὄνομα
+16:15 RA ----GSM- τοῦ ὁ
+16:15 N- ----GSM- υἱοῦ υἱός
+16:15 RP ----GSM- αὐτοῦ αὐτός
+16:15 RR ----ASM- ὃν ὅς
+16:15 V- 3AAI-S-- ἔτεκεν τίκτω
+16:15 RP ----DSM- αὐτῷ αὐτός
+16:15 N- ----NSF- Αγαρ Ἁγάρ  # module lemma Ἄγαρ — Ἁγάρ, as MorphGNT files it (Gal 4:24)
+16:15 N- ----ASM- Ισμαηλ Ισμαηλ
+16:16 N- ----NSM- Αβραμ Αβραμ
+16:16 C- -------- δὲ δέ
+16:16 V- 3IAI-S-- ἦν εἰμί
+16:16 A- ----GPN- ὀγδοήκοντα ὀγδοήκοντα  # module M, no features — MorphGNT gives ὀγδοήκοντα case, number and gender like any adjective
+16:16 A- ----GPN- ἓξ ἕξ  # module M, no features — MorphGNT gives ἕξ case, number and gender like any adjective
+16:16 N- ----GPN- ἐτῶν ἔτος
+16:16 C- -------- ἡνίκα ἡνίκα
+16:16 V- 3AAI-S-- ἔτεκεν τίκτω
+16:16 N- ----NSF- Αγαρ Ἁγάρ  # module lemma Ἄγαρ — Ἁγάρ, as MorphGNT files it (Gal 4:24)
+16:16 RA ----ASM- τὸν ὁ
+16:16 N- ----ASM- Ισμαηλ Ισμαηλ
+16:16 RA ----DSM- τῷ ὁ
+16:16 N- ----DSM- Αβραμ Αβραμ

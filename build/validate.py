@@ -365,7 +365,10 @@ def check_names(verses, rep):
         used = set()
 
         for candidate in candidates:
-            entry = next((e for e in entries if matches(candidate, e["greek"])), None)
+            # the entry for this very form first: a verse can print two cases of one name, each
+            # with its own entry (Σαρα and Σαρας, GEN 16:2)
+            entry = (next((e for e in entries if e["greek"] == candidate), None)
+                     or next((e for e in entries if matches(candidate, e["greek"])), None))
             key = next((k for k in glossed if matches(candidate, k)), None)
             if key is not None and entry is not None and entry["anchored"] not in glossed[key]:
                 # the same Greek form naming someone else, with another English name:

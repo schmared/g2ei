@@ -446,6 +446,16 @@ NOT_SENSES = {
     "a(marti/a": {"a fault committed by", "fault"},  # pieces of examples
     "e)pei/": {"began", "had"},                 # pieces of examples
     "flo/c": {"to put", "out", "the flame"},    # pieces of examples
+    # GEN 16
+    "sugklei/w": {"shut off and intercepted", "muffled", "shut the doors", "the part that was", "closed up"},  # pieces of examples
+    "u(pakou/w": {"to listen", "to give ear to", "to comply"},  # repeats
+    "gasth/r": {"bellies", "his belly", "it"},  # pieces of examples
+    "a)tima/zw": {"thou speakest", "in dishonour of", "will not disdain", "deem", "unworthy"},  # pieces of examples
+    "a)dike/w": {"wrong-doing", "righteous dealing", "to do", "in"},  # pieces of examples
+    "ko/lpos": {"her robe so as to form a fold", "deep-folded", "their folded robes", "in her bosom"},  # pieces of examples
+    "a)podidra/skw": {"by stealth"},            # a piece of an example
+    "plh=qos": {"in force", "in great numbers", "upon the whole, in general", "usually, mostly"},  # adverbial phrases
+    "e)pakou/w": {"to hear", "from"},           # pieces of examples
 }
 
 # An entry that divides its senses by tense and voice, so that which of them belong to a
@@ -534,6 +544,7 @@ SPELLING = {
     "deka/th": "de/katos",          # cross-reference; "v. δέκατος II." glosses nothing
     "e)peidh/": "e)pei/",            # not in Middle Liddell; LSJ's ἐπειδή reads "v. ἐπεί"
     "kli/banos": "kri/banos",       # the entry is headed with the Attic κρίβανος
+    "kuri/a": "ku/rios2",           # cross-reference; "fem. of κύριος signf. B. 1. 2." — the noun's κυρία, mistress
 }
 
 # Homographs where Perseus's *first* entry is a different word from the one the text
