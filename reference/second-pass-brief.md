@@ -274,6 +274,17 @@ filed under their actives; ἔδυ a root aorist under δύω, not δύνω; Χ�
 rule covers *as, like* only; ἄκρον the noun; ἐπέχεεν aorist, not imperfect; ἀποστρέψω and ἀποδεκατώσω
 futures, not aorist subjunctives, as main-clause verbs; and βορρᾶν under the contracted βορρᾶς.
 
+### What it found in Genesis 29
+
+Eleven disagreements over 733 words. The second pass was right that φρέαρ at 29:2 is nominative after
+ἰδού, that τὰ κτήνη at 29:7 is the accusative subject of συναχθῆναι, that Τί τοῦτο at 29:25 is accusative
+as at 12:18, that δεύτερον at 29:33 is masculine with υἱόν, that καί at 29:27 and 29:33 is *also*, and
+that δωρεάν is lemmatized as the adverb itself, the lexicon's filing being handled by `SPELLING`. The
+first pass kept πρεσβύτερος, the comparative Middle Liddell heads, where the second pass had πρέσβυς.
+Two were settled by neither: ἐργᾷ at 29:27 is the future middle, as the corpus already has it at 4:12
+and the module agrees; and Ιουδα at 29:35 the module files as the indeclinable Ἰουδά, not the declined
+Ἰούδας the second pass proposed.
+
 ## The brief
 
 Copy everything below the rule into a new agent. Replace `<BOOK NAME>`, `<CHAPTER>`,

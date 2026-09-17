@@ -726,6 +726,29 @@ NOT_SENSES = {
     "eu)/xomai": {"to pray that", "long"},      # pieces of examples
     "fobero/s": {"formidable", "terror"},       # pieces of examples
     "a)/kron": {"the highest", "furthest point"},  # pieces of "the highest or furthest point"
+    # GEN 29
+    "e)caei/rw": {"having bade", "rise"},       # pieces of an example
+    "a)napau/w": {"hinder from", "to give", "rest", "relief"},  # pieces of senses I and I.1
+    "suna/gw": {"to join", "begin", "to match", "one against the other"},  # pieces of the battle sense
+    "po/qen": {"from what", "how can it be? impossible!"},  # a piece of an example, and one
+    "u(giai/nw": {"in health", "soundness"},    # a piece of sense 1, and a usage note
+    "w(/ra": {"spring", "summer", "winter"},    # the three seasons Middle Liddell names in passing
+    "kth=nos": {"an ox", "sheep"},              # pieces of "a single beast, as an ox or sheep"
+    "du/namai": {"powerful, mighty", "having influence", "bear"},  # pieces of examples
+    "prose/rxomai": {"go to"},                  # a piece of "to come or go to"
+    "perilamba/nw": {"surround", "you get hold of"},  # a piece of sense I.2, and an example
+    "o)fqalmo/s": {"eyes", "sight", "the king's eye"},  # pieces of examples
+    "a)sqenh/s": {"too weak", "the weaker sort", "the poor"},  # pieces of senses I.1 and I.2
+    "ei)=dos": {"nature", "course"},            # pieces of senses II and II.2
+    "w(rai=os": {"fruits gathered in due season", "of the season", "yearling"},  # pieces of examples
+    "belti/wn": {"to improve, advance"},        # the verb the entry cross-refers to
+    "o)li/gos": {"too few to", "little"},       # a piece of sense I.2, and a bare repetition
+    "plhro/w": {"to fill full of", "to be filled full of", "to fill full"},  # pieces of sense I
+    "ga/mos": {"marriage with"},                # a piece of "marriage with him"
+    "paralogi/zomai": {"to be so misled"},      # the passive of the sense before it
+    "e)rgasi/a": {"a working"},                 # a piece of "a working of a material"
+    "e)rga/zomai": {"to do", "to"},             # pieces of sense II.2
+    "a)noi/gnumi": {"and opened", "to tap"},    # pieces of examples
 }
 
 # An entry that divides its senses by tense and voice, so that which of them belong to a
@@ -855,6 +878,9 @@ SPELLING = {
     "e)piginw/skw": "e)pigignw/skw",  # the Attic spelling of a Koine form, as γινώσκω
     "zugo/s": "zugo/n",             # the entry is headed with the neuter
     "kli/mac": "kli=mac",           # the entry is headed with the circumflex
+    "e)cai/rw": "e)caei/rw",       # the entry is headed with the Epic ἐξαείρω
+    "dwrea/n": "dwrea/",           # the adverb, filed inside the noun's entry
+    "e)comologe/w": "e)comologe/omai",  # the entry is headed with the deponent middle
 }
 
 # Homographs where Perseus's *first* entry is a different word from the one the text

@@ -178,6 +178,9 @@ Three reasons, and all of them are the lexicon's filing rather than a decision a
 | ζυγός (GEN 27:40) | ζυγόν | the entry is headed with the neuter |
 | κλίμαξ (GEN 28:12) | κλῖμαξ | Middle Liddell heads the entry with the circumflex |
 | βορρᾶς (GEN 28:14) | βορρᾶς | the contracted form, which the entry carries beside βορέας |
+| ἐξαίρω (GEN 29:1) | ἐξαείρω | the entry is headed with the Epic form |
+| δωρεάν (GEN 29:15) | δωρεά | the adverb, filed inside the noun's entry |
+| ἐξομολογέω (GEN 29:35) | ἐξομολογέομαι | the entry is headed with the deponent middle |
 <!-- spelling rows above -->
 
 The dictionary form itself does not follow the lexicon's filing: it keeps the spelling the text
@@ -611,6 +614,114 @@ the same ground as `the sixth` and `the seventh`: one sense each, so no range to
   settling in` (10:30); δύο `two`; υἱός `sons`.
 - The article before a people's name (τοὺς Λουδιιμ, τὸν Χετταῖον, τῶν Χαναναίων) is not printed,
   as before a person's name.
+
+### Words new in GEN 29
+
+- ἐξαίρω — Middle Liddell heads the entry with the Epic ἐξαείρω, *to lift up, lift off the earth*: the
+  Hebrew idiom *he lifted his feet* carried over word for word. 29:1.
+- ποίμνιον — one sense, *a flock*; Middle Liddell's second, of disciples, glosses nothing. 29:2, 29:3.
+- ἀναπαύω — the middle participle takes the Mid. and Pass. section: *desisting from, taking one's rest
+  and sleeping, regaining strength*. 29:2.
+- συνάγω — first *to bring together, gather together, collect, convene*; the senses of joining battle
+  and matching two warriors are of the active in one idiom only, and are left out. 29:3, 29:7, 29:8, 29:22.
+- πόθεν — *whence?*, the interrogative adverb. 29:4.
+- ὑγιαίνω — *to be sound, healthy*, for the Hebrew's *is there peace to him*. 29:6.
+- ὥρα — the entry opens with *period*, whether of the year, month or day, and *a part of the year, a
+  season* is its first numbered sense; so the headword is `period`, where the sense here is the hour. 29:7.
+- κτῆνος — the plural is *flocks and herds*; *a single beast* is the singular's sense, and stays out of
+  a plural's chain. 29:7.
+- δύναμαι — *to be able, capable, strong enough*, and then *to pass for, be worth, be equivalent to,
+  signify and mean*. 29:8.
+- περί with the genitive — the first sense for that case, *round about, around*, though the sense here
+  is *for*, the price of the service. 29:18, 29:20, 29:25.
+- δωρεάν — no entry of its own: the accusative of δωρεά used as an adverb, *as a free gift, freely*, and
+  so filed inside the noun, as ταχύ inside ταχύς at 27:20. 29:15.
+- μείζων, νεώτερος, πρεσβύτερος — three comparatives: Middle Liddell heads the first two under μέγας and
+  νέος, and πρεσβύτερος has an entry of its own, as at 27:1. 29:16–29:26.
+- ἀσθενής — the Hebrew is *rakkôt*, *tender*; the Greek is *without strength, weak, feeble*. 29:17.
+- ὡραῖος — *produced at the right season, seasonable, timely*; *beautiful* is the last sense of the
+  last, where καλή before it is the adjective's first. 29:17.
+- βελτίων — the irregular comparative of ἀγαθός, with its own entry, which translates it *better* and
+  then cross-refers to a verb. 29:19.
+- πληρόω — the perfect passive πεπλήρωνται, the standing state: the days stand full. 29:21.
+- ἐργάζομαι — ἐργᾷ is the future middle, as at 4:12, not the present. 29:27.
+- μισέω — one sense, *to hate*, with the passive *to be hated*: both forms of it here are passive. 29:31, 29:33.
+- ἐξομολογέω — Middle Liddell heads the deponent ἐξομολογέομαι, *to confess in full*, then *to make full
+  acknowledgments, give thanks*, which is what the name Ιουδα is heard in. 29:35.
+- ἵστημι — ἔστη τοῦ τίκτειν takes 23:17's intransitive chain, `was set`, with the articular infinitive. 29:35.
+- Ρουβην, Συμεων, Λευι, Ιουδα — each name is glossed with the Hebrew wordplay the Greek keeps: εἶδεν …
+  τὴν ταπείνωσιν, ἤκουσεν, and ἐξομολογήσομαι. Λευι's *he will be joined* the Greek does not carry. 29:32–29:35.
+- One sense each in GEN 29, and so plain text: υἱός `the son`; θυγάτηρ `the daughter`; ἀδελφή `of the
+  sister`; ὀφθαλμός `eyes`; συνάντησις `a meeting`; ἔτος `years`; μήν `month`; and the numerals δύο, ἑπτά,
+  τρεῖς. ἀποκυλίω `rolled away` and προσδίδωμι `gave besides` have one sense each and stay units.
+
+| lemma | headword | chain | used |
+| --- | --- | --- | --- |
+| βελτίων | `better` | `better` | 29:19 |
+| βοάω | `having cried aloud` | `having cried aloud, having shouted, having sounded and resounded and roared and howled, having called to one and called on, having called for and shouted out for, having noised abroad, having commanded in a loud voice` | 29:11 |
+| βόσκω | `feed` | `feed, tend, nourish and support, maintain, feed up` | 29:7 |
+| βόσκω | `was feeding` | `was feeding, was tending, was nourishing and supporting, was maintaining, was feeding up` | 29:9 |
+| γάμος | `a wedding` | `a wedding, a wedding-feast, marriage and wedlock, marriage with` | 29:22 |
+| γινώσκω | `we learn to know` | `we learn to know, we perceive, we mark, we learn, we discern and distinguish` | 29:5 |
+| γινώσκω | `you learn to know` | `you learn to know, you perceive, you mark, you learn, you discern and distinguish` | 29:5 |
+| δουλεύω | `I was a slave` | `I was a slave, I served and was subject to` | 29:25 |
+| δουλεύω | `I will be a slave` | `I will be a slave, I will serve and be subject to` | 29:18 |
+| δουλεύω | `was a slave` | `was a slave, served and was subject to` | 29:20, 29:30 |
+| δωρεά | `as a free gift` | `as a free gift, freely, to no purpose and in vain` | 29:15 |
+| δύναμαι | `we will be able` | `we will be able, we will be capable, we will be strong enough, we will dare and bear, we will pass for, we will be worth, we will be equivalent to, we will signify and mean` | 29:8 |
+| εἰσέρχομαι | `I may go in` | `I may go in, I may go into and enter, I may come into, I may come in, I may come upon` | 29:21 |
+| εἶδος | `to that which is seen` | `to that which is seen, to the form, to the shape, to the figure, to the sort and particular kind and nature, to the particular state and course, to the class and kind and sort` | 29:17 |
+| κτῆνος | `the flocks and herds` | `the flocks and herds` | 29:7 |
+| μέγας | `to the bigger` | `to the bigger, to the greater, to the taller, to the vaster, to the stronger and mightier, to the weightier and more important` | 29:16 |
+| μήτρα | `the womb` | `the womb, the cervix including the orifice of the womb, the matrix, the source and origin, the core and heart-wood, the diseased condition, the queen-wasp` | 29:31 |
+| μισέω | `I am hated` | `I am hated` | 29:33 |
+| μισέω | `is hated` | `is hated` | 29:31 |
+| νέος | `of the younger` | `of the younger, of the more youthful, of the newer and fresher, of the stranger` | 29:18 |
+| νέος | `to the younger` | `to the younger, to the more youthful, to the newer and fresher, to the stranger` | 29:16 |
+| οἰκέω | `inhabit` | `inhabit, dwell in, occupy, settle in, colonise, manage and govern and direct, dwell, settle, be settled and situated` | 29:19 |
+| παραλογίζομαι | `you misreckoned` | `you misreckoned, you miscalculated, you cheated out, you defrauded of, you misled by fallacious reasoning` | 29:25 |
+| περί | `round about` | `round about, around, about and near, about and for and on account of, about and concerning, about and as to` | 29:18, 29:20, 29:25 |
+| περιλαμβάνω | `having seized around` | `having seized around and embraced, having encompassed and surrounded, having intercepted, having got hold of and caught, having comprehended and included` | 29:13 |
+| πληρόω | `have been made full` | `have been made full and stand so, have been filled full, have been gorged and satiated, have been manned, have been made complete, have been fulfilled and paid in full and made up` | 29:21 |
+| ποιμήν | `the herdsmen` | `the herdsmen, the shepherds, the captains and chiefs, the masters and lords, the pastors and teachers` | 29:8 |
+| ποτίζω | `having given to drink` | `having given to drink, having watered` | 29:7 |
+| ποτίζω | `we will give to drink` | `we will give to drink, we will water` | 29:8 |
+| ποτίζω | `were giving to drink` | `were giving to drink, were watering` | 29:2, 29:3 |
+| πρεσβύτερος | `the elder` | `the elder, the older, the more advanced in years, the aged and the elders, the ambassadors` | 29:26 |
+| προσέρχομαι | `having come to` | `having come to, having gone to, having visited, having approached and drawn nigh and been nigh at hand, having come in and surrendered and capitulated, having come forward to speak, having associated with, having come in` | 29:10 |
+| προσδίδωμι | `gave besides` | `gave besides` | 29:33 |
+| πρόβατον | `of the things that walk forward` | `of the things that walk forward, of the cattle, of the flocks and herds, of the horses, of the small cattle, of the sheep` | 29:6, 29:9 |
+| πόθεν | `whence` | `whence, from what country, from what source, wherefore` | 29:4 |
+| συνάγω | `brought together` | `brought together, gathered together, collected, convened, joined in one and united, received into his house, drew together and narrowed and contracted, concluded and inferred` | 29:22 |
+| συνάγω | `to be brought together` | `to be brought together, to be gathered together, to be collected, to be convened, to be joined in one and united, to be received into a house, to be drawn together and narrowed and contracted, to be concluded and inferred` | 29:7, 29:8 |
+| συνάγω | `were being brought together` | `were being brought together, were being gathered together, were being collected, were being convened, were being joined in one and united, were being received into a house, were being drawn together and narrowed and contracted, were being concluded and inferred` | 29:3 |
+| συντελέω | `bring quite to an end` | `bring quite to an end, complete, accomplish, make up the whole, pay towards common expenses and contribute, belong to a class and be counted in it` | 29:27 |
+| ταπείνωσις | `the humiliation` | `the humiliation and abasement and defeat, the low estate and low condition` | 29:32 |
+| φωνή | `to the sound` | `to the sound, to the tone, to the sound of the voice, to the cry, to the faculty of speech and discourse, to the language, to the saying` | 29:11 |
+| ἀγαπάω | `to treat with affection` | `to treat with affection, to caress, to love, to be fond of, to regard with brotherly love, to be well pleased and contented with, to be content` | 29:20 |
+| ἀγαπάω | `will treat with affection` | `will treat with affection, will caress, will love, will be fond of, will regard with brotherly love, will be well pleased and contented with, will be content` | 29:32 |
+| ἀναπαύω | `desisting from` | `desisting from, taking their rest and sleeping, regaining strength` | 29:2 |
+| ἀναπληρόω | `filled up` | `filled up, made up and supplied, filled up the numbers of a body, paid in full` | 29:28 |
+| ἀνοίγω | `opened` | `opened, undid and opened, laid open and unfolded and disclosed, got into the open sea and got clear of land` | 29:31 |
+| ἀπαγγέλλω | `bring tidings` | `bring tidings, report, announce, carry a report home, relate and narrate` | 29:15 |
+| ἀπαγγέλλω | `brought tidings` | `brought tidings, reported, announced, carried a report home, related and narrated` | 29:12 |
+| ἀποκαθίστημι | `were re-establishing` | `were re-establishing, were restoring, were reinstating` | 29:3 |
+| ἀποκυλίω | `may roll away` | `may roll away` | 29:8 |
+| ἀποκυλίω | `rolled away` | `rolled away` | 29:10 |
+| ἀποκυλίω | `were rolling away` | `were rolling away` | 29:3 |
+| ἀσθενής | `without strength` | `without strength, weak, feeble, weakly, weak and poor, insignificant, petty and small` | 29:17 |
+| ἐξαίρω | `having lifted up` | `having lifted up, having lifted off the earth, having raised in dignity and exalted, having raised and aroused and stirred up` | 29:1 |
+| ἐξομολογέω | `I will confess in full` | `I will confess in full, I will make full acknowledgments and give thanks, I will agree and promise` | 29:35 |
+| ἐργάζομαι | `you will work` | `you will work, you will labour, you will work at and make and build, you will do and perform and accomplish, you will work a material, you will earn by working, you will work at and practise, you will work at a trade and traffic and trade` | 29:27 |
+| ἐργασία | `of the work` | `of the work, of the daily labour, of the business, of a working at and making and building, of a working of a material, of the trade and commerce, of the practising and exercising, of the work of art and production` | 29:27 |
+| ἔρχομαι | `was coming` | `was coming, was going, was going back and returning, was going to and intending, was coming within a little of and being near` | 29:6, 29:9 |
+| ἕβδομος | `the sevenths` | `the sevenths` | 29:27, 29:28 |
+| ὀλίγος | `few` | `few, little, scanty, small, too few, little and small` | 29:20 |
+| ὀστέον | `of the bones` | `of the bones, of the bleached bones of the dead` | 29:14 |
+| ὁράω | `sees` | `sees, perceives, beholds, looks at` | 29:2 |
+| ὑγιαίνω | `is sound` | `is sound, is healthy, is in health, is sound of mind` | 29:6 |
+| ὡραῖος | `produced at the right season` | `produced at the right season, seasonable, timely, happening in season and done in due season, due and proper, ripe, in the bloom of youth and blooming, beautiful` | 29:17 |
+| ὥρα | `period` | `period, a part of the year and a season, the seasons, the prime of the year and springtime, the year, the quarters of the heavens, a part of the day, the times of day` | 29:7 |
 
 ### Words new in GEN 28
 
@@ -4272,6 +4383,15 @@ Greek makes it a woman's, the mother of Eliezer, whom it calls Δαμασκὸς
 | Μαελεθ | Maeleth | Mahalath | `(Μαελεθ, from Hebrew Māḥălat, of uncertain meaning)` |
 | Οἶκος | Oikos | House | `(Οἶκος θεοῦ, "house of God", the Greek of Hebrew Bêt-ʾĒl, Bethel)` |
 | Ουλαμλους | Oulamlous | Ulamlous | `(Ουλαμλους, for Hebrew Lûz, Luz, with ʾûlām, "but", read into the name)` |
+
+| Ραχηλ | Rachēl | Rachel | `(Ραχηλ, from Hebrew Rāḥēl, "ewe")` |
+| Λεια | Leia | Leah | `(Λεια, from Hebrew Lēʾâ, of uncertain meaning, perhaps "wild cow")` |
+| Ζελφαν | Zelphan | Zilpah | `(Ζελφα, from Hebrew Zilpâ, of uncertain meaning)` |
+| Βαλλαν | Ballan | Bilhah | `(Βαλλα, from Hebrew Bilhâ, of uncertain meaning)` |
+| Ρουβην | Roubēn | Reuben | `(Ρουβην, from Hebrew Rĕʾûbēn, which the Hebrew of this verse hears in rāʾâ bĕʿonyî, "he has seen my affliction")` |
+| Συμεων | Symeōn | Simeon | `(Συμεων, from Hebrew Šimʿôn, which the Hebrew of this verse hears in šāmaʿ, "he has heard")` |
+| Λευι | Leui | Levi | `(Λευι, from Hebrew Lēwî, which the Hebrew of this verse hears in lāwâ, "he will be joined")` |
+| Ιουδα | Iouda | Judah | `(Ιουδα, from Hebrew Yĕhûdâ, which the Hebrew of this verse hears in yādâ, "praise")` |
 <!-- name rows above -->
 
 Σύγχυσις translates the name where 10:10 gave the city its Greek name, Βαβυλών; as with Ζωή at
