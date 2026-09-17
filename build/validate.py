@@ -306,10 +306,11 @@ def matches(candidate, entry_greek):
 
     Compared accent-stripped, so oblique cases match the nominative the names entry
     records — Ἰωάννου against Ἰωάννης, Μωυσέως against Μωυσῆς: a shared stem of at
-    least four letters, lengths within one of each other, and what differs no longer
-    than a case ending. A Semitic name is indeclinable and matches only itself, so two
-    names that merely begin alike stay two names — Αδα is not Αδαμ (GEN 4:19), and
-    Καιν is not Καιναν. What differs must be a case ending on both sides, so a name and the
+    least four letters, and what differs no longer than a case ending. A Semitic name is
+    indeclinable and matches only itself, so two names that merely begin alike stay two
+    names — Αδα is not Αδαμ (GEN 4:19), and Καιν is not Καιναν: where one form is the bare
+    stem, the lengths must be within one of each other. Where both carry an ending, they
+    may differ by more — Σοδομοις is Σοδομα (GEN 13:12). What differs must be a case ending on both sides, so a name and the
     name of its people stay two names — Αἰγύπτιοι is not Αἴγυπτον (GEN 12:14).
     """
     a, b = fold(candidate), fold(entry_greek)
@@ -322,8 +323,9 @@ def matches(candidate, entry_greek):
         if x != y:
             break
         shared += 1
-    return (shared >= 4 and abs(len(a) - len(b)) <= 1
-            and a[shared:] in CASE_ENDINGS and b[shared:] in CASE_ENDINGS)
+    ends = a[shared:], b[shared:]
+    return (shared >= 4 and (abs(len(a) - len(b)) <= 1 or all(ends))
+            and ends[0] in CASE_ENDINGS and ends[1] in CASE_ENDINGS)
 
 
 # What may differ between two forms of one name, accents folded away: the endings of the

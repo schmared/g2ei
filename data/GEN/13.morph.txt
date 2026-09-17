@@ -1,0 +1,416 @@
+# Genesis 13 — morphology, one word per line.
+#
+# This is the project's own grammatical analysis of each form, written alongside the
+# transcription and not copied from any digital edition.
+#
+# Columns: verse, part of speech, parse, form, lemma — in MorphGNT's code scheme, so
+# the Old and New Testament layers read alike. The parse is eight places: person,
+# tense, voice, mood, case, number, gender, degree ("-" where it does not apply).
+#
+# Two codes go beyond MorphGNT, both to record only what the form itself says:
+#   voice  E  middle/passive — a tense in which the two share one form
+#   gender C  masculine/feminine — an adjective whose form does not distinguish them
+#
+# A trailing annotation records a deliberate difference and the reason for it:
+#   "# module …"  from the reference module, checked when LXX_RAHLFS_DIR is set
+#   "# corpus …"  from this project's own analysis of the same form elsewhere
+# A line may carry both. validate.py prints them as notes instead of failures — and
+# fails if the difference a note claims is not there, so they cannot go stale. The
+# analysis here is this project's own: the module is a reference, not an authority,
+# and the corpus is held to itself.
+#
+# Indeclinables take case and number from the syntax, as MorphGNT does, and gender
+# where there is one to take: a personal name, from the person; a numeral agreeing
+# with its noun; a common noun whose article shows it — but not an indeclinable place
+# name, which has none. A personal name the New Testament also uses takes MorphGNT's
+# dictionary form (Νῶε, Σήμ); every other Semitic name (Χαμ, Ιαφεθ), the form Rahlfs
+# prints.
+13:1 V- 3AAI-S-- Ἀνέβη ἀναβαίνω
+13:1 C- -------- δὲ δέ
+13:1 N- ----NSM- Αβραμ Αβραμ
+13:1 P- -------- ἐξ ἐκ
+13:1 N- ----GSF- Αἰγύπτου Αἴγυπτος
+13:1 RP ----NSM- αὐτὸς αὐτός
+13:1 C- -------- καὶ καί
+13:1 RA ----NSF- ἡ ὁ
+13:1 N- ----NSF- γυνὴ γυνή
+13:1 RP ----GSM- αὐτοῦ αὐτός
+13:1 C- -------- καὶ καί
+13:1 A- ----NPN- πάντα πᾶς
+13:1 RA ----NPN- τὰ ὁ
+13:1 RP ----GSM- αὐτοῦ αὐτός
+13:1 C- -------- καὶ καί
+13:1 N- ----NSM- Λωτ Λώτ
+13:1 P- -------- μετʼ μετά
+13:1 RP ----GSM- αὐτοῦ αὐτός
+13:1 P- -------- εἰς εἰς
+13:1 RA ----ASF- τὴν ὁ
+13:1 A- ----ASF- ἔρημον ἔρημος
+13:2 N- ----NSM- Αβραμ Αβραμ
+13:2 C- -------- δὲ δέ
+13:2 V- 3IAI-S-- ἦν εἰμί
+13:2 A- ----NSM- πλούσιος πλούσιος
+13:2 D- -------- σφόδρα σφόδρα
+13:2 N- ----DPN- κτήνεσιν κτῆνος
+13:2 C- -------- καὶ καί
+13:2 N- ----DSN- ἀργυρίῳ ἀργύριον
+13:2 C- -------- καὶ καί
+13:2 N- ----DSN- χρυσίῳ χρυσίον
+13:3 C- -------- καὶ καί
+13:3 V- 3API-S-- ἐπορεύθη πορεύομαι
+13:3 D- -------- ὅθεν ὅθεν
+13:3 V- 3AAI-S-- ἦλθεν ἔρχομαι
+13:3 P- -------- εἰς εἰς
+13:3 RA ----ASF- τὴν ὁ
+13:3 A- ----ASF- ἔρημον ἔρημος
+13:3 P- -------- ἕως ἕως
+13:3 N- ----GS-- Βαιθηλ Βαιθηλ
+13:3 P- -------- ἕως ἕως
+13:3 RA ----GSM- τοῦ ὁ
+13:3 N- ----GSM- τόπου τόπος
+13:3 D- -------- οὗ οὗ
+13:3 V- 3IAI-S-- ἦν εἰμί
+13:3 RA ----NSF- ἡ ὁ
+13:3 N- ----NSF- σκηνὴ σκηνή
+13:3 RP ----GSM- αὐτοῦ αὐτός
+13:3 RA ----ASN- τὸ ὁ
+13:3 A- ----ASNC πρότερον πρότερος  # module lemma πρότερον — πρότερος, the comparative, as MorphGNT files τὸ πρότερον
+13:3 P- -------- ἀνὰ ἀνά
+13:3 A- ----ASN- μέσον μέσος  # module ASM — with a genitive after it, the neuter used as a noun, as MorphGNT codes ἀνὰ μέσον
+13:3 N- ----GS-- Βαιθηλ Βαιθηλ
+13:3 C- -------- καὶ καί
+13:3 P- -------- ἀνὰ ἀνά
+13:3 A- ----ASN- μέσον μέσος  # module ASM — with a genitive after it, the neuter used as a noun, as MorphGNT codes ἀνὰ μέσον
+13:3 N- ----GS-- Αγγαι Αγγαι
+13:4 P- -------- εἰς εἰς
+13:4 RA ----ASM- τὸν ὁ
+13:4 N- ----ASM- τόπον τόπος
+13:4 RA ----GSN- τοῦ ὁ
+13:4 N- ----GSN- θυσιαστηρίου θυσιαστήριον
+13:4 D- -------- οὗ οὗ
+13:4 V- 3AAI-S-- ἐποίησεν ποιέω
+13:4 D- -------- ἐκεῖ ἐκεῖ
+13:4 RA ----ASF- τὴν ὁ
+13:4 N- ----ASF- ἀρχήν ἀρχή
+13:4 C- -------- καὶ καί
+13:4 V- 3AMI-S-- ἐπεκαλέσατο ἐπικαλέω
+13:4 D- -------- ἐκεῖ ἐκεῖ
+13:4 N- ----NSM- Αβραμ Αβραμ
+13:4 RA ----ASN- τὸ ὁ
+13:4 N- ----ASN- ὄνομα ὄνομα
+13:4 N- ----GSM- κυρίου κύριος
+13:5 C- -------- καὶ καί
+13:5 N- ----DSM- Λωτ Λώτ
+13:5 RA ----DSM- τῷ ὁ
+13:5 V- -PEPDSM- συμπορευομένῳ συμπορεύομαι
+13:5 P- -------- μετὰ μετά
+13:5 N- ----GSM- Αβραμ Αβραμ
+13:5 V- 3IAI-S-- ἦν εἰμί
+13:5 N- ----NPN- πρόβατα πρόβατον
+13:5 C- -------- καὶ καί
+13:5 N- ----NPM- βόες βοῦς
+13:5 C- -------- καὶ καί
+13:5 N- ----NPF- σκηναί σκηνή
+13:6 C- -------- καὶ καί
+13:6 D- -------- οὐκ οὐ
+13:6 V- 3IAI-S-- ἐχώρει χωρέω
+13:6 RP ----APM- αὐτοὺς αὐτός
+13:6 RA ----NSF- ἡ ὁ
+13:6 N- ----NSF- γῆ γῆ
+13:6 V- -PAN---- κατοικεῖν κατοικέω
+13:6 D- -------- ἅμα ἅμα
+13:6 C- -------- ὅτι ὅτι
+13:6 V- 3IAI-S-- ἦν εἰμί
+13:6 RA ----NPN- τὰ ὁ
+13:6 V- -PAPNPN- ὑπάρχοντα ὑπάρχω  # module lemma ὑπάρχοντα — ὑπάρχω, the participle, as MorphGNT files τὰ ὑπάρχοντα
+13:6 RP ----GPM- αὐτῶν αὐτός
+13:6 A- ----NPN- πολλά πολύς
+13:6 C- -------- καὶ καί
+13:6 D- -------- οὐκ οὐ
+13:6 V- 3IEI-P-- ἐδύναντο δύναμαι
+13:6 V- -PAN---- κατοικεῖν κατοικέω
+13:6 D- -------- ἅμα ἅμα
+13:7 C- -------- καὶ καί
+13:7 V- 3AMI-S-- ἐγένετο γίνομαι
+13:7 N- ----NSF- μάχη μάχη
+13:7 P- -------- ἀνὰ ἀνά
+13:7 A- ----ASN- μέσον μέσος  # module ASM — with a genitive after it, the neuter used as a noun, as MorphGNT codes ἀνὰ μέσον
+13:7 RA ----GPM- τῶν ὁ
+13:7 N- ----GPM- ποιμένων ποιμήν
+13:7 RA ----GPN- τῶν ὁ
+13:7 N- ----GPN- κτηνῶν κτῆνος
+13:7 RA ----GSM- τοῦ ὁ
+13:7 N- ----GSM- Αβραμ Αβραμ
+13:7 C- -------- καὶ καί
+13:7 P- -------- ἀνὰ ἀνά
+13:7 A- ----ASN- μέσον μέσος  # module ASM — with a genitive after it, the neuter used as a noun, as MorphGNT codes ἀνὰ μέσον
+13:7 RA ----GPM- τῶν ὁ
+13:7 N- ----GPM- ποιμένων ποιμήν
+13:7 RA ----GPN- τῶν ὁ
+13:7 N- ----GPN- κτηνῶν κτῆνος
+13:7 RA ----GSM- τοῦ ὁ
+13:7 N- ----GSM- Λωτ Λώτ
+13:7 RA ----NPM- οἱ ὁ
+13:7 C- -------- δὲ δέ
+13:7 N- ----NPM- Χαναναῖοι Χαναναῖος
+13:7 C- -------- καὶ καί
+13:7 RA ----NPM- οἱ ὁ
+13:7 N- ----NPM- Φερεζαῖοι Φερεζαῖος
+13:7 D- -------- τότε τότε
+13:7 V- 3IAI-P-- κατῴκουν κατοικέω
+13:7 RA ----ASF- τὴν ὁ
+13:7 N- ----ASF- γῆν γῆ
+13:8 V- 3AAI-S-- εἶπεν λέγω  # module lemma ἔπω — λέγω keeps one dictionary form across both testaments
+13:8 C- -------- δὲ δέ
+13:8 N- ----NSM- Αβραμ Αβραμ
+13:8 RA ----DSM- τῷ ὁ
+13:8 N- ----DSM- Λωτ Λώτ
+13:8 D- -------- Μὴ μή
+13:8 V- 3PAD-S-- ἔστω εἰμί
+13:8 N- ----NSF- μάχη μάχη
+13:8 P- -------- ἀνὰ ἀνά
+13:8 A- ----ASN- μέσον μέσος  # module ASM — with a genitive after it, the neuter used as a noun, as MorphGNT codes ἀνὰ μέσον
+13:8 RP ----GS-- ἐμοῦ ἐγώ  # module lemma ἐμοῦ, the form itself — ἐγώ is the dictionary form
+13:8 C- -------- καὶ καί
+13:8 RP ----GS-- σοῦ σύ  # module lemma σοῦ, the form itself — σύ is the dictionary form
+13:8 C- -------- καὶ καί
+13:8 P- -------- ἀνὰ ἀνά
+13:8 A- ----ASN- μέσον μέσος  # module ASM — with a genitive after it, the neuter used as a noun, as MorphGNT codes ἀνὰ μέσον
+13:8 RA ----GPM- τῶν ὁ
+13:8 N- ----GPM- ποιμένων ποιμήν
+13:8 RP ----GS-- μου ἐγώ  # module lemma μου, the form itself — ἐγώ is the dictionary form
+13:8 C- -------- καὶ καί
+13:8 P- -------- ἀνὰ ἀνά
+13:8 A- ----ASN- μέσον μέσος  # module ASM — with a genitive after it, the neuter used as a noun, as MorphGNT codes ἀνὰ μέσον
+13:8 RA ----GPM- τῶν ὁ
+13:8 N- ----GPM- ποιμένων ποιμήν
+13:8 RP ----GS-- σου σύ  # module lemma σοῦ, the form itself — σύ is the dictionary form
+13:8 C- -------- ὅτι ὅτι
+13:8 N- ----NPM- ἄνθρωποι ἄνθρωπος
+13:8 N- ----NPM- ἀδελφοὶ ἀδελφός
+13:8 RP ----NP-- ἡμεῖς ἐγώ  # module lemma ἡμεῖς, the form itself — ἐγώ is the dictionary form
+13:8 V- 1PAI-P-- ἐσμεν εἰμί
+13:9 D- -------- οὐκ οὐ
+13:9 X- -------- ἰδοὺ ἰδού
+13:9 A- ----NSF- πᾶσα πᾶς
+13:9 RA ----NSF- ἡ ὁ
+13:9 N- ----NSF- γῆ γῆ
+13:9 P- -------- ἐναντίον ἐναντίον
+13:9 RP ----GS-- σού σύ  # module lemma σοῦ, the form itself — σύ is the dictionary form
+13:9 V- 3PAI-S-- ἐστιν εἰμί
+13:9 V- 2APD-S-- διαχωρίσθητι διαχωρίζω
+13:9 P- -------- ἀπʼ ἀπό
+13:9 RP ----GS-- ἐμοῦ ἐγώ  # module lemma ἐμοῦ, the form itself — ἐγώ is the dictionary form
+13:9 C- -------- εἰ εἰ
+13:9 RP ----NS-- σὺ σύ
+13:9 P- -------- εἰς εἰς
+13:9 A- ----APN- ἀριστερά ἀριστερός
+13:9 RP ----NS-- ἐγὼ ἐγώ
+13:9 P- -------- εἰς εἰς
+13:9 A- ----APN- δεξιά δεξιός
+13:9 C- -------- εἰ εἰ
+13:9 C- -------- δὲ δέ
+13:9 RP ----NS-- σὺ σύ
+13:9 P- -------- εἰς εἰς
+13:9 A- ----APN- δεξιά δεξιός
+13:9 RP ----NS-- ἐγὼ ἐγώ
+13:9 P- -------- εἰς εἰς
+13:9 A- ----APN- ἀριστερά ἀριστερός
+13:10 C- -------- καὶ καί
+13:10 V- -AAPNSM- ἐπάρας ἐπαίρω
+13:10 N- ----NSM- Λωτ Λώτ
+13:10 RA ----APM- τοὺς ὁ
+13:10 N- ----APM- ὀφθαλμοὺς ὀφθαλμός
+13:10 RP ----GSM- αὐτοῦ αὐτός
+13:10 V- 3AAI-S-- εἶδεν ὁράω
+13:10 A- ----ASF- πᾶσαν πᾶς
+13:10 RA ----ASF- τὴν ὁ
+13:10 A- ----ASF- περίχωρον περίχωρος
+13:10 RA ----GSM- τοῦ ὁ
+13:10 N- ----GSM- Ιορδάνου Ἰορδάνης
+13:10 C- -------- ὅτι ὅτι
+13:10 A- ----NSF- πᾶσα πᾶς
+13:10 V- 3IAI-S-- ἦν εἰμί
+13:10 V- -PEPNSF- ποτιζομένη ποτίζω
+13:10 P- -------- πρὸ πρό
+13:10 RA ----GSN- τοῦ ὁ
+13:10 V- -AAN---- καταστρέψαι καταστρέφω
+13:10 RA ----ASM- τὸν ὁ
+13:10 N- ----ASM- θεὸν θεός
+13:10 N- ----APN- Σοδομα Σόδομα  # module AS, no number — Σόδομα is neuter plural, as MorphGNT codes it
+13:10 C- -------- καὶ καί
+13:10 N- ----APN- Γομορρα Γόμορρα  # module AS, no number — beside Σοδομα, the neuter plural; Γομορρας at 10:19 is the feminine singular
+13:10 C- -------- ὡς ὡς  # module lemma ὥς — ὡς, the comparative particle, as MorphGNT files it
+13:10 RA ----NSM- ὁ ὁ
+13:10 N- ----NSM- παράδεισος παράδεισος
+13:10 RA ----GSM- τοῦ ὁ
+13:10 N- ----GSM- θεοῦ θεός
+13:10 C- -------- καὶ καί
+13:10 C- -------- ὡς ὡς  # module lemma ὥς — ὡς, the comparative particle, as MorphGNT files it
+13:10 RA ----NSF- ἡ ὁ
+13:10 N- ----NSF- γῆ γῆ
+13:10 N- ----GSF- Αἰγύπτου Αἴγυπτος
+13:10 C- -------- ἕως ἕως
+13:10 V- -AAN---- ἐλθεῖν ἔρχομαι
+13:10 P- -------- εἰς εἰς
+13:10 N- ----AS-- Ζογορα Ζογορα
+13:11 C- -------- καὶ καί
+13:11 V- 3AMI-S-- ἐξελέξατο ἐκλέγομαι  # module lemma ἐκλέγω — ἐκλέγομαι, the middle, as MorphGNT files it
+13:11 RP ----DSM- ἑαυτῷ ἑαυτοῦ
+13:11 N- ----NSM- Λωτ Λώτ
+13:11 A- ----ASF- πᾶσαν πᾶς
+13:11 RA ----ASF- τὴν ὁ
+13:11 A- ----ASF- περίχωρον περίχωρος
+13:11 RA ----GSM- τοῦ ὁ
+13:11 N- ----GSM- Ιορδάνου Ἰορδάνης
+13:11 C- -------- καὶ καί
+13:11 V- 3AAI-S-- ἀπῆρεν ἀπαίρω
+13:11 N- ----NSM- Λωτ Λώτ
+13:11 P- -------- ἀπὸ ἀπό
+13:11 N- ----GPF- ἀνατολῶν ἀνατολή
+13:11 C- -------- καὶ καί
+13:11 V- 3API-P-- διεχωρίσθησαν διαχωρίζω
+13:11 A- ----NSM- ἕκαστος ἕκαστος
+13:11 P- -------- ἀπὸ ἀπό
+13:11 RA ----GSM- τοῦ ὁ
+13:11 N- ----GSM- ἀδελφοῦ ἀδελφός
+13:11 RP ----GSM- αὐτοῦ αὐτός
+13:12 N- ----NSM- Αβραμ Αβραμ
+13:12 C- -------- δὲ δέ
+13:12 V- 3AAI-S-- κατῴκησεν κατοικέω
+13:12 P- -------- ἐν ἐν
+13:12 N- ----DSF- γῇ γῆ
+13:12 N- ----GS-- Χανααν Χανάαν  # module lemma Χαναάν — Χανάαν, as MorphGNT files it
+13:12 N- ----NSM- Λωτ Λώτ
+13:12 C- -------- δὲ δέ
+13:12 V- 3AAI-S-- κατῴκησεν κατοικέω
+13:12 P- -------- ἐν ἐν
+13:12 N- ----DSF- πόλει πόλις
+13:12 RA ----GPF- τῶν ὁ  # module GPM — ἡ περίχωρος, the country round about, as at 13:10 and 13:11
+13:12 A- ----GPF- περιχώρων περίχωρος  # module GPM — ἡ περίχωρος, the country round about, as at 13:10 and 13:11
+13:12 C- -------- καὶ καί
+13:12 V- 3AAI-S-- ἐσκήνωσεν σκηνόω
+13:12 P- -------- ἐν ἐν
+13:12 N- ----DPN- Σοδομοις Σόδομα  # module DS — Σοδομοις is the dative of Σόδομα, neuter plural, as MorphGNT codes it
+13:13 RA ----NPM- οἱ ὁ
+13:13 C- -------- δὲ δέ
+13:13 N- ----NPM- ἄνθρωποι ἄνθρωπος
+13:13 RA ----NPM- οἱ ὁ
+13:13 P- -------- ἐν ἐν
+13:13 N- ----DPN- Σοδομοις Σόδομα  # module DS — Σοδομοις is the dative of Σόδομα, neuter plural, as MorphGNT codes it
+13:13 A- ----NPM- πονηροὶ πονηρός
+13:13 C- -------- καὶ καί
+13:13 A- ----NPC- ἁμαρτωλοὶ ἁμαρτωλός
+13:13 P- -------- ἐναντίον ἐναντίον
+13:13 RA ----GSM- τοῦ ὁ
+13:13 N- ----GSM- θεοῦ θεός
+13:13 D- -------- σφόδρα σφόδρα
+13:14 RA ----NSM- Ὁ ὁ
+13:14 C- -------- δὲ δέ
+13:14 N- ----NSM- θεὸς θεός
+13:14 V- 3AAI-S-- εἶπεν λέγω  # module lemma ἔπω — λέγω keeps one dictionary form across both testaments
+13:14 RA ----DSM- τῷ ὁ
+13:14 N- ----DSM- Αβραμ Αβραμ
+13:14 P- -------- μετὰ μετά
+13:14 RA ----ASN- τὸ ὁ
+13:14 V- -APN---- διαχωρισθῆναι διαχωρίζω
+13:14 RA ----ASM- τὸν ὁ
+13:14 N- ----ASM- Λωτ Λώτ
+13:14 P- -------- ἀπʼ ἀπό
+13:14 RP ----GSM- αὐτοῦ αὐτός
+13:14 V- -AAPNSM- Ἀναβλέψας ἀναβλέπω
+13:14 RA ----DPM- τοῖς ὁ
+13:14 N- ----DPM- ὀφθαλμοῖς ὀφθαλμός
+13:14 RP ----GS-- σου σύ  # module lemma σοῦ, the form itself — σύ is the dictionary form
+13:14 V- 2AAD-S-- ἰδὲ ὁράω
+13:14 P- -------- ἀπὸ ἀπό
+13:14 RA ----GSM- τοῦ ὁ
+13:14 N- ----GSM- τόπου τόπος
+13:14 D- -------- οὗ οὗ
+13:14 D- -------- νῦν νῦν
+13:14 RP ----NS-- σὺ σύ
+13:14 V- 2PAI-S-- εἶ εἰμί
+13:14 P- -------- πρὸς πρός
+13:14 N- ----ASM- βορρᾶν βορρᾶς
+13:14 C- -------- καὶ καί
+13:14 N- ----ASM- λίβα λίψ
+13:14 C- -------- καὶ καί
+13:14 N- ----APF- ἀνατολὰς ἀνατολή
+13:14 C- -------- καὶ καί
+13:14 N- ----ASF- θάλασσαν θάλασσα
+13:15 C- -------- ὅτι ὅτι
+13:15 A- ----ASF- πᾶσαν πᾶς
+13:15 RA ----ASF- τὴν ὁ
+13:15 N- ----ASF- γῆν γῆ
+13:15 RR ----ASF- ἣν ὅς
+13:15 RP ----NS-- σὺ σύ
+13:15 V- 2PAI-S-- ὁρᾷς ὁράω
+13:15 RP ----DS-- σοὶ σύ  # module lemma σοί, the form itself — σύ is the dictionary form
+13:15 V- 1FAI-S-- δώσω δίδωμι
+13:15 RP ----ASF- αὐτὴν αὐτός
+13:15 C- -------- καὶ καί
+13:15 RA ----DSN- τῷ ὁ
+13:15 N- ----DSN- σπέρματί σπέρμα
+13:15 RP ----GS-- σου σύ  # module lemma σοῦ, the form itself — σύ is the dictionary form
+13:15 P- -------- ἕως ἕως
+13:15 RA ----GSM- τοῦ ὁ
+13:15 N- ----GSM- αἰῶνος αἰών
+13:16 C- -------- καὶ καί
+13:16 V- 1FAI-S-- ποιήσω ποιέω
+13:16 RA ----ASN- τὸ ὁ
+13:16 N- ----ASN- σπέρμα σπέρμα
+13:16 RP ----GS-- σου σύ  # module lemma σοῦ, the form itself — σύ is the dictionary form
+13:16 C- -------- ὡς ὡς  # module lemma ὥς — ὡς, the comparative particle, as MorphGNT files it
+13:16 RA ----ASF- τὴν ὁ
+13:16 N- ----ASF- ἄμμον ἄμμος
+13:16 RA ----GSF- τῆς ὁ
+13:16 N- ----GSF- γῆς γῆ
+13:16 C- -------- εἰ εἰ
+13:16 V- 3PEI-S-- δύναταί δύναμαι
+13:16 RI ----NSM- τις τις
+13:16 V- -AAN---- ἐξαριθμῆσαι ἐξαριθμέω
+13:16 RA ----ASF- τὴν ὁ
+13:16 N- ----ASF- ἄμμον ἄμμος
+13:16 RA ----GSF- τῆς ὁ
+13:16 N- ----GSF- γῆς γῆ
+13:16 D- -------- καὶ καί
+13:16 RA ----NSN- τὸ ὁ
+13:16 N- ----NSN- σπέρμα σπέρμα
+13:16 RP ----GS-- σου σύ  # module lemma σοῦ, the form itself — σύ is the dictionary form
+13:16 V- 3FPI-S-- ἐξαριθμηθήσεται ἐξαριθμέω
+13:17 V- -AAPNSM- ἀναστὰς ἀνίστημι
+13:17 V- 2AAD-S-- διόδευσον διοδεύω
+13:17 RA ----ASF- τὴν ὁ
+13:17 N- ----ASF- γῆν γῆ
+13:17 P- -------- εἴς εἰς
+13:17 C- -------- τε τε
+13:17 RA ----ASN- τὸ ὁ
+13:17 N- ----ASN- μῆκος μῆκος
+13:17 RP ----GSF- αὐτῆς αὐτός
+13:17 C- -------- καὶ καί
+13:17 P- -------- εἰς εἰς
+13:17 RA ----ASN- τὸ ὁ
+13:17 N- ----ASN- πλάτος πλάτος
+13:17 C- -------- ὅτι ὅτι
+13:17 RP ----DS-- σοὶ σύ  # module lemma σοί, the form itself — σύ is the dictionary form
+13:17 V- 1FAI-S-- δώσω δίδωμι
+13:17 RP ----ASF- αὐτήν αὐτός
+13:18 C- -------- καὶ καί
+13:18 V- -AAPNSM- ἀποσκηνώσας ἀποσκηνόω
+13:18 N- ----NSM- Αβραμ Αβραμ
+13:18 V- -AAPNSM- ἐλθὼν ἔρχομαι
+13:18 V- 3AAI-S-- κατῴκησεν κατοικέω
+13:18 P- -------- παρὰ παρά
+13:18 RA ----ASF- τὴν ὁ
+13:18 N- ----ASF- δρῦν δρῦς
+13:18 RA ----ASF- τὴν ὁ
+13:18 N- ----GS-- Μαμβρη Μαμβρη  # module ASF — the genitive after the article: the oak, the one of Mambre, as τὰ ὄρη τὰ Αραρατ at 8:4
+13:18 RR ----NSF- ἣ ὅς
+13:18 V- 3IAI-S-- ἦν εἰμί
+13:18 P- -------- ἐν ἐν
+13:18 N- ----DS-- Χεβρων Χεβρων
+13:18 C- -------- καὶ καί
+13:18 V- 3AAI-S-- ᾠκοδόμησεν οἰκοδομέω
+13:18 D- -------- ἐκεῖ ἐκεῖ
+13:18 N- ----ASN- θυσιαστήριον θυσιαστήριον
+13:18 N- ----DSM- κυρίῳ κύριος

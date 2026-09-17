@@ -146,6 +146,13 @@ was right twice, about gender the form does not show: ὄνοι is masculine and
 she-asses. It was wrong once, from memory: it tagged ἐν τῇ ἐρήμῳ `N-`, where MorphGNT has ἔρημος `A-`
 all 23 times in that phrase. The rule below now names it.
 
+### What it found in Genesis 13
+
+One disagreement over 389 words, with ἴδε and ἰδέ, ἅμα, συμπορεύομαι and δύναμαι, ἡ περίχωρος and τὸ
+πρότερον, and Ἰορδάνης, Φερεζαῖος and the gender of Σόδομα and Γόμορρα added beforehand. The second
+pass was right: ποτιζομένη is `-PEPNSF-`, voice E, since middle and passive share the present's
+form; the first pass had written P, from the sense.
+
 ## The brief
 
 Copy everything below the rule into a new agent. Replace `<BOOK NAME>`, `<CHAPTER>`,
@@ -195,9 +202,11 @@ Small words are tagged as MorphGNT tags them:
   meaning *lest*; ὡς meaning *as, like*, and the ὡς of `ὡς ἄν` (Rom 15:24), with ἄν `X-`; ὅθεν
   meaning *wherefore* (Heb 2:17); ἕως before an infinitive with no article (`ἕως ἐλθεῖν`), which
   has no genitive to govern
+- **X-** also ἴδε, *behold*, as MorphGNT tags it. But ἰδέ, accented on the last syllable as Rahlfs
+  prints it at `ἰδὲ ἀπὸ τοῦ τόπου`, is the aorist imperative of ὁράω, `V- 2AAD-S--`
 - **X-** ἄν; ἐάν where it stands for ἄν after a relative (`ὃ ἐὰν θέλητε`, John 15:7); ἰδού;
   μή opening a question that expects *no*
-- **D-** οὐ, μή, νῦν, τότε, εὖ, ἔτι, ἐκεῖ, ἐκεῖθεν, ποῦ, δεῦτε; καί meaning *also, even*, and the καί of
+- **D-** οὐ, μή, νῦν, τότε, εὖ, ἅμα with no dative after it, ἔτι, ἐκεῖ, ἐκεῖθεν, ποῦ, δεῦτε; καί meaning *also, even*, and the καί of
   `καὶ γάρ` (all 38 times in MorphGNT); ὅθεν meaning *from where* (Matt 12:44); οὐδέ meaning *not
   even*; ὅτε after a noun of time (`ἔρχεται ὥρα ὅτε`, John 4:21); οὗ meaning *where* (οὗ meaning
   *whose, of which* is the relative, `RR`); ἐπάνω, ἔξωθεν and ἔξω with no genitive after them
@@ -253,7 +262,8 @@ Conventions:
 - An article before an indeclinable name still carries full case, number and gender.
 - An adjective used as a noun stays `A-`: ἡ ξηρά, *the dry land*, is `A- ----NSF- ξηρός`, as
   MorphGNT codes it, and so is ἡ ἔρημος, *the desert*, `A- ----DSF- ἔρημος` all 23 times in
-  MorphGNT. στεῖρα, *barren*, is `A-` under its own dictionary form, στεῖρα, as MorphGNT and
+  MorphGNT; so are ἡ περίχωρος, *the country round about*, and τὸ πρότερον, *before*,
+  `A- ----ASNC πρότερος`, and εἰς ἀριστερά, εἰς δεξιά, neuter plural. στεῖρα, *barren*, is `A-` under its own dictionary form, στεῖρα, as MorphGNT and
   Middle Liddell both file it.
 - μέσος with a genitive after it — `ἐν μέσῳ τοῦ …`, `ἀνὰ μέσον τοῦ …` — is the neuter
   adjective used as a noun: `A- ----DSN-`, `A- ----ASN-`.
@@ -288,7 +298,7 @@ The dictionary form as Middle Liddell (Perseus) files it:
 - Verbs with no active in use under their middle form, as MorphGNT files them: ἐργάζομαι,
   πορεύομαι, ἐκπορεύομαι, εἰσπορεύομαι, εἰσέρχομαι, ἐντέλλομαι, φοβέομαι, ἀπέρχομαι,
   καταράομαι, ἐκλέγομαι, ἐνθυμέομαι, θυμόομαι (for ἐθυμώθη, as MorphGNT has it at Matt 2:16),
-  διανοέομαι, μιμνήσκομαι, διατίθεμαι, χράομαι, κτάομαι, περιποιέομαι. But ἐπεκαλέσατο, the middle,
+  διανοέομαι, μιμνήσκομαι, διατίθεμαι, χράομαι, κτάομαι, περιποιέομαι, συμπορεύομαι, δύναμαι. But ἐπεκαλέσατο, the middle,
   goes under the active ἐπικαλέω, as MorphGNT files it.
 - εἰδέναι → οἶδα · εἶπεν → λέγω · ἰδεῖν → ὁράω · φαγ- forms → ἐσθίω · μου → ἐγώ ·
   every article → ὁ.
@@ -302,7 +312,9 @@ The dictionary form as Middle Liddell (Perseus) files it:
   dictionary form, accented though Rahlfs prints it bare — Ἀδάμ, Εὕα, Κάϊν, Ἅβελ, Σήθ, Ἐνώς,
   Ἑνώχ, Μαθουσαλά, Λάμεχ, Μαλελεήλ, Νῶε, Σήμ, Χανάαν, Μαγώγ, Ἀρφαξάδ, Σαλά, Ἔβερ, Φάλεκ, Ἀράμ,
   Ῥαγαύ, Σερούχ, Ναχώρ, Θάρα, Λώτ, Χαρράν, Φαραώ, Συχέμ, and the declined Σιδών, Γάζα, Βαβυλών,
-  Σόδομα, Γόμορρα, Αἴγυπτος, Αἰγύπτιος and Χαλδαῖος so far — even where the New Testament
+  Σόδομα, Γόμορρα, Αἴγυπτος, Αἰγύπτιος, Χαλδαῖος, Ἰορδάνης and Φερεζαῖος so far. Σόδομα is neuter
+  plural (ἐν Σοδομοις); Γόμορρα is declined either way, and the form decides: Γομορρας is the
+  feminine singular, Γομορρα beside Σοδομα in the accusative the neuter plural — even where the New Testament
   uses it of another bearer (Χανάαν the land, Acts 7:11; Μαγώγ a people, Rev 20:8). Where the New
   Testament spells the name with other letters (Luke 3:36–37 Καϊνάμ, Ἰάρετ; Ἀβραάμ and Σάρρα for
   the Αβραμ and Σαρα Rahlfs prints), it is not the same

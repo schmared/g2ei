@@ -360,6 +360,27 @@ NOT_SENSES = {
     "h(mi/onos": {"a mule-", "mule-", "wild ass."},  # pieces of compounds, and a cross-reference
     "ka/mhlos": {"a camel-", "gamal."},          # a compound, and the Hebrew the word comes from
     "dei/knumi": {"will shew", "shewed that", "drank to", "he pledged"},  # pieces of examples
+    # GEN 13
+    "decio/s": {"side", "on the right", "unlucky", "on the left", "(sinister", "gauche)"},  # pieces of examples and Latin
+    "xwre/w": {"gave way", "begone!", "he retired from", "along", "go", "have come",
+              "take us into your hearts"},     # pieces of examples
+    "pro/teros": {"prae.", "fore", "men of former times", "by the first", "a former marriage",
+                  "on the day before", "superior to",   # pieces of examples
+                  # the superlative's, πρῶτος, which Middle Liddell files under πρότερος
+                  "first", "first, foremost", "at the front", "end", "outermost", "among the first",
+                  "the first men", "the first prize", "the first part, beginning", "the first, highest",
+                  "the extremities", "the chief", "first, at present, just now", "at first",
+                  "first, in the first place", "before", "first, for the first time"},
+    "a)rgu/rion": {'"silver"'},                 # a quotation mark from an example
+    "xrusi/on": {"my golden one! my little treasure!"},  # an endearment in an example
+    "sumporeu/omai": {"with"},                  # the case it takes
+    "a(/ma": {"at"},                            # a piece of an example
+    "du/namai": {"men of power", "to be able", "they could", "I possibly can", "he could",
+                 "is worth", "to mean", "avails", "it cannot be, is not to be"},  # pieces of examples
+    "ma/xh": {"fights", "a battle", "battle", "battle with"},  # pieces of examples
+    "katastre/fw": {"subdued and made", "am constrained to", "a close periodic"},  # pieces of examples
+    "skhno/w": {"be"},                          # a piece of an example
+    "a)nable/pw": {"in the face"},              # a piece of an example
 }
 
 # An entry that divides its senses by tense and voice, so that which of them belong to a
@@ -434,6 +455,7 @@ SPELLING = {
     "e)/rhmos": "e)rh=mos",         # the entry is headed with the Attic accent, ἐρῆμος
     "peripoie/omai": "peripoie/w",  # MorphGNT's middle, filed under the active
     "e)neuloge/w": "e)neuloge/omai",  # the entry is headed with the passive
+    "borra=s": "*bore/as",          # the contracted Attic form, filed under Βορέας
 }
 
 # Homographs where Perseus's *first* entry is a different word from the one the text

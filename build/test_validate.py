@@ -266,6 +266,9 @@ CONTROL = [
                                          lambda: holds(not V.matches("Αἰγύπτιοι", "Αἴγυπτον") and V.matches("Χαναναῖοι", "Χαναναίων")
                                                        and V.matches("Σαρας", "Σαραν") and V.matches("Σιδῶνος", "Σιδῶνα"),
                                                        "the Egyptians are not Egypt; Σαρας is Σαραν")),
+    ("names    two endings may differ in length",
+                                         lambda: holds(V.matches("Σοδομοις", "Σοδομα") and V.matches("Σοδομα", "Σοδομοις"),
+                                                       "Σοδομοις is Σοδομα (GEN 13:12)")),
     ("names    names that only begin alike stay apart",
                                          lambda: holds(not V.matches("Αδα", "Αδαμ") and not V.matches("Καιναν", "Καιν")
                                                        and not V.matches("Ενως", "Ενωχ"),

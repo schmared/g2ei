@@ -129,6 +129,7 @@ Three reasons, and all of them are the lexicon's filing rather than a decision a
 | ἔρημος (GEN 12:9) | ἐρῆμος | the entry is headed with the Attic accent |
 | περιποιέομαι (GEN 12:12) | περιποιέω | MorphGNT's middle, filed under the active |
 | ἐνευλογέω (GEN 12:3) | ἐνευλογέομαι | the entry is headed with the passive |
+| βορρᾶς (GEN 13:14) | Βορέας | the contracted Attic form, filed under the uncontracted |
 
 The dictionary form itself does not follow the lexicon's filing: it keeps the spelling the text
 prints — γίνομαι, ἔχθρα, νοσσιά, δειλινός, κατέναντι, ἐννακόσιοι, κατάγαιος, τεσσαράκοντα — and
@@ -557,6 +558,33 @@ the same ground as `the sixth` and `the seventh`: one sense each, so no range to
   settling in` (10:30); δύο `two`; υἱός `sons`.
 - The article before a people's name (τοὺς Λουδιιμ, τὸν Χετταῖον, τῶν Χαναναίων) is not printed,
   as before a person's name.
+
+### Small words new in GEN 13
+
+- ὅθεν — `from whom`, the chain of 10:14. 13:3.
+- οὗ, *where* — `where`, plain, as at 2:11. 13:3, 13:4, 13:14.
+- τὸ πρότερον — **headword** `the before`, the entry's first sense, with the article Rahlfs prints;
+  **chain** `the before, the in front and forward, the former and sooner, the elder, the above and
+  superior, the earlier` — *before, sooner, earlier* is the neuter as an adverb, the verse's use.
+  Middle Liddell files the superlative πρῶτος inside the entry, and its senses are left out. 13:3.
+- ἅμα with no dative — **headword** `at once`; **chain** `at once, at the same time, at the same time
+  with and together with`. 13:6.
+- ἀνὰ μέσον ἐμοῦ καὶ σοῦ — `up to middle` and then `of me and of you`, as at 9:12. 13:8.
+- ἑαυτῷ after the middle ἐξελέξατο — `for himself`, plain, after the middle's own *for himself*,
+  so the reading has it twice. 13:11.
+- παρά + accusative — **headword** `to the side of`, the entry's first sense for that case;
+  **chain** `to the side of, motion alongside of, to, beside and near and by, passing by, beyond,
+  contrary to and against, beside and except, on account of and because of and by means of, along
+  the whole course of and during`. 13:18.
+- εἰμί — ἦν with a dative of possession, `was`, plain, as at 11:3 and 12:20 (13:5); ἦν of place or
+  state, the formula of GEN 1:2 in full (13:3, 13:6, 13:18); ἦν with a participle, `was, and kept on
+  being,` (13:10), where ὡς is a headword as well; ἔστω `let be`, ἐσμεν `we are` (13:8); ἐστιν `is`
+  (13:9); εἶ `are` (13:14).
+- One sense each in GEN 13, so plain text: διαχωρίζω `be separated`, `were separated`, `to be
+  separated` (13:9, 13:11, 13:14); λίψ `south-west wind`, Middle Liddell's *the SW. wind* with the
+  abbreviation written out (13:14); διοδεύω `travel through` (13:17), as at 12:6; ἀποσκηνόω `having
+  kept apart from` (13:18), whose second sense is only *= ἀποσκηνέω*, with no translation;
+  θυσιαστήριον `of the altar`, `an altar` (13:4, 13:18).
 
 ### Small words new in GEN 12
 
@@ -1309,6 +1337,33 @@ waters* is refused by `validate.py` here as there.
 | κατοικέω | aor. impv. 3 sg | `let dwell in` | `let dwell in, let settle in, let colonise, let inhabit, let settle and dwell, let lie and be situate` — the first translation reads *to dwell in as a* κάτοικος; the headword stops before the Greek | 9:27 |
 | γίνομαι | aor. pass. impv. 3 sg / aor. 3 pl | `let come into being` · `came into being` | `let come to be, let arise, let be brought into existence`; the chain of GEN 5:5 | 9:27, 9:29 |
 | ζάω | aor. 3 sg / pres. ptcp. | `lived` · `living` | the chains of GEN 5:3 and 2:7, in the form | 9:3, 9:10, 9:12, 9:28 |
+
+### Verbs new in GEN 13
+
+| lemma | form | headword | chain | used |
+| --- | --- | --- | --- | --- |
+| ἀναβαίνω | aor. 3 sg | `went up` | `went up, mounted, went up to, embarked` — the chain of GEN 2:6, in the aorist | 13:1 |
+| πορεύομαι | aor. pass. 3 sg | `was driven` | the chain of GEN 12:4 | 13:3 |
+| ἔρχομαι | aor. 3 sg · aor. inf. · aor. ptcp. | `came` · `to come` · `having come` | the chains of GEN 10:19, in the form | 13:3, 13:10, 13:18 |
+| ποιέω | aor. 3 sg · fut. 1 sg | `made` · `I will make` | the chains of GEN 9:24 and 12:2 | 13:4, 13:16 |
+| ἐπικαλέω | aor. mid. 3 sg | `called upon` | the chain of GEN 12:8 | 13:4 |
+| συμπορεύομαι | pres. ptcp., articular dat. | `to the one going` | `to the one going, to the one journeying together, to the one coming together` — Middle Liddell's *to go or journey together*, tagged in two pieces; its *with* is the case it takes | 13:5 |
+| χωρέω | impf. 3 sg | `was making room for another` | `was making room for another, was giving way and drawing back and retiring and withdrawing, was putting back and retiring, was giving way to, was retiring before, was going forward and moving on, was going and coming, was going on one's journey and travelling, was coming to, was coming on and beginning, was passing and near an end, was going on and advancing, was coming to an issue and turning out, was going on well and succeeding, was spreading abroad, was spreading, was having room for, was holding and containing` — *to hold, contain*, the verse's sense, is the entry's last | 13:6 |
+| κατοικέω | pres. inf. · impf. 3 pl · aor. 3 sg | `to dwell in` · `were dwelling in` · `dwelt in` | the chain of GEN 9:27, in the form | 13:6, 13:7, 13:12, 13:18 |
+| δύναμαι | impf. 3 pl · pres. 3 sg | `were being able` · `is able` | `were being able, were capable and strong enough, were powerful and mighty, were having influence, were daring and bearing, were passing for, were worth, were equivalent to, were signifying and meaning, were availing`, in the form | 13:6, 13:16 |
+| γίνομαι | aor. 3 sg | `came into being` | the chain of GEN 12:10 | 13:7 |
+| ἐπαίρω | aor. ptcp. | `having lifted up and set on` | the chain of GEN 7:17, in the participle | 13:10 |
+| ὁράω | aor. 3 sg · aor. impv. (ἰδέ) · pres. 2 sg | `saw` · `see` · `you see` | the chain of GEN 3:6, in the form | 13:10, 13:14, 13:15 |
+| ποτίζω | pres. pass. ptcp. | `being given to drink` | `being given to drink, being watered` — the chain of GEN 2:6 in the passive, where *to water* and *to water cattle* come to the same | 13:10 |
+| καταστρέφω | aor. inf. | `to turn down` | `to turn down and trample on, to turn the soil, to upset and overturn, to subject to oneself and subdue, to turn back and bring back, to turn round and bring to an end, to come to an end and die, to twist up, to be subdued` — the passive's *to be subdued* at the end | 13:10 |
+| ἐκλέγομαι | aor. mid. 3 sg | `picked out for himself` | the chain of GEN 6:2, in the singular | 13:11 |
+| ἀπαίρω | aor. 3 sg | `lifted off` | the chain of GEN 12:9 | 13:11 |
+| σκηνόω | aor. 3 sg | `pitched tents` | `pitched tents and encamped, dwelt in a tent, settled and took up one's abode, lived, occupied with tents` — the verb of John 1:14 | 13:12 |
+| ἀναβλέπω | aor. ptcp. | `having looked up` | `having looked up, having looked, having looked up at, having cast up, having recovered one's sight` | 13:14 |
+| δίδωμι | fut. 1 sg | `I will give` | the chain of GEN 12:7 | 13:15, 13:17 |
+| ἐξαριθμέω | aor. inf. · fut. pass. 3 sg | `to count throughout` · `will be counted throughout` | `to count throughout, to number, to count out and pay in ready money`, in the form | 13:16 |
+| ἀνίστημι | aor2 ptcp. | `having stood up` | the chain of GEN 4:8, in the participle | 13:17 |
+| οἰκοδομέω | aor. 3 sg | `built a house` | the chain of GEN 8:20 | 13:18 |
 
 ### Verbs new in GEN 12
 
@@ -2144,6 +2199,44 @@ it is a child; τρίβολος is a spiked iron for laming horses before it is 
 | παῖς | `a child` | `a child, a son, a daughter, a grandchild, a boy and youth and lad, a girl and maiden, a slave and servant and man and maid` — *a slave, servant* is sense III, *in relation to condition* | 9:25, 9:26, 9:27 |
 | οἰκέτης | `a house-slave` | `a house-slave, a menial` | 9:25 |
 
+### Nouns and adjectives new in GEN 13
+
+| lemma | headword | chain | used |
+| --- | --- | --- | --- |
+| ἔρημος, used as a noun | `the desert part` | the chain of GEN 12:9, without ἐν | 13:1, 13:3 |
+| πλούσιος | `rich` | `rich, wealthy, opulent, rich in, richly furnished, ample and abundant` | 13:2 |
+| κτῆνος (dat. and gen. pl.) | `with flocks and herds` · `of the flocks and herds` | the chain of GEN 2:20, in the form; the dative with *with*, as at 12:17 | 13:2, 13:7 |
+| ἀργύριον | `with a piece of silver` | `with a piece of silver, with a silver coin, with money and a sum of money and cash, with silver` | 13:2 |
+| χρυσίον | `with a piece of gold` | the chain of GEN 2:11, anarthrous, in the dative | 13:2 |
+| σκηνή | `the covered place` · `covered places` | the chain of GEN 12:8 · of GEN 4:20 | 13:3, 13:5 |
+| τόπος | `of the place` · `the place` | the chain of GEN 12:6, in the form | 13:3, 13:4, 13:14 |
+| ἀρχή | `the beginning` | `the beginning, the origin, the first cause, the headship and rule and governing precedence` — the chain of GEN 2:10 in the singular, with the article | 13:4 |
+| βοῦς | `cows` | `cows, oxen, kine and cattle, ox-hide shields` | 13:5 |
+| πρόβατον | `things that walk forward` | the chain of GEN 12:16 | 13:5 |
+| πολύς | `many` | the chain of GEN 6:1 | 13:6 |
+| μάχη | `battle` | `battle, fight and combat, quarrels and strifes and wranglings, a contest, a struggle, a mode of fighting and way of battle, a field of battle` | 13:7, 13:8 |
+| ποιμήν | `of the herdsmen` | the chain of GEN 4:2, in the genitive plural | 13:7, 13:8 |
+| ἄνθρωπος (pl.) | `men` · `the men` | `men, human beings` · `the men, the human beings, mankind` — the chains of JHN 1:6 and GEN 2:7, in the plural | 13:8, 13:13 |
+| ἀδελφός | `sons of the same mother` · `of the son of the same mother` | the chain of GEN 4:2, in the form | 13:8, 13:11 |
+| ἀριστερός, used as a noun | `left` | `left and on the left, the left hand, boding ill and ominous` — εἰς ἀριστερά, anarthrous | 13:9 |
+| δεξιός, used as a noun | `right` | `right, on the right hand, fortunate and boding good and lucky, dexterous and ready, sharp and shrewd and clever` — εἰς δεξιά: the first noun sense, *the right*, without the article the Greek does not print; the entry's first sense is *on the right hand* | 13:9 |
+| περίχωρος | `the country round about` · `of the countries round about` | `the country round about, the round about a place, the people about`, in the form — the entry's sense for ἡ περίχωρος, ahead of the adjective's *round about a place* and οἱ περίχωροι, *the people about* | 13:10, 13:11, 13:12 |
+| παράδεισος | `the park` | the chain of GEN 2:8, with the article | 13:10 |
+| γῆ | `the earth` · `in earth` · `of the earth` | the chains of GEN 12 | 13:6–17 |
+| πόλις, with ἐν | `in city` | `within, inside of, and by means of city, citadel, country, body of citizens, state` — the chain of GEN 4:17, anarthrous, after ἐν | 13:12 |
+| πονηρός | `toilsome` | the chain of GEN 2:9, in the nominative | 13:13 |
+| ἁμαρτωλός | `sinful` | `sinful, sinners` — the adjective, and as a noun *a sinner* | 13:13 |
+| ὀφθαλμός | `the eyes` · `with the eyes` | the chain of GEN 3:5, in the form | 13:10, 13:14 |
+| βορρᾶς | `north wind` | `north wind, the north, northward` — under Βορέας, whose *North* is set in lower case, as the Greek has it | 13:14 |
+| ἀνατολή | `of risings` · `risings` | the chain of GEN 2:8, in the form | 13:11, 13:14 |
+| θάλασσα | `sea` | the chain of GEN 12:8 | 13:14 |
+| σπέρμα | `to that which is sown` · `that which is sown` | the chain of GEN 3:15, in the form | 13:15, 13:16 |
+| αἰών | `of the period of existence` | the chain of GEN 3:22, in the genitive | 13:15 |
+| ἄμμος | `the sand` | `the sand, the sandy ground and race-course` | 13:16 |
+| τις | `any one` | the chain of GEN 6:5 | 13:16 |
+| μῆκος, πλάτος | `the length` · `the breadth` | the chains of GEN 6:15 | 13:17 |
+| δρῦς | `the tree` | the chain of GEN 12:6 | 13:18 |
+
 ### Nouns and adjectives new in GEN 12
 
 | lemma | headword | chain | used |
@@ -2321,6 +2414,18 @@ Gloss on first occurrence per chapter, bare thereafter.
 
 Αἰγύπτιοι and Αἴγυπτον stand in one verse at 12:14, and `validate.py` took the people for a case of
 the land's name; names now match only where what differs is a case ending on both sides.
+
+| Φερεζαῖοι | Pherezaioi | Perizzites | `(Φερεζαῖος, from Hebrew Pĕrizzî, usually connected with pĕrāzî, "a villager")` |
+| Ιορδάνου | Iordanou | Jordan | `(Ἰορδάνης, from Hebrew Yardēn, usually connected with yārad, "to go down")` |
+| Σοδομα, Σοδομοις | Sodoma, Sodomois | Sodom | `(Σόδομα, from Hebrew Sĕdōm, of uncertain meaning)` — the gloss of GEN 10:19; bare in the dative |
+| Γομορρα | Gomorra | Gomorrah | `(Γόμορρα, from Hebrew ʿĂmōrâ, of uncertain meaning)` — the gloss of GEN 10:19 |
+| Ζογορα | Zogora | Zoar | `(Ζογορα, from Hebrew Ṣōʿar, "small")` |
+| Μαμβρη | Mambrē | Mamre | `(Μαμβρη, from Hebrew Mamrēʾ, of uncertain meaning)` |
+| Χεβρων | Chebrōn | Hebron | `(Χεβρων, from Hebrew Ḥebrôn, usually connected with ḥeber, "association")` |
+
+Σοδομοις at 13:12 is two letters longer than Σοδομα at 13:10, and `validate.py` matched two forms of
+a name only within one letter of each other's length, which keeps Καιν apart from Καιναν. It now
+allows more where both forms carry a case ending, with a test.
 
 Σύγχυσις translates the name where 10:10 gave the city its Greek name, Βαβυλών; as with Ζωή at
 3:20, the anchored form is the English of the name the Greek prints, *Confusion*. Αρραν the man
