@@ -160,6 +160,7 @@ Three reasons, and all of them are the lexicon's filing rather than a decision a
 | ἀτμίς (GEN 19:28) | ἀτμός | cross-reference; "= ἀτμός" |
 | ἐχθές (GEN 19:34) | χθές | cross-reference; "v. χθές" |
 | ἐπισκέπτομαι (GEN 21:1) | ἐπισκοπέω | "a pres., which furnishes its tenses to ἐπισκοπέω" |
+| παλλακή (GEN 22:24) | παλλακίς | cross-reference; "= παλλακίς" |
 <!-- spelling rows above -->
 
 The dictionary form itself does not follow the lexicon's filing: it keeps the spelling the text
@@ -593,6 +594,85 @@ the same ground as `the sixth` and `the seventh`: one sense each, so no range to
   settling in` (10:30); δύο `two`; υἱός `sons`.
 - The article before a people's name (τοὺς Λουδιιμ, τὸν Χετταῖον, τῶν Χαναναίων) is not printed,
   as before a person's name.
+
+### Words new in GEN 22
+
+- ὁ δὲ εἶπεν — the article as a pronoun, `he`, as at 4:9. 22:1, 22:7, 22:11.
+- ἀγαπητός — first *beloved*, of an *only* son, the entry says; the Hebrew *yĕḥîd*, *only one*,
+  stands behind it. 22:2, 22:12, 22:16.
+- τέκνον in the vocative takes the entry's *my son, my child*, which belongs to address. 22:7, 22:8.
+- σαβεκ — a transliteration of Hebrew *sĕbak*, *thicket*, printed in lower case: a name here, as
+  τὰ χερουβιμ at 3:24. 22:13.
+- κατέχω in the passive — the active's *to hold fast* first, the passive's *to be held down, to be
+  bound, kept under* and *to be detained* last. 22:13.
+- ἦ μήν — ἦ, *in truth, truly, verily*; μήν, whose opening *a Particle used to strengthen
+  asseverations* is a description, takes its first tag, *now verily, full surely*, from καὶ μήν.
+  22:17.
+- ὑπεναντίος as a noun, οἱ ὑπεναντίοι — the entry's *the enemy*, one translation, plain. 22:17.
+- τῆς ἐμῆς φωνῆς — ἐμός, first *mine*, with the article, and φωνή after it, each with the case's
+  `of`. 22:18.
+- πρόβατον singular — `the thing that walks forward`, the chain of GEN 12:16 in the singular. 22:7.
+- One sense each in GEN 22, so plain text: ὁλοκάρπωσις `whole burnt-offering` (22:2–13), as at 8:20;
+  τρίτος `the third` (22:4); θυσιαστήριον `an altar`, `the altar` (22:9); δεύτερος `second` (22:15);
+  ἐμαυτοῦ `of myself` (22:16); ἐνευλογέομαι `will be blessed in` (22:18); πρωτότοκος `first-born`
+  (22:21); ὀκτώ `eight` (22:23).
+
+| lemma | headword | chain | used |
+| --- | --- | --- | --- |
+| αὐτοῦ | `at the very place` | `at the very place, just here, just there` | 22:5 |
+| διέρχομαι | `we will go through` | `we will go through, we will pass through, we will go through in detail` | 22:5 |
+| εὐλογέω | `speaking well of` | `speaking well of, praising, honouring, blessing` | 22:17 |
+| κέρας | `of the horns of an animal` | `of the horns of an animal, of the horn, of the things made of horn, of the bows, of the horns for blowing and flutes, of the drinking-horns, of the horn guards and pipes, of the horn points, of the arms and branches of a river, of the wings of an army and fleet` | 22:13 |
+| καθίζω | `make to sit down` | `make to sit down, seat, set and place, encamp, set up, sit down and be seated and take your seat, settle and sink in` | 22:5 |
+| κατέχω | `being held fast` | `being held fast, being held back and withheld, being checked and restrained and controlled and bridled, being detained, being possessed and occupied, being filled, being occupied and spread over and covered, being confined and covered, being held down and overpowered and oppressed and afflicted, being held down and bound and kept under, being detained and staying and stopping and tarrying` | 22:13 |
+| κριός | `the ram` | `the ram, the battering-ram` | 22:13 |
+| λέγω | `I may say` | `I may say, I may speak, I may declare, I may call by name, I may tell` | 22:2 |
+| λέγω | `having said` | `having said, having spoken, having declared, having called by name, having told` | 22:7 |
+| λέγω | `they may say` | `they may say, they may speak, they may declare, they may call by name, they may tell` | 22:14 |
+| λαμβάνω | `to take` | `to take, to receive, to take hold of and grasp and seize` | 22:10 |
+| μάχαιρα | `the large knife` | `the large knife and dirk, the knife for cutting up, the short sword and dagger, the sabre and bent sword, the rasor` | 22:6, 22:10 |
+| μήν | `now verily` | `now verily, full surely, truly, of a truth, then, of course and naturally so, well` | 22:17 |
+| ξύλον | `of the woods` | `of the woods, of the firewood, of the timbers, of the pieces of wood, of the posts, of the sticks` | 22:9 |
+| ξύλον | `the woods` | `the woods, the firewood, the timbers, the pieces of wood, the posts, the sticks` | 22:6, 22:7, 22:9 |
+| ξύλον | `woods` | `woods, firewood, timbers, pieces of wood, posts, sticks` | 22:3 |
+| παιδάριον | `the young little boy` | `the young little boy, the young slave` | 22:5, 22:12 |
+| παλλακή | `the concubine` | `the concubine, the mistress` | 22:24 |
+| παραλαμβάνω | `received from` | `received from, inherited, took upon himself and undertook, took in pledge, took by force and treachery and got possession of, received by hearsay and report and ascertained, took up and caught up, took to himself and associated with himself, invited, waited for and intercepted, took prisoner` | 22:3 |
+| παῖς | `to the children` | `to the children, to the sons, to the daughters, to the grandchildren, to the boys and youths and lads, to the girls and maidens, to the slaves and servants and men and maids` | 22:5 |
+| πειράζω | `was making proof` | `was making proof and trial of, was attempting, was trying and tempting, was putting to the test` | 22:1 |
+| πορεύομαι | `be driven` | `be driven, be carried, go, walk, march, go across and pass` | 22:2 |
+| προσκυνέω | `having made obeisance` | `having made obeisance, having fallen down and worshipped, having worshipped, having adored, having done reverence to, having made the salam, having prostrated themselves before` | 22:5 |
+| πρόβατον | `the thing that walks forward` | `the thing that walks forward, the cattle, the flocks and herds, the horses, the small cattle, the sheep` | 22:7 |
+| πρόβατον | `thing that walks forward` | `thing that walks forward, cattle, flocks and herds, horses, small cattle, sheep` | 22:8 |
+| πῦρ | `the fire` | `the fire, the funeral-fire, the fire of the hearth` | 22:6, 22:7 |
+| σπέρμα, with ἐν | `in that which is sown` | `within, inside of, and by means of that which is sown, the seed, the germ and origin and element, the offspring and issue, the race and descent` | 22:18 |
+| συμποδίζω | `having tied the feet together` | `having tied the feet together, having bound hand and foot, having entangled` | 22:9 |
+| σφάζω | `to slay` | `to slay, to slaughter, to slaughter by cutting the throat, to slaughter victims for sacrifice, to kill` | 22:10 |
+| σχίζω | `having split` | `having split, having cleaved, having parted and separated` | 22:3 |
+| τέκνον | `that which is borne` | `that which is borne, the born, a child, my son and my child, the young` | 22:7, 22:8 |
+| τίκτω | `has brought into the world` | `has brought into the world and it stands so, has brought forth and it stands so, has borne and it stands so, has produced and it stands so` | 22:20 |
+| φείδομαι | `you spared` | `you spared, you did not destroy, you were merciful, you refrained from using and used sparingly, you were sparing and were thrifty and lived thriftily, you drew back from, you ceased, you forbore` | 22:12, 22:16 |
+| φοβέομαι | `you are put to flight` | `you are put to flight, you flee affrighted, you flee, you are seized with fear, you are affrighted, you fear` | 22:12 |
+| φυτόν, with ἐν | `in that which has grown` | `within, inside of, and by means of that which has grown, a plant, a tree, a creature, a descendant and child` | 22:13 |
+| φωνή | `of sound` | `of sound, of tone, of sound of the voice, of cry, of faculty of speech and discourse, of language, of saying` | 22:18 |
+| χείρ | `hand` | `hand, hand and arm, arm` | 22:6 |
+| χεῖλος | `the lip` | `the lip, the bill and beak, the edge and brink and brim and rim` | 22:17 |
+| ἀγαπάω | `you treated with affection` | `you treated with affection, you caressed, you loved, you were fond of, you regarded with brotherly love, you were well pleased and contented with, you were content` | 22:2 |
+| ἀγαπητός | `beloved` | `beloved, only, worthy of love and loveable and dear, to be acquiesced in` | 22:2, 22:12, 22:16 |
+| ἀναγγέλλω | `was carried back tidings of` | `was carried back tidings of, was reported` | 22:20 |
+| ἀναστρέφω | `we may turn upside down` | `we may turn upside down, we may upset, we may turn back and bring back, we may rally, we may turn back and return and retire, we may dwell, we may conduct ourselves, we may revolve, we may face about` | 22:5 |
+| ἀναφέρω | `bring up` | `bring up, carry up, carry up the country, take with you, pour forth, heave and utter, uphold and take upon yourself, offer and contribute, lead up, carry back and recover, bring back and report, trace up` | 22:2 |
+| ἀποστρέφω | `was turned` | `was turned, was turned back, was turned away, was brought back, turned himself about` | 22:19 |
+| ἐκτείνω | `stretched out` | `stretched out, spread out, put forth` | 22:10 |
+| ἐμός | `of the mine` | `of the mine, of the to me and relating to me and against me, of the by me` | 22:18 |
+| ἐπιβάλλω | `you may throw` | `you may throw and cast upon, you may lay on, you may affix, you may add, you may mention, you may throw yourself upon and go straight towards, you may fall upon and against, you may apply yourself to and devote yourself to, you may give your attention to and think on, you may follow and come next, you may belong to and fall to` | 22:12 |
+| ἐπισάττω | `piled a load upon` | `piled a load upon, saddled` | 22:3 |
+| ἦ | `in truth` | `in truth, truly, verily, of a surety, can it be` | 22:17 |
+| ὁράω | `will see` | `will see, will perceive, will behold, will look at` | 22:8 |
+| ὄμνυμι | `I swore` | `I swore, I swore to and affirmed and confirmed by oath, I swore that I would, I swore by` | 22:16 |
+| ὄνος | `of the ass` | `of the ass, of the beast of burden, of the windlass and pulley, of the upper millstone, of the beaker and wine-cup` | 22:5 |
+| ὄνος | `the ass` | `the ass, the beast of burden, the windlass and pulley, the upper millstone, the beaker and wine-cup` | 22:3 |
+| ὑπακούω | `you listened` | `you listened and hearkened and gave ear, you made answer when called, you hearkened to and gave ear to and attended to, you answered, you answered to a charge, you submitted to, you yielded to and complied with, you gave way and submitted and complied, you answered one's expectations and succeeded, you were subject` | 22:18 |
 
 ### Words new in GEN 21
 
@@ -3380,6 +3460,23 @@ Greek makes it a woman's, the mother of Eliezer, whom it calls Δαμασκὸς
 | Οχοζαθ | Ochozath | Ahuzzath | `(Οχοζαθ, from Hebrew ʾĂḥuzzat, "possession")` |
 | Φικολ | Phikol | Phicol | `(Φικολ, from Hebrew Pîkōl, of uncertain meaning)` |
 | Φυλιστιιμ | Phylistiim | Philistines | `(Φυλιστιιμ, from Hebrew Pĕlištîm, the people of Pĕlešet)` |
+
+| σαβεκ | sabek | sabek | `(σαβεκ, for Hebrew sĕbak, "a thicket")` |
+| Ωξ | Ōx | Uz | `(Ωξ, from Hebrew ʿÛṣ, of uncertain meaning)` |
+| Βαυξ | Baux | Buz | `(Βαυξ, from Hebrew Bûz, of uncertain meaning)` |
+| Καμουηλ | Kamouēl | Kemuel | `(Καμουηλ, from Hebrew Qĕmûʾēl, of uncertain meaning)` |
+| Σύρων | Syrōn | Syrians | `(Σύρος, the man of Συρία, Syria, for Hebrew ʾĂrām)` |
+| Χασαδ | Chasad | Chesed | `(Χασαδ, from Hebrew Keśed, of uncertain meaning)` |
+| Αζαυ | Azau | Hazo | `(Αζαυ, from Hebrew Ḥăzô, of uncertain meaning)` |
+| Φαλδας | Phaldas | Pildash | `(Φαλδας, from Hebrew Pildāš, of uncertain meaning)` |
+| Ιεδλαφ | Iedlaph | Jidlaph | `(Ιεδλαφ, from Hebrew Yidlāp, of uncertain meaning)` |
+| Βαθουηλ | Bathouēl | Bethuel | `(Βαθουηλ, from Hebrew Bĕtûʾēl, of uncertain meaning)` |
+| Ρεβεκκαν | Rebekkan | Rebekah | `(Ρεβεκκα, from Hebrew Ribqâ, of uncertain meaning)` |
+| Ρεημα | Reēma | Reumah | `(Ρεημα, from Hebrew Rĕʾûmâ, of uncertain meaning)` |
+| Ταβεκ | Tabek | Tebah | `(Ταβεκ, from Hebrew Ṭebaḥ, of uncertain meaning)` |
+| Γααμ | Gaam | Gaham | `(Γααμ, from Hebrew Gaḥam, of uncertain meaning)` |
+| Τοχος | Tochos | Tahash | `(Τοχος, from Hebrew Taḥaš, of uncertain meaning)` |
+| Μωχα | Mōcha | Maacah | `(Μωχα, from Hebrew Maʿăkâ, of uncertain meaning)` |
 <!-- name rows above -->
 
 Σύγχυσις translates the name where 10:10 gave the city its Greek name, Βαβυλών; as with Ζωή at

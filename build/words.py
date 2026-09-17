@@ -577,6 +577,15 @@ NOT_SENSES = {
     "a)mfo/teros": {"on both sides, utrinque", "both ways, in utramque partem"},  # adverbial phrases
     "martu/rion": {"evidence", "here is a proof, namely"},  # pieces of examples
     "o)ru/ssw": {"trench", "to have", "dug"},  # pieces of examples
+    # GEN 22
+    "peira/zw": {"let trial be made", "the tempter"},  # the passive's example, the participle
+    "a)gaphto/s": {"one must be content"},     # a piece of an example
+    "paralamba/nw": {"by inheritance", "undertakings"},  # pieces of examples
+    "sxi/zw": {"divided", "into", "branches"},  # pieces of examples
+    "au)tou=": {"exactly"},                     # a piece of an example
+    "paida/rion": {"a child"},                  # a piece of an example
+    "ke/ras": {"horns", "horn doors", "true", "in flank", "towards the wing", "in column"},  # pieces of examples
+    "e)mo/s": {"possessive", "for me"},         # pieces of examples
 }
 
 # An entry that divides its senses by tense and voice, so that which of them belong to a
@@ -689,6 +698,7 @@ SPELLING = {
     "a)tmi/s": "a)tmo/s",           # cross-reference; "= ἀτμός"
     "e)xqe/s": "xqe/s",             # cross-reference; "v. χθές"
     "e)piske/ptomai": "e)piskope/w",  # "a pres., which furnishes its tenses to ἐπισκοπέω"
+    "pallakh/": "pallaki/s",        # cross-reference; "= παλλακίς"
 }
 
 # Homographs where Perseus's *first* entry is a different word from the one the text

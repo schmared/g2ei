@@ -211,6 +211,11 @@ singular Middle Liddell heads. The first pass kept πρωΐ with the diaeresis R
 Φαραν after τῇ ἐρήμῳ τῇ as the genitive `GS--`, the desert of Pharan, as at 14:6; and θεός in lower
 case at 21:33, where Rahlfs capitalises the name called upon, as the brief's rule for speech has it.
 
+### What it found in Genesis 22
+
+Two disagreements over 543 words. The first pass kept πρωΐ with the diaeresis Rahlfs prints, and
+filed ἐπέσαξεν under ἐπισάττω, the Attic spelling Middle Liddell heads, not ἐπισάσσω.
+
 ## The brief
 
 Copy everything below the rule into a new agent. Replace `<BOOK NAME>`, `<CHAPTER>`,
