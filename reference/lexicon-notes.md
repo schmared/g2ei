@@ -167,6 +167,9 @@ Three reasons, and all of them are the lexicon's filing rather than a decision a
 | χρυσοῦς (GEN 24:22) | χρύσεος | the contracted form, filed under the uncontracted |
 | ἀργυροῦς (GEN 24:53) | ἀργύρεος | likewise |
 | θέριστρον (GEN 24:65) | θερίστριον | "so θέριστρον", inside θερίστριον |
+| ἐπιλαμβάνομαι (GEN 25:26) | ἐπιλαμβάνω | MorphGNT's middle, filed under the active |
+| πρεσβύτης (GEN 25:8) | πρέσβυς | cross-reference; "= πρέσβυς I" |
+| ἕψεμα (GEN 25:29) | ἕψημα | LSJ: "late form of ἕψημα" |
 <!-- spelling rows above -->
 
 The dictionary form itself does not follow the lexicon's filing: it keeps the spelling the text
@@ -200,7 +203,7 @@ GEN 9 adds ὀπισθοφανής, *seen from behind*, and its adverb ὀπισ
 ἔτασις, *trial, affliction*. GEN 14 adds ἁλυκός, *salt, brackish*; ἀποσκευή, whose *removal,
 riddance* comes before *baggage*; σφαιρωτήρ, *thong, latchet*; and περάτης, which opens "= πορθμεύς",
 so that πορθμεύς's LSJ senses, *ferryman*, *boatman, seaman*, *conveyer*, stand before its own
-*wanderer, emigrant*, as ἁγίζω's stand for ἁγιάζω. GEN 15 adds ὑπερασπίζω, *cover with a shield*, from the upsilon file; τριετίζω, *to be three years old*; and διχοτόμημα, *half of a thing cut in two*. GEN 17 adds κατάσχεσις, *holding back, restraining, retention*, then *possession*, from the kappa file; and ἑκατονταέτης, *of a hundred years*, *years old*, citing 17:17. GEN 18 adds μοσχάριον, *little calf*, and, from the beta file, βούτυρον, *butter*, then *a plant*. GEN 19 adds προσοίγνυμι, *shut*; ἀορασία, *inability to see, blindness*; γελοιάζω, *jest*, from the gamma file; ἐπαύριον, *on the morrow*; and εἰσσπάομαι, *draw into oneself*. GEN 20 adds μήτρα, *womb*, whose Middle Liddell entry tags only Latin; δίδραχμον, *coin of two drachms*, under δίδραχμος; and κἀγώ, *crasis for καὶ ἐγώ*. GEN 21 adds ἀπογαλακτίζω, *wean from the mother's milk*; ἀρχιστράτηγος, *commander-in-chief*; and, from the omega file, ὦμος, *the shoulder with the upper arm*. GEN 23 adds παρεπίδημος, *sojourning in a strange place*, and μνημεῖον, *memorial, remembrance, record*, whose Middle Liddell entry tags its first sense only in Latin. GEN 24 adds ποτιστήριον, *drinking-trough for cattle*; ἐνώτιον, *ear-ring*; ἅβρα, *favourite slave*; and ἀποσάττω, *unsaddle, unpack*, *stop up, caulk*, *stuff with food*.
+*wanderer, emigrant*, as ἁγίζω's stand for ἁγιάζω. GEN 15 adds ὑπερασπίζω, *cover with a shield*, from the upsilon file; τριετίζω, *to be three years old*; and διχοτόμημα, *half of a thing cut in two*. GEN 17 adds κατάσχεσις, *holding back, restraining, retention*, then *possession*, from the kappa file; and ἑκατονταέτης, *of a hundred years*, *years old*, citing 17:17. GEN 18 adds μοσχάριον, *little calf*, and, from the beta file, βούτυρον, *butter*, then *a plant*. GEN 19 adds προσοίγνυμι, *shut*; ἀορασία, *inability to see, blindness*; γελοιάζω, *jest*, from the gamma file; ἐπαύριον, *on the morrow*; and εἰσσπάομαι, *draw into oneself*. GEN 20 adds μήτρα, *womb*, whose Middle Liddell entry tags only Latin; δίδραχμον, *coin of two drachms*, under δίδραχμος; and κἀγώ, *crasis for καὶ ἐγώ*. GEN 21 adds ἀπογαλακτίζω, *wean from the mother's milk*; ἀρχιστράτηγος, *commander-in-chief*; and, from the omega file, ὦμος, *the shoulder with the upper arm*. GEN 23 adds παρεπίδημος, *sojourning in a strange place*, and μνημεῖον, *memorial, remembrance, record*, whose Middle Liddell entry tags its first sense only in Latin. GEN 24 adds ποτιστήριον, *drinking-trough for cattle*; ἐνώτιον, *ear-ring*; ἅβρα, *favourite slave*; and ἀποσάττω, *unsaddle, unpack*, *stop up, caulk*, *stuff with food*. GEN 25 adds three more: ὅλος, which Middle Liddell lacks altogether, *whole, entire, complete in all its parts*; δόμα, *gift*, then *payment*; and πυρράκης, *red, ruddy*, which LSJ files as a masculine noun.
 <!-- LSJ sentences above -->
 
 GEN 9 also files ἐμεθύσθη under μεθύσκω, *to make drunk*, where Middle Liddell gives its aorist
@@ -600,6 +603,102 @@ the same ground as `the sixth` and `the seventh`: one sense each, so no range to
   settling in` (10:30); δύο `two`; υἱός `sons`.
 - The article before a people's name (τοὺς Λουδιιμ, τὸν Χετταῖον, τῶν Χαναναίων) is not printed,
   as before a person's name.
+
+### Words new in GEN 25
+
+- πρεσβύτης — Middle Liddell's entry is the cross-reference *= πρέσβυς I*, so the senses are that
+  sense's alone, *an old man* and *the elder*; πρέσβυς II and III, the ambassador and the chief, and
+  the comparative filed inside it, are another sense's. 25:8.
+- πλήρης — Middle Liddell's first sense, *c. gen. full of a thing*, is untranslated; the first English
+  is *filled*. 25:8.
+- γένεσις and γενεά — the plural αἱ γενέσεις is the chain of GEN 2:4, as at 6:9; γενεά, a different
+  word, is first *race, stock, family*. 25:12, 25:13, 25:19.
+- δέομαι — Middle Liddell files the deponent under δέω, *to lack*: `was lacking`, where the verse has
+  Isaac praying. 25:21.
+- ἔλαβεν ἐν γαστρί — the idiom for conceiving, kept word for word; γαστήρ is first *the paunch, belly*,
+  and *the womb* is its second sense. 25:21.
+- ἀποδίδωμι in the middle — *to give away of one's own will, to sell*, the middle's own sense, where
+  the active is *to give up, give back*. 25:31, 25:33.
+- τελευτάω — first *to complete, finish, accomplish*; *to end life, to die*, the verse's sense, stands
+  inside that first sense. 25:32.
+- γεύω in the active — one sense, *to give a taste of*: plain text. Its *to taste of* is the middle's.
+  25:30.
+- ἐπιλαμβάνομαι — MorphGNT's middle, filed under the active ἐπιλαμβάνω; the perfect participle takes
+  the middle's senses, *to hold oneself by, lay hold of, catch*, with the perfect's standing state.
+  25:26.
+- ὅδε — τῇδε, the dative feminine used of the place: `to this`. 25:24.
+- Names: this chapter glosses thirty, Keturah's sons and Ishmael's among them. Ναβδεηλ stands for two
+  different Hebrew names — ʿAbdĕʾēl at 25:13, and at 25:3 a name the Hebrew does not have at all.
+  Σύρος, the Syrian, is a people's name declined in Greek, as Χετταῖος is, and the article before it
+  is not printed. 25:2–20.
+- One sense each in GEN 25, so plain text: πρωτότοκος `first-born` (25:13, 25:25), as at 10:15;
+  νεανίσκος `the youths` (25:27); πυρράκης `ruddy` (25:25, LSJ), a masculine noun in LSJ, not an
+  adjective; φαυλίζω `held cheap` (25:34); κυνηγέω `to hunt` (25:27), two glosses of one sense.
+
+| lemma | headword | chain | used |
+| --- | --- | --- | --- |
+| αὐξάνω | `were made large` | `were made large, were increased, were augmented, were increased in power and strengthened and exalted and aggrandised, were promoted to honour and glorified and magnified, grew and waxed and increased, grew up` | 25:27 |
+| γένος | `the race` | `the race, the stock and family, the offspring and posterity, the clan and house, the tribe and caste, the breed, the age and generation, the sex and gender, the class and sort` | 25:17 |
+| γαστήρ, with ἐν | `in belly` | `within, inside of, and by means of belly, paunch, the paunch stuffed with mince-meat and black-pudding and sausage, the womb` | 25:21 |
+| γαστήρ, with ἐν | `in the belly` | `within, inside of, and by means of the belly, the paunch, the paunch stuffed with mince-meat and black-pudding and sausage, the womb` | 25:23 |
+| γενεά | `of the races` | `of the races, of the stocks and families, of the breeds, of the tribes and nations, of the races and generations, of the offspring, of the birth-places, of the ages and times of life, of the times of birth` | 25:13 |
+| γῆρας, with ἐν | `in old age` | `within, inside of, and by means of old age, the latter part of life` | 25:8 |
+| δέομαι | `was lacking` | `was lacking, was missing, was standing in need of, was in want and need, was asking for` | 25:21 |
+| δίδυμος | `double` | `double, twofold, twain, twin, twins` | 25:24 |
+| δασύς | `thick with hair` | `thick with hair, hairy, shaggy, rough, downy, thick with leaves, thick with bushes and wood, bushy country` | 25:25 |
+| διαστέλλω | `will be put asunder` | `will be put asunder, will be torn open, will be distinguished and defined, will be determined, will be given express orders` | 25:23 |
+| δορά | `skin` | `skin, hide` | 25:25 |
+| δουλεύω | `will be a slave` | `will be a slave, will serve and be subject to` | 25:23 |
+| δόμα | `gifts` | `gifts, payments` | 25:6 |
+| ζάω | `living` | `living, being in full life and strength, being fresh and strong` | 25:6 |
+| θήρα | `the hunting of wild beasts` | `the hunting of wild beasts, the chase, the eager pursuit, the beast taken and the spoil and booty and prey and game` | 25:28 |
+| κοιλία | `of the large cavity of the body` | `of the large cavity of the body, of the belly, of the intestines and bowels` | 25:23 |
+| κοιλία, with ἐν | `in the large cavity of the body` | `within, inside of, and by means of the large cavity of the body, the belly, the intestines and bowels` | 25:24 |
+| κτάομαι | `procured for himself` | `procured for himself, got, gained, acquired, brought upon himself and incurred, procured for another` | 25:10 |
+| κυνηγέω | `to hunt` | `to hunt, to chase` | 25:27 |
+| λαός | `peoples` | `peoples, men, soldiers, land-armies, common men, folk, Jews, Christians` | 25:23 |
+| μέγας | `the bigger` | `the bigger, the greater, the taller, the vaster, the stronger and mightier, the weightier and more important` | 25:23 |
+| μέλλω | `thinks of doing` | `thinks of doing, intends to do, is about to do, is destined to do, is like to do, delays and puts off and hesitates and scruples` | 25:22 |
+| νεανίσκος | `the youths` | `the youths` | 25:27 |
+| οἶδα | `knowing` | `knowing, being assured, being versed in` | 25:27 |
+| παιδίον | `the young children` | `the young children, the young slave-lads` | 25:22 |
+| παλλακή | `of the concubines` | `of the concubines, of the mistresses` | 25:6 |
+| πεδίον | `of the plain` | `of the plain, of the flat, of the plain flat open country` | 25:29 |
+| πλήρης | `filled` | `filled, infected by, satiated with, filled with, full, full of people, full and complete` | 25:8 |
+| πληρόω | `were made full` | `were made full, were filled full of, were gorged and satiated, were filled with, were manned, were made full and complete, were fulfilled and paid in full and made up` | 25:24 |
+| πρεσβύτης | `old man` | `old man, elder` | 25:8 |
+| προστίθημι | `having put to` | `having put to, having handed over and delivered, having given and bestowed, having imposed further, having attributed, having added` | 25:1 |
+| προστίθημι | `was put to` | `was put to, was handed over and delivered, was given and bestowed, was imposed further, was attributed, was added` | 25:8, 25:17 |
+| πρωτοτόκια | `the rights of the first-born` | `the rights of the first-born, the birthright` | 25:31, 25:32, 25:33, 25:34 |
+| πτέρνα | `of the heel` | `of the heel, of the under part of the heel, of the ham` | 25:26 |
+| πυνθάνομαι | `to learn by hearsay` | `to learn by hearsay, to learn, to hear, to hear of and hear tell of and hear news of, to inquire about` | 25:22 |
+| πυρρός | `of flame-coloured` | `of flame-coloured, of yellowish-red, of red-haired, of red and tawny, of red with blushes` | 25:30 |
+| σκηνή, with ἐν | `in the covered places` | `within, inside of, and by means of the covered places, the tents, the camps, the dwelling-places, the temples` | 25:16 |
+| σκιρτάω | `were springing` | `were springing, were leaping, were bounding` | 25:22 |
+| τελευτάω | `to complete` | `to complete, to finish, to accomplish, to bring to an end and finish life and die, to be accomplished, to come to an end, to die` | 25:32 |
+| υἱός | `sons` | `sons` | 25:3, 25:4 |
+| υἱός | `to the sons` | `to the sons` | 25:6 |
+| φακός | `of lentil` | `of lentil, of its fruit` | 25:34 |
+| φαυλίζω | `held cheap` | `held cheap, depreciated, disparaged` | 25:34 |
+| ἀγαπάω | `was treating with affection` | `was treating with affection, was caressing, was loving, was fond of, was regarding with brotherly love, was well pleased and contented with, was content` | 25:28 |
+| ἀποδίδωμι | `gave away of his own will` | `gave away of his own will, sold` | 25:33 |
+| ἀποδίδωμι | `give away of your own will` | `give away of your own will, sell` | 25:31 |
+| ἀποθνήσκω | `to die off` | `to die off, to die, to be put to death, to be slain` | 25:11 |
+| ἄγροικος | `of the country` | `of the country, in the country, dwelling in the country and a countryman and rustic, clownish and boorish and rude, rough and uncultivated` | 25:27 |
+| ἄπλαστος | `not moulded` | `not moulded, in its natural state and natural and unaffected` | 25:27 |
+| ἄρτος | `cake` | `cake, loaf of wheat-bread, bread` | 25:34 |
+| ἐκλείπω | `I leave out` | `I leave out, I omit and pass over, I forsake and desert and abandon, I suffer an eclipse, I die, I leave off and cease and stop, I fail and am wanting` | 25:30 |
+| ἐκλείπω | `having left out` | `having left out, having omitted and passed over, having forsaken and deserted and abandoned, having suffered an eclipse, having died, having left off and ceased and stopped, having failed and been wanting` | 25:8, 25:17 |
+| ἐκλείπω | `leaving out` | `leaving out, omitting and passing over, forsaking and deserting and abandoning, suffering an eclipse, dying, leaving off and ceasing and stopping, failing and being wanting` | 25:29 |
+| ἐλάσσων | `to the smaller` | `to the smaller, to the less, to the worse and worse off, to worse than and inferior to, to subservient to, to fewer, to the smaller number` | 25:23 |
+| ἐπιλαμβάνομαι | `having held herself by` | `having held herself by and standing so, having laid hold of, having caught, having attacked, having made a seizure of, having got and obtained, having gained and reached, having attempted, having taken up and interrupted in speaking, having objected to` | 25:26 |
+| ἔπαυλις, with ἐν | `in the folds` | `within, inside of, and by means of the folds` | 25:16 |
+| ἕψεμα | `anything boiled` | `anything boiled, vegetables for kitchen use` | 25:29, 25:34 |
+| ἕψεμα | `of anything boiled` | `of anything boiled, of vegetables for kitchen use` | 25:30 |
+| ἕψω | `boiled` | `boiled, seethed, smelted and refined, cherished` | 25:29 |
+| ὅδε | `to this` | `to this, to the immediate present, here and on the spot, thus, hither and to this spot, therefore and on this account` | 25:24 |
+| ὅλος | `whole` | `whole, entire, complete in all its parts, safe and sound, entire and utter, all` | 25:25 |
+| ὑπερέχω | `will hold over` | `will hold over, will have and hold above, will be above and rise above the horizon, will be above water, will rise above and overlook, will outflank, will overtop and exceed and outdo, will prevail, will get over and cross` | 25:23 |
 
 ### Words new in GEN 24
 
@@ -3769,6 +3868,42 @@ Greek makes it a woman's, the mother of Eliezer, whom it calls Δαμασκὸς
 
 | Μεσοποταμίαν | Mesopotamian | Mesopotamia | `(Μεσοποταμία, Greek, "the land between the rivers", for Hebrew ʾĂram Nahărayim, "Aram of the two rivers")` |
 | Λαβαν | Laban | Laban | `(Λαβαν, from Hebrew Lābān, "white")` |
+
+| Χεττουρα | Chettoura | Keturah | `(Χεττουρα, from Hebrew Qĕṭûrâ, usually connected with qĕṭōret, "incense")` |
+| Ζεμραν | Zemran | Zimran | `(Ζεμραν, from Hebrew Zimrān, of uncertain meaning)` |
+| Ιεξαν | Iexan | Jokshan | `(Ιεξαν, from Hebrew Yoqšān, of uncertain meaning)` |
+| Μαδαν | Madan | Medan | `(Μαδαν, from Hebrew Mĕdān, of uncertain meaning)` |
+| Μαδιαμ | Madiam | Midian | `(Μαδιαμ, from Hebrew Midyān, of uncertain meaning)` |
+| Ιεσβοκ | Iesbok | Ishbak | `(Ιεσβοκ, from Hebrew Yišbāq, of uncertain meaning)` |
+| Σωυε | Sōue | Shuah | `(Σωυε, from Hebrew Šûaḥ, usually connected with šûaḥ, "to sink down")` |
+| Σαβα | Saba | Sheba | `(Σαβα, from Hebrew Šĕbāʾ, of uncertain meaning)` |
+| Θαιμαν | Thaiman | Teman | `(Θαιμαν, from Hebrew Têmān, "south" or "the south country")` |
+| Δαιδαν | Daidan | Dedan | `(Δαιδαν, from Hebrew Dĕdān, of uncertain meaning)` |
+| Ραγουηλ | Ragouēl | Reuel | `(Ραγουηλ, from Hebrew Rĕʿûʾēl, "friend of God")` |
+| Ναβδεηλ | Nabdeēl | Nabdeel | `(Ναβδεηλ, for Hebrew ʿAbdĕʾēl, "servant of God", as at 25:13)` |
+| Ασσουριιμ | Assouriim | Asshurim | `(Ασσουριιμ, from Hebrew ʾAššûrim, a people of the Hebrew plural in -îm)` |
+| Λατουσιιμ | Latousiim | Letushim | `(Λατουσιιμ, from Hebrew Lĕṭûšim, a people of the Hebrew plural in -îm)` |
+| Λοωμιμ | Loōmim | Leummim | `(Λοωμιμ, from Hebrew Lĕʾummim, a people of the Hebrew plural in -îm, connected with lĕʾōm, "people")` |
+| Γαιφα | Gaipha | Ephah | `(Γαιφα, for Hebrew ʿÊpâ, of uncertain meaning)` |
+| Αφερ | Apher | Epher | `(Αφερ, from Hebrew ʿĒper, usually connected with ʿōper, "fawn")` |
+| Αβιρα | Abira | Abida | `(Αβιρα, for Hebrew ʾĂbîdāʿ, "my father knows")` |
+| Ελραγα | Elraga | Eldaah | `(Ελραγα, for Hebrew ʾEldāʿâ, of uncertain meaning)` |
+| Ναβαιωθ | Nabaiōth | Nebaioth | `(Ναβαιωθ, from Hebrew Nĕbāyôt, of uncertain meaning)` |
+| Κηδαρ | Kēdar | Kedar | `(Κηδαρ, from Hebrew Qēdār, usually connected with qādar, "to be dark")` |
+| Μασσαμ | Massam | Mibsam | `(Μασσαμ, for Hebrew Mibśām, usually connected with bōśem, "balsam, spice")` |
+| Μασμα | Masma | Mishma | `(Μασμα, from Hebrew Mišmāʿ, usually connected with šāmaʿ, "to hear")` |
+| Ιδουμα | Idouma | Dumah | `(Ιδουμα, for Hebrew Dûmâ, usually connected with dāmam, "to be silent")` |
+| Μασση | Massē | Massa | `(Μασση, from Hebrew Maśśāʾ, usually connected with nāśāʾ, "to lift, bear")` |
+| Χοδδαδ | Choddad | Hadad | `(Χοδδαδ, for Hebrew Ḥădad, the name of a storm-god)` |
+| Ιετουρ | Ietour | Jetur | `(Ιετουρ, from Hebrew Yĕṭûr, of uncertain meaning)` |
+| Ναφες | Naphes | Naphish | `(Ναφες, from Hebrew Nāpîš, usually connected with nepeš, "breath, soul")` |
+| Κεδμα | Kedma | Kedemah | `(Κεδμα, from Hebrew Qēdĕmâ, usually connected with qedem, "east")` |
+| Ἀσσυρίους | Assyrious | Assyrians | `(Ἀσσύριος, the Assyrian, from Aššur — their god, their city, and their land)` |
+| Σύρου | Syrou | Syrian | `(Σύρος, the man of Συρία, Syria; the Hebrew has ʾărammî, the Aramean)` |
+| Μεσοποταμίας | Mesopotamias | Mesopotamia | `(Μεσοποταμία, Greek, "the land between the rivers", for Hebrew Paddan-ʾĂrām)` |
+| Ησαυ | Ēsau | Esau | `(Ησαυ, from Hebrew ʿĒśāw, usually connected with śēʿār, "hair", the hairiness of 25:25)` |
+| Ιακωβ | Iakōb | Jacob | `(Ιακωβ, from Hebrew Yaʿăqōb, which the Hebrew of 25:26 hears in ʿāqēb, "heel")` |
+| Εδωμ | Edōm | Edom | `(Εδωμ, from Hebrew ʾĔdôm, which the Hebrew of 25:30 hears in ʾādōm, "red")` |
 <!-- name rows above -->
 
 Σύγχυσις translates the name where 10:10 gave the city its Greek name, Βαβυλών; as with Ζωή at

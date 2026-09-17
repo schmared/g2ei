@@ -183,6 +183,15 @@ LSJ = {
     "ἐνώτιον": ["ear-ring"],
     "ἅβρα": ["favourite slave"],
     "ἀποσάττω": ["unsaddle, unpack", "stop up, caulk", "stuff with food"],
+    # Middle Liddell has no ὅλος at all, and neither ὅλος nor δόμα nor πυρράκης is in it.
+    # LSJ (eng16): ὅλος, "whole, entire, complete in all its parts", then "safe and sound",
+    # "entire, utter", the neuter adverbial "wholly, entirely", "all", and as a noun "the
+    # universe" and "one's all". LSJ (eng4): δόμα, "gift", then "payment". LSJ (eng17):
+    # πυρράκης, a masculine noun of the first declension, "red, ruddy".
+    "ὅλος": ["whole, entire, complete in all its parts", "safe and sound", "entire, utter",
+             "wholly, entirely", "all", "the universe", "one's all"],
+    "δόμα": ["gift", "payment"],
+    "πυρράκης": ["red, ruddy"],
 }
 
 # New Testament books: MorphGNT file and its book number.
@@ -647,6 +656,26 @@ NOT_SENSES = {
     "parqe/nos": {"new"},                       # a piece of an example
     "dei/lh": {"early", "late", "in the course of the afternoon"},  # pieces of examples
     "a)lh/qeia": {"in very truth", "in truth and reality", "the character of the"},  # adverbial phrases, a piece
+    # GEN 25
+    "presbu/ths": {"elder, older", "eldest", "higher, more important", "greater than", "an ambassador",
+                   "a chief, president", "an elder of the Jewish Council", "an elder of the Church, presbyter"},
+                                                # πρεσβύτης is "= πρέσβυς I"; the rest of πρέσβυς is other senses
+    "plh/rhs": {"polluted", "fill"},            # pieces of examples
+    "me/llw": {"was just going", "thinkest", "did you", "think you might", "could", "were", "was destined",
+               "we were able to", "a certainty", "it must be that", "I must have", "a probability", "be",
+               "belike", "thou art like", "were like to", "I thought you would", "shouldn't I",
+               "be sure I have", "are", "in futurity", "might", "be delayed", "delays are going on"},  # pieces of examples
+    "punqa/nomai": {"by inquiry", "from", "I heard", "they had", "heard of", "learn that", "learn"},  # pieces of examples
+    "u(pere/xw": {"over", "so as to protect", "hold above", "he had", "above", "the ground", "to overtop",
+                  "be prominent", "the more powerful"},  # pieces of examples
+    "e)la/sswn": {"in a thing", "less account", "at less distance", "less"},  # pieces of examples
+    "o(/de": {"nearer", "more remote;", "deictic", "what can be pointed out.", "voici", "what is before one",
+              "here is", "here", "of mine", "just", "before one", "these preparations which I see",
+              "immediately to come", "in", "with these words"},  # pieces of examples, French
+    "geu/w": {"let us try"},                    # a piece of an example
+    "e)pilamba/nomai": {"from", "traverse", "corripere campum"},  # pieces of examples, Latin
+    "e(/yw": {"we boiled some"},                # a piece of an example
+    "dasu/s": {"with all the leaves", "the copses", "thick"},  # pieces of examples
 }
 
 # An entry that divides its senses by tense and voice, so that which of them belong to a
@@ -766,6 +795,9 @@ SPELLING = {
     "xrusou=s": "xru/seos",         # the contracted form, filed under the uncontracted
     "a)rgurou=s": "a)rgu/reos",     # likewise
     "qe/ristron": "qeri/strion",    # "so θέριστρον", inside θερίστριον
+    "e)pilamba/nomai": "e)pilamba/nw",  # MorphGNT's middle, filed under the active
+    "presbu/ths": "pre/sbus",       # cross-reference; "= πρέσβυς I"
+    "e(/yema": "e(/yhma",           # LSJ: "late form of ἕψημα"
 }
 
 # Homographs where Perseus's *first* entry is a different word from the one the text

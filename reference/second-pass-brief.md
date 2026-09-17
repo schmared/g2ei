@@ -235,6 +235,18 @@ before; ἀποκριθείς under ἀποκρίνομαι; χρυσοῦς and
 at 23:9, not Middle Liddell's χρύσεος and ἀργύρεος; and ὁ θεός in address at 24:12 and 24:42 in the
 nominative its form has, as MorphGNT codes Ὁ θεός at Luke 18:13 and Heb 1:8. The brief now names each.
 
+### What it found in Genesis 25
+
+Nine disagreements over 624 words. The second pass was right that ζῶντος at 25:6 is masculine, with
+Abraham; that ὀνόματα at 25:13 and 25:16 and τὸ ὄνομα at 25:30 are nominative, the subjects of verbless
+clauses and of ἐκλήθη; that ὡσεί at 25:25 is the conjunction; that πυρράκης is LSJ's masculine noun,
+not an adjective; and that ἐπειλημμένη goes under ἐπιλαμβάνομαι, as MorphGNT files the middle. The
+first pass kept διπλοῦς, as settled at 23:9. Two things neither pass had: ἐπειλημμένη is voice `E`,
+the perfect having one form for middle and passive, and ἄγροικος takes gender `C`, being a
+two-termination adjective, as ἄπλαστος beside it does. The second pass's file was written first and
+read here only after the first was complete, except for its opening line, which was seen in passing:
+Προσθέμενος, the aorist middle participle of προστίθημι, on which both passes agreed.
+
 ## The brief
 
 Copy everything below the rule into a new agent. Replace `<BOOK NAME>`, `<CHAPTER>`,

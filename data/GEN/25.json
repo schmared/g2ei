@@ -1,0 +1,1357 @@
+[
+  {
+    "ref": "GEN 25:1",
+    "greek": "Προσθέμενος δὲ Αβρααμ ἔλαβεν γυναῖκα, ᾗ ὄνομα Χεττουρα.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 36",
+    "hint": "Abraham takes another wife, Keturah.",
+    "notes": [
+      {
+        "lemma": "Προσθέμενος",
+        "flag": "divergence",
+        "text": "[[flag]] The Hebrew is *wayyōsep*, *and he added*, with *and took* after it. The Greek keeps the Hebrew's idiom: the participle of προστίθημι, *to put to*, and then *took*."
+      },
+      {
+        "lemma": "Χεττουρα",
+        "flag": null,
+        "text": "The name is the Hebrew Qĕṭûrâ; the Greek declines it as a first-declension feminine."
+      }
+    ],
+    "reading": "[[having put to|having put to, having handed over and delivered, having given and bestowed, having imposed further, having attributed, having added]] [[but|but, however, whereas, on the other hand]], [[name:Αβρααμ]] [[took|took, received, took hold of and grasped and seized]] [[woman|woman, mistress and lady, wife and spouse, mortal woman]], to whom [[a name|a name, fame, a mere name, a phrase and expression]] [[name:Χεττουρα]].",
+    "names": [
+      {
+        "greek": "Αβρααμ",
+        "unanchored": "Abraam",
+        "anchored": "Abraham",
+        "gloss": "(Αβρααμ, from Hebrew ʾAbrāhām, which the Hebrew of 17:5 hears in ʾab hămôn gôyim, \"father of a multitude of nations\")"
+      },
+      {
+        "greek": "Χεττουρα",
+        "unanchored": "Chettoura",
+        "anchored": "Keturah",
+        "gloss": "(Χεττουρα, from Hebrew Qĕṭûrâ, usually connected with qĕṭōret, \"incense\")"
+      }
+    ]
+  },
+  {
+    "ref": "GEN 25:2",
+    "greek": "ἔτεκεν δὲ αὐτῷ τὸν Ζεμραν καὶ τὸν Ιεξαν καὶ τὸν Μαδαν καὶ τὸν Μαδιαμ καὶ τὸν Ιεσβοκ καὶ τὸν Σωυε.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 36",
+    "hint": "She bears him Zimran, Jokshan, Medan, Midian, Ishbak and Shuah.",
+    "notes": [
+      {
+        "lemma": "τὸν Ζεμραν",
+        "flag": null,
+        "text": "The article before each name is not printed."
+      },
+      {
+        "lemma": "Ζεμραν",
+        "flag": "variant",
+        "text": "[[flag]] The Berlin papyrus, 911, has Ζεμραν; the first hand of Codex Alexandrinus reads Ζεβραν, its corrector Ζεμβραν."
+      }
+    ],
+    "reading": "[[brought into the world|brought into the world, brought forth, bore, produced]] [[but|but, however, whereas, on the other hand]], to him [[name:Ζεμραν]] and [[name:Ιεξαν]] and [[name:Μαδαν]] and [[name:Μαδιαμ]] and [[name:Ιεσβοκ]] and [[name:Σωυε]].",
+    "names": [
+      {
+        "greek": "Ζεμραν",
+        "unanchored": "Zemran",
+        "anchored": "Zimran",
+        "gloss": "(Ζεμραν, from Hebrew Zimrān, of uncertain meaning)"
+      },
+      {
+        "greek": "Ιεξαν",
+        "unanchored": "Iexan",
+        "anchored": "Jokshan",
+        "gloss": "(Ιεξαν, from Hebrew Yoqšān, of uncertain meaning)"
+      },
+      {
+        "greek": "Μαδαν",
+        "unanchored": "Madan",
+        "anchored": "Medan",
+        "gloss": "(Μαδαν, from Hebrew Mĕdān, of uncertain meaning)"
+      },
+      {
+        "greek": "Μαδιαμ",
+        "unanchored": "Madiam",
+        "anchored": "Midian",
+        "gloss": "(Μαδιαμ, from Hebrew Midyān, of uncertain meaning)"
+      },
+      {
+        "greek": "Ιεσβοκ",
+        "unanchored": "Iesbok",
+        "anchored": "Ishbak",
+        "gloss": "(Ιεσβοκ, from Hebrew Yišbāq, of uncertain meaning)"
+      },
+      {
+        "greek": "Σωυε",
+        "unanchored": "Sōue",
+        "anchored": "Shuah",
+        "gloss": "(Σωυε, from Hebrew Šûaḥ, usually connected with šûaḥ, \"to sink down\")"
+      }
+    ]
+  },
+  {
+    "ref": "GEN 25:3",
+    "greek": "Ιεξαν δὲ ἐγέννησεν τὸν Σαβα καὶ τὸν Θαιμαν καὶ τὸν Δαιδαν· υἱοὶ δὲ Δαιδαν ἐγένοντο Ραγουηλ καὶ Ναβδεηλ καὶ Ασσουριιμ καὶ Λατουσιιμ καὶ Λοωμιμ.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 36",
+    "hint": "Jokshan fathers Sheba, Teman and Dedan; Dedan's sons are Reuel, Nabdeel, the Asshurim, the Letushim and the Leummim.",
+    "notes": [
+      {
+        "lemma": "τὸν Θαιμαν",
+        "flag": "divergence",
+        "text": "[[flag]] Not in the Hebrew of this verse, which has Sheba and Dedan alone."
+      },
+      {
+        "lemma": "Ραγουηλ καὶ Ναβδεηλ",
+        "flag": "divergence",
+        "text": "[[flag]] Not in the Hebrew, whose sons of Dedan are the Asshurim, the Letushim and the Leummim."
+      },
+      {
+        "lemma": "Ασσουριιμ, Λατουσιιμ, Λοωμιμ",
+        "flag": null,
+        "text": "Peoples of the Hebrew plural in -îm, indeclinable here, and plural and masculine from the people, as the Λουδιιμ of 10:13."
+      },
+      {
+        "lemma": "Σαβα … Ασσουριιμ",
+        "flag": "variant",
+        "text": "[[flag]] Codex Alexandrinus reads Σαβαν, and ασουριμ."
+      }
+    ],
+    "reading": "[[name:Ιεξαν]] [[but|but, however, whereas, on the other hand]], [[begot|begot, engendered, brought forth, produced]] [[name:Σαβα]] and [[name:Θαιμαν]] and [[name:Δαιδαν]]; [[sons|sons]] [[but|but, however, whereas, on the other hand]], [[name:Δαιδαν]] [[came into being|came to be, arose, were brought into existence]] [[name:Ραγουηλ]] and [[name:Ναβδεηλ]] and [[name:Ασσουριιμ]] and [[name:Λατουσιιμ]] and [[name:Λοωμιμ]].",
+    "names": [
+      {
+        "greek": "Ιεξαν",
+        "unanchored": "Iexan",
+        "anchored": "Jokshan",
+        "bare": true
+      },
+      {
+        "greek": "Σαβα",
+        "unanchored": "Saba",
+        "anchored": "Sheba",
+        "gloss": "(Σαβα, from Hebrew Šĕbāʾ, of uncertain meaning)"
+      },
+      {
+        "greek": "Θαιμαν",
+        "unanchored": "Thaiman",
+        "anchored": "Teman",
+        "gloss": "(Θαιμαν, from Hebrew Têmān, \"south\" or \"the south country\")"
+      },
+      {
+        "greek": "Δαιδαν",
+        "unanchored": "Daidan",
+        "anchored": "Dedan",
+        "gloss": "(Δαιδαν, from Hebrew Dĕdān, of uncertain meaning)"
+      },
+      {
+        "greek": "Ραγουηλ",
+        "unanchored": "Ragouēl",
+        "anchored": "Reuel",
+        "gloss": "(Ραγουηλ, from Hebrew Rĕʿûʾēl, \"friend of God\")"
+      },
+      {
+        "greek": "Ναβδεηλ",
+        "unanchored": "Nabdeēl",
+        "anchored": "Nabdeel",
+        "gloss": "(Ναβδεηλ, for Hebrew ʿAbdĕʾēl, \"servant of God\", as at 25:13)"
+      },
+      {
+        "greek": "Ασσουριιμ",
+        "unanchored": "Assouriim",
+        "anchored": "Asshurim",
+        "gloss": "(Ασσουριιμ, from Hebrew ʾAššûrim, a people of the Hebrew plural in -îm)"
+      },
+      {
+        "greek": "Λατουσιιμ",
+        "unanchored": "Latousiim",
+        "anchored": "Letushim",
+        "gloss": "(Λατουσιιμ, from Hebrew Lĕṭûšim, a people of the Hebrew plural in -îm)"
+      },
+      {
+        "greek": "Λοωμιμ",
+        "unanchored": "Loōmim",
+        "anchored": "Leummim",
+        "gloss": "(Λοωμιμ, from Hebrew Lĕʾummim, a people of the Hebrew plural in -îm, connected with lĕʾōm, \"people\")"
+      }
+    ]
+  },
+  {
+    "ref": "GEN 25:4",
+    "greek": "υἱοὶ δὲ Μαδιαμ· Γαιφα καὶ Αφερ καὶ Ενωχ καὶ Αβιρα καὶ Ελραγα. πάντες οὗτοι ἦσαν υἱοὶ Χεττουρας.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 36",
+    "hint": "Midian's sons are Ephah, Epher, Hanoch, Abida and Eldaah. All these were Keturah's sons.",
+    "notes": [
+      {
+        "lemma": "ἦσαν",
+        "flag": null,
+        "text": "ἦν of a standing state, the formula of GEN 1:2 in full, in the plural."
+      },
+      {
+        "lemma": "Γαιφα … Ελραγα … πάντες οὗτοι",
+        "flag": "variant",
+        "text": "[[flag]] Rahlfs prints Γαιφα, with a few witnesses; Codex Alexandrinus reads Γεφαρ, and θεργαμα for Ελραγα, and puts οὗτοι πάντες the other way round."
+      }
+    ],
+    "reading": "[[sons|sons]] [[but|but, however, whereas, on the other hand]], [[name:Μαδιαμ]]; [[name:Γαιφα]] and [[name:Αφερ]] and [[name:Ενωχ]] and [[name:Αβιρα]] and [[name:Ελραγα]]. [[all|all, the whole, every, every single]] [[these|these, the nearer, what follows]] were, and kept on being as a standing and continuing condition and not a momentary one, [[sons|sons]] [[name:Χεττουρας]].",
+    "names": [
+      {
+        "greek": "Μαδιαμ",
+        "unanchored": "Madiam",
+        "anchored": "Midian",
+        "bare": true
+      },
+      {
+        "greek": "Γαιφα",
+        "unanchored": "Gaipha",
+        "anchored": "Ephah",
+        "gloss": "(Γαιφα, for Hebrew ʿÊpâ, of uncertain meaning)"
+      },
+      {
+        "greek": "Αφερ",
+        "unanchored": "Apher",
+        "anchored": "Epher",
+        "gloss": "(Αφερ, from Hebrew ʿĒper, usually connected with ʿōper, \"fawn\")"
+      },
+      {
+        "greek": "Ενωχ",
+        "unanchored": "Enōch",
+        "anchored": "Hanoch",
+        "gloss": "(Ενωχ, from Hebrew Ḥănôk, usually connected with ḥānak, \"to dedicate\")"
+      },
+      {
+        "greek": "Αβιρα",
+        "unanchored": "Abira",
+        "anchored": "Abida",
+        "gloss": "(Αβιρα, for Hebrew ʾĂbîdāʿ, \"my father knows\")"
+      },
+      {
+        "greek": "Ελραγα",
+        "unanchored": "Elraga",
+        "anchored": "Eldaah",
+        "gloss": "(Ελραγα, for Hebrew ʾEldāʿâ, of uncertain meaning)"
+      },
+      {
+        "greek": "Χεττουρας",
+        "unanchored": "Chettouras",
+        "anchored": "Keturah",
+        "bare": true
+      }
+    ]
+  },
+  {
+    "ref": "GEN 25:5",
+    "greek": "Ἔδωκεν δὲ Αβρααμ πάντα τὰ ὑπάρχοντα αὐτοῦ Ισαακ τῷ υἱῷ αὐτοῦ,",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 36",
+    "hint": "Abraham gives all he has to Isaac his son,",
+    "notes": [
+      {
+        "lemma": "τὰ ὑπάρχοντα",
+        "flag": null,
+        "text": "ὑπάρχω, the chain of GEN 12:5."
+      }
+    ],
+    "reading": "[[gave|gave, granted, provided, gave over and delivered up]] [[but|but, however, whereas, on the other hand]], [[name:Αβρααμ]] [[all|all, the whole, every, every single]] [[the existing circumstances|the existing circumstances, the present advantages, what belongs to one, the possessions and means]] of him [[name:Ισαακ]] to the son of him,",
+    "names": [
+      {
+        "greek": "Αβρααμ",
+        "unanchored": "Abraam",
+        "anchored": "Abraham",
+        "bare": true
+      },
+      {
+        "greek": "Ισαακ",
+        "unanchored": "Isaak",
+        "anchored": "Isaac",
+        "gloss": "(Ισαακ, from Hebrew Yiṣḥāq, \"he laughs\")"
+      }
+    ]
+  },
+  {
+    "ref": "GEN 25:6",
+    "greek": "καὶ τοῖς υἱοῖς τῶν παλλακῶν αὐτοῦ ἔδωκεν Αβρααμ δόματα καὶ ἐξαπέστειλεν αὐτοὺς ἀπὸ Ισαακ τοῦ υἱοῦ αὐτοῦ ἔτι ζῶντος αὐτοῦ πρὸς ἀνατολὰς εἰς γῆν ἀνατολῶν.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 36",
+    "hint": "and to the sons of his concubines he gives gifts, and sends them away from Isaac his son while he is still alive, eastward into the land of the east.",
+    "notes": [
+      {
+        "lemma": "δόματα",
+        "flag": null,
+        "text": "No Middle Liddell entry; LSJ's δόμα is *gift*, then *payment*."
+      },
+      {
+        "lemma": "ἔτι ζῶντος αὐτοῦ",
+        "flag": null,
+        "text": "The genitive absolute, `living`, as καθημένου at 18:1."
+      },
+      {
+        "lemma": "παλλακῶν",
+        "flag": null,
+        "text": "παλλακή, filed under παλλακίς, the chain of GEN 22:24."
+      }
+    ],
+    "reading": "and [[to the sons|to the sons]] [[of the concubines|of the concubines, of the mistresses]] of him [[gave|gave, granted, provided, gave over and delivered up]] [[name:Αβρααμ]] [[gifts|gifts, payments]] and [[sent quite away|sent quite away, dispatched]] them [[from|from, away from, far from, apart from]] [[name:Ισαακ]] the son of him [[yet|yet, as yet, still, further, besides, moreover]] [[living|living, being in full life and strength, being fresh and strong]] of him [[toward|toward, facing, oriented to, in living motion and address toward]] [[risings|risings, rises, the quarter of sunrise, the east]] [[into|into, to, in, rest in]] [[earth|earth, land, the ground]] [[of risings|of risings, of rises, of the quarter of sunrise, of the east]].",
+    "names": [
+      {
+        "greek": "Αβρααμ",
+        "unanchored": "Abraam",
+        "anchored": "Abraham",
+        "bare": true
+      },
+      {
+        "greek": "Ισαακ",
+        "unanchored": "Isaak",
+        "anchored": "Isaac",
+        "bare": true
+      }
+    ]
+  },
+  {
+    "ref": "GEN 25:7",
+    "greek": "Ταῦτα δὲ τὰ ἔτη ἡμερῶν ζωῆς Αβρααμ, ὅσα ἔζησεν· ἑκατὸν ἑβδομήκοντα πέντε ἔτη.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 36",
+    "hint": "These are the years of the days of Abraham's life, as many as he lived: a hundred and seventy-five years.",
+    "notes": [
+      {
+        "lemma": "ἔτη ἡμερῶν ζωῆς",
+        "flag": null,
+        "text": "Three genitives in a row, as the Hebrew *šĕnê ḥayyê ʾabrāhām*, *the years of the life of Abraham*, with *days* added."
+      }
+    ],
+    "reading": "[[these|these, the nearer, what follows]] [[but|but, however, whereas, on the other hand]], the years [[of days|of days, of day-breaks, of times]] [[of the life|of the life, of the means of life and substance, of existence, of a way of life]] [[name:Αβρααμ]], [[as great as|as great as, as much as, as far as, as long as, as many as]] [[lived|lived, was in full life and strength, was fresh and strong]]; hundred seventy five years.",
+    "names": [
+      {
+        "greek": "Αβρααμ",
+        "unanchored": "Abraam",
+        "anchored": "Abraham",
+        "bare": true
+      }
+    ]
+  },
+  {
+    "ref": "GEN 25:8",
+    "greek": "καὶ ἐκλιπὼν ἀπέθανεν Αβρααμ ἐν γήρει καλῷ πρεσβύτης καὶ πλήρης ἡμερῶν καὶ προσετέθη πρὸς τὸν λαὸν αὐτοῦ.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 36",
+    "hint": "Abraham fails and dies in a good old age, an old man full of days, and is gathered to his people.",
+    "notes": [
+      {
+        "lemma": "προσετέθη πρὸς τὸν λαὸν αὐτοῦ",
+        "flag": "divergence",
+        "text": "[[flag]] The Hebrew is *wayyēʾāsep ʾel-ʿammāyw*, *and he was gathered to his peoples*. The Greek has προστίθημι, *to put to*, in the passive, and the people in the singular."
+      },
+      {
+        "lemma": "ἐκλιπών",
+        "flag": null,
+        "text": "ἐκλείπω, the chain of GEN 8:13, in the aorist participle: the Hebrew is *wayyigwaʿ*, *and he expired*."
+      },
+      {
+        "lemma": "πρεσβύτης καὶ πλήρης",
+        "flag": null,
+        "text": "πρεσβύτης is *= πρέσβυς I*, whose first sense is *an old man*; πλήρης's first sense is untranslated in Middle Liddell, and its first English is *filled*."
+      }
+    ],
+    "reading": "and [[having left out|having left out, having omitted and passed over, having forsaken and deserted and abandoned, having suffered an eclipse, having died, having left off and ceased and stopped, having failed and been wanting]] [[died off|died off, died, was put to death, was slain]] [[name:Αβρααμ]] [[in old age|within, inside of, and by means of old age, the latter part of life]] [[beautiful|beautiful, beauteous, fair, good]] [[old man|old man, elder]] and [[filled|filled, infected by, satiated with, filled with, full, full of people, full and complete]] [[of days|of days, of day-breaks, of times]] and [[was put to|was put to, was handed over and delivered, was given and bestowed, was imposed further, was attributed, was added]] [[toward|toward, facing, oriented to, in living motion and address toward]] [[the people|the people, the men, the soldiers, the land-army, the common men, the folk, the Jews, the Christians]] of him.",
+    "names": [
+      {
+        "greek": "Αβρααμ",
+        "unanchored": "Abraam",
+        "anchored": "Abraham",
+        "bare": true
+      }
+    ]
+  },
+  {
+    "ref": "GEN 25:9",
+    "greek": "καὶ ἔθαψαν αὐτὸν Ισαακ καὶ Ισμαηλ οἱ υἱοὶ αὐτοῦ εἰς τὸ σπήλαιον τὸ διπλοῦν εἰς τὸν ἀγρὸν Εφρων τοῦ Σααρ τοῦ Χετταίου, ὅ ἐστιν ἀπέναντι Μαμβρη,",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 36",
+    "hint": "Isaac and Ishmael his sons bury him in the double cave, in the field of Ephron son of Zohar the Hittite, facing Mamre,",
+    "notes": [
+      {
+        "lemma": "τὸ σπήλαιον τὸ διπλοῦν",
+        "flag": null,
+        "text": "σπήλαιον and διπλοῦς, the chains of GEN 23:9."
+      },
+      {
+        "lemma": "Εφρων τοῦ Σααρ τοῦ Χετταίου",
+        "flag": null,
+        "text": "The article with the genitive, *the one of Saar*, as at 23:8; the article before the people's name is not printed."
+      },
+      {
+        "lemma": "οἱ υἱοί",
+        "flag": "variant",
+        "text": "[[flag]] Codex Alexandrinus puts δύο before it; the Berlin papyrus, 911, does not."
+      }
+    ],
+    "reading": "and [[paid the last dues to a corpse|paid the last dues to a corpse, honoured with funeral rites, buried, interred]] him [[name:Ισαακ]] and [[name:Ισμαηλ]] the sons of him [[into|into, to, in, rest in]] [[the grotto|the grotto, the cave, the cavern]] the [[twofold|twofold, double, double-minded and treacherous]] [[into|into, to, in, rest in]] [[the field|the field, the lands, the farm, the country]] [[name:Εφρων]] the of [[name:Σααρ]] [[name:Χετταίου]], which is [[opposite|opposite, against]] [[name:Μαμβρη]],",
+    "names": [
+      {
+        "greek": "Ισαακ",
+        "unanchored": "Isaak",
+        "anchored": "Isaac",
+        "bare": true
+      },
+      {
+        "greek": "Ισμαηλ",
+        "unanchored": "Ismaēl",
+        "anchored": "Ishmael",
+        "gloss": "(Ισμαηλ, from Hebrew Yišmāʿēʾl, \"God hears\")"
+      },
+      {
+        "greek": "Εφρων",
+        "unanchored": "Ephrōn",
+        "anchored": "Ephron",
+        "gloss": "(Εφρων, from Hebrew ʿEprôn, of uncertain meaning)"
+      },
+      {
+        "greek": "Σααρ",
+        "unanchored": "Saar",
+        "anchored": "Zohar",
+        "gloss": "(Σααρ, from Hebrew Ṣōḥar, of uncertain meaning)"
+      },
+      {
+        "greek": "Χετταίου",
+        "unanchored": "Chettaiou",
+        "anchored": "Hittite",
+        "gloss": "(Χετταῖος, the man of Χετ, Heth; Hebrew Ḥittî)"
+      },
+      {
+        "greek": "Μαμβρη",
+        "unanchored": "Mambrē",
+        "anchored": "Mamre",
+        "gloss": "(Μαμβρη, from Hebrew Mamrēʾ, of uncertain meaning)"
+      }
+    ]
+  },
+  {
+    "ref": "GEN 25:10",
+    "greek": "τὸν ἀγρὸν καὶ τὸ σπήλαιον, ὃ ἐκτήσατο Αβρααμ παρὰ τῶν υἱῶν Χετ, ἐκεῖ ἔθαψαν Αβρααμ καὶ Σαρραν τὴν γυναῖκα αὐτοῦ.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 36",
+    "hint": "the field and the cave that Abraham bought from the sons of Heth; there they buried Abraham and Sarah his wife.",
+    "notes": [
+      {
+        "lemma": "ἐκτήσατο",
+        "flag": null,
+        "text": "κτάομαι is first *to procure for oneself, to get, gain, acquire*."
+      }
+    ],
+    "reading": "[[the field|the field, the lands, the farm, the country]] and [[the grotto|the grotto, the cave, the cavern]], which [[procured for himself|procured for himself, got, gained, acquired, brought upon himself and incurred, procured for another]] [[name:Αβρααμ]] [[from the side of|from the side of, from beside, from, near]] of the sons [[name:Χετ]], [[there|there, in that place]] [[paid the last dues to a corpse|paid the last dues to a corpse, honoured with funeral rites, buried, interred]] [[name:Αβρααμ]] and [[name:Σαρραν]] [[the woman|the woman, the mistress and lady, the wife and spouse]] of him.",
+    "names": [
+      {
+        "greek": "Αβρααμ",
+        "unanchored": "Abraam",
+        "anchored": "Abraham",
+        "bare": true
+      },
+      {
+        "greek": "Χετ",
+        "unanchored": "Chet",
+        "anchored": "Heth",
+        "gloss": "(Χετ, from Hebrew Ḥēt, of uncertain meaning)"
+      },
+      {
+        "greek": "Σαρραν",
+        "unanchored": "Sarran",
+        "anchored": "Sarah",
+        "gloss": "(Σαρρα, from Hebrew Śārâ, \"princess\")"
+      }
+    ]
+  },
+  {
+    "ref": "GEN 25:11",
+    "greek": "ἐγένετο δὲ μετὰ τὸ ἀποθανεῖν Αβρααμ εὐλόγησεν ὁ θεὸς Ισαακ τὸν υἱὸν αὐτοῦ· καὶ κατῴκησεν Ισαακ παρὰ τὸ φρέαρ τῆς ὁράσεως.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 36",
+    "hint": "After Abraham's death God blesses Isaac his son, and Isaac settles by the Well of the Vision.",
+    "notes": [
+      {
+        "lemma": "μετὰ τὸ ἀποθανεῖν Αβρααμ",
+        "flag": null,
+        "text": "The article before the infinitive is not printed; Αβρααμ is its accusative subject."
+      },
+      {
+        "lemma": "τὸ φρέαρ τῆς ὁράσεως",
+        "flag": null,
+        "text": "As at 24:62, and the name of 16:14."
+      },
+      {
+        "lemma": "Ισαακ",
+        "flag": "variant",
+        "text": "[[flag]] Codex Alexandrinus puts τόν before the first Ισαακ; the Berlin papyrus, 911, does not."
+      }
+    ],
+    "reading": "[[came into being|came to be, arose, was brought into existence]] [[but|but, however, whereas, on the other hand]], [[into the middle of|into the middle of, coming among, in pursuit and quest of, after]] [[to die off|to die off, to die, to be put to death, to be slain]] [[name:Αβρααμ]] [[spoke well of|spoke well of, praised, honoured, blessed]] [[the God|him who is God definitively, the one the article marks out, the known and the only]] [[name:Ισαακ]] the son of him; and [[dwelt in|dwelt in, settled in, colonised, inhabited, settled and dwelt, lay and was situate]] [[name:Ισαακ]] [[beside|beside, alongside of, by, at, before, with]] [[the well|the well, the tank and cistern and reservoir, the oil jar]] [[of the seeing|of the seeing, of the act of sight, of the vision]].",
+    "names": [
+      {
+        "greek": "Αβρααμ",
+        "unanchored": "Abraam",
+        "anchored": "Abraham",
+        "bare": true
+      },
+      {
+        "greek": "Ισαακ",
+        "unanchored": "Isaak",
+        "anchored": "Isaac",
+        "bare": true
+      }
+    ]
+  },
+  {
+    "ref": "GEN 25:12",
+    "greek": "Αὗται δὲ αἱ γενέσεις Ισμαηλ τοῦ υἱοῦ Αβρααμ, ὃν ἔτεκεν Αγαρ ἡ παιδίσκη Σαρρας τῷ Αβρααμ,",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 36",
+    "hint": "These are the generations of Ishmael, Abraham's son, whom Hagar the Egyptian, Sarah's maid, bore to Abraham.",
+    "notes": [
+      {
+        "lemma": "αἱ γενέσεις",
+        "flag": null,
+        "text": "γένεσις, the chain of GEN 2:4, in the plural, as at 6:9."
+      }
+    ],
+    "reading": "[[these|these, the nearer, what follows]] [[but|but, however, whereas, on the other hand]], [[the origins|the origins, the sources, the productive causes, the beginnings, the manners of birth, the races and descents, the productions and generations, the creations and the created things]] [[name:Ισμαηλ]] the son [[name:Αβρααμ]], whom [[brought into the world|brought into the world, brought forth, bore, produced]] [[name:Αγαρ]] [[the young girl|the young girl, the maiden, the young slave, the courtesan]] [[name:Σαρρας]] to [[name:Αβρααμ]],",
+    "names": [
+      {
+        "greek": "Ισμαηλ",
+        "unanchored": "Ismaēl",
+        "anchored": "Ishmael",
+        "bare": true
+      },
+      {
+        "greek": "Αβρααμ",
+        "unanchored": "Abraam",
+        "anchored": "Abraham",
+        "bare": true
+      },
+      {
+        "greek": "Αγαρ",
+        "unanchored": "Agar",
+        "anchored": "Hagar",
+        "gloss": "(Αγαρ, from Hebrew Hāgār, of uncertain meaning)"
+      },
+      {
+        "greek": "Σαρρας",
+        "unanchored": "Sarras",
+        "anchored": "Sarah",
+        "bare": true
+      }
+    ]
+  },
+  {
+    "ref": "GEN 25:13",
+    "greek": "καὶ ταῦτα τὰ ὀνόματα τῶν υἱῶν Ισμαηλ κατʼ ὄνομα τῶν γενεῶν αὐτοῦ· πρωτότοκος Ισμαηλ Ναβαιωθ καὶ Κηδαρ καὶ Ναβδεηλ καὶ Μασσαμ",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 36",
+    "hint": "These are the names of Ishmael's sons by their generations: Nebaioth his first-born, Kedar, Nabdeel, Mibsam,",
+    "notes": [
+      {
+        "lemma": "κατʼ ὄνομα τῶν γενεῶν αὐτοῦ",
+        "flag": null,
+        "text": "γενεά is first *race, stock, family*, then *a race, generation*."
+      },
+      {
+        "lemma": "πρωτότοκος",
+        "flag": null,
+        "text": "πρωτότοκος, one sense, *first-born*: plain text, as at 10:15."
+      }
+    ],
+    "reading": "and [[these|these, the nearer, what follows]] [[names|names, fames, mere names, phrases and expressions]] of the sons [[name:Ισμαηλ]] [[down|down, downwards, down from, down upon, over, upon]] [[a name|a name, fame, a mere name, a phrase and expression]] [[of the races|of the races, of the stocks and families, of the breeds, of the tribes and nations, of the races and generations, of the offspring, of the birth-places, of the ages and times of life, of the times of birth]] of him; first-born [[name:Ισμαηλ]] [[name:Ναβαιωθ]] and [[name:Κηδαρ]] and [[name:Ναβδεηλ]] and [[name:Μασσαμ]]",
+    "names": [
+      {
+        "greek": "Ισμαηλ",
+        "unanchored": "Ismaēl",
+        "anchored": "Ishmael",
+        "bare": true
+      },
+      {
+        "greek": "Ναβαιωθ",
+        "unanchored": "Nabaiōth",
+        "anchored": "Nebaioth",
+        "gloss": "(Ναβαιωθ, from Hebrew Nĕbāyôt, of uncertain meaning)"
+      },
+      {
+        "greek": "Κηδαρ",
+        "unanchored": "Kēdar",
+        "anchored": "Kedar",
+        "gloss": "(Κηδαρ, from Hebrew Qēdār, usually connected with qādar, \"to be dark\")"
+      },
+      {
+        "greek": "Ναβδεηλ",
+        "unanchored": "Nabdeēl",
+        "anchored": "Nabdeel",
+        "bare": true
+      },
+      {
+        "greek": "Μασσαμ",
+        "unanchored": "Massam",
+        "anchored": "Mibsam",
+        "gloss": "(Μασσαμ, for Hebrew Mibśām, usually connected with bōśem, \"balsam, spice\")"
+      }
+    ]
+  },
+  {
+    "ref": "GEN 25:14",
+    "greek": "καὶ Μασμα καὶ Ιδουμα καὶ Μασση",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 36",
+    "hint": "Mishma, Dumah, Massa,",
+    "notes": [
+      {
+        "lemma": "Μασση",
+        "flag": null,
+        "text": "Rahlfs prints no punctuation at the end of the verse."
+      }
+    ],
+    "reading": "and [[name:Μασμα]] and [[name:Ιδουμα]] and [[name:Μασση]]",
+    "names": [
+      {
+        "greek": "Μασμα",
+        "unanchored": "Masma",
+        "anchored": "Mishma",
+        "gloss": "(Μασμα, from Hebrew Mišmāʿ, usually connected with šāmaʿ, \"to hear\")"
+      },
+      {
+        "greek": "Ιδουμα",
+        "unanchored": "Idouma",
+        "anchored": "Dumah",
+        "gloss": "(Ιδουμα, for Hebrew Dûmâ, usually connected with dāmam, \"to be silent\")"
+      },
+      {
+        "greek": "Μασση",
+        "unanchored": "Massē",
+        "anchored": "Massa",
+        "gloss": "(Μασση, from Hebrew Maśśāʾ, usually connected with nāśāʾ, \"to lift, bear\")"
+      }
+    ]
+  },
+  {
+    "ref": "GEN 25:15",
+    "greek": "καὶ Χοδδαδ καὶ Θαιμαν καὶ Ιετουρ καὶ Ναφες καὶ Κεδμα.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 36",
+    "hint": "Hadad, Tema, Jetur, Naphish and Kedemah.",
+    "notes": [
+      {
+        "lemma": "Χοδδαδ",
+        "flag": "variant",
+        "text": "[[flag]] Codex Alexandrinus reads Χοδδαν."
+      }
+    ],
+    "reading": "and [[name:Χοδδαδ]] and [[name:Θαιμαν]] and [[name:Ιετουρ]] and [[name:Ναφες]] and [[name:Κεδμα]].",
+    "names": [
+      {
+        "greek": "Χοδδαδ",
+        "unanchored": "Choddad",
+        "anchored": "Hadad",
+        "gloss": "(Χοδδαδ, for Hebrew Ḥădad, the name of a storm-god)"
+      },
+      {
+        "greek": "Θαιμαν",
+        "unanchored": "Thaiman",
+        "anchored": "Teman",
+        "bare": true
+      },
+      {
+        "greek": "Ιετουρ",
+        "unanchored": "Ietour",
+        "anchored": "Jetur",
+        "gloss": "(Ιετουρ, from Hebrew Yĕṭûr, of uncertain meaning)"
+      },
+      {
+        "greek": "Ναφες",
+        "unanchored": "Naphes",
+        "anchored": "Naphish",
+        "gloss": "(Ναφες, from Hebrew Nāpîš, usually connected with nepeš, \"breath, soul\")"
+      },
+      {
+        "greek": "Κεδμα",
+        "unanchored": "Kedma",
+        "anchored": "Kedemah",
+        "gloss": "(Κεδμα, from Hebrew Qēdĕmâ, usually connected with qedem, \"east\")"
+      }
+    ]
+  },
+  {
+    "ref": "GEN 25:16",
+    "greek": "οὗτοί εἰσιν οἱ υἱοὶ Ισμαηλ καὶ ταῦτα τὰ ὀνόματα αὐτῶν ἐν ταῖς σκηναῖς αὐτῶν καὶ ἐν ταῖς ἐπαύλεσιν αὐτῶν· δώδεκα ἄρχοντες κατὰ ἔθνη αὐτῶν.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 36",
+    "hint": "These are Ishmael's sons and their names in their tents and their folds: twelve rulers by their nations.",
+    "notes": [
+      {
+        "lemma": "ἐπαύλεσιν",
+        "flag": null,
+        "text": "ἔπαυλις, one sense, *a fold*, with ἐν."
+      },
+      {
+        "lemma": "ἔθνη",
+        "flag": "variant",
+        "text": "[[flag]] Codex Alexandrinus has the singular, ἔθνος."
+      }
+    ],
+    "reading": "[[these|these, the nearer, what follows]] are the sons [[name:Ισμαηλ]] and [[these|these, the nearer, what follows]] [[names|names, fames, mere names, phrases and expressions]] of them [[in the covered places|within, inside of, and by means of the covered places, the tents, the camps, the dwelling-places, the temples]] of them and [[in the folds|within, inside of, and by means of the folds]] of them; twelve [[the rulers|the rulers, the commanders, the chiefs, the captains, the chief magistrates]] [[down|down, downwards, down from, down upon, over, upon]] [[races|races, stocks and families, breeds, tribes and nations, generations, offspring, birth-places, ages and times of life]] of them.",
+    "names": [
+      {
+        "greek": "Ισμαηλ",
+        "unanchored": "Ismaēl",
+        "anchored": "Ishmael",
+        "bare": true
+      }
+    ]
+  },
+  {
+    "ref": "GEN 25:17",
+    "greek": "καὶ ταῦτα τὰ ἔτη τῆς ζωῆς Ισμαηλ· ἑκατὸν τριάκοντα ἑπτὰ ἔτη· καὶ ἐκλιπὼν ἀπέθανεν καὶ προσετέθη πρὸς τὸ γένος αὐτοῦ.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 36",
+    "hint": "These are the years of Ishmael's life: a hundred and thirty-seven years; and he fails and dies and is gathered to his race.",
+    "notes": [
+      {
+        "lemma": "προσετέθη πρὸς τὸ γένος αὐτοῦ",
+        "flag": "divergence",
+        "text": "[[flag]] The Hebrew is *wayyēʾāsep ʾel-ʿammāyw*, *and he was gathered to his peoples*, as at 25:8. The Greek has *to the race of him*."
+      }
+    ],
+    "reading": "and [[these|these, the nearer, what follows]] the years [[of the life|of the life, of the means of life and substance, of existence, of a way of life]] [[name:Ισμαηλ]]; hundred thirty seven years; and [[having left out|having left out, having omitted and passed over, having forsaken and deserted and abandoned, having suffered an eclipse, having died, having left off and ceased and stopped, having failed and been wanting]] [[died off|died off, died, was put to death, was slain]] and [[was put to|was put to, was handed over and delivered, was given and bestowed, was imposed further, was attributed, was added]] [[toward|toward, facing, oriented to, in living motion and address toward]] [[the race|the race, the stock and family, the offspring and posterity, the clan and house, the tribe and caste, the breed, the age and generation, the sex and gender, the class and sort]] of him.",
+    "names": [
+      {
+        "greek": "Ισμαηλ",
+        "unanchored": "Ismaēl",
+        "anchored": "Ishmael",
+        "bare": true
+      }
+    ]
+  },
+  {
+    "ref": "GEN 25:18",
+    "greek": "κατῴκησεν δὲ ἀπὸ Ευιλατ ἕως Σουρ, ἥ ἐστιν κατὰ πρόσωπον Αἰγύπτου, ἕως ἐλθεῖν πρὸς Ἀσσυρίους· κατὰ πρόσωπον πάντων τῶν ἀδελφῶν αὐτοῦ κατῴκησεν.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 36",
+    "hint": "He settles from Havilah to Shur, which faces Egypt, as far as Assyria; he settles facing all his brothers.",
+    "notes": [
+      {
+        "lemma": "κατὰ πρόσωπον πάντων τῶν ἀδελφῶν αὐτοῦ κατῴκησεν",
+        "flag": "divergence",
+        "text": "[[flag]] The Hebrew is *ʿal-pĕnê kol-ʾeḥāyw nāpāl*, *he fell facing all his brothers*. The Greek has *settled*."
+      },
+      {
+        "lemma": "ἕως ἐλθεῖν",
+        "flag": null,
+        "text": "ἕως with the bare infinitive, a conjunction here, where ἕως Σουρ before it governs the name."
+      },
+      {
+        "lemma": "Σουρ",
+        "flag": "variant",
+        "text": "[[flag]] Codex Alexandrinus alone reads σουηλ."
+      }
+    ],
+    "reading": "[[dwelt in|dwelt in, settled in, colonised, inhabited, settled and dwelt, lay and was situate]] [[but|but, however, whereas, on the other hand]], [[from|from, away from, far from, apart from]] [[name:Ευιλατ]] [[until|until, till, while, so long as]] [[name:Σουρ]], which is [[down|down, downwards, down from, down upon, over, upon]] [[face|face, visage, countenance, look, outward appearance]] [[name:Αἰγύπτου]], [[until|until, till, while, so long as]] [[to come|to come, to go, to go back and return, to be going to and intend, to come within a little of and be near]] [[toward|toward, facing, oriented to, in living motion and address toward]] [[name:Ἀσσυρίους]]; [[down|down, downwards, down from, down upon, over, upon]] [[face|face, visage, countenance, look, outward appearance]] [[of all|of all, of the whole, of every, of every single]] of the brothers of him [[dwelt in|dwelt in, settled in, colonised, inhabited, settled and dwelt, lay and was situate]].",
+    "names": [
+      {
+        "greek": "Ευιλατ",
+        "unanchored": "Euilat",
+        "anchored": "Havilah",
+        "gloss": "(Ευιλατ, from Hebrew Ḥăwîlâ, usually connected with ḥôl, \"sand\")"
+      },
+      {
+        "greek": "Σουρ",
+        "unanchored": "Sour",
+        "anchored": "Shur",
+        "gloss": "(Σουρ, from Hebrew Šûr, \"wall\")"
+      },
+      {
+        "greek": "Αἰγύπτου",
+        "unanchored": "Aigyptou",
+        "anchored": "Egypt",
+        "gloss": "(Αἴγυπτος, the Greek name of the land; Hebrew Miṣrayim)"
+      },
+      {
+        "greek": "Ἀσσυρίους",
+        "unanchored": "Assyrious",
+        "anchored": "Assyrians",
+        "gloss": "(Ἀσσύριος, the Assyrian, from Aššur — their god, their city, and their land)"
+      }
+    ]
+  },
+  {
+    "ref": "GEN 25:19",
+    "greek": "Καὶ αὗται αἱ γενέσεις Ισαακ τοῦ υἱοῦ Αβρααμ· Αβρααμ ἐγέννησεν τὸν Ισαακ.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 36",
+    "hint": "And these are the generations of Isaac, Abraham's son: Abraham fathered Isaac.",
+    "notes": [
+      {
+        "lemma": "Αβρααμ ἐγέννησεν τὸν Ισαακ",
+        "flag": null,
+        "text": "The Hebrew is the same, *ʾabrāhām hôlîd ʾet-yiṣḥāq*."
+      }
+    ],
+    "reading": "And [[these|these, the nearer, what follows]] [[the origins|the origins, the sources, the productive causes, the beginnings, the manners of birth, the races and descents, the productions and generations, the creations and the created things]] [[name:Ισαακ]] the son [[name:Αβρααμ]]; [[name:Αβρααμ]] [[begot|begot, engendered, brought forth, produced]] [[name:Ισαακ]].",
+    "names": [
+      {
+        "greek": "Ισαακ",
+        "unanchored": "Isaak",
+        "anchored": "Isaac",
+        "bare": true
+      },
+      {
+        "greek": "Αβρααμ",
+        "unanchored": "Abraam",
+        "anchored": "Abraham",
+        "bare": true
+      }
+    ]
+  },
+  {
+    "ref": "GEN 25:20",
+    "greek": "ἦν δὲ Ισαακ ἐτῶν τεσσαράκοντα, ὅτε ἔλαβεν τὴν Ρεβεκκαν θυγατέρα Βαθουηλ τοῦ Σύρου ἐκ τῆς Μεσοποταμίας ἀδελφὴν Λαβαν τοῦ Σύρου ἑαυτῷ γυναῖκα.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, pp. 36–37",
+    "hint": "Isaac was forty years old when he took Rebekah, daughter of Bethuel the Syrian from Mesopotamia, sister of Laban the Syrian, as his wife.",
+    "notes": [
+      {
+        "lemma": "ἐκ τῆς Μεσοποταμίας",
+        "flag": "divergence",
+        "text": "[[flag]] The Hebrew is *mippaddan ʾărām*, *from Paddan-aram*. The Greek has Mesopotamia, as at 24:10."
+      },
+      {
+        "lemma": "τοῦ Σύρου",
+        "flag": "divergence",
+        "text": "[[flag]] The Hebrew is *hāʾărammî*, *the Aramean*. The Greek has *the Syrian*."
+      },
+      {
+        "lemma": "ἦν … ἐτῶν τεσσαράκοντα",
+        "flag": null,
+        "text": "ἦν of age, the formula of GEN 1:2 in full."
+      }
+    ],
+    "reading": "was, and kept on being as a standing and continuing condition and not a momentary one, [[but|but, however, whereas, on the other hand]], [[name:Ισαακ]] of years forty, [[when|when, sometimes]] [[took|took, received, took hold of and grasped and seized]] [[name:Ρεβεκκαν]] daughter [[name:Βαθουηλ]] [[name:Σύρου]] [[out of|out of, forth from, from]] [[name:Μεσοποταμίας]] sister [[name:Λαβαν]] [[name:Σύρου]] for himself [[woman|woman, mistress and lady, wife and spouse, mortal woman]].",
+    "names": [
+      {
+        "greek": "Ισαακ",
+        "unanchored": "Isaak",
+        "anchored": "Isaac",
+        "bare": true
+      },
+      {
+        "greek": "Ρεβεκκαν",
+        "unanchored": "Rebekkan",
+        "anchored": "Rebekah",
+        "gloss": "(Ρεβεκκα, from Hebrew Ribqâ, of uncertain meaning)"
+      },
+      {
+        "greek": "Βαθουηλ",
+        "unanchored": "Bathouēl",
+        "anchored": "Bethuel",
+        "gloss": "(Βαθουηλ, from Hebrew Bĕtûʾēl, of uncertain meaning)"
+      },
+      {
+        "greek": "Σύρου",
+        "unanchored": "Syrou",
+        "anchored": "Syrian",
+        "gloss": "(Σύρος, the man of Συρία, Syria; the Hebrew has ʾărammî, the Aramean)"
+      },
+      {
+        "greek": "Μεσοποταμίας",
+        "unanchored": "Mesopotamias",
+        "anchored": "Mesopotamia",
+        "gloss": "(Μεσοποταμία, Greek, \"the land between the rivers\", for Hebrew Paddan-ʾĂrām)"
+      },
+      {
+        "greek": "Λαβαν",
+        "unanchored": "Laban",
+        "anchored": "Laban",
+        "gloss": "(Λαβαν, from Hebrew Lābān, \"white\")"
+      }
+    ]
+  },
+  {
+    "ref": "GEN 25:21",
+    "greek": "ἐδεῖτο δὲ Ισαακ κυρίου περὶ Ρεβεκκας τῆς γυναικὸς αὐτοῦ, ὅτι στεῖρα ἦν· ἐπήκουσεν δὲ αὐτοῦ ὁ θεός, καὶ ἔλαβεν ἐν γαστρὶ Ρεβεκκα ἡ γυνὴ αὐτοῦ.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 37",
+    "hint": "Isaac prays to the Lord for Rebekah his wife, because she is barren; God hears him, and Rebekah conceives.",
+    "notes": [
+      {
+        "lemma": "ἐδεῖτο",
+        "flag": "divergence",
+        "text": "[[flag]] The Hebrew is *wayyeʿtar*, *and he entreated*. The Greek has δέομαι, whose first sense is *to lack, miss, stand in need of*."
+      },
+      {
+        "lemma": "ἔλαβεν ἐν γαστρί",
+        "flag": null,
+        "text": "*Took in belly*, the Greek idiom for conceiving; γαστήρ is first *the paunch, belly*, and *the womb* its second sense."
+      },
+      {
+        "lemma": "στεῖρα",
+        "flag": null,
+        "text": "στεῖρα, the entry of GEN 11:30."
+      }
+    ],
+    "reading": "[[was lacking|was lacking, was missing, was standing in need of, was in want and need, was asking for]] [[but|but, however, whereas, on the other hand]], [[name:Ισαακ]] [[of lord|of lord, of master, of the one having power and authority over]] [[round about|round about, around, about and near, about and for and on account of, about and concerning, for very]] [[name:Ρεβεκκας]] [[of the woman|of the woman, of the mistress and lady, of the wife and spouse]] of him, [[that|that, seeing that, although, for that, because, inasmuch as]] [[a cow that has not calved|a cow that has not calved, barren]] was, and kept on being as a standing and continuing condition and not a momentary one, [[hearkened|hearkened and gave ear to, heard, hearkened to and gave heed to]] [[but|but, however, whereas, on the other hand]], of him [[the God|him who is God definitively, the one the article marks out, the known and the only]], and [[took|took, received, took hold of and grasped and seized]] [[in belly|within, inside of, and by means of belly, paunch, the paunch stuffed with mince-meat and black-pudding and sausage, the womb]] [[name:Ρεβεκκα]] [[the woman|the woman, the mistress and lady, the wife and spouse]] of him.",
+    "names": [
+      {
+        "greek": "Ισαακ",
+        "unanchored": "Isaak",
+        "anchored": "Isaac",
+        "bare": true
+      },
+      {
+        "greek": "Ρεβεκκας",
+        "unanchored": "Rebekkas",
+        "anchored": "Rebekah",
+        "bare": true
+      },
+      {
+        "greek": "Ρεβεκκα",
+        "unanchored": "Rebekka",
+        "anchored": "Rebekah",
+        "bare": true
+      }
+    ]
+  },
+  {
+    "ref": "GEN 25:22",
+    "greek": "ἐσκίρτων δὲ τὰ παιδία ἐν αὐτῇ· εἶπεν δέ Εἰ οὕτως μοι μέλλει γίνεσθαι, ἵνα τί μοι τοῦτο; ἐπορεύθη δὲ πυθέσθαι παρὰ κυρίου,",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 37",
+    "speech": ["Εἰ"],
+    "hint": "The children leap inside her, and she says: If it is to be so with me, why is this happening to me? And she goes to inquire of the Lord.",
+    "notes": [
+      {
+        "lemma": "ἐσκίρτων",
+        "flag": null,
+        "text": "σκιρτάω, one sense, *to spring, leap, bound*."
+      },
+      {
+        "lemma": "ἵνα τί",
+        "flag": null,
+        "text": "*Why*, the ellipsis ἵνα τί γένηται, as at 12:19."
+      },
+      {
+        "lemma": "πυθέσθαι",
+        "flag": null,
+        "text": "πυνθάνομαι is first *to learn by hearsay* or *by inquiry*."
+      },
+      {
+        "lemma": "Εἰ",
+        "flag": null,
+        "text": "Capitalised because it opens direct speech, as Rahlfs prints it; listed in `speech` so the checks do not take it for a proper name."
+      }
+    ],
+    "reading": "[[were springing|were springing, were leaping, were bounding]] [[but|but, however, whereas, on the other hand]], [[the young children|the young children, the young slave-lads]] in her; [[said|said, spoke, declared, called by name, told]] [[but|but, however, whereas, on the other hand]], if [[in this way|in this way, in this manner, so, thus, even so, so much]] to me [[thinks of doing|thinks of doing, intends to do, is about to do, is destined to do, is like to do, delays and puts off and hesitates and scruples]] [[to come into being|to come to be, to arise, to be brought into existence]], [[that|that, in order that]] what to me [[this|this, the nearer, what follows]]? [[was driven|was driven, was carried, went, walked, marched, went across and passed]] [[but|but, however, whereas, on the other hand]], [[to learn by hearsay|to learn by hearsay, to learn, to hear, to hear of and hear tell of and hear news of, to inquire about]] [[from the side of|from the side of, from beside, from, near]] [[of lord|of lord, of master, of the one having power and authority over]],",
+    "names": []
+  },
+  {
+    "ref": "GEN 25:23",
+    "greek": "καὶ εἶπεν κύριος αὐτῇ Δύο ἔθνη ἐν τῇ γαστρί σού εἰσιν, καὶ δύο λαοὶ ἐκ τῆς κοιλίας σου διασταλήσονται· καὶ λαὸς λαοῦ ὑπερέξει, καὶ ὁ μείζων δουλεύσει τῷ ἐλάσσονι.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 37",
+    "speech": ["Δύο"],
+    "hint": "The Lord says: Two nations are in your womb, and two peoples will be separated from your belly; one people will be stronger than the other, and the greater will serve the smaller.",
+    "notes": [
+      {
+        "lemma": "λαὸς λαοῦ ὑπερέξει",
+        "flag": null,
+        "text": "ὑπερέχω with the genitive; λαός, the chain of GEN 14:16."
+      },
+      {
+        "lemma": "ὁ μείζων … τῷ ἐλάσσονι",
+        "flag": null,
+        "text": "μείζων, filed under μέγας, the chain of GEN 4:13; ἐλάσσων, MorphGNT's dictionary form, as at Romans 9:12, which quotes this verse."
+      },
+      {
+        "lemma": "Δύο",
+        "flag": null,
+        "text": "Capitalised because it opens direct speech, as Rahlfs prints it; listed in `speech` so the checks do not take it for a proper name."
+      }
+    ],
+    "reading": "and [[said|said, spoke, declared, called by name, told]] [[lord|lord, master, the one having power and authority over]] to her two [[races|races, stocks and families, breeds, tribes and nations, generations, offspring, birth-places, ages and times of life]] [[in the belly|within, inside of, and by means of the belly, the paunch, the paunch stuffed with mince-meat and black-pudding and sausage, the womb]] of you are, and two [[peoples|peoples, men, soldiers, land-armies, common men, folk, Jews, Christians]] [[out of|out of, forth from, from]] [[of the large cavity of the body|of the large cavity of the body, of the belly, of the intestines and bowels]] of you [[will be put asunder|will be put asunder, will be torn open, will be distinguished and defined, will be determined, will be given express orders]]; and people of people [[will hold over|will hold over, will have and hold above, will be above and rise above the horizon, will be above water, will rise above and overlook, will outflank, will overtop and exceed and outdo, will prevail, will get over and cross]], and [[the bigger|the bigger, the greater, the taller, the vaster, the stronger and mightier, the weightier and more important]] [[will be a slave|will be a slave, will serve and be subject to]] [[to the smaller|to the smaller, to the less, to the worse and worse off, to worse than and inferior to, to subservient to, to fewer, to the smaller number]].",
+    "names": []
+  },
+  {
+    "ref": "GEN 25:24",
+    "greek": "καὶ ἐπληρώθησαν αἱ ἡμέραι τοῦ τεκεῖν αὐτήν, καὶ τῇδε ἦν δίδυμα ἐν τῇ κοιλίᾳ αὐτῆς.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 37",
+    "hint": "Her days to give birth are fulfilled, and there are twins in her belly.",
+    "notes": [
+      {
+        "lemma": "τῇδε",
+        "flag": null,
+        "text": "ὅδε in the dative feminine, used of the place: `to this`."
+      },
+      {
+        "lemma": "δίδυμα",
+        "flag": null,
+        "text": "δίδυμος is *double, twofold, twain*, then *twin*."
+      },
+      {
+        "lemma": "κοιλίᾳ",
+        "flag": "variant",
+        "text": "[[flag]] The Berlin papyrus, 911, has κοιλίᾳ; Codex Alexandrinus reads γαστρί, as at 38:27."
+      }
+    ],
+    "reading": "and [[were made full|were made full, were filled full of, were gorged and satiated, were filled with, were manned, were made full and complete, were fulfilled and paid in full and made up]] the days [[to bring into the world|to bring into the world, to bring forth, to bear, to produce]] her, and [[to this|to this, to the immediate present, here and on the spot, thus, hither and to this spot, therefore and on this account]] was, and kept on being as a standing and continuing condition and not a momentary one, [[double|double, twofold, twain, twin, twins]] [[in the large cavity of the body|within, inside of, and by means of the large cavity of the body, the belly, the intestines and bowels]] of her.",
+    "names": []
+  },
+  {
+    "ref": "GEN 25:25",
+    "greek": "ἐξῆλθεν δὲ ὁ υἱὸς ὁ πρωτότοκος πυρράκης, ὅλος ὡσεὶ δορὰ δασύς· ἐπωνόμασεν δὲ τὸ ὄνομα αὐτοῦ Ησαυ.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 37",
+    "hint": "The first comes out ruddy, all over like a hairy hide; they name him Esau.",
+    "notes": [
+      {
+        "lemma": "πυρράκης",
+        "flag": null,
+        "text": "No Middle Liddell entry; LSJ's πυρράκης is a masculine noun of the first declension, *red, ruddy*: plain text."
+      },
+      {
+        "lemma": "ὅλος … δασύς",
+        "flag": null,
+        "text": "Middle Liddell has no ὅλος; LSJ's first sense is *whole, entire, complete in all its parts*. δασύς is first *thick with hair, hairy, shaggy, rough*."
+      },
+      {
+        "lemma": "Ησαυ",
+        "flag": null,
+        "text": "The Hebrew hears ʿĒśāw in the hairiness of the verse, śēʿār."
+      }
+    ],
+    "reading": "[[went out of|went out of, came out, went away and marched off, went forth]] [[but|but, however, whereas, on the other hand]], the son the first-born ruddy, [[whole|whole, entire, complete in all its parts, safe and sound, entire and utter, all]] [[just as if|just as if, as though, about]] [[skin|skin, hide]] [[thick with hair|thick with hair, hairy, shaggy, rough, downy, thick with leaves, thick with bushes and wood, bushy country]]; [[gave a surname|gave a surname, named, called, pronounced]] [[but|but, however, whereas, on the other hand]], [[the name|the name, the fame, the mere name, the phrase and expression]] of him [[name:Ησαυ]].",
+    "names": [
+      {
+        "greek": "Ησαυ",
+        "unanchored": "Ēsau",
+        "anchored": "Esau",
+        "gloss": "(Ησαυ, from Hebrew ʿĒśāw, usually connected with śēʿār, \"hair\", the hairiness of 25:25)"
+      }
+    ]
+  },
+  {
+    "ref": "GEN 25:26",
+    "greek": "καὶ μετὰ τοῦτο ἐξῆλθεν ὁ ἀδελφὸς αὐτοῦ, καὶ ἡ χεὶρ αὐτοῦ ἐπειλημμένη τῆς πτέρνης Ησαυ· καὶ ἐκάλεσεν τὸ ὄνομα αὐτοῦ Ιακωβ. Ισαακ δὲ ἦν ἐτῶν ἑξήκοντα, ὅτε ἔτεκεν αὐτοὺς Ρεβεκκα.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 37",
+    "hint": "After this his brother comes out, his hand holding Esau's heel; they call him Jacob. Isaac was sixty years old when she bore them.",
+    "notes": [
+      {
+        "lemma": "ἐπειλημμένη",
+        "flag": null,
+        "text": "The perfect middle participle of ἐπιλαμβάνομαι, whose middle is *to hold oneself by, lay hold of, catch*; the perfect's standing state."
+      },
+      {
+        "lemma": "Ιακωβ",
+        "flag": null,
+        "text": "The Hebrew hears Yaʿăqōb in ʿāqēb, *heel*, the πτέρνα of this verse."
+      },
+      {
+        "lemma": "ἦν … ἐτῶν ἑξήκοντα",
+        "flag": null,
+        "text": "ἦν of age, the formula of GEN 1:2 in full."
+      }
+    ],
+    "reading": "and [[into the middle of|into the middle of, coming among, in pursuit and quest of, after]] [[this|this, the nearer, what follows]] [[went out of|went out of, came out, went away and marched off, went forth]] the brother of him, and [[the hand|the hand, the hand and arm, the arm]] of him [[having held herself by|having held herself by and standing so, having laid hold of, having caught, having attacked, having made a seizure of, having got and obtained, having gained and reached, having attempted, having taken up and interrupted in speaking, having objected to]] [[of the heel|of the heel, of the under part of the heel, of the ham]] [[name:Ησαυ]]; and [[called|called, summoned, called to himself, invited]] [[the name|the name, the fame, the mere name, the phrase and expression]] of him [[name:Ιακωβ]]. [[name:Ισαακ]] [[but|but, however, whereas, on the other hand]], was, and kept on being as a standing and continuing condition and not a momentary one, of years sixty, [[when|when, sometimes]] [[brought into the world|brought into the world, brought forth, bore, produced]] them [[name:Ρεβεκκα]].",
+    "names": [
+      {
+        "greek": "Ησαυ",
+        "unanchored": "Ēsau",
+        "anchored": "Esau",
+        "bare": true
+      },
+      {
+        "greek": "Ιακωβ",
+        "unanchored": "Iakōb",
+        "anchored": "Jacob",
+        "gloss": "(Ιακωβ, from Hebrew Yaʿăqōb, which the Hebrew of 25:26 hears in ʿāqēb, \"heel\")"
+      },
+      {
+        "greek": "Ισαακ",
+        "unanchored": "Isaak",
+        "anchored": "Isaac",
+        "bare": true
+      },
+      {
+        "greek": "Ρεβεκκα",
+        "unanchored": "Rebekka",
+        "anchored": "Rebekah",
+        "bare": true
+      }
+    ]
+  },
+  {
+    "ref": "GEN 25:27",
+    "greek": "Ηὐξήθησαν δὲ οἱ νεανίσκοι, καὶ ἦν Ησαυ ἄνθρωπος εἰδὼς κυνηγεῖν ἄγροικος, Ιακωβ δὲ ἦν ἄνθρωπος ἄπλαστος οἰκῶν οἰκίαν.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 37",
+    "hint": "The boys grow up: Esau is a man who knows hunting, a man of the field; Jacob is a plain man, living in a house.",
+    "notes": [
+      {
+        "lemma": "ἄπλαστος οἰκῶν οἰκίαν",
+        "flag": "divergence",
+        "text": "[[flag]] The Hebrew is *ʾîš tām yōšēb ʾōhālîm*, *a blameless man dwelling in tents*. The Greek has ἄπλαστος, *not moulded*, and a house."
+      },
+      {
+        "lemma": "εἰδὼς κυνηγεῖν",
+        "flag": null,
+        "text": "οἶδα, the chain of GEN 3:5, in the participle; κυνηγέω, *to hunt, chase*."
+      },
+      {
+        "lemma": "ἄγροικος",
+        "flag": null,
+        "text": "ἄγροικος is first *of* or *in the country*; the two-termination adjective takes gender `C`."
+      }
+    ],
+    "reading": "[[were made large|were made large, were increased, were augmented, were increased in power and strengthened and exalted and aggrandised, were promoted to honour and glorified and magnified, grew and waxed and increased, grew up]] [[but|but, however, whereas, on the other hand]], [[the youths|the youths]], and was, and kept on being as a standing and continuing condition and not a momentary one, [[name:Ησαυ]] [[man|a man, a human being]] [[knowing|knowing, being assured, being versed in]] [[to hunt|to hunt, to chase]] [[of the country|of the country, in the country, dwelling in the country and a countryman and rustic, clownish and boorish and rude, rough and uncultivated]], [[name:Ιακωβ]] [[but|but, however, whereas, on the other hand]], was, and kept on being as a standing and continuing condition and not a momentary one, [[man|a man, a human being]] [[not moulded|not moulded, in its natural state and natural and unaffected]] [[dwelling in|dwelling in, settling in, colonising, inhabiting, settling and dwelling, lying and situate]] [[house|house, abode and dwelling, room and chamber, house of a god and temple, household goods and substance, household and family]].",
+    "names": [
+      {
+        "greek": "Ησαυ",
+        "unanchored": "Ēsau",
+        "anchored": "Esau",
+        "bare": true
+      },
+      {
+        "greek": "Ιακωβ",
+        "unanchored": "Iakōb",
+        "anchored": "Jacob",
+        "bare": true
+      }
+    ]
+  },
+  {
+    "ref": "GEN 25:28",
+    "greek": "ἠγάπησεν δὲ Ισαακ τὸν Ησαυ, ὅτι ἡ θήρα αὐτοῦ βρῶσις αὐτῷ· Ρεβεκκα δὲ ἠγάπα τὸν Ιακωβ.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 37",
+    "hint": "Isaac loves Esau, because his game is food for him; Rebekah loves Jacob.",
+    "notes": [
+      {
+        "lemma": "ἡ θήρα αὐτοῦ βρῶσις αὐτῷ",
+        "flag": null,
+        "text": "A verbless clause; θήρα is first *a hunting of wild beasts, the chase*, and βρῶσις the chain of GEN 2:9."
+      }
+    ],
+    "reading": "[[treated with affection|treated with affection, caressed, loved, was fond of, regarded with brotherly love, was well pleased and contented with, was content]] [[but|but, however, whereas, on the other hand]], [[name:Ισαακ]] [[name:Ησαυ]], [[that|that, seeing that, although, for that, because, inasmuch as]] [[the hunting of wild beasts|the hunting of wild beasts, the chase, the eager pursuit, the beast taken and the spoil and booty and prey and game]] of him [[meat|meat, eating, corrosion and rust]] to him; [[name:Ρεβεκκα]] [[but|but, however, whereas, on the other hand]], [[was treating with affection|was treating with affection, was caressing, was loving, was fond of, was regarding with brotherly love, was well pleased and contented with, was content]] [[name:Ιακωβ]].",
+    "names": [
+      {
+        "greek": "Ισαακ",
+        "unanchored": "Isaak",
+        "anchored": "Isaac",
+        "bare": true
+      },
+      {
+        "greek": "Ησαυ",
+        "unanchored": "Ēsau",
+        "anchored": "Esau",
+        "bare": true
+      },
+      {
+        "greek": "Ρεβεκκα",
+        "unanchored": "Rebekka",
+        "anchored": "Rebekah",
+        "bare": true
+      },
+      {
+        "greek": "Ιακωβ",
+        "unanchored": "Iakōb",
+        "anchored": "Jacob",
+        "bare": true
+      }
+    ]
+  },
+  {
+    "ref": "GEN 25:29",
+    "greek": "ἥψησεν δὲ Ιακωβ ἕψεμα· ἦλθεν δὲ Ησαυ ἐκ τοῦ πεδίου ἐκλείπων,",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 37",
+    "hint": "Jacob boils a stew; Esau comes in from the plain, fainting,",
+    "notes": [
+      {
+        "lemma": "ἕψεμα",
+        "flag": null,
+        "text": "LSJ files ἕψεμα as the late form of ἕψημα, *anything boiled*, then *vegetables fit for kitchen use*."
+      },
+      {
+        "lemma": "ἐκλείπων",
+        "flag": null,
+        "text": "ἐκλείπω, the chain of GEN 8:13: the Hebrew is *ʿāyēp*, *faint*."
+      }
+    ],
+    "reading": "[[boiled|boiled, seethed, smelted and refined, cherished]] [[but|but, however, whereas, on the other hand]], [[name:Ιακωβ]] [[anything boiled|anything boiled, vegetables for kitchen use]]; [[came|came, went, went back and returned, was going to and intended, came within a little of and was near]] [[but|but, however, whereas, on the other hand]], [[name:Ησαυ]] [[out of|out of, forth from, from]] [[of the plain|of the plain, of the flat, of the plain flat open country]] [[leaving out|leaving out, omitting and passing over, forsaking and deserting and abandoning, suffering an eclipse, dying, leaving off and ceasing and stopping, failing and being wanting]],",
+    "names": [
+      {
+        "greek": "Ιακωβ",
+        "unanchored": "Iakōb",
+        "anchored": "Jacob",
+        "bare": true
+      },
+      {
+        "greek": "Ησαυ",
+        "unanchored": "Ēsau",
+        "anchored": "Esau",
+        "bare": true
+      }
+    ]
+  },
+  {
+    "ref": "GEN 25:30",
+    "greek": "καὶ εἶπεν Ησαυ τῷ Ιακωβ Γεῦσόν με ἀπὸ τοῦ ἑψέματος τοῦ πυρροῦ τούτου, ὅτι ἐκλείπω. διὰ τοῦτο ἐκλήθη τὸ ὄνομα αὐτοῦ Εδωμ.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 37",
+    "speech": ["Γεῦσόν"],
+    "hint": "and says to Jacob: Let me taste this red stew, for I am fainting. That is why his name was called Edom.",
+    "notes": [
+      {
+        "lemma": "Γεῦσόν",
+        "flag": null,
+        "text": "γεύω in the active, one sense, *to give a taste of*: plain text; its middle senses, *to taste of*, belong to the other voice."
+      },
+      {
+        "lemma": "πυρροῦ",
+        "flag": null,
+        "text": "πυρρός is first *flame-coloured, yellowish-red*; the Hebrew ʾādōm is heard in the name Ἐδωμ."
+      },
+      {
+        "lemma": "ἐκλείπω",
+        "flag": "variant",
+        "text": "[[flag]] Codex Alexandrinus alone adds ἐγώ."
+      },
+      {
+        "lemma": "Γεῦσόν",
+        "flag": null,
+        "text": "Capitalised because it opens direct speech, as Rahlfs prints it; listed in `speech` so the checks do not take it for a proper name."
+      }
+    ],
+    "reading": "and [[said|said, spoke, declared, called by name, told]] [[name:Ησαυ]] to [[name:Ιακωβ]] give a taste of me [[from|from, away from, far from, apart from]] [[of anything boiled|of anything boiled, of vegetables for kitchen use]] the [[of flame-coloured|of flame-coloured, of yellowish-red, of red-haired, of red and tawny, of red with blushes]] [[of this|of this, of the nearer, of what follows]], [[that|that, seeing that, although, for that, because, inasmuch as]] [[I leave out|I leave out, I omit and pass over, I forsake and desert and abandon, I suffer an eclipse, I die, I leave off and cease and stop, I fail and am wanting]]. [[through|through, right through, by means of, by the agency of]] [[this|this, the nearer, what follows]] [[was called|was called, was summoned, was invited]] [[the name|the name, the fame, the mere name, the phrase and expression]] of him [[name:Εδωμ]].",
+    "names": [
+      {
+        "greek": "Ησαυ",
+        "unanchored": "Ēsau",
+        "anchored": "Esau",
+        "bare": true
+      },
+      {
+        "greek": "Ιακωβ",
+        "unanchored": "Iakōb",
+        "anchored": "Jacob",
+        "bare": true
+      },
+      {
+        "greek": "Εδωμ",
+        "unanchored": "Edōm",
+        "anchored": "Edom",
+        "gloss": "(Εδωμ, from Hebrew ʾĔdôm, which the Hebrew of 25:30 hears in ʾādōm, \"red\")"
+      }
+    ]
+  },
+  {
+    "ref": "GEN 25:31",
+    "greek": "εἶπεν δὲ Ιακωβ τῷ Ησαυ Ἀπόδου μοι σήμερον τὰ πρωτοτόκιά σου ἐμοί.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 37",
+    "speech": ["Ἀπόδου"],
+    "hint": "Jacob says: Sell me your birthright today.",
+    "notes": [
+      {
+        "lemma": "Ἀπόδου",
+        "flag": null,
+        "text": "The middle of ἀποδίδωμι, *to give away of one's own will, to sell*."
+      },
+      {
+        "lemma": "πρωτοτόκιά σου ἐμοί",
+        "flag": null,
+        "text": "The pronoun twice over, *of you* and *to me*, as the Hebrew *lî*."
+      },
+      {
+        "lemma": "Ἀπόδου",
+        "flag": null,
+        "text": "Capitalised because it opens direct speech, as Rahlfs prints it; listed in `speech` so the checks do not take it for a proper name."
+      }
+    ],
+    "reading": "[[said|said, spoke, declared, called by name, told]] [[but|but, however, whereas, on the other hand]], [[name:Ιακωβ]] to [[name:Ησαυ]] [[give away of your own will|give away of your own will, sell]] to me to-day [[the rights of the first-born|the rights of the first-born, the birthright]] of you to me.",
+    "names": [
+      {
+        "greek": "Ιακωβ",
+        "unanchored": "Iakōb",
+        "anchored": "Jacob",
+        "bare": true
+      },
+      {
+        "greek": "Ησαυ",
+        "unanchored": "Ēsau",
+        "anchored": "Esau",
+        "bare": true
+      }
+    ]
+  },
+  {
+    "ref": "GEN 25:32",
+    "greek": "εἶπεν δὲ Ησαυ Ἰδοὺ ἐγὼ πορεύομαι τελευτᾶν, καὶ ἵνα τί μοι ταῦτα τὰ πρωτοτόκια;",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 37",
+    "speech": ["Ἰδοὺ"],
+    "hint": "Esau says: Look, I am going to die; what use is the birthright to me?",
+    "notes": [
+      {
+        "lemma": "τελευτᾶν",
+        "flag": null,
+        "text": "τελευτάω is first *to complete, finish, accomplish*; *to end life, to die* is within its first sense."
+      },
+      {
+        "lemma": "Ἰδοὺ",
+        "flag": null,
+        "text": "Capitalised because it opens direct speech, as Rahlfs prints it; listed in `speech` so the checks do not take it for a proper name."
+      }
+    ],
+    "reading": "[[said|said, spoke, declared, called by name, told]] [[but|but, however, whereas, on the other hand]], [[name:Ησαυ]] [[lo|lo, behold, see there]] I [[I am driven|I am driven, I am carried, I go, I walk, I march, I go across and pass]] [[to complete|to complete, to finish, to accomplish, to bring to an end and finish life and die, to be accomplished, to come to an end, to die]], and [[that|that, in order that]] what to me [[these|these, the nearer, what follows]] [[the rights of the first-born|the rights of the first-born, the birthright]]?",
+    "names": [
+      {
+        "greek": "Ησαυ",
+        "unanchored": "Ēsau",
+        "anchored": "Esau",
+        "bare": true
+      }
+    ]
+  },
+  {
+    "ref": "GEN 25:33",
+    "greek": "καὶ εἶπεν αὐτῷ Ιακωβ Ὄμοσόν μοι σήμερον. καὶ ὤμοσεν αὐτῷ· ἀπέδοτο δὲ Ησαυ τὰ πρωτοτόκια τῷ Ιακωβ.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 37",
+    "speech": ["Ὄμοσόν"],
+    "hint": "Jacob says: Swear to me today. He swears to him, and sells Jacob his birthright.",
+    "notes": [
+      {
+        "lemma": "ἀπέδοτο",
+        "flag": null,
+        "text": "The middle of ἀποδίδωμι, as at 25:31."
+      },
+      {
+        "lemma": "Ὄμοσόν",
+        "flag": null,
+        "text": "Capitalised because it opens direct speech, as Rahlfs prints it; listed in `speech` so the checks do not take it for a proper name."
+      }
+    ],
+    "reading": "and [[said|said, spoke, declared, called by name, told]] to him [[name:Ιακωβ]] [[swear|swear, swear to and affirm and confirm by oath, swear that one will, swear by]] to me to-day. and [[swore|swore, swore to and affirmed and confirmed by oath, swore that one would, swore by]] to him; [[gave away of his own will|gave away of his own will, sold]] [[but|but, however, whereas, on the other hand]], [[name:Ησαυ]] [[the rights of the first-born|the rights of the first-born, the birthright]] to [[name:Ιακωβ]].",
+    "names": [
+      {
+        "greek": "Ιακωβ",
+        "unanchored": "Iakōb",
+        "anchored": "Jacob",
+        "bare": true
+      },
+      {
+        "greek": "Ησαυ",
+        "unanchored": "Ēsau",
+        "anchored": "Esau",
+        "bare": true
+      }
+    ]
+  },
+  {
+    "ref": "GEN 25:34",
+    "greek": "Ιακωβ δὲ ἔδωκεν τῷ Ησαυ ἄρτον καὶ ἕψεμα φακοῦ, καὶ ἔφαγεν καὶ ἔπιεν καὶ ἀναστὰς ᾤχετο· καὶ ἐφαύλισεν Ησαυ τὰ πρωτοτόκια.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 37",
+    "hint": "Jacob gives Esau bread and lentil stew; he eats and drinks, rises and goes. So Esau despised his birthright.",
+    "notes": [
+      {
+        "lemma": "ᾤχετο",
+        "flag": null,
+        "text": "οἴχομαι, the chain of GEN 12:4: the imperfect stands for a completed departure."
+      },
+      {
+        "lemma": "ἐφαύλισεν",
+        "flag": null,
+        "text": "φαυλίζω, one sense, *to hold cheap, to depreciate, disparage*."
+      }
+    ],
+    "reading": "[[name:Ιακωβ]] [[but|but, however, whereas, on the other hand]], [[gave|gave, granted, provided, gave over and delivered up]] to [[name:Ησαυ]] [[cake|cake, loaf of wheat-bread, bread]] and [[anything boiled|anything boiled, vegetables for kitchen use]] [[of lentil|of lentil, of its fruit]], and [[ate|ate, ate of]] and [[drank|drank, drank of, drank up]] and [[having stood up|having stood up, having risen, having risen to fight against, having risen to go and set out]] [[had gone|had gone, had been gone, had escaped from, had gone hence, was departed and dead, was absent and away, was undone and ruined, was rushing and sweeping along]]; and [[held cheap|held cheap, depreciated, disparaged]] [[name:Ησαυ]] [[the rights of the first-born|the rights of the first-born, the birthright]].",
+    "names": [
+      {
+        "greek": "Ιακωβ",
+        "unanchored": "Iakōb",
+        "anchored": "Jacob",
+        "bare": true
+      },
+      {
+        "greek": "Ησαυ",
+        "unanchored": "Ēsau",
+        "anchored": "Esau",
+        "bare": true
+      }
+    ]
+  }
+]
