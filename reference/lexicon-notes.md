@@ -115,6 +115,7 @@ Three reasons, and all of them are the lexicon's filing rather than a decision a
 | μήν, the month (GEN 7:11) | μείς | Middle Liddell's μήν is the particle, *verily*; the month is filed under its nominative μείς |
 | ἀνοίγω (GEN 7:11) | ἀνοίγνυμι | the -νυμι form heads the entry |
 | σφοδρῶς (GEN 7:19) | σφοδρός | the adverb, filed inside the adjective's entry |
+| μιμνήσκομαι (GEN 8:1) | μιμνήσκω | MorphGNT's middle, filed under the active |
 
 The dictionary form itself does not follow the lexicon's filing: it keeps the spelling the text
 prints — γίνομαι, ἔχθρα, νοσσιά, δειλινός, κατέναντι, ἐννακόσιοι, κατάγαιος, τεσσαράκοντα — and
@@ -425,6 +426,14 @@ the same ground as `the sixth` and `the seventh`: one sense each, so no range to
   `upon, over, and atop` (7:20), and with one `over and atop` (7:18), the forms of GEN 1:2; ὕδωρ,
   `the water`, `of water` (7:6–24); ἐν τῷ ἑξακοσιοστῷ ἔτει — `in the six hundredth year` (7:11),
   ἐν joined to plain words as at 2:8.
+- One sense each in GEN 8, so plain text: ἐλαττονόω `was being diminished` (8:3, 8:5, LSJ);
+  θυρίς `the window` (8:6); θυσιαστήριον `an altar`, `the altar` (8:20); εὐωδία `of a sweet smell`
+  (8:21). Ordinals stay plain as at 2:13 and 4:19, though δέκατος and πρῶτος have further senses,
+  *a tithe*, *foremost*: `the tenth`, `the eleventh`, `the first` (8:5, 8:13), and `month`.
+- ὁλοκάρπωσις — `whole burnt-offerings` (8:20): in neither Middle Liddell nor LSJ, which has only
+  the verb ὁλοκαρπόομαι, *to be offered as a whole burnt-offering*. Plain text, as σφυροκόπος.
+- εἷς as a numeral: ἐν τῷ ἑνὶ καὶ ἑξακοσιοστῷ ἔτει — `in the [[one]] and six
+  hundredth year` (8:13); μιᾷ τοῦ μηνός — `[[one]] of the month`, the chain of GEN 2:21.
 
 ### διά + genitive
 
@@ -1107,6 +1116,48 @@ order, *thicken* and *congeal* before *rear*, *keep* and *maintain*.
 where the Hebrew has *face of* at both; the chain of 1:2 is reused verbatim, and *face of the
 waters* is refused by `validate.py` here as there.
 
+### Verbs new in GEN 8
+
+| lemma | form | headword | chain | used |
+| --- | --- | --- | --- | --- |
+| μιμνήσκομαι | aor. pass. 3 sg | `reminded himself of` | `reminded himself of, called to mind, remembered, bethought himself of, was minded, bore in mind and did not forget` — the entry's *Mid. and Pass.*; *to remind*, the active, left out | 8:1 |
+| ἐπάγω | aor. 3 sg | `brought on` | the chain of GEN 6:17, in the aorist | 8:1 |
+| κοπάζω | aor. / perf. 3 sg | `grew weary` · `has grown weary` | `grew weary, abated` · `has grown weary and stands so, has abated and remains abated` | 8:1, 8:7, 8:8, 8:11 |
+| ἐπικαλύπτω | aor. pass. 3 pl | `were covered over` | the chain of GEN 7:19, in the passive | 8:2 |
+| συνέχω | aor. pass. 3 sg | `was held together` | `was held together, was kept together, was enclosed and encompassed and embraced, was kept from dispersing, was constrained and forced, was compressed and oppressed, was afflicted` | 8:2 |
+| ἐνδίδωμι | impf. 3 sg | `was giving in` | `was giving in, was giving into hands and giving up to, was lending, was giving, was causing and exciting, was showing and exhibiting, was allowing and granting and conceding, was giving way, was yielding` | 8:3 |
+| πορεύομαι | pres. ptcp. | `being driven` | the chain of GEN 2:14 | 8:3, 8:5 |
+| καθίζω | aor. 3 sg | `made to sit down` | `made to sit down, seated, set and placed, encamped, set up, sat down and was seated and took its seat, settled and sank in` — the causal first, as ὑπνόω at 2:21 | 8:4 |
+| ὁράω | aor. pass. 3 pl / aor. inf. / aor. 3 sg | `were seen` · `to see` · `saw` | `were seen, were looked at, were beheld and perceived and observed, were looked out for`; the chains of GEN 2:19 and 3:6 | 8:5, 8:7, 8:8, 8:13 |
+| ἀνοίγω | aor. 3 sg | `opened` | `opened, undid, laid open and unfolded and disclosed, got into the open sea` | 8:6 |
+| ἀποστέλλω | aor. 3 sg | `sent off` | `sent off, sent away, banished, despatched, went away and departed` | 8:7, 8:8 |
+| ἐξέρχομαι | aor. ptcp. / aor. 3 sg and 3 pl / aor. impv. | `having gone out of` · `went out of` · `go out of` | the chain of GEN 4:16, in the form | 8:7, 8:16, 8:18, 8:19 |
+| ὑποστρέφω | aor. 3 sg | `turned round about` | `turned round about, turned back, turned about and turned short round, returned, turned away and eluded` | 8:7, 8:9 |
+| ξηραίνω | aor. pass. inf. / aor. pass. 3 sg | `to be parched up` · `was parched up` | `to be parched up, to be dried up, to become dry and be parched, to be laid dry`, in the form | 8:7, 8:14 |
+| εὑρίσκω | aor. ptcp. fem. | `having found` | `having found, having found out, having discovered, having gotten and gained` | 8:9 |
+| ἐκτείνω | aor. ptcp. | `having stretched out` | the chain of GEN 3:22, in the participle | 8:9 |
+| λαμβάνω, εἰσάγω | aor. 3 sg | `took` · `led in` | the chains of GEN 2:15 and 6:19, in the aorist | 8:9, 8:20 |
+| ἐπέχω | aor. ptcp. | `having held upon` | `having held upon, having held out and presented and offered, having directed towards and aimed at, having intended and purposed, having faced, having kept in and held back and checked, having stayed and stopped and waited and paused, having reached and extended over` | 8:10, 8:12 |
+| ἐξαποστέλλω | aor. 3 sg | `sent quite away` | the chain of GEN 3:23 | 8:10, 8:12 |
+| ἀναστρέφω | aor. 3 sg | `turned upside down` | `turned upside down, upset, turned back and brought back, rallied, turned back and returned and retired, dwelt, conducted herself, revolved, faced about` | 8:11 |
+| ἔχω | impf. 3 sg | `was having` | the chain of GEN 7:22, in the imperfect | 8:11 |
+| γινώσκω | aor. 3 sg | `learned to know` | the chain of GEN 4:1 | 8:11 |
+| προστίθημι | aor. mid. 3 sg / fut. 1 sg | `put to` · `I will put to` | the chain of GEN 4:2, in the form | 8:12, 8:21 |
+| ἐπιστρέφω | aor. inf. | `to turn about` | `to turn about, to turn round, to return, to turn towards, to correct and make to repent` | 8:12 |
+| ἐκλείπω | aor. 3 sg | `left out` | `left out, omitted and passed over, forsook and deserted and abandoned, suffered an eclipse, died, left off and ceased and stopped, failed and was wanting` | 8:13 |
+| ἀποκαλύπτω | aor. 3 sg | `uncovered` | `uncovered, disclosed and revealed, revealed his whole mind` | 8:13 |
+| ἐξάγω | aor. impv. | `lead out` | `lead out, lead and carry out from, bring forth into the world, march out, eject, carry out and export, draw off, call forth and excite, lead on and tempt` | 8:17 |
+| αὐξάνω | pres. impv. pass. 2 pl | `be made large` | `be made large, be increased and augmented, be increased in power and strengthened and exalted, be promoted to honour and glorified and magnified, grow and wax and increase, grow up` — the passive's own *to grow* last | 8:17 |
+| πληθύνω | pres. impv. pass. 2 pl | `be made full` | `be made full, be increased, be multiplied, be in the majority, prevail` | 8:17 |
+| οἰκοδομέω | aor. 3 sg | `built a house` | the chain of GEN 2:22 | 8:20 |
+| ἀναφέρω | aor. 3 sg | `brought up` | `brought up, carried up, carried up the country, took with him, poured forth, heaved and uttered, upheld and took upon himself, offered and contributed, led up, carried back and recovered, brought back and reported, traced up` | 8:20 |
+| ὀσφραίνομαι | aor. 3 sg | `caught scent of` | `caught scent of, smelled, scented, tracked` | 8:21 |
+| διανοέομαι | aor. ptcp. | `having been minded` | the chain of GEN 6:6, in the participle | 8:21 |
+| καταράομαι | aor. inf. | `to call down curses upon` | the chain of GEN 5:29, in the infinitive | 8:21 |
+| ἔγκειμαι | pres. 3 sg | `lies in` | `lies in, is wrapped in, is involved in, presses upon, is urgent and insists, is devoted to` | 8:21 |
+| πατάσσω | aor. inf. | `to beat` | `to beat, to knock, to strike and smite, to knock at` | 8:21 |
+| καταπαύω | fut. 3 pl | `will lay to rest` | the chain of GEN 2:2, in the future | 8:22 |
+
 ---
 
 ## Nouns
@@ -1780,6 +1831,34 @@ it is a child; τρίβολος is a spiked iron for laming horses before it is 
 | πῆχυς (acc. pl.) | `fore-arms` | the chain of GEN 6:15, in the accusative | 7:20 |
 | πνοή | `a blowing` | the chain of GEN 2:7 | 7:22 |
 | κιβωτός with ἐν | `in the wooden box` | `within, inside of, and by means of the wooden box, the chest, the coffer` | 7:23 |
+
+### Nouns and adjectives new in GEN 8
+
+| lemma | headword | chain | used |
+| --- | --- | --- | --- |
+| κεφαλή (pl.) | `the heads` | `the heads, the whole persons, the lives, the tops, the sources, the crowns` — the chain of GEN 3:15 in the plural | 8:5 |
+| ὄρος (gen. pl.) | `of the mountains` | `of the mountains, of the hills` | 8:5 |
+| κόραξ | `the carrion-crow` | `the carrion-crow, the raven, the engine like a raven's beak for grappling ships, the hooked handle of a door, the instrument of torture` | 8:7 |
+| περιστερά | `the common pigeon` | `the common pigeon, the dove` | 8:8–12 |
+| ὀπίσω + genitive | `after` | `after, backwards, back and back again, again, hereafter, behind` — the entry's sense with the genitive | 8:8 |
+| ἀνάπαυσις | `repose` | `repose, rest, relaxation and recreation, rest from` | 8:9 |
+| πούς (dat. pl.) | `to the feet` | `to the feet, to the talons, to the feet of a hill` | 8:9 |
+| ἕτερος (pl.) | `other` | the chain of GEN 4:25 | 8:10, 8:12 |
+| πάλιν | `back` | `back, backwards, again and once more and anew, again in turn` | 8:10, 8:12 |
+| ἑσπέρα | `evening` | `evening, eventide, eve, nightfall, the west` | 8:11 |
+| φύλλον (sg.) | `leaf` | `leaf, foliage, petal, herb` — the chain of GEN 3:7 in the singular | 8:11 |
+| ἐλαία | `of olive-tree` | `of olive-tree, of olives, of the fruit of the olive-tree and olive` | 8:11 |
+| κάρφος | `a dry stalk` | `a dry stalk, dry sticks, dry twigs and chips and straws and bits of wool` | 8:11 |
+| στόμα with ἐν | `in the mouth` | `within, inside of, and by means of the mouth, the mouth as the organ of speech, the mouthpiece, the face, the chasm and cleft` — the chain of GEN 4:11 | 8:11 |
+| στέγη | `the roof` | `the roof, the roofed place, the chamber and room, the tent` | 8:13 |
+| πετεινόν, κτῆνος (anarthrous gen. pl.) | `of winged fowl` · `of flocks and herds` | the chains of GEN 6, without the article | 8:17 |
+| ὀσμή | `a smell` | `a smell, a scent, an odour` | 8:21 |
+| διάνοια | `the thought` | `the thought, the intention and purpose, the notion and opinion, the intelligence and understanding, the meaning` | 8:21 |
+| νεότης | `youth` | `youth, youthful spirit and impetuosity, rashness and petulance, a body of youth` | 8:21 |
+| ζάω (pres. ptcp.) | `living` | the chain of GEN 2:7 | 8:21 |
+| καθώς | `according as` | `according as, just as, like as if, exactly as, how` — the entry opens *= καθά* | 8:21 |
+| θερισμός, ψῦχος, καῦμα, θέρος, ἔαρ | `reaping-time` · `cold` · `burning heat` · `summer` · `spring` | `reaping-time, harvest, the crop` · `cold, winter-time, coolness` · `burning heat, sun-heat, fever-heat` · `summer, summertime, summer-fruits and harvest and crop` · `spring, prime and flower` | 8:22 |
+| ἡμέρα, νύξ (anarthrous acc. sg.) | `day` · `night-season` | `day, day-break, time` · `night-season, night, the watches of the night, the dark of night, the night of death` | 8:22 |
 
 ---
 

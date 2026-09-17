@@ -103,6 +103,11 @@ LSJ = {
     # then the senses below; GEN 7:23 renders the Hebrew yĕqûm, "living substance", with it.
     "ἀνάστημα": ["height", "protuberance, prominence", "high ground", "erection, building",
                  "eruption"],
+    # No Middle Liddell entry. LSJ (eng5): "diminish", citing GEN 8:3 for the passive.
+    "ἐλαττονόω": ["diminish"],
+    # Middle Liddell and LSJ both file πρῶτος inside πρότερος, whose own senses are the
+    # comparative's. LSJ (eng17) opens the superlative, πρότερος B, "foremost", then "first".
+    "πρῶτος": ["foremost", "first"],
 }
 
 # New Testament books: MorphGNT file and its book number.
@@ -270,6 +275,16 @@ NOT_SENSES = {
     "u(eto/s": {"a lasting", "a drizzling"},     # pieces of the distinction from ὄμβρος and ψακάς
     "katarra/kths": {"rushing down upon"},      # the reason the gull is named
     "e)calei/fw": {"to strike", "off"},         # from "to strike his name off the roll"
+    # GEN 8
+    # μιμνήσκω's active, "to remind", is another use; ἐμνήσθη is the middle, "to remind oneself of".
+    "mimnh/skw": {"to remind, put", "in mind", "of", "to recall to memory, make famous"},
+    "ko/rac": {'"pasce corvos," "go to the dogs," "go and be hanged,"'},  # an imprecation
+    "u(postre/fw": {"bringing back"},          # a piece of an example
+    "e)pe/xw": {"having put", "to his lips"},   # from "having put it to his lips"
+    "e)/gkeimai": {"clothes"},                  # from "wrapped in clothes"
+    "e)klei/pw": {"fails", "to appear"},        # from "fails not to appear"
+    "pata/ssw": {"knocks"},                     # a form in an example
+    "qe/ros": {"about"},                        # from "about summer"
     "e)nqume/omai": {"was not conscious"},      # a worked example
     "o)nomasto/s": {"not to be named", "mentioned", "abominable"},  # οὐκ ὀνομαστός, one construction
     "fqei/rw": {"may ye perish! ruin seize ye!", "plague take thee! away with thee!", "thou depart",
@@ -307,6 +322,7 @@ SPELLING = {
     "mh/n": "mei/s",
     "a)noi/gw": "a)noi/gnumi",     # the -νυμι form heads the entry
     "sfodrw=s": "sfodro/s",        # the adverb, filed inside the adjective's entry
+    "mimnh/skomai": "mimnh/skw",    # MorphGNT's middle, filed under the active
 }
 
 # Homographs where Perseus's *first* entry is a different word from the one the text

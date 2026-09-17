@@ -43,7 +43,7 @@ TEMPLATES = ROOT / "templates"
 SITE = ROOT / "site"
 
 # Chapters on the page, in order.
-PAGE = [("GEN", 1), ("GEN", 2), ("GEN", 3), ("GEN", 4), ("GEN", 5), ("GEN", 6), ("GEN", 7), ("JHN", 1)]
+PAGE = [("GEN", 1), ("GEN", 2), ("GEN", 3), ("GEN", 4), ("GEN", 5), ("GEN", 6), ("GEN", 7), ("GEN", 8), ("JHN", 1)]
 
 BOOKS = {
     "GEN": {

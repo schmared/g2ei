@@ -99,6 +99,15 @@ spelling the text prints, and the spelling the text prints was the rule. It is r
 what the filings do. Nothing else disagreed; the chapter's new small words — καθά, ἐπάνω and
 ἔξωθεν with and without a genitive, ἡ ξηρά — were added beforehand.
 
+### What it found in Genesis 8
+
+Two disagreements over 522 words, with ὀπίσω, καθώς, εἰ meaning *whether*, and the article before
+a prepositional phrase added beforehand. The second pass was right about Αραρατ at 8:4: τὰ ὄρη τὰ
+Αραρατ is *the mountains, those of Ararat*, the name a genitive after the article, as the Hebrew
+construct *hārê ʾărārāṭ* has it, and as the reference module reads it too. It filed ἐμνήσθη under
+μιμνήσκω where MorphGNT has the middle; the list of middle lemmas below had not named it, and now
+does.
+
 ## The brief
 
 Copy everything below the rule into a new agent. Replace `<BOOK NAME>`, `<CHAPTER>`,
@@ -142,7 +151,7 @@ N- noun · V- verb · A- adjective (numerals included) · RA article · RP perso
 
 Small words are tagged as MorphGNT tags them:
 
-- **C-** καί, δέ, γάρ, ὅτι, τε, ἵνα, οὖν, ἡνίκα, καθά; ἐάν meaning *if*; ὅτε introducing a clause, including
+- **C-** καί, δέ, γάρ, ὅτι, τε, ἵνα, οὖν, ἡνίκα, καθά, καθώς; εἰ, *if* or *whether*; ἐάν meaning *if*; ὅτε introducing a clause, including
   after a noun that is not a time (`ἡ μαρτυρία … ὅτε`, John 1:19); οὐδέ meaning *nor*; μήποτε
   meaning *lest*; ὡς meaning *as, like*, and the ὡς of `ὡς ἄν` (Rom 15:24), with ἄν `X-`
 - **X-** ἄν; ἐάν where it stands for ἄν after a relative (`ὃ ἐὰν θέλητε`, John 15:7); ἰδού;
@@ -151,7 +160,7 @@ Small words are tagged as MorphGNT tags them:
   even*; ὅτε after a noun of time (`ἔρχεται ὥρα ὅτε`, John 4:21); οὗ meaning *where*; ἐπάνω and
   ἔξωθεν with no genitive after them (1 Cor 15:6)
 - **P-** a word governing a genitive as a preposition does — ἐπάνω, ἀπέναντι, ἀνά, ἐναντίον,
-  ὑποκάτω, and ἔξωθεν with a genitive (Mark 7:15) — and ἕως
+  ὑποκάτω, ὀπίσω, and ἔξωθεν with a genitive (Mark 7:15) — and ἕως
   governing a genitive, an articular infinitive included
 
 ## Parse (column 3) — exactly 8 characters
@@ -199,7 +208,9 @@ Conventions:
   three times (Luke 2:49; Acts 5:4, 5:9).
 - `ἵνα τί`, *why*, printed as two words, is the ellipsis ἵνα τί γένηται: ἵνα `C-`, τί
   `RI ----NSN-`. (MorphGNT prints the pair as one word, ἱνατί, and so cannot guide it.)
-- `ὁ δέ`, *and he*, is still the article: `RA ----NSM-`, as MorphGNT codes it.
+- `ὁ δέ`, *and he*, is still the article: `RA ----NSM-`, as MorphGNT codes it. So is an article
+  standing before a prepositional phrase, in the case the phrase has in the sentence:
+  `τὸ πρὸς ἑσπέραν`, *toward evening*, `RA ----ASN-`.
 - Numerals take case, number and gender like any adjective — ἑπτά `A- ----APN-` beside a
   neuter plural — and a multiplicative adverb (ἑπτάκις) is `D-`. A number printed as several
   words (ἑκατὸν καὶ ἑξήκοντα πέντε, δέκα πέντε) is several words: each numeral agrees with the
@@ -221,7 +232,7 @@ The dictionary form as Middle Liddell (Perseus) files it:
 - Verbs with no active in use under their middle form, as MorphGNT files them: ἐργάζομαι,
   πορεύομαι, ἐκπορεύομαι, εἰσπορεύομαι, εἰσέρχομαι, ἐντέλλομαι, φοβέομαι, ἀπέρχομαι,
   καταράομαι, ἐκλέγομαι, ἐνθυμέομαι, θυμόομαι (for ἐθυμώθη, as MorphGNT has it at Matt 2:16),
-  διανοέομαι.
+  διανοέομαι, μιμνήσκομαι.
 - εἰδέναι → οἶδα · εἶπεν → λέγω · ἰδεῖν → ὁράω · φαγ- forms → ἐσθίω · μου → ἐγώ ·
   every article → ὁ.
 - The dictionary form keeps the spelling the text prints — γίνομαι, ἔχθρα, νοσσιά, δειλινός,
