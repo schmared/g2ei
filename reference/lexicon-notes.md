@@ -1121,7 +1121,6 @@ the same ground as `the sixth` and `the seventh`: one sense each, so no range to
 | ἀναστρέφω | `I will turn upside down` | `I will turn upside down, I will upset, I will turn back and bring back, I will rally, I will turn back and return and retire, I will dwell, I will conduct myself, I will revolve, I will face about` | 18:14 |
 | ἀπέρχομαι | `went away` | `went away, departed from, departed, departed from life` | 18:33 |
 | ἀποκρίνομαι | `having given answer to` | `having given answer to, having replied, having answered, having answered charges and defended himself` | 18:27 |
-| ἀποκρίνομαι | `the one having given answer to` | `the one having given answer to, having replied, having answered, having answered charges and defended himself` | 18:9 |
 | ἀποκτείνω | `to kill` | `to kill, to slay, to condemn to death` | 18:25 |
 | ἀποστρέφω | `having turned` | `having turned, having turned back, having turned away, having turned oneself about, having brought back` | 18:22 |
 | ἀποστρέφω | `turned` | `turned, turned back, turned away, turned himself about, brought back` | 18:33 |
