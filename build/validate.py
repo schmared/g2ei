@@ -309,7 +309,8 @@ def matches(candidate, entry_greek):
     least four letters, lengths within one of each other, and what differs no longer
     than a case ending. A Semitic name is indeclinable and matches only itself, so two
     names that merely begin alike stay two names — Αδα is not Αδαμ (GEN 4:19), and
-    Καιν is not Καιναν.
+    Καιν is not Καιναν. What differs must be a case ending on both sides, so a name and the
+    name of its people stay two names — Αἰγύπτιοι is not Αἴγυπτον (GEN 12:14).
     """
     a, b = fold(candidate), fold(entry_greek)
     if not a or not b:
@@ -322,7 +323,14 @@ def matches(candidate, entry_greek):
             break
         shared += 1
     return (shared >= 4 and abs(len(a) - len(b)) <= 1
-            and len(a) - shared <= 3 and len(b) - shared <= 3)
+            and a[shared:] in CASE_ENDINGS and b[shared:] in CASE_ENDINGS)
+
+
+# What may differ between two forms of one name, accents folded away: the endings of the
+# three declensions, as far as a stem the two forms share leaves them.
+CASE_ENDINGS = {"", "α", "ας", "αν", "αι", "αις", "ων", "ης", "η", "ην", "ος", "ου", "ω", "ον",
+                "οι", "ους", "οις", "ε", "ες", "ι", "ιν", "ις", "εως", "ει", "εις", "εσι", "εσιν",
+                "υ", "υς", "υν", "ν", "ς", "σι", "σιν", "ως"}
 
 
 def named_words(greek, entries):

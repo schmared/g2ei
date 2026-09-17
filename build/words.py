@@ -114,6 +114,13 @@ LSJ = {
     "ὀπισθοφανής": ["seen from behind", "showing behind", "appearing behind or after",
                     "reversing the image", "looking backwards"],
     "ὀπισθοφανῶς": ["backwards"],
+    # No Middle Liddell entry for these three. LSJ (eng5): ἐγγίζω, transitive first, then
+    # "approach", and with an infinitive "to be on the point of", the sense of GEN 12:11;
+    # ἐνισχύω; and ἐτασμός, which LSJ defines by the entry before it, ἔτασις, "trial, affliction".
+    "ἐγγίζω": ["bring near, bring up to", "approach", "to be imminent", "approximate to",
+               "to be next of kin", "to be on the point of"],
+    "ἐνισχύω": ["strengthen, confirm", "prevail in, prevail among"],
+    "ἐτασμός": ["trial, affliction"],
 }
 
 # New Testament books: MorphGNT file and its book number.
@@ -337,6 +344,22 @@ NOT_SENSES = {
                    "in the course of speaking", "he ended", "begging"},  # pieces of examples
     "pu/rgos": {"a tower of defence from"},     # from "a tower of defence from deaths"
     "nu/mfh": {"spring-", "sea-", "tree-", "mountain-", "meadow-", "rapture", "caught by the Nymphs"},
+    # GEN 12
+    "oi)/xomai": {"abire)", "to have come", "to go", "come",  # the entry's contrasts with ἥκω and ἔρχομαι
+                  "and gone", "he's", "away", "the absent"},  # pieces of examples
+    "xra/omai": {"consulting", "using an oracle"},  # where the sense comes from, not the sense
+    "peripoie/w": {"to make to remain over and above, to keep safe, preserve", "to save up, lay by",
+                   "to put round", "upon, procure", "to get"},  # the active; MorphGNT files the middle
+    # ἀφίστημι heads sense A "Causal in pres. and imperf., in fut. … aor1", and sense B "intr. …
+    # in aor2 ἀπέστην"; GEN 12:8 ἀπέστη and 14:4 ἀπέστησαν are that aorist, so the causals go.
+    "a)fi/sthmi": {"to put away, remove", "to hinder from", "to frustrate", "to depose", "removed",
+                   "from your own", "to make to revolt, move to revolt", "to weigh out", "in full",
+                   "to have", "weighed out to one", "to"},
+    "lale/w": {"it shall be told"},             # the passive, in an example
+    "peri/": {"around, round about with gen., dat., and acc."},  # Perseus's summary
+    "h(mi/onos": {"a mule-", "mule-", "wild ass."},  # pieces of compounds, and a cross-reference
+    "ka/mhlos": {"a camel-", "gamal."},          # a compound, and the Hebrew the word comes from
+    "dei/knumi": {"will shew", "shewed that", "drank to", "he pledged"},  # pieces of examples
 }
 
 # An entry that divides its senses by tense and voice, so that which of them belong to a
@@ -407,6 +430,10 @@ SPELLING = {
     "kunhgo/s": "kunago/s",         # the entry is headed with the Doric and Attic κυναγός
     "plhsi/on": "plhsi/os",         # the adverb, filed inside the adjective's entry
     "e)nw/pion": "e)nw/pios",       # likewise
+    "kaqa/per": "kaqa/",            # filed inside the entry for καθά
+    "e)/rhmos": "e)rh=mos",         # the entry is headed with the Attic accent, ἐρῆμος
+    "peripoie/omai": "peripoie/w",  # MorphGNT's middle, filed under the active
+    "e)neuloge/w": "e)neuloge/omai",  # the entry is headed with the passive
 }
 
 # Homographs where Perseus's *first* entry is a different word from the one the text
@@ -422,6 +449,7 @@ ENTRY = {
                          # ou) mh/n …); ou)8 is the plain negative, "not", Lat. non
     "o(do/s": "o(do/s2",  # o(do/s1 is the attic ὀδός for οὐδός, "a threshold"; GEN 3:24 is the way
     "stei=ra": "stei=ra2",  # stei=ra1 is a ship's keel; the barren woman of GEN 11:30 is the second
+    "mo/sxos": "mo/sxos2",  # mo/sxos1 is a young shoot; the calf of GEN 12:16 is the second
 }
 
 PUNCT = re.compile(r"[.,;:·!?—·]")

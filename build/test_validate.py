@@ -262,6 +262,10 @@ CONTROL = [
                                          lambda: holds(V.matches("Ἰωάννου", "Ἰωάννης") and V.matches("Μωυσέως", "Μωυσῆς")
                                                        and V.matches("Ἀσσυρίων", "Ἀσσύριος"),
                                                        "oblique cases must find the entry")),
+    ("names    a people's name is not its land's",
+                                         lambda: holds(not V.matches("Αἰγύπτιοι", "Αἴγυπτον") and V.matches("Χαναναῖοι", "Χαναναίων")
+                                                       and V.matches("Σαρας", "Σαραν") and V.matches("Σιδῶνος", "Σιδῶνα"),
+                                                       "the Egyptians are not Egypt; Σαρας is Σαραν")),
     ("names    names that only begin alike stay apart",
                                          lambda: holds(not V.matches("Αδα", "Αδαμ") and not V.matches("Καιναν", "Καιν")
                                                        and not V.matches("Ενως", "Ενωχ"),

@@ -1,0 +1,685 @@
+[
+  {
+    "ref": "GEN 12:1",
+    "greek": "Καὶ εἶπεν κύριος τῷ Αβραμ Ἔξελθε ἐκ τῆς γῆς σου καὶ ἐκ τῆς συγγενείας σου καὶ ἐκ τοῦ οἴκου τοῦ πατρός σου εἰς τὴν γῆν, ἣν ἄν σοι δείξω·",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 16",
+    "speech": ["Ἔξελθε"],
+    "hint": "The Lord calls Abram out of his land and his father's house.",
+    "notes": [
+      {
+        "lemma": "Ἔξελθε",
+        "flag": null,
+        "text": "The Hebrew *lek-lĕkā*, *go for yourself*. The Greek has ἐξέρχομαι, *go out of*, the verb of Acts 7:3, where Stephen quotes the verse: Ἔξελθε ἐκ τῆς γῆς σου καὶ ἐκ τῆς συγγενείας σου."
+      },
+      {
+        "lemma": "τῆς συγγενείας",
+        "flag": null,
+        "text": "συγγένεια, first *sameness of descent*, then *kin*; the Hebrew *môladtĕkā*, *your birthplace, your kindred*."
+      },
+      {
+        "lemma": "Αβραμ",
+        "flag": "name",
+        "text": "Glossed again, first in this chapter."
+      },
+      {
+        "lemma": "Ἔξελθε",
+        "flag": null,
+        "text": "Capitalised because it opens direct speech, as Rahlfs prints it; listed in `speech` so the checks do not take it for a proper name."
+      }
+    ],
+    "reading": "And [[said|said, spoke, declared, called by name, told]] [[lord|lord, master, the one having power and authority over]] to [[name:Αβραμ]] [[go out of|go out of, come out, go away and march off, go forth]] [[out of|out of, forth from, from]] [[of the earth|of the land, of the dry ground, of the terrestrial realm]] of you and [[out of|out of, forth from, from]] [[of the sameness of descent|of the sameness of descent, of the family and relationship and kin, of the ties of kindred and family connexion and influence, of the kinsfolk and kinsmen, of the families]] of you and [[out of|out of, forth from, from]] [[of the house|of the house, of the abode and dwelling, of the room and chamber, of the house of a god and temple, of the household goods and substance, of the household and family]] [[of the father|of the father, of the grandfather]] of you [[into|into, to, in, rest in]] [[the earth|the land, the dry ground, the terrestrial realm]], which ever to you [[I may bring to light|I may bring to light, I may display and exhibit, I may set before one, I may show and point out, I may tell and explain and teach, I may show and prove, I may inform against, I may offer and proffer, I may cause, I may welcome and greet and pledge]];",
+    "names": [
+      {
+        "greek": "Αβραμ",
+        "unanchored": "Abram",
+        "anchored": "Abram",
+        "gloss": "(Αβραμ, from Hebrew ʾAbrām, \"the father is exalted\")"
+      }
+    ]
+  },
+  {
+    "ref": "GEN 12:2",
+    "greek": "καὶ ποιήσω σε εἰς ἔθνος μέγα καὶ εὐλογήσω σε καὶ μεγαλυνῶ τὸ ὄνομά σου, καὶ ἔσῃ εὐλογητός·",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 16",
+    "hint": "A great nation, a great name, and Abram blessed.",
+    "notes": [
+      {
+        "lemma": "καὶ ἔσῃ εὐλογητός",
+        "flag": "divergence",
+        "text": "[[flag]] The Hebrew is *wehyēh bĕrākâ*, *and be a blessing*. The Greek has *and you will be blessed*, εὐλογητός, one sense, plain text."
+      },
+      {
+        "lemma": "μεγαλυνῶ",
+        "flag": null,
+        "text": "μεγαλύνω, *to make great*, the verb of Mary's song, Luke 1:46."
+      }
+    ],
+    "reading": "and [[I will make|I will make, I will do, I will produce, I will create]] you [[into|into, to, in, rest in]] [[a number of people accustomed to live together|a number of people accustomed to live together, a company and body of men, a host, swarms and flocks, a nation and people, the nations and gentiles, a special class, a caste and tribe, a sex]] [[big|big, great, tall, full-grown, vast and high, spacious and wide, strong and mighty, violent, loud, prevailing, weighty and important]] and [[I will speak well of|I will speak well of, I will praise, I will honour, I will bless]] you and [[I will make great|I will make great and powerful, I will exalt and strengthen, I will make great by word and extol and magnify, I will aggravate]] [[the name|the name, the fame, the mere name, the phrase and expression]] of you, and you will be blessed;",
+    "names": []
+  },
+  {
+    "ref": "GEN 12:3",
+    "greek": "καὶ εὐλογήσω τοὺς εὐλογοῦντάς σε, καὶ τοὺς καταρωμένους σε καταράσομαι· καὶ ἐνευλογηθήσονται ἐν σοὶ πᾶσαι αἱ φυλαὶ τῆς γῆς.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 16",
+    "hint": "All the tribes of the earth will be blessed in Abram.",
+    "notes": [
+      {
+        "lemma": "ἐνευλογηθήσονται ἐν σοὶ πᾶσαι αἱ φυλαὶ τῆς γῆς",
+        "flag": null,
+        "text": "Paul quotes it at Galatians 3:8, Ἐνευλογηθήσονται ἐν σοὶ πάντα τὰ ἔθνη, with *all the nations* from 18:18. Middle Liddell gives ἐνευλογέομαι one sense, *to be blessed in* one, so it is plain text, and the Greek's own ἐν σοί follows it: *will be blessed in in you*."
+      },
+      {
+        "lemma": "τοὺς καταρωμένους σε",
+        "flag": "divergence",
+        "text": "[[flag]] The Hebrew is singular, *ûmĕqallelkā*, *the one who makes light of you*, and uses another verb from *ʾāʾōr*, *I will curse*. The Greek has the plural and καταράομαι for both."
+      },
+      {
+        "lemma": "ἐνευλογηθήσονται",
+        "flag": "variant",
+        "text": "[[flag]] Codex Alexandrinus reads εὐλογηθήσονται, without ἐν; the Berlin papyrus, 911, has it."
+      }
+    ],
+    "reading": "and [[I will speak well of|I will speak well of, I will praise, I will honour, I will bless]] [[the ones speaking well of|the ones speaking well of, praising, honouring, blessing]] you, and [[the ones calling down curses upon|the ones calling down curses upon, imprecating upon, cursing and execrating, uttering imprecations]] you [[I will call down curses upon|I will call down curses upon, I will imprecate upon, I will curse and execrate, I will utter imprecations]]; and will be blessed in in you [[all|all, the whole, every, every single]] [[the races|the races, the tribes, the bodies united by ties of blood and descent, the clans, the tribes by local habitation, the hundreds and counties, the contingents furnished by a tribe, the brigades]] [[of the earth|of the land, of the dry ground, of the terrestrial realm]].",
+    "names": []
+  },
+  {
+    "ref": "GEN 12:4",
+    "greek": "καὶ ἐπορεύθη Αβραμ, καθάπερ ἐλάλησεν αὐτῷ κύριος, καὶ ᾤχετο μετʼ αὐτοῦ Λωτ· Αβραμ δὲ ἦν ἐτῶν ἑβδομήκοντα πέντε, ὅτε ἐξῆλθεν ἐκ Χαρραν.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 16",
+    "hint": "Abram goes, and Lot with him, at seventy-five.",
+    "notes": [
+      {
+        "lemma": "καθάπερ",
+        "flag": null,
+        "text": "Filed inside καθά, *according as, just as*, the chain of 7:9."
+      },
+      {
+        "lemma": "ᾤχετο",
+        "flag": null,
+        "text": "οἴχομαι, *to be gone, have gone*: Middle Liddell gives its imperfect the sense of a pluperfect, *had gone*."
+      },
+      {
+        "lemma": "ἐλάλησεν",
+        "flag": null,
+        "text": "λαλέω is first *to talk, chat, prattle*; *to speak*, like λέγω, is its New Testament use, third in the entry."
+      }
+    ],
+    "reading": "and [[was driven|was driven, was carried, went, walked, marched, went across and passed]] [[name:Αβραμ]], [[according as|according as, just as, like as if, exactly as]] [[talked|talked, chatted, prattled, babbled, said, talked of, spoke, chattered, chirped]] to him [[lord|lord, master, the one having power and authority over]], and [[had gone|had gone, had been gone, had escaped from, had gone hence, was departed and dead, was absent and away, was undone and ruined, was rushing and sweeping along]] [[in the midst of|in the midst of, among, in common, along with, with, by means of]] him [[name:Λωτ]]; [[name:Αβραμ]] [[but|but, however, whereas, on the other hand]], was, and kept on being as a standing and continuing condition and not a momentary one, of years seventy five, [[when|when, sometimes]] [[went out of|went out of, came out, went away and marched off, went forth]] [[out of|out of, forth from, from]] [[name:Χαρραν]].",
+    "names": [
+      {
+        "greek": "Αβραμ",
+        "unanchored": "Abram",
+        "anchored": "Abram",
+        "bare": true
+      },
+      {
+        "greek": "Λωτ",
+        "unanchored": "Lōt",
+        "anchored": "Lot",
+        "gloss": "(Λωτ, from Hebrew Lôṭ, of uncertain meaning)"
+      },
+      {
+        "greek": "Χαρραν",
+        "unanchored": "Charran",
+        "anchored": "Haran",
+        "gloss": "(Χαρραν, from Hebrew Ḥārān, the city Harran)"
+      }
+    ]
+  },
+  {
+    "ref": "GEN 12:5",
+    "greek": "καὶ ἔλαβεν Αβραμ τὴν Σαραν γυναῖκα αὐτοῦ καὶ τὸν Λωτ υἱὸν τοῦ ἀδελφοῦ αὐτοῦ καὶ πάντα τὰ ὑπάρχοντα αὐτῶν, ὅσα ἐκτήσαντο, καὶ πᾶσαν ψυχήν, ἣν ἐκτήσαντο ἐν Χαρραν, καὶ ἐξήλθοσαν πορευθῆναι εἰς γῆν Χανααν καὶ ἦλθον εἰς γῆν Χανααν. —",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 16",
+    "hint": "Abram takes Sarai, Lot and all they had into the land of Canaan.",
+    "notes": [
+      {
+        "lemma": "τὰ ὑπάρχοντα",
+        "flag": null,
+        "text": "ὑπάρχω's participle used as a noun, so the entry's first sense for it: *existing circumstances, present advantages*, then *one's possessions*. The Hebrew *rĕkûšām*, *their goods*."
+      },
+      {
+        "lemma": "πᾶσαν ψυχήν, ἣν ἐκτήσαντο",
+        "flag": null,
+        "text": "The Hebrew *hannepeš ʾăšer-ʿāśû*, *the souls that they had made*: the people acquired in Haran. The Greek has κτάομαι, *procured for themselves*."
+      },
+      {
+        "lemma": "τὴν Σαραν … ἐν Χαρραν",
+        "flag": "variant",
+        "text": "[[flag]] Codex Alexandrinus reads Σαρα, and ἐκ Χαρραν; the Berlin papyrus, 911, has Σαραν, and Coislinianus, M, ἐν."
+      },
+      {
+        "lemma": "—",
+        "flag": null,
+        "text": "Rahlfs prints a dash after the verse, closing a section."
+      }
+    ],
+    "reading": "and [[took|took, received, took hold of and grasped and seized]] [[name:Αβραμ]] [[name:Σαραν]] [[a woman|a woman, a mistress and lady, a wife and spouse, a mortal woman]] of him and [[name:Λωτ]] son [[of the son of the same mother|of the son of the same mother, of the brother, of the near kinsman]] of him and [[all|all, the whole, every, every single]] [[the existing circumstances|the existing circumstances, the present advantages, what belongs to one, the possessions and means]] of them, [[as great as|as great as, as much as, as far as, as long as, as many as]] [[they procured for themselves|they procured for themselves, they got, they gained, they acquired]], and [[all|all, the whole, every, every single]] [[breath|breath, the life, the spirit, life and death, the ghost, the departed soul]], which [[they procured for themselves|they procured for themselves, they got, they gained, they acquired]] in [[name:Χαρραν]], and [[went out of|went out of, came out, went away and marched off, went forth]] [[to be driven|to be driven, to be carried, to go, to walk, to march, to go across and pass]] [[into|into, to, in, rest in]] [[earth|earth, land, the ground]] [[name:Χανααν]] and [[came|came, went, went back and returned, were going to and intended, came within a little of and were near]] [[into|into, to, in, rest in]] [[earth|earth, land, the ground]] [[name:Χανααν]].",
+    "names": [
+      {
+        "greek": "Αβραμ",
+        "unanchored": "Abram",
+        "anchored": "Abram",
+        "bare": true
+      },
+      {
+        "greek": "Σαραν",
+        "unanchored": "Saran",
+        "anchored": "Sarai",
+        "gloss": "(Σαρα, from Hebrew Śāray, usually connected with śārâ, \"princess\")"
+      },
+      {
+        "greek": "Λωτ",
+        "unanchored": "Lōt",
+        "anchored": "Lot",
+        "bare": true
+      },
+      {
+        "greek": "Χαρραν",
+        "unanchored": "Charran",
+        "anchored": "Haran",
+        "bare": true
+      },
+      {
+        "greek": "Χανααν",
+        "unanchored": "Chanaan",
+        "anchored": "Canaan",
+        "gloss": "(Χανααν, from Hebrew Kĕnaʿan, of uncertain meaning)"
+      }
+    ]
+  },
+  {
+    "ref": "GEN 12:6",
+    "greek": "καὶ διώδευσεν Αβραμ τὴν γῆν εἰς τὸ μῆκος αὐτῆς ἕως τοῦ τόπου Συχεμ ἐπὶ τὴν δρῦν τὴν ὑψηλήν· οἱ δὲ Χαναναῖοι τότε κατῴκουν τὴν γῆν.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 16",
+    "hint": "Abram passes through the land to the high oak at Shechem.",
+    "notes": [
+      {
+        "lemma": "ἐπὶ τὴν δρῦν τὴν ὑψηλήν",
+        "flag": "divergence",
+        "text": "[[flag]] The Hebrew is *ʿad ʾēlôn môreh*, *as far as the oak of Moreh*, a name, usually connected with *yārâ*, *to teach*. The Greek has *the high oak*."
+      },
+      {
+        "lemma": "εἰς τὸ μῆκος αὐτῆς",
+        "flag": "divergence",
+        "text": "[[flag]] Not in the Hebrew: *through the land, into its length*."
+      },
+      {
+        "lemma": "διώδευσεν",
+        "flag": null,
+        "text": "διοδεύω, *to travel through*, one sense, plain text."
+      },
+      {
+        "lemma": "τὴν γῆν",
+        "flag": "variant",
+        "text": "[[flag]] Codex Alexandrinus leaves out the first τὴν γῆν."
+      }
+    ],
+    "reading": "and travelled through [[name:Αβραμ]] [[the earth|the land, the dry ground, the terrestrial realm]] [[into|into, to, in, rest in]] [[the length|the length, the distances, the height and tallness and stature]] of it [[until|until, till, while, so long as]] [[of the place|of the place, of the local circumstances, of the position, of the passage in a book, of the topic, of the common-place, of the occasion and opportunity]] [[name:Συχεμ]] [[upon|upon, on, in, at, near]] [[the tree|the tree, the oak, the wood, the worn-out old man]] the [[high|high, lofty, high-raised, highland, stately]]; [[but|but, however, whereas, on the other hand]], [[name:Χαναναῖοι]] [[at that time|at that time, then, in those times and formerly, at one time]] [[were dwelling in|were dwelling in, were settling in, were colonising, were inhabiting, were settling and dwelling, were lying and situate]] [[the earth|the land, the dry ground, the terrestrial realm]].",
+    "names": [
+      {
+        "greek": "Αβραμ",
+        "unanchored": "Abram",
+        "anchored": "Abram",
+        "bare": true
+      },
+      {
+        "greek": "Συχεμ",
+        "unanchored": "Sychem",
+        "anchored": "Shechem",
+        "gloss": "(Συχεμ, from Hebrew Šĕkem, \"shoulder\")"
+      },
+      {
+        "greek": "Χαναναῖοι",
+        "unanchored": "Chananaioi",
+        "anchored": "Canaanites",
+        "gloss": "(Χαναναῖος, from Hebrew Kĕnaʿănî, \"of Canaan\")"
+      }
+    ]
+  },
+  {
+    "ref": "GEN 12:7",
+    "greek": "καὶ ὤφθη κύριος τῷ Αβραμ καὶ εἶπεν αὐτῷ Τῷ σπέρματί σου δώσω τὴν γῆν ταύτην. καὶ ᾠκοδόμησεν ἐκεῖ Αβραμ θυσιαστήριον κυρίῳ τῷ ὀφθέντι αὐτῷ.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 16",
+    "speech": ["Τῷ"],
+    "hint": "The Lord appears and promises the land to Abram's seed; Abram builds an altar.",
+    "notes": [
+      {
+        "lemma": "Τῷ σπέρματί σου δώσω τὴν γῆν ταύτην",
+        "flag": null,
+        "text": "Stephen gives the promise at Acts 7:5, δοῦναι αὐτῷ εἰς κατάσχεσιν αὐτὴν καὶ τῷ σπέρματι αὐτοῦ, and Paul reads τῷ σπέρματί σου as singular at Galatians 3:16."
+      },
+      {
+        "lemma": "ὤφθη",
+        "flag": null,
+        "text": "The aorist passive of ὁράω, *was seen*: the verb of the appearances in 1 Corinthians 15:5–8."
+      },
+      {
+        "lemma": "Τῷ",
+        "flag": null,
+        "text": "Capitalised because it opens direct speech, as Rahlfs prints it; listed in `speech` so the checks do not take it for a proper name."
+      }
+    ],
+    "reading": "and [[was seen|was seen, was looked at, was beheld and perceived and observed, was looked out for]] [[lord|lord, master, the one having power and authority over]] to [[name:Αβραμ]] and [[said|said, spoke, declared, called by name, told]] to him [[to that which is sown|to that which is sown, to the seed, to the germ and origin and element, to the offspring and issue, to the race and descent]] of you [[I will give|I will give, I will grant, I will provide, I will give over and deliver up]] [[the earth|the land, the dry ground, the terrestrial realm]] [[this|this, the nearer, what follows]]. and [[built a house|built a house, built, built for himself]] [[there|there, in that place]] [[name:Αβραμ]] an altar [[to lord|to lord, to master, to the one having power and authority over]] [[to the one having been seen|to the one having been seen, having been looked at, having been beheld and perceived and observed, having been looked out for]] to him.",
+    "names": [
+      {
+        "greek": "Αβραμ",
+        "unanchored": "Abram",
+        "anchored": "Abram",
+        "bare": true
+      }
+    ]
+  },
+  {
+    "ref": "GEN 12:8",
+    "greek": "καὶ ἀπέστη ἐκεῖθεν εἰς τὸ ὄρος κατʼ ἀνατολὰς Βαιθηλ καὶ ἔστησεν ἐκεῖ τὴν σκηνὴν αὐτοῦ, Βαιθηλ κατὰ θάλασσαν καὶ Αγγαι κατʼ ἀνατολάς· καὶ ᾠκοδόμησεν ἐκεῖ θυσιαστήριον τῷ κυρίῳ καὶ ἐπεκαλέσατο ἐπὶ τῷ ὀνόματι κυρίου.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, pp. 16–17",
+    "hint": "Between Bethel and Ai Abram pitches his tent and calls on the name of the Lord.",
+    "notes": [
+      {
+        "lemma": "Βαιθηλ κατὰ θάλασσαν καὶ Αγγαι κατʼ ἀνατολάς",
+        "flag": null,
+        "text": "*Bethel toward the sea and Ai toward the risings*: the Hebrew *miyyām* and *miqqedem*, west and east, named from the sea and the sunrise, as the Greek keeps them."
+      },
+      {
+        "lemma": "ἀπέστη",
+        "flag": null,
+        "text": "The second aorist of ἀφίστημι, intransitive: the entry's sense B, *to stand away*."
+      },
+      {
+        "lemma": "Βαιθηλ",
+        "flag": "variant",
+        "text": "[[flag]] Codex Alexandrinus reads ἐν before the second Βαιθηλ; Coislinianus, M, does not."
+      }
+    ],
+    "reading": "and [[stood away|stood away, stood aloof from and kept far from, lost, withdrew from, revolted from, revolted, gave up, made way and gave way, shrank from, stood aloof]] [[from that place|from that place, thence, thereafter, next]] [[into|into, to, in, rest in]] [[the mountain|the mountain, the hill]] [[down|down, downwards, down from, down upon, over, upon]] [[risings|risings, rises, the quarter of sunrise, the east]] [[name:Βαιθηλ]] and [[made to stand|made to stand, set, stopped and stayed and checked, set up and raised, established and instituted, appointed, weighed]] [[there|there, in that place]] [[the covered place|the covered place, the tent, the camp, the dwelling-place, the temple]] of him, [[name:Βαιθηλ]] [[down|down, downwards, down from, down upon, over, upon]] [[sea|sea, the Mediterranean, a well of salt water]] and [[name:Αγγαι]] [[down|down, downwards, down from, down upon, over, upon]] [[risings|risings, rises, the quarter of sunrise, the east]]; and [[built a house|built a house, built, built for himself]] [[there|there, in that place]] an altar [[to the lord|to the lord, to the master, to the one having power and authority over]] and [[called upon|called upon, invoked and appealed to, invited, called in as a helper, was called by surname]] [[upon|upon, on, in, at, near]] [[to the name|to the name, to the fame, to the mere name, to the phrase and expression]] [[of lord|of lord, of master, of the one having power and authority over]].",
+    "names": [
+      {
+        "greek": "Βαιθηλ",
+        "unanchored": "Baithēl",
+        "anchored": "Bethel",
+        "gloss": "(Βαιθηλ, from Hebrew Bêt-ʾēl, \"house of God\")"
+      },
+      {
+        "greek": "Αγγαι",
+        "unanchored": "Angai",
+        "anchored": "Ai",
+        "gloss": "(Αγγαι, from Hebrew hāʿAy, \"the ruin\")"
+      }
+    ]
+  },
+  {
+    "ref": "GEN 12:9",
+    "greek": "καὶ ἀπῆρεν Αβραμ καὶ πορευθεὶς ἐστρατοπέδευσεν ἐν τῇ ἐρήμῳ.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 17",
+    "hint": "Abram sets out and encamps in the desert.",
+    "notes": [
+      {
+        "lemma": "ἐστρατοπέδευσεν ἐν τῇ ἐρήμῳ",
+        "flag": "divergence",
+        "text": "[[flag]] The Hebrew is *hālôk wĕnāsôaʿ hannegbâ*, *going on and journeying toward the Negeb*, the south. The Greek has *encamped in the desert*."
+      },
+      {
+        "lemma": "τῇ ἐρήμῳ",
+        "flag": null,
+        "text": "ἐρῆμος is an adjective, *desolate, lone*; used as a noun, ἡ ἐρῆμος (sc. χώρα), its first tagged noun sense is *desert parts*."
+      }
+    ],
+    "reading": "and [[lifted off|lifted off, carried off, took away, removed from, led away, sailed and marched away and departed, departed from, set out on]] [[name:Αβραμ]] and [[having been driven|having been driven, having been carried, having gone, having walked, having marched, having gone across and passed]] [[encamped|encamped, bivouacked, took up a position, was in camp, was stationed]] [[in the desert part|within, inside of, and by means of the desert part, the desolate, the lone and lonely and lonesome and solitary, the helpless, the reft and void and destitute, the undefended]].",
+    "names": [
+      {
+        "greek": "Αβραμ",
+        "unanchored": "Abram",
+        "anchored": "Abram",
+        "bare": true
+      }
+    ]
+  },
+  {
+    "ref": "GEN 12:10",
+    "greek": "Καὶ ἐγένετο λιμὸς ἐπὶ τῆς γῆς, καὶ κατέβη Αβραμ εἰς Αἴγυπτον παροικῆσαι ἐκεῖ, ὅτι ἐνίσχυσεν ὁ λιμὸς ἐπὶ τῆς γῆς.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 17",
+    "hint": "Famine drives Abram down into Egypt.",
+    "notes": [
+      {
+        "lemma": "παροικῆσαι",
+        "flag": null,
+        "text": "παροικέω, *to dwell beside*, and in the New Testament *to sojourn*: the word of Hebrews 11:9, πίστει παρῴκησεν εἰς γῆν τῆς ἐπαγγελίας."
+      },
+      {
+        "lemma": "ἐνίσχυσεν",
+        "flag": null,
+        "text": "Not in Middle Liddell; LSJ gives ἐνισχύω *strengthen, confirm*, and intransitive *prevail*."
+      }
+    ],
+    "reading": "And [[came into being|there came to be, there arose, there was brought into existence]] [[hunger|hunger, famine]] [[upon|upon, on, in, at, near]] [[of the earth|of the land, of the dry ground, of the terrestrial realm]], and [[stepped down|stepped down, went and came down, went down from, dismounted, came down stairs, went down from the inland parts to the sea, came to land and got safe ashore, went down into the arena, came down from the tribune, came to, ended]] [[name:Αβραμ]] [[into|into, to, in, rest in]] [[name:Αἴγυπτον]] [[to dwell beside|to dwell beside, to dwell along the coast of, to live near, to dwell among, to lie near, to live in and sojourn]] [[there|there, in that place]], [[that|that, seeing that, although, for that, because, inasmuch as]] [[strengthened|strengthened, confirmed, prevailed in and among]] [[the hunger|the hunger, the famine]] [[upon|upon, on, in, at, near]] [[of the earth|of the land, of the dry ground, of the terrestrial realm]].",
+    "names": [
+      {
+        "greek": "Αβραμ",
+        "unanchored": "Abram",
+        "anchored": "Abram",
+        "bare": true
+      },
+      {
+        "greek": "Αἴγυπτον",
+        "unanchored": "Aigypton",
+        "anchored": "Egypt",
+        "gloss": "(Αἴγυπτος, the Greek name of the land; Hebrew Miṣrayim)"
+      }
+    ]
+  },
+  {
+    "ref": "GEN 12:11",
+    "greek": "ἐγένετο δὲ ἡνίκα ἤγγισεν Αβραμ εἰσελθεῖν εἰς Αἴγυπτον, εἶπεν Αβραμ Σαρα τῇ γυναικὶ αὐτοῦ Γινώσκω ἐγὼ ὅτι γυνὴ εὐπρόσωπος εἶ·",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 17",
+    "speech": ["Γινώσκω"],
+    "hint": "Near Egypt, Abram tells Sarai she is fair of face.",
+    "notes": [
+      {
+        "lemma": "ἤγγισεν",
+        "flag": null,
+        "text": "Not in Middle Liddell; LSJ gives ἐγγίζω first *bring near*, then *approach*, and with an infinitive *to be on the point of*, the sense here."
+      },
+      {
+        "lemma": "Γινώσκω",
+        "flag": null,
+        "text": "Capitalised because it opens direct speech, as Rahlfs prints it; listed in `speech` so the checks do not take it for a proper name."
+      }
+    ],
+    "reading": "[[came into being|there came to be, there arose, there was brought into existence]] [[but|but, however, whereas, on the other hand]], [[at which time|at which time, when, since, whenever]] [[brought near|brought near, brought up to, approached, was imminent, approximated to, was next of kin, was on the point of]] [[name:Αβραμ]] [[to go in|to go in, to go into and enter, to come into, to come in, to come upon]] [[into|into, to, in, rest in]] [[name:Αἴγυπτον]], [[said|said, spoke, declared, called by name, told]] [[name:Αβραμ]] to [[name:Σαρα]] [[to the woman|to the woman, to the mistress and lady, to the wife and spouse, to the mortal woman]] of him [[I learn to know|I learn to know, I perceive, I mark, I learn, I discern and distinguish]] I [[that|that, seeing that, although, for that, because, inasmuch as]] [[woman|woman, mistress and lady, wife and spouse, mortal woman]] [[fair of face|fair of face, with glad countenance, fair in outward show and specious]] you are;",
+    "names": [
+      {
+        "greek": "Αβραμ",
+        "unanchored": "Abram",
+        "anchored": "Abram",
+        "bare": true
+      },
+      {
+        "greek": "Αἴγυπτον",
+        "unanchored": "Aigypton",
+        "anchored": "Egypt",
+        "bare": true
+      },
+      {
+        "greek": "Σαρα",
+        "unanchored": "Sara",
+        "anchored": "Sarai",
+        "bare": true
+      }
+    ]
+  },
+  {
+    "ref": "GEN 12:12",
+    "greek": "ἔσται οὖν ὡς ἂν ἴδωσίν σε οἱ Αἰγύπτιοι, ἐροῦσιν ὅτι Γυνὴ αὐτοῦ αὕτη, καὶ ἀποκτενοῦσίν με, σὲ δὲ περιποιήσονται.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 17",
+    "speech": ["Γυνὴ"],
+    "hint": "The Egyptians will kill Abram and keep Sarai.",
+    "notes": [
+      {
+        "lemma": "σὲ δὲ περιποιήσονται",
+        "flag": "divergence",
+        "text": "[[flag]] The Hebrew is *wĕʾōtāk yĕḥayyû*, *and you they will let live*. The Greek has περιποιέομαι, *to keep* or *save for oneself*."
+      },
+      {
+        "lemma": "αὕτη",
+        "flag": "variant",
+        "text": "[[flag]] Codex Alexandrinus reads ἐστιν before αὕτη."
+      },
+      {
+        "lemma": "Γυνὴ",
+        "flag": null,
+        "text": "Capitalised because it opens direct speech, as Rahlfs prints it; listed in `speech` so the checks do not take it for a proper name."
+      }
+    ],
+    "reading": "will be [[really|really, at all events, surely, so, then and therefore]] [[as|as, according as, considering, like]] ever [[may see|may see, may perceive, may behold, may look at]] you [[name:Αἰγύπτιοι]], [[they will say|they will say, they will speak, they will declare, they will call by name, they will tell]] [[that|that, seeing that, although, for that, because, inasmuch as]] [[woman|woman, mistress and lady, wife and spouse, mortal woman]] of him [[this|this, the nearer, what follows]], and [[they will kill|they will kill, they will slay, they will condemn to death]] me, you [[but|but, however, whereas, on the other hand]], [[they will keep for themselves|they will keep for themselves, they will save for themselves, they will compass and acquire and obtain, they will make gain]].",
+    "names": [
+      {
+        "greek": "Αἰγύπτιοι",
+        "unanchored": "Aigyptioi",
+        "anchored": "Egyptians",
+        "gloss": "(Αἰγύπτιος, the man of Αἴγυπτος, Egypt)"
+      }
+    ]
+  },
+  {
+    "ref": "GEN 12:13",
+    "greek": "εἰπὸν οὖν ὅτι Ἀδελφὴ αὐτοῦ εἰμι, ὅπως ἂν εὖ μοι γένηται διὰ σέ, καὶ ζήσεται ἡ ψυχή μου ἕνεκεν σοῦ.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 17",
+    "speech": ["Ἀδελφὴ"],
+    "hint": "Say you are his sister, that it may be well with me.",
+    "notes": [
+      {
+        "lemma": "Ἀδελφὴ",
+        "flag": null,
+        "text": "ἀδελφή, *a sister*, one sense, plain text."
+      },
+      {
+        "lemma": "Ἀδελφὴ",
+        "flag": null,
+        "text": "Capitalised because it opens direct speech, as Rahlfs prints it; listed in `speech` so the checks do not take it for a proper name."
+      }
+    ],
+    "reading": "[[say|say, speak, declare, call by name, tell]] [[really|really, at all events, surely, so, then and therefore]] [[that|that, seeing that, although, for that, because, inasmuch as]] sister of him I am, [[that|that, in order that, as and in such manner as, how and in what manner]] ever [[well|well, luckily, happily, well off]] to me [[may come into being|may come to be, may arise, may be brought into existence]] [[through|through, throughout and over, during, by aid of and by means of, by reason of, because of, for the sake of]] you, and [[will live|will live, will be in full life and strength, will be fresh and strong]] [[the breath|the breath, the life, the spirit, life and death, the ghost, the departed soul]] of me [[on account of|on account of, for the sake of, because of, for, as far as regards]] you.",
+    "names": []
+  },
+  {
+    "ref": "GEN 12:14",
+    "greek": "ἐγένετο δὲ ἡνίκα εἰσῆλθεν Αβραμ εἰς Αἴγυπτον, ἰδόντες οἱ Αἰγύπτιοι τὴν γυναῖκα ὅτι καλὴ ἦν σφόδρα,",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 17",
+    "hint": "The Egyptians see that the woman is very beautiful.",
+    "notes": [
+      {
+        "lemma": "τὴν γυναῖκα",
+        "flag": "variant",
+        "text": "[[flag]] Codex Alexandrinus alone adds αὐτοῦ."
+      }
+    ],
+    "reading": "[[came into being|there came to be, there arose, there was brought into existence]] [[but|but, however, whereas, on the other hand]], [[at which time|at which time, when, since, whenever]] [[went in|went in, went into and entered, came into, came in, came upon]] [[name:Αβραμ]] [[into|into, to, in, rest in]] [[name:Αἴγυπτον]], [[having seen|having seen, having perceived, having beheld, having looked at]] [[name:Αἰγύπτιοι]] [[the woman|the woman, the mistress and lady, the wife and spouse]] [[that|that, seeing that, although, for that, because, inasmuch as]] [[beautiful|beautiful, beauteous, fair, good]] was, and kept on being, [[very|very, very much, exceedingly, violently, far, most certainly]],",
+    "names": [
+      {
+        "greek": "Αβραμ",
+        "unanchored": "Abram",
+        "anchored": "Abram",
+        "bare": true
+      },
+      {
+        "greek": "Αἴγυπτον",
+        "unanchored": "Aigypton",
+        "anchored": "Egypt",
+        "bare": true
+      },
+      {
+        "greek": "Αἰγύπτιοι",
+        "unanchored": "Aigyptioi",
+        "anchored": "Egyptians",
+        "bare": true
+      }
+    ]
+  },
+  {
+    "ref": "GEN 12:15",
+    "greek": "καὶ εἶδον αὐτὴν οἱ ἄρχοντες Φαραω καὶ ἐπῄνεσαν αὐτὴν πρὸς Φαραω καὶ εἰσήγαγον αὐτὴν εἰς τὸν οἶκον Φαραω·",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 17",
+    "hint": "Pharaoh's rulers praise her, and she is taken into his house.",
+    "notes": [
+      {
+        "lemma": "εἰσήγαγον αὐτήν",
+        "flag": "divergence",
+        "text": "[[flag]] The Hebrew is passive, *wattuqqaḥ hāʾiššâ*, *and the woman was taken*. The Greek has the rulers *lead her in*."
+      },
+      {
+        "lemma": "εἰς τὸν οἶκον",
+        "flag": "variant",
+        "text": "[[flag]] Codex Alexandrinus alone reads πρός for εἰς."
+      }
+    ],
+    "reading": "and [[saw|saw, perceived, beheld, looked at]] her [[the rulers|the rulers, the commanders, the chiefs, the captains, the chief magistrates]] of [[name:Φαραω]] and [[approved|approved, applauded, commended, complimented publicly and panegyrized, recommended and exhorted and advised, thanked, declined]] her [[toward|toward, facing, oriented to, in living motion and address toward]] [[name:Φαραω]] and [[led in|led in, led into and introduced, admitted, imported, called in, brought in and brought forward]] her [[into|into, to, in, rest in]] [[the house|the house, the abode and dwelling, the room and chamber, the house of a god and temple, the household goods and substance, the household and family]] of [[name:Φαραω]];",
+    "names": [
+      {
+        "greek": "Φαραω",
+        "unanchored": "Pharaō",
+        "anchored": "Pharaoh",
+        "gloss": "(Φαραω, from Hebrew Parʿōh, from the Egyptian for \"great house\")"
+      }
+    ]
+  },
+  {
+    "ref": "GEN 12:16",
+    "greek": "καὶ τῷ Αβραμ εὖ ἐχρήσαντο διʼ αὐτήν, καὶ ἐγένοντο αὐτῷ πρόβατα καὶ μόσχοι καὶ ὄνοι, παῖδες καὶ παιδίσκαι, ἡμίονοι καὶ κάμηλοι.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 17",
+    "hint": "Abram is treated well and given flocks, servants, mules and camels.",
+    "notes": [
+      {
+        "lemma": "ἡμίονοι",
+        "flag": "divergence",
+        "text": "[[flag]] The Hebrew has *waʾătōnōt*, *and she-asses*. The Greek has *mules*, ἡμίονοι, *half-asses*."
+      },
+      {
+        "lemma": "ἐχρήσαντο",
+        "flag": null,
+        "text": "χράομαι is first *to use*; Perseus tags *consulting* and *using an oracle* ahead of it, which describe where the sense comes from and are left out. With εὖ, *treated well*."
+      },
+      {
+        "lemma": "μόσχοι",
+        "flag": null,
+        "text": "μόσχος has two entries; the second is the animal, *a calf*, the first *a young shoot*."
+      }
+    ],
+    "reading": "and to [[name:Αβραμ]] [[well|well, luckily, happily, well off]] [[used|used, had and used, indulged, experienced and suffered and were subject to, came to, lived under, made use of, treated, were intimate with, were in need and yearned after, had in use and possessed]] [[through|through, throughout and over, during, by aid of and by means of, by reason of, because of, for the sake of]] her, and [[came into being|came to be, arose, were brought into existence]] to him [[things that walk forward|things that walk forward, cattle, flocks and herds, horses, small cattle, sheep]] and [[calves|calves, young bulls, heifers and young cows, boys and girls and maids, young animals]] and [[asses|asses, beasts of burden, windlasses and pulleys, upper millstones, beakers and wine-cups]], [[children|children, sons, daughters, grandchildren, boys and youths and lads, girls and maidens, slaves and servants and men and maids]] and [[young girls|young girls, maidens, young slaves, courtesans]], [[half-asses|half-asses, mules, wild asses]] and [[camels|camels, the camels in an army, the camelry and camel-brigade]].",
+    "names": [
+      {
+        "greek": "Αβραμ",
+        "unanchored": "Abram",
+        "anchored": "Abram",
+        "bare": true
+      }
+    ]
+  },
+  {
+    "ref": "GEN 12:17",
+    "greek": "καὶ ἤτασεν ὁ θεὸς τὸν Φαραω ἐτασμοῖς μεγάλοις καὶ πονηροῖς καὶ τὸν οἶκον αὐτοῦ περὶ Σαρας τῆς γυναικὸς Αβραμ.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 17",
+    "hint": "God afflicts Pharaoh and his house because of Sarai.",
+    "notes": [
+      {
+        "lemma": "ὁ θεὸς … ἐτασμοῖς μεγάλοις καὶ πονηροῖς",
+        "flag": "divergence",
+        "text": "[[flag]] The Hebrew is *wayĕnaggaʿ YHWH … nĕgāʿîm gĕdōlîm*, *YHWH struck … with great strokes*. The Greek has ὁ θεός, and adds *and toilsome*."
+      },
+      {
+        "lemma": "ἤτασεν … ἐτασμοῖς",
+        "flag": null,
+        "text": "ἐτάζω, *to examine, test*, with its noun: *examined … with trials*. ἐτασμός is not in Middle Liddell; LSJ gives it the sense of ἔτασις, *trial, affliction*."
+      }
+    ],
+    "reading": "and [[examined|examined, tested]] [[the God|he who is God definitively, the one the article marks out, the known and the only]] [[name:Φαραω]] [[with trials|with trials, with afflictions]] [[with big|with big, with great, with tall, with full-grown, with vast and high, with spacious and wide, with strong and mighty, with violent, with loud, with prevailing, with weighty and important]] and [[with toilsome|with toilsome, with painful, with grievous, with good-for-nothing, with bad and worthless, with wicked]] and [[the house|the house, the abode and dwelling, the room and chamber, the house of a god and temple, the household goods and substance, the household and family]] of him [[round about|round about, around, about and near, about and for and on account of, about and concerning, for very]] of [[name:Σαρας]] [[of the woman|of the woman, of the mistress and lady, of the wife and spouse]] of [[name:Αβραμ]].",
+    "names": [
+      {
+        "greek": "Φαραω",
+        "unanchored": "Pharaō",
+        "anchored": "Pharaoh",
+        "bare": true
+      },
+      {
+        "greek": "Σαρας",
+        "unanchored": "Saras",
+        "anchored": "Sarai",
+        "bare": true
+      },
+      {
+        "greek": "Αβραμ",
+        "unanchored": "Abram",
+        "anchored": "Abram",
+        "bare": true
+      }
+    ]
+  },
+  {
+    "ref": "GEN 12:18",
+    "greek": "καλέσας δὲ Φαραω τὸν Αβραμ εἶπεν Τί τοῦτο ἐποίησάς μοι, ὅτι οὐκ ἀπήγγειλάς μοι ὅτι γυνή σού ἐστιν;",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 17",
+    "speech": ["Τί"],
+    "hint": "Pharaoh asks why Abram did not tell him.",
+    "notes": [
+      {
+        "lemma": "Τί",
+        "flag": null,
+        "text": "Capitalised because it opens direct speech, as Rahlfs prints it; listed in `speech` so the checks do not take it for a proper name."
+      }
+    ],
+    "reading": "[[having called|having called, having summoned, having called to himself, having invited]] [[but|but, however, whereas, on the other hand]], [[name:Φαραω]] [[name:Αβραμ]] [[said|said, spoke, declared, called by name, told]] why this [[you made|you fashioned, you wrought, you produced, you performed, you did]] to me, [[that|that, seeing that, although, for that, because, inasmuch as]] not [[you brought tidings|you brought tidings, you reported, you announced, you carried a report, you related and narrated]] to me [[that|that, seeing that, although, for that, because, inasmuch as]] [[woman|woman, mistress and lady, wife and spouse, mortal woman]] of you is?",
+    "names": [
+      {
+        "greek": "Φαραω",
+        "unanchored": "Pharaō",
+        "anchored": "Pharaoh",
+        "bare": true
+      },
+      {
+        "greek": "Αβραμ",
+        "unanchored": "Abram",
+        "anchored": "Abram",
+        "bare": true
+      }
+    ]
+  },
+  {
+    "ref": "GEN 12:19",
+    "greek": "ἵνα τί εἶπας ὅτι Ἀδελφή μού ἐστιν; καὶ ἔλαβον αὐτὴν ἐμαυτῷ εἰς γυναῖκα. καὶ νῦν ἰδοὺ ἡ γυνή σου ἐναντίον σου· λαβὼν ἀπότρεχε.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 17",
+    "speech": ["Ἀδελφή"],
+    "hint": "Take your wife and go.",
+    "notes": [
+      {
+        "lemma": "ἵνα τί",
+        "flag": null,
+        "text": "*Why*, as at 4:6: ἵνα with τί and the verb left out."
+      },
+      {
+        "lemma": "Ἀδελφή",
+        "flag": null,
+        "text": "Capitalised because it opens direct speech, as Rahlfs prints it; listed in `speech` so the checks do not take it for a proper name."
+      }
+    ],
+    "reading": "[[that|that, in order that]] what [[you said|you said, you spoke, you declared, you called by name, you told]] [[that|that, seeing that, although, for that, because, inasmuch as]] sister of me is? and [[I took|I took, I received, I took hold of and grasped and seized]] her for myself [[into|into, to, in, rest in]] [[a woman|a woman, a mistress and lady, a wife and spouse, a mortal woman]]. and [[now|now, even now, just now]] [[lo|lo, behold, see there]] [[the woman|the woman, the mistress and lady, the wife and spouse]] of you [[in the presence of|in the presence of, before, opposite and face to face, against]] of you; [[having taken|having taken, having received, having taken hold of and grasped and seized]] [[run off|run off, run away, run hard]].",
+    "names": []
+  },
+  {
+    "ref": "GEN 12:20",
+    "greek": "καὶ ἐνετείλατο Φαραω ἀνδράσιν περὶ Αβραμ συμπροπέμψαι αὐτὸν καὶ τὴν γυναῖκα αὐτοῦ καὶ πάντα, ὅσα ἦν αὐτῷ, καὶ Λωτ μετʼ αὐτοῦ.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 17",
+    "hint": "Pharaoh has men escort Abram away, with Lot.",
+    "notes": [
+      {
+        "lemma": "καὶ Λωτ μετʼ αὐτοῦ",
+        "flag": "divergence",
+        "text": "[[flag]] Not in the Hebrew here: the Greek brings Lot into the verse from 13:1."
+      },
+      {
+        "lemma": "συμπροπέμψαι",
+        "flag": null,
+        "text": "συμπροπέμπω, *to join in escorting*, one sense, plain text."
+      }
+    ],
+    "reading": "and [[enjoined|enjoined, commanded]] [[name:Φαραω]] [[to men|to men, to men in the prime of life]] [[round about|round about, around, about and near, about and for and on account of, about and concerning, for very]] [[name:Αβραμ]] to join in escorting him and [[the woman|the woman, the mistress and lady, the wife and spouse]] of him and [[all|all, the whole, every, every single]], [[as great as|as great as, as much as, as far as, as long as, as many as]] was to him, and [[name:Λωτ]] [[in the midst of|in the midst of, among, in common, along with, with, by means of]] him.",
+    "names": [
+      {
+        "greek": "Φαραω",
+        "unanchored": "Pharaō",
+        "anchored": "Pharaoh",
+        "bare": true
+      },
+      {
+        "greek": "Αβραμ",
+        "unanchored": "Abram",
+        "anchored": "Abram",
+        "bare": true
+      },
+      {
+        "greek": "Λωτ",
+        "unanchored": "Lōt",
+        "anchored": "Lot",
+        "bare": true
+      }
+    ]
+  }
+]

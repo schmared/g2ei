@@ -137,6 +137,15 @@ Nothing: the two passes agreed on all 599 words, exactly, with the chapter's new
 tenses, συγχέωμεν and συνέχεεν, as aorists, where the reference module has a present and an
 imperfect.
 
+### What it found in Genesis 12
+
+Three disagreements over 433 words, with καθάπερ, ὅπως, τότε, εὖ, ἕνεκεν, ἐμαυτοῦ, the middles
+χράομαι, κτάομαι and περιποιέομαι, and Φαραώ, Συχέμ and Αἰγύπτιος added beforehand. The second pass
+was right twice, about gender the form does not show: ὄνοι is masculine and ἡμίονοι feminine, as
+δέκα ὄνους αἴροντας and δέκα ἡμιόνους αἰρούσας show at 45:23, a better witness than MorphGNT's
+she-asses. It was wrong once, from memory: it tagged ἐν τῇ ἐρήμῳ `N-`, where MorphGNT has ἔρημος `A-`
+all 23 times in that phrase. The rule below now names it.
+
 ## The brief
 
 Copy everything below the rule into a new agent. Replace `<BOOK NAME>`, `<CHAPTER>`,
@@ -175,12 +184,12 @@ finishing.
 ## Part of speech (column 2)
 
 N- noun · V- verb · A- adjective (numerals included) · RA article · RP personal pronoun
-(αὐτός and the reflexives ἑαυτοῦ, σεαυτοῦ included) · RD demonstrative · RR relative pronoun
+(αὐτός and the reflexives ἑαυτοῦ, σεαυτοῦ, ἐμαυτοῦ included) · RD demonstrative · RR relative pronoun
 (ὅσος included) · RI interrogative (the indefinite τις included) · P- preposition · C- conjunction · D- adverb · X- particle · I- interjection
 
 Small words are tagged as MorphGNT tags them:
 
-- **C-** καί, δέ, γάρ, ὅτι, τε, ἵνα, οὖν, ἡνίκα, καθά, καθώς, ὥστε; εἰ, *if* or *whether*; πλήν
+- **C-** καί, δέ, γάρ, ὅτι, τε, ἵνα, οὖν, ἡνίκα, καθά, καθώς, καθάπερ, ὥστε, ὅπως (with ἄν `X-`); εἰ, *if* or *whether*; πλήν
   with no genitive after it, *only, except*; ἐάν meaning *if*; ὅτε introducing a clause, including
   after a noun that is not a time (`ἡ μαρτυρία … ὅτε`, John 1:19); οὐδέ meaning *nor*; μήποτε
   meaning *lest*; ὡς meaning *as, like*, and the ὡς of `ὡς ἄν` (Rom 15:24), with ἄν `X-`; ὅθεν
@@ -188,14 +197,14 @@ Small words are tagged as MorphGNT tags them:
   has no genitive to govern
 - **X-** ἄν; ἐάν where it stands for ἄν after a relative (`ὃ ἐὰν θέλητε`, John 15:7); ἰδού;
   μή opening a question that expects *no*
-- **D-** οὐ, μή, νῦν, ἔτι, ἐκεῖ, ἐκεῖθεν, ποῦ, δεῦτε; καί meaning *also, even*, and the καί of
+- **D-** οὐ, μή, νῦν, τότε, εὖ, ἔτι, ἐκεῖ, ἐκεῖθεν, ποῦ, δεῦτε; καί meaning *also, even*, and the καί of
   `καὶ γάρ` (all 38 times in MorphGNT); ὅθεν meaning *from where* (Matt 12:44); οὐδέ meaning *not
   even*; ὅτε after a noun of time (`ἔρχεται ὥρα ὅτε`, John 4:21); οὗ meaning *where* (οὗ meaning
   *whose, of which* is the relative, `RR`); ἐπάνω, ἔξωθεν and ἔξω with no genitive after them
   (1 Cor 15:6); πλησίον, *near*, even after the article, *the neighbour* (`τὸν πλησίον`, Matt
   19:19), where the article takes the case and gender of the person meant
 - **P-** ἀντί; a word governing a genitive as a preposition does — ἐπάνω, ἀπέναντι, ἀνά, ἐναντίον,
-  ἐνώπιον, ὑποκάτω, ὀπίσω, and ἔξωθεν with a genitive (Mark 7:15) — and ἕως
+  ἐνώπιον, ὑποκάτω, ὀπίσω, ἕνεκεν (filed under ἕνεκα), and ἔξωθεν with a genitive (Mark 7:15) — and ἕως
   governing a genitive, an articular infinitive included
 
 ## Parse (column 3) — exactly 8 characters
@@ -234,8 +243,8 @@ Conventions:
   its gender like any noun — rivers are masculine (Τίγρις, Εὐφράτης), Βαβυλών, Σιδών and Γάζα
   feminine, Σόδομα neuter plural — except where it names a person, who gives it his own: τὸν
   Σιδῶνα, Canaan's first-born, is `----ASM-`.
-- A people's name declined in Greek (Χετταῖος, Ἀράδιος, Κίτιοι) is a noun, `N-`, as MorphGNT codes
-  Ἀσσύριος and Κύπριος, filed in the nominative singular masculine. A people's name in the Hebrew
+- A people's name declined in Greek (Χετταῖος, Ἀράδιος, Κίτιοι, οἱ Αἰγύπτιοι) is a noun, `N-`, as
+  MorphGNT codes Ἀσσύριος and Κύπριος, though it tags Αἰγύπτιος and Χαναναῖος as adjectives, filed in the nominative singular masculine. A people's name in the Hebrew
   plural -ιιμ (τοὺς Λουδιιμ, Φυλιστιιμ) is indeclinable, filed as printed, and plural and masculine
   from the people.
 - A place name after γῆ with no article of its own (`ἐν τῇ γῇ Σεννααρ`) is genitive, as MorphGNT
@@ -243,7 +252,8 @@ Conventions:
 - An indeclinable common noun takes its gender from the article or adjective beside it.
 - An article before an indeclinable name still carries full case, number and gender.
 - An adjective used as a noun stays `A-`: ἡ ξηρά, *the dry land*, is `A- ----NSF- ξηρός`, as
-  MorphGNT codes it. στεῖρα, *barren*, is `A-` under its own dictionary form, στεῖρα, as MorphGNT and
+  MorphGNT codes it, and so is ἡ ἔρημος, *the desert*, `A- ----DSF- ἔρημος` all 23 times in
+  MorphGNT. στεῖρα, *barren*, is `A-` under its own dictionary form, στεῖρα, as MorphGNT and
   Middle Liddell both file it.
 - μέσος with a genitive after it — `ἐν μέσῳ τοῦ …`, `ἀνὰ μέσον τοῦ …` — is the neuter
   adjective used as a noun: `A- ----DSN-`, `A- ----ASN-`.
@@ -278,7 +288,8 @@ The dictionary form as Middle Liddell (Perseus) files it:
 - Verbs with no active in use under their middle form, as MorphGNT files them: ἐργάζομαι,
   πορεύομαι, ἐκπορεύομαι, εἰσπορεύομαι, εἰσέρχομαι, ἐντέλλομαι, φοβέομαι, ἀπέρχομαι,
   καταράομαι, ἐκλέγομαι, ἐνθυμέομαι, θυμόομαι (for ἐθυμώθη, as MorphGNT has it at Matt 2:16),
-  διανοέομαι, μιμνήσκομαι, διατίθεμαι.
+  διανοέομαι, μιμνήσκομαι, διατίθεμαι, χράομαι, κτάομαι, περιποιέομαι. But ἐπεκαλέσατο, the middle,
+  goes under the active ἐπικαλέω, as MorphGNT files it.
 - εἰδέναι → οἶδα · εἶπεν → λέγω · ἰδεῖν → ὁράω · φαγ- forms → ἐσθίω · μου → ἐγώ ·
   every article → ὁ.
 - The dictionary form keeps the spelling the text prints — γίνομαι, ἔχθρα, νοσσιά, δειλινός,
@@ -290,8 +301,8 @@ The dictionary form as Middle Liddell (Perseus) files it:
 - Proper names: a name the New Testament also uses, of a person or a place, takes MorphGNT's
   dictionary form, accented though Rahlfs prints it bare — Ἀδάμ, Εὕα, Κάϊν, Ἅβελ, Σήθ, Ἐνώς,
   Ἑνώχ, Μαθουσαλά, Λάμεχ, Μαλελεήλ, Νῶε, Σήμ, Χανάαν, Μαγώγ, Ἀρφαξάδ, Σαλά, Ἔβερ, Φάλεκ, Ἀράμ,
-  Ῥαγαύ, Σερούχ, Ναχώρ, Θάρα, Λώτ, Χαρράν, and the declined Σιδών, Γάζα, Βαβυλών, Σόδομα,
-  Γόμορρα and Χαλδαῖος so far — even where the New Testament
+  Ῥαγαύ, Σερούχ, Ναχώρ, Θάρα, Λώτ, Χαρράν, Φαραώ, Συχέμ, and the declined Σιδών, Γάζα, Βαβυλών,
+  Σόδομα, Γόμορρα, Αἴγυπτος, Αἰγύπτιος and Χαλδαῖος so far — even where the New Testament
   uses it of another bearer (Χανάαν the land, Acts 7:11; Μαγώγ a people, Rev 20:8). Where the New
   Testament spells the name with other letters (Luke 3:36–37 Καϊνάμ, Ἰάρετ; Ἀβραάμ and Σάρρα for
   the Αβραμ and Σαρα Rahlfs prints), it is not the same

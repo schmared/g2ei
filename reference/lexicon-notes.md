@@ -90,6 +90,7 @@ what the word means, only which entry is the word, and every case is listed here
 | οὐ (GEN 2:5) | `ou)8` — *not* | the other seventeen gloss idioms, οὐ γάρ, οὐ μήν … |
 | ὁδός (GEN 3:24) | `o(do/s2` — *a way, path* | `o(do/s1` is the Attic ὀδός for οὐδός, *a threshold* |
 | στεῖρα (GEN 11:30) | `stei=ra2` — *a cow that has not calved*; *barren* | `stei=ra1` is *a ship's keel* |
+| μόσχος (GEN 12:16) | `mo/sxos2` — *a calf* | `mo/sxos1` is *a young shoot* |
 
 A lemma belongs there only where the entries are genuinely different words. A word with one
 entry and several senses is not a homograph: its first numbered sense stands, however far
@@ -124,6 +125,10 @@ Three reasons, and all of them are the lexicon's filing rather than a decision a
 | διατίθεμαι (GEN 9:17) | διατίθημι | likewise |
 | κυνηγός (GEN 10:9) | κυναγός | the entry is headed with the Doric and Attic spelling |
 | πλησίον, ἐνώπιον (GEN 11:3, 11:28) | πλησίος, ἐνώπιος | the adverb, filed inside the adjective's entry |
+| καθάπερ (GEN 12:4) | καθά | filed inside the entry for καθά |
+| ἔρημος (GEN 12:9) | ἐρῆμος | the entry is headed with the Attic accent |
+| περιποιέομαι (GEN 12:12) | περιποιέω | MorphGNT's middle, filed under the active |
+| ἐνευλογέω (GEN 12:3) | ἐνευλογέομαι | the entry is headed with the passive |
 
 The dictionary form itself does not follow the lexicon's filing: it keeps the spelling the text
 prints — γίνομαι, ἔχθρα, νοσσιά, δειλινός, κατέναντι, ἐννακόσιοι, κατάγαιος, τεσσαράκοντα — and
@@ -152,7 +157,8 @@ is saying where the word is defined.
 
 GEN 6 adds ἀσφαλτόω and διώροφος from LSJ, each with one sense and each citing the verse.
 GEN 9 adds ὀπισθοφανής, *seen from behind*, and its adverb ὀπισθοφανῶς, *backwards*, both citing
-9:23.
+9:23. GEN 12 adds ἐγγίζω, ἐνισχύω, and ἐτασμός, which LSJ defines only by the entry before it,
+ἔτασις, *trial, affliction*.
 
 GEN 9 also files ἐμεθύσθη under μεθύσκω, *to make drunk*, where Middle Liddell gives its aorist
 passive, though MorphGNT files the same form under μεθύω, *to be drunk*.
@@ -551,6 +557,24 @@ the same ground as `the sixth` and `the seventh`: one sense each, so no range to
   settling in` (10:30); δύο `two`; υἱός `sons`.
 - The article before a people's name (τοὺς Λουδιιμ, τὸν Χετταῖον, τῶν Χαναναίων) is not printed,
   as before a person's name.
+
+### Small words new in GEN 12
+
+- καθάπερ — `according as`, the chain of καθά at 7:9, inside whose entry it is filed. 12:4.
+- τότε — **headword** `at that time`; **chain** `at that time, then, in those times and formerly, at
+  one time`. 12:6.
+- ὅπως with ἄν — **headword** `that`, the first conjunction sense; **chain** `that, in order that, as
+  and in such manner as, how and in what manner`. 12:13.
+- εὖ — **headword** `well`; **chain** `well, luckily, happily, well off`. 12:13, 12:16.
+- ἕνεκεν — `on account of`, the chain of 2:24; περί + genitive — **headword** `round about`, the
+  entry's first sense for that case; **chain** `round about, around, about and near, about and for
+  and on account of, about and concerning, for very`. 12:13, 12:17, 12:20.
+- τί τοῦτο — `why this`, as at 3:13; ἵνα τί — `that what`, as at 4:6. 12:18, 12:19.
+- ἐμαυτῷ — `for myself`, plain, as the reflexives are. 12:19.
+- One sense each in GEN 12, so plain text: εὐλογητός `blessed` (12:2); ἐνευλογέομαι `will be blessed
+  in` (12:3), followed by the Greek's own ἐν σοί, *in you*; διοδεύω `travelled through` (12:6);
+  συμπροπέμπω `to join in escorting` (12:20); θυσιαστήριον `an altar` (12:7, 12:8); ἀδελφή
+  `sister` (12:13, 12:19).
 
 ### Small words new in GEN 11
 
@@ -1285,6 +1309,46 @@ waters* is refused by `validate.py` here as there.
 | κατοικέω | aor. impv. 3 sg | `let dwell in` | `let dwell in, let settle in, let colonise, let inhabit, let settle and dwell, let lie and be situate` — the first translation reads *to dwell in as a* κάτοικος; the headword stops before the Greek | 9:27 |
 | γίνομαι | aor. pass. impv. 3 sg / aor. 3 pl | `let come into being` · `came into being` | `let come to be, let arise, let be brought into existence`; the chain of GEN 5:5 | 9:27, 9:29 |
 | ζάω | aor. 3 sg / pres. ptcp. | `lived` · `living` | the chains of GEN 5:3 and 2:7, in the form | 9:3, 9:10, 9:12, 9:28 |
+
+### Verbs new in GEN 12
+
+| lemma | form | headword | chain | used |
+| --- | --- | --- | --- | --- |
+| ἐξέρχομαι | aor. impv. · aor. 3 sg and 3 pl | `go out of` · `went out of` | the chain of GEN 8:16 and 4:16 | 12:1, 12:4, 12:5 |
+| δείκνυμι | aor. subj. 1 sg | `I may bring to light` | `I may bring to light, I may display and exhibit, I may set before one, I may show and point out, I may tell and explain and teach, I may show and prove, I may inform against, I may offer and proffer, I may cause, I may welcome and greet and pledge` | 12:1 |
+| ποιέω, εὐλογέω | fut. 1 sg | `I will make` · `I will speak well of` | the chains of GEN 6:14 and 2:3, in the future | 12:2, 12:3 |
+| μεγαλύνω | fut. 1 sg | `I will make great` | `I will make great and powerful, I will exalt and strengthen, I will make great by word and extol and magnify, I will aggravate` — the middle's *to boast oneself* left out | 12:2 |
+| εὐλογέω, καταράομαι | pres. ptcp. pl., articular · fut. 1 sg | `the ones speaking well of` · `the ones calling down curses upon` · `I will call down curses upon` | the chains of GEN 2:3 and 5:29, in the form | 12:3 |
+| λαλέω | aor. 3 sg | `talked` | `talked, chatted, prattled, babbled, said, talked of, spoke, chattered, chirped` — *to speak*, like λέγω, is the entry's New Testament sense | 12:4 |
+| οἴχομαι | impf. 3 sg | `had gone` | `had gone, had been gone, had escaped from, had gone hence, was departed and dead, was absent and away, was undone and ruined, was rushing and sweeping along` — the entry gives the imperfect a pluperfect sense | 12:4 |
+| ὑπάρχω | pres. ptcp. n. pl., as a noun | `the existing circumstances` | `the existing circumstances, the present advantages, what belongs to one, the possessions and means` — the entry's first sense for τὰ ὑπάρχοντα | 12:5 |
+| κτάομαι | aor. 3 pl | `they procured for themselves` | the chain of GEN 4:1, in the third plural | 12:5 |
+| κατοικέω | impf. 3 pl | `were dwelling in` | the chain of GEN 11:2, in the imperfect | 12:6 |
+| ὁράω | aor. pass. 3 sg and ptcp. · aor. subj. 3 pl · aor. ptcp. pl. · aor. 3 pl | `was seen` · `to the one having been seen` · `may see` · `having seen` · `saw` | the chains of GEN 8:5, 2:19 and 3:6, in the form | 12:7, 12:12, 12:14, 12:15 |
+| ἀφίστημι | aor2 3 sg | `stood away` | `stood away, stood aloof from and kept far from, lost, withdrew from, revolted from, revolted, gave up, made way and gave way, shrank from, stood aloof` — sense B, the intransitive of the second aorist, as ἀνίστημι at 4:8 | 12:8 |
+| ἵστημι | aor1 3 sg | `made to stand` | the chain of GEN 6:18, in the aorist | 12:8 |
+| ἐπικαλέω | aor. mid. 3 sg | `called upon` | the chain of GEN 4:26, in the aorist; Middle Liddell gives sense I *so in Mid.* | 12:8 |
+| ἀπαίρω | aor. 3 sg | `lifted off` | `lifted off, carried off, took away, removed from, led away, sailed and marched away and departed, departed from, set out on` — *to depart* is the entry's intransitive use | 12:9 |
+| στρατοπεδεύω | aor. 3 sg | `encamped` | `encamped, bivouacked, took up a position, was in camp, was stationed` | 12:9 |
+| παροικέω | aor. inf. | `to dwell beside` | `to dwell beside, to dwell along the coast of, to live near, to dwell among, to lie near, to live in and sojourn` | 12:10 |
+| ἐνισχύω | aor. 3 sg | `strengthened` | `strengthened, confirmed, prevailed in and among` — LSJ | 12:10 |
+| ἐγγίζω | aor. 3 sg | `brought near` | `brought near, brought up to, approached, was imminent, approximated to, was next of kin, was on the point of` — LSJ | 12:11 |
+| εἰσέρχομαι | aor. inf. · aor. 3 sg | `to go in` · `went in` | the chain of GEN 6:18, in the form | 12:11, 12:14 |
+| γινώσκω | pres. 1 sg | `I learn to know` | the chain of GEN 4:9 | 12:11 |
+| ἀποκτείνω | fut. 3 pl | `they will kill` | the chain of GEN 4:8, in the future | 12:12 |
+| περιποιέομαι | fut. 3 pl | `they will keep for themselves` | `they will keep for themselves, they will save for themselves, they will compass and acquire and obtain, they will make gain` — the middle; the actives left out | 12:12 |
+| λέγω | aor. impv. (εἰπόν) · aor. 2 sg | `say` · `you said` | the chain of GEN 2:16, in the form | 12:13, 12:19 |
+| γίνομαι | aor. subj. 3 sg | `may come into being` | the chain of GEN 5:5, in the subjunctive | 12:13 |
+| ζάω | fut. 3 sg | `will live` | the chain of GEN 3:22 | 12:13 |
+| ἐπαινέω | aor. 3 pl | `approved` | `approved, applauded, commended, complimented publicly and panegyrized, recommended and exhorted and advised, thanked, declined` | 12:15 |
+| εἰσάγω | aor. 3 pl | `led in` | the chain of GEN 8:9 | 12:15 |
+| χράομαι | aor. 3 pl | `used` | `used, had and used, indulged, experienced and suffered and were subject to, came to, lived under, made use of, treated, were intimate with, were in need and yearned after, had in use and possessed` — Perseus's *consulting*, *using an oracle*, which say where the sense comes from, left out | 12:16 |
+| ἐτάζω | aor. 3 sg | `examined` | `examined, tested` | 12:17 |
+| καλέω | aor. ptcp. | `having called` | the chain of GEN 2:19, in the participle | 12:18 |
+| ἀπαγγέλλω | aor. 2 sg | `you brought tidings` | `you brought tidings, you reported, you announced, you carried a report, you related and narrated` | 12:18 |
+| λαμβάνω | aor. 1 sg · aor. ptcp. | `I took` · `having taken` | the chain of GEN 2:15, in the form | 12:19 |
+| ἀποτρέχω | pres. impv. | `run off` | `run off, run away, run hard` | 12:19 |
+| ἐντέλλομαι | aor. 3 sg | `enjoined` | the chain of GEN 2:16 | 12:20 |
 
 ### Verbs new in GEN 11
 
@@ -2080,6 +2144,40 @@ it is a child; τρίβολος is a spiked iron for laming horses before it is 
 | παῖς | `a child` | `a child, a son, a daughter, a grandchild, a boy and youth and lad, a girl and maiden, a slave and servant and man and maid` — *a slave, servant* is sense III, *in relation to condition* | 9:25, 9:26, 9:27 |
 | οἰκέτης | `a house-slave` | `a house-slave, a menial` | 9:25 |
 
+### Nouns and adjectives new in GEN 12
+
+| lemma | headword | chain | used |
+| --- | --- | --- | --- |
+| συγγένεια | `of the sameness of descent` | `of the sameness of descent, of the family and relationship and kin, of the ties of kindred and family connexion and influence, of the kinsfolk and kinsmen, of the families` | 12:1 |
+| οἶκος (gen.) | `of the house` | the chain of GEN 7:1, in the genitive | 12:1 |
+| ἔθνος (sg.) | `a number of people accustomed to live together` | the chain of GEN 10:5, in the singular | 12:2 |
+| μέγας | `big` · `with big` | the chain of GEN 10:12, in the form | 12:2, 12:17 |
+| τόπος | `of the place` | `of the place, of the local circumstances, of the position, of the passage in a book, of the topic, of the common-place, of the occasion and opportunity` | 12:6 |
+| μῆκος | `the length` | the chain of GEN 6:15 | 12:6 |
+| δρῦς | `the tree` | `the tree, the oak, the wood, the worn-out old man` — *originally a tree, commonly the oak* | 12:6 |
+| ὑψηλός | `high` | the chain of GEN 7:19, after a plain *the* | 12:6 |
+| ὄρος | `the mountain` | `the mountain, the hill` | 12:8 |
+| σκηνή | `the covered place` | `the covered place, the tent, the camp, the dwelling-place, the temple` — the chain of GEN 4:20, in the singular | 12:8 |
+| θάλασσα (anarthrous) | `sea` | `sea, the Mediterranean, a well of salt water` | 12:8 |
+| ὄνομα with ἐπί | `to the name` | the chain of GEN 3:20, in the dative | 12:8 |
+| ἔρημος, used as a noun | `in the desert part` | `within, inside of, and by means of the desert part, the desolate, the lone and lonely and lonesome and solitary, the helpless, the reft and void and destitute, the undefended` — *desert parts*, τὰ ἐρῆμα, is the entry's first noun sense; ἡ ἐρῆμος is given no translation of its own | 12:9 |
+| λιμός | `hunger` · `the hunger` | `hunger, famine` | 12:10 |
+| εὐπρόσωπος | `fair of face` | `fair of face, with glad countenance, fair in outward show and specious` | 12:11 |
+| γυνή | `woman` · `to the woman` · `a woman` · `the woman` | the chains of GEN 2:22 and 8:16, in the form | 12:5, 12:11–20 |
+| ψυχή | `breath` · `the breath` | the chain of GEN 2:7 | 12:5, 12:13 |
+| καλός | `beautiful` | the chain of GEN 2:9 | 12:14 |
+| ἄρχων | `the rulers` | `the rulers, the commanders, the chiefs, the captains, the chief magistrates` | 12:15 |
+| πρόβατον | `things that walk forward` | the chain of GEN 4:2, in the nominative | 12:16 |
+| μόσχος | `calves` | `calves, young bulls, heifers and young cows, boys and girls and maids, young animals` — under μόσχος² | 12:16 |
+| ὄνος | `asses` | `asses, beasts of burden, windlasses and pulleys, upper millstones, beakers and wine-cups` | 12:16 |
+| παῖς | `children` | the chain of GEN 9:25, in the plural | 12:16 |
+| παιδίσκη | `young girls` | `young girls, maidens, young slaves, courtesans` | 12:16 |
+| ἡμίονος | `half-asses` | `half-asses, mules, wild asses` | 12:16 |
+| κάμηλος | `camels` | `camels, the camels in an army, the camelry and camel-brigade` | 12:16 |
+| ἐτασμός | `with trials` | `with trials, with afflictions` — LSJ, through ἔτασις | 12:17 |
+| πονηρός | `with toilsome` | the chain of GEN 2:9, in the dative | 12:17 |
+| ἀνήρ | `to men` | the chain of GEN 4:23, in the dative plural | 12:20 |
+
 ### Nouns and adjectives new in GEN 11
 
 | lemma | headword | chain | used |
@@ -2212,6 +2310,17 @@ Gloss on first occurrence per chapter, bare thereafter.
 | Μελχα | Melcha | Milcah | `(Μελχα, from Hebrew Milkâ, usually connected with malkâ, "queen")` |
 | Ιεσχα | Iescha | Iscah | `(Ιεσχα, from Hebrew Yiskâ, of uncertain meaning)` |
 | Χαρραν | Charran | Haran | `(Χαρραν, from Hebrew Ḥārān, the city Harran)` |
+
+| Αἴγυπτον | Aigypton | Egypt | `(Αἴγυπτος, the Greek name of the land; Hebrew Miṣrayim)` |
+| Αἰγύπτιοι | Aigyptioi | Egyptians | `(Αἰγύπτιος, the man of Αἴγυπτος, Egypt)` |
+| Φαραω | Pharaō | Pharaoh | `(Φαραω, from Hebrew Parʿōh, from the Egyptian for "great house")` |
+| Συχεμ | Sychem | Shechem | `(Συχεμ, from Hebrew Šĕkem, "shoulder")` |
+| Βαιθηλ | Baithēl | Bethel | `(Βαιθηλ, from Hebrew Bêt-ʾēl, "house of God")` |
+| Αγγαι | Angai | Ai | `(Αγγαι, from Hebrew hāʿAy, "the ruin")` |
+| Χαναναῖοι | Chananaioi | Canaanites | `(Χαναναῖος, from Hebrew Kĕnaʿănî, "of Canaan")` |
+
+Αἰγύπτιοι and Αἴγυπτον stand in one verse at 12:14, and `validate.py` took the people for a case of
+the land's name; names now match only where what differs is a case ending on both sides.
 
 Σύγχυσις translates the name where 10:10 gave the city its Greek name, Βαβυλών; as with Ζωή at
 3:20, the anchored form is the English of the name the Greek prints, *Confusion*. Αρραν the man
