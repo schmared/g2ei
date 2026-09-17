@@ -226,6 +226,21 @@ LSJ = {
     "σποδοειδής": ["ashy, ash-coloured"],
     # LSJ (eng5) has this verse alone: "ἐγκισσάω, have yearnings like one pregnant, LXX Ge. 30.38".
     "ἐγκισσάω": ["have yearnings like one pregnant"],
+    # GEN 31, and LSJ cites this chapter for three of the five.
+    # LSJ (eng11) κρυφῇ, the adverb, which Middle Liddell has only as the Doric κρύφα.
+    "κρυφῇ": ["secretly, in secret"],
+    # LSJ (eng11): "κατάβρωσις, eating up, devouring, LXX Ge. 31.15".
+    "κατάβρωσις": ["eating up, devouring"],
+    # LSJ (eng11): "κλοποφορέω, steal from, rob, τινα LXX Ge. 31.26".
+    "κλοποφορέω": ["steal from, rob"],
+    # LSJ (eng5): "ἐθισμός, accustoming, habituation … τὰ κατ' ἐθισμόν τινος LXX Ge. 31.35"; the
+    # plural is "habits", "usages".
+    "ἐθισμός": ["accustoming, habituation", "habits", "usages"],
+    # LSJ (eng9) θηριάλωτος, cited from Leviticus 5:2, of the beast the wild beasts took.
+    "θηριάλωτος": ["caught by wild beasts"],
+    # Middle Liddell has the entry but tags no translation in it. LSJ (eng1): "αἰχμαλωτίς,
+    # captive", citing this very verse, and then the feminine of the adjective.
+    "αἰχμαλωτίς": ["captive"],
 }
 
 # New Testament books: MorphGNT file and its book number.
@@ -793,6 +808,45 @@ NOT_SENSES = {
     "ploute/w": {"to be rich"},                 # a bare repetition of the first sense
     "fai/nw": {"to shew", "to make"},           # pieces of examples
     "parati/qhmi": {"to place upon", "to lay before"},  # pieces of examples
+    # GEN 31
+    "do/ca": {"one expects", "expect"},          # pieces of an example
+    "a)lla/ssw": {"to take"},                    # a piece of "to take one thing for another"
+    "ge/nesis": {"by descent"},                  # a piece of an example
+    "a)pokri/nw": {"to reply"},                  # a bare repetition of the sense before it
+    "klhronomi/a": {"possession of . ."},        # a citation's debris
+    "pipra/skw": {"I am bought and sold!", "betrayed, ruined, undone"},  # pieces of examples
+    "plou=tos": {"Plutus"},                      # the god, not the word
+    "a)pa/gw": {"to take away for", "with oneself", "brought to a point, tapering off"},  # pieces of the middle and passive
+    "u(pa/rxw": {"to make a beginning of", "to begin", "to be begun", "a beginning"},  # pieces of sense I
+    "kei/rw": {"to cut off one's", "have", "cut off"},  # pieces of the middle
+    "ei)/dwlon": {"phantoms"},                   # a piece of an example
+    "kru/ptw": {"secret"},                       # a piece of the perfect participle
+    "diabai/nw": {"stand with the legs apart", "planting himself firmly"},  # pieces of sense I
+    "o(rma/w": {"push on, spur on, cheer on", "inspired", "was inflicted"},  # pieces of sense I
+    "ph/gnumi": {"to build oneself"},            # a piece of an example
+    "eu)frosu/nh": {"festivities"},              # a piece of an example
+    "mousiko/s": {"of", "music"},                # pieces of "of or for music, musical"
+    "tu/mpanon": {"tympana"},                    # the Latin plural, in a citation
+    "a)cio/w": {"to think", "deem worthy of", "reward", "punishment"},  # pieces of sense I
+    "pra/ssw": {"to accomplish", "to avail", "to cause"},  # a bare repetition, and two examples
+    "i)sxu/w": {"to be strong", "influence"},    # a bare repetition, and a piece of sense 2
+    "e)piqumi/a": {"by passion", "desire of", "for"},  # pieces of examples
+    "e)piqume/w": {"to desire to", "eagerness"},  # pieces of examples
+    "e)reuna/w": {"he seeks after", "finds", "to search"},  # pieces of examples
+    "e)mba/llw": {"to throw", "to put", "into", "to give"},  # pieces of examples
+    "e)pikaqi/zw": {"had", "set"},               # pieces of an example
+    "o)rgi/zw": {"with"},                        # a piece of "to grow angry with"
+    "kau=ma": {"in the sun-heat"},               # a piece of an example
+    "keno/s": {"empty"},                         # a bare repetition of the first sense
+    "diati/qhmi": {"to dispose of one's", "devise", "by will", "the devisor, testator"},  # pieces of the middle
+    "ma/rtus": {"witnesses"},                    # the plural of the one sense
+    "sulle/gw": {"to compile a list of", "to collect"},  # a piece of an example, and a repetition
+    "marture/w": {"in favour of", "bears witness to", "testify"},  # pieces of examples
+    "marturi/a": {"evidence"},                   # a bare repetition
+    "e)fora/w": {"was in view"},                 # a piece of an example
+    "kaki/a": {"(excellence)", "defects"},       # the word it is opposed to, and a plural
+    "qu/w1": {"offering", "burning", "to slaughter for sacrifice)"},  # pieces of the parenthesis the entry opens with
+    "qusi/a": {"mode of offering", "sacrifices"},  # a piece of sense I, and a repetition
 }
 
 # An entry that divides its senses by tense and voice, so that which of them belong to a
@@ -925,6 +979,8 @@ SPELLING = {
     "e)cai/rw": "e)caei/rw",       # the entry is headed with the Epic ἐξαείρω
     "dwrea/n": "dwrea/",           # the adverb, filed inside the noun's entry
     "ou)qei/s": "ou)dei/s",        # the later spelling, filed under οὐδείς
+    "bare/ws": "baru/s",           # the adverb, filed inside the adjective's entry
+    "a)fro/nws": "a)/frwn",        # the adverb, which the entry glosses "senselessly"
     "e)comologe/w": "e)comologe/omai",  # the entry is headed with the deponent middle
 }
 

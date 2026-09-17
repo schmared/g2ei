@@ -183,6 +183,8 @@ Three reasons, and all of them are the lexicon's filing rather than a decision a
 | δωρεάν (GEN 29:15) | δωρεά | the adverb, filed inside the noun's entry |
 | ἐξομολογέω (GEN 29:35) | ἐξομολογέομαι | the entry is headed with the deponent middle |
 | οὐθείς (GEN 30:31) | οὐδείς | the later spelling |
+| βαρέως (GEN 31:35) | βαρύς | the adverb, filed inside the adjective's entry |
+| ἀφρόνως (GEN 31:28) | ἄφρων | the adverb, which the entry glosses *senselessly* |
 <!-- spelling rows above -->
 
 The dictionary form itself does not follow the lexicon's filing: it keeps the spelling the text
@@ -216,7 +218,7 @@ GEN 9 adds ὀπισθοφανής, *seen from behind*, and its adverb ὀπισ
 ἔτασις, *trial, affliction*. GEN 14 adds ἁλυκός, *salt, brackish*; ἀποσκευή, whose *removal,
 riddance* comes before *baggage*; σφαιρωτήρ, *thong, latchet*; and περάτης, which opens "= πορθμεύς",
 so that πορθμεύς's LSJ senses, *ferryman*, *boatman, seaman*, *conveyer*, stand before its own
-*wanderer, emigrant*, as ἁγίζω's stand for ἁγιάζω. GEN 15 adds ὑπερασπίζω, *cover with a shield*, from the upsilon file; τριετίζω, *to be three years old*; and διχοτόμημα, *half of a thing cut in two*. GEN 17 adds κατάσχεσις, *holding back, restraining, retention*, then *possession*, from the kappa file; and ἑκατονταέτης, *of a hundred years*, *years old*, citing 17:17. GEN 18 adds μοσχάριον, *little calf*, and, from the beta file, βούτυρον, *butter*, then *a plant*. GEN 19 adds προσοίγνυμι, *shut*; ἀορασία, *inability to see, blindness*; γελοιάζω, *jest*, from the gamma file; ἐπαύριον, *on the morrow*; and εἰσσπάομαι, *draw into oneself*. GEN 20 adds μήτρα, *womb*, whose Middle Liddell entry tags only Latin; δίδραχμον, *coin of two drachms*, under δίδραχμος; and κἀγώ, *crasis for καὶ ἐγώ*. GEN 21 adds ἀπογαλακτίζω, *wean from the mother's milk*; ἀρχιστράτηγος, *commander-in-chief*; and, from the omega file, ὦμος, *the shoulder with the upper arm*. GEN 23 adds παρεπίδημος, *sojourning in a strange place*, and μνημεῖον, *memorial, remembrance, record*, whose Middle Liddell entry tags its first sense only in Latin. GEN 24 adds ποτιστήριον, *drinking-trough for cattle*; ἐνώτιον, *ear-ring*; ἅβρα, *favourite slave*; and ἀποσάττω, *unsaddle, unpack*, *stop up, caulk*, *stuff with food*. GEN 25 adds three more: ὅλος, which Middle Liddell lacks altogether, *whole, entire, complete in all its parts*; δόμα, *gift*, then *payment*; and πυρράκης, *red, ruddy*, which LSJ files as a masculine noun. GEN 26 adds ἑκατοστεύω, *bear a hundredfold*, and γεώργιον, *field*, then *orchard*, *husbandry*, *crop* and, in the plural, a *tax* on land. GEN 27 adds four more: πιότης, *fattiness*, then *wealth, prosperity*; πτερνίζω, *strike with the heel*, *trip up, supplant*; προσοχθίζω, *to be wroth with*, and of this chapter's phrase *am weary* of; and κατανύσσω, *stab, gouge*, and in the passive *to be sorely pricked*. GEN 28 adds one more: ἐνυπνιάζομαι, *dream*, which Middle Liddell does not have at all. GEN 30 adds eight, the whole vocabulary of Jacob's flocks: ἀρήν, *lamb*; διάλευκος, *quite white*; ῥαντός, *sprinkled*, then *speckled or spotted*; σποδοειδής, *ashy, ash-coloured*; ἐγκισσάω, *have yearnings like one pregnant*; λεπίζω, *peel off the husk, skin or bark*; λέπισμα, *peel*; and καρύινος, *of nuts*, *made of walnut-wood*. LSJ cites this chapter for six of the eight.
+*wanderer, emigrant*, as ἁγίζω's stand for ἁγιάζω. GEN 15 adds ὑπερασπίζω, *cover with a shield*, from the upsilon file; τριετίζω, *to be three years old*; and διχοτόμημα, *half of a thing cut in two*. GEN 17 adds κατάσχεσις, *holding back, restraining, retention*, then *possession*, from the kappa file; and ἑκατονταέτης, *of a hundred years*, *years old*, citing 17:17. GEN 18 adds μοσχάριον, *little calf*, and, from the beta file, βούτυρον, *butter*, then *a plant*. GEN 19 adds προσοίγνυμι, *shut*; ἀορασία, *inability to see, blindness*; γελοιάζω, *jest*, from the gamma file; ἐπαύριον, *on the morrow*; and εἰσσπάομαι, *draw into oneself*. GEN 20 adds μήτρα, *womb*, whose Middle Liddell entry tags only Latin; δίδραχμον, *coin of two drachms*, under δίδραχμος; and κἀγώ, *crasis for καὶ ἐγώ*. GEN 21 adds ἀπογαλακτίζω, *wean from the mother's milk*; ἀρχιστράτηγος, *commander-in-chief*; and, from the omega file, ὦμος, *the shoulder with the upper arm*. GEN 23 adds παρεπίδημος, *sojourning in a strange place*, and μνημεῖον, *memorial, remembrance, record*, whose Middle Liddell entry tags its first sense only in Latin. GEN 24 adds ποτιστήριον, *drinking-trough for cattle*; ἐνώτιον, *ear-ring*; ἅβρα, *favourite slave*; and ἀποσάττω, *unsaddle, unpack*, *stop up, caulk*, *stuff with food*. GEN 25 adds three more: ὅλος, which Middle Liddell lacks altogether, *whole, entire, complete in all its parts*; δόμα, *gift*, then *payment*; and πυρράκης, *red, ruddy*, which LSJ files as a masculine noun. GEN 26 adds ἑκατοστεύω, *bear a hundredfold*, and γεώργιον, *field*, then *orchard*, *husbandry*, *crop* and, in the plural, a *tax* on land. GEN 27 adds four more: πιότης, *fattiness*, then *wealth, prosperity*; πτερνίζω, *strike with the heel*, *trip up, supplant*; προσοχθίζω, *to be wroth with*, and of this chapter's phrase *am weary* of; and κατανύσσω, *stab, gouge*, and in the passive *to be sorely pricked*. GEN 28 adds one more: ἐνυπνιάζομαι, *dream*, which Middle Liddell does not have at all. GEN 30 adds eight, the whole vocabulary of Jacob's flocks: ἀρήν, *lamb*; διάλευκος, *quite white*; ῥαντός, *sprinkled*, then *speckled or spotted*; σποδοειδής, *ashy, ash-coloured*; ἐγκισσάω, *have yearnings like one pregnant*; λεπίζω, *peel off the husk, skin or bark*; λέπισμα, *peel*; and καρύινος, *of nuts*, *made of walnut-wood*. LSJ cites this chapter for six of the eight. GEN 31 adds six: κρυφῇ, *secretly, in secret*, which Middle Liddell has only as the Doric κρύφα; κατάβρωσις, *eating up, devouring*; κλοποφορέω, *steal from, rob*; ἐθισμός, *accustoming, habituation*; θηριάλωτος, *caught by wild beasts*; and αἰχμαλωτίς, *captive*, which Middle Liddell has as an entry with no translation tagged in it. LSJ cites this chapter for four of the six.
 <!-- LSJ sentences above -->
 
 GEN 9 also files ἐμεθύσθη under μεθύσκω, *to make drunk*, where Middle Liddell gives its aorist
@@ -616,6 +618,175 @@ the same ground as `the sixth` and `the seventh`: one sense each, so no range to
   settling in` (10:30); δύο `two`; υἱός `sons`.
 - The article before a people's name (τοὺς Λουδιιμ, τὸν Χετταῖον, τῶν Χαναναίων) is not printed,
   as before a person's name.
+
+### Words new in GEN 31
+
+- Rahlfs prints no verse 51: the numbering runs 50, 52, and what the Hebrew has as 51 the Greek has
+  already given at 31:48. The chapter therefore has 53 verses, not 54.
+- At 31:49 the printed page capitalises the article that opens the name, Ἡ ὅρασις, where the digital
+  module has lower-case ἡ. The transcription follows the page, and the verse lists Ἡ in `printed`.
+- δόξα — *a notion* first, and *glory, splendour* last: what Laban's sons say Jacob has made of their
+  father's goods. 31:1, 31:16.
+- παρακρούω — the middle takes the Mid., *to strike away from oneself, parry*, where the sense in the
+  verse is the cheating of the wage. 31:7.
+- ἀλλάσσω — *to make other than it is, to change, alter*. 31:7.
+- ἀποκρίνω — the answering of 31:14 and the rest is the Mid.; the entry's first sense is *to separate,
+  set apart*, and the form is the aorist passive, so the chain opens `having been separated`.
+- εἴδωλον — *an image, a phantom*, and *an idol* last: Laban's teraphim. 31:19, 31:34, 31:35.
+- κρυφῇ, ἐθισμός, κλοποφορέω, κατάβρωσις — four LSJ words, three of them cited from this chapter alone,
+  and the fourth, θηριάλωτος, from Leviticus. 31:15, 31:26, 31:35, 31:39.
+- αἰχμαλωτίς — Middle Liddell has the entry and tags no translation in it; LSJ gives *captive* and cites
+  this verse. 31:26.
+- βαρέως and ἀφρόνως — two adverbs, filed inside βαρύς and ἄφρων, whose entry glosses ἀφρόνως itself as
+  *senselessly*. 31:28, 31:35.
+- ὑπάρχω — *to begin, make a beginning*; the possessions of 31:18 are τὰ ὑπάρχοντα, the things beginning.
+- ὁρμάω — *to set in motion, urge*, and the rushing off is its intransitive. 31:21.
+- Βουνὸς τῆς μαρτυρίας and Βουνὸς μάρτυς — Laban's name and Jacob's, and where the Hebrew has one in
+  Aramaic and one in Hebrew, the Greek gives both in Greek and the two languages go. Ἡ ὅρασις is Mizpah,
+  the Hebrew's watch-post, translated as well. 31:47–31:49.
+- ἐφοράω — Ἐπίδοι is its aorist optative, *may he oversee*; the module reads ἐπιδίδωμι, which would give
+  ἐπιδοίη. 31:49.
+- Three cognate constructions in the chapter: κατέφαγεν καταβρώσει, ἐπιθυμίᾳ ἐπεθύμησας, διαθώμεθα
+  διαθήκην, and ἔθυσεν θυσίαν a fourth. 31:15, 31:30, 31:44, 31:54.
+- ἐν πάσῃ τῇ ἰσχύι — ἐν takes the word next to it, πάσῃ, into the unit: `in all`, and then the article
+  and the noun. 31:6.
+- One sense each in GEN 31, and so plain text: θυγάτηρ `daughters`; υἱός `sons`; ἔτος `years`; ὀφθαλμός
+  `of eyes`; ἐχθές `yesterday`; τρίτος `third`; διάλευκος `quite white`, as at 30:32.
+
+| lemma | headword | chain | used |
+| --- | --- | --- | --- |
+| αἰχμαλωτίς | `captives` | `captives` | 31:26 |
+| βαρέως | `heavily` | `heavily, with strength and force, grievously and oppressively` | 31:35 |
+| βουνός | `a hill` | `a hill, a mound` | 31:46 |
+| βουνός | `of the hill` | `of the hill, of the mound` | 31:46 |
+| βουνός | `the hill` | `the hill, the mound` | 31:46, 31:48, 31:52 |
+| γένεσις | `of the origin` | `of the origin, of the source, of the productive cause, of the beginning, of the manner of birth, of the race and descent, of the production and generation, of the creation and created things, of the kind and family, of the generation and age` | 31:13 |
+| γίνομαι | `I was coming into being` | `I was coming to be, I was arising, I was being brought into existence` | 31:40 |
+| γυνή | `of women` | `of women, of mistresses and ladies, of wives and spouses, of mortal women` | 31:35 |
+| διαβαίνω | `I may make a stride` | `I may make a stride, I may walk and stand with the legs apart, I may step across and pass over, I may cross over` | 31:52 |
+| διαβαίνω | `made a stride` | `made a stride, walked and stood with the legs apart, stepped across and passed over, crossed over` | 31:21 |
+| διαβαίνω | `you may make a stride` | `you may make a stride, you may walk and stand with the legs apart, you may step across and pass over, you may cross over` | 31:52 |
+| διατίθημι | `let us arrange as we like` | `let us arrange as we like, let us dispose of, let us dispose of our property and devise it by will, let us set out for sale and dispose of` | 31:44 |
+| δόξα | `the notion` | `the notion, the expectation, the opinion and judgment, the mere opinion and conjecture, the fancy and vision and dream, the opinion which others have of one and the estimation and reputation and credit and honour and glory, the estimate popularly formed of a thing, the glory and splendour and effulgence` | 31:1, 31:16 |
+| δύναμαι | `I am able` | `I am able, I am capable, I am strong enough, I dare and bear, I pass for, I am worth, I am equivalent to, I signify and mean` | 31:35 |
+| εἴδωλον | `the images` | `the images, the phantoms, the unsubstantial forms, the images in the mind and ideas, the fancies, the likenesses, the idols` | 31:19, 31:34, 31:35 |
+| εὐφροσύνη | `of mirth` | `of mirth, of merriment, of good cheer and festivity, of glad thoughts` | 31:27 |
+| εὑρίσκω | `you may find` | `you may find, you may find out, you may discover` | 31:32 |
+| εὔχομαι | `you prayed` | `you prayed, you offered prayers, you paid your vows, you made a vow, you prayed for` | 31:13 |
+| θηριάλωτος | `caught by wild beasts` | `caught by wild beasts` | 31:39 |
+| θύω | `offered` | `offered, burned, sacrificed, slaughtered and slew, offered sacrifices, celebrated with offerings` | 31:54 |
+| κακία | `to badness` | `to badness in quality, to the defects, to cowardice and sloth, to moral badness and wickedness and vice, to ill-repute, to evil suffered` | 31:52 |
+| κακοποιέω | `to do ill` | `to do ill, to play the knave, to manage one's affairs ill, to do mischief to and maltreat` | 31:7, 31:29 |
+| κατάβρωσις | `to an eating up` | `to an eating up and devouring` | 31:15 |
+| καταδιώκω | `you pursued closely` | `you pursued closely` | 31:36 |
+| καταφιλέω | `to kiss tenderly` | `to kiss tenderly, to caress` | 31:28 |
+| κατεσθίω | `I ate up` | `I ate up, I devoured` | 31:38 |
+| κατεσθίω | `ate up` | `ate up, devoured` | 31:15 |
+| καῦμα | `to the burning heat` | `to the burning heat, to the fever-heat` | 31:40 |
+| κείρω | `to cut short` | `to cut short, to shear, to clip, to cut out and hew out, to ravage a country by cutting down the crops and fruit-trees, to destroy, to tear and eat greedily, to consume and waste` | 31:19 |
+| κενός | `empty` | `empty, vain, to no purpose and in vain, void and destitute and bereft, empty-handed, empty of wit and empty-headed` | 31:42 |
+| κιθάρα | `of a lyre` | `of a lyre, of a lute` | 31:27 |
+| κλέμμα | `thefts` | `thefts, stratagems in war, frauds` | 31:39 |
+| κλέπτω | `stole` | `stole, filched, purloined, cozened and cheated and deceived and beguiled, concealed and kept secret and disguised, did secretly and treacherously, seized and occupied secretly` | 31:19, 31:32 |
+| κλέπτω | `you stole` | `you stole, you filched, you purloined, you cozened and cheated and deceived and beguiled, you concealed and kept secret and disguised, you did secretly and treacherously, you seized and occupied secretly` | 31:30 |
+| κληρονομία | `an inheritance` | `an inheritance, a possession` | 31:14 |
+| κλοποφορέω | `you stole from` | `you stole from, you robbed` | 31:26 |
+| κρίνω | `will separate` | `will separate, will put asunder and distinguish, will pick out and choose, will decide and judge, will determine and give sentence, will question and dispute` | 31:53 |
+| κριός | `rams` | `rams, battering-rams` | 31:38 |
+| κριός | `the rams` | `the rams, the battering-rams` | 31:10, 31:12 |
+| κρυφῇ | `secretly` | `secretly, in secret` | 31:26 |
+| κρύπτω | `hid` | `hid, covered, cloaked, covered in the earth and buried, concealed and kept secret` | 31:20 |
+| κόπος | `the striking` | `the striking, the beating, the toil and trouble and suffering, the weariness and fatigue` | 31:42 |
+| λέγω | `has said` | `has said and it stands so, has spoken, has declared, has called by name, has told` | 31:16 |
+| λίθος | `stones` | `stones, precious stones, marbles` | 31:46 |
+| λαλέω | `you may talk` | `you may talk, you may chat, you may prattle, you may babble, you may say, you may talk of, you may speak, you may chatter, you may chirp` | 31:24, 31:29 |
+| λευκός | `the light` | `the light, the bright, the brilliant, the glassy, the limpid, the clear and plain and distinct, the white, the fair` | 31:8 |
+| λογίζομαι | `we have been reckoned` | `we have been reckoned and it stands so, we have been counted and calculated, we have been considered and pondered, we have been reckoned upon and expected` | 31:15 |
+| μάρτυς | `a witness` | `a witness` | 31:44, 31:47 |
+| μάχαιρα | `to a large knife` | `to a large knife and dirk, to a knife for cutting up, to a short sword and dagger, to a sabre and bent sword, to a rasor` | 31:26 |
+| μαρτυρέω | `bears witness` | `bears witness, is a witness, gives evidence, bears testimony, bears witness to and in favour of, testifies` | 31:46, 31:48 |
+| μαρτυρία | `of the witness` | `of the witness, of the testimony, of the evidence` | 31:47 |
+| μερίς | `a part` | `a part, a portion, a share, a parcel, a contribution, a division and class` | 31:14 |
+| μηδέ | `but not` | `but not, and not, nor, not even` | 31:52 |
+| μουσικός | `of musical` | `of musical and for music, of the skilled in music, of votaries of the Muses and men of letters and accomplishment and scholars` | 31:27 |
+| νύξ | `of night-season` | `of night-season, of night, of the watches of the night, of the dark of night, of the night of death` | 31:39 |
+| νύξ | `of the night-season` | `of the night-season, of the night, of the watches of the night, of the dark of night, of the night of death` | 31:40 |
+| οἰκία, with ἐν | `in the building` | `within, inside of, and by means of the building, the house, the dwelling, the household and domestic establishment, the household and inmates of the house, the house and family` | 31:41 |
+| οἶδα | `you know` | `you know, you are assured, you are versed in` | 31:6 |
+| οὗτος | `to these` | `to these, to the nearer, to what follows` | 31:43 |
+| παγετός | `to frost` | `to frost` | 31:40 |
+| παιδίσκη | `of the young girls` | `of the young girls, of the young women, of the maidservants and handmaids, of the courtesans` | 31:33 |
+| παρακρούω | `struck away from himself` | `struck away from himself, parried` | 31:7 |
+| παραλαμβάνω | `having received from` | `having received from, having inherited, having taken upon himself and undertaken, having taken in pledge, having taken by force and treachery and got possession of, having received by hearsay and report` | 31:23 |
+| περιποιέω | `kept for himself` | `kept for himself, saved for himself, compassed and acquired and obtained, made gain` | 31:18 |
+| πιπράσκω | `has sold` | `has sold and it stands so` | 31:15 |
+| πλοῦτος | `the wealth` | `the wealth, the riches, the treasure` | 31:16 |
+| ποιέω | `has made` | `has made and it stands so, has done, has produced, has created` | 31:1 |
+| ποιέω | `makes` | `makes, does, produces, creates` | 31:12 |
+| ποικίλος | `the many-coloured` | `the many-coloured, the spotted, the mottled, the pied, the dappled, the wrought in various colours and broidered, the in-wrought, the intricate, the changeful and various and diversified and manifold, the complex, the subtle and wily` | 31:8 |
+| πορεύομαι | `you have been driven` | `you have been driven and it stands so, you have been carried, you have gone, you have walked, you have marched, you have gone across and passed` | 31:30 |
+| πράσσω | `you passed over` | `you passed over, you accomplished, you achieved and brought about and effected, you availed, you caused, you effected an object and were successful, you had to do and were busy with, you managed state-affairs, you transacted and negotiated and managed` | 31:28 |
+| πρόβατον, with ἐν | `in the things that walk forward` | `within, inside of, and by means of the things that walk forward, the cattle, the flocks and herds, the horses, the small cattle, the sheep` | 31:41 |
+| σάγμα | `the coverings` | `the coverings, the coverings of a shield, the large cloaks, the pack-saddles, the piles` | 31:34 |
+| σκεῦος | `of the vessels` | `of the vessels, of the implements and tackle and gear, of the baggage, of the equipment` | 31:37 |
+| συγκαίω | `being set on fire with` | `being set on fire with, being burned up at once` | 31:40 |
+| συλλέγω | `collect` | `collect, gather, compile and scrape together, call together, get together` | 31:46 |
+| συλλέγω | `collected` | `collected, gathered, compiled and scraped together, called together, got together` | 31:46 |
+| σός | `of thy` | `of thy, of thine` | 31:32 |
+| ταπεινόω | `you will lower` | `you will lower, you will lessen, you will disparage, you will humble and abase, you will make lowly and humble` | 31:50 |
+| τόπος, with ἐν | `in place` | `within, inside of, and by means of place, position and post, place in life and station` | 31:13 |
+| τύμπανον | `of kettledrums` | `of kettledrums, of drum-sticks, of staffs and cudgels, of wheels of solid wood` | 31:27 |
+| φυλάσσω | `keep watch and ward for yourself` | `keep watch and ward for yourself, keep guard, watch and guard and keep and defend, watch for and lie in wait for, keep and maintain and cherish, observe` | 31:24, 31:29 |
+| φόβος | `of the flight` | `of the flight, of the panic and fear and terror, of the object of fear` | 31:53 |
+| ἀδίκημα | `the wrong done` | `the wrong done, the wrong, the wrong done to one, that which is got by wrong and the ill-gotten goods` | 31:36 |
+| ἀλείφω | `you anointed with oil` | `you anointed with oil, you oiled, you prepared as if for gymnastics and stimulated, you plastered, you stopped up` | 31:13 |
+| ἀλλάσσω | `made other than it is` | `made other than it is, changed, altered, gave in exchange for and bartered, repaid and requited, gave up and left and quit, took one thing for another and assumed, interchanged and alternated` | 31:7 |
+| ἀλλότριος | `the belonging to another` | `the belonging to another, the another man's, the unlike one's own, the forced and unnatural, the foreign and strange, the hostile` | 31:15 |
+| ἀμνάς | `to ewe lambs` | `to ewe lambs` | 31:41 |
+| ἀναβαίνω | `going up` | `going up, mounting, going up to, embarking` | 31:10, 31:12 |
+| ἀναγγέλλω | `to carry back tidings of` | `to carry back tidings of, to report` | 31:20 |
+| ἀναγγέλλω | `you carried back tidings of` | `you carried back tidings of, you reported` | 31:27 |
+| ἀναφέρω | `I have brought up` | `I have brought up and it stands so, I have carried up, I have carried up the country, I have taken with me, I have poured forth, I have heaved and uttered, I have upheld and taken upon myself, I have offered and contributed, I have led up` | 31:39 |
+| ἀξιόω | `I was thought worthy` | `I was thought worthy, I was esteemed and honoured, I was thought worthy to do, I was thought fit and expected and required and demanded, I was required` | 31:28 |
+| ἀπάγω | `led away` | `led away, carried off, brought back and brought home, returned what he owed and rendered and paid, arrested and carried off, brought before a magistrate and accused, carried off to prison, led away from the subject` | 31:18 |
+| ἀπάγω | `you led away` | `you led away, you carried off, you brought back and brought home, you returned what you owed and rendered and paid, you arrested and carried off, you brought before a magistrate and accused, you carried off to prison, you led away from the subject` | 31:26 |
+| ἀπέρχομαι | `to go away` | `to go away, to depart from, to depart, to depart from life` | 31:18, 31:30 |
+| ἀποδιδράσκω | `runs away` | `runs away and off and escapes, flees from, deserts, flees and shuns` | 31:20 |
+| ἀποδιδράσκω | `you ran away` | `you ran away and off and escaped, you fled from, you deserted, you fled and shunned` | 31:26 |
+| ἀποκρίνω | `having been separated` | `having been separated, having been set apart, having been marked by a distinctive form and distinguished, having been chosen out, having given answer to and replied, having answered charges and defended herself` | 31:14 |
+| ἀποκρίνω | `having been separated` | `having been separated, having been set apart, having been marked by a distinctive form and distinguished, having been chosen out, having given answer to and replied, having answered charges and defended himself` | 31:31, 31:36, 31:43 |
+| ἀποτίνω | `I was paying back` | `I was paying back, I was repaying, I was returning, I was paying for, I was making atonement, I was paying in full` | 31:39 |
+| ἀτεκνόω | `were made childless` | `were made childless, were deprived of children` | 31:38 |
+| ἀφίστημι | `was standing away` | `was standing away, was keeping aloof, was departing and withdrawing, was revolting` | 31:40 |
+| ἀφίστημι | `we will stand away` | `we will stand away, we will keep aloof, we will depart and withdraw, we will revolt` | 31:49 |
+| ἀφαιρέω | `took away for himself` | `took away for himself, took away, prevented and hindered from` | 31:9, 31:16 |
+| ἀφαιρέω | `you may take from` | `you may take from, you may take away from, you may take off, you may remove, you may separate and set aside` | 31:31 |
+| ἀφρόνως | `senselessly` | `senselessly, without sense, crazed and frantic, silly and foolish` | 31:28 |
+| ἁμάρτημα | `the failure` | `the failure, the fault, the sin, the bodily defect and malady` | 31:36 |
+| ἐγκισσάω | `were having yearnings like one pregnant` | `were having yearnings like one pregnant` | 31:10 |
+| ἐθισμός | `accustoming` | `accustoming, habituation, habits, usages` | 31:35 |
+| ἐλέγχω | `let them disgrace` | `let them disgrace, let them put to shame, let them cross-examine and question, let them censure and accuse, let them bring to the proof and disprove and confute, let them bring convincing proof, let them prove` | 31:37 |
+| ἐμβάλλω | `threw in` | `threw in, put in, threw at and upon and against, inflicted, applied, made an inroad and invasion, broke and burst and rushed in, struck a ship with the ram and charged it` | 31:34 |
+| ἐμός | `mine` | `mine, my` | 31:31, 31:43 |
+| ἐν | `in` | `within, inside of, and by means of` | 31:18 |
+| ἐξαποστέλλω | `I sent quite away` | `I sent quite away` | 31:27 |
+| ἐπιγινώσκω | `look upon` | `look upon, witness, observe, recognise and know again, acknowledge and approve, find out and discover and detect, come to a decision and resolve and decide` | 31:32 |
+| ἐπιγινώσκω | `looked upon` | `looked upon, witnessed, observed, recognised and knew again, acknowledged and approved, found out and discovered and detected, came to a decision and resolved and decided` | 31:32 |
+| ἐπιθυμέω | `you set your heart upon` | `you set your heart upon, you lusted after and longed for and coveted and desired` | 31:30 |
+| ἐπιθυμία | `to desire` | `to desire, to yearning, to longing` | 31:30 |
+| ἐπικαθίζω | `set upon` | `set upon, sat upon and lighted upon` | 31:34 |
+| ἐρευνάω | `sought` | `sought, searched for, searched after, tracked` | 31:33, 31:35 |
+| ἐρευνάω | `you sought` | `you sought, you searched for, you searched after, you tracked` | 31:37 |
+| ἐφοράω | `may he oversee` | `may he oversee, may he observe, may he survey, may he watch over and take notice of, may he look upon and behold` | 31:49 |
+| ἕτερος | `of other` | `of other, of the other of two, of another, of second, of other than usual and different` | 31:49 |
+| ἰσχύω | `is strong` | `is strong, is mighty and powerful and prevails, has power and influence` | 31:29 |
+| ὀργίζω | `was made angry` | `was made angry, was provoked to anger, was irritated, grew angry and was wroth` | 31:36 |
+| ὁράω | `I have seen` | `I have seen and it stands so, I have perceived, I have beheld, I have looked at` | 31:12 |
+| ὁράω | `I see` | `I see, I perceive, I behold, I look at` | 31:5 |
+| ὁρμάω | `set in motion` | `set in motion, urged and pushed on and spurred on and cheered on, stirred up, made a start and hastened on, rushed headlong at, started and began` | 31:21 |
+| ὅλος, with ἐν | `in whole` | `within, inside of, and by means of whole, entire, complete` | 31:35 |
+| ὑπάρχω | `the things beginning` | `the things beginning, the things making a beginning, the things beginning to be and coming into being and arising and springing up, the things being in existence` | 31:18 |
+| ὕπνος, with ἐν | `in the sleep` | `within, inside of, and by means of the sleep, the slumber, the sleep of death` | 31:10 |
 
 ### Words new in GEN 30
 
@@ -4527,6 +4698,11 @@ Greek makes it a woman's, the mother of Eliezer, whom it calls Δαμασκὸς
 | Ζαβουλων | Zaboulōn | Zebulun | `(Ζαβουλων, from Hebrew Zĕbûlûn, which the Hebrew of this verse hears in zābal, "honour, dwell with")` |
 | Δινα | Dina | Dinah | `(Δινα, from Hebrew Dînâ, of uncertain meaning, from the root dîn, "judge")` |
 | Ιωσηφ | Iōsēph | Joseph | `(Ιωσηφ, from Hebrew Yôsēp̄, which the Hebrew of this verse hears in yōsēp̄, "may he add", and in ʾāsap̄, "he has taken away")` |
+
+| Γαλααδ | Galaad | Gilead | `(Γαλααδ, from Hebrew Gilʿād, which the Hebrew of 31:47 hears in gal ʿēd, "heap of witness")` |
+| Σύρῳ | Syrō | Syrian | `(Σύρος again, in the dative)` |
+| Βουνὸς | Bounos | Hill | `(Βουνός, "hill", the Greek of Hebrew Galʿēd and Yĕgar-śāhădûtā, the heap of witness of 31:47)` |
+| Ἡ | Hē | The | `(Ἡ ὅρασις, "the vision", the Greek of Hebrew Miṣpâ, Mizpah, which the Hebrew hears in ṣāpâ, "he watched")` |
 <!-- name rows above -->
 
 Σύγχυσις translates the name where 10:10 gave the city its Greek name, Βαβυλών; as with Ζωή at

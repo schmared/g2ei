@@ -296,6 +296,15 @@ and the four names Γάδ, Ἀσήρ, Ἰσσαχάρ and Ζαβουλών take 
 The first pass kept θυμόω and δωρέω under the actives Middle Liddell heads, the deliberative ποιήσω of
 27:37, καρύινος as Rahlfs spells it, and κάμηλος feminine, as the corpus has had it since GEN 24.
 
+### What it found in Genesis 31
+
+Seventeen disagreements over 1233 words. The second pass was right about ὄρος throughout — the article
+before it is neuter, not masculine, at 31:23, 31:25 and 31:54 — and right that τὰ πρόβατα at 31:10 is the
+subject of ἐνεκίσσων, that καί at 31:6 and 31:33 is *also*, that ἓξ ἔτη at 31:41 is the accusative of
+duration, that Ιακωβ at 31:48 is the dative after εἶπεν, and that ἐάν at 31:52 is the conjunction, not the
+particle after a relative. The first pass kept ἀποκρίνω, περιποιέω and διατίθημι under the actives Middle
+Liddell heads, and Γαλααδ in the dative at 31:23, where the second article makes it agree with ὄρει.
+
 ## The brief
 
 Copy everything below the rule into a new agent. Replace `<BOOK NAME>`, `<CHAPTER>`,
