@@ -153,6 +153,16 @@ One disagreement over 389 words, with ἴδε and ἰδέ, ἅμα, συμπορ
 pass was right: ποτιζομένη is `-PEPNSF-`, voice E, since middle and passive share the present's
 form; the first pass had written P, from the sense.
 
+### What it found in Genesis 14
+
+Three disagreements over 517 words, with the parentheses among the punctuation, ἅμα with a dative,
+and Δαμασκός, Μελχισέδεκ, Σαλήμ, Βαλάκ and Αμορραῖος added beforehand. Each pass was right once
+and half. The first was right that ἀνασωθέντων files under ἀνασώζω, without the iota subscript,
+as Middle Liddell heads it. The second was right that Μαμβρη at 14:13 is a man, `----GSM-`: ὁ
+Αμορις beside it names him the Amorite. On δεκάτην they split: the first pass had MorphGNT's
+`A-`, the second MorphGNT's dictionary form, δεκάτη, which Middle Liddell also heads, with a
+cross-reference to δέκατος. The rule below now names it.
+
 ## The brief
 
 Copy everything below the rule into a new agent. Replace `<BOOK NAME>`, `<CHAPTER>`,
@@ -182,7 +192,7 @@ order, five space-separated columns:
     verse pos parse form lemma
 
 e.g. `2:1 V- 3API-P-- συνετελέσθησαν συντελέω`. No header, no comments, no blank lines. Copy
-each form exactly as the text prints it with punctuation (`. , · ; : —`) removed; keep accents
+each form exactly as the text prints it with punctuation (`. , · ; : — ( )`) removed; keep accents
 as printed (a grave stays grave), keep capitals, and keep the elision mark ʼ (U+02BC).
 
 Words per verse: <WORD COUNTS>. There must be <TOTAL> lines. Check your counts before
@@ -212,7 +222,7 @@ Small words are tagged as MorphGNT tags them:
   *whose, of which* is the relative, `RR`); ἐπάνω, ἔξωθεν and ἔξω with no genitive after them
   (1 Cor 15:6); πλησίον, *near*, even after the article, *the neighbour* (`τὸν πλησίον`, Matt
   19:19), where the article takes the case and gender of the person meant
-- **P-** ἀντί; a word governing a genitive as a preposition does — ἐπάνω, ἀπέναντι, ἀνά, ἐναντίον,
+- **P-** ἀντί; ἅμα with a dative (`ἅμα αὐτοῖς`, Matt 13:29); a word governing a genitive as a preposition does — ἐπάνω, ἀπέναντι, ἀνά, ἐναντίον,
   ἐνώπιον, ὑποκάτω, ὀπίσω, ἕνεκεν (filed under ἕνεκα), and ἔξωθεν with a genitive (Mark 7:15) — and ἕως
   governing a genitive, an articular infinitive included
 
@@ -263,7 +273,7 @@ Conventions:
 - An adjective used as a noun stays `A-`: ἡ ξηρά, *the dry land*, is `A- ----NSF- ξηρός`, as
   MorphGNT codes it, and so is ἡ ἔρημος, *the desert*, `A- ----DSF- ἔρημος` all 23 times in
   MorphGNT; so are ἡ περίχωρος, *the country round about*, and τὸ πρότερον, *before*,
-  `A- ----ASNC πρότερος`, and εἰς ἀριστερά, εἰς δεξιά, neuter plural. στεῖρα, *barren*, is `A-` under its own dictionary form, στεῖρα, as MorphGNT and
+  `A- ----ASNC πρότερος`, and εἰς ἀριστερά, εἰς δεξιά, neuter plural. δεκάτη, *a tenth*, is `A- ----ASF- δεκάτη`, as MorphGNT codes and files it. στεῖρα, *barren*, is `A-` under its own dictionary form, στεῖρα, as MorphGNT and
   Middle Liddell both file it.
 - μέσος with a genitive after it — `ἐν μέσῳ τοῦ …`, `ἀνὰ μέσον τοῦ …` — is the neuter
   adjective used as a noun: `A- ----DSN-`, `A- ----ASN-`.
@@ -312,7 +322,8 @@ The dictionary form as Middle Liddell (Perseus) files it:
   dictionary form, accented though Rahlfs prints it bare — Ἀδάμ, Εὕα, Κάϊν, Ἅβελ, Σήθ, Ἐνώς,
   Ἑνώχ, Μαθουσαλά, Λάμεχ, Μαλελεήλ, Νῶε, Σήμ, Χανάαν, Μαγώγ, Ἀρφαξάδ, Σαλά, Ἔβερ, Φάλεκ, Ἀράμ,
   Ῥαγαύ, Σερούχ, Ναχώρ, Θάρα, Λώτ, Χαρράν, Φαραώ, Συχέμ, and the declined Σιδών, Γάζα, Βαβυλών,
-  Σόδομα, Γόμορρα, Αἴγυπτος, Αἰγύπτιος, Χαλδαῖος, Ἰορδάνης and Φερεζαῖος so far. Σόδομα is neuter
+  Σόδομα, Γόμορρα, Αἴγυπτος, Αἰγύπτιος, Χαλδαῖος, Ἰορδάνης, Φερεζαῖος and Δαμασκός so far, and
+  Μελχισέδεκ, Σαλήμ, Βαλάκ, Αμορραῖος with no breathing as printed. Σόδομα is neuter
   plural (ἐν Σοδομοις); Γόμορρα is declined either way, and the form decides: Γομορρας is the
   feminine singular, Γομορρα beside Σοδομα in the accusative the neuter plural — even where the New Testament
   uses it of another bearer (Χανάαν the land, Acts 7:11; Μαγώγ a people, Rev 20:8). Where the New

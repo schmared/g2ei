@@ -130,6 +130,9 @@ Three reasons, and all of them are the lexicon's filing rather than a decision a
 | περιποιέομαι (GEN 12:12) | περιποιέω | MorphGNT's middle, filed under the active |
 | ἐνευλογέω (GEN 12:3) | ἐνευλογέομαι | the entry is headed with the passive |
 | βορρᾶς (GEN 13:14) | Βορέας | the contracted Attic form, filed under the uncontracted |
+| τερέμινθος (GEN 14:6) | τέρμινθος | the spelling Rahlfs prints; the entry is headed τέρμινθος |
+| παραγίνομαι (GEN 14:13) | παραγίγνομαι | the Attic spelling |
+| δεκάτη (GEN 14:20) | δέκατος | cross-reference; "v. δέκατος II." glosses nothing |
 
 The dictionary form itself does not follow the lexicon's filing: it keeps the spelling the text
 prints — γίνομαι, ἔχθρα, νοσσιά, δειλινός, κατέναντι, ἐννακόσιοι, κατάγαιος, τεσσαράκοντα — and
@@ -159,7 +162,10 @@ is saying where the word is defined.
 GEN 6 adds ἀσφαλτόω and διώροφος from LSJ, each with one sense and each citing the verse.
 GEN 9 adds ὀπισθοφανής, *seen from behind*, and its adverb ὀπισθοφανῶς, *backwards*, both citing
 9:23. GEN 12 adds ἐγγίζω, ἐνισχύω, and ἐτασμός, which LSJ defines only by the entry before it,
-ἔτασις, *trial, affliction*.
+ἔτασις, *trial, affliction*. GEN 14 adds ἁλυκός, *salt, brackish*; ἀποσκευή, whose *removal,
+riddance* comes before *baggage*; σφαιρωτήρ, *thong, latchet*; and περάτης, which opens "= πορθμεύς",
+so that πορθμεύς's LSJ senses, *ferryman*, *boatman, seaman*, *conveyer*, stand before its own
+*wanderer, emigrant*, as ἁγίζω's stand for ἁγιάζω.
 
 GEN 9 also files ἐμεθύσθη under μεθύσκω, *to make drunk*, where Middle Liddell gives its aorist
 passive, though MorphGNT files the same form under μεθύω, *to be drunk*.
@@ -558,6 +564,32 @@ the same ground as `the sixth` and `the seventh`: one sense each, so no range to
   settling in` (10:30); δύο `two`; υἱός `sons`.
 - The article before a people's name (τοὺς Λουδιιμ, τὸν Χετταῖον, τῶν Χαναναίων) is not printed,
   as before a person's name.
+
+### Small words new in GEN 14
+
+- πρός + dative — **headword** `hard by`, the entry's first sense for that case; **chain** `hard by,
+  near, at, on, in, among, close to, before and in the presence of, upon and against, employed in,
+  in addition to and besides`. 14:13.
+- πλήν with a genitive — **headword** `more than`, the preposition's first sense; **chain** `more
+  than, except, save, short of, save in respect, but, than, much like, only not, except that, save
+  that, save so far as`, the adverb's senses after. 14:24.
+- ἅμα with a dative — **headword** `at the same time with`, the preposition's sense; **chain** `at
+  the same time with, together with, at once, at the same time`. 14:5.
+- ὕψιστος — **headword** `highest`; **chain** `highest, loftiest`, one sense of two glosses, after a
+  plain `the` for the article. 14:18–22.
+- ἐν ἀριστερᾷ — **headword** `in left`, the chain of 13:9 after ἐν. 14:15.
+- τὸ before an infinitive (μετὰ τὸ ἀναστρέψαι) — not printed, as at 5:4. 14:17.
+- A dative after a preposition other than ἐν keeps its `to`, as at 12:8: `hard by to the tree`
+  (14:13). A name in the dative with no article of its own takes `to` as a pronoun does: `to
+  Abram` (14:13).
+- ἔφυγον, ἔλαβον, ἀπῆλθον, ἔφαγον — first singular or third plural by form; the headword says
+  `they`, as at 3:6. 14:10, 14:11, 14:12, 14:24.
+- σεαυτῷ — `for yourself`, as at 6:14. 14:21.
+- One sense each in GEN 14, so plain text: the numerals `twelve`, `thirteenth`, `fourteenth`, `three
+  hundred`, `ten`, `eight`, `four`, `five`, with ἔτος `years`, `year`; αἰχμαλωτεύω `has been taken
+  prisoner and stands taken prisoner`, the perfect's standing state (14:14); καταδιώκω `pursued
+  closely` (14:14); συνάντησις `a meeting` (14:17); οἶνος `wine` (14:18); εὐλογητός `blessed` (14:20);
+  σπαρτίον `of a small cord` (14:23); νεανίσκος `the youths` (14:24).
 
 ### Small words new in GEN 13
 
@@ -1337,6 +1369,48 @@ waters* is refused by `validate.py` here as there.
 | κατοικέω | aor. impv. 3 sg | `let dwell in` | `let dwell in, let settle in, let colonise, let inhabit, let settle and dwell, let lie and be situate` — the first translation reads *to dwell in as a* κάτοικος; the headword stops before the Greek | 9:27 |
 | γίνομαι | aor. pass. impv. 3 sg / aor. 3 pl | `let come into being` · `came into being` | `let come to be, let arise, let be brought into existence`; the chain of GEN 5:5 | 9:27, 9:29 |
 | ζάω | aor. 3 sg / pres. ptcp. | `lived` · `living` | the chains of GEN 5:3 and 2:7, in the form | 9:3, 9:10, 9:12, 9:28 |
+
+### Verbs new in GEN 14
+
+| lemma | form | headword | chain | used |
+| --- | --- | --- | --- | --- |
+| γίνομαι | aor. 3 sg | `came into being` | the chain of GEN 12:10 | 14:1 |
+| ποιέω | aor. 3 pl | `made` | the chain of GEN 9:24 | 14:2 |
+| συμφωνέω | aor. 3 pl | `agreed in sound` | `agreed in sound, were in harmony, agreed with and held the same opinions with, made an agreement and bargained with, agreed, conspired` | 14:3 |
+| δουλεύω | impf. 3 pl | `were being slaves` | `were being slaves, were serving and being subject to` | 14:4 |
+| ἀφίστημι | aor2 3 pl | `stood away` | the chain of GEN 12:8 | 14:4 |
+| ἔρχομαι | aor. 3 sg · aor. 3 pl | `came` | the chain of GEN 10:19, in the form | 14:5, 14:7 |
+| κατακόπτω | aor. 3 pl | `cut down` | `cut down, cut in pieces and cut up, killed and slew, broke in pieces and destroyed, coined into money` | 14:5, 14:7 |
+| ἀναστρέφω | aor. ptcp. · aor. inf. | `having turned upside down` · `to turn upside down` | the chain of GEN 8:11, in the form, with the lexicon's *oneself* for 8:11's *herself* | 14:7, 14:17 |
+| κατοικέω | pres. ptcp., articular · pres. ptcp. · impf. 3 sg | `the ones dwelling in` · `dwelling in` · `was dwelling in` | the chain of GEN 9:27, in the form | 14:7, 14:12, 14:13 |
+| ἐξέρχομαι | aor. 3 sg | `went out of` | the chain of GEN 4:16 | 14:8, 14:17 |
+| παρατάσσω | aor. mid. 3 pl | `drew up one's men in battle-order` | `drew up one's men in battle-order, were drawn up along, stood prepared` — the middle, its active *to place side by side* left out | 14:8 |
+| φεύγω | aor. 3 sg · aor. 3 pl | `fled` · `they fled` | `fled, took flight and ran away, had recourse and took refuge, was shy of doing and shrank from doing, shrank back, fled from and shunned and avoided, fled the consequences of, fled one's country, was banished, went into exile and was an exile, was accused and prosecuted, was put on one's trial for, was charged with`, in the form | 14:10 |
+| ἐμπίπτω | aor. 3 pl | `fell in` | `fell in, fell upon and attacked, lit and chanced upon, fell in with, broke in and burst in` | 14:10 |
+| καταλείπω | aor. pass. ptcp., articular | `the ones having been left behind` | the chain of GEN 7:23, in the participle | 14:10 |
+| λαμβάνω | aor. 3 pl · aor. impv. · fut. 1 sg and 3 pl | `they took` · `take` · `I will take` · `they will take` | the chain of GEN 2:15, in the form | 14:11, 14:12, 14:21, 14:23, 14:24 |
+| ἀπέρχομαι | aor. 3 pl | `they went away` | the chain of GEN 3:19, in the aorist | 14:11 |
+| ἀποίχομαι | impf. 3 pl | `were being gone away` | `were being gone away and far from, were being gone and had departed and were being absent, were being gone and had perished, were being dead and gone` | 14:12 |
+| παραγίνομαι | aor. ptcp. | `having been near` | `having been near and attended upon, having been present at, having come to one's side and come to aid and stood by and seconded and supported, having been at hand and been gained and accrued, having come to, having arrived and come up, having come to maturity, having been fully grown` — Perseus tags *near, attend upon* inside *to be beside, to be by or near*, and the headword takes *been* from there | 14:13 |
+| ἀνασώζω | aor. pass. ptcp., articular gen. | `of the ones having been recovered` | `of the ones having been recovered and rescued, of the ones having returned safe` — the first sense in the passive, the entry's *Pass.* after it, its middles left out | 14:13 |
+| ἀπαγγέλλω | aor. 3 sg | `brought tidings` | the chain of GEN 12:18, in the third person | 14:13 |
+| ἀκούω | aor. ptcp. | `having heard` | the chain of GEN 3:8, in the participle | 14:14 |
+| ἀριθμέω | aor. 3 sg | `numbered` | `numbered, counted and reckoned up, counted out and paid, reckoned and counted as, was reckoned, was counted` | 14:14 |
+| ἐπιπίπτω | aor. 3 sg | `fell upon` | `fell upon, attacked and assailed` | 14:15 |
+| πατάσσω | aor. 3 sg | `beat` | the chain of GEN 8:21, in the aorist | 14:15 |
+| διώκω | aor. 3 sg | `pursued` | `pursued, chased and hunted, was a follower of and attached oneself and sought after, followed and waited for, drove and chased away and banished, impelled and sped on her way, urged on, drove and drove on, galloped and sped and ran, prosecuted and brought an action against, accused of and prosecuted for, avenged` | 14:15 |
+| ἀποστρέφω | aor. 3 sg | `turned` | the chain of GEN 3:19, in the aorist | 14:16 |
+| ὑπάρχω | pres. ptcp. n. pl., as a noun | `the existing circumstances` | the chain of GEN 12:5 | 14:16 |
+| ἐκφέρω | aor. 3 sg | `carried out of` | `carried out of, carried out, carried off, carried out of the sea and threw ashore, brought forth, brought forth and produced, brought about and accomplished, brought out and published, delivered, brought forward, disclosed and told and betrayed, put forth and exerted, bore the marks of, carried to a certain point, shot forth, ran away, came to fulfilment and came to an end, came to land and was cast ashore, was carried beyond bounds and carried away` — the passives last | 14:18 |
+| εὐλογέω | aor. 3 sg · perf. pass. ptcp. | `spoke well of` · `having been spoken well of` | the chain of GEN 2:3 · `having been spoken well of and remaining so, having been praised and standing praised, having been honoured and standing honoured, having been blessed and standing blessed` | 14:19 |
+| κτίζω | aor. 3 sg | `peopled` | `peopled, built houses and cities, colonised, founded and planted and built, planted, set up, established, created and brought into being and brought about, made, perpetrated, was founded` — *to create* is its sixth sense | 14:19, 14:22 |
+| παραδίδωμι | aor. 3 sg | `gave` | `gave, handed over to another and transmitted, transmitted and imparted, delivered up and surrendered, betrayed, committed, gave up, handed down, granted and bestowed, offered and allowed` | 14:20 |
+| δίδωμι | aor. 3 sg · aor. impv. | `gave` · `give` | the chain of GEN 3:6, in the form | 14:20, 14:21 |
+| ἐκτείνω | fut. 1 sg | `I will stretch out` | the chain of GEN 3:22, in the future | 14:22 |
+| λέγω | aor. subj. 2 sg | `you may say` | the chain of GEN 2:16, in the subjunctive | 14:23 |
+| πλουτίζω | aor. 1 sg | `I made wealthy` | `I made wealthy and enriched, I gained one's wealth` — the middle's sense last | 14:23 |
+| ἐσθίω | aor. 3 pl | `they ate` | the chain of GEN 3:6 | 14:24 |
+| συμπορεύομαι | aor. ptcp., articular gen. | `of the ones having gone` | the chain of GEN 13:5, in the form | 14:24 |
 
 ### Verbs new in GEN 13
 
@@ -2199,6 +2273,60 @@ it is a child; τρίβολος is a spiked iron for laming horses before it is 
 | παῖς | `a child` | `a child, a son, a daughter, a grandchild, a boy and youth and lad, a girl and maiden, a slave and servant and man and maid` — *a slave, servant* is sense III, *in relation to condition* | 9:25, 9:26, 9:27 |
 | οἰκέτης | `a house-slave` | `a house-slave, a menial` | 9:25 |
 
+### Nouns and adjectives new in GEN 14
+
+| lemma | headword | chain | used |
+| --- | --- | --- | --- |
+| βασιλεία, with ἐν | `in the kingdom` | the chain of GEN 10:10, after ἐν | 14:1 |
+| βασιλεύς | `a king` · `of a king` · `the kings` · `kings` · `of the kings` | `a king, a chief, an hereditary king, a lord and master and householder, the second of the nine archons, the king of Persia`, in the form — lower case for *Archons*; the comparative *more kingly* and the example *the king's son, prince* left out | 14:1–22 |
+| ἔθνος (gen. and acc. pl.) | `of numbers of people accustomed to live together` · `numbers of …` | the chain of GEN 10:5, anarthrous | 14:1, 14:5, 14:9 |
+| πόλεμος | `battle` | `battle, fight and war`, one sense of three glosses | 14:2, 14:8 |
+| φάραγξ | `the cleft` | `the cleft and chasm, the ravine and gully` | 14:3 |
+| ἁλυκός | `salt` | `salt, brackish` — LSJ, after a plain `the` | 14:3, 14:8, 14:10 |
+| θάλασσα | `the sea` | the chain of GEN 12:8, with the article | 14:3 |
+| ἅλς | `of the salt` | `of the salt, of the lumps of salt` — the plural's *salt* heads the plural; *the sea*, ἡ ἅλς, is the feminine's | 14:3 |
+| γίγας | `the giants` | the chain of GEN 6:4 | 14:5 |
+| ἰσχυρός | `strong` | `strong, mighty, hard, obstinate and stiff and stubborn and inveterate and excessive and severe` — the neuter as a noun, the superlative and the adverb left out | 14:5 |
+| πόλις | `the city` | the chain of GEN 4:17, with the article, after a name under ἐν | 14:5 |
+| ὄρος, with ἐν | `in the mountains` | the chain of GEN 7:19, after ἐν | 14:6 |
+| τερέμινθος | `of the terebinth` | `of the terebinth, of the turpentine tree` — under τέρμινθος | 14:6 |
+| ἔρημος, with ἐν | `in the desert part` | the chain of GEN 12:9 | 14:6 |
+| πηγή | `the running waters` | the chain of GEN 2:6, with the article | 14:7 |
+| κρίσις | `of the separating` | `of the separating and power of distinguishing, of the choice and selection, of the decision and judgment, of the means of judging, of the trial, of the result of a trial and condemnation, of the dispute, of the event and issue` | 14:7 |
+| ἄρχων | `the rulers` | the chain of GEN 12:15 | 14:7 |
+| κοιλάς | `the hollow` · `in the hollow` | `the hollow, the deep valley`, and after ἐν | 14:8, 14:10, 14:17 |
+| φρέαρ | `wells` | `wells, tanks and cisterns and reservoirs, oil jars` — *(opp. a spring)* left out | 14:10 |
+| ἄσφαλτος | `of asphalt` | the chain of GEN 11:3, in the genitive | 14:10 |
+| ὀρεινός, used as a noun | `the mountainous` | `the mountainous and hilly, the dwelling on the mountains` | 14:10 |
+| ἵππος | `the horse` | `the horse and mare, the horse and cavalry` — ἡ ἵππος; the plural's *chariot-horses* and the compounds' *anything large* left out | 14:11, 14:16, 14:21 |
+| βρῶμα | `the things which are eaten` | the chain of GEN 6:21, in the accusative | 14:11 |
+| ἀποσκευή | `the removal` | `the removal and riddance, the baggage, the household stuff, the ordure and filth` — LSJ | 14:12 |
+| τις | `any one` | the chain of GEN 6:5 | 14:13 |
+| περάτης | `to the ferryman` | `to the ferryman, to the boatman and seaman, to the conveyer, to the wanderer and emigrant` — LSJ, through πορθμεύς | 14:13 |
+| δρῦς | `to the tree` | the chain of GEN 12:6, in the dative | 14:13 |
+| ἀδελφός | `of the son of the same mother` · `of son of the same mother` · `the son of the same mother` | the chains of GEN 4:9, 9:5 and 4:2 | 14:12–16 |
+| συνωμότης | `fellow-conspirators` | `fellow-conspirators, confederates` | 14:13 |
+| ἴδιος | `one's own` | `one's own, pertaining to oneself, private and personal, peculiar and separate and distinct, peculiar and different, strange and unaccustomed`, after a plain `the` — the noun's and adverb's senses left out | 14:14 |
+| οἰκογενής | `born in the house` | `born in the house, homebred` | 14:14 |
+| νύξ | `the night-season` | the chain of GEN 8:22, with the article | 14:15 |
+| παῖς | `the children` | the chain of GEN 12:16, with the article | 14:15 |
+| γυνή | `the women` | the chain of GEN 4:19, with the article | 14:16 |
+| λαός | `the people` | `the people, the men, the soldiers, the land-army, the common men, the folk, the Jews, the Christians` | 14:16 |
+| κοπή | `of the cutting in pieces` | `of the cutting in pieces, of the slaughter` — the word of Hebrews 7:1 | 14:17 |
+| πεδίον | `the plain` | the chain of GEN 4:8 | 14:17 |
+| ἄρτος | `cakes` | `cakes, loaves of wheat-bread, breads` — the chain of GEN 3:19, in the plural | 14:18 |
+| ἱερεύς | `a priest` | `a priest, a sacrificer, a minister` | 14:18 |
+| οὐρανός, γῆ | `the heaven` · `the earth` | the chains of GEN 1:1, *as the counterpart-below* included, since γῆ is paired with οὐρανός | 14:19, 14:22 |
+| ἐχθρός, used as a noun | `the one's enemies` | `the one's enemies, the hated and hateful, the hostile and at enmity with` — the noun sense, *one's enemy*, first | 14:20 |
+| ὑποχείριος | `under the hand` | `under the hand and in hand, under any one's hand and under command and subject, into one's power` | 14:20 |
+| δεκάτη | `tenth part` | `tenth part, tithe, tenth day, tenth day after birth, naming-day, tenth` — under δέκατος, whose noun sense heads it; the adjective's *tenth* last | 14:20 |
+| ἀνήρ (pl.) | `the men` · `of the men` | the chain of GEN 3:6, in the plural | 14:21, 14:24 |
+| χείρ | `the hand` | the chain of GEN 3:22 | 14:22 |
+| σφαιρωτήρ | `of thong` | `of thong and latchet, of a ball, of knop` — LSJ | 14:23 |
+| ὑπόδημα | `of a sole bound under the foot with straps` | `of a sole bound under the foot with straps, of a sandal, of a half-boot` | 14:23 |
+| σός, used as a noun | `of the thy property` | `of the thy property, of the thy interests, of the thy and thine and of thee` — τὰ σά's senses, with the article the Greek prints; the masculine's *thy kinsfolk* and the singular's *thy business* left out | 14:23 |
+| μερίς | `of the part` · `a part` | `of the part, of the portion, of the share, of the parcel, of the contribution, of the part and division and class`, in the form | 14:24 |
+
 ### Nouns and adjectives new in GEN 13
 
 | lemma | headword | chain | used |
@@ -2426,6 +2554,41 @@ the land's name; names now match only where what differs is a case ending on bot
 Σοδομοις at 13:12 is two letters longer than Σοδομα at 13:10, and `validate.py` matched two forms of
 a name only within one letter of each other's length, which keeps Καιν apart from Καιναν. It now
 allows more where both forms carry a case ending, with a test.
+
+| Αμαρφαλ | Amarphal | Amraphel | `(Αμαρφαλ, from Hebrew ʾAmrāpel, of uncertain meaning)` |
+| Αριωχ | Ariōch | Arioch | `(Αριωχ, from Hebrew ʾAryôk, of uncertain meaning)` |
+| Ελλασαρ | Ellasar | Ellasar | `(Ελλασαρ, from Hebrew ʾEllāsār, of uncertain meaning)` |
+| Χοδολλογομορ | Chodollogomor | Chedorlaomer | `(Χοδολλογομορ, from Hebrew Kĕdorlāʿōmer, usually connected with the Elamite for "servant of Lagamar")` |
+| Θαργαλ | Thargal | Tidal | `(Θαργαλ, from Hebrew Tidʿāl, of uncertain meaning)` |
+| Βαλλα | Balla | Bera | `(Βαλλα, from Hebrew Beraʿ, of uncertain meaning)` |
+| Βαρσα | Barsa | Birsha | `(Βαρσα, from Hebrew Biršaʿ, of uncertain meaning)` |
+| Σεννααρ (the king) | Sennaar | Shinab | `(Σεννααρ, for Hebrew Šinʾāb, of uncertain meaning)` |
+| Συμοβορ | Symobor | Shemeber | `(Συμοβορ, from Hebrew Šemʾēber, of uncertain meaning)` |
+| Βαλακ | Balak | Bela | `(Βαλακ, from Hebrew Belaʿ, usually connected with bālaʿ, "to swallow")` |
+| Σηγωρ | Sēgōr | Zoar | `(Σηγωρ, from Hebrew Ṣōʿar, "small")` |
+| Ασταρωθ, Καρναιν | Astarōth, Karnain | Ashteroth, Karnaim | `(Ασταρωθ, from Hebrew ʿAštĕrōt, the goddess Astarte, in the plural)`, `(Καρναιν, from Hebrew Qarnayim, "two horns")` |
+| Ομμαίους | Ommaious | Emim | `(Ομμαῖος, from Hebrew ʾÊmîm, usually connected with ʾêmâ, "terror")` |
+| Σαυη | Sauē | Shaveh | `(Σαυη, from Hebrew Šāwēh, "level plain")` |
+| Χορραίους | Chorraious | Horites | `(Χορραῖος, from Hebrew Ḥōrî, usually connected with ḥōr, "cave")` |
+| Σηιρ | Sēir | Seir | `(Σηιρ, from Hebrew Śēʿîr, "hairy")` |
+| Φαραν | Pharan | Paran | `(Φαραν, from Hebrew Pāʾrān, of uncertain meaning)` |
+| Καδης | Kadēs | Kadesh | `(Καδης, from Hebrew Qādēš, "holy")` |
+| Αμαληκ | Amalēk | Amalek | `(Αμαληκ, from Hebrew ʿĂmālēq, of uncertain meaning)` |
+| Ασασανθαμαρ | Asasanthamar | Hazazon-tamar | `(Ασασανθαμαρ, from Hebrew Ḥaṣăṣōn Tāmār, the second word "palm tree")` |
+| Αμορις | Amoris | Amorite | `(Αμορις, from Hebrew hāʾĔmōrî, "the Amorite")` |
+| Εσχωλ | Eschōl | Eshcol | `(Εσχωλ, from Hebrew ʾEškōl, "cluster")` |
+| Αυναν | Aunan | Aner | `(Αυναν, from Hebrew ʿĀnēr, of uncertain meaning)` |
+| Δαν | Dan | Dan | `(Δαν, from Hebrew Dān, "judge")` |
+| Χωβα | Chōba | Hobah | `(Χωβα, from Hebrew Ḥôbâ, of uncertain meaning)` |
+| Δαμασκοῦ | Damaskou | Damascus | `(Δαμασκός, from Hebrew Dammeśeq, of uncertain meaning)` |
+| Μελχισεδεκ | Melchisedek | Melchizedek | `(Μελχισεδεκ, from Hebrew Malkî-ṣedeq, "king of righteousness")` |
+| Σαλημ | Salēm | Salem | `(Σαλημ, from Hebrew Šālēm, usually connected with šālôm, "peace")` |
+
+GEN 14 prints Σεννααρ twice for two bearers: the land, Shinar, at 14:1 and 14:9, and Shinab, king
+of Adama, at 14:2. Each is glossed on its first occurrence. `validate.py` counted a name as glossed
+by its Greek form alone, and would have called the king's gloss a second gloss of the land; it now
+tells bearers apart by their English names, with a test, and `words.py` gives each card its own
+bearer's gloss. Σηγωρ is the Ζογορα of 13:10, spelt another way.
 
 Σύγχυσις translates the name where 10:10 gave the city its Greek name, Βαβυλών; as with Ζωή at
 3:20, the anchored form is the English of the name the Greek prints, *Confusion*. Αρραν the man

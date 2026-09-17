@@ -121,6 +121,16 @@ LSJ = {
                "to be next of kin", "to be on the point of"],
     "ἐνισχύω": ["strengthen, confirm", "prevail in, prevail among"],
     "ἐτασμός": ["trial, affliction"],
+    # No Middle Liddell entry for these four. LSJ (eng1): ἁλυκός, "salt, brackish"; ἀποσκευή,
+    # "removal, riddance", glossed "i.e. assassination", then "baggage", "household stuff" and
+    # "ordure, filth". LSJ (eng21): σφαιρωτήρ, "thong, latchet", and "a ball" on a pillar,
+    # "knop". LSJ (eng17): περάτης opens "= πορθμεύς", whose LSJ senses stand in its place,
+    # "ferryman", "boatman, seaman", "conveyer", before its own "wanderer, emigrant", given as
+    # the explanation of Ἑβραῖος, the word GEN 14:13 translates.
+    "ἁλυκός": ["salt, brackish"],
+    "ἀποσκευή": ["removal, riddance", "baggage", "household stuff", "ordure, filth"],
+    "σφαιρωτήρ": ["thong, latchet", "a ball", "knop"],
+    "περάτης": ["ferryman", "boatman, seaman", "conveyer", "wanderer, emigrant"],
 }
 
 # New Testament books: MorphGNT file and its book number.
@@ -381,6 +391,33 @@ NOT_SENSES = {
     "katastre/fw": {"subdued and made", "am constrained to", "a close periodic"},  # pieces of examples
     "skhno/w": {"be"},                          # a piece of an example
     "a)nable/pw": {"in the face"},              # a piece of an example
+    # GEN 14
+    "basileu/s": {"king", "more of a king, more kingly", "most kingly", "the king's son, prince"},  # pieces of examples and other degrees
+    "po/lemos": {"war", "a war;", "war, —"},     # pieces of examples
+    "sumfwne/w": {"for", "it was agreed"},      # pieces of examples
+    "triskaide/katos": {"the", "th day"},       # pieces of "the 13th day"
+    "katako/ptw": {"cut in pieces", 'to cut in pieces, "cut up, "'},  # pieces of examples
+    "i)sxuro/s": {"strength, vigour", "strongest points", "strongly, with all force", "exceedingly"},  # the neuter as a noun, the superlative, the adverb
+    "fre/ar": {"a spring)"},                    # a piece of "(opp. a spring)"
+    "feu/gw": {"to flee", "the endeavour to flee", "the attempt", "the accomplishment", "flee and",
+               "can escape", "escaped from his hands", "the exiles", "the accused, defendant",
+               "the accuser, prosecutor", "is accused of"},  # pieces of examples
+    "e)mpi/ptw": {"upon", "into", "violently"},  # pieces of examples
+    "i(/ppos": {"chariot-horses", "the chariot", "riding", "a thousand", "the hippopotamus",
+                "anything large", "coarse", "horsechestnut, horselaugh"},  # the plural's, phrases and compounds
+    "a)riqme/w": {"they got", "counted"},        # pieces of examples
+    "i)/dios": {"private", "a private man", "private buildings", "private affairs, private interests",
+                "one's own property", "one's own affairs", "oneself", "for my own part",
+                "especially, peculiarly", "by oneself, privately, separately, on one's own account",
+                "apart from"},                   # the noun's, the adverb's and pieces of examples
+    "e)pipi/ptw": {"over"},                     # a piece of an example
+    "diw/kw": {"to chase", "the prosecutor", "he who impeaches the words"},  # pieces of examples
+    "lao/s": {"o people!", "oyez!", "men, people;"},  # a proclamation, and a repeat
+    "e)kfe/rw": {"to declare one's"},           # a piece of an example
+    "kti/zw": {"founded by emigrants from", "having invented"},  # pieces of examples
+    "paradi/dwmi": {"transmission", "into another's hands", "to allow", "to", "permits"},  # pieces of examples
+    "e)xqro/s": {"'tis hateful"},               # a piece of an example
+    "so/s": {"for thee"},                       # a piece of an example
 }
 
 # An entry that divides its senses by tense and voice, so that which of them belong to a
@@ -408,6 +445,14 @@ FORM_SENSES = {
         "in", "with assiduity"})],
     # παύω opens "Causal, to make to cease", and marks its middle and passive senses "Pass. and
     # Mid.": to take one's rest, to leave off from. GEN 11:8 ἐπαύσαντο is the middle.
+    # παρατάσσω's active is "to place side by side, draw up in battle-order"; its middle, "Mid.
+    # to draw up one's men in battle-order", then "Mid. and Pass." senses. GEN 14:8
+    # παρετάξαντο is the aorist middle.
+    "parata/ssw": [("A", "M", {"to place side by side, draw up in battle-order", "in order of battle"})],
+    # ἀνασῴζω's middle senses — "to recover" one from fear, "for oneself", "to preserve in mind,
+    # remember" — are skipped for the aorist passive of GEN 14:13, which keeps the first sense
+    # and its own "Pass. to return safe".
+    "a)nasw/zw": [("A", "P", {"to recover", "for oneself", "to preserve in mind, remember"})],
     "pau/w": [("PIFAXY", "MEP", {
         "to make to cease", "to bring to an end, check, make an end of", "to make an end of, stop, abate",
         "to let", "rest", "to annul", "to put", "down", "to make to rest, stop, hinder, keep back from",
@@ -456,6 +501,9 @@ SPELLING = {
     "peripoie/omai": "peripoie/w",  # MorphGNT's middle, filed under the active
     "e)neuloge/w": "e)neuloge/omai",  # the entry is headed with the passive
     "borra=s": "*bore/as",          # the contracted Attic form, filed under Βορέας
+    "tere/minqos": "te/rminqos",    # the spelling Rahlfs prints; the entry is headed τέρμινθος
+    "paragi/nomai": "paragi/gnomai",  # the Attic spelling
+    "deka/th": "de/katos",          # cross-reference; "v. δέκατος II." glosses nothing
 }
 
 # Homographs where Perseus's *first* entry is a different word from the one the text
@@ -474,7 +522,7 @@ ENTRY = {
     "mo/sxos": "mo/sxos2",  # mo/sxos1 is a young shoot; the calf of GEN 12:16 is the second
 }
 
-PUNCT = re.compile(r"[.,;:·!?—·]")
+PUNCT = re.compile(r"[.,;:·!?—·()]")
 
 
 # --------------------------------------------------------------------------
@@ -684,6 +732,10 @@ def build(book, chapter, entries):
     # gloss and contributes nothing to it.
     names = {n["greek"]: n["gloss"] for verse in verses
              for n in verse.get("names", []) if n.get("gloss")}
+    # One form can name two bearers in a chapter (Σεννααρ, the land at GEN 14:1 and the king
+    # at 14:2), told apart by their English names; a card takes its own bearer's gloss.
+    bearers = {(n["greek"], n["anchored"]): n["gloss"] for verse in verses
+               for n in verse.get("names", []) if n.get("gloss")}
     # A name glossed in one case and bare in another (Σιδῶνα, then Σιδῶνος, GEN 10) shares
     # its dictionary form, and the card for the bare one takes the gloss through it.
     by_lemma = {lemma: names[form] for words in tokens.values()
@@ -716,7 +768,9 @@ def build(book, chapter, entries):
                 # is not always the dictionary form the morphology gives (Ἀσσύριος). It
                 # also stands in for an entry that tags nothing: Middle Liddell's γάζα,
                 # "treasure", is another word, and glosses nothing for Γάζα at GEN 10:19.
-                senses, lexicon = [names.get(lemma) or names.get(form) or by_lemma[lemma]], "name"
+                own = next((bearers.get((n["greek"], n["anchored"])) for n in verse.get("names", [])
+                            if n["greek"] == form), None)
+                senses, lexicon = [own or names.get(lemma) or names.get(form) or by_lemma[lemma]], "name"
             elif senses is None and lemma in LSJ:
                 senses, lexicon = LSJ[lemma], "LSJ"
             elif senses is None:

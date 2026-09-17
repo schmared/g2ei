@@ -1,0 +1,544 @@
+# Genesis 14 — morphology, one word per line.
+#
+# This is the project's own grammatical analysis of each form, written alongside the
+# transcription and not copied from any digital edition.
+#
+# Columns: verse, part of speech, parse, form, lemma — in MorphGNT's code scheme, so
+# the Old and New Testament layers read alike. The parse is eight places: person,
+# tense, voice, mood, case, number, gender, degree ("-" where it does not apply).
+#
+# Two codes go beyond MorphGNT, both to record only what the form itself says:
+#   voice  E  middle/passive — a tense in which the two share one form
+#   gender C  masculine/feminine — an adjective whose form does not distinguish them
+#
+# A trailing annotation records a deliberate difference and the reason for it:
+#   "# module …"  from the reference module, checked when LXX_RAHLFS_DIR is set
+#   "# corpus …"  from this project's own analysis of the same form elsewhere
+# A line may carry both. validate.py prints them as notes instead of failures — and
+# fails if the difference a note claims is not there, so they cannot go stale. The
+# analysis here is this project's own: the module is a reference, not an authority,
+# and the corpus is held to itself.
+#
+# Indeclinables take case and number from the syntax, as MorphGNT does, and gender
+# where there is one to take: a personal name, from the person; a numeral agreeing
+# with its noun; a common noun whose article shows it — but not an indeclinable place
+# name, which has none. A personal name the New Testament also uses takes MorphGNT's
+# dictionary form (Νῶε, Σήμ); every other Semitic name (Χαμ, Ιαφεθ), the form Rahlfs
+# prints.
+14:1 V- 3AMI-S-- Ἐγένετο γίνομαι
+14:1 C- -------- δὲ δέ
+14:1 P- -------- ἐν ἐν
+14:1 RA ----DSF- τῇ ὁ
+14:1 N- ----DSF- βασιλείᾳ βασιλεία
+14:1 RA ----DSF- τῇ ὁ
+14:1 N- ----GSM- Αμαρφαλ Αμαρφαλ
+14:1 N- ----GSM- βασιλέως βασιλεύς
+14:1 N- ----GS-- Σεννααρ Σεννααρ
+14:1 N- ----NSM- Αριωχ Αριωχ
+14:1 N- ----NSM- βασιλεὺς βασιλεύς
+14:1 N- ----GS-- Ελλασαρ Ελλασαρ
+14:1 C- -------- καὶ καί
+14:1 N- ----NSM- Χοδολλογομορ Χοδολλογομορ
+14:1 N- ----NSM- βασιλεὺς βασιλεύς
+14:1 N- ----GS-- Αιλαμ Αιλαμ  # corpus the land, where Αιλαμ at 10:22 is the man
+14:1 C- -------- καὶ καί
+14:1 N- ----NSM- Θαργαλ Θαργαλ
+14:1 N- ----NSM- βασιλεὺς βασιλεύς
+14:1 N- ----GPN- ἐθνῶν ἔθνος
+14:2 V- 3AAI-P-- ἐποίησαν ποιέω
+14:2 N- ----ASM- πόλεμον πόλεμος
+14:2 P- -------- μετὰ μετά
+14:2 N- ----GSM- Βαλλα Βαλλα
+14:2 N- ----GSM- βασιλέως βασιλεύς
+14:2 N- ----GPN- Σοδομων Σόδομα  # module GS — Σοδομων is the genitive plural of Σόδομα, neuter, as MorphGNT codes it
+14:2 C- -------- καὶ καί
+14:2 P- -------- μετὰ μετά
+14:2 N- ----GSM- Βαρσα Βαρσα
+14:2 N- ----GSM- βασιλέως βασιλεύς
+14:2 N- ----GSF- Γομορρας Γόμορρα  # module GS, no gender — Γόμορρα declines, and is feminine, as MorphGNT codes Γομόρρας
+14:2 C- -------- καὶ καί
+14:2 N- ----GSM- Σεννααρ Σεννααρ  # module GS — the king of Αδαμα, a man, who gives the name his gender  # corpus the man, where Σεννααρ at 10:10 is the land
+14:2 N- ----GSM- βασιλέως βασιλεύς
+14:2 N- ----GS-- Αδαμα Αδαμα
+14:2 C- -------- καὶ καί
+14:2 N- ----GSM- Συμοβορ Συμοβορ
+14:2 N- ----GSM- βασιλέως βασιλεύς
+14:2 N- ----GS-- Σεβωιμ Σεβωιμ  # module G, no number — one city, as Αδαμα beside it
+14:2 C- -------- καὶ καί
+14:2 N- ----GSM- βασιλέως βασιλεύς
+14:2 N- ----GS-- Βαλακ Βαλάκ
+14:2 RD ----NSF- αὕτη οὗτος
+14:2 V- 3PAI-S-- ἐστὶν εἰμί
+14:2 N- ----NS-- Σηγωρ Σηγωρ
+14:3 A- ----NPM- πάντες πᾶς
+14:3 RD ----NPM- οὗτοι οὗτος
+14:3 V- 3AAI-P-- συνεφώνησαν συμφωνέω
+14:3 P- -------- ἐπὶ ἐπί
+14:3 RA ----ASF- τὴν ὁ
+14:3 N- ----ASF- φάραγγα φάραγξ
+14:3 RA ----ASF- τὴν ὁ
+14:3 A- ----ASF- ἁλυκήν ἁλυκός
+14:3 RD ----NSF- αὕτη οὗτος
+14:3 RA ----NSF- ἡ ὁ
+14:3 N- ----NSF- θάλασσα θάλασσα
+14:3 RA ----GPM- τῶν ὁ
+14:3 N- ----GPM- ἁλῶν ἅλς
+14:4 A- ----APN- δώδεκα δώδεκα  # module M, no features — MorphGNT gives δώδεκα case, number and gender like any adjective
+14:4 N- ----APN- ἔτη ἔτος
+14:4 V- 3IAI-P-- ἐδούλευον δουλεύω
+14:4 RA ----DSM- τῷ ὁ
+14:4 N- ----DSM- Χοδολλογομορ Χοδολλογομορ
+14:4 RA ----DSN- τῷ ὁ
+14:4 C- -------- δὲ δέ
+14:4 A- ----DSN- τρισκαιδεκάτῳ τρισκαιδέκατος
+14:4 N- ----DSN- ἔτει ἔτος
+14:4 V- 3AAI-P-- ἀπέστησαν ἀφίστημι
+14:5 P- -------- ἐν ἐν
+14:5 C- -------- δὲ δέ
+14:5 RA ----DSN- τῷ ὁ
+14:5 A- ----DSN- τεσσαρεσκαιδεκάτῳ τεσσαρεσκαιδέκατος
+14:5 N- ----DSN- ἔτει ἔτος
+14:5 V- 3AAI-S-- ἦλθεν ἔρχομαι
+14:5 N- ----NSM- Χοδολλογομορ Χοδολλογομορ
+14:5 C- -------- καὶ καί
+14:5 RA ----NPM- οἱ ὁ
+14:5 N- ----NPM- βασιλεῖς βασιλεύς
+14:5 RA ----NPM- οἱ ὁ
+14:5 P- -------- μετʼ μετά
+14:5 RP ----GSM- αὐτοῦ αὐτός
+14:5 C- -------- καὶ καί
+14:5 V- 3AAI-P-- κατέκοψαν κατακόπτω
+14:5 RA ----APM- τοὺς ὁ
+14:5 N- ----APM- γίγαντας γίγας
+14:5 RA ----APM- τοὺς ὁ
+14:5 P- -------- ἐν ἐν
+14:5 N- ----DS-- Ασταρωθ Ασταρωθ  # module D, no number — one city
+14:5 N- ----DS-- Καρναιν Καρναιν  # module no case — the second word of the one name Ασταρωθ Καρναιν, in its case
+14:5 C- -------- καὶ καί
+14:5 N- ----APN- ἔθνη ἔθνος
+14:5 A- ----APN- ἰσχυρὰ ἰσχυρός
+14:5 P- -------- ἅμα ἅμα
+14:5 RP ----DPM- αὐτοῖς αὐτός
+14:5 C- -------- καὶ καί
+14:5 RA ----APM- τοὺς ὁ
+14:5 N- ----APM- Ομμαίους Ομμαῖος
+14:5 RA ----APM- τοὺς ὁ
+14:5 P- -------- ἐν ἐν
+14:5 N- ----DS-- Σαυη Σαυη
+14:5 RA ----DSF- τῇ ὁ
+14:5 N- ----DSF- πόλει πόλις
+14:6 C- -------- καὶ καί
+14:6 RA ----APM- τοὺς ὁ
+14:6 N- ----APM- Χορραίους Χορραῖος
+14:6 RA ----APM- τοὺς ὁ
+14:6 P- -------- ἐν ἐν
+14:6 RA ----DPN- τοῖς ὁ
+14:6 N- ----DPN- ὄρεσιν ὄρος
+14:6 N- ----GS-- Σηιρ Σηιρ
+14:6 P- -------- ἕως ἕως
+14:6 RA ----GSF- τῆς ὁ
+14:6 N- ----GSF- τερεμίνθου τερέμινθος  # module lemma τερέβινθος — the spelling the text prints, as with ἔχθρα and νοσσιά
+14:6 RA ----GSF- τῆς ὁ
+14:6 N- ----GS-- Φαραν Φαραν  # module GSF — the genitive after the article: the terebinth, the one of Pharan, as τὴν δρῦν τὴν Μαμβρη at 13:18
+14:6 RR ----NSF- ἥ ὅς
+14:6 V- 3PAI-S-- ἐστιν εἰμί
+14:6 P- -------- ἐν ἐν
+14:6 RA ----DSF- τῇ ὁ
+14:6 A- ----DSF- ἐρήμῳ ἔρημος
+14:7 C- -------- καὶ καί
+14:7 V- -AAPNPM- ἀναστρέψαντες ἀναστρέφω
+14:7 V- 3AAI-P-- ἤλθοσαν ἔρχομαι
+14:7 P- -------- ἐπὶ ἐπί
+14:7 RA ----ASF- τὴν ὁ
+14:7 N- ----ASF- πηγὴν πηγή
+14:7 RA ----GSF- τῆς ὁ
+14:7 N- ----GSF- κρίσεως κρίσις
+14:7 RD ----NSF- αὕτη οὗτος
+14:7 V- 3PAI-S-- ἐστὶν εἰμί
+14:7 N- ----NS-- Καδης Καδης
+14:7 C- -------- καὶ καί
+14:7 V- 3AAI-P-- κατέκοψαν κατακόπτω
+14:7 A- ----APM- πάντας πᾶς
+14:7 RA ----APM- τοὺς ὁ
+14:7 N- ----APM- ἄρχοντας ἄρχων
+14:7 N- ----GSM- Αμαληκ Αμαληκ  # module GS, no gender — a people named for a man, masculine, as MorphGNT codes Ἰσραήλ
+14:7 C- -------- καὶ καί
+14:7 RA ----APM- τοὺς ὁ
+14:7 N- ----APM- Αμορραίους Αμορραῖος  # module lemma Ἀμορραῖος — the form Rahlfs prints, with no breathing
+14:7 RA ----APM- τοὺς ὁ
+14:7 V- -PAPAPM- κατοικοῦντας κατοικέω
+14:7 P- -------- ἐν ἐν
+14:7 N- ----DS-- Ασασανθαμαρ Ασασανθαμαρ
+14:8 V- 3AAI-S-- ἐξῆλθεν ἐξέρχομαι
+14:8 C- -------- δὲ δέ
+14:8 N- ----NSM- βασιλεὺς βασιλεύς
+14:8 N- ----GPN- Σοδομων Σόδομα  # module GS — Σοδομων is the genitive plural of Σόδομα, neuter, as MorphGNT codes it
+14:8 C- -------- καὶ καί
+14:8 N- ----NSM- βασιλεὺς βασιλεύς
+14:8 N- ----GSF- Γομορρας Γόμορρα  # module GS, no gender — Γόμορρα declines, and is feminine, as MorphGNT codes Γομόρρας
+14:8 C- -------- καὶ καί
+14:8 N- ----NSM- βασιλεὺς βασιλεύς
+14:8 N- ----GS-- Αδαμα Αδαμα
+14:8 C- -------- καὶ καί
+14:8 N- ----NSM- βασιλεὺς βασιλεύς
+14:8 N- ----GS-- Σεβωιμ Σεβωιμ  # module G, no number — one city, as Αδαμα beside it
+14:8 C- -------- καὶ καί
+14:8 N- ----NSM- βασιλεὺς βασιλεύς
+14:8 N- ----GS-- Βαλακ Βαλάκ
+14:8 RD ----NSF- αὕτη οὗτος
+14:8 V- 3PAI-S-- ἐστὶν εἰμί
+14:8 N- ----NS-- Σηγωρ Σηγωρ
+14:8 C- -------- καὶ καί
+14:8 V- 3AMI-P-- παρετάξαντο παρατάσσω
+14:8 RP ----DPM- αὐτοῖς αὐτός
+14:8 P- -------- εἰς εἰς
+14:8 N- ----ASM- πόλεμον πόλεμος
+14:8 P- -------- ἐν ἐν
+14:8 RA ----DSF- τῇ ὁ
+14:8 N- ----DSF- κοιλάδι κοιλάς
+14:8 RA ----DSF- τῇ ὁ
+14:8 A- ----DSF- ἁλυκῇ ἁλυκός
+14:9 P- -------- πρὸς πρός
+14:9 N- ----ASM- Χοδολλογομορ Χοδολλογομορ
+14:9 N- ----ASM- βασιλέα βασιλεύς
+14:9 N- ----GS-- Αιλαμ Αιλαμ
+14:9 C- -------- καὶ καί
+14:9 N- ----ASM- Θαργαλ Θαργαλ
+14:9 N- ----ASM- βασιλέα βασιλεύς
+14:9 N- ----GPN- ἐθνῶν ἔθνος
+14:9 C- -------- καὶ καί
+14:9 N- ----ASM- Αμαρφαλ Αμαρφαλ
+14:9 N- ----ASM- βασιλέα βασιλεύς
+14:9 N- ----GS-- Σεννααρ Σεννααρ
+14:9 C- -------- καὶ καί
+14:9 N- ----ASM- Αριωχ Αριωχ
+14:9 N- ----ASM- βασιλέα βασιλεύς
+14:9 N- ----GS-- Ελλασαρ Ελλασαρ
+14:9 RA ----NPM- οἱ ὁ
+14:9 A- ----NPC- τέσσαρες τέσσαρες
+14:9 N- ----NPM- βασιλεῖς βασιλεύς
+14:9 P- -------- πρὸς πρός
+14:9 RA ----APM- τοὺς ὁ
+14:9 A- ----APM- πέντε πέντε  # module M, no features — MorphGNT gives πέντε case, number and gender like any adjective
+14:10 RA ----NSF- ἡ ὁ
+14:10 C- -------- δὲ δέ
+14:10 N- ----NSF- κοιλὰς κοιλάς
+14:10 RA ----NSF- ἡ ὁ
+14:10 A- ----NSF- ἁλυκὴ ἁλυκός
+14:10 N- ----NPN- φρέατα φρέαρ
+14:10 N- ----NPN- φρέατα φρέαρ
+14:10 N- ----GSF- ἀσφάλτου ἄσφαλτος  # module GSM — feminine, as ἡ ἄσφαλτος at 11:3 shows
+14:10 V- 3AAI-S-- ἔφυγεν φεύγω
+14:10 C- -------- δὲ δέ
+14:10 N- ----NSM- βασιλεὺς βασιλεύς
+14:10 N- ----GPN- Σοδομων Σόδομα  # module GS — Σοδομων is the genitive plural of Σόδομα, neuter, as MorphGNT codes it
+14:10 C- -------- καὶ καί
+14:10 N- ----NSM- βασιλεὺς βασιλεύς
+14:10 N- ----GSF- Γομορρας Γόμορρα  # module GS, no gender — Γόμορρα declines, and is feminine, as MorphGNT codes Γομόρρας
+14:10 C- -------- καὶ καί
+14:10 V- 3AAI-P-- ἐνέπεσαν ἐμπίπτω
+14:10 D- -------- ἐκεῖ ἐκεῖ
+14:10 RA ----NPM- οἱ ὁ
+14:10 C- -------- δὲ δέ
+14:10 V- -APPNPM- καταλειφθέντες καταλείπω
+14:10 P- -------- εἰς εἰς
+14:10 RA ----ASF- τὴν ὁ
+14:10 A- ----ASF- ὀρεινὴν ὀρεινός
+14:10 V- 3AAI-P-- ἔφυγον φεύγω
+14:11 V- 3AAI-P-- ἔλαβον λαμβάνω
+14:11 C- -------- δὲ δέ
+14:11 RA ----ASF- τὴν ὁ
+14:11 N- ----ASF- ἵππον ἵππος
+14:11 A- ----ASF- πᾶσαν πᾶς
+14:11 RA ----ASF- τὴν ὁ
+14:11 N- ----GPN- Σοδομων Σόδομα  # module GS — Σοδομων is the genitive plural of Σόδομα, neuter, as MorphGNT codes it
+14:11 C- -------- καὶ καί
+14:11 N- ----GSF- Γομορρας Γόμορρα  # module GS, no gender — Γόμορρα declines, and is feminine, as MorphGNT codes Γομόρρας
+14:11 C- -------- καὶ καί
+14:11 A- ----APN- πάντα πᾶς
+14:11 RA ----APN- τὰ ὁ
+14:11 N- ----APN- βρώματα βρῶμα
+14:11 RP ----GPM- αὐτῶν αὐτός
+14:11 C- -------- καὶ καί
+14:11 V- 3AAI-P-- ἀπῆλθον ἀπέρχομαι
+14:12 V- 3AAI-P-- ἔλαβον λαμβάνω
+14:12 C- -------- δὲ δέ
+14:12 D- -------- καὶ καί
+14:12 RA ----ASM- τὸν ὁ
+14:12 N- ----ASM- Λωτ Λώτ
+14:12 N- ----ASM- υἱὸν υἱός
+14:12 RA ----GSM- τοῦ ὁ
+14:12 N- ----GSM- ἀδελφοῦ ἀδελφός
+14:12 N- ----GSM- Αβραμ Αβραμ
+14:12 C- -------- καὶ καί
+14:12 RA ----ASF- τὴν ὁ
+14:12 N- ----ASF- ἀποσκευὴν ἀποσκευή
+14:12 RP ----GSM- αὐτοῦ αὐτός
+14:12 C- -------- καὶ καί
+14:12 V- 3IEI-P-- ἀπῴχοντο ἀποίχομαι
+14:12 V- 3IAI-S-- ἦν εἰμί
+14:12 C- -------- γὰρ γάρ
+14:12 V- -PAPNSM- κατοικῶν κατοικέω
+14:12 P- -------- ἐν ἐν
+14:12 N- ----DPN- Σοδομοις Σόδομα  # module DS — Σοδομοις is the dative of Σόδομα, neuter plural, as MorphGNT codes it
+14:13 V- -AMPNSM- Παραγενόμενος παραγίνομαι
+14:13 C- -------- δὲ δέ
+14:13 RA ----GPM- τῶν ὁ
+14:13 V- -APPGPM- ἀνασωθέντων ἀνασώζω
+14:13 RI ----NSM- τις τις
+14:13 V- 3AAI-S-- ἀπήγγειλεν ἀπαγγέλλω
+14:13 N- ----DSM- Αβραμ Αβραμ
+14:13 RA ----DSM- τῷ ὁ
+14:13 N- ----DSM- περάτῃ περάτης
+14:13 RP ----NSM- αὐτὸς αὐτός
+14:13 C- -------- δὲ δέ
+14:13 V- 3IAI-S-- κατῴκει κατοικέω
+14:13 P- -------- πρὸς πρός
+14:13 RA ----DSF- τῇ ὁ
+14:13 N- ----DSF- δρυὶ δρῦς
+14:13 RA ----DSF- τῇ ὁ
+14:13 N- ----GSM- Μαμβρη Μαμβρη  # module DSF — the genitive after the article: the oak of Mambre, the man, whom ὁ Αμορις beside it names the Amorite  # corpus the man, where Μαμβρη at 13:18 is the place
+14:13 RA ----NSM- ὁ ὁ
+14:13 N- ----NSM- Αμορις Αμορις
+14:13 RA ----GSM- τοῦ ὁ
+14:13 N- ----GSM- ἀδελφοῦ ἀδελφός
+14:13 N- ----GSM- Εσχωλ Εσχωλ
+14:13 C- -------- καὶ καί
+14:13 N- ----GSM- ἀδελφοῦ ἀδελφός
+14:13 N- ----GSM- Αυναν Αυναν
+14:13 RR ----NPM- οἳ ὅς
+14:13 V- 3IAI-P-- ἦσαν εἰμί
+14:13 N- ----NPM- συνωμόται συνωμότης
+14:13 RA ----GSM- τοῦ ὁ
+14:13 N- ----GSM- Αβραμ Αβραμ
+14:14 V- -AAPNSM- ἀκούσας ἀκούω
+14:14 C- -------- δὲ δέ
+14:14 N- ----NSM- Αβραμ Αβραμ
+14:14 C- -------- ὅτι ὅτι
+14:14 V- 3XEI-S-- ᾐχμαλώτευται αἰχμαλωτεύω
+14:14 N- ----NSM- Λωτ Λώτ
+14:14 RA ----NSM- ὁ ὁ
+14:14 N- ----NSM- ἀδελφὸς ἀδελφός
+14:14 RP ----GSM- αὐτοῦ αὐτός
+14:14 V- 3AAI-S-- ἠρίθμησεν ἀριθμέω
+14:14 RA ----APM- τοὺς ὁ
+14:14 A- ----APM- ἰδίους ἴδιος
+14:14 A- ----APC- οἰκογενεῖς οἰκογενής
+14:14 RP ----GSM- αὐτοῦ αὐτός
+14:14 A- ----APM- τριακοσίους τριακόσιοι
+14:14 A- ----APM- δέκα δέκα  # module M, no features — MorphGNT gives δέκα case, number and gender like any adjective
+14:14 C- -------- καὶ καί
+14:14 A- ----APM- ὀκτώ ὀκτώ  # module M, no features — MorphGNT gives ὀκτώ case, number and gender like any adjective
+14:14 C- -------- καὶ καί
+14:14 V- 3AAI-S-- κατεδίωξεν καταδιώκω
+14:14 P- -------- ὀπίσω ὀπίσω
+14:14 RP ----GPM- αὐτῶν αὐτός
+14:14 P- -------- ἕως ἕως
+14:14 N- ----GS-- Δαν Δαν
+14:15 C- -------- καὶ καί
+14:15 V- 3AAI-S-- ἐπέπεσεν ἐπιπίπτω
+14:15 P- -------- ἐπʼ ἐπί
+14:15 RP ----APM- αὐτοὺς αὐτός
+14:15 RA ----ASF- τὴν ὁ
+14:15 N- ----ASF- νύκτα νύξ
+14:15 RP ----NSM- αὐτὸς αὐτός
+14:15 C- -------- καὶ καί
+14:15 RA ----NPM- οἱ ὁ
+14:15 N- ----NPM- παῖδες παῖς
+14:15 RP ----GSM- αὐτοῦ αὐτός
+14:15 C- -------- καὶ καί
+14:15 V- 3AAI-S-- ἐπάταξεν πατάσσω
+14:15 RP ----APM- αὐτοὺς αὐτός
+14:15 C- -------- καὶ καί
+14:15 V- 3AAI-S-- ἐδίωξεν διώκω
+14:15 RP ----APM- αὐτοὺς αὐτός
+14:15 P- -------- ἕως ἕως
+14:15 N- ----GS-- Χωβα Χωβα
+14:15 RR ----NSF- ἥ ὅς
+14:15 V- 3PAI-S-- ἐστιν εἰμί
+14:15 P- -------- ἐν ἐν
+14:15 A- ----DSF- ἀριστερᾷ ἀριστερός
+14:15 N- ----GSF- Δαμασκοῦ Δαμασκός  # module GS, no gender — Δαμασκός declines, and is feminine, as MorphGNT codes it
+14:16 C- -------- καὶ καί
+14:16 V- 3AAI-S-- ἀπέστρεψεν ἀποστρέφω
+14:16 A- ----ASF- πᾶσαν πᾶς
+14:16 RA ----ASF- τὴν ὁ
+14:16 N- ----ASF- ἵππον ἵππος
+14:16 N- ----GPN- Σοδομων Σόδομα  # module GS — Σοδομων is the genitive plural of Σόδομα, neuter, as MorphGNT codes it
+14:16 C- -------- καὶ καί
+14:16 N- ----ASM- Λωτ Λώτ
+14:16 RA ----ASM- τὸν ὁ
+14:16 N- ----ASM- ἀδελφὸν ἀδελφός
+14:16 RP ----GSM- αὐτοῦ αὐτός
+14:16 V- 3AAI-S-- ἀπέστρεψεν ἀποστρέφω
+14:16 C- -------- καὶ καί
+14:16 RA ----APN- τὰ ὁ
+14:16 V- -PAPAPN- ὑπάρχοντα ὑπάρχω  # module lemma ὑπάρχοντα — ὑπάρχω, the participle, as MorphGNT files τὰ ὑπάρχοντα
+14:16 RP ----GSM- αὐτοῦ αὐτός
+14:16 C- -------- καὶ καί
+14:16 RA ----APF- τὰς ὁ
+14:16 N- ----APF- γυναῖκας γυνή
+14:16 C- -------- καὶ καί
+14:16 RA ----ASM- τὸν ὁ
+14:16 N- ----ASM- λαόν λαός
+14:17 V- 3AAI-S-- Ἐξῆλθεν ἐξέρχομαι
+14:17 C- -------- δὲ δέ
+14:17 N- ----NSM- βασιλεὺς βασιλεύς
+14:17 N- ----GPN- Σοδομων Σόδομα  # module GS — Σοδομων is the genitive plural of Σόδομα, neuter, as MorphGNT codes it
+14:17 P- -------- εἰς εἰς
+14:17 N- ----ASF- συνάντησιν συνάντησις
+14:17 RP ----DSM- αὐτῷ αὐτός
+14:17 P- -------- μετὰ μετά
+14:17 RA ----ASN- τὸ ὁ
+14:17 V- -AAN---- ἀναστρέψαι ἀναστρέφω
+14:17 RP ----ASM- αὐτὸν αὐτός
+14:17 P- -------- ἀπὸ ἀπό
+14:17 RA ----GSF- τῆς ὁ
+14:17 N- ----GSF- κοπῆς κοπή
+14:17 RA ----GSM- τοῦ ὁ
+14:17 N- ----GSM- Χοδολλογομορ Χοδολλογομορ
+14:17 C- -------- καὶ καί
+14:17 RA ----GPM- τῶν ὁ
+14:17 N- ----GPM- βασιλέων βασιλεύς
+14:17 RA ----GPM- τῶν ὁ
+14:17 P- -------- μετʼ μετά
+14:17 RP ----GSM- αὐτοῦ αὐτός
+14:17 P- -------- εἰς εἰς
+14:17 RA ----ASF- τὴν ὁ
+14:17 N- ----ASF- κοιλάδα κοιλάς
+14:17 RA ----ASF- τὴν ὁ
+14:17 N- ----GS-- Σαυη Σαυη  # module ASF — the genitive after the article: the valley, the one of Saue, as τὴν δρῦν τὴν Μαμβρη at 13:18
+14:17 RD ----NSN- τοῦτο οὗτος
+14:17 V- 3IAI-S-- ἦν εἰμί
+14:17 RA ----NSN- τὸ ὁ
+14:17 N- ----NSN- πεδίον πεδίον
+14:17 N- ----GSM- βασιλέως βασιλεύς
+14:18 C- -------- καὶ καί
+14:18 N- ----NSM- Μελχισεδεκ Μελχισέδεκ
+14:18 N- ----NSM- βασιλεὺς βασιλεύς
+14:18 N- ----GS-- Σαλημ Σαλήμ
+14:18 V- 3AAI-S-- ἐξήνεγκεν ἐκφέρω
+14:18 N- ----APM- ἄρτους ἄρτος
+14:18 C- -------- καὶ καί
+14:18 N- ----ASM- οἶνον οἶνος
+14:18 V- 3IAI-S-- ἦν εἰμί
+14:18 C- -------- δὲ δέ
+14:18 N- ----NSM- ἱερεὺς ἱερεύς
+14:18 RA ----GSM- τοῦ ὁ
+14:18 N- ----GSM- θεοῦ θεός
+14:18 RA ----GSM- τοῦ ὁ
+14:18 A- ----GSMS ὑψίστου ὕψιστος
+14:19 C- -------- καὶ καί
+14:19 V- 3AAI-S-- ηὐλόγησεν εὐλογέω
+14:19 RA ----ASM- τὸν ὁ
+14:19 N- ----ASM- Αβραμ Αβραμ
+14:19 C- -------- καὶ καί
+14:19 V- 3AAI-S-- εἶπεν λέγω  # module lemma ἔπω — λέγω keeps one dictionary form across both testaments
+14:19 V- -XEPNSM- Εὐλογημένος εὐλογέω
+14:19 N- ----NSM- Αβραμ Αβραμ
+14:19 RA ----DSM- τῷ ὁ
+14:19 N- ----DSM- θεῷ θεός
+14:19 RA ----DSM- τῷ ὁ
+14:19 A- ----DSMS ὑψίστῳ ὕψιστος
+14:19 RR ----NSM- ὃς ὅς
+14:19 V- 3AAI-S-- ἔκτισεν κτίζω
+14:19 RA ----ASM- τὸν ὁ
+14:19 N- ----ASM- οὐρανὸν οὐρανός
+14:19 C- -------- καὶ καί
+14:19 RA ----ASF- τὴν ὁ
+14:19 N- ----ASF- γῆν γῆ
+14:20 C- -------- καὶ καί
+14:20 A- ----NSM- εὐλογητὸς εὐλογητός
+14:20 RA ----NSM- ὁ ὁ
+14:20 N- ----NSM- θεὸς θεός
+14:20 RA ----NSM- ὁ ὁ
+14:20 A- ----NSMS ὕψιστος ὕψιστος
+14:20 RR ----NSM- ὃς ὅς
+14:20 V- 3AAI-S-- παρέδωκεν παραδίδωμι
+14:20 RA ----APM- τοὺς ὁ
+14:20 A- ----APM- ἐχθρούς ἐχθρός
+14:20 RP ----GS-- σου σύ  # module lemma σοῦ, the form itself — σύ is the dictionary form
+14:20 A- ----APC- ὑποχειρίους ὑποχείριος
+14:20 RP ----DS-- σοι σύ  # module lemma σοί, the form itself — σύ is the dictionary form
+14:20 C- -------- καὶ καί
+14:20 V- 3AAI-S-- ἔδωκεν δίδωμι
+14:20 RP ----DSM- αὐτῷ αὐτός
+14:20 A- ----ASF- δεκάτην δεκάτη
+14:20 P- -------- ἀπὸ ἀπό
+14:20 A- ----GPN- πάντων πᾶς  # module GPM — everything, as MorphGNT codes ἀπὸ πάντων at Heb 7:2
+14:21 V- 3AAI-S-- εἶπεν λέγω  # module lemma ἔπω — λέγω keeps one dictionary form across both testaments
+14:21 C- -------- δὲ δέ
+14:21 N- ----NSM- βασιλεὺς βασιλεύς
+14:21 N- ----GPN- Σοδομων Σόδομα  # module GS — Σοδομων is the genitive plural of Σόδομα, neuter, as MorphGNT codes it
+14:21 P- -------- πρὸς πρός
+14:21 N- ----ASM- Αβραμ Αβραμ
+14:21 V- 2AAD-S-- Δός δίδωμι
+14:21 RP ----DS-- μοι ἐγώ  # module lemma μοι, the form itself — ἐγώ is the dictionary form
+14:21 RA ----APM- τοὺς ὁ
+14:21 N- ----APM- ἄνδρας ἀνήρ
+14:21 RA ----ASF- τὴν ὁ
+14:21 C- -------- δὲ δέ
+14:21 N- ----ASF- ἵππον ἵππος
+14:21 V- 2AAD-S-- λαβὲ λαμβάνω
+14:21 RP ----DSM- σεαυτῷ σεαυτοῦ
+14:22 V- 3AAI-S-- εἶπεν λέγω  # module lemma ἔπω — λέγω keeps one dictionary form across both testaments
+14:22 C- -------- δὲ δέ
+14:22 N- ----NSM- Αβραμ Αβραμ
+14:22 P- -------- πρὸς πρός
+14:22 N- ----ASM- βασιλέα βασιλεύς
+14:22 N- ----GPN- Σοδομων Σόδομα  # module GS — Σοδομων is the genitive plural of Σόδομα, neuter, as MorphGNT codes it
+14:22 V- 1FAI-S-- Ἐκτενῶ ἐκτείνω
+14:22 RA ----ASF- τὴν ὁ
+14:22 N- ----ASF- χεῖρά χείρ
+14:22 RP ----GS-- μου ἐγώ  # module lemma μου, the form itself — ἐγώ is the dictionary form
+14:22 P- -------- πρὸς πρός
+14:22 RA ----ASM- τὸν ὁ
+14:22 N- ----ASM- θεὸν θεός
+14:22 RA ----ASM- τὸν ὁ
+14:22 A- ----ASMS ὕψιστον ὕψιστος
+14:22 RR ----NSM- ὃς ὅς
+14:22 V- 3AAI-S-- ἔκτισεν κτίζω
+14:22 RA ----ASM- τὸν ὁ
+14:22 N- ----ASM- οὐρανὸν οὐρανός
+14:22 C- -------- καὶ καί
+14:22 RA ----ASF- τὴν ὁ
+14:22 N- ----ASF- γῆν γῆ
+14:23 C- -------- εἰ εἰ
+14:23 P- -------- ἀπὸ ἀπό
+14:23 N- ----GSN- σπαρτίου σπαρτίον
+14:23 P- -------- ἕως ἕως
+14:23 N- ----GSM- σφαιρωτῆρος σφαιρωτήρ
+14:23 N- ----GSN- ὑποδήματος ὑπόδημα
+14:23 V- 1FMI-S-- λήμψομαι λαμβάνω
+14:23 P- -------- ἀπὸ ἀπό
+14:23 A- ----GPN- πάντων πᾶς  # module GPM — τὰ σά, what is yours, neuter
+14:23 RA ----GPN- τῶν ὁ  # module GPM — τὰ σά, what is yours, neuter
+14:23 A- ----GPN- σῶν σός  # module GPM — τὰ σά, what is yours, neuter
+14:23 C- -------- ἵνα ἵνα
+14:23 D- -------- μὴ μή
+14:23 V- 2AAS-S-- εἴπῃς λέγω  # module lemma ἔπω — λέγω keeps one dictionary form across both testaments
+14:23 C- -------- ὅτι ὅτι
+14:23 RP ----NS-- Ἐγὼ ἐγώ
+14:23 V- 1AAI-S-- ἐπλούτισα πλουτίζω
+14:23 RA ----ASM- τὸν ὁ
+14:23 N- ----ASM- Αβραμ Αβραμ
+14:24 P- -------- πλὴν πλήν
+14:24 RR ----GPN- ὧν ὅς  # module GPM — what the young men ate, neuter, drawn into the genitive after πλήν
+14:24 V- 3AAI-P-- ἔφαγον ἐσθίω
+14:24 RA ----NPM- οἱ ὁ
+14:24 N- ----NPM- νεανίσκοι νεανίσκος
+14:24 C- -------- καὶ καί
+14:24 RA ----GSF- τῆς ὁ
+14:24 N- ----GSF- μερίδος μερίς
+14:24 RA ----GPM- τῶν ὁ
+14:24 N- ----GPM- ἀνδρῶν ἀνήρ
+14:24 RA ----GPM- τῶν ὁ
+14:24 V- -APPGPM- συμπορευθέντων συμπορεύομαι
+14:24 P- -------- μετʼ μετά
+14:24 RP ----GS-- ἐμοῦ ἐγώ  # module lemma ἐμοῦ, the form itself — ἐγώ is the dictionary form
+14:24 N- ----NSM- Εσχωλ Εσχωλ
+14:24 N- ----NSM- Αυναν Αυναν
+14:24 N- ----NSM- Μαμβρη Μαμβρη
+14:24 RD ----NPM- οὗτοι οὗτος
+14:24 V- 3FMI-P-- λήμψονται λαμβάνω
+14:24 N- ----ASF- μερίδα μερίς

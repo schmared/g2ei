@@ -367,6 +367,10 @@ def check_names(verses, rep):
         for candidate in candidates:
             entry = next((e for e in entries if matches(candidate, e["greek"])), None)
             key = next((k for k in glossed if matches(candidate, k)), None)
+            if key is not None and entry is not None and entry["anchored"] not in glossed[key]:
+                # the same Greek form naming someone else, with another English name:
+                # Σεννααρ the land at GEN 14:1 and the king at 14:2. It is glossed anew.
+                key = None
 
             marker = "[[name:%s]]" % (entry["greek"] if entry else candidate)
             if key is None:
@@ -380,20 +384,21 @@ def check_names(verses, rep):
                              "%s is marked bare here, but this is its first occurrence in "
                              "the chapter, where it carries its gloss" % candidate)
                 used.add(entry["greek"])
-                glossed[entry["greek"]] = ref
+                glossed.setdefault(entry["greek"], {})[entry["anchored"]] = ref
                 if marker not in verse["reading"]:
                     rep.fail("names", ref, "%s is glossed here first but the reading "
                                            "carries no %s" % (candidate, marker))
             elif entry is not None:
                 used.add(entry["greek"])
-                if glossed[key] == ref and not entry.get("bare"):
+                first = glossed[key][entry["anchored"]]
+                if first == ref and not entry.get("bare"):
                     # the same name again in the verse that glosses it: the renderer
                     # glosses the first marker only
                     continue
                 if not entry.get("bare"):
                     rep.fail("names", ref,
                              "%s was already glossed at %s; a later occurrence takes an "
-                             "entry marked bare" % (candidate, glossed[key]))
+                             "entry marked bare" % (candidate, first))
                 elif marker not in verse["reading"]:
                     rep.fail("names", ref, "%s has a bare entry here but the reading "
                                            "carries no %s" % (candidate, marker))
@@ -828,7 +833,7 @@ def check_corpus(book, chapter, rep):
 # 6. Greek against the source edition
 # --------------------------------------------------------------------------
 
-PUNCT = re.compile(r"[.,;:·!?—·]")
+PUNCT = re.compile(r"[.,;:·!?—·()]")
 
 # A local module carries bare word forms: no capitals, and its own choice of elision
 # mark. Neither is evidence about what the printed page has, so neither counts as a
