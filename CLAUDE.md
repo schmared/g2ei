@@ -113,6 +113,10 @@ name (*Edem* / *Eden*), and plain text cannot.
 Both editions also capitalise the first word of direct speech (Gen 1:3 *Γενηθήτω*). List
 such words in the verse's `speech` field, so `validate.py` does not take them for names.
 
+Where the printed page has a misprint of its own (Gen 24:58 *τοῦτου*, for τούτου), the
+transcription keeps it. List the printed form in the verse's `printed` field, and say so in a
+note, so the check against the local module does not report it.
+
 A transliteration the edition prints in lower case (Gen 3:24 *τὰ χερουβιμ*) is still a name
 here: give it a `names` entry and a `[[name:…]]` marker, with no capital in either panel.
 `validate.py` finds it by its entry, since it has no capital to be found by — and finds a

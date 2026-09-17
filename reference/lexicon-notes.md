@@ -163,6 +163,10 @@ Three reasons, and all of them are the lexicon's filing rather than a decision a
 | παλλακή (GEN 22:24) | παλλακίς | cross-reference; "= παλλακίς" |
 | διπλοῦς (GEN 23:9) | διπλόος | the contracted form, filed under the uncontracted |
 | κύκλῳ (GEN 23:17) | κύκλος | the adverbial dative, filed inside κύκλος |
+| θέλω (GEN 24:8) | ἐθέλω | the later form, filed under ἐθέλω |
+| χρυσοῦς (GEN 24:22) | χρύσεος | the contracted form, filed under the uncontracted |
+| ἀργυροῦς (GEN 24:53) | ἀργύρεος | likewise |
+| θέριστρον (GEN 24:65) | θερίστριον | "so θέριστρον", inside θερίστριον |
 <!-- spelling rows above -->
 
 The dictionary form itself does not follow the lexicon's filing: it keeps the spelling the text
@@ -196,7 +200,7 @@ GEN 9 adds ὀπισθοφανής, *seen from behind*, and its adverb ὀπισ
 ἔτασις, *trial, affliction*. GEN 14 adds ἁλυκός, *salt, brackish*; ἀποσκευή, whose *removal,
 riddance* comes before *baggage*; σφαιρωτήρ, *thong, latchet*; and περάτης, which opens "= πορθμεύς",
 so that πορθμεύς's LSJ senses, *ferryman*, *boatman, seaman*, *conveyer*, stand before its own
-*wanderer, emigrant*, as ἁγίζω's stand for ἁγιάζω. GEN 15 adds ὑπερασπίζω, *cover with a shield*, from the upsilon file; τριετίζω, *to be three years old*; and διχοτόμημα, *half of a thing cut in two*. GEN 17 adds κατάσχεσις, *holding back, restraining, retention*, then *possession*, from the kappa file; and ἑκατονταέτης, *of a hundred years*, *years old*, citing 17:17. GEN 18 adds μοσχάριον, *little calf*, and, from the beta file, βούτυρον, *butter*, then *a plant*. GEN 19 adds προσοίγνυμι, *shut*; ἀορασία, *inability to see, blindness*; γελοιάζω, *jest*, from the gamma file; ἐπαύριον, *on the morrow*; and εἰσσπάομαι, *draw into oneself*. GEN 20 adds μήτρα, *womb*, whose Middle Liddell entry tags only Latin; δίδραχμον, *coin of two drachms*, under δίδραχμος; and κἀγώ, *crasis for καὶ ἐγώ*. GEN 21 adds ἀπογαλακτίζω, *wean from the mother's milk*; ἀρχιστράτηγος, *commander-in-chief*; and, from the omega file, ὦμος, *the shoulder with the upper arm*. GEN 23 adds παρεπίδημος, *sojourning in a strange place*, and μνημεῖον, *memorial, remembrance, record*, whose Middle Liddell entry tags its first sense only in Latin.
+*wanderer, emigrant*, as ἁγίζω's stand for ἁγιάζω. GEN 15 adds ὑπερασπίζω, *cover with a shield*, from the upsilon file; τριετίζω, *to be three years old*; and διχοτόμημα, *half of a thing cut in two*. GEN 17 adds κατάσχεσις, *holding back, restraining, retention*, then *possession*, from the kappa file; and ἑκατονταέτης, *of a hundred years*, *years old*, citing 17:17. GEN 18 adds μοσχάριον, *little calf*, and, from the beta file, βούτυρον, *butter*, then *a plant*. GEN 19 adds προσοίγνυμι, *shut*; ἀορασία, *inability to see, blindness*; γελοιάζω, *jest*, from the gamma file; ἐπαύριον, *on the morrow*; and εἰσσπάομαι, *draw into oneself*. GEN 20 adds μήτρα, *womb*, whose Middle Liddell entry tags only Latin; δίδραχμον, *coin of two drachms*, under δίδραχμος; and κἀγώ, *crasis for καὶ ἐγώ*. GEN 21 adds ἀπογαλακτίζω, *wean from the mother's milk*; ἀρχιστράτηγος, *commander-in-chief*; and, from the omega file, ὦμος, *the shoulder with the upper arm*. GEN 23 adds παρεπίδημος, *sojourning in a strange place*, and μνημεῖον, *memorial, remembrance, record*, whose Middle Liddell entry tags its first sense only in Latin. GEN 24 adds ποτιστήριον, *drinking-trough for cattle*; ἐνώτιον, *ear-ring*; ἅβρα, *favourite slave*; and ἀποσάττω, *unsaddle, unpack*, *stop up, caulk*, *stuff with food*.
 <!-- LSJ sentences above -->
 
 GEN 9 also files ἐμεθύσθη under μεθύσκω, *to make drunk*, where Middle Liddell gives its aorist
@@ -596,6 +600,207 @@ the same ground as `the sixth` and `the seventh`: one sense each, so no range to
   settling in` (10:30); δύο `two`; υἱός `sons`.
 - The article before a people's name (τοὺς Λουδιιμ, τὸν Χετταῖον, τῶν Χαναναίων) is not printed,
   as before a person's name.
+
+### Words new in GEN 24
+
+- ὅθεν — Middle Liddell's first sense is the Latin *unde*; the first English is *from whom*, and the
+  chain goes on *from whatever source, where, whence and wherefore*. 24:5.
+- μένω — the first sense is Latin only; the first English is *to stay at home, stay where one is,
+  not stir*: `let stay at home`. Middle Liddell's misprint *remian* is printed *remain*. 24:55.
+- ἐπικλίνω — first *to put* a door *to*: `put to`, with *to bend towards* and the intransitive's *to
+  incline towards*; the passive's senses are left out. 24:14.
+- ἀντλέω — first *to bale out bilge-water, bale the ship*; *to draw water* is its second sense. 24:13, 24:20.
+- ὁλκή — *a drawing, dragging, tugging*; Middle Liddell has no *weight*, the sense of the verse. 24:22.
+- κακὸν καλῷ — both neuters used as nouns, so each takes its first noun sense: κακός *evil, ill*, as τὰ
+  κακά at 19:19; καλός *beauty*, then *moral beauty, virtue*. GEN 2:9 and 3:5 had read καλοῦ and καλόν
+  with the adjective's senses. 24:50.
+- γηρᾶσαι — the first aorist of γηράσκω, to which Middle Liddell gives the causal *to bring to old
+  age*; the chain keeps it. 24:36.
+- ἐφέστηκα, ἕστηκα, ἕστηκας, ἑστηκότος — the intransitive perfects: `I have stood upon`, `I have
+  been set and stand so`, as εἱστήκεισαν at 18:2. 24:13, 24:30, 24:31, 24:43.
+- ἐγενήθην — the aorist passive of γίνομαι takes the middle's chain, as ἐγενήθη at 11:28. 24:7.
+- περιεβάλετο, ὑδρεύομαι, νίψασθαι — middles, which take the entry's middle senses: *to throw round
+  oneself, put on*; *to draw water for oneself*; *to wash one's hands*. 24:11–65.
+- παρθένος — *an unmarried man* is the masculine's sense, and ἡ παρθένος leaves it out. 24:14.
+- ἔφη — the imperfect, as MorphGNT codes it: `was declaring`. 24:47.
+- εὐοδόω and ὁρκίζω — one sense each in the active, *to help on the way* and *to make one swear*, but
+  written as units whose chain is the headword alone wherever plain text would put another unit's
+  headword outside it (*the way*, *made*), as εἰσεσπάσαντο at 19:10. 24:12–56.
+- τῷ ἑαυτοῦ θεράποντι — the article, the reflexive, the noun: `to the of himself` and θεράπων with no
+  article of its own, as τὴν σεαυτοῦ ψυχήν at 19:17. 24:44.
+- τοῦτου (24:58) — Rahlfs's own misprint for τούτου, kept as printed; the verse lists it in the new
+  `printed` field, which `build/validate.py` reads as it reads `speech`.
+- Names: Λαβαν `(Λαβαν, from Hebrew Lābān, "white")`; Μεσοποταμία `(Μεσοποταμία, Greek, "the land
+  between the rivers", for Hebrew ʾĂram Nahărayim, "Aram of the two rivers")`. The article before the
+  name of the land is not printed, as before a person's. 24:10, 24:29.
+- One sense each in GEN 24, so plain text: ἐξορκίζω `I will adjure` (24:3); κοιμίζω `put to sleep`
+  (24:11); παρασιωπάω `was passing over in silence` (24:21); ἐνώτιον `ear-rings` (24:22, LSJ);
+  ποτιστήριον `the drinking-trough for cattle` (24:20, LSJ); βραχίων `the arm` (24:18), once *the
+  shoulder*, a piece of βραχίων ὤμου, is left out; εὐλογητός `blessed` (24:27, 24:31); ὁρκισμός `the
+  administration of an oath` (24:41); ἅβρα `the favourite slaves` (24:61, LSJ); καταπηδάω `leaped down`
+  (24:64); θέριστρον `the light summer garment` (24:65), filed inside θερίστριον.
+
+| lemma | headword | chain | used |
+| --- | --- | --- | --- |
+| βούλομαι | `wills` | `wills, wishes, is willing, means, professes and pretends and would fain, prefers` | 24:5 |
+| γίνομαι | `I came into being` | `I came to be, I arose, I was brought into existence` | 24:4, 24:7 |
+| γηράσκω | `to grow old` | `to grow old, to become old, to bring to old age` | 24:36 |
+| δίδωμι | `they may give` | `they may give, they may grant, they may provide, they may give over and deliver up` | 24:41 |
+| δείλη | `of afternoon` | `of afternoon, of the late afternoon and evening` | 24:63 |
+| διηγέομαι | `set out in detail` | `set out in detail, described in full` | 24:66 |
+| δραχμή | `handful` | `handful, drachm, drachma` | 24:22 |
+| δύναμαι | `we will be able` | `we will be able, we will be capable and strong enough, we will be powerful and mighty, we will have influence, we will dare and bear, we will pass for, we will be worth, we will be equivalent to, we will signify and mean, we will avail` | 24:50 |
+| δῶρον | `gifts` | `gifts, presents, votive gifts, blessings` | 24:53 |
+| εὐαρεστέω | `I was well pleasing` | `I was well pleasing, I seemed good, I was resolved, I was well pleased and satisfied` | 24:40 |
+| εὐδοκέω | `having been well pleased` | `having been well pleased, having consented and been glad` | 24:26, 24:48 |
+| εὐοδόω | `has helped on the way` | `has helped on the way and it stands helped on the way` | 24:21, 24:27 |
+| εὐοδόω | `help on the way` | `help on the way` | 24:12 |
+| εὐοδόω | `helped on the way` | `helped on the way` | 24:48, 24:56 |
+| εὐοδόω | `will help on the way` | `will help on the way` | 24:40 |
+| εὐοδόω | `you help on the way` | `you help on the way` | 24:42 |
+| θέλω | `may will` | `may will, may wish, may purpose, may be wont and accustomed, may mean and purport` | 24:8 |
+| θεράπων | `waiting-man` | `waiting-man, attendant, companion in arms, servant` | 24:44 |
+| κάμηλος | `of the camel` | `of the camel, of the camel in an army, of the camelry and camel-brigade` | 24:64 |
+| κάμηλος | `of the camels` | `of the camels, of the camels in an army, of the camelry and camel-brigade` | 24:10, 24:30 |
+| κάμηλος | `the camels` | `the camels, the camels in an army, the camelry and camel-brigade` | 24:11, 24:14, 24:22, 24:32, 24:46, 24:61 |
+| κάμηλος | `to the camels` | `to the camels, to the camels in an army, to the camelry and camel-brigade` | 24:19, 24:20, 24:31, 24:32, 24:44 |
+| καθαιρέω | `took down` | `took down, put down and closed, brought down, put down by force and destroyed and killed and slew, put down and reduced and deposed and dethroned and removed, rased to the ground and pulled down, cancelled and rescinded, condemned, reduced, overpowered and seized and caught, fetched down as a reward and achieved and took and carried off` | 24:18, 24:46 |
+| καθαρός | `clear of dirt` | `clear of dirt, clean and spotless and unsoiled, clear and open and free, clear from shame and pollution and pure, clear of admixture and pure` | 24:8 |
+| κακός | `evil` | `evil, ill, evil word and reproach` | 24:50 |
+| καλέω | `let us call` | `let us call, let us summon, let us call to ourselves, let us invite` | 24:57 |
+| καλός | `to beauty` | `to beauty, to moral beauty and virtue` | 24:50 |
+| κατέχω | `hold fast` | `hold fast, hold back and withhold, check and restrain and control and bridle, detain, possess and occupy, fill, occupy and be spread over and cover, confine and cover, hold down and overpower and oppress and afflict` | 24:56 |
+| καταλύω | `to put down` | `to put down, to destroy, to dissolve and break up, to depose, to dismiss and disband, to neglect, to end and bring to an end, to break, to make peace with, to unloose and unyoke, to take down, to take up one's quarters and lodge, to go and lodge, to take one's rest` | 24:23, 24:25 |
+| καταμανθάνω | `was observing well` | `was observing well, was examining closely, was learning thoroughly, was perceiving and understanding, was discovering and finding, was considering` | 24:21 |
+| κληρονομέω | `let receive a share of an inheritance` | `let receive a share of an inheritance and inherit a portion, let inherit, let be an inheritor, let succeed` | 24:60 |
+| κύριος | `of the lord` | `of the lord, of the master, of the one having power and authority over` | 24:9, 24:10, 24:12, 24:27, 24:36, 24:42, 24:48, 24:51 |
+| λέγω | `of saying` | `of saying, of speaking, of declaring, of calling by name, of telling` | 24:30 |
+| λαλέω | `has talked` | `has talked and it stands so, has chatted, has prattled, has babbled, has said, has talked of, has spoken, has chattered, has chirped` | 24:30 |
+| λαμβάνω | `you may take` | `you may take, you may receive, you may take hold of and grasp and seize` | 24:3 |
+| μένω | `let stay at home` | `let stay at home, let stay where one is, let not stir, let stay away from, let stay and tarry, let be lasting and remain and last and stand, let remain as one was and hold good and remain contented, let abide by, let await and expect and wait for` | 24:55 |
+| μήτηρ | `of the mother` | `of the mother, of the dam, of the source` | 24:28, 24:67 |
+| μήτηρ | `to the mother` | `to the mother, to the dam, to the source` | 24:53 |
+| μηρός | `the thigh` | `the thigh, the leg-bones` | 24:2, 24:9 |
+| μυριάς | `of numbers of ten thousand` | `of numbers of ten thousand, of myriads, of countless numbers` | 24:60 |
+| νίπτω | `to wash one's hands` | `to wash one's hands, to purge and cleanse, to wash off` | 24:32 |
+| οἰκέω | `I inhabit` | `I inhabit, I occupy, I dwell and live, I am settled` | 24:3 |
+| οἰκέω | `of the ones dwelling in` | `of the ones dwelling in, settling in, colonising, inhabiting, settling and dwelling, lying and situate` | 24:13 |
+| οἶκος | `house` | `house, abode and dwelling, room and chamber, house of a god and temple, household goods and substance, household and family` | 24:27 |
+| οὗτος, with ἐν | `in this` | `within, inside of, and by means of this, the nearer, what follows` | 24:14, 24:44 |
+| πίνω | `I drank` | `I drank, I drank of, I drank up` | 24:46 |
+| πίνω | `I may drink` | `I may drink, I may drink of, I may drink up` | 24:14 |
+| πίνω | `drink` | `drink, drink of, drink up` | 24:14, 24:18, 24:44, 24:46 |
+| πίνω | `drinking` | `drinking, drinking of, drinking up` | 24:14, 24:19, 24:22 |
+| πίνω | `drinking` | `drinking, drinking of, drinking up` | 24:14, 24:19, 24:22 |
+| πίνω | `they drank` | `they drank, they drank of, they drank up` | 24:54 |
+| πίνω | `they may drink` | `they may drink, they may drink of, they may drink up` | 24:19 |
+| παρακαλέω | `was called to` | `was called to, was called to aid and called in and sent for and called on and invoked, was summoned, was invited, was called to and exhorted and cheered and encouraged, was excited and fomented, was exhorted, was demanded and required, was comforted and consoled` | 24:67 |
+| παρθένος | `maid` | `maid, maiden, virgin, girl` | 24:16 |
+| παρθένος | `the maid` | `the maid, the maiden, the virgin, the girl` | 24:14, 24:16, 24:43, 24:55 |
+| παροικέω | `I dwell beside` | `I dwell beside, I dwell along the coast of, I live near, I dwell among, I lie near, I live in and sojourn` | 24:37 |
+| πατήρ | `to the father` | `to the father, to the grandfather` | 24:23 |
+| παύω | `they may take their rest` | `they may take their rest, they may rest and cease and have done, they may leave off from and rest and cease from, they may be at rest, they may leave off doing` | 24:14 |
+| παῖς | `child` | `child, son, daughter, grandchild, boy and youth and lad, girl and maiden, slave and servant and man and maid` | 24:34 |
+| περιβάλλω | `threw round herself` | `threw round herself, put on, threw round herself for defence, built round, surrounded and enclosed for herself, brought into her power and aimed at, cloked and veiled` | 24:65 |
+| περιτίθημι | `I placed round` | `I placed round, I bestowed and conferred upon` | 24:47 |
+| πορεύομαι | `I am driven` | `I am driven, I am carried, I go, I walk, I march, I go across and pass` | 24:42 |
+| πορεύομαι | `I will be driven` | `I will be driven, I will be carried, I will go, I will walk, I will march, I will go across and pass` | 24:58 |
+| πορεύομαι | `was being driven` | `was being driven, was being carried, was going, was walking, was marching, was going across and passing` | 24:62 |
+| πορεύομαι | `will be driven` | `will be driven, will be carried, will go, will walk, will march, will go across and pass` | 24:39 |
+| πορεύομαι | `you will be driven` | `you will be driven, you will be carried, you will go, you will walk, you will march, you will go across and pass` | 24:4, 24:38, 24:58 |
+| ποτίζω | `I will give to drink` | `I will give to drink, I will water` | 24:14, 24:46 |
+| ποτίζω | `give to drink` | `give to drink, water` | 24:17, 24:43, 24:45 |
+| προσέχω | `hold to` | `hold to, offer, bring to, turn to, turn the mind to, give heed to` | 24:6 |
+| προσκυνέω | `I made obeisance` | `I made obeisance, I fell down and worshipped, I worshipped, I adored, I did reverence to, I made the salam, I prostrated myself before` | 24:48 |
+| πρόσταγμα | `the ordinance` | `the ordinance, the command` | 24:50 |
+| σκεῦος | `vessels` | `vessels, implements of any kind, furniture, house-gear, utensils, chattels, accoutrements, equipment, baggage, luggage, tackling, gear, inanimate objects and things, bodies and vessels` | 24:53 |
+| σπεύδω | `having set a-going` | `having set a-going, having urged on, having hastened, having quickened, having sought eagerly and striven after, having promoted zealously and pressed, having pressed on and hastened and exerted herself and striven eagerly, having been eager to do, having been anxious that` | 24:46 |
+| σπεύδω | `set a-going` | `set a-going, urged on, hastened, quickened, sought eagerly and strove after, promoted zealously and pressed, pressed on and hastened and exerted herself and strove eagerly, was eager to do, was anxious that` | 24:18, 24:20 |
+| συντελέω | `to bring quite to an end` | `to bring quite to an end, to complete, to accomplish, to make up into the whole and into the number` | 24:15, 24:45 |
+| τίθημι | `set` | `set, put, place, plant, lay` | 24:2 |
+| τίκτω | `the one having been brought into the world` | `the one having been brought into the world, having been brought forth, having been borne, having been produced` | 24:15 |
+| τρέχω | `having run` | `having run, having moved quickly, having run over, having run the risk` | 24:28 |
+| φημί | `was declaring` | `was declaring, was making known, was saying, was affirming, was asserting, was thinking, was deeming, was supposing, was saying yes and affirming, was saying no and denying and refusing` | 24:47 |
+| φυλή | `of the race` | `of the race, of the tribe, of the body united by ties of blood and descent, of the clan, of the tribe by local habitation, of the hundred and county, of the contingent furnished by a tribe, of the brigade` | 24:40 |
+| φυλή | `race` | `race, tribe, body united by ties of blood and descent, clan, tribe by local habitation, hundred and county, contingent furnished by a tribe, brigade` | 24:41 |
+| φυλή | `the race` | `the race, the tribe, the body united by ties of blood and descent, the clan, the tribe by local habitation, the hundred and county, the contingent furnished by a tribe, the brigade` | 24:4, 24:38 |
+| χιλιάς | `numbers one thousand` | `numbers one thousand, thousands, very large numbers` | 24:60 |
+| χρυσίον | `piece of gold` | `piece of gold, gold, gold coin and money` | 24:35 |
+| χρυσοῦς | `golden` | `golden, of gold, decked and inlaid with gold, gilded, gilt, gold, gold-coloured and golden-yellow` | 24:22, 24:53 |
+| χρυσοῦς | `of golden` | `of golden, of gold, of decked and inlaid with gold, of gilded, of gilt, of gold-coloured and golden-yellow` | 24:22 |
+| χόρτασμα | `fodders` | `fodders, forages, foods for men` | 24:25, 24:32 |
+| ψέλιον | `armlets` | `armlets, anklets` | 24:22 |
+| ψέλιον | `the armlets` | `the armlets, the anklets` | 24:30, 24:47 |
+| ἀγαθός | `of the goods` | `of the goods, of the goods of fortune and wealth, of good qualities` | 24:10 |
+| ἀγαπάω | `treated with affection` | `treated with affection, caressed, loved, was fond of, regarded with brotherly love, was well pleased and contented with, was content` | 24:67 |
+| ἀδελφός | `the sons of the same mother` | `the sons of the same mother, the brothers, the near kinsmen` | 24:55 |
+| ἀδολεσχέω | `to talk idly` | `to talk idly, to prate` | 24:63 |
+| ἀθῷος | `unpunished` | `unpunished, scot-free, free from, unharmed by, not deserving punishment and without fault` | 24:41 |
+| ἀκούω, with ἐν τῷ | `in the hearing` | `within, inside of, and by means of the hearing, the having hearing of, the hearing tell of, the hearkening and giving ear, the listening to and obeying` | 24:52 |
+| ἀλήθεια | `of truth` | `of truth, of truth and reality, of truthfulness and sincerity and frankness and candour` | 24:48 |
+| ἀλήθεια | `the truth` | `the truth, the truth and reality, the truthfulness and sincerity and frankness and candour` | 24:27 |
+| ἀνά + accusative | `up to` | `up to, up along, throughout and in course of and by, at the rate of and apiece, up to and in proportion` | 24:22 |
+| ἀναγγέλλω | `carry back tidings of` | `carry back tidings of, report` | 24:23 |
+| ἀναλαμβάνω | `having taken up` | `having taken up, having taken into one's hands, having taken on board ship, having taken with one, having taken upon oneself and assumed, having learned by rote, having got back and regained and recovered, having retrieved and made good, having restored and repaired and regained strength and revived, having taken up again and resumed and recollected, having pulled short up and checked and called back, having gained quite over and won over` | 24:61 |
+| ἀντιλέγω | `to speak against` | `to speak against, to gainsay, to contradict, to declare in opposition, to answer, to reply, to allege in answer, to speak one against the other and speak in opposition` | 24:50 |
+| ἀντλέω | `to bale out bilge-water` | `to bale out bilge-water, to bale the ship, to draw water, to exhaust and come to the end of, to squander` | 24:13, 24:20 |
+| ἀπέρχομαι | `I may go away` | `I may go away, I may depart from, I may depart, I may depart from life` | 24:54, 24:56 |
+| ἀπέρχομαι | `will go away` | `will go away, will depart from, will depart, will depart from life` | 24:55 |
+| ἀπαγγέλλω | `bring tidings` | `bring tidings, report, announce, carry a report, relate and narrate` | 24:49 |
+| ἀποσάττω | `unsaddled` | `unsaddled, unpacked, stopped up and caulked, stuffed with food` | 24:32 |
+| ἀποστέλλω | `will send off` | `will send off, will send away, will banish, will despatch, will go away and depart` | 24:7, 24:40 |
+| ἀποστρέφω | `I may turn` | `I may turn, I may turn back, I may turn away, I may turn myself about, I may bring back` | 24:5 |
+| ἀποστρέφω | `you may turn` | `you may turn, you may turn back, you may turn away, you may turn yourself about, you may bring back` | 24:6, 24:8 |
+| ἀρά | `of the prayer` | `of the prayer, of the prayer for evil and curse and imprecation, of the effect of the curse and bane and ruin` | 24:41 |
+| ἀργυροῦς | `silver` | `silver, of silver` | 24:53 |
+| ἀργύριον | `piece of silver` | `piece of silver, silver coin, money and sum of money and cash, silver` | 24:35 |
+| ἄρχων | `to the ruler` | `to the ruler, to the commander, to the chief, to the captain, to the chief magistrate` | 24:2 |
+| ἄχυρον | `husks` | `husks, chaff, bran` | 24:25, 24:32 |
+| ἐγκαταλείπω | `left behind` | `left behind, left in the lurch, left out and omitted` | 24:27 |
+| ἐκκενόω | `emptied out` | `emptied out, left desolate` | 24:20 |
+| ἐκπέμπω | `send out` | `send out, send forth from, bring out by calling and call and fetch out, send forth and dispatch, send away and cast out and divorce, send out and send abroad, send forth and give out` | 24:54, 24:56 |
+| ἐκπέμπω | `sent out` | `sent out, sent forth from, brought out by calling and called and fetched out, sent forth and dispatched, sent away and cast out and divorced, sent out and sent abroad, sent forth and gave out` | 24:59 |
+| ἐκπορεύομαι | `go out` | `go out, go forth, march out` | 24:11, 24:13 |
+| ἐκπορεύομαι | `was going out` | `was going out, was going forth, was marching out` | 24:15, 24:45 |
+| ἐκφέρω | `having carried out of` | `having carried out of, having carried out, having carried off, having carried out of the sea and thrown ashore, having brought forth, having brought forth and produced, having brought about and accomplished, having brought out and published, having delivered, having brought forward, having disclosed and told and betrayed, having put forth and exerted, having borne the marks of, having carried to a certain point, having shot forth, having run away, having come to fulfilment and come to an end, having come to land and been cast ashore, having been carried beyond bounds and carried away` | 24:53 |
+| ἐμός | `the mine` | `the mine, the to me and relating to me and against me, the by me` | 24:41 |
+| ἐξέρχομαι | `you went out of` | `you went out of, you came out, you went away and marched off, you went forth` | 24:5 |
+| ἐπερωτάω | `inquired of` | `inquired of, questioned, consulted, asked and asked about and put the question` | 24:23 |
+| ἐπιβαίνω | `went upon` | `went upon, set foot on and trod and walked upon, got upon and mounted on, arrived at, indulged in and observed, mounted upon and got upon, set upon and attacked and assaulted, lit upon and went on to and entered, attacked, mounted, got a footing, stepped onwards and advanced` | 24:61 |
+| ἐπικλίνω | `put to` | `put to, bend towards, incline towards` | 24:14 |
+| ἐπιστρέφω | `I may turn about` | `I may turn about, I may turn round, I may return, I may turn towards, I may correct and make to repent` | 24:49 |
+| ἐπιτρέχω | `ran upon` | `ran upon, made an assault upon, ran after, ran over and grazed the surface, was spread over, overran, ran over and treated lightly of, ran close after` | 24:17 |
+| ἐρωτάω | `I asked` | `I asked, I asked about, I enquired of and questioned, I begged and solicited` | 24:47 |
+| ἐρωτάω | `let us ask` | `let us ask, let us ask about, let us enquire of and question, let us beg and solicit` | 24:57 |
+| ἐσθίω | `I may eat` | `I may eat, I may eat of` | 24:33 |
+| ἐφίστημι | `I have stood upon` | `I have stood upon and stand so, I have been imposed upon, I have stood on the top and surface, I have been set over and been in authority, I have stood by and near and appeared to, I have stood against and opposed, I have come upon by surprise and impended and been at hand, I have halted and stopped, I have fixed my mind on and given my attention to` | 24:43 |
+| ἑτοιμάζω | `I have made ready` | `I have made ready and it stands made ready, I have got ready and it stands got ready, I have prepared and it stands prepared, I have provided and it stands provided` | 24:31 |
+| ἑτοιμάζω | `made ready` | `made ready, got ready, prepared, provided` | 24:44 |
+| ἑτοιμάζω | `you made ready` | `you made ready, you got ready, you prepared, you provided` | 24:14 |
+| ἔμπροσθεν | `before` | `before, in front of` | 24:7 |
+| ἔρημος | `of the desert part` | `of the desert part, of the desolate, of the lone and lonely and lonesome and solitary, of the helpless, of the reft and void and destitute, of the undefended` | 24:62 |
+| ἔρχομαι | `you may come` | `you may come, you may go, you may go back and return, you may be going to and intend, you may come within a little of and be near` | 24:41 |
+| ἔχω | `having` | `having, holding, possessing, keeping, holding fast, bearing up against and supporting` | 24:15, 24:45 |
+| ἱματισμός | `clothing` | `clothing, apparel` | 24:53 |
+| ἵστημι | `I have been set` | `I have been set and stand so, I have been placed, I have stood, I have been there, I have been in a state and condition, I have lain and been situated, I have stood still and stopped and halted, I have stood idle, I have stopped and ceased and been at rest, I have stood firm, I have stood up and risen up, I have arisen and begun` | 24:13 |
+| ἵστημι | `of having been set` | `of having been set and standing so, of having been placed, of having stood, of having been there, of having been in a state and condition, of having lain and been situated, of having stood still and stopped and halted, of having stood idle, of having stopped and ceased and been at rest, of having stood firm, of having stood up and risen up, of having arisen and begun` | 24:30 |
+| ἵστημι | `you have been set` | `you have been set and stand so, you have been placed, you have stood, you have been there, you have been in a state and condition, you have lain and been situated, you have stood still and stopped and halted, you have stood idle, you have stopped and ceased and been at rest, you have stood firm, you have stood up and risen up, you have arisen and begun` | 24:31 |
+| ὀψέ | `after a long time` | `after a long time, late, late in the day and at even` | 24:11 |
+| ὁδός, with ἐν | `in way` | `within, inside of, and by means of way, path, track, road, highway, course, journey, manner and method` | 24:48 |
+| ὁλκή | `drawing` | `drawing, dragging, tugging, drawing on and towards, attraction, force of attraction` | 24:22 |
+| ὁλκή | `of drawing` | `of drawing, of dragging, of tugging, of drawing on and towards, of attraction, of force of attraction` | 24:22 |
+| ὁρκίζω | `made swear` | `made swear` | 24:37 |
+| ὄψις | `with the look` | `with the look, with the appearance, with the aspect, with the sight, with the vision and apparition, with the eyesight and vision, with the view and sight` | 24:16 |
+| ὅρασις | `of the seeing` | `of the seeing, of the act of sight, of the vision` | 24:62 |
+| ὑδρία | `of the water-pot` | `of the water-pot, of the pitcher, of the urn, of the vessel and the pot of money, of the balloting urn, of the cinerary urn` | 24:17, 24:43 |
+| ὑδρία | `the water-pot` | `the water-pot, the pitcher, the urn, the vessel and the pot of money, the balloting urn, the cinerary urn` | 24:14, 24:15, 24:16, 24:18, 24:20, 24:45, 24:46 |
+| ὑδρεύω | `I will draw water for myself` | `I will draw water for myself, I will fetch water` | 24:19, 24:44 |
+| ὑδρεύω | `drew water for herself` | `drew water for herself, fetched water` | 24:20, 24:45 |
+| ὑδρεύω | `the ones drawing water for themselves` | `the ones drawing water for themselves, the ones fetching water` | 24:11 |
+| ὑδρεύω | `to draw water for oneself` | `to draw water for oneself, to fetch water` | 24:43 |
+| ὦμος | `of the shoulders with the upper arm` | `of the shoulders with the upper arm, of the shoulders` | 24:15, 24:45 |
+| ῥῆμα | `of that which is said` | `of that which is said and spoken, of the word, of the saying, of the phrase, of the subject of speech and the thing, of the verb` | 24:9 |
+| ῥῆμα | `of the things which are said` | `of the things which are said and spoken, of the words, of the sayings, of the phrases, of the subjects of speech and things, of the verbs` | 24:52 |
 
 ### Words new in GEN 23
 
@@ -3553,6 +3758,9 @@ Greek makes it a woman's, the mother of Eliezer, whom it calls Δαμασκὸς
 | Εφρων | Ephrōn | Ephron | `(Εφρων, from Hebrew ʿEprôn, of uncertain meaning)` |
 | Σααρ | Saar | Zohar | `(Σααρ, from Hebrew Ṣōḥar, of uncertain meaning)` |
 | Χετταῖος | Chettaios | Hittite | `(Χετταῖος, the man of Χετ, Heth; Hebrew Ḥittî)` |
+
+| Μεσοποταμίαν | Mesopotamian | Mesopotamia | `(Μεσοποταμία, Greek, "the land between the rivers", for Hebrew ʾĂram Nahărayim, "Aram of the two rivers")` |
+| Λαβαν | Laban | Laban | `(Λαβαν, from Hebrew Lābān, "white")` |
 <!-- name rows above -->
 
 Σύγχυσις translates the name where 10:10 gave the city its Greek name, Βαβυλών; as with Ζωή at

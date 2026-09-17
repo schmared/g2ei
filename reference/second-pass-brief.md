@@ -224,6 +224,17 @@ under ἀποκρίνω, as Middle Liddell heads them; the first kept ἀποκ�
 under the uncontracted διπλόος; the first kept MorphGNT's διπλοῦς. And the second coded κύκλῳ as the
 dative of κύκλος; the first kept the adverb, `D- κύκλῳ`, as MorphGNT has it at Mark 3:34.
 
+### What it found in Genesis 24
+
+Nineteen disagreements over 1539 words. The second pass was right that ἔξω τῆς πόλεως at 24:11
+governs a genitive, `P-`; that the speech-opening Καί at 24:19 is *also*, `D-`; that ὅσα at 24:36,
+ὅσα ἦν αὐτῷ, is the nominative subject of ἦν, as settled at 12:20; and that ἀντειπεῖν goes under
+ἀντιλέγω, as MorphGNT files it (Luke 21:15). The first pass kept πρεσβύτερος under itself, μήποτε with
+the conjunctions, as MorphGNT has it 22 times in 25, and adverbial μόνον as `A- μόνος`, all as settled
+before; ἀποκριθείς under ἀποκρίνομαι; χρυσοῦς and ἀργυροῦς, MorphGNT's contracted forms, as διπλοῦς
+at 23:9, not Middle Liddell's χρύσεος and ἀργύρεος; and ὁ θεός in address at 24:12 and 24:42 in the
+nominative its form has, as MorphGNT codes Ὁ θεός at Luke 18:13 and Heb 1:8. The brief now names each.
+
 ## The brief
 
 Copy everything below the rule into a new agent. Replace `<BOOK NAME>`, `<CHAPTER>`,
@@ -345,7 +356,10 @@ Conventions:
   Middle Liddell both file it.
 - μέσος with a genitive after it — `ἐν μέσῳ τοῦ …`, `ἀνὰ μέσον τοῦ …` — is the neuter
   adjective used as a noun: `A- ----DSN-`, `A- ----ASN-`.
-- A word of address is vocative, case `V`.
+- A word of address is vocative, case `V` — but a declined nominative form used in address stays
+  nominative: `Κύριε ὁ θεός`, ὁ and θεός `----NSM-`, as MorphGNT codes Ὁ θεός at Luke 18:13 and Heb 1:8.
+- A relative takes its case from its own clause: in `ἔδωκεν αὐτῷ ὅσα ἦν αὐτῷ`, ὅσα is the
+  nominative subject of ἦν.
 - τί in `τί ὅτι`, *why is it that*, is accusative, `RI ----ASN-`, as MorphGNT codes it all
   three times (Luke 2:49; Acts 5:4, 5:9).
 - `ἵνα τί`, *why*, printed as two words, is the ellipsis ἵνα τί γένηται: ἵνα `C-`, τί
@@ -380,13 +394,13 @@ The dictionary form as Middle Liddell (Perseus) files it:
   διανοέομαι, μιμνήσκομαι, διατίθεμαι, χράομαι, κτάομαι, περιποιέομαι, συμπορεύομαι, δύναμαι,
   ἀποκρίνομαι (ἀπεκρίθη, ἀποκριθείς, voice `P`). But ἐπεκαλέσατο, the middle,
   goes under the active ἐπικαλέω, as MorphGNT files it.
-- εἰδέναι → οἶδα · εἶπεν → λέγω · ἰδεῖν → ὁράω · φαγ- forms → ἐσθίω · μου → ἐγώ ·
+- εἰδέναι → οἶδα · εἶπεν → λέγω · ἀντειπεῖν → ἀντιλέγω · ἰδεῖν → ὁράω · φαγ- forms → ἐσθίω · μου → ἐγώ ·
   every article → ὁ.
 - The dictionary form keeps the spelling the text prints — γίνομαι, ἔχθρα, νοσσιά, δειλινός,
   ἐννακόσιοι, κατάγαιος, τεσσαράκοντα — even where Middle Liddell or MorphGNT spells the word
   otherwise (γίγνομαι, ἔχθρη, νεοσσιά, ἐνακόσιοι, κατάγειος, τεσσεράκοντα). What goes to the
   dictionary is the form, not the spelling: a contracted form goes under the form Middle Liddell
-  cites, the uncontracted ὀστέον for ὀστοῦν but the contracted συκῆ and διπλοῦς; ἕνεκεν → ἕνεκα, εἵνεκεν → εἵνεκα;
+  cites, the uncontracted ὀστέον for ὀστοῦν but the contracted συκῆ, διπλοῦς, χρυσοῦς and ἀργυροῦς; ἕνεκεν → ἕνεκα, εἵνεκεν → εἵνεκα;
   ἀμφότεροι → ἀμφότερος, the singular Middle Liddell heads, not MorphGNT's plural. A neuter
   noun filed as such: πετεινόν.
 - Proper names: a name the New Testament also uses, of a person or a place, takes MorphGNT's

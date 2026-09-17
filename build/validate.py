@@ -219,9 +219,10 @@ def check_fields(verses, rep):
         if EDITIONS.get(ref.split(" ")[0]) == "lxx" and not str(verse.get("print", "")).strip():
             rep.fail("fields", ref, "no `print` citation — Old Testament Greek is transcribed "
                                     "from the printed Rahlfs, and each verse cites its page")
-        speech = verse.get("speech", [])
-        if not (isinstance(speech, list) and all(isinstance(w, str) and w for w in speech)):
-            rep.fail("fields", ref, "`speech` must be a list of Greek words")
+        for field in ("speech", "printed"):
+            words = verse.get(field, [])
+            if not (isinstance(words, list) and all(isinstance(w, str) and w for w in words)):
+                rep.fail("fields", ref, "`%s` must be a list of Greek words" % field)
 
         for i, note in enumerate(verse.get("notes") or []):
             where = "note %d" % (i + 1)
@@ -858,17 +859,20 @@ def sentence_starts(greek):
     return out
 
 
-def same_form(module, data, initial=False, speech=()):
+def same_form(module, data, initial=False, speech=(), printed=()):
     """One word of the module against the same word of the transcription.
 
     A capital the printed page has a reason for is not a discrepancy: the head of a
     sentence — the verse's own, or one inside it, as where Rahlfs opens a paragraph with
     no verse number of its own (GEN 11:13) — or a word opening direct speech, which the
-    verse lists in `speech`, the same field check_names reads. Any other capital is a
-    real difference and fails.
+    verse lists in `speech`, the same field check_names reads. Nor is a form the verse
+    lists in `printed`: the page's own misprint, which the module corrects (GEN 24:58
+    τοῦτου) and the transcription keeps. Any other difference is real and fails.
     """
     a, b = module.translate(ELISION), data.translate(ELISION)
     if a == b:
+        return True
+    if data in printed:
         return True
     return (initial or data in speech) and a[:1].upper() + a[1:] == b
 
@@ -949,11 +953,19 @@ def check_greek(book, chapter, verses, rep):
                      "%d words in the data, %d in Rahlfs" % (len(got), len(want)))
             continue
         speech = {nfc(w) for w in verse.get("speech", [])}
+        printed = {nfc(w) for w in verse.get("printed", [])}
         starts = sentence_starts(verse["greek"])
+        used = set()
         for i, (a, b) in enumerate(zip(want, got)):
             if not same_form(a, b, initial=starts[i], speech=speech):
+                if same_form(a, b, printed=printed):
+                    used.add(b)
+                    continue
                 rep.fail("greek", verse["ref"],
                          "word %d: Rahlfs %r / data %r" % (i + 1, a, b))
+        for word in sorted(printed - used):
+            rep.fail("greek", verse["ref"],
+                     "`printed` lists %s, which does not differ from the module here" % word)
     rep.done("greek", "%d verses against the local module" % len(verses), before)
     rep.note("greek", "word forms only; the pointing is Rahlfs's own, transcribed from "
                       "the printed page each verse cites")

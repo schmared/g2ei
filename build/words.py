@@ -175,6 +175,14 @@ LSJ = {
     # "sojourning in a strange place".
     "μνημεῖον": ["memorial, remembrance, record", "tomb, monument"],
     "παρεπίδημος": ["sojourning in a strange place"],
+    # No Middle Liddell entry for these four. LSJ (eng17): ποτιστήριον, "drinking-trough for
+    # cattle", then the Latin "popina", which glosses nothing in English. LSJ (eng5): ἐνώτιον,
+    # "ear-ring". LSJ (eng1): ἅβρα, "favourite slave"; ἀποσάττω, "unsaddle, unpack", "stop up,
+    # caulk", "stuff with food", and in the middle "stuff oneself", left out of the active.
+    "ποτιστήριον": ["drinking-trough for cattle"],
+    "ἐνώτιον": ["ear-ring"],
+    "ἅβρα": ["favourite slave"],
+    "ἀποσάττω": ["unsaddle, unpack", "stop up, caulk", "stuff with food"],
 }
 
 # New Testament books: MorphGNT file and its book number.
@@ -603,6 +611,42 @@ NOT_SENSES = {
     "do/kimos": {"most approved", "really, truly"},  # a piece of an example, the adverb
     "e)/mporos": {"a trafficker"},              # a piece of an example
     "kuro/w": {"the end hath been fixed", "determined"},  # pieces of examples
+    # GEN 24
+    "bou/lomai": {"he willed", "would you have", "nobis volentibus est", "according to my wish",
+                  "quid sibi vult haec res", "I had rather", "than"},  # pieces of examples, Latin
+    "e)qe/lw": {"to wish that . .", "they cared not", "they were unable", "future", "will revert",
+               "que veut-il dire"},             # pieces of examples, French
+    "a)gaqo/s": {"it is good", "regular"},      # pieces of examples
+    "koimi/zw": {"suffer", "to rest—", "straverunt aequora venti)", "to lay", "asleep"},  # pieces of examples, Latin
+    "o)ye/": {"too late", "serum diei"},        # a piece of an example, Latin
+    "e)pikli/nw": {"to", "closed", "to prick", "inclined at an angle to"},  # pieces of examples, the passive's
+    "e(toima/zw": {"made his", "arrangements"},  # pieces of an example
+    "o)/yis": {"in appearance", "sights", "from what they saw", "presence"},  # pieces of examples
+    "e)pitre/xw": {"at", "in haste, eagerly", "runs over"},  # pieces of examples
+    "kaqaire/w": {"we lowered", "to take", "down", "close", "swallow", "utterly", "prize"},  # pieces of examples
+    "draxmh/": {"denarius", "franc"},           # Latin and French equivalents
+    "o(lkh/": {"towards"},                      # a piece of "a drawing on or towards"
+    "e)perwta/w": {"about"},                    # a piece of "to ask a thing or about a thing"
+    "o(rki/zw": {"I adjure", "by"},             # pieces of an example
+    "qera/pwn": {"free service;", "the companion", "esquire", "the charioteer", "devoted to the service of"},  # pieces of examples
+    "e)rwta/w": {"of", "the question"},         # pieces of examples
+    "fhmi/": {"shall we say", "what one says", "you would say, would think", "think", "they say, it is said",
+              "on dit", "said", "said yes", "not", "say no", "say yes or no"},  # pieces of examples, French
+    "periti/qhmi": {"to put", "round"},         # pieces of an example
+    "a)ntile/gw": {"answer"},                   # a piece of "to declare in opposition or answer"
+    "skeu=os": {"the vessel", "vessel"},        # pieces of examples
+    "me/nw": {"wait ye for", "they waited for", "I wait", "long", "it remains"},  # pieces of examples, the impersonal
+    "e)pibai/nw": {"to", "they bring", "bring to"},  # pieces of examples
+    "a)nalamba/nw": {"back"},                   # a piece of "to call back"
+    "periba/llw": {"having thrown", "to wreck", "on", "putting on their", "round", "having", "around",
+                   "with", "to put", "\"to compass\""},  # pieces of examples
+    "parakale/w": {"\"vocatus atque non vocatus, \"", "to attend one", "summoned"},  # pieces of examples, Latin
+    "braxi/wn": {"the shoulder"},               # a piece of "βραχίων ὤμου, the shoulder"
+    "e)kkeno/w": {"to pour out", "to shoot all"},  # pieces of examples
+    "a)ntle/w": {"exhaurire labores"},          # Latin
+    "parqe/nos": {"new"},                       # a piece of an example
+    "dei/lh": {"early", "late", "in the course of the afternoon"},  # pieces of examples
+    "a)lh/qeia": {"in very truth", "in truth and reality", "the character of the"},  # adverbial phrases, a piece
 }
 
 # An entry that divides its senses by tense and voice, so that which of them belong to a
@@ -718,6 +762,10 @@ SPELLING = {
     "pallakh/": "pallaki/s",        # cross-reference; "= παλλακίς"
     "diplou=s": "diplo/os",         # the contracted form, filed under the uncontracted
     "ku/klw|": "ku/klos",           # the adverbial dative, filed inside κύκλος
+    "qe/lw": "e)qe/lw",             # the later form, filed under ἐθέλω
+    "xrusou=s": "xru/seos",         # the contracted form, filed under the uncontracted
+    "a)rgurou=s": "a)rgu/reos",     # likewise
+    "qe/ristron": "qeri/strion",    # "so θέριστρον", inside θερίστριον
 }
 
 # Homographs where Perseus's *first* entry is a different word from the one the text
