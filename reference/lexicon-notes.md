@@ -186,6 +186,7 @@ Three reasons, and all of them are the lexicon's filing rather than a decision a
 | βαρέως (GEN 31:35) | βαρύς | the adverb, filed inside the adjective's entry |
 | ἀφρόνως (GEN 31:28) | ἄφρων | the adverb, which the entry glosses *senselessly* |
 | πρῶτος (GEN 32:18) | πρότερος | the superlative filed under the comparative, as at 8:5 |
+| ἀσφαλῶς | ἀσφαλής | the adverb, filed inside the adjective's entry |
 <!-- spelling rows above -->
 
 The dictionary form itself does not follow the lexicon's filing: it keeps the spelling the text
@@ -219,7 +220,7 @@ GEN 9 adds ὀπισθοφανής, *seen from behind*, and its adverb ὀπισ
 ἔτασις, *trial, affliction*. GEN 14 adds ἁλυκός, *salt, brackish*; ἀποσκευή, whose *removal,
 riddance* comes before *baggage*; σφαιρωτήρ, *thong, latchet*; and περάτης, which opens "= πορθμεύς",
 so that πορθμεύς's LSJ senses, *ferryman*, *boatman, seaman*, *conveyer*, stand before its own
-*wanderer, emigrant*, as ἁγίζω's stand for ἁγιάζω. GEN 15 adds ὑπερασπίζω, *cover with a shield*, from the upsilon file; τριετίζω, *to be three years old*; and διχοτόμημα, *half of a thing cut in two*. GEN 17 adds κατάσχεσις, *holding back, restraining, retention*, then *possession*, from the kappa file; and ἑκατονταέτης, *of a hundred years*, *years old*, citing 17:17. GEN 18 adds μοσχάριον, *little calf*, and, from the beta file, βούτυρον, *butter*, then *a plant*. GEN 19 adds προσοίγνυμι, *shut*; ἀορασία, *inability to see, blindness*; γελοιάζω, *jest*, from the gamma file; ἐπαύριον, *on the morrow*; and εἰσσπάομαι, *draw into oneself*. GEN 20 adds μήτρα, *womb*, whose Middle Liddell entry tags only Latin; δίδραχμον, *coin of two drachms*, under δίδραχμος; and κἀγώ, *crasis for καὶ ἐγώ*. GEN 21 adds ἀπογαλακτίζω, *wean from the mother's milk*; ἀρχιστράτηγος, *commander-in-chief*; and, from the omega file, ὦμος, *the shoulder with the upper arm*. GEN 23 adds παρεπίδημος, *sojourning in a strange place*, and μνημεῖον, *memorial, remembrance, record*, whose Middle Liddell entry tags its first sense only in Latin. GEN 24 adds ποτιστήριον, *drinking-trough for cattle*; ἐνώτιον, *ear-ring*; ἅβρα, *favourite slave*; and ἀποσάττω, *unsaddle, unpack*, *stop up, caulk*, *stuff with food*. GEN 25 adds three more: ὅλος, which Middle Liddell lacks altogether, *whole, entire, complete in all its parts*; δόμα, *gift*, then *payment*; and πυρράκης, *red, ruddy*, which LSJ files as a masculine noun. GEN 26 adds ἑκατοστεύω, *bear a hundredfold*, and γεώργιον, *field*, then *orchard*, *husbandry*, *crop* and, in the plural, a *tax* on land. GEN 27 adds four more: πιότης, *fattiness*, then *wealth, prosperity*; πτερνίζω, *strike with the heel*, *trip up, supplant*; προσοχθίζω, *to be wroth with*, and of this chapter's phrase *am weary* of; and κατανύσσω, *stab, gouge*, and in the passive *to be sorely pricked*. GEN 28 adds one more: ἐνυπνιάζομαι, *dream*, which Middle Liddell does not have at all. GEN 30 adds eight, the whole vocabulary of Jacob's flocks: ἀρήν, *lamb*; διάλευκος, *quite white*; ῥαντός, *sprinkled*, then *speckled or spotted*; σποδοειδής, *ashy, ash-coloured*; ἐγκισσάω, *have yearnings like one pregnant*; λεπίζω, *peel off the husk, skin or bark*; λέπισμα, *peel*; and καρύινος, *of nuts*, *made of walnut-wood*. LSJ cites this chapter for six of the eight. GEN 31 adds six: κρυφῇ, *secretly, in secret*, which Middle Liddell has only as the Doric κρύφα; κατάβρωσις, *eating up, devouring*; κλοποφορέω, *steal from, rob*; ἐθισμός, *accustoming, habituation*; θηριάλωτος, *caught by wild beasts*; and αἰχμαλωτίς, *captive*, which Middle Liddell has as an entry with no translation tagged in it. LSJ cites this chapter for four of the six. GEN 32 adds two: χείμαρρος, which LSJ heads χειμάρροος, *winter-flowing*, and as a noun *torrent*, *river*, *valley, watercourse*; and ἐπισκάζω, *limp upon*, cited from this chapter. GEN 33 adds πόρευσις, which LSJ defines only by cross-reference, "= πορεία", citing this verse.
+*wanderer, emigrant*, as ἁγίζω's stand for ἁγιάζω. GEN 15 adds ὑπερασπίζω, *cover with a shield*, from the upsilon file; τριετίζω, *to be three years old*; and διχοτόμημα, *half of a thing cut in two*. GEN 17 adds κατάσχεσις, *holding back, restraining, retention*, then *possession*, from the kappa file; and ἑκατονταέτης, *of a hundred years*, *years old*, citing 17:17. GEN 18 adds μοσχάριον, *little calf*, and, from the beta file, βούτυρον, *butter*, then *a plant*. GEN 19 adds προσοίγνυμι, *shut*; ἀορασία, *inability to see, blindness*; γελοιάζω, *jest*, from the gamma file; ἐπαύριον, *on the morrow*; and εἰσσπάομαι, *draw into oneself*. GEN 20 adds μήτρα, *womb*, whose Middle Liddell entry tags only Latin; δίδραχμον, *coin of two drachms*, under δίδραχμος; and κἀγώ, *crasis for καὶ ἐγώ*. GEN 21 adds ἀπογαλακτίζω, *wean from the mother's milk*; ἀρχιστράτηγος, *commander-in-chief*; and, from the omega file, ὦμος, *the shoulder with the upper arm*. GEN 23 adds παρεπίδημος, *sojourning in a strange place*, and μνημεῖον, *memorial, remembrance, record*, whose Middle Liddell entry tags its first sense only in Latin. GEN 24 adds ποτιστήριον, *drinking-trough for cattle*; ἐνώτιον, *ear-ring*; ἅβρα, *favourite slave*; and ἀποσάττω, *unsaddle, unpack*, *stop up, caulk*, *stuff with food*. GEN 25 adds three more: ὅλος, which Middle Liddell lacks altogether, *whole, entire, complete in all its parts*; δόμα, *gift*, then *payment*; and πυρράκης, *red, ruddy*, which LSJ files as a masculine noun. GEN 26 adds ἑκατοστεύω, *bear a hundredfold*, and γεώργιον, *field*, then *orchard*, *husbandry*, *crop* and, in the plural, a *tax* on land. GEN 27 adds four more: πιότης, *fattiness*, then *wealth, prosperity*; πτερνίζω, *strike with the heel*, *trip up, supplant*; προσοχθίζω, *to be wroth with*, and of this chapter's phrase *am weary* of; and κατανύσσω, *stab, gouge*, and in the passive *to be sorely pricked*. GEN 28 adds one more: ἐνυπνιάζομαι, *dream*, which Middle Liddell does not have at all. GEN 30 adds eight, the whole vocabulary of Jacob's flocks: ἀρήν, *lamb*; διάλευκος, *quite white*; ῥαντός, *sprinkled*, then *speckled or spotted*; σποδοειδής, *ashy, ash-coloured*; ἐγκισσάω, *have yearnings like one pregnant*; λεπίζω, *peel off the husk, skin or bark*; λέπισμα, *peel*; and καρύινος, *of nuts*, *made of walnut-wood*. LSJ cites this chapter for six of the eight. GEN 31 adds six: κρυφῇ, *secretly, in secret*, which Middle Liddell has only as the Doric κρύφα; κατάβρωσις, *eating up, devouring*; κλοποφορέω, *steal from, rob*; ἐθισμός, *accustoming, habituation*; θηριάλωτος, *caught by wild beasts*; and αἰχμαλωτίς, *captive*, which Middle Liddell has as an entry with no translation tagged in it. LSJ cites this chapter for four of the six. GEN 32 adds two: χείμαρρος, which LSJ heads χειμάρροος, *winter-flowing*, and as a noun *torrent*, *river*, *valley, watercourse*; and ἐπισκάζω, *limp upon*, cited from this chapter. GEN 33 adds πόρευσις, which LSJ defines only by cross-reference, "= πορεία", citing this verse. GEN 34 adds τραυματίας, which Middle Liddell lacks and LSJ (eng22) glosses "wounded man" and "corpse of one slain".
 <!-- LSJ sentences above -->
 
 GEN 9 also files ἐμεθύσθη under μεθύσκω, *to make drunk*, where Middle Liddell gives its aorist
@@ -619,6 +620,110 @@ the same ground as `the sixth` and `the seventh`: one sense each, so no range to
   settling in` (10:30); δύο `two`; υἱός `sons`.
 - The article before a people's name (τοὺς Λουδιιμ, τὸν Χετταῖον, τῶν Χαναναίων) is not printed,
   as before a person's name.
+
+### Words new in GEN 34
+
+- ἐγχώριος — *in* or *of the country*, and as a noun *a dweller in the land, inhabitant*. The noun
+  sense heads it, as with ἡ περίχωρος at 13:10, since it stands here as a noun. 34:1.
+- μιαίνω — *to stain, dye* first, of ivory dyed with purple; the defilement is the second sense.
+  The Greek of this chapter says staining, never violence. 34:5, 34:13, 34:27.
+- ἀσχήμων — *misshapen, unseemly*, the neuter as a noun: the deed is named by its shape. 34:7.
+- κατανύσσω — *to stab, gouge*, in the passive of the mind, as at 27:38. 34:7.
+- προαιρέω — προείλατο is the middle, so the chain is Middle Liddell's Mid. section: *to take away
+  first for oneself*, then *to choose before, prefer*. 34:8.
+- ἐπιγαμβρεύω and ἐγκτάομαι — one sense each, and both narrow: *to marry as the next of kin*, and
+  *to acquire possessions in a foreign country*. 34:9, 34:10.
+- πλατύς — *wide, broad*; *large* and *widespread* belong to an example (*broad herds*) and are filed
+  in NOT_SENSES. The separate entry πλατεῖα, the street, is what 19:2 takes. 34:10, 34:21.
+- φερνή — *that which is brought by the wife*, a dowry; in this verse the bridegroom offers it, as the
+  Hebrew mōhar is offered. 34:12.
+- ὁμοιόω — passive here, so the active senses passivized lead and the passive-only ones follow:
+  *be made like, be likened and compared*, then *become like, be like*. 34:15, 34:22, 34:23.
+- ἀσφαλῶς — the adverb, filed inside ἀσφαλής, whose entry glosses it *in all senses of the adj., in
+  safety, with certainty*: that gloss heads it and the adjective's senses follow, as with ἀφρόνως at
+  31:28. The epic adverb ἀσφαλέως has its own glosses, which are not this word's. 34:25.
+- πόνος — *work, hard work, toil* first, and *the consequence of toil, pain* only at II: the Greek
+  names the labour, not the soreness. 34:25.
+- τραυματίας — Middle Liddell has nothing; LSJ gives *wounded man* and *corpse of one slain*. 34:27.
+- ὀλιγοστός — *one out of a few*, the superlative form of ὀλίγος. 34:30.
+- βοῦς — feminine in the accusative through the corpus, as at 18:7, 32:8 and 32:16, though the
+  nominative plural βόες is masculine: one lemma, two genders, each fixed by its form. 34:28.
+- One sense each in GEN 34, and so plain text: ἀδελφή `sister`; ἀρσενικός `male`; παρασιωπάω
+  `passed over in silence`; αἰχμαλωτεύω `took prisoner`; and the numerals.
+
+| lemma | headword | chain | used |
+| --- | --- | --- | --- |
+| αἰχμαλωτεύω | `took prisoner` | `took prisoner` | 34:29 |
+| γίνομαι | `you may come to be` | `you may come to be, you may arise, you may be brought into existence` | 34:15 |
+| δίδωμι | `we will give` | `we will give, we will grant, we will provide, we will give over and deliver up` | 34:11, 34:16, 34:21 |
+| διαρπάζω | `tore in pieces` | `tore in pieces, effaced, spoiled and plundered, seized as plunder` | 34:27, 34:29 |
+| εἰρηνικός | `of peace` | `of peace, for peace, peaceful` | 34:21 |
+| εἰσακούω | `you may hearken` | `you may hearken and give ear to, you may hear, you may hearken to and give heed to` | 34:17 |
+| εὑρίσκω | `may I find` | `may I find, may I find out, may I discover` | 34:11 |
+| καταμανθάνω | `to observe well` | `to observe well, to examine closely, to learn thoroughly, to perceive and understand, to discover and find, to consider` | 34:1 |
+| κατανύσσω | `were stabbed` | `were stabbed and gouged, were sorely pricked, were bewildered and stunned` | 34:7 |
+| κατοικέω | `to those inhabiting` | `to those inhabiting, to those occupying, to those dwelling and living, to those settled` | 34:30 |
+| κατοικέω | `we will dwell in` | `we will dwell in, we will settle in, we will colonise, we will inhabit, we will settle and dwell, we will lie and be situate` | 34:15 |
+| κοιμάω | `having fallen asleep` | `having fallen asleep, having gone abed and lain abed, having slept, having fallen asleep and died, having kept watch at night` | 34:7 |
+| λαμβάνω | `we will take` | `we will take, we will receive, we will take hold of and grasp and seize` | 34:16, 34:21 |
+| λυπηρός | `painful` | `painful, distressing, causing sorrow, causing pain and troublesome and vexatious and offensive` | 34:7 |
+| μάχαιρα | `of a large knife` | `of a large knife and dirk, of a knife for cutting up, of a short sword and dagger, of a sabre and bent sword, of a rasor` | 34:26 |
+| μιαίνω | `stained` | `stained, dyed, defiled and sullied, tainted and defiled` | 34:5, 34:13, 34:27 |
+| μιαίνω | `stained` | `stained, dyed, defiled and sullied, tainted and defiled` | 34:5, 34:13, 34:27 |
+| μισητός | `hateful` | `hateful` | 34:30 |
+| νεανίσκος | `the youth` | `the youth` | 34:19 |
+| οἰκέω | `let them inhabit` | `let them inhabit, let them occupy, let them dwell and live, let them be settled` | 34:21 |
+| οἰκέω | `they will inhabit` | `they will inhabit, they will occupy, they will dwell and live, they will be settled` | 34:23 |
+| οἰκέω | `we will inhabit` | `we will inhabit, we will occupy, we will dwell and live, we will be settled` | 34:16 |
+| οἰκία | `in the buildings` | `within, inside of, and by means of the buildings, the houses, the dwellings, the households and domestic establishments, the households and inmates of the house, the houses and families` | 34:29 |
+| παρασιωπάω | `passed over in silence` | `passed over in silence` | 34:5 |
+| παρθένος | `of the maid` | `of the maid, of the maiden, of the virgin, of the girl` | 34:3 |
+| περιτέμνω | `cut themselves` | `cut themselves, clipped themselves round about, pruned themselves, cut themselves off, cut themselves off and hemmed themselves in all round, curtailed themselves of, cut themselves off and intercepted` | 34:24 |
+| περιτέμνω | `they have been cut` | `they have been cut and it stands so, they have been clipped round about, they have been pruned, they have been cut off, they have been cut off and hemmed in all round, they have been curtailed of, they have been cut off and intercepted` | 34:22 |
+| περιτέμνω | `to be cut` | `to be cut, to be clipped round about, to be pruned, to be cut off, to be cut off and hemmed in all round, to be curtailed of, to be cut off and intercepted` | 34:15, 34:17, 34:22 |
+| περιτέμνω | `to be cut` | `to be cut, to be clipped round about, to be pruned, to be cut off, to be cut off and hemmed in all round, to be curtailed of, to be cut off and intercepted` | 34:15, 34:17, 34:22 |
+| πλατύς | `wide` | `wide, broad, flat and level, broad-shouldered, flat, a street, the flat of the hand, salt and brackish` | 34:10, 34:21 |
+| πληθύνω | `make full` | `make full, increase, multiply` | 34:12 |
+| ποιέω | `you have made` | `you have made and it stands so, you have fashioned, you have wrought, you have produced` | 34:30 |
+| προαιρέω | `took away first for himself` | `took away first for himself, removed out of his way, chose before and preferred, preferred to do, purposed and proposed to do` | 34:8 |
+| πόνος | `in work` | `within, inside of, and by means of work, hard work and toil, toil and labour, bodily exertion and exercise, a work and task and business, implements for labour and stock in trade, the consequence of toil and distress and trouble and suffering and pain, anything produced by work` | 34:25 |
+| πόρνη | `to a harlot` | `to a harlot, to a prostitute` | 34:31 |
+| πύλη | `the one wing of a pair of double gates` | `the one wing of a pair of double gates, the gates of a town, the house-door, the nether world and hell, the entrance, the orifice, the entrance into a country` | 34:20, 34:24 |
+| στόμα | `in mouth` | `within, inside of, and by means of mouth, the mouth as the organ of speech, the mouthpiece, the face, the chasm and cleft` | 34:26 |
+| συγκόπτω | `they will break up` | `they will break up, they will cut up, they will thrash soundly and pound well` | 34:30 |
+| συνάγω | `having been brought together` | `having been brought together, having been gathered together and collected and convened, having been joined, having been united, having been received into the house, having been drawn together and narrowed` | 34:30 |
+| ταπεινόω | `lowered` | `lowered, lessened, disparaged, humbled and abased, made lowly and humbled` | 34:2 |
+| τετράπους | `the four-footed` | `the four-footed, the quadrupeds, the four feet in length` | 34:23 |
+| τραυματίας | `the wounded men` | `the wounded men, the corpses of ones slain` | 34:27 |
+| φερνή | `that which is brought by the wife` | `that which is brought by the wife, the dowry and portion, the dower, the bridal gifts` | 34:12 |
+| χράομαι | `they should use` | `they should use, they should have and use, they should indulge, they should experience and suffer and be subject to, they should come to, they should live under, they should make use of, they should treat, they should be intimate with, they should be in need and yearn after, they should have in use and possess` | 34:31 |
+| χρονίζω | `spent time` | `spent time, took time, tarried, lingered, delayed, was slow, remained long` | 34:19 |
+| ἀκροβυστία | `foreskin` | `foreskin, circumcision, uncircumcision, the uncircumcised` | 34:14 |
+| ἀπέρχομαι | `we will go away` | `we will go away, we will depart from, we will depart, we will depart from life` | 34:17 |
+| ἀρέσκω | `made good` | `made good and made up, made amends, pleased and satisfied and flattered` | 34:18 |
+| ἀριθμός | `in number` | `within, inside of, and by means of number, amount and sum and extent, mere number and quantity, a numbering and counting, the science of numbers and numeration and arithmetic` | 34:30 |
+| ἀσφαλῶς | `in safety` | `in safety, with certainty, not liable to fall, immoveably, steadfastly, firmly, unfailingly, trustily, surely, certainly, safely and securely` | 34:25 |
+| ἀσχήμων | `misshapen` | `misshapen, unseemly, shameful, indecorous` | 34:7 |
+| ἄνθρωπος | `to a man` | `to a man, to a human being, to mankind` | 34:14 |
+| ἄρχων | `the ruler` | `the ruler, the commander, the chief, the captain, the chief magistrate` | 34:2 |
+| ἐγκτάομαι | `acquire possessions in` | `acquire possessions in` | 34:10 |
+| ἐγχώριος | `of the dwellers in the land` | `of the dwellers in the land, of the inhabitants, of the ones in and of the country, of the ones according to the custom of the country` | 34:1 |
+| ἐκπορεύομαι | `the ones going out` | `the ones going out, the ones going out of, the ones marching out, the ones coming forth` | 34:24 |
+| ἐκτρίβω | `I will be rubbed out` | `I will be rubbed out, I will be rubbed hard, I will be destroyed root and branch, I will be rubbed constantly and worn out` | 34:30 |
+| ἐμπορεύομαι | `let them travel` | `let them travel, let them travel for traffic and be merchants and trade and traffic, let them import, let them make gain of and overreach` | 34:21 |
+| ἐμπορεύομαι | `travel` | `travel, travel for traffic and be merchants and trade and traffic, import, make gain of and overreach` | 34:10 |
+| ἐν, with αὐτός | `in her` | `within, inside of, and by means of her` | 34:10 |
+| ἐν, with σύ | `in you` | `within, inside of, and by means of you` | 34:15 |
+| ἐν, with ἡμεῖς | `in us` | `within, inside of, and by means of us` | 34:10 |
+| ἐπιγαμβρεύω | `marry as the next of kin` | `marry as the next of kin` | 34:9 |
+| ἔγκειμαι | `was lying in` | `was lying in, was wrapped in, was involved in, was pressing upon, was urgent and insisting, was devoted to` | 34:19 |
+| ἔνδοξος | `most held in esteem` | `most held in esteem, most held in honour and of the highest repute, most notable` | 34:19 |
+| ὀλιγοστός | `one out of a few` | `one out of a few, the smallest space of time` | 34:30 |
+| ὁμοιόω | `let us be made like` | `let us be made like, let us be likened and compared, let us become like, let us be like` | 34:23 |
+| ὁμοιόω | `they will be made like` | `they will be made like, they will be likened and compared, they will become like, they will be like` | 34:22 |
+| ὁμοιόω | `we will be made like` | `we will be made like, we will be likened and compared, we will become like, we will be like` | 34:15 |
+| ὄνειδος | `reproach` | `reproach, censure, blame, disgrace, matter of reproach` | 34:14 |
+| ὄνος | `the asses` | `the asses, the beasts of burden, the windlasses and pulleys, the upper millstones, the beakers and wine-cups` | 34:28 |
 
 ### Words new in GEN 33
 
@@ -4895,6 +5000,10 @@ Greek makes it a woman's, the mother of Eliezer, whom it calls Δαμασκὸς
 | Σκηνάς | Skēnas | Tents | `(Σκηναί, "tents", the Greek of Hebrew Sukkôt, Succoth, the booths)` |
 | Σικιμων | Sikimōn | Shechem | `(Σικιμα, from Hebrew Šĕkem, "shoulder")` |
 | Εμμωρ | Emmōr | Hamor | `(Εμμωρ, from Hebrew Ḥămôr, "ass")` |
+
+| Χορραῖος | Chorraios | Horite | `(Χορραῖος, from Hebrew Ḥōrî, usually connected with ḥōr, "hole, cave")` |
+| Χαναναίοις | Chananaiois | Canaanites | `(Χαναναῖος, from Hebrew Kĕnaʿănî, the people of Kĕnaʿan, Canaan)` |
+| Φερεζαίοις | Pherezaiois | Perizzites | `(Φερεζαῖος, from Hebrew Pĕrizzî, usually connected with pĕrāzî, "villager, dweller in open country")` |
 <!-- name rows above -->
 
 Σύγχυσις translates the name where 10:10 gave the city its Greek name, Βαβυλών; as with Ζωή at

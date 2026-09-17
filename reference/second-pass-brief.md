@@ -324,6 +324,17 @@ plural gender the second pass gave it, since the name is declined Greek and not 
 module's own reading settled seven places where the first pass had the wrong case: Ιωσηφ at 33:7, τὰς
 εὐλογίας at 33:11, οἰκίας at 33:17, Συχεμ at 33:19, and Σηιρ and Σαλημ after εἰς.
 
+### What it found in Genesis 34
+
+Twenty-one disagreements over 704 words. The second pass was right about seven of them and they
+were taken: ὑπάρχοντα is nominative, not accusative; ἀρσενικόν is accusative at 34:15, 34:22 and
+34:25, where 17:10 had it nominative; and ὅσα is the subject of ἦν four times over, at 34:28 and
+34:29. The rest went to the corpus — καί stays C- where the second pass read it adverbially, μόνον
+stays the neuter adjective as MorphGNT files it, ὅτε stays C-, βόας stays feminine as at 18:7, and
+κατανύσσω keeps the active form LSJ heads. The module's own reading then settled twelve more: the
+imperatives at 34:9 and 34:10, τὴν παῖδα feminine at 34:12, ἐν τούτῳ neuter three times, and τῶν
+ἐγχωρίων masculine at 34:1.
+
 ## The brief
 
 Copy everything below the rule into a new agent. Replace `<BOOK NAME>`, `<CHAPTER>`,

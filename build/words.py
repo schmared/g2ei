@@ -252,6 +252,9 @@ LSJ = {
     # LXX Ge. 33.14", so the senses are Middle Liddell's πορεία.
     "πόρευσις": ["a walking, mode of walking", "a going, a journey, way, passage", "a march",
                  "a crossing of water, passage"],
+    # GEN 34. No Middle Liddell entry. LSJ (eng22) gives τραυματίας two senses, "wounded man"
+    # and "corpse of one slain".
+    "τραυματίας": ["wounded man", "corpse of one slain"],
 }
 
 # New Testament books: MorphGNT file and its book number.
@@ -889,6 +892,20 @@ NOT_SENSES = {
     "loxeu/w": {"brought to birth"},             # a piece of an example
     "sxolh/": {"leisure", "quiet", "time", "a fit time"},  # pieces of examples
     "e)pikale/w": {"to invoke", "to watch over"},  # a repetition, and a piece of an example
+    # GEN 34
+    "e)gxw/rios": {"in"},                        # the first half of "in or of the country"
+    "miai/nw": {"violaverit ostro si quis ebur)", "to incur such defilement"},  # Virgil, and the passive
+    "luphro/s": {"painfully, so as to cause pain", "painful"},  # the adverb, and "it is painful"
+    "proaire/w": {"sooner than", "to prefer"},   # half of "before or sooner than", and a repetition
+    "platu/s": {"broad", "large", "widespread"},  # pieces of "broad herds, i. e. large or widespread"
+    "o(moio/w": {"to make", "suitable"},          # pieces of "to make their feelings suitable"
+    "po/nos": {"the toil", "battle"},             # pieces of the Homeric examples
+    "a)sfalh/s": {"safe", "safety", "it is safe", "a convincing"},  # pieces of examples
+    "a)riqmo/s": {"in", "sum", "among", "account", "a mere set", "a mere lot", "a muster"},  # pieces of examples
+    "diarpa/zw": {"to seize", "plunder"},         # the two halves of "to seize as plunder"
+    "ei)rhniko/s": {"of", "peaceably"},           # half of "of or for peace", and the adverb
+    "o)ligosto/s": {"the smallest space"},        # from "the smallest space of Time"
+    "tetra/pous": {"four feet"},                  # from "four feet in length"
 }
 
 # An entry that divides its senses by tense and voice, so that which of them belong to a
@@ -956,6 +973,7 @@ SPELLING = {
     "ei)sporeu/omai": "ei)sporeu/w",  # likewise
     "qumo/omai": "qumo/w",          # likewise
     "e)pimelw=s": "e)pimelh/s",     # the adverb, filed inside the adjective's entry
+    "a)sfalw=s": "a)sfalh/s",       # likewise, and the entry glosses it "in all senses of the adj."
     "e)nanti/on": "e)nanti/os",     # cross-reference; "adverb v. ἐναντίος" glosses nothing
     "nossia/": "neossia/",          # the contracted spelling; the entry is headed with νεοσσιά
     "kata/gaios": "kata/geios",     # cross-reference; "ionic for κατάγειος" glosses nothing
