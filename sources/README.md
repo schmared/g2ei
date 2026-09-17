@@ -68,7 +68,9 @@ curl -sL --create-dirs -o sources/lsj/grc.lsj.perseus-eng1.xml https://raw.githu
 | `eng1` | the whole of alpha, `*a` to `ἄωτος` (42 MB) | ἀκατασκεύαστος (Gen 1:2), ἁγιάζω (Gen 2:3), ἀσφαλτόω (Gen 6:14), ἀνάστημα (Gen 7:23), ἁλυκός, ἀποσκευή (Gen 14), ἀορασία (Gen 19:11), ἀπογαλακτίζω, ἀρχιστράτηγος (Gen 21), ἀποσάττω, ἅβρα (Gen 24) |
 | `eng2` | beta (5 MB) | βούτυρον (Gen 18:8) |
 | `eng3` | gamma (4 MB) | γελοιάζω (Gen 19:14), γεώργιον (Gen 26:14) |
-| `eng4` | delta (15 MB) | διαναπαύω (Gen 5:29), διώροφος (Gen 6:16), διχοτόμημα (Gen 15:11), δίδραχμον (Gen 20:14), δόμα (Gen 25:6) |
+| `eng4` | delta (15 MB) | διαναπαύω (Gen 5:29), διώροφος (Gen 6:16), διχοτόμημα (Gen 15:11), δίδραχμον (Gen 20:14), δόμα (Gen 25:6), διάλευκος (Gen 30:32) |
+| `eng12` | lambda (7 MB) | λεπίζω, λέπισμα (Gen 30:37) |
+| `eng20` | rho (2 MB) | ῥαντός (Gen 30:32) |
 | `eng5` | epsilon (40 MB) | ἑβδομηκοντάκις (Gen 4:24), εὐαρεστέω (Gen 5:22), ἑξακοσιοστός (Gen 7:11), ἐλαττονόω (Gen 8:3), ἐνισχύω, ἐγγίζω, ἐτασμός (Gen 12), ἑκατονταέτης (Gen 17:17), ἐπαύριον, εἰσσπάομαι (Gen 19), ἐνώτιον (Gen 24:22), ἑκατοστεύω (Gen 26:12), ἐνυπνιάζομαι (Gen 28:12) |
 | `eng11` | kappa (23 MB) | κατάσχεσις (Gen 17:8), κἀγώ (Gen 20:6), κατανύσσω (Gen 27:38) |
 | `eng13` | mu (12 MB) | μώλωψ (Gen 4:23), μοσχάριον (Gen 18:7), μήτρα (Gen 20:18), μνημεῖον (Gen 23:6) |
@@ -89,7 +91,7 @@ curl -sL -r 0-199999 https://raw.githubusercontent.com/PerseusDL/lexica/master/C
 ```
 
 `eng2` opens at beta, `eng3` gamma, `eng4` delta, `eng5` epsilon, `eng11` kappa, `eng13` mu, `eng14` nu, `eng16` omicron, `eng20` rho,
-`eng21` sigma, `eng22` tau.
+`eng12` lambda, `eng20` rho, `eng21` sigma, `eng22` tau.
 
 Entries are `<entryFree key="…">` in Beta Code, with `<tr>` for each translation, as in
 Middle Liddell. Some entries define a word only by cross-reference (`ἁγιάζω` reads

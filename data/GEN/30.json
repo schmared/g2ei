@@ -1,0 +1,1276 @@
+[
+  {
+    "ref": "GEN 30:1",
+    "greek": "Ἰδοῦσα δὲ Ραχηλ ὅτι οὐ τέτοκεν τῷ Ιακωβ, καὶ ἐζήλωσεν Ραχηλ τὴν ἀδελφὴν αὐτῆς καὶ εἶπεν τῷ Ιακωβ Δός μοι τέκνα· εἰ δὲ μή, τελευτήσω ἐγώ.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 45",
+    "speech": ["Δός"],
+    "hint": "Rachel, seeing that she had borne Jacob nothing, envied her sister and said to Jacob: Give me children; if not, I will die.",
+    "notes": [
+      {
+        "lemma": "ἐζήλωσεν",
+        "flag": null,
+        "text": "ζηλόω, *to be jealous of*, as at 26:14 of the Philistines."
+      },
+      {
+        "lemma": "Δός",
+        "flag": null,
+        "text": "Capitalised because it opens direct speech, as Rahlfs prints it; listed in `speech` so the checks do not take it for a proper name."
+      }
+    ],
+    "reading": "[[having seen|having seen, having perceived, having beheld, having looked at]] [[but|but, however, whereas, on the other hand]], [[name:Ραχηλ]] [[that|that, seeing that, although, for that, because, inasmuch as]] not [[has brought into the world|has brought into the world and it stands so, has brought forth and it stands so, has borne and it stands so, has produced and it stands so]] to [[name:Ιακωβ]], and [[was jealous of|was jealous of, envied, vied with and emulated and rivalled, was zealous after and strove after]] [[name:Ραχηλ]] the sister of her and [[said|said, spoke, declared, called by name, told]] to [[name:Ιακωβ]] [[give|give, grant, provide, give over and deliver up]] to me [[children|children, sons, daughters, grandchildren, boys and youths and lads, girls and maidens, slaves and servants and men and maids]]; if [[but|but, however, whereas, on the other hand]], not, [[I will finish|I will finish, I will accomplish, I will end my life and die, I will end and come to an end]] I.",
+    "names": [
+      {
+        "greek": "Ραχηλ",
+        "unanchored": "Rachēl",
+        "anchored": "Rachel",
+        "gloss": "(Ραχηλ, from Hebrew Rāḥēl, \"ewe\")"
+      },
+      {
+        "greek": "Ιακωβ",
+        "unanchored": "Iakōb",
+        "anchored": "Jacob",
+        "gloss": "(Ιακωβ, from Hebrew Yaʿăqōb, which the Hebrew of 25:26 hears in ʿāqēb, \"heel\")"
+      }
+    ]
+  },
+  {
+    "ref": "GEN 30:2",
+    "greek": "ἐθυμώθη δὲ Ιακωβ τῇ Ραχηλ καὶ εἶπεν αὐτῇ Μὴ ἀντὶ θεοῦ ἐγώ εἰμι, ὃς ἐστέρησέν σε καρπὸν κοιλίας;",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 45",
+    "speech": ["Μὴ"],
+    "hint": "Jacob was angry with Rachel and said to her: Am I in God's place, who has kept the fruit of your womb from you?",
+    "notes": [
+      {
+        "lemma": "ἀντὶ θεοῦ",
+        "flag": null,
+        "text": "θεός without the article, the chain of 1:2; ἀντί with the genitive, *over against*."
+      },
+      {
+        "lemma": "θεοῦ",
+        "flag": "variant",
+        "text": "[[flag]] Codex Alexandrinus puts the article τοῦ before it."
+      },
+      {
+        "lemma": "Μὴ",
+        "flag": null,
+        "text": "Capitalised because it opens direct speech, as Rahlfs prints it; listed in `speech` so the checks do not take it for a proper name."
+      }
+    ],
+    "reading": "[[was made angry|was made angry, was provoked, was wroth, was angry, was wild and restive, vented fury, was angry with]] [[but|but, however, whereas, on the other hand]], [[name:Ιακωβ]] to [[name:Ραχηλ]] and [[said|said, spoke, declared, called by name, told]] to her not [[over against|over against, opposite, instead and in the place of, as good as and equal to, at the price of and for, for the sake of, set against and compared with]] [[of God|God's own, divine in character]] I am, who [[deprived|deprived, bereaved, robbed of, took away]] you [[fruit|fruit, produce, returns, profits, result]] [[of belly|of belly, of the paunch, of the paunch stuffed with mince-meat and black-pudding and sausage, of the womb]];",
+    "names": [
+      {
+        "greek": "Ιακωβ",
+        "unanchored": "Iakōb",
+        "anchored": "Jacob",
+        "bare": true
+      },
+      {
+        "greek": "Ραχηλ",
+        "unanchored": "Rachēl",
+        "anchored": "Rachel",
+        "bare": true
+      }
+    ]
+  },
+  {
+    "ref": "GEN 30:3",
+    "greek": "εἶπεν δὲ Ραχηλ τῷ Ιακωβ Ἰδοὺ ἡ παιδίσκη μου Βαλλα· εἴσελθε πρὸς αὐτήν, καὶ τέξεται ἐπὶ τῶν γονάτων μου, καὶ τεκνοποιήσομαι κἀγὼ ἐξ αὐτῆς.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 45",
+    "speech": ["Ἰδοὺ"],
+    "hint": "Rachel said to Jacob: Here is my slave-girl Bilhah; go in to her, and she will bear on my knees, and I too will have children by her.",
+    "notes": [
+      {
+        "lemma": "τέξεται ἐπὶ τῶν γονάτων μου",
+        "flag": null,
+        "text": "The adoption gesture: the child is born onto the knees of the one who claims it."
+      },
+      {
+        "lemma": "καὶ τεκνοποιήσομαι",
+        "flag": "variant",
+        "text": "[[flag]] Codex Alexandrinus reads ἵνα τεκνοποιήσωμαι, *that I may have children*."
+      },
+      {
+        "lemma": "Ἰδοὺ",
+        "flag": null,
+        "text": "Capitalised because it opens direct speech, as Rahlfs prints it; listed in `speech` so the checks do not take it for a proper name."
+      }
+    ],
+    "reading": "[[said|said, spoke, declared, called by name, told]] [[but|but, however, whereas, on the other hand]], [[name:Ραχηλ]] to [[name:Ιακωβ]] [[lo|lo, behold, see there]] the [[young girl|young girl, maiden, young slave, courtesan]] of me [[name:Βαλλα]]; [[go in|go in, go into and enter, come into, come in, come upon]] [[toward|toward, facing, oriented to, in living motion and address toward]] her, and [[will bring into the world|will bring into the world, will bear, will bring forth, will beget, will produce and yield]] [[upon|upon, on, in, at, near]] of the knees of me, and I will bear children and I [[out of|out of, forth from, from]] of her.",
+    "names": [
+      {
+        "greek": "Ραχηλ",
+        "unanchored": "Rachēl",
+        "anchored": "Rachel",
+        "bare": true
+      },
+      {
+        "greek": "Ιακωβ",
+        "unanchored": "Iakōb",
+        "anchored": "Jacob",
+        "bare": true
+      },
+      {
+        "greek": "Βαλλα",
+        "unanchored": "Balla",
+        "anchored": "Bilhah",
+        "gloss": "(Βαλλα, from Hebrew Bilhâ, of uncertain meaning)"
+      }
+    ]
+  },
+  {
+    "ref": "GEN 30:4",
+    "greek": "καὶ ἔδωκεν αὐτῷ Βαλλαν τὴν παιδίσκην αὐτῆς αὐτῷ γυναῖκα· εἰσῆλθεν δὲ πρὸς αὐτὴν Ιακωβ.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 45",
+    "hint": "And she gave him Bilhah her slave-girl as wife; and Jacob went in to her.",
+    "notes": [
+      {
+        "lemma": "εἰσῆλθεν δέ",
+        "flag": "variant",
+        "text": "[[flag]] Codex Alexandrinus reads καὶ εἰσῆλθεν."
+      }
+    ],
+    "reading": "and [[gave|gave, granted, provided, gave over and delivered up]] to him [[name:Βαλλαν]] the [[young girl|young girl, maiden, young slave, courtesan]] of her to him [[woman|woman, mistress and lady, wife and spouse, mortal woman]]; [[went in|went in, went into and entered, came into, came in, came upon]] [[but|but, however, whereas, on the other hand]], [[toward|toward, facing, oriented to, in living motion and address toward]] her [[name:Ιακωβ]].",
+    "names": [
+      {
+        "greek": "Βαλλαν",
+        "unanchored": "Ballan",
+        "anchored": "Bilhah",
+        "bare": true
+      },
+      {
+        "greek": "Ιακωβ",
+        "unanchored": "Iakōb",
+        "anchored": "Jacob",
+        "bare": true
+      }
+    ]
+  },
+  {
+    "ref": "GEN 30:5",
+    "greek": "καὶ συνέλαβεν Βαλλα ἡ παιδίσκη Ραχηλ καὶ ἔτεκεν τῷ Ιακωβ υἱόν.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 45",
+    "hint": "And Bilhah, Rachel's slave-girl, conceived and bore Jacob a son.",
+    "notes": [
+      {
+        "lemma": "συνέλαβεν",
+        "flag": null,
+        "text": "συλλαμβάνω in the active, *to collect*, of conceiving, as through GEN 29."
+      }
+    ],
+    "reading": "and [[collected|collected, gathered together, took up, laid hold of and seized, comprehended, conceived]] [[name:Βαλλα]] the [[young girl|young girl, maiden, young slave, courtesan]] [[name:Ραχηλ]] and [[brought into the world|brought into the world, brought forth, bore, produced]] to [[name:Ιακωβ]] son.",
+    "names": [
+      {
+        "greek": "Βαλλα",
+        "unanchored": "Balla",
+        "anchored": "Bilhah",
+        "bare": true
+      },
+      {
+        "greek": "Ραχηλ",
+        "unanchored": "Rachēl",
+        "anchored": "Rachel",
+        "bare": true
+      },
+      {
+        "greek": "Ιακωβ",
+        "unanchored": "Iakōb",
+        "anchored": "Jacob",
+        "bare": true
+      }
+    ]
+  },
+  {
+    "ref": "GEN 30:6",
+    "greek": "καὶ εἶπεν Ραχηλ Ἔκρινέν μοι ὁ θεὸς καὶ ἐπήκουσεν τῆς φωνῆς μου καὶ ἔδωκέν μοι υἱόν· διὰ τοῦτο ἐκάλεσεν τὸ ὄνομα αὐτοῦ Δαν.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 45",
+    "speech": ["Ἔκρινέν"],
+    "hint": "And Rachel said: God judged for me and listened to my voice and gave me a son; therefore she called his name Dan.",
+    "notes": [
+      {
+        "lemma": "Δαν",
+        "flag": null,
+        "text": "The Hebrew hears the name in *dîn*, *he judged*, which the Greek keeps in ἔκρινεν."
+      },
+      {
+        "lemma": "Ἔκρινέν",
+        "flag": null,
+        "text": "Capitalised because it opens direct speech, as Rahlfs prints it; listed in `speech` so the checks do not take it for a proper name."
+      }
+    ],
+    "reading": "and [[said|said, spoke, declared, called by name, told]] [[name:Ραχηλ]] [[separated|separated, put asunder and distinguished, picked out and chose, decided and judged, determined and gave sentence, questioned and disputed]] to me [[the God|him who is God definitively, the one the article marks out, the known and the only]] and [[listened to|listened to and hearkened to and heard, gave ear and hearkened, obeyed]] [[of the sound|of the sound, of the tone, of the sound of the voice, of the cry, of the faculty of speech and discourse, of the language, of the saying]] of me and [[gave|gave, granted, provided, gave over and delivered up]] to me son; [[through|through, throughout and over, during, by aid of and by means of, by reason of, because of, for the sake of]] [[this|this, the nearer, what follows]] [[called|called, summoned, called to himself, invited]] [[the name|the name, the fame, the mere name, the phrase and expression]] of him [[name:Δαν]].",
+    "names": [
+      {
+        "greek": "Ραχηλ",
+        "unanchored": "Rachēl",
+        "anchored": "Rachel",
+        "bare": true
+      },
+      {
+        "greek": "Δαν",
+        "unanchored": "Dan",
+        "anchored": "Dan",
+        "gloss": "(Δαν, from Hebrew Dān, which the Hebrew of this verse hears in dîn, \"he judged\")"
+      }
+    ]
+  },
+  {
+    "ref": "GEN 30:7",
+    "greek": "καὶ συνέλαβεν ἔτι Βαλλα ἡ παιδίσκη Ραχηλ καὶ ἔτεκεν υἱὸν δεύτερον τῷ Ιακωβ.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 46",
+    "hint": "And Bilhah, Rachel's slave-girl, conceived again and bore Jacob a second son.",
+    "notes": [
+      {
+        "lemma": "δεύτερον",
+        "flag": null,
+        "text": "The adjective agrees with υἱόν, masculine, as at 29:33."
+      }
+    ],
+    "reading": "and [[collected|collected, gathered together, took up, laid hold of and seized, comprehended, conceived]] [[yet|yet, as yet, still, further, besides, moreover]] [[name:Βαλλα]] the [[young girl|young girl, maiden, young slave, courtesan]] [[name:Ραχηλ]] and [[brought into the world|brought into the world, brought forth, bore, produced]] son [[second|second, next, inferior]] to [[name:Ιακωβ]].",
+    "names": [
+      {
+        "greek": "Βαλλα",
+        "unanchored": "Balla",
+        "anchored": "Bilhah",
+        "bare": true
+      },
+      {
+        "greek": "Ραχηλ",
+        "unanchored": "Rachēl",
+        "anchored": "Rachel",
+        "bare": true
+      },
+      {
+        "greek": "Ιακωβ",
+        "unanchored": "Iakōb",
+        "anchored": "Jacob",
+        "bare": true
+      }
+    ]
+  },
+  {
+    "ref": "GEN 30:8",
+    "greek": "καὶ εἶπεν Ραχηλ Συνελάβετό μοι ὁ θεός, καὶ συνανεστράφην τῇ ἀδελφῇ μου καὶ ἠδυνάσθην· καὶ ἐκάλεσεν τὸ ὄνομα αὐτοῦ Νεφθαλι.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 46",
+    "speech": ["Συνελάβετό"],
+    "hint": "And Rachel said: God took my part, and I was turned about together with my sister and prevailed; and she called his name Naphtali.",
+    "notes": [
+      {
+        "lemma": "Συνελάβετό μοι",
+        "flag": null,
+        "text": "The middle of συλλαμβάνω, with the dative: Middle Liddell's Mid. is *to lay hold of*, and its sense V, *to take part with, assist*, is what the dative asks."
+      },
+      {
+        "lemma": "Νεφθαλι",
+        "flag": null,
+        "text": "The Hebrew hears the name in *niptaltî*, *I have wrestled*, which the Greek gives as συνανεστράφην."
+      },
+      {
+        "lemma": "Συνελάβετό",
+        "flag": "variant",
+        "text": "[[flag]] Codex Alexandrinus reads συνεβάλετο, *threw together*."
+      },
+      {
+        "lemma": "Συνελάβετό",
+        "flag": null,
+        "text": "Capitalised because it opens direct speech, as Rahlfs prints it; listed in `speech` so the checks do not take it for a proper name."
+      }
+    ],
+    "reading": "and [[said|said, spoke, declared, called by name, told]] [[name:Ραχηλ]] [[laid hold of for himself|laid hold of for himself, seized for himself, took part with and assisted]] to me [[the God|him who is God definitively, the one the article marks out, the known and the only]], and [[was turned back together|was turned back together, lived along with]] to the sister of me and [[I was able|I was able, I was capable, I was strong enough, I dared and bore, I passed for, I was worth, I was equivalent to, I signified and meant]]; and [[called|called, summoned, called to himself, invited]] [[the name|the name, the fame, the mere name, the phrase and expression]] of him [[name:Νεφθαλι]].",
+    "names": [
+      {
+        "greek": "Ραχηλ",
+        "unanchored": "Rachēl",
+        "anchored": "Rachel",
+        "bare": true
+      },
+      {
+        "greek": "Νεφθαλι",
+        "unanchored": "Nephthali",
+        "anchored": "Naphtali",
+        "gloss": "(Νεφθαλι, from Hebrew Naptālî, which the Hebrew of this verse hears in niptaltî, \"I have wrestled\")"
+      }
+    ]
+  },
+  {
+    "ref": "GEN 30:9",
+    "greek": "Εἶδεν δὲ Λεια ὅτι ἔστη τοῦ τίκτειν, καὶ ἔλαβεν Ζελφαν τὴν παιδίσκην αὐτῆς καὶ ἔδωκεν αὐτὴν τῷ Ιακωβ γυναῖκα.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 46",
+    "hint": "Leah saw that she had stopped bearing, and took Zilpah her slave-girl and gave her to Jacob as wife.",
+    "notes": [
+      {
+        "lemma": "ἔστη τοῦ τίκτειν",
+        "flag": null,
+        "text": "The same phrase as 29:35, ἵστημι in the intransitive aorist with the articular infinitive."
+      }
+    ],
+    "reading": "[[saw|saw, perceived, beheld, looked at]] [[but|but, however, whereas, on the other hand]], [[name:Λεια]] [[that|that, seeing that, although, for that, because, inasmuch as]] [[was set|was set, was placed, stood, was there, was in a state and condition, lay and was situated, stood still and stopped and halted, stood idle, stopped and ceased and was at rest, stood firm, stood up and rose up, arose and began]] [[to bring into the world|to bring into the world, to bring forth, to bear, to produce]], and [[took|took, received, took hold of and grasped and seized]] [[name:Ζελφαν]] the [[young girl|young girl, maiden, young slave, courtesan]] of her and [[gave|gave, granted, provided, gave over and delivered up]] her to [[name:Ιακωβ]] [[woman|woman, mistress and lady, wife and spouse, mortal woman]].",
+    "names": [
+      {
+        "greek": "Λεια",
+        "unanchored": "Leia",
+        "anchored": "Leah",
+        "gloss": "(Λεια, from Hebrew Lēʾâ, of uncertain meaning, perhaps \"wild cow\")"
+      },
+      {
+        "greek": "Ζελφαν",
+        "unanchored": "Zelphan",
+        "anchored": "Zilpah",
+        "gloss": "(Ζελφα, from Hebrew Zilpâ, of uncertain meaning)"
+      },
+      {
+        "greek": "Ιακωβ",
+        "unanchored": "Iakōb",
+        "anchored": "Jacob",
+        "bare": true
+      }
+    ]
+  },
+  {
+    "ref": "GEN 30:10",
+    "greek": "εἰσῆλθεν δὲ πρὸς αὐτὴν Ιακωβ, καὶ συνέλαβεν Ζελφα ἡ παιδίσκη Λειας καὶ ἔτεκεν τῷ Ιακωβ υἱόν.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 46",
+    "hint": "And Jacob went in to her, and Zilpah, Leah's slave-girl, conceived and bore Jacob a son.",
+    "notes": [
+      {
+        "lemma": "Ζελφα",
+        "flag": null,
+        "text": "The name stands in the nominative here and in the accusative at 30:9, one name in two forms."
+      }
+    ],
+    "reading": "[[went in|went in, went into and entered, came into, came in, came upon]] [[but|but, however, whereas, on the other hand]], [[toward|toward, facing, oriented to, in living motion and address toward]] her [[name:Ιακωβ]], and [[collected|collected, gathered together, took up, laid hold of and seized, comprehended, conceived]] [[name:Ζελφα]] the [[young girl|young girl, maiden, young slave, courtesan]] [[name:Λειας]] and [[brought into the world|brought into the world, brought forth, bore, produced]] to [[name:Ιακωβ]] son.",
+    "names": [
+      {
+        "greek": "Ιακωβ",
+        "unanchored": "Iakōb",
+        "anchored": "Jacob",
+        "bare": true
+      },
+      {
+        "greek": "Ζελφα",
+        "unanchored": "Zelpha",
+        "anchored": "Zilpah",
+        "bare": true
+      },
+      {
+        "greek": "Λειας",
+        "unanchored": "Leias",
+        "anchored": "Leah",
+        "bare": true
+      }
+    ]
+  },
+  {
+    "ref": "GEN 30:11",
+    "greek": "καὶ εἶπεν Λεια Ἐν τύχῃ· καὶ ἐπωνόμασεν τὸ ὄνομα αὐτοῦ Γαδ.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 46",
+    "speech": ["Ἐν"],
+    "hint": "And Leah said: With luck; and she named his name Gad.",
+    "notes": [
+      {
+        "lemma": "Ἐν τύχῃ",
+        "flag": null,
+        "text": "The Hebrew is *bāgād*, read either as *good fortune has come* or as *with fortune*; the Greek takes the second."
+      },
+      {
+        "lemma": "Ἐν",
+        "flag": null,
+        "text": "Capitalised because it opens direct speech, as Rahlfs prints it; listed in `speech` so the checks do not take it for a proper name."
+      }
+    ],
+    "reading": "and [[said|said, spoke, declared, called by name, told]] [[name:Λεια]] [[in the good which man obtains|within, inside of, and by means of the good which man obtains, the favour of the gods and good fortune and luck and success, fortune and chance, ill fortune]]; and [[named|named, to be named, of name and note, notable, famous]] [[the name|the name, the fame, the mere name, the phrase and expression]] of him [[name:Γαδ]].",
+    "names": [
+      {
+        "greek": "Λεια",
+        "unanchored": "Leia",
+        "anchored": "Leah",
+        "bare": true
+      },
+      {
+        "greek": "Γαδ",
+        "unanchored": "Gad",
+        "anchored": "Gad",
+        "gloss": "(Γαδ, from Hebrew Gād, \"fortune\", which the Greek keeps in ἐν τύχῃ)"
+      }
+    ]
+  },
+  {
+    "ref": "GEN 30:12",
+    "greek": "καὶ συνέλαβεν Ζελφα ἡ παιδίσκη Λειας καὶ ἔτεκεν ἔτι τῷ Ιακωβ υἱὸν δεύτερον.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 46",
+    "hint": "And Zilpah, Leah's slave-girl, conceived and bore Jacob a second son.",
+    "notes": [
+      {
+        "lemma": "συνέλαβεν",
+        "flag": "variant",
+        "text": "[[flag]] Codex Alexandrinus adds ἔτι, *again*."
+      }
+    ],
+    "reading": "and [[collected|collected, gathered together, took up, laid hold of and seized, comprehended, conceived]] [[name:Ζελφα]] the [[young girl|young girl, maiden, young slave, courtesan]] [[name:Λειας]] and [[brought into the world|brought into the world, brought forth, bore, produced]] [[yet|yet, as yet, still, further, besides, moreover]] to [[name:Ιακωβ]] son [[second|second, next, inferior]].",
+    "names": [
+      {
+        "greek": "Ζελφα",
+        "unanchored": "Zelpha",
+        "anchored": "Zilpah",
+        "bare": true
+      },
+      {
+        "greek": "Λειας",
+        "unanchored": "Leias",
+        "anchored": "Leah",
+        "bare": true
+      },
+      {
+        "greek": "Ιακωβ",
+        "unanchored": "Iakōb",
+        "anchored": "Jacob",
+        "bare": true
+      }
+    ]
+  },
+  {
+    "ref": "GEN 30:13",
+    "greek": "καὶ εἶπεν Λεια Μακαρία ἐγώ, ὅτι μακαρίζουσίν με αἱ γυναῖκες· καὶ ἐκάλεσεν τὸ ὄνομα αὐτοῦ Ασηρ.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 46",
+    "speech": ["Μακαρία"],
+    "hint": "And Leah said: I am happy, for the women call me happy; and she called his name Asher.",
+    "notes": [
+      {
+        "lemma": "Ασηρ",
+        "flag": null,
+        "text": "The Hebrew hears the name in *ʾōšer*, *happiness*, which the Greek keeps in μακαρία and μακαρίζουσιν."
+      },
+      {
+        "lemma": "αἱ γυναῖκες",
+        "flag": "variant",
+        "text": "[[flag]] Codex Alexandrinus puts πᾶσαι, *all*, before it."
+      },
+      {
+        "lemma": "Μακαρία",
+        "flag": null,
+        "text": "Capitalised because it opens direct speech, as Rahlfs prints it; listed in `speech` so the checks do not take it for a proper name."
+      }
+    ],
+    "reading": "and [[said|said, spoke, declared, called by name, told]] [[name:Λεια]] [[blessed|blessed, happy]] I, [[that|that, seeing that, although, for that, because, inasmuch as]] [[they bless|they bless, they deem happy, they pronounce happy]] me the [[women|women, mistresses and ladies, wives and spouses, mortal women]]; and [[called|called, summoned, called to himself, invited]] [[the name|the name, the fame, the mere name, the phrase and expression]] of him [[name:Ασηρ]].",
+    "names": [
+      {
+        "greek": "Λεια",
+        "unanchored": "Leia",
+        "anchored": "Leah",
+        "bare": true
+      },
+      {
+        "greek": "Ασηρ",
+        "unanchored": "Asēr",
+        "anchored": "Asher",
+        "gloss": "(Ασηρ, from Hebrew ʾĀšēr, \"happy\", which the Greek keeps in μακαρία)"
+      }
+    ]
+  },
+  {
+    "ref": "GEN 30:14",
+    "greek": "Ἐπορεύθη δὲ Ρουβην ἐν ἡμέραις θερισμοῦ πυρῶν καὶ εὗρεν μῆλα μανδραγόρου ἐν τῷ ἀγρῷ καὶ ἤνεγκεν αὐτὰ πρὸς Λειαν τὴν μητέρα αὐτοῦ. εἶπεν δὲ Ραχηλ τῇ Λεια Δός μοι τῶν μανδραγορῶν τοῦ υἱοῦ σου.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 46",
+    "speech": ["Δός"],
+    "hint": "Reuben went in the days of the wheat harvest and found mandrake fruits in the field and brought them to Leah his mother. Rachel said to Leah: Give me some of your son's mandrakes.",
+    "notes": [
+      {
+        "lemma": "μῆλα",
+        "flag": null,
+        "text": "Two entries under the one spelling: μῆλον is *a sheep or goat* and also the fruit. Perseus's markup buries *an apple* inside the Latin, so the entry's first English translation is *tree-fruit*."
+      },
+      {
+        "lemma": "Δός",
+        "flag": null,
+        "text": "Capitalised because it opens direct speech, as Rahlfs prints it; listed in `speech` so the checks do not take it for a proper name."
+      }
+    ],
+    "reading": "[[was driven|was driven, was carried, went, walked, marched, went across and passed]] [[but|but, however, whereas, on the other hand]], [[name:Ρουβην]] [[in days|within, inside of, and by means of days, day-breaks, times]] [[of reaping-time|of reaping-time, of harvest, of the crop]] of wheat and [[found|found, found out, discovered]] [[tree-fruits|tree-fruits, girls' breasts, the cheeks]] of mandrake [[in the field|within, inside of, and by means of the field, the lands, the farm, the country]] and [[brought|brought, bore, carried, endured]] them [[toward|toward, facing, oriented to, in living motion and address toward]] [[name:Λειαν]] the [[mother|mother, dam, source]] of him. [[said|said, spoke, declared, called by name, told]] [[but|but, however, whereas, on the other hand]], [[name:Ραχηλ]] to [[name:Λεια]] [[give|give, grant, provide, give over and deliver up]] to me of the mandrakes of the son of you.",
+    "names": [
+      {
+        "greek": "Ρουβην",
+        "unanchored": "Roubēn",
+        "anchored": "Reuben",
+        "gloss": "(Ρουβην, from Hebrew Rĕʾûbēn, which the Hebrew of 29:32 hears in rāʾâ bĕʿonyî, \"he has seen my affliction\")"
+      },
+      {
+        "greek": "Λειαν",
+        "unanchored": "Leian",
+        "anchored": "Leah",
+        "bare": true
+      },
+      {
+        "greek": "Ραχηλ",
+        "unanchored": "Rachēl",
+        "anchored": "Rachel",
+        "bare": true
+      },
+      {
+        "greek": "Λεια",
+        "unanchored": "Leia",
+        "anchored": "Leah",
+        "bare": true
+      }
+    ]
+  },
+  {
+    "ref": "GEN 30:15",
+    "greek": "εἶπεν δὲ Λεια Οὐχ ἱκανόν σοι ὅτι ἔλαβες τὸν ἄνδρα μου; μὴ καὶ τοὺς μανδραγόρας τοῦ υἱοῦ μου λήμψῃ; εἶπεν δὲ Ραχηλ Οὐχ οὕτως· κοιμηθήτω μετὰ σοῦ τὴν νύκτα ταύτην ἀντὶ τῶν μανδραγορῶν τοῦ υἱοῦ σου.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 46",
+    "speech": ["Οὐχ", "Οὐχ"],
+    "hint": "Leah said: Is it not enough for you that you took my husband? Will you take my son's mandrakes too? Rachel said: Not so; let him sleep with you tonight for your son's mandrakes.",
+    "notes": [
+      {
+        "lemma": "μανδραγόρας",
+        "flag": "variant",
+        "text": "[[flag]] Codex Alexandrinus reads μανδραγόρους, the other declension."
+      },
+      {
+        "lemma": "Οὐχ",
+        "flag": null,
+        "text": "Capitalised because it opens direct speech, as Rahlfs prints it; listed in `speech` so the checks do not take it for a proper name."
+      }
+    ],
+    "reading": "[[said|said, spoke, declared, called by name, told]] [[but|but, however, whereas, on the other hand]], [[name:Λεια]] not [[becoming|becoming, befitting, sufficing, sufficient and competent, sufficient and adequate and enough, large enough, considerable and long, satisfactory]] to you [[that|that, seeing that, although, for that, because, inasmuch as]] [[you took|you took, you received, you took hold of and grasped and seized]] the [[man|a man, a human being]] of me; not also the mandrakes of the son of me [[you will take|you will take, you will receive, you will take hold of and grasp and seize]]; [[said|said, spoke, declared, called by name, told]] [[but|but, however, whereas, on the other hand]], [[name:Ραχηλ]] not [[in this way|in this way, in this manner, so, thus, even so, so much]]; [[let him be lulled to sleep|let him be lulled to sleep, let him be put to sleep, let him fall asleep, let him sleep, let him lie asleep]] [[in the midst of|in the midst of, among, in common, along with, with, by means of]] of you [[the night-season|the night-season, the night, the watches of the night, the dark of night, the night of death]] [[this|this, the nearer, what follows]] [[over against|over against, opposite, instead and in the place of, as good as and equal to, at the price of and for, for the sake of, set against and compared with]] of the mandrakes of the son of you.",
+    "names": [
+      {
+        "greek": "Λεια",
+        "unanchored": "Leia",
+        "anchored": "Leah",
+        "bare": true
+      },
+      {
+        "greek": "Ραχηλ",
+        "unanchored": "Rachēl",
+        "anchored": "Rachel",
+        "bare": true
+      }
+    ]
+  },
+  {
+    "ref": "GEN 30:16",
+    "greek": "εἰσῆλθεν δὲ Ιακωβ ἐξ ἀγροῦ ἑσπέρας, καὶ ἐξῆλθεν Λεια εἰς συνάντησιν αὐτῷ καὶ εἶπεν Πρός με εἰσελεύσῃ σήμερον· μεμίσθωμαι γάρ σε ἀντὶ τῶν μανδραγορῶν τοῦ υἱοῦ μου. καὶ ἐκοιμήθη μετʼ αὐτῆς τὴν νύκτα ἐκείνην.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 46",
+    "speech": ["Πρός"],
+    "hint": "Jacob came in from the field in the evening, and Leah went out to meet him and said: You will come in to me today; for I have hired you for my son's mandrakes. And he slept with her that night.",
+    "notes": [
+      {
+        "lemma": "μεμίσθωμαι",
+        "flag": null,
+        "text": "The perfect middle of μισθόω: Middle Liddell's Mid. is *to have let to one, to hire*."
+      },
+      {
+        "lemma": "με",
+        "flag": "variant",
+        "text": "[[flag]] Codex Alexandrinus reads ἐμέ, the fuller form."
+      },
+      {
+        "lemma": "Πρός",
+        "flag": null,
+        "text": "Capitalised because it opens direct speech, as Rahlfs prints it; listed in `speech` so the checks do not take it for a proper name."
+      }
+    ],
+    "reading": "[[went in|went in, went into and entered, came into, came in, came upon]] [[but|but, however, whereas, on the other hand]], [[name:Ιακωβ]] [[out of|out of, forth from, from]] [[of field|of field, of lands, of a farm, of the country]] [[of evening|of evening, of eventide, of eve, of nightfall, of the west]], and [[went out of|went out of, came out, went away and marched off, went forth]] [[name:Λεια]] [[into|into, to, in, rest in]] a meeting to him and [[said|said, spoke, declared, called by name, told]] [[toward|toward, facing, oriented to, in living motion and address toward]] me [[you will go in|you will go in, you will go into and enter, you will come into, you will come in, you will come upon]] to-day; [[I have had let to me|I have had let to me and it stands so, I have hired and it stands so, I have engaged for pay]] for you [[over against|over against, opposite, instead and in the place of, as good as and equal to, at the price of and for, for the sake of, set against and compared with]] of the mandrakes of the son of me. and [[fell asleep|fell asleep, went abed and lay abed, slept, fell asleep and died, kept watch at night]] [[in the midst of|in the midst of, among, in common, along with, with, by means of]] of her [[the night-season|the night-season, the night, the watches of the night, the dark of night, the night of death]] [[that|that, in order that]].",
+    "names": [
+      {
+        "greek": "Ιακωβ",
+        "unanchored": "Iakōb",
+        "anchored": "Jacob",
+        "bare": true
+      },
+      {
+        "greek": "Λεια",
+        "unanchored": "Leia",
+        "anchored": "Leah",
+        "bare": true
+      }
+    ]
+  },
+  {
+    "ref": "GEN 30:17",
+    "greek": "καὶ ἐπήκουσεν ὁ θεὸς Λειας, καὶ συλλαβοῦσα ἔτεκεν τῷ Ιακωβ υἱὸν πέμπτον.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 46",
+    "hint": "And God listened to Leah, and she conceived and bore Jacob a fifth son.",
+    "notes": [
+      {
+        "lemma": "ὁ θεὸς Λειας",
+        "flag": "variant",
+        "text": "[[flag]] Codex Alexandrinus reads αὐτῆς ὁ θεός, *her God*."
+      }
+    ],
+    "reading": "and [[listened to|listened to and hearkened to and heard, gave ear and hearkened, obeyed]] [[the God|him who is God definitively, the one the article marks out, the known and the only]] [[name:Λειας]], and [[having collected|having collected, having gathered together, having taken up, having laid hold of and seized, having comprehended, having conceived]] [[brought into the world|brought into the world, brought forth, bore, produced]] to [[name:Ιακωβ]] son [[fifth|fifth, one with four others, a fifth part]].",
+    "names": [
+      {
+        "greek": "Λειας",
+        "unanchored": "Leias",
+        "anchored": "Leah",
+        "bare": true
+      },
+      {
+        "greek": "Ιακωβ",
+        "unanchored": "Iakōb",
+        "anchored": "Jacob",
+        "bare": true
+      }
+    ]
+  },
+  {
+    "ref": "GEN 30:18",
+    "greek": "καὶ εἶπεν Λεια Ἔδωκεν ὁ θεὸς τὸν μισθόν μου ἀνθʼ οὗ ἔδωκα τὴν παιδίσκην μου τῷ ἀνδρί μου· καὶ ἐκάλεσεν τὸ ὄνομα αὐτοῦ Ισσαχαρ, ὅ ἐστιν Μισθός.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 46",
+    "speech": ["Ἔδωκεν"],
+    "hint": "And Leah said: God has given my wage, because I gave my slave-girl to my husband; and she called his name Issachar, which is Wage.",
+    "notes": [
+      {
+        "lemma": "Ισσαχαρ, ὅ ἐστιν Μισθός",
+        "flag": null,
+        "text": "The Greek glosses the name in the text, and Rahlfs prints the gloss with a capital: the Hebrew hears *śāḵār*, *wage*."
+      },
+      {
+        "lemma": "ἔδωκεν",
+        "flag": "variant",
+        "text": "[[flag]] Codex Alexandrinus reads δέδωκέν μοι, *has given me*."
+      },
+      {
+        "lemma": "Ἔδωκεν",
+        "flag": null,
+        "text": "Capitalised because it opens direct speech, as Rahlfs prints it; listed in `speech` so the checks do not take it for a proper name."
+      }
+    ],
+    "reading": "and [[said|said, spoke, declared, called by name, told]] [[name:Λεια]] [[gave|gave, granted, provided, gave over and delivered up]] [[the God|him who is God definitively, the one the article marks out, the known and the only]] [[the wages|the wages, the pay and hire, the recompense and reward, the payment and requital]] of me [[over against|over against, opposite, instead and in the place of, as good as and equal to, at the price of and for, for the sake of, set against and compared with]] of which [[I gave|I gave, I granted, I provided, I gave over and delivered up]] the [[young girl|young girl, maiden, young slave, courtesan]] of me to the [[man|a man, a human being]] of me; and [[called|called, summoned, called to himself, invited]] [[the name|the name, the fame, the mere name, the phrase and expression]] of him [[name:Ισσαχαρ]], which is [[name:Μισθός]].",
+    "names": [
+      {
+        "greek": "Λεια",
+        "unanchored": "Leia",
+        "anchored": "Leah",
+        "bare": true
+      },
+      {
+        "greek": "Ισσαχαρ",
+        "unanchored": "Issachar",
+        "anchored": "Issachar",
+        "gloss": "(Ισσαχαρ, from Hebrew Yiśśāḵār, which the Hebrew of this verse hears in śāḵār, \"wage\")"
+      },
+      {
+        "greek": "Μισθός",
+        "unanchored": "Misthos",
+        "anchored": "Wage",
+        "gloss": "(Μισθός, the Greek word for wage, which Rahlfs prints with a capital as the name's meaning)"
+      }
+    ]
+  },
+  {
+    "ref": "GEN 30:19",
+    "greek": "καὶ συνέλαβεν ἔτι Λεια καὶ ἔτεκεν υἱὸν ἕκτον τῷ Ιακωβ.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 46",
+    "hint": "And Leah conceived again and bore Jacob a sixth son.",
+    "notes": [
+      {
+        "lemma": "ἕκτον",
+        "flag": null,
+        "text": "ἕκτος, *sixth*, the one sense Middle Liddell gives it, as πέμπτος at 30:17."
+      }
+    ],
+    "reading": "and [[collected|collected, gathered together, took up, laid hold of and seized, comprehended, conceived]] [[yet|yet, as yet, still, further, besides, moreover]] [[name:Λεια]] and [[brought into the world|brought into the world, brought forth, bore, produced]] son [[sixth|sixth]] to [[name:Ιακωβ]].",
+    "names": [
+      {
+        "greek": "Λεια",
+        "unanchored": "Leia",
+        "anchored": "Leah",
+        "bare": true
+      },
+      {
+        "greek": "Ιακωβ",
+        "unanchored": "Iakōb",
+        "anchored": "Jacob",
+        "bare": true
+      }
+    ]
+  },
+  {
+    "ref": "GEN 30:20",
+    "greek": "καὶ εἶπεν Λεια Δεδώρηταί μοι ὁ θεὸς δῶρον καλόν· ἐν τῷ νῦν καιρῷ αἱρετιεῖ με ὁ ἀνήρ μου, ἔτεκον γὰρ αὐτῷ υἱοὺς ἕξ· καὶ ἐκάλεσεν τὸ ὄνομα αὐτοῦ Ζαβουλων.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 46",
+    "speech": ["Δεδώρηταί"],
+    "hint": "And Leah said: God has given me a good gift; this time my husband will choose me, for I have borne him six sons; and she called his name Zebulun.",
+    "notes": [
+      {
+        "lemma": "Δεδώρηται",
+        "flag": null,
+        "text": "The perfect of δωρέω, the standing state: the gift stands given."
+      },
+      {
+        "lemma": "Ζαβουλων",
+        "flag": null,
+        "text": "The Hebrew hears the name in *zābal*, *to honour* or *dwell with*, which the Greek gives as αἱρετιεῖ, *will choose*."
+      },
+      {
+        "lemma": "ἔτεκον",
+        "flag": "variant",
+        "text": "[[flag]] Codex Alexandrinus reads τέτοκα, the perfect, and turns μοι and ὁ θεός about."
+      },
+      {
+        "lemma": "Δεδώρηταί",
+        "flag": null,
+        "text": "Capitalised because it opens direct speech, as Rahlfs prints it; listed in `speech` so the checks do not take it for a proper name."
+      }
+    ],
+    "reading": "and [[said|said, spoke, declared, called by name, told]] [[name:Λεια]] [[has given|has given and it stands so, has presented and stands so]] to me [[the God|him who is God definitively, the one the article marks out, the known and the only]] [[gift|gift, present, votive gift, blessing]] [[beautiful|beautiful, beauteous, fair, good]]; [[in the due measure|within, inside of, and by means of the due measure, the proportion, the fitness, the vital part, the right point of time, the proper time and season, the exact and critical time, the time, the advantage and profit and fruit]] [[now|now, even now, just now]] [[will choose|will choose, will select]] me the [[man|a man, a human being]] of me, [[I brought into the world|I brought into the world, I brought forth, I bore, I produced]] for to him sons six; and [[called|called, summoned, called to himself, invited]] [[the name|the name, the fame, the mere name, the phrase and expression]] of him [[name:Ζαβουλων]].",
+    "names": [
+      {
+        "greek": "Λεια",
+        "unanchored": "Leia",
+        "anchored": "Leah",
+        "bare": true
+      },
+      {
+        "greek": "Ζαβουλων",
+        "unanchored": "Zaboulōn",
+        "anchored": "Zebulun",
+        "gloss": "(Ζαβουλων, from Hebrew Zĕbûlûn, which the Hebrew of this verse hears in zābal, \"honour, dwell with\")"
+      }
+    ]
+  },
+  {
+    "ref": "GEN 30:21",
+    "greek": "καὶ μετὰ τοῦτο ἔτεκεν θυγατέρα καὶ ἐκάλεσεν τὸ ὄνομα αὐτῆς Δινα.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 46",
+    "hint": "And after this she bore a daughter and called her name Dinah.",
+    "notes": [
+      {
+        "lemma": "Δινα",
+        "flag": "variant",
+        "text": "[[flag]] Codex Alexandrinus adds καὶ ἔστη τοῦ τίκτειν, carried in from 29:35."
+      }
+    ],
+    "reading": "and [[into the middle of|into the middle of, coming among, in pursuit and quest of, after]] [[this|this, the nearer, what follows]] [[brought into the world|brought into the world, brought forth, bore, produced]] daughter and [[called|called, summoned, called to himself, invited]] [[the name|the name, the fame, the mere name, the phrase and expression]] of her [[name:Δινα]].",
+    "names": [
+      {
+        "greek": "Δινα",
+        "unanchored": "Dina",
+        "anchored": "Dinah",
+        "gloss": "(Δινα, from Hebrew Dînâ, of uncertain meaning, from the root dîn, \"judge\")"
+      }
+    ]
+  },
+  {
+    "ref": "GEN 30:22",
+    "greek": "Ἐμνήσθη δὲ ὁ θεὸς τῆς Ραχηλ, καὶ ἐπήκουσεν αὐτῆς ὁ θεὸς καὶ ἀνέῳξεν αὐτῆς τὴν μήτραν,",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 46",
+    "hint": "And God remembered Rachel, and God listened to her and opened her womb,",
+    "notes": [
+      {
+        "lemma": "τῆς Ραχηλ",
+        "flag": "variant",
+        "text": "[[flag]] Rahlfs takes the article from the Cairo Geniza witness; Codex Alexandrinus leaves it out."
+      }
+    ],
+    "reading": "[[reminded himself of|reminded himself of, called to mind, remembered, bethought himself of, was minded, bore in mind and did not forget]] [[but|but, however, whereas, on the other hand]], [[the God|him who is God definitively, the one the article marks out, the known and the only]] [[name:Ραχηλ]], and [[listened to|listened to and hearkened to and heard, gave ear and hearkened, obeyed]] of her [[the God|him who is God definitively, the one the article marks out, the known and the only]] and [[opened|opened, undid and opened, laid open and unfolded and disclosed, got into the open sea and got clear of land]] of her [[the womb|the womb, the cervix including the orifice of the womb, the matrix, the source and origin, the core and heart-wood, the diseased condition, the queen-wasp]],",
+    "names": [
+      {
+        "greek": "Ραχηλ",
+        "unanchored": "Rachēl",
+        "anchored": "Rachel",
+        "bare": true
+      }
+    ]
+  },
+  {
+    "ref": "GEN 30:23",
+    "greek": "καὶ συλλαβοῦσα ἔτεκεν τῷ Ιακωβ υἱόν. εἶπεν δὲ Ραχηλ Ἀφεῖλεν ὁ θεός μου τὸ ὄνειδος·",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 46",
+    "speech": ["Ἀφεῖλεν"],
+    "hint": "and she conceived and bore Jacob a son. And Rachel said: God has taken away my reproach;",
+    "notes": [
+      {
+        "lemma": "Ἀφεῖλεν",
+        "flag": null,
+        "text": "Capitalised because it opens direct speech, as Rahlfs prints it; listed in `speech` so the checks do not take it for a proper name."
+      }
+    ],
+    "reading": "and [[having collected|having collected, having gathered together, having taken up, having laid hold of and seized, having comprehended, having conceived]] [[brought into the world|brought into the world, brought forth, bore, produced]] to [[name:Ιακωβ]] son. [[said|said, spoke, declared, called by name, told]] [[but|but, however, whereas, on the other hand]], [[name:Ραχηλ]] [[took from|took from, took away from, took off, removed, separated and set aside]] [[the God|him who is God definitively, the one the article marks out, the known and the only]] of me [[the reproach|the reproach, the censure, the blame, the disgrace, the matter of reproach]];",
+    "names": [
+      {
+        "greek": "Ιακωβ",
+        "unanchored": "Iakōb",
+        "anchored": "Jacob",
+        "bare": true
+      },
+      {
+        "greek": "Ραχηλ",
+        "unanchored": "Rachēl",
+        "anchored": "Rachel",
+        "bare": true
+      }
+    ]
+  },
+  {
+    "ref": "GEN 30:24",
+    "greek": "καὶ ἐκάλεσεν τὸ ὄνομα αὐτοῦ Ιωσηφ λέγουσα Προσθέτω ὁ θεός μοι υἱὸν ἕτερον.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 46",
+    "speech": ["Προσθέτω"],
+    "hint": "and she called his name Joseph, saying: May God add another son for me.",
+    "notes": [
+      {
+        "lemma": "Ιωσηφ",
+        "flag": null,
+        "text": "The Hebrew hears the name both in *ʾāsap̄*, *he has taken away*, of the verse before, and in *yōsēp̄*, *may he add*, which the Greek gives as προσθέτω."
+      },
+      {
+        "lemma": "Προσθέτω",
+        "flag": null,
+        "text": "Capitalised because it opens direct speech, as Rahlfs prints it; listed in `speech` so the checks do not take it for a proper name."
+      }
+    ],
+    "reading": "and [[called|called, summoned, called to himself, invited]] [[the name|the name, the fame, the mere name, the phrase and expression]] of him [[name:Ιωσηφ]] [[saying|saying, speaking, declaring, calling by name, telling]] [[let him put to|let him put to, let him hand over and deliver, let him give and bestow, let him impose further, let him attribute, let him add]] [[the God|him who is God definitively, the one the article marks out, the known and the only]] to me son [[other|other, the other of two, another, second, other than usual and different]].",
+    "names": [
+      {
+        "greek": "Ιωσηφ",
+        "unanchored": "Iōsēph",
+        "anchored": "Joseph",
+        "gloss": "(Ιωσηφ, from Hebrew Yôsēp̄, which the Hebrew of this verse hears in yōsēp̄, \"may he add\", and in ʾāsap̄, \"he has taken away\")"
+      }
+    ]
+  },
+  {
+    "ref": "GEN 30:25",
+    "greek": "Ἐγένετο δὲ ὡς ἔτεκεν Ραχηλ τὸν Ιωσηφ, εἶπεν Ιακωβ τῷ Λαβαν Ἀπόστειλόν με, ἵνα ἀπέλθω εἰς τὸν τόπον μου καὶ εἰς τὴν γῆν μου.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 46",
+    "speech": ["Ἀπόστειλόν"],
+    "hint": "And when Rachel had borne Joseph, Jacob said to Laban: Send me off, so that I may go away to my place and to my land.",
+    "notes": [
+      {
+        "lemma": "Ἀπόστειλόν",
+        "flag": null,
+        "text": "Capitalised because it opens direct speech, as Rahlfs prints it; listed in `speech` so the checks do not take it for a proper name."
+      }
+    ],
+    "reading": "[[came into being|there came to be, there arose, there was brought into existence]] [[but|but, however, whereas, on the other hand]], [[as|as, according as, considering, like]] [[brought into the world|brought into the world, brought forth, bore, produced]] [[name:Ραχηλ]] [[name:Ιωσηφ]], [[said|said, spoke, declared, called by name, told]] [[name:Ιακωβ]] to [[name:Λαβαν]] [[send off|send off, send away, banish, despatch, go away and depart]] me, [[in order that|in order that, so that]] [[I may go away|I may go away, I may depart from, I may depart, I may depart from life]] [[into|into, to, in, rest in]] [[the place|the place, the local circumstances, the position, the passage in a book, the topic, the common-place, the occasion and opportunity]] of me and [[into|into, to, in, rest in]] [[the earth|the land, the dry ground, the terrestrial realm]] of me.",
+    "names": [
+      {
+        "greek": "Ραχηλ",
+        "unanchored": "Rachēl",
+        "anchored": "Rachel",
+        "bare": true
+      },
+      {
+        "greek": "Ιωσηφ",
+        "unanchored": "Iōsēph",
+        "anchored": "Joseph",
+        "bare": true
+      },
+      {
+        "greek": "Ιακωβ",
+        "unanchored": "Iakōb",
+        "anchored": "Jacob",
+        "bare": true
+      },
+      {
+        "greek": "Λαβαν",
+        "unanchored": "Laban",
+        "anchored": "Laban",
+        "gloss": "(Λαβαν, from Hebrew Lābān, \"white\")"
+      }
+    ]
+  },
+  {
+    "ref": "GEN 30:26",
+    "greek": "ἀπόδος τὰς γυναῖκάς μου καὶ τὰ παιδία, περὶ ὧν δεδούλευκά σοι, ἵνα ἀπέλθω· σὺ γὰρ γινώσκεις τὴν δουλείαν, ἣν δεδούλευκά σοι.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 47",
+    "hint": "Give me my wives and my children, for whom I have served you, so that I may go; for you know the service I have served you.",
+    "notes": [
+      {
+        "lemma": "δεδούλευκα",
+        "flag": null,
+        "text": "The perfect of δουλεύω, three times over: the service stands done."
+      },
+      {
+        "lemma": "τὰς γυναῖκάς μου",
+        "flag": "variant",
+        "text": "[[flag]] Codex Alexandrinus reads μοι τὰς γυναῖκας, *to me the wives*."
+      }
+    ],
+    "reading": "[[give away of your own will|give away of your own will, sell]] the [[women|women, mistresses and ladies, wives and spouses, mortal women]] of me and the [[children|children, sons, daughters, grandchildren, boys and youths and lads, girls and maidens, slaves and servants and men and maids]], [[round about|round about, around, about and near, about and for and on account of, about and concerning, for very]] of which [[I have been a slave|I have been a slave and stand so, I have served and been subject to]] to you, [[in order that|in order that, so that]] [[I may go away|I may go away, I may depart from, I may depart, I may depart from life]]; you for [[you learn to know|you learn to know, you perceive, you mark, you learn, you discern and distinguish]] the [[the servitude|the servitude, the slavery, the bondage, the slaves and the slave-class]], which [[I have been a slave|I have been a slave and stand so, I have served and been subject to]] to you.",
+    "names": []
+  },
+  {
+    "ref": "GEN 30:27",
+    "greek": "εἶπεν δὲ αὐτῷ Λαβαν Εἰ εὗρον χάριν ἐναντίον σου, οἰωνισάμην ἄν· εὐλόγησεν γάρ με ὁ θεὸς τῇ σῇ εἰσόδῳ.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 47",
+    "speech": ["Εἰ"],
+    "hint": "Laban said to him: If I have found favour before you, I took omens: God blessed me at your coming in.",
+    "notes": [
+      {
+        "lemma": "οἰωνισάμην ἄν",
+        "flag": null,
+        "text": "οἰωνίζομαι, *to take omens from the flight and cries of birds*, with ἄν: the potential."
+      },
+      {
+        "lemma": "Εἰ",
+        "flag": null,
+        "text": "Capitalised because it opens direct speech, as Rahlfs prints it; listed in `speech` so the checks do not take it for a proper name."
+      }
+    ],
+    "reading": "[[said|said, spoke, declared, called by name, told]] [[but|but, however, whereas, on the other hand]], to him [[name:Λαβαν]] if [[I found|I found, I found out, I discovered]] [[outward grace|outward grace, favour, loveliness, graciousness and kindness and goodwill, thankfulness and thanks and gratitude, a favour and kindness and boon, a gratification and delight]] [[in the presence of|in the presence of, before, opposite and face to face, against]] of you, [[I took omens from the flight and cries of birds|I took omens from the flight and cries of birds, I divined from omens and augured]] ever; [[spoke well of|spoke well of, praised, honoured, blessed]] for me [[the God|him who is God definitively, the one the article marks out, the known and the only]] the [[thy|thy, thine]] [[to the way in|to the way in, to the entrance, to the place of entrance and entry, to the right and privilege of entrance]].",
+    "names": [
+      {
+        "greek": "Λαβαν",
+        "unanchored": "Laban",
+        "anchored": "Laban",
+        "bare": true
+      }
+    ]
+  },
+  {
+    "ref": "GEN 30:28",
+    "greek": "διάστειλον τὸν μισθόν σου πρός με, καὶ δώσω.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 47",
+    "hint": "Set out your wage to me, and I will give it.",
+    "notes": [
+      {
+        "lemma": "διάστειλον",
+        "flag": null,
+        "text": "Laban's speech runs on from verse 27, so the verse opens with no capital of its own."
+      },
+      {
+        "lemma": "δώσω",
+        "flag": "variant",
+        "text": "[[flag]] Codex Alexandrinus adds σοι, *to you*."
+      }
+    ],
+    "reading": "[[set apart|set apart, drew asunder and tore apart, distinguished and determined, ordered and commanded]] [[the wages|the wages, the pay and hire, the recompense and reward, the payment and requital]] of you [[toward|toward, facing, oriented to, in living motion and address toward]] me, and [[I will give|I will give, I will grant, I will provide, I will give over and deliver up]].",
+    "names": []
+  },
+  {
+    "ref": "GEN 30:29",
+    "greek": "εἶπεν δὲ αὐτῷ Ιακωβ Σὺ γινώσκεις ἃ δεδούλευκά σοι καὶ ὅσα ἦν κτήνη σου μετʼ ἐμοῦ·",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 47",
+    "speech": ["Σὺ"],
+    "hint": "Jacob said to him: You know what I have served you and how much your livestock came to be with me;",
+    "notes": [
+      {
+        "lemma": "Σὺ",
+        "flag": null,
+        "text": "Capitalised because it opens direct speech, as Rahlfs prints it; listed in `speech` so the checks do not take it for a proper name."
+      }
+    ],
+    "reading": "[[said|said, spoke, declared, called by name, told]] [[but|but, however, whereas, on the other hand]], to him [[name:Ιακωβ]] you [[you learn to know|you learn to know, you perceive, you mark, you learn, you discern and distinguish]] which [[I have been a slave|I have been a slave and stand so, I have served and been subject to]] to you and [[as great as|as great as, as much as, as far as, as long as, as many as]] were, and kept on being as a standing and continuing condition and not a momentary one, [[the flocks and herds|the flocks and herds]] of you [[in the midst of|in the midst of, among, in common, along with, with, by means of]] of me;",
+    "names": [
+      {
+        "greek": "Ιακωβ",
+        "unanchored": "Iakōb",
+        "anchored": "Jacob",
+        "bare": true
+      }
+    ]
+  },
+  {
+    "ref": "GEN 30:30",
+    "greek": "μικρὰ γὰρ ἦν ὅσα σοι ἦν ἐναντίον ἐμοῦ, καὶ ηὐξήθη εἰς πλῆθος, καὶ ηὐλόγησέν σε κύριος ἐπὶ τῷ ποδί μου. νῦν οὖν πότε ποιήσω κἀγὼ ἐμαυτῷ οἶκον;",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 47",
+    "hint": "for what you had before me was little, and it grew to a multitude, and the Lord blessed you at my foot. Now when shall I too make a house for myself?",
+    "notes": [
+      {
+        "lemma": "ἐπὶ τῷ ποδί μου",
+        "flag": null,
+        "text": "*At my foot*, of what follows a man's steps: the Hebrew *lĕraglî*."
+      },
+      {
+        "lemma": "σοι",
+        "flag": "variant",
+        "text": "[[flag]] Rahlfs takes σοι from the Cairo Geniza witness; Codex Alexandrinus leaves it out and reads μου for ἐμοῦ."
+      }
+    ],
+    "reading": "[[small|small, little, petty and trivial and slight, short]] for was, and kept on being as a standing and continuing condition and not a momentary one, [[as great as|as great as, as much as, as far as, as long as, as many as]] to you was, and kept on being as a standing and continuing condition and not a momentary one, [[in the presence of|in the presence of, before, opposite and face to face, against]] of me, and [[was made large|was made large, was increased, was augmented, was increased in power and strengthened and exalted and aggrandised, was promoted to honour and glorified and magnified]] [[into|into, to, in, rest in]] [[a great number|a great number, a throng and crowd and multitude, the mass and the people, the greater number and the majority, the size and magnitude and extent]], and [[spoke well of|spoke well of, praised, honoured, blessed]] you [[lord|lord, master, the one having power and authority over]] [[upon|upon, on, in, at, near]] to the foot of me. [[now|now, even now, just now]] [[really|really, at all events, surely, so, then and therefore]] [[when|when, at what time]] [[I may make|I may make, I may do, I may produce, I may create]] and I for myself [[house|house, abode and dwelling, room and chamber, house of a god and temple, household goods and substance, household and family]];",
+    "names": []
+  },
+  {
+    "ref": "GEN 30:31",
+    "greek": "καὶ εἶπεν αὐτῷ Λαβαν Τί σοι δώσω; εἶπεν δὲ αὐτῷ Ιακωβ Οὐ δώσεις μοι οὐθέν· ἐὰν ποιήσῃς μοι τὸ ῥῆμα τοῦτο, πάλιν ποιμανῶ τὰ πρόβατά σου καὶ φυλάξω.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 47",
+    "speech": ["Τί", "Οὐ"],
+    "hint": "And Laban said to him: What shall I give you? Jacob said: You will give me nothing; if you do this thing for me, I will pasture your sheep again and guard them.",
+    "notes": [
+      {
+        "lemma": "Τί, Οὐ",
+        "flag": null,
+        "text": "Capitalised because it opens direct speech, as Rahlfs prints it; listed in `speech` so the checks do not take them for a proper name."
+      }
+    ],
+    "reading": "and [[said|said, spoke, declared, called by name, told]] to him [[name:Λαβαν]] what to you [[I will give|I will give, I will grant, I will provide, I will give over and deliver up]]; [[said|said, spoke, declared, called by name, told]] [[but|but, however, whereas, on the other hand]], to him [[name:Ιακωβ]] not [[you will give|you will give, you will grant, you will provide, you will give over and deliver up]] to me [[and not one|and not one, no one and none, naught and good for naught]]; if ever [[you may make|you may make, you may do, you may produce, you may create]] to me [[that which is said|that which is said and spoken, the word, the saying, the phrase, the subject of speech and the thing, the verb]] [[this|this, the nearer, what follows]], [[back|back, again, once more, over again]] [[I will be shepherd|I will be shepherd, I will tend, I will roam the pastures, I will tend and cherish and mind]] the [[things that walk forward|things that walk forward, cattle, flocks and herds, horses, small cattle, sheep]] of you and [[I will keep watch and ward|I will keep watch and ward, I will keep guard, I will watch and guard and keep and defend, I will watch for and lie in wait for, I will keep and maintain and cherish, I will observe]].",
+    "names": [
+      {
+        "greek": "Λαβαν",
+        "unanchored": "Laban",
+        "anchored": "Laban",
+        "bare": true
+      },
+      {
+        "greek": "Ιακωβ",
+        "unanchored": "Iakōb",
+        "anchored": "Jacob",
+        "bare": true
+      }
+    ]
+  },
+  {
+    "ref": "GEN 30:32",
+    "greek": "παρελθάτω πάντα τὰ πρόβατά σου σήμερον, καὶ διαχώρισον ἐκεῖθεν πᾶν πρόβατον φαιὸν ἐν τοῖς ἀρνάσιν καὶ πᾶν διάλευκον καὶ ῥαντὸν ἐν ταῖς αἰξίν· ἔσται μοι μισθός.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 47",
+    "hint": "Let all your sheep pass by today, and separate from there every dusky sheep among the lambs and every white-spotted and speckled one among the goats; that will be my wage.",
+    "notes": [
+      {
+        "lemma": "φαιόν, διάλευκον, ῥαντόν",
+        "flag": null,
+        "text": "Three colour words: φαιός *dusky, dun, gray*; διάλευκος, which Middle Liddell has not, LSJ's *quite white*; ῥαντός LSJ's *sprinkled*, then *speckled or spotted*."
+      },
+      {
+        "lemma": "πάντα",
+        "flag": "variant",
+        "text": "[[flag]] Rahlfs takes πάντα from the Cairo Geniza witness; Codex Alexandrinus leaves it out and turns the colour words about."
+      }
+    ],
+    "reading": "[[let it go by|let it go by, let it go beside, let it go past, let it pass by and outstrip, let it come forward]] [[all|all, the whole, every, every single]] the [[things that walk forward|things that walk forward, cattle, flocks and herds, horses, small cattle, sheep]] of you to-day, and [[separate|separate, part asunder, set apart]] [[from that place|from that place, thence, thereafter, next]] [[all|all, the whole, every, every single]] [[thing that walks forward|thing that walks forward, cattle, flocks and herds, horses, small cattle, sheep]] [[dusky|dusky, dun, gray]] [[in the lambs|within, inside of, and by means of the lambs]] and [[all|all, the whole, every, every single]] quite white and [[sprinkled|sprinkled, speckled or spotted]] [[in the goats|within, inside of, and by means of the goats]]; will be to me [[wages|wages, pay, hire, recompense and reward, payment and requital]].",
+    "names": []
+  },
+  {
+    "ref": "GEN 30:33",
+    "greek": "καὶ ἐπακούσεταί μοι ἡ δικαιοσύνη μου ἐν τῇ ἡμέρᾳ τῇ αὔριον, ὅτι ἐστὶν ὁ μισθός μου ἐνώπιόν σου· πᾶν, ὃ ἐὰν μὴ ᾖ ῥαντὸν καὶ διάλευκον ἐν ταῖς αἰξὶν καὶ φαιὸν ἐν τοῖς ἀρνάσιν, κεκλεμμένον ἔσται παρʼ ἐμοί.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 47",
+    "hint": "And my righteousness will answer for me tomorrow, that my wage is before you: everything that is not speckled and white-spotted among the goats and dusky among the lambs will count as stolen with me.",
+    "notes": [
+      {
+        "lemma": "κεκλεμμένον",
+        "flag": null,
+        "text": "The perfect passive participle of κλέπτω, the standing state: it stands stolen."
+      }
+    ],
+    "reading": "and [[will listen|will listen, will hearken to and hear, will give ear and hearken, will obey]] to me the [[the righteousness|the righteousness, the justice, the observance of custom and rule]] of me [[in the day|within, inside of, and by means of the day, the day-break, the time]] the [[to-morrow|to-morrow, on the morrow]], [[that|that, seeing that, although, for that, because, inasmuch as]] is the [[the wages|the wages, the pay and hire, the recompense and reward, the payment and requital]] of me face to face of you; [[all|all, the whole, every, every single]], which ever not may be [[sprinkled|sprinkled, speckled or spotted]] and quite white [[in the goats|within, inside of, and by means of the goats]] and [[dusky|dusky, dun, gray]] [[in the lambs|within, inside of, and by means of the lambs]], [[having been stolen|having been stolen and standing so, having been filched, having been purloined, having been cozened and cheated and deceived and beguiled, having been concealed and kept secret and disguised, having been done secretly and treacherously, having been seized and occupied secretly]] will be [[to the side of|to the side of, motion alongside of, to, beside and near and by, passing by, beyond, contrary to and against, beside and except, on account of and because of and by means of, along the whole course of and during]] to me.",
+    "names": []
+  },
+  {
+    "ref": "GEN 30:34",
+    "greek": "εἶπεν δὲ αὐτῷ Λαβαν Ἔστω κατὰ τὸ ῥῆμά σου.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 47",
+    "speech": ["Ἔστω"],
+    "hint": "Laban said to him: Let it be according to your word.",
+    "notes": [
+      {
+        "lemma": "Ἔστω",
+        "flag": null,
+        "text": "Capitalised because it opens direct speech, as Rahlfs prints it; listed in `speech` so the checks do not take it for a proper name."
+      }
+    ],
+    "reading": "[[said|said, spoke, declared, called by name, told]] [[but|but, however, whereas, on the other hand]], to him [[name:Λαβαν]] [[let be|let be]] [[down|down, downwards, down from, down upon, over, upon]] [[that which is said|that which is said and spoken, the word, the saying, the phrase, the subject of speech and the thing, the verb]] of you.",
+    "names": [
+      {
+        "greek": "Λαβαν",
+        "unanchored": "Laban",
+        "anchored": "Laban",
+        "bare": true
+      }
+    ]
+  },
+  {
+    "ref": "GEN 30:35",
+    "greek": "καὶ διέστειλεν ἐν τῇ ἡμέρᾳ ἐκείνῃ τοὺς τράγους τοὺς ῥαντοὺς καὶ τοὺς διαλεύκους καὶ πάσας τὰς αἶγας τὰς ῥαντὰς καὶ τὰς διαλεύκους καὶ πᾶν, ὃ ἦν λευκὸν ἐν αὐτοῖς, καὶ πᾶν, ὃ ἦν φαιὸν ἐν τοῖς ἀρνάσιν, καὶ ἔδωκεν διὰ χειρὸς τῶν υἱῶν αὐτοῦ.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 47",
+    "hint": "And on that day he set apart the speckled and white-spotted he-goats and all the speckled and white-spotted she-goats and everything white among them and everything dusky among the lambs, and gave them into the hand of his sons.",
+    "notes": [
+      {
+        "lemma": "διέστειλεν",
+        "flag": null,
+        "text": "διαστέλλω, *to set apart*, the verb of the separating through this chapter."
+      }
+    ],
+    "reading": "and [[set apart|set apart, drew asunder and tore apart, distinguished and determined, ordered and commanded]] [[in the day|within, inside of, and by means of the day, the day-break, the time]] [[that|that, in order that]] the [[the he-goats|the he-goats]] the [[sprinkled|sprinkled, speckled or spotted]] and the quite white and [[all|all, the whole, every, every single]] the [[the goats|the goats, the wild goats and the ibexes, the waves]] the [[sprinkled|sprinkled, speckled or spotted]] and the quite white and [[all|all, the whole, every, every single]], which was, and kept on being as a standing and continuing condition and not a momentary one, [[light|light, bright, brilliant, glassy, limpid, clear and plain and distinct, white, fair]] in them, and [[all|all, the whole, every, every single]], which was, and kept on being as a standing and continuing condition and not a momentary one, [[dusky|dusky, dun, gray]] [[in the lambs|within, inside of, and by means of the lambs]], and [[gave|gave, granted, provided, gave over and delivered up]] [[through|through, throughout and over, during, by aid of and by means of, by reason of, because of, for the sake of]] [[of hand|of hand, of hand and arm, of arm]] of the sons of him.",
+    "names": []
+  },
+  {
+    "ref": "GEN 30:36",
+    "greek": "καὶ ἀπέστησεν ὁδὸν τριῶν ἡμερῶν ἀνὰ μέσον αὐτῶν καὶ ἀνὰ μέσον Ιακωβ· Ιακωβ δὲ ἐποίμαινεν τὰ πρόβατα Λαβαν τὰ ὑπολειφθέντα. —",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 47",
+    "hint": "And he put a three days' journey between them and Jacob; and Jacob pastured Laban's remaining sheep.",
+    "notes": [
+      {
+        "lemma": "ἀνὰ μέσον … ἀνὰ μέσον",
+        "flag": null,
+        "text": "The doubled phrase of 1:4, *up to the middle*, for the Hebrew *bên … ûbên*."
+      }
+    ],
+    "reading": "and [[put away|put away, removed, hindered from, frustrated, deposed, made to revolt and moved to revolt, weighed out]] [[way|way, path, track, road, highway, course, journey, manner and method]] of three [[of days|of days, of day-breaks, of times]] [[up to middle|up to, up along, and throughout the middle, in the middle, the centre, mid, between two]] of them and [[up to middle|up to, up along, and throughout the middle, in the middle, the centre, mid, between two]] [[name:Ιακωβ]]; [[name:Ιακωβ]] [[but|but, however, whereas, on the other hand]], [[was shepherd|was shepherd, was tending, was roaming the pastures, was tending and cherishing and minding]] the [[things that walk forward|things that walk forward, cattle, flocks and herds, horses, small cattle, sheep]] [[name:Λαβαν]] the [[the ones having been left behind|the ones having been left behind, the ones having been left remaining, the ones having been left in reserve]]. —",
+    "names": [
+      {
+        "greek": "Ιακωβ",
+        "unanchored": "Iakōb",
+        "anchored": "Jacob",
+        "bare": true
+      },
+      {
+        "greek": "Λαβαν",
+        "unanchored": "Laban",
+        "anchored": "Laban",
+        "bare": true
+      }
+    ]
+  },
+  {
+    "ref": "GEN 30:37",
+    "greek": "ἔλαβεν δὲ ἑαυτῷ Ιακωβ ῥάβδον στυρακίνην χλωρὰν καὶ καρυίνην καὶ πλατάνου, καὶ ἐλέπισεν αὐτὰς Ιακωβ λεπίσματα λευκὰ περισύρων τὸ χλωρόν· ἐφαίνετο δὲ ἐπὶ ταῖς ῥάβδοις τὸ λευκόν, ὃ ἐλέπισεν, ποικίλον.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 47",
+    "hint": "Jacob took for himself a green rod of storax and of walnut and of plane, and peeled white peels in them, stripping off the green; and the white he had peeled showed mottled on the rods.",
+    "notes": [
+      {
+        "lemma": "στυρακίνην",
+        "flag": null,
+        "text": "Middle Liddell glosses it *made of the wood of the tree στύραξ*, the storax, and names no other sense."
+      },
+      {
+        "lemma": "ἐλέπισεν … λεπίσματα",
+        "flag": null,
+        "text": "The cognate accusative: λεπίζω with λέπισμα, both of them LSJ's, cited from this verse."
+      },
+      {
+        "lemma": "ἑαυτῷ",
+        "flag": "variant",
+        "text": "[[flag]] Rahlfs takes ἑαυτῷ from the Cairo Geniza witness; Codex Alexandrinus reads αὑτῷ."
+      }
+    ],
+    "reading": "[[took|took, received, took hold of and grasped and seized]] [[but|but, however, whereas, on the other hand]], for himself [[name:Ιακωβ]] [[a rod|a rod, a wand, a stick, a switch, a magic wand, a fishing-rod, a limed twig, a spear-staff and shaft, a staff of office, a rod for chastisement, a stripe and strip]] [[made of the wood of the tree|made of the wood of the tree]] [[greenish-yellow|greenish-yellow, pale-green, light-green, green and grassy, yellow, pale and bleached, fresh and living]] and [[of nuts|of nuts, made of walnut-wood]] and [[of the oriental plane|of the oriental plane]], and [[peeled off the husk|peeled off the husk, peeled off the skin and bark, stripped an object of its covering of metal plates]] them [[name:Ιακωβ]] peels [[light|light, bright, brilliant, glassy, limpid, clear and plain and distinct, white, fair]] [[dragging about|dragging about, tearing away from]] the [[greenish-yellow|greenish-yellow, pale-green, light-green, green and grassy, yellow, pale and bleached, fresh and living]]; [[was being brought to light|was being brought to light, was being made to appear, was showing itself, was appearing, was coming to light and being seen, was shining]] [[but|but, however, whereas, on the other hand]], [[upon|upon, on, in, at, near]] [[a rod|a rod, a wand, a stick, a switch, a magic wand, a fishing-rod, a limed twig, a spear-staff and shaft, a staff of office, a rod for chastisement, a stripe and strip]] the [[light|light, bright, brilliant, glassy, limpid, clear and plain and distinct, white, fair]], which [[peeled off the husk|peeled off the husk, peeled off the skin and bark, stripped an object of its covering of metal plates]], [[many-coloured|many-coloured, spotted, mottled, pied, dappled, wrought in various colours and broidered, in-wrought, intricate, changeful and various and diversified and manifold, complex, subtle and wily]].",
+    "names": [
+      {
+        "greek": "Ιακωβ",
+        "unanchored": "Iakōb",
+        "anchored": "Jacob",
+        "bare": true
+      }
+    ]
+  },
+  {
+    "ref": "GEN 30:38",
+    "greek": "καὶ παρέθηκεν τὰς ῥάβδους, ἃς ἐλέπισεν, ἐν ταῖς ληνοῖς τῶν ποτιστηρίων τοῦ ὕδατος, ἵνα, ὡς ἂν ἔλθωσιν τὰ πρόβατα πιεῖν ἐνώπιον τῶν ῥάβδων, ἐλθόντων αὐτῶν εἰς τὸ πιεῖν,",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 47",
+    "hint": "And he set the rods he had peeled in the troughs of the watering places of the water, so that when the sheep came to drink before the rods, as they came to drink,",
+    "notes": [
+      {
+        "lemma": "ἐλθόντων",
+        "flag": "variant",
+        "text": "[[flag]] Codex Alexandrinus puts καί before it."
+      }
+    ],
+    "reading": "and [[set beside|set beside, placed before, gave in charge and entrusted, deposited]] the [[a rod|a rod, a wand, a stick, a switch, a magic wand, a fishing-rod, a limed twig, a spear-staff and shaft, a staff of office, a rod for chastisement, a stripe and strip]], which [[peeled off the husk|peeled off the husk, peeled off the skin and bark, stripped an object of its covering of metal plates]], [[in the troughs|within, inside of, and by means of the troughs, the wine-vats]] of the drinking-troughs for cattle of the water, [[in order that|in order that, so that]], [[as|as, according as, considering, like]] ever [[may come|may come, may go, may go back and return, may be going to and intend, may come within a little of and be near]] the [[things that walk forward|things that walk forward, cattle, flocks and herds, horses, small cattle, sheep]] [[to drink|to drink, to drink of, to drink up]] face to face of the [[a rod|a rod, a wand, a stick, a switch, a magic wand, a fishing-rod, a limed twig, a spear-staff and shaft, a staff of office, a rod for chastisement, a stripe and strip]], [[having come|having come, having gone, having gone back and returned, having been going to and intended, having come within a little of and been near]] of them [[into|into, to, in, rest in]] [[to drink|to drink, to drink of, to drink up]],",
+    "names": []
+  },
+  {
+    "ref": "GEN 30:39",
+    "greek": "ἐγκισσήσωσιν τὰ πρόβατα εἰς τὰς ῥάβδους· καὶ ἔτικτον τὰ πρόβατα διάλευκα καὶ ποικίλα καὶ σποδοειδῆ ῥαντά.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 47",
+    "hint": "the sheep would conceive at the rods; and the sheep bore white-spotted and mottled and ash-coloured speckled young.",
+    "notes": [
+      {
+        "lemma": "ἐγκισσήσωσιν",
+        "flag": null,
+        "text": "No Middle Liddell entry; LSJ has this chapter alone: *have yearnings like one pregnant*."
+      }
+    ],
+    "reading": "[[may have yearnings like one pregnant|may have yearnings like one pregnant]] the [[things that walk forward|things that walk forward, cattle, flocks and herds, horses, small cattle, sheep]] [[into|into, to, in, rest in]] the [[a rod|a rod, a wand, a stick, a switch, a magic wand, a fishing-rod, a limed twig, a spear-staff and shaft, a staff of office, a rod for chastisement, a stripe and strip]]; and [[were bringing into the world|were bringing into the world, were bearing, were bringing forth, were begetting, were producing and yielding]] the [[things that walk forward|things that walk forward, cattle, flocks and herds, horses, small cattle, sheep]] quite white and [[many-coloured|many-coloured, spotted, mottled, pied, dappled, wrought in various colours and broidered, in-wrought, intricate, changeful and various and diversified and manifold, complex, subtle and wily]] and [[ashy|ashy, ash-coloured]] [[sprinkled|sprinkled, speckled or spotted]].",
+    "names": []
+  },
+  {
+    "ref": "GEN 30:40",
+    "greek": "τοὺς δὲ ἀμνοὺς διέστειλεν Ιακωβ καὶ ἔστησεν ἐναντίον τῶν προβάτων κριὸν διάλευκον καὶ πᾶν ποικίλον ἐν τοῖς ἀμνοῖς· καὶ διεχώρισεν ἑαυτῷ ποίμνια καθʼ ἑαυτὸν καὶ οὐκ ἔμιξεν αὐτὰ εἰς τὰ πρόβατα Λαβαν.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 47",
+    "hint": "Jacob set the lambs apart and put a white-spotted ram and every mottled one among the lambs before the sheep; and he separated flocks for himself by themselves and did not mix them with Laban's sheep.",
+    "notes": [
+      {
+        "lemma": "ἀμνούς",
+        "flag": null,
+        "text": "ἀμνός, *a lamb*, where 30:32 has ἀρήν for the same beast: two words, one English word between them."
+      }
+    ],
+    "reading": "the [[but|but, however, whereas, on the other hand]], [[the lambs|the lambs]] [[set apart|set apart, drew asunder and tore apart, distinguished and determined, ordered and commanded]] [[name:Ιακωβ]] and [[made to stand|made to stand, set, stopped and stayed and checked, set up and raised, established and instituted, appointed, weighed]] [[in the presence of|in the presence of, before, opposite and face to face, against]] of the [[of the things that walk forward|of the things that walk forward, of the cattle, of the flocks and herds, of the horses, of the small cattle, of the sheep]] [[a ram|a ram]] quite white and [[all|all, the whole, every, every single]] [[many-coloured|many-coloured, spotted, mottled, pied, dappled, wrought in various colours and broidered, in-wrought, intricate, changeful and various and diversified and manifold, complex, subtle and wily]] [[in the lambs|within, inside of, and by means of the lambs]]; and [[separate|separate, part asunder, set apart]] for himself flocks [[down|down, downwards, down from, down upon, over, upon]] himself and not [[mixed|mixed, mixed up, mingled, joined and brought together]] them [[into|into, to, in, rest in]] the [[things that walk forward|things that walk forward, cattle, flocks and herds, horses, small cattle, sheep]] [[name:Λαβαν]].",
+    "names": [
+      {
+        "greek": "Ιακωβ",
+        "unanchored": "Iakōb",
+        "anchored": "Jacob",
+        "bare": true
+      },
+      {
+        "greek": "Λαβαν",
+        "unanchored": "Laban",
+        "anchored": "Laban",
+        "bare": true
+      }
+    ]
+  },
+  {
+    "ref": "GEN 30:41",
+    "greek": "ἐγένετο δὲ ἐν τῷ καιρῷ, ᾧ ἐνεκίσσησεν τὰ πρόβατα ἐν γαστρὶ λαμβάνοντα, ἔθηκεν Ιακωβ τὰς ῥάβδους ἐναντίον τῶν προβάτων ἐν ταῖς ληνοῖς τοῦ ἐγκισσῆσαι αὐτὰ κατὰ τὰς ῥάβδους·",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 47",
+    "hint": "And at the time when the sheep conceived, taking in the belly, Jacob put the rods before the sheep in the troughs, for them to conceive at the rods;",
+    "notes": [
+      {
+        "lemma": "ἐν γαστρὶ λαμβάνοντα",
+        "flag": null,
+        "text": "*Taking in the belly*, the Greek idiom for conceiving, as at 16:4."
+      },
+      {
+        "lemma": "ἐνεκίσσησεν",
+        "flag": "variant",
+        "text": "[[flag]] Codex Alexandrinus reads ἐγκισσῶν, the participle."
+      }
+    ],
+    "reading": "[[came into being|there came to be, there arose, there was brought into existence]] [[but|but, however, whereas, on the other hand]], [[in the due measure|within, inside of, and by means of the due measure, the proportion, the fitness, the vital part, the right point of time, the proper time and season, the exact and critical time, the time, the advantage and profit and fruit]], to which [[had yearnings like one pregnant|had yearnings like one pregnant]] the [[things that walk forward|things that walk forward, cattle, flocks and herds, horses, small cattle, sheep]] [[in belly|within, inside of, and by means of belly, paunch, the paunch stuffed with mince-meat and black-pudding and sausage, the womb]] [[taking|taking, receiving, taking hold of and grasping and seizing]], [[set|set, put, placed, planted, laid]] [[name:Ιακωβ]] the [[a rod|a rod, a wand, a stick, a switch, a magic wand, a fishing-rod, a limed twig, a spear-staff and shaft, a staff of office, a rod for chastisement, a stripe and strip]] [[in the presence of|in the presence of, before, opposite and face to face, against]] of the [[of the things that walk forward|of the things that walk forward, of the cattle, of the flocks and herds, of the horses, of the small cattle, of the sheep]] [[in the troughs|within, inside of, and by means of the troughs, the wine-vats]] [[to have yearnings like one pregnant|to have yearnings like one pregnant]] them [[down|down, downwards, down from, down upon, over, upon]] the [[a rod|a rod, a wand, a stick, a switch, a magic wand, a fishing-rod, a limed twig, a spear-staff and shaft, a staff of office, a rod for chastisement, a stripe and strip]];",
+    "names": [
+      {
+        "greek": "Ιακωβ",
+        "unanchored": "Iakōb",
+        "anchored": "Jacob",
+        "bare": true
+      }
+    ]
+  },
+  {
+    "ref": "GEN 30:42",
+    "greek": "ἡνίκα δʼ ἂν ἔτεκον τὰ πρόβατα, οὐκ ἐτίθει· ἐγένετο δὲ τὰ ἄσημα τοῦ Λαβαν, τὰ δὲ ἐπίσημα τοῦ Ιακωβ.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 47",
+    "hint": "but whenever the sheep gave birth, he did not put them there; so the unmarked came to be Laban's and the marked Jacob's.",
+    "notes": [
+      {
+        "lemma": "δʼ ἄν",
+        "flag": "variant",
+        "text": "[[flag]] Codex Alexandrinus reads γάρ."
+      }
+    ],
+    "reading": "[[when|when, sometimes]] [[but|but, however, whereas, on the other hand]], ever [[brought into the world|brought into the world, brought forth, bore, produced]] the [[things that walk forward|things that walk forward, cattle, flocks and herds, horses, small cattle, sheep]], not [[was setting|was setting, was putting, was placing, was planting, was laying]]; [[came into being|there came to be, there arose, there was brought into existence]] [[but|but, however, whereas, on the other hand]], the [[the without mark|the without mark, the uncoined, the without device, the giving no sign and unintelligible]] [[name:Λαβαν]], the [[but|but, however, whereas, on the other hand]], [[the having a mark on|the having a mark on, the stamped and coined, the notable and remarkable]] [[name:Ιακωβ]].",
+    "names": [
+      {
+        "greek": "Λαβαν",
+        "unanchored": "Laban",
+        "anchored": "Laban",
+        "bare": true
+      },
+      {
+        "greek": "Ιακωβ",
+        "unanchored": "Iakōb",
+        "anchored": "Jacob",
+        "bare": true
+      }
+    ]
+  },
+  {
+    "ref": "GEN 30:43",
+    "greek": "καὶ ἐπλούτησεν ὁ ἄνθρωπος σφόδρα σφόδρα, καὶ ἐγένετο αὐτῷ κτήνη πολλὰ καὶ βόες καὶ παῖδες καὶ παιδίσκαι καὶ κάμηλοι καὶ ὄνοι.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 48",
+    "hint": "And the man grew very, very rich, and he had many cattle and oxen and servants and slave-girls and camels and asses.",
+    "notes": [
+      {
+        "lemma": "σφόδρα σφόδρα",
+        "flag": null,
+        "text": "The doubling, for the Hebrew *mĕʾōd mĕʾōd*, kept as it stands."
+      }
+    ],
+    "reading": "and [[was rich|was rich, was wealthy, was rich in]] [[the man|the man, the human being]] [[very|very, very much, exceedingly, violently, far, most certainly]] [[very|very, very much, exceedingly, violently, far, most certainly]], and [[came into being|there came to be, there arose, there was brought into existence]] to him [[flocks and herds|flocks and herds, single beasts, oxen, sheep, beasts for riding]] [[many|many, often, much and mighty and great, deep, loud, strong, large and wide, far, long]] and [[cows|cows, oxen, kine and cattle, ox-hide shields]] and [[children|children, sons, daughters, grandchildren, boys and youths and lads, girls and maidens, slaves and servants and men and maids]] and [[young girls|young girls, maidens, young slaves, courtesans]] and [[camels|camels, the camels in an army, the camelry and camel-brigade]] and [[asses|asses, beasts of burden, windlasses and pulleys, upper millstones, beakers and wine-cups]].",
+    "names": []
+  }
+]

@@ -285,6 +285,17 @@ Two were settled by neither: ἐργᾷ at 29:27 is the future middle, as the co
 and the module agrees; and Ιουδα at 29:35 the module files as the indeclinable Ἰουδά, not the declined
 Ἰούδας the second pass proposed.
 
+### What it found in Genesis 30
+
+Twenty-one disagreements over 915 words, and most of them the first pass's: Βαλλα is the nominative
+feminine of Rachel's slave-girl, not a genitive masculine; Ρουβην at 30:14 is the subject; καί at 30:15
+is *also*; καλόν at 30:20 agrees with the accusative δῶρον; ἕτερον at 30:24 with υἱόν; τὰ παιδία at
+30:26 is the object of ἀπόδος; ἐάν after the relative at 30:33 is the particle, as at 28:15; τριῶν at
+30:36 is common gender, as τρεῖς at 29:34; τῶν ῥάβδων at 30:38 is feminine; πᾶν at 30:40 is accusative;
+and the four names Γάδ, Ἀσήρ, Ἰσσαχάρ and Ζαβουλών take the accents MorphGNT gives them, as Ῥαχήλ does.
+The first pass kept θυμόω and δωρέω under the actives Middle Liddell heads, the deliberative ποιήσω of
+27:37, καρύινος as Rahlfs spells it, and κάμηλος feminine, as the corpus has had it since GEN 24.
+
 ## The brief
 
 Copy everything below the rule into a new agent. Replace `<BOOK NAME>`, `<CHAPTER>`,

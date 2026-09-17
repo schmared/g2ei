@@ -92,6 +92,7 @@ what the word means, only which entry is the word, and every case is listed here
 | στεῖρα (GEN 11:30) | `stei=ra2` — *a cow that has not calved*; *barren* | `stei=ra1` is *a ship's keel* |
 | μόσχος (GEN 12:16) | `mo/sxos2` — *a calf* | `mo/sxos1` is *a young shoot* |
 | εὐθύς (GEN 15:4) | `eu)qu/s2` — the adverb, *straightway* | `eu)qu/s1` is the adjective, *straight, direct* |
+| μῆλον (GEN 30:14) | `mh=lon2` — *tree-fruit* | `mh=lon1` is *a sheep or goat* |
 <!-- homograph rows above -->
 
 A lemma belongs there only where the entries are genuinely different words. A word with one
@@ -181,6 +182,7 @@ Three reasons, and all of them are the lexicon's filing rather than a decision a
 | ἐξαίρω (GEN 29:1) | ἐξαείρω | the entry is headed with the Epic form |
 | δωρεάν (GEN 29:15) | δωρεά | the adverb, filed inside the noun's entry |
 | ἐξομολογέω (GEN 29:35) | ἐξομολογέομαι | the entry is headed with the deponent middle |
+| οὐθείς (GEN 30:31) | οὐδείς | the later spelling |
 <!-- spelling rows above -->
 
 The dictionary form itself does not follow the lexicon's filing: it keeps the spelling the text
@@ -214,7 +216,7 @@ GEN 9 adds ὀπισθοφανής, *seen from behind*, and its adverb ὀπισ
 ἔτασις, *trial, affliction*. GEN 14 adds ἁλυκός, *salt, brackish*; ἀποσκευή, whose *removal,
 riddance* comes before *baggage*; σφαιρωτήρ, *thong, latchet*; and περάτης, which opens "= πορθμεύς",
 so that πορθμεύς's LSJ senses, *ferryman*, *boatman, seaman*, *conveyer*, stand before its own
-*wanderer, emigrant*, as ἁγίζω's stand for ἁγιάζω. GEN 15 adds ὑπερασπίζω, *cover with a shield*, from the upsilon file; τριετίζω, *to be three years old*; and διχοτόμημα, *half of a thing cut in two*. GEN 17 adds κατάσχεσις, *holding back, restraining, retention*, then *possession*, from the kappa file; and ἑκατονταέτης, *of a hundred years*, *years old*, citing 17:17. GEN 18 adds μοσχάριον, *little calf*, and, from the beta file, βούτυρον, *butter*, then *a plant*. GEN 19 adds προσοίγνυμι, *shut*; ἀορασία, *inability to see, blindness*; γελοιάζω, *jest*, from the gamma file; ἐπαύριον, *on the morrow*; and εἰσσπάομαι, *draw into oneself*. GEN 20 adds μήτρα, *womb*, whose Middle Liddell entry tags only Latin; δίδραχμον, *coin of two drachms*, under δίδραχμος; and κἀγώ, *crasis for καὶ ἐγώ*. GEN 21 adds ἀπογαλακτίζω, *wean from the mother's milk*; ἀρχιστράτηγος, *commander-in-chief*; and, from the omega file, ὦμος, *the shoulder with the upper arm*. GEN 23 adds παρεπίδημος, *sojourning in a strange place*, and μνημεῖον, *memorial, remembrance, record*, whose Middle Liddell entry tags its first sense only in Latin. GEN 24 adds ποτιστήριον, *drinking-trough for cattle*; ἐνώτιον, *ear-ring*; ἅβρα, *favourite slave*; and ἀποσάττω, *unsaddle, unpack*, *stop up, caulk*, *stuff with food*. GEN 25 adds three more: ὅλος, which Middle Liddell lacks altogether, *whole, entire, complete in all its parts*; δόμα, *gift*, then *payment*; and πυρράκης, *red, ruddy*, which LSJ files as a masculine noun. GEN 26 adds ἑκατοστεύω, *bear a hundredfold*, and γεώργιον, *field*, then *orchard*, *husbandry*, *crop* and, in the plural, a *tax* on land. GEN 27 adds four more: πιότης, *fattiness*, then *wealth, prosperity*; πτερνίζω, *strike with the heel*, *trip up, supplant*; προσοχθίζω, *to be wroth with*, and of this chapter's phrase *am weary* of; and κατανύσσω, *stab, gouge*, and in the passive *to be sorely pricked*. GEN 28 adds one more: ἐνυπνιάζομαι, *dream*, which Middle Liddell does not have at all.
+*wanderer, emigrant*, as ἁγίζω's stand for ἁγιάζω. GEN 15 adds ὑπερασπίζω, *cover with a shield*, from the upsilon file; τριετίζω, *to be three years old*; and διχοτόμημα, *half of a thing cut in two*. GEN 17 adds κατάσχεσις, *holding back, restraining, retention*, then *possession*, from the kappa file; and ἑκατονταέτης, *of a hundred years*, *years old*, citing 17:17. GEN 18 adds μοσχάριον, *little calf*, and, from the beta file, βούτυρον, *butter*, then *a plant*. GEN 19 adds προσοίγνυμι, *shut*; ἀορασία, *inability to see, blindness*; γελοιάζω, *jest*, from the gamma file; ἐπαύριον, *on the morrow*; and εἰσσπάομαι, *draw into oneself*. GEN 20 adds μήτρα, *womb*, whose Middle Liddell entry tags only Latin; δίδραχμον, *coin of two drachms*, under δίδραχμος; and κἀγώ, *crasis for καὶ ἐγώ*. GEN 21 adds ἀπογαλακτίζω, *wean from the mother's milk*; ἀρχιστράτηγος, *commander-in-chief*; and, from the omega file, ὦμος, *the shoulder with the upper arm*. GEN 23 adds παρεπίδημος, *sojourning in a strange place*, and μνημεῖον, *memorial, remembrance, record*, whose Middle Liddell entry tags its first sense only in Latin. GEN 24 adds ποτιστήριον, *drinking-trough for cattle*; ἐνώτιον, *ear-ring*; ἅβρα, *favourite slave*; and ἀποσάττω, *unsaddle, unpack*, *stop up, caulk*, *stuff with food*. GEN 25 adds three more: ὅλος, which Middle Liddell lacks altogether, *whole, entire, complete in all its parts*; δόμα, *gift*, then *payment*; and πυρράκης, *red, ruddy*, which LSJ files as a masculine noun. GEN 26 adds ἑκατοστεύω, *bear a hundredfold*, and γεώργιον, *field*, then *orchard*, *husbandry*, *crop* and, in the plural, a *tax* on land. GEN 27 adds four more: πιότης, *fattiness*, then *wealth, prosperity*; πτερνίζω, *strike with the heel*, *trip up, supplant*; προσοχθίζω, *to be wroth with*, and of this chapter's phrase *am weary* of; and κατανύσσω, *stab, gouge*, and in the passive *to be sorely pricked*. GEN 28 adds one more: ἐνυπνιάζομαι, *dream*, which Middle Liddell does not have at all. GEN 30 adds eight, the whole vocabulary of Jacob's flocks: ἀρήν, *lamb*; διάλευκος, *quite white*; ῥαντός, *sprinkled*, then *speckled or spotted*; σποδοειδής, *ashy, ash-coloured*; ἐγκισσάω, *have yearnings like one pregnant*; λεπίζω, *peel off the husk, skin or bark*; λέπισμα, *peel*; and καρύινος, *of nuts*, *made of walnut-wood*. LSJ cites this chapter for six of the eight.
 <!-- LSJ sentences above -->
 
 GEN 9 also files ἐμεθύσθη under μεθύσκω, *to make drunk*, where Middle Liddell gives its aorist
@@ -614,6 +616,130 @@ the same ground as `the sixth` and `the seventh`: one sense each, so no range to
   settling in` (10:30); δύο `two`; υἱός `sons`.
 - The article before a people's name (τοὺς Λουδιιμ, τὸν Χετταῖον, τῶν Χαναναίων) is not printed,
   as before a person's name.
+
+### Words new in GEN 30
+
+- The naming verses carry the Hebrew wordplay in the Greek where the Greek keeps it: Δαν with ἔκρινεν,
+  Νεφθαλι with συνανεστράφην, Γαδ with ἐν τύχῃ, Ασηρ with μακαρία, Ισσαχαρ with μισθός — glossed in the
+  text itself, ὅ ἐστιν Μισθός — Ζαβουλων with αἱρετιεῖ, and Ιωσηφ with προσθέτω. 30:6–30:24.
+- μῆλον — two entries under one spelling: μῆλον1 *a sheep or goat*, μῆλον2 the fruit. The mandrakes of
+  30:14 are the second. Perseus's markup puts *an apple* inside the Latin tag it opens with, so the
+  entry's first English translation is *tree-fruit*, and that is the headword. 30:14.
+- θυμόω, δωρέω — filed under the actives Middle Liddell heads, as προσκαλέω at 28:1, though the forms
+  here are passive and perfect middle. 30:2, 30:20.
+- στερέω — *to deprive, bereave, rob of*; στερεόω, which the module has, is *to make firm*. 30:2.
+- συλλαμβάνω — the middle Συνελάβετό with the dative at 30:8: Middle Liddell's Mid. is *to lay hold of*,
+  and its sense V, *to take part with, assist*, is what the dative asks. The active, *to collect*, is the
+  conceiving of 30:5 and the rest.
+- τύχη — the first sense is *the good which man obtains*, and *fortune, chance* the third; ἐν τύχῃ takes
+  the ἐν unit. 30:11.
+- ἱκανός — *becoming, befitting, sufficing* first, and *sufficient, adequate, enough* second. 30:15.
+- μισθόω — the perfect middle μεμίσθωμαι takes the Mid. section, *to have let to one, to hire*. 30:16.
+- κοιλία — *belly*, and its chain runs through *the paunch* to *the womb*: καρπὸν κοιλίας, the fruit of
+  the belly. 30:2.
+- ἀφίστημι — the causal aorist ἀπέστησεν, *put away, removed*, where the corpus's ἀπέστη at 12:8 is the
+  intransitive. 30:36.
+- The flock-breeding words, none of them in the abridgement, all from LSJ, and all four cited from this
+  chapter: ἀρήν *lamb*, διάλευκος *quite white*, ῥαντός *sprinkled*, then *speckled or spotted*,
+  σποδοειδής *ashy, ash-coloured*, ἐγκισσάω *have yearnings like one pregnant*, λεπίζω *peel off the
+  husk, skin or bark*, λέπισμα *peel*, καρύινος *of nuts*, *made of walnut-wood*. 30:32–30:41.
+- ἀρήν and ἀμνός — two Greek words for the lamb, and one English word between them: the chains read the
+  same, and only the Greek line tells them apart. 30:32, 30:40.
+- στυράκινος — Middle Liddell glosses it *made of the wood of the tree* and leaves the tree's name,
+  στύραξ, in Greek; the chain keeps the gloss as it stands. 30:37.
+- κλέπτω and πληρόω — two perfect passives, κεκλεμμένον and πεπλήρωνται, each a standing state. 29:21, 30:33.
+- οὐθείς — the later spelling of οὐδείς, which the lexicon files it under. 30:31.
+- ἐνώπιον — the preposition, as at 11:28, and plain text there: `face to face of`. 30:33, 30:38.
+- One sense each in GEN 30, so plain text: υἱός `of the son`; ἀδελφή `the sister`; γόνυ `of the knees`;
+  πυρός `of wheat`; μανδραγόρας `the mandrakes`; τεκνοποιέω `I will bear children`; σήμερον `to-day`;
+  ἐμαυτοῦ `for myself`; ἑαυτοῦ `for himself`; ποτιστήριον `drinking-troughs for cattle`, as at 24:20.
+
+| lemma | headword | chain | used |
+| --- | --- | --- | --- |
+| αἱρετίζω | `will choose` | `will choose, will select` | 30:20 |
+| αἴξ | `the goats` | `the goats, the wild goats and the ibexes, the waves` | 30:35 |
+| αἴξ, with ἐν | `in the goats` | `within, inside of, and by means of the goats` | 30:32, 30:33 |
+| αὐξάνω | `was made large` | `was made large, was increased, was augmented, was increased in power and strengthened and exalted and aggrandised, was promoted to honour and glorified and magnified` | 30:30 |
+| αὔριον | `to-morrow` | `to-morrow, on the morrow` | 30:33 |
+| δίδωμι | `I gave` | `I gave, I granted, I provided, I gave over and delivered up` | 30:18 |
+| διαστέλλω | `set apart` | `set apart, drew asunder and tore apart, distinguished and determined, ordered and commanded` | 30:28, 30:35, 30:40 |
+| διαχωρίζω | `separate` | `separate, part asunder, set apart` | 30:32, 30:40 |
+| δικαιοσύνη | `the righteousness` | `the righteousness, the justice, the observance of custom and rule` | 30:33 |
+| δουλεία | `the servitude` | `the servitude, the slavery, the bondage, the slaves and the slave-class` | 30:26 |
+| δουλεύω | `I have been a slave` | `I have been a slave and stand so, I have served and been subject to` | 30:26, 30:29 |
+| δωρέω | `has given` | `has given and it stands so, has presented and stands so` | 30:20 |
+| δύναμαι | `I was able` | `I was able, I was capable, I was strong enough, I dared and bore, I passed for, I was worth, I was equivalent to, I signified and meant` | 30:8 |
+| δῶρον | `gift` | `gift, present, votive gift, blessing` | 30:20 |
+| εἴσοδος | `to the way in` | `to the way in, to the entrance, to the place of entrance and entry, to the right and privilege of entrance` | 30:27 |
+| ζηλόω | `was jealous of` | `was jealous of, envied, vied with and emulated and rivalled, was zealous after and strove after` | 30:1 |
+| θερισμός | `of reaping-time` | `of reaping-time, of harvest, of the crop` | 30:14 |
+| θυμόω | `was made angry` | `was made angry, was provoked, was wroth, was angry, was wild and restive, vented fury, was angry with` | 30:2 |
+| καρύινος | `of nuts` | `of nuts, made of walnut-wood` | 30:37 |
+| κλέπτω | `having been stolen` | `having been stolen and standing so, having been filched, having been purloined, having been cozened and cheated and deceived and beguiled, having been concealed and kept secret and disguised, having been done secretly and treacherously, having been seized and occupied secretly` | 30:33 |
+| κοιλία | `of belly` | `of belly, of the paunch, of the paunch stuffed with mince-meat and black-pudding and sausage, of the womb` | 30:2 |
+| κοιμάω | `let him be lulled to sleep` | `let him be lulled to sleep, let him be put to sleep, let him fall asleep, let him sleep, let him lie asleep` | 30:15 |
+| κρίνω | `separated` | `separated, put asunder and distinguished, picked out and chose, decided and judged, determined and gave sentence, questioned and disputed` | 30:6 |
+| κριός | `a ram` | `a ram` | 30:40 |
+| λαμβάνω | `taking` | `taking, receiving, taking hold of and grasping and seizing` | 30:41 |
+| λεπίζω | `peeled off the husk` | `peeled off the husk, peeled off the skin and bark, stripped an object of its covering of metal plates` | 30:37, 30:38 |
+| λευκός | `light` | `light, bright, brilliant, glassy, limpid, clear and plain and distinct, white, fair` | 30:35, 30:37 |
+| ληνός, with ἐν | `in the troughs` | `within, inside of, and by means of the troughs, the wine-vats` | 30:38, 30:41 |
+| μίγνυμι | `mixed` | `mixed, mixed up, mingled, joined and brought together` | 30:40 |
+| μακάριος | `blessed` | `blessed, happy` | 30:13 |
+| μακαρίζω | `they bless` | `they bless, they deem happy, they pronounce happy` | 30:13 |
+| μισθός | `wages` | `wages, pay, hire, recompense and reward, payment and requital` | 30:32 |
+| μισθόω | `I have had let to me` | `I have had let to me and it stands so, I have hired and it stands so, I have engaged for pay` | 30:16 |
+| μῆλον | `tree-fruits` | `tree-fruits, girls' breasts, the cheeks` | 30:14 |
+| οἰωνίζομαι | `I took omens from the flight and cries of birds` | `I took omens from the flight and cries of birds, I divined from omens and augured` | 30:27 |
+| οὐθείς | `and not one` | `and not one, no one and none, naught and good for naught` | 30:31 |
+| πέμπτος | `fifth` | `fifth, one with four others, a fifth part` | 30:17 |
+| πίνω | `to drink` | `to drink, to drink of, to drink up` | 30:38 |
+| παρέρχομαι | `let it go by` | `let it go by, let it go beside, let it go past, let it pass by and outstrip, let it come forward` | 30:32 |
+| παρατίθημι | `set beside` | `set beside, placed before, gave in charge and entrusted, deposited` | 30:38 |
+| περισύρω | `dragging about` | `dragging about, tearing away from` | 30:37 |
+| πλάτανος | `of the oriental plane` | `of the oriental plane` | 30:37 |
+| πλουτέω | `was rich` | `was rich, was wealthy, was rich in` | 30:43 |
+| ποικίλος | `many-coloured` | `many-coloured, spotted, mottled, pied, dappled, wrought in various colours and broidered, in-wrought, intricate, changeful and various and diversified and manifold, complex, subtle and wily` | 30:37, 30:39, 30:40 |
+| ποιμαίνω | `I will be shepherd` | `I will be shepherd, I will tend, I will roam the pastures, I will tend and cherish and mind` | 30:31 |
+| ποιμαίνω | `was shepherd` | `was shepherd, was tending, was roaming the pastures, was tending and cherishing and minding` | 30:36 |
+| προστίθημι | `let him put to` | `let him put to, let him hand over and deliver, let him give and bestow, let him impose further, let him attribute, let him add` | 30:24 |
+| πότε | `when` | `when, at what time` | 30:30 |
+| σποδοειδής | `ashy` | `ashy, ash-coloured` | 30:39 |
+| στερέω | `deprived` | `deprived, bereaved, robbed of, took away` | 30:2 |
+| στυράκινος | `made of the wood of the tree` | `made of the wood of the tree` | 30:37 |
+| συλλαμβάνω | `laid hold of for himself` | `laid hold of for himself, seized for himself, took part with and assisted` | 30:8 |
+| συναναστρέφω | `was turned back together` | `was turned back together, lived along with` | 30:8 |
+| τίθημι | `was setting` | `was setting, was putting, was placing, was planting, was laying` | 30:42 |
+| τίκτω | `were bringing into the world` | `were bringing into the world, were bearing, were bringing forth, were begetting, were producing and yielding` | 30:39 |
+| τίκτω | `will bring into the world` | `will bring into the world, will bear, will bring forth, will beget, will produce and yield` | 30:3 |
+| τελευτάω | `I will finish` | `I will finish, I will accomplish, I will end my life and die, I will end and come to an end` | 30:1 |
+| τράγος | `the he-goats` | `the he-goats` | 30:35 |
+| τύχη, with ἐν | `in the good which man obtains` | `within, inside of, and by means of the good which man obtains, the favour of the gods and good fortune and luck and success, fortune and chance, ill fortune` | 30:11 |
+| φαίνω | `was being brought to light` | `was being brought to light, was being made to appear, was showing itself, was appearing, was coming to light and being seen, was shining` | 30:37 |
+| φαιός | `dusky` | `dusky, dun, gray` | 30:32, 30:33, 30:35 |
+| φυλάσσω | `I will keep watch and ward` | `I will keep watch and ward, I will keep guard, I will watch and guard and keep and defend, I will watch for and lie in wait for, I will keep and maintain and cherish, I will observe` | 30:31 |
+| ἀμνός | `the lambs` | `the lambs` | 30:40 |
+| ἀμνός, with ἐν | `in the lambs` | `within, inside of, and by means of the lambs` | 30:32, 30:33, 30:35, 30:40 |
+| ἀποστέλλω | `send off` | `send off, send away, banish, despatch, go away and depart` | 30:25 |
+| ἀρήν, with ἐν | `in the lambs` | `within, inside of, and by means of the lambs` | 30:32, 30:33, 30:35, 30:40 |
+| ἀφίστημι | `put away` | `put away, removed, hindered from, frustrated, deposed, made to revolt and moved to revolt, weighed out` | 30:36 |
+| ἀφαιρέω | `took from` | `took from, took away from, took off, removed, separated and set aside` | 30:23 |
+| ἄνθρωπος | `the man` | `the man, the human being` | 30:43 |
+| ἄσημος | `the without mark` | `the without mark, the uncoined, the without device, the giving no sign and unintelligible` | 30:42 |
+| ἐγκισσάω | `had yearnings like one pregnant` | `had yearnings like one pregnant` | 30:41 |
+| ἐγκισσάω | `may have yearnings like one pregnant` | `may have yearnings like one pregnant` | 30:39 |
+| ἐγκισσάω | `to have yearnings like one pregnant` | `to have yearnings like one pregnant` | 30:41 |
+| ἐπίσημος | `the having a mark on` | `the having a mark on, the stamped and coined, the notable and remarkable` | 30:42 |
+| ἐπακούω | `will listen` | `will listen, will hearken to and hear, will give ear and hearken, will obey` | 30:33 |
+| ἔρχομαι | `may come` | `may come, may go, may go back and return, may be going to and intend, may come within a little of and be near` | 30:38 |
+| ἕκτος | `sixth` | `sixth` | 30:19 |
+| ἡμέρα, with ἐν | `in days` | `within, inside of, and by means of days, day-breaks, times` | 30:14 |
+| ἱκανός | `becoming` | `becoming, befitting, sufficing, sufficient and competent, sufficient and adequate and enough, large enough, considerable and long, satisfactory` | 30:15 |
+| ὁδός | `way` | `way, path, track, road, highway, course, journey, manner and method` | 30:36 |
+| ὄνειδος | `the reproach` | `the reproach, the censure, the blame, the disgrace, the matter of reproach` | 30:23 |
+| ὑπολείπω | `the ones having been left behind` | `the ones having been left behind, the ones having been left remaining, the ones having been left in reserve` | 30:36 |
+| ῥάβδος | `a rod` | `a rod, a wand, a stick, a switch, a magic wand, a fishing-rod, a limed twig, a spear-staff and shaft, a staff of office, a rod for chastisement, a stripe and strip` | 30:37, 30:38, 30:39, 30:41 |
+| ῥαντός | `sprinkled` | `sprinkled, speckled or spotted` | 30:32, 30:33, 30:35, 30:39 |
 
 ### Words new in GEN 29
 
@@ -4392,6 +4518,15 @@ Greek makes it a woman's, the mother of Eliezer, whom it calls Δαμασκὸς
 | Συμεων | Symeōn | Simeon | `(Συμεων, from Hebrew Šimʿôn, which the Hebrew of this verse hears in šāmaʿ, "he has heard")` |
 | Λευι | Leui | Levi | `(Λευι, from Hebrew Lēwî, which the Hebrew of this verse hears in lāwâ, "he will be joined")` |
 | Ιουδα | Iouda | Judah | `(Ιουδα, from Hebrew Yĕhûdâ, which the Hebrew of this verse hears in yādâ, "praise")` |
+
+| Νεφθαλι | Nephthali | Naphtali | `(Νεφθαλι, from Hebrew Naptālî, which the Hebrew of this verse hears in niptaltî, "I have wrestled")` |
+| Γαδ | Gad | Gad | `(Γαδ, from Hebrew Gād, "fortune", which the Greek keeps in ἐν τύχῃ)` |
+| Ασηρ | Asēr | Asher | `(Ασηρ, from Hebrew ʾĀšēr, "happy", which the Greek keeps in μακαρία)` |
+| Ισσαχαρ | Issachar | Issachar | `(Ισσαχαρ, from Hebrew Yiśśāḵār, which the Hebrew of this verse hears in śāḵār, "wage")` |
+| Μισθός | Misthos | Wage | `(Μισθός, the Greek word for wage, which Rahlfs prints with a capital as the name's meaning)` |
+| Ζαβουλων | Zaboulōn | Zebulun | `(Ζαβουλων, from Hebrew Zĕbûlûn, which the Hebrew of this verse hears in zābal, "honour, dwell with")` |
+| Δινα | Dina | Dinah | `(Δινα, from Hebrew Dînâ, of uncertain meaning, from the root dîn, "judge")` |
+| Ιωσηφ | Iōsēph | Joseph | `(Ιωσηφ, from Hebrew Yôsēp̄, which the Hebrew of this verse hears in yōsēp̄, "may he add", and in ʾāsap̄, "he has taken away")` |
 <!-- name rows above -->
 
 Σύγχυσις translates the name where 10:10 gave the city its Greek name, Βαβυλών; as with Ζωή at

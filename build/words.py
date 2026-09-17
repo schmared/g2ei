@@ -209,6 +209,23 @@ LSJ = {
     # Middle Liddell has ἐνύπνιον but not the verb. LSJ (eng5): ἐνυπνιάζω, "dream", with the
     # middle and passive used of the same thing; MorphGNT files the middle, ἐνυπνιάζομαι.
     "ἐνυπνιάζομαι": ["dream"],
+    # The flock-breeding words of GEN 30, none of them in the abridgement.
+    # LSJ (eng1) ἀρήν, the lamb whose nominative survives only in inscriptions.
+    "ἀρήν": ["lamb"],
+    # LSJ (eng4) cites this very verse: "διάλευκος … LXX Ge. 30.32".
+    "διάλευκος": ["quite white"],
+    # LSJ (eng20) cites GEN 30:32 for the animals; the first sense is of sprinkling.
+    "ῥαντός": ["sprinkled", "speckled or spotted"],
+    # LSJ (eng12) has the active "in LXX Ge. 30.37"; the second sense is of metal plates.
+    "λεπίζω": ["peel off the husk, skin or bark", "strip an object of its covering of metal plates"],
+    # LSJ (eng12) cites GEN 30:37 and nothing else for the noun.
+    "λέπισμα": ["peel"],
+    # LSJ (eng11) files it καρύϊνος and cites the LXX ῥάβδος for the walnut-wood sense.
+    "καρύινος": ["of nuts", "made of walnut-wood"],
+    # LSJ (eng21) cites GEN 30:39 among the ash-coloured things.
+    "σποδοειδής": ["ashy, ash-coloured"],
+    # LSJ (eng5) has this verse alone: "ἐγκισσάω, have yearnings like one pregnant, LXX Ge. 30.38".
+    "ἐγκισσάω": ["have yearnings like one pregnant"],
 }
 
 # New Testament books: MorphGNT file and its book number.
@@ -749,6 +766,33 @@ NOT_SENSES = {
     "e)rgasi/a": {"a working"},                 # a piece of "a working of a material"
     "e)rga/zomai": {"to do", "to"},             # pieces of sense II.2
     "a)noi/gnumi": {"and opened", "to tap"},    # pieces of examples
+    # GEN 30
+    "qumo/w": {"angry"},                        # a piece of "to be wroth, angry"
+    "stere/w": {"robbed of", "to have taken from one"},  # pieces of the passive
+    "go/nu": {"the knees", "by [clasping] the knees", "on", "knees"},  # pieces of examples
+    "tu/xh": {"by ill-luck"},                   # a piece of an example
+    "maka/rios": {"my good sir, my dear sir", "happy you", "the rich and better educated"},  # pieces of examples
+    "makari/zw": {"to deem", "while we bless"},  # a piece of "to bless, to deem or pronounce happy"
+    "mh=lon": {"sweet", "round as apples."},    # pieces of examples
+    "i(kano/s": {"sufficient", "with sufficient power", "sufficiently versed in", "very tolerable", "enough", "large enough", "security"},  # pieces of examples
+    "misqo/w": {"to offer to let", "offers", "for pay", "to let out"},  # pieces of senses I and II
+    "pe/mptos": {"the fifth day"},              # a piece of an example
+    "dwre/w": {"to be given", "presented", "to be presented with"},  # the passive of sense I
+    "o)/neidos": {"of reproach", "the reproach"},  # pieces of examples
+    "ei)/sodos": {"entrance, a right"},         # a piece of "entrance, a right or privilege of entrance"
+    "ou)qei/s": {"good for nothing", "nobodies"},  # pieces of examples
+    "poimai/nw": {"has been traversed"},        # a piece of an example
+    "kle/ptw": {"stole", "to let", "down secretly", "thievish"},  # pieces of examples
+    "leuko/s": {"glassy", "bright, limpid"},    # pieces of sense I
+    "r(a/bdos": {"the measure"},                # a piece of an example
+    "poiki/los": {"in-wrought", "the Poecile"},  # a piece of sense II.2, and the great hall at Athens
+    "lhno/s": {"trough;"},                      # the entry's first word, repeated whole below it
+    "mi/gnumi": {"to mix", "with", "to join"},  # pieces of senses I and II
+    "a)/shmos": {"sign", "with"},               # pieces of "without mark or sign"
+    "e)pi/shmos": {"with", "inscription on them"},  # pieces of an example
+    "ploute/w": {"to be rich"},                 # a bare repetition of the first sense
+    "fai/nw": {"to shew", "to make"},           # pieces of examples
+    "parati/qhmi": {"to place upon", "to lay before"},  # pieces of examples
 }
 
 # An entry that divides its senses by tense and voice, so that which of them belong to a
@@ -880,6 +924,7 @@ SPELLING = {
     "kli/mac": "kli=mac",           # the entry is headed with the circumflex
     "e)cai/rw": "e)caei/rw",       # the entry is headed with the Epic ἐξαείρω
     "dwrea/n": "dwrea/",           # the adverb, filed inside the noun's entry
+    "ou)qei/s": "ou)dei/s",        # the later spelling, filed under οὐδείς
     "e)comologe/w": "e)comologe/omai",  # the entry is headed with the deponent middle
 }
 
@@ -898,6 +943,7 @@ ENTRY = {
     "o(do/s": "o(do/s2",  # o(do/s1 is the attic ὀδός for οὐδός, "a threshold"; GEN 3:24 is the way
     "stei=ra": "stei=ra2",  # stei=ra1 is a ship's keel; the barren woman of GEN 11:30 is the second
     "mo/sxos": "mo/sxos2",  # mo/sxos1 is a young shoot; the calf of GEN 12:16 is the second
+    "mh=lon": "mh=lon2",  # mh=lon1 is a sheep or goat; the mandrake fruit of GEN 30:14 is the apple
 }
 
 PUNCT = re.compile(r"[.,;:·!?—·()]")
