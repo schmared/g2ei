@@ -177,6 +177,11 @@ One disagreement over 355 words. At 16:14, Φρέαρ οὗ ἐνώπιον ε�
 relative, *the well of him whom I saw*; the first read the adverb, *the well where I saw face to
 face*, since the name repeats Hagar's ἐνώπιον εἶδον of 16:13, and that reading was kept.
 
+### What it found in Genesis 17
+
+Nothing: the two passes agreed on all 583 words, once the elision mark was written U+02BC in
+both, as the brief asks.
+
 ## The brief
 
 Copy everything below the rule into a new agent. Replace `<BOOK NAME>`, `<CHAPTER>`,
@@ -231,6 +236,9 @@ Small words are tagged as MorphGNT tags them:
 - **X-** ἄν; ἐάν where it stands for ἄν after a relative (`ὃ ἐὰν θέλητε`, John 15:7); ἰδού;
   μή opening a question that expects *no*
 - **A-** εὐθύς meaning *immediately*, `A- ----NSM-`, as MorphGNT codes it all 51 times
+- **D-** αὐτοῦ meaning *here*, under the lemma αὐτοῦ, as MorphGNT has it (Matt 26:36); πρωΐ, filed as
+  πρωΐ
+- **C-** ἄρα, *then, perhaps*, as MorphGNT codes it 46 times of 49
 - **D-** οὐ, μή, νῦν, τότε, εὖ, ἅμα with no dative after it, ἔτι, ἐκεῖ, ἐκεῖθεν, ποῦ, δεῦτε; καί meaning *also, even*, and the καί of
   `καὶ γάρ` (all 38 times in MorphGNT); ὅθεν meaning *from where* (Matt 12:44); οὐδέ meaning *not
   even*; ὅτε after a noun of time (`ἔρχεται ὥρα ὅτε`, John 4:21); οὗ meaning *where* (οὗ meaning
@@ -285,6 +293,8 @@ Conventions:
   codes `ἐν γῇ Χανάαν` at Acts 13:19.
 - An indeclinable common noun takes its gender from the article or adjective beside it.
 - An article before an indeclinable name still carries full case, number and gender.
+- A name after a repeated article — `τὴν δρῦν τὴν Μαμβρη`, `ἐν τῇ ἐρήμῳ τῇ Φαραν` — is genitive:
+  *the oak, the one of Mambre*.
 - An adjective used as a noun stays `A-`: ἡ ξηρά, *the dry land*, is `A- ----NSF- ξηρός`, as
   MorphGNT codes it, and so is ἡ ἔρημος, *the desert*, `A- ----DSF- ἔρημος` all 23 times in
   MorphGNT; so are ἡ περίχωρος, *the country round about*, and τὸ πρότερον, *before*,
@@ -332,20 +342,23 @@ The dictionary form as Middle Liddell (Perseus) files it:
   ἐννακόσιοι, κατάγαιος, τεσσαράκοντα — even where Middle Liddell or MorphGNT spells the word
   otherwise (γίγνομαι, ἔχθρη, νεοσσιά, ἐνακόσιοι, κατάγειος, τεσσεράκοντα). What goes to the
   dictionary is the form, not the spelling: a contracted form goes under the form Middle Liddell
-  cites, the uncontracted ὀστέον for ὀστοῦν but the contracted συκῆ; ἕνεκεν → ἕνεκα. A neuter
+  cites, the uncontracted ὀστέον for ὀστοῦν but the contracted συκῆ; ἕνεκεν → ἕνεκα, εἵνεκεν → εἵνεκα;
+  ἀμφότεροι → ἀμφότερος, the singular Middle Liddell heads, not MorphGNT's plural. A neuter
   noun filed as such: πετεινόν.
 - Proper names: a name the New Testament also uses, of a person or a place, takes MorphGNT's
   dictionary form, accented though Rahlfs prints it bare, even where the New Testament uses it of
   another bearer (Χανάαν the land, Acts 7:11; Μαγώγ a people, Rev 20:8). So far: Ἀδάμ, Εὕα, Κάϊν,
   Ἅβελ, Σήθ, Ἐνώς, Ἑνώχ, Μαθουσαλά, Λάμεχ, Μαλελεήλ, Νῶε, Σήμ, Χανάαν, Μαγώγ, Ἀρφαξάδ, Σαλά, Ἔβερ,
   Φάλεκ, Ἀράμ, Ῥαγαύ, Σερούχ, Ναχώρ, Θάρα, Λώτ, Χαρράν, Φαραώ, Συχέμ, Μελχισέδεκ, Σαλήμ, Βαλάκ,
-  Ἐλιέζερ, Ἁγάρ, and the declined Σιδών, Γάζα, Βαβυλών, Σόδομα, Γόμορρα, Αἴγυπτος, Αἰγύπτιος,
-  Χαλδαῖος, Ἰορδάνης, Φερεζαῖος and Δαμασκός. Where the New Testament spells the name with other
+  Ἐλιέζερ, Ἁγάρ, Ἀβραάμ, Σάρρα, Ἰσαάκ, Ἰακώβ, Ἠσαῦ, Ἰσραήλ, Ῥαχήλ, Λευί, Ῥουβήν, Συμεών, Ἰσσαχάρ,
+  Ζαβουλών, Γάδ, Ἀσήρ, Ἰωσήφ, Βενιαμίν, Ἐφραίμ, Βηθλέεμ, Ἑμμώρ, Μαδιάμ, Κόρε, Ζάρα, Φαρές, Ἤρ, Σαούλ, Ἀράμ, and the declined Σιδών, Γάζα, Βαβυλών, Σόδομα, Γόμορρα, Αἴγυπτος, Αἰγύπτιος,
+  Χαλδαῖος, Ἰορδάνης, Φερεζαῖος, Δαμασκός, Ῥεβέκκα, Ἰούδας, Μανασσῆς (τὸν Μανασση, as Matt 1:10 τὸν Μανασσῆ), Μεσοποταμία, Συρία, Ἀραβία, Ἑβραῖος and Ἰδουμαία.
+  Νεφθαλι is not Νεφθαλίμ, nor Βαλααν Βαλαάμ. Where the New Testament spells the name with other
   letters (Luke 3:36–37 Καϊνάμ, Ἰάρετ), it is not the same dictionary form; a breathing or accent is
   not a letter, so Αβραμ and Σαρα are not Ἀβραάμ and Σάρρα, but Αβρααμ and Σαρρα are.
 - Every other Semitic name, of a person or a place, exactly as printed, unaccented (Εδεμ, Φισων,
   Ναιδ), and in the nominative where it is declined. Greek names in the nominative singular
-  (Αἰθιοπία, Τίγρις, Ἀσσύριος, Εὐφράτης, Χετταῖος, Ῥόδιος), with the breathing Rahlfs prints or
+  (Αἰθιοπία, Τίγρις, Ἀσσύριος, Εὐφράτης, Χετταῖος, Ῥόδιος, Σύρος), with the breathing Rahlfs prints or
   leaves off (Αμορραῖος, Ομμαῖος). A Greek word the text prints capitalised as a name keeps its
   capital in the lemma.
 - Σόδομα is neuter plural (ἐν Σοδομοις); Γόμορρα is declined either way, and the form decides:
@@ -358,6 +371,8 @@ The dictionary form as Middle Liddell (Perseus) files it:
 
 ## When you finish
 
-Verify the line count and the per-verse counts. Then reply briefly: the line count, and at
-most ten words you found genuinely ambiguous, with how you decided each. Do not compare your
+Verify the line count and the per-verse counts. Write at most ten words you found genuinely
+ambiguous, with how you decided each, to a file beside your output named as it is with
+`.notes.txt` in place of `.txt`. Then reply with the line count only: the other analysis is
+written without seeing your notes, and your reply is read before it is. Do not compare your
 work against anything.

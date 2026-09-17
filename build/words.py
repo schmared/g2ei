@@ -137,6 +137,11 @@ LSJ = {
     "ὑπερασπίζω": ["cover with a shield", "defend"],
     "τριετίζω": ["to be three years old"],
     "διχοτόμημα": ["half of a thing cut in two", "any portion of a thing cut up"],
+    # No Middle Liddell entry for these two. LSJ (eng11): κατάσχεσις, "holding back, restraining,
+    # retention", "possession", "relation, attitude". LSJ (eng5): ἑκατονταέτης, one sense, "of a
+    # hundred years", and "years old" after its citation of this verse, LXX Ge. 17.17.
+    "κατάσχεσις": ["holding back, restraining, retention", "possession", "relation, attitude"],
+    "ἑκατονταετής": ["of a hundred years, years old"],
 }
 
 # New Testament books: MorphGNT file and its book number.
@@ -456,6 +461,16 @@ NOT_SENSES = {
     "a)podidra/skw": {"by stealth"},            # a piece of an example
     "plh=qos": {"in force", "in great numbers", "upon the whole, in general", "usually, mostly"},  # adverbial phrases
     "e)pakou/w": {"to hear", "from"},           # pieces of examples
+    # GEN 17
+    "a)/memptos": {"in regard of", "less blameworthy", "so as to merit no blame, right well", "without censure"},  # an example's piece, the comparative, the adverbs
+    "pi/ptw": {"to fall in", "to fall and lie", "the fallen", "to fall by", "fell", "cadunt austri)", "to fail", "to fall out of"},  # pieces of examples
+    "perite/mnw": {"cutting off", 'for oneself, "lifting"'},  # pieces of an example
+    "paidi/on": {"a little"},                   # half of "a little or young child"
+    "oi)ki/a": {"establishments"},              # a piece of an example
+    "a)llo/trios": {"of", "malis ridere alienis", "the help of another's", "as if it absolutely belonged to another", "unfavourably", "favourably"},  # pieces of examples, Latin, the adverbs
+    "gela/w": {"a laugh being raised"},         # a piece of an example
+    "nai/": {"yea by . ."},                     # an oath formula
+    "e)niauto/s": {"times", "during", "every year"},  # pieces of examples
 }
 
 # An entry that divides its senses by tense and voice, so that which of them belong to a
@@ -513,6 +528,8 @@ SPELLING = {
     "e(/neken": "e(/neka",          # the Koine form of the Attic preposition
     "e)nte/llomai": "e)nte/llw",    # deponent, filed under the active
     "fobe/omai": "fobe/w",          # MorphGNT's middle, filed under the active
+    "e)coleqreu/w": "e)coloqreu/w",  # the spelling the text prints; Middle Liddell heads the other
+    "a)rseniko/s": "a)rreniko/s",    # the less Attic form, as LSJ calls it
     "e)/xqra": "e)/xqrh",           # the entry is headed with the Ionic spelling
     "deilino/s": "deielino/s",      # cross-reference; "contr. for δειελινός" glosses nothing
     "o)rqw=s": "o)rqo/s",           # the adverb, filed inside the adjective's entry

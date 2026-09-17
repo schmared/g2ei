@@ -138,6 +138,8 @@ Three reasons, and all of them are the lexicon's filing rather than a decision a
 | ἐπειδή (GEN 15:3) | ἐπεί | not in Middle Liddell; LSJ's entry reads "v. ἐπεί" |
 | κλίβανος (GEN 15:17) | κρίβανος | the entry is headed with the Attic κρίβανος |
 | κυρία (GEN 16:4) | κύριος (the second entry) | cross-reference; "fem. of κύριος signf. B. 1. 2." |
+| ἐξολεθρεύω (GEN 17:14) | ἐξολοθρεύω | the spelling the text prints, as MorphGNT files ἐξολεθρευθήσεται (Acts 3:23) |
+| ἀρσενικός (GEN 17:10) | ἀρρενικός | LSJ: "less Att. form ἀρσενικός" |
 <!-- spelling rows above -->
 
 The dictionary form itself does not follow the lexicon's filing: it keeps the spelling the text
@@ -171,7 +173,7 @@ GEN 9 adds ὀπισθοφανής, *seen from behind*, and its adverb ὀπισ
 ἔτασις, *trial, affliction*. GEN 14 adds ἁλυκός, *salt, brackish*; ἀποσκευή, whose *removal,
 riddance* comes before *baggage*; σφαιρωτήρ, *thong, latchet*; and περάτης, which opens "= πορθμεύς",
 so that πορθμεύς's LSJ senses, *ferryman*, *boatman, seaman*, *conveyer*, stand before its own
-*wanderer, emigrant*, as ἁγίζω's stand for ἁγιάζω. GEN 15 adds ὑπερασπίζω, *cover with a shield*, from the upsilon file; τριετίζω, *to be three years old*; and διχοτόμημα, *half of a thing cut in two*.
+*wanderer, emigrant*, as ἁγίζω's stand for ἁγιάζω. GEN 15 adds ὑπερασπίζω, *cover with a shield*, from the upsilon file; τριετίζω, *to be three years old*; and διχοτόμημα, *half of a thing cut in two*. GEN 17 adds κατάσχεσις, *holding back, restraining, retention*, then *possession*, from the kappa file; and ἑκατονταέτης, *of a hundred years*, *years old*, citing 17:17.
 <!-- LSJ sentences above -->
 
 GEN 9 also files ἐμεθύσθη under μεθύσκω, *to make drunk*, where Middle Liddell gives its aorist
@@ -571,6 +573,81 @@ the same ground as `the sixth` and `the seventh`: one sense each, so no range to
   settling in` (10:30); δύο `two`; υἱός `sons`.
 - The article before a people's name (τοὺς Λουδιιμ, τὸν Χετταῖον, τῶν Χαναναίων) is not printed,
   as before a person's name.
+
+### Words new in GEN 17
+
+- περιτέμνω — Middle Liddell's *to cut* or *clip round about*, tagged in two pieces; *to cut* is a
+  gloss by itself and heads, as *to go* heads συμπορεύομαι's *to go or journey together* (13:5).
+  A passive form takes the active senses, *to be pruned*, *to be cut off*, *to be cut off and hemmed
+  in all round*, and the passive's own, *to be curtailed of*, *to be cut off, intercepted*, last.
+  *To make incisions all round* and *they practise circumcision* are translations of the middle
+  alone, and neither passive nor active takes them. 17:10–14, 17:23–27.
+- παιδίον — Middle Liddell's *a little* or *young child*: *a little* is no gloss by itself, so it
+  goes in NOT_SENSES and *young child* heads. ἀλλότριος — *of* or *belonging to another*: *of*
+  likewise, and *belonging to another* heads. 17:12.
+- ἐνιαυτός — first *any long period of time, a cycle, period*; with the article, *the* stands where
+  the lexicon has *any*, as it does for *a*: `in the long period of time`. 17:21.
+- ἑκατονταέτης — articular, with no noun: `to the of a hundred years`, the article and the lexicon's
+  gloss, as ὁ οἰκογενής is `the born in the house` (15:3). 17:17.
+- ἀλλογενής — the gloss *of another race* in the genitive plural: the case's `of` stands before the
+  lexicon's own, `of of another race`. 17:27.
+- θεός anarthrous, not fronted — εἶναί σου θεός (17:7), ἔσομαι αὐτοῖς θεός (17:8): `God` /
+  `everything that God is by nature, deity in full and undiminished kind`.
+- Αβραμ and Αβρααμ, Σαρα and Σαρρα — two names each, each glossed on its first occurrence in the
+  chapter; the anchored forms are Abram, Abraham, Sarai, Sarah. 17:5, 17:15.
+- One sense each in GEN 17, so plain text: ἀρσενικός `male` (17:10, 17:12), under ἀρρενικός;
+  ἀργυρώνητος `bought with silver` (17:12, 17:13, 17:23, 17:27); περιτομή `to circumcision`
+  (17:13); ἀπερίτμητος `uncircumcised` and ὄγδοος `eighth` (17:14); ἐξολεθρεύω `will be destroyed
+  utterly` (17:14), under ἐξολοθρεύω; δώδεκα `twelve` (17:20).
+
+| lemma | headword | chain | used |
+| --- | --- | --- | --- |
+| αὐξάνω | `I will make large` | `I will make large, I will increase and augment, I will increase in power and strengthen and exalt, I will promote to honour and glorify and magnify, I will grow and wax and increase, I will grow up` | 17:6, 17:20 |
+| γένος | `of the race` | `of the race, of the stock and family, of the offspring and posterity, of the clan and house, of the tribe and caste, of the breed, of the age and generation, of the sex and gender, of the class and sort and kind, of the genus` | 17:14 |
+| γίνομαι | `come into being` | `come to be, arise, be brought into existence` | 17:1 |
+| γίνομαι | `will come into being` | `will come to be, will arise, will be brought into existence` | 17:17 |
+| γελάω | `laughed` | `laughed, laughed at, derided` | 17:17 |
+| γενεά | `the races` | `the races, the stocks and families, the breeds, the tribes and nations, the generations, the offspring, the birth-places, the ages and times of life` | 17:9, 17:10, 17:12 |
+| γεννάω | `will beget` | `will beget, will engender, will bring forth, will produce` | 17:20 |
+| διάνοια, with ἐν | `in the thought` | `within, inside of, and by means of the thought, the intention and purpose, the notion and opinion, the intelligence and understanding, the meaning` | 17:17 |
+| διασκεδάννυμι | `scattered abroad` | `scattered abroad, scattered to the winds, dispersed, disbanded` | 17:14 |
+| διατηρέω | `you will watch closely` | `you will watch closely, you will observe, you will keep faithfully and maintain, you will keep` | 17:9, 17:10 |
+| εὐαρεστέω | `be well pleasing` | `be well pleasing, seem good, be resolved, be well pleased and satisfied` | 17:1 |
+| εὐλογέω | `I spoke well of` | `I spoke well of, I praised, I honoured, I blessed` | 17:20 |
+| ζάω | `let live` | `let live, let be in full life and strength, let be fresh and strong` | 17:18 |
+| θεός | `God` | `everything that God is by nature, deity in full and undiminished kind` | 17:7, 17:8 |
+| καιρός | `the due measure` | `the due measure, the proportion, the fitness, the vital part, the right point of time, the proper time and season, the exact and critical time, the time, the advantage and profit and fruit` | 17:21 |
+| καιρός, with ἐν | `in the due measure` | `within, inside of, and by means of the due measure, the proportion, the fitness, the vital part, the right point of time, the proper time and season, the exact and critical time, the time, the advantage and profit and fruit` | 17:23, 17:26 |
+| καλέω | `will be called` | `will be called, will be summoned, will be invited` | 17:5, 17:15 |
+| κατάσχεσις | `holding back` | `holding back, restraining, retention, possession, relation and attitude` | 17:8 |
+| λαλέω | `talking` | `talking, chatting, prattling, babbling, saying, talking of, speaking, chattering, chirping` | 17:22 |
+| ναί | `yea` | `yea, verily, aye and yes` | 17:19 |
+| οἰκία | `of the building` | `of the building, of the house, of the dwelling, of the household and domestic establishment, of the household and inmates of the house, of the house and family from which one is descended` | 17:12, 17:13 |
+| πίπτω | `fell` | `fell, fell down, fell violently upon and attacked, threw himself down and fell down, fell and was ruined, fell and sank, fell short and failed, fell and turned out, was lucky, fell under and belonged to` | 17:3, 17:17 |
+| παιδίον | `young child` | `young child, a slave-lad` | 17:12 |
+| παροικέω | `you dwell beside` | `you dwell beside, you dwell along the coast of, you live near, you dwell among, you lie near, you live in and sojourn` | 17:8 |
+| περιτέμνω | `cut` | `cut, clipped round about, pruned, cut off, cut off and hemmed in all round` | 17:23, 17:24, 17:27 |
+| περιτέμνω | `was cut` | `was cut, was clipped round about, was pruned, was cut off, was cut off and hemmed in all round, was curtailed of, was cut off and intercepted` | 17:25, 17:26 |
+| περιτέμνω | `will be cut` | `will be cut, will be clipped round about, will be pruned, will be cut off, will be cut off and hemmed in all round, will be curtailed of, will be cut off and intercepted` | 17:10, 17:12, 17:13, 17:14 |
+| περιτέμνω | `you will be cut` | `you will be cut, you will be clipped round about, you will be pruned, you will be cut off, you will be cut off and hemmed in all round, you will be curtailed of, you will be cut off and intercepted` | 17:11 |
+| πλῆθος | `of a great number` | `of a great number and throng and crowd and multitude, of the greater number and greater part and mass and main body, of the majority and people, of the populace and mob, of quantity, of number, of magnitude and size, of extent, of amount, of length` | 17:4 |
+| πολύς | `of many` | `of many, often, of much and mighty and great, of deep, of loud, of strong, of large and wide, of far, of long` | 17:5 |
+| σάρξ | `of the flesh` | `of the flesh, of the muscles, of the body, of man's nature generally` | 17:13 |
+| σάρξ | `the flesh` | `the flesh, the muscles, the body, man's nature generally` | 17:11, 17:14, 17:24, 17:25 |
+| σημεῖον, with ἐν | `in sign` | `within, inside of, and by means of sign, mark and token, sign from the gods and omen, signal, standard and ensign, boundary` | 17:11 |
+| τέκνον | `that which is borne` | `that which is borne, the born, a child, the young` | 17:16 |
+| τίθημι | `I have set` | `I have set and it stands set, I have put and it stands put, I have placed and it stands placed, I have planted and it stands planted, I have laid and it stands laid` | 17:5 |
+| τίκτω | `will bring into the world` | `will bring into the world, will bring forth, will bear, will produce` | 17:17, 17:19, 17:21 |
+| ἀκροβυστία | `of the foreskin` | `of the foreskin, of the circumcision, of the uncircumcision, of the uncircumcised` | 17:11, 17:14, 17:24, 17:25 |
+| ἀκροβυστία | `the foreskins` | `the foreskins, the circumcisions, the uncircumcisions, the uncircumcised` | 17:23 |
+| ἀλλογενής | `of of another race` | `of of another race, of strangers` | 17:27 |
+| ἀλλότριος | `of belonging to another` | `of belonging to another, of another man's, of unlike one's own, of a forced and unnatural, of foreign and strange, of hostile` | 17:12 |
+| ἄμεμπτος | `not to be blamed` | `not to be blamed, blameless, perfect in its kind, without blame, not blaming and content` | 17:1 |
+| ἐνιαυτός, with ἐν | `in the long period of time` | `within, inside of, and by means of the long period of time, the cycle, the period, the year` | 17:21 |
+| ἐπακούω | `I listened` | `I listened, I hearkened to and heard, I gave ear and hearkened, I obeyed` | 17:20 |
+| ἑκατονταετής | `to the of a hundred years` | `to the of a hundred years, to the years old` | 17:17 |
+| ἡμέρα | `of the day` | `of the day, of the day-break, of the time` | 17:23, 17:26 |
+| ἡμέρα | `to the day` | `to the day, to the day-break, to the time` | 17:14 |
 
 ### Words new in GEN 16
 
@@ -2788,6 +2865,10 @@ Greek makes it a woman's, the mother of Eliezer, whom it calls Δαμασκὸς
 | Ισμαηλ | Ismaēl | Ishmael | `(Ισμαηλ, from Hebrew Yišmāʿēʾl, "God hears")` |
 | Φρέαρ | Phrear | Well | `(Φρέαρ, "a well", the first word of the name the verse gives the well, for Hebrew Bĕʾēr laḥay rōʾî)` |
 | Βαραδ | Barad | Bered | `(Βαραδ, from Hebrew Bered, "hail")` |
+
+| Αβρααμ | Abraam | Abraham | `(Αβρααμ, from Hebrew ʾAbrāhām, which the Hebrew of 17:5 hears in ʾab hămôn gôyim, "father of a multitude of nations")` |
+| Σαρρα | Sarra | Sarah | `(Σαρρα, from Hebrew Śārâ, "princess")` |
+| Ισαακ | Isaak | Isaac | `(Ισαακ, from Hebrew Yiṣḥāq, "he laughs")` |
 <!-- name rows above -->
 
 Σύγχυσις translates the name where 10:10 gave the city its Greek name, Βαβυλών; as with Ζωή at
