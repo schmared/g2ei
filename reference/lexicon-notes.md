@@ -612,8 +612,8 @@ the same ground as `the sixth` and `the seventh`: one sense each, so no range to
 - ἀντλέω — first *to bale out bilge-water, bale the ship*; *to draw water* is its second sense. 24:13, 24:20.
 - ὁλκή — *a drawing, dragging, tugging*; Middle Liddell has no *weight*, the sense of the verse. 24:22.
 - κακὸν καλῷ — both neuters used as nouns, so each takes its first noun sense: κακός *evil, ill*, as τὰ
-  κακά at 19:19; καλός *beauty*, then *moral beauty, virtue*. GEN 2:9 and 3:5 had read καλοῦ and καλόν
-  with the adjective's senses. 24:50.
+  κακά at 19:19; καλός *beauty*, then *moral beauty, virtue*. GEN 2:9, 2:17, 3:5 and 3:22 had read
+  καλοῦ and καλόν with the adjective's senses, and were brought into line. 24:50.
 - γηρᾶσαι — the first aorist of γηράσκω, to which Middle Liddell gives the causal *to bring to old
   age*; the chain keeps it. 24:36.
 - ἐφέστηκα, ἕστηκα, ἕστηκας, ἑστηκότος — the intransitive perfects: `I have stood upon`, `I have
@@ -2936,13 +2936,21 @@ Cut material, not the living δένδρον. The same word carries the cross in 
 
 ### καλός and πονηρός
 
-- καλός — **headword** `beautiful` (`of beautiful` in the genitive); **chain** `beautiful,
-  beauteous, fair, good`. GEN 2:9, 2:12.
+- καλός, as an adjective — **headword** `beautiful`; **chain** `beautiful, beauteous, fair,
+  good`. GEN 2:12, 2:18, 3:6, 6:2, 12:14, 15:15, 18:7.
+- καλός, used as a noun — **headword** `beauty` (`of beauty` in the genitive, `to beauty` in
+  the dative); **chain** `beauty, moral beauty and virtue`, the entry's first noun sense,
+  τὸ καλόν, and then τὸ καλόν again in the moral sense. τὰ καλά, *the decencies, proprieties,
+  elegancies*, is the plural's own and is left out of a singular. GEN 2:9, 2:17, 3:5, 3:22, 24:50.
 - πονηρός — **headword** `of toilsome`; **chain** `of toilsome, of painful, of grievous, of
   good-for-nothing, of bad and worthless, of wicked`. GEN 2:9.
 
 πονηρός begins as the word for hard labour and arrives at wickedness only later in the
 entry. The pair καλοῦ καὶ πονηροῦ is therefore not *good and evil* in the lexicon's order.
+It is not the pair it looks like in another way either: καλοῦ is a noun in the lexicon's
+own entry and πονηροῦ is not, since Middle Liddell gives πονηρός's neuter no noun sense —
+ὁ πονηρός, *the evil one*, is the masculine's. So one of the two takes noun senses and the
+other keeps the adjective's, and the asymmetry is the lexicon's.
 
 ### γνωστός
 
