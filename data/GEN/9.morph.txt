@@ -1,0 +1,593 @@
+# Genesis 9 — morphology, one word per line.
+#
+# This is the project's own grammatical analysis of each form, written alongside the
+# transcription and not copied from any digital edition.
+#
+# Columns: verse, part of speech, parse, form, lemma — in MorphGNT's code scheme, so
+# the Old and New Testament layers read alike. The parse is eight places: person,
+# tense, voice, mood, case, number, gender, degree ("-" where it does not apply).
+#
+# Two codes go beyond MorphGNT, both to record only what the form itself says:
+#   voice  E  middle/passive — a tense in which the two share one form
+#   gender C  masculine/feminine — an adjective whose form does not distinguish them
+#
+# A trailing annotation records a deliberate difference and the reason for it:
+#   "# module …"  from the reference module, checked when LXX_RAHLFS_DIR is set
+#   "# corpus …"  from this project's own analysis of the same form elsewhere
+# A line may carry both. validate.py prints them as notes instead of failures — and
+# fails if the difference a note claims is not there, so they cannot go stale. The
+# analysis here is this project's own: the module is a reference, not an authority,
+# and the corpus is held to itself.
+#
+# Indeclinables take case and number from the syntax, as MorphGNT does, and gender
+# where there is one to take: a personal name, from the person; a numeral agreeing
+# with its noun; a common noun whose article shows it — but not an indeclinable place
+# name, which has none. A personal name the New Testament also uses takes MorphGNT's
+# dictionary form (Νῶε, Σήμ); every other Semitic name (Χαμ, Ιαφεθ), the form Rahlfs
+# prints.
+9:1 C- -------- Καὶ καί
+9:1 V- 3AAI-S-- ηὐλόγησεν εὐλογέω
+9:1 RA ----NSM- ὁ ὁ
+9:1 N- ----NSM- θεὸς θεός
+9:1 RA ----ASM- τὸν ὁ
+9:1 N- ----ASM- Νωε Νῶε
+9:1 C- -------- καὶ καί
+9:1 RA ----APM- τοὺς ὁ
+9:1 N- ----APM- υἱοὺς υἱός
+9:1 RP ----GSM- αὐτοῦ αὐτός
+9:1 C- -------- καὶ καί
+9:1 V- 3AAI-S-- εἶπεν λέγω  # module lemma ἔπω — λέγω keeps one dictionary form across both testaments
+9:1 RP ----DPM- αὐτοῖς αὐτός
+9:1 V- 2PED-P-- Αὐξάνεσθε αὐξάνω
+9:1 C- -------- καὶ καί
+9:1 V- 2PED-P-- πληθύνεσθε πληθύνω
+9:1 C- -------- καὶ καί
+9:1 V- 2AAD-P-- πληρώσατε πληρόω
+9:1 RA ----ASF- τὴν ὁ
+9:1 N- ----ASF- γῆν γῆ
+9:1 C- -------- καὶ καί
+9:1 V- 2AAD-P-- κατακυριεύσατε κατακυριεύω
+9:1 RP ----GSF- αὐτῆς αὐτός
+9:2 C- -------- καὶ καί
+9:2 RA ----NSM- ὁ ὁ
+9:2 N- ----NSM- τρόμος τρόμος
+9:2 RP ----GP-- ὑμῶν σύ  # module lemma ὑμῶν, the form itself — σύ is the dictionary form
+9:2 C- -------- καὶ καί
+9:2 RA ----NSM- ὁ ὁ
+9:2 N- ----NSM- φόβος φόβος
+9:2 V- 3FMI-S-- ἔσται εἰμί
+9:2 P- -------- ἐπὶ ἐπί
+9:2 A- ----DPN- πᾶσιν πᾶς
+9:2 RA ----DPN- τοῖς ὁ
+9:2 N- ----DPN- θηρίοις θηρίον
+9:2 RA ----GSF- τῆς ὁ
+9:2 N- ----GSF- γῆς γῆ
+9:2 C- -------- καὶ καί
+9:2 P- -------- ἐπὶ ἐπί
+9:2 A- ----APN- πάντα πᾶς
+9:2 RA ----APN- τὰ ὁ
+9:2 N- ----APN- ὄρνεα ὄρνεον
+9:2 RA ----GSM- τοῦ ὁ
+9:2 N- ----GSM- οὐρανοῦ οὐρανός
+9:2 C- -------- καὶ καί
+9:2 P- -------- ἐπὶ ἐπί
+9:2 A- ----APN- πάντα πᾶς
+9:2 RA ----APN- τὰ ὁ
+9:2 V- -PEPAPN- κινούμενα κινέω
+9:2 P- -------- ἐπὶ ἐπί
+9:2 RA ----GSF- τῆς ὁ
+9:2 N- ----GSF- γῆς γῆ
+9:2 C- -------- καὶ καί
+9:2 P- -------- ἐπὶ ἐπί
+9:2 A- ----APM- πάντας πᾶς
+9:2 RA ----APM- τοὺς ὁ
+9:2 N- ----APM- ἰχθύας ἰχθύς
+9:2 RA ----GSF- τῆς ὁ
+9:2 N- ----GSF- θαλάσσης θάλασσα
+9:2 P- -------- ὑπὸ ὑπό
+9:2 N- ----APF- χεῖρας χείρ
+9:2 RP ----DP-- ὑμῖν σύ  # module lemma ὑμῖν, the form itself — σύ is the dictionary form
+9:2 V- 1XAI-S-- δέδωκα δίδωμι
+9:3 C- -------- καὶ καί
+9:3 A- ----NSN- πᾶν πᾶς
+9:3 N- ----NSN- ἑρπετόν ἑρπετόν
+9:3 RR ----NSN- ὅ ὅς
+9:3 V- 3PAI-S-- ἐστιν εἰμί
+9:3 V- -PAPNSN- ζῶν ζάω
+9:3 RP ----DP-- ὑμῖν σύ  # module lemma ὑμῖν, the form itself — σύ is the dictionary form
+9:3 V- 3FMI-S-- ἔσται εἰμί
+9:3 P- -------- εἰς εἰς
+9:3 N- ----ASF- βρῶσιν βρῶσις
+9:3 C- -------- ὡς ὡς  # module lemma ὥς — ὡς, the comparative particle, as MorphGNT files it
+9:3 N- ----APN- λάχανα λάχανον  # module NPN — compared with τὰ πάντα, the object of δέδωκα
+9:3 N- ----GSM- χόρτου χόρτος
+9:3 V- 1XAI-S-- δέδωκα δίδωμι
+9:3 RP ----DP-- ὑμῖν σύ  # module lemma ὑμῖν, the form itself — σύ is the dictionary form
+9:3 RA ----APN- τὰ ὁ
+9:3 A- ----APN- πάντα πᾶς
+9:4 C- -------- πλὴν πλήν
+9:4 N- ----ASN- κρέας κρέας
+9:4 P- -------- ἐν ἐν
+9:4 N- ----DSN- αἵματι αἷμα
+9:4 N- ----GSF- ψυχῆς ψυχή
+9:4 D- -------- οὐ οὐ
+9:4 V- 2FMI-P-- φάγεσθε ἐσθίω
+9:5 D- -------- καὶ καί
+9:5 C- -------- γὰρ γάρ
+9:5 RA ----ASN- τὸ ὁ  # module NSN — the object of ἐκζητήσω, set before it
+9:5 A- ----ASN- ὑμέτερον ὑμέτερος  # module NSN — the object of ἐκζητήσω, set before it
+9:5 N- ----ASN- αἷμα αἷμα  # module NSN — the object of ἐκζητήσω, set before it
+9:5 RA ----GPF- τῶν ὁ
+9:5 N- ----GPF- ψυχῶν ψυχή
+9:5 RP ----GP-- ὑμῶν σύ  # module lemma ὑμῶν, the form itself — σύ is the dictionary form
+9:5 V- 1FAI-S-- ἐκζητήσω ἐκζητέω  # module AAS1S — a main clause with nothing to call for a subjunctive: the future indicative
+9:5 P- -------- ἐκ ἐκ
+9:5 N- ----GSF- χειρὸς χείρ
+9:5 A- ----GPN- πάντων πᾶς
+9:5 RA ----GPN- τῶν ὁ
+9:5 N- ----GPN- θηρίων θηρίον
+9:5 V- 1FAI-S-- ἐκζητήσω ἐκζητέω  # module AAS1S — a main clause with nothing to call for a subjunctive: the future indicative
+9:5 RP ----ASN- αὐτὸ αὐτός
+9:5 C- -------- καὶ καί
+9:5 P- -------- ἐκ ἐκ
+9:5 N- ----GSF- χειρὸς χείρ
+9:5 N- ----GSM- ἀνθρώπου ἄνθρωπος
+9:5 N- ----GSM- ἀδελφοῦ ἀδελφός
+9:5 V- 1FAI-S-- ἐκζητήσω ἐκζητέω  # module AAS1S — a main clause with nothing to call for a subjunctive: the future indicative
+9:5 RA ----ASF- τὴν ὁ
+9:5 N- ----ASF- ψυχὴν ψυχή
+9:5 RA ----GSM- τοῦ ὁ
+9:5 N- ----GSM- ἀνθρώπου ἄνθρωπος
+9:6 RA ----NSM- ὁ ὁ
+9:6 V- -PAPNSM- ἐκχέων ἐκχέω
+9:6 N- ----ASN- αἷμα αἷμα
+9:6 N- ----GSM- ἀνθρώπου ἄνθρωπος
+9:6 P- -------- ἀντὶ ἀντί
+9:6 RA ----GSN- τοῦ ὁ
+9:6 N- ----GSN- αἵματος αἷμα
+9:6 RP ----GSM- αὐτοῦ αὐτός
+9:6 V- 3FPI-S-- ἐκχυθήσεται ἐκχέω
+9:6 C- -------- ὅτι ὅτι
+9:6 P- -------- ἐν ἐν
+9:6 N- ----DSF- εἰκόνι εἰκών
+9:6 N- ----GSM- θεοῦ θεός
+9:6 V- 1AAI-S-- ἐποίησα ποιέω
+9:6 RA ----ASM- τὸν ὁ
+9:6 N- ----ASM- ἄνθρωπον ἄνθρωπος
+9:7 RP ----NP-- ὑμεῖς σύ  # module lemma ὑμεῖς, the form itself — σύ is the dictionary form
+9:7 C- -------- δὲ δέ
+9:7 V- 2PED-P-- αὐξάνεσθε αὐξάνω
+9:7 C- -------- καὶ καί
+9:7 V- 2PED-P-- πληθύνεσθε πληθύνω
+9:7 C- -------- καὶ καί
+9:7 V- 2AAD-P-- πληρώσατε πληρόω
+9:7 RA ----ASF- τὴν ὁ
+9:7 N- ----ASF- γῆν γῆ
+9:7 C- -------- καὶ καί
+9:7 V- 2PED-P-- πληθύνεσθε πληθύνω
+9:7 P- -------- ἐπʼ ἐπί
+9:7 RP ----GSF- αὐτῆς αὐτός
+9:8 C- -------- Καὶ καί
+9:8 V- 3AAI-S-- εἶπεν λέγω  # module lemma ἔπω — λέγω keeps one dictionary form across both testaments
+9:8 RA ----NSM- ὁ ὁ
+9:8 N- ----NSM- θεὸς θεός
+9:8 RA ----DSM- τῷ ὁ
+9:8 N- ----DSM- Νωε Νῶε
+9:8 C- -------- καὶ καί
+9:8 RA ----DPM- τοῖς ὁ
+9:8 N- ----DPM- υἱοῖς υἱός
+9:8 RP ----GSM- αὐτοῦ αὐτός
+9:8 P- -------- μετʼ μετά
+9:8 RP ----GSM- αὐτοῦ αὐτός
+9:8 V- -PAPNSM- λέγων λέγω
+9:9 RP ----NS-- Ἐγὼ ἐγώ
+9:9 X- -------- ἰδοὺ ἰδού
+9:9 V- 1PAI-S-- ἀνίστημι ἀνίστημι
+9:9 RA ----ASF- τὴν ὁ
+9:9 N- ----ASF- διαθήκην διαθήκη
+9:9 RP ----GS-- μου ἐγώ  # module lemma μου, the form itself — ἐγώ is the dictionary form
+9:9 RP ----DP-- ὑμῖν σύ  # module lemma ὑμῖν, the form itself — σύ is the dictionary form
+9:9 C- -------- καὶ καί
+9:9 RA ----DSN- τῷ ὁ
+9:9 N- ----DSN- σπέρματι σπέρμα
+9:9 RP ----GP-- ὑμῶν σύ  # module lemma ὑμῶν, the form itself — σύ is the dictionary form
+9:9 P- -------- μεθʼ μετά
+9:9 RP ----AP-- ὑμᾶς σύ  # module lemma ὑμᾶς, the form itself — σύ is the dictionary form
+9:10 C- -------- καὶ καί
+9:10 A- ----DSF- πάσῃ πᾶς
+9:10 N- ----DSF- ψυχῇ ψυχή
+9:10 RA ----DSF- τῇ ὁ
+9:10 V- -PAPDSF- ζώσῃ ζάω
+9:10 P- -------- μεθʼ μετά
+9:10 RP ----GP-- ὑμῶν σύ  # module lemma ὑμῶν, the form itself — σύ is the dictionary form
+9:10 P- -------- ἀπὸ ἀπό
+9:10 N- ----GPN- ὀρνέων ὄρνεον
+9:10 C- -------- καὶ καί
+9:10 P- -------- ἀπὸ ἀπό
+9:10 N- ----GPN- κτηνῶν κτῆνος
+9:10 C- -------- καὶ καί
+9:10 A- ----DPN- πᾶσι πᾶς
+9:10 RA ----DPN- τοῖς ὁ
+9:10 N- ----DPN- θηρίοις θηρίον
+9:10 RA ----GSF- τῆς ὁ
+9:10 N- ----GSF- γῆς γῆ
+9:10 RR ----NPN- ὅσα ὅσος
+9:10 P- -------- μεθʼ μετά
+9:10 RP ----GP-- ὑμῶν σύ  # module lemma ὑμῶν, the form itself — σύ is the dictionary form
+9:10 P- -------- ἀπὸ ἀπό
+9:10 A- ----GPN- πάντων πᾶς  # module GPM — the creatures the verse lists, ὀρνέων, κτηνῶν, θηρίοις, all neuter
+9:10 RA ----GPN- τῶν ὁ  # module GPM — the creatures the verse lists, ὀρνέων, κτηνῶν, θηρίοις, all neuter
+9:10 V- -AAPGPN- ἐξελθόντων ἐξέρχομαι  # module GPM — the creatures the verse lists, ὀρνέων, κτηνῶν, θηρίοις, all neuter
+9:10 P- -------- ἐκ ἐκ
+9:10 RA ----GSF- τῆς ὁ
+9:10 N- ----GSF- κιβωτοῦ κιβωτός
+9:11 C- -------- καὶ καί
+9:11 V- 1FAI-S-- στήσω ἵστημι
+9:11 RA ----ASF- τὴν ὁ
+9:11 N- ----ASF- διαθήκην διαθήκη
+9:11 RP ----GS-- μου ἐγώ  # module lemma μου, the form itself — ἐγώ is the dictionary form
+9:11 P- -------- πρὸς πρός
+9:11 RP ----AP-- ὑμᾶς σύ  # module lemma ὑμᾶς, the form itself — σύ is the dictionary form
+9:11 C- -------- καὶ καί
+9:11 D- -------- οὐκ οὐ
+9:11 V- 3FMI-S-- ἀποθανεῖται ἀποθνήσκω
+9:11 A- ----NSF- πᾶσα πᾶς
+9:11 N- ----NSF- σὰρξ σάρξ
+9:11 D- -------- ἔτι ἔτι
+9:11 P- -------- ἀπὸ ἀπό
+9:11 RA ----GSN- τοῦ ὁ
+9:11 N- ----GSN- ὕδατος ὕδωρ
+9:11 RA ----GSM- τοῦ ὁ
+9:11 N- ----GSM- κατακλυσμοῦ κατακλυσμός
+9:11 C- -------- καὶ καί
+9:11 D- -------- οὐκ οὐ
+9:11 V- 3FMI-S-- ἔσται εἰμί
+9:11 D- -------- ἔτι ἔτι
+9:11 N- ----NSM- κατακλυσμὸς κατακλυσμός
+9:11 N- ----GSN- ὕδατος ὕδωρ
+9:11 RA ----GSN- τοῦ ὁ
+9:11 V- -AAN---- καταφθεῖραι καταφθείρω
+9:11 A- ----ASF- πᾶσαν πᾶς
+9:11 RA ----ASF- τὴν ὁ
+9:11 N- ----ASF- γῆν γῆ
+9:12 C- -------- καὶ καί
+9:12 V- 3AAI-S-- εἶπεν λέγω  # module lemma ἔπω — λέγω keeps one dictionary form across both testaments
+9:12 N- ----NSM- κύριος κύριος
+9:12 RA ----NSM- ὁ ὁ
+9:12 N- ----NSM- θεὸς θεός
+9:12 P- -------- πρὸς πρός
+9:12 N- ----ASM- Νωε Νῶε
+9:12 RD ----NSN- Τοῦτο οὗτος
+9:12 RA ----NSN- τὸ ὁ
+9:12 N- ----NSN- σημεῖον σημεῖον
+9:12 RA ----GSF- τῆς ὁ
+9:12 N- ----GSF- διαθήκης διαθήκη
+9:12 RR ----ASN- ὃ ὅς
+9:12 RP ----NS-- ἐγὼ ἐγώ
+9:12 V- 1PAI-S-- δίδωμι δίδωμι
+9:12 P- -------- ἀνὰ ἀνά
+9:12 A- ----ASN- μέσον μέσος  # module ASM — with a genitive after it, the neuter used as a noun, as MorphGNT codes ἀνὰ μέσον
+9:12 RP ----GS-- ἐμοῦ ἐγώ  # module lemma ἐμοῦ, the form itself — ἐγώ is the dictionary form
+9:12 C- -------- καὶ καί
+9:12 RP ----GP-- ὑμῶν σύ  # module lemma ὑμῶν, the form itself — σύ is the dictionary form
+9:12 C- -------- καὶ καί
+9:12 P- -------- ἀνὰ ἀνά
+9:12 A- ----ASN- μέσον μέσος  # module ASM — with a genitive after it, the neuter used as a noun, as MorphGNT codes ἀνὰ μέσον
+9:12 A- ----GSF- πάσης πᾶς
+9:12 N- ----GSF- ψυχῆς ψυχή
+9:12 V- -PAPGSF- ζώσης ζάω
+9:12 RR ----NSF- ἥ ὅς
+9:12 V- 3PAI-S-- ἐστιν εἰμί
+9:12 P- -------- μεθʼ μετά
+9:12 RP ----GP-- ὑμῶν σύ  # module lemma ὑμῶν, the form itself — σύ is the dictionary form
+9:12 P- -------- εἰς εἰς
+9:12 N- ----APF- γενεὰς γενεά
+9:12 A- ----APC- αἰωνίους αἰώνιος
+9:13 RA ----ASN- τὸ ὁ
+9:13 N- ----ASN- τόξον τόξον
+9:13 RP ----GS-- μου ἐγώ  # module lemma μου, the form itself — ἐγώ is the dictionary form
+9:13 V- 1PAI-S-- τίθημι τίθημι
+9:13 P- -------- ἐν ἐν
+9:13 RA ----DSF- τῇ ὁ
+9:13 N- ----DSF- νεφέλῃ νεφέλη
+9:13 C- -------- καὶ καί
+9:13 V- 3FMI-S-- ἔσται εἰμί
+9:13 P- -------- εἰς εἰς
+9:13 N- ----ASN- σημεῖον σημεῖον
+9:13 N- ----GSF- διαθήκης διαθήκη
+9:13 P- -------- ἀνὰ ἀνά
+9:13 A- ----ASN- μέσον μέσος  # module ASM — with a genitive after it, the neuter used as a noun, as MorphGNT codes ἀνὰ μέσον
+9:13 RP ----GS-- ἐμοῦ ἐγώ  # module lemma ἐμοῦ, the form itself — ἐγώ is the dictionary form
+9:13 C- -------- καὶ καί
+9:13 RA ----GSF- τῆς ὁ
+9:13 N- ----GSF- γῆς γῆ
+9:14 C- -------- καὶ καί
+9:14 V- 3FMI-S-- ἔσται εἰμί
+9:14 P- -------- ἐν ἐν
+9:14 RA ----DSN- τῷ ὁ
+9:14 V- -PAN---- συννεφεῖν συννεφέω
+9:14 RP ----AS-- με ἐγώ  # module lemma μέ, the form itself — ἐγώ is the dictionary form
+9:14 N- ----APF- νεφέλας νεφέλη
+9:14 P- -------- ἐπὶ ἐπί
+9:14 RA ----ASF- τὴν ὁ
+9:14 N- ----ASF- γῆν γῆ
+9:14 V- 3FPI-S-- ὀφθήσεται ὁράω
+9:14 RA ----NSN- τὸ ὁ  # module ASN — the subject of ὀφθήσεται
+9:14 N- ----NSN- τόξον τόξον  # module ASN — the subject of ὀφθήσεται
+9:14 RP ----GS-- μου ἐγώ  # module lemma μου, the form itself — ἐγώ is the dictionary form
+9:14 P- -------- ἐν ἐν
+9:14 RA ----DSF- τῇ ὁ
+9:14 N- ----DSF- νεφέλῃ νεφέλη
+9:15 C- -------- καὶ καί
+9:15 V- 1FPI-S-- μνησθήσομαι μιμνήσκομαι  # module lemma μιμνήσκω — μιμνήσκομαι, the middle, as MorphGNT files the aorist passive
+9:15 RA ----GSF- τῆς ὁ
+9:15 N- ----GSF- διαθήκης διαθήκη
+9:15 RP ----GS-- μου ἐγώ  # module lemma μου, the form itself — ἐγώ is the dictionary form
+9:15 RR ----NSF- ἥ ὅς
+9:15 V- 3PAI-S-- ἐστιν εἰμί
+9:15 P- -------- ἀνὰ ἀνά
+9:15 A- ----ASN- μέσον μέσος  # module ASM — with a genitive after it, the neuter used as a noun, as MorphGNT codes ἀνὰ μέσον
+9:15 RP ----GS-- ἐμοῦ ἐγώ  # module lemma ἐμοῦ, the form itself — ἐγώ is the dictionary form
+9:15 C- -------- καὶ καί
+9:15 RP ----GP-- ὑμῶν σύ  # module lemma ὑμῶν, the form itself — σύ is the dictionary form
+9:15 C- -------- καὶ καί
+9:15 P- -------- ἀνὰ ἀνά
+9:15 A- ----ASN- μέσον μέσος  # module ASM — with a genitive after it, the neuter used as a noun, as MorphGNT codes ἀνὰ μέσον
+9:15 A- ----GSF- πάσης πᾶς
+9:15 N- ----GSF- ψυχῆς ψυχή
+9:15 V- -PAPGSF- ζώσης ζάω
+9:15 P- -------- ἐν ἐν
+9:15 A- ----DSF- πάσῃ πᾶς
+9:15 N- ----DSF- σαρκί σάρξ
+9:15 C- -------- καὶ καί
+9:15 D- -------- οὐκ οὐ
+9:15 V- 3FMI-S-- ἔσται εἰμί
+9:15 D- -------- ἔτι ἔτι
+9:15 RA ----NSN- τὸ ὁ
+9:15 N- ----NSN- ὕδωρ ὕδωρ
+9:15 P- -------- εἰς εἰς
+9:15 N- ----ASM- κατακλυσμὸν κατακλυσμός
+9:15 C- -------- ὥστε ὥστε
+9:15 V- -AAN---- ἐξαλεῖψαι ἐξαλείφω
+9:15 A- ----ASF- πᾶσαν πᾶς
+9:15 N- ----ASF- σάρκα σάρξ
+9:16 C- -------- καὶ καί
+9:16 V- 3FMI-S-- ἔσται εἰμί
+9:16 RA ----NSN- τὸ ὁ
+9:16 N- ----NSN- τόξον τόξον
+9:16 RP ----GS-- μου ἐγώ  # module lemma μου, the form itself — ἐγώ is the dictionary form
+9:16 P- -------- ἐν ἐν
+9:16 RA ----DSF- τῇ ὁ
+9:16 N- ----DSF- νεφέλῃ νεφέλη
+9:16 C- -------- καὶ καί
+9:16 V- 1FMI-S-- ὄψομαι ὁράω
+9:16 RA ----GSN- τοῦ ὁ
+9:16 V- -APN---- μνησθῆναι μιμνήσκομαι  # module lemma μνάομαι — μιμνήσκομαι, the middle, as MorphGNT files μνησθῆναι at Luke 1:72
+9:16 N- ----ASF- διαθήκην διαθήκη
+9:16 A- ----ASC- αἰώνιον αἰώνιος
+9:16 P- -------- ἀνὰ ἀνά
+9:16 A- ----ASN- μέσον μέσος  # module ASM — with a genitive after it, the neuter used as a noun, as MorphGNT codes ἀνὰ μέσον
+9:16 RP ----GS-- ἐμοῦ ἐγώ  # module lemma ἐμοῦ, the form itself — ἐγώ is the dictionary form
+9:16 C- -------- καὶ καί
+9:16 P- -------- ἀνὰ ἀνά
+9:16 A- ----ASN- μέσον μέσος  # module ASM — with a genitive after it, the neuter used as a noun, as MorphGNT codes ἀνὰ μέσον
+9:16 A- ----GSF- πάσης πᾶς
+9:16 N- ----GSF- ψυχῆς ψυχή
+9:16 V- -PAPGSF- ζώσης ζάω
+9:16 P- -------- ἐν ἐν
+9:16 A- ----DSF- πάσῃ πᾶς
+9:16 N- ----DSF- σαρκί σάρξ
+9:16 RR ----NSF- ἥ ὅς
+9:16 V- 3PAI-S-- ἐστιν εἰμί
+9:16 P- -------- ἐπὶ ἐπί
+9:16 RA ----GSF- τῆς ὁ
+9:16 N- ----GSF- γῆς γῆ
+9:17 C- -------- καὶ καί
+9:17 V- 3AAI-S-- εἶπεν λέγω  # module lemma ἔπω — λέγω keeps one dictionary form across both testaments
+9:17 RA ----NSM- ὁ ὁ
+9:17 N- ----NSM- θεὸς θεός
+9:17 RA ----DSM- τῷ ὁ
+9:17 N- ----DSM- Νωε Νῶε
+9:17 RD ----NSN- Τοῦτο οὗτος
+9:17 RA ----NSN- τὸ ὁ
+9:17 N- ----NSN- σημεῖον σημεῖον
+9:17 RA ----GSF- τῆς ὁ
+9:17 N- ----GSF- διαθήκης διαθήκη
+9:17 RR ----GSF- ἧς ὅς
+9:17 V- 1AMI-S-- διεθέμην διατίθεμαι
+9:17 P- -------- ἀνὰ ἀνά
+9:17 A- ----ASN- μέσον μέσος  # module ASM — with a genitive after it, the neuter used as a noun, as MorphGNT codes ἀνὰ μέσον
+9:17 RP ----GS-- ἐμοῦ ἐγώ  # module lemma ἐμοῦ, the form itself — ἐγώ is the dictionary form
+9:17 C- -------- καὶ καί
+9:17 P- -------- ἀνὰ ἀνά
+9:17 A- ----ASN- μέσον μέσος  # module ASM — with a genitive after it, the neuter used as a noun, as MorphGNT codes ἀνὰ μέσον
+9:17 A- ----GSF- πάσης πᾶς
+9:17 N- ----GSF- σαρκός σάρξ
+9:17 RR ----NSF- ἥ ὅς
+9:17 V- 3PAI-S-- ἐστιν εἰμί
+9:17 P- -------- ἐπὶ ἐπί
+9:17 RA ----GSF- τῆς ὁ
+9:17 N- ----GSF- γῆς γῆ
+9:18 V- 3IAI-P-- Ἦσαν εἰμί
+9:18 C- -------- δὲ δέ
+9:18 RA ----NPM- οἱ ὁ
+9:18 N- ----NPM- υἱοὶ υἱός
+9:18 N- ----GSM- Νωε Νῶε
+9:18 RA ----NPM- οἱ ὁ
+9:18 V- -AAPNPM- ἐξελθόντες ἐξέρχομαι
+9:18 P- -------- ἐκ ἐκ
+9:18 RA ----GSF- τῆς ὁ
+9:18 N- ----GSF- κιβωτοῦ κιβωτός
+9:18 N- ----NSM- Σημ Σήμ
+9:18 N- ----NSM- Χαμ Χαμ
+9:18 N- ----NSM- Ιαφεθ Ιαφεθ
+9:18 N- ----NSM- Χαμ Χαμ
+9:18 V- 3IAI-S-- ἦν εἰμί
+9:18 N- ----NSM- πατὴρ πατήρ
+9:18 N- ----GSM- Χανααν Χανάαν  # module lemma Χαναάν — Χανάαν, as MorphGNT files it
+9:19 A- ----NPC- τρεῖς τρεῖς
+9:19 RD ----NPM- οὗτοί οὗτος
+9:19 V- 3PAI-P-- εἰσιν εἰμί
+9:19 RA ----NPM- οἱ ὁ
+9:19 N- ----NPM- υἱοὶ υἱός
+9:19 N- ----GSM- Νωε Νῶε
+9:19 P- -------- ἀπὸ ἀπό
+9:19 RD ----GPM- τούτων οὗτος
+9:19 V- 3API-P-- διεσπάρησαν διασπείρω
+9:19 P- -------- ἐπὶ ἐπί
+9:19 A- ----ASF- πᾶσαν πᾶς
+9:19 RA ----ASF- τὴν ὁ
+9:19 N- ----ASF- γῆν γῆ
+9:20 C- -------- Καὶ καί
+9:20 V- 3AMI-S-- ἤρξατο ἄρχω
+9:20 N- ----NSM- Νωε Νῶε
+9:20 N- ----NSM- ἄνθρωπος ἄνθρωπος
+9:20 N- ----NSM- γεωργὸς γεωργός
+9:20 N- ----GSF- γῆς γῆ
+9:20 C- -------- καὶ καί
+9:20 V- 3AAI-S-- ἐφύτευσεν φυτεύω
+9:20 N- ----ASM- ἀμπελῶνα ἀμπελών
+9:21 C- -------- καὶ καί
+9:21 V- 3AAI-S-- ἔπιεν πίνω
+9:21 P- -------- ἐκ ἐκ
+9:21 RA ----GSM- τοῦ ὁ
+9:21 N- ----GSM- οἴνου οἶνος
+9:21 C- -------- καὶ καί
+9:21 V- 3API-S-- ἐμεθύσθη μεθύσκω  # module lemma μεθύω — μεθύσκω, under which Middle Liddell files the aorist ἐμεθύσθην; MorphGNT files it under μεθύω
+9:21 C- -------- καὶ καί
+9:21 V- 3API-S-- ἐγυμνώθη γυμνόω
+9:21 P- -------- ἐν ἐν
+9:21 RA ----DSM- τῷ ὁ
+9:21 N- ----DSM- οἴκῳ οἶκος
+9:21 RP ----GSM- αὐτοῦ αὐτός
+9:22 C- -------- καὶ καί
+9:22 V- 3AAI-S-- εἶδεν ὁράω
+9:22 N- ----NSM- Χαμ Χαμ
+9:22 RA ----NSM- ὁ ὁ
+9:22 N- ----NSM- πατὴρ πατήρ
+9:22 N- ----GSM- Χανααν Χανάαν  # module lemma Χαναάν — Χανάαν, as MorphGNT files it
+9:22 RA ----ASF- τὴν ὁ
+9:22 N- ----ASF- γύμνωσιν γύμνωσις
+9:22 RA ----GSM- τοῦ ὁ
+9:22 N- ----GSM- πατρὸς πατήρ
+9:22 RP ----GSM- αὐτοῦ αὐτός
+9:22 C- -------- καὶ καί
+9:22 V- -AAPNSM- ἐξελθὼν ἐξέρχομαι
+9:22 V- 3AAI-S-- ἀνήγγειλεν ἀναγγέλλω
+9:22 RA ----DPM- τοῖς ὁ
+9:22 A- ----DPM- δυσὶν δύο
+9:22 N- ----DPM- ἀδελφοῖς ἀδελφός
+9:22 RP ----GSM- αὐτοῦ αὐτός
+9:22 D- -------- ἔξω ἔξω
+9:23 C- -------- καὶ καί
+9:23 V- -AAPNPM- λαβόντες λαμβάνω
+9:23 N- ----NSM- Σημ Σήμ
+9:23 C- -------- καὶ καί
+9:23 N- ----NSM- Ιαφεθ Ιαφεθ
+9:23 RA ----ASN- τὸ ὁ
+9:23 N- ----ASN- ἱμάτιον ἱμάτιον
+9:23 V- 3AMI-P-- ἐπέθεντο ἐπιτίθημι
+9:23 P- -------- ἐπὶ ἐπί
+9:23 RA ----APN- τὰ ὁ
+9:23 A- ----APN- δύο δύο  # module M, no features — MorphGNT gives δύο case, number and gender like any adjective
+9:23 N- ----APN- νῶτα νῶτον  # module lemma νῶτος — νῶτον: the plural νῶτα is neuter, and Middle Liddell heads the neuter
+9:23 RP ----GPM- αὐτῶν αὐτός
+9:23 C- -------- καὶ καί
+9:23 V- 3API-P-- ἐπορεύθησαν πορεύομαι
+9:23 D- -------- ὀπισθοφανῶς ὀπισθοφανῶς
+9:23 C- -------- καὶ καί
+9:23 V- 3AAI-P-- συνεκάλυψαν συγκαλύπτω
+9:23 RA ----ASF- τὴν ὁ
+9:23 N- ----ASF- γύμνωσιν γύμνωσις
+9:23 RA ----GSM- τοῦ ὁ
+9:23 N- ----GSM- πατρὸς πατήρ
+9:23 RP ----GPM- αὐτῶν αὐτός
+9:23 C- -------- καὶ καί
+9:23 RA ----NSN- τὸ ὁ  # module ASN — the subject of a clause with no verb: their face, turned backward
+9:23 N- ----NSN- πρόσωπον πρόσωπον  # module ASN — the subject of a clause with no verb: their face, turned backward
+9:23 RP ----GPM- αὐτῶν αὐτός
+9:23 A- ----NSN- ὀπισθοφανές ὀπισθοφανής  # module ASN — the predicate of a clause with no verb: their face, turned backward
+9:23 C- -------- καὶ καί
+9:23 RA ----ASF- τὴν ὁ
+9:23 N- ----ASF- γύμνωσιν γύμνωσις
+9:23 RA ----GSM- τοῦ ὁ
+9:23 N- ----GSM- πατρὸς πατήρ
+9:23 RP ----GPM- αὐτῶν αὐτός
+9:23 D- -------- οὐκ οὐ
+9:23 V- 3AAI-P-- εἶδον ὁράω  # corpus they saw, the third plural, where εἶδον at 7:1 is the first singular — one form, two persons
+9:24 V- 3AAI-S-- ἐξένηψεν ἐκνήφω
+9:24 C- -------- δὲ δέ
+9:24 N- ----NSM- Νωε Νῶε
+9:24 P- -------- ἀπὸ ἀπό
+9:24 RA ----GSM- τοῦ ὁ
+9:24 N- ----GSM- οἴνου οἶνος
+9:24 C- -------- καὶ καί
+9:24 V- 3AAI-S-- ἔγνω γινώσκω
+9:24 RR ----APN- ὅσα ὅσος
+9:24 V- 3AAI-S-- ἐποίησεν ποιέω
+9:24 RP ----DSM- αὐτῷ αὐτός
+9:24 RA ----NSM- ὁ ὁ
+9:24 N- ----NSM- υἱὸς υἱός
+9:24 RP ----GSM- αὐτοῦ αὐτός
+9:24 RA ----NSM- ὁ ὁ
+9:24 A- ----NSMC νεώτερος νέος
+9:25 C- -------- καὶ καί
+9:25 V- 3AAI-S-- εἶπεν λέγω  # module lemma ἔπω — λέγω keeps one dictionary form across both testaments
+9:25 A- ----NSC- Ἐπικατάρατος ἐπικατάρατος
+9:25 N- ----NSM- Χανααν Χανάαν  # module lemma Χαναάν — Χανάαν, as MorphGNT files it
+9:25 N- ----NSM- παῖς παῖς
+9:25 N- ----NSM- οἰκέτης οἰκέτης
+9:25 V- 3FMI-S-- ἔσται εἰμί
+9:25 RA ----DPM- τοῖς ὁ
+9:25 N- ----DPM- ἀδελφοῖς ἀδελφός
+9:25 RP ----GSM- αὐτοῦ αὐτός
+9:26 C- -------- καὶ καί
+9:26 V- 3AAI-S-- εἶπεν λέγω  # module lemma ἔπω — λέγω keeps one dictionary form across both testaments
+9:26 A- ----NSM- Εὐλογητὸς εὐλογητός
+9:26 N- ----NSM- κύριος κύριος
+9:26 RA ----NSM- ὁ ὁ
+9:26 N- ----NSM- θεὸς θεός
+9:26 RA ----GSM- τοῦ ὁ
+9:26 N- ----GSM- Σημ Σήμ
+9:26 C- -------- καὶ καί
+9:26 V- 3FMI-S-- ἔσται εἰμί
+9:26 N- ----NSM- Χανααν Χανάαν  # module lemma Χαναάν — Χανάαν, as MorphGNT files it
+9:26 N- ----NSM- παῖς παῖς
+9:26 RP ----GSM- αὐτοῦ αὐτός
+9:27 V- 3AAO-S-- πλατύναι πλατύνω
+9:27 RA ----NSM- ὁ ὁ
+9:27 N- ----NSM- θεὸς θεός
+9:27 RA ----DSM- τῷ ὁ
+9:27 N- ----DSM- Ιαφεθ Ιαφεθ
+9:27 C- -------- καὶ καί
+9:27 V- 3AAD-S-- κατοικησάτω κατοικέω
+9:27 P- -------- ἐν ἐν
+9:27 RA ----DPM- τοῖς ὁ
+9:27 N- ----DPM- οἴκοις οἶκος
+9:27 RA ----GSM- τοῦ ὁ
+9:27 N- ----GSM- Σημ Σήμ
+9:27 C- -------- καὶ καί
+9:27 V- 3APD-S-- γενηθήτω γίνομαι
+9:27 N- ----NSM- Χανααν Χανάαν  # module lemma Χαναάν — Χανάαν, as MorphGNT files it
+9:27 N- ----NSM- παῖς παῖς
+9:27 RP ----GPM- αὐτῶν αὐτός
+9:28 V- 3AAI-S-- Ἔζησεν ζάω
+9:28 C- -------- δὲ δέ
+9:28 N- ----NSM- Νωε Νῶε
+9:28 P- -------- μετὰ μετά
+9:28 RA ----ASM- τὸν ὁ
+9:28 N- ----ASM- κατακλυσμὸν κατακλυσμός
+9:28 A- ----APN- τριακόσια τριακόσιοι
+9:28 A- ----APN- πεντήκοντα πεντήκοντα  # module M, no features — MorphGNT gives πεντήκοντα case, number and gender like any adjective
+9:28 N- ----APN- ἔτη ἔτος
+9:29 C- -------- καὶ καί
+9:29 V- 3AMI-P-- ἐγένοντο γίνομαι
+9:29 A- ----NPF- πᾶσαι πᾶς
+9:29 RA ----NPF- αἱ ὁ
+9:29 N- ----NPF- ἡμέραι ἡμέρα
+9:29 N- ----GSM- Νωε Νῶε
+9:29 A- ----NPN- ἐννακόσια ἐννακόσιοι
+9:29 A- ----NPN- πεντήκοντα πεντήκοντα  # module M, no features — MorphGNT gives πεντήκοντα case, number and gender like any adjective
+9:29 N- ----NPN- ἔτη ἔτος
+9:29 C- -------- καὶ καί
+9:29 V- 3AAI-S-- ἀπέθανεν ἀποθνήσκω

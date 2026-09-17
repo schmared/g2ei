@@ -108,6 +108,12 @@ LSJ = {
     # Middle Liddell and LSJ both file πρῶτος inside πρότερος, whose own senses are the
     # comparative's. LSJ (eng17) opens the superlative, πρότερος B, "foremost", then "first".
     "πρῶτος": ["foremost", "first"],
+    # No Middle Liddell entry for either. LSJ (eng16) gives the adjective's senses and cites
+    # GEN 9:23 for "looking backwards", of the face; the adverb, "backwards", is cited from the
+    # same verse, πορεύεσθαι ὀπισθοφανῶς.
+    "ὀπισθοφανής": ["seen from behind", "showing behind", "appearing behind or after",
+                    "reversing the image", "looking backwards"],
+    "ὀπισθοφανῶς": ["backwards"],
 }
 
 # New Testament books: MorphGNT file and its book number.
@@ -289,6 +295,56 @@ NOT_SENSES = {
     "o)nomasto/s": {"not to be named", "mentioned", "abominable"},  # οὐκ ὀνομαστός, one construction
     "fqei/rw": {"may ye perish! ruin seize ye!", "plague take thee! away with thee!", "thou depart",
                 "off from", "to run headlong"},  # curses and idioms of the passive
+    # GEN 9
+    # διατίθημι files MorphGNT's middle διατίθεμαι; its senses I–III are the active, and GEN 9:17
+    # διεθέμην is the middle, "B. Mid. to arrange as one likes, to dispose of".
+    "diati/qhmi": {"to place separately, arrange", "in their own places, dispose", "to manage",
+                   "to treat", "he was", "treated", "handled", "to dispose", "to recite",
+                   "with"},                     # the last from "to settle a quarrel with one"
+    "a)nti/": {"over against, opposite. c. gen.",  # Perseus's summary
+               "as good as", "for",             # pieces of worked examples
+               "over against, opposite", "against, in opposition to, as", "in return", "instead",
+               "equal to, like", "counter"},    # "IN COMPOS.": the senses in compounds
+    "plhro/w": {"animum explere", "having poured", "till it was full"},  # Latin, and an example
+    "fo/bos": {"to flight",                     # φόβονδε, another form
+               "(the sensation of fear)"},      # glosses δέος, which the entry sets against φόβος
+    "u(me/teros": {"you", "to your house", "raised by you"},  # pieces of examples; ὑμέτερόνδε
+    "oi)=nos": {"beer"},                        # from "barley-wine, a kind of beer"
+    "e)kxe/w": {"poured forth his", "forth"},   # pieces of "poured forth his arrows", "stream out or forth"
+    "pi/nw": {"du vin)", "with", "drinking", "having finished drinking",  # pieces of examples
+              "to be drunk"},                   # the perfect πέπωκα alone
+    "mequ/skw": {"with"},                       # from "with nectar"
+    "gumno/w": {"to strip", "he stript himself"},  # pieces of examples
+    "to/con": {"spearmen)", "by guess"},        # an explanation, and τόξῳ, one construction
+    "nw=ton": {"behind", "rear"},               # κατὰ νώτου, one construction
+    "w(/ste": {"the result", "effect", "upon", "that one", "to"},  # descriptions and pieces of examples
+    "pai=s": {"sons", "a boy-"},                # "sons of the Lydians", and "a boy-swineherd"
+    "e)/cw": {"the heathen);"},                 # "(in NTest. the heathen)"
+}
+
+# An entry that divides its senses by tense and voice, so that which of them belong to a
+# form depends on the form's parse and not on its lemma alone. For a form whose tense and
+# voice are among those listed, the set given here is skipped in place of NOT_SENSES.
+FORM_SENSES = {
+    # ἀνίστημι heads sense A "Causal in pres., imperf." and sense B "Intr. in pres. and
+    # imperf. ἀνίσταμαι, -μην, … in aor2 ἀνέστην". NOT_SENSES keeps B, for GEN 4:8 ἀνέστη;
+    # the present and imperfect active — GEN 9:9 ἀνίστημι — keep A, less its "by" (from
+    # "by his hand") and the aorist middle "to build oneself".
+    "a)ni/sthmi": [("PI", "A", {
+        "by", "to build oneself",
+        "to stand up, rise", "to rise from one's seat", "to rise from bed", "to rise from the dead",
+        "to rise from", "recover", "to rise", "to stand up", "to be set up, to rise up, rear itself",
+        "to rise to go, set out, go away", "to be compelled to migrate", "to be depopulated",
+        "subject to migration", "to be put up"})],
+    # ἐπιτίθημι heads its actives "A. Act." and its middles "B. Mid."; a middle form — GEN 9:23
+    # ἐπέθεντο — takes B, whose first sense is "to put on oneself". "to give" is left out with
+    # the actives: the middle's own "to give" a name would otherwise be listed in the active's
+    # place, ahead of the middle's first sense.
+    "e)piti/qhmi": [("PIFAXY", "M", {
+        "to lay, put", "place upon", "laid on", "on", "to apply", "to set", "up", "to put on", "put",
+        "as a door", "before", "to put", "to, shut", "to put to, grant", "give besides",
+        "to add, bring on", "to", "to impose", "inflict", "to dispatch", "to give",
+        "in", "with assiduity"})],
 }
 # The key the lexicon files a word under, where that is not the key the lemma itself
 # gives: a different spelling (Attic γίγνομαι for Koine γίνομαι), the active a deponent
@@ -323,6 +379,7 @@ SPELLING = {
     "a)noi/gw": "a)noi/gnumi",     # the -νυμι form heads the entry
     "sfodrw=s": "sfodro/s",        # the adverb, filed inside the adjective's entry
     "mimnh/skomai": "mimnh/skw",    # MorphGNT's middle, filed under the active
+    "diati/qemai": "diati/qhmi",    # likewise
 }
 
 # Homographs where Perseus's *first* entry is a different word from the one the text
@@ -434,12 +491,18 @@ def load_middle_liddell():
     return entries
 
 
-def lexicon_senses(entries, lemma):
+def lexicon_senses(entries, lemma, code=""):
     key = SPELLING.get(beta(lemma), beta(lemma))
     key = ENTRY.get(key, key)
     if key not in entries:
         return None
-    skip = NOT_SENSES.get(re.sub(r"\d+$", "", key), set())
+    bare = re.sub(r"\d+$", "", key)
+    skip = NOT_SENSES.get(bare, set())
+    code = code.ljust(8, "-")
+    for tenses, voices, instead in FORM_SENSES.get(bare, []):
+        if code[1] in tenses and code[2] in voices:
+            skip = instead
+            break
     seen, out = set(), []
     for sense in entries[key]:
         if sense not in skip and sense not in seen:
@@ -494,7 +557,7 @@ def lxx_tokens(book, chapter):
     morph = read_morph(book, chapter)
     if morph is None:
         return None
-    return {verse: [(form, lemma, "", morphgnt(pos, code))
+    return {verse: [(form, lemma, code, morphgnt(pos, code))
                     for form, lemma, pos, code, _ in words]
             for verse, words in morph.items()}
 
@@ -510,7 +573,7 @@ def nt_tokens(book, chapter):
         if len(cols) < 7 or cols[0][:2] != number or int(cols[0][2:4]) != chapter:
             continue
         _, pos, code, _, word, _, lemma = cols[:7]
-        out.setdefault(int(cols[0][4:6]), []).append((word, lemma, "", morphgnt(pos, code)))
+        out.setdefault(int(cols[0][4:6]), []).append((word, lemma, code, morphgnt(pos, code)))
     return out
 
 
@@ -554,7 +617,7 @@ def build(book, chapter, entries):
                              "  source: %s" % (verse["ref"], " ".join(ours),
                                                " ".join(t[0] for t in theirs)))
         words = []
-        for form, (_, lemma, _, (parse, aspect)) in zip(ours, theirs):
+        for form, (_, lemma, code, (parse, aspect)) in zip(ours, theirs):
             if lemma in LSJ:
                 # An explicit LSJ entry wins: the table holds the words Middle Liddell
                 # lacks *and* the ones whose entry it tags with nothing usable, like
@@ -565,7 +628,7 @@ def build(book, chapter, entries):
                               "senses": senses[:SHOWN], "more": max(0, len(senses) - SHOWN),
                               "lexicon": lexicon})
                 continue
-            senses, lexicon = lexicon_senses(entries, lemma), "Middle Liddell"
+            senses, lexicon = lexicon_senses(entries, lemma, code), "Middle Liddell"
             if senses is None and (lemma in names or form in names):
                 # A name entry is keyed by the form the verse prints (Ἀσσυρίων), which
                 # is not always the dictionary form the morphology gives (Ἀσσύριος).

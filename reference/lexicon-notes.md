@@ -48,7 +48,10 @@ consulted.
 
    A sense the entry restricts to one *tense* is skipped the same way: ἀνίστημι heads its
    causal senses "in pres., imperf." and its intransitive ones "in aor2 ἀνέστην", so GEN 4:8
-   ἀνέστη is *stood up*. A sense restricted only by *subject* or *construction* is not: the
+   ἀνέστη is *stood up* and GEN 9:9 ἀνίστημι *I make to stand up*. Where one lemma is used both
+   ways, the word-by-word layer cannot skip by lemma alone: `FORM_SENSES` in `build/words.py`
+   names the senses to skip for a given tense and voice, in place of `NOT_SENSES`. ἐπιτίθημι's
+   middle, *B. Mid. to put on oneself*, is filed there the same way for GEN 9:23 ἐπέθεντο. A sense restricted only by *subject* or *construction* is not: the
    rule reads the lexicon, not the verse. So συλλαμβάνω is *having collected* at GEN 4:1,
    though its fourth sense, "of females, to conceive", is what the verse means; ἄρχω with the
    genitive is *will begin* at 4:7, though *to rule* is its second sense; and πρόβατον is
@@ -116,6 +119,7 @@ Three reasons, and all of them are the lexicon's filing rather than a decision a
 | ἀνοίγω (GEN 7:11) | ἀνοίγνυμι | the -νυμι form heads the entry |
 | σφοδρῶς (GEN 7:19) | σφοδρός | the adverb, filed inside the adjective's entry |
 | μιμνήσκομαι (GEN 8:1) | μιμνήσκω | MorphGNT's middle, filed under the active |
+| διατίθεμαι (GEN 9:17) | διατίθημι | likewise |
 
 The dictionary form itself does not follow the lexicon's filing: it keeps the spelling the text
 prints — γίνομαι, ἔχθρα, νοσσιά, δειλινός, κατέναντι, ἐννακόσιοι, κατάγαιος, τεσσαράκοντα — and
@@ -143,6 +147,11 @@ translation, and names the entry that does. Following it is not interpretation �
 is saying where the word is defined.
 
 GEN 6 adds ἀσφαλτόω and διώροφος from LSJ, each with one sense and each citing the verse.
+GEN 9 adds ὀπισθοφανής, *seen from behind*, and its adverb ὀπισθοφανῶς, *backwards*, both citing
+9:23.
+
+GEN 9 also files ἐμεθύσθη under μεθύσκω, *to make drunk*, where Middle Liddell gives its aorist
+passive, though MorphGNT files the same form under μεθύω, *to be drunk*.
 
 Where a deponent is filed under its active, the entry's opening gloss is usually the active
 one and the form in the text is not. That is the ἄρχω and βρέχω situation again, and it is
@@ -434,6 +443,15 @@ the same ground as `the sixth` and `the seventh`: one sense each, so no range to
   the verb ὁλοκαρπόομαι, *to be offered as a whole burnt-offering*. Plain text, as σφυροκόπος.
 - εἷς as a numeral: ἐν τῷ ἑνὶ καὶ ἑξακοσιοστῷ ἔτει — `in the [[one]] and six
   hundredth year` (8:13); μιᾷ τοῦ μηνός — `[[one]] of the month`, the chain of GEN 2:21.
+- One sense each in GEN 9, so plain text: κατακυριεύω `gain dominion over` (9:1); ἀμπελών `a
+  vineyard` (9:20); οἶνος `of the wine` (9:21, 9:24), once *beer*, Middle Liddell's piece of
+  *barley-wine, a kind of beer*, is left out; εὐλογητός `blessed` (9:26); ἐπικατάρατος `yet more accursed`, as
+  at 3:14 (9:25); ὀπισθοφανῶς `backwards` (9:23, LSJ); numerals and `years` (9:28, 9:29).
+- καὶ γάρ — `also for` (9:5): καί as *also*, γάρ plain as at 2:5.
+- τὸ ὑμέτερον αἷμα — `the [[your]] [[blood]]` (9:5): the article plain before the adjective's
+  unit, as before τὸ πρὸς ἑσπέραν at 8:11.
+- ἦν of a standing relation (Χαμ ἦν πατὴρ Χανααν, 9:18) — the state formula of 1:2 in full; ἦσαν
+  opening the verse — `were, and kept on being,` as at 6:4.
 
 ### διά + genitive
 
@@ -486,6 +504,33 @@ the same ground as `the sixth` and `the seventh`: one sense each, so no range to
   `vehemently` / `vehemently, violently, excessively, impetuously, strongly and robustly`, the
   adverb of σφοδρός, *vehement*. 7:18, 7:19.
 - ἔξωθεν with a genitive — `from without`, the chain of GEN 6:14. 7:16.
+
+### Small words new in GEN 9
+
+- πλήν without a genitive — **headword** `but`, the entry's first sense as an adverb; *more than,
+  except, save* are the preposition's, with the genitive, and stand last; **chain** `but, than,
+  much like, only not, except that, save that, except, save so far as, more than, save, short of`.
+  9:4.
+- ὥστε with the infinitive — **headword** `so as to`, the first conjunction sense; **chain** `so as
+  to, as to, on the condition that, and so and therefore and consequently, as and as being, since
+  it was`. 9:15.
+- ἀντί + genitive — **headword** `over against`, sense 0, *over against, opposite*; Perseus's
+  summary and the senses *IN COMPOS.* are skipped by name; **chain** `over against, opposite,
+  instead and in the place of, as good as and equal to, at the price of and for, for the sake of,
+  set against and compared with`. 9:6, and 2:21 and 4:25, whose chain first stopped at *as good
+  as*, the fifth of the senses a word card shows.
+- ὑπό + accusative — **headword** `towards and under`, the entry's first translation for that case;
+  **chain** `towards and under, under and into, under and before, under, in subjection, towards,
+  about, about the time, to a certain degree and in some measure`. 9:2, ὑπὸ χεῖρας.
+- ἔξω without a genitive — **headword** `out`; **chain** `out, out of, outside, without, foreign,
+  clear of, beyond and over, but and except`. 9:22.
+- ὑμέτερος — **headword** `your`; **chain** `your, yours, your part and your business, your
+  character`. 9:5.
+- ἐν with an articular infinitive — ἐν τῷ συννεφεῖν με — `in the collecting clouds` / `within,
+  inside of, and by means of the collecting clouds, the being cloudy, the wearing a clouded look`,
+  then `of me` (9:14): joined, as ἐν always is, with the infinitive's subject in the genitive's
+  English, as at 4:8.
+- τοῦ with an infinitive (τοῦ καταφθεῖραι 9:11, τοῦ μνησθῆναι 9:16) — not printed, as at 2:5.
 
 ---
 
@@ -1157,6 +1202,52 @@ waters* is refused by `validate.py` here as there.
 | ἔγκειμαι | pres. 3 sg | `lies in` | `lies in, is wrapped in, is involved in, presses upon, is urgent and insists, is devoted to` | 8:21 |
 | πατάσσω | aor. inf. | `to beat` | `to beat, to knock, to strike and smite, to knock at` | 8:21 |
 | καταπαύω | fut. 3 pl | `will lay to rest` | the chain of GEN 2:2, in the future | 8:22 |
+
+### Verbs new in GEN 9
+
+| lemma | form | headword | chain | used |
+| --- | --- | --- | --- | --- |
+| εὐλογέω | aor. 3 sg | `spoke well of` | the chain of GEN 2:3 | 9:1 |
+| αὐξάνω, πληθύνω | pres. impv. pass. 2 pl | `be made large` · `be made full` | the chains of GEN 8:17 | 9:1, 9:7 |
+| πληρόω | aor. impv. 2 pl | `make full` | `make full, fill full of, fill full, gorge and satiate, glut, fill with, man, make complete, fill, fulfil and pay in full and make up, come in full` — the entry's passives and middles left out | 9:1, 9:7 |
+| κινέω | pres. mid.-pass. ptcp. n. pl., articular | `the ones being set in motion` | the chain of GEN 7:14, with the article | 9:2 |
+| δίδωμι | perf. 1 sg / pres. 1 sg | `I have given` · `I give` | `I have given and it stands given, I have granted and it stands granted, I have provided and it stands provided, I have given over and delivered up and it stands so` · `I give, I am ready to give and offer, I grant, I provide, I give over and deliver up` — *to be ready to give* is the entry's present | 9:2, 9:3, 9:12 |
+| ἐσθίω | fut. 2 pl | `you will eat` | the chain of GEN 2:17 | 9:4 |
+| ἐκζητέω | fut. 1 sg | `I will seek out` | `I will seek out, I will enquire, I will demand an account of` | 9:5 |
+| ἐκχέω | pres. ptcp., articular / fut. pass. 3 sg | `the one pouring out` · `will be poured out` | `the one pouring out, the one pouring out like water, the one squandering and wasting` · `will be poured out, will be poured out like water, will be squandered and wasted, will stream out and forth, will be spread out, will be forgotten, will be overjoyed, will burst out, will lie languidly` — the passive's own senses last | 9:6 |
+| ποιέω | aor. 1 sg / aor. 3 sg | `I made` · `made` | the chain of GEN 6:7 · `fashioned, wrought, produced, performed, did`, the same in the third person | 9:6, 9:24 |
+| λέγω | aor. 3 sg / pres. ptcp. | `said` · `saying` | the chains of GEN 2:16–18 | 9:1–26 |
+| ἀνίστημι | pres. 1 sg | `I make to stand up` | `I make to stand up, I raise up, I raise from sleep and wake up, I raise from the dead, I set up and build, I build up again and restore, I put up for sale, I rouse to action and stir up, I rouse to arms and raise, I make rise and break up, I make rise and emigrate and transplant, I make rise and leave sanctuary, I put up and spring` — sense A, *Causal in pres., imperf.* | 9:9 |
+| ἐξέρχομαι | aor. ptcp. pl., articular | `the ones having gone out of` · `of the ones …` | the chain of GEN 4:16, in the form | 9:10, 9:18, 9:22 |
+| ἵστημι | fut. 1 sg | `I will make to stand` | the chain of GEN 6:18 | 9:11 |
+| ἀποθνήσκω | fut. 3 sg / aor. 3 sg | `will die off` · `died off` | the chains of GEN 2:17 and 5:5, in the form | 9:11, 9:29 |
+| καταφθείρω | aor. inf. | `to destroy` | the chain of GEN 6:17 | 9:11 |
+| τίθημι | pres. 1 sg | `I set` | `I set, I put, I place, I plant, I lay` | 9:13 |
+| συννεφέω | pres. inf., articular with ἐν | `in the collecting clouds` | `within, inside of, and by means of the collecting clouds, the being cloudy, the wearing a clouded look` | 9:14 |
+| ὁράω | fut. pass. 3 sg / fut. mid. 1 sg / aor. 3 sg and 3 pl | `will be seen` · `I will see` · `saw` | the chains of GEN 8:5, 7:1 and 3:6, in the form | 9:14, 9:16, 9:22, 9:23 |
+| μιμνήσκομαι | fut. pass. 1 sg / aor. pass. inf. | `I will remind myself of` · `to remind oneself of` | the chain of GEN 8:1, in the form | 9:15, 9:16 |
+| ἐξαλείφω | aor. inf. | `to plaster` | the chain of GEN 7:4, in the infinitive | 9:15 |
+| διατίθεμαι | aor. mid. 1 sg | `I arranged as I liked` | `I arranged as I liked, I disposed of, I disposed of my property and devised it by will, I set out for sale and disposed of, I arranged mutually, I made a covenant with, I settled with` — the entry's *B. Mid.*; its actives left out | 9:17 |
+| διασπείρω | aor. pass. 3 pl | `were scattered abroad` | `were scattered abroad, were thrown about, were squandered` | 9:19 |
+| ἄρχω | aor. mid. 3 sg | `began` | the chain of GEN 2:3 | 9:20 |
+| φυτεύω | aor. 3 sg | `planted` | the chain of GEN 2:8 | 9:20 |
+| πίνω | aor. 3 sg | `drank` | `drank, drank of, drank up` — *to be drunk*, the perfect's, left out | 9:21 |
+| μεθύσκω | aor. pass. 3 sg | `was made drunk` | `was made drunk, was intoxicated and inebriated, was given to drink and watered and moistened, drank freely, got drunk, was drunk` — the passive's own senses last | 9:21 |
+| γυμνόω | aor. pass. 3 sg | `was stripped naked` | `was stripped naked, was stripped, was left naked and exposed, was left bare and defenceless, stripped himself naked` | 9:21 |
+| ἀναγγέλλω | aor. 3 sg | `carried back tidings of` | the chain of GEN 3:11 | 9:22 |
+| λαμβάνω | aor. ptcp. pl. | `having taken` | the chain of GEN 3:6 | 9:23 |
+| ἐπιτίθημι | aor. mid. 3 pl | `put on themselves` | `put on themselves, put on for themselves, set themselves to and applied themselves to and employed themselves on, made an attempt upon and attacked, brought on themselves, caused to be imposed, laid commands on, gave` — the entry's *B. Mid.* | 9:23 |
+| πορεύομαι | aor. pass. 3 pl | `were driven` | the chain of GEN 2:14, in the aorist | 9:23 |
+| συγκαλύπτω | aor. 3 pl | `covered` | `covered, veiled completely` — the passive's *muffled up* and the middle's *to wrap oneself up* left out | 9:23 |
+| ἐκνήφω | aor. 3 sg | `slept off a drunken fit` | `slept off a drunken fit, became sober again` — one sense holding two glosses, a unit as ἐμφυσάω's was at 2:7 | 9:24 |
+| γινώσκω | aor. 3 sg | `learned to know` | the chain of GEN 4:1 | 9:24 |
+| πλατύνω | aor. opt. 3 sg | `may widen` | `may widen, may make wide` — the middle's and passive's senses left out | 9:27 |
+| κατοικέω | aor. impv. 3 sg | `let dwell in` | `let dwell in, let settle in, let colonise, let inhabit, let settle and dwell, let lie and be situate` — the first translation reads *to dwell in as a* κάτοικος; the headword stops before the Greek | 9:27 |
+| γίνομαι | aor. pass. impv. 3 sg / aor. 3 pl | `let come into being` · `came into being` | `let come to be, let arise, let be brought into existence`; the chain of GEN 5:5 | 9:27, 9:29 |
+| ζάω | aor. 3 sg / pres. ptcp. | `lived` · `living` | the chains of GEN 5:3 and 2:7, in the form | 9:3, 9:10, 9:12, 9:28 |
+
+A third-person imperative takes *let* and no pronoun (κατοικησάτω *let dwell in*, γενηθήτω *let
+come into being*), as a finite verb takes none; an optative takes *may* (πλατύναι *may widen*).
 
 ---
 
@@ -1860,6 +1951,54 @@ it is a child; τρίβολος is a spiked iron for laming horses before it is 
 | θερισμός, ψῦχος, καῦμα, θέρος, ἔαρ | `reaping-time` · `cold` · `burning heat` · `summer` · `spring` | `reaping-time, harvest, the crop` · `cold, winter-time, coolness` · `burning heat, sun-heat, fever-heat` · `summer, summertime, summer-fruits and harvest and crop` · `spring, prime and flower` | 8:22 |
 | ἡμέρα, νύξ (anarthrous acc. sg.) | `day` · `night-season` | `day, day-break, time` · `night-season, night, the watches of the night, the dark of night, the night of death` | 8:22 |
 
+### Nouns and adjectives new in GEN 9
+
+| lemma | headword | chain | used |
+| --- | --- | --- | --- |
+| τρόμος | `the trembling` | `the trembling, the quaking, the quivering` | 9:2 |
+| φόβος | `the flight` | `the flight, the panic fear, the fear and terror, the outward show of fear, the object of terror` — *flight*, the only sense in Homer, is sense I | 9:2 |
+| πᾶς (dat. pl.) | `to all` | the chain of GEN 2:20 | 9:2, 9:10 |
+| θηρίον (dat. pl.) | `to the wild animals` | the chain of GEN 2:20 | 9:2, 9:10 |
+| ὄρνεον (pl.) | `the birds` · `of birds` | `the birds, the bird-market`, the chain of GEN 6:20 in the form | 9:2, 9:10 |
+| ἰχθύς (pl.) | `the fishes` | `the fishes, the fish-market` | 9:2 |
+| θάλασσα | `of the sea` | `of the sea, of the Mediterranean, of a well of salt water` | 9:2 |
+| χείρ (acc. pl., anarthrous) · (gen. sg., anarthrous) | `hands` · `of hand` | `hands, hands and arms, arms` · `of hand, of hand and arm, of arm` | 9:2, 9:5 |
+| ἑρπετόν | `walking animal` | the chain of GEN 7:14 | 9:3 |
+| βρῶσις | `meat` | the chain of GEN 2:9 | 9:3 |
+| λάχανον (pl.) | `garden-herbs` | `garden-herbs, potherbs, vegetables, greens, the vegetable-market and green-market` | 9:3 |
+| χόρτος (anarthrous gen.) | `of an inclosed place` | the chain of GEN 2:5, in the genitive | 9:3 |
+| πᾶς (τὰ πάντα, as a noun) | `the all things` | `the all things, the everything, the whole` — the entry's neuter used as a noun, *all things* | 9:3 |
+| κρέας | `flesh` | `flesh, meat, a piece of meat, dressed meat, a body and person` — not σάρξ, whose headword is also *flesh*; the note says which | 9:4 |
+| αἷμα | `in blood` · `blood` · `of the blood` | the chain of GEN 4:10, in the form | 9:4, 9:5, 9:6 |
+| ψυχή | `of breath` · `of the breaths` · `the breath` · `to breath` | the chain of GEN 2:7, in the form | 9:4, 9:5, 9:10, 9:12, 9:15, 9:16 |
+| ἄνθρωπος | `of man` · `of the man` · `the man` · `man` | the chains of GEN 6:7, 8:21, 2:7 and JHN 1:6 | 9:5, 9:6, 9:20 |
+| ἀδελφός | `of son of the same mother` · `to sons of the same mother` · `to the sons of the same mother` | the chain of GEN 4:2, in the form | 9:5, 9:22, 9:25 |
+| εἰκών with ἐν | `in a likeness` | `within, inside of, and by means of a likeness, …` — the chain of GEN 5:1 | 9:6 |
+| σπέρμα (dat.) | `to that which is sown` | the chain of GEN 4:25, in the dative | 9:9 |
+| διαθήκη | `the disposition` · `of the disposition` · `of a disposition` · `a disposition` | the chain of GEN 6:18, in the form | 9:9–17 |
+| κτῆνος (anarthrous gen. pl.) | `of flocks and herds` | the chain of GEN 8:17 | 9:10 |
+| κατακλυσμός | `of the deluge` · `a deluge` · `the deluge` | the chain of GEN 6:17, in the form | 9:11, 9:15, 9:28 |
+| σημεῖον | `the sign` · `a sign` | the chain of GEN 4:15, in the form | 9:12, 9:13, 9:17 |
+| γενεά (pl.) | `races` | `races, stocks and families, breeds, tribes and nations, generations, offspring, birth-places, ages and times of life` — the chain of GEN 6:9 in the plural | 9:12 |
+| αἰώνιος | `lasting for an age` | `lasting for an age, ever-lasting, eternal` | 9:12, 9:16 |
+| ζάω (pres. ptcp., attributive) | `of living` · `to the living` | the chain of GEN 2:7 and 3:22, in the form | 9:10, 9:12, 9:15, 9:16 |
+| τόξον | `the bow` | `the bow, the bow and arrows, the rays` — τόξῳ, *by guess*, one construction, left out | 9:13, 9:14, 9:16 |
+| νεφέλη with ἐν · (pl.) | `in the cloud` · `clouds` | `within, inside of, and by means of the cloud, the bird-net` · `clouds, bird-nets` | 9:13, 9:14, 9:16 |
+| πατήρ (anarthrous) | `father` | `father, grandfather` — as μήτηρ at 3:20 | 9:18 |
+| οὗτος (pl.) | `these` · `of these` | the chain of GEN 6:9, in the form | 9:19 |
+| γεωργός | `a husbandman` | `a husbandman, one tilling the ground` — the first noun sense, then the adjective, as βοηθός at 2:18 | 9:20 |
+| γῆ (anarthrous gen.) | `of earth` | the chain of GEN 2:4 | 9:20 |
+| οἶκος with ἐν · (pl.) | `in the house` · `in the houses` | the chain of GEN 7:1, in the form | 9:21, 9:27 |
+| γύμνωσις | `the stripping` | `the stripping, the nakedness, the defenceless side` | 9:22, 9:23 |
+| πατήρ | `the father` · `of the father` | the chain of GEN 2:24, in the form | 9:22, 9:23 |
+| ἱμάτιον | `the outer garment` | `the outer garment, the cloak and mantle, the Roman toga, the clothes, the cloth` | 9:23 |
+| νῶτον (pl.) | `backs` | `backs, wide surfaces, plains, ridges` — κατὰ νώτου, *from behind*, one construction, left out | 9:23 |
+| πρόσωπον | `the face` | the chain of GEN 2:6 | 9:23 |
+| ὀπισθοφανής | `seen from behind` | `seen from behind, showing behind, appearing behind or after, reversing the image, looking backwards` — **no Middle Liddell entry**; LSJ, citing 9:23 | 9:23 |
+| νέος (comp.) | `the younger` | `the younger, the more youthful, the newer and fresher, the stranger` | 9:24 |
+| παῖς | `a child` | `a child, a son, a daughter, a grandchild, a boy and youth and lad, a girl and maiden, a slave and servant and man and maid` — *a slave, servant* is sense III, *in relation to condition* | 9:25, 9:26, 9:27 |
+| οἰκέτης | `a house-slave` | `a house-slave, a menial` | 9:25 |
+
 ---
 
 ## Aspect formulas
@@ -1921,6 +2060,7 @@ Gloss on first occurrence per chapter, bare thereafter.
 | Σημ | Sēm | Shem | `(Σημ, from Hebrew Šēm, "name")` |
 | Χαμ | Cham | Ham | `(Χαμ, from Hebrew Ḥām, usually connected with ḥam, "hot")` |
 | Ιαφεθ | Iapheth | Japheth | `(Ιαφεθ, from Hebrew Yepet, which 9:27 ties to pātâ, "to make wide")` |
+| Χανααν | Chanaan | Canaan | `(Χανααν, from Hebrew Kĕnaʿan, of uncertain meaning)` |
 
 A name glossed again in a later chapter keeps its gloss, unless the gloss spoke of the verse it
 stood in: Σηθ's *which the verse ties* becomes *which 4:25 ties*. Μαθουσαλα at GEN 5 is glossed

@@ -108,6 +108,15 @@ construct *hārê ʾărārāṭ* has it, and as the reference module reads it to
 μιμνήσκω where MorphGNT has the middle; the list of middle lemmas below had not named it, and now
 does.
 
+### What it found in Genesis 9
+
+Nothing that `morph_diff.py` reports: the two passes agreed on all 566 words, with the chapter's
+new small words — πλήν, ὥστε, ἀντί, ἔξω, the καί of καὶ γάρ, ὑμέτερος — and MorphGNT's Χανάαν,
+διατίθεμαι and νεώτερος under νέος added beforehand. The diff counts gender `C` as agreeing with
+`M` or `F`, and there the second pass was the more exact: αἰωνίους and αἰώνιον, with feminine
+nouns, keep the forms αἰώνιος shares between masculine and feminine, and are `C` under the rule
+below, where the first pass had them `F`.
+
 ## The brief
 
 Copy everything below the rule into a new agent. Replace `<BOOK NAME>`, `<CHAPTER>`,
@@ -151,15 +160,17 @@ N- noun · V- verb · A- adjective (numerals included) · RA article · RP perso
 
 Small words are tagged as MorphGNT tags them:
 
-- **C-** καί, δέ, γάρ, ὅτι, τε, ἵνα, οὖν, ἡνίκα, καθά, καθώς; εἰ, *if* or *whether*; ἐάν meaning *if*; ὅτε introducing a clause, including
+- **C-** καί, δέ, γάρ, ὅτι, τε, ἵνα, οὖν, ἡνίκα, καθά, καθώς, ὥστε; εἰ, *if* or *whether*; πλήν
+  with no genitive after it, *only, except*; ἐάν meaning *if*; ὅτε introducing a clause, including
   after a noun that is not a time (`ἡ μαρτυρία … ὅτε`, John 1:19); οὐδέ meaning *nor*; μήποτε
   meaning *lest*; ὡς meaning *as, like*, and the ὡς of `ὡς ἄν` (Rom 15:24), with ἄν `X-`
 - **X-** ἄν; ἐάν where it stands for ἄν after a relative (`ὃ ἐὰν θέλητε`, John 15:7); ἰδού;
   μή opening a question that expects *no*
-- **D-** οὐ, μή, νῦν, ἔτι, ἐκεῖ, ἐκεῖθεν, ποῦ; καί meaning *also, even*; οὐδέ meaning *not
-  even*; ὅτε after a noun of time (`ἔρχεται ὥρα ὅτε`, John 4:21); οὗ meaning *where*; ἐπάνω and
-  ἔξωθεν with no genitive after them (1 Cor 15:6)
-- **P-** a word governing a genitive as a preposition does — ἐπάνω, ἀπέναντι, ἀνά, ἐναντίον,
+- **D-** οὐ, μή, νῦν, ἔτι, ἐκεῖ, ἐκεῖθεν, ποῦ; καί meaning *also, even*, and the καί of `καὶ γάρ`
+  (all 38 times in MorphGNT); οὐδέ meaning *not even*; ὅτε after a noun of time (`ἔρχεται ὥρα
+  ὅτε`, John 4:21); οὗ meaning *where*; ἐπάνω, ἔξωθεν and ἔξω with no genitive after them
+  (1 Cor 15:6)
+- **P-** ἀντί; a word governing a genitive as a preposition does — ἐπάνω, ἀπέναντι, ἀνά, ἐναντίον,
   ὑποκάτω, ὀπίσω, and ἔξωθεν with a genitive (Mark 7:15) — and ἕως
   governing a genitive, an articular infinitive included
 
@@ -216,6 +227,8 @@ Conventions:
   words (ἑκατὸν καὶ ἑξήκοντα πέντε, δέκα πέντε) is several words: each numeral agrees with the
   noun.
 - Comparatives in -ων (μείζων) have one form for masculine and feminine: gender `C`, degree `C`.
+  A comparative in -τερος has three: ὁ νεώτερος is `A- ----NSMC`, filed under its positive, νέος,
+  as MorphGNT files it. A possessive adjective (ὑμέτερος) is `A-`.
 - οἶδα's past forms (ᾔδει) are pluperfect, `Y`, as MorphGNT codes them. ἥκω is present, `P`,
   though it means *have come*.
 - A repeated distributive numeral (`δύο δύο`, Mark 6:7) is two words, each agreeing with its
@@ -232,7 +245,7 @@ The dictionary form as Middle Liddell (Perseus) files it:
 - Verbs with no active in use under their middle form, as MorphGNT files them: ἐργάζομαι,
   πορεύομαι, ἐκπορεύομαι, εἰσπορεύομαι, εἰσέρχομαι, ἐντέλλομαι, φοβέομαι, ἀπέρχομαι,
   καταράομαι, ἐκλέγομαι, ἐνθυμέομαι, θυμόομαι (for ἐθυμώθη, as MorphGNT has it at Matt 2:16),
-  διανοέομαι, μιμνήσκομαι.
+  διανοέομαι, μιμνήσκομαι, διατίθεμαι.
 - εἰδέναι → οἶδα · εἶπεν → λέγω · ἰδεῖν → ὁράω · φαγ- forms → ἐσθίω · μου → ἐγώ ·
   every article → ὁ.
 - The dictionary form keeps the spelling the text prints — γίνομαι, ἔχθρα, νοσσιά, δειλινός,
@@ -243,7 +256,8 @@ The dictionary form as Middle Liddell (Perseus) files it:
   noun filed as such: πετεινόν.
 - Proper names: a personal name the New Testament also uses takes MorphGNT's dictionary form,
   accented though Rahlfs prints it bare — Ἀδάμ, Εὕα, Κάϊν, Ἅβελ, Σήθ, Ἐνώς, Ἑνώχ,
-  Μαθουσαλά, Λάμεχ, Μαλελεήλ, Νῶε, Σήμ so far. Where the New Testament spells the name with
+  Μαθουσαλά, Λάμεχ, Μαλελεήλ, Νῶε, Σήμ, Χανάαν so far — Χανάαν though the New Testament names
+  the land by it (Acts 7:11), since it is the same name. Where the New Testament spells the name with
   other letters (Luke 3:37 Καϊνάμ, Ἰάρετ), it is not the same dictionary form. Every other
   Semitic name, of a person or a place, exactly as printed, unaccented (Εδεμ, Φισων, Ναιδ). Greek names in the nominative singular (Αἰθιοπία,
   Τίγρις, Ἀσσύριος, Εὐφράτης). A Greek word the text prints capitalised as a name keeps its
