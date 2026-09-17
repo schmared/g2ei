@@ -258,6 +258,13 @@ breathing he leaves off. The first pass kept γέ, MorphGNT's accented enclitic,
 GEN 10:19's Γεραρα, coded as an indeclinable singular, was brought into line with the neuter plural
 settled at 20:1.
 
+### What it found in Genesis 27
+
+Eight disagreements over 1039 words. The second pass was right that Τί τοῦτο at 27:20 and τὸ ὄνομα at
+27:36 are nominative, the subjects of a verbless clause and of ἐκλήθη; that καί at 27:31 is *also*;
+and that ποιήσω at 27:37 is the deliberative aorist subjunctive, as ἀποστρέψω at 24:5. The first pass
+kept adverbial μόνον as `A- μόνος` and μέν with the conjunctions, both as settled before.
+
 ## The brief
 
 Copy everything below the rule into a new agent. Replace `<BOOK NAME>`, `<CHAPTER>`,

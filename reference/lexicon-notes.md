@@ -172,6 +172,10 @@ Three reasons, and all of them are the lexicon's filing rather than a decision a
 | ἕψεμα (GEN 25:29) | ἕψημα | LSJ: "late form of ἕψημα" |
 | καλῶς (GEN 26:29) | καλός | the adverb, filed inside the adjective's entry |
 | ἐχθρία (GEN 26:21) | ἔχθρη | LSJ: "late form of ἔχθρα", whose entry is headed with the Ionic ἔχθρη |
+| ταχύ (GEN 27:20) | ταχύς | the adverb, filed inside the adjective's entry |
+| δικαίως (GEN 27:36) | δίκαιος | likewise |
+| ἐπιγινώσκω (GEN 27:23) | ἐπιγιγνώσκω | the Attic spelling of a Koine form, as γινώσκω |
+| ζυγός (GEN 27:40) | ζυγόν | the entry is headed with the neuter |
 <!-- spelling rows above -->
 
 The dictionary form itself does not follow the lexicon's filing: it keeps the spelling the text
@@ -205,7 +209,7 @@ GEN 9 adds ὀπισθοφανής, *seen from behind*, and its adverb ὀπισ
 ἔτασις, *trial, affliction*. GEN 14 adds ἁλυκός, *salt, brackish*; ἀποσκευή, whose *removal,
 riddance* comes before *baggage*; σφαιρωτήρ, *thong, latchet*; and περάτης, which opens "= πορθμεύς",
 so that πορθμεύς's LSJ senses, *ferryman*, *boatman, seaman*, *conveyer*, stand before its own
-*wanderer, emigrant*, as ἁγίζω's stand for ἁγιάζω. GEN 15 adds ὑπερασπίζω, *cover with a shield*, from the upsilon file; τριετίζω, *to be three years old*; and διχοτόμημα, *half of a thing cut in two*. GEN 17 adds κατάσχεσις, *holding back, restraining, retention*, then *possession*, from the kappa file; and ἑκατονταέτης, *of a hundred years*, *years old*, citing 17:17. GEN 18 adds μοσχάριον, *little calf*, and, from the beta file, βούτυρον, *butter*, then *a plant*. GEN 19 adds προσοίγνυμι, *shut*; ἀορασία, *inability to see, blindness*; γελοιάζω, *jest*, from the gamma file; ἐπαύριον, *on the morrow*; and εἰσσπάομαι, *draw into oneself*. GEN 20 adds μήτρα, *womb*, whose Middle Liddell entry tags only Latin; δίδραχμον, *coin of two drachms*, under δίδραχμος; and κἀγώ, *crasis for καὶ ἐγώ*. GEN 21 adds ἀπογαλακτίζω, *wean from the mother's milk*; ἀρχιστράτηγος, *commander-in-chief*; and, from the omega file, ὦμος, *the shoulder with the upper arm*. GEN 23 adds παρεπίδημος, *sojourning in a strange place*, and μνημεῖον, *memorial, remembrance, record*, whose Middle Liddell entry tags its first sense only in Latin. GEN 24 adds ποτιστήριον, *drinking-trough for cattle*; ἐνώτιον, *ear-ring*; ἅβρα, *favourite slave*; and ἀποσάττω, *unsaddle, unpack*, *stop up, caulk*, *stuff with food*. GEN 25 adds three more: ὅλος, which Middle Liddell lacks altogether, *whole, entire, complete in all its parts*; δόμα, *gift*, then *payment*; and πυρράκης, *red, ruddy*, which LSJ files as a masculine noun. GEN 26 adds ἑκατοστεύω, *bear a hundredfold*, and γεώργιον, *field*, then *orchard*, *husbandry*, *crop* and, in the plural, a *tax* on land.
+*wanderer, emigrant*, as ἁγίζω's stand for ἁγιάζω. GEN 15 adds ὑπερασπίζω, *cover with a shield*, from the upsilon file; τριετίζω, *to be three years old*; and διχοτόμημα, *half of a thing cut in two*. GEN 17 adds κατάσχεσις, *holding back, restraining, retention*, then *possession*, from the kappa file; and ἑκατονταέτης, *of a hundred years*, *years old*, citing 17:17. GEN 18 adds μοσχάριον, *little calf*, and, from the beta file, βούτυρον, *butter*, then *a plant*. GEN 19 adds προσοίγνυμι, *shut*; ἀορασία, *inability to see, blindness*; γελοιάζω, *jest*, from the gamma file; ἐπαύριον, *on the morrow*; and εἰσσπάομαι, *draw into oneself*. GEN 20 adds μήτρα, *womb*, whose Middle Liddell entry tags only Latin; δίδραχμον, *coin of two drachms*, under δίδραχμος; and κἀγώ, *crasis for καὶ ἐγώ*. GEN 21 adds ἀπογαλακτίζω, *wean from the mother's milk*; ἀρχιστράτηγος, *commander-in-chief*; and, from the omega file, ὦμος, *the shoulder with the upper arm*. GEN 23 adds παρεπίδημος, *sojourning in a strange place*, and μνημεῖον, *memorial, remembrance, record*, whose Middle Liddell entry tags its first sense only in Latin. GEN 24 adds ποτιστήριον, *drinking-trough for cattle*; ἐνώτιον, *ear-ring*; ἅβρα, *favourite slave*; and ἀποσάττω, *unsaddle, unpack*, *stop up, caulk*, *stuff with food*. GEN 25 adds three more: ὅλος, which Middle Liddell lacks altogether, *whole, entire, complete in all its parts*; δόμα, *gift*, then *payment*; and πυρράκης, *red, ruddy*, which LSJ files as a masculine noun. GEN 26 adds ἑκατοστεύω, *bear a hundredfold*, and γεώργιον, *field*, then *orchard*, *husbandry*, *crop* and, in the plural, a *tax* on land. GEN 27 adds four more: πιότης, *fattiness*, then *wealth, prosperity*; πτερνίζω, *strike with the heel*, *trip up, supplant*; προσοχθίζω, *to be wroth with*, and of this chapter's phrase *am weary* of; and κατανύσσω, *stab, gouge*, and in the passive *to be sorely pricked*.
 <!-- LSJ sentences above -->
 
 GEN 9 also files ἐμεθύσθη under μεθύσκω, *to make drunk*, where Middle Liddell gives its aorist
@@ -605,6 +609,167 @@ the same ground as `the sixth` and `the seventh`: one sense each, so no range to
   settling in` (10:30); δύο `two`; υἱός `sons`.
 - The article before a people's name (τοὺς Λουδιιμ, τὸν Χετταῖον, τῶν Χαναναίων) is not printed,
   as before a person's name.
+
+### Words new in GEN 27
+
+- φιλέω — one verb for both the loving of food and the kiss: *to love, regard with affection*, and so
+  `love` where the Hebrew has *kiss*. 27:4, 27:9, 27:14, 27:26, 27:27.
+- εὐλογία — first *good language*, then *fine language*, *a fair speech*, *eulogy*, and *blessing*
+  last: the blessing of the chapter is the lexicon's fifth sense. 27:12–41.
+- κατάρα — one sense, *a curse*, against εὐλογία's five. 27:12, 27:13.
+- ἔδεσμα — *meat*, in the plural throughout. 27:4–31.
+- τε — `both`, as at 2:25, where the enclitic pairs two nouns. 27:3, 27:36.
+- ἐξέστη … ἔκστασιν μεγάλην and ἀνεβόησεν φωνὴν μεγάλην — cognate accusatives, each kept word for
+  word: ἐξίστημι with ἔκστασις, ἀναβοάω with φωνή. 27:33, 27:34, 27:38.
+- πτερνίζω — no Middle Liddell entry; LSJ's *strike with the heel*, *trip up, supplant*, which is the
+  heel of 25:26 heard again in the name. 27:36.
+- κατανύσσω — no Middle Liddell entry either; LSJ's *stab, gouge*, and in the passive *to be sorely
+  pricked*. 27:38.
+- προσοχθίζω — LSJ gives the phrase of this verse, προσώχθικα τῇ ζωῇ μου, under *am weary of*; its
+  first sense is *to be wroth with*. 27:46.
+- πιότης — LSJ, *fattiness*, then *wealth, prosperity*: the blessing of 27:28 and the word of 27:39.
+- ἐπιγινώσκω — filed under the Attic ἐπιγιγνώσκω, as γινώσκω under γιγνώσκω. 27:23.
+- ταχύ and δικαίως — adverbs, filed inside their adjectives' entries, as ὀρθῶς at 4:7. 27:20, 27:36.
+- ζυγός — Middle Liddell heads the neuter ζυγόν; Rahlfs prints the masculine article, so the lemma
+  keeps the masculine the text has. 27:40.
+- The aspect formulas are now read past by the bare-headword check in `build/validate.py`: at 27:23
+  ὡς is a unit, `as`, and the *as* inside *kept on being as a standing …* is the project's own
+  phrasing, not that headword loose in the text.
+- One sense each in GEN 27, so plain text: υἱός `son`; βραχίων `the arms`; ἐπικατάρατος `yet more
+  accursed`, as at 3:14; οἶνος `wine`; θυγάτηρ `the daughters`.
+
+| lemma | headword | chain | used |
+| --- | --- | --- | --- |
+| γυμνός | `the naked parts` | `the naked parts, the unclad, the unarmed, the uncovered, the stripped of` | 27:16 |
+| δέρμα | `the skins` | `the skins, the hides, the skins prepared for bags and bottles` | 27:16 |
+| δίδωμι | `may he give` | `may he give, may he grant, may he provide, may he give over and deliver up` | 27:28 |
+| δεύτερος | `second` | `second, next, inferior` | 27:36 |
+| δικαίως | `observantly of custom and social rule` | `observantly of custom and social rule, well-orderedly and civilly, observantly of right and righteously, evenly and well-balancedly, regularly and exactly, rightly and lawfully and justly, really and genuinely and truly, fairly and moderately` | 27:36 |
+| δουλεύω | `let them be slaves` | `let them be slaves, let them serve and be subject to` | 27:29 |
+| δουλεύω | `you will be a slave` | `you will be a slave, you will serve and be subject to` | 27:40 |
+| δρόσος | `of the dew` | `of the dew, of pure water, of anything tender, of the young of animals` | 27:28, 27:39 |
+| δόλος | `of a bait` | `of a bait, of any cunning contrivance for deceiving and catching, of any trick, of a stratagem, of craft and cunning and treachery` | 27:35 |
+| εἰμί | `let be` | `let be` | 27:33 |
+| εἰσφέρω | `carried into` | `carried into, brought in and contributed, paid the property-tax, brought` | 27:18, 27:25 |
+| εἰσφέρω | `you will carry into` | `you will carry into, you will bring in and contribute, you will pay the property-tax, you will bring` | 27:10 |
+| εὐλογέω | `having been spoken well of` | `having been spoken well of and standing so, having been praised, having been honoured, having been blessed` | 27:29, 27:33 |
+| εὐλογέω | `may speak well of` | `may speak well of, may praise, may honour, may bless` | 27:4, 27:10, 27:19, 27:25, 27:31 |
+| εὐλογέω | `speak well of` | `speak well of, praise, honour, bless` | 27:34, 27:38 |
+| εὐλογέω | `the one speaking well of` | `the one speaking well of, praising, honouring, blessing` | 27:29 |
+| εὐλογία | `good language` | `good language, fine language, a fair speech and specious talk, eulogy and panegyric, blessing` | 27:12, 27:36, 27:38 |
+| εὐλογία | `good language` | `good language, fine language, a fair speech and specious talk, eulogy and panegyric, blessing` | 27:12, 27:36, 27:38 |
+| εὐλογία | `of the good language` | `of the good language, of the fine language, of the fair speech and specious talk, of the eulogy and panegyric, of the blessing` | 27:41 |
+| εὐλογία | `the good language` | `the good language, the fine language, the fair speech and specious talk, the eulogy and panegyric, the blessing` | 27:35, 27:36 |
+| εὑρίσκω | `you found` | `you found, you found out, you discovered` | 27:20 |
+| ζυγός | `the yoke` | `the yoke, the cross-bar, the pair and team, the balance and scales, the rowing-bench` | 27:40 |
+| ζωή | `to the life` | `to the life, to the means of life and substance, to existence, to a way of life` | 27:46 |
+| θήρα | `hunting of wild beasts` | `hunting of wild beasts, the chase, eager pursuit, the beast taken and spoil and booty and prey and game` | 27:3, 27:5, 27:7, 27:33 |
+| θήρα | `of the hunting of wild beasts` | `of the hunting of wild beasts, of the chase, of the eager pursuit, of the beast taken and the spoil and booty and prey and game` | 27:19, 27:25, 27:30, 27:31 |
+| θηρεύω | `having hunted` | `having hunted, having gone hunting, having hunted after and chased and caught, having hunted down, having laid wait for` | 27:33 |
+| θηρεύω | `hunt` | `hunt, go hunting, hunt after and chase and catch, hunt down, lay wait for` | 27:3 |
+| θηρεύω | `to hunt` | `to hunt, to go hunting, to hunt after and chase and catch, to hunt down, to lay wait for` | 27:5 |
+| θυμός | `the soul` | `the soul, the spirit and heart, the anger and wrath, the mind and temper, the will and desire, the courage and spirit` | 27:44 |
+| καθαιρέω | `you may take down` | `you may take down, you may put down and close, you may bring down, you may put down by force and destroy and kill and slay, you may put down and reduce and depose and dethrone and remove, you may rase to the ground and pull down, you may cancel and rescind, you may condemn, you may reduce, you may overpower and seize and catch` | 27:40 |
+| κατάρα | `curse` | `curse` | 27:12 |
+| κατάρα | `the curse` | `the curse` | 27:13 |
+| κατανύσσω | `having been stabbed` | `having been stabbed and gouged, having been sorely pricked, having been bewildered and stunned` | 27:38 |
+| καταράομαι | `the one calling down curses upon` | `the one calling down curses upon, imprecating upon, cursing and execrating, uttering imprecations` | 27:29 |
+| καταφρονέω | `thinking down upon` | `thinking down upon, looking down upon and thinking slightly of, regarding slightly and despising` | 27:12 |
+| κατοίκησις | `the settling in` | `the settling in, the dwelling, the habitation` | 27:39 |
+| κἀγώ | `and me` | `and me` | 27:34, 27:38 |
+| λαλέω | `of talking` | `of talking, of chatting, of prattling, of babbling, of saying, of talking of, of speaking, of chattering, of chirping` | 27:5, 27:6 |
+| λαμβάνω | `has taken` | `has taken and it stands so, has received and it stands so, has taken hold of and grasped and seized and it stands so` | 27:36 |
+| λαμβάνω | `will take` | `will take, will receive, will take hold of and grasp and seize` | 27:46 |
+| λεῖος | `smooth` | `smooth, plain and not embroidered, smooth and level and flat, smooth-skinned and beardless` | 27:11 |
+| μάχαιρα | `to the large knife` | `to the large knife, to the sabre, to the short sword and dagger` | 27:40 |
+| μέν | `on the one hand` | `on the one hand, on the other hand, as well as, while, whereas, indeed, for my part, surely, accordingly and so, at all events and at any rate, so then` | 27:22 |
+| μεταπέμπω | `I will send after` | `I will send after, I will send for and summon` | 27:45 |
+| νέος | `younger` | `younger, newer, fresher, unexpected and strange` | 27:15, 27:42 |
+| οἰκέτης | `house-slaves` | `house-slaves, household servants, menials` | 27:37 |
+| οἰκέω | `inhabit` | `inhabit, occupy, dwell and live, be settled` | 27:44 |
+| οἶνος | `with wine` | `with wine` | 27:37 |
+| πέμπω | `having sent` | `having sent and despatched, having conveyed and carried, having conducted, having sent forth` | 27:42 |
+| πένθος | `of the grief` | `of the grief, of the sadness, of the sorrow, of the mourning for, of the public mourning, of the misfortune` | 27:41 |
+| παραδίδωμι | `handed over to another` | `handed over to another and transmitted, transmitted and imparted, delivered up and surrendered, betrayed, committed, gave up, handed down, granted and bestowed, offered and allowed` | 27:20 |
+| παύω | `to take one's rest` | `to take one's rest, to rest and cease and have done, to leave off from and rest and cease from, to be at rest, to leave off doing` | 27:30 |
+| περιτίθημι | `placed round` | `placed round, bestowed and conferred upon` | 27:16 |
+| πικρός | `pointed` | `pointed, sharp, keen, pungent and bitter, piercing and shrill, cruel and relentless, embittered and angry` | 27:34 |
+| πιότης | `of the fattiness` | `of the fattiness, of wealth and prosperity` | 27:28, 27:39 |
+| πλήρης | `of filled` | `of filled, of infected by, of satiated with, of filled with, of full, of full of people, of full and complete` | 27:27 |
+| πλῆθος | `a great number` | `a great number, a throng and crowd and multitude, the mass and the people, the greater number and the majority, the size and magnitude and extent` | 27:28 |
+| ποιέω | `I may make` | `I may make, I may do, I may produce, I may create` | 27:37 |
+| πρίν | `before` | `before, before that time and sooner, aforetime and formerly and once and erst, of old` | 27:4 |
+| πρεσβύτερος | `of the elder` | `of the elder, of the older, of the higher and more important, of the greater than, of an elder of the Jewish Council, of an elder of the Church and presbyter` | 27:15, 27:42 |
+| προσάγω | `bring to` | `bring to, furnish and supply, put to and add, move towards and apply` | 27:25 |
+| προσάγω | `brought to` | `brought to, furnished and supplied, put to and added, moved towards and applied` | 27:25, 27:31 |
+| προσκυνέω | `they will make obeisance` | `they will make obeisance, they will fall down and worship, they will worship, they will adore, they will do reverence to, they will make the salam, they will prostrate themselves before` | 27:29 |
+| προσοχθίζω | `I am wroth with` | `I am wroth with and it stands so, I am weary of and it stands so, I am treated with contumely and it stands so` | 27:46 |
+| πρόβατον | `the things that walk forward` | `the things that walk forward, the cattle, the flocks and herds, the horses, the small cattle, the sheep` | 27:9 |
+| πτερνίζω | `has struck with the heel` | `has struck with the heel and it stands so, has tripped up and supplanted and it stands so, has heeled an old shoe and it stands so` | 27:36 |
+| σκεῦος | `the vessel` | `the vessel, the implement of any kind, the inanimate object and thing, the body and the vessel of the soul` | 27:3 |
+| στηρίζω | `I made fast` | `I made fast, I propped, I fixed, I set, I confirmed and established` | 27:37 |
+| στολή | `the equipment` | `the equipment, the armament, the equipment and raiment and apparel, the piece of dress and garment and robe` | 27:15 |
+| σῖτος | `of corn` | `of corn, of grain, of food made from grain and bread, of meat, of drink` | 27:28 |
+| σῖτος | `with corn` | `with corn, with grain, with food made from grain and bread, with meat, with drink` | 27:37 |
+| ταχύ | `quickly` | `quickly, swiftly, fleetly` | 27:20 |
+| τελευτή | `of the finishing` | `of the finishing, of the completion, of the accomplishment, of the termination and end, of the end and event and issue` | 27:2 |
+| τις | `some` | `some, any, a certain one` | 27:44 |
+| τράχηλος | `of the neck` | `of the neck, of the throat` | 27:16, 27:40 |
+| φέρω | `bring` | `bring, bear, carry, endure` | 27:4, 27:7, 27:13 |
+| φέρω | `brought` | `brought, bore, carried, endured` | 27:14 |
+| φαρέτρα | `quiver` | `quiver` | 27:3 |
+| φιλέω | `I love` | `I love, I regard with affection, I feel affection, I love and cherish, I treat affectionately and kindly and welcome` | 27:4 |
+| φιλέω | `love` | `love, regard with affection, feel affection, love and cherish, treat affectionately and kindly and welcome` | 27:26 |
+| φιλέω | `loved` | `loved, regarded with affection, felt affection, loved and cherished, treated affectionately and kindly and welcomed` | 27:27 |
+| φιλέω | `loves` | `loves, regards with affection, feels affection, loves and cherishes, treats affectionately and kindly and welcomes` | 27:9 |
+| φιλέω | `was loving` | `was loving, was regarding with affection, was feeling affection, was loving and cherishing, was treating affectionately and kindly and welcoming` | 27:14 |
+| ψηλαφάω | `I will feel` | `I will feel and grope about, I will feel about for and search after, I will feel and touch and stroke` | 27:21 |
+| ψηλαφάω | `felt` | `felt and groped about, felt about for and searched after, felt and touched and stroked` | 27:22 |
+| ψηλαφάω | `may feel` | `may feel and grope about, may feel about for and search after, may feel and touch and stroke` | 27:12 |
+| ἀμβλύνω | `were blunted` | `were blunted and had the edge taken off, were made dull, became dull and lost their edge` | 27:1 |
+| ἀνίστημι | `let stand up` | `let stand up, let rise, let rise to fight against, let rise to go and set out` | 27:31 |
+| ἀναβοάω | `cried aloud` | `cried aloud, shouted aloud, called out, cried out` | 27:34, 27:38 |
+| ἀπαγγέλλω | `was brought tidings of` | `was brought tidings of, was reported, was announced, was carried a report of, was related and narrated` | 27:42 |
+| ἀπειλέω | `forces back` | `forces back` | 27:42 |
+| ἀποδιδράσκω | `run away` | `run away, run off, escape` | 27:43 |
+| ἀποκτείνω | `I may kill` | `I may kill, I may slay` | 27:41 |
+| ἀποκτείνω | `to kill` | `to kill, to slay` | 27:42 |
+| ἀποστέλλω | `having sent off` | `having sent off, having sent away, having banished, having despatched, having gone away and departed` | 27:45 |
+| ἀτεκνόω | `I may be made childless` | `I may be made childless, I may be deprived of children` | 27:45 |
+| ἁπαλός | `soft to the touch` | `soft to the touch, tender, gentle, delicate` | 27:9 |
+| ἄνωθεν | `from above` | `from above, from on high, from the beginning, over again and anew` | 27:39 |
+| ἄρτος | `the cakes` | `the cakes, the loaves of wheat-bread, the breads` | 27:17 |
+| ἐγγίζω | `bring near` | `bring near, bring up to, approach, be imminent, approximate to, be next of kin, be on the point of` | 27:21, 27:26 |
+| ἐγγίζω | `let bring near` | `let bring near, let bring up to, let approach, let be imminent, let approximate to, let be next of kin, let be on the point of` | 27:41 |
+| ἐγκοτέω | `was indignant at` | `was indignant at` | 27:41 |
+| ἐκλύω | `you will loose` | `you will loose, you will release and set free, you will unloose and unstring, you will relax and enfeeble, you will bring to an end` | 27:40 |
+| ἐλάσσων | `smaller` | `smaller, less, worse and worse off, worse than and inferior to, subservient to, fewer, the smaller number` | 27:6 |
+| ἐνδύω | `clothed` | `clothed, put on, made to go into` | 27:15 |
+| ἐντέλλομαι | `I enjoin` | `I enjoin, I command` | 27:8 |
+| ἐξίστημι | `stood out of` | `stood out of, changed and altered utterly, was driven out of, was deranged, was astonished and amazed, gave way and retired, stood aside from and gave up` | 27:33 |
+| ἐπάγω | `I will bring upon` | `I will bring upon, I will bring on and forward, I will lead on and bring on, I will bring in, I will lay on` | 27:12 |
+| ἐπιγινώσκω | `looked upon` | `looked upon, witnessed, observed, recognised, came to know and found out, learned to know thoroughly, knew well` | 27:23 |
+| ἐπιλανθάνομαι | `may forget` | `may forget` | 27:45 |
+| ἐσθίω | `I will eat` | `I will eat, I will eat of` | 27:25 |
+| ἐσθίω | `eat` | `eat, eat of` | 27:19 |
+| ἐσθίω | `having eaten` | `having eaten, having eaten of` | 27:7 |
+| ἐσθίω | `let eat` | `let eat, let eat of` | 27:31 |
+| ἐσθίω | `will eat` | `will eat, will eat of` | 27:10 |
+| ἔδεσμα | `meats` | `meats` | 27:4, 27:7, 27:9, 27:14, 27:31 |
+| ἔδεσμα | `the meats` | `the meats` | 27:17 |
+| ἔκστασις | `displacement` | `displacement, distraction of mind, astonishment and amazement, trance` | 27:33 |
+| ἔριφος | `of the young goats` | `of the young goats, of the kids` | 27:16 |
+| ἔριφος | `young goats` | `young goats, kids` | 27:9 |
+| ἡμέρα, with ἐν | `in day` | `within, inside of, and by means of day, day-break, time` | 27:45 |
+| ἤδη | `by this time` | `by this time, before this, already, now and presently and forthwith, directly` | 27:36 |
+| ἱμάτιον | `of the outer garments` | `of the outer garments, of the cloaks, of the mantles, of the clothes` | 27:27 |
+| ὀργή | `the natural impulse` | `the natural impulse, the temper and temperament and disposition and nature, the passion and anger and wrath` | 27:45 |
+| ὀσμή | `smell` | `smell, scent, odour` | 27:27 |
+| ὀσμή | `the smell` | `the smell, the scent, the odour` | 27:27 |
+| ὅπως | `in order that` | `in order that, so that` | 27:4, 27:10, 27:19, 27:31 |
+| ὑπακούω | `listen to` | `listen to and hearken to and hear, give ear and hearken, obey` | 27:13 |
+| ὑπολείπω | `you left remaining for yourself` | `you left remaining for yourself, you left behind for yourself, you reserved for yourself` | 27:36 |
+| ὦ | `O` | `O, oh` | 27:20 |
 
 ### Words new in GEN 26
 

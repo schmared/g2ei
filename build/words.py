@@ -197,6 +197,15 @@ LSJ = {
     # on land.
     "ἑκατοστεύω": ["bear a hundredfold"],
     "γεώργιον": ["field", "orchard", "husbandry", "crop", "tax"],
+    # No Middle Liddell entry for these four. LSJ (eng17): πιότης, "fattiness", then "wealth,
+    # prosperity"; πτερνίζω, "strike with the heel", "trip up, supplant", "heel an old shoe";
+    # προσοχθίζω, "to be wroth with", and, of the phrase this verse has, "am weary" of. LSJ
+    # (eng11): κατανύσσω, "stab, gouge", and in the passive "to be sorely pricked", "to be
+    # bewildered, stunned".
+    "πιότης": ["fattiness", "wealth, prosperity"],
+    "πτερνίζω": ["strike with the heel", "trip up, supplant", "heel an old shoe"],
+    "προσοχθίζω": ["to be wroth with", "am weary", "to be treated with contumely"],
+    "κατανύσσω": ["stab, gouge", "to be sorely pricked", "to be bewildered, stunned"],
 }
 
 # New Testament books: MorphGNT file and its book number.
@@ -827,6 +836,10 @@ SPELLING = {
     "e(/yema": "e(/yhma",           # LSJ: "late form of ἕψημα"
     "kalw=s": "kalo/s",             # the adverb, filed inside the adjective's entry
     "e)xqri/a": "e)/xqrh",          # LSJ: "late form of ἔχθρα", whose entry is headed ἔχθρη
+    "taxu/": "taxu/s",              # the adverb, filed inside the adjective's entry
+    "dikai/ws": "di/kaios",         # likewise
+    "e)piginw/skw": "e)pigignw/skw",  # the Attic spelling of a Koine form, as γινώσκω
+    "zugo/s": "zugo/n",             # the entry is headed with the neuter
 }
 
 # Homographs where Perseus's *first* entry is a different word from the one the text

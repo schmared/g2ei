@@ -169,9 +169,24 @@ def units(text):
     return [(a.strip(), c.strip()) for a, c in render.UNIT.findall(text)]
 
 
+# The aspect formulas the project writes into a reading whole, the same words every
+# time. They are the project's own phrasing, not a gloss of any one Greek word, so the
+# bare-headword check reads past them: ὡς at GEN 27:23 is a unit, `as`, and the `as`
+# inside "kept on being as a standing …" is not that headword loose in the text.
+FORMULAS = (
+    "was, and kept on being as a standing and continuing condition and not a momentary one,",
+    "were, and kept on being as a standing and continuing condition and not a momentary one,",
+    "was, and kept on being,",
+    "were, and kept on being,",
+    "one completed act seen whole, not a process observed in progress",
+)
+
+
 def outside_units(text):
-    """The reading with every unit and name marker taken out — the plain text that
-    appears identically in both panels."""
+    """The reading with every unit, name marker and aspect formula taken out — the
+    plain text that appears identically in both panels."""
+    for formula in FORMULAS:
+        text = text.replace(formula, " ¦ ")
     return render.NAME.sub(" ", render.UNIT.sub(" ¦ ", text))
 
 
