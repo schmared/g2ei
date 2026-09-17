@@ -204,6 +204,13 @@ settled at 18:11; adverbial μόνον stays `A- ----ASN- μόνος`, as MorphG
 One disagreement over 426 words. The second pass tagged Ἄρα at 20:11 a particle, `X-`; the first
 kept it with the conjunctions, `C-`, as MorphGNT files ἄρα forty-six times in forty-nine.
 
+### What it found in Genesis 21
+
+Three disagreements over 662 words, with the plural ἀμφότεροι settled beforehand as ἀμφότερος, the
+singular Middle Liddell heads. The first pass kept πρωΐ with the diaeresis Rahlfs prints, not πρωί;
+Φαραν after τῇ ἐρήμῳ τῇ as the genitive `GS--`, the desert of Pharan, as at 14:6; and θεός in lower
+case at 21:33, where Rahlfs capitalises the name called upon, as the brief's rule for speech has it.
+
 ## The brief
 
 Copy everything below the rule into a new agent. Replace `<BOOK NAME>`, `<CHAPTER>`,

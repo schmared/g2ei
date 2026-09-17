@@ -159,6 +159,7 @@ Three reasons, and all of them are the lexicon's filing rather than a decision a
 | μᾶλλον (GEN 19:9) | μάλα | the comparative, filed inside the positive's entry |
 | ἀτμίς (GEN 19:28) | ἀτμός | cross-reference; "= ἀτμός" |
 | ἐχθές (GEN 19:34) | χθές | cross-reference; "v. χθές" |
+| ἐπισκέπτομαι (GEN 21:1) | ἐπισκοπέω | "a pres., which furnishes its tenses to ἐπισκοπέω" |
 <!-- spelling rows above -->
 
 The dictionary form itself does not follow the lexicon's filing: it keeps the spelling the text
@@ -192,7 +193,7 @@ GEN 9 adds ὀπισθοφανής, *seen from behind*, and its adverb ὀπισ
 ἔτασις, *trial, affliction*. GEN 14 adds ἁλυκός, *salt, brackish*; ἀποσκευή, whose *removal,
 riddance* comes before *baggage*; σφαιρωτήρ, *thong, latchet*; and περάτης, which opens "= πορθμεύς",
 so that πορθμεύς's LSJ senses, *ferryman*, *boatman, seaman*, *conveyer*, stand before its own
-*wanderer, emigrant*, as ἁγίζω's stand for ἁγιάζω. GEN 15 adds ὑπερασπίζω, *cover with a shield*, from the upsilon file; τριετίζω, *to be three years old*; and διχοτόμημα, *half of a thing cut in two*. GEN 17 adds κατάσχεσις, *holding back, restraining, retention*, then *possession*, from the kappa file; and ἑκατονταέτης, *of a hundred years*, *years old*, citing 17:17. GEN 18 adds μοσχάριον, *little calf*, and, from the beta file, βούτυρον, *butter*, then *a plant*. GEN 19 adds προσοίγνυμι, *shut*; ἀορασία, *inability to see, blindness*; γελοιάζω, *jest*, from the gamma file; ἐπαύριον, *on the morrow*; and εἰσσπάομαι, *draw into oneself*. GEN 20 adds μήτρα, *womb*, whose Middle Liddell entry tags only Latin; δίδραχμον, *coin of two drachms*, under δίδραχμος; and κἀγώ, *crasis for καὶ ἐγώ*.
+*wanderer, emigrant*, as ἁγίζω's stand for ἁγιάζω. GEN 15 adds ὑπερασπίζω, *cover with a shield*, from the upsilon file; τριετίζω, *to be three years old*; and διχοτόμημα, *half of a thing cut in two*. GEN 17 adds κατάσχεσις, *holding back, restraining, retention*, then *possession*, from the kappa file; and ἑκατονταέτης, *of a hundred years*, *years old*, citing 17:17. GEN 18 adds μοσχάριον, *little calf*, and, from the beta file, βούτυρον, *butter*, then *a plant*. GEN 19 adds προσοίγνυμι, *shut*; ἀορασία, *inability to see, blindness*; γελοιάζω, *jest*, from the gamma file; ἐπαύριον, *on the morrow*; and εἰσσπάομαι, *draw into oneself*. GEN 20 adds μήτρα, *womb*, whose Middle Liddell entry tags only Latin; δίδραχμον, *coin of two drachms*, under δίδραχμος; and κἀγώ, *crasis for καὶ ἐγώ*. GEN 21 adds ἀπογαλακτίζω, *wean from the mother's milk*; ἀρχιστράτηγος, *commander-in-chief*; and, from the omega file, ὦμος, *the shoulder with the upper arm*.
 <!-- LSJ sentences above -->
 
 GEN 9 also files ἐμεθύσθη under μεθύσκω, *to make drunk*, where Middle Liddell gives its aorist
@@ -592,6 +593,95 @@ the same ground as `the sixth` and `the seventh`: one sense each, so no range to
   settling in` (10:30); δύο `two`; υἱός `sons`.
 - The article before a people's name (τοὺς Λουδιιμ, τὸν Χετταῖον, τῶν Χαναναίων) is not printed,
   as before a person's name.
+
+### Words new in GEN 21
+
+- ἐπισκέπτομαι — Middle Liddell's entry reads *a pres., which furnishes its tenses to ἐπισκοπέω*;
+  that entry's senses, first *to look upon* or *at, inspect, observe*, then *to visit*. 21:1.
+- φαίνω in the passive — the active's *to bring to light, make to appear* first, and the entry's
+  *Pass. to come to light, be seen, appear* last: `was brought to light`. 21:11.
+- πλανάω in the passive — likewise, the active's *to make to wander* first, the passive's *to
+  wander, roam about, stray* last. 21:14.
+- ὦμος — tagged in Middle Liddell only in Latin; LSJ, from the omega file, *the shoulder with the
+  upper arm*. 21:14.
+- Φρέαρ ὁρκισμοῦ — the second name the verse gives a well, glossed as a name as at 16:14:
+  `(Φρέαρ, "a well", the first word of the name the verse gives the place, for Hebrew Bĕʾēr
+  šebaʿ)`; ὁρκισμός after it plain. 21:31.
+- Θεὸς αἰώνιος — the capital Rahlfs prints for the name called upon, listed in `speech`; θεός
+  anarthrous, qualitative, as at 17:7. 21:33.
+- The perfect ἐπακήκοεν, `has listened and it stands so` (21:17).
+- One sense each in GEN 21, so plain text: γῆρας `the old age` (21:2, 21:7); ἀπογαλακτίζω `was weaned
+  from the mother's milk` (21:8, LSJ); νυμφαγωγός `the leader of the bride`, ἀρχιστράτηγος `the
+  commander-in-chief` (21:22, 21:32); ἀμνάς `lambs` (21:28–30); ὁρκισμός `of administration of an
+  oath` (21:31).
+
+| lemma | headword | chain | used |
+| --- | --- | --- | --- |
+| αὐξάνω | `was made large` | `was made large, was increased and augmented, was increased in power and strengthened and exalted, was promoted to honour and glorified and magnified, grew and waxed and increased, grew up` | 21:8, 21:20 |
+| βολή | `a throw` | `a throw, the stroke and wound, a glance` | 21:16 |
+| γέλως | `laughter` | `laughter, occasion of laughter and matter for laughter` | 21:6 |
+| γίνομαι | `having come into being` | `having come to be, having arisen, having been brought into existence` | 21:3 |
+| διατίθεμαι | `arranged as they liked` | `arranged as they liked, disposed of, disposed of their property and devised it by will, set out for sale and disposed of, arranged mutually, made a covenant with, settled with` | 21:27, 21:32 |
+| δοχή | `a receptacle` | `a receptacle, a reception and entertainment` | 21:8 |
+| δύναμις | `of the power` | `of the power, of the might, of the strength, of the ability, of the authority, of the force for war and forces, of the quantity, of the faculty and capacity, of the force and meaning, of the worth and value` | 21:22, 21:32 |
+| εἰσακούω | `hearkened` | `hearkened and gave ear to, heard, hearkened to and gave heed to` | 21:17 |
+| εἷς | `of one` | `of one, of a single one, of one alone` | 21:15 |
+| θάνατος | `the death` | `the death, the death threatened, the sentence of death` | 21:16 |
+| θηλάζω | `suckles` | `suckles, sucks` | 21:7 |
+| καθίζω | `made to sit down` | `made to sit down, seated, set and placed, encamped, set up, sat down and was seated and took her seat, settled and sank in` | 21:16 |
+| κλαίω | `wept` | `wept, lamented, wailed, wept for` | 21:16 |
+| κρατέω | `be strong` | `be strong, be mighty, be powerful, rule and hold sway and be sovereign, rule among, be lord and master of and ruler over, conquer and prevail and get the upper hand, prevail and become current, prevail over, surpass and go beyond, conquer and master and outdo and surpass, become master of and get possession of, lay hold of, seize and hold fast, control and command` | 21:18 |
+| λέγω | `may say` | `may say, may speak, may declare, may call by name, may tell` | 21:12 |
+| μακρόθεν | `from afar` | `from afar, from long since` | 21:16 |
+| μαρτύριον | `a testimony` | `a testimony, a proof` | 21:30 |
+| πίμπλημι | `filled full of` | `filled full of, filled with, filled up, filled, filled and discharged` | 21:19 |
+| παίζω | `playing like a child` | `playing like a child, sporting, playing, dancing, sporting and jesting and joking, making sport of and mocking, playing with` | 21:9 |
+| παιδίον | `of the young child` | `of the young child, of the slave-lad` | 21:12, 21:16, 21:17, 21:20 |
+| παιδίον | `the young child` | `the young child, the slave-lad` | 21:8, 21:14, 21:15, 21:16, 21:18, 21:19 |
+| παιδίσκη | `of the young girl` | `of the young girl, of the maiden, of the young slave, of the courtesan` | 21:10, 21:12, 21:13 |
+| παροικέω | `you dwelt beside` | `you dwelt beside, you dwelt along the coast of, you lived near, you dwelt among, you lay near, you lived in and sojourned` | 21:23 |
+| πλανάω | `was being made to wander` | `was being made to wander and led wandering about, was being led from the subject, was being led astray and misled and deceived, was wandering and roaming about and straying, was wandering over, was wandering abroad, was wandering and digressing, was wandering in mind and at a loss` | 21:14 |
+| πρᾶγμα | `that which has been done` | `that which has been done, the deed, the act, anything necessary and expedient, the thing of consequence and importance, the action and affair, the thing and the business` | 21:26 |
+| σκληρός | `hard` | `hard, harsh and crashing, stiff and unyielding, stiff and sturdy, austere and severe` | 21:11, 21:12 |
+| συγχαίρω | `will rejoice with` | `will rejoice with, will take part in joy, will wish joy and congratulate` | 21:6 |
+| σός | `thy` | `thy, thine` | 21:13 |
+| τίκτω | `I brought into the world` | `I brought into the world, I brought forth, I bore, I produced` | 21:7 |
+| τοξότης | `a bowman` | `a bowman, archer, the Archer and Sagittarius, the city-guard` | 21:20 |
+| τόξον | `of bow` | `of bow, of bow and arrows, of rays` | 21:16 |
+| φαίνω | `was brought to light` | `was brought to light and made to appear, was shown forth and made known and revealed and disclosed and shown, was made clear and explained and expounded, was informed against and indicted and impeached, was proclaimed, came to light and was seen and appeared, shone brightly, came into being, appeared to be, was manifest` | 21:11 |
+| φρέαρ | `a well` | `a well, a tank and cistern and reservoir, an oil jar` | 21:19 |
+| φρέαρ | `of the wells` | `of the wells, of the tanks and cisterns and reservoirs, of the oil jars` | 21:25 |
+| φρέαρ | `to the well` | `to the well, to the tank and cistern and reservoir, to the oil jar` | 21:33 |
+| φρέαρ, with ἐν | `in the well` | `within, inside of, and by means of the well, the tank and cistern and reservoir, the oil jar` | 21:32 |
+| χείρ | `with the hand` | `with the hand, with the hand and arm, with the arm` | 21:18 |
+| ἀδικέω | `to do wrong` | `to do wrong, to do one wrong and wrong and injure, to spoil and damage` | 21:23 |
+| ἀκούω | `may hear` | `may hear, may have hearing of, may hear tell of, may hearken and give ear, may listen to and obey` | 21:6 |
+| ἀμφότερος | `each` | `each, both of two` | 21:27, 21:31 |
+| ἀναβοάω | `having shouted aloud` | `having shouted aloud, having uttered a loud cry, having called out, having cried out, having wailed aloud over, having called on` | 21:16 |
+| ἀναγγέλλω | `will carry back tidings of` | `will carry back tidings of, will report` | 21:7 |
+| ἀπέρχομαι | `having gone away` | `having gone away, having departed from, having departed, having departed from life` | 21:14, 21:16 |
+| ἀσκός | `a leathern-bag` | `a leathern-bag, a wine-skin, a bladder` | 21:14 |
+| ἀσκός | `of the leathern-bag` | `of the leathern-bag, of the wine-skin, of the bladder` | 21:15 |
+| ἀσκός | `the leathern-bag` | `the leathern-bag, the wine-skin, the bladder` | 21:19 |
+| ἀφαιρέω | `took away for themselves` | `took away for themselves, took away, prevented and hindered from` | 21:25 |
+| ἄρουρα | `tilled land` | `tilled land, arable land, seed-land, cornland, land and earth, a woman as bearing children, a measure of land` | 21:33 |
+| ἐκβάλλω | `throw` | `throw, cast out of, throw out, cast out and banish, depose, throw away and reject` | 21:10 |
+| ἐλάτη | `of silver fir` | `of silver fir, of an oar, of a ship and boat` | 21:15 |
+| ἐλέγχω | `disgraced` | `disgraced, put to shame, cross-examined and questioned, censured and accused, brought to the proof and disproved and confuted, brought convincing proof, proved` | 21:25 |
+| ἐπακούω | `has listened` | `has listened and it stands so, has hearkened to and heard and it stands so, has given ear and hearkened and it stands so, has obeyed and it stands so` | 21:17 |
+| ἐπισκέπτομαι | `looked upon` | `looked upon, looked at, inspected, observed, examined, regarded, watched over, visited, inspected and reviewed, considered and reflected, examined with himself and meditated` | 21:1 |
+| ἐπιστρέφω | `turned about` | `turned about, turned round, returned, turned towards, corrected and made to repent` | 21:32 |
+| ἐπιτίθημι | `laid` | `laid, put, placed upon, applied, set up, put on, put to and shut, put to and granted and gave besides, added and brought on, imposed and inflicted, dispatched, gave` | 21:14 |
+| ἡμέρα | `to day` | `to day, to day-break, to time` | 21:8 |
+| ἵστημι | `you made to stand` | `you made to stand, you set, you stopped and stayed and checked, you set up and raised, you established and instituted, you appointed, you weighed` | 21:29 |
+| ὀρύσσω | `I dug` | `I dug, I dug up, I dug through and made a canal through, I buried` | 21:30 |
+| ὁράω | `I may see` | `I may see, I may perceive, I may behold, I may look at` | 21:16 |
+| ὄμνυμι | `I will swear` | `I will swear, I will swear to and affirm and confirm by oath, I will swear that one will, I will swear by` | 21:24 |
+| ὄμνυμι | `swear` | `swear, swear to and affirm and confirm by oath, swear that one will, swear by` | 21:23 |
+| ὄμνυμι | `swore` | `swore, swore to and affirmed and confirmed by oath, swore that one would, swore by` | 21:31 |
+| ὅρκος | `of the object by which one swears` | `of the object by which one swears, of the witness of an oath, of the oath` | 21:14, 21:32, 21:33 |
+| ὦμος | `the shoulder with the upper arm` | `the shoulder with the upper arm, the shoulder` | 21:14 |
+| ῥίπτω | `threw` | `threw, cast, hurled, threw and tossed about, cast out, threw off and away, threw away and wasted, cast lots, threw and cast herself down, flung herself` | 21:15 |
 
 ### Words new in GEN 20
 
@@ -3286,6 +3376,10 @@ Greek makes it a woman's, the mother of Eliezer, whom it calls Δαμασκὸς
 
 | Γεραροις | Gerarois | Gerar | `(Γεραρα, from Hebrew Gĕrār, of uncertain meaning)` |
 | Αβιμελεχ | Abimelech | Abimelech | `(Αβιμελεχ, from Hebrew ʾĂbîmelek, "my father is king")` |
+
+| Οχοζαθ | Ochozath | Ahuzzath | `(Οχοζαθ, from Hebrew ʾĂḥuzzat, "possession")` |
+| Φικολ | Phikol | Phicol | `(Φικολ, from Hebrew Pîkōl, of uncertain meaning)` |
+| Φυλιστιιμ | Phylistiim | Philistines | `(Φυλιστιιμ, from Hebrew Pĕlištîm, the people of Pĕlešet)` |
 <!-- name rows above -->
 
 Σύγχυσις translates the name where 10:10 gave the city its Greek name, Βαβυλών; as with Ζωή at

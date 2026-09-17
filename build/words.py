@@ -163,6 +163,12 @@ LSJ = {
               "core, heart-wood", "diseased condition", "queen-wasp"],
     "δίδραχμον": ["coin of two drachms", "half-shekel"],
     "κἀγώ": ["and I"],
+    # No Middle Liddell entry for these two, and ὦμος is tagged only in Latin. LSJ (eng1):
+    # ἀπογαλακτίζω, "wean from the mother's milk"; ἀρχιστράτηγος, "commander-in-chief". LSJ
+    # (eng27): ὦμος, "the shoulder with the upper arm", and "the shoulder".
+    "ἀπογαλακτίζω": ["wean from the mother's milk"],
+    "ἀρχιστράτηγος": ["commander-in-chief"],
+    "ὦμος": ["the shoulder with the upper arm", "the shoulder"],
 }
 
 # New Testament books: MorphGNT file and its book number.
@@ -553,6 +559,24 @@ NOT_SENSES = {
     "u(/pnos": {"in sleep"},                    # a piece of an example
     "profh/ths": {"interpreter", "interpreters"},  # pieces of examples
     "sunoike/w": {"marriage", "he is associated", "being versed", "are associated"},  # pieces of examples
+    # GEN 21
+    "e)piskope/w": {"visited"},                 # a piece of an example
+    "ge/lws": {"with laughing", "ridiculous"},  # pieces of examples
+    "sugxai/rw": {"with", "to wish", "joy of"},  # pieces of examples
+    "qhla/zw": {"sucking"},                     # a piece of an example
+    "a)sko/s": {"the bag", "a bag made of the skin", "to flay"},  # pieces of examples
+    "o(/rkos": {"an oath by", "oath", "the tender"},  # pieces of examples
+    "r(i/ptw": {"has been made"},               # a piece of an example
+    "bolh/": {"stroke", "touch"},               # pieces of an example
+    "a)naboa/w": {"a war-cry"},                 # a piece of an example
+    "klai/w": {"weeping", "well beaten", "he shall weep", "he shall repent it"},  # pieces of examples
+    "du/namis": {"strength", "as far as lies in one"},  # pieces of examples
+    "o)/mnumi": {"swears"},                     # a piece of an example
+    "e)le/gxw": {"to treat", "with contempt", "to put", "to shame"},  # pieces of examples
+    "a)faire/w": {"having taken", "off"},       # pieces of examples
+    "a)mfo/teros": {"on both sides, utrinque", "both ways, in utramque partem"},  # adverbial phrases
+    "martu/rion": {"evidence", "here is a proof, namely"},  # pieces of examples
+    "o)ru/ssw": {"trench", "to have", "dug"},  # pieces of examples
 }
 
 # An entry that divides its senses by tense and voice, so that which of them belong to a
@@ -664,6 +688,7 @@ SPELLING = {
     "ma=llon": "ma/la",             # the comparative, filed inside the positive's entry
     "a)tmi/s": "a)tmo/s",           # cross-reference; "= ἀτμός"
     "e)xqe/s": "xqe/s",             # cross-reference; "v. χθές"
+    "e)piske/ptomai": "e)piskope/w",  # "a pres., which furnishes its tenses to ἐπισκοπέω"
 }
 
 # Homographs where Perseus's *first* entry is a different word from the one the text

@@ -65,7 +65,7 @@ curl -sL --create-dirs -o sources/lsj/grc.lsj.perseus-eng1.xml https://raw.githu
 
 | file | covers | fetched for |
 | --- | --- | --- |
-| `eng1` | the whole of alpha, `*a` to `ἄωτος` (42 MB) | ἀκατασκεύαστος (Gen 1:2), ἁγιάζω (Gen 2:3), ἀσφαλτόω (Gen 6:14), ἀνάστημα (Gen 7:23), ἁλυκός, ἀποσκευή (Gen 14), ἀορασία (Gen 19:11) |
+| `eng1` | the whole of alpha, `*a` to `ἄωτος` (42 MB) | ἀκατασκεύαστος (Gen 1:2), ἁγιάζω (Gen 2:3), ἀσφαλτόω (Gen 6:14), ἀνάστημα (Gen 7:23), ἁλυκός, ἀποσκευή (Gen 14), ἀορασία (Gen 19:11), ἀπογαλακτίζω, ἀρχιστράτηγος (Gen 21) |
 | `eng2` | beta (5 MB) | βούτυρον (Gen 18:8) |
 | `eng3` | gamma (4 MB) | γελοιάζω (Gen 19:14) |
 | `eng4` | delta (15 MB) | διαναπαύω (Gen 5:29), διώροφος (Gen 6:16), διχοτόμημα (Gen 15:11), δίδραχμον (Gen 20:14) |
@@ -79,6 +79,7 @@ curl -sL --create-dirs -o sources/lsj/grc.lsj.perseus-eng1.xml https://raw.githu
 | `eng23` | upsilon (9 MB) | ὑπερασπίζω (Gen 15:1) |
 | `eng24` | phi (8 MB) | φλόγινος (Gen 3:24) |
 | `eng26` | psi (2 MB) | ψαλτήριον (Gen 4:21) |
+| `eng27` | omega (2 MB) | ὦμος (Gen 21:14) |
 
 To find which file holds a letter without downloading any of them, read the head of a few
 and look at the first entry's key:
