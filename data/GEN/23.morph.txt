@@ -1,0 +1,454 @@
+# Genesis 23 — morphology, one word per line.
+#
+# This is the project's own grammatical analysis of each form, written alongside the
+# transcription and not copied from any digital edition.
+#
+# Columns: verse, part of speech, parse, form, lemma — in MorphGNT's code scheme, so
+# the Old and New Testament layers read alike. The parse is eight places: person,
+# tense, voice, mood, case, number, gender, degree ("-" where it does not apply).
+#
+# Two codes go beyond MorphGNT, both to record only what the form itself says:
+#   voice  E  middle/passive — a tense in which the two share one form
+#   gender C  masculine/feminine — an adjective whose form does not distinguish them
+#
+# A trailing annotation records a deliberate difference and the reason for it:
+#   "# module …"  from the reference module, checked when LXX_RAHLFS_DIR is set
+#   "# corpus …"  from this project's own analysis of the same form elsewhere
+# A line may carry both. validate.py prints them as notes instead of failures — and
+# fails if the difference a note claims is not there, so they cannot go stale. The
+# analysis here is this project's own: the module is a reference, not an authority,
+# and the corpus is held to itself.
+#
+# Indeclinables take case and number from the syntax, as MorphGNT does, and gender
+# where there is one to take: a personal name, from the person; a numeral agreeing
+# with its noun; a common noun whose article shows it — but not an indeclinable place
+# name, which has none. A personal name the New Testament also uses takes MorphGNT's
+# dictionary form (Νῶε, Σήμ); every other Semitic name (Χαμ, Ιαφεθ), the form Rahlfs
+# prints.
+23:1 V- 3AMI-S-- Ἐγένετο γίνομαι
+23:1 C- -------- δὲ δέ
+23:1 RA ----NSF- ἡ ὁ
+23:1 N- ----NSF- ζωὴ ζωή  # corpus the common noun, life, where 3:20 files the name Ζωή, capitalised
+23:1 N- ----GSF- Σαρρας Σάρρα
+23:1 N- ----NPN- ἔτη ἔτος
+23:1 A- ----NPN- ἑκατὸν ἑκατόν  # module M, no features — MorphGNT gives ἑκατόν case, number and gender like any adjective
+23:1 A- ----NPN- εἴκοσι εἴκοσι  # module M, no features — MorphGNT gives εἴκοσι case, number and gender like any adjective
+23:1 A- ----NPN- ἑπτά ἑπτά  # module M, no features — MorphGNT gives ἑπτά case, number and gender like any adjective
+23:2 C- -------- καὶ καί
+23:2 V- 3AAI-S-- ἀπέθανεν ἀποθνήσκω
+23:2 N- ----NSF- Σαρρα Σάρρα
+23:2 P- -------- ἐν ἐν
+23:2 N- ----DSF- πόλει πόλις
+23:2 N- ----GS-- Αρβοκ Αρβοκ  # module S, no case — the genitive after πόλει, the city of Arbok
+23:2 RR ----NSF- ἥ ὅς
+23:2 V- 3PAI-S-- ἐστιν εἰμί
+23:2 P- -------- ἐν ἐν
+23:2 RA ----DSN- τῷ ὁ
+23:2 N- ----DSN- κοιλώματι κοίλωμα
+23:2 RD ----NSF- αὕτη οὗτος
+23:2 V- 3PAI-S-- ἐστὶν εἰμί
+23:2 N- ----NS-- Χεβρων Χεβρων
+23:2 P- -------- ἐν ἐν
+23:2 N- ----DSF- γῇ γῆ
+23:2 N- ----GS-- Χανααν Χανάαν  # module lemma Χαναάν — Χανάαν, as MorphGNT files it
+23:2 V- 3AAI-S-- ἦλθεν ἔρχομαι
+23:2 C- -------- δὲ δέ
+23:2 N- ----NSM- Αβρααμ Ἀβραάμ
+23:2 V- -AMN---- κόψασθαι κόπτω
+23:2 N- ----ASF- Σαρραν Σάρρα
+23:2 C- -------- καὶ καί
+23:2 V- -AAN---- πενθῆσαι πενθέω
+23:3 C- -------- καὶ καί
+23:3 V- 3AAI-S-- ἀνέστη ἀνίστημι
+23:3 N- ----NSM- Αβρααμ Ἀβραάμ
+23:3 P- -------- ἀπὸ ἀπό
+23:3 RA ----GSM- τοῦ ὁ
+23:3 A- ----GSM- νεκροῦ νεκρός
+23:3 RP ----GSM- αὐτοῦ αὐτός
+23:3 C- -------- καὶ καί
+23:3 V- 3AAI-S-- εἶπεν λέγω  # module lemma ἔπω — λέγω keeps one dictionary form across both testaments
+23:3 RA ----DPM- τοῖς ὁ
+23:3 N- ----DPM- υἱοῖς υἱός
+23:3 N- ----GSM- Χετ Χετ
+23:3 V- -PAPNSM- λέγων λέγω
+23:4 A- ----NSC- Πάροικος πάροικος
+23:4 C- -------- καὶ καί
+23:4 A- ----NSC- παρεπίδημος παρεπίδημος
+23:4 RP ----NS-- ἐγώ ἐγώ
+23:4 V- 1PAI-S-- εἰμι εἰμί
+23:4 P- -------- μεθʼ μετά
+23:4 RP ----GP-- ὑμῶν σύ  # module lemma ὑμῶν, the form itself — σύ is the dictionary form
+23:4 V- 2AAD-P-- δότε δίδωμι
+23:4 C- -------- οὖν οὖν
+23:4 RP ----DS-- μοι ἐγώ  # module lemma μοι, the form itself — ἐγώ is the dictionary form
+23:4 N- ----ASF- κτῆσιν κτῆσις
+23:4 N- ----GSM- τάφου τάφος
+23:4 P- -------- μεθʼ μετά
+23:4 RP ----GP-- ὑμῶν σύ  # module lemma ὑμῶν, the form itself — σύ is the dictionary form
+23:4 C- -------- καὶ καί
+23:4 V- 1FAI-S-- θάψω θάπτω  # module aorist subjunctive — the same form; after the imperative and καί, the future, and I will bury
+23:4 RA ----ASM- τὸν ὁ
+23:4 A- ----ASM- νεκρόν νεκρός
+23:4 RP ----GS-- μου ἐγώ  # module lemma μου, the form itself — ἐγώ is the dictionary form
+23:4 P- -------- ἀπʼ ἀπό
+23:4 RP ----GS-- ἐμοῦ ἐγώ  # module lemma ἐμοῦ, the form itself — ἐγώ is the dictionary form
+23:5 V- 3API-P-- ἀπεκρίθησαν ἀποκρίνομαι
+23:5 C- -------- δὲ δέ
+23:5 RA ----NPM- οἱ ὁ
+23:5 N- ----NPM- υἱοὶ υἱός
+23:5 N- ----GSM- Χετ Χετ
+23:5 P- -------- πρὸς πρός
+23:5 N- ----ASM- Αβρααμ Ἀβραάμ
+23:5 V- -PAPNPM- λέγοντες λέγω
+23:6 D- -------- Μή μή
+23:6 N- ----VSM- κύριε κύριος
+23:6 V- 2AAD-S-- ἄκουσον ἀκούω
+23:6 C- -------- δὲ δέ
+23:6 RP ----GP-- ἡμῶν ἐγώ  # module lemma ἡμῶν, the form itself — ἐγώ is the dictionary form
+23:6 N- ----NSM- βασιλεὺς βασιλεύς
+23:6 P- -------- παρὰ παρά
+23:6 N- ----GSM- θεοῦ θεός
+23:6 V- 2PAI-S-- εἶ εἰμί
+23:6 RP ----NS-- σὺ σύ
+23:6 P- -------- ἐν ἐν
+23:6 RP ----DP-- ἡμῖν ἐγώ  # module lemma ἡμῖν, the form itself — ἐγώ is the dictionary form
+23:6 P- -------- ἐν ἐν
+23:6 RA ----DPN- τοῖς ὁ
+23:6 A- ----DPN- ἐκλεκτοῖς ἐκλεκτός
+23:6 N- ----DPN- μνημείοις μνημεῖον
+23:6 RP ----GP-- ἡμῶν ἐγώ  # module lemma ἡμῶν, the form itself — ἐγώ is the dictionary form
+23:6 V- 2AAD-S-- θάψον θάπτω
+23:6 RA ----ASM- τὸν ὁ
+23:6 A- ----ASM- νεκρόν νεκρός
+23:6 RP ----GS-- σου σύ  # module lemma σοῦ, the form itself — σύ is the dictionary form
+23:6 A- ----NSM- οὐδεὶς οὐδείς
+23:6 C- -------- γὰρ γάρ
+23:6 RP ----GP-- ἡμῶν ἐγώ  # module lemma ἡμῶν, the form itself — ἐγώ is the dictionary form
+23:6 RA ----ASN- τὸ ὁ
+23:6 N- ----ASN- μνημεῖον μνημεῖον
+23:6 RP ----GSM- αὐτοῦ αὐτός
+23:6 V- 3FAI-S-- κωλύσει κωλύω
+23:6 P- -------- ἀπὸ ἀπό
+23:6 RP ----GS-- σοῦ σύ  # module lemma σοῦ, the form itself — σύ is the dictionary form
+23:6 RA ----GSN- τοῦ ὁ
+23:6 V- -AAN---- θάψαι θάπτω
+23:6 RA ----ASM- τὸν ὁ
+23:6 A- ----ASM- νεκρόν νεκρός
+23:6 RP ----GS-- σου σύ  # module lemma σοῦ, the form itself — σύ is the dictionary form
+23:6 D- -------- ἐκεῖ ἐκεῖ
+23:7 V- -AAPNSM- ἀναστὰς ἀνίστημι
+23:7 C- -------- δὲ δέ
+23:7 N- ----NSM- Αβρααμ Ἀβραάμ
+23:7 V- 3AAI-S-- προσεκύνησεν προσκυνέω
+23:7 RA ----DSM- τῷ ὁ
+23:7 N- ----DSM- λαῷ λαός
+23:7 RA ----GSF- τῆς ὁ
+23:7 N- ----GSF- γῆς γῆ
+23:7 RA ----DPM- τοῖς ὁ
+23:7 N- ----DPM- υἱοῖς υἱός
+23:7 N- ----GSM- Χετ Χετ
+23:8 C- -------- καὶ καί
+23:8 V- 3AAI-S-- ἐλάλησεν λαλέω
+23:8 P- -------- πρὸς πρός
+23:8 RP ----APM- αὐτοὺς αὐτός
+23:8 N- ----NSM- Αβρααμ Ἀβραάμ
+23:8 V- -PAPNSM- λέγων λέγω
+23:8 C- -------- Εἰ εἰ
+23:8 V- 2PAI-P-- ἔχετε ἔχω
+23:8 RA ----DSF- τῇ ὁ
+23:8 N- ----DSF- ψυχῇ ψυχή
+23:8 RP ----GP-- ὑμῶν σύ  # module lemma ὑμῶν, the form itself — σύ is the dictionary form
+23:8 C- -------- ὥστε ὥστε
+23:8 V- -AAN---- θάψαι θάπτω
+23:8 RA ----ASM- τὸν ὁ
+23:8 A- ----ASM- νεκρόν νεκρός
+23:8 RP ----GS-- μου ἐγώ  # module lemma μου, the form itself — ἐγώ is the dictionary form
+23:8 P- -------- ἀπὸ ἀπό
+23:8 N- ----GSN- προσώπου πρόσωπον
+23:8 RP ----GS-- μου ἐγώ  # module lemma μου, the form itself — ἐγώ is the dictionary form
+23:8 V- 2AAD-P-- ἀκούσατέ ἀκούω
+23:8 RP ----GS-- μου ἐγώ  # module lemma μου, the form itself — ἐγώ is the dictionary form
+23:8 C- -------- καὶ καί
+23:8 V- 2AAD-P-- λαλήσατε λαλέω
+23:8 P- -------- περὶ περί
+23:8 RP ----GS-- ἐμοῦ ἐγώ  # module lemma ἐμοῦ, the form itself — ἐγώ is the dictionary form
+23:8 N- ----DSM- Εφρων Εφρων
+23:8 RA ----DSM- τῷ ὁ
+23:8 RA ----GSM- τοῦ ὁ
+23:8 N- ----GSM- Σααρ Σααρ
+23:9 C- -------- καὶ καί
+23:9 V- 3AAD-S-- δότω δίδωμι
+23:9 RP ----DS-- μοι ἐγώ  # module lemma μοι, the form itself — ἐγώ is the dictionary form
+23:9 RA ----ASN- τὸ ὁ
+23:9 N- ----ASN- σπήλαιον σπήλαιον
+23:9 RA ----ASN- τὸ ὁ
+23:9 A- ----ASN- διπλοῦν διπλοῦς
+23:9 RR ----NSN- ὅ ὅς
+23:9 V- 3PAI-S-- ἐστιν εἰμί
+23:9 RP ----DSM- αὐτῷ αὐτός
+23:9 RA ----ASN- τὸ ὁ
+23:9 V- -PAPASN- ὂν εἰμί
+23:9 P- -------- ἐν ἐν
+23:9 N- ----DSN- μέρει μέρος
+23:9 RA ----GSM- τοῦ ὁ
+23:9 N- ----GSM- ἀγροῦ ἀγρός
+23:9 RP ----GSM- αὐτοῦ αὐτός
+23:9 N- ----GSN- ἀργυρίου ἀργύριον
+23:9 RA ----GSN- τοῦ ὁ
+23:9 A- ----GSN- ἀξίου ἄξιος
+23:9 V- 3AAD-S-- δότω δίδωμι
+23:9 RP ----DS-- μοι ἐγώ  # module lemma μοι, the form itself — ἐγώ is the dictionary form
+23:9 RP ----ASN- αὐτὸ αὐτός
+23:9 P- -------- ἐν ἐν
+23:9 RP ----DP-- ὑμῖν σύ  # module lemma ὑμῖν, the form itself — σύ is the dictionary form
+23:9 P- -------- εἰς εἰς
+23:9 N- ----ASF- κτῆσιν κτῆσις
+23:9 N- ----GSN- μνημείου μνημεῖον
+23:10 N- ----NSM- Εφρων Εφρων
+23:10 C- -------- δὲ δέ
+23:10 V- 3IEI-S-- ἐκάθητο κάθημαι
+23:10 P- -------- ἐν ἐν
+23:10 A- ----DSN- μέσῳ μέσος  # module DSM — ἐν μέσῳ, the neuter, as MorphGNT codes it (Matt 18:2)
+23:10 RA ----GPM- τῶν ὁ
+23:10 N- ----GPM- υἱῶν υἱός
+23:10 N- ----GSM- Χετ Χετ
+23:10 V- -APPNSM- ἀποκριθεὶς ἀποκρίνομαι
+23:10 C- -------- δὲ δέ
+23:10 N- ----NSM- Εφρων Εφρων
+23:10 RA ----NSM- ὁ ὁ
+23:10 N- ----NSM- Χετταῖος Χετταῖος
+23:10 P- -------- πρὸς πρός
+23:10 N- ----ASM- Αβρααμ Ἀβραάμ
+23:10 V- 3AAI-S-- εἶπεν λέγω  # module lemma ἔπω — λέγω keeps one dictionary form across both testaments
+23:10 V- -PAPGPM- ἀκουόντων ἀκούω
+23:10 RA ----GPM- τῶν ὁ
+23:10 N- ----GPM- υἱῶν υἱός
+23:10 N- ----GSM- Χετ Χετ
+23:10 C- -------- καὶ καί
+23:10 A- ----GPM- πάντων πᾶς
+23:10 RA ----GPM- τῶν ὁ
+23:10 V- -PEPGPM- εἰσπορευομένων εἰσπορεύομαι
+23:10 P- -------- εἰς εἰς
+23:10 RA ----ASF- τὴν ὁ
+23:10 N- ----ASF- πόλιν πόλις
+23:10 V- -PAPNSM- λέγων λέγω
+23:11 P- -------- Παρʼ παρά
+23:11 RP ----DS-- ἐμοὶ ἐγώ  # module lemma ἐμοί, the form itself — ἐγώ is the dictionary form
+23:11 V- 2AMD-S-- γενοῦ γίνομαι
+23:11 N- ----VSM- κύριε κύριος
+23:11 C- -------- καὶ καί
+23:11 V- 2AAD-S-- ἄκουσόν ἀκούω
+23:11 RP ----GS-- μου ἐγώ  # module lemma μου, the form itself — ἐγώ is the dictionary form
+23:11 RA ----ASM- τὸν ὁ
+23:11 N- ----ASM- ἀγρὸν ἀγρός
+23:11 C- -------- καὶ καί
+23:11 RA ----ASN- τὸ ὁ
+23:11 N- ----ASN- σπήλαιον σπήλαιον
+23:11 RA ----ASN- τὸ ὁ
+23:11 P- -------- ἐν ἐν
+23:11 RP ----DSM- αὐτῷ αὐτός
+23:11 RP ----DS-- σοι σύ  # module lemma σοί, the form itself — σύ is the dictionary form
+23:11 V- 1PAI-S-- δίδωμι δίδωμι
+23:11 P- -------- ἐναντίον ἐναντίον
+23:11 A- ----GPM- πάντων πᾶς
+23:11 RA ----GPM- τῶν ὁ
+23:11 N- ----GPM- πολιτῶν πολίτης
+23:11 RP ----GS-- μου ἐγώ  # module lemma μου, the form itself — ἐγώ is the dictionary form
+23:11 V- 1XAI-S-- δέδωκά δίδωμι
+23:11 RP ----DS-- σοι σύ  # module lemma σοί, the form itself — σύ is the dictionary form
+23:11 V- 2AAD-S-- θάψον θάπτω
+23:11 RA ----ASM- τὸν ὁ
+23:11 A- ----ASM- νεκρόν νεκρός
+23:11 RP ----GS-- σου σύ  # module lemma σοῦ, the form itself — σύ is the dictionary form
+23:12 C- -------- καὶ καί
+23:12 V- 3AAI-S-- προσεκύνησεν προσκυνέω
+23:12 N- ----NSM- Αβρααμ Ἀβραάμ
+23:12 P- -------- ἐναντίον ἐναντίον
+23:12 RA ----GSM- τοῦ ὁ
+23:12 N- ----GSM- λαοῦ λαός
+23:12 RA ----GSF- τῆς ὁ
+23:12 N- ----GSF- γῆς γῆ
+23:13 C- -------- καὶ καί
+23:13 V- 3AAI-S-- εἶπεν λέγω  # module lemma ἔπω — λέγω keeps one dictionary form across both testaments
+23:13 RA ----DSM- τῷ ὁ
+23:13 N- ----DSM- Εφρων Εφρων
+23:13 P- -------- εἰς εἰς
+23:13 RA ----APN- τὰ ὁ
+23:13 N- ----APN- ὦτα οὖς
+23:13 RA ----GSM- τοῦ ὁ
+23:13 N- ----GSM- λαοῦ λαός
+23:13 RA ----GSF- τῆς ὁ
+23:13 N- ----GSF- γῆς γῆ
+23:13 C- -------- Ἐπειδὴ ἐπειδή
+23:13 P- -------- πρὸς πρός
+23:13 RP ----GS-- ἐμοῦ ἐγώ  # module lemma ἐμοῦ, the form itself — ἐγώ is the dictionary form
+23:13 V- 2PAI-S-- εἶ εἰμί
+23:13 V- 2AAD-S-- ἄκουσόν ἀκούω
+23:13 RP ----GS-- μου ἐγώ  # module lemma μου, the form itself — ἐγώ is the dictionary form
+23:13 RA ----ASN- τὸ ὁ
+23:13 N- ----ASN- ἀργύριον ἀργύριον
+23:13 RA ----GSM- τοῦ ὁ
+23:13 N- ----GSM- ἀγροῦ ἀγρός
+23:13 V- 2AAD-S-- λαβὲ λαμβάνω
+23:13 P- -------- παρʼ παρά
+23:13 RP ----GS-- ἐμοῦ ἐγώ  # module lemma ἐμοῦ, the form itself — ἐγώ is the dictionary form
+23:13 C- -------- καὶ καί
+23:13 V- 1FAI-S-- θάψω θάπτω  # module aorist subjunctive — the same form; after the imperative and καί, the future, and I will bury
+23:13 RA ----ASM- τὸν ὁ
+23:13 A- ----ASM- νεκρόν νεκρός
+23:13 RP ----GS-- μου ἐγώ  # module lemma μου, the form itself — ἐγώ is the dictionary form
+23:13 D- -------- ἐκεῖ ἐκεῖ
+23:14 V- 3API-S-- ἀπεκρίθη ἀποκρίνομαι
+23:14 C- -------- δὲ δέ
+23:14 N- ----NSM- Εφρων Εφρων
+23:14 RA ----DSM- τῷ ὁ
+23:14 N- ----DSM- Αβρααμ Ἀβραάμ
+23:14 V- -PAPNSM- λέγων λέγω
+23:15 D- -------- Οὐχί οὐχί
+23:15 N- ----VSM- κύριε κύριος
+23:15 V- 1XAI-S-- ἀκήκοα ἀκούω
+23:15 N- ----NSF- γῆ γῆ
+23:15 A- ----GPN- τετρακοσίων τετρακόσιοι
+23:15 N- ----GPN- διδράχμων δίδραχμον
+23:15 N- ----GSN- ἀργυρίου ἀργύριον
+23:15 P- -------- ἀνὰ ἀνά
+23:15 A- ----ASN- μέσον μέσος  # module ASM — with a genitive after it, the neuter used as a noun, as MorphGNT codes ἀνὰ μέσον
+23:15 RP ----GS-- ἐμοῦ ἐγώ  # module lemma ἐμοῦ, the form itself — ἐγώ is the dictionary form
+23:15 C- -------- καὶ καί
+23:15 RP ----GS-- σοῦ σύ  # module lemma σοῦ, the form itself — σύ is the dictionary form
+23:15 RI ----NSN- τί τίς
+23:15 X- -------- ἂν ἄν
+23:15 V- 3PAO-S-- εἴη εἰμί
+23:15 RD ----NSN- τοῦτο οὗτος
+23:15 RP ----NS-- σὺ σύ
+23:15 C- -------- δὲ δέ
+23:15 RA ----ASM- τὸν ὁ
+23:15 A- ----ASM- νεκρόν νεκρός
+23:15 RP ----GS-- σου σύ  # module lemma σοῦ, the form itself — σύ is the dictionary form
+23:15 V- 2AAD-S-- θάψον θάπτω
+23:16 C- -------- καὶ καί
+23:16 V- 3AAI-S-- ἤκουσεν ἀκούω
+23:16 N- ----NSM- Αβρααμ Ἀβραάμ
+23:16 RA ----GSM- τοῦ ὁ
+23:16 N- ----GSM- Εφρων Εφρων
+23:16 C- -------- καὶ καί
+23:16 V- 3AAI-S-- ἀπεκατέστησεν ἀποκαθίστημι
+23:16 N- ----NSM- Αβρααμ Ἀβραάμ
+23:16 RA ----DSM- τῷ ὁ
+23:16 N- ----DSM- Εφρων Εφρων
+23:16 RA ----ASN- τὸ ὁ
+23:16 N- ----ASN- ἀργύριον ἀργύριον
+23:16 RR ----ASN- ὃ ὅς
+23:16 V- 3AAI-S-- ἐλάλησεν λαλέω
+23:16 P- -------- εἰς εἰς
+23:16 RA ----APN- τὰ ὁ
+23:16 N- ----APN- ὦτα οὖς
+23:16 RA ----GPM- τῶν ὁ
+23:16 N- ----GPM- υἱῶν υἱός
+23:16 N- ----GSM- Χετ Χετ
+23:16 A- ----APN- τετρακόσια τετρακόσιοι
+23:16 N- ----APN- δίδραχμα δίδραχμον
+23:16 N- ----GSN- ἀργυρίου ἀργύριον
+23:16 A- ----GSN- δοκίμου δόκιμος  # module GSM — neuter, with ἀργυρίου
+23:16 N- ----DPM- ἐμπόροις ἔμπορος
+23:17 C- -------- καὶ καί
+23:17 V- 3AAI-S-- ἔστη ἵστημι
+23:17 RA ----NSM- ὁ ὁ
+23:17 N- ----NSM- ἀγρὸς ἀγρός
+23:17 N- ----GSM- Εφρων Εφρων
+23:17 RR ----NSM- ὃς ὅς
+23:17 V- 3IAI-S-- ἦν εἰμί
+23:17 P- -------- ἐν ἐν
+23:17 RA ----DSN- τῷ ὁ
+23:17 A- ----DSN- διπλῷ διπλοῦς
+23:17 N- ----DSN- σπηλαίῳ σπήλαιον
+23:17 RR ----NSM- ὅς ὅς
+23:17 V- 3PAI-S-- ἐστιν εἰμί
+23:17 P- -------- κατὰ κατά
+23:17 N- ----ASN- πρόσωπον πρόσωπον
+23:17 N- ----GS-- Μαμβρη Μαμβρη
+23:17 RA ----NSM- ὁ ὁ
+23:17 N- ----NSM- ἀγρὸς ἀγρός
+23:17 C- -------- καὶ καί
+23:17 RA ----NSN- τὸ ὁ
+23:17 N- ----NSN- σπήλαιον σπήλαιον
+23:17 RR ----NSN- ὃ ὅς
+23:17 V- 3IAI-S-- ἦν εἰμί
+23:17 P- -------- ἐν ἐν
+23:17 RP ----DSM- αὐτῷ αὐτός
+23:17 C- -------- καὶ καί
+23:17 A- ----NSN- πᾶν πᾶς
+23:17 N- ----NSN- δένδρον δένδρον
+23:17 RR ----NSN- ὃ ὅς
+23:17 V- 3IAI-S-- ἦν εἰμί
+23:17 P- -------- ἐν ἐν
+23:17 RA ----DSM- τῷ ὁ
+23:17 N- ----DSM- ἀγρῷ ἀγρός
+23:17 RR ----NSN- ὅ ὅς
+23:17 V- 3PAI-S-- ἐστιν εἰμί
+23:17 P- -------- ἐν ἐν
+23:17 RA ----DPN- τοῖς ὁ
+23:17 N- ----DPN- ὁρίοις ὅριον
+23:17 RP ----GSM- αὐτοῦ αὐτός
+23:17 D- -------- κύκλῳ κύκλῳ  # module N DSM — κύκλῳ, the adverb, as MorphGNT files it (Mark 3:34)
+23:18 RA ----DSM- τῷ ὁ
+23:18 N- ----DSM- Αβρααμ Ἀβραάμ
+23:18 P- -------- εἰς εἰς
+23:18 N- ----ASF- κτῆσιν κτῆσις
+23:18 P- -------- ἐναντίον ἐναντίον
+23:18 RA ----GPM- τῶν ὁ
+23:18 N- ----GPM- υἱῶν υἱός
+23:18 N- ----GSM- Χετ Χετ
+23:18 C- -------- καὶ καί
+23:18 A- ----GPM- πάντων πᾶς
+23:18 RA ----GPM- τῶν ὁ
+23:18 V- -PEPGPM- εἰσπορευομένων εἰσπορεύομαι
+23:18 P- -------- εἰς εἰς
+23:18 RA ----ASF- τὴν ὁ
+23:18 N- ----ASF- πόλιν πόλις
+23:19 P- -------- μετὰ μετά
+23:19 RD ----APN- ταῦτα οὗτος
+23:19 V- 3AAI-S-- ἔθαψεν θάπτω
+23:19 N- ----NSM- Αβρααμ Ἀβραάμ
+23:19 N- ----ASF- Σαρραν Σάρρα
+23:19 RA ----ASF- τὴν ὁ
+23:19 N- ----ASF- γυναῖκα γυνή
+23:19 RP ----GSM- αὐτοῦ αὐτός
+23:19 P- -------- ἐν ἐν
+23:19 RA ----DSN- τῷ ὁ
+23:19 N- ----DSN- σπηλαίῳ σπήλαιον
+23:19 RA ----GSM- τοῦ ὁ
+23:19 N- ----GSM- ἀγροῦ ἀγρός
+23:19 RA ----DSN- τῷ ὁ
+23:19 A- ----DSN- διπλῷ διπλοῦς
+23:19 RR ----NSN- ὅ ὅς
+23:19 V- 3PAI-S-- ἐστιν εἰμί
+23:19 P- -------- ἀπέναντι ἀπέναντι
+23:19 N- ----GS-- Μαμβρη Μαμβρη  # module NS — the genitive after ἀπέναντι, as κατὰ πρόσωπον Μαμβρη at 23:17
+23:19 RD ----NSF- αὕτη οὗτος
+23:19 V- 3PAI-S-- ἐστὶν εἰμί
+23:19 N- ----NS-- Χεβρων Χεβρων
+23:19 P- -------- ἐν ἐν
+23:19 RA ----DSF- τῇ ὁ
+23:19 N- ----DSF- γῇ γῆ
+23:19 N- ----GS-- Χανααν Χανάαν  # module lemma Χαναάν — Χανάαν, as MorphGNT files it
+23:20 C- -------- καὶ καί
+23:20 V- 3API-S-- ἐκυρώθη κυρόω
+23:20 RA ----NSM- ὁ ὁ
+23:20 N- ----NSM- ἀγρὸς ἀγρός
+23:20 C- -------- καὶ καί
+23:20 RA ----NSN- τὸ ὁ
+23:20 N- ----NSN- σπήλαιον σπήλαιον
+23:20 RR ----NSN- ὃ ὅς
+23:20 V- 3IAI-S-- ἦν εἰμί
+23:20 P- -------- ἐν ἐν
+23:20 RP ----DSM- αὐτῷ αὐτός
+23:20 RA ----DSM- τῷ ὁ
+23:20 N- ----DSM- Αβρααμ Ἀβραάμ
+23:20 P- -------- εἰς εἰς
+23:20 N- ----ASF- κτῆσιν κτῆσις
+23:20 N- ----GSM- τάφου τάφος
+23:20 P- -------- παρὰ παρά
+23:20 RA ----GPM- τῶν ὁ
+23:20 N- ----GPM- υἱῶν υἱός
+23:20 N- ----GSM- Χετ Χετ

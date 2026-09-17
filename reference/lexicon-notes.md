@@ -161,6 +161,8 @@ Three reasons, and all of them are the lexicon's filing rather than a decision a
 | ἐχθές (GEN 19:34) | χθές | cross-reference; "v. χθές" |
 | ἐπισκέπτομαι (GEN 21:1) | ἐπισκοπέω | "a pres., which furnishes its tenses to ἐπισκοπέω" |
 | παλλακή (GEN 22:24) | παλλακίς | cross-reference; "= παλλακίς" |
+| διπλοῦς (GEN 23:9) | διπλόος | the contracted form, filed under the uncontracted |
+| κύκλῳ (GEN 23:17) | κύκλος | the adverbial dative, filed inside κύκλος |
 <!-- spelling rows above -->
 
 The dictionary form itself does not follow the lexicon's filing: it keeps the spelling the text
@@ -194,7 +196,7 @@ GEN 9 adds ὀπισθοφανής, *seen from behind*, and its adverb ὀπισ
 ἔτασις, *trial, affliction*. GEN 14 adds ἁλυκός, *salt, brackish*; ἀποσκευή, whose *removal,
 riddance* comes before *baggage*; σφαιρωτήρ, *thong, latchet*; and περάτης, which opens "= πορθμεύς",
 so that πορθμεύς's LSJ senses, *ferryman*, *boatman, seaman*, *conveyer*, stand before its own
-*wanderer, emigrant*, as ἁγίζω's stand for ἁγιάζω. GEN 15 adds ὑπερασπίζω, *cover with a shield*, from the upsilon file; τριετίζω, *to be three years old*; and διχοτόμημα, *half of a thing cut in two*. GEN 17 adds κατάσχεσις, *holding back, restraining, retention*, then *possession*, from the kappa file; and ἑκατονταέτης, *of a hundred years*, *years old*, citing 17:17. GEN 18 adds μοσχάριον, *little calf*, and, from the beta file, βούτυρον, *butter*, then *a plant*. GEN 19 adds προσοίγνυμι, *shut*; ἀορασία, *inability to see, blindness*; γελοιάζω, *jest*, from the gamma file; ἐπαύριον, *on the morrow*; and εἰσσπάομαι, *draw into oneself*. GEN 20 adds μήτρα, *womb*, whose Middle Liddell entry tags only Latin; δίδραχμον, *coin of two drachms*, under δίδραχμος; and κἀγώ, *crasis for καὶ ἐγώ*. GEN 21 adds ἀπογαλακτίζω, *wean from the mother's milk*; ἀρχιστράτηγος, *commander-in-chief*; and, from the omega file, ὦμος, *the shoulder with the upper arm*.
+*wanderer, emigrant*, as ἁγίζω's stand for ἁγιάζω. GEN 15 adds ὑπερασπίζω, *cover with a shield*, from the upsilon file; τριετίζω, *to be three years old*; and διχοτόμημα, *half of a thing cut in two*. GEN 17 adds κατάσχεσις, *holding back, restraining, retention*, then *possession*, from the kappa file; and ἑκατονταέτης, *of a hundred years*, *years old*, citing 17:17. GEN 18 adds μοσχάριον, *little calf*, and, from the beta file, βούτυρον, *butter*, then *a plant*. GEN 19 adds προσοίγνυμι, *shut*; ἀορασία, *inability to see, blindness*; γελοιάζω, *jest*, from the gamma file; ἐπαύριον, *on the morrow*; and εἰσσπάομαι, *draw into oneself*. GEN 20 adds μήτρα, *womb*, whose Middle Liddell entry tags only Latin; δίδραχμον, *coin of two drachms*, under δίδραχμος; and κἀγώ, *crasis for καὶ ἐγώ*. GEN 21 adds ἀπογαλακτίζω, *wean from the mother's milk*; ἀρχιστράτηγος, *commander-in-chief*; and, from the omega file, ὦμος, *the shoulder with the upper arm*. GEN 23 adds παρεπίδημος, *sojourning in a strange place*, and μνημεῖον, *memorial, remembrance, record*, whose Middle Liddell entry tags its first sense only in Latin.
 <!-- LSJ sentences above -->
 
 GEN 9 also files ἐμεθύσθη under μεθύσκω, *to make drunk*, where Middle Liddell gives its aorist
@@ -594,6 +596,75 @@ the same ground as `the sixth` and `the seventh`: one sense each, so no range to
   settling in` (10:30); δύο `two`; υἱός `sons`.
 - The article before a people's name (τοὺς Λουδιιμ, τὸν Χετταῖον, τῶν Χαναναίων) is not printed,
   as before a person's name.
+
+### Words new in GEN 23
+
+- μνημεῖον — Middle Liddell's first sense carries its English only inside the Latin, *monimentum,
+  any memorial, remembrance, record*, and tags only the second, *a monument*; LSJ's senses stand,
+  *memorial, remembrance, record*, then *tomb, monument*. 23:6, 23:9.
+- θάπτω — Middle Liddell's one sense is *to pay the last dues to a corpse, to honour with funeral
+  rites*, and then *to bury, inter*: `I will pay the last dues to a corpse`. 23:4–19.
+- τῷ τοῦ Σααρ — the article used as a noun with the genitive, *the one of Saar*: `to the of`, one
+  English article for each Greek one. 23:8.
+- Genitive absolute, ἀκουόντων τῶν υἱῶν Χετ — `of hearing`, as καθημένου at 18:1. 23:10.
+- κύκλῳ — the adverbial dative, filed inside κύκλος: *in a circle* or *ring, round about*. 23:17.
+- A verse that opens with direct speech prints its capital as the first word of the verse, so it is
+  not listed in `speech`: Πάροικος (23:4), Μή (23:6), Παρʼ (23:11), Οὐχί (23:15).
+- Names: Αρβοκ `(Αρβοκ, for Hebrew Qiryat ʾarbaʿ, "city of Arba" or "city of four")`; Χεβρων; Χετ,
+  whose sons are the Hittites; Εφρων, son of Σααρ; Χετταῖος `(Χετταῖος, the man of Χετ, Heth;
+  Hebrew Ḥittî)`. 23:2–10.
+- One sense each in GEN 23, so plain text: παρεπίδημος `sojourning in a strange place` (23:4, LSJ);
+  δένδρον `tree` (23:17).
+
+| lemma | headword | chain | used |
+| --- | --- | --- | --- |
+| δίδραχμον | `of coins of two drachms` | `of coins of two drachms, of half-shekels` | 23:15 |
+| δίδωμι | `let give` | `let give, let grant, let provide, let give over and deliver up` | 23:9 |
+| διπλοῦς | `twofold` | `twofold, double, double-minded and treacherous` | 23:9, 23:19 |
+| διπλοῦς, with ἐν | `in the twofold` | `within, inside of, and by means of the twofold, the double, the double-minded and treacherous` | 23:17 |
+| δόκιμος | `of assayed` | `of assayed, of examined, of tested, of approved and esteemed and notable, of excellent and notable and considerable` | 23:16 |
+| εἰσπορεύομαι | `of the ones going into` | `of the ones going into, of the ones entering` | 23:10, 23:18 |
+| ζωή | `the life` | `the life, the means of life and substance, the existence, the way of life` | 23:1 |
+| θάπτω | `I will pay the last dues to a corpse` | `I will pay the last dues to a corpse, I will honour with funeral rites, I will bury, I will inter` | 23:4, 23:13 |
+| θάπτω | `paid the last dues to a corpse` | `paid the last dues to a corpse, honoured with funeral rites, buried, interred` | 23:19 |
+| θάπτω | `pay the last dues to a corpse` | `pay the last dues to a corpse, honour with funeral rites, bury, inter` | 23:6, 23:11, 23:15 |
+| θάπτω | `to pay the last dues to a corpse` | `to pay the last dues to a corpse, to honour with funeral rites, to bury, to inter` | 23:6, 23:8 |
+| κοίλωμα, with ἐν | `in the hollow` | `within, inside of, and by means of the hollow, the cavity` | 23:2 |
+| κτῆσις | `acquisition` | `acquisition, possession, possessions and property` | 23:4, 23:9, 23:18, 23:20 |
+| κυρόω | `was made valid` | `was made valid, was confirmed, was ratified, was determined, was decided` | 23:20 |
+| κωλύω | `will let` | `will let, will hinder, will check, will prevent, will impede` | 23:6 |
+| κόπτω | `to beat one's breast` | `to beat one's breast, to mourn for` | 23:2 |
+| κύκλῳ | `in a circle` | `in a circle, in a ring, round about` | 23:17 |
+| λαλέω | `talk` | `talk, chat, prattle, babble, say, talk of, speak, chatter, chirp` | 23:8 |
+| λαός | `of the people` | `of the people, of the men, of the soldiers, of the land-army, of the common men, of the folk, of the Jews, of the Christians` | 23:12, 23:13 |
+| λαός | `to the people` | `to the people, to the men, to the soldiers, to the land-army, to the common men, to the folk, to the Jews, to the Christians` | 23:7 |
+| μέρος, with ἐν | `in part` | `within, inside of, and by means of part, share, one's portion and heritage and lot, one's turn, the part one takes in and the part assigned, division` | 23:9 |
+| μνημεῖον | `memorials` | `memorials, remembrances, records, tombs and monuments` | 23:6 |
+| μνημεῖον | `of memorial` | `of memorial, of remembrance, of record, of tomb and monument` | 23:9 |
+| μνημεῖον | `the memorial` | `the memorial, the remembrance, the record, the tomb and monument` | 23:6 |
+| νεκρός | `of the dead body` | `of the dead body, of the corpse, of the dead` | 23:3 |
+| νεκρός | `the dead body` | `the dead body, the corpse, the dead` | 23:4, 23:6, 23:8, 23:11, 23:13, 23:15 |
+| πενθέω | `to bewail` | `to bewail, to lament, to mourn for` | 23:2 |
+| πολίτης | `of the members of a city` | `of the members of a city and state, of the citizens and freemen` | 23:11 |
+| πρός + genitive | `from` | `from, from forth, on the side and quarter of, before and in presence of and in the eyes of, before and by, from and on the side of, proceeding from, from and at the hand of, by means and agency of, dependent on, under the protection of, at the beck of, on the side of and in favour of, fitting and suitable, befitting, like, agreeable to` | 23:13 |
+| σπήλαιον | `grotto` | `grotto, cave, cavern` | 23:17 |
+| σπήλαιον | `the grotto` | `the grotto, the cave, the cavern` | 23:9, 23:11, 23:17, 23:20 |
+| τάφος | `of a burial` | `of a burial and funeral, of the act of burying, of the grave and tomb` | 23:4, 23:20 |
+| ψυχή | `to the breath` | `to the breath, to the life, to the spirit, to life and death, to the ghost, to the departed soul` | 23:8 |
+| ἀγρός | `the field` | `the field, the lands, the farm, the country` | 23:11, 23:17, 23:20 |
+| ἀγρός, with ἐν | `in the field` | `within, inside of, and by means of the field, the lands, the farm, the country` | 23:17 |
+| ἀκούω | `I have heard` | `I have heard and it stands so, I have had hearing of and it stands so, I have heard tell of and it stands so, I have hearkened and given ear and it stands so, I have listened to and obeyed and it stands so` | 23:15 |
+| ἀκούω | `of hearing` | `of hearing, of having hearing of, of hearing tell of, of hearkening and giving ear, of listening to and obeying` | 23:10 |
+| ἀποκαθίστημι | `re-established` | `re-established, restored, reinstated` | 23:16 |
+| ἀποκρίνομαι | `gave answer to` | `gave answer to, replied, answered, answered charges and defended himself` | 23:14 |
+| ἀποκρίνομαι | `gave answer to` | `gave answer to, replied, answered, answered charges and defended themselves` | 23:5 |
+| ἀργύριον | `of a piece of silver` | `of a piece of silver, of a silver coin, of money and a sum of money and cash, of silver` | 23:9, 23:15, 23:16 |
+| ἀργύριον | `the piece of silver` | `the piece of silver, the silver coin, the money and sum of money and cash, the silver` | 23:13, 23:16 |
+| ἄξιος | `weighing as much` | `weighing as much, of like value, worth as much as, worthy and goodly, of a proper value and cheap, deserved and meet and due, sufficient for, worthy of and deserving and meet for` | 23:9 |
+| ἐκλεκτός, with ἐν | `in the picked out` | `within, inside of, and by means of the picked out, the select` | 23:6 |
+| ἔμπορος | `to ones who go on shipboard as passengers` | `to ones who go on shipboard as passengers, to any on a journey and travellers and wanderers, to merchants and traders` | 23:16 |
+| ἵστημι | `was set` | `was set, was placed, stood, was there, was in a state and condition, lay and was situated, stood still and stopped and halted, stood idle, stopped and ceased and was at rest, stood firm, stood up and rose up, arose and began` | 23:17 |
+| ὅριον, with ἐν | `in the boundaries` | `within, inside of, and by means of the boundaries, the limits, the borders, the frontier` | 23:17 |
 
 ### Words new in GEN 22
 
@@ -3476,6 +3547,12 @@ Greek makes it a woman's, the mother of Eliezer, whom it calls Δαμασκὸς
 | Γααμ | Gaam | Gaham | `(Γααμ, from Hebrew Gaḥam, of uncertain meaning)` |
 | Τοχος | Tochos | Tahash | `(Τοχος, from Hebrew Taḥaš, of uncertain meaning)` |
 | Μωχα | Mōcha | Maacah | `(Μωχα, from Hebrew Maʿăkâ, of uncertain meaning)` |
+
+| Αρβοκ | Arbok | Arba | `(Αρβοκ, for Hebrew Qiryat ʾarbaʿ, "city of Arba" or "city of four")` |
+| Χετ | Chet | Heth | `(Χετ, from Hebrew Ḥēt, of uncertain meaning)` |
+| Εφρων | Ephrōn | Ephron | `(Εφρων, from Hebrew ʿEprôn, of uncertain meaning)` |
+| Σααρ | Saar | Zohar | `(Σααρ, from Hebrew Ṣōḥar, of uncertain meaning)` |
+| Χετταῖος | Chettaios | Hittite | `(Χετταῖος, the man of Χετ, Heth; Hebrew Ḥittî)` |
 <!-- name rows above -->
 
 Σύγχυσις translates the name where 10:10 gave the city its Greek name, Βαβυλών; as with Ζωή at

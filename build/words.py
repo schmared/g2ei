@@ -169,6 +169,12 @@ LSJ = {
     "ἀπογαλακτίζω": ["wean from the mother's milk"],
     "ἀρχιστράτηγος": ["commander-in-chief"],
     "ὦμος": ["the shoulder with the upper arm", "the shoulder"],
+    # Middle Liddell's μνημεῖον carries its first sense's English only inside the Latin
+    # ("monimentum, any memorial, remembrance, record"), and has no παρεπίδημος. LSJ (eng13):
+    # μνημεῖον, "memorial, remembrance, record", then "tomb, monument". LSJ (eng17): παρεπίδημος,
+    # "sojourning in a strange place".
+    "μνημεῖον": ["memorial, remembrance, record", "tomb, monument"],
+    "παρεπίδημος": ["sojourning in a strange place"],
 }
 
 # New Testament books: MorphGNT file and its book number.
@@ -586,6 +592,17 @@ NOT_SENSES = {
     "paida/rion": {"a child"},                  # a piece of an example
     "ke/ras": {"horns", "horn doors", "true", "in flank", "towards the wing", "in column"},  # pieces of examples
     "e)mo/s": {"possessive", "for me"},         # pieces of examples
+    # GEN 23
+    "ko/ptw": {"smote", "on"},                  # pieces of an example
+    "kth=sis": {"success in"},                  # a piece of an example
+    "ta/fos": {"a funeral-feast"},              # a piece of an example
+    "kwlu/w": {"to hinder", "prevent", "from"},  # pieces of examples
+    "diplo/os": {"so as to be double", "bent double", "mutual"},  # pieces of examples
+    "me/ros": {"considerations of rank", "his turn of duty"},  # pieces of examples
+    "a)/cios": {"worth", "quantivis pretii"},   # pieces of examples, Latin
+    "do/kimos": {"most approved", "really, truly"},  # a piece of an example, the adverb
+    "e)/mporos": {"a trafficker"},              # a piece of an example
+    "kuro/w": {"the end hath been fixed", "determined"},  # pieces of examples
 }
 
 # An entry that divides its senses by tense and voice, so that which of them belong to a
@@ -699,6 +716,8 @@ SPELLING = {
     "e)xqe/s": "xqe/s",             # cross-reference; "v. χθές"
     "e)piske/ptomai": "e)piskope/w",  # "a pres., which furnishes its tenses to ἐπισκοπέω"
     "pallakh/": "pallaki/s",        # cross-reference; "= παλλακίς"
+    "diplou=s": "diplo/os",         # the contracted form, filed under the uncontracted
+    "ku/klw|": "ku/klos",           # the adverbial dative, filed inside κύκλος
 }
 
 # Homographs where Perseus's *first* entry is a different word from the one the text

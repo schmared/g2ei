@@ -216,6 +216,14 @@ case at 21:33, where Rahlfs capitalises the name called upon, as the brief's rul
 Two disagreements over 543 words. The first pass kept πρωΐ with the diaeresis Rahlfs prints, and
 filed ἐπέσαξεν under ἐπισάττω, the Attic spelling Middle Liddell heads, not ἐπισάσσω.
 
+### What it found in Genesis 23
+
+Seven disagreements over 427 words. The second pass filed ἀπεκρίθησαν, ἀποκριθείς and ἀπεκρίθη
+under ἀποκρίνω, as Middle Liddell heads them; the first kept ἀποκρίνομαι, as MorphGNT files them and as
+18:9 settled, and the brief's list of middle verbs now names it. The second filed διπλοῦν and διπλῷ
+under the uncontracted διπλόος; the first kept MorphGNT's διπλοῦς. And the second coded κύκλῳ as the
+dative of κύκλος; the first kept the adverb, `D- κύκλῳ`, as MorphGNT has it at Mark 3:34.
+
 ## The brief
 
 Copy everything below the rule into a new agent. Replace `<BOOK NAME>`, `<CHAPTER>`,
@@ -270,7 +278,8 @@ Small words are tagged as MorphGNT tags them:
 - **X-** ἄν; ἐάν where it stands for ἄν after a relative (`ὃ ἐὰν θέλητε`, John 15:7); ἰδού;
   μή opening a question that expects *no*
 - **A-** εὐθύς meaning *immediately*, `A- ----NSM-`, as MorphGNT codes it all 51 times
-- **D-** αὐτοῦ meaning *here*, under the lemma αὐτοῦ, as MorphGNT has it (Matt 26:36); πρωΐ, filed as
+- **D-** αὐτοῦ meaning *here*, under the lemma αὐτοῦ, as MorphGNT has it (Matt 26:36); κύκλῳ, *round
+  about*, under κύκλῳ (Mark 3:34); πρωΐ, filed as
   πρωΐ
 - **C-** ἄρα, *then, perhaps*, as MorphGNT codes it 46 times of 49
 - **D-** οὐ, μή, νῦν, τότε, εὖ, ἅμα with no dative after it, ἔτι, ἐκεῖ, ἐκεῖθεν, ποῦ, δεῦτε; καί meaning *also, even*, and the καί of
@@ -368,7 +377,8 @@ The dictionary form as Middle Liddell (Perseus) files it:
 - Verbs with no active in use under their middle form, as MorphGNT files them: ἐργάζομαι,
   πορεύομαι, ἐκπορεύομαι, εἰσπορεύομαι, εἰσέρχομαι, ἐντέλλομαι, φοβέομαι, ἀπέρχομαι,
   καταράομαι, ἐκλέγομαι, ἐνθυμέομαι, θυμόομαι (for ἐθυμώθη, as MorphGNT has it at Matt 2:16),
-  διανοέομαι, μιμνήσκομαι, διατίθεμαι, χράομαι, κτάομαι, περιποιέομαι, συμπορεύομαι, δύναμαι. But ἐπεκαλέσατο, the middle,
+  διανοέομαι, μιμνήσκομαι, διατίθεμαι, χράομαι, κτάομαι, περιποιέομαι, συμπορεύομαι, δύναμαι,
+  ἀποκρίνομαι (ἀπεκρίθη, ἀποκριθείς, voice `P`). But ἐπεκαλέσατο, the middle,
   goes under the active ἐπικαλέω, as MorphGNT files it.
 - εἰδέναι → οἶδα · εἶπεν → λέγω · ἰδεῖν → ὁράω · φαγ- forms → ἐσθίω · μου → ἐγώ ·
   every article → ὁ.
@@ -376,7 +386,7 @@ The dictionary form as Middle Liddell (Perseus) files it:
   ἐννακόσιοι, κατάγαιος, τεσσαράκοντα — even where Middle Liddell or MorphGNT spells the word
   otherwise (γίγνομαι, ἔχθρη, νεοσσιά, ἐνακόσιοι, κατάγειος, τεσσεράκοντα). What goes to the
   dictionary is the form, not the spelling: a contracted form goes under the form Middle Liddell
-  cites, the uncontracted ὀστέον for ὀστοῦν but the contracted συκῆ; ἕνεκεν → ἕνεκα, εἵνεκεν → εἵνεκα;
+  cites, the uncontracted ὀστέον for ὀστοῦν but the contracted συκῆ and διπλοῦς; ἕνεκεν → ἕνεκα, εἵνεκεν → εἵνεκα;
   ἀμφότεροι → ἀμφότερος, the singular Middle Liddell heads, not MorphGNT's plural. A neuter
   noun filed as such: πετεινόν.
 - Proper names: a name the New Testament also uses, of a person or a place, takes MorphGNT's
