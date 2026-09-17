@@ -1,0 +1,453 @@
+# Genesis 20 — morphology, one word per line.
+#
+# This is the project's own grammatical analysis of each form, written alongside the
+# transcription and not copied from any digital edition.
+#
+# Columns: verse, part of speech, parse, form, lemma — in MorphGNT's code scheme, so
+# the Old and New Testament layers read alike. The parse is eight places: person,
+# tense, voice, mood, case, number, gender, degree ("-" where it does not apply).
+#
+# Two codes go beyond MorphGNT, both to record only what the form itself says:
+#   voice  E  middle/passive — a tense in which the two share one form
+#   gender C  masculine/feminine — an adjective whose form does not distinguish them
+#
+# A trailing annotation records a deliberate difference and the reason for it:
+#   "# module …"  from the reference module, checked when LXX_RAHLFS_DIR is set
+#   "# corpus …"  from this project's own analysis of the same form elsewhere
+# A line may carry both. validate.py prints them as notes instead of failures — and
+# fails if the difference a note claims is not there, so they cannot go stale. The
+# analysis here is this project's own: the module is a reference, not an authority,
+# and the corpus is held to itself.
+#
+# Indeclinables take case and number from the syntax, as MorphGNT does, and gender
+# where there is one to take: a personal name, from the person; a numeral agreeing
+# with its noun; a common noun whose article shows it — but not an indeclinable place
+# name, which has none. A personal name the New Testament also uses takes MorphGNT's
+# dictionary form (Νῶε, Σήμ); every other Semitic name (Χαμ, Ιαφεθ), the form Rahlfs
+# prints.
+20:1 C- -------- Καὶ καί
+20:1 V- 3AAI-S-- ἐκίνησεν κινέω
+20:1 D- -------- ἐκεῖθεν ἐκεῖθεν
+20:1 N- ----NSM- Αβρααμ Ἀβραάμ
+20:1 P- -------- εἰς εἰς
+20:1 N- ----ASF- γῆν γῆ
+20:1 P- -------- πρὸς πρός
+20:1 N- ----ASM- λίβα λίψ
+20:1 C- -------- καὶ καί
+20:1 V- 3AAI-S-- ᾤκησεν οἰκέω
+20:1 P- -------- ἀνὰ ἀνά
+20:1 A- ----ASN- μέσον μέσος  # module ASM — with a genitive after it, the neuter used as a noun, as MorphGNT codes ἀνὰ μέσον
+20:1 N- ----GS-- Καδης Καδης
+20:1 C- -------- καὶ καί
+20:1 P- -------- ἀνὰ ἀνά
+20:1 A- ----ASN- μέσον μέσος  # module ASM — with a genitive after it, the neuter used as a noun, as MorphGNT codes ἀνὰ μέσον
+20:1 N- ----GS-- Σουρ Σουρ
+20:1 C- -------- καὶ καί
+20:1 V- 3AAI-S-- παρῴκησεν παροικέω
+20:1 P- -------- ἐν ἐν
+20:1 N- ----DPN- Γεραροις Γεραρα  # module no gender — Γεραρα declines here as a neuter plural, as Σόδομα does
+20:2 V- 3AAI-S-- εἶπεν λέγω  # module lemma ἔπω — λέγω keeps one dictionary form across both testaments
+20:2 C- -------- δὲ δέ
+20:2 N- ----NSM- Αβρααμ Ἀβραάμ
+20:2 P- -------- περὶ περί
+20:2 N- ----GSF- Σαρρας Σάρρα
+20:2 RA ----GSF- τῆς ὁ
+20:2 N- ----GSF- γυναικὸς γυνή
+20:2 RP ----GSM- αὐτοῦ αὐτός
+20:2 C- -------- ὅτι ὅτι
+20:2 N- ----NSF- Ἀδελφή ἀδελφή
+20:2 RP ----GS-- μού ἐγώ  # module lemma μου, the form itself — ἐγώ is the dictionary form
+20:2 V- 3PAI-S-- ἐστιν εἰμί
+20:2 V- 3API-S-- ἐφοβήθη φοβέομαι  # module lemma φοβέω — φοβέομαι, as MorphGNT files it
+20:2 C- -------- γὰρ γάρ
+20:2 V- -AAN---- εἰπεῖν λέγω  # module lemma ἔπω — λέγω keeps one dictionary form across both testaments
+20:2 C- -------- ὅτι ὅτι
+20:2 N- ----NSF- Γυνή γυνή
+20:2 RP ----GS-- μού ἐγώ  # module lemma μου, the form itself — ἐγώ is the dictionary form
+20:2 V- 3PAI-S-- ἐστιν εἰμί
+20:2 C- -------- μήποτε μήποτε
+20:2 V- 3AAS-P-- ἀποκτείνωσιν ἀποκτείνω
+20:2 RP ----ASM- αὐτὸν αὐτός
+20:2 RA ----NPM- οἱ ὁ
+20:2 N- ----NPM- ἄνδρες ἀνήρ
+20:2 RA ----GSF- τῆς ὁ
+20:2 N- ----GSF- πόλεως πόλις
+20:2 P- -------- διʼ διά
+20:2 RP ----ASF- αὐτήν αὐτός
+20:2 V- 3AAI-S-- ἀπέστειλεν ἀποστέλλω
+20:2 C- -------- δὲ δέ
+20:2 N- ----NSM- Αβιμελεχ Αβιμελεχ
+20:2 N- ----NSM- βασιλεὺς βασιλεύς
+20:2 N- ----GPN- Γεραρων Γεραρα  # module no gender — Γεραρα declines here as a neuter plural, as Σόδομα does
+20:2 C- -------- καὶ καί
+20:2 V- 3AAI-S-- ἔλαβεν λαμβάνω
+20:2 RA ----ASF- τὴν ὁ
+20:2 N- ----ASF- Σαρραν Σάρρα
+20:3 C- -------- καὶ καί
+20:3 V- 3AAI-S-- εἰσῆλθεν εἰσέρχομαι
+20:3 RA ----NSM- ὁ ὁ
+20:3 N- ----NSM- θεὸς θεός
+20:3 P- -------- πρὸς πρός
+20:3 N- ----ASM- Αβιμελεχ Αβιμελεχ
+20:3 P- -------- ἐν ἐν
+20:3 N- ----DSM- ὕπνῳ ὕπνος
+20:3 RA ----ASF- τὴν ὁ
+20:3 N- ----ASF- νύκτα νύξ
+20:3 C- -------- καὶ καί
+20:3 V- 3AAI-S-- εἶπεν λέγω  # module lemma ἔπω — λέγω keeps one dictionary form across both testaments
+20:3 X- -------- Ἰδοὺ ἰδού
+20:3 RP ----NS-- σὺ σύ
+20:3 V- 2PAI-S-- ἀποθνῄσκεις ἀποθνήσκω
+20:3 P- -------- περὶ περί
+20:3 RA ----GSF- τῆς ὁ
+20:3 N- ----GSF- γυναικός γυνή
+20:3 RR ----GSF- ἧς ὅς
+20:3 V- 2AAI-S-- ἔλαβες λαμβάνω
+20:3 RD ----NSF- αὕτη οὗτος
+20:3 C- -------- δέ δέ
+20:3 V- 3PAI-S-- ἐστιν εἰμί
+20:3 V- -XAPNSF- συνῳκηκυῖα συνοικέω
+20:3 N- ----DSM- ἀνδρί ἀνήρ
+20:4 N- ----NSM- Αβιμελεχ Αβιμελεχ
+20:4 C- -------- δὲ δέ
+20:4 D- -------- οὐχ οὐ
+20:4 V- 3AMI-S-- ἥψατο ἅπτω  # module lemma ἅπτομαι — ἅπτω, as MorphGNT files the middle
+20:4 RP ----GSF- αὐτῆς αὐτός
+20:4 C- -------- καὶ καί
+20:4 V- 3AAI-S-- εἶπεν λέγω  # module lemma ἔπω — λέγω keeps one dictionary form across both testaments
+20:4 N- ----VSM- Κύριε κύριος
+20:4 N- ----ASN- ἔθνος ἔθνος
+20:4 V- -PAPASN- ἀγνοοῦν ἀγνοέω
+20:4 C- -------- καὶ καί
+20:4 A- ----ASN- δίκαιον δίκαιος
+20:4 V- 2FAI-S-- ἀπολεῖς ἀπόλλυμι
+20:5 D- -------- οὐκ οὐ
+20:5 RP ----NSM- αὐτός αὐτός
+20:5 RP ----DS-- μοι ἐγώ  # module lemma μοι, the form itself — ἐγώ is the dictionary form
+20:5 V- 3AAI-S-- εἶπεν λέγω  # module lemma ἔπω — λέγω keeps one dictionary form across both testaments
+20:5 N- ----NSF- Ἀδελφή ἀδελφή
+20:5 RP ----GS-- μού ἐγώ  # module lemma μου, the form itself — ἐγώ is the dictionary form
+20:5 V- 3PAI-S-- ἐστιν εἰμί
+20:5 C- -------- καὶ καί
+20:5 RP ----NSF- αὐτή αὐτός
+20:5 RP ----DS-- μοι ἐγώ  # module lemma μοι, the form itself — ἐγώ is the dictionary form
+20:5 V- 3AAI-S-- εἶπεν λέγω  # module lemma ἔπω — λέγω keeps one dictionary form across both testaments
+20:5 N- ----NSM- Ἀδελφός ἀδελφός
+20:5 RP ----GS-- μού ἐγώ  # module lemma μου, the form itself — ἐγώ is the dictionary form
+20:5 V- 3PAI-S-- ἐστιν εἰμί
+20:5 P- -------- ἐν ἐν
+20:5 A- ----DSF- καθαρᾷ καθαρός
+20:5 N- ----DSF- καρδίᾳ καρδία
+20:5 C- -------- καὶ καί
+20:5 P- -------- ἐν ἐν
+20:5 N- ----DSF- δικαιοσύνῃ δικαιοσύνη
+20:5 N- ----GPF- χειρῶν χείρ
+20:5 V- 1AAI-S-- ἐποίησα ποιέω
+20:5 RD ----ASN- τοῦτο οὗτος
+20:6 V- 3AAI-S-- εἶπεν λέγω  # module lemma ἔπω — λέγω keeps one dictionary form across both testaments
+20:6 C- -------- δὲ δέ
+20:6 RP ----DSM- αὐτῷ αὐτός
+20:6 RA ----NSM- ὁ ὁ
+20:6 N- ----NSM- θεὸς θεός
+20:6 P- -------- καθʼ κατά
+20:6 N- ----ASM- ὕπνον ὕπνος
+20:6 RP ----NS-- Κἀγὼ κἀγώ
+20:6 V- 1AAI-S-- ἔγνων γινώσκω
+20:6 C- -------- ὅτι ὅτι
+20:6 P- -------- ἐν ἐν
+20:6 A- ----DSF- καθαρᾷ καθαρός
+20:6 N- ----DSF- καρδίᾳ καρδία
+20:6 V- 2AAI-S-- ἐποίησας ποιέω
+20:6 RD ----ASN- τοῦτο οὗτος
+20:6 C- -------- καὶ καί
+20:6 V- 1AMI-S-- ἐφεισάμην φείδομαι
+20:6 RP ----NS-- ἐγώ ἐγώ
+20:6 RP ----GS-- σου σύ  # module lemma σοῦ, the form itself — σύ is the dictionary form
+20:6 RA ----GSN- τοῦ ὁ
+20:6 D- -------- μὴ μή
+20:6 V- -AAN---- ἁμαρτεῖν ἁμαρτάνω
+20:6 RP ----AS-- σε σύ  # module lemma σέ, the form itself — σύ is the dictionary form
+20:6 P- -------- εἰς εἰς
+20:6 RP ----AS-- ἐμέ ἐγώ  # module lemma ἐμέ, the form itself — ἐγώ is the dictionary form
+20:6 P- -------- ἕνεκεν ἕνεκα
+20:6 RD ----GSN- τούτου οὗτος  # module GSM — the neuter, on account of this, as at 16:14
+20:6 D- -------- οὐκ οὐ
+20:6 V- 1AAI-S-- ἀφῆκά ἀφίημι
+20:6 RP ----AS-- σε σύ  # module lemma σέ, the form itself — σύ is the dictionary form
+20:6 V- -AMN---- ἅψασθαι ἅπτω  # module lemma ἅπτομαι — ἅπτω, as MorphGNT files the middle
+20:6 RP ----GSF- αὐτῆς αὐτός
+20:7 D- -------- νῦν νῦν
+20:7 C- -------- δὲ δέ
+20:7 V- 2AAD-S-- ἀπόδος ἀποδίδωμι
+20:7 RA ----ASF- τὴν ὁ
+20:7 N- ----ASF- γυναῖκα γυνή
+20:7 RA ----DSM- τῷ ὁ
+20:7 N- ----DSM- ἀνθρώπῳ ἄνθρωπος
+20:7 C- -------- ὅτι ὅτι
+20:7 N- ----NSM- προφήτης προφήτης
+20:7 V- 3PAI-S-- ἐστὶν εἰμί
+20:7 C- -------- καὶ καί
+20:7 V- 3FMI-S-- προσεύξεται προσεύχομαι
+20:7 P- -------- περὶ περί
+20:7 RP ----GS-- σοῦ σύ  # module lemma σοῦ, the form itself — σύ is the dictionary form
+20:7 C- -------- καὶ καί
+20:7 V- 2FMI-S-- ζήσῃ ζάω
+20:7 C- -------- εἰ εἰ
+20:7 C- -------- δὲ δέ
+20:7 D- -------- μὴ μή
+20:7 V- 2PAI-S-- ἀποδίδως ἀποδίδωμι
+20:7 V- 2AAD-S-- γνῶθι γινώσκω
+20:7 C- -------- ὅτι ὅτι
+20:7 V- 2FMI-S-- ἀποθανῇ ἀποθνήσκω
+20:7 RP ----NS-- σὺ σύ
+20:7 C- -------- καὶ καί
+20:7 A- ----NPN- πάντα πᾶς
+20:7 RA ----NPN- τὰ ὁ
+20:7 A- ----NPN- σά σός
+20:8 C- -------- καὶ καί
+20:8 V- 3AAI-S-- ὤρθρισεν ὀρθρίζω
+20:8 N- ----NSM- Αβιμελεχ Αβιμελεχ
+20:8 RA ----ASN- τὸ ὁ
+20:8 D- -------- πρωὶ πρωΐ
+20:8 C- -------- καὶ καί
+20:8 V- 3AAI-S-- ἐκάλεσεν καλέω
+20:8 A- ----APM- πάντας πᾶς
+20:8 RA ----APM- τοὺς ὁ
+20:8 N- ----APM- παῖδας παῖς
+20:8 RP ----GSM- αὐτοῦ αὐτός
+20:8 C- -------- καὶ καί
+20:8 V- 3AAI-S-- ἐλάλησεν λαλέω
+20:8 A- ----APN- πάντα πᾶς
+20:8 RA ----APN- τὰ ὁ
+20:8 N- ----APN- ῥήματα ῥῆμα
+20:8 RD ----APN- ταῦτα οὗτος
+20:8 P- -------- εἰς εἰς
+20:8 RA ----APN- τὰ ὁ
+20:8 N- ----APN- ὦτα οὖς
+20:8 RP ----GPM- αὐτῶν αὐτός
+20:8 V- 3API-P-- ἐφοβήθησαν φοβέομαι  # module lemma φοβέω — φοβέομαι, as MorphGNT files it
+20:8 C- -------- δὲ δέ
+20:8 A- ----NPM- πάντες πᾶς
+20:8 RA ----NPM- οἱ ὁ
+20:8 N- ----NPM- ἄνθρωποι ἄνθρωπος
+20:8 D- -------- σφόδρα σφόδρα
+20:9 C- -------- καὶ καί
+20:9 V- 3AAI-S-- ἐκάλεσεν καλέω
+20:9 N- ----NSM- Αβιμελεχ Αβιμελεχ
+20:9 RA ----ASM- τὸν ὁ
+20:9 N- ----ASM- Αβρααμ Ἀβραάμ  # module NSM — the accusative, after τόν
+20:9 C- -------- καὶ καί
+20:9 V- 3AAI-S-- εἶπεν λέγω  # module lemma ἔπω — λέγω keeps one dictionary form across both testaments
+20:9 RP ----DSM- αὐτῷ αὐτός
+20:9 RI ----ASN- Τί τίς
+20:9 RD ----ASN- τοῦτο οὗτος
+20:9 V- 2AAI-S-- ἐποίησας ποιέω
+20:9 RP ----DP-- ἡμῖν ἐγώ  # module lemma ἡμῖν, the form itself — ἐγώ is the dictionary form
+20:9 X- -------- μή μή
+20:9 RI ----ASN- τι τις
+20:9 V- 1AAI-P-- ἡμάρτομεν ἁμαρτάνω
+20:9 P- -------- εἰς εἰς
+20:9 RP ----AS-- σέ σύ  # module lemma σέ, the form itself — σύ is the dictionary form
+20:9 C- -------- ὅτι ὅτι
+20:9 V- 2AAI-S-- ἐπήγαγες ἐπάγω
+20:9 P- -------- ἐπʼ ἐπί
+20:9 RP ----AS-- ἐμὲ ἐγώ  # module lemma ἐμέ, the form itself — ἐγώ is the dictionary form
+20:9 C- -------- καὶ καί
+20:9 P- -------- ἐπὶ ἐπί
+20:9 RA ----ASF- τὴν ὁ
+20:9 N- ----ASF- βασιλείαν βασιλεία
+20:9 RP ----GS-- μου ἐγώ  # module lemma μου, the form itself — ἐγώ is the dictionary form
+20:9 N- ----ASF- ἁμαρτίαν ἁμαρτία
+20:9 A- ----ASF- μεγάλην μέγας
+20:9 N- ----ASN- ἔργον ἔργον
+20:9 RR ----ASN- ὃ ὅς
+20:9 A- ----NSM- οὐδεὶς οὐδείς
+20:9 V- 3FAI-S-- ποιήσει ποιέω
+20:9 V- 2XAI-S-- πεποίηκάς ποιέω
+20:9 RP ----DS-- μοι ἐγώ  # module lemma μοι, the form itself — ἐγώ is the dictionary form
+20:10 V- 3AAI-S-- εἶπεν λέγω  # module lemma ἔπω — λέγω keeps one dictionary form across both testaments
+20:10 C- -------- δὲ δέ
+20:10 N- ----NSM- Αβιμελεχ Αβιμελεχ
+20:10 RA ----DSM- τῷ ὁ
+20:10 N- ----DSM- Αβρααμ Ἀβραάμ
+20:10 RI ----ASN- Τί τίς
+20:10 V- -AAPNSM- ἐνιδὼν ἐνοράω  # module lemma ἐνεῖδον — ἐνοράω, as ἐπιδών at 16:13 is filed under ἐφοράω
+20:10 V- 2AAI-S-- ἐποίησας ποιέω
+20:10 RD ----ASN- τοῦτο οὗτος
+20:11 V- 3AAI-S-- εἶπεν λέγω  # module lemma ἔπω — λέγω keeps one dictionary form across both testaments
+20:11 C- -------- δὲ δέ
+20:11 N- ----NSM- Αβρααμ Ἀβραάμ
+20:11 V- 1AAI-S-- Εἶπα λέγω  # module lemma ἔπω — λέγω keeps one dictionary form across both testaments
+20:11 C- -------- γάρ γάρ
+20:11 C- -------- Ἄρα ἄρα
+20:11 D- -------- οὐκ οὐ
+20:11 V- 3PAI-S-- ἔστιν εἰμί
+20:11 N- ----NSF- θεοσέβεια θεοσέβεια
+20:11 P- -------- ἐν ἐν
+20:11 RA ----DSM- τῷ ὁ
+20:11 N- ----DSM- τόπῳ τόπος
+20:11 RD ----DSM- τούτῳ οὗτος
+20:11 RP ----AS-- ἐμέ ἐγώ  # module lemma ἐμέ, the form itself — ἐγώ is the dictionary form
+20:11 C- -------- τε τε
+20:11 V- 3FAI-P-- ἀποκτενοῦσιν ἀποκτείνω
+20:11 P- -------- ἕνεκεν ἕνεκα
+20:11 RA ----GSF- τῆς ὁ
+20:11 N- ----GSF- γυναικός γυνή
+20:11 RP ----GS-- μου ἐγώ  # module lemma μου, the form itself — ἐγώ is the dictionary form
+20:12 D- -------- καὶ καί
+20:12 C- -------- γὰρ γάρ
+20:12 D- -------- ἀληθῶς ἀληθῶς
+20:12 N- ----NSF- ἀδελφή ἀδελφή
+20:12 RP ----GS-- μού ἐγώ  # module lemma μου, the form itself — ἐγώ is the dictionary form
+20:12 V- 3PAI-S-- ἐστιν εἰμί
+20:12 P- -------- ἐκ ἐκ
+20:12 N- ----GSM- πατρός πατήρ
+20:12 C- -------- ἀλλʼ ἀλλά
+20:12 D- -------- οὐκ οὐ
+20:12 P- -------- ἐκ ἐκ
+20:12 N- ----GSF- μητρός μήτηρ
+20:12 V- 3API-S-- ἐγενήθη γίνομαι
+20:12 C- -------- δέ δέ
+20:12 RP ----DS-- μοι ἐγώ  # module lemma μοι, the form itself — ἐγώ is the dictionary form
+20:12 P- -------- εἰς εἰς
+20:12 N- ----ASF- γυναῖκα γυνή
+20:13 V- 3AMI-S-- ἐγένετο γίνομαι
+20:13 C- -------- δὲ δέ
+20:13 C- -------- ἡνίκα ἡνίκα
+20:13 V- 3AAI-S-- ἐξήγαγέν ἐξάγω
+20:13 RP ----AS-- με ἐγώ  # module lemma μέ, the form itself — ἐγώ is the dictionary form
+20:13 RA ----NSM- ὁ ὁ
+20:13 N- ----NSM- θεὸς θεός
+20:13 P- -------- ἐκ ἐκ
+20:13 RA ----GSM- τοῦ ὁ
+20:13 N- ----GSM- οἴκου οἶκος
+20:13 RA ----GSM- τοῦ ὁ
+20:13 N- ----GSM- πατρός πατήρ
+20:13 RP ----GS-- μου ἐγώ  # module lemma μου, the form itself — ἐγώ is the dictionary form
+20:13 C- -------- καὶ καί
+20:13 V- 1AAI-S-- εἶπα λέγω  # module lemma ἔπω — λέγω keeps one dictionary form across both testaments
+20:13 RP ----DSF- αὐτῇ αὐτός
+20:13 RD ----ASF- Ταύτην οὗτος
+20:13 RA ----ASF- τὴν ὁ
+20:13 N- ----ASF- δικαιοσύνην δικαιοσύνη
+20:13 V- 2FAI-S-- ποιήσεις ποιέω
+20:13 P- -------- ἐπʼ ἐπί
+20:13 RP ----AS-- ἐμέ ἐγώ  # module lemma ἐμέ, the form itself — ἐγώ is the dictionary form
+20:13 P- -------- εἰς εἰς
+20:13 A- ----ASM- πάντα πᾶς
+20:13 N- ----ASM- τόπον τόπος
+20:13 D- -------- οὗ οὗ
+20:13 X- -------- ἐὰν ἐάν
+20:13 V- 1AAS-P-- εἰσέλθωμεν εἰσέρχομαι
+20:13 D- -------- ἐκεῖ ἐκεῖ
+20:13 V- 2AAD-S-- εἰπὸν λέγω  # module lemma ἔπω — λέγω keeps one dictionary form across both testaments
+20:13 RP ----AS-- ἐμὲ ἐγώ  # module lemma ἐμέ, the form itself — ἐγώ is the dictionary form
+20:13 C- -------- ὅτι ὅτι
+20:13 N- ----NSM- Ἀδελφός ἀδελφός
+20:13 RP ----GS-- μού ἐγώ  # module lemma μου, the form itself — ἐγώ is the dictionary form
+20:13 V- 3PAI-S-- ἐστιν εἰμί
+20:14 V- 3AAI-S-- ἔλαβεν λαμβάνω
+20:14 C- -------- δὲ δέ
+20:14 N- ----NSM- Αβιμελεχ Αβιμελεχ
+20:14 A- ----APN- χίλια χίλιοι
+20:14 N- ----APN- δίδραχμα δίδραχμον
+20:14 N- ----APN- πρόβατα πρόβατον
+20:14 C- -------- καὶ καί
+20:14 N- ----APM- μόσχους μόσχος
+20:14 C- -------- καὶ καί
+20:14 N- ----APM- παῖδας παῖς
+20:14 C- -------- καὶ καί
+20:14 N- ----APF- παιδίσκας παιδίσκη
+20:14 C- -------- καὶ καί
+20:14 V- 3AAI-S-- ἔδωκεν δίδωμι
+20:14 RA ----DSM- τῷ ὁ
+20:14 N- ----DSM- Αβρααμ Ἀβραάμ
+20:14 C- -------- καὶ καί
+20:14 V- 3AAI-S-- ἀπέδωκεν ἀποδίδωμι
+20:14 RP ----DSM- αὐτῷ αὐτός
+20:14 N- ----ASF- Σαρραν Σάρρα
+20:14 RA ----ASF- τὴν ὁ
+20:14 N- ----ASF- γυναῖκα γυνή
+20:14 RP ----GSM- αὐτοῦ αὐτός
+20:15 C- -------- καὶ καί
+20:15 V- 3AAI-S-- εἶπεν λέγω  # module lemma ἔπω — λέγω keeps one dictionary form across both testaments
+20:15 N- ----NSM- Αβιμελεχ Αβιμελεχ
+20:15 RA ----DSM- τῷ ὁ
+20:15 N- ----DSM- Αβρααμ Ἀβραάμ
+20:15 X- -------- Ἰδοὺ ἰδού
+20:15 RA ----NSF- ἡ ὁ
+20:15 N- ----NSF- γῆ γῆ
+20:15 RP ----GS-- μου ἐγώ  # module lemma μου, the form itself — ἐγώ is the dictionary form
+20:15 P- -------- ἐναντίον ἐναντίον
+20:15 RP ----GS-- σου σύ  # module lemma σοῦ, the form itself — σύ is the dictionary form
+20:15 D- -------- οὗ οὗ
+20:15 X- -------- ἐάν ἐάν
+20:15 RP ----DS-- σοι σύ  # module lemma σοί, the form itself — σύ is the dictionary form
+20:15 V- 3PAS-S-- ἀρέσκῃ ἀρέσκω
+20:15 V- 2PAD-S-- κατοίκει κατοικέω
+20:16 RA ----DSF- τῇ ὁ
+20:16 C- -------- δὲ δέ
+20:16 N- ----DSF- Σαρρα Σάρρα
+20:16 V- 3AAI-S-- εἶπεν λέγω  # module lemma ἔπω — λέγω keeps one dictionary form across both testaments
+20:16 X- -------- Ἰδοὺ ἰδού
+20:16 V- 1XAI-S-- δέδωκα δίδωμι
+20:16 A- ----APN- χίλια χίλιοι
+20:16 N- ----APN- δίδραχμα δίδραχμον
+20:16 RA ----DSM- τῷ ὁ
+20:16 N- ----DSM- ἀδελφῷ ἀδελφός
+20:16 RP ----GS-- σου σύ  # module lemma σοῦ, the form itself — σύ is the dictionary form
+20:16 RD ----NPN- ταῦτα οὗτος
+20:16 V- 3FMI-S-- ἔσται εἰμί
+20:16 RP ----DS-- σοι σύ  # module lemma σοί, the form itself — σύ is the dictionary form
+20:16 P- -------- εἰς εἰς
+20:16 N- ----ASF- τιμὴν τιμή
+20:16 RA ----GSN- τοῦ ὁ
+20:16 N- ----GSN- προσώπου πρόσωπον
+20:16 RP ----GS-- σου σύ  # module lemma σοῦ, the form itself — σύ is the dictionary form
+20:16 C- -------- καὶ καί
+20:16 A- ----DPF- πάσαις πᾶς
+20:16 RA ----DPF- ταῖς ὁ
+20:16 P- -------- μετὰ μετά
+20:16 RP ----GS-- σοῦ σύ  # module lemma σοῦ, the form itself — σύ is the dictionary form
+20:16 C- -------- καὶ καί
+20:16 A- ----APN- πάντα πᾶς  # module ASM — neuter plural, in all things
+20:16 V- 2AAD-S-- ἀλήθευσον ἀληθεύω
+20:17 V- 3AMI-S-- προσηύξατο προσεύχομαι
+20:17 C- -------- δὲ δέ
+20:17 N- ----NSM- Αβρααμ Ἀβραάμ
+20:17 P- -------- πρὸς πρός
+20:17 RA ----ASM- τὸν ὁ
+20:17 N- ----ASM- θεόν θεός
+20:17 C- -------- καὶ καί
+20:17 V- 3AMI-S-- ἰάσατο ἰάομαι
+20:17 RA ----NSM- ὁ ὁ
+20:17 N- ----NSM- θεὸς θεός
+20:17 RA ----ASM- τὸν ὁ
+20:17 N- ----ASM- Αβιμελεχ Αβιμελεχ
+20:17 C- -------- καὶ καί
+20:17 RA ----ASF- τὴν ὁ
+20:17 N- ----ASF- γυναῖκα γυνή
+20:17 RP ----GSM- αὐτοῦ αὐτός
+20:17 C- -------- καὶ καί
+20:17 RA ----APF- τὰς ὁ
+20:17 N- ----APF- παιδίσκας παιδίσκη
+20:17 RP ----GSM- αὐτοῦ αὐτός
+20:17 C- -------- καὶ καί
+20:17 V- 3AAI-P-- ἔτεκον τίκτω
+20:18 C- -------- ὅτι ὅτι
+20:18 V- -PAPNSM- συγκλείων συγκλείω
+20:18 V- 3AAI-S-- συνέκλεισεν συγκλείω
+20:18 N- ----NSM- κύριος κύριος
+20:18 D- -------- ἔξωθεν ἔξωθεν
+20:18 A- ----ASF- πᾶσαν πᾶς
+20:18 N- ----ASF- μήτραν μήτρα
+20:18 P- -------- ἐν ἐν
+20:18 RA ----DSM- τῷ ὁ
+20:18 N- ----DSM- οἴκῳ οἶκος
+20:18 RA ----GSM- τοῦ ὁ
+20:18 N- ----GSM- Αβιμελεχ Αβιμελεχ
+20:18 P- -------- ἕνεκεν ἕνεκα
+20:18 N- ----GSF- Σαρρας Σάρρα
+20:18 RA ----GSF- τῆς ὁ
+20:18 N- ----GSF- γυναικὸς γυνή
+20:18 N- ----GSM- Αβρααμ Ἀβραάμ

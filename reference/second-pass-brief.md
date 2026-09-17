@@ -199,6 +199,11 @@ first pass's πλατεῖα stays MorphGNT's lemma, not πλατύς; πρεσ�
 settled at 18:11; adverbial μόνον stays `A- ----ASN- μόνος`, as MorphGNT has it at Matt 8:8; and μή at
 19:9 stays `D-`. εἰσεσπάσαντο is filed under LSJ's εἰσσπάομαι, as neither pass had it.
 
+### What it found in Genesis 20
+
+One disagreement over 426 words. The second pass tagged Ἄρα at 20:11 a particle, `X-`; the first
+kept it with the conjunctions, `C-`, as MorphGNT files ἄρα forty-six times in forty-nine.
+
 ## The brief
 
 Copy everything below the rule into a new agent. Replace `<BOOK NAME>`, `<CHAPTER>`,

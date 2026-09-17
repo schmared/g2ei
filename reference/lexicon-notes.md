@@ -192,7 +192,7 @@ GEN 9 adds ὀπισθοφανής, *seen from behind*, and its adverb ὀπισ
 ἔτασις, *trial, affliction*. GEN 14 adds ἁλυκός, *salt, brackish*; ἀποσκευή, whose *removal,
 riddance* comes before *baggage*; σφαιρωτήρ, *thong, latchet*; and περάτης, which opens "= πορθμεύς",
 so that πορθμεύς's LSJ senses, *ferryman*, *boatman, seaman*, *conveyer*, stand before its own
-*wanderer, emigrant*, as ἁγίζω's stand for ἁγιάζω. GEN 15 adds ὑπερασπίζω, *cover with a shield*, from the upsilon file; τριετίζω, *to be three years old*; and διχοτόμημα, *half of a thing cut in two*. GEN 17 adds κατάσχεσις, *holding back, restraining, retention*, then *possession*, from the kappa file; and ἑκατονταέτης, *of a hundred years*, *years old*, citing 17:17. GEN 18 adds μοσχάριον, *little calf*, and, from the beta file, βούτυρον, *butter*, then *a plant*. GEN 19 adds προσοίγνυμι, *shut*; ἀορασία, *inability to see, blindness*; γελοιάζω, *jest*, from the gamma file; ἐπαύριον, *on the morrow*; and εἰσσπάομαι, *draw into oneself*.
+*wanderer, emigrant*, as ἁγίζω's stand for ἁγιάζω. GEN 15 adds ὑπερασπίζω, *cover with a shield*, from the upsilon file; τριετίζω, *to be three years old*; and διχοτόμημα, *half of a thing cut in two*. GEN 17 adds κατάσχεσις, *holding back, restraining, retention*, then *possession*, from the kappa file; and ἑκατονταέτης, *of a hundred years*, *years old*, citing 17:17. GEN 18 adds μοσχάριον, *little calf*, and, from the beta file, βούτυρον, *butter*, then *a plant*. GEN 19 adds προσοίγνυμι, *shut*; ἀορασία, *inability to see, blindness*; γελοιάζω, *jest*, from the gamma file; ἐπαύριον, *on the morrow*; and εἰσσπάομαι, *draw into oneself*. GEN 20 adds μήτρα, *womb*, whose Middle Liddell entry tags only Latin; δίδραχμον, *coin of two drachms*, under δίδραχμος; and κἀγώ, *crasis for καὶ ἐγώ*.
 <!-- LSJ sentences above -->
 
 GEN 9 also files ἐμεθύσθη under μεθύσκω, *to make drunk*, where Middle Liddell gives its aorist
@@ -592,6 +592,84 @@ the same ground as `the sixth` and `the seventh`: one sense each, so no range to
   settling in` (10:30); δύο `two`; υἱός `sons`.
 - The article before a people's name (τοὺς Λουδιιμ, τὸν Χετταῖον, τῶν Χαναναίων) is not printed,
   as before a person's name.
+
+### Words new in GEN 20
+
+- κἀγώ — LSJ gives the crasis no gloss, only *crasis for καὶ ἐγώ*; the two words' senses stand,
+  `and I`, plain. 20:6.
+- μήτρα — Middle Liddell tags nothing but the Latin *matrix*, so LSJ's senses stand, first *womb*.
+  20:18.
+- δίδραχμον — no Middle Liddell entry; LSJ files it under δίδραχμος, *coin of two drachms*,
+  *half-shekel*. 20:14, 20:16.
+- προφήτης — its first appearance in the Greek Bible; Middle Liddell is first *one who speaks for a
+  God and interprets his will to man, a prophet*, with the New Testament's *an inspired preacher and
+  teacher*, *the revealer of God's counsel for the future* last. 20:7.
+- The perfect participle with the formula — συνῳκηκυῖα `having dwelt together and standing so`
+  (20:3); the perfect πεποίηκας `you have made and it stands made` (20:9).
+- ἐν καθαρᾷ καρδίᾳ — ἐν joined to the adjective, καθαρός, the chain of GEN 7:2; καρδία anarthrous
+  drops the lexicon's *the*, as γαστήρ at 16:4. 20:5, 20:6.
+- τὰ σά — the chain of GEN 14:23, `the thy property`, with the article. 20:7.
+- One sense each in GEN 20, so plain text: λίψ `south-west wind` (20:1); ἀδελφή `sister` (20:2,
+  20:5, 20:12); χίλιοι `a thousand` (20:14, 20:16); ἀληθεύω `speak truth` (20:16).
+
+| lemma | headword | chain | used |
+| --- | --- | --- | --- |
+| βασιλεία | `the kingdom` | `the kingdom, the dominion, the hereditary monarchy` | 20:9 |
+| γινώσκω | `I learned to know` | `I learned to know, I perceived, I marked, I learned, I discerned and distinguished` | 20:6 |
+| γινώσκω | `learn to know` | `learn to know, perceive, mark, learn, discern and distinguish` | 20:7 |
+| δίδραχμον | `coins of two drachms` | `coins of two drachms, half-shekels` | 20:14, 20:16 |
+| δικαιοσύνη, with ἐν | `in righteousness` | `within, inside of, and by means of righteousness, justice` | 20:5 |
+| εἰσέρχομαι | `we may go in` | `we may go in, we may go into and enter, we may come into, we may come in, we may come upon` | 20:13 |
+| ζάω | `you will live` | `you will live, you will be in full life and strength, you will be fresh and strong` | 20:7 |
+| θεοσέβεια | `the service of God` | `the service of God, the fear of God, religiousness` | 20:11 |
+| καθαρός, with ἐν | `in clear of dirt` | `within, inside of, and by means of clear of dirt, clean and spotless and unsoiled, clear and open and free, clear from shame and pollution and pure, clear of admixture, genuine` | 20:5, 20:6 |
+| καρδία | `heart` | `heart, stomach` | 20:5, 20:6 |
+| κατοικέω | `dwell in` | `dwell in, settle in, colonise, inhabit, settle and dwell, lie and be situate` | 20:15 |
+| κινέω | `set in motion` | `set in motion, moved, removed, meddled with, applied, changed and innovated, roused and disturbed, stirred up and aroused and urged on, set agoing and caused and called` | 20:1 |
+| λέγω | `I said` | `I said, I spoke, I declared, I called by name, I told` | 20:11, 20:13 |
+| λέγω | `to say` | `to say, to speak, to declare, to call by name, to tell` | 20:2 |
+| λαμβάνω | `you took` | `you took, you received, you took hold of and grasped and seized` | 20:3 |
+| μήτηρ | `of mother` | `of mother, of dam, of source` | 20:12 |
+| μήτρα | `womb` | `womb, the cervix including the orifice of the womb, matrix, source and origin, core and heart-wood, diseased condition, queen-wasp` | 20:18 |
+| οὖς | `the ears` | `the ears, the handles` | 20:8 |
+| παιδίσκη | `the young girls` | `the young girls, the maidens, the young slaves, the courtesans` | 20:17 |
+| παροικέω | `dwelt beside` | `dwelt beside, dwelt along the coast of, lived near, dwelt among, lay near, lived in and sojourned` | 20:1 |
+| πατήρ | `of father` | `of father, of grandfather` | 20:12 |
+| ποιέω | `will make` | `will make, will do, will produce, will create` | 20:9 |
+| ποιέω | `you have made` | `you have made and it stands made, you have done and it stands done, you have produced and it stands produced, you have created and it stands created` | 20:9 |
+| προσεύχομαι | `offered prayers` | `offered prayers and vows, addressed in prayer, offered prayers and worshipped, prayed for` | 20:17 |
+| προσεύχομαι | `will offer prayers` | `will offer prayers and vows, will address in prayer, will offer prayers and worship, will pray for` | 20:7 |
+| προφήτης | `one who speaks for a God and interprets his will` | `one who speaks for a God and interprets his will, a prophet, an interpreter and declarer, an inspired preacher and teacher, the revealer of God's counsel for the future, a predicter of future events` | 20:7 |
+| συγκλείω | `shutting` | `shutting and cooping up and hemming in and enclosing, setting together to fight as in the lists, shutting close and closing, locking, closing up, being well linked` | 20:18 |
+| συνοικέω | `having dwelt together` | `having dwelt together and standing so, having lived with and standing so, having lived together and cohabited and standing so, having clung closely and standing so, having colonised jointly with and standing so` | 20:3 |
+| σός | `the thy property` | `the thy property, the thy interests, the thy and thine and of thee` | 20:7 |
+| τιμή | `that which is paid in token of worth` | `that which is paid in token of worth and value, worship and esteem and honour, honour and dignity and lordship, the prerogative, a dignity and office and magistracy, an authority and magistracy, a present of honour and offering, a reward and present, worth and value and price, payment, an estimate, compensation, the penalty, a valuation` | 20:16 |
+| τόπος | `place` | `place, local circumstances, position, passage in a book, topic, common-place, occasion and opportunity` | 20:13 |
+| τόπος, with ἐν | `in the place` | `within, inside of, and by means of the place, the local circumstances, the position, the passage in a book, the topic, the common-place, the occasion and opportunity` | 20:11 |
+| φείδομαι | `I spared` | `I spared, I did not destroy, I was merciful, I refrained from using and used sparingly, I was sparing and was thrifty and lived thriftily, I drew back from, I ceased, I forbore` | 20:6 |
+| φοβέομαι | `were put to flight` | `were put to flight, fled affrighted, fled, were seized with fear, were affrighted, feared` | 20:8 |
+| χείρ | `of hands` | `of hands, of hands and arms, of arms` | 20:5 |
+| ἀγνοέω | `not perceiving` | `not perceiving, not knowing, being ignorant of, going wrong and making a false step` | 20:4 |
+| ἀδελφός | `son of the same mother` | `a son of the same mother, a brother, a near kinsman` | 20:5, 20:13 |
+| ἀνήρ | `to a man` | `to a man, to a man in the prime of life` | 20:3 |
+| ἀποδίδωμι | `gave up` | `gave up, gave back, restored, returned, rendered what is due and paid, returned and rendered and yielded, suffered and allowed, rendered, delivered over and gave up, delivered, rendered and gave in, gave an account of, increased` | 20:14 |
+| ἀποδίδωμι | `give up` | `give up, give back, restore, return, render what is due and pay, return and render and yield, suffer and allow, render, deliver over and give up, deliver, render and give in, give an account of, increase` | 20:7 |
+| ἀποδίδωμι | `you give up` | `you give up, you give back, you restore, you return, you render what is due and pay, you return and render and yield, you suffer and allow, you render, you deliver over and give up, you deliver, you render and give in, you give an account of, you increase` | 20:7 |
+| ἀποθνήσκω | `you die off` | `you die off, you die, you are put to death, you are slain` | 20:3 |
+| ἀποκτείνω | `they may kill` | `they may kill, they may slay, they may condemn to death` | 20:2 |
+| ἀφίημι | `I sent forth` | `I sent forth, I discharged, I sent away and let go, I set free, I released` | 20:6 |
+| ἁμαρτάνω | `to miss the mark` | `to miss the mark, to fail of one's purpose, to go wrong, to err, to sin` | 20:6 |
+| ἁμαρτάνω | `we missed the mark` | `we missed the mark, we failed of our purpose, we went wrong, we erred, we sinned` | 20:9 |
+| ἁμαρτία | `a failure` | `a failure, a fault and sin, guilt and sin` | 20:9 |
+| ἄνθρωπος | `to the man` | `to the man, to the human being` | 20:7 |
+| ἅπτω | `fastened himself to` | `fastened himself to, clung to, hung on by, laid hold of, grasped, touched` | 20:4 |
+| ἅπτω | `to fasten oneself to` | `to fasten oneself to, to cling to, to hang on by, to lay hold of, to grasp, to touch` | 20:6 |
+| ἐνοράω | `having seen` | `having seen, having remarked, having observed, having looked at and upon` | 20:10 |
+| ἐπάγω | `you brought on` | `you brought on, you brought upon, you set on and urged on, you led on, you brought in and invited, you brought to, you laid on and applied, you brought forward, you added` | 20:9 |
+| ἔργον | `work` | `work, business, deeds, action, works of industry and tilled lands` | 20:9 |
+| ἰάομαι | `healed` | `healed, cured` | 20:17 |
+| ὕπνος | `sleep` | `sleep, slumber, the sleep of death, Sleep` | 20:6 |
+| ὕπνος, with ἐν | `in sleep` | `within, inside of, and by means of sleep, slumber, the sleep of death, Sleep` | 20:3 |
 
 ### Words new in GEN 19
 
@@ -3205,6 +3283,9 @@ Greek makes it a woman's, the mother of Eliezer, whom it calls Δαμασκὸς
 | Μωαβιτῶν | Mōabitōn | Moabites | `(Μωαβῖται, the people of Μωαβ, Moab)` |
 | Αμμαν | Amman | Ammon | `(Αμμαν, for Hebrew Ben-ʿammî, "son of my people")` |
 | Αμμανιτῶν | Ammanitōn | Ammonites | `(Αμμανῖται, the people of Αμμαν, for Hebrew bĕnê-ʿammôn, the sons of Ammon)` |
+
+| Γεραροις | Gerarois | Gerar | `(Γεραρα, from Hebrew Gĕrār, of uncertain meaning)` |
+| Αβιμελεχ | Abimelech | Abimelech | `(Αβιμελεχ, from Hebrew ʾĂbîmelek, "my father is king")` |
 <!-- name rows above -->
 
 Σύγχυσις translates the name where 10:10 gave the city its Greek name, Βαβυλών; as with Ζωή at

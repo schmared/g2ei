@@ -154,6 +154,15 @@ LSJ = {
     "γελοιάζω": ["jest"],
     "ἐπαύριον": ["on the morrow"],
     "εἰσσπάομαι": ["draw into oneself"],
+    # Middle Liddell tags nothing in μήτρα but the Latin "matrix", and has no δίδραχμον or κἀγώ.
+    # LSJ (eng13): μήτρα, "womb", "the cervix including the orifice of the womb", a swine's
+    # "matrix", "source, origin", "core, heart-wood", "diseased condition", "queen-wasp". LSJ (eng4):
+    # δίδραχμον, under δίδραχμος, "coin of two drachms", "half-shekel". LSJ (eng11): κἀγώ, "crasis
+    # for καὶ ἐγώ", which glosses nothing; the senses are καί's first and the pronoun's.
+    "μήτρα": ["womb", "the cervix including the orifice of the womb", "matrix", "source, origin",
+              "core, heart-wood", "diseased condition", "queen-wasp"],
+    "δίδραχμον": ["coin of two drachms", "half-shekel"],
+    "κἀγώ": ["and I"],
 }
 
 # New Testament books: MorphGNT file and its book number.
@@ -536,6 +545,14 @@ NOT_SENSES = {
     "ou)dei/s": {"ne ullus"},                   # Latin
     "deu=ro": {"to (have come hither and) be here"},  # an explanation
     "e)/leos": {"pity for . ."},                # a construction
+    # GEN 20
+    "ou)=s": {"in the ear"},                     # a piece of an example
+    "e)nora/w": {"in", "he saw"},               # pieces of examples
+    "a)gnoe/w": {"not recognising", "he perceived", "knew well", "learn all", "ignorantly, by mistake"},  # pieces of examples, the adverb
+    "a)lhqeu/w": {"he was right about", "to prove"},  # pieces of examples
+    "u(/pnos": {"in sleep"},                    # a piece of an example
+    "profh/ths": {"interpreter", "interpreters"},  # pieces of examples
+    "sunoike/w": {"marriage", "he is associated", "being versed", "are associated"},  # pieces of examples
 }
 
 # An entry that divides its senses by tense and voice, so that which of them belong to a
