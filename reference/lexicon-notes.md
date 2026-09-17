@@ -56,12 +56,14 @@ consulted.
    *cattle, flocks* and, in Attic, *sheep*. The chain carries the rest, and the notes say
    where the verse's meaning stands in the entry.
 
-   A passive or middle form takes the first gloss the entry gives *that voice*, where it gives
-   one: φθείρω is *to ruin* and its passive *to go to ruin*, so GEN 6:11 ἐφθάρη is *went to
-   ruin*; πίμπλημι's passive is *to be filled*; τρέφω's first sense is *to thicken* or *congeal*
-   a liquid, with the passive *to become firm*, so τρέφεσθαι at 6:20 is *to become firm*, and the
-   active τρέφῃς at 6:19 *you may thicken*. Where the entry gives the voice no gloss of its own,
-   the first sense is put into the form's voice, as ἀφορίζω is at 2:10 and εὑρίσκω at 2:20.
+   A passive or middle form takes the first sense in its own voice: κρύπτω, *to hide*, is *were
+   hidden* at GEN 3:8, and φθείρω, *to ruin*, *was ruined* at 6:11. Where the entry also gives the
+   passive a translation of its own — κρύπτω's *to hide oneself, lie hidden*, φθείρω's *to go to
+   ruin*, πληθύνω's *to prevail* — that translation is the lexicon adding a reading, and it goes
+   in the chain, not the headword. GEN 6 and 7 first took it for the headword (*went to ruin*,
+   *to become firm*, *were open*); they were put back when GEN 8 found the two rules side by side.
+   A verb filed under its middle (ἐκπορεύομαι, πορεύομαι, φοβέομαι) is different: its active
+   glosses belong to another word's use and are skipped by name, as above.
 3. **Form.** Tense, voice, mood, person and number come from the Greek form.
 4. **Article.** English gets *the* where the Greek has the article, and nothing where it
    does not. The *a* in a lexicon's gloss (*a beginning*) is its citation form, not the text's.
@@ -1050,15 +1052,15 @@ chapter's sixty-seven aorist indicatives, as GEN 4:18 set it once in a run of �
 | εἰμί | pres. inf. | `to be` | the chain of GEN 2:18 | 6:3 |
 | εἰσπορεύομαι | impf. 3 pl | `were going into` | `were going into, were entering` — the entry's passive gloss; *to lead into*, the active, left out | 6:4 |
 | γεννάω | impf. 3 pl | `were begetting` | `were begetting, were engendering, were bringing forth, were producing` | 6:4 |
-| πληθύνω | aor. pass. 3 pl | `were made full` | `were made full, were increased, were multiplied` | 6:5 |
+| πληθύνω | aor. pass. 3 pl | `were made full` | `were made full, were increased, were multiplied, were in the majority, prevailed` — the passive's own gloss last | 6:5 |
 | διανοέομαι | pres. / aor. 3 sg | `is minded` · `was minded` | `is minded, intends, purposes, thinks over, thinks of, thinks and supposes, is disposed`, in the form | 6:5, 6:6 |
 | ἐνθυμέομαι | aor. 3 sg | `laid to heart` | `laid to heart, considered well, reflected on, pondered, thought much and deeply of, took to heart, was hurt and angry at, thought out a thing and formed a plan, inferred and concluded` | 6:6 |
 | ἀπαλείφω | fut. 1 sg | `I will wipe off` | `I will wipe off, I will expunge, I will cancel` | 6:7 |
 | ποιέω | aor. 1 sg / impv. / fut. 2 sg | `I made` · `make` · `you will make` | `I fashioned, I wrought, I produced, I performed, I did`, the chain of GEN 3:13 · `make, do, produce, create` · `you will make, you will do, you will produce, you will create` | 6:7, 6:14–16 |
 | θυμόομαι | aor. pass. 1 sg | `I was wroth` | `I was wroth, I was angry, I was wild and restive, I vented fury, I was angry with, I was angry at` — *to make angry*, the active, left out | 6:7 |
 | εὑρίσκω | aor. 3 sg | `found` | `found, found out, discovered` | 6:8 |
-| φθείρω | aor. pass. 3 sg | `went to ruin` | `went to ruin, perished, was ruined, was wasted, was spoiled, was destroyed` — the passive's own gloss first | 6:11 |
-| πίμπλημι | aor. pass. 3 sg | `was filled` | `was filled, became full of, was full of, had enough of` — sense III, *Pass.* | 6:11, 6:13 |
+| φθείρω | aor. pass. 3 sg | `was ruined` | `was ruined, was wasted, was spoiled, was destroyed, went to ruin, perished` — the passive's own gloss last | 6:11 |
+| πίμπλημι | aor. pass. 3 sg | `was filled full of` | `was filled full of, was filled with, was filled up and filled, became full of and was full of, had enough of` — sense III, *Pass.*, last | 6:11, 6:13 |
 | καταφθείρω | perf. pass. ptcp. / aor. 3 sg / pres. 1 sg / aor. inf. | `having been destroyed` · `destroyed` · `I destroy` · `to destroy` | `destroyed, spoiled utterly, brought to naught`, in the form; the perfect, `having been destroyed and standing destroyed, having been spoiled utterly and remaining so, having been brought to naught and remaining so` | 6:12, 6:13, 6:17 |
 | ἥκω | pres. 3 sg | `has come` | `has come, is present, is here, has returned, has reached a point` — the entry's own perfect sense | 6:13 |
 | συντελέω | fut. 2 sg | `you will bring quite to an end` | the active chain of GEN 2:2, in the future | 6:16 |
@@ -1068,7 +1070,7 @@ chapter's sixty-seven aorist indicatives, as GEN 4:18 set it once in a run of �
 | ἵστημι | fut. 1 sg | `I will make to stand` | `I will make to stand, I will set, I will stop and stay and check, I will set up and raise, I will establish and institute, I will appoint, I will weigh` — the causal tenses | 6:18 |
 | εἰσέρχομαι | fut. 2 sg / 3 pl | `you will go in` · `will go in` | `you will go in, you will go into and enter, you will come into, you will come in, you will come upon`, in the form | 6:18, 6:20 |
 | εἰσάγω | fut. 2 sg | `you will lead in` | `you will lead in, you will lead into and introduce, you will admit, you will import, you will call in, you will bring in and bring forward` | 6:19 |
-| τρέφω | pres. subj. 2 sg / pres. inf. mid.-pass. | `you may thicken` · `to become firm` | `you may thicken, you may congeal, you may curdle, you may make to grow and increase, you may bring up and breed and rear, you may rear and keep, you may let grow and cherish and foster, you may produce and teem with, you may contain and have, you may maintain and support` · `to become firm, to rear for oneself, to be reared and grow up, to be kept, to be let grow and cherished and fostered, to be maintained and supported` | 6:19, 6:20 |
+| τρέφω | pres. subj. 2 sg / pres. inf. mid.-pass. | `you may thicken` · `to be thickened` | `you may thicken, you may congeal, you may curdle, you may make to grow and increase, you may bring up and breed and rear, you may rear and keep, you may let grow and cherish and foster, you may produce and teem with, you may contain and have, you may maintain and support` · `to be thickened, to be congealed, to be curdled, to become firm, to be made to grow and increase, to be brought up and bred and reared, to rear for oneself, to be kept, to be let grow and cherished and fostered, to be maintained and supported` | 6:19, 6:20 |
 | ἕρπω | pres. ptcp. gen. pl., articular | `of the creeping` | `of the creeping, of the crawling, of the moving slowly and walking, of the going and coming, of the stealing on and spreading` | 6:20 |
 | ἐσθίω | fut. 2 pl / aor. inf. | `you will eat` · `to eat` | the chains of GEN 2:16 and 3:11 | 6:21 |
 | συνάγω | fut. 2 sg | `you will bring together` | `you will bring together, you will gather together and collect and convene, you will join, you will unite, you will receive into your house, you will gather in stores, you will draw together, you will conclude and infer` | 6:21 |
@@ -1087,9 +1089,9 @@ order, *thicken* and *congeal* before *rear*, *keep* and *maintain*.
 | εἰσάγω | aor. impv. | `lead in` | the chain of GEN 6:19, in the imperative | 7:2 |
 | ἐπάγω | pres. 1 sg | `I bring on` | the chain of GEN 6:17 | 7:4 |
 | ἐξαλείφω | fut. 1 sg / aor. 3 sg / aor. pass. 3 pl | `I will plaster` · `plastered` · `were plastered` | `I will plaster, I will wash over, I will wipe out and obliterate, I will strike off, I will destroy utterly`, in the form — *to plaster* or *wash over* is sense I, *to wipe out* sense II | 7:4, 7:23 |
-| ῥήγνυμι | aor. pass. 3 pl | `broke` | `broke, burst, broke asunder and were rent, burst forth` — the entry's *Pass.*, *to break, burst* | 7:11 |
-| ἀνοίγω | aor. pass. 3 pl | `were open` | `were open, stood open, were opened, were undone, were laid open and unfolded and disclosed` — the passive's own gloss, *to be open, stand open* | 7:11 |
-| κινέω | pres. mid.-pass. ptcp. | `being put in motion` | `being put in motion, being moved, moving, stirring, moving forward` — the entry's *Pass.* | 7:14, 7:21 |
+| ῥήγνυμι | aor. pass. 3 pl | `were broken` | `were broken, were broken asunder and in pieces, were rent and shivered and shattered, burst, burst forth` — the entry's *Pass.* last | 7:11 |
+| ἀνοίγω | aor. pass. 3 pl | `were opened` | `were opened, were undone, were laid open and unfolded and disclosed, were open and stood open` — the passive's own gloss last | 7:11 |
+| κινέω | pres. mid.-pass. ptcp. | `being set in motion` | `being set in motion, being moved, being removed, being roused and stirred up, being put in motion, moving and stirring, moving forward` — the entry's *Pass.* after the first senses | 7:14, 7:21 |
 | κλείω | aor. 3 sg | `shut` | `shut, closed, barred, shut up and blocked, confined` | 7:16 |
 | πληθύνω | aor. pass. / impf. mid.-pass. 3 sg | `was made full` · `was being made full` | the chain of GEN 6:5, in the form | 7:17, 7:18 |
 | ἐπαίρω | aor. 3 sg | `lifted up and set on` | `lifted up and set on, lifted and raised, exalted and magnified, stirred up and excited, induced and persuaded` | 7:17 |
