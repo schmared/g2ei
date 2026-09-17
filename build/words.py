@@ -206,6 +206,9 @@ LSJ = {
     "πτερνίζω": ["strike with the heel", "trip up, supplant", "heel an old shoe"],
     "προσοχθίζω": ["to be wroth with", "am weary", "to be treated with contumely"],
     "κατανύσσω": ["stab, gouge", "to be sorely pricked", "to be bewildered, stunned"],
+    # Middle Liddell has ἐνύπνιον but not the verb. LSJ (eng5): ἐνυπνιάζω, "dream", with the
+    # middle and passive used of the same thing; MorphGNT files the middle, ἐνυπνιάζομαι.
+    "ἐνυπνιάζομαι": ["dream"],
 }
 
 # New Testament books: MorphGNT file and its book number.
@@ -712,6 +715,17 @@ NOT_SENSES = {
     "swthri/a": {"a way", "means of safety", "guarantee for the safe keeping", "ways of preserving"},  # pieces of examples
     "e)ri/zw": {"with", "in"},                  # pieces of examples
     "mise/w": {"hated (would not suffer)", "grudging"},  # pieces of examples
+    # GEN 28
+    "proskale/w": {"I have called"},            # a piece of an example
+    "sunagwgh/": {"a levying", "a gathering in of"},  # pieces of examples
+    "a)panta/w": {"from", "anyone that meets you, any chance person"},  # pieces of examples
+    "du/w": {"plunged into", "plunge into", "go in to"},  # pieces of examples
+    "a)fikne/omai": {"from", "the person reached"},  # pieces of examples
+    "u(poti/qhmi": {"beginning"},               # a piece of an example
+    "e)pixe/w": {"shed over", "throw", "oneself"},  # pieces of examples
+    "eu)/xomai": {"to pray that", "long"},      # pieces of examples
+    "fobero/s": {"formidable", "terror"},       # pieces of examples
+    "a)/kron": {"the highest", "furthest point"},  # pieces of "the highest or furthest point"
 }
 
 # An entry that divides its senses by tense and voice, so that which of them belong to a
@@ -840,6 +854,7 @@ SPELLING = {
     "dikai/ws": "di/kaios",         # likewise
     "e)piginw/skw": "e)pigignw/skw",  # the Attic spelling of a Koine form, as γινώσκω
     "zugo/s": "zugo/n",             # the entry is headed with the neuter
+    "kli/mac": "kli=mac",           # the entry is headed with the circumflex
 }
 
 # Homographs where Perseus's *first* entry is a different word from the one the text

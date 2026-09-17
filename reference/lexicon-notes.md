@@ -176,6 +176,8 @@ Three reasons, and all of them are the lexicon's filing rather than a decision a
 | δικαίως (GEN 27:36) | δίκαιος | likewise |
 | ἐπιγινώσκω (GEN 27:23) | ἐπιγιγνώσκω | the Attic spelling of a Koine form, as γινώσκω |
 | ζυγός (GEN 27:40) | ζυγόν | the entry is headed with the neuter |
+| κλίμαξ (GEN 28:12) | κλῖμαξ | Middle Liddell heads the entry with the circumflex |
+| βορρᾶς (GEN 28:14) | βορρᾶς | the contracted form, which the entry carries beside βορέας |
 <!-- spelling rows above -->
 
 The dictionary form itself does not follow the lexicon's filing: it keeps the spelling the text
@@ -209,7 +211,7 @@ GEN 9 adds ὀπισθοφανής, *seen from behind*, and its adverb ὀπισ
 ἔτασις, *trial, affliction*. GEN 14 adds ἁλυκός, *salt, brackish*; ἀποσκευή, whose *removal,
 riddance* comes before *baggage*; σφαιρωτήρ, *thong, latchet*; and περάτης, which opens "= πορθμεύς",
 so that πορθμεύς's LSJ senses, *ferryman*, *boatman, seaman*, *conveyer*, stand before its own
-*wanderer, emigrant*, as ἁγίζω's stand for ἁγιάζω. GEN 15 adds ὑπερασπίζω, *cover with a shield*, from the upsilon file; τριετίζω, *to be three years old*; and διχοτόμημα, *half of a thing cut in two*. GEN 17 adds κατάσχεσις, *holding back, restraining, retention*, then *possession*, from the kappa file; and ἑκατονταέτης, *of a hundred years*, *years old*, citing 17:17. GEN 18 adds μοσχάριον, *little calf*, and, from the beta file, βούτυρον, *butter*, then *a plant*. GEN 19 adds προσοίγνυμι, *shut*; ἀορασία, *inability to see, blindness*; γελοιάζω, *jest*, from the gamma file; ἐπαύριον, *on the morrow*; and εἰσσπάομαι, *draw into oneself*. GEN 20 adds μήτρα, *womb*, whose Middle Liddell entry tags only Latin; δίδραχμον, *coin of two drachms*, under δίδραχμος; and κἀγώ, *crasis for καὶ ἐγώ*. GEN 21 adds ἀπογαλακτίζω, *wean from the mother's milk*; ἀρχιστράτηγος, *commander-in-chief*; and, from the omega file, ὦμος, *the shoulder with the upper arm*. GEN 23 adds παρεπίδημος, *sojourning in a strange place*, and μνημεῖον, *memorial, remembrance, record*, whose Middle Liddell entry tags its first sense only in Latin. GEN 24 adds ποτιστήριον, *drinking-trough for cattle*; ἐνώτιον, *ear-ring*; ἅβρα, *favourite slave*; and ἀποσάττω, *unsaddle, unpack*, *stop up, caulk*, *stuff with food*. GEN 25 adds three more: ὅλος, which Middle Liddell lacks altogether, *whole, entire, complete in all its parts*; δόμα, *gift*, then *payment*; and πυρράκης, *red, ruddy*, which LSJ files as a masculine noun. GEN 26 adds ἑκατοστεύω, *bear a hundredfold*, and γεώργιον, *field*, then *orchard*, *husbandry*, *crop* and, in the plural, a *tax* on land. GEN 27 adds four more: πιότης, *fattiness*, then *wealth, prosperity*; πτερνίζω, *strike with the heel*, *trip up, supplant*; προσοχθίζω, *to be wroth with*, and of this chapter's phrase *am weary* of; and κατανύσσω, *stab, gouge*, and in the passive *to be sorely pricked*.
+*wanderer, emigrant*, as ἁγίζω's stand for ἁγιάζω. GEN 15 adds ὑπερασπίζω, *cover with a shield*, from the upsilon file; τριετίζω, *to be three years old*; and διχοτόμημα, *half of a thing cut in two*. GEN 17 adds κατάσχεσις, *holding back, restraining, retention*, then *possession*, from the kappa file; and ἑκατονταέτης, *of a hundred years*, *years old*, citing 17:17. GEN 18 adds μοσχάριον, *little calf*, and, from the beta file, βούτυρον, *butter*, then *a plant*. GEN 19 adds προσοίγνυμι, *shut*; ἀορασία, *inability to see, blindness*; γελοιάζω, *jest*, from the gamma file; ἐπαύριον, *on the morrow*; and εἰσσπάομαι, *draw into oneself*. GEN 20 adds μήτρα, *womb*, whose Middle Liddell entry tags only Latin; δίδραχμον, *coin of two drachms*, under δίδραχμος; and κἀγώ, *crasis for καὶ ἐγώ*. GEN 21 adds ἀπογαλακτίζω, *wean from the mother's milk*; ἀρχιστράτηγος, *commander-in-chief*; and, from the omega file, ὦμος, *the shoulder with the upper arm*. GEN 23 adds παρεπίδημος, *sojourning in a strange place*, and μνημεῖον, *memorial, remembrance, record*, whose Middle Liddell entry tags its first sense only in Latin. GEN 24 adds ποτιστήριον, *drinking-trough for cattle*; ἐνώτιον, *ear-ring*; ἅβρα, *favourite slave*; and ἀποσάττω, *unsaddle, unpack*, *stop up, caulk*, *stuff with food*. GEN 25 adds three more: ὅλος, which Middle Liddell lacks altogether, *whole, entire, complete in all its parts*; δόμα, *gift*, then *payment*; and πυρράκης, *red, ruddy*, which LSJ files as a masculine noun. GEN 26 adds ἑκατοστεύω, *bear a hundredfold*, and γεώργιον, *field*, then *orchard*, *husbandry*, *crop* and, in the plural, a *tax* on land. GEN 27 adds four more: πιότης, *fattiness*, then *wealth, prosperity*; πτερνίζω, *strike with the heel*, *trip up, supplant*; προσοχθίζω, *to be wroth with*, and of this chapter's phrase *am weary* of; and κατανύσσω, *stab, gouge*, and in the passive *to be sorely pricked*. GEN 28 adds one more: ἐνυπνιάζομαι, *dream*, which Middle Liddell does not have at all.
 <!-- LSJ sentences above -->
 
 GEN 9 also files ἐμεθύσθη under μεθύσκω, *to make drunk*, where Middle Liddell gives its aorist
@@ -609,6 +611,83 @@ the same ground as `the sixth` and `the seventh`: one sense each, so no range to
   settling in` (10:30); δύο `two`; υἱός `sons`.
 - The article before a people's name (τοὺς Λουδιιμ, τὸν Χετταῖον, τῶν Χαναναίων) is not printed,
   as before a person's name.
+
+### Words new in GEN 28
+
+- προσκαλέω — the middle προσκαλεσάμενος takes the Mid. section: *to call to oneself, call to one, call
+  to one's aid*, and *to cite* before a court. 28:1.
+- συναγωγή — first *a bringing together, uniting*; *a place of assembly, a synagogue* is the third sense,
+  so the nations Jacob is to become are `bringings together`. 28:3.
+- παροίκησις — one sense, *a neighbourhood*: the land lived beside rather than owned. 28:4.
+- ἀπαντάω — Middle Liddell opens with *to move from*, and *to meet* follows; with the dative here. 28:11.
+- δύω — *to strip off* heads the entry; the sun's *sank and set* is the last of the four. 28:11.
+- κεφαλή — πρὸς κεφαλῆς, with no article in the Greek, so `of head` without one. 28:11, 28:18.
+- ἐνυπνιάζομαι — no Middle Liddell entry; LSJ gives *dream*, and that one sense is the whole chain. 28:12.
+- κλίμαξ — Middle Liddell heads the entry κλῖμαξ; Rahlfs's spelling is kept. 28:12.
+- στηρίζω and ἐπιστηρίζω — the perfect participle ἐστηριγμένη and the pluperfect ἐπεστήρικτο, each the
+  standing state: `having been made fast and standing so`, `had been made to lean on and stood so`. 28:12, 28:13.
+- ἄκρον — the noun, *the mountain-top*, as MorphGNT codes τὸ ἄκρον, not the adjective ἄκρος. 28:18.
+- βορρᾶς — the contracted form the text prints, not βορέας; two senses, *north wind* and *the north*. 28:14.
+- φυλή — the tribes of 10:18, where 22:18 has ἔθνη, τὰ ἔθνη. 28:14.
+- ὡς — exclamatory here, *how fearful*; the unit is `as`, the adverb's first translation, since Middle
+  Liddell gives the exclamation no separate gloss. 28:17.
+- θεοῦ without the article keeps 1:2's `God's own, divine in character`, and θεόν 17:7's qualitative
+  chain; Οἶκος θεοῦ, the Greek of Bêt-ʾĒl, is printed as a name with Rahlfs's capital. 28:17, 28:19, 28:21, 28:22.
+- πύλη — the chain of 19:1, `the one wing of a pair of double gates`. 28:17.
+- Two cognate accusatives: ηὔξατο εὐχήν, εὔχομαι with εὐχή, and δεκάτην ἀποδεκατώσω, as at 14:20. Each is
+  kept word for word. 28:20, 28:22.
+- One sense each, and so a chain of one word, as κατάρα at 27:12: παροίκησις, ἐνυπνιάζομαι, ἔλαιον,
+  δεκάτη. υἱός stays plain text, `the son`, as before. 28:5, 28:9.
+
+| lemma | headword | chain | used |
+| --- | --- | --- | --- |
+| αὐξάνω | `may he make large` | `may he make large, may he increase, may he augment, may he increase in power and strengthen and exalt and aggrandise, may he promote to honour and glorify and magnify` | 28:3 |
+| βορρᾶς | `north wind` | `north wind, the north` | 28:14 |
+| δίδωμι | `may give` | `may give, may grant, may provide, may give over and deliver up` | 28:20 |
+| δίδωμι | `you may give` | `you may give, you may grant, you may provide, you may give over and deliver up` | 28:22 |
+| δεκάτη | `a tenth` | `a tenth` | 28:22 |
+| διαφυλάσσω | `may watch closely` | `may watch closely, may guard carefully, may observe closely, may observe and maintain, may guard against` | 28:20 |
+| διαφυλάσσω | `watching closely` | `watching closely, guarding carefully, observing closely, observing and maintaining, guarding against` | 28:15 |
+| δύω | `stripped off` | `stripped off, entered and made one's way into, went in to, sank and set` | 28:11 |
+| εἰμί | `may be` | `may be` | 28:20 |
+| εὐλογέω | `may he speak well of` | `may he speak well of, may he praise, may he honour, may he bless` | 28:3 |
+| εὐλογέω, with ἐν τῷ | `in the speaking well of` | `within, inside of, and by means of the speaking well of, the praising, the honouring, the blessing` | 28:6 |
+| εὐχή | `prayer` | `prayer, vow, a mere wish and an aspiration, a prayer for evil, an imprecation` | 28:20 |
+| εὔχομαι | `prayed` | `prayed, offered prayers, paid his vows, made a vow, prayed for` | 28:20 |
+| καθεύδω | `you lie down to sleep` | `you lie down to sleep, you sleep, you lie asleep and lie idle, you sleep and lie still and are at rest` | 28:13 |
+| καταβαίνω | `were stepping down` | `were stepping down, were going and coming down, were going down from, were dismounting, were coming down stairs, were going down from the inland parts to the sea, were coming to land and getting safe ashore, were going down into the arena, were coming down from the tribune, were coming to, were ending` | 28:12 |
+| κεφαλή | `of head` | `of head, of the whole person, of the life, of the top, of the source, of the crown` | 28:11, 28:18 |
+| κλίμαξ | `ladder` | `ladder, stairs, scaling-ladder` | 28:12 |
+| λίθος | `of the stones` | `of the stones, of the precious stones, of the marbles` | 28:11 |
+| λαλέω | `I talked` | `I talked, I chatted, I prattled, I babbled, I said, I talked of, I spoke, I chattered, I chirped` | 28:15 |
+| παροίκησις | `of the neighbourhood` | `of the neighbourhood` | 28:4 |
+| περιβάλλω | `to throw round oneself` | `to throw round oneself, to put on, to throw round oneself for defence, to build round, to surround and enclose for oneself, to bring into one's power and aim at, to cloke and veil` | 28:20 |
+| πλατύνω | `will be made broad` | `will be made broad, will be widened, will be enlarged` | 28:14 |
+| πληθύνω | `may he make full` | `may he make full, may he increase, may he multiply` | 28:3 |
+| πορεύομαι | `you may be driven` | `you may be driven, you may be carried, you may go, you may walk, you may march, you may go across and pass` | 28:15 |
+| προσκαλέω | `having called to himself` | `having called to himself, having called to one, having called to his aid, having cited` | 28:1 |
+| στήλη | `block of stone` | `block of stone, monument, gravestone, pillar` | 28:18, 28:22 |
+| στηρίζω | `having been made fast` | `having been made fast and standing so, having been propped, having been fixed, having been set, having been confirmed and established` | 28:12 |
+| συναγωγή | `bringings together` | `bringings together, unitings, places of assembly and synagogues, drawings together and contractings` | 28:3 |
+| φοβερός | `fearful` | `fearful, causing fear and dreadful and terrible, matter for fear and regarded with fear` | 28:17 |
+| ἀναβαίνω | `were going up` | `were going up, were mounting, were going up to, were embarking` | 28:12 |
+| ἀπαντάω | `moved from` | `moved from, met, met and encountered, came` | 28:11 |
+| ἀποίχομαι | `was gone away` | `was gone away, was absent and away, had departed` | 28:6 |
+| ἀποδεκατόω | `I will tithe` | `I will tithe, I will pay tithes of, I will take tithe` | 28:22 |
+| ἀποστρέφω | `I will turn` | `I will turn, I will turn back, I will turn away, I will turn myself about, I will bring back` | 28:15 |
+| ἀποστρέφω | `may turn` | `may turn, may turn back, may turn away, may turn himself about, may bring back` | 28:21 |
+| ἀφικνέομαι | `was coming to` | `was coming to, was arriving at and reaching, was arriving` | 28:12 |
+| ἄκρον | `the mountain-top` | `the mountain-top, the peak, the headland and foreland and cape, the end and extremity` | 28:18 |
+| ἐγκαταλείπω | `I may leave behind` | `I may leave behind, I may leave in the lurch, I may leave out and omit` | 28:15 |
+| ἐνυπνιάζομαι | `dreamed` | `dreamed` | 28:12 |
+| ἐξεγείρω | `was awakened` | `was awakened, was awaked and woke up, was raised from the dead, was aroused and brought on` | 28:16 |
+| ἐπιστηρίζω | `had been made to lean on` | `had been made to lean on and stood so, had leaned upon` | 28:13 |
+| ἐπιχέω | `poured water over` | `poured water over, poured` | 28:18 |
+| ἔλαιον | `olive-oil` | `olive-oil` | 28:18 |
+| ἱμάτιον | `outer garment` | `outer garment, cloak, mantle, clothes` | 28:20 |
+| ἵστημι | `I made to stand` | `I made to stand, I set, I stopped and stayed and checked, I set up and raised, I established and instituted, I appointed, I weighed` | 28:22 |
+| ὑποτίθημι | `placed under` | `placed under, placed under one's feet, placed under as a foundation, suggested and advised, set before, pledged and mortgaged` | 28:18 |
+| ὕπνος | `of the sleep` | `of the sleep, of the slumber, of the sleep of death` | 28:16 |
 
 ### Words new in GEN 27
 
@@ -4188,6 +4267,11 @@ Greek makes it a woman's, the mother of Eliezer, whom it calls Δαμασκὸς
 | Βασεμμαθ | Basemmath | Basemath | `(Βασεμμαθ, from Hebrew Bāśĕmat, usually connected with bōśem, "balsam, spice")` |
 | Αιλων | Ailōn | Elon | `(Αιλων, from Hebrew ʾÊlōn, usually connected with ʾēlôn, "oak, terebinth")` |
 | Ευαίου | Euaiou | Hivite | `(Ευαῖος, the man of the people the Hebrew calls Ḥiwwî, the Hivite)` |
+
+| Συρίας | Syrias | Syria | `(Συρία, the Greek name of the land; the Hebrew here is Paddan-ʾĂrām)` |
+| Μαελεθ | Maeleth | Mahalath | `(Μαελεθ, from Hebrew Māḥălat, of uncertain meaning)` |
+| Οἶκος | Oikos | House | `(Οἶκος θεοῦ, "house of God", the Greek of Hebrew Bêt-ʾĒl, Bethel)` |
+| Ουλαμλους | Oulamlous | Ulamlous | `(Ουλαμλους, for Hebrew Lûz, Luz, with ʾûlām, "but", read into the name)` |
 <!-- name rows above -->
 
 Σύγχυσις translates the name where 10:10 gave the city its Greek name, Βαβυλών; as with Ζωή at

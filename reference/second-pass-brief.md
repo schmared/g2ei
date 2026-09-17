@@ -265,6 +265,15 @@ Eight disagreements over 1039 words. The second pass was right that Τί τοῦ
 and that ποιήσω at 27:37 is the deliberative aorist subjunctive, as ἀποστρέψω at 24:5. The first pass
 kept adverbial μόνον as `A- μόνος` and μέν with the conjunctions, both as settled before.
 
+### What it found in Genesis 28
+
+No disagreements at all over 527 words — the first Genesis chapter where the two passes matched at
+every word. The second pass recorded ten decisions, all of them the first pass's: προσκαλέω and κοιμάω
+filed under their actives; ἔδυ a root aorist under δύω, not δύνω; Χανααν without gender, as the land;
+ἐστηριγμένη and ἐπεστήρικτο medio-passive perfect and pluperfect; exclamatory Ὡς as D-, since the C-
+rule covers *as, like* only; ἄκρον the noun; ἐπέχεεν aorist, not imperfect; ἀποστρέψω and ἀποδεκατώσω
+futures, not aorist subjunctives, as main-clause verbs; and βορρᾶν under the contracted βορρᾶς.
+
 ## The brief
 
 Copy everything below the rule into a new agent. Replace `<BOOK NAME>`, `<CHAPTER>`,

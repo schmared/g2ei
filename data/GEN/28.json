@@ -1,0 +1,704 @@
+[
+  {
+    "ref": "GEN 28:1",
+    "greek": "προσκαλεσάμενος δὲ Ισαακ τὸν Ιακωβ εὐλόγησεν αὐτὸν καὶ ἐνετείλατο αὐτῷ λέγων Οὐ λήμψῃ γυναῖκα ἐκ τῶν θυγατέρων Χανααν·",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 42",
+    "speech": ["Οὐ"],
+    "hint": "Isaac calls Jacob and blesses him and charges him: Do not take a wife from the daughters of Canaan;",
+    "notes": [
+      {
+        "lemma": "προσκαλεσάμενος",
+        "flag": null,
+        "text": "The middle of προσκαλέω, *to call to oneself*."
+      },
+      {
+        "lemma": "Οὐ",
+        "flag": null,
+        "text": "Capitalised because it opens direct speech, as Rahlfs prints it; listed in `speech` so the checks do not take it for a proper name."
+      }
+    ],
+    "reading": "[[having called to himself|having called to himself, having called to one, having called to his aid, having cited]] [[but|but, however, whereas, on the other hand]], [[name:Ισαακ]] [[name:Ιακωβ]] [[spoke well of|spoke well of, praised, honoured, blessed]] him and [[enjoined|enjoined, commanded]] to him [[saying|saying, speaking, declaring, calling by name, telling]] not [[you will take|you will take, you will receive, you will take hold of and grasp and seize]] [[woman|woman, mistress and lady, wife and spouse, mortal woman]] [[out of|out of, forth from, from]] of the daughters [[name:Χανααν]];",
+    "names": [
+      {
+        "greek": "Ισαακ",
+        "unanchored": "Isaak",
+        "anchored": "Isaac",
+        "gloss": "(Ισαακ, from Hebrew Yiṣḥāq, \"he laughs\")"
+      },
+      {
+        "greek": "Ιακωβ",
+        "unanchored": "Iakōb",
+        "anchored": "Jacob",
+        "gloss": "(Ιακωβ, from Hebrew Yaʿăqōb, which the Hebrew of 25:26 hears in ʿāqēb, \"heel\")"
+      },
+      {
+        "greek": "Χανααν",
+        "unanchored": "Chanaan",
+        "anchored": "Canaan",
+        "gloss": "(Χανααν, from Hebrew Kĕnaʿan, of uncertain meaning)"
+      }
+    ]
+  },
+  {
+    "ref": "GEN 28:2",
+    "greek": "ἀναστὰς ἀπόδραθι εἰς τὴν Μεσοποταμίαν εἰς τὸν οἶκον Βαθουηλ τοῦ πατρὸς τῆς μητρός σου καὶ λαβὲ σεαυτῷ ἐκεῖθεν γυναῖκα ἐκ τῶν θυγατέρων Λαβαν τοῦ ἀδελφοῦ τῆς μητρός σου.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 42",
+    "hint": "get up and run away to Mesopotamia, to the house of Bethuel your mother's father, and take a wife from there from the daughters of Laban your mother's brother.",
+    "notes": [
+      {
+        "lemma": "εἰς τὴν Μεσοποταμίαν",
+        "flag": "divergence",
+        "text": "[[flag]] The Hebrew is *paddenâ ʾărām*, *to Paddan-aram*, as at 25:20."
+      },
+      {
+        "lemma": "Μεσοποταμίαν",
+        "flag": "variant",
+        "text": "[[flag]] Codex Alexandrinus adds Συρίας; the Berlin papyrus, 911, does not."
+      }
+    ],
+    "reading": "[[having stood up|having stood up, having risen, having risen to fight against, having risen to go and set out]] [[run away|run away, run off, escape]] [[into|into, to, in, rest in]] [[name:Μεσοποταμίαν]] [[into|into, to, in, rest in]] [[the house|the house, the abode and dwelling, the room and chamber, the house of a god and temple, the household goods and substance, the household and family]] [[name:Βαθουηλ]] [[of the father|of the father, of the grandfather]] [[of the mother|of the mother, of the dam, of the source]] of you and [[take|take, receive, take hold of and grasp and seize]] for yourself [[from that place|from that place, thence, thereafter, next]] [[woman|woman, mistress and lady, wife and spouse, mortal woman]] [[out of|out of, forth from, from]] of the daughters [[name:Λαβαν]] [[of the son of the same mother|of the son of the same mother, of the brother, of the near kinsman]] [[of the mother|of the mother, of the dam, of the source]] of you.",
+    "names": [
+      {
+        "greek": "Μεσοποταμίαν",
+        "unanchored": "Mesopotamian",
+        "anchored": "Mesopotamia",
+        "gloss": "(Μεσοποταμία, Greek, \"the land between the rivers\", for Hebrew Paddan-ʾĂrām)"
+      },
+      {
+        "greek": "Βαθουηλ",
+        "unanchored": "Bathouēl",
+        "anchored": "Bethuel",
+        "gloss": "(Βαθουηλ, from Hebrew Bĕtûʾēl, of uncertain meaning)"
+      },
+      {
+        "greek": "Λαβαν",
+        "unanchored": "Laban",
+        "anchored": "Laban",
+        "gloss": "(Λαβαν, from Hebrew Lābān, \"white\")"
+      }
+    ]
+  },
+  {
+    "ref": "GEN 28:3",
+    "greek": "ὁ δὲ θεός μου εὐλογήσαι σε καὶ αὐξήσαι σε καὶ πληθύναι σε, καὶ ἔσῃ εἰς συναγωγὰς ἐθνῶν·",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 42",
+    "hint": "And may my God bless you and increase you and multiply you, and you will become gatherings of nations;",
+    "notes": [
+      {
+        "lemma": "εὐλογήσαι … αὐξήσαι … πληθύναι",
+        "flag": null,
+        "text": "Three aorist optatives, the wish, as δῴη at 27:28."
+      },
+      {
+        "lemma": "συναγωγὰς ἐθνῶν",
+        "flag": null,
+        "text": "συναγωγή is first *a bringing together, uniting*."
+      }
+    ],
+    "reading": "[[but|but, however, whereas, on the other hand]], [[the God|him who is God definitively, the one the article marks out, the known and the only]] of me [[may he speak well of|may he speak well of, may he praise, may he honour, may he bless]] you and [[may he make large|may he make large, may he increase, may he augment, may he increase in power and strengthen and exalt and aggrandise, may he promote to honour and glorify and magnify]] you and [[may he make full|may he make full, may he increase, may he multiply]] you, and you will be [[into|into, to, in, rest in]] [[bringings together|bringings together, unitings, places of assembly and synagogues, drawings together and contractings]] [[of numbers of people accustomed to live together|of numbers of people accustomed to live together, of companies and bodies of men, of hosts, of swarms and flocks, of nations and peoples, of nations and gentiles, of special classes, of castes and tribes, of sexes]];",
+    "names": []
+  },
+  {
+    "ref": "GEN 28:4",
+    "greek": "καὶ δῴη σοι τὴν εὐλογίαν Αβρααμ τοῦ πατρός μου, σοὶ καὶ τῷ σπέρματί σου μετὰ σέ, κληρονομῆσαι τὴν γῆν τῆς παροικήσεώς σου, ἣν ἔδωκεν ὁ θεὸς τῷ Αβρααμ.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 42",
+    "hint": "and may he give you the blessing of Abraham my father, to you and to your offspring after you, to inherit the land of your sojourning, which God gave to Abraham.",
+    "notes": [
+      {
+        "lemma": "παροικήσεως",
+        "flag": null,
+        "text": "παροίκησις, one sense, *a neighbourhood*, of the land where one dwells beside."
+      },
+      {
+        "lemma": "ἔδωκεν",
+        "flag": "variant",
+        "text": "[[flag]] Codex Alexandrinus alone reads δέδωκεν, the perfect."
+      }
+    ],
+    "reading": "and [[may he give|may he give, may he grant, may he provide, may he give over and deliver up]] to you [[the good language|the good language, the fine language, the fair speech and specious talk, the eulogy and panegyric, the blessing]] [[name:Αβρααμ]] [[of the father|of the father, of the grandfather]] of me, to you and [[to that which is sown|to that which is sown, to the seed, to the germ and origin and element, to the offspring and issue, to the race and descent]] of you [[into the middle of|into the middle of, coming among, in pursuit and quest of, after]] you, [[to receive a share of an inheritance|to receive a share of an inheritance and inherit a portion, to inherit, to be an inheritor, to succeed]] [[the earth|the land, the dry ground, the terrestrial realm]] [[of the neighbourhood|of the neighbourhood]] of you, which [[gave|gave, granted, provided, gave over and delivered up]] [[the God|him who is God definitively, the one the article marks out, the known and the only]] to [[name:Αβρααμ]].",
+    "names": [
+      {
+        "greek": "Αβρααμ",
+        "unanchored": "Abraam",
+        "anchored": "Abraham",
+        "gloss": "(Αβρααμ, from Hebrew ʾAbrāhām, which the Hebrew of 17:5 hears in ʾab hămôn gôyim, \"father of a multitude of nations\")"
+      }
+    ]
+  },
+  {
+    "ref": "GEN 28:5",
+    "greek": "καὶ ἀπέστειλεν Ισαακ τὸν Ιακωβ, καὶ ἐπορεύθη εἰς τὴν Μεσοποταμίαν πρὸς Λαβαν τὸν υἱὸν Βαθουηλ τοῦ Σύρου ἀδελφὸν δὲ Ρεβεκκας τῆς μητρὸς Ιακωβ καὶ Ησαυ.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 42",
+    "hint": "Isaac sends Jacob off, and he goes to Mesopotamia, to Laban son of Bethuel the Syrian, the brother of Rebekah the mother of Jacob and Esau.",
+    "notes": [
+      {
+        "lemma": "ἀδελφὸν δὲ Ρεβεκκας",
+        "flag": null,
+        "text": "δέ inside the phrase, as often: *and the brother of Rebekah*."
+      }
+    ],
+    "reading": "and [[sent off|sent off, sent away, banished, despatched, went away and departed]] [[name:Ισαακ]] [[name:Ιακωβ]], and [[was driven|was driven, was carried, went, walked, marched, went across and passed]] [[into|into, to, in, rest in]] [[name:Μεσοποταμίαν]] [[toward|toward, facing, oriented to, in living motion and address toward]] [[name:Λαβαν]] the son [[name:Βαθουηλ]] [[name:Σύρου]] [[son of the same mother|a son of the same mother, a brother, a near kinsman]] [[but|but, however, whereas, on the other hand]], [[name:Ρεβεκκας]] [[of the mother|of the mother, of the dam, of the source]] [[name:Ιακωβ]] and [[name:Ησαυ]].",
+    "names": [
+      {
+        "greek": "Ισαακ",
+        "unanchored": "Isaak",
+        "anchored": "Isaac",
+        "bare": true
+      },
+      {
+        "greek": "Ιακωβ",
+        "unanchored": "Iakōb",
+        "anchored": "Jacob",
+        "bare": true
+      },
+      {
+        "greek": "Μεσοποταμίαν",
+        "unanchored": "Mesopotamian",
+        "anchored": "Mesopotamia",
+        "bare": true
+      },
+      {
+        "greek": "Λαβαν",
+        "unanchored": "Laban",
+        "anchored": "Laban",
+        "bare": true
+      },
+      {
+        "greek": "Βαθουηλ",
+        "unanchored": "Bathouēl",
+        "anchored": "Bethuel",
+        "bare": true
+      },
+      {
+        "greek": "Σύρου",
+        "unanchored": "Syrou",
+        "anchored": "Syrian",
+        "gloss": "(Σύρος, the man of Συρία, Syria; the Hebrew has ʾărammî, the Aramean)"
+      },
+      {
+        "greek": "Ρεβεκκας",
+        "unanchored": "Rebekkas",
+        "anchored": "Rebekah",
+        "gloss": "(Ρεβεκκα, from Hebrew Ribqâ, of uncertain meaning)"
+      },
+      {
+        "greek": "Ησαυ",
+        "unanchored": "Ēsau",
+        "anchored": "Esau",
+        "gloss": "(Ησαυ, from Hebrew ʿĒśāw, usually connected with śēʿār, \"hair\")"
+      }
+    ]
+  },
+  {
+    "ref": "GEN 28:6",
+    "greek": "Εἶδεν δὲ Ησαυ ὅτι εὐλόγησεν Ισαακ τὸν Ιακωβ καὶ ἀπῴχετο εἰς τὴν Μεσοποταμίαν Συρίας λαβεῖν ἑαυτῷ ἐκεῖθεν γυναῖκα ἐν τῷ εὐλογεῖν αὐτὸν καὶ ἐνετείλατο αὐτῷ λέγων Οὐ λήμψῃ γυναῖκα ἀπὸ τῶν θυγατέρων Χανααν,",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 42",
+    "speech": ["Οὐ"],
+    "hint": "Esau sees that Isaac blessed Jacob and sent him off to Mesopotamia of Syria to take a wife from there, and that in blessing him he charged him: Do not take a wife from the daughters of Canaan,",
+    "notes": [
+      {
+        "lemma": "ἐν τῷ εὐλογεῖν αὐτόν",
+        "flag": null,
+        "text": "ἐν with the articular infinitive, `in the speaking well of`, as at 24:52."
+      },
+      {
+        "lemma": "ἐκεῖθεν",
+        "flag": "variant",
+        "text": "[[flag]] Codex Alexandrinus alone leaves it out."
+      },
+      {
+        "lemma": "Οὐ",
+        "flag": null,
+        "text": "Capitalised because it opens direct speech, as Rahlfs prints it; listed in `speech` so the checks do not take it for a proper name."
+      }
+    ],
+    "reading": "[[saw|saw, perceived, beheld, looked at]] [[but|but, however, whereas, on the other hand]], [[name:Ησαυ]] [[that|that, seeing that, although, for that, because, inasmuch as]] [[spoke well of|spoke well of, praised, honoured, blessed]] [[name:Ισαακ]] [[name:Ιακωβ]] and [[was gone away|was gone away, was absent and away, had departed]] [[into|into, to, in, rest in]] [[name:Μεσοποταμίαν]] [[name:Συρίας]] [[to take|to take, to receive, to take hold of and grasp and seize]] for himself [[from that place|from that place, thence, thereafter, next]] [[woman|woman, mistress and lady, wife and spouse, mortal woman]] [[in the speaking well of|within, inside of, and by means of the speaking well of, the praising, the honouring, the blessing]] him and [[enjoined|enjoined, commanded]] to him [[saying|saying, speaking, declaring, calling by name, telling]] not [[you will take|you will take, you will receive, you will take hold of and grasp and seize]] [[woman|woman, mistress and lady, wife and spouse, mortal woman]] [[from|from, away from, far from, apart from]] of the daughters [[name:Χανααν]],",
+    "names": [
+      {
+        "greek": "Ησαυ",
+        "unanchored": "Ēsau",
+        "anchored": "Esau",
+        "bare": true
+      },
+      {
+        "greek": "Ισαακ",
+        "unanchored": "Isaak",
+        "anchored": "Isaac",
+        "bare": true
+      },
+      {
+        "greek": "Ιακωβ",
+        "unanchored": "Iakōb",
+        "anchored": "Jacob",
+        "bare": true
+      },
+      {
+        "greek": "Μεσοποταμίαν",
+        "unanchored": "Mesopotamian",
+        "anchored": "Mesopotamia",
+        "bare": true
+      },
+      {
+        "greek": "Συρίας",
+        "unanchored": "Syrias",
+        "anchored": "Syria",
+        "gloss": "(Συρία, the Greek name of the land; the Hebrew here is Paddan-ʾĂrām)"
+      },
+      {
+        "greek": "Χανααν",
+        "unanchored": "Chanaan",
+        "anchored": "Canaan",
+        "bare": true
+      }
+    ]
+  },
+  {
+    "ref": "GEN 28:7",
+    "greek": "καὶ ἤκουσεν Ιακωβ τοῦ πατρὸς καὶ τῆς μητρὸς αὐτοῦ καὶ ἐπορεύθη εἰς τὴν Μεσοποταμίαν Συρίας,",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 42",
+    "hint": "and Jacob listened to his father and mother and went to Mesopotamia of Syria,",
+    "notes": [
+      {
+        "lemma": "Συρίας",
+        "flag": "variant",
+        "text": "[[flag]] The Berlin papyrus, 911, has it; Codex Alexandrinus leaves it out."
+      }
+    ],
+    "reading": "and [[heard|heard, had hearing of, heard tell of, hearkened and gave ear, listened to and obeyed]] [[name:Ιακωβ]] [[of the father|of the father, of the grandfather]] and [[of the mother|of the mother, of the dam, of the source]] of him and [[was driven|was driven, was carried, went, walked, marched, went across and passed]] [[into|into, to, in, rest in]] [[name:Μεσοποταμίαν]] [[name:Συρίας]],",
+    "names": [
+      {
+        "greek": "Ιακωβ",
+        "unanchored": "Iakōb",
+        "anchored": "Jacob",
+        "bare": true
+      },
+      {
+        "greek": "Μεσοποταμίαν",
+        "unanchored": "Mesopotamian",
+        "anchored": "Mesopotamia",
+        "bare": true
+      },
+      {
+        "greek": "Συρίας",
+        "unanchored": "Syrias",
+        "anchored": "Syria",
+        "bare": true
+      }
+    ]
+  },
+  {
+    "ref": "GEN 28:8",
+    "greek": "καὶ εἶδεν Ησαυ ὅτι πονηραί εἰσιν αἱ θυγατέρες Χανααν ἐναντίον Ισαακ τοῦ πατρὸς αὐτοῦ,",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 42",
+    "hint": "and Esau saw that the daughters of Canaan were evil in the eyes of Isaac his father,",
+    "notes": [
+      {
+        "lemma": "πονηραί",
+        "flag": null,
+        "text": "πονηρός, the chain of GEN 2:9: *toilsome, painful, grievous* before *wicked*."
+      }
+    ],
+    "reading": "and [[saw|saw, perceived, beheld, looked at]] [[name:Ησαυ]] [[that|that, seeing that, although, for that, because, inasmuch as]] [[toilsome|toilsome, painful, grievous, good-for-nothing, bad and worthless, wicked]] are the daughters [[name:Χανααν]] [[in the presence of|in the presence of, before, opposite and face to face, against]] [[name:Ισαακ]] [[of the father|of the father, of the grandfather]] of him,",
+    "names": [
+      {
+        "greek": "Ησαυ",
+        "unanchored": "Ēsau",
+        "anchored": "Esau",
+        "bare": true
+      },
+      {
+        "greek": "Χανααν",
+        "unanchored": "Chanaan",
+        "anchored": "Canaan",
+        "bare": true
+      },
+      {
+        "greek": "Ισαακ",
+        "unanchored": "Isaak",
+        "anchored": "Isaac",
+        "bare": true
+      }
+    ]
+  },
+  {
+    "ref": "GEN 28:9",
+    "greek": "καὶ ἐπορεύθη Ησαυ πρὸς Ισμαηλ καὶ ἔλαβεν τὴν Μαελεθ θυγατέρα Ισμαηλ τοῦ υἱοῦ Αβρααμ ἀδελφὴν Ναβαιωθ πρὸς ταῖς γυναιξὶν αὐτοῦ γυναῖκα.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 42",
+    "hint": "and Esau went to Ishmael and took Mahalath daughter of Ishmael, Abraham's son, sister of Nebaioth, as a wife besides his wives.",
+    "notes": [
+      {
+        "lemma": "πρὸς ταῖς γυναιξὶν αὐτοῦ",
+        "flag": null,
+        "text": "πρός with the dative, *beside*, of what is added."
+      }
+    ],
+    "reading": "and [[was driven|was driven, was carried, went, walked, marched, went across and passed]] [[name:Ησαυ]] [[toward|toward, facing, oriented to, in living motion and address toward]] [[name:Ισμαηλ]] and [[took|took, received, took hold of and grasped and seized]] [[name:Μαελεθ]] daughter [[name:Ισμαηλ]] the son [[name:Αβρααμ]] sister [[name:Ναβαιωθ]] [[toward|toward, facing, oriented to, in living motion and address toward]] [[to the women|to the women, to the mistresses and ladies, to the wives and spouses, to the mortal women]] of him [[woman|woman, mistress and lady, wife and spouse, mortal woman]].",
+    "names": [
+      {
+        "greek": "Ησαυ",
+        "unanchored": "Ēsau",
+        "anchored": "Esau",
+        "bare": true
+      },
+      {
+        "greek": "Ισμαηλ",
+        "unanchored": "Ismaēl",
+        "anchored": "Ishmael",
+        "gloss": "(Ισμαηλ, from Hebrew Yišmāʿēʾl, \"God hears\")"
+      },
+      {
+        "greek": "Μαελεθ",
+        "unanchored": "Maeleth",
+        "anchored": "Mahalath",
+        "gloss": "(Μαελεθ, from Hebrew Māḥălat, of uncertain meaning)"
+      },
+      {
+        "greek": "Αβρααμ",
+        "unanchored": "Abraam",
+        "anchored": "Abraham",
+        "bare": true
+      },
+      {
+        "greek": "Ναβαιωθ",
+        "unanchored": "Nabaiōth",
+        "anchored": "Nebaioth",
+        "gloss": "(Ναβαιωθ, from Hebrew Nĕbāyôt, of uncertain meaning)"
+      }
+    ]
+  },
+  {
+    "ref": "GEN 28:10",
+    "greek": "Καὶ ἐξῆλθεν Ιακωβ ἀπὸ τοῦ φρέατος τοῦ ὅρκου καὶ ἐπορεύθη εἰς Χαρραν.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 43",
+    "hint": "Jacob went out from the Well of the Oath and travelled to Haran.",
+    "notes": [
+      {
+        "lemma": "ἀπὸ τοῦ φρέατος τοῦ ὅρκου",
+        "flag": null,
+        "text": "The place named at 26:33, Beersheba."
+      }
+    ],
+    "reading": "And [[went out of|went out of, came out, went away and marched off, went forth]] [[name:Ιακωβ]] [[from|from, away from, far from, apart from]] [[of the well|of the well, of the tank and cistern and reservoir, of the oil jar]] [[of the object by which one swears|of the object by which one swears, of the witness of an oath, of the oath]] and [[was driven|was driven, was carried, went, walked, marched, went across and passed]] [[into|into, to, in, rest in]] [[name:Χαρραν]].",
+    "names": [
+      {
+        "greek": "Ιακωβ",
+        "unanchored": "Iakōb",
+        "anchored": "Jacob",
+        "bare": true
+      },
+      {
+        "greek": "Χαρραν",
+        "unanchored": "Charran",
+        "anchored": "Haran",
+        "gloss": "(Χαρραν, from Hebrew Ḥārān, of uncertain meaning)"
+      }
+    ]
+  },
+  {
+    "ref": "GEN 28:11",
+    "greek": "καὶ ἀπήντησεν τόπῳ καὶ ἐκοιμήθη ἐκεῖ· ἔδυ γὰρ ὁ ἥλιος· καὶ ἔλαβεν ἀπὸ τῶν λίθων τοῦ τόπου καὶ ἔθηκεν πρὸς κεφαλῆς αὐτοῦ καὶ ἐκοιμήθη ἐν τῷ τόπῳ ἐκείνῳ.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 43",
+    "hint": "He came upon a place and slept there, for the sun had set; and he took one of the stones of the place and put it at his head and slept in that place.",
+    "notes": [
+      {
+        "lemma": "ἀπήντησεν τόπῳ",
+        "flag": null,
+        "text": "ἀπαντάω with the dative, *to meet*."
+      },
+      {
+        "lemma": "ἔδυ",
+        "flag": null,
+        "text": "δύω, whose first sense is *to strip off*; of the sun, *to sink, set*."
+      },
+      {
+        "lemma": "πρὸς κεφαλῆς",
+        "flag": null,
+        "text": "πρός with the genitive, *at the head*."
+      },
+      {
+        "lemma": "ἔθηκεν",
+        "flag": "variant",
+        "text": "[[flag]] Codex Alexandrinus alone reads ἐπέθηκεν."
+      }
+    ],
+    "reading": "and [[moved from|moved from, met, met and encountered, came]] [[place|place, local circumstances, position, passage in a book, topic, common-place, occasion and opportunity]] and [[fell asleep|fell asleep, went abed and lay abed, slept, fell asleep and died, kept watch at night]] [[there|there, in that place]]; [[stripped off|stripped off, entered and made one's way into, went in to, sank and set]] for [[the sun|the sun, the day and a day, Helios the sun-god]]; and [[took|took, received, took hold of and grasped and seized]] [[from|from, away from, far from, apart from]] [[of the stones|of the stones, of the precious stones, of the marbles]] [[of the place|of the place, of the local circumstances, of the position, of the passage in a book, of the topic, of the common-place, of the occasion and opportunity]] and [[set|set, put, placed, planted, laid]] [[toward|toward, facing, oriented to, in living motion and address toward]] [[of head|of head, of the whole person, of the life, of the top, of the source, of the crown]] of him and [[fell asleep|fell asleep, went abed and lay abed, slept, fell asleep and died, kept watch at night]] [[in the place|within, inside of, and by means of the place, the local circumstances, the position, the passage in a book, the topic, the common-place, the occasion and opportunity]] [[that|that, in order that]].",
+    "names": []
+  },
+  {
+    "ref": "GEN 28:12",
+    "greek": "καὶ ἐνυπνιάσθη, καὶ ἰδοὺ κλίμαξ ἐστηριγμένη ἐν τῇ γῇ, ἧς ἡ κεφαλὴ ἀφικνεῖτο εἰς τὸν οὐρανόν, καὶ οἱ ἄγγελοι τοῦ θεοῦ ἀνέβαινον καὶ κατέβαινον ἐπʼ αὐτῆς.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 43",
+    "hint": "And he dreamed: a ladder fixed in the earth, whose top reached to heaven, and the angels of God going up and coming down on it.",
+    "notes": [
+      {
+        "lemma": "κλίμαξ ἐστηριγμένη",
+        "flag": null,
+        "text": "στηρίζω in the perfect passive, the standing state, as at 27:37."
+      },
+      {
+        "lemma": "ἐνυπνιάσθη",
+        "flag": null,
+        "text": "No Middle Liddell entry; LSJ's ἐνυπνιάζω is *dream*, and MorphGNT files the middle."
+      }
+    ],
+    "reading": "and [[dreamed|dreamed]], and [[lo|lo, behold, see there]] [[ladder|ladder, stairs, scaling-ladder]] [[having been made fast|having been made fast and standing so, having been propped, having been fixed, having been set, having been confirmed and established]] [[in the earth|within, inside of, and by means of the land, the dry ground, the terrestrial realm]], of which [[the head|the head, the whole person, the life, the top, the source, the crown]] [[was coming to|was coming to, was arriving at and reaching, was arriving]] [[into|into, to, in, rest in]] [[the heaven|the vaulted arch, the sky-expanse, the region above and over]] , and [[the messengers|the messengers and envoys, the ones that announce, the divine messengers and the angels]] [[of the God|of him who is God definitively, of the one the article marks out, of the known and the only]] [[were going up|were going up, were mounting, were going up to, were embarking]] and [[were stepping down|were stepping down, were going and coming down, were going down from, were dismounting, were coming down stairs, were going down from the inland parts to the sea, were coming to land and getting safe ashore, were going down into the arena, were coming down from the tribune, were coming to, were ending]] [[upon|upon, on, in, at, near]] her.",
+    "names": []
+  },
+  {
+    "ref": "GEN 28:13",
+    "greek": "ὁ δὲ κύριος ἐπεστήρικτο ἐπʼ αὐτῆς καὶ εἶπεν Ἐγὼ κύριος ὁ θεὸς Αβρααμ τοῦ πατρός σου καὶ ὁ θεὸς Ισαακ· μὴ φοβοῦ· ἡ γῆ, ἐφʼ ἧς σὺ καθεύδεις ἐπʼ αὐτῆς, σοὶ δώσω αὐτὴν καὶ τῷ σπέρματί σου.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 43",
+    "speech": ["Ἐγὼ"],
+    "hint": "And the Lord was leaning on it and said: I am the Lord, the God of Abraham your father and the God of Isaac; do not be afraid; the land you are sleeping on I will give to you and to your offspring.",
+    "notes": [
+      {
+        "lemma": "ἐπεστήρικτο",
+        "flag": null,
+        "text": "ἐπιστηρίζω in the pluperfect, the standing state in the past."
+      },
+      {
+        "lemma": "κύριος",
+        "flag": "variant",
+        "text": "[[flag]] Codex Alexandrinus leaves out the second κύριος; the Berlin papyrus, 911, has it."
+      },
+      {
+        "lemma": "Ἐγὼ",
+        "flag": null,
+        "text": "Capitalised because it opens direct speech, as Rahlfs prints it; listed in `speech` so the checks do not take it for a proper name."
+      }
+    ],
+    "reading": "[[but|but, however, whereas, on the other hand]], [[the lord|the lord, the master, the one having power and authority over]] [[had been made to lean on|had been made to lean on and stood so, had leaned upon]] [[upon|upon, on, in, at, near]] her and [[said|said, spoke, declared, called by name, told]] I [[lord|lord, master, the one having power and authority over]] [[the God|him who is God definitively, the one the article marks out, the known and the only]] [[name:Αβρααμ]] [[of the father|of the father, of the grandfather]] of you and [[the God|him who is God definitively, the one the article marks out, the known and the only]] [[name:Ισαακ]]; not [[be put to flight|be put to flight, flee affrighted, flee, be seized with fear, be affrighted, fear]]; [[the earth|the land, the dry ground, the terrestrial realm]], [[upon|upon, on, in, at, near]] of which you [[you lie down to sleep|you lie down to sleep, you sleep, you lie asleep and lie idle, you sleep and lie still and are at rest]] [[upon|upon, on, in, at, near]] her, to you [[I will give|I will give, I will grant, I will provide, I will give over and deliver up]] her and [[to that which is sown|to that which is sown, to the seed, to the germ and origin and element, to the offspring and issue, to the race and descent]] of you.",
+    "names": [
+      {
+        "greek": "Αβρααμ",
+        "unanchored": "Abraam",
+        "anchored": "Abraham",
+        "bare": true
+      },
+      {
+        "greek": "Ισαακ",
+        "unanchored": "Isaak",
+        "anchored": "Isaac",
+        "bare": true
+      }
+    ]
+  },
+  {
+    "ref": "GEN 28:14",
+    "greek": "καὶ ἔσται τὸ σπέρμα σου ὡς ἡ ἄμμος τῆς γῆς καὶ πλατυνθήσεται ἐπὶ θάλασσαν καὶ ἐπὶ λίβα καὶ ἐπὶ βορρᾶν καὶ ἐπʼ ἀνατολάς, καὶ ἐνευλογηθήσονται ἐν σοὶ πᾶσαι αἱ φυλαὶ τῆς γῆς καὶ ἐν τῷ σπέρματί σου.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 43",
+    "hint": "And your offspring will be like the sand of the earth and will spread to the sea and to the south-west and to the north and to the east, and in you and in your offspring all the tribes of the earth will be blessed.",
+    "notes": [
+      {
+        "lemma": "ἡ ἄμμος τῆς γῆς",
+        "flag": null,
+        "text": "The Hebrew is *kaʿăpar hāʾāreṣ*, *as the dust of the earth*. The Greek has ἄμμος, *sand*."
+      },
+      {
+        "lemma": "αἱ φυλαί",
+        "flag": null,
+        "text": "φυλή, the chain of GEN 10:18: the tribes, where 22:18 has τὰ ἔθνη."
+      }
+    ],
+    "reading": "and will be [[that which is sown|that which is sown, the seed, the germ and origin and element, the offspring and issue, the race and descent]] of you [[as|as, according as, considering, like]] [[the sand|the sand, the sandy ground and race-course]] [[of the earth|of the land, of the dry ground, of the terrestrial realm]] and [[will be made broad|will be made broad, will be widened, will be enlarged]] [[upon|upon, on, in, at, near]] [[sea|sea, the Mediterranean, a well of salt water]] and [[upon|upon, on, in, at, near]] south-west wind and [[upon|upon, on, in, at, near]] [[north wind|north wind, the north]] and [[upon|upon, on, in, at, near]] [[risings|risings, rises, the quarter of sunrise, the east]], and will be blessed in in you [[all|all, the whole, every, every single]] [[the races|the races, the tribes, the bodies united by ties of blood and descent, the clans, the tribes by local habitation, the hundreds and counties, the contingents furnished by a tribe, the brigades]] [[of the earth|of the land, of the dry ground, of the terrestrial realm]] and [[in that which is sown|within, inside of, and by means of that which is sown, the seed, the germ and origin and element, the offspring and issue, the race and descent]] of you.",
+    "names": []
+  },
+  {
+    "ref": "GEN 28:15",
+    "greek": "καὶ ἰδοὺ ἐγὼ μετὰ σοῦ διαφυλάσσων σε ἐν τῇ ὁδῷ πάσῃ, οὗ ἐὰν πορευθῇς, καὶ ἀποστρέψω σε εἰς τὴν γῆν ταύτην, ὅτι οὐ μή σε ἐγκαταλίπω ἕως τοῦ ποιῆσαί με πάντα, ὅσα ἐλάλησά σοι.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 43",
+    "hint": "And here I am with you, guarding you in every way you go, and I will bring you back to this land, for I will not leave you until I have done all that I have told you.",
+    "notes": [
+      {
+        "lemma": "οὗ ἐὰν πορευθῇς",
+        "flag": null,
+        "text": "*Wherever you go*, ἐάν after the relative adverb."
+      },
+      {
+        "lemma": "οὐ μή σε ἐγκαταλίπω",
+        "flag": null,
+        "text": "The double negative with the aorist subjunctive, as at 24:33."
+      }
+    ],
+    "reading": "and [[lo|lo, behold, see there]] I [[in the midst of|in the midst of, among, in common, along with, with, by means of]] you [[watching closely|watching closely, guarding carefully, observing closely, observing and maintaining, guarding against]] you [[in the way|within, inside of, and by means of the way, the path, the track, the road, the highway, the course, the journey, the manner and method]] [[all|all, the whole, every, every single]], where ever [[you may be driven|you may be driven, you may be carried, you may go, you may walk, you may march, you may go across and pass]], and [[I will turn|I will turn, I will turn back, I will turn away, I will turn myself about, I will bring back]] you [[into|into, to, in, rest in]] [[the earth|the land, the dry ground, the terrestrial realm]] [[this|this, the nearer, what follows]], [[that|that, seeing that, although, for that, because, inasmuch as]] not not you [[I may leave behind|I may leave behind, I may leave in the lurch, I may leave out and omit]] [[until|until, till, while, so long as]] [[to make|to make, to do, to produce, to create]] me [[all|all, the whole, every, every single]], [[as great as|as great as, as much as, as far as, as long as, as many as]] [[I talked|I talked, I chatted, I prattled, I babbled, I said, I talked of, I spoke, I chattered, I chirped]] to you.",
+    "names": []
+  },
+  {
+    "ref": "GEN 28:16",
+    "greek": "καὶ ἐξηγέρθη Ιακωβ ἀπὸ τοῦ ὕπνου αὐτοῦ καὶ εἶπεν ὅτι Ἔστιν κύριος ἐν τῷ τόπῳ τούτῳ, ἐγὼ δὲ οὐκ ᾔδειν.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 43",
+    "speech": ["Ἔστιν"],
+    "hint": "Jacob woke from his sleep and said: The Lord is in this place, and I did not know it.",
+    "notes": [
+      {
+        "lemma": "ᾔδειν",
+        "flag": null,
+        "text": "The pluperfect of οἶδα, the chain of GEN 3:5."
+      },
+      {
+        "lemma": "Ἔστιν",
+        "flag": null,
+        "text": "Capitalised because it opens direct speech, as Rahlfs prints it; listed in `speech` so the checks do not take it for a proper name."
+      }
+    ],
+    "reading": "and [[was awakened|was awakened, was awaked and woke up, was raised from the dead, was aroused and brought on]] [[name:Ιακωβ]] [[from|from, away from, far from, apart from]] [[of the sleep|of the sleep, of the slumber, of the sleep of death]] of him and [[said|said, spoke, declared, called by name, told]] [[that|that, seeing that, although, for that, because, inasmuch as]] is [[lord|lord, master, the one having power and authority over]] [[in the place|within, inside of, and by means of the place, the local circumstances, the position, the passage in a book, the topic, the common-place, the occasion and opportunity]] [[this|this, the nearer, what follows]], I [[but|but, however, whereas, on the other hand]], not [[I knew|I knew, I was assured, I was versed in]].",
+    "names": [
+      {
+        "greek": "Ιακωβ",
+        "unanchored": "Iakōb",
+        "anchored": "Jacob",
+        "bare": true
+      }
+    ]
+  },
+  {
+    "ref": "GEN 28:17",
+    "greek": "καὶ ἐφοβήθη καὶ εἶπεν Ὡς φοβερὸς ὁ τόπος οὗτος· οὐκ ἔστιν τοῦτο ἀλλʼ ἢ οἶκος θεοῦ, καὶ αὕτη ἡ πύλη τοῦ οὐρανοῦ.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 43",
+    "speech": ["Ὡς"],
+    "hint": "And he was afraid and said: How fearful is this place; this is nothing but the house of God, and this is the gate of heaven.",
+    "notes": [
+      {
+        "lemma": "Ὡς φοβερός",
+        "flag": null,
+        "text": "ὡς in exclamation, *how*: the adverb, not the comparative conjunction."
+      },
+      {
+        "lemma": "οἶκος θεοῦ",
+        "flag": null,
+        "text": "θεός without the article, the chain of GEN 1:2."
+      },
+      {
+        "lemma": "Ὡς",
+        "flag": null,
+        "text": "Capitalised because it opens direct speech, as Rahlfs prints it; listed in `speech` so the checks do not take it for a proper name."
+      }
+    ],
+    "reading": "and [[was put to flight|was put to flight, fled affrighted, fled, was seized with fear, was affrighted, feared]] and [[said|said, spoke, declared, called by name, told]] [[as|as, according as, considering, like]] [[fearful|fearful, causing fear and dreadful and terrible, matter for fear and regarded with fear]] [[the place|the place, the local circumstances, the position, the passage in a book, the topic, the common-place, the occasion and opportunity]] [[this|this, the nearer, what follows]]; not is [[this|this, the nearer, what follows]] [[otherwise|otherwise, but, except, yet, but then and however, but really and certainly]] [[or|or, either or, whether or, than and as, rather]] [[house|house, abode and dwelling, room and chamber, house of a god and temple, household goods and substance, household and family]] [[of God|God's own, divine in character]], and [[this|this, the nearer, what follows]] [[the one wing of a pair of double gates|the one wing of a pair of double gates, the gates of a town, the house-door, the nether world and hell, the entrance, the orifice, the entrance into a country through mountains and the mountain-pass, the narrow straits]] [[of the heaven|of the heaven, of the vault, of the firmament and the sky]].",
+    "names": []
+  },
+  {
+    "ref": "GEN 28:18",
+    "greek": "καὶ ἀνέστη Ιακωβ τὸ πρωὶ καὶ ἔλαβεν τὸν λίθον, ὃν ὑπέθηκεν ἐκεῖ πρὸς κεφαλῆς αὐτοῦ, καὶ ἔστησεν αὐτὸν στήλην καὶ ἐπέχεεν ἔλαιον ἐπὶ τὸ ἄκρον αὐτῆς.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 43",
+    "hint": "Jacob got up in the morning and took the stone he had put at his head and set it up as a pillar and poured oil on its top.",
+    "notes": [
+      {
+        "lemma": "στήλην",
+        "flag": null,
+        "text": "στήλη is first *a block of stone*, then *a monument, gravestone*."
+      },
+      {
+        "lemma": "ὑπέθηκεν",
+        "flag": "variant",
+        "text": "[[flag]] Codex Alexandrinus reads ἔθηκεν; the Berlin papyrus, 911, has ὑπέθηκεν."
+      }
+    ],
+    "reading": "and [[stood up|stood up, rose, rose to fight against, rose to go and set out]] [[name:Ιακωβ]] the [[early in the day|early in the day, early, at morn, betimes, in good time, too soon and too early]] and [[took|took, received, took hold of and grasped and seized]] [[the stone|the stone, the precious stone, the marble]], which [[placed under|placed under, placed under one's feet, placed under as a foundation, suggested and advised, set before, pledged and mortgaged]] [[there|there, in that place]] [[toward|toward, facing, oriented to, in living motion and address toward]] [[of head|of head, of the whole person, of the life, of the top, of the source, of the crown]] of him, and [[made to stand|made to stand, set, stopped and stayed and checked, set up and raised, established and instituted, appointed, weighed]] him [[block of stone|block of stone, monument, gravestone, pillar]] and [[poured water over|poured water over, poured]] [[olive-oil|olive-oil]] [[upon|upon, on, in, at, near]] [[the mountain-top|the mountain-top, the peak, the headland and foreland and cape, the end and extremity]] of her.",
+    "names": [
+      {
+        "greek": "Ιακωβ",
+        "unanchored": "Iakōb",
+        "anchored": "Jacob",
+        "bare": true
+      }
+    ]
+  },
+  {
+    "ref": "GEN 28:19",
+    "greek": "καὶ ἐκάλεσεν Ιακωβ τὸ ὄνομα τοῦ τόπου ἐκείνου Οἶκος θεοῦ· καὶ Ουλαμλους ἦν ὄνομα τῇ πόλει τὸ πρότερον.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 43",
+    "hint": "And Jacob called the name of that place House of God; and the city's name before that was Ulamlous.",
+    "notes": [
+      {
+        "lemma": "Οἶκος θεοῦ",
+        "flag": null,
+        "text": "The Greek of the Hebrew Bêt-ʾĒl, Bethel, printed as the name, with Rahlfs's capital."
+      },
+      {
+        "lemma": "Ουλαμλους",
+        "flag": "variant",
+        "text": "[[flag]] Rahlfs prints Ουλαμλους; Codex Alexandrinus reads ουλαμμαυς."
+      }
+    ],
+    "reading": "and [[called|called, summoned, called to himself, invited]] [[name:Ιακωβ]] [[the name|the name, the fame, the mere name, the phrase and expression]] [[of the place|of the place, of the local circumstances, of the position, of the passage in a book, of the topic, of the common-place, of the occasion and opportunity]] [[of that|of that, of the one there, of the more remote]] [[name:Οἶκος]] [[of God|God's own, divine in character]]; and [[name:Ουλαμλους]] was, and kept on being as a standing and continuing condition and not a momentary one, [[a name|a name, fame, a mere name, a phrase and expression]] [[to the city|to the city, to the citadel, to the country, to the body of citizens, to the state]] the [[before|before, in front of, further on, sooner, rather than]].",
+    "names": [
+      {
+        "greek": "Ιακωβ",
+        "unanchored": "Iakōb",
+        "anchored": "Jacob",
+        "bare": true
+      },
+      {
+        "greek": "Οἶκος",
+        "unanchored": "Oikos",
+        "anchored": "House",
+        "gloss": "(Οἶκος θεοῦ, \"house of God\", the Greek of Hebrew Bêt-ʾĒl, Bethel)"
+      },
+      {
+        "greek": "Ουλαμλους",
+        "unanchored": "Oulamlous",
+        "anchored": "Ulamlous",
+        "gloss": "(Ουλαμλους, for Hebrew Lûz, Luz, with ʾûlām, \"but\", read into the name)"
+      }
+    ]
+  },
+  {
+    "ref": "GEN 28:20",
+    "greek": "καὶ ηὔξατο Ιακωβ εὐχὴν λέγων Ἐὰν ᾖ κύριος ὁ θεὸς μετʼ ἐμοῦ καὶ διαφυλάξῃ με ἐν τῇ ὁδῷ ταύτῃ, ᾗ ἐγὼ πορεύομαι, καὶ δῷ μοι ἄρτον φαγεῖν καὶ ἱμάτιον περιβαλέσθαι",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 43",
+    "speech": ["Ἐὰν"],
+    "hint": "And Jacob vowed a vow: If the Lord God is with me and guards me on this way I am going, and gives me bread to eat and clothing to put on,",
+    "notes": [
+      {
+        "lemma": "ηὔξατο εὐχήν",
+        "flag": null,
+        "text": "The cognate accusative: εὔχομαι with εὐχή."
+      },
+      {
+        "lemma": "Ἐὰν",
+        "flag": null,
+        "text": "Capitalised because it opens direct speech, as Rahlfs prints it; listed in `speech` so the checks do not take it for a proper name."
+      }
+    ],
+    "reading": "and [[prayed|prayed, offered prayers, paid his vows, made a vow, prayed for]] [[name:Ιακωβ]] [[prayer|prayer, vow, a mere wish and an aspiration, a prayer for evil, an imprecation]] [[saying|saying, speaking, declaring, calling by name, telling]] if [[may be|may be]] [[lord|lord, master, the one having power and authority over]] [[the God|him who is God definitively, the one the article marks out, the known and the only]] [[in the midst of|in the midst of, among, in common, along with, with, by means of]] me and [[may watch closely|may watch closely, may guard carefully, may observe closely, may observe and maintain, may guard against]] me [[in the way|within, inside of, and by means of the way, the path, the track, the road, the highway, the course, the journey, the manner and method]] [[this|this, the nearer, what follows]], to which I [[I am driven|I am driven, I am carried, I go, I walk, I march, I go across and pass]], and [[may give|may give, may grant, may provide, may give over and deliver up]] to me [[cake|cake, loaf of wheat-bread, bread]] [[to eat|to eat, to eat of]] and [[outer garment|outer garment, cloak, mantle, clothes]] [[to throw round oneself|to throw round oneself, to put on, to throw round oneself for defence, to build round, to surround and enclose for oneself, to bring into one's power and aim at, to cloke and veil]]",
+    "names": [
+      {
+        "greek": "Ιακωβ",
+        "unanchored": "Iakōb",
+        "anchored": "Jacob",
+        "bare": true
+      }
+    ]
+  },
+  {
+    "ref": "GEN 28:21",
+    "greek": "καὶ ἀποστρέψῃ με μετὰ σωτηρίας εἰς τὸν οἶκον τοῦ πατρός μου, καὶ ἔσται μοι κύριος εἰς θεόν,",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 43",
+    "hint": "and brings me back safely to my father's house, then the Lord will be my God,",
+    "notes": [
+      {
+        "lemma": "εἰς θεόν",
+        "flag": null,
+        "text": "θεός without the article, the qualitative chain of GEN 17:7."
+      }
+    ],
+    "reading": "and [[may turn|may turn, may turn back, may turn away, may turn himself about, may bring back]] me [[in the midst of|in the midst of, among, in common, along with, with, by means of]] [[of a saving|of a saving, of deliverance, of preservation, of safety, of a safe return, of a keeping safe, of security and a guarantee for safety]] [[into|into, to, in, rest in]] [[the house|the house, the abode and dwelling, the room and chamber, the house of a god and temple, the household goods and substance, the household and family]] [[of the father|of the father, of the grandfather]] of me, and will be to me [[lord|lord, master, the one having power and authority over]] [[into|into, to, in, rest in]] [[God|everything that God is by nature, deity in full and undiminished kind]],",
+    "names": []
+  },
+  {
+    "ref": "GEN 28:22",
+    "greek": "καὶ ὁ λίθος οὗτος, ὃν ἔστησα στήλην, ἔσται μοι οἶκος θεοῦ, καὶ πάντων, ὧν ἐάν μοι δῷς, δεκάτην ἀποδεκατώσω αὐτά σοι.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 43",
+    "hint": "and this stone I have set up as a pillar will be God's house to me; and of all you give me I will tithe a tenth to you.",
+    "notes": [
+      {
+        "lemma": "δεκάτην ἀποδεκατώσω",
+        "flag": null,
+        "text": "The cognate accusative again: δεκάτη with ἀποδεκατόω, as at 14:20."
+      }
+    ],
+    "reading": "and [[the stone|the stone, the precious stone, the marble]] [[this|this, the nearer, what follows]], which [[I made to stand|I made to stand, I set, I stopped and stayed and checked, I set up and raised, I established and instituted, I appointed, I weighed]] [[block of stone|block of stone, monument, gravestone, pillar]], will be to me [[house|house, abode and dwelling, room and chamber, house of a god and temple, household goods and substance, household and family]] [[of God|God's own, divine in character]], and [[of all|of all, of the whole, of every, of every single]], of which ever to me [[you may give|you may give, you may grant, you may provide, you may give over and deliver up]], [[a tenth|a tenth]] [[I will tithe|I will tithe, I will pay tithes of, I will take tithe]] them to you.",
+    "names": []
+  }
+]

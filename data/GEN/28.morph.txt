@@ -1,0 +1,554 @@
+# Genesis 28 — morphology, one word per line.
+#
+# This is the project's own grammatical analysis of each form, written alongside the
+# transcription and not copied from any digital edition.
+#
+# Columns: verse, part of speech, parse, form, lemma — in MorphGNT's code scheme, so
+# the Old and New Testament layers read alike. The parse is eight places: person,
+# tense, voice, mood, case, number, gender, degree ("-" where it does not apply).
+#
+# Two codes go beyond MorphGNT, both to record only what the form itself says:
+#   voice  E  middle/passive — a tense in which the two share one form
+#   gender C  masculine/feminine — an adjective whose form does not distinguish them
+#
+# A trailing annotation records a deliberate difference and the reason for it:
+#   "# module …"  from the reference module, checked when LXX_RAHLFS_DIR is set
+#   "# corpus …"  from this project's own analysis of the same form elsewhere
+# A line may carry both. validate.py prints them as notes instead of failures — and
+# fails if the difference a note claims is not there, so they cannot go stale. The
+# analysis here is this project's own: the module is a reference, not an authority,
+# and the corpus is held to itself.
+#
+# Indeclinables take case and number from the syntax, as MorphGNT does, and gender
+# where there is one to take: a personal name, from the person; a numeral agreeing
+# with its noun; a common noun whose article shows it — but not an indeclinable place
+# name, which has none. A personal name the New Testament also uses takes MorphGNT's
+# dictionary form (Νῶε, Σήμ); every other Semitic name (Χαμ, Ιαφεθ), the form Rahlfs
+# prints.
+28:1 V- -AMPNSM- προσκαλεσάμενος προσκαλέω
+28:1 C- -------- δὲ δέ
+28:1 N- ----NSM- Ισαακ Ἰσαάκ
+28:1 RA ----ASM- τὸν ὁ
+28:1 N- ----ASM- Ιακωβ Ἰακώβ
+28:1 V- 3AAI-S-- εὐλόγησεν εὐλογέω
+28:1 RP ----ASM- αὐτὸν αὐτός
+28:1 C- -------- καὶ καί
+28:1 V- 3AMI-S-- ἐνετείλατο ἐντέλλομαι
+28:1 RP ----DSM- αὐτῷ αὐτός
+28:1 V- -PAPNSM- λέγων λέγω
+28:1 D- -------- Οὐ οὐ
+28:1 V- 2FMI-S-- λήμψῃ λαμβάνω
+28:1 N- ----ASF- γυναῖκα γυνή
+28:1 P- -------- ἐκ ἐκ
+28:1 RA ----GPF- τῶν ὁ
+28:1 N- ----GPF- θυγατέρων θυγάτηρ
+28:1 N- ----GS-- Χανααν Χανάαν  # module lemma Χαναάν — Χανάαν, as MorphGNT files it
+28:2 V- -AAPNSM- ἀναστὰς ἀνίστημι
+28:2 V- 2AAD-S-- ἀπόδραθι ἀποδιδράσκω
+28:2 P- -------- εἰς εἰς
+28:2 RA ----ASF- τὴν ὁ
+28:2 N- ----ASF- Μεσοποταμίαν Μεσοποταμία
+28:2 P- -------- εἰς εἰς
+28:2 RA ----ASM- τὸν ὁ
+28:2 N- ----ASM- οἶκον οἶκος
+28:2 N- ----GSM- Βαθουηλ Βαθουηλ  # module ASM — the genitive after οἶκον, the house of Bathuel
+28:2 RA ----GSM- τοῦ ὁ
+28:2 N- ----GSM- πατρὸς πατήρ
+28:2 RA ----GSF- τῆς ὁ
+28:2 N- ----GSF- μητρός μήτηρ
+28:2 RP ----GS-- σου σύ  # module lemma σοῦ, the form itself — σύ is the dictionary form
+28:2 C- -------- καὶ καί
+28:2 V- 2AAD-S-- λαβὲ λαμβάνω
+28:2 RP ----DSM- σεαυτῷ σεαυτοῦ
+28:2 D- -------- ἐκεῖθεν ἐκεῖθεν
+28:2 N- ----ASF- γυναῖκα γυνή
+28:2 P- -------- ἐκ ἐκ
+28:2 RA ----GPF- τῶν ὁ
+28:2 N- ----GPF- θυγατέρων θυγάτηρ
+28:2 N- ----GSM- Λαβαν Λαβαν
+28:2 RA ----GSM- τοῦ ὁ
+28:2 N- ----GSM- ἀδελφοῦ ἀδελφός
+28:2 RA ----GSF- τῆς ὁ
+28:2 N- ----GSF- μητρός μήτηρ
+28:2 RP ----GS-- σου σύ  # module lemma σοῦ, the form itself — σύ is the dictionary form
+28:3 RA ----NSM- ὁ ὁ
+28:3 C- -------- δὲ δέ
+28:3 N- ----NSM- θεός θεός
+28:3 RP ----GS-- μου ἐγώ  # module lemma μου, the form itself — ἐγώ is the dictionary form
+28:3 V- 3AAO-S-- εὐλογήσαι εὐλογέω
+28:3 RP ----AS-- σε σύ  # module lemma σέ, the form itself — σύ is the dictionary form
+28:3 C- -------- καὶ καί
+28:3 V- 3AAO-S-- αὐξήσαι αὐξάνω
+28:3 RP ----AS-- σε σύ  # module lemma σέ, the form itself — σύ is the dictionary form
+28:3 C- -------- καὶ καί
+28:3 V- 3AAO-S-- πληθύναι πληθύνω
+28:3 RP ----AS-- σε σύ  # module lemma σέ, the form itself — σύ is the dictionary form
+28:3 C- -------- καὶ καί
+28:3 V- 2FMI-S-- ἔσῃ εἰμί
+28:3 P- -------- εἰς εἰς
+28:3 N- ----APF- συναγωγὰς συναγωγή
+28:3 N- ----GPN- ἐθνῶν ἔθνος
+28:4 C- -------- καὶ καί
+28:4 V- 3AAO-S-- δῴη δίδωμι
+28:4 RP ----DS-- σοι σύ  # module lemma σοί, the form itself — σύ is the dictionary form
+28:4 RA ----ASF- τὴν ὁ
+28:4 N- ----ASF- εὐλογίαν εὐλογία
+28:4 N- ----GSM- Αβρααμ Ἀβραάμ
+28:4 RA ----GSM- τοῦ ὁ
+28:4 N- ----GSM- πατρός πατήρ
+28:4 RP ----GS-- μου ἐγώ  # module lemma μου, the form itself — ἐγώ is the dictionary form
+28:4 RP ----DS-- σοὶ σύ  # module lemma σοί, the form itself — σύ is the dictionary form
+28:4 C- -------- καὶ καί
+28:4 RA ----DSN- τῷ ὁ
+28:4 N- ----DSN- σπέρματί σπέρμα
+28:4 RP ----GS-- σου σύ  # module lemma σοῦ, the form itself — σύ is the dictionary form
+28:4 P- -------- μετὰ μετά
+28:4 RP ----AS-- σέ σύ  # module lemma σέ, the form itself — σύ is the dictionary form
+28:4 V- -AAN---- κληρονομῆσαι κληρονομέω
+28:4 RA ----ASF- τὴν ὁ
+28:4 N- ----ASF- γῆν γῆ
+28:4 RA ----GSF- τῆς ὁ
+28:4 N- ----GSF- παροικήσεώς παροίκησις
+28:4 RP ----GS-- σου σύ  # module lemma σοῦ, the form itself — σύ is the dictionary form
+28:4 RR ----ASF- ἣν ὅς
+28:4 V- 3AAI-S-- ἔδωκεν δίδωμι
+28:4 RA ----NSM- ὁ ὁ
+28:4 N- ----NSM- θεὸς θεός
+28:4 RA ----DSM- τῷ ὁ
+28:4 N- ----DSM- Αβρααμ Ἀβραάμ
+28:5 C- -------- καὶ καί
+28:5 V- 3AAI-S-- ἀπέστειλεν ἀποστέλλω
+28:5 N- ----NSM- Ισαακ Ἰσαάκ
+28:5 RA ----ASM- τὸν ὁ
+28:5 N- ----ASM- Ιακωβ Ἰακώβ
+28:5 C- -------- καὶ καί
+28:5 V- 3API-S-- ἐπορεύθη πορεύομαι
+28:5 P- -------- εἰς εἰς
+28:5 RA ----ASF- τὴν ὁ
+28:5 N- ----ASF- Μεσοποταμίαν Μεσοποταμία
+28:5 P- -------- πρὸς πρός
+28:5 N- ----ASM- Λαβαν Λαβαν
+28:5 RA ----ASM- τὸν ὁ
+28:5 N- ----ASM- υἱὸν υἱός
+28:5 N- ----GSM- Βαθουηλ Βαθουηλ
+28:5 RA ----GSM- τοῦ ὁ
+28:5 N- ----GSM- Σύρου Σύρος
+28:5 N- ----ASM- ἀδελφὸν ἀδελφός
+28:5 C- -------- δὲ δέ
+28:5 N- ----GSF- Ρεβεκκας Ῥεβέκκα
+28:5 RA ----GSF- τῆς ὁ
+28:5 N- ----GSF- μητρὸς μήτηρ
+28:5 N- ----GSM- Ιακωβ Ἰακώβ
+28:5 C- -------- καὶ καί
+28:5 N- ----GSM- Ησαυ Ἠσαῦ
+28:6 V- 3AAI-S-- Εἶδεν ὁράω  # module lemma εἴδω — Middle Liddell files this under οἶδα
+28:6 C- -------- δὲ δέ
+28:6 N- ----NSM- Ησαυ Ἠσαῦ
+28:6 C- -------- ὅτι ὅτι
+28:6 V- 3AAI-S-- εὐλόγησεν εὐλογέω
+28:6 N- ----NSM- Ισαακ Ἰσαάκ
+28:6 RA ----ASM- τὸν ὁ
+28:6 N- ----ASM- Ιακωβ Ἰακώβ
+28:6 C- -------- καὶ καί
+28:6 V- 3IEI-S-- ἀπῴχετο ἀποίχομαι
+28:6 P- -------- εἰς εἰς
+28:6 RA ----ASF- τὴν ὁ
+28:6 N- ----ASF- Μεσοποταμίαν Μεσοποταμία
+28:6 N- ----GSF- Συρίας Συρία
+28:6 V- -AAN---- λαβεῖν λαμβάνω
+28:6 RP ----DSM- ἑαυτῷ ἑαυτοῦ
+28:6 D- -------- ἐκεῖθεν ἐκεῖθεν
+28:6 N- ----ASF- γυναῖκα γυνή
+28:6 P- -------- ἐν ἐν
+28:6 RA ----DSN- τῷ ὁ
+28:6 V- -PAN---- εὐλογεῖν εὐλογέω
+28:6 RP ----ASM- αὐτὸν αὐτός
+28:6 C- -------- καὶ καί
+28:6 V- 3AMI-S-- ἐνετείλατο ἐντέλλομαι
+28:6 RP ----DSM- αὐτῷ αὐτός
+28:6 V- -PAPNSM- λέγων λέγω
+28:6 D- -------- Οὐ οὐ
+28:6 V- 2FMI-S-- λήμψῃ λαμβάνω
+28:6 N- ----ASF- γυναῖκα γυνή
+28:6 P- -------- ἀπὸ ἀπό
+28:6 RA ----GPF- τῶν ὁ
+28:6 N- ----GPF- θυγατέρων θυγάτηρ
+28:6 N- ----GS-- Χανααν Χανάαν  # module lemma Χαναάν — Χανάαν, as MorphGNT files it
+28:7 C- -------- καὶ καί
+28:7 V- 3AAI-S-- ἤκουσεν ἀκούω
+28:7 N- ----NSM- Ιακωβ Ἰακώβ
+28:7 RA ----GSM- τοῦ ὁ
+28:7 N- ----GSM- πατρὸς πατήρ
+28:7 C- -------- καὶ καί
+28:7 RA ----GSF- τῆς ὁ
+28:7 N- ----GSF- μητρὸς μήτηρ
+28:7 RP ----GSM- αὐτοῦ αὐτός
+28:7 C- -------- καὶ καί
+28:7 V- 3API-S-- ἐπορεύθη πορεύομαι
+28:7 P- -------- εἰς εἰς
+28:7 RA ----ASF- τὴν ὁ
+28:7 N- ----ASF- Μεσοποταμίαν Μεσοποταμία
+28:7 N- ----GSF- Συρίας Συρία
+28:8 C- -------- καὶ καί
+28:8 V- 3AAI-S-- εἶδεν ὁράω
+28:8 N- ----NSM- Ησαυ Ἠσαῦ
+28:8 C- -------- ὅτι ὅτι
+28:8 A- ----NPF- πονηραί πονηρός
+28:8 V- 3PAI-P-- εἰσιν εἰμί
+28:8 RA ----NPF- αἱ ὁ
+28:8 N- ----NPF- θυγατέρες θυγάτηρ
+28:8 N- ----GS-- Χανααν Χανάαν  # module lemma Χαναάν — Χανάαν, as MorphGNT files it
+28:8 P- -------- ἐναντίον ἐναντίον
+28:8 N- ----GSM- Ισαακ Ἰσαάκ
+28:8 RA ----GSM- τοῦ ὁ
+28:8 N- ----GSM- πατρὸς πατήρ
+28:8 RP ----GSM- αὐτοῦ αὐτός
+28:9 C- -------- καὶ καί
+28:9 V- 3API-S-- ἐπορεύθη πορεύομαι
+28:9 N- ----NSM- Ησαυ Ἠσαῦ
+28:9 P- -------- πρὸς πρός
+28:9 N- ----ASM- Ισμαηλ Ισμαηλ
+28:9 C- -------- καὶ καί
+28:9 V- 3AAI-S-- ἔλαβεν λαμβάνω
+28:9 RA ----ASF- τὴν ὁ
+28:9 N- ----ASF- Μαελεθ Μαελεθ
+28:9 N- ----ASF- θυγατέρα θυγάτηρ
+28:9 N- ----GSM- Ισμαηλ Ισμαηλ
+28:9 RA ----GSM- τοῦ ὁ
+28:9 N- ----GSM- υἱοῦ υἱός
+28:9 N- ----GSM- Αβρααμ Ἀβραάμ
+28:9 N- ----ASF- ἀδελφὴν ἀδελφή
+28:9 N- ----GSM- Ναβαιωθ Ναβαιωθ
+28:9 P- -------- πρὸς πρός
+28:9 RA ----DPF- ταῖς ὁ
+28:9 N- ----DPF- γυναιξὶν γυνή
+28:9 RP ----GSM- αὐτοῦ αὐτός
+28:9 N- ----ASF- γυναῖκα γυνή
+28:10 C- -------- Καὶ καί
+28:10 V- 3AAI-S-- ἐξῆλθεν ἐξέρχομαι
+28:10 N- ----NSM- Ιακωβ Ἰακώβ
+28:10 P- -------- ἀπὸ ἀπό
+28:10 RA ----GSN- τοῦ ὁ
+28:10 N- ----GSN- φρέατος φρέαρ
+28:10 RA ----GSM- τοῦ ὁ
+28:10 N- ----GSM- ὅρκου ὅρκος
+28:10 C- -------- καὶ καί
+28:10 V- 3API-S-- ἐπορεύθη πορεύομαι
+28:10 P- -------- εἰς εἰς
+28:10 N- ----AS-- Χαρραν Χαρράν  # module GS — the accusative after εἰς
+28:11 C- -------- καὶ καί
+28:11 V- 3AAI-S-- ἀπήντησεν ἀπαντάω
+28:11 N- ----DSM- τόπῳ τόπος
+28:11 C- -------- καὶ καί
+28:11 V- 3API-S-- ἐκοιμήθη κοιμάω
+28:11 D- -------- ἐκεῖ ἐκεῖ
+28:11 V- 3AAI-S-- ἔδυ δύω  # module lemma δύνω — δύω, as Middle Liddell heads it
+28:11 C- -------- γὰρ γάρ
+28:11 RA ----NSM- ὁ ὁ
+28:11 N- ----NSM- ἥλιος ἥλιος
+28:11 C- -------- καὶ καί
+28:11 V- 3AAI-S-- ἔλαβεν λαμβάνω
+28:11 P- -------- ἀπὸ ἀπό
+28:11 RA ----GPM- τῶν ὁ
+28:11 N- ----GPM- λίθων λίθος
+28:11 RA ----GSM- τοῦ ὁ
+28:11 N- ----GSM- τόπου τόπος
+28:11 C- -------- καὶ καί
+28:11 V- 3AAI-S-- ἔθηκεν τίθημι
+28:11 P- -------- πρὸς πρός
+28:11 N- ----GSF- κεφαλῆς κεφαλή
+28:11 RP ----GSM- αὐτοῦ αὐτός
+28:11 C- -------- καὶ καί
+28:11 V- 3API-S-- ἐκοιμήθη κοιμάω
+28:11 P- -------- ἐν ἐν
+28:11 RA ----DSM- τῷ ὁ
+28:11 N- ----DSM- τόπῳ τόπος
+28:11 RD ----DSM- ἐκείνῳ ἐκεῖνος
+28:12 C- -------- καὶ καί
+28:12 V- 3API-S-- ἐνυπνιάσθη ἐνυπνιάζομαι
+28:12 C- -------- καὶ καί
+28:12 X- -------- ἰδοὺ ἰδού
+28:12 N- ----NSF- κλίμαξ κλίμαξ  # module lemma κλῖμαξ — κλίμαξ, the spelling Rahlfs prints
+28:12 V- -XEPNSF- ἐστηριγμένη στηρίζω
+28:12 P- -------- ἐν ἐν
+28:12 RA ----DSF- τῇ ὁ
+28:12 N- ----DSF- γῇ γῆ
+28:12 RR ----GSF- ἧς ὅς
+28:12 RA ----NSF- ἡ ὁ
+28:12 N- ----NSF- κεφαλὴ κεφαλή
+28:12 V- 3IEI-S-- ἀφικνεῖτο ἀφικνέομαι
+28:12 P- -------- εἰς εἰς
+28:12 RA ----ASM- τὸν ὁ
+28:12 N- ----ASM- οὐρανόν οὐρανός
+28:12 C- -------- καὶ καί
+28:12 RA ----NPM- οἱ ὁ
+28:12 N- ----NPM- ἄγγελοι ἄγγελος
+28:12 RA ----GSM- τοῦ ὁ
+28:12 N- ----GSM- θεοῦ θεός
+28:12 V- 3IAI-P-- ἀνέβαινον ἀναβαίνω
+28:12 C- -------- καὶ καί
+28:12 V- 3IAI-P-- κατέβαινον καταβαίνω
+28:12 P- -------- ἐπʼ ἐπί
+28:12 RP ----GSF- αὐτῆς αὐτός
+28:13 RA ----NSM- ὁ ὁ
+28:13 C- -------- δὲ δέ
+28:13 N- ----NSM- κύριος κύριος
+28:13 V- 3YEI-S-- ἐπεστήρικτο ἐπιστηρίζω
+28:13 P- -------- ἐπʼ ἐπί
+28:13 RP ----GSF- αὐτῆς αὐτός
+28:13 C- -------- καὶ καί
+28:13 V- 3AAI-S-- εἶπεν λέγω  # module lemma ἔπω — λέγω keeps one dictionary form across both testaments
+28:13 RP ----NS-- Ἐγὼ ἐγώ
+28:13 N- ----NSM- κύριος κύριος
+28:13 RA ----NSM- ὁ ὁ
+28:13 N- ----NSM- θεὸς θεός
+28:13 N- ----GSM- Αβρααμ Ἀβραάμ
+28:13 RA ----GSM- τοῦ ὁ
+28:13 N- ----GSM- πατρός πατήρ
+28:13 RP ----GS-- σου σύ  # module lemma σοῦ, the form itself — σύ is the dictionary form
+28:13 C- -------- καὶ καί
+28:13 RA ----NSM- ὁ ὁ
+28:13 N- ----NSM- θεὸς θεός
+28:13 N- ----GSM- Ισαακ Ἰσαάκ
+28:13 D- -------- μὴ μή
+28:13 V- 2PED-S-- φοβοῦ φοβέομαι  # module lemma φοβέω — φοβέομαι, as MorphGNT files it
+28:13 RA ----NSF- ἡ ὁ
+28:13 N- ----NSF- γῆ γῆ
+28:13 P- -------- ἐφʼ ἐπί
+28:13 RR ----GSF- ἧς ὅς
+28:13 RP ----NS-- σὺ σύ
+28:13 V- 2PAI-S-- καθεύδεις καθεύδω
+28:13 P- -------- ἐπʼ ἐπί
+28:13 RP ----GSF- αὐτῆς αὐτός
+28:13 RP ----DS-- σοὶ σύ  # module lemma σοί, the form itself — σύ is the dictionary form
+28:13 V- 1FAI-S-- δώσω δίδωμι
+28:13 RP ----ASF- αὐτὴν αὐτός
+28:13 C- -------- καὶ καί
+28:13 RA ----DSN- τῷ ὁ
+28:13 N- ----DSN- σπέρματί σπέρμα
+28:13 RP ----GS-- σου σύ  # module lemma σοῦ, the form itself — σύ is the dictionary form
+28:14 C- -------- καὶ καί
+28:14 V- 3FMI-S-- ἔσται εἰμί
+28:14 RA ----NSN- τὸ ὁ
+28:14 N- ----NSN- σπέρμα σπέρμα
+28:14 RP ----GS-- σου σύ  # module lemma σοῦ, the form itself — σύ is the dictionary form
+28:14 C- -------- ὡς ὡς  # module lemma ὥς — ὡς, the comparative particle, as MorphGNT files it
+28:14 RA ----NSF- ἡ ὁ
+28:14 N- ----NSF- ἄμμος ἄμμος
+28:14 RA ----GSF- τῆς ὁ
+28:14 N- ----GSF- γῆς γῆ
+28:14 C- -------- καὶ καί
+28:14 V- 3FPI-S-- πλατυνθήσεται πλατύνω
+28:14 P- -------- ἐπὶ ἐπί
+28:14 N- ----ASF- θάλασσαν θάλασσα
+28:14 C- -------- καὶ καί
+28:14 P- -------- ἐπὶ ἐπί
+28:14 N- ----ASM- λίβα λίψ
+28:14 C- -------- καὶ καί
+28:14 P- -------- ἐπὶ ἐπί
+28:14 N- ----ASM- βορρᾶν βορρᾶς
+28:14 C- -------- καὶ καί
+28:14 P- -------- ἐπʼ ἐπί
+28:14 N- ----APF- ἀνατολάς ἀνατολή
+28:14 C- -------- καὶ καί
+28:14 V- 3FPI-P-- ἐνευλογηθήσονται ἐνευλογέω
+28:14 P- -------- ἐν ἐν
+28:14 RP ----DS-- σοὶ σύ  # module lemma σοί, the form itself — σύ is the dictionary form
+28:14 A- ----NPF- πᾶσαι πᾶς
+28:14 RA ----NPF- αἱ ὁ
+28:14 N- ----NPF- φυλαὶ φυλή
+28:14 RA ----GSF- τῆς ὁ
+28:14 N- ----GSF- γῆς γῆ
+28:14 C- -------- καὶ καί
+28:14 P- -------- ἐν ἐν
+28:14 RA ----DSN- τῷ ὁ
+28:14 N- ----DSN- σπέρματί σπέρμα
+28:14 RP ----GS-- σου σύ  # module lemma σοῦ, the form itself — σύ is the dictionary form
+28:15 C- -------- καὶ καί
+28:15 X- -------- ἰδοὺ ἰδού
+28:15 RP ----NS-- ἐγὼ ἐγώ
+28:15 P- -------- μετὰ μετά
+28:15 RP ----GS-- σοῦ σύ  # module lemma σοῦ, the form itself — σύ is the dictionary form
+28:15 V- -PAPNSM- διαφυλάσσων διαφυλάσσω
+28:15 RP ----AS-- σε σύ  # module lemma σέ, the form itself — σύ is the dictionary form
+28:15 P- -------- ἐν ἐν
+28:15 RA ----DSF- τῇ ὁ
+28:15 N- ----DSF- ὁδῷ ὁδός
+28:15 A- ----DSF- πάσῃ πᾶς
+28:15 D- -------- οὗ οὗ
+28:15 X- -------- ἐὰν ἐάν
+28:15 V- 2APS-S-- πορευθῇς πορεύομαι
+28:15 C- -------- καὶ καί
+28:15 V- 1FAI-S-- ἀποστρέψω ἀποστρέφω  # corpus the promise, future indicative, where ἀποστρέψω at 24:5 is the deliberative aorist subjunctive — one form, two parses
+28:15 RP ----AS-- σε σύ  # module lemma σέ, the form itself — σύ is the dictionary form
+28:15 P- -------- εἰς εἰς
+28:15 RA ----ASF- τὴν ὁ
+28:15 N- ----ASF- γῆν γῆ
+28:15 RD ----ASF- ταύτην οὗτος
+28:15 C- -------- ὅτι ὅτι
+28:15 D- -------- οὐ οὐ
+28:15 D- -------- μή μή
+28:15 RP ----AS-- σε σύ  # module lemma σέ, the form itself — σύ is the dictionary form
+28:15 V- 1AAS-S-- ἐγκαταλίπω ἐγκαταλείπω
+28:15 P- -------- ἕως ἕως
+28:15 RA ----GSN- τοῦ ὁ
+28:15 V- -AAN---- ποιῆσαί ποιέω
+28:15 RP ----AS-- με ἐγώ  # module lemma μέ, the form itself — ἐγώ is the dictionary form
+28:15 A- ----APN- πάντα πᾶς
+28:15 RR ----APN- ὅσα ὅσος
+28:15 V- 1AAI-S-- ἐλάλησά λαλέω
+28:15 RP ----DS-- σοι σύ  # module lemma σοί, the form itself — σύ is the dictionary form
+28:16 C- -------- καὶ καί
+28:16 V- 3API-S-- ἐξηγέρθη ἐξεγείρω
+28:16 N- ----NSM- Ιακωβ Ἰακώβ
+28:16 P- -------- ἀπὸ ἀπό
+28:16 RA ----GSM- τοῦ ὁ
+28:16 N- ----GSM- ὕπνου ὕπνος
+28:16 RP ----GSM- αὐτοῦ αὐτός
+28:16 C- -------- καὶ καί
+28:16 V- 3AAI-S-- εἶπεν λέγω  # module lemma ἔπω — λέγω keeps one dictionary form across both testaments
+28:16 C- -------- ὅτι ὅτι
+28:16 V- 3PAI-S-- Ἔστιν εἰμί
+28:16 N- ----NSM- κύριος κύριος
+28:16 P- -------- ἐν ἐν
+28:16 RA ----DSM- τῷ ὁ
+28:16 N- ----DSM- τόπῳ τόπος
+28:16 RD ----DSM- τούτῳ οὗτος
+28:16 RP ----NS-- ἐγὼ ἐγώ
+28:16 C- -------- δὲ δέ
+28:16 D- -------- οὐκ οὐ
+28:16 V- 1YAI-S-- ᾔδειν οἶδα  # module lemma εἴδω — Middle Liddell files this under οἶδα
+28:17 C- -------- καὶ καί
+28:17 V- 3API-S-- ἐφοβήθη φοβέομαι  # module lemma φοβέω — φοβέομαι, as MorphGNT files it
+28:17 C- -------- καὶ καί
+28:17 V- 3AAI-S-- εἶπεν λέγω  # module lemma ἔπω — λέγω keeps one dictionary form across both testaments
+28:17 D- -------- Ὡς ὡς  # module lemma ὥς — ὡς, the comparative particle, as MorphGNT files it
+28:17 A- ----NSM- φοβερὸς φοβερός
+28:17 RA ----NSM- ὁ ὁ
+28:17 N- ----NSM- τόπος τόπος
+28:17 RD ----NSM- οὗτος οὗτος
+28:17 D- -------- οὐκ οὐ
+28:17 V- 3PAI-S-- ἔστιν εἰμί
+28:17 RD ----NSN- τοῦτο οὗτος
+28:17 C- -------- ἀλλʼ ἀλλά
+28:17 C- -------- ἢ ἤ
+28:17 N- ----NSM- οἶκος οἶκος
+28:17 N- ----GSM- θεοῦ θεός
+28:17 C- -------- καὶ καί
+28:17 RD ----NSF- αὕτη οὗτος
+28:17 RA ----NSF- ἡ ὁ
+28:17 N- ----NSF- πύλη πύλη
+28:17 RA ----GSM- τοῦ ὁ
+28:17 N- ----GSM- οὐρανοῦ οὐρανός
+28:18 C- -------- καὶ καί
+28:18 V- 3AAI-S-- ἀνέστη ἀνίστημι
+28:18 N- ----NSM- Ιακωβ Ἰακώβ
+28:18 RA ----ASN- τὸ ὁ
+28:18 D- -------- πρωὶ πρωΐ
+28:18 C- -------- καὶ καί
+28:18 V- 3AAI-S-- ἔλαβεν λαμβάνω
+28:18 RA ----ASM- τὸν ὁ
+28:18 N- ----ASM- λίθον λίθος
+28:18 RR ----ASM- ὃν ὅς
+28:18 V- 3AAI-S-- ὑπέθηκεν ὑποτίθημι
+28:18 D- -------- ἐκεῖ ἐκεῖ
+28:18 P- -------- πρὸς πρός
+28:18 N- ----GSF- κεφαλῆς κεφαλή
+28:18 RP ----GSM- αὐτοῦ αὐτός
+28:18 C- -------- καὶ καί
+28:18 V- 3AAI-S-- ἔστησεν ἵστημι
+28:18 RP ----ASM- αὐτὸν αὐτός
+28:18 N- ----ASF- στήλην στήλη
+28:18 C- -------- καὶ καί
+28:18 V- 3AAI-S-- ἐπέχεεν ἐπιχέω  # module imperfect — the aorist of ἐπιχέω, whose stem doubles the ε
+28:18 N- ----ASN- ἔλαιον ἔλαιον
+28:18 P- -------- ἐπὶ ἐπί
+28:18 RA ----ASN- τὸ ὁ
+28:18 N- ----ASN- ἄκρον ἄκρον
+28:18 RP ----GSF- αὐτῆς αὐτός
+28:19 C- -------- καὶ καί
+28:19 V- 3AAI-S-- ἐκάλεσεν καλέω
+28:19 N- ----NSM- Ιακωβ Ἰακώβ
+28:19 RA ----ASN- τὸ ὁ
+28:19 N- ----ASN- ὄνομα ὄνομα
+28:19 RA ----GSM- τοῦ ὁ
+28:19 N- ----GSM- τόπου τόπος
+28:19 RD ----GSM- ἐκείνου ἐκεῖνος
+28:19 N- ----NSM- Οἶκος Οἶκος  # corpus the Greek word printed as the place's name, with Rahlfs's capital, where οἶκος at 28:17 is the common noun  # module lemma οἶκος — the name keeps its capital
+28:19 N- ----GSM- θεοῦ θεός
+28:19 C- -------- καὶ καί
+28:19 N- ----NS-- Ουλαμλους Ουλαμλους  # module N, no case — the nominative, the name the city bore
+28:19 V- 3IAI-S-- ἦν εἰμί
+28:19 N- ----NSN- ὄνομα ὄνομα  # module ASN — the subject of a verbless clause
+28:19 RA ----DSF- τῇ ὁ
+28:19 N- ----DSF- πόλει πόλις
+28:19 RA ----ASN- τὸ ὁ
+28:19 A- ----ASNC πρότερον πρότερος  # module lemma πρότερον — πρότερος, the positive Middle Liddell heads, as at 26:1
+28:20 C- -------- καὶ καί
+28:20 V- 3AMI-S-- ηὔξατο εὔχομαι
+28:20 N- ----NSM- Ιακωβ Ἰακώβ
+28:20 N- ----ASF- εὐχὴν εὐχή
+28:20 V- -PAPNSM- λέγων λέγω
+28:20 C- -------- Ἐὰν ἐάν
+28:20 V- 3PAS-S-- ᾖ εἰμί
+28:20 N- ----NSM- κύριος κύριος
+28:20 RA ----NSM- ὁ ὁ
+28:20 N- ----NSM- θεὸς θεός
+28:20 P- -------- μετʼ μετά
+28:20 RP ----GS-- ἐμοῦ ἐγώ  # module lemma ἐμοῦ, the form itself — ἐγώ is the dictionary form
+28:20 C- -------- καὶ καί
+28:20 V- 3AAS-S-- διαφυλάξῃ διαφυλάσσω
+28:20 RP ----AS-- με ἐγώ  # module lemma μέ, the form itself — ἐγώ is the dictionary form
+28:20 P- -------- ἐν ἐν
+28:20 RA ----DSF- τῇ ὁ
+28:20 N- ----DSF- ὁδῷ ὁδός
+28:20 RD ----DSF- ταύτῃ οὗτος
+28:20 RR ----DSF- ᾗ ὅς
+28:20 RP ----NS-- ἐγὼ ἐγώ
+28:20 V- 1PEI-S-- πορεύομαι πορεύομαι
+28:20 C- -------- καὶ καί
+28:20 V- 3AAS-S-- δῷ δίδωμι
+28:20 RP ----DS-- μοι ἐγώ  # module lemma μοι, the form itself — ἐγώ is the dictionary form
+28:20 N- ----ASM- ἄρτον ἄρτος
+28:20 V- -AAN---- φαγεῖν ἐσθίω
+28:20 C- -------- καὶ καί
+28:20 N- ----ASN- ἱμάτιον ἱμάτιον
+28:20 V- -AMN---- περιβαλέσθαι περιβάλλω
+28:21 C- -------- καὶ καί
+28:21 V- 3AAS-S-- ἀποστρέψῃ ἀποστρέφω
+28:21 RP ----AS-- με ἐγώ  # module lemma μέ, the form itself — ἐγώ is the dictionary form
+28:21 P- -------- μετὰ μετά
+28:21 N- ----GSF- σωτηρίας σωτηρία
+28:21 P- -------- εἰς εἰς
+28:21 RA ----ASM- τὸν ὁ
+28:21 N- ----ASM- οἶκον οἶκος
+28:21 RA ----GSM- τοῦ ὁ
+28:21 N- ----GSM- πατρός πατήρ
+28:21 RP ----GS-- μου ἐγώ  # module lemma μου, the form itself — ἐγώ is the dictionary form
+28:21 C- -------- καὶ καί
+28:21 V- 3FMI-S-- ἔσται εἰμί
+28:21 RP ----DS-- μοι ἐγώ  # module lemma μοι, the form itself — ἐγώ is the dictionary form
+28:21 N- ----NSM- κύριος κύριος
+28:21 P- -------- εἰς εἰς
+28:21 N- ----ASM- θεόν θεός
+28:22 C- -------- καὶ καί
+28:22 RA ----NSM- ὁ ὁ
+28:22 N- ----NSM- λίθος λίθος
+28:22 RD ----NSM- οὗτος οὗτος
+28:22 RR ----ASM- ὃν ὅς
+28:22 V- 1AAI-S-- ἔστησα ἵστημι
+28:22 N- ----ASF- στήλην στήλη
+28:22 V- 3FMI-S-- ἔσται εἰμί
+28:22 RP ----DS-- μοι ἐγώ  # module lemma μοι, the form itself — ἐγώ is the dictionary form
+28:22 N- ----NSM- οἶκος οἶκος
+28:22 N- ----GSM- θεοῦ θεός
+28:22 C- -------- καὶ καί
+28:22 A- ----GPN- πάντων πᾶς
+28:22 RR ----GPN- ὧν ὅς
+28:22 X- -------- ἐάν ἐάν
+28:22 RP ----DS-- μοι ἐγώ  # module lemma μοι, the form itself — ἐγώ is the dictionary form
+28:22 V- 2AAS-S-- δῷς δίδωμι
+28:22 A- ----ASF- δεκάτην δεκάτη
+28:22 V- 1FAI-S-- ἀποδεκατώσω ἀποδεκατόω
+28:22 RP ----APN- αὐτά αὐτός
+28:22 RP ----DS-- σοι σύ  # module lemma σοί, the form itself — σύ is the dictionary form
