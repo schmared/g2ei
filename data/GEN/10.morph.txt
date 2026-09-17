@@ -1,0 +1,483 @@
+# Genesis 10 — morphology, one word per line.
+#
+# This is the project's own grammatical analysis of each form, written alongside the
+# transcription and not copied from any digital edition.
+#
+# Columns: verse, part of speech, parse, form, lemma — in MorphGNT's code scheme, so
+# the Old and New Testament layers read alike. The parse is eight places: person,
+# tense, voice, mood, case, number, gender, degree ("-" where it does not apply).
+#
+# Two codes go beyond MorphGNT, both to record only what the form itself says:
+#   voice  E  middle/passive — a tense in which the two share one form
+#   gender C  masculine/feminine — an adjective whose form does not distinguish them
+#
+# A trailing annotation records a deliberate difference and the reason for it:
+#   "# module …"  from the reference module, checked when LXX_RAHLFS_DIR is set
+#   "# corpus …"  from this project's own analysis of the same form elsewhere
+# A line may carry both. validate.py prints them as notes instead of failures — and
+# fails if the difference a note claims is not there, so they cannot go stale. The
+# analysis here is this project's own: the module is a reference, not an authority,
+# and the corpus is held to itself.
+#
+# Indeclinables take case and number from the syntax, as MorphGNT does, and gender
+# where there is one to take: a personal name, from the person; a numeral agreeing
+# with its noun; a common noun whose article shows it — but not an indeclinable place
+# name, which has none. A personal name the New Testament also uses takes MorphGNT's
+# dictionary form (Νῶε, Σήμ); every other Semitic name (Χαμ, Ιαφεθ), the form Rahlfs
+# prints.
+10:1 RD ----NPF- Αὗται οὗτος
+10:1 C- -------- δὲ δέ
+10:1 RA ----NPF- αἱ ὁ
+10:1 N- ----NPF- γενέσεις γένεσις
+10:1 RA ----GPM- τῶν ὁ
+10:1 N- ----GPM- υἱῶν υἱός
+10:1 N- ----GSM- Νωε Νῶε
+10:1 N- ----GSM- Σημ Σήμ
+10:1 N- ----GSM- Χαμ Χαμ
+10:1 N- ----GSM- Ιαφεθ Ιαφεθ
+10:1 C- -------- καὶ καί
+10:1 V- 3API-P-- ἐγενήθησαν γίνομαι
+10:1 RP ----DPM- αὐτοῖς αὐτός
+10:1 N- ----NPM- υἱοὶ υἱός
+10:1 P- -------- μετὰ μετά
+10:1 RA ----ASM- τὸν ὁ
+10:1 N- ----ASM- κατακλυσμόν κατακλυσμός
+10:2 N- ----NPM- Υἱοὶ υἱός
+10:2 N- ----GSM- Ιαφεθ Ιαφεθ
+10:2 N- ----NSM- Γαμερ Γαμερ
+10:2 C- -------- καὶ καί
+10:2 N- ----NSM- Μαγωγ Μαγώγ
+10:2 C- -------- καὶ καί
+10:2 N- ----NSM- Μαδαι Μαδαι
+10:2 C- -------- καὶ καί
+10:2 N- ----NSM- Ιωυαν Ιωυαν
+10:2 C- -------- καὶ καί
+10:2 N- ----NSM- Ελισα Ελισα
+10:2 C- -------- καὶ καί
+10:2 N- ----NSM- Θοβελ Θοβελ
+10:2 C- -------- καὶ καί
+10:2 N- ----NSM- Μοσοχ Μοσοχ
+10:2 C- -------- καὶ καί
+10:2 N- ----NSM- Θιρας Θιρας
+10:3 C- -------- καὶ καί
+10:3 N- ----NPM- υἱοὶ υἱός
+10:3 N- ----GSM- Γαμερ Γαμερ
+10:3 N- ----NSM- Ασχαναζ Ασχαναζ
+10:3 C- -------- καὶ καί
+10:3 N- ----NSM- Ριφαθ Ριφαθ
+10:3 C- -------- καὶ καί
+10:3 N- ----NSM- Θοργαμα Θοργαμα
+10:4 C- -------- καὶ καί
+10:4 N- ----NPM- υἱοὶ υἱός
+10:4 N- ----GSM- Ιωυαν Ιωυαν
+10:4 N- ----NSM- Ελισα Ελισα
+10:4 C- -------- καὶ καί
+10:4 N- ----NSM- Θαρσις Θαρσις
+10:4 N- ----NPM- Κίτιοι Κίτιος
+10:4 N- ----NPM- Ῥόδιοι Ῥόδιος
+10:5 P- -------- ἐκ ἐκ
+10:5 RD ----GPM- τούτων οὗτος
+10:5 V- 3API-P-- ἀφωρίσθησαν ἀφορίζω
+10:5 N- ----NPF- νῆσοι νῆσος
+10:5 RA ----GPN- τῶν ὁ
+10:5 N- ----GPN- ἐθνῶν ἔθνος
+10:5 P- -------- ἐν ἐν
+10:5 RA ----DSF- τῇ ὁ
+10:5 N- ----DSF- γῇ γῆ
+10:5 RP ----GPM- αὐτῶν αὐτός
+10:5 A- ----NSM- ἕκαστος ἕκαστος
+10:5 P- -------- κατὰ κατά
+10:5 N- ----ASF- γλῶσσαν γλῶσσα
+10:5 P- -------- ἐν ἐν
+10:5 RA ----DPF- ταῖς ὁ
+10:5 N- ----DPF- φυλαῖς φυλή
+10:5 RP ----GPM- αὐτῶν αὐτός
+10:5 C- -------- καὶ καί
+10:5 P- -------- ἐν ἐν
+10:5 RA ----DPN- τοῖς ὁ
+10:5 N- ----DPN- ἔθνεσιν ἔθνος
+10:5 RP ----GPM- αὐτῶν αὐτός
+10:6 N- ----NPM- Υἱοὶ υἱός
+10:6 C- -------- δὲ δέ
+10:6 N- ----GSM- Χαμ Χαμ
+10:6 N- ----NSM- Χους Χους  # corpus Χους, the name, and χοῦς, dust, are two words
+10:6 C- -------- καὶ καί
+10:6 N- ----NSM- Μεσραιμ Μεσραιμ  # module N M, with a space where the number stands — the nominative singular
+10:6 N- ----NSM- Φουδ Φουδ
+10:6 C- -------- καὶ καί
+10:6 N- ----NSM- Χανααν Χανάαν  # module lemma Χαναάν — Χανάαν, as MorphGNT files it
+10:7 N- ----NPM- υἱοὶ υἱός
+10:7 C- -------- δὲ δέ
+10:7 N- ----GSM- Χους Χους
+10:7 N- ----NSM- Σαβα Σαβα
+10:7 C- -------- καὶ καί
+10:7 N- ----NSM- Ευιλα Ευιλα
+10:7 C- -------- καὶ καί
+10:7 N- ----NSM- Σαβαθα Σαβαθα
+10:7 C- -------- καὶ καί
+10:7 N- ----NSM- Ρεγμα Ρεγμα
+10:7 C- -------- καὶ καί
+10:7 N- ----NSM- Σαβακαθα Σαβακαθα
+10:7 N- ----NPM- υἱοὶ υἱός
+10:7 C- -------- δὲ δέ
+10:7 N- ----GSM- Ρεγμα Ρεγμα
+10:7 N- ----NSM- Σαβα Σαβα
+10:7 C- -------- καὶ καί
+10:7 N- ----NSM- Δαδαν Δαδαν
+10:8 N- ----NSM- Χους Χους
+10:8 C- -------- δὲ δέ
+10:8 V- 3AAI-S-- ἐγέννησεν γεννάω
+10:8 RA ----ASM- τὸν ὁ
+10:8 N- ----ASM- Νεβρωδ Νεβρωδ
+10:8 RD ----NSM- οὗτος οὗτος
+10:8 V- 3AMI-S-- ἤρξατο ἄρχω
+10:8 V- -PAN---- εἶναι εἰμί
+10:8 N- ----NSM- γίγας γίγας
+10:8 P- -------- ἐπὶ ἐπί
+10:8 RA ----GSF- τῆς ὁ
+10:8 N- ----GSF- γῆς γῆ
+10:9 RD ----NSM- οὗτος οὗτος
+10:9 V- 3IAI-S-- ἦν εἰμί
+10:9 N- ----NSM- γίγας γίγας
+10:9 N- ----NSM- κυνηγὸς κυνηγός
+10:9 P- -------- ἐναντίον ἐναντίον
+10:9 N- ----GSM- κυρίου κύριος
+10:9 RA ----GSM- τοῦ ὁ
+10:9 N- ----GSM- θεοῦ θεός
+10:9 P- -------- διὰ διά
+10:9 RD ----ASN- τοῦτο οὗτος
+10:9 V- 3FAI-P-- ἐροῦσιν λέγω  # module lemma ἐρέω — λέγω, as MorphGNT files ἐροῦσιν (Luke 17:21)
+10:9 C- -------- Ὡς ὡς  # module lemma ὥς — ὡς, the comparative particle, as MorphGNT files it
+10:9 N- ----NSM- Νεβρωδ Νεβρωδ
+10:9 N- ----NSM- γίγας γίγας
+10:9 N- ----NSM- κυνηγὸς κυνηγός
+10:9 P- -------- ἐναντίον ἐναντίον
+10:9 N- ----GSM- κυρίου κύριος
+10:10 C- -------- καὶ καί
+10:10 V- 3AMI-S-- ἐγένετο γίνομαι
+10:10 N- ----NSF- ἀρχὴ ἀρχή
+10:10 RA ----GSF- τῆς ὁ
+10:10 N- ----GSF- βασιλείας βασιλεία
+10:10 RP ----GSM- αὐτοῦ αὐτός
+10:10 N- ----NSF- Βαβυλὼν Βαβυλών
+10:10 C- -------- καὶ καί
+10:10 N- ----NS-- Ορεχ Ορεχ
+10:10 C- -------- καὶ καί
+10:10 N- ----NS-- Αρχαδ Αρχαδ
+10:10 C- -------- καὶ καί
+10:10 N- ----NS-- Χαλαννη Χαλαννη
+10:10 P- -------- ἐν ἐν
+10:10 RA ----DSF- τῇ ὁ
+10:10 N- ----DSF- γῇ γῆ
+10:10 N- ----GS-- Σεννααρ Σεννααρ  # module N.S, no case — the genitive after γῆ, as MorphGNT codes ἐν γῇ Χανάαν at Acts 13:19
+10:11 P- -------- ἐκ ἐκ
+10:11 RA ----GSF- τῆς ὁ
+10:11 N- ----GSF- γῆς γῆ
+10:11 RD ----GSF- ἐκείνης ἐκεῖνος
+10:11 V- 3AAI-S-- ἐξῆλθεν ἐξέρχομαι
+10:11 N- ----NSM- Ασσουρ Ασσουρ  # module DS — the subject of ἐξῆλθεν; with no preposition the name is not where he went
+10:11 C- -------- καὶ καί
+10:11 V- 3AAI-S-- ᾠκοδόμησεν οἰκοδομέω
+10:11 RA ----ASF- τὴν ὁ
+10:11 N- ----AS-- Νινευη Νινευη  # module lemma Νινευΐ — the form Rahlfs prints
+10:11 C- -------- καὶ καί
+10:11 RA ----ASF- τὴν ὁ
+10:11 N- ----AS-- Ροωβωθ Ροωβωθ  # module ASF — an indeclinable place name has no gender; the article beside it carries one
+10:11 N- ----ASF- πόλιν πόλις
+10:11 C- -------- καὶ καί
+10:11 RA ----ASF- τὴν ὁ
+10:11 N- ----AS-- Χαλαχ Χαλαχ  # module ASF — an indeclinable place name has no gender; the article beside it carries one
+10:12 C- -------- καὶ καί
+10:12 RA ----ASF- τὴν ὁ
+10:12 N- ----AS-- Δασεμ Δασεμ  # module ASF — an indeclinable place name has no gender; the article beside it carries one
+10:12 P- -------- ἀνὰ ἀνά
+10:12 A- ----ASN- μέσον μέσος  # module ASM — with a genitive after it, the neuter used as a noun, as MorphGNT codes ἀνὰ μέσον
+10:12 N- ----GS-- Νινευη Νινευη  # module lemma Νινευΐ — the form Rahlfs prints
+10:12 C- -------- καὶ καί
+10:12 P- -------- ἀνὰ ἀνά
+10:12 A- ----ASN- μέσον μέσος  # module ASM — with a genitive after it, the neuter used as a noun, as MorphGNT codes ἀνὰ μέσον
+10:12 N- ----GS-- Χαλαχ Χαλαχ  # module GSF — an indeclinable place name has no gender
+10:12 RD ----NSF- αὕτη οὗτος
+10:12 RA ----NSF- ἡ ὁ
+10:12 N- ----NSF- πόλις πόλις
+10:12 RA ----NSF- ἡ ὁ
+10:12 A- ----NSF- μεγάλη μέγας
+10:13 C- -------- καὶ καί
+10:13 N- ----NSM- Μεσραιμ Μεσραιμ  # module N M, with a space where the number stands — the nominative singular
+10:13 V- 3AAI-S-- ἐγέννησεν γεννάω
+10:13 RA ----APM- τοὺς ὁ
+10:13 N- ----APM- Λουδιιμ Λουδιιμ
+10:13 C- -------- καὶ καί
+10:13 RA ----APM- τοὺς ὁ
+10:13 N- ----APM- Ενεμετιιμ Ενεμετιιμ
+10:13 C- -------- καὶ καί
+10:13 RA ----APM- τοὺς ὁ
+10:13 N- ----APM- Λαβιιμ Λαβιιμ
+10:13 C- -------- καὶ καί
+10:13 RA ----APM- τοὺς ὁ
+10:13 N- ----APM- Νεφθαλιιμ Νεφθαλιιμ  # module lemma Νεφθαλείμ — the form Rahlfs prints
+10:14 C- -------- καὶ καί
+10:14 RA ----APM- τοὺς ὁ
+10:14 N- ----APM- Πατροσωνιιμ Πατροσωνιιμ
+10:14 C- -------- καὶ καί
+10:14 RA ----APM- τοὺς ὁ
+10:14 N- ----APM- Χασλωνιιμ Χασλωνιιμ
+10:14 D- -------- ὅθεν ὅθεν
+10:14 V- 3AAI-S-- ἐξῆλθεν ἐξέρχομαι
+10:14 D- -------- ἐκεῖθεν ἐκεῖθεν
+10:14 N- ----NPM- Φυλιστιιμ Φυλιστιιμ
+10:14 C- -------- καὶ καί
+10:14 RA ----APM- τοὺς ὁ
+10:14 N- ----APM- Καφθοριιμ Καφθοριιμ
+10:15 N- ----NSM- Χανααν Χανάαν  # module lemma Χαναάν — Χανάαν, as MorphGNT files it
+10:15 C- -------- δὲ δέ
+10:15 V- 3AAI-S-- ἐγέννησεν γεννάω
+10:15 RA ----ASM- τὸν ὁ
+10:15 N- ----ASM- Σιδῶνα Σιδών
+10:15 A- ----ASC- πρωτότοκον πρωτότοκος
+10:15 C- -------- καὶ καί
+10:15 RA ----ASM- τὸν ὁ
+10:15 N- ----ASM- Χετταῖον Χετταῖος
+10:16 C- -------- καὶ καί
+10:16 RA ----ASM- τὸν ὁ
+10:16 N- ----ASM- Ιεβουσαῖον Ιεβουσαῖος
+10:16 C- -------- καὶ καί
+10:16 RA ----ASM- τὸν ὁ
+10:16 N- ----ASM- Αμορραῖον Αμορραῖος  # module lemma Ἀμορραῖος — the form Rahlfs prints, with no breathing
+10:16 C- -------- καὶ καί
+10:16 RA ----ASM- τὸν ὁ
+10:16 N- ----ASM- Γεργεσαῖον Γεργεσαῖος
+10:17 C- -------- καὶ καί
+10:17 RA ----ASM- τὸν ὁ
+10:17 N- ----ASM- Ευαῖον Ευαῖος
+10:17 C- -------- καὶ καί
+10:17 RA ----ASM- τὸν ὁ
+10:17 N- ----ASM- Αρουκαῖον Αρουκαῖος
+10:17 C- -------- καὶ καί
+10:17 RA ----ASM- τὸν ὁ
+10:17 N- ----ASM- Ασενναῖον Ασενναῖος
+10:18 C- -------- καὶ καί
+10:18 RA ----ASM- τὸν ὁ
+10:18 N- ----ASM- Ἀράδιον Ἀράδιος
+10:18 C- -------- καὶ καί
+10:18 RA ----ASM- τὸν ὁ
+10:18 N- ----ASM- Σαμαραῖον Σαμαραῖος
+10:18 C- -------- καὶ καί
+10:18 RA ----ASM- τὸν ὁ
+10:18 N- ----ASM- Αμαθι Αμαθι
+10:18 C- -------- καὶ καί
+10:18 P- -------- μετὰ μετά
+10:18 RD ----ASN- τοῦτο οὗτος
+10:18 V- 3API-P-- διεσπάρησαν διασπείρω
+10:18 RA ----NPF- αἱ ὁ
+10:18 N- ----NPF- φυλαὶ φυλή
+10:18 RA ----GPM- τῶν ὁ
+10:18 N- ----GPM- Χαναναίων Χαναναῖος
+10:19 C- -------- καὶ καί
+10:19 V- 3AMI-P-- ἐγένοντο γίνομαι
+10:19 RA ----NPN- τὰ ὁ
+10:19 N- ----NPN- ὅρια ὅριον
+10:19 RA ----GPM- τῶν ὁ
+10:19 N- ----GPM- Χαναναίων Χαναναῖος
+10:19 P- -------- ἀπὸ ἀπό
+10:19 N- ----GSF- Σιδῶνος Σιδών  # module GS, no gender — Σιδών declines, and is feminine, as MorphGNT codes it
+10:19 C- -------- ἕως ἕως
+10:19 V- -AAN---- ἐλθεῖν ἔρχομαι
+10:19 P- -------- εἰς εἰς
+10:19 N- ----AS-- Γεραρα Γεραρα
+10:19 C- -------- καὶ καί
+10:19 N- ----ASF- Γάζαν Γάζα  # module AS, no gender — Γάζα declines, and is feminine, as MorphGNT codes it at Acts 8:26
+10:19 C- -------- ἕως ἕως
+10:19 V- -AAN---- ἐλθεῖν ἔρχομαι
+10:19 N- ----GPN- Σοδομων Σόδομα  # module GS — Σοδομων is the genitive plural of Σόδομα, neuter, as MorphGNT codes it
+10:19 C- -------- καὶ καί
+10:19 N- ----GSF- Γομορρας Γόμορρα  # module GS, no gender — Γόμορρα declines, and is feminine, as MorphGNT codes Γομόρρας
+10:19 N- ----GS-- Αδαμα Αδαμα
+10:19 C- -------- καὶ καί
+10:19 N- ----GS-- Σεβωιμ Σεβωιμ  # module G, no number — one city, as Αδαμα beside it
+10:19 P- -------- ἕως ἕως
+10:19 N- ----GS-- Λασα Λασα
+10:20 RD ----NPM- οὗτοι οὗτος
+10:20 N- ----NPM- υἱοὶ υἱός
+10:20 N- ----GSM- Χαμ Χαμ
+10:20 P- -------- ἐν ἐν
+10:20 RA ----DPF- ταῖς ὁ
+10:20 N- ----DPF- φυλαῖς φυλή
+10:20 RP ----GPM- αὐτῶν αὐτός
+10:20 P- -------- κατὰ κατά
+10:20 N- ----APF- γλώσσας γλῶσσα
+10:20 RP ----GPM- αὐτῶν αὐτός
+10:20 P- -------- ἐν ἐν
+10:20 RA ----DPF- ταῖς ὁ
+10:20 N- ----DPF- χώραις χώρα
+10:20 RP ----GPM- αὐτῶν αὐτός
+10:20 C- -------- καὶ καί
+10:20 P- -------- ἐν ἐν
+10:20 RA ----DPN- τοῖς ὁ
+10:20 N- ----DPN- ἔθνεσιν ἔθνος
+10:20 RP ----GPM- αὐτῶν αὐτός
+10:21 C- -------- Καὶ καί
+10:21 RA ----DSM- τῷ ὁ
+10:21 N- ----DSM- Σημ Σήμ
+10:21 V- 3API-S-- ἐγενήθη γίνομαι
+10:21 D- -------- καὶ καί
+10:21 RP ----DSM- αὐτῷ αὐτός
+10:21 N- ----DSM- πατρὶ πατήρ
+10:21 A- ----GPM- πάντων πᾶς
+10:21 RA ----GPM- τῶν ὁ
+10:21 N- ----GPM- υἱῶν υἱός
+10:21 N- ----GSM- Εβερ Ἔβερ  # module lemma Ἐβέρ — Ἔβερ, as MorphGNT files it at Luke 3:35
+10:21 N- ----DSM- ἀδελφῷ ἀδελφός
+10:21 N- ----GSM- Ιαφεθ Ιαφεθ
+10:21 RA ----GSM- τοῦ ὁ
+10:21 A- ----GSCC μείζονος μέγας
+10:22 N- ----NPM- υἱοὶ υἱός
+10:22 N- ----GSM- Σημ Σήμ
+10:22 N- ----NSM- Αιλαμ Αιλαμ
+10:22 C- -------- καὶ καί
+10:22 N- ----NSM- Ασσουρ Ασσουρ
+10:22 C- -------- καὶ καί
+10:22 N- ----NSM- Αρφαξαδ Ἀρφαξάδ
+10:22 C- -------- καὶ καί
+10:22 N- ----NSM- Λουδ Λουδ
+10:22 C- -------- καὶ καί
+10:22 N- ----NSM- Αραμ Ἀράμ
+10:22 C- -------- καὶ καί
+10:22 N- ----NSM- Καιναν Καιναν  # module lemma Καϊνάν — the form Rahlfs prints; Luke 3:36 spells the name Καϊνάμ
+10:23 C- -------- καὶ καί
+10:23 N- ----NPM- υἱοὶ υἱός
+10:23 N- ----GSM- Αραμ Ἀράμ
+10:23 N- ----NSM- Ως Ως  # corpus Ως, the name, and ὡς, the particle, are two words
+10:23 C- -------- καὶ καί
+10:23 N- ----NSM- Ουλ Ουλ
+10:23 C- -------- καὶ καί
+10:23 N- ----NSM- Γαθερ Γαθερ
+10:23 C- -------- καὶ καί
+10:23 N- ----NSM- Μοσοχ Μοσοχ
+10:24 C- -------- καὶ καί
+10:24 N- ----NSM- Αρφαξαδ Ἀρφαξάδ
+10:24 V- 3AAI-S-- ἐγέννησεν γεννάω
+10:24 RA ----ASM- τὸν ὁ
+10:24 N- ----ASM- Καιναν Καιναν  # module lemma Καϊνάν — the form Rahlfs prints; Luke 3:36 spells the name Καϊνάμ
+10:24 C- -------- καὶ καί
+10:24 N- ----NSM- Καιναν Καιναν  # module lemma Καϊνάν — the form Rahlfs prints; Luke 3:36 spells the name Καϊνάμ
+10:24 V- 3AAI-S-- ἐγέννησεν γεννάω
+10:24 RA ----ASM- τὸν ὁ
+10:24 N- ----ASM- Σαλα Σαλά
+10:24 N- ----NSM- Σαλα Σαλά
+10:24 C- -------- δὲ δέ
+10:24 V- 3AAI-S-- ἐγέννησεν γεννάω
+10:24 RA ----ASM- τὸν ὁ
+10:24 N- ----ASM- Εβερ Ἔβερ  # module lemma Ἐβέρ — Ἔβερ, as MorphGNT files it at Luke 3:35
+10:25 C- -------- καὶ καί
+10:25 RA ----DSM- τῷ ὁ
+10:25 N- ----DSM- Εβερ Ἔβερ  # module lemma Ἐβέρ — Ἔβερ, as MorphGNT files it at Luke 3:35
+10:25 V- 3API-P-- ἐγενήθησαν γίνομαι
+10:25 A- ----NPM- δύο δύο  # module M, no features — MorphGNT gives δύο case, number and gender like any adjective
+10:25 N- ----NPM- υἱοί υἱός
+10:25 N- ----NSN- ὄνομα ὄνομα
+10:25 RA ----DSM- τῷ ὁ
+10:25 A- ----DSM- ἑνὶ εἷς
+10:25 N- ----NSM- Φαλεκ Φάλεκ
+10:25 C- -------- ὅτι ὅτι
+10:25 P- -------- ἐν ἐν
+10:25 RA ----DPF- ταῖς ὁ
+10:25 N- ----DPF- ἡμέραις ἡμέρα
+10:25 RP ----GSM- αὐτοῦ αὐτός
+10:25 V- 3API-S-- διεμερίσθη διαμερίζω
+10:25 RA ----NSF- ἡ ὁ
+10:25 N- ----NSF- γῆ γῆ
+10:25 C- -------- καὶ καί
+10:25 N- ----NSN- ὄνομα ὄνομα  # module ASN — verbless clause, as ὄνομα earlier in the verse, where the module has NSN
+10:25 RA ----DSM- τῷ ὁ
+10:25 N- ----DSM- ἀδελφῷ ἀδελφός
+10:25 RP ----GSM- αὐτοῦ αὐτός
+10:25 N- ----NSM- Ιεκταν Ιεκταν
+10:26 N- ----NSM- Ιεκταν Ιεκταν
+10:26 C- -------- δὲ δέ
+10:26 V- 3AAI-S-- ἐγέννησεν γεννάω
+10:26 RA ----ASM- τὸν ὁ
+10:26 N- ----ASM- Ελμωδαδ Ελμωδαδ
+10:26 C- -------- καὶ καί
+10:26 RA ----ASM- τὸν ὁ
+10:26 N- ----ASM- Σαλεφ Σαλεφ
+10:26 C- -------- καὶ καί
+10:26 N- ----ASM- Ασαρμωθ Ασαρμωθ
+10:26 C- -------- καὶ καί
+10:26 N- ----ASM- Ιαραχ Ιαραχ
+10:27 C- -------- καὶ καί
+10:27 N- ----ASM- Οδορρα Οδορρα
+10:27 C- -------- καὶ καί
+10:27 N- ----ASM- Αιζηλ Αιζηλ
+10:27 C- -------- καὶ καί
+10:27 N- ----ASM- Δεκλα Δεκλα
+10:28 C- -------- καὶ καί
+10:28 N- ----ASM- Αβιμεηλ Αβιμεηλ
+10:28 C- -------- καὶ καί
+10:28 N- ----ASM- Σαβευ Σαβευ
+10:29 C- -------- καὶ καί
+10:29 N- ----ASM- Ουφιρ Ουφιρ
+10:29 C- -------- καὶ καί
+10:29 N- ----ASM- Ευιλα Ευιλα
+10:29 C- -------- καὶ καί
+10:29 N- ----ASM- Ιωβαβ Ιωβαβ
+10:29 A- ----NPM- πάντες πᾶς
+10:29 RD ----NPM- οὗτοι οὗτος
+10:29 N- ----NPM- υἱοὶ υἱός
+10:29 N- ----GSM- Ιεκταν Ιεκταν
+10:30 C- -------- καὶ καί
+10:30 V- 3AMI-S-- ἐγένετο γίνομαι
+10:30 RA ----NSF- ἡ ὁ
+10:30 N- ----NSF- κατοίκησις κατοίκησις
+10:30 RP ----GPM- αὐτῶν αὐτός
+10:30 P- -------- ἀπὸ ἀπό
+10:30 N- ----GS-- Μασση Μασση
+10:30 C- -------- ἕως ἕως
+10:30 V- -AAN---- ἐλθεῖν ἔρχομαι
+10:30 P- -------- εἰς εἰς
+10:30 N- ----AS-- Σωφηρα Σωφηρα
+10:30 N- ----ASN- ὄρος ὄρος
+10:30 N- ----GPF- ἀνατολῶν ἀνατολή
+10:31 RD ----NPM- οὗτοι οὗτος
+10:31 N- ----NPM- υἱοὶ υἱός
+10:31 N- ----GSM- Σημ Σήμ
+10:31 P- -------- ἐν ἐν
+10:31 RA ----DPF- ταῖς ὁ
+10:31 N- ----DPF- φυλαῖς φυλή
+10:31 RP ----GPM- αὐτῶν αὐτός
+10:31 P- -------- κατὰ κατά
+10:31 N- ----APF- γλώσσας γλῶσσα
+10:31 RP ----GPM- αὐτῶν αὐτός
+10:31 P- -------- ἐν ἐν
+10:31 RA ----DPF- ταῖς ὁ
+10:31 N- ----DPF- χώραις χώρα
+10:31 RP ----GPM- αὐτῶν αὐτός
+10:31 C- -------- καὶ καί
+10:31 P- -------- ἐν ἐν
+10:31 RA ----DPN- τοῖς ὁ
+10:31 N- ----DPN- ἔθνεσιν ἔθνος
+10:31 RP ----GPM- αὐτῶν αὐτός
+10:32 RD ----NPF- Αὗται οὗτος
+10:32 RA ----NPF- αἱ ὁ
+10:32 N- ----NPF- φυλαὶ φυλή
+10:32 N- ----GPM- υἱῶν υἱός
+10:32 N- ----GSM- Νωε Νῶε
+10:32 P- -------- κατὰ κατά
+10:32 N- ----APF- γενέσεις γένεσις  # module NPF — governed by κατά
+10:32 RP ----GPM- αὐτῶν αὐτός
+10:32 P- -------- κατὰ κατά
+10:32 RA ----APN- τὰ ὁ
+10:32 N- ----APN- ἔθνη ἔθνος
+10:32 RP ----GPM- αὐτῶν αὐτός
+10:32 P- -------- ἀπὸ ἀπό
+10:32 RD ----GPF- τούτων οὗτος  # module GPM — takes up Αὗται αἱ φυλαί, the subject of the verse
+10:32 V- 3API-P-- διεσπάρησαν διασπείρω
+10:32 N- ----NPF- νῆσοι νῆσος
+10:32 RA ----GPN- τῶν ὁ
+10:32 N- ----GPN- ἐθνῶν ἔθνος
+10:32 P- -------- ἐπὶ ἐπί
+10:32 RA ----GSF- τῆς ὁ
+10:32 N- ----GSF- γῆς γῆ
+10:32 P- -------- μετὰ μετά
+10:32 RA ----ASM- τὸν ὁ
+10:32 N- ----ASM- κατακλυσμόν κατακλυσμός

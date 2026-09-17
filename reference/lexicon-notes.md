@@ -120,6 +120,7 @@ Three reasons, and all of them are the lexicon's filing rather than a decision a
 | σφοδρῶς (GEN 7:19) | σφοδρός | the adverb, filed inside the adjective's entry |
 | μιμνήσκομαι (GEN 8:1) | μιμνήσκω | MorphGNT's middle, filed under the active |
 | διατίθεμαι (GEN 9:17) | διατίθημι | likewise |
+| κυνηγός (GEN 10:9) | κυναγός | the entry is headed with the Doric and Attic spelling |
 
 The dictionary form itself does not follow the lexicon's filing: it keeps the spelling the text
 prints — γίνομαι, ἔχθρα, νοσσιά, δειλινός, κατέναντι, ἐννακόσιοι, κατάγαιος, τεσσαράκοντα — and
@@ -531,6 +532,22 @@ the same ground as `the sixth` and `the seventh`: one sense each, so no range to
   then `of me` (9:14): joined, as ἐν always is, with the infinitive's subject in the genitive's
   English, as at 4:8.
 - τοῦ with an infinitive (τοῦ καταφθεῖραι 9:11, τοῦ μνησθῆναι 9:16) — not printed, as at 2:5.
+
+### Small words new in GEN 10
+
+- ὅθεν — **headword** `from whom`: Perseus leaves the entry's first gloss, *whence, from which*,
+  untagged, and the first it tags is *from whom*; **chain** `from whom, from whatever source and in
+  what manner soever, where, whence and wherefore`. 10:14.
+- ἕως before an infinitive with no article (ἕως ἐλθεῖν, 10:19, 10:30) — `until`, the chain of GEN
+  3:19; ἕως Λασα (10:19) the same.
+- ἕκαστος — **headword** `every`; **chain** `every, every one, each, each one, all and each one,
+  singly and by itself, each by himself`. 10:5.
+- καί as *also* (καὶ αὐτῷ, 10:21) — `also`, plain, as at 3:6.
+- One sense each in GEN 10, so plain text: νῆσος `islands` (10:5, 10:32), once the etymology *to
+  swim, floating land* is left out; πρωτότοκος `first-born` (10:15), as at 4:4; κατοίκησις `the
+  settling in` (10:30); δύο `two`; υἱός `sons`.
+- The article before a people's name (τοὺς Λουδιιμ, τὸν Χετταῖον, τῶν Χαναναίων) is not printed,
+  as before a person's name.
 
 ---
 
@@ -1245,6 +1262,21 @@ waters* is refused by `validate.py` here as there.
 | κατοικέω | aor. impv. 3 sg | `let dwell in` | `let dwell in, let settle in, let colonise, let inhabit, let settle and dwell, let lie and be situate` — the first translation reads *to dwell in as a* κάτοικος; the headword stops before the Greek | 9:27 |
 | γίνομαι | aor. pass. impv. 3 sg / aor. 3 pl | `let come into being` · `came into being` | `let come to be, let arise, let be brought into existence`; the chain of GEN 5:5 | 9:27, 9:29 |
 | ζάω | aor. 3 sg / pres. ptcp. | `lived` · `living` | the chains of GEN 5:3 and 2:7, in the form | 9:3, 9:10, 9:12, 9:28 |
+
+### Verbs new in GEN 10
+
+| lemma | form | headword | chain | used |
+| --- | --- | --- | --- | --- |
+| γίνομαι | aor. pass. 3 pl · aor. mid. 3 sg and 3 pl · aor. pass. 3 sg, no subject | `came into being` | the chains of GEN 5:5, 4:2 and JHN 1:6, in the form | 10:1, 10:10, 10:19, 10:21, 10:25, 10:30 |
+| ἀφορίζω | aor. pass. 3 pl | `were marked off by boundaries` | `were marked off by boundaries, were marked off for themselves, were distinguished and determined and defined, were set apart and separated` — the chain of GEN 2:10, in the aorist | 10:5 |
+| γεννάω | aor. 3 sg | `begot` | the chain of GEN 4:18 | 10:8–26 |
+| ἄρχω | aor. mid. 3 sg | `began` | the chain of GEN 2:3 | 10:8 |
+| λέγω | fut. 3 pl | `they will say` | `they will say, they will speak, they will declare, they will call by name, they will tell` | 10:9 |
+| ἐξέρχομαι | aor. 3 sg | `went out of` | the chain of GEN 4:16 | 10:11, 10:14 |
+| οἰκοδομέω | aor. 3 sg | `built a house` | the chain of GEN 2:22 | 10:11 |
+| διασπείρω | aor. pass. 3 pl | `were scattered abroad` | the chain of GEN 9:19 | 10:18, 10:32 |
+| ἔρχομαι | aor. inf. | `to come` | `to come, to go, to go back and return, to be going to and intend, to come within a little of and be near` | 10:19, 10:30 |
+| διαμερίζω | aor. pass. 3 sg | `was distributed` | `was distributed, was divided` — the middle's *to part among themselves* left out | 10:25 |
 
 A third-person imperative takes *let* and no pronoun (κατοικησάτω *let dwell in*, γενηθήτω *let
 come into being*), as a finite verb takes none; an optative takes *may* (πλατύναι *may widen*).
@@ -1999,6 +2031,37 @@ it is a child; τρίβολος is a spiked iron for laming horses before it is 
 | παῖς | `a child` | `a child, a son, a daughter, a grandchild, a boy and youth and lad, a girl and maiden, a slave and servant and man and maid` — *a slave, servant* is sense III, *in relation to condition* | 9:25, 9:26, 9:27 |
 | οἰκέτης | `a house-slave` | `a house-slave, a menial` | 9:25 |
 
+### Nouns and adjectives new in GEN 10
+
+| lemma | headword | chain | used |
+| --- | --- | --- | --- |
+| γένεσις (pl.) | `the origins` · `origins` | the chain of GEN 6:9, with and without the article | 10:1, 10:32 |
+| ἔθνος (pl.) | `of the numbers of people accustomed to live together` · `in the …` · `the …` | `of the numbers of people accustomed to live together, of the companies and bodies of men, of the hosts, of the swarms and flocks, of the nations and peoples, of the nations and gentiles, of the special classes, of the castes and tribes, of the sexes`, in the form — *a nation* is sense 2; *Gentiles* lower case | 10:5, 10:20, 10:31, 10:32 |
+| γῆ with ἐν | `in the earth` | `within, inside of, and by means of the land, the dry ground, the terrestrial realm` | 10:5, 10:10 |
+| γλῶσσα | `tongue` · `tongues` | `tongue, tongue as the organ of speech, tongue and language, mouthpiece of a pipe`, in the number | 10:5, 10:20, 10:31 |
+| φυλή (pl.) | `in the races` · `the races` | `within, inside of, and by means of the races, the tribes, the bodies united by ties of blood and descent, the clans, the tribes by local habitation, the hundreds and counties, the contingents furnished by a tribe, the brigades` | 10:5, 10:18, 10:20, 10:31, 10:32 |
+| γίγας (sg.) | `giant` | `giant, son of Gaia, mighty` — the chain of GEN 6:4 in the singular | 10:8, 10:9 |
+| κυνηγός | `hound-leader` | `hound-leader, huntsman` — under κυναγός | 10:9 |
+| κύριος, θεός (gen.) | `of lord` · `of the God` | the chains of GEN 3:8 | 10:9 |
+| ἀρχή | `beginning` | `beginning, origin, first cause, headship and rule and governing precedence` — the chain of GEN 2:10 in the singular | 10:10 |
+| βασιλεία | `of the kingdom` | `of the kingdom, of the dominion, of the hereditary monarchy` | 10:10 |
+| ἐκεῖνος (gen.) | `of that` | the chain of GEN 2:12 | 10:11 |
+| πόλις | `the city` | the chain of GEN 4:17, with the article | 10:11, 10:12 |
+| μέγας | `big` · `of the bigger` | `big, great, tall, full-grown, vast and high, spacious and wide, strong and mighty, violent, loud, prevailing, weighty and important`; the comparative, the chain of GEN 4:13 in the genitive | 10:12, 10:21 |
+| ὅριον (pl.) | `the boundaries` | `the boundaries, the limits, the borders, the frontier` | 10:19 |
+| χώρα (pl.) with ἐν | `in the spaces in which a thing is` | `within, inside of, and by means of the spaces in which a thing is, the places, the positions and posts, the places in life and stations, the lands and countries, the pieces of land and estates and farms, the countries` | 10:20, 10:31 |
+| πατήρ (dat.) | `to father` | `to father, to grandfather` | 10:21 |
+| ἀδελφός (dat.) | `to son of the same mother` · `to the son of the same mother` | the chain of GEN 4:2, in the form | 10:21, 10:25 |
+| ὄνομα, εἷς | `a name` · `to the one` | the chains of GEN 2:11 | 10:25 |
+| ὄρος (sg.) | `a mountain` | `a mountain, a hill` | 10:30 |
+| ἀνατολή (gen. pl.) | `of risings` | the chain of GEN 2:8, in the genitive | 10:30 |
+
+Nearly every other word of the chapter is a name. A people's name declined in Greek — Κίτιοι,
+Ῥόδιοι, Χετταῖος, Ἀράδιος, Χαναναῖος — is glossed like a person's, with its English form in the
+anchored panel (*Citians*, *Hittite*, *Canaanites*); where the Greek names a different people from
+the Hebrew (Ῥόδιοι for *Dōdānîm*), it is the Greek's that is anchored, and the note gives the Hebrew.
+A name glossed in one case is bare in another (Σιδῶνα at 10:15, Σιδῶνος at 10:19).
+
 ---
 
 ## Aspect formulas
@@ -2061,6 +2124,7 @@ Gloss on first occurrence per chapter, bare thereafter.
 | Χαμ | Cham | Ham | `(Χαμ, from Hebrew Ḥām, usually connected with ḥam, "hot")` |
 | Ιαφεθ | Iapheth | Japheth | `(Ιαφεθ, from Hebrew Yepet, which 9:27 ties to pātâ, "to make wide")` |
 | Χανααν | Chanaan | Canaan | `(Χανααν, from Hebrew Kĕnaʿan, of uncertain meaning)` |
+| GEN 10 | | | ninety-one names, their glosses in `data/GEN/10.json`; the anchored forms are the English Bible's, and Κίτιοι, Ῥόδιοι are *Citians*, *Rhodians* |
 
 A name glossed again in a later chapter keeps its gloss, unless the gloss spoke of the verse it
 stood in: Σηθ's *which the verse ties* becomes *which 4:25 ties*. Μαθουσαλα at GEN 5 is glossed

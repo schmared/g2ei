@@ -320,6 +320,11 @@ NOT_SENSES = {
     "w(/ste": {"the result", "effect", "upon", "that one", "to"},  # descriptions and pieces of examples
     "pai=s": {"sons", "a boy-"},                # "sons of the Lydians", and "a boy-swineherd"
     "e)/cw": {"the heathen);"},                 # "(in NTest. the heathen)"
+    # GEN 10
+    "nh=sos": {"to swim", "floating land."},    # the etymology: "perhaps from νέω, to swim, as if floating land"
+    "glw=ssa": {"of talking", "word of mouth", "mere hearsay", "tongue"},  # pieces of phrases in examples
+    "xw/ra": {"there", "in the position", "esteem, nullo loco haberi", "its place", "order"},  # pieces of examples
+    "e)/rxomai": {"over", "across", "come and", "je vais dire)"},  # pieces of examples, and French
 }
 
 # An entry that divides its senses by tense and voice, so that which of them belong to a
@@ -380,6 +385,7 @@ SPELLING = {
     "sfodrw=s": "sfodro/s",        # the adverb, filed inside the adjective's entry
     "mimnh/skomai": "mimnh/skw",    # MorphGNT's middle, filed under the active
     "diati/qemai": "diati/qhmi",    # likewise
+    "kunhgo/s": "kunago/s",         # the entry is headed with the Doric and Attic κυναγός
 }
 
 # Homographs where Perseus's *first* entry is a different word from the one the text
@@ -606,6 +612,10 @@ def build(book, chapter, entries):
     # gloss and contributes nothing to it.
     names = {n["greek"]: n["gloss"] for verse in verses
              for n in verse.get("names", []) if n.get("gloss")}
+    # A name glossed in one case and bare in another (Σιδῶνα, then Σιδῶνος, GEN 10) shares
+    # its dictionary form, and the card for the bare one takes the gloss through it.
+    by_lemma = {lemma: names[form] for words in tokens.values()
+                for form, lemma, *_ in words if form in names}
 
     out = []
     for verse in verses:
@@ -629,10 +639,12 @@ def build(book, chapter, entries):
                               "lexicon": lexicon})
                 continue
             senses, lexicon = lexicon_senses(entries, lemma, code), "Middle Liddell"
-            if senses is None and (lemma in names or form in names):
+            if not senses and (lemma in names or form in names or lemma in by_lemma):
                 # A name entry is keyed by the form the verse prints (Ἀσσυρίων), which
-                # is not always the dictionary form the morphology gives (Ἀσσύριος).
-                senses, lexicon = [names.get(lemma) or names[form]], "name"
+                # is not always the dictionary form the morphology gives (Ἀσσύριος). It
+                # also stands in for an entry that tags nothing: Middle Liddell's γάζα,
+                # "treasure", is another word, and glosses nothing for Γάζα at GEN 10:19.
+                senses, lexicon = [names.get(lemma) or names.get(form) or by_lemma[lemma]], "name"
             elif senses is None and lemma in LSJ:
                 senses, lexicon = LSJ[lemma], "LSJ"
             elif senses is None:

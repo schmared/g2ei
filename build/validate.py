@@ -534,6 +534,19 @@ def agrees(ours, theirs):
     return True
 
 
+MODULE_WORD = re.compile(r"(\S+?)<S>(\d+)</S>\S*?<m>([^<]+)</m>")
+
+
+def module_words(text):
+    """One verse of the module as [(form, lexeme, parse code)].
+
+    Words are found by their tags, not by splitting on spaces: the module's parse code can
+    itself hold a space (Μεσραιμ at GEN 10:6 and 10:13 is `lxx.N.N M`), and splitting there
+    cut one word in two.
+    """
+    return [m.groups() for m in MODULE_WORD.finditer(text)]
+
+
 def check_analysis(book, chapter, rep):
     """The project's own LXX morphology against a local module, where one is configured.
 
@@ -565,8 +578,7 @@ def check_analysis(book, chapter, rep):
     nfc = lambda s: unicodedata.normalize("NFC", s)
     for verse, ours in sorted(morph.items()):
         ref = "%s %d:%d" % (book, chapter, verse)
-        theirs = [re.match(r"(.+?)<S>(\d+)</S>.*?<m>([^<]+)</m>", t).groups()
-                  for t in rows.get(verse, "").split()]
+        theirs = module_words(rows.get(verse, ""))
         if len(ours) != len(theirs):
             rep.fail("words", ref, "%d words analysed, %d in the module"
                      % (len(ours), len(theirs)))

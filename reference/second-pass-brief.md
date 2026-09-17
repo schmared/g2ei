@@ -117,6 +117,18 @@ new small words — πλήν, ὥστε, ἀντί, ἔξω, the καί of κα�
 nouns, keep the forms αἰώνιος shares between masculine and feminine, and are `C` under the rule
 below, where the first pass had them `F`.
 
+### What it found in Genesis 10
+
+One disagreement over 456 words, in a chapter of ninety-one names. The conventions the Table of
+Nations needed were added beforehand: MorphGNT's forms of every name the New Testament shares,
+place names among them; declined place names keeping their gender; peoples' names as nouns;
+ὅθεν by its sense; ἕως before a bare infinitive; the genitive after γῆ. The second pass was right
+at 10:32, where τούτων takes up αἱ φυλαί and is feminine. And again it was the more exact where the
+diff forgives: πρωτότοκον at 10:15 is two-termination, `C`, where the first pass had `M`.
+
+The reference module could not be read for this chapter at first: its code for Μεσραιμ holds a
+space (`lxx.N.N M`), and `validate.py` split the verse on spaces. It now finds each word by its tags.
+
 ## The brief
 
 Copy everything below the rule into a new agent. Replace `<BOOK NAME>`, `<CHAPTER>`,
@@ -163,11 +175,13 @@ Small words are tagged as MorphGNT tags them:
 - **C-** καί, δέ, γάρ, ὅτι, τε, ἵνα, οὖν, ἡνίκα, καθά, καθώς, ὥστε; εἰ, *if* or *whether*; πλήν
   with no genitive after it, *only, except*; ἐάν meaning *if*; ὅτε introducing a clause, including
   after a noun that is not a time (`ἡ μαρτυρία … ὅτε`, John 1:19); οὐδέ meaning *nor*; μήποτε
-  meaning *lest*; ὡς meaning *as, like*, and the ὡς of `ὡς ἄν` (Rom 15:24), with ἄν `X-`
+  meaning *lest*; ὡς meaning *as, like*, and the ὡς of `ὡς ἄν` (Rom 15:24), with ἄν `X-`; ὅθεν
+  meaning *wherefore* (Heb 2:17); ἕως before an infinitive with no article (`ἕως ἐλθεῖν`), which
+  has no genitive to govern
 - **X-** ἄν; ἐάν where it stands for ἄν after a relative (`ὃ ἐὰν θέλητε`, John 15:7); ἰδού;
   μή opening a question that expects *no*
 - **D-** οὐ, μή, νῦν, ἔτι, ἐκεῖ, ἐκεῖθεν, ποῦ; καί meaning *also, even*, and the καί of `καὶ γάρ`
-  (all 38 times in MorphGNT); οὐδέ meaning *not even*; ὅτε after a noun of time (`ἔρχεται ὥρα
+  (all 38 times in MorphGNT); ὅθεν meaning *from where* (Matt 12:44); οὐδέ meaning *not even*; ὅτε after a noun of time (`ἔρχεται ὥρα
   ὅτε`, John 4:21); οὗ meaning *where*; ἐπάνω, ἔξωθεν and ἔξω with no genitive after them
   (1 Cor 15:6)
 - **P-** ἀντί; a word governing a genitive as a preposition does — ἐπάνω, ἀπέναντι, ἀνά, ἐναντίον,
@@ -206,8 +220,16 @@ Conventions:
 - **Indeclinables** take case and number from the syntax, as MorphGNT does, and gender where
   there is one to take: a personal name, from the person (Αδαμ `----DSM-`, a woman's name
   `F`), or a numeral agreeing with its noun (οἱ δύο `----NPM-`, as MorphGNT codes δύο at
-  John 1:35). An indeclinable place name has none (Εδεμ `----DS--`). A declinable Greek name keeps its gender like any noun — rivers
-  are masculine (Τίγρις, Εὐφράτης).
+  John 1:35). An indeclinable place name has none (Εδεμ `----DS--`). A declinable name keeps
+  its gender like any noun — rivers are masculine (Τίγρις, Εὐφράτης), Βαβυλών, Σιδών and Γάζα
+  feminine, Σόδομα neuter plural — except where it names a person, who gives it his own: τὸν
+  Σιδῶνα, Canaan's first-born, is `----ASM-`.
+- A people's name declined in Greek (Χετταῖος, Ἀράδιος, Κίτιοι) is a noun, `N-`, as MorphGNT codes
+  Ἀσσύριος and Κύπριος, filed in the nominative singular masculine. A people's name in the Hebrew
+  plural -ιιμ (τοὺς Λουδιιμ, Φυλιστιιμ) is indeclinable, filed as printed, and plural and masculine
+  from the people.
+- A place name after γῆ with no article of its own (`ἐν τῇ γῇ Σεννααρ`) is genitive, as MorphGNT
+  codes `ἐν γῇ Χανάαν` at Acts 13:19.
 - An indeclinable common noun takes its gender from the article or adjective beside it.
 - An article before an indeclinable name still carries full case, number and gender.
 - An adjective used as a noun stays `A-`: ἡ ξηρά, *the dry land*, is `A- ----NSF- ξηρός`, as
@@ -254,14 +276,17 @@ The dictionary form as Middle Liddell (Perseus) files it:
   dictionary is the form, not the spelling: a contracted form goes under the form Middle Liddell
   cites, the uncontracted ὀστέον for ὀστοῦν but the contracted συκῆ; ἕνεκεν → ἕνεκα. A neuter
   noun filed as such: πετεινόν.
-- Proper names: a personal name the New Testament also uses takes MorphGNT's dictionary form,
-  accented though Rahlfs prints it bare — Ἀδάμ, Εὕα, Κάϊν, Ἅβελ, Σήθ, Ἐνώς, Ἑνώχ,
-  Μαθουσαλά, Λάμεχ, Μαλελεήλ, Νῶε, Σήμ, Χανάαν so far — Χανάαν though the New Testament names
-  the land by it (Acts 7:11), since it is the same name. Where the New Testament spells the name with
-  other letters (Luke 3:37 Καϊνάμ, Ἰάρετ), it is not the same dictionary form. Every other
-  Semitic name, of a person or a place, exactly as printed, unaccented (Εδεμ, Φισων, Ναιδ). Greek names in the nominative singular (Αἰθιοπία,
-  Τίγρις, Ἀσσύριος, Εὐφράτης). A Greek word the text prints capitalised as a name keeps its
-  capital in the lemma.
+- Proper names: a name the New Testament also uses, of a person or a place, takes MorphGNT's
+  dictionary form, accented though Rahlfs prints it bare — Ἀδάμ, Εὕα, Κάϊν, Ἅβελ, Σήθ, Ἐνώς,
+  Ἑνώχ, Μαθουσαλά, Λάμεχ, Μαλελεήλ, Νῶε, Σήμ, Χανάαν, Μαγώγ, Ἀρφαξάδ, Σαλά, Ἔβερ, Φάλεκ, Ἀράμ,
+  and the declined Σιδών, Γάζα, Βαβυλών, Σόδομα, Γόμορρα so far — even where the New Testament
+  uses it of another bearer (Χανάαν the land, Acts 7:11; Μαγώγ a people, Rev 20:8). Where the New
+  Testament spells the name with other letters (Luke 3:36–37 Καϊνάμ, Ἰάρετ), it is not the same
+  dictionary form; a breathing or accent is not a letter. Every other Semitic name, of a person or
+  a place, exactly as printed, unaccented (Εδεμ, Φισων, Ναιδ), and in the nominative where it is
+  declined. Greek names in the nominative singular (Αἰθιοπία, Τίγρις, Ἀσσύριος, Εὐφράτης,
+  Χετταῖος, Ῥόδιος). A Greek word the text prints capitalised as a name keeps its capital in the
+  lemma.
 - Any other Semitic word printed unaccented: exactly as printed, like the place names.
 
 ## The text

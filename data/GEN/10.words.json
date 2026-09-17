@@ -1,0 +1,6372 @@
+{
+  "source": "Dictionary form and parse: this project's own analysis. Senses: Middle Liddell (1889; Perseus Digital Library, CC BY-SA 3.0 US), in the lexicon's own order, without regard to context; LSJ (PerseusDL, CC BY-SA 4.0) where Middle Liddell has no entry. Middle/passive marks a tense in which the two voices share one form; masculine/feminine, an adjective whose form does not distinguish them.",
+  "verses": [
+    {
+      "ref": "GEN 10:1",
+      "words": [
+        {
+          "form": "Αὗται",
+          "lemma": "οὗτος",
+          "parse": "demonstrative pronoun · nominative · plural · feminine",
+          "aspect": "",
+          "senses": [
+            "this",
+            "the nearer",
+            "the more remote",
+            "what follows",
+            "what precedes"
+          ],
+          "more": 18,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "δὲ",
+          "lemma": "δέ",
+          "parse": "conjunction",
+          "aspect": "",
+          "senses": [
+            "but",
+            "adversative",
+            "while, whereas, on the other hand",
+            "then, yet",
+            "then"
+          ],
+          "more": 3,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "αἱ",
+          "lemma": "ὁ",
+          "parse": "article · nominative · plural · feminine",
+          "aspect": "",
+          "senses": [
+            "the",
+            "that",
+            "famous",
+            "namely that",
+            "he, she, it"
+          ],
+          "more": 31,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "γενέσεις",
+          "lemma": "γένεσις",
+          "parse": "noun · nominative · plural · feminine",
+          "aspect": "",
+          "senses": [
+            "an origin, source, productive cause",
+            "a beginning",
+            "manner of birth",
+            "race, descent",
+            "by descent"
+          ],
+          "more": 4,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "τῶν",
+          "lemma": "ὁ",
+          "parse": "article · genitive · plural · masculine",
+          "aspect": "",
+          "senses": [
+            "the",
+            "that",
+            "famous",
+            "namely that",
+            "he, she, it"
+          ],
+          "more": 31,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "υἱῶν",
+          "lemma": "υἱός",
+          "parse": "noun · genitive · plural · masculine",
+          "aspect": "",
+          "senses": [
+            "A son",
+            "a son"
+          ],
+          "more": 0,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "Νωε",
+          "lemma": "Νῶε",
+          "parse": "noun · genitive · singular · masculine",
+          "aspect": "",
+          "senses": [
+            "(Νωε, from Hebrew Nōaḥ, usually connected with nûaḥ, \"to rest\")"
+          ],
+          "more": 0,
+          "lexicon": "name"
+        },
+        {
+          "form": "Σημ",
+          "lemma": "Σήμ",
+          "parse": "noun · genitive · singular · masculine",
+          "aspect": "",
+          "senses": [
+            "(Σημ, from Hebrew Šēm, \"name\")"
+          ],
+          "more": 0,
+          "lexicon": "name"
+        },
+        {
+          "form": "Χαμ",
+          "lemma": "Χαμ",
+          "parse": "noun · genitive · singular · masculine",
+          "aspect": "",
+          "senses": [
+            "(Χαμ, from Hebrew Ḥām, usually connected with ḥam, \"hot\")"
+          ],
+          "more": 0,
+          "lexicon": "name"
+        },
+        {
+          "form": "Ιαφεθ",
+          "lemma": "Ιαφεθ",
+          "parse": "noun · genitive · singular · masculine",
+          "aspect": "",
+          "senses": [
+            "(Ιαφεθ, from Hebrew Yepet, which 9:27 ties to pātâ, \"to make wide\")"
+          ],
+          "more": 0,
+          "lexicon": "name"
+        },
+        {
+          "form": "καὶ",
+          "lemma": "καί",
+          "parse": "conjunction",
+          "aspect": "",
+          "senses": [
+            "and",
+            "also, even",
+            "both",
+            "and above all",
+            "or"
+          ],
+          "more": 8,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "ἐγενήθησαν",
+          "lemma": "γίνομαι",
+          "parse": "verb · aorist · passive · indicative · 3rd person · plural",
+          "aspect": "one completed act seen whole, not a process observed in progress",
+          "senses": [
+            "to come into being",
+            "to be born",
+            "born",
+            "to be produced",
+            "the result"
+          ],
+          "more": 27,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "αὐτοῖς",
+          "lemma": "αὐτός",
+          "parse": "personal pronoun · dative · plural · masculine",
+          "aspect": "",
+          "senses": [
+            "self",
+            "him, her, it",
+            "the very one, the same",
+            "self, myself, thyself",
+            "oneself, one's true self"
+          ],
+          "more": 25,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "υἱοὶ",
+          "lemma": "υἱός",
+          "parse": "noun · nominative · plural · masculine",
+          "aspect": "",
+          "senses": [
+            "A son",
+            "a son"
+          ],
+          "more": 0,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "μετὰ",
+          "lemma": "μετά",
+          "parse": "preposition",
+          "aspect": "",
+          "senses": [
+            "in the midst of, among",
+            "in common, along with",
+            "with, by means of",
+            "among, in company with",
+            "in"
+          ],
+          "more": 36,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "τὸν",
+          "lemma": "ὁ",
+          "parse": "article · accusative · singular · masculine",
+          "aspect": "",
+          "senses": [
+            "the",
+            "that",
+            "famous",
+            "namely that",
+            "he, she, it"
+          ],
+          "more": 31,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "κατακλυσμόν",
+          "lemma": "κατακλυσμός",
+          "parse": "noun · accusative · singular · masculine",
+          "aspect": "",
+          "senses": [
+            "a deluge, inundation"
+          ],
+          "more": 0,
+          "lexicon": "Middle Liddell"
+        }
+      ]
+    },
+    {
+      "ref": "GEN 10:2",
+      "words": [
+        {
+          "form": "Υἱοὶ",
+          "lemma": "υἱός",
+          "parse": "noun · nominative · plural · masculine",
+          "aspect": "",
+          "senses": [
+            "A son",
+            "a son"
+          ],
+          "more": 0,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "Ιαφεθ",
+          "lemma": "Ιαφεθ",
+          "parse": "noun · genitive · singular · masculine",
+          "aspect": "",
+          "senses": [
+            "(Ιαφεθ, from Hebrew Yepet, which 9:27 ties to pātâ, \"to make wide\")"
+          ],
+          "more": 0,
+          "lexicon": "name"
+        },
+        {
+          "form": "Γαμερ",
+          "lemma": "Γαμερ",
+          "parse": "noun · nominative · singular · masculine",
+          "aspect": "",
+          "senses": [
+            "(Γαμερ, from Hebrew Gōmer, of uncertain meaning)"
+          ],
+          "more": 0,
+          "lexicon": "name"
+        },
+        {
+          "form": "καὶ",
+          "lemma": "καί",
+          "parse": "conjunction",
+          "aspect": "",
+          "senses": [
+            "and",
+            "also, even",
+            "both",
+            "and above all",
+            "or"
+          ],
+          "more": 8,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "Μαγωγ",
+          "lemma": "Μαγώγ",
+          "parse": "noun · nominative · singular · masculine",
+          "aspect": "",
+          "senses": [
+            "(Μαγωγ, from Hebrew Māgôg, of uncertain meaning)"
+          ],
+          "more": 0,
+          "lexicon": "name"
+        },
+        {
+          "form": "καὶ",
+          "lemma": "καί",
+          "parse": "conjunction",
+          "aspect": "",
+          "senses": [
+            "and",
+            "also, even",
+            "both",
+            "and above all",
+            "or"
+          ],
+          "more": 8,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "Μαδαι",
+          "lemma": "Μαδαι",
+          "parse": "noun · nominative · singular · masculine",
+          "aspect": "",
+          "senses": [
+            "(Μαδαι, from Hebrew Māday, the Medes)"
+          ],
+          "more": 0,
+          "lexicon": "name"
+        },
+        {
+          "form": "καὶ",
+          "lemma": "καί",
+          "parse": "conjunction",
+          "aspect": "",
+          "senses": [
+            "and",
+            "also, even",
+            "both",
+            "and above all",
+            "or"
+          ],
+          "more": 8,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "Ιωυαν",
+          "lemma": "Ιωυαν",
+          "parse": "noun · nominative · singular · masculine",
+          "aspect": "",
+          "senses": [
+            "(Ιωυαν, from Hebrew Yāwān, Ionia, the Greeks)"
+          ],
+          "more": 0,
+          "lexicon": "name"
+        },
+        {
+          "form": "καὶ",
+          "lemma": "καί",
+          "parse": "conjunction",
+          "aspect": "",
+          "senses": [
+            "and",
+            "also, even",
+            "both",
+            "and above all",
+            "or"
+          ],
+          "more": 8,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "Ελισα",
+          "lemma": "Ελισα",
+          "parse": "noun · nominative · singular · masculine",
+          "aspect": "",
+          "senses": [
+            "(Ελισα, from Hebrew ʾĔlîšâ, of uncertain meaning)"
+          ],
+          "more": 0,
+          "lexicon": "name"
+        },
+        {
+          "form": "καὶ",
+          "lemma": "καί",
+          "parse": "conjunction",
+          "aspect": "",
+          "senses": [
+            "and",
+            "also, even",
+            "both",
+            "and above all",
+            "or"
+          ],
+          "more": 8,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "Θοβελ",
+          "lemma": "Θοβελ",
+          "parse": "noun · nominative · singular · masculine",
+          "aspect": "",
+          "senses": [
+            "(Θοβελ, from Hebrew Tûbal, of uncertain meaning)"
+          ],
+          "more": 0,
+          "lexicon": "name"
+        },
+        {
+          "form": "καὶ",
+          "lemma": "καί",
+          "parse": "conjunction",
+          "aspect": "",
+          "senses": [
+            "and",
+            "also, even",
+            "both",
+            "and above all",
+            "or"
+          ],
+          "more": 8,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "Μοσοχ",
+          "lemma": "Μοσοχ",
+          "parse": "noun · nominative · singular · masculine",
+          "aspect": "",
+          "senses": [
+            "(Μοσοχ, from Hebrew Mešek, of uncertain meaning)"
+          ],
+          "more": 0,
+          "lexicon": "name"
+        },
+        {
+          "form": "καὶ",
+          "lemma": "καί",
+          "parse": "conjunction",
+          "aspect": "",
+          "senses": [
+            "and",
+            "also, even",
+            "both",
+            "and above all",
+            "or"
+          ],
+          "more": 8,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "Θιρας",
+          "lemma": "Θιρας",
+          "parse": "noun · nominative · singular · masculine",
+          "aspect": "",
+          "senses": [
+            "(Θιρας, from Hebrew Tîrās, of uncertain meaning)"
+          ],
+          "more": 0,
+          "lexicon": "name"
+        }
+      ]
+    },
+    {
+      "ref": "GEN 10:3",
+      "words": [
+        {
+          "form": "καὶ",
+          "lemma": "καί",
+          "parse": "conjunction",
+          "aspect": "",
+          "senses": [
+            "and",
+            "also, even",
+            "both",
+            "and above all",
+            "or"
+          ],
+          "more": 8,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "υἱοὶ",
+          "lemma": "υἱός",
+          "parse": "noun · nominative · plural · masculine",
+          "aspect": "",
+          "senses": [
+            "A son",
+            "a son"
+          ],
+          "more": 0,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "Γαμερ",
+          "lemma": "Γαμερ",
+          "parse": "noun · genitive · singular · masculine",
+          "aspect": "",
+          "senses": [
+            "(Γαμερ, from Hebrew Gōmer, of uncertain meaning)"
+          ],
+          "more": 0,
+          "lexicon": "name"
+        },
+        {
+          "form": "Ασχαναζ",
+          "lemma": "Ασχαναζ",
+          "parse": "noun · nominative · singular · masculine",
+          "aspect": "",
+          "senses": [
+            "(Ασχαναζ, from Hebrew ʾAškĕnaz, of uncertain meaning)"
+          ],
+          "more": 0,
+          "lexicon": "name"
+        },
+        {
+          "form": "καὶ",
+          "lemma": "καί",
+          "parse": "conjunction",
+          "aspect": "",
+          "senses": [
+            "and",
+            "also, even",
+            "both",
+            "and above all",
+            "or"
+          ],
+          "more": 8,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "Ριφαθ",
+          "lemma": "Ριφαθ",
+          "parse": "noun · nominative · singular · masculine",
+          "aspect": "",
+          "senses": [
+            "(Ριφαθ, from Hebrew Rîpat, of uncertain meaning)"
+          ],
+          "more": 0,
+          "lexicon": "name"
+        },
+        {
+          "form": "καὶ",
+          "lemma": "καί",
+          "parse": "conjunction",
+          "aspect": "",
+          "senses": [
+            "and",
+            "also, even",
+            "both",
+            "and above all",
+            "or"
+          ],
+          "more": 8,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "Θοργαμα",
+          "lemma": "Θοργαμα",
+          "parse": "noun · nominative · singular · masculine",
+          "aspect": "",
+          "senses": [
+            "(Θοργαμα, from Hebrew Tōgarmâ, of uncertain meaning)"
+          ],
+          "more": 0,
+          "lexicon": "name"
+        }
+      ]
+    },
+    {
+      "ref": "GEN 10:4",
+      "words": [
+        {
+          "form": "καὶ",
+          "lemma": "καί",
+          "parse": "conjunction",
+          "aspect": "",
+          "senses": [
+            "and",
+            "also, even",
+            "both",
+            "and above all",
+            "or"
+          ],
+          "more": 8,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "υἱοὶ",
+          "lemma": "υἱός",
+          "parse": "noun · nominative · plural · masculine",
+          "aspect": "",
+          "senses": [
+            "A son",
+            "a son"
+          ],
+          "more": 0,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "Ιωυαν",
+          "lemma": "Ιωυαν",
+          "parse": "noun · genitive · singular · masculine",
+          "aspect": "",
+          "senses": [
+            "(Ιωυαν, from Hebrew Yāwān, Ionia, the Greeks)"
+          ],
+          "more": 0,
+          "lexicon": "name"
+        },
+        {
+          "form": "Ελισα",
+          "lemma": "Ελισα",
+          "parse": "noun · nominative · singular · masculine",
+          "aspect": "",
+          "senses": [
+            "(Ελισα, from Hebrew ʾĔlîšâ, of uncertain meaning)"
+          ],
+          "more": 0,
+          "lexicon": "name"
+        },
+        {
+          "form": "καὶ",
+          "lemma": "καί",
+          "parse": "conjunction",
+          "aspect": "",
+          "senses": [
+            "and",
+            "also, even",
+            "both",
+            "and above all",
+            "or"
+          ],
+          "more": 8,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "Θαρσις",
+          "lemma": "Θαρσις",
+          "parse": "noun · nominative · singular · masculine",
+          "aspect": "",
+          "senses": [
+            "(Θαρσις, from Hebrew Taršîš, of uncertain meaning)"
+          ],
+          "more": 0,
+          "lexicon": "name"
+        },
+        {
+          "form": "Κίτιοι",
+          "lemma": "Κίτιος",
+          "parse": "noun · nominative · plural · masculine",
+          "aspect": "",
+          "senses": [
+            "(Κίτιοι, the people of Kition in Cyprus; Hebrew Kittîm)"
+          ],
+          "more": 0,
+          "lexicon": "name"
+        },
+        {
+          "form": "Ῥόδιοι",
+          "lemma": "Ῥόδιος",
+          "parse": "noun · nominative · plural · masculine",
+          "aspect": "",
+          "senses": [
+            "(Ῥόδιοι, the people of Rhodes; Hebrew Dōdānîm)"
+          ],
+          "more": 0,
+          "lexicon": "name"
+        }
+      ]
+    },
+    {
+      "ref": "GEN 10:5",
+      "words": [
+        {
+          "form": "ἐκ",
+          "lemma": "ἐκ",
+          "parse": "preposition",
+          "aspect": "",
+          "senses": [
+            "from out of",
+            "out of, from. c. gen.",
+            "out of, forth from",
+            "from",
+            "with all"
+          ],
+          "more": 26,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "τούτων",
+          "lemma": "οὗτος",
+          "parse": "demonstrative pronoun · genitive · plural · masculine",
+          "aspect": "",
+          "senses": [
+            "this",
+            "the nearer",
+            "the more remote",
+            "what follows",
+            "what precedes"
+          ],
+          "more": 18,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "ἀφωρίσθησαν",
+          "lemma": "ἀφορίζω",
+          "parse": "verb · aorist · passive · indicative · 3rd person · plural",
+          "aspect": "one completed act seen whole, not a process observed in progress",
+          "senses": [
+            "to mark off by boundaries",
+            "to mark off for oneself, appropriate",
+            "to distinguish, determine, define",
+            "to banish",
+            "to set apart, separate"
+          ],
+          "more": 3,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "νῆσοι",
+          "lemma": "νῆσος",
+          "parse": "noun · nominative · plural · feminine",
+          "aspect": "",
+          "senses": [
+            "an island"
+          ],
+          "more": 0,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "τῶν",
+          "lemma": "ὁ",
+          "parse": "article · genitive · plural · neuter",
+          "aspect": "",
+          "senses": [
+            "the",
+            "that",
+            "famous",
+            "namely that",
+            "he, she, it"
+          ],
+          "more": 31,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "ἐθνῶν",
+          "lemma": "ἔθνος",
+          "parse": "noun · genitive · plural · neuter",
+          "aspect": "",
+          "senses": [
+            "a number of people accustomed to live together, a company, body of men",
+            "a host",
+            "swarms, flocks",
+            "a nation, people",
+            "the nations, Gentiles"
+          ],
+          "more": 3,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "ἐν",
+          "lemma": "ἐν",
+          "parse": "preposition",
+          "aspect": "",
+          "senses": [
+            "in, among. c. dat.",
+            "in",
+            "at the school of",
+            "in, upon",
+            "in the number of, amongst"
+          ],
+          "more": 23,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "τῇ",
+          "lemma": "ὁ",
+          "parse": "article · dative · singular · feminine",
+          "aspect": "",
+          "senses": [
+            "the",
+            "that",
+            "famous",
+            "namely that",
+            "he, she, it"
+          ],
+          "more": 31,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "γῇ",
+          "lemma": "γῆ",
+          "parse": "noun · dative · singular · feminine",
+          "aspect": "",
+          "senses": [
+            "earth",
+            "land",
+            "on land, by land",
+            "the earth",
+            "a land, country"
+          ],
+          "more": 3,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "αὐτῶν",
+          "lemma": "αὐτός",
+          "parse": "personal pronoun · genitive · plural · masculine",
+          "aspect": "",
+          "senses": [
+            "self",
+            "him, her, it",
+            "the very one, the same",
+            "self, myself, thyself",
+            "oneself, one's true self"
+          ],
+          "more": 25,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "ἕκαστος",
+          "lemma": "ἕκαστος",
+          "parse": "adjective · nominative · singular · masculine",
+          "aspect": "",
+          "senses": [
+            "every, every one, each, each one",
+            "every one of them",
+            "every one",
+            "all and each one",
+            "singly, by itself"
+          ],
+          "more": 1,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "κατὰ",
+          "lemma": "κατά",
+          "parse": "preposition",
+          "aspect": "",
+          "senses": [
+            "down, downwards, with gen. or acc.",
+            "down, downwards.",
+            "motion from above, down from",
+            "downward motion",
+            "down upon"
+          ],
+          "more": 45,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "γλῶσσαν",
+          "lemma": "γλῶσσα",
+          "parse": "noun · accusative · singular · feminine",
+          "aspect": "",
+          "senses": [
+            "the tongue",
+            "a tongue, language",
+            "mouthpiece"
+          ],
+          "more": 0,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "ἐν",
+          "lemma": "ἐν",
+          "parse": "preposition",
+          "aspect": "",
+          "senses": [
+            "in, among. c. dat.",
+            "in",
+            "at the school of",
+            "in, upon",
+            "in the number of, amongst"
+          ],
+          "more": 23,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "ταῖς",
+          "lemma": "ὁ",
+          "parse": "article · dative · plural · feminine",
+          "aspect": "",
+          "senses": [
+            "the",
+            "that",
+            "famous",
+            "namely that",
+            "he, she, it"
+          ],
+          "more": 31,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "φυλαῖς",
+          "lemma": "φυλή",
+          "parse": "noun · dative · plural · feminine",
+          "aspect": "",
+          "senses": [
+            "a race",
+            "tribe",
+            "a body",
+            "united by ties of blood and descent, a clan",
+            "a tribe"
+          ],
+          "more": 6,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "αὐτῶν",
+          "lemma": "αὐτός",
+          "parse": "personal pronoun · genitive · plural · masculine",
+          "aspect": "",
+          "senses": [
+            "self",
+            "him, her, it",
+            "the very one, the same",
+            "self, myself, thyself",
+            "oneself, one's true self"
+          ],
+          "more": 25,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "καὶ",
+          "lemma": "καί",
+          "parse": "conjunction",
+          "aspect": "",
+          "senses": [
+            "and",
+            "also, even",
+            "both",
+            "and above all",
+            "or"
+          ],
+          "more": 8,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "ἐν",
+          "lemma": "ἐν",
+          "parse": "preposition",
+          "aspect": "",
+          "senses": [
+            "in, among. c. dat.",
+            "in",
+            "at the school of",
+            "in, upon",
+            "in the number of, amongst"
+          ],
+          "more": 23,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "τοῖς",
+          "lemma": "ὁ",
+          "parse": "article · dative · plural · neuter",
+          "aspect": "",
+          "senses": [
+            "the",
+            "that",
+            "famous",
+            "namely that",
+            "he, she, it"
+          ],
+          "more": 31,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "ἔθνεσιν",
+          "lemma": "ἔθνος",
+          "parse": "noun · dative · plural · neuter",
+          "aspect": "",
+          "senses": [
+            "a number of people accustomed to live together, a company, body of men",
+            "a host",
+            "swarms, flocks",
+            "a nation, people",
+            "the nations, Gentiles"
+          ],
+          "more": 3,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "αὐτῶν",
+          "lemma": "αὐτός",
+          "parse": "personal pronoun · genitive · plural · masculine",
+          "aspect": "",
+          "senses": [
+            "self",
+            "him, her, it",
+            "the very one, the same",
+            "self, myself, thyself",
+            "oneself, one's true self"
+          ],
+          "more": 25,
+          "lexicon": "Middle Liddell"
+        }
+      ]
+    },
+    {
+      "ref": "GEN 10:6",
+      "words": [
+        {
+          "form": "Υἱοὶ",
+          "lemma": "υἱός",
+          "parse": "noun · nominative · plural · masculine",
+          "aspect": "",
+          "senses": [
+            "A son",
+            "a son"
+          ],
+          "more": 0,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "δὲ",
+          "lemma": "δέ",
+          "parse": "conjunction",
+          "aspect": "",
+          "senses": [
+            "but",
+            "adversative",
+            "while, whereas, on the other hand",
+            "then, yet",
+            "then"
+          ],
+          "more": 3,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "Χαμ",
+          "lemma": "Χαμ",
+          "parse": "noun · genitive · singular · masculine",
+          "aspect": "",
+          "senses": [
+            "(Χαμ, from Hebrew Ḥām, usually connected with ḥam, \"hot\")"
+          ],
+          "more": 0,
+          "lexicon": "name"
+        },
+        {
+          "form": "Χους",
+          "lemma": "Χους",
+          "parse": "noun · nominative · singular · masculine",
+          "aspect": "",
+          "senses": [
+            "(Χους, from Hebrew Kûš, the land 2:13 calls Αἰθιοπία)"
+          ],
+          "more": 0,
+          "lexicon": "name"
+        },
+        {
+          "form": "καὶ",
+          "lemma": "καί",
+          "parse": "conjunction",
+          "aspect": "",
+          "senses": [
+            "and",
+            "also, even",
+            "both",
+            "and above all",
+            "or"
+          ],
+          "more": 8,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "Μεσραιμ",
+          "lemma": "Μεσραιμ",
+          "parse": "noun · nominative · singular · masculine",
+          "aspect": "",
+          "senses": [
+            "(Μεσραιμ, from Hebrew Miṣrayim, Egypt)"
+          ],
+          "more": 0,
+          "lexicon": "name"
+        },
+        {
+          "form": "Φουδ",
+          "lemma": "Φουδ",
+          "parse": "noun · nominative · singular · masculine",
+          "aspect": "",
+          "senses": [
+            "(Φουδ, from Hebrew Pûṭ, of uncertain meaning)"
+          ],
+          "more": 0,
+          "lexicon": "name"
+        },
+        {
+          "form": "καὶ",
+          "lemma": "καί",
+          "parse": "conjunction",
+          "aspect": "",
+          "senses": [
+            "and",
+            "also, even",
+            "both",
+            "and above all",
+            "or"
+          ],
+          "more": 8,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "Χανααν",
+          "lemma": "Χανάαν",
+          "parse": "noun · nominative · singular · masculine",
+          "aspect": "",
+          "senses": [
+            "(Χανααν, from Hebrew Kĕnaʿan, of uncertain meaning)"
+          ],
+          "more": 0,
+          "lexicon": "name"
+        }
+      ]
+    },
+    {
+      "ref": "GEN 10:7",
+      "words": [
+        {
+          "form": "υἱοὶ",
+          "lemma": "υἱός",
+          "parse": "noun · nominative · plural · masculine",
+          "aspect": "",
+          "senses": [
+            "A son",
+            "a son"
+          ],
+          "more": 0,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "δὲ",
+          "lemma": "δέ",
+          "parse": "conjunction",
+          "aspect": "",
+          "senses": [
+            "but",
+            "adversative",
+            "while, whereas, on the other hand",
+            "then, yet",
+            "then"
+          ],
+          "more": 3,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "Χους",
+          "lemma": "Χους",
+          "parse": "noun · genitive · singular · masculine",
+          "aspect": "",
+          "senses": [
+            "(Χους, from Hebrew Kûš, the land 2:13 calls Αἰθιοπία)"
+          ],
+          "more": 0,
+          "lexicon": "name"
+        },
+        {
+          "form": "Σαβα",
+          "lemma": "Σαβα",
+          "parse": "noun · nominative · singular · masculine",
+          "aspect": "",
+          "senses": [
+            "(Σαβα, from Hebrew Sĕbāʾ; the second Σαβα of the verse is Hebrew Šĕbāʾ, Sheba)"
+          ],
+          "more": 0,
+          "lexicon": "name"
+        },
+        {
+          "form": "καὶ",
+          "lemma": "καί",
+          "parse": "conjunction",
+          "aspect": "",
+          "senses": [
+            "and",
+            "also, even",
+            "both",
+            "and above all",
+            "or"
+          ],
+          "more": 8,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "Ευιλα",
+          "lemma": "Ευιλα",
+          "parse": "noun · nominative · singular · masculine",
+          "aspect": "",
+          "senses": [
+            "(Ευιλα, from Hebrew Ḥăwîlâ, the name 2:11 gives as Ευιλατ, usually connected with ḥôl, \"sand\")"
+          ],
+          "more": 0,
+          "lexicon": "name"
+        },
+        {
+          "form": "καὶ",
+          "lemma": "καί",
+          "parse": "conjunction",
+          "aspect": "",
+          "senses": [
+            "and",
+            "also, even",
+            "both",
+            "and above all",
+            "or"
+          ],
+          "more": 8,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "Σαβαθα",
+          "lemma": "Σαβαθα",
+          "parse": "noun · nominative · singular · masculine",
+          "aspect": "",
+          "senses": [
+            "(Σαβαθα, from Hebrew Sabtâ, of uncertain meaning)"
+          ],
+          "more": 0,
+          "lexicon": "name"
+        },
+        {
+          "form": "καὶ",
+          "lemma": "καί",
+          "parse": "conjunction",
+          "aspect": "",
+          "senses": [
+            "and",
+            "also, even",
+            "both",
+            "and above all",
+            "or"
+          ],
+          "more": 8,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "Ρεγμα",
+          "lemma": "Ρεγμα",
+          "parse": "noun · nominative · singular · masculine",
+          "aspect": "",
+          "senses": [
+            "(Ρεγμα, from Hebrew Raʿmâ, of uncertain meaning)"
+          ],
+          "more": 0,
+          "lexicon": "name"
+        },
+        {
+          "form": "καὶ",
+          "lemma": "καί",
+          "parse": "conjunction",
+          "aspect": "",
+          "senses": [
+            "and",
+            "also, even",
+            "both",
+            "and above all",
+            "or"
+          ],
+          "more": 8,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "Σαβακαθα",
+          "lemma": "Σαβακαθα",
+          "parse": "noun · nominative · singular · masculine",
+          "aspect": "",
+          "senses": [
+            "(Σαβακαθα, from Hebrew Sabtĕkāʾ, of uncertain meaning)"
+          ],
+          "more": 0,
+          "lexicon": "name"
+        },
+        {
+          "form": "υἱοὶ",
+          "lemma": "υἱός",
+          "parse": "noun · nominative · plural · masculine",
+          "aspect": "",
+          "senses": [
+            "A son",
+            "a son"
+          ],
+          "more": 0,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "δὲ",
+          "lemma": "δέ",
+          "parse": "conjunction",
+          "aspect": "",
+          "senses": [
+            "but",
+            "adversative",
+            "while, whereas, on the other hand",
+            "then, yet",
+            "then"
+          ],
+          "more": 3,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "Ρεγμα",
+          "lemma": "Ρεγμα",
+          "parse": "noun · genitive · singular · masculine",
+          "aspect": "",
+          "senses": [
+            "(Ρεγμα, from Hebrew Raʿmâ, of uncertain meaning)"
+          ],
+          "more": 0,
+          "lexicon": "name"
+        },
+        {
+          "form": "Σαβα",
+          "lemma": "Σαβα",
+          "parse": "noun · nominative · singular · masculine",
+          "aspect": "",
+          "senses": [
+            "(Σαβα, from Hebrew Sĕbāʾ; the second Σαβα of the verse is Hebrew Šĕbāʾ, Sheba)"
+          ],
+          "more": 0,
+          "lexicon": "name"
+        },
+        {
+          "form": "καὶ",
+          "lemma": "καί",
+          "parse": "conjunction",
+          "aspect": "",
+          "senses": [
+            "and",
+            "also, even",
+            "both",
+            "and above all",
+            "or"
+          ],
+          "more": 8,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "Δαδαν",
+          "lemma": "Δαδαν",
+          "parse": "noun · nominative · singular · masculine",
+          "aspect": "",
+          "senses": [
+            "(Δαδαν, from Hebrew Dĕdān, of uncertain meaning)"
+          ],
+          "more": 0,
+          "lexicon": "name"
+        }
+      ]
+    },
+    {
+      "ref": "GEN 10:8",
+      "words": [
+        {
+          "form": "Χους",
+          "lemma": "Χους",
+          "parse": "noun · nominative · singular · masculine",
+          "aspect": "",
+          "senses": [
+            "(Χους, from Hebrew Kûš, the land 2:13 calls Αἰθιοπία)"
+          ],
+          "more": 0,
+          "lexicon": "name"
+        },
+        {
+          "form": "δὲ",
+          "lemma": "δέ",
+          "parse": "conjunction",
+          "aspect": "",
+          "senses": [
+            "but",
+            "adversative",
+            "while, whereas, on the other hand",
+            "then, yet",
+            "then"
+          ],
+          "more": 3,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "ἐγέννησεν",
+          "lemma": "γεννάω",
+          "parse": "verb · aorist · active · indicative · 3rd person · singular",
+          "aspect": "one completed act seen whole, not a process observed in progress",
+          "senses": [
+            "to beget, engender",
+            "to bring forth",
+            "to produce"
+          ],
+          "more": 0,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "τὸν",
+          "lemma": "ὁ",
+          "parse": "article · accusative · singular · masculine",
+          "aspect": "",
+          "senses": [
+            "the",
+            "that",
+            "famous",
+            "namely that",
+            "he, she, it"
+          ],
+          "more": 31,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "Νεβρωδ",
+          "lemma": "Νεβρωδ",
+          "parse": "noun · accusative · singular · masculine",
+          "aspect": "",
+          "senses": [
+            "(Νεβρωδ, from Hebrew Nimrōd, usually connected with mārad, \"to rebel\")"
+          ],
+          "more": 0,
+          "lexicon": "name"
+        },
+        {
+          "form": "οὗτος",
+          "lemma": "οὗτος",
+          "parse": "demonstrative pronoun · nominative · singular · masculine",
+          "aspect": "",
+          "senses": [
+            "this",
+            "the nearer",
+            "the more remote",
+            "what follows",
+            "what precedes"
+          ],
+          "more": 18,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "ἤρξατο",
+          "lemma": "ἄρχω",
+          "parse": "verb · aorist · middle · indicative · 3rd person · singular",
+          "aspect": "one completed act seen whole, not a process observed in progress",
+          "senses": [
+            "to begin, make a beginning",
+            "to make a beginning of",
+            "beginning the sacrifice with",
+            "to begin from",
+            "with"
+          ],
+          "more": 13,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "εἶναι",
+          "lemma": "εἰμί",
+          "parse": "verb · present · active · infinitive",
+          "aspect": "going on, in progress",
+          "senses": [
+            "to be, to exist",
+            "to be, exist",
+            "last",
+            "to be",
+            "appearing to be"
+          ],
+          "more": 11,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "γίγας",
+          "lemma": "γίγας",
+          "parse": "noun · nominative · singular · masculine",
+          "aspect": "",
+          "senses": [
+            "the Giants",
+            "the sons of Gaia",
+            "mighty"
+          ],
+          "more": 0,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "ἐπὶ",
+          "lemma": "ἐπί",
+          "parse": "preposition",
+          "aspect": "",
+          "senses": [
+            "on, upon with gen., dat., and acc.",
+            "upon.",
+            "upon",
+            "on",
+            "in"
+          ],
+          "more": 60,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "τῆς",
+          "lemma": "ὁ",
+          "parse": "article · genitive · singular · feminine",
+          "aspect": "",
+          "senses": [
+            "the",
+            "that",
+            "famous",
+            "namely that",
+            "he, she, it"
+          ],
+          "more": 31,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "γῆς",
+          "lemma": "γῆ",
+          "parse": "noun · genitive · singular · feminine",
+          "aspect": "",
+          "senses": [
+            "earth",
+            "land",
+            "on land, by land",
+            "the earth",
+            "a land, country"
+          ],
+          "more": 3,
+          "lexicon": "Middle Liddell"
+        }
+      ]
+    },
+    {
+      "ref": "GEN 10:9",
+      "words": [
+        {
+          "form": "οὗτος",
+          "lemma": "οὗτος",
+          "parse": "demonstrative pronoun · nominative · singular · masculine",
+          "aspect": "",
+          "senses": [
+            "this",
+            "the nearer",
+            "the more remote",
+            "what follows",
+            "what precedes"
+          ],
+          "more": 18,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "ἦν",
+          "lemma": "εἰμί",
+          "parse": "verb · imperfect · active · indicative · 3rd person · singular",
+          "aspect": "was, and kept on being: action going on in past time",
+          "senses": [
+            "to be, to exist",
+            "to be, exist",
+            "last",
+            "to be",
+            "appearing to be"
+          ],
+          "more": 11,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "γίγας",
+          "lemma": "γίγας",
+          "parse": "noun · nominative · singular · masculine",
+          "aspect": "",
+          "senses": [
+            "the Giants",
+            "the sons of Gaia",
+            "mighty"
+          ],
+          "more": 0,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "κυνηγὸς",
+          "lemma": "κυνηγός",
+          "parse": "noun · nominative · singular · masculine",
+          "aspect": "",
+          "senses": [
+            "a hound-leader",
+            "a huntsman"
+          ],
+          "more": 0,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "ἐναντίον",
+          "lemma": "ἐναντίον",
+          "parse": "preposition",
+          "aspect": "",
+          "senses": [
+            "opposite",
+            "over against, opposite",
+            "fronting, face to face",
+            "in opposite directions, meeting",
+            "opposing, facing"
+          ],
+          "more": 10,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "κυρίου",
+          "lemma": "κύριος",
+          "parse": "noun · genitive · singular · masculine",
+          "aspect": "",
+          "senses": [
+            "having power",
+            "authority over, lord",
+            "master of",
+            "I have authority",
+            "am entitled"
+          ],
+          "more": 14,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "τοῦ",
+          "lemma": "ὁ",
+          "parse": "article · genitive · singular · masculine",
+          "aspect": "",
+          "senses": [
+            "the",
+            "that",
+            "famous",
+            "namely that",
+            "he, she, it"
+          ],
+          "more": 31,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "θεοῦ",
+          "lemma": "θεός",
+          "parse": "noun · genitive · singular · masculine",
+          "aspect": "",
+          "senses": [
+            "God",
+            "a god;",
+            "his will",
+            "the gods",
+            "God's name"
+          ],
+          "more": 3,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "διὰ",
+          "lemma": "διά",
+          "parse": "preposition",
+          "aspect": "",
+          "senses": [
+            "through",
+            "in a line, through, right through",
+            "quite through",
+            "in succession",
+            "not in a line, all through, over"
+          ],
+          "more": 34,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "τοῦτο",
+          "lemma": "οὗτος",
+          "parse": "demonstrative pronoun · accusative · singular · neuter",
+          "aspect": "",
+          "senses": [
+            "this",
+            "the nearer",
+            "the more remote",
+            "what follows",
+            "what precedes"
+          ],
+          "more": 18,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "ἐροῦσιν",
+          "lemma": "λέγω",
+          "parse": "verb · future · active · indicative · 3rd person · plural",
+          "aspect": "",
+          "senses": [
+            "to say, speak",
+            "say on",
+            "to say, declare",
+            "say something of",
+            "to call by name"
+          ],
+          "more": 20,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "Ὡς",
+          "lemma": "ὡς",
+          "parse": "conjunction",
+          "aspect": "",
+          "senses": [
+            "as",
+            "according as",
+            "considering",
+            "like",
+            "in very truth"
+          ],
+          "more": 27,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "Νεβρωδ",
+          "lemma": "Νεβρωδ",
+          "parse": "noun · nominative · singular · masculine",
+          "aspect": "",
+          "senses": [
+            "(Νεβρωδ, from Hebrew Nimrōd, usually connected with mārad, \"to rebel\")"
+          ],
+          "more": 0,
+          "lexicon": "name"
+        },
+        {
+          "form": "γίγας",
+          "lemma": "γίγας",
+          "parse": "noun · nominative · singular · masculine",
+          "aspect": "",
+          "senses": [
+            "the Giants",
+            "the sons of Gaia",
+            "mighty"
+          ],
+          "more": 0,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "κυνηγὸς",
+          "lemma": "κυνηγός",
+          "parse": "noun · nominative · singular · masculine",
+          "aspect": "",
+          "senses": [
+            "a hound-leader",
+            "a huntsman"
+          ],
+          "more": 0,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "ἐναντίον",
+          "lemma": "ἐναντίον",
+          "parse": "preposition",
+          "aspect": "",
+          "senses": [
+            "opposite",
+            "over against, opposite",
+            "fronting, face to face",
+            "in opposite directions, meeting",
+            "opposing, facing"
+          ],
+          "more": 10,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "κυρίου",
+          "lemma": "κύριος",
+          "parse": "noun · genitive · singular · masculine",
+          "aspect": "",
+          "senses": [
+            "having power",
+            "authority over, lord",
+            "master of",
+            "I have authority",
+            "am entitled"
+          ],
+          "more": 14,
+          "lexicon": "Middle Liddell"
+        }
+      ]
+    },
+    {
+      "ref": "GEN 10:10",
+      "words": [
+        {
+          "form": "καὶ",
+          "lemma": "καί",
+          "parse": "conjunction",
+          "aspect": "",
+          "senses": [
+            "and",
+            "also, even",
+            "both",
+            "and above all",
+            "or"
+          ],
+          "more": 8,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "ἐγένετο",
+          "lemma": "γίνομαι",
+          "parse": "verb · aorist · middle · indicative · 3rd person · singular",
+          "aspect": "one completed act seen whole, not a process observed in progress",
+          "senses": [
+            "to come into being",
+            "to be born",
+            "born",
+            "to be produced",
+            "the result"
+          ],
+          "more": 27,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "ἀρχὴ",
+          "lemma": "ἀρχή",
+          "parse": "noun · nominative · singular · feminine",
+          "aspect": "",
+          "senses": [
+            "a beginning, origin, first cause",
+            "from the beginning, from of old",
+            "anew, afresh",
+            "in the beginning, at first",
+            "to begin with, first"
+          ],
+          "more": 11,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "τῆς",
+          "lemma": "ὁ",
+          "parse": "article · genitive · singular · feminine",
+          "aspect": "",
+          "senses": [
+            "the",
+            "that",
+            "famous",
+            "namely that",
+            "he, she, it"
+          ],
+          "more": 31,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "βασιλείας",
+          "lemma": "βασιλεία",
+          "parse": "noun · genitive · singular · feminine",
+          "aspect": "",
+          "senses": [
+            "a kingdom, dominion",
+            "hereditary monarchy"
+          ],
+          "more": 0,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "αὐτοῦ",
+          "lemma": "αὐτός",
+          "parse": "personal pronoun · genitive · singular · masculine",
+          "aspect": "",
+          "senses": [
+            "self",
+            "him, her, it",
+            "the very one, the same",
+            "self, myself, thyself",
+            "oneself, one's true self"
+          ],
+          "more": 25,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "Βαβυλὼν",
+          "lemma": "Βαβυλών",
+          "parse": "noun · nominative · singular · feminine",
+          "aspect": "",
+          "senses": [
+            "(Βαβυλών, the Greek name of Hebrew Bābel, which 11:9 ties to bālal, \"to confuse\")"
+          ],
+          "more": 0,
+          "lexicon": "name"
+        },
+        {
+          "form": "καὶ",
+          "lemma": "καί",
+          "parse": "conjunction",
+          "aspect": "",
+          "senses": [
+            "and",
+            "also, even",
+            "both",
+            "and above all",
+            "or"
+          ],
+          "more": 8,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "Ορεχ",
+          "lemma": "Ορεχ",
+          "parse": "noun · nominative · singular",
+          "aspect": "",
+          "senses": [
+            "(Ορεχ, from Hebrew ʾErek, the city Uruk)"
+          ],
+          "more": 0,
+          "lexicon": "name"
+        },
+        {
+          "form": "καὶ",
+          "lemma": "καί",
+          "parse": "conjunction",
+          "aspect": "",
+          "senses": [
+            "and",
+            "also, even",
+            "both",
+            "and above all",
+            "or"
+          ],
+          "more": 8,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "Αρχαδ",
+          "lemma": "Αρχαδ",
+          "parse": "noun · nominative · singular",
+          "aspect": "",
+          "senses": [
+            "(Αρχαδ, from Hebrew ʾAkkad, the city Akkad)"
+          ],
+          "more": 0,
+          "lexicon": "name"
+        },
+        {
+          "form": "καὶ",
+          "lemma": "καί",
+          "parse": "conjunction",
+          "aspect": "",
+          "senses": [
+            "and",
+            "also, even",
+            "both",
+            "and above all",
+            "or"
+          ],
+          "more": 8,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "Χαλαννη",
+          "lemma": "Χαλαννη",
+          "parse": "noun · nominative · singular",
+          "aspect": "",
+          "senses": [
+            "(Χαλαννη, from Hebrew Kalnēh, of uncertain meaning)"
+          ],
+          "more": 0,
+          "lexicon": "name"
+        },
+        {
+          "form": "ἐν",
+          "lemma": "ἐν",
+          "parse": "preposition",
+          "aspect": "",
+          "senses": [
+            "in, among. c. dat.",
+            "in",
+            "at the school of",
+            "in, upon",
+            "in the number of, amongst"
+          ],
+          "more": 23,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "τῇ",
+          "lemma": "ὁ",
+          "parse": "article · dative · singular · feminine",
+          "aspect": "",
+          "senses": [
+            "the",
+            "that",
+            "famous",
+            "namely that",
+            "he, she, it"
+          ],
+          "more": 31,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "γῇ",
+          "lemma": "γῆ",
+          "parse": "noun · dative · singular · feminine",
+          "aspect": "",
+          "senses": [
+            "earth",
+            "land",
+            "on land, by land",
+            "the earth",
+            "a land, country"
+          ],
+          "more": 3,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "Σεννααρ",
+          "lemma": "Σεννααρ",
+          "parse": "noun · genitive · singular",
+          "aspect": "",
+          "senses": [
+            "(Σεννααρ, from Hebrew Šinʿār, the plain of Babylonia)"
+          ],
+          "more": 0,
+          "lexicon": "name"
+        }
+      ]
+    },
+    {
+      "ref": "GEN 10:11",
+      "words": [
+        {
+          "form": "ἐκ",
+          "lemma": "ἐκ",
+          "parse": "preposition",
+          "aspect": "",
+          "senses": [
+            "from out of",
+            "out of, from. c. gen.",
+            "out of, forth from",
+            "from",
+            "with all"
+          ],
+          "more": 26,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "τῆς",
+          "lemma": "ὁ",
+          "parse": "article · genitive · singular · feminine",
+          "aspect": "",
+          "senses": [
+            "the",
+            "that",
+            "famous",
+            "namely that",
+            "he, she, it"
+          ],
+          "more": 31,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "γῆς",
+          "lemma": "γῆ",
+          "parse": "noun · genitive · singular · feminine",
+          "aspect": "",
+          "senses": [
+            "earth",
+            "land",
+            "on land, by land",
+            "the earth",
+            "a land, country"
+          ],
+          "more": 3,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "ἐκείνης",
+          "lemma": "ἐκεῖνος",
+          "parse": "demonstrative pronoun · genitive · singular · feminine",
+          "aspect": "",
+          "senses": [
+            "the person there, that person",
+            "thing",
+            "ille",
+            "the more remote",
+            "the former"
+          ],
+          "more": 10,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "ἐξῆλθεν",
+          "lemma": "ἐξέρχομαι",
+          "parse": "verb · aorist · active · indicative · 3rd person · singular",
+          "aspect": "one completed act seen whole, not a process observed in progress",
+          "senses": [
+            "to go",
+            "come out of",
+            "to come out",
+            "to go away, march off",
+            "to march out, go forth"
+          ],
+          "more": 8,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "Ασσουρ",
+          "lemma": "Ασσουρ",
+          "parse": "noun · nominative · singular · masculine",
+          "aspect": "",
+          "senses": [
+            "(Ασσουρ, from Hebrew ʾAššûr, the name of Assyria, of its god and of its city)"
+          ],
+          "more": 0,
+          "lexicon": "name"
+        },
+        {
+          "form": "καὶ",
+          "lemma": "καί",
+          "parse": "conjunction",
+          "aspect": "",
+          "senses": [
+            "and",
+            "also, even",
+            "both",
+            "and above all",
+            "or"
+          ],
+          "more": 8,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "ᾠκοδόμησεν",
+          "lemma": "οἰκοδομέω",
+          "parse": "verb · aorist · active · indicative · 3rd person · singular",
+          "aspect": "one completed act seen whole, not a process observed in progress",
+          "senses": [
+            "to build a house",
+            "to build",
+            "to build oneself",
+            "have",
+            "built"
+          ],
+          "more": 4,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "τὴν",
+          "lemma": "ὁ",
+          "parse": "article · accusative · singular · feminine",
+          "aspect": "",
+          "senses": [
+            "the",
+            "that",
+            "famous",
+            "namely that",
+            "he, she, it"
+          ],
+          "more": 31,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "Νινευη",
+          "lemma": "Νινευη",
+          "parse": "noun · accusative · singular",
+          "aspect": "",
+          "senses": [
+            "(Νινευη, from Hebrew Nînĕwēh, the city Nineveh)"
+          ],
+          "more": 0,
+          "lexicon": "name"
+        },
+        {
+          "form": "καὶ",
+          "lemma": "καί",
+          "parse": "conjunction",
+          "aspect": "",
+          "senses": [
+            "and",
+            "also, even",
+            "both",
+            "and above all",
+            "or"
+          ],
+          "more": 8,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "τὴν",
+          "lemma": "ὁ",
+          "parse": "article · accusative · singular · feminine",
+          "aspect": "",
+          "senses": [
+            "the",
+            "that",
+            "famous",
+            "namely that",
+            "he, she, it"
+          ],
+          "more": 31,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "Ροωβωθ",
+          "lemma": "Ροωβωθ",
+          "parse": "noun · accusative · singular",
+          "aspect": "",
+          "senses": [
+            "(Ροωβωθ, from Hebrew Rĕḥōbōt, \"broad places\")"
+          ],
+          "more": 0,
+          "lexicon": "name"
+        },
+        {
+          "form": "πόλιν",
+          "lemma": "πόλις",
+          "parse": "noun · accusative · singular · feminine",
+          "aspect": "",
+          "senses": [
+            "a city",
+            "the citadel",
+            "the city of . .",
+            "one's city",
+            "country"
+          ],
+          "more": 6,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "καὶ",
+          "lemma": "καί",
+          "parse": "conjunction",
+          "aspect": "",
+          "senses": [
+            "and",
+            "also, even",
+            "both",
+            "and above all",
+            "or"
+          ],
+          "more": 8,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "τὴν",
+          "lemma": "ὁ",
+          "parse": "article · accusative · singular · feminine",
+          "aspect": "",
+          "senses": [
+            "the",
+            "that",
+            "famous",
+            "namely that",
+            "he, she, it"
+          ],
+          "more": 31,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "Χαλαχ",
+          "lemma": "Χαλαχ",
+          "parse": "noun · accusative · singular",
+          "aspect": "",
+          "senses": [
+            "(Χαλαχ, from Hebrew Kelaḥ, the city Kalhu)"
+          ],
+          "more": 0,
+          "lexicon": "name"
+        }
+      ]
+    },
+    {
+      "ref": "GEN 10:12",
+      "words": [
+        {
+          "form": "καὶ",
+          "lemma": "καί",
+          "parse": "conjunction",
+          "aspect": "",
+          "senses": [
+            "and",
+            "also, even",
+            "both",
+            "and above all",
+            "or"
+          ],
+          "more": 8,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "τὴν",
+          "lemma": "ὁ",
+          "parse": "article · accusative · singular · feminine",
+          "aspect": "",
+          "senses": [
+            "the",
+            "that",
+            "famous",
+            "namely that",
+            "he, she, it"
+          ],
+          "more": 31,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "Δασεμ",
+          "lemma": "Δασεμ",
+          "parse": "noun · accusative · singular",
+          "aspect": "",
+          "senses": [
+            "(Δασεμ, from Hebrew Resen, of uncertain meaning)"
+          ],
+          "more": 0,
+          "lexicon": "name"
+        },
+        {
+          "form": "ἀνὰ",
+          "lemma": "ἀνά",
+          "parse": "preposition",
+          "aspect": "",
+          "senses": [
+            "up, upon",
+            "on board",
+            "on, upon",
+            "upon",
+            "up to, up along"
+          ],
+          "more": 19,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "μέσον",
+          "lemma": "μέσος",
+          "parse": "adjective · accusative · singular · neuter",
+          "aspect": "",
+          "senses": [
+            "middle, in the middle",
+            "the middle",
+            "centre",
+            "mid",
+            "by the middle, by the waist"
+          ],
+          "more": 27,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "Νινευη",
+          "lemma": "Νινευη",
+          "parse": "noun · genitive · singular",
+          "aspect": "",
+          "senses": [
+            "(Νινευη, from Hebrew Nînĕwēh, the city Nineveh)"
+          ],
+          "more": 0,
+          "lexicon": "name"
+        },
+        {
+          "form": "καὶ",
+          "lemma": "καί",
+          "parse": "conjunction",
+          "aspect": "",
+          "senses": [
+            "and",
+            "also, even",
+            "both",
+            "and above all",
+            "or"
+          ],
+          "more": 8,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "ἀνὰ",
+          "lemma": "ἀνά",
+          "parse": "preposition",
+          "aspect": "",
+          "senses": [
+            "up, upon",
+            "on board",
+            "on, upon",
+            "upon",
+            "up to, up along"
+          ],
+          "more": 19,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "μέσον",
+          "lemma": "μέσος",
+          "parse": "adjective · accusative · singular · neuter",
+          "aspect": "",
+          "senses": [
+            "middle, in the middle",
+            "the middle",
+            "centre",
+            "mid",
+            "by the middle, by the waist"
+          ],
+          "more": 27,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "Χαλαχ",
+          "lemma": "Χαλαχ",
+          "parse": "noun · genitive · singular",
+          "aspect": "",
+          "senses": [
+            "(Χαλαχ, from Hebrew Kelaḥ, the city Kalhu)"
+          ],
+          "more": 0,
+          "lexicon": "name"
+        },
+        {
+          "form": "αὕτη",
+          "lemma": "οὗτος",
+          "parse": "demonstrative pronoun · nominative · singular · feminine",
+          "aspect": "",
+          "senses": [
+            "this",
+            "the nearer",
+            "the more remote",
+            "what follows",
+            "what precedes"
+          ],
+          "more": 18,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "ἡ",
+          "lemma": "ὁ",
+          "parse": "article · nominative · singular · feminine",
+          "aspect": "",
+          "senses": [
+            "the",
+            "that",
+            "famous",
+            "namely that",
+            "he, she, it"
+          ],
+          "more": 31,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "πόλις",
+          "lemma": "πόλις",
+          "parse": "noun · nominative · singular · feminine",
+          "aspect": "",
+          "senses": [
+            "a city",
+            "the citadel",
+            "the city of . .",
+            "one's city",
+            "country"
+          ],
+          "more": 6,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "ἡ",
+          "lemma": "ὁ",
+          "parse": "article · nominative · singular · feminine",
+          "aspect": "",
+          "senses": [
+            "the",
+            "that",
+            "famous",
+            "namely that",
+            "he, she, it"
+          ],
+          "more": 31,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "μεγάλη",
+          "lemma": "μέγας",
+          "parse": "adjective · nominative · singular · feminine",
+          "aspect": "",
+          "senses": [
+            "big, great",
+            "tall",
+            "great, full-grown",
+            "vast, high",
+            "vast, spacious, wide"
+          ],
+          "more": 20,
+          "lexicon": "Middle Liddell"
+        }
+      ]
+    },
+    {
+      "ref": "GEN 10:13",
+      "words": [
+        {
+          "form": "καὶ",
+          "lemma": "καί",
+          "parse": "conjunction",
+          "aspect": "",
+          "senses": [
+            "and",
+            "also, even",
+            "both",
+            "and above all",
+            "or"
+          ],
+          "more": 8,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "Μεσραιμ",
+          "lemma": "Μεσραιμ",
+          "parse": "noun · nominative · singular · masculine",
+          "aspect": "",
+          "senses": [
+            "(Μεσραιμ, from Hebrew Miṣrayim, Egypt)"
+          ],
+          "more": 0,
+          "lexicon": "name"
+        },
+        {
+          "form": "ἐγέννησεν",
+          "lemma": "γεννάω",
+          "parse": "verb · aorist · active · indicative · 3rd person · singular",
+          "aspect": "one completed act seen whole, not a process observed in progress",
+          "senses": [
+            "to beget, engender",
+            "to bring forth",
+            "to produce"
+          ],
+          "more": 0,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "τοὺς",
+          "lemma": "ὁ",
+          "parse": "article · accusative · plural · masculine",
+          "aspect": "",
+          "senses": [
+            "the",
+            "that",
+            "famous",
+            "namely that",
+            "he, she, it"
+          ],
+          "more": 31,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "Λουδιιμ",
+          "lemma": "Λουδιιμ",
+          "parse": "noun · accusative · plural · masculine",
+          "aspect": "",
+          "senses": [
+            "(Λουδιιμ, the Hebrew plural Lûdîm)"
+          ],
+          "more": 0,
+          "lexicon": "name"
+        },
+        {
+          "form": "καὶ",
+          "lemma": "καί",
+          "parse": "conjunction",
+          "aspect": "",
+          "senses": [
+            "and",
+            "also, even",
+            "both",
+            "and above all",
+            "or"
+          ],
+          "more": 8,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "τοὺς",
+          "lemma": "ὁ",
+          "parse": "article · accusative · plural · masculine",
+          "aspect": "",
+          "senses": [
+            "the",
+            "that",
+            "famous",
+            "namely that",
+            "he, she, it"
+          ],
+          "more": 31,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "Ενεμετιιμ",
+          "lemma": "Ενεμετιιμ",
+          "parse": "noun · accusative · plural · masculine",
+          "aspect": "",
+          "senses": [
+            "(Ενεμετιιμ, the Hebrew plural ʿĂnāmîm)"
+          ],
+          "more": 0,
+          "lexicon": "name"
+        },
+        {
+          "form": "καὶ",
+          "lemma": "καί",
+          "parse": "conjunction",
+          "aspect": "",
+          "senses": [
+            "and",
+            "also, even",
+            "both",
+            "and above all",
+            "or"
+          ],
+          "more": 8,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "τοὺς",
+          "lemma": "ὁ",
+          "parse": "article · accusative · plural · masculine",
+          "aspect": "",
+          "senses": [
+            "the",
+            "that",
+            "famous",
+            "namely that",
+            "he, she, it"
+          ],
+          "more": 31,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "Λαβιιμ",
+          "lemma": "Λαβιιμ",
+          "parse": "noun · accusative · plural · masculine",
+          "aspect": "",
+          "senses": [
+            "(Λαβιιμ, the Hebrew plural Lĕhābîm)"
+          ],
+          "more": 0,
+          "lexicon": "name"
+        },
+        {
+          "form": "καὶ",
+          "lemma": "καί",
+          "parse": "conjunction",
+          "aspect": "",
+          "senses": [
+            "and",
+            "also, even",
+            "both",
+            "and above all",
+            "or"
+          ],
+          "more": 8,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "τοὺς",
+          "lemma": "ὁ",
+          "parse": "article · accusative · plural · masculine",
+          "aspect": "",
+          "senses": [
+            "the",
+            "that",
+            "famous",
+            "namely that",
+            "he, she, it"
+          ],
+          "more": 31,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "Νεφθαλιιμ",
+          "lemma": "Νεφθαλιιμ",
+          "parse": "noun · accusative · plural · masculine",
+          "aspect": "",
+          "senses": [
+            "(Νεφθαλιιμ, the Hebrew plural Naptuḥîm)"
+          ],
+          "more": 0,
+          "lexicon": "name"
+        }
+      ]
+    },
+    {
+      "ref": "GEN 10:14",
+      "words": [
+        {
+          "form": "καὶ",
+          "lemma": "καί",
+          "parse": "conjunction",
+          "aspect": "",
+          "senses": [
+            "and",
+            "also, even",
+            "both",
+            "and above all",
+            "or"
+          ],
+          "more": 8,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "τοὺς",
+          "lemma": "ὁ",
+          "parse": "article · accusative · plural · masculine",
+          "aspect": "",
+          "senses": [
+            "the",
+            "that",
+            "famous",
+            "namely that",
+            "he, she, it"
+          ],
+          "more": 31,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "Πατροσωνιιμ",
+          "lemma": "Πατροσωνιιμ",
+          "parse": "noun · accusative · plural · masculine",
+          "aspect": "",
+          "senses": [
+            "(Πατροσωνιιμ, the Hebrew plural Patrusîm, of Patrôs, Upper Egypt)"
+          ],
+          "more": 0,
+          "lexicon": "name"
+        },
+        {
+          "form": "καὶ",
+          "lemma": "καί",
+          "parse": "conjunction",
+          "aspect": "",
+          "senses": [
+            "and",
+            "also, even",
+            "both",
+            "and above all",
+            "or"
+          ],
+          "more": 8,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "τοὺς",
+          "lemma": "ὁ",
+          "parse": "article · accusative · plural · masculine",
+          "aspect": "",
+          "senses": [
+            "the",
+            "that",
+            "famous",
+            "namely that",
+            "he, she, it"
+          ],
+          "more": 31,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "Χασλωνιιμ",
+          "lemma": "Χασλωνιιμ",
+          "parse": "noun · accusative · plural · masculine",
+          "aspect": "",
+          "senses": [
+            "(Χασλωνιιμ, the Hebrew plural Kasluḥîm)"
+          ],
+          "more": 0,
+          "lexicon": "name"
+        },
+        {
+          "form": "ὅθεν",
+          "lemma": "ὅθεν",
+          "parse": "adverb",
+          "aspect": "",
+          "senses": [
+            "from whom",
+            "from whatever source, in what manner soever",
+            "where",
+            "whence, wherefore"
+          ],
+          "more": 0,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "ἐξῆλθεν",
+          "lemma": "ἐξέρχομαι",
+          "parse": "verb · aorist · active · indicative · 3rd person · singular",
+          "aspect": "one completed act seen whole, not a process observed in progress",
+          "senses": [
+            "to go",
+            "come out of",
+            "to come out",
+            "to go away, march off",
+            "to march out, go forth"
+          ],
+          "more": 8,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "ἐκεῖθεν",
+          "lemma": "ἐκεῖθεν",
+          "parse": "adverb",
+          "aspect": "",
+          "senses": [
+            "from that place, thence",
+            "yon",
+            "thence, from that fact",
+            "thereafter, next"
+          ],
+          "more": 0,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "Φυλιστιιμ",
+          "lemma": "Φυλιστιιμ",
+          "parse": "noun · nominative · plural · masculine",
+          "aspect": "",
+          "senses": [
+            "(Φυλιστιιμ, the Hebrew plural Pĕlištîm, the Philistines)"
+          ],
+          "more": 0,
+          "lexicon": "name"
+        },
+        {
+          "form": "καὶ",
+          "lemma": "καί",
+          "parse": "conjunction",
+          "aspect": "",
+          "senses": [
+            "and",
+            "also, even",
+            "both",
+            "and above all",
+            "or"
+          ],
+          "more": 8,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "τοὺς",
+          "lemma": "ὁ",
+          "parse": "article · accusative · plural · masculine",
+          "aspect": "",
+          "senses": [
+            "the",
+            "that",
+            "famous",
+            "namely that",
+            "he, she, it"
+          ],
+          "more": 31,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "Καφθοριιμ",
+          "lemma": "Καφθοριιμ",
+          "parse": "noun · accusative · plural · masculine",
+          "aspect": "",
+          "senses": [
+            "(Καφθοριιμ, the Hebrew plural Kaptōrîm, of Kaptôr, usually taken for Crete)"
+          ],
+          "more": 0,
+          "lexicon": "name"
+        }
+      ]
+    },
+    {
+      "ref": "GEN 10:15",
+      "words": [
+        {
+          "form": "Χανααν",
+          "lemma": "Χανάαν",
+          "parse": "noun · nominative · singular · masculine",
+          "aspect": "",
+          "senses": [
+            "(Χανααν, from Hebrew Kĕnaʿan, of uncertain meaning)"
+          ],
+          "more": 0,
+          "lexicon": "name"
+        },
+        {
+          "form": "δὲ",
+          "lemma": "δέ",
+          "parse": "conjunction",
+          "aspect": "",
+          "senses": [
+            "but",
+            "adversative",
+            "while, whereas, on the other hand",
+            "then, yet",
+            "then"
+          ],
+          "more": 3,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "ἐγέννησεν",
+          "lemma": "γεννάω",
+          "parse": "verb · aorist · active · indicative · 3rd person · singular",
+          "aspect": "one completed act seen whole, not a process observed in progress",
+          "senses": [
+            "to beget, engender",
+            "to bring forth",
+            "to produce"
+          ],
+          "more": 0,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "τὸν",
+          "lemma": "ὁ",
+          "parse": "article · accusative · singular · masculine",
+          "aspect": "",
+          "senses": [
+            "the",
+            "that",
+            "famous",
+            "namely that",
+            "he, she, it"
+          ],
+          "more": 31,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "Σιδῶνα",
+          "lemma": "Σιδών",
+          "parse": "noun · accusative · singular · masculine",
+          "aspect": "",
+          "senses": [
+            "(Σιδών, from Hebrew Ṣîdōn, usually connected with ṣûd, \"to hunt, to fish\")"
+          ],
+          "more": 0,
+          "lexicon": "name"
+        },
+        {
+          "form": "πρωτότοκον",
+          "lemma": "πρωτότοκος",
+          "parse": "adjective · accusative · singular · masculine/feminine",
+          "aspect": "",
+          "senses": [
+            "first-born"
+          ],
+          "more": 0,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "καὶ",
+          "lemma": "καί",
+          "parse": "conjunction",
+          "aspect": "",
+          "senses": [
+            "and",
+            "also, even",
+            "both",
+            "and above all",
+            "or"
+          ],
+          "more": 8,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "τὸν",
+          "lemma": "ὁ",
+          "parse": "article · accusative · singular · masculine",
+          "aspect": "",
+          "senses": [
+            "the",
+            "that",
+            "famous",
+            "namely that",
+            "he, she, it"
+          ],
+          "more": 31,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "Χετταῖον",
+          "lemma": "Χετταῖος",
+          "parse": "noun · accusative · singular · masculine",
+          "aspect": "",
+          "senses": [
+            "(Χετταῖος, for Hebrew Ḥēt, the name the Hebrew gives here, whose people are the Ḥittî, the Hittites)"
+          ],
+          "more": 0,
+          "lexicon": "name"
+        }
+      ]
+    },
+    {
+      "ref": "GEN 10:16",
+      "words": [
+        {
+          "form": "καὶ",
+          "lemma": "καί",
+          "parse": "conjunction",
+          "aspect": "",
+          "senses": [
+            "and",
+            "also, even",
+            "both",
+            "and above all",
+            "or"
+          ],
+          "more": 8,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "τὸν",
+          "lemma": "ὁ",
+          "parse": "article · accusative · singular · masculine",
+          "aspect": "",
+          "senses": [
+            "the",
+            "that",
+            "famous",
+            "namely that",
+            "he, she, it"
+          ],
+          "more": 31,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "Ιεβουσαῖον",
+          "lemma": "Ιεβουσαῖος",
+          "parse": "noun · accusative · singular · masculine",
+          "aspect": "",
+          "senses": [
+            "(Ιεβουσαῖος, from Hebrew Yĕbûsî, \"of Jebus\")"
+          ],
+          "more": 0,
+          "lexicon": "name"
+        },
+        {
+          "form": "καὶ",
+          "lemma": "καί",
+          "parse": "conjunction",
+          "aspect": "",
+          "senses": [
+            "and",
+            "also, even",
+            "both",
+            "and above all",
+            "or"
+          ],
+          "more": 8,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "τὸν",
+          "lemma": "ὁ",
+          "parse": "article · accusative · singular · masculine",
+          "aspect": "",
+          "senses": [
+            "the",
+            "that",
+            "famous",
+            "namely that",
+            "he, she, it"
+          ],
+          "more": 31,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "Αμορραῖον",
+          "lemma": "Αμορραῖος",
+          "parse": "noun · accusative · singular · masculine",
+          "aspect": "",
+          "senses": [
+            "(Αμορραῖος, from Hebrew ʾĔmōrî, of uncertain meaning)"
+          ],
+          "more": 0,
+          "lexicon": "name"
+        },
+        {
+          "form": "καὶ",
+          "lemma": "καί",
+          "parse": "conjunction",
+          "aspect": "",
+          "senses": [
+            "and",
+            "also, even",
+            "both",
+            "and above all",
+            "or"
+          ],
+          "more": 8,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "τὸν",
+          "lemma": "ὁ",
+          "parse": "article · accusative · singular · masculine",
+          "aspect": "",
+          "senses": [
+            "the",
+            "that",
+            "famous",
+            "namely that",
+            "he, she, it"
+          ],
+          "more": 31,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "Γεργεσαῖον",
+          "lemma": "Γεργεσαῖος",
+          "parse": "noun · accusative · singular · masculine",
+          "aspect": "",
+          "senses": [
+            "(Γεργεσαῖος, from Hebrew Girgāšî, of uncertain meaning)"
+          ],
+          "more": 0,
+          "lexicon": "name"
+        }
+      ]
+    },
+    {
+      "ref": "GEN 10:17",
+      "words": [
+        {
+          "form": "καὶ",
+          "lemma": "καί",
+          "parse": "conjunction",
+          "aspect": "",
+          "senses": [
+            "and",
+            "also, even",
+            "both",
+            "and above all",
+            "or"
+          ],
+          "more": 8,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "τὸν",
+          "lemma": "ὁ",
+          "parse": "article · accusative · singular · masculine",
+          "aspect": "",
+          "senses": [
+            "the",
+            "that",
+            "famous",
+            "namely that",
+            "he, she, it"
+          ],
+          "more": 31,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "Ευαῖον",
+          "lemma": "Ευαῖος",
+          "parse": "noun · accusative · singular · masculine",
+          "aspect": "",
+          "senses": [
+            "(Ευαῖος, from Hebrew Ḥiwwî, of uncertain meaning)"
+          ],
+          "more": 0,
+          "lexicon": "name"
+        },
+        {
+          "form": "καὶ",
+          "lemma": "καί",
+          "parse": "conjunction",
+          "aspect": "",
+          "senses": [
+            "and",
+            "also, even",
+            "both",
+            "and above all",
+            "or"
+          ],
+          "more": 8,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "τὸν",
+          "lemma": "ὁ",
+          "parse": "article · accusative · singular · masculine",
+          "aspect": "",
+          "senses": [
+            "the",
+            "that",
+            "famous",
+            "namely that",
+            "he, she, it"
+          ],
+          "more": 31,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "Αρουκαῖον",
+          "lemma": "Αρουκαῖος",
+          "parse": "noun · accusative · singular · masculine",
+          "aspect": "",
+          "senses": [
+            "(Αρουκαῖος, from Hebrew ʿArqî, \"of Arqa\")"
+          ],
+          "more": 0,
+          "lexicon": "name"
+        },
+        {
+          "form": "καὶ",
+          "lemma": "καί",
+          "parse": "conjunction",
+          "aspect": "",
+          "senses": [
+            "and",
+            "also, even",
+            "both",
+            "and above all",
+            "or"
+          ],
+          "more": 8,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "τὸν",
+          "lemma": "ὁ",
+          "parse": "article · accusative · singular · masculine",
+          "aspect": "",
+          "senses": [
+            "the",
+            "that",
+            "famous",
+            "namely that",
+            "he, she, it"
+          ],
+          "more": 31,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "Ασενναῖον",
+          "lemma": "Ασενναῖος",
+          "parse": "noun · accusative · singular · masculine",
+          "aspect": "",
+          "senses": [
+            "(Ασενναῖος, from Hebrew Sînî, of uncertain meaning)"
+          ],
+          "more": 0,
+          "lexicon": "name"
+        }
+      ]
+    },
+    {
+      "ref": "GEN 10:18",
+      "words": [
+        {
+          "form": "καὶ",
+          "lemma": "καί",
+          "parse": "conjunction",
+          "aspect": "",
+          "senses": [
+            "and",
+            "also, even",
+            "both",
+            "and above all",
+            "or"
+          ],
+          "more": 8,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "τὸν",
+          "lemma": "ὁ",
+          "parse": "article · accusative · singular · masculine",
+          "aspect": "",
+          "senses": [
+            "the",
+            "that",
+            "famous",
+            "namely that",
+            "he, she, it"
+          ],
+          "more": 31,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "Ἀράδιον",
+          "lemma": "Ἀράδιος",
+          "parse": "noun · accusative · singular · masculine",
+          "aspect": "",
+          "senses": [
+            "(Ἀράδιος, the man of Arados, the island city; Hebrew ʾArwādî)"
+          ],
+          "more": 0,
+          "lexicon": "name"
+        },
+        {
+          "form": "καὶ",
+          "lemma": "καί",
+          "parse": "conjunction",
+          "aspect": "",
+          "senses": [
+            "and",
+            "also, even",
+            "both",
+            "and above all",
+            "or"
+          ],
+          "more": 8,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "τὸν",
+          "lemma": "ὁ",
+          "parse": "article · accusative · singular · masculine",
+          "aspect": "",
+          "senses": [
+            "the",
+            "that",
+            "famous",
+            "namely that",
+            "he, she, it"
+          ],
+          "more": 31,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "Σαμαραῖον",
+          "lemma": "Σαμαραῖος",
+          "parse": "noun · accusative · singular · masculine",
+          "aspect": "",
+          "senses": [
+            "(Σαμαραῖος, from Hebrew Ṣĕmārî, \"of Ṣumur\")"
+          ],
+          "more": 0,
+          "lexicon": "name"
+        },
+        {
+          "form": "καὶ",
+          "lemma": "καί",
+          "parse": "conjunction",
+          "aspect": "",
+          "senses": [
+            "and",
+            "also, even",
+            "both",
+            "and above all",
+            "or"
+          ],
+          "more": 8,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "τὸν",
+          "lemma": "ὁ",
+          "parse": "article · accusative · singular · masculine",
+          "aspect": "",
+          "senses": [
+            "the",
+            "that",
+            "famous",
+            "namely that",
+            "he, she, it"
+          ],
+          "more": 31,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "Αμαθι",
+          "lemma": "Αμαθι",
+          "parse": "noun · accusative · singular · masculine",
+          "aspect": "",
+          "senses": [
+            "(Αμαθι, from Hebrew Ḥămātî, \"of Hamath\")"
+          ],
+          "more": 0,
+          "lexicon": "name"
+        },
+        {
+          "form": "καὶ",
+          "lemma": "καί",
+          "parse": "conjunction",
+          "aspect": "",
+          "senses": [
+            "and",
+            "also, even",
+            "both",
+            "and above all",
+            "or"
+          ],
+          "more": 8,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "μετὰ",
+          "lemma": "μετά",
+          "parse": "preposition",
+          "aspect": "",
+          "senses": [
+            "in the midst of, among",
+            "in common, along with",
+            "with, by means of",
+            "among, in company with",
+            "in"
+          ],
+          "more": 36,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "τοῦτο",
+          "lemma": "οὗτος",
+          "parse": "demonstrative pronoun · accusative · singular · neuter",
+          "aspect": "",
+          "senses": [
+            "this",
+            "the nearer",
+            "the more remote",
+            "what follows",
+            "what precedes"
+          ],
+          "more": 18,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "διεσπάρησαν",
+          "lemma": "διασπείρω",
+          "parse": "verb · aorist · passive · indicative · 3rd person · plural",
+          "aspect": "one completed act seen whole, not a process observed in progress",
+          "senses": [
+            "to scatter abroad, throw about",
+            "to squander",
+            "to be scattered abroad"
+          ],
+          "more": 0,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "αἱ",
+          "lemma": "ὁ",
+          "parse": "article · nominative · plural · feminine",
+          "aspect": "",
+          "senses": [
+            "the",
+            "that",
+            "famous",
+            "namely that",
+            "he, she, it"
+          ],
+          "more": 31,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "φυλαὶ",
+          "lemma": "φυλή",
+          "parse": "noun · nominative · plural · feminine",
+          "aspect": "",
+          "senses": [
+            "a race",
+            "tribe",
+            "a body",
+            "united by ties of blood and descent, a clan",
+            "a tribe"
+          ],
+          "more": 6,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "τῶν",
+          "lemma": "ὁ",
+          "parse": "article · genitive · plural · masculine",
+          "aspect": "",
+          "senses": [
+            "the",
+            "that",
+            "famous",
+            "namely that",
+            "he, she, it"
+          ],
+          "more": 31,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "Χαναναίων",
+          "lemma": "Χαναναῖος",
+          "parse": "noun · genitive · plural · masculine",
+          "aspect": "",
+          "senses": [
+            "(Χαναναῖος, from Hebrew Kĕnaʿănî, \"of Canaan\")"
+          ],
+          "more": 0,
+          "lexicon": "name"
+        }
+      ]
+    },
+    {
+      "ref": "GEN 10:19",
+      "words": [
+        {
+          "form": "καὶ",
+          "lemma": "καί",
+          "parse": "conjunction",
+          "aspect": "",
+          "senses": [
+            "and",
+            "also, even",
+            "both",
+            "and above all",
+            "or"
+          ],
+          "more": 8,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "ἐγένοντο",
+          "lemma": "γίνομαι",
+          "parse": "verb · aorist · middle · indicative · 3rd person · plural",
+          "aspect": "one completed act seen whole, not a process observed in progress",
+          "senses": [
+            "to come into being",
+            "to be born",
+            "born",
+            "to be produced",
+            "the result"
+          ],
+          "more": 27,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "τὰ",
+          "lemma": "ὁ",
+          "parse": "article · nominative · plural · neuter",
+          "aspect": "",
+          "senses": [
+            "the",
+            "that",
+            "famous",
+            "namely that",
+            "he, she, it"
+          ],
+          "more": 31,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "ὅρια",
+          "lemma": "ὅριον",
+          "parse": "noun · nominative · plural · neuter",
+          "aspect": "",
+          "senses": [
+            "a boundary, limit",
+            "boundaries, the borders, frontier"
+          ],
+          "more": 0,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "τῶν",
+          "lemma": "ὁ",
+          "parse": "article · genitive · plural · masculine",
+          "aspect": "",
+          "senses": [
+            "the",
+            "that",
+            "famous",
+            "namely that",
+            "he, she, it"
+          ],
+          "more": 31,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "Χαναναίων",
+          "lemma": "Χαναναῖος",
+          "parse": "noun · genitive · plural · masculine",
+          "aspect": "",
+          "senses": [
+            "(Χαναναῖος, from Hebrew Kĕnaʿănî, \"of Canaan\")"
+          ],
+          "more": 0,
+          "lexicon": "name"
+        },
+        {
+          "form": "ἀπὸ",
+          "lemma": "ἀπό",
+          "parse": "preposition",
+          "aspect": "",
+          "senses": [
+            "from, away from. c. gen.",
+            "from, away from",
+            "from",
+            "away from, far from, apart from",
+            "far from"
+          ],
+          "more": 28,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "Σιδῶνος",
+          "lemma": "Σιδών",
+          "parse": "noun · genitive · singular · feminine",
+          "aspect": "",
+          "senses": [
+            "(Σιδών, from Hebrew Ṣîdōn, usually connected with ṣûd, \"to hunt, to fish\")"
+          ],
+          "more": 0,
+          "lexicon": "name"
+        },
+        {
+          "form": "ἕως",
+          "lemma": "ἕως",
+          "parse": "conjunction",
+          "aspect": "",
+          "senses": [
+            "until, till",
+            "for a time",
+            "till",
+            "while, so long as"
+          ],
+          "more": 0,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "ἐλθεῖν",
+          "lemma": "ἔρχομαι",
+          "parse": "verb · aorist · active · infinitive",
+          "aspect": "one completed act seen whole, not a process observed in progress",
+          "senses": [
+            "to come",
+            "go",
+            "go back, return",
+            "to go",
+            "I go to"
+          ],
+          "more": 3,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "εἰς",
+          "lemma": "εἰς",
+          "parse": "preposition",
+          "aspect": "",
+          "senses": [
+            "into, to c. acc.",
+            "into",
+            "to",
+            "in",
+            "rest in"
+          ],
+          "more": 18,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "Γεραρα",
+          "lemma": "Γεραρα",
+          "parse": "noun · accusative · singular",
+          "aspect": "",
+          "senses": [
+            "(Γεραρα, from Hebrew Gĕrār, of uncertain meaning)"
+          ],
+          "more": 0,
+          "lexicon": "name"
+        },
+        {
+          "form": "καὶ",
+          "lemma": "καί",
+          "parse": "conjunction",
+          "aspect": "",
+          "senses": [
+            "and",
+            "also, even",
+            "both",
+            "and above all",
+            "or"
+          ],
+          "more": 8,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "Γάζαν",
+          "lemma": "Γάζα",
+          "parse": "noun · accusative · singular · feminine",
+          "aspect": "",
+          "senses": [
+            "(Γάζα, from Hebrew ʿAzzâ, \"strong\")"
+          ],
+          "more": 0,
+          "lexicon": "name"
+        },
+        {
+          "form": "ἕως",
+          "lemma": "ἕως",
+          "parse": "conjunction",
+          "aspect": "",
+          "senses": [
+            "until, till",
+            "for a time",
+            "till",
+            "while, so long as"
+          ],
+          "more": 0,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "ἐλθεῖν",
+          "lemma": "ἔρχομαι",
+          "parse": "verb · aorist · active · infinitive",
+          "aspect": "one completed act seen whole, not a process observed in progress",
+          "senses": [
+            "to come",
+            "go",
+            "go back, return",
+            "to go",
+            "I go to"
+          ],
+          "more": 3,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "Σοδομων",
+          "lemma": "Σόδομα",
+          "parse": "noun · genitive · plural · neuter",
+          "aspect": "",
+          "senses": [
+            "(Σόδομα, from Hebrew Sĕdōm, of uncertain meaning)"
+          ],
+          "more": 0,
+          "lexicon": "name"
+        },
+        {
+          "form": "καὶ",
+          "lemma": "καί",
+          "parse": "conjunction",
+          "aspect": "",
+          "senses": [
+            "and",
+            "also, even",
+            "both",
+            "and above all",
+            "or"
+          ],
+          "more": 8,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "Γομορρας",
+          "lemma": "Γόμορρα",
+          "parse": "noun · genitive · singular · feminine",
+          "aspect": "",
+          "senses": [
+            "(Γόμορρα, from Hebrew ʿĂmōrâ, of uncertain meaning)"
+          ],
+          "more": 0,
+          "lexicon": "name"
+        },
+        {
+          "form": "Αδαμα",
+          "lemma": "Αδαμα",
+          "parse": "noun · genitive · singular",
+          "aspect": "",
+          "senses": [
+            "(Αδαμα, from Hebrew ʾAdmâ, of uncertain meaning)"
+          ],
+          "more": 0,
+          "lexicon": "name"
+        },
+        {
+          "form": "καὶ",
+          "lemma": "καί",
+          "parse": "conjunction",
+          "aspect": "",
+          "senses": [
+            "and",
+            "also, even",
+            "both",
+            "and above all",
+            "or"
+          ],
+          "more": 8,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "Σεβωιμ",
+          "lemma": "Σεβωιμ",
+          "parse": "noun · genitive · singular",
+          "aspect": "",
+          "senses": [
+            "(Σεβωιμ, from Hebrew Ṣĕbōyim, of uncertain meaning)"
+          ],
+          "more": 0,
+          "lexicon": "name"
+        },
+        {
+          "form": "ἕως",
+          "lemma": "ἕως",
+          "parse": "preposition",
+          "aspect": "",
+          "senses": [
+            "until, till",
+            "for a time",
+            "till",
+            "while, so long as"
+          ],
+          "more": 0,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "Λασα",
+          "lemma": "Λασα",
+          "parse": "noun · genitive · singular",
+          "aspect": "",
+          "senses": [
+            "(Λασα, from Hebrew Lešaʿ, of uncertain meaning)"
+          ],
+          "more": 0,
+          "lexicon": "name"
+        }
+      ]
+    },
+    {
+      "ref": "GEN 10:20",
+      "words": [
+        {
+          "form": "οὗτοι",
+          "lemma": "οὗτος",
+          "parse": "demonstrative pronoun · nominative · plural · masculine",
+          "aspect": "",
+          "senses": [
+            "this",
+            "the nearer",
+            "the more remote",
+            "what follows",
+            "what precedes"
+          ],
+          "more": 18,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "υἱοὶ",
+          "lemma": "υἱός",
+          "parse": "noun · nominative · plural · masculine",
+          "aspect": "",
+          "senses": [
+            "A son",
+            "a son"
+          ],
+          "more": 0,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "Χαμ",
+          "lemma": "Χαμ",
+          "parse": "noun · genitive · singular · masculine",
+          "aspect": "",
+          "senses": [
+            "(Χαμ, from Hebrew Ḥām, usually connected with ḥam, \"hot\")"
+          ],
+          "more": 0,
+          "lexicon": "name"
+        },
+        {
+          "form": "ἐν",
+          "lemma": "ἐν",
+          "parse": "preposition",
+          "aspect": "",
+          "senses": [
+            "in, among. c. dat.",
+            "in",
+            "at the school of",
+            "in, upon",
+            "in the number of, amongst"
+          ],
+          "more": 23,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "ταῖς",
+          "lemma": "ὁ",
+          "parse": "article · dative · plural · feminine",
+          "aspect": "",
+          "senses": [
+            "the",
+            "that",
+            "famous",
+            "namely that",
+            "he, she, it"
+          ],
+          "more": 31,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "φυλαῖς",
+          "lemma": "φυλή",
+          "parse": "noun · dative · plural · feminine",
+          "aspect": "",
+          "senses": [
+            "a race",
+            "tribe",
+            "a body",
+            "united by ties of blood and descent, a clan",
+            "a tribe"
+          ],
+          "more": 6,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "αὐτῶν",
+          "lemma": "αὐτός",
+          "parse": "personal pronoun · genitive · plural · masculine",
+          "aspect": "",
+          "senses": [
+            "self",
+            "him, her, it",
+            "the very one, the same",
+            "self, myself, thyself",
+            "oneself, one's true self"
+          ],
+          "more": 25,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "κατὰ",
+          "lemma": "κατά",
+          "parse": "preposition",
+          "aspect": "",
+          "senses": [
+            "down, downwards, with gen. or acc.",
+            "down, downwards.",
+            "motion from above, down from",
+            "downward motion",
+            "down upon"
+          ],
+          "more": 45,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "γλώσσας",
+          "lemma": "γλῶσσα",
+          "parse": "noun · accusative · plural · feminine",
+          "aspect": "",
+          "senses": [
+            "the tongue",
+            "a tongue, language",
+            "mouthpiece"
+          ],
+          "more": 0,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "αὐτῶν",
+          "lemma": "αὐτός",
+          "parse": "personal pronoun · genitive · plural · masculine",
+          "aspect": "",
+          "senses": [
+            "self",
+            "him, her, it",
+            "the very one, the same",
+            "self, myself, thyself",
+            "oneself, one's true self"
+          ],
+          "more": 25,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "ἐν",
+          "lemma": "ἐν",
+          "parse": "preposition",
+          "aspect": "",
+          "senses": [
+            "in, among. c. dat.",
+            "in",
+            "at the school of",
+            "in, upon",
+            "in the number of, amongst"
+          ],
+          "more": 23,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "ταῖς",
+          "lemma": "ὁ",
+          "parse": "article · dative · plural · feminine",
+          "aspect": "",
+          "senses": [
+            "the",
+            "that",
+            "famous",
+            "namely that",
+            "he, she, it"
+          ],
+          "more": 31,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "χώραις",
+          "lemma": "χώρα",
+          "parse": "noun · dative · plural · feminine",
+          "aspect": "",
+          "senses": [
+            "the space in which a thing is",
+            "a place",
+            "one's place, position",
+            "post",
+            "one's place"
+          ],
+          "more": 6,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "αὐτῶν",
+          "lemma": "αὐτός",
+          "parse": "personal pronoun · genitive · plural · masculine",
+          "aspect": "",
+          "senses": [
+            "self",
+            "him, her, it",
+            "the very one, the same",
+            "self, myself, thyself",
+            "oneself, one's true self"
+          ],
+          "more": 25,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "καὶ",
+          "lemma": "καί",
+          "parse": "conjunction",
+          "aspect": "",
+          "senses": [
+            "and",
+            "also, even",
+            "both",
+            "and above all",
+            "or"
+          ],
+          "more": 8,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "ἐν",
+          "lemma": "ἐν",
+          "parse": "preposition",
+          "aspect": "",
+          "senses": [
+            "in, among. c. dat.",
+            "in",
+            "at the school of",
+            "in, upon",
+            "in the number of, amongst"
+          ],
+          "more": 23,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "τοῖς",
+          "lemma": "ὁ",
+          "parse": "article · dative · plural · neuter",
+          "aspect": "",
+          "senses": [
+            "the",
+            "that",
+            "famous",
+            "namely that",
+            "he, she, it"
+          ],
+          "more": 31,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "ἔθνεσιν",
+          "lemma": "ἔθνος",
+          "parse": "noun · dative · plural · neuter",
+          "aspect": "",
+          "senses": [
+            "a number of people accustomed to live together, a company, body of men",
+            "a host",
+            "swarms, flocks",
+            "a nation, people",
+            "the nations, Gentiles"
+          ],
+          "more": 3,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "αὐτῶν",
+          "lemma": "αὐτός",
+          "parse": "personal pronoun · genitive · plural · masculine",
+          "aspect": "",
+          "senses": [
+            "self",
+            "him, her, it",
+            "the very one, the same",
+            "self, myself, thyself",
+            "oneself, one's true self"
+          ],
+          "more": 25,
+          "lexicon": "Middle Liddell"
+        }
+      ]
+    },
+    {
+      "ref": "GEN 10:21",
+      "words": [
+        {
+          "form": "Καὶ",
+          "lemma": "καί",
+          "parse": "conjunction",
+          "aspect": "",
+          "senses": [
+            "and",
+            "also, even",
+            "both",
+            "and above all",
+            "or"
+          ],
+          "more": 8,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "τῷ",
+          "lemma": "ὁ",
+          "parse": "article · dative · singular · masculine",
+          "aspect": "",
+          "senses": [
+            "the",
+            "that",
+            "famous",
+            "namely that",
+            "he, she, it"
+          ],
+          "more": 31,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "Σημ",
+          "lemma": "Σήμ",
+          "parse": "noun · dative · singular · masculine",
+          "aspect": "",
+          "senses": [
+            "(Σημ, from Hebrew Šēm, \"name\")"
+          ],
+          "more": 0,
+          "lexicon": "name"
+        },
+        {
+          "form": "ἐγενήθη",
+          "lemma": "γίνομαι",
+          "parse": "verb · aorist · passive · indicative · 3rd person · singular",
+          "aspect": "one completed act seen whole, not a process observed in progress",
+          "senses": [
+            "to come into being",
+            "to be born",
+            "born",
+            "to be produced",
+            "the result"
+          ],
+          "more": 27,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "καὶ",
+          "lemma": "καί",
+          "parse": "adverb",
+          "aspect": "",
+          "senses": [
+            "and",
+            "also, even",
+            "both",
+            "and above all",
+            "or"
+          ],
+          "more": 8,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "αὐτῷ",
+          "lemma": "αὐτός",
+          "parse": "personal pronoun · dative · singular · masculine",
+          "aspect": "",
+          "senses": [
+            "self",
+            "him, her, it",
+            "the very one, the same",
+            "self, myself, thyself",
+            "oneself, one's true self"
+          ],
+          "more": 25,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "πατρὶ",
+          "lemma": "πατήρ",
+          "parse": "noun · dative · singular · masculine",
+          "aspect": "",
+          "senses": [
+            "a father",
+            "a grandfather",
+            "by the father's side",
+            "Zeus",
+            "the father"
+          ],
+          "more": 3,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "πάντων",
+          "lemma": "πᾶς",
+          "parse": "adjective · genitive · plural · masculine",
+          "aspect": "",
+          "senses": [
+            "all, the whole",
+            "all",
+            "all the",
+            "nothing but",
+            "every"
+          ],
+          "more": 32,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "τῶν",
+          "lemma": "ὁ",
+          "parse": "article · genitive · plural · masculine",
+          "aspect": "",
+          "senses": [
+            "the",
+            "that",
+            "famous",
+            "namely that",
+            "he, she, it"
+          ],
+          "more": 31,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "υἱῶν",
+          "lemma": "υἱός",
+          "parse": "noun · genitive · plural · masculine",
+          "aspect": "",
+          "senses": [
+            "A son",
+            "a son"
+          ],
+          "more": 0,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "Εβερ",
+          "lemma": "Ἔβερ",
+          "parse": "noun · genitive · singular · masculine",
+          "aspect": "",
+          "senses": [
+            "(Εβερ, from Hebrew ʿĒber, \"the region beyond\")"
+          ],
+          "more": 0,
+          "lexicon": "name"
+        },
+        {
+          "form": "ἀδελφῷ",
+          "lemma": "ἀδελφός",
+          "parse": "noun · dative · singular · masculine",
+          "aspect": "",
+          "senses": [
+            "sons of the same mother",
+            "a brother",
+            "a near kinsman",
+            "brother and sister",
+            "brothers"
+          ],
+          "more": 6,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "Ιαφεθ",
+          "lemma": "Ιαφεθ",
+          "parse": "noun · genitive · singular · masculine",
+          "aspect": "",
+          "senses": [
+            "(Ιαφεθ, from Hebrew Yepet, which 9:27 ties to pātâ, \"to make wide\")"
+          ],
+          "more": 0,
+          "lexicon": "name"
+        },
+        {
+          "form": "τοῦ",
+          "lemma": "ὁ",
+          "parse": "article · genitive · singular · masculine",
+          "aspect": "",
+          "senses": [
+            "the",
+            "that",
+            "famous",
+            "namely that",
+            "he, she, it"
+          ],
+          "more": 31,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "μείζονος",
+          "lemma": "μέγας",
+          "parse": "adjective · genitive · singular · masculine/feminine",
+          "aspect": "",
+          "senses": [
+            "big, great",
+            "tall",
+            "great, full-grown",
+            "vast, high",
+            "vast, spacious, wide"
+          ],
+          "more": 20,
+          "lexicon": "Middle Liddell"
+        }
+      ]
+    },
+    {
+      "ref": "GEN 10:22",
+      "words": [
+        {
+          "form": "υἱοὶ",
+          "lemma": "υἱός",
+          "parse": "noun · nominative · plural · masculine",
+          "aspect": "",
+          "senses": [
+            "A son",
+            "a son"
+          ],
+          "more": 0,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "Σημ",
+          "lemma": "Σήμ",
+          "parse": "noun · genitive · singular · masculine",
+          "aspect": "",
+          "senses": [
+            "(Σημ, from Hebrew Šēm, \"name\")"
+          ],
+          "more": 0,
+          "lexicon": "name"
+        },
+        {
+          "form": "Αιλαμ",
+          "lemma": "Αιλαμ",
+          "parse": "noun · nominative · singular · masculine",
+          "aspect": "",
+          "senses": [
+            "(Αιλαμ, from Hebrew ʿÊlām, the land east of Babylonia)"
+          ],
+          "more": 0,
+          "lexicon": "name"
+        },
+        {
+          "form": "καὶ",
+          "lemma": "καί",
+          "parse": "conjunction",
+          "aspect": "",
+          "senses": [
+            "and",
+            "also, even",
+            "both",
+            "and above all",
+            "or"
+          ],
+          "more": 8,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "Ασσουρ",
+          "lemma": "Ασσουρ",
+          "parse": "noun · nominative · singular · masculine",
+          "aspect": "",
+          "senses": [
+            "(Ασσουρ, from Hebrew ʾAššûr, the name of Assyria, of its god and of its city)"
+          ],
+          "more": 0,
+          "lexicon": "name"
+        },
+        {
+          "form": "καὶ",
+          "lemma": "καί",
+          "parse": "conjunction",
+          "aspect": "",
+          "senses": [
+            "and",
+            "also, even",
+            "both",
+            "and above all",
+            "or"
+          ],
+          "more": 8,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "Αρφαξαδ",
+          "lemma": "Ἀρφαξάδ",
+          "parse": "noun · nominative · singular · masculine",
+          "aspect": "",
+          "senses": [
+            "(Αρφαξαδ, from Hebrew ʾArpakšad, of uncertain meaning)"
+          ],
+          "more": 0,
+          "lexicon": "name"
+        },
+        {
+          "form": "καὶ",
+          "lemma": "καί",
+          "parse": "conjunction",
+          "aspect": "",
+          "senses": [
+            "and",
+            "also, even",
+            "both",
+            "and above all",
+            "or"
+          ],
+          "more": 8,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "Λουδ",
+          "lemma": "Λουδ",
+          "parse": "noun · nominative · singular · masculine",
+          "aspect": "",
+          "senses": [
+            "(Λουδ, from Hebrew Lûd, of uncertain meaning)"
+          ],
+          "more": 0,
+          "lexicon": "name"
+        },
+        {
+          "form": "καὶ",
+          "lemma": "καί",
+          "parse": "conjunction",
+          "aspect": "",
+          "senses": [
+            "and",
+            "also, even",
+            "both",
+            "and above all",
+            "or"
+          ],
+          "more": 8,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "Αραμ",
+          "lemma": "Ἀράμ",
+          "parse": "noun · nominative · singular · masculine",
+          "aspect": "",
+          "senses": [
+            "(Αραμ, from Hebrew ʾĂrām, the Arameans)"
+          ],
+          "more": 0,
+          "lexicon": "name"
+        },
+        {
+          "form": "καὶ",
+          "lemma": "καί",
+          "parse": "conjunction",
+          "aspect": "",
+          "senses": [
+            "and",
+            "also, even",
+            "both",
+            "and above all",
+            "or"
+          ],
+          "more": 8,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "Καιναν",
+          "lemma": "Καιναν",
+          "parse": "noun · nominative · singular · masculine",
+          "aspect": "",
+          "senses": [
+            "(Καιναν, a son of Arphaxad whom the Hebrew does not name; the name of 5:9, Hebrew Qênān)"
+          ],
+          "more": 0,
+          "lexicon": "name"
+        }
+      ]
+    },
+    {
+      "ref": "GEN 10:23",
+      "words": [
+        {
+          "form": "καὶ",
+          "lemma": "καί",
+          "parse": "conjunction",
+          "aspect": "",
+          "senses": [
+            "and",
+            "also, even",
+            "both",
+            "and above all",
+            "or"
+          ],
+          "more": 8,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "υἱοὶ",
+          "lemma": "υἱός",
+          "parse": "noun · nominative · plural · masculine",
+          "aspect": "",
+          "senses": [
+            "A son",
+            "a son"
+          ],
+          "more": 0,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "Αραμ",
+          "lemma": "Ἀράμ",
+          "parse": "noun · genitive · singular · masculine",
+          "aspect": "",
+          "senses": [
+            "(Αραμ, from Hebrew ʾĂrām, the Arameans)"
+          ],
+          "more": 0,
+          "lexicon": "name"
+        },
+        {
+          "form": "Ως",
+          "lemma": "Ως",
+          "parse": "noun · nominative · singular · masculine",
+          "aspect": "",
+          "senses": [
+            "(Ως, from Hebrew ʿÛṣ, of uncertain meaning)"
+          ],
+          "more": 0,
+          "lexicon": "name"
+        },
+        {
+          "form": "καὶ",
+          "lemma": "καί",
+          "parse": "conjunction",
+          "aspect": "",
+          "senses": [
+            "and",
+            "also, even",
+            "both",
+            "and above all",
+            "or"
+          ],
+          "more": 8,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "Ουλ",
+          "lemma": "Ουλ",
+          "parse": "noun · nominative · singular · masculine",
+          "aspect": "",
+          "senses": [
+            "(Ουλ, from Hebrew Ḥûl, of uncertain meaning)"
+          ],
+          "more": 0,
+          "lexicon": "name"
+        },
+        {
+          "form": "καὶ",
+          "lemma": "καί",
+          "parse": "conjunction",
+          "aspect": "",
+          "senses": [
+            "and",
+            "also, even",
+            "both",
+            "and above all",
+            "or"
+          ],
+          "more": 8,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "Γαθερ",
+          "lemma": "Γαθερ",
+          "parse": "noun · nominative · singular · masculine",
+          "aspect": "",
+          "senses": [
+            "(Γαθερ, from Hebrew Geter, of uncertain meaning)"
+          ],
+          "more": 0,
+          "lexicon": "name"
+        },
+        {
+          "form": "καὶ",
+          "lemma": "καί",
+          "parse": "conjunction",
+          "aspect": "",
+          "senses": [
+            "and",
+            "also, even",
+            "both",
+            "and above all",
+            "or"
+          ],
+          "more": 8,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "Μοσοχ",
+          "lemma": "Μοσοχ",
+          "parse": "noun · nominative · singular · masculine",
+          "aspect": "",
+          "senses": [
+            "(Μοσοχ, from Hebrew Mešek, of uncertain meaning)"
+          ],
+          "more": 0,
+          "lexicon": "name"
+        }
+      ]
+    },
+    {
+      "ref": "GEN 10:24",
+      "words": [
+        {
+          "form": "καὶ",
+          "lemma": "καί",
+          "parse": "conjunction",
+          "aspect": "",
+          "senses": [
+            "and",
+            "also, even",
+            "both",
+            "and above all",
+            "or"
+          ],
+          "more": 8,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "Αρφαξαδ",
+          "lemma": "Ἀρφαξάδ",
+          "parse": "noun · nominative · singular · masculine",
+          "aspect": "",
+          "senses": [
+            "(Αρφαξαδ, from Hebrew ʾArpakšad, of uncertain meaning)"
+          ],
+          "more": 0,
+          "lexicon": "name"
+        },
+        {
+          "form": "ἐγέννησεν",
+          "lemma": "γεννάω",
+          "parse": "verb · aorist · active · indicative · 3rd person · singular",
+          "aspect": "one completed act seen whole, not a process observed in progress",
+          "senses": [
+            "to beget, engender",
+            "to bring forth",
+            "to produce"
+          ],
+          "more": 0,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "τὸν",
+          "lemma": "ὁ",
+          "parse": "article · accusative · singular · masculine",
+          "aspect": "",
+          "senses": [
+            "the",
+            "that",
+            "famous",
+            "namely that",
+            "he, she, it"
+          ],
+          "more": 31,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "Καιναν",
+          "lemma": "Καιναν",
+          "parse": "noun · accusative · singular · masculine",
+          "aspect": "",
+          "senses": [
+            "(Καιναν, a son of Arphaxad whom the Hebrew does not name; the name of 5:9, Hebrew Qênān)"
+          ],
+          "more": 0,
+          "lexicon": "name"
+        },
+        {
+          "form": "καὶ",
+          "lemma": "καί",
+          "parse": "conjunction",
+          "aspect": "",
+          "senses": [
+            "and",
+            "also, even",
+            "both",
+            "and above all",
+            "or"
+          ],
+          "more": 8,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "Καιναν",
+          "lemma": "Καιναν",
+          "parse": "noun · nominative · singular · masculine",
+          "aspect": "",
+          "senses": [
+            "(Καιναν, a son of Arphaxad whom the Hebrew does not name; the name of 5:9, Hebrew Qênān)"
+          ],
+          "more": 0,
+          "lexicon": "name"
+        },
+        {
+          "form": "ἐγέννησεν",
+          "lemma": "γεννάω",
+          "parse": "verb · aorist · active · indicative · 3rd person · singular",
+          "aspect": "one completed act seen whole, not a process observed in progress",
+          "senses": [
+            "to beget, engender",
+            "to bring forth",
+            "to produce"
+          ],
+          "more": 0,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "τὸν",
+          "lemma": "ὁ",
+          "parse": "article · accusative · singular · masculine",
+          "aspect": "",
+          "senses": [
+            "the",
+            "that",
+            "famous",
+            "namely that",
+            "he, she, it"
+          ],
+          "more": 31,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "Σαλα",
+          "lemma": "Σαλά",
+          "parse": "noun · accusative · singular · masculine",
+          "aspect": "",
+          "senses": [
+            "(Σαλα, from Hebrew Šelaḥ, usually connected with šālaḥ, \"to send\")"
+          ],
+          "more": 0,
+          "lexicon": "name"
+        },
+        {
+          "form": "Σαλα",
+          "lemma": "Σαλά",
+          "parse": "noun · nominative · singular · masculine",
+          "aspect": "",
+          "senses": [
+            "(Σαλα, from Hebrew Šelaḥ, usually connected with šālaḥ, \"to send\")"
+          ],
+          "more": 0,
+          "lexicon": "name"
+        },
+        {
+          "form": "δὲ",
+          "lemma": "δέ",
+          "parse": "conjunction",
+          "aspect": "",
+          "senses": [
+            "but",
+            "adversative",
+            "while, whereas, on the other hand",
+            "then, yet",
+            "then"
+          ],
+          "more": 3,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "ἐγέννησεν",
+          "lemma": "γεννάω",
+          "parse": "verb · aorist · active · indicative · 3rd person · singular",
+          "aspect": "one completed act seen whole, not a process observed in progress",
+          "senses": [
+            "to beget, engender",
+            "to bring forth",
+            "to produce"
+          ],
+          "more": 0,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "τὸν",
+          "lemma": "ὁ",
+          "parse": "article · accusative · singular · masculine",
+          "aspect": "",
+          "senses": [
+            "the",
+            "that",
+            "famous",
+            "namely that",
+            "he, she, it"
+          ],
+          "more": 31,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "Εβερ",
+          "lemma": "Ἔβερ",
+          "parse": "noun · accusative · singular · masculine",
+          "aspect": "",
+          "senses": [
+            "(Εβερ, from Hebrew ʿĒber, \"the region beyond\")"
+          ],
+          "more": 0,
+          "lexicon": "name"
+        }
+      ]
+    },
+    {
+      "ref": "GEN 10:25",
+      "words": [
+        {
+          "form": "καὶ",
+          "lemma": "καί",
+          "parse": "conjunction",
+          "aspect": "",
+          "senses": [
+            "and",
+            "also, even",
+            "both",
+            "and above all",
+            "or"
+          ],
+          "more": 8,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "τῷ",
+          "lemma": "ὁ",
+          "parse": "article · dative · singular · masculine",
+          "aspect": "",
+          "senses": [
+            "the",
+            "that",
+            "famous",
+            "namely that",
+            "he, she, it"
+          ],
+          "more": 31,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "Εβερ",
+          "lemma": "Ἔβερ",
+          "parse": "noun · dative · singular · masculine",
+          "aspect": "",
+          "senses": [
+            "(Εβερ, from Hebrew ʿĒber, \"the region beyond\")"
+          ],
+          "more": 0,
+          "lexicon": "name"
+        },
+        {
+          "form": "ἐγενήθησαν",
+          "lemma": "γίνομαι",
+          "parse": "verb · aorist · passive · indicative · 3rd person · plural",
+          "aspect": "one completed act seen whole, not a process observed in progress",
+          "senses": [
+            "to come into being",
+            "to be born",
+            "born",
+            "to be produced",
+            "the result"
+          ],
+          "more": 27,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "δύο",
+          "lemma": "δύο",
+          "parse": "adjective · nominative · plural · masculine",
+          "aspect": "",
+          "senses": [
+            "two",
+            "two and two"
+          ],
+          "more": 0,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "υἱοί",
+          "lemma": "υἱός",
+          "parse": "noun · nominative · plural · masculine",
+          "aspect": "",
+          "senses": [
+            "A son",
+            "a son"
+          ],
+          "more": 0,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "ὄνομα",
+          "lemma": "ὄνομα",
+          "parse": "noun · nominative · singular · neuter",
+          "aspect": "",
+          "senses": [
+            "a name",
+            "name. fame",
+            "a mere name",
+            "a false name, pretence, pretext",
+            "pretence"
+          ],
+          "more": 4,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "τῷ",
+          "lemma": "ὁ",
+          "parse": "article · dative · singular · masculine",
+          "aspect": "",
+          "senses": [
+            "the",
+            "that",
+            "famous",
+            "namely that",
+            "he, she, it"
+          ],
+          "more": 31,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "ἑνὶ",
+          "lemma": "εἷς",
+          "parse": "adjective · dative · singular · masculine",
+          "aspect": "",
+          "senses": [
+            "one",
+            "a single one, one alone",
+            "nullus unus",
+            "single man",
+            "by himself"
+          ],
+          "more": 9,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "Φαλεκ",
+          "lemma": "Φάλεκ",
+          "parse": "noun · nominative · singular · masculine",
+          "aspect": "",
+          "senses": [
+            "(Φαλεκ, from Hebrew Peleg, \"division\", which the verse ties to pālag, \"to divide\")"
+          ],
+          "more": 0,
+          "lexicon": "name"
+        },
+        {
+          "form": "ὅτι",
+          "lemma": "ὅτι",
+          "parse": "conjunction",
+          "aspect": "",
+          "senses": [
+            "that",
+            "seeing",
+            "although",
+            "for that, because, seeing that, inasmuch as"
+          ],
+          "more": 0,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "ἐν",
+          "lemma": "ἐν",
+          "parse": "preposition",
+          "aspect": "",
+          "senses": [
+            "in, among. c. dat.",
+            "in",
+            "at the school of",
+            "in, upon",
+            "in the number of, amongst"
+          ],
+          "more": 23,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "ταῖς",
+          "lemma": "ὁ",
+          "parse": "article · dative · plural · feminine",
+          "aspect": "",
+          "senses": [
+            "the",
+            "that",
+            "famous",
+            "namely that",
+            "he, she, it"
+          ],
+          "more": 31,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "ἡμέραις",
+          "lemma": "ἡμέρα",
+          "parse": "noun · dative · plural · feminine",
+          "aspect": "",
+          "senses": [
+            "day",
+            "day-break",
+            "a state",
+            "time of life",
+            "a life"
+          ],
+          "more": 10,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "αὐτοῦ",
+          "lemma": "αὐτός",
+          "parse": "personal pronoun · genitive · singular · masculine",
+          "aspect": "",
+          "senses": [
+            "self",
+            "him, her, it",
+            "the very one, the same",
+            "self, myself, thyself",
+            "oneself, one's true self"
+          ],
+          "more": 25,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "διεμερίσθη",
+          "lemma": "διαμερίζω",
+          "parse": "verb · aorist · passive · indicative · 3rd person · singular",
+          "aspect": "one completed act seen whole, not a process observed in progress",
+          "senses": [
+            "to distribute",
+            "to divide",
+            "part among themselves"
+          ],
+          "more": 0,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "ἡ",
+          "lemma": "ὁ",
+          "parse": "article · nominative · singular · feminine",
+          "aspect": "",
+          "senses": [
+            "the",
+            "that",
+            "famous",
+            "namely that",
+            "he, she, it"
+          ],
+          "more": 31,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "γῆ",
+          "lemma": "γῆ",
+          "parse": "noun · nominative · singular · feminine",
+          "aspect": "",
+          "senses": [
+            "earth",
+            "land",
+            "on land, by land",
+            "the earth",
+            "a land, country"
+          ],
+          "more": 3,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "καὶ",
+          "lemma": "καί",
+          "parse": "conjunction",
+          "aspect": "",
+          "senses": [
+            "and",
+            "also, even",
+            "both",
+            "and above all",
+            "or"
+          ],
+          "more": 8,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "ὄνομα",
+          "lemma": "ὄνομα",
+          "parse": "noun · nominative · singular · neuter",
+          "aspect": "",
+          "senses": [
+            "a name",
+            "name. fame",
+            "a mere name",
+            "a false name, pretence, pretext",
+            "pretence"
+          ],
+          "more": 4,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "τῷ",
+          "lemma": "ὁ",
+          "parse": "article · dative · singular · masculine",
+          "aspect": "",
+          "senses": [
+            "the",
+            "that",
+            "famous",
+            "namely that",
+            "he, she, it"
+          ],
+          "more": 31,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "ἀδελφῷ",
+          "lemma": "ἀδελφός",
+          "parse": "noun · dative · singular · masculine",
+          "aspect": "",
+          "senses": [
+            "sons of the same mother",
+            "a brother",
+            "a near kinsman",
+            "brother and sister",
+            "brothers"
+          ],
+          "more": 6,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "αὐτοῦ",
+          "lemma": "αὐτός",
+          "parse": "personal pronoun · genitive · singular · masculine",
+          "aspect": "",
+          "senses": [
+            "self",
+            "him, her, it",
+            "the very one, the same",
+            "self, myself, thyself",
+            "oneself, one's true self"
+          ],
+          "more": 25,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "Ιεκταν",
+          "lemma": "Ιεκταν",
+          "parse": "noun · nominative · singular · masculine",
+          "aspect": "",
+          "senses": [
+            "(Ιεκταν, from Hebrew Yoqṭān, usually connected with qāṭān, \"small\")"
+          ],
+          "more": 0,
+          "lexicon": "name"
+        }
+      ]
+    },
+    {
+      "ref": "GEN 10:26",
+      "words": [
+        {
+          "form": "Ιεκταν",
+          "lemma": "Ιεκταν",
+          "parse": "noun · nominative · singular · masculine",
+          "aspect": "",
+          "senses": [
+            "(Ιεκταν, from Hebrew Yoqṭān, usually connected with qāṭān, \"small\")"
+          ],
+          "more": 0,
+          "lexicon": "name"
+        },
+        {
+          "form": "δὲ",
+          "lemma": "δέ",
+          "parse": "conjunction",
+          "aspect": "",
+          "senses": [
+            "but",
+            "adversative",
+            "while, whereas, on the other hand",
+            "then, yet",
+            "then"
+          ],
+          "more": 3,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "ἐγέννησεν",
+          "lemma": "γεννάω",
+          "parse": "verb · aorist · active · indicative · 3rd person · singular",
+          "aspect": "one completed act seen whole, not a process observed in progress",
+          "senses": [
+            "to beget, engender",
+            "to bring forth",
+            "to produce"
+          ],
+          "more": 0,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "τὸν",
+          "lemma": "ὁ",
+          "parse": "article · accusative · singular · masculine",
+          "aspect": "",
+          "senses": [
+            "the",
+            "that",
+            "famous",
+            "namely that",
+            "he, she, it"
+          ],
+          "more": 31,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "Ελμωδαδ",
+          "lemma": "Ελμωδαδ",
+          "parse": "noun · accusative · singular · masculine",
+          "aspect": "",
+          "senses": [
+            "(Ελμωδαδ, from Hebrew ʾAlmôdād, of uncertain meaning)"
+          ],
+          "more": 0,
+          "lexicon": "name"
+        },
+        {
+          "form": "καὶ",
+          "lemma": "καί",
+          "parse": "conjunction",
+          "aspect": "",
+          "senses": [
+            "and",
+            "also, even",
+            "both",
+            "and above all",
+            "or"
+          ],
+          "more": 8,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "τὸν",
+          "lemma": "ὁ",
+          "parse": "article · accusative · singular · masculine",
+          "aspect": "",
+          "senses": [
+            "the",
+            "that",
+            "famous",
+            "namely that",
+            "he, she, it"
+          ],
+          "more": 31,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "Σαλεφ",
+          "lemma": "Σαλεφ",
+          "parse": "noun · accusative · singular · masculine",
+          "aspect": "",
+          "senses": [
+            "(Σαλεφ, from Hebrew Šālep, of uncertain meaning)"
+          ],
+          "more": 0,
+          "lexicon": "name"
+        },
+        {
+          "form": "καὶ",
+          "lemma": "καί",
+          "parse": "conjunction",
+          "aspect": "",
+          "senses": [
+            "and",
+            "also, even",
+            "both",
+            "and above all",
+            "or"
+          ],
+          "more": 8,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "Ασαρμωθ",
+          "lemma": "Ασαρμωθ",
+          "parse": "noun · accusative · singular · masculine",
+          "aspect": "",
+          "senses": [
+            "(Ασαρμωθ, from Hebrew Ḥăṣarmāwet, \"court of death\")"
+          ],
+          "more": 0,
+          "lexicon": "name"
+        },
+        {
+          "form": "καὶ",
+          "lemma": "καί",
+          "parse": "conjunction",
+          "aspect": "",
+          "senses": [
+            "and",
+            "also, even",
+            "both",
+            "and above all",
+            "or"
+          ],
+          "more": 8,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "Ιαραχ",
+          "lemma": "Ιαραχ",
+          "parse": "noun · accusative · singular · masculine",
+          "aspect": "",
+          "senses": [
+            "(Ιαραχ, from Hebrew Yeraḥ, \"moon\")"
+          ],
+          "more": 0,
+          "lexicon": "name"
+        }
+      ]
+    },
+    {
+      "ref": "GEN 10:27",
+      "words": [
+        {
+          "form": "καὶ",
+          "lemma": "καί",
+          "parse": "conjunction",
+          "aspect": "",
+          "senses": [
+            "and",
+            "also, even",
+            "both",
+            "and above all",
+            "or"
+          ],
+          "more": 8,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "Οδορρα",
+          "lemma": "Οδορρα",
+          "parse": "noun · accusative · singular · masculine",
+          "aspect": "",
+          "senses": [
+            "(Οδορρα, from Hebrew Hădôrām, of uncertain meaning)"
+          ],
+          "more": 0,
+          "lexicon": "name"
+        },
+        {
+          "form": "καὶ",
+          "lemma": "καί",
+          "parse": "conjunction",
+          "aspect": "",
+          "senses": [
+            "and",
+            "also, even",
+            "both",
+            "and above all",
+            "or"
+          ],
+          "more": 8,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "Αιζηλ",
+          "lemma": "Αιζηλ",
+          "parse": "noun · accusative · singular · masculine",
+          "aspect": "",
+          "senses": [
+            "(Αιζηλ, from Hebrew ʾÛzāl, of uncertain meaning)"
+          ],
+          "more": 0,
+          "lexicon": "name"
+        },
+        {
+          "form": "καὶ",
+          "lemma": "καί",
+          "parse": "conjunction",
+          "aspect": "",
+          "senses": [
+            "and",
+            "also, even",
+            "both",
+            "and above all",
+            "or"
+          ],
+          "more": 8,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "Δεκλα",
+          "lemma": "Δεκλα",
+          "parse": "noun · accusative · singular · masculine",
+          "aspect": "",
+          "senses": [
+            "(Δεκλα, from Hebrew Diqlâ, \"palm grove\")"
+          ],
+          "more": 0,
+          "lexicon": "name"
+        }
+      ]
+    },
+    {
+      "ref": "GEN 10:28",
+      "words": [
+        {
+          "form": "καὶ",
+          "lemma": "καί",
+          "parse": "conjunction",
+          "aspect": "",
+          "senses": [
+            "and",
+            "also, even",
+            "both",
+            "and above all",
+            "or"
+          ],
+          "more": 8,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "Αβιμεηλ",
+          "lemma": "Αβιμεηλ",
+          "parse": "noun · accusative · singular · masculine",
+          "aspect": "",
+          "senses": [
+            "(Αβιμεηλ, from Hebrew ʾĂbîmāʾēl, beginning ʾābî, \"my father\", and ending ʾēl, \"God\")"
+          ],
+          "more": 0,
+          "lexicon": "name"
+        },
+        {
+          "form": "καὶ",
+          "lemma": "καί",
+          "parse": "conjunction",
+          "aspect": "",
+          "senses": [
+            "and",
+            "also, even",
+            "both",
+            "and above all",
+            "or"
+          ],
+          "more": 8,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "Σαβευ",
+          "lemma": "Σαβευ",
+          "parse": "noun · accusative · singular · masculine",
+          "aspect": "",
+          "senses": [
+            "(Σαβευ, from Hebrew Šĕbāʾ, of uncertain meaning)"
+          ],
+          "more": 0,
+          "lexicon": "name"
+        }
+      ]
+    },
+    {
+      "ref": "GEN 10:29",
+      "words": [
+        {
+          "form": "καὶ",
+          "lemma": "καί",
+          "parse": "conjunction",
+          "aspect": "",
+          "senses": [
+            "and",
+            "also, even",
+            "both",
+            "and above all",
+            "or"
+          ],
+          "more": 8,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "Ουφιρ",
+          "lemma": "Ουφιρ",
+          "parse": "noun · accusative · singular · masculine",
+          "aspect": "",
+          "senses": [
+            "(Ουφιρ, from Hebrew ʾÔpîr, of uncertain meaning)"
+          ],
+          "more": 0,
+          "lexicon": "name"
+        },
+        {
+          "form": "καὶ",
+          "lemma": "καί",
+          "parse": "conjunction",
+          "aspect": "",
+          "senses": [
+            "and",
+            "also, even",
+            "both",
+            "and above all",
+            "or"
+          ],
+          "more": 8,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "Ευιλα",
+          "lemma": "Ευιλα",
+          "parse": "noun · accusative · singular · masculine",
+          "aspect": "",
+          "senses": [
+            "(Ευιλα, from Hebrew Ḥăwîlâ, the name 2:11 gives as Ευιλατ, usually connected with ḥôl, \"sand\")"
+          ],
+          "more": 0,
+          "lexicon": "name"
+        },
+        {
+          "form": "καὶ",
+          "lemma": "καί",
+          "parse": "conjunction",
+          "aspect": "",
+          "senses": [
+            "and",
+            "also, even",
+            "both",
+            "and above all",
+            "or"
+          ],
+          "more": 8,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "Ιωβαβ",
+          "lemma": "Ιωβαβ",
+          "parse": "noun · accusative · singular · masculine",
+          "aspect": "",
+          "senses": [
+            "(Ιωβαβ, from Hebrew Yôbāb, of uncertain meaning)"
+          ],
+          "more": 0,
+          "lexicon": "name"
+        },
+        {
+          "form": "πάντες",
+          "lemma": "πᾶς",
+          "parse": "adjective · nominative · plural · masculine",
+          "aspect": "",
+          "senses": [
+            "all, the whole",
+            "all",
+            "all the",
+            "nothing but",
+            "every"
+          ],
+          "more": 32,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "οὗτοι",
+          "lemma": "οὗτος",
+          "parse": "demonstrative pronoun · nominative · plural · masculine",
+          "aspect": "",
+          "senses": [
+            "this",
+            "the nearer",
+            "the more remote",
+            "what follows",
+            "what precedes"
+          ],
+          "more": 18,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "υἱοὶ",
+          "lemma": "υἱός",
+          "parse": "noun · nominative · plural · masculine",
+          "aspect": "",
+          "senses": [
+            "A son",
+            "a son"
+          ],
+          "more": 0,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "Ιεκταν",
+          "lemma": "Ιεκταν",
+          "parse": "noun · genitive · singular · masculine",
+          "aspect": "",
+          "senses": [
+            "(Ιεκταν, from Hebrew Yoqṭān, usually connected with qāṭān, \"small\")"
+          ],
+          "more": 0,
+          "lexicon": "name"
+        }
+      ]
+    },
+    {
+      "ref": "GEN 10:30",
+      "words": [
+        {
+          "form": "καὶ",
+          "lemma": "καί",
+          "parse": "conjunction",
+          "aspect": "",
+          "senses": [
+            "and",
+            "also, even",
+            "both",
+            "and above all",
+            "or"
+          ],
+          "more": 8,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "ἐγένετο",
+          "lemma": "γίνομαι",
+          "parse": "verb · aorist · middle · indicative · 3rd person · singular",
+          "aspect": "one completed act seen whole, not a process observed in progress",
+          "senses": [
+            "to come into being",
+            "to be born",
+            "born",
+            "to be produced",
+            "the result"
+          ],
+          "more": 27,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "ἡ",
+          "lemma": "ὁ",
+          "parse": "article · nominative · singular · feminine",
+          "aspect": "",
+          "senses": [
+            "the",
+            "that",
+            "famous",
+            "namely that",
+            "he, she, it"
+          ],
+          "more": 31,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "κατοίκησις",
+          "lemma": "κατοίκησις",
+          "parse": "noun · nominative · singular · feminine",
+          "aspect": "",
+          "senses": [
+            "a settling in"
+          ],
+          "more": 0,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "αὐτῶν",
+          "lemma": "αὐτός",
+          "parse": "personal pronoun · genitive · plural · masculine",
+          "aspect": "",
+          "senses": [
+            "self",
+            "him, her, it",
+            "the very one, the same",
+            "self, myself, thyself",
+            "oneself, one's true self"
+          ],
+          "more": 25,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "ἀπὸ",
+          "lemma": "ἀπό",
+          "parse": "preposition",
+          "aspect": "",
+          "senses": [
+            "from, away from. c. gen.",
+            "from, away from",
+            "from",
+            "away from, far from, apart from",
+            "far from"
+          ],
+          "more": 28,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "Μασση",
+          "lemma": "Μασση",
+          "parse": "noun · genitive · singular",
+          "aspect": "",
+          "senses": [
+            "(Μασση, from Hebrew Mēšāʾ, of uncertain meaning)"
+          ],
+          "more": 0,
+          "lexicon": "name"
+        },
+        {
+          "form": "ἕως",
+          "lemma": "ἕως",
+          "parse": "conjunction",
+          "aspect": "",
+          "senses": [
+            "until, till",
+            "for a time",
+            "till",
+            "while, so long as"
+          ],
+          "more": 0,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "ἐλθεῖν",
+          "lemma": "ἔρχομαι",
+          "parse": "verb · aorist · active · infinitive",
+          "aspect": "one completed act seen whole, not a process observed in progress",
+          "senses": [
+            "to come",
+            "go",
+            "go back, return",
+            "to go",
+            "I go to"
+          ],
+          "more": 3,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "εἰς",
+          "lemma": "εἰς",
+          "parse": "preposition",
+          "aspect": "",
+          "senses": [
+            "into, to c. acc.",
+            "into",
+            "to",
+            "in",
+            "rest in"
+          ],
+          "more": 18,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "Σωφηρα",
+          "lemma": "Σωφηρα",
+          "parse": "noun · accusative · singular",
+          "aspect": "",
+          "senses": [
+            "(Σωφηρα, from Hebrew Sĕpārâ, the name with its ending of direction, \"toward Sephar\")"
+          ],
+          "more": 0,
+          "lexicon": "name"
+        },
+        {
+          "form": "ὄρος",
+          "lemma": "ὄρος",
+          "parse": "noun · accusative · singular · neuter",
+          "aspect": "",
+          "senses": [
+            "a mountain, hill"
+          ],
+          "more": 0,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "ἀνατολῶν",
+          "lemma": "ἀνατολή",
+          "parse": "noun · genitive · plural · feminine",
+          "aspect": "",
+          "senses": [
+            "a rising, rise",
+            "the quarter of sunrise, East"
+          ],
+          "more": 0,
+          "lexicon": "Middle Liddell"
+        }
+      ]
+    },
+    {
+      "ref": "GEN 10:31",
+      "words": [
+        {
+          "form": "οὗτοι",
+          "lemma": "οὗτος",
+          "parse": "demonstrative pronoun · nominative · plural · masculine",
+          "aspect": "",
+          "senses": [
+            "this",
+            "the nearer",
+            "the more remote",
+            "what follows",
+            "what precedes"
+          ],
+          "more": 18,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "υἱοὶ",
+          "lemma": "υἱός",
+          "parse": "noun · nominative · plural · masculine",
+          "aspect": "",
+          "senses": [
+            "A son",
+            "a son"
+          ],
+          "more": 0,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "Σημ",
+          "lemma": "Σήμ",
+          "parse": "noun · genitive · singular · masculine",
+          "aspect": "",
+          "senses": [
+            "(Σημ, from Hebrew Šēm, \"name\")"
+          ],
+          "more": 0,
+          "lexicon": "name"
+        },
+        {
+          "form": "ἐν",
+          "lemma": "ἐν",
+          "parse": "preposition",
+          "aspect": "",
+          "senses": [
+            "in, among. c. dat.",
+            "in",
+            "at the school of",
+            "in, upon",
+            "in the number of, amongst"
+          ],
+          "more": 23,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "ταῖς",
+          "lemma": "ὁ",
+          "parse": "article · dative · plural · feminine",
+          "aspect": "",
+          "senses": [
+            "the",
+            "that",
+            "famous",
+            "namely that",
+            "he, she, it"
+          ],
+          "more": 31,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "φυλαῖς",
+          "lemma": "φυλή",
+          "parse": "noun · dative · plural · feminine",
+          "aspect": "",
+          "senses": [
+            "a race",
+            "tribe",
+            "a body",
+            "united by ties of blood and descent, a clan",
+            "a tribe"
+          ],
+          "more": 6,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "αὐτῶν",
+          "lemma": "αὐτός",
+          "parse": "personal pronoun · genitive · plural · masculine",
+          "aspect": "",
+          "senses": [
+            "self",
+            "him, her, it",
+            "the very one, the same",
+            "self, myself, thyself",
+            "oneself, one's true self"
+          ],
+          "more": 25,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "κατὰ",
+          "lemma": "κατά",
+          "parse": "preposition",
+          "aspect": "",
+          "senses": [
+            "down, downwards, with gen. or acc.",
+            "down, downwards.",
+            "motion from above, down from",
+            "downward motion",
+            "down upon"
+          ],
+          "more": 45,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "γλώσσας",
+          "lemma": "γλῶσσα",
+          "parse": "noun · accusative · plural · feminine",
+          "aspect": "",
+          "senses": [
+            "the tongue",
+            "a tongue, language",
+            "mouthpiece"
+          ],
+          "more": 0,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "αὐτῶν",
+          "lemma": "αὐτός",
+          "parse": "personal pronoun · genitive · plural · masculine",
+          "aspect": "",
+          "senses": [
+            "self",
+            "him, her, it",
+            "the very one, the same",
+            "self, myself, thyself",
+            "oneself, one's true self"
+          ],
+          "more": 25,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "ἐν",
+          "lemma": "ἐν",
+          "parse": "preposition",
+          "aspect": "",
+          "senses": [
+            "in, among. c. dat.",
+            "in",
+            "at the school of",
+            "in, upon",
+            "in the number of, amongst"
+          ],
+          "more": 23,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "ταῖς",
+          "lemma": "ὁ",
+          "parse": "article · dative · plural · feminine",
+          "aspect": "",
+          "senses": [
+            "the",
+            "that",
+            "famous",
+            "namely that",
+            "he, she, it"
+          ],
+          "more": 31,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "χώραις",
+          "lemma": "χώρα",
+          "parse": "noun · dative · plural · feminine",
+          "aspect": "",
+          "senses": [
+            "the space in which a thing is",
+            "a place",
+            "one's place, position",
+            "post",
+            "one's place"
+          ],
+          "more": 6,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "αὐτῶν",
+          "lemma": "αὐτός",
+          "parse": "personal pronoun · genitive · plural · masculine",
+          "aspect": "",
+          "senses": [
+            "self",
+            "him, her, it",
+            "the very one, the same",
+            "self, myself, thyself",
+            "oneself, one's true self"
+          ],
+          "more": 25,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "καὶ",
+          "lemma": "καί",
+          "parse": "conjunction",
+          "aspect": "",
+          "senses": [
+            "and",
+            "also, even",
+            "both",
+            "and above all",
+            "or"
+          ],
+          "more": 8,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "ἐν",
+          "lemma": "ἐν",
+          "parse": "preposition",
+          "aspect": "",
+          "senses": [
+            "in, among. c. dat.",
+            "in",
+            "at the school of",
+            "in, upon",
+            "in the number of, amongst"
+          ],
+          "more": 23,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "τοῖς",
+          "lemma": "ὁ",
+          "parse": "article · dative · plural · neuter",
+          "aspect": "",
+          "senses": [
+            "the",
+            "that",
+            "famous",
+            "namely that",
+            "he, she, it"
+          ],
+          "more": 31,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "ἔθνεσιν",
+          "lemma": "ἔθνος",
+          "parse": "noun · dative · plural · neuter",
+          "aspect": "",
+          "senses": [
+            "a number of people accustomed to live together, a company, body of men",
+            "a host",
+            "swarms, flocks",
+            "a nation, people",
+            "the nations, Gentiles"
+          ],
+          "more": 3,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "αὐτῶν",
+          "lemma": "αὐτός",
+          "parse": "personal pronoun · genitive · plural · masculine",
+          "aspect": "",
+          "senses": [
+            "self",
+            "him, her, it",
+            "the very one, the same",
+            "self, myself, thyself",
+            "oneself, one's true self"
+          ],
+          "more": 25,
+          "lexicon": "Middle Liddell"
+        }
+      ]
+    },
+    {
+      "ref": "GEN 10:32",
+      "words": [
+        {
+          "form": "Αὗται",
+          "lemma": "οὗτος",
+          "parse": "demonstrative pronoun · nominative · plural · feminine",
+          "aspect": "",
+          "senses": [
+            "this",
+            "the nearer",
+            "the more remote",
+            "what follows",
+            "what precedes"
+          ],
+          "more": 18,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "αἱ",
+          "lemma": "ὁ",
+          "parse": "article · nominative · plural · feminine",
+          "aspect": "",
+          "senses": [
+            "the",
+            "that",
+            "famous",
+            "namely that",
+            "he, she, it"
+          ],
+          "more": 31,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "φυλαὶ",
+          "lemma": "φυλή",
+          "parse": "noun · nominative · plural · feminine",
+          "aspect": "",
+          "senses": [
+            "a race",
+            "tribe",
+            "a body",
+            "united by ties of blood and descent, a clan",
+            "a tribe"
+          ],
+          "more": 6,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "υἱῶν",
+          "lemma": "υἱός",
+          "parse": "noun · genitive · plural · masculine",
+          "aspect": "",
+          "senses": [
+            "A son",
+            "a son"
+          ],
+          "more": 0,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "Νωε",
+          "lemma": "Νῶε",
+          "parse": "noun · genitive · singular · masculine",
+          "aspect": "",
+          "senses": [
+            "(Νωε, from Hebrew Nōaḥ, usually connected with nûaḥ, \"to rest\")"
+          ],
+          "more": 0,
+          "lexicon": "name"
+        },
+        {
+          "form": "κατὰ",
+          "lemma": "κατά",
+          "parse": "preposition",
+          "aspect": "",
+          "senses": [
+            "down, downwards, with gen. or acc.",
+            "down, downwards.",
+            "motion from above, down from",
+            "downward motion",
+            "down upon"
+          ],
+          "more": 45,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "γενέσεις",
+          "lemma": "γένεσις",
+          "parse": "noun · accusative · plural · feminine",
+          "aspect": "",
+          "senses": [
+            "an origin, source, productive cause",
+            "a beginning",
+            "manner of birth",
+            "race, descent",
+            "by descent"
+          ],
+          "more": 4,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "αὐτῶν",
+          "lemma": "αὐτός",
+          "parse": "personal pronoun · genitive · plural · masculine",
+          "aspect": "",
+          "senses": [
+            "self",
+            "him, her, it",
+            "the very one, the same",
+            "self, myself, thyself",
+            "oneself, one's true self"
+          ],
+          "more": 25,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "κατὰ",
+          "lemma": "κατά",
+          "parse": "preposition",
+          "aspect": "",
+          "senses": [
+            "down, downwards, with gen. or acc.",
+            "down, downwards.",
+            "motion from above, down from",
+            "downward motion",
+            "down upon"
+          ],
+          "more": 45,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "τὰ",
+          "lemma": "ὁ",
+          "parse": "article · accusative · plural · neuter",
+          "aspect": "",
+          "senses": [
+            "the",
+            "that",
+            "famous",
+            "namely that",
+            "he, she, it"
+          ],
+          "more": 31,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "ἔθνη",
+          "lemma": "ἔθνος",
+          "parse": "noun · accusative · plural · neuter",
+          "aspect": "",
+          "senses": [
+            "a number of people accustomed to live together, a company, body of men",
+            "a host",
+            "swarms, flocks",
+            "a nation, people",
+            "the nations, Gentiles"
+          ],
+          "more": 3,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "αὐτῶν",
+          "lemma": "αὐτός",
+          "parse": "personal pronoun · genitive · plural · masculine",
+          "aspect": "",
+          "senses": [
+            "self",
+            "him, her, it",
+            "the very one, the same",
+            "self, myself, thyself",
+            "oneself, one's true self"
+          ],
+          "more": 25,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "ἀπὸ",
+          "lemma": "ἀπό",
+          "parse": "preposition",
+          "aspect": "",
+          "senses": [
+            "from, away from. c. gen.",
+            "from, away from",
+            "from",
+            "away from, far from, apart from",
+            "far from"
+          ],
+          "more": 28,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "τούτων",
+          "lemma": "οὗτος",
+          "parse": "demonstrative pronoun · genitive · plural · feminine",
+          "aspect": "",
+          "senses": [
+            "this",
+            "the nearer",
+            "the more remote",
+            "what follows",
+            "what precedes"
+          ],
+          "more": 18,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "διεσπάρησαν",
+          "lemma": "διασπείρω",
+          "parse": "verb · aorist · passive · indicative · 3rd person · plural",
+          "aspect": "one completed act seen whole, not a process observed in progress",
+          "senses": [
+            "to scatter abroad, throw about",
+            "to squander",
+            "to be scattered abroad"
+          ],
+          "more": 0,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "νῆσοι",
+          "lemma": "νῆσος",
+          "parse": "noun · nominative · plural · feminine",
+          "aspect": "",
+          "senses": [
+            "an island"
+          ],
+          "more": 0,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "τῶν",
+          "lemma": "ὁ",
+          "parse": "article · genitive · plural · neuter",
+          "aspect": "",
+          "senses": [
+            "the",
+            "that",
+            "famous",
+            "namely that",
+            "he, she, it"
+          ],
+          "more": 31,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "ἐθνῶν",
+          "lemma": "ἔθνος",
+          "parse": "noun · genitive · plural · neuter",
+          "aspect": "",
+          "senses": [
+            "a number of people accustomed to live together, a company, body of men",
+            "a host",
+            "swarms, flocks",
+            "a nation, people",
+            "the nations, Gentiles"
+          ],
+          "more": 3,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "ἐπὶ",
+          "lemma": "ἐπί",
+          "parse": "preposition",
+          "aspect": "",
+          "senses": [
+            "on, upon with gen., dat., and acc.",
+            "upon.",
+            "upon",
+            "on",
+            "in"
+          ],
+          "more": 60,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "τῆς",
+          "lemma": "ὁ",
+          "parse": "article · genitive · singular · feminine",
+          "aspect": "",
+          "senses": [
+            "the",
+            "that",
+            "famous",
+            "namely that",
+            "he, she, it"
+          ],
+          "more": 31,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "γῆς",
+          "lemma": "γῆ",
+          "parse": "noun · genitive · singular · feminine",
+          "aspect": "",
+          "senses": [
+            "earth",
+            "land",
+            "on land, by land",
+            "the earth",
+            "a land, country"
+          ],
+          "more": 3,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "μετὰ",
+          "lemma": "μετά",
+          "parse": "preposition",
+          "aspect": "",
+          "senses": [
+            "in the midst of, among",
+            "in common, along with",
+            "with, by means of",
+            "among, in company with",
+            "in"
+          ],
+          "more": 36,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "τὸν",
+          "lemma": "ὁ",
+          "parse": "article · accusative · singular · masculine",
+          "aspect": "",
+          "senses": [
+            "the",
+            "that",
+            "famous",
+            "namely that",
+            "he, she, it"
+          ],
+          "more": 31,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "κατακλυσμόν",
+          "lemma": "κατακλυσμός",
+          "parse": "noun · accusative · singular · masculine",
+          "aspect": "",
+          "senses": [
+            "a deluge, inundation"
+          ],
+          "more": 0,
+          "lexicon": "Middle Liddell"
+        }
+      ]
+    }
+  ]
+}

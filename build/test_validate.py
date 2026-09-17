@@ -263,6 +263,10 @@ CONTROL = [
                                          lambda: holds(not V.matches("Αδα", "Αδαμ") and not V.matches("Καιναν", "Καιν")
                                                        and not V.matches("Ενως", "Ενωχ"),
                                                        "Adah is not Adam, Kainan is not Cain")),
+    ("words    a space inside the module's parse code does not split the word",
+                                         lambda: holds(V.module_words("Μεσραιμ<S>708772</S><m>lxx.N.N M</m> καὶ<S>2532</S><m>lxx.C</m>")
+                                                       == [("Μεσραιμ", "708772", "lxx.N.N M"), ("καὶ", "2532", "lxx.C")],
+                                                       "GEN 10:6 has `lxx.N.N M`; the words are found by their tags")),
     ("words    a documented difference is a note, not a failure",
                                          lambda: run(V.check_analysis, "GEN", 2)),
     ("anchors  a chain may contain the conventional form",
