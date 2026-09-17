@@ -142,6 +142,10 @@ LSJ = {
     # hundred years", and "years old" after its citation of this verse, LXX Ge. 17.17.
     "κατάσχεσις": ["holding back, restraining, retention", "possession", "relation, attitude"],
     "ἑκατονταετής": ["of a hundred years, years old"],
+    # No Middle Liddell entry for these two. LSJ (eng13): μοσχάριον, "little calf". LSJ (eng2):
+    # βούτυρον, "butter", and "a plant".
+    "μοσχάριον": ["little calf"],
+    "βούτυρον": ["butter", "a plant"],
 }
 
 # New Testament books: MorphGNT file and its book number.
@@ -471,6 +475,35 @@ NOT_SENSES = {
     "gela/w": {"a laugh being raised"},         # a piece of an example
     "nai/": {"yea by . ."},                     # an oath formula
     "e)niauto/s": {"times", "during", "every year"},  # pieces of examples
+    # GEN 18
+    "ka/qhmai": {"the judges, the court"},     # the participle as a noun
+    "meshmbri/a": {"at noon"},                  # a piece of an example
+    "proskune/w": {"to him as king"},           # a piece of an example
+    "a(/ra": {"explanation", "in questions", "the anxiety", "who is there"},  # descriptions and pieces of examples
+    "pare/rxomai": {"passed away", "the past", "now gone by", "in time past, of old", "past events"},  # participles and pieces of examples
+    "ni/zw": {"feet", "from", "washed off", "off his", "washing part"},  # pieces of examples
+    "de/ndron": {"fruit-trees", "timber)"},     # pieces of an example
+    "e(/neka": {"as far as depends on", "as far as", "went"},  # pieces of examples
+    "speu/dw": {"urge on", "to be urged on", "urge", "anxiously", "you urge, contend", "in haste, eagerly"},  # pieces of examples, the passive, the participle
+    "fura/w": {"so as to make", "to make", "into a", "paste"},  # pieces of examples
+    "me/tron": {"the length", "the prime"},     # pieces of examples
+    "a(palo/s": {"gently"},                     # the adverb
+    "parati/qhmi": {"the serving-men", "meats set before one", "of one's own"},  # pieces of examples
+    "pari/sthmi": {"having brought", "into view", "near", "present circumstances", "opinion", "it occurs", "since it was in their power, since the opportunity offered"},  # pieces of examples
+    "a)pokri/nw": {"parted from the throng", "to be separated and brought", "distinct", "let", "be", "answer"},  # pieces of examples
+    "w(/ra": {"year", "time", "in the day", "the time for", "'tis time", "at the right time", "at", "hour", "in due time, in good time", "in", "seasons", "youth!"},  # pieces of examples
+    "o)/pisqen": {"those who are left behind", "shall", "rear ranks"},  # pieces of examples
+    "pre/sbus": {"the wise", "of age", "nihil) antiquius habere", "more highly than . ."},  # pieces of examples, Latin, the adverb
+    "probai/nw": {"are far gone", "is wearing fast", "went on", "advanced", "to be", "gone", "kept making advances", "kept extending", "he was set over", "ruled"},  # pieces of examples
+    "gunaikei=os": {"of", "bona dea", "with women"},  # half of "of or belonging to", Latin, a piece of an example
+    "ge": {"and not otherwise", "the least"},   # pieces of examples
+    "ghra/skw": {"to be so", "grew old"},       # pieces of examples
+    "a)rne/omai": {"to deny that"},             # a construction
+    "sunapo/llumi": {"to destroy one's", "as well as oneself", "also", "with"},  # pieces of examples
+    "a)po/llumi": {"to drive", "ruined", "oh destined to a miserable end!", "oh villain, scoundrel!"},  # pieces of examples
+    "a)ni/hmi": {"loosed", "from", "baring her", "flaying", "are let range at large"},  # pieces of examples
+    "spodo/s": {"the ashes", "of a bibulous"},  # pieces of examples
+    "a(/pac": {"once"},                         # a repeat
 }
 
 # An entry that divides its senses by tense and voice, so that which of them belong to a
@@ -562,6 +595,16 @@ SPELLING = {
     "e)peidh/": "e)pei/",            # not in Middle Liddell; LSJ's ἐπειδή reads "v. ἐπεί"
     "kli/banos": "kri/banos",       # the entry is headed with the Attic κρίβανος
     "kuri/a": "ku/rios2",           # cross-reference; "fem. of κύριος signf. B. 1. 2." — the noun's κυρία, mistress
+    "a)/ra": "a(/ra",               # Perseus keys ἄρα with a rough breathing
+    "a)=ra": "a(/ra",               # "in accent and sense a stronger form of ἄρα"; the entry glosses nothing
+    "ge/": "ge",                    # MorphGNT accents the enclitic; the entry is headed unaccented
+    "a)lhqw=s": "a)lhqh/s",         # the adverb, filed inside the adjective's entry
+    "ou)xi/": "ou)",                # the strengthened οὐ, filed in its entry
+    "mhdamw=s": "mhdamh=",          # cross-reference; "adverb of μηδαμός = μηδαμῇ"
+    "ei(/neka": "e(/neka",          # the Ionic and poetic form, filed under ἕνεκα
+    "ni/ptw": "ni/zw",              # the late present, filed under νίζω
+    "a)pokri/nomai": "a)pokri/nw",  # MorphGNT's middle, filed under the active
+    "presbu/teros": "pre/sbus",     # the comparative, filed inside the positive's entry
 }
 
 # Homographs where Perseus's *first* entry is a different word from the one the text

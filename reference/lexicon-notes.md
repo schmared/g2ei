@@ -140,6 +140,16 @@ Three reasons, and all of them are the lexicon's filing rather than a decision a
 | κυρία (GEN 16:4) | κύριος (the second entry) | cross-reference; "fem. of κύριος signf. B. 1. 2." |
 | ἐξολεθρεύω (GEN 17:14) | ἐξολοθρεύω | the spelling the text prints, as MorphGNT files ἐξολεθρευθήσεται (Acts 3:23) |
 | ἀρσενικός (GEN 17:10) | ἀρρενικός | LSJ: "less Att. form ἀρσενικός" |
+| ἄρα (GEN 18:3) | `a(/ra` | Perseus keys the entry with a rough breathing |
+| ἆρα (GEN 18:13) | ἄρα | "in accent and sense a stronger form of ἄρα"; the entry glosses nothing |
+| γέ (GEN 18:13) | γε | MorphGNT accents the enclitic; the entry is headed unaccented |
+| ἀληθῶς (GEN 18:13) | ἀληθής | the adverb, filed inside the adjective's entry |
+| οὐχί (GEN 18:15) | οὐ | the strengthened form, filed in its entry |
+| μηδαμῶς (GEN 18:25) | μηδαμῇ | cross-reference; "adverb of μηδαμός = μηδαμῇ" |
+| εἵνεκα (GEN 18:5) | ἕνεκα | the Ionic and poetic form |
+| νίπτω (GEN 18:4) | νίζω | the late present, filed under νίζω |
+| ἀποκρίνομαι (GEN 18:9) | ἀποκρίνω | MorphGNT's middle, filed under the active |
+| πρεσβύτερος (GEN 18:11) | πρέσβυς | the comparative, filed inside the positive's entry |
 <!-- spelling rows above -->
 
 The dictionary form itself does not follow the lexicon's filing: it keeps the spelling the text
@@ -173,7 +183,7 @@ GEN 9 adds ὀπισθοφανής, *seen from behind*, and its adverb ὀπισ
 ἔτασις, *trial, affliction*. GEN 14 adds ἁλυκός, *salt, brackish*; ἀποσκευή, whose *removal,
 riddance* comes before *baggage*; σφαιρωτήρ, *thong, latchet*; and περάτης, which opens "= πορθμεύς",
 so that πορθμεύς's LSJ senses, *ferryman*, *boatman, seaman*, *conveyer*, stand before its own
-*wanderer, emigrant*, as ἁγίζω's stand for ἁγιάζω. GEN 15 adds ὑπερασπίζω, *cover with a shield*, from the upsilon file; τριετίζω, *to be three years old*; and διχοτόμημα, *half of a thing cut in two*. GEN 17 adds κατάσχεσις, *holding back, restraining, retention*, then *possession*, from the kappa file; and ἑκατονταέτης, *of a hundred years*, *years old*, citing 17:17.
+*wanderer, emigrant*, as ἁγίζω's stand for ἁγιάζω. GEN 15 adds ὑπερασπίζω, *cover with a shield*, from the upsilon file; τριετίζω, *to be three years old*; and διχοτόμημα, *half of a thing cut in two*. GEN 17 adds κατάσχεσις, *holding back, restraining, retention*, then *possession*, from the kappa file; and ἑκατονταέτης, *of a hundred years*, *years old*, citing 17:17. GEN 18 adds μοσχάριον, *little calf*, and, from the beta file, βούτυρον, *butter*, then *a plant*.
 <!-- LSJ sentences above -->
 
 GEN 9 also files ἐμεθύσθη under μεθύσκω, *to make drunk*, where Middle Liddell gives its aorist
@@ -573,6 +583,147 @@ the same ground as `the sixth` and `the seventh`: one sense each, so no range to
   settling in` (10:30); δύο `two`; υἱός `sons`.
 - The article before a people's name (τοὺς Λουδιιμ, τὸν Χετταῖον, τῶν Χαναναίων) is not printed,
   as before a person's name.
+
+### Words new in GEN 18
+
+- ἆρα — Middle Liddell gives it no gloss, only *in accent and sense a stronger form of ἄρα*, so the
+  chain is ἄρα's, as ἐπειδή's is ἐπεί's (15:3). Perseus keys ἄρα itself with a rough breathing,
+  `a(/ra`; its first sense is *then, straightway, at once*. 18:3, 18:13.
+- πρεσβύτερος — filed inside πρέσβυς, whose comparative is *elder, older*, and in the New
+  Testament *an elder of the Jewish Council*, *an elder of the Church, presbyter*. The comparative's
+  own senses stand, as the adverb's do for an adverb filed inside its adjective; πρέσβυς's
+  *an old man* is not the comparative's. 18:11, 18:12.
+- τὰ γυναικεῖα — γυναικεῖος's noun sense, *the women's apartments, harem*, belongs to the singular
+  τὸ γυναικεῖον, so the plural takes the article and the adjective's senses, `the belonging to
+  women`, as ὁ οἰκογενής is `the born in the house` (15:3). 18:11.
+- ἵστημι and παρίστημι in the perfect and pluperfect take the intransitive senses the entries
+  give those tenses: εἱστήκεισαν `had been set and stood so` (18:2), παρειστήκει `had stood by`
+  (18:8), ἑστηκώς `having been set and standing so` (18:22). ἐξανίστημι's second aorist likewise,
+  `having stood up from one's seat` (18:16).
+- ἀποκρίνομαι — filed under ἀποκρίνω, whose middle is *to give answer to, reply*; its aorist
+  passive is, in the entry's words, *= ἀπεκρίνατο*: `having given answer to`. 18:9, 18:27.
+- The genitive absolute, καθημένου αὐτοῦ — the case's `of` before each gloss, `of being seated`.
+  18:1.
+- Two tags split by *or* where the first is no gloss by itself: νίπτω's *to wash the hands* or
+  *feet* (*feet* left out), as παιδίον's *a little* at 17:12. 18:4.
+- ὥρα plural — each sense in the plural, *Hours* capitalised as the lexicon prints the goddesses.
+  18:10, 18:14.
+- ἄρτος anarthrous — `a cake, a loaf of wheat-bread, bread`, the chain of GEN 3:19 with the
+  lexicon's own articles. 18:5.
+- μηδαμῶς — *adverb of μηδαμός = μηδαμῇ*; μηδαμῇ's one sense, *in no wise, not at all*. 18:25.
+- One sense each in GEN 18, so plain text: συνάντησις `a meeting` (18:2); δένδρον `the tree`
+  (18:4, 18:8), not δρῦς; σεμίδαλις `of the finest wheaten flour`, ἐγκρυφίας `baked in the ashes`
+  (18:6); μοσχάριον `little calf` (18:7, 18:8, LSJ); γάλα `milk` (18:8); καταβλέπω `looked down
+  at`, συμπροπέμπω `joining in escorting` (18:16); ἐνευλογέομαι `will be blessed in` (18:18), as at
+  12:3; ἐλαττονόω `may be diminished` (18:28); οὐχί `not` (18:15).
+
+| lemma | headword | chain | used |
+| --- | --- | --- | --- |
+| βούτυρον | `butter` | `butter, a plant` | 18:8 |
+| βοῦς | `the cows` | `the cows, the oxen, the kine and cattle, the ox-hide shields` | 18:7 |
+| γέ | `at least` | `at least, at any rate, even, that is to say, really, namely and that is, yes and, well then` | 18:13 |
+| γίνομαι | `coming into being` | `coming to be, arising, being brought into existence` | 18:18 |
+| γελάω | `I laughed` | `I laughed, I laughed at, I derided` | 18:15 |
+| γελάω | `you laughed` | `you laughed, you laughed at, you derided` | 18:15 |
+| γηράσκω | `I have grown old` | `I have grown old and stand so, I have become old and remain so` | 18:13 |
+| γινώσκω | `I may learn to know` | `I may learn to know, I may perceive, I may mark, I may learn, I may discern and distinguish` | 18:21 |
+| γυναικεῖος | `the belonging to women` | `the belonging to women, the like women, the befitting them, the feminine, the womanish and effeminate` | 18:11 |
+| δίκαιος | `of observant of custom and social rule` | `of observant of custom and social rule, of well-ordered and civilised, of observant of right and righteous, of even and well-balanced, of regular and exact, of right and lawful and just, of real and genuine and true, of fair and moderate` | 18:24 |
+| δίκαιος | `the observant of custom and social rule` | `the observant of custom and social rule, the well-ordered and civilised, the observant of right and righteous, the even and well-balanced, the regular and exact, the right and lawful and just, the real and genuine and true, the fair and moderate` | 18:23, 18:25 |
+| εὑρίσκω | `I found` | `I found, I found out, I discovered` | 18:3 |
+| εὑρίσκω | `I may find` | `I may find, I may find out, I may discover` | 18:26, 18:28, 18:30 |
+| εὑρίσκω | `may be found` | `may be found, may be found out, may be discovered` | 18:29, 18:30, 18:31, 18:32 |
+| θύρα | `of the door` | `of the door, of the folding doors, of the gate, of the court, of the trap-door, of the frame of planks and raft, of the entrance` | 18:1, 18:2 |
+| θύρα | `to the door` | `to the door, to the folding doors, to the gate, to the court, to the trap-door, to the frame of planks and raft, to the entrance` | 18:10 |
+| κάθημαι | `of being seated` | `of being seated, of being seated in court, of sitting still and sitting quiet, of sitting and lying idle, of sitting down and lying, of leading a sedentary life, of being settled` | 18:1 |
+| καταψύχω | `cool` | `cool, chill` | 18:4 |
+| κρίνω | `the one picking out` | `the one picking out and choosing, the one picking out for oneself and choosing, the one deciding, the one judging, the one adjudging, the one judging of and estimating, the one expounding and interpreting, the one determining, the one questioning, the one bringing to trial and accusing, the one passing sentence upon and condemning` | 18:25 |
+| κρίσις | `a separating` | `a separating and power of distinguishing, choice and selection, a decision and judgment, means of judging, a trial, the result of a trial and condemnation, a dispute, the event and issue` | 18:19, 18:25 |
+| κραυγή | `a crying` | `a crying, screaming, shrieking, shouting` | 18:20 |
+| κραυγή | `the crying` | `the crying, the screaming, the shrieking, the shouting` | 18:21 |
+| κρύπτω | `I may hide` | `I may hide, I may cover and cloak, I may conceal and keep secret` | 18:17 |
+| λέγω | `you have said` | `you have said and it stands said, you have spoken and it stands spoken, you have declared and it stands declared, you have called by name and it stands so, you have told and it stands told` | 18:5 |
+| λαλέω | `I may talk` | `I may talk, I may chat, I may prattle, I may babble, I may say, I may talk of, I may speak, I may chatter, I may chirp` | 18:30, 18:32 |
+| λαλέω | `to talk` | `to talk, to chat, to prattle, to babble, to say, to talk of, to speak, to chatter, to chirp` | 18:27, 18:29, 18:31 |
+| λαμβάνω | `let be taken` | `let be taken, let be received, let be taken hold of and grasped and seized` | 18:4 |
+| μέν | `on the one hand` | `on the one hand, on the other hand, as well as, while, whereas, indeed, for my part, surely, accordingly and so, at all events and at any rate, so then, nay rather, nay, yea rather, yet and but however and nevertheless, of course and certainly, only` | 18:12 |
+| μέτρον | `things by which anything is measured` | `things by which anything is measured, measures, rules, measures of content, measures and lengths and sizes, full measures, due measures, limits and proportions, metres, verses` | 18:6 |
+| μεσημβρία | `of mid-day` | `of mid-day, of noon, of the parts towards noon and the South` | 18:1 |
+| μηδαμῶς | `in no wise` | `in no wise, not at all` | 18:25 |
+| νίπτω | `let wash the hands` | `let wash the hands, let purge and cleanse, let wash off` | 18:4 |
+| οἶδα | `I knew` | `I knew, I was assured, I was versed in` | 18:19 |
+| οἶκος | `to the house` | `to the house, to the abode and dwelling, to the room and chamber, to the house of a god and temple, to the household goods and substance, to the household and family` | 18:19 |
+| παρά + dative | `beside` | `beside, alongside of, by, at, before, with` | 18:14 |
+| παρέρχομαι | `you may go by` | `you may go by, you may go beside, you may go past, you may pass by, you may pass, you may outstrip, you may outwit and escape and elude, you may arrive at, you may pass in, you may go into, you may pass without heeding, you may pass over and disregard and slight, you may overstep and transgress, you may pass unnoticed and escape the notice of, you may come forward` | 18:3 |
+| παρέρχομαι | `you will go by` | `you will go by, you will go beside, you will go past, you will pass by, you will pass, you will outstrip, you will outwit and escape and elude, you will arrive at, you will pass in, you will go into, you will pass without heeding, you will pass over and disregard and slight, you will overstep and transgress, you will pass unnoticed and escape the notice of, you will come forward` | 18:5 |
+| παρίστημι | `had stood by` | `had stood by and beside and near, had helped and defended, had come and been at hand and been present, had been near and at hand, had come to the side of and come over to, had come to terms and surrendered and submitted, had happened, had come into his head and occurred to` | 18:8 |
+| παρατίθημι | `placed beside` | `placed beside, set before and served up, offered and provided, placed upon, laid before and explained, compared` | 18:8 |
+| παύω | `took his rest` | `took his rest, rested and ceased and had done, left off from and rested and ceased from, was at rest, left off doing` | 18:33 |
+| παῖς | `of the child` | `of the child, of the son, of the daughter, of the grandchild, of the boy and youth and lad, of the girl and maiden, of the slave and servant and man and maid` | 18:17 |
+| παῖς | `the child` | `the child, the son, the daughter, the grandchild, the boy and youth and lad, the girl and maiden, the slave and servant and man and maid` | 18:3, 18:5 |
+| παῖς | `to the child` | `to the child, to the son, to the daughter, to the grandchild, to the boy and youth and lad, to the girl and maiden, to the slave and servant and man and maid` | 18:7 |
+| πληθύνω | `has been made full` | `has been made full and stands so, has been increased and stands so, has been multiplied and stands so, has been in the majority and remains so, has prevailed and stands so` | 18:20 |
+| ποιέω | `I make` | `I make, I do, I produce, I create` | 18:17 |
+| πολύς | `much` | `much and mighty and great, many, deep, loud, strong, large and wide, far, long, often` | 18:18 |
+| πούς | `the feet` | `the feet, the talons, the feet of a hill` | 18:4 |
+| πρεσβύτερος | `elder` | `elder, older, higher and more important, greater than, an elder of the Jewish Council, an elder of the Church and presbyter` | 18:12 |
+| πρεσβύτερος | `elder` | `elder, older, higher and more important, greater than, elders of the Jewish Council, elders of the Church and presbyters` | 18:11 |
+| προβαίνω | `having stepped on` | `having stepped on and standing so, having stepped forward and standing so, having advanced and standing so, having proceeded and standing so, having gone before and standing so, having been before and superior to and remaining so, having overstepped and standing so` | 18:11 |
+| προσκυνέω | `made obeisance` | `made obeisance, fell down and worshipped, worshipped, adored, did reverence to, made the salam, prostrated himself before` | 18:2 |
+| προστρέχω | `ran to` | `ran to, ran towards and came to, ran up, ran at and made a sally` | 18:2 |
+| πόλις, with ἐν | `in the city` | `within, inside of, and by means of the city, the citadel, the country, the body of citizens, the state` | 18:24, 18:26 |
+| σκηνή | `of the covered place` | `of the covered place, of the tent, of the camp, of the dwelling-place, of the temple` | 18:1, 18:2, 18:10 |
+| σκηνή, with ἐν | `in the covered place` | `within, inside of, and by means of the covered place, the tent, the camp, the dwelling-place, the temple` | 18:9 |
+| σπεύδω | `set a-going` | `set a-going, urge on, hasten, quicken, seek eagerly and strive after, promote zealously and press, press on and hasten and exert yourself and strive eagerly, be eager to do, be anxious that` | 18:6 |
+| σπεύδω | `set a-going` | `set a-going, urged on, hastened, quickened, sought eagerly and strove after, promoted zealously and pressed, pressed on and hastened and exerted himself and strove eagerly, was eager to do, was anxious that` | 18:6 |
+| σποδός | `wood-ashes` | `wood-ashes, embers, ashes, dust` | 18:27 |
+| συμπορεύομαι | `was going` | `was going, was journeying together, was coming together` | 18:16 |
+| συναπόλλυμι | `you may destroy together` | `you may destroy together, you may lose` | 18:23 |
+| συντάσσω | `will put in order together` | `will put in order together, will draw up and put in array, will arrange and organise, will concoct, will fix and assess, will ordain and prescribe` | 18:19 |
+| συντελέω | `are being brought quite to an end` | `are being brought quite to an end, are being completed, are being accomplished, are being made up into the whole and into the number` | 18:21 |
+| τίκτω | `I will bring into the world` | `I will bring into the world, I will bring forth, I will bear, I will produce` | 18:13 |
+| ταχύνω | `made quickly` | `made quickly, was quick, made haste, sped, hurried` | 18:7 |
+| τρέχω | `ran` | `ran, moved quickly, ran over, ran the risk` | 18:7 |
+| φοβέομαι | `was put to flight` | `was put to flight, fled affrighted, fled, was seized with fear, was affrighted, feared` | 18:15 |
+| φυλάσσω | `they will keep watch and ward` | `they will keep watch and ward, they will keep guard, they will watch and guard and keep and defend` | 18:19 |
+| φυράω | `mix` | `mix, knead, make up` | 18:6 |
+| ἀδυνατέω | `wants strength` | `wants strength, is unable, is impossible` | 18:14 |
+| ἀληθῶς | `truly` | `truly, really and actually and in reality` | 18:13 |
+| ἀνήρ | `men` | `men, men in the prime of life` | 18:2 |
+| ἀνίημι | `you will send up` | `you will send up and forth, you will make spring up, you will produce, you will send back and put back and open, you will let go and leave, you will let go unpunished, you will let loose at, you will set on and urge, you will let go for, you will set free from, you will let and allow, you will let go free and leave untilled, you will slacken and relax and let down and unstring, you will remit and neglect and give up, you will slacken and abate, you will give way, you will give up and cease, you will cease from` | 18:24 |
+| ἀναστρέφω | `I will turn upside down` | `I will turn upside down, I will upset, I will turn back and bring back, I will rally, I will turn back and return and retire, I will dwell, I will conduct myself, I will revolve, I will face about` | 18:14 |
+| ἀπέρχομαι | `went away` | `went away, departed from, departed, departed from life` | 18:33 |
+| ἀποκρίνομαι | `having given answer to` | `having given answer to, having replied, having answered, having answered charges and defended himself` | 18:27 |
+| ἀποκρίνομαι | `the one having given answer to` | `the one having given answer to, having replied, having answered, having answered charges and defended himself` | 18:9 |
+| ἀποκτείνω | `to kill` | `to kill, to slay, to condemn to death` | 18:25 |
+| ἀποστρέφω | `having turned` | `having turned, having turned back, having turned away, having turned oneself about, having brought back` | 18:22 |
+| ἀποστρέφω | `turned` | `turned, turned back, turned away, turned himself about, brought back` | 18:33 |
+| ἀπόλλυμι | `I may destroy utterly` | `I may destroy utterly, I may kill, I may slay, I may destroy and demolish and waste, I may talk and bore to death, I may lose utterly` | 18:28, 18:29, 18:30, 18:31, 18:32 |
+| ἀπόλλυμι | `you will destroy utterly` | `you will destroy utterly, you will kill, you will slay, you will destroy and demolish and waste, you will talk and bore to death, you will lose utterly` | 18:24, 18:28 |
+| ἀρνέομαι | `denied` | `denied, disowned, declined to give and refused, said no and declined and refused` | 18:15 |
+| ἀσεβής | `of ungodly` | `of ungodly, of godless, of unholy, of profane` | 18:23, 18:25 |
+| ἀσεβής | `the ungodly` | `the ungodly, the godless, the unholy, the profane` | 18:23, 18:25 |
+| ἀφίημι | `I will send forth` | `I will send forth, I will discharge, I will send away and let go, I will set free, I will release` | 18:26 |
+| ἁπαλός | `soft to the touch` | `soft to the touch, tender, fresh, soft and gentle, soft and delicate` | 18:7 |
+| ἄρα, ἆρα | `then` | `then, straightway, at once, next in order, mark ye, for, just and very, then and therefore, so then` | 18:3, 18:13 |
+| ἄρτος | `a cake` | `a cake, a loaf of wheat-bread, bread` | 18:5 |
+| ἄρχω | `I began` | `I began, I made a beginning, I made a beginning of, I began from` | 18:27 |
+| ἅπαξ | `once` | `once, once only, once for all` | 18:32 |
+| ἐγγίζω | `having brought near` | `having brought near, having brought up to, having approached, having been imminent, having approximated to, having been next of kin, having been on the point of` | 18:23 |
+| ἐκκλίνω | `you bent out of the regular line` | `you bent out of the regular line, you turned away and gave ground and retired, you avoided and shunned, you turned aside towards` | 18:5 |
+| ἐξανίστημι | `having stood up from one's seat` | `having stood up from one's seat, having risen, having arisen and departed from and emigrated from, having broken up and departed, having been driven out, having been forced to emigrate, having been depopulated` | 18:16 |
+| ἐπάγω | `may bring on` | `may bring on, may bring upon, may set on and urge on, may lead on, may bring in and invite, may bring to, may lay on and apply, may bring forward, may add` | 18:19 |
+| ἐπαναστρέφω | `turning back upon` | `turning back upon, wheeling round, returning to the charge` | 18:10 |
+| ἔρχομαι | `coming` | `coming, going, going back and returning, going to and intending, coming within a little of and being near` | 18:21 |
+| ἔχω | `I have` | `I have, I hold, I possess, I keep, I hold fast, I bear up against and support` | 18:31 |
+| ἔχω | `will have` | `will have, will hold, will possess, will keep, will hold fast, will bear up against and support` | 18:10 |
+| ἥκω | `I will have come` | `I will have come, I will be present, I will be here, I will have returned, I will have reached a point` | 18:10 |
+| ἵστημι | `had been set` | `had been set and stood so, had been placed, had stood, had been there, had been in a state and condition, had lain and been situated, had stood still and stopped and halted, had stood idle, had stopped and ceased and been at rest, had stood firm, had stood up and risen up, had arisen and begun` | 18:2 |
+| ἵστημι | `having been set` | `having been set and standing so, having been placed, having stood, having been there, having been in a state and condition, having lain and been situated, having stood still and stopped and halted, having stood idle, having stopped and ceased and been at rest, having stood firm, having stood up and risen up, having arisen and begun` | 18:22 |
+| ὁδός | `the ways` | `the ways, the paths, the tracks, the roads, the highways, the courses, the journeys, the manners and methods` | 18:19 |
+| ὄπισθεν | `behind` | `behind, at the back, the rear and back, back and backwards, in future and hereafter, following` | 18:10 |
+| ὥρα | `periods` | `periods, parts of the year and seasons, springs, summers, winters, primes of the year and springtimes, parts of the year available for war and summer-seasons, years, quarters of the heavens, parts of the day, times of day, twenty-four hours, twelve parts, times and seasons, primes of life and youths and early manhoods, fruits of the year, Hours` | 18:10, 18:14 |
+| ῥῆμα | `that which is said` | `that which is said and spoken, the word, the saying, the phrase, the subject of speech and the thing, the verb` | 18:25 |
 
 ### Words new in GEN 17
 

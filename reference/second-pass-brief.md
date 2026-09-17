@@ -182,6 +182,14 @@ face*, since the name repeats Hagar's ἐνώπιον εἶδον of 16:13, and 
 Nothing: the two passes agreed on all 583 words, once the elision mark was written U+02BC in
 both, as the brief asks.
 
+### What it found in Genesis 18
+
+Seven disagreements over 649 words. The second pass was right that the second Σαρρα at 18:11 is
+the nominative subject of ἐξέλιπεν — Genesis marks her dative with the article, τῇ Σαρρα (18:14) —
+and that πρεσβύτερος carries degree `C`; the lemma stays πρεσβύτερος, as MorphGNT files it. The
+first pass's Μαμβρη at 18:1 stays the place, `GS--`, as at 13:18; μέν and ἆρα stay `C-`, as MorphGNT
+mostly has them; and μή before συναπολέσῃς at 18:23 stays `D-`.
+
 ## The brief
 
 Copy everything below the rule into a new agent. Replace `<BOOK NAME>`, `<CHAPTER>`,
