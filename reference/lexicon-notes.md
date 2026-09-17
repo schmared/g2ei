@@ -51,7 +51,8 @@ consulted.
    ἀνέστη is *stood up* and GEN 9:9 ἀνίστημι *I make to stand up*. Where one lemma is used both
    ways, the word-by-word layer cannot skip by lemma alone: `FORM_SENSES` in `build/words.py`
    names the senses to skip for a given tense and voice, in place of `NOT_SENSES`. ἐπιτίθημι's
-   middle, *B. Mid. to put on oneself*, is filed there the same way for GEN 9:23 ἐπέθεντο. A sense restricted only by *subject* or *construction* is not: the
+   middle, *B. Mid. to put on oneself*, is filed there the same way for GEN 9:23 ἐπέθεντο, and
+   παύω's, *to take one's rest*, for GEN 11:8 ἐπαύσαντο. A sense restricted only by *subject* or *construction* is not: the
    rule reads the lexicon, not the verse. So συλλαμβάνω is *having collected* at GEN 4:1,
    though its fourth sense, "of females, to conceive", is what the verse means; ἄρχω with the
    genitive is *will begin* at 4:7, though *to rule* is its second sense; and πρόβατον is
@@ -88,6 +89,7 @@ what the word means, only which entry is the word, and every case is listed here
 | λέγω (GEN 2:16) | `le/gw3` — *to say, speak* | `le/gw1` is *to lull to sleep*, `le/gw2` *to gather* |
 | οὐ (GEN 2:5) | `ou)8` — *not* | the other seventeen gloss idioms, οὐ γάρ, οὐ μήν … |
 | ὁδός (GEN 3:24) | `o(do/s2` — *a way, path* | `o(do/s1` is the Attic ὀδός for οὐδός, *a threshold* |
+| στεῖρα (GEN 11:30) | `stei=ra2` — *a cow that has not calved*; *barren* | `stei=ra1` is *a ship's keel* |
 
 A lemma belongs there only where the entries are genuinely different words. A word with one
 entry and several senses is not a homograph: its first numbered sense stands, however far
@@ -121,6 +123,7 @@ Three reasons, and all of them are the lexicon's filing rather than a decision a
 | μιμνήσκομαι (GEN 8:1) | μιμνήσκω | MorphGNT's middle, filed under the active |
 | διατίθεμαι (GEN 9:17) | διατίθημι | likewise |
 | κυνηγός (GEN 10:9) | κυναγός | the entry is headed with the Doric and Attic spelling |
+| πλησίον, ἐνώπιον (GEN 11:3, 11:28) | πλησίος, ἐνώπιος | the adverb, filed inside the adjective's entry |
 
 The dictionary form itself does not follow the lexicon's filing: it keeps the spelling the text
 prints — γίνομαι, ἔχθρα, νοσσιά, δειλινός, κατέναντι, ἐννακόσιοι, κατάγαιος, τεσσαράκοντα — and
@@ -548,6 +551,26 @@ the same ground as `the sixth` and `the seventh`: one sense each, so no range to
   settling in` (10:30); δύο `two`; υἱός `sons`.
 - The article before a people's name (τοὺς Λουδιιμ, τὸν Χετταῖον, τῶν Χαναναίων) is not printed,
   as before a person's name.
+
+### Small words new in GEN 11
+
+- δεῦτε — **headword** `hither`; **chain** `hither, come on, come here`: one sense holding three
+  glosses, a unit as ἐμφυσάω's was. 11:3, 11:4, 11:7.
+- πλησίον with the article, *the neighbour* — **headword** `to the neighbour` · `of the neighbour`,
+  the first noun sense inside πλησίος; **chain** `to the neighbour, to the one near and close to and
+  neighbouring, to the one nigh and hard by, to one's neighbour`, in the case. 11:3, 11:7.
+- ἐνώπιον — `face to face`, plain: the one translation ἐνώπιος is given; the preposition, *like
+  Lat. coram*, has none. 11:28.
+- νῦν — **headword** `now`; **chain** `now, even now, just now`, as at 2:23. 11:6.
+- ἵνα — `that`, the chain of 3:3; ὅτε — `when`, the chain of 2:4. 11:7, 11:10.
+- οὗ, *whose* (11:4) — `of which`, plain, as other relatives.
+- ᾗ with no preposition (11:28) — `in which`, plain, as at 5:1.
+- One sense each in GEN 11, so plain text: πλίνθος `bricks`, `the brick` (11:3); τεκνοποιέω `was
+  bearing children`, the active's one sense (11:30); ἐνώπιον `face to face` (11:28); θυγάτηρ
+  `daughter`; the numerals and `years`; δεύτερος `second` (11:10), with no article, as the Greek
+  has none.
+- The short imperfect, `was, and kept on being,`, at 11:1, where the full formula's *one* would
+  stand beside εἷς's headword.
 
 ---
 
@@ -1262,6 +1285,32 @@ waters* is refused by `validate.py` here as there.
 | κατοικέω | aor. impv. 3 sg | `let dwell in` | `let dwell in, let settle in, let colonise, let inhabit, let settle and dwell, let lie and be situate` — the first translation reads *to dwell in as a* κάτοικος; the headword stops before the Greek | 9:27 |
 | γίνομαι | aor. pass. impv. 3 sg / aor. 3 pl | `let come into being` · `came into being` | `let come to be, let arise, let be brought into existence`; the chain of GEN 5:5 | 9:27, 9:29 |
 | ζάω | aor. 3 sg / pres. ptcp. | `lived` · `living` | the chains of GEN 5:3 and 2:7, in the form | 9:3, 9:10, 9:12, 9:28 |
+
+### Verbs new in GEN 11
+
+| lemma | form | headword | chain | used |
+| --- | --- | --- | --- | --- |
+| κινέω | aor. inf., articular with ἐν | `in the setting in motion` | `within, inside of, and by means of the setting in motion, the moving, the removing, the meddling with, the applying, the changing and innovating, the rousing and disturbing, the stirring up and arousing and urging on, the setting agoing and causing and calling forth` — the actives | 11:2 |
+| εὑρίσκω | aor. 3 pl | `found` | the chain of GEN 6:8 | 11:2 |
+| κατοικέω | aor. 3 pl and 3 sg | `dwelt in` | `dwelt in, settled in, colonised, inhabited, settled and dwelt, lay and were situate`, in the number — the chain of GEN 9:27 | 11:2, 11:31 |
+| πλινθεύω | aor. subj. 1 pl | `let us make into bricks` | `let us make into bricks, let us make bricks, let us build of brick, let us make in the form of a plinth or brick` | 11:3 |
+| ὀπτάω | aor. subj. 1 pl | `let us roast` | `let us roast, let us broil, let us bake, let us bake and burn, let us bake and harden` | 11:3 |
+| οἰκοδομέω | aor. subj. 1 pl · aor. 3 pl · pres. ptcp. pl. | `let us build a house` · `built a house` · `building a house` | the chain of GEN 2:22, in the form | 11:4, 11:5, 11:8 |
+| ποιέω | aor. subj. 1 pl · aor. and pres. inf. | `let us make` · `to make` | `let us make, let us do, let us produce, let us create`; the chain of GEN 2:3 | 11:4, 11:6 |
+| διασπείρω | aor. pass. inf. · aor. 3 sg | `to be scattered abroad` · `scattered abroad` | the chain of GEN 9:19, in the form | 11:4, 11:8, 11:9 |
+| καταβαίνω | aor. 3 sg · aor. ptcp. pl. | `stepped down` · `having stepped down` | `stepped down, went and came down, went down from, dismounted, came down stairs, went down from the inland parts to the sea, came to land and got safe ashore, went down into the arena, came down from the tribune, came to, ended`, in the form | 11:5, 11:7 |
+| ἐκλείπω | fut. 3 sg | `will leave out` | the chain of GEN 8:13, in the future | 11:6 |
+| ἐπιτίθημι | aor. mid. subj. 3 pl | `they may put on themselves` | the chain of GEN 9:23, in the subjunctive | 11:6 |
+| συγχέω | aor. subj. 1 pl · aor. 3 sg | `let us pour together` · `poured together` | `let us pour together, let us commingle, let us confound, let us make ruinous and destroy and obliterate and demolish, let us confound and trouble, let us confound and make of none effect and frustrate`, in the form — the passive's *to be in confusion* left out | 11:7, 11:9 |
+| ἀκούω | aor. subj. 3 pl | `they may hear` | `they may hear, they may have hearing of, they may hear tell of, they may know by hearsay, they may hearken and give ear, they may listen to and obey` | 11:7 |
+| παύω | aor. mid. 3 pl | `took their rest` | `took their rest, rested and ceased and had done, left off from and rested and ceased from, were at rest, left off doing` — the entry's *Pass. and Mid.*; the causal actives left out | 11:8 |
+| καλέω | aor. pass. 3 sg | `was called` | `was called, was summoned, was invited` — the chain of GEN 2:23, in the aorist | 11:9 |
+| γίνομαι | aor. 3 sg, no subject · aor. 3 sg and 3 pl · aor. pass. 3 sg | `came into being` | the chains of JHN 1:6 and GEN 5:5, in the form | 11:2, 11:3, 11:28, 11:32 |
+| ζάω, γεννάω, ἀποθνήσκω | the frame of GEN 5 | `lived` · `begot` · `to beget` · `died off` | the chains of GEN 5 | 11:11–32 |
+| λαμβάνω | aor. 3 pl and 3 sg | `took` | the chain of GEN 2:15 | 11:29, 11:31 |
+| ἐξάγω | aor. 3 sg | `led out` | the chain of GEN 8:17, in the aorist | 11:31 |
+| πορεύομαι | aor. pass. inf. | `to be driven` | the chain of GEN 2:14, in the infinitive | 11:31 |
+| ἔρχομαι | aor. 3 sg | `came` | `came, went, went back and returned, was going to and intended, came within a little of and was near` — the chain of GEN 10:19 | 11:31 |
 
 ### Verbs new in GEN 10
 
@@ -2031,6 +2080,31 @@ it is a child; τρίβολος is a spiked iron for laming horses before it is 
 | παῖς | `a child` | `a child, a son, a daughter, a grandchild, a boy and youth and lad, a girl and maiden, a slave and servant and man and maid` — *a slave, servant* is sense III, *in relation to condition* | 9:25, 9:26, 9:27 |
 | οἰκέτης | `a house-slave` | `a house-slave, a menial` | 9:25 |
 
+### Nouns and adjectives new in GEN 11
+
+| lemma | headword | chain | used |
+| --- | --- | --- | --- |
+| χεῖλος | `lip` · `the lips` | `lip, bill and beak, edge and brink and brim and rim`, in the number — *lip-service* and *with the lips*, pieces of proverbs, left out | 11:1, 11:6, 11:9 |
+| εἷς (n.) | `one` | the chain of GEN 2:21 | 11:1, 11:6 |
+| φωνή | `sound` · `the sound` | the chain of GEN 4:10, with and without the article | 11:1, 11:7 |
+| πεδίον | `a plain` | the chain of GEN 4:8, without the article | 11:2 |
+| πῦρ | `with fire` | `with fire, with the funeral-fire, with the fire of the hearth` — the entry's *symbol of things irresistible or terrible* left out | 11:3 |
+| λίθος | `a stone` | `a stone, a precious stone, marble` | 11:3 |
+| ἄσφαλτος | `asphalt` | `asphalt, bitumen` — the chain of GEN 6:14 | 11:3 |
+| πηλός | `the clay` | `the clay, the earth, the mud, the mire` | 11:3 |
+| πόλις | `a city` · `the city` | the chain of GEN 4:17 | 11:4, 11:5, 11:8 |
+| πύργος | `a tower` · `the tower` | `a tower, the city walls with towers, a movable tower for storming, a tower of defence, the highest part of any building, troops drawn up in close order and a column`, with and without the article | 11:4, 11:5, 11:8 |
+| κεφαλή | `the head` | the chain of GEN 3:15, with the article | 11:4 |
+| πρόσωπον | `of face` · `face` | the chain of GEN 3:8, anarthrous | 11:4, 11:8, 11:9 |
+| γένος | `race` | the chain of GEN 6:20 | 11:6 |
+| γλῶσσα | `the tongue` | the chain of GEN 10:5, with the article | 11:7 |
+| ὄνομα | `the name` · `a name` | the chains of GEN 3:20 and 2:11 | 11:4, 11:9, 11:29 |
+| χώρα | `in the space in which a thing is` · `of the space …` | the chain of GEN 10:20, in the singular | 11:28, 11:31 |
+| γυνή | `women` · `to the woman` · `a woman` | the chains of GEN 4:19 and 2:22, in the form | 11:29, 11:31 |
+| πατήρ | `of the father` · `father` | the chains of GEN 9:22 and 9:18 | 11:28, 11:29 |
+| στεῖρα | `a cow that has not calved` | `a cow that has not calved, barren` — *barren*, of a woman, is the entry's second translation, citing the New Testament | 11:30 |
+| νύμφη | `the young wife` | `the young wife and bride, the married woman, the marriageable maiden, the nymph, the chrysalis and pupa` — *daughter-in-law*, the verse's sense, is sense 4, untagged | 11:31 |
+
 ### Nouns and adjectives new in GEN 10
 
 | lemma | headword | chain | used |
@@ -2125,6 +2199,23 @@ Gloss on first occurrence per chapter, bare thereafter.
 | Ιαφεθ | Iapheth | Japheth | `(Ιαφεθ, from Hebrew Yepet, which 9:27 ties to pātâ, "to make wide")` |
 | Χανααν | Chanaan | Canaan | `(Χανααν, from Hebrew Kĕnaʿan, of uncertain meaning)` |
 | GEN 10 | | | ninety-one names, their glosses in `data/GEN/10.json`; the anchored forms are the English Bible's, and Κίτιοι, Ῥόδιοι are *Citians*, *Rhodians* |
+| Σύγχυσις | Synchysis | Confusion | `(Σύγχυσις, "a commixture, confusion", for Hebrew Bābel, which the verse ties to bālal, "to confuse")` |
+| Ραγαυ | Ragau | Reu | `(Ραγαυ, from Hebrew Rĕʿû, usually connected with rēaʿ, "friend")` |
+| Σερουχ | Serouch | Serug | `(Σερουχ, from Hebrew Śĕrûg, of uncertain meaning)` |
+| Ναχωρ | Nachōr | Nahor | `(Ναχωρ, from Hebrew Nāḥôr, of uncertain meaning)` |
+| Θαρα | Thara | Terah | `(Θαρα, from Hebrew Teraḥ, of uncertain meaning)` |
+| Αβραμ | Abram | Abram | `(Αβραμ, from Hebrew ʾAbrām, "the father is exalted")` |
+| Αρραν | Arran | Haran | `(Αρραν, from Hebrew Hārān, of uncertain meaning)` |
+| Λωτ | Lōt | Lot | `(Λωτ, from Hebrew Lôṭ, of uncertain meaning)` |
+| Χαλδαίων | Chaldaiōn | Chaldeans | `(Χαλδαῖος, the Greek name of Hebrew Kaśdîm)` |
+| Σαρα, Σαραν | Sara, Saran | Sarai | `(Σαρα, from Hebrew Śāray, usually connected with śārâ, "princess")` — bare in the accusative |
+| Μελχα | Melcha | Milcah | `(Μελχα, from Hebrew Milkâ, usually connected with malkâ, "queen")` |
+| Ιεσχα | Iescha | Iscah | `(Ιεσχα, from Hebrew Yiskâ, of uncertain meaning)` |
+| Χαρραν | Charran | Haran | `(Χαρραν, from Hebrew Ḥārān, the city Harran)` |
+
+Σύγχυσις translates the name where 10:10 gave the city its Greek name, Βαβυλών; as with Ζωή at
+3:20, the anchored form is the English of the name the Greek prints, *Confusion*. Αρραν the man
+(*Hārān*) and Χαρραν the city (*Ḥārān*) are both *Haran* in English, and two names in Greek.
 
 A name glossed again in a later chapter keeps its gloss, unless the gloss spoke of the verse it
 stood in: Σηθ's *which the verse ties* becomes *which 4:25 ties*. Μαθουσαλα at GEN 5 is glossed

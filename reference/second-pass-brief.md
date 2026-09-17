@@ -129,6 +129,14 @@ diff forgives: πρωτότοκον at 10:15 is two-termination, `C`, where the 
 The reference module could not be read for this chapter at first: its code for Μεσραιμ holds a
 space (`lxx.N.N M`), and `validate.py` split the verse on spaces. It now finds each word by its tags.
 
+### What it found in Genesis 11
+
+Nothing: the two passes agreed on all 599 words, exactly, with the chapter's new small words —
+δεῦτε, πλησίον after the article, ἐνώπιον, οὗ as *whose* — the MorphGNT forms of the names of Luke
+3:34–36, and στεῖρα's filing added beforehand. Both read the two forms that are one spelling for two
+tenses, συγχέωμεν and συνέχεεν, as aorists, where the reference module has a present and an
+imperfect.
+
 ## The brief
 
 Copy everything below the rule into a new agent. Replace `<BOOK NAME>`, `<CHAPTER>`,
@@ -180,12 +188,14 @@ Small words are tagged as MorphGNT tags them:
   has no genitive to govern
 - **X-** ἄν; ἐάν where it stands for ἄν after a relative (`ὃ ἐὰν θέλητε`, John 15:7); ἰδού;
   μή opening a question that expects *no*
-- **D-** οὐ, μή, νῦν, ἔτι, ἐκεῖ, ἐκεῖθεν, ποῦ; καί meaning *also, even*, and the καί of `καὶ γάρ`
-  (all 38 times in MorphGNT); ὅθεν meaning *from where* (Matt 12:44); οὐδέ meaning *not even*; ὅτε after a noun of time (`ἔρχεται ὥρα
-  ὅτε`, John 4:21); οὗ meaning *where*; ἐπάνω, ἔξωθεν and ἔξω with no genitive after them
-  (1 Cor 15:6)
+- **D-** οὐ, μή, νῦν, ἔτι, ἐκεῖ, ἐκεῖθεν, ποῦ, δεῦτε; καί meaning *also, even*, and the καί of
+  `καὶ γάρ` (all 38 times in MorphGNT); ὅθεν meaning *from where* (Matt 12:44); οὐδέ meaning *not
+  even*; ὅτε after a noun of time (`ἔρχεται ὥρα ὅτε`, John 4:21); οὗ meaning *where* (οὗ meaning
+  *whose, of which* is the relative, `RR`); ἐπάνω, ἔξωθεν and ἔξω with no genitive after them
+  (1 Cor 15:6); πλησίον, *near*, even after the article, *the neighbour* (`τὸν πλησίον`, Matt
+  19:19), where the article takes the case and gender of the person meant
 - **P-** ἀντί; a word governing a genitive as a preposition does — ἐπάνω, ἀπέναντι, ἀνά, ἐναντίον,
-  ὑποκάτω, ὀπίσω, and ἔξωθεν with a genitive (Mark 7:15) — and ἕως
+  ἐνώπιον, ὑποκάτω, ὀπίσω, and ἔξωθεν with a genitive (Mark 7:15) — and ἕως
   governing a genitive, an articular infinitive included
 
 ## Parse (column 3) — exactly 8 characters
@@ -233,7 +243,8 @@ Conventions:
 - An indeclinable common noun takes its gender from the article or adjective beside it.
 - An article before an indeclinable name still carries full case, number and gender.
 - An adjective used as a noun stays `A-`: ἡ ξηρά, *the dry land*, is `A- ----NSF- ξηρός`, as
-  MorphGNT codes it.
+  MorphGNT codes it. στεῖρα, *barren*, is `A-` under its own dictionary form, στεῖρα, as MorphGNT and
+  Middle Liddell both file it.
 - μέσος with a genitive after it — `ἐν μέσῳ τοῦ …`, `ἀνὰ μέσον τοῦ …` — is the neuter
   adjective used as a noun: `A- ----DSN-`, `A- ----ASN-`.
 - A word of address is vocative, case `V`.
@@ -279,9 +290,11 @@ The dictionary form as Middle Liddell (Perseus) files it:
 - Proper names: a name the New Testament also uses, of a person or a place, takes MorphGNT's
   dictionary form, accented though Rahlfs prints it bare — Ἀδάμ, Εὕα, Κάϊν, Ἅβελ, Σήθ, Ἐνώς,
   Ἑνώχ, Μαθουσαλά, Λάμεχ, Μαλελεήλ, Νῶε, Σήμ, Χανάαν, Μαγώγ, Ἀρφαξάδ, Σαλά, Ἔβερ, Φάλεκ, Ἀράμ,
-  and the declined Σιδών, Γάζα, Βαβυλών, Σόδομα, Γόμορρα so far — even where the New Testament
+  Ῥαγαύ, Σερούχ, Ναχώρ, Θάρα, Λώτ, Χαρράν, and the declined Σιδών, Γάζα, Βαβυλών, Σόδομα,
+  Γόμορρα and Χαλδαῖος so far — even where the New Testament
   uses it of another bearer (Χανάαν the land, Acts 7:11; Μαγώγ a people, Rev 20:8). Where the New
-  Testament spells the name with other letters (Luke 3:36–37 Καϊνάμ, Ἰάρετ), it is not the same
+  Testament spells the name with other letters (Luke 3:36–37 Καϊνάμ, Ἰάρετ; Ἀβραάμ and Σάρρα for
+  the Αβραμ and Σαρα Rahlfs prints), it is not the same
   dictionary form; a breathing or accent is not a letter. Every other Semitic name, of a person or
   a place, exactly as printed, unaccented (Εδεμ, Φισων, Ναιδ), and in the nominative where it is
   declined. Greek names in the nominative singular (Αἰθιοπία, Τίγρις, Ἀσσύριος, Εὐφράτης,

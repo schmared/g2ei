@@ -827,12 +827,27 @@ PUNCT = re.compile(r"[.,;:·!?—·]")
 ELISION = dict.fromkeys(map(ord, "’᾿᾽ʼ'"), "ʼ")
 
 
+def sentence_starts(greek):
+    """For each word of a verse, whether it opens a sentence — by the rule proper_names
+    uses, so the two checks agree on which capitals need no reason. Punctuation standing
+    alone (Rahlfs's section dash) is not a word."""
+    out, initial = [], True
+    for word in greek.split():
+        if not PUNCT.sub("", word):
+            continue
+        out.append(initial)
+        initial = word[-1] in SENTENCE_END
+    return out
+
+
 def same_form(module, data, initial=False, speech=()):
     """One word of the module against the same word of the transcription.
 
     A capital the printed page has a reason for is not a discrepancy: the head of a
-    verse, or a word opening direct speech, which the verse lists in `speech` — the
-    same field check_names reads. Any other capital is a real difference and fails.
+    sentence — the verse's own, or one inside it, as where Rahlfs opens a paragraph with
+    no verse number of its own (GEN 11:13) — or a word opening direct speech, which the
+    verse lists in `speech`, the same field check_names reads. Any other capital is a
+    real difference and fails.
     """
     a, b = module.translate(ELISION), data.translate(ELISION)
     if a == b:
@@ -916,8 +931,9 @@ def check_greek(book, chapter, verses, rep):
                      "%d words in the data, %d in Rahlfs" % (len(got), len(want)))
             continue
         speech = {nfc(w) for w in verse.get("speech", [])}
+        starts = sentence_starts(verse["greek"])
         for i, (a, b) in enumerate(zip(want, got)):
-            if not same_form(a, b, initial=(i == 0), speech=speech):
+            if not same_form(a, b, initial=starts[i], speech=speech):
                 rep.fail("greek", verse["ref"],
                          "word %d: Rahlfs %r / data %r" % (i + 1, a, b))
     rep.done("greek", "%d verses against the local module" % len(verses), before)

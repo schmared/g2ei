@@ -325,6 +325,18 @@ NOT_SENSES = {
     "glw=ssa": {"of talking", "word of mouth", "mere hearsay", "tongue"},  # pieces of phrases in examples
     "xw/ra": {"there", "in the position", "esteem, nullo loco haberi", "its place", "order"},  # pieces of examples
     "e)/rxomai": {"over", "across", "come and", "je vais dire)"},  # pieces of examples, and French
+    # GEN 11
+    "xei=los": {"with the lips", "the lips", '"lip-service, "'},  # pieces of proverbs
+    "pli/nqos": {"bricks", "to bake"},          # from "to make bricks", "to bake them"
+    "o)pta/w": {"to roast", "cooking by means of fire", "dry heat",  # a piece of an example, and the
+                "to boil in water"},            # note setting ὀπτᾶν against ἕψω
+    "pu=r": {"things irresistible", "terrible", "fire and water", "raged furiously"},  # the entry's
+                                                # description of a symbol, and pieces of examples
+    "phlo/s": {"lutum", "coenum"},              # Latin
+    "katabai/nw": {"came down", "she came down from", "is dismounted from", "come down from the loom?",
+                   "in the course of speaking", "he ended", "begging"},  # pieces of examples
+    "pu/rgos": {"a tower of defence from"},     # from "a tower of defence from deaths"
+    "nu/mfh": {"spring-", "sea-", "tree-", "mountain-", "meadow-", "rapture", "caught by the Nymphs"},
 }
 
 # An entry that divides its senses by tense and voice, so that which of them belong to a
@@ -350,6 +362,13 @@ FORM_SENSES = {
         "as a door", "before", "to put", "to, shut", "to put to, grant", "give besides",
         "to add, bring on", "to", "to impose", "inflict", "to dispatch", "to give",
         "in", "with assiduity"})],
+    # παύω opens "Causal, to make to cease", and marks its middle and passive senses "Pass. and
+    # Mid.": to take one's rest, to leave off from. GEN 11:8 ἐπαύσαντο is the middle.
+    "pau/w": [("PIFAXY", "MEP", {
+        "to make to cease", "to bring to an end, check, make an end of", "to make an end of, stop, abate",
+        "to let", "rest", "to annul", "to put", "down", "to make to rest, stop, hinder, keep back from",
+        "to depose", "from", "would make an end of", "to stop", "doing", "being", "from being",
+        "cease, leave off"})],
 }
 # The key the lexicon files a word under, where that is not the key the lemma itself
 # gives: a different spelling (Attic γίγνομαι for Koine γίνομαι), the active a deponent
@@ -386,6 +405,8 @@ SPELLING = {
     "mimnh/skomai": "mimnh/skw",    # MorphGNT's middle, filed under the active
     "diati/qemai": "diati/qhmi",    # likewise
     "kunhgo/s": "kunago/s",         # the entry is headed with the Doric and Attic κυναγός
+    "plhsi/on": "plhsi/os",         # the adverb, filed inside the adjective's entry
+    "e)nw/pion": "e)nw/pios",       # likewise
 }
 
 # Homographs where Perseus's *first* entry is a different word from the one the text
@@ -400,6 +421,7 @@ ENTRY = {
     "ou)": "ou)8",       # of eighteen entries, all but this one gloss an idiom (ou) ga/r,
                          # ou) mh/n …); ou)8 is the plain negative, "not", Lat. non
     "o(do/s": "o(do/s2",  # o(do/s1 is the attic ὀδός for οὐδός, "a threshold"; GEN 3:24 is the way
+    "stei=ra": "stei=ra2",  # stei=ra1 is a ship's keel; the barren woman of GEN 11:30 is the second
 }
 
 PUNCT = re.compile(r"[.,;:·!?—·]")

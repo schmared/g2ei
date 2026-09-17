@@ -1,0 +1,626 @@
+# Genesis 11 — morphology, one word per line.
+#
+# This is the project's own grammatical analysis of each form, written alongside the
+# transcription and not copied from any digital edition.
+#
+# Columns: verse, part of speech, parse, form, lemma — in MorphGNT's code scheme, so
+# the Old and New Testament layers read alike. The parse is eight places: person,
+# tense, voice, mood, case, number, gender, degree ("-" where it does not apply).
+#
+# Two codes go beyond MorphGNT, both to record only what the form itself says:
+#   voice  E  middle/passive — a tense in which the two share one form
+#   gender C  masculine/feminine — an adjective whose form does not distinguish them
+#
+# A trailing annotation records a deliberate difference and the reason for it:
+#   "# module …"  from the reference module, checked when LXX_RAHLFS_DIR is set
+#   "# corpus …"  from this project's own analysis of the same form elsewhere
+# A line may carry both. validate.py prints them as notes instead of failures — and
+# fails if the difference a note claims is not there, so they cannot go stale. The
+# analysis here is this project's own: the module is a reference, not an authority,
+# and the corpus is held to itself.
+#
+# Indeclinables take case and number from the syntax, as MorphGNT does, and gender
+# where there is one to take: a personal name, from the person; a numeral agreeing
+# with its noun; a common noun whose article shows it — but not an indeclinable place
+# name, which has none. A personal name the New Testament also uses takes MorphGNT's
+# dictionary form (Νῶε, Σήμ); every other Semitic name (Χαμ, Ιαφεθ), the form Rahlfs
+# prints.
+11:1 C- -------- Καὶ καί
+11:1 V- 3IAI-S-- ἦν εἰμί
+11:1 A- ----NSF- πᾶσα πᾶς
+11:1 RA ----NSF- ἡ ὁ
+11:1 N- ----NSF- γῆ γῆ
+11:1 N- ----NSN- χεῖλος χεῖλος
+11:1 A- ----NSN- ἕν εἷς
+11:1 C- -------- καὶ καί
+11:1 N- ----NSF- φωνὴ φωνή
+11:1 A- ----NSF- μία εἷς
+11:1 A- ----DPM- πᾶσιν πᾶς
+11:2 C- -------- καὶ καί
+11:2 V- 3AMI-S-- ἐγένετο γίνομαι
+11:2 P- -------- ἐν ἐν
+11:2 RA ----DSN- τῷ ὁ
+11:2 V- -AAN---- κινῆσαι κινέω
+11:2 RP ----APM- αὐτοὺς αὐτός
+11:2 P- -------- ἀπὸ ἀπό
+11:2 N- ----GPF- ἀνατολῶν ἀνατολή
+11:2 V- 3AAI-P-- εὗρον εὑρίσκω
+11:2 N- ----ASN- πεδίον πεδίον
+11:2 P- -------- ἐν ἐν
+11:2 N- ----DSF- γῇ γῆ
+11:2 N- ----GS-- Σεννααρ Σεννααρ  # module N.S, no case — the genitive after γῆ, as MorphGNT codes ἐν γῇ Χανάαν at Acts 13:19
+11:2 C- -------- καὶ καί
+11:2 V- 3AAI-P-- κατῴκησαν κατοικέω
+11:2 D- -------- ἐκεῖ ἐκεῖ
+11:3 C- -------- καὶ καί
+11:3 V- 3AAI-S-- εἶπεν λέγω  # module lemma ἔπω — λέγω keeps one dictionary form across both testaments
+11:3 N- ----NSM- ἄνθρωπος ἄνθρωπος
+11:3 RA ----DSM- τῷ ὁ
+11:3 D- -------- πλησίον πλησίον
+11:3 D- -------- Δεῦτε δεῦτε
+11:3 V- 1AAS-P-- πλινθεύσωμεν πλινθεύω
+11:3 N- ----APF- πλίνθους πλίνθος
+11:3 C- -------- καὶ καί
+11:3 V- 1AAS-P-- ὀπτήσωμεν ὀπτάω
+11:3 RP ----APF- αὐτὰς αὐτός
+11:3 N- ----DSN- πυρί πῦρ
+11:3 C- -------- καὶ καί
+11:3 V- 3AMI-S-- ἐγένετο γίνομαι
+11:3 RP ----DPM- αὐτοῖς αὐτός
+11:3 RA ----NSF- ἡ ὁ
+11:3 N- ----NSF- πλίνθος πλίνθος
+11:3 P- -------- εἰς εἰς
+11:3 N- ----ASM- λίθον λίθος
+11:3 C- -------- καὶ καί
+11:3 N- ----NSF- ἄσφαλτος ἄσφαλτος
+11:3 V- 3IAI-S-- ἦν εἰμί
+11:3 RP ----DPM- αὐτοῖς αὐτός
+11:3 RA ----NSM- ὁ ὁ
+11:3 N- ----NSM- πηλός πηλός
+11:4 C- -------- καὶ καί
+11:4 V- 3AAI-P-- εἶπαν λέγω  # module lemma ἔπω — λέγω keeps one dictionary form across both testaments
+11:4 D- -------- Δεῦτε δεῦτε
+11:4 V- 1AAS-P-- οἰκοδομήσωμεν οἰκοδομέω
+11:4 RP ----DPM- ἑαυτοῖς ἑαυτοῦ
+11:4 N- ----ASF- πόλιν πόλις
+11:4 C- -------- καὶ καί
+11:4 N- ----ASM- πύργον πύργος
+11:4 RR ----GSM- οὗ ὅς  # module lemma οὗ — ὅς, the relative pronoun, whose, with πύργον its antecedent
+11:4 RA ----NSF- ἡ ὁ
+11:4 N- ----NSF- κεφαλὴ κεφαλή
+11:4 V- 3FMI-S-- ἔσται εἰμί
+11:4 P- -------- ἕως ἕως
+11:4 RA ----GSM- τοῦ ὁ
+11:4 N- ----GSM- οὐρανοῦ οὐρανός
+11:4 C- -------- καὶ καί
+11:4 V- 1AAS-P-- ποιήσωμεν ποιέω
+11:4 RP ----DPM- ἑαυτοῖς ἑαυτοῦ
+11:4 N- ----ASN- ὄνομα ὄνομα
+11:4 P- -------- πρὸ πρό
+11:4 RA ----GSN- τοῦ ὁ
+11:4 V- -APN---- διασπαρῆναι διασπείρω
+11:4 P- -------- ἐπὶ ἐπί
+11:4 N- ----GSN- προσώπου πρόσωπον
+11:4 A- ----GSF- πάσης πᾶς
+11:4 RA ----GSF- τῆς ὁ
+11:4 N- ----GSF- γῆς γῆ
+11:5 C- -------- καὶ καί
+11:5 V- 3AAI-S-- κατέβη καταβαίνω
+11:5 N- ----NSM- κύριος κύριος
+11:5 V- -AAN---- ἰδεῖν ὁράω
+11:5 RA ----ASF- τὴν ὁ
+11:5 N- ----ASF- πόλιν πόλις
+11:5 C- -------- καὶ καί
+11:5 RA ----ASM- τὸν ὁ
+11:5 N- ----ASM- πύργον πύργος
+11:5 RR ----ASM- ὃν ὅς
+11:5 V- 3AAI-P-- ᾠκοδόμησαν οἰκοδομέω
+11:5 RA ----NPM- οἱ ὁ
+11:5 N- ----NPM- υἱοὶ υἱός
+11:5 RA ----GPM- τῶν ὁ
+11:5 N- ----GPM- ἀνθρώπων ἄνθρωπος
+11:6 C- -------- καὶ καί
+11:6 V- 3AAI-S-- εἶπεν λέγω  # module lemma ἔπω — λέγω keeps one dictionary form across both testaments
+11:6 N- ----NSM- κύριος κύριος
+11:6 X- -------- Ἰδοὺ ἰδού
+11:6 N- ----NSN- γένος γένος
+11:6 A- ----NSN- ἓν εἷς
+11:6 C- -------- καὶ καί
+11:6 N- ----NSN- χεῖλος χεῖλος
+11:6 A- ----NSN- ἓν εἷς
+11:6 A- ----GPM- πάντων πᾶς
+11:6 C- -------- καὶ καί
+11:6 RD ----ASN- τοῦτο οὗτος
+11:6 V- 3AMI-P-- ἤρξαντο ἄρχω
+11:6 V- -AAN---- ποιῆσαι ποιέω
+11:6 C- -------- καὶ καί
+11:6 D- -------- νῦν νῦν
+11:6 D- -------- οὐκ οὐ
+11:6 V- 3FAI-S-- ἐκλείψει ἐκλείπω
+11:6 P- -------- ἐξ ἐκ
+11:6 RP ----GPM- αὐτῶν αὐτός
+11:6 A- ----NPN- πάντα πᾶς  # module APN — the subject of ἐκλείψει, a neuter plural with its verb in the singular
+11:6 RR ----APN- ὅσα ὅσος
+11:6 X- -------- ἂν ἄν
+11:6 V- 3AMS-P-- ἐπιθῶνται ἐπιτίθημι
+11:6 V- -PAN---- ποιεῖν ποιέω
+11:7 D- -------- δεῦτε δεῦτε
+11:7 C- -------- καὶ καί
+11:7 V- -AAPNPM- καταβάντες καταβαίνω
+11:7 V- 1AAS-P-- συγχέωμεν συγχέω  # module PAS1P — present and aorist subjunctive are one form; aorist, beside καταβάντες and πλινθεύσωμεν
+11:7 D- -------- ἐκεῖ ἐκεῖ
+11:7 RP ----GPM- αὐτῶν αὐτός
+11:7 RA ----ASF- τὴν ὁ
+11:7 N- ----ASF- γλῶσσαν γλῶσσα
+11:7 C- -------- ἵνα ἵνα
+11:7 D- -------- μὴ μή
+11:7 V- 3AAS-P-- ἀκούσωσιν ἀκούω
+11:7 A- ----NSM- ἕκαστος ἕκαστος
+11:7 RA ----ASF- τὴν ὁ
+11:7 N- ----ASF- φωνὴν φωνή
+11:7 RA ----GSM- τοῦ ὁ
+11:7 D- -------- πλησίον πλησίον
+11:8 C- -------- καὶ καί
+11:8 V- 3AAI-S-- διέσπειρεν διασπείρω
+11:8 RP ----APM- αὐτοὺς αὐτός
+11:8 N- ----NSM- κύριος κύριος
+11:8 D- -------- ἐκεῖθεν ἐκεῖθεν
+11:8 P- -------- ἐπὶ ἐπί
+11:8 N- ----ASN- πρόσωπον πρόσωπον
+11:8 A- ----GSF- πάσης πᾶς
+11:8 RA ----GSF- τῆς ὁ
+11:8 N- ----GSF- γῆς γῆ
+11:8 C- -------- καὶ καί
+11:8 V- 3AMI-P-- ἐπαύσαντο παύω
+11:8 V- -PAPNPM- οἰκοδομοῦντες οἰκοδομέω
+11:8 RA ----ASF- τὴν ὁ
+11:8 N- ----ASF- πόλιν πόλις
+11:8 C- -------- καὶ καί
+11:8 RA ----ASM- τὸν ὁ
+11:8 N- ----ASM- πύργον πύργος
+11:9 P- -------- διὰ διά
+11:9 RD ----ASN- τοῦτο οὗτος
+11:9 V- 3API-S-- ἐκλήθη καλέω
+11:9 RA ----NSN- τὸ ὁ
+11:9 N- ----NSN- ὄνομα ὄνομα
+11:9 RP ----GSF- αὐτῆς αὐτός
+11:9 N- ----NSF- Σύγχυσις Σύγχυσις  # module lemma σύγχυσις — the name the verse gives the city, capitalised as Rahlfs prints it
+11:9 C- -------- ὅτι ὅτι
+11:9 D- -------- ἐκεῖ ἐκεῖ
+11:9 V- 3AAI-S-- συνέχεεν συγχέω  # module IAI3S — imperfect and aorist are one form; aorist, as the rest of the story
+11:9 N- ----NSM- κύριος κύριος
+11:9 RA ----APN- τὰ ὁ
+11:9 N- ----APN- χείλη χεῖλος
+11:9 A- ----GSF- πάσης πᾶς
+11:9 RA ----GSF- τῆς ὁ
+11:9 N- ----GSF- γῆς γῆ
+11:9 C- -------- καὶ καί
+11:9 D- -------- ἐκεῖθεν ἐκεῖθεν
+11:9 V- 3AAI-S-- διέσπειρεν διασπείρω
+11:9 RP ----APM- αὐτοὺς αὐτός
+11:9 N- ----NSM- κύριος κύριος
+11:9 RA ----NSM- ὁ ὁ
+11:9 N- ----NSM- θεὸς θεός
+11:9 P- -------- ἐπὶ ἐπί
+11:9 N- ----ASN- πρόσωπον πρόσωπον
+11:9 A- ----GSF- πάσης πᾶς
+11:9 RA ----GSF- τῆς ὁ
+11:9 N- ----GSF- γῆς γῆ
+11:10 C- -------- Καὶ καί
+11:10 RD ----NPF- αὗται οὗτος
+11:10 RA ----NPF- αἱ ὁ
+11:10 N- ----NPF- γενέσεις γένεσις
+11:10 N- ----GSM- Σημ Σήμ
+11:10 N- ----NSM- Σημ Σήμ
+11:10 N- ----NSM- υἱὸς υἱός
+11:10 A- ----GPN- ἑκατὸν ἑκατόν  # module M, no features — MorphGNT gives ἑκατόν case, number and gender like any adjective
+11:10 N- ----GPN- ἐτῶν ἔτος
+11:10 C- -------- ὅτε ὅτε
+11:10 V- 3AAI-S-- ἐγέννησεν γεννάω
+11:10 RA ----ASM- τὸν ὁ
+11:10 N- ----ASM- Αρφαξαδ Ἀρφαξάδ
+11:10 A- ----GSN- δευτέρου δεύτερος
+11:10 N- ----GSN- ἔτους ἔτος
+11:10 P- -------- μετὰ μετά
+11:10 RA ----ASM- τὸν ὁ
+11:10 N- ----ASM- κατακλυσμόν κατακλυσμός
+11:11 C- -------- καὶ καί
+11:11 V- 3AAI-S-- ἔζησεν ζάω
+11:11 N- ----NSM- Σημ Σήμ
+11:11 P- -------- μετὰ μετά
+11:11 RA ----ASN- τὸ ὁ
+11:11 V- -AAN---- γεννῆσαι γεννάω
+11:11 RP ----ASM- αὐτὸν αὐτός
+11:11 RA ----ASM- τὸν ὁ
+11:11 N- ----ASM- Αρφαξαδ Ἀρφαξάδ
+11:11 A- ----APN- πεντακόσια πεντακόσιοι
+11:11 N- ----APN- ἔτη ἔτος
+11:11 C- -------- καὶ καί
+11:11 V- 3AAI-S-- ἐγέννησεν γεννάω
+11:11 N- ----APM- υἱοὺς υἱός
+11:11 C- -------- καὶ καί
+11:11 N- ----APF- θυγατέρας θυγάτηρ
+11:11 C- -------- καὶ καί
+11:11 V- 3AAI-S-- ἀπέθανεν ἀποθνήσκω
+11:12 C- -------- Καὶ καί
+11:12 V- 3AAI-S-- ἔζησεν ζάω
+11:12 N- ----NSM- Αρφαξαδ Ἀρφαξάδ
+11:12 A- ----APN- ἑκατὸν ἑκατόν  # module M, no features — MorphGNT gives ἑκατόν case, number and gender like any adjective
+11:12 A- ----APN- τριάκοντα τριάκοντα  # module M, no features — MorphGNT gives τριάκοντα case, number and gender like any adjective
+11:12 A- ----APN- πέντε πέντε  # module M, no features — MorphGNT gives πέντε case, number and gender like any adjective
+11:12 N- ----APN- ἔτη ἔτος
+11:12 C- -------- καὶ καί
+11:12 V- 3AAI-S-- ἐγέννησεν γεννάω
+11:12 RA ----ASM- τὸν ὁ
+11:12 N- ----ASM- Καιναν Καιναν  # module lemma Καϊνάν — the form Rahlfs prints; Luke 3:36 spells the name Καϊνάμ
+11:13 C- -------- καὶ καί
+11:13 V- 3AAI-S-- ἔζησεν ζάω
+11:13 N- ----NSM- Αρφαξαδ Ἀρφαξάδ
+11:13 P- -------- μετὰ μετά
+11:13 RA ----ASN- τὸ ὁ
+11:13 V- -AAN---- γεννῆσαι γεννάω
+11:13 RP ----ASM- αὐτὸν αὐτός
+11:13 RA ----ASM- τὸν ὁ
+11:13 N- ----ASM- Καιναν Καιναν  # module lemma Καϊνάν — the form Rahlfs prints; Luke 3:36 spells the name Καϊνάμ
+11:13 N- ----APN- ἔτη ἔτος
+11:13 A- ----APN- τετρακόσια τετρακόσιοι
+11:13 A- ----APN- τριάκοντα τριάκοντα  # module M, no features — MorphGNT gives τριάκοντα case, number and gender like any adjective
+11:13 C- -------- καὶ καί
+11:13 V- 3AAI-S-- ἐγέννησεν γεννάω
+11:13 N- ----APM- υἱοὺς υἱός
+11:13 C- -------- καὶ καί
+11:13 N- ----APF- θυγατέρας θυγάτηρ
+11:13 C- -------- καὶ καί
+11:13 V- 3AAI-S-- ἀπέθανεν ἀποθνήσκω
+11:13 C- -------- Καὶ καί
+11:13 V- 3AAI-S-- ἔζησεν ζάω
+11:13 N- ----NSM- Καιναν Καιναν  # module lemma Καϊνάν — the form Rahlfs prints; Luke 3:36 spells the name Καϊνάμ
+11:13 A- ----APN- ἑκατὸν ἑκατόν  # module M, no features — MorphGNT gives ἑκατόν case, number and gender like any adjective
+11:13 A- ----APN- τριάκοντα τριάκοντα  # module M, no features — MorphGNT gives τριάκοντα case, number and gender like any adjective
+11:13 N- ----APN- ἔτη ἔτος
+11:13 C- -------- καὶ καί
+11:13 V- 3AAI-S-- ἐγέννησεν γεννάω
+11:13 RA ----ASM- τὸν ὁ
+11:13 N- ----ASM- Σαλα Σαλά
+11:13 C- -------- καὶ καί
+11:13 V- 3AAI-S-- ἔζησεν ζάω
+11:13 N- ----NSM- Καιναν Καιναν  # module lemma Καϊνάν — the form Rahlfs prints; Luke 3:36 spells the name Καϊνάμ
+11:13 P- -------- μετὰ μετά
+11:13 RA ----ASN- τὸ ὁ
+11:13 V- -AAN---- γεννῆσαι γεννάω
+11:13 RP ----ASM- αὐτὸν αὐτός
+11:13 RA ----ASM- τὸν ὁ
+11:13 N- ----ASM- Σαλα Σαλά  # module NSM — after τόν, the object of γεννῆσαι, as Σαλα is earlier in the verse
+11:13 N- ----APN- ἔτη ἔτος
+11:13 A- ----APN- τριακόσια τριακόσιοι
+11:13 A- ----APN- τριάκοντα τριάκοντα  # module M, no features — MorphGNT gives τριάκοντα case, number and gender like any adjective
+11:13 C- -------- καὶ καί
+11:13 V- 3AAI-S-- ἐγέννησεν γεννάω
+11:13 N- ----APM- υἱοὺς υἱός
+11:13 C- -------- καὶ καί
+11:13 N- ----APF- θυγατέρας θυγάτηρ
+11:13 C- -------- καὶ καί
+11:13 V- 3AAI-S-- ἀπέθανεν ἀποθνήσκω
+11:14 C- -------- Καὶ καί
+11:14 V- 3AAI-S-- ἔζησεν ζάω
+11:14 N- ----NSM- Σαλα Σαλά
+11:14 A- ----APN- ἑκατὸν ἑκατόν  # module M, no features — MorphGNT gives ἑκατόν case, number and gender like any adjective
+11:14 A- ----APN- τριάκοντα τριάκοντα  # module M, no features — MorphGNT gives τριάκοντα case, number and gender like any adjective
+11:14 N- ----APN- ἔτη ἔτος
+11:14 C- -------- καὶ καί
+11:14 V- 3AAI-S-- ἐγέννησεν γεννάω
+11:14 RA ----ASM- τὸν ὁ
+11:14 N- ----ASM- Εβερ Ἔβερ  # module lemma Ἐβέρ — Ἔβερ, as MorphGNT files it at Luke 3:35
+11:15 C- -------- καὶ καί
+11:15 V- 3AAI-S-- ἔζησεν ζάω
+11:15 N- ----NSM- Σαλα Σαλά
+11:15 P- -------- μετὰ μετά
+11:15 RA ----ASN- τὸ ὁ
+11:15 V- -AAN---- γεννῆσαι γεννάω
+11:15 RP ----ASM- αὐτὸν αὐτός
+11:15 RA ----ASM- τὸν ὁ
+11:15 N- ----ASM- Εβερ Ἔβερ  # module lemma Ἐβέρ — Ἔβερ, as MorphGNT files it at Luke 3:35
+11:15 A- ----APN- τριακόσια τριακόσιοι
+11:15 A- ----APN- τριάκοντα τριάκοντα  # module M, no features — MorphGNT gives τριάκοντα case, number and gender like any adjective
+11:15 N- ----APN- ἔτη ἔτος
+11:15 C- -------- καὶ καί
+11:15 V- 3AAI-S-- ἐγέννησεν γεννάω
+11:15 N- ----APM- υἱοὺς υἱός
+11:15 C- -------- καὶ καί
+11:15 N- ----APF- θυγατέρας θυγάτηρ
+11:15 C- -------- καὶ καί
+11:15 V- 3AAI-S-- ἀπέθανεν ἀποθνήσκω
+11:16 C- -------- Καὶ καί
+11:16 V- 3AAI-S-- ἔζησεν ζάω
+11:16 N- ----NSM- Εβερ Ἔβερ  # module lemma Ἐβέρ — Ἔβερ, as MorphGNT files it at Luke 3:35
+11:16 A- ----APN- ἑκατὸν ἑκατόν  # module M, no features — MorphGNT gives ἑκατόν case, number and gender like any adjective
+11:16 A- ----APN- τριάκοντα τριάκοντα  # module M, no features — MorphGNT gives τριάκοντα case, number and gender like any adjective
+11:16 A- ----APN- τέσσαρα τέσσαρες
+11:16 N- ----APN- ἔτη ἔτος
+11:16 C- -------- καὶ καί
+11:16 V- 3AAI-S-- ἐγέννησεν γεννάω
+11:16 RA ----ASM- τὸν ὁ
+11:16 N- ----ASM- Φαλεκ Φάλεκ
+11:17 C- -------- καὶ καί
+11:17 V- 3AAI-S-- ἔζησεν ζάω
+11:17 N- ----NSM- Εβερ Ἔβερ  # module lemma Ἐβέρ — Ἔβερ, as MorphGNT files it at Luke 3:35
+11:17 P- -------- μετὰ μετά
+11:17 RA ----ASN- τὸ ὁ
+11:17 V- -AAN---- γεννῆσαι γεννάω
+11:17 RP ----ASM- αὐτὸν αὐτός
+11:17 RA ----ASM- τὸν ὁ
+11:17 N- ----ASM- Φαλεκ Φάλεκ
+11:17 N- ----APN- ἔτη ἔτος
+11:17 A- ----APN- τριακόσια τριακόσιοι
+11:17 A- ----APN- ἑβδομήκοντα ἑβδομήκοντα  # module M, no features — MorphGNT gives ἑβδομήκοντα case, number and gender like any adjective
+11:17 C- -------- καὶ καί
+11:17 V- 3AAI-S-- ἐγέννησεν γεννάω
+11:17 N- ----APM- υἱοὺς υἱός
+11:17 C- -------- καὶ καί
+11:17 N- ----APF- θυγατέρας θυγάτηρ
+11:17 C- -------- καὶ καί
+11:17 V- 3AAI-S-- ἀπέθανεν ἀποθνήσκω
+11:18 C- -------- Καὶ καί
+11:18 V- 3AAI-S-- ἔζησεν ζάω
+11:18 N- ----NSM- Φαλεκ Φάλεκ
+11:18 A- ----APN- ἑκατὸν ἑκατόν  # module M, no features — MorphGNT gives ἑκατόν case, number and gender like any adjective
+11:18 A- ----APN- τριάκοντα τριάκοντα  # module M, no features — MorphGNT gives τριάκοντα case, number and gender like any adjective
+11:18 N- ----APN- ἔτη ἔτος
+11:18 C- -------- καὶ καί
+11:18 V- 3AAI-S-- ἐγέννησεν γεννάω
+11:18 RA ----ASM- τὸν ὁ
+11:18 N- ----ASM- Ραγαυ Ῥαγαύ  # module lemma Ῥαγαῦ — Ῥαγαύ, as MorphGNT files it at Luke 3:35
+11:19 C- -------- καὶ καί
+11:19 V- 3AAI-S-- ἔζησεν ζάω
+11:19 N- ----NSM- Φαλεκ Φάλεκ
+11:19 P- -------- μετὰ μετά
+11:19 RA ----ASN- τὸ ὁ
+11:19 V- -AAN---- γεννῆσαι γεννάω
+11:19 RP ----ASM- αὐτὸν αὐτός
+11:19 RA ----ASM- τὸν ὁ
+11:19 N- ----ASM- Ραγαυ Ῥαγαύ  # module lemma Ῥαγαῦ — Ῥαγαύ, as MorphGNT files it at Luke 3:35
+11:19 A- ----APN- διακόσια διακόσιοι
+11:19 A- ----APN- ἐννέα ἐννέα  # module M, no features — MorphGNT gives ἐννέα case, number and gender like any adjective
+11:19 N- ----APN- ἔτη ἔτος
+11:19 C- -------- καὶ καί
+11:19 V- 3AAI-S-- ἐγέννησεν γεννάω
+11:19 N- ----APM- υἱοὺς υἱός
+11:19 C- -------- καὶ καί
+11:19 N- ----APF- θυγατέρας θυγάτηρ
+11:19 C- -------- καὶ καί
+11:19 V- 3AAI-S-- ἀπέθανεν ἀποθνήσκω
+11:20 C- -------- Καὶ καί
+11:20 V- 3AAI-S-- ἔζησεν ζάω
+11:20 N- ----NSM- Ραγαυ Ῥαγαύ  # module lemma Ῥαγαῦ — Ῥαγαύ, as MorphGNT files it at Luke 3:35
+11:20 A- ----APN- ἑκατὸν ἑκατόν  # module M, no features — MorphGNT gives ἑκατόν case, number and gender like any adjective
+11:20 A- ----APN- τριάκοντα τριάκοντα  # module M, no features — MorphGNT gives τριάκοντα case, number and gender like any adjective
+11:20 A- ----APN- δύο δύο  # module M, no features — MorphGNT gives δύο case, number and gender like any adjective
+11:20 N- ----APN- ἔτη ἔτος
+11:20 C- -------- καὶ καί
+11:20 V- 3AAI-S-- ἐγέννησεν γεννάω
+11:20 RA ----ASM- τὸν ὁ
+11:20 N- ----ASM- Σερουχ Σερούχ
+11:21 C- -------- καὶ καί
+11:21 V- 3AAI-S-- ἔζησεν ζάω
+11:21 N- ----NSM- Ραγαυ Ῥαγαύ  # module lemma Ῥαγαῦ — Ῥαγαύ, as MorphGNT files it at Luke 3:35
+11:21 P- -------- μετὰ μετά
+11:21 RA ----ASN- τὸ ὁ
+11:21 V- -AAN---- γεννῆσαι γεννάω
+11:21 RP ----ASM- αὐτὸν αὐτός
+11:21 RA ----ASM- τὸν ὁ
+11:21 N- ----ASM- Σερουχ Σερούχ
+11:21 A- ----APN- διακόσια διακόσιοι
+11:21 A- ----APN- ἑπτὰ ἑπτά  # module M, no features — MorphGNT gives ἑπτά case, number and gender like any adjective
+11:21 N- ----APN- ἔτη ἔτος
+11:21 C- -------- καὶ καί
+11:21 V- 3AAI-S-- ἐγέννησεν γεννάω
+11:21 N- ----APM- υἱοὺς υἱός
+11:21 C- -------- καὶ καί
+11:21 N- ----APF- θυγατέρας θυγάτηρ
+11:21 C- -------- καὶ καί
+11:21 V- 3AAI-S-- ἀπέθανεν ἀποθνήσκω
+11:22 C- -------- Καὶ καί
+11:22 V- 3AAI-S-- ἔζησεν ζάω
+11:22 N- ----NSM- Σερουχ Σερούχ
+11:22 A- ----APN- ἑκατὸν ἑκατόν  # module M, no features — MorphGNT gives ἑκατόν case, number and gender like any adjective
+11:22 A- ----APN- τριάκοντα τριάκοντα  # module M, no features — MorphGNT gives τριάκοντα case, number and gender like any adjective
+11:22 N- ----APN- ἔτη ἔτος
+11:22 C- -------- καὶ καί
+11:22 V- 3AAI-S-- ἐγέννησεν γεννάω
+11:22 RA ----ASM- τὸν ὁ
+11:22 N- ----ASM- Ναχωρ Ναχώρ
+11:23 C- -------- καὶ καί
+11:23 V- 3AAI-S-- ἔζησεν ζάω
+11:23 N- ----NSM- Σερουχ Σερούχ
+11:23 P- -------- μετὰ μετά
+11:23 RA ----ASN- τὸ ὁ
+11:23 V- -AAN---- γεννῆσαι γεννάω
+11:23 RP ----ASM- αὐτὸν αὐτός
+11:23 RA ----ASM- τὸν ὁ
+11:23 N- ----ASM- Ναχωρ Ναχώρ
+11:23 N- ----APN- ἔτη ἔτος
+11:23 A- ----APN- διακόσια διακόσιοι
+11:23 C- -------- καὶ καί
+11:23 V- 3AAI-S-- ἐγέννησεν γεννάω
+11:23 N- ----APM- υἱοὺς υἱός
+11:23 C- -------- καὶ καί
+11:23 N- ----APF- θυγατέρας θυγάτηρ
+11:23 C- -------- καὶ καί
+11:23 V- 3AAI-S-- ἀπέθανεν ἀποθνήσκω
+11:24 C- -------- Καὶ καί
+11:24 V- 3AAI-S-- ἔζησεν ζάω
+11:24 N- ----NSM- Ναχωρ Ναχώρ
+11:24 N- ----APN- ἔτη ἔτος
+11:24 A- ----APN- ἑβδομήκοντα ἑβδομήκοντα  # module M, no features — MorphGNT gives ἑβδομήκοντα case, number and gender like any adjective
+11:24 A- ----APN- ἐννέα ἐννέα  # module M, no features — MorphGNT gives ἐννέα case, number and gender like any adjective
+11:24 C- -------- καὶ καί
+11:24 V- 3AAI-S-- ἐγέννησεν γεννάω
+11:24 RA ----ASM- τὸν ὁ
+11:24 N- ----ASM- Θαρα Θάρα
+11:25 C- -------- καὶ καί
+11:25 V- 3AAI-S-- ἔζησεν ζάω
+11:25 N- ----NSM- Ναχωρ Ναχώρ
+11:25 P- -------- μετὰ μετά
+11:25 RA ----ASN- τὸ ὁ
+11:25 V- -AAN---- γεννῆσαι γεννάω
+11:25 RP ----ASM- αὐτὸν αὐτός
+11:25 RA ----ASM- τὸν ὁ
+11:25 N- ----ASM- Θαρα Θάρα
+11:25 N- ----APN- ἔτη ἔτος
+11:25 A- ----APN- ἑκατὸν ἑκατόν  # module M, no features — MorphGNT gives ἑκατόν case, number and gender like any adjective
+11:25 A- ----APN- εἴκοσι εἴκοσι  # module M, no features — MorphGNT gives εἴκοσι case, number and gender like any adjective
+11:25 A- ----APN- ἐννέα ἐννέα  # module M, no features — MorphGNT gives ἐννέα case, number and gender like any adjective
+11:25 C- -------- καὶ καί
+11:25 V- 3AAI-S-- ἐγέννησεν γεννάω
+11:25 N- ----APM- υἱοὺς υἱός
+11:25 C- -------- καὶ καί
+11:25 N- ----APF- θυγατέρας θυγάτηρ
+11:25 C- -------- καὶ καί
+11:25 V- 3AAI-S-- ἀπέθανεν ἀποθνήσκω
+11:26 C- -------- Καὶ καί
+11:26 V- 3AAI-S-- ἔζησεν ζάω
+11:26 N- ----NSM- Θαρα Θάρα
+11:26 A- ----APN- ἑβδομήκοντα ἑβδομήκοντα  # module M, no features — MorphGNT gives ἑβδομήκοντα case, number and gender like any adjective
+11:26 N- ----APN- ἔτη ἔτος
+11:26 C- -------- καὶ καί
+11:26 V- 3AAI-S-- ἐγέννησεν γεννάω
+11:26 RA ----ASM- τὸν ὁ
+11:26 N- ----ASM- Αβραμ Αβραμ
+11:26 C- -------- καὶ καί
+11:26 RA ----ASM- τὸν ὁ
+11:26 N- ----ASM- Ναχωρ Ναχώρ
+11:26 C- -------- καὶ καί
+11:26 RA ----ASM- τὸν ὁ
+11:26 N- ----ASM- Αρραν Αρραν
+11:27 RD ----NPF- Αὗται οὗτος
+11:27 C- -------- δὲ δέ
+11:27 RA ----NPF- αἱ ὁ
+11:27 N- ----NPF- γενέσεις γένεσις
+11:27 N- ----GSM- Θαρα Θάρα
+11:27 N- ----NSM- Θαρα Θάρα
+11:27 V- 3AAI-S-- ἐγέννησεν γεννάω
+11:27 RA ----ASM- τὸν ὁ
+11:27 N- ----ASM- Αβραμ Αβραμ
+11:27 C- -------- καὶ καί
+11:27 RA ----ASM- τὸν ὁ
+11:27 N- ----ASM- Ναχωρ Ναχώρ
+11:27 C- -------- καὶ καί
+11:27 RA ----ASM- τὸν ὁ
+11:27 N- ----ASM- Αρραν Αρραν
+11:27 C- -------- καὶ καί
+11:27 N- ----NSM- Αρραν Αρραν
+11:27 V- 3AAI-S-- ἐγέννησεν γεννάω
+11:27 RA ----ASM- τὸν ὁ
+11:27 N- ----ASM- Λωτ Λώτ
+11:28 C- -------- καὶ καί
+11:28 V- 3AAI-S-- ἀπέθανεν ἀποθνήσκω
+11:28 N- ----NSM- Αρραν Αρραν
+11:28 P- -------- ἐνώπιον ἐνώπιον  # module lemma ἐνώπιος — ἐνώπιον, the preposition, as MorphGNT files it
+11:28 N- ----GSM- Θαρα Θάρα
+11:28 RA ----GSM- τοῦ ὁ
+11:28 N- ----GSM- πατρὸς πατήρ
+11:28 RP ----GSM- αὐτοῦ αὐτός
+11:28 P- -------- ἐν ἐν
+11:28 RA ----DSF- τῇ ὁ
+11:28 N- ----DSF- γῇ γῆ
+11:28 RR ----DSF- ᾗ ὅς
+11:28 V- 3API-S-- ἐγενήθη γίνομαι
+11:28 P- -------- ἐν ἐν
+11:28 RA ----DSF- τῇ ὁ
+11:28 N- ----DSF- χώρᾳ χώρα
+11:28 RA ----GPM- τῶν ὁ
+11:28 N- ----GPM- Χαλδαίων Χαλδαῖος
+11:29 C- -------- καὶ καί
+11:29 V- 3AAI-P-- ἔλαβον λαμβάνω
+11:29 N- ----NSM- Αβραμ Αβραμ
+11:29 C- -------- καὶ καί
+11:29 N- ----NSM- Ναχωρ Ναχώρ
+11:29 RP ----DPM- ἑαυτοῖς ἑαυτοῦ
+11:29 N- ----APF- γυναῖκας γυνή
+11:29 N- ----NSN- ὄνομα ὄνομα
+11:29 RA ----DSF- τῇ ὁ
+11:29 N- ----DSF- γυναικὶ γυνή
+11:29 N- ----GSM- Αβραμ Αβραμ
+11:29 N- ----NSF- Σαρα Σαρα
+11:29 C- -------- καὶ καί
+11:29 N- ----NSN- ὄνομα ὄνομα
+11:29 RA ----DSF- τῇ ὁ
+11:29 N- ----DSF- γυναικὶ γυνή
+11:29 N- ----GSM- Ναχωρ Ναχώρ
+11:29 N- ----NSF- Μελχα Μελχα
+11:29 N- ----NSF- θυγάτηρ θυγάτηρ
+11:29 N- ----GSM- Αρραν Αρραν
+11:29 N- ----NSM- πατὴρ πατήρ
+11:29 N- ----GSF- Μελχα Μελχα
+11:29 C- -------- καὶ καί
+11:29 N- ----NSM- πατὴρ πατήρ
+11:29 N- ----GSF- Ιεσχα Ιεσχα  # module NSF — the genitive after πατήρ: father of Iscah, as of Milcah before
+11:30 C- -------- καὶ καί
+11:30 V- 3IAI-S-- ἦν εἰμί
+11:30 N- ----NSF- Σαρα Σαρα
+11:30 A- ----NSF- στεῖρα στεῖρα  # module lemma στείρος — στεῖρα, under which MorphGNT and Middle Liddell both file the feminine
+11:30 C- -------- καὶ καί
+11:30 D- -------- οὐκ οὐ
+11:30 V- 3IAI-S-- ἐτεκνοποίει τεκνοποιέω
+11:31 C- -------- καὶ καί
+11:31 V- 3AAI-S-- ἔλαβεν λαμβάνω
+11:31 N- ----NSM- Θαρα Θάρα
+11:31 RA ----ASM- τὸν ὁ
+11:31 N- ----ASM- Αβραμ Αβραμ
+11:31 N- ----ASM- υἱὸν υἱός
+11:31 RP ----GSM- αὐτοῦ αὐτός
+11:31 C- -------- καὶ καί
+11:31 RA ----ASM- τὸν ὁ
+11:31 N- ----ASM- Λωτ Λώτ
+11:31 N- ----ASM- υἱὸν υἱός
+11:31 N- ----GSM- Αρραν Αρραν
+11:31 N- ----ASM- υἱὸν υἱός
+11:31 RA ----GSM- τοῦ ὁ
+11:31 N- ----GSM- υἱοῦ υἱός
+11:31 RP ----GSM- αὐτοῦ αὐτός
+11:31 C- -------- καὶ καί
+11:31 RA ----ASF- τὴν ὁ
+11:31 N- ----ASF- Σαραν Σαρα
+11:31 RA ----ASF- τὴν ὁ
+11:31 N- ----ASF- νύμφην νύμφη
+11:31 RP ----GSM- αὐτοῦ αὐτός
+11:31 N- ----ASF- γυναῖκα γυνή
+11:31 N- ----GSM- Αβραμ Αβραμ
+11:31 RA ----GSM- τοῦ ὁ
+11:31 N- ----GSM- υἱοῦ υἱός
+11:31 RP ----GSM- αὐτοῦ αὐτός
+11:31 C- -------- καὶ καί
+11:31 V- 3AAI-S-- ἐξήγαγεν ἐξάγω
+11:31 RP ----APM- αὐτοὺς αὐτός
+11:31 P- -------- ἐκ ἐκ
+11:31 RA ----GSF- τῆς ὁ
+11:31 N- ----GSF- χώρας χώρα
+11:31 RA ----GPM- τῶν ὁ
+11:31 N- ----GPM- Χαλδαίων Χαλδαῖος
+11:31 V- -APN---- πορευθῆναι πορεύομαι
+11:31 P- -------- εἰς εἰς
+11:31 RA ----ASF- τὴν ὁ
+11:31 N- ----ASF- γῆν γῆ
+11:31 N- ----GS-- Χανααν Χανάαν  # module lemma Χαναάν — Χανάαν, as MorphGNT files it  # corpus the land, where Χανάαν at 9:18 is the man
+11:31 C- -------- καὶ καί
+11:31 V- 3AAI-S-- ἦλθεν ἔρχομαι
+11:31 P- -------- ἕως ἕως
+11:31 N- ----GS-- Χαρραν Χαρράν
+11:31 C- -------- καὶ καί
+11:31 V- 3AAI-S-- κατῴκησεν κατοικέω
+11:31 D- -------- ἐκεῖ ἐκεῖ
+11:32 C- -------- καὶ καί
+11:32 V- 3AMI-P-- ἐγένοντο γίνομαι
+11:32 RA ----NPF- αἱ ὁ
+11:32 N- ----NPF- ἡμέραι ἡμέρα
+11:32 N- ----GSM- Θαρα Θάρα
+11:32 P- -------- ἐν ἐν
+11:32 N- ----DS-- Χαρραν Χαρράν
+11:32 A- ----NPN- διακόσια διακόσιοι  # module APN — the predicate of ἐγένοντο, the days came to be so many years, as the module reads 5:31
+11:32 A- ----NPN- πέντε πέντε  # module M, no features — MorphGNT gives πέντε case, number and gender like any adjective
+11:32 N- ----NPN- ἔτη ἔτος  # module APN — the predicate of ἐγένοντο, the days came to be so many years, as the module reads 5:31
+11:32 C- -------- καὶ καί
+11:32 V- 3AAI-S-- ἀπέθανεν ἀποθνήσκω
+11:32 N- ----NSM- Θαρα Θάρα
+11:32 P- -------- ἐν ἐν
+11:32 N- ----DS-- Χαρραν Χαρράν

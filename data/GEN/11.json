@@ -1,0 +1,1059 @@
+[
+  {
+    "ref": "GEN 11:1",
+    "greek": "Καὶ ἦν πᾶσα ἡ γῆ χεῖλος ἕν, καὶ φωνὴ μία πᾶσιν.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 14",
+    "hint": "All the earth had one lip and one sound.",
+    "notes": [
+      {
+        "lemma": "φωνὴ μία πᾶσιν",
+        "flag": "divergence",
+        "text": "[[flag]] The Hebrew is *ûdĕbārîm ʾăḥādîm*, *and the same words*. The Greek has *one sound*, φωνή, and adds *to all*."
+      },
+      {
+        "lemma": "χεῖλος",
+        "flag": null,
+        "text": "*A lip*, the Hebrew *śāpâ*, which is *lip* and *language* both; Middle Liddell gives χεῖλος *lip*, *beak* and *edge*, and no *language*."
+      },
+      {
+        "lemma": "ἦν",
+        "flag": null,
+        "text": "The imperfect in short, *was, and kept on being*: the full formula's *one* would stand beside εἷς's headword."
+      }
+    ],
+    "reading": "And was, and kept on being, [[all|all, the whole, every, every single]] [[the earth|the land, the dry ground, the terrestrial realm]] [[lip|lip, bill and beak, edge and brink and brim and rim]] [[one|one, a single one, one alone]], and [[sound|sound, tone, sound of the voice, cry, faculty of speech and discourse, language, saying]] [[one|one, a single one, one alone]] [[to all|to all, to the whole, to every, to every single]].",
+    "names": []
+  },
+  {
+    "ref": "GEN 11:2",
+    "greek": "καὶ ἐγένετο ἐν τῷ κινῆσαι αὐτοὺς ἀπὸ ἀνατολῶν εὗρον πεδίον ἐν γῇ Σεννααρ καὶ κατῴκησαν ἐκεῖ.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 14",
+    "hint": "Moving from the east, they find a plain in Shinar.",
+    "notes": [
+      {
+        "lemma": "ἐν τῷ κινῆσαι αὐτοὺς ἀπὸ ἀνατολῶν",
+        "flag": null,
+        "text": "The Hebrew *bĕnosʿām miqqedem*, *as they journeyed from the east*. κινέω is *to set in motion, move*; the article and infinitive are one unit with ἐν."
+      },
+      {
+        "lemma": "Σεννααρ",
+        "flag": "name",
+        "text": "The land of 10:10, glossed again, first in this chapter."
+      }
+    ],
+    "reading": "and [[came into being|there came to be, there arose, there was brought into existence]] [[in the setting in motion|within, inside of, and by means of the setting in motion, the moving, the removing, the meddling with, the applying, the changing and innovating, the rousing and disturbing, the stirring up and arousing and urging on, the setting agoing and causing and calling forth]] of them [[from|from, away from, far from, apart from]] [[of risings|of risings, of rises, of the quarter of sunrise, of the east]] [[found|found, found out, discovered]] [[a plain|a plain, a flat, a plain flat open country]] [[in earth|within, inside of, and by means of earth, land, the ground]] [[name:Σεννααρ]] and [[dwelt in|dwelt in, settled in, colonised, inhabited, settled and dwelt, lay and were situate]] [[there|there, in that place]].",
+    "names": [
+      {
+        "greek": "Σεννααρ",
+        "unanchored": "Sennaar",
+        "anchored": "Shinar",
+        "gloss": "(Σεννααρ, from Hebrew Šinʿār, the plain of Babylonia)"
+      }
+    ]
+  },
+  {
+    "ref": "GEN 11:3",
+    "greek": "καὶ εἶπεν ἄνθρωπος τῷ πλησίον Δεῦτε πλινθεύσωμεν πλίνθους καὶ ὀπτήσωμεν αὐτὰς πυρί. καὶ ἐγένετο αὐτοῖς ἡ πλίνθος εἰς λίθον, καὶ ἄσφαλτος ἦν αὐτοῖς ὁ πηλός.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 14",
+    "speech": ["Δεῦτε"],
+    "hint": "Bricks for stone, and asphalt for clay.",
+    "notes": [
+      {
+        "lemma": "ἄσφαλτος ἦν αὐτοῖς ὁ πηλός",
+        "flag": null,
+        "text": "The Hebrew *wĕhaḥēmār hāyâ lāhem laḥōmer*, *and bitumen was to them for mortar*. ἄσφαλτος is the word of 6:14, where the box was smeared with it; πηλός is *clay*."
+      },
+      {
+        "lemma": "δεῦτε",
+        "flag": null,
+        "text": "Middle Liddell's one sense holds three glosses, *hither! come on! come here!*, the plural of δεῦρο."
+      },
+      {
+        "lemma": "πλίνθους … ἡ πλίνθος",
+        "flag": null,
+        "text": "πλίνθος, *a brick*, one sense, is plain text."
+      },
+      {
+        "lemma": "Δεῦτε",
+        "flag": null,
+        "text": "Capitalised because it opens direct speech, as Rahlfs prints it; listed in `speech` so the checks do not take it for a proper name."
+      }
+    ],
+    "reading": "and [[said|said, spoke, declared, called by name, told]] [[man|a man, a human being]] [[to the neighbour|to the neighbour, to the one near and close to and neighbouring, to the one nigh and hard by, to one's neighbour]] [[hither|hither, come on, come here]] [[let us make into bricks|let us make into bricks, let us make bricks, let us build of brick, let us make in the form of a plinth or brick]] bricks and [[let us roast|let us roast, let us broil, let us bake, let us bake and burn, let us bake and harden]] them [[with fire|with fire, with the funeral-fire, with the fire of the hearth]]. and [[came into being|came to be, arose, was brought into existence]] to them the brick [[into|into, to, in, rest in]] [[a stone|a stone, a precious stone, marble]], and [[asphalt|asphalt, bitumen]] was to them [[the clay|the clay, the earth, the mud, the mire]].",
+    "names": []
+  },
+  {
+    "ref": "GEN 11:4",
+    "greek": "καὶ εἶπαν Δεῦτε οἰκοδομήσωμεν ἑαυτοῖς πόλιν καὶ πύργον, οὗ ἡ κεφαλὴ ἔσται ἕως τοῦ οὐρανοῦ, καὶ ποιήσωμεν ἑαυτοῖς ὄνομα πρὸ τοῦ διασπαρῆναι ἐπὶ προσώπου πάσης τῆς γῆς.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, pp. 14–15",
+    "speech": ["Δεῦτε"],
+    "hint": "A city and a tower whose head reaches heaven, and a name before they are scattered.",
+    "notes": [
+      {
+        "lemma": "πρὸ τοῦ διασπαρῆναι",
+        "flag": "divergence",
+        "text": "[[flag]] The Hebrew is *pen-nāpûṣ*, *lest we be scattered*. The Greek has *before being scattered*: the scattering foreseen, not feared."
+      },
+      {
+        "lemma": "οὗ ἡ κεφαλὴ ἔσται ἕως τοῦ οὐρανοῦ",
+        "flag": null,
+        "text": "The Hebrew *wĕrōʾšô baššāmayim*, *and its top in the heavens*. The Greek has *whose head will be as far as the heaven*: κεφαλή, *head*, the word of 3:15."
+      },
+      {
+        "lemma": "ἑαυτοῖς",
+        "flag": "variant",
+        "text": "[[flag]] Codex Alexandrinus reads ἑαυτῶν, the second time; the dative is the Berlin papyrus's, 911."
+      },
+      {
+        "lemma": "Δεῦτε",
+        "flag": null,
+        "text": "Capitalised because it opens direct speech, as Rahlfs prints it; listed in `speech` so the checks do not take it for a proper name."
+      }
+    ],
+    "reading": "and [[said|said, spoke, declared, called by name, told]] [[hither|hither, come on, come here]] [[let us build a house|let us build a house, let us build, let us build for ourselves]] for ourselves [[a city|a city, a citadel, a country, a body of citizens, a state]] and [[a tower|a tower, the city walls with towers, a movable tower for storming, a tower of defence, the highest part of any building, troops drawn up in close order and a column]], of which [[the head|the head, the whole person, the life, the top, the source, the crown]] will be [[until|until, till, while, so long as]] [[of the heaven|of the heaven, of the vault, of the firmament and the sky]], and [[let us make|let us make, let us do, let us produce, let us create]] for ourselves [[a name|a name, fame, a mere name, a phrase and expression]] [[before|before, in front of, further on, sooner, rather than]] [[to be scattered abroad|to be scattered abroad, to be thrown about, to be squandered]] [[upon|upon, on, in, at, near]] [[of face|of face, of visage, of countenance, of look, of outward appearance]] [[of all|of all, of the whole, of every, of every single]] [[of the earth|of the land, of the dry ground, of the terrestrial realm]].",
+    "names": []
+  },
+  {
+    "ref": "GEN 11:5",
+    "greek": "καὶ κατέβη κύριος ἰδεῖν τὴν πόλιν καὶ τὸν πύργον, ὃν ᾠκοδόμησαν οἱ υἱοὶ τῶν ἀνθρώπων.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 15",
+    "hint": "The Lord comes down to see the city and the tower.",
+    "notes": [
+      {
+        "lemma": "κατέβη κύριος ἰδεῖν",
+        "flag": null,
+        "text": "The Hebrew *wayyēred YHWH lirʾōt*. καταβαίνω is *to step down*, *to go* or *come down*."
+      },
+      {
+        "lemma": "οἱ υἱοὶ τῶν ἀνθρώπων",
+        "flag": null,
+        "text": "The Hebrew *bĕnê hāʾādām*, *the sons of man*."
+      }
+    ],
+    "reading": "and [[stepped down|stepped down, went and came down, went down from, dismounted, came down stairs, went down from the inland parts to the sea, came to land and got safe ashore, went down into the arena, came down from the tribune, came to, ended]] — one completed act seen whole, not a process observed in progress — [[lord|lord, master, the one having power and authority over]] [[to see|to see, to perceive, to behold, to look at]] [[the city|the city, the citadel, the country, the body of citizens, the state]] and [[the tower|the tower, the city walls with towers, the movable tower for storming, the tower of defence, the highest part of any building, the troops drawn up in close order and the column]], which [[built a house|built a house, built, built for themselves]] the sons [[of the men|of the men, of the human beings, of mankind]].",
+    "names": []
+  },
+  {
+    "ref": "GEN 11:6",
+    "greek": "καὶ εἶπεν κύριος Ἰδοὺ γένος ἓν καὶ χεῖλος ἓν πάντων, καὶ τοῦτο ἤρξαντο ποιῆσαι, καὶ νῦν οὐκ ἐκλείψει ἐξ αὐτῶν πάντα, ὅσα ἂν ἐπιθῶνται ποιεῖν.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 15",
+    "speech": ["Ἰδοὺ"],
+    "hint": "One race and one lip: nothing they undertake will fail them.",
+    "notes": [
+      {
+        "lemma": "γένος ἕν",
+        "flag": "divergence",
+        "text": "[[flag]] The Hebrew is *ʿam ʾeḥād*, *one people*. The Greek has γένος, *race*."
+      },
+      {
+        "lemma": "οὐκ ἐκλείψει ἐξ αὐτῶν πάντα, ὅσα ἂν ἐπιθῶνται ποιεῖν",
+        "flag": "divergence",
+        "text": "[[flag]] The Hebrew is *lōʾ-yibbāṣēr mēhem kōl ʾăšer yāzmû laʿăśôt*, *nothing that they purpose to do will be withheld from them*. The Greek has *all that they may set themselves to do will not fail from them*: ἐκλείπω, the verb of the water failing at 8:13, and ἐπιτίθημι in the middle."
+      },
+      {
+        "lemma": "ποιεῖν",
+        "flag": "variant",
+        "text": "[[flag]] Codex Alexandrinus reads ποιῆσαι, the aorist; the present is Coislinianus's, M."
+      },
+      {
+        "lemma": "Ἰδοὺ",
+        "flag": null,
+        "text": "Capitalised because it opens direct speech, as Rahlfs prints it; listed in `speech` so the checks do not take it for a proper name."
+      }
+    ],
+    "reading": "and [[said|said, spoke, declared, called by name, told]] [[lord|lord, master, the one having power and authority over]] [[lo|lo, behold, see there]] [[race|race, stock and family, offspring and posterity, a clan and house, a tribe and caste, a breed, an age and generation, sex and gender, a class and sort and kind, genus]] [[one|one, a single one, one alone]] and [[lip|lip, bill and beak, edge and brink and brim and rim]] [[one|one, a single one, one alone]] [[of all|of all, of the whole, of every, of every single]], and [[this|this, the nearer, what follows]] [[began|began, made a beginning, made a beginning of, began from]] [[to make|to make, to do, to produce, to create]], and [[now|now, even now, just now]] not [[will leave out|will leave out, will omit and pass over, will forsake and desert and abandon, will suffer an eclipse, will die, will leave off and cease and stop, will fail and be wanting]] [[out of|out of, forth from, from]] them [[all|all, the whole, every, every single]], [[as great as|as great as, as much as, as far as, as long as, as many as]] ever [[they may put on themselves|they may put on themselves, they may put on for themselves, they may set themselves to and apply themselves to and employ themselves on, they may make an attempt upon and attack, they may bring on themselves, they may cause to be imposed, they may lay commands on, they may give]] [[to make|to make, to do, to produce, to create]].",
+    "names": []
+  },
+  {
+    "ref": "GEN 11:7",
+    "greek": "δεῦτε καὶ καταβάντες συγχέωμεν ἐκεῖ αὐτῶν τὴν γλῶσσαν, ἵνα μὴ ἀκούσωσιν ἕκαστος τὴν φωνὴν τοῦ πλησίον.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 15",
+    "hint": "Come, let us go down and confound their tongue.",
+    "notes": [
+      {
+        "lemma": "τὴν γλῶσσαν … τὴν φωνήν",
+        "flag": "divergence",
+        "text": "[[flag]] The Hebrew has *śāpâ*, *lip*, both times: *let us confuse their lip, that they may not hear each one the lip of his neighbour*. The Greek, which said χεῖλος for it at 11:1 and 11:6, has *the tongue* and *the sound* here."
+      },
+      {
+        "lemma": "συγχέωμεν",
+        "flag": null,
+        "text": "συγχέω, *to pour together, commingle, confound*: the verb of Acts 2:6, where the crowd at Pentecost συνεχύθη, because each heard them speaking in his own language."
+      }
+    ],
+    "reading": "[[hither|hither, come on, come here]] and [[having stepped down|having stepped down, having gone and come down, having gone down from, having dismounted, having come down stairs, having gone down from the inland parts to the sea, having come to land and got safe ashore, having gone down into the arena, having come down from the tribune, having come to, having ended]] [[let us pour together|let us pour together, let us commingle, let us confound, let us make ruinous and destroy and obliterate and demolish, let us confound and trouble, let us confound and make of none effect and frustrate]] [[there|there, in that place]] of them [[the tongue|the tongue, the tongue as the organ of speech, the tongue and language, the mouthpiece of a pipe]], [[that|that, in order that]] not [[they may hear|they may hear, they may have hearing of, they may hear tell of, they may know by hearsay, they may hearken and give ear, they may listen to and obey]] [[every|every, every one, each, each one, all and each one, singly and by itself, each by himself]] [[the sound|the sound, the tone, the sound of the voice, the cry, the faculty of speech and discourse, the language, the saying]] [[of the neighbour|of the neighbour, of the one near and close to and neighbouring, of the one nigh and hard by, of one's neighbour]].",
+    "names": []
+  },
+  {
+    "ref": "GEN 11:8",
+    "greek": "καὶ διέσπειρεν αὐτοὺς κύριος ἐκεῖθεν ἐπὶ πρόσωπον πάσης τῆς γῆς, καὶ ἐπαύσαντο οἰκοδομοῦντες τὴν πόλιν καὶ τὸν πύργον.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 15",
+    "hint": "Scattered over the earth, they stop building the city and the tower.",
+    "notes": [
+      {
+        "lemma": "καὶ τὸν πύργον",
+        "flag": "divergence",
+        "text": "[[flag]] Not in the Hebrew, which has *wayyaḥdĕlû libnōt hāʿîr*, *and they left off building the city*. The Greek adds *and the tower*."
+      },
+      {
+        "lemma": "ἐπαύσαντο",
+        "flag": null,
+        "text": "παύω is *to make to cease* in the active; the middle, the form here, is *to take one's rest, cease, leave off*. The actives are left out."
+      }
+    ],
+    "reading": "and [[scattered abroad|scattered abroad, threw about, squandered]] them [[lord|lord, master, the one having power and authority over]] [[from that place|from that place, thence, thereafter, next]] [[upon|upon, on, in, at, near]] [[face|face, visage, countenance, look, outward appearance]] [[of all|of all, of the whole, of every, of every single]] [[of the earth|of the land, of the dry ground, of the terrestrial realm]], and [[took their rest|took their rest, rested and ceased and had done, left off from and rested and ceased from, were at rest, left off doing]] [[building a house|building a house, building, building for themselves]] [[the city|the city, the citadel, the country, the body of citizens, the state]] and [[the tower|the tower, the city walls with towers, the movable tower for storming, the tower of defence, the highest part of any building, the troops drawn up in close order and the column]].",
+    "names": []
+  },
+  {
+    "ref": "GEN 11:9",
+    "greek": "διὰ τοῦτο ἐκλήθη τὸ ὄνομα αὐτῆς Σύγχυσις, ὅτι ἐκεῖ συνέχεεν κύριος τὰ χείλη πάσης τῆς γῆς, καὶ ἐκεῖθεν διέσπειρεν αὐτοὺς κύριος ὁ θεὸς ἐπὶ πρόσωπον πάσης τῆς γῆς.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 15",
+    "hint": "Its name is called Confusion.",
+    "notes": [
+      {
+        "lemma": "Σύγχυσις",
+        "flag": "divergence",
+        "text": "[[flag]] The Hebrew is *Bābel*, which the verse ties to *bālal*, *to confuse*. The Greek translates the name, *Confusion*, from συγχέω, the verb of the same verse: the play kept, and the city's name lost. At 10:10 it was Βαβυλών."
+      },
+      {
+        "lemma": "κύριος ὁ θεός",
+        "flag": "divergence",
+        "text": "[[flag]] The Hebrew has *YHWH* alone the second time; the Greek adds ὁ θεός."
+      },
+      {
+        "lemma": "τὰ χείλη",
+        "flag": null,
+        "text": "The plural, *the lips*, where the Hebrew has the singular *śĕpat*."
+      },
+      {
+        "lemma": "αὐτῆς",
+        "flag": "variant",
+        "text": "[[flag]] Codex Alexandrinus reads αὐτοῦ, masculine; αὐτῆς, feminine, the city's, is Coislinianus's, M."
+      }
+    ],
+    "reading": "[[through|through, throughout and over, during, by aid of and by means of, by reason of, because of, for the sake of]] [[this|this, the nearer, what follows]] [[was called|was called, was summoned, was invited]] [[the name|the name, the fame, the mere name, the phrase and expression]] of it [[name:Σύγχυσις]], [[that|that, seeing that, although, for that, because, inasmuch as]] [[there|there, in that place]] [[poured together|poured together, commingled, confounded, made ruinous and destroyed and obliterated and demolished, confounded and troubled, confounded and made of none effect and frustrated]] [[lord|lord, master, the one having power and authority over]] [[the lips|the lips, the bills and beaks, the edges and brinks and brims and rims]] [[of all|of all, of the whole, of every, of every single]] [[of the earth|of the land, of the dry ground, of the terrestrial realm]], and [[from that place|from that place, thence, thereafter, next]] [[scattered abroad|scattered abroad, threw about, squandered]] them [[lord|lord, master, the one having power and authority over]] [[the God|he who is God definitively, the one the article marks out, the known and the only]] [[upon|upon, on, in, at, near]] [[face|face, visage, countenance, look, outward appearance]] [[of all|of all, of the whole, of every, of every single]] [[of the earth|of the land, of the dry ground, of the terrestrial realm]].",
+    "names": [
+      {
+        "greek": "Σύγχυσις",
+        "unanchored": "Synchysis",
+        "anchored": "Confusion",
+        "gloss": "(Σύγχυσις, \"a commixture, confusion\", for Hebrew Bābel, which the verse ties to bālal, \"to confuse\")"
+      }
+    ]
+  },
+  {
+    "ref": "GEN 11:10",
+    "greek": "Καὶ αὗται αἱ γενέσεις Σημ· Σημ υἱὸς ἑκατὸν ἐτῶν, ὅτε ἐγέννησεν τὸν Αρφαξαδ, δευτέρου ἔτους μετὰ τὸν κατακλυσμόν.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 15",
+    "hint": "The origins of Shem.",
+    "notes": [
+      {
+        "lemma": "αἱ γενέσεις Σημ",
+        "flag": null,
+        "text": "The heading of 10:1 again, for Shem's line alone, as far as Abram."
+      },
+      {
+        "lemma": "δευτέρου ἔτους",
+        "flag": null,
+        "text": "The ordinal, one sense, plain, with no article, as the Greek has none."
+      },
+      {
+        "lemma": "ἑκατὸν ἐτῶν",
+        "flag": "variant",
+        "text": "[[flag]] Codex Alexandrinus alone puts ἐτῶν first."
+      }
+    ],
+    "reading": "And [[these|these, the nearer, what follows]] [[the origins|the origins, the sources, the productive causes, the beginnings, the manners of birth, the races and descents, the productions and generations, the creations and the created things]] of [[name:Σημ]]; [[name:Σημ]] son of a hundred years, [[when|when, sometimes]] [[begot|begot, engendered, brought forth, produced]] [[name:Αρφαξαδ]], of second year [[into the middle of|into the middle of, coming among, in pursuit and quest of, after]] [[the deluge|the deluge, the inundation]].",
+    "names": [
+      {
+        "greek": "Σημ",
+        "unanchored": "Sēm",
+        "anchored": "Shem",
+        "gloss": "(Σημ, from Hebrew Šēm, \"name\")"
+      },
+      {
+        "greek": "Αρφαξαδ",
+        "unanchored": "Arphaxad",
+        "anchored": "Arpachshad",
+        "gloss": "(Αρφαξαδ, from Hebrew ʾArpakšad, of uncertain meaning)"
+      }
+    ]
+  },
+  {
+    "ref": "GEN 11:11",
+    "greek": "καὶ ἔζησεν Σημ μετὰ τὸ γεννῆσαι αὐτὸν τὸν Αρφαξαδ πεντακόσια ἔτη καὶ ἐγέννησεν υἱοὺς καὶ θυγατέρας καὶ ἀπέθανεν.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 15",
+    "hint": "Shem lives five hundred years more.",
+    "notes": [
+      {
+        "lemma": "καὶ ἀπέθανεν",
+        "flag": "divergence",
+        "text": "[[flag]] The Hebrew's genealogy of Shem gives no death: *wayyôled bānîm ûbānôt*, *and he begot sons and daughters*, and no more. The Greek closes each life *and died off*, as chapter 5 does."
+      }
+    ],
+    "reading": "and [[lived|lived, was in full life and strength, was fresh and strong]] [[name:Σημ]] [[into the middle of|into the middle of, coming among, in pursuit and quest of, after]] [[to beget|to beget, to engender, to bring forth, to produce]] him [[name:Αρφαξαδ]] five hundred years and [[begot|begot, engendered, brought forth, produced]] sons and daughters and [[died off|died off, died, was put to death, was slain]].",
+    "names": [
+      {
+        "greek": "Σημ",
+        "unanchored": "Sēm",
+        "anchored": "Shem",
+        "bare": true
+      },
+      {
+        "greek": "Αρφαξαδ",
+        "unanchored": "Arphaxad",
+        "anchored": "Arpachshad",
+        "bare": true
+      }
+    ]
+  },
+  {
+    "ref": "GEN 11:12",
+    "greek": "Καὶ ἔζησεν Αρφαξαδ ἑκατὸν τριάκοντα πέντε ἔτη καὶ ἐγέννησεν τὸν Καιναν.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 15",
+    "hint": "Arphaxad begets Cainan.",
+    "notes": [
+      {
+        "lemma": "ἑκατὸν τριάκοντα πέντε",
+        "flag": "divergence",
+        "text": "[[flag]] The Hebrew has 35, and Arpachshad's son is Shelah."
+      },
+      {
+        "lemma": "Καιναν",
+        "flag": "name",
+        "text": "The Cainan of 10:22 and 10:24, and of Luke 3:36."
+      }
+    ],
+    "reading": "And [[lived|lived, was in full life and strength, was fresh and strong]] [[name:Αρφαξαδ]] a hundred thirty five years and [[begot|begot, engendered, brought forth, produced]] [[name:Καιναν]].",
+    "names": [
+      {
+        "greek": "Αρφαξαδ",
+        "unanchored": "Arphaxad",
+        "anchored": "Arpachshad",
+        "bare": true
+      },
+      {
+        "greek": "Καιναν",
+        "unanchored": "Kainan",
+        "anchored": "Cainan",
+        "gloss": "(Καιναν, a son of Arphaxad whom the Hebrew does not name; the name of 5:9, Hebrew Qênān)"
+      }
+    ]
+  },
+  {
+    "ref": "GEN 11:13",
+    "greek": "καὶ ἔζησεν Αρφαξαδ μετὰ τὸ γεννῆσαι αὐτὸν τὸν Καιναν ἔτη τετρακόσια τριάκοντα καὶ ἐγέννησεν υἱοὺς καὶ θυγατέρας καὶ ἀπέθανεν. Καὶ ἔζησεν Καιναν ἑκατὸν τριάκοντα ἔτη καὶ ἐγέννησεν τὸν Σαλα. καὶ ἔζησεν Καιναν μετὰ τὸ γεννῆσαι αὐτὸν τὸν Σαλα ἔτη τριακόσια τριάκοντα καὶ ἐγέννησεν υἱοὺς καὶ θυγατέρας καὶ ἀπέθανεν.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 15",
+    "hint": "Arphaxad's years, and Cainan's life, which the Hebrew does not have.",
+    "notes": [
+      {
+        "lemma": "τετρακόσια τριάκοντα",
+        "flag": "divergence",
+        "text": "[[flag]] The Hebrew has 403."
+      },
+      {
+        "lemma": "Καὶ ἔζησεν Καιναν … καὶ ἀπέθανεν",
+        "flag": "divergence",
+        "text": "[[flag]] Not in the Hebrew. The Greek gives Cainan a life in the frame of the others, *a hundred thirty years* and *three hundred thirty*; Rahlfs prints it as its own paragraph, with no verse number, inside 11:13."
+      },
+      {
+        "lemma": "Καὶ",
+        "flag": null,
+        "text": "Capitalised because it opens that paragraph, as Rahlfs prints it."
+      }
+    ],
+    "reading": "and [[lived|lived, was in full life and strength, was fresh and strong]] [[name:Αρφαξαδ]] [[into the middle of|into the middle of, coming among, in pursuit and quest of, after]] [[to beget|to beget, to engender, to bring forth, to produce]] him [[name:Καιναν]] years four hundred thirty and [[begot|begot, engendered, brought forth, produced]] sons and daughters and [[died off|died off, died, was put to death, was slain]]. And [[lived|lived, was in full life and strength, was fresh and strong]] [[name:Καιναν]] a hundred thirty years and [[begot|begot, engendered, brought forth, produced]] [[name:Σαλα]]. and [[lived|lived, was in full life and strength, was fresh and strong]] [[name:Καιναν]] [[into the middle of|into the middle of, coming among, in pursuit and quest of, after]] [[to beget|to beget, to engender, to bring forth, to produce]] him [[name:Σαλα]] years three hundred thirty and [[begot|begot, engendered, brought forth, produced]] sons and daughters and [[died off|died off, died, was put to death, was slain]].",
+    "names": [
+      {
+        "greek": "Αρφαξαδ",
+        "unanchored": "Arphaxad",
+        "anchored": "Arpachshad",
+        "bare": true
+      },
+      {
+        "greek": "Καιναν",
+        "unanchored": "Kainan",
+        "anchored": "Cainan",
+        "bare": true
+      },
+      {
+        "greek": "Σαλα",
+        "unanchored": "Sala",
+        "anchored": "Shelah",
+        "gloss": "(Σαλα, from Hebrew Šelaḥ, usually connected with šālaḥ, \"to send\")"
+      }
+    ]
+  },
+  {
+    "ref": "GEN 11:14",
+    "greek": "Καὶ ἔζησεν Σαλα ἑκατὸν τριάκοντα ἔτη καὶ ἐγέννησεν τὸν Εβερ.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 15",
+    "hint": "Shelah begets Eber.",
+    "notes": [
+      {
+        "lemma": "ἑκατὸν τριάκοντα",
+        "flag": "divergence",
+        "text": "[[flag]] The Hebrew has 30."
+      }
+    ],
+    "reading": "And [[lived|lived, was in full life and strength, was fresh and strong]] [[name:Σαλα]] a hundred thirty years and [[begot|begot, engendered, brought forth, produced]] [[name:Εβερ]].",
+    "names": [
+      {
+        "greek": "Σαλα",
+        "unanchored": "Sala",
+        "anchored": "Shelah",
+        "bare": true
+      },
+      {
+        "greek": "Εβερ",
+        "unanchored": "Eber",
+        "anchored": "Eber",
+        "gloss": "(Εβερ, from Hebrew ʿĒber, \"the region beyond\")"
+      }
+    ]
+  },
+  {
+    "ref": "GEN 11:15",
+    "greek": "καὶ ἔζησεν Σαλα μετὰ τὸ γεννῆσαι αὐτὸν τὸν Εβερ τριακόσια τριάκοντα ἔτη καὶ ἐγέννησεν υἱοὺς καὶ θυγατέρας καὶ ἀπέθανεν.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 15",
+    "hint": "Shelah's remaining years.",
+    "notes": [
+      {
+        "lemma": "τριακόσια τριάκοντα",
+        "flag": "divergence",
+        "text": "[[flag]] The Hebrew has 403."
+      }
+    ],
+    "reading": "and [[lived|lived, was in full life and strength, was fresh and strong]] [[name:Σαλα]] [[into the middle of|into the middle of, coming among, in pursuit and quest of, after]] [[to beget|to beget, to engender, to bring forth, to produce]] him [[name:Εβερ]] three hundred thirty years and [[begot|begot, engendered, brought forth, produced]] sons and daughters and [[died off|died off, died, was put to death, was slain]].",
+    "names": [
+      {
+        "greek": "Σαλα",
+        "unanchored": "Sala",
+        "anchored": "Shelah",
+        "bare": true
+      },
+      {
+        "greek": "Εβερ",
+        "unanchored": "Eber",
+        "anchored": "Eber",
+        "bare": true
+      }
+    ]
+  },
+  {
+    "ref": "GEN 11:16",
+    "greek": "Καὶ ἔζησεν Εβερ ἑκατὸν τριάκοντα τέσσαρα ἔτη καὶ ἐγέννησεν τὸν Φαλεκ.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 15",
+    "hint": "Eber begets Peleg.",
+    "notes": [
+      {
+        "lemma": "ἑκατὸν τριάκοντα τέσσαρα",
+        "flag": "divergence",
+        "text": "[[flag]] The Hebrew has 34."
+      }
+    ],
+    "reading": "And [[lived|lived, was in full life and strength, was fresh and strong]] [[name:Εβερ]] a hundred thirty four years and [[begot|begot, engendered, brought forth, produced]] [[name:Φαλεκ]].",
+    "names": [
+      {
+        "greek": "Εβερ",
+        "unanchored": "Eber",
+        "anchored": "Eber",
+        "bare": true
+      },
+      {
+        "greek": "Φαλεκ",
+        "unanchored": "Phalek",
+        "anchored": "Peleg",
+        "gloss": "(Φαλεκ, from Hebrew Peleg, \"division\", which 10:25 ties to pālag, \"to divide\")"
+      }
+    ]
+  },
+  {
+    "ref": "GEN 11:17",
+    "greek": "καὶ ἔζησεν Εβερ μετὰ τὸ γεννῆσαι αὐτὸν τὸν Φαλεκ ἔτη τριακόσια ἑβδομήκοντα καὶ ἐγέννησεν υἱοὺς καὶ θυγατέρας καὶ ἀπέθανεν.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 15",
+    "hint": "Eber's remaining years.",
+    "notes": [
+      {
+        "lemma": "τριακόσια ἑβδομήκοντα",
+        "flag": "divergence",
+        "text": "[[flag]] The Hebrew has 430."
+      }
+    ],
+    "reading": "and [[lived|lived, was in full life and strength, was fresh and strong]] [[name:Εβερ]] [[into the middle of|into the middle of, coming among, in pursuit and quest of, after]] [[to beget|to beget, to engender, to bring forth, to produce]] him [[name:Φαλεκ]] years three hundred seventy and [[begot|begot, engendered, brought forth, produced]] sons and daughters and [[died off|died off, died, was put to death, was slain]].",
+    "names": [
+      {
+        "greek": "Εβερ",
+        "unanchored": "Eber",
+        "anchored": "Eber",
+        "bare": true
+      },
+      {
+        "greek": "Φαλεκ",
+        "unanchored": "Phalek",
+        "anchored": "Peleg",
+        "bare": true
+      }
+    ]
+  },
+  {
+    "ref": "GEN 11:18",
+    "greek": "Καὶ ἔζησεν Φαλεκ ἑκατὸν τριάκοντα ἔτη καὶ ἐγέννησεν τὸν Ραγαυ.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 15",
+    "hint": "Peleg begets Reu.",
+    "notes": [
+      {
+        "lemma": "ἑκατὸν τριάκοντα",
+        "flag": "divergence",
+        "text": "[[flag]] The Hebrew has 30."
+      }
+    ],
+    "reading": "And [[lived|lived, was in full life and strength, was fresh and strong]] [[name:Φαλεκ]] a hundred thirty years and [[begot|begot, engendered, brought forth, produced]] [[name:Ραγαυ]].",
+    "names": [
+      {
+        "greek": "Φαλεκ",
+        "unanchored": "Phalek",
+        "anchored": "Peleg",
+        "bare": true
+      },
+      {
+        "greek": "Ραγαυ",
+        "unanchored": "Ragau",
+        "anchored": "Reu",
+        "gloss": "(Ραγαυ, from Hebrew Rĕʿû, usually connected with rēaʿ, \"friend\")"
+      }
+    ]
+  },
+  {
+    "ref": "GEN 11:19",
+    "greek": "καὶ ἔζησεν Φαλεκ μετὰ τὸ γεννῆσαι αὐτὸν τὸν Ραγαυ διακόσια ἐννέα ἔτη καὶ ἐγέννησεν υἱοὺς καὶ θυγατέρας καὶ ἀπέθανεν.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 15",
+    "hint": "Peleg's remaining years.",
+    "notes": [
+      {
+        "lemma": "διακόσια ἐννέα",
+        "flag": null,
+        "text": "209, as in the Hebrew."
+      }
+    ],
+    "reading": "and [[lived|lived, was in full life and strength, was fresh and strong]] [[name:Φαλεκ]] [[into the middle of|into the middle of, coming among, in pursuit and quest of, after]] [[to beget|to beget, to engender, to bring forth, to produce]] him [[name:Ραγαυ]] two hundred nine years and [[begot|begot, engendered, brought forth, produced]] sons and daughters and [[died off|died off, died, was put to death, was slain]].",
+    "names": [
+      {
+        "greek": "Φαλεκ",
+        "unanchored": "Phalek",
+        "anchored": "Peleg",
+        "bare": true
+      },
+      {
+        "greek": "Ραγαυ",
+        "unanchored": "Ragau",
+        "anchored": "Reu",
+        "bare": true
+      }
+    ]
+  },
+  {
+    "ref": "GEN 11:20",
+    "greek": "Καὶ ἔζησεν Ραγαυ ἑκατὸν τριάκοντα δύο ἔτη καὶ ἐγέννησεν τὸν Σερουχ.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 15",
+    "hint": "Reu begets Serug.",
+    "notes": [
+      {
+        "lemma": "ἑκατὸν τριάκοντα δύο",
+        "flag": "divergence",
+        "text": "[[flag]] The Hebrew has 32."
+      }
+    ],
+    "reading": "And [[lived|lived, was in full life and strength, was fresh and strong]] [[name:Ραγαυ]] a hundred thirty two years and [[begot|begot, engendered, brought forth, produced]] [[name:Σερουχ]].",
+    "names": [
+      {
+        "greek": "Ραγαυ",
+        "unanchored": "Ragau",
+        "anchored": "Reu",
+        "bare": true
+      },
+      {
+        "greek": "Σερουχ",
+        "unanchored": "Serouch",
+        "anchored": "Serug",
+        "gloss": "(Σερουχ, from Hebrew Śĕrûg, of uncertain meaning)"
+      }
+    ]
+  },
+  {
+    "ref": "GEN 11:21",
+    "greek": "καὶ ἔζησεν Ραγαυ μετὰ τὸ γεννῆσαι αὐτὸν τὸν Σερουχ διακόσια ἑπτὰ ἔτη καὶ ἐγέννησεν υἱοὺς καὶ θυγατέρας καὶ ἀπέθανεν.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 15",
+    "hint": "Reu's remaining years.",
+    "notes": [
+      {
+        "lemma": "διακόσια ἑπτά",
+        "flag": null,
+        "text": "207, as in the Hebrew."
+      }
+    ],
+    "reading": "and [[lived|lived, was in full life and strength, was fresh and strong]] [[name:Ραγαυ]] [[into the middle of|into the middle of, coming among, in pursuit and quest of, after]] [[to beget|to beget, to engender, to bring forth, to produce]] him [[name:Σερουχ]] two hundred seven years and [[begot|begot, engendered, brought forth, produced]] sons and daughters and [[died off|died off, died, was put to death, was slain]].",
+    "names": [
+      {
+        "greek": "Ραγαυ",
+        "unanchored": "Ragau",
+        "anchored": "Reu",
+        "bare": true
+      },
+      {
+        "greek": "Σερουχ",
+        "unanchored": "Serouch",
+        "anchored": "Serug",
+        "bare": true
+      }
+    ]
+  },
+  {
+    "ref": "GEN 11:22",
+    "greek": "Καὶ ἔζησεν Σερουχ ἑκατὸν τριάκοντα ἔτη καὶ ἐγέννησεν τὸν Ναχωρ.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 15",
+    "hint": "Serug begets Nahor.",
+    "notes": [
+      {
+        "lemma": "ἑκατὸν τριάκοντα",
+        "flag": "divergence",
+        "text": "[[flag]] The Hebrew has 30."
+      }
+    ],
+    "reading": "And [[lived|lived, was in full life and strength, was fresh and strong]] [[name:Σερουχ]] a hundred thirty years and [[begot|begot, engendered, brought forth, produced]] [[name:Ναχωρ]].",
+    "names": [
+      {
+        "greek": "Σερουχ",
+        "unanchored": "Serouch",
+        "anchored": "Serug",
+        "bare": true
+      },
+      {
+        "greek": "Ναχωρ",
+        "unanchored": "Nachōr",
+        "anchored": "Nahor",
+        "gloss": "(Ναχωρ, from Hebrew Nāḥôr, of uncertain meaning)"
+      }
+    ]
+  },
+  {
+    "ref": "GEN 11:23",
+    "greek": "καὶ ἔζησεν Σερουχ μετὰ τὸ γεννῆσαι αὐτὸν τὸν Ναχωρ ἔτη διακόσια καὶ ἐγέννησεν υἱοὺς καὶ θυγατέρας καὶ ἀπέθανεν.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 15",
+    "hint": "Serug's remaining years.",
+    "notes": [
+      {
+        "lemma": "ἔτη διακόσια",
+        "flag": null,
+        "text": "200, as in the Hebrew."
+      }
+    ],
+    "reading": "and [[lived|lived, was in full life and strength, was fresh and strong]] [[name:Σερουχ]] [[into the middle of|into the middle of, coming among, in pursuit and quest of, after]] [[to beget|to beget, to engender, to bring forth, to produce]] him [[name:Ναχωρ]] years two hundred and [[begot|begot, engendered, brought forth, produced]] sons and daughters and [[died off|died off, died, was put to death, was slain]].",
+    "names": [
+      {
+        "greek": "Σερουχ",
+        "unanchored": "Serouch",
+        "anchored": "Serug",
+        "bare": true
+      },
+      {
+        "greek": "Ναχωρ",
+        "unanchored": "Nachōr",
+        "anchored": "Nahor",
+        "bare": true
+      }
+    ]
+  },
+  {
+    "ref": "GEN 11:24",
+    "greek": "Καὶ ἔζησεν Ναχωρ ἔτη ἑβδομήκοντα ἐννέα καὶ ἐγέννησεν τὸν Θαρα.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 16",
+    "hint": "Nahor begets Terah.",
+    "notes": [
+      {
+        "lemma": "ἑβδομήκοντα ἐννέα",
+        "flag": "divergence",
+        "text": "[[flag]] The Hebrew has 29."
+      }
+    ],
+    "reading": "And [[lived|lived, was in full life and strength, was fresh and strong]] [[name:Ναχωρ]] years seventy nine and [[begot|begot, engendered, brought forth, produced]] [[name:Θαρα]].",
+    "names": [
+      {
+        "greek": "Ναχωρ",
+        "unanchored": "Nachōr",
+        "anchored": "Nahor",
+        "bare": true
+      },
+      {
+        "greek": "Θαρα",
+        "unanchored": "Thara",
+        "anchored": "Terah",
+        "gloss": "(Θαρα, from Hebrew Teraḥ, of uncertain meaning)"
+      }
+    ]
+  },
+  {
+    "ref": "GEN 11:25",
+    "greek": "καὶ ἔζησεν Ναχωρ μετὰ τὸ γεννῆσαι αὐτὸν τὸν Θαρα ἔτη ἑκατὸν εἴκοσι ἐννέα καὶ ἐγέννησεν υἱοὺς καὶ θυγατέρας καὶ ἀπέθανεν.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 16",
+    "hint": "Nahor's remaining years.",
+    "notes": [
+      {
+        "lemma": "ἑκατὸν εἴκοσι ἐννέα",
+        "flag": "divergence",
+        "text": "[[flag]] The Hebrew has 119."
+      }
+    ],
+    "reading": "and [[lived|lived, was in full life and strength, was fresh and strong]] [[name:Ναχωρ]] [[into the middle of|into the middle of, coming among, in pursuit and quest of, after]] [[to beget|to beget, to engender, to bring forth, to produce]] him [[name:Θαρα]] years a hundred twenty nine and [[begot|begot, engendered, brought forth, produced]] sons and daughters and [[died off|died off, died, was put to death, was slain]].",
+    "names": [
+      {
+        "greek": "Ναχωρ",
+        "unanchored": "Nachōr",
+        "anchored": "Nahor",
+        "bare": true
+      },
+      {
+        "greek": "Θαρα",
+        "unanchored": "Thara",
+        "anchored": "Terah",
+        "bare": true
+      }
+    ]
+  },
+  {
+    "ref": "GEN 11:26",
+    "greek": "Καὶ ἔζησεν Θαρα ἑβδομήκοντα ἔτη καὶ ἐγέννησεν τὸν Αβραμ καὶ τὸν Ναχωρ καὶ τὸν Αρραν.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 16",
+    "hint": "Terah begets Abram, Nahor and Haran.",
+    "notes": [
+      {
+        "lemma": "ἑβδομήκοντα",
+        "flag": null,
+        "text": "70, as in the Hebrew."
+      },
+      {
+        "lemma": "τὸν Ναχωρ",
+        "flag": null,
+        "text": "Abram's brother has the name of his grandfather at 11:22–25, Hebrew *Nāḥôr*, in both texts."
+      }
+    ],
+    "reading": "And [[lived|lived, was in full life and strength, was fresh and strong]] [[name:Θαρα]] seventy years and [[begot|begot, engendered, brought forth, produced]] [[name:Αβραμ]] and [[name:Ναχωρ]] and [[name:Αρραν]].",
+    "names": [
+      {
+        "greek": "Θαρα",
+        "unanchored": "Thara",
+        "anchored": "Terah",
+        "bare": true
+      },
+      {
+        "greek": "Αβραμ",
+        "unanchored": "Abram",
+        "anchored": "Abram",
+        "gloss": "(Αβραμ, from Hebrew ʾAbrām, \"the father is exalted\")"
+      },
+      {
+        "greek": "Ναχωρ",
+        "unanchored": "Nachōr",
+        "anchored": "Nahor",
+        "bare": true
+      },
+      {
+        "greek": "Αρραν",
+        "unanchored": "Arran",
+        "anchored": "Haran",
+        "gloss": "(Αρραν, from Hebrew Hārān, of uncertain meaning)"
+      }
+    ]
+  },
+  {
+    "ref": "GEN 11:27",
+    "greek": "Αὗται δὲ αἱ γενέσεις Θαρα· Θαρα ἐγέννησεν τὸν Αβραμ καὶ τὸν Ναχωρ καὶ τὸν Αρραν, καὶ Αρραν ἐγέννησεν τὸν Λωτ.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 16",
+    "hint": "The origins of Terah; Haran begets Lot.",
+    "notes": [
+      {
+        "lemma": "Αὗται δὲ αἱ γενέσεις Θαρα",
+        "flag": null,
+        "text": "The heading of 6:9, 10:1 and 11:10, for the Hebrew *tôlĕdōt*."
+      },
+      {
+        "lemma": "Θαρα ἐγέννησεν",
+        "flag": "variant",
+        "text": "[[flag]] Codex Alexandrinus adds δέ after the second Θαρα; the Berlin papyrus, 911, does not."
+      }
+    ],
+    "reading": "[[these|these, the nearer, what follows]] [[but|but, however, whereas, on the other hand]], [[the origins|the origins, the sources, the productive causes, the beginnings, the manners of birth, the races and descents, the productions and generations, the creations and the created things]] of [[name:Θαρα]]; [[name:Θαρα]] [[begot|begot, engendered, brought forth, produced]] [[name:Αβραμ]] and [[name:Ναχωρ]] and [[name:Αρραν]], and [[name:Αρραν]] [[begot|begot, engendered, brought forth, produced]] [[name:Λωτ]].",
+    "names": [
+      {
+        "greek": "Θαρα",
+        "unanchored": "Thara",
+        "anchored": "Terah",
+        "bare": true
+      },
+      {
+        "greek": "Αβραμ",
+        "unanchored": "Abram",
+        "anchored": "Abram",
+        "bare": true
+      },
+      {
+        "greek": "Ναχωρ",
+        "unanchored": "Nachōr",
+        "anchored": "Nahor",
+        "bare": true
+      },
+      {
+        "greek": "Αρραν",
+        "unanchored": "Arran",
+        "anchored": "Haran",
+        "bare": true
+      },
+      {
+        "greek": "Λωτ",
+        "unanchored": "Lōt",
+        "anchored": "Lot",
+        "gloss": "(Λωτ, from Hebrew Lôṭ, of uncertain meaning)"
+      }
+    ]
+  },
+  {
+    "ref": "GEN 11:28",
+    "greek": "καὶ ἀπέθανεν Αρραν ἐνώπιον Θαρα τοῦ πατρὸς αὐτοῦ ἐν τῇ γῇ, ᾗ ἐγενήθη, ἐν τῇ χώρᾳ τῶν Χαλδαίων.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 16",
+    "hint": "Haran dies before his father, in the land of the Chaldeans.",
+    "notes": [
+      {
+        "lemma": "ἐν τῇ χώρᾳ τῶν Χαλδαίων",
+        "flag": "divergence",
+        "text": "[[flag]] The Hebrew is *bĕʾûr kaśdîm*, *in Ur of the Chaldeans*. The Greek has *in the land of the Chaldeans*, and so does Stephen at Acts 7:4, ἐξελθὼν ἐκ γῆς Χαλδαίων."
+      },
+      {
+        "lemma": "ἐνώπιον",
+        "flag": null,
+        "text": "Filed inside ἐνώπιος, whose one tagged translation is *face to face*; the preposition, *like Lat. coram*, is given no English. One translation, so plain text."
+      },
+      {
+        "lemma": "ᾗ ἐγενήθη",
+        "flag": null,
+        "text": "The Hebrew *môladtô*, *his birth*: *in which he came into being*."
+      }
+    ],
+    "reading": "and [[died off|died off, died, was put to death, was slain]] [[name:Αρραν]] face to face of [[name:Θαρα]] [[of the father|of the father, of the grandfather]] of him [[in the earth|within, inside of, and by means of the land, the dry ground, the terrestrial realm]], in which [[came into being|came to be, arose, was brought into existence]], [[in the space in which a thing is|within, inside of, and by means of the space in which a thing is, the place, the position and post, the place in life and station, the land and country, the piece of land and estate and farm, the country]] of [[name:Χαλδαίων]].",
+    "names": [
+      {
+        "greek": "Αρραν",
+        "unanchored": "Arran",
+        "anchored": "Haran",
+        "bare": true
+      },
+      {
+        "greek": "Θαρα",
+        "unanchored": "Thara",
+        "anchored": "Terah",
+        "bare": true
+      },
+      {
+        "greek": "Χαλδαίων",
+        "unanchored": "Chaldaiōn",
+        "anchored": "Chaldeans",
+        "gloss": "(Χαλδαῖος, the Greek name of Hebrew Kaśdîm)"
+      }
+    ]
+  },
+  {
+    "ref": "GEN 11:29",
+    "greek": "καὶ ἔλαβον Αβραμ καὶ Ναχωρ ἑαυτοῖς γυναῖκας· ὄνομα τῇ γυναικὶ Αβραμ Σαρα, καὶ ὄνομα τῇ γυναικὶ Ναχωρ Μελχα θυγάτηρ Αρραν, πατὴρ Μελχα καὶ πατὴρ Ιεσχα.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 16",
+    "hint": "Abram takes Sarai, and Nahor takes Milcah.",
+    "notes": [
+      {
+        "lemma": "Σαρα",
+        "flag": "name",
+        "text": "Hebrew *Śāray*, Sarai; the Greek Σάρρα, Sarah, of 17:15 and the New Testament, is a different spelling for the changed name."
+      },
+      {
+        "lemma": "πατὴρ Μελχα",
+        "flag": "variant",
+        "text": "[[flag]] Codex Alexandrinus reads καί before the first πατήρ; the Berlin papyrus, 911, alone does not."
+      }
+    ],
+    "reading": "and [[took|took, received, took hold of and grasped and seized]] [[name:Αβραμ]] and [[name:Ναχωρ]] for themselves [[women|women, mistresses and ladies, wives and spouses, mortal women]]; [[a name|a name, fame, a mere name, a phrase and expression]] [[to the woman|to the woman, to the mistress and lady, to the wife and spouse, to the mortal woman]] of [[name:Αβραμ]] [[name:Σαρα]], and [[a name|a name, fame, a mere name, a phrase and expression]] [[to the woman|to the woman, to the mistress and lady, to the wife and spouse, to the mortal woman]] of [[name:Ναχωρ]] [[name:Μελχα]] daughter of [[name:Αρραν]], [[father|father, grandfather]] of [[name:Μελχα]] and [[father|father, grandfather]] of [[name:Ιεσχα]].",
+    "names": [
+      {
+        "greek": "Αβραμ",
+        "unanchored": "Abram",
+        "anchored": "Abram",
+        "bare": true
+      },
+      {
+        "greek": "Ναχωρ",
+        "unanchored": "Nachōr",
+        "anchored": "Nahor",
+        "bare": true
+      },
+      {
+        "greek": "Σαρα",
+        "unanchored": "Sara",
+        "anchored": "Sarai",
+        "gloss": "(Σαρα, from Hebrew Śāray, usually connected with śārâ, \"princess\")"
+      },
+      {
+        "greek": "Μελχα",
+        "unanchored": "Melcha",
+        "anchored": "Milcah",
+        "gloss": "(Μελχα, from Hebrew Milkâ, usually connected with malkâ, \"queen\")"
+      },
+      {
+        "greek": "Αρραν",
+        "unanchored": "Arran",
+        "anchored": "Haran",
+        "bare": true
+      },
+      {
+        "greek": "Ιεσχα",
+        "unanchored": "Iescha",
+        "anchored": "Iscah",
+        "gloss": "(Ιεσχα, from Hebrew Yiskâ, of uncertain meaning)"
+      }
+    ]
+  },
+  {
+    "ref": "GEN 11:30",
+    "greek": "καὶ ἦν Σαρα στεῖρα καὶ οὐκ ἐτεκνοποίει.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 16",
+    "hint": "Sarai is barren.",
+    "notes": [
+      {
+        "lemma": "στεῖρα",
+        "flag": null,
+        "text": "Middle Liddell files it under itself: *a cow that has not calved*, and *of a woman, barren*, citing the New Testament. The first translation heads; the sense the verse uses follows."
+      },
+      {
+        "lemma": "οὐκ ἐτεκνοποίει",
+        "flag": null,
+        "text": "τεκνοποιέω in the active is *to bear children*, of the woman, and that is its one active sense, so plain text. The Hebrew is *ʾên lāh wālād*, *she had no child*."
+      }
+    ],
+    "reading": "and was, and kept on being as a standing and continuing condition and not a momentary one, [[name:Σαρα]] [[a cow that has not calved|a cow that has not calved, barren]] and not was bearing children.",
+    "names": [
+      {
+        "greek": "Σαρα",
+        "unanchored": "Sara",
+        "anchored": "Sarai",
+        "bare": true
+      }
+    ]
+  },
+  {
+    "ref": "GEN 11:31",
+    "greek": "καὶ ἔλαβεν Θαρα τὸν Αβραμ υἱὸν αὐτοῦ καὶ τὸν Λωτ υἱὸν Αρραν υἱὸν τοῦ υἱοῦ αὐτοῦ καὶ τὴν Σαραν τὴν νύμφην αὐτοῦ γυναῖκα Αβραμ τοῦ υἱοῦ αὐτοῦ καὶ ἐξήγαγεν αὐτοὺς ἐκ τῆς χώρας τῶν Χαλδαίων πορευθῆναι εἰς τὴν γῆν Χανααν καὶ ἦλθεν ἕως Χαρραν καὶ κατῴκησεν ἐκεῖ.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 16",
+    "hint": "Terah takes his family out of the land of the Chaldeans, toward Canaan, as far as Haran.",
+    "notes": [
+      {
+        "lemma": "ἐκ τῆς χώρας τῶν Χαλδαίων",
+        "flag": "divergence",
+        "text": "[[flag]] The Hebrew is *mēʾûr kaśdîm*, *from Ur of the Chaldeans*, as at 11:28."
+      },
+      {
+        "lemma": "καὶ ἐξήγαγεν αὐτούς",
+        "flag": "divergence",
+        "text": "[[flag]] The Hebrew is *wayyēṣĕʾû ʾittām*, *and they went out with them*. The Greek has Terah *lead them out*."
+      },
+      {
+        "lemma": "τὴν νύμφην αὐτοῦ",
+        "flag": null,
+        "text": "νύμφη is *a young wife, bride* first; *daughter-in-law*, the verse's sense, is the entry's fourth, which Perseus leaves untagged."
+      },
+      {
+        "lemma": "υἱὸν αὐτοῦ … γυναῖκα Αβραμ",
+        "flag": "variant",
+        "text": "[[flag]] Codex Alexandrinus reads τόν before the first υἱόν, and alone leaves out the second Αβραμ."
+      }
+    ],
+    "reading": "and [[took|took, received, took hold of and grasped and seized]] [[name:Θαρα]] [[name:Αβραμ]] son of him and [[name:Λωτ]] son of [[name:Αρραν]] son of the son of him and [[name:Σαραν]] [[the young wife|the young wife and bride, the married woman, the marriageable maiden, the nymph, the chrysalis and pupa]] of him [[a woman|a woman, a mistress and lady, a wife and spouse, a mortal woman]] of [[name:Αβραμ]] of the son of him and [[led out|led out, led and carried out from, brought forth into the world, marched out, ejected, carried out and exported, drew off, called forth and excited, led on and tempted]] them [[out of|out of, forth from, from]] [[of the space in which a thing is|of the space in which a thing is, of the place, of the position and post, of the place in life and station, of the land and country, of the piece of land and estate and farm, of the country]] of [[name:Χαλδαίων]] [[to be driven|to be driven, to be carried, to go, to walk, to march, to go across and pass]] [[into|into, to, in, rest in]] [[the earth|the land, the dry ground, the terrestrial realm]] [[name:Χανααν]] and [[came|came, went, went back and returned, was going to and intended, came within a little of and was near]] [[until|until, till, while, so long as]] [[name:Χαρραν]] and [[dwelt in|dwelt in, settled in, colonised, inhabited, settled and dwelt, lay and was situate]] [[there|there, in that place]].",
+    "names": [
+      {
+        "greek": "Θαρα",
+        "unanchored": "Thara",
+        "anchored": "Terah",
+        "bare": true
+      },
+      {
+        "greek": "Αβραμ",
+        "unanchored": "Abram",
+        "anchored": "Abram",
+        "bare": true
+      },
+      {
+        "greek": "Λωτ",
+        "unanchored": "Lōt",
+        "anchored": "Lot",
+        "bare": true
+      },
+      {
+        "greek": "Αρραν",
+        "unanchored": "Arran",
+        "anchored": "Haran",
+        "bare": true
+      },
+      {
+        "greek": "Σαραν",
+        "unanchored": "Saran",
+        "anchored": "Sarai",
+        "bare": true
+      },
+      {
+        "greek": "Χαλδαίων",
+        "unanchored": "Chaldaiōn",
+        "anchored": "Chaldeans",
+        "bare": true
+      },
+      {
+        "greek": "Χανααν",
+        "unanchored": "Chanaan",
+        "anchored": "Canaan",
+        "gloss": "(Χανααν, from Hebrew Kĕnaʿan, of uncertain meaning)"
+      },
+      {
+        "greek": "Χαρραν",
+        "unanchored": "Charran",
+        "anchored": "Haran",
+        "gloss": "(Χαρραν, from Hebrew Ḥārān, the city Harran)"
+      }
+    ]
+  },
+  {
+    "ref": "GEN 11:32",
+    "greek": "καὶ ἐγένοντο αἱ ἡμέραι Θαρα ἐν Χαρραν διακόσια πέντε ἔτη, καὶ ἀπέθανεν Θαρα ἐν Χαρραν.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 16",
+    "hint": "Terah dies in Haran.",
+    "notes": [
+      {
+        "lemma": "διακόσια πέντε",
+        "flag": null,
+        "text": "205, as in the Hebrew."
+      },
+      {
+        "lemma": "ἐν Χαρραν",
+        "flag": null,
+        "text": "The city is Stephen's Χαρράν at Acts 7:2 and 7:4, Hebrew *Ḥārān*; Abram's brother is *Hārān*, Αρραν."
+      }
+    ],
+    "reading": "and [[came into being|came to be, arose, were brought into existence]] [[the days|the days, the day-breaks, the times]] of [[name:Θαρα]] in [[name:Χαρραν]] two hundred five years, and [[died off|died off, died, was put to death, was slain]] [[name:Θαρα]] in [[name:Χαρραν]].",
+    "names": [
+      {
+        "greek": "Θαρα",
+        "unanchored": "Thara",
+        "anchored": "Terah",
+        "bare": true
+      },
+      {
+        "greek": "Χαρραν",
+        "unanchored": "Charran",
+        "anchored": "Haran",
+        "bare": true
+      }
+    ]
+  }
+]
