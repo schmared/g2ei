@@ -170,6 +170,8 @@ Three reasons, and all of them are the lexicon's filing rather than a decision a
 | ἐπιλαμβάνομαι (GEN 25:26) | ἐπιλαμβάνω | MorphGNT's middle, filed under the active |
 | πρεσβύτης (GEN 25:8) | πρέσβυς | cross-reference; "= πρέσβυς I" |
 | ἕψεμα (GEN 25:29) | ἕψημα | LSJ: "late form of ἕψημα" |
+| καλῶς (GEN 26:29) | καλός | the adverb, filed inside the adjective's entry |
+| ἐχθρία (GEN 26:21) | ἔχθρη | LSJ: "late form of ἔχθρα", whose entry is headed with the Ionic ἔχθρη |
 <!-- spelling rows above -->
 
 The dictionary form itself does not follow the lexicon's filing: it keeps the spelling the text
@@ -203,7 +205,7 @@ GEN 9 adds ὀπισθοφανής, *seen from behind*, and its adverb ὀπισ
 ἔτασις, *trial, affliction*. GEN 14 adds ἁλυκός, *salt, brackish*; ἀποσκευή, whose *removal,
 riddance* comes before *baggage*; σφαιρωτήρ, *thong, latchet*; and περάτης, which opens "= πορθμεύς",
 so that πορθμεύς's LSJ senses, *ferryman*, *boatman, seaman*, *conveyer*, stand before its own
-*wanderer, emigrant*, as ἁγίζω's stand for ἁγιάζω. GEN 15 adds ὑπερασπίζω, *cover with a shield*, from the upsilon file; τριετίζω, *to be three years old*; and διχοτόμημα, *half of a thing cut in two*. GEN 17 adds κατάσχεσις, *holding back, restraining, retention*, then *possession*, from the kappa file; and ἑκατονταέτης, *of a hundred years*, *years old*, citing 17:17. GEN 18 adds μοσχάριον, *little calf*, and, from the beta file, βούτυρον, *butter*, then *a plant*. GEN 19 adds προσοίγνυμι, *shut*; ἀορασία, *inability to see, blindness*; γελοιάζω, *jest*, from the gamma file; ἐπαύριον, *on the morrow*; and εἰσσπάομαι, *draw into oneself*. GEN 20 adds μήτρα, *womb*, whose Middle Liddell entry tags only Latin; δίδραχμον, *coin of two drachms*, under δίδραχμος; and κἀγώ, *crasis for καὶ ἐγώ*. GEN 21 adds ἀπογαλακτίζω, *wean from the mother's milk*; ἀρχιστράτηγος, *commander-in-chief*; and, from the omega file, ὦμος, *the shoulder with the upper arm*. GEN 23 adds παρεπίδημος, *sojourning in a strange place*, and μνημεῖον, *memorial, remembrance, record*, whose Middle Liddell entry tags its first sense only in Latin. GEN 24 adds ποτιστήριον, *drinking-trough for cattle*; ἐνώτιον, *ear-ring*; ἅβρα, *favourite slave*; and ἀποσάττω, *unsaddle, unpack*, *stop up, caulk*, *stuff with food*. GEN 25 adds three more: ὅλος, which Middle Liddell lacks altogether, *whole, entire, complete in all its parts*; δόμα, *gift*, then *payment*; and πυρράκης, *red, ruddy*, which LSJ files as a masculine noun.
+*wanderer, emigrant*, as ἁγίζω's stand for ἁγιάζω. GEN 15 adds ὑπερασπίζω, *cover with a shield*, from the upsilon file; τριετίζω, *to be three years old*; and διχοτόμημα, *half of a thing cut in two*. GEN 17 adds κατάσχεσις, *holding back, restraining, retention*, then *possession*, from the kappa file; and ἑκατονταέτης, *of a hundred years*, *years old*, citing 17:17. GEN 18 adds μοσχάριον, *little calf*, and, from the beta file, βούτυρον, *butter*, then *a plant*. GEN 19 adds προσοίγνυμι, *shut*; ἀορασία, *inability to see, blindness*; γελοιάζω, *jest*, from the gamma file; ἐπαύριον, *on the morrow*; and εἰσσπάομαι, *draw into oneself*. GEN 20 adds μήτρα, *womb*, whose Middle Liddell entry tags only Latin; δίδραχμον, *coin of two drachms*, under δίδραχμος; and κἀγώ, *crasis for καὶ ἐγώ*. GEN 21 adds ἀπογαλακτίζω, *wean from the mother's milk*; ἀρχιστράτηγος, *commander-in-chief*; and, from the omega file, ὦμος, *the shoulder with the upper arm*. GEN 23 adds παρεπίδημος, *sojourning in a strange place*, and μνημεῖον, *memorial, remembrance, record*, whose Middle Liddell entry tags its first sense only in Latin. GEN 24 adds ποτιστήριον, *drinking-trough for cattle*; ἐνώτιον, *ear-ring*; ἅβρα, *favourite slave*; and ἀποσάττω, *unsaddle, unpack*, *stop up, caulk*, *stuff with food*. GEN 25 adds three more: ὅλος, which Middle Liddell lacks altogether, *whole, entire, complete in all its parts*; δόμα, *gift*, then *payment*; and πυρράκης, *red, ruddy*, which LSJ files as a masculine noun. GEN 26 adds ἑκατοστεύω, *bear a hundredfold*, and γεώργιον, *field*, then *orchard*, *husbandry*, *crop* and, in the plural, a *tax* on land.
 <!-- LSJ sentences above -->
 
 GEN 9 also files ἐμεθύσθη under μεθύσκω, *to make drunk*, where Middle Liddell gives its aorist
@@ -603,6 +605,113 @@ the same ground as `the sixth` and `the seventh`: one sense each, so no range to
   settling in` (10:30); δύο `two`; υἱός `sons`.
 - The article before a people's name (τοὺς Λουδιιμ, τὸν Χετταῖον, τῶν Χαναναίων) is not printed,
   as before a person's name.
+
+### Words new in GEN 26
+
+- νόμιμος — τὰ νόμιμα is the adjective used as a noun, so it takes the entry's noun sense, *usages,
+  customs*, and then *funeral rites*. 26:5.
+- πρόσταγμα, ἐντολή, δικαίωμα, νόμιμος — four words in a row for the Hebrew's *mišmartî miṣwōtay
+  ḥuqqôtay wĕtôrōtāy*, each with its own chain. 26:5.
+- ὅρκος and its names — the well of 26:33 is named Ὅρκος, and the city Φρέαρ ὅρκου: Greek words
+  Rahlfs prints as names, so they keep their capitals in the lemma and carry a name's gloss, as
+  Ἀδικία, Ἐχθρία and Εὐρυχωρία do at 26:20–22.
+- ἁπτόμενος — the middle of ἅπτω, *to fasten oneself to, touch*, as at 3:3. 26:11.
+- ἐκρίνοντο — κρίνω in the middle: *were being separated*, of a dispute. 26:21.
+- ὑπὸ κυρίου — ὑπό with the genitive, whose first sense is *from under*; *by*, of the agent, is
+  inside that sense. 26:29.
+- μικροῦ — the adverbial genitive, *within a little*: `of small`. 26:10.
+- ποιήσειν — the future infinitive, with the present infinitive's chain, as ἀδικήσειν at 21:23. 26:29.
+- ἕως οὗ — ἕως with the relative in the genitive, *until which*. 26:13; and at 26:32 the relative is
+  drawn into the genitive after φρέατος.
+- Names: Αβιμελεχ and Φικολ and Οχοζαθ again, as at 21:22; Γεραρα, which declines as a neuter plural
+  (Γεραροις, Γεραρων), as at 20:1 — GEN 10:19's Γεραρα was brought into line with it; Ιουδιν, Βεηρ,
+  Βασεμμαθ, Αιλων, and Ευαῖος the Hivite, whose breathing Rahlfs leaves off. 26:1–34.
+- One sense each in GEN 26, so plain text: ἐνευλογέω `will be blessed in` (26:4), as at 22:18;
+  ἑκατοστεύω `bearing a hundredfold` (26:12, LSJ); ἐμφράσσω `blocked up` (26:15, 26:18); καθότι
+  `in what manner` (26:29); ὕδωρ `water`; θυσιαστήριον `an altar` (26:25).
+
+| lemma | headword | chain | used |
+| --- | --- | --- | --- |
+| αὐξάνω | `made large` | `made large, increased, augmented, increased in power and strengthened and exalted and aggrandised, promoted to honour and glorified and magnified` | 26:22 |
+| βασιλεύς | `the king` | `the king, the chief, the hereditary king, the lord and master and householder, the second of the nine archons, the king of Persia` | 26:8 |
+| βδελύσσομαι | `we felt nausea` | `we felt nausea, we were sick, we felt a loathing at and loathed` | 26:29 |
+| βοῦς | `of oxen` | `of oxen, of cows, of ox-hide shields` | 26:14 |
+| γέ | `at least` | `at least, at any rate, at all events` | 26:9 |
+| γεώργιον | `fields` | `fields, orchards, husbandries, crops, taxes` | 26:14 |
+| διατίθεμαι | `we will dispose` | `we will dispose, we will make a will, we will arrange, we will covenant` | 26:28 |
+| δικαίωμα | `the acts by which wrong is set right` | `the acts by which wrong is set right, the judgments and punishments and penalties, the pleas of right, the justifications, the ordinances and decrees` | 26:5 |
+| διότι | `for the reason that` | `for the reason that, since, wherefore and for what reason, that` | 26:22 |
+| δοχή | `a receiving` | `a receiving, a reception, an entertainment, a feast` | 26:30 |
+| δυνατός | `stronger` | `stronger, mightier, abler, more powerful, more possible, more practicable` | 26:16 |
+| εὐλογέω | `I have spoken well of` | `I have spoken well of and it stands so, I have praised and it stands so, I have honoured and it stands so, I have blessed and it stands so` | 26:24 |
+| εὑρίσκω | `we found` | `we found, we found out, we discovered` | 26:32 |
+| ζηλόω | `rivalled` | `rivalled, vied with, emulated, were jealous of and envied, pronounced happy and admired and praised, desired emulously and strove after, were impelled by zeal` | 26:14 |
+| θάνατος | `of death` | `of death, of the death threatened, of the sentence of death` | 26:11 |
+| θυρίς | `of the little door` | `of the little door, of the window` | 26:8 |
+| καθότι | `in what manner` | `in what manner` | 26:29 |
+| κακός | `bad` | `bad, mean and ugly, ill-born and mean and ignoble, craven and cowardly and base, worthless and sorry and poor, evil and wicked, baneful and unlucky and abusive` | 26:29 |
+| καλῶς | `well` | `well, rightly, well and happily, right well, rightly and deservedly` | 26:29 |
+| καταβαίνω | `you may step down` | `you may step down, you may go and come down, you may go down from, you may dismount, you may come down stairs, you may go down from the inland parts to the sea, you may come to land and get safe ashore, you may go down into the arena, you may come down from the tribune, you may come to, you may end` | 26:2 |
+| καταλύω | `put down` | `put down, destroyed, dissolved and broke up, deposed, dismissed and disbanded, neglected, ended and brought to an end, broke, made peace with, unloosed and unyoked, took down, took up his quarters and lodged, went and lodged, took his rest` | 26:17 |
+| κρίνω | `were being separated` | `were being separated, were being picked out and chosen, were being decided, were being judged, were being adjudged, were being judged of and estimated, were being expounded and interpreted` | 26:21 |
+| κριθή | `barley-corns` | `barley-corns, barley, beer` | 26:12 |
+| κτῆνος | `flocks and herds` | `flocks and herds, single beasts, oxen, sheep, beasts for riding` | 26:14 |
+| λέγω | `we said` | `we said, we spoke, we declared, we called by name, we told` | 26:28 |
+| λιμός | `of the hunger` | `of the hunger, of the famine` | 26:1 |
+| μάχομαι | `fought` | `fought, fought with, quarrelled and wrangled and disputed, opposed and gainsaid, contended for the mastery` | 26:20, 26:22 |
+| μισέω | `you hated` | `you hated` | 26:27 |
+| νόμιμος | `the usages` | `the usages, the customs, the funeral rites` | 26:5 |
+| πάλιν | `back` | `back, again, once more, over again` | 26:18 |
+| πήγνυμι | `made fast` | `made fast, fixed in the earth and planted, fastened together and constructed and built, made solid and stiff and hard, froze, became solid and stiff, became congealed and froze` | 26:25 |
+| παραγίνομαι | `having come to be beside` | `having come to be beside, having come up and arrived, having come to help, having been present, having stood by` | 26:32 |
+| παρακύπτω | `having stooped sideways` | `having stooped sideways, having stooped for the purpose of looking at, having looked sideways at and cast a careless glance on, having peeped out of, having peeped in and looked in` | 26:8 |
+| παροικέω | `dwell beside` | `dwell beside, dwell along the coast of, live near, dwell among, lie near, live in and sojourn` | 26:3 |
+| πλατύνω | `made broad` | `made broad, widened, enlarged` | 26:22 |
+| ποιμήν | `of the herdsmen` | `of the herdsmen, of the shepherds, of the leaders and chiefs` | 26:20 |
+| ποιμήν | `the herdsmen` | `the herdsmen, the shepherds, the leaders and chiefs` | 26:20 |
+| πολυχρόνιος | `long-existing` | `long-existing, of olden time, ancient, lasting for long` | 26:8 |
+| προβαίνω | `stepping on` | `stepping on, stepping forward, advancing, proceeding, going before, being before and superior to, overstepping` | 26:13 |
+| πρόβατον | `of things that walk forward` | `of things that walk forward, of cattle, of flocks and herds, of horses, of small cattle, of sheep` | 26:14 |
+| πρόσταγμα | `the ordinances` | `the ordinances, the commands` | 26:5 |
+| πρότερος | `before` | `before, in front, former and earlier` | 26:1 |
+| πόλις | `to the city` | `to the city, to the citadel, to the country, to the body of citizens, to the state` | 26:33 |
+| σπείρω | `sowed` | `sowed, scattered like seed and strewed and threw about, spread abroad, was scattered and dispersed` | 26:12 |
+| συντάσσω | `drew up together` | `drew up together, arranged in order, appointed, enjoined, ordered` | 26:11 |
+| σωτηρία | `of a saving` | `of a saving, of deliverance, of preservation, of safety, of a safe return, of a keeping safe, of security and a guarantee for safety` | 26:31 |
+| τρόπος | `turn` | `turn, direction, course, way, manner and fashion, way of life and habit and custom, character and temper, manner and style, tropes and figures` | 26:29 |
+| φάραγξ, with ἐν | `in the ravine` | `within, inside of, and by means of the ravine, the chasm, the gully, the mountain-stream` | 26:17, 26:19 |
+| φάσκω | `saying` | `saying, affirming, asserting, thinking and deeming and expecting, promising` | 26:20 |
+| φρέαρ | `of the well` | `of the well, of the tank and cistern and reservoir, of the oil jar` | 26:20, 26:32 |
+| φρέαρ | `the wells` | `the wells, the tanks and cisterns and reservoirs, the oil jars` | 26:15, 26:18 |
+| φυλάσσω | `kept watch and ward` | `kept watch and ward, kept guard, watched and guarded and kept and defended` | 26:5 |
+| χράομαι | `we used` | `we used, we had and used, we indulged, we experienced and suffered and were subject to, we came to, we lived under, we made use of, we treated, we were intimate with, we were in need and yearned after, we had in use and possessed` | 26:29 |
+| χρόνος, with ἐν | `in the time` | `within, inside of, and by means of the time, the definite time and while and period and season, the periods of time, the lifetime and an age, the season and portion of the year, the delay and loss of time` | 26:1, 26:15 |
+| χωρίς | `separately` | `separately, asunder, apart, by oneself, separately and besides, separately and one by one, except, of different nature and kind, without, separate from and apart, aloof from and far from, independent of and without reckoning and not to mention and besides, differently from and otherwise than` | 26:1 |
+| ἀδικέω | `did wrong` | `did wrong, did one wrong and wronged and injured, spoiled and damaged` | 26:20 |
+| ἀπέρχομαι | `go away` | `go away, depart from, depart, depart from life` | 26:16 |
+| ἀπαίρω | `having lifted off` | `having lifted off, having taken away and carried off, having removed, having set off and departed, having marched away` | 26:21, 26:22 |
+| ἀποίχομαι | `were gone away` | `were gone away, were absent and away, had departed` | 26:31 |
+| ἀποκτείνω | `they may kill` | `they may kill, they may slay` | 26:7 |
+| ἀποστέλλω | `you sent off` | `you sent off, you sent away, you banished, you despatched, you went away and departed` | 26:27 |
+| ἀρά | `prayer` | `prayer, prayer for evil and curse and imprecation, effect of the curse and bane and ruin` | 26:28 |
+| ἄγνοια | `want of perception` | `want of perception, ignorance, a mistake` | 26:10 |
+| ἅπτω | `the one fastening himself to` | `the one fastening himself to, touching, grasping, laying hold of, engaging in, meddling with` | 26:11 |
+| ἐμφράσσω | `blocked up` | `blocked up` | 26:15, 26:18 |
+| ἐνιαυτός, with ἐν | `in the year` | `within, inside of, and by means of the year, the long period of time, the cycle of the year` | 26:12 |
+| ἐντολή | `the injunctions` | `the injunctions, the orders, the commands, the behests` | 26:5 |
+| ἐξαποστέλλω | `we sent quite away` | `we sent quite away, we dispatched` | 26:29 |
+| ἐπάγω | `you brought upon` | `you brought upon, you brought on and forward, you led on and brought on, you brought in, you laid on, you brought upon oneself` | 26:10 |
+| ἐρίζω | `striving` | `striving, wrangling, quarrelling, rivalling and vying with and being a match for, contending with, engaging in a contest and keeping the contest up` | 26:35 |
+| ἑκατοστεύω | `bearing a hundredfold` | `bearing a hundredfold` | 26:12 |
+| ἔνοχος | `held in` | `held in, liable to and subject to, liable to the penalty` | 26:11 |
+| ἕτερος | `other` | `other, one of two, the other of two, another, second, different, other than, worse` | 26:21, 26:22 |
+| ὀρύσσω | `dug` | `dug, dug through, dug up` | 26:15, 26:18, 26:19, 26:21, 26:22, 26:25, 26:32 |
+| ὀρύσσω | `dug` | `dug, dug through, dug up` | 26:15, 26:18, 26:19, 26:21, 26:22, 26:25, 26:32 |
+| ὁράω | `we have seen` | `we have seen and it stands so, we have perceived and it stands so, we have beheld and it stands so, we have looked at and it stands so` | 26:28 |
+| ὄνομα | `the names` | `the names, the fames, the mere names, the phrases and expressions` | 26:18 |
+| ὅρκος | `the object by which one swears` | `the object by which one swears, the witness of an oath, the oath` | 26:3 |
+| ὑπακούω | `listened to` | `listened to and hearkened to and heard, gave ear and hearkened, obeyed` | 26:5 |
+| ὑπό + genitive | `from under` | `from under, under and beneath, by, under the protection of` | 26:29 |
 
 ### Words new in GEN 25
 
@@ -3904,6 +4013,16 @@ Greek makes it a woman's, the mother of Eliezer, whom it calls Δαμασκὸς
 | Ησαυ | Ēsau | Esau | `(Ησαυ, from Hebrew ʿĒśāw, usually connected with śēʿār, "hair", the hairiness of 25:25)` |
 | Ιακωβ | Iakōb | Jacob | `(Ιακωβ, from Hebrew Yaʿăqōb, which the Hebrew of 25:26 hears in ʿāqēb, "heel")` |
 | Εδωμ | Edōm | Edom | `(Εδωμ, from Hebrew ʾĔdôm, which the Hebrew of 25:30 hears in ʾādōm, "red")` |
+
+| Ἀδικία | Adikia | Injustice | `(Ἀδικία, the Greek word ἀδικία, "wrong-doing, injustice", printed as the well's name; the Hebrew is ʿĒśeq, "contention")` |
+| Ἐχθρία | Echthria | Enmity | `(Ἐχθρία, the Greek word ἐχθρία, "hatred, enmity", printed as the well's name; the Hebrew is Śiṭnâ, "accusation")` |
+| Εὐρυχωρία | Eurychōria | Room | `(Εὐρυχωρία, the Greek word εὐρυχωρία, "open space, free room", printed as the well's name; the Hebrew is Rĕḥōbôt, "broad places")` |
+| Ὅρκος | Horkos | Oath | `(Ὅρκος, the Greek word ὅρκος, "the object by which one swears, oath", printed as the well's name; the Hebrew is Šibʿâ, "seven" or "oath")` |
+| Ιουδιν | Ioudin | Judith | `(Ιουδιν, for Hebrew Yĕhûdît, "Jewess" or "woman of Judah")` |
+| Βεηρ | Beēr | Beeri | `(Βεηρ, for Hebrew Bĕʾērî, usually connected with bĕʾēr, "well")` |
+| Βασεμμαθ | Basemmath | Basemath | `(Βασεμμαθ, from Hebrew Bāśĕmat, usually connected with bōśem, "balsam, spice")` |
+| Αιλων | Ailōn | Elon | `(Αιλων, from Hebrew ʾÊlōn, usually connected with ʾēlôn, "oak, terebinth")` |
+| Ευαίου | Euaiou | Hivite | `(Ευαῖος, the man of the people the Hebrew calls Ḥiwwî, the Hivite)` |
 <!-- name rows above -->
 
 Σύγχυσις translates the name where 10:10 gave the city its Greek name, Βαβυλών; as with Ζωή at

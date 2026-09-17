@@ -192,6 +192,11 @@ LSJ = {
              "wholly, entirely", "all", "the universe", "one's all"],
     "δόμα": ["gift", "payment"],
     "πυρράκης": ["red, ruddy"],
+    # No Middle Liddell entry for these two. LSJ (eng5): ἑκατοστεύω, "bear a hundredfold". LSJ
+    # (eng3): γεώργιον, "field", then "orchard", "husbandry", "crop", and in the plural a "tax"
+    # on land.
+    "ἑκατοστεύω": ["bear a hundredfold"],
+    "γεώργιον": ["field", "orchard", "husbandry", "crop", "tax"],
 }
 
 # New Testament books: MorphGNT file and its book number.
@@ -676,6 +681,28 @@ NOT_SENSES = {
     "e)pilamba/nomai": {"from", "traverse", "corripere campum"},  # pieces of examples, Latin
     "e(/yw": {"we boiled some"},                # a piece of an example
     "dasu/s": {"with all the leaves", "the copses", "thick"},  # pieces of examples
+    # GEN 26
+    "xwri/s": {"by themselves", "apart", "in reserve", "without evidence", "to distinguish", "help",
+               "will", "quality"},              # pieces of examples
+    "xro/nos": {"with chronological accuracy", "by the dates", "for a while", "at once, once for all",
+                "for", "long?", "in time, at last", "time, after a time", "of time", "in time, at length",
+                "a certain time", "a while", "hereafter", "delays"},  # pieces of examples
+    "spei/rw": {"to engender, beget them", "to be born", "spargere voces", "the arable part of",
+                "of lost labour"},              # pieces of examples, Latin
+    "zhlo/w": {"to be jealous", "to esteem", "for"},  # pieces of examples
+    "dunato/s": {"the ablest-bodied men", "fit for service", "able", "quantum fieri possit",
+                 "strongly, powerfully"},       # pieces of examples, Latin, the adverb
+    "ma/xomai": {"against", "with the sanction, under the auspices", "will fight", "the force that had",
+                 "come into action"},           # pieces of examples
+    "fa/skw": {"alleging", "pretending", "he said", "alleged"},  # pieces of examples
+    "ph/gnumi": {"to stick", "fix in", "pitch", "to pitch their", "stuck fast", "fix on", "on",
+                 "having their", "fixed", "impaled", "to fix", "upon", "hard", "stiffen",
+                 "crystallises", "was", "frozen", "to be irrevocably"},  # pieces of examples
+    "tro/pos": {"wise", "way", "in no wise, by no means, on no account", "how?", "in a manner",
+                "after the manner", "in its ways", "ways", "fitly, duly", "sort", "temper", "taste"},  # pieces of examples
+    "swthri/a": {"a way", "means of safety", "guarantee for the safe keeping", "ways of preserving"},  # pieces of examples
+    "e)ri/zw": {"with", "in"},                  # pieces of examples
+    "mise/w": {"hated (would not suffer)", "grudging"},  # pieces of examples
 }
 
 # An entry that divides its senses by tense and voice, so that which of them belong to a
@@ -798,6 +825,8 @@ SPELLING = {
     "e)pilamba/nomai": "e)pilamba/nw",  # MorphGNT's middle, filed under the active
     "presbu/ths": "pre/sbus",       # cross-reference; "= πρέσβυς I"
     "e(/yema": "e(/yhma",           # LSJ: "late form of ἕψημα"
+    "kalw=s": "kalo/s",             # the adverb, filed inside the adjective's entry
+    "e)xqri/a": "e)/xqrh",          # LSJ: "late form of ἔχθρα", whose entry is headed ἔχθρη
 }
 
 # Homographs where Perseus's *first* entry is a different word from the one the text

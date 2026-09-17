@@ -247,6 +247,17 @@ two-termination adjective, as ἄπλαστος beside it does. The second pass'
 read here only after the first was complete, except for its opening line, which was seen in passing:
 Προσθέμενος, the aorist middle participle of προστίθημι, on which both passes agreed.
 
+### What it found in Genesis 26
+
+Twenty disagreements over 751 words, and four of them my own mis-numbering of a verse's words. The
+second pass was right that πάντα τὰ φρέατα at 26:15 is the hanging nominative, resumed by αὐτά, where
+the φρέατα of 26:18 is the object; that καί at 26:21 is *also*; that ἐκείνου and αὐτοῦ of the well
+are neuter; and that the well-names Ἀδικία, Ἐχθρία, Εὐρυχωρία, Ὅρκος and Φρέαρ keep the capital
+Rahlfs prints, as the brief's rule for a Greek word used as a name has it, and that Ευαῖος keeps the
+breathing he leaves off. The first pass kept γέ, MorphGNT's accented enclitic, as settled at 18:13.
+GEN 10:19's Γεραρα, coded as an indeclinable singular, was brought into line with the neuter plural
+settled at 20:1.
+
 ## The brief
 
 Copy everything below the rule into a new agent. Replace `<BOOK NAME>`, `<CHAPTER>`,
