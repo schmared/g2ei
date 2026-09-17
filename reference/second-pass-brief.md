@@ -163,6 +163,14 @@ as Middle Liddell heads it. The second was right that Μαμβρη at 14:13 is a
 `A-`, the second MorphGNT's dictionary form, δεκάτη, which Middle Liddell also heads, with a
 cross-reference to δέκατος. The rule below now names it.
 
+### What it found in Genesis 15
+
+Three disagreements over 365 words. The second pass was right that Δαμασκός in οὗτος Δαμασκὸς
+Ελιεζερ names the man and takes his gender, as the brief's Σιδῶνα does. The first pass was right
+twice, on small words the brief did not name: εὐθύς, *immediately*, which MorphGNT codes as the
+adjective all 51 times, and the τοῦ of ἕως τοῦ νῦν, which it codes masculine. The brief names both
+now, and the reciprocal ἀλλήλων, which the second pass rightly put with the personal pronouns.
+
 ## The brief
 
 Copy everything below the rule into a new agent. Replace `<BOOK NAME>`, `<CHAPTER>`,
@@ -201,7 +209,7 @@ finishing.
 ## Part of speech (column 2)
 
 N- noun · V- verb · A- adjective (numerals included) · RA article · RP personal pronoun
-(αὐτός and the reflexives ἑαυτοῦ, σεαυτοῦ, ἐμαυτοῦ included) · RD demonstrative · RR relative pronoun
+(αὐτός, the reflexives ἑαυτοῦ, σεαυτοῦ, ἐμαυτοῦ, and the reciprocal ἀλλήλων included) · RD demonstrative · RR relative pronoun
 (ὅσος included) · RI interrogative (the indefinite τις included) · P- preposition · C- conjunction · D- adverb · X- particle · I- interjection
 
 Small words are tagged as MorphGNT tags them:
@@ -216,6 +224,7 @@ Small words are tagged as MorphGNT tags them:
   prints it at `ἰδὲ ἀπὸ τοῦ τόπου`, is the aorist imperative of ὁράω, `V- 2AAD-S--`
 - **X-** ἄν; ἐάν where it stands for ἄν after a relative (`ὃ ἐὰν θέλητε`, John 15:7); ἰδού;
   μή opening a question that expects *no*
+- **A-** εὐθύς meaning *immediately*, `A- ----NSM-`, as MorphGNT codes it all 51 times
 - **D-** οὐ, μή, νῦν, τότε, εὖ, ἅμα with no dative after it, ἔτι, ἐκεῖ, ἐκεῖθεν, ποῦ, δεῦτε; καί meaning *also, even*, and the καί of
   `καὶ γάρ` (all 38 times in MorphGNT); ὅθεν meaning *from where* (Matt 12:44); οὐδέ meaning *not
   even*; ὅτε after a noun of time (`ἔρχεται ὥρα ὅτε`, John 4:21); οὗ meaning *where* (οὗ meaning
@@ -263,8 +272,8 @@ Conventions:
   feminine, Σόδομα neuter plural — except where it names a person, who gives it his own: τὸν
   Σιδῶνα, Canaan's first-born, is `----ASM-`.
 - A people's name declined in Greek (Χετταῖος, Ἀράδιος, Κίτιοι, οἱ Αἰγύπτιοι) is a noun, `N-`, as
-  MorphGNT codes Ἀσσύριος and Κύπριος, though it tags Αἰγύπτιος and Χαναναῖος as adjectives, filed in the nominative singular masculine. A people's name in the Hebrew
-  plural -ιιμ (τοὺς Λουδιιμ, Φυλιστιιμ) is indeclinable, filed as printed, and plural and masculine
+  MorphGNT codes Ἀσσύριος and Κύπριος, though it tags Αἰγύπτιος and Χαναναῖος as adjectives, filed in the nominative singular masculine. A people's name in the Hebrew plural -ιιμ or -ιν (τοὺς Λουδιιμ, Φυλιστιιμ, τοὺς Ραφαϊν)
+  is indeclinable, filed as printed, and plural and masculine
   from the people.
 - A place name after γῆ with no article of its own (`ἐν τῇ γῇ Σεννααρ`) is genitive, as MorphGNT
   codes `ἐν γῇ Χανάαν` at Acts 13:19.
@@ -284,7 +293,8 @@ Conventions:
   `RI ----NSN-`. (MorphGNT prints the pair as one word, ἱνατί, and so cannot guide it.)
 - `ὁ δέ`, *and he*, is still the article: `RA ----NSM-`, as MorphGNT codes it. So is an article
   standing before a prepositional phrase, in the case the phrase has in the sentence:
-  `τὸ πρὸς ἑσπέραν`, *toward evening*, `RA ----ASN-`.
+  `τὸ πρὸς ἑσπέραν`, *toward evening*, `RA ----ASN-`. The τοῦ of `ἕως τοῦ νῦν` is `RA ----GSM-`,
+  as MorphGNT codes it (Matt 24:21).
 - Numerals take case, number and gender like any adjective — ἑπτά `A- ----APN-` beside a
   neuter plural — and a multiplicative adverb (ἑπτάκις) is `D-`. A number printed as several
   words (ἑκατὸν καὶ ἑξήκοντα πέντε, δέκα πέντε) is several words: each numeral agrees with the
@@ -319,21 +329,21 @@ The dictionary form as Middle Liddell (Perseus) files it:
   cites, the uncontracted ὀστέον for ὀστοῦν but the contracted συκῆ; ἕνεκεν → ἕνεκα. A neuter
   noun filed as such: πετεινόν.
 - Proper names: a name the New Testament also uses, of a person or a place, takes MorphGNT's
-  dictionary form, accented though Rahlfs prints it bare — Ἀδάμ, Εὕα, Κάϊν, Ἅβελ, Σήθ, Ἐνώς,
-  Ἑνώχ, Μαθουσαλά, Λάμεχ, Μαλελεήλ, Νῶε, Σήμ, Χανάαν, Μαγώγ, Ἀρφαξάδ, Σαλά, Ἔβερ, Φάλεκ, Ἀράμ,
-  Ῥαγαύ, Σερούχ, Ναχώρ, Θάρα, Λώτ, Χαρράν, Φαραώ, Συχέμ, and the declined Σιδών, Γάζα, Βαβυλών,
-  Σόδομα, Γόμορρα, Αἴγυπτος, Αἰγύπτιος, Χαλδαῖος, Ἰορδάνης, Φερεζαῖος and Δαμασκός so far, and
-  Μελχισέδεκ, Σαλήμ, Βαλάκ, Αμορραῖος with no breathing as printed. Σόδομα is neuter
-  plural (ἐν Σοδομοις); Γόμορρα is declined either way, and the form decides: Γομορρας is the
-  feminine singular, Γομορρα beside Σοδομα in the accusative the neuter plural — even where the New Testament
-  uses it of another bearer (Χανάαν the land, Acts 7:11; Μαγώγ a people, Rev 20:8). Where the New
-  Testament spells the name with other letters (Luke 3:36–37 Καϊνάμ, Ἰάρετ; Ἀβραάμ and Σάρρα for
-  the Αβραμ and Σαρα Rahlfs prints), it is not the same
-  dictionary form; a breathing or accent is not a letter. Every other Semitic name, of a person or
-  a place, exactly as printed, unaccented (Εδεμ, Φισων, Ναιδ), and in the nominative where it is
-  declined. Greek names in the nominative singular (Αἰθιοπία, Τίγρις, Ἀσσύριος, Εὐφράτης,
-  Χετταῖος, Ῥόδιος). A Greek word the text prints capitalised as a name keeps its capital in the
-  lemma.
+  dictionary form, accented though Rahlfs prints it bare, even where the New Testament uses it of
+  another bearer (Χανάαν the land, Acts 7:11; Μαγώγ a people, Rev 20:8). So far: Ἀδάμ, Εὕα, Κάϊν,
+  Ἅβελ, Σήθ, Ἐνώς, Ἑνώχ, Μαθουσαλά, Λάμεχ, Μαλελεήλ, Νῶε, Σήμ, Χανάαν, Μαγώγ, Ἀρφαξάδ, Σαλά, Ἔβερ,
+  Φάλεκ, Ἀράμ, Ῥαγαύ, Σερούχ, Ναχώρ, Θάρα, Λώτ, Χαρράν, Φαραώ, Συχέμ, Μελχισέδεκ, Σαλήμ, Βαλάκ,
+  Ἐλιέζερ, Ἁγάρ, and the declined Σιδών, Γάζα, Βαβυλών, Σόδομα, Γόμορρα, Αἴγυπτος, Αἰγύπτιος,
+  Χαλδαῖος, Ἰορδάνης, Φερεζαῖος and Δαμασκός. Where the New Testament spells the name with other
+  letters (Luke 3:36–37 Καϊνάμ, Ἰάρετ), it is not the same dictionary form; a breathing or accent is
+  not a letter, so Αβραμ and Σαρα are not Ἀβραάμ and Σάρρα, but Αβρααμ and Σαρρα are.
+- Every other Semitic name, of a person or a place, exactly as printed, unaccented (Εδεμ, Φισων,
+  Ναιδ), and in the nominative where it is declined. Greek names in the nominative singular
+  (Αἰθιοπία, Τίγρις, Ἀσσύριος, Εὐφράτης, Χετταῖος, Ῥόδιος), with the breathing Rahlfs prints or
+  leaves off (Αμορραῖος, Ομμαῖος). A Greek word the text prints capitalised as a name keeps its
+  capital in the lemma.
+- Σόδομα is neuter plural (ἐν Σοδομοις); Γόμορρα is declined either way, and the form decides:
+  Γομορρας is the feminine singular, Γομορρα beside Σοδομα in the accusative the neuter plural.
 - Any other Semitic word printed unaccented: exactly as printed, like the place names.
 
 ## The text

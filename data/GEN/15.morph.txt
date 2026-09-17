@@ -1,0 +1,392 @@
+# Genesis 15 — morphology, one word per line.
+#
+# This is the project's own grammatical analysis of each form, written alongside the
+# transcription and not copied from any digital edition.
+#
+# Columns: verse, part of speech, parse, form, lemma — in MorphGNT's code scheme, so
+# the Old and New Testament layers read alike. The parse is eight places: person,
+# tense, voice, mood, case, number, gender, degree ("-" where it does not apply).
+#
+# Two codes go beyond MorphGNT, both to record only what the form itself says:
+#   voice  E  middle/passive — a tense in which the two share one form
+#   gender C  masculine/feminine — an adjective whose form does not distinguish them
+#
+# A trailing annotation records a deliberate difference and the reason for it:
+#   "# module …"  from the reference module, checked when LXX_RAHLFS_DIR is set
+#   "# corpus …"  from this project's own analysis of the same form elsewhere
+# A line may carry both. validate.py prints them as notes instead of failures — and
+# fails if the difference a note claims is not there, so they cannot go stale. The
+# analysis here is this project's own: the module is a reference, not an authority,
+# and the corpus is held to itself.
+#
+# Indeclinables take case and number from the syntax, as MorphGNT does, and gender
+# where there is one to take: a personal name, from the person; a numeral agreeing
+# with its noun; a common noun whose article shows it — but not an indeclinable place
+# name, which has none. A personal name the New Testament also uses takes MorphGNT's
+# dictionary form (Νῶε, Σήμ); every other Semitic name (Χαμ, Ιαφεθ), the form Rahlfs
+# prints.
+15:1 P- -------- Μετὰ μετά
+15:1 C- -------- δὲ δέ
+15:1 RA ----APN- τὰ ὁ
+15:1 N- ----APN- ῥήματα ῥῆμα
+15:1 RD ----APN- ταῦτα οὗτος
+15:1 V- 3API-S-- ἐγενήθη γίνομαι
+15:1 N- ----NSN- ῥῆμα ῥῆμα
+15:1 N- ----GSM- κυρίου κύριος
+15:1 P- -------- πρὸς πρός
+15:1 N- ----ASM- Αβραμ Αβραμ
+15:1 P- -------- ἐν ἐν
+15:1 N- ----DSN- ὁράματι ὅραμα
+15:1 V- -PAPNSM- λέγων λέγω
+15:1 D- -------- Μὴ μή
+15:1 V- 2PED-S-- φοβοῦ φοβέομαι  # module lemma φοβέω — φοβέομαι, as MorphGNT files it
+15:1 N- ----VSM- Αβραμ Αβραμ
+15:1 RP ----NS-- ἐγὼ ἐγώ
+15:1 V- 1PAI-S-- ὑπερασπίζω ὑπερασπίζω
+15:1 RP ----GS-- σου σύ  # module lemma σοῦ, the form itself — σύ is the dictionary form
+15:1 RA ----NSM- ὁ ὁ
+15:1 N- ----NSM- μισθός μισθός
+15:1 RP ----GS-- σου σύ  # module lemma σοῦ, the form itself — σύ is the dictionary form
+15:1 A- ----NSM- πολὺς πολύς
+15:1 V- 3FMI-S-- ἔσται εἰμί
+15:1 D- -------- σφόδρα σφόδρα
+15:2 V- 3PAI-S-- λέγει λέγω
+15:2 C- -------- δὲ δέ
+15:2 N- ----NSM- Αβραμ Αβραμ
+15:2 N- ----VSM- Δέσποτα δεσπότης
+15:2 RI ----ASN- τί τίς
+15:2 RP ----DS-- μοι ἐγώ  # module lemma μοι, the form itself — ἐγώ is the dictionary form
+15:2 V- 2FAI-S-- δώσεις δίδωμι
+15:2 RP ----NS-- ἐγὼ ἐγώ
+15:2 C- -------- δὲ δέ
+15:2 V- 1PEI-S-- ἀπολύομαι ἀπολύω
+15:2 A- ----NSC- ἄτεκνος ἄτεκνος
+15:2 RA ----NSM- ὁ ὁ
+15:2 C- -------- δὲ δέ
+15:2 N- ----NSM- υἱὸς υἱός
+15:2 N- ----GSF- Μασεκ Μασεκ
+15:2 RA ----GSF- τῆς ὁ
+15:2 A- ----GSC- οἰκογενοῦς οἰκογενής
+15:2 RP ----GS-- μου ἐγώ  # module lemma μου, the form itself — ἐγώ is the dictionary form
+15:2 RD ----NSM- οὗτος οὗτος
+15:2 N- ----NSM- Δαμασκὸς Δαμασκός  # module NS, no gender — the man, Δαμασκὸς Ελιεζερ, who gives the name his gender, as τὸν Σιδῶνα at 10:15
+15:2 N- ----NSM- Ελιεζερ Ἐλιέζερ
+15:3 C- -------- καὶ καί
+15:3 V- 3AAI-S-- εἶπεν λέγω  # module lemma ἔπω — λέγω keeps one dictionary form across both testaments
+15:3 N- ----NSM- Αβραμ Αβραμ
+15:3 C- -------- Ἐπειδὴ ἐπειδή
+15:3 RP ----DS-- ἐμοὶ ἐγώ  # module lemma ἐμοί, the form itself — ἐγώ is the dictionary form
+15:3 D- -------- οὐκ οὐ
+15:3 V- 2AAI-S-- ἔδωκας δίδωμι
+15:3 N- ----ASN- σπέρμα σπέρμα
+15:3 RA ----NSM- ὁ ὁ
+15:3 C- -------- δὲ δέ
+15:3 A- ----NSC- οἰκογενής οἰκογενής
+15:3 RP ----GS-- μου ἐγώ  # module lemma μου, the form itself — ἐγώ is the dictionary form
+15:3 V- 3FAI-S-- κληρονομήσει κληρονομέω
+15:3 RP ----AS-- με ἐγώ  # module lemma μέ, the form itself — ἐγώ is the dictionary form
+15:4 C- -------- καὶ καί
+15:4 A- ----NSM- εὐθὺς εὐθύς  # module D — the adjective, as MorphGNT codes εὐθύς, *immediately*, all 51 times
+15:4 N- ----NSF- φωνὴ φωνή
+15:4 N- ----GSM- κυρίου κύριος
+15:4 V- 3AMI-S-- ἐγένετο γίνομαι
+15:4 P- -------- πρὸς πρός
+15:4 RP ----ASM- αὐτὸν αὐτός
+15:4 V- -PAPNSM- λέγων λέγω
+15:4 D- -------- Οὐ οὐ
+15:4 V- 3FAI-S-- κληρονομήσει κληρονομέω
+15:4 RP ----AS-- σε σύ  # module lemma σέ, the form itself — σύ is the dictionary form
+15:4 RD ----NSM- οὗτος οὗτος
+15:4 C- -------- ἀλλʼ ἀλλά
+15:4 RR ----NSM- ὃς ὅς
+15:4 V- 3FMI-S-- ἐξελεύσεται ἐξέρχομαι
+15:4 P- -------- ἐκ ἐκ
+15:4 RP ----GS-- σοῦ σύ  # module lemma σοῦ, the form itself — σύ is the dictionary form
+15:4 RD ----NSM- οὗτος οὗτος
+15:4 V- 3FAI-S-- κληρονομήσει κληρονομέω
+15:4 RP ----AS-- σε σύ  # module lemma σέ, the form itself — σύ is the dictionary form
+15:5 V- 3AAI-S-- ἐξήγαγεν ἐξάγω
+15:5 C- -------- δὲ δέ
+15:5 RP ----ASM- αὐτὸν αὐτός
+15:5 D- -------- ἔξω ἔξω
+15:5 C- -------- καὶ καί
+15:5 V- 3AAI-S-- εἶπεν λέγω  # module lemma ἔπω — λέγω keeps one dictionary form across both testaments
+15:5 RP ----DSM- αὐτῷ αὐτός
+15:5 V- 2AAD-S-- Ἀνάβλεψον ἀναβλέπω
+15:5 X- -------- δὴ δή
+15:5 P- -------- εἰς εἰς
+15:5 RA ----ASM- τὸν ὁ
+15:5 N- ----ASM- οὐρανὸν οὐρανός
+15:5 C- -------- καὶ καί
+15:5 V- 2AAD-S-- ἀρίθμησον ἀριθμέω
+15:5 RA ----APM- τοὺς ὁ
+15:5 N- ----APM- ἀστέρας ἀστήρ
+15:5 C- -------- εἰ εἰ
+15:5 V- 2FMI-S-- δυνήσῃ δύναμαι
+15:5 V- -AAN---- ἐξαριθμῆσαι ἐξαριθμέω
+15:5 RP ----APM- αὐτούς αὐτός
+15:5 C- -------- καὶ καί
+15:5 V- 3AAI-S-- εἶπεν λέγω  # module lemma ἔπω — λέγω keeps one dictionary form across both testaments
+15:5 D- -------- Οὕτως οὕτως
+15:5 V- 3FMI-S-- ἔσται εἰμί
+15:5 RA ----NSN- τὸ ὁ
+15:5 N- ----NSN- σπέρμα σπέρμα
+15:5 RP ----GS-- σου σύ  # module lemma σοῦ, the form itself — σύ is the dictionary form
+15:6 C- -------- καὶ καί
+15:6 V- 3AAI-S-- ἐπίστευσεν πιστεύω
+15:6 N- ----NSM- Αβραμ Αβραμ
+15:6 RA ----DSM- τῷ ὁ
+15:6 N- ----DSM- θεῷ θεός
+15:6 C- -------- καὶ καί
+15:6 V- 3API-S-- ἐλογίσθη λογίζομαι
+15:6 RP ----DSM- αὐτῷ αὐτός
+15:6 P- -------- εἰς εἰς
+15:6 N- ----ASF- δικαιοσύνην δικαιοσύνη
+15:7 V- 3AAI-S-- εἶπεν λέγω  # module lemma ἔπω — λέγω keeps one dictionary form across both testaments
+15:7 C- -------- δὲ δέ
+15:7 P- -------- πρὸς πρός
+15:7 RP ----ASM- αὐτόν αὐτός
+15:7 RP ----NS-- Ἐγὼ ἐγώ
+15:7 RA ----NSM- ὁ ὁ
+15:7 N- ----NSM- θεὸς θεός
+15:7 RA ----NSM- ὁ ὁ
+15:7 V- -AAPNSM- ἐξαγαγών ἐξάγω
+15:7 RP ----AS-- σε σύ  # module lemma σέ, the form itself — σύ is the dictionary form
+15:7 P- -------- ἐκ ἐκ
+15:7 N- ----GSF- χώρας χώρα
+15:7 N- ----GPM- Χαλδαίων Χαλδαῖος
+15:7 C- -------- ὥστε ὥστε
+15:7 V- -AAN---- δοῦναί δίδωμι
+15:7 RP ----DS-- σοι σύ  # module lemma σοί, the form itself — σύ is the dictionary form
+15:7 RA ----ASF- τὴν ὁ
+15:7 N- ----ASF- γῆν γῆ
+15:7 RD ----ASF- ταύτην οὗτος
+15:7 V- -AAN---- κληρονομῆσαι κληρονομέω
+15:8 V- 3AAI-S-- εἶπεν λέγω  # module lemma ἔπω — λέγω keeps one dictionary form across both testaments
+15:8 C- -------- δέ δέ
+15:8 N- ----VSM- Δέσποτα δεσπότης
+15:8 N- ----VSM- κύριε κύριος
+15:8 P- -------- κατὰ κατά
+15:8 RI ----ASN- τί τίς
+15:8 V- 1FMI-S-- γνώσομαι γινώσκω
+15:8 C- -------- ὅτι ὅτι
+15:8 V- 1FAI-S-- κληρονομήσω κληρονομέω
+15:8 RP ----ASF- αὐτήν αὐτός
+15:9 V- 3AAI-S-- εἶπεν λέγω  # module lemma ἔπω — λέγω keeps one dictionary form across both testaments
+15:9 C- -------- δὲ δέ
+15:9 RP ----DSM- αὐτῷ αὐτός
+15:9 V- 2AAD-S-- Λαβέ λαμβάνω
+15:9 RP ----DS-- μοι ἐγώ  # module lemma μοι, the form itself — ἐγώ is the dictionary form
+15:9 N- ----ASF- δάμαλιν δάμαλις
+15:9 V- -PAPASF- τριετίζουσαν τριετίζω
+15:9 C- -------- καὶ καί
+15:9 N- ----ASF- αἶγα αἴξ
+15:9 V- -PAPASF- τριετίζουσαν τριετίζω
+15:9 C- -------- καὶ καί
+15:9 N- ----ASM- κριὸν κριός
+15:9 V- -PAPASM- τριετίζοντα τριετίζω
+15:9 C- -------- καὶ καί
+15:9 N- ----ASF- τρυγόνα τρυγών
+15:9 C- -------- καὶ καί
+15:9 N- ----ASF- περιστεράν περιστερά
+15:10 V- 3AAI-S-- ἔλαβεν λαμβάνω
+15:10 C- -------- δὲ δέ
+15:10 RP ----DSM- αὐτῷ αὐτός
+15:10 A- ----APN- πάντα πᾶς
+15:10 RD ----APN- ταῦτα οὗτος
+15:10 C- -------- καὶ καί
+15:10 V- 3AAI-S-- διεῖλεν διαιρέω
+15:10 RP ----APN- αὐτὰ αὐτός
+15:10 A- ----APN- μέσα μέσος
+15:10 C- -------- καὶ καί
+15:10 V- 3AAI-S-- ἔθηκεν τίθημι
+15:10 RP ----APN- αὐτὰ αὐτός
+15:10 A- ----APN- ἀντιπρόσωπα ἀντιπρόσωπος
+15:10 RP ----DPN- ἀλλήλοις ἀλλήλων  # module DPM — neuter, of the pieces, αὐτά
+15:10 RA ----APN- τὰ ὁ
+15:10 C- -------- δὲ δέ
+15:10 N- ----APN- ὄρνεα ὄρνεον
+15:10 D- -------- οὐ οὐ
+15:10 V- 3AAI-S-- διεῖλεν διαιρέω
+15:11 V- 3AAI-S-- κατέβη καταβαίνω
+15:11 C- -------- δὲ δέ
+15:11 N- ----NPN- ὄρνεα ὄρνεον
+15:11 P- -------- ἐπὶ ἐπί
+15:11 RA ----APN- τὰ ὁ
+15:11 N- ----APN- σώματα σῶμα
+15:11 RA ----APN- τὰ ὁ
+15:11 N- ----APN- διχοτομήματα διχοτόμημα
+15:11 RP ----GPN- αὐτῶν αὐτός  # module GPM — neuter, of τὰ σώματα
+15:11 C- -------- καὶ καί
+15:11 V- 3AAI-S-- συνεκάθισεν συγκαθίζω
+15:11 RP ----DPN- αὐτοῖς αὐτός  # module DPM — neuter, of τὰ ὄρνεα
+15:11 N- ----NSM- Αβραμ Αβραμ
+15:12 P- -------- περὶ περί
+15:12 C- -------- δὲ δέ
+15:12 N- ----GSM- ἡλίου ἥλιος
+15:12 N- ----APF- δυσμὰς δυσμή
+15:12 N- ----NSF- ἔκστασις ἔκστασις
+15:12 V- 3AAI-S-- ἐπέπεσεν ἐπιπίπτω
+15:12 RA ----DSM- τῷ ὁ
+15:12 N- ----DSM- Αβραμ Αβραμ
+15:12 C- -------- καὶ καί
+15:12 X- -------- ἰδοὺ ἰδού
+15:12 N- ----NSM- φόβος φόβος
+15:12 A- ----NSM- σκοτεινὸς σκοτεινός
+15:12 A- ----NSM- μέγας μέγας
+15:12 V- 3PAI-S-- ἐπιπίπτει ἐπιπίπτω
+15:12 RP ----DSM- αὐτῷ αὐτός
+15:13 C- -------- καὶ καί
+15:13 V- 3API-S-- ἐρρέθη λέγω  # module lemma ἐρέω — λέγω, as MorphGNT files ἐροῦσιν (Luke 17:21)
+15:13 P- -------- πρὸς πρός
+15:13 N- ----ASM- Αβραμ Αβραμ
+15:13 V- -PAPNSM- Γινώσκων γινώσκω
+15:13 V- 2FMI-S-- γνώσῃ γινώσκω
+15:13 C- -------- ὅτι ὅτι
+15:13 A- ----NSN- πάροικον πάροικος
+15:13 V- 3FMI-S-- ἔσται εἰμί
+15:13 RA ----NSN- τὸ ὁ
+15:13 N- ----NSN- σπέρμα σπέρμα
+15:13 RP ----GS-- σου σύ  # module lemma σοῦ, the form itself — σύ is the dictionary form
+15:13 P- -------- ἐν ἐν
+15:13 N- ----DSF- γῇ γῆ
+15:13 D- -------- οὐκ οὐ
+15:13 A- ----DSF- ἰδίᾳ ἴδιος
+15:13 C- -------- καὶ καί
+15:13 V- 3FAI-P-- δουλώσουσιν δουλόω
+15:13 RP ----APM- αὐτοὺς αὐτός
+15:13 C- -------- καὶ καί
+15:13 V- 3FAI-P-- κακώσουσιν κακόω
+15:13 RP ----APM- αὐτοὺς αὐτός
+15:13 C- -------- καὶ καί
+15:13 V- 3FAI-P-- ταπεινώσουσιν ταπεινόω
+15:13 RP ----APM- αὐτοὺς αὐτός
+15:13 A- ----APN- τετρακόσια τετρακόσιοι
+15:13 N- ----APN- ἔτη ἔτος
+15:14 RA ----ASN- τὸ ὁ
+15:14 C- -------- δὲ δέ
+15:14 N- ----ASN- ἔθνος ἔθνος
+15:14 RR ----DSN- ᾧ ὅς
+15:14 X- -------- ἐὰν ἐάν
+15:14 V- 3AAS-P-- δουλεύσωσιν δουλεύω
+15:14 V- 1FAI-S-- κρινῶ κρίνω
+15:14 RP ----NS-- ἐγώ ἐγώ
+15:14 P- -------- μετὰ μετά
+15:14 C- -------- δὲ δέ
+15:14 RD ----APN- ταῦτα οὗτος
+15:14 V- 3FMI-P-- ἐξελεύσονται ἐξέρχομαι
+15:14 D- -------- ὧδε ὧδε
+15:14 P- -------- μετὰ μετά
+15:14 N- ----GSF- ἀποσκευῆς ἀποσκευή
+15:14 A- ----GSF- πολλῆς πολύς
+15:15 RP ----NS-- σὺ σύ
+15:15 C- -------- δὲ δέ
+15:15 V- 2FMI-S-- ἀπελεύσῃ ἀπέρχομαι
+15:15 P- -------- πρὸς πρός
+15:15 RA ----APM- τοὺς ὁ
+15:15 N- ----APM- πατέρας πατήρ
+15:15 RP ----GS-- σου σύ  # module lemma σοῦ, the form itself — σύ is the dictionary form
+15:15 P- -------- μετʼ μετά
+15:15 N- ----GSF- εἰρήνης εἰρήνη
+15:15 V- -APPNSM- ταφεὶς θάπτω
+15:15 P- -------- ἐν ἐν
+15:15 N- ----DSN- γήρει γῆρας
+15:15 A- ----DSN- καλῷ καλός
+15:16 A- ----NSF- τετάρτη τέταρτος
+15:16 C- -------- δὲ δέ
+15:16 N- ----NSF- γενεὰ γενεά
+15:16 V- 3FPI-P-- ἀποστραφήσονται ἀποστρέφω
+15:16 D- -------- ὧδε ὧδε
+15:16 D- -------- οὔπω οὔπω
+15:16 C- -------- γὰρ γάρ
+15:16 V- 3XEI-P-- ἀναπεπλήρωνται ἀναπληρόω
+15:16 RA ----NPF- αἱ ὁ
+15:16 N- ----NPF- ἁμαρτίαι ἁμαρτία
+15:16 RA ----GPM- τῶν ὁ
+15:16 N- ----GPM- Αμορραίων Αμορραῖος  # module lemma Ἀμορραῖος — the form Rahlfs prints, with no breathing
+15:16 P- -------- ἕως ἕως
+15:16 RA ----GSM- τοῦ ὁ  # module GSN — masculine, as MorphGNT codes ἕως τοῦ νῦν (Matt 24:21)
+15:16 D- -------- νῦν νῦν
+15:17 C- -------- ἐπεὶ ἐπεί
+15:17 C- -------- δὲ δέ
+15:17 V- 3IEI-S-- ἐγίνετο γίνομαι
+15:17 RA ----NSM- ὁ ὁ
+15:17 N- ----NSM- ἥλιος ἥλιος
+15:17 P- -------- πρὸς πρός
+15:17 N- ----DPF- δυσμαῖς δυσμή
+15:17 N- ----NSF- φλὸξ φλόξ
+15:17 V- 3AMI-S-- ἐγένετο γίνομαι
+15:17 C- -------- καὶ καί
+15:17 X- -------- ἰδοὺ ἰδού
+15:17 N- ----NSM- κλίβανος κλίβανος
+15:17 V- -PEPNSM- καπνιζόμενος καπνίζω
+15:17 C- -------- καὶ καί
+15:17 N- ----NPF- λαμπάδες λαμπάς
+15:17 N- ----GSN- πυρός πῦρ
+15:17 RR ----NPF- αἳ ὅς
+15:17 V- 3AAI-P-- διῆλθον διέρχομαι
+15:17 P- -------- ἀνὰ ἀνά
+15:17 A- ----ASN- μέσον μέσος  # module ASM — with a genitive after it, the neuter used as a noun, as MorphGNT codes ἀνὰ μέσον
+15:17 RA ----GPN- τῶν ὁ
+15:17 N- ----GPN- διχοτομημάτων διχοτόμημα
+15:17 RD ----GPN- τούτων οὗτος  # module GPM — neuter, agreeing with διχοτομημάτων
+15:18 P- -------- ἐν ἐν
+15:18 RA ----DSF- τῇ ὁ
+15:18 N- ----DSF- ἡμέρᾳ ἡμέρα
+15:18 RD ----DSF- ἐκείνῃ ἐκεῖνος
+15:18 V- 3AMI-S-- διέθετο διατίθεμαι
+15:18 N- ----NSM- κύριος κύριος
+15:18 RA ----DSM- τῷ ὁ
+15:18 N- ----DSM- Αβραμ Αβραμ
+15:18 N- ----ASF- διαθήκην διαθήκη
+15:18 V- -PAPNSM- λέγων λέγω
+15:18 RA ----DSN- Τῷ ὁ
+15:18 N- ----DSN- σπέρματί σπέρμα
+15:18 RP ----GS-- σου σύ  # module lemma σοῦ, the form itself — σύ is the dictionary form
+15:18 V- 1FAI-S-- δώσω δίδωμι
+15:18 RA ----ASF- τὴν ὁ
+15:18 N- ----ASF- γῆν γῆ
+15:18 RD ----ASF- ταύτην οὗτος
+15:18 P- -------- ἀπὸ ἀπό
+15:18 RA ----GSM- τοῦ ὁ
+15:18 N- ----GSM- ποταμοῦ ποταμός
+15:18 N- ----GSF- Αἰγύπτου Αἴγυπτος
+15:18 P- -------- ἕως ἕως
+15:18 RA ----GSM- τοῦ ὁ
+15:18 N- ----GSM- ποταμοῦ ποταμός
+15:18 RA ----GSM- τοῦ ὁ
+15:18 A- ----GSM- μεγάλου μέγας
+15:18 N- ----GSM- ποταμοῦ ποταμός
+15:18 N- ----GSM- Εὐφράτου Εὐφράτης
+15:19 RA ----APM- τοὺς ὁ
+15:19 N- ----APM- Καιναίους Καιναῖος
+15:19 C- -------- καὶ καί
+15:19 RA ----APM- τοὺς ὁ
+15:19 N- ----APM- Κενεζαίους Κενεζαῖος
+15:19 C- -------- καὶ καί
+15:19 RA ----APM- τοὺς ὁ
+15:19 N- ----APM- Κεδμωναίους Κεδμωναῖος
+15:20 C- -------- καὶ καί
+15:20 RA ----APM- τοὺς ὁ
+15:20 N- ----APM- Χετταίους Χετταῖος
+15:20 C- -------- καὶ καί
+15:20 RA ----APM- τοὺς ὁ
+15:20 N- ----APM- Φερεζαίους Φερεζαῖος
+15:20 C- -------- καὶ καί
+15:20 RA ----APM- τοὺς ὁ
+15:20 N- ----APM- Ραφαϊν Ραφαϊν
+15:21 C- -------- καὶ καί
+15:21 RA ----APM- τοὺς ὁ
+15:21 N- ----APM- Αμορραίους Αμορραῖος  # module lemma Ἀμορραῖος — the form Rahlfs prints, with no breathing
+15:21 C- -------- καὶ καί
+15:21 RA ----APM- τοὺς ὁ
+15:21 N- ----APM- Χαναναίους Χαναναῖος
+15:21 C- -------- καὶ καί
+15:21 RA ----APM- τοὺς ὁ
+15:21 N- ----APM- Ευαίους Ευαῖος
+15:21 C- -------- καὶ καί
+15:21 RA ----APM- τοὺς ὁ
+15:21 N- ----APM- Γεργεσαίους Γεργεσαῖος
+15:21 C- -------- καὶ καί
+15:21 RA ----APM- τοὺς ὁ
+15:21 N- ----APM- Ιεβουσαίους Ιεβουσαῖος

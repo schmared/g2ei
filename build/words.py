@@ -131,6 +131,12 @@ LSJ = {
     "ἀποσκευή": ["removal, riddance", "baggage", "household stuff", "ordure, filth"],
     "σφαιρωτήρ": ["thong, latchet", "a ball", "knop"],
     "περάτης": ["ferryman", "boatman, seaman", "conveyer", "wanderer, emigrant"],
+    # No Middle Liddell entry for these three. LSJ (eng23): ὑπερασπίζω, "cover with a shield",
+    # and with a genitive, "defend". LSJ (eng22): τριετίζω, "to be three years old". LSJ (eng4):
+    # διχοτόμημα, "half of a thing cut in two", and "any portion of a thing cut up".
+    "ὑπερασπίζω": ["cover with a shield", "defend"],
+    "τριετίζω": ["to be three years old"],
+    "διχοτόμημα": ["half of a thing cut in two", "any portion of a thing cut up"],
 }
 
 # New Testament books: MorphGNT file and its book number.
@@ -418,6 +424,28 @@ NOT_SENSES = {
     "paradi/dwmi": {"transmission", "into another's hands", "to allow", "to", "permits"},  # pieces of examples
     "e)xqro/s": {"'tis hateful"},               # a piece of an example
     "so/s": {"for thee"},                       # a piece of an example
+    # GEN 15
+    "r(h=ma": {"word for word"},                 # a phrase
+    "misqo/s": {"wages", "of our hired service", "pay", "the pay", "one obol", "three)", "the fee", "fee"},  # pieces of examples
+    "a)polu/w": {"of being", "by payment of", "against one", "in defence", "from"},  # pieces of examples
+    "klhronome/w": {"heir", "of"},              # pieces of "to be heir of"
+    "eu)qu/s": {"straight", "straight to", "straight towards", "leading straight", "as soon as"},  # εὐθύ, of place, and ἐπεὶ εὐθέως
+    "a)lla/": {"not only"},                     # οὐ μόνον … ἀλλά
+    "pisteu/w": {"in", "believe", "believed", "he would be believed", "I am believed likely to", "he trusted",
+                 "have", "committed", "I am entrusted with"},  # pieces of examples
+    "sw=ma": {"life", "body", "soul", "bodily", "a body"},  # pieces of examples
+    "h(/lios": {"East", "hot sunny days"},       # pieces of examples
+    "skoteino/s": {"the darkness"},             # the neuter as a noun
+    "pa/roikos": {"near", "with neighbours"},   # pieces of examples
+    "kako/w": {"befouled"},                     # a piece of an example
+    "kri/nw": {"picked out, chosen", "they decide the question", "contest", "judge", "to have",
+               "decided, come to issue", "judging of", "judge that"},  # pieces of examples
+    "w(=de": {"so . . , as . .", "so", "just as thou art, at once", "thus off"},  # pieces of examples
+    "ei)rh/nh": {"peace", "a peace;", "it"},     # pieces of examples
+    "qa/ptw": {"burning the body"},             # a piece of an example
+    "a(marti/a": {"a fault committed by", "fault"},  # pieces of examples
+    "e)pei/": {"began", "had"},                 # pieces of examples
+    "flo/c": {"to put", "out", "the flame"},    # pieces of examples
 }
 
 # An entry that divides its senses by tense and voice, so that which of them belong to a
@@ -504,6 +532,8 @@ SPELLING = {
     "tere/minqos": "te/rminqos",    # the spelling Rahlfs prints; the entry is headed τέρμινθος
     "paragi/nomai": "paragi/gnomai",  # the Attic spelling
     "deka/th": "de/katos",          # cross-reference; "v. δέκατος II." glosses nothing
+    "e)peidh/": "e)pei/",            # not in Middle Liddell; LSJ's ἐπειδή reads "v. ἐπεί"
+    "kli/banos": "kri/banos",       # the entry is headed with the Attic κρίβανος
 }
 
 # Homographs where Perseus's *first* entry is a different word from the one the text
@@ -515,6 +545,7 @@ ENTRY = {
     "xou=s": "xou=s2",   # xou=s1 is the Pitcher-feast, the liquid measure; GEN 2:7 is dust
     "o(/ti": "o(/ti2",   # o(/ti1 is ὅ τι, "for what"; the conjunction is the second entry
     "le/gw": "le/gw3",   # le/gw1 is "to lull to sleep", le/gw2 "to gather"; saying is the third
+    "eu)qu/s": "eu)qu/s2",  # eu)qu/s1 is the adjective, "straight"; the adverb, "straightway", is the second
     "ou)": "ou)8",       # of eighteen entries, all but this one gloss an idiom (ou) ga/r,
                          # ou) mh/n …); ou)8 is the plain negative, "not", Lat. non
     "o(do/s": "o(do/s2",  # o(do/s1 is the attic ὀδός for οὐδός, "a threshold"; GEN 3:24 is the way

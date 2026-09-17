@@ -91,6 +91,8 @@ what the word means, only which entry is the word, and every case is listed here
 | ὁδός (GEN 3:24) | `o(do/s2` — *a way, path* | `o(do/s1` is the Attic ὀδός for οὐδός, *a threshold* |
 | στεῖρα (GEN 11:30) | `stei=ra2` — *a cow that has not calved*; *barren* | `stei=ra1` is *a ship's keel* |
 | μόσχος (GEN 12:16) | `mo/sxos2` — *a calf* | `mo/sxos1` is *a young shoot* |
+| εὐθύς (GEN 15:4) | `eu)qu/s2` — the adverb, *straightway* | `eu)qu/s1` is the adjective, *straight, direct* |
+<!-- homograph rows above -->
 
 A lemma belongs there only where the entries are genuinely different words. A word with one
 entry and several senses is not a homograph: its first numbered sense stands, however far
@@ -133,6 +135,9 @@ Three reasons, and all of them are the lexicon's filing rather than a decision a
 | τερέμινθος (GEN 14:6) | τέρμινθος | the spelling Rahlfs prints; the entry is headed τέρμινθος |
 | παραγίνομαι (GEN 14:13) | παραγίγνομαι | the Attic spelling |
 | δεκάτη (GEN 14:20) | δέκατος | cross-reference; "v. δέκατος II." glosses nothing |
+| ἐπειδή (GEN 15:3) | ἐπεί | not in Middle Liddell; LSJ's entry reads "v. ἐπεί" |
+| κλίβανος (GEN 15:17) | κρίβανος | the entry is headed with the Attic κρίβανος |
+<!-- spelling rows above -->
 
 The dictionary form itself does not follow the lexicon's filing: it keeps the spelling the text
 prints — γίνομαι, ἔχθρα, νοσσιά, δειλινός, κατέναντι, ἐννακόσιοι, κατάγαιος, τεσσαράκοντα — and
@@ -165,7 +170,8 @@ GEN 9 adds ὀπισθοφανής, *seen from behind*, and its adverb ὀπισ
 ἔτασις, *trial, affliction*. GEN 14 adds ἁλυκός, *salt, brackish*; ἀποσκευή, whose *removal,
 riddance* comes before *baggage*; σφαιρωτήρ, *thong, latchet*; and περάτης, which opens "= πορθμεύς",
 so that πορθμεύς's LSJ senses, *ferryman*, *boatman, seaman*, *conveyer*, stand before its own
-*wanderer, emigrant*, as ἁγίζω's stand for ἁγιάζω.
+*wanderer, emigrant*, as ἁγίζω's stand for ἁγιάζω. GEN 15 adds ὑπερασπίζω, *cover with a shield*, from the upsilon file; τριετίζω, *to be three years old*; and διχοτόμημα, *half of a thing cut in two*.
+<!-- LSJ sentences above -->
 
 GEN 9 also files ἐμεθύσθη under μεθύσκω, *to make drunk*, where Middle Liddell gives its aorist
 passive, though MorphGNT files the same form under μεθύω, *to be drunk*.
@@ -564,6 +570,113 @@ the same ground as `the sixth` and `the seventh`: one sense each, so no range to
   settling in` (10:30); δύο `two`; υἱός `sons`.
 - The article before a people's name (τοὺς Λουδιιμ, τὸν Χετταῖον, τῶν Χαναναίων) is not printed,
   as before a person's name.
+
+### Words new in GEN 15
+
+- δή — Perseus tags the entry's opening only as *exactness*, from "Particle used to give greater
+  exactness", a description, and its other tags are pieces of examples (*all* alone, *quite* the
+  greatest). The chain is the entry's own gloss, *now, in truth, indeed, surely, really*. 15:5.
+- εὐθύς of time — Middle Liddell's second entry, the adverb, whose εὐθύ is *straight* of place and
+  εὐθύς *straightway, forthwith, at once* of time; the place senses are skipped by name. 15:4.
+- ἐπειδή — not in Middle Liddell; LSJ reads "v. ἐπεί", so the chain is ἐπεί's. 15:3, 15:17.
+- καπνίζω — its first sense, *to make smoke, i. e. to make a fire*, has no object a passive could
+  make its subject, so the second, *to smoke, blacken with smoke*, heads the passive participle, and
+  the first follows in its own voice. 15:17.
+- λογίζομαι — the aorist passive takes each sense in the passive; *to form calculations*, which has
+  no passive, is left out. 15:6.
+- θάπτω — *to pay the last dues to a corpse* in the passive: `having had the last dues paid to a
+  corpse`. 15:15.
+- τοῦ ποταμοῦ τοῦ μεγάλου — the second article is plain `the` and the adjective takes no `of`, as
+  τοῦ θεοῦ τοῦ ὑψίστου at 14:18. 15:18.
+- One sense each in GEN 15, so plain text: τριετίζω `being three years old` (15:9, LSJ); τρυγών
+  `turtle-dove` (15:9); ἀλλήλων `to one another` (15:10), whose one sense is its case forms; γῆρας
+  `old age` (15:15); τέταρτος `fourth` (15:16); τετρακόσιοι `four hundred` (15:13).
+
+| lemma | headword | chain | used |
+| --- | --- | --- | --- |
+| αἴξ | `a goat` | `a goat, the wild goat and the ibex, waves` | 15:9 |
+| γίνομαι | `was coming into being` | `was coming to be, was arising, was being brought into existence` | 15:17 |
+| γενεά | `race` | `race, stock and family, breed, tribe and nation, generation, offspring, birth-place, age and time of life` | 15:16 |
+| γινώσκω | `I will learn to know` | `I will learn to know, I will perceive, I will mark, I will learn, I will discern and distinguish` | 15:8 |
+| γινώσκω | `you will learn to know` | `you will learn to know, you will perceive, you will mark, you will learn, you will discern and distinguish` | 15:13 |
+| δάμαλις | `a heifer` | `a heifer, a girl` | 15:9 |
+| δή | `now` | `now, in truth, indeed, surely, really` | 15:5 |
+| δίδωμι | `you will give` | `you will give, you will grant, you will provide, you will give over and deliver up` | 15:2 |
+| δεσπότης | `master` | `master, lord, master of the house, despot and absolute ruler, owner and master and lord` | 15:2, 15:8 |
+| διέρχομαι | `went through` | `went through, passed through, went through in detail` | 15:17 |
+| διαιρέω | `took one from another` | `took one from another, cleaved in twain, divided into parts, divided, distinguished, determined` | 15:10 |
+| διατίθεμαι | `arranged as he liked` | `arranged as he liked, disposed of, disposed of his property and devised it by will, set out for sale and disposed of, arranged mutually, made a covenant with, settled with` | 15:18 |
+| δικαιοσύνη | `righteousness` | `righteousness, justice` | 15:6 |
+| διχοτόμημα | `of the halves of a thing cut in two` | `of the halves of a thing cut in two, of the portions of a thing cut up` | 15:17 |
+| διχοτόμημα | `the halves of a thing cut in two` | `the halves of a thing cut in two, the portions of a thing cut up` | 15:11 |
+| δουλεύω | `they may be slaves` | `they may be slaves, they may serve and be subject to` | 15:14 |
+| δουλόω | `they will make a slave of` | `they will make a slave of and enslave, they will make one's slave and make subject to oneself and enslave, they will be enslaved` | 15:13 |
+| δυσμή | `settings` | `settings, quarters of sunset and wests` | 15:12 |
+| δυσμή | `to settings` | `to settings, to quarters of sunset and wests` | 15:17 |
+| δύναμαι | `you will be able` | `you will be able, you will be capable and strong enough, you will be powerful and mighty, you will have influence, you will dare and bear, you will pass for, you will be worth, you will be equivalent to, you will signify and mean, you will avail` | 15:5 |
+| εἰρήνη | `of peace` | `of peace, of time of peace` | 15:15 |
+| εὐθύς | `straightway` | `straightway, forthwith, at once, just, directly and simply` | 15:4 |
+| θάπτω | `having had the last dues paid` | `having had the last dues paid to a corpse, having been honoured with funeral rites, having been buried and interred` | 15:15 |
+| κακόω | `they will treat ill` | `they will treat ill and maltreat and afflict and distress, they will spoil and ruin, they will suffer ill and be in ill plight and be distressed` | 15:13 |
+| καπνίζω | `being smoked` | `being smoked and blackened with smoke, making smoke and making a fire, being black with smoke` | 15:17 |
+| κλίβανος | `an earthen vessel` | `an earthen vessel, a pan` | 15:17 |
+| κληρονομέω | `I will receive a share of an inheritance` | `I will receive a share of an inheritance and inherit a portion, I will inherit, I will be an inheritor, I will succeed` | 15:8 |
+| κληρονομέω | `to receive a share of an inheritance` | `to receive a share of an inheritance and inherit a portion, to inherit, to be an inheritor, to succeed` | 15:7 |
+| κληρονομέω | `will receive a share of an inheritance` | `will receive a share of an inheritance and inherit a portion, will inherit, will be an inheritor, will succeed` | 15:3, 15:4 |
+| κρίνω | `I will pick out` | `I will pick out and choose, I will pick out for oneself and choose, I will decide, I will judge, I will adjudge, I will judge of and estimate, I will expound and interpret, I will determine, I will question, I will bring to trial and accuse, I will pass sentence upon and condemn, I will be chosen, I will be brought to trial` | 15:14 |
+| κριός | `a ram` | `a ram, a battering-ram` | 15:9 |
+| λέγω | `says` | `says, speaks, declares, calls by name, tells` | 15:2 |
+| λέγω | `was said` | `was said, was spoken, was declared, was called by name, was told` | 15:13 |
+| λαμπάς | `torches` | `torches, beacon-lights, oil-lamps, lights, torch-races, races` | 15:17 |
+| λογίζομαι | `was counted` | `was counted, was reckoned and calculated and computed, was set down, was set down to one's account and charged, was deducted, was taken into account and calculated and considered, was counted and deemed and considered, was reckoned upon and expected, was counted upon, was concluded by reasoning and inferred, was counted and calculated` | 15:6 |
+| μέσος | `middle` | `middle, in the middle, the centre, mid, between two` | 15:10 |
+| μισθός | `the wages` | `the wages, the pay and hire, the recompense and reward, the payment and requital` | 15:1 |
+| οἰκογενής | `of the born in the house` | `of the born in the house, of the homebred` | 15:2 |
+| οἰκογενής | `the born in the house` | `the born in the house, the homebred` | 15:3 |
+| οὐρανός | `the heaven` | `the heaven, the vault, the firmament and the sky` | 15:5 |
+| οὔπω | `not yet` | `not yet, no longer and no more, not and not at all` | 15:16 |
+| πάροικος | `dwelling beside` | `dwelling beside, a neighbour, a sojourner and alien` | 15:13 |
+| πατήρ | `the fathers` | `the fathers, the grandfathers` | 15:15 |
+| περί + accusative | `round about` | `round about, round, near, somewhere near, off, who are about one, about which one is occupied and concerned, about and in, about and in the case of, about and in respect of and in regard to` | 15:12 |
+| περιστερά | `common pigeon` | `common pigeon, dove` | 15:9 |
+| πιστεύω | `trusted` | `trusted, trusted to and in, put faith in, relied on, believed in, believed, believed on, believed mutually, complied, believed that and felt sure and confident that, dared, believed and had faith, entrusted, was trusted and believed, was entrusted with` | 15:6 |
+| πολύς | `of much` | `of much and mighty and great, of many, of deep, of loud, of strong, of large and wide, of far, of long, often` | 15:14 |
+| ποταμός | `of river` | `of river, of stream, of river-god` | 15:18 |
+| ποταμός | `of the river` | `of the river, of the stream, of the river-god` | 15:18 |
+| πῦρ | `of fire` | `of fire, of the funeral-fire, of the fire of the hearth` | 15:17 |
+| σκοτεινός | `dark` | `dark, darkling and blind, dark and obscure` | 15:12 |
+| συγκαθίζω | `made to sit together` | `made to sit together, sat in conclave and met for deliberation, sat with` | 15:11 |
+| σῶμα | `the bodies` | `the bodies, the dead bodies and corpses and carcases, the living bodies, the bodies and any material substances, the whole bodies and masses` | 15:11 |
+| ταπεινόω | `they will lower` | `they will lower, they will lessen, they will disparage, they will humble and abase, they will make lowly and humble, they will humble oneself` | 15:13 |
+| φλόξ | `a flame` | `a flame, a flash, the fiery strength` | 15:17 |
+| φοβέομαι | `be put to flight` | `be put to flight, flee affrighted, flee, be seized with fear, be affrighted, fear` | 15:1 |
+| φόβος | `flight` | `flight, panic fear, fear and terror, outward show of fear, object of terror` | 15:12 |
+| χώρα | `of space in which a thing is` | `of space in which a thing is, of place, of position and post, of place in life and station, of land and country, of piece of land and estate and farm, of country` | 15:7 |
+| ἀλλά | `otherwise` | `otherwise, but, except, yet, but then and however, but really and certainly` | 15:4 |
+| ἀναβλέπω | `look up` | `look up, look, look up at, cast up, recover one's sight` | 15:5 |
+| ἀναπληρόω | `have been filled up` | `have been filled up and stand filled up, have been made up and supplied and stand so, have been filled and stand filled, have been paid in full and stand so` | 15:16 |
+| ἀντιπρόσωπος | `with the face towards` | `with the face towards and facing, face to face` | 15:10 |
+| ἀπολύω | `I am loosed from` | `I am loosed from, I am undone, I am set free from and released, I am relieved from, I am acquitted, I am let go free on receipt of ransom and held to ransom, I am ransomed and redeemed, I am discharged and disbanded, I am dismissed, I am divorced, I am redeemed, I am done away with, I depart, I am set free from, I am released and let off, I am freed from, I am acquitted and discharged, I am separated and part` | 15:2 |
+| ἀποσκευή | `of removal` | `of removal and riddance, of baggage, of household stuff, of ordure and filth` | 15:14 |
+| ἀποστρέφω | `they will be turned` | `they will be turned, they will be turned back, they will be turned away, they will be brought back, they will turn oneself about` | 15:16 |
+| ἀριθμέω | `number` | `number, count and reckon up, count out and pay, reckon and count as, be reckoned, be counted` | 15:5 |
+| ἀστήρ | `the stars` | `the stars, the flames and lights and fires` | 15:5 |
+| ἁμαρτία | `the failures` | `the failures, the faults and sins, the guilts and sins` | 15:16 |
+| ἄτεκνος | `without children` | `without children and childless, destroying children` | 15:2 |
+| ἐξάγω | `the one having led out` | `the one having led out, having led and carried out from, having brought forth into the world, having marched out, having ejected, having carried out and exported, having drawn off, having called forth and excited, having led on and tempted` | 15:7 |
+| ἐξέρχομαι | `they will go out of` | `they will go out of, they will come out, they will go away and march off, they will go forth` | 15:14 |
+| ἐξέρχομαι | `will go out of` | `will go out of, will come out, will go away and march off, will go forth` | 15:4 |
+| ἐπειδή, ἐπεί | `after that` | `after that, after, since, when, from the time when and ever since, whenever, as soon as, seeing that, for, although, else and otherwise` | 15:3, 15:17 |
+| ἐπιπίπτω | `falls upon` | `falls upon, attacks and assails` | 15:12 |
+| ἔθνος | `the number of people accustomed to live together` | `the number of people accustomed to live together, the company and body of men, the host, the swarms and flocks, the nation and people, the nations and gentiles, the special class, the caste and tribe, the sex` | 15:14 |
+| ἥλιος | `of sun` | `of sun, of day and a day, of Helios the sun-god` | 15:12 |
+| ἥλιος | `the sun` | `the sun, the day and a day, Helios the sun-god` | 15:17 |
+| ὄρνεον | `birds` | `birds, bird-market` | 15:11 |
+| ὅραμα, with ἐν | `in that which is seen` | `within, inside of, and by means of that which is seen, a sight and spectacle` | 15:1 |
+| ὑπερασπίζω | `I cover with a shield` | `I cover with a shield, I defend` | 15:1 |
+| ὧδε | `in this wise` | `in this wise and so and thus, so very and so exceedingly, thus and as follows, hither and here` | 15:14, 15:16 |
+| ῥῆμα | `that which is said` | `that which is said and spoken, a word, a saying, a phrase, the subject of speech and a thing, a verb` | 15:1 |
+| ῥῆμα | `the things which are said` | `the things which are said and spoken, the words, the sayings, the phrases, the subjects of speech and things, the verbs` | 15:1 |
 
 ### Small words new in GEN 14
 
@@ -2589,6 +2702,22 @@ of Adama, at 14:2. Each is glossed on its first occurrence. `validate.py` counte
 by its Greek form alone, and would have called the king's gloss a second gloss of the land; it now
 tells bearers apart by their English names, with a test, and `words.py` gives each card its own
 bearer's gloss. Σηγωρ is the Ζογορα of 13:10, spelt another way.
+
+| Μασεκ | Masek | Mesek | `(Μασεκ, from Hebrew mešeq, which the Hebrew does not use as a name, of uncertain meaning)` |
+| Ελιεζερ | Eliezer | Eliezer | `(Ελιεζερ, from Hebrew ʾĔlîʿezer, "my God is help")` |
+| Αμορραίων | Amorraiōn | Amorites | `(Αμορραῖος, from Hebrew ʾĔmōrî, of uncertain meaning)` |
+| Καιναίους | Kainaious | Kenites | `(Καιναῖος, from Hebrew Qênî, usually connected with qayin, "smith")` |
+| Κενεζαίους | Kenezaious | Kenizzites | `(Κενεζαῖος, from Hebrew Qĕnizzî, of uncertain meaning)` |
+| Κεδμωναίους | Kedmōnaious | Kadmonites | `(Κεδμωναῖος, from Hebrew Qadmōnî, "eastern")` |
+| Χετταίους | Chettaious | Hittites | `(Χετταῖος, from Hebrew Ḥittî, "of Ḥēt")` |
+| Ραφαϊν | Raphain | Rephaim | `(Ραφαϊν, from Hebrew Rĕpāʾîm, of uncertain meaning)` |
+| Ευαίους | Euaious | Hivites | `(Ευαῖος, from Hebrew Ḥiwwî, of uncertain meaning)` |
+| Γεργεσαίους | Gergesaious | Girgashites | `(Γεργεσαῖος, from Hebrew Girgāšî, of uncertain meaning)` |
+| Ιεβουσαίους | Iebousaious | Jebusites | `(Ιεβουσαῖος, from Hebrew Yĕbûsî, "of Jebus")` |
+
+GEN 15:2's Μασεκ is the Hebrew *mešeq*, which occurs nowhere else and is not a name there; the
+Greek makes it a woman's, the mother of Eliezer, whom it calls Δαμασκὸς Ελιεζερ.
+<!-- name rows above -->
 
 Σύγχυσις translates the name where 10:10 gave the city its Greek name, Βαβυλών; as with Ζωή at
 3:20, the anchored form is the English of the name the Greek prints, *Confusion*. Αρραν the man
