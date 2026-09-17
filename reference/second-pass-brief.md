@@ -190,6 +190,15 @@ and that πρεσβύτερος carries degree `C`; the lemma stays πρεσβύ
 first pass's Μαμβρη at 18:1 stays the place, `GS--`, as at 13:18; μέν and ἆρα stay `C-`, as MorphGNT
 mostly has them; and μή before συναπολέσῃς at 18:23 stays `D-`.
 
+### What it found in Genesis 19
+
+Twelve disagreements over 910 words. The second pass was right that τὰ κακά at 19:19 is the
+nominative subject of καταλάβῃ, with με its object; that καί at 19:21, ἐθαύμασά σου τὸ πρόσωπον καὶ
+ἐπὶ τῷ ῥήματι τούτῳ, is *also*, `D-`; and that ἀποθνήσκω keeps the spelling of the other chapters. The
+first pass's πλατεῖα stays MorphGNT's lemma, not πλατύς; πρεσβύτερος stays filed under itself, as
+settled at 18:11; adverbial μόνον stays `A- ----ASN- μόνος`, as MorphGNT has it at Matt 8:8; and μή at
+19:9 stays `D-`. εἰσεσπάσαντο is filed under LSJ's εἰσσπάομαι, as neither pass had it.
+
 ## The brief
 
 Copy everything below the rule into a new agent. Replace `<BOOK NAME>`, `<CHAPTER>`,
@@ -359,7 +368,7 @@ The dictionary form as Middle Liddell (Perseus) files it:
   Ἅβελ, Σήθ, Ἐνώς, Ἑνώχ, Μαθουσαλά, Λάμεχ, Μαλελεήλ, Νῶε, Σήμ, Χανάαν, Μαγώγ, Ἀρφαξάδ, Σαλά, Ἔβερ,
   Φάλεκ, Ἀράμ, Ῥαγαύ, Σερούχ, Ναχώρ, Θάρα, Λώτ, Χαρράν, Φαραώ, Συχέμ, Μελχισέδεκ, Σαλήμ, Βαλάκ,
   Ἐλιέζερ, Ἁγάρ, Ἀβραάμ, Σάρρα, Ἰσαάκ, Ἰακώβ, Ἠσαῦ, Ἰσραήλ, Ῥαχήλ, Λευί, Ῥουβήν, Συμεών, Ἰσσαχάρ,
-  Ζαβουλών, Γάδ, Ἀσήρ, Ἰωσήφ, Βενιαμίν, Ἐφραίμ, Βηθλέεμ, Ἑμμώρ, Μαδιάμ, Κόρε, Ζάρα, Φαρές, Ἤρ, Σαούλ, Ἀράμ, and the declined Σιδών, Γάζα, Βαβυλών, Σόδομα, Γόμορρα, Αἴγυπτος, Αἰγύπτιος,
+  Ζαβουλών, Γάδ, Ἀσήρ, Ἰωσήφ, Βενιαμίν, Ἐφραίμ, Βηθλέεμ, Ἑμμώρ, Μαδιάμ, Κόρε, Ζάρα, Φαρές, Ἤρ, Θαμάρ, Σαούλ, Ἀράμ, and the declined Σιδών, Γάζα, Βαβυλών, Σόδομα, Γόμορρα, Αἴγυπτος, Αἰγύπτιος,
   Χαλδαῖος, Ἰορδάνης, Φερεζαῖος, Δαμασκός, Ῥεβέκκα, Ἰούδας, Μανασσῆς (τὸν Μανασση, as Matt 1:10 τὸν Μανασσῆ), Μεσοποταμία, Συρία, Ἀραβία, Ἑβραῖος and Ἰδουμαία.
   Νεφθαλι is not Νεφθαλίμ, nor Βαλααν Βαλαάμ. Where the New Testament spells the name with other
   letters (Luke 3:36–37 Καϊνάμ, Ἰάρετ), it is not the same dictionary form; a breathing or accent is

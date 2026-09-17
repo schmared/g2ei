@@ -146,6 +146,14 @@ LSJ = {
     # βούτυρον, "butter", and "a plant".
     "μοσχάριον": ["little calf"],
     "βούτυρον": ["butter", "a plant"],
+    # No Middle Liddell entry for these five. LSJ (eng17): προσοίγνυμι, "shut". LSJ (eng1):
+    # ἀορασία, "inability to see, blindness", "failure to observe". LSJ (eng3): γελοιάζω, "jest".
+    # LSJ (eng5): ἐπαύριον, "on the morrow"; εἰσσπάομαι, "draw into oneself".
+    "προσοίγνυμι": ["shut"],
+    "ἀορασία": ["inability to see, blindness", "failure to observe"],
+    "γελοιάζω": ["jest"],
+    "ἐπαύριον": ["on the morrow"],
+    "εἰσσπάομαι": ["draw into oneself"],
 }
 
 # New Testament books: MorphGNT file and its book number.
@@ -504,6 +512,30 @@ NOT_SENSES = {
     "a)ni/hmi": {"loosed", "from", "baring her", "flaying", "are let range at large"},  # pieces of examples
     "spodo/s": {"the ashes", "of a bibulous"},  # pieces of examples
     "a(/pac": {"once"},                         # a repeat
+    # GEN 19
+    "pu/lh": {"(a house-door)", "house-door.", "the pass round the mountains", "the gates", "the pass"},  # pieces of examples
+    "katalu/w": {"having been dismissed", "to take", "down", "is", "guest", "may I take my rest"},  # pieces of examples
+    "o)rqreu/w": {"rising up early"},           # the middle participle
+    "pe/ssw": {"to cook oneself", "to have", "to nurse", "to lead a sodden"},  # pieces of examples
+    "koima/w": {"lay", "asleep"},               # pieces of an example
+    "a(/pas": {"everything, unumquodque"},     # Latin
+    "suggi/gnomai": {"comrades"},               # the participle as a noun
+    "a)re/skw": {"will we make up among ourselves", "the resolution", "grateful, acceptable"},  # pieces of examples, the participle
+    "mhdei/s": {"what is naught"},              # a piece of an example
+    "ske/ph": {"under shelter from", "protection"},  # pieces of examples
+    "suntri/bw": {"to rub", "together", "to stave", "in", "to have", "broken"},  # pieces of examples
+    "a)poklei/w": {"to shut", "out", "to get", "debarred from"},  # pieces of examples
+    "zhte/w": {"seeking", "what is sought for"},  # pieces of examples
+    "e)ktri/bw": {"to produce", "by rubbing", "to bring", "to a wretched end"},  # pieces of examples
+    "o)/rqros": {"at dawn", "morning early", "dawn"},  # pieces of examples
+    "krate/w": {"the lady of the house", "the conquerors", "'tis better to"},  # pieces of examples
+    "fei/domai": {"taking care", "refrain from", "sparingly", "shrink"},  # pieces of examples, the adverb
+    "sw/zw": {"who save", "from", "what is likely to save", "to rescue"},  # pieces of examples
+    "e)ggu/s": {"by a great deal, nothing like it", "very nearly"},  # pieces of examples
+    "ka/minos": {"baking"},                     # a piece of an example
+    "ou)dei/s": {"ne ullus"},                   # Latin
+    "deu=ro": {"to (have come hither and) be here"},  # an explanation
+    "e)/leos": {"pity for . ."},                # a construction
 }
 
 # An entry that divides its senses by tense and voice, so that which of them belong to a
@@ -605,6 +637,16 @@ SPELLING = {
     "ni/ptw": "ni/zw",              # the late present, filed under νίζω
     "a)pokri/nomai": "a)pokri/nw",  # MorphGNT's middle, filed under the active
     "presbu/teros": "pre/sbus",     # the comparative, filed inside the positive's entry
+    "o)rqri/zw": "o)rqreu/w",       # cross-reference; "= ὀρθρεύω"
+    "platei=a": "platu/s",          # the feminine used as a noun, filed inside the adjective's entry
+    "suggi/nomai": "suggi/gnomai",  # the Attic spelling
+    "sw/|zw": "sw/zw",              # the entry is headed without the iota subscript
+    "diasw/|zw": "diasw/zw",        # likewise
+    "de/omai": "de/w2",             # the deponent, filed under δέω, to lack; de/w1 is to bind
+    "prwi+/": "prwi/",              # the entry is headed without the diaeresis
+    "ma=llon": "ma/la",             # the comparative, filed inside the positive's entry
+    "a)tmi/s": "a)tmo/s",           # cross-reference; "= ἀτμός"
+    "e)xqe/s": "xqe/s",             # cross-reference; "v. χθές"
 }
 
 # Homographs where Perseus's *first* entry is a different word from the one the text

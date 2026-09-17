@@ -65,14 +65,15 @@ curl -sL --create-dirs -o sources/lsj/grc.lsj.perseus-eng1.xml https://raw.githu
 
 | file | covers | fetched for |
 | --- | --- | --- |
-| `eng1` | the whole of alpha, `*a` to `ἄωτος` (42 MB) | ἀκατασκεύαστος (Gen 1:2), ἁγιάζω (Gen 2:3), ἀσφαλτόω (Gen 6:14), ἀνάστημα (Gen 7:23), ἁλυκός, ἀποσκευή (Gen 14) |
+| `eng1` | the whole of alpha, `*a` to `ἄωτος` (42 MB) | ἀκατασκεύαστος (Gen 1:2), ἁγιάζω (Gen 2:3), ἀσφαλτόω (Gen 6:14), ἀνάστημα (Gen 7:23), ἁλυκός, ἀποσκευή (Gen 14), ἀορασία (Gen 19:11) |
 | `eng2` | beta (5 MB) | βούτυρον (Gen 18:8) |
+| `eng3` | gamma (4 MB) | γελοιάζω (Gen 19:14) |
 | `eng4` | delta (15 MB) | διαναπαύω (Gen 5:29), διώροφος (Gen 6:16), διχοτόμημα (Gen 15:11) |
-| `eng5` | epsilon (40 MB) | ἑβδομηκοντάκις (Gen 4:24), εὐαρεστέω (Gen 5:22), ἑξακοσιοστός (Gen 7:11), ἐλαττονόω (Gen 8:3), ἐνισχύω, ἐγγίζω, ἐτασμός (Gen 12), ἑκατονταέτης (Gen 17:17) |
+| `eng5` | epsilon (40 MB) | ἑβδομηκοντάκις (Gen 4:24), εὐαρεστέω (Gen 5:22), ἑξακοσιοστός (Gen 7:11), ἐλαττονόω (Gen 8:3), ἐνισχύω, ἐγγίζω, ἐτασμός (Gen 12), ἑκατονταέτης (Gen 17:17), ἐπαύριον, εἰσσπάομαι (Gen 19) |
 | `eng11` | kappa (23 MB) | κατάσχεσις (Gen 17:8) |
 | `eng13` | mu (12 MB) | μώλωψ (Gen 4:23), μοσχάριον (Gen 18:7) |
 | `eng16` | omicron (12 MB) | ὀστέον (Gen 2:23), ὀκτώ (Gen 5:28), ὀπισθοφανής and ὀπισθοφανῶς (Gen 9:23) |
-| `eng17` | pi, `p` to `πώϋξ` (38 MB) | πράσινος (Gen 2:12), ποιμήν (Gen 4:2), πρῶτος (Gen 8:5), filed under πρότερος, περάτης and πορθμεύς (Gen 14:13) |
+| `eng17` | pi, `p` to `πώϋξ` (38 MB) | πράσινος (Gen 2:12), ποιμήν (Gen 4:2), πρῶτος (Gen 8:5), filed under πρότερος, περάτης and πορθμεύς (Gen 14:13), προσοίγνυμι (Gen 19:6) |
 | `eng21` | sigma (23 MB) | σύ (Gen 3), which Middle Liddell omits, σφαιρωτήρ (Gen 14:23) |
 | `eng22` | tau (12 MB) | τρεῖς (Gen 5:32), filed under τρία, τριετίζω (Gen 15:9) |
 | `eng23` | upsilon (9 MB) | ὑπερασπίζω (Gen 15:1) |
@@ -86,7 +87,7 @@ and look at the first entry's key:
 curl -sL -r 0-199999 https://raw.githubusercontent.com/PerseusDL/lexica/master/CTS_XML_TEI/perseus/pdllex/grc/lsj/grc.lsj.perseus-eng17.xml | grep -o 'key="[^"]*"' | head -1
 ```
 
-`eng2` opens at beta, `eng4` delta, `eng5` epsilon, `eng11` kappa, `eng13` mu, `eng14` nu, `eng16` omicron, `eng20` rho,
+`eng2` opens at beta, `eng3` gamma, `eng4` delta, `eng5` epsilon, `eng11` kappa, `eng13` mu, `eng14` nu, `eng16` omicron, `eng20` rho,
 `eng21` sigma, `eng22` tau.
 
 Entries are `<entryFree key="…">` in Beta Code, with `<tr>` for each translation, as in

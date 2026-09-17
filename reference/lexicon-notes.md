@@ -150,6 +150,15 @@ Three reasons, and all of them are the lexicon's filing rather than a decision a
 | νίπτω (GEN 18:4) | νίζω | the late present, filed under νίζω |
 | ἀποκρίνομαι (GEN 18:9) | ἀποκρίνω | MorphGNT's middle, filed under the active |
 | πρεσβύτερος (GEN 18:11) | πρέσβυς | the comparative, filed inside the positive's entry |
+| ὀρθρίζω (GEN 19:2) | ὀρθρεύω | cross-reference; "= ὀρθρεύω" |
+| πλατεῖα (GEN 19:2) | πλατύς | the feminine used as a noun, filed inside the adjective's entry |
+| συγγίνομαι (GEN 19:5) | συγγίγνομαι | the Attic spelling |
+| σῴζω, διασῴζω (GEN 19:17, 19:19) | σώζω, διασώζω | the entries are headed without the iota subscript |
+| δέομαι (GEN 19:18) | δέω (the second entry) | the deponent, filed under δέω, to lack; the first δέω is to bind |
+| πρωΐ (GEN 19:27) | πρωί | the entry is headed without the diaeresis |
+| μᾶλλον (GEN 19:9) | μάλα | the comparative, filed inside the positive's entry |
+| ἀτμίς (GEN 19:28) | ἀτμός | cross-reference; "= ἀτμός" |
+| ἐχθές (GEN 19:34) | χθές | cross-reference; "v. χθές" |
 <!-- spelling rows above -->
 
 The dictionary form itself does not follow the lexicon's filing: it keeps the spelling the text
@@ -183,7 +192,7 @@ GEN 9 adds ὀπισθοφανής, *seen from behind*, and its adverb ὀπισ
 ἔτασις, *trial, affliction*. GEN 14 adds ἁλυκός, *salt, brackish*; ἀποσκευή, whose *removal,
 riddance* comes before *baggage*; σφαιρωτήρ, *thong, latchet*; and περάτης, which opens "= πορθμεύς",
 so that πορθμεύς's LSJ senses, *ferryman*, *boatman, seaman*, *conveyer*, stand before its own
-*wanderer, emigrant*, as ἁγίζω's stand for ἁγιάζω. GEN 15 adds ὑπερασπίζω, *cover with a shield*, from the upsilon file; τριετίζω, *to be three years old*; and διχοτόμημα, *half of a thing cut in two*. GEN 17 adds κατάσχεσις, *holding back, restraining, retention*, then *possession*, from the kappa file; and ἑκατονταέτης, *of a hundred years*, *years old*, citing 17:17. GEN 18 adds μοσχάριον, *little calf*, and, from the beta file, βούτυρον, *butter*, then *a plant*.
+*wanderer, emigrant*, as ἁγίζω's stand for ἁγιάζω. GEN 15 adds ὑπερασπίζω, *cover with a shield*, from the upsilon file; τριετίζω, *to be three years old*; and διχοτόμημα, *half of a thing cut in two*. GEN 17 adds κατάσχεσις, *holding back, restraining, retention*, then *possession*, from the kappa file; and ἑκατονταέτης, *of a hundred years*, *years old*, citing 17:17. GEN 18 adds μοσχάριον, *little calf*, and, from the beta file, βούτυρον, *butter*, then *a plant*. GEN 19 adds προσοίγνυμι, *shut*; ἀορασία, *inability to see, blindness*; γελοιάζω, *jest*, from the gamma file; ἐπαύριον, *on the morrow*; and εἰσσπάομαι, *draw into oneself*.
 <!-- LSJ sentences above -->
 
 GEN 9 also files ἐμεθύσθη under μεθύσκω, *to make drunk*, where Middle Liddell gives its aorist
@@ -583,6 +592,176 @@ the same ground as `the sixth` and `the seventh`: one sense each, so no range to
   settling in` (10:30); δύο `two`; υἱός `sons`.
 - The article before a people's name (τοὺς Λουδιιμ, τὸν Χετταῖον, τῶν Χαναναίων) is not printed,
   as before a person's name.
+
+### Words new in GEN 19
+
+- ἐν τῷ with the infinitive — `in the sparing` (19:16), `in the rubbing out` and `in the turning
+  down` (19:29), `in the falling asleep` (19:33, 19:35): the article inside the ἐν unit and the
+  infinitive as a noun in *-ing*, as ἐν τῷ κινῆσαι is `in the setting in motion` at 11:2; the
+  infinitive's subject follows, `lord`, `her`.
+- σῴζω — filed under σώζω, first *to save, keep*. The passive takes the entry's passive *to come
+  safe, escape to* last; the middle imperative σῴζου takes the middle, *to keep* or *preserve for
+  oneself*. 19:17, 19:20, 19:22.
+- δέομαι — filed under the second δέω, *to lack*; the deponent's senses stand, *to be in want* or
+  *need*, *to ask for*, *to beg*. 19:18.
+- μᾶλλον — the comparative, filed inside μάλα: *more*, then *more and more, still more*, *much
+  more*, *rather*. ἤ — first *or*; its comparative *than, as* follows. 19:9.
+- τὰ κακά — κακός as a noun, the entry's substantive *evil, ill*, with *evil words, reproaches*.
+  19:19.
+- περίοικος, τὴν περίοικον — the singular takes the adjective's *dwelling round*; *neighbours* is the
+  plural's. περίχωρος as an adjective after the repeated article, `the round about a place`
+  (19:28); as a noun, ἡ περίχωρος, the chain of GEN 13:10 (19:17). 19:25, 19:29.
+- γαμβρός — first *any one connected by marriage*; in the plural, `ones connected by marriage`, the
+  lexicon's *any* dropped as *a* is. 19:12, 19:14.
+- ἀπό + μικρός, ἕως + μέγας — the adjectives as the entry gives them, in the genitive. 19:11.
+- The instrumental dative takes `with` — ἀορασίᾳ `with inability to see` (19:11), as θανάτῳ is
+  `with death` at 3:4 and τοῖς ὀφθαλμοῖς `with the eyes` at 13:14 and 18:2.
+- εἰσσπάομαι — LSJ's one translation, *draw into oneself*, written as a unit whose chain is the
+  headword alone, because the verse's εἰς is also *into*, and plain text would put that headword
+  outside its unit. 19:10.
+- Names: Σοδομῖται `(Σοδομῖται, the men of Σόδομα, Sodom)`; Μωαβ, and Μωαβιτῶν `(Μωαβῖται, the
+  people of Μωαβ, Moab)`; Αμμαν `(Αμμαν, for Hebrew Ben-ʿammî, "son of my people")`, anchored
+  Ammon, the people's name the Greek form matches, and Αμμανιτῶν. The article before a people's
+  name is not printed. 19:4, 19:37, 19:38.
+- One sense each in GEN 19, so plain text: καταβιάζομαι `was constraining` (19:3); ἄζυμος
+  `unleavened` (19:3); νεανίσκος `of a youth` (19:4); προσοίγνυμι `shut` (19:6, LSJ); παραβιάζομαι
+  `were using violence to` (19:9); γελοιάζω `to jest` (19:14, LSJ); ἐπισπουδάζω `were making haste
+  in`, συναπόλλυμι's middle `you may perish together`, ἀνομία `to the lawlessnesses` (19:15); θεῖον
+  `brimstone` (19:24); ἐπαύριον `on the morrow` (19:34, LSJ); χθές `yesterday` (19:34); σήμερον
+  `to-day` (19:37, 19:38).
+
+| lemma | headword | chain | used |
+| --- | --- | --- | --- |
+| γαμβρός | `of the ones connected by marriage` | `of the ones connected by marriage, of the sons-in-law, of the brothers-in-law and sisters' husbands, of the wives' brothers, of the fathers-in-law, of the bridegrooms and wooers and suitors` | 19:14 |
+| γαμβρός | `ones connected by marriage` | `ones connected by marriage, sons-in-law, brothers-in-law and sisters' husbands, wives' brothers, fathers-in-law, bridegrooms and wooers and suitors` | 19:12 |
+| γαμβρός | `the ones connected by marriage` | `the ones connected by marriage, the sons-in-law, the brothers-in-law and sisters' husbands, the wives' brothers, the fathers-in-law, the bridegrooms and wooers and suitors` | 19:14 |
+| γῆ | `to the earth` | `to the land, to the dry ground, to the terrestrial realm` | 19:31 |
+| δέομαι | `I am in want` | `I am in want and need, I stand in need of, I ask for and from, I beg` | 19:18 |
+| δεῦρο | `hither` | `hither, here and on and come on, up to this point, until now and up to this time and hitherto` | 19:32 |
+| διασῴζω | `to be preserved through` | `to be preserved through, to be preserved and maintained, to be kept in mind, to come safe through and arrive in safety, to recover` | 19:19 |
+| δικαιοσύνη | `the righteousness` | `the righteousness, the justice` | 19:19 |
+| δοκέω | `thought` | `thought, supposed, imagined, expected, had and formed an opinion, was determined and resolved, seemed and pretended, seemed, seemed good` | 19:14 |
+| δοκός | `of the bearing-beams` | `of the bearing-beams, of the balks and beams, of the bars` | 19:8 |
+| δύναμαι | `I will be able` | `I will be able, I will be capable and strong enough, I will be powerful and mighty, I will have influence, I will dare and bear, I will pass for, I will be worth, I will be equivalent to, I will signify and mean, I will avail` | 19:19, 19:22 |
+| εἰσέρχομαι | `having gone in` | `having gone in, having gone into and entered, having come into, having come in, having come upon` | 19:5, 19:33, 19:34, 19:35 |
+| ζάω | `to live` | `to live, to be in full life and strength, to be fresh and strong` | 19:19 |
+| ζητέω | `seeking` | `seeking, seeking for, enquiring for and asking about, searching after and searching out, searching and inquiring into and investigating, requiring and demanding, seeking after and desiring, seeking to, having to seek and feeling the want of` | 19:11 |
+| θαυμάζω | `I wondered` | `I wondered, I marvelled, I was astonied, I looked on with wonder and amazement, I wondered at and marvelled at, I honoured and admired and worshipped` | 19:21 |
+| κάθημαι | `was being seated` | `was being seated, was being seated in court, was sitting still and sitting quiet, was sitting and lying idle, was sitting down and lying, was leading a sedentary life, was being settled` | 19:1, 19:30 |
+| κάμινος | `of an oven` | `of an oven, of a furnace, of a kiln` | 19:28 |
+| καθήκω | `has come` | `has come and gone down, comes down to and comes and reaches to, has come to, is meet and fit and proper, belongs to, beseems` | 19:31 |
+| κακός | `the evils` | `the evils, the ills, the evil words and reproaches` | 19:19 |
+| κακόω | `we will treat ill` | `we will treat ill and maltreat and afflict and distress, we will spoil and ruin, we will suffer ill and be in ill plight and be distressed` | 19:9 |
+| καταλαμβάνω | `may seize upon` | `may seize upon, may lay hold of, may seize and overpower, may seize with the mind and apprehend and comprehend, may catch and overtake and come up with, may overtake and befall, may surprise and catch and find, may repress and arrest and check, may put an end to, may bind, may force and compel to do` | 19:19 |
+| καταλύω | `put down` | `put down, destroy, dissolve and break up, depose, dismiss and disband, neglect, end and bring to an end, break, make peace with, unloose and unyoke, take down, take up your quarters and lodge, go and lodge, take your rest` | 19:2 |
+| καταλύω | `we will put down` | `we will put down, we will destroy, we will dissolve and break up, we will depose, we will dismiss and disband, we will neglect, we will end and bring to an end, we will break, we will make peace with, we will unloose and unyoke, we will take down, we will take up our quarters and lodge, we will go and lodge, we will take our rest` | 19:2 |
+| καταστρέφω | `to turn down` | `to turn down and trample on, to turn the soil, to upset and overturn, to subject to oneself and subdue, to turn back and bring back, to turn round and bring to an end, to come to an end and die, to twist up` | 19:21 |
+| καταστρέφω | `turned down` | `turned down and trampled on, turned the soil, upset and overturned, subjected to himself and subdued, turned back and brought back, turned round and brought to an end, came to an end and died, twisted up` | 19:25 |
+| καταστρέφω, with ἐν τῷ | `in the turning down` | `within, inside of, and by means of the turning down and trampling on, the turning the soil, the upsetting and overturning, the subjecting to oneself and subduing, the turning back and bringing back, the turning round and bringing to an end, the coming to an end and dying, the twisting up` | 19:29 |
+| καταστροφή | `of the overturning` | `of the overturning, of the subduing and subjugation and reduction, of the sudden turn and end, of the close and conclusion, of the catastrophe` | 19:29 |
+| καταφεύγω | `to flee for refuge` | `to flee for refuge, to flee and take refuge, to flee for protection, to escape, to have recourse to, to fall back upon and appeal to` | 19:20 |
+| κοιμάω | `I fell asleep` | `I fell asleep, I went abed and lay abed, I slept, I fell asleep and died, I kept watch at night` | 19:34 |
+| κοιμάω | `fall asleep` | `fall asleep, go abed and lie abed, sleep, fall asleep and die, keep watch at night` | 19:34 |
+| κοιμάω | `fell asleep` | `fell asleep, went abed and lay abed, slept, fell asleep and died, kept watch at night` | 19:33, 19:35 |
+| κοιμάω | `let us fall asleep` | `let us fall asleep, let us go abed and lie abed, let us sleep, let us fall asleep and die, let us keep watch at night` | 19:32 |
+| κοιμάω | `to fall asleep` | `to fall asleep, to go abed and lie abed, to sleep, to fall asleep and die, to keep watch at night` | 19:4 |
+| κοιμάω, with ἐν τῷ | `in the falling asleep` | `within, inside of, and by means of the falling asleep, the going abed and lying abed, the sleeping, the falling asleep and dying, the keeping watch at night` | 19:33, 19:35 |
+| κρίνω | `to pick out` | `to pick out and choose, to pick out for oneself and choose, to decide, to judge, to adjudge, to judge of and estimate, to expound and interpret, to determine, to question, to bring to trial and accuse, to pass sentence upon and condemn` | 19:9 |
+| κρατέω | `were strong` | `were strong, were mighty, were powerful, ruled and held sway and were sovereign, ruled among, were lords and masters of and rulers over, conquered and prevailed and got the upper hand, prevailed and became current, prevailed over, surpassed and went beyond, conquered and mastered and outdid and surpassed, became masters of and got possession of, laid hold of, seized and held fast, controlled and commanded` | 19:16 |
+| κύριος | `lords` | `lords, masters, the ones having power and authority over` | 19:2 |
+| λέγω | `were saying` | `were saying, were speaking, were declaring, were calling by name, were telling` | 19:5 |
+| λαλέω | `you talked` | `you talked, you chatted, you prattled, you babbled, you said, you talked of, you spoke, you chattered, you chirped` | 19:21 |
+| λαμβάνω | `having taken` | `having taken and holding so, having received and holding so, having taken hold of and grasped and seized and holding so` | 19:14 |
+| μέγας | `of big` | `of big, of great, of tall, of full-grown, of vast and high, of spacious and wide, of strong and mighty, of violent, of loud, of prevailing, of weighty and important` | 19:11 |
+| μέσος | `of middle` | `of the middle, of in the middle, of the centre, of mid, of between two` | 19:29 |
+| μήποτε | `that at no time` | `that at no time, lest ever` | 19:17 |
+| μεγαλύνω | `you made great` | `you made great and powerful, you exalted and strengthened, you made great by word and extolled and magnified, you aggravated` | 19:19 |
+| μηδείς | `and not one` | `and not one, not even one, nobody and naught and good for naught, naught and nothing, a good for naught, not at all and by no means` | 19:8 |
+| μικρός | `of small` | `of small, of little, of petty and trivial and slight, of short` | 19:11 |
+| μικρός | `small` | `small, little, petty and trivial and slight, short` | 19:20 |
+| μόνος | `alone` | `alone, only` | 19:8 |
+| μᾶλλον | `more` | `more, more and more and still more, much more, rather` | 19:9 |
+| νίπτω | `wash the hands` | `wash the hands, purge and cleanse, wash off` | 19:2 |
+| νύξ, with ἐν | `in the night-season` | `within, inside of, and by means of the night-season, the night, the watches of the night, the dark of night, the night of death` | 19:33, 19:35 |
+| οἰκία | `the building` | `the building, the house, the dwelling, the household and domestic establishment, the household and inmates of the house, the house and family from which one is descended` | 19:3, 19:4 |
+| οὐδείς | `and not one` | `and not one, no one, none, naught and good for naught` | 19:31 |
+| πέσσω | `softened` | `softened, ripened, changed, cooked and dressed and baked, digested, cherished and nursed, enjoyed` | 19:3 |
+| παρά + genitive | `from the side of` | `from the side of, from beside, from, near` | 19:24 |
+| παραλύω | `were loosed from the side` | `were loosed from the side, were taken off and detached, were undone and put an end to, were unyoked and parted from, were set free, were loosed beside, were parted from, were exempt, were disabled at the side and paralysed, were exhausted and flagged` | 19:11 |
+| περίχωρος | `round about a place` | `round about a place, the people about, the country round about` | 19:28 |
+| περιβλέπω | `you may look round about` | `you may look round about, you may gaze around, you may look round at, you may seek after and look about for, you may gaze on and admire and respect, you may be jealous of and suspect, you may covet` | 19:17 |
+| περικυκλόω | `encircled` | `encircled, encompassed, went round` | 19:4 |
+| πλατεῖα, with ἐν | `in the street` | `within, inside of, and by means of the street, the flat of the hand` | 19:2 |
+| ποιέω | `you make` | `you make, you do, you produce, you create` | 19:19 |
+| ποιέω | `you may make` | `you may make, you may do, you may produce, you may create` | 19:8 |
+| πονηρεύομαι | `you may be evil` | `you may be evil, you may act wickedly, you may play the rogue` | 19:7 |
+| ποτίζω | `gave to drink` | `gave to drink, watered` | 19:33, 19:35 |
+| ποτίζω | `let us give to drink` | `let us give to drink, let us water` | 19:32, 19:34 |
+| πρεσβύτερος | `of elder` | `of elder, of older, of higher and more important, of greater than, of an elder of the Jewish Council, of an elder of the Church and presbyter` | 19:4 |
+| πρεσβύτερος | `the elder` | `the elder, the older, the higher and more important, the greater than, the elder of the Jewish Council, the elder of the Church and presbyter` | 19:31, 19:33, 19:34, 19:37 |
+| πρωΐ | `early in the day` | `early in the day, early, at morn, betimes, in good time, too soon and too early` | 19:27 |
+| πρόθυρον | `the front-door` | `the front-door, the space before a door, the porch and verandah` | 19:6 |
+| πρᾶγμα | `that which has been done` | `that which has been done, a deed, an act, anything necessary and expedient, a thing of consequence and importance, an action and affair, the thing and the business` | 19:22 |
+| πόλις | `of the city` | `of the city, of the citadel, of the country, of the body of citizens, of the state` | 19:4, 19:15, 19:22 |
+| πόλις | `the cities` | `the cities, the citadels, the countries, the bodies of citizens, the states` | 19:25, 19:29 |
+| πόλις, with ἐν | `in the cities` | `within, inside of, and by means of the cities, the citadels, the countries, the bodies of citizens, the states` | 19:25 |
+| πότος | `drinking` | `drinking, a drinking-bout, carousal` | 19:3 |
+| πύλη | `the one wing of a pair of double gates` | `the one wing of a pair of double gates, the gates of a town, the house-door, the nether world and hell, the entrance, the orifice, the entrance into a country through mountains and the mountain-pass, the narrow straits` | 19:1 |
+| πῦρ | `fire` | `fire, the funeral-fire, the fire of the hearth` | 19:24 |
+| σκέπη | `the covering` | `the covering, the shelter, the protection` | 19:8 |
+| σπήλαιον, with ἐν | `in the grotto` | `within, inside of, and by means of the grotto, the cave, the cavern` | 19:30 |
+| στήλη | `a block of stone` | `a block of stone, a prop and buttress to a wall, a slab, a gravestone, the record and a contract and agreement, the turning-post` | 19:26 |
+| συγγίνομαι | `we may be with` | `we may be with, we may hold converse and communication with, we may associate and keep company with, we may consult, we may come to assist, we may come together and meet` | 19:5 |
+| συμπαραλαμβάνω | `you may be taken along with` | `you may be taken along with, you may be taken in as an adjunct` | 19:17 |
+| συντρίβω | `to rub together` | `to rub together, to shiver to atoms, to beat to a jelly and crush` | 19:9 |
+| σῴζω | `I will be saved` | `I will be saved, I will be kept, I will be saved from death and kept alive and preserved, I will be kept safe, I will be kept and observed and maintained, I will be kept in mind and remembered, I will be brought safe to, I will be carried off safe and rescued from, I will come safe and escape to` | 19:20 |
+| σῴζω | `keep for yourself` | `keep for yourself and preserve for yourself, keep in mind and remember` | 19:17 |
+| σῴζω | `save` | `save, keep, save from death and keep alive and preserve, keep safe, keep and observe and maintain, keep in mind and remember, bring safe to, carry off safe and rescue from` | 19:17 |
+| σῴζω | `saving` | `saving, keeping, saving from death and keeping alive and preserving, keeping safe, keeping and observing and maintaining, keeping in mind and remembering, bringing safe to, carrying off safe and rescuing from` | 19:17 |
+| σῴζω | `to be saved` | `to be saved, to be kept, to be saved from death and kept alive and preserved, to be kept safe, to be kept and observed and maintained, to be kept in mind and remembered, to be brought safe to, to be carried off safe and rescued from, to come safe and escape to` | 19:22 |
+| ταράσσω | `were stirred` | `were stirred, were stirred up, were troubled, were confounded and agitated and disturbed and disquieted, were thrown into disorder, were agitated and distracted, were raised by stirring up, were in disorder, were in a state of disorder and anarchy, were shaken in their seat` | 19:16 |
+| φείδομαι, with ἐν τῷ | `in the sparing` | `within, inside of, and by means of the sparing, the not destroying, the being merciful, the refraining from using and using sparingly, the being sparing and being thrifty and living thriftily, the drawing back from, the ceasing, the forbearing` | 19:16 |
+| ἀνήρ | `a man` | `a man, a man in the prime of life` | 19:8 |
+| ἀνίστημι | `stand up` | `stand up, rise, rise to fight against, rise to go and set out` | 19:14 |
+| ἀνίστημι | `to stand up` | `to stand up, to rise, to rise to fight against, to rise to go and set out` | 19:33, 19:35 |
+| ἀνατέλλω | `the ones making to rise up` | `the ones making to rise up, growing up, giving birth to and bringing to light, rising, taking their rise, growing` | 19:25 |
+| ἀορασία | `with inability to see` | `with inability to see, with blindness, with failure to observe` | 19:11 |
+| ἀποθνήσκω | `I may die off` | `I may die off, I may die, I may be put to death, I may be slain` | 19:19 |
+| ἀποκλείω | `shut off from` | `shut off from and out of, debarred, shut out and excluded from, shut up and barred and closed, shut up, shut out and intercepted and barred` | 19:10 |
+| ἀπόλλυμι | `we destroy utterly` | `we destroy utterly, we kill, we slay, we destroy and demolish and waste, we talk and bore to death, we lose utterly` | 19:13 |
+| ἀρέσκω | `may make good` | `may make good and make up, may make amends, may please and satisfy and flatter` | 19:8 |
+| ἀτμίς | `steam` | `steam, vapour` | 19:28 |
+| ἀφίστημι | `stand away` | `stand away, stand aloof from and keep far from, lose, withdraw from, revolt from, revolt, give up, make way and give way, shrink from, stand aloof` | 19:9 |
+| ἄγγελος | `the messengers` | `the messengers and envoys, the ones that announce, the divine messengers and the angels` | 19:1, 19:15, 19:16 |
+| ἄδικος | `wrong-doing` | `wrong-doing, unrighteous, unjust, obstinate and unmanageable, wrongly done and wrong and unjust` | 19:8 |
+| ἄλλος | `another` | `another, one besides, any other and some other, the other, all the others and the rest, yet and still, of other sort and different, other than, else` | 19:12 |
+| ἅλς | `of a lump of salt` | `of a lump of salt, of salt` | 19:26 |
+| ἅπας | `quite all` | `quite all, the whole, all together, all, everyone` | 19:4 |
+| ἐγγίζω | `brought near` | `brought near, brought up to, approached, were imminent, approximated to, were next of kin, were on the point of` | 19:9 |
+| ἐγγύς | `hard by` | `hard by, near to, near, nigh, at hand, nigh at hand, nearly, akin to` | 19:20 |
+| ἐκκαλέω | `were calling out to themselves` | `were calling out to themselves, were calling forth and eliciting, were calling on to` | 19:5 |
+| ἐκκλίνω | `bend out of the regular line` | `bend out of the regular line, turn away and give ground and retire, avoid and shun, turn aside towards` | 19:2 |
+| ἐκκλίνω | `bent out of the regular line` | `bent out of the regular line, turned away and gave ground and retired, avoided and shunned, turned aside towards` | 19:3 |
+| ἐκτρίβω | `rubs out` | `rubs out, rubs hard, destroys root and branch, rubs constantly and wears out` | 19:14 |
+| ἐκτρίβω | `to rub out` | `to rub out, to rub hard, to destroy root and branch, to rub constantly and wear out` | 19:13 |
+| ἐκτρίβω, with ἐν τῷ | `in the rubbing out` | `within, inside of, and by means of the rubbing out, the rubbing hard, the destroying root and branch, the rubbing constantly and wearing out` | 19:29 |
+| ἐξάγω | `I will lead out` | `I will lead out, I will lead and carry out from, I will bring forth into the world, I will march out, I will eject, I will carry out and export, I will draw off, I will call forth and excite, I will lead on and tempt` | 19:8 |
+| ἐξανίστημι | `let us raise up` | `let us raise up, let us make to rise, let us remove and expel, let us rouse` | 19:32, 19:34 |
+| ἐξανίστημι | `stood up from one's seat` | `stood up from one's seat, rose, arose and departed from and emigrated from, broke up and departed, was driven out, was forced to emigrate, was depopulated` | 19:1 |
+| ἐπιβλέπω | `looked upon` | `looked upon, looked attentively, looked well at and observed, eyed with envy` | 19:26, 19:28 |
+| ἑσπέρα | `of evening` | `of evening, of eventide, of eve, of nightfall, of the west` | 19:1 |
+| ἔλεος | `pity` | `pity, mercy, compassion, an object of compassion and a piteous thing` | 19:19 |
+| ἔρχομαι | `you came` | `you came, you went, you went back and returned, you were going to and intended, you came within a little of and were near` | 19:9 |
+| ἡμέρα | `of day` | `of day, of day-break, of time` | 19:37, 19:38 |
+| ἤ | `or` | `or, either or, whether or, than and as, rather` | 19:9, 19:12 |
+| ἵστημι | `you may be set` | `you may be set, you may be placed, you may stand, you may be there, you may be in a state and condition, you may lie and be situated, you may stand still and stop and halt, you may stand idle, you may stop and cease and be at rest, you may stand firm, you may stand up and rise up, you may arise and begin` | 19:17 |
+| ὀπίσω | `backwards` | `backwards, back and back again, again, hereafter, behind, following` | 19:17, 19:26 |
+| ὀρθρίζω | `having risen early` | `having risen early, having been awake early` | 19:2 |
+| ὀρθρίζω | `rose early` | `rose early, was awake early` | 19:27 |
+| ὄρθρος | `day-break` | `day-break, dawn, cock-crow, in the morning` | 19:15 |
+| ὄρος, with ἐν | `in the mountain` | `within, inside of, and by means of the mountain, the hill` | 19:30 |
+| ὡσεί | `just as if` | `just as if, as though, about` | 19:28 |
+| ῥῆμα | `to that which is said` | `to that which is said and spoken, to the word, to the saying, to the phrase, to the subject of speech and the thing, to the verb` | 19:21 |
 
 ### Words new in GEN 18
 
@@ -3020,6 +3199,12 @@ Greek makes it a woman's, the mother of Eliezer, whom it calls Δαμασκὸς
 | Αβρααμ | Abraam | Abraham | `(Αβρααμ, from Hebrew ʾAbrāhām, which the Hebrew of 17:5 hears in ʾab hămôn gôyim, "father of a multitude of nations")` |
 | Σαρρα | Sarra | Sarah | `(Σαρρα, from Hebrew Śārâ, "princess")` |
 | Ισαακ | Isaak | Isaac | `(Ισαακ, from Hebrew Yiṣḥāq, "he laughs")` |
+
+| Σοδομῖται | Sodomitai | Sodomites | `(Σοδομῖται, the men of Σόδομα, Sodom)` |
+| Μωαβ | Mōab | Moab | `(Μωαβ, from Hebrew Môʾāb, of uncertain meaning)` |
+| Μωαβιτῶν | Mōabitōn | Moabites | `(Μωαβῖται, the people of Μωαβ, Moab)` |
+| Αμμαν | Amman | Ammon | `(Αμμαν, for Hebrew Ben-ʿammî, "son of my people")` |
+| Αμμανιτῶν | Ammanitōn | Ammonites | `(Αμμανῖται, the people of Αμμαν, for Hebrew bĕnê-ʿammôn, the sons of Ammon)` |
 <!-- name rows above -->
 
 Σύγχυσις translates the name where 10:10 gave the city its Greek name, Βαβυλών; as with Ζωή at
