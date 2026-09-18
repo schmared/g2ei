@@ -386,8 +386,6 @@
           "senses": [
             "flocks and herds",
             "a single beast",
-            "an ox",
-            "sheep",
             "a beast for riding"
           ],
           "more": 0,
@@ -996,11 +994,11 @@
           "senses": [
             "to call upon",
             "invoke, appeal to",
-            "to invoke",
-            "to watch over",
-            "to invite"
+            "to invite",
+            "to call in",
+            "to call before one, summon"
           ],
-          "more": 8,
+          "more": 6,
           "lexicon": "Middle Liddell"
         },
         {
@@ -1417,12 +1415,12 @@
           "aspect": "going on, in progress",
           "senses": [
             "to begin, make a beginning",
-            "to make a beginning of",
-            "to begin",
-            "to be begun",
-            "a beginning"
+            "had been made",
+            "to begin to be, come into being, arise, spring up",
+            "to be in existence, to be there, to be ready",
+            "there is store"
           ],
-          "more": 22,
+          "more": 18,
           "lexicon": "Middle Liddell"
         },
         {
@@ -1488,12 +1486,12 @@
           "aspect": "was, and kept on being: action going on in past time",
           "senses": [
             "to be able, capable, strong enough",
-            "powerful, mighty",
-            "having influence",
             "to dare",
-            "bear"
+            "to pass for",
+            "to be worth",
+            "to be equivalent to"
           ],
-          "more": 5,
+          "more": 2,
           "lexicon": "Middle Liddell"
         },
         {
@@ -1656,8 +1654,6 @@
           "senses": [
             "flocks and herds",
             "a single beast",
-            "an ox",
-            "sheep",
             "a beast for riding"
           ],
           "more": 0,
@@ -1787,8 +1783,6 @@
           "senses": [
             "flocks and herds",
             "a single beast",
-            "an ox",
-            "sheep",
             "a beast for riding"
           ],
           "more": 0,
@@ -2818,12 +2812,11 @@
           "aspect": "",
           "senses": [
             "the eye",
-            "eyes",
-            "sight",
-            "the king's eye",
-            "the dearest, best"
+            "the dearest, best",
+            "comfort",
+            "bud"
           ],
-          "more": 2,
+          "more": 0,
           "lexicon": "Middle Liddell"
         },
         {
@@ -4246,12 +4239,11 @@
           "aspect": "",
           "senses": [
             "the eye",
-            "eyes",
-            "sight",
-            "the king's eye",
-            "the dearest, best"
+            "the dearest, best",
+            "comfort",
+            "bud"
           ],
-          "more": 2,
+          "more": 0,
           "lexicon": "Middle Liddell"
         },
         {
@@ -4901,12 +4893,12 @@
           "aspect": "going on, in progress",
           "senses": [
             "to be able, capable, strong enough",
-            "powerful, mighty",
-            "having influence",
             "to dare",
-            "bear"
+            "to pass for",
+            "to be worth",
+            "to be equivalent to"
           ],
-          "more": 5,
+          "more": 2,
           "lexicon": "Middle Liddell"
         },
         {
@@ -5247,8 +5239,7 @@
           "parse": "noun · accusative · singular · neuter",
           "aspect": "",
           "senses": [
-            "breadth, width",
-            "in breadth"
+            "breadth, width"
           ],
           "more": 0,
           "lexicon": "Middle Liddell"

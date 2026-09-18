@@ -1675,12 +1675,12 @@
           "aspect": "",
           "senses": [
             "badness",
-            "(excellence)",
-            "defects",
             "cowardice, sloth",
-            "moral badness, wickedness, vice"
+            "moral badness, wickedness, vice",
+            "ill-repute",
+            "evil"
           ],
-          "more": 2,
+          "more": 0,
           "lexicon": "Middle Liddell"
         },
         {
@@ -2429,8 +2429,6 @@
           "senses": [
             "flocks and herds",
             "a single beast",
-            "an ox",
-            "sheep",
             "a beast for riding"
           ],
           "more": 0,
@@ -2572,12 +2570,12 @@
           "aspect": "one completed act seen whole, not a process observed in progress",
           "senses": [
             "to be wroth",
-            "angry",
             "to be wild, restive",
             "to vent fury",
-            "to be angry with"
+            "to be angry with",
+            "to be angry at"
           ],
-          "more": 1,
+          "more": 0,
           "lexicon": "Middle Liddell"
         },
         {
@@ -2805,9 +2803,9 @@
             "a beginning",
             "manner of birth",
             "race, descent",
-            "by descent"
+            "production, generation"
           ],
-          "more": 4,
+          "more": 3,
           "lexicon": "Middle Liddell"
         },
         {
@@ -4503,8 +4501,7 @@
           "parse": "noun · nominative · singular · neuter",
           "aspect": "",
           "senses": [
-            "breadth, width",
-            "in breadth"
+            "breadth, width"
           ],
           "more": 0,
           "lexicon": "Middle Liddell"
@@ -5833,8 +5830,6 @@
           "senses": [
             "flocks and herds",
             "a single beast",
-            "an ox",
-            "sheep",
             "a beast for riding"
           ],
           "more": 0,
@@ -6462,8 +6457,6 @@
           "senses": [
             "flocks and herds",
             "a single beast",
-            "an ox",
-            "sheep",
             "a beast for riding"
           ],
           "more": 0,
@@ -7037,12 +7030,12 @@
           "aspect": "",
           "senses": [
             "to bring together, gather together, collect, convene",
-            "to join",
-            "begin",
-            "to match",
-            "one against the other"
+            "to engage",
+            "to bring together, join in one, unite",
+            "to contract",
+            "to receive into one's house"
           ],
-          "more": 10,
+          "more": 6,
           "lexicon": "Middle Liddell"
         },
         {

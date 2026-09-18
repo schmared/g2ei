@@ -333,7 +333,7 @@ NOT_SENSES = {
     # ἅπτω's sense I is the active, "to fasten, bind fast", with a transitive middle
     # beside it; sense II is marked "Mid." and "c. gen." — the construction of GEN 3:3
     # ἅψησθε αὐτοῦ — and its opening gloss, "to fasten oneself to", is that form's.
-    "a(/ptw": {"to fasten, bind fast", "to fasten for oneself", "to join", "to fasten", "on"},
+    "a(/ptw": {"engaged in", "on", "to fasten", "to fasten for oneself", "to fasten, bind fast", "to join", "to reach the mark"},  # pieces of examples
     # στρέφω's senses A.I–VI are the active; "B. Pass. and Mid." opens "to turn oneself,
     # to turn round", which is GEN 3:24 στρεφομένην.
     "stre/fw": {"to turn about", "aside, turn", "to turn", "guide", "to sway",
@@ -360,12 +360,12 @@ NOT_SENSES = {
     "a)pe/rxomai": {"departure from one", "and arrival at"},     # describes εἰς after the verb
     "a)postre/fw": {"back", "back from"},       # from "to turn one back", "back from flight"
     "katoiki/zw": {"as colonists", "in"},       # from "establish there as colonists", "plant one in"
-    "w(rai=os": {"hora)"},                      # etymology
-    "kru/ptw": {"having cloaked his"},          # from "having cloaked his head"
+    "w(rai=os": {"fruits gathered in due season", "hora)", "of the season", "yearling"},  # etymology; pieces of examples
+    "kru/ptw": {"having cloaked his", "secret"},  # from "having cloaked his head"; a piece of the perfect participle
     "e(/ws": {"future"},                        # from "in future time"
     "lu/ph": {"condition"},                     # from "distress, sad plight or condition"
     "mh/": {"thought", "statement", "that one thinks a thing is not", "that it is not."},  # the note on μή and οὐ
-    "o)fqalmo/s": {"before", "to one's face"},  # from "before one's eyes", "to one's face"
+    "o)fqalmo/s": {"before", "eyes", "sight", "the king's eye", "to one's face"},  # from "before one's eyes", "to one's face"; pieces of examples
     "r(a/ptw": {"to make oneself", "having got"},  # from quoted examples
     "plhqu/nw": {"I am led by general opinion"},   # a construction
     "fu/llon": {"of leaves"},                   # from "the generation of leaves"
@@ -385,7 +385,7 @@ NOT_SENSES = {
     "dw=ron": {"the gifts of", "given by"},
     "fe/rw": {"motion", "is fair"},
     "boa/w": {"men ready to shout", "it proclaims"},
-    "de/xomai": {"at the hand of"},
+    "de/xomai": {"at the hand of", "to accept", "to receive"},  # two bare repetitions
     "ste/nw": {"for"},
     "me/gas": {"women"},                        # from "tall women"
     "ai)ti/a": {"of"},
@@ -414,9 +414,9 @@ NOT_SENSES = {
     # are the active; GEN 6:2 ἐξελέξαντο is middle, "to pick out for oneself, choose out".
     "e)kle/gw": {"to pick", "single out", "to levy taxes", "tribute", "to levy", "on"},
     "ei)sporeu/w": {"to lead into"},            # the active; GEN 6:4 is the middle, "to go into, enter"
-    "qumo/w": {"to make angry", "passion", "irasci in cornua"},  # the active, τὸ θυμούμενον, and Latin
+    "qumo/w": {"angry", "irasci in cornua", "passion", "to make angry"},  # the active, τὸ θυμούμενον, and Latin; a piece of "to be wroth, angry"
     # GEN 7
-    "a)noi/gnumi": {"they tried to put back", "so as to open", "took off"},  # pieces of Homeric examples
+    "a)noi/gnumi": {"and opened", "so as to open", "they tried to put back", "to tap", "took off"},  # pieces of Homeric examples; pieces of examples
     "chro/s": {"siccis oculis"},                # Latin
     "mei/s": {"the beginning", "the waning", "from the end of the month", "the three-and twentieth"},  # the Attic calendar
     "u(eto/s": {"a lasting", "a drizzling"},     # pieces of the distinction from ὄμβρος and ψακάς
@@ -439,14 +439,12 @@ NOT_SENSES = {
     # GEN 9
     # διατίθημι files MorphGNT's middle διατίθεμαι; its senses I–III are the active, and GEN 9:17
     # διεθέμην is the middle, "B. Mid. to arrange as one likes, to dispose of".
-    "diati/qhmi": {"to place separately, arrange", "in their own places, dispose", "to manage",
-                   "to treat", "he was", "treated", "handled", "to dispose", "to recite",
-                   "with"},                     # the last from "to settle a quarrel with one"
+    "diati/qhmi": {"by will", "devise", "handled", "he was", "in their own places, dispose", "the devisor, testator", "to dispose", "to dispose of one's", "to manage", "to place separately, arrange", "to recite", "to treat", "treated", "with"},  # the last from "to settle a quarrel with one"; pieces of the middle
     "a)nti/": {"over against, opposite. c. gen.",  # Perseus's summary
                "as good as", "for",             # pieces of worked examples
                "over against, opposite", "against, in opposition to, as", "in return", "instead",
                "equal to, like", "counter"},    # "IN COMPOS.": the senses in compounds
-    "plhro/w": {"animum explere", "having poured", "till it was full"},  # Latin, and an example
+    "plhro/w": {"animum explere", "having poured", "till it was full", "to be filled full of", "to fill full", "to fill full of"},  # Latin, and an example; pieces of sense I
     "fo/bos": {"to flight",                     # φόβονδε, another form
                "(the sensation of fear)"},      # glosses δέος, which the entry sets against φόβος
     "u(me/teros": {"you", "to your house", "raised by you"},  # pieces of examples; ὑμέτερόνδε
@@ -509,8 +507,7 @@ NOT_SENSES = {
     "xrusi/on": {"my golden one! my little treasure!"},  # an endearment in an example
     "sumporeu/omai": {"with"},                  # the case it takes
     "a(/ma": {"at"},                            # a piece of an example
-    "du/namai": {"men of power", "to be able", "they could", "I possibly can", "he could",
-                 "is worth", "to mean", "avails", "it cannot be, is not to be"},  # pieces of examples
+    "du/namai": {"I possibly can", "avails", "bear", "having influence", "he could", "is worth", "it cannot be, is not to be", "men of power", "powerful, mighty", "they could", "to be able", "to mean"},  # pieces of examples
     "ma/xh": {"fights", "a battle", "battle", "battle with"},  # pieces of examples
     "katastre/fw": {"subdued and made", "am constrained to", "a close periodic"},  # pieces of examples
     "skhno/w": {"be"},                          # a piece of an example
@@ -597,10 +594,10 @@ NOT_SENSES = {
     "fura/w": {"so as to make", "to make", "into a", "paste"},  # pieces of examples
     "me/tron": {"the length", "the prime"},     # pieces of examples
     "a(palo/s": {"gently"},                     # the adverb
-    "parati/qhmi": {"the serving-men", "meats set before one", "of one's own"},  # pieces of examples
+    "parati/qhmi": {"meats set before one", "of one's own", "the serving-men", "to lay before", "to place upon"},  # pieces of examples
     "pari/sthmi": {"having brought", "into view", "near", "present circumstances", "opinion", "it occurs", "since it was in their power, since the opportunity offered"},  # pieces of examples
-    "a)pokri/nw": {"parted from the throng", "to be separated and brought", "distinct", "let", "be", "answer"},  # pieces of examples
-    "w(/ra": {"year", "time", "in the day", "the time for", "'tis time", "at the right time", "at", "hour", "in due time, in good time", "in", "seasons", "youth!"},  # pieces of examples
+    "a)pokri/nw": {"answer", "be", "distinct", "let", "parted from the throng", "to be separated and brought", "to reply"},  # pieces of examples; a bare repetition of the sense before it
+    "w(/ra": {"'tis time", "at", "at the right time", "hour", "in", "in due time, in good time", "in the day", "seasons", "spring", "summer", "the time for", "time", "winter", "year", "youth!"},  # pieces of examples; the three seasons Middle Liddell names in passing
     "o)/pisqen": {"those who are left behind", "shall", "rear ranks"},  # pieces of examples
     "pre/sbus": {"the wise", "of age", "nihil) antiquius habere", "more highly than . ."},  # pieces of examples, Latin, the adverb
     "probai/nw": {"are far gone", "is wearing fast", "went on", "advanced", "to be", "gone", "kept making advances", "kept extending", "he was set over", "ruled"},  # pieces of examples
@@ -628,7 +625,7 @@ NOT_SENSES = {
     "a)poklei/w": {"to shut", "out", "to get", "debarred from"},  # pieces of examples
     "zhte/w": {"seeking", "what is sought for"},  # pieces of examples
     "e)ktri/bw": {"to produce", "by rubbing", "to bring", "to a wretched end"},  # pieces of examples
-    "o)/rqros": {"at dawn", "morning early", "dawn"},  # pieces of examples
+    "o)/rqros": {"at dawn", "dawn", "in the morning", "morning early"},  # pieces of examples; a piece of an example
     "krate/w": {"the lady of the house", "the conquerors", "'tis better to"},  # pieces of examples
     "fei/domai": {"taking care", "refrain from", "sparingly", "shrink"},  # pieces of examples, the adverb
     "sw/zw": {"who save", "from", "what is likely to save", "to rescue"},  # pieces of examples
@@ -701,7 +698,7 @@ NOT_SENSES = {
     "e)perwta/w": {"about"},                    # a piece of "to ask a thing or about a thing"
     "o(rki/zw": {"I adjure", "by"},             # pieces of an example
     "qera/pwn": {"free service;", "the companion", "esquire", "the charioteer", "devoted to the service of"},  # pieces of examples
-    "e)rwta/w": {"of", "the question"},         # pieces of examples
+    "e)rwta/w": {"of", "question", "the question", "to be asked"},  # pieces of examples; the passive, and a piece of sense II
     "fhmi/": {"shall we say", "what one says", "you would say, would think", "think", "they say, it is said",
               "on dit", "said", "said yes", "not", "say no", "say yes or no"},  # pieces of examples, French
     "periti/qhmi": {"to put", "round"},         # pieces of an example
@@ -748,14 +745,11 @@ NOT_SENSES = {
     "spei/rw": {"to engender, beget them", "to be born", "spargere voces", "the arable part of",
                 "of lost labour"},              # pieces of examples, Latin
     "zhlo/w": {"to be jealous", "to esteem", "for"},  # pieces of examples
-    "dunato/s": {"the ablest-bodied men", "fit for service", "able", "quantum fieri possit",
-                 "strongly, powerfully"},       # pieces of examples, Latin, the adverb
+    "dunato/s": {"able", "fit for service", "quantum fieri possit", "strongly, powerfully", "the ablest-bodied men", "the chief men of rank and influence"},  # pieces of examples, Latin, the adverb; a piece of an example
     "ma/xomai": {"against", "with the sanction, under the auspices", "will fight", "the force that had",
                  "come into action"},           # pieces of examples
     "fa/skw": {"alleging", "pretending", "he said", "alleged"},  # pieces of examples
-    "ph/gnumi": {"to stick", "fix in", "pitch", "to pitch their", "stuck fast", "fix on", "on",
-                 "having their", "fixed", "impaled", "to fix", "upon", "hard", "stiffen",
-                 "crystallises", "was", "frozen", "to be irrevocably"},  # pieces of examples
+    "ph/gnumi": {"crystallises", "fix in", "fix on", "fixed", "frozen", "hard", "having their", "impaled", "on", "pitch", "stiffen", "stuck fast", "to be irrevocably", "to build oneself", "to fix", "to pitch their", "to stick", "upon", "was"},  # pieces of examples; a piece of an example
     "tro/pos": {"wise", "way", "in no wise, by no means, on no account", "how?", "in a manner",
                 "after the manner", "in its ways", "ways", "fitly, duly", "sort", "temper", "taste"},  # pieces of examples
     "swthri/a": {"a way", "means of safety", "guarantee for the safe keeping", "ways of preserving"},  # pieces of examples
@@ -778,25 +772,18 @@ NOT_SENSES = {
     "suna/gw": {"to join", "begin", "to match", "one against the other"},  # pieces of the battle sense
     "po/qen": {"from what", "how can it be? impossible!"},  # a piece of an example, and one
     "u(giai/nw": {"in health", "soundness"},    # a piece of sense 1, and a usage note
-    "w(/ra": {"spring", "summer", "winter"},    # the three seasons Middle Liddell names in passing
     "kth=nos": {"an ox", "sheep"},              # pieces of "a single beast, as an ox or sheep"
-    "du/namai": {"powerful, mighty", "having influence", "bear"},  # pieces of examples
     "prose/rxomai": {"go to"},                  # a piece of "to come or go to"
     "perilamba/nw": {"surround", "you get hold of"},  # a piece of sense I.2, and an example
-    "o)fqalmo/s": {"eyes", "sight", "the king's eye"},  # pieces of examples
     "a)sqenh/s": {"too weak", "the weaker sort", "the poor"},  # pieces of senses I.1 and I.2
     "ei)=dos": {"nature", "course"},            # pieces of senses II and II.2
-    "w(rai=os": {"fruits gathered in due season", "of the season", "yearling"},  # pieces of examples
     "belti/wn": {"to improve, advance"},        # the verb the entry cross-refers to
     "o)li/gos": {"too few to", "little"},       # a piece of sense I.2, and a bare repetition
-    "plhro/w": {"to fill full of", "to be filled full of", "to fill full"},  # pieces of sense I
     "ga/mos": {"marriage with"},                # a piece of "marriage with him"
     "paralogi/zomai": {"to be so misled"},      # the passive of the sense before it
     "e)rgasi/a": {"a working"},                 # a piece of "a working of a material"
     "e)rga/zomai": {"to do", "to"},             # pieces of sense II.2
-    "a)noi/gnumi": {"and opened", "to tap"},    # pieces of examples
     # GEN 30
-    "qumo/w": {"angry"},                        # a piece of "to be wroth, angry"
     "stere/w": {"robbed of", "to have taken from one"},  # pieces of the passive
     "go/nu": {"the knees", "by [clasping] the knees", "on", "knees"},  # pieces of examples
     "tu/xh": {"by ill-luck"},                   # a piece of an example
@@ -821,12 +808,10 @@ NOT_SENSES = {
     "e)pi/shmos": {"with", "inscription on them"},  # pieces of an example
     "ploute/w": {"to be rich"},                 # a bare repetition of the first sense
     "fai/nw": {"to shew", "to make"},           # pieces of examples
-    "parati/qhmi": {"to place upon", "to lay before"},  # pieces of examples
     # GEN 31
     "do/ca": {"one expects", "expect"},          # pieces of an example
     "a)lla/ssw": {"to take"},                    # a piece of "to take one thing for another"
     "ge/nesis": {"by descent"},                  # a piece of an example
-    "a)pokri/nw": {"to reply"},                  # a bare repetition of the sense before it
     "klhronomi/a": {"possession of . ."},        # a citation's debris
     "pipra/skw": {"I am bought and sold!", "betrayed, ruined, undone"},  # pieces of examples
     "plou=tos": {"Plutus"},                      # the god, not the word
@@ -834,10 +819,8 @@ NOT_SENSES = {
     "u(pa/rxw": {"to make a beginning of", "to begin", "to be begun", "a beginning"},  # pieces of sense I
     "kei/rw": {"to cut off one's", "have", "cut off"},  # pieces of the middle
     "ei)/dwlon": {"phantoms"},                   # a piece of an example
-    "kru/ptw": {"secret"},                       # a piece of the perfect participle
     "diabai/nw": {"stand with the legs apart", "planting himself firmly"},  # pieces of sense I
     "o(rma/w": {"push on, spur on, cheer on", "inspired", "was inflicted"},  # pieces of sense I
-    "ph/gnumi": {"to build oneself"},            # a piece of an example
     "eu)frosu/nh": {"festivities"},              # a piece of an example
     "mousiko/s": {"of", "music"},                # pieces of "of or for music, musical"
     "tu/mpanon": {"tympana"},                    # the Latin plural, in a citation
@@ -852,7 +835,6 @@ NOT_SENSES = {
     "o)rgi/zw": {"with"},                        # a piece of "to grow angry with"
     "kau=ma": {"in the sun-heat"},               # a piece of an example
     "keno/s": {"empty"},                         # a bare repetition of the first sense
-    "diati/qhmi": {"to dispose of one's", "devise", "by will", "the devisor, testator"},  # pieces of the middle
     "ma/rtus": {"witnesses"},                    # the plural of the one sense
     "sulle/gw": {"to compile a list of", "to collect"},  # a piece of an example, and a repetition
     "marture/w": {"in favour of", "bears witness to", "testify"},  # pieces of examples
@@ -871,23 +853,18 @@ NOT_SENSES = {
     "pw=los": {"colt", "filly"},                 # pieces of "a foal, young horse, colt, filly"
     "proporeu/omai": {"forward"},                # a piece of "to go before or forward"
     "poi/mnh": {"of sheep"},                     # a piece of "properly of sheep"
-    "e)rwta/w": {"to be asked", "question"},     # the passive, and a piece of sense II
     "prosde/xomai": {"to admit"},                # a bare repetition
     "paraporeu/omai": {"alongside"},             # a piece of "to go beside or alongside"
     "e(/ndeka": {"the Eleven, the Police-commissioners"},  # the Athenian magistrates
     "dia/basis": {"a means"},                    # a piece of "a means or place of crossing"
     "palai/w": {"beaten"},                       # the passive participle of an example
-    "a(/ptw": {"to reach the mark", "engaged in"},  # pieces of examples
     "pla/tos": {"in breadth"},                   # a piece of an example
-    "o)/rqros": {"in the morning"},              # a piece of an example
-    "dunato/s": {"the chief men of rank and influence"},  # a piece of an example
     "a)nate/llw": {"mounting up"},               # a piece of the passive
     # GEN 33
     "e)/sxatos": {"the furthest", "extremities"},  # a repetition, and a piece of an example
     "proe/rxomai": {"far advanced", "to go on"},  # a piece of an example, and a repetition
     "prostre/xw": {"towards, come to"},          # a piece of "to run to or towards"
     "e)lee/w": {"mercy shewn one"},               # a piece of the passive
-    "de/xomai": {"to receive", "to accept"},     # two bare repetitions
     "bia/zw": {"overpowered", "suffer violence", "forcibly made slaves"},  # pieces of the passive
     "loxeu/w": {"brought to birth"},             # a piece of an example
     "sxolh/": {"leisure", "quiet", "time", "a fit time"},  # pieces of examples
@@ -1119,6 +1096,31 @@ def morphgnt(pos, code):
 BETA_LETTERS = dict(zip("αβγδεζηθικλμνξοπρστυφχψως", "abgdezhqiklmncoprstufxyws"))
 BETA_MARKS = {"̓": ")", "̔": "(", "́": "/", "̀": "\\", "͂": "=",
               "ͅ": "|", "̈": "+"}
+
+
+def _no_repeated_keys():
+    """A dict literal keeps only the last of a repeated key, so a second entry for a lemma
+    silently kills the first and its scraps come back into every chapter built afterwards.
+    That went unseen across seventeen NOT_SENSES lemmas, because the chapters already built
+    were never rebuilt. Read this file's own source and refuse to load with a repeat in it."""
+    import ast
+    tree = ast.parse(pathlib.Path(__file__).read_text(encoding="utf-8"))
+    for node in tree.body:
+        if not isinstance(node, ast.Assign) or not isinstance(node.value, ast.Dict):
+            continue
+        name = getattr(node.targets[0], "id", "?")
+        seen = {}
+        for k in node.value.keys:
+            if not isinstance(k, ast.Constant) or not isinstance(k.value, str):
+                continue
+            if k.value in seen:
+                raise AssertionError(
+                    "%s repeats %r at lines %d and %d — merge them into one entry, or the "
+                    "earlier one does nothing" % (name, k.value, seen[k.value], k.lineno))
+            seen[k.value] = k.lineno
+
+
+_no_repeated_keys()
 
 
 def beta(word):
