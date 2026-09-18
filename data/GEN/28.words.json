@@ -1463,7 +1463,6 @@
           "parse": "noun · accusative · singular · masculine",
           "aspect": "",
           "senses": [
-            "A son",
             "a son"
           ],
           "more": 0,
@@ -1625,13 +1624,13 @@
           "parse": "verb · aorist · active · indicative · 3rd person · singular",
           "aspect": "one completed act seen whole, not a process observed in progress",
           "senses": [
-            "To see",
             "to see",
             "look",
             "he kept looking",
-            "looking"
+            "looking",
+            "to have sight"
           ],
-          "more": 17,
+          "more": 16,
           "lexicon": "Middle Liddell"
         },
         {
@@ -2315,13 +2314,13 @@
           "parse": "verb · aorist · active · indicative · 3rd person · singular",
           "aspect": "one completed act seen whole, not a process observed in progress",
           "senses": [
-            "To see",
             "to see",
             "look",
             "he kept looking",
-            "looking"
+            "looking",
+            "to have sight"
           ],
-          "more": 17,
+          "more": 16,
           "lexicon": "Middle Liddell"
         },
         {
@@ -2658,7 +2657,6 @@
           "parse": "noun · genitive · singular · masculine",
           "aspect": "",
           "senses": [
-            "A son",
             "a son"
           ],
           "more": 0,
@@ -5370,8 +5368,7 @@
           "senses": [
             "sleep, slumber",
             "the sleep of death",
-            "sleep",
-            "Sleep"
+            "sleep"
           ],
           "more": 0,
           "lexicon": "Middle Liddell"
@@ -6421,14 +6418,10 @@
           "parse": "noun · nominative · singular · masculine",
           "aspect": "",
           "senses": [
-            "a house, abode, dwelling",
-            "homeward, home",
-            "home, within",
-            "home",
-            "part of a house, a room, chamber"
+            "(Οἶκος θεοῦ, \"house of God\", the Greek of Hebrew Bêt-ʾĒl, Bethel)"
           ],
-          "more": 4,
-          "lexicon": "Middle Liddell"
+          "more": 0,
+          "lexicon": "name"
         },
         {
           "form": "θεοῦ",

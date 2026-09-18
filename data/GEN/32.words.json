@@ -106,7 +106,6 @@
           "parse": "noun · accusative · plural · masculine",
           "aspect": "",
           "senses": [
-            "A son",
             "a son"
           ],
           "more": 0,
@@ -479,13 +478,13 @@
           "parse": "verb · aorist · active · indicative · 3rd person · singular",
           "aspect": "one completed act seen whole, not a process observed in progress",
           "senses": [
-            "To see",
             "to see",
             "look",
             "he kept looking",
-            "looking"
+            "looking",
+            "to have sight"
           ],
-          "more": 17,
+          "more": 16,
           "lexicon": "Middle Liddell"
         },
         {
@@ -696,13 +695,13 @@
           "parse": "verb · aorist · active · indicative · 3rd person · singular",
           "aspect": "one completed act seen whole, not a process observed in progress",
           "senses": [
-            "To see",
             "to see",
             "look",
             "he kept looking",
-            "looking"
+            "looking",
+            "to have sight"
           ],
-          "more": 17,
+          "more": 16,
           "lexicon": "Middle Liddell"
         },
         {
@@ -6605,13 +6604,13 @@
           "parse": "verb · future · middle · indicative · 1st person · singular",
           "aspect": "",
           "senses": [
-            "To see",
             "to see",
             "look",
             "he kept looking",
-            "looking"
+            "looking",
+            "to have sight"
           ],
-          "more": 17,
+          "more": 16,
           "lexicon": "Middle Liddell"
         },
         {
@@ -7677,13 +7676,13 @@
           "parse": "verb · aorist · active · indicative · 3rd person · singular",
           "aspect": "one completed act seen whole, not a process observed in progress",
           "senses": [
-            "To see",
             "to see",
             "look",
             "he kept looking",
-            "looking"
+            "looking",
+            "to have sight"
           ],
-          "more": 17,
+          "more": 16,
           "lexicon": "Middle Liddell"
         },
         {
@@ -9302,14 +9301,10 @@
           "parse": "noun · accusative · singular · neuter",
           "aspect": "",
           "senses": [
-            "that which is seen, form, shape, figure",
-            "a form, sort, particular kind",
-            "a particular state",
-            "a class, kind, sort",
-            "genus"
+            "(Εἶδος θεοῦ, \"form of God\", the Greek of Hebrew Pĕnîʾēl, Peniel, the face of God)"
           ],
-          "more": 1,
-          "lexicon": "Middle Liddell"
+          "more": 0,
+          "lexicon": "name"
         },
         {
           "form": "θεοῦ",
@@ -9332,13 +9327,13 @@
           "parse": "verb · aorist · active · indicative · 1st person · singular",
           "aspect": "one completed act seen whole, not a process observed in progress",
           "senses": [
-            "To see",
             "to see",
             "look",
             "he kept looking",
-            "looking"
+            "looking",
+            "to have sight"
           ],
-          "more": 17,
+          "more": 16,
           "lexicon": "Middle Liddell"
         },
         {
@@ -9614,14 +9609,10 @@
           "parse": "noun · nominative · singular · neuter",
           "aspect": "",
           "senses": [
-            "that which is seen, form, shape, figure",
-            "a form, sort, particular kind",
-            "a particular state",
-            "a class, kind, sort",
-            "genus"
+            "(Εἶδος θεοῦ, \"form of God\", the Greek of Hebrew Pĕnîʾēl, Peniel, the face of God)"
           ],
-          "more": 1,
-          "lexicon": "Middle Liddell"
+          "more": 0,
+          "lexicon": "name"
         },
         {
           "form": "τοῦ",
@@ -9831,7 +9822,6 @@
           "parse": "noun · nominative · plural · masculine",
           "aspect": "",
           "senses": [
-            "A son",
             "a son"
           ],
           "more": 0,

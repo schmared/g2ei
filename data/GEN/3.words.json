@@ -1614,13 +1614,13 @@
           "parse": "verb · aorist · active · indicative · 3rd person · singular",
           "aspect": "one completed act seen whole, not a process observed in progress",
           "senses": [
-            "To see",
             "to see",
             "look",
             "he kept looking",
-            "looking"
+            "looking",
+            "to have sight"
           ],
-          "more": 17,
+          "more": 16,
           "lexicon": "Middle Liddell"
         },
         {
@@ -1814,13 +1814,13 @@
           "parse": "verb · aorist · active · infinitive",
           "aspect": "one completed act seen whole, not a process observed in progress",
           "senses": [
-            "To see",
             "to see",
             "look",
             "he kept looking",
-            "looking"
+            "looking",
+            "to have sight"
           ],
-          "more": 17,
+          "more": 16,
           "lexicon": "Middle Liddell"
         },
         {
@@ -6954,14 +6954,10 @@
           "parse": "noun · nominative · singular · feminine",
           "aspect": "",
           "senses": [
-            "a living",
-            "means of life, substance",
-            "living",
-            "life, existence",
-            "a way of life"
+            "(Ζωή, \"life\"; Hebrew Ḥawwâ, from ḥāyâ, \"to live\")"
           ],
           "more": 0,
-          "lexicon": "Middle Liddell"
+          "lexicon": "name"
         },
         {
           "form": "ὅτι",

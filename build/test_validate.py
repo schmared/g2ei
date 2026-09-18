@@ -136,6 +136,66 @@ CHERUBIM = {"greek": "χερουβιμ", "unanchored": "cheroubim", "anchored": 
 TRANSLIT = dict(GEN[0], greek="καὶ ἔταξεν τὰ χερουβιμ.", reading="and [[name:χερουβιμ]].",
                 names=[CHERUBIM])
 
+
+# ---- chains -------------------------------------------------------------------
+# One word in one form reads one way. A chain may follow the form — singular beside
+# plural, imperative beside aorist — but it may not gain or lose a sense.
+FULL = "was made large, was increased, was augmented, was promoted to honour"
+CUT = "was made large, was increased, was augmented"
+PLURAL = "were made large, were increased, were augmented, were promoted to honour"
+PAST = "made large, increased, augmented, promoted to honour"
+
+
+def drifted(pairs):
+    """pairs: [(chain, ref)] for one lemma and one headword -> how many groups drift."""
+    return len(V.chains_that_drifted({("αὐξάνω", "was made large"): dict(pairs)}))
+
+
+def every_marked_name_is_a_name():
+    """A word a verse marks as a name is a name in the layer, whatever the lexicon holds.
+
+    Βάλανος, Υἱός and Εἶδος are Greek words Rahlfs prints capitalised as names. Lower-casing
+    their Beta Code lands on the common noun they are made from, and the layer used to show
+    that noun's senses in place of the name.
+    """
+    bad = []
+    for book, chapter in render.PAGE:
+        layer = render.DATA / book / ("%d.words.json" % chapter)
+        if not layer.exists():
+            continue
+        verses = {v["ref"]: v for v in json.loads(
+            (render.DATA / book / ("%d.json" % chapter)).read_text(encoding="utf-8"))}
+        for v in json.loads(layer.read_text(encoding="utf-8"))["verses"]:
+            marked = {n["greek"] for n in verses[v["ref"]].get("names", [])}
+            for w in v["words"]:
+                if w["form"] in marked and w["lexicon"] != "name":
+                    bad.append("%s %s is a name in the verse but %s in the layer"
+                               % (v["ref"], w["form"], w["lexicon"]))
+    return holds(not bad, "; ".join(bad[:3]))
+
+
+def no_sense_letter_as_a_gloss():
+    """Perseus prints a sense's letter inside the sense; it is not a gloss.
+
+    υἱός carried "A son" beside "a son" in every chapter from GEN 4 on.
+    """
+    bad = []
+    for book, chapter in render.PAGE:
+        layer = render.DATA / book / ("%d.words.json" % chapter)
+        if not layer.exists():
+            continue
+        for v in json.loads(layer.read_text(encoding="utf-8"))["verses"]:
+            for w in v["words"]:
+                for s in w["senses"]:
+                    # "A son" beside "a son": Perseus prints the sense's letter inside
+                    # the sense, and it was read as a gloss of its own. Compared against
+                    # the other senses, never against this one's own lower-casing.
+                    others = {x[:1].lower() + x[1:] for x in w["senses"] if x != s}
+                    if s[:1].isupper() and s[:1].lower() + s[1:] in others:
+                        bad.append("%s %s: %r" % (v["ref"], w["form"], s))
+    return holds(not bad, "; ".join(bad[:3]))
+
+
 # Each must report at least one failure.
 NEGATIVE = [
     ("fields   empty reading",           lambda: run(V.check_fields, mut(GEN, [0, "reading"], "  "))),
@@ -212,6 +272,21 @@ NEGATIVE = [
 # Each must report no failure. The last three are the allowances, which a check
 # written too strictly would break.
 CONTROL = [
+    ("chains   a sense dropped from one occurrence is drift",
+                                         lambda: holds(drifted([(FULL, "GEN 21:8"), (CUT, "GEN 30:30")]) == 1,
+                                                       "a chain that lost a sense must be reported")),
+    ("chains   the chain following the form is not drift",
+                                         lambda: holds(drifted([(FULL, "GEN 21:8"), (PLURAL, "GEN 30:30")]) == 0,
+                                                       "singular beside plural is the form, not drift")),
+    ("chains   a tense the form calls for is not drift",
+                                         lambda: holds(drifted([(FULL, "GEN 21:8"), (PAST, "GEN 30:30")]) == 0,
+                                                       "imperative beside aorist is the form, not drift")),
+    ("chains   the corpus carries no drift",
+                                         lambda: run(V.check_chains, render.PAGE)),
+    ("words    a name the verse marks is a name in the layer",
+                                         every_marked_name_is_a_name),
+    ("words    no sense-letter stands as a gloss",
+                                         no_sense_letter_as_a_gloss),
     ("fields   clean GEN + JHN",         lambda: run(V.check_fields, GEN + JHN)),
     ("names    clean JHN",               lambda: run(V.check_names, JHN)),
     ("banned   clean GEN",               lambda: run(V.check_banned, GEN)),

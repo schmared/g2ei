@@ -630,7 +630,9 @@ NOT_SENSES = {
     "a)poklei/w": {"to shut", "out", "to get", "debarred from"},  # pieces of examples
     "zhte/w": {"seeking", "what is sought for"},  # pieces of examples
     "e)ktri/bw": {"to produce", "by rubbing", "to bring", "to a wretched end"},  # pieces of examples
-    "o)/rqros": {"at dawn", "dawn", "in the morning", "morning early"},  # pieces of examples; a piece of an example
+    "o)/rqros": {"at dawn", "dawn", "in the morning", "morning early"},
+    "ui(o/s": {"A son"},                        # Perseus's sense-letter, not a gloss
+    "o(ra/w": {"To see"},                       # likewise  # pieces of examples; a piece of an example
     "krate/w": {"the lady of the house", "the conquerors", "'tis better to"},  # pieces of examples
     "fei/domai": {"taking care", "refrain from", "sparingly", "shrink"},  # pieces of examples, the adverb
     "sw/zw": {"who save", "from", "what is likely to save", "to rescue"},  # pieces of examples
@@ -644,7 +646,7 @@ NOT_SENSES = {
     "e)nora/w": {"in", "he saw"},               # pieces of examples
     "a)gnoe/w": {"not recognising", "he perceived", "knew well", "learn all", "ignorantly, by mistake"},  # pieces of examples, the adverb
     "a)lhqeu/w": {"he was right about", "to prove"},  # pieces of examples
-    "u(/pnos": {"in sleep"},                    # a piece of an example
+    "u(/pnos": {"in sleep", "Sleep"},           # a piece of an example, and Perseus's sense-letter
     "profh/ths": {"interpreter", "interpreters"},  # pieces of examples
     "sunoike/w": {"marriage", "he is associated", "being versed", "are associated"},  # pieces of examples
     # GEN 21
@@ -1323,6 +1325,19 @@ def build(book, chapter, entries):
                                                " ".join(t[0] for t in theirs)))
         words = []
         for form, (_, lemma, code, (parse, aspect)) in zip(ours, theirs):
+            # A word the verse marks as a name is a name. Σκηναί and Λουζα reach this
+            # already, because no lexicon entry answers to them; Βάλανος, Υἱός and Εἶδος
+            # did not, because lower-casing their Beta Code lands on the common noun they
+            # are made from, and the noun's senses were shown in place of the name.
+            marked = next((n for n in verse.get("names", []) if n["greek"] == form), None)
+            if marked:
+                own = bearers.get((marked["greek"], marked["anchored"]))
+                gloss = own or marked.get("gloss") or names.get(form) or names.get(lemma)                     or by_lemma.get(lemma)
+                if gloss:
+                    words.append({"form": form, "lemma": lemma, "parse": parse,
+                                  "aspect": aspect, "senses": [gloss], "more": 0,
+                                  "lexicon": "name"})
+                    continue
             if lemma in LSJ:
                 # An explicit LSJ entry wins: the table holds the words Middle Liddell
                 # lacks *and* the ones whose entry it tags with nothing usable, like

@@ -293,7 +293,6 @@
           "parse": "noun · accusative · singular · masculine",
           "aspect": "",
           "senses": [
-            "A son",
             "a son"
           ],
           "more": 0,
@@ -539,7 +538,6 @@
           "parse": "noun · genitive · singular · masculine",
           "aspect": "",
           "senses": [
-            "A son",
             "a son"
           ],
           "more": 0,
@@ -1000,7 +998,6 @@
           "parse": "noun · nominative · singular · masculine",
           "aspect": "",
           "senses": [
-            "A son",
             "a son"
           ],
           "more": 0,
@@ -1375,7 +1372,6 @@
           "parse": "noun · accusative · singular · masculine",
           "aspect": "",
           "senses": [
-            "A son",
             "a son"
           ],
           "more": 0,
@@ -1662,7 +1658,6 @@
           "parse": "noun · nominative · singular · masculine",
           "aspect": "",
           "senses": [
-            "A son",
             "a son"
           ],
           "more": 0,
@@ -1694,13 +1689,13 @@
           "parse": "verb · aorist · active · participle · nominative · singular · feminine",
           "aspect": "one completed act seen whole, not a process observed in progress",
           "senses": [
-            "To see",
             "to see",
             "look",
             "he kept looking",
-            "looking"
+            "looking",
+            "to have sight"
           ],
-          "more": 17,
+          "more": 16,
           "lexicon": "Middle Liddell"
         },
         {
@@ -1750,7 +1745,6 @@
           "parse": "noun · accusative · singular · masculine",
           "aspect": "",
           "senses": [
-            "A son",
             "a son"
           ],
           "more": 0,
@@ -1911,7 +1905,6 @@
           "parse": "noun · genitive · singular · masculine",
           "aspect": "",
           "senses": [
-            "A son",
             "a son"
           ],
           "more": 0,
@@ -2086,7 +2079,6 @@
           "parse": "noun · accusative · singular · masculine",
           "aspect": "",
           "senses": [
-            "A son",
             "a son"
           ],
           "more": 0,
@@ -2168,7 +2160,6 @@
           "parse": "noun · nominative · singular · masculine",
           "aspect": "",
           "senses": [
-            "A son",
             "a son"
           ],
           "more": 0,
@@ -2252,7 +2243,6 @@
           "parse": "noun · genitive · singular · masculine",
           "aspect": "",
           "senses": [
-            "A son",
             "a son"
           ],
           "more": 0,
@@ -2435,7 +2425,6 @@
           "parse": "noun · genitive · singular · masculine",
           "aspect": "",
           "senses": [
-            "A son",
             "a son"
           ],
           "more": 0,
@@ -3008,7 +2997,6 @@
           "parse": "noun · accusative · singular · masculine",
           "aspect": "",
           "senses": [
-            "A son",
             "a son"
           ],
           "more": 0,
@@ -4107,13 +4095,13 @@
           "parse": "verb · aorist · active · subjunctive · 1st person · singular",
           "aspect": "one completed act seen whole, not a process observed in progress",
           "senses": [
-            "To see",
             "to see",
             "look",
             "he kept looking",
-            "looking"
+            "looking",
+            "to have sight"
           ],
-          "more": 17,
+          "more": 16,
           "lexicon": "Middle Liddell"
         },
         {
@@ -5330,13 +5318,13 @@
           "parse": "verb · aorist · active · indicative · 3rd person · singular",
           "aspect": "one completed act seen whole, not a process observed in progress",
           "senses": [
-            "To see",
             "to see",
             "look",
             "he kept looking",
-            "looking"
+            "looking",
+            "to have sight"
           ],
-          "more": 17,
+          "more": 16,
           "lexicon": "Middle Liddell"
         },
         {
@@ -8573,12 +8561,10 @@
           "parse": "noun · accusative · singular · neuter",
           "aspect": "",
           "senses": [
-            "a well",
-            "a tank, cistern, reservoir",
-            "an oil jar"
+            "(Φρέαρ, \"a well\", the first word of the name the verse gives the place, for Hebrew Bĕʾēr šebaʿ)"
           ],
           "more": 0,
-          "lexicon": "Middle Liddell"
+          "lexicon": "name"
         },
         {
           "form": "ὁρκισμοῦ",
