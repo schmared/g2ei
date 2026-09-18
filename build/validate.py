@@ -146,6 +146,8 @@ class Report:
 
 MARKER = re.compile(r"\[\[(.*?)\]\]")
 
+UNIT = re.compile(r"\[\[(?!name:)([^|\]]+)\|([^\]]+)\]\]")
+
 
 def fold(word):
     """Accent- and case-insensitive key for a Greek word."""
@@ -437,6 +439,42 @@ def check_names(verses, rep):
 # --------------------------------------------------------------------------
 # 3. banned phrases
 # --------------------------------------------------------------------------
+
+def check_chains(targets, rep):
+    """One word, one chain — across the corpus, not within one chapter.
+
+    A headword may legitimately head more than one entry: `the men` is both ANTHROPOS
+    and ANER, and their chains share nothing after the first gloss. What is not
+    legitimate is one word rendered twice, once with a fuller chain and once with a
+    shorter, which is the drift this file exists to catch: ARCHE must read the same way
+    in Gen 1:1 and John 1:1. The two cases are told apart by the glosses after the
+    first, since the first is the headword itself and always matches.
+    """
+    before, seen = rep.failed, {}
+    for book, chapter in targets:
+        path = render.DATA / book / ("%d.json" % chapter)
+        if not path.exists():
+            continue
+        for verse in json.loads(path.read_text(encoding="utf-8")):
+            for head, chain in UNIT.findall(verse["reading"]):
+                seen.setdefault(head, {}).setdefault(chain, verse["ref"])
+    drifted = []
+    for head, chains in seen.items():
+        items = sorted(chains.items(), key=lambda kv: kv[1])
+        for i, (chain, ref) in enumerate(items):
+            for other, oref in items[i + 1:]:
+                a = set(g.strip() for g in chain.split(",")[1:] if g.strip())
+                b = set(g.strip() for g in other.split(",")[1:] if g.strip())
+                if not a or not b:
+                    continue
+                if len(a & b) / min(len(a), len(b)) >= 0.5:
+                    drifted.append((head, ref, oref))
+    for head, ref, oref in sorted(drifted):
+        rep.note("chains", "%s reads one way at %s and another at %s" % (head, ref, oref))
+    if drifted:
+        rep.note("chains", "%d chains drifted — one word, one chain" % len(drifted))
+    rep.done("chains", "%d headwords, no drift" % len(seen), before)
+
 
 def check_banned(verses, rep):
     before = rep.failed
@@ -1032,6 +1070,10 @@ def main():
     rep = Report(args.verbose)
     for book, chapter in targets:
         validate(book, chapter, rep)
+
+    print("")
+    print("chains")
+    check_chains(targets, rep)
 
     print()
     if rep.failed:
