@@ -187,6 +187,8 @@ Three reasons, and all of them are the lexicon's filing rather than a decision a
 | ἀφρόνως (GEN 31:28) | ἄφρων | the adverb, which the entry glosses *senselessly* |
 | πρῶτος (GEN 32:18) | πρότερος | the superlative filed under the comparative, as at 8:5 |
 | ἀσφαλῶς | ἀσφαλής | the adverb, filed inside the adjective's entry |
+| ὀσφῦς | ὀσφύς | Perseus keys the noun with an acute |
+| σκληρῶς | σκληρός | the adverb, filed inside the adjective's entry |
 <!-- spelling rows above -->
 
 The dictionary form itself does not follow the lexicon's filing: it keeps the spelling the text
@@ -220,7 +222,7 @@ GEN 9 adds ὀπισθοφανής, *seen from behind*, and its adverb ὀπισ
 ἔτασις, *trial, affliction*. GEN 14 adds ἁλυκός, *salt, brackish*; ἀποσκευή, whose *removal,
 riddance* comes before *baggage*; σφαιρωτήρ, *thong, latchet*; and περάτης, which opens "= πορθμεύς",
 so that πορθμεύς's LSJ senses, *ferryman*, *boatman, seaman*, *conveyer*, stand before its own
-*wanderer, emigrant*, as ἁγίζω's stand for ἁγιάζω. GEN 15 adds ὑπερασπίζω, *cover with a shield*, from the upsilon file; τριετίζω, *to be three years old*; and διχοτόμημα, *half of a thing cut in two*. GEN 17 adds κατάσχεσις, *holding back, restraining, retention*, then *possession*, from the kappa file; and ἑκατονταέτης, *of a hundred years*, *years old*, citing 17:17. GEN 18 adds μοσχάριον, *little calf*, and, from the beta file, βούτυρον, *butter*, then *a plant*. GEN 19 adds προσοίγνυμι, *shut*; ἀορασία, *inability to see, blindness*; γελοιάζω, *jest*, from the gamma file; ἐπαύριον, *on the morrow*; and εἰσσπάομαι, *draw into oneself*. GEN 20 adds μήτρα, *womb*, whose Middle Liddell entry tags only Latin; δίδραχμον, *coin of two drachms*, under δίδραχμος; and κἀγώ, *crasis for καὶ ἐγώ*. GEN 21 adds ἀπογαλακτίζω, *wean from the mother's milk*; ἀρχιστράτηγος, *commander-in-chief*; and, from the omega file, ὦμος, *the shoulder with the upper arm*. GEN 23 adds παρεπίδημος, *sojourning in a strange place*, and μνημεῖον, *memorial, remembrance, record*, whose Middle Liddell entry tags its first sense only in Latin. GEN 24 adds ποτιστήριον, *drinking-trough for cattle*; ἐνώτιον, *ear-ring*; ἅβρα, *favourite slave*; and ἀποσάττω, *unsaddle, unpack*, *stop up, caulk*, *stuff with food*. GEN 25 adds three more: ὅλος, which Middle Liddell lacks altogether, *whole, entire, complete in all its parts*; δόμα, *gift*, then *payment*; and πυρράκης, *red, ruddy*, which LSJ files as a masculine noun. GEN 26 adds ἑκατοστεύω, *bear a hundredfold*, and γεώργιον, *field*, then *orchard*, *husbandry*, *crop* and, in the plural, a *tax* on land. GEN 27 adds four more: πιότης, *fattiness*, then *wealth, prosperity*; πτερνίζω, *strike with the heel*, *trip up, supplant*; προσοχθίζω, *to be wroth with*, and of this chapter's phrase *am weary* of; and κατανύσσω, *stab, gouge*, and in the passive *to be sorely pricked*. GEN 28 adds one more: ἐνυπνιάζομαι, *dream*, which Middle Liddell does not have at all. GEN 30 adds eight, the whole vocabulary of Jacob's flocks: ἀρήν, *lamb*; διάλευκος, *quite white*; ῥαντός, *sprinkled*, then *speckled or spotted*; σποδοειδής, *ashy, ash-coloured*; ἐγκισσάω, *have yearnings like one pregnant*; λεπίζω, *peel off the husk, skin or bark*; λέπισμα, *peel*; and καρύινος, *of nuts*, *made of walnut-wood*. LSJ cites this chapter for six of the eight. GEN 31 adds six: κρυφῇ, *secretly, in secret*, which Middle Liddell has only as the Doric κρύφα; κατάβρωσις, *eating up, devouring*; κλοποφορέω, *steal from, rob*; ἐθισμός, *accustoming, habituation*; θηριάλωτος, *caught by wild beasts*; and αἰχμαλωτίς, *captive*, which Middle Liddell has as an entry with no translation tagged in it. LSJ cites this chapter for four of the six. GEN 32 adds two: χείμαρρος, which LSJ heads χειμάρροος, *winter-flowing*, and as a noun *torrent*, *river*, *valley, watercourse*; and ἐπισκάζω, *limp upon*, cited from this chapter. GEN 33 adds πόρευσις, which LSJ defines only by cross-reference, "= πορεία", citing this verse. GEN 34 adds τραυματίας, which Middle Liddell lacks and LSJ (eng22) glosses "wounded man" and "corpse of one slain".
+*wanderer, emigrant*, as ἁγίζω's stand for ἁγιάζω. GEN 15 adds ὑπερασπίζω, *cover with a shield*, from the upsilon file; τριετίζω, *to be three years old*; and διχοτόμημα, *half of a thing cut in two*. GEN 17 adds κατάσχεσις, *holding back, restraining, retention*, then *possession*, from the kappa file; and ἑκατονταέτης, *of a hundred years*, *years old*, citing 17:17. GEN 18 adds μοσχάριον, *little calf*, and, from the beta file, βούτυρον, *butter*, then *a plant*. GEN 19 adds προσοίγνυμι, *shut*; ἀορασία, *inability to see, blindness*; γελοιάζω, *jest*, from the gamma file; ἐπαύριον, *on the morrow*; and εἰσσπάομαι, *draw into oneself*. GEN 20 adds μήτρα, *womb*, whose Middle Liddell entry tags only Latin; δίδραχμον, *coin of two drachms*, under δίδραχμος; and κἀγώ, *crasis for καὶ ἐγώ*. GEN 21 adds ἀπογαλακτίζω, *wean from the mother's milk*; ἀρχιστράτηγος, *commander-in-chief*; and, from the omega file, ὦμος, *the shoulder with the upper arm*. GEN 23 adds παρεπίδημος, *sojourning in a strange place*, and μνημεῖον, *memorial, remembrance, record*, whose Middle Liddell entry tags its first sense only in Latin. GEN 24 adds ποτιστήριον, *drinking-trough for cattle*; ἐνώτιον, *ear-ring*; ἅβρα, *favourite slave*; and ἀποσάττω, *unsaddle, unpack*, *stop up, caulk*, *stuff with food*. GEN 25 adds three more: ὅλος, which Middle Liddell lacks altogether, *whole, entire, complete in all its parts*; δόμα, *gift*, then *payment*; and πυρράκης, *red, ruddy*, which LSJ files as a masculine noun. GEN 26 adds ἑκατοστεύω, *bear a hundredfold*, and γεώργιον, *field*, then *orchard*, *husbandry*, *crop* and, in the plural, a *tax* on land. GEN 27 adds four more: πιότης, *fattiness*, then *wealth, prosperity*; πτερνίζω, *strike with the heel*, *trip up, supplant*; προσοχθίζω, *to be wroth with*, and of this chapter's phrase *am weary* of; and κατανύσσω, *stab, gouge*, and in the passive *to be sorely pricked*. GEN 28 adds one more: ἐνυπνιάζομαι, *dream*, which Middle Liddell does not have at all. GEN 30 adds eight, the whole vocabulary of Jacob's flocks: ἀρήν, *lamb*; διάλευκος, *quite white*; ῥαντός, *sprinkled*, then *speckled or spotted*; σποδοειδής, *ashy, ash-coloured*; ἐγκισσάω, *have yearnings like one pregnant*; λεπίζω, *peel off the husk, skin or bark*; λέπισμα, *peel*; and καρύινος, *of nuts*, *made of walnut-wood*. LSJ cites this chapter for six of the eight. GEN 31 adds six: κρυφῇ, *secretly, in secret*, which Middle Liddell has only as the Doric κρύφα; κατάβρωσις, *eating up, devouring*; κλοποφορέω, *steal from, rob*; ἐθισμός, *accustoming, habituation*; θηριάλωτος, *caught by wild beasts*; and αἰχμαλωτίς, *captive*, which Middle Liddell has as an entry with no translation tagged in it. LSJ cites this chapter for four of the six. GEN 32 adds two: χείμαρρος, which LSJ heads χειμάρροος, *winter-flowing*, and as a noun *torrent*, *river*, *valley, watercourse*; and ἐπισκάζω, *limp upon*, cited from this chapter. GEN 33 adds πόρευσις, which LSJ defines only by cross-reference, "= πορεία", citing this verse. GEN 34 adds τραυματίας, which Middle Liddell lacks and LSJ (eng22) glosses "wounded man" and "corpse of one slain". GEN 35 adds θλῖψις, which Middle Liddell lacks and LSJ (eng9) glosses "pressure", "crushing, castration" and "oppression, affliction", citing this verse; and κατώτερος, which LSJ (eng11) heads as the comparative of κάτω.
 <!-- LSJ sentences above -->
 
 GEN 9 also files ἐμεθύσθη under μεθύσκω, *to make drunk*, where Middle Liddell gives its aorist
@@ -620,6 +622,87 @@ the same ground as `the sixth` and `the seventh`: one sense each, so no range to
   settling in` (10:30); δύο `two`; υἱός `sons`.
 - The article before a people's name (τοὺς Λουδιιμ, τὸν Χετταῖον, τῶν Χαναναίων) is not printed,
   as before a person's name.
+
+### Words new in GEN 35
+
+- The chapter has no verse 21: Rahlfs's apparatus notes at that number `21 𝔐: uide 𝔊 16`, the Hebrew's
+  verse standing in the Greek at 35:16. The transcription runs 35:1-20 and then 35:22-29.
+- χαβραθα — the Hebrew kibrat carried into Greek untranslated, a stretch of ground of unknown length.
+  The printed page has it in lower case where the digital module capitalises it, so it is filed in
+  `printed`, and it is a name with no capital in either panel, as τὰ χερουβιμ is at 3:24. 35:16.
+- αἴρω — Ἄρατε is active, so the chain is the Act. section only; the Mid. senses (*to take up for
+  oneself, carry off, win*) are filed in NOT_SENSES. 35:2.
+- σπένδω — likewise active here: *to pour a drink-offering*. The Mid. is *to make a treaty*, since
+  treaties were sealed by pouring, and that sense is not this form's. 35:14.
+- ἐπιφαίνω — ἐπεφάνη is passive, so the active senses passivized lead and the intransitive *shewed
+  light, shone upon* follows. 35:7.
+- θλῖψις — Middle Liddell has θλίβω but not the noun. LSJ gives three senses and cites this very
+  verse for the third, *oppression, affliction*. 35:3.
+- κατώτερος — no Middle Liddell entry; LSJ heads the comparative of κάτω on its own. Here it stands
+  as an adverb with the genitive, below Bethel. 35:8.
+- ὀσφῦς — Perseus keys the noun with an acute, ὀσφύς, so it is filed in the spelling table; the
+  dictionary form keeps the circumflex MorphGNT gives it. 35:11.
+- σκληρῶς — the adverb, filed inside σκληρός, and taking the adjective's senses, as βαρέως does at
+  31:35. Its chain is the one σκληρός already has from 21:11. 35:17.
+- Βάλανος and Υἱός — two Greek words Rahlfs prints capitalised as names, and so names here with a
+  `# corpus` note apiece: Βάλανος πένθους is the oak of weeping, Υἱὸς ὀδύνης μου is Ben-ʾÔnî. The
+  common nouns βάλανος and υἱός stand in the same chapter. 35:8, 35:18.
+- `covered over` now heads two entries: κατακρύπτω here and ἐπικαλύπτω at 7:19, as `the men` heads
+  both ἄνθρωπος and ἀνήρ. A later chapter must name the verse it means. 35:4.
+- One sense each in GEN 35, and so kept as units with a one-word chain: δυστοκέω `was in sore
+  travail`; τοκετός `birth`; τροφός `the feeder`; and the numerals stand plain.
+
+| lemma | headword | chain | used |
+| --- | --- | --- | --- |
+| αἴρω | `take up` | `take up, raise, lift up, bear and sustain, raise up and exalt, excite, extol and exaggerate, lift and take away and remove, take off and kill` | 35:2 |
+| αὐξάνω | `be increased` | `be increased, be made to grow, be exalted and magnified, be advanced and promoted` | 35:11 |
+| βάλανος | `the acorn` | `the acorn, the similar fruit and date, the iron peg and bolt-pin` | 35:8 |
+| διασῴζω | `saved through` | `saved through, brought safe through, kept safe, preserved` | 35:3 |
+| δυστοκέω | `was in sore travail` | `was in sore travail` | 35:16 |
+| θάπτω | `buried` | `buried, honoured with funeral rites` | 35:29 |
+| θάπτω | `was buried` | `was buried, was honoured with funeral rites` | 35:19 |
+| θαρσέω | `be of good courage` | `be of good courage, take courage, be over-bold and audacious, have confidence in, venture` | 35:17 |
+| θεός | `the gods` | `the gods, the deities` | 35:2, 35:4 |
+| θλῖψις | `of pressure` | `of pressure, of crushing and castration, of oppression and affliction` | 35:3 |
+| καθαρίζω | `make yourselves clean` | `make yourselves clean, cleanse yourselves` | 35:2 |
+| καταδιώκω | `pursued closely` | `pursued closely` | 35:5 |
+| κατακρύπτω | `covered over` | `covered over, hid away, concealed, used concealment and concealed himself` | 35:4 |
+| κατώτερος | `lower` | `lower, more southerly, later and younger` | 35:8 |
+| λίθινος | `of stone` | `of stone, stony` | 35:14 |
+| μαῖα | `the good mother` | `the good mother, the dame, the fostermother and nurse, the true mother, the midwife` | 35:17 |
+| μνημεῖον | `of the memorial` | `of the memorial, of the remembrance, of the record, of the tomb and monument` | 35:20 |
+| πένθος | `of mourning` | `of mourning, of grief and sadness, of a mourning garb, of a misfortune and calamity` | 35:8 |
+| παιδίσκη | `of a young girl` | `of a young girl, of a maiden, of a young slave, of a courtesan` | 35:25, 35:26 |
+| παλλακή | `of the concubine` | `of the concubine, of the mistress` | 35:22 |
+| παραγίνομαι | `came to be beside` | `came to be beside, came near and arrived, was present and stood by, came to help` | 35:9 |
+| πλήρης | `full` | `full, filled, complete, satisfied, whole and entire` | 35:29 |
+| πορεύομαι | `I was driven` | `I was driven, I was carried, I went, I walked, I marched, I went across and passed` | 35:3 |
+| πρωτότοκος | `firstborn` | `firstborn, first-fruits` | 35:23 |
+| πύργος | `of the tower` | `of the tower, of the city wall, of the moving tower` | 35:16 |
+| σπένδω | `poured a drink-offering` | `poured a drink-offering, made a drink-offering, poured` | 35:14 |
+| σπονδή | `a drink-offering` | `a drink-offering, a solemn treaty, a truce, the treaty itself` | 35:14 |
+| στολή | `the equipments` | `the equipments, the armaments, the apparel and raiment, the robes` | 35:2 |
+| συναγωγή | `gatherings` | `gatherings, assemblies, places of assembly, synagogues` | 35:11 |
+| τερέμινθος | `the terebinth` | `the terebinth` | 35:4 |
+| τοκετός | `in birth` | `within, inside of, and by means of birth, delivery` | 35:16 |
+| τροφός | `the feeder` | `the feeder, the rearer, the nurse` | 35:8 |
+| φόβος | `fear` | `fear, flight, panic, awe and reverence, the object of fear and terror` | 35:5 |
+| ἀλλάσσω | `change` | `change, alter, exchange, give in exchange and barter, take one in exchange for another` | 35:2 |
+| ἀναβαίνω | `go up` | `go up, mount, ascend, go up to, rise, come up, come to and arrive at, go up country, go aboard` | 35:1 |
+| ἀναβαίνω | `let us go up` | `let us go up, let us mount, let us ascend, let us go up to, let us rise, let us come up, let us come to and arrive at, let us go up country, let us go aboard` | 35:3 |
+| ἀποδιδράσκω | `to run away` | `to run away, to run off and escape, to run away from` | 35:1, 35:7 |
+| ἀποθνήσκω | `was dying off` | `was dying off, was dying, was being put to death, was being slain` | 35:18 |
+| ἀπόλλυμι | `destroyed utterly` | `destroyed utterly, killed, slew, destroyed and demolished and wasted, talked and bored to death, lost utterly` | 35:4 |
+| ἀφίημι | `to send forth` | `to send forth, to discharge, to let go and loose and set free, to let alone and leave, to give up and hand over, to permit and allow` | 35:18 |
+| ἐν, with οὖς | `in the ears` | `within, inside of, and by means of the ears` | 35:4 |
+| ἐνώτιον | `the earrings` | `the earrings` | 35:4 |
+| ἐξαίρω | `lifted out` | `lifted out, took out and removed, lifted up and raised, stirred up and excited, carried off and carried away, made an end of and destroyed, set out and departed` | 35:5 |
+| ἐπέκεινα | `on yonder side` | `on yonder side, beyond, the part beyond and the far side` | 35:16 |
+| ἐπακούω | `to the one having hearkened` | `to the one having hearkened, to the one having listened, to the one having given ear` | 35:3 |
+| ἐπιφαίνω | `was shewn forth` | `was shewn forth, was displayed, was shewn off, came into light and came suddenly into view, presented himself and shewed himself and appeared, shewed light and shone upon` | 35:7 |
+| ἐπιχέω | `poured upon` | `poured upon, poured over, poured out over` | 35:14 |
+| ὀδύνη | `of pain of body` | `of pain of body, of pain of mind, of grief and distress` | 35:18 |
+| ὀσφῦς | `of the loin` | `of the loin, of the loins, of the lower part of the back` | 35:11 |
 
 ### Words new in GEN 34
 
@@ -5009,6 +5092,18 @@ Greek makes it a woman's, the mother of Eliezer, whom it calls Δαμασκὸς
 | Χορραῖος | Chorraios | Horite | `(Χορραῖος, from Hebrew Ḥōrî, usually connected with ḥōr, "hole, cave")` |
 | Χαναναίοις | Chananaiois | Canaanites | `(Χαναναῖος, from Hebrew Kĕnaʿănî, the people of Kĕnaʿan, Canaan)` |
 | Φερεζαίοις | Pherezaiois | Perizzites | `(Φερεζαῖος, from Hebrew Pĕrizzî, usually connected with pĕrāzî, "villager, dweller in open country")` |
+
+| Λουζα | Louza | Luz | `(Λουζα, from Hebrew Lûz, usually connected with lûz, "almond tree")` |
+| Δεββωρα | Debbōra | Deborah | `(Δεββωρα, from Hebrew Dĕbôrâ, "bee")` |
+| Βάλανος | Balanos | Acorn | `(Βάλανος πένθους, "acorn of mourning", the Greek of Hebrew ʾAllôn-bākût, the oak of weeping)` |
+| Γαδερ | Gader | Eder | `(Γαδερ, from Hebrew ʿĒder, "flock")` |
+| χαβραθα | chabratha | chabratha | `(χαβραθα, the Hebrew kibrat left untranslated, a stretch of ground of unknown length)` |
+| Εφραθα | Ephratha | Ephrath | `(Εφραθα, from Hebrew ʾEprātâ, usually connected with pārâ, "to be fruitful")` |
+| Υἱὸς | Hyios | Son | `(Υἱὸς ὀδύνης μου, "son of my pain", the Greek of Hebrew Ben-ʾÔnî)` |
+| Βενιαμιν | Beniamin | Benjamin | `(Βενιαμιν, from Hebrew Binyāmîn, "son of the right hand" or "son of the south")` |
+| Βηθλεεμ | Bēthleem | Bethlehem | `(Βηθλεεμ, from Hebrew Bêt-Leḥem, "house of bread")` |
+| Βαλλας | Ballas | Bilhah | `(Βαλλα, from Hebrew Bilhâ, usually connected with bāhal, "to be troubled")` |
+| Ιουδας | Ioudas | Judah | `(Ιουδας, from Hebrew Yĕhûdâ, which the Hebrew of 29:35 hears in yādâ, "to praise")` |
 <!-- name rows above -->
 
 Σύγχυσις translates the name where 10:10 gave the city its Greek name, Βαβυλών; as with Ζωή at

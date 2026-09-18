@@ -255,6 +255,11 @@ LSJ = {
     # GEN 34. No Middle Liddell entry. LSJ (eng22) gives τραυματίας two senses, "wounded man"
     # and "corpse of one slain".
     "τραυματίας": ["wounded man", "corpse of one slain"],
+    # GEN 35. Middle Liddell has θλίβω but not the noun; LSJ (eng9) gives θλῖψις three senses
+    # and cites this very verse for the third.
+    "θλῖψις": ["pressure", "crushing, castration", "oppression, affliction"],
+    # No Middle Liddell entry. LSJ (eng11) gives the comparative of κάτω three senses.
+    "κατώτερος": ["lower", "more southerly", "later, younger"],
 }
 
 # New Testament books: MorphGNT file and its book number.
@@ -883,6 +888,28 @@ NOT_SENSES = {
     "ei)rhniko/s": {"of", "peaceably"},           # half of "of or for peace", and the adverb
     "o)ligosto/s": {"the smallest space"},        # from "the smallest space of Time"
     "tetra/pous": {"four feet"},                  # from "four feet in length"
+    # GEN 35
+    "ai)/rw": {"to step, walk", "to hoist", "to mount up, ascend", "to get", "under sail",
+               "to get under way, start, set out", "to pluck up", "to raise by words",
+               "to take up for oneself: to carry off, win, gain", "to receive, get", "wilt incur",
+               "to take upon oneself, undergo, carry, bear", "to undertake, begin", "to raise up",
+               "to raise, lift up"},           # pieces of examples, the passive, and the middle
+    "kaqari/zw": {"to be", "become clean", "to be purged away"},  # the passive
+    "spe/ndw": {"to pour a libation", "to make a drink-offering with",
+                "I am offered (as a drink-offering", "to pour libations one with another",
+                "to make a treaty, make peace", "to make peace with", "to give", "pledges",
+                "having concluded", "peace", "to make up", "to make a truce",
+                "to be concluded"},            # pieces of examples, and the middle
+    "spondh/": {"solemn drink-offerings", "the truce", "the truce with", "a truce",
+                "the solemn truce", "armistice"},  # pieces of examples
+    "qarse/w": {"take courage! cheer up", "with good courage", "confidence", "take heart for",
+                "to venture", "to have confidence in", "to believe confidently that",
+                "to make bold", "venture"},    # pieces of examples
+    "mai=a": {"a", "mother"},                   # the two halves of "also a true mother"
+    "o)du/nh": {"grief for"},                   # from "grief for him"
+    "o)sfu/s": {"one's loins", "of the loins"},  # pieces of "to gird up one's loins"
+    "li/qinos": {"stony"},                      # from "stony death"
+    "e)pe/keina": {"beyond", "on the far side"},  # a repetition, and a piece of an example
 }
 
 # An entry that divides its senses by tense and voice, so that which of them belong to a
@@ -951,6 +978,8 @@ SPELLING = {
     "qumo/omai": "qumo/w",          # likewise
     "e)pimelw=s": "e)pimelh/s",     # the adverb, filed inside the adjective's entry
     "a)sfalw=s": "a)sfalh/s",       # likewise, and the entry glosses it "in all senses of the adj."
+    "o)sfu=s": "o)sfu/s",           # Perseus keys the noun with an acute
+    "sklhrw=s": "sklhro/s",         # the adverb, filed inside the adjective's entry
     "e)nanti/on": "e)nanti/os",     # cross-reference; "adverb v. ἐναντίος" glosses nothing
     "nossia/": "neossia/",          # the contracted spelling; the entry is headed with νεοσσιά
     "kata/gaios": "kata/geios",     # cross-reference; "ionic for κατάγειος" glosses nothing

@@ -1,0 +1,619 @@
+# Genesis 35 — morphology, one word per line.
+#
+# This is the project's own grammatical analysis of each form, written alongside the
+# transcription and not copied from any digital edition.
+#
+# Columns: verse, part of speech, parse, form, lemma — in MorphGNT's code scheme, so
+# the Old and New Testament layers read alike. The parse is eight places: person,
+# tense, voice, mood, case, number, gender, degree ("-" where it does not apply).
+#
+# Two codes go beyond MorphGNT, both to record only what the form itself says:
+#   voice  E  middle/passive — a tense in which the two share one form
+#   gender C  masculine/feminine — an adjective whose form does not distinguish them
+#
+# A trailing annotation records a deliberate difference and the reason for it:
+#   "# module …"  from the reference module, checked when LXX_RAHLFS_DIR is set
+#   "# corpus …"  from this project's own analysis of the same form elsewhere
+# A line may carry both. validate.py prints them as notes instead of failures — and
+# fails if the difference a note claims is not there, so they cannot go stale. The
+# analysis here is this project's own: the module is a reference, not an authority,
+# and the corpus is held to itself.
+#
+# Indeclinables take case and number from the syntax, as MorphGNT does, and gender
+# where there is one to take: a personal name, from the person; a numeral agreeing
+# with its noun; a common noun whose article shows it — but not an indeclinable place
+# name, which has none. A personal name the New Testament also uses takes MorphGNT's
+# dictionary form (Νῶε, Σήμ); every other Semitic name (Χαμ, Ιαφεθ), the form Rahlfs
+# prints.
+35:1 V- 3AAI-S-- Εἶπεν λέγω  # module lemma ἔπω — λέγω keeps one dictionary form across both testaments
+35:1 C- -------- δὲ δέ
+35:1 RA ----NSM- ὁ ὁ
+35:1 N- ----NSM- θεὸς θεός
+35:1 P- -------- πρὸς πρός
+35:1 N- ----ASM- Ιακωβ Ἰακώβ
+35:1 V- -AAPNSM- Ἀναστὰς ἀνίστημι
+35:1 V- 2AAD-S-- ἀνάβηθι ἀναβαίνω
+35:1 P- -------- εἰς εἰς
+35:1 RA ----ASM- τὸν ὁ
+35:1 N- ----ASM- τόπον τόπος
+35:1 N- ----AS-- Βαιθηλ Βαιθηλ  # module N.S, no case — the accusative with τὸν τόπον, as Συχεμ is genitive with τοῦ τόπου at 12:6
+35:1 C- -------- καὶ καί
+35:1 V- 2PAD-S-- οἴκει οἰκέω
+35:1 D- -------- ἐκεῖ ἐκεῖ
+35:1 C- -------- καὶ καί
+35:1 V- 2AAD-S-- ποίησον ποιέω
+35:1 D- -------- ἐκεῖ ἐκεῖ
+35:1 N- ----ASN- θυσιαστήριον θυσιαστήριον
+35:1 RA ----DSM- τῷ ὁ
+35:1 N- ----DSM- θεῷ θεός
+35:1 RA ----DSM- τῷ ὁ
+35:1 V- -APPDSM- ὀφθέντι ὁράω  # module lemma ὀπτάνομαι — Middle Liddell files the passive under ὁράω
+35:1 RP ----DS-- σοι σύ  # module lemma σοί, the form itself — σύ is the dictionary form
+35:1 P- -------- ἐν ἐν
+35:1 RA ----DSN- τῷ ὁ
+35:1 V- -PAN---- ἀποδιδράσκειν ἀποδιδράσκω
+35:1 RP ----AS-- σε σύ  # module lemma σέ, the form itself — σύ is the dictionary form
+35:1 P- -------- ἀπὸ ἀπό
+35:1 N- ----GSN- προσώπου πρόσωπον
+35:1 N- ----GSM- Ησαυ Ἠσαῦ
+35:1 RA ----GSM- τοῦ ὁ
+35:1 N- ----GSM- ἀδελφοῦ ἀδελφός
+35:1 RP ----GS-- σου σύ  # module lemma σοῦ, the form itself — σύ is the dictionary form
+35:2 V- 3AAI-S-- εἶπεν λέγω  # module lemma ἔπω — λέγω keeps one dictionary form across both testaments
+35:2 C- -------- δὲ δέ
+35:2 N- ----NSM- Ιακωβ Ἰακώβ
+35:2 RA ----DSM- τῷ ὁ
+35:2 N- ----DSM- οἴκῳ οἶκος
+35:2 RP ----GSM- αὐτοῦ αὐτός
+35:2 C- -------- καὶ καί
+35:2 A- ----DPM- πᾶσιν πᾶς
+35:2 RA ----DPM- τοῖς ὁ
+35:2 P- -------- μετʼ μετά
+35:2 RP ----GSM- αὐτοῦ αὐτός
+35:2 V- 2AAD-P-- Ἄρατε αἴρω
+35:2 RA ----APM- τοὺς ὁ
+35:2 N- ----APM- θεοὺς θεός
+35:2 RA ----APM- τοὺς ὁ
+35:2 A- ----APM- ἀλλοτρίους ἀλλότριος
+35:2 RA ----APM- τοὺς ὁ
+35:2 P- -------- μεθʼ μετά
+35:2 RP ----GP-- ὑμῶν σύ  # module lemma ὑμῶν, the form itself — σύ is the dictionary form
+35:2 P- -------- ἐκ ἐκ
+35:2 A- ----GSN- μέσου μέσος  # module GSM — ἐκ μέσου, the neuter used as a noun
+35:2 RP ----GP-- ὑμῶν σύ  # module lemma ὑμῶν, the form itself — σύ is the dictionary form
+35:2 C- -------- καὶ καί
+35:2 V- 2AMD-P-- καθαρίσασθε καθαρίζω
+35:2 C- -------- καὶ καί
+35:2 V- 2AAD-P-- ἀλλάξατε ἀλλάσσω
+35:2 RA ----APF- τὰς ὁ
+35:2 N- ----APF- στολὰς στολή
+35:2 RP ----GP-- ὑμῶν σύ  # module lemma ὑμῶν, the form itself — σύ is the dictionary form
+35:3 C- -------- καὶ καί
+35:3 V- -AAPNPM- ἀναστάντες ἀνίστημι
+35:3 V- 1AAS-P-- ἀναβῶμεν ἀναβαίνω
+35:3 P- -------- εἰς εἰς
+35:3 N- ----AS-- Βαιθηλ Βαιθηλ
+35:3 C- -------- καὶ καί
+35:3 V- 1AAS-P-- ποιήσωμεν ποιέω
+35:3 D- -------- ἐκεῖ ἐκεῖ
+35:3 N- ----ASN- θυσιαστήριον θυσιαστήριον
+35:3 RA ----DSM- τῷ ὁ
+35:3 N- ----DSM- θεῷ θεός
+35:3 RA ----DSM- τῷ ὁ
+35:3 V- -AAPDSM- ἐπακούσαντί ἐπακούω
+35:3 RP ----DS-- μοι ἐγώ  # module lemma μοι, the form itself — ἐγώ is the dictionary form
+35:3 P- -------- ἐν ἐν
+35:3 N- ----DSF- ἡμέρᾳ ἡμέρα
+35:3 N- ----GSF- θλίψεως θλῖψις
+35:3 RR ----NSM- ὃς ὅς
+35:3 V- 3IAI-S-- ἦν εἰμί
+35:3 P- -------- μετʼ μετά
+35:3 RP ----GS-- ἐμοῦ ἐγώ  # module lemma ἐμοῦ, the form itself — ἐγώ is the dictionary form
+35:3 C- -------- καὶ καί
+35:3 V- 3AAI-S-- διέσωσέν διασῴζω  # module lemma διασώζω — διασῴζω keeps the iota subscript the text prints, as σῴζω does
+35:3 RP ----AS-- με ἐγώ  # module lemma μέ, the form itself — ἐγώ is the dictionary form
+35:3 P- -------- ἐν ἐν
+35:3 RA ----DSF- τῇ ὁ
+35:3 N- ----DSF- ὁδῷ ὁδός
+35:3 RR ----DSF- ᾗ ὅς
+35:3 V- 1API-S-- ἐπορεύθην πορεύομαι
+35:4 C- -------- καὶ καί
+35:4 V- 3AAI-P-- ἔδωκαν δίδωμι
+35:4 RA ----DSM- τῷ ὁ
+35:4 N- ----DSM- Ιακωβ Ἰακώβ
+35:4 RA ----APM- τοὺς ὁ
+35:4 N- ----APM- θεοὺς θεός
+35:4 RA ----APM- τοὺς ὁ
+35:4 A- ----APM- ἀλλοτρίους ἀλλότριος
+35:4 RR ----NPM- οἳ ὅς
+35:4 V- 3IAI-P-- ἦσαν εἰμί
+35:4 P- -------- ἐν ἐν
+35:4 RA ----DPF- ταῖς ὁ
+35:4 N- ----DPF- χερσὶν χείρ
+35:4 RP ----GPM- αὐτῶν αὐτός
+35:4 C- -------- καὶ καί
+35:4 RA ----APN- τὰ ὁ
+35:4 N- ----APN- ἐνώτια ἐνώτιον
+35:4 RA ----APN- τὰ ὁ
+35:4 P- -------- ἐν ἐν
+35:4 RA ----DPN- τοῖς ὁ
+35:4 N- ----DPN- ὠσὶν οὖς
+35:4 RP ----GPM- αὐτῶν αὐτός
+35:4 C- -------- καὶ καί
+35:4 V- 3AAI-S-- κατέκρυψεν κατακρύπτω
+35:4 RP ----APN- αὐτὰ αὐτός
+35:4 N- ----NSM- Ιακωβ Ἰακώβ
+35:4 P- -------- ὑπὸ ὑπό
+35:4 RA ----ASF- τὴν ὁ
+35:4 N- ----ASF- τερέμινθον τερέμινθος  # module lemma τερέβινθος — τερέμινθος with the μ Rahlfs prints, where A reads β
+35:4 RA ----ASF- τὴν ὁ
+35:4 P- -------- ἐν ἐν
+35:4 N- ----DPN- Σικιμοις Σικιμα  # module lemma Σικιμος — Σικιμα, the neuter plural the Septuagint declines
+35:4 C- -------- καὶ καί
+35:4 V- 3AAI-S-- ἀπώλεσεν ἀπόλλυμι
+35:4 RP ----APN- αὐτὰ αὐτός
+35:4 P- -------- ἕως ἕως
+35:4 RA ----GSF- τῆς ὁ
+35:4 D- -------- σήμερον σήμερον
+35:4 N- ----GSF- ἡμέρας ἡμέρα
+35:5 C- -------- καὶ καί
+35:5 V- 3AAI-S-- ἐξῆρεν ἐξαίρω
+35:5 N- ----NSM- Ισραηλ Ἰσραήλ
+35:5 P- -------- ἐκ ἐκ
+35:5 N- ----GPN- Σικιμων Σικιμα  # module lemma Σικιμος — Σικιμα, the neuter plural the Septuagint declines
+35:5 C- -------- καὶ καί
+35:5 V- 3AMI-S-- ἐγένετο γίνομαι
+35:5 N- ----NSM- φόβος φόβος
+35:5 N- ----GSM- θεοῦ θεός
+35:5 P- -------- ἐπὶ ἐπί
+35:5 RA ----APF- τὰς ὁ
+35:5 N- ----APF- πόλεις πόλις
+35:5 RA ----APF- τὰς ὁ
+35:5 D- -------- κύκλῳ κύκλῳ  # module N.DSM — κύκλῳ the adverb, as MorphGNT codes it
+35:5 RP ----GPM- αὐτῶν αὐτός
+35:5 C- -------- καὶ καί
+35:5 D- -------- οὐ οὐ
+35:5 V- 3AAI-P-- κατεδίωξαν καταδιώκω
+35:5 P- -------- ὀπίσω ὀπίσω
+35:5 RA ----GPM- τῶν ὁ
+35:5 N- ----GPM- υἱῶν υἱός
+35:5 N- ----GSM- Ισραηλ Ἰσραήλ
+35:6 V- 3AAI-S-- ἦλθεν ἔρχομαι
+35:6 C- -------- δὲ δέ
+35:6 N- ----NSM- Ιακωβ Ἰακώβ
+35:6 P- -------- εἰς εἰς
+35:6 N- ----AS-- Λουζα Λουζα  # module ASF — an indeclinable place name has no gender
+35:6 RR ----NSF- ἥ ὅς
+35:6 V- 3PAI-S-- ἐστιν εἰμί
+35:6 P- -------- ἐν ἐν
+35:6 N- ----DSF- γῇ γῆ
+35:6 N- ----GS-- Χανααν Χανάαν  # module lemma Χαναάν — Χανάαν, as MorphGNT files it
+35:6 RR ----NSF- ἥ ὅς
+35:6 V- 3PAI-S-- ἐστιν εἰμί
+35:6 N- ----NS-- Βαιθηλ Βαιθηλ
+35:6 RP ----NSM- αὐτὸς αὐτός
+35:6 C- -------- καὶ καί
+35:6 A- ----NSM- πᾶς πᾶς
+35:6 RA ----NSM- ὁ ὁ
+35:6 N- ----NSM- λαός λαός
+35:6 RR ----NSM- ὃς ὅς
+35:6 V- 3IAI-S-- ἦν εἰμί
+35:6 P- -------- μετʼ μετά
+35:6 RP ----GSM- αὐτοῦ αὐτός
+35:7 C- -------- καὶ καί
+35:7 V- 3AAI-S-- ᾠκοδόμησεν οἰκοδομέω
+35:7 D- -------- ἐκεῖ ἐκεῖ
+35:7 N- ----ASN- θυσιαστήριον θυσιαστήριον
+35:7 C- -------- καὶ καί
+35:7 V- 3AAI-S-- ἐκάλεσεν καλέω
+35:7 RA ----ASN- τὸ ὁ
+35:7 N- ----ASN- ὄνομα ὄνομα
+35:7 RA ----GSM- τοῦ ὁ
+35:7 N- ----GSM- τόπου τόπος
+35:7 N- ----AS-- Βαιθηλ Βαιθηλ
+35:7 D- -------- ἐκεῖ ἐκεῖ
+35:7 C- -------- γὰρ γάρ
+35:7 V- 3API-S-- ἐπεφάνη ἐπιφαίνω
+35:7 RP ----DSM- αὐτῷ αὐτός
+35:7 RA ----NSM- ὁ ὁ
+35:7 N- ----NSM- θεὸς θεός
+35:7 P- -------- ἐν ἐν
+35:7 RA ----DSN- τῷ ὁ
+35:7 V- -PAN---- ἀποδιδράσκειν ἀποδιδράσκω
+35:7 RP ----ASM- αὐτὸν αὐτός
+35:7 P- -------- ἀπὸ ἀπό
+35:7 N- ----GSN- προσώπου πρόσωπον
+35:7 N- ----GSM- Ησαυ Ἠσαῦ
+35:7 RA ----GSM- τοῦ ὁ
+35:7 N- ----GSM- ἀδελφοῦ ἀδελφός
+35:7 RP ----GSM- αὐτοῦ αὐτός
+35:8 V- 3AAI-S-- ἀπέθανεν ἀποθνήσκω
+35:8 C- -------- δὲ δέ
+35:8 N- ----NSF- Δεββωρα Δεββωρα
+35:8 RA ----NSF- ἡ ὁ
+35:8 N- ----NSF- τροφὸς τροφός
+35:8 N- ----GSF- Ρεβεκκας Ῥεβέκκα
+35:8 A- ----ASNC κατώτερον κατώτερος  # module lemma κάτω — κατώτερος, which LSJ heads as its own entry
+35:8 N- ----GS-- Βαιθηλ Βαιθηλ
+35:8 P- -------- ὑπὸ ὑπό
+35:8 RA ----ASF- τὴν ὁ
+35:8 N- ----ASF- βάλανον βάλανος
+35:8 C- -------- καὶ καί
+35:8 V- 3AAI-S-- ἐκάλεσεν καλέω
+35:8 N- ----NSM- Ιακωβ Ἰακώβ
+35:8 RA ----ASN- τὸ ὁ
+35:8 N- ----ASN- ὄνομα ὄνομα
+35:8 RP ----GSF- αὐτῆς αὐτός
+35:8 N- ----NSF- Βάλανος Βάλανος  # module lemma βάλανος — the name keeps the capital Rahlfs prints it with, as Σκηναί does at 33:17
+35:8 N- ----GSN- πένθους πένθος
+35:9 V- 3API-S-- Ὤφθη ὁράω  # module lemma ὀπτάνομαι — Middle Liddell files the passive under ὁράω
+35:9 C- -------- δὲ δέ
+35:9 RA ----NSM- ὁ ὁ
+35:9 N- ----NSM- θεὸς θεός
+35:9 N- ----DSM- Ιακωβ Ἰακώβ
+35:9 D- -------- ἔτι ἔτι
+35:9 P- -------- ἐν ἐν
+35:9 N- ----DS-- Λουζα Λουζα
+35:9 C- -------- ὅτε ὅτε
+35:9 V- 3AMI-S-- παρεγένετο παραγίνομαι
+35:9 P- -------- ἐκ ἐκ
+35:9 N- ----GSF- Μεσοποταμίας Μεσοποταμία
+35:9 RA ----GSF- τῆς ὁ
+35:9 N- ----GSF- Συρίας Συρία
+35:9 C- -------- καὶ καί
+35:9 V- 3AAI-S-- ηὐλόγησεν εὐλογέω
+35:9 RP ----ASM- αὐτὸν αὐτός
+35:9 RA ----NSM- ὁ ὁ
+35:9 N- ----NSM- θεός θεός
+35:10 C- -------- καὶ καί
+35:10 V- 3AAI-S-- εἶπεν λέγω  # module lemma ἔπω — λέγω keeps one dictionary form across both testaments
+35:10 RP ----DSM- αὐτῷ αὐτός
+35:10 RA ----NSM- ὁ ὁ
+35:10 N- ----NSM- θεός θεός
+35:10 RA ----NSN- Τὸ ὁ
+35:10 N- ----NSN- ὄνομά ὄνομα
+35:10 RP ----GS-- σου σύ  # module lemma σοῦ, the form itself — σύ is the dictionary form
+35:10 N- ----NSM- Ιακωβ Ἰακώβ
+35:10 D- -------- οὐ οὐ
+35:10 V- 3FPI-S-- κληθήσεται καλέω
+35:10 D- -------- ἔτι ἔτι
+35:10 N- ----NSM- Ιακωβ Ἰακώβ
+35:10 C- -------- ἀλλʼ ἀλλά
+35:10 N- ----NSM- Ισραηλ Ἰσραήλ
+35:10 V- 3FMI-S-- ἔσται εἰμί
+35:10 RA ----NSN- τὸ ὁ
+35:10 N- ----NSN- ὄνομά ὄνομα
+35:10 RP ----GS-- σου σύ  # module lemma σοῦ, the form itself — σύ is the dictionary form
+35:11 V- 3AAI-S-- εἶπεν λέγω  # module lemma ἔπω — λέγω keeps one dictionary form across both testaments
+35:11 C- -------- δὲ δέ
+35:11 RP ----DSM- αὐτῷ αὐτός
+35:11 RA ----NSM- ὁ ὁ
+35:11 N- ----NSM- θεός θεός
+35:11 RP ----NS-- Ἐγὼ ἐγώ
+35:11 RA ----NSM- ὁ ὁ
+35:11 N- ----NSM- θεός θεός
+35:11 RP ----GS-- σου σύ  # module lemma σοῦ, the form itself — σύ is the dictionary form
+35:11 V- 2PED-S-- αὐξάνου αὐξάνω
+35:11 C- -------- καὶ καί
+35:11 V- 2PED-S-- πληθύνου πληθύνω
+35:11 N- ----NPN- ἔθνη ἔθνος
+35:11 C- -------- καὶ καί
+35:11 N- ----NPF- συναγωγαὶ συναγωγή
+35:11 N- ----GPN- ἐθνῶν ἔθνος
+35:11 V- 3FMI-P-- ἔσονται εἰμί
+35:11 P- -------- ἐκ ἐκ
+35:11 RP ----GS-- σοῦ σύ  # module lemma σοῦ, the form itself — σύ is the dictionary form
+35:11 C- -------- καὶ καί
+35:11 N- ----NPM- βασιλεῖς βασιλεύς
+35:11 P- -------- ἐκ ἐκ
+35:11 RA ----GSF- τῆς ὁ
+35:11 N- ----GSF- ὀσφύος ὀσφῦς  # module lemma ὀσφύς — ὀσφῦς, as MorphGNT files it
+35:11 RP ----GS-- σου σύ  # module lemma σοῦ, the form itself — σύ is the dictionary form
+35:11 V- 3FMI-P-- ἐξελεύσονται ἐξέρχομαι
+35:12 C- -------- καὶ καί
+35:12 RA ----ASF- τὴν ὁ
+35:12 N- ----ASF- γῆν γῆ
+35:12 RR ----ASF- ἣν ὅς
+35:12 V- 1XAI-S-- δέδωκα δίδωμι
+35:12 N- ----DSM- Αβρααμ Ἀβραάμ
+35:12 C- -------- καὶ καί
+35:12 N- ----DSM- Ισαακ Ἰσαάκ
+35:12 RP ----DS-- σοὶ σύ  # module lemma σοί, the form itself — σύ is the dictionary form
+35:12 V- 1XAI-S-- δέδωκα δίδωμι
+35:12 RP ----ASF- αὐτήν αὐτός
+35:12 RP ----DS-- σοὶ σύ  # module lemma σοί, the form itself — σύ is the dictionary form
+35:12 V- 3FMI-S-- ἔσται εἰμί
+35:12 C- -------- καὶ καί
+35:12 RA ----DSN- τῷ ὁ
+35:12 N- ----DSN- σπέρματί σπέρμα
+35:12 RP ----GS-- σου σύ  # module lemma σοῦ, the form itself — σύ is the dictionary form
+35:12 P- -------- μετὰ μετά
+35:12 RP ----AS-- σὲ σύ  # module lemma σέ, the form itself — σύ is the dictionary form
+35:12 V- 1FAI-S-- δώσω δίδωμι
+35:12 RA ----ASF- τὴν ὁ
+35:12 N- ----ASF- γῆν γῆ
+35:12 RD ----ASF- ταύτην οὗτος
+35:13 V- 3AAI-S-- ἀνέβη ἀναβαίνω
+35:13 C- -------- δὲ δέ
+35:13 RA ----NSM- ὁ ὁ
+35:13 N- ----NSM- θεὸς θεός
+35:13 P- -------- ἀπʼ ἀπό
+35:13 RP ----GSM- αὐτοῦ αὐτός
+35:13 P- -------- ἐκ ἐκ
+35:13 RA ----GSM- τοῦ ὁ
+35:13 N- ----GSM- τόπου τόπος
+35:13 D- -------- οὗ οὗ
+35:13 V- 3AAI-S-- ἐλάλησεν λαλέω
+35:13 P- -------- μετʼ μετά
+35:13 RP ----GSM- αὐτοῦ αὐτός
+35:14 C- -------- καὶ καί
+35:14 V- 3AAI-S-- ἔστησεν ἵστημι
+35:14 N- ----NSM- Ιακωβ Ἰακώβ
+35:14 N- ----ASF- στήλην στήλη
+35:14 P- -------- ἐν ἐν
+35:14 RA ----DSM- τῷ ὁ
+35:14 N- ----DSM- τόπῳ τόπος
+35:14 RR ----DSM- ᾧ ὅς
+35:14 V- 3AAI-S-- ἐλάλησεν λαλέω
+35:14 P- -------- μετʼ μετά
+35:14 RP ----GSM- αὐτοῦ αὐτός
+35:14 N- ----ASF- στήλην στήλη
+35:14 A- ----ASF- λιθίνην λίθινος
+35:14 C- -------- καὶ καί
+35:14 V- 3AAI-S-- ἔσπεισεν σπένδω
+35:14 P- -------- ἐπʼ ἐπί
+35:14 RP ----ASF- αὐτὴν αὐτός
+35:14 N- ----ASF- σπονδὴν σπονδή
+35:14 C- -------- καὶ καί
+35:14 V- 3AAI-S-- ἐπέχεεν ἐπιχέω  # module the imperfect — the aorist of χέω, ἔχεεν, beside ἔσπεισεν in the same verse
+35:14 P- -------- ἐπʼ ἐπί
+35:14 RP ----ASF- αὐτὴν αὐτός
+35:14 N- ----ASN- ἔλαιον ἔλαιον
+35:15 C- -------- καὶ καί
+35:15 V- 3AAI-S-- ἐκάλεσεν καλέω
+35:15 N- ----NSM- Ιακωβ Ἰακώβ
+35:15 RA ----ASN- τὸ ὁ
+35:15 N- ----ASN- ὄνομα ὄνομα
+35:15 RA ----GSM- τοῦ ὁ
+35:15 N- ----GSM- τόπου τόπος
+35:15 P- -------- ἐν ἐν
+35:15 RR ----DSM- ᾧ ὅς
+35:15 V- 3AAI-S-- ἐλάλησεν λαλέω
+35:15 P- -------- μετʼ μετά
+35:15 RP ----GSM- αὐτοῦ αὐτός
+35:15 D- -------- ἐκεῖ ἐκεῖ
+35:15 RA ----NSM- ὁ ὁ
+35:15 N- ----NSM- θεός θεός
+35:15 N- ----AS-- Βαιθηλ Βαιθηλ
+35:16 V- -AAPNSM- Ἀπάρας ἀπαίρω
+35:16 C- -------- δὲ δέ
+35:16 N- ----NSM- Ιακωβ Ἰακώβ
+35:16 P- -------- ἐκ ἐκ
+35:16 N- ----GS-- Βαιθηλ Βαιθηλ
+35:16 V- 3AAI-S-- ἔπηξεν πήγνυμι
+35:16 RA ----ASF- τὴν ὁ
+35:16 N- ----ASF- σκηνὴν σκηνή
+35:16 RP ----GSM- αὐτοῦ αὐτός
+35:16 P- -------- ἐπέκεινα ἐπέκεινα
+35:16 RA ----GSM- τοῦ ὁ
+35:16 N- ----GSM- πύργου πύργος
+35:16 N- ----GS-- Γαδερ Γαδερ
+35:16 V- 3AMI-S-- ἐγένετο γίνομαι
+35:16 C- -------- δὲ δέ
+35:16 C- -------- ἡνίκα ἡνίκα
+35:16 V- 3AAI-S-- ἤγγισεν ἐγγίζω
+35:16 N- ----AS-- χαβραθα χαβραθα  # module Χαβραθα with a capital, where the printed page has none; the transcription follows the page
+35:16 P- -------- εἰς εἰς
+35:16 N- ----ASF- γῆν γῆ
+35:16 V- -AAN---- ἐλθεῖν ἔρχομαι
+35:16 N- ----GS-- Εφραθα Εφραθα  # module N.S, no case — the genitive after γῆν, as MorphGNT codes ἐν γῇ Χανάαν at Acts 13:19
+35:16 V- 3AAI-S-- ἔτεκεν τίκτω
+35:16 N- ----NSF- Ραχηλ Ῥαχήλ
+35:16 C- -------- καὶ καί
+35:16 V- 3AAI-S-- ἐδυστόκησεν δυστοκέω
+35:16 P- -------- ἐν ἐν
+35:16 RA ----DSM- τῷ ὁ
+35:16 N- ----DSM- τοκετῷ τοκετός
+35:17 V- 3AMI-S-- ἐγένετο γίνομαι
+35:17 C- -------- δὲ δέ
+35:17 P- -------- ἐν ἐν
+35:17 RA ----DSN- τῷ ὁ  # module DSM — the article of the infinitive, neuter
+35:17 D- -------- σκληρῶς σκληρῶς
+35:17 RP ----ASF- αὐτὴν αὐτός
+35:17 V- -PAN---- τίκτειν τίκτω
+35:17 V- 3AAI-S-- εἶπεν λέγω  # module lemma ἔπω — λέγω keeps one dictionary form across both testaments
+35:17 RP ----DSF- αὐτῇ αὐτός
+35:17 RA ----NSF- ἡ ὁ
+35:17 N- ----NSF- μαῖα μαῖα
+35:17 V- 2PAD-S-- Θάρσει θαρσέω
+35:17 C- -------- καὶ καί
+35:17 C- -------- γὰρ γάρ
+35:17 RD ----NSM- οὗτός οὗτος
+35:17 RP ----DS-- σοί σύ  # module lemma σοί, the form itself — σύ is the dictionary form
+35:17 V- 3PAI-S-- ἐστιν εἰμί
+35:17 N- ----NSM- υἱός υἱός
+35:18 V- 3AMI-S-- ἐγένετο γίνομαι
+35:18 C- -------- δὲ δέ
+35:18 P- -------- ἐν ἐν
+35:18 RA ----DSN- τῷ ὁ
+35:18 V- -PAN---- ἀφιέναι ἀφίημι
+35:18 RP ----ASF- αὐτὴν αὐτός
+35:18 RA ----ASF- τὴν ὁ
+35:18 N- ----ASF- ψυχήν ψυχή
+35:18 V- 3IAI-S-- ἀπέθνῃσκεν ἀποθνήσκω
+35:18 C- -------- γάρ γάρ
+35:18 V- 3AAI-S-- ἐκάλεσεν καλέω
+35:18 RA ----ASN- τὸ ὁ
+35:18 N- ----ASN- ὄνομα ὄνομα
+35:18 RP ----GSM- αὐτοῦ αὐτός
+35:18 N- ----NSM- Υἱὸς Υἱός  # corpus the name, where υἱός at 4:26 is the common noun  # module lemma υἱός — the name keeps the capital Rahlfs prints it with, as Σκηναί does at 33:17
+35:18 N- ----GSF- ὀδύνης ὀδύνη
+35:18 RP ----GS-- μου ἐγώ  # module lemma μου, the form itself — ἐγώ is the dictionary form
+35:18 RA ----NSM- ὁ ὁ
+35:18 C- -------- δὲ δέ
+35:18 N- ----NSM- πατὴρ πατήρ
+35:18 V- 3AAI-S-- ἐκάλεσεν καλέω
+35:18 RP ----ASM- αὐτὸν αὐτός
+35:18 N- ----ASM- Βενιαμιν Βενιαμίν
+35:19 V- 3AAI-S-- ἀπέθανεν ἀποθνήσκω
+35:19 C- -------- δὲ δέ
+35:19 N- ----NSF- Ραχηλ Ῥαχήλ
+35:19 C- -------- καὶ καί
+35:19 V- 3API-S-- ἐτάφη θάπτω
+35:19 P- -------- ἐν ἐν
+35:19 RA ----DSF- τῇ ὁ
+35:19 N- ----DSF- ὁδῷ ὁδός
+35:19 N- ----GS-- Εφραθα Εφραθα
+35:19 RD ----NSF- αὕτη οὗτος
+35:19 V- 3PAI-S-- ἐστὶν εἰμί
+35:19 N- ----NS-- Βηθλεεμ Βηθλέεμ
+35:20 C- -------- καὶ καί
+35:20 V- 3AAI-S-- ἔστησεν ἵστημι
+35:20 N- ----NSM- Ιακωβ Ἰακώβ
+35:20 N- ----ASF- στήλην στήλη
+35:20 P- -------- ἐπὶ ἐπί
+35:20 RA ----GSN- τοῦ ὁ
+35:20 N- ----GSN- μνημείου μνημεῖον
+35:20 RP ----GSF- αὐτῆς αὐτός
+35:20 RD ----NSF- αὕτη οὗτος
+35:20 V- 3PAI-S-- ἐστὶν εἰμί
+35:20 N- ----NSF- στήλη στήλη
+35:20 N- ----GSN- μνημείου μνημεῖον
+35:20 N- ----GSF- Ραχηλ Ῥαχήλ
+35:20 P- -------- ἕως ἕως
+35:20 RA ----GSF- τῆς ὁ
+35:20 D- -------- σήμερον σήμερον
+35:20 N- ----GSF- ἡμέρας ἡμέρα
+35:22 V- 3AMI-S-- Ἐγένετο γίνομαι
+35:22 C- -------- δὲ δέ
+35:22 C- -------- ἡνίκα ἡνίκα
+35:22 V- 3AAI-S-- κατῴκησεν κατοικέω
+35:22 N- ----NSM- Ισραηλ Ἰσραήλ
+35:22 P- -------- ἐν ἐν
+35:22 RA ----DSF- τῇ ὁ
+35:22 N- ----DSF- γῇ γῆ
+35:22 RD ----DSF- ἐκείνῃ ἐκεῖνος
+35:22 V- 3API-S-- ἐπορεύθη πορεύομαι
+35:22 N- ----NSM- Ρουβην Ῥουβήν
+35:22 C- -------- καὶ καί
+35:22 V- 3API-S-- ἐκοιμήθη κοιμάω
+35:22 P- -------- μετὰ μετά
+35:22 N- ----GSF- Βαλλας Βαλλα
+35:22 RA ----GSF- τῆς ὁ
+35:22 N- ----GSF- παλλακῆς παλλακή
+35:22 RA ----GSM- τοῦ ὁ
+35:22 N- ----GSM- πατρὸς πατήρ
+35:22 RP ----GSM- αὐτοῦ αὐτός
+35:22 C- -------- καὶ καί
+35:22 V- 3AAI-S-- ἤκουσεν ἀκούω
+35:22 N- ----NSM- Ισραηλ Ἰσραήλ
+35:22 C- -------- καὶ καί
+35:22 A- ----NSN- πονηρὸν πονηρός
+35:22 V- 3API-S-- ἐφάνη φαίνω
+35:22 P- -------- ἐναντίον ἐναντίον
+35:22 RP ----GSM- αὐτοῦ αὐτός
+35:22 V- 3IAI-P-- Ἦσαν εἰμί
+35:22 C- -------- δὲ δέ
+35:22 RA ----NPM- οἱ ὁ
+35:22 N- ----NPM- υἱοὶ υἱός
+35:22 N- ----GSM- Ιακωβ Ἰακώβ
+35:22 A- ----NPM- δώδεκα δώδεκα  # module M, no features — MorphGNT gives δώδεκα case, number and gender like any adjective
+35:23 N- ----NPM- υἱοὶ υἱός
+35:23 N- ----GSF- Λειας Λεια
+35:23 A- ----NSC- πρωτότοκος πρωτότοκος
+35:23 N- ----GSM- Ιακωβ Ἰακώβ
+35:23 N- ----NSM- Ρουβην Ῥουβήν
+35:23 N- ----NSM- Συμεων Συμεών
+35:23 N- ----NSM- Λευι Λευί  # module Λευΐ — Λευί, as MorphGNT accents it
+35:23 N- ----NSM- Ιουδας Ἰούδας
+35:23 N- ----NSM- Ισσαχαρ Ἰσσαχάρ
+35:23 N- ----NSM- Ζαβουλων Ζαβουλών
+35:24 N- ----NPM- υἱοὶ υἱός
+35:24 C- -------- δὲ δέ
+35:24 N- ----GSF- Ραχηλ Ῥαχήλ
+35:24 N- ----NSM- Ιωσηφ Ἰωσήφ
+35:24 C- -------- καὶ καί
+35:24 N- ----NSM- Βενιαμιν Βενιαμίν
+35:25 N- ----NPM- υἱοὶ υἱός
+35:25 C- -------- δὲ δέ
+35:25 N- ----GSF- Βαλλας Βαλλα
+35:25 N- ----GSF- παιδίσκης παιδίσκη
+35:25 N- ----GSF- Ραχηλ Ῥαχήλ
+35:25 N- ----NSM- Δαν Δαν
+35:25 C- -------- καὶ καί
+35:25 N- ----NSM- Νεφθαλι Νεφθαλι  # module lemma Νεφθαλείμ — Νεφθαλι, which is not the Νεφθαλίμ of the New Testament
+35:26 N- ----NPM- υἱοὶ υἱός
+35:26 C- -------- δὲ δέ
+35:26 N- ----GSF- Ζελφας Ζελφα
+35:26 N- ----GSF- παιδίσκης παιδίσκη
+35:26 N- ----GSF- Λειας Λεια
+35:26 N- ----NSM- Γαδ Γάδ
+35:26 C- -------- καὶ καί
+35:26 N- ----NSM- Ασηρ Ἀσήρ
+35:26 RD ----NPM- οὗτοι οὗτος
+35:26 N- ----NPM- υἱοὶ υἱός
+35:26 N- ----GSM- Ιακωβ Ἰακώβ
+35:26 RR ----NPM- οἳ ὅς
+35:26 V- 3AMI-P-- ἐγένοντο γίνομαι
+35:26 RP ----DSM- αὐτῷ αὐτός
+35:26 P- -------- ἐν ἐν
+35:26 N- ----DSF- Μεσοποταμίᾳ Μεσοποταμία
+35:26 RA ----GSF- τῆς ὁ
+35:26 N- ----GSF- Συρίας Συρία
+35:27 V- 3AAI-S-- Ἦλθεν ἔρχομαι
+35:27 C- -------- δὲ δέ
+35:27 N- ----NSM- Ιακωβ Ἰακώβ
+35:27 P- -------- πρὸς πρός
+35:27 N- ----ASM- Ισαακ Ἰσαάκ
+35:27 RA ----ASM- τὸν ὁ
+35:27 N- ----ASM- πατέρα πατήρ
+35:27 RP ----GSM- αὐτοῦ αὐτός
+35:27 P- -------- εἰς εἰς
+35:27 N- ----AS-- Μαμβρη Μαμβρη
+35:27 P- -------- εἰς εἰς
+35:27 N- ----ASF- πόλιν πόλις
+35:27 RA ----GSN- τοῦ ὁ
+35:27 N- ----GSN- πεδίου πεδίον
+35:27 RD ----NSF- αὕτη οὗτος
+35:27 V- 3PAI-S-- ἐστὶν εἰμί
+35:27 N- ----NS-- Χεβρων Χεβρων
+35:27 P- -------- ἐν ἐν
+35:27 N- ----DSF- γῇ γῆ
+35:27 N- ----GS-- Χανααν Χανάαν  # module lemma Χαναάν — Χανάαν, as MorphGNT files it
+35:27 D- -------- οὗ οὗ
+35:27 V- 3AAI-S-- παρῴκησεν παροικέω
+35:27 N- ----NSM- Αβρααμ Ἀβραάμ
+35:27 C- -------- καὶ καί
+35:27 N- ----NSM- Ισαακ Ἰσαάκ
+35:28 V- 3AMI-P-- ἐγένοντο γίνομαι
+35:28 C- -------- δὲ δέ
+35:28 RA ----NPF- αἱ ὁ
+35:28 N- ----NPF- ἡμέραι ἡμέρα
+35:28 N- ----GSM- Ισαακ Ἰσαάκ
+35:28 RR ----APF- ἃς ὅς
+35:28 V- 3AAI-S-- ἔζησεν ζάω
+35:28 N- ----NPN- ἔτη ἔτος
+35:28 A- ----NPN- ἑκατὸν ἑκατόν  # module M, no features — MorphGNT gives ἑκατόν case, number and gender like any adjective
+35:28 A- ----NPN- ὀγδοήκοντα ὀγδοήκοντα  # module M, no features — MorphGNT gives ὀγδοήκοντα case, number and gender like any adjective
+35:29 C- -------- καὶ καί
+35:29 V- -AAPNSM- ἐκλιπὼν ἐκλείπω
+35:29 V- 3AAI-S-- ἀπέθανεν ἀποθνήσκω
+35:29 C- -------- καὶ καί
+35:29 V- 3API-S-- προσετέθη προστίθημι
+35:29 P- -------- πρὸς πρός
+35:29 RA ----ASN- τὸ ὁ
+35:29 N- ----ASN- γένος γένος
+35:29 RP ----GSM- αὐτοῦ αὐτός
+35:29 A- ----NSMC πρεσβύτερος πρεσβύτερος
+35:29 C- -------- καὶ καί
+35:29 A- ----NSC- πλήρης πλήρης
+35:29 N- ----GPF- ἡμερῶν ἡμέρα
+35:29 C- -------- καὶ καί
+35:29 V- 3AAI-P-- ἔθαψαν θάπτω
+35:29 RP ----ASM- αὐτὸν αὐτός
+35:29 N- ----NSM- Ησαυ Ἠσαῦ
+35:29 C- -------- καὶ καί
+35:29 N- ----NSM- Ιακωβ Ἰακώβ
+35:29 RA ----NPM- οἱ ὁ
+35:29 N- ----NPM- υἱοὶ υἱός
+35:29 RP ----GSM- αὐτοῦ αὐτός

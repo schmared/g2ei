@@ -335,6 +335,19 @@ stays the neuter adjective as MorphGNT files it, ὅτε stays C-, βόας stay
 imperatives at 34:9 and 34:10, τὴν παῖδα feminine at 34:12, ἐν τούτῳ neuter three times, and τῶν
 ἐγχωρίων masculine at 34:1.
 
+### What it found in Genesis 35
+
+Seventeen disagreements over 592 words, and the second pass was right about thirteen. It caught
+five names left accusative from an earlier chapter where this one has them nominative — Ισσαχαρ and
+Ζαβουλων at 35:23, Νεφθαλι at 35:25, Γαδ and Ασηρ at 35:26 — and ἔτη ἑκατὸν ὀγδοήκοντα at 35:28,
+which is the predicate of ἐγένοντο, as 25:7 and 25:17 already had it. It was right too that Βαιθηλ
+is accusative after the active ἐκάλεσεν at 35:7 and 35:15, where the corpus has the nominative only
+after the passive (11:9, 17:15), and accusative with τὸν τόπον at 35:1, as Συχεμ is genitive with
+τοῦ τόπου at 12:6; and that αὐτῶν at 35:5 is masculine, of the men and not the cities. Three of its
+lemma corrections came from the brief's own list of names the New Testament accents: Βενιαμίν,
+Βηθλέεμ and Ἰούδας. The four that went the other way were διασῴζω, which keeps the iota subscript
+the text prints, and the three Βαιθηλ readings the module then settled.
+
 ## The brief
 
 Copy everything below the rule into a new agent. Replace `<BOOK NAME>`, `<CHAPTER>`,
