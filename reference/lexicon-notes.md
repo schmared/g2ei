@@ -646,8 +646,13 @@ the same ground as `the sixth` and `the seventh`: one sense each, so no range to
   names the labour, not the soreness. 34:25.
 - τραυματίας — Middle Liddell has nothing; LSJ gives *wounded man* and *corpse of one slain*. 34:27.
 - ὀλιγοστός — *one out of a few*, the superlative form of ὀλίγος. 34:30.
-- βοῦς — feminine in the accusative through the corpus, as at 18:7, 32:8 and 32:16, though the
-  nominative plural βόες is masculine: one lemma, two genders, each fixed by its form. 34:28.
+- βοῦς — a noun of common gender: LSJ heads it `βοῦς ... ὁ and ἡ`, and Middle Liddell names no gender
+  at all. So the lemma has no gender of its own and each occurrence takes what the text marks — the
+  article first (τὰς βόας 18:7 feminine, τοὺς βόας 32:8 and 34:28 masculine, αἱ βόες 33:13 feminine),
+  then a contrast beside it (βόας τεσσαράκοντα against ταύρους δέκα at 32:16, so cows against bulls).
+  Where nothing marks it (13:5, 26:14, 30:43, 32:6) the corpus keeps the masculine. The gender never
+  reaches the reading text: the headword is `cow` either way, since it is the entry's first English
+  translation — *a bullock, bull, ox* stands inside the Latin, which is skipped.
 - One sense each in GEN 34, and so plain text: ἀδελφή `sister`; ἀρσενικός `male`; παρασιωπάω
   `passed over in silence`; αἰχμαλωτεύω `took prisoner`; and the numerals.
 

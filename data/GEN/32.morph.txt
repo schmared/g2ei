@@ -194,7 +194,7 @@
 32:8 RP ----GSM- αὐτοῦ αὐτός
 32:8 C- -------- καὶ καί
 32:8 RA ----APM- τοὺς ὁ
-32:8 N- ----APF- βόας βοῦς  # module APM — βοῦς feminine, as the corpus has had it
+32:8 N- ----APM- βόας βοῦς  # corpus masculine, by τοὺς beside it, where τὰς βόας at 18:7 is feminine — βοῦς is of common gender, ὁ and ἡ
 32:8 C- -------- καὶ καί
 32:8 RA ----APN- τὰ ὁ
 32:8 N- ----APN- πρόβατα πρόβατον
@@ -356,7 +356,7 @@
 32:16 N- ----APN- παιδία παιδίον
 32:16 RP ----GPF- αὐτῶν αὐτός  # module GPM — the camels are feminine
 32:16 A- ----APN- τριάκοντα τριάκοντα  # module M, no features — MorphGNT gives τριάκοντα case, number and gender like any adjective
-32:16 N- ----APF- βόας βοῦς  # module APM — βοῦς feminine, as the corpus has had it
+32:16 N- ----APF- βόας βοῦς  # module APM — the cows, counted against ταύρους δέκα beside them
 32:16 A- ----APF- τεσσαράκοντα τεσσαράκοντα  # module M, no features — MorphGNT gives τεσσαράκοντα case, number and gender like any adjective
 32:16 N- ----APM- ταύρους ταῦρος
 32:16 A- ----APM- δέκα δέκα  # module M, no features — MorphGNT gives δέκα case, number and gender like any adjective
