@@ -2394,7 +2394,7 @@ the same ground as `the sixth` and `the seventh`: one sense each, so no range to
 | γαμβρός | `of the ones connected by marriage` | `of the ones connected by marriage, of the sons-in-law, of the brothers-in-law and sisters' husbands, of the wives' brothers, of the fathers-in-law, of the bridegrooms and wooers and suitors` | 19:14 |
 | γαμβρός | `ones connected by marriage` | `ones connected by marriage, sons-in-law, brothers-in-law and sisters' husbands, wives' brothers, fathers-in-law, bridegrooms and wooers and suitors` | 19:12 |
 | γαμβρός | `the ones connected by marriage` | `the ones connected by marriage, the sons-in-law, the brothers-in-law and sisters' husbands, the wives' brothers, the fathers-in-law, the bridegrooms and wooers and suitors` | 19:14 |
-| γῆ | `to the earth` | `to the land, to the dry ground, to the terrestrial realm` | 19:31 |
+| γῆ | `to the earth` | `to the earth, to the land, to the ground` | 19:31 |
 | δέομαι | `I am in want` | `I am in want and need, I stand in need of, I ask for and from, I beg` | 19:18 |
 | δεῦρο | `hither` | `hither, here and on and come on, up to this point, until now and up to this time and hitherto` | 19:32 |
 | διασῴζω | `to be preserved through` | `to be preserved through, to be preserved and maintained, to be kept in mind, to come safe through and arrive in safety, to recover` | 19:19 |
@@ -3078,8 +3078,15 @@ context, say so in the notes.
 ### ποιέω — aorist
 
 - **headword:** `made` — Middle Liddell, first sense *to make*; aorist active, 3rd singular.
-- **chain:** `fashioned, wrought, manufactured, produced, performed, and brought to a finished and accomplished state`
+- **chain:** `made, did, produced, created`
 - **used:** GEN 1:1
+
+  Middle Liddell's first three senses: *to make*, *to do*, *to make, produce, create*.
+  The chain read `fashioned, wrought, manufactured, produced, performed, and brought to a
+  finished and accomplished state` from the first draft until 2026-09-18. Not one of
+  *fashioned*, *wrought*, *manufactured* or *performed* is in the entry, and CLAUDE.md's
+  own worked example gives ποιέω *to make* → ἐποίησεν *made*. The rest of the corpus had
+  already derived it: every form but the aorist read `make, do, produce, create`.
 
 Followed by the aorist formula as **plain text**: `— one completed act seen whole, not a
 process observed in progress —`. The formula is grammar, not definition, so it sits outside
@@ -3895,19 +3902,33 @@ panel.
 ### οὐρανός
 
 - **headword:** `the heaven` — Middle Liddell, first sense *heaven*; articular.
-- **chain:** `the vaulted arch, the sky-expanse, the region above and over`
+- **chain:** `the heaven, the vault, the firmament and the sky`
 - **used:** GEN 1:1
+
+  Senses I, I.1 and I.1's second translation. The entry's other translations are quoted
+  idioms — πύλαι οὐρανοῦ *Heavengate*, πρὸς οὐρανὸν βιβάζειν *to exalt to heaven* with its
+  Latin *evehere ad Deos* — and Uranus, the god. They are in `NOT_SENSES`. The chain read
+  `the vaulted arch, the sky-expanse, the region above and over` until 2026-09-18; none of
+  those three phrases is in the entry, and the 23 genitives already read the derived way.
 
 Singular in the LXX against Hebrew dual/plural *šāmayim*. Flag `divergence`.
 
 ### γῆ
 
 - **headword:** `the earth` — Middle Liddell, first sense *earth*; articular.
-- **chain (full):** `the land, the dry ground, the soil, the territory, the terrestrial realm as the counterpart-below`
-- **short:** `the land, the dry ground, the terrestrial realm`
-- **used:** GEN 1:1 (full), GEN 1:2 (short)
+- **chain:** `the earth, the land, the ground`
+- **used:** GEN 1:1
 
-`as the counterpart-below` is used only where γῆ is paired with οὐρανός.
+  Senses I (*earth*, *land*) and III (*ground*). κατὰ γῆν *on land, by land* and γῆν πρὸ
+  γῆς *from land to land* are idioms the entry quotes, not senses, and are in
+  `NOT_SENSES`. Anarthrous γῆ reads `earth, land, ground`: the articles follow the Greek,
+  not the lexicon's phrasing of its own glosses.
+
+  The chain read `the land, the dry ground, the terrestrial realm` — and in GEN 1:1 a
+  longer `…the soil, the territory, the terrestrial realm as the counterpart-below` —
+  until 2026-09-18. *Dry*, *terrestrial realm*, *soil*, *territory* and *counterpart-below*
+  are none of them in the entry, and the headword `the earth` did not stand at the head of
+  its own chain. 178 units across every chapter carried it.
 
 ### σκότος
 
@@ -4780,7 +4801,7 @@ it is a child; τρίβολος is a spiked iron for laming horses before it is 
 | --- | --- | --- | --- |
 | γένεσις (pl.) | `the origins` · `origins` | the chain of GEN 6:9, with and without the article | 10:1, 10:32 |
 | ἔθνος (pl.) | `of the numbers of people accustomed to live together` · `in the …` · `the …` | `of the numbers of people accustomed to live together, of the companies and bodies of men, of the hosts, of the swarms and flocks, of the nations and peoples, of the nations and gentiles, of the special classes, of the castes and tribes, of the sexes`, in the form — *a nation* is sense 2; *Gentiles* lower case | 10:5, 10:20, 10:31, 10:32 |
-| γῆ with ἐν | `in the earth` | `within, inside of, and by means of the land, the dry ground, the terrestrial realm` | 10:5, 10:10 |
+| γῆ with ἐν | `in the earth` | `within, inside of, and by means of the earth, the land, the ground` | 10:5, 10:10 |
 | γλῶσσα | `tongue` · `tongues` | `tongue, tongue as the organ of speech, tongue and language, mouthpiece of a pipe`, in the number | 10:5, 10:20, 10:31 |
 | φυλή (pl.) | `in the races` · `the races` | `within, inside of, and by means of the races, the tribes, the bodies united by ties of blood and descent, the clans, the tribes by local habitation, the hundreds and counties, the contingents furnished by a tribe, the brigades` | 10:5, 10:18, 10:20, 10:31, 10:32 |
 | γίγας (sg.) | `giant` | `giant, son of Gaia, mighty` — the chain of GEN 6:4 in the singular | 10:8, 10:9 |

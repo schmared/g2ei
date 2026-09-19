@@ -290,7 +290,14 @@ NOT_SENSES = {
     "o)/noma": {"by name"},                     # ὀνόματι — one construction
     "poie/w": {"of"},                           # a scrap
     "kai/": {"que"},                            # Latin
-    "gh=": {"ubi terrarum, where in (in what quarter of) the world, where on earth"},  # ποῦ γῆς
+    # κατὰ γῆν and γῆν πρὸ γῆς are idioms the entry quotes, not senses of the noun;
+    # ποῦ γῆς likewise.
+    "gh=": {"ubi terrarum, where in (in what quarter of) the world, where on earth",
+            "on land, by land", "from land to land"},
+    # πύλαι οὐρανοῦ and πρὸς οὐρανὸν βιβάζειν are quoted idioms, evehere ad Deos is
+    # the Latin of the second, and Uranus is the god, not the sky.
+    "ou)rano/s": {"Heavengate", "to exalt to heaven", "evehere ad Deos", "on high",
+                  "Uranus"},
     "sko/tos": {"nocte premere"},               # Latin
     "e)pa/nw": {"part", "upper"},               # scraps of "the upper part"
     "o(/ti": {"knowing, thinking", "saying",    # ὅτι with a participle — constructions
