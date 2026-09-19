@@ -11,7 +11,7 @@ uses it.
 
 Each entry gives a **headword** and a **chain**. In a verse's `reading` they are one unit:
 
-    [[headword|chain]]
+    [[headword|chain|lemma]]
 
 The unanchored panel shows the chain alone; the anchored panel shows `headword — chain —`,
 shaded. There is one chain per entry, not one per panel.
@@ -5152,5 +5152,47 @@ in 2:10, and Αδαμ runs through 2:16–23.
 - no em dash inside a chain
 - `BANNED_PHRASES` — seeded with `face of the waters` and `face of the deep` (GEN 1:2)
 
+- every unit names a Greek word its own verse holds — checked against the chapter's
+  morphology, so a unit cannot claim a word that is not there
+- one word in one form reads one way: two units sharing a lemma and a headword carry the
+  same number of senses, concord and tense aside
+
 It does not yet check that a headword matches its recorded lexicon sense, or that a recurring
 chain matches its entry here. Both are still enforced by reading this file first.
+
+---
+
+## The lemma in the data
+
+Each unit carries the Greek word it opens, as a third field. It is never printed.
+
+Before it was recorded, the chain check had to work out which word a unit rendered by
+looking the unit up in the table above — so it saw 3,480 of the corpus's 9,972 units and
+was blind to the rest. That is the wrong two-thirds: a chain that has drifted is by
+definition a chain this file does not declare. With the lemma recorded the check reads
+every unit, and the first full pass found 16 drifted groups and 103 units naming a word
+their verse does not hold.
+
+Most of those 103 named a near neighbour of the right word and only the lemma was wrong —
+καθά for καθάπερ, ἕνεκα for εἵνεκα, ἄρα for ἆρα, ἀποκρίνω for ἀποκρίνομαι. The rest
+carried another word's chain outright, and the reading said what the Greek does not:
+
+| ref | read | the word there | now reads |
+| --- | --- | --- | --- |
+| GEN 31:23, 31:25 | `took down` | κατέλαβεν, καταλαμβάνω | `seized upon` |
+| GEN 27:33 | `having carried out of` | εἰσήνεγκεν, εἰσφέρω | `having carried into` |
+| GEN 34:3 | `loved` (φιλέω) | ἠγάπησεν, ἀγαπάω | `treated with affection` |
+| GEN 34:12 | `the maid` (παρθένος) | τὴν παῖδα, παῖς | `the child` |
+| GEN 30:11 | `named` (ὀνομαστός) | ἐπωνόμασεν, ἐπονομάζω | `gave a surname and named` |
+| GEN 26:12 and 10 more | `that` (ἵνα) | ἐκείνῃ, ἐκεῖνος | `that, the one there, the more remote` |
+| GEN 27:11 and 6 more | `man` (ἄνθρωπος) | ἀνήρ | `a man, a man in the prime of life` |
+| GEN 28:19 / 29:26 / 32:4 | `before` (πρό) | πρότερος / πρίν / ἔμπροσθεν | each its own |
+
+### Prepositions carry their case
+
+Middle Liddell gives each case its own section, and CLAUDE.md takes a preposition's sense
+from the case it governs, so μετά with a genitive and μετά with an accusative are two
+entries and not one chain that drifted. The unit names the case: `μετά + genitive`.
+Recording it found four διά units and one περί unit carrying the other case's chain.
+GEN 24:11 is the one place with no case to read: τὸ πρὸς ὀψέ, *toward evening*, governs an
+adverb, and the neuter article makes it the accusative section's time expression.

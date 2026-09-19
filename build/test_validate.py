@@ -203,8 +203,12 @@ NEGATIVE = [
     ("fields   flag not in vocabulary",  lambda: run(V.check_fields, mut(GEN, [0, "notes", 0, "flag"], "typo"))),
     ("fields   malformed unit (no |)",   lambda: run(V.check_fields, mut(GEN, [0, "reading"], "[[made]] x"))),
     ("fields   unit with empty chain",   lambda: run(V.check_fields, mut(GEN, [0, "reading"], "[[made| ]] x"))),
+    ("fields   unit with no lemma",     lambda: run(V.check_fields, mut(GEN, [0, "reading"], "[[made|a, b]] x"))),
+    ("unit wds unit claims a word the verse lacks",
+                                         lambda: run(V.check_unit_words, "GEN", 1,
+                                                     mut(GEN, [0, "reading"], "[[made|a, b|λαγώς]] x"))),
     ("fields   printed not a list",      lambda: run(V.check_fields, mut(GEN, [0, "printed"], "τοῦτου"))),
-    ("fields   em dash inside a chain",  lambda: run(V.check_fields, mut(GEN, [0, "reading"], "[[made|a — b]] x"))),
+    ("fields   em dash inside a chain",  lambda: run(V.check_fields, mut(GEN, [0, "reading"], "[[made|a — b|ποιέω]] x"))),
     ("fields   unbalanced brackets",     lambda: run(V.check_fields, mut(GEN, [0, "reading"], "[[made|a x"))),
     ("fields   dangling [[name:…]]",     lambda: run(V.check_fields, mut(GEN, [0, "reading"], "x [[name:Ἀβραάμ]]"))),
     ("fields   [[flag]] in the reading", lambda: run(V.check_fields, mut(GEN, [0, "reading"], "x [[flag]]"))),
@@ -214,9 +218,9 @@ NEGATIVE = [
     ("names    re-glossed in chapter",   lambda: run(V.check_names, JHN + [dict(JHN[2], ref="JHN 1:15")])),
     ("names    speech word not capital", lambda: run(V.check_names, mut(GEN, [0, "speech"], ["γῆν"]))),
     ("banned   in plain text",           lambda: run(V.check_banned, mut(GEN, [1, "reading"], "over the face of the waters"))),
-    ("banned   inside a chain",          lambda: run(V.check_banned, mut(GEN, [1, "reading"], "[[x|upon the Face Of The Deep]]"))),
+    ("banned   inside a chain",          lambda: run(V.check_banned, mut(GEN, [1, "reading"], "[[x|upon the Face Of The Deep|γῆ]]"))),
     ("anchors  listed headword as text", lambda: run(V.check_anchors, mut(GEN, [0, "reading"], "In the beginning, " + R11))),
-    ("anchors  own headword as text",    lambda: run(V.check_anchors, mut(GEN, [1, "reading"], "[[wind|a, b]] and the wind"))),
+    ("anchors  own headword as text",    lambda: run(V.check_anchors, mut(GEN, [1, "reading"], "[[wind|a, b|πνεῦμα]] and the wind"))),
     ("anchors  name written as plain text",
                                          lambda: run(V.check_anchors, mut(JHN, [2, "reading"], "there came to be John, [[name:Ἰωάννης]]"))),
     ("words    a recorded difference that is not there",
@@ -295,7 +299,7 @@ CONTROL = [
     ("greek    clean GEN",               lambda: run(V.check_greek, "GEN", 1, GEN)),
     ("greek    clean JHN",               lambda: run(V.check_greek, "JHN", 1, JHN)),
     ("anchors  headword repeats in its own chain",
-                                         lambda: run(V.check_anchors, mut(GEN, [1, "reading"], "[[wind|breath, wind, spirit]] x"))),
+                                         lambda: run(V.check_anchors, mut(GEN, [1, "reading"], "[[wind|breath, wind, spirit|πνεῦμα]] x"))),
     ("names    sentence-initial capital is not a name",
                                          lambda: run(V.check_names, mut(GEN, [0, "names"], []))),
     ("words    a chapter with no layer is a note, not a failure",
@@ -367,7 +371,7 @@ CONTROL = [
     ("words    a documented difference is a note, not a failure",
                                          lambda: run(V.check_analysis, "GEN", 2)),
     ("anchors  a chain may contain the conventional form",
-                                         lambda: run(V.check_anchors, mut(JHN, [2, "reading"], "[[a park|a park, the garden of John, paradise]] [[name:Ἰωάννης]]"))),
+                                         lambda: run(V.check_anchors, mut(JHN, [2, "reading"], "[[a park|a park, the garden of John, paradise|παράδεισος]] [[name:Ἰωάννης]]"))),
     ("names    a bare name prints its form with no parenthetical",
                                          lambda: holds(
                                              'class="paren"' not in render.reading(JHN[2]["reading"], [BARE], "anchored")
@@ -413,7 +417,7 @@ def derivation(verse):
     anchored = render.reading(verse["reading"], names, "anchored")
     unanchored = render.reading(verse["reading"], names, "unanchored")
     shaded = [re.sub(r"^— | —$", "", s) for s in SHADED.findall(anchored)]
-    chains = [c.strip() for _, c in render.UNIT.findall(verse["reading"])]
+    chains = [c.strip() for _, c, _ in render.UNIT.findall(verse["reading"])]
     ok = (len(shaded) == len(chains)
           and all(s.lower() == c.lower() for s, c in zip(shaded, chains))
           and all(c.lower() in unanchored.lower() for c in chains))

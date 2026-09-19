@@ -146,7 +146,7 @@ class Report:
 
 MARKER = re.compile(r"\[\[(.*?)\]\]")
 
-UNIT = re.compile(r"\[\[(?!name:)([^|\]]+)\|([^\]]+)\]\]")
+UNIT = re.compile(r"\[\[(?!name:)([^|\]]+)\|([^|\]]+)\|([^|\]]+)\]\]")
 
 
 def fold(word):
@@ -167,8 +167,8 @@ def spans(haystack, needle):
 
 
 def units(text):
-    """The [[anchor|chain]] units in a reading, as (anchor, chain)."""
-    return [(a.strip(), c.strip()) for a, c in render.UNIT.findall(text)]
+    """The [[anchor|chain|lemma]] units in a reading, as (anchor, chain, lemma)."""
+    return [(a.strip(), c.strip(), l.strip()) for a, c, l in render.UNIT.findall(text)]
 
 
 # The aspect formulas the project writes into a reading whole, the same words every
@@ -266,14 +266,15 @@ def check_fields(verses, rep):
             elif body == "flag":
                 rep.fail("fields", ref, "[[flag]] belongs in a note, not the reading")
             else:
-                anchor, bar, chain = body.partition("|")
-                if not bar or "|" in chain or not anchor.strip() or not chain.strip():
+                part = body.split("|")
+                if len(part) != 3 or not all(f.strip() for f in part):
                     rep.fail("fields", ref,
-                             "malformed unit [[%s]] — expected [[anchor|chain]]" % body[:40])
-                elif "—" in anchor or "—" in chain:
+                             "malformed unit [[%s]] — expected [[anchor|chain|lemma]]"
+                             % body[:40])
+                elif "—" in part[0] or "—" in part[1]:
                     rep.fail("fields", ref,
                              "unit %r contains an em dash; em dashes delimit chains in the "
-                             "anchored panel, so use a comma inside a chain" % anchor)
+                             "anchored panel, so use a comma inside a chain" % part[0])
         leftover = MARKER.sub("", text)
         if "[[" in leftover or "]]" in leftover:
             rep.fail("fields", ref, "unbalanced [[ ]] in reading")
@@ -440,23 +441,6 @@ def check_names(verses, rep):
 # 3. banned phrases
 # --------------------------------------------------------------------------
 
-def chain_lemmas():
-    """Which Greek word each unit renders.
-
-    reference/lexicon-notes.md records it for the units each chapter declared. The units
-    of GEN 1-3 and JHN 1 predate that convention and are named here.
-    """
-    by_unit, by_head = {}, {}
-    text = (ROOT / "reference/lexicon-notes.md").read_text(encoding="utf-8")
-    for lemma, head, chain in re.findall(r"^\| ([^|]+?) \| `([^`]*)` \| `([^`]*)`", text, re.M):
-        lemma = lemma.strip()
-        if lemma in ("?", "lemma"):
-            continue
-        by_unit[(head, chain)] = lemma
-        by_head.setdefault(head, set()).add(lemma)
-    return by_unit, by_head
-
-
 # The opening chapters were written before the lexicon was curated word by word, so their
 # chains were composed rather than derived, and several read one way there and another way
 # where a later chapter reuses them. Rewriting them is its own piece of work; until it is
@@ -487,17 +471,14 @@ def concord_key(chain):
 
 
 def chains_that_drifted(seen):
-    """(lemma, headword) -> {chain: ref}  ->  the groups whose range moved.
-
-    Kept apart from the file-reading so it can be fired at made-up data.
-    """
+    """(lemma, headword) -> {chain: ref}  ->  the groups whose range moved."""
     out = []
     for (lemma, head), chains in sorted(seen.items()):
         if len(chains) < 2 or len({concord_key(c) for c in chains}) < 2:
             continue
         # One word in one form may still be written two ways: singular beside plural,
-        # imperative beside aorist. That is the chain following the form. What it may not
-        # do is carry a different number of senses, which is a range gained or lost.
+        # imperative beside aorist. What it may not do is carry a different number
+        # of senses, which is a range gained or lost.
         if len({len([g for g in c.split(",") if g.strip()]) for c in chains}) < 2:
             continue
         out.append((lemma, head, sorted(chains.items(), key=lambda kv: kv[1])))
@@ -507,32 +488,25 @@ def chains_that_drifted(seen):
 def check_chains(targets, rep):
     """One word in one form reads one way.
 
-    A headword may head more than one entry — `take` is both λαμβάνω and δέχομαι, and
-    their chains share nothing after the first gloss — so the comparison is per lemma, not
-    per headword. Within one lemma and one headword the chain must be the same wherever it
-    stands, or the range the reader is given depends on which chapter they opened.
+    Each unit names the Greek word it opens, so the comparison is per lemma, not per
+    headword: `take` is both λαμβάνω and δέχομαι, and their chains share nothing after
+    the first gloss. Within one lemma and one headword the chain must be the same
+    wherever it stands, or the range the reader is given depends on which chapter they
+    opened.
     """
     before = rep.failed
-    by_unit, by_head = chain_lemmas()
     seen, backlog = {}, set()
     for book, chapter in targets:
         path = render.DATA / book / ("%d.json" % chapter)
         if not path.exists():
             continue
         for verse in json.loads(path.read_text(encoding="utf-8")):
-            for head, chain in UNIT.findall(verse["reading"]):
-                # only where the notes table names the lemma for this exact unit. A
-                # headword alone will not do: `take` is declared for δέχομαι and would
-                # then swallow λαμβάνω's `take`, which is a different word.
-                lemma = by_unit.get((head, chain))
-                if not lemma:
-                    continue
+            for head, chain, lemma in units(verse["reading"]):
                 if (book, chapter) in FIRST_DRAFT:
                     backlog.add((lemma, head))
                     continue
                 seen.setdefault((lemma, head), {}).setdefault(chain, verse["ref"])
-    drift = chains_that_drifted(seen)
-    for lemma, head, where in drift:
+    for lemma, head, where in chains_that_drifted(seen):
         rep.fail("chains", where[0][1],
                  "%s `%s` carries %d senses here and %d at %s — one word, one range"
                  % (lemma, head,
@@ -543,6 +517,36 @@ def check_chains(targets, rep):
                            "their chains were composed before the lexicon was curated word "
                            "by word, and are being rewritten" % len(backlog))
     rep.done("chains", "%d lemma-and-headword groups, no drift" % len(seen), before)
+
+
+def check_unit_words(book, chapter, verses, rep):
+    """Every unit opens a word the verse actually holds.
+
+    The lemma a unit names is checked against the chapter's own morphology, so a unit
+    cannot claim a word that is not there. Without this the lemma would be an assertion
+    nothing tests, and the chain check would be comparing whatever it was given.
+    """
+    before = rep.failed
+    path = render.DATA / book / ("%d.words.json" % chapter)
+    if not path.exists():
+        rep.note("unit words", "no word-by-word layer for this chapter yet")
+        return
+    held = {v["ref"]: {w["lemma"] for w in v["words"]}
+            for v in json.loads(path.read_text(encoding="utf-8")).get("verses", [])}
+    n = 0
+    for verse in verses:
+        there = held.get(verse["ref"])
+        if there is None:
+            continue
+        for head, chain, lemma in units(verse["reading"]):
+            n += 1
+            # a preposition's unit names the case it governs as well, because Middle
+            # Liddell gives each case its own section and the sense comes from there
+            if lemma.split(" + ")[0] not in there:
+                rep.fail("unit words", verse["ref"],
+                         "`%s` says it opens %s, which is not a word of this verse"
+                         % (head, lemma))
+    rep.done("unit words", "%d units name a word their verse holds" % n, before)
 
 
 def check_banned(verses, rep):
@@ -590,7 +594,7 @@ def check_anchors(verses, rep):
                          % (entry["anchored"], entry["greek"]))
 
         watch = {}
-        for anchor, _ in own:
+        for anchor, _, _ in own:
             watch.setdefault(anchor.lower(), "a unit in this verse")
         for item in ANCHORS:
             watch.setdefault(item["anchor"].lower(), item["lemma"])
@@ -1102,10 +1106,13 @@ def validate(book, chapter, rep):
         rep.fail("data", "%s %d" % (book, chapter), "file not found")
         return
     verses = json.loads(path.read_text(encoding="utf-8"))
+    before = rep.failed
     check_fields(verses, rep)
-    if rep.failed:
+    if rep.failed > before:
         # the remaining checks read `reading`; on a malformed file they would only
-        # repeat the same fault in other words
+        # repeat the same fault in other words. Counted from this chapter's own start:
+        # rep.failed is the whole run's tally, so testing it outright made one bad
+        # chapter skip every check of every chapter after it.
         return
     check_names(verses, rep)
     check_banned(verses, rep)
@@ -1114,6 +1121,7 @@ def validate(book, chapter, rep):
         check_morph_shape(book, chapter, rep)
         check_corpus(book, chapter, rep)
     check_words(book, chapter, verses, rep)
+    check_unit_words(book, chapter, verses, rep)
     check_greek(book, chapter, verses, rep)
 
 

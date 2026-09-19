@@ -179,16 +179,24 @@ the conventions drift between files and can't be checked mechanically.
       "text": "Aorist of ποιέω, the everyday verb for making. Hebrew bārā' in this stem never takes a human subject; ποιέω takes any subject at all. The exclusivity is not in the Greek."
     }
   ],
-  "reading": "[[in the beginning|within, inside of, and by means of the first moment...]], [[God|he who is God definitively...]], ...",
+  "reading": "[[in beginning|within, inside of, and by means of the first moment...|ἀρχή]], [[the God|he who is God definitively...|θεός]], ...",
   "names": []
 }
 ```
 
 `flag` is one of: `null`, `divergence`, `not in this text`, `name`, `variant`.
 
-`reading` marks each headword and its chain as `[[headword|chain]]` and each proper name as
+`reading` marks each unit as `[[headword|chain|lemma]]` and each proper name as
 `[[name:…]]`. `build/render.py` derives both the unanchored and the anchored text from it,
 so they cannot drift. Chains come from `/reference/lexicon-notes.md`.
+
+The **lemma** is the Greek word the unit opens. It is never printed — it is there so the
+checks can tell which word a unit renders instead of guessing from the English. Without it
+the chain check could only see the units `/reference/lexicon-notes.md` happened to declare,
+which is a third of them, and a chain that has drifted is exactly the chain the notes do
+not declare. Where a preposition governs more than one case, the case goes with it —
+`διά + genitive` — because Middle Liddell gives each case its own section and the sense
+comes from there.
 
 ## Working rhythm
 
@@ -216,6 +224,10 @@ so they cannot drift. Chains come from `/reference/lexicon-notes.md`.
 - every proper name in the Greek has a gloss on first occurrence in the chapter
 - no banned imported phrases (maintain a list; seed it with "face of the waters")
 - no headword stands bare — none written as plain text outside its unit
+- every unit names a Greek word its own verse holds, checked against the chapter's
+  morphology, so the lemma is not an assertion nothing tests
+- one word in one form reads one way: two units sharing a lemma and a headword carry
+  the same number of senses, concord and tense aside
 - the word-by-word layer, where there is one, still matches the verse's Greek
 - the project's own morphology is well-formed by its code's own grammar
 - that morphology agrees with itself across every chapter — a form keeps its dictionary

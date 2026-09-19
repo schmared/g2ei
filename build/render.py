@@ -101,7 +101,10 @@ def inline(text, flag=None):
     return out
 
 
-UNIT = re.compile(r"\[\[(?!name:)([^|\[\]]+)\|([^\[\]]+)\]\]")
+# A unit is [[headword|chain|lemma]]: what heads it, the range behind it, and the
+# Greek word it opens. The lemma is not printed — it is there so a check can tell
+# which word a unit renders without guessing.
+UNIT = re.compile(r"\[\[(?!name:)([^|\[\]]+)\|([^|\[\]]+)\|([^|\[\]]+)\]\]")
 NAME = re.compile(r"\[\[name:([^\]]+)\]\]")
 SENTENCE_START = re.compile(r"(?:^|[.!?]\s+)$")
 
