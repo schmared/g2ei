@@ -1414,7 +1414,7 @@ the same ground as `the sixth` and `the seventh`: one sense each, so no range to
 - φυλή — the tribes of 10:18, where 22:18 has ἔθνη, τὰ ἔθνη. 28:14.
 - ὡς — exclamatory here, *how fearful*; the unit is `as`, the adverb's first translation, since Middle
   Liddell gives the exclamation no separate gloss. 28:17.
-- θεοῦ without the article keeps 1:2's `God's own, divine in character`, and θεόν 17:7's qualitative
+- θεοῦ without the article keeps 1:2's `of everything that God is by nature, of deity in full and undiminished kind`, and θεόν 17:7's qualitative
   chain; Οἶκος θεοῦ, the Greek of Bêt-ʾĒl, is printed as a name with Rahlfs's capital. 28:17, 28:19, 28:21, 28:22.
 - πύλη — the chain of 19:1, `the one wing of a pair of double gates`. 28:17.
 - Two cognate accusatives: ηὔξατο εὐχήν, εὔχομαι with εὐχή, and δεκάτην ἀποδεκατώσω, as at 14:20. Each is
@@ -1439,7 +1439,7 @@ the same ground as `the sixth` and `the seventh`: one sense each, so no range to
 | εὔχομαι | `prayed` | `prayed, offered prayers, paid his vows, made a vow, prayed for` | 28:20 |
 | καθεύδω | `you lie down to sleep` | `you lie down to sleep, you sleep, you lie asleep and lie idle, you sleep and lie still and are at rest` | 28:13 |
 | καταβαίνω | `were stepping down` | `were stepping down, were going and coming down, were going down from, were dismounting, were coming down stairs, were going down from the inland parts to the sea, were coming to land and getting safe ashore, were going down into the arena, were coming down from the tribune, were coming to, were ending` | 28:12 |
-| κεφαλή | `of head` | `of head, of the whole person, of the life, of the top, of the source, of the crown` | 28:11, 28:18 |
+| κεφαλή | `of head` | `of head, of the life, of the top, of the brim, of the coping, of the source, of the crown and completion` | 28:11, 28:18 |
 | κλίμαξ | `ladder` | `ladder, stairs, scaling-ladder` | 28:12 |
 | λίθος | `of the stones` | `of the stones, of the precious stones, of the marbles` | 28:11 |
 | λαλέω | `I talked` | `I talked, I chatted, I prattled, I babbled, I said, I talked of, I spoke, I chattered, I chirped` | 28:15 |
@@ -3024,7 +3024,7 @@ without indefiniteness. Flag the fronting in the notes every time it occurs.
 ### θεοῦ — anarthrous genitive
 
 - **headword:** `of God` — genitive; Middle Liddell *God*; anarthrous.
-- **chain:** `God's own, divine in character`
+- **chain:** `of everything that God is by nature, of deity in full and undiminished kind`
 - **used:** GEN 1:2 (πνεῦμα θεοῦ — its own unit, after πνεῦμα)
 
 ### τὸν θεόν — accusative under πρός
@@ -3098,7 +3098,7 @@ the chain.
   lay upon*, which Perseus's markup splits into separate translations (*to bring, put* ·
   *lay upon*). Imperfect middle/passive, 3rd singular — one form in this tense — read passive, as
   the note reads it (*to be borne upon*).
-- **chain:** `was being borne along, carried over, swept upon, brought continuously to bear`
+- **chain:** `was being brought and put, was being laid upon, was being attacked and assailed, was being imputed, was being conferred and imposed upon, was being added to and increased, was being brought with, was being borne onwards`
 - **used:** GEN 1:2
 
 ### ἀποστέλλω — perfect passive participle
@@ -3892,7 +3892,7 @@ short form drops the precedence half only because JHN 1:2 restates JHN 1:1.
 
 - **headword:** `the word` — Middle Liddell, first sense *the word*; articular. Lowercase: no
   title capital.
-- **chain:** `the utterance, the spoken word, the thing-said, the account, the reckoning, the rationale, the reasoned discourse, the intelligible ordering by which a mind is expressed and by which that mind itself coheres`
+- **chain:** `the word, that by which the inward thought is expressed, the inward thought itself, language and talk, a word and a saying and a statement, an oracle, a saying and a maxim and a proverb, speech and discourse and conversation, report and repute, a tale and a story, a speech and an oration, that which is stated and a proposition and a principle, reason, account and consideration and esteem and regard, due relation and proportion and analogy`
 - **short:** `the utterance, the account`
 - **used:** JHN 1:1
 
@@ -3933,7 +3933,7 @@ Singular in the LXX against Hebrew dual/plural *šāmayim*. Flag `divergence`.
 ### σκότος
 
 - **headword:** `darkness` — Middle Liddell, first sense *darkness, gloom*; anarthrous.
-- **chain:** `obscurity, gloom, the privation and the absence of light`
+- **chain:** `darkness, gloom, the darkness of death`
 - **used:** GEN 1:2
 
 ### ἄβυσσος
@@ -3941,14 +3941,14 @@ Singular in the LXX against Hebrew dual/plural *šāmayim*. Flag `divergence`.
 - **headword:** `the great deep` — used as a noun (τῆς ἀβύσσου), so the first noun sense:
   Middle Liddell's third group, *the great deep, the abyss, bottomless pit*. The first two
   are the adjective (*with no bottom, bottomless*). Articular.
-- **chain:** `the bottomless, the depth without a floor to sound, the unfathomable and unmeasurable deep`
+- **chain:** `the great deep, the abyss, the bottomless pit, the bottomless and unfathomed, the unfathomable and enormous`
 - **used:** GEN 1:2
 
 ### πνεῦμα
 
 - **headword:** `blowing` — Middle Liddell, sense I, whose first translation is *a blowing*
   (it goes on: *a wind, blast*); anarthrous, so no article.
-- **chain:** `breath, wind, moving air, respiration, spirit`
+- **chain:** `blowing, a wind and blast, a breeze, influence, breathed air and breath, the ghost, that which is breathed forth and odour and scent, spirit, inspiration`
 - **used:** GEN 1:2 (followed by θεοῦ as its own unit)
 
 Lowercase *spirit*; the notes say why (GEN 1:2, *Capitals*). In the full lexicon *spirit*
@@ -3980,10 +3980,10 @@ points in this verse and must not appear in either reading text.**
 ### Adjectives at GEN 1:2
 
 - **ἀόρατος** — headword `unseen` (Middle Liddell, first sense *unseen, not to be seen,
-  invisible*); chain `unseeable, un-viewable, not presenting itself to the eye,
+  invisible*); chain `unseen, not to be seen, invisible, without sight` (was `unseeable, un-viewable, not presenting itself to the eye,
   imperceptible to sight`
 - **ἀκατασκεύαστος** — headword `not properly prepared` (no Middle Liddell entry; LSJ's first
-  sense, which LSJ follows with *unwrought, unformed*, citing this verse); chain `un-built-out, unfurnished, unequipped, unprovisioned, not fitted out with its
+  sense, which LSJ follows with *unwrought, unformed*, citing this verse); chain `not properly prepared, unwrought and unformed, chaos, unpolished and unartificial` (was `un-built-out, unfurnished, unequipped, unprovisioned, not fitted out with its
   appointments, lacking the constructed arrangement that a full outfitting would supply`
 
 Both stand under one `divergence` flag against Hebrew *tōhû wā-bōhû*. *Formless* is too
@@ -4390,9 +4390,9 @@ though both have the article; they were corrected when GEN 3:18 reused them.
 | ὄφις | `the serpent` | `the serpent, the snake` | 3:1, 3:4, 3:13 |
 | φρόνιμος (superl.) | `most in one's right mind` | `most in one's right mind, most in one's senses, most staid and unmoved and discreet, wisest, most sensible, most prudent` | 3:1 |
 | θηρίον (gen. pl.) | `of the wild animals` | `of the wild animals, of the beasts, of the savage beasts, of the game` | 3:1, 3:14 |
-| κτῆνος (gen. pl.) | `of the flocks and herds` | `of the flocks and herds, of the single beasts, of the oxen, of the sheep, of the beasts for riding` | 3:14 |
+| κτῆνος (gen. pl.) | `of the flocks and herds` | `of the flocks and herds, of the single beasts, of the beasts for riding` | 3:14 |
 | καρπός | `fruit` · `of the fruit` | `fruit, produce, returns, profits, result` | 3:2, 3:3, 3:6 |
-| ὀφθαλμός (pl.) | `the eyes` · `to the eyes` | `the eyes, the sight, the dearest and best, the buds` | 3:5, 3:6, 3:7 |
+| ὀφθαλμός (pl.) | `the eyes` · `to the eyes` | `the eyes, the dearest and best, the comfort, the buds` | 3:5, 3:6, 3:7 |
 | ἀρεστός | `acceptable` | `acceptable, pleasing` | 3:6 |
 | φύλλον (pl.) | `leaves` | `leaves, foliage, petals, herbs` | 3:7 |
 | συκῆ | `of fig-tree` | `of fig-tree, of fig` | 3:7 |
@@ -4405,7 +4405,7 @@ though both have the article; they were corrected when GEN 3:18 reused them.
 | ἡμέρα (pl.) | `the days` | `the days, the day-breaks, the times` | 3:14, 3:17 |
 | ἔχθρα | `hatred` | `hatred, enmity, hatred for and enmity to, feud, hostility` | 3:15 |
 | σπέρμα | `of that which is sown` | `of that which is sown, of the seed, of the germ and origin and element, of the offspring and issue, of the race and descent` | 3:15 |
-| κεφαλή | `head` | `head, the whole person, the life, the top, the source, the crown` | 3:15 |
+| κεφαλή | `head` | `head, the life, the top, the brim, the coping, the source, the crown and completion` | 3:15 |
 | πτέρνα | `heel` | `heel, the under part of the heel, the ham` | 3:15 |
 | λύπη (pl.) | `the pains of body` · `in pains of body` | `the pains of body, the distresses and sad plights, the pains of mind, the griefs` | 3:16, 3:17 |
 | στεναγμός | `the sighing` | `the sighing, the groaning, the moaning` | 3:16 |
@@ -4572,7 +4572,7 @@ it is a child; τρίβολος is a spiked iron for laming horses before it is 
 
 | lemma | headword | chain | used |
 | --- | --- | --- | --- |
-| κεφαλή (pl.) | `the heads` | `the heads, the whole persons, the lives, the tops, the sources, the crowns` — the chain of GEN 3:15 in the plural | 8:5 |
+| κεφαλή (pl.) | `the heads` | `the heads, the lives, the tops, the brims, the copings, the sources, the crowns and completions` — the chain of GEN 3:15 in the plural | 8:5 |
 | ὄρος (gen. pl.) | `of the mountains` | `of the mountains, of the hills` | 8:5 |
 | κόραξ | `the carrion-crow` | `the carrion-crow, the raven, the engine like a raven's beak for grappling ships, the hooked handle of a door, the instrument of torture` | 8:7 |
 | περιστερά | `the common pigeon` | `the common pigeon, the dove` | 8:8–12 |
@@ -5177,6 +5177,8 @@ in 2:10, and Αδαμ runs through 2:16–23.
   morphology, so a unit cannot claim a word that is not there
 - one word in one form reads one way: two units sharing a lemma and a headword carry the
   same number of senses, concord and tense aside
+- one case is one chain: a preposition has one form, so its chain cannot follow the
+  form. Within one lemma and one case it reads the same everywhere.
 
 It does not yet check that a headword matches its recorded lexicon sense, or that a recurring
 chain matches its entry here. Both are still enforced by reading this file first.

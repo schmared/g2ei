@@ -441,12 +441,6 @@ def check_names(verses, rep):
 # 3. banned phrases
 # --------------------------------------------------------------------------
 
-# The opening chapters were written before the lexicon was curated word by word, so their
-# chains were composed rather than derived, and several read one way there and another way
-# where a later chapter reuses them. Rewriting them is its own piece of work; until it is
-# done they are listed, so the check can fail on everything else.
-FIRST_DRAFT = {("GEN", 1), ("GEN", 2), ("GEN", 3), ("JHN", 1)}
-
 CONCORD = {"were": "was", "are": "is", "have": "has", "their": "his", "them": "him",
            "they": "he", "themselves": "himself", "herself": "himself", "itself": "himself",
            "oneself": "himself", "her": "his", "she": "he", "its": "his", "him": "his",
@@ -495,16 +489,13 @@ def check_chains(targets, rep):
     opened.
     """
     before = rep.failed
-    seen, backlog = {}, set()
+    seen = {}
     for book, chapter in targets:
         path = render.DATA / book / ("%d.json" % chapter)
         if not path.exists():
             continue
         for verse in json.loads(path.read_text(encoding="utf-8")):
             for head, chain, lemma in units(verse["reading"]):
-                if (book, chapter) in FIRST_DRAFT:
-                    backlog.add((lemma, head))
-                    continue
                 seen.setdefault((lemma, head), {}).setdefault(chain, verse["ref"])
     for lemma, head, where in chains_that_drifted(seen):
         rep.fail("chains", where[0][1],
@@ -512,11 +503,37 @@ def check_chains(targets, rep):
                  % (lemma, head,
                     len([g for g in where[0][0].split(",") if g.strip()]),
                     len([g for g in where[1][0].split(",") if g.strip()]), where[1][1]))
-    if backlog:
-        rep.note("chains", "%d units in GEN 1-3 and JHN 1 are held back from this check: "
-                           "their chains were composed before the lexicon was curated word "
-                           "by word, and are being rewritten" % len(backlog))
     rep.done("chains", "%d lemma-and-headword groups, no drift" % len(seen), before)
+
+
+def check_prepositions(targets, rep):
+    """A preposition does not inflect, so its chain cannot follow the form.
+
+    The chain check lets two units of one word read differently when the headword
+    differs, because the chain follows the form. A preposition has one form. Within one
+    lemma and one case its chain is therefore the same everywhere or it is drift, and the
+    case is what decides the sense: Middle Liddell gives each case its own section.
+    """
+    before = rep.failed
+    seen = {}
+    for book, chapter in targets:
+        path = render.DATA / book / ("%d.json" % chapter)
+        if not path.exists():
+            continue
+        for verse in json.loads(path.read_text(encoding="utf-8")):
+            for head, chain, lemma in units(verse["reading"]):
+                if " + " not in lemma:
+                    continue
+                seen.setdefault(lemma, {}).setdefault(chain, (head, verse["ref"]))
+    for lemma, chains in sorted(seen.items()):
+        if len(chains) < 2:
+            continue
+        where = sorted(chains.items(), key=lambda kv: kv[1][1])
+        rep.fail("prepositions", where[0][1][1],
+                 "%s reads `%s` here and `%s` at %s — a preposition has one form, so one "
+                 "case is one chain" % (lemma, where[0][1][0], where[1][1][0], where[1][1][1]))
+    rep.done("prepositions", "%d preposition-and-case groups, one chain each" % len(seen),
+             before)
 
 
 def check_unit_words(book, chapter, verses, rep):
@@ -1151,6 +1168,9 @@ def main():
     print("")
     print("chains")
     check_chains(targets, rep)
+
+    print("prepositions")
+    check_prepositions(targets, rep)
 
     print()
     if rep.failed:

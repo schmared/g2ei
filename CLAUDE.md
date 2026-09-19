@@ -228,6 +228,8 @@ comes from there.
   morphology, so the lemma is not an assertion nothing tests
 - one word in one form reads one way: two units sharing a lemma and a headword carry
   the same number of senses, concord and tense aside
+- one case is one chain: a preposition has one form, so its chain cannot follow the
+  form; within one lemma and one case it reads the same everywhere
 - the word-by-word layer, where there is one, still matches the verse's Greek
 - the project's own morphology is well-formed by its code's own grammar
 - that morphology agrees with itself across every chapter — a form keeps its dictionary
