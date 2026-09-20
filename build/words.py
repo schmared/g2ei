@@ -296,6 +296,19 @@ NOT_SENSES = {
     # full" — and the halves are not senses. A chain read them as "the numbers of
     # a body".
     "a)naplhro/w": {"to fill their", "full"},
+    # Middle Liddell files a city's institutions under its numerals: the boards of
+    # ten, thirty, forty and three hundred that governed Athens, the drachmae a
+    # thousand stands for, the tenth-day naming rite, the second prize, the quart.
+    # They are proper nouns of a constitution, as Uranus is of the sky, and a
+    # numeral is left with the number it is.
+    "de/ka": {"the Ten"},
+    "tria/konta": {"the council of thirty", "the Thirty", "the thirty tyrants"},
+    "tessara/konta": {"the Forty"},
+    "triako/sioi": {"the Three Hundred"},
+    "xi/lioi": {"a thousand drachmae"},
+    "de/katos": {"the tenth day after birth", "naming-day"},
+    "deu/teros": {"the second prize", "place"},
+    "te/tartos": {"a liquid measure", "quart)"},
     # GEN 36
     "h(gemoni/a": {"hegemony.", "imperium"},    # a repeat, and the Latin
     "ne/mw": {"due", "is freely bestowed", "portions", "is devoured"},
