@@ -226,8 +226,9 @@ comes from there.
 - no headword stands bare — none written as plain text outside its unit
 - every unit names a Greek word its own verse holds, checked against the chapter's
   morphology, so the lemma is not an assertion nothing tests
-- one word in one form reads one way: two units sharing a lemma and a headword carry
-  the same number of senses, concord and tense aside
+- one word in one form reads one way: of two units sharing a lemma and a headword,
+  neither says less than the other. Counting senses is not enough to see that — one
+  dropped inside an and-joined gloss leaves the commas where they were
 - one case is one chain: a preposition has one form, so its chain cannot follow the
   form; within one lemma and one case it reads the same everywhere
 - the word-by-word layer, where there is one, still matches the verse's Greek

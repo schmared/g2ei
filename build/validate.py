@@ -42,6 +42,7 @@ BANNED_PHRASES and ANCHORS are maintained editorial lists. They grow as chapters
 written; see the comments on each.
 """
 import argparse
+import collections
 import html
 import json
 import os
@@ -441,41 +442,117 @@ def check_names(verses, rep):
 # 3. banned phrases
 # --------------------------------------------------------------------------
 
-CONCORD = {"were": "was", "are": "is", "have": "has", "their": "his", "them": "him",
-           "they": "he", "themselves": "himself", "herself": "himself", "itself": "himself",
-           "oneself": "himself", "her": "his", "she": "he", "its": "his", "him": "his",
-           "he": "his", "it": "his", "our": "his", "us": "him", "we": "he",
-           "ourselves": "himself"}
+# Words a chain carries because of the form or the case it is in, not because the lexicon
+# gave them: auxiliaries, articles, the prepositions a case-ending forces into English,
+# and the pronouns that follow concord. Two chains that differ only in these are one word
+# written twice, which is the chain following the form — the point of it, not drift.
+GRAMMAR = {
+    "the", "a", "an", "of", "to", "in", "into", "on", "at", "by", "for", "with", "from",
+    "is", "are", "was", "were", "be", "been", "being", "am", "will", "would", "shall",
+    "should", "may", "might", "can", "could", "must", "have", "has", "had", "having",
+    "do", "does", "did", "let", "not", "and", "or", "that", "it", "its", "he", "him",
+    "his", "she", "her", "they", "them", "their", "we", "us", "our", "i", "my", "me",
+    "you", "your", "one", "ones", "oneself", "himself", "herself", "itself",
+    "themselves", "myself", "yourself", "yourselves", "ourselves", "who", "whom", "what",
+    "which", "this", "these", "those", "there", "so", "as", "own",
+}
+
+# English's irregular parts, so that a chain wearing the form the Greek calls for still
+# reads as the lexicon's own word: the entry says `take`, the chain says `took`.
+IRREGULAR = {
+    "took": "take", "taken": "take", "gave": "give", "given": "give", "went": "go",
+    "gone": "go", "came": "come", "made": "make", "brought": "bring", "stood": "stand",
+    "stole": "steal", "stolen": "steal", "felt": "feel", "held": "hold", "kept": "keep",
+    "left": "leave", "laid": "lay", "lain": "lie", "led": "lead", "said": "say",
+    "saw": "see", "seen": "see", "sent": "send", "sat": "sit", "slept": "sleep",
+    "spoke": "speak", "spoken": "speak", "paid": "pay", "ran": "run", "rose": "rise",
+    "risen": "rise", "sold": "sell", "sought": "seek", "taught": "teach", "told": "tell",
+    "thought": "think", "threw": "throw", "thrown": "throw", "understood": "understand",
+    "wore": "wear", "worn": "wear", "won": "win", "wrote": "write", "written": "write",
+    "knew": "know", "known": "know", "grew": "grow", "grown": "grow", "drew": "draw",
+    "drawn": "draw", "fell": "fall", "fallen": "fall", "found": "find", "got": "get",
+    "gotten": "get", "heard": "hear", "hid": "hide", "hidden": "hide", "bore": "bear",
+    "borne": "bear", "born": "bear", "began": "begin", "begun": "begin", "bound": "bind",
+    "bought": "buy", "built": "build", "caught": "catch", "chose": "choose",
+    "chosen": "choose", "drove": "drive", "driven": "drive", "ate": "eat", "eaten": "eat",
+    "forgot": "forget", "forgotten": "forget", "froze": "freeze", "hung": "hang",
+    "meant": "mean", "met": "meet", "lost": "lose", "shook": "shake", "shaken": "shake",
+    "shone": "shine", "shot": "shoot", "sang": "sing", "sank": "sink",
+    "sprang": "spring", "struck": "strike", "swore": "swear", "sworn": "swear",
+    "swept": "sweep", "tore": "tear", "torn": "tear", "woke": "wake",
+    "children": "child", "men": "man", "women": "woman", "feet": "foot",
+    "teeth": "tooth", "oxen": "ox", "geese": "goose", "mice": "mouse", "lives": "life",
+    "wives": "wife", "knives": "knife", "leaves": "leaf", "calves": "calf",
+    "halves": "half", "thieves": "thief", "loaves": "loaf", "selves": "self",
+}
+
+# The project's own wording for verbal aspect (CLAUDE.md). It is grammar written into the
+# text, not a sense the lexicon gave, so it is set aside like an auxiliary — a perfect
+# participle and an aorist one may share an English headword, and then only this differs.
+ASPECT = re.compile(r"\band (?:it )?(?:stands?|standing|remains?|remaining|continues?|"
+                    r"continuing|holds?|holding)\b(?![^,]*\bwith\b)[^,]*")
 
 
-def concord_key(chain):
-    """A chain with its concord levelled: was/were and himself/themselves read alike.
-
-    Two occurrences of one word in two forms — singular and plural — carry chains that
-    differ in concord and in nothing else. That is the chain following the form, which is
-    the point; it is not drift.
-    """
-    out = []
-    for token in re.findall(r"[a-z']+", chain.lower()):
-        token = CONCORD.get(token, token)
-        if len(token) > 3 and token.endswith("s"):
+def stem(token):
+    """One English word cut back to a stem an entry and a chain both reach."""
+    token = IRREGULAR.get(token, token)
+    for _ in range(2):
+        if len(token) > 5 and token.endswith(("ies", "ied")):
+            token = token[:-3] + "y"
+        elif len(token) > 4 and token.endswith("ing"):
+            token = token[:-3]
+        elif len(token) > 4 and token.endswith("ed"):
+            token = token[:-2]
+        elif len(token) > 4 and token.endswith("es"):
+            token = token[:-2]
+        elif len(token) > 3 and token.endswith("s") and not token.endswith("ss"):
             token = token[:-1]
-        out.append(token)
-    return tuple(out)
+        else:
+            break
+    if len(token) > 3 and token.endswith("e"):
+        token = token[:-1]
+    if len(token) > 3 and token[-1] == token[-2] and token[-1] not in "aeiou":
+        token = token[:-1]
+    return token
+
+
+def senses(chain):
+    """What a chain says, as a multiset, with what only the form put there set aside.
+
+    A multiset and not a set: μερίς reads `a part, a portion, … a part and division and
+    class`, and losing one of the two `part`s is a sense lost.
+    """
+    out = collections.Counter()
+    for token in re.findall(r"[a-zA-Z']+", ASPECT.sub("", chain).lower()):
+        if token in GRAMMAR:
+            continue
+        token = stem(token)
+        if token and token not in GRAMMAR:
+            out[token] += 1
+    return out
 
 
 def chains_that_drifted(seen):
-    """(lemma, headword) -> {chain: ref}  ->  the groups whose range moved."""
+    """(lemma, headword) -> {chain: ref}  ->  the groups that lost a sense.
+
+    One word in one form reads one way. A chain may still wear the form the Greek calls
+    for — singular beside plural, imperative beside aorist — and that is not drift. What
+    it may not do is say less than another chain of the same word says: everything the
+    shorter one says the longer one says too, and the longer says more.
+
+    Counting senses is not enough to see that. `took, received, took hold of and grasped
+    and seized` and `took, received, took hold of and seized` carry three commas each,
+    and the second has lost `grasped`.
+    """
     out = []
     for (lemma, head), chains in sorted(seen.items()):
-        if len(chains) < 2 or len({concord_key(c) for c in chains}) < 2:
+        if len(chains) < 2:
             continue
-        # One word in one form may still be written two ways: singular beside plural,
-        # imperative beside aorist. What it may not do is carry a different number
-        # of senses, which is a range gained or lost.
-        if len({len([g for g in c.split(",") if g.strip()]) for c in chains}) < 2:
-            continue
-        out.append((lemma, head, sorted(chains.items(), key=lambda kv: kv[1])))
+        keyed = {c: senses(c) for c in chains}
+        pairs = [(a, b) for a in chains for b in chains
+                 if a != b and keyed[a] != keyed[b] and not (keyed[a] - keyed[b])]
+        if pairs:
+            out.append((lemma, head, sorted(chains.items(), key=lambda kv: kv[1])))
     return out
 
 
@@ -498,11 +575,12 @@ def check_chains(targets, rep):
             for head, chain, lemma in units(verse["reading"]):
                 seen.setdefault((lemma, head), {}).setdefault(chain, verse["ref"])
     for lemma, head, where in chains_that_drifted(seen):
-        rep.fail("chains", where[0][1],
-                 "%s `%s` carries %d senses here and %d at %s — one word, one range"
-                 % (lemma, head,
-                    len([g for g in where[0][0].split(",") if g.strip()]),
-                    len([g for g in where[1][0].split(",") if g.strip()]), where[1][1]))
+        short, long_ = min(where, key=lambda kv: sum(senses(kv[0]).values())), \
+            max(where, key=lambda kv: sum(senses(kv[0]).values()))
+        lost = senses(long_[0]) - senses(short[0])
+        rep.fail("chains", short[1],
+                 "%s `%s` says less here than at %s — %s — one word, one range"
+                 % (lemma, head, long_[1], ", ".join(sorted(lost))))
     rep.done("chains", "%d lemma-and-headword groups, no drift" % len(seen), before)
 
 

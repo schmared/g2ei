@@ -5175,8 +5175,10 @@ in 2:10, and Αδαμ runs through 2:16–23.
 
 - every unit names a Greek word its own verse holds — checked against the chapter's
   morphology, so a unit cannot claim a word that is not there
-- one word in one form reads one way: two units sharing a lemma and a headword carry the
-  same number of senses, concord and tense aside
+- one word in one form reads one way: of two units sharing a lemma and a headword, neither
+  says less than the other. What the form put there — auxiliaries, the case prepositions,
+  the concord pronouns, and the project's own wording for verbal aspect — is set aside
+  before they are compared, so a perfect participle and an aorist one may share a headword
 - one case is one chain: a preposition has one form, so its chain cannot follow the
   form. Within one lemma and one case it reads the same everywhere.
 

@@ -292,6 +292,10 @@ NOT_SENSES = {
     "kai/": {"que"},                            # Latin
     # κατὰ γῆν and γῆν πρὸ γῆς are idioms the entry quotes, not senses of the noun;
     # ποῦ γῆς likewise.
+    # Middle Liddell splits one citation across two <tr>s — "to fill their ranks
+    # full" — and the halves are not senses. A chain read them as "the numbers of
+    # a body".
+    "a)naplhro/w": {"to fill their", "full"},
     # GEN 36
     "h(gemoni/a": {"hegemony.", "imperium"},    # a repeat, and the Latin
     "ne/mw": {"due", "is freely bestowed", "portions", "is devoured"},

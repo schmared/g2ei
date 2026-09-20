@@ -144,6 +144,13 @@ FULL = "was made large, was increased, was augmented, was promoted to honour"
 CUT = "was made large, was increased, was augmented"
 PLURAL = "were made large, were increased, were augmented, were promoted to honour"
 PAST = "made large, increased, augmented, promoted to honour"
+# A sense dropped inside an and-joined gloss leaves the commas where they were, so
+# counting senses cannot see it: λαμβάνω carried both of these for years.
+JOINED = "was made large, was increased, was augmented and promoted to honour"
+LOST_CONJUNCT = "was made large, was increased, was augmented"
+# The project writes verbal aspect into the text, so a perfect participle and an aorist
+# one may share a headword and differ only in that. It is grammar, not a sense.
+PERFECT = "was made large and it stands so, was increased, was augmented, was promoted to honour"
 
 
 def drifted(pairs):
@@ -279,12 +286,18 @@ CONTROL = [
     ("chains   a sense dropped from one occurrence is drift",
                                          lambda: holds(drifted([(FULL, "GEN 21:8"), (CUT, "GEN 30:30")]) == 1,
                                                        "a chain that lost a sense must be reported")),
+    ("chains   a sense dropped inside an and-joined gloss",
+                                         lambda: holds(drifted([(JOINED, "GEN 21:8"), (LOST_CONJUNCT, "GEN 30:30")]) == 1,
+                                                       "the commas still number the same; the sense is gone")),
     ("chains   the chain following the form is not drift",
                                          lambda: holds(drifted([(FULL, "GEN 21:8"), (PLURAL, "GEN 30:30")]) == 0,
                                                        "singular beside plural is the form, not drift")),
     ("chains   a tense the form calls for is not drift",
                                          lambda: holds(drifted([(FULL, "GEN 21:8"), (PAST, "GEN 30:30")]) == 0,
                                                        "imperative beside aorist is the form, not drift")),
+    ("chains   the aspect formula is not a sense",
+                                         lambda: holds(drifted([(FULL, "GEN 21:8"), (PERFECT, "GEN 30:30")]) == 0,
+                                                       "a perfect and an aorist may share a headword")),
     ("chains   the corpus carries no drift",
                                          lambda: run(V.check_chains, render.PAGE)),
     ("words    a name the verse marks is a name in the layer",
