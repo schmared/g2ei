@@ -1,0 +1,1973 @@
+[
+  {
+    "ref": "GEN 36:1",
+    "greek": "Αὗται δὲ αἱ γενέσεις Ησαυ (αὐτός ἐστιν Εδωμ)·",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 57",
+    "hint": "A new section: the line of Esau, told the way the line of Ishmael was told at 25:12-18, and with the same opening words.",
+    "notes": [
+      {
+        "lemma": "αἱ γενέσεις",
+        "flag": null,
+        "text": "The same opening as 25:12 and 25:19, and as 2:4 and 5:1 before them: αὗται αἱ γενέσεις, the formula that divides Genesis into its sections."
+      },
+      {
+        "lemma": "αὐτός ἐστιν Εδωμ",
+        "flag": null,
+        "text": "Rahlfs prints the identification in parentheses. Εδωμ is the name 25:30 gives Esau; here it is also the people and the land descended from him, and the morphology keeps the three apart by gender."
+      }
+    ],
+    "reading": "[[these|these, the nearer, what follows|οὗτος]] [[but|but, however, whereas, on the other hand|δέ]], [[the origins|the origins, the sources, the productive causes, the beginnings, the manners of birth, the races and descents, the productions and generations, the creations and the created things|γένεσις]] [[name:Ησαυ]]; he is [[name:Εδωμ]].",
+    "names": [
+      {
+        "greek": "Ησαυ",
+        "unanchored": "Ēsau",
+        "anchored": "Esau",
+        "gloss": "(Ησαυ, from Hebrew ʿĒśāw, usually connected with śēʿār, \"hair\", the hairiness of 25:25)"
+      },
+      {
+        "greek": "Εδωμ",
+        "unanchored": "Edōm",
+        "anchored": "Edom",
+        "gloss": "(Εδωμ, from Hebrew ʾĔdôm, which the Hebrew of 25:30 hears in ʾādōm, \"red\")"
+      }
+    ]
+  },
+  {
+    "ref": "GEN 36:2",
+    "greek": "Ησαυ δὲ ἔλαβεν γυναῖκας ἑαυτῷ ἀπὸ τῶν θυγατέρων τῶν Χαναναίων, τὴν Αδα θυγατέρα Αιλων τοῦ Χετταίου καὶ τὴν Ελιβεμα θυγατέρα Ανα τοῦ υἱοῦ Σεβεγων τοῦ Ευαίου",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 57",
+    "hint": "Esau's wives. The Hebrew names two of them differently at 26:34, and the difference is a fact about the text, not a fault to repair.",
+    "notes": [
+      {
+        "lemma": "γυναῖκας",
+        "flag": null,
+        "text": "Accusative plural without an article: wives, taken from among the Canaanite women."
+      },
+      {
+        "lemma": "τὴν Αδα",
+        "flag": "divergence",
+        "text": "[[flag]] At 26:34 the wives are Ιουδιν daughter of Βεηρ the Hittite and Βασεμμαθ daughter of Αιλων the Hittite; here Αδα is the daughter of Αιλων and Βασεμμαθ the daughter of Ishmael. The two lists do not agree, in the Greek or in the Hebrew."
+      },
+      {
+        "lemma": "Αιλων",
+        "flag": "variant",
+        "text": "[[flag]] The apparatus: ελωμ in A. Rahlfs prints αιλων with the majority."
+      },
+      {
+        "lemma": "Ελιβεμα",
+        "flag": "variant",
+        "text": "[[flag]] The apparatus: A writes ελιβεμα at 14, 18 and 41 but ολιβεμα at 2, 5, 18 and 25."
+      }
+    ],
+    "reading": "[[name:Ησαυ]] [[but|but, however, whereas, on the other hand|δέ]], [[took|took, received, took hold of and grasped and seized|λαμβάνω]] [[women|women, mistresses and ladies, wives and spouses, mortal women|γυνή]] to himself [[from|from, away from, far from, apart from|ἀπό]] the daughters [[name:Χαναναίων]], the [[name:Αδα]] daughter [[name:Αιλων]] the [[name:Χετταίου]] and the [[name:Ελιβεμα]] daughter [[name:Ανα]] the son [[name:Σεβεγων]] the [[name:Ευαίου]]",
+    "names": [
+      {
+        "greek": "Ησαυ",
+        "unanchored": "Ēsau",
+        "anchored": "Esau",
+        "bare": true
+      },
+      {
+        "greek": "Χαναναίων",
+        "unanchored": "Chananaiōn",
+        "anchored": "Canaanites",
+        "gloss": "(Χαναναῖος, from Hebrew Kĕnaʿănî, \"of Canaan\")"
+      },
+      {
+        "greek": "Αδα",
+        "unanchored": "Ada",
+        "anchored": "Adah",
+        "gloss": "(Αδα, from Hebrew ʿĀdâ, usually connected with ʿādâ, \"to adorn\")"
+      },
+      {
+        "greek": "Αιλων",
+        "unanchored": "Ailōn",
+        "anchored": "Elon",
+        "gloss": "(Αιλων, from Hebrew ʾÊlôn, \"terebinth\" or \"great tree\")"
+      },
+      {
+        "greek": "Χετταίου",
+        "unanchored": "Chettaiou",
+        "anchored": "Hittite",
+        "gloss": "(Χετταῖος, the man of Χετ, Heth; Hebrew Ḥittî)"
+      },
+      {
+        "greek": "Ελιβεμα",
+        "unanchored": "Elibema",
+        "anchored": "Oholibamah",
+        "gloss": "(Ελιβεμα, from Hebrew ʾOholîbāmâ, \"tent of the high place\")"
+      },
+      {
+        "greek": "Ανα",
+        "unanchored": "Ana",
+        "anchored": "Anah",
+        "gloss": "(Ανα, from Hebrew ʿĂnâ, of uncertain meaning)"
+      },
+      {
+        "greek": "Σεβεγων",
+        "unanchored": "Sebegōn",
+        "anchored": "Zibeon",
+        "gloss": "(Σεβεγων, from Hebrew Ṣibʿôn, of uncertain meaning)"
+      },
+      {
+        "greek": "Ευαίου",
+        "unanchored": "Euaiou",
+        "anchored": "Hivite",
+        "gloss": "(Ευαῖος, from Hebrew Ḥiwwî, of uncertain meaning)"
+      }
+    ]
+  },
+  {
+    "ref": "GEN 36:3",
+    "greek": "καὶ τὴν Βασεμμαθ θυγατέρα Ισμαηλ ἀδελφὴν Ναβαιωθ.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 57",
+    "hint": "The third wife, from Ishmael's line, which ties Esau back to Abraham's other son.",
+    "notes": [
+      {
+        "lemma": "ἀδελφὴν Ναβαιωθ",
+        "flag": null,
+        "text": "Nebaioth is Ishmael's firstborn at 25:13."
+      }
+    ],
+    "reading": "and the [[name:Βασεμμαθ]] daughter [[name:Ισμαηλ]] sister [[name:Ναβαιωθ]].",
+    "names": [
+      {
+        "greek": "Βασεμμαθ",
+        "unanchored": "Basemmath",
+        "anchored": "Basemath",
+        "gloss": "(Βασεμμαθ, from Hebrew Bāśĕmat, \"balsam\" or \"fragrance\")"
+      },
+      {
+        "greek": "Ισμαηλ",
+        "unanchored": "Ismaēl",
+        "anchored": "Ishmael",
+        "gloss": "(Ισμαηλ, from Hebrew Yišmāʿēʾl, \"God hears\")"
+      },
+      {
+        "greek": "Ναβαιωθ",
+        "unanchored": "Nabaiōth",
+        "anchored": "Nebaioth",
+        "gloss": "(Ναβαιωθ, from Hebrew Nĕbāyôt, of uncertain meaning)"
+      }
+    ]
+  },
+  {
+    "ref": "GEN 36:4",
+    "greek": "ἔτεκεν δὲ Αδα τῷ Ησαυ τὸν Ελιφας, καὶ Βασεμμαθ ἔτεκεν τὸν Ραγουηλ,",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 57",
+    "hint": "The sons, by mother.",
+    "notes": [
+      {
+        "lemma": "ἔτεκεν",
+        "flag": null,
+        "text": "Aorist of τίκτω, the verb of bearing a child, used of each mother in turn."
+      }
+    ],
+    "reading": "[[brought into the world|brought into the world, brought forth, bore, produced|τίκτω]] [[but|but, however, whereas, on the other hand|δέ]] [[name:Αδα]] to the [[name:Ησαυ]] the [[name:Ελιφας]], and [[name:Βασεμμαθ]] [[brought into the world|brought into the world, brought forth, bore, produced|τίκτω]] the [[name:Ραγουηλ]],",
+    "names": [
+      {
+        "greek": "Αδα",
+        "unanchored": "Ada",
+        "anchored": "Adah",
+        "bare": true
+      },
+      {
+        "greek": "Ησαυ",
+        "unanchored": "Ēsau",
+        "anchored": "Esau",
+        "bare": true
+      },
+      {
+        "greek": "Ελιφας",
+        "unanchored": "Eliphas",
+        "anchored": "Eliphaz",
+        "gloss": "(Ελιφας, from Hebrew ʾĔlîpāz, perhaps \"my God is fine gold\")"
+      },
+      {
+        "greek": "Βασεμμαθ",
+        "unanchored": "Basemmath",
+        "anchored": "Basemath",
+        "bare": true
+      },
+      {
+        "greek": "Ραγουηλ",
+        "unanchored": "Ragouēl",
+        "anchored": "Reuel",
+        "gloss": "(Ραγουηλ, from Hebrew Rĕʿûʾēl, \"friend of God\")"
+      }
+    ]
+  },
+  {
+    "ref": "GEN 36:5",
+    "greek": "καὶ Ελιβεμα ἔτεκεν τὸν Ιεους καὶ τὸν Ιεγλομ καὶ τὸν Κορε· οὗτοι υἱοὶ Ησαυ, οἳ ἐγένοντο αὐτῷ ἐν γῇ Χανααν.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 57",
+    "hint": "Oholibamah's three sons, and the note that all of them were born in Canaan, before the move of the next verses.",
+    "notes": [
+      {
+        "lemma": "Ιεους",
+        "flag": "variant",
+        "text": "[[flag]] The apparatus: ιευς in A at 14, ιεουλ at 18. The name is unsteady in the manuscripts."
+      },
+      {
+        "lemma": "ἐν γῇ Χανααν",
+        "flag": null,
+        "text": "Where they were born, against the land they leave in 6-8."
+      }
+    ],
+    "reading": "and [[name:Ελιβεμα]] [[brought into the world|brought into the world, brought forth, bore, produced|τίκτω]] the [[name:Ιεους]] and the [[name:Ιεγλομ]] and the [[name:Κορε]]; [[these|these, the nearer, what follows|οὗτος]] sons [[name:Ησαυ]], who [[came into being|came to be, arose, was brought into existence|γίνομαι]] to him [[in the earth|within, inside of, and by means of the earth, the land, the ground|γῆ]] [[name:Χανααν]].",
+    "names": [
+      {
+        "greek": "Ελιβεμα",
+        "unanchored": "Elibema",
+        "anchored": "Oholibamah",
+        "bare": true
+      },
+      {
+        "greek": "Ιεους",
+        "unanchored": "Ieous",
+        "anchored": "Jeush",
+        "gloss": "(Ιεους, from Hebrew Yĕʿûš, perhaps \"he helps\")"
+      },
+      {
+        "greek": "Ιεγλομ",
+        "unanchored": "Ieglom",
+        "anchored": "Jalam",
+        "gloss": "(Ιεγλομ, from Hebrew Yaʿlām, perhaps \"he conceals\")"
+      },
+      {
+        "greek": "Κορε",
+        "unanchored": "Kore",
+        "anchored": "Korah",
+        "gloss": "(Κορε, from Hebrew Qōraḥ, \"bald\" or \"baldness\")"
+      },
+      {
+        "greek": "Ησαυ",
+        "unanchored": "Ēsau",
+        "anchored": "Esau",
+        "bare": true
+      },
+      {
+        "greek": "Χανααν",
+        "unanchored": "Chanaan",
+        "anchored": "Canaan",
+        "gloss": "(Χανααν, from Hebrew Kĕnaʿan, of uncertain meaning)"
+      }
+    ]
+  },
+  {
+    "ref": "GEN 36:6",
+    "greek": "ἔλαβεν δὲ Ησαυ τὰς γυναῖκας αὐτοῦ καὶ τοὺς υἱοὺς καὶ τὰς θυγατέρας καὶ πάντα τὰ σώματα τοῦ οἴκου αὐτοῦ καὶ πάντα τὰ ὑπάρχοντα καὶ πάντα τὰ κτήνη καὶ πάντα, ὅσα ἐκτήσατο καὶ ὅσα περιεποιήσατο ἐν γῇ Χανααν, καὶ ἐπορεύθη ἐκ γῆς Χανααν ἀπὸ προσώπου Ιακωβ τοῦ ἀδελφοῦ αὐτοῦ·",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 57",
+    "hint": "Esau leaves Canaan. The list of what he takes is the same kind of list as Jacob's at 31:18.",
+    "notes": [
+      {
+        "lemma": "τὰ σώματα",
+        "flag": null,
+        "text": "σῶμα of persons: the bodies of the household, its people counted as it counts its cattle."
+      },
+      {
+        "lemma": "τὰ ὑπάρχοντα",
+        "flag": null,
+        "text": "The participle of ὑπάρχω used as a noun, as at 12:5: what is at hand, one's substance."
+      },
+      {
+        "lemma": "ἀπὸ προσώπου",
+        "flag": null,
+        "text": "From the face of, the Hebrew idiom for away from a person; the Greek keeps it word for word."
+      }
+    ],
+    "reading": "[[took|took, received, took hold of and grasped and seized|λαμβάνω]] [[but|but, however, whereas, on the other hand|δέ]] [[name:Ησαυ]] [[the women|the women, the mistresses and ladies, the wives and spouses, the mortal women|γυνή]] of him and the sons and the daughters and [[all|all, the whole, every, every single|πᾶς]] [[the bodies|the bodies, the dead bodies and corpses and carcases, the living bodies, the bodies and any material substances, the whole bodies and masses|σῶμα]] [[of the house|of the house, of the abode and dwelling, of the room and chamber, of the house of a god and temple, of the household goods and substance, of the household and family|οἶκος]] of him and [[all|all, the whole, every, every single|πᾶς]] [[the existing circumstances|the existing circumstances, the present advantages, what belongs to one, the possessions and means|ὑπάρχω]] and [[all|all, the whole, every, every single|πᾶς]] [[the flocks and herds|the flocks and herds, the single beasts, the beasts for riding|κτῆνος]] and [[all|all, the whole, every, every single|πᾶς]], [[as great as|as great as, as much as, as far as, as long as, as many as|ὅσος]] [[procured for himself|procured for himself, got, gained, acquired, brought upon himself and incurred, procured for another|κτάομαι]] and [[as great as|as great as, as much as, as far as, as long as, as many as|ὅσος]] [[kept for himself|kept for himself, saved for himself, compassed and acquired and procured for himself|περιποιέομαι]] [[in the earth|within, inside of, and by means of the earth, the land, the ground|γῆ]] [[name:Χανααν]], and [[was driven|was driven, was carried, went, walked, marched, went across and passed|πορεύομαι]] [[out of|out of, forth from, from|ἐκ]] [[of earth|of earth, of land, of ground|γῆ]] [[name:Χανααν]] [[from|from, away from, far from, apart from|ἀπό]] [[of face|of face, of visage, of countenance, of look, of outward appearance|πρόσωπον]] [[name:Ιακωβ]] the brother of him;",
+    "names": [
+      {
+        "greek": "Ησαυ",
+        "unanchored": "Ēsau",
+        "anchored": "Esau",
+        "bare": true
+      },
+      {
+        "greek": "Χανααν",
+        "unanchored": "Chanaan",
+        "anchored": "Canaan",
+        "bare": true
+      },
+      {
+        "greek": "Ιακωβ",
+        "unanchored": "Iakōb",
+        "anchored": "Jacob",
+        "gloss": "(Ιακωβ, from Hebrew Yaʿăqōb, which the Hebrew of 25:26 hears in ʿāqēb, \"heel\")"
+      }
+    ]
+  },
+  {
+    "ref": "GEN 36:7",
+    "greek": "ἦν γὰρ αὐτῶν τὰ ὑπάρχοντα πολλὰ τοῦ οἰκεῖν ἅμα, καὶ οὐκ ἐδύνατο ἡ γῆ τῆς παροικήσεως αὐτῶν φέρειν αὐτοὺς ἀπὸ τοῦ πλήθους τῶν ὑπαρχόντων αὐτῶν.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 57",
+    "hint": "Why he left: the same reason Abram and Lot parted at 13:6, in almost the same words.",
+    "notes": [
+      {
+        "lemma": "οὐκ ἐδύνατο ἡ γῆ",
+        "flag": null,
+        "text": "13:6 says it of Abram and Lot: the land could not carry them dwelling together."
+      },
+      {
+        "lemma": "τῆς παροικήσεως",
+        "flag": null,
+        "text": "παροίκησις, a neighbourhood, and so a sojourning: the land they lived in as neighbours, not as owners."
+      }
+    ],
+    "reading": "was, and kept on being, for [[the existing circumstances|the existing circumstances, the present advantages, what belongs to one, the possessions and means|ὑπάρχω]] of them [[many|many, often, much and mighty and great, deep, loud, strong, large and wide, far, long|πολύς]] [[to inhabit|to inhabit, to occupy, to dwell and live, to be settled|οἰκέω]] [[at once|at once, at the same time, at the same time with and together with|ἅμα]], and not [[was being able|was being able, was capable, was strong enough, dared and bore, passed for, was worth, was equivalent to, signified and meant|δύναμαι]] the [[the earth|the earth, the land, the ground|γῆ]] [[of the neighbourhood|of the neighbourhood|παροίκησις]] of them [[to bring|to bring, to bear, to carry, to endure|φέρω]] them [[from|from, away from, far from, apart from|ἀπό]] [[of the great number|of the great number and throng and crowd and multitude, of the greater number and greater part and mass and main body, of the majority and people, of the populace and mob, of the quantity, of the number, of the magnitude and size, of the extent, of the amount, of the length|πλῆθος]] [[of the existing circumstances|of the existing circumstances, of the present advantages, of what belongs to one, of the possessions and property and substance|ὑπάρχω]] of them.",
+    "names": []
+  },
+  {
+    "ref": "GEN 36:8",
+    "greek": "ᾤκησεν δὲ Ησαυ ἐν τῷ ὄρει Σηιρ (Ησαυ αὐτός ἐστιν Εδωμ).",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 57",
+    "hint": "Where he settled, and the identification repeated from verse 1.",
+    "notes": [
+      {
+        "lemma": "ἐν τῷ ὄρει Σηιρ",
+        "flag": null,
+        "text": "Seir is both the mountain and the region; the name is the same word as the Hebrew for hairy, as Esau's is."
+      }
+    ],
+    "reading": "[[inhabited|inhabited, occupied, dwelt and lived, was settled|οἰκέω]] [[but|but, however, whereas, on the other hand|δέ]] [[name:Ησαυ]] [[in the mountain|within, inside of, and by means of the mountain, the hill|ὄρος]] [[name:Σηιρ]]; [[name:Ησαυ]] he is [[name:Εδωμ]].",
+    "names": [
+      {
+        "greek": "Ησαυ",
+        "unanchored": "Ēsau",
+        "anchored": "Esau",
+        "bare": true
+      },
+      {
+        "greek": "Σηιρ",
+        "unanchored": "Sēir",
+        "anchored": "Seir",
+        "gloss": "(Σηιρ, from Hebrew Śēʿîr, \"hairy\")"
+      },
+      {
+        "greek": "Εδωμ",
+        "unanchored": "Edōm",
+        "anchored": "Edom",
+        "bare": true
+      }
+    ]
+  },
+  {
+    "ref": "GEN 36:9",
+    "greek": "Αὗται δὲ αἱ γενέσεις Ησαυ πατρὸς Εδωμ ἐν τῷ ὄρει Σηιρ,",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 57",
+    "hint": "The formula of verse 1 again, now heading the list of chiefs.",
+    "notes": [
+      {
+        "lemma": "αἱ γενέσεις",
+        "flag": null,
+        "text": "The formula repeats, marking a second list: verse 1 headed the sons, this heads the chiefs."
+      }
+    ],
+    "reading": "[[these|these, the nearer, what follows|οὗτος]] [[but|but, however, whereas, on the other hand|δέ]], [[the origins|the origins, the sources, the productive causes, the beginnings, the manners of birth, the races and descents, the productions and generations, the creations and the created things|γένεσις]] [[name:Ησαυ]] father [[name:Εδωμ]] [[in the mountain|within, inside of, and by means of the mountain, the hill|ὄρος]] [[name:Σηιρ]],",
+    "names": [
+      {
+        "greek": "Ησαυ",
+        "unanchored": "Ēsau",
+        "anchored": "Esau",
+        "bare": true
+      },
+      {
+        "greek": "Εδωμ",
+        "unanchored": "Edōm",
+        "anchored": "Edom",
+        "bare": true
+      },
+      {
+        "greek": "Σηιρ",
+        "unanchored": "Sēir",
+        "anchored": "Seir",
+        "bare": true
+      }
+    ]
+  },
+  {
+    "ref": "GEN 36:10",
+    "greek": "καὶ ταῦτα τὰ ὀνόματα τῶν υἱῶν Ησαυ· Ελιφας υἱὸς Αδας γυναικὸς Ησαυ καὶ Ραγουηλ υἱὸς Βασεμμαθ γυναικὸς Ησαυ.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 57",
+    "hint": "The grandsons, named by their mothers as the sons were.",
+    "notes": [
+      {
+        "lemma": "Αδας",
+        "flag": "variant",
+        "text": "[[flag]] The apparatus: αδας in D, αδα in A, and the same again at 12. Rahlfs prints the genitive αδας, a name that declines."
+      }
+    ],
+    "reading": "and [[these|these, the nearer, what follows|οὗτος]] [[names|names, fames, mere names, phrases and expressions|ὄνομα]] of the sons [[name:Ησαυ]]; [[name:Ελιφας]] son [[name:Αδας]] [[of woman|of woman, of mistress and lady, of wife and spouse, of mortal woman|γυνή]] [[name:Ησαυ]] and [[name:Ραγουηλ]] son [[name:Βασεμμαθ]] [[of woman|of woman, of mistress and lady, of wife and spouse, of mortal woman|γυνή]] [[name:Ησαυ]].",
+    "names": [
+      {
+        "greek": "Ησαυ",
+        "unanchored": "Ēsau",
+        "anchored": "Esau",
+        "bare": true
+      },
+      {
+        "greek": "Ελιφας",
+        "unanchored": "Eliphas",
+        "anchored": "Eliphaz",
+        "bare": true
+      },
+      {
+        "greek": "Αδας",
+        "unanchored": "Adas",
+        "anchored": "Adah",
+        "gloss": "(Αδας, the genitive of the Αδα of 36:2, the name declined)"
+      },
+      {
+        "greek": "Ραγουηλ",
+        "unanchored": "Ragouēl",
+        "anchored": "Reuel",
+        "bare": true
+      },
+      {
+        "greek": "Βασεμμαθ",
+        "unanchored": "Basemmath",
+        "anchored": "Basemath",
+        "bare": true
+      }
+    ]
+  },
+  {
+    "ref": "GEN 36:11",
+    "greek": "ἐγένοντο δὲ υἱοὶ Ελιφας· Θαιμαν, Ωμαρ, Σωφαρ, Γοθομ καὶ Κενεζ·",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 57",
+    "hint": "Eliphaz's five sons. Teman becomes a place-name and a byword for wisdom.",
+    "notes": [
+      {
+        "lemma": "υἱοὶ",
+        "flag": "variant",
+        "text": "[[flag]] The apparatus: A prefixes the article, οἱ υἱοι."
+      },
+      {
+        "lemma": "Ωμαρ",
+        "flag": "variant",
+        "text": "[[flag]] The apparatus: ωμαν in A here, but ωμαρ at 15."
+      }
+    ],
+    "reading": "[[came into being|came to be, arose, were brought into existence|γίνομαι]] [[but|but, however, whereas, on the other hand|δέ]] sons [[name:Ελιφας]]; [[name:Θαιμαν]], [[name:Ωμαρ]], [[name:Σωφαρ]], [[name:Γοθομ]] and [[name:Κενεζ]];",
+    "names": [
+      {
+        "greek": "Ελιφας",
+        "unanchored": "Eliphas",
+        "anchored": "Eliphaz",
+        "bare": true
+      },
+      {
+        "greek": "Θαιμαν",
+        "unanchored": "Thaiman",
+        "anchored": "Teman",
+        "gloss": "(Θαιμαν, from Hebrew Têmān, \"south\" or \"the south country\")"
+      },
+      {
+        "greek": "Ωμαρ",
+        "unanchored": "Ōmar",
+        "anchored": "Omar",
+        "gloss": "(Ωμαρ, from Hebrew ʾÔmār, of uncertain meaning)"
+      },
+      {
+        "greek": "Σωφαρ",
+        "unanchored": "Sōphar",
+        "anchored": "Zepho",
+        "gloss": "(Σωφαρ, from Hebrew Ṣĕpô, of uncertain meaning)"
+      },
+      {
+        "greek": "Γοθομ",
+        "unanchored": "Gothom",
+        "anchored": "Gatam",
+        "gloss": "(Γοθομ, from Hebrew Gaʿtām, of uncertain meaning)"
+      },
+      {
+        "greek": "Κενεζ",
+        "unanchored": "Kenez",
+        "anchored": "Kenaz",
+        "gloss": "(Κενεζ, from Hebrew Qĕnaz, of uncertain meaning)"
+      }
+    ]
+  },
+  {
+    "ref": "GEN 36:12",
+    "greek": "Θαμνα δὲ ἦν παλλακὴ Ελιφας τοῦ υἱοῦ Ησαυ καὶ ἔτεκεν τῷ Ελιφας τὸν Αμαληκ· οὗτοι υἱοὶ Αδας γυναικὸς Ησαυ.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 57",
+    "hint": "Amalek, born to a concubine, and so set slightly apart from the rest — the people Israel will fight.",
+    "notes": [
+      {
+        "lemma": "παλλακή",
+        "flag": null,
+        "text": "A concubine: a wife of second rank, not a slave and not a wife in full."
+      },
+      {
+        "lemma": "υἱοὶ",
+        "flag": "variant",
+        "text": "[[flag]] The apparatus: A prefixes the article here too."
+      }
+    ],
+    "reading": "[[name:Θαμνα]] [[but|but, however, whereas, on the other hand|δέ]] was, and kept on being, [[a concubine|a concubine, a mistress|παλλακή]] [[name:Ελιφας]] the son [[name:Ησαυ]] and [[brought into the world|brought into the world, brought forth, bore, produced|τίκτω]] to the [[name:Ελιφας]] the [[name:Αμαληκ]]; [[these|these, the nearer, what follows|οὗτος]] sons [[name:Αδας]] [[of woman|of woman, of mistress and lady, of wife and spouse, of mortal woman|γυνή]] [[name:Ησαυ]].",
+    "names": [
+      {
+        "greek": "Θαμνα",
+        "unanchored": "Thamna",
+        "anchored": "Timna",
+        "gloss": "(Θαμνα, from Hebrew Timnāʿ, perhaps \"allotted portion\")"
+      },
+      {
+        "greek": "Ελιφας",
+        "unanchored": "Eliphas",
+        "anchored": "Eliphaz",
+        "bare": true
+      },
+      {
+        "greek": "Ησαυ",
+        "unanchored": "Ēsau",
+        "anchored": "Esau",
+        "bare": true
+      },
+      {
+        "greek": "Αμαληκ",
+        "unanchored": "Amalēk",
+        "anchored": "Amalek",
+        "gloss": "(Αμαληκ, from Hebrew ʿĂmālēq, of uncertain meaning)"
+      },
+      {
+        "greek": "Αδας",
+        "unanchored": "Adas",
+        "anchored": "Adah",
+        "bare": true
+      }
+    ]
+  },
+  {
+    "ref": "GEN 36:13",
+    "greek": "οὗτοι δὲ υἱοὶ Ραγουηλ· Ναχοθ, Ζαρε, Σομε καὶ Μοζε· οὗτοι ἦσαν υἱοὶ Βασεμμαθ γυναικὸς Ησαυ.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, pp. 57–58",
+    "hint": "Reuel's four sons.",
+    "notes": [
+      {
+        "lemma": "Ναχοθ",
+        "flag": "variant",
+        "text": "[[flag]] The apparatus: ναχομ in A here, but ναχοθ at 17."
+      },
+      {
+        "lemma": "Βασεμμαθ",
+        "flag": "variant",
+        "text": "[[flag]] The apparatus: μασεμμαθ in A here and at 17, but βασ. at 3."
+      }
+    ],
+    "reading": "[[these|these, the nearer, what follows|οὗτος]] [[but|but, however, whereas, on the other hand|δέ]] sons [[name:Ραγουηλ]]; [[name:Ναχοθ]], [[name:Ζαρε]], [[name:Σομε]] and [[name:Μοζε]]; [[these|these, the nearer, what follows|οὗτος]] were, and kept on being, sons [[name:Βασεμμαθ]] [[of woman|of woman, of mistress and lady, of wife and spouse, of mortal woman|γυνή]] [[name:Ησαυ]].",
+    "names": [
+      {
+        "greek": "Ραγουηλ",
+        "unanchored": "Ragouēl",
+        "anchored": "Reuel",
+        "bare": true
+      },
+      {
+        "greek": "Ναχοθ",
+        "unanchored": "Nachoth",
+        "anchored": "Nahath",
+        "gloss": "(Ναχοθ, from Hebrew Naḥat, \"rest\" or \"quiet\")"
+      },
+      {
+        "greek": "Ζαρε",
+        "unanchored": "Zare",
+        "anchored": "Zerah",
+        "gloss": "(Ζαρε, from Hebrew Zeraḥ, \"dawning\" or \"shining\")"
+      },
+      {
+        "greek": "Σομε",
+        "unanchored": "Some",
+        "anchored": "Shammah",
+        "gloss": "(Σομε, from Hebrew Šammâ, perhaps \"desolation\")"
+      },
+      {
+        "greek": "Μοζε",
+        "unanchored": "Moze",
+        "anchored": "Mizzah",
+        "gloss": "(Μοζε, from Hebrew Mizzâ, of uncertain meaning)"
+      },
+      {
+        "greek": "Βασεμμαθ",
+        "unanchored": "Basemmath",
+        "anchored": "Basemath",
+        "bare": true
+      },
+      {
+        "greek": "Ησαυ",
+        "unanchored": "Ēsau",
+        "anchored": "Esau",
+        "bare": true
+      }
+    ]
+  },
+  {
+    "ref": "GEN 36:14",
+    "greek": "οὗτοι δὲ ἦσαν υἱοὶ Ελιβεμας θυγατρὸς Ανα τοῦ υἱοῦ Σεβεγων, γυναικὸς Ησαυ· ἔτεκεν δὲ τῷ Ησαυ τὸν Ιεους καὶ τὸν Ιεγλομ καὶ τὸν Κορε. —",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 58",
+    "hint": "Oholibamah's sons, named again with her descent spelled out.",
+    "notes": [
+      {
+        "lemma": "ἦσαν",
+        "flag": "variant",
+        "text": "[[flag]] The apparatus: the majority have ησαν, A omits it."
+      },
+      {
+        "lemma": "θυγατρὸς Ανα τοῦ υἱοῦ Σεβεγων",
+        "flag": null,
+        "text": "Her line is given twice, here and at 2, and both times through her father Ανα and her grandfather Σεβεγων."
+      }
+    ],
+    "reading": "[[these|these, the nearer, what follows|οὗτος]] [[but|but, however, whereas, on the other hand|δέ]] were, and kept on being, sons [[name:Ελιβεμας]] daughter [[name:Ανα]] the son [[name:Σεβεγων]], [[of woman|of woman, of mistress and lady, of wife and spouse, of mortal woman|γυνή]] [[name:Ησαυ]]; [[brought into the world|brought into the world, brought forth, bore, produced|τίκτω]] [[but|but, however, whereas, on the other hand|δέ]] to the [[name:Ησαυ]] the [[name:Ιεους]] and the [[name:Ιεγλομ]] and the [[name:Κορε]]. —",
+    "names": [
+      {
+        "greek": "Ελιβεμας",
+        "unanchored": "Elibemas",
+        "anchored": "Oholibamah",
+        "bare": true
+      },
+      {
+        "greek": "Ανα",
+        "unanchored": "Ana",
+        "anchored": "Anah",
+        "bare": true
+      },
+      {
+        "greek": "Σεβεγων",
+        "unanchored": "Sebegōn",
+        "anchored": "Zibeon",
+        "bare": true
+      },
+      {
+        "greek": "Ησαυ",
+        "unanchored": "Ēsau",
+        "anchored": "Esau",
+        "bare": true
+      },
+      {
+        "greek": "Ιεους",
+        "unanchored": "Ieous",
+        "anchored": "Jeush",
+        "bare": true
+      },
+      {
+        "greek": "Ιεγλομ",
+        "unanchored": "Ieglom",
+        "anchored": "Jalam",
+        "bare": true
+      },
+      {
+        "greek": "Κορε",
+        "unanchored": "Kore",
+        "anchored": "Korah",
+        "bare": true
+      }
+    ]
+  },
+  {
+    "ref": "GEN 36:15",
+    "greek": "οὗτοι ἡγεμόνες υἱοὶ Ησαυ· υἱοὶ Ελιφας πρωτοτόκου Ησαυ· ἡγεμὼν Θαιμαν, ἡγεμὼν Ωμαρ, ἡγεμὼν Σωφαρ, ἡγεμὼν Κενεζ,",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 58",
+    "hint": "The same names again, now as chiefs. ἡγεμών renders the Hebrew ʾallûp, the head of a clan.",
+    "notes": [
+      {
+        "lemma": "ἡγεμὼν Θαιμαν",
+        "flag": null,
+        "text": "The name stands in apposition, not in the genitive: chief Teman, the man of 11 in his office. Where the plural ἡγεμόνες governs a name it is a genitive — chiefs of Eliphaz at 16 — and 18's Ελιβεμας shows the ending."
+      },
+      {
+        "lemma": "ἡγεμόνες",
+        "flag": "variant",
+        "text": "[[flag]] The apparatus: A prefixes the article. And for υἱοι 1º, A has υιου."
+      }
+    ],
+    "reading": "[[these|these, the nearer, what follows|οὗτος]] [[ones who lead|ones who lead, guides, ones who are an authority, leaders and commanders and chiefs, chiefs and sovereigns, provincial governors|ἡγεμών]] sons [[name:Ησαυ]]; sons [[name:Ελιφας]] [[of the first-born|of the first-born|πρωτότοκος]] [[name:Ησαυ]]; [[one who leads|one who leads, a guide, one who is an authority, a leader and commander and chief, a chief and sovereign, a provincial governor|ἡγεμών]] [[name:Θαιμαν]], [[one who leads|one who leads, a guide, one who is an authority, a leader and commander and chief, a chief and sovereign, a provincial governor|ἡγεμών]] [[name:Ωμαρ]], [[one who leads|one who leads, a guide, one who is an authority, a leader and commander and chief, a chief and sovereign, a provincial governor|ἡγεμών]] [[name:Σωφαρ]], [[one who leads|one who leads, a guide, one who is an authority, a leader and commander and chief, a chief and sovereign, a provincial governor|ἡγεμών]] [[name:Κενεζ]],",
+    "names": [
+      {
+        "greek": "Ησαυ",
+        "unanchored": "Ēsau",
+        "anchored": "Esau",
+        "bare": true
+      },
+      {
+        "greek": "Ελιφας",
+        "unanchored": "Eliphas",
+        "anchored": "Eliphaz",
+        "bare": true
+      },
+      {
+        "greek": "Θαιμαν",
+        "unanchored": "Thaiman",
+        "anchored": "Teman",
+        "bare": true
+      },
+      {
+        "greek": "Ωμαρ",
+        "unanchored": "Ōmar",
+        "anchored": "Omar",
+        "bare": true
+      },
+      {
+        "greek": "Σωφαρ",
+        "unanchored": "Sōphar",
+        "anchored": "Zepho",
+        "bare": true
+      },
+      {
+        "greek": "Κενεζ",
+        "unanchored": "Kenez",
+        "anchored": "Kenaz",
+        "bare": true
+      }
+    ]
+  },
+  {
+    "ref": "GEN 36:16",
+    "greek": "ἡγεμὼν Κορε, ἡγεμὼν Γοθομ, ἡγεμὼν Αμαληκ· οὗτοι ἡγεμόνες Ελιφας ἐν γῇ Ιδουμαίᾳ· οὗτοι υἱοὶ Αδας.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 58",
+    "hint": "The chiefs of Eliphaz, closed off by the land they hold and the mother they come from.",
+    "notes": [
+      {
+        "lemma": "Ιδουμαίᾳ",
+        "flag": null,
+        "text": "The Greek name of Edom, formed on Εδωμ with a Greek ending; the only place in the chapter where the land is called so."
+      },
+      {
+        "lemma": "Γοθομ",
+        "flag": "variant",
+        "text": "[[flag]] The apparatus: γοθα in A here, but γοθομ at 11."
+      }
+    ],
+    "reading": "[[one who leads|one who leads, a guide, one who is an authority, a leader and commander and chief, a chief and sovereign, a provincial governor|ἡγεμών]] [[name:Κορε]], [[one who leads|one who leads, a guide, one who is an authority, a leader and commander and chief, a chief and sovereign, a provincial governor|ἡγεμών]] [[name:Γοθομ]], [[one who leads|one who leads, a guide, one who is an authority, a leader and commander and chief, a chief and sovereign, a provincial governor|ἡγεμών]] [[name:Αμαληκ]]; [[these|these, the nearer, what follows|οὗτος]] [[ones who lead|ones who lead, guides, ones who are an authority, leaders and commanders and chiefs, chiefs and sovereigns, provincial governors|ἡγεμών]] [[name:Ελιφας]] [[in the earth|within, inside of, and by means of the earth, the land, the ground|γῆ]] [[name:Ιδουμαίᾳ]]; [[these|these, the nearer, what follows|οὗτος]] sons [[name:Αδας]].",
+    "names": [
+      {
+        "greek": "Κορε",
+        "unanchored": "Kore",
+        "anchored": "Korah",
+        "bare": true
+      },
+      {
+        "greek": "Γοθομ",
+        "unanchored": "Gothom",
+        "anchored": "Gatam",
+        "bare": true
+      },
+      {
+        "greek": "Αμαληκ",
+        "unanchored": "Amalēk",
+        "anchored": "Amalek",
+        "bare": true
+      },
+      {
+        "greek": "Ελιφας",
+        "unanchored": "Eliphas",
+        "anchored": "Eliphaz",
+        "bare": true
+      },
+      {
+        "greek": "Ιδουμαίᾳ",
+        "unanchored": "Idoumaia",
+        "anchored": "Idumea",
+        "gloss": "(Ἰδουμαία, the Greek name of the land of Εδωμ, Edom)"
+      },
+      {
+        "greek": "Αδας",
+        "unanchored": "Adas",
+        "anchored": "Adah",
+        "bare": true
+      }
+    ]
+  },
+  {
+    "ref": "GEN 36:17",
+    "greek": "καὶ οὗτοι υἱοὶ Ραγουηλ υἱοῦ Ησαυ· ἡγεμὼν Ναχοθ, ἡγεμὼν Ζαρε, ἡγεμὼν Σομε, ἡγεμὼν Μοζε· οὗτοι ἡγεμόνες Ραγουηλ ἐν γῇ Εδωμ· οὗτοι υἱοὶ Βασεμμαθ γυναικὸς Ησαυ.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 58",
+    "hint": "The chiefs of Reuel.",
+    "notes": [
+      {
+        "lemma": "Σομε",
+        "flag": "variant",
+        "text": "[[flag]] The apparatus: A transposes σομε and μοζε here, though it keeps the order at 13."
+      }
+    ],
+    "reading": "and [[these|these, the nearer, what follows|οὗτος]] sons [[name:Ραγουηλ]] son [[name:Ησαυ]]; [[one who leads|one who leads, a guide, one who is an authority, a leader and commander and chief, a chief and sovereign, a provincial governor|ἡγεμών]] [[name:Ναχοθ]], [[one who leads|one who leads, a guide, one who is an authority, a leader and commander and chief, a chief and sovereign, a provincial governor|ἡγεμών]] [[name:Ζαρε]], [[one who leads|one who leads, a guide, one who is an authority, a leader and commander and chief, a chief and sovereign, a provincial governor|ἡγεμών]] [[name:Σομε]], [[one who leads|one who leads, a guide, one who is an authority, a leader and commander and chief, a chief and sovereign, a provincial governor|ἡγεμών]] [[name:Μοζε]]; [[these|these, the nearer, what follows|οὗτος]] [[ones who lead|ones who lead, guides, ones who are an authority, leaders and commanders and chiefs, chiefs and sovereigns, provincial governors|ἡγεμών]] [[name:Ραγουηλ]] [[in the earth|within, inside of, and by means of the earth, the land, the ground|γῆ]] [[name:Εδωμ]]; [[these|these, the nearer, what follows|οὗτος]] sons [[name:Βασεμμαθ]] [[of woman|of woman, of mistress and lady, of wife and spouse, of mortal woman|γυνή]] [[name:Ησαυ]].",
+    "names": [
+      {
+        "greek": "Ραγουηλ",
+        "unanchored": "Ragouēl",
+        "anchored": "Reuel",
+        "bare": true
+      },
+      {
+        "greek": "Ησαυ",
+        "unanchored": "Ēsau",
+        "anchored": "Esau",
+        "bare": true
+      },
+      {
+        "greek": "Ναχοθ",
+        "unanchored": "Nachoth",
+        "anchored": "Nahath",
+        "bare": true
+      },
+      {
+        "greek": "Ζαρε",
+        "unanchored": "Zare",
+        "anchored": "Zerah",
+        "bare": true
+      },
+      {
+        "greek": "Σομε",
+        "unanchored": "Some",
+        "anchored": "Shammah",
+        "bare": true
+      },
+      {
+        "greek": "Μοζε",
+        "unanchored": "Moze",
+        "anchored": "Mizzah",
+        "bare": true
+      },
+      {
+        "greek": "Εδωμ",
+        "unanchored": "Edōm",
+        "anchored": "Edom",
+        "bare": true
+      },
+      {
+        "greek": "Βασεμμαθ",
+        "unanchored": "Basemmath",
+        "anchored": "Basemath",
+        "bare": true
+      }
+    ]
+  },
+  {
+    "ref": "GEN 36:18",
+    "greek": "οὗτοι δὲ υἱοὶ Ελιβεμας γυναικὸς Ησαυ· ἡγεμὼν Ιεους, ἡγεμὼν Ιεγλομ, ἡγεμὼν Κορε· οὗτοι ἡγεμόνες Ελιβεμας. —",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 58",
+    "hint": "The chiefs of Oholibamah, and the end of Esau's own line.",
+    "notes": [
+      {
+        "lemma": "Ελιβεμας",
+        "flag": null,
+        "text": "The genitive ending is printed: chiefs of Oholibamah, not chief Oholibamah. It settles how to read the singular ἡγεμὼν + name of 15-17."
+      }
+    ],
+    "reading": "[[these|these, the nearer, what follows|οὗτος]] [[but|but, however, whereas, on the other hand|δέ]] sons [[name:Ελιβεμας]] [[of woman|of woman, of mistress and lady, of wife and spouse, of mortal woman|γυνή]] [[name:Ησαυ]]; [[one who leads|one who leads, a guide, one who is an authority, a leader and commander and chief, a chief and sovereign, a provincial governor|ἡγεμών]] [[name:Ιεους]], [[one who leads|one who leads, a guide, one who is an authority, a leader and commander and chief, a chief and sovereign, a provincial governor|ἡγεμών]] [[name:Ιεγλομ]], [[one who leads|one who leads, a guide, one who is an authority, a leader and commander and chief, a chief and sovereign, a provincial governor|ἡγεμών]] [[name:Κορε]]; [[these|these, the nearer, what follows|οὗτος]] [[ones who lead|ones who lead, guides, ones who are an authority, leaders and commanders and chiefs, chiefs and sovereigns, provincial governors|ἡγεμών]] [[name:Ελιβεμας]]. —",
+    "names": [
+      {
+        "greek": "Ελιβεμας",
+        "unanchored": "Elibemas",
+        "anchored": "Oholibamah",
+        "bare": true
+      },
+      {
+        "greek": "Ησαυ",
+        "unanchored": "Ēsau",
+        "anchored": "Esau",
+        "bare": true
+      },
+      {
+        "greek": "Ιεους",
+        "unanchored": "Ieous",
+        "anchored": "Jeush",
+        "bare": true
+      },
+      {
+        "greek": "Ιεγλομ",
+        "unanchored": "Ieglom",
+        "anchored": "Jalam",
+        "bare": true
+      },
+      {
+        "greek": "Κορε",
+        "unanchored": "Kore",
+        "anchored": "Korah",
+        "bare": true
+      }
+    ]
+  },
+  {
+    "ref": "GEN 36:19",
+    "greek": "οὗτοι υἱοὶ Ησαυ, καὶ οὗτοι ἡγεμόνες αὐτῶν. οὗτοί εἰσιν υἱοὶ Εδωμ.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 58",
+    "hint": "The summary that closes the first half.",
+    "notes": [
+      {
+        "lemma": "οὗτοι",
+        "flag": "variant",
+        "text": "[[flag]] The apparatus: A adds δε to the first ουτοι, prefixes the article to ηγεμ., and after εισιν adds οι ηγεμονες αυτων."
+      }
+    ],
+    "reading": "[[these|these, the nearer, what follows|οὗτος]] sons [[name:Ησαυ]], and [[these|these, the nearer, what follows|οὗτος]] [[ones who lead|ones who lead, guides, ones who are an authority, leaders and commanders and chiefs, chiefs and sovereigns, provincial governors|ἡγεμών]] of them. [[these|these, the nearer, what follows|οὗτος]] are sons [[name:Εδωμ]].",
+    "names": [
+      {
+        "greek": "Ησαυ",
+        "unanchored": "Ēsau",
+        "anchored": "Esau",
+        "bare": true
+      },
+      {
+        "greek": "Εδωμ",
+        "unanchored": "Edōm",
+        "anchored": "Edom",
+        "bare": true
+      }
+    ]
+  },
+  {
+    "ref": "GEN 36:20",
+    "greek": "Οὗτοι δὲ υἱοὶ Σηιρ τοῦ Χορραίου τοῦ κατοικοῦντος τὴν γῆν· Λωταν, Σωβαλ, Σεβεγων, Ανα",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 58",
+    "hint": "A second genealogy begins: the Horites, who held Seir before Esau's line came to it.",
+    "notes": [
+      {
+        "lemma": "Σηιρ τοῦ Χορραίου",
+        "flag": null,
+        "text": "Seir here is the man the region is named for, not the mountain of 8 and 9; the morphology keeps them apart."
+      },
+      {
+        "lemma": "τοῦ κατοικοῦντος τὴν γῆν",
+        "flag": null,
+        "text": "The participle marks them as the ones already settled there."
+      }
+    ],
+    "reading": "[[these|these, the nearer, what follows|οὗτος]] [[but|but, however, whereas, on the other hand|δέ]] sons [[name:Σηιρ]] the [[name:Χορραίου]] the [[of the one dwelling in|of the one dwelling in, of the one settling in, of the one colonising, of the one inhabiting, of the one settling and dwelling, of the one lying and situate|κατοικέω]] [[the earth|the earth, the land, the ground|γῆ]]; [[name:Λωταν]], [[name:Σωβαλ]], [[name:Σεβεγων]], [[name:Ανα]]",
+    "names": [
+      {
+        "greek": "Σηιρ",
+        "unanchored": "Sēir",
+        "anchored": "Seir",
+        "bare": true
+      },
+      {
+        "greek": "Χορραίου",
+        "unanchored": "Chorraiou",
+        "anchored": "Horite",
+        "gloss": "(Χορραῖος, from Hebrew Ḥōrî, \"cave-dweller\")"
+      },
+      {
+        "greek": "Λωταν",
+        "unanchored": "Lōtan",
+        "anchored": "Lotan",
+        "gloss": "(Λωταν, from Hebrew Lôṭān, perhaps \"covering\")"
+      },
+      {
+        "greek": "Σωβαλ",
+        "unanchored": "Sōbal",
+        "anchored": "Shobal",
+        "gloss": "(Σωβαλ, from Hebrew Šôbāl, of uncertain meaning)"
+      },
+      {
+        "greek": "Σεβεγων",
+        "unanchored": "Sebegōn",
+        "anchored": "Zibeon",
+        "bare": true
+      },
+      {
+        "greek": "Ανα",
+        "unanchored": "Ana",
+        "anchored": "Anah",
+        "bare": true
+      }
+    ]
+  },
+  {
+    "ref": "GEN 36:21",
+    "greek": "καὶ Δησων καὶ Ασαρ καὶ Ρισων· οὗτοι ἡγεμόνες τοῦ Χορραίου τοῦ υἱοῦ Σηιρ ἐν τῇ γῇ Εδωμ.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 58",
+    "hint": "The seven Horite chiefs, named first and then listed again at 29-30.",
+    "notes": [
+      {
+        "lemma": "Ασαρ",
+        "flag": "variant",
+        "text": "[[flag]] The apparatus: σααρ in A here and at 27 and 30. And for ηγεμονες, A prefixes the article."
+      }
+    ],
+    "reading": "and [[name:Δησων]] and [[name:Ασαρ]] and [[name:Ρισων]]; [[these|these, the nearer, what follows|οὗτος]] [[ones who lead|ones who lead, guides, ones who are an authority, leaders and commanders and chiefs, chiefs and sovereigns, provincial governors|ἡγεμών]] the [[name:Χορραίου]] the son [[name:Σηιρ]] [[in the earth|within, inside of, and by means of the earth, the land, the ground|γῆ]] [[name:Εδωμ]].",
+    "names": [
+      {
+        "greek": "Δησων",
+        "unanchored": "Dēsōn",
+        "anchored": "Dishon",
+        "gloss": "(Δησων, from Hebrew Dîšōn, \"antelope\" or \"mountain goat\")"
+      },
+      {
+        "greek": "Ασαρ",
+        "unanchored": "Asar",
+        "anchored": "Ezer",
+        "gloss": "(Ασαρ, from Hebrew ʾĒṣer, \"treasure\" or \"store\")"
+      },
+      {
+        "greek": "Ρισων",
+        "unanchored": "Risōn",
+        "anchored": "Dishan",
+        "gloss": "(Ρισων, from Hebrew Dîšān, of uncertain meaning)"
+      },
+      {
+        "greek": "Χορραίου",
+        "unanchored": "Chorraiou",
+        "anchored": "Horite",
+        "bare": true
+      },
+      {
+        "greek": "Σηιρ",
+        "unanchored": "Sēir",
+        "anchored": "Seir",
+        "bare": true
+      },
+      {
+        "greek": "Εδωμ",
+        "unanchored": "Edōm",
+        "anchored": "Edom",
+        "bare": true
+      }
+    ]
+  },
+  {
+    "ref": "GEN 36:22",
+    "greek": "ἐγένοντο δὲ υἱοὶ Λωταν· Χορρι καὶ Αιμαν· ἀδελφὴ δὲ Λωταν Θαμνα.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 58",
+    "hint": "Lotan's sons, and his sister — the same Timna who was Eliphaz's concubine at 12.",
+    "notes": [
+      {
+        "lemma": "Θαμνα",
+        "flag": null,
+        "text": "The name stands at 12 as Eliphaz's concubine and here as Lotan's sister; at 40 it heads a clan. The morphology reads the clan as masculine with ἡγεμών and the woman as feminine."
+      }
+    ],
+    "reading": "[[came into being|came to be, arose, were brought into existence|γίνομαι]] [[but|but, however, whereas, on the other hand|δέ]] sons [[name:Λωταν]]; [[name:Χορρι]] and [[name:Αιμαν]]; sister [[but|but, however, whereas, on the other hand|δέ]] [[name:Λωταν]] [[name:Θαμνα]].",
+    "names": [
+      {
+        "greek": "Λωταν",
+        "unanchored": "Lōtan",
+        "anchored": "Lotan",
+        "bare": true
+      },
+      {
+        "greek": "Χορρι",
+        "unanchored": "Chorri",
+        "anchored": "Hori",
+        "gloss": "(Χορρι, from Hebrew Ḥōrî, \"cave-dweller\", the same word the gentilic Χορραῖος is made from)"
+      },
+      {
+        "greek": "Αιμαν",
+        "unanchored": "Aiman",
+        "anchored": "Hemam",
+        "gloss": "(Αιμαν, from Hebrew Hêmām, of uncertain meaning)"
+      },
+      {
+        "greek": "Θαμνα",
+        "unanchored": "Thamna",
+        "anchored": "Timna",
+        "bare": true
+      }
+    ]
+  },
+  {
+    "ref": "GEN 36:23",
+    "greek": "οὗτοι δὲ υἱοὶ Σωβαλ· Γωλων καὶ Μαναχαθ καὶ Γαιβηλ, Σωφ καὶ Ωμαν.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 58",
+    "hint": "Shobal's five sons.",
+    "notes": [
+      {
+        "lemma": "Γωλων",
+        "flag": null,
+        "text": "Five names, where the Hebrew has five; the Greek forms of them are far from the Hebrew throughout this list."
+      }
+    ],
+    "reading": "[[these|these, the nearer, what follows|οὗτος]] [[but|but, however, whereas, on the other hand|δέ]] sons [[name:Σωβαλ]]; [[name:Γωλων]] and [[name:Μαναχαθ]] and [[name:Γαιβηλ]], [[name:Σωφ]] and [[name:Ωμαν]].",
+    "names": [
+      {
+        "greek": "Σωβαλ",
+        "unanchored": "Sōbal",
+        "anchored": "Shobal",
+        "bare": true
+      },
+      {
+        "greek": "Γωλων",
+        "unanchored": "Gōlōn",
+        "anchored": "Alvan",
+        "gloss": "(Γωλων, from Hebrew ʿAlwān, perhaps \"tall\")"
+      },
+      {
+        "greek": "Μαναχαθ",
+        "unanchored": "Manachath",
+        "anchored": "Manahath",
+        "gloss": "(Μαναχαθ, from Hebrew Mānaḥat, \"resting place\")"
+      },
+      {
+        "greek": "Γαιβηλ",
+        "unanchored": "Gaibēl",
+        "anchored": "Ebal",
+        "gloss": "(Γαιβηλ, from Hebrew ʿÊbāl, of uncertain meaning)"
+      },
+      {
+        "greek": "Σωφ",
+        "unanchored": "Sōph",
+        "anchored": "Shepho",
+        "gloss": "(Σωφ, from Hebrew Šĕpô, of uncertain meaning)"
+      },
+      {
+        "greek": "Ωμαν",
+        "unanchored": "Ōman",
+        "anchored": "Onam",
+        "gloss": "(Ωμαν, from Hebrew ʾÔnām, perhaps \"vigorous\")"
+      }
+    ]
+  },
+  {
+    "ref": "GEN 36:24",
+    "greek": "καὶ οὗτοι υἱοὶ Σεβεγων· Αιε καὶ Ωναν· οὗτός ἐστιν ὁ Ωνας, ὃς εὗρεν τὸν Ιαμιν ἐν τῇ ἐρήμῳ, ὅτε ἔνεμεν τὰ ὑποζύγια Σεβεγων τοῦ πατρὸς αὐτοῦ.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 58",
+    "hint": "The one anecdote in the chapter, and its crux: what Anah found in the wilderness.",
+    "notes": [
+      {
+        "lemma": "τὸν Ιαμιν",
+        "flag": null,
+        "text": "The Hebrew word here, yēmim, is found nowhere else, and has been read as hot springs, as mules, and as a people. The Greek does not translate it but writes it out as a name, which is its own admission that the translator did not know."
+      },
+      {
+        "lemma": "Ωναν … Ωνας",
+        "flag": null,
+        "text": "Rahlfs prints two spellings in one verse for the Ανα of 2 and 20; the module levels them to one."
+      },
+      {
+        "lemma": "ἔνεμεν",
+        "flag": null,
+        "text": "Imperfect of νέμω, whose range runs from dealing out a portion to pasturing a flock; here it is the flock."
+      }
+    ],
+    "reading": "and [[these|these, the nearer, what follows|οὗτος]] sons [[name:Σεβεγων]]; [[name:Αιε]] and [[name:Ωναν]]; [[this|this, the nearer, what follows|οὗτος]] is the [[name:Ωνας]], who [[found|found, found out, discovered|εὑρίσκω]] the [[name:Ιαμιν]] [[in the desert part|within, inside of, and by means of the desert part, the desolate, the lone and lonely and lonesome and solitary, the helpless, the reft and void and destitute, the undefended|ἔρημος]], [[when|when, sometimes|ὅτε]] [[was dealing out|was dealing out and distributing and dispensing, was having as his portion and possessing and enjoying, was dwelling in and inhabiting, was spending and passing, was holding and possessing, was holding sway and managing, was supporting, was using, was holding and considering as, was pasturing, was driving to pasture and tending, was feeding, was consuming and devouring, was giving|νέμω]] [[the beasts for the yoke|the beasts for the yoke, the beasts of burden|ὑποζύγιον]] [[name:Σεβεγων]] the father of him.",
+    "names": [
+      {
+        "greek": "Σεβεγων",
+        "unanchored": "Sebegōn",
+        "anchored": "Zibeon",
+        "bare": true
+      },
+      {
+        "greek": "Αιε",
+        "unanchored": "Aie",
+        "anchored": "Aiah",
+        "gloss": "(Αιε, from Hebrew ʾAyyâ, \"falcon\" or \"kite\")"
+      },
+      {
+        "greek": "Ωναν",
+        "unanchored": "Ōnan",
+        "anchored": "Anah",
+        "gloss": "(Ωναν, Rahlfs's spelling here of the Ανα of 36:2, Hebrew ʿĂnâ)"
+      },
+      {
+        "greek": "Ωνας",
+        "unanchored": "Ōnas",
+        "anchored": "Anah",
+        "gloss": "(Ωνας, Rahlfs's second spelling in this one verse of the Ωναν just named)"
+      },
+      {
+        "greek": "Ιαμιν",
+        "unanchored": "Iamin",
+        "anchored": "Jamin",
+        "gloss": "(Ιαμιν, transliterating the Hebrew yēmim of this verse, a word found nowhere else and of disputed meaning)"
+      }
+    ]
+  },
+  {
+    "ref": "GEN 36:25",
+    "greek": "οὗτοι δὲ υἱοὶ Ανα· Δησων· καὶ Ελιβεμα θυγάτηρ Ανα.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 58",
+    "hint": "Anah's children, including the Oholibamah of verse 2.",
+    "notes": [
+      {
+        "lemma": "Ελιβεμα θυγάτηρ Ανα",
+        "flag": null,
+        "text": "The wife of Esau, named at 2 and 14, set back into her own father's line."
+      }
+    ],
+    "reading": "[[these|these, the nearer, what follows|οὗτος]] [[but|but, however, whereas, on the other hand|δέ]] sons [[name:Ανα]]; [[name:Δησων]]; and [[name:Ελιβεμα]] daughter [[name:Ανα]].",
+    "names": [
+      {
+        "greek": "Ανα",
+        "unanchored": "Ana",
+        "anchored": "Anah",
+        "bare": true
+      },
+      {
+        "greek": "Δησων",
+        "unanchored": "Dēsōn",
+        "anchored": "Dishon",
+        "bare": true
+      },
+      {
+        "greek": "Ελιβεμα",
+        "unanchored": "Elibema",
+        "anchored": "Oholibamah",
+        "bare": true
+      }
+    ]
+  },
+  {
+    "ref": "GEN 36:26",
+    "greek": "οὗτοι δὲ υἱοὶ Δησων· Αμαδα καὶ Ασβαν καὶ Ιεθραν καὶ Χαρραν.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 58",
+    "hint": "Dishon's four sons.",
+    "notes": [
+      {
+        "lemma": "Χαρραν",
+        "flag": null,
+        "text": "The Greek form is the one used from 11:31 on for the city Ḥārān; here it stands for a different Hebrew name, Kĕrān. The morphology says so on the line."
+      }
+    ],
+    "reading": "[[these|these, the nearer, what follows|οὗτος]] [[but|but, however, whereas, on the other hand|δέ]] sons [[name:Δησων]]; [[name:Αμαδα]] and [[name:Ασβαν]] and [[name:Ιεθραν]] and [[name:Χαρραν]].",
+    "names": [
+      {
+        "greek": "Δησων",
+        "unanchored": "Dēsōn",
+        "anchored": "Dishon",
+        "bare": true
+      },
+      {
+        "greek": "Αμαδα",
+        "unanchored": "Amada",
+        "anchored": "Hemdan",
+        "gloss": "(Αμαδα, from Hebrew Ḥemdān, of uncertain meaning)"
+      },
+      {
+        "greek": "Ασβαν",
+        "unanchored": "Asban",
+        "anchored": "Eshban",
+        "gloss": "(Ασβαν, from Hebrew ʾEšbān, of uncertain meaning)"
+      },
+      {
+        "greek": "Ιεθραν",
+        "unanchored": "Iethran",
+        "anchored": "Ithran",
+        "gloss": "(Ιεθραν, from Hebrew Yitrān, \"abundance\")"
+      },
+      {
+        "greek": "Χαρραν",
+        "unanchored": "Charran",
+        "anchored": "Cheran",
+        "gloss": "(Χαρραν, here from Hebrew Kĕrān, a different name from the Ḥārān this same Greek form renders from 11:31 on)"
+      }
+    ]
+  },
+  {
+    "ref": "GEN 36:27",
+    "greek": "οὗτοι δὲ υἱοὶ Ασαρ· Βαλααν καὶ Ζουκαμ καὶ Ιωυκαμ καὶ Ουκαν.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 58",
+    "hint": "Ezer's sons — four in the Greek where the Hebrew has three.",
+    "notes": [
+      {
+        "lemma": "Ιωυκαμ",
+        "flag": "divergence",
+        "text": "[[flag]] The Hebrew names three sons of Ezer: Bilhān, Zaʿăwān and ʿĂqān. The Greek has four. Ιωυκαμ answers to nothing in the Hebrew line."
+      }
+    ],
+    "reading": "[[these|these, the nearer, what follows|οὗτος]] [[but|but, however, whereas, on the other hand|δέ]] sons [[name:Ασαρ]]; [[name:Βαλααν]] and [[name:Ζουκαμ]] and [[name:Ιωυκαμ]] and [[name:Ουκαν]].",
+    "names": [
+      {
+        "greek": "Ασαρ",
+        "unanchored": "Asar",
+        "anchored": "Ezer",
+        "bare": true
+      },
+      {
+        "greek": "Βαλααν",
+        "unanchored": "Balaan",
+        "anchored": "Bilhan",
+        "gloss": "(Βαλααν, from Hebrew Bilhān, of uncertain meaning)"
+      },
+      {
+        "greek": "Ζουκαμ",
+        "unanchored": "Zoukam",
+        "anchored": "Zaavan",
+        "gloss": "(Ζουκαμ, from Hebrew Zaʿăwān, of uncertain meaning)"
+      },
+      {
+        "greek": "Ιωυκαμ",
+        "unanchored": "Iōukam",
+        "anchored": "Jaakan",
+        "gloss": "(Ιωυκαμ, of uncertain meaning; see the note on this verse)"
+      },
+      {
+        "greek": "Ουκαν",
+        "unanchored": "Oukan",
+        "anchored": "Akan",
+        "gloss": "(Ουκαν, from Hebrew ʿĂqān, of uncertain meaning)"
+      }
+    ]
+  },
+  {
+    "ref": "GEN 36:28",
+    "greek": "οὗτοι δὲ υἱοὶ Ρισων· Ως καὶ Αραμ. —",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 58",
+    "hint": "Dishan's two sons, closing the Horite line.",
+    "notes": [
+      {
+        "lemma": "Αραμ",
+        "flag": null,
+        "text": "The same Greek form stands at 10:22 for ʾĂrām, the Arameans; here it renders ʾĂrān, a different name."
+      }
+    ],
+    "reading": "[[these|these, the nearer, what follows|οὗτος]] [[but|but, however, whereas, on the other hand|δέ]] sons [[name:Ρισων]]; [[name:Ως]] and [[name:Αραμ]]. —",
+    "names": [
+      {
+        "greek": "Ρισων",
+        "unanchored": "Risōn",
+        "anchored": "Dishan",
+        "bare": true
+      },
+      {
+        "greek": "Ως",
+        "unanchored": "Ōs",
+        "anchored": "Uz",
+        "gloss": "(Ως, from Hebrew ʿÛṣ, of uncertain meaning)"
+      },
+      {
+        "greek": "Αραμ",
+        "unanchored": "Aram",
+        "anchored": "Aran",
+        "gloss": "(Αραμ, here from Hebrew ʾĂrān, not the ʾĂrām this same Greek form renders at 10:22)"
+      }
+    ]
+  },
+  {
+    "ref": "GEN 36:29",
+    "greek": "οὗτοι ἡγεμόνες Χορρι· ἡγεμὼν Λωταν, ἡγεμὼν Σωβαλ, ἡγεμὼν Σεβεγων, ἡγεμὼν Ανα,",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 58",
+    "hint": "The Horite chiefs, listed as Esau's were at 15-18.",
+    "notes": [
+      {
+        "lemma": "ἡγεμόνες Χορρι",
+        "flag": null,
+        "text": "Chiefs of Hori: the plural governs the name as a genitive, as at 16-18."
+      }
+    ],
+    "reading": "[[these|these, the nearer, what follows|οὗτος]] [[ones who lead|ones who lead, guides, ones who are an authority, leaders and commanders and chiefs, chiefs and sovereigns, provincial governors|ἡγεμών]] [[name:Χορρι]]; [[one who leads|one who leads, a guide, one who is an authority, a leader and commander and chief, a chief and sovereign, a provincial governor|ἡγεμών]] [[name:Λωταν]], [[one who leads|one who leads, a guide, one who is an authority, a leader and commander and chief, a chief and sovereign, a provincial governor|ἡγεμών]] [[name:Σωβαλ]], [[one who leads|one who leads, a guide, one who is an authority, a leader and commander and chief, a chief and sovereign, a provincial governor|ἡγεμών]] [[name:Σεβεγων]], [[one who leads|one who leads, a guide, one who is an authority, a leader and commander and chief, a chief and sovereign, a provincial governor|ἡγεμών]] [[name:Ανα]],",
+    "names": [
+      {
+        "greek": "Χορρι",
+        "unanchored": "Chorri",
+        "anchored": "Hori",
+        "bare": true
+      },
+      {
+        "greek": "Λωταν",
+        "unanchored": "Lōtan",
+        "anchored": "Lotan",
+        "bare": true
+      },
+      {
+        "greek": "Σωβαλ",
+        "unanchored": "Sōbal",
+        "anchored": "Shobal",
+        "bare": true
+      },
+      {
+        "greek": "Σεβεγων",
+        "unanchored": "Sebegōn",
+        "anchored": "Zibeon",
+        "bare": true
+      },
+      {
+        "greek": "Ανα",
+        "unanchored": "Ana",
+        "anchored": "Anah",
+        "bare": true
+      }
+    ]
+  },
+  {
+    "ref": "GEN 36:30",
+    "greek": "ἡγεμὼν Δησων, ἡγεμὼν Ασαρ, ἡγεμὼν Ρισων. οὗτοι ἡγεμόνες Χορρι ἐν ταῖς ἡγεμονίαις αὐτῶν ἐν γῇ Εδωμ.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 58",
+    "hint": "The list closes with the word for the office itself.",
+    "notes": [
+      {
+        "lemma": "ἐν ταῖς ἡγεμονίαις",
+        "flag": null,
+        "text": "ἡγεμονία, the abstract of ἡγεμών: the leaderships they held, clan by clan."
+      }
+    ],
+    "reading": "[[one who leads|one who leads, a guide, one who is an authority, a leader and commander and chief, a chief and sovereign, a provincial governor|ἡγεμών]] [[name:Δησων]], [[one who leads|one who leads, a guide, one who is an authority, a leader and commander and chief, a chief and sovereign, a provincial governor|ἡγεμών]] [[name:Ασαρ]], [[one who leads|one who leads, a guide, one who is an authority, a leader and commander and chief, a chief and sovereign, a provincial governor|ἡγεμών]] [[name:Ρισων]]. [[these|these, the nearer, what follows|οὗτος]] [[ones who lead|ones who lead, guides, ones who are an authority, leaders and commanders and chiefs, chiefs and sovereigns, provincial governors|ἡγεμών]] [[name:Χορρι]] [[in the leadings of the way|within, inside of, and by means of the leadings of the way and goings first, the chief commands, the authorities, the hegemonies, the sovereignties of one state over a number of subordinates, the divisions of the army and commands|ἡγεμονία]] of them [[in the earth|within, inside of, and by means of the earth, the land, the ground|γῆ]] [[name:Εδωμ]].",
+    "names": [
+      {
+        "greek": "Δησων",
+        "unanchored": "Dēsōn",
+        "anchored": "Dishon",
+        "bare": true
+      },
+      {
+        "greek": "Ασαρ",
+        "unanchored": "Asar",
+        "anchored": "Ezer",
+        "bare": true
+      },
+      {
+        "greek": "Ρισων",
+        "unanchored": "Risōn",
+        "anchored": "Dishan",
+        "bare": true
+      },
+      {
+        "greek": "Χορρι",
+        "unanchored": "Chorri",
+        "anchored": "Hori",
+        "bare": true
+      },
+      {
+        "greek": "Εδωμ",
+        "unanchored": "Edōm",
+        "anchored": "Edom",
+        "bare": true
+      }
+    ]
+  },
+  {
+    "ref": "GEN 36:31",
+    "greek": "Καὶ οὗτοι οἱ βασιλεῖς οἱ βασιλεύσαντες ἐν Εδωμ πρὸ τοῦ βασιλεῦσαι βασιλέα ἐν Ισραηλ.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 58",
+    "hint": "The king-list, and the line that has been read as looking back from a time when Israel had kings.",
+    "notes": [
+      {
+        "lemma": "πρὸ τοῦ βασιλεῦσαι βασιλέα ἐν Ισραηλ",
+        "flag": null,
+        "text": "Before a king reigned in Israel. The clause states when, and says nothing about who wrote it; what it implies has been argued since antiquity and is not settled here."
+      },
+      {
+        "lemma": "Ισραηλ",
+        "flag": "variant",
+        "text": "[[flag]] The apparatus: ιερουσαλημ in A, which reads the line of Jerusalem instead of Israel."
+      }
+    ],
+    "reading": "and [[these|these, the nearer, what follows|οὗτος]] [[the kings|the kings, the chiefs, the hereditary kings, the lords and masters and householders, the seconds of the nine archons, the kings of Persia|βασιλεύς]] [[the ones having been king|the ones having been king, the ones having ruled and reigned, the ones having been queen, the ones having been king of, the ones having been governed by a king, the ones having been master of|βασιλεύω]] [[in|within, inside of, and by means of|ἐν]] [[name:Εδωμ]] [[before|before, in front of, further on, sooner, rather than|πρό]] [[to be king|to be king, to rule, to reign, to be queen, to be king of, to be governed by a king, to be master of|βασιλεύω]] [[a king|a king, a chief, an hereditary king, a lord and master and householder, the second of the nine archons, the king of Persia|βασιλεύς]] [[in|within, inside of, and by means of|ἐν]] [[name:Ισραηλ]].",
+    "names": [
+      {
+        "greek": "Εδωμ",
+        "unanchored": "Edōm",
+        "anchored": "Edom",
+        "bare": true
+      },
+      {
+        "greek": "Ισραηλ",
+        "unanchored": "Israēl",
+        "anchored": "Israel",
+        "gloss": "(Ισραηλ, from Hebrew Yiśrāʾēl, which the Hebrew of 32:29 hears in śārâ ʿim ʾĕlōhîm, \"he strove with God\")"
+      }
+    ]
+  },
+  {
+    "ref": "GEN 36:32",
+    "greek": "καὶ ἐβασίλευσεν ἐν Εδωμ Βαλακ υἱὸς τοῦ Βεωρ, καὶ ὄνομα τῇ πόλει αὐτοῦ Δενναβα.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 58",
+    "hint": "The first king. Each reign is told in the same three clauses: he reigned, he died, another reigned in his place.",
+    "notes": [
+      {
+        "lemma": "Βαλακ",
+        "flag": null,
+        "text": "The same Greek form stands at 14:2 for the city later called Σηγωρ; here it is a man."
+      }
+    ],
+    "reading": "and [[was king|was king, ruled, reigned, was queen, was king of, was governed by a king, was master of|βασιλεύω]] [[in|within, inside of, and by means of|ἐν]] [[name:Εδωμ]] [[name:Βαλακ]] son the [[name:Βεωρ]], and [[a name|a name, fame, a mere name, a phrase and expression|ὄνομα]] [[to the city|to the city, to the citadel, to the country, to the body of citizens, to the state|πόλις]] of him [[name:Δενναβα]].",
+    "names": [
+      {
+        "greek": "Εδωμ",
+        "unanchored": "Edōm",
+        "anchored": "Edom",
+        "bare": true
+      },
+      {
+        "greek": "Βαλακ",
+        "unanchored": "Balak",
+        "anchored": "Bela",
+        "gloss": "(Βαλακ, from Hebrew Belaʿ, usually connected with bālaʿ, \"to swallow\")"
+      },
+      {
+        "greek": "Βεωρ",
+        "unanchored": "Beōr",
+        "anchored": "Beor",
+        "gloss": "(Βεωρ, from Hebrew Bĕʿôr, of uncertain meaning)"
+      },
+      {
+        "greek": "Δενναβα",
+        "unanchored": "Dennaba",
+        "anchored": "Dinhabah",
+        "gloss": "(Δενναβα, from Hebrew Dinhābâ, of uncertain meaning)"
+      }
+    ]
+  },
+  {
+    "ref": "GEN 36:33",
+    "greek": "ἀπέθανεν δὲ Βαλακ, καὶ ἐβασίλευσεν ἀντʼ αὐτοῦ Ιωβαβ υἱὸς Ζαρα ἐκ Βοσορρας.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 58",
+    "hint": "The formula begins.",
+    "notes": [
+      {
+        "lemma": "ἀντʼ αὐτοῦ",
+        "flag": null,
+        "text": "ἀντί with the genitive: in place of him. The preposition carries the succession, and it repeats through 39."
+      },
+      {
+        "lemma": "Ιωβαβ",
+        "flag": "variant",
+        "text": "[[flag]] The apparatus: ιωβαδ in A here, but ιωβαβ at 34."
+      }
+    ],
+    "reading": "[[died off|died off, died, was put to death, was slain|ἀποθνήσκω]] [[but|but, however, whereas, on the other hand|δέ]] [[name:Βαλακ]], and [[was king|was king, ruled, reigned, was queen, was king of, was governed by a king, was master of|βασιλεύω]] [[over against|over against, opposite, instead and in the place of, as good as and equal to, at the price of and for, for the sake of, set against and compared with|ἀντί]] of him [[name:Ιωβαβ]] son [[name:Ζαρα]] [[out of|out of, forth from, from|ἐκ]] [[name:Βοσορρας]].",
+    "names": [
+      {
+        "greek": "Βαλακ",
+        "unanchored": "Balak",
+        "anchored": "Bela",
+        "bare": true
+      },
+      {
+        "greek": "Ιωβαβ",
+        "unanchored": "Iōbab",
+        "anchored": "Jobab",
+        "gloss": "(Ιωβαβ, from Hebrew Yôbāb, perhaps \"howler\")"
+      },
+      {
+        "greek": "Ζαρα",
+        "unanchored": "Zara",
+        "anchored": "Zerah",
+        "gloss": "(Ζαρα, from Hebrew Zeraḥ, \"dawning\" or \"shining\", the same name Ζαρε renders at 36:13)"
+      },
+      {
+        "greek": "Βοσορρας",
+        "unanchored": "Bosorras",
+        "anchored": "Bozrah",
+        "gloss": "(Βοσορρα, from Hebrew Boṣrâ, \"fortress\" or \"enclosure\")"
+      }
+    ]
+  },
+  {
+    "ref": "GEN 36:34",
+    "greek": "ἀπέθανεν δὲ Ιωβαβ, καὶ ἐβασίλευσεν ἀντʼ αὐτοῦ Ασομ ἐκ τῆς γῆς Θαιμανων.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 58",
+    "hint": "The second succession.",
+    "notes": [
+      {
+        "lemma": "τῆς γῆς",
+        "flag": "variant",
+        "text": "[[flag]] The apparatus: the majority have της, A omits it."
+      }
+    ],
+    "reading": "[[died off|died off, died, was put to death, was slain|ἀποθνήσκω]] [[but|but, however, whereas, on the other hand|δέ]] [[name:Ιωβαβ]], and [[was king|was king, ruled, reigned, was queen, was king of, was governed by a king, was master of|βασιλεύω]] [[over against|over against, opposite, instead and in the place of, as good as and equal to, at the price of and for, for the sake of, set against and compared with|ἀντί]] of him [[name:Ασομ]] [[out of|out of, forth from, from|ἐκ]] [[of the earth|of the earth, of the land, of the ground|γῆ]] [[name:Θαιμανων]].",
+    "names": [
+      {
+        "greek": "Ιωβαβ",
+        "unanchored": "Iōbab",
+        "anchored": "Jobab",
+        "bare": true
+      },
+      {
+        "greek": "Ασομ",
+        "unanchored": "Asom",
+        "anchored": "Husham",
+        "gloss": "(Ασομ, from Hebrew Ḥûšām, perhaps \"haste\")"
+      },
+      {
+        "greek": "Θαιμανων",
+        "unanchored": "Thaimanōn",
+        "anchored": "Temanites",
+        "gloss": "(Θαιμανος, the people of Θαιμαν, Teman)"
+      }
+    ]
+  },
+  {
+    "ref": "GEN 36:35",
+    "greek": "ἀπέθανεν δὲ Ασομ, καὶ ἐβασίλευσεν ἀντʼ αὐτοῦ Αδαδ υἱὸς Βαραδ ὁ ἐκκόψας Μαδιαμ ἐν τῷ πεδίῳ Μωαβ, καὶ ὄνομα τῇ πόλει αὐτοῦ Γεθθαιμ.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 58",
+    "hint": "The one king given a deed of his own: he struck Midian in the field of Moab.",
+    "notes": [
+      {
+        "lemma": "ὁ ἐκκόψας Μαδιαμ",
+        "flag": null,
+        "text": "ἐκκόπτω, to cut out or fell; of an army, to cut down. The only military act in the chapter."
+      },
+      {
+        "lemma": "Βαραδ",
+        "flag": null,
+        "text": "The same Greek form stands at 16:14 for the place Bered; here it is a man, Bedad."
+      }
+    ],
+    "reading": "[[died off|died off, died, was put to death, was slain|ἀποθνήσκω]] [[but|but, however, whereas, on the other hand|δέ]] [[name:Ασομ]], and [[was king|was king, ruled, reigned, was queen, was king of, was governed by a king, was master of|βασιλεύω]] [[over against|over against, opposite, instead and in the place of, as good as and equal to, at the price of and for, for the sake of, set against and compared with|ἀντί]] of him [[name:Αδαδ]] son [[name:Βαραδ]] the [[the one having cut out|the one having cut out and knocked out, the one having felled and cut down all the trees, the one having cut off and made an end of, the one having beaten off and repulsed|ἐκκόπτω]] [[name:Μαδιαμ]] [[in the plain|within, inside of, and by means of the plain, the flat, the plain flat open country|πεδίον]] [[name:Μωαβ]], and [[a name|a name, fame, a mere name, a phrase and expression|ὄνομα]] [[to the city|to the city, to the citadel, to the country, to the body of citizens, to the state|πόλις]] of him [[name:Γεθθαιμ]].",
+    "names": [
+      {
+        "greek": "Ασομ",
+        "unanchored": "Asom",
+        "anchored": "Husham",
+        "bare": true
+      },
+      {
+        "greek": "Αδαδ",
+        "unanchored": "Adad",
+        "anchored": "Hadad",
+        "gloss": "(Αδαδ, from Hebrew Hădad, the name of the storm-god)"
+      },
+      {
+        "greek": "Βαραδ",
+        "unanchored": "Barad",
+        "anchored": "Bedad",
+        "gloss": "(Βαραδ, here from Hebrew Bĕdad, a different name from the Bered this same Greek form renders at 16:14)"
+      },
+      {
+        "greek": "Μαδιαμ",
+        "unanchored": "Madiam",
+        "anchored": "Midian",
+        "gloss": "(Μαδιαμ, from Hebrew Midyān, of uncertain meaning)"
+      },
+      {
+        "greek": "Μωαβ",
+        "unanchored": "Mōab",
+        "anchored": "Moab",
+        "gloss": "(Μωαβ, from Hebrew Môʾāb, of uncertain meaning)"
+      },
+      {
+        "greek": "Γεθθαιμ",
+        "unanchored": "Geththaim",
+        "anchored": "Avith",
+        "gloss": "(Γεθθαιμ, standing where the Hebrew has ʿĂwît)"
+      }
+    ]
+  },
+  {
+    "ref": "GEN 36:36",
+    "greek": "ἀπέθανεν δὲ Αδαδ, καὶ ἐβασίλευσεν ἀντʼ αὐτοῦ Σαμαλα ἐκ Μασεκκας.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 58",
+    "hint": "The fourth succession.",
+    "notes": [
+      {
+        "lemma": "Σαμαλα",
+        "flag": "variant",
+        "text": "[[flag]] The apparatus: σαλαμα in A here and at 37."
+      }
+    ],
+    "reading": "[[died off|died off, died, was put to death, was slain|ἀποθνήσκω]] [[but|but, however, whereas, on the other hand|δέ]] [[name:Αδαδ]], and [[was king|was king, ruled, reigned, was queen, was king of, was governed by a king, was master of|βασιλεύω]] [[over against|over against, opposite, instead and in the place of, as good as and equal to, at the price of and for, for the sake of, set against and compared with|ἀντί]] of him [[name:Σαμαλα]] [[out of|out of, forth from, from|ἐκ]] [[name:Μασεκκας]].",
+    "names": [
+      {
+        "greek": "Αδαδ",
+        "unanchored": "Adad",
+        "anchored": "Hadad",
+        "bare": true
+      },
+      {
+        "greek": "Σαμαλα",
+        "unanchored": "Samala",
+        "anchored": "Samlah",
+        "gloss": "(Σαμαλα, from Hebrew Śamlâ, \"garment\")"
+      },
+      {
+        "greek": "Μασεκκας",
+        "unanchored": "Masekkas",
+        "anchored": "Masrekah",
+        "gloss": "(Μασεκκα, from Hebrew Maśrēqâ, \"vineyard\")"
+      }
+    ]
+  },
+  {
+    "ref": "GEN 36:37",
+    "greek": "ἀπέθανεν δὲ Σαμαλα, καὶ ἐβασίλευσεν ἀντʼ αὐτοῦ Σαουλ ἐκ Ροωβωθ τῆς παρὰ ποταμόν.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, pp. 58–59",
+    "hint": "Rehoboth by the River — the only place in the list fixed by a landmark.",
+    "notes": [
+      {
+        "lemma": "τῆς παρὰ ποταμόν",
+        "flag": null,
+        "text": "The article makes the phrase a name: the Rehoboth that is by a river."
+      }
+    ],
+    "reading": "[[died off|died off, died, was put to death, was slain|ἀποθνήσκω]] [[but|but, however, whereas, on the other hand|δέ]] [[name:Σαμαλα]], and [[was king|was king, ruled, reigned, was queen, was king of, was governed by a king, was master of|βασιλεύω]] [[over against|over against, opposite, instead and in the place of, as good as and equal to, at the price of and for, for the sake of, set against and compared with|ἀντί]] of him [[name:Σαουλ]] [[out of|out of, forth from, from|ἐκ]] [[name:Ροωβωθ]] the [[to the side of|to the side of, motion alongside of, to, beside and near and by, passing by, beyond, contrary to and against, beside and except, on account of and because of and by means of, along the whole course of and during|παρά + accusative]] [[a river|a river, a stream, a river-god|ποταμός]].",
+    "names": [
+      {
+        "greek": "Σαμαλα",
+        "unanchored": "Samala",
+        "anchored": "Samlah",
+        "bare": true
+      },
+      {
+        "greek": "Σαουλ",
+        "unanchored": "Saoul",
+        "anchored": "Shaul",
+        "gloss": "(Σαουλ, from Hebrew Šāʾûl, \"asked for\")"
+      },
+      {
+        "greek": "Ροωβωθ",
+        "unanchored": "Roōbōth",
+        "anchored": "Rehoboth",
+        "gloss": "(Ροωβωθ, from Hebrew Rĕḥōbôt, \"broad places\")"
+      }
+    ]
+  },
+  {
+    "ref": "GEN 36:38",
+    "greek": "ἀπέθανεν δὲ Σαουλ, καὶ ἐβασίλευσεν ἀντʼ αὐτοῦ Βαλαεννων υἱὸς Αχοβωρ.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 59",
+    "hint": "The sixth succession.",
+    "notes": [
+      {
+        "lemma": "Βαλαεννων υἱὸς Αχοβωρ",
+        "flag": null,
+        "text": "The only name in the list built on Baal, and the Greek keeps it whole."
+      }
+    ],
+    "reading": "[[died off|died off, died, was put to death, was slain|ἀποθνήσκω]] [[but|but, however, whereas, on the other hand|δέ]] [[name:Σαουλ]], and [[was king|was king, ruled, reigned, was queen, was king of, was governed by a king, was master of|βασιλεύω]] [[over against|over against, opposite, instead and in the place of, as good as and equal to, at the price of and for, for the sake of, set against and compared with|ἀντί]] of him [[name:Βαλαεννων]] son [[name:Αχοβωρ]].",
+    "names": [
+      {
+        "greek": "Σαουλ",
+        "unanchored": "Saoul",
+        "anchored": "Shaul",
+        "bare": true
+      },
+      {
+        "greek": "Βαλαεννων",
+        "unanchored": "Balaennōn",
+        "anchored": "Baal-hanan",
+        "gloss": "(Βαλαεννων, from Hebrew Baʿal-ḥānān, \"Baal is gracious\")"
+      },
+      {
+        "greek": "Αχοβωρ",
+        "unanchored": "Achobōr",
+        "anchored": "Achbor",
+        "gloss": "(Αχοβωρ, from Hebrew ʿAkbôr, \"mouse\")"
+      }
+    ]
+  },
+  {
+    "ref": "GEN 36:39",
+    "greek": "ἀπέθανεν δὲ Βαλαεννων υἱὸς Αχοβωρ, καὶ ἐβασίλευσεν ἀντʼ αὐτοῦ Αραδ υἱὸς Βαραδ, καὶ ὄνομα τῇ πόλει αὐτοῦ Φογωρ, ὄνομα δὲ τῇ γυναικὶ αὐτοῦ Μαιτεβεηλ θυγάτηρ Ματραιθ υἱοῦ Μαιζοοβ.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 59",
+    "hint": "The last king, with his wife and her line — the only queen named.",
+    "notes": [
+      {
+        "lemma": "Αραδ",
+        "flag": "variant",
+        "text": "[[flag]] The apparatus: αραθ in A for αραδ, βαραθ for βαραδ, and μετ. for μαιτεβεηλ, which Rahlfs conjectures."
+      },
+      {
+        "lemma": "θυγάτηρ Ματραιθ υἱοῦ Μαιζοοβ",
+        "flag": null,
+        "text": "Her descent is given through father and grandfather, as Oholibamah's was at 2."
+      }
+    ],
+    "reading": "[[died off|died off, died, was put to death, was slain|ἀποθνήσκω]] [[but|but, however, whereas, on the other hand|δέ]] [[name:Βαλαεννων]] son [[name:Αχοβωρ]], and [[was king|was king, ruled, reigned, was queen, was king of, was governed by a king, was master of|βασιλεύω]] [[over against|over against, opposite, instead and in the place of, as good as and equal to, at the price of and for, for the sake of, set against and compared with|ἀντί]] of him [[name:Αραδ]] son [[name:Βαραδ]], and [[a name|a name, fame, a mere name, a phrase and expression|ὄνομα]] [[to the city|to the city, to the citadel, to the country, to the body of citizens, to the state|πόλις]] of him [[name:Φογωρ]], [[a name|a name, fame, a mere name, a phrase and expression|ὄνομα]] [[but|but, however, whereas, on the other hand|δέ]] [[to the woman|to the woman, to the mistress and lady, to the wife and spouse, to the mortal woman|γυνή]] of him [[name:Μαιτεβεηλ]] daughter [[name:Ματραιθ]] son [[name:Μαιζοοβ]].",
+    "names": [
+      {
+        "greek": "Βαλαεννων",
+        "unanchored": "Balaennōn",
+        "anchored": "Baal-hanan",
+        "bare": true
+      },
+      {
+        "greek": "Αχοβωρ",
+        "unanchored": "Achobōr",
+        "anchored": "Achbor",
+        "bare": true
+      },
+      {
+        "greek": "Αραδ",
+        "unanchored": "Arad",
+        "anchored": "Hadar",
+        "gloss": "(Αραδ, from Hebrew Hădar, of uncertain meaning)"
+      },
+      {
+        "greek": "Βαραδ",
+        "unanchored": "Barad",
+        "anchored": "Bedad",
+        "bare": true
+      },
+      {
+        "greek": "Φογωρ",
+        "unanchored": "Phogōr",
+        "anchored": "Pau",
+        "gloss": "(Φογωρ, standing where the Hebrew has Pāʿû)"
+      },
+      {
+        "greek": "Μαιτεβεηλ",
+        "unanchored": "Maitebeēl",
+        "anchored": "Mehetabel",
+        "gloss": "(Μαιτεβεηλ, from Hebrew Mĕhêṭabʾēl, \"God does good\")"
+      },
+      {
+        "greek": "Ματραιθ",
+        "unanchored": "Matraith",
+        "anchored": "Matred",
+        "gloss": "(Ματραιθ, from Hebrew Maṭrēd, of uncertain meaning)"
+      },
+      {
+        "greek": "Μαιζοοβ",
+        "unanchored": "Maizoob",
+        "anchored": "Mezahab",
+        "gloss": "(Μαιζοοβ, from Hebrew Mê zāhāb, \"waters of gold\")"
+      }
+    ]
+  },
+  {
+    "ref": "GEN 36:40",
+    "greek": "Ταῦτα τὰ ὀνόματα τῶν ἡγεμόνων Ησαυ ἐν ταῖς φυλαῖς αὐτῶν κατὰ τόπον αὐτῶν, ἐν ταῖς χώραις αὐτῶν καὶ ἐν τοῖς ἔθνεσιν αὐτῶν· ἡγεμὼν Θαμνα, ἡγεμὼν Γωλα, ἡγεμὼν Ιεθερ,",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 59",
+    "hint": "A third list of chiefs, this one by clan and territory rather than by descent.",
+    "notes": [
+      {
+        "lemma": "ἐν ταῖς φυλαῖς … κατὰ τόπον … ἐν ταῖς χώραις … ἐν τοῖς ἔθνεσιν",
+        "flag": null,
+        "text": "Four ways of dividing them, piled up: by tribe, by place, by country, by nation."
+      },
+      {
+        "lemma": "Ιεθερ",
+        "flag": "variant",
+        "text": "[[flag]] The apparatus: ιεβερ in A."
+      }
+    ],
+    "reading": "[[these|these, the nearer, what follows|οὗτος]] [[names|names, fames, mere names, phrases and expressions|ὄνομα]] [[of the ones who lead|of the ones who lead, of the guides, of the ones who are an authority, of the leaders and commanders and chiefs, of the chiefs and sovereigns, of the provincial governors|ἡγεμών]] [[name:Ησαυ]] [[in the races|within, inside of, and by means of the races, the tribes, the bodies united by ties of blood and descent, the clans, the tribes by local habitation, the hundreds and counties, the contingents furnished by a tribe, the brigades|φυλή]] of them [[down|down, downwards, down from, down upon, over, upon|κατά + accusative]] [[place|place, local circumstances, position, passage in a book, topic, common-place, occasion and opportunity|τόπος]] of them, [[in the spaces in which a thing is|within, inside of, and by means of the spaces in which a thing is, the places, the positions and posts, the places in life and stations, the lands and countries, the pieces of land and estates and farms, the countries|χώρα]] of them and [[in the numbers of people accustomed to live together|within, inside of, and by means of the numbers of people accustomed to live together, the companies and bodies of men, the hosts, the swarms and flocks, the nations and peoples, the nations and gentiles, the special classes, the castes and tribes, the sexes|ἔθνος]] of them; [[one who leads|one who leads, a guide, one who is an authority, a leader and commander and chief, a chief and sovereign, a provincial governor|ἡγεμών]] [[name:Θαμνα]], [[one who leads|one who leads, a guide, one who is an authority, a leader and commander and chief, a chief and sovereign, a provincial governor|ἡγεμών]] [[name:Γωλα]], [[one who leads|one who leads, a guide, one who is an authority, a leader and commander and chief, a chief and sovereign, a provincial governor|ἡγεμών]] [[name:Ιεθερ]],",
+    "names": [
+      {
+        "greek": "Ησαυ",
+        "unanchored": "Ēsau",
+        "anchored": "Esau",
+        "bare": true
+      },
+      {
+        "greek": "Θαμνα",
+        "unanchored": "Thamna",
+        "anchored": "Timna",
+        "bare": true
+      },
+      {
+        "greek": "Γωλα",
+        "unanchored": "Gōla",
+        "anchored": "Alvah",
+        "gloss": "(Γωλα, from Hebrew ʿAlwâ, of uncertain meaning)"
+      },
+      {
+        "greek": "Ιεθερ",
+        "unanchored": "Iether",
+        "anchored": "Jetheth",
+        "gloss": "(Ιεθερ, from Hebrew Yĕtēt, of uncertain meaning)"
+      }
+    ]
+  },
+  {
+    "ref": "GEN 36:41",
+    "greek": "ἡγεμὼν Ελιβεμας, ἡγεμὼν Ηλας, ἡγεμὼν Φινων,",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 59",
+    "hint": "The list runs on.",
+    "notes": [
+      {
+        "lemma": "Φινων",
+        "flag": "variant",
+        "text": "[[flag]] The apparatus: φινες in A."
+      }
+    ],
+    "reading": "[[one who leads|one who leads, a guide, one who is an authority, a leader and commander and chief, a chief and sovereign, a provincial governor|ἡγεμών]] [[name:Ελιβεμας]], [[one who leads|one who leads, a guide, one who is an authority, a leader and commander and chief, a chief and sovereign, a provincial governor|ἡγεμών]] [[name:Ηλας]], [[one who leads|one who leads, a guide, one who is an authority, a leader and commander and chief, a chief and sovereign, a provincial governor|ἡγεμών]] [[name:Φινων]],",
+    "names": [
+      {
+        "greek": "Ελιβεμας",
+        "unanchored": "Elibemas",
+        "anchored": "Oholibamah",
+        "bare": true
+      },
+      {
+        "greek": "Ηλας",
+        "unanchored": "Ēlas",
+        "anchored": "Elah",
+        "gloss": "(Ηλας, from Hebrew ʾÊlâ, \"terebinth\")"
+      },
+      {
+        "greek": "Φινων",
+        "unanchored": "Phinōn",
+        "anchored": "Pinon",
+        "gloss": "(Φινων, from Hebrew Pînōn, of uncertain meaning)"
+      }
+    ]
+  },
+  {
+    "ref": "GEN 36:42",
+    "greek": "ἡγεμὼν Κενεζ, ἡγεμὼν Θαιμαν, ἡγεμὼν Μαζαρ,",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 59",
+    "hint": "The list runs on.",
+    "notes": [
+      {
+        "lemma": "Κενεζ … Θαιμαν",
+        "flag": null,
+        "text": "Two names from Eliphaz's sons at 11 stand again as clans, as Θαμνα does at 40."
+      }
+    ],
+    "reading": "[[one who leads|one who leads, a guide, one who is an authority, a leader and commander and chief, a chief and sovereign, a provincial governor|ἡγεμών]] [[name:Κενεζ]], [[one who leads|one who leads, a guide, one who is an authority, a leader and commander and chief, a chief and sovereign, a provincial governor|ἡγεμών]] [[name:Θαιμαν]], [[one who leads|one who leads, a guide, one who is an authority, a leader and commander and chief, a chief and sovereign, a provincial governor|ἡγεμών]] [[name:Μαζαρ]],",
+    "names": [
+      {
+        "greek": "Κενεζ",
+        "unanchored": "Kenez",
+        "anchored": "Kenaz",
+        "bare": true
+      },
+      {
+        "greek": "Θαιμαν",
+        "unanchored": "Thaiman",
+        "anchored": "Teman",
+        "bare": true
+      },
+      {
+        "greek": "Μαζαρ",
+        "unanchored": "Mazar",
+        "anchored": "Mibzar",
+        "gloss": "(Μαζαρ, from Hebrew Mibṣār, \"fortress\")"
+      }
+    ]
+  },
+  {
+    "ref": "GEN 36:43",
+    "greek": "ἡγεμὼν Μεγεδιηλ, ἡγεμὼν Ζαφωιμ. οὗτοι ἡγεμόνες Εδωμ ἐν ταῖς κατῳκοδομημέναις ἐν τῇ γῇ τῆς κτήσεως αὐτῶν. Οὗτος Ησαυ πατὴρ Εδωμ.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 59",
+    "hint": "The chapter closes as it opened, with Esau named father of Edom.",
+    "notes": [
+      {
+        "lemma": "ἐν ταῖς κατῳκοδομημέναις",
+        "flag": null,
+        "text": "A perfect participle used as a noun: the built-up places, the settlements. The verb is found nowhere else in Genesis."
+      },
+      {
+        "lemma": "τῆς κτήσεως αὐτῶν",
+        "flag": null,
+        "text": "κτῆσις, what has been acquired: the holding, over against the παροίκησις of 7, where they were only neighbours."
+      },
+      {
+        "lemma": "Μεγεδιηλ",
+        "flag": "variant",
+        "text": "[[flag]] The apparatus: μετοδιηλ in A, and ζαφωει for ζαφωιμ."
+      }
+    ],
+    "reading": "[[one who leads|one who leads, a guide, one who is an authority, a leader and commander and chief, a chief and sovereign, a provincial governor|ἡγεμών]] [[name:Μεγεδιηλ]], [[one who leads|one who leads, a guide, one who is an authority, a leader and commander and chief, a chief and sovereign, a provincial governor|ἡγεμών]] [[name:Ζαφωιμ]]. [[these|these, the nearer, what follows|οὗτος]] [[ones who lead|ones who lead, guides, ones who are an authority, leaders and commanders and chiefs, chiefs and sovereigns, provincial governors|ἡγεμών]] [[name:Εδωμ]] [[in the ones having been built upon|within, inside of, and by means of the ones having been built upon and standing so, the ones having been built away, the ones having been squandered in building|κατοικοδομέω]] [[in the earth|within, inside of, and by means of the earth, the land, the ground|γῆ]] [[of the acquisition|of the acquisition, of the possession, of the possessions and property|κτῆσις]] of them. [[this|this, the nearer, what follows|οὗτος]] [[name:Ησαυ]] father [[name:Εδωμ]].",
+    "names": [
+      {
+        "greek": "Μεγεδιηλ",
+        "unanchored": "Megediēl",
+        "anchored": "Magdiel",
+        "gloss": "(Μεγεδιηλ, from Hebrew Magdîʾēl, perhaps \"choice gift of God\")"
+      },
+      {
+        "greek": "Ζαφωιμ",
+        "unanchored": "Zaphōim",
+        "anchored": "Iram",
+        "gloss": "(Ζαφωιμ, standing where the Hebrew has ʿÎrām)"
+      },
+      {
+        "greek": "Εδωμ",
+        "unanchored": "Edōm",
+        "anchored": "Edom",
+        "bare": true
+      },
+      {
+        "greek": "Ησαυ",
+        "unanchored": "Ēsau",
+        "anchored": "Esau",
+        "bare": true
+      }
+    ]
+  }
+]

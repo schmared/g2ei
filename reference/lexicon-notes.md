@@ -5219,3 +5219,63 @@ entries and not one chain that drifted. The unit names the case: `μετά + gen
 Recording it found four διά units and one περί unit carrying the other case's chain.
 GEN 24:11 is the one place with no case to read: τὸ πρὸς ὀψέ, *toward evening*, governs an
 adverb, and the neuter article makes it the accusative section's time expression.
+
+
+### Words new in GEN 36
+
+- The chapter is a genealogy, and the genealogies read as GEN 10 and GEN 25 read: the frame of
+  the list — *sons of*, *daughters of*, *sister*, *father* — stands as plain text, and only the
+  words that are not kinship terms are opened. υἱός, θυγάτηρ, ἀδελφή and the numerals are
+  unopened across the whole corpus; whether they should be is an open question, not a decision
+  taken here.
+- ἡγεμών — the chapter's own word, thirty-two times in the singular and nine in the plural. It
+  renders the Hebrew ʾallûp, the head of a clan. Middle Liddell's first sense is *one who
+  leads*, so that heads it; *commanders*, a repeat, and *Emperor* are left out.
+- `ἡγεμὼν Θαιμαν` is apposition, not a genitive: the names of 15-18 are the sons named in
+  11-14, so each is *chief Teman*, the man in his office. Where the plural ἡγεμόνες governs a
+  name it is a genitive, and 18's Ελιβεμας shows the ending. The two independent passes at the
+  morphology disagreed here, and the text settled it.
+- νέμω — one occurrence, and the widest entry in the chapter: thirty-one translations running
+  from dealing out a portion to pasturing a flock. Four are citation fragments and are filed in
+  NOT_SENSES.
+- βασιλεύω — the king-list of 31-39 uses it eight times as an aorist, once as a participle and
+  once as an infinitive. Middle Liddell's first sense is *to be king*, so the aorist reads *was
+  king*; the entry's own *to have become king* is the ingressive the aorist usually carries,
+  and it stands inside the chain.
+- κατοικοδομέω — found nowhere else in Genesis. Its second translation is the bare preposition
+  *in*, a fragment of *to build upon or in*, and is filed in NOT_SENSES.
+- ἡγεμονία — likewise, *hegemony.* repeats the sense above it and *imperium* is the Latin; both
+  are filed.
+- Αδας and Ωνας — two names the chapter declines, where the names check reads an inflected form
+  as the same name only when the stem is long enough. Αδα is three letters and Ωναν ends
+  otherwise, so each declined form carries its own gloss, and the gloss says whose it is.
+- Θαμνα stands three ways: Eliphaz's concubine at 12, Lotan's sister at 22, and a clan at 40.
+  The morphology reads the clan as masculine, with ἡγεμών, and the woman as feminine.
+- Χαρραν at 26 is Hebrew Kĕrān, not the Ḥārān this same Greek form renders from 11:31; Βαραδ at
+  35 is Bĕdad, not the Bered of 16:14; Αραμ at 28 is ʾĂrān, not the ʾĂrām of 10:22. Three Greek
+  forms doing double duty, each recorded on its morphology line.
+- Ezer's sons are four in the Greek where the Hebrew has three; Ιωυκαμ answers to nothing in
+  the Hebrew line. Flagged `divergence` at 27.
+
+| lemma | headword | chain | used |
+| --- | --- | --- | --- |
+| βασιλεύω | `the ones having been king` | `the ones having been king, the ones having ruled and reigned, the ones having been queen, the ones having been king of, the ones having been governed by a king, the ones having been master of` | 36:31 |
+| βασιλεύω | `to be king` | `to be king, to rule, to reign, to be queen, to be king of, to be governed by a king, to be master of` | 36:31 |
+| βασιλεύω | `was king` | `was king, ruled, reigned, was queen, was king of, was governed by a king, was master of` | 36:32 |
+| γυνή | `of woman` | `of woman, of mistress and lady, of wife and spouse, of mortal woman` | 36:10 |
+| δύναμαι | `was being able` | `was being able, was capable, was strong enough, dared and bore, passed for, was worth, was equivalent to, signified and meant` | 36:7 |
+| κατοικέω | `of the one dwelling in` | `of the one dwelling in, of the one settling in, of the one colonising, of the one inhabiting, of the one settling and dwelling, of the one lying and situate` | 36:20 |
+| κατοικοδομέω | `in the ones having been built upon` | `within, inside of, and by means of the ones having been built upon and standing so, the ones having been built away, the ones having been squandered in building` | 36:43 |
+| κτῆσις | `of the acquisition` | `of the acquisition, of the possession, of the possessions and property` | 36:43 |
+| νέμω | `was dealing out` | `was dealing out and distributing and dispensing, was having as his portion and possessing and enjoying, was dwelling in and inhabiting, was spending and passing, was holding and possessing, was holding sway and managing, was supporting, was using, was holding and considering as, was pasturing, was driving to pasture and tending, was feeding, was consuming and devouring, was giving` | 36:24 |
+| παλλακή | `a concubine` | `a concubine, a mistress` | 36:12 |
+| περιποιέομαι | `kept for himself` | `kept for himself, saved for himself, compassed and acquired and procured for himself` | 36:6 |
+| πρωτότοκος | `of the first-born` | `of the first-born` | 36:15 |
+| φέρω | `to bring` | `to bring, to bear, to carry, to endure` | 36:7 |
+| ἐκκόπτω | `the one having cut out` | `the one having cut out and knocked out, the one having felled and cut down all the trees, the one having cut off and made an end of, the one having beaten off and repulsed` | 36:35 |
+| ἡγεμονία | `in the leadings of the way` | `within, inside of, and by means of the leadings of the way and goings first, the chief commands, the authorities, the hegemonies, the sovereignties of one state over a number of subordinates, the divisions of the army and commands` | 36:30 |
+| ἡγεμών | `ones who lead` | `ones who lead, guides, ones who are an authority, leaders and commanders and chiefs, chiefs and sovereigns, provincial governors` | 36:15 |
+| ἡγεμών | `one who leads` | `one who leads, a guide, one who is an authority, a leader and commander and chief, a chief and sovereign, a provincial governor` | 36:15 |
+| ἡγεμών | `of the ones who lead` | `of the ones who lead, of the guides, of the ones who are an authority, of the leaders and commanders and chiefs, of the chiefs and sovereigns, of the provincial governors` | 36:40 |
+| ὑπάρχω | `of the existing circumstances` | `of the existing circumstances, of the present advantages, of what belongs to one, of the possessions and property and substance` | 36:7 |
+| ὑποζύγιον | `the beasts for the yoke` | `the beasts for the yoke, the beasts of burden` | 36:24 |

@@ -292,6 +292,10 @@ NOT_SENSES = {
     "kai/": {"que"},                            # Latin
     # κατὰ γῆν and γῆν πρὸ γῆς are idioms the entry quotes, not senses of the noun;
     # ποῦ γῆς likewise.
+    # GEN 36
+    "h(gemoni/a": {"hegemony.", "imperium"},    # a repeat, and the Latin
+    "ne/mw": {"due", "is freely bestowed", "portions", "is devoured"},
+    "katoikodome/w": {"in"},                    # of "to build upon or in"
     "gh=": {"ubi terrarum, where in (in what quarter of) the world, where on earth",
             "on land, by land", "from land to land"},
     # πύλαι οὐρανοῦ and πρὸς οὐρανὸν βιβάζειν are quoted idioms, evehere ad Deos is
