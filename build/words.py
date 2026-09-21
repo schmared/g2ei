@@ -301,13 +301,16 @@ NOT_SENSES = {
     # thousand stands for, the tenth-day naming rite, the second prize, the quart.
     # They are proper nouns of a constitution, as Uranus is of the sky, and a
     # numeral is left with the number it is.
+    # δεύτερος αὐτός and τρίτος αὐτός, himself with one or two others: the
+    # translations are fragments of the idiom, not senses of the ordinal.
+    "tri/tos": {"with two others", "completing the tale"},
     "de/ka": {"the Ten"},
     "tria/konta": {"the council of thirty", "the Thirty", "the thirty tyrants"},
     "tessara/konta": {"the Forty"},
     "triako/sioi": {"the Three Hundred"},
     "xi/lioi": {"a thousand drachmae"},
     "de/katos": {"the tenth day after birth", "naming-day"},
-    "deu/teros": {"the second prize", "place"},
+    "deu/teros": {"the second prize", "place", "with another"},
     "te/tartos": {"a liquid measure", "quart)"},
     # GEN 36
     "h(gemoni/a": {"hegemony.", "imperium"},    # a repeat, and the Latin
@@ -451,7 +454,7 @@ NOT_SENSES = {
     # GEN 7
     "a)noi/gnumi": {"and opened", "so as to open", "they tried to put back", "to tap", "took off"},  # pieces of Homeric examples; pieces of examples
     "chro/s": {"siccis oculis"},                # Latin
-    "mei/s": {"the beginning", "the waning", "from the end of the month", "the three-and twentieth"},  # the Attic calendar
+    "mei/s": {"in the course of", "monthly", "by the month", "the beginning", "the waning", "from the end of the month", "the three-and twentieth"},  # the Attic calendar
     "u(eto/s": {"a lasting", "a drizzling"},     # pieces of the distinction from ὄμβρος and ψακάς
     "katarra/kths": {"rushing down upon"},      # the reason the gull is named
     "e)calei/fw": {"to strike", "off"},         # from "to strike his name off the roll"
