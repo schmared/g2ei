@@ -45,6 +45,15 @@ def mut(data, path, value):
     return out
 
 
+def shut(verses, index, lemma):
+    """One unit written out as plain text — the accident the one-sense rule is about."""
+    out = copy.deepcopy(verses)
+    out[index]["reading"] = V.UNIT.sub(
+        lambda m: m.group(1) if m.group(3) == lemma else m.group(0),
+        out[index]["reading"])
+    return out
+
+
 def run(fn, *args):
     """One check against one dataset, its output captured. -> (failed, skipped, lines)"""
     rep, buf = V.Report(), io.StringIO()
@@ -211,6 +220,13 @@ NEGATIVE = [
     ("fields   malformed unit (no |)",   lambda: run(V.check_fields, mut(GEN, [0, "reading"], "[[made]] x"))),
     ("fields   unit with empty chain",   lambda: run(V.check_fields, mut(GEN, [0, "reading"], "[[made| ]] x"))),
     ("fields   unit with no lemma",     lambda: run(V.check_fields, mut(GEN, [0, "reading"], "[[made|a, b]] x"))),
+    ("1 sense  a word whose entry says more, left as plain text",
+                                         lambda: run(V.check_one_sense, "GEN", 1,
+                                                     shut(GEN, 0, "γῆ"))),
+    ("1 sense  a chain that only repeats its headword",
+                                         lambda: run(V.check_one_sense, "GEN", 1,
+                                                     mut(GEN, [0, "reading"],
+                                                         "[[made|made|ποιέω]] x"))),
     ("unit wds unit claims a word the verse lacks",
                                          lambda: run(V.check_unit_words, "GEN", 1,
                                                      mut(GEN, [0, "reading"], "[[made|a, b|λαγώς]] x"))),
@@ -360,6 +376,13 @@ CONTROL = [
                                                        "a repeated name prints its gloss once")),
     ("names    a name opening the verse is still a name",
                                          lambda: run(V.check_names, [dict(JHN[2], greek="Ἰωάννης ἦν.", reading="[[name:Ἰωάννης]] was.")])),
+    ("1 sense  clean GEN 1",             lambda: run(V.check_one_sense, "GEN", 1, GEN)),
+    # κιβωτός has one numbered sense and still wants a unit, because that sense reads
+    # `a wooden box, chest, coffer`; ὁρκίζω keeps its repeating chain because `made
+    # swear` holds ποιέω's headword, and flattening it would write that as plain text.
+    ("1 sense  clean GEN 24, with its kept unit",
+                                         lambda: run(V.check_one_sense, "GEN", 24,
+                                                     json.loads((render.DATA / "GEN/24.json").read_text(encoding="utf-8")))),
     ("names    clean GEN 3, with lower-case χερουβιμ",
                                          lambda: run(V.check_names, GEN3)),
     ("names    an inflected name matches its nominative",

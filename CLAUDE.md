@@ -52,6 +52,16 @@ load-bearing word is one unit: a **headword** and its **chain**.
   the chain's first sense.
 - The headword never stands bare in the unanchored text: nothing that belongs in a unit is
   written as plain text.
+- **A word is a unit exactly when its entry says more than its headword does.** More can be
+  a second sense, or simply more words in the first one: κιβωτός has one numbered sense and
+  still wants a unit, because that sense reads *a wooden box, chest, coffer* and the headword
+  keeps only the box. Where the entry says no more, the word is plain text — a chain that
+  repeats its headword prints `headword — headword —` and says nothing the plain text
+  would not. It holds both ways, because either way round is a word read wrong, and
+  for 1,038 words of Genesis the shut half had happened by accident rather than by decision.
+  Grammar is outside it: the article, εἰμί and ἐν are rendered by the formulas below, and a
+  particle — μή, καί — has a list of constructions in the lexicon where a content word has a
+  range.
 - No filler. Nothing enters either reading text that does not expand a Greek word —
   observations *about* the text (a quotation, a withheld verb) go in the notes.
 - No capitals the Greek does not mark. The manuscripts have none, so nothing is capitalised
@@ -224,6 +234,9 @@ comes from there.
 - every proper name in the Greek has a gloss on first occurrence in the chapter
 - no banned imported phrases (maintain a list; seed it with "face of the waters")
 - no headword stands bare — none written as plain text outside its unit
+- a content word is a unit exactly when its entry says more than its headword does, and
+  a unit whose chain is word for word its headword is not a unit at all — checked both
+  ways against the chapter's word-by-word layer, so neither half can happen by accident
 - every unit names a Greek word its own verse holds, checked against the chapter's
   morphology, so the lemma is not an assertion nothing tests
 - one word in one form reads one way: of two units sharing a lemma and a headword,

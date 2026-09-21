@@ -673,7 +673,9 @@ NOT_SENSES = {
     "deu=ro": {"to (have come hither and) be here"},  # an explanation
     "e)/leos": {"pity for . ."},                # a construction
     # GEN 20
-    "ou)=s": {"in the ear"},                     # a piece of an example
+    # "auris, the ear" is the Latin with the English after it, and "the ear"
+    # stands on its own as the next sense.
+    "ou)=s": {"in the ear", "auris, the ear"},  # a piece of an example, and the Latin
     "e)nora/w": {"in", "he saw"},               # pieces of examples
     "a)gnoe/w": {"not recognising", "he perceived", "knew well", "learn all", "ignorantly, by mistake"},  # pieces of examples, the adverb
     "a)lhqeu/w": {"he was right about", "to prove"},  # pieces of examples
@@ -943,6 +945,20 @@ NOT_SENSES = {
     "o)sfu/s": {"one's loins", "of the loins"},  # pieces of "to gird up one's loins"
     "li/qinos": {"stony"},                      # from "stony death"
     "e)pe/keina": {"beyond", "on the far side"},  # a repetition, and a piece of an example
+    # Opening the last of the words that print as plain text.
+    # Middle Liddell writes "on the upper side or part" and "of three stories or
+    # floors" as one sense each; splitting on the "or" makes a second sense out of
+    # half a phrase. τριώροφος has no other, so it is a one-sense word and stays
+    # plain text, which is what GEN 6:16's own note already says.
+    "triw/rofos": {"floors"},
+    # ὑπεναντίος: "opposite or contrary to" is one gloss of the dative construction,
+    # split the same way. τὸ and τὰ ὑπεναντίον are the neuter substantive and -ίως
+    # is the adverb, so neither is a sense οἱ ὑπεναντίοι can wear, as κατὰ μῆνα was
+    # not a sense of μήν.
+    "u(penanti/os": {"opposite", "the contrary", "on the contrary",
+                     "in a manner contrary to"},
+    # "so called from its broad leaves" is why the tree has the name, not a sense.
+    "pla/tanos": {"broad leaves."},
 }
 
 # An entry that divides its senses by tense and voice, so that which of them belong to a

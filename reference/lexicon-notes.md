@@ -5272,7 +5272,6 @@ adverb, and the neuter article makes it the accusative section's time expression
 | νέμω | `was dealing out` | `was dealing out and distributing and dispensing, was having as his portion and possessing and enjoying, was dwelling in and inhabiting, was spending and passing, was holding and possessing, was holding sway and managing, was supporting, was using, was holding and considering as, was pasturing, was driving to pasture and tending, was feeding, was consuming and devouring, was giving` | 36:24 |
 | παλλακή | `a concubine` | `a concubine, a mistress` | 36:12 |
 | περιποιέομαι | `kept for himself` | `kept for himself, saved for himself, compassed and acquired and procured for himself` | 36:6 |
-| πρωτότοκος | `of the first-born` | `of the first-born` | 36:15 |
 | φέρω | `to bring` | `to bring, to bear, to carry, to endure` | 36:7 |
 | ἐκκόπτω | `the one having cut out` | `the one having cut out and knocked out, the one having felled and cut down all the trees, the one having cut off and made an end of, the one having beaten off and repulsed` | 36:35 |
 | ἡγεμονία | `in the leadings of the way` | `within, inside of, and by means of the leadings of the way and goings first, the chief commands, the authorities, the hegemonies, the sovereignties of one state over a number of subordinates, the divisions of the army and commands` | 36:30 |
@@ -5281,3 +5280,136 @@ adverb, and the neuter article makes it the accusative section's time expression
 | ἡγεμών | `of the ones who lead` | `of the ones who lead, of the guides, of the ones who are an authority, of the leaders and commanders and chiefs, of the chiefs and sovereigns, of the provincial governors` | 36:40 |
 | ὑπάρχω | `of the existing circumstances` | `of the existing circumstances, of the present advantages, of what belongs to one, of the possessions and property and substance` | 36:7 |
 | ὑποζύγιον | `the beasts for the yoke` | `the beasts for the yoke, the beasts of burden` | 36:24 |
+
+
+## The one-sense rule, and the last words it left shut
+
+A word is a unit exactly when its entry says more than its headword does — both ways, so
+that neither half can happen by accident. 1,038 content words of Genesis had been standing
+as plain text; 933 of them turned out to be right, because their entry says no more than the
+headword already carries, and the rest are opened here. `build/validate.py` holds both halves
+now, against the chapter's own word-by-word layer.
+
+More is not the same as a second numbered sense. κιβωτός has one sense and still wants a
+unit, because that sense reads *a wooden box, chest, coffer* and the headword keeps only the
+box. Going the other way, 85 units whose chain was word for word their headword became plain
+text, πρωτότοκος among them — its entry is *first-born* and nothing else, so the unit printed
+`of the first-born — of the first-born —`. Four kept their units although their chains repeat:
+`made swear`, `made of the wood of the tree`, `drew into themselves` and `the he-goats` each
+hold another unit's headword inside them, and the unit is what tells the two apart.
+
+A rule could not finish the last of them. Each turned on something only the verse shows — so
+these were settled one at a time, against the verse.
+
+- **The case a unit wears is the one the prose around it already wears**, because the unit
+  replaces that prose and nothing else. Where a preposition governs the word, the preposition
+  carries the relation and the noun does not repeat it: GEN 1:2 already reads ἐπάνω τῆς
+  ἀβύσσου as *above the great deep*, so ἐπάνω τοῦ ὕδατος reads *above the water*.
+- **An ordinal takes the shape of the noun it agrees with, in its own verse.** ἡμέρα is
+  rendered six ways across the corpus — *day*, *the day*, *to the day*, *in the day*, *of
+  day*, *in day* — and an ordinal built from its own case instead produced *the day the to
+  the third*. Until ἡμέρα is settled, concord is what keeps a phrase readable.
+- **ἐπάνω** had never been opened at all: six tokens reading *upon, over, and atop* or
+  *over and atop*, which is composed English, not Middle Liddell's.
+- **GEN 7:16** carried a unit whose chain is εἰσπορεύομαι's entry but whose lemma said
+  εἰσέρχομαι — which the verse also holds, in its own unit, so the check that a unit names a
+  word its verse holds could not see it. That check does not count.
+- **GEN 31:40** read *from the of eyes of me*; **GEN 29:17** had the article stranded before
+  a postpositive δέ, where it could not join its noun; **GEN 33:2** had πρότερος's English
+  filed under πρῶτος, the same fault as GEN 32:18.
+
+Curated out of the lexicon, for reasons already established elsewhere in this file:
+
+- τριώροφος *of three stories or floors* and ἐπάνω's *on the upper side or part* are one
+  gloss each; splitting on the *or* makes a second sense out of half a phrase. τριώροφος has
+  no other sense, so it is a one-sense word and stays plain text — which is what GEN 6:16's
+  own note already said.
+- ὑπεναντίος: *opposite or contrary to* split the same way; τὸ and τὰ ὑπεναντίον are the
+  neuter substantive and -ίως is the adverb, so none of the three is a sense οἱ ὑπεναντίοι
+  can wear — as κατὰ μῆνα was not a sense of μήν.
+- οὖς's *auris, the ear* is the Latin with the English after it, and *the ear* stands on its
+  own as the next sense. πλάτανος's *broad leaves* is why the tree has the name.
+
+| γεύω | `give a taste of` | `give a taste of, taste of, taste and feel, taste the sweets of, have experience of` | 25:30 |
+| γόνυ | `of the knees` | `of the knees, of the laps, of the joints` | 30:3 |
+| δεκάτη | `a tenth` | `a tenth, a tenth part and tithe, a tenth day` | 28:22 |
+| δεκάτη | `tenth part` | `tenth part, tithe, tenth day, tenth` | 14:20 |
+| εἰσπορεύομαι | `of the ones going into` | `of the ones going into, of the ones entering` | 23:10 |
+| εἰσπορεύομαι | `the ones going into` | `the ones going into, the ones entering` | 7:16 |
+| εἰσπορεύομαι | `were going into` | `were going into, were entering` | 6:4 |
+| εὐοδόω | `has helped on the way` | `has helped on the way and it stands helped on the way, has had a prosperous journey, has prospered and been successful` | 24:21 |
+| εὐοδόω | `help on the way` | `help on the way, have a prosperous journey, prosper and be successful` | 24:12 |
+| εὐοδόω | `helped on the way` | `helped on the way, had a prosperous journey, prospered and was successful` | 24:48 |
+| εὐοδόω | `will help on the way` | `will help on the way, will have a prosperous journey, will prosper and be successful` | 24:40 |
+| εὐοδόω | `you help on the way` | `you help on the way, you have a prosperous journey, you prosper and are successful` | 24:42 |
+| καταβιάζομαι | `was constraining` | `was constraining, was being forced` | 19:3 |
+| λαός | `a people` | `a people, men, soldiers, a land-army, the common men, folk, Jews, Christians` | 25:23 |
+| λαός | `of a people` | `of a people, of men, of soldiers, of a land-army, of the common men, of folk, of Jews, of Christians` | 25:23 |
+| λαός | `of the people` | `of the people, of the men, of the soldiers, of the land-army, of the common men, of the folk, of the Jews, of the Christians` | 23:12 |
+| λαός | `peoples` | `peoples, men, soldiers, land-armies, common men, folk, Jews, Christians` | 25:23 |
+| λαός | `the people` | `the people, the men, the soldiers, the land-army, the common men, the folk, the Jews, the Christians` | 14:16 |
+| λαός | `to the people` | `to the people, to the men, to the soldiers, to the land-army, to the common men, to the folk, to the Jews, to the Christians` | 23:7 |
+| μηρός | `the thigh` | `the thigh, the leg-bones` | 24:2 |
+| μηρός | `to the thigh` | `to the thigh, to the leg-bones` | 32:32 |
+| ξηρός | `of the dry` | `of the dry, of the withered and lean and haggard, of the dry land, of the aground` | 7:22 |
+| οὖς | `in the ears` | `within, inside of, and by means of the ears, the handles` | 35:4 |
+| οὖς | `the ears` | `the ears, the handles` | 20:8 |
+| περίοικος | `of the dwelling round` | `of the dwelling round, of the neighbours, of the free inhabitants` | 19:29 |
+| περίοικος | `the dwelling round` | `the dwelling round, the neighbours, the free inhabitants` | 19:25 |
+| πρῶτος | `in foremost` | `within, inside of, and by means of foremost, first` | 33:2 |
+| πρῶτος | `of the foremost` | `of the foremost, of the first` | 8:13 |
+| πρῶτος | `to the foremost` | `to the foremost, to the first` | 8:5 |
+| πυρράκης | `red` | `red, ruddy` | 25:25 |
+| συναπόλλυμι | `you may be destroyed together` | `you may be destroyed together, you may be lost, you may perish together` | 19:15 |
+| συναπόλλυμι | `you may destroy together` | `you may destroy together, you may lose` | 18:23 |
+| τέκνον | `that which is borne` | `that which is borne, the born, a child, my son and my child, the young` | 17:16 |
+| τέκνον | `things borne` | `things borne, the born, children, the young` | 3:16 |
+| τέκνον | `to the things borne` | `to the things borne, to the born, to children, to the young` | 31:16 |
+| τεκνοποιέω | `I will bear children` | `I will bear children, I will beget them, I will breed children` | 30:3 |
+| τεκνοποιέω | `was bearing children` | `was bearing children, was begetting them, was breeding children` | 11:30 |
+| τεκνοποιέω | `you may bear children` | `you may bear children, you may beget them, you may breed children` | 16:2 |
+| τερέμινθος | `of the terebinth` | `of the terebinth, of the turpentine tree` | 14:6 |
+| τερέμινθος | `the terebinth` | `the terebinth, the turpentine tree` | 35:4 |
+| τρίτος | `the third` | `the third, the third and finishing, the day after to-morrow, the day before, the thirdly, the sacrifice to the dead offered the third day after the funeral, the third part` | 2:14 |
+| τρίτος | `third` | `third, third and finishing, day after to-morrow, day before, thirdly, a sacrifice to the dead offered the third day after the funeral, a third part` | 31:2 |
+| τρίτος | `to the third` | `to the third, to the third and finishing, to the day after to-morrow, to the day before, to the thirdly, to the sacrifice to the dead offered the third day after the funeral, to the third part` | 22:4 |
+| φρέαρ | `a well` | `a well, a tank and cistern and reservoir, an oil jar` | 21:19 |
+| φρέαρ | `in the well` | `within, inside of, and by means of the well, the tank and cistern and reservoir, the oil jar` | 21:32 |
+| φρέαρ | `of the well` | `of the well, of the tank and cistern and reservoir, of the oil jar` | 26:20 |
+| φρέαρ | `of the wells` | `of the wells, of the tanks and cisterns and reservoirs, of the oil jars` | 21:25 |
+| φρέαρ | `the well` | `the well, the tank and cistern and reservoir, the oil jar` | 16:14 |
+| φρέαρ | `the wells` | `the wells, the tanks and cisterns and reservoirs, the oil jars` | 26:15 |
+| φρέαρ | `to the well` | `to the well, to the tank and cistern and reservoir, to the oil jar` | 21:33 |
+| φρέαρ | `wells` | `wells, tanks and cisterns and reservoirs, oil jars` | 14:10 |
+| ἀδελφός | `of son of the same mother` | `of a son of the same mother, of a brother, of a near kinsman` | 9:5 |
+| ἀδελφός | `of the son of the same mother` | `of the son of the same mother, of the brother, of the near kinsman` | 4:9 |
+| ἀδελφός | `of the sons of the same mother` | `of the sons of the same mother, of the brothers, of the near kinsmen` | 16:12 |
+| ἀδελφός | `son of the same mother` | `a son of the same mother, a brother, a near kinsman` | 20:5 |
+| ἀδελφός | `son of the same mother` | `son of the same mother, brother, near kinsman` | 33:9 |
+| ἀδελφός | `sons of the same mother` | `sons of the same mother, brothers, near kinsmen` | 13:8 |
+| ἀδελφός | `the son of the same mother` | `the son of the same mother, the brother, the near kinsman` | 4:2 |
+| ἀδελφός | `the sons of the same mother` | `the sons of the same mother, the brothers, the near kinsmen` | 24:55 |
+| ἀδελφός | `to son of the same mother` | `to a son of the same mother, to a brother, to a near kinsman` | 10:21 |
+| ἀδελφός | `to sons of the same mother` | `to sons of the same mother, to brothers, to near kinsmen` | 9:22 |
+| ἀδελφός | `to the son of the same mother` | `to the son of the same mother, to the brother, to the near kinsman` | 4:21 |
+| ἀδελφός | `to the sons of the same mother` | `to the sons of the same mother, to the brothers, to the near kinsmen` | 9:25 |
+| ἀληθεύω | `speak truth` | `speak truth, come true` | 20:16 |
+| ἄζυμος | `unleavened` | `unleavened, the feast of unleavened bread` | 19:3 |
+| ἐξαποστέλλω | `I sent quite away` | `I sent quite away, I dispatched` | 31:27 |
+| ἐξαποστέλλω | `sent quite away` | `sent quite away, dispatched` | 3:23 |
+| ἐξαποστέλλω | `we sent quite away` | `we sent quite away, we dispatched` | 26:29 |
+| ἐξαποστέλλω | `you sent quite away` | `you sent quite away, you dispatched` | 31:42 |
+| ἐπάνω | `above` | `above and atop and on the upper side, above, above and more than` | 1:2 |
+| ἐπιδιαιρέω | `divided anew` | `divided anew, distributed among themselves` | 33:1 |
+| ἕβδομος | `seventh` | `seventh, a seventh day` | 7:11 |
+| ἕβδομος | `the seventh` | `the seventh, the seventh day` | 2:2 |
+| ἕβδομος | `the sevenths` | `the sevenths, the seventh days` | 29:27 |
+| ὀφθαλμός | `of the eyes` | `of the eyes, of the dearest and best, of the comfort, of the buds` | 31:40 |
+| ὀφθαλμός | `the eyes` | `the eyes, the dearest and best, the comfort, the buds` | 3:5 |
+| ὀφθαλμός | `to the eyes` | `to the eyes, to the dearest and best, to the comfort, to the buds` | 3:6 |
+| ὀφθαλμός | `with the eyes` | `with the eyes, with the dearest and best, with the comfort, with the buds` | 13:14 |
+| ὑπεναντίος | `of the ones set over against and meeting` | `of the ones set over against and meeting, of the ones set against and opposite, of the enemies, of the ones opposed and opposite, of the ones contrary to` | 22:17 |
+| ὕδωρ | `of the water` | `of the water, of the waters, of the rain-water and rain, of the water of the water-clock` | 9:11 |
+| ὕδωρ | `of water` | `of water, of waters, of rain-water and rain, of water of a water-clock` | 7:6 |
+| ὕδωρ | `the water` | `the water, the waters, the rain-water and rain, the water of the water-clock` | 1:2 |
+| ὕδωρ | `water` | `water, waters, rain-water and rain, water of a water-clock` | 6:17 |

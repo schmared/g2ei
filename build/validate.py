@@ -24,6 +24,9 @@ that hold the project's own morphology to its own grammar and to itself:
            inside its own chain — the chain is the whole range, the headword its
            first sense.)
   words    the word-by-word file, where there is one, still matches the verse's Greek
+  1 sense  a content word is a unit exactly when its entry says more than its headword
+           does — both ways, so neither a range left shut nor a chain that only repeats
+           its headword can happen by accident
   morph    the project's own Old Testament morphology is well-formed by the code's own
            grammar: an infinitive has a tense and no case, a participle has a case, a
            preposition has no features — so a shifted slot fails with no reference
@@ -644,6 +647,97 @@ def check_unit_words(book, chapter, verses, rep):
     rep.done("unit words", "%d units name a word their verse holds" % n, before)
 
 
+# Words that carry no sense of their own, so nothing about them is left shut: the
+# article, the copula the project renders by its own formula, and the preposition that
+# merges into its object's unit rather than taking one of its own.
+FREE_WORDS = {"ὁ", "εἰμί", "ἐν"}
+
+# The parts of speech the rule is about. A particle is not a content word: μή is the
+# negative, καί the conjunction, and the range Middle Liddell prints for either is a
+# list of constructions, not senses a reader is being kept from.
+CONTENT_WORDS = ("noun", "verb", "adjective")
+
+
+def opens_more(word):
+    """Whether a word's entry says anything its headword would not already carry.
+
+    The headword is the first translation of the entry's first sense, so what a chain
+    adds is whatever else the entry says — a second sense, or simply more words in the
+    first one. κιβωτός has one sense and still wants a unit, because that sense reads
+    `a wooden box, chest, coffer` and the headword keeps only the box.
+
+    `more` is how many senses the word-by-word layer left out; any of them is more.
+    """
+    got = word.get("senses") or []
+    if not got:
+        return False                       # no entry: there is nothing to open it with
+    if word.get("more"):
+        return True
+    whole = set()
+    for sense in got:
+        whole |= set(senses(sense))
+    return bool(whole - set(senses(re.split(r"[,;]", got[0])[0])))
+
+
+def check_one_sense(book, chapter, verses, rep):
+    """A word is a unit exactly when its entry says more than its headword does.
+
+    Both ways, because either way round is a word read wrong. A word whose entry says
+    more and stands as plain text is a range the reader never sees — that was 1,038
+    words of Genesis, and it was an accident, not a decision. A unit whose chain is
+    word for word its headword prints `headword — headword —` and says nothing the
+    plain text would not.
+
+    Grammar is not in it: the article, εἰμί and ἐν are rendered by the project's own
+    formulas, and a particle's entry is a list of constructions rather than a range.
+    """
+    before = rep.failed
+    path = render.DATA / book / ("%d.words.json" % chapter)
+    if not path.exists():
+        rep.skip("one sense", "no word-by-word layer for this chapter yet")
+        return
+    layer = {v["ref"]: v["words"] for v in
+             json.loads(path.read_text(encoding="utf-8")).get("verses", [])}
+    shut = kept = 0
+    for verse in verses:
+        words = layer.get(verse["ref"])
+        if words is None:
+            continue
+        own = units(verse["reading"])
+        claimed = {lemma.split(" + ")[0] for _, _, lemma in own}
+
+        for word in words:
+            if (word.get("lexicon") == "name" or word["lemma"] in FREE_WORDS
+                    or word["parse"].split(" ·")[0] not in CONTENT_WORDS
+                    or word["lemma"] in claimed):
+                continue
+            if opens_more(word):
+                shut += 1
+                rep.fail("one sense", verse["ref"],
+                         "%s (%s) is plain text, but its entry says more than "
+                         "`%s` does — open it as a unit"
+                         % (word["form"], word["lemma"], word["senses"][0]))
+
+        heads = [anchor for anchor, _, _ in own]
+        heads += [item["anchor"] for item in ANCHORS]
+        for anchor, chain, lemma in own:
+            if chain.strip() != anchor.strip():
+                continue
+            # Flattening a unit whose English holds another unit's headword would
+            # write that headword as plain text — `made` inside `made swear`. The
+            # unit is what tells the two apart, so it stays.
+            if any(other != anchor
+                   and re.search(r"\b%s\b" % re.escape(other), anchor, re.I)
+                   for other in heads):
+                kept += 1
+                continue
+            rep.fail("one sense", verse["ref"],
+                     "`%s` (%s) is a unit whose chain is word for word its headword; "
+                     "it adds nothing, so write it as plain text" % (anchor, lemma))
+    rep.done("one sense", "%d verses; %d units kept for a headword they hold"
+             % (len(layer), kept), before)
+
+
 def check_banned(verses, rep):
     before = rep.failed
     for verse in verses:
@@ -1217,6 +1311,7 @@ def validate(book, chapter, rep):
         check_corpus(book, chapter, rep)
     check_words(book, chapter, verses, rep)
     check_unit_words(book, chapter, verses, rep)
+    check_one_sense(book, chapter, verses, rep)
     check_greek(book, chapter, verses, rep)
 
 
