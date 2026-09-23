@@ -142,6 +142,17 @@ here: give it a `names` entry and a `[[name:…]]` marker, with no capital in ei
 name that opens a sentence (Gen 4:1 *Αδαμ δὲ ἔγνω*) the same way, since that capital proves
 nothing.
 
+### A noun marks its own case
+The genitive reads *of*, the dative *to*, everywhere and whatever governs the word: *from
+of the earth*, *above of the water*. The form stays visible in English, and the marker never
+depends on a judgement about what governs what or about which use of a dative is in play —
+ὀφθαλμός's dative is *to the eyes* whether it is instrumental or not. The one exception is a
+preposition that merges into its object's unit: *within, inside of, and by means of the well*
+is ἐν's own English, not a case-marker, and it keeps the lead.
+
+The article goes inside the unit, never beside it: τῷ οἴκῳ is `[[to the house|…]]`, not a
+plain *the* before `[[to house|…]]`.
+
 ### Prepositions
 ἐν → "within, inside of, and by means of." πρός + accusative → directional, never static
 "with": "toward, facing, oriented to, in living motion and address toward." Where the

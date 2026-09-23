@@ -5463,3 +5463,29 @@ asking only whether a word is there could see nothing.
 | τε | `and` | `and, both and, and also` | 2:25 |
 | ἀλλά | `otherwise` | `otherwise, but, except, yet, but then and however, but really and certainly` | 15:4 |
 | ὅτι | `that` | `that, seeing that, although, for that, because, inasmuch as` | 2:3 |
+
+
+## A noun marks its own case
+
+The genitive reads `of`, the dative `to`, everywhere and whatever governs the word. The
+corpus had done it both ways: γῆ under a preposition read `of the earth` twenty-eight times
+and `the earth` six, and ὀφθαλμός's dative read `with the eyes` where the dative is
+instrumental beside `to the eyes` where it is not — which is the *use* deciding the English,
+and the use is context. One marker for one case is the only rule a check can hold without
+deciding what governs what. 731 units already had it; 71 did not, and have it now.
+
+Where a preposition merges into its object's unit the preposition keeps the lead, because
+`within, inside of, and by means of the well` is ἐν's own English and not a case-marker.
+Everywhere else the preposition carries its own sense and the noun still shows its form, so
+GEN 1:2 reads `above — above and atop and on the upper side … — of the water`, and GEN 2:7
+`from of the earth`. Awkward, and the form is visible, which is the trade this project makes
+everywhere else.
+
+`to day` for a bare dative ἡμέρᾳ is the one reading worth flagging: it is a hair from
+`to-day`, which is how σήμερον reads. The hyphen is the only thing between them.
+
+**Still open.** 150 units have their article written as plain text beside them rather than
+inside them — `the` standing loose before `[[to house|…]]`, where τῷ οἴκῳ has the article
+and the unit should carry it. Thirteen of those are ὁ δέ, where the article is a pronoun and
+the prose is right; the rest are not. Three that this pass made conspicuous, by putting a
+marker next to the loose article, are folded in here. The other ~134 want a pass of their own.
