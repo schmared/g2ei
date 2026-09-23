@@ -673,10 +673,10 @@ def check_unit_words(book, chapter, verses, rep):
 # merges into its object's unit rather than taking one of its own.
 FREE_WORDS = {"ὁ", "εἰμί", "ἐν"}
 
-# The parts of speech the rule is about. A particle is not a content word: μή is the
-# negative, καί the conjunction, and the range Middle Liddell prints for either is a
-# list of constructions, not senses a reader is being kept from.
-CONTENT_WORDS = ("noun", "verb", "adjective")
+# The parts of speech the rule is about. A particle is in it too, opened by its parse
+# as a preposition is opened by the case it governs: καί read as an adverb takes the
+# adverbial senses, καί read as the connective is the conjunction and stays plain.
+CONTENT_WORDS = ("noun", "verb", "adjective", "adverb", "preposition")
 
 
 def opens_more(word):
@@ -775,7 +775,36 @@ def check_banned(verses, rep):
 # 4. anchors
 # --------------------------------------------------------------------------
 
-def check_anchors(verses, rep):
+def entitled_to(book, chapter, verses):
+    """{ref: {English a word of this verse may print as plain text}}.
+
+    Two Greek words can head with the same English: μή and οὐ both give `not`, τε and
+    καί both `and`. When one of them is a unit and the other is rightly plain text, the
+    plain one is no headword left loose — it is its own word, printing its own first
+    sense. Without this the bare-headword check reads every `not` in a verse holding μή
+    as μή's, and every `and` in a verse holding τε as τε's.
+    """
+    path = render.DATA / book / ("%d.words.json" % chapter) if book else None
+    if path is None or not path.exists():
+        return {}
+    layer = {v["ref"]: v["words"] for v in
+             json.loads(path.read_text(encoding="utf-8")).get("verses", [])}
+    out = {}
+    for verse in verses:
+        words = layer.get(verse["ref"])
+        if words is None:
+            continue
+        claimed = {w for _, _, lemma in units(verse["reading"]) for w in lemmas(lemma)}
+        here = set()
+        for word in words:
+            got = word.get("senses") or []
+            if got and word["lemma"] not in claimed:
+                here.add(re.split(r"[,;]", got[0])[0].strip().lower())
+        out[verse["ref"]] = here
+    return out
+
+
+def check_anchors(verses, rep, book=None, chapter=None):
     """No headword stands bare in the reading.
 
     The unanchored panel is built from the chains, so the only way a headword can
@@ -785,6 +814,7 @@ def check_anchors(verses, rep):
     is simply its first sense.
     """
     before, total = rep.failed, 0
+    entitled = entitled_to(book, chapter, verses)
     for verse in verses:
         ref, text = verse["ref"], verse["reading"]
         bare = outside_units(text)
@@ -809,6 +839,9 @@ def check_anchors(verses, rep):
         for item in ANCHORS:
             watch.setdefault(item["anchor"].lower(), item["lemma"])
         for anchor, why in watch.items():
+            # another word of this verse may be entitled to print exactly this English
+            if anchor in entitled.get(ref, ()):
+                continue
             if re.search(r"\b%s\b" % re.escape(anchor), bare, re.I):
                 rep.fail("anchors", ref,
                          "%r (%s) is written as plain text; make it a unit, "
@@ -1326,7 +1359,7 @@ def validate(book, chapter, rep):
         return
     check_names(verses, rep)
     check_banned(verses, rep)
-    check_anchors(verses, rep)
+    check_anchors(verses, rep, book, chapter)
     if EDITIONS.get(book) == "lxx":
         check_morph_shape(book, chapter, rep)
         check_corpus(book, chapter, rep)

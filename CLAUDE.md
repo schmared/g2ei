@@ -43,7 +43,11 @@ load-bearing word is one unit: a **headword** and its **chain**.
   Middle Liddell as Perseus encodes it, in `/sources` — the first translation in the entry's
   first numbered sense; where it has no entry, LSJ (PerseusDL, CC BY-SA 4.0). For
   a preposition, the first sense for the case it governs; for a word used as a noun, the
-  first noun sense. Tense, voice and person come from the Greek form (ποιέω *to make* →
+  first noun sense; for a particle, the senses its parse calls for. Where the encoding
+  loses a translation the printed entry gives — Perseus tags εἰ's *Lat. si, if* as Latin
+  entire, so the English *if* never reaches a `<tr>` — `MARKUP_LOST` in `build/words.py`
+  restores it, quoting the entry and naming the element that took it. That adds nothing
+  the lexicon does not say. Tense, voice and person come from the Greek form (ποιέω *to make* →
   ἐποίησεν *made*), and so does the article: English gets one where the Greek has one and
   nowhere else (ἐν ἀρχῇ → *in beginning*; ὁ θεός → *the God*). No translation is consulted
   — lexicon glosses ignore context, and that is the point.
@@ -59,9 +63,14 @@ load-bearing word is one unit: a **headword** and its **chain**.
   repeats its headword prints `headword — headword —` and says nothing the plain text
   would not. It holds both ways, because either way round is a word read wrong, and
   for 1,038 words of Genesis the shut half had happened by accident rather than by decision.
-  Grammar is outside it: the article, εἰμί and ἐν are rendered by the formulas below, and a
-  particle — μή, καί — has a list of constructions in the lexicon where a content word has a
-  range.
+  Outside it are only the words the project renders by a formula of its own: the article,
+  εἰμί, and the ἐν that merges into its object's unit. **A particle is opened by its parse**,
+  as a preposition is opened by the case it governs — καί read as an adverb takes the
+  adverbial senses and is a unit; καί read as the connective is the conjunction and stays
+  plain text. Middle Liddell writes most of a particle's entry as prose about how the word
+  works, and only the translations in it are senses: the labels of a construction (*fear*,
+  *a wish*) and the sentences illustrating it are not, and go in `NOT_SENSES` with the
+  reason.
 - No filler. Nothing enters either reading text that does not expand a Greek word —
   observations *about* the text (a quotation, a withheld verb) go in the notes.
 - No capitals the Greek does not mark. The manuscripts have none, so nothing is capitalised
@@ -240,9 +249,13 @@ The count is checked as well as the name: two units may not open one word.
 - every proper name in the Greek has a gloss on first occurrence in the chapter
 - no banned imported phrases (maintain a list; seed it with "face of the waters")
 - no headword stands bare — none written as plain text outside its unit
-- a content word is a unit exactly when its entry says more than its headword does, and
-  a unit whose chain is word for word its headword is not a unit at all — checked both
-  ways against the chapter's word-by-word layer, so neither half can happen by accident
+- a word is a unit exactly when its entry says more than its headword does, and a unit
+  whose chain is word for word its headword is not a unit at all — checked both ways
+  against the chapter's word-by-word layer, over nouns, verbs, adjectives, adverbs and
+  prepositions, so neither half can happen by accident
+- no headword stands bare — but two Greek words may head with the same English, μή and
+  οὐ both giving *not*, so a plain word is only bare when nothing else in the verse is
+  entitled to print it
 - every unit names a Greek word its own verse holds, checked against the chapter's
   morphology, so the lemma is not an assertion nothing tests
 - one word in one form reads one way: of two units sharing a lemma and a headword,

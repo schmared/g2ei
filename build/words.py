@@ -289,7 +289,7 @@ NOT_SENSES = {
                "Troja fuit)"},                  # Latin
     "o)/noma": {"by name"},                     # ὀνόματι — one construction
     "poie/w": {"of"},                           # a scrap
-    "kai/": {"que"},                            # Latin
+    "kai/": {"que", "ac", "aeque, perinde, simul"},  # Latin
     # κατὰ γῆν and γῆν πρὸ γῆς are idioms the entry quotes, not senses of the noun;
     # ποῦ γῆς likewise.
     # Middle Liddell splits one citation across two <tr>s — "to fill their ranks
@@ -400,7 +400,13 @@ NOT_SENSES = {
     "kru/ptw": {"having cloaked his", "secret"},  # from "having cloaked his head"; a piece of the perfect participle
     "e(/ws": {"future"},                        # from "in future time"
     "lu/ph": {"condition"},                     # from "distress, sad plight or condition"
-    "mh/": {"thought", "statement", "that one thinks a thing is not", "that it is not."},  # the note on μή and οὐ
+    # the note on μή and οὐ, then the labels of the constructions and their examples
+    "mh/": {"thought", "statement", "that one thinks a thing is not", "that it is not.",
+            "such things as",                   # from a relative clause's example
+            "oratio obliqua.", "ut qui nihil sciam",              # Latin
+            "fear", "apprehension",             # the verbs the construction follows
+            "surely he is dead, is he not?", "surely he is not dead, is he?",
+            "will you not be", "will you be", "how can a man help"},   # examples, rendered
     "o)fqalmo/s": {"before", "eyes", "sight", "the king's eye", "to one's face"},  # from "before one's eyes", "to one's face"; pieces of examples
     "r(a/ptw": {"to make oneself", "having got"},  # from quoted examples
     "plhqu/nw": {"I am led by general opinion"},   # a construction
@@ -417,7 +423,8 @@ NOT_SENSES = {
     # other" ahead of the sense itself, the other of two.
     "e(/teros": {"one of the", "one of two parties", "one", "the one"},
     "prose/xw": {"near", "bring", "to port", "brought", "to land here?"},  # pieces of "bring a ship near a place, to port"
-    "ei)": {"shall do)", "had done)"},           # pieces of worked examples
+    "ei)": {"if he is doing", "shall do)", "if he was doing", "if he did", "had done)",
+            "if he were to do", "if he do", "if I had"},   # the paradigm, tense by tense
     "dw=ron": {"the gifts of", "given by"},
     "fe/rw": {"motion", "is fair"},
     "boa/w": {"men ready to shout", "it proclaims"},
@@ -959,6 +966,21 @@ NOT_SENSES = {
                      "in a manner contrary to"},
     # "so called from its broad leaves" is why the tree has the name, not a sense.
     "pla/tanos": {"broad leaves."},
+    # νῦν's entry turns aside — "besides the sense of Time, the enclit. νυν, νυ denotes
+    # immediate sequence" — and everything after that belongs to the enclitic νυν, a
+    # different word, as κατὰ μῆνα was not a sense of μήν.
+    "nu=n": {"upon", "then, thereupon, thereafter", "then, therefore", "then!", "then?"},
+    # The particles. Middle Liddell writes most of a particle's entry as prose about how
+    # it works, and the scraper takes a <tr> wherever it finds one, so the labels of a
+    # construction — "fear", "apprehension", "a question", "a wish" — and the sentences
+    # that illustrate it come through beside the translations. Only the translations are
+    # senses.
+    "ga/r": {"to introduce the reason", "to introduce the reason for",
+             "the statement of which", "gives the reason may be omitted",
+             "a question", "a wish", "O",       # the labels of the constructions
+             "quid enim",                       # Latin
+             "why"},                            # the second half of "why, what"
+    "te": {"et."},                              # Latin
 }
 
 # An entry that divides its senses by tense and voice, so that which of them belong to a
@@ -1115,6 +1137,7 @@ ENTRY = {
     "stei=ra": "stei=ra2",  # stei=ra1 is a ship's keel; the barren woman of GEN 11:30 is the second
     "mo/sxos": "mo/sxos2",  # mo/sxos1 is a young shoot; the calf of GEN 12:16 is the second
     "mh=lon": "mh=lon2",  # mh=lon1 is a sheep or goat; the mandrake fruit of GEN 30:14 is the apple
+    "nu=n": "nu=n1",     # nu=n2 is νῦν δή, "just now"; νῦν itself is the first entry
 }
 
 PUNCT = re.compile(r"[.,;:·!?—·()]")
@@ -1209,6 +1232,21 @@ def beta(word):
     return "".join(out)
 
 
+# Translations the markup loses. Perseus tags each translation <tr>, and the loader
+# reads those; where a translation is swallowed by the element beside it, it never
+# reaches the senses at all, though it stands in the printed entry. Each line quotes
+# the entry and says which element took it, and is recorded in lexicon-notes.md.
+# This adds nothing the lexicon does not say — it recovers what the encoding dropped.
+MARKUP_LOST = {
+    # εἰ reads "a Conditional Conjunction, Lat. si, if; and in indirect questions,
+    # whether." <foreign lang="la"> holds "si, if", so the English "if" is inside the
+    # Latin and only "whether." is a <tr>. Without this εἰ heads as `whether` and the
+    # conditional, which is what εἰ is in every one of its Genesis occurrences, is
+    # nowhere in the chain.
+    "ei)1": [(0, "if")],
+}
+
+
 def load_middle_liddell():
     """{Beta Code key: [translation, …]} from Perseus's Middle Liddell, in entry order.
 
@@ -1232,6 +1270,8 @@ def load_middle_liddell():
         # ἐξαποστέλλω's "to send quite away:—Pass." — so the label is cut off, not the gloss.
         glosses = (re.sub(r":\s*—\s*(?:Pass|Mid|Act)\.$", "", g) for g in glosses)
         senses = [g for g in glosses if g]
+        for at, gloss in MARKUP_LOST.get(key, ()):
+            senses.insert(at, gloss)
         entries.setdefault(key, senses)
         entries.setdefault(re.sub(r"\d+$", "", key), senses)
     return entries

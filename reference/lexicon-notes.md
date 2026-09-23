@@ -5413,3 +5413,53 @@ Curated out of the lexicon, for reasons already established elsewhere in this fi
 | ὕδωρ | `of water` | `of water, of waters, of rain-water and rain, of water of a water-clock` | 7:6 |
 | ὕδωρ | `the water` | `the water, the waters, the rain-water and rain, the water of the water-clock` | 1:2 |
 | ὕδωρ | `water` | `water, waters, rain-water and rain, water of a water-clock` | 6:17 |
+
+
+## The particles, opened by their parse
+
+The project already picks a sense by part of speech — the first sense for the case a
+preposition governs, the first noun sense for a word used as a noun. A particle follows the
+same line. καί parsed as an adverb takes the adverbial senses and becomes a unit; καί parsed
+as the connective is the conjunction and stays plain text. μή, γάρ, εἰ and τε are opened
+outright. οὐ is not: its entry gives one sense, *not*, so by the one-sense rule it is plain
+text, and 125 tokens were already right.
+
+Middle Liddell writes most of a particle's entry as prose about how the word works, and the
+scraper takes a `<tr>` wherever it finds one. So the labels of a construction come through
+beside the translations — μή's *fear* and *apprehension* are the verbs it follows, γάρ's
+*a question* and *a wish* are the constructions it stands in — and so do the sentences
+illustrating them, rendered: *surely he is dead, is he not?*, *if he was doing*. Only the
+translations are senses; the rest is in `NOT_SENSES` with its reason.
+
+Two headwords collide, and that is a fact about English, not a fault. μή and οὐ both give
+*not*; τε and καί both give *and*. So a plain `not` in a verse whose μή is a unit is not a
+headword left loose — it is οὐ, printing its own first sense. `check_anchors` reads the
+chapter's word-by-word layer and lets a word print the English it is entitled to.
+
+**εἰ, and a translation the markup loses.** Perseus encodes the entry as *a Conditional
+Conjunction, Lat.* `<foreign lang="la">si, if</foreign>` *; and in indirect questions,*
+`<tr>whether.</tr>` — so the English *if* sits inside the Latin element and never reaches a
+translation. Left as encoded, εἰ heads as *whether* and the conditional, which is what εἰ is
+in every one of its Genesis occurrences, is nowhere in the chain. `MARKUP_LOST` in
+`build/words.py` restores it at the front, quoting the entry and naming the element that took
+it. It adds nothing Middle Liddell does not say.
+
+**νῦν read νῦν δή's entry.** The lexicon files eighteen entries under `nu=n`, and the bare
+key takes whichever stands first in the file: `nu=n2`, νῦν δή, *just now*. Thirty-four units
+carried *now, even now, just now* — νῦν δή's range, not νῦν's. `ENTRY` now names `nu=n1`, and
+everything after *besides the sense of Time, the enclit. νυν, νυ denotes immediate sequence*
+is the enclitic νυν, a different word, curated out as κατὰ μῆνα was from μήν.
+
+Counting units against words found two more of the same kind: GEN 24:14's second *that* was
+filed under ἵνα where the verse's second conjunction is ὅτι, and GEN 32:29's second *but*
+under δέ where it is ἀλλά. Each named a word the verse does hold, in a unit of its own, so
+asking only whether a word is there could see nothing.
+
+| γάρ | `for` | `for, since and as, for otherwise and else, now, but, why and what, would that` | 2:5 |
+| εἰ | `if` | `if, whether, come on` | 4:14 |
+| καί | `also` | `also and even, but, nay, and yet, as, likewise` | 3:6 |
+| μή | `not` | `not, that not, perhaps, surely not and you don't mean to say that` | 3:1 |
+| νῦν | `now at this very time` | `now at this very time, now, of the present, the present time, just now and but now, as it is and as the case now stands, in this case` | 2:23 |
+| τε | `and` | `and, both and, and also` | 2:25 |
+| ἀλλά | `otherwise` | `otherwise, but, except, yet, but then and however, but really and certainly` | 15:4 |
+| ὅτι | `that` | `that, seeing that, although, for that, because, inasmuch as` | 2:3 |
