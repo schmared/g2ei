@@ -208,6 +208,12 @@ not declare. Where a preposition governs more than one case, the case goes with 
 `διά + genitive` — because Middle Liddell gives each case its own section and the sense
 comes from there.
 
+One unit may open more than one word, and then the field lists them: `ἐν; γῆ`. ἐν and ἀνά
+take no unit of their own before a noun — the noun's unit swallows them and its chain
+opens both — so naming only the noun left the preposition looking unopened to anything
+counting words against units. Each item still carries its own case, `ἀνά + accusative`.
+The count is checked as well as the name: two units may not open one word.
+
 ## Working rhythm
 
 - One chapter per session. Commit per chapter with the reference as the message.

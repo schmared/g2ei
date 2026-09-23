@@ -175,6 +175,16 @@ def units(text):
     return [(a.strip(), c.strip(), l.strip()) for a, c, l in render.UNIT.findall(text)]
 
 
+def lemmas(field):
+    """The Greek words a unit's lemma field names, the case each carries dropped.
+
+    One unit may open more than one word: ἐν and ἀνά take no unit of their own before
+    a noun, the noun's unit swallows them, and its chain opens both. The field lists
+    them, `ἐν; γῆ`, and each item may still carry its own case, `ἀνά + accusative`.
+    """
+    return [item.split(" + ")[0].strip() for item in field.split(";") if item.strip()]
+
+
 # The aspect formulas the project writes into a reading whole, the same words every
 # time. They are the project's own phrasing, not a gloss of any one Greek word, so the
 # bare-headword check reads past them: ὡς at GEN 27:23 is a unit, `as`, and the `as`
@@ -629,21 +639,32 @@ def check_unit_words(book, chapter, verses, rep):
     if not path.exists():
         rep.note("unit words", "no word-by-word layer for this chapter yet")
         return
-    held = {v["ref"]: {w["lemma"] for w in v["words"]}
+    held = {v["ref"]: collections.Counter(w["lemma"] for w in v["words"])
             for v in json.loads(path.read_text(encoding="utf-8")).get("verses", [])}
     n = 0
     for verse in verses:
         there = held.get(verse["ref"])
         if there is None:
             continue
-        for head, chain, lemma in units(verse["reading"]):
-            n += 1
-            # a preposition's unit names the case it governs as well, because Middle
-            # Liddell gives each case its own section and the sense comes from there
-            if lemma.split(" + ")[0] not in there:
-                rep.fail("unit words", verse["ref"],
-                         "`%s` says it opens %s, which is not a word of this verse"
-                         % (head, lemma))
+        own = units(verse["reading"])
+        n += len(own)
+        # a preposition's unit names the case it governs as well, because Middle
+        # Liddell gives each case its own section and the sense comes from there
+        claimed = collections.Counter(w for _, _, lemma in own for w in lemmas(lemma))
+        for head, chain, lemma in own:
+            for word in lemmas(lemma):
+                if word not in there:
+                    rep.fail("unit words", verse["ref"],
+                             "`%s` says it opens %s, which is not a word of this verse"
+                             % (head, word))
+        # and no oftener than the verse holds it. Testing only that a word is there
+        # let GEN 7:16 file εἰσπορεύομαι's unit under εἰσέρχομαι, which the verse also
+        # holds, in a unit of its own — two units, one word, and nothing to see it.
+        for word, over in (claimed - there).items():
+            rep.fail("unit words", verse["ref"],
+                     "%d unit%s open %s, which this verse holds %d time%s"
+                     % (claimed[word], "" if claimed[word] == 1 else "s", word,
+                        there[word], "" if there[word] == 1 else "s"))
     rep.done("unit words", "%d units name a word their verse holds" % n, before)
 
 
@@ -704,7 +725,7 @@ def check_one_sense(book, chapter, verses, rep):
         if words is None:
             continue
         own = units(verse["reading"])
-        claimed = {lemma.split(" + ")[0] for _, _, lemma in own}
+        claimed = {w for _, _, lemma in own for w in lemmas(lemma)}
 
         for word in words:
             if (word.get("lexicon") == "name" or word["lemma"] in FREE_WORDS

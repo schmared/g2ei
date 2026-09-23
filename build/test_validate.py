@@ -220,6 +220,14 @@ NEGATIVE = [
     ("fields   malformed unit (no |)",   lambda: run(V.check_fields, mut(GEN, [0, "reading"], "[[made]] x"))),
     ("fields   unit with empty chain",   lambda: run(V.check_fields, mut(GEN, [0, "reading"], "[[made| ]] x"))),
     ("fields   unit with no lemma",     lambda: run(V.check_fields, mut(GEN, [0, "reading"], "[[made|a, b]] x"))),
+    ("unit wds one word, claimed by two units",
+                                         lambda: run(V.check_unit_words, "GEN", 1,
+                                                     mut(GEN, [0, "reading"],
+                                                         "[[made|a, b|ποιέω]] [[made|a, b|ποιέω]]"))),
+    ("unit wds a merged unit whose second word the verse lacks",
+                                         lambda: run(V.check_unit_words, "GEN", 1,
+                                                     mut(GEN, [0, "reading"],
+                                                         "[[in a hare|a, b|ἐν; λαγώς]] x"))),
     ("1 sense  a word whose entry says more, left as plain text",
                                          lambda: run(V.check_one_sense, "GEN", 1,
                                                      shut(GEN, 0, "γῆ"))),
@@ -376,6 +384,10 @@ CONTROL = [
                                                        "a repeated name prints its gloss once")),
     ("names    a name opening the verse is still a name",
                                          lambda: run(V.check_names, [dict(JHN[2], greek="Ἰωάννης ἦν.", reading="[[name:Ἰωάννης]] was.")])),
+    ("unit wds a merged unit names both its words",
+                                         lambda: holds(V.lemmas("ἀνά + accusative; μέσος") == ["ἀνά", "μέσος"]
+                                                       and V.lemmas("μετά + accusative") == ["μετά"],
+                                                       "the lemma field lists every word a unit opens")),
     ("1 sense  clean GEN 1",             lambda: run(V.check_one_sense, "GEN", 1, GEN)),
     # κιβωτός has one numbered sense and still wants a unit, because that sense reads
     # `a wooden box, chest, coffer`; ὁρκίζω keeps its repeating chain because `made
