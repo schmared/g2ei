@@ -759,6 +759,70 @@ def check_one_sense(book, chapter, verses, rep):
              % (len(layer), kept), before)
 
 
+# Perseus's own markup, audited. Middle Liddell writes "Lat. <latin>, <English>", and
+# the encoding wraps the whole run in one Latin element, English and all, so the loader
+# never sees that translation. Nineteen words had lost one, five of them their own first
+# sense. The reading does not show it — a chain written by somebody reading the entry's
+# text is right, and only the senses the loader could see were wrong — so nothing in the
+# data can catch it. This reads the lexicon instead, and every site must be settled:
+# named in MARKUP_LOST, which restores the English, or in LATIN_ONLY, which says there
+# is none to restore.
+LATIN_RUN = re.compile(r'<foreign[^>]*lang="la"[^>]*>(.*?)</foreign>', re.S)
+
+
+def check_markup(targets, rep):
+    before = rep.failed
+    try:
+        import words as W
+    except Exception as exc:                      # pragma: no cover
+        rep.skip("markup", "build/words.py would not load: %s" % exc)
+        return
+    source = SOURCES / "middle-liddell/Perseus_text_1999.04.0058.xml"
+    if not source.exists():
+        rep.skip("markup", "sources/middle-liddell is not here")
+        return
+    xml = source.read_text(encoding="utf-8")
+    bodies = {}
+    for m in re.finditer(r'<entry\b[^>]*\bkey="([^"]+)"[^>]*>(.*?)</entry>', xml, re.S):
+        bodies.setdefault(m.group(1), m.group(2))
+        bodies.setdefault(re.sub(r"\d+$", "", m.group(1)), m.group(2))
+
+    wanted = set()
+    for book, chapter in targets:
+        path = render.DATA / book / ("%d.words.json" % chapter)
+        if not path.exists():
+            continue
+        for verse in json.loads(path.read_text(encoding="utf-8")).get("verses", []):
+            for word in verse["words"]:
+                if word["lexicon"] != "name":
+                    wanted.add(word["lemma"])
+
+    settled = set(W.LATIN_ONLY) | {re.sub(r"\d+$", "", k) for k in W.MARKUP_LOST}
+    seen = 0
+    for lemma in sorted(wanted):
+        key = W.SPELLING.get(W.beta(lemma), W.beta(lemma))
+        key = W.ENTRY.get(key, key)
+        body = bodies.get(key)
+        if not body:
+            continue
+        start = body.find("<sense")
+        first = re.search(r"<sense\b[^>]*>(.*?)</sense>", body[start:], re.S) if start >= 0 else None
+        if not first:
+            continue
+        for run in LATIN_RUN.finditer(first.group(1)):
+            inner = re.sub(r"<[^>]+>", "", run.group(1)).strip()
+            if "," not in inner:
+                continue                          # one Latin word: no English to lose
+            seen += 1
+            if re.sub(r"\d+$", "", key) not in settled:
+                rep.fail("markup", lemma,
+                         "the entry's first sense reads `Lat. %s`, and the whole of it is "
+                         "inside the Latin element — if any of that is English, name it in "
+                         "MARKUP_LOST; if it is Latin throughout, name it in LATIN_ONLY"
+                         % inner[:60])
+    rep.done("markup", "%d first-sense Latin runs, all settled" % seen, before)
+
+
 def check_banned(verses, rep):
     before = rep.failed
     for verse in verses:
@@ -1398,6 +1462,9 @@ def main():
 
     print("prepositions")
     check_prepositions(targets, rep)
+
+    print("markup")
+    check_markup(targets, rep)
 
     print()
     if rep.failed:

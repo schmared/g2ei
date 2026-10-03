@@ -5489,3 +5489,51 @@ inside them — `the` standing loose before `[[to house|…]]`, where τῷ ο�
 and the unit should carry it. Thirteen of those are ὁ δέ, where the article is a pronoun and
 the prose is right; the rest are not. Three that this pass made conspicuous, by putting a
 marker next to the loose article, are folded in here. The other ~134 want a pass of their own.
+## Translations Perseus's markup swallows
+
+Middle Liddell gives its Latin equivalent and its English together — *Lat. bos (bov-is), a
+bullock, bull, ox, or a cow* — and Perseus wraps the whole run, English and all, in one
+`<foreign lang="la">`. The loader reads translations from `<tr>` elements, so none of that
+run reaches the senses. The printed page says it; the encoding hides it.
+
+εἰ showed it first: *a Conditional Conjunction, Lat.* `si, if` *; and in indirect questions,*
+`<tr>whether.</tr>`. Looking for the same shape — a comma inside a first-sense Latin element —
+found **54 sites**, of which **24 words had lost a translation** and **seven had lost their
+own first sense**, so the headword had been coming from somewhere further down the entry:
+
+| word | the entry reads | the headword had been |
+| --- | --- | --- |
+| βοῦς | `Lat. bos (bov-is), a bullock, bull, ox, or a cow` | `cow` |
+| κρίνω | `Lat. cerno, to separate, part, put asunder, distinguish` | `to pick out, choose` |
+| ὦμος | `Lat. humerus, the shoulder with the upper arm` | `ulna` — the Latin for the forearm |
+| δή | `Lat. jam) now, in truth, indeed, surely, really` | `exactness`, from "used to give greater exactness" |
+| μήτρα | `Lat. matrix, the womb` | nothing: the entry resolved empty |
+| τρεῖς | `Lat. tres, tria, three` | nothing |
+| ὀκτώ | `Lat. octo, eight` | nothing |
+
+`MARKUP_LOST` in `build/words.py` restores each one at the position the entry gives it,
+quoting the entry and naming the element that took it. That adds nothing Middle Liddell does
+not say. `LATIN_ONLY` records the sites where the run is Latin throughout, or where the
+English beside it is a `<tr>` of its own and already in the senses.
+
+**The reading was in better shape than the machinery.** Of 97 units on the affected words,
+**73 already carried the sense** — whoever wrote them read the entry's text, where the
+English is plainly there, and only the senses the loader could see were wrong. μνημεῖον's
+chain had read `memorials, remembrances, records, tombs and monuments` for a long time
+against an entry that resolved to `a monument` alone. 24 units had taken the sense below the
+one they wanted, and are re-read here.
+
+No check in the data could have caught it: a chain that is right is right. So
+`check_markup` reads the lexicon instead, and every site must be settled in one table or the
+other — a new chapter bringing a new word with the same shape fails the run until somebody
+looks. It found nine of the fifty-four on its own, all of them words that print as plain text,
+where only the card was wrong and no chain existed to be right.
+
+**Two the recovery takes something from, left as they are for now.** μήτρα's entry resolved
+empty, so `words.py` fell through to LSJ, and its chain is LSJ's fuller range — *the womb, the
+cervix including the orifice of the womb, the matrix, the source and origin*. Middle Liddell
+now gives one sense, `the womb`, and the rule is that LSJ serves only where Middle Liddell has
+no entry, which would make μήτρα a one-sense word printing as plain text. ὦμος is the same
+shape: its chain's second gloss, `the shoulder`, has no basis in the entry now that the first
+reads in full. Both are rule-interaction questions rather than facts, and neither is changed
+here.

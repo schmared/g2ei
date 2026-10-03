@@ -439,7 +439,9 @@ NOT_SENSES = {
     "kta/omai": {"to get one's"},
     "diaire/w": {"open", "into"},
     "o)rqo/s": {"standing with their walls entire"},
-    "xa/skw": {"may", "I was all agape", "gaping fools"},  # from "then may earth yawn for me"
+    # "yawn" is from "then may earth yawn for me"; the entry's own gloss, "to yawn,
+    # gape", was inside the Latin element and is restored by MARKUP_LOST.
+    "xa/skw": {"may", "I was all agape", "gaping fools", "yawn"},
     "kiqa/ra": {"guitar)"},                     # "(whence guitar)"
     "xalko/s": {"a blacksmith."},               # from a cross-reference to χαλκεύς
     "e)cani/sthmi": {"bid one", "rise"},        # from "bid one rise from suppliant posture"
@@ -975,6 +977,11 @@ NOT_SENSES = {
     # construction — "fear", "apprehension", "a question", "a wish" — and the sentences
     # that illustrate it come through beside the translations. Only the translations are
     # senses.
+    # What the recovered translation displaces: the word the dictionary was describing
+    # rather than translating, or an example's rendering that had stood in its place.
+    "w)=mos": {"ulna", "the lower)", "it"},     # the parenthesis about ὠλένη, the forearm
+    "dh/": {"exactness"},                       # "used to give greater exactness" is the description
+    "tre/mw": {"to tremble"},                   # now inside "to tremble, quake, quiver"
     "ga/r": {"to introduce the reason", "to introduce the reason for",
              "the statement of which", "gives the reason may be omitted",
              "a question", "a wish", "O",       # the labels of the constructions
@@ -1244,6 +1251,53 @@ MARKUP_LOST = {
     # conditional, which is what εἰ is in every one of its Genesis occurrences, is
     # nowhere in the chain.
     "ei)1": [(0, "if")],
+    # The same fault, found by looking for a comma inside a <foreign lang="la">: Middle
+    # Liddell writes "Lat. <latin>, <English>" and Perseus wraps the whole run, English
+    # and all, in the Latin element. Each line quotes the entry. Nineteen of these lost
+    # a translation the printed page gives, and five of them lost the word's own first
+    # sense, so the headword had come from somewhere further down the entry.
+    "bou=s": [(0, "a bullock, bull, ox")],       # "Lat. bos (bov-is), a bullock, bull, ox, or a cow"
+    "kri/nw": [(0, "to separate, part, put asunder, distinguish")],  # "Lat. cerno, to separate, part, …"
+    "mh/tra1": [(0, "the womb")],                # "Lat. matrix, the womb" — the whole entry
+    "w)=mos": [(0, "the shoulder with the upper arm")],  # "Lat. humerus, the shoulder with the upper arm"
+    "dh/": [(0, "now, in truth, indeed, surely, really")],  # "Lat. jam) now, in truth, indeed, surely, really"
+    "ko/rac": [(0, "a raven")],                  # "Lat. corvus, a raven or carrion-crow"
+    "lhno/s": [(0, "a tub")],                    # "like Lat. lacus, alveus, a tub or trough"
+    "o(/qen": [(0, "whence, from which")],       # "Lat. unde, whence, from which … also from whom"
+    "o)ste/on": [(0, "a bone")],                 # "Lat. os, ossis, a bone"
+    "bre/xw": [(0, "to wet")],                   # "Lat. rigo, to wet"
+    "nu/c": [(0, "night")],                      # "Lat. nox, night, i. e. either the night-season or a night"
+    "a)gro/s": [(0, "a field")],                 # "Lat. ager, a field, in pl. fields, lands"
+    "me/nw": [(0, "to stay stand fast, abide")],  # "Lat. maneo, to stay stand fast, abide" — the page's own comma
+    "mh=lon2": [(0, "an apple")],                # "Lat. malum, an apple or (generally) any tree-fruit"
+    "tre/mw": [(0, "to tremble, quake, quiver")],  # "Lat. tremo, to tremble, quake, quiver"
+    "xa/skw": [(0, "to yawn, gape")],            # "Lat. hio, to yawn, gape"
+    # these four keep the first sense they had; the lost English is a later one
+    "ka/rfos": [(1, "a chip of wood")],          # "a dry stalk, Lat. palea, stipula, a chip of wood"
+    "yu=xos": [(1, "frosts, cold weather")],     # the plural ψύχεα, "Lat. frigora frosts, cold weather"
+    "oi)ke/ths": [(1, "one's household, the women and children")],  # οἱ οἰκέται, "Lat. familia, …"
+    "e(/teros": [(1, "one of two")],             # "Lat. alter, the other, one of two"
+    # Four more that the check found once it was looking at every word in the chapter
+    # and not only the ones with units: a word written as plain text still gets a card,
+    # and the card was showing an entry with its first translation missing.
+    "mnhmei=on": [(0, "any memorial, remembrance, record")],  # "Lat. monimentum, any memorial, …"
+    "trei=s": [(0, "three")],                    # "Lat. tres, tria, three" — the whole entry
+    "o)ktw/": [(0, "eight")],                    # "Lat. octo, eight" — the whole entry
+    "e(autou=": [(0, "of himself, herself, itself")],  # "Lat. sui, sibi, se, of himself, …"
+    "u(po/dhma": [(1, "a shoe")],                # "Lat. calceus, a shoe"
+}
+
+# The first-sense Latin elements that hold Latin and nothing else, or whose English the
+# entry already gives outside them, read and settled. Together with MARKUP_LOST this
+# accounts for every one of them, so build/validate.py can fail on a new one and make
+# somebody look rather than let a translation go quietly missing again.
+LATIN_ONLY = {
+    "pa=s", "o)/noma", "e(/ws", "e)k", "o(/te", "pou/s", "ai)/c", "o(/pws", "so/s",
+    "u(yhlo/s", "pro/teros", "i(/ppos", "o)/yis", "despo/ths", "ge", "ei)=dos",
+    "e(/rpw", "e)lai/a", "ste/ar", "lei=os", "e)/ar", "e)kba/llw", "e)pife/rw",
+    # these five lose nothing: the run is Latin throughout, or the English beside it
+    # is a <tr> of its own and already in the senses
+    "ti/s", "e)/laion", "oi)=nos", "doke/w", "a)/zumos",
 }
 
 

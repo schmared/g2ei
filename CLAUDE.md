@@ -47,7 +47,9 @@ load-bearing word is one unit: a **headword** and its **chain**.
   loses a translation the printed entry gives — Perseus tags εἰ's *Lat. si, if* as Latin
   entire, so the English *if* never reaches a `<tr>` — `MARKUP_LOST` in `build/words.py`
   restores it, quoting the entry and naming the element that took it. That adds nothing
-  the lexicon does not say. Tense, voice and person come from the Greek form (ποιέω *to make* →
+  the lexicon does not say. 54 entries have a run of that shape and 24 had lost a
+  translation; `build/validate.py` fails on a new one until it is settled in `MARKUP_LOST`
+  or in `LATIN_ONLY`, which records the runs that are Latin throughout. Tense, voice and person come from the Greek form (ποιέω *to make* →
   ἐποίησεν *made*), and so does the article: English gets one where the Greek has one and
   nowhere else (ἐν ἀρχῇ → *in beginning*; ὁ θεός → *the God*). No translation is consulted
   — lexicon glosses ignore context, and that is the point.
@@ -278,6 +280,10 @@ The count is checked as well as the name: two units may not open one word.
 - the project's own morphology is well-formed by its code's own grammar
 - that morphology agrees with itself across every chapter — a form keeps its dictionary
   form, a verb its parse, a noun its gender and number — unless the line says why
+- every first-sense Latin run in the lexicon is settled: Middle Liddell writes `Lat.
+  <latin>, <English>` and Perseus wraps the whole run in one Latin element, so the
+  English never reaches a translation. No check on the data can see it — a chain written
+  from the entry's text is right — so this one reads the lexicon
 - Greek text matches the source edition — New Testament character-for-character against
   SBLGNT; the Old Testament against the printed page every verse cites in `print`
 
