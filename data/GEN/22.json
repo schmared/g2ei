@@ -3,7 +3,9 @@
     "ref": "GEN 22:1",
     "greek": "Καὶ ἐγένετο μετὰ τὰ ῥήματα ταῦτα ὁ θεὸς ἐπείραζεν τὸν Αβρααμ καὶ εἶπεν πρὸς αὐτόν Αβρααμ, Αβρααμ· ὁ δὲ εἶπεν Ἰδοὺ ἐγώ.",
     "print": "Rahlfs 1935 (1950 printing), vol. I, p. 29",
-    "speech": ["Ἰδοὺ"],
+    "speech": [
+      "Ἰδοὺ"
+    ],
     "hint": "After these things God tests Abraham: Abraham! — Here I am.",
     "notes": [
       {
@@ -41,7 +43,9 @@
     "ref": "GEN 22:2",
     "greek": "καὶ εἶπεν Λαβὲ τὸν υἱόν σου τὸν ἀγαπητόν, ὃν ἠγάπησας, τὸν Ισαακ, καὶ πορεύθητι εἰς τὴν γῆν τὴν ὑψηλὴν καὶ ἀνένεγκον αὐτὸν ἐκεῖ εἰς ὁλοκάρπωσιν ἐφʼ ἓν τῶν ὀρέων, ὧν ἄν σοι εἴπω.",
     "print": "Rahlfs 1935 (1950 printing), vol. I, p. 29",
-    "speech": ["Λαβὲ"],
+    "speech": [
+      "Λαβὲ"
+    ],
     "hint": "Take your beloved son Isaac, go to the high land, and offer him there as a whole burnt-offering on a mountain I will tell you.",
     "notes": [
       {
@@ -70,7 +74,7 @@
         "text": "Capitalised because it opens direct speech, as Rahlfs prints it; listed in `speech` so the checks do not take it for a proper name."
       }
     ],
-    "reading": "and [[said|said, spoke, declared, called by name, told|λέγω]] [[take|take, receive, take hold of and grasp and seize|λαμβάνω]] the son of you the [[beloved|beloved, only, worthy of love and loveable and dear, to be acquiesced in|ἀγαπητός]], whom [[you treated with affection|you treated with affection, you caressed, you loved, you were fond of, you regarded with brotherly love, you were well pleased and contented with, you were content|ἀγαπάω]], [[name:Ισαακ]], and [[be driven|be driven, be carried, go, walk, march, go across and pass|πορεύομαι]] [[into|into, to, in, rest in|εἰς]] [[the earth|the earth, the land, the ground|γῆ]] the [[high|high, lofty, high-raised, highland, stately|ὑψηλός]] and [[bring up|bring up, carry up, carry up the country, take with you, pour forth, heave and utter, uphold and take upon yourself, offer and contribute, lead up, carry back and recover, bring back and report, trace up|ἀναφέρω]] him [[there|there, in that place|ἐκεῖ]] [[into|into, to, in, rest in|εἰς]] whole burnt-offering [[upon|upon, on, in, at, near|ἐπί + accusative]] [[one|one, a single one, one alone|εἷς]] [[of the mountains|of the mountains, of the hills|ὄρος]], of which ever to you [[I may say|I may say, I may speak, I may declare, I may call by name, I may tell|λέγω]].",
+    "reading": "and [[said|said, spoke, declared, called by name, told|λέγω]] [[take|take, receive, take hold of and grasp and seize|λαμβάνω]] the son of you [[the beloved|the beloved, the only, the worthy of love and loveable and dear, to the be acquiesced in|ἀγαπητός]], whom [[you treated with affection|you treated with affection, you caressed, you loved, you were fond of, you regarded with brotherly love, you were well pleased and contented with, you were content|ἀγαπάω]], [[name:Ισαακ]], and [[be driven|be driven, be carried, go, walk, march, go across and pass|πορεύομαι]] [[into|into, to, in, rest in|εἰς]] [[the earth|the earth, the land, the ground|γῆ]] [[the high|the high, the lofty, the high-raised, the highland, the stately|ὑψηλός]] and [[bring up|bring up, carry up, carry up the country, take with you, pour forth, heave and utter, uphold and take upon yourself, offer and contribute, lead up, carry back and recover, bring back and report, trace up|ἀναφέρω]] him [[there|there, in that place|ἐκεῖ]] [[into|into, to, in, rest in|εἰς]] whole burnt-offering [[upon|upon, on, in, at, near|ἐπί + accusative]] [[one|one, a single one, one alone|εἷς]] [[of the mountains|of the mountains, of the hills|ὄρος]], of which ever to you [[I may say|I may say, I may speak, I may declare, I may call by name, I may tell|λέγω]].",
     "names": [
       {
         "greek": "Ισαακ",
@@ -144,7 +148,9 @@
     "ref": "GEN 22:5",
     "greek": "καὶ εἶπεν Αβρααμ τοῖς παισὶν αὐτοῦ Καθίσατε αὐτοῦ μετὰ τῆς ὄνου, ἐγὼ δὲ καὶ τὸ παιδάριον διελευσόμεθα ἕως ὧδε καὶ προσκυνήσαντες ἀναστρέψωμεν πρὸς ὑμᾶς.",
     "print": "Rahlfs 1935 (1950 printing), vol. I, p. 30",
-    "speech": ["Καθίσατε"],
+    "speech": [
+      "Καθίσατε"
+    ],
     "hint": "Stay here with the ass; the boy and I will go on, worship, and return to you.",
     "notes": [
       {
@@ -215,7 +221,11 @@
     "ref": "GEN 22:7",
     "greek": "εἶπεν δὲ Ισαακ πρὸς Αβρααμ τὸν πατέρα αὐτοῦ εἴπας Πάτερ. ὁ δὲ εἶπεν Τί ἐστιν, τέκνον; λέγων Ἰδοὺ τὸ πῦρ καὶ τὰ ξύλα· ποῦ ἐστιν τὸ πρόβατον τὸ εἰς ὁλοκάρπωσιν;",
     "print": "Rahlfs 1935 (1950 printing), vol. I, p. 30",
-    "speech": ["Πάτερ", "Τί", "Ἰδοὺ"],
+    "speech": [
+      "Πάτερ",
+      "Τί",
+      "Ἰδοὺ"
+    ],
     "hint": "Isaac: Father! — What is it, child? — Here are the fire and the wood; where is the sheep for the burnt-offering?",
     "notes": [
       {
@@ -259,7 +269,9 @@
     "ref": "GEN 22:8",
     "greek": "εἶπεν δὲ Αβρααμ Ὁ θεὸς ὄψεται ἑαυτῷ πρόβατον εἰς ὁλοκάρπωσιν, τέκνον. πορευθέντες δὲ ἀμφότεροι ἅμα",
     "print": "Rahlfs 1935 (1950 printing), vol. I, p. 30",
-    "speech": ["Ὁ"],
+    "speech": [
+      "Ὁ"
+    ],
     "hint": "God will see to a sheep for himself, my child. And the two go on together.",
     "notes": [
       {
@@ -347,7 +359,9 @@
     "ref": "GEN 22:11",
     "greek": "καὶ ἐκάλεσεν αὐτὸν ἄγγελος κυρίου ἐκ τοῦ οὐρανοῦ καὶ εἶπεν αὐτῷ Αβρααμ, Αβρααμ. ὁ δὲ εἶπεν Ἰδοὺ ἐγώ.",
     "print": "Rahlfs 1935 (1950 printing), vol. I, p. 30",
-    "speech": ["Ἰδοὺ"],
+    "speech": [
+      "Ἰδοὺ"
+    ],
     "hint": "The angel of the Lord calls from heaven: Abraham, Abraham! — Here I am.",
     "notes": [
       {
@@ -375,7 +389,9 @@
     "ref": "GEN 22:12",
     "greek": "καὶ εἶπεν Μὴ ἐπιβάλῃς τὴν χεῖρά σου ἐπὶ τὸ παιδάριον μηδὲ ποιήσῃς αὐτῷ μηδέν· νῦν γὰρ ἔγνων ὅτι φοβῇ τὸν θεὸν σὺ καὶ οὐκ ἐφείσω τοῦ υἱοῦ σου τοῦ ἀγαπητοῦ διʼ ἐμέ.",
     "print": "Rahlfs 1935 (1950 printing), vol. I, p. 30",
-    "speech": ["Μὴ"],
+    "speech": [
+      "Μὴ"
+    ],
     "hint": "Do not lay your hand on the boy; now I know you fear God, for you did not spare your beloved son for my sake.",
     "notes": [
       {
@@ -399,7 +415,7 @@
         "text": "Capitalised because it opens direct speech, as Rahlfs prints it; listed in `speech` so the checks do not take it for a proper name."
       }
     ],
-    "reading": "and [[said|said, spoke, declared, called by name, told|λέγω]] [[not|not, that not, perhaps, surely not and you don't mean to say that|μή]] [[you may throw|you may throw and cast upon, you may lay on, you may affix, you may add, you may mention, you may throw yourself upon and go straight towards, you may fall upon and against, you may apply yourself to and devote yourself to, you may give your attention to and think on, you may follow and come next, you may belong to and fall to|ἐπιβάλλω]] [[the hand|the hand, the hand and arm, the arm|χείρ]] of you [[upon|upon, on, in, at, near|ἐπί + accusative]] [[the young little boy|the young little boy, the young slave|παιδάριον]] [[but not|but not, and not, nor, not even|μηδέ]] [[you may make|you may make, you may do, you may produce, you may create|ποιέω]] to it [[and not one|and not one, not even one, nobody and naught and good for naught, naught and nothing, a good for naught, not at all and by no means|μηδείς]]; [[now at this very time|now at this very time, now, of the present, the present time, just now and but now, as it is and as the case now stands, in this case|νῦν]] [[for|for, since and as, for otherwise and else, now, but, why and what, would that|γάρ]] [[I learned to know|I learned to know, I perceived, I marked, I learned, I discerned and distinguished|γινώσκω]] [[that|that, seeing that, although, for that, because, inasmuch as|ὅτι]] [[you are put to flight|you are put to flight, you flee affrighted, you flee, you are seized with fear, you are affrighted, you fear|φοβέομαι]] [[the God|him who is God definitively, the one the article marks out, the known and the only|θεός]] you and not [[you spared|you spared, you did not destroy, you were merciful, you refrained from using and used sparingly, you were sparing and were thrifty and lived thriftily, you drew back from, you ceased, you forbore|φείδομαι]] of the son of you the [[beloved|beloved, only, worthy of love and loveable and dear, to be acquiesced in|ἀγαπητός]] [[through|through, throughout and over, during, by aid of and by means of, by reason of, because of, for the sake of|διά + accusative]] me.",
+    "reading": "and [[said|said, spoke, declared, called by name, told|λέγω]] [[not|not, that not, perhaps, surely not and you don't mean to say that|μή]] [[you may throw|you may throw and cast upon, you may lay on, you may affix, you may add, you may mention, you may throw yourself upon and go straight towards, you may fall upon and against, you may apply yourself to and devote yourself to, you may give your attention to and think on, you may follow and come next, you may belong to and fall to|ἐπιβάλλω]] [[the hand|the hand, the hand and arm, the arm|χείρ]] of you [[upon|upon, on, in, at, near|ἐπί + accusative]] [[the young little boy|the young little boy, the young slave|παιδάριον]] [[but not|but not, and not, nor, not even|μηδέ]] [[you may make|you may make, you may do, you may produce, you may create|ποιέω]] to it [[and not one|and not one, not even one, nobody and naught and good for naught, naught and nothing, a good for naught, not at all and by no means|μηδείς]]; [[now at this very time|now at this very time, now, of the present, the present time, just now and but now, as it is and as the case now stands, in this case|νῦν]] [[for|for, since and as, for otherwise and else, now, but, why and what, would that|γάρ]] [[I learned to know|I learned to know, I perceived, I marked, I learned, I discerned and distinguished|γινώσκω]] [[that|that, seeing that, although, for that, because, inasmuch as|ὅτι]] [[you are put to flight|you are put to flight, you flee affrighted, you flee, you are seized with fear, you are affrighted, you fear|φοβέομαι]] [[the God|him who is God definitively, the one the article marks out, the known and the only|θεός]] you and not [[you spared|you spared, you did not destroy, you were merciful, you refrained from using and used sparingly, you were sparing and were thrifty and lived thriftily, you drew back from, you ceased, you forbore|φείδομαι]] of the son of you [[the beloved|the beloved, the only, the worthy of love and loveable and dear, to the be acquiesced in|ἀγαπητός]] [[through|through, throughout and over, during, by aid of and by means of, by reason of, because of, for the sake of|διά + accusative]] me.",
     "names": []
   },
   {
@@ -455,7 +471,10 @@
     "ref": "GEN 22:14",
     "greek": "καὶ ἐκάλεσεν Αβρααμ τὸ ὄνομα τοῦ τόπου ἐκείνου Κύριος εἶδεν, ἵνα εἴπωσιν σήμερον Ἐν τῷ ὄρει κύριος ὤφθη.",
     "print": "Rahlfs 1935 (1950 printing), vol. I, p. 30",
-    "speech": ["Κύριος", "Ἐν"],
+    "speech": [
+      "Κύριος",
+      "Ἐν"
+    ],
     "hint": "Abraham names the place The Lord saw, so that they say today: On the mountain the Lord was seen.",
     "notes": [
       {
@@ -510,7 +529,9 @@
     "ref": "GEN 22:16",
     "greek": "λέγων Κατʼ ἐμαυτοῦ ὤμοσα, λέγει κύριος, οὗ εἵνεκεν ἐποίησας τὸ ῥῆμα τοῦτο καὶ οὐκ ἐφείσω τοῦ υἱοῦ σου τοῦ ἀγαπητοῦ διʼ ἐμέ,",
     "print": "Rahlfs 1935 (1950 printing), vol. I, p. 30",
-    "speech": ["Κατʼ"],
+    "speech": [
+      "Κατʼ"
+    ],
     "hint": "By myself I have sworn, says the Lord: because you did this and did not spare your beloved son for my sake,",
     "notes": [
       {
@@ -534,7 +555,7 @@
         "text": "Capitalised because it opens direct speech, as Rahlfs prints it; listed in `speech` so the checks do not take it for a proper name."
       }
     ],
-    "reading": "[[saying|saying, speaking, declaring, calling by name, telling|λέγω]] [[down|down, downwards, down from, down upon, over, upon|κατά + genitive]] of myself [[I swore|I swore, I swore to and affirmed and confirmed by oath, I swore that I would, I swore by|ὄμνυμι]], [[says|says, speaks, declares, calls by name, tells|λέγω]] [[lord|lord, master, the one having power and authority over|κύριος]], of which [[on account of|on account of, for the sake of, because of, for, as far as regards|εἵνεκα]] [[you made|you made, you did, you produced, you created|ποιέω]] [[that which is said|that which is said and spoken, the word, the saying, the phrase, the subject of speech and the thing, the verb|ῥῆμα]] [[this|this, the nearer, what follows|οὗτος]] and not [[you spared|you spared, you did not destroy, you were merciful, you refrained from using and used sparingly, you were sparing and were thrifty and lived thriftily, you drew back from, you ceased, you forbore|φείδομαι]] of the son of you the [[beloved|beloved, only, worthy of love and loveable and dear, to be acquiesced in|ἀγαπητός]] [[through|through, throughout and over, during, by aid of and by means of, by reason of, because of, for the sake of|διά + accusative]] me,",
+    "reading": "[[saying|saying, speaking, declaring, calling by name, telling|λέγω]] [[down|down, downwards, down from, down upon, over, upon|κατά + genitive]] of myself [[I swore|I swore, I swore to and affirmed and confirmed by oath, I swore that I would, I swore by|ὄμνυμι]], [[says|says, speaks, declares, calls by name, tells|λέγω]] [[lord|lord, master, the one having power and authority over|κύριος]], of which [[on account of|on account of, for the sake of, because of, for, as far as regards|εἵνεκα]] [[you made|you made, you did, you produced, you created|ποιέω]] [[that which is said|that which is said and spoken, the word, the saying, the phrase, the subject of speech and the thing, the verb|ῥῆμα]] [[this|this, the nearer, what follows|οὗτος]] and not [[you spared|you spared, you did not destroy, you were merciful, you refrained from using and used sparingly, you were sparing and were thrifty and lived thriftily, you drew back from, you ceased, you forbore|φείδομαι]] of the son of you [[the beloved|the beloved, the only, the worthy of love and loveable and dear, to the be acquiesced in|ἀγαπητός]] [[through|through, throughout and over, during, by aid of and by means of, by reason of, because of, for the sake of|διά + accusative]] me,",
     "names": []
   },
   {
@@ -638,7 +659,9 @@
     "ref": "GEN 22:20",
     "greek": "Ἐγένετο δὲ μετὰ τὰ ῥήματα ταῦτα καὶ ἀνηγγέλη τῷ Αβρααμ λέγοντες Ἰδοὺ τέτοκεν Μελχα καὶ αὐτὴ υἱοὺς Ναχωρ τῷ ἀδελφῷ σου,",
     "print": "Rahlfs 1935 (1950 printing), vol. I, p. 30",
-    "speech": ["Ἰδοὺ"],
+    "speech": [
+      "Ἰδοὺ"
+    ],
     "hint": "Abraham is told: Milcah too has borne sons to your brother Nahor —",
     "notes": [
       {

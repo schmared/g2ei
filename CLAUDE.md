@@ -152,8 +152,15 @@ depends on a judgement about what governs what or about which use of a dative is
 preposition that merges into its object's unit: *within, inside of, and by means of the well*
 is ἐν's own English, not a case-marker, and it keeps the lead.
 
-The article goes inside the unit, never beside it: τῷ οἴκῳ is `[[to the house|…]]`, not a
-plain *the* before `[[to house|…]]`.
+### The article goes inside its word's unit
+τῷ οἴκῳ is `[[to the house|…]]`, not a plain *the* before `[[to house|…]]` — which printed
+*the to house*, a word standing bare that belongs in a chain. A participle takes it the way
+the corpus already writes one, `the one coming`, `the ones going into`; an articular
+infinitive becomes a gerund, as ἐν τῷ ἐκτρῖψαι reads *in the rubbing out*.
+
+Where the article governs a phrase rather than a word there is no one unit to put it in, and
+the plain *the* is right: τὰ ἐπὶ τῆς γῆς, τὰ ὀπίσω, and ὁ δέ, where ὁ is the pronoun subject
+and the prose reads *the, but, … he said*.
 
 ### Prepositions
 ἐν → "within, inside of, and by means of." πρός + accusative → directional, never static

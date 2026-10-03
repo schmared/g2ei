@@ -5537,3 +5537,33 @@ no entry, which would make μήτρα a one-sense word printing as plain text. �
 shape: its chain's second gloss, `the shoulder`, has no basis in the entry now that the first
 reads in full. Both are rule-interaction questions rather than facts, and neither is changed
 here.
+## The article inside its word's unit
+
+150 units had their article written as a plain `the` standing in front of them. The panel
+then shows a word bare that belongs in a chain, and the unit's own chain reads as though the
+Greek were anarthrous — `the [[to house|to house, …|οἶκος]]` prints *the to house*, where
+τῷ οἴκῳ has one article and the unit should carry it. Marking the cases had made three of
+them conspicuous; these are the rest.
+
+**140 folded in.** A noun or an adjective takes `the X`, and a possessive gloss keeps it:
+τὸ σόν is *the thy*, as every Greek article keeps its *the*. A participle takes it the way the
+corpus already writes one — `the one coming`, `the ones having gone in`, and `of the one
+having come into being` where the article is genitive. An articular infinitive becomes a
+gerund, which is how ἐν τῷ ἐκτρῖψαι already read *in the rubbing out*: τῷ ἀποδιδράσκειν is
+*the running away*, τὸ σῴζεσθαι *the being saved*.
+
+Which occurrence of a word a unit opens is read off its position: the reading follows the
+Greek word for word, so the nth unit naming a word answers to the nth one in the Greek. That
+settled 39 that a count alone could not, GEN 31:13's `the [[God|…]]` among them, where θεός
+stands twice and only the first is articular.
+
+**45 left as they are, and rightly.** Where the article governs a phrase instead of a word
+there is no one unit to put it in: τὰ ἐπὶ τῆς γῆς, τὰ ὀπίσω, τὰ νῦν, and ὁ δέ, where ὁ is the
+pronoun subject and the prose reads *the, but, … he said*. 27 are that last kind.
+
+**Still open.** 18 of those 45 are the article substantivizing a preposition's phrase or an
+adverb, and they read *the upon of the earth*, *into the backwards*. English wants *the ones
+upon the earth*, *into the things behind* — and `one` is already how the article's English is
+written in front of a participle, so the same word would serve. Whether the substantivizing
+article may print `the ones` or `the things` as plain text is a convention to settle, not a
+fact, and nothing here assumes it.
