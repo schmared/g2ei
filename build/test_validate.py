@@ -54,6 +54,18 @@ def shut(verses, index, lemma):
     return out
 
 
+def with_lsj(extra):
+    """The lexicon check, with words added to the LSJ table for the length of one run."""
+    import words as W
+    saved = dict(W.LSJ)
+    W.LSJ.update(extra)
+    try:
+        return run(V.check_lexicon)
+    finally:
+        W.LSJ.clear()
+        W.LSJ.update(saved)
+
+
 def run(fn, *args):
     """One check against one dataset, its output captured. -> (failed, skipped, lines)"""
     rep, buf = V.Report(), io.StringIO()
@@ -220,6 +232,12 @@ NEGATIVE = [
     ("fields   malformed unit (no |)",   lambda: run(V.check_fields, mut(GEN, [0, "reading"], "[[made]] x"))),
     ("fields   unit with empty chain",   lambda: run(V.check_fields, mut(GEN, [0, "reading"], "[[made| ]] x"))),
     ("fields   unit with no lemma",     lambda: run(V.check_fields, mut(GEN, [0, "reading"], "[[made|a, b]] x"))),
+    ("lexicon  LSJ standing in for a word Middle Liddell has",
+                                         lambda: with_lsj({"λόγος": ["word"]})),
+    # ποιμήν is in Middle Liddell only under a truncated key, `poimh/`, which SPELLING
+    # names; once named, it is a word Middle Liddell has, and LSJ may not answer for it
+    ("lexicon  ...and a word it has only under a close form",
+                                         lambda: with_lsj({"ποιμήν": ["shepherd"]})),
     ("unit wds one word, claimed by two units",
                                          lambda: run(V.check_unit_words, "GEN", 1,
                                                      mut(GEN, [0, "reading"],
@@ -388,6 +406,13 @@ CONTROL = [
                                          lambda: holds(V.lemmas("ἀνά + accusative; μέσος") == ["ἀνά", "μέσος"]
                                                        and V.lemmas("μετά + accusative") == ["μετά"],
                                                        "the lemma field lists every word a unit opens")),
+    ("lexicon  clean: every LSJ word is one Middle Liddell lacks",
+                                         lambda: run(V.check_lexicon)),
+    # διαναπαύω stays with LSJ: Middle Liddell has only the middle, which does not say
+    # what the active of GEN 5:29 means, and a close form must cover the form in the text
+    ("lexicon  a close form that does not cover the text's form is no entry",
+                                         lambda: holds("διαναπαύω" in __import__("words").LSJ,
+                                                       "διαναπαύω reads LSJ's active")),
     ("1 sense  clean GEN 1",             lambda: run(V.check_one_sense, "GEN", 1, GEN)),
     # κιβωτός has one numbered sense and still wants a unit, because that sense reads
     # `a wooden box, chest, coffer`; ὁρκίζω keeps its repeating chain because `made

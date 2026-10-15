@@ -823,6 +823,32 @@ def check_markup(targets, rep):
     rep.done("markup", "%d first-sense Latin runs, all settled" % seen, before)
 
 
+def check_lexicon(rep):
+    """Middle Liddell is the lexicon; LSJ answers only where it has nothing.
+
+    The LSJ table used to win outright, so a word Middle Liddell did have could be read
+    from LSJ instead — ὦμος, μνημεῖον, and ποιμήν, whose entry hides under a truncated
+    key. A close form counts as having the word (SPELLING, ENTRY, FILED_WITHIN), and so
+    does an entry whose translation the markup hides, which MARKUP_LOST recovers. What is
+    left in the table must be a word Middle Liddell lacks under every one of those.
+    """
+    before = rep.failed
+    try:
+        import words as W
+        entries = W.load_middle_liddell()
+    except Exception as exc:                      # pragma: no cover
+        rep.skip("lexicon", "Middle Liddell would not load: %s" % exc)
+        return
+    for lemma in W.LSJ:
+        if W.lexicon_senses(entries, lemma) is not None:
+            rep.fail("lexicon", lemma,
+                     "Middle Liddell has this word, so LSJ may not stand in for it — take "
+                     "the LSJ entry out, and recover anything the markup hides with "
+                     "MARKUP_LOST")
+    rep.done("lexicon", "%d words from LSJ, none of them in Middle Liddell" % len(W.LSJ),
+             before)
+
+
 def check_banned(verses, rep):
     before = rep.failed
     for verse in verses:
@@ -1465,6 +1491,9 @@ def main():
 
     print("markup")
     check_markup(targets, rep)
+
+    print("lexicon")
+    check_lexicon(rep)
 
     print()
     if rep.failed:

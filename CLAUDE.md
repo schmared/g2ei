@@ -41,7 +41,16 @@ load-bearing word is one unit: a **headword** and its **chain**.
 
 - **The headword is the lexicon's first sense, in the form the text uses.** The lexicon is
   Middle Liddell as Perseus encodes it, in `/sources` — the first translation in the entry's
-  first numbered sense; where it has no entry, LSJ (PerseusDL, CC BY-SA 4.0). For
+  first numbered sense. **LSJ answers only where Middle Liddell has no entry** under the
+  word's own key or a close form of it: another spelling (κρυφῇ under κρυφῆ), the voice the
+  text uses filed apart (κατανύσσω under κατανύσσομαι), the word filed as a section of
+  another (πρῶτος as πρότερος B), or a truncated key (ποιμήν under `poimh/`). A close form
+  counts only where it covers the form in the text — Middle Liddell's middle διαναπαύομαι
+  does not say what the active of GEN 5:29 means, so that word reads LSJ — and never a
+  compound under its simplex or a verb under its noun, which would be composing rather than
+  reading. Where Middle Liddell gives less than LSJ, Middle Liddell is still the reading:
+  LSJ is not the basis, and saying more is not a reason to switch. Both are CC BY-SA, so
+  licensing draws no line between them. For
   a preposition, the first sense for the case it governs; for a word used as a noun, the
   first noun sense; for a particle, the senses its parse calls for. Where the encoding
   loses a translation the printed entry gives — Perseus tags εἰ's *Lat. si, if* as Latin
@@ -287,6 +296,9 @@ The count is checked as well as the name: two units may not open one word.
 - the project's own morphology is well-formed by its code's own grammar
 - that morphology agrees with itself across every chapter — a form keeps its dictionary
   form, a verb its parse, a noun its gender and number — unless the line says why
+- LSJ stands in only for a word Middle Liddell lacks under every close form of it — an
+  LSJ entry for a word Middle Liddell has is a failure, since the table used to win
+  outright and read ὦμος, μνημεῖον and ποιμήν from LSJ while Middle Liddell had them
 - every first-sense Latin run in the lexicon is settled: Middle Liddell writes `Lat.
   <latin>, <English>` and Perseus wraps the whole run in one Latin element, so the
   English never reaches a translation. No check on the data can see it — a chain written

@@ -59,21 +59,12 @@ LSJ = {
     # cites this very verse for the stone: "λίθος π., = πρασῖτις, LXX Ge. 2.12". Its
     # later sense, "the green faction", is the Circus faction, a substantive plural.
     "πράσινος": ["leek-green, light green"],
-    # Middle Liddell *has* ὀστέον, but tags only "the" — sliced out of "the bleached
-    # bones of the dead" — and never tags its actual gloss, which the entry gives as
-    # the Latin os, ossis. LSJ (eng16) tags "bone" among citation debris (d)Fr., a
-    # mangled ´sthi) that is not part of any sense.
-    "ὀστέον": ["bone", "the bleached bones of the dead"],
     # Middle Liddell has no entry for the pronoun of the second person at all. LSJ
     # (eng21) opens it "thou", and everything after is paradigm, not sense.
     "σύ": ["thou"],
     # Middle Liddell has no φλόγινος. LSJ (eng24) gives "flaming, fiery" and cites this
     # very verse for the sword, "ῥομφαία LXX Ge. 3.24"; then "flame-coloured" of garments.
     "φλόγινος": ["flaming, fiery", "flame-coloured"],
-    # Middle Liddell's only entry is ποιμάν, "doric for ποιμήν", which glosses nothing and
-    # points at an entry the abridgement does not have. LSJ (eng17) cites GEN 4:2 for
-    # "shepherd": "π. προβάτων LXX Ge. 4.2".
-    "ποιμήν": ["herdsman", "shepherd", "captain, chief", "master, lord", "pastor, teacher"],
     # No Middle Liddell entry. LSJ (eng26) cites GEN 4:21.
     "ψαλτήριον": ["stringed instrument, psaltery, harp"],
     # No Middle Liddell entry. LSJ (eng13): the weal of Isaiah 53:5 as well as GEN 4:23.
@@ -87,12 +78,9 @@ LSJ = {
                   "to be well pleased, satisfied"],
     # Middle Liddell has only the middle, διαναπαύομαι, "to rest awhile". LSJ (eng4) has
     # the active, which GEN 5:29 διαναπαύσει ἡμᾶς is, and gives the middle's gloss after it.
+    # A close form counts only where it covers the form the text uses, and the middle does
+    # not say what the active means — so this one stays with LSJ.
     "διαναπαύω": ["allow to rest awhile", "interrupt", "relieve", "rest awhile"],
-    # Middle Liddell has both numerals but tags no translation in either: "Lat. octo,
-    # eight", "Lat. tres, tria, three". LSJ tags them — ὀκτώ in eng16; τρεῖς is filed in
-    # eng22 under its neuter, τρία, whose entry opens "three".
-    "ὀκτώ": ["eight"],
-    "τρεῖς": ["three"],
     # No Middle Liddell entry. LSJ (eng1) gives one sense and cites GEN 6:14.
     "ἀσφαλτόω": ["smear with pitch"],
     # No Middle Liddell entry. LSJ (eng4) gives one sense and cites GEN 6:16.
@@ -105,9 +93,6 @@ LSJ = {
                  "eruption"],
     # No Middle Liddell entry. LSJ (eng5): "diminish", citing GEN 8:3 for the passive.
     "ἐλαττονόω": ["diminish"],
-    # Middle Liddell and LSJ both file πρῶτος inside πρότερος, whose own senses are the
-    # comparative's. LSJ (eng17) opens the superlative, πρότερος B, "foremost", then "first".
-    "πρῶτος": ["foremost", "first"],
     # No Middle Liddell entry for either. LSJ (eng16) gives the adjective's senses and cites
     # GEN 9:23 for "looking backwards", of the face; the adverb, "backwards", is cited from the
     # same verse, πορεύεσθαι ὀπισθοφανῶς.
@@ -154,26 +139,14 @@ LSJ = {
     "γελοιάζω": ["jest"],
     "ἐπαύριον": ["on the morrow"],
     "εἰσσπάομαι": ["draw into oneself"],
-    # Middle Liddell tags nothing in μήτρα but the Latin "matrix", and has no δίδραχμον or κἀγώ.
-    # LSJ (eng13): μήτρα, "womb", "the cervix including the orifice of the womb", a swine's
-    # "matrix", "source, origin", "core, heart-wood", "diseased condition", "queen-wasp". LSJ (eng4):
-    # δίδραχμον, under δίδραχμος, "coin of two drachms", "half-shekel". LSJ (eng11): κἀγώ, "crasis
-    # for καὶ ἐγώ", which glosses nothing; the senses are καί's first and the pronoun's.
-    "μήτρα": ["womb", "the cervix including the orifice of the womb", "matrix", "source, origin",
-              "core, heart-wood", "diseased condition", "queen-wasp"],
-    "δίδραχμον": ["coin of two drachms", "half-shekel"],
+    # Middle Liddell has no κἀγώ. LSJ (eng11): "crasis for καὶ ἐγώ", which glosses nothing;
+    # the senses are καί's first and the pronoun's.
     "κἀγώ": ["and I"],
-    # No Middle Liddell entry for these two, and ὦμος is tagged only in Latin. LSJ (eng1):
-    # ἀπογαλακτίζω, "wean from the mother's milk"; ἀρχιστράτηγος, "commander-in-chief". LSJ
-    # (eng27): ὦμος, "the shoulder with the upper arm", and "the shoulder".
+    # No Middle Liddell entry for these two. LSJ (eng1): ἀπογαλακτίζω, "wean from the
+    # mother's milk"; ἀρχιστράτηγος, "commander-in-chief".
     "ἀπογαλακτίζω": ["wean from the mother's milk"],
     "ἀρχιστράτηγος": ["commander-in-chief"],
-    "ὦμος": ["the shoulder with the upper arm", "the shoulder"],
-    # Middle Liddell's μνημεῖον carries its first sense's English only inside the Latin
-    # ("monimentum, any memorial, remembrance, record"), and has no παρεπίδημος. LSJ (eng13):
-    # μνημεῖον, "memorial, remembrance, record", then "tomb, monument". LSJ (eng17): παρεπίδημος,
-    # "sojourning in a strange place".
-    "μνημεῖον": ["memorial, remembrance, record", "tomb, monument"],
+    # No Middle Liddell παρεπίδημος. LSJ (eng17): "sojourning in a strange place".
     "παρεπίδημος": ["sojourning in a strange place"],
     # No Middle Liddell entry for these four. LSJ (eng17): ποτιστήριον, "drinking-trough for
     # cattle", then the Latin "popina", which glosses nothing in English. LSJ (eng5): ἐνώτιον,
@@ -183,13 +156,8 @@ LSJ = {
     "ἐνώτιον": ["ear-ring"],
     "ἅβρα": ["favourite slave"],
     "ἀποσάττω": ["unsaddle, unpack", "stop up, caulk", "stuff with food"],
-    # Middle Liddell has no ὅλος at all, and neither ὅλος nor δόμα nor πυρράκης is in it.
-    # LSJ (eng16): ὅλος, "whole, entire, complete in all its parts", then "safe and sound",
-    # "entire, utter", the neuter adverbial "wholly, entirely", "all", and as a noun "the
-    # universe" and "one's all". LSJ (eng4): δόμα, "gift", then "payment". LSJ (eng17):
-    # πυρράκης, a masculine noun of the first declension, "red, ruddy".
-    "ὅλος": ["whole, entire, complete in all its parts", "safe and sound", "entire, utter",
-             "wholly, entirely", "all", "the universe", "one's all"],
+    # Neither δόμα nor πυρράκης is in Middle Liddell. LSJ (eng4): δόμα, "gift", then
+    # "payment". LSJ (eng17): πυρράκης, a masculine noun of the first declension, "red, ruddy".
     "δόμα": ["gift", "payment"],
     "πυρράκης": ["red, ruddy"],
     # No Middle Liddell entry for these two. LSJ (eng5): ἑκατοστεύω, "bear a hundredfold". LSJ
@@ -205,13 +173,10 @@ LSJ = {
     "πιότης": ["fattiness", "wealth, prosperity"],
     "πτερνίζω": ["strike with the heel", "trip up, supplant", "heel an old shoe"],
     "προσοχθίζω": ["to be wroth with", "am weary", "to be treated with contumely"],
-    "κατανύσσω": ["stab, gouge", "to be sorely pricked", "to be bewildered, stunned"],
     # Middle Liddell has ἐνύπνιον but not the verb. LSJ (eng5): ἐνυπνιάζω, "dream", with the
     # middle and passive used of the same thing; MorphGNT files the middle, ἐνυπνιάζομαι.
     "ἐνυπνιάζομαι": ["dream"],
     # The flock-breeding words of GEN 30, none of them in the abridgement.
-    # LSJ (eng1) ἀρήν, the lamb whose nominative survives only in inscriptions.
-    "ἀρήν": ["lamb"],
     # LSJ (eng4) cites this very verse: "διάλευκος … LXX Ge. 30.32".
     "διάλευκος": ["quite white"],
     # LSJ (eng20) cites GEN 30:32 for the animals; the first sense is of sprinkling.
@@ -226,9 +191,7 @@ LSJ = {
     "σποδοειδής": ["ashy, ash-coloured"],
     # LSJ (eng5) has this verse alone: "ἐγκισσάω, have yearnings like one pregnant, LXX Ge. 30.38".
     "ἐγκισσάω": ["have yearnings like one pregnant"],
-    # GEN 31, and LSJ cites this chapter for three of the five.
-    # LSJ (eng11) κρυφῇ, the adverb, which Middle Liddell has only as the Doric κρύφα.
-    "κρυφῇ": ["secretly, in secret"],
+    # GEN 31, and LSJ cites this chapter for three of the four.
     # LSJ (eng11): "κατάβρωσις, eating up, devouring, LXX Ge. 31.15".
     "κατάβρωσις": ["eating up, devouring"],
     # LSJ (eng11): "κλοποφορέω, steal from, rob, τινα LXX Ge. 31.26".
@@ -238,14 +201,7 @@ LSJ = {
     "ἐθισμός": ["accustoming, habituation", "habits", "usages"],
     # LSJ (eng9) θηριάλωτος, cited from Leviticus 5:2, of the beast the wild beasts took.
     "θηριάλωτος": ["caught by wild beasts"],
-    # Middle Liddell has the entry but tags no translation in it. LSJ (eng1): "αἰχμαλωτίς,
-    # captive", citing this very verse, and then the feminine of the adjective.
-    "αἰχμαλωτίς": ["captive"],
-    # GEN 32. LSJ (eng25) heads the adjective χειμάρροος, "winter-flowing, swollen by rain and
-    # melted snow", contracted χείμαρρους and shortened χείμαρρος; as a substantive, "torrent",
-    # and in the Septuagint "river" and "valley, watercourse".
-    "χείμαρρος": ["winter-flowing, swollen by rain and melted snow", "torrent", "river", "drain, gutter",
-                  "valley, watercourse"],
+    # GEN 32.
     # LSJ (eng5) cites this very verse: "ἐπισκάζω, limp upon, μηρῷ LXX Ge. 32.31(32)".
     "ἐπισκάζω": ["limp upon"],
     # GEN 33. LSJ (eng17) gives πόρευσις no gloss of its own: the entry reads "= πορεία … cf.
@@ -966,6 +922,14 @@ NOT_SENSES = {
     # not a sense of μήν.
     "u(penanti/os": {"opposite", "the contrary", "on the contrary",
                      "in a manner contrary to"},
+    # Entries reached by the Middle-Liddell-first rule. ἀρνός opens with its etymology,
+    # "akin to ἔριον, wool"; πρῶτος's "end" is half of "at the front or end of the pole",
+    # and cannot translate the adjective, while "among the first" and "at the front" are
+    # the idioms ἐν πρώτοις and ἐν πρώτῳ,
+    # which a merged unit already opens with ἐν's own English, as κατὰ μῆνα was not μήν.
+    "a)rno/s": {"wool"},
+    "prw=tos": {"end", "among the first", "at the front"},  # "at the front" is ἐν πρώτῳ
+    "ou)=los": {"incessant"},                  # from "screaming incessant", in the example
     # "so called from its broad leaves" is why the tree has the name, not a sense.
     "pla/tanos": {"broad leaves."},
     # νῦν's entry turns aside — "besides the sense of Time, the enclit. νυν, νυ denotes
@@ -1035,6 +999,17 @@ FORM_SENSES = {
 # (κατέναντι reads "= κατεναντίον" and glosses nothing itself). Each is recorded in
 # reference/lexicon-notes.md with the entry it resolves to.
 SPELLING = {
+    # Close forms of the same word, under which Middle Liddell files it. A close form
+    # counts only where it covers the form the text uses — not a compound under its
+    # simplex, nor a verb under its noun, which would be composing rather than reading.
+    "poimh/n": "poimh/",            # the entry is ποιμήν; Perseus truncates its key
+    "katanu/ssw": "katanu/ssomai",  # the passive the text uses, filed as κατανύσσομαι
+    "xei/marros": "xeima/rrous",    # the contracted χείμαρρους of the same adjective
+    "di/draxmon": "di/draxmos",     # "as Subst. δίδραχμον, a double-drachm"
+    "o(/los": "ou)=los1",           # "ionic form of ὅλος, whole, entire"; no ὅλος of its own
+    "krufh=|": "kru/bdhn",          # κρυφῆ reads "= κρύβδην" and glosses nothing itself
+    "ai)xmalwti/s": "ai)xma/lwtos",  # "fem. of αἰχμάλωτος", and nothing more
+    "a)rh/n": "a)rno/s",            # the lamb, filed under its genitive ἀρνός
     "gi/nomai": "gi/gnomai",
     "ginw/skw": "gignw/skw",
     "ei(=s": "ei(/s",               # Perseus keys the numeral with an acute
@@ -1298,7 +1273,38 @@ LATIN_ONLY = {
     # these five lose nothing: the run is Latin throughout, or the English beside it
     # is a <tr> of its own and already in the senses
     "ti/s", "e)/laion", "oi)=nos", "doke/w", "a)/zumos",
+    "a)rno/s",                                  # "a lamb, Lat. agnus, agna": the lamb is a <tr>
 }
+
+
+# A word Middle Liddell files as a section of another word's entry instead of under a key
+# of its own. "πρότερος and πρῶτος, Comp. and Sup. formed from πρό": section A is the
+# comparative, B the superlative. Within B, I is the adjective and II the neuter plural
+# used as a noun; III and IV are the adverbs πρῶτον and πρώτως. -> (host, section, parts)
+FILED_WITHIN = {
+    "prw=tos": ("pro/teros", "B", ("I", "II")),
+}
+
+
+def filed_within(body, section, parts):
+    """The translations of one lettered section of an entry, and only the parts named."""
+    out, inside, part = [], False, None
+    for s in re.finditer(r"<sense\b([^>]*)>(.*?)</sense>", body, re.S):
+        level = re.search(r'level="(\d+)"', s.group(1))
+        n = re.search(r'\bn="([^"]*)"', s.group(1))
+        level = int(level.group(1)) if level else 0
+        n = n.group(1) if n else ""
+        if level <= 1:
+            inside = n == section
+            continue
+        if not inside:
+            continue
+        if level == 2:
+            part = n
+        if part in parts:
+            out += [re.sub(r"\s+", " ", re.sub(r"<[^>]+>", "", g)).strip()
+                    for g in re.findall(r"<tr\b[^>]*>(.*?)</tr>", s.group(2), re.S)]
+    return [g for g in out if g]
 
 
 def load_middle_liddell():
@@ -1328,6 +1334,9 @@ def load_middle_liddell():
             senses.insert(at, gloss)
         entries.setdefault(key, senses)
         entries.setdefault(re.sub(r"\d+$", "", key), senses)
+        for word, (host, section, parts) in FILED_WITHIN.items():
+            if key == host:
+                entries[word] = filed_within(body, section, parts)
     return entries
 
 
@@ -1479,16 +1488,10 @@ def build(book, chapter, entries):
                                   "aspect": aspect, "senses": [gloss], "more": 0,
                                   "lexicon": "name"})
                     continue
-            if lemma in LSJ:
-                # An explicit LSJ entry wins: the table holds the words Middle Liddell
-                # lacks *and* the ones whose entry it tags with nothing usable, like
-                # ὀστέον, where taking what Perseus tagged would give "bones of the dead"
-                # for a single bone.
-                senses, lexicon = LSJ[lemma], "LSJ"
-                words.append({"form": form, "lemma": lemma, "parse": parse, "aspect": aspect,
-                              "senses": senses[:SHOWN], "more": max(0, len(senses) - SHOWN),
-                              "lexicon": lexicon})
-                continue
+            # Middle Liddell first. LSJ answers only where Middle Liddell has no entry for
+            # the word under its own key or a close form of it (SPELLING, ENTRY,
+            # FILED_WITHIN). An entry whose translation the markup hides is recovered from
+            # Middle Liddell itself (MARKUP_LOST), not replaced by LSJ.
             senses, lexicon = lexicon_senses(entries, lemma, code), "Middle Liddell"
             if not senses and (lemma in names or form in names or lemma in by_lemma):
                 # A name entry is keyed by the form the verse prints (Ἀσσυρίων), which

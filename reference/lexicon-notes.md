@@ -5567,3 +5567,53 @@ upon the earth*, *into the things behind* — and `one` is already how the artic
 written in front of a participle, so the same word would serve. Whether the substantivizing
 article may print `the ones` or `the things` as plain text is a convention to settle, not a
 fact, and nothing here assumes it.
+## Middle Liddell first
+
+Middle Liddell is the lexicon. LSJ answers only where Middle Liddell has no entry for the
+word under its own key or a close form of it — and where Middle Liddell gives less than LSJ,
+Middle Liddell is still the reading. Both are CC BY-SA, so licensing draws no line between
+them.
+
+The LSJ table had been winning outright: a word in it was read from LSJ even where Middle
+Liddell had it. Of its 83 words, **15 now read Middle Liddell** and 68 stay.
+
+**Six Middle Liddell had under their own key**, with the translation hidden by the markup and
+now recovered by `MARKUP_LOST`: τρεῖς, ὀκτώ, μνημεῖον, ὀστέον, μήτρα, ὦμος.
+
+**Nine it files under a close form**, now named in `SPELLING` or `FILED_WITHIN`:
+
+| word | where Middle Liddell has it | what it gives |
+| --- | --- | --- |
+| ποιμήν | `poimh/` — the key truncated | a herdsman, shepherd, a captain, chief |
+| κατανύσσω | κατανύσσομαι, the passive the text uses | to be sorely pricked, to be stupefied, to slumber |
+| χείμαρρος | χειμάρρους, the contracted adjective | winter-flowing, swollen by rain and melted snow; as Subst. a torrent; a conduit |
+| δίδραχμον | δίδραχμος, "as Subst. δίδραχμον" | worth two drachms; a double-drachm, half-shekel |
+| ὅλος | οὖλος, "ionic form of ὅλος" | whole, entire; continuous, incessant |
+| κρυφῇ | κρυφῆ, "= κρύβδην" | secretly |
+| αἰχμαλωτίς | "fem. of αἰχμάλωτος" | taken by the spear, captive to one's spear, taken prisoner; prisoner; booty |
+| ἀρήν | ἀρνός, its genitive used as the headword | a lamb, a sheep, ram, ewe |
+| πρῶτος | πρότερος B, the superlative's section | **first**, first, foremost, outermost, the first men, the first prize … |
+
+The old comments had called ποιμήν, δίδραχμον, χείμαρρος, κρυφῇ and ἀρήν absent from Middle
+Liddell; each is there, under a key nobody had looked for.
+
+A close form counts only where it covers the form in the text. διαναπαύω stays with LSJ:
+Middle Liddell has only the middle, διαναπαύομαι, "to rest awhile", which does not say what
+the active of GEN 5:29, *will give rest*, means. Nor does a compound count under its simplex,
+or a verb under its noun — ἐνισχύω is not ἰσχύω, ἀσφαλτόω is not ἄσφαλτος — because reading
+the one off the other would be composing.
+
+**What the readings gain and lose.** πρῶτος heads as *first*, Middle Liddell's, where it had
+been LSJ's *foremost*; ποιμήν loses LSJ's later *master, lord, pastor, teacher*; κατανύσσω
+loses *stabbed and gouged*; χείμαρρος, a noun, heads with its first noun sense, *the torrent*;
+δίδραχμα are *double-drachms* rather than *coins of two drachms*; μνημεῖον loses LSJ's
+*tomb*. μήτρα, ὦμος and κρυφῇ now give one sense each and print as plain text: *the womb*,
+*the shoulder with the upper arm*, *secretly*. αἰχμαλωτίς went the other way — the entry it
+points to says more than the plain *captives* did, so it is a unit now, heading *prisoners*.
+
+LSJ's fuller ranges for those words are not carried into the verse notes. The notes record
+facts about the text; that a larger dictionary says more is a fact about dictionaries, and
+LSJ says more for nearly every word. This file is where the change is recorded.
+
+`check_lexicon` fails on an LSJ entry for any word Middle Liddell has, under any close form
+`words.py` knows.
