@@ -32,6 +32,7 @@ import morph_diff as D  # noqa: E402
 
 GEN = json.loads((render.DATA / "GEN/1.json").read_text(encoding="utf-8"))
 GEN3 = json.loads((render.DATA / "GEN/3.json").read_text(encoding="utf-8"))
+GEN7 = json.loads((render.DATA / "GEN/7.json").read_text(encoding="utf-8"))
 JHN = json.loads((render.DATA / "JHN/1.json").read_text(encoding="utf-8"))
 
 
@@ -232,6 +233,19 @@ NEGATIVE = [
     ("fields   malformed unit (no |)",   lambda: run(V.check_fields, mut(GEN, [0, "reading"], "[[made]] x"))),
     ("fields   unit with empty chain",   lambda: run(V.check_fields, mut(GEN, [0, "reading"], "[[made| ]] x"))),
     ("fields   unit with no lemma",     lambda: run(V.check_fields, mut(GEN, [0, "reading"], "[[made|a, b]] x"))),
+    ("articles a plain `the` before the unit it belongs in",
+                                         lambda: run(V.check_articles, "GEN", 1,
+                                                     mut(GEN, [0, "reading"], "the [[house|a, b|οἶκος]] x"))),
+    ("articles one article written twice",
+                                         lambda: run(V.check_articles, "GEN", 1,
+                                                     mut(GEN, [0, "reading"], "x the the house"))),
+    # GEN 7:16 τὰ εἰσπορευόμενα is neuter: the article's noun is `things`, not `ones`
+    ("articles a neuter participle given `the ones`",
+                                         lambda: run(V.check_articles, "GEN", 7, [
+                                             dict(v, reading=v["reading"].replace(
+                                                 "[[the things going into|the things going into, the things entering|",
+                                                 "[[the ones going into|the ones going into, the ones entering|"))
+                                             for v in GEN7])),
     ("lexicon  LSJ standing in for a word Middle Liddell has",
                                          lambda: with_lsj({"λόγος": ["word"]})),
     # ποιμήν is in Middle Liddell only under a truncated key, `poimh/`, which SPELLING
@@ -406,6 +420,13 @@ CONTROL = [
                                          lambda: holds(V.lemmas("ἀνά + accusative; μέσος") == ["ἀνά", "μέσος"]
                                                        and V.lemmas("μετά + accusative") == ["μετά"],
                                                        "the lemma field lists every word a unit opens")),
+    # ὁ δέ: the article is the pronoun subject, and the plain `the` is right
+    ("articles ὁ δέ keeps its plain `the`",
+                                         lambda: run(V.check_articles, "GEN", 1,
+                                                     mut(GEN, [0, "reading"],
+                                                         "the [[but|but, however|δέ]] x"))),
+    ("articles clean GEN 7, with its neuter participle",
+                                         lambda: run(V.check_articles, "GEN", 7, GEN7)),
     ("lexicon  clean: every LSJ word is one Middle Liddell lacks",
                                          lambda: run(V.check_lexicon)),
     # διαναπαύω stays with LSJ: Middle Liddell has only the middle, which does not say

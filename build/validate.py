@@ -823,6 +823,69 @@ def check_markup(targets, rep):
     rep.done("markup", "%d first-sense Latin runs, all settled" % seen, before)
 
 
+# The particles before which a plain `the` is ὁ as the pronoun subject — ὁ δέ, "the, but,
+# … he said" — rather than an article that belongs in a unit.
+PRONOUN_BEFORE = {"δέ", "γάρ", "μέν", "τε", "οὖν", "ἀλλά", "καί", "μή", "οὐ", "εἰ", "ὅτι"}
+STRANDED = re.compile(r"(?<![\w\-])the\s+\[\[(?!name:)([^|\]]+)\|[^|\]]+\|([^|\]]+)\]\]")
+ARTICLE_NOUN = re.compile(r"^(?:of |to |with )?the (ones|one|things|thing)(?: |$)")
+
+
+def article_noun(parse):
+    """The English noun an article over a participle carries, by gender and number."""
+    p = parse.split(" · ")
+    if "neuter" in p:
+        return "things" if "plural" in p else "thing"
+    return "ones" if "plural" in p else "one"
+
+
+def check_articles(book, chapter, verses, rep):
+    """The article goes where its word is, and carries that word's gender.
+
+    A plain `the` in front of a unit printed `the to house`, `the the man`, `the upon of
+    the earth`: the article belonged inside the unit, or was a second copy of one already
+    there, or was making a noun of a phrase and needed its noun — `the things upon of the
+    earth`. The one plain `the` that may stand before a unit is ὁ δέ's, where ὁ is the
+    pronoun. And over a participle the article's noun follows the participle's gender:
+    masculine and feminine `one`, neuter `thing`, as a Greek reader hears the difference
+    between persons and things.
+    """
+    before = rep.failed
+    path = render.DATA / book / ("%d.words.json" % chapter)
+    lay = {}
+    if path.exists():
+        lay = {v["ref"]: v["words"] for v in
+               json.loads(path.read_text(encoding="utf-8")).get("verses", [])}
+    for verse in verses:
+        ref, text = verse["ref"], verse["reading"]
+        for m in STRANDED.finditer(text):
+            if lemmas(m.group(2))[-1] in PRONOUN_BEFORE:
+                continue
+            rep.fail("articles", ref,
+                     "a plain `the` stands before `%s`; put it inside the unit, drop it if "
+                     "the unit carries it already, or give it its noun if it makes a noun "
+                     "of a phrase" % m.group(1))
+        plain = render.NAME.sub("¦", render.UNIT.sub("¦", text))
+        if re.search(r"(?<![\w\-])the the(?![\w\-])", plain):
+            rep.fail("articles", ref, "`the the` in the plain text: one article, written twice")
+        words = lay.get(ref)
+        if not words:
+            continue
+        seen = collections.Counter()
+        for head, chain, field in units(text):
+            word = lemmas(field)[-1]
+            nth, seen[word] = seen[word], seen[word] + 1
+            m = ARTICLE_NOUN.match(head)
+            places = [i for i, w in enumerate(words) if w["lemma"] == word]
+            if not m or nth >= len(places) or "participle" not in words[places[nth]]["parse"]:
+                continue
+            want = article_noun(words[places[nth]]["parse"])
+            if m.group(1) != want:
+                rep.fail("articles", ref,
+                         "`%s` is %s; the article's noun follows its gender: `%s`"
+                         % (head, words[places[nth]]["parse"].split(" · ")[-1], want))
+    rep.done("articles", "%d verses" % len(verses), before)
+
+
 def check_lexicon(rep):
     """Middle Liddell is the lexicon; LSJ answers only where it has nothing.
 
@@ -1450,6 +1513,7 @@ def validate(book, chapter, rep):
     check_names(verses, rep)
     check_banned(verses, rep)
     check_anchors(verses, rep, book, chapter)
+    check_articles(book, chapter, verses, rep)
     if EDITIONS.get(book) == "lxx":
         check_morph_shape(book, chapter, rep)
         check_corpus(book, chapter, rep)

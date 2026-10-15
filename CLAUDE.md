@@ -163,13 +163,21 @@ is ἐν's own English, not a case-marker, and it keeps the lead.
 
 ### The article goes inside its word's unit
 τῷ οἴκῳ is `[[to the house|…]]`, not a plain *the* before `[[to house|…]]` — which printed
-*the to house*, a word standing bare that belongs in a chain. A participle takes it the way
-the corpus already writes one, `the one coming`, `the ones going into`; an articular
-infinitive becomes a gerund, as ἐν τῷ ἐκτρῖψαι reads *in the rubbing out*.
+*the to house*, a word standing bare that belongs in a chain. Nor a plain *the* before a unit
+that carries the article already, which printed *the the man*. An articular infinitive
+becomes a gerund, as ἐν τῷ ἐκτρῖψαι reads *in the rubbing out*.
 
-Where the article governs a phrase rather than a word there is no one unit to put it in, and
-the plain *the* is right: τὰ ἐπὶ τῆς γῆς, τὰ ὀπίσω, and ὁ δέ, where ὁ is the pronoun subject
-and the prose reads *the, but, … he said*.
+**Where the article makes a noun, it carries its noun, and the noun follows its gender**:
+masculine and feminine *one* / *ones*, neuter *thing* / *things*, by number — the line a
+Greek reader hears between persons and things. Over a participle that is inside the unit,
+`the one coming`, `the things going into`. Over a phrase or an adverb there is no one unit to
+hold it, so it stands as plain text with its case marked: οἱ μετ' αὐτοῦ is *the ones in the
+midst of him*, τὰ ὀπίσω *the things backwards*, τῶν ἐπὶ τῆς γῆς *of the things upon of the
+earth*, τὰ αὐτοῦ *the things of him*. Bare *the* before a preposition carries none of that and
+is not English.
+
+The one plain *the* that stands before a unit is ὁ δέ's, where ὁ is the pronoun subject and
+the prose reads *the, but, … he said*.
 
 ### Prepositions
 ἐν → "within, inside of, and by means of." πρός + accusative → directional, never static
@@ -296,6 +304,9 @@ The count is checked as well as the name: two units may not open one word.
 - the project's own morphology is well-formed by its code's own grammar
 - that morphology agrees with itself across every chapter — a form keeps its dictionary
   form, a verb its parse, a noun its gender and number — unless the line says why
+- the article stands where its word is: no plain *the* before a unit except ὁ δέ's, no
+  *the the*, and over a participle the article's noun follows its gender — *one* for
+  masculine and feminine, *thing* for neuter
 - LSJ stands in only for a word Middle Liddell lacks under every close form of it — an
   LSJ entry for a word Middle Liddell has is a failure, since the table used to win
   outright and read ὦμος, μνημεῖον and ποιμήν from LSJ while Middle Liddell had them

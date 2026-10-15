@@ -5617,3 +5617,51 @@ LSJ says more for nearly every word. This file is where the change is recorded.
 
 `check_lexicon` fails on an LSJ entry for any word Middle Liddell has, under any close form
 `words.py` knows.
+## The article's noun, by gender
+
+Where the Greek article makes a noun of something that is not one — a participle, a
+preposition's phrase, an adverb, a genitive — it is not *the* alone. Its gender and number
+say what kind of noun, and a Greek reader hears the difference: οἱ μετ' αὐτοῦ are people,
+τὰ ὀπίσω are things. So the article carries its English noun, chosen from its gender:
+
+| gender | singular | plural |
+| --- | --- | --- |
+| masculine, feminine | the one | the ones |
+| neuter | the thing | the things |
+
+and its case is marked, as a noun's is: τῶν ἐπὶ τῆς γῆς is *of the things upon of the earth*.
+
+Over a participle the noun sits inside the unit, where the corpus already put it — 46 of 48
+read *the one* or *the ones*, whatever the gender. Seven neuter participles now read *the
+things*: τὰ εἰσπορευόμενα of GEN 7:16 are *the things going into*, τὰ προπορευόμενα of GEN
+32:18 *the things going before*. Neuter is grammatical gender — those are animals and flocks —
+and the Greek says neuter of them.
+
+Over a phrase or an adverb there is no one unit to hold the article, so it stands as plain
+text with its noun: 44 of them. GEN 3:1 *of the things upon of the earth*, GEN 7:23 *the
+ones in the midst of him*, GEN 19:17 *into the things backwards*, GEN 2:16 *of the thing in
+the park*, where τοῦ ἐν τῷ παραδείσῳ has two articles and the first makes a noun of the
+phrase. τὰ αὐτοῦ is *the things of him*; τοῦ Σααρ, said of a man, *of the one of Saar*. The
+neuter singular is the awkward one — τὸ πρωί is *the thing early in the day* — and it is the
+gender, not the sense, that chose it.
+
+**Every plain `the` in front of a unit, classified from the Greek.** The pass that folded
+articles in had skipped any headword with *the* inside it — *son of the same mother*, *in the
+midst of*, *early in the day* — which hid every μετά and every ἀδελφός. Read off the Greek
+instead, the plain `the`s before a unit were:
+
+- **48 a second copy** of an article the unit already carried — *the the man*, GEN 29:32,
+  and *the the he-goats*, three times, once its unit had been flattened to plain text.
+  Dropped. They predate this session.
+- **8 an article that belonged inside the unit** — all ἀδελφός, *the sons of the same mother*.
+- **44 an article making a noun of a phrase**, given its noun as above.
+- **28 ὁ δέ**, the pronoun, which stays.
+
+And by hand: the article before a possessive belongs to the noun after it — τὴν ἑαυτῆς
+παιδίσκην is *of herself the young girl*, GEN 16:3 — and the articular infinitive of GEN 35:17,
+ἐν τῷ σκληρῶς αὐτὴν τίκτειν, took its τῷ off the adverb in front of it: *in hard her the
+bringing into the world*. Two case markers written twice, *of the of daughters* and *of the of
+flocks*, lost the second.
+
+`check_articles` holds all of it: no plain `the` before a unit but ὁ δέ's, no `the the`, and
+over a participle the article's noun follows its gender.
