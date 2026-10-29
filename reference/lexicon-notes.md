@@ -484,7 +484,7 @@ the same ground as `the sixth` and `the seventh`: one sense each, so no range to
   ἐνωτίζομαι `hearken to` (4:23), υἱός `son` (4:17, 4:25, 4:26 — Middle Liddell's *A son* and *a
   son* are one sense).
 - σφυροκόπος — `a hammer-beater`: in no lexicon here (4:22).
-- εἰ, ἐάν — `if`; τί in ἵνα τί — `what` (4:6); ἐν τῷ εἶναι — `in the being of` (4:8).
+- εἰ, ἐάν — `if`; τί in ἵνα τί — `what` (4:6); ἐν τῷ εἶναι — `in the being of` (4:8). *(ἐάν corrected at Genesis 37: its entry's first translation is* if haply*, and it is a unit; see "ἐάν reads its entry".)*
 - εἰμί with a participle (ἦν ἐργαζόμενος, 4:2; ἦν οἰκοδομῶν, 4:17) — `was, and kept on being,`
   before the participle's unit, the imperfect formula of 2:5 in short.
 - One sense each in GEN 5, so plain text: every numeral — `two hundred`, `thirty`, `a hundred`,
@@ -5752,3 +5752,13 @@ day*. 14:5's τοὺς ἐν Ασταρωθ read *the in*, an article with no no
 ἐν αὐτῷ, *the thing in to it*. 4:8 read the infinitive's accusative subject *of them*; it is
 *them*, as at 32:20. 36:15's πρωτοτόκου has no article and lost its *the*; 31:33's τῶν δύο
 παιδισκῶν had printed its one article twice and now prints it once.
+
+## ἐάν reads its entry
+
+ἐάν had read `if` as plain text since GEN 4, εἰ's English. Middle Liddell's entry begins "if
+haply, if, followed by subj. (whereas εἰ is foll. by ind. or opt.)": the first translation is
+*if haply* — the ἄν in εἰ + ἄν, which a Greek reader hears in the word — and the plain *if*
+after it is the printed entry's own, left untagged by Perseus. `MARKUP_LOST` restores it, and
+every conjunction ἐάν is `[[if haply|if haply, if|ἐάν]]`: 25 in Genesis 1–36. ἐάν after a
+relative, the particle (`ὃ ἐάν`), keeps reading `ever` with ἄν; the entry's *whosoever* is that
+construction's, not the conjunction's.

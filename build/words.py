@@ -1274,6 +1274,11 @@ MARKUP_LOST = {
     "o)ktw/": [(0, "eight")],                    # "Lat. octo, eight" — the whole entry
     "e(autou=": [(0, "of himself, herself, itself")],  # "Lat. sui, sibi, se, of himself, …"
     "u(po/dhma": [(1, "a shoe")],                # "Lat. calceus, a shoe"
+    # Not Latin, but the same loss: ἐάν reads "if haply, if, followed by subj. (whereas εἰ is
+    # foll. by ind. or opt.)", and only "if haply" is a <tr>. The plain "if" after it is the
+    # printed entry's own translation, left untagged; the corpus had read ἐάν as that "if"
+    # alone, εἰ's English, from GEN 4 on, with no unit and no "haply".
+    "e)a/n": [(1, "if")],
 }
 
 # The first-sense Latin elements that hold Latin and nothing else, or whose English the
