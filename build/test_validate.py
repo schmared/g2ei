@@ -236,6 +236,12 @@ NEGATIVE = [
     ("articles a plain `the` before the unit it belongs in",
                                          lambda: run(V.check_articles, "GEN", 1,
                                                      mut(GEN, [0, "reading"], "the [[house|a, b|οἶκος]] x"))),
+    # GEN 31:5 had read `the [[but]] [[God|everything that God is by nature…]]`: ὁ δὲ θεός,
+    # its article cut off by δέ, and the anarthrous formula on an articular θεός
+    ("articles a bare `the` in front of a particle",
+                                         lambda: run(V.check_articles, "GEN", 1,
+                                                     mut(GEN, [0, "reading"],
+                                                         "the [[but|but, however|δέ]] x"))),
     ("articles one article written twice",
                                          lambda: run(V.check_articles, "GEN", 1,
                                                      mut(GEN, [0, "reading"], "x the the house"))),
@@ -345,6 +351,16 @@ CONTROL = [
     ("chains   a sense dropped inside an and-joined gloss",
                                          lambda: holds(drifted([(JOINED, "GEN 21:8"), (LOST_CONJUNCT, "GEN 30:30")]) == 1,
                                                        "the commas still number the same; the sense is gone")),
+    # πόθεν read `from what country` in one verse and `how can it be` in another: neither is
+    # a subset of the other, and each has lost what the other kept
+    ("chains   each chain saying what the other does not",
+                                         lambda: holds(drifted([("was made large, was increased", "GEN 21:8"),
+                                                                ("was made large, was augmented", "GEN 30:30")]) == 1,
+                                                       "two chains apart both ways have both drifted")),
+    ("chains   one form of one word is not two words",
+                                         lambda: holds(V.stem("deposed") == V.stem("depose")
+                                                       and V.stem("strove") == V.stem("strive"),
+                                                       "a verb ending is the last to come off")),
     ("chains   the chain following the form is not drift",
                                          lambda: holds(drifted([(FULL, "GEN 21:8"), (PLURAL, "GEN 30:30")]) == 0,
                                                        "singular beside plural is the form, not drift")),
@@ -420,11 +436,11 @@ CONTROL = [
                                          lambda: holds(V.lemmas("ἀνά + accusative; μέσος") == ["ἀνά", "μέσος"]
                                                        and V.lemmas("μετά + accusative") == ["μετά"],
                                                        "the lemma field lists every word a unit opens")),
-    # ὁ δέ: the article is the pronoun subject, and the plain `the` is right
-    ("articles ὁ δέ keeps its plain `the`",
+    # ὁ δέ: the article as pronoun carries its noun like any other, `the one, but, … said`
+    ("articles ὁ δέ's article carrying its noun",
                                          lambda: run(V.check_articles, "GEN", 1,
                                                      mut(GEN, [0, "reading"],
-                                                         "the [[but|but, however|δέ]] x"))),
+                                                         "the one [[but|but, however|δέ]] x"))),
     ("articles clean GEN 7, with its neuter participle",
                                          lambda: run(V.check_articles, "GEN", 7, GEN7)),
     ("lexicon  clean: every LSJ word is one Middle Liddell lacks",

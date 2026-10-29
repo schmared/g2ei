@@ -195,6 +195,9 @@ FORMULAS = (
     "was, and kept on being,",
     "were, and kept on being,",
     "one completed act seen whole, not a process observed in progress",
+    # the same two, where the sentence ends on them (GEN 26:7)
+    "was, and kept on being as a standing and continuing condition and not a momentary one.",
+    "were, and kept on being as a standing and continuing condition and not a momentary one.",
 )
 
 
@@ -475,6 +478,7 @@ GRAMMAR = {
 IRREGULAR = {
     "took": "take", "taken": "take", "gave": "give", "given": "give", "went": "go",
     "gone": "go", "came": "come", "made": "make", "brought": "bring", "stood": "stand",
+    "strove": "strive", "striven": "strive", "broke": "break", "broken": "break",
     "stole": "steal", "stolen": "steal", "felt": "feel", "held": "hold", "kept": "keep",
     "left": "leave", "laid": "lay", "lain": "lie", "led": "lead", "said": "say",
     "saw": "see", "seen": "see", "sent": "send", "sat": "sit", "slept": "sleep",
@@ -509,13 +513,19 @@ ASPECT = re.compile(r"\band (?:it )?(?:stands?|standing|remains?|remaining|conti
 def stem(token):
     """One English word cut back to a stem an entry and a chain both reach."""
     token = IRREGULAR.get(token, token)
+    # A plural ending comes off and lets one more come off after it — `beings` to `being`
+    # to `be`. A verb ending is the last: taking an `s` from what `-ed` left cut `deposed`
+    # to `depo` where `depose` stays `depos`, and two forms of one word read as two words.
     for _ in range(2):
         if len(token) > 5 and token.endswith(("ies", "ied")):
             token = token[:-3] + "y"
+            break
         elif len(token) > 4 and token.endswith("ing"):
             token = token[:-3]
+            break
         elif len(token) > 4 and token.endswith("ed"):
             token = token[:-2]
+            break
         elif len(token) > 4 and token.endswith("es"):
             token = token[:-2]
         elif len(token) > 3 and token.endswith("s") and not token.endswith("ss"):
@@ -562,8 +572,13 @@ def chains_that_drifted(seen):
         if len(chains) < 2:
             continue
         keyed = {c: senses(c) for c in chains}
+        # one says less than the other; or each says something the other does not, which
+        # is two chains each having lost what the other kept — πόθεν read `from what
+        # country` in one verse and `how can it be` in another, and neither is the entry
         pairs = [(a, b) for a in chains for b in chains
-                 if a != b and keyed[a] != keyed[b] and not (keyed[a] - keyed[b])]
+                 if a != b and keyed[a] != keyed[b]
+                 and (not (keyed[a] - keyed[b])
+                      or (set(keyed[a]) - set(keyed[b]) and set(keyed[b]) - set(keyed[a])))]
         if pairs:
             out.append((lemma, head, sorted(chains.items(), key=lambda kv: kv[1])))
     return out
@@ -823,9 +838,6 @@ def check_markup(targets, rep):
     rep.done("markup", "%d first-sense Latin runs, all settled" % seen, before)
 
 
-# The particles before which a plain `the` is ὁ as the pronoun subject — ὁ δέ, "the, but,
-# … he said" — rather than an article that belongs in a unit.
-PRONOUN_BEFORE = {"δέ", "γάρ", "μέν", "τε", "οὖν", "ἀλλά", "καί", "μή", "οὐ", "εἰ", "ὅτι"}
 STRANDED = re.compile(r"(?<![\w\-])the\s+\[\[(?!name:)([^|\]]+)\|[^|\]]+\|([^|\]]+)\]\]")
 ARTICLE_NOUN = re.compile(r"^(?:of |to |with )?the (ones|one|things|thing)(?: |$)")
 
@@ -844,8 +856,10 @@ def check_articles(book, chapter, verses, rep):
     A plain `the` in front of a unit printed `the to house`, `the the man`, `the upon of
     the earth`: the article belonged inside the unit, or was a second copy of one already
     there, or was making a noun of a phrase and needed its noun — `the things upon of the
-    earth`. The one plain `the` that may stand before a unit is ὁ δέ's, where ὁ is the
-    pronoun. And over a participle the article's noun follows the participle's gender:
+    earth`. ὁ δέ is no exception: where the article stands as a pronoun it carries its
+    noun too, `the one, but, … said`, and a plain `the` before δέ had more often been an
+    article cut off from its own noun — ὁ δὲ θεός read with the anarthrous formula. And
+    over a participle the article's noun follows the participle's gender:
     masculine and feminine `one`, neuter `thing`, as a Greek reader hears the difference
     between persons and things.
     """
@@ -858,8 +872,6 @@ def check_articles(book, chapter, verses, rep):
     for verse in verses:
         ref, text = verse["ref"], verse["reading"]
         for m in STRANDED.finditer(text):
-            if lemmas(m.group(2))[-1] in PRONOUN_BEFORE:
-                continue
             rep.fail("articles", ref,
                      "a plain `the` stands before `%s`; put it inside the unit, drop it if "
                      "the unit carries it already, or give it its noun if it makes a noun "

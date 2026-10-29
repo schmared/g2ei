@@ -5665,3 +5665,41 @@ flocks*, lost the second.
 
 `check_articles` holds all of it: no plain `the` before a unit but ὁ δέ's, no `the the`, and
 over a participle the article's noun follows its gender.
+## Loose ends before Genesis 37
+
+**ὁ δὲ θεός had the anarthrous formula.** At GEN 31:5 and 31:29 the article stood in front of
+δέ — `the [[but]] [[God|everything that God is by nature, deity in full and undiminished
+kind]]` — so the unit read as though the Greek had no article. Every θεός in the corpus was
+checked against its Greek; those two were the only ones, and they read *but, the God* now,
+with the articular formula.
+
+**An article cut off from its noun by a particle.** The same shape fifteen more times: Ἡ μὲν
+φωνή read *the <on the one hand> <sound>*, ὁ δὲ πατήρ *the <but>, <father>*. The particle goes
+first and the article inside the noun's unit after it, as GEN 8:5 already had *<but>, <the
+water>*. Where the next unit already carried the article — ὁ δὲ εὐλογῶν, *the one speaking
+well of* — the stray `the` was a second copy and went. GEN 31:20's τοῦ μὴ ἀναγγεῖλαι is an
+articular infinitive with μή between: *not, of the carrying back tidings of*.
+
+**The article as pronoun carries its noun.** ὁ δὲ εἶπεν, "and he said", ten times: *the one,
+but, said*; οἱ δὲ εἶπαν, *the ones*. It had been the one exception to the article's noun, and
+on that rule's own logic it is the plainest case of all — the article is the noun there. No
+plain `the` now stands in front of any unit, and `check_articles` holds it without an
+exception.
+
+**ἕως τοῦ νῦν read two ways.** *Until of the one now* at GEN 15:16 and 18:12, *until of the
+thing now* at 32:5. The two masculine lines carried a note — "module GSN — masculine, as
+MorphGNT codes ἕως τοῦ νῦν (Matt 24:21)" — following the New Testament parallel over the
+Rahlfs module; 32:5 had never been brought into line. An adverb made into a noun takes the
+neuter article, which is the module's own coding, so all three are neuter now and read *of the
+thing now at this very time*.
+
+**Chains that drifted both ways.** The chain check caught one chain saying less than another
+of the same form, and nothing else. πόθεν read *from what country* in one verse and *how can it
+be and impossible* in another — neither a subset of the other, and neither the entry, which
+gives *whence, from what source, whence and wherefore*. Four words were like it; all now read
+their entry. πάλιν took its full range, the *notion of contradiction* among it — *contrariwise,
+opposite, the change* — which neither chain had carried, with the tagging's fragments curated
+out: *gain* is half of *gainsay*. The check now fails on chains apart in either direction. It
+needed its stemmer fixed first: `deposed` had been cut to `depo` where `depose` stays
+`depos`, because an `s` came off what `-ed` left, and *strove* and *broke* were missing from
+the irregulars.

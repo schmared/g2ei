@@ -930,6 +930,12 @@ NOT_SENSES = {
     "a)rno/s": {"wool"},
     "prw=tos": {"end", "among the first", "at the front"},  # "at the front" is ἐν πρώτῳ
     "ou)=los": {"incessant"},                  # from "screaming incessant", in the example
+    # πάλιν's "notion of contradiction" sliced by the tagging: "gain" is half of "gain say",
+    # "against)" keeps the parenthesis it came out of, "contradiction" is the label; "back,
+    # restore" glosses πάλιν δοῦναι and "unsay" μῦθον πάλιν λάζεσθαι, the phrases rather
+    # than the adverb; "back from" is its genitive construction; the bare "back" repeats.
+    "pa/lin": {"contradiction", "gain", "against)", "unsay", "back, restore", "back from",
+               "back"},
     # "so called from its broad leaves" is why the tree has the name, not a sense.
     "pla/tanos": {"broad leaves."},
     # νῦν's entry turns aside — "besides the sense of Time, the enclit. νυν, νυ denotes

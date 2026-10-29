@@ -50,16 +50,17 @@ load-bearing word is one unit: a **headword** and its **chain**.
   compound under its simplex or a verb under its noun, which would be composing rather than
   reading. Where Middle Liddell gives less than LSJ, Middle Liddell is still the reading:
   LSJ is not the basis, and saying more is not a reason to switch. Both are CC BY-SA, so
-  licensing draws no line between them. For
-  a preposition, the first sense for the case it governs; for a word used as a noun, the
-  first noun sense; for a particle, the senses its parse calls for. Where the encoding
+  licensing draws no line between them. For a preposition, the first sense for the case
+  it governs; for a word used as a noun, the first noun sense; for a particle, the senses
+  its parse calls for. Where the encoding
   loses a translation the printed entry gives — Perseus tags εἰ's *Lat. si, if* as Latin
   entire, so the English *if* never reaches a `<tr>` — `MARKUP_LOST` in `build/words.py`
   restores it, quoting the entry and naming the element that took it. That adds nothing
   the lexicon does not say. 54 entries have a run of that shape and 24 had lost a
   translation; `build/validate.py` fails on a new one until it is settled in `MARKUP_LOST`
-  or in `LATIN_ONLY`, which records the runs that are Latin throughout. Tense, voice and person come from the Greek form (ποιέω *to make* →
-  ἐποίησεν *made*), and so does the article: English gets one where the Greek has one and
+  or in `LATIN_ONLY`, which records the runs that are Latin throughout. Tense, voice and
+  person come from the Greek form (ποιέω *to make* → ἐποίησεν *made*), and so does the
+  article: English gets one where the Greek has one and
   nowhere else (ἐν ἀρχῇ → *in beginning*; ὁ θεός → *the God*). No translation is consulted
   — lexicon glosses ignore context, and that is the point.
 - The chain is the whole range, identical in both panels. Unanchored shows the chain;
@@ -176,8 +177,12 @@ midst of him*, τὰ ὀπίσω *the things backwards*, τῶν ἐπὶ τῆ�
 earth*, τὰ αὐτοῦ *the things of him*. Bare *the* before a preposition carries none of that and
 is not English.
 
-The one plain *the* that stands before a unit is ὁ δέ's, where ὁ is the pronoun subject and
-the prose reads *the, but, … he said*.
+Where the article stands as a pronoun — ὁ δὲ εἶπεν, "and he said" — it is the noun, and it
+carries one the same way: *the one, but, … said*; οἱ δὲ εἶπαν, *the ones*. So no plain *the*
+stands before a unit at all. One that did, before δέ, had more often been an article cut off
+from its own noun by the particle — ὁ δὲ θεός had read with the anarthrous formula, the
+article left behind — and the particle goes first, the article inside the noun's unit after
+it: *but, the God*.
 
 ### Prepositions
 ἐν → "within, inside of, and by means of." πρός + accusative → directional, never static
@@ -285,28 +290,29 @@ The count is checked as well as the name: two units may not open one word.
 - every verse has greek, notes and reading, non-empty, with well-formed units
 - every proper name in the Greek has a gloss on first occurrence in the chapter
 - no banned imported phrases (maintain a list; seed it with "face of the waters")
-- no headword stands bare — none written as plain text outside its unit
 - a word is a unit exactly when its entry says more than its headword does, and a unit
   whose chain is word for word its headword is not a unit at all — checked both ways
   against the chapter's word-by-word layer, over nouns, verbs, adjectives, adverbs and
   prepositions, so neither half can happen by accident
-- no headword stands bare — but two Greek words may head with the same English, μή and
+- no headword stands bare — none written as plain text outside its unit. Two Greek words
+  may head with the same English, μή and
   οὐ both giving *not*, so a plain word is only bare when nothing else in the verse is
   entitled to print it
 - every unit names a Greek word its own verse holds, checked against the chapter's
   morphology, so the lemma is not an assertion nothing tests
 - one word in one form reads one way: of two units sharing a lemma and a headword,
-  neither says less than the other. Counting senses is not enough to see that — one
-  dropped inside an and-joined gloss leaves the commas where they were
+  neither says less than the other, and neither says what the other does not. Counting
+  senses is not enough to see that — one dropped inside an and-joined gloss leaves the
+  commas where they were
 - one case is one chain: a preposition has one form, so its chain cannot follow the
   form; within one lemma and one case it reads the same everywhere
 - the word-by-word layer, where there is one, still matches the verse's Greek
 - the project's own morphology is well-formed by its code's own grammar
 - that morphology agrees with itself across every chapter — a form keeps its dictionary
   form, a verb its parse, a noun its gender and number — unless the line says why
-- the article stands where its word is: no plain *the* before a unit except ὁ δέ's, no
-  *the the*, and over a participle the article's noun follows its gender — *one* for
-  masculine and feminine, *thing* for neuter
+- the article stands where its word is: no plain *the* before any unit, no *the the*, and
+  over a participle the article's noun follows its gender — *one* for masculine and
+  feminine, *thing* for neuter
 - LSJ stands in only for a word Middle Liddell lacks under every close form of it — an
   LSJ entry for a word Middle Liddell has is a failure, since the table used to win
   outright and read ὦμος, μνημεῖον and ποιμήν from LSJ while Middle Liddell had them
