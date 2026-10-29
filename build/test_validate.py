@@ -285,6 +285,12 @@ NEGATIVE = [
                                                  "[[in|within, inside of, and by means of|ἐν]] to the six hundredth",
                                                  "in to the six hundredth"))
                                              for v in GEN7])),
+    # GEN 8:12 οὐ προσέθετο τοῦ ἐπιστρέψαι had read `not put to, to turn about`
+    ("cases  an articular infinitive read as a bare infinitive",
+                                         lambda: run(V.check_unit_cases, "GEN", 8, [
+                                             dict(v, reading=re.sub(r"\[\[of the turning about\|[^\]]*\]\]",
+                                                                    "[[to turn about|to turn about|ἐπιστρέφω]]", v["reading"]))
+                                             for v in json.loads((render.DATA / "GEN/8.json").read_text(encoding="utf-8"))])),
     # GEN 7:16 τὰ εἰσπορευόμενα is neuter: the article's noun is `things`, not `ones`
     ("articles a neuter participle given `the ones`",
                                          lambda: run(V.check_articles, "GEN", 7, [

@@ -988,8 +988,23 @@ def check_unit_cases(book, chapter, verses, rep):
             if k >= len(places):
                 continue
             parse = words[places[k]]["parse"].split(" · ")
+            if "infinitive" in parse:
+                # an infinitive with an article of its own reads as a gerund, the article
+                # and its case inside the unit: πρὸ τοῦ γενέσθαι, *before of the coming
+                # into being*. GEN 5 had set the article unprinted, `before to come into
+                # being`, and 82 followed it.
+                j = places[k] - 1
+                while j >= 0 and words[j]["parse"].split(" · ")[0] in (
+                        "adverb", "particle", "personal pronoun", "conjunction"):
+                    j -= 1
+                art = words[j]["parse"].split(" · ") if j >= 0 else []
+                if (art[:1] == ["article"] and "neuter" in art and "singular" in art
+                        and not re.search(r"\bthe \w+ing\b", head)):
+                    rep.fail("cases", verse["ref"], "`%s` (%s) has its own article; it reads "
+                             "as a gerund, `the …ing`" % (head, words[places[k]]["form"]))
+                continue
             case = next((c for c in CASE_MARK if c in parse), None)
-            if not case or "infinitive" in parse:
+            if not case:
                 continue
             seen += 1
             if not head.startswith(CASE_MARK[case] + " "):
@@ -1163,7 +1178,9 @@ def check_anchors(verses, rep, book=None, chapter=None):
             # another word of this verse may be entitled to print exactly this English
             if anchor in entitled.get(ref, ()):
                 continue
-            if re.search(r"\b%s\b" % re.escape(anchor), bare, re.I):
+            # a hyphenated word is one word: the plain *drinking-troughs* of GEN 30:38 does
+            # not hold the gerund *the drinking* beside it
+            if re.search(r"(?<![\w-])%s(?![\w-])" % re.escape(anchor), bare, re.I):
                 rep.fail("anchors", ref,
                          "%r (%s) is written as plain text; make it a unit, "
                          "[[%s|…]], so the unanchored panel drops it" % (anchor, why, anchor))

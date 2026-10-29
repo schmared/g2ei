@@ -493,7 +493,7 @@ the same ground as `the sixth` and `the seventh`: one sense each, so no range to
   `of years`; υἱός `sons`, `a son`; θυγάτηρ `daughters`. δέκα πέντε (5:10), printed as two words,
   is `fifteen`, and the note says so.
 - εἰμί of age (ἦν Νωε ἐτῶν πεντακοσίων, 5:32) — the state formula of GEN 1:2 in full.
-- τὸ before an infinitive (μετὰ τὸ γεννῆσαι, 5:4 and after) — not printed, as with τοῦ at 2:5.
+- τὸ before an infinitive (μετὰ τὸ γεννῆσαι, 5:4 and after) — not printed, as with τοῦ at 2:5. *(Retired before Genesis 37: the infinitive reads as a gerund with its article; see "The articular infinitive".)*
 - GEN 6: ἄν and ἐάν after a relative or ὡς — `ever` (6:4, 6:17), as ἄν was at 2:17; the
   reflexives — `for themselves` (6:2, 6:4), `for yourself`, `yourself` (6:14, 6:19, 6:21);
   εἰμί — `are` (6:2), `being` (6:9), `is` and `may be` (6:17), `will be` (6:3, 6:19), `it will
@@ -2919,7 +2919,7 @@ the same ground as `the sixth` and `the seventh`: one sense each, so no range to
 - ὕψιστος — **headword** `highest`; **chain** `highest, loftiest`, one sense of two glosses, after a
   plain `the` for the article. 14:18–22.
 - ἐν ἀριστερᾷ — **headword** `in left`, the chain of 13:9 after ἐν. 14:15.
-- τὸ before an infinitive (μετὰ τὸ ἀναστρέψαι) — not printed, as at 5:4. 14:17.
+- τὸ before an infinitive (μετὰ τὸ ἀναστρέψαι) — not printed, as at 5:4. 14:17. *(Retired before Genesis 37: the infinitive reads as a gerund with its article; see "The articular infinitive".)*
 - A dative after a preposition other than ἐν keeps its `to`, as at 12:8: `hard by to the tree`
   (14:13). A name in the dative with no article of its own takes `to` as a pronoun does: `to
   Abram` (14:13).
@@ -5762,3 +5762,19 @@ after it is the printed entry's own, left untagged by Perseus. `MARKUP_LOST` res
 every conjunction ἐάν is `[[if haply|if haply, if|ἐάν]]`: 25 in Genesis 1–36. ἐάν after a
 relative, the particle (`ὃ ἐάν`), keeps reading `ever` with ἄν; the entry's *whosoever* is that
 construction's, not the conjunction's.
+
+## The articular infinitive
+
+CLAUDE.md has said since the article pass that an articular infinitive becomes a gerund, and
+the merged ἐν τῷ form did — *in the rubbing out* — but every other one followed the GEN 5
+note that left the article unprinted: πρὸ τοῦ γενέσθαι read *before to come into being*, οὐ
+προσέθετο τοῦ ἐπιστρέψαι *not put to, to turn about*. 82 of them, against 17 gerunds. An
+article left off for English's sake is the exception the project does not make, so each now
+reads as a gerund with its article and the article's case: *before of the coming into being*,
+*of the turning about*, *into the middle of the begetting* (μετὰ τὸ γεννῆσαι), *into the
+drinking* (εἰς τὸ πιεῖν). The chains turn whole, a second verb joined by *and* with them —
+*of the going back and returning* — and what is not a verb stays: *of the being concluded and
+inferred*. ζῆν at 19:19 keeps its entry's *alive* as *of the being alive*, as the participle at
+3:20 has *of the alive*. `check_unit_cases` fails on an infinitive with its own article that
+does not read as a gerund. The bare-headword check now takes a hyphenated word as one word, so
+the plain *drinking-troughs* of 30:38 does not hold the gerund *the drinking*.

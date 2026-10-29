@@ -183,7 +183,8 @@ noun: τὴν δρῦν τὴν Μαμβρη, *the oak, the one of Mambre*.
 τῷ οἴκῳ is `[[to the house|…]]`, not a plain *the* before `[[to house|…]]` — which printed
 *the to house*, a word standing bare that belongs in a chain. Nor a plain *the* before a unit
 that carries the article already, which printed *the the man*. An articular infinitive
-becomes a gerund, as ἐν τῷ ἐκτρῖψαι reads *in the rubbing out*.
+becomes a gerund, as ἐν τῷ ἐκτρῖψαι reads *in the rubbing out*, and keeps its article's case
+where no ἐν merges into it: πρὸ τοῦ γενέσθαι is *before of the coming into being*.
 
 **Where the article makes a noun, it carries its noun, and the noun follows its gender**:
 masculine and feminine *one* / *ones*, neuter *thing* / *things*, by number — the line a
