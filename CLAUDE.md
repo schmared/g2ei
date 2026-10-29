@@ -112,10 +112,15 @@ Hebrew↔Greek differences never enter either reading text. The Septuagint's own
 to quietly repair. Mark with the `divergence` flag.
 
 ### Verbal aspect goes in the text, not a footnote
-Where Greek aspect carries weight English can't:
-- aorist → "one completed act seen whole, not a process observed in progress"
-- imperfect → "and kept on being" / "was, and was continuously"
-- perfect → a standing resultant state, not a past event
+Every past tense but one is marked, so the one left plain is marked by that:
+- imperfect → "was …ing", "was being …" in the verb's own unit; εἰμί's "and kept on being"
+- perfect → a standing resultant state, not a past event: "and it stands so"
+- aorist → the plain English past. A Greek reader hears the aorist as the narrative's plain
+  tense and the imperfect against it, and the English does the same. The formula "one
+  completed act seen whole, not a process observed in progress" stood on 59 of Genesis
+  1–11's aorists and none after; on every aorist it would add an emphasis the Greek does not
+  carry, and on some of them it was a judgment no check could hold. It is the aorist's line
+  in the word-by-word layer, and no longer in the reading.
 
 ### ἦν vs. ἐγένετο
 Load-bearing across the whole Johannine prologue and anywhere else it appears. εἰμί gets

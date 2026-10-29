@@ -4835,7 +4835,7 @@ uses the same wording.
 
 | aspect | formula | where it sits |
 | --- | --- | --- |
-| aorist | `one completed act seen whole, not a process observed in progress` | plain text after the verb's unit, in dashes (GEN 1:1) |
+| aorist | the plain English past — *(retired before Genesis 38: the formula `one completed act seen whole, not a process observed in progress` stood after 59 of Genesis 1–11's aorists and none after; it is the word-by-word layer's line now)* | — |
 | imperfect (state) | `and kept on being as a standing and continuing condition` | inside ἦν's plain text |
 | imperfect (εἰμί, pre-existence) | `was already in unbroken existence without any point of having come to be` | inside ἦν's plain text |
 | imperfect (other verbs) | `was being …` | inside the verb's chain and headword (ἐπιφέρω) |
@@ -5898,3 +5898,13 @@ its noun, as τῇ τρίτῃ ἡμέρᾳ's stands with *third* at 31:22, but 
 *the on the morrow*; it carries its noun and its dative, *to the one on the morrow*, as 30:33's
 τῇ αὔριον already did.
 
+## The aorist reads as the plain past
+
+The aspect table put *one completed act seen whole, not a process observed in progress* after an
+aorist, and GEN 5 set it once at the head of a run rather than after each. Genesis 1–11 carried it
+59 times; from Genesis 12 it stopped, across some 1,500 aorist indicatives. Every other past tense
+is marked — the imperfect `was …ing`, the perfect `and it stands so` — so the plain English past
+already says aorist, as the aorist is the Greek narrative's plain tense; on every aorist the
+formula would have added an emphasis the Greek does not carry, and on some it was a judgment no
+check could hold. The 59 are gone, CLAUDE.md says so, and `check_banned` fails on the formula in a
+reading. The word-by-word layer keeps it as the aorist's line.

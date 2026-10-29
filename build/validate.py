@@ -1092,9 +1092,18 @@ def check_lexicon(rep):
              before)
 
 
+AORIST_FORMULA = "one completed act seen whole, not a process observed in progress"
+
+
 def check_banned(verses, rep):
     before = rep.failed
     for verse in verses:
+        # The aorist reads as the plain English past, every other past tense being marked;
+        # the formula stood on 59 of Genesis 1-11's aorists and none after, and is gone.
+        if AORIST_FORMULA in verse["reading"]:
+            rep.fail("banned", verse["ref"], "the aorist formula is in the reading; the "
+                     "aorist reads as the plain past, and the formula is the word-by-word "
+                     "layer's line")
         for panel, text in panels(verse).items():
             for phrase in BANNED_PHRASES:
                 if spans(text, phrase):
