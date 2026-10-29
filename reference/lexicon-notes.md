@@ -491,7 +491,8 @@ the same ground as `the sixth` and `the seventh`: one sense each, so no range to
   `nine hundred` and the rest (*the Thirty*, *the Forty*, *the Three Hundred* name bodies of men,
   not further senses of the number) — with ὀκτώ `eight` and τρεῖς `three` from LSJ; ἔτος `years`,
   `of years`; υἱός `sons`, `a son`; θυγάτηρ `daughters`. δέκα πέντε (5:10), printed as two words,
-  is `fifteen`, and the note says so.
+  is `fifteen`, and the note says so. *(Corrected before Genesis 38: two words, two numerals, `ten five`,
+  as 17:25 and 37:2 read.)*
 - εἰμί of age (ἦν Νωε ἐτῶν πεντακοσίων, 5:32) — the state formula of GEN 1:2 in full.
 - τὸ before an infinitive (μετὰ τὸ γεννῆσαι, 5:4 and after) — not printed, as with τοῦ at 2:5. *(Retired before Genesis 37: the infinitive reads as a gerund with its article; see "The articular infinitive".)*
 - GEN 6: ἄν and ἐάν after a relative or ὡς — `ever` (6:4, 6:17), as ἄν was at 2:17; the
@@ -5880,3 +5881,12 @@ text uses.
 - Names new to the chapter: Δωθαϊμ, Ισμαηλίτης, Μαδιηναῖος, Πετεφρη. Πετεφρη is indeclinable and
   stands as Rahlfs prints it; the module has Πετεφρης.
 
+## Loose ends before Genesis 38
+
+**Two words, two numerals.** δέκα πέντε read *fifteen* at 5:10 and 7:20, one English word for two
+Greek ones, while 17:25, 31:41 and 37:2 read each word for itself — *ten three*, *ten four*, *ten
+seven*. Composing them is the composition the reading does not do; both now read *ten five*.
+
+**γῆρας has one sense.** Middle Liddell gives *old age* and nothing more, so it is plain text, as
+at 15:15, 21:2, 21:7 and 37:3. 25:8 had a merged unit whose chain added *the latter part of life*,
+which no lexicon here gives; ἐν stands alone there now, `in to old age`, as at 15:15.
