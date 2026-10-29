@@ -5890,3 +5890,11 @@ seven*. Composing them is the composition the reading does not do; both now read
 **γῆρας has one sense.** Middle Liddell gives *old age* and nothing more, so it is plain text, as
 at 15:15, 21:2, 21:7 and 37:3. 25:8 had a merged unit whose chain added *the latter part of life*,
 which no lexicon here gives; ἐν stands alone there now, `in to old age`, as at 15:15.
+
+**The article over an adverb, with its case.** ἕως τῆς σήμερον ἡμέρας had read *until the to-day of
+day* five times (19:37, 19:38, 26:33, 35:4, 35:20): the article stands with σήμερον, between it and
+its noun, as τῇ τρίτῃ ἡμέρᾳ's stands with *third* at 31:22, but without its genitive. It reads
+*until of the to-day of day*. 19:34's τῇ ἐπαύριον, the article making a noun of the adverb, read
+*the on the morrow*; it carries its noun and its dative, *to the one on the morrow*, as 30:33's
+τῇ αὔριον already did.
+
