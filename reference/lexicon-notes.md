@@ -619,7 +619,8 @@ the same ground as `the sixth` and `the seventh`: one sense each, so no range to
   swim, floating land* is left out; πρωτότοκος `first-born` (10:15), as at 4:4; κατοίκησις `the
   settling in` (10:30); δύο `two`; υἱός `sons`.
 - The article before a people's name (τοὺς Λουδιιμ, τὸν Χετταῖον, τῶν Χαναναίων) is not printed,
-  as before a person's name.
+  as before a person's name. *(Retired before Genesis 37: an exception made for English's sake.
+  Every name's own article prints now, `the Λουδιιμ`, `to the Jacob`; see "Every declined word".)*
 
 ### Words new in GEN 35
 
@@ -5709,3 +5710,45 @@ was the marker the old plain *the* had carried, left behind when the article mov
 unit. All eighteen print the marker once now, and `check_articles` fails on a marker written
 twice. A unit whose own gloss opens with the marker keeps it: ἀλλογενής is *of another race*,
 and its genitive at GEN 17:27 is *of of another race*, as the article stays before *thy*.
+
+## Every declined word, and every name's article
+
+Settled before Genesis 37, each with side-by-side examples. Applied across Genesis 1–36:
+
+**A name marks its case.** Names had never come under the rule that gives a noun *of* or
+*to*, which had read units only: 135 genitive names had their *of* and some 380 did not. A
+name is a noun, and every genitive and dative name now carries its marker by the case the
+morphology gives it, indeclinable names included: *the sons of Esau*, *out of of Charran*,
+*in to Edom*. 433 markers. Eleven articles in another case than their name had stood as a
+plain *the*; each makes a noun of the name, *the oak, the one of Mambre*.
+
+**A name's article prints.** The GEN 10 note above kept it off, as English does before a
+person's name, and some 334 places followed it while 27 printed it. One *the* per Greek
+article holds for names too: τῷ Ιακωβ is *to the Jacob*, τοῦ Ιωσηφ *of the Joseph*. 331
+added.
+
+**Every declined word marks its case, not only the noun.** Agreement puts one ending on each
+word of a phrase, and each shows it — *to the day to this*, *from of all of the works*. The
+corpus had marked agreeing words 215 times and left them bare 71, mostly datives: *to the day
+that*, *to the day the seventh*, and a few read by their use, `with big` at 12:17. All 92 units
+are marked now, and the dates' plain ordinals and nouns with them (*in to the six hundredth to
+year*). Indeclinable numerals are marked as indeclinable names are, by the morphology's case,
+in the Greek's order: ἐτῶν ἐνενήκοντα ἐννέα is *of years of ninety of nine*, and 5:32 and 7:6,
+which had read *of five hundred years*, now read *of years of five hundred*.
+
+**ἐν takes its own unit where it has nothing to merge into.** It was exempt from the
+one-sense check as the preposition that merges, and the check counted a word as opened if
+any unit in the verse named it. Between them, 43 ἐν had printed as a bare *in* before a name,
+a pronoun or a plain noun. Each is `[[in|within, inside of, and by means of|ἐν]]` now, its
+object marked after it: *in to Χαρραν*, *in to you*, *in to which*. The check counts units
+per occurrence and no longer exempts ἐν. ἐνευλογέω's plain *will be blessed in* beside the
+new unit (12:3, 18:18, 28:14) needed the bare-headword check to let a plain word print each
+word of its first sense, not only the whole of it.
+
+**Smaller slips found on the way.** ῥάβδος read singular for its six plural forms at
+30:37–41, and *a rod* for ταῖς ῥάβδοις; they read *the rods*. τῇ τρίτῃ ἡμέρᾳ at 31:22 had its
+article moved onto the noun and the noun put first; it follows the Greek, *to the third to
+day*. 14:5's τοὺς ἐν Ασταρωθ read *the in*, an article with no noun: *the ones in*. 23:11's τὸ
+ἐν αὐτῷ, *the thing in to it*. 4:8 read the infinitive's accusative subject *of them*; it is
+*them*, as at 32:20. 36:15's πρωτοτόκου has no article and lost its *the*; 31:33's τῶν δύο
+παιδισκῶν had printed its one article twice and now prints it once.

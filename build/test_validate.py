@@ -267,6 +267,24 @@ NEGATIVE = [
                                              dict(v, reading=v["reading"].replace(
                                                  "of the sons of [[name:Ησαυ]]", "of the sons the [[name:Ησαυ]]"))
                                              for v in GEN36])),
+    # GEN 12:17 ἐτασμοῖς μεγάλοις had read `to trials with big`: a dative read by its use
+    ("cases  a dative adjective read as an instrumental",
+                                         lambda: run(V.check_unit_cases, "GEN", 12, [
+                                             dict(v, reading=v["reading"].replace("[[to big|to big", "[[with big|with big"))
+                                             for v in json.loads((render.DATA / "GEN/12.json").read_text(encoding="utf-8"))])),
+    # GEN 7:11 τῇ ἡμέρᾳ ταύτῃ had read `to the day this`
+    ("cases  an agreeing demonstrative left unmarked",
+                                         lambda: run(V.check_unit_cases, "GEN", 7, [
+                                             dict(v, reading=v["reading"].replace("[[to this|to this", "[[this|this"))
+                                             for v in GEN7])),
+    # GEN 7:11 had two ἐν and one unit, and read `in the six hundredth year`: one unit
+    # for a word had stood for every occurrence of it in the verse
+    ("one sense  a second ἐν left as a bare `in`",
+                                         lambda: run(V.check_one_sense, "GEN", 7, [
+                                             dict(v, reading=v["reading"].replace(
+                                                 "[[in|within, inside of, and by means of|ἐν]] to the six hundredth",
+                                                 "in to the six hundredth"))
+                                             for v in GEN7])),
     # GEN 7:16 τὰ εἰσπορευόμενα is neuter: the article's noun is `things`, not `ones`
     ("articles a neuter participle given `the ones`",
                                          lambda: run(V.check_articles, "GEN", 7, [

@@ -684,9 +684,11 @@ def check_unit_words(book, chapter, verses, rep):
 
 
 # Words that carry no sense of their own, so nothing about them is left shut: the
-# article, the copula the project renders by its own formula, and the preposition that
-# merges into its object's unit rather than taking one of its own.
-FREE_WORDS = {"ὁ", "εἰμί", "ἐν"}
+# article, and the copula the project renders by its own formula. ἐν was here too, as the
+# preposition that merges into its object's unit; but where there is no unit to merge
+# into — a name, a pronoun, a plain noun — it takes its own, and 43 had been left as a
+# bare *in* under the exemption. It is opened like any preposition now, merged or alone.
+FREE_WORDS = {"ὁ", "εἰμί"}
 
 # The parts of speech the rule is about. A particle is in it too, opened by its parse
 # as a preposition is opened by the case it governs: καί read as an adverb takes the
@@ -724,8 +726,12 @@ def check_one_sense(book, chapter, verses, rep):
     word for word its headword prints `headword — headword —` and says nothing the
     plain text would not.
 
-    Grammar is not in it: the article, εἰμί and ἐν are rendered by the project's own
+    Grammar is not in it: the article and εἰμί are rendered by the project's own
     formulas, and a particle's entry is a list of constructions rather than a range.
+
+    Units are counted, not just seen: one unit for a word opens one occurrence of it.
+    A set let one ἐν opened in a verse stand for every ἐν there (GEN 7:11 had two, and
+    one unit).
     """
     before = rep.failed
     path = render.DATA / book / ("%d.words.json" % chapter)
@@ -740,12 +746,15 @@ def check_one_sense(book, chapter, verses, rep):
         if words is None:
             continue
         own = units(verse["reading"])
-        claimed = {w for _, _, lemma in own for w in lemmas(lemma)}
+        claimed = collections.Counter(w.split(" + ")[0] for _, _, lemma in own
+                                      for w in lemmas(lemma))
 
         for word in words:
             if (word.get("lexicon") == "name" or word["lemma"] in FREE_WORDS
-                    or word["parse"].split(" ·")[0] not in CONTENT_WORDS
-                    or word["lemma"] in claimed):
+                    or word["parse"].split(" ·")[0] not in CONTENT_WORDS):
+                continue
+            if claimed[word["lemma"]] > 0:
+                claimed[word["lemma"]] -= 1
                 continue
             if opens_more(word):
                 shut += 1
@@ -895,7 +904,10 @@ def marker_before(text, at, article=False):
 
 
 def check_name_cases(book, chapter, verses, rep):
-    """A name marks its case as any noun does: the genitive *of*, the dative *to*.
+    """A name marks its case as any noun does: the genitive *of*, the dative *to*. And its
+    article prints, as every article does: τῷ Ιακωβ is *to the Jacob*. GEN 10 had set the
+    article before a name unprinted, as English would, and some 334 places followed it;
+    that was an exception made for English's sake, and is gone.
 
     A name prints only its own form, so the marker stands as plain text before it, and
     before the name's article where it has one — *the sons of Ησαυ*, *out of of Χαρραν*, *in
@@ -921,16 +933,69 @@ def check_name_cases(book, chapter, verses, rep):
                      "word-by-word layer")
             continue
         for m, i in pairs:
+            art = own_article(words, i)
+            last = marker_before(verse["reading"], m.start())
+            if art and last != "the":
+                rep.fail("names", verse["ref"], "%s has its own article in the Greek, and "
+                         "the article prints: `the %s`" % (m.group(1), m.group(1)))
+            elif not art and last == "the":
+                rep.fail("names", verse["ref"], "a `the` before %s, which has no article of "
+                         "its own; an article in another case makes a noun of it, `the one "
+                         "of %s`" % (m.group(1), m.group(1)))
             case = next((c for c in CASE_MARK if c in words[i]["parse"].split(" · ")), None)
             if not case:
                 continue
             seen += 1
-            got = marker_before(verse["reading"], m.start(), own_article(words, i))
+            got = marker_before(verse["reading"], m.start(), art)
             if got != CASE_MARK[case]:
                 rep.fail("names", verse["ref"], "%s is %s; it reads `%s %s`, not `%s`"
                          % (m.group(1), case, CASE_MARK[case], m.group(1),
                             (got + " " if got else "") + m.group(1)))
-    rep.done("names", "%d genitive and dative names, each marked" % seen, before)
+    rep.done("names", "%d genitive and dative names, each marked, and every name's article "
+             "printed" % seen, before)
+
+
+def check_unit_cases(book, chapter, verses, rep):
+    """Every declined word marks its own case: a genitive or dative unit opens with `of` or
+    `to`, whatever the word is — noun, adjective, demonstrative, participle.
+
+    Agreement puts the same ending on every word of a phrase, and each ending stays visible:
+    τῇ ἡμέρᾳ ταύτῃ is *to the day to this*, as ἀπὸ τῆς γῆς is *from of the earth*. The corpus
+    had marked agreeing words 215 times and left them bare 71, mostly in the dative, and read
+    a few datives by their use, *with big*. Units are paired with their words by lemma, in
+    order; a unit that opens a preposition as well (`ἐν; γῆ`, `διά + genitive`) keeps the
+    preposition's English in the lead and is not asked for a marker.
+    """
+    before = rep.failed
+    path = render.DATA / book / ("%d.words.json" % chapter)
+    if not path.exists():
+        return
+    lay = {v["ref"]: v["words"] for v in
+           json.loads(path.read_text(encoding="utf-8")).get("verses", [])}
+    seen = 0
+    for verse in verses:
+        words = lay.get(verse["ref"])
+        if not words:
+            continue
+        nth = collections.Counter()
+        for head, chain, field in units(verse["reading"]):
+            items = lemmas(field)
+            word = items[-1].split(" + ")[0]
+            k, nth[word] = nth[word], nth[word] + 1
+            if len(items) > 1 or " + " in items[-1]:
+                continue
+            places = [i for i, w in enumerate(words) if w["lemma"] == word]
+            if k >= len(places):
+                continue
+            parse = words[places[k]]["parse"].split(" · ")
+            case = next((c for c in CASE_MARK if c in parse), None)
+            if not case or "infinitive" in parse:
+                continue
+            seen += 1
+            if not head.startswith(CASE_MARK[case] + " "):
+                rep.fail("cases", verse["ref"], "`%s` is %s (%s); it opens `%s %s`"
+                         % (head, case, words[places[k]]["form"], CASE_MARK[case], head))
+    rep.done("cases", "%d genitive and dative units, each marked" % seen, before)
 
 
 def check_articles(book, chapter, verses, rep):
@@ -1051,7 +1116,11 @@ def entitled_to(book, chapter, verses):
         for word in words:
             got = word.get("senses") or []
             if got and word["lemma"] not in claimed:
-                here.add(re.split(r"[,;]", got[0])[0].strip().lower())
+                first = re.split(r"[,;]", got[0])[0].strip().lower()
+                here.add(first)
+                # and each word of it: ἐνευλογέω is plain *will be blessed in*, and its
+                # *in* is its own, not a loose headword of the ἐν beside it (GEN 12:3)
+                here.update(first.split())
         out[verse["ref"]] = here
     return out
 
@@ -1614,6 +1683,7 @@ def validate(book, chapter, rep):
     check_anchors(verses, rep, book, chapter)
     check_articles(book, chapter, verses, rep)
     check_name_cases(book, chapter, verses, rep)
+    check_unit_cases(book, chapter, verses, rep)
     if EDITIONS.get(book) == "lxx":
         check_morph_shape(book, chapter, rep)
         check_corpus(book, chapter, rep)

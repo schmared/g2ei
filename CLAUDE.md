@@ -75,8 +75,10 @@ load-bearing word is one unit: a **headword** and its **chain**.
   repeats its headword prints `headword — headword —` and says nothing the plain text
   would not. It holds both ways, because either way round is a word read wrong, and
   for 1,038 words of Genesis the shut half had happened by accident rather than by decision.
-  Outside it are only the words the project renders by a formula of its own: the article,
-  εἰμί, and the ἐν that merges into its object's unit. **A particle is opened by its parse**,
+  Outside it are only the words the project renders by a formula of its own: the article
+  and εἰμί. ἐν merges into its object's unit, and where there is none to merge into — a
+  name, a pronoun, a plain noun — it takes its own: *in to Εδωμ*, *in to you*. One unit
+  opens one occurrence of a word, never every occurrence in the verse. **A particle is opened by its parse**,
   as a preposition is opened by the case it governs — καί read as an adverb takes the
   adverbial senses and is a unit; καί read as the connective is the conjunction and stays
   plain text. Middle Liddell writes most of a particle's entry as prose about how the word
@@ -154,20 +156,28 @@ here: give it a `names` entry and a `[[name:…]]` marker, with no capital in ei
 name that opens a sentence (Gen 4:1 *Αδαμ δὲ ἔγνω*) the same way, since that capital proves
 nothing.
 
-### A noun marks its own case
-The genitive reads *of*, the dative *to*, everywhere and whatever governs the word: *from
+### A declined word marks its own case
+The genitive reads *of*, the dative *to*, on every declined word — noun, adjective,
+demonstrative, participle, numeral — everywhere and whatever governs the word: *from
 of the earth*, *above of the water*. The form stays visible in English, and the marker never
 depends on a judgement about what governs what or about which use of a dative is in play —
 ὀφθαλμός's dative is *to the eyes* whether it is instrumental or not. The one exception is a
 preposition that merges into its object's unit: *within, inside of, and by means of the well*
 is ἐν's own English, not a case-marker, and it keeps the lead.
 
+Agreement puts one ending on every word of a phrase, and each shows it: τῇ ἡμέρᾳ ταύτῃ is
+*to the day to this*, ἀπὸ πάντων τῶν ἔργων *from of all of the works*, ἐτῶν ἐνενήκοντα ἐννέα
+*of years of ninety of nine*. A Greek reader hears one dative there, and English reads two
+relations; the marker is the form's, not a relation word, as *from of the earth* already
+has it.
+
 A name is a noun and marks its case the same way. It prints only its own form, so the marker
 stands before it as plain text, ahead of its article where it has one: *the sons of Esau*,
 *out of of Charran*, *in to Edom*. An indeclinable name shows no case in its spelling; the
-case is the one the chapter's morphology gives it. An article in another case is not the
-name's own but makes a noun of it, and carries its noun: τὴν δρῦν τὴν Μαμβρη, *the oak, the
-one of Mambre*.
+case is the one the chapter's morphology gives it, and an indeclinable numeral is marked the
+same way. A name's own article prints, as every article does: τῷ Ιακωβ is *to the Jacob*.
+An article in another case is not the name's own but makes a noun of it, and carries its
+noun: τὴν δρῦν τὴν Μαμβρη, *the oak, the one of Mambre*.
 
 ### The article goes inside its word's unit
 τῷ οἴκῳ is `[[to the house|…]]`, not a plain *the* before `[[to house|…]]` — which printed
@@ -318,7 +328,9 @@ The count is checked as well as the name: two units may not open one word.
 - that morphology agrees with itself across every chapter — a form keeps its dictionary
   form, a verb its parse, a noun its gender and number — unless the line says why
 - every genitive and dative name carries its marker, *of* or *to*, by the case the
-  morphology gives it, and no case is marked twice
+  morphology gives it, its own article prints and no other does, and no case is marked
+  twice
+- every genitive and dative unit opens with its marker, whatever the declined word is
 - the article stands where its word is: no plain *the* before any unit, no *the the*, and
   over a participle the article's noun follows its gender — *one* for masculine and
   feminine, *thing* for neuter
