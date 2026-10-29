@@ -5878,8 +5878,9 @@ text uses.
 - σπάδων — one sense, *an eunuch*: plain `the eunuch`. ἀρχιμάγειρος — LSJ, one sense, *chief cook*,
   its *title of a great officer in Oriental courts* a description and not a translation: plain
   `to chief cook`. 37:36.
-- Names new to the chapter: Δωθαϊμ, Ισμαηλίτης, Μαδιηναῖος, Πετεφρη. Πετεφρη is indeclinable and
-  stands as Rahlfs prints it; the module has Πετεφρης.
+- Names new to the chapter: Δωθαϊμ, Ισμαηλίτης, Μαδιηναῖος, Πετεφρης. Πετεφρη at 37:36 is the dative of
+  Πετεφρης, the nominative Rahlfs prints at 39:1. (First written here as an indeclinable Πετεφρη, against
+  the module; 39:1 shows the module was right.)
 
 ## Loose ends before Genesis 38
 
