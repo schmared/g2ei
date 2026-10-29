@@ -5997,3 +5997,20 @@ text uses.
 - Names new to the chapter: Οδολλαμίτης, Ιρας, Σαυα, Ηρ, Αυναν, Σηλωμ, Χασβι, Θαμαρ, Θαμνα (the
   place, without the gender 36:12's woman has), Αιναν, Φαρες, Ζαρα.
 
+## Loose ends before Genesis 39
+
+**A plain perfect keeps its standing state.** 14:14's plain ᾐχμαλώτευται reads *has been taken
+prisoner and stands taken prisoner*; 38:24's plain ἐκπεπόρνευκεν had read *has committed
+fornication* alone, and now carries *and it stands so*, as every perfect unit's chain does.
+
+**γίνομαι's perfect reads one way.** Three perfects had *has come into being — has come to be and
+stands so, has arisen and remains arisen, has been brought into existence and continues so*; 32:11's
+γέγονα had *I have come to be*, with the standing state on its first sense only. It reads *I have
+come into being — I have come to be and stand so, I have arisen and remain arisen, I have been
+brought into existence and continue so*.
+
+**Genesis 38's cards.** The scraps of examples in seven new entries — περιαιρέω's *when* and *has
+been taken away*, πάροδος's *as* and *passed by*, κατακαίω's *alive* and the rest — are in
+`NOT_SENSES`. δέω's *to let*, *stop* and *from* stay: they are one sense, *to let or stop from*,
+which the markup splits.
+

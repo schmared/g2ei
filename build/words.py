@@ -998,6 +998,15 @@ NOT_SENSES = {
                     "put on board ship"},       # put on board ship"
     "xrh/simos": {"that will not pass",         # of coin, a scrap
                   "with advantage"},            # an adverbial phrase
+    # GEN 38
+    "periaire/w": {"taking off", "taking [the cover] off", "opening",   # glosses of examples
+                   "to take off one's", "when", "has been taken away"},
+    "pa/rodos": {"as", "passed by"},            # pieces of examples
+    "katakalu/ptw": {"having covered his"},     # "having covered his head", an example
+    "e)a/w": {"we will have done with"},        # an example
+    "e)ntau=qa": {"here-", "in that department of"},  # scraps
+    "katakai/w": {"alive", "had burnt down, burnt out"},  # "burn alive"; a pluperfect example
+    "de/w": {"his", "he had", "bound"},         # an example; "to let, stop from" is a sense
 }
 
 # An entry that divides its senses by tense and voice, so that which of them belong to a
