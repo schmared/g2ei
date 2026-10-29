@@ -367,6 +367,14 @@ brief's rule for enclitics at 18:13 and 26:9 too, where the corpus had taken Mor
 the lexicon's key. It was wrong once: the interrogative ἆρα, which the brief did not cover, is
 `C-` as GEN 18:13 and MorphGNT have it, and the brief now says so.
 
+### What it found in Genesis 38
+
+Two disagreements over 671 words, and both came from rules the brief had recorded only among
+its findings and never among its instructions: μέν is `C-`, as settled at GEN 18 and as MorphGNT
+codes it 156 times of 178, and χήρα is `A-`, as MorphGNT codes it all 26 times. Both are in the
+instructions now. The first pass also took two points from the corpus that the brief does not
+state: πρωτότοκος is two-termination, gender `C`, and τῇδε at 38:27 is ὅδε, `RD ----DSF-`.
+
 ## The brief
 
 Copy everything below the rule into a new agent. Replace `<BOOK NAME>`, `<CHAPTER>`,
@@ -420,12 +428,12 @@ Small words are tagged as MorphGNT tags them:
   prints it at `ἰδὲ ἀπὸ τοῦ τόπου`, is the aorist imperative of ὁράω, `V- 2AAD-S--`
 - **X-** ἄν; ἐάν where it stands for ἄν after a relative (`ὃ ἐὰν θέλητε`, John 15:7); ἰδού;
   μή opening a question that expects *no*
-- **A-** εὐθύς meaning *immediately*, `A- ----NSM-`, as MorphGNT codes it all 51 times
+- **A-** εὐθύς meaning *immediately*, `A- ----NSM-`, as MorphGNT codes it all 51 times; χήρα, *widow*, `A-` under χήρα, as MorphGNT codes it all 26 times
 - **D-** αὐτοῦ meaning *here*, under the lemma αὐτοῦ, as MorphGNT has it (Matt 26:36); κύκλῳ, *round
   about*, under κύκλῳ (Mark 3:34); πρωΐ, filed as
   πρωΐ
 - **C-** ἄρα, *then, perhaps*, as MorphGNT codes it 46 times of 49; and the interrogative ἆρα,
-  as MorphGNT codes it twice of three (Acts 8:30, Gal 2:17)
+  as MorphGNT codes it twice of three (Acts 8:30, Gal 2:17); and μέν, as MorphGNT codes it 156 times of 178
 - **D-** οὐ, μή, νῦν, τότε, εὖ, ἅμα with no dative after it, ἔτι, ἐκεῖ, ἐκεῖθεν, ποῦ, δεῦτε; καί meaning *also, even*, and the καί of
   `καὶ γάρ` (all 38 times in MorphGNT); ὅθεν meaning *from where* (Matt 12:44); οὐδέ meaning *not
   even*; ὅτε after a noun of time (`ἔρχεται ὥρα ὅτε`, John 4:21); οὗ meaning *where* (οὗ meaning

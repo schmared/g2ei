@@ -1149,6 +1149,10 @@ def check_banned(verses, rep):
 # 4. anchors
 # --------------------------------------------------------------------------
 
+AUXILIARIES = {"has", "have", "had", "was", "were", "will", "shall", "be", "been", "being",
+               "may", "might", "let"}
+
+
 def entitled_to(book, chapter, verses):
     """{ref: {English a word of this verse may print as plain text}}.
 
@@ -1178,6 +1182,10 @@ def entitled_to(book, chapter, verses):
                 # and each word of it: ἐνευλογέω is plain *will be blessed in*, and its
                 # *in* is its own, not a loose headword of the ἐν beside it (GEN 12:3)
                 here.update(first.split())
+                # and a plain verb prints the auxiliaries its tense needs: ἐκπορνεύω is
+                # plain *has committed fornication*, and that *has* is not ἔχω's (GEN 38:24)
+                if word["parse"].startswith("verb"):
+                    here.update(AUXILIARIES)
         out[verse["ref"]] = here
     return out
 

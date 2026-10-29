@@ -5924,3 +5924,76 @@ CLAUDE.md states the rule, and `check_banned` holds it: no hint over 140 charact
 on the verse before, none in the first or second person outside a phrase quoted to discuss its
 wording.
 
+### Words new in GEN 38
+
+From Middle Liddell unless marked; the headword is the entry's first translation in the form the
+text uses.
+
+- γαμβρεύω — LSJ, which Middle Liddell lacks: *form connexions by marriage*, in the middle *marry*,
+  citing this verse, in the passive *to be connected by marriage*. The middle imperative γάμβρευσαι
+  heads with the middle's sense: **headword** `marry`; **chain** `marry, form connexions by
+  marriage, be connected by marriage`. 38:8.
+- ἀνίστημι (first aorist active) — causal, as Middle Liddell says of the present, imperfect, future
+  and first aorist: `make to stand up`, the chain of 9:9 in the imperative. The word-by-word layer
+  had shown ἀνάστησον the intransitive senses, because the parse code cannot tell a first aorist
+  from a second; `FORM_SENSES` now takes a pattern on the form, and the causal tenses are the ones
+  built on στησ-. 38:8.
+- ὅταν — **headword** `whenever`; **chain** `whenever, until`. 38:9.
+- θανατόω — **headword** `put to death`; **chain** `put to death, mortified, put to death by
+  sentence`. 38:10.
+- χήρα (A-, as MorphGNT codes it) — **headword** `bereft of a husband`; **chain** `bereft of a
+  husband, a widow, widowed, bereaved, torn from`. 38:11.
+- πενθερός — **headword** `the father-in-law`; **chain** `the father-in-law, the parents-in-law, the
+  connexion by marriage, the brother-in-law`. 38:13, 38:25.
+- περιαιρέω (middle) — **headword** `took off from herself`; the middle's senses, *took off her own,
+  stripped off and took away*. 38:14, 38:19.
+- χήρευσις — LSJ glosses it only as χηρεία, which Middle Liddell gives as *widowhood*; its second
+  sense is LSJ's own: `of the widowhood, of the separation from a husband`. 38:14, 38:19.
+- θέριστρον — one sense, *a light summer garment*: plain text. 38:14, 38:19.
+- καλλωπίζω (middle) — **headword** `adorned herself`; the middle section, from *made herself fine
+  and smart* to *affected*. 38:14.
+- πάροδος — **headword** `in by-way`, merged with ἐν; the entry's scraps *as* and *passed by* are
+  left out. 38:14.
+- κατακαλύπτω (middle) — **headword** `covered up for herself`; **chain** `covered up for herself,
+  covered her own, veiled herself`. 38:15.
+- ἐάω — **headword** `let`; **chain** `let, suffer, allow, permit, let alone and let be`. 38:16.
+- ἀρραβών — **headword** `earnest-money`; **chain** `earnest-money, caution-money`. Its Latin run,
+  *arrhabo, arrha*, is in `LATIN_ONLY`. 38:17–20.
+- δακτύλιος — **headword** `the ring`; **chain** `the ring, the seal-ring`. 38:18, 38:25.
+- ὁρμίσκος — LSJ: **headword** `the small necklace`; **chain** `the small necklace, the signet-cord,
+  the collar`, LSJ citing this chapter for the second. 38:18, 38:25.
+- ἐνδύω (middle) — **headword** `went into`, the entry's first translation, *to go into*; **chain**
+  `went into, put on, put on and assumed, entered and pressed into, entered`. 38:19.
+- κομίζω (middle) — **headword** `to get for oneself`; **chain** `to get for oneself, to receive in
+  full, to acquire, to gain, to receive hospitably and entertain`. 38:20.
+- ἐνταῦθα — **headword** `here`; **chain** `here, there, hither, thither, at the very time and then,
+  herein, in this state of things and in this position`. Its Latin run, *hic, illic*, is in
+  `LATIN_ONLY`. 38:21.
+- καταγελάω (aorist passive) — **headword** `we may be laughed at`; the passive of the active senses
+  with the entry's *to be derided*. 38:23.
+- τρίμηνος, as a noun — **headword** `a period of three months`; **chain** `a period of three
+  months, of three months`. 38:24.
+- ἐκπορνεύω — one sense, *to commit fornication*: plain `has committed fornication`. The
+  bare-headword check now lets a plain verb print the auxiliaries its tense needs, so that *has*
+  is not taken for ἔχω's headword. 38:24.
+- πορνεία — **headword** `of fornication`; **chain** `of fornication, of prostitution`. 38:24.
+- κατακαίω (aorist passive imperative) — **headword** `let her be burnt down`. 38:24.
+- δικαιόω (perfect passive) — **headword** `has been set right`; each passive sense with the
+  perfect's *and it stands so*. 38:26.
+- προεκφέρω — LSJ: **headword** `put out before`; **chain** `put out before, uttered and pronounced
+  before`. 38:28.
+- δέω — **headword** `bound`; **chain** `bound, tied, fettered, put in bonds, enchained`. 38:28.
+- κόκκινος — one sense, *scarlet*: plain text. πρότερος — `before`, the chain of τὸ πρότερον without
+  the article. 38:28, 38:30.
+- διακόπτω (aorist passive) — **headword** `was cut in two`; **chain** `was cut in two, was cut
+  through, was broken through`. 38:29.
+- φραγμός — **headword** `a fencing in`; **chain** `a fencing in, a blocking up, a fence, a paling,
+  a palisade, a place fenced off, an enclosure, a partition`. 38:29.
+- Chains taken from earlier chapters: νύμφη (11:31), πύλη (19:1), δοκέω (19:14), ἐπερωτάω (24:23),
+  ὅδε and δίδυμος (25:24), ἀφικνέομαι (28:12, in the aorist), κείρω (31:19), πόρνη (34:31), μαῖα
+  (35:17), ἐπισυνάγω (6:16, in the aorist).
+- ἄνθρωπος — `of man` had read *of a man, of a human being* at 6:7 and 7:23, where the base chain
+  carries *mankind* as well; all three now do.
+- Names new to the chapter: Οδολλαμίτης, Ιρας, Σαυα, Ηρ, Αυναν, Σηλωμ, Χασβι, Θαμαρ, Θαμνα (the
+  place, without the gender 36:12's woman has), Αιναν, Φαρες, Ζαρα.
+

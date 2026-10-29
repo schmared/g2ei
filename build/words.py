@@ -224,6 +224,17 @@ LSJ = {
     # 39.1": "chief cook", then, as a description and not a translation, "title of a great
     # officer in Oriental courts".
     "ἀρχιμάγειρος": ["chief cook"],
+    # GEN 38. None of these four is in Middle Liddell. LSJ (eng3): γαμβρεύω, "form connexions
+    # by marriage", in the middle "marry" (citing this verse's variant), in the passive "to be
+    # connected by marriage". LSJ (eng25) gives χήρευσις no gloss of its own for its first
+    # sense — "= χηρεία 1, LXX Ge. 38.14" — so that sense is Middle Liddell's χηρεία,
+    # "widowhood"; the second is LSJ's own. LSJ (eng16): ὁρμίσκος, "small necklace", then
+    # "signet-cord" citing this chapter, "collar". LSJ (eng17): προεκφέρω, "put out before",
+    # citing 38:28, then "utter, pronounce before"; its passive is left with the actives.
+    "γαμβρεύω": ["form connexions by marriage", "marry", "to be connected by marriage"],
+    "χήρευσις": ["widowhood", "separation from a husband"],
+    "ὁρμίσκος": ["small necklace", "signet-cord", "collar"],
+    "προεκφέρω": ["put out before", "utter, pronounce before", "to be carried away headlong"],
 }
 
 # New Testament books: MorphGNT file and its book number.
@@ -997,12 +1008,21 @@ FORM_SENSES = {
     # imperf. ἀνίσταμαι, -μην, … in aor2 ἀνέστην". NOT_SENSES keeps B, for GEN 4:8 ἀνέστη;
     # the present and imperfect active — GEN 9:9 ἀνίστημι — keep A, less its "by" (from
     # "by his hand") and the aorist middle "to build oneself".
+    # The first aorist and future active are causal too, "in pres., imperf., fut., and aor1",
+    # but the parse code does not tell ἀνάστησον (aor1, GEN 38:8) from ἀνέστη (aor2, 37:7),
+    # so the form decides: the causal tenses are built on στησ-.
     "a)ni/sthmi": [("PI", "A", {
         "by", "to build oneself",
         "to stand up, rise", "to rise from one's seat", "to rise from bed", "to rise from the dead",
         "to rise from", "recover", "to rise", "to stand up", "to be set up, to rise up, rear itself",
         "to rise to go, set out, go away", "to be compelled to migrate", "to be depopulated",
-        "subject to migration", "to be put up"})],
+        "subject to migration", "to be put up"}),
+                   ("AF", "A", {
+        "by", "to build oneself",
+        "to stand up, rise", "to rise from one's seat", "to rise from bed", "to rise from the dead",
+        "to rise from", "recover", "to rise", "to stand up", "to be set up, to rise up, rear itself",
+        "to rise to go, set out, go away", "to be compelled to migrate", "to be depopulated",
+        "subject to migration", "to be put up"}, "στησ")],
     # ἐπιτίθημι heads its actives "A. Act." and its middles "B. Mid."; a middle form — GEN 9:23
     # ἐπέθεντο — takes B, whose first sense is "to put on oneself". "to give" is left out with
     # the actives: the middle's own "to give" a name would otherwise be listed in the active's
@@ -1315,6 +1335,8 @@ LATIN_ONLY = {
     "ti/s", "e)/laion", "oi)=nos", "doke/w", "a)/zumos",
     "a)rno/s",                                  # "a lamb, Lat. agnus, agna": the lamb is a <tr>
     "w(/sper",                                  # "Lat. quasi, tanquam": Latin throughout; "just as if, even as" are <tr>s
+    "a)rrabw/n",                                # "Lat. arrhabo, arrha", after "earnest-money, caution-money"
+    "e)ntau=qa",                                # "Lat. hic, illic", after "here, there"
 }
 
 
@@ -1381,7 +1403,7 @@ def load_middle_liddell():
     return entries
 
 
-def lexicon_senses(entries, lemma, code=""):
+def lexicon_senses(entries, lemma, code="", form=""):
     key = SPELLING.get(beta(lemma), beta(lemma))
     key = ENTRY.get(key, key)
     if key not in entries:
@@ -1389,8 +1411,13 @@ def lexicon_senses(entries, lemma, code=""):
     bare = re.sub(r"\d+$", "", key)
     skip = NOT_SENSES.get(bare, set())
     code = code.ljust(8, "-")
-    for tenses, voices, instead in FORM_SENSES.get(bare, []):
-        if code[1] in tenses and code[2] in voices:
+    plain = "".join(c for c in unicodedata.normalize("NFD", form)
+                    if not unicodedata.combining(c)).lower()
+    for rule in FORM_SENSES.get(bare, []):
+        tenses, voices, instead = rule[:3]
+        # a fourth item is a pattern the form itself must show, where the parse code
+        # cannot tell two forms apart (a first aorist from a second)
+        if code[1] in tenses and code[2] in voices and (len(rule) < 4 or re.search(rule[3], plain)):
             skip = instead
             break
     seen, out = set(), []
@@ -1533,7 +1560,7 @@ def build(book, chapter, entries):
             # the word under its own key or a close form of it (SPELLING, ENTRY,
             # FILED_WITHIN). An entry whose translation the markup hides is recovered from
             # Middle Liddell itself (MARKUP_LOST), not replaced by LSJ.
-            senses, lexicon = lexicon_senses(entries, lemma, code), "Middle Liddell"
+            senses, lexicon = lexicon_senses(entries, lemma, code, form), "Middle Liddell"
             if not senses and (lemma in names or form in names or lemma in by_lemma):
                 # A name entry is keyed by the form the verse prints (Ἀσσυρίων), which
                 # is not always the dictionary form the morphology gives (Ἀσσύριος). It
