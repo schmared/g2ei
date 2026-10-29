@@ -966,6 +966,27 @@ NOT_SENSES = {
              "quid enim",                       # Latin
              "why"},                            # the second half of "why, what"
     "te": {"et."},                              # Latin
+    # GEN 37
+    "e)nu/pnion": {"in sleep"},                 # the adverbial use, "a vision in sleep came"
+    "katafe/rw": {"will bring", "down",         # "grief will bring me down to the grave"
+                  "I bring down"},              # "I bring down my foot"
+    "e)kdu/w": {"they stripped", "of"},         # scraps of examples
+    "peristre/fw": {"round", "behind"},         # halves of "to wheel it round", "to tie his hands behind"
+    "o)rqo/w": {"is rightly sent"},             # a scrap of an example
+    "selh/nh": {"the full-", "moon",            # "the full-moon", split across two tags
+                "lunam deducere"},              # Latin
+    "diarrh/gnumi": {'"split you!"'},           # an oath in comedy
+    "a(rpa/zw": {"by"},                         # a scrap
+    "e)nteu=qen": {"illinc",                    # Latin
+                   "what remains"},             # τἀντεῦθεν, with the article
+    "plana/w": {"having missed", "to do", "irregularly", "at random",  # pieces of examples
+                "that have visited"},
+    "qhri/on": {"beast!", "bete"},              # a term of reproach, and its French
+    "kata/gw": {"into the nether world"},       # where Odysseus is led down, not a sense
+    "a)nabiba/zw": {"up", "to have",            # halves of "to draw a ship up", "to have them
+                    "put on board ship"},       # put on board ship"
+    "xrh/simos": {"that will not pass",         # of coin, a scrap
+                  "with advantage"},            # an adverbial phrase
 }
 
 # An entry that divides its senses by tense and voice, so that which of them belong to a
@@ -1293,6 +1314,7 @@ LATIN_ONLY = {
     # is a <tr> of its own and already in the senses
     "ti/s", "e)/laion", "oi)=nos", "doke/w", "a)/zumos",
     "a)rno/s",                                  # "a lamb, Lat. agnus, agna": the lamb is a <tr>
+    "w(/sper",                                  # "Lat. quasi, tanquam": Latin throughout; "just as if, even as" are <tr>s
 }
 
 

@@ -5778,3 +5778,105 @@ inferred*. ζῆν at 19:19 keeps its entry's *alive* as *of the being alive*, a
 3:20 has *of the alive*. `check_unit_cases` fails on an infinitive with its own article that
 does not read as a gerund. The bare-headword check now takes a hyphenated word as one word, so
 the plain *drinking-troughs* of 30:38 does not hold the gerund *the drinking*.
+
+### Words new in GEN 37
+
+From Middle Liddell unless marked; the headword is the entry's first translation in the form the
+text uses.
+
+- ἐνύπνιον — **headword** `a thing seen in sleep`; **chain** `a thing seen in sleep, a dream`. The
+  entry's *in sleep* glosses the adverbial use and is in `NOT_SENSES`. Articular `the thing seen
+  in sleep`, plural `the things seen in sleep, the dreams`. 37:5–10, 37:20.
+- ἐνυπνιάζομαι — LSJ, one sense, *dream*, for middle and passive alike: plain `dreamed`,
+  `having dreamed`, as at 28:12. 37:5–10.
+- ἐνυπνιαστής — LSJ, one sense, *dreamer*, citing this verse: plain `the dreamer`. 37:19.
+- καταφέρω — **headword** `brought down`; **chain** `brought down, drove ships, paid down, carried
+  home`; the passives and the scraps of examples left out. 37:2.
+- ψόγος — **headword** `a blamable fault`; **chain** `a blamable fault, a blemish, a flaw, blame,
+  censure`. 37:2.
+- ποιμαίνω — `being shepherd` (participle), `are shepherd` (present plural), the chain of 30:36 in
+  the form. 37:2, 37:13.
+- νέος (positive) — **headword** `young`; **chain** `young, youthful, new and fresh, new and
+  strange`, as the comparative's chain reads. 37:2.
+- χιτών (singular) — `garment worn next the skin, frock, coat of mail, covering, skin`, the chain of
+  3:21 in the singular, with no article where the Greek has none. 37:3–33.
+- δεσμεύω — **headword** `to fetter`; **chain** `to fetter, to put in chains, to tie together`. 37:7.
+- δράγμα — **headword** `as much as one can grasp`; **chain** `as much as one can grasp, handfuls,
+  trusses, sheaves, uncut corn`, singular `handful, truss, sheaf`. The stemmer now takes *sheaves*
+  for *sheaf*. 37:7.
+- ὀρθόω (aorist passive) — **headword** `was set straight`; the passive of the active senses with
+  the passive-only ones, *rose from one's seat and stood up*, *went straight*. 37:7.
+- περιστρέφω (aorist passive participle) — **headword** `having been whirled round`; **chain**
+  `having been whirled round, having been wheeled round, having been turned round and spun round,
+  having come round to, having been tied behind`. 37:7.
+- κυριεύω — `being lord`, `you will be lord`, the chain of 3:16. βασιλεύω — `being king`, `you
+  will be king`. 37:8.
+- ὥσπερ — **headword** `just as if`; **chain** `just as if, even as`. Its first Latin run, *quasi,
+  tanquam*, is Latin throughout and in `LATIN_ONLY`. 37:9.
+- σελήνη — **headword** `the moon`; **chain** `the moon, the moonlight, Selene the goddess of the
+  moon`, as ἥλιος reads. 37:9.
+- ἀστήρ (anarthrous) — `stars, flames and lights and fires`. 37:9.
+- ἐπιτιμάω — **headword** `laid a value upon`; **chain** `laid a value upon, shewed honour to,
+  raised in price, laid a penalty on, censured`, the entry's spelling kept. 37:10.
+- διατηρέω — `watched closely`, the chain of the future at 17:9 in the aorist. 37:11.
+- βόσκω — `to feed`, `feed`, the chain of 29:7. 37:12, 37:16.
+- ὑγιαίνω — `are sound`, the chain of 29:6 in the plural. 37:14.
+- πλανάω (present participle) — `being made to wander`, the chain of 21:14 in the participle. 37:15.
+- ζητέω — `you seek`, `I seek`, the chain of 19:11. 37:15–16.
+- ἀπαίρω (perfect) — `they have lifted off`, each sense with the perfect's *and it stands so*.
+  37:17.
+- ἐντεῦθεν — **headword** `hence`; **chain** `hence, thence, henceforth, thenceforth, thereupon,
+  from that source`. 37:17.
+- κατόπισθεν, with the genitive — **headword** `behind`; **chain** `behind, after, in the rear`; the
+  temporal senses are the adverb's. 37:17.
+- προοράω — **headword** `saw before one`; the entry's *one* kept, as ἀναβλέπω keeps *one's sight*.
+  37:18.
+- πονηρεύομαι — **headword** `were being evil`; **chain** `were being evil, were acting wickedly,
+  were playing the rogue`. 37:18.
+- λάκκος — **headword** `the pond`; **chain** `the pond, the pit, the reservoir`. 37:20–29.
+- θηρίον (singular) — `a wild animal, a beast, a savage beast, game`, the chain of 2:19 in the
+  singular. 37:20, 37:33.
+- ἐξαιρέω (middle) — `took out for himself`, `may take out for himself`, with every middle sense:
+  *choose for oneself and carry off as booty, bereave of, take away from one, set free and
+  deliver*. 32:12's middle had stopped at the second and is brought into line; it is the verse
+  where the sense is *deliver*. 37:21–22.
+- ἐκχέω (aorist subjunctive) — `you may pour out`. ἐμβάλλω — `throw in`. ἐπιφέρω — `you may bring`.
+  37:22.
+- ἐκδύω — **headword** `took off`; **chain** `took off, stripped off, stripped`. 37:23.
+- κενός — `empty`, the chain of 31:42. 37:24.
+- ὁδοιπόρος — **headword** `wayfarers`; **chain** `wayfarers, travellers, fellow-travellers,
+  guides`. 37:25.
+- γέμω — **headword** `were being full`; **chain** `were being full, were being full of`. 37:25.
+- θυμίαμα — **headword** `of things which are burnt as incense`; **chain** `… of fragrant stuffs, of
+  stuffs for embalming`, the plural of *that which is burnt as incense*, as ῥῆμα's *that which is
+  said* becomes *the things which are said*. 37:25.
+- ῥητίνη — LSJ, one sense, *resin of the pine*: plain `of resin of the pine`. 37:25.
+- στακτός, as a noun — **headword** `of oozing out in drops`; **chain** `of oozing out in drops, of
+  trickling, of dropping, of distilling`. Neither lexicon has στακτή on its own. 37:25.
+- κατάγω — **headword** `to lead down`, `led down`; the active senses in order. 37:25, 37:28.
+- χρήσιμος — **headword** `useful`; **chain** `useful, serviceable, good for use, good, apt, fit,
+  useful for, much-used`. 37:26.
+- κρύπτω — `we may hide`, with *cover in the earth and bury* as 4:14 has it. 37:26.
+- ἔμπορος (articular) — `the ones who go on shipboard as passengers`, the chain of 23:16. 37:28.
+- ἐξέλκω — **headword** `drew`; **chain** `drew, dragged out, dragged out from, dragged along`.
+  ἀναβιβάζω — **headword** `made go up`; **chain** `made go up, caused to mount, mounted, drew up,
+  brought up`. 37:28.
+- διαρρήγνυμι — **headword** `broke through`; **chain** `broke through, cleaved asunder, burst`.
+  37:29, 37:34.
+- σφάζω — `slew`, the chain of 22:10 in the aorist. ἔριφος — `a young goat, a kid`. μολύνω —
+  **headword** `stained`; **chain** `stained, sullied, defiled, made a beast of`. 37:31.
+- ἁρπάζω — **headword** `snatched away`; **chain** `snatched away, carried off, stole and was a
+  thief, seized hastily and snatched up, seized and overpowered, plundered`. 37:33.
+- σάκκος — **headword** `a coarse hair-cloth`; **chain** `a coarse hair-cloth, sackcloth, anything
+  made of this cloth, a sack, a bag, a coarse beard`. 37:34.
+- πενθέω — `was bewailing`, `bewailing`. 37:34–35.
+- θέλω — `was willing`, the chain of 24:8 in the imperfect. 37:35.
+- ᾅδης — **headword** `of Hades`; **chain** `of Hades, of Pluto, of the world below, of the grave,
+  of death`. Middle Liddell keys the word with the god's capital, `*(/a|dhs`, and the spelling
+  table points the lower-case lemma there; the capitals are the lexicon's. 37:35.
+- σπάδων — one sense, *an eunuch*: plain `the eunuch`. ἀρχιμάγειρος — LSJ, one sense, *chief cook*,
+  its *title of a great officer in Oriental courts* a description and not a translation: plain
+  `to chief cook`. 37:36.
+- Names new to the chapter: Δωθαϊμ, Ισμαηλίτης, Μαδιηναῖος, Πετεφρη. Πετεφρη is indeclinable and
+  stands as Rahlfs prints it; the module has Πετεφρης.
+

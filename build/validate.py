@@ -479,6 +479,7 @@ IRREGULAR = {
     "took": "take", "taken": "take", "gave": "give", "given": "give", "went": "go",
     "gone": "go", "came": "come", "made": "make", "brought": "bring", "stood": "stand",
     "strove": "strive", "striven": "strive", "broke": "break", "broken": "break",
+    "sheaves": "sheaf",  # δράγμα, singular beside plural at GEN 37:7
     "stole": "steal", "stolen": "steal", "felt": "feel", "held": "hold", "kept": "keep",
     "left": "leave", "laid": "lay", "lain": "lie", "led": "lead", "said": "say",
     "saw": "see", "seen": "see", "sent": "send", "sat": "sit", "slept": "sleep",
