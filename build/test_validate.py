@@ -291,6 +291,15 @@ NEGATIVE = [
                                              dict(v, reading=re.sub(r"\[\[of the turning about\|[^\]]*\]\]",
                                                                     "[[to turn about|to turn about|ἐπιστρέφω]]", v["reading"]))
                                              for v in json.loads((render.DATA / "GEN/8.json").read_text(encoding="utf-8"))])),
+    # GEN 33:4 had read `And Esau ran to meet him and embraced him and kissed him and fell
+    # on his neck, and they both wept.` — the verse translated
+    ("banned a hint that carries on the verse before",
+                                         lambda: run(V.check_banned, mut(GEN, [0, "hint"], "and Esau ran to meet him."))),
+    ("banned a hint that renders a speech",
+                                         lambda: run(V.check_banned, mut(GEN, [0, "hint"], "Take your wife and go."))),
+    ("banned the aorist formula in a reading",
+                                         lambda: run(V.check_banned, mut(GEN, [0, "reading"],
+                                             "x — one completed act seen whole, not a process observed in progress — y"))),
     # GEN 7:16 τὰ εἰσπορευόμενα is neuter: the article's noun is `things`, not `ones`
     ("articles a neuter participle given `the ones`",
                                          lambda: run(V.check_articles, "GEN", 7, [

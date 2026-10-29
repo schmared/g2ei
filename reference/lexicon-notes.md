@@ -5908,3 +5908,18 @@ already says aorist, as the aorist is the Greek narrative's plain tense; on ever
 formula would have added an emphasis the Greek does not carry, and on some it was a judgment no
 check could hold. The 59 are gone, CLAUDE.md says so, and `check_banned` fails on the formula in a
 reading. The word-by-word layer keeps it as the aorist's line.
+
+## A hint is a note, not a translation
+
+The `hint` field was in no rule. Genesis 1–7 and 36–37 used it for a short note on what happens in
+the verse or what matters in it; from Genesis 8 the hints for speeches began to render the speech
+(*Count the stars, if you can: so will your seed be*), and through Genesis 24–35 nearly every hint
+was a fluent translation of its verse, often carrying on the verse before (*and make me meats, the
+kind I love, and bring them to me*). A translation picks one English word for each Greek one, which
+is what the reading exists not to do, and it carried a familiar Bible's phrasing onto the page —
+*fell on his neck* at 33:4. 653 hints in Genesis 8–35, and 37:20, are now notes, reporting speech
+rather than rendering it: *Esau runs to meet Jacob, embraces and kisses him, and they both weep*.
+CLAUDE.md states the rule, and `check_banned` holds it: no hint over 140 characters, none carrying
+on the verse before, none in the first or second person outside a phrase quoted to discuss its
+wording.
+

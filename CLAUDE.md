@@ -220,7 +220,15 @@ rewrite it — by ordering and punctuating the chain, never by adding words the 
 not carry. Awkward is acceptable; filler is not.
 
 Notes are terse and factual. No devotional register, no homiletics, no theological
-advocacy. Where a clause has been contested, state the grammatical facts and what each
+advocacy.
+
+Each verse also carries a `hint`: a short note, in the narrator's voice, on what happens in the
+verse or what matters in it — *Abram goes, and Lot with him, at seventy-five*; *Two Hebrew words,
+nĕpilîm and gibbōrîm, are one Greek word: giants*. Never a translation. A fluent rendering picks
+one English word for each Greek one, which is the thing the reading exists not to do, and it
+carries a familiar Bible's phrasing onto the page. So a hint reports speech instead of rendering
+it, speaks in the third person (a phrase may be quoted in single quotes to discuss its wording),
+stands alone rather than carrying on the verse before, and runs to 140 characters at most. Where a clause has been contested, state the grammatical facts and what each
 reading requires — do not adjudicate.
 
 ## Repo layout
@@ -313,6 +321,9 @@ The count is checked as well as the name: two units may not open one word.
 - every verse has greek, notes and reading, non-empty, with well-formed units
 - every proper name in the Greek has a gloss on first occurrence in the chapter
 - no banned imported phrases (maintain a list; seed it with "face of the waters")
+- no hint reads as a translation: none over 140 characters, none carrying on the verse
+  before, none in the first or second person outside a quoted phrase
+- no aorist formula in a reading: the aorist is the plain past
 - a word is a unit exactly when its entry says more than its headword does, and a unit
   whose chain is word for word its headword is not a unit at all — checked both ways
   against the chapter's word-by-word layer, over nouns, verbs, adjectives, adverbs and

@@ -1094,6 +1094,35 @@ def check_lexicon(rep):
 
 AORIST_FORMULA = "one completed act seen whole, not a process observed in progress"
 
+# A hint is a short note on what happens in the verse or what matters in it, never a
+# translation of it: a fluent rendering picks one English word for each Greek one, which is
+# what the reading exists not to do, and it brought a familiar Bible's phrasing onto the
+# page. Some 500 hints in Genesis 8-37 had become translations, most of 24-35 verse after
+# verse. What gives a translation away is mechanical enough to hold: a speech rendered in
+# the first or second person, a sentence carried on from the verse before, length.
+HINT_MAX = 140
+HINT_PERSON = re.compile(r"\b(I|me|my|mine|myself|you|your|yours|yourself|yourselves|"
+                         r"we|us|our|ours|ourselves)\b")
+HINT_QUOTED = re.compile(r"(?<!\w)'[^']*'(?!\w)|‘[^’]*’|\"[^\"]*\"")
+HINT_CONNECTIVE = re.compile(r"^(And|But|Then|For|Now|So)\b")
+
+
+def hint_faults(hint):
+    """What makes a hint read as a translation, if anything."""
+    out = []
+    if len(hint) > HINT_MAX:
+        out.append("longer than %d characters" % HINT_MAX)
+    if re.match(r"^[a-z]", hint):
+        out.append("opens in lower case, carrying on the verse before")
+    if HINT_CONNECTIVE.match(hint):
+        out.append("opens with a connective, carrying on the verse before")
+    m = HINT_PERSON.search(HINT_QUOTED.sub("", hint))
+    if m:
+        out.append("speaks in the first or second person (`%s`) — a speech rendered, not "
+                   "reported; quote a phrase in single quotes only to discuss its wording"
+                   % m.group(1))
+    return out
+
 
 def check_banned(verses, rep):
     before = rep.failed
@@ -1104,6 +1133,9 @@ def check_banned(verses, rep):
             rep.fail("banned", verse["ref"], "the aorist formula is in the reading; the "
                      "aorist reads as the plain past, and the formula is the word-by-word "
                      "layer's line")
+        for fault in hint_faults(verse.get("hint", "")):
+            rep.fail("banned", verse["ref"], "the hint %s; a hint is a short note on what "
+                     "happens or matters, never a translation" % fault)
         for panel, text in panels(verse).items():
             for phrase in BANNED_PHRASES:
                 if spans(text, phrase):
