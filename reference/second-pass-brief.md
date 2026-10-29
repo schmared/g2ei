@@ -375,6 +375,21 @@ codes it 156 times of 178, and χήρα is `A-`, as MorphGNT codes it all 26 tim
 instructions now. The first pass also took two points from the corpus that the brief does not
 state: πρωτότοκος is two-termination, gender `C`, and τῇδε at 38:27 is ὅδε, `RD ----DSF-`.
 
+### What it found in Genesis 39
+
+One disagreement over 567 words, and it is the Greek's own: λαβὼν ὁ κύριος Ιωσηφ ἐνέβαλεν
+αὐτόν at 39:20. The second pass read the indeclinable name as genitive, *the lord of Joseph*,
+the way an anarthrous name after an articular noun reads nearly everywhere in Genesis; the
+first pass and the module read it as the object of λαβών, which has no other. Both are Greek.
+The accusative stands, because the participle wants an object and ὁ κύριος is complete without
+one (39:16 has it bare), and the verse's notes give both readings. Not a rule, so nothing in
+the instructions changes.
+
+The module then found two things both passes had missed alike, so the diff could not. ἐπεσπάσατο
+goes under ἐπισπάομαι, as MorphGNT files its middle, and that is now in the instructions. And
+ὑπεξῄρηται at 39:9 is read as middle — *to put aside, except*, which Middle Liddell gives only in
+the middle — so οὐδέν after it is its object, `----ASN-`, not its subject.
+
 ## The brief
 
 Copy everything below the rule into a new agent. Replace `<BOOK NAME>`, `<CHAPTER>`,
@@ -534,6 +549,7 @@ The dictionary form as Middle Liddell (Perseus) files it:
   πορεύομαι, ἐκπορεύομαι, εἰσπορεύομαι, εἰσέρχομαι, ἐντέλλομαι, φοβέομαι, ἀπέρχομαι,
   καταράομαι, ἐκλέγομαι, ἐνθυμέομαι, θυμόομαι (for ἐθυμώθη, as MorphGNT has it at Matt 2:16),
   διανοέομαι, μιμνήσκομαι, διατίθεμαι, χράομαι, κτάομαι, περιποιέομαι, συμπορεύομαι, δύναμαι,
+  ἐπισπάομαι (for ἐπεσπάσατο, as MorphGNT has ἐπισπάσθω at 1 Cor 7:18),
   ἀποκρίνομαι (ἀπεκρίθη, ἀποκριθείς, voice `P`). But ἐπεκαλέσατο, the middle,
   goes under the active ἐπικαλέω, as MorphGNT files it.
 - εἰδέναι → οἶδα · εἶπεν → λέγω · ἀντειπεῖν → ἀντιλέγω · ἰδεῖν → ὁράω · φαγ- forms → ἐσθίω · μου → ἐγώ ·

@@ -752,7 +752,7 @@ the same ground as `the sixth` and `the seventh`: one sense each, so no range to
 | κατανύσσω | `were stabbed` | `were stabbed and gouged, were sorely pricked, were bewildered and stunned` | 34:7 |
 | κατοικέω | `to those inhabiting` | `to those inhabiting, to those occupying, to those dwelling and living, to those settled` | 34:30 |
 | κατοικέω | `we will dwell in` | `we will dwell in, we will settle in, we will colonise, we will inhabit, we will settle and dwell, we will lie and be situate` | 34:15 |
-| κοιμάω | `having fallen asleep` | `having fallen asleep, having gone abed and lain abed, having slept, having fallen asleep and died, having kept watch at night` | 34:7 |
+| κοιμάω | `having been lulled` | `having been lulled, having been hushed to sleep and put to sleep, having been lulled to rest and stilled and calmed, having fallen asleep, having gone abed and lain abed, having slept, having fallen asleep and died, having kept watch at night` | 34:7 |
 | λαμβάνω | `we will take` | `we will take, we will receive, we will take hold of and grasp and seize` | 34:16, 34:21 |
 | λυπηρός | `painful` | `painful, distressing, causing sorrow, causing pain and troublesome and vexatious and offensive` | 34:7 |
 | μάχαιρα | `of a large knife` | `of a large knife and dirk, of a knife for cutting up, of a short sword and dagger, of a sabre and bent sword, of a rasor` | 34:26 |
@@ -844,7 +844,7 @@ the same ground as `the sixth` and `the seventh`: one sense each, so no range to
 | εὑρίσκω | `I have found` | `I have found and it stands so, I have found out, I have discovered` | 33:10 |
 | θυσιαστήριον | `an altar` | `an altar` | 33:20 |
 | καταδιώκω | `I may pursue closely` | `I may pursue closely` | 33:13 |
-| καταλείπω | `I will leave behind` | `I will leave behind, I will leave in the lurch, I will leave out and omit` | 33:15 |
+| καταλείπω | `I will leave behind` | `I will leave behind, I will leave as an heritage, I will forsake and abandon and leave in the lurch, I will leave remaining, I will leave alone` | 33:15 |
 | κλαίω | `they wept` | `they wept, they lamented, they wailed` | 33:4 |
 | λοχεύω | `are brought forth` | `are brought forth, are borne, are brought to the birth and attended in childbirth and delivered, are delivered and bear children, are born` | 33:13 |
 | οἰκία | `buildings` | `buildings, houses, dwellings, households and domestic establishments, households and inmates of the house, houses and families` | 33:17 |
@@ -1219,11 +1219,11 @@ the same ground as `the sixth` and `the seventh`: one sense each, so no range to
 | εἴσοδος | `to the way in` | `to the way in, to the entrance, to the place of entrance and entry, to the right and privilege of entrance` | 30:27 |
 | ζηλόω | `was jealous of` | `was jealous of, envied, vied with and emulated and rivalled, was zealous after and strove after` | 30:1 |
 | θερισμός | `of reaping-time` | `of reaping-time, of harvest, of the crop` | 30:14 |
-| θυμόω | `was made angry` | `was made angry, was provoked, was wroth, was angry, was wild and restive, vented fury, was angry with` | 30:2 |
+| θυμόομαι | `was wroth` | `was wroth, was angry, was wild and restive, vented fury, was angry with, was angry at` | 30:2 |
 | καρύινος | `of nuts` | `of nuts, made of walnut-wood` | 30:37 |
 | κλέπτω | `having been stolen` | `having been stolen and standing so, having been filched, having been purloined, having been cozened and cheated and deceived and beguiled, having been concealed and kept secret and disguised, having been done secretly and treacherously, having been seized and occupied secretly` | 30:33 |
 | κοιλία | `of belly` | `of belly, of the paunch, of the paunch stuffed with mince-meat and black-pudding and sausage, of the womb` | 30:2 |
-| κοιμάω | `let him be lulled to sleep` | `let him be lulled to sleep, let him be put to sleep, let him fall asleep, let him sleep, let him lie asleep` | 30:15 |
+| κοιμάω | `let him be lulled` | `let him be lulled, let him be hushed to sleep and put to sleep, let him be lulled to rest and stilled and calmed, let him fall asleep, let him go abed and lie abed, let him sleep, let him fall asleep and die, let him keep watch at night` | 30:15 |
 | κρίνω | `separated` | `separated, put asunder and distinguished, picked out and chose, decided and judged, determined and gave sentence, questioned and disputed` | 30:6 |
 | κριός | `a ram` | `a ram` | 30:40 |
 | λαμβάνω | `taking` | `taking, receiving, taking hold of and grasping and seizing` | 30:41 |
@@ -2419,12 +2419,12 @@ the same ground as `the sixth` and `the seventh`: one sense each, so no range to
 | καταστρέφω, with ἐν τῷ | `in the turning down` | `within, inside of, and by means of the turning down and trampling on, the turning the soil, the upsetting and overturning, the subjecting to oneself and subduing, the turning back and bringing back, the turning round and bringing to an end, the coming to an end and dying, the twisting up` | 19:29 |
 | καταστροφή | `of the overturning` | `of the overturning, of the subduing and subjugation and reduction, of the sudden turn and end, of the close and conclusion, of the catastrophe` | 19:29 |
 | καταφεύγω | `to flee for refuge` | `to flee for refuge, to flee and take refuge, to flee for protection, to escape, to have recourse to, to fall back upon and appeal to` | 19:20 |
-| κοιμάω | `I fell asleep` | `I fell asleep, I went abed and lay abed, I slept, I fell asleep and died, I kept watch at night` | 19:34 |
-| κοιμάω | `fall asleep` | `fall asleep, go abed and lie abed, sleep, fall asleep and die, keep watch at night` | 19:34 |
-| κοιμάω | `fell asleep` | `fell asleep, went abed and lay abed, slept, fell asleep and died, kept watch at night` | 19:33, 19:35 |
-| κοιμάω | `let us fall asleep` | `let us fall asleep, let us go abed and lie abed, let us sleep, let us fall asleep and die, let us keep watch at night` | 19:32 |
-| κοιμάω | `to fall asleep` | `to fall asleep, to go abed and lie abed, to sleep, to fall asleep and die, to keep watch at night` | 19:4 |
-| κοιμάω, with ἐν τῷ | `in the falling asleep` | `within, inside of, and by means of the falling asleep, the going abed and lying abed, the sleeping, the falling asleep and dying, the keeping watch at night` | 19:33, 19:35 |
+| κοιμάω | `I was lulled` | `I was lulled, I was hushed to sleep and put to sleep, I was lulled to rest and stilled and calmed, I fell asleep, I went abed and lay abed, I slept, I fell asleep and died, I kept watch at night` | 19:34 |
+| κοιμάω | `be lulled` | `be lulled, be hushed to sleep and put to sleep, be lulled to rest and stilled and calmed, fall asleep, go abed and lie abed, sleep, fall asleep and die, keep watch at night` | 19:34 |
+| κοιμάω | `was lulled` | `was lulled, was hushed to sleep and put to sleep, was lulled to rest and stilled and calmed, fell asleep, went abed and lay abed, slept, fell asleep and died, kept watch at night` | 19:33, 19:35 |
+| κοιμάω | `let us be lulled` | `let us be lulled, let us be hushed to sleep and put to sleep, let us be lulled to rest and stilled and calmed, let us fall asleep, let us go abed and lie abed, let us sleep, let us fall asleep and die, let us keep watch at night` | 19:32 |
+| κοιμάω | `of the being lulled` | `of the being lulled, of the being hushed to sleep and put to sleep, of the being lulled to rest and stilled and calmed, of the falling asleep, of the going abed and lying abed, of the sleeping, of the falling asleep and dying, of the keeping watch at night` | 19:4 |
+| κοιμάω, with ἐν τῷ | `in the being lulled` | `within, inside of, and by means of the being lulled, the being hushed to sleep and put to sleep, the being lulled to rest and stilled and calmed, the falling asleep, the going abed and lying abed, the sleeping, the falling asleep and dying, the keeping watch at night` | 19:33, 19:35 |
 | κρίνω | `to pick out` | `to pick out and choose, to pick out for oneself and choose, to decide, to judge, to adjudge, to judge of and estimate, to expound and interpret, to determine, to question, to bring to trial and accuse, to pass sentence upon and condemn` | 19:9 |
 | κρατέω | `were strong` | `were strong, were mighty, were powerful, ruled and held sway and were sovereign, ruled among, were lords and masters of and rulers over, conquered and prevailed and got the upper hand, prevailed and became current, prevailed over, surpassed and went beyond, conquered and mastered and outdid and surpassed, became masters of and got possession of, laid hold of, seized and held fast, controlled and commanded` | 19:16 |
 | κύριος | `lords` | `lords, masters, the ones having power and authority over` | 19:2 |
@@ -3424,7 +3424,9 @@ Making good a deficiency — a gap in a line of troops, a debt paid in full.
 
 - **headword:** `will leave behind` — Middle Liddell, first sense *to leave behind*; future
   active, 3rd singular.
-- **chain:** `will leave behind, will leave behind him, will leave as an inheritance`
+- **chain:** `will leave behind, will leave as an heritage, will forsake and abandon and leave in
+  the lurch, will leave remaining, will leave alone` *(corrected at Genesis 39: the chain had
+  the middle's* behind him *and* inheritance *for the entry's* heritage*)*
 - **used:** GEN 2:24
 
 ### προσκολλάω — future passive
@@ -6014,3 +6016,102 @@ been taken away*, πάροδος's *as* and *passed by*, κατακαίω's *ali
 `NOT_SENSES`. δέω's *to let*, *stop* and *from* stay: they are one sense, *to let or stop from*,
 which the markup splits.
 
+### Words new in GEN 39
+
+From Middle Liddell unless marked; the headword is the entry's first translation in the form the
+text uses.
+
+- κατάγω (aorist passive) — **headword** `was led down`; the active chain of 37:28 in the passive,
+  with the passive's own *came to land and landed*, *turned in and lodged in* and *returned*. 39:1.
+- εὐνοῦχος — one sense, *a eunuch*: plain text. *chamberlains*, which the entry says eunuchs were
+  employed as, is in `NOT_SENSES`. 39:1.
+- ἀρχιμάγειρος — LSJ, *chief cook*, one sense: plain text. 39:1.
+- ἀνήρ (anarthrous) — **headword** `man`; **chain** `a man, a man in the prime of life`. 39:1, 39:2.
+- ἐπιτυγχάνω — **headword** `hitting the mark`; **chain** `hitting the mark, lighting and falling
+  upon and meeting with, attaining to and reaching and gaining, succeeding in, being successful in,
+  succeeding and being successful, reading`. *the first person one meets* is ὁ ἐπιτυχών, with the
+  article, and is left out. 39:2.
+- καθίστημι (first aorist active, causal) — **headword** `set down`; **chain** `set down and
+  placed, stopped and brought to land, stationed, brought down, restored, brought before, set in
+  order and set, ordained and appointed, settled and established, brought into a certain state,
+  presented, made and rendered so and so, made and continued`. The aorist passive infinitive,
+  articular, heads with `the being set down` and adds the intransitive senses Middle Liddell gives
+  every passive tense. 39:4, 39:5.
+- εὐαρεστέω (imperfect) — **headword** `was being well pleasing`, the chain of 5:22 in the
+  imperfect. 39:4.
+- ἐπιτρέπω — **headword** `turned towards`; **chain** `turned towards, turned over to and committed
+  and entrusted to, trusted to and relied upon, referred the matter to, gave up and yielded,
+  permitted and suffered, yielded and gave way, commanded`. 39:6.
+- θέλω (imperfect) — **headword** `was willing`; **chain** `was willing, was wishing, was purposing,
+  was being wont and accustomed, was meaning and purporting`. 39:8.
+- ὑπερέχω (present) — **headword** `holds over`, the chain of the future in the present. 39:9.
+- ὑπεξαιρέω (perfect middle) — **headword** `has taken out privily for himself`; **chain** `has
+  taken out privily for himself and it stands so, has stolen away, has put aside and excepted and
+  excluded`, the middle's senses. Read as middle, with οὐδέν the object (`A- ----ASN-`), as the
+  module has it; both passes had read it as passive. 39:9.
+- πῶς — `ENTRY` sends it to `pw=s2`: the bare key had resolved to `pw=s1`, Aristotle's *in a
+  certain way*. **headword** `how`; **chain** `how, in what way, in what manner`. The entry's
+  translations of πῶς with another particle — πῶς ἄν, πῶς γάρ, πῶς δή, καὶ πῶς and the rest — are
+  in `NOT_SENSES`. 39:9.
+- τοιοῦτος — **headword** `such as this`; **chain** `such as this, so great and so noble and so bad,
+  such a`, the last being Middle Liddell's gloss of τοιοῦτός τις, the phrase of this verse. 39:11.
+- ἔσω — `SPELLING` sends it to εἴσω: Middle Liddell's ἔσω is "older form of εἴσω", and its one
+  translation, *to the interior*, is of the comparative ἐσωτέρω. **headword** `to within`;
+  **chain** `to within, into, inside, within`. 39:11.
+- ἐπισπάομαι — lemma as MorphGNT files it (1 Cor 7:18), and as the module has it; `SPELLING`
+  sends it to ἐπισπάω. **headword** `drew`; **chain** `drew and dragged after her, attracted and
+  gained and won, drew on and allured and persuaded, induced, became uncircumcised`, the senses
+  the entry gives the middle. 39:12.
+- κοιμάω (passive) — **headword** `be lulled`, `I will be lulled`; see the corrections below.
+  39:7, 39:12, 39:14, 39:17.
+- καταλείπω — **headword** `left behind`, `having left behind`; **chain** `left behind, left as an
+  heritage, forsook and abandoned and left in the lurch, left remaining, left alone`. 39:12–18.
+- καταλιμπάνω — `SPELLING` sends it to καταλείπω: the entry reads "= καταλείπω" and glosses
+  nothing. **headword** `leaves behind`, καταλείπω's chain in the present. 39:16.
+- ἐμπαίζω — **headword** `to mock at`; **chain** `to mock at and mock, to sport in and on`. 39:14,
+  39:17.
+- βοάω (aorist, first person) — **headword** `I cried aloud`, the chain of the participle. 39:14,
+  39:15, 39:18.
+- ὑψόω (aorist active) — **headword** `I lifted high`; **chain** `I lifted high, I raised up, I
+  elevated and exalted`; the middle's *to raise for oneself* is left out. 39:15, 39:18.
+- θυμόομαι — **headword** `was wroth`, the chain of 6:7 in the third person. 39:19.
+- ὀργή (anarthrous dative) — **headword** `to natural impulse`. 39:19.
+- ὀχύρωμα — **headword** `the stronghold`; **chain** `the stronghold, the fortress`: one sense,
+  but two words in it. 39:20.
+- δεσμώτης — **headword** `the prisoners`; **chain** `the prisoners, the captives, in chains and
+  fettered`, the last the entry's gloss of the word as an adjective. 39:20.
+- κατέχω (present passive) — **headword** `are held fast`, the chain of the participle at its
+  first use in the indicative. 39:20.
+- καταχέω (aorist) — **headword** `poured down upon`; **chain** `poured down upon and poured over,
+  poured and showered down, threw and cast down, let fall upon, melted down`. 39:21.
+- ἀρχιδεσμοφύλαξ — LSJ, *chief gaoler*, one sense and citing this chapter: plain text. 39:21–23.
+- δεσμωτήριον — one sense, *a prison*: plain text. ἐν before it takes its own unit, `in`. 39:22,
+  39:23.
+- ἀπάγω (perfect passive participle) — **headword** `the ones having been led away`, the active
+  chain in the passive, with the passive's *brought to a point, tapering off*. 39:22.
+
+## Corrections found in Genesis 39
+
+**κοιμάω's passives read the passive of its first sense.** Fourteen units from 19:4 to 35:22 had
+headed the passive with *fell asleep*, a translation Middle Liddell gives the middle and passive
+alone, where the passive-headword rule wants the first sense in the passive. 30:15 alone had it,
+as *let him be lulled to sleep*. Each now heads with *lulled* — `was lulled`, `were lulled`, `I was
+lulled`, `be lulled`, `let us be lulled`, `let him be lulled`, `having been lulled`, `of the being
+lulled`, `in the being lulled` — and the chain runs *lulled, hushed to sleep and put to sleep,
+lulled to rest and stilled and calmed*, then the passive's own *fell asleep, went abed and lay
+abed, slept, fell asleep and died, kept watch at night*.
+
+**καταλείπω reads its own entry.** 2:24, 7:23 and 14:10 had *leave behind him*, the middle's
+gloss, and *inheritance* for the entry's *heritage*; 33:15 had *leave in the lurch, leave out and
+omit*, the chain of ἐγκαταλείπω. All four now carry the active's five senses, *left behind, left
+as an heritage, forsook and abandoned and left in the lurch, left remaining, left alone*, in their
+own tense and voice.
+
+**ἐθυμώθη is θυμόομαι.** 6:7 filed ἐθυμώθην under θυμόομαι, as MorphGNT files ἐθυμώθη at Matt 2:16;
+30:2 had filed the same verb under θυμόω, with the active's *was made angry* at its head. The
+corpus check found the two when 39:19 used the form again. 30:2 reads `was wroth` now, the chain
+of 6:7.
+
+**Two notes caught up.** 19:4's note still said the article before an infinitive is not printed,
+which the articular-infinitive rule retired; 24:54's said κοιμάω is *to fall asleep*, which is its
+passive.

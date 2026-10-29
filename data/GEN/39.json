@@ -1,0 +1,787 @@
+[
+  {
+    "ref": "GEN 39:1",
+    "greek": "Ιωσηφ δὲ κατήχθη εἰς Αἴγυπτον, καὶ ἐκτήσατο αὐτὸν Πετεφρης ὁ εὐνοῦχος Φαραω, ἀρχιμάγειρος, ἀνὴρ Αἰγύπτιος, ἐκ χειρὸς Ισμαηλιτῶν, οἳ κατήγαγον αὐτὸν ἐκεῖ.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 63",
+    "hint": "Joseph, brought down into Egypt, is bought from the Ishmaelites by Potiphar, Pharaoh's eunuch and chief cook.",
+    "notes": [
+      {
+        "lemma": "κατήχθη … κατήγαγον",
+        "flag": null,
+        "text": "κατάγω twice, passive of Joseph and active of the Ishmaelites who brought him: to lead down, the word of 37:25 and 37:28."
+      },
+      {
+        "lemma": "ἐκτήσατο",
+        "flag": null,
+        "text": "Aorist middle of κτάομαι, to procure for oneself, acquire: he bought him, the sale of 37:36 seen from the buyer's side."
+      },
+      {
+        "lemma": "ὁ εὐνοῦχος Φαραω",
+        "flag": null,
+        "text": "εὐνοῦχος, a eunuch, where 37:36 had σπάδων for the same man. The Hebrew in both verses is sĕrîs."
+      },
+      {
+        "lemma": "ἀρχιμάγειρος",
+        "flag": null,
+        "text": "Chief cook, LSJ's one gloss, which cites this verse; Middle Liddell lacks the word. The Hebrew śar haṭṭabbāḥîm is the chief of the slaughterers, or of the guard."
+      }
+    ],
+    "reading": "[[name:Ιωσηφ]] [[but|but, however, whereas, on the other hand|δέ]], [[was led down|was led down, was brought down to the sea-coast, was brought down from the high seas to land, was brought into port, came to land and landed, turned in and lodged in, was drawn down and drawn out and spun, was reduced, was escorted, was derived, was lowered, was brought back, was brought home and recalled, was restored, returned|κατάγω]] [[into|into, to, in, rest in|εἰς]] [[name:Αἴγυπτον]], and [[procured for himself|procured for himself, got, gained, acquired, brought upon himself and incurred, procured for another|κτάομαι]] him [[name:Πετεφρης]] the eunuch of [[name:Φαραω]], chief cook, [[man|a man, a man in the prime of life|ἀνήρ]] [[name:Αἰγύπτιος]], [[out of|out of, forth from, from|ἐκ]] [[of hand|of hand, of hand and arm, of arm|χείρ]] of [[name:Ισμαηλιτῶν]], who [[led down|led down, brought down to the sea-coast, brought down from the high seas to land, brought into port, drew down and drew out and spun, reduced, escorted, derived, lowered, brought back, brought home and recalled, restored|κατάγω]] him [[there|there, in that place|ἐκεῖ]].",
+    "names": [
+      {
+        "greek": "Ιωσηφ",
+        "unanchored": "Iōsēph",
+        "anchored": "Joseph",
+        "gloss": "(Ιωσηφ, from Hebrew Yôsēp̄, which the Hebrew of 30:24 hears in yōsēp̄, \"may he add\")"
+      },
+      {
+        "greek": "Αἴγυπτον",
+        "unanchored": "Aigypton",
+        "anchored": "Egypt",
+        "gloss": "(Αἴγυπτος, the Greek name of the land; Hebrew Miṣrayim)"
+      },
+      {
+        "greek": "Πετεφρης",
+        "unanchored": "Petephrēs",
+        "anchored": "Potiphar",
+        "gloss": "(Πετεφρης, from Hebrew Pôṭîp̄ar, from the Egyptian for \"the one whom Ra has given\")"
+      },
+      {
+        "greek": "Φαραω",
+        "unanchored": "Pharaō",
+        "anchored": "Pharaoh",
+        "gloss": "(Φαραω, from Hebrew Parʿōh, from the Egyptian for \"great house\")"
+      },
+      {
+        "greek": "Αἰγύπτιος",
+        "unanchored": "Aigyptios",
+        "anchored": "Egyptian",
+        "gloss": "(Αἰγύπτιος, the man of Αἴγυπτος, Egypt)"
+      },
+      {
+        "greek": "Ισμαηλιτῶν",
+        "unanchored": "Ismaēlitōn",
+        "anchored": "Ishmaelites",
+        "gloss": "(Ισμαηλίτης, from Hebrew Yišmĕʿēʾlî, the people of Ishmael, Yišmāʿēʾl, \"God hears\")"
+      }
+    ]
+  },
+  {
+    "ref": "GEN 39:2",
+    "greek": "καὶ ἦν κύριος μετὰ Ιωσηφ, καὶ ἦν ἀνὴρ ἐπιτυγχάνων καὶ ἐγένετο ἐν τῷ οἴκῳ παρὰ τῷ κυρίῳ τῷ Αἰγυπτίῳ.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 63",
+    "hint": "The Lord is with Joseph, who prospers and stays in the house of his Egyptian master.",
+    "notes": [
+      {
+        "lemma": "ἦν κύριος μετὰ Ιωσηφ",
+        "flag": null,
+        "text": "κύριος without the article for the divine name, as through the chapter; with the article, ὁ κύριος, for Joseph's master, except at 39:23."
+      },
+      {
+        "lemma": "ἀνὴρ ἐπιτυγχάνων",
+        "flag": null,
+        "text": "ἐπιτυγχάνω, properly to hit the mark, and so to succeed: the present participle describes the man he was, not a single success."
+      },
+      {
+        "lemma": "ἐγένετο ἐν τῷ οἴκῳ",
+        "flag": null,
+        "text": "γίνομαι with a place: he came to be in the house, as against out in the field."
+      }
+    ],
+    "reading": "and was, and kept on being as a standing and continuing condition and not a momentary one, [[lord|lord, master, the one having power and authority over|κύριος]] [[in the midst of|in the midst of, among, in common, along with, with, by means of|μετά + genitive]] of [[name:Ιωσηφ]], and was, and kept on being as a standing and continuing condition and not a momentary one, [[man|a man, a man in the prime of life|ἀνήρ]] [[hitting the mark|hitting the mark, lighting and falling upon and meeting with, attaining to and reaching and gaining, succeeding in, being successful in, succeeding and being successful, reading|ἐπιτυγχάνω]] and [[came into being|came to be, arose, was brought into existence|γίνομαι]] [[in the house|within, inside of, and by means of the house, the abode and dwelling, the room and chamber, the house of a god and temple, the household goods and substance, the household and family|ἐν; οἶκος]] [[beside|beside, alongside of, by, at, before, with|παρά + dative]] [[to the lord|to the lord, to the master, to the one having power and authority over|κύριος]] to the [[name:Αἰγυπτίῳ]].",
+    "names": [
+      {
+        "greek": "Ιωσηφ",
+        "unanchored": "Iōsēph",
+        "anchored": "Joseph",
+        "bare": true
+      },
+      {
+        "greek": "Αἰγυπτίῳ",
+        "unanchored": "Aigyptiō",
+        "anchored": "Egyptian",
+        "bare": true
+      }
+    ]
+  },
+  {
+    "ref": "GEN 39:3",
+    "greek": "ᾔδει δὲ ὁ κύριος αὐτοῦ ὅτι κύριος μετʼ αὐτοῦ καὶ ὅσα ἂν ποιῇ, κύριος εὐοδοῖ ἐν ταῖς χερσὶν αὐτοῦ.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 63",
+    "hint": "His master sees that the Lord is with him and gives success to all he does.",
+    "notes": [
+      {
+        "lemma": "ᾔδει",
+        "flag": null,
+        "text": "The pluperfect of οἶδα, whose perfect is a present, I know: so ᾔδει is the past, he knew."
+      },
+      {
+        "lemma": "κύριος μετʼ αὐτοῦ",
+        "flag": null,
+        "text": "No verb: the Lord with him. The clause stands as the content of what the master knew."
+      },
+      {
+        "lemma": "ὅσα ἂν ποιῇ",
+        "flag": null,
+        "text": "ἄν with the subjunctive after the relative: whatever he does."
+      },
+      {
+        "lemma": "εὐοδοῖ",
+        "flag": null,
+        "text": "εὐοδόω, to help on the way, as at 24:21 and 24:56; here in the present, inside what the master knew."
+      }
+    ],
+    "reading": "[[knew|knew, was assured, was versed in|οἶδα]] [[but|but, however, whereas, on the other hand|δέ]], [[the lord|the lord, the master, the one having power and authority over|κύριος]] of him [[that|that, seeing that, although, for that, because, inasmuch as|ὅτι]] [[lord|lord, master, the one having power and authority over|κύριος]] [[in the midst of|in the midst of, among, in common, along with, with, by means of|μετά + genitive]] of him and [[as great as|as great as, as much as, as far as, as long as, as many as|ὅσος]] ever [[may make|may make, may do, may produce, may create|ποιέω]], [[lord|lord, master, the one having power and authority over|κύριος]] [[helps on the way|helps on the way, has a prosperous journey, prospers and is successful|εὐοδόω]] [[in the hands|within, inside of, and by means of the hands, the hands and arms, the arms|ἐν; χείρ]] of him.",
+    "names": []
+  },
+  {
+    "ref": "GEN 39:4",
+    "greek": "καὶ εὗρεν Ιωσηφ χάριν ἐναντίον τοῦ κυρίου αὐτοῦ, εὐηρέστει δὲ αὐτῷ, καὶ κατέστησεν αὐτὸν ἐπὶ τοῦ οἴκου αὐτοῦ καὶ πάντα, ὅσα ἦν αὐτῷ, ἔδωκεν διὰ χειρὸς Ιωσηφ.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 63",
+    "hint": "Joseph pleases his master, who sets him over his house and puts all he has into his hands.",
+    "notes": [
+      {
+        "lemma": "εὐηρέστει δὲ αὐτῷ",
+        "flag": null,
+        "text": "Imperfect of εὐαρεστέω, to be well pleasing, the verb of Enoch at 5:22: he went on pleasing his master."
+      },
+      {
+        "lemma": "κατέστησεν … ἐπὶ τοῦ οἴκου",
+        "flag": null,
+        "text": "καθίστημι in its causal tenses, to set down, place, and so to appoint: set over the house, with ἐπί and the genitive."
+      },
+      {
+        "lemma": "διὰ χειρός",
+        "flag": null,
+        "text": "Through the hand of Joseph: the Hebrew idiom bĕyād, into his charge."
+      }
+    ],
+    "reading": "and [[found|found, found out, discovered|εὑρίσκω]] [[name:Ιωσηφ]] [[outward grace|outward grace, favour, loveliness, graciousness and kindness and goodwill, thankfulness and thanks and gratitude, a favour and kindness and boon, a gratification and delight|χάρις]] [[in the presence of|in the presence of, before, opposite and face to face, against|ἐναντίον]] [[of the lord|of the lord, of the master, of the one having power and authority over|κύριος]] of him, [[was being well pleasing|was being well pleasing, was seeming good, was being resolved, was being well pleased and satisfied|εὐαρεστέω]] [[but|but, however, whereas, on the other hand|δέ]], to him, and [[set down|set down and placed, stopped and brought to land, stationed, brought down, restored, brought before, set in order and set, ordained and appointed, settled and established, brought into a certain state, presented, made and rendered so and so, made and continued|καθίστημι]] him [[upon|upon, on, in, at, near|ἐπί + genitive]] [[of the house|of the house, of the abode and dwelling, of the room and chamber, of the house of a god and temple, of the household goods and substance, of the household and family|οἶκος]] of him and [[all|all, the whole, every, every single|πᾶς]], [[as great as|as great as, as much as, as far as, as long as, as many as|ὅσος]] was to him, [[gave|gave, granted, provided, gave over and delivered up|δίδωμι]] [[through|through, right through, by means of, by the agency of|διά + genitive]] [[of hand|of hand, of hand and arm, of arm|χείρ]] of [[name:Ιωσηφ]].",
+    "names": [
+      {
+        "greek": "Ιωσηφ",
+        "unanchored": "Iōsēph",
+        "anchored": "Joseph",
+        "bare": true
+      }
+    ]
+  },
+  {
+    "ref": "GEN 39:5",
+    "greek": "ἐγένετο δὲ μετὰ τὸ κατασταθῆναι αὐτὸν ἐπὶ τοῦ οἴκου αὐτοῦ καὶ ἐπὶ πάντα, ὅσα ἦν αὐτῷ, καὶ ηὐλόγησεν κύριος τὸν οἶκον τοῦ Αἰγυπτίου διὰ Ιωσηφ, καὶ ἐγενήθη εὐλογία κυρίου ἐν πᾶσιν τοῖς ὑπάρχουσιν αὐτῷ ἐν τῷ οἴκῳ καὶ ἐν τῷ ἀγρῷ.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 63",
+    "hint": "From then on the Lord blesses the Egyptian's house, in house and field, for Joseph's sake.",
+    "notes": [
+      {
+        "lemma": "ἐγένετο δὲ … καὶ ηὐλόγησεν",
+        "flag": null,
+        "text": "ἐγένετο with καί and a finite verb, the Hebrew wayhî: it came to be, and he blessed."
+      },
+      {
+        "lemma": "μετὰ τὸ κατασταθῆναι αὐτόν",
+        "flag": null,
+        "text": "The aorist passive infinitive of καθίστημι with its article, after μετά and the accusative: after his being set over the house."
+      },
+      {
+        "lemma": "ἐπὶ τοῦ οἴκου … καὶ ἐπὶ πάντα",
+        "flag": null,
+        "text": "ἐπί with the genitive for the house and with the accusative for all he had, in one phrase."
+      },
+      {
+        "lemma": "διὰ Ιωσηφ",
+        "flag": null,
+        "text": "The indeclinable name taken as accusative after διά: for Joseph's sake. 39:4 has διὰ χειρὸς Ιωσηφ, with the genitive."
+      },
+      {
+        "lemma": "ἐγενήθη",
+        "flag": null,
+        "text": "The aorist passive form of γίνομαι, used as ἐγένετο is: it came to be."
+      },
+      {
+        "lemma": "ἐν πᾶσιν τοῖς ὑπάρχουσιν αὐτῷ",
+        "flag": null,
+        "text": "τὰ ὑπάρχοντα, what belongs to one, a man's possessions, with the dative of the owner."
+      }
+    ],
+    "reading": "[[came into being|there came to be, there arose, there was brought into existence|γίνομαι]] [[but|but, however, whereas, on the other hand|δέ]], [[into the middle of|into the middle of, coming among, in pursuit and quest of, after|μετά + accusative]] [[the being set down|the being set down and placed, the being stopped and brought to land, the being stationed, the being brought down, the being restored, the being returned, the being brought before, the being set in order and set, the being ordained and appointed, the being settled and established, the being brought into a certain state, the being presented, the being made and rendered so and so, the being made and continued, the being set and setting oneself down and settling and arriving, the coming before and standing in presence, the being appointed, the standing quiet and being calm, the coming into a certain state and becoming, the being established and instituted and prevailing and existing|καθίστημι]] him [[upon|upon, on, in, at, near|ἐπί + genitive]] [[of the house|of the house, of the abode and dwelling, of the room and chamber, of the house of a god and temple, of the household goods and substance, of the household and family|οἶκος]] of him and [[upon|upon, on, in, at, near|ἐπί + accusative]] [[all|all, the whole, every, every single|πᾶς]], [[as great as|as great as, as much as, as far as, as long as, as many as|ὅσος]] was to him, and [[spoke well of|spoke well of, praised, honoured, blessed|εὐλογέω]] [[lord|lord, master, the one having power and authority over|κύριος]] [[the house|the house, the abode and dwelling, the room and chamber, the house of a god and temple, the household goods and substance, the household and family|οἶκος]] of the [[name:Αἰγυπτίου]] [[through|through, throughout and over, during, by aid of and by means of, by reason of, because of, for the sake of|διά + accusative]] [[name:Ιωσηφ]], and [[came into being|came to be, arose, was brought into existence|γίνομαι]] [[good language|good language, fine language, a fair speech and specious talk, eulogy and panegyric, blessing|εὐλογία]] [[of lord|of lord, of master, of the one having power and authority over|κύριος]] [[in all|within, inside of, and by means of all, the whole, every, every single|ἐν; πᾶς]] [[to the existing circumstances|to the existing circumstances, to the present advantages, to what belongs to one, to the possessions and means|ὑπάρχω]] to him [[in the house|within, inside of, and by means of the house, the abode and dwelling, the room and chamber, the house of a god and temple, the household goods and substance, the household and family|ἐν; οἶκος]] and [[in the field|within, inside of, and by means of the field, the lands, the farm, the country|ἐν; ἀγρός]].",
+    "names": [
+      {
+        "greek": "Αἰγυπτίου",
+        "unanchored": "Aigyptiou",
+        "anchored": "Egyptian",
+        "bare": true
+      },
+      {
+        "greek": "Ιωσηφ",
+        "unanchored": "Iōsēph",
+        "anchored": "Joseph",
+        "bare": true
+      }
+    ]
+  },
+  {
+    "ref": "GEN 39:6",
+    "greek": "καὶ ἐπέτρεψεν πάντα, ὅσα ἦν αὐτῷ, εἰς χεῖρας Ιωσηφ καὶ οὐκ ᾔδει τῶν καθʼ ἑαυτὸν οὐδὲν πλὴν τοῦ ἄρτου, οὗ ἤσθιεν αὐτός. Καὶ ἦν Ιωσηφ καλὸς τῷ εἴδει καὶ ὡραῖος τῇ ὄψει σφόδρα.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 63",
+    "hint": "Joseph is entrusted with everything but the master's food; he is handsome in form and appearance.",
+    "notes": [
+      {
+        "lemma": "ἐπέτρεψεν",
+        "flag": null,
+        "text": "ἐπιτρέπω, properly to turn towards, and so to turn over to, entrust: with εἰς χεῖρας, into the hands of Joseph."
+      },
+      {
+        "lemma": "οὐκ ᾔδει τῶν καθʼ ἑαυτὸν οὐδέν",
+        "flag": "divergence",
+        "text": "τὰ καθʼ ἑαυτόν, the things concerning himself: the master knew nothing of his own affairs. The Hebrew has wĕlōʾ yādaʿ ʾittô mĕʾûmâ, he knew nothing with him, that is, with Joseph there."
+      },
+      {
+        "lemma": "πλὴν τοῦ ἄρτου",
+        "flag": null,
+        "text": "πλήν with the genitive, except: the bread he ate, the one thing he kept in hand."
+      },
+      {
+        "lemma": "Καὶ ἦν Ιωσηφ",
+        "flag": null,
+        "text": "Rahlfs begins a paragraph inside the verse, with a capital."
+      },
+      {
+        "lemma": "καλὸς τῷ εἴδει καὶ ὡραῖος τῇ ὄψει",
+        "flag": null,
+        "text": "The words used of Rachel at 29:17, here of her son: the datives say in what respect, form and look."
+      }
+    ],
+    "reading": "and [[turned towards|turned towards, turned over to and committed and entrusted to, trusted to and relied upon, referred the matter to, gave up and yielded, permitted and suffered, yielded and gave way, commanded|ἐπιτρέπω]] [[all|all, the whole, every, every single|πᾶς]], [[as great as|as great as, as much as, as far as, as long as, as many as|ὅσος]] was to him, [[into|into, to, in, rest in|εἰς]] [[hands|hands, hands and arms, arms|χείρ]] of [[name:Ιωσηφ]] and not [[knew|knew, was assured, was versed in|οἶδα]] of the things [[down|down, downwards, down from, down upon, over, upon|κατά + accusative]] himself [[and not one|and not one, no one, none, naught and good for naught|οὐδείς]] [[more than|more than, except, save, short of, save in respect, but, than, much like, only not, except that, save that, save so far as|πλήν]] [[of the cake|of the cake, of the loaf of wheat-bread, of the bread|ἄρτος]], of which [[was eating|was eating, was eating of|ἐσθίω]] he. And was, and kept on being as a standing and continuing condition and not a momentary one, [[name:Ιωσηφ]] [[beautiful|beautiful, beauteous, fair, good|καλός]] [[to the that which is seen|to the that which is seen, to the form, to the shape, to the figure, to the sort and particular kind and nature, to the particular state and course, to the class and kind and sort|εἶδος]] and [[produced at the right season|produced at the right season, seasonable, timely, happening in season and done in due season, due and proper, ripe, in the bloom of youth and blooming, beautiful|ὡραῖος]] [[to the look|to the look, to the appearance, to the aspect, to the sight, to the vision and apparition, to the eyesight and vision, to the view and sight|ὄψις]] [[very|very, very much, exceedingly, violently, far, most certainly|σφόδρα]].",
+    "names": [
+      {
+        "greek": "Ιωσηφ",
+        "unanchored": "Iōsēph",
+        "anchored": "Joseph",
+        "bare": true
+      }
+    ]
+  },
+  {
+    "ref": "GEN 39:7",
+    "greek": "καὶ ἐγένετο μετὰ τὰ ῥήματα ταῦτα καὶ ἐπέβαλεν ἡ γυνὴ τοῦ κυρίου αὐτοῦ τοὺς ὀφθαλμοὺς αὐτῆς ἐπὶ Ιωσηφ καὶ εἶπεν Κοιμήθητι μετʼ ἐμοῦ.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 63",
+    "hint": "The master's wife casts her eyes on Joseph and tells him to lie with her.",
+    "notes": [
+      {
+        "lemma": "μετὰ τὰ ῥήματα ταῦτα",
+        "flag": null,
+        "text": "After these things, the formula of 15:1 and 22:1: ῥῆμα is the thing said and the thing done."
+      },
+      {
+        "lemma": "ἐπέβαλεν … τοὺς ὀφθαλμούς",
+        "flag": null,
+        "text": "ἐπιβάλλω, to throw or cast upon: she cast her eyes upon Joseph."
+      },
+      {
+        "lemma": "Κοιμήθητι μετʼ ἐμοῦ",
+        "flag": null,
+        "text": "Aorist passive imperative of κοιμάω, to lull to sleep; the passive is to fall asleep, to lie abed, and with μετά, to lie with."
+      }
+    ],
+    "reading": "and [[came into being|there came to be, there arose, there was brought into existence|γίνομαι]] [[into the middle of|into the middle of, coming among, in pursuit and quest of, after|μετά + accusative]] [[the things which are said|the things which are said and spoken, the words, the sayings, the phrases, the subjects of speech and things, the verbs|ῥῆμα]] [[these|these, the nearer, what follows|οὗτος]] and [[threw|threw, cast upon, laid on, affixed, added|ἐπιβάλλω]] [[the woman|the woman, the mistress and lady, the wife and spouse|γυνή]] [[of the lord|of the lord, of the master, of the one having power and authority over|κύριος]] of him [[the eyes|the eyes, the dearest and best, the comfort, the buds|ὀφθαλμός]] of her [[upon|upon, on, in, at, near|ἐπί + accusative]] [[name:Ιωσηφ]] and [[said|said, spoke, declared, called by name, told|λέγω]] [[be lulled|be lulled, be hushed to sleep and put to sleep, be lulled to rest and stilled and calmed, fall asleep, go abed and lie abed, sleep, fall asleep and die, keep watch at night|κοιμάω]] [[in the midst of|in the midst of, among, in common, along with, with, by means of|μετά + genitive]] of me.",
+    "names": [
+      {
+        "greek": "Ιωσηφ",
+        "unanchored": "Iōsēph",
+        "anchored": "Joseph",
+        "bare": true
+      }
+    ],
+    "speech": [
+      "Κοιμήθητι"
+    ]
+  },
+  {
+    "ref": "GEN 39:8",
+    "greek": "ὁ δὲ οὐκ ἤθελεν, εἶπεν δὲ τῇ γυναικὶ τοῦ κυρίου αὐτοῦ Εἰ ὁ κύριός μου οὐ γινώσκει διʼ ἐμὲ οὐδὲν ἐν τῷ οἴκῳ αὐτοῦ καὶ πάντα, ὅσα ἐστὶν αὐτῷ, ἔδωκεν εἰς τὰς χεῖράς μου",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 63",
+    "hint": "Joseph refuses, pointing to the trust his master has placed in him.",
+    "notes": [
+      {
+        "lemma": "ὁ δὲ οὐκ ἤθελεν",
+        "flag": null,
+        "text": "The article as the subject, he; the imperfect of θέλω, he was not willing."
+      },
+      {
+        "lemma": "Εἰ ὁ κύριός μου οὐ γινώσκει",
+        "flag": "divergence",
+        "text": "εἰ, if, opening Joseph's words, so that they begin as a condition. The Hebrew has hēn, behold, and a statement."
+      },
+      {
+        "lemma": "διʼ ἐμέ",
+        "flag": null,
+        "text": "διά with the accusative, on my account, because of me."
+      },
+      {
+        "lemma": "χεῖράς μου",
+        "flag": null,
+        "text": "The printed page has no stop after μου; the sentence runs on into 39:9."
+      }
+    ],
+    "reading": "the one [[but|but, however, whereas, on the other hand|δέ]], not [[was willing|was willing, was wishing, was purposing, was being wont and accustomed, was meaning and purporting|θέλω]], [[said|said, spoke, declared, called by name, told|λέγω]] [[but|but, however, whereas, on the other hand|δέ]], [[to the woman|to the woman, to the mistress and lady, to the wife and spouse, to the mortal woman|γυνή]] [[of the lord|of the lord, of the master, of the one having power and authority over|κύριος]] of him [[if|if, whether, come on|εἰ]] [[the lord|the lord, the master, the one having power and authority over|κύριος]] of me not [[learns to know|learns to know, perceives, marks, learns, discerns and distinguishes|γινώσκω]] [[through|through, throughout and over, during, by aid of and by means of, by reason of, because of, for the sake of|διά + accusative]] me [[and not one|and not one, no one, none, naught and good for naught|οὐδείς]] [[in the house|within, inside of, and by means of the house, the abode and dwelling, the room and chamber, the house of a god and temple, the household goods and substance, the household and family|ἐν; οἶκος]] of him and [[all|all, the whole, every, every single|πᾶς]], [[as great as|as great as, as much as, as far as, as long as, as many as|ὅσος]] is to him, [[gave|gave, granted, provided, gave over and delivered up|δίδωμι]] [[into|into, to, in, rest in|εἰς]] [[the hands|the hands, the hands and arms, the arms|χείρ]] of me",
+    "names": [],
+    "speech": [
+      "Εἰ"
+    ]
+  },
+  {
+    "ref": "GEN 39:9",
+    "greek": "καὶ οὐχ ὑπερέχει ἐν τῇ οἰκίᾳ ταύτῃ οὐθὲν ἐμοῦ οὐδὲ ὑπεξῄρηται ἀπʼ ἐμοῦ οὐδὲν πλὴν σοῦ διὰ τὸ σὲ γυναῖκα αὐτοῦ εἶναι, καὶ πῶς ποιήσω τὸ ῥῆμα τὸ πονηρὸν τοῦτο καὶ ἁμαρτήσομαι ἐναντίον τοῦ θεοῦ;",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 63",
+    "hint": "Joseph says nothing is kept from him but her, his master's wife, and asks how he could sin against God.",
+    "notes": [
+      {
+        "lemma": "οὐχ ὑπερέχει … οὐθὲν ἐμοῦ",
+        "flag": null,
+        "text": "ὑπερέχω, to hold over, rise above, with the genitive of what is surpassed: nothing in this house is above me."
+      },
+      {
+        "lemma": "οὐθέν … οὐδέν",
+        "flag": null,
+        "text": "The text prints both spellings of the negative pronoun in one verse; οὐθέν is the later form."
+      },
+      {
+        "lemma": "ὑπεξῄρηται … οὐδέν",
+        "flag": null,
+        "text": "Perfect of ὑπεξαιρέω, whose middle is to take out privily for oneself, and to put aside, except. Read as middle, the master of 39:8 is the subject and οὐδέν the object: he has kept back nothing from me but you. Read as passive, οὐδέν is the subject: nothing has been taken from me. The reading follows the middle, the voice Middle Liddell gives the sense except."
+      },
+      {
+        "lemma": "διὰ τὸ σὲ γυναῖκα αὐτοῦ εἶναι",
+        "flag": null,
+        "text": "διά with the articular infinitive, because of your being his wife; σέ is the infinitive's subject."
+      },
+      {
+        "lemma": "τὸ ῥῆμα τὸ πονηρὸν τοῦτο",
+        "flag": null,
+        "text": "ῥῆμα, the thing said, and in this Greek the thing done: this evil thing."
+      },
+      {
+        "lemma": "πῶς",
+        "flag": null,
+        "text": "πῶς, how, in what way, in a direct question. Middle Liddell gives καὶ πῶς as introducing an objection."
+      },
+      {
+        "lemma": "ἐναντίον τοῦ θεοῦ",
+        "flag": null,
+        "text": "θεός with the article; κύριος is the divine name in the narrative, and θεός in Joseph's mouth."
+      }
+    ],
+    "reading": "and not [[holds over|holds over, has and holds above, is above and rises above the horizon, is above water, rises above and overlooks, outflanks, overtops and exceeds and outdoes, prevails, gets over and crosses|ὑπερέχω]] [[in the building|within, inside of, and by means of the building, the house, the dwelling, the household and domestic establishment, the household and inmates of the house, the house and family|ἐν; οἰκία]] [[to this|to this, to the nearer, to what follows|οὗτος]] [[and not one|and not one, no one and none, naught and good for naught|οὐθείς]] of me [[but not|but not, and not, nor, not even, not at all|οὐδέ]] [[has taken out privily for himself|has taken out privily for himself and it stands so, has stolen away, has put aside and excepted and excluded|ὑπεξαιρέω]] [[from|from, away from, far from, apart from|ἀπό]] of me [[and not one|and not one, no one, none, naught and good for naught|οὐδείς]] [[more than|more than, except, save, short of, save in respect, but, than, much like, only not, except that, save that, save so far as|πλήν]] of you [[through|through, throughout and over, during, by aid of and by means of, by reason of, because of, for the sake of|διά + accusative]] you [[woman|woman, mistress and lady, wife and spouse, mortal woman|γυνή]] of him [[the being|the being, the existing|εἰμί]], and [[how|how, in what way, in what manner|πῶς]] [[I will make|I will make, I will do, I will produce, I will create|ποιέω]] [[that which is said|that which is said and spoken, the word, the saying, the phrase, the subject of speech and the thing, the verb|ῥῆμα]] [[the toilsome|the toilsome, the painful, the grievous, the good-for-nothing, the bad and worthless, the wicked|πονηρός]] [[this|this, the nearer, what follows|οὗτος]] and [[I will miss the mark|I will miss the mark, I will fail of my purpose, I will go wrong, I will err, I will sin|ἁμαρτάνω]] [[in the presence of|in the presence of, before, opposite and face to face, against|ἐναντίον]] [[of the God|of him who is God definitively, of the one the article marks out, of the known and the only|θεός]]?",
+    "names": []
+  },
+  {
+    "ref": "GEN 39:10",
+    "greek": "ἡνίκα δὲ ἐλάλει τῷ Ιωσηφ ἡμέραν ἐξ ἡμέρας, καὶ οὐχ ὑπήκουσεν αὐτῇ καθεύδειν μετʼ αὐτῆς τοῦ συγγενέσθαι αὐτῇ. —",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 63",
+    "hint": "She speaks to him day after day, and Joseph refuses to sleep with her.",
+    "notes": [
+      {
+        "lemma": "ἡνίκα … ἐλάλει",
+        "flag": null,
+        "text": "ἡνίκα with the imperfect: whenever she spoke to him, a thing repeated."
+      },
+      {
+        "lemma": "ἡμέραν ἐξ ἡμέρας",
+        "flag": null,
+        "text": "Day from day, day after day."
+      },
+      {
+        "lemma": "ἡνίκα δὲ … καὶ οὐχ ὑπήκουσεν",
+        "flag": null,
+        "text": "καί opens the main clause after the temporal one, as the Hebrew wĕ does: whenever she spoke, and he did not listen."
+      },
+      {
+        "lemma": "τοῦ συγγενέσθαι αὐτῇ",
+        "flag": null,
+        "text": "The genitive articular infinitive of συγγίνομαι, to be with, keep company with: it says what sleeping with her would be."
+      },
+      {
+        "lemma": "αὐτῇ. —",
+        "flag": null,
+        "text": "The printed page closes the verse with a dash, which the reading does not carry."
+      }
+    ],
+    "reading": "[[at which time|at which time, when, since, whenever|ἡνίκα]] [[but|but, however, whereas, on the other hand|δέ]], [[was talking|was talking, was chatting, was prattling, was babbling, was saying, was talking of, was speaking, was chattering, was chirping|λαλέω]] to the [[name:Ιωσηφ]] [[day|day, day-break, time|ἡμέρα]] [[out of|out of, forth from, from|ἐκ]] [[of day|of day, of day-break, of time|ἡμέρα]], and not [[listened|listened and hearkened and gave ear, made answer when called, hearkened to and gave ear to and attended to, answered, answered to a charge, submitted to, yielded to and complied with, gave way and submitted and complied, answered one's expectations and succeeded, was subject|ὑπακούω]] to her [[to lie down to sleep|to lie down to sleep, to sleep, to lie asleep and lie idle, to sleep and lie still and be at rest|καθεύδω]] [[in the midst of|in the midst of, among, in common, along with, with, by means of|μετά + genitive]] of her [[of the being with|of the being with, of the holding converse and communication with, of the associating and keeping company with, of the consulting, of the coming to assist, of the coming together and meeting|συγγίνομαι]] to her.",
+    "names": [
+      {
+        "greek": "Ιωσηφ",
+        "unanchored": "Iōsēph",
+        "anchored": "Joseph",
+        "bare": true
+      }
+    ]
+  },
+  {
+    "ref": "GEN 39:11",
+    "greek": "ἐγένετο δὲ τοιαύτη τις ἡμέρα, εἰσῆλθεν Ιωσηφ εἰς τὴν οἰκίαν ποιεῖν τὰ ἔργα αὐτοῦ, καὶ οὐθεὶς ἦν τῶν ἐν τῇ οἰκίᾳ ἔσω,",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 63",
+    "hint": "One day Joseph goes into the house to do his work while none of the household is inside.",
+    "notes": [
+      {
+        "lemma": "τοιαύτη τις ἡμέρα",
+        "flag": null,
+        "text": "τοιοῦτος with τις, such a one, a certain such day: Middle Liddell gives the pair as making the word less definite."
+      },
+      {
+        "lemma": "ἐγένετο … εἰσῆλθεν",
+        "flag": null,
+        "text": "ἐγένετο with ἡμέρα as its subject and no καί before the next verb: a day came, he went in."
+      },
+      {
+        "lemma": "οὐθεὶς ἦν τῶν ἐν τῇ οἰκίᾳ ἔσω",
+        "flag": null,
+        "text": "No one of those of the house was inside. ἔσω, Middle Liddell's older form of εἴσω, to within, inside."
+      }
+    ],
+    "reading": "[[came into being|came to be, arose, was brought into existence|γίνομαι]] [[but|but, however, whereas, on the other hand|δέ]], [[such as this|such as this, so great and so noble and so bad, such a|τοιοῦτος]] [[some|some, any, a certain one|τις]] [[day|day, day-break, time|ἡμέρα]], [[went in|went in, went into and entered, came into, came in, came upon|εἰσέρχομαι]] [[name:Ιωσηφ]] [[into|into, to, in, rest in|εἰς]] [[the building|the building, the house, the dwelling, the household and domestic establishment, the household and inmates of the house, the house and family from which one is descended|οἰκία]] [[to make|to make, to do, to produce, to create|ποιέω]] [[the works|the works, the business, the deeds|ἔργον]] of him, and [[and not one|and not one, no one and none, naught and good for naught|οὐθείς]] was, and kept on being as a standing and continuing condition and not a momentary one, of the ones [[in the building|within, inside of, and by means of the building, the house, the dwelling, the household and domestic establishment, the household and inmates of the house, the house and family|ἐν; οἰκία]] [[to within|to within, into, inside, within|ἔσω]],",
+    "names": [
+      {
+        "greek": "Ιωσηφ",
+        "unanchored": "Iōsēph",
+        "anchored": "Joseph",
+        "bare": true
+      }
+    ]
+  },
+  {
+    "ref": "GEN 39:12",
+    "greek": "καὶ ἐπεσπάσατο αὐτὸν τῶν ἱματίων λέγουσα Κοιμήθητι μετʼ ἐμοῦ. καὶ καταλιπὼν τὰ ἱμάτια αὐτοῦ ἐν ταῖς χερσὶν αὐτῆς ἔφυγεν καὶ ἐξῆλθεν ἔξω.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, pp. 63–64",
+    "hint": "She seizes him by his clothes; he leaves them in her hands and runs outside.",
+    "notes": [
+      {
+        "lemma": "ἐπεσπάσατο αὐτὸν τῶν ἱματίων",
+        "flag": null,
+        "text": "ἐπισπάομαι, filed as MorphGNT files its one New Testament use (1 Cor 7:18); Middle Liddell gives it under ἐπισπάω, to draw or drag after one, and in the middle the same. The genitive is what she took hold of: she pulled him by his garments."
+      },
+      {
+        "lemma": "τὰ ἱμάτια",
+        "flag": "divergence",
+        "text": "Plural, his outer garments, through the chapter. The Hebrew has the singular, bigdô, his garment."
+      },
+      {
+        "lemma": "καταλιπών",
+        "flag": null,
+        "text": "Aorist participle of καταλείπω, to leave behind: having left them, he fled."
+      }
+    ],
+    "reading": "and [[drew|drew and dragged after her, attracted and gained and won, drew on and allured and persuaded, induced, became uncircumcised|ἐπισπάομαι]] him [[of the outer garments|of the outer garments, of the cloaks, of the mantles, of the clothes|ἱμάτιον]] [[saying|saying, speaking, declaring, calling by name, telling|λέγω]] [[be lulled|be lulled, be hushed to sleep and put to sleep, be lulled to rest and stilled and calmed, fall asleep, go abed and lie abed, sleep, fall asleep and die, keep watch at night|κοιμάω]] [[in the midst of|in the midst of, among, in common, along with, with, by means of|μετά + genitive]] of me. and [[having left behind|having left behind, having left as an heritage, having forsaken and abandoned and left in the lurch, having left remaining, having left alone|καταλείπω]] [[the outer garments|the outer garments, the cloaks, the mantles, the clothes|ἱμάτιον]] of him [[in the hands|within, inside of, and by means of the hands, the hands and arms, the arms|ἐν; χείρ]] of her [[fled|fled, took flight and ran away, had recourse and took refuge, was shy of doing and shrank from doing, shrank back, fled from and shunned and avoided, fled the consequences of, fled one's country, was banished, went into exile and was an exile, was accused and prosecuted, was put on one's trial for, was charged with|φεύγω]] and [[went out of|went out of, came out, went away and marched off, went forth|ἐξέρχομαι]] [[out|out, out of, outside, without, foreign, clear of, beyond and over, but and except|ἔξω]].",
+    "names": [],
+    "speech": [
+      "Κοιμήθητι"
+    ]
+  },
+  {
+    "ref": "GEN 39:13",
+    "greek": "καὶ ἐγένετο ὡς εἶδεν ὅτι κατέλιπεν τὰ ἱμάτια αὐτοῦ ἐν ταῖς χερσὶν αὐτῆς καὶ ἔφυγεν καὶ ἐξῆλθεν ἔξω,",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 64",
+    "hint": "She sees that he has left his garments with her and fled.",
+    "notes": [
+      {
+        "lemma": "καὶ ἐγένετο ὡς εἶδεν",
+        "flag": null,
+        "text": "ἐγένετο with ὡς: it came to be, when she saw. The main verb follows in 39:14 after καί."
+      }
+    ],
+    "reading": "and [[came into being|there came to be, there arose, there was brought into existence|γίνομαι]] [[as|as, according as, considering, like|ὡς]] [[saw|saw, perceived, beheld, looked at|ὁράω]] [[that|that, seeing that, although, for that, because, inasmuch as|ὅτι]] [[left behind|left behind, left as an heritage, forsook and abandoned and left in the lurch, left remaining, left alone|καταλείπω]] [[the outer garments|the outer garments, the cloaks, the mantles, the clothes|ἱμάτιον]] of him [[in the hands|within, inside of, and by means of the hands, the hands and arms, the arms|ἐν; χείρ]] of her and [[fled|fled, took flight and ran away, had recourse and took refuge, was shy of doing and shrank from doing, shrank back, fled from and shunned and avoided, fled the consequences of, fled one's country, was banished, went into exile and was an exile, was accused and prosecuted, was put on one's trial for, was charged with|φεύγω]] and [[went out of|went out of, came out, went away and marched off, went forth|ἐξέρχομαι]] [[out|out, out of, outside, without, foreign, clear of, beyond and over, but and except|ἔξω]],",
+    "names": []
+  },
+  {
+    "ref": "GEN 39:14",
+    "greek": "καὶ ἐκάλεσεν τοὺς ὄντας ἐν τῇ οἰκίᾳ καὶ εἶπεν αὐτοῖς λέγουσα Ἴδετε, εἰσήγαγεν ἡμῖν παῖδα Εβραῖον ἐμπαίζειν ἡμῖν· εἰσῆλθεν πρός με λέγων Κοιμήθητι μετʼ ἐμοῦ, καὶ ἐβόησα φωνῇ μεγάλῃ·",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 64",
+    "hint": "She calls the household and accuses the Hebrew servant of coming in to mock them.",
+    "notes": [
+      {
+        "lemma": "εἶπεν αὐτοῖς λέγουσα",
+        "flag": null,
+        "text": "εἶπεν with the participle λέγουσα, said, saying: the Hebrew wattōʾmer lāhem lēʾmōr."
+      },
+      {
+        "lemma": "εἰσήγαγεν",
+        "flag": null,
+        "text": "No subject named: he brought in, her husband, whom 39:17 addresses."
+      },
+      {
+        "lemma": "ἐμπαίζειν ἡμῖν",
+        "flag": null,
+        "text": "ἐμπαίζω, to mock at, mock, with the dative: to make sport of us."
+      },
+      {
+        "lemma": "λέγων Κοιμήθητι",
+        "flag": null,
+        "text": "Κοιμήθητι μετʼ ἐμοῦ, her own words at 39:7 and 39:12, given here as his."
+      },
+      {
+        "lemma": "φωνῇ μεγάλῃ",
+        "flag": null,
+        "text": "The dative of manner, with a great voice."
+      }
+    ],
+    "reading": "and [[called|called, summoned, called to herself, invited|καλέω]] the ones being [[in the building|within, inside of, and by means of the building, the house, the dwelling, the household and domestic establishment, the household and inmates of the house, the house and family|ἐν; οἰκία]] and [[said|said, spoke, declared, called by name, told|λέγω]] to them [[saying|saying, speaking, declaring, calling by name, telling|λέγω]] [[see|see, perceive, behold, look at|ὁράω]], [[led in|led in, led into and introduced, admitted, imported, called in, brought in and brought forward|εἰσάγω]] to us [[child|child, son, daughter, grandchild, boy and youth and lad, girl and maiden, slave and servant and man and maid|παῖς]] [[name:Εβραῖον]] [[to mock at|to mock at and mock, to sport in and on|ἐμπαίζω]] to us; [[went in|went in, went into and entered, came into, came in, came upon|εἰσέρχομαι]] [[toward|toward, facing, oriented to, in living motion and address toward|πρός + accusative]] me [[saying|saying, speaking, declaring, calling by name, telling|λέγω]] [[be lulled|be lulled, be hushed to sleep and put to sleep, be lulled to rest and stilled and calmed, fall asleep, go abed and lie abed, sleep, fall asleep and die, keep watch at night|κοιμάω]] [[in the midst of|in the midst of, among, in common, along with, with, by means of|μετά + genitive]] of me, and [[I cried aloud|I cried aloud, I shouted, I sounded and resounded and roared and howled, I called to one and called on, I called for and shouted out for, I noised abroad, I commanded in a loud voice|βοάω]] [[to sound|to sound, to tone, to sound of the voice, to cry, to faculty of speech and discourse, to language, to saying|φωνή]] [[to big|to big, to great, to tall, to full-grown, to vast and high, to spacious and wide, to strong and mighty, to violent, to loud, to prevailing, to weighty and important|μέγας]];",
+    "names": [
+      {
+        "greek": "Εβραῖον",
+        "unanchored": "Ebraion",
+        "anchored": "Hebrew",
+        "gloss": "(Εβραῖος, from Hebrew ʿIbrî, usually connected with ʿēber, \"the region beyond\")"
+      }
+    ],
+    "speech": [
+      "Ἴδετε",
+      "Κοιμήθητι"
+    ]
+  },
+  {
+    "ref": "GEN 39:15",
+    "greek": "ἐν δὲ τῷ ἀκοῦσαι αὐτὸν ὅτι ὕψωσα τὴν φωνήν μου καὶ ἐβόησα, καταλιπὼν τὰ ἱμάτια αὐτοῦ παρʼ ἐμοὶ ἔφυγεν καὶ ἐξῆλθεν ἔξω.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 64",
+    "hint": "She claims that he fled, leaving his garments, when she cried out.",
+    "notes": [
+      {
+        "lemma": "ἐν δὲ τῷ ἀκοῦσαι αὐτόν",
+        "flag": null,
+        "text": "ἐν with the articular infinitive, in his hearing, when he heard; αὐτόν is its subject."
+      },
+      {
+        "lemma": "παρʼ ἐμοί",
+        "flag": null,
+        "text": "Beside me, where 39:12 had the garments left in her hands."
+      }
+    ],
+    "reading": "[[but|but, however, whereas, on the other hand|δέ]], [[in the hearing|within, inside of, and by means of the hearing, the having hearing of, the hearing tell of, the hearkening and giving ear, the listening to and obeying|ἐν; ἀκούω]] him [[that|that, seeing that, although, for that, because, inasmuch as|ὅτι]] [[I lifted high|I lifted high, I raised up, I elevated and exalted|ὑψόω]] [[the sound|the sound, the tone, the sound of the voice, the cry, the faculty of speech and discourse, the language, the saying|φωνή]] of me and [[I cried aloud|I cried aloud, I shouted, I sounded and resounded and roared and howled, I called to one and called on, I called for and shouted out for, I noised abroad, I commanded in a loud voice|βοάω]], [[having left behind|having left behind, having left as an heritage, having forsaken and abandoned and left in the lurch, having left remaining, having left alone|καταλείπω]] [[the outer garments|the outer garments, the cloaks, the mantles, the clothes|ἱμάτιον]] of him [[beside|beside, alongside of, by, at, before, with|παρά + dative]] to me [[fled|fled, took flight and ran away, had recourse and took refuge, was shy of doing and shrank from doing, shrank back, fled from and shunned and avoided, fled the consequences of, fled one's country, was banished, went into exile and was an exile, was accused and prosecuted, was put on one's trial for, was charged with|φεύγω]] and [[went out of|went out of, came out, went away and marched off, went forth|ἐξέρχομαι]] [[out|out, out of, outside, without, foreign, clear of, beyond and over, but and except|ἔξω]].",
+    "names": []
+  },
+  {
+    "ref": "GEN 39:16",
+    "greek": "καὶ καταλιμπάνει τὰ ἱμάτια παρʼ ἑαυτῇ, ἕως ἦλθεν ὁ κύριος εἰς τὸν οἶκον αὐτοῦ.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 64",
+    "hint": "She keeps his garments by her until her husband comes home.",
+    "notes": [
+      {
+        "lemma": "καταλιμπάνει",
+        "flag": null,
+        "text": "The present tense among aorists. Middle Liddell's entry for καταλιμπάνω reads only = καταλείπω, so its senses are those of καταλείπω."
+      },
+      {
+        "lemma": "ὁ κύριος",
+        "flag": null,
+        "text": "With the article: Joseph's master, her husband."
+      }
+    ],
+    "reading": "and [[leaves behind|leaves behind, leaves as an heritage, forsakes and abandons and leaves in the lurch, leaves remaining, leaves alone|καταλιμπάνω]] [[the outer garments|the outer garments, the cloaks, the mantles, the clothes|ἱμάτιον]] [[beside|beside, alongside of, by, at, before, with|παρά + dative]] to herself, [[until|until, till, while, so long as|ἕως]] [[came|came, went, went back and returned, was going to and intended, came within a little of and was near|ἔρχομαι]] [[the lord|the lord, the master, the one having power and authority over|κύριος]] [[into|into, to, in, rest in|εἰς]] [[the house|the house, the abode and dwelling, the room and chamber, the house of a god and temple, the household goods and substance, the household and family|οἶκος]] of him.",
+    "names": []
+  },
+  {
+    "ref": "GEN 39:17",
+    "greek": "καὶ ἐλάλησεν αὐτῷ κατὰ τὰ ῥήματα ταῦτα λέγουσα Εἰσῆλθεν πρός με ὁ παῖς ὁ Εβραῖος, ὃν εἰσήγαγες πρὸς ἡμᾶς, ἐμπαῖξαί μοι καὶ εἶπέν μοι Κοιμηθήσομαι μετὰ σοῦ·",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 64",
+    "hint": "She tells her husband that the Hebrew servant he brought came in to mock her.",
+    "notes": [
+      {
+        "lemma": "κατὰ τὰ ῥήματα ταῦτα",
+        "flag": null,
+        "text": "κατά with the accusative, according to these words: she told it the same way."
+      },
+      {
+        "lemma": "ὃν εἰσήγαγες πρὸς ἡμᾶς",
+        "flag": null,
+        "text": "Second person: to her husband, the servant you brought in."
+      },
+      {
+        "lemma": "Κοιμηθήσομαι μετὰ σοῦ",
+        "flag": "divergence",
+        "text": "Future passive of κοιμάω, I will lie with you, a new form of the words she gives Joseph. The Hebrew has no such clause here: lĕṣaḥeq bî, to mock me, ends the accusation."
+      }
+    ],
+    "reading": "and [[talked|talked, chatted, prattled, babbled, said, talked of, spoke, chattered, chirped|λαλέω]] to him [[down|down, downwards, down from, down upon, over, upon|κατά + accusative]] [[the things which are said|the things which are said and spoken, the words, the sayings, the phrases, the subjects of speech and things, the verbs|ῥῆμα]] [[these|these, the nearer, what follows|οὗτος]] [[saying|saying, speaking, declaring, calling by name, telling|λέγω]] [[went in|went in, went into and entered, came into, came in, came upon|εἰσέρχομαι]] [[toward|toward, facing, oriented to, in living motion and address toward|πρός + accusative]] me [[the child|the child, the son, the daughter, the grandchild, the boy and youth and lad, the girl and maiden, the slave and servant and man and maid|παῖς]] the [[name:Εβραῖος]], whom [[you led in|you led in, you led into and introduced, you admitted, you imported, you called in, you brought in and brought forward|εἰσάγω]] [[toward|toward, facing, oriented to, in living motion and address toward|πρός + accusative]] us, [[to mock at|to mock at and mock, to sport in and on|ἐμπαίζω]] to me and [[said|said, spoke, declared, called by name, told|λέγω]] to me [[I will be lulled|I will be lulled, I will be hushed to sleep and put to sleep, I will be lulled to rest and stilled and calmed, I will fall asleep, I will go abed and lie abed, I will sleep, I will fall asleep and die, I will keep watch at night|κοιμάω]] [[in the midst of|in the midst of, among, in common, along with, with, by means of|μετά + genitive]] of you;",
+    "names": [
+      {
+        "greek": "Εβραῖος",
+        "unanchored": "Ebraios",
+        "anchored": "Hebrew",
+        "bare": true
+      }
+    ],
+    "speech": [
+      "Εἰσῆλθεν",
+      "Κοιμηθήσομαι"
+    ]
+  },
+  {
+    "ref": "GEN 39:18",
+    "greek": "ὡς δὲ ἤκουσεν ὅτι ὕψωσα τὴν φωνήν μου καὶ ἐβόησα, κατέλιπεν τὰ ἱμάτια αὐτοῦ παρʼ ἐμοὶ καὶ ἔφυγεν καὶ ἐξῆλθεν ἔξω.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 64",
+    "hint": "She finishes: when she cried out, he left his garments with her and fled.",
+    "notes": [
+      {
+        "lemma": "ὡς δὲ ἤκουσεν",
+        "flag": null,
+        "text": "ὡς with the aorist, when he heard."
+      }
+    ],
+    "reading": "[[as|as, according as, considering, like|ὡς]] [[but|but, however, whereas, on the other hand|δέ]], [[heard|heard, had hearing of, heard tell of, hearkened and gave ear, listened to and obeyed|ἀκούω]] [[that|that, seeing that, although, for that, because, inasmuch as|ὅτι]] [[I lifted high|I lifted high, I raised up, I elevated and exalted|ὑψόω]] [[the sound|the sound, the tone, the sound of the voice, the cry, the faculty of speech and discourse, the language, the saying|φωνή]] of me and [[I cried aloud|I cried aloud, I shouted, I sounded and resounded and roared and howled, I called to one and called on, I called for and shouted out for, I noised abroad, I commanded in a loud voice|βοάω]], [[left behind|left behind, left as an heritage, forsook and abandoned and left in the lurch, left remaining, left alone|καταλείπω]] [[the outer garments|the outer garments, the cloaks, the mantles, the clothes|ἱμάτιον]] of him [[beside|beside, alongside of, by, at, before, with|παρά + dative]] to me and [[fled|fled, took flight and ran away, had recourse and took refuge, was shy of doing and shrank from doing, shrank back, fled from and shunned and avoided, fled the consequences of, fled one's country, was banished, went into exile and was an exile, was accused and prosecuted, was put on one's trial for, was charged with|φεύγω]] and [[went out of|went out of, came out, went away and marched off, went forth|ἐξέρχομαι]] [[out|out, out of, outside, without, foreign, clear of, beyond and over, but and except|ἔξω]].",
+    "names": []
+  },
+  {
+    "ref": "GEN 39:19",
+    "greek": "ἐγένετο δὲ ὡς ἤκουσεν ὁ κύριος αὐτοῦ τὰ ῥήματα τῆς γυναικὸς αὐτοῦ, ὅσα ἐλάλησεν πρὸς αὐτὸν λέγουσα Οὕτως ἐποίησέν μοι ὁ παῖς σου, καὶ ἐθυμώθη ὀργῇ.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 64",
+    "hint": "Her husband hears her account and is filled with anger.",
+    "notes": [
+      {
+        "lemma": "ἐγένετο δὲ ὡς … καὶ ἐθυμώθη",
+        "flag": null,
+        "text": "ἐγένετο, then ὡς, then καί before the main verb: it came to be, when he heard, and he was angry."
+      },
+      {
+        "lemma": "ἐθυμώθη ὀργῇ",
+        "flag": null,
+        "text": "θυμόομαι with the dative of ὀργή, wroth with anger: two words for one passion, the Hebrew wayyiḥar ʾappô."
+      }
+    ],
+    "reading": "[[came into being|there came to be, there arose, there was brought into existence|γίνομαι]] [[but|but, however, whereas, on the other hand|δέ]], [[as|as, according as, considering, like|ὡς]] [[heard|heard, had hearing of, heard tell of, hearkened and gave ear, listened to and obeyed|ἀκούω]] [[the lord|the lord, the master, the one having power and authority over|κύριος]] of him [[the things which are said|the things which are said and spoken, the words, the sayings, the phrases, the subjects of speech and things, the verbs|ῥῆμα]] [[of the woman|of the woman, of the mistress and lady, of the wife and spouse|γυνή]] of him, [[as great as|as great as, as much as, as far as, as long as, as many as|ὅσος]] [[talked|talked, chatted, prattled, babbled, said, talked of, spoke, chattered, chirped|λαλέω]] [[toward|toward, facing, oriented to, in living motion and address toward|πρός + accusative]] him [[saying|saying, speaking, declaring, calling by name, telling|λέγω]] [[in this way|in this way, in this manner, so, thus, even so, so much|οὕτως]] [[made|made, did, produced, created|ποιέω]] to me [[the child|the child, the son, the daughter, the grandchild, the boy and youth and lad, the girl and maiden, the slave and servant and man and maid|παῖς]] of you, and [[was wroth|was wroth, was angry, was wild and restive, vented fury, was angry with, was angry at|θυμόομαι]] [[to natural impulse|to natural impulse, to temper and temperament and disposition and nature, to passion and anger and wrath|ὀργή]].",
+    "names": [],
+    "speech": [
+      "Οὕτως"
+    ]
+  },
+  {
+    "ref": "GEN 39:20",
+    "greek": "καὶ λαβὼν ὁ κύριος Ιωσηφ ἐνέβαλεν αὐτὸν εἰς τὸ ὀχύρωμα, εἰς τὸν τόπον, ἐν ᾧ οἱ δεσμῶται τοῦ βασιλέως κατέχονται ἐκεῖ ἐν τῷ ὀχυρώματι.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 64",
+    "hint": "His master takes Joseph and puts him in the fortress where the king's prisoners are held.",
+    "notes": [
+      {
+        "lemma": "λαβὼν ὁ κύριος Ιωσηφ",
+        "flag": null,
+        "text": "Ιωσηφ does not decline. Read as the accusative, it is what λαβών takes: the master, having taken Joseph. Read as the genitive, after ὁ κύριος as after ὁ εὐνοῦχος Φαραω in 39:1, it is the lord of Joseph, and λαβών has no object of its own. The reading follows the first; αὐτόν after ἐνέβαλεν is the object either way. The Hebrew has ʾădōnê yôsēp, Joseph's master, and ʾōtô, him, after the first verb."
+      },
+      {
+        "lemma": "τὸ ὀχύρωμα",
+        "flag": "divergence",
+        "text": "ὀχύρωμα, a stronghold, fortress. The Hebrew has bêt hassōhar, the prison, here and in 39:21–23; the Greek has ὀχύρωμα here and δεσμωτήριον, a prison, in 39:22–23."
+      },
+      {
+        "lemma": "κατέχονται ἐκεῖ ἐν τῷ ὀχυρώματι",
+        "flag": "divergence",
+        "text": "ἐκεῖ ἐν τῷ ὀχυρώματι stays inside the relative clause, of the prisoners. The Hebrew closes with wayhî-šām bĕbêt hassōhar, and he was there in the prison, of Joseph."
+      },
+      {
+        "lemma": "κατέχονται",
+        "flag": null,
+        "text": "Present passive of κατέχω, to hold fast, detain: the king's prisoners are held there."
+      }
+    ],
+    "reading": "and [[having taken|having taken, having received, having taken hold of and grasped and seized|λαμβάνω]] [[the lord|the lord, the master, the one having power and authority over|κύριος]] [[name:Ιωσηφ]] [[threw in|threw in, put in, threw at and upon and against, inflicted, applied, made an inroad and invasion, broke and burst and rushed in, struck a ship with the ram and charged it|ἐμβάλλω]] him [[into|into, to, in, rest in|εἰς]] [[the stronghold|the stronghold, the fortress|ὀχύρωμα]], [[into|into, to, in, rest in|εἰς]] [[the place|the place, the local circumstances, the position, the passage in a book, the topic, the common-place, the occasion and opportunity|τόπος]], [[in which|within, inside of, and by means of which|ἐν; ὅς]] [[the prisoners|the prisoners, the captives, in chains and fettered|δεσμώτης]] [[of the king|of the king, of the chief, of the hereditary king, of the lord and master and householder, of the second of the nine archons, of the king of Persia|βασιλεύς]] [[are held fast|are held fast, are held back and withheld, are checked and restrained and controlled and bridled, are detained, are possessed and occupied, are filled, are occupied and spread over and covered, are confined and covered, are held down and overpowered and oppressed and afflicted, are held down and bound and kept under, are detained and stay and stop and tarry|κατέχω]] [[there|there, in that place|ἐκεῖ]] [[in the stronghold|within, inside of, and by means of the stronghold, the fortress|ἐν; ὀχύρωμα]].",
+    "names": [
+      {
+        "greek": "Ιωσηφ",
+        "unanchored": "Iōsēph",
+        "anchored": "Joseph",
+        "bare": true
+      }
+    ]
+  },
+  {
+    "ref": "GEN 39:21",
+    "greek": "Καὶ ἦν κύριος μετὰ Ιωσηφ καὶ κατέχεεν αὐτοῦ ἔλεος καὶ ἔδωκεν αὐτῷ χάριν ἐναντίον τοῦ ἀρχιδεσμοφύλακος,",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 64",
+    "hint": "The Lord is with Joseph and gives him favour with the chief jailer.",
+    "notes": [
+      {
+        "lemma": "κατέχεεν αὐτοῦ ἔλεος",
+        "flag": "divergence",
+        "text": "καταχέω, to pour down upon, with the genitive of the one poured over: he poured mercy over him. The Hebrew has wayyēṭ ʾēlāyw ḥāsed, he extended kindness to him."
+      },
+      {
+        "lemma": "ἀρχιδεσμοφύλακος",
+        "flag": null,
+        "text": "ἀρχιδεσμοφύλαξ, chief gaoler, LSJ's one gloss, citing this verse; Middle Liddell lacks the word."
+      }
+    ],
+    "reading": "And was, and kept on being as a standing and continuing condition and not a momentary one, [[lord|lord, master, the one having power and authority over|κύριος]] [[in the midst of|in the midst of, among, in common, along with, with, by means of|μετά + genitive]] of [[name:Ιωσηφ]] and [[poured down upon|poured down upon and poured over, poured and showered down, threw and cast down, let fall upon, melted down|καταχέω]] of him [[pity|pity, mercy, compassion, an object of compassion and a piteous thing|ἔλεος]] and [[gave|gave, granted, provided, gave over and delivered up|δίδωμι]] to him [[outward grace|outward grace, favour, loveliness, graciousness and kindness and goodwill, thankfulness and thanks and gratitude, a favour and kindness and boon, a gratification and delight|χάρις]] [[in the presence of|in the presence of, before, opposite and face to face, against|ἐναντίον]] of the chief gaoler,",
+    "names": [
+      {
+        "greek": "Ιωσηφ",
+        "unanchored": "Iōsēph",
+        "anchored": "Joseph",
+        "bare": true
+      }
+    ]
+  },
+  {
+    "ref": "GEN 39:22",
+    "greek": "καὶ ἔδωκεν ὁ ἀρχιδεσμοφύλαξ τὸ δεσμωτήριον διὰ χειρὸς Ιωσηφ καὶ πάντας τοὺς ἀπηγμένους, ὅσοι ἐν τῷ δεσμωτηρίῳ, καὶ πάντα, ὅσα ποιοῦσιν ἐκεῖ.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 64",
+    "hint": "The chief jailer puts the prison and all its prisoners in Joseph's charge.",
+    "notes": [
+      {
+        "lemma": "τοὺς ἀπηγμένους",
+        "flag": null,
+        "text": "Perfect passive participle of ἀπάγω, to lead away, and in Attic law to carry off to prison: the ones led away, and still held."
+      },
+      {
+        "lemma": "ὅσοι ἐν τῷ δεσμωτηρίῳ",
+        "flag": null,
+        "text": "No verb: as many as were in the prison."
+      },
+      {
+        "lemma": "ὅσα ποιοῦσιν ἐκεῖ",
+        "flag": "divergence",
+        "text": "Present, whatever they do there. The Hebrew adds hûʾ hāyâ ʿōśeh, he was the one doing it."
+      }
+    ],
+    "reading": "and [[gave|gave, granted, provided, gave over and delivered up|δίδωμι]] the chief gaoler the prison [[through|through, right through, by means of, by the agency of|διά + genitive]] [[of hand|of hand, of hand and arm, of arm|χείρ]] of [[name:Ιωσηφ]] and [[all|all, the whole, every, every single|πᾶς]] [[the ones having been led away|the ones having been led away and standing so, having been carried off, having been brought back and brought home, having been returned and rendered and paid, having been arrested and carried off, having been brought before a magistrate and accused, having been carried off to prison, having been led away from the subject, having been brought to a point and tapering off|ἀπάγω]], [[as great as|as great as, as much as, as far as, as long as, as many as|ὅσος]] [[in|within, inside of, and by means of|ἐν]] to the prison, and [[all|all, the whole, every, every single|πᾶς]], [[as great as|as great as, as much as, as far as, as long as, as many as|ὅσος]] [[make|make, do, produce, create|ποιέω]] [[there|there, in that place|ἐκεῖ]].",
+    "names": [
+      {
+        "greek": "Ιωσηφ",
+        "unanchored": "Iōsēph",
+        "anchored": "Joseph",
+        "bare": true
+      }
+    ]
+  },
+  {
+    "ref": "GEN 39:23",
+    "greek": "οὐκ ἦν ὁ ἀρχιδεσμοφύλαξ τοῦ δεσμωτηρίου γινώσκων διʼ αὐτὸν οὐθέν· πάντα γὰρ ἦν διὰ χειρὸς Ιωσηφ διὰ τὸ τὸν κύριον μετʼ αὐτοῦ εἶναι, καὶ ὅσα αὐτὸς ἐποίει, κύριος εὐώδου ἐν ταῖς χερσὶν αὐτοῦ.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 64",
+    "hint": "The chief jailer pays no attention to anything in Joseph's charge, because the Lord is with him.",
+    "notes": [
+      {
+        "lemma": "οὐκ ἦν … γινώσκων",
+        "flag": null,
+        "text": "ἦν with the present participle, he was not knowing anything: a state kept up, not one moment."
+      },
+      {
+        "lemma": "διʼ αὐτόν",
+        "flag": null,
+        "text": "διά with the accusative, on his account."
+      },
+      {
+        "lemma": "διὰ τὸ τὸν κύριον μετʼ αὐτοῦ εἶναι",
+        "flag": null,
+        "text": "The articular infinitive after διά: because of the lord's being with him. τὸν κύριον has the article, which elsewhere in this chapter marks Joseph's master; the Hebrew has YHWH here, as for κύριος without the article in the next clause."
+      },
+      {
+        "lemma": "εὐώδου",
+        "flag": null,
+        "text": "Imperfect of εὐοδόω, against the present εὐοδοῖ of 39:3: here the Lord went on prospering what Joseph did."
+      }
+    ],
+    "reading": "not was, and kept on being, the chief gaoler of the prison [[learning to know|learning to know, perceiving, marking, learning, discerning and distinguishing|γινώσκω]] [[through|through, throughout and over, during, by aid of and by means of, by reason of, because of, for the sake of|διά + accusative]] him [[and not one|and not one, no one and none, naught and good for naught|οὐθείς]]; [[all|all, the whole, every, every single|πᾶς]] [[for|for, since and as, for otherwise and else, now, but, why and what, would that|γάρ]] was, and kept on being as a standing and continuing condition and not a momentary one, [[through|through, right through, by means of, by the agency of|διά + genitive]] [[of hand|of hand, of hand and arm, of arm|χείρ]] of [[name:Ιωσηφ]] [[through|through, throughout and over, during, by aid of and by means of, by reason of, because of, for the sake of|διά + accusative]] [[the lord|the lord, the master, the one having power and authority over|κύριος]] [[in the midst of|in the midst of, among, in common, along with, with, by means of|μετά + genitive]] of him [[the being|the being, the existing|εἰμί]], and [[as great as|as great as, as much as, as far as, as long as, as many as|ὅσος]] he [[was making|was making, was doing, was producing, was creating|ποιέω]], [[lord|lord, master, the one having power and authority over|κύριος]] [[was helping on the way|was helping on the way, was having a prosperous journey, was prospering and being successful|εὐοδόω]] [[in the hands|within, inside of, and by means of the hands, the hands and arms, the arms|ἐν; χείρ]] of him.",
+    "names": [
+      {
+        "greek": "Ιωσηφ",
+        "unanchored": "Iōsēph",
+        "anchored": "Joseph",
+        "bare": true
+      }
+    ]
+  }
+]

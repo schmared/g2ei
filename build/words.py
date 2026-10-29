@@ -235,6 +235,9 @@ LSJ = {
     "χήρευσις": ["widowhood", "separation from a husband"],
     "ὁρμίσκος": ["small necklace", "signet-cord", "collar"],
     "προεκφέρω": ["put out before", "utter, pronounce before", "to be carried away headlong"],
+    # GEN 39. No Middle Liddell entry. LSJ (eng1) cites this very verse: "ἀρχιδεσμοφύλαξ,
+    # chief gaoler, LXX Ge. 39.21", and nothing more.
+    "ἀρχιδεσμοφύλαξ": ["chief gaoler"],
 }
 
 # New Testament books: MorphGNT file and its book number.
@@ -1007,6 +1010,19 @@ NOT_SENSES = {
     "e)ntau=qa": {"here-", "in that department of"},  # scraps
     "katakai/w": {"alive", "had burnt down, burnt out"},  # "burn alive"; a pluperfect example
     "de/w": {"his", "he had", "bound"},         # an example; "to let, stop from" is a sense
+    # GEN 39.
+    # πῶς with another particle, or with verbs of selling: each of these translates the
+    # phrase — πῶς ἄν, πῶς ἄρα, πῶς γάρ, πῶς δή, καὶ πῶς, πῶς οὐ, πῶς ποτε — not πῶς.
+    "pw=s": {"how? at what price?", "how possibly . . ?", "O how", "would that",
+             "how then . . ?", "[that cannot be], for how can . . ?", "how in the world?",
+             "how can it be?", "how not so . . ; ?", "surely it is so . .", "how ever . . ?"},
+    "ei)/sw": {"into the house", "even to the inside"},  # glosses of two Homeric examples
+    "katalei/pw": {"being", "left behind",      # "being part of the army left behind"
+                   "will leave", "yet remains to be fought"},  # examples
+    "toiou=tos": {"such a wretch", "such a man",  # examples
+                  "such a reason", "what goes before"},  # an example; a description
+    "e)pispa/w": {"by", "having dragged"},       # "having dragged her by the hair"
+    "eu)nou=xos": {"chamberlains"},             # what eunuchs were employed as, not the word
 }
 
 # An entry that divides its senses by tense and voice, so that which of them belong to a
@@ -1074,6 +1090,9 @@ SPELLING = {
     "krufh=|": "kru/bdhn",          # κρυφῆ reads "= κρύβδην" and glosses nothing itself
     "ai)xmalwti/s": "ai)xma/lwtos",  # "fem. of αἰχμάλωτος", and nothing more
     "a)rh/n": "a)rno/s",            # the lamb, filed under its genitive ἀρνός
+    "katalimpa/nw": "katalei/pw",   # "= καταλείπω", and nothing more
+    "e)/sw": "ei)/sw",              # "older form of εἴσω"; its one translation is of the
+                                    # comparative ἐσωτέρω, "to the interior" of Greece
     "gi/nomai": "gi/gnomai",
     "ginw/skw": "gignw/skw",
     "ei(=s": "ei(/s",               # Perseus keys the numeral with an acute
@@ -1093,6 +1112,7 @@ SPELLING = {
     "e)kle/gomai": "e)kle/gw",      # MorphGNT's middle, filed under the active
     "ei)sporeu/omai": "ei)sporeu/w",  # likewise
     "qumo/omai": "qumo/w",          # likewise
+    "e)pispa/omai": "e)pispa/w",    # likewise (1 Cor 7:18)
     "e)pimelw=s": "e)pimelh/s",     # the adverb, filed inside the adjective's entry
     "a)sfalw=s": "a)sfalh/s",       # likewise, and the entry glosses it "in all senses of the adj."
     "sklhrw=s": "sklhro/s",         # the adverb, filed inside the adjective's entry
@@ -1184,6 +1204,8 @@ ENTRY = {
     "mo/sxos": "mo/sxos2",  # mo/sxos1 is a young shoot; the calf of GEN 12:16 is the second
     "mh=lon": "mh=lon2",  # mh=lon1 is a sheep or goat; the mandrake fruit of GEN 30:14 is the apple
     "nu=n": "nu=n1",     # nu=n2 is νῦν δή, "just now"; νῦν itself is the first entry
+    "pw=s": "pw=s2",     # pw=s1 is Aristotle's unaccented-sense πῶς, "in a certain way"; the
+                         # interrogative, "how?", is the second
 }
 
 PUNCT = re.compile(r"[.,;:·!?—·()]")
