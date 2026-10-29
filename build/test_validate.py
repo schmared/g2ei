@@ -245,6 +245,14 @@ NEGATIVE = [
     ("articles one article written twice",
                                          lambda: run(V.check_articles, "GEN", 1,
                                                      mut(GEN, [0, "reading"], "x the the house"))),
+    # GEN 35:2 read `to [[to the house|…]]` and `to to the ones`: the dative marked twice
+    ("articles a case marked outside the unit and in it",
+                                         lambda: run(V.check_articles, "GEN", 1,
+                                                     mut(GEN, [0, "reading"],
+                                                         "x to [[to the house|to the house, to the abode|οἶκος]]"))),
+    ("articles a case marked twice before the article's noun",
+                                         lambda: run(V.check_articles, "GEN", 1,
+                                                     mut(GEN, [0, "reading"], "x of of the ones y"))),
     # GEN 7:16 τὰ εἰσπορευόμενα is neuter: the article's noun is `things`, not `ones`
     ("articles a neuter participle given `the ones`",
                                          lambda: run(V.check_articles, "GEN", 7, [

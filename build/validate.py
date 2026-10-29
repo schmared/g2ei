@@ -840,6 +840,10 @@ def check_markup(targets, rep):
 
 STRANDED = re.compile(r"(?<![\w\-])the\s+\[\[(?!name:)([^|\]]+)\|[^|\]]+\|([^|\]]+)\]\]")
 ARTICLE_NOUN = re.compile(r"^(?:of |to |with )?the (ones|one|things|thing)(?: |$)")
+# A plain case marker before a unit or an article's noun that carries the same marker:
+# `to [[to the house|…]]`, `of of the ones`. Inside one unit it is the gloss's own word —
+# ἀλλογενής is *of another race*, and its genitive *of of another race* — and stays.
+DOUBLED = re.compile(r"(?<![\w\-|\[])(of|to) (?:\[\[(?!name:))?\1 (?=the |\w)")
 
 
 def article_noun(parse):
@@ -879,6 +883,10 @@ def check_articles(book, chapter, verses, rep):
         plain = render.NAME.sub("¦", render.UNIT.sub("¦", text))
         if re.search(r"(?<![\w\-])the the(?![\w\-])", plain):
             rep.fail("articles", ref, "`the the` in the plain text: one article, written twice")
+        for m in DOUBLED.finditer(text):
+            rep.fail("articles", ref,
+                     "`%s %s`: the case is marked twice, once outside the unit or the article's "
+                     "noun and once inside it" % (m.group(1), m.group(1)))
         words = lay.get(ref)
         if not words:
             continue

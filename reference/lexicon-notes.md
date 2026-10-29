@@ -5703,3 +5703,11 @@ out: *gain* is half of *gainsay*. The check now fails on chains apart in either 
 needed its stemmer fixed first: `deposed` had been cut to `depo` where `depose` stays
 `depos`, because an `s` came off what `-ed` left, and *strove* and *broke* were missing from
 the irregulars.
+
+**A case marked twice.** The article passes left eighteen places where a noun's case printed
+once outside its unit and again inside it — `to [[to the house]]` at GEN 35:2, `of [[of the
+hands]]` at 31:42 — or twice before the article's noun, *of of the ones* at 34:19. Each
+was the marker the old plain *the* had carried, left behind when the article moved into the
+unit. All eighteen print the marker once now, and `check_articles` fails on a marker written
+twice. A unit whose own gloss opens with the marker keeps it: ἀλλογενής is *of another race*,
+and its genitive at GEN 17:27 is *of of another race*, as the article stays before *thy*.

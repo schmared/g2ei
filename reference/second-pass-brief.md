@@ -479,8 +479,8 @@ Conventions:
   `RI ----NSN-`. (MorphGNT prints the pair as one word, ἱνατί, and so cannot guide it.)
 - `ὁ δέ`, *and he*, is still the article: `RA ----NSM-`, as MorphGNT codes it. So is an article
   standing before a prepositional phrase, in the case the phrase has in the sentence:
-  `τὸ πρὸς ἑσπέραν`, *toward evening*, `RA ----ASN-`. The τοῦ of `ἕως τοῦ νῦν` is `RA ----GSM-`,
-  as MorphGNT codes it (Matt 24:21).
+  `τὸ πρὸς ἑσπέραν`, *toward evening*, `RA ----ASN-`. The τοῦ of `ἕως τοῦ νῦν` is `RA ----GSN-`:
+  an adverb made a noun takes the neuter article (MorphGNT's `GSM` at Matt 24:21 is not followed).
 - Numerals take case, number and gender like any adjective — ἑπτά `A- ----APN-` beside a
   neuter plural — and a multiplicative adverb (ἑπτάκις) is `D-`. A number printed as several
   words (ἑκατὸν καὶ ἑξήκοντα πέντε, δέκα πέντε) is several words: each numeral agrees with the
