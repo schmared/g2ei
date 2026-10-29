@@ -143,7 +143,6 @@ Three reasons, and all of them are the lexicon's filing rather than a decision a
 | ἀρσενικός (GEN 17:10) | ἀρρενικός | LSJ: "less Att. form ἀρσενικός" |
 | ἄρα (GEN 18:3) | `a(/ra` | Perseus keys the entry with a rough breathing |
 | ἆρα (GEN 18:13) | ἄρα | "in accent and sense a stronger form of ἄρα"; the entry glosses nothing |
-| γέ (GEN 18:13) | γε | MorphGNT accents the enclitic; the entry is headed unaccented |
 | ἀληθῶς (GEN 18:13) | ἀληθής | the adverb, filed inside the adjective's entry |
 | οὐχί (GEN 18:15) | οὐ | the strengthened form, filed in its entry |
 | μηδαμῶς (GEN 18:25) | μηδαμῇ | cross-reference; "adverb of μηδαμός = μηδαμῇ" |
@@ -187,7 +186,6 @@ Three reasons, and all of them are the lexicon's filing rather than a decision a
 | ἀφρόνως (GEN 31:28) | ἄφρων | the adverb, which the entry glosses *senselessly* |
 | πρῶτος (GEN 32:18) | πρότερος | the superlative filed under the comparative, as at 8:5 |
 | ἀσφαλῶς | ἀσφαλής | the adverb, filed inside the adjective's entry |
-| ὀσφῦς | ὀσφύς | Perseus keys the noun with an acute |
 | σκληρῶς | σκληρός | the adverb, filed inside the adjective's entry |
 <!-- spelling rows above -->
 
@@ -640,8 +638,8 @@ the same ground as `the sixth` and `the seventh`: one sense each, so no range to
   verse for the third, *oppression, affliction*. 35:3.
 - κατώτερος — no Middle Liddell entry; LSJ heads the comparative of κάτω on its own. Here it stands
   as an adverb with the genitive, below Bethel. 35:8.
-- ὀσφῦς — Perseus keys the noun with an acute, ὀσφύς, so it is filed in the spelling table; the
-  dictionary form keeps the circumflex MorphGNT gives it. 35:11.
+- ὀσφύς — filed as Middle Liddell keys it and MorphGNT files it, all eight times. (This line once
+  read ὀσφῦς, "the circumflex MorphGNT gives it"; MorphGNT gives none. Corrected at Genesis 37.) 35:11.
 - σκληρῶς — the adverb, filed inside σκληρός, and taking the adjective's senses, as βαρέως does at
   31:35. Its chain is the one σκληρός already has from 21:11. 35:17.
 - Βάλανος and Υἱός — two Greek words Rahlfs prints capitalised as names, and so names here with a
@@ -702,7 +700,7 @@ the same ground as `the sixth` and `the seventh`: one sense each, so no range to
 | ἐπιφαίνω | `was shewn forth` | `was shewn forth, was displayed, was shewn off, came into light and came suddenly into view, presented himself and shewed himself and appeared, shewed light and shone upon` | 35:7 |
 | ἐπιχέω | `poured upon` | `poured upon, poured over, poured out over` | 35:14 |
 | ὀδύνη | `of pain of body` | `of pain of body, of pain of mind, of grief and distress` | 35:18 |
-| ὀσφῦς | `of the loin` | `of the loin, of the loins, of the lower part of the back` | 35:11 |
+| ὀσφύς | `of the loin` | `of the loin, of the loins, of the lower part of the back` | 35:11 |
 
 ### Words new in GEN 34
 
@@ -1663,7 +1661,7 @@ the same ground as `the sixth` and `the seventh`: one sense each, so no range to
 | βασιλεύς | `the king` | `the king, the chief, the hereditary king, the lord and master and householder, the second of the nine archons, the king of Persia` | 26:8 |
 | βδελύσσομαι | `we felt nausea` | `we felt nausea, we were sick, we felt a loathing at and loathed` | 26:29 |
 | βοῦς | `of oxen` | `of oxen, of cows, of ox-hide shields` | 26:14 |
-| γέ | `at least` | `at least, at any rate, at all events` | 26:9 |
+| γε | `at least` | `at least, at any rate, at all events` | 26:9 |
 | γεώργιον | `fields` | `fields, orchards, husbandries, crops, taxes` | 26:14 |
 | διατίθεμαι | `we will dispose` | `we will dispose, we will make a will, we will arrange, we will covenant` | 26:28 |
 | δικαίωμα | `the acts by which wrong is set right` | `the acts by which wrong is set right, the judgments and punishments and penalties, the pleas of right, the justifications, the ordinances and decrees` | 26:5 |
@@ -2559,7 +2557,7 @@ the same ground as `the sixth` and `the seventh`: one sense each, so no range to
 | --- | --- | --- | --- |
 | βούτυρον | `butter` | `butter, a plant` | 18:8 |
 | βοῦς | `the cows` | `the cows, the oxen, the kine and cattle, the ox-hide shields` | 18:7 |
-| γέ | `at least` | `at least, at any rate, even, that is to say, really, namely and that is, yes and, well then` | 18:13 |
+| γε | `at least` | `at least, at any rate, even, that is to say, really, namely and that is, yes and, well then` | 18:13 |
 | γίνομαι | `coming into being` | `coming to be, arising, being brought into existence` | 18:18 |
 | γελάω | `I laughed` | `I laughed, I laughed at, I derided` | 18:15 |
 | γελάω | `you laughed` | `you laughed, you laughed at, you derided` | 18:15 |

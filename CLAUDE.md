@@ -162,6 +162,13 @@ depends on a judgement about what governs what or about which use of a dative is
 preposition that merges into its object's unit: *within, inside of, and by means of the well*
 is ἐν's own English, not a case-marker, and it keeps the lead.
 
+A name is a noun and marks its case the same way. It prints only its own form, so the marker
+stands before it as plain text, ahead of its article where it has one: *the sons of Esau*,
+*out of of Charran*, *in to Edom*. An indeclinable name shows no case in its spelling; the
+case is the one the chapter's morphology gives it. An article in another case is not the
+name's own but makes a noun of it, and carries its noun: τὴν δρῦν τὴν Μαμβρη, *the oak, the
+one of Mambre*.
+
 ### The article goes inside its word's unit
 τῷ οἴκῳ is `[[to the house|…]]`, not a plain *the* before `[[to house|…]]` — which printed
 *the to house*, a word standing bare that belongs in a chain. Nor a plain *the* before a unit
@@ -310,6 +317,8 @@ The count is checked as well as the name: two units may not open one word.
 - the project's own morphology is well-formed by its code's own grammar
 - that morphology agrees with itself across every chapter — a form keeps its dictionary
   form, a verb its parse, a noun its gender and number — unless the line says why
+- every genitive and dative name carries its marker, *of* or *to*, by the case the
+  morphology gives it, and no case is marked twice
 - the article stands where its word is: no plain *the* before any unit, no *the the*, and
   over a participle the article's noun follows its gender — *one* for masculine and
   feminine, *thing* for neuter

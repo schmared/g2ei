@@ -216,6 +216,14 @@ LSJ = {
     "θλῖψις": ["pressure", "crushing, castration", "oppression, affliction"],
     # No Middle Liddell entry. LSJ (eng11) gives the comparative of κάτω three senses.
     "κατώτερος": ["lower", "more southerly", "later, younger"],
+    # GEN 37. Middle Liddell has ἐνύπνιον but neither of these. LSJ (eng5) cites this very
+    # verse: "ἐνυπνιαστής, dreamer, ib. 37.19". LSJ (eng20): ῥητίνη, "resin of the pine".
+    "ἐνυπνιαστής": ["dreamer"],
+    "ῥητίνη": ["resin of the pine"],
+    # No Middle Liddell entry. LSJ (eng1) cites the next mention of this office, "LXX Ge.
+    # 39.1": "chief cook", then, as a description and not a translation, "title of a great
+    # officer in Oriental courts".
+    "ἀρχιμάγειρος": ["chief cook"],
 }
 
 # New Testament books: MorphGNT file and its book number.
@@ -1037,7 +1045,6 @@ SPELLING = {
     "qumo/omai": "qumo/w",          # likewise
     "e)pimelw=s": "e)pimelh/s",     # the adverb, filed inside the adjective's entry
     "a)sfalw=s": "a)sfalh/s",       # likewise, and the entry glosses it "in all senses of the adj."
-    "o)sfu=s": "o)sfu/s",           # Perseus keys the noun with an acute
     "sklhrw=s": "sklhro/s",         # the adverb, filed inside the adjective's entry
     "e)nanti/on": "e)nanti/os",     # cross-reference; "adverb v. ἐναντίος" glosses nothing
     "nossia/": "neossia/",          # the contracted spelling; the entry is headed with νεοσσιά
@@ -1065,7 +1072,6 @@ SPELLING = {
     "kuri/a": "ku/rios2",           # cross-reference; "fem. of κύριος signf. B. 1. 2." — the noun's κυρία, mistress
     "a)/ra": "a(/ra",               # Perseus keys ἄρα with a rough breathing
     "a)=ra": "a(/ra",               # "in accent and sense a stronger form of ἄρα"; the entry glosses nothing
-    "ge/": "ge",                    # MorphGNT accents the enclitic; the entry is headed unaccented
     "a)lhqw=s": "a)lhqh/s",         # the adverb, filed inside the adjective's entry
     "ou)xi/": "ou)",                # the strengthened οὐ, filed in its entry
     "mhdamw=s": "mhdamh=",          # cross-reference; "adverb of μηδαμός = μηδαμῇ"
@@ -1107,6 +1113,8 @@ SPELLING = {
     "bare/ws": "baru/s",           # the adverb, filed inside the adjective's entry
     "a)fro/nws": "a)/frwn",        # the adverb, which the entry glosses "senselessly"
     "e)comologe/w": "e)comologe/omai",  # the entry is headed with the deponent middle
+    "a(/|dhs": "*(/a|dhs",          # one entry, keyed with the god's capital; "as appellative,
+                                    # Hades, the world below", the use εἰς ᾅδου is
 }
 
 # Homographs where Perseus's *first* entry is a different word from the one the text

@@ -854,6 +854,85 @@ def article_noun(parse):
     return "ones" if "plural" in p else "one"
 
 
+CASE_MARK = {"genitive": "of", "dative": "to"}
+PIECE = re.compile(r"\[\[[^\]]*\]\]|[^\s\[]+")
+
+
+def name_words(verse, words):
+    """Each name marker in the reading with its word in the word-by-word layer: the next
+    word of the same form not yet taken. None if a marker has no such word."""
+    out, used = [], set()
+    for m in render.NAME.finditer(verse["reading"]):
+        i = next((k for k, w in enumerate(words)
+                  if k not in used and w["form"] == m.group(1)), None)
+        if i is None:
+            return None
+        used.add(i)
+        out.append((m, i))
+    return out
+
+
+def own_article(words, i):
+    """Whether the name at words[i] has an article of its own: the nearest word before it,
+    past a particle (ὁ δὲ Ιακωβ), is an article in the name's case. An article in another
+    case is not the name's — τὰ ὄρη τὰ Αραρατ, *the things of Ararat* — and the marker
+    then goes after it."""
+    case = lambda w: next((c for c in ("nominative", "genitive", "dative", "accusative",
+                                        "vocative") if c in w["parse"].split(" · ")), None)
+    k = i - 1
+    while k >= 0 and words[k]["parse"].split(" · ")[0] in ("conjunction", "particle"):
+        k -= 1
+    return k >= 0 and words[k]["parse"].startswith("article") and case(words[k]) == case(words[i])
+
+
+def marker_before(text, at, article=False):
+    """The case marker printed before a name at `at` — past its `the`, where the name has
+    an article of its own: `of`, `to`, or whatever plain word or unit stands there instead."""
+    pieces = [p.rstrip(",;:") for p in PIECE.findall(text[:at])]
+    if article and pieces and pieces[-1] == "the":
+        pieces.pop()
+    return pieces[-1] if pieces else ""
+
+
+def check_name_cases(book, chapter, verses, rep):
+    """A name marks its case as any noun does: the genitive *of*, the dative *to*.
+
+    A name prints only its own form, so the marker stands as plain text before it, and
+    before the name's article where it has one — *the sons of Ησαυ*, *out of of Χαρραν*, *in
+    to Εδωμ*, as GEN 2:7 reads *from of the earth*. An indeclinable name shows no case in
+    its spelling; the case is the one the chapter's morphology gives it, which two passes
+    have settled. Before this check names went both ways, 135 genitives marked and some 380
+    not, because the pass that marked every noun's case read units and not names.
+    """
+    before = rep.failed
+    path = render.DATA / book / ("%d.words.json" % chapter)
+    if not path.exists():
+        return
+    lay = {v["ref"]: v["words"] for v in
+           json.loads(path.read_text(encoding="utf-8")).get("verses", [])}
+    seen = 0
+    for verse in verses:
+        words = lay.get(verse["ref"])
+        if not words or not verse["reading"]:
+            continue
+        pairs = name_words(verse, words)
+        if pairs is None:
+            rep.fail("names", verse["ref"], "a name marker with no word of its form in the "
+                     "word-by-word layer")
+            continue
+        for m, i in pairs:
+            case = next((c for c in CASE_MARK if c in words[i]["parse"].split(" · ")), None)
+            if not case:
+                continue
+            seen += 1
+            got = marker_before(verse["reading"], m.start(), own_article(words, i))
+            if got != CASE_MARK[case]:
+                rep.fail("names", verse["ref"], "%s is %s; it reads `%s %s`, not `%s`"
+                         % (m.group(1), case, CASE_MARK[case], m.group(1),
+                            (got + " " if got else "") + m.group(1)))
+    rep.done("names", "%d genitive and dative names, each marked" % seen, before)
+
+
 def check_articles(book, chapter, verses, rep):
     """The article goes where its word is, and carries that word's gender.
 
@@ -1534,6 +1613,7 @@ def validate(book, chapter, rep):
     check_banned(verses, rep)
     check_anchors(verses, rep, book, chapter)
     check_articles(book, chapter, verses, rep)
+    check_name_cases(book, chapter, verses, rep)
     if EDITIONS.get(book) == "lxx":
         check_morph_shape(book, chapter, rep)
         check_corpus(book, chapter, rep)

@@ -348,6 +348,25 @@ lemma corrections came from the brief's own list of names the New Testament acce
 Βηθλέεμ and Ἰούδας. The four that went the other way were διασῴζω, which keeps the iota subscript
 the text prints, and the three Βαιθηλ readings the module then settled.
 
+### What it found in Genesis 36
+
+Forty-nine disagreements over 677 words, which came to five questions (the GEN 36 commit has
+them in full). The second pass was right about the largest: `ἡγεμὼν Θαιμαν` is apposition, not
+a genitive, and thirty words turned on it. Κόρε, Ζάρα, Σαούλ and Χαρράν took MorphGNT's accented
+forms. The first pass kept the masculine of Ισραηλ, Μαδιαμ and Εδωμ as a people, which GEN 14:7
+had settled.
+
+### What it found in Genesis 37
+
+Five disagreements over 769 words, and the second pass was right four times. Μή opening the
+brothers' question at 37:8 is `X-`, as this brief says and GEN 18:17 and 30:2 have it. στακτῆς
+is the adjective στακτός used as a noun, the only way either lexicon files it. Two went past the
+chapter. ὀσφύς is the lemma at 37:34 and at 35:11, whose note had claimed the circumflex was
+MorphGNT's; MorphGNT gives ὀσφύς all eight times, as Middle Liddell does. And γε follows this
+brief's rule for enclitics at 18:13 and 26:9 too, where the corpus had taken MorphGNT's γέ over
+the lexicon's key. It was wrong once: the interrogative ἆρα, which the brief did not cover, is
+`C-` as GEN 18:13 and MorphGNT have it, and the brief now says so.
+
 ## The brief
 
 Copy everything below the rule into a new agent. Replace `<BOOK NAME>`, `<CHAPTER>`,
@@ -405,7 +424,8 @@ Small words are tagged as MorphGNT tags them:
 - **D-** αὐτοῦ meaning *here*, under the lemma αὐτοῦ, as MorphGNT has it (Matt 26:36); κύκλῳ, *round
   about*, under κύκλῳ (Mark 3:34); πρωΐ, filed as
   πρωΐ
-- **C-** ἄρα, *then, perhaps*, as MorphGNT codes it 46 times of 49
+- **C-** ἄρα, *then, perhaps*, as MorphGNT codes it 46 times of 49; and the interrogative ἆρα,
+  as MorphGNT codes it twice of three (Acts 8:30, Gal 2:17)
 - **D-** οὐ, μή, νῦν, τότε, εὖ, ἅμα with no dative after it, ἔτι, ἐκεῖ, ἐκεῖθεν, ποῦ, δεῦτε; καί meaning *also, even*, and the καί of
   `καὶ γάρ` (all 38 times in MorphGNT); ὅθεν meaning *from where* (Matt 12:44); οὐδέ meaning *not
   even*; ὅτε after a noun of time (`ἔρχεται ὥρα ὅτε`, John 4:21); οὗ meaning *where* (οὗ meaning
@@ -500,7 +520,8 @@ Conventions:
 The dictionary form as Middle Liddell (Perseus) files it:
 
 - Koine spellings: γίνομαι, γινώσκω. No iota subscript where Perseus has none: ἀποθνήσκω.
-  Enclitics unaccented: τε.
+  Enclitics unaccented, as Middle Liddell keys them: τε, γε (MorphGNT accents γέ; the lexicon
+  does not).
 - Verbs with no active in use under their middle form, as MorphGNT files them: ἐργάζομαι,
   πορεύομαι, ἐκπορεύομαι, εἰσπορεύομαι, εἰσέρχομαι, ἐντέλλομαι, φοβέομαι, ἀπέρχομαι,
   καταράομαι, ἐκλέγομαι, ἐνθυμέομαι, θυμόομαι (for ἐθυμώθη, as MorphGNT has it at Matt 2:16),

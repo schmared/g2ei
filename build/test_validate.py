@@ -33,6 +33,7 @@ import morph_diff as D  # noqa: E402
 GEN = json.loads((render.DATA / "GEN/1.json").read_text(encoding="utf-8"))
 GEN3 = json.loads((render.DATA / "GEN/3.json").read_text(encoding="utf-8"))
 GEN7 = json.loads((render.DATA / "GEN/7.json").read_text(encoding="utf-8"))
+GEN36 = json.loads((render.DATA / "GEN/36.json").read_text(encoding="utf-8"))
 JHN = json.loads((render.DATA / "JHN/1.json").read_text(encoding="utf-8"))
 
 
@@ -253,6 +254,19 @@ NEGATIVE = [
     ("articles a case marked twice before the article's noun",
                                          lambda: run(V.check_articles, "GEN", 1,
                                                      mut(GEN, [0, "reading"], "x of of the ones y"))),
+    # GEN 36:10 had read `the sons of Ησαυ; Ελιφας son Αδας`: a genitive name unmarked
+    ("names  a genitive name with no `of`",
+                                         lambda: run(V.check_name_cases, "GEN", 36, [
+                                             dict(v, reading=v["reading"].replace(
+                                                 "son of [[name:Αδας]]", "son [[name:Αδας]]"))
+                                             for v in GEN36])),
+    # GEN 14:13 τῇ δρυὶ τῇ Μαμβρη: the second article is not the name's, so a `the` before
+    # the name does not stand in for its marker
+    ("names  an article in another case taken for the name's own",
+                                         lambda: run(V.check_name_cases, "GEN", 36, [
+                                             dict(v, reading=v["reading"].replace(
+                                                 "of the sons of [[name:Ησαυ]]", "of the sons the [[name:Ησαυ]]"))
+                                             for v in GEN36])),
     # GEN 7:16 τὰ εἰσπορευόμενα is neuter: the article's noun is `things`, not `ones`
     ("articles a neuter participle given `the ones`",
                                          lambda: run(V.check_articles, "GEN", 7, [
