@@ -365,6 +365,11 @@ LSJ = {
     # 4 Ki 7:2.
     "ἐνδοξάζω": ["be glorified"],
     "τριστάτης": ["one who stands next to the king and queen, vizier"],
+    # EXO 15. Neither is in Middle Liddell. LSJ (eng21): σκεπαστής, "shelterer, protector", citing Ex 15:2,
+    # one translation. LSJ (eng1): ἁγίασμα, "= ἁγιαστήριον", a pointer to "holy place, sanctuary", which
+    # Middle Liddell lacks too, then "holiness".
+    "σκεπαστής": ["shelterer, protector"],
+    "ἁγίασμα": ["holy place, sanctuary", "holiness"],
     # EXO 12. None of these is in Middle Liddell. LSJ (eng3): γειώρας, "sojourner", "proselyte". LSJ
     # (eng4): δέσμη, "package, bundle", "a measure in Egypt", "in Medicine, handful"; Rahlfs prints the
     # accusative δεσμήν, the module δέσμην. LSJ (eng5): ἐνδόσθια, "= ἐντόσθια", a pointer to ἐντόσθιος,
@@ -1005,7 +1010,8 @@ NOT_SENSES = {
     "proskale/w": {"I have called"},            # a piece of an example
     "sunagwgh/": {"a levying", "a gathering in of"},  # pieces of examples
     "a)panta/w": {"from", "anyone that meets you, any chance person"},  # pieces of examples
-    "du/w": {"plunged into", "plunge into", "go in to"},  # pieces of examples
+    "du/w": {"plunged into", "plunge into", "go in to", "he got himself unto", "got behind", "setting", "sank",
+             "wilt", "put on", "to enter, come over", "upon", "filled"},  # pieces and translations of examples; "to enter, come over or upon", cut, whole in MARKUP_LOST
     "a)fikne/omai": {"from", "the person reached"},  # pieces of examples
     "u(poti/qhmi": {"beginning"},               # a piece of an example
     "e)pixe/w": {"shed over", "throw", "oneself"},  # pieces of examples
@@ -1390,6 +1396,25 @@ NOT_SENSES = {
     "suntara/ssw": {"confounded with"},         # a passive example's
     "sunde/w": {"drawn up", "gird up thy"},     # a passive and a middle example's
     "a)/cwn": {"the wooden tablets of", "laws, made to turn upon an axis"},  # οἱ ἄξονες, Solon's laws
+    # EXO 15
+    "e)/ndocos": {"held in esteem", "honour, of high repute"},  # "held in esteem or honour …", cut, whole in MARKUP_LOST
+    "doca/zw": {"can I suppose", "is supposed", "to entertain"},  # examples' translations; δόξαν δοξάζειν, the phrase's
+    "katadu/w": {"set", "having popped down", "we will go down", "to cut", "down to the water's edge, disable"},  # examples'; "to cut it … disable", cut, whole in MARKUP_LOST
+    "ku=ma": {"pregnant"},                     # "as if pregnant", the gloss's own gloss
+    "th/kw": {"to cause to waste", "pine away", "is consumed", "dead", "languishing"},  # "to cause to waste or pine away", cut, whole in MARKUP_LOST; examples'
+    "me/geqos": {"greatness"},                 # "greatness, i. e. might, power": the i. e. explains it
+    "e(toi=mos": {"ready", "in hand", "off-hand, forthwith", "what comes to hand", "ready to", "readiness", "readily"},  # examples', phrases', the neuter's, the adverb's
+    "katerga/zomai": {"achieved", "is subdued, brought under cultivation", "be prevailed upon", "to make"},  # passive examples'; κ. μέλι, an example's
+    "xoro/s": {"round", "a single actor"},     # pieces of the note on the Attic chorus
+    "e)ca/rxw": {"to begin", "address"},       # an example's: to begin a hymn, address it
+    "a)koh/": {"tidings"},                     # an example's repeat
+    "foi=nic": {"bay", "red", "dark reds", "brighter shades"},  # examples'; the note on colours
+    "no/sos": {"madness"},                     # θεία ν., the phrase's
+    "sku=lon": {"arms taken as spoil"},        # an example's
+    "dii/sthmi": {"to set", "at variance with", "to divide", "into fractions", "made way, opened", "chasms",
+                  "to stand at certain distances", "intervals"},  # cut, whole in MARKUP_LOST; examples'
+    "a)ei/dw": {"to sing in one's praise"},    # ἀείδειν ἀμφί τινος, the phrase's
+    "w)di/s": {"birth"},                       # an example's, at a single birth
     "e)panastre/fw": {"to turn back upon"},    # "to turn back upon one", cut, whole in MARKUP_LOST
     "r(h/gnumi": {"to break, break asunder", "in pieces, rend, shiver, shatter", "force one's", "breaking into speech",
                   "rumpere vocem", "having let loose"},  # "to break … or in pieces", cut, whole in MARKUP_LOST; a piece, examples', Virgil
@@ -1514,6 +1539,36 @@ _APOLLUMI_ACT = {"to destroy utterly, kill, slay", "to destroy, demolish, waste"
 _APOLLUMI_MID = {"to perish utterly, die", "to be undone", "you are done for, lost, ruined",
                  "to be lost, slip away, vanish"}
 FORM_SENSES = {
+    # EXO 15. δοξάζω's passive leaves out the intransitive "to hold an opinion"; καταδύω's second aorist,
+    # intransitive, the causal "to make to sink … mostly in aor1" (κατέδυσαν, 15:5, is either aorist's third
+    # plural, and sinks); ᾠδή's singular the plural's "lyric poetry"; σκῦλον's plural the singular's
+    # "booty, spoil, prey"; ἀκοή's other cases the dative's "by hearsay". The actives of μερίζω, θραύω and
+    # ἀείδω leave out the middle's and the passive's senses, and the middle of κατεργάζομαι the passive's.
+    "doca/zw": [("PIFAXY", "P", NOT_SENSES["doca/zw"] | {"to hold an opinion"})],
+    "katadu/w": [("A", "A", NOT_SENSES["katadu/w"] | {"to make to sink", "to cut down to the water's edge, disable"},
+                  "δυ(ν|ς|μεν|τε|σαν)$")],
+    # δύω: "Causal in fut. and aor1, to strip off"; the second aorist, ἔδυ, ἔδυσαν, is not causal (GEN 28:11,
+    # EXO 15:10), and leaves it out.
+    "du/w": [("A", "A", NOT_SENSES["du/w"] | {"to strip off"}, "δυ(ν|ς|μεν|τε|σαν)?$")],
+    "w)|dh/": [("-", "-", {"lyric poetry"}, None, "^.....S")],
+    # ὠδίς: "mostly in pl. the pangs or throes of labour … in sg. travail-pain, anguish … in sg., also, the
+    # fruit of travail or labour, a birth, child … also in pl., of love, pangs": the plural of 15:14 leaves
+    # out the singular's, and the singular the plural's.
+    "w)di/s": [("-", "-", NOT_SENSES["w)di/s"] | {"travail-pain, anguish", "the fruit of travail", "labour, a birth, child"},
+                None, "^.....P"),
+               ("-", "-", NOT_SENSES["w)di/s"] | {"the pangs", "throes of labour, travail-pains", "pangs"})],
+    "sku=lon": [("-", "-", NOT_SENSES["sku=lon"] | {"booty, spoil, prey"}, None, "^.....P")],
+    "a)koh/": [("-", "-", NOT_SENSES["a)koh/"] | {"by hearsay"}, None, "^....[^D]")],
+    "meri/zw": [("PIFAXY", "A", {"to divide among themselves", "to take part in", "to be divided", "to be reckoned as part"})],
+    "qrau/w": [("PIFAXY", "A", {"to fly into pieces"})],
+    "a)ei/dw": [("PIFAXY", "A", NOT_SENSES["a)ei/dw"] | {"to be sung"})],
+    "katerga/zomai": [("PIFAXY", "M", NOT_SENSES["katerga/zomai"] | {"to be effected", "to be overcome"})],
+    # διΐστημι: "Mid. and Pass., with aor2, perf., and plup. act., to stand apart, to be divided"; the
+    # second aorist διέστη (15:8) is intransitive and leaves out the transitive senses and "aor1 mid. is
+    # trans. to separate".
+    "dii/sthmi": [("A", "A", NOT_SENSES["dii/sthmi"] | {"to set apart, to place separately, separate",
+                                                        "to set one at variance with", "to divide it into fractions",
+                                                        "to separate"}, "στη(?!σ)")],
     # EXO 14. ἐναντίος: "in adv. usages: neut. ἐναντίον, opposite, face to face … as prep. c. gen. in the
     # presence of, before … against … contrariwise … on the other hand", and the adverb ἐναντίως, are
     # the neuter's, which the preposition ἐναντίον reads from this card; οἱ ἐν., "one's adversaries",
@@ -1898,6 +1953,12 @@ FORM_SENSES = {
 # (κατέναντι reads "= κατεναντίον" and glosses nothing itself). Each is recorded in
 # reference/lexicon-notes.md with the entry it resolves to.
 SPELLING = {
+    "profh=tis": "profh/ths",         # προφῆτις, "fem. of προφήτης", and nothing more (EXO 15:20)
+    "dii+/sthmi": "dii/sthmi",        # διΐστημι, keyed without the diaeresis (EXO 15:8)
+    "a)/|dw": "a)ei/dw",               # ᾄδω, the Attic contraction of ἀείδω (EXO 15:1)
+    "e(/toimos": "e(toi=mos",          # ἕτοιμος, the entry headed with the circumflex (EXO 15:17)
+    "e)ndo/cws": "e)/ndocos",          # the adverb, named inside the adjective's entry, "adv. -ως" (EXO 15:1)
+    "a)poliqo/w": "a)poliqo/omai",     # the passive the text uses, "Pass. to become stone" (EXO 15:16)
     "stratia/": "strati/a",            # στρατιά, Middle Liddell's στρατία, "= στρατός, an army" (EXO 14:4)
     "perizw/nnumi": "perizw/nnumai",   # the middle, "with perf. pass. -έζωσμαι", the voice the text uses (EXO 12:11)
     "o)leqreu/w": "o)loqreu/w",        # ὀλεθρεύω, Middle Liddell's ὀλοθρεύω (EXO 12:23)
@@ -2195,6 +2256,15 @@ MARKUP_LOST = {
     "summi/gnumi": [(11, "to make acquainted with")],
     "u(pa/gw": [(6, "to bring before the judgment-seat")],
     "e)panastre/fw": [(0, "to turn back upon one")],
+    "e)/ndocos": [(0, "held in esteem or honour, of high repute")],  # «held in esteem» or «honour, of high repute» (EXO 15:1)
+    # EXO 15. καταδύω: "«to cut» it «down to the water's edge, disable» it"; τήκω: "«to cause to waste» or
+    # «pine away»"; διΐστημι: "«to set» one «at variance with» another", "«to divide» it «into fractions»",
+    # "«to stand at certain distances» or «intervals»".
+    "katadu/w": [(11, "to cut down to the water's edge, disable")],
+    "du/w2": [(14, "to enter, come over or upon")],  # «to enter, come over» or «upon»
+    "th/kw": [(2, "to cause to waste or pine away")],
+    "dii/sthmi": [(1, "to set one at variance with"), (4, "to divide it into fractions"),
+                  (13, "to stand at certain distances or intervals")],
     "r(h/gnumi": [(0, "to break, break asunder or in pieces, rend, shiver, shatter")],  # «to break, break asunder» or «in pieces, rend, shiver, shatter»
     # EXO 12. αὐτόχθων: "αὐτόχθονες, οἱ, like Lat. Indigenae, aborigines, natives"; προσήλυτος: "a
     # sojourner, Lat. advena: one who has come over to Judaism, a convert, proselyte". The English

@@ -36,6 +36,7 @@ GEN7 = json.loads((render.DATA / "GEN/7.json").read_text(encoding="utf-8"))
 GEN36 = json.loads((render.DATA / "GEN/36.json").read_text(encoding="utf-8"))
 GEN19 = json.loads((render.DATA / "GEN/19.json").read_text(encoding="utf-8"))
 EXO8 = json.loads((render.DATA / "EXO/8.json").read_text(encoding="utf-8"))
+EXO15 = json.loads((render.DATA / "EXO/15.json").read_text(encoding="utf-8"))
 JHN = json.loads((render.DATA / "JHN/1.json").read_text(encoding="utf-8"))
 
 
@@ -606,6 +607,14 @@ CONTROL = [
                                                      mut(GEN, [0, "reading"],
                                                          "x in the presence of [[of lord|of lord, of master|κύριος]] y"))),
     # EXO 14:22 ἐξ εὐωνύμων: εὐώνυμος is *of good name*, and its genitive marks the case before it
+    # EXO 15:26 ἐνωτίσῃ ταῖς ἐντολαῖς: the verb's one translation ends in *to*
+    ("articles ἐνωτίζομαι's own *to* before a dative",
+                                         lambda: run(V.check_articles, "GEN", 1,
+                                                     mut(GEN, [0, "reading"],
+                                                         "x you may hearken to [[to the injunctions|to the injunctions and orders|ἐντολή]] y"))),
+    # EXO 15:1 ᾌσωμεν: a capital with its iota beside it is titlecase, not upper case
+    ("names    clean EXO 15, a titlecase capital opening speech",
+                                         lambda: run(V.check_names, EXO15)),
     ("articles εὐώνυμος's own *of* inside its genitive",
                                          lambda: run(V.check_articles, "GEN", 1,
                                                      mut(GEN, [0, "reading"],

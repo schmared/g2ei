@@ -245,3 +245,23 @@ participle's, its impersonal's or an example's is a sorting of the whole entry, 
 
 **Recommendation:** settle the card in `NOT_SENSES` and `FORM_SENSES` (participle used as a noun apart,
 impersonal apart), then reread the six units from it.
+
+## Q13. An adverb its entry names and never glosses — ἐνδόξως
+
+**Where:** EXO 15:1 and 15:21, ἐνδόξως γὰρ δεδόξασται.
+
+**Now:** Middle Liddell has no ἐνδόξως; ἔνδοξος ends *adv. -ως, hence Sup. ἐνδοξότατα*, with no translation.
+The corpus reads such adverbs from their adjective's entry (δικαίως, βαρέως, ἀφρόνως), making adverbs of
+the adjective's senses. ἔνδοξος's first sense, *held in esteem or honour, of high repute*, has no English
+adverb; its second, *notable*, has one. The reading keeps the first as it stands and makes the second an
+adverb: `held in esteem and honour and of high repute, notably`.
+
+- now: `held in esteem and honour and of high repute, notably`
+- the adjective's senses as they stand: `held in esteem and honour and of high repute, notable`
+- LSJ, which glosses the adverb's use (*glorious*): not available while Middle Liddell has the word.
+
+**The difference:** the first reading mixes an adjective phrase with an adverb; the second reads an adverb as
+an adjective. Neither adds a word the entry lacks.
+
+**Recommendation:** keep it as it is: where English has the adverb, use it; where it has none, the entry's
+phrase stands.

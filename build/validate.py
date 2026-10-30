@@ -334,7 +334,8 @@ def proper_names(greek):
     words, out, initial = greek.split(), [], True
     for word in words:
         bare = word.strip("".join(set(",.;:·!?()[]«»—’")))
-        if bare and bare[0].isupper() and not initial:
+        # A capital with its iota written beside it (ᾌσωμεν, EXO 15:1) is titlecase, not upper case.
+        if bare and (bare[0].isupper() or bare[0].istitle()) and not initial:
             out.append(bare)
         initial = bool(word) and word[-1] in SENTENCE_END
     return out
@@ -1150,7 +1151,9 @@ DOUBLED = re.compile(r"(?<![\w\-|\[])(of|to) (?:\[\[(?!name:))?\1 (?=the |\w)")
 # A preposition read as plain text, its one translation ending in the word a case marker
 # uses: ἔναντι is *in the presence of*, and the genitive after it opens with its own *of*,
 # as ἐναντίον's unit, *in the presence of*, stands before *of lord*. That *of* is the gloss's.
-PLAIN_LEADS = ("in the presence ",)
+# ἐνωτίζομαι is *to hearken to*, one translation, and the dative after it opens with its own *to*
+# (EXO 15:26).
+PLAIN_LEADS = ("in the presence ", "hearken ")
 # A gloss that opens with the word a case marker uses: εὐώνυμος is *of good name* and *of good
 # omen*, and its genitive marks the case before the gloss's own *of* — `of of good name` (EXO 14:22).
 GLOSS_LEADS = ("of of good name", "of of good omen")

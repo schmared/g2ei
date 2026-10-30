@@ -593,6 +593,13 @@ Middle Liddell's impersonal headword. ὄνου stays feminine, the she-ass whos
 Two disagreements over 786 words, and the second pass was right on both: Μαγδώλου is feminine, a town
 in -ος as Αἴγυπτος is, and 14:19's ἐξῆρεν δὲ καί is the adverb, *also*, as GEN 19:35 ἐπότισαν δὲ καί.
 
+### What it found in Exodus 15
+
+Six disagreements over 509 words. The second pass was right on four: ὠδῖνες files under ὠδίς, Middle
+Liddell's nominative; Φυλιστιιμ and Χανααν are accusatives after κατοικέω, *dwelling in*; and Μερρα is
+feminine, as Μερρας declines it in the same verse. βοηθός stays a noun, as GEN 2:18 and 2:20 have it, and
+ἐμπίπλημι keeps the corpus's spelling.
+
 ## The brief
 
 Copy everything below the rule into a new agent. Replace `<BOOK NAME>`, `<CHAPTER>`,

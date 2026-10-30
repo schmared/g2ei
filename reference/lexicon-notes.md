@@ -805,7 +805,7 @@ the same ground as `the sixth` and `the seventh`: one sense each, so no range to
 | ἐν, with ἡμεῖς | `in us` | `within, inside of, and by means of us` | 34:10 |
 | ἐπιγαμβρεύω | `marry as the next of kin` | `marry as the next of kin` | 34:9 |
 | ἔγκειμαι | `was lying in` | `was lying in and wrapped in, was involved in, was pressing upon, was urgent and insisting, was devoted to` | 34:19 |
-| ἔνδοξος | `most held in esteem` | `most held in esteem, most held in honour and of the highest repute, most notable` | 34:19 |
+| ἔνδοξος | `most held in esteem` | `most held in esteem and honour and of the highest repute, most notable` | 34:19 |
 | ὀλιγοστός | `one out of a few`, plain text: one translation; EXO 11 took out what the entry does not give (*the smallest space* is an example's, in `NOT_SENSES`) | | 34:30 |
 | ὁμοιόω | `let us be made like` | `let us be made like, let us be likened and compared, let us become like, let us be like` | 34:23 |
 | ὁμοιόω | `they will be made like` | `they will be made like, they will be likened and compared, they will become like, they will be like` | 34:22 |
@@ -1403,7 +1403,7 @@ the same ground as `the sixth` and `the seventh`: one sense each, so no range to
   so the nations Jacob is to become are `bringings together`. 28:3.
 - παροίκησις — one sense, *a neighbourhood*: the land lived beside rather than owned. 28:4.
 - ἀπαντάω — Middle Liddell opens with *to move from*, and *to meet* follows; with the dative here. 28:11.
-- δύω — *to strip off* heads the entry; the sun's *sank and set* is the last of the four. 28:11.
+- δύω — the entry is *causal in fut. and aor1, to strip off*; the second aorist ἔδυ is not, and leaves it out (`FORM_SENSES`, settled at EXO 15:10): *entered* heads. 28:11.
 - κεφαλή — πρὸς κεφαλῆς, with no article in the Greek, so `of head` without one. 28:11, 28:18.
 - ἐνυπνιάζομαι — no Middle Liddell entry; LSJ gives *dream*, and that one sense is the whole chain. 28:12.
 - κλίμαξ — Middle Liddell heads the entry κλῖμαξ; Rahlfs's spelling is kept. 28:12.
@@ -1431,7 +1431,7 @@ the same ground as `the sixth` and `the seventh`: one sense each, so no range to
 | δεκάτη | `a tenth` | `a tenth, a tenth part and tithe, a tenth day` | 28:22 |
 | διαφυλάσσω | `may watch closely` | `may watch closely and guard carefully, may observe closely, may observe and maintain, may guard against` | 28:20 |
 | διαφυλάσσω | `watching closely` | `watching closely and guarding carefully, observing closely, observing and maintaining, guarding against` | 28:15 |
-| δύω | `stripped off` | `stripped off, entered and made one's way into, went in to, sank and set` | 28:11 |
+| δύω | `entered` | `entered and made one's way into, sank into, set, got into and put on, entered and came over and upon` | 28:11 |
 | εἰμί | `may be` | `may be` | 28:20 |
 | εὐλογέω | `may he speak well of` | `may he speak well of, may he praise, may he honour, may he bless` | 28:3 |
 | εὐλογέω, with ἐν τῷ | `in the speaking well of` | `within, inside of, and by means of the speaking well of, the praising, the honouring, the blessing` | 28:6 |
@@ -7556,3 +7556,59 @@ text uses. Chains already in the corpus (Genesis) were read from it and re-infle
   (plural).
 - One translation each, plain text: ἔπαυλις (*a fold*), ἐνώπιον (*face to face*), σκληρύνω, καταδιώκω (*to
   pursue closely*), συναπάγω's active (*to lead away with*), ἑξακόσιοι, ἄξων (*an axle*).
+
+### Words new in EXO 15
+
+- **From LSJ** (not in Middle Liddell): σκεπαστής, `shelterer and protector`, citing 15:2; ἁγίασμα, LSJ's
+  *= ἁγιαστήριον*, a pointer to *holy place, sanctuary*, then *holiness*: `holy place and sanctuary,
+  holiness` (15:17).
+- **Spelling and close forms** (`SPELLING`): ᾄδω under ἀείδω, the uncontracted headword; διΐστημι under
+  the key without its diaeresis; ἕτοιμος under ἑτοῖμος; ἀπολιθόω under the passive Middle Liddell heads,
+  ἀπολιθόομαι, *to become stone*, the voice 15:16 uses; προφῆτις under προφήτης, *fem. of προφήτης*, and
+  nothing more, read as GEN 20:7 reads it; ἐνδόξως under ἔνδοξος, which names the adverb and glosses it
+  nowhere (open question Q13). ὠδῖνες is filed under ὠδίς, Middle Liddell's nominative, as the second pass had
+  it.
+- **Cut translations restored** (`MARKUP_LOST`): ἔνδοξος, *held in esteem or honour, of high repute*, which
+  GEN 34:19's superlative now reads as one item; καταδύω, *to cut down to the water's edge, disable*; τήκω,
+  *to cause to waste or pine away*; διΐστημι, *to set one at variance with*, *to divide it into fractions*,
+  *to stand at certain distances or intervals*; δύω, *to enter, come over or upon*.
+- **Form** (`FORM_SENSES`): the intransitive second aorists leave out the causal senses — καταδύω's
+  κατέδυσαν, διΐστημι's διέστη, and δύω's ἔδυσαν, whose entry is *causal in fut. and aor1*. GEN 28:11's ἔδυ,
+  the sun setting, had been headed `stripped off`; it now reads `entered and made one's way into, sank into,
+  set, got into and put on, entered and came over and upon`. δοξάζω's passive leaves out the intransitive
+  *to hold an opinion*; ᾠδή's singular the plural's *lyric poetry*; ὠδίς's plural the singular's, and the
+  singular the plural's; σκῦλον's plural the singular's *booty, spoil, prey*; ἀκοή's other cases the dative's
+  *by hearsay*, which 15:26's ἀκοῇ reads. The actives of μερίζω, θραύω and ἀείδω leave out the middle's and
+  passive's, the middle of κατεργάζομαι the passive's.
+- **Pieces set aside** (`NOT_SENSES`): δοξάζω, καταδύω, κῦμα (*pregnant*, the gloss's own gloss), τήκω,
+  μέγεθος (*greatness*, i. e. *might, power*), ἕτοιμος, κατεργάζομαι, χορός (the note on the Attic chorus),
+  ἐξάρχω, ἀκοή, φοῖνιξ (the note on colours), νόσος, σκῦλον, διΐστημι, ἀείδω, ὠδίς, δύω.
+- **First senses that ignore the context**, as the rule has them: δοξάζω heads `has been thought`, its *to
+  magnify, extol* last; φοῖνιξ heads `of purple-reds`, the palm its third sense.
+- **Validator**: a capital with its iota written beside it (ᾌσωμεν) is titlecase, and the names check reads it
+  as a capital; ἐνωτίζομαι's plain *hearken to* may stand before a dative's *to* (`PLAIN_LEADS`).
+- New chains: ᾄδω `sang`, `let us sing`; ᾠδή `the song`; ἐνδόξως `held in esteem`; δοξάζω `has been thought`,
+  `I will think`, `having been thought`; ἵππος `a horse`; ἀναβάτης `one mounted`, `ones mounted`, `to ones
+  mounted`; θάλασσα `to sea`; σκεπαστής `shelterer`; σωτηρία `a saving`; ὑψόω `I will lift high`; συντρίβω
+  `rubbing together`, `you rubbed together`; πόλεμος `battles`; ἅρμα `to chariots`; ἐπίλεκτος `chosen`;
+  καταποντίζω `threw into the sea`; πόντος `to sea`; καταδύω `went down`; βυθός `depth`; θραύω `broke in
+  pieces`; ἐχθρός `one's enemies`, `the one's enemy`; πλῆθος `to the great number`; δόξα `of the notion`, `in
+  notions`; πνεῦμα `of blowing`; θυμός `of the soul`; διΐστημι `stood apart`; πήγνυμι `was made fast`; κῦμα
+  `the anything swollen`; διώκω `having pursued`; καταλαμβάνω `I will seize upon`; μερίζω `I will divide`;
+  σκῦλον `arms stript off a slain enemy`; ἐμπίπλημι `I will fill quite full`; ἀναιρέω `I will take up`; δύω
+  `entered`; σφοδρός `to vehement`; θεός `in gods`; ἅγιος `in devoted to the gods`; θαυμαστός `wondrous`;
+  ποιέω `making`; τέρας `signs`; ἐκτείνω `you stretched out`; ὁδηγέω `you led`; δικαιοσύνη `to the
+  righteousness`; λυτρόω `you released on receipt of ransom`; παρακαλέω `you called to`; κατάλυμα `inn`;
+  ὀργίζω `were made angry`; ὠδίς `pangs`; σπεύδω `set a-going` (plural); τρόμος `trembling`; τήκω `were
+  melted`; ἐπιπίπτω `may fall upon`; μέγεθος `to greatness`; παρέρχομαι `may go by`; κτάομαι `you procured for
+  yourself`; εἰσάγω `having led in`; ἕτοιμος `at hand`; κατοικητήριον `a dwelling-place`; κατεργάζομαι `you
+  effected by labour`; ἁγίασμα `holy place`; αἰών `period of existence`; προφῆτις `the one who speaks for a
+  God and interprets his will`; τύμπανον `the kettledrum`; χορός `of round dances`; ἐξάρχω `was beginning
+  with`; εὑρίσκω `were finding`; ἐπονομάζω `was given a surname`; πίνω `we will drink`; γλυκαίνω `was
+  sweetened`; δικαίωμα `acts by which wrong is set right`; κρίσις `separatings`; πειράζω `made proof`; ἀκοή `to
+  a hearing`; ἀκούω `you may hear`; ἀρεστός `the acceptable`; ἐντολή `to the injunctions`; φυλάσσω `you may keep
+  watch and ward`; νόσος `sickness`; ἐπάγω `I brought on`; ἰάομαι `the one healing`; στέλεχος `crowns of the
+  root`; φοῖνιξ `of purple-reds`.
+- One translation each, plain text: μόλιβος (*lead*), ἐρυθρός (*red*), βραχίων (*the arm*), κληρονομία (*an
+  inheritance*), καταφυτεύω (*to plant*), ἀπολιθόω, ἀδελφή (*a sister*), διαγογγύζω (*to murmur among
+  themselves*), ἐνωτίζομαι (*to hearken to*), and the numerals.
