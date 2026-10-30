@@ -105,3 +105,42 @@ after it.
 
 **Recommendation:** keep following it. The entry's only `<tr>` belongs to another writer, and LSJ
 itself says what the word means here by sending the reader to ἐμβλέπω.
+
+## Q6. The reflexive dative in plain text — ἑαυτοῖς
+
+**Where:** GEN 3:7, 6:2, 6:4, 11:4, 11:29, 47:23; EXO 5:7, 5:11.
+
+**Now:** ἑαυτοῖς is a pronoun and stays plain text, and the corpus reads it two ways: *for
+themselves* (GEN 3:7, 6:2, 6:4, 11:4, 11:29, EXO 5:7) and *to yourselves* (GEN 47:23, EXO 5:11).
+At EXO 5:11 *for* was not open to it: γάρ's unit heads with *for* in the same verse, and a plain
+*for* beside it reads as the particle left bare.
+
+| | EXO 5:7 *συναγαγέτωσαν ἑαυτοῖς ἄχυρα* | EXO 5:11 *συλλέγετε ἑαυτοῖς ἄχυρα* |
+|---|---|---|
+| now | `let them bring together for themselves husks` | `collect to yourselves husks` |
+| the case's marker everywhere | `… to themselves husks` | `… to yourselves husks` |
+
+**The difference:** *for* says what the dative is for here, which is a reading of its use; *to* is
+the dative's marker on every declined word, whatever the use. A pronoun has not been held to the
+marker, but nothing in the rule exempts it.
+
+**Recommendation:** *to* everywhere, as the case's own marker, and the six *for*s changed.
+
+## Q7. An example's translation that names a sense
+
+**Where:** EXO 5: φόνος, καλάμη, σύνταξις; earlier, ψῆφος (EXO 4), κωφός (EXO 4).
+
+**Now:** Middle Liddell often translates a whole example phrase, and only part of the
+translation is the word's. The corpus files such a translation in `NOT_SENSES` when it is the
+phrase's (ψῆφος's *by vote*) or repeats a sense above it, and keeps it when it is the word's own
+English in that use. Three calls in EXO 5 sit near the line:
+
+| entry | the run | now |
+|---|---|---|
+| φόνος | *f. ἑκούσιος and ἀκούσιος «murder and manslaughter»* | filed: the adjectives carry the difference |
+| καλάμη | *perceive «the stubble» (i. e. «the residue)» of former strength* | filed: says what the metaphor means |
+| σύνταξις | *ἡ εἰς μυρίους σ. their «contingent» towards 10,000* | kept: σύνταξις itself, in that use |
+
+**Recommendation:** the test the corpus has used — keep a translation of the word, file a
+translation of the phrase — written down in `/reference/lexicon-notes.md`, so these calls are made
+the same way each time.

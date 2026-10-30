@@ -211,6 +211,18 @@ def drifted(pairs):
     return len(V.chains_that_drifted({("αὐξάνω", "was made large"): dict(pairs)}))
 
 
+def drifted_by_card(cards):
+    """cards: [(chain, ref, card)] for δίδωμι `to give` -> how many groups drift."""
+    seen = {}
+    for chain, ref, card in cards:
+        seen.setdefault(("δίδωμι", "to give", card), {})[chain] = ref
+    return len(V.chains_that_drifted(seen))
+
+
+PRESENT_GIVE = "to give, to be ready to give and offer, to grant"
+AORIST_GIVE = "to give, to grant"
+
+
 def every_marked_name_is_a_name():
     """A word a verse marks as a name is a name in the layer, whatever the lexicon holds.
 
@@ -492,6 +504,14 @@ CONTROL = [
     ("chains   the aspect formula is not a sense",
                                          lambda: holds(drifted([(FULL, "GEN 21:8"), (PERFECT, "GEN 30:30")]) == 0,
                                                        "a perfect and an aorist may share a headword")),
+    ("chains   two forms the lexicon reads apart are not drift",
+                                         lambda: holds(drifted_by_card([(PRESENT_GIVE, "EXO 5:7", ("present",)),
+                                                                        (AORIST_GIVE, "EXO 5:21", ("aorist",))]) == 0,
+                                                       "διδόναι and δοῦναι have different cards")),
+    ("chains   one card read two ways is drift",
+                                         lambda: holds(drifted_by_card([(PRESENT_GIVE, "EXO 5:7", ("card",)),
+                                                                        (AORIST_GIVE, "EXO 5:21", ("card",))]) == 1,
+                                                       "the same card, a sense lost")),
     ("chains   the corpus carries no drift",
                                          lambda: run(V.check_chains, render.PAGE)),
     ("words    a name the verse marks is a name in the layer",

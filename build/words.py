@@ -356,6 +356,14 @@ LSJ = {
     # in square". LSJ (eng7): ζωογονέω, "propagate" or "engender living creatures", "breed",
     # "engender", "to be viviparous", "produce alive", "make alive, quicken", and "= ζωγρέω, preserve
     # alive", citing Ex 1:17; "producing" is a piece of the example of Zeus and Pallas.
+    # EXO 5. LSJ (eng17): πολυπληθέω, "multiply", citing Ex 5:5, and "abound" in feet; πλινθουργία,
+    # "v.l. for πλινθεία 1", a pointer to that sense, "brickmaking". Middle Liddell has only the
+    # middle βδελύσσομαι, which does not say what the active of Ex 5:21 ἐβδελύξατε means; LSJ
+    # (eng2) files it there, "later causal, in Act., cause to stink, make loathsome or abominable",
+    # citing Ex 5:21, as διαναπαύω above.
+    "πολυπληθέω": ["multiply", "abound"],
+    "πλινθουργία": ["brickmaking"],
+    "βδελύσσω": ["cause to stink, make loathsome or abominable"],
     # EXO 4. No Middle Liddell entry. LSJ (eng2): βραδύγλωσσος, "slow of tongue", citing Ex 4:10.
     "βραδύγλωσσος": ["slow of tongue"],
     # EXO 3. None of these is in Middle Liddell. LSJ (eng9): θλιμμός, "= θλῖψις", a pointer, citing
@@ -832,7 +840,7 @@ NOT_SENSES = {
     "du/namis": {"strength", "as far as lies in one"},  # pieces of examples
     "o)/mnumi": {"swears"},                     # a piece of an example
     "e)le/gxw": {"to treat", "with contempt", "to put", "to shame"},  # pieces of examples
-    "a)faire/w": {"having taken", "off"},       # pieces of examples
+    "a)faire/w": {"having taken", "off", "to have", "taken from one"},  # pieces of examples; "to have it taken from one" cut in two, whole in MARKUP_LOST
     "a)mfo/teros": {"on both sides, utrinque", "both ways, in utramque partem"},  # adverbial phrases
     "martu/rion": {"evidence", "here is a proof, namely"},  # pieces of examples
     "o)ru/ssw": {"trench", "to have", "dug"},  # pieces of examples
@@ -1302,6 +1310,14 @@ NOT_SENSES = {
                "elections."},                   # examples' translations, a proverb, the note on ballot and lot
     "e)pista/ths": {"the right-", "left-hand man", "the front-rank man)", "a", "master", "which stood over"},  # παραστάτης's and προστάτης's glosses; "a training-master" cut in two, whole in MARKUP_LOST; a piece
     "be/ltistos": {"my good friend"},             # ὦ βέλτιστε, the vocative's mode of address
+    # EXO 5
+    "a)polei/pw": {"to leave", "in the lurch", "wanting", "of", "wanted", "without", "cognisance"},  # "to leave one in the lurch" cut in two, whole in MARKUP_LOST; examples' pieces
+    "sxola/zw": {"respite from", "opportunity for"},  # cut from their verbs, whole in MARKUP_LOST
+    "merimna/w": {"cares"},                      # the object of an example, πολλὰ μ.
+    "kala/mh": {"straw", "slaughter", "-straw", "the stubble", "the residue)"},  # examples' repeats, what the metaphor means, a piece of wheat-straw
+    "fo/nos": {"a slaughter", "murder, homicide", "for", "murder and manslaughter", "of blood"},  # an example's, the first sense repeated, pieces, an example pair's
+    "ou)ke/ti": {"(not yet)"},                   # what οὔπω means, set against it
+    "kaqh/kw": {"came", "is come", "[the time]", "comes", "duty it is"},  # examples' translations
     "e)rhmo/w": {"of", "without"},                # pieces of "to bereave one of", "to leave the oars without men"
     # ἄν: a paragraph on the particle's uses, tagged as one translation, opens the card.
     "a)/n": {'conditional Particle. In attic, it is not joined with pres. or perf. ind., nor with imperat. of any tense. Three uses of a)/n must be distinguished in practice: in combination with Conjunctions and Relatives. in Apodosis. in Iterative sentences. in combinations with Conjunctions and Relatives: such words are regularly foll. by the subj., viz. e)a/n (= ei) a)/n) h)/n, a)/n , e)ph/n; o(\\s a)/n quicunque'},
@@ -1533,6 +1549,22 @@ FORM_SENSES = {
     # αἰτέω's actives leave out their passives' and middles' senses.
     "r(e/w": [("PIXY", "A", NOT_SENSES["r(e/w"] | {"to let flow, pour"})],
     "qli/bw": [("PIFAXY", "A", NOT_SENSES["qli/bw"] | {"to be compressed"})],
+    # EXO 5. ἀπολείπω's active leaves out the middle "to leave behind one" and the passive's
+    # senses; διαστρέφω's the passive's. ἀφαιρέω's passive leaves out the middle's; the present
+    # ἀφαιρεῖται of Ex 5:11, which takes οὐθέν for its subject, is passive.
+    "a)polei/pw": [("PIFAXY", "A", NOT_SENSES["a)polei/pw"] | {
+        "to leave behind one", "to be left behind, stay behind", "to be distanced by, inferior to",
+        "to be parted from, be absent", "far from", "to be deprived of", "to be wanting in, fall short of",
+        "to be bereft of"})],
+    "diastre/fw": [("PIFAXY", "A", {"to be distorted", "to have one's eyes distorted, to get a squint"})],
+    # καθήκω's "in part." senses, and the attributive participle's "the regular, proper", are the
+    # participle's: a finite form leaves them out (GEN 19:31 καθήκει, EXO 5:13 τὰ καθήκοντα).
+    "kaqh/kw": [("PIFAXY", "A", NOT_SENSES["kaqh/kw"] | {"the regular, proper", "that which is meet, fit",
+                                                       "proper, one's due", "duty",
+                                                       "the present state of things, circumstances"},
+                 None, "^...[^P]")],
+    "a)faire/w": [("PIFAXY", "PE", NOT_SENSES["a)faire/w"] | {"to take away for oneself, take away",
+                                                         "to prevent, hinder from"})],
     "ai)te/w": [("PIFAXY", "A", NOT_SENSES["ai)te/w"] | {"to ask for oneself, to claim", "to have a thing begged of",
                                                          "to be asked"})],
     # EXO 4. ἐπιλαμβάνω: "Mid., with perf. pass., to hold oneself on by, lay hold of, catch … to
@@ -1877,6 +1909,12 @@ MARKUP_LOST = {
     "e)pista/ths": [(10, "a training-master")],
     # "Mid. … to hold oneself on by, lay hold of, catch": "on" stands between two <tr>s.
     "e)pilamba/nw": [(10, "to hold oneself on by, lay hold of, catch")],
+    # EXO 5. Translations a word outside the <tr> cuts: "«to leave» one «in the lurch»", "to have
+    # rest or «respite from» a thing", "to have leisure or «opportunity for» a thing", "«to have»
+    # it «taken from one»". The pieces are in NOT_SENSES.
+    "a)polei/pw": [(8, "to leave one in the lurch")],
+    "sxola/zw": [(5, "to have rest or respite from"), (8, "to have leisure or opportunity for")],
+    "a)faire/w": [(9, "to have it taken from one")],
     # "βίαι τινός against one's will, in spite of him": "one's" stands between two <tr>s.
     "bi/a": [(4, "against one's will, in spite of")],
     "kri/nw": [(0, "to separate, part, put asunder, distinguish")],  # "Lat. cerno, to separate, part, …"

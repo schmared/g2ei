@@ -523,6 +523,13 @@ and θυμόω are Middle Liddell's headwords, with the deponent or passive insi
 is on the brief's list of verbs filed under the middle. MorphGNT files προχειρίζομαι and θυμόομαι;
 the module too.
 
+### What it found in Exodus 5
+
+Three disagreements over 472 words. Two went to the second pass: τὸν Ισραηλ at 5:2 is accusative,
+the object of ἐξαποστέλλω, where the first pass had the genitive; and καί in καθάπερ καὶ ὅτε at 5:13
+is the adverb, *also*, as at GEN 41:21. The first pass stands on προσκαλέω, the corpus's lemma at
+EXO 3:18 and GEN 28:1, where the second filed the middle προσκαλέομαι as MorphGNT does.
+
 ## The brief
 
 Copy everything below the rule into a new agent. Replace `<BOOK NAME>`, `<CHAPTER>`,

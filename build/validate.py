@@ -699,7 +699,7 @@ def check_runs(book, chapter, verses, rep):
 
 
 def chains_that_drifted(seen):
-    """(lemma, headword) -> {chain: ref}  ->  the groups that lost a sense.
+    """(lemma, headword[, card]) -> {chain: ref}  ->  the groups that lost a sense.
 
     One word in one form reads one way. A chain may still wear the form the Greek calls
     for — singular beside plural, imperative beside aorist — and that is not drift. What
@@ -709,9 +709,15 @@ def chains_that_drifted(seen):
     Counting senses is not enough to see that. `took, received, took hold of and grasped
     and seized` and `took, received, took hold of and seized` carry three commas each,
     and the second has lost `grasped`.
+
+    A third item in the key is the card: the senses the lexicon gives that form. Two forms
+    the lexicon reads differently are not one form drifting — δίδωμι's present stem has
+    *to be ready to give, to offer*, which its aorist has not, and διδόναι and δοῦναι are
+    both `to give`.
     """
     out = []
-    for (lemma, head), chains in sorted(seen.items()):
+    for key, chains in sorted(seen.items(), key=lambda kv: tuple(map(str, kv[0]))):
+        lemma, head = key[:2]
         if len(chains) < 2:
             continue
         keyed = {c: senses(c) for c in chains}
@@ -734,7 +740,8 @@ def check_chains(targets, rep):
     headword: `take` is both λαμβάνω and δέχομαι, and their chains share nothing after
     the first gloss. Within one lemma and one headword the chain must be the same
     wherever it stands, or the range the reader is given depends on which chapter they
-    opened.
+    opened. Where the word-by-word layer shows the form's card, units are compared only
+    with units the lexicon gives the same senses.
     """
     before = rep.failed
     seen = {}
@@ -742,9 +749,19 @@ def check_chains(targets, rep):
         path = render.DATA / book / ("%d.json" % chapter)
         if not path.exists():
             continue
+        layer = render.DATA / book / ("%d.words.json" % chapter)
+        lay = ({v["ref"]: v["words"] for v in
+                json.loads(layer.read_text(encoding="utf-8")).get("verses", [])}
+               if layer.exists() else {})
         for verse in json.loads(path.read_text(encoding="utf-8")):
+            words = lay.get(verse["ref"]) or []
+            nth = collections.Counter()
             for head, chain, lemma in units(verse["reading"]):
-                seen.setdefault((lemma, head), {}).setdefault(chain, verse["ref"])
+                word = lemmas(lemma)[-1]
+                k, nth[word] = nth[word], nth[word] + 1
+                places = [w for w in words if w["lemma"] == word]
+                card = tuple(places[k].get("senses") or ()) if k < len(places) else None
+                seen.setdefault((lemma, head, card), {}).setdefault(chain, verse["ref"])
     for lemma, head, where in chains_that_drifted(seen):
         short, long_ = min(where, key=lambda kv: sum(senses(kv[0]).values())), \
             max(where, key=lambda kv: sum(senses(kv[0]).values()))

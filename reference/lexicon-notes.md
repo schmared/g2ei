@@ -7124,3 +7124,52 @@ text uses. Chains already in the corpus (Genesis) were read from it and re-infle
 - One translation each, plain text: κέρκος (*the tail*), δύσκωφος (*stone-deaf*), βραδύγλωσσος,
   συνάντησις (*a meeting*), σκληρύνω (*to harden*), περιτομή (*circumcision*), ἀλλήλων.
 - Names new to the corpus: Ααρων (Aaron), Λευίτης (the Levite).
+
+### Words new in EXO 5
+
+- **From LSJ** (not in Middle Liddell): πολυπληθέω, `multiplies, abounds` (5:5); πλινθουργία, LSJ's
+  pointer to πλινθεία 1, *brickmaking*, plain text (5:7); βδελύσσω, the active of 5:21, which
+  Middle Liddell's middle βδελύσσομαι does not cover: LSJ's causal *cause to stink, make loathsome
+  or abominable*, `you caused to stink and made loathsome and abominable`, as διαναπαύω reads LSJ.
+- **Cut translations restored** (`MARKUP_LOST`): ἀπολείπω, *to leave one in the lurch*; σχολάζω,
+  *to have rest or respite from*, *to have leisure or opportunity for*; ἀφαιρέω, *to have it taken
+  from one*. Each had a word outside the `<tr>` between or before its pieces.
+- **Voice** (`FORM_SENSES`): ἀπολείπω's active leaves out the middle and the passive; διαστρέφω's
+  active the passive; ἀφαιρέω's passive the middle, and the present ἀφαιρεῖται of 5:11, with οὐθέν
+  its subject, is read as passive: `is taken from and taken away from, is removed, is separated and
+  set aside, is robbed and deprived, has it taken from one`.
+- **Pieces set aside** (`NOT_SENSES`): φόνος (an example's, a repeat, pieces, the pair *murder and
+  manslaughter*), καλάμη (examples' repeats, what the metaphor means, a piece of *wheat-straw*),
+  μεριμνάω (*cares*, an example's object), οὐκέτι (*(not yet)*, οὔπω's), καθήκω (examples'
+  translations: *came*, *is come*, *comes*, *duty it is*).
+- **The participle of καθήκω** opens the entry's participle senses as well as the verb's: τὰ καθήκοντα
+  `the things having come and gone down, …, the regular and proper, …, the things which are meet and
+  fit and proper and one's due and duty, the present state of things and circumstances`; τὸ καθῆκον
+  the same in the singular. A finite form leaves the participle's senses out (`FORM_SENSES`),
+  as GEN 19:31 καθήκει's chain already did; cleaning the card had put the two in one group.
+- **The chain check** now compares two units of one lemma and headword only where the lexicon gives
+  their forms the same card. δίδωμι's present stem has *to be ready to give, to offer* and its aorist
+  has not, so διδόναι (5:7) and δοῦναι (5:21) are both `to give` and read different ranges; the
+  ranges check already grouped by card.
+- New chains: ἑορτάζω `may keep festival and holiday, may celebrate as and by a festival`;
+  εἰσακούω `I will hearken`; θάνατος `death`; φόνος `murder and homicide and slaughter, blood shed in
+  murder and gore, a corpse, a death`; διαστρέφω `you turn different ways and twist about and
+  distort, you distort and pervert`; καταπαύω `let us lay to rest`; γραμματεύς `the secretaries and
+  clerks`; οὐκέτι `no more and no longer and no further`; δίδωμι `to give` (present), `is given`,
+  `was being given`, `will be given`; ἄχυρον `husk`, `the husk` (the singular); σύνταξις `the putting
+  together and arranging and arrangement and organisation and order, the rule, the systematic
+  treatise, the narrative, the grammatical construction and syntax, the body of troops, the
+  contingent, the covenant and contract, the assigned impost and contribution, the payment and
+  allowance and pension`, and its plural; σχολάζω `they have leisure`, `you have leisure` (twelve
+  senses); κράζω `have croaked … and it stands so`; βαρύνω `let be weighed down`; μεριμνάω `let them
+  care for`; κατασπεύδω `were pressing and urging and hastening on`; καλάμη `stalk and straw of corn,
+  stalk without the ear and stubble, remains`; μαστιγόω `were whipped and flogged`, `have been
+  whipped and flogged and it stands so`; καθίστημι `the ones having been set down`; ἐπιστάτης `of the
+  ones standing near`; καταβοάω `cried down and cried out against, bawled down and outcried`;
+  σχολαστής `ones who live at ease, leisurely and idle`; ἀπολείπω `you will leave over` (sixteen
+  senses); ἔρχομαι `to coming`; ἐκπορεύομαι `of going out`; ῥύομαι `you drew to yourself`; πορεύομαι
+  `let them be driven`, `I have been driven`; ὁράω `were seeing`; κακός with ἐν, `in evils`; λόγος
+  with ἐν, `in words`; κενός `to empty`.
+- One translation each, plain text: ἐργοδιώκτης (*taskmaster*, LSJ), πλίνθος (*a brick*), ἐχθές,
+  σήμερον, συνάντησις, υἱός, τρεῖς.
+- καί as the adverb, `also`, at 5:13 καθάπερ καὶ ὅτε.
