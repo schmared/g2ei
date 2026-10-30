@@ -613,6 +613,105 @@ def check_chains(targets, rep):
     rep.done("chains", "%d lemma-and-headword groups, no drift" % len(seen), before)
 
 
+# The English a preposition that merges into its object's unit leads that unit with. It is
+# the preposition's range, not the word's, and a chain is measured without it.
+MERGED_LEAD = ("within, inside of, and by means of ", "up to, up along, and throughout ")
+
+# θεός reads by the article's two formulas, fixed wordings of different length, and not by
+# a range drawn from its entry; Ἐν ἀρχῇ, at GEN 1:1 and JHN 1:1, by the wording that keeps
+# the quotation visible.
+FORMULA_LEMMAS = {"θεός"}
+FORMULA_CHAINS = ("within, inside of, and by means of the first moment",)
+
+
+def range_of(chain):
+    """How many senses a chain gives, a merged preposition's English set aside."""
+    for lead in MERGED_LEAD:
+        if chain.startswith(lead):
+            chain = chain[len(lead):]
+    return len(chain.split(", "))
+
+
+_ENTRIES = []
+
+
+def opening(word, chain):
+    """The sense of its entry a noun or adjective opens with, where that is not the first.
+
+    A word used as a noun takes the first noun sense: τὸ καλόν is *beauty*, τὸ κακόν *evil*,
+    τὰ πάντα *all things*, and each is a range of its own beside the adjective's.
+    """
+    import words
+    if not _ENTRIES:
+        _ENTRIES.append(words.load_middle_liddell())
+    for lead in MERGED_LEAD:
+        if chain.startswith(lead):
+            chain = chain[len(lead):]
+    first = re.sub(r"^(?:of |to )?(?:the |a |an )?", "", chain.split(", ")[0]).lower()
+    for i, sense in enumerate(words.lexicon_senses(_ENTRIES[0], word["lemma"]) or []):
+        core = re.sub(r"^(?:to |the |a |an )", "", re.split(r"[,;:]", sense)[0].strip()).lower()
+        if core == first:
+            return "" if i == 0 else core
+    return ""
+
+
+def range_key(word, chain=""):
+    """What decides a word's range: its lemma, part of speech, voice or number, and the
+    senses its entry gives that form, which the word-by-word card shows — and for a noun
+    or adjective, the sense it opens with where it is used as a noun."""
+    parse = word["parse"].split(" · ")
+    voice = next((v for v in ("middle/passive", "passive", "middle", "active") if v in parse), "")
+    number = "" if parse[0] == "verb" else next((n for n in ("singular", "plural") if n in parse), "")
+    degree = next((d for d in ("comparative", "superlative") if d in parse), "")
+    use = opening(word, chain) if parse[0] != "verb" else ""
+    return (word["lemma"], parse[0], voice, number, degree, tuple(word.get("senses") or ()),
+            word.get("more"), use)
+
+
+def check_ranges(targets, rep):
+    """One word reads one range in every form it takes.
+
+    The chain check compares units that share a headword, so ἐπιβάλλω could read five
+    senses as `threw` and eleven as `you may throw`, and γυνή could drop *the mortal woman*
+    from every articular form while the anarthrous kept it, and nothing saw either. Here
+    each unit is paired with the word it opens, and units the lexicon gives the same senses
+    — one lemma, one voice, one number, the same card — must give the reader as many of
+    them, whatever tense, person or case they wear. Counting is not the whole of sameness,
+    which the chain check holds within a headword; it is what can be held across headwords.
+    """
+    before = rep.failed
+    groups = collections.defaultdict(list)
+    for book, chapter in targets:
+        path = render.DATA / book / ("%d.json" % chapter)
+        layer = render.DATA / book / ("%d.words.json" % chapter)
+        if not (path.exists() and layer.exists()):
+            continue
+        lay = {v["ref"]: v["words"] for v in
+               json.loads(layer.read_text(encoding="utf-8")).get("verses", [])}
+        for verse in json.loads(path.read_text(encoding="utf-8")):
+            words = lay.get(verse["ref"]) or []
+            nth = collections.Counter()
+            for head, chain, field in units(verse["reading"]):
+                word = lemmas(field)[-1]
+                k, nth[word] = nth[word], nth[word] + 1
+                if (" + " in field.split(";")[-1] or word in FORMULA_LEMMAS
+                        or chain.startswith(FORMULA_CHAINS)):
+                    continue
+                places = [w for w in words if w["lemma"] == word]
+                if k < len(places):
+                    groups[range_key(places[k], chain)].append(
+                        (range_of(chain), verse["ref"], head))
+    for key, where in groups.items():
+        top = max(where)
+        told = set()
+        for n, ref, head in where:
+            if n < top[0] and (head, n) not in told:
+                told.add((head, n))
+                rep.fail("ranges", ref, "%s `%s` gives %d senses, `%s` at %s gives %d — one "
+                         "word, one range in every form" % (key[0], head, n, top[2], top[1], top[0]))
+    rep.done("ranges", "%d groups of one word's forms, each one range" % len(groups), before)
+
+
 def check_prepositions(targets, rep):
     """A preposition does not inflect, so its chain cannot follow the form.
 
@@ -956,6 +1055,41 @@ def check_name_cases(book, chapter, verses, rep):
              "printed" % seen, before)
 
 
+# The particles that stand second in their clause and so may come between an article and
+# its word: ὁ δὲ θεός, τὸ γὰρ ὕδωρ.
+POSTPOSITIVE = {"δέ", "γάρ", "μέν", "οὖν", "τε", "γε"}
+
+
+def own_article_of(words, i):
+    """Whether the noun or adjective at `i` has an article of its own: one standing directly
+    before it, past a postpositive particle, in its own case, number and gender.
+
+    English gets an article where the Greek has one, and the unit carries it — τὸ σπέρμα σου
+    is *the that which is sown of you*, as τὰ σά is *the thy property*. 66 units had let a
+    gloss that opens with *that which* or *anything* stand in for the article, and the Greek
+    article was lost.
+    """
+    parse = words[i]["parse"].split(" · ")
+    if parse[0] not in ("noun", "adjective"):
+        return False
+    j = i - 1
+    while j >= 0 and words[j]["lemma"] in POSTPOSITIVE:
+        j -= 1
+    if j < 0:
+        return False
+    art = words[j]["parse"].split(" · ")
+    if art[0] != "article":
+        return False
+    # case and number the same; gender the same, or among the two an adjective of two
+    # terminations shares (`masculine/feminine`)
+    for kind in (("nominative", "genitive", "dative", "accusative", "vocative"),
+                 ("singular", "plural")):
+        if [t for t in art if t in kind] != [t for t in parse if t in kind]:
+            return False
+    genders = {g for t in parse[1:] for g in t.split("/")} & {"masculine", "feminine", "neuter"}
+    return not genders or any(t in genders for t in art)
+
+
 def check_unit_cases(book, chapter, verses, rep):
     """Every declined word marks its own case: a genitive or dative unit opens with `of` or
     `to`, whatever the word is — noun, adjective, demonstrative, participle.
@@ -973,7 +1107,7 @@ def check_unit_cases(book, chapter, verses, rep):
         return
     lay = {v["ref"]: v["words"] for v in
            json.loads(path.read_text(encoding="utf-8")).get("verses", [])}
-    seen = 0
+    seen = articled = 0
     for verse in verses:
         words = lay.get(verse["ref"])
         if not words:
@@ -983,9 +1117,14 @@ def check_unit_cases(book, chapter, verses, rep):
             items = lemmas(field)
             word = items[-1].split(" + ")[0]
             k, nth[word] = nth[word], nth[word] + 1
+            places = [i for i, w in enumerate(words) if w["lemma"] == word]
+            if " + " not in items[-1] and k < len(places) and own_article_of(words, places[k]) \
+                    and not re.search(r"\bthe\b", head):
+                articled += 1
+                rep.fail("cases", verse["ref"], "`%s` (%s) has its own article; the unit "
+                         "carries it, `the`" % (head, words[places[k]]["form"]))
             if len(items) > 1 or " + " in items[-1]:
                 continue
-            places = [i for i, w in enumerate(words) if w["lemma"] == word]
             if k >= len(places):
                 continue
             parse = words[places[k]]["parse"].split(" · ")
@@ -1011,7 +1150,48 @@ def check_unit_cases(book, chapter, verses, rep):
             if not head.startswith(CASE_MARK[case] + " "):
                 rep.fail("cases", verse["ref"], "`%s` is %s (%s); it opens `%s %s`"
                          % (head, case, words[places[k]]["form"], CASE_MARK[case], head))
-    rep.done("cases", "%d genitive and dative units, each marked" % seen, before)
+    rep.done("cases", "%d genitive and dative units, each marked; every article carried"
+             % seen, before)
+
+
+# εἰμί's imperfect in the reading: the state formula, its short form, its negative (GEN 2:5),
+# and the Johannine pre-existence forms.
+BE_FORMULA = re.compile(r"kept on (?:not )?being|already in unbroken existence|"
+                        r"was and remained|was — continuously")
+
+
+def check_imperfect_be(book, chapter, verses, rep):
+    """ἦν is never flattened to *was*: every imperfect of εἰμί carries its formula.
+
+    The one settled exception is possession, ἦν with the dative of the owner — ὅσα ἦν αὐτῷ,
+    *as great as was to him* (12:20, 16:1, 24:29) — found here by a dative within three
+    words that no preposition governs. Five had read a bare *was* with no such reason
+    (7:19, 7:22, 7:23, 8:1, 8:9), and nothing saw it.
+    """
+    before = rep.failed
+    path = render.DATA / book / ("%d.words.json" % chapter)
+    if not path.exists():
+        return
+    lay = {v["ref"]: v["words"] for v in
+           json.loads(path.read_text(encoding="utf-8")).get("verses", [])}
+    n = 0
+    for verse in verses:
+        words = lay.get(verse["ref"]) or []
+        need = 0
+        for i, w in enumerate(words):
+            parse = w["parse"].split(" · ")
+            if w["lemma"] != "εἰμί" or "imperfect" not in parse or "indicative" not in parse:
+                continue
+            n += 1
+            owner = any("dative" in words[j]["parse"]
+                        and not (j and words[j - 1]["parse"].startswith("preposition"))
+                        for j in range(max(0, i - 3), min(len(words), i + 4)) if j != i)
+            need += not owner
+        got = len(BE_FORMULA.findall(verse["reading"]))
+        if got < need:
+            rep.fail("anchors", verse["ref"], "%d imperfect%s of εἰμί, %d with a formula — ἦν is "
+                     "never a bare *was*" % (need, "" if need == 1 else "s", got))
+    rep.done("anchors", "%d imperfects of εἰμί, none flattened" % n, before)
 
 
 def check_articles(book, chapter, verses, rep):
@@ -1751,6 +1931,7 @@ def validate(book, chapter, rep):
     check_articles(book, chapter, verses, rep)
     check_name_cases(book, chapter, verses, rep)
     check_unit_cases(book, chapter, verses, rep)
+    check_imperfect_be(book, chapter, verses, rep)
     if EDITIONS.get(book) == "lxx":
         check_morph_shape(book, chapter, rep)
         check_corpus(book, chapter, rep)
@@ -1786,6 +1967,9 @@ def main():
     print("")
     print("chains")
     check_chains(targets, rep)
+
+    print("ranges")
+    check_ranges(targets, rep)
 
     print("prepositions")
     check_prepositions(targets, rep)

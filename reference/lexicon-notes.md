@@ -670,7 +670,7 @@ the same ground as `the sixth` and `the seventh`: one sense each, so no range to
 | κατώτερος | `lower` | `lower, more southerly, later and younger` | 35:8 |
 | λίθινος | `of stone` | `of stone, stony` | 35:14 |
 | μαῖα | `the good mother` | `the good mother, the dame, the fostermother and nurse, the true mother, the midwife` | 35:17 |
-| μνημεῖον | `of the memorial` | `of the memorial, of the remembrance, of the record, of the tomb and monument` | 35:20 |
+| μνημεῖον | `of the memorial` | `of the memorial, of the remembrance, of the record, of the monument` | 35:20 |
 | πένθος | `of mourning` | `of mourning, of grief and sadness, of a mourning garb, of a misfortune and calamity` | 35:8 |
 | παιδίσκη | `of a young girl` | `of a young girl, of a maiden, of a young slave, of a courtesan` | 35:25, 35:26 |
 | παλλακή | `of the concubine` | `of the concubine, of the mistress` | 35:22 |
@@ -678,12 +678,12 @@ the same ground as `the sixth` and `the seventh`: one sense each, so no range to
 | πλήρης | `full` | `full, filled, complete, satisfied, whole and entire` | 35:29 |
 | πορεύομαι | `I was driven` | `I was driven, I was carried, I went, I walked, I marched, I went across and passed` | 35:3 |
 | πρωτότοκος | `firstborn` | `firstborn, first-fruits` | 35:23 |
-| πύργος | `of the tower` | `of the tower, of the city wall, of the moving tower` | 35:16 |
+| πύργος | `of the tower` | `of the tower, of the city walls with towers, of the movable tower for storming, of the tower of defence, of the highest part of any building, of the troops drawn up in close order and the column` | 35:16 |
 | σπένδω | `poured a drink-offering` | `poured a drink-offering, made a drink-offering, poured` | 35:14 |
 | σπονδή | `a drink-offering` | `a drink-offering, a solemn treaty, a truce, the treaty itself` | 35:14 |
 | στολή | `the equipments` | `the equipments, the armaments, the apparel and raiment, the robes` | 35:2 |
 | συναγωγή | `gatherings` | `gatherings, assemblies, places of assembly, synagogues` | 35:11 |
-| τερέμινθος | `the terebinth` | `the terebinth` | 35:4 |
+| τερέμινθος | `the terebinth` | `the terebinth, the turpentine tree` | 35:4 |
 | τοκετός | `in birth` | `within, inside of, and by means of birth, delivery` | 35:16 |
 | τροφός | `the feeder` | `the feeder, the rearer, the nurse` | 35:8 |
 | φόβος | `fear` | `fear, flight, panic, awe and reverence, the object of fear and terror` | 35:5 |
@@ -747,7 +747,7 @@ the same ground as `the sixth` and `the seventh`: one sense each, so no range to
 | διαρπάζω | `tore in pieces` | `tore in pieces, effaced, spoiled and plundered, seized as plunder` | 34:27, 34:29 |
 | εἰρηνικός | `of peace` | `of peace, for peace, peaceful` | 34:21 |
 | εἰσακούω | `you may hearken` | `you may hearken and give ear to, you may hear, you may hearken to and give heed to` | 34:17 |
-| εὑρίσκω | `may I find` | `may I find, may I find out, may I discover` | 34:11 |
+| εὑρίσκω | `may I find` | `may I find, may I find out, may I discover, may I get and gain` | 34:11 |
 | καταμανθάνω | `to observe well` | `to observe well, to examine closely, to learn thoroughly, to perceive and understand, to discover and find, to consider` | 34:1 |
 | κατανύσσω | `were stabbed` | `were stabbed and gouged, were sorely pricked, were bewildered and stunned` | 34:7 |
 | κατοικέω | `to those inhabiting` | `to those inhabiting, to those occupying, to those dwelling and living, to those settled` | 34:30 |
@@ -763,7 +763,7 @@ the same ground as `the sixth` and `the seventh`: one sense each, so no range to
 | οἰκέω | `let them inhabit` | `let them inhabit, let them occupy, let them dwell and live, let them be settled` | 34:21 |
 | οἰκέω | `they will inhabit` | `they will inhabit, they will occupy, they will dwell and live, they will be settled` | 34:23 |
 | οἰκέω | `we will inhabit` | `we will inhabit, we will occupy, we will dwell and live, we will be settled` | 34:16 |
-| οἰκία | `in the buildings` | `within, inside of, and by means of the buildings, the houses, the dwellings, the households and domestic establishments, the households and inmates of the house, the houses and families` | 34:29 |
+| οἰκία | `in the buildings` | `within, inside of, and by means of the buildings, the houses, the dwellings, the households and domestic establishments, the households and inmates of the house, the houses and families from which one is descended` | 34:29 |
 | παρασιωπάω | `passed over in silence` | `passed over in silence` | 34:5 |
 | παρθένος | `of the maid` | `of the maid, of the maiden, of the virgin, of the girl` | 34:3 |
 | περιτέμνω | `cut themselves` | `cut themselves, clipped themselves round about, pruned themselves, cut themselves off, cut themselves off and hemmed themselves in all round, curtailed themselves of, cut themselves off and intercepted` | 34:24 |
@@ -772,14 +772,14 @@ the same ground as `the sixth` and `the seventh`: one sense each, so no range to
 | περιτέμνω | `to be cut` | `to be cut, to be clipped round about, to be pruned, to be cut off, to be cut off and hemmed in all round, to be curtailed of, to be cut off and intercepted` | 34:15, 34:17, 34:22 |
 | πλατύς | `wide` | `wide, broad, flat and level, broad-shouldered, flat, a street, the flat of the hand, salt and brackish` | 34:10, 34:21 |
 | πληθύνω | `make full` | `make full, increase, multiply` | 34:12 |
-| ποιέω | `you have made` | `you have made and it stands so, you have fashioned, you have wrought, you have produced` | 34:30 |
+| ποιέω | `you have made` | `you have made and it stands made, you have done and it stands done, you have produced and it stands produced, you have created and it stands created` | 34:30 |
 | προαιρέω | `took away first for himself` | `took away first for himself, removed out of his way, chose before and preferred, preferred to do, purposed and proposed to do` | 34:8 |
 | πόνος | `in work` | `within, inside of, and by means of work, hard work and toil, toil and labour, bodily exertion and exercise, a work and task and business, implements for labour and stock in trade, the consequence of toil and distress and trouble and suffering and pain, anything produced by work` | 34:25 |
 | πόρνη | `to a harlot` | `to a harlot, to a prostitute` | 34:31 |
-| πύλη | `the one wing of a pair of double gates` | `the one wing of a pair of double gates, the gates of a town, the house-door, the nether world and hell, the entrance, the orifice, the entrance into a country` | 34:20, 34:24 |
+| πύλη | `the one wing of a pair of double gates` | `the one wing of a pair of double gates, the gates of a town, the house-door, the nether world and hell, the entrance, the orifice, the entrance into a country through mountains and the mountain-pass, the narrow straits` | 34:20, 34:24 |
 | στόμα | `in mouth` | `within, inside of, and by means of mouth, the mouth as the organ of speech, the mouthpiece, the face, the chasm and cleft` | 34:26 |
 | συγκόπτω | `they will break up` | `they will break up, they will cut up, they will thrash soundly and pound well` | 34:30 |
-| συνάγω | `having been brought together` | `having been brought together, having been gathered together and collected and convened, having been joined, having been united, having been received into the house, having been drawn together and narrowed` | 34:30 |
+| συνάγω | `having been brought together` | `having been brought together, having been gathered together, having been collected, having been convened, having been joined in one and united, having been received into a house, having been drawn together and narrowed and contracted, having been concluded and inferred` | 34:30 |
 | ταπεινόω | `lowered` | `lowered, lessened, disparaged, humbled and abased, made lowly and humbled` | 34:2 |
 | τετράπους | `the four-footed` | `the four-footed, the quadrupeds, the four feet in length` | 34:23 |
 | τραυματίας | `the wounded men` | `the wounded men, the corpses of ones slain` | 34:27 |
@@ -796,7 +796,7 @@ the same ground as `the sixth` and `the seventh`: one sense each, so no range to
 | ἄρχων | `the ruler` | `the ruler, the commander, the chief, the captain, the chief magistrate` | 34:2 |
 | ἐγκτάομαι | `acquire possessions in` | `acquire possessions in` | 34:10 |
 | ἐγχώριος | `of the dwellers in the land` | `of the dwellers in the land, of the inhabitants, of the ones in and of the country, of the ones according to the custom of the country` | 34:1 |
-| ἐκπορεύομαι | `the ones going out` | `the ones going out, the ones going out of, the ones marching out, the ones coming forth` | 34:24 |
+| ἐκπορεύομαι | `the ones going out` | `the ones going out, the ones going forth, the ones marching out` | 34:24 |
 | ἐκτρίβω | `I will be rubbed out` | `I will be rubbed out, I will be rubbed hard, I will be destroyed root and branch, I will be rubbed constantly and worn out` | 34:30 |
 | ἐμπορεύομαι | `let them travel` | `let them travel, let them travel for traffic and be merchants and trade and traffic, let them import, let them make gain of and overreach` | 34:21 |
 | ἐμπορεύομαι | `travel` | `travel, travel for traffic and be merchants and trade and traffic, import, make gain of and overreach` | 34:10 |
@@ -841,13 +841,13 @@ the same ground as `the sixth` and `the seventh`: one sense each, so no range to
 | γινώσκω | `learns to know` | `learns to know, perceives, marks, learns, discerns and distinguishes` | 33:13 |
 | δέχομαι | `take` | `take, accept, receive, receive in exchange for, take rather and choose` | 33:10 |
 | εὐδοκέω | `you will be well pleased` | `you will be well pleased, you will consent, you will be glad` | 33:10 |
-| εὑρίσκω | `I have found` | `I have found and it stands so, I have found out, I have discovered` | 33:10 |
+| εὑρίσκω | `I have found` | `I have found and it stands so, I have found out, I have discovered, I have gotten and gained` | 33:10 |
 | θυσιαστήριον | `an altar` | `an altar` | 33:20 |
 | καταδιώκω | `I may pursue closely` | `I may pursue closely` | 33:13 |
 | καταλείπω | `I will leave behind` | `I will leave behind, I will leave as an heritage, I will forsake and abandon and leave in the lurch, I will leave remaining, I will leave alone` | 33:15 |
-| κλαίω | `they wept` | `they wept, they lamented, they wailed` | 33:4 |
+| κλαίω | `they wept` | `they wept, they lamented, they wailed, they wept for` | 33:4 |
 | λοχεύω | `are brought forth` | `are brought forth, are borne, are brought to the birth and attended in childbirth and delivered, are delivered and bear children, are born` | 33:13 |
-| οἰκία | `buildings` | `buildings, houses, dwellings, households and domestic establishments, households and inmates of the house, houses and families` | 33:17 |
+| οἰκία | `buildings` | `buildings, houses, dwellings, households and domestic establishments, households and inmates of the house, houses and families from which one is descended` | 33:17 |
 | παιδάριον | `of the young little boys` | `of the young little boys, of the young slaves` | 33:14 |
 | παρεμβάλλω | `put in beside` | `put in beside, inserted, interpolated, interposed, insinuated, put in line with, fell into line and encamped` | 33:18 |
 | πορεύομαι | `we will be driven` | `we will be driven, we will be carried, we will go, we will walk, we will march, we will go across and pass` | 33:12 |
@@ -857,7 +857,7 @@ the same ground as `the sixth` and `the seventh`: one sense each, so no range to
 | προσεγγίζω | `came near` | `came near, approached` | 33:6, 33:7 |
 | προσεγγίζω | `came near` | `came near, approached` | 33:6, 33:7 |
 | προσπίπτω | `fell upon` | `fell upon, struck against, fell against, attacked and assaulted, ran to, embraced, fell in with and lighted upon and met with` | 33:4 |
-| πρῶτος, with ἐν | `in first` | `within, inside of, and by means of first, in front and forward, former and sooner, the elder, above and superior, earlier` | 33:2 |
+| πρῶτος, with ἐν | `in first` | `within, inside of, and by means of first, first and foremost, outermost, first men, first prize, first part and beginning, first and highest, extremities, chief` | 33:2 |
 | πόλις | `city` | `city, citadel, country, body of citizens, state` | 33:18 |
 | πόρευσις | `of the walking` | `of the walking, of the mode of walking, of the going and journey and way and passage, of the march, of the crossing of water` | 33:14 |
 | σχολή | `spare time` | `spare time, leisure, rest, ease, rest from, idleness, the learned discussion and lecture` | 33:14 |
@@ -865,15 +865,15 @@ the same ground as `the sixth` and `the seventh`: one sense each, so no range to
 | φέρω | `I brought` | `I brought, I bore, I carried, I endured` | 33:11 |
 | ἀδελφός | `son of the same mother` | `son of the same mother, brother, near kinsman` | 33:9 |
 | ἀμνός | `of lambs` | `of lambs` | 33:19 |
-| ἀπαίρω | `having lifted off` | `having lifted off, having carried off, having taken away, having removed from, having led away, having sailed and marched away and departed` | 33:12 |
-| ἀπαίρω | `lifts off` | `lifts off, carries off, takes away, removes from, leads away, sails and marches away and departs` | 33:17 |
+| ἀπαίρω | `having lifted off` | `having lifted off, having carried off, having taken away, having removed from, having led away, having sailed and marched away and departed, having departed from, having set out on` | 33:12 |
+| ἀπαίρω | `lifts off` | `lifts off, carries off, takes away, removes from, leads away, sails and marches away and departs, departs from, sets out on` | 33:17 |
 | ἀπαντάω | `I have moved from` | `I have moved from and it stands so, I have met, I have met and encountered, I have come` | 33:8 |
 | ἀποθνήσκω | `they will die off` | `they will die off, they will die, they will be put to death, they will be slain` | 33:13 |
 | ἁπαλός | `softer to the touch` | `softer to the touch, more tender, fresher, softer and gentler, more soft and delicate` | 33:13 |
 | ἐγγίζω | `to bring near` | `to bring near, to bring up to, to draw near and approach` | 33:3 |
 | ἐλεέω | `had pity on` | `had pity on, shewed mercy upon, felt pity` | 33:5, 33:11 |
 | ἐνισχύω | `I will strengthen` | `I will strengthen, I will confirm, I will prevail in, I will prevail among` | 33:14 |
-| ἐπιδιαιρέω | `divided anew` | `divided anew` | 33:1 |
+| ἐπιδιαιρέω | `divided anew` | `divided anew, distributed among themselves` | 33:1 |
 | ἐπικαλέω | `called upon for himself` | `called upon for himself, invoked and appealed to, invited, called in as a helper or ally, called before him and summoned, challenged` | 33:20 |
 | ἔσχατος | `outermost` | `outermost, furthest and uttermost and extreme, last, uppermost, lowest and deepest, innermost` | 33:2 |
 
@@ -913,30 +913,30 @@ the same ground as `the sixth` and `the seventh`: one sense each, so no range to
 | αἴξ | `goats` | `goats, wild goats and ibexes, waves` | 32:15 |
 | γίνομαι | `I have come to be` | `I have come to be and it stands so, I have arisen, I have been brought into existence` | 32:11 |
 | γίνομαι | `came to be` | `came to be, arose, were brought into existence` | 32:6 |
-| δεύτερος | `the second` | `the second, the next` | 32:9 |
-| δεύτερος | `to the second` | `to the second, to the next` | 32:20 |
+| δεύτερος | `the second` | `the second, the one coming in second, the next best, the next, the one after, the secondly and next and afterwards and a second time, the second time, the secondary, the second of two` | 32:9 |
+| δεύτερος | `to the second` | `to the second, to the one coming in second, to the next best, to the next, to the one after, to the secondly and next and afterwards and a second time, to the second time, to the secondary, to the second of two` | 32:20 |
 | διάβασις | `the crossing over` | `the crossing over, the passage, the means and place of crossing, the ford, the bridge` | 32:23 |
 | διάστημα | `an interval` | `an interval` | 32:17 |
 | διαβαίνω | `I made a stride` | `I made a stride, I walked and stood with the legs apart, I stepped across and passed over, I crossed over` | 32:11 |
 | διαβιβάζω | `carried over` | `carried over, carried across, transported` | 32:24 |
-| δικαιοσύνη | `of righteousness` | `of righteousness, of justice, of the observance of custom and rule` | 32:11 |
+| δικαιοσύνη | `of righteousness` | `of righteousness, of justice` | 32:11 |
 | δυνατός | `strong` | `strong, mighty, able, powerful, possible, practicable` | 32:29 |
-| δύναμαι | `is able` | `is able, is capable, is strong enough, dares and bears, passes for, is worth, is equivalent to, signifies and means` | 32:26 |
+| δύναμαι | `is able` | `is able, is capable and strong enough, is powerful and mighty, has influence, dares and bears, passes for, is worth, is equivalent to, signifies and means, avails` | 32:26 |
 | δῶρον, with ἐν | `in the gifts` | `within, inside of, and by means of the gifts, the presents, the votive gifts, the blessings` | 32:21 |
 | εὐλογέω | `you may speak well of` | `you may speak well of, you may praise, you may honour, you may bless` | 32:27 |
-| εὑρίσκω | `may find` | `may find, may find out, may discover` | 32:6 |
-| εὑρίσκω, with ἐν | `in the finding` | `within, inside of, and by means of the finding, the finding out, the discovering` | 32:20 |
+| εὑρίσκω | `may find` | `may find, may find out, may discover, may get and gain` | 32:6 |
+| εὑρίσκω, with ἐν | `in the finding` | `within, inside of, and by means of the finding, the finding out, the discovering, the getting and gaining` | 32:20 |
 | θηλάζω | `suckling` | `suckling, giving suck` | 32:16 |
 | καταφιλέω | `kissed tenderly` | `kissed tenderly, caressed` | 32:1 |
 | λέγω | `you will say` | `you will say, you will speak, you will declare, you will call by name, you will tell` | 32:5, 32:19, 32:21 |
 | λέγω | `you will say` | `you will say, you will speak, you will declare, you will call by name, you will tell` | 32:5, 32:19, 32:21 |
-| μηρός | `to the thigh` | `to the thigh` | 32:32 |
+| μηρός | `to the thigh` | `to the thigh, to the leg-bones` | 32:32 |
 | ναρκάω | `grew stiff` | `grew stiff, grew numb` | 32:26, 32:33 |
 | νεῦρον | `of the sinew` | `of the sinew, of the tendon, of the tendons of the feet, of the sinews and vigour, of the gut and cord made of sinew, of the cord of a sling` | 32:33 |
 | νεῦρον | `the sinew` | `the sinew, the tendon, the tendons of the feet, the sinews and vigour, the gut and cord made of sinew, the cord of a sling` | 32:33 |
 | παλαίω | `was wrestling` | `was wrestling, was wrestling with` | 32:25 |
 | παλαίω, with ἐν | `in the wrestling` | `within, inside of, and by means of the wrestling, the wrestling with` | 32:26 |
-| παρέρχομαι | `went by` | `went by, went beside, went past, passed by and outstripped, came forward` | 32:32 |
+| παρέρχομαι | `went by` | `went by, went beside, went past, passed by, passed, outstripped, outwitted and escaped and eluded, arrived at, passed in, went into, passed without heeding, passed over and disregarded and slighted, overstepped and transgressed, passed unnoticed and escaped the notice of, came forward` | 32:32 |
 | παραγίνομαι | `comes to be beside` | `comes to be beside, is present, arrives, comes to help` | 32:21 |
 | παραπορεύομαι | `were going beside` | `were going beside, were going alongside, were going past, were passing` | 32:22 |
 | παρεμβάλλω | `having put in beside` | `having put in beside and it stands so, having inserted, having interpolated, having interposed, having insinuated, having put in line with, having fallen into line and encamped` | 32:2 |
@@ -944,7 +944,7 @@ the same ground as `the sixth` and `the seventh`: one sense each, so no range to
 | παρεμβολή | `insertions` | `insertions, interpolations, encampments and fortresses` | 32:8, 32:11 |
 | παρεμβολή | `the insertion` | `the insertion, the interpolation, the encampment and fortress` | 32:9 |
 | παρεμβολή, with ἐν | `in the insertion` | `within, inside of, and by means of the insertion, the interpolation, the encampment and fortress` | 32:22 |
-| παροικέω | `I dwelt beside` | `I dwelt beside, I lived among, I settled as a stranger` | 32:5 |
+| παροικέω | `I dwelt beside` | `I dwelt beside, I dwelt along the coast of, I lived near, I dwelt among, I lay near, I lived in and sojourned` | 32:5 |
 | πατάσσω | `may beat` | `may beat, may knock, may strike and smite, may knock at` | 32:12 |
 | πλάτος | `of the breadth` | `of the breadth, of the width` | 32:26, 32:33 |
 | ποίμνη | `of a flock` | `of a flock, of a flock of sheep` | 32:17 |
@@ -958,14 +958,14 @@ the same ground as `the sixth` and `the seventh`: one sense each, so no range to
 | συναντάω | `may meet face to face` | `may meet face to face, may meet together and assemble, may meet with, may come in contact with, may befall` | 32:18 |
 | συναντάω | `met face to face` | `met face to face, met together and assembled, met with, came in contact with, befell` | 32:2 |
 | σῴζω | `to be saved` | `to be saved, to be kept, to be saved from death and kept alive and preserved, to be kept safe, to be kept and observed and maintained, to be kept in mind and remembered, to be brought safe to, to come safe and escape to` | 32:9 |
-| σῴζω | `was saved` | `was saved, was kept, was saved from death and kept alive and preserved, was kept safe, was kept and observed and maintained, was kept in mind and remembered, was brought safe to, came safe and escaped to` | 32:31 |
+| σῴζω | `was saved` | `was saved, was kept, was saved from death and kept alive and preserved, was kept safe, was kept and observed and maintained, was kept in mind and remembered, was brought safe to, was carried off safe and rescued from, came safe and escaped to` | 32:31 |
 | τέκνον | `to the things borne` | `to the things borne, to the born, to children, to the young` | 32:12 |
 | ταῦρος | `bulls` | `bulls` | 32:16 |
 | φέρω | `was bringing` | `was bringing, was bearing, was carrying, was enduring` | 32:14 |
 | φοβέω | `I am put to flight` | `I am put to flight, I flee affrighted, I flee, I am seized with fear, I am affrighted, I fear` | 32:12 |
 | χείμαρρος | `the winter-flowing` | `the winter-flowing, the swollen by rain and melted snow, the torrent, the river, the drain and gutter, the valley and watercourse` | 32:24 |
 | χρονίζω | `I spent time` | `I spent time, I took time, I tarried, I lingered, I delayed, I was slow, I remained long` | 32:5 |
-| χώρα | `space in which a thing is` | `space in which a thing is, place, position and post, place in life and station, land and country, piece of land and estate and farm` | 32:4 |
+| χώρα | `space in which a thing is` | `space in which a thing is, place, position and post, place in life and station, land and country, piece of land and estate and farm, country` | 32:4 |
 | ἀναστρέφω | `turned upside down` | `turned upside down, upset, turned back and brought back, rallied, turned back and returned and retired, dwelt, conducted themselves, revolved, faced about` | 32:7 |
 | ἀνατέλλω | `made to rise up` | `made to rise up, made to grow up, gave birth to and brought to light, rose, took its rise, grew` | 32:32 |
 | ἀπορέω | `was without means` | `was without means, was without resource, was at a loss, was in doubt, was puzzled, was left wanting and unprovided for` | 32:8 |
@@ -974,12 +974,12 @@ the same ground as `the sixth` and `the seventh`: one sense each, so no range to
 | ἀποστέλλω | `has sent off` | `has sent off and it stands so, has sent away, has banished, has despatched, has gone away and departed` | 32:19 |
 | ἀποστρέφω | `having been turned` | `having been turned, having been turned back, having been turned away, having been brought back, having turned himself about` | 32:1 |
 | ἄγγελος | `messengers` | `messengers and envoys, ones that announce, divine messengers and angels` | 32:4 |
-| ἄνθρωπος | `man` | `man, human being, mankind` | 32:25 |
+| ἄνθρωπος | `man` | `a man, a human being, mankind` | 32:25 |
 | ἄνθρωπος | `of men` | `of men, of human beings, of mankind` | 32:29 |
 | ἅπτω | `fastened himself to` | `fastened himself to, clung to, hung on by, laid hold of, grasped, touched, engaged in and took part in, laid hold of and disputed` | 32:26, 32:33 |
-| ἐκκόπτω | `may cut out` | `may cut out, may knock out, may cut out of a wood and fell, may cut off and make an end of, may beat off and repulse` | 32:9 |
+| ἐκκόπτω | `may cut out` | `may cut out and knock out, may fell and cut down all the trees, may cut off and make an end of, may beat off and repulse` | 32:9 |
 | ἐνισχύω | `you strengthened` | `you strengthened, you confirmed, you prevailed in, you prevailed among` | 32:29 |
-| ἐξαιρέω | `take out for yourself` | `take out for yourself, choose for yourself and carry off as booty` | 32:12 |
+| ἐξαιρέω | `take out for yourself` | `take out for yourself, choose for yourself and carry off as booty, bereave of, take away from one, set free and deliver` | 32:12 |
 | ἐξιλάσκομαι | `I will propitiate` | `I will propitiate` | 32:21 |
 | ἐπισκάζω | `was limping upon` | `was limping upon` | 32:32 |
 | ἐρωτάω | `asked` | `asked, asked about, enquired of and questioned, begged and solicited` | 32:30 |
@@ -1043,10 +1043,10 @@ the same ground as `the sixth` and `the seventh`: one sense each, so no range to
 | διαβαίνω | `you may make a stride` | `you may make a stride, you may walk and stand with the legs apart, you may step across and pass over, you may cross over` | 31:52 |
 | διατίθημι | `let us arrange as we like` | `let us arrange as we like, let us dispose of, let us dispose of our property and devise it by will, let us set out for sale and dispose of` | 31:44 |
 | δόξα | `the notion` | `the notion, the expectation, the opinion and judgment, the mere opinion and conjecture, the fancy and vision and dream, the opinion which others have of one and the estimation and reputation and credit and honour and glory, the estimate popularly formed of a thing, the glory and splendour and effulgence` | 31:1, 31:16 |
-| δύναμαι | `I am able` | `I am able, I am capable, I am strong enough, I dare and bear, I pass for, I am worth, I am equivalent to, I signify and mean` | 31:35 |
+| δύναμαι | `I am able` | `I am able, I am capable and strong enough, I am powerful and mighty, I have influence, I dare and bear, I pass for, I am worth, I am equivalent to, I signify and mean, I avail` | 31:35 |
 | εἴδωλον | `the images` | `the images, the phantoms, the unsubstantial forms, the images in the mind and ideas, the fancies, the likenesses, the idols` | 31:19, 31:34, 31:35 |
 | εὐφροσύνη | `of mirth` | `of mirth, of merriment, of good cheer and festivity, of glad thoughts` | 31:27 |
-| εὑρίσκω | `you may find` | `you may find, you may find out, you may discover` | 31:32 |
+| εὑρίσκω | `you may find` | `you may find, you may find out, you may discover, you may get and gain` | 31:32 |
 | εὔχομαι | `you prayed` | `you prayed, you offered prayers, you paid your vows, you made a vow, you prayed for` | 31:13 |
 | θηριάλωτος | `caught by wild beasts` | `caught by wild beasts` | 31:39 |
 | θύω | `offered` | `offered, burned, sacrificed, slaughtered and slew, offered sacrifices, celebrated with offerings` | 31:54 |
@@ -1057,7 +1057,7 @@ the same ground as `the sixth` and `the seventh`: one sense each, so no range to
 | καταφιλέω | `to kiss tenderly` | `to kiss tenderly, to caress` | 31:28 |
 | κατεσθίω | `I ate up` | `I ate up, I devoured` | 31:38 |
 | κατεσθίω | `ate up` | `ate up, devoured` | 31:15 |
-| καῦμα | `to the burning heat` | `to the burning heat, to the fever-heat` | 31:40 |
+| καῦμα | `to the burning heat` | `to the burning heat, to the sun-heat, to the fever-heat` | 31:40 |
 | κείρω | `to cut short` | `to cut short, to shear, to clip, to cut out and hew out, to ravage a country by cutting down the crops and fruit-trees, to destroy, to tear and eat greedily, to consume and waste` | 31:19 |
 | κενός | `empty` | `empty, vain, to no purpose and in vain, void and destitute and bereft, empty-handed, empty of wit and empty-headed` | 31:42 |
 | κιθάρα | `of a lyre` | `of a lyre, of a lute` | 31:27 |
@@ -1066,11 +1066,11 @@ the same ground as `the sixth` and `the seventh`: one sense each, so no range to
 | κλέπτω | `you stole` | `you stole, you filched, you purloined, you cozened and cheated and deceived and beguiled, you concealed and kept secret and disguised, you did secretly and treacherously, you seized and occupied secretly` | 31:30 |
 | κληρονομία | `an inheritance` | `an inheritance, a possession` | 31:14 |
 | κλοποφορέω | `you stole from` | `you stole from, you robbed` | 31:26 |
-| κρίνω | `will separate` | `will separate, will put asunder and distinguish, will pick out and choose, will decide and judge, will determine and give sentence, will question and dispute` | 31:53 |
+| κρίνω | `will separate` | `will separate and part and put asunder and distinguish, will pick out and choose, will pick out for himself and choose, will decide, will judge, will adjudge, will judge of and estimate, will expound and interpret, will determine, will question, will bring to trial and accuse, will pass sentence upon and condemn` | 31:53 |
 | κριός | `rams` | `rams, battering-rams` | 31:38 |
 | κριός | `the rams` | `the rams, the battering-rams` | 31:10, 31:12 |
 | κρυφῇ | `secretly` | `secretly, in secret` | 31:26 |
-| κρύπτω | `hid` | `hid, covered, cloaked, covered in the earth and buried, concealed and kept secret` | 31:20 |
+| κρύπτω | `hid` | `hid, covered and cloaked, covered in the earth and buried, concealed and kept secret` | 31:20 |
 | κόπος | `the striking` | `the striking, the beating, the toil and trouble and suffering, the weariness and fatigue` | 31:42 |
 | λέγω | `has said` | `has said and it stands so, has spoken, has declared, has called by name, has told` | 31:16 |
 | λίθος | `stones` | `stones, precious stones, marbles` | 31:46 |
@@ -1081,47 +1081,47 @@ the same ground as `the sixth` and `the seventh`: one sense each, so no range to
 | μάχαιρα | `to a large knife` | `to a large knife and dirk, to a knife for cutting up, to a short sword and dagger, to a sabre and bent sword, to a rasor` | 31:26 |
 | μαρτυρέω | `bears witness` | `bears witness, is a witness, gives evidence, bears testimony, bears witness to and in favour of, testifies` | 31:46, 31:48 |
 | μαρτυρία | `of the witness` | `of the witness, of the testimony, of the evidence` | 31:47 |
-| μερίς | `a part` | `a part, a portion, a share, a parcel, a contribution, a division and class` | 31:14 |
+| μερίς | `a part` | `a part, a portion, a share, a parcel, a contribution, a part and division and class` | 31:14 |
 | μηδέ | `but not` | `but not, and not, nor, not even` | 31:52 |
 | μουσικός | `of musical` | `of musical and for music, of the skilled in music, of votaries of the Muses and men of letters and accomplishment and scholars` | 31:27 |
 | νύξ | `of night-season` | `of night-season, of night, of the watches of the night, of the dark of night, of the night of death` | 31:39 |
 | νύξ | `of the night-season` | `of the night-season, of the night, of the watches of the night, of the dark of night, of the night of death` | 31:40 |
-| οἰκία, with ἐν | `in the building` | `within, inside of, and by means of the building, the house, the dwelling, the household and domestic establishment, the household and inmates of the house, the house and family` | 31:41 |
+| οἰκία, with ἐν | `in the building` | `within, inside of, and by means of the building, the house, the dwelling, the household and domestic establishment, the household and inmates of the house, the house and family from which one is descended` | 31:41 |
 | οἶδα | `you know` | `you know, you are assured, you are versed in` | 31:6 |
 | οὗτος | `to these` | `to these, to the nearer, to what follows` | 31:43 |
 | παγετός | `to frost` | `to frost` | 31:40 |
 | παιδίσκη | `of the young girls` | `of the young girls, of the young women, of the maidservants and handmaids, of the courtesans` | 31:33 |
 | παρακρούω | `struck away from himself` | `struck away from himself, parried` | 31:7 |
-| παραλαμβάνω | `having received from` | `having received from, having inherited, having taken upon himself and undertaken, having taken in pledge, having taken by force and treachery and got possession of, having received by hearsay and report` | 31:23 |
+| παραλαμβάνω | `having received from` | `having received from, having inherited, having taken upon himself and undertaken, having taken in pledge, having taken by force and treachery and got possession of, having received by hearsay and report and ascertained, having taken up and caught up, having taken to himself and associated with himself, having invited, having waited for and intercepted, having taken prisoner` | 31:23 |
 | περιποιέω | `kept for himself` | `kept for himself, saved for himself, compassed and acquired and obtained, made gain` | 31:18 |
 | πιπράσκω | `has sold` | `has sold and it stands so` | 31:15 |
 | πλοῦτος | `the wealth` | `the wealth, the riches, the treasure` | 31:16 |
-| ποιέω | `has made` | `has made and it stands so, has done, has produced, has created` | 31:1 |
+| ποιέω | `has made` | `has made and it stands made, has done and it stands done, has produced and it stands produced, has created and it stands created` | 31:1 |
 | ποιέω | `makes` | `makes, does, produces, creates` | 31:12 |
 | ποικίλος | `the many-coloured` | `the many-coloured, the spotted, the mottled, the pied, the dappled, the wrought in various colours and broidered, the in-wrought, the intricate, the changeful and various and diversified and manifold, the complex, the subtle and wily` | 31:8 |
 | πορεύομαι | `you have been driven` | `you have been driven and it stands so, you have been carried, you have gone, you have walked, you have marched, you have gone across and passed` | 31:30 |
 | πράσσω | `you passed over` | `you passed over, you accomplished, you achieved and brought about and effected, you availed, you caused, you effected an object and were successful, you had to do and were busy with, you managed state-affairs, you transacted and negotiated and managed` | 31:28 |
 | πρόβατον, with ἐν | `in the things that walk forward` | `within, inside of, and by means of the things that walk forward, the cattle, the flocks and herds, the horses, the small cattle, the sheep` | 31:41 |
 | σάγμα | `the coverings` | `the coverings, the coverings of a shield, the large cloaks, the pack-saddles, the piles` | 31:34 |
-| σκεῦος | `of the vessels` | `of the vessels, of the implements and tackle and gear, of the baggage, of the equipment` | 31:37 |
+| σκεῦος | `of the vessels` | `of the vessels, of the implements of any kind, of the furniture, of the house-gear, of the utensils, of the chattels, of the accoutrements, of the equipment, of the baggage, of the luggage, of the tackling, of the gear, of the inanimate objects and things, of the bodies and vessels` | 31:37 |
 | συγκαίω | `being set on fire with` | `being set on fire with, being burned up at once` | 31:40 |
 | συλλέγω | `collect` | `collect, gather, compile and scrape together, call together, get together` | 31:46 |
 | συλλέγω | `collected` | `collected, gathered, compiled and scraped together, called together, got together` | 31:46 |
 | σός | `of thy` | `of thy, of thine` | 31:32 |
 | ταπεινόω | `you will lower` | `you will lower, you will lessen, you will disparage, you will humble and abase, you will make lowly and humble` | 31:50 |
-| τόπος, with ἐν | `in place` | `within, inside of, and by means of place, position and post, place in life and station` | 31:13 |
+| τόπος, with ἐν | `in place` | `within, inside of, and by means of place, local circumstances, position, passage in a book, topic, common-place, occasion and opportunity` | 31:13 |
 | τύμπανον | `of kettledrums` | `of kettledrums, of drum-sticks, of staffs and cudgels, of wheels of solid wood` | 31:27 |
 | φυλάσσω | `keep watch and ward for yourself` | `keep watch and ward for yourself, keep guard, watch and guard and keep and defend, watch for and lie in wait for, keep and maintain and cherish, observe` | 31:24, 31:29 |
-| φόβος | `of the flight` | `of the flight, of the panic and fear and terror, of the object of fear` | 31:53 |
+| φόβος | `of the flight` | `of the flight, of the panic fear, of the fear and terror, of the outward show of fear, of the object of terror` | 31:53 |
 | ἀδίκημα | `the wrong done` | `the wrong done, the wrong, the wrong done to one, that which is got by wrong and the ill-gotten goods` | 31:36 |
 | ἀλείφω | `you anointed with oil` | `you anointed with oil, you oiled, you prepared as if for gymnastics and stimulated, you plastered, you stopped up` | 31:13 |
 | ἀλλάσσω | `made other than it is` | `made other than it is, changed, altered, gave in exchange for and bartered, repaid and requited, gave up and left and quit, took one thing for another and assumed, interchanged and alternated` | 31:7 |
 | ἀλλότριος | `the belonging to another` | `the belonging to another, the another man's, the unlike one's own, the forced and unnatural, the foreign and strange, the hostile` | 31:15 |
 | ἀμνάς | `to ewe lambs` | `to ewe lambs` | 31:41 |
-| ἀναβαίνω | `going up` | `going up, mounting, going up to, embarking` | 31:10, 31:12 |
+| ἀναβαίνω | `going up` | `going up, mounting, ascending, going up to, rising, coming up, coming to and arriving at, going up country, going aboard` | 31:10, 31:12 |
 | ἀναγγέλλω | `to carry back tidings of` | `to carry back tidings of, to report` | 31:20 |
 | ἀναγγέλλω | `you carried back tidings of` | `you carried back tidings of, you reported` | 31:27 |
-| ἀναφέρω | `I have brought up` | `I have brought up and it stands so, I have carried up, I have carried up the country, I have taken with me, I have poured forth, I have heaved and uttered, I have upheld and taken upon myself, I have offered and contributed, I have led up` | 31:39 |
+| ἀναφέρω | `I have brought up` | `I have brought up and it stands so, I have carried up, I have carried up the country, I have taken with me, I have poured forth, I have heaved and uttered, I have upheld and taken upon myself, I have offered and contributed, I have led up, I have carried back and recovered, I have brought back and reported, I have traced up` | 31:39 |
 | ἀξιόω | `I was thought worthy` | `I was thought worthy, I was esteemed and honoured, I was thought worthy to do, I was thought fit and expected and required and demanded, I was required` | 31:28 |
 | ἀπάγω | `led away` | `led away, carried off, brought back and brought home, returned what he owed and rendered and paid, arrested and carried off, brought before a magistrate and accused, carried off to prison, led away from the subject` | 31:18 |
 | ἀπάγω | `you led away` | `you led away, you carried off, you brought back and brought home, you returned what you owed and rendered and paid, you arrested and carried off, you brought before a magistrate and accused, you carried off to prison, you led away from the subject` | 31:26 |
@@ -1129,7 +1129,7 @@ the same ground as `the sixth` and `the seventh`: one sense each, so no range to
 | ἀποδιδράσκω | `runs away` | `runs away and off and escapes, flees from, deserts, flees and shuns` | 31:20 |
 | ἀποδιδράσκω | `you ran away` | `you ran away and off and escaped, you fled from, you deserted, you fled and shunned` | 31:26 |
 | ἀποκρίνω | `having been separated` | `having been separated, having been set apart, having been marked by a distinctive form and distinguished, having been chosen out, having given answer to and replied, having answered charges and defended herself` | 31:14 |
-| ἀποκρίνω | `having been separated` | `having been separated, having been set apart, having been marked by a distinctive form and distinguished, having been chosen out, having given answer to and replied, having answered charges and defended himself` | 31:31, 31:36, 31:43 |
+| ἀποκρίνω | `having been separated` | `having been separated, having been set apart, having been marked by a distinctive form and distinguished, having been chosen out, having given answer to and replied, having answered charges and defended herself` | 31:31, 31:36, 31:43 |
 | ἀποτίνω | `I was paying back` | `I was paying back, I was repaying, I was returning, I was paying for, I was making atonement, I was paying in full` | 31:39 |
 | ἀτεκνόω | `were made childless` | `were made childless, were deprived of children` | 31:38 |
 | ἀφίστημι | `was standing away` | `was standing away, was keeping aloof, was departing and withdrawing, was revolting` | 31:40 |
@@ -1142,9 +1142,9 @@ the same ground as `the sixth` and `the seventh`: one sense each, so no range to
 | ἐθισμός | `accustoming` | `accustoming, habituation, habits, usages` | 31:35 |
 | ἐλέγχω | `let them disgrace` | `let them disgrace, let them put to shame, let them cross-examine and question, let them censure and accuse, let them bring to the proof and disprove and confute, let them bring convincing proof, let them prove` | 31:37 |
 | ἐμβάλλω | `threw in` | `threw in, put in, threw at and upon and against, inflicted, applied, made an inroad and invasion, broke and burst and rushed in, struck a ship with the ram and charged it` | 31:34 |
-| ἐμός | `mine` | `mine, my` | 31:31, 31:43 |
+| ἐμός | `mine` | `mine, to me and relating to me and against me, by me` | 31:31, 31:43 |
 | ἐν | `in` | `within, inside of, and by means of` | 31:18 |
-| ἐξαποστέλλω | `I sent quite away` | `I sent quite away` | 31:27 |
+| ἐξαποστέλλω | `I sent quite away` | `I sent quite away, I dispatched` | 31:27 |
 | ἐπιγινώσκω | `look upon` | `look upon, witness, observe, recognise and know again, acknowledge and approve, find out and discover and detect, come to a decision and resolve and decide` | 31:32 |
 | ἐπιγινώσκω | `looked upon` | `looked upon, witnessed, observed, recognised and knew again, acknowledged and approved, found out and discovered and detected, came to a decision and resolved and decided` | 31:32 |
 | ἐπιθυμέω | `you set your heart upon` | `you set your heart upon, you lusted after and longed for and coveted and desired` | 31:30 |
@@ -1159,9 +1159,9 @@ the same ground as `the sixth` and `the seventh`: one sense each, so no range to
 | ὁράω | `I have seen` | `I have seen and it stands so, I have perceived, I have beheld, I have looked at` | 31:12 |
 | ὁράω | `I see` | `I see, I perceive, I behold, I look at` | 31:5 |
 | ὁρμάω | `set in motion` | `set in motion, urged and pushed on and spurred on and cheered on, stirred up, made a start and hastened on, rushed headlong at, started and began` | 31:21 |
-| ὅλος, with ἐν | `in whole` | `within, inside of, and by means of whole, entire, complete` | 31:35 |
+| ὅλος, with ἐν | `in whole` | `within, inside of, and by means of whole and entire, continuous and incessant` | 31:35 |
 | ὑπάρχω | `the things beginning` | `the things beginning, the things making a beginning, the things beginning to be and coming into being and arising and springing up, the things being in existence` | 31:18 |
-| ὕπνος, with ἐν | `in the sleep` | `within, inside of, and by means of the sleep, the slumber, the sleep of death` | 31:10 |
+| ὕπνος, with ἐν | `in the sleep` | `within, inside of, and by means of the sleep, the slumber, the sleep of death, the Sleep` | 31:10 |
 
 ### Words new in GEN 30
 
@@ -1204,13 +1204,13 @@ the same ground as `the sixth` and `the seventh`: one sense each, so no range to
 | --- | --- | --- | --- |
 | αἱρετίζω | `will choose` | `will choose, will select` | 30:20 |
 | αἴξ | `the goats` | `the goats, the wild goats and the ibexes, the waves` | 30:35 |
-| αἴξ, with ἐν | `in the goats` | `within, inside of, and by means of the goats` | 30:32, 30:33 |
-| αὐξάνω | `was made large` | `was made large, was increased, was augmented, was increased in power and strengthened and exalted and aggrandised, was promoted to honour and glorified and magnified` | 30:30 |
+| αἴξ, with ἐν | `in the goats` | `within, inside of, and by means of the goats, the wild goats and the ibexes, the waves` | 30:32, 30:33 |
+| αὐξάνω | `was made large` | `was made large, was increased and augmented, was increased in power and strengthened and exalted and aggrandised, was promoted to honour and glorified and magnified, grew and waxed and increased, grew up` | 30:30 |
 | αὔριον | `to-morrow` | `to-morrow, on the morrow` | 30:33 |
 | δίδωμι | `I gave` | `I gave, I granted, I provided, I gave over and delivered up` | 30:18 |
 | διαστέλλω | `set apart` | `set apart, drew asunder and tore apart, distinguished and determined, ordered and commanded` | 30:28, 30:35, 30:40 |
 | διαχωρίζω | `separate` | `separate, part asunder, set apart` | 30:32, 30:40 |
-| δικαιοσύνη | `the righteousness` | `the righteousness, the justice, the observance of custom and rule` | 30:33 |
+| δικαιοσύνη | `the righteousness` | `the righteousness, the justice` | 30:33 |
 | δουλεία | `the servitude` | `the servitude, the slavery, the bondage, the slaves and the slave-class` | 30:26 |
 | δουλεύω | `I have been a slave` | `I have been a slave and stand so, I have served and been subject to` | 30:26, 30:29 |
 | δωρέω | `has given` | `has given and it stands so, has presented and stands so` | 30:20 |
@@ -1224,8 +1224,8 @@ the same ground as `the sixth` and `the seventh`: one sense each, so no range to
 | κλέπτω | `having been stolen` | `having been stolen and standing so, having been filched, having been purloined, having been cozened and cheated and deceived and beguiled, having been concealed and kept secret and disguised, having been done secretly and treacherously, having been seized and occupied secretly` | 30:33 |
 | κοιλία | `of belly` | `of belly, of the paunch, of the paunch stuffed with mince-meat and black-pudding and sausage, of the womb` | 30:2 |
 | κοιμάω | `let him be lulled` | `let him be lulled, let him be hushed to sleep and put to sleep, let him be lulled to rest and stilled and calmed, let him fall asleep, let him go abed and lie abed, let him sleep, let him fall asleep and die, let him keep watch at night` | 30:15 |
-| κρίνω | `separated` | `separated, put asunder and distinguished, picked out and chose, decided and judged, determined and gave sentence, questioned and disputed` | 30:6 |
-| κριός | `a ram` | `a ram` | 30:40 |
+| κρίνω | `separated` | `separated and parted and put asunder and distinguished, picked out and chose, picked out for himself and chose, decided, judged, adjudged, judged of and estimated, expounded and interpreted, determined, questioned, brought to trial and accused, passed sentence upon and condemned` | 30:6 |
+| κριός | `a ram` | `a ram, a battering-ram` | 30:40 |
 | λαμβάνω | `taking` | `taking, receiving, taking hold of and grasping and seizing` | 30:41 |
 | λεπίζω | `peeled off the husk` | `peeled off the husk, peeled off the skin and bark, stripped an object of its covering of metal plates` | 30:37, 30:38 |
 | λευκός | `light` | `light, bright, brilliant, glassy, limpid, clear and plain and distinct, white, fair` | 30:35, 30:37 |
@@ -1240,7 +1240,7 @@ the same ground as `the sixth` and `the seventh`: one sense each, so no range to
 | οὐθείς | `and not one` | `and not one, no one and none, naught and good for naught` | 30:31 |
 | πέμπτος | `fifth` | `fifth, one with four others, a fifth part` | 30:17 |
 | πίνω | `to drink` | `to drink, to drink of, to drink up` | 30:38 |
-| παρέρχομαι | `let it go by` | `let it go by, let it go beside, let it go past, let it pass by and outstrip, let it come forward` | 30:32 |
+| παρέρχομαι | `let it go by` | `let it go by, let it go beside, let it go past, let it pass by, let it pass, let it outstrip, let it outwit and escape and elude, let it arrive at, let it pass in, let it go into, let it pass without heeding, let it pass over and disregard and slight, let it overstep and transgress, let it pass unnoticed and escape the notice of, let it come forward` | 30:32 |
 | παρατίθημι | `set beside` | `set beside, placed before, gave in charge and entrusted, deposited` | 30:38 |
 | περισύρω | `dragging about` | `dragging about, tearing away from` | 30:37 |
 | πλάτανος | `of the oriental plane` | `of the oriental plane` | 30:37 |
@@ -1267,10 +1267,10 @@ the same ground as `the sixth` and `the seventh`: one sense each, so no range to
 | ἀμνός | `the lambs` | `the lambs` | 30:40 |
 | ἀμνός, with ἐν | `in the lambs` | `within, inside of, and by means of the lambs` | 30:32, 30:33, 30:35, 30:40 |
 | ἀποστέλλω | `send off` | `send off, send away, banish, despatch, go away and depart` | 30:25 |
-| ἀρήν, with ἐν | `in the lambs` | `within, inside of, and by means of the lambs` | 30:32, 30:33, 30:35, 30:40 |
+| ἀρήν, with ἐν | `in the lambs` | `within, inside of, and by means of the lambs, the sheep, the rams, the ewes` | 30:32, 30:33, 30:35, 30:40 |
 | ἀφίστημι | `put away` | `put away, removed, hindered from, frustrated, deposed, made to revolt and moved to revolt, weighed out` | 30:36 |
 | ἀφαιρέω | `took from` | `took from, took away from, took off, removed, separated and set aside` | 30:23 |
-| ἄνθρωπος | `the man` | `the man, the human being` | 30:43 |
+| ἄνθρωπος | `the man` | `the man, the human being, mankind` | 30:43 |
 | ἄσημος | `the without mark` | `the without mark, the uncoined, the without device, the giving no sign and unintelligible` | 30:42 |
 | ἐγκισσάω | `had yearnings like one pregnant` | `had yearnings like one pregnant` | 30:41 |
 | ἐγκισσάω | `may have yearnings like one pregnant` | `may have yearnings like one pregnant` | 30:39 |
@@ -1340,56 +1340,56 @@ the same ground as `the sixth` and `the seventh`: one sense each, so no range to
 | δουλεύω | `I will be a slave` | `I will be a slave, I will serve and be subject to` | 29:18 |
 | δουλεύω | `was a slave` | `was a slave, served and was subject to` | 29:20, 29:30 |
 | δωρεά | `as a free gift` | `as a free gift, freely, to no purpose and in vain` | 29:15 |
-| δύναμαι | `we will be able` | `we will be able, we will be capable, we will be strong enough, we will dare and bear, we will pass for, we will be worth, we will be equivalent to, we will signify and mean` | 29:8 |
+| δύναμαι | `we will be able` | `we will be able, we will be capable and strong enough, we will be powerful and mighty, we will have influence, we will dare and bear, we will pass for, we will be worth, we will be equivalent to, we will signify and mean, we will avail` | 29:8 |
 | εἰσέρχομαι | `I may go in` | `I may go in, I may go into and enter, I may come into, I may come in, I may come upon` | 29:21 |
 | εἶδος | `to that which is seen` | `to that which is seen, to the form, to the shape, to the figure, to the sort and particular kind and nature, to the particular state and course, to the class and kind and sort` | 29:17 |
-| κτῆνος | `the flocks and herds` | `the flocks and herds` | 29:7 |
+| κτῆνος | `the flocks and herds` | `the flocks and herds, the single beasts, the beasts for riding` | 29:7 |
 | μέγας | `to the bigger` | `to the bigger, to the greater, to the taller, to the vaster, to the stronger and mightier, to the weightier and more important` | 29:16 |
 | μήτρα | `the womb` | `the womb, the cervix including the orifice of the womb, the matrix, the source and origin, the core and heart-wood, the diseased condition, the queen-wasp` | 29:31 |
 | μισέω | `I am hated` | `I am hated` | 29:33 |
 | μισέω | `is hated` | `is hated` | 29:31 |
 | νέος | `of the younger` | `of the younger, of the more youthful, of the newer and fresher, of the stranger` | 29:18 |
 | νέος | `to the younger` | `to the younger, to the more youthful, to the newer and fresher, to the stranger` | 29:16 |
-| οἰκέω | `inhabit` | `inhabit, dwell in, occupy, settle in, colonise, manage and govern and direct, dwell, settle, be settled and situated` | 29:19 |
+| οἰκέω | `inhabit` | `inhabit, occupy, dwell and live, be settled` | 29:19 |
 | παραλογίζομαι | `you misreckoned` | `you misreckoned, you miscalculated, you cheated out, you defrauded of, you misled by fallacious reasoning` | 29:25 |
 | περί | `round about` | `round about, around, about and near, about and for and on account of, about and concerning, about and as to` | 29:18, 29:20, 29:25 |
 | περιλαμβάνω | `having seized around` | `having seized around and embraced, having encompassed and surrounded, having intercepted, having got hold of and caught, having comprehended and included` | 29:13 |
 | πληρόω | `have been made full` | `have been made full and stand so, have been filled full, have been gorged and satiated, have been manned, have been made complete, have been fulfilled and paid in full and made up` | 29:21 |
-| ποιμήν | `the herdsmen` | `the herdsmen, the shepherds, the captains and chiefs, the masters and lords, the pastors and teachers` | 29:8 |
-| ποτίζω | `having given to drink` | `having given to drink, having watered` | 29:7 |
-| ποτίζω | `we will give to drink` | `we will give to drink, we will water` | 29:8 |
-| ποτίζω | `were giving to drink` | `were giving to drink, were watering` | 29:2, 29:3 |
-| πρεσβύτερος | `the elder` | `the elder, the older, the more advanced in years, the aged and the elders, the ambassadors` | 29:26 |
+| ποιμήν | `the herdsmen` | `the herdsmen, the shepherds, the captains and chiefs` | 29:8 |
+| ποτίζω | `having given to drink` | `having given to drink, having watered, having watered the cattle` | 29:7 |
+| ποτίζω | `we will give to drink` | `we will give to drink, we will water, we will water the cattle` | 29:8 |
+| ποτίζω | `were giving to drink` | `were giving to drink, were watering, were watering the cattle` | 29:2, 29:3 |
+| πρεσβύτερος | `the elder` | `the elder, the older, the higher and more important, the greater than, the elder of the Jewish Council, the elder of the Church and presbyter` | 29:26 |
 | προσέρχομαι | `having come to` | `having come to, having gone to, having visited, having approached and drawn nigh and been nigh at hand, having come in and surrendered and capitulated, having come forward to speak, having associated with, having come in` | 29:10 |
 | προσδίδωμι | `gave besides` | `gave besides` | 29:33 |
 | πρόβατον | `of the things that walk forward` | `of the things that walk forward, of the cattle, of the flocks and herds, of the horses, of the small cattle, of the sheep` | 29:6, 29:9 |
-| πόθεν | `whence` | `whence, from what country, from what source, wherefore` | 29:4 |
+| πόθεν | `whence` | `whence, from what source, whence and wherefore` | 29:4 |
 | συνάγω | `brought together` | `brought together, gathered together, collected, convened, joined in one and united, received into his house, drew together and narrowed and contracted, concluded and inferred` | 29:22 |
 | συνάγω | `to be brought together` | `to be brought together, to be gathered together, to be collected, to be convened, to be joined in one and united, to be received into a house, to be drawn together and narrowed and contracted, to be concluded and inferred` | 29:7, 29:8 |
 | συνάγω | `were being brought together` | `were being brought together, were being gathered together, were being collected, were being convened, were being joined in one and united, were being received into a house, were being drawn together and narrowed and contracted, were being concluded and inferred` | 29:3 |
-| συντελέω | `bring quite to an end` | `bring quite to an end, complete, accomplish, make up the whole, pay towards common expenses and contribute, belong to a class and be counted in it` | 29:27 |
+| συντελέω | `bring quite to an end` | `bring quite to an end, complete, accomplish, make up the whole and the number, pay towards common expenses and contribute, belong to a class and be counted in it` | 29:27 |
 | ταπείνωσις | `the humiliation` | `the humiliation and abasement and defeat, the low estate and low condition` | 29:32 |
 | φωνή | `to the sound` | `to the sound, to the tone, to the sound of the voice, to the cry, to the faculty of speech and discourse, to the language, to the saying` | 29:11 |
 | ἀγαπάω | `to treat with affection` | `to treat with affection, to caress, to love, to be fond of, to regard with brotherly love, to be well pleased and contented with, to be content` | 29:20 |
 | ἀγαπάω | `will treat with affection` | `will treat with affection, will caress, will love, will be fond of, will regard with brotherly love, will be well pleased and contented with, will be content` | 29:32 |
 | ἀναπαύω | `desisting from` | `desisting from, taking their rest and sleeping, regaining strength` | 29:2 |
-| ἀναπληρόω | `filled up` | `filled up, made up and supplied, filled up the numbers of a body, paid in full` | 29:28 |
+| ἀναπληρόω | `filled up` | `filled up, made up and supplied, filled, paid in full` | 29:28 |
 | ἀνοίγω | `opened` | `opened, undid and opened, laid open and unfolded and disclosed, got into the open sea and got clear of land` | 29:31 |
-| ἀπαγγέλλω | `bring tidings` | `bring tidings, report, announce, carry a report home, relate and narrate` | 29:15 |
-| ἀπαγγέλλω | `brought tidings` | `brought tidings, reported, announced, carried a report home, related and narrated` | 29:12 |
+| ἀπαγγέλλω | `bring tidings` | `bring tidings, report, announce, carry a report, relate and narrate` | 29:15 |
+| ἀπαγγέλλω | `brought tidings` | `brought tidings, reported, announced, carried a report, related and narrated` | 29:12 |
 | ἀποκαθίστημι | `were re-establishing` | `were re-establishing, were restoring, were reinstating` | 29:3 |
 | ἀποκυλίω | `may roll away` | `may roll away` | 29:8 |
 | ἀποκυλίω | `rolled away` | `rolled away` | 29:10 |
 | ἀποκυλίω | `were rolling away` | `were rolling away` | 29:3 |
 | ἀσθενής | `without strength` | `without strength, weak, feeble, weakly, weak and poor, insignificant, petty and small` | 29:17 |
-| ἐξαίρω | `having lifted up` | `having lifted up, having lifted off the earth, having raised in dignity and exalted, having raised and aroused and stirred up` | 29:1 |
+| ἐξαίρω | `having lifted up` | `having lifted up and lifted off the earth, having raised in dignity and exalted, having raised and aroused and stirred up, having carried off for himself and earned and won and gained, having taken on himself` | 29:1 |
 | ἐξομολογέω | `I will confess in full` | `I will confess in full, I will make full acknowledgments and give thanks, I will agree and promise` | 29:35 |
-| ἐργάζομαι | `you will work` | `you will work, you will labour, you will work at and make and build, you will do and perform and accomplish, you will work a material, you will earn by working, you will work at and practise, you will work at a trade and traffic and trade` | 29:27 |
+| ἐργάζομαι | `you will work` | `you will work, you will labour, you will work at and make and build, you will do and perform and accomplish, you will work the land, you will earn by working` | 29:27 |
 | ἐργασία | `of the work` | `of the work, of the daily labour, of the business, of a working at and making and building, of a working of a material, of the trade and commerce, of the practising and exercising, of the work of art and production` | 29:27 |
 | ἔρχομαι | `was coming` | `was coming, was going, was going back and returning, was going to and intending, was coming within a little of and being near` | 29:6, 29:9 |
-| ἕβδομος | `the sevenths` | `the sevenths` | 29:27, 29:28 |
+| ἕβδομος | `the sevenths` | `the sevenths, the seventh days` | 29:27, 29:28 |
 | ὀλίγος | `few` | `few, little, scanty, small, too few, little and small` | 29:20 |
-| ὀστέον | `of the bones` | `of the bones, of the bleached bones of the dead` | 29:14 |
+| ὀστέον | `of the bones` | `of the bones, of the bones of the dead` | 29:14 |
 | ὁράω | `sees` | `sees, perceives, beholds, looks at` | 29:2 |
 | ὑγιαίνω | `is sound` | `is sound, is healthy, is in health, is sound of mind` | 29:6 |
 | ὡραῖος | `produced at the right season` | `produced at the right season, seasonable, timely, happening in season and done in due season, due and proper, ripe, in the bloom of youth and blooming, beautiful` | 29:17 |
@@ -1424,11 +1424,11 @@ the same ground as `the sixth` and `the seventh`: one sense each, so no range to
 
 | lemma | headword | chain | used |
 | --- | --- | --- | --- |
-| αὐξάνω | `may he make large` | `may he make large, may he increase, may he augment, may he increase in power and strengthen and exalt and aggrandise, may he promote to honour and glorify and magnify` | 28:3 |
-| βορρᾶς | `north wind` | `north wind, the north` | 28:14 |
+| αὐξάνω | `may he make large` | `may he make large, may he increase and augment, may he increase in power and strengthen and exalt and aggrandise, may he promote to honour and glorify and magnify, may he grow and wax and increase, may he grow up` | 28:3 |
+| βορρᾶς | `north wind` | `north wind, the north, northward` | 28:14 |
 | δίδωμι | `may give` | `may give, may grant, may provide, may give over and deliver up` | 28:20 |
 | δίδωμι | `you may give` | `you may give, you may grant, you may provide, you may give over and deliver up` | 28:22 |
-| δεκάτη | `a tenth` | `a tenth` | 28:22 |
+| δεκάτη | `a tenth` | `a tenth, a tenth part and tithe, a tenth day` | 28:22 |
 | διαφυλάσσω | `may watch closely` | `may watch closely, may guard carefully, may observe closely, may observe and maintain, may guard against` | 28:20 |
 | διαφυλάσσω | `watching closely` | `watching closely, guarding carefully, observing closely, observing and maintaining, guarding against` | 28:15 |
 | δύω | `stripped off` | `stripped off, entered and made one's way into, went in to, sank and set` | 28:11 |
@@ -1449,11 +1449,11 @@ the same ground as `the sixth` and `the seventh`: one sense each, so no range to
 | πληθύνω | `may he make full` | `may he make full, may he increase, may he multiply` | 28:3 |
 | πορεύομαι | `you may be driven` | `you may be driven, you may be carried, you may go, you may walk, you may march, you may go across and pass` | 28:15 |
 | προσκαλέω | `having called to himself` | `having called to himself, having called to one, having called to his aid, having cited` | 28:1 |
-| στήλη | `block of stone` | `block of stone, monument, gravestone, pillar` | 28:18, 28:22 |
+| στήλη | `block of stone` | `block of stone, prop and buttress to a wall, slab, gravestone, record and contract and agreement, turning-post` | 28:18, 28:22 |
 | στηρίζω | `having been made fast` | `having been made fast and standing so, having been propped, having been fixed, having been set, having been confirmed and established` | 28:12 |
 | συναγωγή | `bringings together` | `bringings together, unitings, places of assembly and synagogues, drawings together and contractings` | 28:3 |
 | φοβερός | `fearful` | `fearful, causing fear and dreadful and terrible, matter for fear and regarded with fear` | 28:17 |
-| ἀναβαίνω | `were going up` | `were going up, were mounting, were going up to, were embarking` | 28:12 |
+| ἀναβαίνω | `were going up` | `were going up, were mounting, were ascending, were going up to, were rising, were coming up, were coming to and arriving at, were going up country, were going aboard` | 28:12 |
 | ἀπαντάω | `moved from` | `moved from, met, met and encountered, came` | 28:11 |
 | ἀποίχομαι | `was gone away` | `was gone away, was absent and away, had departed` | 28:6 |
 | ἀποδεκατόω | `I will tithe` | `I will tithe, I will pay tithes of, I will take tithe` | 28:22 |
@@ -1467,10 +1467,10 @@ the same ground as `the sixth` and `the seventh`: one sense each, so no range to
 | ἐπιστηρίζω | `had been made to lean on` | `had been made to lean on and stood so, had leaned upon` | 28:13 |
 | ἐπιχέω | `poured water over` | `poured water over, poured` | 28:18 |
 | ἔλαιον | `olive-oil` | `olive-oil` | 28:18 |
-| ἱμάτιον | `outer garment` | `outer garment, cloak, mantle, clothes` | 28:20 |
+| ἱμάτιον | `outer garment` | `outer garment, cloak and mantle, Roman toga, clothes, cloth` | 28:20 |
 | ἵστημι | `I made to stand` | `I made to stand, I set, I stopped and stayed and checked, I set up and raised, I established and instituted, I appointed, I weighed` | 28:22 |
 | ὑποτίθημι | `placed under` | `placed under, placed under one's feet, placed under as a foundation, suggested and advised, set before, pledged and mortgaged` | 28:18 |
-| ὕπνος | `of the sleep` | `of the sleep, of the slumber, of the sleep of death` | 28:16 |
+| ὕπνος | `of the sleep` | `of the sleep, of the slumber, of the sleep of death, of the Sleep` | 28:16 |
 
 ### Words new in GEN 27
 
@@ -1505,7 +1505,7 @@ the same ground as `the sixth` and `the seventh`: one sense each, so no range to
 | γυμνός | `the naked parts` | `the naked parts, the unclad, the unarmed, the uncovered, the stripped of` | 27:16 |
 | δέρμα | `the skins` | `the skins, the hides, the skins prepared for bags and bottles` | 27:16 |
 | δίδωμι | `may he give` | `may he give, may he grant, may he provide, may he give over and deliver up` | 27:28 |
-| δεύτερος | `second` | `second, next, inferior` | 27:36 |
+| δεύτερος | `second` | `second, coming in second, next best, next, after, secondly and next and afterwards and a second time, a second time, secondary, second of two` | 27:36 |
 | δικαίως | `observantly of custom and social rule` | `observantly of custom and social rule, well-orderedly and civilly, observantly of right and righteously, evenly and well-balancedly, regularly and exactly, rightly and lawfully and justly, really and genuinely and truly, fairly and moderately` | 27:36 |
 | δουλεύω | `let them be slaves` | `let them be slaves, let them serve and be subject to` | 27:29 |
 | δουλεύω | `you will be a slave` | `you will be a slave, you will serve and be subject to` | 27:40 |
@@ -1522,7 +1522,7 @@ the same ground as `the sixth` and `the seventh`: one sense each, so no range to
 | εὐλογία | `good language` | `good language, fine language, a fair speech and specious talk, eulogy and panegyric, blessing` | 27:12, 27:36, 27:38 |
 | εὐλογία | `of the good language` | `of the good language, of the fine language, of the fair speech and specious talk, of the eulogy and panegyric, of the blessing` | 27:41 |
 | εὐλογία | `the good language` | `the good language, the fine language, the fair speech and specious talk, the eulogy and panegyric, the blessing` | 27:35, 27:36 |
-| εὑρίσκω | `you found` | `you found, you found out, you discovered` | 27:20 |
+| εὑρίσκω | `you found` | `you found, you found out, you discovered, you got and gained` | 27:20 |
 | ζυγός | `the yoke` | `the yoke, the cross-bar, the pair and team, the balance and scales, the rowing-bench` | 27:40 |
 | ζωή | `to the life` | `to the life, to the means of life and substance, to existence, to a way of life` | 27:46 |
 | θήρα | `hunting of wild beasts` | `hunting of wild beasts, the chase, eager pursuit, the beast taken and spoil and booty and prey and game` | 27:3, 27:5, 27:7, 27:33 |
@@ -1531,7 +1531,7 @@ the same ground as `the sixth` and `the seventh`: one sense each, so no range to
 | θηρεύω | `hunt` | `hunt, go hunting, hunt after and chase and catch, hunt down, lay wait for` | 27:3 |
 | θηρεύω | `to hunt` | `to hunt, to go hunting, to hunt after and chase and catch, to hunt down, to lay wait for` | 27:5 |
 | θυμός | `the soul` | `the soul, the spirit and heart, the anger and wrath, the mind and temper, the will and desire, the courage and spirit` | 27:44 |
-| καθαιρέω | `you may take down` | `you may take down, you may put down and close, you may bring down, you may put down by force and destroy and kill and slay, you may put down and reduce and depose and dethrone and remove, you may rase to the ground and pull down, you may cancel and rescind, you may condemn, you may reduce, you may overpower and seize and catch` | 27:40 |
+| καθαιρέω | `you may take down` | `you may take down, you may put down and close, you may bring down, you may put down by force and destroy and kill and slay, you may put down and reduce and depose and dethrone and remove, you may rase to the ground and pull down, you may cancel and rescind, you may condemn, you may reduce, you may overpower and seize and catch, you may fetch down as a reward and achieve and take and carry off` | 27:40 |
 | κατάρα | `curse` | `curse` | 27:12 |
 | κατάρα | `the curse` | `the curse` | 27:13 |
 | κατανύσσω | `having been stabbed` | `having been stabbed and gouged, having been sorely pricked, having been bewildered and stunned` | 27:38 |
@@ -1543,8 +1543,8 @@ the same ground as `the sixth` and `the seventh`: one sense each, so no range to
 | λαμβάνω | `has taken` | `has taken and it stands so, has received and it stands so, has taken hold of and grasped and seized and it stands so` | 27:36 |
 | λαμβάνω | `will take` | `will take, will receive, will take hold of and grasp and seize` | 27:46 |
 | λεῖος | `smooth` | `smooth, plain and not embroidered, smooth and level and flat, smooth-skinned and beardless` | 27:11 |
-| μάχαιρα | `to the large knife` | `to the large knife, to the sabre, to the short sword and dagger` | 27:40 |
-| μέν | `on the one hand` | `on the one hand, on the other hand, as well as, while, whereas, indeed, for my part, surely, accordingly and so, at all events and at any rate, so then` | 27:22 |
+| μάχαιρα | `to the large knife` | `to the large knife and dirk, to the knife for cutting up, to the short sword and dagger, to the sabre and bent sword, to the rasor` | 27:40 |
+| μέν | `on the one hand` | `on the one hand, on the other hand, as well as, while, whereas, indeed, for my part, surely, accordingly and so, at all events and at any rate, so then, nay rather, nay, yea rather, yet and but however and nevertheless, of course and certainly, only` | 27:22 |
 | μεταπέμπω | `I will send after` | `I will send after, I will send for and summon` | 27:45 |
 | νέος | `younger` | `younger, newer, fresher, unexpected and strange` | 27:15, 27:42 |
 | οἰκέτης | `house-slaves` | `house-slaves, household servants, menials` | 27:37 |
@@ -1558,7 +1558,7 @@ the same ground as `the sixth` and `the seventh`: one sense each, so no range to
 | πικρός | `pointed` | `pointed, sharp, keen, pungent and bitter, piercing and shrill, cruel and relentless, embittered and angry` | 27:34 |
 | πιότης | `of the fattiness` | `of the fattiness, of wealth and prosperity` | 27:28, 27:39 |
 | πλήρης | `of filled` | `of filled, of infected by, of satiated with, of filled with, of full, of full of people, of full and complete` | 27:27 |
-| πλῆθος | `a great number` | `a great number, a throng and crowd and multitude, the mass and the people, the greater number and the majority, the size and magnitude and extent` | 27:28 |
+| πλῆθος | `a great number` | `a great number and throng and crowd and multitude, the greater number and greater part and mass and main body, the majority and people, the populace and mob, quantity, number, magnitude and size, extent, amount, length` | 27:28 |
 | ποιέω | `I may make` | `I may make, I may do, I may produce, I may create` | 27:37 |
 | πρίν | `before` | `before, before that time and sooner, aforetime and formerly and once and erst, of old` | 27:4 |
 | πρεσβύτερος | `of the elder` | `of the elder, of the older, of the higher and more important, of the greater than, of an elder of the Jewish Council, of an elder of the Church and presbyter` | 27:15, 27:42 |
@@ -1593,13 +1593,13 @@ the same ground as `the sixth` and `the seventh`: one sense each, so no range to
 | ἀναβοάω | `cried aloud` | `cried aloud, shouted aloud, called out, cried out` | 27:34, 27:38 |
 | ἀπαγγέλλω | `was brought tidings of` | `was brought tidings of, was reported, was announced, was carried a report of, was related and narrated` | 27:42 |
 | ἀπειλέω | `forces back` | `forces back` | 27:42 |
-| ἀποδιδράσκω | `run away` | `run away, run off, escape` | 27:43 |
-| ἀποκτείνω | `I may kill` | `I may kill, I may slay` | 27:41 |
+| ἀποδιδράσκω | `run away` | `run away and off and escape, flee from, desert, flee and shun` | 27:43 |
+| ἀποκτείνω | `I may kill` | `I may kill, I may slay, I may condemn to death` | 27:41 |
 | ἀποκτείνω | `to kill` | `to kill, to slay` | 27:42 |
 | ἀποστέλλω | `having sent off` | `having sent off, having sent away, having banished, having despatched, having gone away and departed` | 27:45 |
 | ἀτεκνόω | `I may be made childless` | `I may be made childless, I may be deprived of children` | 27:45 |
-| ἁπαλός | `soft to the touch` | `soft to the touch, tender, gentle, delicate` | 27:9 |
-| ἄνωθεν | `from above` | `from above, from on high, from the beginning, over again and anew` | 27:39 |
+| ἁπαλός | `soft to the touch` | `soft to the touch, tender, fresh, soft and gentle, soft and delicate` | 27:9 |
+| ἄνωθεν | `from above` | `from above, from on high, from the upper country, above and on high, from the beginning, by descent, over again and anew` | 27:39 |
 | ἄρτος | `the cakes` | `the cakes, the loaves of wheat-bread, the breads` | 27:17 |
 | ἐγγίζω | `bring near` | `bring near, bring up to, approach, be imminent, approximate to, be next of kin, be on the point of` | 27:21, 27:26 |
 | ἐγγίζω | `let bring near` | `let bring near, let bring up to, let approach, let be imminent, let approximate to, let be next of kin, let be on the point of` | 27:41 |
@@ -1610,7 +1610,7 @@ the same ground as `the sixth` and `the seventh`: one sense each, so no range to
 | ἐντέλλομαι | `I enjoin` | `I enjoin, I command` | 27:8 |
 | ἐξίστημι | `stood out of` | `stood out of, changed and altered utterly, was driven out of, was deranged, was astonished and amazed, gave way and retired, stood aside from and gave up` | 27:33 |
 | ἐπάγω | `I will bring upon` | `I will bring upon, I will bring on and forward, I will lead on and bring on, I will bring in, I will lay on` | 27:12 |
-| ἐπιγινώσκω | `looked upon` | `looked upon, witnessed, observed, recognised, came to know and found out, learned to know thoroughly, knew well` | 27:23 |
+| ἐπιγινώσκω | `looked upon` | `looked upon, witnessed, observed, recognised and knew again, acknowledged and approved, found out and discovered and detected, came to a decision and resolved and decided` | 27:23 |
 | ἐπιλανθάνομαι | `may forget` | `may forget` | 27:45 |
 | ἐσθίω | `I will eat` | `I will eat, I will eat of` | 27:25 |
 | ἐσθίω | `eat` | `eat, eat of` | 27:19 |
@@ -1659,11 +1659,11 @@ the same ground as `the sixth` and `the seventh`: one sense each, so no range to
 
 | lemma | headword | chain | used |
 | --- | --- | --- | --- |
-| αὐξάνω | `made large` | `made large, increased, augmented, increased in power and strengthened and exalted and aggrandised, promoted to honour and glorified and magnified` | 26:22 |
+| αὐξάνω | `made large` | `made large, increased and augmented, increased in power and strengthened and exalted and aggrandised, promoted to honour and glorified and magnified, grew and waxed and increased, grew up` | 26:22 |
 | βασιλεύς | `the king` | `the king, the chief, the hereditary king, the lord and master and householder, the second of the nine archons, the king of Persia` | 26:8 |
 | βδελύσσομαι | `we felt nausea` | `we felt nausea, we were sick, we felt a loathing at and loathed` | 26:29 |
 | βοῦς | `of oxen` | `of oxen, of cows, of ox-hide shields` | 26:14 |
-| γε | `at least` | `at least, at any rate, at all events` | 26:9 |
+| γε | `at least` | `at least, at any rate, even, that is to say, really, namely and that is, yes and, well then` | 26:9 |
 | γεώργιον | `fields` | `fields, orchards, husbandries, crops, taxes` | 26:14 |
 | διατίθεμαι | `we will dispose` | `we will dispose, we will make a will, we will arrange, we will covenant` | 26:28 |
 | δικαίωμα | `the acts by which wrong is set right` | `the acts by which wrong is set right, the judgments and punishments and penalties, the pleas of right, the justifications, the ordinances and decrees` | 26:5 |
@@ -1671,7 +1671,7 @@ the same ground as `the sixth` and `the seventh`: one sense each, so no range to
 | δοχή | `a receiving` | `a receiving, a reception, an entertainment, a feast` | 26:30 |
 | δυνατός | `stronger` | `stronger, mightier, abler, more powerful, more possible, more practicable` | 26:16 |
 | εὐλογέω | `I have spoken well of` | `I have spoken well of and it stands so, I have praised and it stands so, I have honoured and it stands so, I have blessed and it stands so` | 26:24 |
-| εὑρίσκω | `we found` | `we found, we found out, we discovered` | 26:32 |
+| εὑρίσκω | `we found` | `we found, we found out, we discovered, we got and gained` | 26:32 |
 | ζηλόω | `rivalled` | `rivalled, vied with, emulated, were jealous of and envied, pronounced happy and admired and praised, desired emulously and strove after, were impelled by zeal` | 26:14 |
 | θάνατος | `of death` | `of death, of the death threatened, of the sentence of death` | 26:11 |
 | θυρίς | `of the little door` | `of the little door, of the window` | 26:8 |
@@ -1680,27 +1680,27 @@ the same ground as `the sixth` and `the seventh`: one sense each, so no range to
 | καλῶς | `well` | `well, rightly, well and happily, right well, rightly and deservedly` | 26:29 |
 | καταβαίνω | `you may step down` | `you may step down, you may go and come down, you may go down from, you may dismount, you may come down stairs, you may go down from the inland parts to the sea, you may come to land and get safe ashore, you may go down into the arena, you may come down from the tribune, you may come to, you may end` | 26:2 |
 | καταλύω | `put down` | `put down, destroyed, dissolved and broke up, deposed, dismissed and disbanded, neglected, ended and brought to an end, broke, made peace with, unloosed and unyoked, took down, took up his quarters and lodged, went and lodged, took his rest` | 26:17 |
-| κρίνω | `were being separated` | `were being separated, were being picked out and chosen, were being decided, were being judged, were being adjudged, were being judged of and estimated, were being expounded and interpreted` | 26:21 |
+| κρίνω | `were being separated` | `were being separated and parted and put asunder and distinguished, were being picked out and chosen, were being decided, were being judged, were being adjudged, were being judged of and estimated, were being expounded and interpreted` | 26:21 |
 | κριθή | `barley-corns` | `barley-corns, barley, beer` | 26:12 |
-| κτῆνος | `flocks and herds` | `flocks and herds, single beasts, oxen, sheep, beasts for riding` | 26:14 |
+| κτῆνος | `flocks and herds` | `flocks and herds, single beasts, beasts for riding` | 26:14 |
 | λέγω | `we said` | `we said, we spoke, we declared, we called by name, we told` | 26:28 |
 | λιμός | `of the hunger` | `of the hunger, of the famine` | 26:1 |
 | μάχομαι | `fought` | `fought, fought with, quarrelled and wrangled and disputed, opposed and gainsaid, contended for the mastery` | 26:20, 26:22 |
 | μισέω | `you hated` | `you hated` | 26:27 |
 | νόμιμος | `the usages` | `the usages, the customs, the funeral rites` | 26:5 |
-| πάλιν | `back` | `back, again, once more, over again` | 26:18 |
+| πάλιν | `back` | `back, backwards, contrariwise, opposite, the change, again and once more and anew, again in turn` | 26:18 |
 | πήγνυμι | `made fast` | `made fast, fixed in the earth and planted, fastened together and constructed and built, made solid and stiff and hard, froze, became solid and stiff, became congealed and froze` | 26:25 |
 | παραγίνομαι | `having come to be beside` | `having come to be beside, having come up and arrived, having come to help, having been present, having stood by` | 26:32 |
 | παρακύπτω | `having stooped sideways` | `having stooped sideways, having stooped for the purpose of looking at, having looked sideways at and cast a careless glance on, having peeped out of, having peeped in and looked in` | 26:8 |
 | παροικέω | `dwell beside` | `dwell beside, dwell along the coast of, live near, dwell among, lie near, live in and sojourn` | 26:3 |
 | πλατύνω | `made broad` | `made broad, widened, enlarged` | 26:22 |
-| ποιμήν | `of the herdsmen` | `of the herdsmen, of the shepherds, of the leaders and chiefs` | 26:20 |
-| ποιμήν | `the herdsmen` | `the herdsmen, the shepherds, the leaders and chiefs` | 26:20 |
+| ποιμήν | `of the herdsmen` | `of the herdsmen, of the shepherds, of the captains and chiefs` | 26:20 |
+| ποιμήν | `the herdsmen` | `the herdsmen, the shepherds, the captains and chiefs` | 26:20 |
 | πολυχρόνιος | `long-existing` | `long-existing, of olden time, ancient, lasting for long` | 26:8 |
 | προβαίνω | `stepping on` | `stepping on, stepping forward, advancing, proceeding, going before, being before and superior to, overstepping` | 26:13 |
 | πρόβατον | `of things that walk forward` | `of things that walk forward, of cattle, of flocks and herds, of horses, of small cattle, of sheep` | 26:14 |
 | πρόσταγμα | `the ordinances` | `the ordinances, the commands` | 26:5 |
-| πρότερος | `before` | `before, in front, former and earlier` | 26:1 |
+| πρότερος | `before` | `before, in front and forward, former and sooner, elder, above and superior, earlier` | 26:1 |
 | πόλις | `to the city` | `to the city, to the citadel, to the country, to the body of citizens, to the state` | 26:33 |
 | σπείρω | `sowed` | `sowed, scattered like seed and strewed and threw about, spread abroad, was scattered and dispersed` | 26:12 |
 | συντάσσω | `drew up together` | `drew up together, arranged in order, appointed, enjoined, ordered` | 26:11 |
@@ -1710,15 +1710,15 @@ the same ground as `the sixth` and `the seventh`: one sense each, so no range to
 | φάσκω | `saying` | `saying, affirming, asserting, thinking and deeming and expecting, promising` | 26:20 |
 | φρέαρ | `of the well` | `of the well, of the tank and cistern and reservoir, of the oil jar` | 26:20, 26:32 |
 | φρέαρ | `the wells` | `the wells, the tanks and cisterns and reservoirs, the oil jars` | 26:15, 26:18 |
-| φυλάσσω | `kept watch and ward` | `kept watch and ward, kept guard, watched and guarded and kept and defended` | 26:5 |
+| φυλάσσω | `kept watch and ward` | `kept watch and ward, kept guard, watched and guarded and kept and defended, watched for and lay in wait for, kept and maintained and cherished, observed` | 26:5 |
 | χράομαι | `we used` | `we used, we had and used, we indulged, we experienced and suffered and were subject to, we came to, we lived under, we made use of, we treated, we were intimate with, we were in need and yearned after, we had in use and possessed` | 26:29 |
 | χρόνος, with ἐν | `in the time` | `within, inside of, and by means of the time, the definite time and while and period and season, the periods of time, the lifetime and an age, the season and portion of the year, the delay and loss of time` | 26:1, 26:15 |
 | χωρίς | `separately` | `separately, asunder, apart, by oneself, separately and besides, separately and one by one, except, of different nature and kind, without, separate from and apart, aloof from and far from, independent of and without reckoning and not to mention and besides, differently from and otherwise than` | 26:1 |
 | ἀδικέω | `did wrong` | `did wrong, did one wrong and wronged and injured, spoiled and damaged` | 26:20 |
 | ἀπέρχομαι | `go away` | `go away, depart from, depart, depart from life` | 26:16 |
-| ἀπαίρω | `having lifted off` | `having lifted off, having taken away and carried off, having removed, having set off and departed, having marched away` | 26:21, 26:22 |
+| ἀπαίρω | `having lifted off` | `having lifted off, having carried off, having taken away, having removed from, having led away, having sailed and marched away and departed, having departed from, having set out on` | 26:21, 26:22 |
 | ἀποίχομαι | `were gone away` | `were gone away, were absent and away, had departed` | 26:31 |
-| ἀποκτείνω | `they may kill` | `they may kill, they may slay` | 26:7 |
+| ἀποκτείνω | `they may kill` | `they may kill, they may slay, they may condemn to death` | 26:7 |
 | ἀποστέλλω | `you sent off` | `you sent off, you sent away, you banished, you despatched, you went away and departed` | 26:27 |
 | ἀρά | `prayer` | `prayer, prayer for evil and curse and imprecation, effect of the curse and bane and ruin` | 26:28 |
 | ἄγνοια | `want of perception` | `want of perception, ignorance, a mistake` | 26:10 |
@@ -1732,8 +1732,8 @@ the same ground as `the sixth` and `the seventh`: one sense each, so no range to
 | ἑκατοστεύω | `bearing a hundredfold` | `bearing a hundredfold` | 26:12 |
 | ἔνοχος | `held in` | `held in, liable to and subject to, liable to the penalty` | 26:11 |
 | ἕτερος | `other` | `other, one of two, the other of two, another, second, different, other than, worse` | 26:21, 26:22 |
-| ὀρύσσω | `dug` | `dug, dug through, dug up` | 26:15, 26:18, 26:19, 26:21, 26:22, 26:25, 26:32 |
-| ὀρύσσω | `dug` | `dug, dug through, dug up` | 26:15, 26:18, 26:19, 26:21, 26:22, 26:25, 26:32 |
+| ὀρύσσω | `dug` | `dug, dug up, dug through and made a canal through, buried` | 26:15, 26:18, 26:19, 26:21, 26:22, 26:25, 26:32 |
+| ὀρύσσω | `dug` | `dug, dug up, dug through and made a canal through, buried` | 26:15, 26:18, 26:19, 26:21, 26:22, 26:25, 26:32 |
 | ὁράω | `we have seen` | `we have seen and it stands so, we have perceived and it stands so, we have beheld and it stands so, we have looked at and it stands so` | 26:28 |
 | ὄνομα | `the names` | `the names, the fames, the mere names, the phrases and expressions` | 26:18 |
 | ὅρκος | `the object by which one swears` | `the object by which one swears, the witness of an oath, the oath` | 26:3 |
@@ -1773,23 +1773,23 @@ the same ground as `the sixth` and `the seventh`: one sense each, so no range to
 
 | lemma | headword | chain | used |
 | --- | --- | --- | --- |
-| αὐξάνω | `were made large` | `were made large, were increased, were augmented, were increased in power and strengthened and exalted and aggrandised, were promoted to honour and glorified and magnified, grew and waxed and increased, grew up` | 25:27 |
-| γένος | `the race` | `the race, the stock and family, the offspring and posterity, the clan and house, the tribe and caste, the breed, the age and generation, the sex and gender, the class and sort` | 25:17 |
+| αὐξάνω | `were made large` | `were made large, were increased and augmented, were increased in power and strengthened and exalted and aggrandised, were promoted to honour and glorified and magnified, grew and waxed and increased, grew up` | 25:27 |
+| γένος | `the race` | `the race, the stock and family, the offspring and posterity, the clan and house, the tribe and caste, the breed, the age and generation, the sex and gender, the class and sort and kind, the genus` | 25:17 |
 | γαστήρ, with ἐν | `in belly` | `within, inside of, and by means of belly, paunch, the paunch stuffed with mince-meat and black-pudding and sausage, the womb` | 25:21 |
 | γαστήρ, with ἐν | `in the belly` | `within, inside of, and by means of the belly, the paunch, the paunch stuffed with mince-meat and black-pudding and sausage, the womb` | 25:23 |
 | γενεά | `of the races` | `of the races, of the stocks and families, of the breeds, of the tribes and nations, of the races and generations, of the offspring, of the birth-places, of the ages and times of life, of the times of birth` | 25:13 |
 | γῆρας, with ἐν | `in old age` | `within, inside of, and by means of old age, the latter part of life` | 25:8 |
-| δέομαι | `was lacking` | `was lacking, was missing, was standing in need of, was in want and need, was asking for` | 25:21 |
+| δέομαι | `was lacking` | `was lacking, was missing, was standing in need of, was in want and need, was asking for and begging` | 25:21 |
 | δίδυμος | `double` | `double, twofold, twain, twin, twins` | 25:24 |
 | δασύς | `thick with hair` | `thick with hair, hairy, shaggy, rough, downy, thick with leaves, thick with bushes and wood, bushy country` | 25:25 |
 | διαστέλλω | `will be put asunder` | `will be put asunder, will be torn open, will be distinguished and defined, will be determined, will be given express orders` | 25:23 |
 | δορά | `skin` | `skin, hide` | 25:25 |
 | δουλεύω | `will be a slave` | `will be a slave, will serve and be subject to` | 25:23 |
 | δόμα | `gifts` | `gifts, payments` | 25:6 |
-| ζάω | `living` | `living, being in full life and strength, being fresh and strong` | 25:6 |
+| ζάω | `living` | `living, alive, in full life and strength, fresh, strong` | 25:6 |
 | θήρα | `the hunting of wild beasts` | `the hunting of wild beasts, the chase, the eager pursuit, the beast taken and the spoil and booty and prey and game` | 25:28 |
-| κοιλία | `of the large cavity of the body` | `of the large cavity of the body, of the belly, of the intestines and bowels` | 25:23 |
-| κοιλία, with ἐν | `in the large cavity of the body` | `within, inside of, and by means of the large cavity of the body, the belly, the intestines and bowels` | 25:24 |
+| κοιλία | `of the large cavity of the body` | `of the large cavity of the body, of the belly, of the intestines, of the bowels` | 25:23 |
+| κοιλία, with ἐν | `in the large cavity of the body` | `within, inside of, and by means of the large cavity of the body, the belly, the intestines, the bowels` | 25:24 |
 | κτάομαι | `procured for himself` | `procured for himself, got, gained, acquired, brought upon himself and incurred, procured for another` | 25:10 |
 | κυνηγέω | `to hunt` | `to hunt, to chase` | 25:27 |
 | λαός | `peoples` | `peoples, men, soldiers, land-armies, common men, folk, Jews, Christians` | 25:23 |
@@ -1811,7 +1811,7 @@ the same ground as `the sixth` and `the seventh`: one sense each, so no range to
 | πυρρός | `of flame-coloured` | `of flame-coloured, of yellowish-red, of red-haired, of red and tawny, of red with blushes` | 25:30 |
 | σκηνή, with ἐν | `in the covered places` | `within, inside of, and by means of the covered places, the tents, the camps, the dwelling-places, the temples` | 25:16 |
 | σκιρτάω | `were springing` | `were springing, were leaping, were bounding` | 25:22 |
-| τελευτάω | `to complete` | `to complete, to finish, to accomplish, to bring to an end and finish life and die, to be accomplished, to come to an end, to die` | 25:32 |
+| τελευτάω | `to complete` | `to complete, to finish, to accomplish, to fulfil, to bring about, to bring to an end, to make an end of, to end life and die, to come to an end` | 25:32 |
 | υἱός | `sons` | `sons` | 25:3, 25:4 |
 | υἱός | `to the sons` | `to the sons` | 25:6 |
 | φακός | `of lentil` | `of lentil, of its fruit` | 25:34 |
@@ -1833,7 +1833,7 @@ the same ground as `the sixth` and `the seventh`: one sense each, so no range to
 | ἕψεμα | `of anything boiled` | `of anything boiled, of vegetables for kitchen use` | 25:30 |
 | ἕψω | `boiled` | `boiled, seethed, smelted and refined, cherished` | 25:29 |
 | ὅδε | `to this` | `to this, to the immediate present, here and on the spot, thus, hither and to this spot, therefore and on this account` | 25:24 |
-| ὅλος | `whole` | `whole, entire, complete in all its parts, safe and sound, entire and utter, all` | 25:25 |
+| ὅλος | `whole` | `whole and entire, continuous and incessant` | 25:25 |
 | ὑπερέχω | `will hold over` | `will hold over, will have and hold above, will be above and rise above the horizon, will be above water, will rise above and overlook, will outflank, will overtop and exceed and outdo, will prevail, will get over and cross` | 25:23 |
 
 ### Words new in GEN 24
@@ -1887,12 +1887,12 @@ the same ground as `the sixth` and `the seventh`: one sense each, so no range to
 | δύναμαι | `we will be able` | `we will be able, we will be capable and strong enough, we will be powerful and mighty, we will have influence, we will dare and bear, we will pass for, we will be worth, we will be equivalent to, we will signify and mean, we will avail` | 24:50 |
 | δῶρον | `gifts` | `gifts, presents, votive gifts, blessings` | 24:53 |
 | εὐαρεστέω | `I was well pleasing` | `I was well pleasing, I seemed good, I was resolved, I was well pleased and satisfied` | 24:40 |
-| εὐδοκέω | `having been well pleased` | `having been well pleased, having consented and been glad` | 24:26, 24:48 |
-| εὐοδόω | `has helped on the way` | `has helped on the way and it stands helped on the way` | 24:21, 24:27 |
-| εὐοδόω | `help on the way` | `help on the way` | 24:12 |
-| εὐοδόω | `helped on the way` | `helped on the way` | 24:48, 24:56 |
-| εὐοδόω | `will help on the way` | `will help on the way` | 24:40 |
-| εὐοδόω | `you help on the way` | `you help on the way` | 24:42 |
+| εὐδοκέω | `having been well pleased` | `having been well pleased, having consented, having been glad` | 24:26, 24:48 |
+| εὐοδόω | `has helped on the way` | `has helped on the way and it stands helped on the way, has had a prosperous journey, has prospered and been successful` | 24:21, 24:27 |
+| εὐοδόω | `help on the way` | `help on the way, have a prosperous journey, prosper and be successful` | 24:12 |
+| εὐοδόω | `helped on the way` | `helped on the way, had a prosperous journey, prospered and was successful` | 24:48, 24:56 |
+| εὐοδόω | `will help on the way` | `will help on the way, will have a prosperous journey, will prosper and be successful` | 24:40 |
+| εὐοδόω | `you help on the way` | `you help on the way, you have a prosperous journey, you prosper and are successful` | 24:42 |
 | θέλω | `may will` | `may will, may wish, may purpose, may be wont and accustomed, may mean and purport` | 24:8 |
 | θεράπων | `waiting-man` | `waiting-man, attendant, companion in arms, servant` | 24:44 |
 | κάμηλος | `of the camel` | `of the camel, of the camel in an army, of the camelry and camel-brigade` | 24:64 |
@@ -1900,7 +1900,7 @@ the same ground as `the sixth` and `the seventh`: one sense each, so no range to
 | κάμηλος | `the camels` | `the camels, the camels in an army, the camelry and camel-brigade` | 24:11, 24:14, 24:22, 24:32, 24:46, 24:61 |
 | κάμηλος | `to the camels` | `to the camels, to the camels in an army, to the camelry and camel-brigade` | 24:19, 24:20, 24:31, 24:32, 24:44 |
 | καθαιρέω | `took down` | `took down, put down and closed, brought down, put down by force and destroyed and killed and slew, put down and reduced and deposed and dethroned and removed, rased to the ground and pulled down, cancelled and rescinded, condemned, reduced, overpowered and seized and caught, fetched down as a reward and achieved and took and carried off` | 24:18, 24:46 |
-| καθαρός | `clear of dirt` | `clear of dirt, clean and spotless and unsoiled, clear and open and free, clear from shame and pollution and pure, clear of admixture and pure` | 24:8 |
+| καθαρός | `clear of dirt` | `clear of dirt, clean and spotless and unsoiled, clear and open and free, clear from shame and pollution and pure, clear of admixture, genuine` | 24:8 |
 | κακός | `evil` | `evil, ill, evil word and reproach` | 24:50 |
 | καλέω | `let us call` | `let us call, let us summon, let us call to ourselves, let us invite` | 24:57 |
 | καλός | `to beauty` | `to beauty, to moral beauty and virtue` | 24:50 |
@@ -1943,8 +1943,8 @@ the same ground as `the sixth` and `the seventh`: one sense each, so no range to
 | πορεύομαι | `was being driven` | `was being driven, was being carried, was going, was walking, was marching, was going across and passing` | 24:62 |
 | πορεύομαι | `will be driven` | `will be driven, will be carried, will go, will walk, will march, will go across and pass` | 24:39 |
 | πορεύομαι | `you will be driven` | `you will be driven, you will be carried, you will go, you will walk, you will march, you will go across and pass` | 24:4, 24:38, 24:58 |
-| ποτίζω | `I will give to drink` | `I will give to drink, I will water` | 24:14, 24:46 |
-| ποτίζω | `give to drink` | `give to drink, water` | 24:17, 24:43, 24:45 |
+| ποτίζω | `I will give to drink` | `I will give to drink, I will water, I will water the cattle` | 24:14, 24:46 |
+| ποτίζω | `give to drink` | `give to drink, water, water the cattle` | 24:17, 24:43, 24:45 |
 | προσέχω | `hold to` | `hold to, offer, bring to, turn to, turn the mind to, give heed to` | 24:6 |
 | προσκυνέω | `I made obeisance` | `I made obeisance, I fell down and worshipped, I worshipped, I adored, I did reverence to, I made the salam, I prostrated myself before` | 24:48 |
 | πρόσταγμα | `the ordinance` | `the ordinance, the command` | 24:50 |
@@ -1961,7 +1961,7 @@ the same ground as `the sixth` and `the seventh`: one sense each, so no range to
 | φυλή | `the race` | `the race, the tribe, the body united by ties of blood and descent, the clan, the tribe by local habitation, the hundred and county, the contingent furnished by a tribe, the brigade` | 24:4, 24:38 |
 | χιλιάς | `numbers one thousand` | `numbers one thousand, thousands, very large numbers` | 24:60 |
 | χρυσίον | `piece of gold` | `piece of gold, gold, gold coin and money` | 24:35 |
-| χρυσοῦς | `golden` | `golden, of gold, decked and inlaid with gold, gilded, gilt, gold, gold-coloured and golden-yellow` | 24:22, 24:53 |
+| χρυσοῦς | `golden` | `golden, of gold, decked and inlaid with gold, gilded, gilt, gold-coloured and golden-yellow` | 24:22, 24:53 |
 | χρυσοῦς | `of golden` | `of golden, of gold, of decked and inlaid with gold, of gilded, of gilt, of gold-coloured and golden-yellow` | 24:22 |
 | χόρτασμα | `fodders` | `fodders, forages, foods for men` | 24:25, 24:32 |
 | ψέλιον | `armlets` | `armlets, anklets` | 24:22 |
@@ -1971,7 +1971,7 @@ the same ground as `the sixth` and `the seventh`: one sense each, so no range to
 | ἀδελφός | `the sons of the same mother` | `the sons of the same mother, the brothers, the near kinsmen` | 24:55 |
 | ἀδολεσχέω | `to talk idly` | `to talk idly, to prate` | 24:63 |
 | ἀθῷος | `unpunished` | `unpunished, scot-free, free from, unharmed by, not deserving punishment and without fault` | 24:41 |
-| ἀκούω, with ἐν τῷ | `in the hearing` | `within, inside of, and by means of the hearing, the having hearing of, the hearing tell of, the hearkening and giving ear, the listening to and obeying` | 24:52 |
+| ἀκούω, with ἐν τῷ | `in the hearing` | `within, inside of, and by means of the hearing, the having hearing of, the hearing tell of, the knowing by hearsay, the hearkening and giving ear, the listening to and obeying` | 24:52 |
 | ἀλήθεια | `of truth` | `of truth, of truth and reality, of truthfulness and sincerity and frankness and candour` | 24:48 |
 | ἀλήθεια | `the truth` | `the truth, the truth and reality, the truthfulness and sincerity and frankness and candour` | 24:27 |
 | ἀνά + accusative | `up to` | `up to, up along, throughout and in course of and by, at the rate of and apiece, up to and in proportion` | 24:22 |
@@ -2015,7 +2015,7 @@ the same ground as `the sixth` and `the seventh`: one sense each, so no range to
 | ἔμπροσθεν | `before` | `before, in front of` | 24:7 |
 | ἔρημος | `of the desert part` | `of the desert part, of the desolate, of the lone and lonely and lonesome and solitary, of the helpless, of the reft and void and destitute, of the undefended` | 24:62 |
 | ἔρχομαι | `you may come` | `you may come, you may go, you may go back and return, you may be going to and intend, you may come within a little of and be near` | 24:41 |
-| ἔχω | `having` | `having, holding, possessing, keeping, holding fast, bearing up against and supporting` | 24:15, 24:45 |
+| ἔχω | `having` | `having, holding, possessing, keeping, dwelling in and inhabiting, holding fast, bearing up against and supporting` | 24:15, 24:45 |
 | ἱματισμός | `clothing` | `clothing, apparel` | 24:53 |
 | ἵστημι | `I have been set` | `I have been set and stand so, I have been placed, I have stood, I have been there, I have been in a state and condition, I have lain and been situated, I have stood still and stopped and halted, I have stood idle, I have stopped and ceased and been at rest, I have stood firm, I have stood up and risen up, I have arisen and begun` | 24:13 |
 | ἵστημι | `of having been set` | `of having been set and standing so, of having been placed, of having stood, of having been there, of having been in a state and condition, of having lain and been situated, of having stood still and stopped and halted, of having stood idle, of having stopped and ceased and been at rest, of having stood firm, of having stood up and risen up, of having arisen and begun` | 24:30 |
@@ -2080,8 +2080,8 @@ the same ground as `the sixth` and `the seventh`: one sense each, so no range to
 | λαός | `to the people` | `to the people, to the men, to the soldiers, to the land-army, to the common men, to the folk, to the Jews, to the Christians` | 23:7 |
 | μέρος, with ἐν | `in part` | `within, inside of, and by means of part, share, one's portion and heritage and lot, one's turn, the part one takes in and the part assigned, division` | 23:9 |
 | μνημεῖον | `memorials` | `memorials, remembrances, records, tombs and monuments` | 23:6 |
-| μνημεῖον | `of memorial` | `of memorial, of remembrance, of record, of tomb and monument` | 23:9 |
-| μνημεῖον | `the memorial` | `the memorial, the remembrance, the record, the tomb and monument` | 23:6 |
+| μνημεῖον | `of memorial` | `of memorial, of remembrance, of record, of monument` | 23:9 |
+| μνημεῖον | `the memorial` | `the memorial, the remembrance, the record, the monument` | 23:6 |
 | νεκρός | `of the dead body` | `of the dead body, of the corpse, of the dead` | 23:3 |
 | νεκρός | `the dead body` | `the dead body, the corpse, the dead` | 23:4, 23:6, 23:8, 23:11, 23:13, 23:15 |
 | πενθέω | `to bewail` | `to bewail, to lament, to mourn for` | 23:2 |
@@ -2093,8 +2093,8 @@ the same ground as `the sixth` and `the seventh`: one sense each, so no range to
 | ψυχή | `to the breath` | `to the breath, to the life, to the spirit, to life and death, to the ghost, to the departed soul` | 23:8 |
 | ἀγρός | `the field` | `the field, the lands, the farm, the country` | 23:11, 23:17, 23:20 |
 | ἀγρός, with ἐν | `in the field` | `within, inside of, and by means of the field, the lands, the farm, the country` | 23:17 |
-| ἀκούω | `I have heard` | `I have heard and it stands so, I have had hearing of and it stands so, I have heard tell of and it stands so, I have hearkened and given ear and it stands so, I have listened to and obeyed and it stands so` | 23:15 |
-| ἀκούω | `of hearing` | `of hearing, of having hearing of, of hearing tell of, of hearkening and giving ear, of listening to and obeying` | 23:10 |
+| ἀκούω | `I have heard` | `I have heard and it stands so, I have had hearing of and it stands so, I have heard tell of and it stands so, I have known by hearsay and it stands so, I have hearkened and given ear and it stands so, I have listened to and obeyed and it stands so` | 23:15 |
+| ἀκούω | `of hearing` | `of hearing, of having hearing of, of hearing tell of, of knowing by hearsay, of hearkening and giving ear, of listening to and obeying` | 23:10 |
 | ἀποκαθίστημι | `re-established` | `re-established, restored, reinstated` | 23:16 |
 | ἀποκρίνομαι | `gave answer to` | `gave answer to, replied, answered, answered charges and defended himself` | 23:14 |
 | ἀποκρίνομαι | `gave answer to` | `gave answer to, replied, answered, answered charges and defended themselves` | 23:5 |
@@ -2161,7 +2161,7 @@ the same ground as `the sixth` and `the seventh`: one sense each, so no range to
 | σφάζω | `to slay` | `to slay, to slaughter, to slaughter by cutting the throat, to slaughter victims for sacrifice, to kill` | 22:10 |
 | σχίζω | `having split` | `having split, having cleaved, having parted and separated` | 22:3 |
 | τέκνον | `that which is borne` | `that which is borne, the born, a child, my son and my child, the young` | 22:7, 22:8 |
-| τίκτω | `has brought into the world` | `has brought into the world and it stands so, has brought forth and it stands so, has borne and it stands so, has produced and it stands so` | 22:20 |
+| τίκτω | `has brought into the world` | `has brought into the world and it stands so, has brought forth and it stands so, has borne and it stands so, has begotten and it stands so, has produced and yielded and it stands so` | 22:20 |
 | φείδομαι | `you spared` | `you spared, you did not destroy, you were merciful, you refrained from using and used sparingly, you were sparing and were thrifty and lived thriftily, you drew back from, you ceased, you forbore` | 22:12, 22:16 |
 | φοβέομαι | `you are put to flight` | `you are put to flight, you flee affrighted, you flee, you are seized with fear, you are affrighted, you fear` | 22:12 |
 | φυτόν, with ἐν | `in that which has grown` | `within, inside of, and by means of that which has grown, a plant, a tree, a creature, a descendant and child` | 22:13 |
@@ -2208,7 +2208,7 @@ the same ground as `the sixth` and `the seventh`: one sense each, so no range to
 
 | lemma | headword | chain | used |
 | --- | --- | --- | --- |
-| αὐξάνω | `was made large` | `was made large, was increased and augmented, was increased in power and strengthened and exalted, was promoted to honour and glorified and magnified, grew and waxed and increased, grew up` | 21:8, 21:20 |
+| αὐξάνω | `was made large` | `was made large, was increased and augmented, was increased in power and strengthened and exalted and aggrandised, was promoted to honour and glorified and magnified, grew and waxed and increased, grew up` | 21:8, 21:20 |
 | βολή | `a throw` | `a throw, the stroke and wound, a glance` | 21:16 |
 | γέλως | `laughter` | `laughter, occasion of laughter and matter for laughter` | 21:6 |
 | γίνομαι | `having come into being` | `having come to be, having arisen, having been brought into existence` | 21:3 |
@@ -2232,11 +2232,11 @@ the same ground as `the sixth` and `the seventh`: one sense each, so no range to
 | παιδίσκη | `of the young girl` | `of the young girl, of the maiden, of the young slave, of the courtesan` | 21:10, 21:12, 21:13 |
 | παροικέω | `you dwelt beside` | `you dwelt beside, you dwelt along the coast of, you lived near, you dwelt among, you lay near, you lived in and sojourned` | 21:23 |
 | πλανάω | `was being made to wander` | `was being made to wander and led wandering about, was being led from the subject, was being led astray and misled and deceived, was wandering and roaming about and straying, was wandering over, was wandering abroad, was wandering and digressing, was wandering in mind and at a loss` | 21:14 |
-| πρᾶγμα | `that which has been done` | `that which has been done, the deed, the act, anything necessary and expedient, the thing of consequence and importance, the action and affair, the thing and the business` | 21:26 |
+| πρᾶγμα | `that which has been done` | `that which has been done, a deed, an act, anything necessary and expedient, a thing of consequence and importance, an action and affair, the thing and the business` | 21:26 |
 | σκληρός | `hard` | `hard, harsh and crashing, stiff and unyielding, stiff and sturdy, austere and severe` | 21:11, 21:12 |
 | συγχαίρω | `will rejoice with` | `will rejoice with, will take part in joy, will wish joy and congratulate` | 21:6 |
 | σός | `thy` | `thy, thine` | 21:13 |
-| τίκτω | `I brought into the world` | `I brought into the world, I brought forth, I bore, I produced` | 21:7 |
+| τίκτω | `I brought into the world` | `I brought into the world, I brought forth, I bore, I begot, I produced and yielded` | 21:7 |
 | τοξότης | `a bowman` | `a bowman, archer, the Archer and Sagittarius, the city-guard` | 21:20 |
 | τόξον | `of bow` | `of bow, of bow and arrows, of rays` | 21:16 |
 | φαίνω | `was brought to light` | `was brought to light and made to appear, was shown forth and made known and revealed and disclosed and shown, was made clear and explained and expounded, was informed against and indicted and impeached, was proclaimed, came to light and was seen and appeared, shone brightly, came into being, appeared to be, was manifest` | 21:11 |
@@ -2246,7 +2246,7 @@ the same ground as `the sixth` and `the seventh`: one sense each, so no range to
 | φρέαρ, with ἐν | `in the well` | `within, inside of, and by means of the well, the tank and cistern and reservoir, the oil jar` | 21:32 |
 | χείρ | `with the hand` | `with the hand, with the hand and arm, with the arm` | 21:18 |
 | ἀδικέω | `to do wrong` | `to do wrong, to do one wrong and wrong and injure, to spoil and damage` | 21:23 |
-| ἀκούω | `may hear` | `may hear, may have hearing of, may hear tell of, may hearken and give ear, may listen to and obey` | 21:6 |
+| ἀκούω | `may hear` | `may hear, may have hearing of, may hear tell of, may know by hearsay, may hearken and give ear, may listen to and obey` | 21:6 |
 | ἀμφότερος | `each` | `each, both of two` | 21:27, 21:31 |
 | ἀναβοάω | `having shouted aloud` | `having shouted aloud, having uttered a loud cry, having called out, having cried out, having wailed aloud over, having called on` | 21:16 |
 | ἀναγγέλλω | `will carry back tidings of` | `will carry back tidings of, will report` | 21:7 |
@@ -2338,13 +2338,13 @@ the same ground as `the sixth` and `the seventh`: one sense each, so no range to
 | ἀποδίδωμι | `you give up` | `you give up, you give back, you restore, you return, you render what is due and pay, you return and render and yield, you suffer and allow, you render, you deliver over and give up, you deliver, you render and give in, you give an account of, you increase` | 20:7 |
 | ἀποθνήσκω | `you die off` | `you die off, you die, you are put to death, you are slain` | 20:3 |
 | ἀποκτείνω | `they may kill` | `they may kill, they may slay, they may condemn to death` | 20:2 |
-| ἀφίημι | `I sent forth` | `I sent forth, I discharged, I sent away and let go, I set free, I released` | 20:6 |
+| ἀφίημι | `I sent forth` | `I sent forth, I discharged, I let go and loose and set free, I let alone and left, I gave up and handed over, I permitted and allowed` | 20:6 |
 | ἁμαρτάνω | `to miss the mark` | `to miss the mark, to fail of one's purpose, to go wrong, to err, to sin` | 20:6 |
 | ἁμαρτάνω | `we missed the mark` | `we missed the mark, we failed of our purpose, we went wrong, we erred, we sinned` | 20:9 |
 | ἁμαρτία | `a failure` | `a failure, a fault and sin, guilt and sin` | 20:9 |
-| ἄνθρωπος | `to the man` | `to the man, to the human being` | 20:7 |
-| ἅπτω | `fastened himself to` | `fastened himself to, clung to, hung on by, laid hold of, grasped, touched` | 20:4 |
-| ἅπτω | `to fasten oneself to` | `to fasten oneself to, to cling to, to hang on by, to lay hold of, to grasp, to touch` | 20:6 |
+| ἄνθρωπος | `to the man` | `to the man, to the human being, to mankind` | 20:7 |
+| ἅπτω | `fastened himself to` | `fastened himself to, clung to, hung on by, laid hold of, grasped, touched, engaged in and took part in, laid hold of and disputed` | 20:4 |
+| ἅπτω | `to fasten oneself to` | `to fasten oneself to, to cling to, to hang on by, to lay hold of, to grasp, to touch, to engage in and take part in, to lay hold of and dispute` | 20:6 |
 | ἐνοράω | `having seen` | `having seen, having remarked, having observed, having looked at and upon` | 20:10 |
 | ἐπάγω | `you brought on` | `you brought on, you brought upon, you set on and urged on, you led on, you brought in and invited, you brought to, you laid on and applied, you brought forward, you added` | 20:9 |
 | ἔργον | `work` | `work, business, deeds, action, works of industry and tilled lands` | 20:9 |
@@ -2430,15 +2430,15 @@ the same ground as `the sixth` and `the seventh`: one sense each, so no range to
 | κύριος | `lords` | `lords, masters, the ones having power and authority over` | 19:2 |
 | λέγω | `were saying` | `were saying, were speaking, were declaring, were calling by name, were telling` | 19:5 |
 | λαλέω | `you talked` | `you talked, you chatted, you prattled, you babbled, you said, you talked of, you spoke, you chattered, you chirped` | 19:21 |
-| λαμβάνω | `having taken` | `having taken and holding so, having received and holding so, having taken hold of and grasped and seized and holding so` | 19:14 |
+| λαμβάνω | `having taken` | `having taken, having received, having taken hold of and grasped and seized` | 19:14 |
 | μέγας | `of big` | `of big, of great, of tall, of full-grown, of vast and high, of spacious and wide, of strong and mighty, of violent, of loud, of prevailing, of weighty and important` | 19:11 |
-| μέσος | `of middle` | `of the middle, of in the middle, of the centre, of mid, of between two` | 19:29 |
-| μήποτε | `that at no time` | `that at no time, lest ever` | 19:17 |
+| μέσος | `of middle` | `of middle, of in the middle, of the centre, of mid, of between two` | 19:29 |
+| μήποτε | `that at no time` | `that at no time, lest ever, never, on no account, perhaps` | 19:17 |
 | μεγαλύνω | `you made great` | `you made great and powerful, you exalted and strengthened, you made great by word and extolled and magnified, you aggravated` | 19:19 |
 | μηδείς | `and not one` | `and not one, not even one, nobody and naught and good for naught, naught and nothing, a good for naught, not at all and by no means` | 19:8 |
 | μικρός | `of small` | `of small, of little, of petty and trivial and slight, of short` | 19:11 |
 | μικρός | `small` | `small, little, petty and trivial and slight, short` | 19:20 |
-| μόνος | `alone` | `alone, only` | 19:8 |
+| μόνος | `alone` | `alone, left alone, forsaken and solitary, only` | 19:8 |
 | μᾶλλον | `more` | `more, more and more and still more, much more, rather` | 19:9 |
 | νίπτω | `wash the hands` | `wash the hands, purge and cleanse, wash off` | 19:2 |
 | νύξ, with ἐν | `in the night-season` | `within, inside of, and by means of the night-season, the night, the watches of the night, the dark of night, the night of death` | 19:33, 19:35 |
@@ -2454,8 +2454,8 @@ the same ground as `the sixth` and `the seventh`: one sense each, so no range to
 | ποιέω | `you make` | `you make, you do, you produce, you create` | 19:19 |
 | ποιέω | `you may make` | `you may make, you may do, you may produce, you may create` | 19:8 |
 | πονηρεύομαι | `you may be evil` | `you may be evil, you may act wickedly, you may play the rogue` | 19:7 |
-| ποτίζω | `gave to drink` | `gave to drink, watered` | 19:33, 19:35 |
-| ποτίζω | `let us give to drink` | `let us give to drink, let us water` | 19:32, 19:34 |
+| ποτίζω | `gave to drink` | `gave to drink, watered, watered the cattle` | 19:33, 19:35 |
+| ποτίζω | `let us give to drink` | `let us give to drink, let us water, let us water the cattle` | 19:32, 19:34 |
 | πρεσβύτερος | `of elder` | `of elder, of older, of higher and more important, of greater than, of an elder of the Jewish Council, of an elder of the Church and presbyter` | 19:4 |
 | πρεσβύτερος | `the elder` | `the elder, the older, the higher and more important, the greater than, the elder of the Jewish Council, the elder of the Church and presbyter` | 19:31, 19:33, 19:34, 19:37 |
 | πρωΐ | `early in the day` | `early in the day, early, at morn, betimes, in good time, too soon and too early` | 19:27 |
@@ -2517,7 +2517,7 @@ the same ground as `the sixth` and `the seventh`: one sense each, so no range to
 | ὀπίσω | `backwards` | `backwards, back and back again, again, hereafter, behind, following` | 19:17, 19:26 |
 | ὀρθρίζω | `having risen early` | `having risen early, having been awake early` | 19:2 |
 | ὀρθρίζω | `rose early` | `rose early, was awake early` | 19:27 |
-| ὄρθρος | `day-break` | `day-break, dawn, cock-crow, in the morning` | 19:15 |
+| ὄρθρος | `day-break` | `day-break, dawn, cock-crow` | 19:15 |
 | ὄρος, with ἐν | `in the mountain` | `within, inside of, and by means of the mountain, the hill` | 19:30 |
 | ὡσεί | `just as if` | `just as if, as though, about` | 19:28 |
 | ῥῆμα | `to that which is said` | `to that which is said and spoken, to the word, to the saying, to the phrase, to the subject of speech and the thing, to the verb` | 19:21 |
@@ -2568,8 +2568,8 @@ the same ground as `the sixth` and `the seventh`: one sense each, so no range to
 | γυναικεῖος | `the belonging to women` | `the belonging to women, the like women, the befitting them, the feminine, the womanish and effeminate` | 18:11 |
 | δίκαιος | `of observant of custom and social rule` | `of observant of custom and social rule, of well-ordered and civilised, of observant of right and righteous, of even and well-balanced, of regular and exact, of right and lawful and just, of real and genuine and true, of fair and moderate` | 18:24 |
 | δίκαιος | `the observant of custom and social rule` | `the observant of custom and social rule, the well-ordered and civilised, the observant of right and righteous, the even and well-balanced, the regular and exact, the right and lawful and just, the real and genuine and true, the fair and moderate` | 18:23, 18:25 |
-| εὑρίσκω | `I found` | `I found, I found out, I discovered` | 18:3 |
-| εὑρίσκω | `I may find` | `I may find, I may find out, I may discover` | 18:26, 18:28, 18:30 |
+| εὑρίσκω | `I found` | `I found, I found out, I discovered, I got and gained` | 18:3 |
+| εὑρίσκω | `I may find` | `I may find, I may find out, I may discover, I may get and gain` | 18:26, 18:28, 18:30 |
 | εὑρίσκω | `may be found` | `may be found, may be found out, may be discovered` | 18:29, 18:30, 18:31, 18:32 |
 | θύρα | `of the door` | `of the door, of the folding doors, of the gate, of the court, of the trap-door, of the frame of planks and raft, of the entrance` | 18:1, 18:2 |
 | θύρα | `to the door` | `to the door, to the folding doors, to the gate, to the court, to the trap-door, to the frame of planks and raft, to the entrance` | 18:10 |
@@ -2579,7 +2579,7 @@ the same ground as `the sixth` and `the seventh`: one sense each, so no range to
 | κρίσις | `a separating` | `a separating and power of distinguishing, choice and selection, a decision and judgment, means of judging, a trial, the result of a trial and condemnation, a dispute, the event and issue` | 18:19, 18:25 |
 | κραυγή | `a crying` | `a crying, screaming, shrieking, shouting` | 18:20 |
 | κραυγή | `the crying` | `the crying, the screaming, the shrieking, the shouting` | 18:21 |
-| κρύπτω | `I may hide` | `I may hide, I may cover and cloak, I may conceal and keep secret` | 18:17 |
+| κρύπτω | `I may hide` | `I may hide, I may cover and cloak, I may cover in the earth and bury, I may conceal and keep secret` | 18:17 |
 | λέγω | `you have said` | `you have said and it stands said, you have spoken and it stands spoken, you have declared and it stands declared, you have called by name and it stands so, you have told and it stands told` | 18:5 |
 | λαλέω | `I may talk` | `I may talk, I may chat, I may prattle, I may babble, I may say, I may talk of, I may speak, I may chatter, I may chirp` | 18:30, 18:32 |
 | λαλέω | `to talk` | `to talk, to chat, to prattle, to babble, to say, to talk of, to speak, to chatter, to chirp` | 18:27, 18:29, 18:31 |
@@ -2619,11 +2619,11 @@ the same ground as `the sixth` and `the seventh`: one sense each, so no range to
 | συναπόλλυμι | `you may destroy together` | `you may destroy together, you may lose` | 18:23 |
 | συντάσσω | `will put in order together` | `will put in order together, will draw up and put in array, will arrange and organise, will concoct, will fix and assess, will ordain and prescribe` | 18:19 |
 | συντελέω | `are being brought quite to an end` | `are being brought quite to an end, are being completed, are being accomplished, are being made up into the whole and into the number` | 18:21 |
-| τίκτω | `I will bring into the world` | `I will bring into the world, I will bring forth, I will bear, I will produce` | 18:13 |
+| τίκτω | `I will bring into the world` | `I will bring into the world, I will bring forth, I will bear, I will beget, I will produce and yield` | 18:13 |
 | ταχύνω | `made quickly` | `made quickly, was quick, made haste, sped, hurried` | 18:7 |
 | τρέχω | `ran` | `ran, moved quickly, ran over, ran the risk` | 18:7 |
 | φοβέομαι | `was put to flight` | `was put to flight, fled affrighted, fled, was seized with fear, was affrighted, feared` | 18:15 |
-| φυλάσσω | `they will keep watch and ward` | `they will keep watch and ward, they will keep guard, they will watch and guard and keep and defend` | 18:19 |
+| φυλάσσω | `they will keep watch and ward` | `they will keep watch and ward, they will keep guard, they will watch and guard and keep and defend, they will watch for and lie in wait for, they will keep and maintain and cherish, they will observe` | 18:19 |
 | φυράω | `mix` | `mix, knead, make up` | 18:6 |
 | ἀδυνατέω | `wants strength` | `wants strength, is unable, is impossible` | 18:14 |
 | ἀληθῶς | `truly` | `truly, really and actually and in reality` | 18:13 |
@@ -2640,7 +2640,7 @@ the same ground as `the sixth` and `the seventh`: one sense each, so no range to
 | ἀρνέομαι | `denied` | `denied, disowned, declined to give and refused, said no and declined and refused` | 18:15 |
 | ἀσεβής | `of ungodly` | `of ungodly, of godless, of unholy, of profane` | 18:23, 18:25 |
 | ἀσεβής | `the ungodly` | `the ungodly, the godless, the unholy, the profane` | 18:23, 18:25 |
-| ἀφίημι | `I will send forth` | `I will send forth, I will discharge, I will send away and let go, I will set free, I will release` | 18:26 |
+| ἀφίημι | `I will send forth` | `I will send forth, I will discharge, I will let go and loose and set free, I will let alone and leave, I will give up and hand over, I will permit and allow` | 18:26 |
 | ἁπαλός | `soft to the touch` | `soft to the touch, tender, fresh, soft and gentle, soft and delicate` | 18:7 |
 | ἄρα, ἆρα | `then` | `then, straightway, at once, next in order, mark ye, for, just and very, then and therefore, so then` | 18:3, 18:13 |
 | ἄρτος | `a cake` | `a cake, a loaf of wheat-bread, bread` | 18:5 |
@@ -2652,15 +2652,15 @@ the same ground as `the sixth` and `the seventh`: one sense each, so no range to
 | ἐπάγω | `may bring on` | `may bring on, may bring upon, may set on and urge on, may lead on, may bring in and invite, may bring to, may lay on and apply, may bring forward, may add` | 18:19 |
 | ἐπαναστρέφω | `turning back upon` | `turning back upon, wheeling round, returning to the charge` | 18:10 |
 | ἔρχομαι | `coming` | `coming, going, going back and returning, going to and intending, coming within a little of and being near` | 18:21 |
-| ἔχω | `I have` | `I have, I hold, I possess, I keep, I hold fast, I bear up against and support` | 18:31 |
-| ἔχω | `will have` | `will have, will hold, will possess, will keep, will hold fast, will bear up against and support` | 18:10 |
+| ἔχω | `I have` | `I have, I hold, I possess, I keep, I dwell in and inhabit, I hold fast, I bear up against and support` | 18:31 |
+| ἔχω | `will have` | `will have, will hold, will possess, will keep, will dwell in and inhabit, will hold fast, will bear up against and support` | 18:10 |
 | ἥκω | `I will have come` | `I will have come, I will be present, I will be here, I will have returned, I will have reached a point` | 18:10 |
 | ἵστημι | `had been set` | `had been set and stood so, had been placed, had stood, had been there, had been in a state and condition, had lain and been situated, had stood still and stopped and halted, had stood idle, had stopped and ceased and been at rest, had stood firm, had stood up and risen up, had arisen and begun` | 18:2 |
 | ἵστημι | `having been set` | `having been set and standing so, having been placed, having stood, having been there, having been in a state and condition, having lain and been situated, having stood still and stopped and halted, having stood idle, having stopped and ceased and been at rest, having stood firm, having stood up and risen up, having arisen and begun` | 18:22 |
 | ὁδός | `the ways` | `the ways, the paths, the tracks, the roads, the highways, the courses, the journeys, the manners and methods` | 18:19 |
 | ὄπισθεν | `behind` | `behind, at the back, the rear and back, back and backwards, in future and hereafter, following` | 18:10 |
 | ὥρα | `periods` | `periods, parts of the year and seasons, springs, summers, winters, primes of the year and springtimes, parts of the year available for war and summer-seasons, years, quarters of the heavens, parts of the day, times of day, twenty-four hours, twelve parts, times and seasons, primes of life and youths and early manhoods, fruits of the year, Hours` | 18:10, 18:14 |
-| ῥῆμα | `that which is said` | `that which is said and spoken, the word, the saying, the phrase, the subject of speech and the thing, the verb` | 18:25 |
+| ῥῆμα | `that which is said` | `that which is said and spoken, a word, a saying, a phrase, the subject of speech and a thing, a verb` | 18:25 |
 
 ### Words new in GEN 17
 
@@ -2690,12 +2690,12 @@ the same ground as `the sixth` and `the seventh`: one sense each, so no range to
 
 | lemma | headword | chain | used |
 | --- | --- | --- | --- |
-| αὐξάνω | `I will make large` | `I will make large, I will increase and augment, I will increase in power and strengthen and exalt, I will promote to honour and glorify and magnify, I will grow and wax and increase, I will grow up` | 17:6, 17:20 |
+| αὐξάνω | `I will make large` | `I will make large, I will increase and augment, I will increase in power and strengthen and exalt and aggrandise, I will promote to honour and glorify and magnify, I will grow and wax and increase, I will grow up` | 17:6, 17:20 |
 | γένος | `of the race` | `of the race, of the stock and family, of the offspring and posterity, of the clan and house, of the tribe and caste, of the breed, of the age and generation, of the sex and gender, of the class and sort and kind, of the genus` | 17:14 |
 | γίνομαι | `come into being` | `come to be, arise, be brought into existence` | 17:1 |
 | γίνομαι | `will come into being` | `will come to be, will arise, will be brought into existence` | 17:17 |
 | γελάω | `laughed` | `laughed, laughed at, derided` | 17:17 |
-| γενεά | `the races` | `the races, the stocks and families, the breeds, the tribes and nations, the generations, the offspring, the birth-places, the ages and times of life` | 17:9, 17:10, 17:12 |
+| γενεά | `the races` | `the races, the stocks and families, the breeds, the tribes and nations, the races and generations, the offspring, the birth-places, the ages and times of life, the times of birth` | 17:9, 17:10, 17:12 |
 | γεννάω | `will beget` | `will beget, will engender, will bring forth, will produce` | 17:20 |
 | διάνοια, with ἐν | `in the thought` | `within, inside of, and by means of the thought, the intention and purpose, the notion and opinion, the intelligence and understanding, the meaning` | 17:17 |
 | διασκεδάννυμι | `scattered abroad` | `scattered abroad, scattered to the winds, dispersed, disbanded` | 17:14 |
@@ -2723,9 +2723,9 @@ the same ground as `the sixth` and `the seventh`: one sense each, so no range to
 | σάρξ | `of the flesh` | `of the flesh, of the muscles, of the body, of man's nature generally` | 17:13 |
 | σάρξ | `the flesh` | `the flesh, the muscles, the body, man's nature generally` | 17:11, 17:14, 17:24, 17:25 |
 | σημεῖον, with ἐν | `in sign` | `within, inside of, and by means of sign, mark and token, sign from the gods and omen, signal, standard and ensign, boundary` | 17:11 |
-| τέκνον | `that which is borne` | `that which is borne, the born, a child, the young` | 17:16 |
+| τέκνον | `that which is borne` | `that which is borne, the born, a child, my son and my child, the young` | 17:16 |
 | τίθημι | `I have set` | `I have set and it stands set, I have put and it stands put, I have placed and it stands placed, I have planted and it stands planted, I have laid and it stands laid` | 17:5 |
-| τίκτω | `will bring into the world` | `will bring into the world, will bring forth, will bear, will produce` | 17:17, 17:19, 17:21 |
+| τίκτω | `will bring into the world` | `will bring into the world, will bear, will bring forth, will beget, will produce and yield` | 17:17, 17:19, 17:21 |
 | ἀκροβυστία | `of the foreskin` | `of the foreskin, of the circumcision, of the uncircumcision, of the uncircumcised` | 17:11, 17:14, 17:24, 17:25 |
 | ἀκροβυστία | `the foreskins` | `the foreskins, the circumcisions, the uncircumcisions, the uncircumcised` | 17:23 |
 | ἀλλογενής | `of of another race` | `of of another race, of strangers` | 17:27 |
@@ -2770,10 +2770,10 @@ the same ground as `the sixth` and `the seventh`: one sense each, so no range to
 | πηγή | `of the running waters` | `of the running waters, of the streams, of the fount, of the source, of the origin` | 16:7 |
 | πλῆθος | `of the great number` | `of the great number and throng and crowd and multitude, of the greater number and greater part and mass and main body, of the majority and people, of the populace and mob, of the quantity, of the number, of the magnitude and size, of the extent, of the amount, of the length` | 16:10 |
 | πορεύομαι | `you are driven` | `you are driven, you are carried, you go, you walk, you march, you go across and pass` | 16:8 |
-| πόθεν | `whence` | `whence, from what and from what source, wherefore, how can it be and impossible` | 16:8 |
+| πόθεν | `whence` | `whence, from what source, whence and wherefore` | 16:8 |
 | συγκλείω | `shut` | `shut and cooped up and hemmed in and enclosed, set together to fight as in the lists, shut close and closed, locked, closed up, was well linked` | 16:2 |
 | συλλαμβάνω | `collected` | `collected, gathered together, took up, laid hold of and seized, comprehended, conceived` | 16:4 |
-| τίκτω | `was bringing into the world` | `was bringing into the world, was bringing forth, was bearing, was producing` | 16:1 |
+| τίκτω | `was bringing into the world` | `was bringing into the world, was bringing forth, was bearing, was begetting, was producing and yielding` | 16:1 |
 | ταπείνωσις | `to the humiliation` | `to the humiliation and abasement and defeat, to the low estate and low condition` | 16:11 |
 | ταπεινόω | `be lowered` | `be lowered, be lessened, be disparaged, be humbled and abased, be made lowly and humbled, humble oneself` | 16:9 |
 | φρέαρ | `the well` | `the well, the tank and cistern and reservoir, the oil jar` | 16:14 |
@@ -2794,8 +2794,8 @@ the same ground as `the sixth` and `the seventh`: one sense each, so no range to
 | ἐπακούω | `listened` | `listened, hearkened to and heard, gave ear and hearkened, obeyed` | 16:11 |
 | ἐφοράω | `the one having overseen` | `the one having overseen, having observed, having surveyed, having watched over and taken notice of, having looked upon and beheld` | 16:13 |
 | ἔρχομαι | `you come` | `you come, you go, you go back and return, you are going to and intend, you come within a little of and are near` | 16:8 |
-| ἔχω | `has` | `has, holds, possesses, keeps, holds fast, bears up against and supports` | 16:4, 16:5 |
-| ἔχω | `you have` | `you have, you hold, you possess, you keep, you hold fast, you bear up against and support` | 16:11 |
+| ἔχω | `has` | `has, holds, possesses, keeps, dwells in and inhabits, holds fast, bears up against and supports` | 16:4, 16:5 |
+| ἔχω | `you have` | `you have, you hold, you possess, you keep, you dwell in and inhabit, you hold fast, you bear up against and support` | 16:11 |
 | ὁδός, with ἐν | `in the way` | `within, inside of, and by means of the way, the path, the track, the road, the highway, the course, the journey, the manner and method` | 16:7 |
 | ὁράω | `having been seen` | `having been seen, having been looked at, having been beheld and perceived and observed, having been looked out for` | 16:13 |
 | ὑπακούω | `listened` | `listened and hearkened and gave ear, made answer when called, hearkened to and gave ear to and attended to, answered, answered to a charge, submitted to, yielded to and complied with, gave way and submitted and complied, answered one's expectations and succeeded, was subject` | 16:2 |
@@ -2825,7 +2825,7 @@ the same ground as `the sixth` and `the seventh`: one sense each, so no range to
 | --- | --- | --- | --- |
 | αἴξ | `a goat` | `a goat, the wild goat and the ibex, waves` | 15:9 |
 | γίνομαι | `was coming into being` | `was coming to be, was arising, was being brought into existence` | 15:17 |
-| γενεά | `race` | `race, stock and family, breed, tribe and nation, generation, offspring, birth-place, age and time of life` | 15:16 |
+| γενεά | `race` | `race, stock and family, breed, tribe and nation, race and generation, offspring, birth-place, age and time of life, time of birth` | 15:16 |
 | γινώσκω | `I will learn to know` | `I will learn to know, I will perceive, I will mark, I will learn, I will discern and distinguish` | 15:8 |
 | γινώσκω | `you will learn to know` | `you will learn to know, you will perceive, you will mark, you will learn, you will discern and distinguish` | 15:13 |
 | δάμαλις | `a heifer` | `a heifer, a girl` | 15:9 |
@@ -2859,7 +2859,7 @@ the same ground as `the sixth` and `the seventh`: one sense each, so no range to
 | λαμπάς | `torches` | `torches, beacon-lights, oil-lamps, lights, torch-races, races` | 15:17 |
 | λογίζομαι | `was counted` | `was counted, was reckoned and calculated and computed, was set down, was set down to one's account and charged, was deducted, was taken into account and calculated and considered, was counted and deemed and considered, was reckoned upon and expected, was counted upon, was concluded by reasoning and inferred, was counted and calculated` | 15:6 |
 | μέσος | `middle` | `middle, in the middle, the centre, mid, between two` | 15:10 |
-| μισθός | `the wages` | `the wages, the pay and hire, the recompense and reward, the payment and requital` | 15:1 |
+| μισθός | `the wages` | `the wages, the pay, the hire, the recompense and reward, the payment and requital` | 15:1 |
 | οἰκογενής | `of the born in the house` | `of the born in the house, of the homebred` | 15:2 |
 | οἰκογενής | `the born in the house` | `the born in the house, the homebred` | 15:3 |
 | οὐρανός | `the heaven` | `the heaven, the vault, the firmament and the sky` | 15:5 |
@@ -2876,7 +2876,7 @@ the same ground as `the sixth` and `the seventh`: one sense each, so no range to
 | σκοτεινός | `dark` | `dark, darkling and blind, dark and obscure` | 15:12 |
 | συγκαθίζω | `made to sit together` | `made to sit together, sat in conclave and met for deliberation, sat with` | 15:11 |
 | σῶμα | `the bodies` | `the bodies, the dead bodies and corpses and carcases, the living bodies, the bodies and any material substances, the whole bodies and masses` | 15:11 |
-| ταπεινόω | `they will lower` | `they will lower, they will lessen, they will disparage, they will humble and abase, they will make lowly and humble, they will humble oneself` | 15:13 |
+| ταπεινόω | `they will lower` | `they will lower, they will lessen, they will disparage, they will humble and abase, they will make lowly and humble` | 15:13 |
 | φλόξ | `a flame` | `a flame, a flash, the fiery strength` | 15:17 |
 | φοβέομαι | `be put to flight` | `be put to flight, flee affrighted, flee, be seized with fear, be affrighted, fear` | 15:1 |
 | φόβος | `flight` | `flight, panic fear, fear and terror, outward show of fear, object of terror` | 15:12 |
@@ -4454,7 +4454,7 @@ though both have the article; they were corrected when GEN 3:18 reused them.
 | μέγας (comp.) | `bigger` | `bigger, greater, taller, vaster, stronger and mightier, weightier and more important` | 4:13 |
 | αἰτία | `the charge` | `the charge, the accusation, the guilt, the fault, the cause` | 4:13 |
 | σημεῖον | `a sign` | `a sign, a mark and token, a sign from the gods and an omen, a signal, a standard and ensign, a boundary` | 4:15 |
-| γῆ, with ἐν, anarthrous | `in earth` | `within, inside of, and by means of earth, land, the ground` | 4:16 |
+| γῆ, with ἐν, anarthrous | `in earth` | `within, inside of, and by means of earth, land, ground` | 4:16 |
 | πόλις | `a city` · `the city` | `a city, a citadel, a country, a body of citizens, a state` | 4:17 |
 | γυνή (pl.) | `women` · `to the women` | `women, mistresses and ladies, wives and spouses, mortal women` | 4:19, 4:23 |
 | εἷς (dat.) | `to the one` | the chain of GEN 2:11 | 4:19 |
@@ -4470,7 +4470,7 @@ though both have the article; they were corrected when GEN 3:18 reused them.
 | τραῦμα | `a wound` | `a wound, a hurt and damage, a blow and defeat` | 4:23 |
 | μώλωψ | `mark of a stripe` | `mark of a stripe, weal, bruise, blood-clot` — LSJ | 4:23 |
 | σπέρμα (acc.) | `that which is sown` | the chain of GEN 3:15, in the accusative | 4:25 |
-| ἕτερος | `other` | `other, the other of two, another, second, other than usual and different` | 4:25 |
+| ἕτερος | `other` | `other, one of two, the other of two, another, second, different, other than, worse` | 4:25 |
 
 λόγος in the plural, Lamech's words, takes a chain of its own, from the entry's senses for
 *words, a saying, speech*; the prologue's chain for ὁ λόγος is not borrowed for it.
@@ -4582,7 +4582,7 @@ it is a child; τρίβολος is a spiked iron for laming horses before it is 
 | ἀνάπαυσις | `repose` | `repose, rest, relaxation and recreation, rest from` | 8:9 |
 | πούς (dat. pl.) | `to the feet` | `to the feet, to the talons, to the feet of a hill` | 8:9 |
 | ἕτερος (pl.) | `other` | the chain of GEN 4:25 | 8:10, 8:12 |
-| πάλιν | `back` | `back, backwards, again and once more and anew, again in turn` | 8:10, 8:12 |
+| πάλιν | `back` | `back, backwards, contrariwise, opposite, the change, again and once more and anew, again in turn` | 8:10, 8:12 |
 | ἑσπέρα | `evening` | `evening, eventide, eve, nightfall, the west` | 8:11 |
 | φύλλον (sg.) | `leaf` | `leaf, foliage, petal, herb` — the chain of GEN 3:7 in the singular | 8:11 |
 | ἐλαία | `of olive-tree` | `of olive-tree, of olives, of the fruit of the olive-tree and olive` | 8:11 |
@@ -5263,24 +5263,24 @@ adverb, and the neuter article makes it the accusative section's time expression
 
 | lemma | headword | chain | used |
 | --- | --- | --- | --- |
-| βασιλεύω | `the ones having been king` | `the ones having been king, the ones having ruled and reigned, the ones having been queen, the ones having been king of, the ones having been governed by a king, the ones having been master of` | 36:31 |
+| βασιλεύω | `the ones having been king` | `the ones having been king, the ones having ruled, the ones having reigned, the ones having been queen, the ones having been king of, the ones having been governed by a king, the ones having been master of` | 36:31 |
 | βασιλεύω | `to be king` | `to be king, to rule, to reign, to be queen, to be king of, to be governed by a king, to be master of` | 36:31 |
 | βασιλεύω | `was king` | `was king, ruled, reigned, was queen, was king of, was governed by a king, was master of` | 36:32 |
 | γυνή | `of woman` | `of woman, of mistress and lady, of wife and spouse, of mortal woman` | 36:10 |
-| δύναμαι | `was being able` | `was being able, was capable, was strong enough, dared and bore, passed for, was worth, was equivalent to, signified and meant` | 36:7 |
+| δύναμαι | `was being able` | `was being able, was capable and strong enough, was powerful and mighty, was having influence, was daring and bearing, was passing for, was worth, was equivalent to, was signifying and meaning, was availing` | 36:7 |
 | κατοικέω | `of the one dwelling in` | `of the one dwelling in, of the one settling in, of the one colonising, of the one inhabiting, of the one settling and dwelling, of the one lying and situate` | 36:20 |
 | κατοικοδομέω | `in the ones having been built upon` | `within, inside of, and by means of the ones having been built upon and standing so, the ones having been built away, the ones having been squandered in building` | 36:43 |
 | κτῆσις | `of the acquisition` | `of the acquisition, of the possession, of the possessions and property` | 36:43 |
 | νέμω | `was dealing out` | `was dealing out and distributing and dispensing, was having as his portion and possessing and enjoying, was dwelling in and inhabiting, was spending and passing, was holding and possessing, was holding sway and managing, was supporting, was using, was holding and considering as, was pasturing, was driving to pasture and tending, was feeding, was consuming and devouring, was giving` | 36:24 |
 | παλλακή | `a concubine` | `a concubine, a mistress` | 36:12 |
-| περιποιέομαι | `kept for himself` | `kept for himself, saved for himself, compassed and acquired and procured for himself` | 36:6 |
+| περιποιέομαι | `kept for himself` | `kept for himself, saved for himself, compassed and acquired and obtained, made gain` | 36:6 |
 | φέρω | `to bring` | `to bring, to bear, to carry, to endure` | 36:7 |
 | ἐκκόπτω | `the one having cut out` | `the one having cut out and knocked out, the one having felled and cut down all the trees, the one having cut off and made an end of, the one having beaten off and repulsed` | 36:35 |
 | ἡγεμονία | `in the leadings of the way` | `within, inside of, and by means of the leadings of the way and goings first, the chief commands, the authorities, the hegemonies, the sovereignties of one state over a number of subordinates, the divisions of the army and commands` | 36:30 |
 | ἡγεμών | `ones who lead` | `ones who lead, guides, ones who are an authority, leaders and commanders and chiefs, chiefs and sovereigns, provincial governors` | 36:15 |
 | ἡγεμών | `one who leads` | `one who leads, a guide, one who is an authority, a leader and commander and chief, a chief and sovereign, a provincial governor` | 36:15 |
 | ἡγεμών | `of the ones who lead` | `of the ones who lead, of the guides, of the ones who are an authority, of the leaders and commanders and chiefs, of the chiefs and sovereigns, of the provincial governors` | 36:40 |
-| ὑπάρχω | `of the existing circumstances` | `of the existing circumstances, of the present advantages, of what belongs to one, of the possessions and property and substance` | 36:7 |
+| ὑπάρχω | `of the existing circumstances` | `of the existing circumstances, of the present advantages, of what belongs to one, of the possessions and means` | 36:7 |
 | ὑποζύγιον | `the beasts for the yoke` | `the beasts for the yoke, the beasts of burden` | 36:24 |
 
 
@@ -6115,3 +6115,56 @@ of 6:7.
 **Two notes caught up.** 19:4's note still said the article before an infinitive is not printed,
 which the articular-infinitive rule retired; 24:54's said κοιμάω is *to fall asleep*, which is its
 passive.
+
+## Loose ends before Genesis 40
+
+**The article goes into its word's unit, every time.** 62 units had let a gloss that opens
+with *that which* or *anything* stand in for the Greek article: τὸ σπέρμα σου read *that which
+is sown of you*, τὸ ῥῆμα *that which is said*, τῶν προβάτων *of anything that walks forward*.
+By the rule of *the thy property*, each carries its *the*: `the that which is sown`, `the that
+which is said`, `of the things that walk forward`, and on every sense of the chain. 38:9's
+second σπέρμα is anarthrous and keeps its bare form. `check_unit_cases` now fails an articular
+noun or adjective whose unit has no *the*.
+
+**ἦν is never a bare *was*.** Five imperfects of εἰμί had read *was* with no possession to
+explain it (7:19, 7:22, 7:23, 8:1, 8:9); each has the state formula now. JHN 1:1c, θεὸς ἦν ὁ
+λόγος, had lost the *was* that the clause's old unit carried, and reads the short pre-existence
+form of 1:2, `was — continuously, and without any point of having come to be —`. The new
+`check_imperfect_be` counts the formulas against the imperfects, possession excepted.
+
+**One word, one range in every form.** The chain check held one range within a headword;
+`check_ranges` holds it across them, pairing each unit with the word it opens and grouping by
+lemma, voice, number, degree, the senses the card gives the form, and — for a word used as a
+noun — the sense it opens with (τὸ καλόν *beauty*, τὸ κακόν *evil*). It found 259 short chains.
+Some were the lexicon's own splits, which the card had not shown and now does:
+- `FORM_SENSES`: ἵστημι, ἀφίστημι and ἐξανίστημι are causal in their present, imperfect, future
+  and first aorist and intransitive in the rest (ἀπέστησαν, both aorists' third plural, is the
+  intransitive *revolted* at 14:4); δίδωμι's *to be ready to give, to offer* is the present's;
+  ζάω's *living, alive* the participle's; γηράσκω's *to bring to old age* the first aorist's.
+- The word layer's parse now carries the degree, so μείζων is a comparative with its own range.
+
+The rest were losses, and about 560 units were brought up to the fullest chain their group had,
+in their own form: γυνή's articular forms regain *the mortal woman*; τίκτω *begot, produced and
+yielded*; ἀκούω *knew by hearsay*; εὑρίσκω *got and gained*; ἔχω *dwelt in and inhabited*;
+πρόσωπον *mask*; ἐπιβάλλω's aorist its eleven senses. Where a chain had read another word's
+entry, it reads its own: παιδίον is `young children, young slave-lads`, not παῖς's chain;
+οἰκέω and κατοικέω no longer trade chains (24:13, 25:27, 34:30); ἀποκρίνομαι at 31:31 is
+answering, not ἀποκρίνω's separating; the active ἀπόδος (29:21, 30:26) no longer reads the
+middle's *sell*, and 25:31's middle ἀπόδου keeps it. Where the headword was not the entry's
+first sense, it is now: φέρω `bore`, not *brought*; γαστήρ `paunch`; πένθος `grief`; φόβος
+`flight` at 35:5; ἐξαίρω `lifted up` at 35:5, with LSJ's intransitive *start* in the note;
+παραγίνομαι `was near`; συντάσσω `put in order together`; ἀλλάσσω `make other than it is`;
+ἀναβοάω `shouted aloud`; ἐπάγω `brought on`; ἐπακούω and ὑπακούω `listened`; ἐπικαλέω's
+middle `called upon for himself`, without the passive's *was called by surname*; δοχή `a
+receptacle`; ὅπως, final, `that, in order that`. Senses the entry does not give came out:
+κτῆνος's *oxen, sheep*, στήλη's *monument, pillar*, δικαιοσύνη's *observance of custom*, κρίνω's
+passive *be chosen* in the active, ταπεινόω's middle *humble oneself*. 19:17's σῴζου reads as
+passive, *be saved … come safe and escape to*, the mountain, and its note gives the middle.
+
+**Two chains caught up.** ἐν merged with οἰκία had dropped *from which one is descended*; τὰ
+ὑπάρχοντα's genitive had *property and substance* for the entry's *means*. Three ἐν units at
+34:10 and 34:15 had swallowed their pronoun, *in us*; ἐν stands alone and the pronoun marks its
+case, `in to us`.
+
+**The tables above.** 173 rows whose lemma and headword the corpus still uses now show the
+chain it uses; a row whose headword the corpus has since given up is the history of that word.

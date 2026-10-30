@@ -106,6 +106,26 @@ def with_words(edit):
     return go
 
 
+def with_data(path, edit, check):
+    """A corpus-wide check against a copy of data/ with one chapter's file edited, for the
+    checks that read the files themselves rather than the verses they are handed."""
+    def go():
+        tmp = pathlib.Path(tempfile.mkdtemp())
+        try:
+            shutil.copytree(render.DATA, tmp / "data")
+            target = tmp / "data" / path
+            target.write_text(edit(target.read_text(encoding="utf-8")), encoding="utf-8",
+                              newline="\n")
+            saved, render.DATA = render.DATA, tmp / "data"
+            try:
+                return check()
+            finally:
+                render.DATA = saved
+        finally:
+            shutil.rmtree(tmp, ignore_errors=True)
+    return go
+
+
 def with_morph(edit, check="check_analysis", chapter=1):
     """A morphology check against a copy of data/ whose GEN 1 morphology is edited, run
     for `chapter` — a corpus difference is reported on the later of its two lines."""
@@ -395,11 +415,36 @@ NEGATIVE = [
                                          with_morph(lambda t: t + "1:2 V- 2FMI-P-- ἀποθανεῖσθε ἀποθνῄσκω\n", "check_corpus", 2)),
     ("corpus   note with no difference to explain",
                                          with_morph(lambda t: t.replace("1:1 C- -------- καὶ καί", "1:1 C- -------- καὶ καί  # corpus — stale"), "check_corpus", 1)),
+    # GEN 13:16 τὸ σπέρμα σου had read `that which is sown of you`: a gloss that opens with
+    # *that which* had stood in for the article, and the Greek article was lost
+    ("cases  an articular noun whose unit lost its `the`",
+                                         lambda: run(V.check_unit_cases, "GEN", 13, [
+                                             dict(v, reading=v["reading"].replace(
+                                                 "[[the that which is sown|the that which is sown",
+                                                 "[[that which is sown|that which is sown"))
+                                             for v in json.loads((render.DATA / "GEN/13.json").read_text(encoding="utf-8"))])),
+    # GEN 7:19 ἃ ἦν ὑποκάτω τοῦ οὐρανοῦ had read `which was below`
+    ("anchors  ἦν flattened to a bare `was`",
+                                         lambda: run(V.check_imperfect_be, "GEN", 7, [
+                                             dict(v, reading=v["reading"].replace(
+                                                 "which was, and kept on being as a standing and continuing condition and not a momentary one, [[below",
+                                                 "which was [[below"))
+                                             for v in GEN7])),
+    # GEN 2:21 ἐπέβαλεν had read five senses as `threw`, where 22:12's ἐπιβάλῃς reads eleven
+    ("ranges   one word, a short range in another form",
+                                         with_data("GEN/2.json",
+                                                   lambda t: re.sub(r"\[\[threw\|[^|\]]*\|ἐπιβάλλω\]\]",
+                                                                    "[[threw|threw, cast upon, laid on, affixed, added|ἐπιβάλλω]]", t),
+                                                   lambda: run(V.check_ranges, [("GEN", 2), ("GEN", 22)]))),
 ]
 
 # Each must report no failure. The last three are the allowances, which a check
 # written too strictly would break.
 CONTROL = [
+    # τὸ καλόν is *beauty*, the adjective *beautiful*: a word used as a noun opens a range
+    # of its own, and the two are not one range cut short
+    ("ranges   a word used as a noun beside its adjective",
+                                         lambda: run(V.check_ranges, [("GEN", 2), ("GEN", 3), ("GEN", 12)])),
     ("chains   a sense dropped from one occurrence is drift",
                                          lambda: holds(drifted([(FULL, "GEN 21:8"), (CUT, "GEN 30:30")]) == 1,
                                                        "a chain that lost a sense must be reported")),

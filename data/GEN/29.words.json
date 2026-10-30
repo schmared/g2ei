@@ -5193,7 +5193,7 @@
         {
           "form": "μείζονι",
           "lemma": "μέγας",
-          "parse": "adjective · dative · singular · feminine",
+          "parse": "adjective · dative · singular · feminine · comparative",
           "aspect": "",
           "senses": [
             "big, great",
@@ -5264,7 +5264,7 @@
         {
           "form": "νεωτέρᾳ",
           "lemma": "νέος",
-          "parse": "adjective · dative · singular · feminine",
+          "parse": "adjective · dative · singular · feminine · comparative",
           "aspect": "",
           "senses": [
             "young, youthful",
@@ -5724,7 +5724,7 @@
         {
           "form": "νεωτέρας",
           "lemma": "νέος",
-          "parse": "adjective · genitive · singular · feminine",
+          "parse": "adjective · genitive · singular · feminine · comparative",
           "aspect": "",
           "senses": [
             "young, youthful",
@@ -5800,7 +5800,7 @@
         {
           "form": "Βέλτιον",
           "lemma": "βελτίων",
-          "parse": "adjective · nominative · singular · neuter",
+          "parse": "adjective · nominative · singular · neuter · comparative",
           "aspect": "",
           "senses": [
             "better"
@@ -5815,12 +5815,12 @@
           "aspect": "one completed act seen whole, not a process observed in progress",
           "senses": [
             "to give",
-            "to be ready to give, to offer",
             "to grant",
             "to provide",
-            "to offer to the gods"
+            "to offer to the gods",
+            "gave"
           ],
-          "more": 13,
+          "more": 12,
           "lexicon": "Middle Liddell"
         },
         {
@@ -5882,12 +5882,12 @@
           "aspect": "one completed act seen whole, not a process observed in progress",
           "senses": [
             "to give",
-            "to be ready to give, to offer",
             "to grant",
             "to provide",
-            "to offer to the gods"
+            "to offer to the gods",
+            "gave"
           ],
-          "more": 13,
+          "more": 12,
           "lexicon": "Middle Liddell"
         },
         {
@@ -6963,12 +6963,12 @@
           "aspect": "one completed act seen whole, not a process observed in progress",
           "senses": [
             "to give",
-            "to be ready to give, to offer",
             "to grant",
             "to provide",
-            "to offer to the gods"
+            "to offer to the gods",
+            "gave"
           ],
-          "more": 13,
+          "more": 12,
           "lexicon": "Middle Liddell"
         },
         {
@@ -7652,12 +7652,12 @@
           "aspect": "one completed act seen whole, not a process observed in progress",
           "senses": [
             "to give",
-            "to be ready to give, to offer",
             "to grant",
             "to provide",
-            "to offer to the gods"
+            "to offer to the gods",
+            "gave"
           ],
-          "more": 13,
+          "more": 12,
           "lexicon": "Middle Liddell"
         },
         {
@@ -7678,7 +7678,7 @@
         {
           "form": "νεωτέραν",
           "lemma": "νέος",
-          "parse": "adjective · accusative · singular · feminine",
+          "parse": "adjective · accusative · singular · feminine · comparative",
           "aspect": "",
           "senses": [
             "young, youthful",
@@ -7738,7 +7738,7 @@
         {
           "form": "πρεσβυτέραν",
           "lemma": "πρεσβύτερος",
-          "parse": "adjective · accusative · singular · feminine",
+          "parse": "adjective · accusative · singular · feminine · comparative",
           "aspect": "",
           "senses": [
             "an old man",
@@ -7849,12 +7849,12 @@
           "aspect": "",
           "senses": [
             "to give",
-            "to be ready to give, to offer",
             "to grant",
             "to provide",
-            "to offer to the gods"
+            "to offer to the gods",
+            "gave"
           ],
-          "more": 13,
+          "more": 12,
           "lexicon": "Middle Liddell"
         },
         {
@@ -8208,12 +8208,12 @@
           "aspect": "one completed act seen whole, not a process observed in progress",
           "senses": [
             "to give",
-            "to be ready to give, to offer",
             "to grant",
             "to provide",
-            "to offer to the gods"
+            "to offer to the gods",
+            "gave"
           ],
-          "more": 13,
+          "more": 12,
           "lexicon": "Middle Liddell"
         },
         {
@@ -8335,12 +8335,12 @@
           "aspect": "one completed act seen whole, not a process observed in progress",
           "senses": [
             "to give",
-            "to be ready to give, to offer",
             "to grant",
             "to provide",
-            "to offer to the gods"
+            "to offer to the gods",
+            "gave"
           ],
-          "more": 13,
+          "more": 12,
           "lexicon": "Middle Liddell"
         },
         {
@@ -10427,13 +10427,13 @@
           "parse": "verb · aorist · active · indicative · 3rd person · singular",
           "aspect": "one completed act seen whole, not a process observed in progress",
           "senses": [
-            "to make to stand",
-            "to stand",
-            "to make to stand, set",
-            "to set",
-            "in array, post"
+            "to be set",
+            "placed, to stand",
+            "to be there",
+            "to be in a",
+            "state"
           ],
-          "more": 32,
+          "more": 14,
           "lexicon": "Middle Liddell"
         },
         {

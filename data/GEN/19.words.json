@@ -258,13 +258,13 @@
           "parse": "verb · aorist · active · indicative · 3rd person · singular",
           "aspect": "one completed act seen whole, not a process observed in progress",
           "senses": [
-            "to raise up: to make one rise",
-            "to order",
-            "to rise",
-            "to make",
-            "emigrate, to remove"
+            "to stand up from one's seat",
+            "to arise and depart from, emigrate from",
+            "to break up, depart",
+            "to be driven out",
+            "to be forced to emigrate"
           ],
-          "more": 10,
+          "more": 1,
           "lexicon": "Middle Liddell"
         },
         {
@@ -1465,7 +1465,7 @@
         {
           "form": "πρεσβυτέρου",
           "lemma": "πρεσβύτερος",
-          "parse": "adjective · genitive · singular · masculine",
+          "parse": "adjective · genitive · singular · masculine · comparative",
           "aspect": "",
           "senses": [
             "an old man",
@@ -6131,13 +6131,13 @@
           "parse": "verb · aorist · active · subjunctive · 2nd person · singular",
           "aspect": "one completed act seen whole, not a process observed in progress",
           "senses": [
-            "to make to stand",
-            "to stand",
-            "to make to stand, set",
-            "to set",
-            "in array, post"
+            "to be set",
+            "placed, to stand",
+            "to be there",
+            "to be in a",
+            "state"
           ],
-          "more": 32,
+          "more": 14,
           "lexicon": "Middle Liddell"
         },
         {
@@ -6645,12 +6645,11 @@
           "aspect": "going on, in progress",
           "senses": [
             "to live",
-            "of living men",
-            "living",
-            "alive",
-            "to live off"
+            "to live off",
+            "on",
+            "to be in full life and strength, to be fresh, be strong"
           ],
-          "more": 2,
+          "more": 0,
           "lexicon": "Middle Liddell"
         },
         {
@@ -8923,13 +8922,13 @@
           "parse": "verb · pluperfect · active · indicative · 3rd person · singular",
           "aspect": "a resultant state that stood in the past",
           "senses": [
-            "to make to stand",
-            "to stand",
-            "to make to stand, set",
-            "to set",
-            "in array, post"
+            "to be set",
+            "placed, to stand",
+            "to be there",
+            "to be in a",
+            "state"
           ],
-          "more": 32,
+          "more": 14,
           "lexicon": "Middle Liddell"
         },
         {
@@ -10392,7 +10391,7 @@
         {
           "form": "πρεσβυτέρα",
           "lemma": "πρεσβύτερος",
-          "parse": "adjective · nominative · singular · feminine",
+          "parse": "adjective · nominative · singular · feminine · comparative",
           "aspect": "",
           "senses": [
             "an old man",
@@ -10437,7 +10436,7 @@
         {
           "form": "νεωτέραν",
           "lemma": "νέος",
-          "parse": "adjective · accusative · singular · feminine",
+          "parse": "adjective · accusative · singular · feminine · comparative",
           "aspect": "",
           "senses": [
             "young, youthful",
@@ -10493,7 +10492,7 @@
         {
           "form": "πρεσβύτερος",
           "lemma": "πρεσβύτερος",
-          "parse": "adjective · nominative · singular · masculine",
+          "parse": "adjective · nominative · singular · masculine · comparative",
           "aspect": "",
           "senses": [
             "an old man",
@@ -10914,7 +10913,7 @@
             "to make",
             "emigrate, to remove"
           ],
-          "more": 10,
+          "more": 4,
           "lexicon": "Middle Liddell"
         },
         {
@@ -11187,7 +11186,7 @@
         {
           "form": "πρεσβυτέρα",
           "lemma": "πρεσβύτερος",
-          "parse": "adjective · nominative · singular · feminine",
+          "parse": "adjective · nominative · singular · feminine · comparative",
           "aspect": "",
           "senses": [
             "an old man",
@@ -11559,7 +11558,7 @@
         {
           "form": "πρεσβυτέρα",
           "lemma": "πρεσβύτερος",
-          "parse": "adjective · nominative · singular · feminine",
+          "parse": "adjective · nominative · singular · feminine · comparative",
           "aspect": "",
           "senses": [
             "an old man",
@@ -11604,7 +11603,7 @@
         {
           "form": "νεωτέραν",
           "lemma": "νέος",
-          "parse": "adjective · accusative · singular · feminine",
+          "parse": "adjective · accusative · singular · feminine · comparative",
           "aspect": "",
           "senses": [
             "young, youthful",
@@ -11915,7 +11914,7 @@
             "to make",
             "emigrate, to remove"
           ],
-          "more": 10,
+          "more": 4,
           "lexicon": "Middle Liddell"
         },
         {
@@ -12203,7 +12202,7 @@
         {
           "form": "νεωτέρα",
           "lemma": "νέος",
-          "parse": "adjective · nominative · singular · feminine",
+          "parse": "adjective · nominative · singular · feminine · comparative",
           "aspect": "",
           "senses": [
             "young, youthful",
@@ -12618,7 +12617,7 @@
         {
           "form": "πρεσβυτέρα",
           "lemma": "πρεσβύτερος",
-          "parse": "adjective · nominative · singular · feminine",
+          "parse": "adjective · nominative · singular · feminine · comparative",
           "aspect": "",
           "senses": [
             "an old man",
@@ -12962,7 +12961,7 @@
         {
           "form": "νεωτέρα",
           "lemma": "νέος",
-          "parse": "adjective · nominative · singular · feminine",
+          "parse": "adjective · nominative · singular · feminine · comparative",
           "aspect": "",
           "senses": [
             "young, youthful",

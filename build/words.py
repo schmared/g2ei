@@ -1028,7 +1028,55 @@ NOT_SENSES = {
 # An entry that divides its senses by tense and voice, so that which of them belong to a
 # form depends on the form's parse and not on its lemma alone. For a form whose tense and
 # voice are among those listed, the set given here is skipped in place of NOT_SENSES.
+_ISTHMI_INTR = {
+    "to be set", "placed, to stand", "to be there", "to be in a", "state", "condition",
+    "to lie, be situated", "to stand still, stop, halt", "to stand idle",
+    "to stop, cease, be at rest", "to stand firm", "to stand up, rise up", "to arise, begin",
+    "was beginning", "began", "begins", "two", "three", "to be appointed"}
+_APHISTHMI_INTR = {
+    "to stand away", "aloof from, keep far from", "to lose", "to withdraw from", "to revolt from",
+    "to revolt", "to give up", "to make way", "give way", "to shrink from", "to stand aloof"}
+_EXANISTHMI_INTR = {
+    "bid one", "rise", "to stand up from one's seat", "to arise and depart from, emigrate from",
+    "to break up, depart", "to be driven out", "to be forced to emigrate", "to be depopulated"}
+_EXANISTHMI_CAUS = {
+    "to raise up: to make one rise", "bid one", "rise", "to order", "to rise", "to make",
+    "emigrate, to remove", "expel", "to depopulate, destroy", "to rouse", "from their lair"}
 FORM_SENSES = {
+    # ἵστημι: "Causal Tenses, to make to stand … Pass. and intr. tenses of Act. to be set or
+    # placed, to stand". The causal tenses are the present, imperfect, future and first
+    # aorist active, the first aorist built on στησ- as ἀνίστημι's below; the intransitive,
+    # the second aorist, perfect and pluperfect. "to stand" is the headline's summary of
+    # the intransitive, and section B opens with "to be set". GEN 18:2's εἱστήκεισαν had
+    # read twelve senses and 12:8's ἔστησεν seven, off one card.
+    "i(/sthmi": [("PIF", "A", _ISTHMI_INTR | {"to stand"}),
+                 ("A", "A", _ISTHMI_INTR | {"to stand"}, "στησ"),
+                 ("AXY", "A", {"to make to stand", "to stand", "to make to stand, set", "to set",
+                               "in array, post", "to make to stand, stop, stay, check",
+                               "to halt", "to fix", "to set up", "to raise", "up",
+                               "to raise, rouse, stir up", "to stir up", "to set up, appoint",
+                               "to establish, institute", "to place in the balance, weigh",
+                               "to weigh", "against"})],
+    # ἀφίστημι: "Causal in pres. and imperf., in fut. ἀποστήσω, aor1 ἀπέστησα", and NOT_SENSES
+    # keeps the intransitive. ἀπέστησαν is both aorists' third plural; at GEN 14:4 it is
+    # they revolted, so the causal pattern leaves the third plural to the intransitive.
+    "a)fi/sthmi": [("PIF", "A", _APHISTHMI_INTR | {"removed", "from your own", "weighed out to one",
+                                                   "to", "to have", "in full"}),
+                   ("A", "A", _APHISTHMI_INTR | {"removed", "from your own", "weighed out to one",
+                                                 "to", "to have", "in full"}, "στησ(?!αν)")],
+    # ἐξανίστημι: "Causal in pres., imperf., fut. and aor 1 … intr. in Pass., with aor2, perf.
+    # and plup. act." NOT_SENSES drops two scraps; the intransitive forms drop the causal.
+    "e)cani/sthmi": [("PIF", "A", _EXANISTHMI_INTR),
+                     ("A", "A", _EXANISTHMI_INTR, "στησ"),
+                     ("AXY", "A", _EXANISTHMI_CAUS)],
+    # γηράσκω: "Causal in aor1 ἐγήρασα, to bring to old age"; the other tenses grow old.
+    "ghra/skw": [("PIFXY", "A", {"to bring to old age"})],
+    # δίδωμι: "in pres. and imperf., to be ready to give, to offer" — a sense of those two
+    # tenses only.
+    "di/dwmi": [("AFXY", "AMPE", {"to be ready to give, to offer"})],
+    # ζάω: "ζῶν, living, alive", and "of living men" — the participle's. The finite verb and
+    # the infinitive leave them out.
+    "za/w": [("PIFAXY", "A", {"of living men", "living", "alive"}, "^(?!ζ[ωω](ν|σ))")],
     # ἀνίστημι heads sense A "Causal in pres., imperf." and sense B "Intr. in pres. and
     # imperf. ἀνίσταμαι, -μην, … in aor2 ἀνέστην". NOT_SENSES keeps B, for GEN 4:8 ἀνέστη;
     # the present and imperfect active — GEN 9:9 ἀνίστημι — keep A, less its "by" (from
@@ -1228,6 +1276,7 @@ PERSON = {"1": "1st person", "2": "2nd person", "3": "3rd person"}
 CASE = {"N": "nominative", "G": "genitive", "D": "dative", "A": "accusative", "V": "vocative"}
 NUMBER = {"S": "singular", "P": "plural", "D": "dual"}
 GENDER = {"M": "masculine", "F": "feminine", "N": "neuter", "C": "masculine/feminine"}
+DEGREE = {"C": "comparative", "S": "superlative"}
 
 # CLAUDE.md fixes the wording for aorist, imperfect and perfect; the other two follow it.
 ASPECT = {
@@ -1240,13 +1289,15 @@ ASPECT = {
 SHARED_VOICE = {"present", "imperfect", "perfect", "pluperfect"}
 
 
-def describe(pos, tense="", voice="", mood="", person="", case="", number="", gender=""):
+def describe(pos, tense="", voice="", mood="", person="", case="", number="", gender="",
+             degree=""):
     t, v = TENSE.get(tense, ""), VOICE.get(voice, "")
     if v in ("middle", "passive") and t in SHARED_VOICE:
         v = "middle/passive"
     parts = [POS.get(pos, pos)] + [x for x in (
         t, v, MOOD.get(mood, ""), PERSON.get(person, ""),
-        CASE.get(case, ""), NUMBER.get(number, ""), GENDER.get(gender, "")) if x]
+        CASE.get(case, ""), NUMBER.get(number, ""), GENDER.get(gender, ""),
+        DEGREE.get(degree, "")) if x]
     return " · ".join(parts), (ASPECT.get(t, "") if pos == "V" else "")
 
 
@@ -1255,7 +1306,7 @@ def morphgnt(pos, code):
     person, tense, voice, mood, case, number, gender, degree."""
     f = ["" if c == "-" else c for c in code.ljust(8, "-")]
     return describe(pos.rstrip("-"), tense=f[1], voice=f[2], mood=f[3], person=f[0],
-                    case=f[4], number=f[5], gender=f[6])
+                    case=f[4], number=f[5], gender=f[6], degree=f[7])
 
 
 # --------------------------------------------------------------------------

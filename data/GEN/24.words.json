@@ -48,7 +48,7 @@
         {
           "form": "πρεσβύτερος",
           "lemma": "πρεσβύτερος",
-          "parse": "adjective · nominative · singular · masculine",
+          "parse": "adjective · nominative · singular · masculine · comparative",
           "aspect": "",
           "senses": [
             "an old man",
@@ -299,7 +299,7 @@
         {
           "form": "πρεσβυτέρῳ",
           "lemma": "πρεσβύτερος",
-          "parse": "adjective · dative · singular · masculine",
+          "parse": "adjective · dative · singular · masculine · comparative",
           "aspect": "",
           "senses": [
             "an old man",
@@ -2374,12 +2374,12 @@
           "aspect": "",
           "senses": [
             "to give",
-            "to be ready to give, to offer",
             "to grant",
             "to provide",
-            "to offer to the gods"
+            "to offer to the gods",
+            "gave"
           ],
-          "more": 13,
+          "more": 12,
           "lexicon": "Middle Liddell"
         },
         {
@@ -4447,13 +4447,13 @@
           "parse": "verb · perfect · active · indicative · 1st person · singular",
           "aspect": "a standing resultant state, not a past event",
           "senses": [
-            "to make to stand",
-            "to stand",
-            "to make to stand, set",
-            "to set",
-            "in array, post"
+            "to be set",
+            "placed, to stand",
+            "to be there",
+            "to be in a",
+            "state"
           ],
-          "more": 32,
+          "more": 14,
           "lexicon": "Middle Liddell"
         },
         {
@@ -9962,13 +9962,13 @@
           "parse": "verb · perfect · active · participle · genitive · singular · masculine",
           "aspect": "a standing resultant state, not a past event",
           "senses": [
-            "to make to stand",
-            "to stand",
-            "to make to stand, set",
-            "to set",
-            "in array, post"
+            "to be set",
+            "placed, to stand",
+            "to be there",
+            "to be in a",
+            "state"
           ],
-          "more": 32,
+          "more": 14,
           "lexicon": "Middle Liddell"
         },
         {
@@ -10215,13 +10215,13 @@
           "parse": "verb · perfect · active · indicative · 2nd person · singular",
           "aspect": "a standing resultant state, not a past event",
           "senses": [
-            "to make to stand",
-            "to stand",
-            "to make to stand, set",
-            "to set",
-            "in array, post"
+            "to be set",
+            "placed, to stand",
+            "to be there",
+            "to be in a",
+            "state"
           ],
-          "more": 32,
+          "more": 14,
           "lexicon": "Middle Liddell"
         },
         {
@@ -10556,12 +10556,12 @@
           "aspect": "one completed act seen whole, not a process observed in progress",
           "senses": [
             "to give",
-            "to be ready to give, to offer",
             "to grant",
             "to provide",
-            "to offer to the gods"
+            "to offer to the gods",
+            "gave"
           ],
-          "more": 13,
+          "more": 12,
           "lexicon": "Middle Liddell"
         },
         {
@@ -11368,12 +11368,12 @@
           "aspect": "one completed act seen whole, not a process observed in progress",
           "senses": [
             "to give",
-            "to be ready to give, to offer",
             "to grant",
             "to provide",
-            "to offer to the gods"
+            "to offer to the gods",
+            "gave"
           ],
-          "more": 13,
+          "more": 12,
           "lexicon": "Middle Liddell"
         },
         {
@@ -11825,12 +11825,12 @@
           "aspect": "one completed act seen whole, not a process observed in progress",
           "senses": [
             "to give",
-            "to be ready to give, to offer",
             "to grant",
             "to provide",
-            "to offer to the gods"
+            "to offer to the gods",
+            "gave"
           ],
-          "more": 13,
+          "more": 12,
           "lexicon": "Middle Liddell"
         },
         {
@@ -13517,12 +13517,12 @@
           "aspect": "one completed act seen whole, not a process observed in progress",
           "senses": [
             "to give",
-            "to be ready to give, to offer",
             "to grant",
             "to provide",
-            "to offer to the gods"
+            "to offer to the gods",
+            "gave"
           ],
-          "more": 13,
+          "more": 12,
           "lexicon": "Middle Liddell"
         },
         {
@@ -17877,12 +17877,12 @@
           "aspect": "one completed act seen whole, not a process observed in progress",
           "senses": [
             "to give",
-            "to be ready to give, to offer",
             "to grant",
             "to provide",
-            "to offer to the gods"
+            "to offer to the gods",
+            "gave"
           ],
-          "more": 13,
+          "more": 12,
           "lexicon": "Middle Liddell"
         },
         {
@@ -17933,12 +17933,12 @@
           "aspect": "one completed act seen whole, not a process observed in progress",
           "senses": [
             "to give",
-            "to be ready to give, to offer",
             "to grant",
             "to provide",
-            "to offer to the gods"
+            "to offer to the gods",
+            "gave"
           ],
-          "more": 13,
+          "more": 12,
           "lexicon": "Middle Liddell"
         },
         {

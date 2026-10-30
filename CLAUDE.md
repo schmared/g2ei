@@ -348,6 +348,12 @@ The count is checked as well as the name: two units may not open one word.
   morphology gives it, its own article prints and no other does, and no case is marked
   twice
 - every genitive and dative unit opens with its marker, whatever the declined word is
+- every noun or adjective with an article of its own carries *the* in its unit, whatever its
+  gloss opens with: τὸ σπέρμα is *the that which is sown*
+- ἦν is never a bare *was*: every imperfect of εἰμί carries its formula, possession excepted
+- one word reads one range in every form: units of one lemma, one voice, one number, given
+  the same senses by the lexicon, carry as many of them whatever tense, person or case they
+  wear — a word used as a noun opening a range of its own
 - the article stands where its word is: no plain *the* before any unit, no *the the*, and
   over a participle the article's noun follows its gender — *one* for masculine and
   feminine, *thing* for neuter

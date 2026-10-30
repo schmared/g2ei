@@ -716,7 +716,7 @@
         {
           "form": "πρότερον",
           "lemma": "πρότερος",
-          "parse": "adjective · accusative · singular · neuter",
+          "parse": "adjective · accusative · singular · neuter · comparative",
           "aspect": "",
           "senses": [
             "before, in front, forward",
@@ -4599,12 +4599,12 @@
           "aspect": "",
           "senses": [
             "to give",
-            "to be ready to give, to offer",
             "to grant",
             "to provide",
-            "to offer to the gods"
+            "to offer to the gods",
+            "gave"
           ],
-          "more": 13,
+          "more": 12,
           "lexicon": "Middle Liddell"
         },
         {
@@ -5273,12 +5273,12 @@
           "aspect": "",
           "senses": [
             "to give",
-            "to be ready to give, to offer",
             "to grant",
             "to provide",
-            "to offer to the gods"
+            "to offer to the gods",
+            "gave"
           ],
-          "more": 13,
+          "more": 12,
           "lexicon": "Middle Liddell"
         },
         {

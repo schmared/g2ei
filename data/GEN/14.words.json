@@ -5673,7 +5673,7 @@
         {
           "form": "ὑψίστου",
           "lemma": "ὕψιστος",
-          "parse": "adjective · genitive · singular · masculine",
+          "parse": "adjective · genitive · singular · masculine · superlative",
           "aspect": "",
           "senses": [
             "highest, loftiest"
@@ -5844,7 +5844,7 @@
         {
           "form": "ὑψίστῳ",
           "lemma": "ὕψιστος",
-          "parse": "adjective · dative · singular · masculine",
+          "parse": "adjective · dative · singular · masculine · superlative",
           "aspect": "",
           "senses": [
             "highest, loftiest"
@@ -6036,7 +6036,7 @@
         {
           "form": "ὕψιστος",
           "lemma": "ὕψιστος",
-          "parse": "adjective · nominative · singular · masculine",
+          "parse": "adjective · nominative · singular · masculine · superlative",
           "aspect": "",
           "senses": [
             "highest, loftiest"
@@ -6160,12 +6160,12 @@
           "aspect": "one completed act seen whole, not a process observed in progress",
           "senses": [
             "to give",
-            "to be ready to give, to offer",
             "to grant",
             "to provide",
-            "to offer to the gods"
+            "to offer to the gods",
+            "gave"
           ],
-          "more": 13,
+          "more": 12,
           "lexicon": "Middle Liddell"
         },
         {
@@ -6320,12 +6320,12 @@
           "aspect": "one completed act seen whole, not a process observed in progress",
           "senses": [
             "to give",
-            "to be ready to give, to offer",
             "to grant",
             "to provide",
-            "to offer to the gods"
+            "to offer to the gods",
+            "gave"
           ],
-          "more": 13,
+          "more": 12,
           "lexicon": "Middle Liddell"
         },
         {
@@ -6643,7 +6643,7 @@
         {
           "form": "ὕψιστον",
           "lemma": "ὕψιστος",
-          "parse": "adjective · accusative · singular · masculine",
+          "parse": "adjective · accusative · singular · masculine · superlative",
           "aspect": "",
           "senses": [
             "highest, loftiest"

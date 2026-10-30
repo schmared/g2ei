@@ -290,7 +290,7 @@
         {
           "form": "πρεσβύτερον",
           "lemma": "πρεσβύτερος",
-          "parse": "adjective · accusative · singular · masculine",
+          "parse": "adjective · accusative · singular · masculine · comparative",
           "aspect": "",
           "senses": [
             "an old man",
@@ -480,7 +480,8 @@
           "aspect": "a standing resultant state, not a past event",
           "senses": [
             "to grow old, become old",
-            "to bring to old age"
+            "to be so",
+            "grew old"
           ],
           "more": 0,
           "lexicon": "Middle Liddell"
@@ -1616,7 +1617,7 @@
         {
           "form": "ἐλάσσω",
           "lemma": "ἐλάσσων",
-          "parse": "adjective · accusative · singular · masculine",
+          "parse": "adjective · accusative · singular · masculine · comparative",
           "aspect": "",
           "senses": [
             "smaller, less",
@@ -3973,7 +3974,7 @@
         {
           "form": "πρεσβυτέρου",
           "lemma": "πρεσβύτερος",
-          "parse": "adjective · genitive · singular · masculine",
+          "parse": "adjective · genitive · singular · masculine · comparative",
           "aspect": "",
           "senses": [
             "an old man",
@@ -4202,7 +4203,7 @@
         {
           "form": "νεώτερον",
           "lemma": "νέος",
-          "parse": "adjective · accusative · singular · masculine",
+          "parse": "adjective · accusative · singular · masculine · comparative",
           "aspect": "",
           "senses": [
             "young, youthful",
@@ -4487,12 +4488,12 @@
           "aspect": "one completed act seen whole, not a process observed in progress",
           "senses": [
             "to give",
-            "to be ready to give, to offer",
             "to grant",
             "to provide",
-            "to offer to the gods"
+            "to offer to the gods",
+            "gave"
           ],
-          "more": 13,
+          "more": 12,
           "lexicon": "Middle Liddell"
         },
         {
@@ -7740,12 +7741,12 @@
           "aspect": "one completed act seen whole, not a process observed in progress",
           "senses": [
             "to give",
-            "to be ready to give, to offer",
             "to grant",
             "to provide",
-            "to offer to the gods"
+            "to offer to the gods",
+            "gave"
           ],
-          "more": 13,
+          "more": 12,
           "lexicon": "Middle Liddell"
         },
         {
@@ -13229,7 +13230,7 @@
         {
           "form": "πρεσβυτέρου",
           "lemma": "πρεσβύτερος",
-          "parse": "adjective · genitive · singular · masculine",
+          "parse": "adjective · genitive · singular · masculine · comparative",
           "aspect": "",
           "senses": [
             "an old man",
@@ -13356,7 +13357,7 @@
         {
           "form": "νεώτερον",
           "lemma": "νέος",
-          "parse": "adjective · accusative · singular · masculine",
+          "parse": "adjective · accusative · singular · masculine · comparative",
           "aspect": "",
           "senses": [
             "young, youthful",
@@ -14765,12 +14766,11 @@
           "aspect": "going on, in progress",
           "senses": [
             "to live",
-            "of living men",
-            "living",
-            "alive",
-            "to live off"
+            "to live off",
+            "on",
+            "to be in full life and strength, to be fresh, be strong"
           ],
-          "more": 2,
+          "more": 0,
           "lexicon": "Middle Liddell"
         }
       ]
