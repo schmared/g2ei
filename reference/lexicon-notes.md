@@ -7296,3 +7296,41 @@ text uses. Chains already in the corpus (Genesis) were read from it and re-infle
   utterly*), θιμωνιά, σκνίψ.
 - καί as the adverb at 8:3, 8:14 (ἐποίησαν καὶ οἱ ἐπαοιδοί) and 8:28 (καὶ ἐπὶ τοῦ καιροῦ τούτου);
   πλήν with no genitive is the conjunction, `C-`, at 8:5 and 8:7.
+
+### Words new in EXO 9
+
+- **From LSJ** (not in Middle Liddell): ἐγκρατέω, `you are master of and exercise control over`
+  (9:2; Middle Liddell has the adjective ἐγκρατής); καμιναία, *furnace*, plain text (9:8, 9:10);
+  φλυκτίς, LSJ's pointer to φλύκταινα, then *boil*: `blisters, pustules, boils` (9:9);
+  συνάντημα, `the incidents and occurrences, the visitations, the confirmations` (9:14);
+  σπερματίζω, `sowing, being in seed` (9:31).
+- **Close form**: ὀλύρα is Middle Liddell's ὄλυρα, `the kind of grain and spelt and rye`.
+- **Cut translation restored** (`MARKUP_LOST`): ὕω's *Lat. pluit, it rains*, the English inside
+  the Latin element; the impersonal *it rains* is the third person's, and a first or second person
+  leaves it out.
+- **Number and voice** (`FORM_SENSES`): ὅρος's and χάλαζα's singular leave out the plural's
+  senses; ῥητός's *rational quantities* is τὰ ῥητά's; ὕω's, φλογίζω's and ἐκπετάννυμι's active
+  leave out the passive; διαγγέλλω's passive the middle; πλήσσω's passive the active and the
+  middle, `was struck and stricken and smitten, received a heavy blow and was beaten, was stricken`.
+- **Pieces set aside** (`NOT_SENSES`): ῥητός (a repeat, ἐπὶ ῥητοῖς, the adverb ῥητῶς), ὅρος
+  (examples' pieces, the Latin), ἕλκος (*of plague-ulcers*, the use's label), ὕω (examples'), πάσσω
+  (examples' pieces), ἐμποιέω (a passive example's pieces), λίνον (*lint-*), πλήσσω (examples').
+- **βρέχω** heads as `wetted`, the entry's first sense, as GEN 2:5 has it.
+- New chains: ἔπειμι `will be upon`; κτῆνος with ἐν, and `of flock and herd`; ἵππος and
+  ὑποζύγιον with ἐν; βοῦς `to bullocks`; πρόβατον `to things that walk forward`; ῥητός `stated`;
+  ὅρος `a boundary`; πάσσω `let him sprinkle`, `sprinkled`; γίνομαι `let come into being`;
+  κονιορτός `dust stirred up`; ἕλκος `wounds`, `the wounds`; ἀναζέω `boiling up`; φαρμακός `the
+  poisoners`, and with ἐν; ἵστημι `to be set`; ἐκτρίβω `you will be rubbed out`; διατηρέω `you were
+  watched closely`; ἐνδείκνυμι `I may inform against`; διαγγέλλω `may be given notice by a
+  messenger`; ἐμποιέω `you make in`; ὕω `I send rain`; ὥρα `the period`; χάλαζα `hail`, `the
+  hail`, and with ἐν; κτίζω `has been peopled … and stands so`; κατασπεύδω `press`; εἰσέρχομαι
+  `may go in`; πίπτω `may fall`; φοβέομαι `the one being put to flight`, `you have been put to
+  flight … and stand so`; διάνοια `to the thought`; βοτάνη `grass`; φωνή `sounds`, `the sounds`;
+  διατρέχω `was running across`; φλογίζω `setting on fire`; συντρίβω `rubbed together`; ἁμαρτάνω `I
+  have missed the mark … and it stands so`; ἀσεβής `ungodly`; παύω `let take its rest`, `will take
+  their rest`, `has taken its rest … and stands so`; προστίθημι `you will put to`; μένω `to stay
+  stand fast`; ἐξέρχομαι `I may go out of`; γινώσκω `you may learn to know`; θεράπων `the
+  waiting-men`; οὐδέπω `and not yet`; λίνον `the anything made of flax`; κριθή `the barley-corns`;
+  παρίστημι `having stood by … and standing so`; ὄψιμος `late`; ἐκτός `outside`; στάζω `dropped`.
+- One translation each, plain text: σκληρύνω, ἐπαύριον, αἰθάλη (*soot*), καμιναία, ἐκπετάννυμι's
+  active, πυρός (*wheat*), οὗ (*where*).

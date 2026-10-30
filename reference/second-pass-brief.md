@@ -553,6 +553,14 @@ One disagreement over 730 words, and the first pass stands: ἐπαοιδοί, w
 `N-`, is an adjective used as a noun and stays `A-`, as the brief's rule has it and as Exodus 7
 settled. Both passes read ἐμοῦ and σοῦ between the article and its noun as the possessives.
 
+### What it found in Exodus 9
+
+Seven disagreements over 823 words, and the second pass was right on five: βουσίν is masculine,
+MorphGNT's usual gender for βοῦς; καμιναίας is the noun καμιναία, *furnace*, which LSJ cites from
+9:10, and not the adjective; τοιαύτη is `RD`, as MorphGNT tags τοιοῦτος and as the corpus already
+had it; ἔθνος in ἀφʼ οὗ γεγένηται ἐπʼ αὐτῆς ἔθνος is the subject; and πυρός, *wheat*, which the
+first pass's seed had read as πῦρ.
+
 ## The brief
 
 Copy everything below the rule into a new agent. Replace `<BOOK NAME>`, `<CHAPTER>`,

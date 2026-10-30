@@ -356,6 +356,18 @@ LSJ = {
     # in square". LSJ (eng7): ζωογονέω, "propagate" or "engender living creatures", "breed",
     # "engender", "to be viviparous", "produce alive", "make alive, quicken", and "= ζωγρέω, preserve
     # alive", citing Ex 1:17; "producing" is a piece of the example of Zeus and Pallas.
+    # EXO 9. None of these is in Middle Liddell. LSJ (eng5): ἐγκρατέω, "to be master of, exercise
+    # control over", citing Ex 9:2 (Middle Liddell has the adjective ἐγκρατής, not the verb). LSJ
+    # (eng11): καμιναία, "furnace", citing Ex 9:10. LSJ (eng24): φλυκτίς, "= φλύκταινα", a pointer,
+    # then "boil", citing Ex 9:9; LSJ's φλύκταινα reads "blister" and "pustule". LSJ (eng21):
+    # συνάντημα, "incident, occurrence", "visitation", citing Ex 9:14, "confirmation"; σπερματίζω,
+    # "sow", and intransitive, of plants, "to be in seed", citing Ex 9:31 (the passive's "conceive,
+    # become pregnant" is the passive's, and no active form's).
+    "ἐγκρατέω": ["be master of, exercise control over"],
+    "καμιναία": ["furnace"],
+    "φλυκτίς": ["blister", "pustule", "boil"],
+    "συνάντημα": ["incident, occurrence", "visitation", "confirmation"],
+    "σπερματίζω": ["sow", "to be in seed"],
     # EXO 8. None of these is in Middle Liddell. LSJ (eng9): θημωνιά, which Rahlfs spells θιμωνιά,
     # "= foreg.", a pointer to θημών, "heap", citing Ex 8:10. LSJ (eng1): ἀνάψυξις, "cooling",
     # "exposure", "drying up", "relief, respite", citing Ex 8:11. LSJ (eng5): ἐπαποστέλλω, "send after",
@@ -1329,6 +1341,15 @@ NOT_SENSES = {
                "elections."},                   # examples' translations, a proverb, the note on ballot and lot
     "e)pista/ths": {"the right-", "left-hand man", "the front-rank man)", "a", "master", "which stood over"},  # παραστάτης's and προστάτης's glosses; "a training-master" cut in two, whole in MARKUP_LOST; a piece
     "be/ltistos": {"my good friend"},             # ὦ βέλτιστε, the vocative's mode of address
+    # EXO 9
+    "r(hto/s": {"stated", "on stated terms, on certain conditions", "expressly, distinctly"},  # a repeat; ἐπὶ ῥητοῖς, the phrase's; the adverb ῥητῶς
+    "o(/ros": {"the boundary between", "as the limit", "cippi)"},  # pieces of examples, the Latin
+    "e(/lkos": {"of plague-ulcers"},           # the use's label, not a translation of the word
+    "u(/w": {"when it is raining", "as it was raining", "it did", "rain on", "was rained upon", "it rained"},  # examples'
+    "pa/ssw": {"laying", "upon", "sprinkle some", "to work", "in embroidery"},  # examples' pieces
+    "e)mpoie/w": {"introduced by", "poet's art"},  # a passive example's pieces
+    "li/non": {"lint-"},                         # a piece of "lint-seed"
+    "plh/ssw": {"struck", "on", "having driven", "having smitten his", "I have lost", "by this blow", "from", "moved"},  # examples' pieces and translations
     # EXO 8
     "kni/y": {"insect which gnaws"},              # cut from "a small … figs", whole in MARKUP_LOST
     "kalu/ptw": {"to be buried", "I will put", "over"},  # κ. χθονὶ γυῖα, a phrase's; pieces of an example
@@ -1612,6 +1633,19 @@ FORM_SENSES = {
                        "to take off something that surrounds, take off an outer coat, take away, strip off",
                        "to take off from oneself", "to strip off, take away"})],
     "baru/nw": [("PIFAXY", "A", {"he is heavy", "weary", "disabled", "to be oppressed, distressed"})],
+    # EXO 9. Number: ὅρος's and χάλαζα's singular leave out the plural's senses; ῥητός's "rational
+    # quantities" is τὰ ῥητά's. Voice: ὕω's, φλογίζω's and ἐκπετάννυμι's active leave out the
+    # passive's; διαγγέλλω's passive the middle's; πλήσσω's passive the active's and the middle's.
+    "o(/ros": [("-", "-", NOT_SENSES["o(/ros"] | {"bounds, boundaries", "marking-stones", "stone tablets", "the terms"},
+                None, "^.....S")],
+    "xa/laza": [("-", "-", {"a hailshower, hailstorm", "hailstones"}, None, "^.....S")],
+    "r(hto/s": [("-", "-", NOT_SENSES["r(hto/s"] | {"rational quantities"}, None, "^.....(?!PN)")],
+    "u(/w": [("PIFAXY", "A", NOT_SENSES["u(/w"] | {"to be rained on", "it rains"}, None, "^[12]"),
+             ("PIFAXY", "A", NOT_SENSES["u(/w"] | {"to be rained on"})],
+    "flogi/zw": [("PIFAXY", "A", {"to be set on fire, to blaze, flame"})],
+    "e)kpeta/nnumi": [("PIFAXY", "A", {"wholly given up to"})],
+    "diagge/llw": [("PIFAXY", "P", {"to pass", "from man to man, inform one another"})],
+    "plh/ssw": [("PIFAXY", "P", NOT_SENSES["plh/ssw"] | {"to strike, smite", "to whip", "to strike", "amaze, confound"})],
     "a)fani/zw": [("PIFAXY", "A", NOT_SENSES["a)fani/zw"] | {"to be concealed", "suppressed",
                                                          "to become unseen, to disappear"})],
     # EXO 7. μεταβάλλω's active, but the participle, leaves out the middle's senses and the
@@ -1713,6 +1747,7 @@ FORM_SENSES = {
 # (κατέναντι reads "= κατεναντίον" and glosses nothing itself). Each is recorded in
 # reference/lexicon-notes.md with the entry it resolves to.
 SPELLING = {
+    "o)lu/ra": "o)/lura",               # ὀλύρα, Middle Liddell's ὄλυρα (EXO 9:32)
     "kuno/muia": "kuna/muia",          # κυνόμυια, Middle Liddell's "= κυνάμυια" (EXO 8:17)
     "skni/y": "kni/y",                  # σκνίψ, Middle Liddell's κνίψ, "like σκνίψ" (EXO 8:12)
     "e)paoido/s": "e)pw|do/s",          # ἐπαοιδός, the uncontracted ἐπῳδός, LSJ's "= ἐπῳδός" (EXO 7:11)
@@ -1995,6 +2030,9 @@ MARKUP_LOST = {
     # it «taken from one»". The pieces are in NOT_SENSES.
     # EXO 8. κνίψ: "a small «insect which gnaws» figs".
     "kni/y": [(0, "a small insect which gnaws figs")],
+    # EXO 9. ὕω: "ὕει used impers., Lat. pluit, it rains" — the English inside the Latin element.
+    # It is the third person's; a first or second person leaves it out (FORM_SENSES).
+    "u(/w": [(1, "it rains")],
     "a)polei/pw": [(8, "to leave one in the lurch")],
     "sxola/zw": [(5, "to have rest or respite from"), (8, "to have leisure or opportunity for")],
     "a)faire/w": [(9, "to have it taken from one")],
