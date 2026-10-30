@@ -172,16 +172,18 @@
     color:var(--ink-faint);
   }
 
-  /* signature: the scriptio continua block */
-  .greekblock{
-    background:var(--panel);
-    border-left:3px solid var(--rubric);
-    padding:clamp(20px,2.6vw,30px) clamp(18px,2.6vw,32px);
-    margin-bottom:clamp(22px,2.6vw,30px);
+  /* signature: the Greek column, which can close its spaces into scriptio continua. It
+     stays in view while the readings beside it scroll, so the eye can follow along. */
+  .panel--greek{
+    border-top-color:var(--rubric);
+    position:sticky;
+    top:64px;
+    max-height:calc(100vh - 80px);
+    overflow-y:auto;
   }
   .greek{
     font-family:var(--greek);
-    font-size:clamp(19px,2.15vw,26px);
+    font-size:clamp(17px,1.45vw,21px);
     line-height:1.62;
     margin:0;
     color:var(--ink);
@@ -193,17 +195,15 @@
     word-break:break-all;
     color:var(--verdigris);
   }
-  .greek-foot{
+  .verse-foot{
     display:flex;
     align-items:center;
     justify-content:space-between;
     gap:14px;
     flex-wrap:wrap;
-    margin-top:16px;
-    padding-top:13px;
-    border-top:1px solid var(--rule);
+    margin-bottom:clamp(16px,1.8vw,22px);
   }
-  .greek-foot .hint{
+  .verse-foot .hint{
     font-family:var(--sans);
     font-size:12px;
     color:var(--ink-faint);
@@ -230,7 +230,12 @@
   .greek-actions{display:flex;gap:8px;flex-wrap:wrap}
 
   /* word by word: each form with its dictionary form, its parse, and its lexicon senses */
-  .words{margin-top:18px;padding-top:16px;border-top:1px solid var(--rule)}
+  .words{
+    background:var(--panel);
+    border-left:3px solid var(--verdigris);
+    padding:clamp(16px,2vw,24px) clamp(16px,2.2vw,28px);
+    margin-bottom:clamp(18px,1.8vw,26px);
+  }
   .word-list{
     list-style:none;
     margin:0;
@@ -378,6 +383,7 @@
 
   @media (max-width:860px){
     .panels{grid-template-columns:1fr !important}
+    .panel--greek{position:static;max-height:none}
     .controls{gap:6px;padding:11px 0 10px}
     button.pill{padding:6px 10px;font-size:10px}
     .controls .label{width:100%;margin-bottom:2px}
@@ -393,7 +399,7 @@
 <header class="masthead">
   <p class="eyebrow">Septuagint base · exhaustive interpretation · not a translation</p>
   <h1>Ἐν ἀρχῇ<br><em>as far as English can be made to carry it</em></h1>
-  <p class="thesis">Every load-bearing word is opened to the full range its lexicon gives it, and left open — no single English equivalent is chosen, because choosing one is where the meaning goes. Three parallel readings run against each verse: the apparatus, the unanchored text, and the anchored text. The Old Testament is read from the Greek throughout, so that when the New Testament quotes it, the quotation is visible on the page.</p>
+  <p class="thesis">Every load-bearing word is opened to the full range its lexicon gives it, and left open — no single English equivalent is chosen, because choosing one is where the meaning goes. Three parallel readings run beside the Greek of each verse: the apparatus, the unanchored text, and the anchored text. The Old Testament is read from the Greek throughout, so that when the New Testament quotes it, the quotation is visible on the page.</p>
 
   <details class="conventions">
     <summary>Conventions</summary>
@@ -412,7 +418,7 @@
       </div>
       <div>
         <h4>Verbal aspect</h4>
-        <p>Where the Greek aspect carries weight English cannot, it is stated in the text rather than footnoted: <em>one completed act seen whole</em> for the aorist, <em>and kept on being</em> for the imperfect.</p>
+        <p>Where the Greek aspect carries weight English cannot, it is stated in the text rather than footnoted: <em>was …ing</em> and <em>and kept on being</em> for the imperfect, <em>and it stands so</em> for the perfect. The aorist, the narrative's plain tense, is the plain English past.</p>
       </div>
       <div>
         <h4>The apparatus</h4>
@@ -424,7 +430,7 @@
       </div>
       <div>
         <h4>Word by word</h4>
-        <p>Under each Greek line, every word with its dictionary form, what its own form adds — tense, voice, mood, case — and the opening senses of its lexicon entry, in the lexicon's order. A concordance stops at the dictionary form; this takes the step after it.</p>
+        <p>Above each verse's columns, every word with its dictionary form, what its own form adds — tense, voice, mood, case — and the opening senses of its lexicon entry, in the lexicon's order. A concordance stops at the dictionary form; this takes the step after it.</p>
       </div>
     </div>
   </details>
@@ -432,6 +438,7 @@
 
 <div class="controls" role="group" aria-label="Show or hide reading panels">
   <span class="label">Panels</span>
+  <button class="pill" type="button" data-panel="greek" aria-pressed="true">Greek</button>
   <button class="pill" type="button" data-panel="notes" aria-pressed="true">Notes</button>
   <button class="pill" type="button" data-panel="open" aria-pressed="true">Unanchored</button>
   <button class="pill" type="button" data-panel="anchor" aria-pressed="true">Anchored</button>
@@ -440,7 +447,7 @@
 {{{sections}}}
 
 <footer>
-  <p>Genesis follows the Septuagint (Rahlfs–Hanhart); John follows Nestle-Aland. Divergence notes compare the Greek against the Masoretic Hebrew and never alter the reading text. Where an English phrase familiar from other versions has no basis in the Greek, the notes mark it rather than supplying it.</p>
+  <p>Genesis follows the Septuagint in Rahlfs's 1935 edition, transcribed from the printed page; John follows the SBL Greek New Testament. Divergence notes compare the Greek against the Masoretic Hebrew and never alter the reading text. Where an English phrase familiar from other versions has no basis in the Greek, the notes mark it rather than supplying it.</p>
 </footer>
 
 </div>
@@ -472,10 +479,11 @@
     });
   });
 
-  /* narrow screens open on the unanchored reading only */
+  /* narrow screens open on the Greek and the unanchored reading only */
   if(window.matchMedia('(max-width: 860px)').matches){
     buttons.forEach(function(b){
-      b.setAttribute('aria-pressed', b.dataset.panel === 'open' ? 'true' : 'false');
+      var on = b.dataset.panel === 'greek' || b.dataset.panel === 'open';
+      b.setAttribute('aria-pressed', on ? 'true' : 'false');
     });
   }
   apply();
@@ -488,8 +496,7 @@
             .replace(/[^\u0391-\u03A9]/g, '');
   }
   document.querySelectorAll('[data-spacer]').forEach(function(btn){
-    var block = btn.closest('.greekblock');
-    var line  = block.querySelector('[data-greek]');
+    var line  = btn.closest('section').querySelector('[data-greek]');
     var open  = line.textContent;
     var shut  = uncial(open);
     var closed = false;
@@ -504,7 +511,7 @@
 
   /* ---- word by word ---- */
   document.querySelectorAll('[data-words-toggle]').forEach(function(btn){
-    var layer = btn.closest('.greekblock').querySelector('[data-words]');
+    var layer = btn.closest('section').querySelector('[data-words]');
     btn.addEventListener('click', function(){
       var open = layer.hidden;
       layer.hidden = !open;

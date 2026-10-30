@@ -28,9 +28,13 @@ Four things, in this order:
    shaded. Nothing else differs — both panels are generated from one source string — and
    the unshaded words alone read as a plain word-for-word rendering.
 
-The rendered page shows the last three side by side, with the Greek above them and two
-controls: one closes the word spaces — *scriptio continua*, which is what a fourth-century
-reader actually met on the page — and one opens the [word-by-word](#word-by-word) layer.
+The rendered page sets all four side by side as columns, the Greek first, and each can be
+switched off and on from the bar at the top; on a phone the page opens on the Greek and the
+unanchored text. The Greek column stays in view while the readings beside it scroll, so the
+eye can follow along. Above the columns, two controls: one closes the Greek's word spaces —
+*scriptio continua*, which is what a fourth-century reader actually met on the page — and one
+opens the [word-by-word](#word-by-word) layer. A further column is one more panel and one
+more switch; the Hebrew is planned that way, in [ROADMAP.md](ROADMAP.md).
 
 ## Base texts
 
@@ -86,13 +90,14 @@ build/validate.py            mechanical checks; run before committing
 build/test_validate.py       those checks, fired at broken data
 build/morph_diff.py          two independent passes at a chapter's morphology, compared
 templates/page.html          the page shell (masthead, CSS, controls, footer, script)
-templates/verse.html         one verse section — the three-panel layout
+templates/verse.html         one verse section — Greek, notes and readings as toggleable columns
 site/                        generated output — never hand-edit
 reference/gold-standard.html the rendering baseline; regenerate, don't edit
 reference/lexicon-notes.md   recurring gloss-chains, reused verbatim across books
 reference/second-pass-brief.md  the brief for a chapter's independent second morphology pass
 sources/                     the Greek source editions (see Licensing below)
 CLAUDE.md                    editorial conventions
+ROADMAP.md                   work planned beyond the current chapters
 ```
 
 Content lives in JSON and the HTML is **generated**. Nothing is hand-written per chapter —
@@ -164,7 +169,7 @@ in a unit — headword from the lexicon, strict, literal, no filler — are in
 
 ## Word by word
 
-Under each Greek line, **Word by word** opens every word of the verse as a card:
+Above each verse's columns, **Word by word** opens every word of the verse as a card:
 
 - the **form**, as the verse prints it
 - its **dictionary form** (lemma) — what a concordance files it under

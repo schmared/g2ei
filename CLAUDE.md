@@ -255,7 +255,7 @@ reading requires — do not adjudicate.
 /build/words.py                 /sources → the word-by-word layer
 /build/validate.py              mechanical checks
 /build/morph_diff.py            two independent passes at a chapter's morphology, compared
-/templates/verse.html           the three-panel layout
+/templates/verse.html           the verse layout: Greek, notes and readings as toggleable columns
 /site/                          generated output — never hand-edit
 /reference/lexicon-notes.md     recurring gloss-chains, kept consistent across books
 /reference/second-pass-brief.md the brief for a chapter's independent second morphology pass
