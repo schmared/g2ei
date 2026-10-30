@@ -339,6 +339,16 @@ LSJ = {
                "push, thrust", "infix, plant in", "inflict", "press down, depress", "match, set against",
                "settle upon", "exert pressure", "rest", "set to work, fall to", "become fixed"],
     "νευροκοπέω": ["hamstring, hough"],
+    # GEN 50. LSJ (eng5): ἐνταφιαστής, "undertaker, embalmer", one translation. LSJ (eng17): πανοικία,
+    # "whole household", and its dative as an adverb, "with all the house", which is the dative's
+    # and not GEN 50:8's nominative. LSJ (eng21): συναναφέρω, the active's senses, "carry up
+    # together", metaph. "bring up together with itself", "refer to … at the same time", "certify at
+    # the same time", "report"; the passive's and the astronomers' are left out, as GEN 50:25's
+    # συνανοίσετε is active.
+    "ἐνταφιαστής": ["undertaker, embalmer"],
+    "πανοικία": ["whole household"],
+    "συναναφέρω": ["carry up together", "bring up together with itself", "refer to at the same time",
+                   "certify at the same time", "report"],
     "ὑπερισχύω": ["to be exceedingly strong", "to be too luxuriant", "to be overbearing",
                   "to be stronger than, prevail over"],
     "κατακενόω": ["empty", "empty of", "to be emptied, made or left empty", "make empty by leaving, desert",
@@ -1219,6 +1229,13 @@ NOT_SENSES = {
     "e)pita/ssw": {"to", "they had", "placed next", "set as guards over"},  # pieces of examples
     "h(ge/omai": {"to be", "leader in", "commander of", "fit, deem", "necessary"},  # pieces of "to be leader in", "to think fit, deem necessary"
     "e(/lic": {"flashes of forked"},              # a piece of "flashes of forked lightning"
+    # GEN 50
+    "sunanabai/nw": {"together", "with"},         # the half of "to go up with or together", and τινί "with" one
+    "patriko/s": {"of"},                          # half of "of or belonging to one's father"
+    "mnhsikake/w": {"to bear", "malice, pass an act of amnesty", "a grudge for", "to remind", "of the ills"},  # pieces of examples
+    "kommo/s": {"plango), a beating of the breast in lamentation", "lamentation"},  # the <tr> opened inside the Latin; MARKUP_LOST has it whole. An example's
+    "pe/ran": {"done on the opposite side", "just over the border", "border-"},  # pieces of τὰ πέραν and ἡ πέραν γῆ
+    "tafh/": {"the urn"},                        # one passage's, Sophocles' urn of Orestes
     "be/ltistos": {"my good friend"},             # ὦ βέλτιστε, the vocative's mode of address
     "e)rhmo/w": {"of", "without"},                # pieces of "to bereave one of", "to leave the oars without men"
     # ἄν: a paragraph on the particle's uses, tagged as one translation, opens the card.
@@ -1415,6 +1432,24 @@ FORM_SENSES = {
     # finite verb's; GEN 49:26's ἡγήσατο is finite.
     "h(ge/omai": [("PIFAXY", "MEP", {"to be", "leader in", "commander of", "fit, deem", "necessary", "the rulers", "leading men"},
                    "^(?!ηγουμεν)")],
+    # GEN 50. θνήσκω: "to die, be dying, in aor2 and perf. to be dead": the perfect τέθνηκεν of 50:15
+    # takes "to be dead" and not the present's "to die, be dying"; the rest are an example's pieces
+    # and translation. The metaphorical "to die, perish", of things, is given no tense, and stays.
+    "qnh/skw": [("XY", "A", {"to die, be dying", "to fall by", "hand, be slain by", "are in mortal fear of"})],
+    # ταφή: "in pl. also, a burial-place": the singular of GEN 50:3 leaves it out.
+    "tafh/": [("-", "-", {"the urn", "a burial-place"}, "^ταφ(η|ης|ην)$")],
+    # ἐνδείκνυμι: the middle of 50:15 and 50:17 reads the Mid. senses, and "to inform against", which
+    # the entry gives "so in Mid."; not the active's "to mark, point out" or the passive's participle.
+    # "what is one's own" is the half of "to shew forth oneself or what is one's own", and "I will
+    # declare myself" an example's.
+    "e)ndei/knumi": [("PIFAXY", "M", {"to mark, point out", "being informed against for", "what is one's own",
+                                      "I will declare myself"})],
+    # βουλεύω: the middle of 50:20 reads sense I, "to take counsel, deliberate", which "in Prose
+    # belongs chiefly to the Mid.", and the Mid. senses; not the active's "to deliberate on, plan,
+    # devise" with its object, the passive's, sense II "to give counsel, advise", or the Council.
+    "bouleu/w": [("PIFAXY", "M", {"in council", "we shall agree", "to deliberate on, plan, devise", "to be determined",
+                                  "resolved on", "to give counsel", "to advise", "to be a member of Council",
+                                  "of the Council of"})],
     "pau/w": [("PIFAXY", "MEP", {
         "to make to cease", "to bring to an end, check, make an end of", "to make an end of, stop, abate",
         "to let", "rest", "to annul", "to put", "down", "to make to rest, stop, hinder, keep back from",
@@ -1443,6 +1478,8 @@ SPELLING = {
     "prwino/s": "prw/ios",          # "later form of πρώιος", and nothing more
     "e)cai/retos": "e)caireto/s",   # "ἐξαίρετος, ον, taken out", printed inside ἐξαιρετός's entry
     "katalimpa/nw": "katalei/pw",   # "= καταλείπω", and nothing more
+    "a(/lwn": "a(/lws",             # "= ἅλως found in the obl. cases", and nothing more
+    "kopeto/s": "kommo/s",          # "= κομμός", and nothing more
     "e)/sw": "ei)/sw",              # "older form of εἴσω"; its one translation is of the
                                     # comparative ἐσωτέρω, "to the interior" of Greece
     "gi/nomai": "gi/gnomai",
@@ -1686,6 +1723,9 @@ MARKUP_LOST = {
     "o)dou/s": [(0, "a tooth")],                 # "Lat. dens, dentis, a tooth"
     "le/wn": [(0, "a lion")],                   # "Lat. leo, a lion"
     "lu/kos": [(0, "a wolf")],                  # "Lat. lupus, a wolf"
+    # "like Lat. planctus (from plango), a beating of the breast in lamentation": the <tr> opens
+    # inside the Latin parenthesis and carries "plango)," with it.
+    "kommo/s1": [(1, "a beating of the breast in lamentation")],
     "kri/nw": [(0, "to separate, part, put asunder, distinguish")],  # "Lat. cerno, to separate, part, …"
     "mh/tra1": [(0, "the womb")],                # "Lat. matrix, the womb" — the whole entry
     "w)=mos": [(0, "the shoulder with the upper arm")],  # "Lat. humerus, the shoulder with the upper arm"
@@ -1760,6 +1800,7 @@ GREEK_LOST = {
     "a)fi/hmi": {"to let go as an": "to let go as an ἄφετος"},  # "to let go as an ἄφετος, consecrate"
     "katoike/w": {"to dwell in as a": "to dwell in as a κάτοικος"},  # "to dwell in as a κάτοικος, to settle in"
     "r(a/bdos": {"the wand borne by the": "the wand borne by the ῥαψῳδός"},  # "the wand borne by the ῥαψῳδός"
+    "e)piskoph/": {"the office of": "the office of ἐπίσκοπος"},  # "the office of ἐπίσκοπος, NTest."
 }
 
 # Translations a Greek word follows without finishing: the gloss is whole, and the Greek

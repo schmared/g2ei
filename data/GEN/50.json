@@ -1,0 +1,895 @@
+[
+  {
+    "ref": "GEN 50:1",
+    "greek": "Καὶ ἐπιπεσὼν Ιωσηφ ἐπὶ τὸ πρόσωπον τοῦ πατρὸς αὐτοῦ ἔκλαυσεν ἐπʼ αὐτὸν καὶ ἐφίλησεν αὐτόν.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 84",
+    "hint": "Joseph falls on his father's face, weeps over him, and kisses him.",
+    "notes": [
+      {
+        "lemma": "ἐφίλησεν",
+        "flag": null,
+        "text": "φιλέω, to love, regard with affection, for the Hebrew wayyiššaq, he kissed; Middle Liddell gives to kiss as a later sense, and the chain here is the one the corpus has held since 27:4."
+      }
+    ],
+    "reading": "and [[having fallen upon|having fallen upon, having attacked and assailed|ἐπιπίπτω]] [[name:Ιωσηφ]] [[upon|upon, on, in, at, near|ἐπί + accusative]] [[the face|the face and visage and countenance, the look, the mask, the outward appearance|πρόσωπον]] [[of the father|of the father, of the grandfather|πατήρ]] of him [[wept|wept, lamented, wailed, wept for|κλαίω]] [[upon|upon, on, in, at, near|ἐπί + accusative]] him and [[loved|loved, regarded with affection, felt affection, loved and cherished, treated affectionately and kindly and welcomed|φιλέω]] him.",
+    "names": [
+      {
+        "greek": "Ιωσηφ",
+        "unanchored": "Iōsēph",
+        "anchored": "Joseph",
+        "gloss": "(Ιωσηφ, from Hebrew Yôsēp̄, which the Hebrew of 30:24 hears in yōsēp̄, \"may he add\")"
+      }
+    ]
+  },
+  {
+    "ref": "GEN 50:2",
+    "greek": "καὶ προσέταξεν Ιωσηφ τοῖς παισὶν αὐτοῦ τοῖς ἐνταφιασταῖς ἐνταφιάσαι τὸν πατέρα αὐτοῦ, καὶ ἐνεταφίασαν οἱ ἐνταφιασταὶ τὸν Ισραηλ.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 84",
+    "hint": "Joseph orders his servants, the embalmers, to prepare Israel for burial, and they do.",
+    "notes": [
+      {
+        "lemma": "τοῖς ἐνταφιασταῖς",
+        "flag": "divergence",
+        "text": "Undertakers, embalmers, from ἐνταφιάζω, to prepare for burial: the Hebrew has hārōpĕʾîm, the physicians, whom the Greek names by the task."
+      },
+      {
+        "lemma": "ἐνταφιαστής",
+        "flag": null,
+        "text": "Not in Middle Liddell; LSJ gives one translation, undertaker, embalmer. ἐνταφιάζω has one, to prepare for burial, and is plain text."
+      }
+    ],
+    "reading": "and [[placed|placed, posted at, attached to and assigned to, assigned, appointed, gave as a command and prescribed and enjoined, commanded and ordered|προστάσσω]] [[name:Ιωσηφ]] [[to the children|to the children, to the sons, to the daughters, to the grandchildren, to the boys and youths and lads, to the girls and maidens, to the slaves and servants and men and maids|παῖς]] of him [[to the undertakers|to the undertakers and embalmers|ἐνταφιαστής]] to prepare for burial [[the father|the father, the grandfather|πατήρ]] of him, and prepared for burial [[the undertakers|the undertakers and embalmers|ἐνταφιαστής]] the [[name:Ισραηλ]].",
+    "names": [
+      {
+        "greek": "Ιωσηφ",
+        "unanchored": "Iōsēph",
+        "anchored": "Joseph",
+        "bare": true
+      },
+      {
+        "greek": "Ισραηλ",
+        "unanchored": "Israēl",
+        "anchored": "Israel",
+        "gloss": "(Ισραηλ, from Hebrew Yiśrāʾēl, which the Hebrew of 32:29 hears in śārâ ʿim ʾĕlōhîm, \"he strove with God\")"
+      }
+    ]
+  },
+  {
+    "ref": "GEN 50:3",
+    "greek": "καὶ ἐπλήρωσαν αὐτοῦ τεσσαράκοντα ἡμέρας· οὕτως γὰρ καταριθμοῦνται αἱ ἡμέραι τῆς ταφῆς. καὶ ἐπένθησεν αὐτὸν Αἴγυπτος ἑβδομήκοντα ἡμέρας.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 84",
+    "hint": "Forty days are given to the burial rites, and Egypt mourns Jacob for seventy.",
+    "notes": [
+      {
+        "lemma": "αἱ ἡμέραι τῆς ταφῆς",
+        "flag": "divergence",
+        "text": "The days of the burial: the Hebrew counts yĕmê haḥănuṭîm, the days of the embalming."
+      },
+      {
+        "lemma": "ἐπλήρωσαν αὐτοῦ",
+        "flag": null,
+        "text": "They fulfilled his forty days, the genitive of the one the days are for."
+      },
+      {
+        "lemma": "Αἴγυπτος",
+        "flag": null,
+        "text": "The land as subject: Egypt mourned him. The Hebrew has miṣrayim, Egypt, likewise."
+      }
+    ],
+    "reading": "and [[made full|made full, filled full of, filled full, gorged and satiated, glutted, filled with, manned, made complete, filled, fulfilled and paid in full and made up, came in full|πληρόω]] of him forty [[days|days, day-breaks, times|ἡμέρα]]; [[in this way|in this way, in this manner, so, thus, even so, so much|οὕτως]] [[for|for, since and as, for otherwise and else, now, but, why and what, would that|γάρ]] [[are counted|are counted, are reckoned among, are recounted in detail, recount and enumerate|καταριθμέω]] [[the days|the days, the day-breaks, the times|ἡμέρα]] [[of the burial|of the burial, of the mode of burial, of the payment for burial and burial-fee|ταφή]]. and [[bewailed|bewailed, lamented, mourned for|πενθέω]] him [[name:Αἴγυπτος]] seventy [[days|days, day-breaks, times|ἡμέρα]].",
+    "names": [
+      {
+        "greek": "Αἴγυπτος",
+        "unanchored": "Aigyptos",
+        "anchored": "Egypt",
+        "gloss": "(Αἴγυπτος, the Greek name of the land; Hebrew Miṣrayim)"
+      }
+    ]
+  },
+  {
+    "ref": "GEN 50:4",
+    "greek": "Ἐπειδὴ δὲ παρῆλθον αἱ ἡμέραι τοῦ πένθους, ἐλάλησεν Ιωσηφ πρὸς τοὺς δυνάστας Φαραω λέγων Εἰ εὗρον χάριν ἐναντίον ὑμῶν, λαλήσατε περὶ ἐμοῦ εἰς τὰ ὦτα Φαραω λέγοντες",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 84",
+    "hint": "When the days of mourning pass, Joseph asks Pharaoh's officials to speak to Pharaoh on his behalf.",
+    "notes": [
+      {
+        "lemma": "τοὺς δυνάστας Φαραω",
+        "flag": "divergence",
+        "text": "The lords of Pharaoh: the Hebrew has bêt parʿōh, the house of Pharaoh."
+      },
+      {
+        "lemma": "ἐναντίον ὑμῶν",
+        "flag": null,
+        "text": "Before you, for the Hebrew bĕʿênêkem, in your eyes."
+      }
+    ],
+    "reading": "[[after that|after that, after, since, when, from the time when and ever since, whenever, as soon as, seeing that, for, although, else and otherwise|ἐπειδή]] [[but|but, however, whereas, on the other hand|δέ]], [[went by|went by, went beside, went past, passed by, passed, outstripped, outwitted and escaped and eluded, arrived at, passed in, went into, passed without heeding, passed over and disregarded and slighted, overstepped and transgressed, passed unnoticed and escaped the notice of, came forward|παρέρχομαι]] [[the days|the days, the day-breaks, the times|ἡμέρα]] [[of the grief|of the grief and sadness and sorrow, of the mourning for, of the public mourning, of the misfortune|πένθος]], [[talked|talked, chatted, prattled, babbled, said, talked of, spoke, chattered, chirped|λαλέω]] [[name:Ιωσηφ]] [[toward|toward, facing, oriented to, in living motion and address toward|πρός + accusative]] [[the lords|the lords and masters and rulers|δυνάστης]] of [[name:Φαραω]] [[saying|saying, speaking, declaring, calling by name, telling|λέγω]] [[if|if, whether, come on|εἰ]] [[I found|I found, I found out, I discovered, I got and gained|εὑρίσκω]] [[outward grace|outward grace, favour, loveliness, graciousness and kindness and goodwill, thankfulness and thanks and gratitude, a favour and kindness and boon, a gratification and delight|χάρις]] [[in the presence of|in the presence of and before, opposite and face to face, against|ἐναντίον]] of you, [[talk|talk, chat, prattle, babble, say, talk of, speak, chatter, chirp|λαλέω]] [[round about|round about, around, about and near, about and for and on account of, about and concerning, for very|περί + genitive]] of me [[into|into, to, in, rest in|εἰς]] [[the ears|the ears, the handles|οὖς]] of [[name:Φαραω]] [[saying|saying, speaking, declaring, calling by name, telling|λέγω]]",
+    "names": [
+      {
+        "greek": "Ιωσηφ",
+        "unanchored": "Iōsēph",
+        "anchored": "Joseph",
+        "bare": true
+      },
+      {
+        "greek": "Φαραω",
+        "unanchored": "Pharaō",
+        "anchored": "Pharaoh",
+        "gloss": "(Φαραω, from Hebrew Parʿōh, from the Egyptian for \"great house\")"
+      }
+    ],
+    "speech": [
+      "Εἰ"
+    ]
+  },
+  {
+    "ref": "GEN 50:5",
+    "greek": "Ὁ πατήρ μου ὥρκισέν με λέγων Ἐν τῷ μνημείῳ, ᾧ ὤρυξα ἐμαυτῷ ἐν γῇ Χανααν, ἐκεῖ με θάψεις· νῦν οὖν ἀναβὰς θάψω τὸν πατέρα μου καὶ ἐπανελεύσομαι.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 84",
+    "hint": "Joseph's message: Jacob made him swear to bury him in the tomb he dug in Canaan, and Joseph will come back after.",
+    "notes": [
+      {
+        "lemma": "θάψω",
+        "flag": null,
+        "text": "Future or aorist subjunctive, one form; beside the future ἐπανελεύσομαι it is read as future."
+      },
+      {
+        "lemma": "ἐπανελεύσομαι",
+        "flag": null,
+        "text": "The future Middle Liddell gives ἐπανέρχομαι under ἐπάνειμι: I will come back."
+      },
+      {
+        "lemma": "ὥρκισέν",
+        "flag": null,
+        "text": "ὁρκίζω, to make swear: Middle Liddell's one translation, plain text."
+      }
+    ],
+    "reading": "[[the father|the father, the grandfather|πατήρ]] of me [[made swear|made swear|ὁρκίζω]] me [[saying|saying, speaking, declaring, calling by name, telling|λέγω]] [[in the memorial|within, inside of, and by means of the memorial, the remembrance, the record, the monument|ἐν; μνημεῖον]], to which [[I dug|I dug, I dug up, I dug through and made a canal through, I buried|ὀρύσσω]] to myself [[in earth|within, inside of, and by means of earth, land, ground|ἐν; γῆ]] of [[name:Χανααν]], [[there|there, in that place|ἐκεῖ]] me [[you will pay the last dues to a corpse|you will pay the last dues to a corpse and honour with funeral rites, you will bury and inter|θάπτω]]; [[now at this very time|now at this very time, now, of the present, the present time, just now and but now, as it is and as the case now stands, in this case|νῦν]] [[really|really, at all events, surely, so, then and therefore|οὖν]] [[having gone up|having gone up, having mounted, having ascended, having gone up to, having risen, having come up, having come to and arrived at, having gone up country, having gone aboard|ἀναβαίνω]] [[I will pay the last dues to a corpse|I will pay the last dues to a corpse and honour with funeral rites, I will bury and inter|θάπτω]] [[the father|the father, the grandfather|πατήρ]] of me and [[I will go back|I will go back and return, I will return to, I will recapitulate, I will go up and ascend, I will go up, I will pass|ἐπανέρχομαι]].",
+    "names": [
+      {
+        "greek": "Χανααν",
+        "unanchored": "Chanaan",
+        "anchored": "Canaan",
+        "gloss": "(Χανααν, from Hebrew Kĕnaʿan, of uncertain meaning)"
+      }
+    ],
+    "speech": [
+      "Ἐν"
+    ]
+  },
+  {
+    "ref": "GEN 50:6",
+    "greek": "καὶ εἶπεν Φαραω Ἀνάβηθι, θάψον τὸν πατέρα σου, καθάπερ ὥρκισέν σε.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 84",
+    "hint": "Pharaoh tells Joseph to go up and bury his father as he swore.",
+    "notes": [
+      {
+        "lemma": "Ἀνάβηθι, θάψον",
+        "flag": null,
+        "text": "Two aorist imperatives without a joining word."
+      }
+    ],
+    "reading": "and [[said|said, spoke, declared, called by name, told|λέγω]] [[name:Φαραω]] [[go up|go up, mount, ascend, go up to, rise, come up, come to and arrive at, go up country, go aboard|ἀναβαίνω]], [[pay the last dues to a corpse|pay the last dues to a corpse and honour with funeral rites, bury and inter|θάπτω]] [[the father|the father, the grandfather|πατήρ]] of you, [[according as|according as and just as, like as if and exactly as|καθάπερ]] [[made swear|made swear|ὁρκίζω]] you.",
+    "names": [
+      {
+        "greek": "Φαραω",
+        "unanchored": "Pharaō",
+        "anchored": "Pharaoh",
+        "bare": true
+      }
+    ],
+    "speech": [
+      "Ἀνάβηθι"
+    ]
+  },
+  {
+    "ref": "GEN 50:7",
+    "greek": "καὶ ἀνέβη Ιωσηφ θάψαι τὸν πατέρα αὐτοῦ, καὶ συνανέβησαν μετʼ αὐτοῦ πάντες οἱ παῖδες Φαραω καὶ οἱ πρεσβύτεροι τοῦ οἴκου αὐτοῦ καὶ πάντες οἱ πρεσβύτεροι τῆς γῆς Αἰγύπτου",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 84",
+    "hint": "Joseph goes up, and Pharaoh's servants and the elders of his house and of all Egypt go up with him.",
+    "notes": [
+      {
+        "lemma": "συνανέβησαν",
+        "flag": null,
+        "text": "συναναβαίνω, to go up with: Middle Liddell's one translation once its piece *or together* is set aside. A unit here only because ἀνέβη's unit in the verse heads with went up, as ὁρκίζω at 24:37; plain text at 50:9."
+      },
+      {
+        "lemma": "οἱ πρεσβύτεροι",
+        "flag": null,
+        "text": "The comparative of πρέσβυς used as a noun: the elders."
+      }
+    ],
+    "reading": "and [[went up|went up, mounted, ascended, went up to, rose, came up, came to and arrived at, went up country, went aboard|ἀναβαίνω]] [[name:Ιωσηφ]] [[to pay the last dues to a corpse|to pay the last dues to a corpse and honour with funeral rites, to bury and inter|θάπτω]] [[the father|the father, the grandfather|πατήρ]] of him, and [[went up with|went up with|συναναβαίνω]] [[in the midst of|in the midst of, among, in common, along with, with, by means of|μετά + genitive]] of him [[all|all, the whole, every, every single|πᾶς]] [[the children|the children, the sons, the daughters, the grandchildren, the boys and youths and lads, the girls and maidens, the slaves and servants and men and maids|παῖς]] of [[name:Φαραω]] and [[the elders|the elders, the older, the higher and more important, the greater than, the elders of the Jewish Council, the elders of the Church and presbyters|πρεσβύτερος]] [[of the house|of the house and abode and dwelling, of the room and chamber, of the house of a god and temple, of the household goods and substance, of the household and family|οἶκος]] of him and [[all|all, the whole, every, every single|πᾶς]] [[the elders|the elders, the older, the higher and more important, the greater than, the elders of the Jewish Council, the elders of the Church and presbyters|πρεσβύτερος]] [[of the earth|of the earth, of the land, of the ground|γῆ]] of [[name:Αἰγύπτου]]",
+    "names": [
+      {
+        "greek": "Ιωσηφ",
+        "unanchored": "Iōsēph",
+        "anchored": "Joseph",
+        "bare": true
+      },
+      {
+        "greek": "Φαραω",
+        "unanchored": "Pharaō",
+        "anchored": "Pharaoh",
+        "bare": true
+      },
+      {
+        "greek": "Αἰγύπτου",
+        "unanchored": "Aigyptou",
+        "anchored": "Egypt",
+        "bare": true
+      }
+    ]
+  },
+  {
+    "ref": "GEN 50:8",
+    "greek": "καὶ πᾶσα ἡ πανοικία Ιωσηφ καὶ οἱ ἀδελφοὶ αὐτοῦ καὶ πᾶσα ἡ οἰκία ἡ πατρικὴ αὐτοῦ, καὶ τὴν συγγένειαν καὶ τὰ πρόβατα καὶ τοὺς βόας ὑπελίποντο ἐν γῇ Γεσεμ.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 85",
+    "hint": "Joseph's household and brothers go too; the kindred, the flocks and the herds stay behind in Goshen.",
+    "notes": [
+      {
+        "lemma": "πανοικία",
+        "flag": null,
+        "text": "Not in Middle Liddell; LSJ, whole household, one translation: plain text."
+      },
+      {
+        "lemma": "τὴν συγγένειαν",
+        "flag": "divergence",
+        "text": "The kindred are left behind with the flocks and herds; the Hebrew has ṭappām, their little ones."
+      },
+      {
+        "lemma": "ὑπελίποντο",
+        "flag": null,
+        "text": "Aorist middle of ὑπολείπω: they left behind for themselves."
+      }
+    ],
+    "reading": "and [[all|all, the whole, every, every single|πᾶς]] the whole household of [[name:Ιωσηφ]] and [[the sons of the same mother|the sons of the same mother, the brothers, the near kinsmen|ἀδελφός]] of him and [[all|all, the whole, every, every single|πᾶς]] [[the building|the building, the house, the dwelling, the household and domestic establishment, the household and inmates of the house, the house and family from which one is descended|οἰκία]] [[the derived from one's fathers|the derived from one's fathers and paternal and hereditary, the belonging to one's father, the patrimony, the like a father and paternal|πατρικός]] of him, and [[the sameness of descent|the sameness of descent, the family and relationship and kin, the ties of kindred and family connexion and influence, the kinsfolk and kinsmen, the families|συγγένεια]] and [[the things that walk forward|the things that walk forward, the cattle, the flocks and herds, the horses, the small cattle, the sheep|πρόβατον]] and [[the bullocks|the bullocks and bulls and oxen, the cows, the oxen, the kine and cattle, the ox-hide shields|βοῦς]] [[they left remaining for themselves|they left remaining for themselves, they left behind for themselves, they reserved for themselves|ὑπολείπω]] [[in earth|within, inside of, and by means of earth, land, ground|ἐν; γῆ]] of [[name:Γεσεμ]].",
+    "names": [
+      {
+        "greek": "Ιωσηφ",
+        "unanchored": "Iōsēph",
+        "anchored": "Joseph",
+        "bare": true
+      },
+      {
+        "greek": "Γεσεμ",
+        "unanchored": "Gesem",
+        "anchored": "Goshen",
+        "gloss": "(Γεσεμ, from Hebrew Gōšen, of uncertain meaning)"
+      }
+    ]
+  },
+  {
+    "ref": "GEN 50:9",
+    "greek": "καὶ συνανέβησαν μετʼ αὐτοῦ καὶ ἅρματα καὶ ἱππεῖς, καὶ ἐγένετο ἡ παρεμβολὴ μεγάλη σφόδρα.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 85",
+    "hint": "Chariots and horsemen go up with Joseph, and the company is very large.",
+    "notes": [
+      {
+        "lemma": "ἡ παρεμβολή",
+        "flag": null,
+        "text": "παρεμβολή, an insertion, then an encampment: the company on the march, for the Hebrew hammaḥăneh, the camp."
+      }
+    ],
+    "reading": "and went up with [[in the midst of|in the midst of, among, in common, along with, with, by means of|μετά + genitive]] of him and [[chariots|chariots, war-chariots, chariots and horses and yoked chariots, teams and horses|ἅρμα]] and [[horsemen|horsemen, charioteers, heroes who fight from a chariot, riders, horsemen or knights, the king's body guard|ἱππεύς]], and [[came into being|came to be, arose, was brought into existence|γίνομαι]] [[the insertion|the insertion and interpolation, the encampment and fortress|παρεμβολή]] [[big|big, great, tall, full-grown, vast and high, spacious and wide, strong and mighty, violent, loud, prevailing, weighty and important|μέγας]] [[very|very and very much and exceedingly and violently, far, most certainly|σφόδρα]].",
+    "names": []
+  },
+  {
+    "ref": "GEN 50:10",
+    "greek": "καὶ παρεγένοντο ἐφʼ ἅλωνα Αταδ, ὅ ἐστιν πέραν τοῦ Ιορδάνου, καὶ ἐκόψαντο αὐτὸν κοπετὸν μέγαν καὶ ἰσχυρὸν σφόδρα· καὶ ἐποίησεν τὸ πένθος τῷ πατρὶ αὐτοῦ ἑπτὰ ἡμέρας.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 85",
+    "hint": "At the threshing floor of Atad beyond the Jordan they lament loudly, and Joseph holds seven days of mourning.",
+    "notes": [
+      {
+        "lemma": "ἅλωνα",
+        "flag": null,
+        "text": "Middle Liddell files ἅλων as ἅλως in the oblique cases: a threshing-floor, and from its round shape the disk of sun, moon or shield."
+      },
+      {
+        "lemma": "ἐκόψαντο … κοπετόν",
+        "flag": null,
+        "text": "Verb and noun from one root, κόπτω, to strike: they beat their breasts with a beating. Middle Liddell gives κοπετός only as = κομμός."
+      },
+      {
+        "lemma": "ἐποίησεν τὸ πένθος",
+        "flag": null,
+        "text": "He made the mourning, singular: Joseph. The Hebrew has wayyaʿaś lĕʾābîw ʾēbel, likewise."
+      }
+    ],
+    "reading": "and [[were near|were near and attended upon, were present at, came to one's side and came to aid and stood by and seconded and supported, were at hand and were gained and accrued, came to, arrived and came up, came to maturity, were fully grown|παραγίνομαι]] [[upon|upon, on, in, at, near|ἐπί + accusative]] [[a threshing-floor|a threshing-floor, disk|ἅλων]] of [[name:Αταδ]], which is [[on the other side|on the other side and across and beyond, on the other side, over, across, over against and opposite, beyond|πέραν]] of the [[name:Ιορδάνου]], and [[beat their breasts|beat their breasts, mourned for|κόπτω]] him [[a striking|a striking, a beating of the breast in lamentation, a wild lament|κοπετός]] [[big|big, great, tall, full-grown, vast and high, spacious and wide, strong and mighty, violent, loud, prevailing, weighty and important|μέγας]] and [[strong|strong and mighty, hard, obstinate and stiff and stubborn and inveterate and excessive and severe|ἰσχυρός]] [[very|very and very much and exceedingly and violently, far, most certainly|σφόδρα]]; and [[made|made, did, produced, created|ποιέω]] [[the grief|the grief and sadness and sorrow, the mourning for, the public mourning, the misfortune|πένθος]] [[to the father|to the father, to the grandfather|πατήρ]] of him seven [[days|days, day-breaks, times|ἡμέρα]].",
+    "names": [
+      {
+        "greek": "Αταδ",
+        "unanchored": "Atad",
+        "anchored": "Atad",
+        "gloss": "(Αταδ, from Hebrew ʾĀṭād, \"bramble, thornbush\")"
+      },
+      {
+        "greek": "Ιορδάνου",
+        "unanchored": "Iordanou",
+        "anchored": "Jordan",
+        "gloss": "(Ἰορδάνης, from Hebrew Yardēn, usually connected with yārad, \"to go down\")"
+      }
+    ]
+  },
+  {
+    "ref": "GEN 50:11",
+    "greek": "καὶ εἶδον οἱ κάτοικοι τῆς γῆς Χανααν τὸ πένθος ἐν ἅλωνι Αταδ καὶ εἶπαν Πένθος μέγα τοῦτό ἐστιν τοῖς Αἰγυπτίοις· διὰ τοῦτο ἐκάλεσεν τὸ ὄνομα αὐτοῦ Πένθος Αἰγύπτου, ὅ ἐστιν πέραν τοῦ Ιορδάνου.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 85",
+    "hint": "The Canaanites see the mourning and name the place for it; the Greek translates the Hebrew name Abel-mizraim.",
+    "notes": [
+      {
+        "lemma": "Πένθος Αἰγύπτου",
+        "flag": "divergence",
+        "text": "Mourning of Egypt: the Greek translates the name. The Hebrew is ʾĀbēl Miṣrayim, which it hears in ʾēbel, mourning."
+      },
+      {
+        "lemma": "Πένθος … Πένθος",
+        "flag": null,
+        "text": "The first is the common noun, capitalised as the start of speech; the second is the name, capitalised as Rahlfs prints it."
+      },
+      {
+        "lemma": "οἱ κάτοικοι",
+        "flag": null,
+        "text": "κάτοικος, Middle Liddell's one translation, a settler: plain text."
+      }
+    ],
+    "reading": "and [[saw|saw, perceived, beheld, looked at|ὁράω]] the settlers [[of the earth|of the earth, of the land, of the ground|γῆ]] of [[name:Χανααν]] [[the grief|the grief and sadness and sorrow, the mourning for, the public mourning, the misfortune|πένθος]] [[in a threshing-floor|within, inside of, and by means of a threshing-floor, disk|ἐν; ἅλων]] of [[name:Αταδ]] and [[said|said, spoke, declared, called by name, told|λέγω]] [[grief|grief and sadness and sorrow, mourning for, a public mourning, a misfortune|πένθος]] [[big|big, great, tall, full-grown, vast and high, spacious and wide, strong and mighty, violent, loud, prevailing, weighty and important|μέγας]] [[this|this, the nearer, what follows|οὗτος]] is to the [[name:Αἰγυπτίοις]]; [[through|through, throughout and over, during, by aid of and by means of, by reason of, because of, for the sake of|διά + accusative]] [[this|this, the nearer, what follows|οὗτος]] [[called|called, summoned, called to himself, invited|καλέω]] [[the name|the name, the fame, the mere name, the phrase and expression|ὄνομα]] of him [[name:Πένθος]] of [[name:Αἰγύπτου]], which is [[on the other side|on the other side and across and beyond, on the other side, over, across, over against and opposite, beyond|πέραν]] of the [[name:Ιορδάνου]].",
+    "names": [
+      {
+        "greek": "Χανααν",
+        "unanchored": "Chanaan",
+        "anchored": "Canaan",
+        "bare": true
+      },
+      {
+        "greek": "Αταδ",
+        "unanchored": "Atad",
+        "anchored": "Atad",
+        "bare": true
+      },
+      {
+        "greek": "Αἰγυπτίοις",
+        "unanchored": "Aigyptiois",
+        "anchored": "Egyptians",
+        "gloss": "(Αἰγύπτιος, the man of Αἴγυπτος, Egypt)"
+      },
+      {
+        "greek": "Πένθος",
+        "unanchored": "Penthos",
+        "anchored": "Mourning",
+        "gloss": "(Πένθος Αἰγύπτου, \"mourning of Egypt\", the Greek of Hebrew ʾĀbēl Miṣrayim, which the Hebrew hears in ʾēbel, \"mourning\")"
+      },
+      {
+        "greek": "Αἰγύπτου",
+        "unanchored": "Aigyptou",
+        "anchored": "Egypt",
+        "bare": true
+      },
+      {
+        "greek": "Ιορδάνου",
+        "unanchored": "Iordanou",
+        "anchored": "Jordan",
+        "bare": true
+      }
+    ],
+    "speech": [
+      "Πένθος"
+    ]
+  },
+  {
+    "ref": "GEN 50:12",
+    "greek": "καὶ ἐποίησαν αὐτῷ οὕτως οἱ υἱοὶ αὐτοῦ καὶ ἔθαψαν αὐτὸν ἐκεῖ.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 85",
+    "hint": "Jacob's sons do so for him and bury him there; the Hebrew has his command where the Greek has the burial.",
+    "notes": [
+      {
+        "lemma": "καὶ ἔθαψαν αὐτὸν ἐκεῖ",
+        "flag": "divergence",
+        "text": "And they buried him there: the Hebrew has instead kaʾăšer ṣiwwām, as he commanded them."
+      }
+    ],
+    "reading": "and [[made|made, did, produced, created|ποιέω]] to him [[in this way|in this way, in this manner, so, thus, even so, so much|οὕτως]] the sons of him and [[paid the last dues to a corpse|paid the last dues to a corpse and honoured with funeral rites, buried and interred|θάπτω]] him [[there|there, in that place|ἐκεῖ]].",
+    "names": []
+  },
+  {
+    "ref": "GEN 50:13",
+    "greek": "καὶ ἀνέλαβον αὐτὸν οἱ υἱοὶ αὐτοῦ εἰς γῆν Χανααν καὶ ἔθαψαν αὐτὸν εἰς τὸ σπήλαιον τὸ διπλοῦν, ὃ ἐκτήσατο Αβρααμ τὸ σπήλαιον ἐν κτήσει μνημείου παρὰ Εφρων τοῦ Χετταίου κατέναντι Μαμβρη.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 85",
+    "hint": "They carry him to Canaan and bury him in the double cave facing Mamre that Abraham bought from Ephron.",
+    "notes": [
+      {
+        "lemma": "τὸ σπήλαιον τὸ διπλοῦν",
+        "flag": "divergence",
+        "text": "The double cave, for the Hebrew mĕʿārat hammakpēlâ, the cave of Machpelah, as at 23:9."
+      },
+      {
+        "lemma": "ὃ ἐκτήσατο Αβρααμ τὸ σπήλαιον",
+        "flag": null,
+        "text": "The relative and then the noun again: which Abraham acquired, the cave."
+      }
+    ],
+    "reading": "and [[took up|took up, took into one's hands, took on board ship, took with one, took upon themselves and assumed, learned by rote, got back and regained and recovered, retrieved and made good, restored and repaired and regained strength and revived, took up again and resumed and recollected, pulled short up and checked and called back, gained quite over and won over|ἀναλαμβάνω]] him the sons of him [[into|into, to, in, rest in|εἰς]] [[earth|earth, land, ground|γῆ]] of [[name:Χανααν]] and [[paid the last dues to a corpse|paid the last dues to a corpse and honoured with funeral rites, buried and interred|θάπτω]] him [[into|into, to, in, rest in|εἰς]] [[the grotto|the grotto and cave and cavern|σπήλαιον]] [[the twofold|the twofold and double, the double-minded and treacherous|διπλοῦς]], which [[procured for himself|procured for himself, got, gained, acquired, brought upon himself and incurred, procured for another|κτάομαι]] [[name:Αβρααμ]] [[the grotto|the grotto and cave and cavern|σπήλαιον]] [[in acquisition|within, inside of, and by means of acquisition, possession, possessions and property|ἐν; κτῆσις]] [[of memorial|of memorial, of remembrance, of record, of monument|μνημεῖον]] [[from the side of|from the side of, from beside, from, near|παρά + genitive]] of [[name:Εφρων]] of the [[name:Χετταίου]] [[over against|over against and opposite and before|κατέναντι]] of [[name:Μαμβρη]].",
+    "names": [
+      {
+        "greek": "Χανααν",
+        "unanchored": "Chanaan",
+        "anchored": "Canaan",
+        "bare": true
+      },
+      {
+        "greek": "Αβρααμ",
+        "unanchored": "Abraam",
+        "anchored": "Abraham",
+        "gloss": "(Αβρααμ, from Hebrew ʾAbrāhām, which the Hebrew of 17:5 hears in ʾab hămôn gôyim, \"father of a multitude of nations\")"
+      },
+      {
+        "greek": "Εφρων",
+        "unanchored": "Ephrōn",
+        "anchored": "Ephron",
+        "gloss": "(Εφρων, from Hebrew ʿEprôn, of uncertain meaning)"
+      },
+      {
+        "greek": "Χετταίου",
+        "unanchored": "Chettaiou",
+        "anchored": "Hittite",
+        "gloss": "(Χετταῖος, the man of Χετ, Heth; Hebrew Ḥittî)"
+      },
+      {
+        "greek": "Μαμβρη",
+        "unanchored": "Mambrē",
+        "anchored": "Mamre",
+        "gloss": "(Μαμβρη, from Hebrew Mamrēʾ, of uncertain meaning)"
+      }
+    ]
+  },
+  {
+    "ref": "GEN 50:14",
+    "greek": "καὶ ἀπέστρεψεν Ιωσηφ εἰς Αἴγυπτον, αὐτὸς καὶ οἱ ἀδελφοὶ αὐτοῦ καὶ οἱ συναναβάντες θάψαι τὸν πατέρα αὐτοῦ.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 85",
+    "hint": "Joseph returns to Egypt with his brothers and all who went up to the burial.",
+    "notes": [
+      {
+        "lemma": "ἀπέστρεψεν",
+        "flag": null,
+        "text": "ἀποστρέφω, to turn back, used without object: he returned."
+      }
+    ],
+    "reading": "and [[turned|turned, turned back, turned away, turned himself about, brought back|ἀποστρέφω]] [[name:Ιωσηφ]] [[into|into, to, in, rest in|εἰς]] [[name:Αἴγυπτον]], he and [[the sons of the same mother|the sons of the same mother, the brothers, the near kinsmen|ἀδελφός]] of him and the ones having gone up with [[to pay the last dues to a corpse|to pay the last dues to a corpse and honour with funeral rites, to bury and inter|θάπτω]] [[the father|the father, the grandfather|πατήρ]] of him.",
+    "names": [
+      {
+        "greek": "Ιωσηφ",
+        "unanchored": "Iōsēph",
+        "anchored": "Joseph",
+        "bare": true
+      },
+      {
+        "greek": "Αἴγυπτον",
+        "unanchored": "Aigypton",
+        "anchored": "Egypt",
+        "bare": true
+      }
+    ]
+  },
+  {
+    "ref": "GEN 50:15",
+    "greek": "Ἰδόντες δὲ οἱ ἀδελφοὶ Ιωσηφ ὅτι τέθνηκεν ὁ πατὴρ αὐτῶν, εἶπαν Μήποτε μνησικακήσῃ ἡμῖν Ιωσηφ καὶ ἀνταπόδομα ἀνταποδῷ ἡμῖν πάντα τὰ κακά, ἃ ἐνεδειξάμεθα αὐτῷ.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 85",
+    "hint": "With their father dead, the brothers fear that Joseph will now repay them for the wrong they did him.",
+    "notes": [
+      {
+        "lemma": "τέθνηκεν",
+        "flag": null,
+        "text": "Perfect of θνήσκω, which Middle Liddell gives in the perfect as to be dead: the state, not the event."
+      },
+      {
+        "lemma": "Μήποτε μνησικακήσῃ",
+        "flag": "divergence",
+        "text": "μήποτε with the aorist subjunctive, a fear: lest Joseph remember the wrongs. The Hebrew has lû yiśṭĕmēnû, if Joseph should hate us."
+      },
+      {
+        "lemma": "ἀνταπόδομα ἀνταποδῷ",
+        "flag": null,
+        "text": "Noun and verb from one root, for the Hebrew infinitive absolute hāšēb yāšîb."
+      },
+      {
+        "lemma": "ἐνεδειξάμεθα",
+        "flag": null,
+        "text": "Aorist middle of ἐνδείκνυμι: the middle's senses, and to inform against, which Middle Liddell gives so in Mid."
+      }
+    ],
+    "reading": "[[having seen|having seen, having perceived, having beheld, having looked at|ὁράω]] [[but|but, however, whereas, on the other hand|δέ]], [[the sons of the same mother|the sons of the same mother, the brothers, the near kinsmen|ἀδελφός]] of [[name:Ιωσηφ]] [[that|that, seeing that, although, for that, because, inasmuch as|ὅτι]] [[is dead|is dead, has died and perished and it stands so|θνήσκω]] [[the father|the father, the grandfather|πατήρ]] of them, [[said|said, spoke, declared, called by name, told|λέγω]] [[that at no time|that at no time and lest ever, never and on no account, perhaps|μήποτε]] [[may remember wrongs done one|may remember wrongs done one and remember past injuries|μνησικακέω]] to us [[name:Ιωσηφ]] and [[repayment|repayment and requital|ἀνταπόδομα]] [[may give back|may give back and repay and tender in repayment or requital, may make a return, may make correspondent, may answer to and correspond with, may give back words and answer, may deliver in turn|ἀνταποδίδωμι]] to us [[all|all, the whole, every, every single|πᾶς]] [[the evils|the evils, the ills, the evil words and reproaches|κακός]], which [[we informed against|we informed against, we shewed forth ourselves, we shewed and gave proof, we displayed and exhibited, we displayed ourselves to, we made a set at, we courted|ἐνδείκνυμι]] to him.",
+    "names": [
+      {
+        "greek": "Ιωσηφ",
+        "unanchored": "Iōsēph",
+        "anchored": "Joseph",
+        "bare": true
+      }
+    ],
+    "speech": [
+      "Μήποτε"
+    ]
+  },
+  {
+    "ref": "GEN 50:16",
+    "greek": "καὶ παρεγένοντο πρὸς Ιωσηφ λέγοντες Ὁ πατήρ σου ὥρκισεν πρὸ τοῦ τελευτῆσαι αὐτὸν λέγων",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 85",
+    "hint": "The brothers come to Joseph, saying their father put them under oath before he died.",
+    "notes": [
+      {
+        "lemma": "παρεγένοντο πρὸς Ιωσηφ",
+        "flag": "divergence",
+        "text": "They came to Joseph: the Hebrew has wayṣawwû, they sent a command to Joseph."
+      },
+      {
+        "lemma": "ὥρκισεν",
+        "flag": "divergence",
+        "text": "He made swear, with no object: the Hebrew has ṣiwwâ, he commanded."
+      },
+      {
+        "lemma": "πρὸ τοῦ τελευτῆσαι αὐτόν",
+        "flag": null,
+        "text": "πρό with the articular infinitive and its subject in the accusative: before his ending."
+      }
+    ],
+    "reading": "and [[were near|were near and attended upon, were present at, came to one's side and came to aid and stood by and seconded and supported, were at hand and were gained and accrued, came to, arrived and came up, came to maturity, were fully grown|παραγίνομαι]] [[toward|toward, facing, oriented to, in living motion and address toward|πρός + accusative]] [[name:Ιωσηφ]] [[saying|saying, speaking, declaring, calling by name, telling|λέγω]] [[the father|the father, the grandfather|πατήρ]] of you [[made swear|made swear|ὁρκίζω]] [[before|before, in front of, further on, sooner, rather than|πρό]] [[of the completing|of the completing, of the finishing, of the accomplishing, of the fulfilling, of the bringing about, of the bringing to an end, of the making an end of, of the ending life and dying, of the coming to an end|τελευτάω]] him [[saying|saying, speaking, declaring, calling by name, telling|λέγω]]",
+    "names": [
+      {
+        "greek": "Ιωσηφ",
+        "unanchored": "Iōsēph",
+        "anchored": "Joseph",
+        "bare": true
+      }
+    ],
+    "speech": [
+      "Ὁ"
+    ]
+  },
+  {
+    "ref": "GEN 50:17",
+    "greek": "Οὕτως εἴπατε Ιωσηφ Ἄφες αὐτοῖς τὴν ἀδικίαν καὶ τὴν ἁμαρτίαν αὐτῶν, ὅτι πονηρά σοι ἐνεδείξαντο· καὶ νῦν δέξαι τὴν ἀδικίαν τῶν θεραπόντων τοῦ θεοῦ τοῦ πατρός σου. καὶ ἔκλαυσεν Ιωσηφ λαλούντων αὐτῶν πρὸς αὐτόν.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 85",
+    "hint": "The message asks Joseph to forgive the brothers, servants of his father's God; Joseph weeps as they speak.",
+    "notes": [
+      {
+        "lemma": "Ἄφες",
+        "flag": null,
+        "text": "ἀφίημι, to send away, let go: of a wrong, to let it go."
+      },
+      {
+        "lemma": "δέξαι τὴν ἀδικίαν",
+        "flag": "divergence",
+        "text": "Receive the wrong: the Hebrew has śāʾ nāʾ lĕp̄ešaʿ, lift up the transgression."
+      },
+      {
+        "lemma": "λαλούντων αὐτῶν",
+        "flag": null,
+        "text": "A genitive absolute: while they were speaking."
+      }
+    ],
+    "reading": "[[in this way|in this way, in this manner, so, thus, even so, so much|οὕτως]] [[say|say, speak, declare, call by name, tell|λέγω]] to [[name:Ιωσηφ]] [[send forth|send forth, discharge, let go and loose and set free, let go as an aphetos (ἄφετος) and consecrate, let alone and leave, give up and hand over, permit and allow|ἀφίημι]] to them [[the wrong-doing|the wrong-doing and injustice, the wrong and injury|ἀδικία]] and [[the failure|the failure and fault and sin, the guilt and sin|ἁμαρτία]] of them, [[that|that, seeing that, although, for that, because, inasmuch as|ὅτι]] [[toilsome|toilsome and painful and grievous, good-for-nothing, bad and worthless, wicked|πονηρός]] to you [[informed against|informed against, shewed forth themselves, shewed and gave proof, displayed and exhibited, displayed themselves to, made a set at, courted|ἐνδείκνυμι]]; and [[now at this very time|now at this very time, now, of the present, the present time, just now and but now, as it is and as the case now stands, in this case|νῦν]] [[take|take, accept, receive, receive in exchange for, take rather and choose|δέχομαι]] [[the wrong-doing|the wrong-doing and injustice, the wrong and injury|ἀδικία]] [[of the waiting-men|of the waiting-men and attendants, of the companions in arms, of the servants|θεράπων]] [[of the God|of him who is God definitively, of the one the article marks out, of the known and the only|θεός]] [[of the father|of the father, of the grandfather|πατήρ]] of you. and [[wept|wept, lamented, wailed, wept for|κλαίω]] [[name:Ιωσηφ]] [[of talking|of talking, of chatting, of prattling, of babbling, of saying, of talking of, of speaking, of chattering, of chirping|λαλέω]] of them [[toward|toward, facing, oriented to, in living motion and address toward|πρός + accusative]] him.",
+    "names": [
+      {
+        "greek": "Ιωσηφ",
+        "unanchored": "Iōsēph",
+        "anchored": "Joseph",
+        "bare": true
+      }
+    ],
+    "speech": [
+      "Ἄφες"
+    ]
+  },
+  {
+    "ref": "GEN 50:18",
+    "greek": "καὶ ἐλθόντες πρὸς αὐτὸν εἶπαν Οἵδε ἡμεῖς σοι οἰκέται.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 85",
+    "hint": "The brothers come and offer themselves to Joseph as his household slaves.",
+    "notes": [
+      {
+        "lemma": "ἐλθόντες πρὸς αὐτόν",
+        "flag": "divergence",
+        "text": "Having come to him: the Hebrew adds wayyippĕlû lĕpānāyw, they fell before him."
+      },
+      {
+        "lemma": "Οἵδε ἡμεῖς",
+        "flag": null,
+        "text": "ὅδε pointing at the speakers themselves: here we are, for the Hebrew hinnennû."
+      }
+    ],
+    "reading": "and [[having come|having come, having gone, having gone back and returned, having been going to and intended, having come within a little of and been near|ἔρχομαι]] [[toward|toward, facing, oriented to, in living motion and address toward|πρός + accusative]] him [[said|said, spoke, declared, called by name, told|λέγω]] [[these|these, the immediate present, here and on the spot, thus, hither and to this spot, therefore and on this account|ὅδε]] we to you [[house-slaves|house-slaves, household servants, menials|οἰκέτης]].",
+    "names": [],
+    "speech": [
+      "Οἵδε"
+    ]
+  },
+  {
+    "ref": "GEN 50:19",
+    "greek": "καὶ εἶπεν αὐτοῖς Ιωσηφ Μὴ φοβεῖσθε· τοῦ γὰρ θεοῦ εἰμι ἐγώ.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 85",
+    "hint": "Joseph tells them not to fear, for he belongs to God; the Hebrew asks whether he stands in God's place.",
+    "notes": [
+      {
+        "lemma": "τοῦ γὰρ θεοῦ εἰμι ἐγώ",
+        "flag": "divergence",
+        "text": "For I am God's: the genitive of belonging. The Hebrew asks hătaḥat ʾĕlōhîm ʾānî, am I in the place of God?"
+      },
+      {
+        "lemma": "Μὴ φοβεῖσθε",
+        "flag": null,
+        "text": "μή with the present imperative: stop fearing."
+      }
+    ],
+    "reading": "and [[said|said, spoke, declared, called by name, told|λέγω]] to them [[name:Ιωσηφ]] [[not|not, that not, perhaps, surely not and you don't mean to say that|μή]] [[be put to flight|be put to flight, flee affrighted, flee, be seized with fear, be affrighted, fear|φοβέομαι]]; [[for|for, since and as, for otherwise and else, now, but, why and what, would that|γάρ]], [[of the God|of him who is God definitively, of the one the article marks out, of the known and the only|θεός]] am I.",
+    "names": [
+      {
+        "greek": "Ιωσηφ",
+        "unanchored": "Iōsēph",
+        "anchored": "Joseph",
+        "bare": true
+      }
+    ],
+    "speech": [
+      "Μὴ"
+    ]
+  },
+  {
+    "ref": "GEN 50:20",
+    "greek": "ὑμεῖς ἐβουλεύσασθε κατʼ ἐμοῦ εἰς πονηρά, ὁ δὲ θεὸς ἐβουλεύσατο περὶ ἐμοῦ εἰς ἀγαθά, ὅπως ἂν γενηθῇ ὡς σήμερον, ἵνα διατραφῇ λαὸς πολύς.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 85",
+    "hint": "Joseph says they planned evil against him and God planned good, so that a great people might be kept alive.",
+    "notes": [
+      {
+        "lemma": "ἐβουλεύσασθε … ἐβουλεύσατο",
+        "flag": null,
+        "text": "One verb for both, in the middle, to take counsel: against me for evil, about me for good. The Hebrew has ḥăšabtem and ḥăšābāh, you reckoned, he reckoned."
+      },
+      {
+        "lemma": "ὅπως ἂν γενηθῇ",
+        "flag": null,
+        "text": "ὅπως ἄν with the subjunctive, purpose: that it may come about as today."
+      },
+      {
+        "lemma": "διατραφῇ",
+        "flag": null,
+        "text": "διατρέφω, Middle Liddell's one translation, to sustain continually: plain text. The Hebrew is lĕhaḥăyōt, to keep alive."
+      }
+    ],
+    "reading": "you [[you took counsel|you took counsel and deliberated and concerted measures, you had considered, you determined and resolved, you resolved, you took counsel with yourselves and deliberated, you determined with yourselves and resolved on|βουλεύω]] [[down|down, downwards, down from, down upon, over, upon|κατά + genitive]] of me [[into|into, to, in, rest in|εἰς]] [[toilsome|toilsome and painful and grievous, good-for-nothing, bad and worthless, wicked|πονηρός]], [[but|but, however, whereas, on the other hand|δέ]], [[the God|he who is God definitively, the one the article marks out, the known and the only|θεός]] [[took counsel|took counsel and deliberated and concerted measures, had considered, determined and resolved, resolved, took counsel with himself and deliberated, determined with himself and resolved on|βουλεύω]] [[round about|round about, around, about and near, about and for and on account of, about and concerning, for very|περί + genitive]] of me [[into|into, to, in, rest in|εἰς]] [[goods|goods, goods of fortune and wealth, good qualities|ἀγαθός]], [[that|that, in order that|ὅπως]] ever [[may come into being|may come to be, may arise, may be brought into existence|γίνομαι]] [[as|as, according as, considering, like|ὡς]] to-day, [[that|that, in order that|ἵνα]] may be sustained continually [[a people|a people, men, soldiers, a land-army, the common men, folk, Jews, Christians|λαός]] [[much|much and mighty and great, many, deep, loud, strong, large and wide, far, long, often|πολύς]].",
+    "names": []
+  },
+  {
+    "ref": "GEN 50:21",
+    "greek": "καὶ εἶπεν αὐτοῖς Μὴ φοβεῖσθε· ἐγὼ διαθρέψω ὑμᾶς καὶ τὰς οἰκίας ὑμῶν. καὶ παρεκάλεσεν αὐτοὺς καὶ ἐλάλησεν αὐτῶν εἰς τὴν καρδίαν.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 85",
+    "hint": "Joseph promises to provide for them and their households, and comforts them.",
+    "notes": [
+      {
+        "lemma": "τὰς οἰκίας ὑμῶν",
+        "flag": "divergence",
+        "text": "Your households: the Hebrew has ṭappĕkem, your little ones."
+      },
+      {
+        "lemma": "ἐλάλησεν αὐτῶν εἰς τὴν καρδίαν",
+        "flag": null,
+        "text": "Spoke into their heart: the Hebrew idiom wayĕdabbēr ʿal-libbām, spoke upon their heart, word for word."
+      },
+      {
+        "lemma": "παρεκάλεσεν",
+        "flag": null,
+        "text": "παρακαλέω, to call to one's side, and so to exhort and to comfort; the Hebrew is wayĕnaḥēm, he comforted."
+      }
+    ],
+    "reading": "and [[said|said, spoke, declared, called by name, told|λέγω]] to them [[not|not, that not, perhaps, surely not and you don't mean to say that|μή]] [[be put to flight|be put to flight, flee affrighted, flee, be seized with fear, be affrighted, fear|φοβέομαι]]; I I will sustain continually you and [[the buildings|the buildings, the houses, the dwellings, the households and domestic establishments, the households and inmates of the house, the houses and families from which one is descended|οἰκία]] of you. and [[called to|called to, called to aid and called in and sent for and called on and invoked, summoned, invited, called to and exhorted and cheered and encouraged, excited and fomented, exhorted, demanded and required, comforted and consoled|παρακαλέω]] them and [[talked|talked, chatted, prattled, babbled, said, talked of, spoke, chattered, chirped|λαλέω]] of them [[into|into, to, in, rest in|εἰς]] [[the heart|the heart, the stomach|καρδία]].",
+    "names": [],
+    "speech": [
+      "Μὴ"
+    ]
+  },
+  {
+    "ref": "GEN 50:22",
+    "greek": "Καὶ κατῴκησεν Ιωσηφ ἐν Αἰγύπτῳ, αὐτὸς καὶ οἱ ἀδελφοὶ αὐτοῦ καὶ πᾶσα ἡ πανοικία τοῦ πατρὸς αὐτοῦ. καὶ ἔζησεν Ιωσηφ ἔτη ἑκατὸν δέκα.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 85",
+    "hint": "Joseph stays in Egypt with his brothers and his father's household, and lives a hundred and ten years.",
+    "notes": [
+      {
+        "lemma": "αὐτὸς καὶ οἱ ἀδελφοὶ αὐτοῦ",
+        "flag": "divergence",
+        "text": "He and his brothers: the Hebrew has hûʾ ûbêt ʾābîw, he and his father's house, without the brothers."
+      }
+    ],
+    "reading": "and [[dwelt in as a katoikos (κάτοικος)|dwelt in as a katoikos (κάτοικος), settled in and colonised, inhabited, settled and dwelt, lay and was situate|κατοικέω]] [[name:Ιωσηφ]] [[in|within, inside of, and by means of|ἐν]] to [[name:Αἰγύπτῳ]], he and [[the sons of the same mother|the sons of the same mother, the brothers, the near kinsmen|ἀδελφός]] of him and [[all|all, the whole, every, every single|πᾶς]] the whole household [[of the father|of the father, of the grandfather|πατήρ]] of him. and [[lived|lived, was in full life and strength and fresh and strong|ζάω]] [[name:Ιωσηφ]] years a hundred ten.",
+    "names": [
+      {
+        "greek": "Ιωσηφ",
+        "unanchored": "Iōsēph",
+        "anchored": "Joseph",
+        "bare": true
+      },
+      {
+        "greek": "Αἰγύπτῳ",
+        "unanchored": "Aigyptō",
+        "anchored": "Egypt",
+        "bare": true
+      }
+    ]
+  },
+  {
+    "ref": "GEN 50:23",
+    "greek": "καὶ εἶδεν Ιωσηφ Εφραιμ παιδία ἕως τρίτης γενεᾶς, καὶ υἱοὶ Μαχιρ τοῦ υἱοῦ Μανασση ἐτέχθησαν ἐπὶ μηρῶν Ιωσηφ.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, pp. 85–86",
+    "hint": "Joseph sees Ephraim's line to the third generation, and Machir's sons are born upon his thighs.",
+    "notes": [
+      {
+        "lemma": "ἐπὶ μηρῶν Ιωσηφ",
+        "flag": "divergence",
+        "text": "Upon Joseph's thighs: the Hebrew has ʿal-birkê yôsēp̄, upon Joseph's knees."
+      },
+      {
+        "lemma": "Εφραιμ παιδία",
+        "flag": null,
+        "text": "Εφραιμ read as genitive: Ephraim's children, to the third generation, for the Hebrew bĕnê šillēšîm."
+      }
+    ],
+    "reading": "and [[saw|saw, perceived, beheld, looked at|ὁράω]] [[name:Ιωσηφ]] of [[name:Εφραιμ]] [[young children|young children, young slave-lads|παιδίον]] [[until|until, till, while and so long as|ἕως]] [[of third|of third, of third and finishing, of day after to-morrow, of day before, of thirdly, of a sacrifice to the dead offered the third day after the funeral, of a third part|τρίτος]] [[of race and stock and family|of race and stock and family, of breed, of tribe and nation, of race and generation, of offspring, of birth-place, of age and time of life, of time of birth|γενεά]], and sons of [[name:Μαχιρ]] of the son of [[name:Μανασση]] [[were brought into the world|were brought into the world, were brought forth, were borne and produced|τίκτω]] [[upon|upon, on, in, at, near|ἐπί + genitive]] [[of thighs|of thighs, of leg-bones|μηρός]] of [[name:Ιωσηφ]].",
+    "names": [
+      {
+        "greek": "Ιωσηφ",
+        "unanchored": "Iōsēph",
+        "anchored": "Joseph",
+        "bare": true
+      },
+      {
+        "greek": "Εφραιμ",
+        "unanchored": "Ephraim",
+        "anchored": "Ephraim",
+        "gloss": "(Εφραιμ, from Hebrew ʾEprayim, which the Hebrew hears in hiprānî, \"he made me fruitful\")"
+      },
+      {
+        "greek": "Μαχιρ",
+        "unanchored": "Machir",
+        "anchored": "Machir",
+        "gloss": "(Μαχιρ, from Hebrew Mākîr, usually connected with mākar, \"to sell\")"
+      },
+      {
+        "greek": "Μανασση",
+        "unanchored": "Manassē",
+        "anchored": "Manasseh",
+        "gloss": "(Μανασση, from Hebrew Mĕnaššeh, which the Hebrew hears in naššanî, \"he made me forget\")"
+      }
+    ]
+  },
+  {
+    "ref": "GEN 50:24",
+    "greek": "καὶ εἶπεν Ιωσηφ τοῖς ἀδελφοῖς αὐτοῦ λέγων Ἐγὼ ἀποθνῄσκω· ἐπισκοπῇ δὲ ἐπισκέψεται ὑμᾶς ὁ θεὸς καὶ ἀνάξει ὑμᾶς ἐκ τῆς γῆς ταύτης εἰς τὴν γῆν, ἣν ὤμοσεν ὁ θεὸς τοῖς πατράσιν ἡμῶν Αβρααμ καὶ Ισαακ καὶ Ιακωβ.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 86",
+    "hint": "Dying, Joseph tells his brothers that God will visit them and bring them up to the land sworn to their fathers.",
+    "notes": [
+      {
+        "lemma": "ἐπισκοπῇ δὲ ἐπισκέψεται",
+        "flag": null,
+        "text": "The dative of the noun with its own verb, for the Hebrew infinitive absolute pāqōd yip̄qōd: God will look upon you with a looking-upon."
+      },
+      {
+        "lemma": "ἐπισκοπή",
+        "flag": null,
+        "text": "Middle Liddell gives a watching over, visitation, then the office of ἐπίσκοπος, from the New Testament, where the word is the overseer's office."
+      },
+      {
+        "lemma": "ὤμοσεν ὁ θεὸς τοῖς πατράσιν ἡμῶν",
+        "flag": "divergence",
+        "text": "God swore to our fathers: the Hebrew has nišbaʿ, he swore, to Abraham, Isaac and Jacob, without God named and without our fathers."
+      }
+    ],
+    "reading": "and [[said|said, spoke, declared, called by name, told|λέγω]] [[name:Ιωσηφ]] [[to the sons of the same mother|to the sons of the same mother, to the brothers, to the near kinsmen|ἀδελφός]] of him [[saying|saying, speaking, declaring, calling by name, telling|λέγω]] I [[I die off|I die off and die, I am put to death and slain|ἀποθνήσκω]]; [[to a watching over|to a watching over and visitation, to the office of episkopos (ἐπίσκοπος), to an office|ἐπισκοπή]] [[but|but, however, whereas, on the other hand|δέ]], [[will look upon|will look upon, will look at, will inspect and observe and examine and regard, will watch over, will visit, will inspect and review, will consider and reflect, will examine with himself and meditate|ἐπισκέπτομαι]] you [[the God|he who is God definitively, the one the article marks out, the known and the only|θεός]] and [[will lead up|will lead up, will lead up to the high sea and carry by sea, will put to sea, will take up, will bring up, will conduct, will celebrate, will lift up and raise, will bring back, will refer, will rebuild, will reckon and calculate, will draw back and withdraw and retreat, will reduce in amount and contract, will put out to sea and set sail, will make ready and prepare himself|ἀνάγω]] you [[out of|out of, forth from, from|ἐκ]] [[of the earth|of the earth, of the land, of the ground|γῆ]] [[of this|of this, of the nearer, of what follows|οὗτος]] [[into|into, to, in, rest in|εἰς]] [[the earth|the earth, the land, the ground|γῆ]], which [[swore|swore, swore to and affirmed and confirmed by oath, swore that one would, swore by|ὄμνυμι]] [[the God|he who is God definitively, the one the article marks out, the known and the only|θεός]] [[to the fathers|to the fathers, to the grandfathers|πατήρ]] of us, to [[name:Αβρααμ]] and to [[name:Ισαακ]] and to [[name:Ιακωβ]].",
+    "names": [
+      {
+        "greek": "Ιωσηφ",
+        "unanchored": "Iōsēph",
+        "anchored": "Joseph",
+        "bare": true
+      },
+      {
+        "greek": "Αβρααμ",
+        "unanchored": "Abraam",
+        "anchored": "Abraham",
+        "bare": true
+      },
+      {
+        "greek": "Ισαακ",
+        "unanchored": "Isaak",
+        "anchored": "Isaac",
+        "gloss": "(Ισαακ, from Hebrew Yiṣḥāq, \"he laughs\")"
+      },
+      {
+        "greek": "Ιακωβ",
+        "unanchored": "Iakōb",
+        "anchored": "Jacob",
+        "gloss": "(Ιακωβ, from Hebrew Yaʿăqōb, which the Hebrew of 25:26 hears in ʿāqēb, \"heel\")"
+      }
+    ],
+    "speech": [
+      "Ἐγὼ"
+    ]
+  },
+  {
+    "ref": "GEN 50:25",
+    "greek": "καὶ ὥρκισεν Ιωσηφ τοὺς υἱοὺς Ισραηλ λέγων Ἐν τῇ ἐπισκοπῇ, ᾗ ἐπισκέψεται ὑμᾶς ὁ θεός, καὶ συνανοίσετε τὰ ὀστᾶ μου ἐντεῦθεν μεθʼ ὑμῶν.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 86",
+    "hint": "Joseph has the sons of Israel swear to carry his bones up with them when God visits them.",
+    "notes": [
+      {
+        "lemma": "μεθʼ ὑμῶν",
+        "flag": "divergence",
+        "text": "With you: not in the Hebrew of this verse, which has only mizzeh, from here. The Hebrew of Exodus 13:19, recalling the oath, has ʾittĕkem, with you."
+      },
+      {
+        "lemma": "συνανοίσετε",
+        "flag": null,
+        "text": "Future of συναναφέρω, to carry up together: not in Middle Liddell, and LSJ's active senses stand here."
+      },
+      {
+        "lemma": "καὶ συνανοίσετε",
+        "flag": null,
+        "text": "καί opening the main clause after the clause of time, as the Hebrew wĕ-."
+      }
+    ],
+    "reading": "and [[made swear|made swear|ὁρκίζω]] [[name:Ιωσηφ]] the sons of [[name:Ισραηλ]] [[saying|saying, speaking, declaring, calling by name, telling|λέγω]] [[in the watching over|within, inside of, and by means of the watching over and visitation, the office of episkopos (ἐπίσκοπος), the office|ἐν; ἐπισκοπή]], to which [[will look upon|will look upon, will look at, will inspect and observe and examine and regard, will watch over, will visit, will inspect and review, will consider and reflect, will examine with himself and meditate|ἐπισκέπτομαι]] you [[the God|he who is God definitively, the one the article marks out, the known and the only|θεός]], and [[you will carry up together|you will carry up together, you will bring up together with yourselves, you will refer to at the same time, you will certify at the same time, you will report|συναναφέρω]] [[the bones|the bones, the bones of the dead|ὀστέον]] of me [[hence|hence, thence, henceforth and thenceforth and thereupon, from that source|ἐντεῦθεν]] [[in the midst of|in the midst of, among, in common, along with, with, by means of|μετά + genitive]] of you.",
+    "names": [
+      {
+        "greek": "Ιωσηφ",
+        "unanchored": "Iōsēph",
+        "anchored": "Joseph",
+        "bare": true
+      },
+      {
+        "greek": "Ισραηλ",
+        "unanchored": "Israēl",
+        "anchored": "Israel",
+        "bare": true
+      }
+    ],
+    "speech": [
+      "Ἐν"
+    ]
+  },
+  {
+    "ref": "GEN 50:26",
+    "greek": "καὶ ἐτελεύτησεν Ιωσηφ ἐτῶν ἑκατὸν δέκα· καὶ ἔθαψαν αὐτὸν καὶ ἔθηκαν ἐν τῇ σορῷ ἐν Αἰγύπτῳ.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 86",
+    "hint": "Joseph dies at a hundred and ten, and is buried and laid in a coffin in Egypt.",
+    "notes": [
+      {
+        "lemma": "ἔθαψαν αὐτόν",
+        "flag": "divergence",
+        "text": "They buried him: the Hebrew has wayyaḥanṭû ʾōtô, they embalmed him."
+      },
+      {
+        "lemma": "ἐν τῇ σορῷ",
+        "flag": null,
+        "text": "σορός, a vessel for holding, a cinerary urn, a coffin, for the Hebrew ʾărôn, a chest."
+      },
+      {
+        "lemma": "ἐτελεύτησεν",
+        "flag": null,
+        "text": "τελευτάω, to complete, to finish, and of life, to end it and die."
+      }
+    ],
+    "reading": "and [[completed|completed, finished, accomplished, fulfilled, brought about, brought to an end, made an end of, ended life and died, came to an end|τελευτάω]] [[name:Ιωσηφ]] of years of a hundred of ten; and [[paid the last dues to a corpse|paid the last dues to a corpse and honoured with funeral rites, buried and interred|θάπτω]] him and [[set|set, put, placed, planted, laid|τίθημι]] [[in the vessel for holding|within, inside of, and by means of the vessel for holding, the cinerary urn, the coffin|ἐν; σορός]] [[in|within, inside of, and by means of|ἐν]] to [[name:Αἰγύπτῳ]].",
+    "names": [
+      {
+        "greek": "Ιωσηφ",
+        "unanchored": "Iōsēph",
+        "anchored": "Joseph",
+        "bare": true
+      },
+      {
+        "greek": "Αἰγύπτῳ",
+        "unanchored": "Aigyptō",
+        "anchored": "Egypt",
+        "bare": true
+      }
+    ]
+  }
+]

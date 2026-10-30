@@ -485,6 +485,13 @@ vocative, since the declined name's nominative is Ιουδας and the verse goe
 τῷ διπλῷ τῷ ἀπέναντι are neuter. One more the comparison passes over: πίων takes gender `C`,
 Middle Liddell's *ὁ, ἡ*, at 49:20 as at 49:15.
 
+### What it found in Genesis 50
+
+Two disagreements over 560 words, and the second pass was right on both: the second Πένθος of 50:11
+is accusative after the active ἐκάλεσεν τὸ ὄνομα, as Φρέαρ at 21:31, where the corpus had taken the
+nominative of 35:8's Βάλανος for the pattern (Βάλανος shows its case; a neuter does not); and θνήσκω
+takes no iota subscript, since Perseus keys it `qnh/skw`, as the brief already says of ἀποθνήσκω.
+
 ## The brief
 
 Copy everything below the rule into a new agent. Replace `<BOOK NAME>`, `<CHAPTER>`,

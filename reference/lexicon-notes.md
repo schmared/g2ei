@@ -6897,3 +6897,54 @@ with rare words; most of what is new here came with a lexicon scrap to settle.
   θάπτω `I paid the last dues to a corpse`; ἐπιτάσσω `putting upon as a duty`.
 - One translation each, plain text: υἱός, ἧπαρ, ταῦρος, ἐπικατάρατος (*yet more accursed*),
   σκληρύνω, ἄμπελος, οἶνος, ὀδούς, γάλα, ὦμος, πειρατεύω, γένημα, βραχίων, μήτρα, λύκος, δώδεκα.
+
+### Words new in GEN 50
+
+From Middle Liddell unless marked; the headword is the entry's first translation in the form the
+text uses. Chains already in the corpus were read from it.
+
+- **From LSJ** (not in Middle Liddell): ἐνταφιαστής, *undertaker, embalmer*, one translation,
+  `the undertakers and embalmers`; πανοικία, *whole household*, plain text (its dative's *with all
+  the house* is the dative's); συναναφέρω, the active's senses, `you will carry up together, you
+  will bring up together with yourselves, …, you will report`. 50:2, 50:8, 50:25.
+- **Cross-references:** ἅλων reads only *= ἅλως found in the obl. cases*, and takes that entry, `a
+  threshing-floor, disk`; κοπετός reads only *= κομμός*, `a striking, a beating of the breast in
+  lamentation, a wild lament`. 50:10, 50:11.
+- **Lost to Latin:** κομμός, "like Lat. planctus (from plango), a beating of the breast in
+  lamentation": the `<tr>` opens inside the Latin parenthesis and carries *plango),* with it.
+  `MARKUP_LOST` restores the English whole, under the entry's key `kommo/s1`, and `NOT_SENSES` sets
+  the broken piece aside.
+- **Lost to Greek:** ἐπισκοπή's *the office of ἐπίσκοπος* (`GREEK_LOST`), `to the office of
+  episkopos (ἐπίσκοπος)`. 50:24, 50:25.
+- **Voice and tense** (`FORM_SENSES`): θνήσκω's perfect takes *to be dead*, the entry's sense *in
+  aor2 and perf.*, not the present's *to die, be dying*; the metaphorical *to die, perish* has no
+  tense given and stays, `is dead, has died and perished and it stands so`. ἐνδείκνυμι's middle
+  takes the Mid. senses and *to inform against*, given *so in Mid.*, `we informed against, we
+  shewed forth ourselves, …, we courted`. βουλεύω's middle takes sense I, which *in Prose belongs
+  chiefly to the Mid.*, and the Mid. senses, `you took counsel and deliberated and concerted
+  measures, you had considered, …, you determined with yourselves and resolved on`.
+- **Number:** ταφή's *a burial-place* is given *in pl.*, and the singular of 50:3 leaves it out,
+  `of the burial, of the mode of burial, of the payment for burial and burial-fee`.
+- **Pieces set aside** (`NOT_SENSES`): συναναβαίνω (*or together*, and τινί *with* one), which
+  leaves one translation, *to go up with*; πατρικός (*of*, half of *of or belonging to*);
+  μνησικακέω (the examples' *to bear … malice*, *a grudge for*, *to remind … of the ills*); πέραν
+  (τὰ πέραν's *done on the opposite side*, ἡ πέραν γῆ's *just over the border*, *border-*); ταφή
+  (Sophocles' urn).
+- New chains, each the card in the form the text uses: πληρόω `made full`; καταριθμέω `are counted`,
+  with the middle's `recount and enumerate` in its own voice; πενθέω `bewailed`; πένθος `the grief`,
+  `grief`; δυνάστης `the lords`; μνημεῖον with ἐν; ἐπανέρχομαι `I will go back`, keeping *to go up*
+  beside *to go up, ascend* and *pass*, a verb of its own in *to go up or pass from one place to
+  another*; πρεσβύτερος `the elders`; οἰκία `the building`, `the buildings`; πατρικός `the derived
+  from one's fathers`; συγγένεια `the sameness of descent`; ὑπολείπω `they left remaining for
+  themselves`; ἅρμα `chariots`; ἱππεύς `horsemen`; παραγίνομαι `were near`; κόπτω `beat their
+  breasts`; πέραν `on the other side`; μνησικακέω `may remember wrongs done one`; ἀνταπόδομα
+  `repayment`; ἀνταποδίδωμι `may give back`; τελευτάω `of the completing`, `completed`; θεράπων `of
+  the waiting-men`; παρακαλέω `called to`; τρίτος `of third`; γενεά `of race and stock and family`;
+  τίκτω `were brought into the world`; μηρός `of thighs`; ἐπισκέπτομαι `will look upon`; ἀνάγω `will
+  lead up`; πατήρ `to the fathers`; ὀστέον `the bones`; σορός with ἐν, `in the vessel for holding`.
+- One translation each, plain text: ἐνταφιάζω (*to prepare for burial*), κάτοικος (*a settler*),
+  διατρέφω (*to sustain continually*), πανοικία, συναναβαίνω — a unit at 50:7 only, its chain the
+  headword alone, because ἀνέβη's unit in that verse heads with *went up*, as ὁρκίζω at 24:37.
+- Names: Αταδ (from Hebrew ʾĀṭād, *bramble, thornbush*), and Πένθος, the name of 50:11, *Πένθος
+  Αἰγύπτου*, `Mourning`, the Greek of ʾĀbēl Miṣrayim; the first Πένθος of the verse is the common
+  noun, capitalised as the start of speech.

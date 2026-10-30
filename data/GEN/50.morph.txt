@@ -1,0 +1,588 @@
+# Genesis 50 — morphology, one word per line.
+#
+# This is the project's own grammatical analysis of each form, written alongside the
+# transcription and not copied from any digital edition.
+#
+# Columns: verse, part of speech, parse, form, lemma — in MorphGNT's code scheme, so
+# the Old and New Testament layers read alike. The parse is eight places: person,
+# tense, voice, mood, case, number, gender, degree ("-" where it does not apply).
+#
+# Two codes go beyond MorphGNT, both to record only what the form itself says:
+#   voice  E  middle/passive — a tense in which the two share one form
+#   gender C  masculine/feminine — an adjective whose form does not distinguish them
+#
+# A trailing annotation records a deliberate difference and the reason for it:
+#   "# module …"  from the reference module, checked when LXX_RAHLFS_DIR is set
+#   "# corpus …"  from this project's own analysis of the same form elsewhere
+# A line may carry both. validate.py prints them as notes instead of failures — and
+# fails if the difference a note claims is not there, so they cannot go stale. The
+# analysis here is this project's own: the module is a reference, not an authority,
+# and the corpus is held to itself.
+#
+# Indeclinables take case and number from the syntax, as MorphGNT does, and gender
+# where there is one to take: a personal name, from the person; a numeral agreeing
+# with its noun; a common noun whose article shows it — but not an indeclinable place
+# name, which has none. A personal name the New Testament also uses takes MorphGNT's
+# dictionary form (Νῶε, Σήμ); every other Semitic name (Χαμ, Ιαφεθ), the form Rahlfs
+# prints.
+
+50:1 C- -------- Καὶ καί
+50:1 V- -AAPNSM- ἐπιπεσὼν ἐπιπίπτω
+50:1 N- ----NSM- Ιωσηφ Ἰωσήφ
+50:1 P- -------- ἐπὶ ἐπί
+50:1 RA ----ASN- τὸ ὁ
+50:1 N- ----ASN- πρόσωπον πρόσωπον
+50:1 RA ----GSM- τοῦ ὁ
+50:1 N- ----GSM- πατρὸς πατήρ
+50:1 RP ----GSM- αὐτοῦ αὐτός
+50:1 V- 3AAI-S-- ἔκλαυσεν κλαίω
+50:1 P- -------- ἐπʼ ἐπί
+50:1 RP ----ASM- αὐτὸν αὐτός
+50:1 C- -------- καὶ καί
+50:1 V- 3AAI-S-- ἐφίλησεν φιλέω
+50:1 RP ----ASM- αὐτόν αὐτός
+50:2 C- -------- καὶ καί
+50:2 V- 3AAI-S-- προσέταξεν προστάσσω
+50:2 N- ----NSM- Ιωσηφ Ἰωσήφ
+50:2 RA ----DPM- τοῖς ὁ
+50:2 N- ----DPM- παισὶν παῖς
+50:2 RP ----GSM- αὐτοῦ αὐτός
+50:2 RA ----DPM- τοῖς ὁ
+50:2 N- ----DPM- ἐνταφιασταῖς ἐνταφιαστής
+50:2 V- -AAN---- ἐνταφιάσαι ἐνταφιάζω
+50:2 RA ----ASM- τὸν ὁ
+50:2 N- ----ASM- πατέρα πατήρ
+50:2 RP ----GSM- αὐτοῦ αὐτός
+50:2 C- -------- καὶ καί
+50:2 V- 3AAI-P-- ἐνεταφίασαν ἐνταφιάζω
+50:2 RA ----NPM- οἱ ὁ
+50:2 N- ----NPM- ἐνταφιασταὶ ἐνταφιαστής
+50:2 RA ----ASM- τὸν ὁ
+50:2 N- ----ASM- Ισραηλ Ἰσραήλ
+50:3 C- -------- καὶ καί
+50:3 V- 3AAI-P-- ἐπλήρωσαν πληρόω
+50:3 RP ----GSM- αὐτοῦ αὐτός
+50:3 A- ----APF- τεσσαράκοντα τεσσαράκοντα  # module M, no features — MorphGNT gives τεσσαράκοντα case, number and gender like any adjective
+50:3 N- ----APF- ἡμέρας ἡμέρα
+50:3 D- -------- οὕτως οὕτως
+50:3 C- -------- γὰρ γάρ
+50:3 V- 3PEI-P-- καταριθμοῦνται καταριθμέω
+50:3 RA ----NPF- αἱ ὁ
+50:3 N- ----NPF- ἡμέραι ἡμέρα
+50:3 RA ----GSF- τῆς ὁ
+50:3 N- ----GSF- ταφῆς ταφή  # module ASF — the genitive, after τῆς; the accusative is ταφήν
+50:3 C- -------- καὶ καί
+50:3 V- 3AAI-S-- ἐπένθησεν πενθέω
+50:3 RP ----ASM- αὐτὸν αὐτός
+50:3 N- ----NSF- Αἴγυπτος Αἴγυπτος
+50:3 A- ----APF- ἑβδομήκοντα ἑβδομήκοντα  # module M, no features — MorphGNT gives ἑβδομήκοντα case, number and gender like any adjective
+50:3 N- ----APF- ἡμέρας ἡμέρα
+50:4 C- -------- Ἐπειδὴ ἐπειδή
+50:4 C- -------- δὲ δέ
+50:4 V- 3AAI-P-- παρῆλθον παρέρχομαι
+50:4 RA ----NPF- αἱ ὁ
+50:4 N- ----NPF- ἡμέραι ἡμέρα
+50:4 RA ----GSN- τοῦ ὁ
+50:4 N- ----GSN- πένθους πένθος
+50:4 V- 3AAI-S-- ἐλάλησεν λαλέω
+50:4 N- ----NSM- Ιωσηφ Ἰωσήφ
+50:4 P- -------- πρὸς πρός
+50:4 RA ----APM- τοὺς ὁ
+50:4 N- ----APM- δυνάστας δυνάστης
+50:4 N- ----GSM- Φαραω Φαραώ
+50:4 V- -PAPNSM- λέγων λέγω
+50:4 C- -------- Εἰ εἰ
+50:4 V- 1AAI-S-- εὗρον εὑρίσκω
+50:4 N- ----ASF- χάριν χάρις
+50:4 P- -------- ἐναντίον ἐναντίον
+50:4 RP ----GP-- ὑμῶν σύ  # module lemma ὑμῶν, the form itself — σύ is the dictionary form
+50:4 V- 2AAD-P-- λαλήσατε λαλέω
+50:4 P- -------- περὶ περί
+50:4 RP ----GS-- ἐμοῦ ἐγώ  # module lemma ἐμοῦ, the form itself — ἐγώ is the dictionary form
+50:4 P- -------- εἰς εἰς
+50:4 RA ----APN- τὰ ὁ
+50:4 N- ----APN- ὦτα οὖς
+50:4 N- ----GSM- Φαραω Φαραώ
+50:4 V- -PAPNPM- λέγοντες λέγω
+50:5 RA ----NSM- Ὁ ὁ
+50:5 N- ----NSM- πατήρ πατήρ
+50:5 RP ----GS-- μου ἐγώ  # module lemma μου, the form itself — ἐγώ is the dictionary form
+50:5 V- 3AAI-S-- ὥρκισέν ὁρκίζω
+50:5 RP ----AS-- με ἐγώ  # module lemma μέ, the form itself — ἐγώ is the dictionary form
+50:5 V- -PAPNSM- λέγων λέγω
+50:5 P- -------- Ἐν ἐν
+50:5 RA ----DSN- τῷ ὁ
+50:5 N- ----DSN- μνημείῳ μνημεῖον
+50:5 RR ----DSN- ᾧ ὅς
+50:5 V- 1AAI-S-- ὤρυξα ὀρύσσω
+50:5 RP ----DSM- ἐμαυτῷ ἐμαυτοῦ
+50:5 P- -------- ἐν ἐν
+50:5 N- ----DSF- γῇ γῆ
+50:5 N- ----GS-- Χανααν Χανάαν  # module lemma Χαναάν — Χανάαν, as MorphGNT files it
+50:5 D- -------- ἐκεῖ ἐκεῖ
+50:5 RP ----AS-- με ἐγώ  # module lemma μέ, the form itself — ἐγώ is the dictionary form
+50:5 V- 2FAI-S-- θάψεις θάπτω
+50:5 D- -------- νῦν νῦν
+50:5 C- -------- οὖν οὖν
+50:5 V- -AAPNSM- ἀναβὰς ἀναβαίνω
+50:5 V- 1FAI-S-- θάψω θάπτω
+50:5 RA ----ASM- τὸν ὁ
+50:5 N- ----ASM- πατέρα πατήρ
+50:5 RP ----GS-- μου ἐγώ  # module lemma μου, the form itself — ἐγώ is the dictionary form
+50:5 C- -------- καὶ καί
+50:5 V- 1FMI-S-- ἐπανελεύσομαι ἐπανέρχομαι
+50:6 C- -------- καὶ καί
+50:6 V- 3AAI-S-- εἶπεν λέγω  # module lemma ἔπω — λέγω keeps one dictionary form across both testaments
+50:6 N- ----NSM- Φαραω Φαραώ
+50:6 V- 2AAD-S-- Ἀνάβηθι ἀναβαίνω
+50:6 V- 2AAD-S-- θάψον θάπτω
+50:6 RA ----ASM- τὸν ὁ
+50:6 N- ----ASM- πατέρα πατήρ
+50:6 RP ----GS-- σου σύ  # module lemma σοῦ, the form itself — σύ is the dictionary form
+50:6 C- -------- καθάπερ καθάπερ
+50:6 V- 3AAI-S-- ὥρκισέν ὁρκίζω
+50:6 RP ----AS-- σε σύ  # module lemma σέ, the form itself — σύ is the dictionary form
+50:7 C- -------- καὶ καί
+50:7 V- 3AAI-S-- ἀνέβη ἀναβαίνω
+50:7 N- ----NSM- Ιωσηφ Ἰωσήφ
+50:7 V- -AAN---- θάψαι θάπτω
+50:7 RA ----ASM- τὸν ὁ
+50:7 N- ----ASM- πατέρα πατήρ
+50:7 RP ----GSM- αὐτοῦ αὐτός
+50:7 C- -------- καὶ καί
+50:7 V- 3AAI-P-- συνανέβησαν συναναβαίνω
+50:7 P- -------- μετʼ μετά
+50:7 RP ----GSM- αὐτοῦ αὐτός
+50:7 A- ----NPM- πάντες πᾶς
+50:7 RA ----NPM- οἱ ὁ
+50:7 N- ----NPM- παῖδες παῖς
+50:7 N- ----GSM- Φαραω Φαραώ
+50:7 C- -------- καὶ καί
+50:7 RA ----NPM- οἱ ὁ
+50:7 A- ----NPMC πρεσβύτεροι πρεσβύτερος
+50:7 RA ----GSM- τοῦ ὁ
+50:7 N- ----GSM- οἴκου οἶκος
+50:7 RP ----GSM- αὐτοῦ αὐτός
+50:7 C- -------- καὶ καί
+50:7 A- ----NPM- πάντες πᾶς
+50:7 RA ----NPM- οἱ ὁ
+50:7 A- ----NPMC πρεσβύτεροι πρεσβύτερος
+50:7 RA ----GSF- τῆς ὁ
+50:7 N- ----GSF- γῆς γῆ
+50:7 N- ----GSF- Αἰγύπτου Αἴγυπτος
+50:8 C- -------- καὶ καί
+50:8 A- ----NSF- πᾶσα πᾶς
+50:8 RA ----NSF- ἡ ὁ
+50:8 N- ----NSF- πανοικία πανοικία
+50:8 N- ----GSM- Ιωσηφ Ἰωσήφ
+50:8 C- -------- καὶ καί
+50:8 RA ----NPM- οἱ ὁ
+50:8 N- ----NPM- ἀδελφοὶ ἀδελφός
+50:8 RP ----GSM- αὐτοῦ αὐτός
+50:8 C- -------- καὶ καί
+50:8 A- ----NSF- πᾶσα πᾶς
+50:8 RA ----NSF- ἡ ὁ
+50:8 N- ----NSF- οἰκία οἰκία
+50:8 RA ----NSF- ἡ ὁ
+50:8 A- ----NSF- πατρικὴ πατρικός
+50:8 RP ----GSM- αὐτοῦ αὐτός
+50:8 C- -------- καὶ καί
+50:8 RA ----ASF- τὴν ὁ
+50:8 N- ----ASF- συγγένειαν συγγένεια
+50:8 C- -------- καὶ καί
+50:8 RA ----APN- τὰ ὁ
+50:8 N- ----APN- πρόβατα πρόβατον
+50:8 C- -------- καὶ καί
+50:8 RA ----APM- τοὺς ὁ
+50:8 N- ----APM- βόας βοῦς
+50:8 V- 3AMI-P-- ὑπελίποντο ὑπολείπω
+50:8 P- -------- ἐν ἐν
+50:8 N- ----DSF- γῇ γῆ
+50:8 N- ----GS-- Γεσεμ Γεσεμ  # module lemma Γέσεμ — Γεσεμ, unaccented as Rahlfs prints it, a name the New Testament does not use
+50:9 C- -------- καὶ καί
+50:9 V- 3AAI-P-- συνανέβησαν συναναβαίνω
+50:9 P- -------- μετʼ μετά
+50:9 RP ----GSM- αὐτοῦ αὐτός
+50:9 C- -------- καὶ καί
+50:9 N- ----NPN- ἅρματα ἅρμα
+50:9 C- -------- καὶ καί
+50:9 N- ----NPM- ἱππεῖς ἱππεύς
+50:9 C- -------- καὶ καί
+50:9 V- 3AMI-S-- ἐγένετο γίνομαι
+50:9 RA ----NSF- ἡ ὁ
+50:9 N- ----NSF- παρεμβολὴ παρεμβολή
+50:9 A- ----NSF- μεγάλη μέγας
+50:9 D- -------- σφόδρα σφόδρα
+50:10 C- -------- καὶ καί
+50:10 V- 3AMI-P-- παρεγένοντο παραγίνομαι
+50:10 P- -------- ἐφʼ ἐπί
+50:10 N- ----ASF- ἅλωνα ἅλων
+50:10 N- ----GS-- Αταδ Αταδ
+50:10 RR ----NSN- ὅ ὅς
+50:10 V- 3PAI-S-- ἐστιν εἰμί
+50:10 P- -------- πέραν πέραν
+50:10 RA ----GSM- τοῦ ὁ
+50:10 N- ----GSM- Ιορδάνου Ἰορδάνης
+50:10 C- -------- καὶ καί
+50:10 V- 3AMI-P-- ἐκόψαντο κόπτω
+50:10 RP ----ASM- αὐτὸν αὐτός
+50:10 N- ----ASM- κοπετὸν κοπετός
+50:10 A- ----ASM- μέγαν μέγας
+50:10 C- -------- καὶ καί
+50:10 A- ----ASM- ἰσχυρὸν ἰσχυρός
+50:10 D- -------- σφόδρα σφόδρα
+50:10 C- -------- καὶ καί
+50:10 V- 3AAI-S-- ἐποίησεν ποιέω
+50:10 RA ----ASN- τὸ ὁ
+50:10 N- ----ASN- πένθος πένθος
+50:10 RA ----DSM- τῷ ὁ
+50:10 N- ----DSM- πατρὶ πατήρ
+50:10 RP ----GSM- αὐτοῦ αὐτός
+50:10 A- ----APF- ἑπτὰ ἑπτά  # module M, no features — MorphGNT gives ἑπτά case, number and gender like any adjective
+50:10 N- ----APF- ἡμέρας ἡμέρα
+50:11 C- -------- καὶ καί
+50:11 V- 3AAI-P-- εἶδον ὁράω
+50:11 RA ----NPM- οἱ ὁ
+50:11 N- ----NPM- κάτοικοι κάτοικος
+50:11 RA ----GSF- τῆς ὁ
+50:11 N- ----GSF- γῆς γῆ
+50:11 N- ----GS-- Χανααν Χανάαν  # module lemma Χαναάν — Χανάαν, as MorphGNT files it
+50:11 RA ----ASN- τὸ ὁ
+50:11 N- ----ASN- πένθος πένθος
+50:11 P- -------- ἐν ἐν
+50:11 N- ----DSF- ἅλωνι ἅλων
+50:11 N- ----GS-- Αταδ Αταδ
+50:11 C- -------- καὶ καί
+50:11 V- 3AAI-P-- εἶπαν λέγω  # module lemma ἔπω — λέγω keeps one dictionary form across both testaments
+50:11 N- ----NSN- Πένθος πένθος
+50:11 A- ----NSN- μέγα μέγας
+50:11 RD ----NSN- τοῦτό οὗτος
+50:11 V- 3PAI-S-- ἐστιν εἰμί
+50:11 RA ----DPM- τοῖς ὁ
+50:11 N- ----DPM- Αἰγυπτίοις Αἰγύπτιος
+50:11 P- -------- διὰ διά
+50:11 RD ----ASN- τοῦτο οὗτος
+50:11 V- 3AAI-S-- ἐκάλεσεν καλέω
+50:11 RA ----ASN- τὸ ὁ
+50:11 N- ----ASN- ὄνομα ὄνομα
+50:11 RP ----GSM- αὐτοῦ αὐτός
+50:11 N- ----ASN- Πένθος Πένθος  # corpus the name, where πένθος before it is the common noun  # module lemma πένθος — the name, capitalised as Rahlfs prints it, as Φρέαρ at 21:31
+50:11 N- ----GSF- Αἰγύπτου Αἴγυπτος
+50:11 RR ----NSN- ὅ ὅς
+50:11 V- 3PAI-S-- ἐστιν εἰμί
+50:11 P- -------- πέραν πέραν
+50:11 RA ----GSM- τοῦ ὁ
+50:11 N- ----GSM- Ιορδάνου Ἰορδάνης
+50:12 C- -------- καὶ καί
+50:12 V- 3AAI-P-- ἐποίησαν ποιέω
+50:12 RP ----DSM- αὐτῷ αὐτός
+50:12 D- -------- οὕτως οὕτως
+50:12 RA ----NPM- οἱ ὁ
+50:12 N- ----NPM- υἱοὶ υἱός
+50:12 RP ----GSM- αὐτοῦ αὐτός
+50:12 C- -------- καὶ καί
+50:12 V- 3AAI-P-- ἔθαψαν θάπτω
+50:12 RP ----ASM- αὐτὸν αὐτός
+50:12 D- -------- ἐκεῖ ἐκεῖ
+50:13 C- -------- καὶ καί
+50:13 V- 3AAI-P-- ἀνέλαβον ἀναλαμβάνω
+50:13 RP ----ASM- αὐτὸν αὐτός
+50:13 RA ----NPM- οἱ ὁ
+50:13 N- ----NPM- υἱοὶ υἱός
+50:13 RP ----GSM- αὐτοῦ αὐτός
+50:13 P- -------- εἰς εἰς
+50:13 N- ----ASF- γῆν γῆ
+50:13 N- ----GS-- Χανααν Χανάαν  # module lemma Χαναάν — Χανάαν, as MorphGNT files it
+50:13 C- -------- καὶ καί
+50:13 V- 3AAI-P-- ἔθαψαν θάπτω
+50:13 RP ----ASM- αὐτὸν αὐτός
+50:13 P- -------- εἰς εἰς
+50:13 RA ----ASN- τὸ ὁ
+50:13 N- ----ASN- σπήλαιον σπήλαιον
+50:13 RA ----ASN- τὸ ὁ
+50:13 A- ----ASN- διπλοῦν διπλοῦς
+50:13 RR ----ASN- ὃ ὅς
+50:13 V- 3AMI-S-- ἐκτήσατο κτάομαι
+50:13 N- ----NSM- Αβρααμ Ἀβραάμ
+50:13 RA ----ASN- τὸ ὁ
+50:13 N- ----ASN- σπήλαιον σπήλαιον
+50:13 P- -------- ἐν ἐν
+50:13 N- ----DSF- κτήσει κτῆσις
+50:13 N- ----GSN- μνημείου μνημεῖον
+50:13 P- -------- παρὰ παρά
+50:13 N- ----GSM- Εφρων Εφρων
+50:13 RA ----GSM- τοῦ ὁ
+50:13 N- ----GSM- Χετταίου Χετταῖος
+50:13 P- -------- κατέναντι κατέναντι
+50:13 N- ----GS-- Μαμβρη Μαμβρη
+50:14 C- -------- καὶ καί
+50:14 V- 3AAI-S-- ἀπέστρεψεν ἀποστρέφω
+50:14 N- ----NSM- Ιωσηφ Ἰωσήφ
+50:14 P- -------- εἰς εἰς
+50:14 N- ----ASF- Αἴγυπτον Αἴγυπτος
+50:14 RP ----NSM- αὐτὸς αὐτός
+50:14 C- -------- καὶ καί
+50:14 RA ----NPM- οἱ ὁ
+50:14 N- ----NPM- ἀδελφοὶ ἀδελφός
+50:14 RP ----GSM- αὐτοῦ αὐτός
+50:14 C- -------- καὶ καί
+50:14 RA ----NPM- οἱ ὁ
+50:14 V- -AAPNPM- συναναβάντες συναναβαίνω
+50:14 V- -AAN---- θάψαι θάπτω
+50:14 RA ----ASM- τὸν ὁ
+50:14 N- ----ASM- πατέρα πατήρ
+50:14 RP ----GSM- αὐτοῦ αὐτός
+50:15 V- -AAPNPM- Ἰδόντες ὁράω
+50:15 C- -------- δὲ δέ
+50:15 RA ----NPM- οἱ ὁ
+50:15 N- ----NPM- ἀδελφοὶ ἀδελφός
+50:15 N- ----GSM- Ιωσηφ Ἰωσήφ
+50:15 C- -------- ὅτι ὅτι
+50:15 V- 3XAI-S-- τέθνηκεν θνήσκω
+50:15 RA ----NSM- ὁ ὁ
+50:15 N- ----NSM- πατὴρ πατήρ
+50:15 RP ----GPM- αὐτῶν αὐτός
+50:15 V- 3AAI-P-- εἶπαν λέγω  # module lemma ἔπω — λέγω keeps one dictionary form across both testaments
+50:15 C- -------- Μήποτε μήποτε
+50:15 V- 3AAS-S-- μνησικακήσῃ μνησικακέω
+50:15 RP ----DP-- ἡμῖν ἐγώ  # module lemma ἡμῖν, the form itself — ἐγώ is the dictionary form
+50:15 N- ----NSM- Ιωσηφ Ἰωσήφ
+50:15 C- -------- καὶ καί
+50:15 N- ----ASN- ἀνταπόδομα ἀνταπόδομα
+50:15 V- 3AAS-S-- ἀνταποδῷ ἀνταποδίδωμι
+50:15 RP ----DP-- ἡμῖν ἐγώ  # module lemma ἡμῖν, the form itself — ἐγώ is the dictionary form
+50:15 A- ----APN- πάντα πᾶς
+50:15 RA ----APN- τὰ ὁ
+50:15 A- ----APN- κακά κακός
+50:15 RR ----APN- ἃ ὅς
+50:15 V- 1AMI-P-- ἐνεδειξάμεθα ἐνδείκνυμι
+50:15 RP ----DSM- αὐτῷ αὐτός
+50:16 C- -------- καὶ καί
+50:16 V- 3AMI-P-- παρεγένοντο παραγίνομαι
+50:16 P- -------- πρὸς πρός
+50:16 N- ----ASM- Ιωσηφ Ἰωσήφ
+50:16 V- -PAPNPM- λέγοντες λέγω
+50:16 RA ----NSM- Ὁ ὁ
+50:16 N- ----NSM- πατήρ πατήρ
+50:16 RP ----GS-- σου σύ  # module lemma σοῦ, the form itself — σύ is the dictionary form
+50:16 V- 3AAI-S-- ὥρκισεν ὁρκίζω
+50:16 P- -------- πρὸ πρό
+50:16 RA ----GSN- τοῦ ὁ
+50:16 V- -AAN---- τελευτῆσαι τελευτάω
+50:16 RP ----ASM- αὐτὸν αὐτός
+50:16 V- -PAPNSM- λέγων λέγω
+50:17 D- -------- Οὕτως οὕτως
+50:17 V- 2AAD-P-- εἴπατε λέγω  # module lemma ἔπω — λέγω keeps one dictionary form across both testaments
+50:17 N- ----DSM- Ιωσηφ Ἰωσήφ
+50:17 V- 2AAD-S-- Ἄφες ἀφίημι
+50:17 RP ----DPM- αὐτοῖς αὐτός
+50:17 RA ----ASF- τὴν ὁ
+50:17 N- ----ASF- ἀδικίαν ἀδικία
+50:17 C- -------- καὶ καί
+50:17 RA ----ASF- τὴν ὁ
+50:17 N- ----ASF- ἁμαρτίαν ἁμαρτία
+50:17 RP ----GPM- αὐτῶν αὐτός
+50:17 C- -------- ὅτι ὅτι
+50:17 A- ----APN- πονηρά πονηρός
+50:17 RP ----DS-- σοι σύ  # module lemma σοί, the form itself — σύ is the dictionary form
+50:17 V- 3AMI-P-- ἐνεδείξαντο ἐνδείκνυμι
+50:17 C- -------- καὶ καί
+50:17 D- -------- νῦν νῦν
+50:17 V- 2AMD-S-- δέξαι δέχομαι
+50:17 RA ----ASF- τὴν ὁ
+50:17 N- ----ASF- ἀδικίαν ἀδικία
+50:17 RA ----GPM- τῶν ὁ
+50:17 N- ----GPM- θεραπόντων θεράπων
+50:17 RA ----GSM- τοῦ ὁ
+50:17 N- ----GSM- θεοῦ θεός
+50:17 RA ----GSM- τοῦ ὁ
+50:17 N- ----GSM- πατρός πατήρ
+50:17 RP ----GS-- σου σύ  # module lemma σοῦ, the form itself — σύ is the dictionary form
+50:17 C- -------- καὶ καί
+50:17 V- 3AAI-S-- ἔκλαυσεν κλαίω
+50:17 N- ----NSM- Ιωσηφ Ἰωσήφ
+50:17 V- -PAPGPM- λαλούντων λαλέω
+50:17 RP ----GPM- αὐτῶν αὐτός
+50:17 P- -------- πρὸς πρός
+50:17 RP ----ASM- αὐτόν αὐτός
+50:18 C- -------- καὶ καί
+50:18 V- -AAPNPM- ἐλθόντες ἔρχομαι
+50:18 P- -------- πρὸς πρός
+50:18 RP ----ASM- αὐτὸν αὐτός
+50:18 V- 3AAI-P-- εἶπαν λέγω  # module lemma ἔπω — λέγω keeps one dictionary form across both testaments
+50:18 RD ----NPM- Οἵδε ὅδε
+50:18 RP ----NP-- ἡμεῖς ἐγώ  # module lemma ἡμεῖς, the form itself — ἐγώ is the dictionary form
+50:18 RP ----DS-- σοι σύ  # module lemma σοί, the form itself — σύ is the dictionary form
+50:18 N- ----NPM- οἰκέται οἰκέτης
+50:19 C- -------- καὶ καί
+50:19 V- 3AAI-S-- εἶπεν λέγω  # module lemma ἔπω — λέγω keeps one dictionary form across both testaments
+50:19 RP ----DPM- αὐτοῖς αὐτός
+50:19 N- ----NSM- Ιωσηφ Ἰωσήφ
+50:19 D- -------- Μὴ μή
+50:19 V- 2PED-P-- φοβεῖσθε φοβέομαι  # module lemma φοβέω — φοβέομαι, as MorphGNT files it
+50:19 RA ----GSM- τοῦ ὁ
+50:19 C- -------- γὰρ γάρ
+50:19 N- ----GSM- θεοῦ θεός
+50:19 V- 1PAI-S-- εἰμι εἰμί
+50:19 RP ----NS-- ἐγώ ἐγώ
+50:20 RP ----NP-- ὑμεῖς σύ  # module lemma ὑμεῖς, the form itself — σύ is the dictionary form
+50:20 V- 2AMI-P-- ἐβουλεύσασθε βουλεύω
+50:20 P- -------- κατʼ κατά
+50:20 RP ----GS-- ἐμοῦ ἐγώ  # module lemma ἐμοῦ, the form itself — ἐγώ is the dictionary form
+50:20 P- -------- εἰς εἰς
+50:20 A- ----APN- πονηρά πονηρός
+50:20 RA ----NSM- ὁ ὁ
+50:20 C- -------- δὲ δέ
+50:20 N- ----NSM- θεὸς θεός
+50:20 V- 3AMI-S-- ἐβουλεύσατο βουλεύω
+50:20 P- -------- περὶ περί
+50:20 RP ----GS-- ἐμοῦ ἐγώ  # module lemma ἐμοῦ, the form itself — ἐγώ is the dictionary form
+50:20 P- -------- εἰς εἰς
+50:20 A- ----APN- ἀγαθά ἀγαθός
+50:20 C- -------- ὅπως ὅπως
+50:20 X- -------- ἂν ἄν
+50:20 V- 3APS-S-- γενηθῇ γίνομαι
+50:20 C- -------- ὡς ὡς  # module lemma ὥς — ὡς, the comparative particle, as MorphGNT files it
+50:20 D- -------- σήμερον σήμερον
+50:20 C- -------- ἵνα ἵνα
+50:20 V- 3APS-S-- διατραφῇ διατρέφω
+50:20 N- ----NSM- λαὸς λαός
+50:20 A- ----NSM- πολύς πολύς
+50:21 C- -------- καὶ καί
+50:21 V- 3AAI-S-- εἶπεν λέγω  # module lemma ἔπω — λέγω keeps one dictionary form across both testaments
+50:21 RP ----DPM- αὐτοῖς αὐτός
+50:21 D- -------- Μὴ μή
+50:21 V- 2PED-P-- φοβεῖσθε φοβέομαι  # module lemma φοβέω — φοβέομαι, as MorphGNT files it
+50:21 RP ----NS-- ἐγὼ ἐγώ
+50:21 V- 1FAI-S-- διαθρέψω διατρέφω
+50:21 RP ----AP-- ὑμᾶς σύ  # module lemma ὑμᾶς, the form itself — σύ is the dictionary form
+50:21 C- -------- καὶ καί
+50:21 RA ----APF- τὰς ὁ
+50:21 N- ----APF- οἰκίας οἰκία
+50:21 RP ----GP-- ὑμῶν σύ  # module lemma ὑμῶν, the form itself — σύ is the dictionary form
+50:21 C- -------- καὶ καί
+50:21 V- 3AAI-S-- παρεκάλεσεν παρακαλέω
+50:21 RP ----APM- αὐτοὺς αὐτός
+50:21 C- -------- καὶ καί
+50:21 V- 3AAI-S-- ἐλάλησεν λαλέω
+50:21 RP ----GPM- αὐτῶν αὐτός
+50:21 P- -------- εἰς εἰς
+50:21 RA ----ASF- τὴν ὁ
+50:21 N- ----ASF- καρδίαν καρδία
+50:22 C- -------- Καὶ καί
+50:22 V- 3AAI-S-- κατῴκησεν κατοικέω
+50:22 N- ----NSM- Ιωσηφ Ἰωσήφ
+50:22 P- -------- ἐν ἐν
+50:22 N- ----DSF- Αἰγύπτῳ Αἴγυπτος
+50:22 RP ----NSM- αὐτὸς αὐτός
+50:22 C- -------- καὶ καί
+50:22 RA ----NPM- οἱ ὁ
+50:22 N- ----NPM- ἀδελφοὶ ἀδελφός
+50:22 RP ----GSM- αὐτοῦ αὐτός
+50:22 C- -------- καὶ καί
+50:22 A- ----NSF- πᾶσα πᾶς
+50:22 RA ----NSF- ἡ ὁ
+50:22 N- ----NSF- πανοικία πανοικία
+50:22 RA ----GSM- τοῦ ὁ
+50:22 N- ----GSM- πατρὸς πατήρ
+50:22 RP ----GSM- αὐτοῦ αὐτός
+50:22 C- -------- καὶ καί
+50:22 V- 3AAI-S-- ἔζησεν ζάω
+50:22 N- ----NSM- Ιωσηφ Ἰωσήφ
+50:22 N- ----APN- ἔτη ἔτος
+50:22 A- ----APN- ἑκατὸν ἑκατόν  # module M, no features — MorphGNT gives ἑκατόν case, number and gender like any adjective
+50:22 A- ----APN- δέκα δέκα  # module M, no features — MorphGNT gives δέκα case, number and gender like any adjective
+50:23 C- -------- καὶ καί
+50:23 V- 3AAI-S-- εἶδεν ὁράω
+50:23 N- ----NSM- Ιωσηφ Ἰωσήφ
+50:23 N- ----GSM- Εφραιμ Ἐφραίμ
+50:23 N- ----APN- παιδία παιδίον
+50:23 P- -------- ἕως ἕως
+50:23 A- ----GSF- τρίτης τρίτος
+50:23 N- ----GSF- γενεᾶς γενεά
+50:23 C- -------- καὶ καί
+50:23 N- ----NPM- υἱοὶ υἱός
+50:23 N- ----GSM- Μαχιρ Μαχιρ
+50:23 RA ----GSM- τοῦ ὁ
+50:23 N- ----GSM- υἱοῦ υἱός
+50:23 N- ----GSM- Μανασση Μανασσῆς
+50:23 V- 3API-P-- ἐτέχθησαν τίκτω
+50:23 P- -------- ἐπὶ ἐπί
+50:23 N- ----GPM- μηρῶν μηρός
+50:23 N- ----GSM- Ιωσηφ Ἰωσήφ
+50:24 C- -------- καὶ καί
+50:24 V- 3AAI-S-- εἶπεν λέγω  # module lemma ἔπω — λέγω keeps one dictionary form across both testaments
+50:24 N- ----NSM- Ιωσηφ Ἰωσήφ
+50:24 RA ----DPM- τοῖς ὁ
+50:24 N- ----DPM- ἀδελφοῖς ἀδελφός
+50:24 RP ----GSM- αὐτοῦ αὐτός
+50:24 V- -PAPNSM- λέγων λέγω
+50:24 RP ----NS-- Ἐγὼ ἐγώ
+50:24 V- 1PAI-S-- ἀποθνῄσκω ἀποθνήσκω
+50:24 N- ----DSF- ἐπισκοπῇ ἐπισκοπή
+50:24 C- -------- δὲ δέ
+50:24 V- 3FMI-S-- ἐπισκέψεται ἐπισκέπτομαι
+50:24 RP ----AP-- ὑμᾶς σύ  # module lemma ὑμᾶς, the form itself — σύ is the dictionary form
+50:24 RA ----NSM- ὁ ὁ
+50:24 N- ----NSM- θεὸς θεός
+50:24 C- -------- καὶ καί
+50:24 V- 3FAI-S-- ἀνάξει ἀνάγω
+50:24 RP ----AP-- ὑμᾶς σύ  # module lemma ὑμᾶς, the form itself — σύ is the dictionary form
+50:24 P- -------- ἐκ ἐκ
+50:24 RA ----GSF- τῆς ὁ
+50:24 N- ----GSF- γῆς γῆ
+50:24 RD ----GSF- ταύτης οὗτος
+50:24 P- -------- εἰς εἰς
+50:24 RA ----ASF- τὴν ὁ
+50:24 N- ----ASF- γῆν γῆ
+50:24 RR ----ASF- ἣν ὅς
+50:24 V- 3AAI-S-- ὤμοσεν ὄμνυμι  # module lemma ὀμνύω — ὄμνυμι, as Middle Liddell heads it
+50:24 RA ----NSM- ὁ ὁ
+50:24 N- ----NSM- θεὸς θεός
+50:24 RA ----DPM- τοῖς ὁ
+50:24 N- ----DPM- πατράσιν πατήρ
+50:24 RP ----GP-- ἡμῶν ἐγώ  # module lemma ἡμῶν, the form itself — ἐγώ is the dictionary form
+50:24 N- ----DSM- Αβρααμ Ἀβραάμ
+50:24 C- -------- καὶ καί
+50:24 N- ----DSM- Ισαακ Ἰσαάκ
+50:24 C- -------- καὶ καί
+50:24 N- ----DSM- Ιακωβ Ἰακώβ
+50:25 C- -------- καὶ καί
+50:25 V- 3AAI-S-- ὥρκισεν ὁρκίζω
+50:25 N- ----NSM- Ιωσηφ Ἰωσήφ
+50:25 RA ----APM- τοὺς ὁ
+50:25 N- ----APM- υἱοὺς υἱός
+50:25 N- ----GSM- Ισραηλ Ἰσραήλ
+50:25 V- -PAPNSM- λέγων λέγω
+50:25 P- -------- Ἐν ἐν
+50:25 RA ----DSF- τῇ ὁ
+50:25 N- ----DSF- ἐπισκοπῇ ἐπισκοπή
+50:25 RR ----DSF- ᾗ ὅς
+50:25 V- 3FMI-S-- ἐπισκέψεται ἐπισκέπτομαι
+50:25 RP ----AP-- ὑμᾶς σύ  # module lemma ὑμᾶς, the form itself — σύ is the dictionary form
+50:25 RA ----NSM- ὁ ὁ
+50:25 N- ----NSM- θεός θεός
+50:25 C- -------- καὶ καί
+50:25 V- 2FAI-P-- συνανοίσετε συναναφέρω
+50:25 RA ----APN- τὰ ὁ
+50:25 N- ----APN- ὀστᾶ ὀστέον
+50:25 RP ----GS-- μου ἐγώ  # module lemma μου, the form itself — ἐγώ is the dictionary form
+50:25 D- -------- ἐντεῦθεν ἐντεῦθεν
+50:25 P- -------- μεθʼ μετά
+50:25 RP ----GP-- ὑμῶν σύ  # module lemma ὑμῶν, the form itself — σύ is the dictionary form
+50:26 C- -------- καὶ καί
+50:26 V- 3AAI-S-- ἐτελεύτησεν τελευτάω
+50:26 N- ----NSM- Ιωσηφ Ἰωσήφ
+50:26 N- ----GPN- ἐτῶν ἔτος
+50:26 A- ----GPN- ἑκατὸν ἑκατόν  # module M, no features — MorphGNT gives ἑκατόν case, number and gender like any adjective
+50:26 A- ----GPN- δέκα δέκα  # module M, no features — MorphGNT gives δέκα case, number and gender like any adjective
+50:26 C- -------- καὶ καί
+50:26 V- 3AAI-P-- ἔθαψαν θάπτω
+50:26 RP ----ASM- αὐτὸν αὐτός
+50:26 C- -------- καὶ καί
+50:26 V- 3AAI-P-- ἔθηκαν τίθημι
+50:26 P- -------- ἐν ἐν
+50:26 RA ----DSF- τῇ ὁ
+50:26 N- ----DSF- σορῷ σορός
+50:26 P- -------- ἐν ἐν
+50:26 N- ----DSF- Αἰγύπτῳ Αἴγυπτος
