@@ -6521,3 +6521,55 @@ already left both out.
 **The εἴδω note on ὁράω.** Eleven aorists of ὁράω, 18:2 to 28:6, carried the note written for
 οἶδα's pluperfect, *Middle Liddell files this under οἶδα*. They now read as the other twenty do:
 *Middle Liddell files the aorist under ὁράω*.
+
+### Words new in GEN 44
+
+From Middle Liddell unless marked; the headword is the entry's first translation in the form the
+text uses.
+
+- πίμπλημι (aorist imperative) — `fill full of`, the active chain of 21:19. 44:1.
+- κόνδυ — LSJ, one translation, *drinking-vessel*: plain text, `the drinking-vessel`. LSJ cites the
+  chapter for the word as a measure. 44:2–17.
+- ἀργυροῦς with its own article after the noun — `the silver`, chain `the silver, the of silver`, as
+  τὸ σπέρμα reads *the that which is sown*. 44:2, 44:5.
+- τιμή (articular) — `the that which is paid in token of worth`, the chain of 20:16 with the
+  article on every sense. 44:2.
+- διαφαύσκω — one translation with a comma, *to shew light through, to dawn*: `shewed light through
+  and dawned`. 44:3.
+- τὸ πρωί as a subject — `the thing early in the day`, the neuter's noun before the adverb's unit,
+  as 19:27 has it in the accusative. 44:3.
+- ἀποστέλλω (aorist passive) — `were sent off`, `were sent away and banished`, `were sent off and
+  despatched`: the transitive senses, without the intransitive *go away, depart*. 44:3.
+- ἀπέχω (aorist, intransitive in use) — `kept off`, the chain of 43:23 in the third plural. 44:4.
+- μακράν — **headword** `a long way`; **chain** `a long way and far and far away, far from, at
+  length, long`. `NOT_SENSES` drops the repeated *far* of an example and the comparative's and
+  superlative's *to a greater distance* and *as far as possible*. 44:4.
+- ἐπιδιώκω — one translation, *to pursue after*: plain text. 44:4.
+- καταλαμβάνω (future middle) — `you will seize upon`, the chain of 31:23. 44:4.
+- ἀνταποδίδωμι — **headword** `you gave back`; **chain** `you gave back and repaid and tendered in
+  repayment or requital, you made a return, you made correspondent, you answered to and
+  corresponded with, you gave back words and answered, you delivered in turn`. *requital* is the
+  other half of an *or*; the last *to give back*, of a sound, repeats the first. 44:4.
+- οἰωνισμός — LSJ "= foreg.", pointing to οἴωνισμα, *omen from the flight or cries of birds*: one
+  translation, plain text, `to omen from the flight or cries of birds`. 44:5, 44:15.
+- οἰωνίζομαι — **headword** `takes omens from the flight and cries of birds`; **chain** adds
+  *divines from omens and augurs*; the future, `will take omens …`. 44:5, 44:15.
+- συντελέω (perfect, middle or passive, with an object) — `you have brought quite to an end and it
+  stands so`, the four senses 18:21 gives the voice. 44:5.
+- θηριόβρωτος — LSJ "= θηρόβορος", *eaten or torn by wild beasts*: one gloss, plain text. 44:28.
+- ἐκκρέμαμαι — Middle Liddell prints the passive at the end of ἐκκρεμάννυμι (`SPELLING`).
+  **Headword** `is hung from`, the first sense in the passive; **chain** `is hung from or upon,
+  hangs on by and clings to, is devoted to, hangs from and depends upon`, the passive's own senses
+  after it. 44:30.
+- ἐπιμελέομαι — **headword** `I take care of`; **chain** `I take care of and have charge of and have
+  the management of, I take care that, I give heed and attend, I am curator of`. 44:21.
+- δύο — `two, two and two`. 44:27.
+- παραμένω — **headword** `I will stay beside`; **chain** `I will stay beside or near and stand by,
+  I will remain faithful, I will stand my ground and stand fast, I will remain with, I will stay,
+  I will stay behind or at home, I will survive and remain alive, I will endure and last`. *trusty*
+  glosses the slave's name Παρμένων and is in `NOT_SENSES`. 44:33.
+- οἰκέτης (singular) — `house-slave, menial`, the senses of 9:25 without the article. 44:33.
+- ἐν τῷ ἰδεῖν — `in the seeing`, merged with ἐν, as 11:2's ἐν τῷ κινῆσαι. 44:31.
+- γυνή and τίκτω — the corpus chains, `the woman … the mortal woman` and `brought into the world …
+  begot, produced and yielded`; the drafts' shorter keys were stale. 44:27.
+- γῆρας, ἐπιδιώκω, κόνδυ, οἰωνισμός, θηριόβρωτος — one translation each: plain text.

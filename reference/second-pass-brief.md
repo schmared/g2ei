@@ -427,6 +427,19 @@ that μήποτε `X-` all three times it has it (Luke 3:15, John 7:26, 2 Tim 2:
 pass had `D-`. πρεσβύτερος stays filed under itself, the fourth time the second pass has put it
 under πρέσβυς. The instructions now name both.
 
+### What it found in Genesis 44
+
+Four disagreements over 761 words, and the second pass had three of them right. τὸ πρωὶ διέφαυσεν
+makes a noun of the adverb as the subject of the verb, the morning dawned, so τό is nominative, where
+the first pass had carried over the accusative of ὤρθρισεν … τὸ πρωί; τί in Τί ὅτι is the accusative
+the brief already names; and ἐθυμώθη's subjunctive θυμωθῇς goes under θυμόομαι, as the brief has it.
+The first kept ἐκκρέμαται under ἐκκρέμαμαι, as MorphGNT files ἐξεκρέματο (Luke 19:48), where the
+second had the active ἐκκρεμάννυμι; Middle Liddell prints ἐκκρέμαμαι inside that entry. One more
+the comparison passed over: the second pass gave θηριόβρωτος, a two-termination adjective, the
+masculine/feminine gender `C`, and the first had `M`. `morph_diff.py` does not count `C` against
+`M` or `F`, so read gender `C` by hand. The instructions now name the article before an adverb and
+ἐκκρέμαμαι.
+
 ## The brief
 
 Copy everything below the rule into a new agent. Replace `<BOOK NAME>`, `<CHAPTER>`,
@@ -548,6 +561,9 @@ Conventions:
   MorphGNT; so are ἡ περίχωρος, *the country round about*, and τὸ πρότερον, *before*,
   `A- ----ASNC πρότερος`, and εἰς ἀριστερά, εἰς δεξιά, neuter plural. δεκάτη, *a tenth*, is `A- ----ASF- δεκάτη`, as MorphGNT codes and files it. στεῖρα, *barren*, is `A-` under its own dictionary form, στεῖρα, as MorphGNT and
   Middle Liddell both file it.
+- An article before an adverb makes a noun of it and takes the case of its place in the clause:
+  `τὸ πρωὶ διέφαυσεν`, *the morning dawned*, τό `RA ----NSN-`; `ὤρθρισεν … τὸ πρωί`, `----ASN-`.
+- ἐκκρέμαμαι, *to hang from*, is filed under itself, as MorphGNT files ἐξεκρέματο (Luke 19:48).
 - πρεσβύτερος, *elder*, is filed under itself with degree `C` (`A- ----NSMC πρεσβύτερος`), as
   MorphGNT files it, and not under πρέσβυς.
 - μέσος with a genitive after it — `ἐν μέσῳ τοῦ …`, `ἀνὰ μέσον τοῦ …` — is the neuter

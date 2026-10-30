@@ -297,6 +297,14 @@ LSJ = {
     "ἵλεως": ["propitious, gracious", "propitious, blameless, atoned for", "gracious, kindly"],
     "ἐγκρατεύομαι": ["exercise self-control", "force oneself", "starve oneself",
                      "to be a member of the Encratite sect"],
+    # GEN 44. LSJ (eng9): "θηριόβρωτος, = θηρόβορος", a pointer, and θηρόβορος reads "eaten or
+    # torn by wild beasts": one gloss, the "or" joining a half that is none by itself.
+    "θηριόβρωτος": ["eaten or torn by wild beasts"],
+    # LSJ (eng11): "κόνδυ, drinking-vessel", citing this chapter "as a measure"; one translation.
+    # LSJ (eng16): "οἰωνισμός, = foreg.", citing 44:5, and the entry before it is οἴωνισμα,
+    # "omen from the flight or cries of birds".
+    "κόνδυ": ["drinking-vessel"],
+    "οἰωνισμός": ["omen from the flight or cries of birds"],
     "κατακενόω": ["empty", "empty of", "to be emptied, made or left empty", "make empty by leaving, desert",
                   "empty by depletion", "carry off", "empty out, pour away", "make away with", "expend",
                   "waste away, shrivel", "make empty", "make void, of no effect"],
@@ -1124,6 +1132,8 @@ NOT_SENSES = {
                   "pithy"},                     # pieces of senses, examples, and the participle's adverb
     "a)pe/xw": {"part", "to hold one's", "off", "were far from", "from", "it sufficeth, it is enough",
                "to be as far"},  # "to be as far as possible from", an example's piece
+    "makra/n": {"far", "to a greater distance", "as far as possible"},  # a repetition, and the comparative's and superlative's
+    "parame/nw": {"trusty"},                     # the slave's name Παρμένων, "trusty"; not a sense of the verb
     # ἄν: a paragraph on the particle's uses, tagged as one translation, opens the card.
     "a)/n": {'conditional Particle. In attic, it is not joined with pres. or perf. ind., nor with imperat. of any tense. Three uses of a)/n must be distinguished in practice: in combination with Conjunctions and Relatives. in Apodosis. in Iterative sentences. in combinations with Conjunctions and Relatives: such words are regularly foll. by the subj., viz. e)a/n (= ei) a)/n) h)/n, a)/n , e)ph/n; o(\\s a)/n quicunque'},
 }
@@ -1334,6 +1344,7 @@ SPELLING = {
     "ni/ptw": "ni/zw",              # the late present, filed under νίζω
     "a)pokri/nomai": "a)pokri/nw",  # MorphGNT's middle, filed under the active
     "presbu/teros": "pre/sbus",     # the comparative, filed inside the positive's entry
+    "e)kkre/mamai": "e)kkrema/nnumi",  # the passive, filed at the end of the active's entry
     "o)rqri/zw": "o)rqreu/w",       # cross-reference; "= ὀρθρεύω"
     "platei=a": "platu/s",          # the feminine used as a noun, filed inside the adjective's entry
     "suggi/nomai": "suggi/gnomai",  # the Attic spelling
