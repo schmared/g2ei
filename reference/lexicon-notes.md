@@ -6714,3 +6714,63 @@ where the Greek has none; 38:8 and the rest read `that which is sown, seed, germ
 element, offspring and issue, race and descent`, and now all do. The table's row for ἐν with
 σπέρμα named the head `in that which is sown`; 22:18 is ἐν τῷ σπέρματί σου, and the unit reads `in
 the that which is sown`.
+
+### Words new in GEN 47
+
+From Middle Liddell unless marked; the headword is the entry's first translation in the form the
+text uses. Chains already in the corpus were read from it.
+
+- νομή — **headword** `a pasture`; **chain** `a pasture and pasturage, fodder and food, a feeding and
+  grazing, a spreading, division and distribution`. *To spread* renders νομὴν ἔχειν, of a sore,
+  whole, and is in `NOT_SENSES`. 47:4.
+- ἐπίσταμαι — **headword** `you know`; **chain** `you know, you are able, you are capable, you are
+  assured, you believe that, you understand, you know and are versed in, you are acquainted with,
+  you know for certain and know well, you know that`. The participle's adjectival *knowing,
+  understanding, skilful*, *skilled*, *versed*, and the adverb's *skilfully, expertly*, are set
+  aside for the finite verb in `FORM_SENSES`. 47:5.
+- βέλτιστος, with ἐν — **headword** `in the best`; **chain** `within, inside of, and by means of
+  the best, the what is best, the aristocracy`. *My good friend*, ὦ βέλτιστε, the vocative's mode of
+  address, is in `NOT_SENSES`. The adjective has the article; γῇ after it reads `to earth`. 47:6,
+  47:11.
+- προστάσσω — **headword** `placed`; **chain** `placed, posted at, attached to and assigned to,
+  assigned, appointed, gave as a command and prescribed and enjoined, commanded and ordered`. The
+  passive's senses are set aside for the active in `FORM_SENSES`, with *to*, a piece of *to assign
+  them to his command*. 47:11.
+- σιτομετρέω (LSJ; not in Middle Liddell) — **headword** `was dealing out portions of corn or
+  provisions`; **chain** `was dealing out portions of corn or provisions, was holding office of
+  sitometres (σιτομέτρης), was supplying with provisions and victualling`. *Corn or provisions* is one
+  translation, the *or* finishing what *corn* began. The passive's *have it served out as rations*
+  is not the active's. 47:12, 47:14.
+- ἐρημόω (aorist and future passive) — **headword** `may be stripped bare`, `will be stripped
+  bare`; **chain** `may be stripped bare and desolated and laid waste, may be bereaved, may be left,
+  may be bereft of, may be set free, may be delivered from, may be abandoned and deserted, may be
+  evacuated, may be kept in solitude and isolated, may be isolated from`. *Of* and *without*,
+  pieces of *to bereave one of* and *to leave the oars without men*, are in `NOT_SENSES`. 47:19.
+- καταδουλόω (aorist middle) — **headword** `made a slave to himself`; **chain** `made a slave to
+  himself and enslaved, enslaved in mind`. The active's *to reduce to slavery, enslave* is set aside
+  for the middle in `FORM_SENSES`. 47:21.
+- κτάομαι (perfect) — **headword** `I have acquired`; **chain** `I have acquired and it stands so, I
+  possess and have and hold`, the perfect's own senses; the present and aorist's are set aside for
+  it in `FORM_SENSES`. 47:23.
+- δόσις — `in a giving` with ἐν, `within, inside of, and by means of a giving, a gift`; articular,
+  `the giving, the gift`. 47:22.
+- ἐπιζάω — one translation, *to overlive, survive*: `overlived and survived`. 47:28.
+- ἐλεημοσύνη — one translation, *pity, mercy: a charity, alms*: `pity and mercy and a charity and
+  alms`. 47:29.
+- ἄκρον (plural) — `of mountain-tops and peaks, of headlands and forelands and capes, of ends and
+  extremities, of highest pitches and heights, of exceedingly, of highest places, of prizes, of
+  oldest rulers`; articular, `of the mountain-tops …`. 47:21.
+- Forms new here, each the chain of a form already in the corpus: ἥκω `we have come`; καθίστημι
+  `set down` (imperative, 41:33's); ἄρχων `rulers`; κατοικίζω `remove to`; γίνομαι `have come into
+  being`; εὐλογέω `having spoken well of`; σῶμα `body`, `the body`; εὑρίσκω `the thing having been
+  found`; ἀγοράζω `were being in the agora (ἀγορά)`; ἀποθνήσκω `we die off`; ἐκλείπω `has left out`;
+  ἵππος `of the horses`; βοῦς `of the bullocks`; ὄνος `of the asses`; ἐκτρέφω `brought up from
+  childhood`; ἄρτος `in cakes`; ἐκτρίβω `we may be rubbed out`; ὑπολείπω `is left behind`; κτάομαι
+  `procure for yourself`; σπείρω `we may sow`, `sow`; ὅριον `of boundaries`; ἱερεύς `of the priests`,
+  `to the priests`; δόμα `gift`; ἐσθίω `were eating`; πέμπτος `the fifth`; μέρος `part`, `parts`
+  (23:9's selection); σῴζω `you have saved`; πρόσταγμα `an ordinance`; ἀποπεμπτόω `to give a fifth
+  part of`; κληρονομέω `received a share of an inheritance`; ἐνιαυτός `of long periods of time`;
+  ὑποτίθημι `place under` (28:18's selection); ἀλήθεια `truth`; θάπτω `you will pay the last dues to
+  a corpse`; αἴρω `you will take up`; τάφος `in the burial` (23:4's selection); ῥάβδος `of the rod`.
+- ἔτος, υἱός, σήμερον, γένημα and the numerals — one translation each: plain text. γενήματα reads
+  `the produces`, as at 41:34.

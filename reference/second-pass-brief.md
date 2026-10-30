@@ -454,6 +454,16 @@ No disagreements over 668 words, most of them names. One difference the comparis
 and the second pass had it right: πλείονι, the comparative of πολύς, takes gender `C`, `----DSCC`,
 as the corpus codes μείζων and ἐλάσσων, where the first pass had `M`.
 
+### What it found in Genesis 47
+
+Seven disagreements over 852 words. Two went to the second pass: σπείρωμεν at 47:19, which is
+present and aorist subjunctive alike, is the aorist, one sowing of the seed asked for, as σπείρατε
+at 47:23; and the first Φαραω of 47:22 is the subject of ἔδωκεν, nominative, as in ἣν ἔδωκεν αὐτοῖς
+Φαραω after it, where the first pass had read *the priests of Pharaoh*. The rest went to the
+corpus: adverbial μόνον stays `A- μόνος`, where the second pass has had it `D-` before, and ἄκρον
+is the noun, as at 28:18 and in MorphGNT's own ἀπʼ ἄκρων … ἕως τῶν ἄκρων (Matt 24:31). Both are
+now in the brief.
+
 ## The brief
 
 Copy everything below the rule into a new agent. Replace `<BOOK NAME>`, `<CHAPTER>`,
@@ -581,6 +591,11 @@ Conventions:
 - An article before an adverb makes a noun of it and takes the case of its place in the clause:
   `τὸ πρωὶ διέφαυσεν`, *the morning dawned*, τό `RA ----NSN-`; `ὤρθρισεν … τὸ πρωί`, `----ASN-`.
 - ἐκκρέμαμαι, *to hang from*, is filed under itself, as MorphGNT files ἐξεκρέματο (Luke 19:48).
+- Adverbial μόνον, *only*, is the neuter of the adjective, `A- ----ASN- μόνος`, as MorphGNT files
+  ἀλλὰ μόνον εἰπέ (Matt 8:8).
+- ἄκρον, *the furthest point, the end*, is the noun, `N- ἄκρον`, also where it stands before
+  another genitive: `ἀπʼ ἄκρων ὁρίων … ἕως τῶν ἄκρων`, as MorphGNT codes ἀπʼ ἄκρων οὐρανῶν ἕως
+  τῶν ἄκρων αὐτῶν (Matt 24:31).
 - πρεσβύτερος, *elder*, is filed under itself with degree `C` (`A- ----NSMC πρεσβύτερος`), as
   MorphGNT files it, and not under πρέσβυς.
 - μέσος with a genitive after it — `ἐν μέσῳ τοῦ …`, `ἀνὰ μέσον τοῦ …` — is the neuter

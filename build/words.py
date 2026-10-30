@@ -316,6 +316,12 @@ LSJ = {
     "ἀροτρίασις": ["ploughing, tillage"],
     "κατάλειμμα": ["remnant"],
     "πορεῖον": ["means of conveyance, carriage", "load"],
+    # GEN 47. Middle Liddell has no σιτομετρέω. LSJ (eng21): "deal out portions of corn or
+    # provisions", citing 47:12 for σ. σῖτον, one translation, "provisions" finishing what "corn"
+    # began; "hold office of σιτομέτρης"; and transitive, "supply a force with provisions, victual
+    # it". The passive's "have it served out as rations" is not a sense of the active ἐσιτομέτρει.
+    "σιτομετρέω": ["deal out portions of corn or provisions", "hold office of sitometres (σιτομέτρης)",
+                   "supply with provisions, victual"],
     "κατακενόω": ["empty", "empty of", "to be emptied, made or left empty", "make empty by leaving, desert",
                   "empty by depletion", "carry off", "empty out, pour away", "make away with", "expend",
                   "waste away, shrivel", "make empty", "make void, of no effect"],
@@ -1162,6 +1168,9 @@ NOT_SENSES = {
     "xai/rw": {"I rejoice at", "thou wilt", "shalt not rejoice", "thou shalt", "accept the greeting",
                "taking leave", "parting", "have done with", "away with", "let", "be put aside", "may'st",
                "fare well", "with a benison", "welcome", "S. D."},  # pieces of examples and constructions
+    "nomh/": {"to spread"},                      # νομὴν ἔχειν, of a sore, rendered whole
+    "be/ltistos": {"my good friend"},             # ὦ βέλτιστε, the vocative's mode of address
+    "e)rhmo/w": {"of", "without"},                # pieces of "to bereave one of", "to leave the oars without men"
     # ἄν: a paragraph on the particle's uses, tagged as one translation, opens the card.
     "a)/n": {'conditional Particle. In attic, it is not joined with pres. or perf. ind., nor with imperat. of any tense. Three uses of a)/n must be distinguished in practice: in combination with Conjunctions and Relatives. in Apodosis. in Iterative sentences. in combinations with Conjunctions and Relatives: such words are regularly foll. by the subj., viz. e)a/n (= ei) a)/n) h)/n, a)/n , e)ph/n; o(\\s a)/n quicunque'},
 }
@@ -1308,6 +1317,24 @@ FORM_SENSES = {
     # remember" — are skipped for the aorist passive of GEN 14:13, which keeps the first sense
     # and its own "Pass. to return safe".
     "a)nasw/zw": [("A", "P", {"to recover", "for oneself", "to preserve in mind, remember"})],
+    # ἐπίσταμαι: the participle "is often also used as an adj., knowing, understanding, skilful",
+    # and "c. gen. skilled or versed"; the adverb is "skilfully, expertly". None is a sense of the
+    # finite verb, GEN 47:5's ἐπίστῃ.
+    "e)pi/stamai": [("PIFAXY", "AMPE", {"knowing, understanding, skilful", "skilled", "versed",
+                                         "skilfully, expertly"}, "^(?!επισταμεν)")],
+    # κτάομαι: "Dep. in pres., imperf., fut. and aor1 … in perf. and plup. … to have acquired, i. e.
+    # to possess, have, hold". GEN 47:23's perfect κέκτημαι takes the perfect's senses only; the
+    # participle's "an owner, master" and the aorist passive's "to be gotten" are neither.
+    "kta/omai": [("XY", "AMPE", {"to procure for oneself, to get, gain, acquire", "to win",
+                                 "to bring upon oneself, incur", "to make", "to procure", "get",
+                                 "an owner, master", "lord and master", "to be gotten", "to get one's"})],
+    # καταδουλόω: "Mid. to make a slave to oneself, to enslave". GEN 47:21's aorist middle
+    # κατεδουλώσατο takes the middle's senses, not the active "to reduce to slavery, enslave".
+    "katadoulo/w": [("PIFAXY", "M", {"to reduce to slavery, enslave"})],
+    # προστάσσω: GEN 47:11's active προσέταξεν takes none of the passive's senses ("orders had been
+    # given" … "to receive orders"); "to" is a piece of "to assign them to his command".
+    "prosta/ssw": [("PIFAXY", "A", {"to", "orders had been given", "orders given", "orders that will be given",
+                                    "the order having been given", "to be ordered", "to receive orders"})],
     "pau/w": [("PIFAXY", "MEP", {
         "to make to cease", "to bring to an end, check, make an end of", "to make an end of, stop, abate",
         "to let", "rest", "to annul", "to put", "down", "to make to rest, stop, hinder, keep back from",
