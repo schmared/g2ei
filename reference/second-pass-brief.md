@@ -418,6 +418,15 @@ of τὸ αἷμα αὐτοῦ, after τὸ παιδάριον, is masculine: M
 at Matt 2:11 and 2:13, the passage the second pass cited for the neuter. The instructions now
 name all three.
 
+### What it found in Genesis 43
+
+Three disagreements over 795 words. The second pass had στακτήν right: it is the adjective
+στακτός used as a noun, `A-`, as at 37:25, where the first had made a noun of it. The first had
+the other two. μήποτε at 43:12, μήποτε ἀγνόημά ἐστιν, is *perhaps*, not *lest*, and MorphGNT tags
+that μήποτε `X-` all three times it has it (Luke 3:15, John 7:26, 2 Tim 2:25), where the second
+pass had `D-`. πρεσβύτερος stays filed under itself, the fourth time the second pass has put it
+under πρέσβυς. The instructions now name both.
+
 ## The brief
 
 Copy everything below the rule into a new agent. Replace `<BOOK NAME>`, `<CHAPTER>`,
@@ -470,7 +479,8 @@ Small words are tagged as MorphGNT tags them:
 - **X-** also ἴδε, *behold*, as MorphGNT tags it. But ἰδέ, accented on the last syllable as Rahlfs
   prints it at `ἰδὲ ἀπὸ τοῦ τόπου`, is the aorist imperative of ὁράω, `V- 2AAD-S--`
 - **X-** ἄν; ἐάν where it stands for ἄν after a relative (`ὃ ἐὰν θέλητε`, John 15:7); ἰδού;
-  μή opening a question that expects *no*
+  μή opening a question that expects *no*; μήποτε meaning *perhaps* (`μήποτε ἀληθῶς ἔγνωσαν`,
+  John 7:26)
 - **A-** εὐθύς meaning *immediately*, `A- ----NSM-`, as MorphGNT codes it all 51 times; χήρα, *widow*, `A-` under χήρα, as MorphGNT codes it all 26 times
 - **D-** αὐτοῦ meaning *here*, under the lemma αὐτοῦ, as MorphGNT has it (Matt 26:36); κύκλῳ, *round
   about*, under κύκλῳ (Mark 3:34); πρωΐ, filed as
@@ -538,6 +548,8 @@ Conventions:
   MorphGNT; so are ἡ περίχωρος, *the country round about*, and τὸ πρότερον, *before*,
   `A- ----ASNC πρότερος`, and εἰς ἀριστερά, εἰς δεξιά, neuter plural. δεκάτη, *a tenth*, is `A- ----ASF- δεκάτη`, as MorphGNT codes and files it. στεῖρα, *barren*, is `A-` under its own dictionary form, στεῖρα, as MorphGNT and
   Middle Liddell both file it.
+- πρεσβύτερος, *elder*, is filed under itself with degree `C` (`A- ----NSMC πρεσβύτερος`), as
+  MorphGNT files it, and not under πρέσβυς.
 - μέσος with a genitive after it — `ἐν μέσῳ τοῦ …`, `ἀνὰ μέσον τοῦ …` — is the neuter
   adjective used as a noun: `A- ----DSN-`, `A- ----ASN-`.
 - A word of address is vocative, case `V` — but a declined nominative form used in address stays

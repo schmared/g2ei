@@ -1,0 +1,823 @@
+# Genesis 43 — morphology, one word per line.
+#
+# This is the project's own grammatical analysis of each form, written alongside the
+# transcription and not copied from any digital edition.
+#
+# Columns: verse, part of speech, parse, form, lemma — in MorphGNT's code scheme, so
+# the Old and New Testament layers read alike. The parse is eight places: person,
+# tense, voice, mood, case, number, gender, degree ("-" where it does not apply).
+#
+# Two codes go beyond MorphGNT, both to record only what the form itself says:
+#   voice  E  middle/passive — a tense in which the two share one form
+#   gender C  masculine/feminine — an adjective whose form does not distinguish them
+#
+# A trailing annotation records a deliberate difference and the reason for it:
+#   "# module …"  from the reference module, checked when LXX_RAHLFS_DIR is set
+#   "# corpus …"  from this project's own analysis of the same form elsewhere
+# A line may carry both. validate.py prints them as notes instead of failures — and
+# fails if the difference a note claims is not there, so they cannot go stale. The
+# analysis here is this project's own: the module is a reference, not an authority,
+# and the corpus is held to itself.
+#
+# Indeclinables take case and number from the syntax, as MorphGNT does, and gender
+# where there is one to take: a personal name, from the person; a numeral agreeing
+# with its noun; a common noun whose article shows it — but not an indeclinable place
+# name, which has none. A personal name the New Testament also uses takes MorphGNT's
+# dictionary form (Νῶε, Σήμ); every other Semitic name (Χαμ, Ιαφεθ), the form Rahlfs
+# prints.
+
+43:1 RA ----NSM- Ὁ ὁ
+43:1 C- -------- δὲ δέ
+43:1 N- ----NSM- λιμὸς λιμός
+43:1 V- 3AAI-S-- ἐνίσχυσεν ἐνισχύω
+43:1 P- -------- ἐπὶ ἐπί
+43:1 RA ----GSF- τῆς ὁ
+43:1 N- ----GSF- γῆς γῆ
+43:2 V- 3AMI-S-- ἐγένετο γίνομαι
+43:2 C- -------- δὲ δέ
+43:2 C- -------- ἡνίκα ἡνίκα
+43:2 V- 3AAI-P-- συνετέλεσαν συντελέω
+43:2 V- -AAN---- καταφαγεῖν κατεσθίω
+43:2 RA ----ASM- τὸν ὁ
+43:2 N- ----ASM- σῖτον σῖτος
+43:2 RR ----ASM- ὃν ὅς
+43:2 V- 3AAI-P-- ἤνεγκαν φέρω
+43:2 P- -------- ἐξ ἐκ
+43:2 N- ----GSF- Αἰγύπτου Αἴγυπτος
+43:2 C- -------- καὶ καί
+43:2 V- 3AAI-S-- εἶπεν λέγω  # module lemma ἔπω — λέγω keeps one dictionary form across both testaments
+43:2 RP ----DPM- αὐτοῖς αὐτός
+43:2 RA ----NSM- ὁ ὁ
+43:2 N- ----NSM- πατὴρ πατήρ
+43:2 RP ----GPM- αὐτῶν αὐτός
+43:2 D- -------- Πάλιν πάλιν
+43:2 V- -APPNPM- πορευθέντες πορεύομαι
+43:2 V- 2AMD-P-- πρίασθε πρίαμαι
+43:2 RP ----DP-- ἡμῖν ἐγώ  # module lemma ἡμῖν, the form itself — ἐγώ is the dictionary form
+43:2 A- ----APN- μικρὰ μικρός
+43:2 N- ----APN- βρώματα βρῶμα
+43:3 V- 3AAI-S-- εἶπεν λέγω  # module lemma ἔπω — λέγω keeps one dictionary form across both testaments
+43:3 C- -------- δὲ δέ
+43:3 RP ----DSM- αὐτῷ αὐτός
+43:3 N- ----NSM- Ιουδας Ἰούδας
+43:3 V- -PAPNSM- λέγων λέγω
+43:3 N- ----DSF- Διαμαρτυρίᾳ διαμαρτυρία  # module ASF — Rahlfs prints the iota subscript: the dative, the noun of διαμεμαρτύρηται's own root
+43:3 V- 3XEI-S-- διαμεμαρτύρηται διαμαρτύρομαι  # module lemma διαμαρτυρέω — the Attic law-term, to use a διαμαρτυρία; the deponent διαμαρτύρομαι is to protest solemnly
+43:3 RP ----DP-- ἡμῖν ἐγώ  # module lemma ἡμῖν, the form itself — ἐγώ is the dictionary form
+43:3 RA ----NSM- ὁ ὁ
+43:3 N- ----NSM- ἄνθρωπος ἄνθρωπος
+43:3 V- -PAPNSM- λέγων λέγω
+43:3 D- -------- Οὐκ οὐ
+43:3 V- 2FMI-P-- ὄψεσθε ὁράω
+43:3 RA ----ASN- τὸ ὁ
+43:3 N- ----ASN- πρόσωπόν πρόσωπον
+43:3 RP ----GS-- μου ἐγώ  # module lemma μου, the form itself — ἐγώ is the dictionary form
+43:3 C- -------- ἐὰν ἐάν
+43:3 D- -------- μὴ μή
+43:3 RA ----NSM- ὁ ὁ
+43:3 N- ----NSM- ἀδελφὸς ἀδελφός
+43:3 RP ----GP-- ὑμῶν σύ  # module lemma ὑμῶν, the form itself — σύ is the dictionary form
+43:3 RA ----NSM- ὁ ὁ
+43:3 A- ----NSMC νεώτερος νέος
+43:3 P- -------- μεθʼ μετά
+43:3 RP ----GP-- ὑμῶν σύ  # module lemma ὑμῶν, the form itself — σύ is the dictionary form
+43:3 V- 3PAS-S-- ᾖ εἰμί
+43:4 C- -------- εἰ εἰ
+43:4 C- -------- μὲν μέν
+43:4 C- -------- οὖν οὖν
+43:4 V- 2PAI-S-- ἀποστέλλεις ἀποστέλλω
+43:4 RA ----ASM- τὸν ὁ
+43:4 N- ----ASM- ἀδελφὸν ἀδελφός
+43:4 RP ----GP-- ἡμῶν ἐγώ  # module lemma ἡμῶν, the form itself — ἐγώ is the dictionary form
+43:4 P- -------- μεθʼ μετά
+43:4 RP ----GP-- ἡμῶν ἐγώ  # module lemma ἡμῶν, the form itself — ἐγώ is the dictionary form
+43:4 V- 1FMI-P-- καταβησόμεθα καταβαίνω
+43:4 C- -------- καὶ καί
+43:4 V- 1AAS-P-- ἀγοράσωμέν ἀγοράζω
+43:4 RP ----DS-- σοι σύ  # module lemma σοί, the form itself — σύ is the dictionary form
+43:4 N- ----APN- βρώματα βρῶμα
+43:5 C- -------- εἰ εἰ
+43:5 C- -------- δὲ δέ
+43:5 D- -------- μὴ μή
+43:5 V- 2PAI-S-- ἀποστέλλεις ἀποστέλλω
+43:5 RA ----ASM- τὸν ὁ
+43:5 N- ----ASM- ἀδελφὸν ἀδελφός
+43:5 RP ----GP-- ἡμῶν ἐγώ  # module lemma ἡμῶν, the form itself — ἐγώ is the dictionary form
+43:5 P- -------- μεθʼ μετά
+43:5 RP ----GP-- ἡμῶν ἐγώ  # module lemma ἡμῶν, the form itself — ἐγώ is the dictionary form
+43:5 D- -------- οὐ οὐ
+43:5 V- 1FMI-P-- πορευσόμεθα πορεύομαι
+43:5 RA ----NSM- ὁ ὁ
+43:5 C- -------- γὰρ γάρ
+43:5 N- ----NSM- ἄνθρωπος ἄνθρωπος
+43:5 V- 3AAI-S-- εἶπεν λέγω  # module lemma ἔπω — λέγω keeps one dictionary form across both testaments
+43:5 RP ----DP-- ἡμῖν ἐγώ  # module lemma ἡμῖν, the form itself — ἐγώ is the dictionary form
+43:5 V- -PAPNSM- λέγων λέγω
+43:5 D- -------- Οὐκ οὐ
+43:5 V- 2FMI-P-- ὄψεσθέ ὁράω
+43:5 RP ----GS-- μου ἐγώ  # module lemma μου, the form itself — ἐγώ is the dictionary form
+43:5 RA ----ASN- τὸ ὁ
+43:5 N- ----ASN- πρόσωπον πρόσωπον
+43:5 C- -------- ἐὰν ἐάν
+43:5 D- -------- μὴ μή
+43:5 RA ----NSM- ὁ ὁ
+43:5 N- ----NSM- ἀδελφὸς ἀδελφός
+43:5 RP ----GP-- ὑμῶν σύ  # module lemma ὑμῶν, the form itself — σύ is the dictionary form
+43:5 RA ----NSM- ὁ ὁ
+43:5 A- ----NSMC νεώτερος νέος
+43:5 P- -------- μεθʼ μετά
+43:5 RP ----GP-- ὑμῶν σύ  # module lemma ὑμῶν, the form itself — σύ is the dictionary form
+43:5 V- 3PAS-S-- ᾖ εἰμί
+43:6 V- 3AAI-S-- εἶπεν λέγω  # module lemma ἔπω — λέγω keeps one dictionary form across both testaments
+43:6 C- -------- δὲ δέ
+43:6 N- ----NSM- Ισραηλ Ἰσραήλ
+43:6 RI ----ASN- Τί τίς
+43:6 V- 2AAI-P-- ἐκακοποιήσατέ κακοποιέω
+43:6 RP ----AS-- με ἐγώ  # module lemma μέ, the form itself — ἐγώ is the dictionary form
+43:6 V- -AAPNPM- ἀναγγείλαντες ἀναγγέλλω
+43:6 RA ----DSM- τῷ ὁ
+43:6 N- ----DSM- ἀνθρώπῳ ἄνθρωπος
+43:6 C- -------- εἰ εἰ
+43:6 V- 3PAI-S-- ἔστιν εἰμί
+43:6 RP ----DP-- ὑμῖν σύ  # module lemma ὑμῖν, the form itself — σύ is the dictionary form
+43:6 N- ----NSM- ἀδελφός ἀδελφός
+43:7 RA ----NPM- οἱ ὁ
+43:7 C- -------- δὲ δέ
+43:7 V- 3AAI-P-- εἶπαν λέγω  # module lemma ἔπω — λέγω keeps one dictionary form across both testaments
+43:7 V- -PAPNSM- Ἐρωτῶν ἐρωτάω
+43:7 V- 3AAI-S-- ἐπηρώτησεν ἐπερωτάω
+43:7 RP ----AP-- ἡμᾶς ἐγώ  # module lemma ἡμᾶς, the form itself — ἐγώ is the dictionary form
+43:7 RA ----NSM- ὁ ὁ
+43:7 N- ----NSM- ἄνθρωπος ἄνθρωπος
+43:7 C- -------- καὶ καί
+43:7 RA ----ASF- τὴν ὁ
+43:7 N- ----ASF- γενεὰν γενεά
+43:7 RP ----GP-- ἡμῶν ἐγώ  # module lemma ἡμῶν, the form itself — ἐγώ is the dictionary form
+43:7 V- -PAPNSM- λέγων λέγω
+43:7 C- -------- Εἰ εἰ
+43:7 D- -------- ἔτι ἔτι
+43:7 RA ----NSM- ὁ ὁ
+43:7 N- ----NSM- πατὴρ πατήρ
+43:7 RP ----GP-- ὑμῶν σύ  # module lemma ὑμῶν, the form itself — σύ is the dictionary form
+43:7 V- 3PAI-S-- ζῇ ζάω
+43:7 C- -------- εἰ εἰ
+43:7 V- 3PAI-S-- ἔστιν εἰμί
+43:7 RP ----DP-- ὑμῖν σύ  # module lemma ὑμῖν, the form itself — σύ is the dictionary form
+43:7 N- ----NSM- ἀδελφός ἀδελφός
+43:7 C- -------- καὶ καί
+43:7 V- 1AAI-P-- ἀπηγγείλαμεν ἀπαγγέλλω
+43:7 RP ----DSM- αὐτῷ αὐτός
+43:7 P- -------- κατὰ κατά
+43:7 RA ----ASF- τὴν ὁ
+43:7 N- ----ASF- ἐπερώτησιν ἐπερώτησις
+43:7 RD ----ASF- ταύτην οὗτος
+43:7 X- -------- μὴ μή
+43:7 V- 1YAI-P-- ᾔδειμεν οἶδα  # module lemma εἴδω — Middle Liddell files this under οἶδα
+43:7 C- -------- εἰ εἰ
+43:7 V- 3FAI-S-- ἐρεῖ λέγω  # module lemma ἐρέω — λέγω, as MorphGNT files ἐροῦσιν (Luke 17:21)
+43:7 RP ----DP-- ἡμῖν ἐγώ  # module lemma ἡμῖν, the form itself — ἐγώ is the dictionary form
+43:7 V- 2AAD-P-- Ἀγάγετε ἄγω
+43:7 RA ----ASM- τὸν ὁ
+43:7 N- ----ASM- ἀδελφὸν ἀδελφός
+43:7 RP ----GP-- ὑμῶν σύ  # module lemma ὑμῶν, the form itself — σύ is the dictionary form
+43:8 V- 3AAI-S-- εἶπεν λέγω  # module lemma ἔπω — λέγω keeps one dictionary form across both testaments
+43:8 C- -------- δὲ δέ
+43:8 N- ----NSM- Ιουδας Ἰούδας
+43:8 P- -------- πρὸς πρός
+43:8 N- ----ASM- Ισραηλ Ἰσραήλ
+43:8 RA ----ASM- τὸν ὁ
+43:8 N- ----ASM- πατέρα πατήρ
+43:8 RP ----GSM- αὐτοῦ αὐτός
+43:8 V- 2AAD-S-- Ἀπόστειλον ἀποστέλλω
+43:8 RA ----ASN- τὸ ὁ
+43:8 N- ----ASN- παιδάριον παιδάριον
+43:8 P- -------- μετʼ μετά
+43:8 RP ----GS-- ἐμοῦ ἐγώ  # module lemma ἐμοῦ, the form itself — ἐγώ is the dictionary form
+43:8 C- -------- καὶ καί
+43:8 V- -AAPNPM- ἀναστάντες ἀνίστημι
+43:8 V- 1FMI-P-- πορευσόμεθα πορεύομαι
+43:8 C- -------- ἵνα ἵνα
+43:8 V- 1PAS-P-- ζῶμεν ζάω  # module PAI — the subjunctive after ἵνα; ζῶμεν is both
+43:8 C- -------- καὶ καί
+43:8 D- -------- μὴ μή
+43:8 V- 1AAS-P-- ἀποθάνωμεν ἀποθνήσκω
+43:8 C- -------- καὶ καί
+43:8 RP ----NP-- ἡμεῖς ἐγώ  # module lemma ἡμεῖς, the form itself — ἐγώ is the dictionary form
+43:8 C- -------- καὶ καί
+43:8 RP ----NS-- σὺ σύ
+43:8 C- -------- καὶ καί
+43:8 RA ----NSF- ἡ ὁ
+43:8 N- ----NSF- ἀποσκευὴ ἀποσκευή
+43:8 RP ----GP-- ἡμῶν ἐγώ  # module lemma ἡμῶν, the form itself — ἐγώ is the dictionary form
+43:9 RP ----NS-- ἐγὼ ἐγώ
+43:9 C- -------- δὲ δέ
+43:9 V- 1PEI-S-- ἐκδέχομαι ἐκδέχομαι
+43:9 RP ----ASM- αὐτόν αὐτός
+43:9 P- -------- ἐκ ἐκ
+43:9 N- ----GSF- χειρός χείρ
+43:9 RP ----GS-- μου ἐγώ  # module lemma μου, the form itself — ἐγώ is the dictionary form
+43:9 V- 2AAD-S-- ζήτησον ζητέω
+43:9 RP ----ASM- αὐτόν αὐτός
+43:9 C- -------- ἐὰν ἐάν
+43:9 D- -------- μὴ μή
+43:9 V- 1AAS-S-- ἀγάγω ἄγω
+43:9 RP ----ASM- αὐτὸν αὐτός
+43:9 P- -------- πρὸς πρός
+43:9 RP ----AS-- σὲ σύ  # module lemma σέ, the form itself — σύ is the dictionary form
+43:9 C- -------- καὶ καί
+43:9 V- 1AAS-S-- στήσω ἵστημι  # corpus the aorist subjunctive, coordinate with ἀγάγω under ἐὰν μή, where στήσω at 6:18 is the future — one form, two tenses
+43:9 RP ----ASM- αὐτὸν αὐτός
+43:9 P- -------- ἐναντίον ἐναντίον
+43:9 RP ----GS-- σου σύ  # module lemma σοῦ, the form itself — σύ is the dictionary form
+43:9 V- -XAPNSM- ἡμαρτηκὼς ἁμαρτάνω
+43:9 V- 1FMI-S-- ἔσομαι εἰμί
+43:9 P- -------- πρὸς πρός
+43:9 RP ----AS-- σὲ σύ  # module lemma σέ, the form itself — σύ is the dictionary form
+43:9 A- ----APF- πάσας πᾶς
+43:9 RA ----APF- τὰς ὁ
+43:9 N- ----APF- ἡμέρας ἡμέρα
+43:10 C- -------- εἰ εἰ
+43:10 D- -------- μὴ μή
+43:10 C- -------- γὰρ γάρ
+43:10 V- 1AAI-P-- ἐβραδύναμεν βραδύνω
+43:10 D- -------- ἤδη ἤδη
+43:10 X- -------- ἂν ἄν
+43:10 V- 1AAI-P-- ὑπεστρέψαμεν ὑποστρέφω
+43:10 D- -------- δίς δίς
+43:11 V- 3AAI-S-- εἶπεν λέγω  # module lemma ἔπω — λέγω keeps one dictionary form across both testaments
+43:11 C- -------- δὲ δέ
+43:11 RP ----DPM- αὐτοῖς αὐτός
+43:11 N- ----NSM- Ισραηλ Ἰσραήλ
+43:11 RA ----NSM- ὁ ὁ
+43:11 N- ----NSM- πατὴρ πατήρ
+43:11 RP ----GPM- αὐτῶν αὐτός
+43:11 C- -------- Εἰ εἰ
+43:11 D- -------- οὕτως οὕτως
+43:11 V- 3PAI-S-- ἐστίν εἰμί
+43:11 RD ----ASN- τοῦτο οὗτος
+43:11 V- 2AAD-P-- ποιήσατε ποιέω
+43:11 V- 2AAD-P-- λάβετε λαμβάνω
+43:11 P- -------- ἀπὸ ἀπό
+43:11 RA ----GPM- τῶν ὁ
+43:11 N- ----GPM- καρπῶν καρπός
+43:11 RA ----GSF- τῆς ὁ
+43:11 N- ----GSF- γῆς γῆ
+43:11 P- -------- ἐν ἐν
+43:11 RA ----DPN- τοῖς ὁ
+43:11 N- ----DPN- ἀγγείοις ἀγγεῖον
+43:11 RP ----GP-- ὑμῶν σύ  # module lemma ὑμῶν, the form itself — σύ is the dictionary form
+43:11 C- -------- καὶ καί
+43:11 V- 2AAD-P-- καταγάγετε κατάγω
+43:11 RA ----DSM- τῷ ὁ
+43:11 N- ----DSM- ἀνθρώπῳ ἄνθρωπος
+43:11 N- ----APN- δῶρα δῶρον
+43:11 RA ----GSF- τῆς ὁ
+43:11 N- ----GSF- ῥητίνης ῥητίνη
+43:11 C- -------- καὶ καί
+43:11 RA ----GSN- τοῦ ὁ
+43:11 N- ----GSN- μέλιτος μέλι
+43:11 N- ----ASN- θυμίαμα θυμίαμα
+43:11 C- -------- καὶ καί
+43:11 A- ----ASF- στακτὴν στακτός  # module lemma στακτή — στακτός, the adjective used as a noun, which Middle Liddell heads
+43:11 C- -------- καὶ καί
+43:11 N- ----ASF- τερέμινθον τερέμινθος  # module lemma τερέβινθος — τερέμινθος with the μ Rahlfs prints, where A reads β
+43:11 C- -------- καὶ καί
+43:11 N- ----APN- κάρυα κάρυον
+43:12 C- -------- καὶ καί
+43:12 RA ----ASN- τὸ ὁ
+43:12 N- ----ASN- ἀργύριον ἀργύριον
+43:12 A- ----ASN- δισσὸν δισσός
+43:12 V- 2AAD-P-- λάβετε λαμβάνω
+43:12 P- -------- ἐν ἐν
+43:12 RA ----DPF- ταῖς ὁ
+43:12 N- ----DPF- χερσὶν χείρ
+43:12 RP ----GP-- ὑμῶν σύ  # module lemma ὑμῶν, the form itself — σύ is the dictionary form
+43:12 RA ----ASN- τὸ ὁ
+43:12 N- ----ASN- ἀργύριον ἀργύριον
+43:12 RA ----ASN- τὸ ὁ
+43:12 V- -APPASN- ἀποστραφὲν ἀποστρέφω
+43:12 P- -------- ἐν ἐν
+43:12 RA ----DPM- τοῖς ὁ
+43:12 N- ----DPM- μαρσίπποις μάρσιππος
+43:12 RP ----GP-- ὑμῶν σύ  # module lemma ὑμῶν, the form itself — σύ is the dictionary form
+43:12 V- 2AAD-P-- ἀποστρέψατε ἀποστρέφω
+43:12 P- -------- μεθʼ μετά
+43:12 RP ----GP-- ὑμῶν σύ  # module lemma ὑμῶν, the form itself — σύ is the dictionary form
+43:12 X- -------- μήποτε μήποτε
+43:12 N- ----NSN- ἀγνόημά ἀγνόημα
+43:12 V- 3PAI-S-- ἐστιν εἰμί
+43:13 C- -------- καὶ καί
+43:13 RA ----ASM- τὸν ὁ
+43:13 N- ----ASM- ἀδελφὸν ἀδελφός
+43:13 RP ----GP-- ὑμῶν σύ  # module lemma ὑμῶν, the form itself — σύ is the dictionary form
+43:13 V- 2AAD-P-- λάβετε λαμβάνω
+43:13 C- -------- καὶ καί
+43:13 V- -AAPNPM- ἀναστάντες ἀνίστημι
+43:13 V- 2AAD-P-- κατάβητε καταβαίνω
+43:13 P- -------- πρὸς πρός
+43:13 RA ----ASM- τὸν ὁ
+43:13 N- ----ASM- ἄνθρωπον ἄνθρωπος
+43:14 RA ----NSM- ὁ ὁ
+43:14 C- -------- δὲ δέ
+43:14 N- ----NSM- θεός θεός
+43:14 RP ----GS-- μου ἐγώ  # module lemma μου, the form itself — ἐγώ is the dictionary form
+43:14 V- 3AAO-S-- δῴη δίδωμι
+43:14 RP ----DP-- ὑμῖν σύ  # module lemma ὑμῖν, the form itself — σύ is the dictionary form
+43:14 N- ----ASF- χάριν χάρις
+43:14 P- -------- ἐναντίον ἐναντίον
+43:14 RA ----GSM- τοῦ ὁ
+43:14 N- ----GSM- ἀνθρώπου ἄνθρωπος
+43:14 C- -------- καὶ καί
+43:14 V- 3AAO-S-- ἀποστείλαι ἀποστέλλω
+43:14 RA ----ASM- τὸν ὁ
+43:14 N- ----ASM- ἀδελφὸν ἀδελφός
+43:14 RP ----GP-- ὑμῶν σύ  # module lemma ὑμῶν, the form itself — σύ is the dictionary form
+43:14 RA ----ASM- τὸν ὁ
+43:14 A- ----ASM- ἕνα εἷς
+43:14 C- -------- καὶ καί
+43:14 RA ----ASM- τὸν ὁ
+43:14 N- ----ASM- Βενιαμιν Βενιαμίν
+43:14 RP ----NS-- ἐγὼ ἐγώ
+43:14 C- -------- μὲν μέν
+43:14 C- -------- γάρ γάρ
+43:14 C- -------- καθὰ καθά
+43:14 V- 1XEI-S-- ἠτέκνωμαι ἀτεκνόω
+43:14 V- 1XEI-S-- ἠτέκνωμαι ἀτεκνόω
+43:15 V- -AAPNPM- Λαβόντες λαμβάνω
+43:15 C- -------- δὲ δέ
+43:15 RA ----NPM- οἱ ὁ
+43:15 N- ----NPM- ἄνδρες ἀνήρ
+43:15 RA ----APN- τὰ ὁ
+43:15 N- ----APN- δῶρα δῶρον
+43:15 RD ----APN- ταῦτα οὗτος
+43:15 C- -------- καὶ καί
+43:15 RA ----ASN- τὸ ὁ
+43:15 N- ----ASN- ἀργύριον ἀργύριον
+43:15 A- ----ASN- διπλοῦν διπλοῦς
+43:15 V- 3AAI-P-- ἔλαβον λαμβάνω
+43:15 P- -------- ἐν ἐν
+43:15 RA ----DPF- ταῖς ὁ
+43:15 N- ----DPF- χερσὶν χείρ
+43:15 RP ----GPM- αὐτῶν αὐτός
+43:15 C- -------- καὶ καί
+43:15 RA ----ASM- τὸν ὁ
+43:15 N- ----ASM- Βενιαμιν Βενιαμίν
+43:15 C- -------- καὶ καί
+43:15 V- -AAPNPM- ἀναστάντες ἀνίστημι
+43:15 V- 3AAI-P-- κατέβησαν καταβαίνω
+43:15 P- -------- εἰς εἰς
+43:15 N- ----ASF- Αἴγυπτον Αἴγυπτος
+43:15 C- -------- καὶ καί
+43:15 V- 3AAI-P-- ἔστησαν ἵστημι
+43:15 P- -------- ἐναντίον ἐναντίον
+43:15 N- ----GSM- Ιωσηφ Ἰωσήφ
+43:16 V- 3AAI-S-- εἶδεν ὁράω  # module lemma εἴδω — Middle Liddell files the aorist under ὁράω
+43:16 C- -------- δὲ δέ
+43:16 N- ----NSM- Ιωσηφ Ἰωσήφ  # module ASM — the subject of εἶδεν; αὐτούς is its object
+43:16 RP ----APM- αὐτοὺς αὐτός
+43:16 C- -------- καὶ καί
+43:16 RA ----ASM- τὸν ὁ
+43:16 N- ----ASM- Βενιαμιν Βενιαμίν
+43:16 RA ----ASM- τὸν ὁ
+43:16 N- ----ASM- ἀδελφὸν ἀδελφός
+43:16 RP ----GSM- αὐτοῦ αὐτός
+43:16 RA ----ASM- τὸν ὁ
+43:16 A- ----ASM- ὁμομήτριον ὁμομήτριος
+43:16 C- -------- καὶ καί
+43:16 V- 3AAI-S-- εἶπεν λέγω  # module lemma ἔπω — λέγω keeps one dictionary form across both testaments
+43:16 RA ----DSM- τῷ ὁ
+43:16 P- -------- ἐπὶ ἐπί
+43:16 RA ----GSF- τῆς ὁ
+43:16 N- ----GSF- οἰκίας οἰκία
+43:16 RP ----GSM- αὐτοῦ αὐτός
+43:16 V- 2AAD-S-- Εἰσάγαγε εἰσάγω
+43:16 RA ----APM- τοὺς ὁ
+43:16 N- ----APM- ἀνθρώπους ἄνθρωπος
+43:16 P- -------- εἰς εἰς
+43:16 RA ----ASF- τὴν ὁ
+43:16 N- ----ASF- οἰκίαν οἰκία
+43:16 C- -------- καὶ καί
+43:16 V- 2AAD-S-- σφάξον σφάζω
+43:16 N- ----APN- θύματα θῦμα
+43:16 C- -------- καὶ καί
+43:16 V- 2AAD-S-- ἑτοίμασον ἑτοιμάζω
+43:16 P- -------- μετʼ μετά
+43:16 RP ----GS-- ἐμοῦ ἐγώ  # module lemma ἐμοῦ, the form itself — ἐγώ is the dictionary form
+43:16 C- -------- γὰρ γάρ
+43:16 V- 3FMI-P-- φάγονται ἐσθίω
+43:16 RA ----NPM- οἱ ὁ
+43:16 N- ----NPM- ἄνθρωποι ἄνθρωπος
+43:16 N- ----APM- ἄρτους ἄρτος
+43:16 RA ----ASF- τὴν ὁ
+43:16 N- ----ASF- μεσημβρίαν μεσημβρία
+43:17 V- 3AAI-S-- ἐποίησεν ποιέω
+43:17 C- -------- δὲ δέ
+43:17 RA ----NSM- ὁ ὁ
+43:17 N- ----NSM- ἄνθρωπος ἄνθρωπος
+43:17 C- -------- καθὰ καθά
+43:17 V- 3AAI-S-- εἶπεν λέγω  # module lemma ἔπω — λέγω keeps one dictionary form across both testaments
+43:17 N- ----NSM- Ιωσηφ Ἰωσήφ
+43:17 C- -------- καὶ καί
+43:17 V- 3AAI-S-- εἰσήγαγεν εἰσάγω
+43:17 RA ----APM- τοὺς ὁ
+43:17 N- ----APM- ἀνθρώπους ἄνθρωπος
+43:17 P- -------- εἰς εἰς
+43:17 RA ----ASM- τὸν ὁ
+43:17 N- ----ASM- οἶκον οἶκος
+43:17 N- ----GSM- Ιωσηφ Ἰωσήφ
+43:18 V- -AAPNPM- ἰδόντες ὁράω
+43:18 C- -------- δὲ δέ
+43:18 RA ----NPM- οἱ ὁ
+43:18 N- ----NPM- ἄνθρωποι ἄνθρωπος
+43:18 C- -------- ὅτι ὅτι
+43:18 V- 3API-P-- εἰσήχθησαν εἰσάγω
+43:18 P- -------- εἰς εἰς
+43:18 RA ----ASM- τὸν ὁ
+43:18 N- ----ASM- οἶκον οἶκος
+43:18 N- ----GSM- Ιωσηφ Ἰωσήφ
+43:18 V- 3AAI-P-- εἶπαν λέγω  # module lemma ἔπω — λέγω keeps one dictionary form across both testaments
+43:18 P- -------- Διὰ διά
+43:18 RA ----ASN- τὸ ὁ
+43:18 N- ----ASN- ἀργύριον ἀργύριον
+43:18 RA ----ASN- τὸ ὁ
+43:18 V- -APPASN- ἀποστραφὲν ἀποστρέφω
+43:18 P- -------- ἐν ἐν
+43:18 RA ----DPM- τοῖς ὁ
+43:18 N- ----DPM- μαρσίπποις μάρσιππος
+43:18 RP ----GP-- ἡμῶν ἐγώ  # module lemma ἡμῶν, the form itself — ἐγώ is the dictionary form
+43:18 RA ----ASF- τὴν ὁ
+43:18 N- ----ASF- ἀρχὴν ἀρχή
+43:18 RP ----NP-- ἡμεῖς ἐγώ  # module lemma ἡμεῖς, the form itself — ἐγώ is the dictionary form
+43:18 V- 1PEI-P-- εἰσαγόμεθα εἰσάγω
+43:18 RA ----GSN- τοῦ ὁ
+43:18 V- -AAN---- συκοφαντῆσαι συκοφαντέω
+43:18 RP ----AP-- ἡμᾶς ἐγώ  # module lemma ἡμᾶς, the form itself — ἐγώ is the dictionary form
+43:18 C- -------- καὶ καί
+43:18 V- -AMN---- ἐπιθέσθαι ἐπιτίθημι
+43:18 RP ----DP-- ἡμῖν ἐγώ  # module lemma ἡμῖν, the form itself — ἐγώ is the dictionary form
+43:18 RA ----GSN- τοῦ ὁ
+43:18 V- -AAN---- λαβεῖν λαμβάνω
+43:18 RP ----AP-- ἡμᾶς ἐγώ  # module lemma ἡμᾶς, the form itself — ἐγώ is the dictionary form
+43:18 P- -------- εἰς εἰς
+43:18 N- ----APM- παῖδας παῖς
+43:18 C- -------- καὶ καί
+43:18 RA ----APM- τοὺς ὁ
+43:18 N- ----APM- ὄνους ὄνος
+43:18 RP ----GP-- ἡμῶν ἐγώ  # module lemma ἡμῶν, the form itself — ἐγώ is the dictionary form
+43:19 V- -AAPNPM- προσελθόντες προσέρχομαι
+43:19 C- -------- δὲ δέ
+43:19 P- -------- πρὸς πρός
+43:19 RA ----ASM- τὸν ὁ
+43:19 N- ----ASM- ἄνθρωπον ἄνθρωπος
+43:19 RA ----ASM- τὸν ὁ
+43:19 P- -------- ἐπὶ ἐπί
+43:19 RA ----GSM- τοῦ ὁ
+43:19 N- ----GSM- οἴκου οἶκος
+43:19 N- ----GSM- Ιωσηφ Ἰωσήφ
+43:19 V- 3AAI-P-- ἐλάλησαν λαλέω
+43:19 RP ----DSM- αὐτῷ αὐτός
+43:19 P- -------- ἐν ἐν
+43:19 RA ----DSM- τῷ ὁ
+43:19 N- ----DSM- πυλῶνι πυλών
+43:19 RA ----GSM- τοῦ ὁ
+43:19 N- ----GSM- οἴκου οἶκος
+43:20 V- -PAPNPM- λέγοντες λέγω
+43:20 V- 1PEI-P-- Δεόμεθα δέομαι
+43:20 N- ----VSM- κύριε κύριος
+43:20 V- 1AAI-P-- κατέβημεν καταβαίνω
+43:20 RA ----ASF- τὴν ὁ
+43:20 N- ----ASF- ἀρχὴν ἀρχή
+43:20 V- -AMN---- πρίασθαι πρίαμαι
+43:20 N- ----APN- βρώματα βρῶμα
+43:21 V- 3AMI-S-- ἐγένετο γίνομαι
+43:21 C- -------- δὲ δέ
+43:21 C- -------- ἡνίκα ἡνίκα
+43:21 V- 1AAI-P-- ἤλθομεν ἔρχομαι
+43:21 P- -------- εἰς εἰς
+43:21 RA ----ASN- τὸ ὁ
+43:21 V- -AAN---- καταλῦσαι καταλύω
+43:21 C- -------- καὶ καί
+43:21 V- 1AAI-P-- ἠνοίξαμεν ἀνοίγω
+43:21 RA ----APM- τοὺς ὁ
+43:21 N- ----APM- μαρσίππους μάρσιππος
+43:21 RP ----GP-- ἡμῶν ἐγώ  # module lemma ἡμῶν, the form itself — ἐγώ is the dictionary form
+43:21 C- -------- καὶ καί
+43:21 RD ----NSN- τόδε ὅδε
+43:21 RA ----NSN- τὸ ὁ
+43:21 N- ----NSN- ἀργύριον ἀργύριον
+43:21 A- ----GSM- ἑκάστου ἕκαστος
+43:21 P- -------- ἐν ἐν
+43:21 RA ----DSM- τῷ ὁ
+43:21 N- ----DSM- μαρσίππῳ μάρσιππος
+43:21 RP ----GSM- αὐτοῦ αὐτός
+43:21 RA ----ASN- τὸ ὁ
+43:21 N- ----ASN- ἀργύριον ἀργύριον
+43:21 RP ----GP-- ἡμῶν ἐγώ  # module lemma ἡμῶν, the form itself — ἐγώ is the dictionary form
+43:21 P- -------- ἐν ἐν
+43:21 N- ----DSM- σταθμῷ σταθμός
+43:21 V- 1AAI-P-- ἀπεστρέψαμεν ἀποστρέφω
+43:21 D- -------- νῦν νῦν
+43:21 P- -------- ἐν ἐν
+43:21 RA ----DPF- ταῖς ὁ
+43:21 N- ----DPF- χερσὶν χείρ
+43:21 RP ----GP-- ἡμῶν ἐγώ  # module lemma ἡμῶν, the form itself — ἐγώ is the dictionary form
+43:22 C- -------- καὶ καί
+43:22 N- ----ASN- ἀργύριον ἀργύριον
+43:22 A- ----ASN- ἕτερον ἕτερος
+43:22 V- 1AAI-P-- ἠνέγκαμεν φέρω
+43:22 P- -------- μεθʼ μετά
+43:22 RP ----GPM- ἑαυτῶν ἑαυτοῦ
+43:22 V- -AAN---- ἀγοράσαι ἀγοράζω
+43:22 N- ----APN- βρώματα βρῶμα
+43:22 D- -------- οὐκ οὐ
+43:22 V- 1XAI-P-- οἴδαμεν οἶδα
+43:22 RI ----NSM- τίς τίς
+43:22 V- 3AAI-S-- ἐνέβαλεν ἐμβάλλω
+43:22 RA ----ASN- τὸ ὁ
+43:22 N- ----ASN- ἀργύριον ἀργύριον
+43:22 P- -------- εἰς εἰς
+43:22 RA ----APM- τοὺς ὁ
+43:22 N- ----APM- μαρσίππους μάρσιππος
+43:22 RP ----GP-- ἡμῶν ἐγώ  # module lemma ἡμῶν, the form itself — ἐγώ is the dictionary form
+43:23 V- 3AAI-S-- εἶπεν λέγω  # module lemma ἔπω — λέγω keeps one dictionary form across both testaments
+43:23 C- -------- δὲ δέ
+43:23 RP ----DPM- αὐτοῖς αὐτός
+43:23 A- ----NSM- Ἵλεως ἵλεως
+43:23 RP ----DP-- ὑμῖν σύ  # module lemma ὑμῖν, the form itself — σύ is the dictionary form
+43:23 D- -------- μὴ μή
+43:23 V- 2PED-P-- φοβεῖσθε φοβέομαι  # module lemma φοβέω — φοβέομαι, as MorphGNT files it
+43:23 RA ----NSM- ὁ ὁ
+43:23 N- ----NSM- θεὸς θεός
+43:23 RP ----GP-- ὑμῶν σύ  # module lemma ὑμῶν, the form itself — σύ is the dictionary form
+43:23 C- -------- καὶ καί
+43:23 RA ----NSM- ὁ ὁ
+43:23 N- ----NSM- θεὸς θεός
+43:23 RA ----GPM- τῶν ὁ
+43:23 N- ----GPM- πατέρων πατήρ
+43:23 RP ----GP-- ὑμῶν σύ  # module lemma ὑμῶν, the form itself — σύ is the dictionary form
+43:23 V- 3AAI-S-- ἔδωκεν δίδωμι
+43:23 RP ----DP-- ὑμῖν σύ  # module lemma ὑμῖν, the form itself — σύ is the dictionary form
+43:23 N- ----APM- θησαυροὺς θησαυρός
+43:23 P- -------- ἐν ἐν
+43:23 RA ----DPM- τοῖς ὁ
+43:23 N- ----DPM- μαρσίπποις μάρσιππος
+43:23 RP ----GP-- ὑμῶν σύ  # module lemma ὑμῶν, the form itself — σύ is the dictionary form
+43:23 RA ----ASN- τὸ ὁ
+43:23 C- -------- δὲ δέ
+43:23 N- ----ASN- ἀργύριον ἀργύριον
+43:23 RP ----GP-- ὑμῶν σύ  # module lemma ὑμῶν, the form itself — σύ is the dictionary form
+43:23 V- -PAPASN- εὐδοκιμοῦν εὐδοκιμέω
+43:23 V- 1PAI-S-- ἀπέχω ἀπέχω
+43:23 C- -------- καὶ καί
+43:23 V- 3AAI-S-- ἐξήγαγεν ἐξάγω
+43:23 P- -------- πρὸς πρός
+43:23 RP ----APM- αὐτοὺς αὐτός
+43:23 RA ----ASM- τὸν ὁ
+43:23 N- ----ASM- Συμεων Συμεών
+43:24 C- -------- καὶ καί
+43:24 V- 3AAI-S-- ἤνεγκεν φέρω
+43:24 N- ----ASN- ὕδωρ ὕδωρ
+43:24 V- -AAN---- νίψαι νίπτω
+43:24 RA ----APM- τοὺς ὁ
+43:24 N- ----APM- πόδας πούς
+43:24 RP ----GPM- αὐτῶν αὐτός
+43:24 C- -------- καὶ καί
+43:24 V- 3AAI-S-- ἔδωκεν δίδωμι
+43:24 N- ----APN- χορτάσματα χόρτασμα
+43:24 RA ----DPM- τοῖς ὁ
+43:24 N- ----DPM- ὄνοις ὄνος
+43:24 RP ----GPM- αὐτῶν αὐτός
+43:25 V- 3AAI-P-- ἡτοίμασαν ἑτοιμάζω
+43:25 C- -------- δὲ δέ
+43:25 RA ----APN- τὰ ὁ
+43:25 N- ----APN- δῶρα δῶρον
+43:25 P- -------- ἕως ἕως
+43:25 RA ----GSN- τοῦ ὁ
+43:25 V- -AAN---- ἐλθεῖν ἔρχομαι
+43:25 N- ----ASM- Ιωσηφ Ἰωσήφ
+43:25 N- ----GSF- μεσημβρίας μεσημβρία
+43:25 V- 3AAI-P-- ἤκουσαν ἀκούω
+43:25 C- -------- γὰρ γάρ
+43:25 C- -------- ὅτι ὅτι
+43:25 D- -------- ἐκεῖ ἐκεῖ
+43:25 V- 3PAI-S-- μέλλει μέλλω
+43:25 V- -PAN---- ἀριστᾶν ἀριστάω
+43:26 V- 3AAI-S-- Εἰσῆλθεν εἰσέρχομαι
+43:26 C- -------- δὲ δέ
+43:26 N- ----NSM- Ιωσηφ Ἰωσήφ
+43:26 P- -------- εἰς εἰς
+43:26 RA ----ASF- τὴν ὁ
+43:26 N- ----ASF- οἰκίαν οἰκία
+43:26 C- -------- καὶ καί
+43:26 V- 3AAI-P-- προσήνεγκαν προσφέρω
+43:26 RP ----DSM- αὐτῷ αὐτός
+43:26 RA ----APN- τὰ ὁ
+43:26 N- ----APN- δῶρα δῶρον
+43:26 RR ----APN- ἃ ὅς
+43:26 V- 3IAI-P-- εἶχον ἔχω
+43:26 P- -------- ἐν ἐν
+43:26 RA ----DPF- ταῖς ὁ
+43:26 N- ----DPF- χερσὶν χείρ
+43:26 RP ----GPM- αὐτῶν αὐτός
+43:26 P- -------- εἰς εἰς
+43:26 RA ----ASM- τὸν ὁ
+43:26 N- ----ASM- οἶκον οἶκος
+43:26 C- -------- καὶ καί
+43:26 V- 3AAI-P-- προσεκύνησαν προσκυνέω
+43:26 RP ----DSM- αὐτῷ αὐτός
+43:26 P- -------- ἐπὶ ἐπί
+43:26 N- ----ASN- πρόσωπον πρόσωπον
+43:26 P- -------- ἐπὶ ἐπί
+43:26 RA ----ASF- τὴν ὁ
+43:26 N- ----ASF- γῆν γῆ
+43:27 V- 3AAI-S-- ἠρώτησεν ἐρωτάω
+43:27 C- -------- δὲ δέ
+43:27 RP ----APM- αὐτούς αὐτός
+43:27 D- -------- Πῶς πῶς
+43:27 V- 2PAI-P-- ἔχετε ἔχω
+43:27 C- -------- καὶ καί
+43:27 V- 3AAI-S-- εἶπεν λέγω  # module lemma ἔπω — λέγω keeps one dictionary form across both testaments
+43:27 RP ----DPM- αὐτοῖς αὐτός
+43:27 C- -------- Εἰ εἰ
+43:27 V- 3PAI-S-- ὑγιαίνει ὑγιαίνω
+43:27 RA ----NSM- ὁ ὁ
+43:27 N- ----NSM- πατὴρ πατήρ
+43:27 RP ----GP-- ὑμῶν σύ  # module lemma ὑμῶν, the form itself — σύ is the dictionary form
+43:27 RA ----NSM- ὁ ὁ
+43:27 A- ----NSMC πρεσβύτερος πρεσβύτερος
+43:27 RR ----ASM- ὃν ὅς
+43:27 V- 2AAI-P-- εἴπατε λέγω  # module lemma ἔπω — λέγω keeps one dictionary form across both testaments
+43:27 D- -------- ἔτι ἔτι
+43:27 V- 3PAI-S-- ζῇ ζάω
+43:28 RA ----NPM- οἱ ὁ
+43:28 C- -------- δὲ δέ
+43:28 V- 3AAI-P-- εἶπαν λέγω  # module lemma ἔπω — λέγω keeps one dictionary form across both testaments
+43:28 V- 3PAI-S-- Ὑγιαίνει ὑγιαίνω
+43:28 RA ----NSM- ὁ ὁ
+43:28 N- ----NSM- παῖς παῖς
+43:28 RP ----GS-- σου σύ  # module lemma σοῦ, the form itself — σύ is the dictionary form
+43:28 RA ----NSM- ὁ ὁ
+43:28 N- ----NSM- πατὴρ πατήρ
+43:28 RP ----GP-- ἡμῶν ἐγώ  # module lemma ἡμῶν, the form itself — ἐγώ is the dictionary form
+43:28 D- -------- ἔτι ἔτι
+43:28 V- 3PAI-S-- ζῇ ζάω
+43:28 C- -------- καὶ καί
+43:28 V- 3AAI-S-- εἶπεν λέγω  # module lemma ἔπω — λέγω keeps one dictionary form across both testaments
+43:28 A- ----NSM- Εὐλογητὸς εὐλογητός
+43:28 RA ----NSM- ὁ ὁ
+43:28 N- ----NSM- ἄνθρωπος ἄνθρωπος
+43:28 RD ----NSM- ἐκεῖνος ἐκεῖνος
+43:28 RA ----DSM- τῷ ὁ
+43:28 N- ----DSM- θεῷ θεός
+43:28 C- -------- καὶ καί
+43:28 V- -AAPNPM- κύψαντες κύπτω
+43:28 V- 3AAI-P-- προσεκύνησαν προσκυνέω
+43:28 RP ----DSM- αὐτῷ αὐτός
+43:29 V- -AAPNSM- ἀναβλέψας ἀναβλέπω
+43:29 C- -------- δὲ δέ
+43:29 RA ----DPM- τοῖς ὁ
+43:29 N- ----DPM- ὀφθαλμοῖς ὀφθαλμός
+43:29 N- ----NSM- Ιωσηφ Ἰωσήφ
+43:29 V- 3AAI-S-- εἶδεν ὁράω  # module lemma εἴδω — Middle Liddell files the aorist under ὁράω
+43:29 N- ----ASM- Βενιαμιν Βενιαμίν
+43:29 RA ----ASM- τὸν ὁ
+43:29 N- ----ASM- ἀδελφὸν ἀδελφός
+43:29 RP ----GSM- αὐτοῦ αὐτός
+43:29 RA ----ASM- τὸν ὁ
+43:29 A- ----ASM- ὁμομήτριον ὁμομήτριος
+43:29 C- -------- καὶ καί
+43:29 V- 3AAI-S-- εἶπεν λέγω  # module lemma ἔπω — λέγω keeps one dictionary form across both testaments
+43:29 RD ----NSM- Οὗτος οὗτος
+43:29 RA ----NSM- ὁ ὁ
+43:29 N- ----NSM- ἀδελφὸς ἀδελφός
+43:29 RP ----GP-- ὑμῶν σύ  # module lemma ὑμῶν, the form itself — σύ is the dictionary form
+43:29 RA ----NSM- ὁ ὁ
+43:29 A- ----NSMC νεώτερος νέος
+43:29 RR ----ASM- ὃν ὅς
+43:29 V- 2AAI-P-- εἴπατε λέγω  # module lemma ἔπω — λέγω keeps one dictionary form across both testaments
+43:29 P- -------- πρός πρός
+43:29 RP ----AS-- με ἐγώ  # module lemma μέ, the form itself — ἐγώ is the dictionary form
+43:29 V- -AAN---- ἀγαγεῖν ἄγω
+43:29 C- -------- καὶ καί
+43:29 V- 3AAI-S-- εἶπεν λέγω  # module lemma ἔπω — λέγω keeps one dictionary form across both testaments
+43:29 RA ----NSM- Ὁ ὁ
+43:29 N- ----NSM- θεὸς θεός
+43:29 V- 3AAO-S-- ἐλεήσαι ἐλεέω
+43:29 RP ----AS-- σε σύ  # module lemma σέ, the form itself — σύ is the dictionary form
+43:29 N- ----VSN- τέκνον τέκνον
+43:30 V- 3API-S-- ἐταράχθη ταράσσω
+43:30 C- -------- δὲ δέ
+43:30 N- ----NSM- Ιωσηφ Ἰωσήφ
+43:30 V- 3IEI-S-- συνεστρέφετο συστρέφω
+43:30 C- -------- γὰρ γάρ
+43:30 RA ----NPN- τὰ ὁ
+43:30 N- ----NPN- ἔντερα ἔντερον
+43:30 RP ----GSM- αὐτοῦ αὐτός
+43:30 P- -------- ἐπὶ ἐπί
+43:30 RA ----DSM- τῷ ὁ
+43:30 N- ----DSM- ἀδελφῷ ἀδελφός
+43:30 RP ----GSM- αὐτοῦ αὐτός
+43:30 C- -------- καὶ καί
+43:30 V- 3IAI-S-- ἐζήτει ζητέω
+43:30 V- -AAN---- κλαῦσαι κλαίω
+43:30 V- -AAPNSM- εἰσελθὼν εἰσέρχομαι
+43:30 C- -------- δὲ δέ
+43:30 P- -------- εἰς εἰς
+43:30 RA ----ASN- τὸ ὁ
+43:30 N- ----ASN- ταμιεῖον ταμιεῖον  # module lemma ταμεῖον — the later contracted spelling; Rahlfs prints ταμιεῖον, Middle Liddell's headword
+43:30 V- 3AAI-S-- ἔκλαυσεν κλαίω
+43:30 D- -------- ἐκεῖ ἐκεῖ
+43:31 C- -------- καὶ καί
+43:31 V- -AMPNSM- νιψάμενος νίπτω
+43:31 RA ----ASN- τὸ ὁ
+43:31 N- ----ASN- πρόσωπον πρόσωπον
+43:31 V- -AAPNSM- ἐξελθὼν ἐξέρχομαι
+43:31 V- 3AMI-S-- ἐνεκρατεύσατο ἐγκρατεύομαι
+43:31 C- -------- καὶ καί
+43:31 V- 3AAI-S-- εἶπεν λέγω  # module lemma ἔπω — λέγω keeps one dictionary form across both testaments
+43:31 V- 2AAD-P-- Παράθετε παρατίθημι
+43:31 N- ----APM- ἄρτους ἄρτος
+43:32 C- -------- καὶ καί
+43:32 V- 3AAI-P-- παρέθηκαν παρατίθημι
+43:32 RP ----DSM- αὐτῷ αὐτός
+43:32 A- ----DSM- μόνῳ μόνος
+43:32 C- -------- καὶ καί
+43:32 RP ----DPM- αὐτοῖς αὐτός
+43:32 P- -------- καθʼ κατά
+43:32 RP ----APM- ἑαυτοὺς ἑαυτοῦ
+43:32 C- -------- καὶ καί
+43:32 RA ----DPM- τοῖς ὁ
+43:32 N- ----DPM- Αἰγυπτίοις Αἰγύπτιος
+43:32 RA ----DPM- τοῖς ὁ
+43:32 V- -PAPDPM- συνδειπνοῦσιν συνδειπνέω
+43:32 P- -------- μετʼ μετά
+43:32 RP ----GSM- αὐτοῦ αὐτός
+43:32 P- -------- καθʼ κατά
+43:32 RP ----APM- ἑαυτούς ἑαυτοῦ
+43:32 D- -------- οὐ οὐ
+43:32 C- -------- γὰρ γάρ
+43:32 V- 3IEI-P-- ἐδύναντο δύναμαι
+43:32 RA ----NPM- οἱ ὁ
+43:32 N- ----NPM- Αἰγύπτιοι Αἰγύπτιος
+43:32 V- -PAN---- συνεσθίειν συνεσθίω
+43:32 P- -------- μετὰ μετά
+43:32 RA ----GPM- τῶν ὁ
+43:32 N- ----GPM- Εβραίων Ἑβραῖος
+43:32 N- ----APM- ἄρτους ἄρτος
+43:32 N- ----NSN- βδέλυγμα βδέλυγμα
+43:32 C- -------- γάρ γάρ
+43:32 V- 3PAI-S-- ἐστιν εἰμί
+43:32 RA ----DPM- τοῖς ὁ
+43:32 N- ----DPM- Αἰγυπτίοις Αἰγύπτιος
+43:33 V- 3AAI-P-- ἐκάθισαν καθίζω
+43:33 C- -------- δὲ δέ
+43:33 P- -------- ἐναντίον ἐναντίον
+43:33 RP ----GSM- αὐτοῦ αὐτός
+43:33 RA ----NSM- ὁ ὁ
+43:33 A- ----NSC- πρωτότοκος πρωτότοκος
+43:33 P- -------- κατὰ κατά
+43:33 RA ----APN- τὰ ὁ
+43:33 N- ----APN- πρεσβεῖα πρεσβεῖον
+43:33 RP ----GSM- αὐτοῦ αὐτός
+43:33 C- -------- καὶ καί
+43:33 RA ----NSM- ὁ ὁ
+43:33 A- ----NSMC νεώτερος νέος
+43:33 P- -------- κατὰ κατά
+43:33 RA ----ASF- τὴν ὁ
+43:33 N- ----ASF- νεότητα νεότης
+43:33 RP ----GSM- αὐτοῦ αὐτός
+43:33 V- 3IEI-P-- ἐξίσταντο ἐξίστημι
+43:33 C- -------- δὲ δέ
+43:33 RA ----NPM- οἱ ὁ
+43:33 N- ----NPM- ἄνθρωποι ἄνθρωπος
+43:33 A- ----NSM- ἕκαστος ἕκαστος
+43:33 P- -------- πρὸς πρός
+43:33 RA ----ASM- τὸν ὁ
+43:33 N- ----ASM- ἀδελφὸν ἀδελφός
+43:33 RP ----GSM- αὐτοῦ αὐτός
+43:34 V- 3AAI-P-- ἦραν αἴρω
+43:34 C- -------- δὲ δέ
+43:34 N- ----APF- μερίδας μερίς
+43:34 P- -------- παρʼ παρά
+43:34 RP ----GSM- αὐτοῦ αὐτός
+43:34 P- -------- πρὸς πρός
+43:34 RP ----APM- αὐτούς αὐτός
+43:34 V- 3API-S-- ἐμεγαλύνθη μεγαλύνω
+43:34 C- -------- δὲ δέ
+43:34 RA ----NSF- ἡ ὁ
+43:34 N- ----NSF- μερὶς μερίς
+43:34 N- ----GSM- Βενιαμιν Βενιαμίν
+43:34 P- -------- παρὰ παρά
+43:34 RA ----APF- τὰς ὁ
+43:34 N- ----APF- μερίδας μερίς
+43:34 A- ----GPM- πάντων πᾶς
+43:34 D- -------- πενταπλασίως πενταπλασίως
+43:34 P- -------- πρὸς πρός
+43:34 RA ----APF- τὰς ὁ
+43:34 RD ----GPM- ἐκείνων ἐκεῖνος
+43:34 V- 3AAI-P-- ἔπιον πίνω
+43:34 C- -------- δὲ δέ
+43:34 C- -------- καὶ καί
+43:34 V- 3API-P-- ἐμεθύσθησαν μεθύσκω  # module lemma μεθύω — Middle Liddell gives μεθύω only in the present and imperfect; the aorist belongs to μεθύσκω
+43:34 P- -------- μετʼ μετά
+43:34 RP ----GSM- αὐτοῦ αὐτός

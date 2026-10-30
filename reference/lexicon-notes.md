@@ -6434,3 +6434,74 @@ the formula aside; a word filed under another's entry may now carry its own `NOT
 
 **ἄν's card.** A paragraph on the particle's uses, tagged as one translation, no longer opens it;
 the card begins *perchance*.
+
+### Words new in GEN 43
+
+From Middle Liddell unless marked; the headword is the entry's first translation in the form the
+text uses.
+
+- διαμαρτυρία — Middle Liddell writes the Attic law-term in one translation, *evidence given to
+  prevent a case from coming to trial* (`MARKUP_LOST`): plain text, the dative's `to` before it.
+  43:3.
+- διαμαρτύρομαι (perfect) — **headword** `has protested solemnly`; **chain** `has protested
+  solemnly and it stands so, has protested, has protested and asseverated, has begged earnestly
+  and conjured`. 43:3.
+- ἐπερώτησις — `the questioning, the consulting`. 43:7.
+- ἐκδέχομαι — **headword** `I take`; **chain** `I take or receive from, I take up, I take up the
+  argument, I wait for and expect, I await, I come next`. The lexicon's *or* stands where the
+  *from another* that follows belongs to both verbs. 43:9.
+- βραδύνω — **headword** `we made slow`; **chain** `we made slow and delayed, we were delayed, we
+  were long and loitered and delayed`. 43:10.
+- κάρυον — `nuts, walnuts, chestnuts`. 43:11.
+- ῥητίνη and μέλι — one translation each, *the resin of the pine* and *honey* (`MARKUP_LOST`,
+  "Lat. mel, honey"): plain text. 43:11.
+- δισσός — `two-fold and double, two, double and divided and doubtful`. 43:12.
+- ἀγνόημα — `a fault of ignorance, an error`. 43:12.
+- μήποτε meaning *perhaps*, with the indicative — the corpus chain of 3:22, `that at no time,
+  lest ever, never, on no account, perhaps`. 43:12.
+- θῦμα — **headword** `things which are slain`; **chain** `things which are slain or offered,
+  victims, sacrifices, offerings`, the lexicon's *or* kept where *offered* is no gloss by itself.
+  43:16.
+- ὁμομήτριος — one translation, *born of the same mother*: plain text, `the born of the same
+  mother` after its article. 43:16, 43:29.
+- συκοφαντέω (articular infinitive) — `of the accusing falsely`; **chain** to *of the giving false
+  counsel*, without the passive's *to be falsely accused*. 43:18.
+- πυλών — `in the gateway, the gate-house`, merged with ἐν. 43:19.
+- σταθμός — Middle Liddell writes "a standing place for animals, Lat. stabulum, a stable, fold",
+  and the Latin element took the English; `MARKUP_LOST` restores *a stable, fold* as the second
+  sense. `in standing place, stable and fold, stye, dwelling and abode, quarters and lodgings,
+  station, day's journey and day's march, upright post and bearing pillar, door-post, balance,
+  weight`, merged with ἐν. *By weight* is the dative's idiom, in `NOT_SENSES`. 43:21.
+- ἵλεως — LSJ, which files the Attic ἵλεως under the epic ἵλαος; Middle Liddell has neither:
+  `propitious and gracious, propitious and blameless and atoned for, gracious and kindly`. 43:23.
+- θησαυρός — `stores laid up and treasures, store-houses and treasure-houses and magazines,
+  treasuries of a temple, receptacles, chests and caskets`. 43:23.
+- εὐδοκιμέω — `being of good repute and held in esteem and honoured and famous and popular, being
+  distinguished, having influence`. 43:23.
+- ἀπέχω (active) — **headword** `I keep off`; **chain** `I keep off or away from, I keep apart and
+  part, I am away or far from, I am distant, I am far from, I have or receive in full`. The
+  middle's *to hold oneself off, abstain, desist from* is set aside by the form (`FORM_SENSES`),
+  and *to be as far*, a piece of the example *to be as far as possible from*, by `NOT_SENSES`.
+  43:23.
+- ἀριστάω — `to take breakfast or luncheon`, one gloss. 43:25.
+- κύπτω — `having bent forward and stooped down, having hung the head from shame, having bowed
+  down under a burden`. 43:28.
+- συστρέφω (imperfect, middle or passive) — **headword** `was being twisted up into a ball`; the
+  active's transitive senses in the passive, *rally* and the passive's own *unite, club together,
+  conspire* as they stand: `…, was being collected, was rallying, was being wheeled, was being
+  turned, …, was being compressed`. 43:30.
+- ἔντερον — `the intestines and pieces of gut, the guts, the guts and bowels`. 43:30.
+- ταμιεῖον — `the treasury, the magazine`. 43:30.
+- νίπτω (aorist middle participle) — `having washed one's hands`, the middle chain of 24:32. 43:31.
+- ἐγκρατεύομαι — LSJ, citing this verse: `exercised self-control, forced himself, starved himself,
+  was a member of the Encratite sect`. 43:31.
+- συνδειπνέω (articular participle) — `to the ones dining or supping with, to the ones dining or
+  supping with others, to the members of a picnic party`. 43:32.
+- συνεσθίω — LSJ, one translation, *eat together*: plain text. 43:32.
+- βδέλυγμα — `an abomination, an idol`. 43:32.
+- πρεσβεῖον — `the gifts of honour, the privileges of age, the privileges, the rights of the
+  eldest and his shares of the inheritance`. 43:33.
+- πενταπλασίως — filed under πενταπλάσιος (`SPELLING`): `five-fold, five times as large as`. 43:34.
+- ἵστημι — ἔστησαν is both aorists' third plural; at 43:15 it has no object, and the causal
+  pattern now leaves the third plural to the intransitive, as ἀφίστημι's does: `were set`, the
+  chain of 23:17 in the plural. στήσω at 43:9 is the aorist subjunctive, `I may make to stand`.

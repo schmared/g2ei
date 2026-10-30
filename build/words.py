@@ -287,6 +287,16 @@ LSJ = {
     "ἑρμηνευτής": ["interpreter", "dragoman", "court interpreter", "matrimonial agent, go-between",
                    "broker, commissionaire", "interpreter, expounder"],
     "κατασκοπεύω": ["view closely, spy out, reconnoitre", "reconnoitre", "keep a look-out", "inspect"],
+    # GEN 43. LSJ (eng21): "συνεσθίω, eat together", citing 43:32. One translation.
+    "συνεσθίω": ["eat together"],
+    # LSJ (eng10) files ἵλεως under ἵλαος, "Att. and later ἵλεως", and Middle Liddell has
+    # neither: "propitious, gracious", of things "propitious, blameless, atoned for", of men
+    # "gracious, kindly". LSJ
+    # (eng5): ἐγκρατεύομαι, "exercise self-control", citing 43:31, "force oneself", "starve
+    # oneself", and "to be a member of the Encratite sect".
+    "ἵλεως": ["propitious, gracious", "propitious, blameless, atoned for", "gracious, kindly"],
+    "ἐγκρατεύομαι": ["exercise self-control", "force oneself", "starve oneself",
+                     "to be a member of the Encratite sect"],
     "κατακενόω": ["empty", "empty of", "to be emptied, made or left empty", "make empty by leaving, desert",
                   "empty by depletion", "carry off", "empty out, pour away", "make away with", "expend",
                   "waste away, shrivel", "make empty", "make void, of no effect"],
@@ -1110,6 +1120,14 @@ NOT_SENSES = {
     # which ναί's card sets aside as an oath formula, is the sense νή's parse calls for.
     "nh/": set(),
     # ἄν: a paragraph on the particle's uses, tagged as one translation, opens the card.
+    "diamarturi/a": {"evidence given to prevent"},  # the half the <tr> holds; MARKUP_LOST has it whole
+    "e)kde/xomai": {"succeeded"},                # an example's verb
+    "staqmo/s": {"in weight", "in", "by weight", "weights"},  # the dative's idioms and an example
+    "ku/ptw": {"with the head down", "at full speed", "stooping", "greedily", "bent"},  # examples
+    "sustre/fw": {"together", "in a body", "they were formed in a mass", "sharply", "briefly, curtly",
+                  "pithy"},                     # pieces of senses, examples, and the participle's adverb
+    "a)pe/xw": {"part", "to hold one's", "off", "were far from", "from", "it sufficeth, it is enough",
+               "to be as far"},  # "to be as far as possible from", an example's piece
     "a)/n": {'conditional Particle. In attic, it is not joined with pres. or perf. ind., nor with imperat. of any tense. Three uses of a)/n must be distinguished in practice: in combination with Conjunctions and Relatives. in Apodosis. in Iterative sentences. in combinations with Conjunctions and Relatives: such words are regularly foll. by the subj., viz. e)a/n (= ei) a)/n) h)/n, a)/n , e)ph/n; o(\\s a)/n quicunque'},
 }
 
@@ -1131,6 +1149,11 @@ _EXANISTHMI_CAUS = {
     "to raise up: to make one rise", "bid one", "rise", "to order", "to rise", "to make",
     "emigrate, to remove", "expel", "to depopulate, destroy", "to rouse", "from their lair"}
 FORM_SENSES = {
+    # ἀπέχω: "Mid. … to hold oneself off a thing, abstain or desist from it". GEN 43:23's
+    # active ἀπέχω, I have your money, takes none of the middle's.
+    "a)pe/xw": [("PIFAXY", "A", {"part", "to hold one's", "off", "were far from", "from",
+                                 "it sufficeth, it is enough", "to be as far",
+                                 "to hold oneself off", "abstain", "desist from", "to abstain from"})],
     # ἐμπίπλημι: "to fill quite full … Mid. to fill for oneself … Pass. to be filled full of".
     # GEN 42:25's ἐμπλῆσαι is the active.
     "e)mpi/plhmi": [("PIFAXY", "A", {"to fill for oneself", "to be filled full of", "to take my fill of",
@@ -1151,9 +1174,11 @@ FORM_SENSES = {
     # aorist active, the first aorist built on στησ- as ἀνίστημι's below; the intransitive,
     # the second aorist, perfect and pluperfect. "to stand" is the headline's summary of
     # the intransitive, and section B opens with "to be set". GEN 18:2's εἱστήκεισαν had
-    # read twelve senses and 12:8's ἔστησεν seven, off one card.
+    # read twelve senses and 12:8's ἔστησεν seven, off one card. ἔστησαν is both aorists'
+    # third plural, as ἀπέστησαν is below; at GEN 43:15 it has no object and is they stood,
+    # so the causal pattern leaves the third plural to the intransitive.
     "i(/sthmi": [("PIF", "A", _ISTHMI_INTR | {"to stand"}),
-                 ("A", "A", _ISTHMI_INTR | {"to stand"}, "στησ"),
+                 ("A", "A", _ISTHMI_INTR | {"to stand"}, "στησ(?!αν)"),
                  ("AXY", "A", {"to make to stand", "to stand", "to make to stand, set", "to set",
                                "in array, post", "to make to stand, stop, stay, check",
                                "to halt", "to fix", "to set up", "to raise", "up",
@@ -1278,6 +1303,8 @@ SPELLING = {
     "mimnh/skomai": "mimnh/skw",    # MorphGNT's middle, filed under the active
     "cura/w": "cure/w",             # the -άω spelling of the same verb; the entry is ξυρέω
     "ma/rsippos": "ma/rsipos",      # the spelling Rahlfs prints; Middle Liddell heads μάρσιπος
+    "pentaplasi/ws": "pentapla/sios",  # the adverb; LSJ files it inside the adjective, "Adv.
+                                        # -ως LXX Ge. 43.34", and Middle Liddell has the adjective
     "a)ggei=on": "a)/ggos",          # cross-reference; the entry reads "ἄγγος" and glosses nothing
     "nh/": "nai/",                  # "Particle of strong affirmation, like epic ναί": no translation
                                     # of its own, and the Attic form of the particle it names
@@ -1505,11 +1532,16 @@ MARKUP_LOST = {
     "o)ktw/": [(0, "eight")],                    # "Lat. octo, eight" — the whole entry
     "e(autou=": [(0, "of himself, herself, itself")],  # "Lat. sui, sibi, se, of himself, …"
     "u(po/dhma": [(1, "a shoe")],                # "Lat. calceus, a shoe"
+    "staqmo/s": [(1, "a stable, fold")],         # "a standing place for animals, Lat. stabulum, a stable, fold"
     # Not Latin, but the same loss: ἐάν reads "if haply, if, followed by subj. (whereas εἰ is
     # foll. by ind. or opt.)", and only "if haply" is a <tr>. The plain "if" after it is the
     # printed entry's own translation, left untagged; the corpus had read ἐάν as that "if"
     # alone, εἰ's English, from GEN 4 on, with no unit and no "haply".
     "e)a/n": [(1, "if")],
+    "me/li": [(0, "honey")],                     # "Lat. mel, honey" — the whole entry, all in the Latin
+    # διαμαρτυρία reads "evidence given to prevent a case from coming to trial", and the <tr> stops
+    # at "prevent": the rest of the translation is outside it.
+    "diamarturi/a": [(0, "evidence given to prevent a case from coming to trial")],
     # Not Latin either: πρίαμαι reads "to have a thing sold to one, to buy, purchase", and the
     # italic object between "to have" and "sold to one" cuts one translation into two <tr>s.
     # The object is the word's own, supplied by the text.
