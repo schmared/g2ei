@@ -198,6 +198,9 @@ FORMULAS = (
     # the same two, where the sentence ends on them (GEN 26:7)
     "was, and kept on being as a standing and continuing condition and not a momentary one.",
     "were, and kept on being as a standing and continuing condition and not a momentary one.",
+    # and where a semicolon follows them (EXO 13:17)
+    "was, and kept on being as a standing and continuing condition and not a momentary one;",
+    "were, and kept on being as a standing and continuing condition and not a momentary one;",
 )
 
 

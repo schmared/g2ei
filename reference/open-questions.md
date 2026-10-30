@@ -204,3 +204,23 @@ lexicon entry gives a word its range, which a name's gloss does not.
 
 **Recommendation:** a word where it declines and a lexicon has it; a name where it is indeclinable,
 whether or not a lexicon has it.
+
+## Q11. A run split where a passive sense hid it — ἀναγγέλλω
+
+**Where:** seventeen units from GEN 3:11 to EXO 4:28, and EXO 13:8.
+
+**Now:** Middle Liddell gives ἀναγγέλλω *to carry back tidings of, report* as one translation, and a
+passive example's *was reported* beside it. Every chain splits the run, `carried back tidings of,
+reported`, and the one-translation check lets it pass because *reported* matches *was reported*. Filing
+*was reported* as an example's piece, as EXO 13 first did, made all seventeen fail. EXO 13:8 follows the
+corpus: `you will carry back tidings of, you will report`.
+
+- now: `carried back tidings of, reported` — two items, as if two senses.
+- the run whole: `carried back tidings of and reported` — one item, and *was reported* filed, or kept for
+  the passive forms only.
+
+**The difference:** *was reported* is ML's translation of a passive form in an example, the kind the
+corpus files; kept, it lets an active chain split a run the rule says is one item.
+
+**Recommendation:** join the run in all eighteen units, and give *was reported* to the passive forms by
+`FORM_SENSES`.

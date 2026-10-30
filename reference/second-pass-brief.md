@@ -582,6 +582,12 @@ genitive after it and is the conjunction; and ἐναρχομένου at 12:18 t
 masculine. The first pass kept ὀσφύς as the corpus has it, μόνον agreeing with τοῦτο, δέσμη as LSJ
 heads it, and μισθωτός as an adjective used as a noun.
 
+### What it found in Exodus 13
+
+Three disagreements over 502 words. The second pass was right that μεταμελήσῃ files under μεταμέλει,
+Middle Liddell's impersonal headword. ὄνου stays feminine, the she-ass whose womb opens, and
+πρωτοτόκων at 13:15 neuter, as πρωτοτόκων κτηνῶν beside it and as at 11:5 and 12:29.
+
 ## The brief
 
 Copy everything below the rule into a new agent. Replace `<BOOK NAME>`, `<CHAPTER>`,

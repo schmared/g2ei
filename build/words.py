@@ -356,6 +356,9 @@ LSJ = {
     # in square". LSJ (eng7): ζωογονέω, "propagate" or "engender living creatures", "breed",
     # "engender", "to be viviparous", "produce alive", "make alive, quicken", and "= ζωγρέω, preserve
     # alive", citing Ex 1:17; "producing" is a piece of the example of Zeus and Pallas.
+    # EXO 13. Not in Middle Liddell, which has only πρωτόγονος. LSJ (eng17): πρωτογενής, "first-born,
+    # primeval", "of persons, LXX Ex. 13.2"; "Fortuna Primigenia" is a cult title.
+    "πρωτογενής": ["first-born, primeval"],
     # EXO 12. None of these is in Middle Liddell. LSJ (eng3): γειώρας, "sojourner", "proselyte". LSJ
     # (eng4): δέσμη, "package, bundle", "a measure in Egypt", "in Medicine, handful"; Rahlfs prints the
     # accusative δεσμήν, the module δέσμην. LSJ (eng5): ἐνδόσθια, "= ἐντόσθια", a pointer to ἐντόσθιος,
@@ -885,7 +888,7 @@ NOT_SENSES = {
     "sugxai/rw": {"with", "to wish", "joy of"},  # pieces of examples
     "qhla/zw": {"sucking"},                     # a piece of an example
     "a)sko/s": {"the bag", "a bag made of the skin", "to flay"},  # pieces of examples
-    "o(/rkos": {"an oath by", "oath", "the tender"},  # pieces of examples
+    "o(/rkos": {"an oath by", "oath", "the tender", "to bind", "to abide by"},  # pieces of examples
     "r(i/ptw": {"has been made"},               # a piece of an example
     "bolh/": {"stroke", "touch"},               # pieces of an example
     "a)naboa/w": {"a war-cry"},                 # a piece of an example
@@ -1004,7 +1007,7 @@ NOT_SENSES = {
     "fobero/s": {"formidable", "terror"},       # pieces of examples
     "a)/kron": {"the highest", "furthest point"},  # pieces of "the highest or furthest point"
     # GEN 29
-    "e)caei/rw": {"having bade", "rise"},       # pieces of an example
+    "e)caei/rw": {"having bade", "rise", "excites"},  # pieces of examples
     "a)napau/w": {"hinder from", "to give", "rest", "relief"},  # pieces of senses I and I.1
     "suna/gw": {"to join", "begin", "to match", "one against the other"},  # pieces of the battle sense
     "po/qen": {"from what", "how can it be? impossible!"},  # a piece of an example, and one
@@ -1047,7 +1050,7 @@ NOT_SENSES = {
     "fai/nw": {"to shew", "to make"},           # pieces of examples
     # GEN 31
     "do/ca": {"one expects", "expect"},          # pieces of an example
-    "a)lla/ssw": {"to take"},                    # a piece of "to take one thing for another"
+    "a)lla/ssw": {"to take", "for", "in turn", "in turns"},  # pieces of "to take one thing for another" and of examples
     "ge/nesis": {"by descent"},                  # a piece of an example
     "klhronomi/a": {"possession of . ."},        # a citation's debris
     "pipra/skw": {"I am bought and sold!", "betrayed, ruined, undone"},  # pieces of examples
@@ -1363,6 +1366,11 @@ NOT_SENSES = {
                "elections."},                   # examples' translations, a proverb, the note on ballot and lot
     "e)pista/ths": {"the right-", "left-hand man", "the front-rank man)", "a", "master", "which stood over"},  # παραστάτης's and προστάτης's glosses; "a training-master" cut in two, whole in MARKUP_LOST; a piece
     "be/ltistos": {"my good friend"},             # ὦ βέλτιστε, the vocative's mode of address
+    # EXO 13
+    "mnhmoneu/w": {"to call to", "mind, mention"},  # "to call to another's mind, mention", cut in two
+    "metame/lei": {"I repent of", "since it repented", "they repented that",
+                   "that which will cause regret, matter for future repentance"},  # examples' translations
+    "o(dhge/w": {"upon his way"},                # an example's piece
     # EXO 12
     "a)rke/w": {"will suffice", "'tis enough", "am content", "there is", "help", "enough", "good"},  # examples'
     "e)niau/sios": {"for a year"},               # a repeat of "for a year, lasting a year"
@@ -1479,6 +1487,15 @@ _APOLLUMI_ACT = {"to destroy utterly, kill, slay", "to destroy, demolish, waste"
 _APOLLUMI_MID = {"to perish utterly, die", "to be undone", "you are done for, lost, ruined",
                  "to be lost, slip away, vanish"}
 FORM_SENSES = {
+    # μεταμέλει: "impers. it repents me, rues me … Mid. μεταμέλομαι, to feel repentance, to rue, regret
+    # … to change one's purpose or line of conduct". EXO 13:17's μεταμελήσῃ is the impersonal active.
+    "metame/lei": [("PIFAXY", "A", {"I repent of", "since it repented", "they repented that",
+                                     "that which will cause regret, matter for future repentance",
+                                     "to feel repentance, to rue, regret", "to change one's purpose",
+                                     "line of conduct"})],
+    # ὅρκος: "on oath" is the dative's, ὅρκῳ; EXO 13:19 reads it after the noun's senses.
+    "o(/rkos": [("-", "-", NOT_SENSES["o(/rkos"], None, "^....D"),
+                ("-", "-", NOT_SENSES["o(/rkos"] | {"on oath"})],
     # σπουδή: "σπουδῇ, as adv., in haste, hastily … with great exertion … earnestly, seriously" are the
     # dative's, and "in pl. zealous exertions … also party feelings, rivalries" the plural's: EXO 12:11's
     # μετὰ σπουδῆς reads the singular's senses, 12:33's σπουδῇ those and the dative's.

@@ -3280,7 +3280,10 @@ up — where the lexicon has it intransitive; the verse's note records that. GEN
 
 - **headword:** `the one encircling` — Middle Liddell, first sense *to encircle, surround*;
   present active participle, articular.
-- **chain:** `the one encircling, surrounding, moving in a circle, going round`
+- **chain:** `the one encircling and surrounding, moving in a circle and whirling round, forming into a
+  circle` — the active's three senses, each run whole. It had read `the one encircling, surrounding,
+  moving in a circle, going round`, a run split and the middle's *to go round* taken in; EXO 13 set it
+  right beside the aorist `encircled`.
 - **used:** GEN 2:11, GEN 2:13
 
 ### πορεύομαι — present participle
@@ -7472,3 +7475,38 @@ text uses. Chains already in the corpus (Genesis) were read from it and re-infle
   ὀλιγοστός, ἐκδίκησις, ἐξολεθρεύω, ἑπτά, ἐνάρχομαι, εἰκάς, σταῖς, ζυμόω, ὦμος, ἐγκρυφίας,
   κατοίκησις, ἔτος, τετρακόσιοι, τριάκοντα, ἑξακόσιοι, ἀργυρώνητος, ἀρσενικός, ἀπερίτμητος, κίχρημι,
   συναναβαίνω, λατρευτός, ὀλεθρεύω.
+
+### Words new in EXO 13
+
+- **From LSJ** (not in Middle Liddell, which has πρωτόγονος): πρωτογενής, `first-born and primeval`
+  (13:2), beside πρωτότοκος's plain *first-born*.
+- **The impersonal**: μεταμελήσῃ is filed under μεταμέλει, Middle Liddell's headword, which the second
+  pass named and the first had as μεταμέλω. `FORM_SENSES` leaves the impersonal active the middle's
+  *to feel repentance … to change one's purpose*: `it may repent and rue, may repent, may cause
+  repentance and sorrow` (13:17).
+- **Case** (`FORM_SENSES`): ὅρκος's *on oath* is the dative's, read after the noun's senses: `to object
+  by which one swears and witness of an oath, to oath, on oath` (13:19).
+- **Pieces set aside** (`NOT_SENSES`): μνημονεύω (*to call to* … *mind, mention*, cut in two around
+  *another's*), μεταμέλει (examples' translations), ἀλλάσσω (*for*, *in turn*, *in turns*), ὁδηγέω (*upon
+  his way*), ὅρκος (*to bind*, *to abide by*), ἐξαείρω (*excites*).
+- **κυκλόω's active** takes the active's three senses: `encircled and surrounded, moved in a circle and
+  whirled round, formed into a circle` (13:18). GEN 2:11 and 2:13 had read `the one encircling,
+  surrounding, moving in a circle, going round`, a run split and the middle's *going round* taken in;
+  they now read the same three in the participle.
+- **ἀλλάσσω's active** leaves out *to buy*, the middle's, as GEN 31:7 and 35:2 have it: `you will make
+  other than it is and change and alter, …, you will take one thing for another and assume, …` (13:13).
+- **ὥρα's plural** carries the plural's seventeen senses, as GEN 18:14: `of periods, …, of Hours` (13:10).
+- **The formula** for ἦν ending in a semicolon (13:17) is read past by the bare-headword check, as its
+  comma and full-stop forms were.
+- New chains: ἁγιάζω `hallow`, `you will hallow`; διανοίγω `opening`; μνημονεύω `call to mind`; δουλεία
+  `of servitude`; ἐκπορεύομαι `you go out`, `I was going out`; νέος `of the young`; εἰσάγω `may lead in`;
+  δίδωμι `to give`; ἕβδομος `to the seventh`; ὅριον `to the boundaries`; ἀναγγέλλω `you will carry back
+  tidings of`; ὀφθαλμός `of eyes`; καιρός `due measures`; βουκόλιον `of the herds of cattle`; ὄνος `of
+  ass`; πρόβατον `to thing that walks forward`; λυτρόω `you will release on receipt of ransom`; ἐρωτάω
+  `may ask`; θύω `I offer`; ἀσάλευτος `not agitated`; ὁδηγέω `led`; μεταμέλει `it may repent`; ὁράω `to
+  having seen`; κυκλόω `encircled`; ὅρκος `to object by which one swears`; συναναφέρω `you will carry up
+  together`; ἐξαίρω `having lifted up` with `themselves`; στρατοπεδεύω `encamped`; ἡγέομαι `was going
+  before`; στῦλος `in a pillar`, `the pillar`; νεφέλη `of a cloud`, `of the cloud`; δείκνυμι `to bring to
+  light`; πῦρ `of the fire`.
+- One translation each, plain text: μήτρα (*the womb*), σήμερον (*to-day*), γάλα (*milk*), μέλι (*honey*),
+  ἕξ (*six*), ἀρσενικός (*male*).
