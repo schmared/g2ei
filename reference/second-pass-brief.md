@@ -538,6 +538,15 @@ the same letters, as the brief's rule for names has it. Both passes filed δια
 Middle Liddell's διαλέγω, read συγγενείας after κατά as the accusative plural, and gave the
 numerals of a verbless lifespan the nominative.
 
+### What it found in Exodus 7
+
+Six disagreements over 697 words, and the second pass was right on four: ἐπαοιδοί is an adjective
+used as a noun, `A-`, under the brief's rule; νοῦν goes under νόος, the uncontracted headword, as
+ὀστέον does; οὐδέ in οὐδὲ ἐπὶ τούτῳ is *not even*, `D-`; and κύκλῳ with a genitive after it is the
+preposition, `P-`, as MorphGNT codes it in Revelation — GEN 35:5 and 41:48 were corrected with it,
+and the rule above now names both uses. The first pass stands on τριῶν, gender `C` as the brief has
+τρεῖς, though its noun here is neuter.
+
 ## The brief
 
 Copy everything below the rule into a new agent. Replace `<BOOK NAME>`, `<CHAPTER>`,
@@ -594,7 +603,8 @@ Small words are tagged as MorphGNT tags them:
   John 7:26)
 - **A-** εὐθύς meaning *immediately*, `A- ----NSM-`, as MorphGNT codes it all 51 times; χήρα, *widow*, `A-` under χήρα, as MorphGNT codes it all 26 times
 - **D-** αὐτοῦ meaning *here*, under the lemma αὐτοῦ, as MorphGNT has it (Matt 26:36); κύκλῳ, *round
-  about*, under κύκλῳ (Mark 3:34); πρωΐ, filed as
+  about*, under κύκλῳ (Mark 3:34), but `P-` with a genitive after it, as MorphGNT codes κύκλῳ τοῦ
+  θρόνου (Rev 4:6); πρωΐ, filed as
   πρωΐ
 - **C-** ἄρα, *then, perhaps*, as MorphGNT codes it 46 times of 49; and the interrogative ἆρα,
   as MorphGNT codes it twice of three (Acts 8:30, Gal 2:17); and μέν, as MorphGNT codes it 156 times of 178

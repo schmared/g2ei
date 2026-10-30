@@ -356,6 +356,9 @@ LSJ = {
     # in square". LSJ (eng7): ζωογονέω, "propagate" or "engender living creatures", "breed",
     # "engender", "to be viviparous", "produce alive", "make alive, quicken", and "= ζωγρέω, preserve
     # alive", citing Ex 1:17; "producing" is a piece of the example of Zeus and Pallas.
+    # EXO 7. LSJ (eng5): ἐπόζω, "become stinking", citing Ex 7:18, one translation; not in Middle
+    # Liddell.
+    "ἐπόζω": ["become stinking"],
     # EXO 6. LSJ (eng11): καταδυναστεία, "oppression", citing Ex 6:7; Middle Liddell has the verb,
     # καταδυναστεύω, and not the noun. LSJ (eng16): ὀλιγοψυχία, "= λιποψυχία", a pointer, then
     # "faint-heartedness", citing Ex 6:9; λιποψυχία (eng12), not in Middle Liddell, reads "swooning".
@@ -1315,6 +1318,16 @@ NOT_SENSES = {
                "elections."},                   # examples' translations, a proverb, the note on ballot and lot
     "e)pista/ths": {"the right-", "left-hand man", "the front-rank man)", "a", "master", "which stood over"},  # παραστάτης's and προστάτης's glosses; "a training-master" cut in two, whole in MARKUP_LOST; a piece
     "be/ltistos": {"my good friend"},             # ὦ βέλτιστε, the vocative's mode of address
+    # EXO 7
+    "suni/sthmi": {"is joined", "were at issue"},  # examples' translations of finite forms
+    "metaba/llw": {"to throw one's", "over", "to drink different", "to change", "give up",
+                   "changing his course and turning", "to change one's", "to exchange", "for"},  # examples' pieces and translations
+    "sofisth/s": {"an adept", "a professor of"},  # an example's repeat; a piece of "a professor of grammar, rhetoric …"
+    "koitw/n": {"a chamberlain, praefectus cubiculi"},  # ὁ ἐπὶ τοῦ κοιτῶνος, the phrase's, with the Latin
+    "w(sau/tws": {"in like manner"},             # ὡσαύτως καί, an example's repeat
+    # EXO 7
+    "no/os": {"heedfully", "senselessly", "wisely", "in mind", "sensible", "one's mind", "heart and soul",
+              "intend", "to intend"},           # phrases' translations: νόῳ, παρὲκ νόον, σὺν νόῳ, ἐκ παντὸς νόου, ἐν νόῳ ἔχειν
     # EXO 6
     "su/n": {"help", "blessing", "as standing with", "on", "side, of", "party", "together", "besides, also, likewise",
              "with, along with, together", "to kill one person as well as another", "to join with another in killing.",
@@ -1571,6 +1584,24 @@ FORM_SENSES = {
     # leaves out the active "to pick out"; λυτρόω's middle, the future λυτρώσομαι, the passive.
     # ἄλογος's "brutes, animals" is τὰ ἄλογα, the neuter plural as a noun, and no other form's.
     "dhlo/w": [("PIFAXY", "A", {"to be", "become manifest"})],
+    # EXO 7. μεταβάλλω's active, but the participle, leaves out the middle's senses and the
+    # participle's adverbial "instead, in turn".
+    # συνίστημι's perfect active is intransitive: the transitive senses, and the participle-noun "the
+    # conspirators", are left out (Ex 7:19 συνεστηκὸς ὕδωρ, water standing together). ἐπιστρέφω's
+    # middle and passive take the entry's Mid. and Pass. senses, less the present participle's
+    # "constantly turning" and the perfect participle's "earnest, vehement".
+    "suni/sthmi": [("XY", "A", NOT_SENSES["suni/sthmi"] | {
+        "to set together, combine, associate, unite, band together", "to bring", "into union with", "to win, acquire",
+        "to put together, organise, frame", "to contrive", "to settle", "to bring together as friends, introduce",
+        "recommend one to another", "to offer", "as a guarantee", "the conspirators"})],
+    "e)pistre/fw": [("PIFAXY", "MEP", {
+        "to turn about, turn round", "to make a sudden tack", "to put", "to flight", "to return", "to turn towards",
+        "to press", "to turn", "to correct, make to repent", "to repent", "to curve, twist, torment",
+        "constantly turning", "earnest, vehement"})],
+    "metaba/llw": [("PIFAXY", "A", NOT_SENSES["metaba/llw"] | {
+        "instead, in turn", "to change what is one's own", "to change one with another, exchange",
+        "to barter, traffic", "to turn oneself, turn about", "to change one's purpose, change sides", "to turn",
+        "wheel about"}, None, "^...[^P]")],
     "diale/gw": [("PIFAXY", "MEP", {"to pick out one from another, to pick out"})],
     "lutro/w": [("PIFAXY", "AM", {"to be ransomed"})],
     "a)/logos": [("-", "-", NOT_SENSES["a)/logos"] | {"brutes, animals"}, None, "^.....(?!PN)")],
@@ -1652,6 +1683,7 @@ FORM_SENSES = {
 # (κατέναντι reads "= κατεναντίον" and glosses nothing itself). Each is recorded in
 # reference/lexicon-notes.md with the entry it resolves to.
 SPELLING = {
+    "e)paoido/s": "e)pw|do/s",          # ἐπαοιδός, the uncontracted ἐπῳδός, LSJ's "= ἐπῳδός" (EXO 7:11)
     # Close forms of the same word, under which Middle Liddell files it. A close form
     # counts only where it covers the form the text uses — not a compound under its
     # simplex, nor a verb under its noun, which would be composing rather than reading.

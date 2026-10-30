@@ -7214,3 +7214,42 @@ text uses. Chains already in the corpus (Genesis) were read from it and re-infle
   Οζιηλ, Μοολι, Ομουσι, Ιωχαβεδ, Μαριαμ, Ναφεκ, Ζεχρι, Ελισαφαν, Σετρι, Ελισαβεθ, Αμιναδαβ,
   Ναασσων, Ναδαβ, Αβιουδ, Ελεαζαρ, Ιθαμαρ, Ασιρ, Ελκανα, Αβιασαφ, Φουτιηλ, Φινεες, Φοίνισσα (the
   Phoenician woman, where Genesis 46:10 has Χανανῖτις). Ισσααρ is Izhar here, Jezer at GEN 46:24.
+
+### Words new in EXO 7
+
+- **From LSJ** (not in Middle Liddell): ἐπόζω, *become stinking*, plain text (7:18, 7:21).
+- **Close form**: ἐπαοιδός is ἐπῳδός uncontracted, LSJ's *= ἐπῳδός*, and reads Middle Liddell's
+  ἐπῳδός (`SPELLING`); as an adjective used as a noun it opens with *an enchanter*: `the enchanters,
+  the singing to and over, the acting as a charm for and against, the sung and said after, the
+  called after, the verses and passages returning, the choruses and burdens and refrains`. νοῦς is
+  filed under νόος, Middle Liddell's uncontracted headword, as the brief's rule for contracted forms
+  has it; the translations of phrases (νόῳ *heedfully*, σὺν νόῳ *wisely*, ἐκ παντὸς νόου *heart and
+  soul*, ἐν νόῳ ἔχειν *to intend*) are set aside: `the mind and perception, the sense, the mind and
+  heart, the mind and purpose, the sense and meaning`.
+- **Voice and form** (`FORM_SENSES`): μεταβάλλω's active, but the participle, leaves out the
+  middle's senses and the participle's *instead, in turn*; συνίστημι's perfect active is
+  intransitive, and 7:19's συνεστηκὸς ὕδωρ reads the intransitive senses, the participle's *a
+  well-disciplined*, *a standing* among them; ἐπιστρέφω's middle and passive take the entry's own
+  Mid. and Pass. senses (ἐπιστραφείς, 7:23).
+- **Pieces set aside** (`NOT_SENSES`): μεταβάλλω (examples' pieces and translations), σοφιστής (*an
+  adept* repeated, *a professor of*), κοιτών (*a chamberlain*, the phrase ὁ ἐπὶ τοῦ κοιτῶνος's),
+  ὡσαύτως (*in like manner* repeated), συνίστημι (*is joined*, *were at issue*).
+- **κύκλῳ with a genitive** is the preposition, `P-`, as MorphGNT codes κύκλῳ τοῦ θρόνου (Rev 4:6),
+  and the adverb only where it stands alone (Mark 3:34). GEN 35:5 and 41:48, both with a genitive,
+  are now `P-` too, and the brief says so.
+- New chains: λαλέω `you will talk`, `may talk`; τέρας `a sign` (the singular); ἐπιβάλλω `I will throw
+  and cast upon`; γινώσκω `will learn to know`; ἐκτείνω `stretching out`; δράκων `a dragon`,
+  `dragons`; συγκαλέω `called to council`; σοφιστής `the masters of one's craft`; φαρμακός `the
+  poisoners`; φαρμακεία `to the uses of drugs`; ὡσαύτως `in like manner and just so`; κατισχύω
+  `had power over`; βαρέω `has been weighed down … and it stands so`; ἐξαποστέλλω `of the sending
+  quite away`; ἵστημι `you will be set` (the intransitive future middle); συναντάω `meeting face to
+  face`; τύπτω `I beat`; ποταμός with ἐν, `in the river`, and `the rivers`; μεταβάλλω `will throw
+  into a different position`, `threw into a different position`; δύναμαι `will be able`; διῶρυξ `the
+  trenches`; ἕλος `the low grounds by rivers`; συνίστημι `having stood together`; ξύλον and λίθος with
+  ἐν; ἐπιστρέφω `having turned himself round`; ἀναπληρόω `were filled up`; πατάσσω `the beating`;
+  ἀναβαίνω `having gone up`, `will go up`; οἶκος `the houses`; ταμιεῖον `the treasuries`; κλίνη `of
+  the things on which one lies`; φύραμα and κλίβανος with ἐν; θεράπων `the waiting-men`.
+- One translation each, plain text: σκληρύνω, ἐκδίκησις (*an avenging*), βάτραχος (*a frog*),
+  ἐξερεύγομαι (*to empty themselves*, of rivers), κοιτών, ὀγδοήκοντα, ἑπτά.
+- καί as the adverb, `also`, at 7:11 and 7:22, ἐποίησαν καὶ οἱ ἐπαοιδοί; οὐδέ as the adverb, *not
+  even*, at 7:23, `D-`, as MorphGNT codes it where it does not mean *nor*.
