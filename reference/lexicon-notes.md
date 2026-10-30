@@ -1450,7 +1450,7 @@ the same ground as `the sixth` and `the seventh`: one sense each, so no range to
 | πορεύομαι | `you may be driven` | `you may be driven, you may be carried, you may go, you may walk, you may march, you may go across and pass` | 28:15 |
 | προσκαλέω | `having called to himself` | `having called to himself, having called to one, having called to his aid, having cited` | 28:1 |
 | στήλη | `block of stone` | `block of stone, prop and buttress to a wall, slab, gravestone, record and contract and agreement, turning-post` | 28:18, 28:22 |
-| στηρίζω | `having been made fast` | `having been made fast and standing so, having been propped, having been fixed, having been set, having been confirmed and established` | 28:12 |
+| στηρίζω | `having been made fast` | `having been made fast and propped and fixed and set and standing so, having been confirmed and established and standing so, having been fixed and settled and determined and standing so, having been firmly set and fixed and standing fast and steady and standing so` | 28:12 |
 | συναγωγή | `bringings together` | `bringings together and unitings, places of assembly and synagogues, drawings together and contractings` | 28:3 |
 | φοβερός | `fearful` | `fearful, causing fear and dreadful and terrible, matter for fear and regarded with fear` | 28:17 |
 | ἀναβαίνω | `were going up` | `were going up, were mounting, were ascending, were going up to, were rising, were coming up, were coming to and arriving at, were going up country, were going aboard` | 28:12 |
@@ -1569,7 +1569,7 @@ the same ground as `the sixth` and `the seventh`: one sense each, so no range to
 | πρόβατον | `the things that walk forward` | `the things that walk forward, the cattle, the flocks and herds, the horses, the small cattle, the sheep` | 27:9 |
 | πτερνίζω | `has struck with the heel` | `has struck with the heel and it stands so, has tripped up and supplanted and it stands so, has heeled an old shoe and it stands so` | 27:36 |
 | σκεῦος | `the vessel` | `the vessel, the implement of any kind, the inanimate object and thing, the body and the vessel of the soul` | 27:3 |
-| στηρίζω | `I made fast` | `I made fast, I propped, I fixed, I set, I confirmed and established` | 27:37 |
+| στηρίζω | `I made fast` | `I made fast and propped and fixed and set, I confirmed and established, I fixed and settled and determined` | 27:37 |
 | στολή | `the equipment` | `the equipment and armament, the equipment and raiment and apparel, the piece of dress and garment and robe` | 27:15 |
 | σῖτος | `of corn` | `of corn and grain, of food made from grain and bread, of meat, of drink` | 27:28 |
 | σῖτος | `with corn` | `with corn, with grain, with food made from grain and bread, with meat, with drink` | 27:37 |
@@ -7658,3 +7658,36 @@ text uses. Chains already in the corpus (Genesis) were read from it and re-infle
 - One translation each, plain text: γογγυσμός (*a murmuring*), διαγογγύζω, πεντεκαιδέκατος, ἕκτος, κόριον
   (*coriander*), ἐπόζω (*become stinking*), διαθερμαίνω's active (*to warm through*), στάμνος (*an earthen jar
   for racking off wine*), σαββατίζω (*to keep the Sabbath*), μέλι, ἔτος, διατήρησις, ἐγκρίς, ὄφελον.
+
+### Words new in EXO 17
+
+- **From LSJ** (not in Middle Liddell): καταλιθοβολέω, `will throw stones at and stone`, one translation,
+  citing 17:4.
+- **Spelling** (`SPELLING`): δίψος under δίψα, Middle Liddell's *= δίψα*, *thirst*, plain text (17:3).
+- **Cut translations restored** (`MARKUP_LOST`): πέτρα, *a rock, a ledge or shelf of rock*, *a rocky peak or
+  ridge*; στηρίζω, *to be firmly set or fixed, to stand fast or steady*; καταγράφω, *to fill with writing*.
+- **Form** (`FORM_SENSES`): λοιδορέω's middle reads the middle's *to rail at one another* and the deponent's
+  *to rail at*, as its active reads the active's; ἐπιλέγω's, καθίημι's and στηρίζω's actives leave out the
+  middle's and passive's; τρέπω's first aorist middle reads *to put an enemy to flight* alone, as the entry
+  gives it (17:13, plain text).
+- **Runs joined**: στηρίζω's *to make fast, prop, fix, set* had been split at GEN 27:37 and 28:12; both now
+  read it as one item and carry *to fix, settle, determine*, and the participle the passive's *to be firmly
+  set or fixed*, as 17:12 does.
+- **Pieces set aside** (`NOT_SENSES`): δίψα, λοιδορέω, πέτρα (the note on πέτρος, examples'), ἐπιλέγω, καθίημι,
+  στηρίζω, καταγράφω.
+- **Names**: Πειρασμός and Λοιδόρησις, Greek words Rahlfs prints as the place's name, as GEN 26's wells:
+  *Trial* and *Railing*, for the Hebrew Massâ and Mĕrîbâ. The altar's name, Κύριός μου καταφυγή, opens with a
+  capital and is read as words, listed in `speech`.
+- **Morphology**: τί ποιήσω (17:4) is deliberative, the aorist subjunctive, as the second pass had it, and
+  reads `I may make`; πρεσβυτέρων is comparative, as the corpus mostly codes it.
+- New chains: ῥῆμα `of that which is said`; ὕδωρ `to water`; λοιδορέω `was railing at one another`, `you rail at
+  one another`; πίνω `we may drink`, `will drink`; πειράζω `you make proof`, `the making proof`; διψάω
+  `thirsted`; γογγύζω `was muttering`; ἀναβιβάζω `you made go up`; καταλιθοβολέω `will throw stones at`;
+  πρεσβύτερος `of the elders`; πατάσσω `you beat`, `you will beat`; πορεύομαι `you will be driven`; πέτρα `of the
+  rock`, `the rock`; λοιδορία `the railing`; πολεμέω `was being at war`; ἐπιλέγω `choose`; δυνατός `strong`;
+  παρατάσσω `draw up one's men in battle-order`, `drew up …` (singular); κορυφή `of the head`, `the head`; βουνός
+  `of the hill`; κατισχύω `was having power over`; καθίημι `sent down`; βαρύς `heavy`; στηρίζω `were making fast`,
+  `having been made fast`; δυσμή `of settings`; φόνος `in murder`; καταγράφω `scratch away`; μνημόσυνον `the
+  remembrance`; βιβλίον `in a paper`; ἀλοιφή `to anything used for anointing`; καταφυγή `a refuge`; κρυφαῖος `to
+  hidden`.
+- One translation each, plain text: τρέπω's first aorist middle, δίψος, θυσιαστήριον (*an altar*).

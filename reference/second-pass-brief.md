@@ -607,6 +607,12 @@ neuter, after αὐτό at 16:15 and 16:21; that τοῦ μαρτυρίου is n
 nominative, which αὐτό takes up; and that ἕως τίνος is neuter. Σινα keeps the printed spelling, ἐλάσσων
 the corpus's lemma, and τὰ δέοντα files under δέον, Middle Liddell's headword for the participle made a noun.
 
+### What it found in Exodus 17
+
+Three disagreements over 378 words, and the second pass was right on all three: τί ποιήσω is deliberative,
+the aorist subjunctive; πρεσβυτέρων is comparative, as the corpus mostly codes it; and αὐτοῦ in 17:15 is
+neuter, the altar's.
+
 ## The brief
 
 Copy everything below the rule into a new agent. Replace `<BOOK NAME>`, `<CHAPTER>`,

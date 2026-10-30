@@ -1,0 +1,406 @@
+# Exodus 17 — morphology, one word per line.
+#
+# This is the project's own grammatical analysis of each form, written alongside the
+# transcription and not copied from any digital edition.
+#
+# Columns: verse, part of speech, parse, form, lemma — in MorphGNT's code scheme, so
+# the Old and New Testament layers read alike. The parse is eight places: person,
+# tense, voice, mood, case, number, gender, degree ("-" where it does not apply).
+#
+# Two codes go beyond MorphGNT, both to record only what the form itself says:
+#   voice  E  middle/passive — a tense in which the two share one form
+#   gender C  masculine/feminine — an adjective whose form does not distinguish them
+#
+# A trailing annotation records a deliberate difference and the reason for it:
+#   "# module …"  from the reference module, checked when LXX_RAHLFS_DIR is set
+#   "# corpus …"  from this project's own analysis of the same form elsewhere
+# A line may carry both. validate.py prints them as notes instead of failures — and
+# fails if the difference a note claims is not there, so they cannot go stale. The
+# analysis here is this project's own: the module is a reference, not an authority,
+# and the corpus is held to itself.
+#
+# Indeclinables take case and number from the syntax, as MorphGNT does, and gender
+# where there is one to take: a personal name, from the person; a numeral agreeing
+# with its noun; a common noun whose article shows it — but not an indeclinable place
+# name, which has none. A personal name the New Testament also uses takes MorphGNT's
+# dictionary form (Νῶε, Σήμ); every other Semitic name (Χαμ, Ιαφεθ), the form Rahlfs
+# prints.
+
+17:1 C- -------- Καὶ καί
+17:1 V- 3AAI-S-- ἀπῆρεν ἀπαίρω
+17:1 A- ----NSF- πᾶσα πᾶς
+17:1 N- ----NSF- συναγωγὴ συναγωγή
+17:1 N- ----GPM- υἱῶν υἱός
+17:1 N- ----GSM- Ισραηλ Ἰσραήλ
+17:1 P- -------- ἐκ ἐκ
+17:1 RA ----GSF- τῆς ὁ
+17:1 A- ----GSF- ἐρήμου ἔρημος
+17:1 N- ----GS-- Σιν Σιν
+17:1 P- -------- κατὰ κατά
+17:1 N- ----APF- παρεμβολὰς παρεμβολή
+17:1 RP ----GPM- αὐτῶν αὐτός
+17:1 P- -------- διὰ διά
+17:1 N- ----GSN- ῥήματος ῥῆμα
+17:1 N- ----GSM- κυρίου κύριος
+17:1 C- -------- καὶ καί
+17:1 V- 3AAI-P-- παρενεβάλοσαν παρεμβάλλω
+17:1 P- -------- ἐν ἐν
+17:1 N- ----DS-- Ραφιδιν Ραφιδιν  # module D, no number — indeclinable, a place, singular, after ἐν
+17:1 D- -------- οὐκ οὐ
+17:1 V- 3IAI-S-- ἦν εἰμί
+17:1 C- -------- δὲ δέ
+17:1 N- ----NSN- ὕδωρ ὕδωρ
+17:1 RA ----DSM- τῷ ὁ
+17:1 N- ----DSM- λαῷ λαός
+17:1 V- -AAN---- πιεῖν πίνω
+17:2 C- -------- καὶ καί
+17:2 V- 3IEI-S-- ἐλοιδορεῖτο λοιδορέω
+17:2 RA ----NSM- ὁ ὁ
+17:2 N- ----NSM- λαὸς λαός
+17:2 P- -------- πρὸς πρός
+17:2 N- ----ASM- Μωυσῆν Μωϋσῆς  # module lemma Μωσεύς — Μωϋσῆς, as MorphGNT files it
+17:2 V- -PAPNPM- λέγοντες λέγω
+17:2 V- 2AAD-S-- Δὸς δίδωμι
+17:2 RP ----DP-- ἡμῖν ἐγώ  # module lemma ἡμῖν, the form itself — ἐγώ is the dictionary form
+17:2 N- ----ASN- ὕδωρ ὕδωρ
+17:2 C- -------- ἵνα ἵνα
+17:2 V- 1AAS-P-- πίωμεν πίνω
+17:2 C- -------- καὶ καί
+17:2 V- 3AAI-S-- εἶπεν λέγω  # module lemma ἔπω — λέγω keeps one dictionary form across both testaments
+17:2 RP ----DPM- αὐτοῖς αὐτός
+17:2 N- ----NSM- Μωυσῆς Μωϋσῆς  # module lemma Μωσεύς — Μωϋσῆς, as MorphGNT files it
+17:2 RI ----ASN- Τί τίς
+17:2 V- 2PEI-P-- λοιδορεῖσθέ λοιδορέω
+17:2 RP ----DS-- μοι ἐγώ  # module lemma μοι, the form itself — ἐγώ is the dictionary form
+17:2 C- -------- καὶ καί
+17:2 RI ----ASN- τί τίς
+17:2 V- 2PAI-P-- πειράζετε πειράζω
+17:2 N- ----ASM- κύριον κύριος
+17:3 V- 3AAI-S-- ἐδίψησεν διψάω
+17:3 C- -------- δὲ δέ
+17:3 D- -------- ἐκεῖ ἐκεῖ
+17:3 RA ----NSM- ὁ ὁ
+17:3 N- ----NSM- λαὸς λαός
+17:3 N- ----DSN- ὕδατι ὕδωρ
+17:3 C- -------- καὶ καί
+17:3 V- 3IAI-S-- ἐγόγγυζεν γογγύζω
+17:3 D- -------- ἐκεῖ ἐκεῖ
+17:3 RA ----NSM- ὁ ὁ
+17:3 N- ----NSM- λαὸς λαός
+17:3 P- -------- πρὸς πρός
+17:3 N- ----ASM- Μωυσῆν Μωϋσῆς  # module lemma Μωσεύς — Μωϋσῆς, as MorphGNT files it
+17:3 V- -PAPNPM- λέγοντες λέγω
+17:3 C- -------- Ἵνα ἵνα
+17:3 RI ----NSN- τί τίς
+17:3 RD ----ASN- τοῦτο οὗτος  # module NSN — adverbial, ἀνεβίβασας has ἡμᾶς for its object
+17:3 V- 2AAI-S-- ἀνεβίβασας ἀναβιβάζω
+17:3 RP ----AP-- ἡμᾶς ἐγώ  # module lemma ἡμᾶς, the form itself — ἐγώ is the dictionary form
+17:3 P- -------- ἐξ ἐκ
+17:3 N- ----GSF- Αἰγύπτου Αἴγυπτος
+17:3 V- -AAN---- ἀποκτεῖναι ἀποκτείνω
+17:3 RP ----AP-- ἡμᾶς ἐγώ  # module lemma ἡμᾶς, the form itself — ἐγώ is the dictionary form
+17:3 C- -------- καὶ καί
+17:3 RA ----APN- τὰ ὁ
+17:3 N- ----APN- τέκνα τέκνον
+17:3 RP ----GP-- ἡμῶν ἐγώ  # module lemma ἡμῶν, the form itself — ἐγώ is the dictionary form
+17:3 C- -------- καὶ καί
+17:3 RA ----APN- τὰ ὁ
+17:3 N- ----APN- κτήνη κτῆνος
+17:3 RA ----DSN- τῷ ὁ
+17:3 N- ----DSN- δίψει δίψος
+17:4 V- 3AAI-S-- ἐβόησεν βοάω
+17:4 C- -------- δὲ δέ
+17:4 N- ----NSM- Μωυσῆς Μωϋσῆς  # module lemma Μωσεύς — Μωϋσῆς, as MorphGNT files it
+17:4 P- -------- πρὸς πρός
+17:4 N- ----ASM- κύριον κύριος
+17:4 V- -PAPNSM- λέγων λέγω
+17:4 RI ----ASN- Τί τίς
+17:4 V- 1AAS-S-- ποιήσω ποιέω
+17:4 RA ----DSM- τῷ ὁ
+17:4 N- ----DSM- λαῷ λαός
+17:4 RD ----DSM- τούτῳ οὗτος
+17:4 D- -------- ἔτι ἔτι
+17:4 A- ----ASN- μικρὸν μικρός  # module ASM — neuter, ἔτι μικρόν, a little, the adverbial accusative
+17:4 C- -------- καὶ καί
+17:4 V- 3FAI-P-- καταλιθοβολήσουσίν καταλιθοβολέω
+17:4 RP ----AS-- με ἐγώ  # module lemma μέ, the form itself — ἐγώ is the dictionary form
+17:5 C- -------- καὶ καί
+17:5 V- 3AAI-S-- εἶπεν λέγω  # module lemma ἔπω — λέγω keeps one dictionary form across both testaments
+17:5 N- ----NSM- κύριος κύριος
+17:5 P- -------- πρὸς πρός
+17:5 N- ----ASM- Μωυσῆν Μωϋσῆς  # module lemma Μωσεύς — Μωϋσῆς, as MorphGNT files it
+17:5 V- 2PED-S-- Προπορεύου προπορεύομαι
+17:5 RA ----GSM- τοῦ ὁ
+17:5 N- ----GSM- λαοῦ λαός
+17:5 RD ----GSM- τούτου οὗτος
+17:5 V- 2AAD-S-- λαβὲ λαμβάνω
+17:5 C- -------- δὲ δέ
+17:5 P- -------- μετὰ μετά
+17:5 RP ----GSM- σεαυτοῦ σεαυτοῦ
+17:5 P- -------- ἀπὸ ἀπό
+17:5 RA ----GPM- τῶν ὁ
+17:5 A- ----GPMC πρεσβυτέρων πρεσβύτερος
+17:5 RA ----GSM- τοῦ ὁ
+17:5 N- ----GSM- λαοῦ λαός
+17:5 C- -------- καὶ καί
+17:5 RA ----ASF- τὴν ὁ
+17:5 N- ----ASF- ῥάβδον ῥάβδος
+17:5 P- -------- ἐν ἐν
+17:5 RR ----DSF- ᾗ ὅς
+17:5 V- 2AAI-S-- ἐπάταξας πατάσσω
+17:5 RA ----ASM- τὸν ὁ
+17:5 N- ----ASM- ποταμόν ποταμός
+17:5 V- 2AAD-S-- λαβὲ λαμβάνω
+17:5 P- -------- ἐν ἐν
+17:5 RA ----DSF- τῇ ὁ
+17:5 N- ----DSF- χειρί χείρ
+17:5 RP ----GS-- σου σύ  # module lemma σοῦ, the form itself — σύ is the dictionary form
+17:5 C- -------- καὶ καί
+17:5 V- 2FMI-S-- πορεύσῃ πορεύομαι
+17:6 RD ----NSM- ὅδε ὅδε
+17:6 RP ----NS-- ἐγὼ ἐγώ
+17:6 V- 1XAI-S-- ἕστηκα ἵστημι
+17:6 P- -------- πρὸ πρό
+17:6 RA ----GSN- τοῦ ὁ  # module GSM — neuter, the article over the pronoun, an infinitive understood
+17:6 RP ----AS-- σὲ σύ  # module lemma σέ, the form itself — σύ is the dictionary form
+17:6 D- -------- ἐκεῖ ἐκεῖ
+17:6 P- -------- ἐπὶ ἐπί
+17:6 RA ----GSF- τῆς ὁ
+17:6 N- ----GSF- πέτρας πέτρα
+17:6 P- -------- ἐν ἐν
+17:6 N- ----DS-- Χωρηβ Χωρηβ  # module S, no case — indeclinable, the dative after ἐν
+17:6 C- -------- καὶ καί
+17:6 V- 2FAI-S-- πατάξεις πατάσσω
+17:6 RA ----ASF- τὴν ὁ
+17:6 N- ----ASF- πέτραν πέτρα
+17:6 C- -------- καὶ καί
+17:6 V- 3FMI-S-- ἐξελεύσεται ἐξέρχομαι
+17:6 P- -------- ἐξ ἐκ
+17:6 RP ----GSF- αὐτῆς αὐτός
+17:6 N- ----NSN- ὕδωρ ὕδωρ
+17:6 C- -------- καὶ καί
+17:6 V- 3FMI-S-- πίεται πίνω
+17:6 RA ----NSM- ὁ ὁ
+17:6 N- ----NSM- λαός λαός
+17:6 RP ----GS-- μου ἐγώ  # module lemma μου, the form itself — ἐγώ is the dictionary form
+17:6 V- 3AAI-S-- ἐποίησεν ποιέω
+17:6 C- -------- δὲ δέ
+17:6 N- ----NSM- Μωυσῆς Μωϋσῆς  # module lemma Μωσεύς — Μωϋσῆς, as MorphGNT files it
+17:6 D- -------- οὕτως οὕτως
+17:6 P- -------- ἐναντίον ἐναντίον
+17:6 RA ----GPM- τῶν ὁ
+17:6 N- ----GPM- υἱῶν υἱός
+17:6 N- ----GSM- Ισραηλ Ἰσραήλ
+17:7 C- -------- καὶ καί
+17:7 V- 3AAI-S-- ἐπωνόμασεν ἐπονομάζω
+17:7 RA ----ASN- τὸ ὁ
+17:7 N- ----ASN- ὄνομα ὄνομα
+17:7 RA ----GSM- τοῦ ὁ
+17:7 N- ----GSM- τόπου τόπος
+17:7 RD ----GSM- ἐκείνου ἐκεῖνος
+17:7 N- ----NSM- Πειρασμὸς Πειρασμός  # module lemma πειρασμός — the Greek word Rahlfs prints as the place's name keeps its capital
+17:7 C- -------- καὶ καί
+17:7 N- ----NSF- Λοιδόρησις Λοιδόρησις  # module lemma λοιδόρησις — the Greek word Rahlfs prints as the place's name keeps its capital
+17:7 P- -------- διὰ διά
+17:7 RA ----ASF- τὴν ὁ
+17:7 N- ----ASF- λοιδορίαν λοιδορία
+17:7 RA ----GPM- τῶν ὁ
+17:7 N- ----GPM- υἱῶν υἱός
+17:7 N- ----GSM- Ισραηλ Ἰσραήλ
+17:7 C- -------- καὶ καί
+17:7 P- -------- διὰ διά
+17:7 RA ----ASN- τὸ ὁ
+17:7 V- -PAN---- πειράζειν πειράζω
+17:7 N- ----ASM- κύριον κύριος
+17:7 V- -PAPAPM- λέγοντας λέγω
+17:7 C- -------- Εἰ εἰ
+17:7 V- 3PAI-S-- ἔστιν εἰμί
+17:7 N- ----NSM- κύριος κύριος
+17:7 P- -------- ἐν ἐν
+17:7 RP ----DP-- ἡμῖν ἐγώ  # module lemma ἡμῖν, the form itself — ἐγώ is the dictionary form
+17:7 C- -------- ἢ ἤ
+17:7 D- -------- οὔ οὐ
+17:8 V- 3AAI-S-- Ἦλθεν ἔρχομαι
+17:8 C- -------- δὲ δέ
+17:8 N- ----NSM- Αμαληκ Αμαληκ
+17:8 C- -------- καὶ καί
+17:8 V- 3IAI-S-- ἐπολέμει πολεμέω
+17:8 N- ----ASM- Ισραηλ Ἰσραήλ  # module NSM — the object of ἐπολέμει, which Exodus construes with the accusative, as 14:25
+17:8 P- -------- ἐν ἐν
+17:8 N- ----DS-- Ραφιδιν Ραφιδιν  # module D, no number — indeclinable, a place, singular, after ἐν
+17:9 V- 3AAI-S-- εἶπεν λέγω  # module lemma ἔπω — λέγω keeps one dictionary form across both testaments
+17:9 C- -------- δὲ δέ
+17:9 N- ----NSM- Μωυσῆς Μωϋσῆς  # module lemma Μωσεύς — Μωϋσῆς, as MorphGNT files it
+17:9 RA ----DSM- τῷ ὁ
+17:9 N- ----DSM- Ἰησοῦ Ἰησοῦς  # module GSM — dative, τῷ Ἰησοῦ, its article showing the case
+17:9 V- 2AAD-S-- Ἐπίλεξον ἐπιλέγω
+17:9 RP ----DSM- σεαυτῷ σεαυτοῦ
+17:9 N- ----APM- ἄνδρας ἀνήρ
+17:9 A- ----APM- δυνατοὺς δυνατός
+17:9 C- -------- καὶ καί
+17:9 V- -AAPNSM- ἐξελθὼν ἐξέρχομαι
+17:9 V- 2AMD-S-- παράταξαι παρατάσσω
+17:9 RA ----DSM- τῷ ὁ
+17:9 N- ----DSM- Αμαληκ Αμαληκ
+17:9 D- -------- αὔριον αὔριον
+17:9 C- -------- καὶ καί
+17:9 X- -------- ἰδοὺ ἰδού
+17:9 RP ----NS-- ἐγὼ ἐγώ
+17:9 V- 1XAI-S-- ἕστηκα ἵστημι
+17:9 P- -------- ἐπὶ ἐπί
+17:9 RA ----GSF- τῆς ὁ
+17:9 N- ----GSF- κορυφῆς κορυφή
+17:9 RA ----GSM- τοῦ ὁ
+17:9 N- ----GSM- βουνοῦ βουνός
+17:9 C- -------- καὶ καί
+17:9 RA ----NSF- ἡ ὁ
+17:9 N- ----NSF- ῥάβδος ῥάβδος
+17:9 RA ----GSM- τοῦ ὁ
+17:9 N- ----GSM- θεοῦ θεός
+17:9 P- -------- ἐν ἐν
+17:9 RA ----DSF- τῇ ὁ
+17:9 N- ----DSF- χειρί χείρ
+17:9 RP ----GS-- μου ἐγώ  # module lemma μου, the form itself — ἐγώ is the dictionary form
+17:10 C- -------- καὶ καί
+17:10 V- 3AAI-S-- ἐποίησεν ποιέω
+17:10 N- ----NSM- Ἰησοῦς Ἰησοῦς
+17:10 C- -------- καθάπερ καθάπερ
+17:10 V- 3AAI-S-- εἶπεν λέγω  # module lemma ἔπω — λέγω keeps one dictionary form across both testaments
+17:10 RP ----DSM- αὐτῷ αὐτός
+17:10 N- ----NSM- Μωυσῆς Μωϋσῆς  # module lemma Μωσεύς — Μωϋσῆς, as MorphGNT files it
+17:10 C- -------- καὶ καί
+17:10 V- -AAPNSM- ἐξελθὼν ἐξέρχομαι
+17:10 V- 3AMI-S-- παρετάξατο παρατάσσω
+17:10 RA ----DSM- τῷ ὁ
+17:10 N- ----DSM- Αμαληκ Αμαληκ
+17:10 C- -------- καὶ καί
+17:10 N- ----NSM- Μωυσῆς Μωϋσῆς  # module lemma Μωσεύς — Μωϋσῆς, as MorphGNT files it
+17:10 C- -------- καὶ καί
+17:10 N- ----NSM- Ααρων Ἀαρών
+17:10 C- -------- καὶ καί
+17:10 N- ----NSM- Ωρ Ωρ
+17:10 V- 3AAI-P-- ἀνέβησαν ἀναβαίνω
+17:10 P- -------- ἐπὶ ἐπί
+17:10 RA ----ASF- τὴν ὁ
+17:10 N- ----ASF- κορυφὴν κορυφή
+17:10 RA ----GSM- τοῦ ὁ
+17:10 N- ----GSM- βουνοῦ βουνός
+17:11 C- -------- καὶ καί
+17:11 V- 3IEI-S-- ἐγίνετο γίνομαι
+17:11 C- -------- ὅταν ὅταν
+17:11 V- 3AAI-S-- ἐπῆρεν ἐπαίρω
+17:11 N- ----NSM- Μωυσῆς Μωϋσῆς  # module lemma Μωσεύς — Μωϋσῆς, as MorphGNT files it
+17:11 RA ----APF- τὰς ὁ
+17:11 N- ----APF- χεῖρας χείρ
+17:11 V- 3IAI-S-- κατίσχυεν κατισχύω
+17:11 N- ----NSM- Ισραηλ Ἰσραήλ
+17:11 C- -------- ὅταν ὅταν
+17:11 C- -------- δὲ δέ
+17:11 V- 3AAI-S-- καθῆκεν καθίημι
+17:11 RA ----APF- τὰς ὁ
+17:11 N- ----APF- χεῖρας χείρ
+17:11 V- 3IAI-S-- κατίσχυεν κατισχύω
+17:11 N- ----NSM- Αμαληκ Αμαληκ
+17:12 RA ----NPF- αἱ ὁ
+17:12 C- -------- δὲ δέ
+17:12 N- ----NPF- χεῖρες χείρ
+17:12 N- ----GSM- Μωυσῆ Μωϋσῆς  # module lemma Μωσεύς — Μωϋσῆς, as MorphGNT files it
+17:12 A- ----NPF- βαρεῖαι βαρύς
+17:12 C- -------- καὶ καί
+17:12 V- -AAPNPM- λαβόντες λαμβάνω
+17:12 N- ----ASM- λίθον λίθος
+17:12 V- 3AAI-P-- ὑπέθηκαν ὑποτίθημι
+17:12 P- -------- ὑπʼ ὑπό
+17:12 RP ----ASM- αὐτόν αὐτός
+17:12 C- -------- καὶ καί
+17:12 V- 3IEI-S-- ἐκάθητο κάθημαι
+17:12 P- -------- ἐπʼ ἐπί
+17:12 RP ----GSM- αὐτοῦ αὐτός
+17:12 C- -------- καὶ καί
+17:12 N- ----NSM- Ααρων Ἀαρών
+17:12 C- -------- καὶ καί
+17:12 N- ----NSM- Ωρ Ωρ
+17:12 V- 3IAI-P-- ἐστήριζον στηρίζω
+17:12 RA ----APF- τὰς ὁ
+17:12 N- ----APF- χεῖρας χείρ
+17:12 RP ----GSM- αὐτοῦ αὐτός
+17:12 D- -------- ἐντεῦθεν ἐντεῦθεν
+17:12 A- ----NSM- εἷς εἷς
+17:12 C- -------- καὶ καί
+17:12 D- -------- ἐντεῦθεν ἐντεῦθεν
+17:12 A- ----NSM- εἷς εἷς
+17:12 C- -------- καὶ καί
+17:12 V- 3AMI-P-- ἐγένοντο γίνομαι
+17:12 RA ----NPF- αἱ ὁ
+17:12 N- ----NPF- χεῖρες χείρ
+17:12 N- ----GSM- Μωυσῆ Μωϋσῆς  # module lemma Μωσεύς — Μωϋσῆς, as MorphGNT files it
+17:12 V- -XEPNPF- ἐστηριγμέναι στηρίζω
+17:12 P- -------- ἕως ἕως
+17:12 N- ----GPF- δυσμῶν δυσμή
+17:12 N- ----GSM- ἡλίου ἥλιος
+17:13 C- -------- καὶ καί
+17:13 V- 3AMI-S-- ἐτρέψατο τρέπω
+17:13 N- ----NSM- Ἰησοῦς Ἰησοῦς
+17:13 RA ----ASM- τὸν ὁ
+17:13 N- ----ASM- Αμαληκ Αμαληκ
+17:13 C- -------- καὶ καί
+17:13 A- ----ASM- πάντα πᾶς
+17:13 RA ----ASM- τὸν ὁ
+17:13 N- ----ASM- λαὸν λαός
+17:13 RP ----GSM- αὐτοῦ αὐτός
+17:13 P- -------- ἐν ἐν
+17:13 N- ----DSM- φόνῳ φόνος
+17:13 N- ----GSF- μαχαίρας μάχαιρα
+17:14 V- 3AAI-S-- εἶπεν λέγω  # module lemma ἔπω — λέγω keeps one dictionary form across both testaments
+17:14 C- -------- δὲ δέ
+17:14 N- ----NSM- κύριος κύριος
+17:14 P- -------- πρὸς πρός
+17:14 N- ----ASM- Μωυσῆν Μωϋσῆς  # module lemma Μωσεύς — Μωϋσῆς, as MorphGNT files it
+17:14 V- 2AAD-S-- Κατάγραψον καταγράφω
+17:14 RD ----ASN- τοῦτο οὗτος
+17:14 P- -------- εἰς εἰς
+17:14 N- ----ASN- μνημόσυνον μνημόσυνον
+17:14 P- -------- ἐν ἐν
+17:14 N- ----DSN- βιβλίῳ βιβλίον
+17:14 C- -------- καὶ καί
+17:14 V- 2AAD-S-- δὸς δίδωμι
+17:14 P- -------- εἰς εἰς
+17:14 RA ----APN- τὰ ὁ
+17:14 N- ----APN- ὦτα οὖς
+17:14 N- ----DSM- Ἰησοῖ Ἰησοῦς
+17:14 C- -------- ὅτι ὅτι
+17:14 N- ----DSF- Ἀλοιφῇ ἀλοιφή
+17:14 V- 1FAI-S-- ἐξαλείψω ἐξαλείφω
+17:14 RA ----ASN- τὸ ὁ
+17:14 N- ----ASN- μνημόσυνον μνημόσυνον
+17:14 N- ----GSM- Αμαληκ Αμαληκ
+17:14 P- -------- ἐκ ἐκ
+17:14 RA ----GSF- τῆς ὁ
+17:14 P- -------- ὑπὸ ὑπό
+17:14 RA ----ASM- τὸν ὁ
+17:14 N- ----ASM- οὐρανόν οὐρανός
+17:15 C- -------- καὶ καί
+17:15 V- 3AAI-S-- ᾠκοδόμησεν οἰκοδομέω
+17:15 N- ----NSM- Μωυσῆς Μωϋσῆς  # module lemma Μωσεύς — Μωϋσῆς, as MorphGNT files it
+17:15 N- ----ASN- θυσιαστήριον θυσιαστήριον
+17:15 N- ----DSM- κυρίῳ κύριος
+17:15 C- -------- καὶ καί
+17:15 V- 3AAI-S-- ἐπωνόμασεν ἐπονομάζω
+17:15 RA ----ASN- τὸ ὁ
+17:15 N- ----ASN- ὄνομα ὄνομα
+17:15 RP ----GSN- αὐτοῦ αὐτός
+17:15 N- ----NSM- Κύριός κύριος
+17:15 RP ----GS-- μου ἐγώ  # module lemma μου, the form itself — ἐγώ is the dictionary form
+17:15 N- ----NSF- καταφυγή καταφυγή
+17:16 C- -------- ὅτι ὅτι
+17:16 P- -------- ἐν ἐν
+17:16 N- ----DSF- χειρὶ χείρ
+17:16 A- ----DSF- κρυφαίᾳ κρυφαῖος
+17:16 V- 3PAI-S-- πολεμεῖ πολεμέω
+17:16 N- ----NSM- κύριος κύριος
+17:16 P- -------- ἐπὶ ἐπί
+17:16 N- ----ASM- Αμαληκ Αμαληκ  # module DSM — accusative after hostile ἐπί, against Amalek
+17:16 P- -------- ἀπὸ ἀπό
+17:16 N- ----GPF- γενεῶν γενεά
+17:16 P- -------- εἰς εἰς
+17:16 N- ----APF- γενεάς γενεά

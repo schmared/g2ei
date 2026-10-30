@@ -379,6 +379,8 @@ LSJ = {
     "ἐγκρίς": ["a cake made with oil and honey"],
     "ἐλαττονέω": ["receive less", "give less", "waste, be consumed", "to be missing, defective", "lack, want"],
     "συσκήνιος": ["one who lives in the same tent, messmate, comrade"],
+    # EXO 17. Not in Middle Liddell. LSJ (eng11): καταλιθοβολέω, "throw stones at, stone", citing Ex 17:4.
+    "καταλιθοβολέω": ["throw stones at, stone"],
     # EXO 12. None of these is in Middle Liddell. LSJ (eng3): γειώρας, "sojourner", "proselyte". LSJ
     # (eng4): δέσμη, "package, bundle", "a measure in Egypt", "in Medicine, handful"; Rahlfs prints the
     # accusative δεσμήν, the module δέσμην. LSJ (eng5): ἐνδόσθια, "= ἐντόσθια", a pointer to ἐντόσθιος,
@@ -1434,6 +1436,16 @@ NOT_SENSES = {
     "a)poqh/kh": {"store"},                    # an example's
     "*sa/bbaton": {"of the week"},             # μία τῶν σαββάτων, the phrase's
     "oi)ke/w": {"those who have been settled", "those who dwell", "to live", "with habits", "would", "governed"},  # examples' translations
+    # EXO 17
+    "di/ya": {"for"},                          # a piece of an example, thirst for drink
+    "loidore/w": {"they use", "reproaches"},   # an example's
+    "pe/tra": {"a rock, a ledge", "shelf of rock", "a rock", "a rocky peak", "ridge", "fixed rock", "a stone",
+               "masses of live rock", "rock", "a cave in the rock"},  # cut, whole in MARKUP_LOST; the note on πέτρος; examples'
+    "e)pile/gw": {"he chose him", "chosen men", "nihil curare"},  # examples'; the Latin
+    "kaqi/hmi": {"we let down, lowered", "let down", "bring", "to the rest", "were carried down to the water", "has entered"},  # examples' pieces and translations
+    "sthri/zw": {"he set", "fast", "rising up", "to be firmly set", "fixed, to stand fast", "steady", "to", "a firm footing",
+                 "is lifted up", "thou art tarrying, art settled"},  # examples'; the passive's, cut, whole in MARKUP_LOST
+    "katagra/fw": {"to fill", "with writing"}, # cut, whole in MARKUP_LOST
     "de/on": {"things needful", "proper, advantages", "duties", "in good time", "for a needful purpose", "secret service"},  # τὰ δέοντα cut, whole in MARKUP_LOST; phrases'
     "o)fei/lw": {"debemur morti)", "it is", "destiny", "(ought", "owe)", "O that thou hadst", "O that I had",
                  "would thou hadst never", "would"},  # Horace; examples' translations; the note on "ought"
@@ -1561,6 +1573,19 @@ _APOLLUMI_ACT = {"to destroy utterly, kill, slay", "to destroy, demolish, waste"
 _APOLLUMI_MID = {"to perish utterly, die", "to be undone", "you are done for, lost, ruined",
                  "to be lost, slip away, vanish"}
 FORM_SENSES = {
+    # EXO 17. ἐπιλέγω's active leaves out the middle's; καθίημι's active
+    # the passive's; στηρίζω's active the middle's and passive's, and its passive the middle's. τρέπω: "in
+    # aor1 mid., to put an enemy to flight", and that alone (15:13's ἐτρέψατο).
+    "e)pile/gw": [("PIFAXY", "A", NOT_SENSES["e)pile/gw"] | {"to think upon, think over", "to deem", "expect that",
+                                                            "to con over, read"})],
+    "kaqi/hmi": [("PIFAXY", "A", NOT_SENSES["kaqi/hmi"] | {"to come down", "to be put in motion"})],
+    "sthri/zw": [("PIFAXY", "A", NOT_SENSES["sthri/zw"] | {"to fix for oneself", "to be firmly set or fixed, to stand fast or steady"}),
+                 ("PIFAXY", "MEP", NOT_SENSES["sthri/zw"] | {"to fix for oneself"})],
+    "tre/pw": [("A", "M", {"to turn", "direct", "to shew", "to turn one's steps, turn in a certain direction", "to roam",
+                           "to take", "betake oneself", "to be turned", "look", "turn about", "bent back", "to divert",
+                           "to turn another way, to alter, change", "to be changed, change", "undergoing",
+                           "put to flight, rout, defeat", "to be put to flight, turn and flee", "to turn away, keep off, hinder",
+                           "to overturn", "to turn, apply", "have you made of"}, "ψ")],
     # EXO 16. The particle ὄφελον is ὀφείλω's "aor2 … used to express a wish … would that", and reads that
     # alone; the actives of μετρέω, πλεονάζω, διαθερμαίνω and ἀποτίθημι leave out the middle's and the
     # passive's senses, and ἀποτίθημι's middle the active's.
@@ -1833,7 +1858,8 @@ FORM_SENSES = {
                                 "to be won", "achieved by toil"})],
     "da/knw": [("PIFAXY", "A", {"prick", "I was stung, vexed"})],
     "e)pidi/dwmi": [("PIFAXY", "A", {"to take as witness", "let us look to"})],
-    "loidore/w": [("PIFAXY", "A", {"to rail at one another", "to rail at", "they use", "reproaches"})],
+    "loidore/w": [("PIFAXY", "A", NOT_SENSES["loidore/w"] | {"to rail at one another", "to rail at"}),
+                  ("PIFAXY", "MEP", NOT_SENSES["loidore/w"] | {"to abuse, revile", "to rebuke"})],  # EXO 17: the middle reads the middle's
     "e)ne/xw": [("PIFAXY", "A", {"to be held, caught, entangled in", "was seized with", "to be obnoxious, liable", "subject to"})],
     "diadi/dwmi": [("PIFAXY", "A", {"around", "to be spread abroad"})],
     "e)pita/ssw": [("PIFAXY", "A", {"to", "they had", "placed next", "set as guards over", "to accept orders, submit to commands",
@@ -1995,6 +2021,7 @@ FORM_SENSES = {
 # (κατέναντι reads "= κατεναντίον" and glosses nothing itself). Each is recorded in
 # reference/lexicon-notes.md with the entry it resolves to.
 SPELLING = {
+    "di/yos": "di/ya",                # δίψος, "= δίψα", and nothing more (EXO 17:3)
     "ko/rion": "kori/annon",          # LSJ's κόριον (B), "shortd. for κορίαννον"; Middle Liddell's κόριον is the diminutive of κόρη (EXO 16:14)
     "sa/bbaton": "*sa/bbaton",        # σάββατον, keyed with the capital (EXO 16:23)
     "sabbati/zw": "*sabbati/zw",      # σαββατίζω, keyed with the capital (EXO 16:30)
@@ -2311,6 +2338,12 @@ MARKUP_LOST = {
     # EXO 16. πάγος: "«that which is fixed» or «firmly set»"; πλεονάζω: "«to go beyond bounds, take» or «claim
     # too much»"; πικραίνω: "«to make sharp» or «bitter» to the taste".
     "pa/gos": [(0, "that which is fixed or firmly set")],
+    # EXO 17. πέτρα: "«a rock, a ledge» or «shelf of rock» … «a rocky peak» or
+    # «ridge»"; στηρίζω: "«to be firmly set» or «fixed, to stand fast» or «steady»"; καταγράφω: "«to fill» tablets
+    # «with writing»".
+    "pe/tra": [(0, "a rock, a ledge or shelf of rock"), (4, "a rocky peak or ridge")],
+    "sthri/zw": [(7, "to be firmly set or fixed, to stand fast or steady")],
+    "katagra/fw": [(3, "to fill with writing")],
     "de/on": [(1, "things needful or proper, advantages or duties")],  # τὰ δέοντα «things needful» or «proper, advantages» or «duties»
     "pleona/zw": [(2, "to go beyond bounds, take or claim too much")],
     "pikrai/nw": [(0, "to make sharp or bitter")],
