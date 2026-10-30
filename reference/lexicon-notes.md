@@ -6410,3 +6410,27 @@ text uses.
 - καταλείπω (perfect passive) — `has been left behind and stands so`. 42:38.
 - λύπη (singular) — `of pain of body, of distress and sad plight, of pain of mind, of grief`. 42:38.
 - δέκα, δώδεκα, τρεῖς, σήμερον, υἱός, γῆρας, ἀλλήλων, κἀγώ, οὐχί, οὗ (where) — plain text.
+
+## Loose ends before Genesis 43
+
+**Three restored senses in the reading.** The senses `GREEK_LOST` gave back to the cards now stand
+in the chains, the word given its English spelling and its Greek after it, or, where English has
+none, a transliteration:
+
+- κατοικέω — the first translation is *to dwell in as a κάτοικος*, and the headword was its first
+  three words. Every unit now heads `dwelt in as a katoikos (κάτοικος)`, in its own form — `were
+  dwelling in as a katoikos (κάτοικος)`, `to the ones dwelling in as a katoikos (κάτοικος)` — the
+  noun kept singular, as the entry's generic *a κάτοικος* has it. 36 units, 9:27 to 36:20.
+- ἀφίημι — *to let go as an ἄφετος, consecrate* joins the active chains after *let go and loose and
+  set free*: `let go as an aphetos (ἄφετος) and consecrate`. The passive of 4:13 reads the entry's
+  passive senses and is unchanged.
+- ῥάβδος — *the wand borne by the ῥαψῳδός* joins after *a staff of office*: `a wand borne by the
+  rhapsode (ῥαψῳδός)`, in each unit's number and case.
+
+**νή opened by its oath.** νή reads ναί's entry, and with the accusative of what is sworn by it
+takes the entry's oath, *yea by . .*: `yea by, yea, verily, aye and yes`. ναί itself still sets
+the formula aside; a word filed under another's entry may now carry its own `NOT_SENSES`. 42:15,
+42:16.
+
+**ἄν's card.** A paragraph on the particle's uses, tagged as one translation, no longer opens it;
+the card begins *perchance*.

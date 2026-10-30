@@ -1106,6 +1106,11 @@ NOT_SENSES = {
              "rotted", "made", "slack", "loose", "killed", "weak", "ties are broken", "in full",
              "it boots not"},                   # glosses of examples' forms and pieces of senses
     "e)pe/rxomai": {"it happened", "over", "on"},  # an impersonal example; pieces of "to go over"
+    # νή is the particle of oaths, with the accusative of what is sworn by; ναί's own "yea by",
+    # which ναί's card sets aside as an oath formula, is the sense νή's parse calls for.
+    "nh/": set(),
+    # ἄν: a paragraph on the particle's uses, tagged as one translation, opens the card.
+    "a)/n": {'conditional Particle. In attic, it is not joined with pres. or perf. ind., nor with imperat. of any tense. Three uses of a)/n must be distinguished in practice: in combination with Conjunctions and Relatives. in Apodosis. in Iterative sentences. in combinations with Conjunctions and Relatives: such words are regularly foll. by the subj., viz. e)a/n (= ei) a)/n) h)/n, a)/n , e)ph/n; o(\\s a)/n quicunque'},
 }
 
 # An entry that divides its senses by tense and voice, so that which of them belong to a
@@ -1623,7 +1628,9 @@ def lexicon_senses(entries, lemma, code="", form=""):
     if key not in entries:
         return None
     bare = re.sub(r"\d+$", "", key)
-    skip = NOT_SENSES.get(bare, set())
+    # A word filed under another word's entry reads that entry's exclusions, unless it has its
+    # own: νή is filed under ναί, and the oath formula ναί sets aside is what νή is.
+    skip = NOT_SENSES.get(beta(lemma), NOT_SENSES.get(bare, set()))
     code = code.ljust(8, "-")
     plain = "".join(c for c in unicodedata.normalize("NFD", form)
                     if not unicodedata.combining(c)).lower()

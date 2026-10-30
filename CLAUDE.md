@@ -62,7 +62,8 @@ load-bearing word is one unit: a **headword** and its **chain**.
   same where the entry names a thing by its Greek word — βύσσινος *made of βύσσος*, and
   the `<tr>` stops at *made of* — and `GREEK_LOST` restores it, or `GREEK_AFTER` records
   that the gloss was whole. The reading gives such a word its English spelling with the
-  Greek after it in parentheses: `made of byssus (βύσσος)`. Tense, voice and
+  Greek after it in parentheses: `made of byssus (βύσσος)`; where English has no spelling
+  of its own, a transliteration: `dwelt in as a katoikos (κάτοικος)`. Tense, voice and
   person come from the Greek form (ποιέω *to make* → ἐποίησεν *made*), and so does the
   article: English gets one where the Greek has one and
   nowhere else (ἐν ἀρχῇ → *in beginning*; ὁ θεός → *the God*). No translation is consulted
