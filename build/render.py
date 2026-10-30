@@ -51,11 +51,16 @@ PAGE = [("GEN", 1), ("GEN", 2), ("GEN", 3), ("GEN", 4), ("GEN", 5), ("GEN", 6), 
     ("GEN", 32),
     ("GEN", 33),
     ("GEN", 34),
-    ("GEN", 35), ("GEN", 36), ("GEN", 37), ("GEN", 38), ("GEN", 39), ("GEN", 40), ("GEN", 41), ("GEN", 42), ("GEN", 43), ("GEN", 44), ("GEN", 45), ("GEN", 46), ("GEN", 47), ("GEN", 48), ("GEN", 49), ("GEN", 50), ("JHN", 1)]
+    ("GEN", 35), ("GEN", 36), ("GEN", 37), ("GEN", 38), ("GEN", 39), ("GEN", 40), ("GEN", 41), ("GEN", 42), ("GEN", 43), ("GEN", 44), ("GEN", 45), ("GEN", 46), ("GEN", 47), ("GEN", 48), ("GEN", 49), ("GEN", 50), ("EXO", 1), ("JHN", 1)]
 
 BOOKS = {
     "GEN": {
         "name": "Genesis",
+        "src": "Septuagint · Rahlfs",
+        "notes_sub": "Lexical range, aspect, and where the Greek parts from the Hebrew",
+    },
+    "EXO": {
+        "name": "Exodus",
         "src": "Septuagint · Rahlfs",
         "notes_sub": "Lexical range, aspect, and where the Greek parts from the Hebrew",
     },

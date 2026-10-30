@@ -492,6 +492,16 @@ is accusative after the active ἐκάλεσεν τὸ ὄνομα, as Φρέα�
 nominative of 35:8's Βάλανος for the pattern (Βάλανος shows its case; a neuter does not); and θνήσκω
 takes no iota subscript, since Perseus keys it `qnh/skw`, as the brief already says of ἀποθνήσκω.
 
+### What it found in Exodus 1
+
+Ten disagreements over 373 words; the second pass was right on nine. ἅμα with a dative is a
+preposition, `P-`, as at GEN 14:5; τῶν Εβραίων at 1:15 is masculine, the people, beside τῶν
+Αἰγυπτίων; Φουα is a woman; μαιοῦσθε after ὅταν is the subjunctive, Koine spelling the -όω
+subjunctive with ου; Τί ὅτι takes τί as accusative, as GEN 18:13; ἐάν after a relative is the
+particle, `X-`; and πᾶν θῆλυ at 1:22, taken up by αὐτό, is a hanging nominative. The first pass's
+περιποιέω stands against the second's περιποιέομαι: the verb has an active in use, and is not on the
+brief's list of middle-only verbs.
+
 ## The brief
 
 Copy everything below the rule into a new agent. Replace `<BOOK NAME>`, `<CHAPTER>`,

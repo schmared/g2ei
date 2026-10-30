@@ -349,6 +349,18 @@ LSJ = {
     "πανοικία": ["whole household"],
     "συναναφέρω": ["carry up together", "bring up together with itself", "refer to at the same time",
                    "certify at the same time", "report"],
+    # EXO 1. None of these is in Middle Liddell. LSJ (eng25): χυδαῖος, "poured out in streams,
+    # abundant", citing Ex 1:7, then "common, ordinary" and "common, vulgar, coarse"; the adverb's
+    # "pell-mell" is the adverb's. LSJ (eng11): κατοδυνάω, "afflict grievously", citing Ex 1:14, one
+    # translation. LSJ (eng17): πλινθεία, "brickmaking", citing Ex 1:14, and "drawing up of an army
+    # in square". LSJ (eng7): ζωογονέω, "propagate" or "engender living creatures", "breed",
+    # "engender", "to be viviparous", "produce alive", "make alive, quicken", and "= ζωγρέω, preserve
+    # alive", citing Ex 1:17; "producing" is a piece of the example of Zeus and Pallas.
+    "χυδαῖος": ["poured out in streams, abundant", "common, ordinary", "common, vulgar, coarse"],
+    "κατοδυνάω": ["afflict grievously"],
+    "πλινθεία": ["brickmaking", "drawing up of an army in square"],
+    "ζωογονέω": ["propagate", "engender living creatures", "breed", "engender", "to be viviparous",
+                 "produce alive", "make alive, quicken", "preserve alive"],
     "ὑπερισχύω": ["to be exceedingly strong", "to be too luxuriant", "to be overbearing",
                   "to be stronger than, prevail over"],
     "κατακενόω": ["empty", "empty of", "to be emptied, made or left empty", "make empty by leaving, desert",
@@ -1236,6 +1248,11 @@ NOT_SENSES = {
     "kommo/s": {"plango), a beating of the breast in lamentation", "lamentation"},  # the <tr> opened inside the Latin; MARKUP_LOST has it whole. An example's
     "pe/ran": {"done on the opposite side", "just over the border", "border-"},  # pieces of τὰ πέραν and ἡ πέραν γῆ
     "tafh/": {"the urn"},                        # one passage's, Sophocles' urn of Orestes
+    # EXO 1
+    "tosou=tos": {"so", "as large",               # pieces of examples, τοσοῦτος μέγαθος "so large"
+                  "so small a distance", "so far", "so far, so far", "in the meantime",
+                  "so far, so long"},             # the phrases with prepositions
+    "e)pista/ths": {"the right-", "left-hand man", "the front-rank man)", "a", "master", "which stood over"},  # παραστάτης's and προστάτης's glosses; "a training-master" cut in two, whole in MARKUP_LOST; a piece
     "be/ltistos": {"my good friend"},             # ὦ βέλτιστε, the vocative's mode of address
     "e)rhmo/w": {"of", "without"},                # pieces of "to bereave one of", "to leave the oars without men"
     # ἄν: a paragraph on the particle's uses, tagged as one translation, opens the card.
@@ -1258,6 +1275,16 @@ _ISTHMI_INTR = {
 _APHISTHMI_INTR = {
     "to stand away", "aloof from, keep far from", "to lose", "to withdraw from", "to revolt from",
     "to revolt", "to give up", "to make way", "give way", "to shrink from", "to stand aloof"}
+_EPHISTHMI_CAUS = {
+    "to set", "place upon", "to set over", "to set up, establish, institute", "to set by", "near to",
+    "to stop, make halt", "attend", "to give attention", "to arrest the attention"}
+_EPHISTHMI_INTR = {
+    "to stand upon", "to be imposed upon", "to stand on the top", "surface", "to be set over",
+    "to be in authority", "to stand by", "near", "to appear to", "to stand against, oppose",
+    "to come upon by surprise", "to impend, be at hand", "to halt, stop",
+    "to fix one's mind on, give one's attention to"}
+_EPHISTHMI_MID = {"to set up", "to set, post"}
+_EPHISTHMI_SCRAPS = {"having halted", "to fix one's", "cream"}  # an example's, a piece, i.e.
 _EXANISTHMI_INTR = {
     "bid one", "rise", "to stand up from one's seat", "to arise and depart from, emigrate from",
     "to break up, depart", "to be driven out", "to be forced to emigrate", "to be depopulated"}
@@ -1436,6 +1463,22 @@ FORM_SENSES = {
     # takes "to be dead" and not the present's "to die, be dying"; the rest are an example's pieces
     # and translation. The metaphorical "to die, perish", of things, is given no tense, and stays.
     "qnh/skw": [("XY", "A", {"to die, be dying", "to fall by", "hand, be slain by", "are in mortal fear of"})],
+    # EXO 1. ἐφίστημι: "Causal in pres., imperf., fut., and aor1", "intr. in Mid. and Pass., …
+    # with perf., plup. and aor2 act.", and "the aor1 mid. is used in causal sense, to set up, to
+    # set, post". The first aorist is built on στησ-, as ἵστημι's is; ἐπέστησαν is both aorists'.
+    "e)fi/sthmi": [("PIF", "A", _EPHISTHMI_INTR | _EPHISTHMI_MID | _EPHISTHMI_SCRAPS),
+                   ("A", "A", _EPHISTHMI_INTR | _EPHISTHMI_MID | _EPHISTHMI_SCRAPS, "στησ(?!αν)"),
+                   ("AXY", "A", _EPHISTHMI_CAUS | _EPHISTHMI_MID | _EPHISTHMI_SCRAPS)],
+    # κατασοφίζομαι, "Dep. to conquer by sophisms or fallacies, to outwit … also as Pass. to be
+    # outwitted": a middle form leaves out the passive.
+    "katasofi/zomai": [("PIFAXY", "M", {"to be outwitted"})],
+    # βία: "βίαι τινός against one's will, in spite of him", "βίαι alone as an adv., perforce" —
+    # the dative's. Its periphrasis "the strength of Hercules" is an example's.
+    "bi/a": [("-", "-", {"the strength", "against", "will, in spite of"}, None, "^....D"),
+             ("-", "-", {"the strength", "against", "will, in spite of", "against one's will, in spite of",
+                         "perforce"})],
+    # τοσοῦτος: "in pl. so many" — the singular's τοσούτῳ, EXO 1:12, leaves it out.
+    "tosou=tos": [("-", "-", NOT_SENSES["tosou=tos"] | {"so many"}, None, "^.....S")],
     # ταφή: "in pl. also, a burial-place": the singular of GEN 50:3 leaves it out.
     "tafh/": [("-", "-", {"the urn", "a burial-place"}, "^ταφ(η|ης|ην)$")],
     # ἐνδείκνυμι: the middle of 50:15 and 50:17 reads the Mid. senses, and "to inform against", which
@@ -1726,6 +1769,11 @@ MARKUP_LOST = {
     # "like Lat. planctus (from plango), a beating of the breast in lamentation": the <tr> opens
     # inside the Latin parenthesis and carries "plango)," with it.
     "kommo/s1": [(1, "a beating of the breast in lamentation")],
+    # "a training- master": the <tr>s stop either side of "training-", and "a" and "master" reach
+    # the card apart.
+    "e)pista/ths": [(10, "a training-master")],
+    # "βίαι τινός against one's will, in spite of him": "one's" stands between two <tr>s.
+    "bi/a": [(4, "against one's will, in spite of")],
     "kri/nw": [(0, "to separate, part, put asunder, distinguish")],  # "Lat. cerno, to separate, part, …"
     "mh/tra1": [(0, "the womb")],                # "Lat. matrix, the womb" — the whole entry
     "w)=mos": [(0, "the shoulder with the upper arm")],  # "Lat. humerus, the shoulder with the upper arm"
@@ -1893,8 +1941,11 @@ def lexicon_senses(entries, lemma, code="", form=""):
     for rule in FORM_SENSES.get(bare, []):
         tenses, voices, instead = rule[:3]
         # a fourth item is a pattern the form itself must show, where the parse code
-        # cannot tell two forms apart (a first aorist from a second)
-        if code[1] in tenses and code[2] in voices and (len(rule) < 4 or re.search(rule[3], plain)):
+        # cannot tell two forms apart (a first aorist from a second); a fifth, a pattern the
+        # parse must show, where the form cannot (βίᾳ and βία, without the iota, by case)
+        if (code[1] in tenses and code[2] in voices
+                and (len(rule) < 4 or not rule[3] or re.search(rule[3], plain))
+                and (len(rule) < 5 or re.search(rule[4], code))):
             skip = instead
             break
     seen, out = set(), []

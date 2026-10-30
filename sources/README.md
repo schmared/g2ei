@@ -72,13 +72,14 @@ curl -sL --create-dirs -o sources/lsj/grc.lsj.perseus-eng1.xml https://raw.githu
 | `eng12` | lambda (7 MB) | λεπίζω, λέπισμα (Gen 30:37) |
 | `eng20` | rho (2 MB) | ῥαντός (Gen 30:32) |
 | `eng5` | epsilon (40 MB) | ἑβδομηκοντάκις (Gen 4:24), εὐαρεστέω (Gen 5:22), ἑξακοσιοστός (Gen 7:11), ἐλαττονόω (Gen 8:3), ἐνισχύω, ἐγγίζω, ἐτασμός (Gen 12), ἑκατονταέτης (Gen 17:17), ἐπαύριον, εἰσσπάομαι (Gen 19), ἐνώτιον (Gen 24:22), ἑκατοστεύω (Gen 26:12), ἐνυπνιάζομαι (Gen 28:12), ἐγκισσάω (Gen 30:38), ἐθισμός (Gen 31:35), ἐπισκάζω (Gen 32:32), ἐρείδω (Gen 49:6) |
-| `eng25` | chi (3 MB) | χείμαρρος (Gen 32:24) |
-| `eng11` | kappa (23 MB) | κατάσχεσις (Gen 17:8), κἀγώ (Gen 20:6), κατανύσσω (Gen 27:38), καρύινος (Gen 30:37), κρυφῇ, κατάβρωσις, κλοποφορέω (Gen 31) |
+| `eng7` | zeta (1 MB) | ζωογονέω (Exod 1:17) |
+| `eng25` | chi (3 MB) | χείμαρρος (Gen 32:24), χυδαῖος (Exod 1:7) |
+| `eng11` | kappa (23 MB) | κατάσχεσις (Gen 17:8), κἀγώ (Gen 20:6), κατανύσσω (Gen 27:38), καρύινος (Gen 30:37), κρυφῇ, κατάβρωσις, κλοποφορέω (Gen 31), κατοδυνάω (Exod 1:14) |
 | `eng9` | iota and theta (5 MB) | θηριάλωτος (Gen 31:39) |
 | `eng13` | mu (12 MB) | μώλωψ (Gen 4:23), μοσχάριον (Gen 18:7), μήτρα (Gen 20:18), μνημεῖον (Gen 23:6) |
 | `eng14` | nu (4 MB) | νευροκοπέω (Gen 49:6) |
 | `eng16` | omicron (12 MB) | ὀστέον (Gen 2:23), ὀκτώ (Gen 5:28), ὀπισθοφανής and ὀπισθοφανῶς (Gen 9:23), ὅλος (Gen 25:25) |
-| `eng17` | pi, `p` to `πώϋξ` (38 MB) | πράσινος (Gen 2:12), ποιμήν (Gen 4:2), πρῶτος (Gen 8:5), filed under πρότερος, περάτης and πορθμεύς (Gen 14:13), προσοίγνυμι (Gen 19:6), παρεπίδημος (Gen 23:4), ποτιστήριον (Gen 24:20), πυρράκης (Gen 25:25), πιότης, πτερνίζω, προσοχθίζω (Gen 27) |
+| `eng17` | pi, `p` to `πώϋξ` (38 MB) | πράσινος (Gen 2:12), ποιμήν (Gen 4:2), πρῶτος (Gen 8:5), filed under πρότερος, περάτης and πορθμεύς (Gen 14:13), προσοίγνυμι (Gen 19:6), παρεπίδημος (Gen 23:4), ποτιστήριον (Gen 24:20), πυρράκης (Gen 25:25), πιότης, πτερνίζω, προσοχθίζω (Gen 27), πλινθεία (Exod 1:14) |
 | `eng21` | sigma (23 MB) | σύ (Gen 3), which Middle Liddell omits, σφαιρωτήρ (Gen 14:23) |
 | `eng22` | tau (12 MB) | τρεῖς (Gen 5:32), filed under τρία, τριετίζω (Gen 15:9) |
 | `eng23` | upsilon (9 MB) | ὑπερασπίζω (Gen 15:1), ὑπερισχύω (Gen 49:26) |
@@ -93,7 +94,7 @@ and look at the first entry's key:
 curl -sL -r 0-199999 https://raw.githubusercontent.com/PerseusDL/lexica/master/CTS_XML_TEI/perseus/pdllex/grc/lsj/grc.lsj.perseus-eng17.xml | grep -o 'key="[^"]*"' | head -1
 ```
 
-`eng2` opens at beta, `eng3` gamma, `eng4` delta, `eng5` epsilon, `eng11` kappa, `eng13` mu, `eng14` nu, `eng16` omicron, `eng20` rho,
+`eng2` opens at beta, `eng3` gamma, `eng4` delta, `eng5` epsilon, `eng7` zeta, `eng11` kappa, `eng13` mu, `eng14` nu, `eng16` omicron, `eng20` rho,
 `eng12` lambda, `eng20` rho, `eng21` sigma, `eng22` tau.
 
 Entries are `<entryFree key="…">` in Beta Code, with `<tr>` for each translation, as in

@@ -65,7 +65,7 @@ FLAGS = {None, "divergence", "not in this text", "name", "variant"}
 
 # Which edition each book is checked against. LXX books are read from the Rahlfs
 # MyBible module; NT books from the SBLGNT plain-text files.
-EDITIONS = {"GEN": "lxx", "JHN": "sblgnt"}
+EDITIONS = {"GEN": "lxx", "EXO": "lxx", "JHN": "sblgnt"}
 
 # The two Old Testament cross-checks are optional and off by default. They read a local
 # Rahlfs morphological module, which is no part of this repository and never a source for

@@ -30,3 +30,58 @@ early the same way. The fix is a new check (a chain must carry every sense its c
 
 **Recommendation:** the whole range, and the check. A Greek reader hears φιλέω's kiss in a
 farewell over a dead father; the chain should give it to the English reader too.
+
+## Q2. *X or Y*: three treatments of one shape
+
+**Where:** any entry that writes two translations joined by *or* and tags them apart, `«to go up
+with» or «together»`.
+
+**Now:** the corpus does three things with them.
+
+| treatment | example | chain |
+|---|---|---|
+| joined with *and* | ἐφίστημι perfect, GEN 24; κατασοφίζομαι, ἐπιστάτης, EXO 1 | `I have stood by and near`, `let us conquer by sophisms and fallacies and outwit` |
+| the piece dropped | θῆλυς (*of or belonging to women*); συναναβαίνω (*to go up with or together*), GEN 50 | `belonging to women`; `went up with` |
+| kept as an item of its own | ἐπανέρχομαι, GEN 50:5 (*to go up or pass from one place to another*) | `I will go up, I will pass` |
+
+**The difference:** a piece that is not a translation by itself (*of*, *together*, *near*) reads
+wrongly as an item of its own; one that is (*pass*) loses a sense if it is dropped. Joining with
+*and* keeps both and reads as the one sense the entry means.
+
+**Recommendation:** join with *and* everywhere, in the entry's own order — `went up with and
+together`, `of and belonging to women` — and add a check that no tagged piece is dropped.
+
+## Q3. A sense LSJ gives one form only — πανοικίᾳ
+
+**Where:** EXO 1:1 πανοικίᾳ, and any later LSJ word whose entry gives a form a sense of its own.
+
+**Now:** LSJ's πανοικία reads *whole household*, then *dat. as Adv., πανοικίᾳ with all the house*.
+`FORM_SENSES` can split Middle Liddell's senses by form, but an LSJ entry is one fixed list for every
+form, so the dative's *with all the house* cannot be given to the dative without being given to the
+nominative of GEN 50:8 too. EXO 1:1 has `to whole household` as plain text.
+
+| | EXO 1:1 *ἕκαστος πανοικίᾳ αὐτῶν* |
+|---|---|
+| now | `to whole household of them` |
+| with the dative's sense | a unit, `to whole household, with all the house` |
+
+**Recommendation:** let an LSJ entry take the same form rules as Middle Liddell's (a small change in
+`words.py` and the checks that read LSJ), then open πανοικίᾳ.
+
+## Q4. The case marker on a sense that is the case's own English — βίᾳ
+
+**Where:** EXO 1:13 βίᾳ.
+
+**Now:** `to bodily strength and force and power and might, to force and an act of violence, against
+one's will and in spite of, perforce` — the marker *to* on the noun's senses, none on the dative's
+own adverbial senses, where Middle Liddell's English already renders the dative (*perforce*). The
+rule says every dative unit opens with *to*, which this does; it says nothing of later items, and
+the corpus marks every item elsewhere.
+
+| | reads |
+|---|---|
+| now | `…, against one's will and in spite of, perforce` |
+| every item marked | `…, to against one's will and in spite of, to perforce` |
+
+**Recommendation:** leave them unmarked, as ἐν's own English is (*within, inside of, and by means
+of*): the marker shows a form English cannot, and these senses are that form in English already.

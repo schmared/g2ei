@@ -1,0 +1,401 @@
+# Exodus 1 — morphology, one word per line.
+#
+# This is the project's own grammatical analysis of each form, written alongside the
+# transcription and not copied from any digital edition.
+#
+# Columns: verse, part of speech, parse, form, lemma — in MorphGNT's code scheme, so
+# the Old and New Testament layers read alike. The parse is eight places: person,
+# tense, voice, mood, case, number, gender, degree ("-" where it does not apply).
+#
+# Two codes go beyond MorphGNT, both to record only what the form itself says:
+#   voice  E  middle/passive — a tense in which the two share one form
+#   gender C  masculine/feminine — an adjective whose form does not distinguish them
+#
+# A trailing annotation records a deliberate difference and the reason for it:
+#   "# module …"  from the reference module, checked when LXX_RAHLFS_DIR is set
+#   "# corpus …"  from this project's own analysis of the same form elsewhere
+# A line may carry both. validate.py prints them as notes instead of failures — and
+# fails if the difference a note claims is not there, so they cannot go stale. The
+# analysis here is this project's own: the module is a reference, not an authority,
+# and the corpus is held to itself.
+#
+# Indeclinables take case and number from the syntax, as MorphGNT does, and gender
+# where there is one to take: a personal name, from the person; a numeral agreeing
+# with its noun; a common noun whose article shows it — but not an indeclinable place
+# name, which has none. A personal name the New Testament also uses takes MorphGNT's
+# dictionary form (Νῶε, Σήμ); every other Semitic name (Χαμ, Ιαφεθ), the form Rahlfs
+# prints.
+
+1:1 RD ----NPN- Ταῦτα οὗτος
+1:1 RA ----NPN- τὰ ὁ
+1:1 N- ----NPN- ὀνόματα ὄνομα
+1:1 RA ----GPM- τῶν ὁ
+1:1 N- ----GPM- υἱῶν υἱός
+1:1 N- ----GSM- Ισραηλ Ἰσραήλ
+1:1 RA ----GPM- τῶν ὁ
+1:1 V- -XEPGPM- εἰσπεπορευμένων εἰσπορεύομαι
+1:1 P- -------- εἰς εἰς
+1:1 N- ----ASF- Αἴγυπτον Αἴγυπτος
+1:1 P- -------- ἅμα ἅμα
+1:1 N- ----DSM- Ιακωβ Ἰακώβ
+1:1 RA ----DSM- τῷ ὁ
+1:1 N- ----DSM- πατρὶ πατήρ
+1:1 RP ----GPM- αὐτῶν αὐτός
+1:1 A- ----NSM- ἕκαστος ἕκαστος
+1:1 N- ----DSF- πανοικίᾳ πανοικία
+1:1 RP ----GPM- αὐτῶν αὐτός
+1:1 V- 3AAI-P-- εἰσήλθοσαν εἰσέρχομαι
+1:2 N- ----NSM- Ρουβην Ῥουβήν
+1:2 N- ----NSM- Συμεων Συμεών
+1:2 N- ----NSM- Λευι Λευί  # module Λευΐ — Λευί, as MorphGNT accents it
+1:2 N- ----NSM- Ιουδας Ἰούδας
+1:3 N- ----NSM- Ισσαχαρ Ἰσσαχάρ
+1:3 N- ----NSM- Ζαβουλων Ζαβουλών
+1:3 C- -------- καὶ καί
+1:3 N- ----NSM- Βενιαμιν Βενιαμίν
+1:4 N- ----NSM- Δαν Δαν
+1:4 C- -------- καὶ καί
+1:4 N- ----NSM- Νεφθαλι Νεφθαλι  # module Νεφθαλείμ — Νεφθαλι, the form Rahlfs prints here
+1:4 N- ----NSM- Γαδ Γάδ
+1:4 C- -------- καὶ καί
+1:4 N- ----NSM- Ασηρ Ἀσήρ
+1:5 N- ----NSM- Ιωσηφ Ἰωσήφ
+1:5 C- -------- δὲ δέ
+1:5 V- 3IAI-S-- ἦν εἰμί
+1:5 P- -------- ἐν ἐν
+1:5 N- ----DSF- Αἰγύπτῳ Αἴγυπτος
+1:5 V- 3IAI-P-- ἦσαν εἰμί
+1:5 C- -------- δὲ δέ
+1:5 A- ----NPF- πᾶσαι πᾶς
+1:5 N- ----NPF- ψυχαὶ ψυχή
+1:5 P- -------- ἐξ ἐκ
+1:5 N- ----GSM- Ιακωβ Ἰακώβ
+1:5 A- ----NPF- πέντε πέντε  # module M, no features — MorphGNT gives πέντε case, number and gender like any adjective
+1:5 C- -------- καὶ καί
+1:5 A- ----NPF- ἑβδομήκοντα ἑβδομήκοντα  # module M, no features — MorphGNT gives ἑβδομήκοντα case, number and gender like any adjective
+1:6 V- 3AAI-S-- ἐτελεύτησεν τελευτάω
+1:6 C- -------- δὲ δέ
+1:6 N- ----NSM- Ιωσηφ Ἰωσήφ
+1:6 C- -------- καὶ καί
+1:6 A- ----NPM- πάντες πᾶς
+1:6 RA ----NPM- οἱ ὁ
+1:6 N- ----NPM- ἀδελφοὶ ἀδελφός
+1:6 RP ----GSM- αὐτοῦ αὐτός
+1:6 C- -------- καὶ καί
+1:6 A- ----NSF- πᾶσα πᾶς
+1:6 RA ----NSF- ἡ ὁ
+1:6 N- ----NSF- γενεὰ γενεά
+1:6 RD ----NSF- ἐκείνη ἐκεῖνος
+1:7 RA ----NPM- οἱ ὁ
+1:7 C- -------- δὲ δέ
+1:7 N- ----NPM- υἱοὶ υἱός
+1:7 N- ----GSM- Ισραηλ Ἰσραήλ
+1:7 V- 3API-P-- ηὐξήθησαν αὐξάνω
+1:7 C- -------- καὶ καί
+1:7 V- 3API-P-- ἐπληθύνθησαν πληθύνω
+1:7 C- -------- καὶ καί
+1:7 A- ----NPM- χυδαῖοι χυδαῖος
+1:7 V- 3AMI-P-- ἐγένοντο γίνομαι
+1:7 C- -------- καὶ καί
+1:7 V- 3IAI-P-- κατίσχυον κατισχύω
+1:7 D- -------- σφόδρα σφόδρα
+1:7 D- -------- σφόδρα σφόδρα
+1:7 V- 3IAI-S-- ἐπλήθυνεν πληθύνω  # module AAI — the imperfect, one spelling with the aorist, after the imperfect κατίσχυον
+1:7 C- -------- δὲ δέ
+1:7 RA ----NSF- ἡ ὁ
+1:7 N- ----NSF- γῆ γῆ
+1:7 RP ----APM- αὐτούς αὐτός
+1:8 V- 3AAI-S-- Ἀνέστη ἀνίστημι
+1:8 C- -------- δὲ δέ
+1:8 N- ----NSM- βασιλεὺς βασιλεύς
+1:8 A- ----NSM- ἕτερος ἕτερος
+1:8 P- -------- ἐπʼ ἐπί
+1:8 N- ----ASF- Αἴγυπτον Αἴγυπτος
+1:8 RR ----NSM- ὃς ὅς
+1:8 D- -------- οὐκ οὐ
+1:8 V- 3YAI-S-- ᾔδει οἶδα
+1:8 RA ----ASM- τὸν ὁ
+1:8 N- ----ASM- Ιωσηφ Ἰωσήφ
+1:9 V- 3AAI-S-- εἶπεν λέγω  # module lemma ἔπω — λέγω keeps one dictionary form across both testaments
+1:9 C- -------- δὲ δέ
+1:9 RA ----DSN- τῷ ὁ
+1:9 N- ----DSN- ἔθνει ἔθνος
+1:9 RP ----GSM- αὐτοῦ αὐτός
+1:9 X- -------- Ἰδοὺ ἰδού
+1:9 RA ----NSN- τὸ ὁ
+1:9 N- ----NSN- γένος γένος
+1:9 RA ----GPM- τῶν ὁ
+1:9 N- ----GPM- υἱῶν υἱός
+1:9 N- ----GSM- Ισραηλ Ἰσραήλ
+1:9 A- ----NSN- μέγα μέγας
+1:9 N- ----NSN- πλῆθος πλῆθος
+1:9 C- -------- καὶ καί
+1:9 V- 3PAI-S-- ἰσχύει ἰσχύω
+1:9 P- -------- ὑπὲρ ὑπέρ
+1:9 RP ----AP-- ἡμᾶς ἐγώ  # module lemma ἡμᾶς, the form itself — ἐγώ is the dictionary form
+1:10 D- -------- δεῦτε δεῦτε
+1:10 C- -------- οὖν οὖν
+1:10 V- 1AMS-P-- κατασοφισώμεθα κατασοφίζομαι
+1:10 RP ----APM- αὐτούς αὐτός
+1:10 C- -------- μήποτε μήποτε
+1:10 V- 3APS-S-- πληθυνθῇ πληθύνω
+1:10 C- -------- καί καί
+1:10 C- -------- ἡνίκα ἡνίκα
+1:10 X- -------- ἂν ἄν
+1:10 V- 3AAS-S-- συμβῇ συμβαίνω
+1:10 RP ----DP-- ἡμῖν ἐγώ  # module lemma ἡμῖν, the form itself — ἐγώ is the dictionary form
+1:10 N- ----NSM- πόλεμος πόλεμος
+1:10 V- 3FPI-P-- προστεθήσονται προστίθημι
+1:10 D- -------- καὶ καί
+1:10 RD ----NPM- οὗτοι οὗτος
+1:10 P- -------- πρὸς πρός
+1:10 RA ----APM- τοὺς ὁ
+1:10 A- ----APM- ὑπεναντίους ὑπεναντίος
+1:10 C- -------- καὶ καί
+1:10 V- -AAPNPM- ἐκπολεμήσαντες ἐκπολεμέω
+1:10 RP ----AP-- ἡμᾶς ἐγώ  # module lemma ἡμᾶς, the form itself — ἐγώ is the dictionary form
+1:10 V- 3FMI-P-- ἐξελεύσονται ἐξέρχομαι
+1:10 P- -------- ἐκ ἐκ
+1:10 RA ----GSF- τῆς ὁ
+1:10 N- ----GSF- γῆς γῆ
+1:11 C- -------- καὶ καί
+1:11 V- 3AAI-S-- ἐπέστησεν ἐφίστημι  # module lemma ἐπίσταμαι — ἐφίστημι, whose first aorist ἐπέστησεν is, to set over; ἐπίσταμαι has none such
+1:11 RP ----DPM- αὐτοῖς αὐτός
+1:11 N- ----APM- ἐπιστάτας ἐπιστάτης
+1:11 RA ----GPN- τῶν ὁ
+1:11 N- ----GPN- ἔργων ἔργον
+1:11 C- -------- ἵνα ἵνα
+1:11 V- 3AAS-P-- κακώσωσιν κακόω
+1:11 RP ----APM- αὐτοὺς αὐτός
+1:11 P- -------- ἐν ἐν
+1:11 RA ----DPN- τοῖς ὁ
+1:11 N- ----DPN- ἔργοις ἔργον
+1:11 C- -------- καὶ καί
+1:11 V- 3AAI-P-- ᾠκοδόμησαν οἰκοδομέω
+1:11 N- ----APF- πόλεις πόλις
+1:11 A- ----APF- ὀχυρὰς ὀχυρός
+1:11 RA ----DSM- τῷ ὁ
+1:11 N- ----DSM- Φαραω Φαραώ
+1:11 RA ----ASF- τήν ὁ
+1:11 C- -------- τε τε
+1:11 N- ----AS-- Πιθωμ Πιθωμ  # module ASF — an indeclinable place name takes no gender, as the header says
+1:11 C- -------- καὶ καί
+1:11 N- ----AS-- Ραμεσση Ραμεσση  # module lemma Ραμεσσή — Ραμεσση, unaccented as Rahlfs prints it, a name the New Testament does not use
+1:11 C- -------- καὶ καί
+1:11 N- ----AS-- Ων Ων  # module ASM — an indeclinable place name takes no gender, as the header says
+1:11 RR ----NSF- ἥ ὅς
+1:11 V- 3PAI-S-- ἐστιν εἰμί
+1:11 N- ----GSM- Ἡλίου Ἥλιος  # module lemma ἥλιος — Ἥλιος, capitalised as Rahlfs prints it in the city's name
+1:11 N- ----NSF- πόλις πόλις
+1:12 C- -------- καθότι καθότι
+1:12 C- -------- δὲ δέ
+1:12 RP ----APM- αὐτοὺς αὐτός
+1:12 V- 3IAI-P-- ἐταπείνουν ταπεινόω
+1:12 RD ----DSN- τοσούτῳ τοσοῦτος  # module DSM — neuter, τοσούτῳ with a comparative, the dative of degree
+1:12 A- ----NPCC πλείους πολύς  # module lemma πλείων — πολύς, under which MorphGNT files the comparative, as GEN's πλείονι
+1:12 V- 3IEI-P-- ἐγίνοντο γίνομαι
+1:12 C- -------- καὶ καί
+1:12 V- 3IAI-P-- ἴσχυον ἰσχύω
+1:12 D- -------- σφόδρα σφόδρα
+1:12 D- -------- σφόδρα σφόδρα
+1:12 C- -------- καὶ καί
+1:12 V- 3IEI-P-- ἐβδελύσσοντο βδελύσσομαι  # module lemma βδελύσσω — βδελύσσομαι, as MorphGNT files βδελυσσόμενος (Rom 2:22)
+1:12 RA ----NPM- οἱ ὁ
+1:12 N- ----NPM- Αἰγύπτιοι Αἰγύπτιος
+1:12 P- -------- ἀπὸ ἀπό
+1:12 RA ----GPM- τῶν ὁ
+1:12 N- ----GPM- υἱῶν υἱός
+1:12 N- ----GSM- Ισραηλ Ἰσραήλ
+1:13 C- -------- καὶ καί
+1:13 V- 3IAI-P-- κατεδυνάστευον καταδυναστεύω
+1:13 RA ----NPM- οἱ ὁ
+1:13 N- ----NPM- Αἰγύπτιοι Αἰγύπτιος
+1:13 RA ----APM- τοὺς ὁ
+1:13 N- ----APM- υἱοὺς υἱός
+1:13 N- ----GSM- Ισραηλ Ἰσραήλ
+1:13 N- ----DSF- βίᾳ βία
+1:14 C- -------- καὶ καί
+1:14 V- 3IAI-P-- κατωδύνων κατοδυνάω
+1:14 RP ----GPM- αὐτῶν αὐτός
+1:14 RA ----ASF- τὴν ὁ
+1:14 N- ----ASF- ζωὴν ζωή
+1:14 P- -------- ἐν ἐν
+1:14 RA ----DPN- τοῖς ὁ
+1:14 N- ----DPN- ἔργοις ἔργον
+1:14 RA ----DPN- τοῖς ὁ
+1:14 A- ----DPN- σκληροῖς σκληρός
+1:14 RA ----DSM- τῷ ὁ
+1:14 N- ----DSM- πηλῷ πηλός
+1:14 C- -------- καὶ καί
+1:14 RA ----DSF- τῇ ὁ
+1:14 N- ----DSF- πλινθείᾳ πλινθεία
+1:14 C- -------- καὶ καί
+1:14 A- ----DPN- πᾶσι πᾶς
+1:14 RA ----DPN- τοῖς ὁ
+1:14 N- ----DPN- ἔργοις ἔργον
+1:14 RA ----DPN- τοῖς ὁ
+1:14 P- -------- ἐν ἐν
+1:14 RA ----DPN- τοῖς ὁ
+1:14 N- ----DPN- πεδίοις πεδίον
+1:14 P- -------- κατὰ κατά
+1:14 A- ----APN- πάντα πᾶς
+1:14 RA ----APN- τὰ ὁ
+1:14 N- ----APN- ἔργα ἔργον
+1:14 RR ----GPN- ὧν ὅς
+1:14 V- 3IEI-P-- κατεδουλοῦντο καταδουλόω
+1:14 RP ----APM- αὐτοὺς αὐτός
+1:14 P- -------- μετὰ μετά
+1:14 N- ----GSF- βίας βία
+1:15 C- -------- Καὶ καί
+1:15 V- 3AAI-S-- εἶπεν λέγω  # module lemma ἔπω — λέγω keeps one dictionary form across both testaments
+1:15 RA ----NSM- ὁ ὁ
+1:15 N- ----NSM- βασιλεὺς βασιλεύς
+1:15 RA ----GPM- τῶν ὁ
+1:15 N- ----GPM- Αἰγυπτίων Αἰγύπτιος
+1:15 RA ----DPF- ταῖς ὁ
+1:15 N- ----DPF- μαίαις μαῖα
+1:15 RA ----GPM- τῶν ὁ
+1:15 N- ----GPM- Εβραίων Ἑβραῖος
+1:15 RA ----DSF- τῇ ὁ
+1:15 A- ----DSF- μιᾷ εἷς
+1:15 RP ----GPF- αὐτῶν αὐτός  # module GPM — feminine: of the midwives
+1:15 RR ----DSF- ᾗ ὅς
+1:15 N- ----NSN- ὄνομα ὄνομα
+1:15 N- ----NSF- Σεπφωρα Σεπφωρα
+1:15 C- -------- καὶ καί
+1:15 RA ----NSN- τὸ ὁ
+1:15 N- ----NSN- ὄνομα ὄνομα
+1:15 RA ----GSF- τῆς ὁ
+1:15 A- ----GSF- δευτέρας δεύτερος
+1:15 N- ----NSF- Φουα Φουα  # corpus the midwife, a woman; GEN 46:13's Φουα is Issachar's son
+1:16 C- -------- καὶ καί
+1:16 V- 3AAI-S-- εἶπεν λέγω  # module lemma ἔπω — λέγω keeps one dictionary form across both testaments
+1:16 C- -------- Ὅταν ὅταν
+1:16 V- 2PES-P-- μαιοῦσθε μαιόομαι  # module PMI — the subjunctive after ὅταν, joined to ὦσιν; Koine spells the -όω subjunctive with ου, as MorphGNT parses ζηλοῦτε (Gal 4:17)
+1:16 RA ----APF- τὰς ὁ
+1:16 N- ----APF- Εβραίας Ἑβραῖος  # module lemma Εβραῖα — Ἑβραῖος, the gentilic, here feminine
+1:16 C- -------- καὶ καί
+1:16 V- 3PAS-P-- ὦσιν εἰμί
+1:16 P- -------- πρὸς πρός
+1:16 RA ----DSN- τῷ ὁ
+1:16 V- -PAN---- τίκτειν τίκτω
+1:16 C- -------- ἐὰν ἐάν
+1:16 C- -------- μὲν μέν
+1:16 A- ----NSN- ἄρσεν ἄρσην
+1:16 V- 3PAS-S-- ᾖ εἰμί
+1:16 V- 2AAD-P-- ἀποκτείνατε ἀποκτείνω
+1:16 RP ----ASN- αὐτό αὐτός
+1:16 C- -------- ἐὰν ἐάν
+1:16 C- -------- δὲ δέ
+1:16 A- ----NSN- θῆλυ θῆλυς
+1:16 V- 2PED-P-- περιποιεῖσθε περιποιέω
+1:16 RP ----ASN- αὐτό αὐτός
+1:17 V- 3API-P-- ἐφοβήθησαν φοβέομαι  # module lemma φοβέω — φοβέομαι, as MorphGNT files it
+1:17 C- -------- δὲ δέ
+1:17 RA ----NPF- αἱ ὁ
+1:17 N- ----NPF- μαῖαι μαῖα
+1:17 RA ----ASM- τὸν ὁ
+1:17 N- ----ASM- θεὸν θεός
+1:17 C- -------- καὶ καί
+1:17 D- -------- οὐκ οὐ
+1:17 V- 3AAI-P-- ἐποίησαν ποιέω
+1:17 C- -------- καθότι καθότι
+1:17 V- 3AAI-S-- συνέταξεν συντάσσω
+1:17 RP ----DPF- αὐταῖς αὐτός
+1:17 RA ----NSM- ὁ ὁ
+1:17 N- ----NSM- βασιλεὺς βασιλεύς
+1:17 N- ----GSF- Αἰγύπτου Αἴγυπτος
+1:17 C- -------- καὶ καί
+1:17 V- 3IAI-P-- ἐζωογόνουν ζωογονέω
+1:17 RA ----APN- τὰ ὁ
+1:17 A- ----APN- ἄρσενα ἄρσην
+1:18 V- 3AAI-S-- ἐκάλεσεν καλέω
+1:18 C- -------- δὲ δέ
+1:18 RA ----NSM- ὁ ὁ
+1:18 N- ----NSM- βασιλεὺς βασιλεύς
+1:18 N- ----GSF- Αἰγύπτου Αἴγυπτος
+1:18 RA ----APF- τὰς ὁ
+1:18 N- ----APF- μαίας μαῖα
+1:18 C- -------- καὶ καί
+1:18 V- 3AAI-S-- εἶπεν λέγω  # module lemma ἔπω — λέγω keeps one dictionary form across both testaments
+1:18 RP ----DPF- αὐταῖς αὐτός
+1:18 RI ----ASN- Τί τίς
+1:18 C- -------- ὅτι ὅτι
+1:18 V- 2AAI-P-- ἐποιήσατε ποιέω
+1:18 RA ----ASN- τὸ ὁ
+1:18 N- ----ASN- πρᾶγμα πρᾶγμα
+1:18 RD ----ASN- τοῦτο οὗτος
+1:18 C- -------- καὶ καί
+1:18 V- 2IAI-P-- ἐζωογονεῖτε ζωογονέω
+1:18 RA ----APN- τὰ ὁ
+1:18 A- ----APN- ἄρσενα ἄρσην
+1:19 V- 3AAI-P-- εἶπαν λέγω  # module lemma ἔπω — λέγω keeps one dictionary form across both testaments
+1:19 C- -------- δὲ δέ
+1:19 RA ----NPF- αἱ ὁ
+1:19 N- ----NPF- μαῖαι μαῖα
+1:19 RA ----DSM- τῷ ὁ
+1:19 N- ----DSM- Φαραω Φαραώ
+1:19 D- -------- Οὐχ οὐ
+1:19 C- -------- ὡς ὡς  # module lemma ὥς — ὡς, the comparative particle, as MorphGNT files it
+1:19 N- ----NPF- γυναῖκες γυνή
+1:19 N- ----GSF- Αἰγύπτου Αἴγυπτος
+1:19 RA ----NPF- αἱ ὁ
+1:19 N- ----NPF- Εβραῖαι Ἑβραῖος  # module lemma Εβραῖα — Ἑβραῖος, the gentilic, here feminine
+1:19 V- 3PAI-P-- τίκτουσιν τίκτω
+1:19 C- -------- γὰρ γάρ
+1:19 C- -------- πρὶν πρίν
+1:19 C- -------- ἢ ἤ
+1:19 V- -AAN---- εἰσελθεῖν εἰσέρχομαι
+1:19 P- -------- πρὸς πρός
+1:19 RP ----APF- αὐτὰς αὐτός
+1:19 RA ----APF- τὰς ὁ
+1:19 N- ----APF- μαίας μαῖα
+1:19 C- -------- καὶ καί
+1:19 V- 3IAI-P-- ἔτικτον τίκτω
+1:20 D- -------- εὖ εὖ
+1:20 C- -------- δὲ δέ
+1:20 V- 3IAI-S-- ἐποίει ποιέω
+1:20 RA ----NSM- ὁ ὁ
+1:20 N- ----NSM- θεὸς θεός
+1:20 RA ----DPF- ταῖς ὁ
+1:20 N- ----DPF- μαίαις μαῖα
+1:20 C- -------- καὶ καί
+1:20 V- 3IAI-S-- ἐπλήθυνεν πληθύνω  # module AAI — the imperfect, one spelling with the aorist, between the imperfects ἐποίει and ἴσχυεν
+1:20 RA ----NSM- ὁ ὁ
+1:20 N- ----NSM- λαὸς λαός
+1:20 C- -------- καὶ καί
+1:20 V- 3IAI-S-- ἴσχυεν ἰσχύω
+1:20 D- -------- σφόδρα σφόδρα
+1:21 C- -------- ἐπειδὴ ἐπειδή
+1:21 V- 3IEI-P-- ἐφοβοῦντο φοβέομαι  # module lemma φοβέω — φοβέομαι, as MorphGNT files it
+1:21 RA ----NPF- αἱ ὁ
+1:21 N- ----NPF- μαῖαι μαῖα
+1:21 RA ----ASM- τὸν ὁ
+1:21 N- ----ASM- θεόν θεός
+1:21 V- 3AAI-P-- ἐποίησαν ποιέω
+1:21 RP ----DPF- ἑαυταῖς ἑαυτοῦ
+1:21 N- ----APF- οἰκίας οἰκία
+1:22 V- 3AAI-S-- συνέταξεν συντάσσω
+1:22 C- -------- δὲ δέ
+1:22 N- ----NSM- Φαραω Φαραώ
+1:22 A- ----DSM- παντὶ πᾶς
+1:22 RA ----DSM- τῷ ὁ
+1:22 N- ----DSM- λαῷ λαός
+1:22 RP ----GSM- αὐτοῦ αὐτός
+1:22 V- -PAPNSM- λέγων λέγω
+1:22 A- ----ASN- Πᾶν πᾶς  # module NSM — neuter, with ἄρσεν, the object of ῥίψατε
+1:22 A- ----ASN- ἄρσεν ἄρσην
+1:22 RR ----NSN- ὃ ὅς
+1:22 X- -------- ἐὰν ἐάν
+1:22 V- 3APS-S-- τεχθῇ τίκτω
+1:22 RA ----DPM- τοῖς ὁ
+1:22 N- ----DPM- Εβραίοις Ἑβραῖος
+1:22 P- -------- εἰς εἰς
+1:22 RA ----ASM- τὸν ὁ
+1:22 N- ----ASM- ποταμὸν ποταμός
+1:22 V- 2AAD-P-- ῥίψατε ῥίπτω
+1:22 C- -------- καὶ καί
+1:22 A- ----NSN- πᾶν πᾶς  # module ASN — a hanging nominative, taken up by αὐτό
+1:22 A- ----NSN- θῆλυ θῆλυς  # module ASN — a hanging nominative, taken up by αὐτό
+1:22 V- 2PAD-P-- ζωογονεῖτε ζωογονέω  # module PAI — the imperative, beside ῥίψατε; the two are spelled alike
+1:22 RP ----ASN- αὐτό αὐτός

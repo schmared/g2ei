@@ -6948,3 +6948,51 @@ text uses. Chains already in the corpus were read from it.
 - Names: Αταδ (from Hebrew ʾĀṭād, *bramble, thornbush*), and Πένθος, the name of 50:11, *Πένθος
   Αἰγύπτου*, `Mourning`, the Greek of ʾĀbēl Miṣrayim; the first Πένθος of the verse is the common
   noun, capitalised as the start of speech.
+
+## Exodus
+
+### Words new in EXO 1
+
+From Middle Liddell unless marked; the headword is the entry's first translation in the form the
+text uses. Chains already in the corpus (Genesis) were read from it and re-inflected.
+
+- **From LSJ** (not in Middle Liddell): χυδαῖος `poured out in streams and abundant, common and
+  ordinary, common and vulgar and coarse` (1:7); κατοδυνάω, *afflict grievously*, one translation,
+  plain text (1:14); πλινθεία `to the brickmaking, to the drawing up of an army in square` (1:14);
+  ζωογονέω `were propagating, …, were preserving alive`, *= ζωγρέω, preserve alive* last (1:17, 1:18,
+  1:22), from the zeta file, `eng7`, fetched for it.
+- **Tense, voice, number and case** (`FORM_SENSES`): ἐφίστημι is causal in the present, imperfect,
+  future and first aorist, intransitive in the perfect, pluperfect and second aorist, as ἵστημι —
+  ἐπέστησεν `set and placed upon, set over, …, arrested the attention`; the perfect's card now
+  matches GEN 24's chain, which had kept only the intransitive. κατασοφίζομαι's middle leaves out
+  the passive *to be outwitted*. τοσοῦτος in the singular leaves out *in pl. so many*. βία's
+  *against one's will, in spite of* and *perforce* are the dative's, βίᾳ — the form cannot show the
+  case once the iota subscript is stripped, so a `FORM_SENSES` rule now takes a fifth item, a
+  pattern the parse code must show (`^....D`).
+- **Cut translations restored** (`MARKUP_LOST`): ἐπιστάτης's *a training-master* (the `<tr>`s stop
+  either side of *training-*), βία's *against one's will, in spite of* (*one's* between two
+  `<tr>`s).
+- **Pieces set aside** (`NOT_SENSES`): ἐπιστάτης (παραστάτης's and προστάτης's glosses, *the right-
+  or left-hand man*, *the front-rank man*); τοσοῦτος (the phrases with prepositions, *so far*, *in
+  the meantime*, and the examples' *so*, *as large*).
+- **Joined *or*-pieces**, as the corpus joins them in ἐφίστημι's perfect (*stood by and near*):
+  κατασοφίζομαι `let us conquer by sophisms and fallacies and outwit`; ἐπιστάτης `ones who stand
+  near and by and suppliants`; ἐφίστημι `set and placed upon`, `set by and near to`. See
+  open-questions.md, Q2.
+- New chains: εἰσπορεύομαι `of the ones having gone into` (perfect); κατισχύω `were having power
+  over`; πληθύνω `was making full`, `may be made full`; ἔθνος `to the number of people accustomed to
+  live together`; προστίθημι `will be put to`; ὑπεναντίος `the ones set over against and meeting`;
+  ἐκπολεμέω `having excited to war`; κακόω `may treat ill`; πόλις `cities`; ὀχυρός `firm`; ταπεινόω
+  `were lowering`; τοσοῦτος `to so large`; πολύς `more` (the comparative); γίνομαι `were coming into
+  being`; ἰσχύω `were being strong`, `was being strong`; βδελύσσομαι `were feeling nausea`; βία `to
+  bodily strength`, `of bodily strength`; σκληρός `to the hard`; πηλός `to the clay`; ἔργον `to the
+  works`; πεδίον with ἐν, plural; καταδουλόω `were being reduced to slavery` (imperfect
+  middle/passive: the passive, then the middle's own); μαῖα `the good mothers`, `to the good
+  mothers`; τίκτω `to the bringing into the world`, `bring into the world`, `were bringing into the
+  world`, `may be brought into the world`; περιποιέω `keep` (the middle); ἄρσην `the male`;
+  φοβέομαι `were being put to flight`; ῥίπτω `throw`.
+- One translation each, plain text: πανοικία (*whole household* — but see open-questions.md, Q3),
+  πέντε, καθότι (*in what manner*), καταδυναστεύω (*to exercise power over*), κατοδυνάω, μαιόομαι
+  (*to deliver*).
+- Names new to the corpus: Πιθωμ, Ων, Σεπφωρα (Shiphrah), Φουα (Puah, the midwife — GEN 46:13's
+  Φουα is Issachar's son, and the morphology says so).
