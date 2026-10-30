@@ -464,6 +464,19 @@ corpus: adverbial μόνον stays `A- μόνος`, where the second pass has ha
 is the noun, as at 28:18 and in MorphGNT's own ἀπʼ ἄκρων … ἕως τῶν ἄκρων (Matt 24:31). Both are
 now in the brief.
 
+### What it found in Genesis 48
+
+Ten disagreements over 564 words. Six went to the second pass:
+- ἐάν after a relative, `ἃ ἐὰν γεννήσῃς`, is `X-`, as the corpus has it eight times in nine;
+- τοῦ before γήρους and before προσώπου is neuter, with its noun;
+- καί is the adverb, *also*, three times: καὶ τὸ σπέρμα σου at 48:11, and both καὶ οὗτος at 48:19,
+  for the Hebrew gam;
+- Εφραθα after τοῦ ἐλθεῖν is the accusative of destination.
+
+The first pass kept ἔκγονα under ἔκγονον, as MorphGNT files it at 1 Tim 5:4; Βαιθλεεμ under
+Βηθλέεμ, as at 35:19; and Σικιμα at 48:22 as a singular, `----AS--`, since ἐξαίρετον and ἥν with it
+are singular, where the second pass had the neuter plural the name takes elsewhere.
+
 ## The brief
 
 Copy everything below the rule into a new agent. Replace `<BOOK NAME>`, `<CHAPTER>`,

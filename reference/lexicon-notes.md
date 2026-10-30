@@ -6774,3 +6774,66 @@ text uses. Chains already in the corpus were read from it.
   a corpse`; αἴρω `you will take up`; τάφος `in the burial` (23:4's selection); ῥάβδος `of the rod`.
 - ἔτος, υἱός, σήμερον, γένημα and the numerals — one translation each: plain text. γενήματα reads
   `the produces`, as at 41:34.
+
+### Words new in GEN 48
+
+From Middle Liddell unless marked; the headword is the entry's first translation in the form the
+text uses. Chains already in the corpus were read from it.
+
+- ἐνοχλέω (present, middle or passive) — **headword** `is troubled`; **chain** `is troubled and
+  disquieted and annoyed, gives trouble or annoyance to, is a nuisance`: the active passivized
+  first, the intransitive senses in their own voice after, as ἐπιφαίνω at 35:7. The passive's own
+  *to be troubled or annoyed* says nothing the first item does not. 48:1.
+- κλίνη — **headword** `the that on which one lies`; **chain** `the that on which one lies and couch,
+  the bed, the bier`, the article over a gloss that opens otherwise, as `the that which is sown`. 48:2.
+- ἔκγονον (MorphGNT's dictionary form; Middle Liddell files it under ἔκγονος) — **headword** `the
+  offspring`; **chain** `the offspring, the born of and sprung from`. The entry gives the neuter its
+  own sense, *neut. ἔκγονα, one's offspring*, and the masculine's *a child, son, daughter* and
+  *descendants* are set aside for it in `FORM_SENSES`. 48:6.
+- κλῆρος, with ἐν — **headword** `in the lots`; **chain** `within, inside of, and by means of the
+  lots, the casting lots and drawing lots, the allotments, the pieces of land and portions and
+  farms, the clergy`. *The laity*, the contrast the entry draws with the clergy, and *by lot*, the
+  example's phrase, are in `NOT_SENSES`. ἐν τοῖς ἐκείνων κλήροις reads `in the lots of those`. 48:6.
+- ἱππόδρομος — `the chariot-road, the race-course`; genitive, `of the chariot-road, of the
+  race-course`. 48:7.
+- κατορύσσω — `I buried in the earth, I buried`. 48:7.
+- βαρυωπέω (LSJ; not in Middle Liddell) — *to be dim-sighted*, one translation: plain text,
+  `were dim-sighted`. 48:10.
+- στερέω (aorist passive) — `I was deprived, I was bereaved, I was robbed of, I was taken away`,
+  split as 30:2's active is. 48:11.
+- δεξιός and ἀριστερός, used as nouns — with ἐν, `in the right` and `in the left`; anarthrous
+  genitive after ἐκ, `of right`, `of left`; articular, `the right`, `the left`, each over 13:9's
+  range. 48:13–18.
+- ἐναλλάξ — `crosswise, alternately`. 48:14.
+- τρέφω (participle) — `the one thickening, …, the one maintaining and supporting`, 6:19's range;
+  the first sense heads, as the rule has it, however the context reads. 48:15.
+- ῥύομαι (participle) — **headword** `the one drawing to himself`; **chain** `the one drawing to
+  himself, the one drawing out of danger and rescuing and saving and delivering, the one saving, …,
+  the one keeping off`. *From*, a piece of *deliver us from the pollution*, is in `NOT_SENSES`. 48:16.
+- βαρύς — **headword** `heavy`; **chain** `heavy, heavy with age or suffering, heavy to bear and
+  grievous, heavily, burdensome and grievous and oppressive, violent, …, strong and offensive`. The
+  adverb βαρέως, filed inside the entry, keeps its *ill* and *with disgust* to itself
+  (`FORM_SENSES`); Homer's *notion of strength and force* is a description, and *suffering* a
+  piece, in `NOT_SENSES`. 48:17.
+- καταφαίνω (aorist passive) — `was declared and made known, became visible and appeared, was quite
+  clear or plain`: the active passivized, then the passive's own. 48:17.
+- ἀντιλαμβάνω (aorist middle) — **headword** `laid hold of`; **chain** the middle's senses, `laid
+  hold of, gained or reached, helped and took part with and assisted, …, held against and held
+  back`; the active's *to receive instead of* and *in turn* are set aside in `FORM_SENSES`. 48:17.
+- ἐξαίρετος — Middle Liddell prints it inside the entry for ἐξαιρετός, *that can be taken out*:
+  `taken out and picked out and chosen, excepted, special and remarkable`, the other word's sense
+  in `NOT_SENSES`. 48:22.
+- ὑπέρ + accusative — **headword** `over`; **chain** the accusative section's translations, `over
+  and beyond, over and above and exceeding and beyond, beyond and contrary to, above and upwards of,
+  more than, beyond, before and earlier than`. *That over and beyond which* is the section's
+  description, not a translation. 48:22.
+- Forms new here, each the chain of a form already in the corpus: ἐνισχύω `having strengthened`;
+  καθίζω `made to sit down` (masculine, *took his seat*); γεννάω `you may beget`; ἔρχομαι `I was
+  coming`; ἐγγίζω `of bringing near` (participle); εὐλογέω `I may speak well of`, `will be spoken well
+  of`; βλέπω `to see`; περιλαμβάνω `seized around`; εὐαρεστέω `were well pleasing`; κακός `of the
+  evils`; ἐπικαλέω `will be called upon`; πληθύνω `may they be made full`; ἀφαιρέω `to take from`;
+  ἐπιτίθημι `lay`; θέλω `willed`; οἶδα `I know`; ὑψόω `will be lifted high`; ποιέω `may he make`;
+  ἀποθνήσκω `I die off`; ἀποστρέφω `will turn`; μάχαιρα `in a large knife`; τόξον `to bow`; καί,
+  adverbial, `also` (48:11, 48:19).
+- υἱός, γῆρας, τίς and the numerals — one translation each: plain text. Βαιθλεεμ is Rahlfs's own
+  spelling here, filed under Βηθλέεμ as at 35:19.

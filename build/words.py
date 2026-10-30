@@ -322,6 +322,9 @@ LSJ = {
     # it". The passive's "have it served out as rations" is not a sense of the active ἐσιτομέτρει.
     "σιτομετρέω": ["deal out portions of corn or provisions", "hold office of sitometres (σιτομέτρης)",
                    "supply with provisions, victual"],
+    # GEN 48. Middle Liddell has no βαρυωπέω. LSJ (eng2): "to be dim-sighted", citing 48:10, and
+    # nothing more.
+    "βαρυωπέω": ["to be dim-sighted"],
     "κατακενόω": ["empty", "empty of", "to be emptied, made or left empty", "make empty by leaving, desert",
                   "empty by depletion", "carry off", "empty out, pour away", "make away with", "expend",
                   "waste away, shrivel", "make empty", "make void, of no effect"],
@@ -1169,6 +1172,10 @@ NOT_SENSES = {
                "taking leave", "parting", "have done with", "away with", "let", "be put aside", "may'st",
                "fare well", "with a benison", "welcome", "S. D."},  # pieces of examples and constructions
     "nomh/": {"to spread"},                      # νομὴν ἔχειν, of a sore, rendered whole
+    "e)cai/retos": {"that can be taken out, removable"},  # ἐξαιρετός's, the entry's other word
+    "klh=ros": {"the laity.", "by lot"},          # the contrast the clergy is drawn against; an example's phrase
+    "r(u/omai": {"from"},                         # a piece of "deliver us from the pollution"
+    "baru/s": {"strength and force", "suffering"},  # Homer's "notion of" described; a piece of "heavy with age or suffering"
     "be/ltistos": {"my good friend"},             # ὦ βέλτιστε, the vocative's mode of address
     "e)rhmo/w": {"of", "without"},                # pieces of "to bereave one of", "to leave the oars without men"
     # ἄν: a paragraph on the particle's uses, tagged as one translation, opens the card.
@@ -1335,6 +1342,16 @@ FORM_SENSES = {
     # given" … "to receive orders"); "to" is a piece of "to assign them to his command".
     "prosta/ssw": [("PIFAXY", "A", {"to", "orders had been given", "orders given", "orders that will be given",
                                     "the order having been given", "to be ordered", "to receive orders"})],
+    # ἔκγονος: "as Subst. a child, whether son or daughter; and in pl. ἔκγονοι, descendants;
+    # neut., ἔκγονα, one's offspring". GEN 48:6's τὰ ἔκγονα is the neuter, and the masculine's
+    # child, son, daughter and descendants are not its senses.
+    "e)/kgonos": [("-", "-", {"a child", "son", "daughter", "descendants"}, "^εκγονα$")],
+    # βαρύς: the adverb βαρέως is filed inside the entry, and "to take a thing ill", "to hear with
+    # disgust" are its; GEN 48:17's βαρύ is the adjective.
+    "baru/s": [("-", "-", {"ill", "with disgust", "strength and force", "suffering"}, "^(?!βαρεως)")],
+    # ἀντιλαμβάνω: "to receive instead of … to receive in turn or as a return", then "Mid. … to lay
+    # hold of". GEN 48:17's aorist middle ἀντελάβετο takes the middle's senses only.
+    "a)ntilamba/nw": [("PIFAXY", "M", {"to receive instead of", "to receive in turn", "as a return"})],
     "pau/w": [("PIFAXY", "MEP", {
         "to make to cease", "to bring to an end, check, make an end of", "to make an end of, stop, abate",
         "to let", "rest", "to annul", "to put", "down", "to make to rest, stop, hinder, keep back from",
@@ -1358,6 +1375,8 @@ SPELLING = {
     "krufh=|": "kru/bdhn",          # κρυφῆ reads "= κρύβδην" and glosses nothing itself
     "ai)xmalwti/s": "ai)xma/lwtos",  # "fem. of αἰχμάλωτος", and nothing more
     "a)rh/n": "a)rno/s",            # the lamb, filed under its genitive ἀρνός
+    "e)/kgonon": "e)/kgonos",       # "neut., ἔκγονα, one's offspring", of the same adjective
+    "e)cai/retos": "e)caireto/s",   # "ἐξαίρετος, ον, taken out", printed inside ἐξαιρετός's entry
     "katalimpa/nw": "katalei/pw",   # "= καταλείπω", and nothing more
     "e)/sw": "ei)/sw",              # "older form of εἴσω"; its one translation is of the
                                     # comparative ἐσωτέρω, "to the interior" of Greece
