@@ -6814,7 +6814,8 @@ text uses. Chains already in the corpus were read from it.
   grievous, heavily, burdensome and grievous and oppressive, violent, …, strong and offensive`. The
   adverb βαρέως, filed inside the entry, keeps its *ill* and *with disgust* to itself
   (`FORM_SENSES`); Homer's *notion of strength and force* is a description, and *suffering* a
-  piece, in `NOT_SENSES`. 48:17.
+  piece, set aside for the adjective's forms in the same rule, since 31:35's βαρέως reads *with
+  strength and force*. 48:17.
 - καταφαίνω (aorist passive) — `was declared and made known, became visible and appeared, was quite
   clear or plain`: the active passivized, then the passive's own. 48:17.
 - ἀντιλαμβάνω (aorist middle) — **headword** `laid hold of`; **chain** the middle's senses, `laid
@@ -6837,3 +6838,62 @@ text uses. Chains already in the corpus were read from it.
   adverbial, `also` (48:11, 48:19).
 - υἱός, γῆρας, τίς and the numerals — one translation each: plain text. Βαιθλεεμ is Rahlfs's own
   spelling here, filed under Βηθλέεμ as at 35:19.
+
+### Words new in GEN 49
+
+From Middle Liddell unless marked; the headword is the entry's first translation in the form the
+text uses. Chains already in the corpus were read from it. Jacob's blessing is poetry, and dense
+with rare words; most of what is new here came with a lexicon scrap to settle.
+
+- **From LSJ** (not in Middle Liddell): ἐρείδω, the active's senses only, `may it cause to lean and
+  prop, …, may it become fixed`; νευροκοπέω, *hamstring, hough*, one translation, `hamstrung and
+  houghed`, from the nu file fetched for it; ὑπερισχύω, `was exceedingly strong, was too luxuriant,
+  was overbearing, was stronger than and prevailed over`. 49:6, 49:26.
+- **Close forms and cross-references:** νῶτος, MorphGNT's form, is filed as νῶτον, `of back, of any
+  wide surface, of plains, of back or ridge`; πρωινός reads only *later form of πρώιος*, and takes
+  that entry, `the early, the early in the day and at early morn, the early in the year`; ἕλιξ, the
+  vine's tendril, is Middle Liddell's second entry, the noun (`ENTRY`), not the adjective
+  *twisted*. 49:8, 49:27, 49:11.
+- **Lost to Latin:** ὀδούς, λέων and λύκος print their first sense inside the Latin element (*Lat.
+  dens, dentis, a tooth*; *Lat. leo, a lion*; *Lat. lupus, a wolf*), restored in `MARKUP_LOST`.
+  ὀδούς and λύκος then have one sense each and are plain text; λέων adds *a lion's skin*. 49:9,
+  49:12, 49:27.
+- **Pieces and examples set aside** (`NOT_SENSES`): ἀθροίζω, κοίτη, στρωμνή, βουλή, σύστασις, ἧπαρ
+  (*pregnant*, ὑφ' ἥπατος φέρειν, leaving *the liver* alone, plain text), ἀπόκειμαι, πλύνω (λούομαι's
+  *to bathe* and νίζω's *to wash the hands or feet*, glossed in the entry by contrast), περιβολή,
+  πλοῖον, πίων, ἐγκάθημαι, δάκνω, περιμένω, τόξευμα, κράτος (κατὰ κράτος, rendered whole, and the
+  personified *Strength, Might*), μαστός, κορυφή, λύκος, διαδίδωμι, τροφή, ἐπιτάσσω, ἡγέομαι, ἕλιξ.
+- **Voice** (`FORM_SENSES`): the active forms of παρατείνω, πονέω, δάκνω, ἐπιδίδωμι, λοιδορέω, ἐνέχω,
+  διαδίδωμι and ἐπιτάσσω take none of their passive's or middle's senses; ἡγέομαι's *the rulers,
+  leading men* is the participle's, and the finite ἡγήσατο leaves it out.
+- New chains, each the card in the form the text uses: συνάγω `be brought together`; ἀθροίζω `be
+  gathered together`; ἀναγγέλλω `I may carry back tidings of`; ἀπαντάω `will move from`; ἔσχατος `of
+  outermost`; ἰσχύς `strength`; τέκνον `of things borne`; φέρω `to be borne`; αὐθάδης `self-willed`;
+  ἐξυβρίζω `you broke out into insolence`; ἐκζέω `you may boil out`; κοίτη `the marriage-bed`;
+  στρωμνή `the bed spread`; ἀδικία `wrong-doing`; αἵρεσις `of a taking`; βουλή `will`; σύστασις `to
+  the putting together`; θυμός and ἐπιθυμία with ἐν; μῆνις `the wrath`; διαμερίζω, διασπείρω (future);
+  αἰνέω `may they tell or speak of`; ἐχθρός `of the one's enemies`; σκύμνος `a cub`; λέων; βλαστός `of
+  sprout`; ἀναπίπτω `having fallen back`; κοιμάω `you were lulled`; ἐγείρω `will awaken`; ἡγέομαι
+  `going before`, `went before`; ἀπόκειμαι `the things being laid away`; προσδοκία `a looking for`;
+  δεσμεύω `fettering`; πῶλος `the foal`; ἕλιξ `to the anything which assumes a spiral shape`; πλύνω
+  `will wash`; περιβολή `the anything which is thrown round`; χαροπός `glad-eyed`; παράλιος `by the
+  sea`; ὅρμος `a cord`; πλοῖον `of floating vessels`; παρατείνω `will stretch out along`; ἐπιθυμέω
+  `set his heart upon`; ἀναπαύω `desisting from`; κλῆρος `of the lots`; ἀνάπαυσις `the repose`; πίων
+  `fat`; πονέω `the working hard`; ὄφις `serpent`; ὁδός `of way`; ἐγκάθημαι `sitting in or on`; τρίβος
+  `of a worn or beaten track`; δάκνω `biting`; ἵππος `of horse`; πίπτω `will fall`; ἱππεύς `the
+  horseman`; σωτηρία `the saving`; περιμένω `I wait for`; πειρατήριον `ordeal`; πούς `feet`; δίδωμι
+  `will give`; τρυφή `softness`; ἄρχων `to rulers`; στέλεχος `crown of the root`; ἀνίημι `having been
+  sent up` (the perfect participle passive, *and standing so*, then the intransitive senses in
+  their own voice); ἐπιδίδωμι `giving besides`; κάλλος `beauty`; αὐξάνω `having been made large`;
+  ζηλωτός `to be emulated`; νέος `youngest`, the superlative over 44:20's comparative range;
+  ἀναστρέφω `turn upside down`; διαβουλεύομαι `discussing pro and con`; λοιδορέω `were abusing`;
+  ἐνέχω `were holding within`; τόξευμα `of things which are shot`; συντρίβω `was rubbed together`;
+  κράτος `of strength`; τόξον `the bows`; ἐκλύω `was loosed`; νεῦρον `the sinews`; δυνάστης `of a
+  lord`; κατισχύω `the one having had power over`; βοηθέω `came to aid`; ἐμός `the mine`; ἔχω `of
+  having`; εὐλογία `of good language`, `to good languages`; μαστός `of ones of the breasts`; ὄρος
+  `of mountains`; μόνιμος `of staying in one's place`; θίς `of heaps`; ἀέναος `of ever-flowing`;
+  κορυφή `of head`; ἅρπαξ `rapacious`; διαδίδωμι `will give from hand to hand`; τροφή `nourishment`;
+  προστίθημι `I am put to`; κτῆσις with ἐν; σπήλαιον `of the grotto`; εἰμί `of the thing being`;
+  θάπτω `I paid the last dues to a corpse`; ἐπιτάσσω `putting upon as a duty`.
+- One translation each, plain text: υἱός, ἧπαρ, ταῦρος, ἐπικατάρατος (*yet more accursed*),
+  σκληρύνω, ἄμπελος, οἶνος, ὀδούς, γάλα, ὦμος, πειρατεύω, γένημα, βραχίων, μήτρα, λύκος, δώδεκα.

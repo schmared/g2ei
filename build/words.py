@@ -325,6 +325,22 @@ LSJ = {
     # GEN 48. Middle Liddell has no βαρυωπέω. LSJ (eng2): "to be dim-sighted", citing 48:10, and
     # nothing more.
     "βαρυωπέω": ["to be dim-sighted"],
+    # GEN 49. None of these is in Middle Liddell. LSJ (eng5): ἐρείδω, the active's senses only, as
+    # GEN 49:6's ἐρείσαι is active: "cause to lean, prop", "fix firmly, plant", "prop up, support,
+    # stay", "press hard, attack", "push, thrust", "infix, plant in" and an example's "inflict", "press
+    # down, depress", "match, set against" (of wagers), and intransitive "press hard", "settle upon",
+    # "exert pressure", "rest", "set to work, fall to", "become fixed". The pieces of examples
+    # ("piling … against", "plant … firm", "fix … firmly", "hurled forth") and the middle's and
+    # passive's senses (III, IV) are left out. LSJ (eng14, fetched for this word): νευροκοπέω,
+    # "hamstring, hough", one translation. LSJ (eng23): ὑπερισχύω, "to be exceedingly strong", of
+    # trees "to be too luxuriant", of persons "to be overbearing", c. gen. "to be stronger than,
+    # prevail over".
+    "ἐρείδω": ["cause to lean, prop", "fix firmly, plant", "prop up, support, stay", "press hard, attack",
+               "push, thrust", "infix, plant in", "inflict", "press down, depress", "match, set against",
+               "settle upon", "exert pressure", "rest", "set to work, fall to", "become fixed"],
+    "νευροκοπέω": ["hamstring, hough"],
+    "ὑπερισχύω": ["to be exceedingly strong", "to be too luxuriant", "to be overbearing",
+                  "to be stronger than, prevail over"],
     "κατακενόω": ["empty", "empty of", "to be emptied, made or left empty", "make empty by leaving, desert",
                   "empty by depletion", "carry off", "empty out, pour away", "make away with", "expend",
                   "waste away, shrivel", "make empty", "make void, of no effect"],
@@ -1175,7 +1191,34 @@ NOT_SENSES = {
     "e)cai/retos": {"that can be taken out, removable"},  # ἐξαιρετός's, the entry's other word
     "klh=ros": {"the laity.", "by lot"},          # the contrast the clergy is drawn against; an example's phrase
     "r(u/omai": {"from"},                         # a piece of "deliver us from the pollution"
-    "baru/s": {"strength and force", "suffering"},  # Homer's "notion of" described; a piece of "heavy with age or suffering"
+    # GEN 49: the renderings of examples and the pieces of constructions, each named by its entry.
+    "a)qroi/zw": {"having rallied", "amounted collectively", "has gathered strength, arisen"},  # examples' renderings
+    "e)cubri/zw": {"to come to", "pitch of insolence", "to commit", "violence"},  # pieces of examples
+    "e)kze/w": {"boiled over"},                   # an example's rendering, "boiled over with worms"
+    "koi/th": {"bed-", "to be pregnant"},         # "bed-time"; κοίτην ἔχειν rendered whole
+    "strwmnh/": {"prepared;"},                    # the end of "a bed spread or prepared"
+    "boulh/": {"counsels", "the Council of", "of the Council, a member of it"},  # a plural; pieces
+    "su/stasis": {"knots"},                       # an example's plural, κατὰ συστάσεις
+    "h(=par": {"pregnant"},                       # ὑφ' ἥπατος φέρειν, of pregnant women
+    "a)po/keimai": {"store", "in reserve"},       # pieces of "great store of laughter in reserve"
+    "plu/nw": {"to bathe", "to wash the hands", "feet)", '"to give', 'a dressing,"'},  # λούομαι's and νίζω's; slang in pieces
+    "peribolh/": {"compass", "a circuit", "long and short"},  # examples' repeats; a phrase's
+    "ploi=on": {"craft", "vessels", "ships"},     # examples' plurals
+    "pi/wn": {"rich", "pingues segetes"},         # a piece of "rich fat"; Latin
+    "pone/w": {"were busied", "was busy", "do with pains", "care", "to labour", "do", "labour"},  # examples; pieces
+    "e)gka/qhmai": {"on"},                        # the end of "to sit in or on"
+    "da/knw": {"prick"},                          # the end of "to sting or prick"
+    "perime/nw": {"they do", "wait for"},         # pieces of an example
+    "to/ceuma": {"an arrow", "bow-shot"},         # examples' repeats
+    "kra/tos": {"with all one's might", "strength, by open force, by storm", "Strength, Might", "the meed"},  # κατὰ κράτος whole; the personified; an example's
+    "masto/s": {"the breast", "mamelon)"},        # an example's; French
+    "koru/fh": {"top of the head", "the highest point", "best of all", "excellence of"},  # examples; pieces
+    "lu/kos": {"to be struck dumb", "Moerim lupi videre priores);"},  # a proverb; Virgil
+    "diadi/dwmi": {"around"},                     # the end of "to cast one's eyes around"
+    "trofh/": {"bread", "a way", "while in the nursery"},  # an example's; a piece; a phrase
+    "e)pita/ssw": {"to", "they had", "placed next", "set as guards over"},  # pieces of examples
+    "h(ge/omai": {"to be", "leader in", "commander of", "fit, deem", "necessary"},  # pieces of "to be leader in", "to think fit, deem necessary"
+    "e(/lic": {"flashes of forked"},              # a piece of "flashes of forked lightning"
     "be/ltistos": {"my good friend"},             # ὦ βέλτιστε, the vocative's mode of address
     "e)rhmo/w": {"of", "without"},                # pieces of "to bereave one of", "to leave the oars without men"
     # ἄν: a paragraph on the particle's uses, tagged as one translation, opens the card.
@@ -1347,11 +1390,31 @@ FORM_SENSES = {
     # child, son, daughter and descendants are not its senses.
     "e)/kgonos": [("-", "-", {"a child", "son", "daughter", "descendants"}, "^εκγονα$")],
     # βαρύς: the adverb βαρέως is filed inside the entry, and "to take a thing ill", "to hear with
-    # disgust" are its; GEN 48:17's βαρύ is the adjective.
+    # disgust" are its; GEN 48:17's βαρύ is the adjective. Homer's "notion of strength and force"
+    # is described, not translated, and "suffering" is the end of "heavy with age or suffering";
+    # both are set aside for the adjective only, since GEN 31:35's βαρέως reads "with strength and
+    # force".
     "baru/s": [("-", "-", {"ill", "with disgust", "strength and force", "suffering"}, "^(?!βαρεως)")],
     # ἀντιλαμβάνω: "to receive instead of … to receive in turn or as a return", then "Mid. … to lay
     # hold of". GEN 48:17's aorist middle ἀντελάβετο takes the middle's senses only.
     "a)ntilamba/nw": [("PIFAXY", "M", {"to receive instead of", "to receive in turn", "as a return"})],
+    # GEN 49: an active form takes none of the passive's senses, and a middle none of the active's.
+    "paratei/nw": [("PIFAXY", "A", {"to draw a long", "to be stretched along", "to be stretched at length, laid low",
+                                    "to be half-dead, worn out", "to strain themselves", "hold out"})],
+    "pone/w": [("PIFAXY", "A", {"were busied", "was busy", "do with pains", "care", "to labour", "do", "labour",
+                                "to be worn out, spoilt", "to be worn out, to suffer greatly", "to be trained", "educated",
+                                "to be won", "achieved by toil"})],
+    "da/knw": [("PIFAXY", "A", {"prick", "I was stung, vexed"})],
+    "e)pidi/dwmi": [("PIFAXY", "A", {"to take as witness", "let us look to"})],
+    "loidore/w": [("PIFAXY", "A", {"to rail at one another", "to rail at", "they use", "reproaches"})],
+    "e)ne/xw": [("PIFAXY", "A", {"to be held, caught, entangled in", "was seized with", "to be obnoxious, liable", "subject to"})],
+    "diadi/dwmi": [("PIFAXY", "A", {"around", "to be spread abroad"})],
+    "e)pita/ssw": [("PIFAXY", "A", {"to", "they had", "placed next", "set as guards over", "to accept orders, submit to commands",
+                                    "to be ordered", "orders given"})],
+    # ἡγέομαι: "the rulers, leading men" is the participle used as a noun (οἱ ἡγούμενοι), not the
+    # finite verb's; GEN 49:26's ἡγήσατο is finite.
+    "h(ge/omai": [("PIFAXY", "MEP", {"to be", "leader in", "commander of", "fit, deem", "necessary", "the rulers", "leading men"},
+                   "^(?!ηγουμεν)")],
     "pau/w": [("PIFAXY", "MEP", {
         "to make to cease", "to bring to an end, check, make an end of", "to make an end of, stop, abate",
         "to let", "rest", "to annul", "to put", "down", "to make to rest, stop, hinder, keep back from",
@@ -1376,6 +1439,8 @@ SPELLING = {
     "ai)xmalwti/s": "ai)xma/lwtos",  # "fem. of αἰχμάλωτος", and nothing more
     "a)rh/n": "a)rno/s",            # the lamb, filed under its genitive ἀρνός
     "e)/kgonon": "e)/kgonos",       # "neut., ἔκγονα, one's offspring", of the same adjective
+    "nw=tos": "nw=ton",             # the back: νῶτος, MorphGNT's form, is νῶτον in the masculine
+    "prwino/s": "prw/ios",          # "later form of πρώιος", and nothing more
     "e)cai/retos": "e)caireto/s",   # "ἐξαίρετος, ον, taken out", printed inside ἐξαιρετός's entry
     "katalimpa/nw": "katalei/pw",   # "= καταλείπω", and nothing more
     "e)/sw": "ei)/sw",              # "older form of εἴσω"; its one translation is of the
@@ -1500,6 +1565,7 @@ ENTRY = {
     "mo/sxos": "mo/sxos2",  # mo/sxos1 is a young shoot; the calf of GEN 12:16 is the second
     "mh=lon": "mh=lon2",  # mh=lon1 is a sheep or goat; the mandrake fruit of GEN 30:14 is the apple
     "nu=n": "nu=n1",     # nu=n2 is νῦν δή, "just now"; νῦν itself is the first entry
+    "e(/lic": "e(/lic2",  # e(/lic1 is the adjective, "twisted"; the vine's tendril of GEN 49:11 is the noun
     "pw=s": "pw=s2",     # pw=s1 is Aristotle's unaccented-sense πῶς, "in a certain way"; the
                          # interrogative, "how?", is the second
 }
@@ -1617,6 +1683,9 @@ MARKUP_LOST = {
     # a translation the printed page gives, and five of them lost the word's own first
     # sense, so the headword had come from somewhere further down the entry.
     "bou=s": [(0, "a bullock, bull, ox")],       # "Lat. bos (bov-is), a bullock, bull, ox, or a cow"
+    "o)dou/s": [(0, "a tooth")],                 # "Lat. dens, dentis, a tooth"
+    "le/wn": [(0, "a lion")],                   # "Lat. leo, a lion"
+    "lu/kos": [(0, "a wolf")],                  # "Lat. lupus, a wolf"
     "kri/nw": [(0, "to separate, part, put asunder, distinguish")],  # "Lat. cerno, to separate, part, …"
     "mh/tra1": [(0, "the womb")],                # "Lat. matrix, the womb" — the whole entry
     "w)=mos": [(0, "the shoulder with the upper arm")],  # "Lat. humerus, the shoulder with the upper arm"

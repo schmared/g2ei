@@ -477,6 +477,14 @@ The first pass kept ἔκγονα under ἔκγονον, as MorphGNT files it at
 Βηθλέεμ, as at 35:19; and Σικιμα at 48:22 as a singular, `----AS--`, since ἐξαίρετον and ἥν with it
 are singular, where the second pass had the neuter plural the name takes elsewhere.
 
+### What it found in Genesis 49
+
+Five disagreements over 569 words, and the second pass was right on all five: Ιουδα at 49:9 is the
+vocative, since the declined name's nominative is Ιουδας and the verse goes on in the second person;
+ἕως before ἄν is the conjunction, `C-`, as the corpus has it; and the three articles of ἐν τῷ σπηλαίῳ
+τῷ διπλῷ τῷ ἀπέναντι are neuter. One more the comparison passes over: πίων takes gender `C`,
+Middle Liddell's *ὁ, ἡ*, at 49:20 as at 49:15.
+
 ## The brief
 
 Copy everything below the rule into a new agent. Replace `<BOOK NAME>`, `<CHAPTER>`,

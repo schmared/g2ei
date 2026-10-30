@@ -1,0 +1,597 @@
+# Genesis 49 — morphology, one word per line.
+#
+# This is the project's own grammatical analysis of each form, written alongside the
+# transcription and not copied from any digital edition.
+#
+# Columns: verse, part of speech, parse, form, lemma — in MorphGNT's code scheme, so
+# the Old and New Testament layers read alike. The parse is eight places: person,
+# tense, voice, mood, case, number, gender, degree ("-" where it does not apply).
+#
+# Two codes go beyond MorphGNT, both to record only what the form itself says:
+#   voice  E  middle/passive — a tense in which the two share one form
+#   gender C  masculine/feminine — an adjective whose form does not distinguish them
+#
+# A trailing annotation records a deliberate difference and the reason for it:
+#   "# module …"  from the reference module, checked when LXX_RAHLFS_DIR is set
+#   "# corpus …"  from this project's own analysis of the same form elsewhere
+# A line may carry both. validate.py prints them as notes instead of failures — and
+# fails if the difference a note claims is not there, so they cannot go stale. The
+# analysis here is this project's own: the module is a reference, not an authority,
+# and the corpus is held to itself.
+#
+# Indeclinables take case and number from the syntax, as MorphGNT does, and gender
+# where there is one to take: a personal name, from the person; a numeral agreeing
+# with its noun; a common noun whose article shows it — but not an indeclinable place
+# name, which has none. A personal name the New Testament also uses takes MorphGNT's
+# dictionary form (Νῶε, Σήμ); every other Semitic name (Χαμ, Ιαφεθ), the form Rahlfs
+# prints.
+
+49:1 V- 3AAI-S-- Ἐκάλεσεν καλέω
+49:1 C- -------- δὲ δέ
+49:1 N- ----NSM- Ιακωβ Ἰακώβ
+49:1 RA ----APM- τοὺς ὁ
+49:1 N- ----APM- υἱοὺς υἱός
+49:1 RP ----GSM- αὐτοῦ αὐτός
+49:1 C- -------- καὶ καί
+49:1 V- 3AAI-S-- εἶπεν λέγω  # module lemma ἔπω — λέγω keeps one dictionary form across both testaments
+49:1 V- 2APD-P-- Συνάχθητε συνάγω  # module APS — the imperative; the subjunctive would be συναχθῆτε, accented on the ending
+49:1 C- -------- ἵνα ἵνα
+49:1 V- 1AAS-S-- ἀναγγείλω ἀναγγέλλω
+49:1 RP ----DP-- ὑμῖν σύ  # module lemma ὑμῖν, the form itself — σύ is the dictionary form
+49:1 RI ----NSN- τί τίς
+49:1 V- 3FAI-S-- ἀπαντήσει ἀπαντάω
+49:1 RP ----DP-- ὑμῖν σύ  # module lemma ὑμῖν, the form itself — σύ is the dictionary form
+49:1 P- -------- ἐπʼ ἐπί
+49:1 A- ----GPF- ἐσχάτων ἔσχατος  # module GPM — agreeing with τῶν ἡμερῶν, feminine
+49:1 RA ----GPF- τῶν ὁ  # module GPM — with ἡμερῶν, feminine
+49:1 N- ----GPF- ἡμερῶν ἡμέρα
+49:2 V- 2APD-P-- ἀθροίσθητε ἀθροίζω
+49:2 C- -------- καὶ καί
+49:2 V- 2AAD-P-- ἀκούσατε ἀκούω
+49:2 N- ----VPM- υἱοὶ υἱός  # module NPM — an address, the vocative, which the plural shares with the nominative
+49:2 N- ----GSM- Ιακωβ Ἰακώβ
+49:2 V- 2AAD-P-- ἀκούσατε ἀκούω
+49:2 N- ----GSM- Ισραηλ Ἰσραήλ
+49:2 RA ----GSM- τοῦ ὁ
+49:2 N- ----GSM- πατρὸς πατήρ
+49:2 RP ----GP-- ὑμῶν σύ  # module lemma ὑμῶν, the form itself — σύ is the dictionary form
+49:3 N- ----VSM- Ρουβην Ῥουβήν
+49:3 A- ----NSC- πρωτότοκός πρωτότοκος
+49:3 RP ----GS-- μου ἐγώ  # module lemma μου, the form itself — ἐγώ is the dictionary form
+49:3 RP ----NS-- σύ σύ
+49:3 N- ----NSF- ἰσχύς ἰσχύς
+49:3 RP ----GS-- μου ἐγώ  # module lemma μου, the form itself — ἐγώ is the dictionary form
+49:3 C- -------- καὶ καί
+49:3 N- ----NSF- ἀρχὴ ἀρχή
+49:3 N- ----GPN- τέκνων τέκνον
+49:3 RP ----GS-- μου ἐγώ  # module lemma μου, the form itself — ἐγώ is the dictionary form
+49:3 A- ----NSM- σκληρὸς σκληρός
+49:3 V- -PEN---- φέρεσθαι φέρω
+49:3 C- -------- καὶ καί
+49:3 A- ----NSM- σκληρὸς σκληρός
+49:3 A- ----NSC- αὐθάδης αὐθάδης
+49:4 V- 2AAI-S-- ἐξύβρισας ἐξυβρίζω  # module AAPNSM — the indicative, accented ἐξύβρισας; the participle is ἐξυβρίσας
+49:4 C- -------- ὡς ὡς  # module lemma ὥς — ὡς, the comparative particle, as MorphGNT files it
+49:4 N- ----NSN- ὕδωρ ὕδωρ
+49:4 D- -------- μὴ μή
+49:4 V- 2AAS-S-- ἐκζέσῃς ἐκζέω
+49:4 V- 2AAI-S-- ἀνέβης ἀναβαίνω
+49:4 C- -------- γὰρ γάρ
+49:4 P- -------- ἐπὶ ἐπί
+49:4 RA ----ASF- τὴν ὁ
+49:4 N- ----ASF- κοίτην κοίτη
+49:4 RA ----GSM- τοῦ ὁ
+49:4 N- ----GSM- πατρός πατήρ
+49:4 RP ----GS-- σου σύ  # module lemma σοῦ, the form itself — σύ is the dictionary form
+49:4 D- -------- τότε τότε
+49:4 V- 2AAI-S-- ἐμίανας μιαίνω
+49:4 RA ----ASF- τὴν ὁ
+49:4 N- ----ASF- στρωμνήν στρωμνή
+49:4 D- -------- οὗ οὗ
+49:4 V- 2AAI-S-- ἀνέβης ἀναβαίνω
+49:5 N- ----NSM- Συμεων Συμεών
+49:5 C- -------- καὶ καί
+49:5 N- ----NSM- Λευι Λευί  # module Λευΐ — Λευί, as MorphGNT accents it
+49:5 N- ----NPM- ἀδελφοί ἀδελφός
+49:5 V- 3AAI-P-- συνετέλεσαν συντελέω
+49:5 N- ----ASF- ἀδικίαν ἀδικία
+49:5 P- -------- ἐξ ἐκ
+49:5 N- ----GSF- αἱρέσεως αἵρεσις
+49:5 RP ----GPM- αὐτῶν αὐτός
+49:6 P- -------- εἰς εἰς
+49:6 N- ----ASF- βουλὴν βουλή
+49:6 RP ----GPM- αὐτῶν αὐτός
+49:6 D- -------- μὴ μή
+49:6 V- 3AAO-S-- ἔλθοι ἔρχομαι
+49:6 RA ----NSF- ἡ ὁ
+49:6 N- ----NSF- ψυχή ψυχή
+49:6 RP ----GS-- μου ἐγώ  # module lemma μου, the form itself — ἐγώ is the dictionary form
+49:6 C- -------- καὶ καί
+49:6 P- -------- ἐπὶ ἐπί
+49:6 RA ----DSF- τῇ ὁ
+49:6 N- ----DSF- συστάσει σύστασις
+49:6 RP ----GPM- αὐτῶν αὐτός
+49:6 D- -------- μὴ μή
+49:6 V- 3AAO-S-- ἐρείσαι ἐρείδω
+49:6 RA ----NPN- τὰ ὁ  # module APN — the subject of ἐρείσαι, a neuter plural with a singular verb, beside ἡ ψυχή μου in the line before
+49:6 N- ----NPN- ἥπατά ἧπαρ  # module APN — the subject of ἐρείσαι, a neuter plural with a singular verb, beside ἡ ψυχή μου in the line before
+49:6 RP ----GS-- μου ἐγώ  # module lemma μου, the form itself — ἐγώ is the dictionary form
+49:6 C- -------- ὅτι ὅτι
+49:6 P- -------- ἐν ἐν
+49:6 RA ----DSM- τῷ ὁ
+49:6 N- ----DSM- θυμῷ θυμός
+49:6 RP ----GPM- αὐτῶν αὐτός
+49:6 V- 3AAI-P-- ἀπέκτειναν ἀποκτείνω
+49:6 N- ----APM- ἀνθρώπους ἄνθρωπος
+49:6 C- -------- καὶ καί
+49:6 P- -------- ἐν ἐν
+49:6 RA ----DSF- τῇ ὁ
+49:6 N- ----DSF- ἐπιθυμίᾳ ἐπιθυμία
+49:6 RP ----GPM- αὐτῶν αὐτός
+49:6 V- 3AAI-P-- ἐνευροκόπησαν νευροκοπέω
+49:6 N- ----ASM- ταῦρον ταῦρος
+49:7 A- ----NSC- ἐπικατάρατος ἐπικατάρατος
+49:7 RA ----NSM- ὁ ὁ
+49:7 N- ----NSM- θυμὸς θυμός
+49:7 RP ----GPM- αὐτῶν αὐτός
+49:7 C- -------- ὅτι ὅτι
+49:7 A- ----NSC- αὐθάδης αὐθάδης
+49:7 C- -------- καὶ καί
+49:7 RA ----NSF- ἡ ὁ
+49:7 N- ----NSF- μῆνις μῆνις
+49:7 RP ----GPM- αὐτῶν αὐτός
+49:7 C- -------- ὅτι ὅτι
+49:7 V- 3API-S-- ἐσκληρύνθη σκληρύνω
+49:7 V- 1FAI-S-- διαμεριῶ διαμερίζω
+49:7 RP ----APM- αὐτοὺς αὐτός
+49:7 P- -------- ἐν ἐν
+49:7 N- ----DSM- Ιακωβ Ἰακώβ
+49:7 C- -------- καὶ καί
+49:7 V- 1FAI-S-- διασπερῶ διασπείρω
+49:7 RP ----APM- αὐτοὺς αὐτός
+49:7 P- -------- ἐν ἐν
+49:7 N- ----DSM- Ισραηλ Ἰσραήλ
+49:8 N- ----VSM- Ιουδα Ἰούδας  # module lemma Ἰουδά — Ἰούδας, whose vocative is Ιουδα, as MorphGNT declines it
+49:8 RP ----AS-- σὲ σύ  # module lemma σέ, the form itself — σύ is the dictionary form
+49:8 V- 3AAO-P-- αἰνέσαισαν αἰνέω
+49:8 RA ----NPM- οἱ ὁ
+49:8 N- ----NPM- ἀδελφοί ἀδελφός
+49:8 RP ----GS-- σου σύ  # module lemma σοῦ, the form itself — σύ is the dictionary form
+49:8 RA ----NPF- αἱ ὁ
+49:8 N- ----NPF- χεῖρές χείρ
+49:8 RP ----GS-- σου σύ  # module lemma σοῦ, the form itself — σύ is the dictionary form
+49:8 P- -------- ἐπὶ ἐπί
+49:8 N- ----GSM- νώτου νῶτος  # module GSN — νῶτος, masculine, as MorphGNT files τὸν νῶτον at Rom 11:10
+49:8 RA ----GPM- τῶν ὁ
+49:8 A- ----GPM- ἐχθρῶν ἐχθρός
+49:8 RP ----GS-- σου σύ  # module lemma σοῦ, the form itself — σύ is the dictionary form
+49:8 V- 3FAI-P-- προσκυνήσουσίν προσκυνέω
+49:8 RP ----DS-- σοι σύ  # module lemma σοί, the form itself — σύ is the dictionary form
+49:8 RA ----NPM- οἱ ὁ
+49:8 N- ----NPM- υἱοὶ υἱός
+49:8 RA ----GSM- τοῦ ὁ
+49:8 N- ----GSM- πατρός πατήρ
+49:8 RP ----GS-- σου σύ  # module lemma σοῦ, the form itself — σύ is the dictionary form
+49:9 N- ----NSM- σκύμνος σκύμνος
+49:9 N- ----GSM- λέοντος λέων
+49:9 N- ----VSM- Ιουδα Ἰούδας  # module lemma Ἰουδά — Ἰούδας, whose vocative is Ιουδα, as MorphGNT declines it
+49:9 P- -------- ἐκ ἐκ
+49:9 N- ----GSM- βλαστοῦ βλαστός
+49:9 N- ----VSM- υἱέ υἱός
+49:9 RP ----GS-- μου ἐγώ  # module lemma μου, the form itself — ἐγώ is the dictionary form
+49:9 V- 2AAI-S-- ἀνέβης ἀναβαίνω
+49:9 V- -AAPNSM- ἀναπεσὼν ἀναπίπτω
+49:9 V- 2API-S-- ἐκοιμήθης κοιμάω
+49:9 C- -------- ὡς ὡς  # module lemma ὥς — ὡς, the comparative particle, as MorphGNT files it
+49:9 N- ----NSM- λέων λέων
+49:9 C- -------- καὶ καί
+49:9 C- -------- ὡς ὡς  # module lemma ὥς — ὡς, the comparative particle, as MorphGNT files it
+49:9 N- ----NSM- σκύμνος σκύμνος
+49:9 RI ----NSM- τίς τίς
+49:9 V- 3FAI-S-- ἐγερεῖ ἐγείρω
+49:9 RP ----ASM- αὐτόν αὐτός
+49:10 D- -------- οὐκ οὐ
+49:10 V- 3FAI-S-- ἐκλείψει ἐκλείπω
+49:10 N- ----NSM- ἄρχων ἄρχων
+49:10 P- -------- ἐξ ἐκ
+49:10 N- ----GSM- Ιουδα Ἰούδας  # module lemma Ἰουδά — the genitive of Ἰούδας, as MorphGNT declines it (Luke 3:30)
+49:10 C- -------- καὶ καί
+49:10 V- -PEPNSM- ἡγούμενος ἡγέομαι
+49:10 P- -------- ἐκ ἐκ
+49:10 RA ----GPM- τῶν ὁ
+49:10 N- ----GPM- μηρῶν μηρός
+49:10 RP ----GSM- αὐτοῦ αὐτός
+49:10 C- -------- ἕως ἕως
+49:10 X- -------- ἂν ἄν
+49:10 V- 3AAS-S-- ἔλθῃ ἔρχομαι
+49:10 RA ----NPN- τὰ ὁ
+49:10 V- -PEPNPN- ἀποκείμενα ἀπόκειμαι
+49:10 RP ----DSM- αὐτῷ αὐτός
+49:10 C- -------- καὶ καί
+49:10 RP ----NSM- αὐτὸς αὐτός
+49:10 N- ----NSF- προσδοκία προσδοκία
+49:10 N- ----GPN- ἐθνῶν ἔθνος
+49:11 V- -PAPNSM- δεσμεύων δεσμεύω
+49:11 P- -------- πρὸς πρός
+49:11 N- ----ASF- ἄμπελον ἄμπελος
+49:11 RA ----ASM- τὸν ὁ
+49:11 N- ----ASM- πῶλον πῶλος
+49:11 RP ----GSM- αὐτοῦ αὐτός
+49:11 C- -------- καὶ καί
+49:11 RA ----DSF- τῇ ὁ
+49:11 N- ----DSF- ἕλικι ἕλιξ
+49:11 RA ----ASM- τὸν ὁ
+49:11 N- ----ASM- πῶλον πῶλος
+49:11 RA ----GSF- τῆς ὁ
+49:11 N- ----GSF- ὄνου ὄνος
+49:11 RP ----GSM- αὐτοῦ αὐτός
+49:11 V- 3FAI-S-- πλυνεῖ πλύνω
+49:11 P- -------- ἐν ἐν
+49:11 N- ----DSM- οἴνῳ οἶνος
+49:11 RA ----ASF- τὴν ὁ
+49:11 N- ----ASF- στολὴν στολή
+49:11 RP ----GSM- αὐτοῦ αὐτός
+49:11 C- -------- καὶ καί
+49:11 P- -------- ἐν ἐν
+49:11 N- ----DSN- αἵματι αἷμα
+49:11 N- ----GSF- σταφυλῆς σταφυλή
+49:11 RA ----ASF- τὴν ὁ
+49:11 N- ----ASF- περιβολὴν περιβολή
+49:11 RP ----GSM- αὐτοῦ αὐτός
+49:12 A- ----NPM- χαροποὶ χαροπός
+49:12 RA ----NPM- οἱ ὁ
+49:12 N- ----NPM- ὀφθαλμοὶ ὀφθαλμός
+49:12 RP ----GSM- αὐτοῦ αὐτός
+49:12 P- -------- ἀπὸ ἀπό
+49:12 N- ----GSM- οἴνου οἶνος
+49:12 C- -------- καὶ καί
+49:12 A- ----NPM- λευκοὶ λευκός
+49:12 RA ----NPM- οἱ ὁ
+49:12 N- ----NPM- ὀδόντες ὀδούς
+49:12 RP ----GSM- αὐτοῦ αὐτός
+49:12 C- -------- ἢ ἤ
+49:12 N- ----NSN- γάλα γάλα
+49:13 N- ----NSM- Ζαβουλων Ζαβουλών
+49:13 A- ----NSM- παράλιος παράλιος
+49:13 V- 3FAI-S-- κατοικήσει κατοικέω
+49:13 C- -------- καὶ καί
+49:13 RP ----NSM- αὐτὸς αὐτός
+49:13 P- -------- παρʼ παρά
+49:13 N- ----ASM- ὅρμον ὅρμος
+49:13 N- ----GPN- πλοίων πλοῖον
+49:13 C- -------- καὶ καί
+49:13 V- 3FAI-S-- παρατενεῖ παρατείνω
+49:13 P- -------- ἕως ἕως
+49:13 N- ----GSF- Σιδῶνος Σιδών  # module GS, no gender — Σιδών declines, and is feminine, as MorphGNT codes it
+49:14 N- ----NSM- Ισσαχαρ Ἰσσαχάρ
+49:14 RA ----ASN- τὸ ὁ
+49:14 A- ----ASN- καλὸν καλός
+49:14 V- 3AAI-S-- ἐπεθύμησεν ἐπιθυμέω
+49:14 V- -PEPNSM- ἀναπαυόμενος ἀναπαύω
+49:14 P- -------- ἀνὰ ἀνά
+49:14 A- ----ASN- μέσον μέσος  # module ASM — with a genitive after it, the neuter used as a noun, as MorphGNT codes ἀνὰ μέσον
+49:14 RA ----GPM- τῶν ὁ
+49:14 N- ----GPM- κλήρων κλῆρος
+49:15 C- -------- καὶ καί
+49:15 V- -AAPNSM- ἰδὼν ὁράω
+49:15 RA ----ASF- τὴν ὁ
+49:15 N- ----ASF- ἀνάπαυσιν ἀνάπαυσις
+49:15 C- -------- ὅτι ὅτι
+49:15 A- ----NSF- καλή καλός
+49:15 C- -------- καὶ καί
+49:15 RA ----ASF- τὴν ὁ
+49:15 N- ----ASF- γῆν γῆ
+49:15 C- -------- ὅτι ὅτι
+49:15 A- ----NSC- πίων πίων
+49:15 V- 3AAI-S-- ὑπέθηκεν ὑποτίθημι
+49:15 RA ----ASM- τὸν ὁ
+49:15 N- ----ASM- ὦμον ὦμος
+49:15 RP ----GSM- αὐτοῦ αὐτός
+49:15 P- -------- εἰς εἰς
+49:15 RA ----ASN- τὸ ὁ
+49:15 V- -PAN---- πονεῖν πονέω  # module AAN — the present infinitive; the aorist is πονῆσαι
+49:15 C- -------- καὶ καί
+49:15 V- 3API-S-- ἐγενήθη γίνομαι
+49:15 N- ----NSM- ἀνὴρ ἀνήρ
+49:15 N- ----NSM- γεωργός γεωργός
+49:16 N- ----NSM- Δαν Δαν
+49:16 V- 3FAI-S-- κρινεῖ κρίνω
+49:16 RA ----ASM- τὸν ὁ
+49:16 RP ----GSM- ἑαυτοῦ ἑαυτοῦ
+49:16 N- ----ASM- λαὸν λαός
+49:16 C- -------- ὡσεὶ ὡσεί
+49:16 D- -------- καὶ καί
+49:16 A- ----NSF- μία εἷς
+49:16 N- ----NSF- φυλὴ φυλή
+49:16 P- -------- ἐν ἐν
+49:16 N- ----DSM- Ισραηλ Ἰσραήλ
+49:17 C- -------- καὶ καί
+49:17 V- 3APD-S-- γενηθήτω γίνομαι
+49:17 N- ----NSM- Δαν Δαν  # module SM, no case — nominative, the subject of γενηθήτω
+49:17 N- ----NSM- ὄφις ὄφις
+49:17 P- -------- ἐφʼ ἐπί
+49:17 N- ----GSF- ὁδοῦ ὁδός
+49:17 V- -PEPNSM- ἐγκαθήμενος ἐγκάθημαι
+49:17 P- -------- ἐπὶ ἐπί
+49:17 N- ----GSF- τρίβου τρίβος  # module GSM — τρίβος is feminine, ἡ, in Middle Liddell
+49:17 V- -PAPNSM- δάκνων δάκνω
+49:17 N- ----ASF- πτέρναν πτέρνα
+49:17 N- ----GSM- ἵππου ἵππος
+49:17 C- -------- καὶ καί
+49:17 V- 3FMI-S-- πεσεῖται πίπτω
+49:17 RA ----NSM- ὁ ὁ
+49:17 N- ----NSM- ἱππεὺς ἱππεύς
+49:17 P- -------- εἰς εἰς
+49:17 RA ----APN- τὰ ὁ
+49:17 D- -------- ὀπίσω ὀπίσω
+49:18 RA ----ASF- τὴν ὁ
+49:18 N- ----ASF- σωτηρίαν σωτηρία
+49:18 V- 1PAI-S-- περιμένω περιμένω
+49:18 N- ----GSM- κυρίου κύριος
+49:19 N- ----NSM- Γαδ Γάδ  # module VSM — not an address: the line speaks of him, αὐτόν; a nominative standing first
+49:19 N- ----NSN- πειρατήριον πειρατήριον
+49:19 V- 3FAI-S-- πειρατεύσει πειρατεύω
+49:19 RP ----ASM- αὐτόν αὐτός
+49:19 RP ----NSM- αὐτὸς αὐτός
+49:19 C- -------- δὲ δέ
+49:19 V- 3FAI-S-- πειρατεύσει πειρατεύω
+49:19 RP ----GPM- αὐτῶν αὐτός
+49:19 P- -------- κατὰ κατά
+49:19 N- ----APM- πόδας πούς
+49:20 N- ----NSM- Ασηρ Ἀσήρ
+49:20 A- ----NSC- πίων πίων
+49:20 RP ----GSM- αὐτοῦ αὐτός
+49:20 RA ----NSM- ὁ ὁ
+49:20 N- ----NSM- ἄρτος ἄρτος
+49:20 C- -------- καὶ καί
+49:20 RP ----NSM- αὐτὸς αὐτός
+49:20 V- 3FAI-S-- δώσει δίδωμι
+49:20 N- ----ASF- τρυφὴν τρυφή
+49:20 N- ----DPM- ἄρχουσιν ἄρχων
+49:21 N- ----NSM- Νεφθαλι Νεφθαλι  # module Νεφθαλείμ — Νεφθαλι, the form Rahlfs prints here
+49:21 N- ----NSN- στέλεχος στέλεχος
+49:21 V- -XEPNSN- ἀνειμένον ἀνίημι
+49:21 V- -PAPNSM- ἐπιδιδοὺς ἐπιδίδωμι
+49:21 P- -------- ἐν ἐν
+49:21 RA ----DSN- τῷ ὁ
+49:21 N- ----DSN- γενήματι γένημα  # module lemma γέννημα — γένημα, the spelling Rahlfs prints, which LSJ keeps apart from γέννημα
+49:21 N- ----ASN- κάλλος κάλλος  # module NSN — the object of ἐπιδιδούς
+49:22 N- ----NSM- Υἱὸς υἱός
+49:22 V- -XEPNSM- ηὐξημένος αὐξάνω
+49:22 N- ----NSM- Ιωσηφ Ἰωσήφ
+49:22 N- ----NSM- υἱὸς υἱός
+49:22 V- -XEPNSM- ηὐξημένος αὐξάνω
+49:22 A- ----NSM- ζηλωτός ζηλωτός
+49:22 N- ----NSM- υἱός υἱός
+49:22 RP ----GS-- μου ἐγώ  # module lemma μου, the form itself — ἐγώ is the dictionary form
+49:22 A- ----NSMS νεώτατος νέος
+49:22 P- -------- πρός πρός
+49:22 RP ----AS-- με ἐγώ  # module lemma μέ, the form itself — ἐγώ is the dictionary form
+49:22 V- 2AAD-S-- ἀνάστρεψον ἀναστρέφω
+49:23 P- -------- εἰς εἰς
+49:23 RR ----ASM- ὃν ὅς
+49:23 V- -PEPNPM- διαβουλευόμενοι διαβουλεύομαι  # module lemma διαβουλεύω — διαβουλεύομαι, as Middle Liddell heads it
+49:23 V- 3IAI-P-- ἐλοιδόρουν λοιδορέω
+49:23 C- -------- καὶ καί
+49:23 V- 3IAI-P-- ἐνεῖχον ἐνέχω
+49:23 RP ----DSM- αὐτῷ αὐτός
+49:23 N- ----NPM- κύριοι κύριος
+49:23 N- ----GPN- τοξευμάτων τόξευμα  # module GPM — τόξευμα is neuter
+49:24 C- -------- καὶ καί
+49:24 V- 3API-S-- συνετρίβη συντρίβω
+49:24 P- -------- μετὰ μετά
+49:24 N- ----GSN- κράτους κράτος
+49:24 RA ----NPN- τὰ ὁ  # module APN — the subject of the passive συνετρίβη
+49:24 N- ----NPN- τόξα τόξον  # module APN — the subject of the passive συνετρίβη
+49:24 RP ----GPM- αὐτῶν αὐτός
+49:24 C- -------- καὶ καί
+49:24 V- 3API-S-- ἐξελύθη ἐκλύω
+49:24 RA ----NPN- τὰ ὁ
+49:24 N- ----NPN- νεῦρα νεῦρον
+49:24 N- ----GPM- βραχιόνων βραχίων
+49:24 N- ----GPF- χειρῶν χείρ
+49:24 RP ----GPM- αὐτῶν αὐτός  # module GPF — their, the archers', as in τὰ τόξα αὐτῶν before it
+49:24 P- -------- διὰ διά
+49:24 N- ----ASF- χεῖρα χείρ
+49:24 N- ----GSM- δυνάστου δυνάστης
+49:24 N- ----GSM- Ιακωβ Ἰακώβ
+49:24 D- -------- ἐκεῖθεν ἐκεῖθεν
+49:24 RA ----NSM- ὁ ὁ
+49:24 V- -AAPNSM- κατισχύσας κατισχύω
+49:24 N- ----ASM- Ισραηλ Ἰσραήλ
+49:25 P- -------- παρὰ παρά
+49:25 N- ----GSM- θεοῦ θεός
+49:25 RA ----GSM- τοῦ ὁ
+49:25 N- ----GSM- πατρός πατήρ
+49:25 RP ----GS-- σου σύ  # module lemma σοῦ, the form itself — σύ is the dictionary form
+49:25 C- -------- καὶ καί
+49:25 V- 3AAI-S-- ἐβοήθησέν βοηθέω
+49:25 RP ----DS-- σοι σύ  # module lemma σοί, the form itself — σύ is the dictionary form
+49:25 RA ----NSM- ὁ ὁ
+49:25 N- ----NSM- θεὸς θεός
+49:25 RA ----NSM- ὁ ὁ
+49:25 A- ----NSM- ἐμὸς ἐμός
+49:25 C- -------- καὶ καί
+49:25 V- 3AAI-S-- εὐλόγησέν εὐλογέω
+49:25 RP ----AS-- σε σύ  # module lemma σέ, the form itself — σύ is the dictionary form
+49:25 N- ----ASF- εὐλογίαν εὐλογία
+49:25 N- ----GSM- οὐρανοῦ οὐρανός
+49:25 D- -------- ἄνωθεν ἄνωθεν
+49:25 C- -------- καὶ καί
+49:25 N- ----ASF- εὐλογίαν εὐλογία
+49:25 N- ----GSF- γῆς γῆ
+49:25 V- -PAPGSF- ἐχούσης ἔχω
+49:25 A- ----APN- πάντα πᾶς
+49:25 P- -------- ἕνεκεν ἕνεκα
+49:25 N- ----GSF- εὐλογίας εὐλογία
+49:25 N- ----GPM- μαστῶν μαστός
+49:25 C- -------- καὶ καί
+49:25 N- ----GSF- μήτρας μήτρα
+49:26 N- ----GSF- εὐλογίας εὐλογία
+49:26 N- ----GSM- πατρός πατήρ
+49:26 RP ----GS-- σου σύ  # module lemma σοῦ, the form itself — σύ is the dictionary form
+49:26 C- -------- καὶ καί
+49:26 N- ----GSF- μητρός μήτηρ
+49:26 RP ----GS-- σου σύ  # module lemma σοῦ, the form itself — σύ is the dictionary form
+49:26 V- 3AAI-S-- ὑπερίσχυσεν ὑπερισχύω
+49:26 P- -------- ἐπʼ ἐπί
+49:26 N- ----DPF- εὐλογίαις εὐλογία
+49:26 N- ----GPN- ὀρέων ὄρος
+49:26 A- ----GPN- μονίμων μόνιμος
+49:26 C- -------- καὶ καί
+49:26 P- -------- ἐπʼ ἐπί
+49:26 N- ----DPF- εὐλογίαις εὐλογία
+49:26 N- ----GPM- θινῶν θίς
+49:26 A- ----GPC- ἀενάων ἀέναος
+49:26 V- 3FMI-P-- ἔσονται εἰμί
+49:26 P- -------- ἐπὶ ἐπί
+49:26 N- ----ASF- κεφαλὴν κεφαλή
+49:26 N- ----GSM- Ιωσηφ Ἰωσήφ
+49:26 C- -------- καὶ καί
+49:26 P- -------- ἐπὶ ἐπί
+49:26 N- ----GSF- κορυφῆς κορυφή
+49:26 RR ----GPM- ὧν ὅς
+49:26 V- 3AMI-S-- ἡγήσατο ἡγέομαι
+49:26 N- ----GPM- ἀδελφῶν ἀδελφός
+49:27 N- ----NSM- Βενιαμιν Βενιαμίν
+49:27 N- ----NSM- λύκος λύκος
+49:27 A- ----NSC- ἅρπαξ ἅρπαξ
+49:27 RA ----ASN- τὸ ὁ
+49:27 A- ----ASN- πρωινὸν πρωινός  # module lemma πρωϊνός — πρωινός, without the diaeresis, as Rahlfs prints it
+49:27 V- 3FMI-S-- ἔδεται ἐσθίω
+49:27 D- -------- ἔτι ἔτι
+49:27 C- -------- καὶ καί
+49:27 P- -------- εἰς εἰς
+49:27 RA ----ASN- τὸ ὁ
+49:27 N- ----GSF- ἑσπέρας ἑσπέρα
+49:27 V- 3FAI-S-- διαδώσει διαδίδωμι
+49:27 N- ----ASF- τροφήν τροφή
+49:28 A- ----NPM- Πάντες πᾶς
+49:28 RD ----NPM- οὗτοι οὗτος
+49:28 N- ----NPM- υἱοὶ υἱός
+49:28 N- ----GSM- Ιακωβ Ἰακώβ
+49:28 A- ----NPM- δώδεκα δώδεκα  # module M, no features — MorphGNT gives δώδεκα case, number and gender like any adjective
+49:28 C- -------- καὶ καί
+49:28 RD ----APN- ταῦτα οὗτος
+49:28 V- 3AAI-S-- ἐλάλησεν λαλέω
+49:28 RP ----DPM- αὐτοῖς αὐτός
+49:28 RA ----NSM- ὁ ὁ
+49:28 N- ----NSM- πατὴρ πατήρ
+49:28 RP ----GPM- αὐτῶν αὐτός
+49:28 C- -------- καὶ καί
+49:28 V- 3AAI-S-- εὐλόγησεν εὐλογέω
+49:28 RP ----APM- αὐτούς αὐτός
+49:28 A- ----ASM- ἕκαστον ἕκαστος
+49:28 P- -------- κατὰ κατά
+49:28 RA ----ASF- τὴν ὁ
+49:28 N- ----ASF- εὐλογίαν εὐλογία
+49:28 RP ----GSM- αὐτοῦ αὐτός
+49:28 V- 3AAI-S-- εὐλόγησεν εὐλογέω
+49:28 RP ----APM- αὐτούς αὐτός
+49:29 C- -------- καὶ καί
+49:29 V- 3AAI-S-- εἶπεν λέγω  # module lemma ἔπω — λέγω keeps one dictionary form across both testaments
+49:29 RP ----DPM- αὐτοῖς αὐτός
+49:29 RP ----NS-- Ἐγὼ ἐγώ
+49:29 V- 1PEI-S-- προστίθεμαι προστίθημι
+49:29 P- -------- πρὸς πρός
+49:29 RA ----ASM- τὸν ὁ
+49:29 A- ----ASM- ἐμὸν ἐμός
+49:29 N- ----ASM- λαόν λαός
+49:29 V- 2AAD-P-- θάψατέ θάπτω
+49:29 RP ----AS-- με ἐγώ  # module lemma μέ, the form itself — ἐγώ is the dictionary form
+49:29 P- -------- μετὰ μετά
+49:29 RA ----GPM- τῶν ὁ
+49:29 N- ----GPM- πατέρων πατήρ
+49:29 RP ----GS-- μου ἐγώ  # module lemma μου, the form itself — ἐγώ is the dictionary form
+49:29 P- -------- ἐν ἐν
+49:29 RA ----DSN- τῷ ὁ
+49:29 N- ----DSN- σπηλαίῳ σπήλαιον
+49:29 RR ----NSN- ὅ ὅς
+49:29 V- 3PAI-S-- ἐστιν εἰμί
+49:29 P- -------- ἐν ἐν
+49:29 RA ----DSM- τῷ ὁ
+49:29 N- ----DSM- ἀγρῷ ἀγρός
+49:29 N- ----GSM- Εφρων Εφρων
+49:29 RA ----GSM- τοῦ ὁ
+49:29 N- ----GSM- Χετταίου Χετταῖος
+49:30 P- -------- ἐν ἐν
+49:30 RA ----DSN- τῷ ὁ
+49:30 N- ----DSN- σπηλαίῳ σπήλαιον
+49:30 RA ----DSN- τῷ ὁ
+49:30 A- ----DSN- διπλῷ διπλοῦς
+49:30 RA ----DSN- τῷ ὁ
+49:30 P- -------- ἀπέναντι ἀπέναντι
+49:30 N- ----GS-- Μαμβρη Μαμβρη
+49:30 P- -------- ἐν ἐν
+49:30 RA ----DSF- τῇ ὁ
+49:30 N- ----DSF- γῇ γῆ
+49:30 N- ----GS-- Χανααν Χανάαν  # module lemma Χαναάν — Χανάαν, as MorphGNT files it
+49:30 RR ----ASN- ὃ ὅς
+49:30 V- 3AMI-S-- ἐκτήσατο κτάομαι
+49:30 N- ----NSM- Αβρααμ Ἀβραάμ
+49:30 RA ----ASN- τὸ ὁ
+49:30 N- ----ASN- σπήλαιον σπήλαιον
+49:30 P- -------- παρὰ παρά
+49:30 N- ----GSM- Εφρων Εφρων
+49:30 RA ----GSM- τοῦ ὁ
+49:30 N- ----GSM- Χετταίου Χετταῖος
+49:30 P- -------- ἐν ἐν
+49:30 N- ----DSF- κτήσει κτῆσις
+49:30 N- ----GSN- μνημείου μνημεῖον
+49:31 D- -------- ἐκεῖ ἐκεῖ
+49:31 V- 3AAI-P-- ἔθαψαν θάπτω
+49:31 N- ----ASM- Αβρααμ Ἀβραάμ
+49:31 C- -------- καὶ καί
+49:31 N- ----ASF- Σαρραν Σάρρα
+49:31 RA ----ASF- τὴν ὁ
+49:31 N- ----ASF- γυναῖκα γυνή
+49:31 RP ----GSM- αὐτοῦ αὐτός
+49:31 D- -------- ἐκεῖ ἐκεῖ
+49:31 V- 3AAI-P-- ἔθαψαν θάπτω
+49:31 N- ----ASM- Ισαακ Ἰσαάκ
+49:31 C- -------- καὶ καί
+49:31 N- ----ASF- Ρεβεκκαν Ῥεβέκκα
+49:31 RA ----ASF- τὴν ὁ
+49:31 N- ----ASF- γυναῖκα γυνή
+49:31 RP ----GSM- αὐτοῦ αὐτός
+49:31 C- -------- καὶ καί
+49:31 D- -------- ἐκεῖ ἐκεῖ
+49:31 V- 1AAI-S-- ἔθαψα θάπτω
+49:31 N- ----ASF- Λειαν Λεια
+49:32 P- -------- ἐν ἐν
+49:32 N- ----DSF- κτήσει κτῆσις
+49:32 RA ----GSM- τοῦ ὁ
+49:32 N- ----GSM- ἀγροῦ ἀγρός
+49:32 C- -------- καὶ καί
+49:32 RA ----GSN- τοῦ ὁ
+49:32 N- ----GSN- σπηλαίου σπήλαιον
+49:32 RA ----GSN- τοῦ ὁ
+49:32 V- -PAPGSN- ὄντος εἰμί
+49:32 P- -------- ἐν ἐν
+49:32 RP ----DSM- αὐτῷ αὐτός
+49:32 P- -------- παρὰ παρά
+49:32 RA ----GPM- τῶν ὁ
+49:32 N- ----GPM- υἱῶν υἱός
+49:32 N- ----GSM- Χετ Χετ
+49:33 C- -------- καὶ καί
+49:33 V- 3AAI-S-- κατέπαυσεν καταπαύω
+49:33 N- ----NSM- Ιακωβ Ἰακώβ
+49:33 V- -PAPNSM- ἐπιτάσσων ἐπιτάσσω
+49:33 RA ----DPM- τοῖς ὁ
+49:33 N- ----DPM- υἱοῖς υἱός
+49:33 RP ----GSM- αὐτοῦ αὐτός
+49:33 C- -------- καὶ καί
+49:33 V- -AAPNSM- ἐξάρας ἐξαίρω
+49:33 RA ----APM- τοὺς ὁ
+49:33 N- ----APM- πόδας πούς
+49:33 RP ----GSM- αὐτοῦ αὐτός
+49:33 P- -------- ἐπὶ ἐπί
+49:33 RA ----ASF- τὴν ὁ
+49:33 N- ----ASF- κλίνην κλίνη
+49:33 V- 3AAI-S-- ἐξέλιπεν ἐκλείπω
+49:33 C- -------- καὶ καί
+49:33 V- 3API-S-- προσετέθη προστίθημι
+49:33 P- -------- πρὸς πρός
+49:33 RA ----ASM- τὸν ὁ
+49:33 N- ----ASM- λαὸν λαός
+49:33 RP ----GSM- αὐτοῦ αὐτός
