@@ -265,3 +265,22 @@ an adjective. Neither adds a word the entry lacks.
 
 **Recommendation:** keep it as it is: where English has the adverb, use it; where it has none, the entry's
 phrase stands.
+
+## Q14. A sense that points to another entry — πάγος, *= παγετός*
+
+**Where:** EXO 16:14, ὡσεὶ πάγος ἐπὶ τῆς γῆς.
+
+**Now:** Middle Liddell's πάγος reads *that which is fixed or firmly set: a mountain-peak, a rocky hill … the
+Areopagus … = παγετός*, and παγετός is *frost*. The pointer is not a translation, so the card stops at the
+Areopagus and the reading has no frost: `that which is fixed and firmly set, a mountain-peak and a rocky
+hill, Areopagus`. Where a whole entry is a pointer (κατέναντι, *= κατεναντίον*; LSJ's λατρευτός, *= foreg.*;
+ἁγίασμα, *= ἁγιαστήριον*), the corpus reads the entry pointed to.
+
+- now: `…, Areopagus`
+- the pointer read: `…, Areopagus, frost`
+
+**The difference:** the second reads a sense-level pointer the way whole-entry pointers are already read; the
+first keeps to the translations the entry prints.
+
+**Recommendation:** read a sense-level *= X* as X's translations, appended in the pointer's place, by a table
+beside `MARKUP_LOST` that names each one.

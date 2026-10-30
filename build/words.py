@@ -370,6 +370,15 @@ LSJ = {
     # Middle Liddell lacks too, then "holiness".
     "σκεπαστής": ["shelterer, protector"],
     "ἁγίασμα": ["holy place, sanctuary", "holiness"],
+    # EXO 16. None of these is in Middle Liddell. LSJ (eng4): διατήρησις, "preservation", citing Ex 16:33.
+    # LSJ (eng5): ἐγκρίς, "a cake made with oil and honey", citing Ex 16:31, one translation; "= ἀμανίτης,
+    # Hsch." an explanation. LSJ (eng5): ἐλαττονέω, "receive less", citing Ex 16:18, "give less", "waste,
+    # be consumed", "to be missing, defective", and the middle's "lack, want". LSJ (eng21): συσκήνιος, "=
+    # sq.", read as σύσκηνος, "one who lives in the same tent, messmate, comrade", the entry it points to.
+    "διατήρησις": ["preservation"],
+    "ἐγκρίς": ["a cake made with oil and honey"],
+    "ἐλαττονέω": ["receive less", "give less", "waste, be consumed", "to be missing, defective", "lack, want"],
+    "συσκήνιος": ["one who lives in the same tent, messmate, comrade"],
     # EXO 12. None of these is in Middle Liddell. LSJ (eng3): γειώρας, "sojourner", "proselyte". LSJ
     # (eng4): δέσμη, "package, bundle", "a measure in Egypt", "in Medicine, handful"; Rahlfs prints the
     # accusative δεσμήν, the module δέσμην. LSJ (eng5): ἐνδόσθια, "= ἐντόσθια", a pointer to ἐντόσθιος,
@@ -1415,6 +1424,19 @@ NOT_SENSES = {
                   "to stand at certain distances", "intervals"},  # cut, whole in MARKUP_LOST; examples'
     "a)ei/dw": {"to sing in one's praise"},    # ἀείδειν ἀμφί τινος, the phrase's
     "w)di/s": {"birth"},                       # an example's, at a single birth
+    # EXO 16
+    "pa/gos": {"that which is fixed", "firmly set"},  # cut, whole in MARKUP_LOST
+    "metre/w": {"by the eye", "to get", "measure"},  # examples' pieces
+    "pleona/zw": {"to go beyond bounds, take", "claim too much"},  # cut, whole in MARKUP_LOST
+    "pikrai/nw": {"to make sharp", "bitter"},   # cut, whole in MARKUP_LOST
+    "a)poti/qhmi": {"to put aside", "disregard"},  # an example's, the law put aside
+    "o)rtugomh/tra": {"the Ortygian mother"},  # Latona, the comic poet's joke
+    "a)poqh/kh": {"store"},                    # an example's
+    "*sa/bbaton": {"of the week"},             # μία τῶν σαββάτων, the phrase's
+    "oi)ke/w": {"those who have been settled", "those who dwell", "to live", "with habits", "would", "governed"},  # examples' translations
+    "de/on": {"things needful", "proper, advantages", "duties", "in good time", "for a needful purpose", "secret service"},  # τὰ δέοντα cut, whole in MARKUP_LOST; phrases'
+    "o)fei/lw": {"debemur morti)", "it is", "destiny", "(ought", "owe)", "O that thou hadst", "O that I had",
+                 "would thou hadst never", "would"},  # Horace; examples' translations; the note on "ought"
     "e)panastre/fw": {"to turn back upon"},    # "to turn back upon one", cut, whole in MARKUP_LOST
     "r(h/gnumi": {"to break, break asunder", "in pieces, rend, shiver, shatter", "force one's", "breaking into speech",
                   "rumpere vocem", "having let loose"},  # "to break … or in pieces", cut, whole in MARKUP_LOST; a piece, examples', Virgil
@@ -1539,6 +1561,26 @@ _APOLLUMI_ACT = {"to destroy utterly, kill, slay", "to destroy, demolish, waste"
 _APOLLUMI_MID = {"to perish utterly, die", "to be undone", "you are done for, lost, ruined",
                  "to be lost, slip away, vanish"}
 FORM_SENSES = {
+    # EXO 16. The particle ὄφελον is ὀφείλω's "aor2 … used to express a wish … would that", and reads that
+    # alone; the actives of μετρέω, πλεονάζω, διαθερμαίνω and ἀποτίθημι leave out the middle's and the
+    # passive's senses, and ἀποτίθημι's middle the active's.
+    # δέον: "neut. part. of the impers. δεῖ, made into a Noun, that which is binding, needful, right, proper …
+    # τὰ δέοντα things needful or proper, advantages or duties": the plural of 16:22 reads the plural's, and
+    # the singular the singular's.
+    "de/on": [("-PIFAXY", "-AMEP", NOT_SENSES["de/on"] | {"that which is binding, needful, right, proper"}, None, "^.....P"),
+              ("-PIFAXY", "-AMEP", NOT_SENSES["de/on"] | {"things needful or proper, advantages or duties"})],
+    "o)fei/lw": [("-", "-", NOT_SENSES["o)fei/lw"] | {"to owe, have to pay", "account for", "to be debtor", "to be in debt",
+                                                     "to be owed, to be due", "to be liable to", "to be bound, to be obliged",
+                                                     "ought to have"})],
+    "metre/w": [("PIFAXY", "A", NOT_SENSES["metre/w"] | {"to be measured", "to have measured out to one"})],
+    # οἰκέω's passive (γῆν οἰκουμένην, 16:35) leaves out the active's intransitive "to dwell, live, be settled"
+    # and "to conduct oneself".
+    "oi)ke/w": [("PIFAXY", "PE", NOT_SENSES["oi)ke/w"] | {"to dwell, live, be settled", "to conduct oneself"})],
+    "pleona/zw": [("PIFAXY", "A", NOT_SENSES["pleona/zw"] | {"to be exaggerated"})],
+    "diaqermai/nw": [("PIFAXY", "A", {"to be heated"})],
+    "a)poti/qhmi": [("PIFAXY", "A", NOT_SENSES["a)poti/qhmi"] | {"to put away from oneself, lay aside", "to avoid, escape",
+                                                              "to put by for oneself, stow away", "to put off, defer"}),
+                   ("PIFAXY", "M", NOT_SENSES["a)poti/qhmi"] | {"to put away, stow away"})],
     # EXO 15. δοξάζω's passive leaves out the intransitive "to hold an opinion"; καταδύω's second aorist,
     # intransitive, the causal "to make to sink … mostly in aor1" (κατέδυσαν, 15:5, is either aorist's third
     # plural, and sinks); ᾠδή's singular the plural's "lyric poetry"; σκῦλον's plural the singular's
@@ -1953,6 +1995,10 @@ FORM_SENSES = {
 # (κατέναντι reads "= κατεναντίον" and glosses nothing itself). Each is recorded in
 # reference/lexicon-notes.md with the entry it resolves to.
 SPELLING = {
+    "ko/rion": "kori/annon",          # LSJ's κόριον (B), "shortd. for κορίαννον"; Middle Liddell's κόριον is the diminutive of κόρη (EXO 16:14)
+    "sa/bbaton": "*sa/bbaton",        # σάββατον, keyed with the capital (EXO 16:23)
+    "sabbati/zw": "*sabbati/zw",      # σαββατίζω, keyed with the capital (EXO 16:30)
+    "o)/felon": "o)fei/lw",           # the particle ὄφελον, ὀφείλω's "aor2 ὤφελον, ὄφελον … to express a wish" (EXO 16:3)
     "profh=tis": "profh/ths",         # προφῆτις, "fem. of προφήτης", and nothing more (EXO 15:20)
     "dii+/sthmi": "dii/sthmi",        # διΐστημι, keyed without the diaeresis (EXO 15:8)
     "a)/|dw": "a)ei/dw",               # ᾄδω, the Attic contraction of ἀείδω (EXO 15:1)
@@ -2262,6 +2308,12 @@ MARKUP_LOST = {
     # "«to stand at certain distances» or «intervals»".
     "katadu/w": [(11, "to cut down to the water's edge, disable")],
     "du/w2": [(14, "to enter, come over or upon")],  # «to enter, come over» or «upon»
+    # EXO 16. πάγος: "«that which is fixed» or «firmly set»"; πλεονάζω: "«to go beyond bounds, take» or «claim
+    # too much»"; πικραίνω: "«to make sharp» or «bitter» to the taste".
+    "pa/gos": [(0, "that which is fixed or firmly set")],
+    "de/on": [(1, "things needful or proper, advantages or duties")],  # τὰ δέοντα «things needful» or «proper, advantages» or «duties»
+    "pleona/zw": [(2, "to go beyond bounds, take or claim too much")],
+    "pikrai/nw": [(0, "to make sharp or bitter")],
     "th/kw": [(2, "to cause to waste or pine away")],
     "dii/sthmi": [(1, "to set one at variance with"), (4, "to divide it into fractions"),
                   (13, "to stand at certain distances or intervals")],

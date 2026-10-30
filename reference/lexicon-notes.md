@@ -7612,3 +7612,49 @@ text uses. Chains already in the corpus (Genesis) were read from it and re-infle
 - One translation each, plain text: μόλιβος (*lead*), ἐρυθρός (*red*), βραχίων (*the arm*), κληρονομία (*an
   inheritance*), καταφυτεύω (*to plant*), ἀπολιθόω, ἀδελφή (*a sister*), διαγογγύζω (*to murmur among
   themselves*), ἐνωτίζομαι (*to hearken to*), and the numerals.
+
+### Words new in EXO 16
+
+- **From LSJ** (not in Middle Liddell): διατήρησις, *preservation*, plain text (16:33, 16:34); ἐγκρίς, *a
+  cake made with oil and honey*, one translation, plain text (16:31); ἐλαττονέω, `received less, gave less,
+  wasted and was consumed, was missing and defective`, the middle's *lack, want* left out (16:18);
+  συσκήνιος, LSJ's *= sq.*, read as σύσκηνος, `to the ones who live in the same tent and messmates and
+  comrades` (16:16).
+- **Spelling and close forms** (`SPELLING`): σάββατον and σαββατίζω, keyed with the capital; κόριον under
+  κορίαννον, *coriander*, as LSJ's κόριον (B), *shortd. for κορίαννον* — Middle Liddell's κόριον is the
+  diminutive of κόρη; the particle ὄφελον under ὀφείλω, whose *aor2 … ὄφελον … to express a wish* is
+  *would that* (`FORM_SENSES` reads that alone).
+- **A participle made a noun**: τὰ δέοντα (16:22) is filed under δέον, which Middle Liddell heads as *neut.
+  part. of the impers. δεῖ, made into a Noun*; its plural reads the plural's *things needful or proper,
+  advantages or duties*, restored whole: `the things needful and proper and advantages and duties`.
+- **Cut translations restored** (`MARKUP_LOST`): πάγος, *that which is fixed or firmly set*; πλεονάζω, *to go
+  beyond bounds, take or claim too much*; πικραίνω, *to make sharp or bitter*; δέον, as above.
+- **Form** (`FORM_SENSES`): the actives of μετρέω, πλεονάζω, διαθερμαίνω and ἀποτίθημι leave out the
+  middle's and passive's, ἀποτίθημι's middle the active's, and οἰκέω's passive (γῆν οἰκουμένην) the active's
+  intransitive senses.
+- **Pieces set aside** (`NOT_SENSES`): πάγος, μετρέω, πλεονάζω, πικραίνω, ἀποτίθημι (an example's *to put aside,
+  disregard*), ὀρτυγομήτρα (*the Ortygian mother*, Latona), ἀποθήκη, σάββατον (*of the week*), ὀφείλω, δέον,
+  οἰκέω (examples' translations).
+- **Morphology**: the pronouns for the manna are neuter, after αὐτό at 16:15 and 16:21; πᾶν τὸ πλεονάζον
+  (16:23) is a hanging nominative, which αὐτό takes up; γομορ and μαν are names, printed in lower case and
+  indeclinable, the plural of γομορ taken from δύο.
+- New chains: συναγωγή `to bringing together`, `the bringing together`, `of the bringing together`; ἐξέρχομαι
+  `of having gone out of`; ἀποθνήσκω `we died off`; πλήσσω `having been struck`; καθίζω `we made to sit
+  down`; λέβης `of the kettles`; ἐσθίω `we were eating`, `you ate`; πλησμονή `filling`; λιμός `in hunger`;
+  συλλέγω `will collect`, `you will collect`, `to collect`; πειράζω `I may make proof`; νόμος `to the anything
+  assigned`; ἑτοιμάζω `will make ready`; εἰσφέρω `may carry into`; συνάγω `may bring together`; εἰσακούω `in
+  the hearkening`, `the hearkening`, `has hearkened and given ear to`, `I have hearkened and given ear to`, `to
+  hearken and give ear to`; δίδωμι `in the giving`; προσέρχομαι `come to`; ἐπιστρέφω `turned themselves
+  round`; νεφέλη `in a cloud`; πίμπλημι `you will be filled full of`; ὀρτυγομήτρα `a bird which migrates
+  with the quails`; καταπαύω `of being laid to rest`; πάγος `that which is fixed`; καθήκω `the ones having
+  come`; συσκήνιος `to the ones who live in the same tent`; πολύς `the much`; μετρέω `having measured in any
+  way`; πλεονάζω `was more`, `the thing being more`; ἐλαττονέω `received less`; καταλείπω `let leave behind`,
+  `leave behind`; ἐκζέω `boiled out or over`; σκώληξ `worms`, `a worm`; πικραίνω `was made sharp`; τήκω `was
+  being melted`; δέον `the things needful`; δύο `of two`; σάββατον `sabbaths`, `the sabbaths`; πέσσω `you may
+  soften`, `soften`; ἕψω `you may boil`, `boil`; ἀποθήκη `any place wherein to lay up`; κάθημαι `you will be
+  seated`; ἐκπορεύομαι `let go out`; γεῦμα `the taste`; ἀποτίθημι `you will put away`, `put away from himself`;
+  μαρτύριον `of the testimony`; οἰκέω `being inhabited and occupied`; δέκατος `the tenth`; μέτρον `of things by
+  which anything is measured`.
+- One translation each, plain text: γογγυσμός (*a murmuring*), διαγογγύζω, πεντεκαιδέκατος, ἕκτος, κόριον
+  (*coriander*), ἐπόζω (*become stinking*), διαθερμαίνω's active (*to warm through*), στάμνος (*an earthen jar
+  for racking off wine*), σαββατίζω (*to keep the Sabbath*), μέλι, ἔτος, διατήρησις, ἐγκρίς, ὄφελον.

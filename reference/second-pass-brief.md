@@ -600,6 +600,13 @@ Liddell's nominative; Φυλιστιιμ and Χανααν are accusatives after 
 feminine, as Μερρας declines it in the same verse. βοηθός stays a noun, as GEN 2:18 and 2:20 have it, and
 ἐμπίπλημι keeps the corpus's spelling.
 
+### What it found in Exodus 16
+
+Sixteen disagreements over 807 words. The second pass was right that the pronouns for the manna are
+neuter, after αὐτό at 16:15 and 16:21; that τοῦ μαρτυρίου is neuter; that πᾶν τὸ πλεονάζον is a hanging
+nominative, which αὐτό takes up; and that ἕως τίνος is neuter. Σινα keeps the printed spelling, ἐλάσσων
+the corpus's lemma, and τὰ δέοντα files under δέον, Middle Liddell's headword for the participle made a noun.
+
 ## The brief
 
 Copy everything below the rule into a new agent. Replace `<BOOK NAME>`, `<CHAPTER>`,
