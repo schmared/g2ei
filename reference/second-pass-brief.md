@@ -613,6 +613,11 @@ Three disagreements over 378 words, and the second pass was right on all three: 
 the aorist subjunctive; πρεσβυτέρων is comparative, as the corpus mostly codes it; and αὐτοῦ in 17:15 is
 neuter, the altar's.
 
+### What it found in Exodus 18
+
+Two disagreements over 586 words. The second pass was right that πάντα at 18:8 agrees with τὸν μόχθον;
+βοηθός stays a noun, as GEN 2:18 and EXO 15:2 have it.
+
 ## The brief
 
 Copy everything below the rule into a new agent. Replace `<BOOK NAME>`, `<CHAPTER>`,

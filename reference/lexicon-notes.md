@@ -7691,3 +7691,34 @@ text uses. Chains already in the corpus (Genesis) were read from it and re-infle
   remembrance`; βιβλίον `in a paper`; ἀλοιφή `to anything used for anointing`; καταφυγή `a refuge`; κρυφαῖος `to
   hidden`.
 - One translation each, plain text: τρέπω's first aorist middle, δίψος, θυσιαστήριον (*an altar*).
+
+### Words new in EXO 18
+
+- **From LSJ** (not in Middle Liddell): ἀνυπομόνητος, `to unbearable, to not enduring` (18:18); πρωΐθεν, *from
+  morning*, plain text (18:13, 18:14); συναντιλαμβάνομαι, `will help in gaining, will assist in supporting,
+  will render assistance, will take part with and help`, citing 18:22.
+- **Spelling** (`SPELLING`): κρίμα under κρῖμα; ἑκατόνταρχος under ἑκατοντάρχης, *leader of a hundred*, plain
+  text.
+- **A first sense outside the markup** (`MARKUP_LOST`): ἐλαφρός, "= Lat. lev-is light in weight", whose
+  first sense stands outside every `<tr>`, the card opening with the adverb's *lightly*: `light in weight,
+  light to bear and not burdensome and easy, light in moving and nimble, lightminded and thoughtless` (18:26).
+  Also σημαίνω's *to give a sign or signal to do* and *to stamp with a sign or mark, to seal*, and
+  ὑπερηφανία's *contempt towards or for*.
+- **Form** (`FORM_SENSES`): μόχθος's singular leaves out the plural's; the actives of διακρίνω, συμβουλεύω,
+  σημαίνω and κουφίζω the middle's and passive's.
+- **Pieces set aside** (`NOT_SENSES`): ἄφεσις, ἀσπάζομαι, μόχθος (the note on μόχθος and πόνος), διακρίνω,
+  συμβουλεύω, σημαίνω, ὑπερηφανία, χιλίαρχος (the Latin it translates), βραχύς, κουφίζω, ἐλαφρός.
+- **The reflexive inside an article's phrase**: τῷ ἑαυτοῦ λαῷ, τὸν ἑαυτοῦ τόπον, τὸν ἑαυτοῦ γαμβρόν read the
+  noun's unit with its article and *of himself* after it, so no *the* stands bare.
+- New chains: γαμβρός `to the one connected by marriage`; ἱερεύς `the priest`; ἄφεσις `the letting go`; δύο `the
+  two`; ἀσπάζομαι `welcomed kindly`; μόχθος `the toil`; ἀγαθός `to the goods`; εὐλογητός `blessed`; γινώσκω `I
+  learned to know`; συνεσθίω `to eat together`; κρίνω `will separate` (plural), `were separating`; παρίστημι `has
+  stood by`, `to stand by`; κάθημαι `you are seated`; ἐκζητέω `to seek out`; ἀντιλογία `contradiction`; διακρίνω
+  `I separate one from another`; συμβιβάζω `I bring together`; φθορά `to destruction`; καταφθείρω `you will be
+  destroyed`; συμβουλεύω `I will advise`; ἀναφέρω `you will bring up`, `will bring up`, `were bringing up`;
+  διαμαρτύρομαι `you will protest solemnly`; σημαίνω `you will shew by a sign`; θεοσεβής `fearing God`;
+  ὑπερηφανία `arrogance`; καθίστημι `you will set down and place`; χιλίαρχος `commanders of a thousand men`;
+  ὑπέρογκος `the of excessive bulk`, `of excessive bulk`; βραχύς `the short`; κρίμα `of the decisions`; κουφίζω
+  `will be light`; κατισχύω `will have power over`; ἐπιλέγω `chose`; ἐλαφρός `light in weight`.
+- One translation each, plain text: συνάντησις (*a meeting*), μισέω's active (*hating*), πεντηκόνταρχος (*the
+  commander of fifty men*), δεκάδαρχος (*a commander of ten*), ἑκατόνταρχος, πρωΐθεν.

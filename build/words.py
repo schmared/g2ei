@@ -381,6 +381,13 @@ LSJ = {
     "συσκήνιος": ["one who lives in the same tent, messmate, comrade"],
     # EXO 17. Not in Middle Liddell. LSJ (eng11): καταλιθοβολέω, "throw stones at, stone", citing Ex 17:4.
     "καταλιθοβολέω": ["throw stones at, stone"],
+    # EXO 18. None of these is in Middle Liddell. LSJ (eng1): ἀνυπομόνητος, "unbearable", and the active
+    # "not enduring". LSJ (eng17): πρωΐθεν, "from morning", citing Ex 18:13, one translation. LSJ (eng21):
+    # συναντιλαμβάνομαι, "help in gaining", "assist in supporting", "render assistance", and c. dat. "take
+    # part with, help", citing Ex 18:22.
+    "ἀνυπομόνητος": ["unbearable", "not enduring"],
+    "πρωΐθεν": ["from morning"],
+    "συναντιλαμβάνομαι": ["help in gaining", "assist in supporting", "render assistance", "take part with, help"],
     # EXO 12. None of these is in Middle Liddell. LSJ (eng3): γειώρας, "sojourner", "proselyte". LSJ
     # (eng4): δέσμη, "package, bundle", "a measure in Egypt", "in Medicine, handful"; Rahlfs prints the
     # accusative δεσμήν, the module δέσμην. LSJ (eng5): ἐνδόσθια, "= ἐντόσθια", a pointer to ἐντόσθιος,
@@ -1446,6 +1453,19 @@ NOT_SENSES = {
     "sthri/zw": {"he set", "fast", "rising up", "to be firmly set", "fixed, to stand fast", "steady", "to", "a firm footing",
                  "is lifted up", "thou art tarrying, art settled"},  # examples'; the passive's, cut, whole in MARKUP_LOST
     "katagra/fw": {"to fill", "with writing"}, # cut, whole in MARKUP_LOST
+    # EXO 18
+    "a)/fesis": {"a letting go", "having made", "one"},  # a repeat; an example's
+    "a)spa/zomai": {"salute"},                 # an example's
+    "mo/xqos": {"for", "hardship, distress;", "work", "poor man's lot)."},  # a piece; the note on μόχθος and πόνος
+    "diakri/nw": {"making", "distinction", "distinction was made", "to get", "decided"},  # examples' pieces
+    "sumbouleu/w": {"to advise", "the advice given", "an adviser", "ask", "advice"},  # a repeat; the participles'; pieces
+    "shmai/nw": {"to give a sign", "signal to do", "without any order from", "to make signal", "signal is given",
+                 "when signal was given", "signal was given", "tell", "to stamp with a sign", "mark, to seal", "to be", "sealed up"},  # cut, whole in MARKUP_LOST; examples'
+    "u(perhfani/a": {"contempt towards", "for"},  # cut, whole in MARKUP_LOST
+    "xili/arxos": {"tribunus militum", "the tribuni militares consulari potestate"},  # the Latin it translates
+    "braxu/s": {"briefly", "scantily, seldom", "low", "little by little", "in few words", "briefly, in few words", "lightly"},  # phrases' and the adverb's
+    "koufi/zw": {"to make a light", "of", "of their cargo", "from"},  # examples' pieces
+    "e)lafro/s": {"lightly, buoyantly", "light, easy", "light", "active", "light troops"},  # the adverb's; examples'
     "de/on": {"things needful", "proper, advantages", "duties", "in good time", "for a needful purpose", "secret service"},  # τὰ δέοντα cut, whole in MARKUP_LOST; phrases'
     "o)fei/lw": {"debemur morti)", "it is", "destiny", "(ought", "owe)", "O that thou hadst", "O that I had",
                  "would thou hadst never", "would"},  # Horace; examples' translations; the note on "ought"
@@ -1573,6 +1593,17 @@ _APOLLUMI_ACT = {"to destroy utterly, kill, slay", "to destroy, demolish, waste"
 _APOLLUMI_MID = {"to perish utterly, die", "to be undone", "you are done for, lost, ruined",
                  "to be lost, slip away, vanish"}
 FORM_SENSES = {
+    # EXO 18. μόχθος's singular leaves out the plural's; the actives of διακρίνω, συμβουλεύω, σημαίνω and κουφίζω
+    # leave out the middle's and passive's.
+    "mo/xqos": [("-", "-", NOT_SENSES["mo/xqos"] | {"toils, troubles, hardships"}, None, "^.....S")],
+    "diakri/nw": [("PIFAXY", "A", NOT_SENSES["diakri/nw"] | {"to be parted", "to part and join different",
+                                                             "to be dissolved into elemental parts", "to come to a decision",
+                                                             "to contend", "to doubt, hesitate"})],
+    "sumbouleu/w": [("PIFAXY", "A", NOT_SENSES["sumbouleu/w"] | {"to consult with", "to consult, deliberate"})],
+    "shmai/nw": [("PIFAXY", "A", NOT_SENSES["shmai/nw"] | {"to give oneself a token", "conclude from signs, conjecture",
+                                                           "to mark for oneself"})],
+    "koufi/zw": [("PIFAXY", "A", NOT_SENSES["koufi/zw"] | {"to be lifted up, soar", "to be relieved",
+                                                           "to feel one's burthens lightened"})],
     # EXO 17. ἐπιλέγω's active leaves out the middle's; καθίημι's active
     # the passive's; στηρίζω's active the middle's and passive's, and its passive the middle's. τρέπω: "in
     # aor1 mid., to put an enemy to flight", and that alone (15:13's ἐτρέψατο).
@@ -2021,6 +2052,8 @@ FORM_SENSES = {
 # (κατέναντι reads "= κατεναντίον" and glosses nothing itself). Each is recorded in
 # reference/lexicon-notes.md with the entry it resolves to.
 SPELLING = {
+    "e(kato/ntarxos": "e(katonta/rxhs",  # ἑκατόνταρχος, Middle Liddell's ἑκατοντάρχης, "leader of a hundred" (EXO 18:21)
+    "kri/ma": "kri=ma",               # κρίμα, the entry headed with the circumflex (EXO 18:22)
     "di/yos": "di/ya",                # δίψος, "= δίψα", and nothing more (EXO 17:3)
     "ko/rion": "kori/annon",          # LSJ's κόριον (B), "shortd. for κορίαννον"; Middle Liddell's κόριον is the diminutive of κόρη (EXO 16:14)
     "sa/bbaton": "*sa/bbaton",        # σάββατον, keyed with the capital (EXO 16:23)
@@ -2344,6 +2377,12 @@ MARKUP_LOST = {
     "pe/tra": [(0, "a rock, a ledge or shelf of rock"), (4, "a rocky peak or ridge")],
     "sthri/zw": [(7, "to be firmly set or fixed, to stand fast or steady")],
     "katagra/fw": [(3, "to fill with writing")],
+    # EXO 18. σημαίνω: "«to give a sign» or «signal to do» a thing", "«to stamp with a sign» or «mark, to seal»";
+    # ὑπερηφανία: "«contempt towards» or «for» another"; ἐλαφρός: "= Lat. lev-is light in weight", the first
+    # sense, outside any <tr>.
+    "shmai/nw": [(2, "to give a sign or signal to do"), (16, "to stamp with a sign or mark, to seal")],
+    "u(perhfani/a": [(1, "contempt towards or for")],
+    "e)lafro/s": [(0, "light in weight")],
     "de/on": [(1, "things needful or proper, advantages or duties")],  # τὰ δέοντα «things needful» or «proper, advantages» or «duties»
     "pleona/zw": [(2, "to go beyond bounds, take or claim too much")],
     "pikrai/nw": [(0, "to make sharp or bitter")],
