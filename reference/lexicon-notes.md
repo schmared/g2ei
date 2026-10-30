@@ -7039,5 +7039,8 @@ text uses. Chains already in the corpus (Genesis) were read from it and re-infle
   Greek gives *from the water* and loses the play), Ιοθορ (Jethro, which the Greek adds at 2:16),
   Σεπφωρα the wife (Zipporah — the midwife of 1:15 has the same Greek), Γηρσαμ. Εβραῖον, the singular,
   is glossed apart from Εβραίων: the panels print *Hebrew* and *Hebrews*.
+- **GEN 4:15 widened:** its ἀναιρέω, `of the taking up`, had five of the active's nine senses, two of
+  them cut from one translation (*to take up, raise*); it now carries the whole active range, as
+  `to take up` at 2:14 does — one word, one range in every form.
 - **The page's own misprint:** ἐξήλθεν at 2:11, with the acute, for ἐξῆλθεν; kept, and the module
   has it too.
