@@ -274,6 +274,22 @@ LSJ = {
     "ἀνεμόφθορος": ["blasted by the wind"],
     "ἀποπεμπτόω": ["give a fifth part of", "take a fifth part of"],
     "σιτοβολών": ["place for storing corn, granary"],
+    # GEN 42. None of these is in Middle Liddell. LSJ (eng11): "καταδέομαι, entreat earnestly",
+    # citing 42:21. LSJ (eng21): σιτοδοσία, "gratuitous distribution of corn", then "allowance
+    # of corn", citing 42:19. LSJ (eng1): ἀγορασμός, "purchasing", then "purchase", citing 42:19.
+    # Three LSJ entries gloss nothing themselves and point elsewhere in LSJ, and, as with
+    # ἁγιάζω, their senses are the ones the pointer reaches: "ἑρμηνευτής, = ἑρμηνεύς", citing
+    # 42:23 (eng5); "κατασκοπεύω, = sq.", that is κατασκοπέω (eng11); "κατακενόω, strengthd.
+    # for κενόω", citing 42:35 (eng11). κενόω's passive senses are left with the actives.
+    "καταδέομαι": ["entreat earnestly"],
+    "σιτοδοσία": ["gratuitous distribution of corn", "allowance of corn"],
+    "ἀγορασμός": ["purchasing", "purchase"],
+    "ἑρμηνευτής": ["interpreter", "dragoman", "court interpreter", "matrimonial agent, go-between",
+                   "broker, commissionaire", "interpreter, expounder"],
+    "κατασκοπεύω": ["view closely, spy out, reconnoitre", "reconnoitre", "keep a look-out", "inspect"],
+    "κατακενόω": ["empty", "empty of", "to be emptied, made or left empty", "make empty by leaving, desert",
+                  "empty by depletion", "carry off", "empty out, pour away", "make away with", "expend",
+                  "waste away, shrivel", "make empty", "make void, of no effect"],
 }
 
 # New Testament books: MorphGNT file and its book number.
@@ -1083,6 +1099,13 @@ NOT_SENSES = {
     "a)nali/skw": {"upon"},                     # "to spend upon a thing"
     "kloio/s": {"a"},                           # "a sort of pillory"
     "pwle/w": {"at a high"},                    # "at a high price", an example
+    # GEN 42.
+    "pri/amai": {"to have", "sold to one, to buy, purchase"},  # one translation in two; MARKUP_LOST
+    "badi/zw": {"were getting"},                # "were getting on", an example's verb
+    "lu/w": {"undid her", "to unbind one's", "to unyoke one's", "to get", "loosed", "on payment of",
+             "rotted", "made", "slack", "loose", "killed", "weak", "ties are broken", "in full",
+             "it boots not"},                   # glosses of examples' forms and pieces of senses
+    "e)pe/rxomai": {"it happened", "over", "on"},  # an impersonal example; pieces of "to go over"
 }
 
 # An entry that divides its senses by tense and voice, so that which of them belong to a
@@ -1103,6 +1126,12 @@ _EXANISTHMI_CAUS = {
     "to raise up: to make one rise", "bid one", "rise", "to order", "to rise", "to make",
     "emigrate, to remove", "expel", "to depopulate, destroy", "to rouse", "from their lair"}
 FORM_SENSES = {
+    # ἐμπίπλημι: "to fill quite full … Mid. to fill for oneself … Pass. to be filled full of".
+    # GEN 42:25's ἐμπλῆσαι is the active.
+    "e)mpi/plhmi": [("PIFAXY", "A", {"to fill for oneself", "to be filled full of", "to take my fill of",
+                                     "to sate myself with", "to be satiated", "to be filled with . .",
+                                     "to eat one's fill",
+                                     "what is one's own", "he filled his", "with"})],  # and examples' pieces
     # ξυρέω: "to shave … Mid. and Pass. to shave oneself or have oneself shaved". GEN 41:14's
     # active ἐξύρησαν, they shaved him, has only the first.
     "cure/w": [("PIFAXY", "A", {"to shave oneself", "have oneself shaved"})],
@@ -1243,6 +1272,10 @@ SPELLING = {
     "sfodrw=s": "sfodro/s",        # the adverb, filed inside the adjective's entry
     "mimnh/skomai": "mimnh/skw",    # MorphGNT's middle, filed under the active
     "cura/w": "cure/w",             # the -άω spelling of the same verb; the entry is ξυρέω
+    "ma/rsippos": "ma/rsipos",      # the spelling Rahlfs prints; Middle Liddell heads μάρσιπος
+    "a)ggei=on": "a)/ggos",          # cross-reference; the entry reads "ἄγγος" and glosses nothing
+    "nh/": "nai/",                  # "Particle of strong affirmation, like epic ναί": no translation
+                                    # of its own, and the Attic form of the particle it names
     "diati/qemai": "diati/qhmi",    # likewise
     "kunhgo/s": "kunago/s",         # the entry is headed with the Doric and Attic κυναγός
     "plhsi/on": "plhsi/os",         # the adverb, filed inside the adjective's entry
@@ -1472,6 +1505,10 @@ MARKUP_LOST = {
     # printed entry's own translation, left untagged; the corpus had read ἐάν as that "if"
     # alone, εἰ's English, from GEN 4 on, with no unit and no "haply".
     "e)a/n": [(1, "if")],
+    # Not Latin either: πρίαμαι reads "to have a thing sold to one, to buy, purchase", and the
+    # italic object between "to have" and "sold to one" cuts one translation into two <tr>s.
+    # The object is the word's own, supplied by the text.
+    "pri/amai": [(0, "to have sold to one, to buy, purchase")],
 }
 
 # The first-sense Latin elements that hold Latin and nothing else, or whose English the

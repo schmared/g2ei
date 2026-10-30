@@ -408,6 +408,16 @@ the masculine πόνων. The one it kept is ξυράω, which the second pass f
 headword: ἐξύρησαν is both, and MorphGNT files the verb ξυράω. The instructions now name it, and
 ἕως before a finite verb.
 
+### What it found in Genesis 42
+
+Seven disagreements over 802 words. The second pass had three right: ἥκατε, twice, is the perfect
+ἧκα, as MorphGNT codes ἥκασιν at Mark 8:3, and not the present the brief's ἥκω rule meant; and
+ἐμπορεύεσθε at 42:34, after the futures ἀποδώσω and γνώσομαι, is the indicative. The first had the
+other four. πρίασθαι and πρίασθε go under πρίαμαι, the key Middle Liddell gives them. The αὐτοῦ
+of τὸ αἷμα αὐτοῦ, after τὸ παιδάριον, is masculine: MorphGNT codes αὐτοῦ after τὸ παιδίον as `GSM`
+at Matt 2:11 and 2:13, the passage the second pass cited for the neuter. The instructions now
+name all three.
+
 ## The brief
 
 Copy everything below the rule into a new agent. Replace `<BOOK NAME>`, `<CHAPTER>`,
@@ -532,6 +542,8 @@ Conventions:
   adjective used as a noun: `A- ----DSN-`, `A- ----ASN-`.
 - A word of address is vocative, case `V` — but a declined nominative form used in address stays
   nominative: `Κύριε ὁ θεός`, ὁ and θεός `----NSM-`, as MorphGNT codes Ὁ θεός at Luke 18:13 and Heb 1:8.
+- A pronoun standing for a neuter noun that names a person takes the person's gender: αὐτοῦ
+  after τὸ παιδίον is `GSM`, as MorphGNT codes it at Matt 2:11 and 2:13.
 - A relative takes its case from its own clause: in `ἔδωκεν αὐτῷ ὅσα ἦν αὐτῷ`, ὅσα is the
   nominative subject of ἦν.
 - τί in `τί ὅτι`, *why is it that*, is accusative, `RI ----ASN-`, as MorphGNT codes it all
@@ -550,7 +562,8 @@ Conventions:
   A comparative in -τερος has three: ὁ νεώτερος is `A- ----NSMC`, filed under its positive, νέος,
   as MorphGNT files it. A possessive adjective (ὑμέτερος) is `A-`.
 - οἶδα's past forms (ᾔδει) are pluperfect, `Y`, as MorphGNT codes them. ἥκω is present, `P`,
-  though it means *have come*.
+  though it means *have come*; but a form with the perfect's -κα- (ἥκατε, ἥκασιν) is the perfect
+  ἧκα, `X`, as MorphGNT codes ἥκασιν at Mark 8:3.
 - A repeated distributive numeral (`δύο δύο`, Mark 6:7) is two words, each agreeing with its
   noun.
 - Where the form is ambiguous, case, number and gender come from the syntax: neuters in the
@@ -571,6 +584,7 @@ The dictionary form as Middle Liddell (Perseus) files it:
   ἐπισπάομαι (for ἐπεσπάσατο, as MorphGNT has ἐπισπάσθω at 1 Cor 7:18),
   ἀποκρίνομαι (ἀπεκρίθη, ἀποκριθείς, voice `P`). But ἐπεκαλέσατο, the middle,
   goes under the active ἐπικαλέω, as MorphGNT files it.
+- πρίασθαι, πρίασθε → πρίαμαι, the key Middle Liddell gives the aorist.
 - εἰδέναι → οἶδα · εἶπεν → λέγω · ἀντειπεῖν → ἀντιλέγω · ἰδεῖν → ὁράω · φαγ- forms → ἐσθίω · μου → ἐγώ ·
   every article → ὁ.
 - The dictionary form keeps the spelling the text prints — γίνομαι, ἔχθρα, νοσσιά, δειλινός, κανοῦν,

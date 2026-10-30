@@ -6343,3 +6343,70 @@ Greek is an example's object, and ἄν, whose usage paragraph is tagged as one 
 such a word its English spelling with the Greek after it: `made of byssus (βύσσος)`, `to be in
 the agora (ἀγορά)`. The 36 κατοικέω cards across the corpus now open with the whole first
 translation.
+
+### Words new in GEN 42
+
+From Middle Liddell unless marked; the headword is the entry's first translation in the form the
+text uses.
+
+- πρᾶσις — **headword** `a selling`; **chain** `a selling, a sale`. 42:1.
+- ῥᾳθυμέω — **headword** `you leave off work`; **chain** `…, you are remiss`. 42:1.
+- πρίαμαι — Middle Liddell writes "to have *a thing* sold to one, to buy, purchase", and the italic
+  object cuts the translation into two `<tr>`s; `MARKUP_LOST` restores it whole and `NOT_SENSES`
+  sets the halves aside. **Headword** `have sold to yourselves`, `to have sold to themselves`, `to
+  have sold to ourselves`; **chain** adds *buy, purchase, buy with, purchase by, buy at, farm*. 42:2,
+  42:3, 42:10.
+- μαλακία — **headword** `softness`; **chain** `softness and delicacy and effeminacy, want of
+  patience and weakness, calmness of the sea`. μαλακίζομαι, `to be softened`, *made effeminate
+  and show weakness and cowardice*, *appeased*. 42:4, 42:38.
+- ἀλλοτριόω (imperfect passive) — **headword** `was being estranged from`. 42:7.
+- ἥκω (perfect ἧκα) — `you have come and it stands so`, the chain of 6:13's present with the
+  perfect's formula. 42:7, 42:9.
+- κατάσκοπος — **headword** `ones who keep a look out`; **chain** `…, scouts and spies, persons sent
+  to examine and report and inspectors`. 42:9–34.
+- ἴχνος — **headword** `the tracks`; **chain** `the tracks and footsteps, the tracks and traces and
+  clues, the feet, the legs`. 42:9, 42:12.
+- ὑγίεια — **headword** `the health`; **chain** `the health and soundness, the healthy states and
+  conditions`. 42:15, 42:16.
+- νή — Middle Liddell gives no translation: "Particle of strong affirmation, like epic ναί". As a
+  pointer to ναί it reads ναί's range, `yea, verily, aye and yes`, the chain of 17:19. 42:15, 42:16.
+- φανερός — **headword** `open to sight`; **chain** `open to sight and visible and manifest and
+  evident, known, open, real, known and acknowledged, conspicuous`. 42:16.
+- ἀληθεύω `you speak truth, you come true`; ἀπάγω's aorist passive `be led away`, the passive
+  chain of 40:3 in the imperative; φαίνω's future middle `you will be brought to light`. 42:15–16.
+- βαδίζω — **headword** `go slowly`; **chain** `go slowly and walk, go and march, go by land, enter,
+  proceed`. 42:19.
+- ἀγορασμός — LSJ: `the purchasing, the purchase`. σιτοδοσία — LSJ: `of the gratuitous distribution
+  of corn, of the allowance of corn`. Both cite 42:19. 42:19, 42:33.
+- κατέχω (aorist passive imperative) — `let him be held fast`, the passive chain of 39:20. 42:19.
+- πιστεύω (future passive) — `will be trusted`, the senses that take a passive. 42:20.
+- ὑπεροράω — **headword** `we looked over`; **chain** `we looked over and looked down upon, we
+  overlooked and slighted and despised, we showed contempt for`. 42:21.
+- καταδέομαι — LSJ, one translation, *entreat earnestly*: plain text. 42:21.
+- ἐπέρχομαι — **headword** `came upon`; **chain** to *went through and executed*. An impersonal
+  example and the pieces of *to go over* are in `NOT_SENSES`. 42:21.
+- ἑρμηνευτής — LSJ, "= ἑρμηνεύς": **headword** `the interpreter`; **chain** `the interpreter and
+  dragoman, the court interpreter, the matrimonial agent and go-between, the broker and
+  commissionaire, the interpreter and expounder`. 42:23.
+- ἐμπίπλημι — the active `to fill quite full, to fill full of`; the middle and passive are set aside
+  by the form. 42:25.
+- ἀγγεῖον — Middle Liddell's entry reads only "ἄγγος", so it reads ἄγγος (`SPELLING`): `the vessels,
+  the jars, the vats, the vases and pitchers and pails, the coffers and arks, the chests, the
+  cinerary urns, the cells`. 42:25.
+- ἐπισιτισμός — **headword** `a furnishing oneself with provisions`; **chain** `… and foraging, a
+  stock and store of provisions`. 42:25.
+- λύω — **headword** `having loosed`; **chain** the active range, from *loosened and unbound* to
+  *profited and availed*. The examples' forms are in `NOT_SENSES`. 42:27.
+- μάρσιππος — the spelling Rahlfs prints of Middle Liddell's μάρσιπος (`SPELLING`): `the bag, the
+  pouch`. 42:27, 42:28.
+- δεσμός — **headword** `the anything for binding`, as πόνος's `the anything produced by work`;
+  plural `the things for binding`. 42:27, 42:35.
+- κατασκοπεύω — LSJ, "= κατασκοπέω": `viewing closely and spying out and reconnoitring,
+  reconnoitring, keeping a look-out, inspecting`. 42:30.
+- κατακενόω — LSJ, "strengthd. for κενόω": the active senses of κενόω, `in the emptying`, merged
+  with ἐν. 42:35.
+- ἀτεκνόω (active) — `you made childless, you deprived of children`. 42:36.
+- ἀνάγω — **headword** `I will lead up`; **chain** to *make ready and prepare myself*. 42:37.
+- καταλείπω (perfect passive) — `has been left behind and stands so`. 42:38.
+- λύπη (singular) — `of pain of body, of distress and sad plight, of pain of mind, of grief`. 42:38.
+- δέκα, δώδεκα, τρεῖς, σήμερον, υἱός, γῆρας, ἀλλήλων, κἀγώ, οὐχί, οὗ (where) — plain text.
