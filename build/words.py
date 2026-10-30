@@ -238,6 +238,21 @@ LSJ = {
     # GEN 39. No Middle Liddell entry. LSJ (eng1) cites this very verse: "ἀρχιδεσμοφύλαξ,
     # chief gaoler, LXX Ge. 39.21", and nothing more.
     "ἀρχιδεσμοφύλαξ": ["chief gaoler"],
+    # GEN 40. None of these is in Middle Liddell. LSJ (eng1) cites this chapter for each of
+    # the three titles: "ἀρχιοινοχόος, chief cup-bearer"; "ἀρχισιτοποιός, chief baker, LXX Ge.
+    # 40.1"; "ἀρχιοινοχοεία, office of chief cup-bearer, LXX Ge. 40.13", the spelling LSJ
+    # heads it with. ἀρχιδεσμώτης is filed inside ἀρχιδεσμοφύλαξ, "also ἀρχιδεσμώτης … LXX Ge.
+    # 40.4", and so reads its "chief gaoler". LSJ (eng4): "διασάφησις, explanation,
+    # interpretation, LXX Ge. 40.8". LSJ (eng25): "χονδρίτης, made of groats or coarse meal",
+    # of bread, citing 40:16. LSJ (eng11) heads κανοῦν as κάνεον, "Att. contr. κανοῦν": "basket
+    # of reed or cane, esp. bread-basket".
+    "ἀρχιοινοχόος": ["chief cup-bearer"],
+    "ἀρχισιτοποιός": ["chief baker"],
+    "ἀρχιοινοχοΐα": ["office of chief cup-bearer"],
+    "ἀρχιδεσμώτης": ["chief gaoler"],
+    "διασάφησις": ["explanation, interpretation"],
+    "χονδρίτης": ["made of groats or coarse meal"],
+    "κανοῦν": ["basket of reed or cane", "bread-basket"],
 }
 
 # New Testament books: MorphGNT file and its book number.
@@ -1023,6 +1038,16 @@ NOT_SENSES = {
                   "such a reason", "what goes before"},  # an example; a description
     "e)pispa/w": {"by", "having dragged"},       # "having dragged her by the hair"
     "eu)nou=xos": {"chamberlains"},             # what eunuchs were employed as, not the word
+    # GEN 40.
+    "fulakh/": {"to watch", "watch", "watches",  # glosses of examples: "keep watch and ward",
+                "guarded", "occupied", "to preserve",  # "nothing visible to watch", "set watches"
+                "to keep guard, be on the watch", "on"},
+    "qa/llw": {"grew", "fresh", "copious", "rich", "sumptuous"},  # the examples' τεθαλυῖα
+    "stafulh/": {"by the level"},               # "matched in height by the level", an example
+    "kloph/": {"by stealth", "fraud"},          # κλοπῇ, "by stealth or fraud": the dative's idiom
+    "krema/nnumi": {"will bring", "hang them up", "up by", "to hang up one's",  # examples
+                    "thou wert hanging", "hangs over", "depending"},
+    "oi)noxoe/w": {"she was pouring out", "for wine"},  # "she was pouring out nectar for wine"
 }
 
 # An entry that divides its senses by tense and voice, so that which of them belong to a

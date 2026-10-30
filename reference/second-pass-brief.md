@@ -390,6 +390,12 @@ goes under ἐπισπάομαι, as MorphGNT files its middle, and that is now 
 ὑπεξῄρηται at 39:9 is read as middle — *to put aside, except*, which Middle Liddell gives only in
 the middle — so οὐδέν after it is its object, `----ASN-`, not its subject.
 
+### What it found in Genesis 40
+
+Four disagreements over 478 words, all one word: κανᾶ, κανῷ, κανοῦ, which the second pass filed
+under κάνεον, the headword LSJ gives them, and the first under κανοῦν, the contracted form the
+text prints. The dictionary form keeps the text's spelling, and the instructions now name it.
+
 ## The brief
 
 Copy everything below the rule into a new agent. Replace `<BOOK NAME>`, `<CHAPTER>`,
@@ -554,7 +560,7 @@ The dictionary form as Middle Liddell (Perseus) files it:
   goes under the active ἐπικαλέω, as MorphGNT files it.
 - εἰδέναι → οἶδα · εἶπεν → λέγω · ἀντειπεῖν → ἀντιλέγω · ἰδεῖν → ὁράω · φαγ- forms → ἐσθίω · μου → ἐγώ ·
   every article → ὁ.
-- The dictionary form keeps the spelling the text prints — γίνομαι, ἔχθρα, νοσσιά, δειλινός,
+- The dictionary form keeps the spelling the text prints — γίνομαι, ἔχθρα, νοσσιά, δειλινός, κανοῦν,
   ἐννακόσιοι, κατάγαιος, τεσσαράκοντα — even where Middle Liddell or MorphGNT spells the word
   otherwise (γίγνομαι, ἔχθρη, νεοσσιά, ἐνακόσιοι, κατάγειος, τεσσεράκοντα). What goes to the
   dictionary is the form, not the spelling: a contracted form goes under the form Middle Liddell

@@ -6168,3 +6168,67 @@ case, `in to us`.
 
 **The tables above.** 173 rows whose lemma and headword the corpus still uses now show the
 chain it uses; a row whose headword the corpus has since given up is the history of that word.
+
+### Words new in GEN 40
+
+From Middle Liddell unless marked; the headword is the entry's first translation in the form the
+text uses.
+
+- ἀρχιοινοχόος, ἀρχισιτοποιός, ἀρχιοινοχοΐα, ἀρχιδεσμώτης — LSJ, one sense each, so plain text:
+  `chief cup-bearer`, `chief baker`, `office of chief cup-bearer` (LSJ spells it ἀρχιοινοχοεία),
+  and `chief gaoler`, the gloss of ἀρχιδεσμοφύλαξ, inside whose entry LSJ files ἀρχιδεσμώτης. 40:1–23.
+- δεσμοφύλαξ — one sense, *a gaoler*: plain text. 40:3.
+- φυλακή — **headword** `in watching`, merged with ἐν; **chain** `watching and guarding, watch and
+  guard and ward, guard and garrison, station and post, place for keeping, ward and prison,
+  keeping and preserving, guardianship, safe-guard and precaution`. The glosses of the entry's
+  examples are in `NOT_SENSES`. 40:3, 40:4, 40:7.
+- ἀπάγω (pluperfect passive) — **headword** `had been led away`, the passive chain of 39:22. 40:3.
+- συνίστημι (first aorist, causal) — **headword** `set together`; the causal senses, from *set
+  together and combined …* to *offered as a guarantee*. 40:4.
+- παρίστημι (second aorist) — **headword** `stood by`, the pluperfect chain of 37 in the aorist. 40:4.
+- ἑκάτερος — **headword** `each of two`; **chain** `each of two, either, each singly`. 40:5.
+- ταράσσω (perfect passive participle) — **headword** `having been stirred`, the aorist passive's
+  chain. 40:6.
+- ἐρωτάω (imperfect) — **headword** `was asking`. 40:7.
+- σκυθρωπός — **headword** `angry-looking`; **chain** `angry-looking, of sad countenance, sullen,
+  gloomy and sad and melancholy`. 40:7.
+- συγκρίνω — **headword** `compounded`, `the one compounding`; **chain** *compounded, compared,
+  measured and estimated*. Middle Liddell has no sense of interpreting; LSJ's *interpret dreams*,
+  citing 40:8, is in the note. σύγκρισις likewise: `the compounding, the comparing and
+  comparison`, with LSJ's *interpretation of a dream*, citing 40:12, in the note. 40:8–22.
+- διασάφησις — LSJ: **headword** `the explanation`; **chain** `the explanation, the interpretation`. 40:8.
+- πυθμήν — **headword** `hollow bottoms`; **chain** `hollow bottoms and stands of a cup, bottoms and
+  depths, bottoms and foundations, anvil-stands, bottoms and stocks and roots of a tree, stems
+  and stocks`. 40:10, 40:12.
+- θάλλω — **headword** `blooming`; **chain** `blooming, abounding, being luxuriant, flourishing,
+  being active`; the examples' τεθαλυῖα glosses are in `NOT_SENSES`. 40:10.
+- ἀναφέρω (perfect participle) — **headword** `having brought up`, the chain of 22:2 with *and
+  standing so*. 40:10.
+- βλαστός `sprouts`; πέπειρος `ripe, softened`; βότρυς `the clusters, the bunches of grapes`;
+  σταφυλή `of a bunch of grapes, of the plummet of a level`. 40:10, 40:11.
+- ποτήριον — **headword** `the drinking-cup`; **chain** `the drinking-cup, the wine-cup`. 40:11–21.
+- ἐκθλίβω — **headword** `I squeezed much`; **chain** `I squeezed much, I distressed greatly`. 40:11.
+- μιμνήσκομαι — the entry's last sense, *to mention, make mention of*, is in every chain now:
+  40:14 has μνησθήσῃ περὶ ἐμοῦ Φαραω, *make mention of me to Pharaoh*, and the five earlier
+  units took the sense on.
+- ἀρχή — the entry's power, sovereignty, magistracy, office and term of office join the chain:
+  `beginning, origin, first cause, headship and rule and governing precedence, end and corner,
+  first place, power and sovereignty and dominion and command, sovereignty and empire and realm,
+  magistracy and office, term of office`. 40:13 and 40:20–21 are the cup-bearer's office; 2:10,
+  10:10 and 13:4 took the same range. Ἐν ἀρχῇ keeps its formula.
+- οἰνοχοέω — one sense once the example's pieces are out, *to pour out wine for drinking*: plain
+  text. 40:13.
+- κλοπή — **headword** `to theft`; **chain** `to theft, to a secret act and fraud, to the surprise`.
+  Middle Liddell's *by stealth* is the dative κλοπῇ as an idiom, and the case marker reads the
+  dative as every dative; the note gives it. 40:15.
+- κλέπτω (aorist passive) — **headword** `I was stolen`, the chain of 30:33 in the aorist. 40:15.
+- κανοῦν — LSJ's κάνεον, contracted: **headword** `baskets of reed or cane`; **chain** `baskets of
+  reed or cane, bread-baskets`. 40:16–18.
+- χονδρίτης — LSJ, one translation, *made of groats or coarse meal*: plain text. 40:16.
+- σιτοποιός — used as a noun, so its first noun sense heads: `of one that ground the corn in the
+  handmill`, then the adjective's *of grinding and baking* and *of a baking-woman*. 40:17.
+- κατεσθίω (imperfect) — `was eating up, was devouring`. 40:17.
+- ἀφαιρέω (future) — **headword** `will take from`, the active chain of the aorist. 40:19.
+- κρεμάννυμι — **headword** `will hang`, `hung`; **chain** *hang, hang up*. 40:19, 40:22.
+- σάρξ (plural, articular) — `the fleshes`, the plural chain of 6:3 with the article. 40:19.
+- ἐπιλανθάνομαι — one sense, *to forget*: plain text. 40:23.
