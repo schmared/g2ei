@@ -6309,8 +6309,9 @@ text uses.
   the first passivisable sense heading, *keep watch and ward* being intransitive. 41:35, 41:36.
 - θρόνος — **headword** `the seat`; **chain** `the seat and chair, the throne and chair of state,
   the throne and the king's estate and dignity, the oracular seat, the chair of a teacher`. 41:40.
-- βύσσινος — Middle Liddell's *made of* βύσσος names the stuff in Greek; English writes it byssus:
-  **headword** `made of byssus`; **chain** `made of byssus, fine linen`. 41:42.
+- βύσσινος — Middle Liddell's *made of βύσσος* names the stuff by its Greek word; the reading gives
+  its English spelling with the Greek after it: **headword** `made of byssus (βύσσος)`; **chain**
+  `made of byssus (βύσσος), fine linen`. 41:42.
 - κλοιός — **headword** `a dog-collar`; **chain** `a dog-collar, a large wooden collar, a pillory, a
   collar`. 41:42.
 - ἅρμα — **headword** `the chariot`; **chain** `the chariot, the war-chariot, the chariot and horses
@@ -6318,8 +6319,9 @@ text uses.
 - κηρύσσω — **headword** `was a herald`; **chain** to *commanded publicly*. κῆρυξ, `a herald, a
   pursuivant, a marshal, a public messenger, a crier`. 41:43.
 - πεινάω `was hungry`; κράζω `croaked`, *screamed and shrieked and cried aloud*; πωλέω `was
-  exchanging`, *selling and offering for sale*; ἀγοράζω `to be in the agora`, the Greek word the
-  entry's first translation keeps, then *buy in the market and buy and purchase*. 41:55–57.
+  exchanging`, *selling and offering for sale*; ἀγοράζω `to be in the agora (ἀγορά)`, the entry's
+  Greek word in its English spelling and then itself, then *buy in the market and buy and
+  purchase*. 41:55–57.
 - ἑαυτοῦ — Rahlfs prints αὑτοῦ at 41:11, the contracted reflexive: `of himself`.
 - νεανίσκος, σήμερον, θυγάτηρ, υἱός, τριάκοντα, διάδηλος, ἐπιλανθάνομαι, ἐνυπνιάζομαι — one sense
   each: plain text.
@@ -6327,3 +6329,17 @@ text uses.
 **A breathing.** The module cross-check caught 41:11's αὑτοῦ, transcribed with the smooth
 breathing; the scan shows the rough. The reflexive is now in the text, the morphology and the
 reading.
+
+## Loose ends before Genesis 42
+
+**A Greek word inside a translation.** Middle Liddell names a thing by its Greek word in five
+translations the corpus's words reach — βύσσινος *made of βύσσος*, ἀγοράζω *to be in the ἀγορά*
+and *to lounge in the ἀγορά*, ἀφίημι *to let go as an ἄφετος*, κατοικέω *to dwell in as a
+κάτοικος*, ῥάβδος *the wand borne by the ῥαψῳδός* — and Perseus tags the word as Greek, so the
+`<tr>` stopped before it, or, inside it, reached the card as Beta Code. `GREEK_LOST` restores each
+as the entry prints it; `GREEK_AFTER` names κρατέω, whose *get possession of* is whole and whose
+Greek is an example's object, and ἄν, whose usage paragraph is tagged as one translation.
+`validate.py` reads the lexicon for a new site, as it does for the Latin runs. The reading gives
+such a word its English spelling with the Greek after it: `made of byssus (βύσσος)`, `to be in
+the agora (ἀγορά)`. The 36 κατοικέω cards across the corpus now open with the whole first
+translation.

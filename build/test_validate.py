@@ -68,6 +68,16 @@ def with_lsj(extra):
         W.LSJ.update(saved)
 
 
+def with_greek_lost(drop):
+    """The markup check with one entry taken out of GREEK_LOST for the length of one run."""
+    import words as W
+    saved = W.GREEK_LOST.pop(drop)
+    try:
+        return run(V.check_markup, [("GEN", 41)])
+    finally:
+        W.GREEK_LOST[drop] = saved
+
+
 def run(fn, *args):
     """One check against one dataset, its output captured. -> (failed, skipped, lines)"""
     rep, buf = V.Report(), io.StringIO()
@@ -333,6 +343,10 @@ NEGATIVE = [
     # names; once named, it is a word Middle Liddell has, and LSJ may not answer for it
     ("lexicon  ...and a word it has only under a close form",
                                          lambda: with_lsj({"ποιμήν": ["shepherd"]})),
+    # βύσσινος reads "made of βύσσος", and the <tr> stopped at "made of": the card had shown
+    # half a translation, and nothing failed
+    ("markup   a translation a Greek word cuts off",
+                                         lambda: with_greek_lost("bu/ssinos")),
     ("unit wds one word, claimed by two units",
                                          lambda: run(V.check_unit_words, "GEN", 1,
                                                      mut(GEN, [0, "reading"],

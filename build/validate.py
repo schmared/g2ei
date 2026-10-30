@@ -944,7 +944,35 @@ def check_markup(targets, rep):
                          "inside the Latin element — if any of that is English, name it in "
                          "MARKUP_LOST; if it is Latin throughout, name it in LATIN_ONLY"
                          % inner[:60])
-    rep.done("markup", "%d first-sense Latin runs, all settled" % seen, before)
+    # Greek does the same where Middle Liddell names a thing by its Greek word: the <tr> ends
+    # on "made of", "in the", "as a", and the word that finishes it is a Greek element after
+    # it — or the element is inside the <tr> and reaches the card as Beta Code. Every site
+    # among the corpus's words is settled in GREEK_LOST, which restores the sense, or in
+    # GREEK_AFTER, which says the gloss was whole and the Greek is an example's.
+    greek = set(W.GREEK_LOST) | set(W.GREEK_AFTER)
+    cut = 0
+    for lemma in sorted(wanted):
+        key = W.SPELLING.get(W.beta(lemma), W.beta(lemma))
+        key = W.ENTRY.get(key, key)
+        body = bodies.get(key)
+        if not body or body.find("<sense") < 0:
+            continue
+        for t in GREEK_CUT.finditer(body[body.find("<sense"):]):
+            text = re.sub(r"\s+", " ", re.sub(r"<[^>]+>", "", t.group(1))).strip()
+            if not ('lang="greek"' in t.group(1) or (t.group(2) and ENDS_SHORT.search(text))):
+                continue
+            cut += 1
+            if re.sub(r"\d+$", "", key) not in greek:
+                rep.fail("markup", lemma,
+                         "the translation `%s` stops at a Greek word, or holds one — if the "
+                         "word finishes it, restore it in GREEK_LOST; if the gloss is whole, "
+                         "name it in GREEK_AFTER" % text[:60])
+    rep.done("markup", "%d first-sense Latin runs and %d translations a Greek word cuts, all "
+             "settled" % (seen, cut), before)
+
+
+GREEK_CUT = re.compile(r'<tr\b[^>]*>(.*?)</tr>\s*(<foreign[^>]*lang="greek")?', re.S)
+ENDS_SHORT = re.compile(r"\b(?:of|the|a|an|in|to|for|with|by|at|on|from|into|as)$")
 
 
 STRANDED = re.compile(r"(?<![\w\-])the\s+\[\[(?!name:)([^|\]]+)\|[^|\]]+\|([^|\]]+)\]\]")

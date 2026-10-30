@@ -58,7 +58,11 @@ load-bearing word is one unit: a **headword** and its **chain**.
   restores it, quoting the entry and naming the element that took it. That adds nothing
   the lexicon does not say. 54 entries have a run of that shape and 24 had lost a
   translation; `build/validate.py` fails on a new one until it is settled in `MARKUP_LOST`
-  or in `LATIN_ONLY`, which records the runs that are Latin throughout. Tense, voice and
+  or in `LATIN_ONLY`, which records the runs that are Latin throughout. Greek does the
+  same where the entry names a thing by its Greek word — βύσσινος *made of βύσσος*, and
+  the `<tr>` stops at *made of* — and `GREEK_LOST` restores it, or `GREEK_AFTER` records
+  that the gloss was whole. The reading gives such a word its English spelling with the
+  Greek after it in parentheses: `made of byssus (βύσσος)`. Tense, voice and
   person come from the Greek form (ποιέω *to make* → ἐποίησεν *made*), and so does the
   article: English gets one where the Greek has one and
   nowhere else (ἐν ἀρχῇ → *in beginning*; ὁ θεός → *the God*). No translation is consulted
@@ -364,6 +368,8 @@ The count is checked as well as the name: two units may not open one word.
   <latin>, <English>` and Perseus wraps the whole run in one Latin element, so the
   English never reaches a translation. No check on the data can see it — a chain written
   from the entry's text is right — so this one reads the lexicon
+- every translation a Greek word cuts is settled: one that stops at *made of*, *in the*,
+  *as a* with the Greek word next, or holds a Greek word the card would print as Beta Code
 - Greek text matches the source edition — New Testament character-for-character against
   SBLGNT; the Old Testament against the printed page every verse cites in `print`
 

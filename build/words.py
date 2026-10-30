@@ -1491,6 +1491,29 @@ LATIN_ONLY = {
     "e)ntau=qa",                                # "Lat. hic, illic", after "here, there"
 }
 
+# The same loss with Greek in place of Latin. Middle Liddell names a thing by its Greek word
+# inside a translation — βύσσινος "made of βύσσος" — and Perseus tags the word as Greek, so
+# the <tr> stops before it ("made of") or, where the tag sits inside the <tr>, the loader
+# printed its Beta Code ("to be in the a)gora/"). Each sense is restored as the printed entry
+# gives it, quoted beside it. build/validate.py fails on a new site until it is settled here
+# or in GREEK_AFTER.
+GREEK_LOST = {
+    "bu/ssinos": {"made of": "made of βύσσος"},  # "made of βύσσος, σινδὼν β. a fine linen bandage"
+    "a)gora/zw": {"to be in the a)gora/": "to be in the ἀγορά",  # "to be in the ἀγορά, frequent it"
+                  "to lounge in the": "to lounge in the ἀγορά"},  # "to lounge in the ἀγορά"
+    "a)fi/hmi": {"to let go as an": "to let go as an ἄφετος"},  # "to let go as an ἄφετος, consecrate"
+    "katoike/w": {"to dwell in as a": "to dwell in as a κάτοικος"},  # "to dwell in as a κάτοικος, to settle in"
+    "r(a/bdos": {"the wand borne by the": "the wand borne by the ῥαψῳδός"},  # "the wand borne by the ῥαψῳδός"
+}
+
+# Translations a Greek word follows without finishing: the gloss is whole, and the Greek
+# after it is an example's object.
+GREEK_AFTER = {
+    "krate/w",                                  # "to become master of, get possession of" τῆς ἀρχῆς
+    "a)/n",                                     # a paragraph on usage tagged as one translation,
+                                                # its Greek the examples: nothing is cut
+}
+
 
 # A word Middle Liddell files as a section of another word's entry instead of under a key
 # of its own. "πρότερος and πρῶτος, Comp. and Sup. formed from πρό": section A is the
@@ -1547,6 +1570,8 @@ def load_middle_liddell():
         senses = [g for g in glosses if g]
         for at, gloss in MARKUP_LOST.get(key, ()):
             senses.insert(at, gloss)
+        lost = GREEK_LOST.get(re.sub(r"\d+$", "", key), {})
+        senses = [lost.get(g, g) for g in senses]
         entries.setdefault(key, senses)
         entries.setdefault(re.sub(r"\d+$", "", key), senses)
         for word, (host, section, parts) in FILED_WITHIN.items():
