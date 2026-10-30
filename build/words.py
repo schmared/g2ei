@@ -356,6 +356,12 @@ LSJ = {
     # in square". LSJ (eng7): ζωογονέω, "propagate" or "engender living creatures", "breed",
     # "engender", "to be viviparous", "produce alive", "make alive, quicken", and "= ζωγρέω, preserve
     # alive", citing Ex 1:17; "producing" is a piece of the example of Zeus and Pallas.
+    # EXO 10. None of these is in Middle Liddell. LSJ (eng21): σκῶλον, τό, "= σκῶλος", then its own
+    # "stumblingblock, hindrance", citing Ex 10:7. Middle Liddell's σκῶλος, "a pointed stake", is the
+    # masculine, and the text's σκῶλον is a predicate nominative, which no form of σκῶλος can be.
+    # LSJ (eng26): ψηλαφητός, "that can be felt", citing the darkness of Ex 10:21.
+    "σκῶλον": ["stumblingblock, hindrance"],
+    "ψηλαφητός": ["that can be felt"],
     # EXO 9. None of these is in Middle Liddell. LSJ (eng5): ἐγκρατέω, "to be master of, exercise
     # control over", citing Ex 9:2 (Middle Liddell has the adjective ἐγκρατής, not the verb). LSJ
     # (eng11): καμιναία, "furnace", citing Ex 9:10. LSJ (eng24): φλυκτίς, "= φλύκταινα", a pointer,
@@ -1341,6 +1347,14 @@ NOT_SENSES = {
                "elections."},                   # examples' translations, a proverb, the note on ballot and lot
     "e)pista/ths": {"the right-", "left-hand man", "the front-rank man)", "a", "master", "which stood over"},  # παραστάτης's and προστάτης's glosses; "a training-master" cut in two, whole in MARKUP_LOST; a piece
     "be/ltistos": {"my good friend"},             # ὦ βέλτιστε, the vocative's mode of address
+    # EXO 10
+    "e(ch=s": {"the next"},                      # ἡ ἑξῆς ἡμέρα, the phrase's; "next" is a sense above it
+    "a)/nemos": {"the wind", "to the winds"},     # a repeat with the article; ἀνέμοις, an example's dative
+    "qu/ella": {"thunderstorms"},                # πυρὸς θύελλαι, the phrase's
+    "e)ruqro/s": {"the Erythraean sea", "Red Sea", "Arabian Gulf", "Indian Ocean", "the Persian Gulf"},  # Ἐρυθρὴ θάλασσα, the phrase's
+    "fa/os": {"day-light", "light", "the light", "light of my life"},  # repeats of "light, daylight"; γλυκερὸν φάος, an address
+    "fu/w": {"made", "grow", "will bring to light", "birth", "is", "by nature", "to fall", "grew", "natural lot",
+             "it is natural", "is natural", "by nature, be"},  # examples' pieces and translations
     # EXO 9
     "r(hto/s": {"stated", "on stated terms, on certain conditions", "expressly, distinctly"},  # a repeat; ἐπὶ ῥητοῖς, the phrase's; the adverb ῥητῶς
     "o(/ros": {"the boundary between", "as the limit", "cippi)"},  # pieces of examples, the Latin
@@ -1425,7 +1439,17 @@ _EXANISTHMI_INTR = {
 _EXANISTHMI_CAUS = {
     "to raise up: to make one rise", "bid one", "rise", "to order", "to rise", "to make",
     "emigrate, to remove", "expel", "to depopulate, destroy", "to rouse", "from their lair"}
+_APOLLUMI_ACT = {"to destroy utterly, kill, slay", "to destroy, demolish, waste", "to talk", "bore", "to death",
+                 "to lose utterly"}
+_APOLLUMI_MID = {"to perish utterly, die", "to be undone", "you are done for, lost, ruined",
+                 "to be lost, slip away, vanish"}
 FORM_SENSES = {
+    # ἀπόλλυμι: "to destroy utterly … Mid. ἀπόλλυμαι … perf. -όλωλα … to perish utterly, die". The
+    # second perfect is active in form and the middle's in sense, as EXO 10:7's ἀπόλωλεν Αἴγυπτος;
+    # the active's other tenses take the active's senses, and the middle's the middle's.
+    "a)po/llumi": [("XY", "A", _APOLLUMI_ACT | NOT_SENSES["a)po/llumi"]),
+                   ("PIFAXY", "A", _APOLLUMI_MID | NOT_SENSES["a)po/llumi"]),
+                   ("PIFAXY", "MEP", _APOLLUMI_ACT | NOT_SENSES["a)po/llumi"])],
     # ἀνέχω: "trans. to hold up … intr. to rise up … Mid. to hold up what is one's own … to hold
     # oneself up, bear up, hold out … to bear up against … to suffer". GEN 45:1's ἀνέχεσθαι, to
     # bear with them all, is the middle and takes only its senses; "be of good courage" is the
@@ -1747,6 +1771,8 @@ FORM_SENSES = {
 # (κατέναντι reads "= κατεναντίον" and glosses nothing itself). Each is recorded in
 # reference/lexicon-notes.md with the entry it resolves to.
 SPELLING = {
+    "gno/fos": "dno/fos",              # γνόφος, Middle Liddell's "= δνόφος" (EXO 10:22)
+    "katagi/nomai": "katagi/gnomai",   # the Attic spelling, as γίνομαι (EXO 10:23)
     "o)lu/ra": "o)/lura",               # ὀλύρα, Middle Liddell's ὄλυρα (EXO 9:32)
     "kuno/muia": "kuna/muia",          # κυνόμυια, Middle Liddell's "= κυνάμυια" (EXO 8:17)
     "skni/y": "kni/y",                  # σκνίψ, Middle Liddell's κνίψ, "like σκνίψ" (EXO 8:12)
@@ -2098,6 +2124,7 @@ LATIN_ONLY = {
     "a)rrabw/n",                                # "Lat. arrhabo, arrha", after "earnest-money, caution-money"
     "e)ntau=qa",                                # "Lat. hic, illic", after "here, there"
     "te/ras",                                   # "Lat. portentum, prodigium", after "a sign, wonder, marvel"
+    "ou)de/pote",                               # "Lat. ne unquam quidem, nunquam", after "and not ever" or "nor ever, …, never"
 }
 
 # The same loss with Greek in place of Latin. Middle Liddell names a thing by its Greek word

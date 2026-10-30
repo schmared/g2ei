@@ -144,3 +144,23 @@ English in that use. Three calls in EXO 5 sit near the line:
 **Recommendation:** the test the corpus has used — keep a translation of the word, file a
 translation of the phrase — written down in `/reference/lexicon-notes.md`, so these calls are made
 the same way each time.
+
+## Q8. A phrase's translation that names the phrase in the text — ἐρυθρός
+
+**Where:** EXO 10:19 εἰς τὴν ἐρυθρὰν θάλασσαν.
+
+**Now:** Middle Liddell's ἐρυθρός opens *red*, then translates the phrase Ἐρυθρὴ θάλασσα: *the
+Erythraean sea*, including *the Red Sea* or *Arabian Gulf* and *the Indian Ocean*, later *the
+Persian Gulf*. By Q7's test those are the phrase's, since θάλασσα gives the *sea*, and they are in
+`NOT_SENSES`. ἐρυθρός is left one translation, *red*, plain text, and the names go in a note. Here,
+unlike Q7's cases, the phrase itself is in the text.
+
+- now: `into the red` and θάλασσα's unit, `sea`.
+- the names kept: ἐρυθρός a unit, `the red` — `the red, the Erythraean sea, Red Sea, Arabian Gulf,
+  Indian Ocean, the Persian Gulf` — and then `sea`.
+
+**The difference:** kept, the adjective's chain says *sea* beside θάλασσα's own unit, and names
+places the adjective alone does not; filed, the reading loses the lexicon's word that this is the
+Red Sea, which only the note keeps.
+
+**Recommendation:** filed, as now: the reading opens each Greek word, and *sea* is θάλασσα's.

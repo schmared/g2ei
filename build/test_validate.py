@@ -34,6 +34,8 @@ GEN = json.loads((render.DATA / "GEN/1.json").read_text(encoding="utf-8"))
 GEN3 = json.loads((render.DATA / "GEN/3.json").read_text(encoding="utf-8"))
 GEN7 = json.loads((render.DATA / "GEN/7.json").read_text(encoding="utf-8"))
 GEN36 = json.loads((render.DATA / "GEN/36.json").read_text(encoding="utf-8"))
+GEN19 = json.loads((render.DATA / "GEN/19.json").read_text(encoding="utf-8"))
+EXO8 = json.loads((render.DATA / "EXO/8.json").read_text(encoding="utf-8"))
 JHN = json.loads((render.DATA / "JHN/1.json").read_text(encoding="utf-8"))
 
 
@@ -349,6 +351,18 @@ NEGATIVE = [
                                                  "[[the things going into|the things going into and entering|",
                                                  "[[the ones going into|the ones going into and entering|"))
                                              for v in GEN7])),
+    # GEN 19:1 οἱ δύο ἄγγελοι: one article, printed with the numeral — `the two the messengers`
+    ("articles the article printed again past a numeral",
+                                         lambda: run(V.check_articles, "GEN", 19, [
+                                             dict(v, reading=v["reading"].replace(
+                                                 "[[messengers|messengers and", "[[the messengers|the messengers and"))
+                                             for v in GEN19])),
+    # EXO 8:19 τοῦ ἐμοῦ λαοῦ: printed with the possessive — `of the mine of the people`
+    ("articles the article printed again past a possessive",
+                                         lambda: run(V.check_articles, "EXO", 8, [
+                                             dict(v, reading=v["reading"].replace(
+                                                 "[[of people|of people,", "[[of the people|of the people,"))
+                                             for v in EXO8])),
     # κιβωτός reads *a wooden box, chest, coffer*, one translation: split across items, each
     # word reads as a sense of its own
     ("runs     one translation split across items",
@@ -593,6 +607,9 @@ CONTROL = [
                                                          "x in the presence of [[of lord|of lord, of master|κύριος]] y"))),
     ("articles clean GEN 7, with its neuter participle",
                                          lambda: run(V.check_articles, "GEN", 7, GEN7)),
+    ("articles clean GEN 19 and EXO 8, an article over a numeral and a possessive",
+                                         lambda: tuple(map(sum, zip(run(V.check_articles, "GEN", 19, GEN19)[:2],
+                                                                    run(V.check_articles, "EXO", 8, EXO8)[:2]))) + ([],)),
     ("lexicon  clean: every LSJ word is one Middle Liddell lacks",
                                          lambda: run(V.check_lexicon)),
     # διαναπαύω stays with LSJ: Middle Liddell has only the middle, which does not say

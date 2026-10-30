@@ -7334,3 +7334,61 @@ text uses. Chains already in the corpus (Genesis) were read from it and re-infle
   παρίστημι `having stood by … and standing so`; ὄψιμος `late`; ἐκτός `outside`; στάζω `dropped`.
 - One translation each, plain text: σκληρύνω, ἐπαύριον, αἰθάλη (*soot*), καμιναία, ἐκπετάννυμι's
   active, πυρός (*wheat*), οὗ (*where*).
+
+### Words new in EXO 10
+
+- **From LSJ** (not in Middle Liddell): σκῶλον, `stumblingblock and hindrance` (10:7), LSJ's
+  neuter, citing this verse. Middle Liddell has only the masculine σκῶλος, *a pointed stake*, and
+  the text's σκῶλον is the predicate nominative after ἔσται, which no form of σκῶλος can be.
+  ψηλαφητός, *that can be felt*, one translation, plain text (10:21).
+- **Close forms**: γνόφος is Middle Liddell's "= δνόφος", `darkness and dusk and gloom` (10:22);
+  καταγίνομαι the Attic καταγίγνομαι, `were abiding and dwelling` (10:23); φῶς is filed under φάος,
+  the uncontracted headword, as νοῦς under νόος: `light and daylight, a light, eyes` (10:23).
+- **Latin throughout** (`LATIN_ONLY`): οὐδέποτε's *Lat. ne unquam quidem, nunquam*.
+- **Voice** (`FORM_SENSES`): ἀπόλλυμι's second perfect ἀπόλωλα is active in form and the middle's
+  in sense, *to perish utterly, die*, and its card now shows the middle's senses; the active's
+  other tenses show the active's, and the middle's the middle's. `has perished utterly and died and
+  it stands so, has been undone and it stands so, is done for and lost and ruined and it stands so,
+  has been lost and slipped away and vanished and it stands so` (10:7).
+- **Pieces set aside** (`NOT_SENSES`): ἑξῆς (*the next*, ἡ ἑξῆς ἡμέρα's), ἄνεμος (*the wind*, a
+  repeat; *to the winds*, an example's dative), θύελλα (*thunderstorms*, πυρὸς θύελλαι's), ἐρυθρός
+  (the names of the Erythraean sea, the phrase's: see open question Q8), φάος (repeats of *light,
+  daylight*; an address), φύω (examples' pieces and translations).
+- **Used as a noun**: τὸ περισσόν takes the entry's noun senses, `the surplus, the surplus and
+  residue` (10:5).
+- **The passive participle of φύω** heads with the first sense in the passive, the article's noun
+  neuter: `the thing being brought forth and produced and put forth, being begotten and engendered
+  and generated, growing and waxing and springing up and arising, being begotten and born, being
+  born and descended from` (10:5).
+- **The passive infinitive of ἐντρέπω** the same way: `to be turned about, to be altered, to turn
+  about and linger and hesitate, to turn towards and give heed to and pay regard to and respect and
+  reverence, to take care that, to feel shame and fear` (10:3).
+- **One article over two words** prints once. τὴν ἐρυθρὰν θάλασσαν is `the red` `sea`, the
+  adjective plain text; as GEN 22:18 has `of the mine` `of sound`, the noun after a possessive, a
+  numeral or a name carries no second *the*. Ten units had printed it twice — GEN 10:11, 19:1,
+  26:5, 30:27, 49:29; EXO 4:9, 5:15, 5:23, 8:4, 8:19 — and now read `city`, `messengers`, `of
+  sound`, `to way in`, `people`, `to signs`, `to house-slaves`, `to name`, `of people`.
+  `build/validate.py` fails on a new one.
+- **EXO 8's ἀνάγω** had kept the present in its aorist chain, `led up` over `lead up, … take up,
+  bring up`, and the imperative's reflexive in the third person: now `led up, … took up, brought
+  up, …, made ready and prepared himself` (8:2), `themselves` (8:3), and the imperative's
+  `yourself` (8:1).
+- New chains: ἑξῆς `one after another`; ἐπέρχομαι `may come upon`; διηγέομαι `you may set out in
+  detail`; ἐμπαίζω `I have mocked at … and it stands so`; ἐντρέπω `to be turned about`; θέλω `you
+  may will`; καλύπτω `will cover with`; ὄψις `the look`; καθοράω `to look down`; κατεσθίω `will eat
+  up`; περισσός `the surplus`; καταλείπω `the thing having been left behind`; φύω `the thing being
+  brought forth`; οὐδέποτε `and not ever`; ὁράω `have seen … and it stands so`, `you may be seen`,
+  `I will be seen`; γίνομαι `have come into being`; ἐκκλίνω `having bent out of the regular line`;
+  οἶδα `to know`; ἀπόλλυμι `has perished utterly`; ἀποστρέφω `turned` with `themselves`; λατρεύω
+  `work for hire`, `to work for hire`, `we may work for hire`; πορεύομαι `the ones being driven`;
+  πρεσβύτερος `to elders`; ἑορτή `a feast`; πονηρία `a bad state`; πρόκειμαι `is set before one`;
+  καρπός `the fruit`; ὑπολείπω `left remaining for herself`, `leave remaining for yourselves`, `we
+  will leave remaining for ourselves`; ἄνεμος `wind`, `the wind`; νότος `south`, `the south`;
+  ἀναλαμβάνω `took up` with `himself`; ἀνάγω `led up`; χάλαζα `of the hail`; βοτάνη `to grass`;
+  κατασπεύδω `was pressing`; καλέω `to call`; προσδέχομαι `receive favourably`; προσεύχομαι `offer
+  prayers`; θάλασσα `of sea`; σφοδρός `vehement`; γνόφος `darkness`; θύελλα `a furious storm`; κοίτη
+  `of the marriage-bed`; φάος `light`; καταγίνομαι `were abiding`; ἀποτρέχω `let run off`;
+  ὁλοκαύτωμα `whole burnt-offerings`; θυσία `offerings`; ὁπλή `a hoof`; βούλομαι `willed`;
+  προστίθημι `to put to`; ποιέω `we will make`; ἀναβαίνω `let go up`; τέκνον `of the things borne`.
+- One translation each, plain text: σκληρύνω, ἀκρίς (*a locust*), πρόπαππος (*a great-grandfather*),
+  νεανίσκος (*a youth*), καθότι (*in what manner*), ἐρυθρός (*red*), ψηλαφητός.

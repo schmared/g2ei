@@ -561,6 +561,13 @@ MorphGNT's usual gender for βοῦς; καμιναίας is the noun καμιν
 had it; ἔθνος in ἀφʼ οὗ γεγένηται ἐπʼ αὐτῆς ἔθνος is the subject; and πυρός, *wheat*, which the
 first pass's seed had read as πῦρ.
 
+### What it found in Exodus 10
+
+Four disagreements over 730 words. The second pass was right on three: τίνος in ἕως τίνος, at
+10:3 and 10:7, is masculine, χρόνου understood, as MorphGNT reads οὗ in ἕως οὗ; and τὸ πρωί at 10:13 is the subject
+of ἐγενήθη, nominative. φῶς stays under φάος, the uncontracted form Middle Liddell heads, as νοῦς
+under νόος.
+
 ## The brief
 
 Copy everything below the rule into a new agent. Replace `<BOOK NAME>`, `<CHAPTER>`,

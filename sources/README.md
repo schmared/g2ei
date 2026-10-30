@@ -80,11 +80,11 @@ curl -sL --create-dirs -o sources/lsj/grc.lsj.perseus-eng1.xml https://raw.githu
 | `eng14` | nu (4 MB) | νευροκοπέω (Gen 49:6) |
 | `eng16` | omicron (12 MB) | ὀστέον (Gen 2:23), ὀκτώ (Gen 5:28), ὀπισθοφανής and ὀπισθοφανῶς (Gen 9:23), ὅλος (Gen 25:25), ὀλιγοψυχία (Exod 6:9) |
 | `eng17` | pi, `p` to `πώϋξ` (38 MB) | πράσινος (Gen 2:12), ποιμήν (Gen 4:2), πρῶτος (Gen 8:5), filed under πρότερος, περάτης and πορθμεύς (Gen 14:13), προσοίγνυμι (Gen 19:6), παρεπίδημος (Gen 23:4), ποτιστήριον (Gen 24:20), πυρράκης (Gen 25:25), πιότης, πτερνίζω, προσοχθίζω (Gen 27), πλινθεία (Exod 1:14), πισσάσφαλτος (Exod 2:3), πολυπληθέω, πλινθουργία (Exod 5), παραδοξάζω (Exod 8:18) |
-| `eng21` | sigma (23 MB) | σύ (Gen 3), which Middle Liddell omits, σφαιρωτήρ (Gen 14:23), συνάντημα (Exod 9:14), σπερματίζω (Exod 9:31) |
+| `eng21` | sigma (23 MB) | σύ (Gen 3), which Middle Liddell omits, σφαιρωτήρ (Gen 14:23), συνάντημα (Exod 9:14), σπερματίζω (Exod 9:31), σκῶλον (Exod 10:7) |
 | `eng22` | tau (12 MB) | τρεῖς (Gen 5:32), filed under τρία, τριετίζω (Gen 15:9), τροφεύω (Exod 2:7) |
 | `eng23` | upsilon (9 MB) | ὑπερασπίζω (Gen 15:1), ὑπερισχύω (Gen 49:26) |
 | `eng24` | phi (8 MB) | φλόγινος (Gen 3:24), φλυκτίς and φλύκταινα (Exod 9:9) |
-| `eng26` | psi (2 MB) | ψαλτήριον (Gen 4:21) |
+| `eng26` | psi (2 MB) | ψαλτήριον (Gen 4:21), ψηλαφητός (Exod 10:21) |
 | `eng27` | omega (2 MB) | ὦμος (Gen 21:14) |
 
 To find which file holds a letter without downloading any of them, read the head of a few

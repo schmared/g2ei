@@ -1148,6 +1148,40 @@ DOUBLED = re.compile(r"(?<![\w\-|\[])(of|to) (?:\[\[(?!name:))?\1 (?=the |\w)")
 # uses: ἔναντι is *in the presence of*, and the genitive after it opens with its own *of*,
 # as ἐναντίον's unit, *in the presence of*, stands before *of lord*. That *of* is the gloss's.
 PLAIN_LEADS = ("in the presence ",)
+# What stands in a reading, in order: a unit (its anchor), a name, or plain text.
+PIECES = re.compile(r"\[\[name:[^\]]+\]\]|\[\[(?!name:)([^|\]]+)\|[^|\]]+\|[^|\]]+\]\]|[^\[]+")
+THE_LEADS = re.compile(r"^(?:of |to )?the ")
+
+
+def printed_before(pieces, n):
+    """Whether the article has printed already just before piece `n`: in the unit before it
+    (`[[of the mine]]`), in plain text over one word (`the two`), or before a name (`the
+    [[name:Ροωβωθ]]`)."""
+    back = [p for p in pieces[:n] if p.group(0).strip()]
+    if not back:
+        return False
+    prev = back[-1]
+    if prev.group(1) is not None:
+        return bool(THE_LEADS.match(prev.group(1).strip()))
+    if prev.group(0).startswith("[[name:"):
+        return len(back) >= 2 and back[-2].group(1) is None and \
+            re.search(r"(?<![\w\-])the\s*$", back[-2].group(0)) is not None
+    return re.search(r"(?<![\w\-])the [\w\-]+\s*$", prev.group(0)) is not None
+
+
+def shared_article(words, i):
+    """Whether the noun at `i` stands under an article two words back, past a possessive, a
+    numeral or a name in the same case and number: τοῦ ἐμοῦ λαοῦ, οἱ δύο ἄγγελοι, τὴν Ροωβωθ
+    πόλιν."""
+    if i < 2 or words[i]["parse"].split(" · ")[0] != "noun" or own_article_of(words, i):
+        return False
+    art, between = words[i - 2]["parse"].split(" · "), words[i - 1]["parse"].split(" · ")
+    parse = words[i]["parse"].split(" · ")
+    if art[0] != "article" or between[0] not in ("adjective", "noun"):
+        return False
+    return all([t for t in art if t in kind] == [t for t in parse if t in kind]
+               for kind in (("nominative", "genitive", "dative", "accusative", "vocative"),
+                            ("singular", "plural")))
 
 
 def article_noun(parse):
@@ -1427,6 +1461,24 @@ def check_articles(book, chapter, verses, rep):
         words = lay.get(ref)
         if not words:
             continue
+        # One article, printed once. Over a possessive, a numeral or a name and its noun it
+        # prints with the first word — `of the mine` `of sound`, `the two` `messengers` —
+        # and the noun's unit printing it again read `the two the messengers`.
+        pieces = list(PIECES.finditer(text))
+        seen = collections.Counter()
+        for n, piece in enumerate(pieces):
+            if piece.group(1) is None:
+                continue
+            unit = render.UNIT.match(piece.group(0))
+            word = lemmas(unit.group(3))[-1]
+            nth, seen[word] = seen[word], seen[word] + 1
+            places = [i for i, w in enumerate(words) if w["lemma"] == word]
+            if (nth < len(places) and THE_LEADS.match(unit.group(1).strip())
+                    and shared_article(words, places[nth]) and printed_before(pieces, n)):
+                rep.fail("articles", ref,
+                         "`%s` prints the article a second time: it stands before %s %s and "
+                         "has printed there" % (unit.group(1).strip(), words[places[nth] - 1]["form"],
+                                                words[places[nth]]["form"]))
         seen = collections.Counter()
         for head, chain, field in units(text):
             word = lemmas(field)[-1]
