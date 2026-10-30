@@ -1460,7 +1460,7 @@ the same ground as `the sixth` and `the seventh`: one sense each, so no range to
 | ἀποστρέφω | `I will turn` | `I will turn, I will turn back, I will turn away, I will turn myself about, I will bring back` | 28:15 |
 | ἀποστρέφω | `may turn` | `may turn, may turn back, may turn away, may turn himself about, may bring back` | 28:21 |
 | ἀφικνέομαι | `was coming to` | `was coming to, was arriving at and reaching, was arriving` | 28:12 |
-| ἄκρον | `the mountain-top` | `the mountain-top and peak, the headland and foreland and cape, the end and extremity` | 28:18 |
+| ἄκρον | `the mountain-top` | `the mountain-top and peak, the headland and foreland and cape, the end and extremity, the highest pitch and height, the exceedingly, the highest place, the prize, the oldest rulers` | 28:18 |
 | ἐγκαταλείπω | `I may leave behind` | `I may leave behind, I may leave in the lurch, I may leave out and omit` | 28:15 |
 | ἐνυπνιάζομαι | `dreamed` | `dreamed` | 28:12 |
 | ἐξεγείρω | `was awakened` | `was awakened, was awaked and woke up, was raised from the dead, was aroused and brought on` | 28:16 |
@@ -2156,7 +2156,7 @@ the same ground as `the sixth` and `the seventh`: one sense each, so no range to
 | πρόβατον | `the thing that walks forward` | `the thing that walks forward, the cattle, the flocks and herds, the horses, the small cattle, the sheep` | 22:7 |
 | πρόβατον | `thing that walks forward` | `thing that walks forward, cattle, flocks and herds, horses, small cattle, sheep` | 22:8 |
 | πῦρ | `the fire` | `the fire, the funeral-fire, the fire of the hearth` | 22:6, 22:7 |
-| σπέρμα, with ἐν | `in that which is sown` | `within, inside of, and by means of that which is sown, the seed, the germ and origin and element, the offspring and issue, the race and descent` | 22:18 |
+| σπέρμα, with ἐν | `in the that which is sown` | `within, inside of, and by means of the that which is sown, the seed, the germ and origin and element, the offspring and issue, the race and descent` | 22:18 |
 | συμποδίζω | `having tied the feet together` | `having tied the feet together, having bound hand and foot, having entangled` | 22:9 |
 | σφάζω | `to slay` | `to slay, to slaughter, to slaughter by cutting the throat, to slaughter victims for sacrifice, to kill` | 22:10 |
 | σχίζω | `having split` | `having split and cleaved, having parted and separated` | 22:3 |
@@ -6696,3 +6696,21 @@ text uses. Chains already in the corpus were read from it, in their joined form.
   spells otherwise the gloss says *for* the Hebrew form (Ζαμβραμ, for Šimrôn); where it gives Perez's
   son the name of Simeon's (Ιεμουηλ for Ḥāmûl, 46:12), the second bearer has its own entry and
   English name. Ἡρώων πόλις is glossed as Ἡλίου πόλις was, the first word a capitalised Greek noun.
+
+## Loose ends before Genesis 47
+
+**ἄκρον.** GEN 28:18's `the mountain-top` carried three of the eight senses Middle Liddell gives
+the noun — *a mountain-top, peak*, *a headland, foreland, cape*, *an end, extremity* — and none of
+*the highest pitch, height*, *exceedingly* (εἰς ἄκρον), *the highest place*, *the prize*, *the
+oldest rulers*. No note set them aside, and GEN 47:31's τὸ ἄκρον τῆς ῥάβδου reads the whole card,
+so 28:18 now does too: `the mountain-top and peak, the headland and foreland and cape, the end and
+extremity, the highest pitch and height, the exceedingly, the highest place, the prize, the oldest
+rulers`. *The exceedingly* is the article over a gloss that opens otherwise, as δεύτερος reads *the
+secondly and next and afterwards*.
+
+**σπέρμα without its article.** Eight anarthrous units (4:25, 7:3, 8:22, 15:3, 19:32, 19:34, 21:12,
+21:13) read `that which is sown, the seed, the germ …`, the articles of the articular chain left in
+where the Greek has none; 38:8 and the rest read `that which is sown, seed, germ and origin and
+element, offspring and issue, race and descent`, and now all do. The table's row for ἐν with
+σπέρμα named the head `in that which is sown`; 22:18 is ἐν τῷ σπέρματί σου, and the unit reads `in
+the that which is sown`.
