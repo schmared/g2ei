@@ -530,6 +530,14 @@ the object of ἐξαποστέλλω, where the first pass had the genitive; an
 is the adverb, *also*, as at GEN 41:21. The first pass stands on προσκαλέω, the corpus's lemma at
 EXO 3:18 and GEN 28:1, where the second filed the middle προσκαλέομαι as MorphGNT does.
 
+### What it found in Exodus 6
+
+Two disagreements over 565 words, most of them names, and the second pass was right on both: καί in
+ἐν ᾗ καὶ παρῴκησαν (6:4) is the adverb, *also*; and Αβιουδ takes MorphGNT's Ἀβιούδ (Matt 1:13),
+the same letters, as the brief's rule for names has it. Both passes filed διαλεγόμενοι under
+Middle Liddell's διαλέγω, read συγγενείας after κατά as the accusative plural, and gave the
+numerals of a verbless lifespan the nominative.
+
 ## The brief
 
 Copy everything below the rule into a new agent. Replace `<BOOK NAME>`, `<CHAPTER>`,

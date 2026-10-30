@@ -356,6 +356,11 @@ LSJ = {
     # in square". LSJ (eng7): ζωογονέω, "propagate" or "engender living creatures", "breed",
     # "engender", "to be viviparous", "produce alive", "make alive, quicken", and "= ζωγρέω, preserve
     # alive", citing Ex 1:17; "producing" is a piece of the example of Zeus and Pallas.
+    # EXO 6. LSJ (eng11): καταδυναστεία, "oppression", citing Ex 6:7; Middle Liddell has the verb,
+    # καταδυναστεύω, and not the noun. LSJ (eng16): ὀλιγοψυχία, "= λιποψυχία", a pointer, then
+    # "faint-heartedness", citing Ex 6:9; λιποψυχία (eng12), not in Middle Liddell, reads "swooning".
+    "καταδυναστεία": ["oppression"],
+    "ὀλιγοψυχία": ["swooning", "faint-heartedness"],
     # EXO 5. LSJ (eng17): πολυπληθέω, "multiply", citing Ex 5:5, and "abound" in feet; πλινθουργία,
     # "v.l. for πλινθεία 1", a pointer to that sense, "brickmaking". Middle Liddell has only the
     # middle βδελύσσομαι, which does not say what the active of Ex 5:21 ἐβδελύξατε means; LSJ
@@ -1310,6 +1315,11 @@ NOT_SENSES = {
                "elections."},                   # examples' translations, a proverb, the note on ballot and lot
     "e)pista/ths": {"the right-", "left-hand man", "the front-rank man)", "a", "master", "which stood over"},  # παραστάτης's and προστάτης's glosses; "a training-master" cut in two, whole in MARKUP_LOST; a piece
     "be/ltistos": {"my good friend"},             # ὦ βέλτιστε, the vocative's mode of address
+    # EXO 6
+    "su/n": {"help", "blessing", "as standing with", "on", "side, of", "party", "together", "besides, also, likewise",
+             "with, along with, together", "to kill one person as well as another", "to join with another in killing.",
+             "altogether, completely", "two together", "by twos, two and two"},  # pieces of examples ("with God's help or blessing", "on his side, of his party"); the adverb's and compounds' senses
+    "a)/logos": {"a horse"},                     # "in modern Greek ἄλογον is a horse"
     # EXO 5
     "a)polei/pw": {"to leave", "in the lurch", "wanting", "of", "wanted", "without", "cognisance"},  # "to leave one in the lurch" cut in two, whole in MARKUP_LOST; examples' pieces
     "sxola/zw": {"respite from", "opportunity for"},  # cut from their verbs, whole in MARKUP_LOST
@@ -1557,6 +1567,13 @@ FORM_SENSES = {
         "to be parted from, be absent", "far from", "to be deprived of", "to be wanting in, fall short of",
         "to be bereft of"})],
     "diastre/fw": [("PIFAXY", "A", {"to be distorted", "to have one's eyes distorted, to get a squint"})],
+    # EXO 6. δηλόω's active leaves out the passive "to be or become manifest"; διαλέγω's deponent
+    # leaves out the active "to pick out"; λυτρόω's middle, the future λυτρώσομαι, the passive.
+    # ἄλογος's "brutes, animals" is τὰ ἄλογα, the neuter plural as a noun, and no other form's.
+    "dhlo/w": [("PIFAXY", "A", {"to be", "become manifest"})],
+    "diale/gw": [("PIFAXY", "MEP", {"to pick out one from another, to pick out"})],
+    "lutro/w": [("PIFAXY", "AM", {"to be ransomed"})],
+    "a)/logos": [("-", "-", NOT_SENSES["a)/logos"] | {"brutes, animals"}, None, "^.....(?!PN)")],
     # καθήκω's "in part." senses, and the attributive participle's "the regular, proper", are the
     # participle's: a finite form leaves them out (GEN 19:31 καθήκει, EXO 5:13 τὰ καθήκοντα).
     "kaqh/kw": [("PIFAXY", "A", NOT_SENSES["kaqh/kw"] | {"the regular, proper", "that which is meet, fit",
@@ -1993,7 +2010,8 @@ GREEK_LOST = {
     "katoike/w": {"to dwell in as a": "to dwell in as a κάτοικος"},  # "to dwell in as a κάτοικος, to settle in"
     "r(a/bdos": {"the wand borne by the": "the wand borne by the ῥαψῳδός"},  # "the wand borne by the ῥαψῳδός"
     "e)piskoph/": {"the office of": "the office of ἐπίσκοπος"},  # "the office of ἐπίσκοπος, NTest."
-    "eu)labe/omai": {"to behave like the": "to behave like the εὐλαβής"},  # "to behave like the εὐλαβής, have a care"
+    "eu)labe/omai": {"to behave like the": "to behave like the εὐλαβής"},
+    "a)/logos": {"without": "without λόγος"},  # "«without» λόγος, i. e., without speech, speechless"  # "to behave like the εὐλαβής, have a care"
 }
 
 # Translations a Greek word follows without finishing: the gloss is whole, and the Greek

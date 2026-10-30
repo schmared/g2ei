@@ -1,0 +1,593 @@
+# Exodus 6 — morphology, one word per line.
+#
+# This is the project's own grammatical analysis of each form, written alongside the
+# transcription and not copied from any digital edition.
+#
+# Columns: verse, part of speech, parse, form, lemma — in MorphGNT's code scheme, so
+# the Old and New Testament layers read alike. The parse is eight places: person,
+# tense, voice, mood, case, number, gender, degree ("-" where it does not apply).
+#
+# Two codes go beyond MorphGNT, both to record only what the form itself says:
+#   voice  E  middle/passive — a tense in which the two share one form
+#   gender C  masculine/feminine — an adjective whose form does not distinguish them
+#
+# A trailing annotation records a deliberate difference and the reason for it:
+#   "# module …"  from the reference module, checked when LXX_RAHLFS_DIR is set
+#   "# corpus …"  from this project's own analysis of the same form elsewhere
+# A line may carry both. validate.py prints them as notes instead of failures — and
+# fails if the difference a note claims is not there, so they cannot go stale. The
+# analysis here is this project's own: the module is a reference, not an authority,
+# and the corpus is held to itself.
+#
+# Indeclinables take case and number from the syntax, as MorphGNT does, and gender
+# where there is one to take: a personal name, from the person; a numeral agreeing
+# with its noun; a common noun whose article shows it — but not an indeclinable place
+# name, which has none. A personal name the New Testament also uses takes MorphGNT's
+# dictionary form (Νῶε, Σήμ); every other Semitic name (Χαμ, Ιαφεθ), the form Rahlfs
+# prints.
+
+6:1 C- -------- καὶ καί
+6:1 V- 3AAI-S-- εἶπεν λέγω  # module lemma ἔπω — λέγω keeps one dictionary form across both testaments
+6:1 N- ----NSM- κύριος κύριος
+6:1 P- -------- πρὸς πρός
+6:1 N- ----ASM- Μωυσῆν Μωϋσῆς  # module lemma Μωσεύς — Μωϋσῆς, as MorphGNT files it
+6:1 D- -------- Ἤδη ἤδη
+6:1 V- 2FMI-S-- ὄψει ὁράω  # corpus the future of ὁράω, you will see, where ὄψει at GEN 24:16 is the dative of ὄψις — one spelling, two words
+6:1 RR ----APN- ἃ ὅς
+6:1 V- 1FAI-S-- ποιήσω ποιέω
+6:1 RA ----DSM- τῷ ὁ
+6:1 N- ----DSM- Φαραω Φαραώ
+6:1 P- -------- ἐν ἐν
+6:1 C- -------- γὰρ γάρ
+6:1 N- ----DSF- χειρὶ χείρ
+6:1 A- ----DSF- κραταιᾷ κραταιός
+6:1 V- 3FAI-S-- ἐξαποστελεῖ ἐξαποστέλλω
+6:1 RP ----APM- αὐτοὺς αὐτός
+6:1 C- -------- καὶ καί
+6:1 P- -------- ἐν ἐν
+6:1 N- ----DSM- βραχίονι βραχίων
+6:1 A- ----DSM- ὑψηλῷ ὑψηλός
+6:1 V- 3FAI-S-- ἐκβαλεῖ ἐκβάλλω
+6:1 RP ----APM- αὐτοὺς αὐτός
+6:1 P- -------- ἐκ ἐκ
+6:1 RA ----GSF- τῆς ὁ
+6:1 N- ----GSF- γῆς γῆ
+6:1 RP ----GSM- αὐτοῦ αὐτός
+6:2 V- 3AAI-S-- Ἐλάλησεν λαλέω
+6:2 C- -------- δὲ δέ
+6:2 RA ----NSM- ὁ ὁ
+6:2 N- ----NSM- θεὸς θεός
+6:2 P- -------- πρὸς πρός
+6:2 N- ----ASM- Μωυσῆν Μωϋσῆς  # module lemma Μωσεύς — Μωϋσῆς, as MorphGNT files it
+6:2 C- -------- καὶ καί
+6:2 V- 3AAI-S-- εἶπεν λέγω  # module lemma ἔπω — λέγω keeps one dictionary form across both testaments
+6:2 P- -------- πρὸς πρός
+6:2 RP ----ASM- αὐτόν αὐτός
+6:2 RP ----NS-- Ἐγὼ ἐγώ
+6:2 N- ----NSM- κύριος κύριος
+6:3 C- -------- καὶ καί
+6:3 V- 1API-S-- ὤφθην ὁράω
+6:3 P- -------- πρὸς πρός
+6:3 N- ----ASM- Αβρααμ Ἀβραάμ
+6:3 C- -------- καὶ καί
+6:3 N- ----ASM- Ισαακ Ἰσαάκ
+6:3 C- -------- καὶ καί
+6:3 N- ----ASM- Ιακωβ Ἰακώβ
+6:3 N- ----NSM- θεὸς θεός
+6:3 V- -PAPNSM- ὢν εἰμί
+6:3 RP ----GPM- αὐτῶν αὐτός
+6:3 C- -------- καὶ καί
+6:3 RA ----ASN- τὸ ὁ
+6:3 N- ----ASN- ὄνομά ὄνομα
+6:3 RP ----GS-- μου ἐγώ  # module lemma μου, the form itself — ἐγώ is the dictionary form
+6:3 N- ----NSM- κύριος κύριος
+6:3 D- -------- οὐκ οὐ
+6:3 V- 1AAI-S-- ἐδήλωσα δηλόω
+6:3 RP ----DPM- αὐτοῖς αὐτός
+6:4 C- -------- καὶ καί
+6:4 V- 1AAI-S-- ἔστησα ἵστημι
+6:4 RA ----ASF- τὴν ὁ
+6:4 N- ----ASF- διαθήκην διαθήκη
+6:4 RP ----GS-- μου ἐγώ  # module lemma μου, the form itself — ἐγώ is the dictionary form
+6:4 P- -------- πρὸς πρός
+6:4 RP ----APM- αὐτοὺς αὐτός
+6:4 C- -------- ὥστε ὥστε
+6:4 V- -AAN---- δοῦναι δίδωμι
+6:4 RP ----DPM- αὐτοῖς αὐτός
+6:4 RA ----ASF- τὴν ὁ
+6:4 N- ----ASF- γῆν γῆ
+6:4 RA ----GPM- τῶν ὁ
+6:4 N- ----GPM- Χαναναίων Χαναναῖος
+6:4 RA ----ASF- τὴν ὁ
+6:4 N- ----ASF- γῆν γῆ
+6:4 RR ----ASF- ἣν ὅς
+6:4 V- 3XAI-P-- παρῳκήκασιν παροικέω
+6:4 P- -------- ἐν ἐν
+6:4 RR ----DSF- ᾗ ὅς
+6:4 D- -------- καὶ καί
+6:4 V- 3AAI-P-- παρῴκησαν παροικέω
+6:4 P- -------- ἐπʼ ἐπί
+6:4 RP ----GSF- αὐτῆς αὐτός
+6:5 C- -------- καὶ καί
+6:5 RP ----NS-- ἐγὼ ἐγώ
+6:5 V- 1AAI-S-- εἰσήκουσα εἰσακούω
+6:5 RA ----ASM- τὸν ὁ
+6:5 N- ----ASM- στεναγμὸν στεναγμός
+6:5 RA ----GPM- τῶν ὁ
+6:5 N- ----GPM- υἱῶν υἱός
+6:5 N- ----GSM- Ισραηλ Ἰσραήλ
+6:5 RR ----ASM- ὃν ὅς
+6:5 RA ----NPM- οἱ ὁ
+6:5 N- ----NPM- Αἰγύπτιοι Αἰγύπτιος
+6:5 V- 3PEI-P-- καταδουλοῦνται καταδουλόω
+6:5 RP ----APM- αὐτούς αὐτός
+6:5 C- -------- καὶ καί
+6:5 V- 1API-S-- ἐμνήσθην μιμνήσκομαι  # module lemma μνάομαι — μιμνήσκομαι, the middle, as MorphGNT files ἐμνήσθη
+6:5 RA ----GSF- τῆς ὁ
+6:5 N- ----GSF- διαθήκης διαθήκη
+6:5 RP ----GP-- ὑμῶν σύ  # module lemma ὑμῶν, the form itself — σύ is the dictionary form
+6:6 V- 2PAD-S-- βάδιζε βαδίζω
+6:6 V- 2AAD-S-- εἰπὸν λέγω  # module lemma ἔπω — λέγω keeps one dictionary form across both testaments
+6:6 RA ----DPM- τοῖς ὁ
+6:6 N- ----DPM- υἱοῖς υἱός
+6:6 N- ----GSM- Ισραηλ Ἰσραήλ
+6:6 V- -PAPNSM- λέγων λέγω
+6:6 RP ----NS-- Ἐγὼ ἐγώ
+6:6 N- ----NSM- κύριος κύριος
+6:6 C- -------- καὶ καί
+6:6 V- 1FAI-S-- ἐξάξω ἐξάγω
+6:6 RP ----AP-- ὑμᾶς σύ  # module lemma ὑμᾶς, the form itself — σύ is the dictionary form
+6:6 P- -------- ἀπὸ ἀπό
+6:6 RA ----GSF- τῆς ὁ
+6:6 N- ----GSF- δυναστείας δυναστεία
+6:6 RA ----GPM- τῶν ὁ
+6:6 N- ----GPM- Αἰγυπτίων Αἰγύπτιος
+6:6 C- -------- καὶ καί
+6:6 V- 1FMI-S-- ῥύσομαι ῥύομαι
+6:6 RP ----AP-- ὑμᾶς σύ  # module lemma ὑμᾶς, the form itself — σύ is the dictionary form
+6:6 P- -------- ἐκ ἐκ
+6:6 RA ----GSF- τῆς ὁ
+6:6 N- ----GSF- δουλείας δουλεία
+6:6 C- -------- καὶ καί
+6:6 V- 1FMI-S-- λυτρώσομαι λυτρόω
+6:6 RP ----AP-- ὑμᾶς σύ  # module lemma ὑμᾶς, the form itself — σύ is the dictionary form
+6:6 P- -------- ἐν ἐν
+6:6 N- ----DSM- βραχίονι βραχίων
+6:6 A- ----DSM- ὑψηλῷ ὑψηλός
+6:6 C- -------- καὶ καί
+6:6 N- ----DSF- κρίσει κρίσις
+6:6 A- ----DSF- μεγάλῃ μέγας
+6:7 C- -------- καὶ καί
+6:7 V- 1FMI-S-- λήμψομαι λαμβάνω
+6:7 RP ----DSM- ἐμαυτῷ ἐμαυτοῦ
+6:7 RP ----AP-- ὑμᾶς σύ  # module lemma ὑμᾶς, the form itself — σύ is the dictionary form
+6:7 N- ----ASM- λαὸν λαός
+6:7 RP ----DS-- ἐμοὶ ἐγώ  # module lemma ἐμοί, the form itself — ἐγώ is the dictionary form
+6:7 C- -------- καὶ καί
+6:7 V- 1FMI-S-- ἔσομαι εἰμί
+6:7 RP ----GP-- ὑμῶν σύ  # module lemma ὑμῶν, the form itself — σύ is the dictionary form
+6:7 N- ----NSM- θεός θεός
+6:7 C- -------- καὶ καί
+6:7 V- 2FMI-P-- γνώσεσθε γινώσκω
+6:7 C- -------- ὅτι ὅτι
+6:7 RP ----NS-- ἐγὼ ἐγώ
+6:7 N- ----NSM- κύριος κύριος
+6:7 RA ----NSM- ὁ ὁ
+6:7 N- ----NSM- θεὸς θεός
+6:7 RP ----GP-- ὑμῶν σύ  # module lemma ὑμῶν, the form itself — σύ is the dictionary form
+6:7 RA ----NSM- ὁ ὁ
+6:7 V- -AAPNSM- ἐξαγαγὼν ἐξάγω
+6:7 RP ----AP-- ὑμᾶς σύ  # module lemma ὑμᾶς, the form itself — σύ is the dictionary form
+6:7 P- -------- ἐκ ἐκ
+6:7 RA ----GSF- τῆς ὁ
+6:7 N- ----GSF- καταδυναστείας καταδυναστεία
+6:7 RA ----GPM- τῶν ὁ
+6:7 N- ----GPM- Αἰγυπτίων Αἰγύπτιος
+6:8 C- -------- καὶ καί
+6:8 V- 1FAI-S-- εἰσάξω εἰσάγω
+6:8 RP ----AP-- ὑμᾶς σύ  # module lemma ὑμᾶς, the form itself — σύ is the dictionary form
+6:8 P- -------- εἰς εἰς
+6:8 RA ----ASF- τὴν ὁ
+6:8 N- ----ASF- γῆν γῆ
+6:8 P- -------- εἰς εἰς
+6:8 RR ----ASF- ἣν ὅς
+6:8 V- 1AAI-S-- ἐξέτεινα ἐκτείνω
+6:8 RA ----ASF- τὴν ὁ
+6:8 N- ----ASF- χεῖρά χείρ
+6:8 RP ----GS-- μου ἐγώ  # module lemma μου, the form itself — ἐγώ is the dictionary form
+6:8 V- -AAN---- δοῦναι δίδωμι
+6:8 RP ----ASF- αὐτὴν αὐτός
+6:8 RA ----DSM- τῷ ὁ
+6:8 N- ----DSM- Αβρααμ Ἀβραάμ
+6:8 C- -------- καὶ καί
+6:8 N- ----DSM- Ισαακ Ἰσαάκ
+6:8 C- -------- καὶ καί
+6:8 N- ----DSM- Ιακωβ Ἰακώβ
+6:8 C- -------- καὶ καί
+6:8 V- 1FAI-S-- δώσω δίδωμι
+6:8 RP ----DP-- ὑμῖν σύ  # module lemma ὑμῖν, the form itself — σύ is the dictionary form
+6:8 RP ----ASF- αὐτὴν αὐτός
+6:8 P- -------- ἐν ἐν
+6:8 N- ----DSM- κλήρῳ κλῆρος
+6:8 RP ----NS-- ἐγὼ ἐγώ
+6:8 N- ----NSM- κύριος κύριος
+6:9 V- 3AAI-S-- ἐλάλησεν λαλέω
+6:9 C- -------- δὲ δέ
+6:9 N- ----NSM- Μωυσῆς Μωϋσῆς  # module lemma Μωσεύς — Μωϋσῆς, as MorphGNT files it
+6:9 D- -------- οὕτως οὕτως
+6:9 RA ----DPM- τοῖς ὁ
+6:9 N- ----DPM- υἱοῖς υἱός
+6:9 N- ----GSM- Ισραηλ Ἰσραήλ
+6:9 C- -------- καὶ καί
+6:9 D- -------- οὐκ οὐ
+6:9 V- 3AAI-P-- εἰσήκουσαν εἰσακούω
+6:9 N- ----DSM- Μωυσῇ Μωϋσῆς  # module lemma Μωσεύς — Μωϋσῆς, as MorphGNT files it
+6:9 P- -------- ἀπὸ ἀπό
+6:9 RA ----GSF- τῆς ὁ
+6:9 N- ----GSF- ὀλιγοψυχίας ὀλιγοψυχία
+6:9 C- -------- καὶ καί
+6:9 P- -------- ἀπὸ ἀπό
+6:9 RA ----GPN- τῶν ὁ
+6:9 N- ----GPN- ἔργων ἔργον
+6:9 RA ----GPN- τῶν ὁ
+6:9 A- ----GPN- σκληρῶν σκληρός
+6:10 V- 3AAI-S-- Εἶπεν λέγω  # module lemma ἔπω — λέγω keeps one dictionary form across both testaments
+6:10 C- -------- δὲ δέ
+6:10 N- ----NSM- κύριος κύριος
+6:10 P- -------- πρὸς πρός
+6:10 N- ----ASM- Μωυσῆν Μωϋσῆς  # module lemma Μωσεύς — Μωϋσῆς, as MorphGNT files it
+6:10 V- -PAPNSM- λέγων λέγω
+6:11 V- 2AAD-S-- Εἴσελθε εἰσέρχομαι
+6:11 V- 2AAD-S-- λάλησον λαλέω
+6:11 N- ----DSM- Φαραω Φαραώ
+6:11 N- ----DSM- βασιλεῖ βασιλεύς
+6:11 N- ----GSF- Αἰγύπτου Αἴγυπτος
+6:11 C- -------- ἵνα ἵνα
+6:11 V- 3AAS-S-- ἐξαποστείλῃ ἐξαποστέλλω
+6:11 RA ----APM- τοὺς ὁ
+6:11 N- ----APM- υἱοὺς υἱός
+6:11 N- ----GSM- Ισραηλ Ἰσραήλ
+6:11 P- -------- ἐκ ἐκ
+6:11 RA ----GSF- τῆς ὁ
+6:11 N- ----GSF- γῆς γῆ
+6:11 RP ----GSM- αὐτοῦ αὐτός
+6:12 V- 3AAI-S-- ἐλάλησεν λαλέω
+6:12 C- -------- δὲ δέ
+6:12 N- ----NSM- Μωυσῆς Μωϋσῆς  # module lemma Μωσεύς — Μωϋσῆς, as MorphGNT files it
+6:12 P- -------- ἔναντι ἔναντι
+6:12 N- ----GSM- κυρίου κύριος
+6:12 V- -PAPNSM- λέγων λέγω
+6:12 X- -------- Ἰδοὺ ἰδού
+6:12 RA ----NPM- οἱ ὁ
+6:12 N- ----NPM- υἱοὶ υἱός
+6:12 N- ----GSM- Ισραηλ Ἰσραήλ
+6:12 D- -------- οὐκ οὐ
+6:12 V- 3AAI-P-- εἰσήκουσάν εἰσακούω
+6:12 RP ----GS-- μου ἐγώ  # module lemma μου, the form itself — ἐγώ is the dictionary form
+6:12 C- -------- καὶ καί
+6:12 D- -------- πῶς πῶς
+6:12 V- 3FMI-S-- εἰσακούσεταί εἰσακούω
+6:12 RP ----GS-- μου ἐγώ  # module lemma μου, the form itself — ἐγώ is the dictionary form
+6:12 N- ----NSM- Φαραω Φαραώ
+6:12 RP ----NS-- ἐγὼ ἐγώ
+6:12 C- -------- δὲ δέ
+6:12 A- ----NSC- ἄλογός ἄλογος
+6:12 V- 1PAI-S-- εἰμι εἰμί
+6:13 V- 3AAI-S-- εἶπεν λέγω  # module lemma ἔπω — λέγω keeps one dictionary form across both testaments
+6:13 C- -------- δὲ δέ
+6:13 N- ----NSM- κύριος κύριος
+6:13 P- -------- πρὸς πρός
+6:13 N- ----ASM- Μωυσῆν Μωϋσῆς  # module lemma Μωσεύς — Μωϋσῆς, as MorphGNT files it
+6:13 C- -------- καὶ καί
+6:13 N- ----ASM- Ααρων Ἀαρών
+6:13 C- -------- καὶ καί
+6:13 V- 3AAI-S-- συνέταξεν συντάσσω
+6:13 RP ----DPM- αὐτοῖς αὐτός
+6:13 P- -------- πρὸς πρός
+6:13 N- ----ASM- Φαραω Φαραώ
+6:13 N- ----ASM- βασιλέα βασιλεύς
+6:13 N- ----GSF- Αἰγύπτου Αἴγυπτος
+6:13 C- -------- ὥστε ὥστε
+6:13 V- -AAN---- ἐξαποστεῖλαι ἐξαποστέλλω
+6:13 RA ----APM- τοὺς ὁ
+6:13 N- ----APM- υἱοὺς υἱός
+6:13 N- ----GSM- Ισραηλ Ἰσραήλ
+6:13 P- -------- ἐκ ἐκ
+6:13 N- ----GSF- γῆς γῆ
+6:13 N- ----GSF- Αἰγύπτου Αἴγυπτος
+6:14 C- -------- Καὶ καί
+6:14 RD ----NPM- οὗτοι οὗτος
+6:14 N- ----NPM- ἀρχηγοὶ ἀρχηγός
+6:14 N- ----GPM- οἴκων οἶκος
+6:14 N- ----GPF- πατριῶν πατριά  # module lemma πάτριος — πατριά, the noun, as MorphGNT files πατριᾶς at Luke 2:4
+6:14 RP ----GPM- αὐτῶν αὐτός
+6:14 N- ----NPM- υἱοὶ υἱός
+6:14 N- ----GSM- Ρουβην Ῥουβήν
+6:14 A- ----GSM- πρωτοτόκου πρωτότοκος
+6:14 N- ----GSM- Ισραηλ Ἰσραήλ
+6:14 N- ----NSM- Ενωχ Ἑνώχ  # module lemma Ἐνώχ — Ἑνώχ, as MorphGNT files it
+6:14 C- -------- καὶ καί
+6:14 N- ----NSM- Φαλλους Φαλλους
+6:14 N- ----NSM- Ασρων Ασρων
+6:14 C- -------- καὶ καί
+6:14 N- ----NSM- Χαρμι Χαρμι
+6:14 RD ----NSF- αὕτη οὗτος
+6:14 RA ----NSF- ἡ ὁ
+6:14 N- ----NSF- συγγένεια συγγένεια
+6:14 N- ----GSM- Ρουβην Ῥουβήν
+6:15 C- -------- καὶ καί
+6:15 N- ----NPM- υἱοὶ υἱός
+6:15 N- ----GSM- Συμεων Συμεών
+6:15 N- ----NSM- Ιεμουηλ Ιεμουηλ
+6:15 C- -------- καὶ καί
+6:15 N- ----NSM- Ιαμιν Ιαμιν
+6:15 C- -------- καὶ καί
+6:15 N- ----NSM- Αωδ Αωδ
+6:15 C- -------- καὶ καί
+6:15 N- ----NSM- Ιαχιν Ιαχιν
+6:15 C- -------- καὶ καί
+6:15 N- ----NSM- Σααρ Σααρ
+6:15 C- -------- καὶ καί
+6:15 N- ----NSM- Σαουλ Σαούλ
+6:15 RA ----NSM- ὁ ὁ
+6:15 P- -------- ἐκ ἐκ
+6:15 RA ----GSF- τῆς ὁ
+6:15 N- ----GSF- Φοινίσσης Φοίνισσα
+6:15 RD ----NPF- αὗται οὗτος
+6:15 RA ----NPF- αἱ ὁ
+6:15 N- ----NPF- πατριαὶ πατριά
+6:15 RA ----GPM- τῶν ὁ
+6:15 N- ----GPM- υἱῶν υἱός
+6:15 N- ----GSM- Συμεων Συμεών
+6:16 C- -------- καὶ καί
+6:16 RD ----NPN- ταῦτα οὗτος
+6:16 RA ----NPN- τὰ ὁ
+6:16 N- ----NPN- ὀνόματα ὄνομα
+6:16 RA ----GPM- τῶν ὁ
+6:16 N- ----GPM- υἱῶν υἱός
+6:16 N- ----GSM- Λευι Λευί  # module Λευΐ — Λευί, as MorphGNT accents it
+6:16 P- -------- κατὰ κατά
+6:16 N- ----APF- συγγενείας συγγένεια  # corpus the accusative plural after κατά, by their kindreds, where συγγενείας at GEN 12:1 is the genitive singular — one form, two parses
+6:16 RP ----GPM- αὐτῶν αὐτός
+6:16 N- ----NSM- Γεδσων Γεδσων
+6:16 N- ----NSM- Κααθ Κααθ
+6:16 C- -------- καὶ καί
+6:16 N- ----NSM- Μεραρι Μεραρι
+6:16 C- -------- καὶ καί
+6:16 RA ----NPN- τὰ ὁ
+6:16 N- ----NPN- ἔτη ἔτος
+6:16 RA ----GSF- τῆς ὁ
+6:16 N- ----GSF- ζωῆς ζωή
+6:16 N- ----GSM- Λευι Λευί  # module Λευΐ — Λευί, as MorphGNT accents it
+6:16 A- ----NPN- ἑκατὸν ἑκατόν  # module M, no features — MorphGNT gives ἑκατόν case, number and gender like any adjective
+6:16 A- ----NPN- τριάκοντα τριάκοντα  # module M, no features — MorphGNT gives τριάκοντα case, number and gender like any adjective
+6:16 A- ----NPN- ἑπτά ἑπτά  # module M, no features — MorphGNT gives ἑπτά case, number and gender like any adjective
+6:17 C- -------- καὶ καί
+6:17 RD ----NPM- οὗτοι οὗτος
+6:17 N- ----NPM- υἱοὶ υἱός
+6:17 N- ----GSM- Γεδσων Γεδσων
+6:17 N- ----NSM- Λοβενι Λοβενι
+6:17 C- -------- καὶ καί
+6:17 N- ----NSM- Σεμεϊ Σεμεϊ  # module lemma Σεμεΐ — Σεμεϊ, as printed: Luke 3:26's Σεμεΐν is spelled with other letters
+6:17 N- ----NPM- οἶκοι οἶκος
+6:17 N- ----GSF- πατριᾶς πατριά
+6:17 RP ----GPM- αὐτῶν αὐτός
+6:18 C- -------- καὶ καί
+6:18 N- ----NPM- υἱοὶ υἱός
+6:18 N- ----GSM- Κααθ Κααθ
+6:18 N- ----NSM- Αμβραμ Αμβραμ
+6:18 C- -------- καὶ καί
+6:18 N- ----NSM- Ισσααρ Ισσααρ
+6:18 N- ----NSM- Χεβρων Χεβρων  # corpus Kohath's son, where Χεβρων at GEN 13:18 is the place — one name, two bearers
+6:18 C- -------- καὶ καί
+6:18 N- ----NSM- Οζιηλ Οζιηλ
+6:18 C- -------- καὶ καί
+6:18 RA ----NPN- τὰ ὁ
+6:18 N- ----NPN- ἔτη ἔτος
+6:18 RA ----GSF- τῆς ὁ
+6:18 N- ----GSF- ζωῆς ζωή
+6:18 N- ----GSM- Κααθ Κααθ
+6:18 A- ----NPN- ἑκατὸν ἑκατόν  # module M, no features — MorphGNT gives ἑκατόν case, number and gender like any adjective
+6:18 A- ----NPN- τριάκοντα τριάκοντα  # module M, no features — MorphGNT gives τριάκοντα case, number and gender like any adjective
+6:18 N- ----NPN- ἔτη ἔτος
+6:19 C- -------- καὶ καί
+6:19 N- ----NPM- υἱοὶ υἱός
+6:19 N- ----GSM- Μεραρι Μεραρι
+6:19 N- ----NSM- Μοολι Μοολι
+6:19 C- -------- καὶ καί
+6:19 N- ----NSM- Ομουσι Ομουσι
+6:19 RD ----NPM- οὗτοι οὗτος
+6:19 N- ----NPM- οἶκοι οἶκος
+6:19 N- ----GPF- πατριῶν πατριά  # module lemma πάτριος — πατριά, the noun, as MorphGNT files πατριᾶς at Luke 2:4
+6:19 N- ----GSM- Λευι Λευί  # module Λευΐ — Λευί, as MorphGNT accents it
+6:19 P- -------- κατὰ κατά
+6:19 N- ----APF- συγγενείας συγγένεια
+6:19 RP ----GPM- αὐτῶν αὐτός
+6:20 C- -------- καὶ καί
+6:20 V- 3AAI-S-- ἔλαβεν λαμβάνω
+6:20 N- ----NSM- Αμβραμ Αμβραμ
+6:20 RA ----ASF- τὴν ὁ
+6:20 N- ----ASF- Ιωχαβεδ Ιωχαβεδ
+6:20 N- ----ASF- θυγατέρα θυγάτηρ
+6:20 RA ----GSM- τοῦ ὁ
+6:20 N- ----GSM- ἀδελφοῦ ἀδελφός
+6:20 RA ----GSM- τοῦ ὁ
+6:20 N- ----GSM- πατρὸς πατήρ
+6:20 RP ----GSM- αὐτοῦ αὐτός
+6:20 RP ----DSM- ἑαυτῷ ἑαυτοῦ
+6:20 P- -------- εἰς εἰς
+6:20 N- ----ASF- γυναῖκα γυνή
+6:20 C- -------- καὶ καί
+6:20 V- 3AAI-S-- ἐγέννησεν γεννάω
+6:20 RP ----DSM- αὐτῷ αὐτός
+6:20 RA ----ASM- τόν ὁ
+6:20 C- -------- τε τε
+6:20 N- ----ASM- Ααρων Ἀαρών
+6:20 C- -------- καὶ καί
+6:20 N- ----ASM- Μωυσῆν Μωϋσῆς  # module lemma Μωσεύς — Μωϋσῆς, as MorphGNT files it
+6:20 C- -------- καὶ καί
+6:20 N- ----ASF- Μαριαμ Μαριάμ  # module lemma Μαρία — Μαριάμ, MorphGNT's dictionary form for this spelling
+6:20 RA ----ASF- τὴν ὁ
+6:20 N- ----ASF- ἀδελφὴν ἀδελφή
+6:20 RP ----GPM- αὐτῶν αὐτός
+6:20 RA ----NPN- τὰ ὁ
+6:20 C- -------- δὲ δέ
+6:20 N- ----NPN- ἔτη ἔτος
+6:20 RA ----GSF- τῆς ὁ
+6:20 N- ----GSF- ζωῆς ζωή
+6:20 N- ----GSM- Αμβραμ Αμβραμ
+6:20 A- ----NPN- ἑκατὸν ἑκατόν  # module M, no features — MorphGNT gives ἑκατόν case, number and gender like any adjective
+6:20 A- ----NPN- τριάκοντα τριάκοντα  # module M, no features — MorphGNT gives τριάκοντα case, number and gender like any adjective
+6:20 A- ----NPN- δύο δύο  # module M, no features — MorphGNT gives δύο case, number and gender like any adjective
+6:20 N- ----NPN- ἔτη ἔτος  # module APN — the subject of a verbless clause, as ἔτη at GEN 25:7
+6:21 C- -------- καὶ καί
+6:21 N- ----NPM- υἱοὶ υἱός
+6:21 N- ----GSM- Ισσααρ Ισσααρ
+6:21 N- ----NSM- Κορε Κόρε  # module lemma Κορέ — Κόρε, as MorphGNT files it (Jude 11)
+6:21 C- -------- καὶ καί
+6:21 N- ----NSM- Ναφεκ Ναφεκ
+6:21 C- -------- καὶ καί
+6:21 N- ----NSM- Ζεχρι Ζεχρι
+6:22 C- -------- καὶ καί
+6:22 N- ----NPM- υἱοὶ υἱός
+6:22 N- ----GSM- Οζιηλ Οζιηλ
+6:22 N- ----NSM- Ελισαφαν Ελισαφαν
+6:22 C- -------- καὶ καί
+6:22 N- ----NSM- Σετρι Σετρι
+6:23 V- 3AAI-S-- ἔλαβεν λαμβάνω
+6:23 C- -------- δὲ δέ
+6:23 N- ----NSM- Ααρων Ἀαρών
+6:23 RA ----ASF- τὴν ὁ
+6:23 N- ----ASF- Ελισαβεθ Ελισαβεθ  # module lemma Ἐλισάβετ — Ελισαβεθ, as printed: Luke 1:5's Ἐλισάβετ is spelled with other letters
+6:23 N- ----ASF- θυγατέρα θυγάτηρ
+6:23 N- ----GSM- Αμιναδαβ Ἀμιναδάβ
+6:23 N- ----ASF- ἀδελφὴν ἀδελφή
+6:23 N- ----GSM- Ναασσων Ναασσών
+6:23 RP ----DSM- αὐτῷ αὐτός
+6:23 N- ----ASF- γυναῖκα γυνή
+6:23 C- -------- καὶ καί
+6:23 V- 3AAI-S-- ἔτεκεν τίκτω
+6:23 RP ----DSM- αὐτῷ αὐτός
+6:23 RA ----ASM- τόν ὁ
+6:23 C- -------- τε τε
+6:23 N- ----ASM- Ναδαβ Ναδαβ
+6:23 C- -------- καὶ καί
+6:23 N- ----ASM- Αβιουδ Ἀβιούδ
+6:23 C- -------- καὶ καί
+6:23 N- ----ASM- Ελεαζαρ Ἐλεάζαρ
+6:23 C- -------- καὶ καί
+6:23 N- ----ASM- Ιθαμαρ Ιθαμαρ
+6:24 N- ----NPM- υἱοὶ υἱός
+6:24 C- -------- δὲ δέ
+6:24 N- ----GSM- Κορε Κόρε  # module lemma Κορέ — Κόρε, as MorphGNT files it (Jude 11)
+6:24 N- ----NSM- Ασιρ Ασιρ
+6:24 C- -------- καὶ καί
+6:24 N- ----NSM- Ελκανα Ελκανα
+6:24 C- -------- καὶ καί
+6:24 N- ----NSM- Αβιασαφ Αβιασαφ
+6:24 RD ----NPF- αὗται οὗτος
+6:24 RA ----NPF- αἱ ὁ
+6:24 N- ----NPF- γενέσεις γένεσις
+6:24 N- ----GSM- Κορε Κόρε  # module lemma Κορέ — Κόρε, as MorphGNT files it (Jude 11)
+6:25 C- -------- καὶ καί
+6:25 N- ----NSM- Ελεαζαρ Ἐλεάζαρ
+6:25 RA ----NSM- ὁ ὁ
+6:25 RA ----GSM- τοῦ ὁ
+6:25 N- ----GSM- Ααρων Ἀαρών
+6:25 V- 3AAI-S-- ἔλαβεν λαμβάνω
+6:25 RA ----GPF- τῶν ὁ
+6:25 N- ----GPF- θυγατέρων θυγάτηρ
+6:25 N- ----GSM- Φουτιηλ Φουτιηλ
+6:25 RP ----DSM- αὐτῷ αὐτός
+6:25 N- ----ASF- γυναῖκα γυνή
+6:25 C- -------- καὶ καί
+6:25 V- 3AAI-S-- ἔτεκεν τίκτω
+6:25 RP ----DSM- αὐτῷ αὐτός
+6:25 RA ----ASM- τὸν ὁ
+6:25 N- ----ASM- Φινεες Φινεες
+6:25 RD ----NPF- αὗται οὗτος
+6:25 RA ----NPF- αἱ ὁ
+6:25 N- ----NPF- ἀρχαὶ ἀρχή
+6:25 N- ----GSF- πατριᾶς πατριά
+6:25 N- ----GPM- Λευιτῶν Λευίτης  # module lemma Λευΐτης — Λευίτης, as MorphGNT files it
+6:25 P- -------- κατὰ κατά
+6:25 N- ----APF- γενέσεις γένεσις
+6:25 RP ----GPM- αὐτῶν αὐτός
+6:26 RD ----NSM- οὗτος οὗτος
+6:26 N- ----NSM- Ααρων Ἀαρών
+6:26 C- -------- καὶ καί
+6:26 N- ----NSM- Μωυσῆς Μωϋσῆς  # module lemma Μωσεύς — Μωϋσῆς, as MorphGNT files it
+6:26 RR ----DPM- οἷς ὅς
+6:26 V- 3AAI-S-- εἶπεν λέγω  # module lemma ἔπω — λέγω keeps one dictionary form across both testaments
+6:26 RP ----DPM- αὐτοῖς αὐτός
+6:26 RA ----NSM- ὁ ὁ
+6:26 N- ----NSM- θεὸς θεός
+6:26 V- -AAN---- ἐξαγαγεῖν ἐξάγω
+6:26 RA ----APM- τοὺς ὁ
+6:26 N- ----APM- υἱοὺς υἱός
+6:26 N- ----GSM- Ισραηλ Ἰσραήλ
+6:26 P- -------- ἐκ ἐκ
+6:26 N- ----GSF- γῆς γῆ
+6:26 N- ----GSF- Αἰγύπτου Αἴγυπτος
+6:26 P- -------- σὺν σύν
+6:26 N- ----DSF- δυνάμει δύναμις
+6:26 RP ----GPM- αὐτῶν αὐτός
+6:27 RD ----NPM- οὗτοί οὗτος
+6:27 V- 3PAI-P-- εἰσιν εἰμί
+6:27 RA ----NPM- οἱ ὁ
+6:27 V- -PEPNPM- διαλεγόμενοι διαλέγω  # module lemma διαλέγομαι — διαλέγω, Middle Liddell's headword, whose deponent this is
+6:27 P- -------- πρὸς πρός
+6:27 N- ----ASM- Φαραω Φαραώ
+6:27 N- ----ASM- βασιλέα βασιλεύς
+6:27 N- ----GSF- Αἰγύπτου Αἴγυπτος
+6:27 C- -------- καὶ καί
+6:27 V- 3AAI-P-- ἐξήγαγον ἐξάγω
+6:27 RA ----APM- τοὺς ὁ
+6:27 N- ----APM- υἱοὺς υἱός
+6:27 N- ----GSM- Ισραηλ Ἰσραήλ
+6:27 P- -------- ἐξ ἐκ
+6:27 N- ----GSF- Αἰγύπτου Αἴγυπτος
+6:27 RP ----NSM- αὐτὸς αὐτός
+6:27 N- ----NSM- Ααρων Ἀαρών
+6:27 C- -------- καὶ καί
+6:27 N- ----NSM- Μωυσῆς Μωϋσῆς  # module lemma Μωσεύς — Μωϋσῆς, as MorphGNT files it
+6:28 RR ----DSF- ᾟ ὅς
+6:28 N- ----DSF- ἡμέρᾳ ἡμέρα
+6:28 V- 3AAI-S-- ἐλάλησεν λαλέω
+6:28 N- ----NSM- κύριος κύριος
+6:28 N- ----DSM- Μωυσῇ Μωϋσῆς  # module lemma Μωσεύς — Μωϋσῆς, as MorphGNT files it
+6:28 P- -------- ἐν ἐν
+6:28 N- ----DSF- γῇ γῆ
+6:28 N- ----DSF- Αἰγύπτῳ Αἴγυπτος
+6:29 C- -------- καὶ καί
+6:29 V- 3AAI-S-- ἐλάλησεν λαλέω
+6:29 N- ----NSM- κύριος κύριος
+6:29 P- -------- πρὸς πρός
+6:29 N- ----ASM- Μωυσῆν Μωϋσῆς  # module lemma Μωσεύς — Μωϋσῆς, as MorphGNT files it
+6:29 V- -PAPNSM- λέγων λέγω
+6:29 RP ----NS-- Ἐγὼ ἐγώ
+6:29 N- ----NSM- κύριος κύριος
+6:29 V- 2AAD-S-- λάλησον λαλέω
+6:29 P- -------- πρὸς πρός
+6:29 N- ----ASM- Φαραω Φαραώ
+6:29 N- ----ASM- βασιλέα βασιλεύς
+6:29 N- ----GSF- Αἰγύπτου Αἴγυπτος
+6:29 RR ----APN- ὅσα ὅσος
+6:29 RP ----NS-- ἐγὼ ἐγώ
+6:29 V- 1PAI-S-- λέγω λέγω
+6:29 P- -------- πρὸς πρός
+6:29 RP ----AS-- σέ σύ  # module lemma σέ, the form itself — σύ is the dictionary form
+6:30 C- -------- καὶ καί
+6:30 V- 3AAI-S-- εἶπεν λέγω  # module lemma ἔπω — λέγω keeps one dictionary form across both testaments
+6:30 N- ----NSM- Μωυσῆς Μωϋσῆς  # module lemma Μωσεύς — Μωϋσῆς, as MorphGNT files it
+6:30 P- -------- ἐναντίον ἐναντίον
+6:30 N- ----GSM- κυρίου κύριος
+6:30 X- -------- Ἰδοὺ ἰδού
+6:30 RP ----NS-- ἐγὼ ἐγώ
+6:30 A- ----NSC- ἰσχνόφωνός ἰσχνόφωνος
+6:30 V- 1PAI-S-- εἰμι εἰμί
+6:30 C- -------- καὶ καί
+6:30 D- -------- πῶς πῶς
+6:30 V- 3FMI-S-- εἰσακούσεταί εἰσακούω
+6:30 RP ----GS-- μου ἐγώ  # module lemma μου, the form itself — ἐγώ is the dictionary form
+6:30 N- ----NSM- Φαραω Φαραώ

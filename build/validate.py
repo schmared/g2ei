@@ -1143,6 +1143,10 @@ ARTICLE_NOUN = re.compile(r"^(?:of |to |with )?the (ones|one|things|thing)(?: |$
 # `to [[to the house|…]]`, `of of the ones`. Inside one unit it is the gloss's own word —
 # ἀλλογενής is *of another race*, and its genitive *of of another race* — and stays.
 DOUBLED = re.compile(r"(?<![\w\-|\[])(of|to) (?:\[\[(?!name:))?\1 (?=the |\w)")
+# A preposition read as plain text, its one translation ending in the word a case marker
+# uses: ἔναντι is *in the presence of*, and the genitive after it opens with its own *of*,
+# as ἐναντίον's unit, *in the presence of*, stands before *of lord*. That *of* is the gloss's.
+PLAIN_LEADS = ("in the presence ",)
 
 
 def article_noun(parse):
@@ -1414,6 +1418,8 @@ def check_articles(book, chapter, verses, rep):
         if re.search(r"(?<![\w\-])the the(?![\w\-])", plain):
             rep.fail("articles", ref, "`the the` in the plain text: one article, written twice")
         for m in DOUBLED.finditer(text):
+            if text[:m.start()].endswith(PLAIN_LEADS):
+                continue
             rep.fail("articles", ref,
                      "`%s %s`: the case is marked twice, once outside the unit or the article's "
                      "noun and once inside it" % (m.group(1), m.group(1)))
@@ -2001,7 +2007,9 @@ def same_form(module, data, initial=False, speech=(), printed=()):
         return True
     if data in printed:
         return True
-    return (initial or data in speech) and a[:1].upper() + a[1:] == b
+    # the capital of a letter with iota subscript is its titlecase, ᾗ to ᾟ (EXO 6:28, which
+    # Rahlfs prints with the iota beside it); upper() would make it two letters, ἯΙ
+    return (initial or data in speech) and a[:1].title() + a[1:] == b
 
 
 def sblgnt_source(name):

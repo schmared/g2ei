@@ -7173,3 +7173,44 @@ text uses. Chains already in the corpus (Genesis) were read from it and re-infle
 - One translation each, plain text: ἐργοδιώκτης (*taskmaster*, LSJ), πλίνθος (*a brick*), ἐχθές,
   σήμερον, συνάντησις, υἱός, τρεῖς.
 - καί as the adverb, `also`, at 5:13 καθάπερ καὶ ὅτε.
+
+### Words new in EXO 6
+
+- **From LSJ** (not in Middle Liddell): καταδυναστεία, *oppression*, plain text (6:7) — Middle Liddell
+  has the verb καταδυναστεύω and not the noun; ὀλιγοψυχία, LSJ's pointer *= λιποψυχία*, followed to
+  LSJ's *swooning*, then *faint-heartedness*: `of the swooning, of the faint-heartedness` (6:9).
+- **Greek cut from a translation** (`GREEK_LOST`): ἄλογος, *«without» λόγος, i. e. without speech*:
+  `without logos (λόγος), unutterable, without reason and irrational, not reckoned upon and
+  unexpected`. *a horse*, the modern Greek word's, is set aside; *brutes, animals* is τὰ ἄλογα and
+  belongs to the neuter plural only (`FORM_SENSES` by parse).
+- **σύν**, new to the corpus: the dative's senses, `along with and in company with and together
+  with, with, endued with, to, attended with, in accordance with, with and by means of`; the pieces
+  of *with God's help or blessing* and *on his side, of his party*, and the adverb's and compounds'
+  senses, are set aside.
+- **Voice** (`FORM_SENSES`): δηλόω's active leaves out the passive *to be or become manifest*;
+  διαλέγω's deponent leaves out the active *to pick out*; λυτρόω's middle future λυτρώσομαι
+  leaves out the passive *to be ransomed* and reads `I will release on receipt of ransom and hold
+  to ransom`, Middle Liddell having no middle sense of its own.
+- **A run joined**: GEN 9:27 and GEN 47 read οἶκος's plural `the houses, the abodes and dwellings`,
+  one translation split in two; both now read `the houses and abodes and dwellings`, as every
+  singular does.
+- **Two checks fixed.** `same_form` capitalised a verse-initial word with `upper()`, which turns ᾗ
+  into two letters, ἯΙ; the capital of a letter with iota subscript is its titlecase, ᾟ, which is
+  how 6:28's Ἧι is written. And the doubled-marker check read ἔναντι's own *of*, its one
+  translation *in the presence of* as plain text, as a case marker before κυρίου's *of*.
+- New chains: ποιέω `I will make`; κραταιός `to strong`; ὑψηλός `to high`; ἐκβάλλω `will throw`;
+  ὁράω `I was seen`, `you will see` (ὄψει, the future, not ὄψις); δηλόω `I made visible`;
+  παροικέω `have dwelt beside … and it stands so`; εἰσακούω `I hearkened`, `will hearken`;
+  καταδουλόω `are being reduced to slavery`; μιμνήσκομαι `I reminded myself of`; δυναστεία `of
+  the power`; ῥύομαι `I will draw to myself`; λυτρόω `I will release on receipt of ransom`; κρίσις
+  `to a separating`; εἰσάγω `I will lead in`; ἐκτείνω `I stretched out`; κλῆρος with ἐν, `in a lot`;
+  σκληρός `of the hard`; ἀρχηγός, as a noun, `founders, princes and chiefs, first causes and
+  originators, beginning and originating`; οἶκος `houses`, `of houses`; πατριά `of lineage`, `of
+  lineages`, `the lineages`; πρωτότοκος `of firstborn`; συγγένεια `samenesses of descent`; ἀρχή `the
+  beginnings`; δύναμις `to power`; διαλέγω `the ones conversing with`; λέγω `I say`.
+- One translation each, plain text: βραχίων (*the arm*, ἐν taking a unit of its own before it),
+  ἔναντι (*in the presence of*), θυγάτηρ, ἀδελφή, υἱός, ἔτος, the numerals.
+- Names new to the corpus: Γεδσων (Gershon, where Genesis 46:11 has Γηρσων), Λοβενι, Σεμεϊ, Αμβραμ,
+  Οζιηλ, Μοολι, Ομουσι, Ιωχαβεδ, Μαριαμ, Ναφεκ, Ζεχρι, Ελισαφαν, Σετρι, Ελισαβεθ, Αμιναδαβ,
+  Ναασσων, Ναδαβ, Αβιουδ, Ελεαζαρ, Ιθαμαρ, Ασιρ, Ελκανα, Αβιασαφ, Φουτιηλ, Φινεες, Φοίνισσα (the
+  Phoenician woman, where Genesis 46:10 has Χανανῖτις). Ισσααρ is Izhar here, Jezer at GEN 46:24.
