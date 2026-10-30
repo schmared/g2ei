@@ -6573,3 +6573,61 @@ text uses.
 - γυνή and τίκτω — the corpus chains, `the woman … the mortal woman` and `brought into the world …
   begot, produced and yielded`; the drafts' shorter keys were stale. 44:27.
 - γῆρας, ἐπιδιώκω, κόνδυ, οἰωνισμός, θηριόβρωτος — one translation each: plain text.
+
+### Words new in GEN 45
+
+From Middle Liddell unless marked; the headword is the entry's first translation in the form the
+text uses.
+
+- ἀνέχω (present middle) — **headword** `to hold up what is one's own`; **chain** `to hold up what is
+  one's own, to hold oneself up and bear up and hold out, to bear up against, to suffer`. The
+  middle takes only the entry's middle senses (`FORM_SENSES`): the active's holding up and rising,
+  the aorist imperative's *be of good courage* and the participle's *with patience* are not its. 45:1.
+- παρίστημι (perfect participle) — `of the ones having stood by`, the chain of 18:8 with the
+  perfect's *and standing so*. 45:1.
+- ἀναγνωρίζω — LSJ, citing 45:1 for the passive: **headword** `was being recognized`; **chain**
+  `was being recognized, was recognizing or coming to the knowledge of, was revealing himself and
+  making himself known, was causing to recognize and revealing himself to`. 45:1.
+- κλαυθμός — one translation, *a weeping*: plain text, `of weeping`. 45:2.
+- ἀκουστός — `heard`, `heard and audible, that should be heard`. 45:2.
+- λυπέω (present imperative, middle or passive) — `be given pain`, the active's senses in the
+  passive and the passive's own *grieve about, feel pain* after them. 45:5.
+- φαίνω (aorist passive imperative) — `let be brought to light`, the chain of 21:11. 45:5.
+- λοιπός — `remaining and the rest, it remains, what remains, the future, for the future,
+  henceforward and hereafter, the rest, further and besides`; *quod superest* is Latin and in
+  `NOT_SENSES`. 45:6.
+- ἀροτρίασις — LSJ "= sq.", ἀροτριασμός, *ploughing, tillage*: `ploughing and tillage`. 45:6.
+- ἄμητος — `reaping and harvesting, slaughter, harvest and harvest time, crop, harvest reaped`. 45:6.
+- κατάλειμμα — LSJ, one translation, *remnant*; κατάλειψις, one translation, *a leaving behind*:
+  plain text, without the article. 45:7.
+- ἐκτρέφω — `to bring up from childhood and rear up`; *for oneself*, the middle's piece, is in
+  `NOT_SENSES`. 45:7, 45:11.
+- ἄρχων (anarthrous) — `ruler, commander, chief, captain, chief magistrate`, the chain of 42:6. 45:8.
+- ἐγγύς — `hard by`, the chain of 19:20. 45:10.
+- βοῦς with a feminine article — `the bullocks`, the word's chain; the note gives *cows*. 45:10.
+- ἐκτρίβω (aorist passive) — `you may be rubbed out`, the active's senses in the passive. 45:11.
+- βλέπω — `see and have the power of sight, look, look longingly and expect eagerly, look to, beware
+  of, see that, see and behold, see the light of day and live, are alive and live`; the examples'
+  pieces are in `NOT_SENSES`. 45:12.
+- λαλέω (articular participle, neuter) — `the thing talking`. 45:12.
+- διαβοάω (aorist passive) — `was shouted out and proclaimed and published, was the common talk,
+  cried out`; the middle's *to contend in shouting* is set aside by the form. 45:16.
+- χαίρω (aorist passive) — `rejoiced and was glad and was delighted, rejoiced at and was delighted
+  with and took delight in, was wont`. The imperative's greetings, the participle's *glad* and
+  *safe*, the future's *go unpunished* and the infinitive's *to dismiss from one's mind* are set
+  aside by the form; the examples' pieces are in `NOT_SENSES`. 45:16.
+- θεραπεία — `the waiting on and service, …, the body of attendants and suite and retinue`. 45:16.
+- γεμίζω — `fill full of and load, freight with`; examples' pieces in `NOT_SENSES`. 45:17.
+- πορεῖον — LSJ: `the means of conveyance and carriages, the loads`. 45:17.
+- μυελός — `the marrow, the brain, the strengthening food, the inmost part`. 45:18.
+- ἅμαξα — Perseus keys Middle Liddell's entry with the smooth breathing (`SPELLING`): `wagons and
+  wains, wagon-loads of, carriages of the plough, Charles' wains, Great Bears`. 45:19, 45:21, 45:27.
+- παραγίνομαι (present imperative) — `come to be beside, be present, arrive, come to help`, the four
+  senses 32:21 gives the present. 45:19.
+- πᾶς with its own article, τὰ πάντα ἀγαθά — `the all`, the unit carrying the article. 45:20.
+- χρυσοῦς as a noun, *gold pieces* — the adjective's chain of 24:22. 45:22.
+- ἐξαλλάσσω (participle) — `changing utterly, withdrawing from, removing from, changing and turning
+  another way and moving back and forward, unusual`; *unusual* is the participle's own gloss. 45:22.
+- ἀναζωπυρέω — `rekindled, gained fresh life and courage`. 45:27.
+- κλαυθμός, ἔτος, πέντε, δέκα, τριακόσιοι, υἱός, κατάλειμμα, κατάλειψις — one translation each:
+  plain text. Names new: Γεσεμ (Goshen) and Ἀραβία.

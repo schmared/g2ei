@@ -440,6 +440,14 @@ masculine/feminine gender `C`, and the first had `M`. `morph_diff.py` does not c
 `M` or `F`, so read gender `C` by hand. The instructions now name the article before an adverb and
 ἐκκρέμαμαι.
 
+### What it found in Genesis 45
+
+Six disagreements over 614 words. The second pass was right that εἴπατε at 45:9, καὶ εἴπατε αὐτῷ,
+is the imperative after ἀνάβητε. The first had the other five: τοῦτο γὰρ δεύτερον ἔτος at 45:6 and
+πέντε ἔτη at 45:11 are accusatives of time, as MorphGNT codes τοῦτο τρίτον (John 21:14, 2 Cor 13:1)
+and ἔτη of duration, where the second pass had made verbless clauses of both. Both passes read the
+λοιπὰ πέντε ἔτη of 45:6 as nominative. The instructions now name the accusative of time.
+
 ## The brief
 
 Copy everything below the rule into a new agent. Replace `<BOOK NAME>`, `<CHAPTER>`,
@@ -561,6 +569,9 @@ Conventions:
   MorphGNT; so are ἡ περίχωρος, *the country round about*, and τὸ πρότερον, *before*,
   `A- ----ASNC πρότερος`, and εἰς ἀριστερά, εἰς δεξιά, neuter plural. δεκάτη, *a tenth*, is `A- ----ASF- δεκάτη`, as MorphGNT codes and files it. στεῖρα, *barren*, is `A-` under its own dictionary form, στεῖρα, as MorphGNT and
   Middle Liddell both file it.
+- A demonstrative with an ordinal and no verb of its own, `τοῦτο δεύτερον ἔτος`, is an accusative
+  of time, `----ASN-`, as MorphGNT codes τοῦτο τρίτον at John 21:14; so is a span, `πέντε ἔτη`,
+  `----APN-`, as MorphGNT codes ἔτη of duration.
 - An article before an adverb makes a noun of it and takes the case of its place in the clause:
   `τὸ πρωὶ διέφαυσεν`, *the morning dawned*, τό `RA ----NSN-`; `ὤρθρισεν … τὸ πρωί`, `----ASN-`.
 - ἐκκρέμαμαι, *to hang from*, is filed under itself, as MorphGNT files ἐξεκρέματο (Luke 19:48).

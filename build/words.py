@@ -305,6 +305,17 @@ LSJ = {
     # "omen from the flight or cries of birds".
     "κόνδυ": ["drinking-vessel"],
     "οἰωνισμός": ["omen from the flight or cries of birds"],
+    # GEN 45. None of these is in Middle Liddell. LSJ (eng1): ἀναγνωρίζω, "recognize", "Pass., LXX
+    # Ge. 45.1", then "recognize or come to the knowledge of", "reveal oneself, make oneself known",
+    # and causal "cause to recognize, reveal oneself to". LSJ (eng1): "ἀροτρίασις, = sq.", citing
+    # 45:6, and the next entry is ἀροτριασμός, "ploughing, tillage". LSJ (eng10): "κατάλειμμα,
+    # remnant", citing 45:7. LSJ (eng17): πορεῖον, "means of conveyance, carriage", and "load"; the
+    # "trolleys" between them are an example's.
+    "ἀναγνωρίζω": ["recognize", "recognize or come to the knowledge of", "reveal oneself, make oneself known",
+                   "cause to recognize, reveal oneself to"],
+    "ἀροτρίασις": ["ploughing, tillage"],
+    "κατάλειμμα": ["remnant"],
+    "πορεῖον": ["means of conveyance, carriage", "load"],
     "κατακενόω": ["empty", "empty of", "to be emptied, made or left empty", "make empty by leaving, desert",
                   "empty by depletion", "carry off", "empty out, pour away", "make away with", "expend",
                   "waste away, shrivel", "make empty", "make void, of no effect"],
@@ -1134,6 +1145,15 @@ NOT_SENSES = {
                "to be as far"},  # "to be as far as possible from", an example's piece
     "makra/n": {"far", "to a greater distance", "as far as possible"},  # a repetition, and the comparative's and superlative's
     "parame/nw": {"trusty"},                     # the slave's name Παρμένων, "trusty"; not a sense of the verb
+    "loipo/s": {"quod superest"},                # Latin
+    "e)ktre/fw": {"for oneself"},                # a piece of the middle's "to rear for oneself"
+    "gemi/zw": {"charging", "with", "freighted"},  # pieces of examples
+    "e)calla/ssw": {"sees", "change take place", "other", "shall I take?"},  # pieces of examples
+    "ble/pw": {"see too clearly", "face", "looked", "looking like", "thoughtful", "looking towards",
+               "actually existing"},           # pieces of examples, and the participle's
+    "xai/rw": {"I rejoice at", "thou wilt", "shalt not rejoice", "thou shalt", "accept the greeting",
+               "taking leave", "parting", "have done with", "away with", "let", "be put aside", "may'st",
+               "fare well", "with a benison", "welcome", "S. D."},  # pieces of examples and constructions
     # ἄν: a paragraph on the particle's uses, tagged as one translation, opens the card.
     "a)/n": {'conditional Particle. In attic, it is not joined with pres. or perf. ind., nor with imperat. of any tense. Three uses of a)/n must be distinguished in practice: in combination with Conjunctions and Relatives. in Apodosis. in Iterative sentences. in combinations with Conjunctions and Relatives: such words are regularly foll. by the subj., viz. e)a/n (= ei) a)/n) h)/n, a)/n , e)ph/n; o(\\s a)/n quicunque'},
 }
@@ -1161,6 +1181,28 @@ _EXANISTHMI_CAUS = {
     "to raise up: to make one rise", "bid one", "rise", "to order", "to rise", "to make",
     "emigrate, to remove", "expel", "to depopulate, destroy", "to rouse", "from their lair"}
 FORM_SENSES = {
+    # ἀνέχω: "trans. to hold up … intr. to rise up … Mid. to hold up what is one's own … to hold
+    # oneself up, bear up, hold out … to bear up against … to suffer". GEN 45:1's ἀνέχεσθαι, to
+    # bear with them all, is the middle and takes only its senses; "be of good courage" is the
+    # aorist imperative's and "with patience" the participle's.
+    "a)ne/xw": [("PIFAXY", "ME", {
+        "to hold up", "in fight", "to lift up", "in prayer", "make ready, go on", "to lift up, exalt",
+        "to uphold, maintain", "remaining constant to", "to put forth", "to hold back", "to keep",
+        "to rise up, rise, emerge", "to arise, happen", "to appear, shew oneself", "to project",
+        "to jut out", "to hold on, keep doing", "is constant", "to aver constantly that . .",
+        "to hold up, cease", "to wait, delay", "to cease from", "get rest from", "be of good courage",
+        "with patience", "I will", "suffer"})],
+    # χαίρω: the imperative's greetings, the participle's "glad" and "safe, with impunity", the
+    # future's "go unpunished", and the infinitive's "to dismiss from one's mind" (χαίρειν λέγειν)
+    # are not senses of GEN 45:16's aorist ἐχάρη.
+    "xai/rw": [("A", "P", {
+        "I rejoice at", "thou wilt", "shalt not rejoice", "thou shalt", "accept the greeting",
+        "taking leave", "parting", "have done with", "away with", "let", "be put aside", "may'st",
+        "fare well", "with a benison", "welcome", "S. D.", "go unpunished, shalt repent",
+        "hail, welcome", "fare-thee-well, farewell, good-bye", "glad, joyful, delighted",
+        "safe, with impunity", "to dismiss from one's mind, put away from one, renounce"})],
+    # διαβοάω: "Mid. to contend in shouting" is not a sense of the passive διεβοήθη, GEN 45:16.
+    "diaboa/w": [("PIFAXY", "P", {"to contend in shouting"})],
     # ἀπέχω: "Mid. … to hold oneself off a thing, abstain or desist from it". GEN 43:23's
     # active ἀπέχω, I have your money, takes none of the middle's.
     "a)pe/xw": [("PIFAXY", "A", {"part", "to hold one's", "off", "were far from", "from",
@@ -1345,6 +1387,7 @@ SPELLING = {
     "a)pokri/nomai": "a)pokri/nw",  # MorphGNT's middle, filed under the active
     "presbu/teros": "pre/sbus",     # the comparative, filed inside the positive's entry
     "e)kkre/mamai": "e)kkrema/nnumi",  # the passive, filed at the end of the active's entry
+    "a(/maca": "a)/maca",            # Perseus keys ἅμαξα with the smooth breathing
     "o)rqri/zw": "o)rqreu/w",       # cross-reference; "= ὀρθρεύω"
     "platei=a": "platu/s",          # the feminine used as a noun, filed inside the adjective's entry
     "suggi/nomai": "suggi/gnomai",  # the Attic spelling
