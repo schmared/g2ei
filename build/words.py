@@ -356,6 +356,8 @@ LSJ = {
     # in square". LSJ (eng7): ζωογονέω, "propagate" or "engender living creatures", "breed",
     # "engender", "to be viviparous", "produce alive", "make alive, quicken", and "= ζωγρέω, preserve
     # alive", citing Ex 1:17; "producing" is a piece of the example of Zeus and Pallas.
+    # EXO 4. No Middle Liddell entry. LSJ (eng2): βραδύγλωσσος, "slow of tongue", citing Ex 4:10.
+    "βραδύγλωσσος": ["slow of tongue"],
     # EXO 3. None of these is in Middle Liddell. LSJ (eng9): θλιμμός, "= θλῖψις", a pointer, citing
     # Ex 3:9, and θλῖψις is LSJ's too (GEN 35). LSJ (eng5): ἐργοδιώκτης, "taskmaster", citing Ex 3:7.
     # LSJ (eng11): κατεμβλέπω, "strengthd. for ἐμβλέπω", citing Ex 3:6, then "look down upon,
@@ -1291,6 +1293,13 @@ NOT_SENSES = {
     "gei/twn": {"vicus)", "from", "in the neighbourhood"},  # the Latin, pieces of examples
     "skuleu/w": {"having stript", "off"},       # an example's
     "eu)labe/omai": {"without reserve"},         # μὴ εὐλαβηθῆναι, an example's
+    # EXO 4
+    "kwfo/s": {"the blunt, dull", "dumb", "the dumb, senseless", "dull", "ringing", "noisy"},  # examples' pieces; "dumb, mute" stays
+    "tuflo/s": {"back"},                         # τὰ τυφλὰ τοῦ σώματος, one's back, an example's
+    "e)pilamba/nw": {"from", "traverse", "corripere campum", "to hold oneself", "by, lay hold of, catch"},  # pieces, Virgil; the cut sense whole in MARKUP_LOST
+    "yh=fos": {"by arithmetic, to cipher", "to reckon exactly", "accurately", "one's vote", "by vote", "the vote",
+               "question", "a decree", "judgment", "calculus Minervae", "acquittal", "lot;", "trials, the latter in",
+               "elections."},                   # examples' translations, a proverb, the note on ballot and lot
     "e)pista/ths": {"the right-", "left-hand man", "the front-rank man)", "a", "master", "which stood over"},  # παραστάτης's and προστάτης's glosses; "a training-master" cut in two, whole in MARKUP_LOST; a piece
     "be/ltistos": {"my good friend"},             # ὦ βέλτιστε, the vocative's mode of address
     "e)rhmo/w": {"of", "without"},                # pieces of "to bereave one of", "to leave the oars without men"
@@ -1419,7 +1428,8 @@ FORM_SENSES = {
     "di/dwmi": [("AFXY", "AMPE", {"to be ready to give, to offer"})],
     # ζάω: "ζῶν, living, alive", and "of living men" — the participle's. The finite verb and
     # the infinitive leave them out.
-    "za/w": [("PIFAXY", "A", {"of living men", "living", "alive"}, "^(?!ζ[ωω](ν|σ))")],
+    # ζῶσιν, the third plural, is finite: the participle's ζωσ- is the feminine (ζῶσα, ζώσης).
+    "za/w": [("PIFAXY", "A", {"of living men", "living", "alive"}, "^(?!ζ[ωω](ν|σ(?!ιν?$)))")],
     # ἀνίστημι heads sense A "Causal in pres., imperf." and sense B "Intr. in pres. and
     # imperf. ἀνίσταμαι, -μην, … in aor2 ἀνέστην". NOT_SENSES keeps B, for GEN 4:8 ἀνέστη;
     # the present and imperfect active — GEN 9:9 ἀνίστημι — keep A, less its "by" (from
@@ -1525,6 +1535,16 @@ FORM_SENSES = {
     "qli/bw": [("PIFAXY", "A", NOT_SENSES["qli/bw"] | {"to be compressed"})],
     "ai)te/w": [("PIFAXY", "A", NOT_SENSES["ai)te/w"] | {"to ask for oneself, to claim", "to have a thing begged of",
                                                          "to be asked"})],
+    # EXO 4. ἐπιλαμβάνω: "Mid., with perf. pass., to hold oneself on by, lay hold of, catch … to
+    # attack … to object to": the middles of 4:4 take those, not the active's. προχειρίζω "as Dep.
+    # προχειρίζομαι … to take into one's hand, prepare for oneself, to choose, elect, to determine":
+    # the middle of 4:13 leaves out the active's and the passive participle's. ψῆφος: "in pl.
+    # accounts", which the singular of 4:25 leaves out.
+    "e)pilamba/nw": [("PIFAXY", "ME", NOT_SENSES["e)pilamba/nw"] | {
+        "to lay hold of, seize, attack", "to overtake, surprise, interrupt", "to attain to, reach", "to live over",
+        "to seize, stop", "to stop", "to get over"})],
+    "proxeiri/zw": [("PIFAXY", "M", {"to put into the hand, have ready at hand", "taken in hand, undertaken"})],
+    "yh=fos": [("-", "-", NOT_SENSES["yh=fos"] | {"accounts"}, None, "^.....S")],
     # EXO 3. προΐημι: "Mid. to send forward from oneself … to utter … to give up, let go …": the
     # future middle of 3:19 leaves out the active's and the passive's senses, and the pieces of
     # the middle's examples ("gave … up as lost", "did not lose themselves").
@@ -1599,6 +1619,7 @@ SPELLING = {
     "prwino/s": "prw/ios",          # "later form of πρώιος", and nothing more
     "e)cai/retos": "e)caireto/s",   # "ἐξαίρετος, ον, taken out", printed inside ἐξαιρετός's entry
     "katalimpa/nw": "katalei/pw",   # "= καταλείπω", and nothing more
+    "xro/a": "xroia/",              # χρόα, LSJ's "v. χροιά": Middle Liddell spells it χροιά
     "proi+/hmi": "proi/hmi",            # προΐημι, keyed without the diaeresis
     "a(/lwn": "a(/lws",             # "= ἅλως found in the obl. cases", and nothing more
     "kopeto/s": "kommo/s",          # "= κομμός", and nothing more
@@ -1854,6 +1875,8 @@ MARKUP_LOST = {
     # "a training- master": the <tr>s stop either side of "training-", and "a" and "master" reach
     # the card apart.
     "e)pista/ths": [(10, "a training-master")],
+    # "Mid. … to hold oneself on by, lay hold of, catch": "on" stands between two <tr>s.
+    "e)pilamba/nw": [(10, "to hold oneself on by, lay hold of, catch")],
     # "βίαι τινός against one's will, in spite of him": "one's" stands between two <tr>s.
     "bi/a": [(4, "against one's will, in spite of")],
     "kri/nw": [(0, "to separate, part, put asunder, distinguish")],  # "Lat. cerno, to separate, part, …"
@@ -1915,6 +1938,7 @@ LATIN_ONLY = {
     "w(/sper",                                  # "Lat. quasi, tanquam": Latin throughout; "just as if, even as" are <tr>s
     "a)rrabw/n",                                # "Lat. arrhabo, arrha", after "earnest-money, caution-money"
     "e)ntau=qa",                                # "Lat. hic, illic", after "here, there"
+    "te/ras",                                   # "Lat. portentum, prodigium", after "a sign, wonder, marvel"
 }
 
 # The same loss with Greek in place of Latin. Middle Liddell names a thing by its Greek word

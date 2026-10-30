@@ -7084,3 +7084,43 @@ text uses. Chains already in the corpus (Genesis) were read from it and re-infle
   who lives in the same tent`; σκεῦος `vessels`; ἐπιτίθημι `you will lay`; σκυλεύω `you will strip`.
 - One translation each, plain text: ἐνώπιον (*face to face*), γάλα, μέλι, ἐργοδιώκτης.
 - Names new to the corpus: Χωρηβ (Horeb); the vocative Μωυσῆ.
+
+### Words new in EXO 4
+
+- **From LSJ** (not in Middle Liddell): βραδύγλωσσος, *slow of tongue*, plain text (4:10).
+- **Close form:** χρόα, LSJ's *v. χροιά*, is Middle Liddell's χροιά (`SPELLING`): `the surface of a
+  body and the skin and the body, the superficial appearance, the colour, the colour of the skin and
+  the complexion`.
+- **Cut translation restored** (`MARKUP_LOST`): ἐπιλαμβάνω's middle, *to hold oneself on by, lay hold
+  of, catch*, with *on* between two `<tr>`s. GEN 25:26's ἐπειλημμένη, whose chain had split the two
+  halves, now reads `having held herself on by and laid hold of and caught and standing so, …`.
+  The verb is filed under ἐπιλαμβάνομαι, as GEN 25:26 files it.
+- **Voice and number** (`FORM_SENSES`): ἐπιλαμβάνομαι's middle and middle/passive take the middle's
+  senses only; προχειρίζω's middle, *as Dep. … to take into one's hand, prepare for oneself, to
+  choose, elect, to determine*; ψῆφος's singular leaves out *in pl. accounts*. ζάω's rule now tells
+  the third plural ζῶσιν from the participle's feminine ζῶσα, which share ζωσ-: the finite form
+  had been reading the participle's *living, alive*.
+- **Latin throughout** (`LATIN_ONLY`): τέρας, *Lat. portentum, prodigium*, after its English.
+- **Pieces set aside** (`NOT_SENSES`): κωφός (examples' pieces; *dumb, mute* stays), τυφλός (*back*,
+  an example's), ψῆφος (examples' translations, the proverb *calculus Minervae*, the note on ballot
+  and lot), ἐπιλαμβάνω (pieces, Virgil).
+- New chains, re-inflected from the corpus: πιστεύω `may trust`, `will trust`; εἰσακούω `may
+  hearken`; ῥίπτω `throw`, `threw`; ἐκτείνω `stretch out`; ἐπιλαμβάνομαι `hold yourself on by`,
+  `held himself on by`; εἰσφέρω `carry into`; κόλπος `of the bosom`; χιών `snow`; ἀποκαθίστημι `was
+  re-established` (the intransitive second aorist); χρόα; σημεῖον `of the sign`, `to the signs`,
+  `the signs`; ἔσχατος `of the outermost`; λαμβάνω `you will take`, `you may take`; ἐκχέω `you will
+  pour out`; ξηρός `the dry`; τρίτος `of the third`; ἄρχω `you began`; ἰσχνόφωνος `checked in one's
+  voice`; στόμα `mouth`; κωφός `blunt`; βλέπω `seeing and having the power of sight`; τυφλός
+  `blind`; ἀνοίγω `I will open`; συμβιβάζω `I will bring together` (the active, without the
+  passive's *to be joined*); μέλλω `you think of doing`; προχειρίζω `take into your hand`; δύναμαι
+  `being able`; ἀποστέλλω `you will send off`; θυμόω `having been wroth`; ἐπίσταμαι `I know`; λαλέω
+  `will talk`; χαίρω `will rejoice`; προσλαλέω `will talk to` (*to talk to or with*, joined);
+  ῥάβδος `the rod`; στρέφω `the one having turned itself`; γαμβρός `the one connected by marriage`;
+  ζάω `live`; ὑγιαίνω `being sound`; θνήσκω `are dead`; ζητέω `the ones seeking`; πορεύομαι `of
+  being driven`; ἀποστρέφω `of turning`; τέρας `the signs`; ἐξαποστέλλω `may send quite away`, `to
+  send quite away`; λατρεύω `may work for hire`; βούλομαι `you will`; ἀποκτείνω `I will kill`, `to
+  kill`; κατάλυμα with ἐν; ψῆφος `a small stone`; ἀκροβυστία `the foreskin`; πούς `the feet`;
+  ἵστημι `was set` (the intransitive second aorist ἔστη).
+- One translation each, plain text: κέρκος (*the tail*), δύσκωφος (*stone-deaf*), βραδύγλωσσος,
+  συνάντησις (*a meeting*), σκληρύνω (*to harden*), περιτομή (*circumcision*), ἀλλήλων.
+- Names new to the corpus: Ααρων (Aaron), Λευίτης (the Levite).

@@ -516,6 +516,13 @@ imperative, not the infinitive), ὅσα (nominative, the subject in its own cla
 (feminine, a woman's neighbour) and προσκέκληται (προσκαλέω, Middle Liddell's headword, with voice
 `E` in the perfect).
 
+### What it found in Exodus 4
+
+Two disagreements over 746 words, both of lemma, and the first pass stands on both: προχειρίζω
+and θυμόω are Middle Liddell's headwords, with the deponent or passive inside the entry, and neither
+is on the brief's list of verbs filed under the middle. MorphGNT files προχειρίζομαι and θυμόομαι;
+the module too.
+
 ## The brief
 
 Copy everything below the rule into a new agent. Replace `<BOOK NAME>`, `<CHAPTER>`,

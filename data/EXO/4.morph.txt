@@ -1,0 +1,774 @@
+# Exodus 4 — morphology, one word per line.
+#
+# This is the project's own grammatical analysis of each form, written alongside the
+# transcription and not copied from any digital edition.
+#
+# Columns: verse, part of speech, parse, form, lemma — in MorphGNT's code scheme, so
+# the Old and New Testament layers read alike. The parse is eight places: person,
+# tense, voice, mood, case, number, gender, degree ("-" where it does not apply).
+#
+# Two codes go beyond MorphGNT, both to record only what the form itself says:
+#   voice  E  middle/passive — a tense in which the two share one form
+#   gender C  masculine/feminine — an adjective whose form does not distinguish them
+#
+# A trailing annotation records a deliberate difference and the reason for it:
+#   "# module …"  from the reference module, checked when LXX_RAHLFS_DIR is set
+#   "# corpus …"  from this project's own analysis of the same form elsewhere
+# A line may carry both. validate.py prints them as notes instead of failures — and
+# fails if the difference a note claims is not there, so they cannot go stale. The
+# analysis here is this project's own: the module is a reference, not an authority,
+# and the corpus is held to itself.
+#
+# Indeclinables take case and number from the syntax, as MorphGNT does, and gender
+# where there is one to take: a personal name, from the person; a numeral agreeing
+# with its noun; a common noun whose article shows it — but not an indeclinable place
+# name, which has none. A personal name the New Testament also uses takes MorphGNT's
+# dictionary form (Νῶε, Σήμ); every other Semitic name (Χαμ, Ιαφεθ), the form Rahlfs
+# prints.
+
+4:1 V- 3API-S-- ἀπεκρίθη ἀποκρίνομαι
+4:1 C- -------- δὲ δέ
+4:1 N- ----NSM- Μωυσῆς Μωϋσῆς  # module lemma Μωσεύς — Μωϋσῆς, as MorphGNT files it
+4:1 C- -------- καὶ καί
+4:1 V- 3AAI-S-- εἶπεν λέγω  # module lemma ἔπω — λέγω keeps one dictionary form across both testaments
+4:1 C- -------- Ἐὰν ἐάν
+4:1 C- -------- οὖν οὖν
+4:1 D- -------- μὴ μή
+4:1 V- 3AAS-P-- πιστεύσωσίν πιστεύω
+4:1 RP ----DS-- μοι ἐγώ  # module lemma μοι, the form itself — ἐγώ is the dictionary form
+4:1 C- -------- μηδὲ μηδέ
+4:1 V- 3AAS-P-- εἰσακούσωσιν εἰσακούω
+4:1 RA ----GSF- τῆς ὁ
+4:1 N- ----GSF- φωνῆς φωνή
+4:1 RP ----GS-- μου ἐγώ  # module lemma μου, the form itself — ἐγώ is the dictionary form
+4:1 V- 3FAI-P-- ἐροῦσιν λέγω  # module lemma ἐρέω — λέγω, as MorphGNT files ἐροῦσιν (Luke 17:21)
+4:1 C- -------- γὰρ γάρ
+4:1 C- -------- ὅτι ὅτι
+4:1 D- -------- Οὐκ οὐ
+4:1 V- 3XEI-S-- ὦπταί ὁράω
+4:1 RP ----DS-- σοι σύ  # module lemma σοί, the form itself — σύ is the dictionary form
+4:1 RA ----NSM- ὁ ὁ
+4:1 N- ----NSM- θεός θεός
+4:1 RI ----ASN- τί τίς
+4:1 V- 1FAI-S-- ἐρῶ λέγω  # module lemma ἐρέω — λέγω, as MorphGNT files ἐροῦσιν (Luke 17:21)
+4:1 P- -------- πρὸς πρός
+4:1 RP ----APM- αὐτούς αὐτός
+4:2 V- 3AAI-S-- εἶπεν λέγω  # module lemma ἔπω — λέγω keeps one dictionary form across both testaments
+4:2 C- -------- δὲ δέ
+4:2 RP ----DSM- αὐτῷ αὐτός
+4:2 N- ----NSM- κύριος κύριος
+4:2 RI ----NSN- Τί τίς
+4:2 RD ----NSN- τοῦτό οὗτος
+4:2 V- 3PAI-S-- ἐστιν εἰμί
+4:2 RA ----NSN- τὸ ὁ
+4:2 P- -------- ἐν ἐν
+4:2 RA ----DSF- τῇ ὁ
+4:2 N- ----DSF- χειρί χείρ
+4:2 RP ----GS-- σου σύ  # module lemma σοῦ, the form itself — σύ is the dictionary form
+4:2 RA ----NSM- ὁ ὁ
+4:2 C- -------- δὲ δέ
+4:2 V- 3AAI-S-- εἶπεν λέγω  # module lemma ἔπω — λέγω keeps one dictionary form across both testaments
+4:2 N- ----NSF- Ῥάβδος ῥάβδος
+4:3 C- -------- καὶ καί
+4:3 V- 3AAI-S-- εἶπεν λέγω  # module lemma ἔπω — λέγω keeps one dictionary form across both testaments
+4:3 V- 2AAD-S-- Ῥῖψον ῥίπτω
+4:3 RP ----ASF- αὐτὴν αὐτός
+4:3 P- -------- ἐπὶ ἐπί
+4:3 RA ----ASF- τὴν ὁ
+4:3 N- ----ASF- γῆν γῆ
+4:3 C- -------- καὶ καί
+4:3 V- 3AAI-S-- ἔρριψεν ῥίπτω
+4:3 RP ----ASF- αὐτὴν αὐτός
+4:3 P- -------- ἐπὶ ἐπί
+4:3 RA ----ASF- τὴν ὁ
+4:3 N- ----ASF- γῆν γῆ
+4:3 C- -------- καὶ καί
+4:3 V- 3AMI-S-- ἐγένετο γίνομαι
+4:3 N- ----NSM- ὄφις ὄφις
+4:3 C- -------- καὶ καί
+4:3 V- 3AAI-S-- ἔφυγεν φεύγω
+4:3 N- ----NSM- Μωυσῆς Μωϋσῆς  # module lemma Μωσεύς — Μωϋσῆς, as MorphGNT files it
+4:3 P- -------- ἀπʼ ἀπό
+4:3 RP ----GSM- αὐτοῦ αὐτός
+4:4 C- -------- καὶ καί
+4:4 V- 3AAI-S-- εἶπεν λέγω  # module lemma ἔπω — λέγω keeps one dictionary form across both testaments
+4:4 N- ----NSM- κύριος κύριος
+4:4 P- -------- πρὸς πρός
+4:4 N- ----ASM- Μωυσῆν Μωϋσῆς  # module lemma Μωσεύς — Μωϋσῆς, as MorphGNT files it
+4:4 V- 2AAD-S-- Ἔκτεινον ἐκτείνω
+4:4 RA ----ASF- τὴν ὁ
+4:4 N- ----ASF- χεῖρα χείρ
+4:4 C- -------- καὶ καί
+4:4 V- 2AMD-S-- ἐπιλαβοῦ ἐπιλαμβάνομαι
+4:4 RA ----GSF- τῆς ὁ
+4:4 N- ----GSF- κέρκου κέρκος
+4:4 V- -AAPNSM- ἐκτείνας ἐκτείνω
+4:4 C- -------- οὖν οὖν
+4:4 RA ----ASF- τὴν ὁ
+4:4 N- ----ASF- χεῖρα χείρ
+4:4 V- 3AMI-S-- ἐπελάβετο ἐπιλαμβάνομαι
+4:4 RA ----GSF- τῆς ὁ
+4:4 N- ----GSF- κέρκου κέρκος
+4:4 C- -------- καὶ καί
+4:4 V- 3AMI-S-- ἐγένετο γίνομαι
+4:4 N- ----NSF- ῥάβδος ῥάβδος
+4:4 P- -------- ἐν ἐν
+4:4 RA ----DSF- τῇ ὁ
+4:4 N- ----DSF- χειρὶ χείρ
+4:4 RP ----GSM- αὐτοῦ αὐτός
+4:5 C- -------- ἵνα ἵνα
+4:5 V- 3AAS-P-- πιστεύσωσίν πιστεύω
+4:5 RP ----DS-- σοι σύ  # module lemma σοί, the form itself — σύ is the dictionary form
+4:5 C- -------- ὅτι ὅτι
+4:5 V- 3XEI-S-- ὦπταί ὁράω
+4:5 RP ----DS-- σοι σύ  # module lemma σοί, the form itself — σύ is the dictionary form
+4:5 N- ----NSM- κύριος κύριος
+4:5 RA ----NSM- ὁ ὁ
+4:5 N- ----NSM- θεὸς θεός
+4:5 RA ----GPM- τῶν ὁ
+4:5 N- ----GPM- πατέρων πατήρ
+4:5 RP ----GPM- αὐτῶν αὐτός
+4:5 N- ----NSM- θεὸς θεός
+4:5 N- ----GSM- Αβρααμ Ἀβραάμ
+4:5 C- -------- καὶ καί
+4:5 N- ----NSM- θεὸς θεός
+4:5 N- ----GSM- Ισαακ Ἰσαάκ
+4:5 C- -------- καὶ καί
+4:5 N- ----NSM- θεὸς θεός
+4:5 N- ----GSM- Ιακωβ Ἰακώβ
+4:6 V- 3AAI-S-- εἶπεν λέγω  # module lemma ἔπω — λέγω keeps one dictionary form across both testaments
+4:6 C- -------- δὲ δέ
+4:6 RP ----DSM- αὐτῷ αὐτός
+4:6 N- ----NSM- κύριος κύριος
+4:6 D- -------- πάλιν πάλιν
+4:6 V- 2AAD-S-- Εἰσένεγκε εἰσφέρω
+4:6 RA ----ASF- τὴν ὁ
+4:6 N- ----ASF- χεῖρά χείρ
+4:6 RP ----GS-- σου σύ  # module lemma σοῦ, the form itself — σύ is the dictionary form
+4:6 P- -------- εἰς εἰς
+4:6 RA ----ASM- τὸν ὁ
+4:6 N- ----ASM- κόλπον κόλπος
+4:6 RP ----GS-- σου σύ  # module lemma σοῦ, the form itself — σύ is the dictionary form
+4:6 C- -------- καὶ καί
+4:6 V- 3AAI-S-- εἰσήνεγκεν εἰσφέρω
+4:6 RA ----ASF- τὴν ὁ
+4:6 N- ----ASF- χεῖρα χείρ
+4:6 RP ----GSM- αὐτοῦ αὐτός
+4:6 P- -------- εἰς εἰς
+4:6 RA ----ASM- τὸν ὁ
+4:6 N- ----ASM- κόλπον κόλπος
+4:6 RP ----GSM- αὐτοῦ αὐτός
+4:6 C- -------- καὶ καί
+4:6 V- 3AAI-S-- ἐξήνεγκεν ἐκφέρω
+4:6 RA ----ASF- τὴν ὁ
+4:6 N- ----ASF- χεῖρα χείρ
+4:6 RP ----GSM- αὐτοῦ αὐτός
+4:6 P- -------- ἐκ ἐκ
+4:6 RA ----GSM- τοῦ ὁ
+4:6 N- ----GSM- κόλπου κόλπος
+4:6 RP ----GSM- αὐτοῦ αὐτός
+4:6 C- -------- καὶ καί
+4:6 V- 3API-S-- ἐγενήθη γίνομαι
+4:6 RA ----NSF- ἡ ὁ
+4:6 N- ----NSF- χεὶρ χείρ
+4:6 RP ----GSM- αὐτοῦ αὐτός
+4:6 C- -------- ὡσεὶ ὡσεί
+4:6 N- ----NSF- χιών χιών
+4:7 C- -------- καὶ καί
+4:7 V- 3AAI-S-- εἶπεν λέγω  # module lemma ἔπω — λέγω keeps one dictionary form across both testaments
+4:7 D- -------- Πάλιν πάλιν
+4:7 V- 2AAD-S-- εἰσένεγκε εἰσφέρω
+4:7 RA ----ASF- τὴν ὁ
+4:7 N- ----ASF- χεῖρά χείρ
+4:7 RP ----GS-- σου σύ  # module lemma σοῦ, the form itself — σύ is the dictionary form
+4:7 P- -------- εἰς εἰς
+4:7 RA ----ASM- τὸν ὁ
+4:7 N- ----ASM- κόλπον κόλπος
+4:7 RP ----GS-- σου σύ  # module lemma σοῦ, the form itself — σύ is the dictionary form
+4:7 C- -------- καὶ καί
+4:7 V- 3AAI-S-- εἰσήνεγκεν εἰσφέρω
+4:7 RA ----ASF- τὴν ὁ
+4:7 N- ----ASF- χεῖρα χείρ
+4:7 P- -------- εἰς εἰς
+4:7 RA ----ASM- τὸν ὁ
+4:7 N- ----ASM- κόλπον κόλπος
+4:7 RP ----GSM- αὐτοῦ αὐτός
+4:7 C- -------- καὶ καί
+4:7 V- 3AAI-S-- ἐξήνεγκεν ἐκφέρω
+4:7 RP ----ASF- αὐτὴν αὐτός
+4:7 P- -------- ἐκ ἐκ
+4:7 RA ----GSM- τοῦ ὁ
+4:7 N- ----GSM- κόλπου κόλπος
+4:7 RP ----GSM- αὐτοῦ αὐτός
+4:7 C- -------- καὶ καί
+4:7 D- -------- πάλιν πάλιν
+4:7 V- 3AAI-S-- ἀπεκατέστη ἀποκαθίστημι
+4:7 P- -------- εἰς εἰς
+4:7 RA ----ASF- τὴν ὁ
+4:7 N- ----ASF- χρόαν χρόα
+4:7 RA ----GSF- τῆς ὁ
+4:7 N- ----GSF- σαρκὸς σάρξ
+4:7 RP ----GSM- αὐτοῦ αὐτός
+4:8 C- -------- ἐὰν ἐάν
+4:8 C- -------- δὲ δέ
+4:8 D- -------- μὴ μή
+4:8 V- 3AAS-P-- πιστεύσωσίν πιστεύω
+4:8 RP ----DS-- σοι σύ  # module lemma σοί, the form itself — σύ is the dictionary form
+4:8 C- -------- μηδὲ μηδέ
+4:8 V- 3AAS-P-- εἰσακούσωσιν εἰσακούω
+4:8 RA ----GSF- τῆς ὁ
+4:8 N- ----GSF- φωνῆς φωνή
+4:8 RA ----GSN- τοῦ ὁ
+4:8 N- ----GSN- σημείου σημεῖον
+4:8 RA ----GSN- τοῦ ὁ
+4:8 A- ----GSN- πρώτου πρῶτος
+4:8 V- 3FAI-P-- πιστεύσουσίν πιστεύω
+4:8 RP ----DS-- σοι σύ  # module lemma σοί, the form itself — σύ is the dictionary form
+4:8 RA ----GSF- τῆς ὁ
+4:8 N- ----GSF- φωνῆς φωνή
+4:8 RA ----GSN- τοῦ ὁ
+4:8 N- ----GSN- σημείου σημεῖον
+4:8 RA ----GSN- τοῦ ὁ
+4:8 A- ----GSN- ἐσχάτου ἔσχατος
+4:9 C- -------- καὶ καί
+4:9 V- 3FMI-S-- ἔσται εἰμί
+4:9 C- -------- ἐὰν ἐάν
+4:9 D- -------- μὴ μή
+4:9 V- 3AAS-P-- πιστεύσωσίν πιστεύω
+4:9 RP ----DS-- σοι σύ  # module lemma σοί, the form itself — σύ is the dictionary form
+4:9 RA ----DPN- τοῖς ὁ
+4:9 A- ----DPN- δυσὶ δύο  # module M, no features — MorphGNT gives δύο case, number and gender like any adjective
+4:9 N- ----DPN- σημείοις σημεῖον
+4:9 RD ----DPN- τούτοις οὗτος
+4:9 C- -------- μηδὲ μηδέ
+4:9 V- 3AAS-P-- εἰσακούσωσιν εἰσακούω
+4:9 RA ----GSF- τῆς ὁ
+4:9 N- ----GSF- φωνῆς φωνή
+4:9 RP ----GS-- σου σύ  # module lemma σοῦ, the form itself — σύ is the dictionary form
+4:9 V- 2FMI-S-- λήμψῃ λαμβάνω
+4:9 P- -------- ἀπὸ ἀπό
+4:9 RA ----GSN- τοῦ ὁ
+4:9 N- ----GSN- ὕδατος ὕδωρ
+4:9 RA ----GSM- τοῦ ὁ
+4:9 N- ----GSM- ποταμοῦ ποταμός
+4:9 C- -------- καὶ καί
+4:9 V- 2FAI-S-- ἐκχεεῖς ἐκχέω
+4:9 P- -------- ἐπὶ ἐπί
+4:9 RA ----ASN- τὸ ὁ
+4:9 A- ----ASN- ξηρόν ξηρός
+4:9 C- -------- καὶ καί
+4:9 V- 3FMI-S-- ἔσται εἰμί
+4:9 RA ----NSN- τὸ ὁ
+4:9 N- ----NSN- ὕδωρ ὕδωρ
+4:9 RR ----ASN- ὃ ὅς  # module NSN — the object of λάβῃς, which takes it
+4:9 X- -------- ἐὰν ἐάν
+4:9 V- 2AAS-S-- λάβῃς λαμβάνω
+4:9 P- -------- ἀπὸ ἀπό
+4:9 RA ----GSM- τοῦ ὁ
+4:9 N- ----GSM- ποταμοῦ ποταμός
+4:9 N- ----NSN- αἷμα αἷμα
+4:9 P- -------- ἐπὶ ἐπί
+4:9 RA ----GSN- τοῦ ὁ  # module GSM — neuter, τὸ ξηρόν, the dry land, as before it in the verse
+4:9 A- ----GSN- ξηροῦ ξηρός  # module GSM — neuter, τὸ ξηρόν, the dry land, as before it in the verse
+4:10 V- 3AAI-S-- εἶπεν λέγω  # module lemma ἔπω — λέγω keeps one dictionary form across both testaments
+4:10 C- -------- δὲ δέ
+4:10 N- ----NSM- Μωυσῆς Μωϋσῆς  # module lemma Μωσεύς — Μωϋσῆς, as MorphGNT files it
+4:10 P- -------- πρὸς πρός
+4:10 N- ----ASM- κύριον κύριος
+4:10 V- 1PEI-S-- Δέομαι δέομαι
+4:10 N- ----VSM- κύριε κύριος
+4:10 D- -------- οὐχ οὐ
+4:10 A- ----NSM- ἱκανός ἱκανός
+4:10 V- 1PAI-S-- εἰμι εἰμί
+4:10 P- -------- πρὸ πρό
+4:10 RA ----GSF- τῆς ὁ
+4:10 D- -------- ἐχθὲς ἐχθές  # module lemma χθές — ἐχθές, the spelling Rahlfs prints
+4:10 C- -------- οὐδὲ οὐδέ
+4:10 P- -------- πρὸ πρό
+4:10 RA ----GSF- τῆς ὁ
+4:10 A- ----GSF- τρίτης τρίτος
+4:10 N- ----GSF- ἡμέρας ἡμέρα
+4:10 C- -------- οὐδὲ οὐδέ
+4:10 P- -------- ἀφʼ ἀπό
+4:10 RR ----GSM- οὗ ὅς
+4:10 V- 2AMI-S-- ἤρξω ἄρχω
+4:10 V- -PAN---- λαλεῖν λαλέω
+4:10 RA ----DSM- τῷ ὁ
+4:10 N- ----DSM- θεράποντί θεράπων
+4:10 RP ----GS-- σου σύ  # module lemma σοῦ, the form itself — σύ is the dictionary form
+4:10 A- ----NSC- ἰσχνόφωνος ἰσχνόφωνος
+4:10 C- -------- καὶ καί
+4:10 A- ----NSC- βραδύγλωσσος βραδύγλωσσος
+4:10 RP ----NS-- ἐγώ ἐγώ
+4:10 V- 1PAI-S-- εἰμι εἰμί
+4:11 V- 3AAI-S-- εἶπεν λέγω  # module lemma ἔπω — λέγω keeps one dictionary form across both testaments
+4:11 C- -------- δὲ δέ
+4:11 N- ----NSM- κύριος κύριος
+4:11 P- -------- πρὸς πρός
+4:11 N- ----ASM- Μωυσῆν Μωϋσῆς  # module lemma Μωσεύς — Μωϋσῆς, as MorphGNT files it
+4:11 RI ----NSM- Τίς τίς
+4:11 V- 3AAI-S-- ἔδωκεν δίδωμι
+4:11 N- ----ASN- στόμα στόμα
+4:11 N- ----DSM- ἀνθρώπῳ ἄνθρωπος
+4:11 C- -------- καὶ καί
+4:11 RI ----NSM- τίς τίς
+4:11 V- 3AAI-S-- ἐποίησεν ποιέω
+4:11 A- ----ASC- δύσκωφον δύσκωφος
+4:11 C- -------- καὶ καί
+4:11 A- ----ASM- κωφόν κωφός
+4:11 V- -PAPASM- βλέποντα βλέπω
+4:11 C- -------- καὶ καί
+4:11 A- ----ASM- τυφλόν τυφλός
+4:11 D- -------- οὐκ οὐ
+4:11 RP ----NS-- ἐγὼ ἐγώ
+4:11 RA ----NSM- ὁ ὁ
+4:11 N- ----NSM- θεός θεός
+4:12 C- -------- καὶ καί
+4:12 D- -------- νῦν νῦν
+4:12 V- 2PED-S-- πορεύου πορεύομαι
+4:12 C- -------- καὶ καί
+4:12 RP ----NS-- ἐγὼ ἐγώ
+4:12 V- 1FAI-S-- ἀνοίξω ἀνοίγω  # module AAS1S — the future, beside καὶ ἐγώ, as in 4:15
+4:12 RA ----ASN- τὸ ὁ
+4:12 N- ----ASN- στόμα στόμα
+4:12 RP ----GS-- σου σύ  # module lemma σοῦ, the form itself — σύ is the dictionary form
+4:12 C- -------- καὶ καί
+4:12 V- 1FAI-S-- συμβιβάσω συμβιβάζω  # module AAS1S — the future, beside ἀνοίξω, as in 4:15
+4:12 RP ----AS-- σε σύ  # module lemma σέ, the form itself — σύ is the dictionary form
+4:12 RR ----ASN- ὃ ὅς  # module NSN — the object of λαλῆσαι
+4:12 V- 2PAI-S-- μέλλεις μέλλω
+4:12 V- -AAN---- λαλῆσαι λαλέω
+4:13 C- -------- καὶ καί
+4:13 V- 3AAI-S-- εἶπεν λέγω  # module lemma ἔπω — λέγω keeps one dictionary form across both testaments
+4:13 N- ----NSM- Μωυσῆς Μωϋσῆς  # module lemma Μωσεύς — Μωϋσῆς, as MorphGNT files it
+4:13 V- 1PEI-S-- Δέομαι δέομαι
+4:13 N- ----VSM- κύριε κύριος
+4:13 V- 2AMD-S-- προχείρισαι προχειρίζω  # module lemma προχειρίζομαι — προχειρίζω, Middle Liddell's headword, whose deponent this is
+4:13 V- -PEPASM- δυνάμενον δύναμαι
+4:13 A- ----ASM- ἄλλον ἄλλος
+4:13 RR ----ASM- ὃν ὅς
+4:13 V- 2FAI-S-- ἀποστελεῖς ἀποστέλλω
+4:14 C- -------- καὶ καί
+4:14 V- -APPNSM- θυμωθεὶς θυμόω
+4:14 N- ----DSF- ὀργῇ ὀργή
+4:14 N- ----NSM- κύριος κύριος
+4:14 P- -------- ἐπὶ ἐπί
+4:14 N- ----ASM- Μωυσῆν Μωϋσῆς  # module lemma Μωσεύς — Μωϋσῆς, as MorphGNT files it
+4:14 V- 3AAI-S-- εἶπεν λέγω  # module lemma ἔπω — λέγω keeps one dictionary form across both testaments
+4:14 D- -------- Οὐκ οὐ
+4:14 X- -------- ἰδοὺ ἰδού
+4:14 N- ----NSM- Ααρων Ἀαρών
+4:14 RA ----NSM- ὁ ὁ
+4:14 N- ----NSM- ἀδελφός ἀδελφός
+4:14 RP ----GS-- σου σύ  # module lemma σοῦ, the form itself — σύ is the dictionary form
+4:14 RA ----NSM- ὁ ὁ
+4:14 N- ----NSM- Λευίτης Λευίτης  # module lemma Λευΐτης — Λευίτης, as MorphGNT files it
+4:14 V- 1PEI-S-- ἐπίσταμαι ἐπίσταμαι
+4:14 C- -------- ὅτι ὅτι
+4:14 V- -PAPNSM- λαλῶν λαλέω
+4:14 V- 3FAI-S-- λαλήσει λαλέω
+4:14 RP ----NSM- αὐτός αὐτός
+4:14 RP ----DS-- σοι σύ  # module lemma σοί, the form itself — σύ is the dictionary form
+4:14 C- -------- καὶ καί
+4:14 X- -------- ἰδοὺ ἰδού
+4:14 RP ----NSM- αὐτὸς αὐτός
+4:14 V- 3FMI-S-- ἐξελεύσεται ἐξέρχομαι
+4:14 P- -------- εἰς εἰς
+4:14 N- ----ASF- συνάντησίν συνάντησις
+4:14 RP ----DS-- σοι σύ  # module lemma σοί, the form itself — σύ is the dictionary form
+4:14 C- -------- καὶ καί
+4:14 V- -AAPNSM- ἰδών ὁράω
+4:14 RP ----AS-- σε σύ  # module lemma σέ, the form itself — σύ is the dictionary form
+4:14 V- 3FPI-S-- χαρήσεται χαίρω
+4:14 P- -------- ἐν ἐν
+4:14 RP ----DSM- ἑαυτῷ ἑαυτοῦ
+4:15 C- -------- καὶ καί
+4:15 V- 2FAI-S-- ἐρεῖς λέγω  # module lemma ἐρέω — λέγω, as MorphGNT files ἐροῦσιν (Luke 17:21)
+4:15 P- -------- πρὸς πρός
+4:15 RP ----ASM- αὐτὸν αὐτός
+4:15 C- -------- καὶ καί
+4:15 V- 2FAI-S-- δώσεις δίδωμι
+4:15 RA ----APN- τὰ ὁ
+4:15 N- ----APN- ῥήματά ῥῆμα
+4:15 RP ----GS-- μου ἐγώ  # module lemma μου, the form itself — ἐγώ is the dictionary form
+4:15 P- -------- εἰς εἰς
+4:15 RA ----ASN- τὸ ὁ
+4:15 N- ----ASN- στόμα στόμα
+4:15 RP ----GSM- αὐτοῦ αὐτός
+4:15 C- -------- καὶ καί
+4:15 RP ----NS-- ἐγὼ ἐγώ
+4:15 V- 1FAI-S-- ἀνοίξω ἀνοίγω
+4:15 RA ----ASN- τὸ ὁ
+4:15 N- ----ASN- στόμα στόμα
+4:15 RP ----GS-- σου σύ  # module lemma σοῦ, the form itself — σύ is the dictionary form
+4:15 C- -------- καὶ καί
+4:15 RA ----ASN- τὸ ὁ
+4:15 N- ----ASN- στόμα στόμα
+4:15 RP ----GSM- αὐτοῦ αὐτός
+4:15 C- -------- καὶ καί
+4:15 V- 1FAI-S-- συμβιβάσω συμβιβάζω
+4:15 RP ----AP-- ὑμᾶς σύ  # module lemma ὑμᾶς, the form itself — σύ is the dictionary form
+4:15 RR ----APN- ἃ ὅς
+4:15 V- 2FAI-P-- ποιήσετε ποιέω
+4:16 C- -------- καὶ καί
+4:16 RP ----NSM- αὐτός αὐτός
+4:16 RP ----DS-- σοι σύ  # module lemma σοί, the form itself — σύ is the dictionary form
+4:16 V- 3FAI-S-- προσλαλήσει προσλαλέω
+4:16 P- -------- πρὸς πρός
+4:16 RA ----ASM- τὸν ὁ
+4:16 N- ----ASM- λαόν λαός
+4:16 C- -------- καὶ καί
+4:16 RP ----NSM- αὐτὸς αὐτός
+4:16 V- 3FMI-S-- ἔσται εἰμί
+4:16 RP ----GS-- σου σύ  # module lemma σοῦ, the form itself — σύ is the dictionary form
+4:16 N- ----NSN- στόμα στόμα
+4:16 RP ----NS-- σὺ σύ
+4:16 C- -------- δὲ δέ
+4:16 RP ----DSM- αὐτῷ αὐτός
+4:16 V- 2FMI-S-- ἔσῃ εἰμί
+4:16 RA ----NPN- τὰ ὁ
+4:16 P- -------- πρὸς πρός
+4:16 RA ----ASM- τὸν ὁ
+4:16 N- ----ASM- θεόν θεός
+4:17 C- -------- καὶ καί
+4:17 RA ----ASF- τὴν ὁ
+4:17 N- ----ASF- ῥάβδον ῥάβδος
+4:17 RD ----ASF- ταύτην οὗτος
+4:17 RA ----ASF- τὴν ὁ
+4:17 V- -APPASF- στραφεῖσαν στρέφω
+4:17 P- -------- εἰς εἰς
+4:17 N- ----ASM- ὄφιν ὄφις
+4:17 V- 2FMI-S-- λήμψῃ λαμβάνω
+4:17 P- -------- ἐν ἐν
+4:17 RA ----DSF- τῇ ὁ
+4:17 N- ----DSF- χειρί χείρ
+4:17 RP ----GS-- σου σύ  # module lemma σοῦ, the form itself — σύ is the dictionary form
+4:17 P- -------- ἐν ἐν
+4:17 RR ----DSF- ᾗ ὅς
+4:17 V- 2FAI-S-- ποιήσεις ποιέω
+4:17 P- -------- ἐν ἐν
+4:17 RP ----DSF- αὐτῇ αὐτός
+4:17 RA ----APN- τὰ ὁ
+4:17 N- ----APN- σημεῖα σημεῖον
+4:18 V- 3API-S-- Ἐπορεύθη πορεύομαι
+4:18 C- -------- δὲ δέ
+4:18 N- ----NSM- Μωυσῆς Μωϋσῆς  # module lemma Μωσεύς — Μωϋσῆς, as MorphGNT files it
+4:18 C- -------- καὶ καί
+4:18 V- 3AAI-S-- ἀπέστρεψεν ἀποστρέφω
+4:18 P- -------- πρὸς πρός
+4:18 N- ----ASM- Ιοθορ Ιοθορ
+4:18 RA ----ASM- τὸν ὁ
+4:18 N- ----ASM- γαμβρὸν γαμβρός
+4:18 RP ----GSM- αὐτοῦ αὐτός
+4:18 C- -------- καὶ καί
+4:18 V- 3PAI-S-- λέγει λέγω
+4:18 V- 1FMI-S-- Πορεύσομαι πορεύομαι
+4:18 C- -------- καὶ καί
+4:18 V- 1FAI-S-- ἀποστρέψω ἀποστρέφω
+4:18 P- -------- πρὸς πρός
+4:18 RA ----APM- τοὺς ὁ
+4:18 N- ----APM- ἀδελφούς ἀδελφός
+4:18 RP ----GS-- μου ἐγώ  # module lemma μου, the form itself — ἐγώ is the dictionary form
+4:18 RA ----APM- τοὺς ὁ
+4:18 P- -------- ἐν ἐν
+4:18 N- ----DSF- Αἰγύπτῳ Αἴγυπτος
+4:18 C- -------- καὶ καί
+4:18 V- 1FMI-S-- ὄψομαι ὁράω
+4:18 C- -------- εἰ εἰ
+4:18 D- -------- ἔτι ἔτι
+4:18 V- 3PAI-P-- ζῶσιν ζάω
+4:18 C- -------- καὶ καί
+4:18 V- 3AAI-S-- εἶπεν λέγω  # module lemma ἔπω — λέγω keeps one dictionary form across both testaments
+4:18 N- ----NSM- Ιοθορ Ιοθορ
+4:18 N- ----DSM- Μωυσῇ Μωϋσῆς  # module lemma Μωσεύς — Μωϋσῆς, as MorphGNT files it
+4:18 V- 2PAD-S-- Βάδιζε βαδίζω
+4:18 V- -PAPNSM- ὑγιαίνων ὑγιαίνω
+4:19 P- -------- μετὰ μετά
+4:19 C- -------- δὲ δέ
+4:19 RA ----APF- τὰς ὁ
+4:19 N- ----APF- ἡμέρας ἡμέρα
+4:19 RA ----APF- τὰς ὁ
+4:19 A- ----APF- πολλὰς πολύς
+4:19 RD ----APF- ἐκείνας ἐκεῖνος
+4:19 V- 3AAI-S-- ἐτελεύτησεν τελευτάω
+4:19 RA ----NSM- ὁ ὁ
+4:19 N- ----NSM- βασιλεὺς βασιλεύς
+4:19 N- ----GSF- Αἰγύπτου Αἴγυπτος
+4:19 V- 3AAI-S-- εἶπεν λέγω  # module lemma ἔπω — λέγω keeps one dictionary form across both testaments
+4:19 C- -------- δὲ δέ
+4:19 N- ----NSM- κύριος κύριος
+4:19 P- -------- πρὸς πρός
+4:19 N- ----ASM- Μωυσῆν Μωϋσῆς  # module lemma Μωσεύς — Μωϋσῆς, as MorphGNT files it
+4:19 P- -------- ἐν ἐν
+4:19 N- ----DS-- Μαδιαμ Μαδιάμ  # module lemma Μαδιάν — Μαδιάμ, as MorphGNT files it (Acts 7:29)
+4:19 V- 2PAD-S-- Βάδιζε βαδίζω
+4:19 V- 2AAD-S-- ἄπελθε ἀπέρχομαι
+4:19 P- -------- εἰς εἰς
+4:19 N- ----ASF- Αἴγυπτον Αἴγυπτος
+4:19 V- 3XAI-P-- τεθνήκασιν θνήσκω
+4:19 C- -------- γὰρ γάρ
+4:19 A- ----NPM- πάντες πᾶς
+4:19 RA ----NPM- οἱ ὁ
+4:19 V- -PAPNPM- ζητοῦντές ζητέω
+4:19 RP ----GS-- σου σύ  # module lemma σοῦ, the form itself — σύ is the dictionary form
+4:19 RA ----ASF- τὴν ὁ
+4:19 N- ----ASF- ψυχήν ψυχή
+4:20 V- -AAPNSM- ἀναλαβὼν ἀναλαμβάνω
+4:20 C- -------- δὲ δέ
+4:20 N- ----NSM- Μωυσῆς Μωϋσῆς  # module lemma Μωσεύς — Μωϋσῆς, as MorphGNT files it
+4:20 RA ----ASF- τὴν ὁ
+4:20 N- ----ASF- γυναῖκα γυνή
+4:20 C- -------- καὶ καί
+4:20 RA ----APN- τὰ ὁ
+4:20 N- ----APN- παιδία παιδίον
+4:20 V- 3AAI-S-- ἀνεβίβασεν ἀναβιβάζω
+4:20 RP ----APN- αὐτὰ αὐτός
+4:20 P- -------- ἐπὶ ἐπί
+4:20 RA ----APN- τὰ ὁ
+4:20 N- ----APN- ὑποζύγια ὑποζύγιον
+4:20 C- -------- καὶ καί
+4:20 V- 3AAI-S-- ἐπέστρεψεν ἐπιστρέφω
+4:20 P- -------- εἰς εἰς
+4:20 N- ----ASF- Αἴγυπτον Αἴγυπτος
+4:20 V- 3AAI-S-- ἔλαβεν λαμβάνω
+4:20 C- -------- δὲ δέ
+4:20 N- ----NSM- Μωυσῆς Μωϋσῆς  # module lemma Μωσεύς — Μωϋσῆς, as MorphGNT files it
+4:20 RA ----ASF- τὴν ὁ
+4:20 N- ----ASF- ῥάβδον ῥάβδος
+4:20 RA ----ASF- τὴν ὁ
+4:20 P- -------- παρὰ παρά
+4:20 RA ----GSM- τοῦ ὁ
+4:20 N- ----GSM- θεοῦ θεός
+4:20 P- -------- ἐν ἐν
+4:20 RA ----DSF- τῇ ὁ
+4:20 N- ----DSF- χειρὶ χείρ
+4:20 RP ----GSM- αὐτοῦ αὐτός
+4:21 V- 3AAI-S-- εἶπεν λέγω  # module lemma ἔπω — λέγω keeps one dictionary form across both testaments
+4:21 C- -------- δὲ δέ
+4:21 N- ----NSM- κύριος κύριος
+4:21 P- -------- πρὸς πρός
+4:21 N- ----ASM- Μωυσῆν Μωϋσῆς  # module lemma Μωσεύς — Μωϋσῆς, as MorphGNT files it
+4:21 V- -PEPGSM- Πορευομένου πορεύομαι
+4:21 RP ----GS-- σου σύ  # module lemma σοῦ, the form itself — σύ is the dictionary form
+4:21 C- -------- καὶ καί
+4:21 V- -PAPGSM- ἀποστρέφοντος ἀποστρέφω
+4:21 P- -------- εἰς εἰς
+4:21 N- ----ASF- Αἴγυπτον Αἴγυπτος
+4:21 V- 2PAD-S-- ὅρα ὁράω
+4:21 A- ----APN- πάντα πᾶς
+4:21 RA ----APN- τὰ ὁ
+4:21 N- ----APN- τέρατα τέρας
+4:21 RR ----APN- ἃ ὅς
+4:21 V- 1AAI-S-- ἔδωκα δίδωμι
+4:21 P- -------- ἐν ἐν
+4:21 RA ----DPF- ταῖς ὁ
+4:21 N- ----DPF- χερσίν χείρ
+4:21 RP ----GS-- σου σύ  # module lemma σοῦ, the form itself — σύ is the dictionary form
+4:21 V- 2FAI-S-- ποιήσεις ποιέω
+4:21 RP ----APN- αὐτὰ αὐτός
+4:21 P- -------- ἐναντίον ἐναντίον
+4:21 N- ----GSM- Φαραω Φαραώ
+4:21 RP ----NS-- ἐγὼ ἐγώ
+4:21 C- -------- δὲ δέ
+4:21 V- 1FAI-S-- σκληρυνῶ σκληρύνω
+4:21 RA ----ASF- τὴν ὁ
+4:21 N- ----ASF- καρδίαν καρδία
+4:21 RP ----GSM- αὐτοῦ αὐτός
+4:21 C- -------- καὶ καί
+4:21 D- -------- οὐ οὐ
+4:21 D- -------- μὴ μή
+4:21 V- 3AAS-S-- ἐξαποστείλῃ ἐξαποστέλλω
+4:21 RA ----ASM- τὸν ὁ
+4:21 N- ----ASM- λαόν λαός
+4:22 RP ----NS-- σὺ σύ
+4:22 C- -------- δὲ δέ
+4:22 V- 2FAI-S-- ἐρεῖς λέγω  # module lemma ἐρέω — λέγω, as MorphGNT files ἐροῦσιν (Luke 17:21)
+4:22 RA ----DSM- τῷ ὁ
+4:22 N- ----DSM- Φαραω Φαραώ
+4:22 RD ----APN- Τάδε ὅδε
+4:22 V- 3PAI-S-- λέγει λέγω
+4:22 N- ----NSM- κύριος κύριος
+4:22 N- ----NSM- Υἱὸς υἱός
+4:22 A- ----NSC- πρωτότοκός πρωτότοκος
+4:22 RP ----GS-- μου ἐγώ  # module lemma μου, the form itself — ἐγώ is the dictionary form
+4:22 N- ----NSM- Ισραηλ Ἰσραήλ  # module GSM — nominative: Israel is my firstborn son, the subject of a verbless clause
+4:23 V- 1AAI-S-- εἶπα λέγω  # module lemma ἔπω — λέγω keeps one dictionary form across both testaments
+4:23 C- -------- δέ δέ
+4:23 RP ----DS-- σοι σύ  # module lemma σοί, the form itself — σύ is the dictionary form
+4:23 V- 2AAD-S-- Ἐξαπόστειλον ἐξαποστέλλω
+4:23 RA ----ASM- τὸν ὁ
+4:23 N- ----ASM- λαόν λαός
+4:23 RP ----GS-- μου ἐγώ  # module lemma μου, the form itself — ἐγώ is the dictionary form
+4:23 C- -------- ἵνα ἵνα
+4:23 RP ----DS-- μοι ἐγώ  # module lemma μοι, the form itself — ἐγώ is the dictionary form
+4:23 V- 3AAS-S-- λατρεύσῃ λατρεύω
+4:23 C- -------- εἰ εἰ
+4:23 C- -------- μὲν μέν
+4:23 C- -------- οὖν οὖν
+4:23 D- -------- μὴ μή
+4:23 V- 2PEI-S-- βούλει βούλομαι
+4:23 V- -AAN---- ἐξαποστεῖλαι ἐξαποστέλλω
+4:23 RP ----APM- αὐτούς αὐτός
+4:23 V- 2PAD-S-- ὅρα ὁράω
+4:23 C- -------- οὖν οὖν
+4:23 RP ----NS-- ἐγὼ ἐγώ
+4:23 V- 1FAI-S-- ἀποκτενῶ ἀποκτείνω
+4:23 RA ----ASM- τὸν ὁ
+4:23 N- ----ASM- υἱόν υἱός
+4:23 RP ----GS-- σου σύ  # module lemma σοῦ, the form itself — σύ is the dictionary form
+4:23 RA ----ASM- τὸν ὁ
+4:23 A- ----ASC- πρωτότοκον πρωτότοκος
+4:24 V- 3AMI-S-- Ἐγένετο γίνομαι
+4:24 C- -------- δὲ δέ
+4:24 P- -------- ἐν ἐν
+4:24 RA ----DSF- τῇ ὁ
+4:24 N- ----DSF- ὁδῷ ὁδός
+4:24 P- -------- ἐν ἐν
+4:24 RA ----DSN- τῷ ὁ
+4:24 N- ----DSN- καταλύματι κατάλυμα
+4:24 V- 3AAI-S-- συνήντησεν συναντάω
+4:24 RP ----DSM- αὐτῷ αὐτός
+4:24 N- ----NSM- ἄγγελος ἄγγελος
+4:24 N- ----GSM- κυρίου κύριος
+4:24 C- -------- καὶ καί
+4:24 V- 3IAI-S-- ἐζήτει ζητέω
+4:24 RP ----ASM- αὐτὸν αὐτός
+4:24 V- -AAN---- ἀποκτεῖναι ἀποκτείνω
+4:25 C- -------- καὶ καί
+4:25 V- -AAPNSF- λαβοῦσα λαμβάνω
+4:25 N- ----NSF- Σεπφωρα Σεπφωρα
+4:25 N- ----ASF- ψῆφον ψῆφος
+4:25 V- 3AAI-S-- περιέτεμεν περιτέμνω
+4:25 RA ----ASF- τὴν ὁ
+4:25 N- ----ASF- ἀκροβυστίαν ἀκροβυστία
+4:25 RA ----GSM- τοῦ ὁ
+4:25 N- ----GSM- υἱοῦ υἱός
+4:25 RP ----GSF- αὐτῆς αὐτός
+4:25 C- -------- καὶ καί
+4:25 V- 3AAI-S-- προσέπεσεν προσπίπτω
+4:25 P- -------- πρὸς πρός
+4:25 RA ----APM- τοὺς ὁ
+4:25 N- ----APM- πόδας πούς
+4:25 C- -------- καὶ καί
+4:25 V- 3AAI-S-- εἶπεν λέγω  # module lemma ἔπω — λέγω keeps one dictionary form across both testaments
+4:25 V- 3AAI-S-- Ἔστη ἵστημι
+4:25 RA ----NSN- τὸ ὁ
+4:25 N- ----NSN- αἷμα αἷμα
+4:25 RA ----GSF- τῆς ὁ
+4:25 N- ----GSF- περιτομῆς περιτομή
+4:25 RA ----GSN- τοῦ ὁ
+4:25 N- ----GSN- παιδίου παιδίον
+4:25 RP ----GS-- μου ἐγώ  # module lemma μου, the form itself — ἐγώ is the dictionary form
+4:26 C- -------- καὶ καί
+4:26 V- 3AAI-S-- ἀπῆλθεν ἀπέρχομαι
+4:26 P- -------- ἀπʼ ἀπό
+4:26 RP ----GSM- αὐτοῦ αὐτός
+4:26 C- -------- διότι διότι
+4:26 V- 3AAI-S-- εἶπεν λέγω  # module lemma ἔπω — λέγω keeps one dictionary form across both testaments
+4:26 V- 3AAI-S-- Ἔστη ἵστημι
+4:26 RA ----NSN- τὸ ὁ
+4:26 N- ----NSN- αἷμα αἷμα
+4:26 RA ----GSF- τῆς ὁ
+4:26 N- ----GSF- περιτομῆς περιτομή
+4:26 RA ----GSN- τοῦ ὁ
+4:26 N- ----GSN- παιδίου παιδίον
+4:26 RP ----GS-- μου ἐγώ  # module lemma μου, the form itself — ἐγώ is the dictionary form
+4:27 V- 3AAI-S-- Εἶπεν λέγω  # module lemma ἔπω — λέγω keeps one dictionary form across both testaments
+4:27 C- -------- δὲ δέ
+4:27 N- ----NSM- κύριος κύριος
+4:27 P- -------- πρὸς πρός
+4:27 N- ----ASM- Ααρων Ἀαρών
+4:27 V- 2APD-S-- Πορεύθητι πορεύομαι
+4:27 P- -------- εἰς εἰς
+4:27 N- ----ASF- συνάντησιν συνάντησις
+4:27 N- ----DSM- Μωυσεῖ Μωϋσῆς  # module lemma Μωσεύς — Μωϋσῆς, as MorphGNT files it
+4:27 P- -------- εἰς εἰς
+4:27 RA ----ASF- τὴν ὁ
+4:27 A- ----ASF- ἔρημον ἔρημος
+4:27 C- -------- καὶ καί
+4:27 V- 3API-S-- ἐπορεύθη πορεύομαι
+4:27 C- -------- καὶ καί
+4:27 V- 3AAI-S-- συνήντησεν συναντάω
+4:27 RP ----DSM- αὐτῷ αὐτός
+4:27 P- -------- ἐν ἐν
+4:27 RA ----DSN- τῷ ὁ
+4:27 N- ----DSN- ὄρει ὄρος
+4:27 RA ----GSM- τοῦ ὁ
+4:27 N- ----GSM- θεοῦ θεός
+4:27 C- -------- καὶ καί
+4:27 V- 3AAI-P-- κατεφίλησαν καταφιλέω
+4:27 RP ----APM- ἀλλήλους ἀλλήλων
+4:28 C- -------- καὶ καί
+4:28 V- 3AAI-S-- ἀνήγγειλεν ἀναγγέλλω
+4:28 N- ----NSM- Μωυσῆς Μωϋσῆς  # module lemma Μωσεύς — Μωϋσῆς, as MorphGNT files it
+4:28 RA ----DSM- τῷ ὁ
+4:28 N- ----DSM- Ααρων Ἀαρών
+4:28 A- ----APM- πάντας πᾶς
+4:28 RA ----APM- τοὺς ὁ
+4:28 N- ----APM- λόγους λόγος
+4:28 N- ----GSM- κυρίου κύριος
+4:28 RR ----APM- οὓς ὅς
+4:28 V- 3AAI-S-- ἀπέστειλεν ἀποστέλλω
+4:28 C- -------- καὶ καί
+4:28 A- ----APN- πάντα πᾶς
+4:28 RA ----APN- τὰ ὁ
+4:28 N- ----APN- σημεῖα σημεῖον
+4:28 RR ----APN- ἃ ὅς
+4:28 V- 3AMI-S-- ἐνετείλατο ἐντέλλομαι
+4:28 RP ----DSM- αὐτῷ αὐτός
+4:29 V- 3API-S-- ἐπορεύθη πορεύομαι
+4:29 C- -------- δὲ δέ
+4:29 N- ----NSM- Μωυσῆς Μωϋσῆς  # module lemma Μωσεύς — Μωϋσῆς, as MorphGNT files it
+4:29 C- -------- καὶ καί
+4:29 N- ----NSM- Ααρων Ἀαρών
+4:29 C- -------- καὶ καί
+4:29 V- 3AAI-P-- συνήγαγον συνάγω
+4:29 RA ----ASF- τὴν ὁ
+4:29 N- ----ASF- γερουσίαν γερουσία
+4:29 RA ----GPM- τῶν ὁ
+4:29 N- ----GPM- υἱῶν υἱός
+4:29 N- ----GSM- Ισραηλ Ἰσραήλ
+4:30 C- -------- καὶ καί
+4:30 V- 3AAI-S-- ἐλάλησεν λαλέω
+4:30 N- ----NSM- Ααρων Ἀαρών
+4:30 A- ----APN- πάντα πᾶς
+4:30 RA ----APN- τὰ ὁ
+4:30 N- ----APN- ῥήματα ῥῆμα
+4:30 RD ----APN- ταῦτα οὗτος
+4:30 RR ----APN- ἃ ὅς
+4:30 V- 3AAI-S-- ἐλάλησεν λαλέω
+4:30 RA ----NSM- ὁ ὁ
+4:30 N- ----NSM- θεὸς θεός
+4:30 P- -------- πρὸς πρός
+4:30 N- ----ASM- Μωυσῆν Μωϋσῆς  # module lemma Μωσεύς — Μωϋσῆς, as MorphGNT files it
+4:30 C- -------- καὶ καί
+4:30 V- 3AAI-S-- ἐποίησεν ποιέω
+4:30 RA ----APN- τὰ ὁ
+4:30 N- ----APN- σημεῖα σημεῖον
+4:30 P- -------- ἐναντίον ἐναντίον
+4:30 RA ----GSM- τοῦ ὁ
+4:30 N- ----GSM- λαοῦ λαός
+4:31 C- -------- καὶ καί
+4:31 V- 3AAI-S-- ἐπίστευσεν πιστεύω
+4:31 RA ----NSM- ὁ ὁ
+4:31 N- ----NSM- λαὸς λαός
+4:31 C- -------- καὶ καί
+4:31 V- 3API-S-- ἐχάρη χαίρω
+4:31 C- -------- ὅτι ὅτι
+4:31 V- 3AMI-S-- ἐπεσκέψατο ἐπισκέπτομαι
+4:31 RA ----NSM- ὁ ὁ
+4:31 N- ----NSM- θεὸς θεός
+4:31 RA ----APM- τοὺς ὁ
+4:31 N- ----APM- υἱοὺς υἱός
+4:31 N- ----GSM- Ισραηλ Ἰσραήλ
+4:31 C- -------- καὶ καί
+4:31 C- -------- ὅτι ὅτι
+4:31 V- 3AAI-S-- εἶδεν ὁράω
+4:31 RP ----GPM- αὐτῶν αὐτός
+4:31 RA ----ASF- τὴν ὁ
+4:31 N- ----ASF- θλῖψιν θλῖψις
+4:31 V- -AAPNSM- κύψας κύπτω
+4:31 C- -------- δὲ δέ
+4:31 RA ----NSM- ὁ ὁ
+4:31 N- ----NSM- λαὸς λαός
+4:31 V- 3AAI-S-- προσεκύνησεν προσκυνέω
