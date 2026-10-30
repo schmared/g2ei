@@ -6505,3 +6505,19 @@ text uses.
 - ἵστημι — ἔστησαν is both aorists' third plural; at 43:15 it has no object, and the causal
   pattern now leaves the third plural to the intransitive, as ἀφίστημι's does: `were set`, the
   chain of 23:17 in the plural. στήσω at 43:9 is the aorist subjunctive, `I may make to stand`.
+
+## Loose ends before Genesis 44
+
+**Exclusions accumulate.** A word filed under another word's entry reads that entry's
+`NOT_SENSES` and its own together. The loose ends before Genesis 43 had let a word's own set
+replace its entry's, for νή, and that undid three others: οὐθείς, filed under οὐδείς, showed
+οὐδείς's Latin *ne ullus* again (30, 31, 39, 41), πρεσβύτης showed πρέσβυς's scrap *the wise* (25),
+and σῴζω, filed under the unsubscripted σώζω, lost that entry's exclusions. νή's oath sense, which
+ναί's card sets aside, now stands in `KEEP_SENSES`, a table of what a word keeps from its entry's
+exclusions. Before either change, a word's own set had never applied at all, so πρεσβύτης had
+shown the comparative's *elder, older* and σῴζω the middle's *preserve for oneself*; the readings
+already left both out.
+
+**The εἴδω note on ὁράω.** Eleven aorists of ὁράω, 18:2 to 28:6, carried the note written for
+οἶδα's pluperfect, *Middle Liddell files this under οἶδα*. They now read as the other twenty do:
+*Middle Liddell files the aorist under ὁράω*.

@@ -1116,10 +1116,6 @@ NOT_SENSES = {
              "rotted", "made", "slack", "loose", "killed", "weak", "ties are broken", "in full",
              "it boots not"},                   # glosses of examples' forms and pieces of senses
     "e)pe/rxomai": {"it happened", "over", "on"},  # an impersonal example; pieces of "to go over"
-    # νή is the particle of oaths, with the accusative of what is sworn by; ναί's own "yea by",
-    # which ναί's card sets aside as an oath formula, is the sense νή's parse calls for.
-    "nh/": set(),
-    # ἄν: a paragraph on the particle's uses, tagged as one translation, opens the card.
     "diamarturi/a": {"evidence given to prevent"},  # the half the <tr> holds; MARKUP_LOST has it whole
     "e)kde/xomai": {"succeeded"},                # an example's verb
     "staqmo/s": {"in weight", "in", "by weight", "weights"},  # the dative's idioms and an example
@@ -1128,8 +1124,14 @@ NOT_SENSES = {
                   "pithy"},                     # pieces of senses, examples, and the participle's adverb
     "a)pe/xw": {"part", "to hold one's", "off", "were far from", "from", "it sufficeth, it is enough",
                "to be as far"},  # "to be as far as possible from", an example's piece
+    # ἄν: a paragraph on the particle's uses, tagged as one translation, opens the card.
     "a)/n": {'conditional Particle. In attic, it is not joined with pres. or perf. ind., nor with imperat. of any tense. Three uses of a)/n must be distinguished in practice: in combination with Conjunctions and Relatives. in Apodosis. in Iterative sentences. in combinations with Conjunctions and Relatives: such words are regularly foll. by the subj., viz. e)a/n (= ei) a)/n) h)/n, a)/n , e)ph/n; o(\\s a)/n quicunque'},
 }
+
+# Senses a word filed under another word's entry keeps, though that entry's NOT_SENSES sets
+# them aside. νή is the particle of oaths, with the accusative of what is sworn by; ναί's own
+# "yea by", which ναί's card sets aside as an oath formula, is the sense νή's parse calls for.
+KEEP_SENSES = {"nh/": {"yea by . ."}}
 
 # An entry that divides its senses by tense and voice, so that which of them belong to a
 # form depends on the form's parse and not on its lemma alone. For a form whose tense and
@@ -1660,9 +1662,10 @@ def lexicon_senses(entries, lemma, code="", form=""):
     if key not in entries:
         return None
     bare = re.sub(r"\d+$", "", key)
-    # A word filed under another word's entry reads that entry's exclusions, unless it has its
-    # own: νή is filed under ναί, and the oath formula ναί sets aside is what νή is.
-    skip = NOT_SENSES.get(beta(lemma), NOT_SENSES.get(bare, set()))
+    # A word filed under another word's entry reads that entry's exclusions and its own, less
+    # any it keeps: νή is filed under ναί, and the oath formula ναί sets aside is what νή is.
+    skip = ((NOT_SENSES.get(bare, set()) | NOT_SENSES.get(beta(lemma), set()))
+            - KEEP_SENSES.get(beta(lemma), set()))
     code = code.ljust(8, "-")
     plain = "".join(c for c in unicodedata.normalize("NFD", form)
                     if not unicodedata.combining(c)).lower()
