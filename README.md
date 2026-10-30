@@ -28,9 +28,9 @@ Four things, in this order:
    shaded. Nothing else differs — both panels are generated from one source string — and
    the unshaded words alone read as a plain word-for-word rendering.
 
-The rendered page sets all four side by side as columns, the Greek first, and each can be
-switched off and on from the bar at the top; on a phone the page opens on the Greek and the
-unanchored text. The Greek column stays in view while the readings beside it scroll, so the
+The rendered page sets the four side by side as columns — anchored, unanchored, Greek,
+notes — and each can be switched off and on from the bar at the top; on a phone the page
+opens on the unanchored text and the Greek. The Greek column stays in view while the readings beside it scroll, so the
 eye can follow along. Above the columns, two controls: one closes the Greek's word spaces —
 *scriptio continua*, which is what a fourth-century reader actually met on the page — and one
 opens the [word-by-word](#word-by-word) layer. A further column is one more panel and one

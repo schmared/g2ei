@@ -12,7 +12,7 @@ reader can switch on and off, so that a reader who knows Hebrew can follow along
 
 ### How it fits the page
 
-The verse is already a row of toggleable columns: Greek, Notes, Unanchored, Anchored. Each is
+The verse is already a row of toggleable columns: Anchored, Unanchored, Greek, Notes. Each is
 an `<article class="panel" data-panel="…">` in `templates/verse.html` with a matching pill in
 the controls bar of `templates/page.html`, and the grid takes its column count from the pills
 that are on. The Hebrew is one more of each, `data-panel="hebrew"`, next to the Greek. Nothing
