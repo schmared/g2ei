@@ -1148,6 +1148,14 @@ NOT_SENSES = {
     "loipo/s": {"quod superest"},                # Latin
     "e)ktre/fw": {"for oneself"},                # a piece of the middle's "to rear for oneself"
     "gemi/zw": {"charging", "with", "freighted"},  # pieces of examples
+    "zeu/gnumi": {"to put to one's", "having", "fastened", "in the yoke of", "well-joined", "by bridges", "with ropes"},  # pieces of examples and of the middle's
+    # τέλος: repetitions inside examples ("its issue", "the result", "the end" before "the end,
+    # death", "full age", "a tax", "the magistrates"), pieces ("hood" of "man hood", "it"), the
+    # phrases τέλος ἔχειν and λαβεῖν rendered whole, and Cicero's Latin
+    "te/los": {"issue", "a finish", "accomplished", "the end, to be finished", "ready", "the result",
+               "completed", "the end", "finis bonorum", "full age", "hood", "to be grown up", "duties",
+               "squadrons", "troops", "due", "a tax", "it", "the magistrates",
+               "as the consummation of life"},
     "e)calla/ssw": {"sees", "change take place", "other", "shall I take?"},  # pieces of examples
     "ble/pw": {"see too clearly", "face", "looked", "looking like", "thoughtful", "looking towards",
                "actually existing"},           # pieces of examples, and the participle's
@@ -1201,6 +1209,9 @@ FORM_SENSES = {
         "fare well", "with a benison", "welcome", "S. D.", "go unpunished, shalt repent",
         "hail, welcome", "fare-thee-well, farewell, good-bye", "glad, joyful, delighted",
         "safe, with impunity", "to dismiss from one's mind, put away from one, renounce"})],
+    # ζεύγνυμι: "in Mid., of the husband, to wed … Pass. to be married". GEN 46:29's active
+    # ζεύξας, he yoked his chariots, takes neither.
+    "zeu/gnumi": [("PIFAXY", "A", {"to put to one's", "having", "fastened", "in the yoke of", "well-joined", "by bridges", "with ropes", "to wed", "to be married"})],
     # διαβοάω: "Mid. to contend in shouting" is not a sense of the passive διεβοήθη, GEN 45:16.
     "diaboa/w": [("PIFAXY", "P", {"to contend in shouting"})],
     # ἀπέχω: "Mid. … to hold oneself off a thing, abstain or desist from it". GEN 43:23's

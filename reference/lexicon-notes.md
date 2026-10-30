@@ -6659,3 +6659,40 @@ written `their rest` and `his rest`, is now read past by the check.
 The ranges check now gives an articular participle the range of its own a word used as a noun
 has: τὰ ὑπάρχοντα, `the existing circumstances`, had shared a count with ὑπάρχει, `begins`, by
 coincidence, and the join parted them.
+
+### Words new in GEN 46
+
+From Middle Liddell unless marked; the headword is the entry's first translation in the form the
+text uses. Chains already in the corpus were read from it, in their joined form.
+
+- τέλος (anarthrous, in εἰς τέλος) — **headword** `fulfilment`; **chain** `fulfilment or
+  completion, consummation and issue and result and end, end and death, point or term, at last,
+  throughout and for ever and completely, …, offerings, sacred rites`, the lexicon's articles
+  dropped where the Greek has none. Repetitions inside examples, the pieces *hood* and *it*, the
+  phrases τέλος ἔχειν and λαβεῖν, and Cicero's *finis bonorum* are in `NOT_SENSES`. 46:4.
+- ἀναβιβάζω (future) — `I will make go up`, the chain of the aorist. 46:4.
+- ἐπιβάλλω (future) — `will throw`, the chain of the aorist. 46:4.
+- κτῆσις (articular) — `the acquisition, the possession, the possessions and property`. 46:6.
+- ψυχή (plural) — `the breaths, the lives, the spirits, life and death, the ghosts, the departed
+  souls`; anarthrous, `breaths, …`. It counts persons. 46:15–27.
+- ζεύγνυμι — **headword** `having yoked`; **chain** `having yoked and put to, having harnessed and
+  saddled and bridled, having put to and got ready, having bound and bound fast, having joined
+  together, having joined in wedlock, having joined, having formed, having undergirded`. The
+  middle's *to wed* and the passive's *to be married* are set aside for the active by the form;
+  the examples' pieces are in `NOT_SENSES`. 46:29.
+- ἅρμα (plural) — `the chariots, the war-chariots, the chariots and horses and yoked chariots,
+  the teams and horses`. 46:29.
+- πολύς (comparative, πλείων) — `to more and mightier and greater, to deeper, to louder, to
+  stronger, to larger and wider, to farther, to longer, to oftener`, the positive's senses in the
+  comparative. 46:29.
+- συναντάω (infinitive) — `to meet face to face`, the chain of the aorist. 46:28.
+- κτηνοτρόφος — one translation with a comma, *keeping cattle, pastoral*: `keeping cattle and
+  pastoral`. 46:32, 46:34.
+- ἄγω (perfect, ἀγειόχασιν) — `have led and it stands so, have carried, have conveyed, have
+  brought, have marched`. 46:32.
+- θυγάτηρ, ἀδελφή, συνάντησις, κλαυθμός, γῆρας and the numerals — one translation each: plain
+  text.
+- Names: about fifty new, most from the lists of 46:9–24. Where the Greek gives a name the Hebrew
+  spells otherwise the gloss says *for* the Hebrew form (Ζαμβραμ, for Šimrôn); where it gives Perez's
+  son the name of Simeon's (Ιεμουηλ for Ḥāmûl, 46:12), the second bearer has its own entry and
+  English name. Ἡρώων πόλις is glossed as Ἡλίου πόλις was, the first word a capitalised Greek noun.

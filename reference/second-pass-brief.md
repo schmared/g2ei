@@ -448,6 +448,12 @@ is the imperative after ἀνάβητε. The first had the other five: τοῦτ
 and ἔτη of duration, where the second pass had made verbless clauses of both. Both passes read the
 λοιπὰ πέντε ἔτη of 45:6 as nominative. The instructions now name the accusative of time.
 
+### What it found in Genesis 46
+
+No disagreements over 668 words, most of them names. One difference the comparison passes over,
+and the second pass had it right: πλείονι, the comparative of πολύς, takes gender `C`, `----DSCC`,
+as the corpus codes μείζων and ἐλάσσων, where the first pass had `M`.
+
 ## The brief
 
 Copy everything below the rule into a new agent. Replace `<BOOK NAME>`, `<CHAPTER>`,
