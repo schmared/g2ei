@@ -469,7 +469,7 @@ GRAMMAR = {
     "do", "does", "did", "let", "not", "and", "or", "that", "it", "its", "he", "him",
     "his", "she", "her", "they", "them", "their", "we", "us", "our", "i", "my", "me",
     "you", "your", "one", "ones", "oneself", "himself", "herself", "itself",
-    "themselves", "myself", "yourself", "yourselves", "ourselves", "who", "whom", "what",
+    "themselves", "myself", "yourself", "yourselves", "ourselves", "who", "whom", "what", "one's",
     "which", "this", "these", "those", "there", "so", "as", "own",
 }
 
@@ -502,6 +502,8 @@ IRREGULAR = {
     "teeth": "tooth", "oxen": "ox", "geese": "goose", "mice": "mouse", "lives": "life",
     "wives": "wife", "knives": "knife", "leaves": "leaf", "calves": "calf",
     "halves": "half", "thieves": "thief", "loaves": "loaf", "selves": "self",
+    "slew": "slay", "slain": "slay", "begot": "beget", "begotten": "beget", "sped": "speed",
+    "died": "die", "dying": "die", "oversaw": "oversee", "overseen": "oversee", "lying": "lie",
 }
 
 # The project's own wording for verbal aspect (CLAUDE.md). It is grammar written into the
@@ -521,7 +523,9 @@ def stem(token):
         if len(token) > 5 and token.endswith(("ies", "ied")):
             token = token[:-3] + "y"
             break
-        elif len(token) > 4 and token.endswith("ing"):
+        elif len(token) > 4 and token.endswith("ing") and re.search(r"[aeiouy]", token[:-3]):
+            # `bringing` to `bring`, but `bring` and `thing` are words of their own: what is
+            # left without a vowel was never an `-ing` ending
             token = token[:-3]
             break
         elif len(token) > 4 and token.endswith("ed"):
@@ -554,6 +558,144 @@ def senses(chain):
         if token and token not in GRAMMAR:
             out[token] += 1
     return out
+
+
+def content(text):
+    """The stems a gloss or a chain item says, what only the form put there set aside."""
+    return set(senses(text))
+
+
+def leading_grammar(item):
+    """The words an item opens with that only the form put there: `of the`, `we will`."""
+    out = []
+    for token in item.split(" "):
+        # the article's noun goes with the article: `the things going into and entering`
+        if token.lower() not in GRAMMAR and not (out and token in ("thing", "things")):
+            break
+        out.append(token)
+    return out
+
+
+def split_runs(chain, card):
+    """Where a chain splits one translation of its card across items: [(first, last)].
+
+    Middle Liddell gives a sense as a run of words in one translation — σταθμός *a
+    dwelling, abode*, κιβωτός *a wooden box, chest, coffer* — and the run is one sense with
+    several English words for it. The chain keeps it as one item, the words joined with
+    *and*: `dwelling and abode`. Split into items of their own, `face, visage, countenance`,
+    each word reads as a sense of its own, and the commas no longer tell the reader where
+    the entry's senses part.
+
+    A run is found where its words fall on consecutive items, in order, each item saying
+    exactly the words of the run it holds and nothing else: a word the chain put somewhere
+    else, or dropped, is not this check's to decide. Nor is an item another sense of the
+    card says by itself — ἀκούω gives *to have hearing of* alone and *to hear of, hear tell
+    of* as a run, and `had hearing of` is the first — or a stretch two runs both reach.
+    """
+    items = chain.split(", ")
+    # the article's noun, `the things going into`, is the form's and not the entry's; but
+    # `things which are eaten` is the entry's `that which is eaten`, so an item is read both
+    # with the opening noun and without it
+    said = [content(item) for item in items]
+    bare = [content(re.sub(r"^(?:of |to )?(?:the )?(?:things?|ones?) ", "", item)) for item in items]
+    alone = [content(sense) for sense in card if len(re.split(r",\s*", sense)) == 1]
+    found = []
+    for sense in card:
+        pieces = [content(p) for p in re.split(r",\s*", sense)]
+        pieces = [p for p in pieces if p]
+        if len(pieces) < 2:
+            continue
+        for start in range(len(items)):
+            at, acc, ok = start, set(), True
+            for piece in pieces:
+                if at >= len(items):
+                    ok = False
+                    break
+                acc |= piece
+                if acc in (said[at], bare[at]):
+                    at, acc = at + 1, set()
+                elif not (acc < said[at] or acc < bare[at]):
+                    ok = False
+                    break
+            if (ok and not acc and at - 1 > start
+                    and not any(said[i] in alone or bare[i] in alone for i in range(start, at))):
+                found.append((start, at - 1))
+                break
+    found = set(found)
+    return sorted(r for r in found if not any(o != r and o[0] <= r[1] and r[0] <= o[1]
+                                              for o in found))
+
+
+def join_runs(chain, card):
+    """The chain with each split run joined into one item, its shared opening said once.
+
+    The perfect's formula comes once, at the end of the joined item, where it stood on the
+    item that carried it: `has talked and chatted and prattled and babbled and it stands
+    so`. Anywhere inside, it would close the item early for every check that reads one.
+    """
+    for lead in MERGED_LEAD:
+        if chain.startswith(lead):
+            return lead + join_runs(chain[len(lead):], card)
+    items = chain.split(", ")
+    for first, last in reversed(split_runs(chain, card)):
+        aspect = ASPECT.search(items[first])
+        parts = [ASPECT.sub("", item).rstrip() for item in items[first:last + 1]]
+        head = leading_grammar(parts[0])
+        joined = parts[0]
+        for item in parts[1:]:
+            words = item.split(" ")
+            n = 0
+            while n < len(head) and n < len(words) - 1 and words[n] == head[n]:
+                n += 1
+            joined += " and " + " ".join(words[n:])
+        if aspect:
+            joined += " " + aspect.group(0).strip()
+        items[first:last + 1] = [joined]
+    return ", ".join(items)
+
+
+def unit_cards(book, chapter, verses):
+    """Each unit of a chapter with the full card of the word it opens.
+
+    Yields (verse, head, chain, field, card); the card is None where it cannot be had — a
+    preposition, read by its case's section; a formula word; a word the morphology does not
+    hold where the unit says.
+    """
+    import words
+    if not _ENTRIES:
+        _ENTRIES.append(words.load_middle_liddell())
+    tokens = words.nt_tokens(book, chapter) if book in words.NT else words.lxx_tokens(book, chapter)
+    for verse in verses:
+        number = int(verse["ref"].rsplit(":", 1)[1])
+        theirs = (tokens or {}).get(number, [])
+        nth = collections.Counter()
+        for head, chain, field in units(verse["reading"]):
+            word = lemmas(field)[-1]
+            k, nth[word] = nth[word], nth[word] + 1
+            card = None
+            if " + " not in field.split(";")[-1] and word not in FORMULA_LEMMAS:
+                places = [t for t in theirs if t[1] == word]
+                if k < len(places):
+                    form, lemma, code = places[k][:3]
+                    card = words.lexicon_senses(_ENTRIES[0], lemma, code, form)
+                    if card is None:
+                        card = words.LSJ.get(lemma)
+            yield verse, head, chain, field, card
+
+
+def check_runs(book, chapter, verses, rep):
+    """A run of words in one translation of the card is one item of the chain."""
+    before = rep.failed
+    count = 0
+    for verse, head, chain, field, card in unit_cards(book, chapter, verses):
+        if not card:
+            continue
+        count += 1
+        for first, last in split_runs(chain, card):
+            items = chain.split(", ")
+            rep.fail("runs", verse["ref"], "%s `%s` splits one translation across `%s` — join "
+                     "it with and" % (lemmas(field)[-1], head, ", ".join(items[first:last + 1])))
+    rep.done("runs", "%d units, each translation one item" % count, before)
 
 
 def chains_that_drifted(seen):
@@ -650,7 +792,8 @@ def opening(word, chain):
     first = re.sub(r"^(?:of |to )?(?:the |a |an )?", "", chain.split(", ")[0]).lower()
     for i, sense in enumerate(words.lexicon_senses(_ENTRIES[0], word["lemma"]) or []):
         core = re.sub(r"^(?:to |the |a |an )", "", re.split(r"[,;:]", sense)[0].strip()).lower()
-        if core == first:
+        # a run joined into the first item: `the existing circumstances and present advantages`
+        if first == core or first.startswith(core + " and "):
             return "" if i == 0 else core
     return ""
 
@@ -663,7 +806,9 @@ def range_key(word, chain=""):
     voice = next((v for v in ("middle/passive", "passive", "middle", "active") if v in parse), "")
     number = "" if parse[0] == "verb" else next((n for n in ("singular", "plural") if n in parse), "")
     degree = next((d for d in ("comparative", "superlative") if d in parse), "")
-    use = opening(word, chain) if parse[0] != "verb" else ""
+    # a participle the article makes a noun of opens its own range as a noun does: τὰ
+    # ὑπάρχοντα is `the existing circumstances`, and ὑπάρχει `begins`
+    use = opening(word, chain) if parse[0] != "verb" or "participle" in parse else ""
     return (word["lemma"], parse[0], voice, number, degree, tuple(word.get("senses") or ()),
             word.get("more"), use)
 
@@ -1966,6 +2111,7 @@ def validate(book, chapter, rep):
     check_words(book, chapter, verses, rep)
     check_unit_words(book, chapter, verses, rep)
     check_one_sense(book, chapter, verses, rep)
+    check_runs(book, chapter, verses, rep)
     check_greek(book, chapter, verses, rep)
 
 

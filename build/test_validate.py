@@ -334,8 +334,16 @@ NEGATIVE = [
     ("articles a neuter participle given `the ones`",
                                          lambda: run(V.check_articles, "GEN", 7, [
                                              dict(v, reading=v["reading"].replace(
-                                                 "[[the things going into|the things going into, the things entering|",
-                                                 "[[the ones going into|the ones going into, the ones entering|"))
+                                                 "[[the things going into|the things going into and entering|",
+                                                 "[[the ones going into|the ones going into and entering|"))
+                                             for v in GEN7])),
+    # κιβωτός reads *a wooden box, chest, coffer*, one translation: split across items, each
+    # word reads as a sense of its own
+    ("runs     one translation split across items",
+                                         lambda: run(V.check_runs, "GEN", 7, [
+                                             dict(v, reading=v["reading"].replace(
+                                                 "[[the wooden box|the wooden box and chest and coffer|",
+                                                 "[[the wooden box|the wooden box, the chest, the coffer|"))
                                              for v in GEN7])),
     ("lexicon  LSJ standing in for a word Middle Liddell has",
                                          lambda: with_lsj({"λόγος": ["word"]})),

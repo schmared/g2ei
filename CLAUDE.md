@@ -71,6 +71,15 @@ load-bearing word is one unit: a **headword** and its **chain**.
 - The chain is the whole range, identical in both panels. Unanchored shows the chain;
   anchored shows `headword — chain —`. The headword may repeat inside its own chain; it is
   the chain's first sense.
+- **One translation is one item.** Where the lexicon gives a sense as a run of words in one
+  translation — σταθμός *a dwelling, abode*, κιβωτός *a wooden box, chest, coffer* — the
+  chain keeps the run as one item, joined with *and*: `dwelling and abode`, `the wooden box
+  and chest and coffer`. The commas of a chain part the entry's senses; a run split into
+  items of its own reads as that many senses. What the form puts before the run is said
+  once (`of the face and visage and countenance`), and the perfect's formula follows the
+  whole item. Where an item could be a sense the entry gives by itself as well as part of
+  a run — ἀκούω's *to have hearing of*, beside *to hear of, hear tell of* — it is left as
+  it stands.
 - The headword never stands bare in the unanchored text: nothing that belongs in a unit is
   written as plain text.
 - **A word is a unit exactly when its entry says more than its headword does.** More can be
@@ -345,6 +354,8 @@ The count is checked as well as the name: two units may not open one word.
   commas where they were
 - one case is one chain: a preposition has one form, so its chain cannot follow the
   form; within one lemma and one case it reads the same everywhere
+- one translation is one item: no run of words the card gives in one translation is split
+  across items of a chain
 - the word-by-word layer, where there is one, still matches the verse's Greek
 - the project's own morphology is well-formed by its code's own grammar
 - that morphology agrees with itself across every chapter — a form keeps its dictionary
