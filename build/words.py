@@ -253,6 +253,27 @@ LSJ = {
     "διασάφησις": ["explanation, interpretation"],
     "χονδρίτης": ["made of groats or coarse meal"],
     "κανοῦν": ["basket of reed or cane", "bread-basket"],
+    # GEN 41. None of these is in Middle Liddell, which has the verb εὐθηνέω and not the
+    # noun, and γέννημα, the begotten thing, and not γένημα, the thing grown — LSJ keeps them
+    # apart, "(cf. γέννημα)". LSJ (eng5): εὐθηνία, "prosperity, plenty", citing 41:29, then of
+    # the body "good condition", "abundance", and "corn-supply"; its personified goddess,
+    # "Abundance, Plenty", is a name and repeats the senses. LSJ (eng3): "γένημα, produce, of
+    # the fruits of the earth". LSJ (eng4): δευτερόω, "do the second time: repeat", "change",
+    # "give one a second blow", "slay", and "intr., occur twice", citing 41:32. LSJ (eng22):
+    # "τοπάρχης, governor of a district, esp. in Egypt", citing 41:34. LSJ (eng1) heads ἄχει
+    # as "ἄχει or ἄχι", "reed-grass", citing 41:2, "used for lamp-wick" — an Egyptian word;
+    # ἀνεμόφθορος, keyed by Perseus without its nu (a)emo/fqoros), "blasted by the wind";
+    # ἀποπεμπτόω, "give a fifth part of", citing 47:26, then "take a fifth part of", citing
+    # 41:34. LSJ (eng21): "σιτοβολών, place for storing corn, granary", citing 41:56.
+    "εὐθηνία": ["prosperity, plenty", "good condition", "abundance", "corn-supply"],
+    "γένημα": ["produce"],
+    "δευτερόω": ["do the second time: repeat", "change", "give one a second blow", "slay",
+                 "occur twice"],
+    "τοπάρχης": ["governor of a district"],
+    "ἄχει": ["reed-grass", "lamp-wick"],
+    "ἀνεμόφθορος": ["blasted by the wind"],
+    "ἀποπεμπτόω": ["give a fifth part of", "take a fifth part of"],
+    "σιτοβολών": ["place for storing corn, granary"],
 }
 
 # New Testament books: MorphGNT file and its book number.
@@ -1048,6 +1069,20 @@ NOT_SENSES = {
     "krema/nnumi": {"will bring", "hang them up", "up by", "to hang up one's",  # examples
                     "thou wert hanging", "hangs over", "depending"},
     "oi)noxoe/w": {"she was pouring out", "for wine"},  # "she was pouring out nectar for wine"
+    # GEN 41.
+    "cure/w": {"it shaves",                     # ξυρεῖ ἐν χρῷ, a proverb: "it shaves close"
+               "have their", "shaved"},          # "they have their whole body shaved"
+    "lepto/s": {"a thin line",                  # ἐπὶ λεπτόν, an idiom
+                "sheep and goats", "light breezes"},  # what two examples name
+    "sofo/s": {"than all craft"},               # "better than all craft", an example
+    "a)namimnh/skw": {"of"},                    # "to remind one of a thing"
+    "sumbai/nw": {"has", "come in my way, has had", "to do with me"},  # one example's glosses
+    "swth/rios": {"to preserve", "deliverance to"},  # an example; half of "bringing safety or
+                                                     # deliverance to one"
+    "oi(=os": {"reason"},                       # "introduces the reason", a description
+    "a)nali/skw": {"upon"},                     # "to spend upon a thing"
+    "kloio/s": {"a"},                           # "a sort of pillory"
+    "pwle/w": {"at a high"},                    # "at a high price", an example
 }
 
 # An entry that divides its senses by tense and voice, so that which of them belong to a
@@ -1068,6 +1103,15 @@ _EXANISTHMI_CAUS = {
     "to raise up: to make one rise", "bid one", "rise", "to order", "to rise", "to make",
     "emigrate, to remove", "expel", "to depopulate, destroy", "to rouse", "from their lair"}
 FORM_SENSES = {
+    # ξυρέω: "to shave … Mid. and Pass. to shave oneself or have oneself shaved". GEN 41:14's
+    # active ἐξύρησαν, they shaved him, has only the first.
+    "cure/w": [("PIFAXY", "A", {"to shave oneself", "have oneself shaved"})],
+    # ἀναμιμνήσκω: "to remind … in Pass. to remember". The active of GEN 41:9 reminds.
+    "a)namimnh/skw": [("PIFAXY", "A", {"to remember"})],
+    # ἐγείρω: "Pass. … to awake … in aor2 also to keep watch or vigil … in perf. to be
+    # awake". GEN 41:4's ἠγέρθη is the first aorist passive: neither the second aorist's
+    # watching nor the perfect's being awake.
+    "e)gei/rw": [("A", "P", {"to keep watch", "vigil", "to be awake"})],
     # ἵστημι: "Causal Tenses, to make to stand … Pass. and intr. tenses of Act. to be set or
     # placed, to stand". The causal tenses are the present, imperfect, future and first
     # aorist active, the first aorist built on στησ- as ἀνίστημι's below; the intransitive,
@@ -1198,6 +1242,7 @@ SPELLING = {
     "a)noi/gw": "a)noi/gnumi",     # the -νυμι form heads the entry
     "sfodrw=s": "sfodro/s",        # the adverb, filed inside the adjective's entry
     "mimnh/skomai": "mimnh/skw",    # MorphGNT's middle, filed under the active
+    "cura/w": "cure/w",             # the -άω spelling of the same verb; the entry is ξυρέω
     "diati/qemai": "diati/qhmi",    # likewise
     "kunhgo/s": "kunago/s",         # the entry is headed with the Doric and Attic κυναγός
     "plhsi/on": "plhsi/os",         # the adverb, filed inside the adjective's entry

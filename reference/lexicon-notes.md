@@ -6232,3 +6232,98 @@ text uses.
 - κρεμάννυμι — **headword** `will hang`, `hung`; **chain** *hang, hang up*. 40:19, 40:22.
 - σάρξ (plural, articular) — `the fleshes`, the plural chain of 6:3 with the article. 40:19.
 - ἐπιλανθάνομαι — one sense, *to forget*: plain text. 40:23.
+
+### Words new in GEN 41
+
+From Middle Liddell unless marked; the headword is the entry's first translation in the form the
+text uses.
+
+- εὐθηνία — LSJ, Middle Liddell having only the verb εὐθηνέω: **headword** `prosperity`; **chain**
+  `prosperity, plenty, good condition, abundance, corn-supply`. LSJ's personified *Abundance,
+  Plenty* is a goddess's name and repeats the senses. 41:29–53.
+- γένημα — LSJ, one translation, *produce*: plain text, `the produces`. LSJ keeps it apart from
+  γέννημα, the begotten, and so does the dictionary form. 41:34.
+- δευτερόω — LSJ: **headword** `of the doing the second time`; **chain** *doing the second time,
+  repeating, changing, giving one a second blow, slaying, occurring twice*. LSJ cites 41:32 for the
+  last. 41:32.
+- τοπάρχης — LSJ, one translation: plain text, `governors of a district`. 41:34.
+- ἄχει — LSJ's "ἄχει or ἄχι", filed as printed: **headword** `in the reed-grass`, merged with ἐν;
+  **chain** `the reed-grass, the lamp-wick`. 41:2, 41:18.
+- ἀνεμόφθορος — LSJ, one translation, *blasted by the wind*: plain text. Perseus keys the entry
+  without its nu, a)emo/fqoros. 41:6–27.
+- ἀποπεμπτόω — LSJ: **headword** `let them give a fifth part of`; **chain** adds *take a fifth part
+  of*, which LSJ cites for 41:34. 41:34.
+- σιτοβολών — LSJ: **headword** `the places for storing corn`; **chain** `…, the granaries`. 41:56.
+- ξυράω — the Koine spelling of ξυρέω, which Middle Liddell heads (`SPELLING`). The active has one
+  sense once the middle's *shave oneself* is set aside by the form (`FORM_SENSES`) and the
+  proverb's *it shaves* by `NOT_SENSES`: plain text, `shaved`. 41:14.
+- ἐγείρω (first aorist passive) — **headword** `was awakened`; **chain** the active's senses in the
+  passive, then the passive's own *awoke* and *roused and stirred himself and was excited*. The
+  second aorist's *keep watch* and the perfect's *be awake* are set aside by the form. 41:4, 41:7.
+- στάχυς — **headword** `ears of corn`; **chain** `ears of corn, scions and children and progeny`.
+- ἐκλεκτός (adjective) — `picked out, select`, the chain of 23:6 without ἐν; the noun's *the elect*
+  is not the adjective's. 41:2–20.
+- αἰσχρός — **headword** `causing shame`; **chain** `causing shame and abusive, ugly and
+  ill-favoured, shameful and disgraceful and base and infamous, awkward`; the comparative puts
+  *more* before each. 41:3–27.
+- λεπτός — **headword** `peeled`; **chain** `peeled and husked and threshed out, fine and small,
+  thin and fine and delicate, thin and lean and meagre, slender and taper, strait and narrow,
+  small and weak and impotent, faint, light and slight, fine and subtle and refined`. The examples'
+  *a thin line*, *sheep and goats* and *light breezes* are in `NOT_SENSES`. 41:3–27.
+- βόσκω (imperfect middle/passive) — **headword** `were being fed`, the first sense in the
+  passive, then the passive's own *feeding and grazing*, *feeding on*, *nurtured*, *running riot
+  in*. 41:2.
+- νέμω (imperfect middle/passive) — **headword** `were being dealt out`; the middle's *distributing
+  among themselves … possessing … dwelling in*, and of cattle *feeding, going to pasture and
+  grazing, feeding on, eating, consuming and devouring*. 41:3, 41:18.
+- ἀναφύω (imperfect middle/passive) — **headword** `were being produced again`; **chain** adds
+  *let grow*, *growing up*, *growing again*. 41:6, 41:23.
+- καταπίνω — **headword** `gulped`; **chain** `gulped and swallowed down, drank in and imbibed,
+  swallowed up and consumed, spent in tippling`. 41:7, 41:24.
+- ἐξηγητής — **headword** `the ones who lead on`; **chain** `…, the advisers, the expounders and
+  interpreters`. 41:8, 41:24.
+- σοφός (as a noun, with no noun sense of its own) — **headword** `the ones skilled in any
+  handicraft`, the article carrying its noun, then the entry's range. 41:8.
+- ἀναμιμνήσκω — **headword** `I remind`; **chain** `I remind, I remind one of, I recall to memory
+  and make mention of`. The passive's *remember* is set aside by the form. 41:9.
+- συμβαίνω — **headword** `stood with the feet together`; **chain** to *came to pass and happened,
+  turned out, resulted and followed*. One example's *has come in my way* is in `NOT_SENSES`. 41:13.
+- σωτήριος (as a noun) — the first noun sense heads: `the deliverance`; **chain** `the deliverance,
+  the safety, the thankoffering for deliverance`. 41:16.
+- ἀποκρίνομαι (future passive) — `will give answer to`, the deponent chain of the aorist. 41:16.
+- ἄνευ — **headword** `without`; **chain** `without, away from and far from, except and besides`.
+  41:16, 41:44.
+- ἵστημι (perfect infinitive) — `to have been set and to stand so`, the pluperfect's chain of 18:2
+  in the infinitive. 41:1, 41:17.
+- οἷος — **headword** `such as`; **chain** `such as, what sort, what manner of nature and kind and
+  temper, how, like as and like and just as, because of what`. 41:19.
+- ἔχω (present middle/passive participle) — **headword** `being had`, then the middle's *holding on
+  by and clinging to … coming next to and following closely, being close and touching and
+  bordering on*. 41:23.
+- ἀληθής — **headword** `unconcealed`; **chain** `unconcealed, true, truthful, coming true`. 41:32.
+- σκέπτομαι — **headword** `look about`; **chain** to *think of beforehand and premeditate*. 41:33.
+- φρόνιμος and συνετός (positive and comparative) — `in one's right mind, …, prudent`, the
+  superlative chain of 3:1 in its degree; `intelligent, sagacious, wise, intelligent in,
+  intelligible`. 41:33, 41:39.
+- φυλάσσω (aorist and perfect passive) — **headword** `let it be watched`, `having been watched`,
+  the first passivisable sense heading, *keep watch and ward* being intransitive. 41:35, 41:36.
+- θρόνος — **headword** `the seat`; **chain** `the seat and chair, the throne and chair of state,
+  the throne and the king's estate and dignity, the oracular seat, the chair of a teacher`. 41:40.
+- βύσσινος — Middle Liddell's *made of* βύσσος names the stuff in Greek; English writes it byssus:
+  **headword** `made of byssus`; **chain** `made of byssus, fine linen`. 41:42.
+- κλοιός — **headword** `a dog-collar`; **chain** `a dog-collar, a large wooden collar, a pillory, a
+  collar`. 41:42.
+- ἅρμα — **headword** `the chariot`; **chain** `the chariot, the war-chariot, the chariot and horses
+  and yoked chariot, the team and horses`. 41:43.
+- κηρύσσω — **headword** `was a herald`; **chain** to *commanded publicly*. κῆρυξ, `a herald, a
+  pursuivant, a marshal, a public messenger, a crier`. 41:43.
+- πεινάω `was hungry`; κράζω `croaked`, *screamed and shrieked and cried aloud*; πωλέω `was
+  exchanging`, *selling and offering for sale*; ἀγοράζω `to be in the agora`, the Greek word the
+  entry's first translation keeps, then *buy in the market and buy and purchase*. 41:55–57.
+- ἑαυτοῦ — Rahlfs prints αὑτοῦ at 41:11, the contracted reflexive: `of himself`.
+- νεανίσκος, σήμερον, θυγάτηρ, υἱός, τριάκοντα, διάδηλος, ἐπιλανθάνομαι, ἐνυπνιάζομαι — one sense
+  each: plain text.
+
+**A breathing.** The module cross-check caught 41:11's αὑτοῦ, transcribed with the smooth
+breathing; the scan shows the rough. The reflexive is now in the text, the morphology and the
+reading.

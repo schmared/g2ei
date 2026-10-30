@@ -1,0 +1,1168 @@
+# Genesis 41 — morphology, one word per line.
+#
+# This is the project's own grammatical analysis of each form, written alongside the
+# transcription and not copied from any digital edition.
+#
+# Columns: verse, part of speech, parse, form, lemma — in MorphGNT's code scheme, so
+# the Old and New Testament layers read alike. The parse is eight places: person,
+# tense, voice, mood, case, number, gender, degree ("-" where it does not apply).
+#
+# Two codes go beyond MorphGNT, both to record only what the form itself says:
+#   voice  E  middle/passive — a tense in which the two share one form
+#   gender C  masculine/feminine — an adjective whose form does not distinguish them
+#
+# A trailing annotation records a deliberate difference and the reason for it:
+#   "# module …"  from the reference module, checked when LXX_RAHLFS_DIR is set
+#   "# corpus …"  from this project's own analysis of the same form elsewhere
+# A line may carry both. validate.py prints them as notes instead of failures — and
+# fails if the difference a note claims is not there, so they cannot go stale. The
+# analysis here is this project's own: the module is a reference, not an authority,
+# and the corpus is held to itself.
+#
+# Indeclinables take case and number from the syntax, as MorphGNT does, and gender
+# where there is one to take: a personal name, from the person; a numeral agreeing
+# with its noun; a common noun whose article shows it — but not an indeclinable place
+# name, which has none. A personal name the New Testament also uses takes MorphGNT's
+# dictionary form (Νῶε, Σήμ); every other Semitic name (Χαμ, Ιαφεθ), the form Rahlfs
+# prints.
+
+41:1 V- 3AMI-S-- Ἐγένετο γίνομαι
+41:1 C- -------- δὲ δέ
+41:1 P- -------- μετὰ μετά
+41:1 A- ----APN- δύο δύο  # module M, no features — MorphGNT gives δύο case, number and gender like any adjective
+41:1 N- ----APN- ἔτη ἔτος
+41:1 N- ----GPF- ἡμερῶν ἡμέρα
+41:1 N- ----NSM- Φαραω Φαραώ
+41:1 V- 3AAI-S-- εἶδεν ὁράω
+41:1 N- ----ASN- ἐνύπνιον ἐνύπνιον
+41:1 V- 3IEI-S-- ᾤετο οἴομαι
+41:1 V- -XAN---- ἑστάναι ἵστημι
+41:1 P- -------- ἐπὶ ἐπί
+41:1 RA ----GSM- τοῦ ὁ
+41:1 N- ----GSM- ποταμοῦ ποταμός
+41:2 C- -------- καὶ καί
+41:2 X- -------- ἰδοὺ ἰδού
+41:2 C- -------- ὥσπερ ὥσπερ
+41:2 P- -------- ἐκ ἐκ
+41:2 RA ----GSM- τοῦ ὁ
+41:2 N- ----GSM- ποταμοῦ ποταμός
+41:2 V- 3IAI-P-- ἀνέβαινον ἀναβαίνω
+41:2 A- ----NPF- ἑπτὰ ἑπτά  # module M, no features — MorphGNT gives ἑπτά case, number and gender like any adjective
+41:2 N- ----NPF- βόες βοῦς  # module NPM — feminine: αἱ βόες, with καλαί
+41:2 A- ----NPF- καλαὶ καλός
+41:2 RA ----DSN- τῷ ὁ
+41:2 N- ----DSN- εἴδει εἶδος
+41:2 C- -------- καὶ καί
+41:2 A- ----NPF- ἐκλεκταὶ ἐκλεκτός
+41:2 RA ----DPF- ταῖς ὁ
+41:2 N- ----DPF- σαρξὶν σάρξ
+41:2 C- -------- καὶ καί
+41:2 V- 3IEI-P-- ἐβόσκοντο βόσκω
+41:2 P- -------- ἐν ἐν
+41:2 RA ----DSN- τῷ ὁ
+41:2 N- ----DSN- ἄχει ἄχει  # module lemma ἄχι — ἄχει, the spelling Rahlfs prints and LSJ heads first
+41:3 A- ----NPF- ἄλλαι ἄλλος
+41:3 C- -------- δὲ δέ
+41:3 A- ----NPF- ἑπτὰ ἑπτά  # module M, no features — MorphGNT gives ἑπτά case, number and gender like any adjective
+41:3 N- ----NPF- βόες βοῦς
+41:3 V- 3IAI-P-- ἀνέβαινον ἀναβαίνω
+41:3 P- -------- μετὰ μετά
+41:3 RD ----APF- ταύτας οὗτος
+41:3 P- -------- ἐκ ἐκ
+41:3 RA ----GSM- τοῦ ὁ
+41:3 N- ----GSM- ποταμοῦ ποταμός
+41:3 A- ----NPF- αἰσχραὶ αἰσχρός
+41:3 RA ----DSN- τῷ ὁ
+41:3 N- ----DSN- εἴδει εἶδος
+41:3 C- -------- καὶ καί
+41:3 A- ----NPF- λεπταὶ λεπτός
+41:3 RA ----DPF- ταῖς ὁ
+41:3 N- ----DPF- σαρξὶν σάρξ
+41:3 C- -------- καὶ καί
+41:3 V- 3IEI-P-- ἐνέμοντο νέμω
+41:3 P- -------- παρὰ παρά
+41:3 RA ----APF- τὰς ὁ
+41:3 N- ----APF- βόας βοῦς
+41:3 P- -------- παρὰ παρά
+41:3 RA ----ASN- τὸ ὁ
+41:3 N- ----ASN- χεῖλος χεῖλος
+41:3 RA ----GSM- τοῦ ὁ
+41:3 N- ----GSM- ποταμοῦ ποταμός
+41:4 C- -------- καὶ καί
+41:4 V- 3AAI-P-- κατέφαγον κατεσθίω  # corpus the third plural, the cows ate, where κατέφαγον at 31:38 is the first singular — one form, two persons
+41:4 RA ----NPF- αἱ ὁ
+41:4 A- ----NPF- ἑπτὰ ἑπτά  # module M, no features — MorphGNT gives ἑπτά case, number and gender like any adjective
+41:4 N- ----NPF- βόες βοῦς
+41:4 RA ----NPF- αἱ ὁ
+41:4 A- ----NPF- αἰσχραὶ αἰσχρός
+41:4 C- -------- καὶ καί
+41:4 A- ----NPF- λεπταὶ λεπτός
+41:4 RA ----DPF- ταῖς ὁ
+41:4 N- ----DPF- σαρξὶν σάρξ
+41:4 RA ----APF- τὰς ὁ
+41:4 A- ----APF- ἑπτὰ ἑπτά  # module M, no features — MorphGNT gives ἑπτά case, number and gender like any adjective
+41:4 N- ----APF- βόας βοῦς
+41:4 RA ----APF- τὰς ὁ
+41:4 A- ----APF- καλὰς καλός
+41:4 RA ----DSN- τῷ ὁ
+41:4 N- ----DSN- εἴδει εἶδος
+41:4 C- -------- καὶ καί
+41:4 RA ----APF- τὰς ὁ
+41:4 A- ----APF- ἐκλεκτάς ἐκλεκτός
+41:4 V- 3API-S-- ἠγέρθη ἐγείρω
+41:4 C- -------- δὲ δέ
+41:4 N- ----NSM- Φαραω Φαραώ
+41:5 C- -------- καὶ καί
+41:5 V- 3API-S-- ἐνυπνιάσθη ἐνυπνιάζομαι
+41:5 RA ----ASN- τὸ ὁ
+41:5 A- ----ASN- δεύτερον δεύτερος
+41:5 C- -------- καὶ καί
+41:5 X- -------- ἰδοὺ ἰδού
+41:5 A- ----NPM- ἑπτὰ ἑπτά  # module M, no features — MorphGNT gives ἑπτά case, number and gender like any adjective
+41:5 N- ----NPM- στάχυες στάχυς
+41:5 V- 3IAI-P-- ἀνέβαινον ἀναβαίνω
+41:5 P- -------- ἐν ἐν
+41:5 N- ----DSM- πυθμένι πυθμήν
+41:5 A- ----DSM- ἑνὶ εἷς
+41:5 A- ----NPM- ἐκλεκτοὶ ἐκλεκτός
+41:5 C- -------- καὶ καί
+41:5 A- ----NPM- καλοί καλός
+41:6 A- ----NPM- ἄλλοι ἄλλος
+41:6 C- -------- δὲ δέ
+41:6 A- ----NPM- ἑπτὰ ἑπτά  # module M, no features — MorphGNT gives ἑπτά case, number and gender like any adjective
+41:6 N- ----NPM- στάχυες στάχυς
+41:6 A- ----NPM- λεπτοὶ λεπτός
+41:6 C- -------- καὶ καί
+41:6 A- ----NPC- ἀνεμόφθοροι ἀνεμόφθορος
+41:6 V- 3IEI-P-- ἀνεφύοντο ἀναφύω
+41:6 P- -------- μετʼ μετά
+41:6 RP ----APM- αὐτούς αὐτός
+41:7 C- -------- καὶ καί
+41:7 V- 3AAI-P-- κατέπιον καταπίνω
+41:7 RA ----NPM- οἱ ὁ
+41:7 A- ----NPM- ἑπτὰ ἑπτά  # module M, no features — MorphGNT gives ἑπτά case, number and gender like any adjective
+41:7 N- ----NPM- στάχυες στάχυς
+41:7 RA ----NPM- οἱ ὁ
+41:7 A- ----NPM- λεπτοὶ λεπτός
+41:7 C- -------- καὶ καί
+41:7 A- ----NPC- ἀνεμόφθοροι ἀνεμόφθορος
+41:7 RA ----APM- τοὺς ὁ
+41:7 A- ----APM- ἑπτὰ ἑπτά  # module M, no features — MorphGNT gives ἑπτά case, number and gender like any adjective
+41:7 N- ----APM- στάχυας στάχυς
+41:7 RA ----APM- τοὺς ὁ
+41:7 A- ----APM- ἐκλεκτοὺς ἐκλεκτός
+41:7 C- -------- καὶ καί
+41:7 RA ----APM- τοὺς ὁ
+41:7 A- ----APC- πλήρεις πλήρης
+41:7 V- 3API-S-- ἠγέρθη ἐγείρω
+41:7 C- -------- δὲ δέ
+41:7 N- ----NSM- Φαραω Φαραώ
+41:7 C- -------- καὶ καί
+41:7 V- 3IAI-S-- ἦν εἰμί
+41:7 N- ----NSN- ἐνύπνιον ἐνύπνιον
+41:8 V- 3AMI-S-- Ἐγένετο γίνομαι
+41:8 C- -------- δὲ δέ
+41:8 D- -------- πρωὶ πρωΐ
+41:8 C- -------- καὶ καί
+41:8 V- 3API-S-- ἐταράχθη ταράσσω
+41:8 RA ----NSF- ἡ ὁ
+41:8 N- ----NSF- ψυχὴ ψυχή
+41:8 RP ----GSM- αὐτοῦ αὐτός
+41:8 C- -------- καὶ καί
+41:8 V- -AAPNSM- ἀποστείλας ἀποστέλλω
+41:8 V- 3AAI-S-- ἐκάλεσεν καλέω
+41:8 A- ----APM- πάντας πᾶς
+41:8 RA ----APM- τοὺς ὁ
+41:8 N- ----APM- ἐξηγητὰς ἐξηγητής
+41:8 N- ----GSF- Αἰγύπτου Αἴγυπτος
+41:8 C- -------- καὶ καί
+41:8 A- ----APM- πάντας πᾶς
+41:8 RA ----APM- τοὺς ὁ
+41:8 A- ----APM- σοφοὺς σοφός
+41:8 RP ----GSF- αὐτῆς αὐτός
+41:8 C- -------- καὶ καί
+41:8 V- 3AMI-S-- διηγήσατο διηγέομαι
+41:8 RP ----DPM- αὐτοῖς αὐτός
+41:8 N- ----NSM- Φαραω Φαραώ
+41:8 RA ----ASN- τὸ ὁ
+41:8 N- ----ASN- ἐνύπνιον ἐνύπνιον
+41:8 C- -------- καὶ καί
+41:8 D- -------- οὐκ οὐ
+41:8 V- 3IAI-S-- ἦν εἰμί
+41:8 RA ----NSM- ὁ ὁ
+41:8 V- -PAPNSM- ἀπαγγέλλων ἀπαγγέλλω
+41:8 RP ----ASN- αὐτὸ αὐτός
+41:8 RA ----DSM- τῷ ὁ
+41:8 N- ----DSM- Φαραω Φαραώ
+41:9 C- -------- καὶ καί
+41:9 V- 3AAI-S-- ἐλάλησεν λαλέω
+41:9 RA ----NSM- ὁ ὁ
+41:9 N- ----NSM- ἀρχιοινοχόος ἀρχιοινοχόος
+41:9 P- -------- πρὸς πρός
+41:9 N- ----ASM- Φαραω Φαραώ
+41:9 V- -PAPNSM- λέγων λέγω
+41:9 RA ----ASF- Τὴν ὁ
+41:9 N- ----ASF- ἁμαρτίαν ἁμαρτία
+41:9 RP ----GS-- μου ἐγώ  # module lemma μου, the form itself — ἐγώ is the dictionary form
+41:9 V- 1PAI-S-- ἀναμιμνῄσκω ἀναμιμνήσκω
+41:9 D- -------- σήμερον σήμερον
+41:10 N- ----NSM- Φαραω Φαραώ
+41:10 V- 3API-S-- ὠργίσθη ὀργίζω
+41:10 RA ----DPM- τοῖς ὁ
+41:10 N- ----DPM- παισὶν παῖς
+41:10 RP ----GSM- αὐτοῦ αὐτός
+41:10 C- -------- καὶ καί
+41:10 V- 3AMI-S-- ἔθετο τίθημι
+41:10 RP ----AP-- ἡμᾶς ἐγώ  # module lemma ἡμᾶς, the form itself — ἐγώ is the dictionary form
+41:10 P- -------- ἐν ἐν
+41:10 N- ----DSF- φυλακῇ φυλακή
+41:10 P- -------- ἐν ἐν
+41:10 RA ----DSM- τῷ ὁ
+41:10 N- ----DSM- οἴκῳ οἶκος
+41:10 RA ----GSM- τοῦ ὁ
+41:10 N- ----GSM- ἀρχιμαγείρου ἀρχιμάγειρος
+41:10 RP ----AS-- ἐμέ ἐγώ  # module lemma ἐμέ, the form itself — ἐγώ is the dictionary form
+41:10 C- -------- τε τε
+41:10 C- -------- καὶ καί
+41:10 RA ----ASM- τὸν ὁ
+41:10 N- ----ASM- ἀρχισιτοποιόν ἀρχισιτοποιός
+41:11 C- -------- καὶ καί
+41:11 V- 1AAI-P-- εἴδομεν ὁράω
+41:11 N- ----ASN- ἐνύπνιον ἐνύπνιον
+41:11 P- -------- ἐν ἐν
+41:11 N- ----DSF- νυκτὶ νύξ
+41:11 A- ----DSF- μιᾷ εἷς
+41:11 RP ----NS-- ἐγώ ἐγώ
+41:11 C- -------- τε τε
+41:11 C- -------- καὶ καί
+41:11 RP ----NSM- αὐτός αὐτός
+41:11 A- ----NSM- ἕκαστος ἕκαστος
+41:11 P- -------- κατὰ κατά
+41:11 RA ----ASN- τὸ ὁ
+41:11 RP ----GSM- αὑτοῦ ἑαυτοῦ
+41:11 N- ----ASN- ἐνύπνιον ἐνύπνιον
+41:11 V- 1AAI-P-- εἴδομεν ὁράω
+41:12 V- 3IAI-S-- ἦν εἰμί
+41:12 C- -------- δὲ δέ
+41:12 D- -------- ἐκεῖ ἐκεῖ
+41:12 P- -------- μεθʼ μετά
+41:12 RP ----GP-- ἡμῶν ἐγώ  # module lemma ἡμῶν, the form itself — ἐγώ is the dictionary form
+41:12 N- ----NSM- νεανίσκος νεανίσκος
+41:12 N- ----NSM- παῖς παῖς
+41:12 N- ----NSM- Εβραῖος Ἑβραῖος
+41:12 RA ----GSM- τοῦ ὁ
+41:12 N- ----GSM- ἀρχιμαγείρου ἀρχιμάγειρος
+41:12 C- -------- καὶ καί
+41:12 V- 1AMI-P-- διηγησάμεθα διηγέομαι
+41:12 RP ----DSM- αὐτῷ αὐτός
+41:12 C- -------- καὶ καί
+41:12 V- 3AAI-S-- συνέκρινεν συγκρίνω
+41:12 RP ----DP-- ἡμῖν ἐγώ  # module lemma ἡμῖν, the form itself — ἐγώ is the dictionary form
+41:13 V- 3API-S-- ἐγενήθη γίνομαι
+41:13 C- -------- δὲ δέ
+41:13 C- -------- καθὼς καθώς
+41:13 V- 3AAI-S-- συνέκρινεν συγκρίνω
+41:13 RP ----DP-- ἡμῖν ἐγώ  # module lemma ἡμῖν, the form itself — ἐγώ is the dictionary form
+41:13 D- -------- οὕτως οὕτως
+41:13 D- -------- καὶ καί
+41:13 V- 3AAI-S-- συνέβη συμβαίνω
+41:13 RP ----AS-- ἐμέ ἐγώ  # module lemma ἐμέ, the form itself — ἐγώ is the dictionary form
+41:13 C- -------- τε τε
+41:13 V- -APN---- ἀποκατασταθῆναι ἀποκαθίστημι
+41:13 P- -------- ἐπὶ ἐπί
+41:13 RA ----ASF- τὴν ὁ
+41:13 N- ----ASF- ἀρχήν ἀρχή
+41:13 RP ----GS-- μου ἐγώ  # module lemma μου, the form itself — ἐγώ is the dictionary form
+41:13 RD ----ASM- ἐκεῖνον ἐκεῖνος
+41:13 C- -------- δὲ δέ
+41:13 V- -APN---- κρεμασθῆναι κρεμάννυμι
+41:14 V- -AAPNSM- Ἀποστείλας ἀποστέλλω
+41:14 C- -------- δὲ δέ
+41:14 N- ----NSM- Φαραω Φαραώ
+41:14 V- 3AAI-S-- ἐκάλεσεν καλέω
+41:14 RA ----ASM- τὸν ὁ
+41:14 N- ----ASM- Ιωσηφ Ἰωσήφ
+41:14 C- -------- καὶ καί
+41:14 V- 3AAI-P-- ἐξήγαγον ἐξάγω
+41:14 RP ----ASM- αὐτὸν αὐτός
+41:14 P- -------- ἐκ ἐκ
+41:14 RA ----GSN- τοῦ ὁ
+41:14 N- ----GSN- ὀχυρώματος ὀχύρωμα
+41:14 C- -------- καὶ καί
+41:14 V- 3AAI-P-- ἐξύρησαν ξυράω
+41:14 RP ----ASM- αὐτὸν αὐτός
+41:14 C- -------- καὶ καί
+41:14 V- 3AAI-P-- ἤλλαξαν ἀλλάσσω
+41:14 RA ----ASF- τὴν ὁ
+41:14 N- ----ASF- στολὴν στολή
+41:14 RP ----GSM- αὐτοῦ αὐτός
+41:14 C- -------- καὶ καί
+41:14 V- 3AAI-S-- ἦλθεν ἔρχομαι
+41:14 P- -------- πρὸς πρός
+41:14 N- ----ASM- Φαραω Φαραώ
+41:15 V- 3AAI-S-- εἶπεν λέγω  # module lemma ἔπω — λέγω keeps one dictionary form across both testaments
+41:15 C- -------- δὲ δέ
+41:15 N- ----NSM- Φαραω Φαραώ
+41:15 RA ----DSM- τῷ ὁ
+41:15 N- ----DSM- Ιωσηφ Ἰωσήφ
+41:15 N- ----ASN- Ἐνύπνιον ἐνύπνιον
+41:15 V- 1XAI-S-- ἑώρακα ὁράω
+41:15 C- -------- καὶ καί
+41:15 RA ----NSM- ὁ ὁ
+41:15 V- -PAPNSM- συγκρίνων συγκρίνω
+41:15 D- -------- οὐκ οὐ
+41:15 V- 3PAI-S-- ἔστιν εἰμί
+41:15 RP ----ASN- αὐτό αὐτός
+41:15 RP ----NS-- ἐγὼ ἐγώ
+41:15 C- -------- δὲ δέ
+41:15 V- 1XAI-S-- ἀκήκοα ἀκούω
+41:15 P- -------- περὶ περί
+41:15 RP ----GS-- σοῦ σύ  # module lemma σοῦ, the form itself — σύ is the dictionary form
+41:15 V- -PAPGPM- λεγόντων λέγω
+41:15 V- -AAPASM- ἀκούσαντά ἀκούω
+41:15 RP ----AS-- σε σύ  # module lemma σέ, the form itself — σύ is the dictionary form
+41:15 N- ----APN- ἐνύπνια ἐνύπνιον
+41:15 V- -AAN---- συγκρῖναι συγκρίνω
+41:15 RP ----APN- αὐτά αὐτός
+41:16 V- -APPNSM- ἀποκριθεὶς ἀποκρίνομαι
+41:16 C- -------- δὲ δέ
+41:16 N- ----NSM- Ιωσηφ Ἰωσήφ
+41:16 RA ----DSM- τῷ ὁ
+41:16 N- ----DSM- Φαραω Φαραώ
+41:16 V- 3AAI-S-- εἶπεν λέγω  # module lemma ἔπω — λέγω keeps one dictionary form across both testaments
+41:16 P- -------- Ἄνευ ἄνευ
+41:16 RA ----GSM- τοῦ ὁ
+41:16 N- ----GSM- θεοῦ θεός
+41:16 D- -------- οὐκ οὐ
+41:16 V- 3FPI-S-- ἀποκριθήσεται ἀποκρίνομαι
+41:16 RA ----NSN- τὸ ὁ  # module ASN — nominative: the subject of the passive ἀποκριθήσεται
+41:16 A- ----NSN- σωτήριον σωτήριος  # module ASN — nominative: the subject of the passive ἀποκριθήσεται
+41:16 N- ----GSM- Φαραω Φαραώ  # module DSM — genitive, as the Hebrew šĕlôm parʿōh: the welfare of Pharaoh
+41:17 V- 3AAI-S-- ἐλάλησεν λαλέω
+41:17 C- -------- δὲ δέ
+41:17 N- ----NSM- Φαραω Φαραώ
+41:17 RA ----DSM- τῷ ὁ
+41:17 N- ----DSM- Ιωσηφ Ἰωσήφ
+41:17 V- -PAPNSM- λέγων λέγω
+41:17 P- -------- Ἐν ἐν
+41:17 RA ----DSM- τῷ ὁ
+41:17 N- ----DSM- ὕπνῳ ὕπνος
+41:17 RP ----GS-- μου ἐγώ  # module lemma μου, the form itself — ἐγώ is the dictionary form
+41:17 V- 1IEI-S-- ᾤμην οἴομαι
+41:17 V- -XAN---- ἑστάναι ἵστημι
+41:17 P- -------- παρὰ παρά
+41:17 RA ----ASN- τὸ ὁ
+41:17 N- ----ASN- χεῖλος χεῖλος
+41:17 RA ----GSM- τοῦ ὁ
+41:17 N- ----GSM- ποταμοῦ ποταμός
+41:18 C- -------- καὶ καί
+41:18 C- -------- ὥσπερ ὥσπερ
+41:18 P- -------- ἐκ ἐκ
+41:18 RA ----GSM- τοῦ ὁ
+41:18 N- ----GSM- ποταμοῦ ποταμός
+41:18 V- 3IAI-P-- ἀνέβαινον ἀναβαίνω
+41:18 A- ----NPF- ἑπτὰ ἑπτά  # module M, no features — MorphGNT gives ἑπτά case, number and gender like any adjective
+41:18 N- ----NPF- βόες βοῦς
+41:18 A- ----NPF- καλαὶ καλός
+41:18 RA ----DSN- τῷ ὁ
+41:18 N- ----DSN- εἴδει εἶδος
+41:18 C- -------- καὶ καί
+41:18 A- ----NPF- ἐκλεκταὶ ἐκλεκτός
+41:18 RA ----DPF- ταῖς ὁ
+41:18 N- ----DPF- σαρξὶν σάρξ
+41:18 C- -------- καὶ καί
+41:18 V- 3IEI-P-- ἐνέμοντο νέμω
+41:18 P- -------- ἐν ἐν
+41:18 RA ----DSN- τῷ ὁ
+41:18 N- ----DSN- ἄχει ἄχει  # module lemma ἄχι — ἄχει, the spelling Rahlfs prints and LSJ heads first
+41:19 C- -------- καὶ καί
+41:19 X- -------- ἰδοὺ ἰδού
+41:19 A- ----NPF- ἑπτὰ ἑπτά  # module M, no features — MorphGNT gives ἑπτά case, number and gender like any adjective
+41:19 N- ----NPF- βόες βοῦς
+41:19 A- ----NPF- ἕτεραι ἕτερος
+41:19 V- 3IAI-P-- ἀνέβαινον ἀναβαίνω
+41:19 P- -------- ὀπίσω ὀπίσω
+41:19 RP ----GPF- αὐτῶν αὐτός  # module GPM — feminine: the cows
+41:19 P- -------- ἐκ ἐκ
+41:19 RA ----GSM- τοῦ ὁ
+41:19 N- ----GSM- ποταμοῦ ποταμός
+41:19 A- ----NPF- πονηραὶ πονηρός
+41:19 C- -------- καὶ καί
+41:19 A- ----NPF- αἰσχραὶ αἰσχρός
+41:19 RA ----DSN- τῷ ὁ
+41:19 N- ----DSN- εἴδει εἶδος
+41:19 C- -------- καὶ καί
+41:19 A- ----NPF- λεπταὶ λεπτός
+41:19 RA ----DPF- ταῖς ὁ
+41:19 N- ----DPF- σαρξίν σάρξ
+41:19 RR ----APF- οἵας οἷος
+41:19 D- -------- οὐκ οὐ
+41:19 V- 1AAI-S-- εἶδον ὁράω
+41:19 RD ----APF- τοιαύτας τοιοῦτος
+41:19 P- -------- ἐν ἐν
+41:19 A- ----DSF- ὅλῃ ὅλος
+41:19 N- ----DSF- γῇ γῆ
+41:19 N- ----DSF- Αἰγύπτῳ Αἴγυπτος
+41:19 A- ----APFC αἰσχροτέρας αἰσχρός
+41:20 C- -------- καὶ καί
+41:20 V- 3AAI-P-- κατέφαγον κατεσθίω
+41:20 RA ----NPF- αἱ ὁ
+41:20 A- ----NPF- ἑπτὰ ἑπτά  # module M, no features — MorphGNT gives ἑπτά case, number and gender like any adjective
+41:20 N- ----NPF- βόες βοῦς
+41:20 RA ----NPF- αἱ ὁ
+41:20 A- ----NPF- αἰσχραὶ αἰσχρός
+41:20 C- -------- καὶ καί
+41:20 A- ----NPF- λεπταὶ λεπτός
+41:20 RA ----APF- τὰς ὁ
+41:20 A- ----APF- ἑπτὰ ἑπτά  # module M, no features — MorphGNT gives ἑπτά case, number and gender like any adjective
+41:20 N- ----APF- βόας βοῦς
+41:20 RA ----APF- τὰς ὁ
+41:20 A- ----APF- πρώτας πρῶτος
+41:20 RA ----APF- τὰς ὁ
+41:20 A- ----APF- καλὰς καλός
+41:20 C- -------- καὶ καί
+41:20 A- ----APF- ἐκλεκτάς ἐκλεκτός
+41:21 C- -------- καὶ καί
+41:21 V- 3AAI-P-- εἰσῆλθον εἰσέρχομαι
+41:21 P- -------- εἰς εἰς
+41:21 RA ----APF- τὰς ὁ
+41:21 N- ----APF- κοιλίας κοιλία  # corpus the accusative plural, τὰς κοιλίας, where at 25:23 it is the genitive singular — one form, two cases
+41:21 RP ----GPF- αὐτῶν αὐτός
+41:21 C- -------- καὶ καί
+41:21 D- -------- οὐ οὐ
+41:21 A- ----NPC- διάδηλοι διάδηλος
+41:21 V- 3AMI-P-- ἐγένοντο γίνομαι
+41:21 C- -------- ὅτι ὅτι
+41:21 V- 3AAI-P-- εἰσῆλθον εἰσέρχομαι
+41:21 P- -------- εἰς εἰς
+41:21 RA ----APF- τὰς ὁ
+41:21 N- ----APF- κοιλίας κοιλία
+41:21 RP ----GPF- αὐτῶν αὐτός  # module GPM — feminine: the cows
+41:21 C- -------- καὶ καί
+41:21 RA ----NPF- αἱ ὁ
+41:21 N- ----NPF- ὄψεις ὄψις
+41:21 RP ----GPF- αὐτῶν αὐτός  # module GPM — feminine: the cows
+41:21 A- ----NPF- αἰσχραὶ αἰσχρός
+41:21 C- -------- καθὰ καθά
+41:21 D- -------- καὶ καί
+41:21 RA ----ASF- τὴν ὁ
+41:21 N- ----ASF- ἀρχήν ἀρχή
+41:21 V- -APPNSM- ἐξεγερθεὶς ἐξεγείρω
+41:21 C- -------- δὲ δέ
+41:21 V- 1API-S-- ἐκοιμήθην κοιμάω
+41:22 C- -------- καὶ καί
+41:22 V- 1AAI-S-- εἶδον ὁράω  # module lemma εἴδω — Middle Liddell files the aorist under ὁράω
+41:22 D- -------- πάλιν πάλιν
+41:22 P- -------- ἐν ἐν
+41:22 RA ----DSM- τῷ ὁ
+41:22 N- ----DSM- ὕπνῳ ὕπνος
+41:22 RP ----GS-- μου ἐγώ  # module lemma μου, the form itself — ἐγώ is the dictionary form
+41:22 C- -------- καὶ καί
+41:22 C- -------- ὥσπερ ὥσπερ
+41:22 A- ----NPM- ἑπτὰ ἑπτά  # module M, no features — MorphGNT gives ἑπτά case, number and gender like any adjective
+41:22 N- ----NPM- στάχυες στάχυς
+41:22 V- 3IAI-P-- ἀνέβαινον ἀναβαίνω
+41:22 P- -------- ἐν ἐν
+41:22 N- ----DSM- πυθμένι πυθμήν
+41:22 A- ----DSM- ἑνὶ εἷς
+41:22 A- ----NPC- πλήρεις πλήρης
+41:22 C- -------- καὶ καί
+41:22 A- ----NPM- καλοί καλός
+41:23 A- ----NPM- ἄλλοι ἄλλος
+41:23 C- -------- δὲ δέ
+41:23 A- ----NPM- ἑπτὰ ἑπτά  # module M, no features — MorphGNT gives ἑπτά case, number and gender like any adjective
+41:23 N- ----NPM- στάχυες στάχυς
+41:23 A- ----NPM- λεπτοὶ λεπτός
+41:23 C- -------- καὶ καί
+41:23 A- ----NPC- ἀνεμόφθοροι ἀνεμόφθορος
+41:23 V- 3IEI-P-- ἀνεφύοντο ἀναφύω
+41:23 V- -PEPNPM- ἐχόμενοι ἔχω
+41:23 RP ----GPM- αὐτῶν αὐτός
+41:24 C- -------- καὶ καί
+41:24 V- 3AAI-P-- κατέπιον καταπίνω
+41:24 RA ----NPM- οἱ ὁ
+41:24 A- ----NPM- ἑπτὰ ἑπτά  # module M, no features — MorphGNT gives ἑπτά case, number and gender like any adjective
+41:24 N- ----NPM- στάχυες στάχυς
+41:24 RA ----NPM- οἱ ὁ
+41:24 A- ----NPM- λεπτοὶ λεπτός
+41:24 C- -------- καὶ καί
+41:24 A- ----NPC- ἀνεμόφθοροι ἀνεμόφθορος
+41:24 RA ----APM- τοὺς ὁ
+41:24 A- ----APM- ἑπτὰ ἑπτά  # module M, no features — MorphGNT gives ἑπτά case, number and gender like any adjective
+41:24 N- ----APM- στάχυας στάχυς
+41:24 RA ----APM- τοὺς ὁ
+41:24 A- ----APM- καλοὺς καλός
+41:24 C- -------- καὶ καί
+41:24 RA ----APM- τοὺς ὁ
+41:24 A- ----APC- πλήρεις πλήρης
+41:24 V- 1AAI-S-- εἶπα λέγω  # module lemma ἔπω — λέγω keeps one dictionary form across both testaments
+41:24 C- -------- οὖν οὖν
+41:24 RA ----DPM- τοῖς ὁ
+41:24 N- ----DPM- ἐξηγηταῖς ἐξηγητής
+41:24 C- -------- καὶ καί
+41:24 D- -------- οὐκ οὐ
+41:24 V- 3IAI-S-- ἦν εἰμί
+41:24 RA ----NSM- ὁ ὁ
+41:24 V- -PAPNSM- ἀπαγγέλλων ἀπαγγέλλω
+41:24 RP ----DS-- μοι ἐγώ  # module lemma μοι, the form itself — ἐγώ is the dictionary form
+41:25 C- -------- Καὶ καί
+41:25 V- 3AAI-S-- εἶπεν λέγω  # module lemma ἔπω — λέγω keeps one dictionary form across both testaments
+41:25 N- ----NSM- Ιωσηφ Ἰωσήφ
+41:25 RA ----DSM- τῷ ὁ
+41:25 N- ----DSM- Φαραω Φαραώ
+41:25 RA ----NSN- Τὸ ὁ
+41:25 N- ----NSN- ἐνύπνιον ἐνύπνιον
+41:25 N- ----GSM- Φαραω Φαραώ
+41:25 A- ----NSN- ἕν εἷς
+41:25 V- 3PAI-S-- ἐστιν εἰμί
+41:25 RR ----APN- ὅσα ὅσος
+41:25 RA ----NSM- ὁ ὁ
+41:25 N- ----NSM- θεὸς θεός
+41:25 V- 3PAI-S-- ποιεῖ ποιέω
+41:25 V- 3AAI-S-- ἔδειξεν δείκνυμι  # module lemma δεικνύω — δείκνυμι, as MorphGNT files the aorist
+41:25 RA ----DSM- τῷ ὁ
+41:25 N- ----DSM- Φαραω Φαραώ
+41:26 RA ----NPF- αἱ ὁ
+41:26 A- ----NPF- ἑπτὰ ἑπτά  # module M, no features — MorphGNT gives ἑπτά case, number and gender like any adjective
+41:26 N- ----NPF- βόες βοῦς
+41:26 RA ----NPF- αἱ ὁ
+41:26 A- ----NPF- καλαὶ καλός
+41:26 A- ----NPN- ἑπτὰ ἑπτά  # module M, no features — MorphGNT gives ἑπτά case, number and gender like any adjective
+41:26 N- ----NPN- ἔτη ἔτος
+41:26 V- 3PAI-S-- ἐστίν εἰμί
+41:26 C- -------- καὶ καί
+41:26 RA ----NPM- οἱ ὁ
+41:26 A- ----NPM- ἑπτὰ ἑπτά  # module M, no features — MorphGNT gives ἑπτά case, number and gender like any adjective
+41:26 N- ----NPM- στάχυες στάχυς
+41:26 RA ----NPM- οἱ ὁ
+41:26 A- ----NPM- καλοὶ καλός
+41:26 A- ----NPN- ἑπτὰ ἑπτά  # module M, no features — MorphGNT gives ἑπτά case, number and gender like any adjective
+41:26 N- ----NPN- ἔτη ἔτος
+41:26 V- 3PAI-S-- ἐστίν εἰμί
+41:26 RA ----NSN- τὸ ὁ
+41:26 N- ----NSN- ἐνύπνιον ἐνύπνιον
+41:26 N- ----GSM- Φαραω Φαραώ
+41:26 A- ----NSN- ἕν εἷς  # module ASN — nominative: the predicate of ἐστιν
+41:26 V- 3PAI-S-- ἐστιν εἰμί
+41:27 C- -------- καὶ καί
+41:27 RA ----NPF- αἱ ὁ
+41:27 A- ----NPF- ἑπτὰ ἑπτά  # module M, no features — MorphGNT gives ἑπτά case, number and gender like any adjective
+41:27 N- ----NPF- βόες βοῦς
+41:27 RA ----NPF- αἱ ὁ
+41:27 A- ----NPF- λεπταὶ λεπτός
+41:27 RA ----NPF- αἱ ὁ
+41:27 V- -PAPNPF- ἀναβαίνουσαι ἀναβαίνω
+41:27 P- -------- ὀπίσω ὀπίσω
+41:27 RP ----GPF- αὐτῶν αὐτός
+41:27 A- ----NPN- ἑπτὰ ἑπτά  # module M, no features — MorphGNT gives ἑπτά case, number and gender like any adjective
+41:27 N- ----NPN- ἔτη ἔτος
+41:27 V- 3PAI-S-- ἐστίν εἰμί
+41:27 C- -------- καὶ καί
+41:27 RA ----NPM- οἱ ὁ
+41:27 A- ----NPM- ἑπτὰ ἑπτά  # module M, no features — MorphGNT gives ἑπτά case, number and gender like any adjective
+41:27 N- ----NPM- στάχυες στάχυς
+41:27 RA ----NPM- οἱ ὁ
+41:27 A- ----NPM- λεπτοὶ λεπτός
+41:27 C- -------- καὶ καί
+41:27 A- ----NPC- ἀνεμόφθοροι ἀνεμόφθορος
+41:27 V- 3FMI-P-- ἔσονται εἰμί
+41:27 A- ----NPN- ἑπτὰ ἑπτά  # module M, no features — MorphGNT gives ἑπτά case, number and gender like any adjective
+41:27 N- ----NPN- ἔτη ἔτος
+41:27 N- ----GSM- λιμοῦ λιμός
+41:28 RA ----NSN- τὸ ὁ  # module ASN — nominative, left hanging at the head of the sentence
+41:28 C- -------- δὲ δέ
+41:28 N- ----NSN- ῥῆμα ῥῆμα  # module ASN — nominative, left hanging at the head of the sentence
+41:28 RR ----ASN- ὃ ὅς
+41:28 V- 1XAI-S-- εἴρηκα λέγω  # module lemma ἐρέω — λέγω, as MorphGNT files the perfect εἴρηκα
+41:28 N- ----DSM- Φαραω Φαραώ
+41:28 RR ----APN- Ὅσα ὅσος
+41:28 RA ----NSM- ὁ ὁ
+41:28 N- ----NSM- θεὸς θεός
+41:28 V- 3PAI-S-- ποιεῖ ποιέω
+41:28 V- 3AAI-S-- ἔδειξεν δείκνυμι  # module lemma δεικνύω — δείκνυμι, as MorphGNT files the aorist
+41:28 RA ----DSM- τῷ ὁ
+41:28 N- ----DSM- Φαραω Φαραώ
+41:29 X- -------- ἰδοὺ ἰδού
+41:29 A- ----APN- ἑπτὰ ἑπτά  # module M, no features — MorphGNT gives ἑπτά case, number and gender like any adjective
+41:29 N- ----APN- ἔτη ἔτος
+41:29 V- 3PEI-S-- ἔρχεται ἔρχομαι
+41:29 N- ----NSF- εὐθηνία εὐθηνία
+41:29 A- ----NSF- πολλὴ πολύς
+41:29 P- -------- ἐν ἐν
+41:29 A- ----DSF- πάσῃ πᾶς
+41:29 N- ----DSF- γῇ γῆ
+41:29 N- ----DSF- Αἰγύπτῳ Αἴγυπτος
+41:30 V- 3FAI-S-- ἥξει ἥκω
+41:30 C- -------- δὲ δέ
+41:30 A- ----NPN- ἑπτὰ ἑπτά  # module M, no features — MorphGNT gives ἑπτά case, number and gender like any adjective
+41:30 N- ----NPN- ἔτη ἔτος
+41:30 N- ----GSM- λιμοῦ λιμός
+41:30 P- -------- μετὰ μετά
+41:30 RD ----APN- ταῦτα οὗτος
+41:30 C- -------- καὶ καί
+41:30 V- 3FMI-P-- ἐπιλήσονται ἐπιλανθάνομαι
+41:30 RA ----GSF- τῆς ὁ
+41:30 N- ----GSF- πλησμονῆς πλησμονή
+41:30 P- -------- ἐν ἐν
+41:30 A- ----DSF- ὅλῃ ὅλος
+41:30 N- ----DSF- γῇ γῆ
+41:30 N- ----DSF- Αἰγύπτῳ Αἴγυπτος
+41:30 C- -------- καὶ καί
+41:30 V- 3FAI-S-- ἀναλώσει ἀναλίσκω
+41:30 RA ----NSM- ὁ ὁ
+41:30 N- ----NSM- λιμὸς λιμός
+41:30 RA ----ASF- τὴν ὁ
+41:30 N- ----ASF- γῆν γῆ
+41:31 C- -------- καὶ καί
+41:31 D- -------- οὐκ οὐ
+41:31 V- 3FPI-S-- ἐπιγνωσθήσεται ἐπιγινώσκω
+41:31 RA ----NSF- ἡ ὁ
+41:31 N- ----NSF- εὐθηνία εὐθηνία
+41:31 P- -------- ἐπὶ ἐπί
+41:31 RA ----GSF- τῆς ὁ
+41:31 N- ----GSF- γῆς γῆ
+41:31 P- -------- ἀπὸ ἀπό
+41:31 RA ----GSM- τοῦ ὁ
+41:31 N- ----GSM- λιμοῦ λιμός
+41:31 RA ----GSM- τοῦ ὁ
+41:31 V- -FMPGSM- ἐσομένου εἰμί
+41:31 P- -------- μετὰ μετά
+41:31 RD ----APN- ταῦτα οὗτος
+41:31 A- ----NSM- ἰσχυρὸς ἰσχυρός
+41:31 C- -------- γὰρ γάρ
+41:31 V- 3FMI-S-- ἔσται εἰμί
+41:31 D- -------- σφόδρα σφόδρα
+41:32 P- -------- περὶ περί
+41:32 C- -------- δὲ δέ
+41:32 RA ----GSN- τοῦ ὁ
+41:32 V- -AAN---- δευτερῶσαι δευτερόω
+41:32 RA ----ASN- τὸ ὁ
+41:32 N- ----ASN- ἐνύπνιον ἐνύπνιον
+41:32 N- ----DSM- Φαραω Φαραώ  # module ASM — dative, as the Hebrew ʾel-parʿōh: repeated to Pharaoh
+41:32 D- -------- δίς δίς
+41:32 C- -------- ὅτι ὅτι
+41:32 A- ----NSN- ἀληθὲς ἀληθής
+41:32 V- 3FMI-S-- ἔσται εἰμί
+41:32 RA ----NSN- τὸ ὁ
+41:32 N- ----NSN- ῥῆμα ῥῆμα
+41:32 RA ----NSN- τὸ ὁ
+41:32 P- -------- παρὰ παρά
+41:32 RA ----GSM- τοῦ ὁ
+41:32 N- ----GSM- θεοῦ θεός
+41:32 C- -------- καὶ καί
+41:32 V- 3FAI-S-- ταχυνεῖ ταχύνω
+41:32 RA ----NSM- ὁ ὁ
+41:32 N- ----NSM- θεὸς θεός
+41:32 RA ----GSN- τοῦ ὁ
+41:32 V- -AAN---- ποιῆσαι ποιέω
+41:32 RP ----ASN- αὐτό αὐτός
+41:33 D- -------- νῦν νῦν
+41:33 C- -------- οὖν οὖν
+41:33 V- 2AMD-S-- σκέψαι σκέπτομαι
+41:33 N- ----ASM- ἄνθρωπον ἄνθρωπος
+41:33 A- ----ASM- φρόνιμον φρόνιμος
+41:33 C- -------- καὶ καί
+41:33 A- ----ASM- συνετὸν συνετός
+41:33 C- -------- καὶ καί
+41:33 V- 2AAD-S-- κατάστησον καθίστημι
+41:33 RP ----ASM- αὐτὸν αὐτός
+41:33 P- -------- ἐπὶ ἐπί
+41:33 N- ----GSF- γῆς γῆ
+41:33 N- ----GSF- Αἰγύπτου Αἴγυπτος
+41:34 C- -------- καὶ καί
+41:34 V- 3AAD-S-- ποιησάτω ποιέω
+41:34 N- ----NSM- Φαραω Φαραώ
+41:34 C- -------- καὶ καί
+41:34 V- 3AAD-S-- καταστησάτω καθίστημι
+41:34 N- ----APM- τοπάρχας τοπάρχης  # module lemma τοπαρχής — τοπάρχης, as LSJ accents it
+41:34 P- -------- ἐπὶ ἐπί
+41:34 RA ----GSF- τῆς ὁ
+41:34 N- ----GSF- γῆς γῆ
+41:34 C- -------- καὶ καί
+41:34 V- 3AAD-P-- ἀποπεμπτωσάτωσαν ἀποπεμπτόω
+41:34 A- ----APN- πάντα πᾶς
+41:34 RA ----APN- τὰ ὁ
+41:34 N- ----APN- γενήματα γένημα  # module lemma γέννημα — γένημα, the spelling Rahlfs prints, which LSJ keeps apart from γέννημα
+41:34 RA ----GSF- τῆς ὁ
+41:34 N- ----GSF- γῆς γῆ
+41:34 N- ----GSF- Αἰγύπτου Αἴγυπτος
+41:34 RA ----GPN- τῶν ὁ
+41:34 A- ----GPN- ἑπτὰ ἑπτά  # module M, no features — MorphGNT gives ἑπτά case, number and gender like any adjective
+41:34 N- ----GPN- ἐτῶν ἔτος
+41:34 RA ----GSF- τῆς ὁ
+41:34 N- ----GSF- εὐθηνίας εὐθηνία
+41:35 C- -------- καὶ καί
+41:35 V- 3AAD-P-- συναγαγέτωσαν συνάγω
+41:35 A- ----APN- πάντα πᾶς
+41:35 RA ----APN- τὰ ὁ
+41:35 N- ----APN- βρώματα βρῶμα
+41:35 RA ----GPN- τῶν ὁ
+41:35 A- ----GPN- ἑπτὰ ἑπτά  # module M, no features — MorphGNT gives ἑπτά case, number and gender like any adjective
+41:35 N- ----GPN- ἐτῶν ἔτος
+41:35 RA ----GPN- τῶν ὁ
+41:35 V- -PEPGPN- ἐρχομένων ἔρχομαι
+41:35 RA ----GPN- τῶν ὁ
+41:35 A- ----GPN- καλῶν καλός
+41:35 RD ----GPN- τούτων οὗτος
+41:35 C- -------- καὶ καί
+41:35 V- 3APD-S-- συναχθήτω συνάγω
+41:35 RA ----NSM- ὁ ὁ
+41:35 N- ----NSM- σῖτος σῖτος
+41:35 P- -------- ὑπὸ ὑπό
+41:35 N- ----ASF- χεῖρα χείρ
+41:35 N- ----GSM- Φαραω Φαραώ
+41:35 N- ----NPN- βρώματα βρῶμα  # module APN — nominative: the subject of φυλαχθήτω
+41:35 P- -------- ἐν ἐν
+41:35 RA ----DPF- ταῖς ὁ
+41:35 N- ----DPF- πόλεσιν πόλις
+41:35 V- 3APD-S-- φυλαχθήτω φυλάσσω
+41:36 C- -------- καὶ καί
+41:36 V- 3FMI-S-- ἔσται εἰμί
+41:36 RA ----NPN- τὰ ὁ
+41:36 N- ----NPN- βρώματα βρῶμα
+41:36 V- -XEPNPN- πεφυλαγμένα φυλάσσω
+41:36 RA ----DSF- τῇ ὁ
+41:36 N- ----DSF- γῇ γῆ
+41:36 P- -------- εἰς εἰς
+41:36 RA ----APN- τὰ ὁ
+41:36 A- ----APN- ἑπτὰ ἑπτά  # module M, no features — MorphGNT gives ἑπτά case, number and gender like any adjective
+41:36 N- ----APN- ἔτη ἔτος
+41:36 RA ----GSM- τοῦ ὁ
+41:36 N- ----GSM- λιμοῦ λιμός
+41:36 RR ----NPN- ἃ ὅς
+41:36 V- 3FMI-P-- ἔσονται εἰμί
+41:36 P- -------- ἐν ἐν
+41:36 N- ----DSF- γῇ γῆ
+41:36 N- ----DSF- Αἰγύπτῳ Αἴγυπτος
+41:36 C- -------- καὶ καί
+41:36 D- -------- οὐκ οὐ
+41:36 V- 3FPI-S-- ἐκτριβήσεται ἐκτρίβω
+41:36 RA ----NSF- ἡ ὁ
+41:36 N- ----NSF- γῆ γῆ
+41:36 P- -------- ἐν ἐν
+41:36 RA ----DSM- τῷ ὁ
+41:36 N- ----DSM- λιμῷ λιμός
+41:37 V- 3AAI-S-- Ἤρεσεν ἀρέσκω
+41:37 C- -------- δὲ δέ
+41:37 RA ----NPN- τὰ ὁ
+41:37 N- ----NPN- ῥήματα ῥῆμα
+41:37 P- -------- ἐναντίον ἐναντίον
+41:37 N- ----GSM- Φαραω Φαραώ
+41:37 C- -------- καὶ καί
+41:37 P- -------- ἐναντίον ἐναντίον
+41:37 A- ----GPM- πάντων πᾶς
+41:37 RA ----GPM- τῶν ὁ
+41:37 N- ----GPM- παίδων παῖς
+41:37 RP ----GSM- αὐτοῦ αὐτός
+41:38 C- -------- καὶ καί
+41:38 V- 3AAI-S-- εἶπεν λέγω  # module lemma ἔπω — λέγω keeps one dictionary form across both testaments
+41:38 N- ----NSM- Φαραω Φαραώ
+41:38 A- ----DPM- πᾶσιν πᾶς
+41:38 RA ----DPM- τοῖς ὁ
+41:38 N- ----DPM- παισὶν παῖς
+41:38 RP ----GSM- αὐτοῦ αὐτός
+41:38 X- -------- Μὴ μή
+41:38 V- 1FAI-P-- εὑρήσομεν εὑρίσκω
+41:38 N- ----ASM- ἄνθρωπον ἄνθρωπος
+41:38 RD ----ASM- τοιοῦτον τοιοῦτος
+41:38 RR ----NSM- ὃς ὅς
+41:38 V- 3PAI-S-- ἔχει ἔχω
+41:38 N- ----ASN- πνεῦμα πνεῦμα
+41:38 N- ----GSM- θεοῦ θεός
+41:38 P- -------- ἐν ἐν
+41:38 RP ----DSM- αὐτῷ αὐτός
+41:39 V- 3AAI-S-- εἶπεν λέγω  # module lemma ἔπω — λέγω keeps one dictionary form across both testaments
+41:39 C- -------- δὲ δέ
+41:39 N- ----NSM- Φαραω Φαραώ
+41:39 RA ----DSM- τῷ ὁ
+41:39 N- ----DSM- Ιωσηφ Ἰωσήφ
+41:39 C- -------- Ἐπειδὴ ἐπειδή
+41:39 V- 3AAI-S-- ἔδειξεν δείκνυμι  # module lemma δεικνύω — δείκνυμι, as MorphGNT files the aorist
+41:39 RA ----NSM- ὁ ὁ
+41:39 N- ----NSM- θεός θεός
+41:39 RP ----DS-- σοι σύ  # module lemma σοί, the form itself — σύ is the dictionary form
+41:39 A- ----APN- πάντα πᾶς
+41:39 RD ----APN- ταῦτα οὗτος
+41:39 D- -------- οὐκ οὐ
+41:39 V- 3PAI-S-- ἔστιν εἰμί
+41:39 N- ----NSM- ἄνθρωπος ἄνθρωπος
+41:39 A- ----NSMC φρονιμώτερος φρόνιμος
+41:39 C- -------- καὶ καί
+41:39 A- ----NSMC συνετώτερός συνετός
+41:39 RP ----GS-- σου σύ  # module lemma σοῦ, the form itself — σύ is the dictionary form
+41:40 RP ----NS-- σὺ σύ
+41:40 V- 2FMI-S-- ἔσῃ εἰμί
+41:40 P- -------- ἐπὶ ἐπί
+41:40 RA ----DSM- τῷ ὁ
+41:40 N- ----DSM- οἴκῳ οἶκος
+41:40 RP ----GS-- μου ἐγώ  # module lemma μου, the form itself — ἐγώ is the dictionary form
+41:40 C- -------- καὶ καί
+41:40 P- -------- ἐπὶ ἐπί
+41:40 RA ----DSN- τῷ ὁ
+41:40 N- ----DSN- στόματί στόμα
+41:40 RP ----GS-- σου σύ  # module lemma σοῦ, the form itself — σύ is the dictionary form
+41:40 V- 3FMI-S-- ὑπακούσεται ὑπακούω
+41:40 A- ----NSM- πᾶς πᾶς
+41:40 RA ----NSM- ὁ ὁ
+41:40 N- ----NSM- λαός λαός
+41:40 RP ----GS-- μου ἐγώ  # module lemma μου, the form itself — ἐγώ is the dictionary form
+41:40 C- -------- πλὴν πλήν
+41:40 RA ----ASM- τὸν ὁ
+41:40 N- ----ASM- θρόνον θρόνος
+41:40 V- 1FAI-S-- ὑπερέξω ὑπερέχω
+41:40 RP ----GS-- σου σύ  # module lemma σοῦ, the form itself — σύ is the dictionary form
+41:40 RP ----NS-- ἐγώ ἐγώ
+41:41 V- 3AAI-S-- εἶπεν λέγω  # module lemma ἔπω — λέγω keeps one dictionary form across both testaments
+41:41 C- -------- δὲ δέ
+41:41 N- ----NSM- Φαραω Φαραώ
+41:41 RA ----DSM- τῷ ὁ
+41:41 N- ----DSM- Ιωσηφ Ἰωσήφ
+41:41 X- -------- Ἰδοὺ ἰδού
+41:41 V- 1PAI-S-- καθίστημί καθίστημι
+41:41 RP ----AS-- σε σύ  # module lemma σέ, the form itself — σύ is the dictionary form
+41:41 D- -------- σήμερον σήμερον
+41:41 P- -------- ἐπὶ ἐπί
+41:41 A- ----GSF- πάσης πᾶς
+41:41 N- ----GSF- γῆς γῆ
+41:41 N- ----GSF- Αἰγύπτου Αἴγυπτος
+41:42 C- -------- καὶ καί
+41:42 V- -AMPNSM- περιελόμενος περιαιρέω
+41:42 N- ----NSM- Φαραω Φαραώ
+41:42 RA ----ASM- τὸν ὁ
+41:42 N- ----ASM- δακτύλιον δακτύλιος
+41:42 P- -------- ἀπὸ ἀπό
+41:42 RA ----GSF- τῆς ὁ
+41:42 N- ----GSF- χειρὸς χείρ
+41:42 RP ----GSM- αὐτοῦ αὐτός
+41:42 V- 3AAI-S-- περιέθηκεν περιτίθημι
+41:42 RP ----ASM- αὐτὸν αὐτός
+41:42 P- -------- ἐπὶ ἐπί
+41:42 RA ----ASF- τὴν ὁ
+41:42 N- ----ASF- χεῖρα χείρ
+41:42 N- ----GSM- Ιωσηφ Ἰωσήφ
+41:42 C- -------- καὶ καί
+41:42 V- 3AAI-S-- ἐνέδυσεν ἐνδύω
+41:42 RP ----ASM- αὐτὸν αὐτός
+41:42 N- ----ASF- στολὴν στολή
+41:42 A- ----ASF- βυσσίνην βύσσινος
+41:42 C- -------- καὶ καί
+41:42 V- 3AAI-S-- περιέθηκεν περιτίθημι
+41:42 N- ----ASM- κλοιὸν κλοιός
+41:42 A- ----ASM- χρυσοῦν χρυσοῦς  # module lemma χρύσεος — χρυσοῦς, the contracted form Rahlfs prints
+41:42 P- -------- περὶ περί
+41:42 RA ----ASM- τὸν ὁ
+41:42 N- ----ASM- τράχηλον τράχηλος
+41:42 RP ----GSM- αὐτοῦ αὐτός
+41:43 C- -------- καὶ καί
+41:43 V- 3AAI-S-- ἀνεβίβασεν ἀναβιβάζω
+41:43 RP ----ASM- αὐτὸν αὐτός
+41:43 P- -------- ἐπὶ ἐπί
+41:43 RA ----ASN- τὸ ὁ
+41:43 N- ----ASN- ἅρμα ἅρμα
+41:43 RA ----ASN- τὸ ὁ
+41:43 A- ----ASN- δεύτερον δεύτερος
+41:43 RA ----GPN- τῶν ὁ  # module GPM — neuter: of his chariots, after τὸ ἅρμα
+41:43 RP ----GSM- αὐτοῦ αὐτός
+41:43 C- -------- καὶ καί
+41:43 V- 3AAI-S-- ἐκήρυξεν κηρύσσω
+41:43 P- -------- ἔμπροσθεν ἔμπροσθεν
+41:43 RP ----GSM- αὐτοῦ αὐτός
+41:43 N- ----NSM- κῆρυξ κῆρυξ
+41:43 C- -------- καὶ καί
+41:43 V- 3AAI-S-- κατέστησεν καθίστημι
+41:43 RP ----ASM- αὐτὸν αὐτός
+41:43 P- -------- ἐφʼ ἐπί
+41:43 A- ----GSF- ὅλης ὅλος
+41:43 N- ----GSF- γῆς γῆ
+41:43 N- ----GSF- Αἰγύπτου Αἴγυπτος
+41:44 V- 3AAI-S-- εἶπεν λέγω  # module lemma ἔπω — λέγω keeps one dictionary form across both testaments
+41:44 C- -------- δὲ δέ
+41:44 N- ----NSM- Φαραω Φαραώ
+41:44 RA ----DSM- τῷ ὁ
+41:44 N- ----DSM- Ιωσηφ Ἰωσήφ
+41:44 RP ----NS-- Ἐγὼ ἐγώ
+41:44 N- ----NSM- Φαραω Φαραώ
+41:44 P- -------- ἄνευ ἄνευ
+41:44 RP ----GS-- σοῦ σύ  # module lemma σοῦ, the form itself — σύ is the dictionary form
+41:44 D- -------- οὐκ οὐ
+41:44 V- 3FAI-S-- ἐξαρεῖ ἐξαίρω
+41:44 A- ----NSM- οὐθεὶς οὐθείς  # module lemma οὐδείς — οὐθείς, the spelling Rahlfs prints
+41:44 RA ----ASF- τὴν ὁ
+41:44 N- ----ASF- χεῖρα χείρ
+41:44 RP ----GSM- αὐτοῦ αὐτός
+41:44 P- -------- ἐπὶ ἐπί
+41:44 A- ----DSF- πάσῃ πᾶς
+41:44 N- ----DSF- γῇ γῆ
+41:44 N- ----GSF- Αἰγύπτου Αἴγυπτος
+41:45 C- -------- καὶ καί
+41:45 V- 3AAI-S-- ἐκάλεσεν καλέω
+41:45 N- ----NSM- Φαραω Φαραώ
+41:45 RA ----ASN- τὸ ὁ
+41:45 N- ----ASN- ὄνομα ὄνομα
+41:45 N- ----GSM- Ιωσηφ Ἰωσήφ
+41:45 N- ----ASM- Ψονθομφανηχ Ψονθομφανηχ
+41:45 C- -------- καὶ καί
+41:45 V- 3AAI-S-- ἔδωκεν δίδωμι
+41:45 RP ----DSM- αὐτῷ αὐτός
+41:45 RA ----ASF- τὴν ὁ
+41:45 N- ----ASF- Ασεννεθ Ασεννεθ
+41:45 N- ----ASF- θυγατέρα θυγάτηρ
+41:45 N- ----GSM- Πετεφρη Πετεφρης
+41:45 N- ----GSM- ἱερέως ἱερεύς
+41:45 N- ----GSM- Ἡλίου Ἥλιος  # module lemma ἥλιος — Ἥλιος, capitalised as Rahlfs prints it in the city's name  # corpus the sun named in Ἡλίου πόλις, where ἡλίου at 15:12 is the sun in the sky
+41:45 N- ----GSF- πόλεως πόλις
+41:45 RP ----DSM- αὐτῷ αὐτός
+41:45 N- ----ASF- γυναῖκα γυνή
+41:46 N- ----NSM- Ιωσηφ Ἰωσήφ
+41:46 C- -------- δὲ δέ
+41:46 V- 3IAI-S-- ἦν εἰμί
+41:46 N- ----GPN- ἐτῶν ἔτος
+41:46 A- ----GPN- τριάκοντα τριάκοντα  # module M, no features — MorphGNT gives τριάκοντα case, number and gender like any adjective
+41:46 C- -------- ὅτε ὅτε
+41:46 V- 3AAI-S-- ἔστη ἵστημι
+41:46 P- -------- ἐναντίον ἐναντίον
+41:46 N- ----GSM- Φαραω Φαραώ
+41:46 N- ----GSM- βασιλέως βασιλεύς
+41:46 N- ----GSF- Αἰγύπτου Αἴγυπτος
+41:46 V- 3AAI-S-- Ἐξῆλθεν ἐξέρχομαι
+41:46 C- -------- δὲ δέ
+41:46 N- ----NSM- Ιωσηφ Ἰωσήφ
+41:46 P- -------- ἐκ ἐκ
+41:46 N- ----GSN- προσώπου πρόσωπον
+41:46 N- ----GSM- Φαραω Φαραώ
+41:46 C- -------- καὶ καί
+41:46 V- 3AAI-S-- διῆλθεν διέρχομαι
+41:46 A- ----ASF- πᾶσαν πᾶς
+41:46 N- ----ASF- γῆν γῆ
+41:46 N- ----GSF- Αἰγύπτου Αἴγυπτος
+41:47 C- -------- καὶ καί
+41:47 V- 3AAI-S-- ἐποίησεν ποιέω
+41:47 RA ----NSF- ἡ ὁ
+41:47 N- ----NSF- γῆ γῆ
+41:47 P- -------- ἐν ἐν
+41:47 RA ----DPN- τοῖς ὁ
+41:47 A- ----DPN- ἑπτὰ ἑπτά  # module M, no features — MorphGNT gives ἑπτά case, number and gender like any adjective
+41:47 N- ----DPN- ἔτεσιν ἔτος
+41:47 RA ----GSF- τῆς ὁ
+41:47 N- ----GSF- εὐθηνίας εὐθηνία
+41:47 N- ----APN- δράγματα δράγμα
+41:48 C- -------- καὶ καί
+41:48 V- 3AAI-S-- συνήγαγεν συνάγω
+41:48 A- ----APN- πάντα πᾶς
+41:48 RA ----APN- τὰ ὁ
+41:48 N- ----APN- βρώματα βρῶμα
+41:48 RA ----GPN- τῶν ὁ
+41:48 A- ----GPN- ἑπτὰ ἑπτά  # module M, no features — MorphGNT gives ἑπτά case, number and gender like any adjective
+41:48 N- ----GPN- ἐτῶν ἔτος
+41:48 P- -------- ἐν ἐν
+41:48 RR ----DPN- οἷς ὅς
+41:48 V- 3IAI-S-- ἦν εἰμί
+41:48 RA ----NSF- ἡ ὁ
+41:48 N- ----NSF- εὐθηνία εὐθηνία
+41:48 P- -------- ἐν ἐν
+41:48 N- ----DSF- γῇ γῆ
+41:48 N- ----GSF- Αἰγύπτου Αἴγυπτος
+41:48 C- -------- καὶ καί
+41:48 V- 3AAI-S-- ἔθηκεν τίθημι
+41:48 RA ----APN- τὰ ὁ
+41:48 N- ----APN- βρώματα βρῶμα
+41:48 P- -------- ἐν ἐν
+41:48 RA ----DPF- ταῖς ὁ
+41:48 N- ----DPF- πόλεσιν πόλις
+41:48 N- ----APN- βρώματα βρῶμα
+41:48 RA ----GPN- τῶν ὁ
+41:48 N- ----GPN- πεδίων πεδίον
+41:48 RA ----GSF- τῆς ὁ
+41:48 N- ----GSF- πόλεως πόλις
+41:48 RA ----GPN- τῶν ὁ
+41:48 D- -------- κύκλῳ κύκλῳ  # module N DSM — κύκλῳ, the adverb, as MorphGNT files it (Mark 3:34)
+41:48 RP ----GSF- αὐτῆς αὐτός
+41:48 V- 3AAI-S-- ἔθηκεν τίθημι
+41:48 P- -------- ἐν ἐν
+41:48 RP ----DSF- αὐτῇ αὐτός
+41:49 C- -------- καὶ καί
+41:49 V- 3AAI-S-- συνήγαγεν συνάγω
+41:49 N- ----NSM- Ιωσηφ Ἰωσήφ
+41:49 N- ----ASM- σῖτον σῖτος
+41:49 C- -------- ὡσεὶ ὡσεί
+41:49 RA ----ASF- τὴν ὁ
+41:49 N- ----ASF- ἄμμον ἄμμος
+41:49 RA ----GSF- τῆς ὁ
+41:49 N- ----GSF- θαλάσσης θάλασσα
+41:49 A- ----ASM- πολὺν πολύς
+41:49 D- -------- σφόδρα σφόδρα
+41:49 C- -------- ἕως ἕως
+41:49 D- -------- οὐκ οὐ
+41:49 V- 3IEI-P-- ἠδύναντο δύναμαι
+41:49 V- -AAN---- ἀριθμῆσαι ἀριθμέω
+41:49 D- -------- οὐ οὐ
+41:49 C- -------- γὰρ γάρ
+41:49 V- 3IAI-S-- ἦν εἰμί
+41:49 N- ----NSM- ἀριθμός ἀριθμός
+41:50 RA ----DSM- Τῷ ὁ
+41:50 C- -------- δὲ δέ
+41:50 N- ----DSM- Ιωσηφ Ἰωσήφ
+41:50 V- 3AMI-P-- ἐγένοντο γίνομαι
+41:50 N- ----NPM- υἱοὶ υἱός
+41:50 A- ----NPM- δύο δύο  # module M, no features — MorphGNT gives δύο case, number and gender like any adjective
+41:50 P- -------- πρὸ πρό
+41:50 RA ----GSN- τοῦ ὁ
+41:50 V- -AAN---- ἐλθεῖν ἔρχομαι
+41:50 RA ----APN- τὰ ὁ
+41:50 A- ----APN- ἑπτὰ ἑπτά  # module M, no features — MorphGNT gives ἑπτά case, number and gender like any adjective
+41:50 N- ----APN- ἔτη ἔτος
+41:50 RA ----GSM- τοῦ ὁ
+41:50 N- ----GSM- λιμοῦ λιμός
+41:50 RR ----APM- οὓς ὅς
+41:50 V- 3AAI-S-- ἔτεκεν τίκτω
+41:50 RP ----DSM- αὐτῷ αὐτός
+41:50 N- ----NSF- Ασεννεθ Ασεννεθ
+41:50 N- ----NSF- θυγάτηρ θυγάτηρ
+41:50 N- ----GSM- Πετεφρη Πετεφρης
+41:50 N- ----GSM- ἱερέως ἱερεύς
+41:50 N- ----GSM- Ἡλίου Ἥλιος  # module lemma ἥλιος — Ἥλιος, capitalised as Rahlfs prints it in the city's name
+41:50 N- ----GSF- πόλεως πόλις
+41:51 V- 3AAI-S-- ἐκάλεσεν καλέω
+41:51 C- -------- δὲ δέ
+41:51 N- ----NSM- Ιωσηφ Ἰωσήφ
+41:51 RA ----ASN- τὸ ὁ
+41:51 N- ----ASN- ὄνομα ὄνομα
+41:51 RA ----GSM- τοῦ ὁ
+41:51 A- ----GSM- πρωτοτόκου πρωτότοκος
+41:51 N- ----ASM- Μανασση Μανασσῆς
+41:51 C- -------- ὅτι ὅτι
+41:51 V- -AMN---- Ἐπιλαθέσθαι ἐπιλανθάνομαι
+41:51 RP ----AS-- με ἐγώ  # module lemma μέ, the form itself — ἐγώ is the dictionary form
+41:51 V- 3AAI-S-- ἐποίησεν ποιέω
+41:51 RA ----NSM- ὁ ὁ
+41:51 N- ----NSM- θεὸς θεός
+41:51 A- ----GPM- πάντων πᾶς
+41:51 RA ----GPM- τῶν ὁ
+41:51 N- ----GPM- πόνων πόνος
+41:51 RP ----GS-- μου ἐγώ  # module lemma μου, the form itself — ἐγώ is the dictionary form
+41:51 C- -------- καὶ καί
+41:51 A- ----GPM- πάντων πᾶς
+41:51 RA ----GPM- τῶν ὁ
+41:51 RA ----GSM- τοῦ ὁ
+41:51 N- ----GSM- πατρός πατήρ
+41:51 RP ----GS-- μου ἐγώ  # module lemma μου, the form itself — ἐγώ is the dictionary form
+41:52 RA ----ASN- τὸ ὁ
+41:52 C- -------- δὲ δέ
+41:52 N- ----ASN- ὄνομα ὄνομα
+41:52 RA ----GSM- τοῦ ὁ
+41:52 A- ----GSM- δευτέρου δεύτερος
+41:52 V- 3AAI-S-- ἐκάλεσεν καλέω
+41:52 N- ----ASM- Εφραιμ Ἐφραίμ
+41:52 C- -------- ὅτι ὅτι
+41:52 V- 3AAI-S-- Ηὔξησέν αὐξάνω
+41:52 RP ----AS-- με ἐγώ  # module lemma μέ, the form itself — ἐγώ is the dictionary form
+41:52 RA ----NSM- ὁ ὁ
+41:52 N- ----NSM- θεὸς θεός
+41:52 P- -------- ἐν ἐν
+41:52 N- ----DSF- γῇ γῆ
+41:52 N- ----GSF- ταπεινώσεώς ταπείνωσις
+41:52 RP ----GS-- μου ἐγώ  # module lemma μου, the form itself — ἐγώ is the dictionary form
+41:53 V- 3AAI-P-- Παρῆλθον παρέρχομαι
+41:53 C- -------- δὲ δέ
+41:53 RA ----NPN- τὰ ὁ
+41:53 A- ----NPN- ἑπτὰ ἑπτά  # module M, no features — MorphGNT gives ἑπτά case, number and gender like any adjective
+41:53 N- ----NPN- ἔτη ἔτος
+41:53 RA ----GSF- τῆς ὁ
+41:53 N- ----GSF- εὐθηνίας εὐθηνία
+41:53 RR ----NPN- ἃ ὅς
+41:53 V- 3AMI-P-- ἐγένοντο γίνομαι
+41:53 P- -------- ἐν ἐν
+41:53 N- ----DSF- γῇ γῆ
+41:53 N- ----DSF- Αἰγύπτῳ Αἴγυπτος
+41:54 C- -------- καὶ καί
+41:54 V- 3AMI-P-- ἤρξαντο ἄρχω
+41:54 RA ----NPN- τὰ ὁ
+41:54 A- ----NPN- ἑπτὰ ἑπτά  # module M, no features — MorphGNT gives ἑπτά case, number and gender like any adjective
+41:54 N- ----NPN- ἔτη ἔτος
+41:54 RA ----GSM- τοῦ ὁ
+41:54 N- ----GSM- λιμοῦ λιμός
+41:54 V- -PEN---- ἔρχεσθαι ἔρχομαι
+41:54 C- -------- καθὰ καθά
+41:54 V- 3AAI-S-- εἶπεν λέγω  # module lemma ἔπω — λέγω keeps one dictionary form across both testaments
+41:54 N- ----NSM- Ιωσηφ Ἰωσήφ
+41:54 C- -------- καὶ καί
+41:54 V- 3AMI-S-- ἐγένετο γίνομαι
+41:54 N- ----NSM- λιμὸς λιμός
+41:54 P- -------- ἐν ἐν
+41:54 A- ----DSF- πάσῃ πᾶς
+41:54 RA ----DSF- τῇ ὁ
+41:54 N- ----DSF- γῇ γῆ
+41:54 P- -------- ἐν ἐν
+41:54 C- -------- δὲ δέ
+41:54 A- ----DSF- πάσῃ πᾶς
+41:54 N- ----DSF- γῇ γῆ
+41:54 N- ----GSF- Αἰγύπτου Αἴγυπτος
+41:54 V- 3IAI-P-- ἦσαν εἰμί
+41:54 N- ----NPM- ἄρτοι ἄρτος
+41:55 C- -------- καὶ καί
+41:55 V- 3AAI-S-- ἐπείνασεν πεινάω
+41:55 A- ----NSF- πᾶσα πᾶς
+41:55 RA ----NSF- ἡ ὁ
+41:55 N- ----NSF- γῆ γῆ
+41:55 N- ----GSF- Αἰγύπτου Αἴγυπτος
+41:55 V- 3AAI-S-- ἐκέκραξεν κράζω
+41:55 C- -------- δὲ δέ
+41:55 RA ----NSM- ὁ ὁ
+41:55 N- ----NSM- λαὸς λαός
+41:55 P- -------- πρὸς πρός
+41:55 N- ----ASM- Φαραω Φαραώ
+41:55 P- -------- περὶ περί
+41:55 N- ----GPM- ἄρτων ἄρτος
+41:55 V- 3AAI-S-- εἶπεν λέγω  # module lemma ἔπω — λέγω keeps one dictionary form across both testaments
+41:55 C- -------- δὲ δέ
+41:55 N- ----NSM- Φαραω Φαραώ
+41:55 A- ----DPM- πᾶσι πᾶς
+41:55 RA ----DPM- τοῖς ὁ
+41:55 N- ----DPM- Αἰγυπτίοις Αἰγύπτιος
+41:55 V- 2PED-P-- Πορεύεσθε πορεύομαι
+41:55 P- -------- πρὸς πρός
+41:55 N- ----ASM- Ιωσηφ Ἰωσήφ
+41:55 C- -------- καὶ καί
+41:55 RR ----ASN- ὃ ὅς
+41:55 X- -------- ἐὰν ἐάν
+41:55 V- 3AAS-S-- εἴπῃ λέγω  # module lemma ἔπω — λέγω keeps one dictionary form across both testaments
+41:55 RP ----DP-- ὑμῖν σύ  # module lemma ὑμῖν, the form itself — σύ is the dictionary form
+41:55 V- 2AAD-P-- ποιήσατε ποιέω
+41:56 C- -------- καὶ καί
+41:56 RA ----NSM- ὁ ὁ
+41:56 N- ----NSM- λιμὸς λιμός
+41:56 V- 3IAI-S-- ἦν εἰμί
+41:56 P- -------- ἐπὶ ἐπί
+41:56 N- ----GSN- προσώπου πρόσωπον
+41:56 A- ----GSF- πάσης πᾶς
+41:56 RA ----GSF- τῆς ὁ
+41:56 N- ----GSF- γῆς γῆ
+41:56 V- 3AAI-S-- ἀνέῳξεν ἀνοίγω
+41:56 C- -------- δὲ δέ
+41:56 N- ----NSM- Ιωσηφ Ἰωσήφ
+41:56 A- ----APM- πάντας πᾶς
+41:56 RA ----APM- τοὺς ὁ
+41:56 N- ----APM- σιτοβολῶνας σιτοβολών
+41:56 C- -------- καὶ καί
+41:56 V- 3IAI-S-- ἐπώλει πωλέω
+41:56 A- ----DPM- πᾶσι πᾶς
+41:56 RA ----DPM- τοῖς ὁ
+41:56 N- ----DPM- Αἰγυπτίοις Αἰγύπτιος
+41:57 C- -------- καὶ καί
+41:57 A- ----NPF- πᾶσαι πᾶς
+41:57 RA ----NPF- αἱ ὁ
+41:57 N- ----NPF- χῶραι χώρα
+41:57 V- 3AAI-P-- ἦλθον ἔρχομαι
+41:57 P- -------- εἰς εἰς
+41:57 N- ----ASF- Αἴγυπτον Αἴγυπτος
+41:57 V- -PAN---- ἀγοράζειν ἀγοράζω
+41:57 P- -------- πρὸς πρός
+41:57 N- ----ASM- Ιωσηφ Ἰωσήφ
+41:57 V- 3AAI-S-- ἐπεκράτησεν ἐπικρατέω
+41:57 C- -------- γὰρ γάρ
+41:57 RA ----NSM- ὁ ὁ
+41:57 N- ----NSM- λιμὸς λιμός
+41:57 P- -------- ἐν ἐν
+41:57 A- ----DSF- πάσῃ πᾶς
+41:57 RA ----DSF- τῇ ὁ
+41:57 N- ----DSF- γῇ γῆ

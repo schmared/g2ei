@@ -396,6 +396,18 @@ Four disagreements over 478 words, all one word: κανᾶ, κανῷ, κανο�
 under κάνεον, the headword LSJ gives them, and the first under κανοῦν, the contracted form the
 text prints. The dictionary form keeps the text's spelling, and the instructions now name it.
 
+### What it found in Genesis 41
+
+Twelve disagreements over 1,140 words, and the second pass had eleven of them right. The first
+had taken κοιλίας twice for the genitive singular where τὰς shows the accusative plural, read μή
+opening a question as `D-` and ἕως before a finite verb as `P-`, filed ἄχει under LSJ's other
+spelling, ἄχι, and Ἡλίου under the common noun of 15:12, where the brief files a Greek word the
+text capitalises as printed. At 41:32 it took Φαραω for the genitive of 41:25, Pharaoh's dream,
+where the Hebrew's ʾel-parʿōh makes it the dative; at 41:51 it took πάντων τῶν for neuter beside
+the masculine πόνων. The one it kept is ξυράω, which the second pass filed as ξυρέω, LSJ's
+headword: ἐξύρησαν is both, and MorphGNT files the verb ξυράω. The instructions now name it, and
+ἕως before a finite verb.
+
 ## The brief
 
 Copy everything below the rule into a new agent. Replace `<BOOK NAME>`, `<CHAPTER>`,
@@ -444,7 +456,7 @@ Small words are tagged as MorphGNT tags them:
   after a noun that is not a time (`ἡ μαρτυρία … ὅτε`, John 1:19); οὐδέ meaning *nor*; μήποτε
   meaning *lest*; ὡς meaning *as, like*, and the ὡς of `ὡς ἄν` (Rom 15:24), with ἄν `X-`; ὅθεν
   meaning *wherefore* (Heb 2:17); ἕως before an infinitive with no article (`ἕως ἐλθεῖν`), which
-  has no genitive to govern
+  has no genitive to govern, and ἕως opening a clause with a finite verb (`ἕως οὐκ ἠδύναντο`)
 - **X-** also ἴδε, *behold*, as MorphGNT tags it. But ἰδέ, accented on the last syllable as Rahlfs
   prints it at `ἰδὲ ἀπὸ τοῦ τόπου`, is the aorist imperative of ὁράω, `V- 2AAD-S--`
 - **X-** ἄν; ἐάν where it stands for ἄν after a relative (`ὃ ἐὰν θέλητε`, John 15:7); ἰδού;
@@ -548,7 +560,8 @@ Conventions:
 
 The dictionary form as Middle Liddell (Perseus) files it:
 
-- Koine spellings: γίνομαι, γινώσκω. No iota subscript where Perseus has none: ἀποθνήσκω.
+- Koine spellings: γίνομαι, γινώσκω, and ξυράω, as MorphGNT files ξυρᾶσθαι (1 Cor 11:6), for the
+  forms it shares with ξυρέω. No iota subscript where Perseus has none: ἀποθνήσκω.
   Enclitics unaccented, as Middle Liddell keys them: τε, γε (MorphGNT accents γέ; the lexicon
   does not).
 - Verbs with no active in use under their middle form, as MorphGNT files them: ἐργάζομαι,
