@@ -356,6 +356,22 @@ LSJ = {
     # in square". LSJ (eng7): ζωογονέω, "propagate" or "engender living creatures", "breed",
     # "engender", "to be viviparous", "produce alive", "make alive, quicken", and "= ζωγρέω, preserve
     # alive", citing Ex 1:17; "producing" is a piece of the example of Zeus and Pallas.
+    # EXO 12. None of these is in Middle Liddell. LSJ (eng3): γειώρας, "sojourner", "proselyte". LSJ
+    # (eng4): δέσμη, "package, bundle", "a measure in Egypt", "in Medicine, handful"; Rahlfs prints the
+    # accusative δεσμήν, the module δέσμην. LSJ (eng5): ἐνδόσθια, "= ἐντόσθια", a pointer to ἐντόσθιος,
+    # "mostly, Subst. ἐντόσθια, τά, inwards, entrails", which names this verse's spelling; ἐπίμικτος,
+    # LSJ's ἐπίμεικτος, "common to", "mixed", "combining the features of", "sociable, gregarious", the
+    # adverb's "in combination" left to the adverb. LSJ (eng7): ζυμωτός, "fermented, leavened", citing
+    # Ex 13:7. LSJ (eng12): λατρευτός, "= foreg.", a pointer to λατρευτικός, "servile", citing ἔργον
+    # in this chapter. LSJ (eng17): πικρίς, "ox-tongue, Helminthia sepioides", "= κιχόριον", a pointer
+    # to an entry LSJ does not have, and "sour soil".
+    "γειώρας": ["sojourner", "proselyte"],
+    "δέσμη": ["package, bundle", "measure", "handful"],
+    "ἐνδόσθια": ["inwards, entrails"],
+    "ἐπίμικτος": ["common to", "mixed", "combining the features", "sociable, gregarious"],
+    "ζυμωτός": ["fermented, leavened"],
+    "λατρευτός": ["servile"],
+    "πικρίς": ["ox-tongue, Helminthia sepioides", "sour soil"],
     # EXO 10. None of these is in Middle Liddell. LSJ (eng21): σκῶλον, τό, "= σκῶλος", then its own
     # "stumblingblock, hindrance", citing Ex 10:7. Middle Liddell's σκῶλος, "a pointed stake", is the
     # masculine, and the text's σκῶλον is a predicate nominative, which no form of σκῶλος can be.
@@ -1347,6 +1363,19 @@ NOT_SENSES = {
                "elections."},                   # examples' translations, a proverb, the note on ballot and lot
     "e)pista/ths": {"the right-", "left-hand man", "the front-rank man)", "a", "master", "which stood over"},  # παραστάτης's and προστάτης's glosses; "a training-master" cut in two, whole in MARKUP_LOST; a piece
     "be/ltistos": {"my good friend"},             # ὦ βέλτιστε, the vocative's mode of address
+    # EXO 12
+    "a)rke/w": {"will suffice", "'tis enough", "am content", "there is", "help", "enough", "good"},  # examples'
+    "e)niau/sios": {"for a year"},               # a repeat of "for a year, lasting a year"
+    "w)mo/s": {"raw", "savagely", "rudely, coarsely", "a more coarse, more unmitigated"},  # a repeat; the adverbs'; the comparative's
+    "perizw/nnumai": {"put", "on", "to have", "girded round them"},  # examples' pieces
+    "spoudh/": {"speed", "pains", "much ado about", "with great attention to", "busily", "in earnest, seriously"},  # repeats; phrases'
+    "pai/w": {"he smote his", "struck", "dashed", "strikes on"},  # examples' translations
+    "e)nde/w": {"bound", "fast", "having packed", "up", "entangled", "in", "to have", "secured"},  # examples' pieces
+    "pezo/s": {"by land", "beasts"},             # τὰ πεζά, a phrase's and the neuter's
+    "no/mos": {"custom", "law", "by the law of force, in the fight", "scuffle", "in actual warfare", "to blows", "tunes"},  # repeats; phrases'
+    "meso/w": {"mid-", "mid", "in the middle of"},  # examples' translations
+    "ba/ptw": {"to dye", "by dipping", "having dipped", "so as to draw"},  # a repeat; examples' pieces
+    "kaqikne/omai": {"hast touched", "came down upon"},  # examples' translations
     # EXO 11
     "plhgh/": {"a blow"},                        # a repeat of "a blow, stroke"
     "e)kbolh/": {"turning", "out of", "the time when", "comes into ear", "earth cast", "scraped up",
@@ -1450,6 +1479,23 @@ _APOLLUMI_ACT = {"to destroy utterly, kill, slay", "to destroy, demolish, waste"
 _APOLLUMI_MID = {"to perish utterly, die", "to be undone", "you are done for, lost, ruined",
                  "to be lost, slip away, vanish"}
 FORM_SENSES = {
+    # σπουδή: "σπουδῇ, as adv., in haste, hastily … with great exertion … earnestly, seriously" are the
+    # dative's, and "in pl. zealous exertions … also party feelings, rivalries" the plural's: EXO 12:11's
+    # μετὰ σπουδῆς reads the singular's senses, 12:33's σπουδῇ those and the dative's.
+    "spoudh/": [("-", "-", {"speed", "pains", "much ado about", "with great attention to", "busily",
+                            "in earnest, seriously", "zealous exertions", "party feelings, rivalries"}, None, "^....DS"),
+                ("-", "-", {"speed", "pains", "much ado about", "with great attention to", "busily",
+                            "in earnest, seriously", "in haste, hastily",
+                            "with great exertion, with difficulty, hardly, scarcely", "earnestly, seriously, urgently"},
+                 None, "^....[NGA]P"),
+                ("-", "-", {"speed", "pains", "much ado about", "with great attention to", "busily",
+                            "in earnest, seriously", "zealous exertions", "party feelings, rivalries", "in haste, hastily",
+                            "with great exertion, with difficulty, hardly, scarcely", "earnestly, seriously, urgently"})],
+    # νόμος: "dat. νόμῳ by custom, conventionally" is the dative's; EXO 12's nominatives leave it out.
+    "no/mos": [("-", "-", {"custom", "law", "by the law of force, in the fight", "scuffle", "in actual warfare",
+                           "to blows", "tunes"}, None, "^....D"),
+               ("-", "-", {"custom", "law", "by the law of force, in the fight", "scuffle", "in actual warfare",
+                           "to blows", "tunes", "by custom, conventionally"})],
     # ἀπόλλυμι: "to destroy utterly … Mid. ἀπόλλυμαι … perf. -όλωλα … to perish utterly, die". The
     # second perfect is active in form and the middle's in sense, as EXO 10:7's ἀπόλωλεν Αἴγυπτος;
     # the active's other tenses take the active's senses, and the middle's the middle's.
@@ -1777,6 +1823,8 @@ FORM_SENSES = {
 # (κατέναντι reads "= κατεναντίον" and glosses nothing itself). Each is recorded in
 # reference/lexicon-notes.md with the entry it resolves to.
 SPELLING = {
+    "perizw/nnumi": "perizw/nnumai",   # the middle, "with perf. pass. -έζωσμαι", the voice the text uses (EXO 12:11)
+    "o)leqreu/w": "o)loqreu/w",        # ὀλεθρεύω, Middle Liddell's ὀλοθρεύω (EXO 12:23)
     "gno/fos": "dno/fos",              # γνόφος, Middle Liddell's "= δνόφος" (EXO 10:22)
     "katagi/nomai": "katagi/gnomai",   # the Attic spelling, as γίνομαι (EXO 10:23)
     "o)lu/ra": "o)/lura",               # ὀλύρα, Middle Liddell's ὄλυρα (EXO 9:32)
@@ -2062,6 +2110,11 @@ MARKUP_LOST = {
     # it «taken from one»". The pieces are in NOT_SENSES.
     # EXO 8. κνίψ: "a small «insect which gnaws» figs".
     "kni/y": [(0, "a small insect which gnaws figs")],
+    # EXO 12. αὐτόχθων: "αὐτόχθονες, οἱ, like Lat. Indigenae, aborigines, natives"; προσήλυτος: "a
+    # sojourner, Lat. advena: one who has come over to Judaism, a convert, proselyte". The English
+    # inside the Latin element, the Latin the capitalised Indigenae and advena.
+    "au)to/xqwn": [(1, "aborigines, natives")],
+    "prosh/lutos": [(2, "one who has come over to Judaism, a convert, proselyte")],
     # EXO 9. ὕω: "ὕει used impers., Lat. pluit, it rains" — the English inside the Latin element.
     # It is the third person's; a first or second person leaves it out (FORM_SENSES).
     "u(/w": [(1, "it rains")],

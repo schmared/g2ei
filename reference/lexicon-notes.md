@@ -7420,3 +7420,55 @@ text uses. Chains already in the corpus (Genesis) were read from it and re-infle
   `will make wonderful`; ἀφηγέομαι `you lead from`; θυμός `of soul`; πληθύνω `I may make full`.
 - One translation each, plain text: κρυφῇ (*secretly*), κίχρημι (*lent*), μύλος (*the millstone*),
   πρωτότοκος (*first-born*).
+
+### Words new in EXO 12
+
+- **From LSJ** (not in Middle Liddell): γειώρας, `in the sojourners, the proselytes` with ἐν (12:19);
+  δέσμη, `package and bundle, measure, handful` (12:22; Rahlfs prints δεσμήν, the module δέσμην, and
+  `printed` lists it); ἐνδόσθια, LSJ's "= ἐντόσθια", whose substantive is *inwards, entrails*: `to
+  the inwards and entrails` (12:9); ἐπίμικτος, LSJ's ἐπίμεικτος, `common to, mixed, combining the
+  features, sociable and gregarious` (12:38); ζυμωτός, `fermented and leavened` (12:19, 12:20);
+  λατρευτός, "= foreg.", λατρευτικός, *servile*, plain text (12:16); πικρίς, `of ox-tongues and
+  Helminthia sepioides, of sour soils` (12:8), its "= κιχόριον" pointing at an entry LSJ lacks.
+- **Close forms**: περιζώννυμι under the middle περιζώννυμαι, "with perf. pass. -έζωσμαι", `having
+  girded round themselves and girded themselves with and standing so` (12:11); ὀλεθρεύω under
+  ὀλοθρεύω, *to destroy utterly*, plain text (12:23).
+- **Cut translations restored** (`MARKUP_LOST`): αὐτόχθων's *aborigines, natives* and προσήλυτος's *one
+  who has come over to Judaism, a convert, proselyte*, both inside the Latin element. αὐτόχθων used as
+  a noun opens with them: `to aborigines and natives, to sprung from the land itself, to indigenous`
+  (12:19), `the aborigine and native, …` (12:48).
+- **Case and number** (`FORM_SENSES`): σπουδή's dative keeps the adverbial *in haste, hastily … earnestly,
+  seriously, urgently*, unmarked after the noun's senses, as βίᾳ (12:33); its other cases leave them out,
+  and the singular the plural's *zealous exertions, party feelings*. νόμος's *by custom, conventionally*
+  is the dative's.
+- **Pieces set aside** (`NOT_SENSES`): ἀρκέω, ἐνιαύσιος, ὠμός, περιζώννυμαι, σπουδή, παίω, ἐνδέω, πεζός,
+  νόμος, μεσόω, βάπτω, καθικνέομαι — examples' pieces and translations, repeats, and an adverb's or a
+  comparative's.
+- **Used as a noun**: τὸ ἀρκοῦν, `the thing warding off, …, sufficient and enough` (12:4); πεζῶν, `of
+  fighters on foot, …` (12:37); μισθωτός, `an hireling and hired servant, mercenaries` (12:45); νόμιμον,
+  `usage and custom, funeral rites` (12:14, 12:17, 12:24).
+- **A name**: πασχα, the Aramaic pasḥāʾ in Greek letters, indeclinable and printed lower case, is a
+  name, as χερουβιμ: `pascha` / `passover`, glossed at its first occurrence (12:11).
+- New chains, among them: ἐνιαυτός `of the long period of time`; δέκατος `to the tenth`; λαμβάνω `let them
+  take`; συλλαμβάνω `will lay hold of for himself`; γείτων `the one of the same land`; συναριθμέω `will
+  reckon in`; ἐνιαύσιος `of a year`; ἀρήν `of the lambs`; διατηρέω `having been watched closely … and
+  standing so`; σφάζω `will slay`; πλῆθος `the great number`; τίθημι `they will set`; σταθμός `of
+  standing places`, `of the standing places`; φλιά `the doorpost`; κρέας `the flesh`; ὀπτός `roasted`;
+  ὠμός `raw`; ἕψω `having been boiled … and standing so`; κατακαίω `you will burn down`; ὀσφύς `the
+  loins`; ὑπόδημα `the soles bound under the feet with straps`; βακτηρία `the staffs`; σπουδή `of haste`,
+  `to haste`; διέρχομαι `I will go through`; σκεπάζω `I will cover`; ἐκτρίβω `of the being rubbed out`;
+  παίω `I may strike`; ἑορτάζω `you will keep festival`; ἀφανίζω `you will make unseen`; ζύμη `leaven`;
+  κλητός `called`; φυλάσσω `you will keep watch and ward for yourselves`; ἐντολή `the injunction`;
+  δύναμις `the power`; γερουσία `Council of Elders`; ὕσσωπος `of hyssop`; βάπτω `having dipped in water`;
+  καθικνέομαι `you will come down to`; παρέρχομαι `will go by`; ἀφίημι `will send forth`; λατρεία `the
+  state of a hired workman`; μεσόω `of forming the middle`; κάθημαι `of the one being seated`;
+  αἰχμαλωτίς `of the prisoner`; θνήσκω `being dead`; καταβιάζομαι `were constraining`; φύραμα `the things
+  which are mixed`; ἐνδέω `having been bound in`; αἰτέω `asked`; σκυλεύω `stripped`; ἐπιμένω `to stay on`;
+  δύναμαι `were able`; προφυλακή `a guard in front`; νόμος `the anything assigned`, `anything assigned`;
+  ἀλλογενής `of another race`; περιτέμνω `you will cut`; βιβρώσκω `will be eaten`; ἐκφέρω `you will
+  carry out of`; προσέρχομαι `may come to`, `will come to`, `to the one having come to`; ἐγχώριος `to the
+  dweller in the land`.
+- One translation each, plain text: μήν (Middle Liddell's μείς, *a month*), τεσσαρεσκαιδέκατος,
+  ὀλιγοστός, ἐκδίκησις, ἐξολεθρεύω, ἑπτά, ἐνάρχομαι, εἰκάς, σταῖς, ζυμόω, ὦμος, ἐγκρυφίας,
+  κατοίκησις, ἔτος, τετρακόσιοι, τριάκοντα, ἑξακόσιοι, ἀργυρώνητος, ἀρσενικός, ἀπερίτμητος, κίχρημι,
+  συναναβαίνω, λατρευτός, ὀλεθρεύω.

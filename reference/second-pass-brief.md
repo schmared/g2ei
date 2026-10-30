@@ -574,6 +574,14 @@ One disagreement over 262 words, and the second pass was right: Φαραω at 11
 εἰσακούσεται, nominative. Both passes read οὗ σὺ ἀφηγῇ as the relative with ἀφηγέομαι's genitive,
 not the adverb, and πρωτοτόκου as neuter with πᾶν πρωτότοκον.
 
+### What it found in Exodus 12
+
+Thirteen disagreements over 1,103 words, and the second pass was right on nine: five αὐτοῦ in 12:43–48
+and τοῦ πασχα are neuter, for the πασχα; Ααρων after πρός at 12:43 is accusative; πλήν at 12:16 has no
+genitive after it and is the conjunction; and ἐναρχομένου at 12:18 takes the month for its subject,
+masculine. The first pass kept ὀσφύς as the corpus has it, μόνον agreeing with τοῦτο, δέσμη as LSJ
+heads it, and μισθωτός as an adjective used as a noun.
+
 ## The brief
 
 Copy everything below the rule into a new agent. Replace `<BOOK NAME>`, `<CHAPTER>`,

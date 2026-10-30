@@ -185,3 +185,22 @@ English imperative still marks the third person by *let* and the subject that fo
 
 **Recommendation:** no pronoun where the subject is in the verse, and *him*, *her* or *it* only where
 the verb stands alone, by the gender of what it refers to.
+
+## Q10. A transliteration with Greek endings — γειώρας
+
+**Where:** EXO 12:19 ἔν τε τοῖς γειώραις.
+
+**Now:** γειώρας is the Aramaic gîyôrāʾ, sojourner, in Greek letters, as πασχα is pasḥāʾ. But it
+takes Greek case endings, and LSJ has an entry for it, *sojourner, proselyte*, so it is read as a word:
+`in the sojourners, the proselytes`. πασχα, indeclinable and printed lower case, is a name, as
+χερουβιμ at Genesis 3:24, and Middle Liddell's own entry for it is set aside.
+
+- now: γειώρας a word, from LSJ; πασχα a name, `pascha (πασχα, from Aramaic pasḥāʾ, …)` / `passover`.
+- alternative: both names, each with its gloss, by the rule that every obvious transliteration carries
+  its meaning; or both words, each from its lexicon.
+
+**The difference:** the rule names transliterations without saying whether a declined one counts; a
+lexicon entry gives a word its range, which a name's gloss does not.
+
+**Recommendation:** a word where it declines and a lexicon has it; a name where it is indeclinable,
+whether or not a lexicon has it.
