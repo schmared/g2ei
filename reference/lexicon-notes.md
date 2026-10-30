@@ -6996,3 +6996,48 @@ text uses. Chains already in the corpus (Genesis) were read from it and re-infle
   (*to deliver*).
 - Names new to the corpus: Πιθωμ, Ων, Σεπφωρα (Shiphrah), Φουα (Puah, the midwife — GEN 46:13's
   Φουα is Issachar's son, and the morphology says so).
+
+### Words new in EXO 2
+
+- **From LSJ** (not in Middle Liddell): θῖβις, *basket* plaited from papyrus, one translation, plain
+  text; καταστενάζω `sighed and mourned`; καταχρίω `anointed and smeared and coated`; τροφεύω
+  `serving as a wet-nurse and suckling`; ἀσφαλτόπισσα, LSJ's pointer *= πισσάσφαλτος*, followed to
+  *compound of asphalt and pitch*, one translation, plain text — as θηριόβρωτος at GEN 44. All cite
+  this chapter.
+- **Voice** (`FORM_SENSES`): ἀναιρέω's active and middle, each without the other's — the middle
+  `took up for herself and took up, …, took back to herself and cancelled` (2:5, 2:10), the active
+  `to take up and raise, …, to answer and give a response` (2:14, 2:15); GEN 4's card loses the
+  middle's senses, which its chain never had. λούω's middle, *to bathe*, plain text. τύπτω's active,
+  `beating and striking and smiting`. ἐκδίδωμι's middle, *to give one's daughter in marriage … so in
+  Mid.*, `gave in marriage`.
+- **Lost to Latin** (`MARKUP_LOST`): ἀστεῖος, *like Lat. urbanus, town-bred, polite, courteous*, the
+  English inside the Latin element: `of the town, town-bred and polite and courteous, refined and
+  elegant and pretty and witty and clever`.
+- **Pieces set aside** (`NOT_SENSES`): ἀστεῖος (the ironic *a pretty piece of luck*), μανθάνω (*by
+  inquiry*, *learners, pupils*, the idioms of examples), δικαστής (*judices*, and ὁ κριτής's *presiding
+  judge*), ἐμφανής (examples' pieces, and the adverb's senses), βοή (examples' pieces), τύπτω, λούω
+  (νίζω's and πλύνω's glosses, examples, the Latin).
+- **The participle as a noun:** τὸ ἀποβησόμενον (2:4) reads the entry's noun senses for ἀποβαίνω's
+  participle, `the issue and event, the results, the probable results`, as τὰ ὑπάρχοντα at GEN 12:5.
+- **παραγίνομαι** in the articular infinitive takes the eight senses of `were near` (GEN 50:16), not
+  the four of `come to be beside`: one range in every form.
+- New chains, re-inflected from the corpus: ἔχω `had`; κρύπτω `to hide`; κατασκοπεύω `was viewing
+  closely`; μανθάνω `to learn`; ἀνοίγω `having opened`; κλαίω `weeping`; φείδομαι `spared`; θέλω `you
+  will`; καλέω `I may call`, `call`; θηλάζω `will suckle`, `suckle`, `was suckling`; νεᾶνις `the young
+  woman`; διατηρέω `watch closely`; ἁδρύνω `of having been made ripe`; πολύς `to the many`, `the
+  many`; γίνομαι `having come into being`; κατανοέω `having observed well`; πόνος `the work`;
+  περιβλέπω `having looked round about`; πατάσσω `having beaten`; ἄμμος with ἐν; διαπληκτίζομαι
+  `sparring with`; ἀδικέω `to the one doing wrong`; πλησίον `the neighbour`; δικαστής `a judge`;
+  ἐμφανής `shewing in`; ἀναχωρέω `went back`; ἱερεύς `to the priest`; ἀντλέω `were baling out
+  bilge-water`, `baled out bilge-water`; δεξαμενή `the reservoirs`; ῥύομαι `drew to himself`; ταχύνω
+  `you made quickly`; καταλείπω `you have left behind`; κατοικίζω `was removed to`; ἀλλότριος `to
+  belonging to another`; βοή `the loud cry`; γινώσκω `was learned to know` (the passive, with the
+  passive's own *to be pronounced*); ἕλος `the low ground by rivers`, with ἐν.
+- One translation each, plain text: θυγάτηρ, ἀδελφή, μήν (*month*, filed under μείς), τρεῖς, ἅβρα
+  (*favourite slave*), ἐχθές, σήμερον, θῖβις, ἀσφαλτόπισσα, λούω's middle.
+- Names new to the corpus: Μωυσῆς (from Hebrew Mōšeh, which 2:10 hears in māšâ, *to draw out*; the
+  Greek gives *from the water* and loses the play), Ιοθορ (Jethro, which the Greek adds at 2:16),
+  Σεπφωρα the wife (Zipporah — the midwife of 1:15 has the same Greek), Γηρσαμ. Εβραῖον, the singular,
+  is glossed apart from Εβραίων: the panels print *Hebrew* and *Hebrews*.
+- **The page's own misprint:** ἐξήλθεν at 2:11, with the acute, for ἐξῆλθεν; kept, and the module
+  has it too.

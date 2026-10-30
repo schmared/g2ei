@@ -356,6 +356,17 @@ LSJ = {
     # in square". LSJ (eng7): ζωογονέω, "propagate" or "engender living creatures", "breed",
     # "engender", "to be viviparous", "produce alive", "make alive, quicken", and "= ζωγρέω, preserve
     # alive", citing Ex 1:17; "producing" is a piece of the example of Zeus and Pallas.
+    # EXO 2. None of these is in Middle Liddell. LSJ (eng9): θῖβις, "basket" plaited from papyrus,
+    # citing Ex 2:3, 2:6; the Hebrew and Egyptian words after it are etymology, not senses. LSJ
+    # (eng11): καταστενάζω, "sigh, mourn", citing Ex 2:23; καταχρίω, "anoint, smear, coat", citing
+    # Ex 2:3. LSJ (eng22): τροφεύω, "serve as a wet-nurse, suckle", citing Ex 2:7. LSJ (eng1):
+    # ἀσφαλτόπισσα, "= πισσάσφαλτος", a pointer, citing Ex 2:3, and πισσάσφαλτος (eng17) reads
+    # "compound of asphalt and pitch".
+    "θῖβις": ["basket"],
+    "καταστενάζω": ["sigh, mourn"],
+    "καταχρίω": ["anoint, smear, coat"],
+    "τροφεύω": ["serve as a wet-nurse, suckle"],
+    "ἀσφαλτόπισσα": ["compound of asphalt and pitch"],
     "χυδαῖος": ["poured out in streams, abundant", "common, ordinary", "common, vulgar, coarse"],
     "κατοδυνάω": ["afflict grievously"],
     "πλινθεία": ["brickmaking", "drawing up of an army in square"],
@@ -1252,6 +1263,17 @@ NOT_SENSES = {
     "tosou=tos": {"so", "as large",               # pieces of examples, τοσοῦτος μέγαθος "so large"
                   "so small a distance", "so far", "so far, so far", "in the meantime",
                   "so far, so long"},             # the phrases with prepositions
+    # EXO 2
+    "a)stei=os": {"pretty"},                     # the irony of "a pretty piece of luck"
+    "manqa/nw": {"by inquiry", "learners, pupils", "know that", "perfectly!", "having learnt",
+                 "what new reason? wherefore"},  # a qualifier, the participle as a noun, idioms of examples
+    "dikasth/s": {"judices", "presiding judge"},  # the Latin, and ὁ κριτής's gloss
+    "e)mfanh/s": {"bodily", "visible", "actual", "in public", "light",  # pieces of examples
+                  "visibly, openly", "openly", "not secretly", "treacherously", "really"},  # the adverb's
+    "boh/": {"at the battle-cry", "of war", "as far as sound went, only in appearance"},  # pieces of examples
+    "tu/ptw": {"to tread", "beating, lashing", "smote", "I get"},  # pieces of examples
+    "lou/w": {"body", "hands and feet", "clothes)", "bathe", "let him bathe", "washed", "fresh from", "bath",
+              "fresh-bathed, after bathing", "ire lavatum)", "to wash one's"},  # νίζω's and πλύνω's, examples, the Latin
     "e)pista/ths": {"the right-", "left-hand man", "the front-rank man)", "a", "master", "which stood over"},  # παραστάτης's and προστάτης's glosses; "a training-master" cut in two, whole in MARKUP_LOST; a piece
     "be/ltistos": {"my good friend"},             # ὦ βέλτιστε, the vocative's mode of address
     "e)rhmo/w": {"of", "without"},                # pieces of "to bereave one of", "to leave the oars without men"
@@ -1285,6 +1307,14 @@ _EPHISTHMI_INTR = {
     "to fix one's mind on, give one's attention to"}
 _EPHISTHMI_MID = {"to set up", "to set, post"}
 _EPHISTHMI_SCRAPS = {"having halted", "to fix one's", "cream"}  # an example's, a piece, i.e.
+_ANAIREO_ACT = {
+    "to take up, raise", "to take up and carry off, bear away", "to take up", "to make away with, to destroy, kill",
+    "to abolish, annul", "to destroy", "confute", "to appoint, order", "to answer, give a response"}
+_ANAIREO_MID = {
+    "to take up for oneself, take up", "to gain, win, get, achieve", "to exact", "to take up and carry off, snatch away",
+    "to take up in one's arms", "to conceive in the womb", "to take upon oneself, undertake",
+    "to undertake, contract for the execution of", "to accept as one's own", "to take back to oneself, cancel"}
+_ANAIREO_SCRAPS = {"for burial", "own", "against", "to entertain"}  # pieces of examples
 _EXANISTHMI_INTR = {
     "bid one", "rise", "to stand up from one's seat", "to arise and depart from, emigrate from",
     "to break up, depart", "to be driven out", "to be forced to emigrate", "to be depopulated"}
@@ -1472,6 +1502,23 @@ FORM_SENSES = {
     # κατασοφίζομαι, "Dep. to conquer by sophisms or fallacies, to outwit … also as Pass. to be
     # outwitted": a middle form leaves out the passive.
     "katasofi/zomai": [("PIFAXY", "M", {"to be outwitted"})],
+    # EXO 2. ἀναιρέω: the active "to take up, raise … to make away with, destroy, kill, … abolish",
+    # and the "Mid. to take up for oneself … to gain, win … to take up in one's arms": a middle
+    # (2:5, 2:10) takes the middle's, an active (2:14, 2:15) the active's; "for burial" is a piece
+    # of "to take up and carry off, snatch away, esp. for burial".
+    "a)naire/w": [("PIFAXY", "M", _ANAIREO_ACT | _ANAIREO_SCRAPS),
+                  ("PIFAXY", "A", _ANAIREO_MID | _ANAIREO_SCRAPS)],
+    # EXO 2. λούω: "Mid. and Pass. to bathe", "in strict pass. sense … to be washed": the middle
+    # of 2:5 takes "to bathe" only.
+    "lou/w": [("PIFAXY", "M", NOT_SENSES["lou/w"] | {"to wash", "to be washed"})],
+    # τύπτω: the active's "to beat, strike, smite"; "Mid. … to mourn for", "Pass. to be beaten,
+    # struck or wounded, to be stung … to receive blows".
+    "tu/ptw": [("PIFAXY", "A", NOT_SENSES["tu/ptw"] | {"to mourn for", "to be beaten, struck", "wounded",
+                                                       "to be stung", "to receive"})],
+    # ἐκδίδωμι: "ἐκδ. θυγατέρα to give one's daughter in marriage … so in Mid.": the middle of 2:21
+    # takes that sense alone.
+    "e)kdi/dwmi": [("PIFAXY", "M", {"to give up, surrender", "to give up", "to give out for money, let out for hire",
+                                    "to lend out money", "to empty themselves"})],
     # βία: "βίαι τινός against one's will, in spite of him", "βίαι alone as an adv., perforce" —
     # the dative's. Its periphrasis "the strength of Hercules" is an example's.
     "bi/a": [("-", "-", {"the strength", "against", "will, in spite of"}, None, "^....D"),
@@ -1769,6 +1816,9 @@ MARKUP_LOST = {
     # "like Lat. planctus (from plango), a beating of the breast in lamentation": the <tr> opens
     # inside the Latin parenthesis and carries "plango)," with it.
     "kommo/s1": [(1, "a beating of the breast in lamentation")],
+    # "of the town: hence, like Lat. urbanus, town-bred, polite, courteous": the Latin element holds
+    # the English after it.
+    "a)stei=os": [(1, "town-bred, polite, courteous")],
     # "a training- master": the <tr>s stop either side of "training-", and "a" and "master" reach
     # the card apart.
     "e)pista/ths": [(10, "a training-master")],

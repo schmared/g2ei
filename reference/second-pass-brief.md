@@ -502,6 +502,13 @@ particle, `X-`; and πᾶν θῆλυ at 1:22, taken up by αὐτό, is a hangi
 περιποιέω stands against the second's περιποιέομαι: the verb has an active in use, and is not on the
 brief's list of middle-only verbs.
 
+### What it found in Exodus 2
+
+Nine disagreements over 561 words, and the second pass was right on all nine: τὸ ἀποβησόμενον is the
+subject of the verbless question at 2:4, nominative; τοῦ παιδίου and τοῦ ὕδατος take neuter
+articles; μή opening a question that expects no is `X-`, as MorphGNT tags it 57 times; and αὐτῶν at
+2:16–18, of the seven daughters, is feminine.
+
 ## The brief
 
 Copy everything below the rule into a new agent. Replace `<BOOK NAME>`, `<CHAPTER>`,
