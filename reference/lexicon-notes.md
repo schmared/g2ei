@@ -7044,3 +7044,43 @@ text uses. Chains already in the corpus (Genesis) were read from it and re-infle
   `to take up` at 2:14 does — one word, one range in every form.
 - **The page's own misprint:** ἐξήλθεν at 2:11, with the acute, for ἐξῆλθεν; kept, and the module
   has it too.
+
+### Words new in EXO 3
+
+- **From LSJ** (not in Middle Liddell): θλιμμός, LSJ's *= θλῖψις*, followed to θλῖψις (LSJ, GEN 35),
+  `the pressure, the crushing and castration, the oppression and affliction`; ἐργοδιώκτης,
+  *taskmaster*, plain text; κατεμβλέπω, *strengthd. for ἐμβλέπω*, followed to LSJ's ἐμβλέπω, with
+  the entry's own *look down upon, despise* after it (open-questions.md, Q5).
+- **Close form:** προΐημι is Middle Liddell's `proi/hmi`, without the diaeresis (`SPELLING`).
+- **Voice** (`FORM_SENSES`): προΐημι's middle, *to send forward from oneself … to utter … to give up,
+  let go*, `will send forward from himself, …, will neglect all advice and be reckless`; θλίβω's
+  and αἰτέω's actives; ῥέω's present, without the causal aorist's *to let flow, pour*.
+- **Lost to Greek** (`GREEK_LOST`): εὐλαβέομαι, *to behave like the εὐλαβής*, `was behaving like
+  the eulabes (εὐλαβής)`.
+- **Pieces set aside** (`NOT_SENSES`): καίω, κάκωσις, ῥέω, θλίβω, αἰτέω, γείτων, σκυλεύω, εὐλαβέομαι —
+  examples' pieces, Latin, Virgil. ὑπόδημα's *half-boot* is not one: *a shoe or half-boot* is a
+  sense, and GEN 14:23's chain, which had *half-boot* without *a shoe*, now reads `of a shoe and
+  half-boot`.
+- **The article over the participle of εἰμί:** ὁ ὤν, 3:14, `the one being, the one existing`, as
+  εἰμί's own formula; the εἰμί unit stands outside the unit rule.
+- New chains, re-inflected from the corpus: γαμβρός `of the one connected by marriage`; ἱερεύς `of
+  the priest`; φλόξ with ἐν; βάτος `the bramble-bush`; καίω `is lighted`; κατακαίω `was being burned
+  down`, `is burned down`; παρέρχομαι `having gone by`; ὅραμα `the that which is seen`; προσάγω
+  `brings to` (the corpus's four senses, without the intransitive *to draw near* — Q1); ἐγγίζω `you
+  may bring near`; λύω `loose` (the whole card, as GEN's `having loosed`); ὑπόδημα; πούς `of the
+  feet`; ἵστημι `you have been set`; ἅγιος `devoted to the gods`; κάκωσις `the ill-treatment`, `of
+  the ill-treatment`; κραυγή `of the crying`, `a crying`; ἀκούω `I have heard`; ὀδύνη `the pain of
+  body`; καταβαίνω `I stepped down`; ἐξαιρέω `to take out for oneself`; ἐξάγω `to lead out`, `you
+  will lead out`, with ἐν; εἰσάγω `to lead in`; ἀγαθός `good` (the adjective's senses); πολύς `much
+  and mighty and great`; ῥέω `flowing`; θλίβω `press`; πορεύομαι `I will be driven`, `let us be
+  driven`; ἐξαποστέλλω `I send quite away`, `will send quite away`; λατρεύω `you will work for hire`;
+  ἔρχομαι `I will come`; ἀποστέλλω `has sent off`; ἐρωτάω `they will ask`; μνημόσυνον `a
+  remembrance`; γενεά, plural; συνάγω `bring together`; γερουσία `the Council of Elders`, the
+  lexicon's capitals; ὁράω `has been seen`; ἐπισκέπτομαι `I have looked upon`; συμβαίνω `has stood
+  with the feet together`; εἰσακούω `they will hearken`; εἰσέρχομαι `you will go in`; προσκαλέω `has
+  called to himself`; ὁδός `way`; θύω `we may offer`; κραταιός `of strong`; πατάσσω `I will beat`;
+  θαυμάσιος `to the wonders` (the noun's senses, with the article); ἀποτρέχω `you may run off`;
+  ἀπέρχομαι `you will go away`; αἰτέω `will ask`; γείτων `of one of the same land`; σύσκηνος `of one
+  who lives in the same tent`; σκεῦος `vessels`; ἐπιτίθημι `you will lay`; σκυλεύω `you will strip`.
+- One translation each, plain text: ἐνώπιον (*face to face*), γάλα, μέλι, ἐργοδιώκτης.
+- Names new to the corpus: Χωρηβ (Horeb); the vocative Μωυσῆ.

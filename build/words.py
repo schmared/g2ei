@@ -356,6 +356,14 @@ LSJ = {
     # in square". LSJ (eng7): ζωογονέω, "propagate" or "engender living creatures", "breed",
     # "engender", "to be viviparous", "produce alive", "make alive, quicken", and "= ζωγρέω, preserve
     # alive", citing Ex 1:17; "producing" is a piece of the example of Zeus and Pallas.
+    # EXO 3. None of these is in Middle Liddell. LSJ (eng9): θλιμμός, "= θλῖψις", a pointer, citing
+    # Ex 3:9, and θλῖψις is LSJ's too (GEN 35). LSJ (eng5): ἐργοδιώκτης, "taskmaster", citing Ex 3:7.
+    # LSJ (eng11): κατεμβλέπω, "strengthd. for ἐμβλέπω", citing Ex 3:6, then "look down upon,
+    # despise" from a later writer: the pointer is followed to LSJ's ἐμβλέπω, "look in the face, look
+    # at", "consider", "look into", "look", and the entry's own sense kept after it.
+    "θλιμμός": ["pressure", "crushing, castration", "oppression, affliction"],
+    "ἐργοδιώκτης": ["taskmaster"],
+    "κατεμβλέπω": ["look in the face, look at", "consider", "look into", "look", "look down upon, despise"],
     # EXO 2. None of these is in Middle Liddell. LSJ (eng9): θῖβις, "basket" plaited from papyrus,
     # citing Ex 2:3, 2:6; the Hebrew and Egyptian words after it are etymology, not senses. LSJ
     # (eng11): καταστενάζω, "sigh, mourn", citing Ex 2:23; καταχρίω, "anoint, smear, coat", citing
@@ -1274,6 +1282,15 @@ NOT_SENSES = {
     "tu/ptw": {"to tread", "beating, lashing", "smote", "I get"},  # pieces of examples
     "lou/w": {"body", "hands and feet", "clothes)", "bathe", "let him bathe", "washed", "fresh from", "bath",
               "fresh-bathed, after bathing", "ire lavatum)", "to wash one's"},  # νίζω's and πλύνω's, examples, the Latin
+    # EXO 3
+    "kai/w": {"they lighted them", "penetrabile frigus adurit", "with fire", "cautery"},  # examples, Virgil, a piece
+    "ka/kwsis": {"for ill-usage"},              # a piece of δίκη κακώσεως
+    "r(e/w": {"runs with", "runs", "rained", "flow", "salso multoque fluenti)", "let", "run"},  # examples' pieces, Virgil
+    "qli/bw": {"he will rub his", "a small, close", "narrow"},  # pieces of examples
+    "ai)te/w": {"for", "to"},                    # pieces of "to ask for", "to ask a thing of"
+    "gei/twn": {"vicus)", "from", "in the neighbourhood"},  # the Latin, pieces of examples
+    "skuleu/w": {"having stript", "off"},       # an example's
+    "eu)labe/omai": {"without reserve"},         # μὴ εὐλαβηθῆναι, an example's
     "e)pista/ths": {"the right-", "left-hand man", "the front-rank man)", "a", "master", "which stood over"},  # παραστάτης's and προστάτης's glosses; "a training-master" cut in two, whole in MARKUP_LOST; a piece
     "be/ltistos": {"my good friend"},             # ὦ βέλτιστε, the vocative's mode of address
     "e)rhmo/w": {"of", "without"},                # pieces of "to bereave one of", "to leave the oars without men"
@@ -1502,6 +1519,20 @@ FORM_SENSES = {
     # κατασοφίζομαι, "Dep. to conquer by sophisms or fallacies, to outwit … also as Pass. to be
     # outwitted": a middle form leaves out the passive.
     "katasofi/zomai": [("PIFAXY", "M", {"to be outwitted"})],
+    # EXO 3. ῥέω: "Causal, in aor1 act., to let flow, pour": the present leaves it out. θλίβω's and
+    # αἰτέω's actives leave out their passives' and middles' senses.
+    "r(e/w": [("PIXY", "A", NOT_SENSES["r(e/w"] | {"to let flow, pour"})],
+    "qli/bw": [("PIFAXY", "A", NOT_SENSES["qli/bw"] | {"to be compressed"})],
+    "ai)te/w": [("PIFAXY", "A", NOT_SENSES["ai)te/w"] | {"to ask for oneself, to claim", "to have a thing begged of",
+                                                         "to be asked"})],
+    # EXO 3. προΐημι: "Mid. to send forward from oneself … to utter … to give up, let go …": the
+    # future middle of 3:19 leaves out the active's and the passive's senses, and the pieces of
+    # the middle's examples ("gave … up as lost", "did not lose themselves").
+    "proi/hmi": [("PIFAXY", "M", {"to send before, send on", "forward", "to send", "to", "to send away, dismiss, let go",
+                                  "let", "go", "to let loose, let fall", "let drop", "he let", "slip",
+                                  "to send forth, shoot", "dart forth", "it pours", "to allow",
+                                  "to give up, deliver over, betray", "to be given", "thrown away", "to give up",
+                                  "devote", "gave", "up as lost", "did", "lose"})],
     # EXO 2. ἀναιρέω: the active "to take up, raise … to make away with, destroy, kill, … abolish",
     # and the "Mid. to take up for oneself … to gain, win … to take up in one's arms": a middle
     # (2:5, 2:10) takes the middle's, an active (2:14, 2:15) the active's; "for burial" is a piece
@@ -1568,6 +1599,7 @@ SPELLING = {
     "prwino/s": "prw/ios",          # "later form of πρώιος", and nothing more
     "e)cai/retos": "e)caireto/s",   # "ἐξαίρετος, ον, taken out", printed inside ἐξαιρετός's entry
     "katalimpa/nw": "katalei/pw",   # "= καταλείπω", and nothing more
+    "proi+/hmi": "proi/hmi",            # προΐημι, keyed without the diaeresis
     "a(/lwn": "a(/lws",             # "= ἅλως found in the obl. cases", and nothing more
     "kopeto/s": "kommo/s",          # "= κομμός", and nothing more
     "e)/sw": "ei)/sw",              # "older form of εἴσω"; its one translation is of the
@@ -1899,6 +1931,7 @@ GREEK_LOST = {
     "katoike/w": {"to dwell in as a": "to dwell in as a κάτοικος"},  # "to dwell in as a κάτοικος, to settle in"
     "r(a/bdos": {"the wand borne by the": "the wand borne by the ῥαψῳδός"},  # "the wand borne by the ῥαψῳδός"
     "e)piskoph/": {"the office of": "the office of ἐπίσκοπος"},  # "the office of ἐπίσκοπος, NTest."
+    "eu)labe/omai": {"to behave like the": "to behave like the εὐλαβής"},  # "to behave like the εὐλαβής, have a care"
 }
 
 # Translations a Greek word follows without finishing: the gloss is whole, and the Greek

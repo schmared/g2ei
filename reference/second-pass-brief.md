@@ -509,6 +509,13 @@ subject of the verbless question at 2:4, nominative; τοῦ παιδίου and 
 articles; μή opening a question that expects no is `X-`, as MorphGNT tags it 57 times; and αὐτῶν at
 2:16–18, of the seven daughters, is feminine.
 
+### What it found in Exodus 3
+
+No disagreements over 595 words. The second pass reached the same readings of λῦσαι (aorist middle
+imperative, not the infinitive), ὅσα (nominative, the subject in its own clause), γείτονος
+(feminine, a woman's neighbour) and προσκέκληται (προσκαλέω, Middle Liddell's headword, with voice
+`E` in the perfect).
+
 ## The brief
 
 Copy everything below the rule into a new agent. Replace `<BOOK NAME>`, `<CHAPTER>`,

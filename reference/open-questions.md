@@ -28,6 +28,9 @@ checks compare chains of one lemma with each other, not with the entry. So other
 early the same way. The fix is a new check (a chain must carry every sense its card gives, after
 `NOT_SENSES`) and then whatever it finds.
 
+**Also:** προσάγω (GEN, EXO 3:4) — its chains stop before the intransitive *to draw near*, which is
+the sense of προσάγει at EXO 3:4.
+
 **Recommendation:** the whole range, and the check. A Greek reader hears φιλέω's kiss in a
 farewell over a dead father; the chain should give it to the English reader too.
 
@@ -85,3 +88,20 @@ the corpus marks every item elsewhere.
 
 **Recommendation:** leave them unmarked, as ἐν's own English is (*within, inside of, and by means
 of*): the marker shows a form English cannot, and these senses are that form in English already.
+
+## Q5. *Strengthd. for X*: is that a pointer? — κατεμβλέπω
+
+**Where:** EXO 3:6 κατεμβλέψαι.
+
+**Now:** LSJ's κατεμβλέπω reads *strengthd. for ἐμβλέπω*, citing this verse, then its one
+translation, *look down upon, despise*, from a later writer. The chain follows the pointer, as `=
+X` pointers are followed (θηριόβρωτος, ἀσφαλτόπισσα, θλιμμός), and keeps the entry's own sense
+after it.
+
+| | 3:6 *εὐλαβεῖτο γὰρ κατεμβλέψαι ἐνώπιον τοῦ θεοῦ* |
+|---|---|
+| now (pointer followed) | `to look in the face and look at, to consider, to look into, to look, to look down upon and despise` |
+| the entry's translation only | `to look down upon and despise` |
+
+**Recommendation:** keep following it. The entry's only `<tr>` belongs to another writer, and LSJ
+itself says what the word means here by sending the reader to ἐμβλέπω.
