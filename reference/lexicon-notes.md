@@ -668,7 +668,7 @@ the same ground as `the sixth` and `the seventh`: one sense each, so no range to
 | καταδιώκω | `pursued closely` | `pursued closely` | 35:5 |
 | κατακρύπτω | `covered over` | `covered over and hid away and concealed, used concealment and concealed himself` | 35:4 |
 | κατώτερος | `lower` | `lower, more southerly, later and younger` | 35:8 |
-| λίθινος | `of stone` | `of stone, stony` | 35:14 |
+| λίθινος | `of stone`, plain text: one translation; EXO 11 took out what the entry does not give (*stony* is an example's, in `NOT_SENSES`) | | 35:14 |
 | μαῖα | `the good mother` | `the good mother and dame, the fostermother and nurse, the true mother, the midwife` | 35:17 |
 | μνημεῖον | `of the memorial` | `of the memorial, of the remembrance, of the record, of the monument` | 35:20 |
 | πένθος | `of mourning` | `of mourning, of grief and sadness, of a mourning garb, of a misfortune and calamity` | 35:8 |
@@ -677,7 +677,7 @@ the same ground as `the sixth` and `the seventh`: one sense each, so no range to
 | παραγίνομαι | `came to be beside` | `came to be beside, came near and arrived, was present and stood by, came to help` | 35:9 |
 | πλήρης | `full` | `full, filled, complete, satisfied, whole and entire` | 35:29 |
 | πορεύομαι | `I was driven` | `I was driven, I was carried, I went, I walked, I marched, I went across and passed` | 35:3 |
-| πρωτότοκος | `firstborn` | `firstborn, first-fruits` | 35:23 |
+| πρωτότοκος | `first-born`, plain text | one translation, as at 4:4; *first-fruits* is in no entry, and EXO 11 took it out of nine units | 35:23 |
 | πύργος | `of the tower` | `of the tower, of the city walls with towers, of the movable tower for storming, of the tower of defence, of the highest part of any building, of the troops drawn up in close order and the column` | 35:16 |
 | σπένδω | `poured a drink-offering` | `poured a drink-offering, made a drink-offering, poured` | 35:14 |
 | σπονδή | `a drink-offering` | `a drink-offering, a solemn treaty, a truce, the treaty itself` | 35:14 |
@@ -806,7 +806,7 @@ the same ground as `the sixth` and `the seventh`: one sense each, so no range to
 | ἐπιγαμβρεύω | `marry as the next of kin` | `marry as the next of kin` | 34:9 |
 | ἔγκειμαι | `was lying in` | `was lying in and wrapped in, was involved in, was pressing upon, was urgent and insisting, was devoted to` | 34:19 |
 | ἔνδοξος | `most held in esteem` | `most held in esteem, most held in honour and of the highest repute, most notable` | 34:19 |
-| ὀλιγοστός | `one out of a few` | `one out of a few, the smallest space of time` | 34:30 |
+| ὀλιγοστός | `one out of a few`, plain text: one translation; EXO 11 took out what the entry does not give (*the smallest space* is an example's, in `NOT_SENSES`) | | 34:30 |
 | ὁμοιόω | `let us be made like` | `let us be made like, let us be likened and compared, let us become like, let us be like` | 34:23 |
 | ὁμοιόω | `they will be made like` | `they will be made like, they will be likened and compared, they will become like, they will be like` | 34:22 |
 | ὁμοιόω | `we will be made like` | `we will be made like, we will be likened and compared, we will become like, we will be like` | 34:15 |
@@ -854,8 +854,8 @@ the same ground as `the sixth` and `the seventh`: one sense each, so no range to
 | πούς | `foot` | `foot, talon, the foot of a hill` | 33:14 |
 | προέρχομαι | `let him go forward` | `let him go forward, let him go on, let him advance, let him go before` | 33:14 |
 | προέρχομαι | `went forward` | `went forward, went on, advanced, went before` | 33:3 |
-| προσεγγίζω | `came near` | `came near, approached` | 33:6, 33:7 |
-| προσεγγίζω | `came near` | `came near, approached` | 33:6, 33:7 |
+| προσεγγίζω | `approached`, plain text: one translation; EXO 11 took out what the entry does not give, the entry's *to approach* (*came near* was not its first sense) | | 33:6, 33:7 |
+| προσεγγίζω | `approached`, plain text: one translation; EXO 11 took out what the entry does not give, the entry's *to approach* (*came near* was not its first sense) | | 33:6, 33:7 |
 | προσπίπτω | `fell upon` | `fell upon, struck against, fell against, attacked and assaulted, ran to, embraced, fell in with and lighted upon and met with` | 33:4 |
 | πρῶτος, with ἐν | `in first` | `within, inside of, and by means of first, first and foremost, outermost, first men, first prize, first part and beginning, first and highest, extremities, chief` | 33:2 |
 | πόλις | `city` | `city, citadel, country, body of citizens, state` | 33:18 |
@@ -947,7 +947,7 @@ the same ground as `the sixth` and `the seventh`: one sense each, so no range to
 | παροικέω | `I dwelt beside` | `I dwelt beside, I dwelt along the coast of, I lived near, I dwelt among, I lay near, I lived in and sojourned` | 32:5 |
 | πατάσσω | `may beat` | `may beat, may knock, may strike and smite, may knock at` | 32:12 |
 | πλάτος | `of the breadth` | `of the breadth and width` | 32:26, 32:33 |
-| ποίμνη | `of a flock` | `of a flock, of a flock of sheep` | 32:17 |
+| ποίμνη | `of a flock`, plain text: one translation; EXO 11 took out what the entry does not give (*of sheep* is a piece, in `NOT_SENSES`) | | 32:17 |
 | προπορεύομαι | `go before` | `go before, go forward, come forward, be promoted and advance` | 32:17 |
 | προπορεύομαι | `the ones going before` | `the ones going before, the ones going forward, the ones coming forward, the ones being promoted and advancing` | 32:18 |
 | προπορεύομαι | `to the ones going before` | `to the ones going before, to the ones going forward, to the ones coming forward, to the ones being promoted and advancing` | 32:20, 32:21 |
@@ -1064,7 +1064,7 @@ the same ground as `the sixth` and `the seventh`: one sense each, so no range to
 | κλέμμα | `thefts` | `thefts, stratagems in war, frauds` | 31:39 |
 | κλέπτω | `stole` | `stole and filched and purloined, cozened and cheated and deceived and beguiled, concealed and kept secret and disguised, did secretly and treacherously, seized and occupied secretly` | 31:19, 31:32 |
 | κλέπτω | `you stole` | `you stole and filched and purloined, you cozened and cheated and deceived and beguiled, you concealed and kept secret and disguised, you did secretly and treacherously, you seized and occupied secretly` | 31:30 |
-| κληρονομία | `an inheritance` | `an inheritance, a possession` | 31:14 |
+| κληρονομία | `an inheritance`, plain text: one translation; EXO 11 took out what the entry does not give (*possession of . .* is a citation's, in `NOT_SENSES`) | | 31:14 |
 | κλοποφορέω | `you stole from` | `you stole from and robbed` | 31:26 |
 | κρίνω | `will separate` | `will separate and part and put asunder and distinguish, will pick out and choose, will pick out for himself and choose, will decide, will judge, will adjudge, will judge of and estimate, will expound and interpret, will determine, will question, will bring to trial and accuse, will pass sentence upon and condemn` | 31:53 |
 | κριός | `rams` | `rams, battering-rams` | 31:38 |
@@ -1209,7 +1209,7 @@ the same ground as `the sixth` and `the seventh`: one sense each, so no range to
 | αὔριον | `to-morrow` | `to-morrow, on the morrow` | 30:33 |
 | δίδωμι | `I gave` | `I gave, I granted, I provided, I gave over and delivered up` | 30:18 |
 | διαστέλλω | `set apart` | `set apart, drew asunder and tore apart, distinguished and determined, ordered and commanded` | 30:28, 30:35, 30:40 |
-| διαχωρίζω | `separate` | `separate, part asunder, set apart` | 30:32, 30:40 |
+| διαχωρίζω | `separate`, plain text: one translation; EXO 11 took out what the entry does not give, as at GEN 13 (*part asunder, set apart* were LSJ's) | | 30:32, 30:40 |
 | δικαιοσύνη | `the righteousness` | `the righteousness and justice` | 30:33 |
 | δουλεία | `the servitude` | `the servitude and slavery and bondage, the slaves and the slave-class` | 30:26 |
 | δουλεύω | `I have been a slave` | `I have been a slave and stand so, I have served and been subject to` | 30:26, 30:29 |
@@ -1537,7 +1537,7 @@ the same ground as `the sixth` and `the seventh`: one sense each, so no range to
 | κατανύσσω | `having been stabbed` | `having been stabbed and gouged, having been sorely pricked, having been bewildered and stunned` | 27:38 |
 | καταράομαι | `the one calling down curses upon` | `the one calling down curses upon and imprecating upon, cursing and execrating, uttering imprecations` | 27:29 |
 | καταφρονέω | `thinking down upon` | `thinking down upon, looking down upon and thinking slightly of, regarding slightly and despising` | 27:12 |
-| κατοίκησις | `the settling in` | `the settling in, the dwelling, the habitation` | 27:39 |
+| κατοίκησις | `the settling in`, plain text: one translation; EXO 11 took out what the entry does not give, as at GEN 10 (*the dwelling, the habitation* were LSJ's) | | 27:39 |
 | κἀγώ | `and me` | `and me` | 27:34, 27:38 |
 | λαλέω | `of talking` | `of talking, of chatting, of prattling, of babbling, of saying, of talking of, of speaking, of chattering, of chirping` | 27:5, 27:6 |
 | λαμβάνω | `has taken` | `has taken and it stands so, has received and it stands so, has taken hold of and grasped and seized and it stands so` | 27:36 |
@@ -1674,7 +1674,7 @@ the same ground as `the sixth` and `the seventh`: one sense each, so no range to
 | εὑρίσκω | `we found` | `we found, we found out, we discovered, we got and gained` | 26:32 |
 | ζηλόω | `rivalled` | `rivalled, vied with, emulated, were jealous of and envied, pronounced happy and admired and praised, desired emulously and strove after, were impelled by zeal` | 26:14 |
 | θάνατος | `of death` | `of death, of the death threatened, of the sentence of death` | 26:11 |
-| θυρίς | `of the little door` | `of the little door, of the window` | 26:8 |
+| θυρίς | `of the window`, plain text: one translation; EXO 11 took out what the entry does not give, as at GEN 8:6 (*little door* was the etymology's *Dim. of θύρα*) | | 26:8 |
 | καθότι | `in what manner` | `in what manner` | 26:29 |
 | κακός | `bad` | `bad, mean and ugly, ill-born and mean and ignoble, craven and cowardly and base, worthless and sorry and poor, evil and wicked, baneful and unlucky and abusive` | 26:29 |
 | καλῶς | `well` | `well, rightly, well and happily, right well, rightly and deservedly` | 26:29 |
@@ -7392,3 +7392,31 @@ text uses. Chains already in the corpus (Genesis) were read from it and re-infle
   προστίθημι `to put to`; ποιέω `we will make`; ἀναβαίνω `let go up`; τέκνον `of the things borne`.
 - One translation each, plain text: σκληρύνω, ἀκρίς (*a locust*), πρόπαππος (*a great-grandfather*),
   νεανίσκος (*a youth*), καθότι (*in what manner*), ἐρυθρός (*red*), ψηλαφητός.
+
+### Words new in EXO 11
+
+- **Greek cut** (`GREEK_LOST`): γρύζω, *to say γρῦ, to grunt, grumble, mutter*; the encoding stops
+  the first translation at *to say*. `will say gry (γρῦ), will grunt and grumble and mutter`
+  (11:7), the interjection transliterated with the Greek after it.
+- **Pieces set aside** (`NOT_SENSES`): πληγή (*a blow*, a repeat), ἐκβολή (examples' pieces and
+  translations: *turning … out of*, *the time when … comes into ear*, *earth cast … scraped up*,
+  *children exposed*, *wrecked*), κύων (*a word of reproach*, the use's label), ἀφηγέομαι (*the
+  van*, *what has been told*, participles used as nouns).
+- **A misprint the module shares**: 11:8 προκυνήσουσίν, for προσκυνήσουσίν. The transcription
+  keeps it and a note says so; `printed` lists nothing, since the module prints the same.
+- **πρωτότοκος** has one translation, *first-born*, and is plain text, as GEN 4, 10 and 25 had it.
+  Nine units since GEN 35 had read `firstborn, first-fruits`, and *first-fruits* is in no entry the
+  project reads: GEN 35:23, 41:51, 43:33, 46:8, 48:18, 49:3; EXO 4:22, 4:23, 6:14 are plain text now.
+- **Chains that said more than their entry**, plain text now, each one translation: θυρίς `of the
+  window` (GEN 26:8; *little door* was the etymology's *Dim. of θύρα*); κατοίκησις `the settling
+  in` (27:39) and διαχωρίζω `separate` (30:32, 30:40), whose added senses were LSJ's though Middle
+  Liddell has both words; κληρονομία `an inheritance` (31:14), ποίμνη `of a flock` (32:17),
+  ὀλιγοστός `one out of a few` (34:30) and λίθινος `of stone` (35:14), whose added senses are the
+  ones `NOT_SENSES` sets aside; προσεγγίζω `approached` (33:6, 33:7), the entry's *to approach*,
+  where `came near` had headed it.
+- New chains: πληγή `a blow`; ἐκβολή `to a throwing out`; αἰτέω `let ask`; χάρις `the outward
+  grace`; εἰσπορεύομαι `I go into`; κάθημαι `is seated`; θρόνος `of the seat`; θεράπαινα `of the
+  waiting maid`; γρύζω `will say gry (γρῦ)`; κύων `a dog`; γλῶσσα `to the tongue`; παραδοξάζω
+  `will make wonderful`; ἀφηγέομαι `you lead from`; θυμός `of soul`; πληθύνω `I may make full`.
+- One translation each, plain text: κρυφῇ (*secretly*), κίχρημι (*lent*), μύλος (*the millstone*),
+  πρωτότοκος (*first-born*).

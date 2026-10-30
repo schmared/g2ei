@@ -1,0 +1,290 @@
+# Exodus 11 — morphology, one word per line.
+#
+# This is the project's own grammatical analysis of each form, written alongside the
+# transcription and not copied from any digital edition.
+#
+# Columns: verse, part of speech, parse, form, lemma — in MorphGNT's code scheme, so
+# the Old and New Testament layers read alike. The parse is eight places: person,
+# tense, voice, mood, case, number, gender, degree ("-" where it does not apply).
+#
+# Two codes go beyond MorphGNT, both to record only what the form itself says:
+#   voice  E  middle/passive — a tense in which the two share one form
+#   gender C  masculine/feminine — an adjective whose form does not distinguish them
+#
+# A trailing annotation records a deliberate difference and the reason for it:
+#   "# module …"  from the reference module, checked when LXX_RAHLFS_DIR is set
+#   "# corpus …"  from this project's own analysis of the same form elsewhere
+# A line may carry both. validate.py prints them as notes instead of failures — and
+# fails if the difference a note claims is not there, so they cannot go stale. The
+# analysis here is this project's own: the module is a reference, not an authority,
+# and the corpus is held to itself.
+#
+# Indeclinables take case and number from the syntax, as MorphGNT does, and gender
+# where there is one to take: a personal name, from the person; a numeral agreeing
+# with its noun; a common noun whose article shows it — but not an indeclinable place
+# name, which has none. A personal name the New Testament also uses takes MorphGNT's
+# dictionary form (Νῶε, Σήμ); every other Semitic name (Χαμ, Ιαφεθ), the form Rahlfs
+# prints.
+
+11:1 V- 3AAI-S-- Εἶπεν λέγω  # module lemma ἔπω — λέγω keeps one dictionary form across both testaments
+11:1 C- -------- δὲ δέ
+11:1 N- ----NSM- κύριος κύριος
+11:1 P- -------- πρὸς πρός
+11:1 N- ----ASM- Μωυσῆν Μωϋσῆς  # module lemma Μωσεύς — Μωϋσῆς, as MorphGNT files it
+11:1 D- -------- Ἔτι ἔτι
+11:1 A- ----ASF- μίαν εἷς
+11:1 N- ----ASF- πληγὴν πληγή
+11:1 V- 1FAI-S-- ἐπάξω ἐπάγω
+11:1 P- -------- ἐπὶ ἐπί
+11:1 N- ----ASM- Φαραω Φαραώ  # module GSM — accusative, with ἐπʼ Αἴγυπτον beside it
+11:1 C- -------- καὶ καί
+11:1 P- -------- ἐπʼ ἐπί
+11:1 N- ----ASF- Αἴγυπτον Αἴγυπτος
+11:1 C- -------- καὶ καί
+11:1 P- -------- μετὰ μετά
+11:1 RD ----APN- ταῦτα οὗτος
+11:1 V- 3FAI-S-- ἐξαποστελεῖ ἐξαποστέλλω
+11:1 RP ----AP-- ὑμᾶς σύ  # module lemma ὑμᾶς, the form itself — σύ is the dictionary form
+11:1 D- -------- ἐντεῦθεν ἐντεῦθεν
+11:1 C- -------- ὅταν ὅταν
+11:1 C- -------- δὲ δέ
+11:1 V- 3PAS-S-- ἐξαποστέλλῃ ἐξαποστέλλω
+11:1 RP ----AP-- ὑμᾶς σύ  # module lemma ὑμᾶς, the form itself — σύ is the dictionary form
+11:1 P- -------- σὺν σύν
+11:1 A- ----DSF- παντὶ πᾶς  # module DSN — feminine, with ἐκβολῇ
+11:1 V- 3FAI-S-- ἐκβαλεῖ ἐκβάλλω
+11:1 RP ----AP-- ὑμᾶς σύ  # module lemma ὑμᾶς, the form itself — σύ is the dictionary form
+11:1 N- ----DSF- ἐκβολῇ ἐκβολή
+11:2 V- 2AAD-S-- λάλησον λαλέω
+11:2 C- -------- οὖν οὖν
+11:2 D- -------- κρυφῇ κρυφῇ
+11:2 P- -------- εἰς εἰς
+11:2 RA ----APN- τὰ ὁ
+11:2 N- ----APN- ὦτα οὖς
+11:2 RA ----GSM- τοῦ ὁ
+11:2 N- ----GSM- λαοῦ λαός
+11:2 C- -------- καὶ καί
+11:2 V- 3AAD-S-- αἰτησάτω αἰτέω
+11:2 A- ----NSM- ἕκαστος ἕκαστος
+11:2 P- -------- παρὰ παρά
+11:2 RA ----GSM- τοῦ ὁ
+11:2 D- -------- πλησίον πλησίον
+11:2 C- -------- καὶ καί
+11:2 N- ----NSF- γυνὴ γυνή
+11:2 P- -------- παρὰ παρά
+11:2 RA ----GSF- τῆς ὁ
+11:2 D- -------- πλησίον πλησίον
+11:2 N- ----APN- σκεύη σκεῦος
+11:2 A- ----APN- ἀργυρᾶ ἀργυροῦς  # module lemma ἀργύρεος — ἀργυροῦς, the contracted form, as MorphGNT files it, like διπλοῦς
+11:2 C- -------- καὶ καί
+11:2 A- ----APN- χρυσᾶ χρυσοῦς  # module lemma χρύσεος — χρυσοῦς, the contracted form, as MorphGNT files it, like διπλοῦς
+11:2 C- -------- καὶ καί
+11:2 N- ----ASM- ἱματισμόν ἱματισμός
+11:3 N- ----NSM- κύριος κύριος
+11:3 C- -------- δὲ δέ
+11:3 V- 3AAI-S-- ἔδωκεν δίδωμι
+11:3 RA ----ASF- τὴν ὁ
+11:3 N- ----ASF- χάριν χάρις
+11:3 RA ----DSM- τῷ ὁ
+11:3 N- ----DSM- λαῷ λαός
+11:3 RP ----GSM- αὐτοῦ αὐτός
+11:3 P- -------- ἐναντίον ἐναντίον
+11:3 RA ----GPM- τῶν ὁ
+11:3 N- ----GPM- Αἰγυπτίων Αἰγύπτιος
+11:3 C- -------- καὶ καί
+11:3 V- 3AAI-P-- ἔχρησαν κίχρημι  # module lemma χράω — κίχρημι, as MorphGNT files χρῆσον
+11:3 RP ----DPM- αὐτοῖς αὐτός
+11:3 C- -------- καὶ καί
+11:3 RA ----NSM- ὁ ὁ
+11:3 N- ----NSM- ἄνθρωπος ἄνθρωπος
+11:3 N- ----NSM- Μωυσῆς Μωϋσῆς  # module lemma Μωσεύς — Μωϋσῆς, as MorphGNT files it
+11:3 A- ----NSM- μέγας μέγας
+11:3 V- 3API-S-- ἐγενήθη γίνομαι
+11:3 D- -------- σφόδρα σφόδρα
+11:3 P- -------- ἐναντίον ἐναντίον
+11:3 RA ----GPM- τῶν ὁ
+11:3 N- ----GPM- Αἰγυπτίων Αἰγύπτιος
+11:3 C- -------- καὶ καί
+11:3 P- -------- ἐναντίον ἐναντίον
+11:3 N- ----GSM- Φαραω Φαραώ
+11:3 C- -------- καὶ καί
+11:3 P- -------- ἐναντίον ἐναντίον
+11:3 A- ----GPM- πάντων πᾶς
+11:3 RA ----GPM- τῶν ὁ
+11:3 N- ----GPM- θεραπόντων θεράπων
+11:3 RP ----GSM- αὐτοῦ αὐτός
+11:4 C- -------- Καὶ καί
+11:4 V- 3AAI-S-- εἶπεν λέγω  # module lemma ἔπω — λέγω keeps one dictionary form across both testaments
+11:4 N- ----NSM- Μωυσῆς Μωϋσῆς  # module lemma Μωσεύς — Μωϋσῆς, as MorphGNT files it
+11:4 RD ----APN- Τάδε ὅδε
+11:4 V- 3PAI-S-- λέγει λέγω
+11:4 N- ----NSM- κύριος κύριος
+11:4 P- -------- Περὶ περί
+11:4 A- ----APF- μέσας μέσος
+11:4 N- ----APF- νύκτας νύξ
+11:4 RP ----NS-- ἐγὼ ἐγώ
+11:4 V- 1PEI-S-- εἰσπορεύομαι εἰσπορεύομαι
+11:4 P- -------- εἰς εἰς
+11:4 A- ----ASN- μέσον μέσος  # module ASM — the neuter used as a noun, with a genitive after it
+11:4 N- ----GSF- Αἰγύπτου Αἴγυπτος
+11:5 C- -------- καὶ καί
+11:5 V- 3FAI-S-- τελευτήσει τελευτάω
+11:5 A- ----NSN- πᾶν πᾶς  # module ASM — neuter, the subject of τελευτήσει
+11:5 A- ----NSN- πρωτότοκον πρωτότοκος  # module ASM — neuter, the subject of τελευτήσει, with πᾶν
+11:5 P- -------- ἐν ἐν
+11:5 N- ----DSF- γῇ γῆ
+11:5 N- ----DSF- Αἰγύπτῳ Αἴγυπτος
+11:5 P- -------- ἀπὸ ἀπό
+11:5 A- ----GSN- πρωτοτόκου πρωτότοκος  # module GSM — neuter, with πᾶν πρωτότοκον
+11:5 N- ----GSM- Φαραω Φαραώ
+11:5 RR ----NSM- ὃς ὅς
+11:5 V- 3PEI-S-- κάθηται κάθημαι
+11:5 P- -------- ἐπὶ ἐπί
+11:5 RA ----GSM- τοῦ ὁ
+11:5 N- ----GSM- θρόνου θρόνος
+11:5 C- -------- καὶ καί
+11:5 P- -------- ἕως ἕως
+11:5 A- ----GSN- πρωτοτόκου πρωτότοκος  # module GSM — neuter, with πᾶν πρωτότοκον
+11:5 RA ----GSF- τῆς ὁ
+11:5 N- ----GSF- θεραπαίνης θεράπαινα
+11:5 RA ----GSF- τῆς ὁ
+11:5 P- -------- παρὰ παρά
+11:5 RA ----ASM- τὸν ὁ
+11:5 N- ----ASM- μύλον μύλος
+11:5 C- -------- καὶ καί
+11:5 P- -------- ἕως ἕως
+11:5 A- ----GSN- πρωτοτόκου πρωτότοκος  # module GSM — neuter, with πᾶν πρωτότοκον
+11:5 A- ----GSN- παντὸς πᾶς
+11:5 N- ----GSN- κτήνους κτῆνος
+11:6 C- -------- καὶ καί
+11:6 V- 3FMI-S-- ἔσται εἰμί
+11:6 N- ----NSF- κραυγὴ κραυγή
+11:6 A- ----NSF- μεγάλη μέγας
+11:6 P- -------- κατὰ κατά
+11:6 A- ----ASF- πᾶσαν πᾶς
+11:6 N- ----ASF- γῆν γῆ
+11:6 N- ----GSF- Αἰγύπτου Αἴγυπτος
+11:6 RR ----NSF- ἥτις ὅστις
+11:6 RD ----NSF- τοιαύτη τοιοῦτος
+11:6 D- -------- οὐ οὐ
+11:6 V- 3XAI-S-- γέγονεν γίνομαι
+11:6 C- -------- καὶ καί
+11:6 RD ----NSF- τοιαύτη τοιοῦτος
+11:6 D- -------- οὐκέτι οὐκέτι
+11:6 V- 3FPI-S-- προστεθήσεται προστίθημι
+11:7 C- -------- καὶ καί
+11:7 P- -------- ἐν ἐν
+11:7 A- ----DPM- πᾶσι πᾶς
+11:7 RA ----DPM- τοῖς ὁ
+11:7 N- ----DPM- υἱοῖς υἱός
+11:7 N- ----GSM- Ισραηλ Ἰσραήλ
+11:7 D- -------- οὐ οὐ
+11:7 V- 3FAI-S-- γρύξει γρύζω
+11:7 N- ----NSM- κύων κύων
+11:7 RA ----DSF- τῇ ὁ
+11:7 N- ----DSF- γλώσσῃ γλῶσσα
+11:7 RP ----GSM- αὐτοῦ αὐτός
+11:7 P- -------- ἀπὸ ἀπό
+11:7 N- ----GSM- ἀνθρώπου ἄνθρωπος
+11:7 P- -------- ἕως ἕως
+11:7 N- ----GSN- κτήνους κτῆνος
+11:7 C- -------- ὅπως ὅπως
+11:7 V- 2XAS-S-- εἰδῇς οἶδα
+11:7 RR ----APN- ὅσα ὅσος
+11:7 V- 3FAI-S-- παραδοξάσει παραδοξάζω
+11:7 N- ----NSM- κύριος κύριος
+11:7 P- -------- ἀνὰ ἀνά
+11:7 A- ----ASN- μέσον μέσος  # module ASM — with a genitive after it, the neuter used as a noun, as MorphGNT codes ἀνὰ μέσον
+11:7 RA ----GPM- τῶν ὁ
+11:7 N- ----GPM- Αἰγυπτίων Αἰγύπτιος
+11:7 C- -------- καὶ καί
+11:7 RA ----GSM- τοῦ ὁ
+11:7 N- ----GSM- Ισραηλ Ἰσραήλ
+11:8 C- -------- καὶ καί
+11:8 V- 3FMI-P-- καταβήσονται καταβαίνω
+11:8 A- ----NPM- πάντες πᾶς
+11:8 RA ----NPM- οἱ ὁ
+11:8 N- ----NPM- παῖδές παῖς
+11:8 RP ----GS-- σου σύ  # module lemma σοῦ, the form itself — σύ is the dictionary form
+11:8 RD ----NPM- οὗτοι οὗτος
+11:8 P- -------- πρός πρός
+11:8 RP ----AS-- με ἐγώ  # module lemma μέ, the form itself — ἐγώ is the dictionary form
+11:8 C- -------- καὶ καί
+11:8 V- 3FAI-P-- προκυνήσουσίν προσκυνέω  # module lemma προκυνέω — προσκυνέω: the printed form drops the σ
+11:8 RP ----AS-- με ἐγώ  # module lemma μέ, the form itself — ἐγώ is the dictionary form
+11:8 V- -PAPNPM- λέγοντες λέγω
+11:8 V- 2AAD-S-- Ἔξελθε ἐξέρχομαι
+11:8 RP ----NS-- σὺ σύ
+11:8 C- -------- καὶ καί
+11:8 A- ----NSM- πᾶς πᾶς
+11:8 RA ----NSM- ὁ ὁ
+11:8 N- ----NSM- λαός λαός
+11:8 RP ----GS-- σου σύ  # module lemma σοῦ, the form itself — σύ is the dictionary form
+11:8 RR ----GSM- οὗ ὅς
+11:8 RP ----NS-- σὺ σύ
+11:8 V- 2PEI-S-- ἀφηγῇ ἀφηγέομαι
+11:8 C- -------- καὶ καί
+11:8 P- -------- μετὰ μετά
+11:8 RD ----APN- ταῦτα οὗτος
+11:8 V- 1FMI-S-- ἐξελεύσομαι ἐξέρχομαι
+11:8 V- 3AAI-S-- ἐξῆλθεν ἐξέρχομαι
+11:8 C- -------- δὲ δέ
+11:8 N- ----NSM- Μωυσῆς Μωϋσῆς  # module lemma Μωσεύς — Μωϋσῆς, as MorphGNT files it
+11:8 P- -------- ἀπὸ ἀπό
+11:8 N- ----GSM- Φαραω Φαραώ
+11:8 P- -------- μετὰ μετά
+11:8 N- ----GSM- θυμοῦ θυμός
+11:9 V- 3AAI-S-- εἶπεν λέγω  # module lemma ἔπω — λέγω keeps one dictionary form across both testaments
+11:9 C- -------- δὲ δέ
+11:9 N- ----NSM- κύριος κύριος
+11:9 P- -------- πρὸς πρός
+11:9 N- ----ASM- Μωυσῆν Μωϋσῆς  # module lemma Μωσεύς — Μωϋσῆς, as MorphGNT files it
+11:9 D- -------- Οὐκ οὐ
+11:9 V- 3FMI-S-- εἰσακούσεται εἰσακούω
+11:9 RP ----GP-- ὑμῶν σύ  # module lemma ὑμῶν, the form itself — σύ is the dictionary form
+11:9 N- ----NSM- Φαραω Φαραώ
+11:9 C- -------- ἵνα ἵνα
+11:9 V- -PAPNSM- πληθύνων πληθύνω
+11:9 V- 1PAS-S-- πληθύνω πληθύνω  # module AAS1S — the present, with πληθύνων; the two subjunctives share the form
+11:9 RP ----GS-- μου ἐγώ  # module lemma μου, the form itself — ἐγώ is the dictionary form
+11:9 RA ----APN- τὰ ὁ
+11:9 N- ----APN- σημεῖα σημεῖον
+11:9 C- -------- καὶ καί
+11:9 RA ----APN- τὰ ὁ
+11:9 N- ----APN- τέρατα τέρας
+11:9 P- -------- ἐν ἐν
+11:9 N- ----DSF- γῇ γῆ
+11:9 N- ----DSF- Αἰγύπτῳ Αἴγυπτος
+11:10 N- ----NSM- Μωυσῆς Μωϋσῆς  # module lemma Μωσεύς — Μωϋσῆς, as MorphGNT files it
+11:10 C- -------- δὲ δέ
+11:10 C- -------- καὶ καί
+11:10 N- ----NSM- Ααρων Ἀαρών
+11:10 V- 3AAI-P-- ἐποίησαν ποιέω
+11:10 A- ----APN- πάντα πᾶς
+11:10 RA ----APN- τὰ ὁ
+11:10 N- ----APN- σημεῖα σημεῖον
+11:10 C- -------- καὶ καί
+11:10 RA ----APN- τὰ ὁ
+11:10 N- ----APN- τέρατα τέρας
+11:10 RD ----APN- ταῦτα οὗτος
+11:10 P- -------- ἐν ἐν
+11:10 N- ----DSF- γῇ γῆ
+11:10 N- ----DSF- Αἰγύπτῳ Αἴγυπτος
+11:10 P- -------- ἐναντίον ἐναντίον
+11:10 N- ----GSM- Φαραω Φαραώ
+11:10 V- 3AAI-S-- ἐσκλήρυνεν σκληρύνω
+11:10 C- -------- δὲ δέ
+11:10 N- ----NSM- κύριος κύριος
+11:10 RA ----ASF- τὴν ὁ
+11:10 N- ----ASF- καρδίαν καρδία
+11:10 N- ----GSM- Φαραω Φαραώ
+11:10 C- -------- καὶ καί
+11:10 D- -------- οὐκ οὐ
+11:10 V- 3AAI-S-- ἠθέλησεν θέλω
+11:10 V- -AAN---- ἐξαποστεῖλαι ἐξαποστέλλω
+11:10 RA ----APM- τοὺς ὁ
+11:10 N- ----APM- υἱοὺς υἱός
+11:10 N- ----GSM- Ισραηλ Ἰσραήλ
+11:10 P- -------- ἐκ ἐκ
+11:10 N- ----GSF- γῆς γῆ
+11:10 N- ----GSF- Αἰγύπτου Αἴγυπτος

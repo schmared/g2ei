@@ -568,6 +568,12 @@ Four disagreements over 730 words. The second pass was right on three: τίνο�
 of ἐγενήθη, nominative. φῶς stays under φάος, the uncontracted form Middle Liddell heads, as νοῦς
 under νόος.
 
+### What it found in Exodus 11
+
+One disagreement over 262 words, and the second pass was right: Φαραω at 11:9 is the subject of
+εἰσακούσεται, nominative. Both passes read οὗ σὺ ἀφηγῇ as the relative with ἀφηγέομαι's genitive,
+not the adverb, and πρωτοτόκου as neuter with πᾶν πρωτότοκον.
+
 ## The brief
 
 Copy everything below the rule into a new agent. Replace `<BOOK NAME>`, `<CHAPTER>`,

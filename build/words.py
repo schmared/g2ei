@@ -1347,6 +1347,12 @@ NOT_SENSES = {
                "elections."},                   # examples' translations, a proverb, the note on ballot and lot
     "e)pista/ths": {"the right-", "left-hand man", "the front-rank man)", "a", "master", "which stood over"},  # παραστάτης's and προστάτης's glosses; "a training-master" cut in two, whole in MARKUP_LOST; a piece
     "be/ltistos": {"my good friend"},             # ὦ βέλτιστε, the vocative's mode of address
+    # EXO 11
+    "plhgh/": {"a blow"},                        # a repeat of "a blow, stroke"
+    "e)kbolh/": {"turning", "out of", "the time when", "comes into ear", "earth cast", "scraped up",
+                 "children exposed", "wrecked"},  # examples' pieces and translations
+    "ku/wn": {"a word of reproach"},             # the use's label, not a translation
+    "a)fhge/omai": {"the van", "what has been told"},  # participles used as nouns, examples'
     # EXO 10
     "e(ch=s": {"the next"},                      # ἡ ἑξῆς ἡμέρα, the phrase's; "next" is a sense above it
     "a)/nemos": {"the wind", "to the winds"},     # a repeat with the article; ἀνέμοις, an example's dative
@@ -2141,8 +2147,9 @@ GREEK_LOST = {
     "katoike/w": {"to dwell in as a": "to dwell in as a κάτοικος"},  # "to dwell in as a κάτοικος, to settle in"
     "r(a/bdos": {"the wand borne by the": "the wand borne by the ῥαψῳδός"},  # "the wand borne by the ῥαψῳδός"
     "e)piskoph/": {"the office of": "the office of ἐπίσκοπος"},  # "the office of ἐπίσκοπος, NTest."
-    "eu)labe/omai": {"to behave like the": "to behave like the εὐλαβής"},
-    "a)/logos": {"without": "without λόγος"},  # "«without» λόγος, i. e., without speech, speechless"  # "to behave like the εὐλαβής, have a care"
+    "eu)labe/omai": {"to behave like the": "to behave like the εὐλαβής"},  # "to behave like the εὐλαβής, have a care"
+    "a)/logos": {"without": "without λόγος"},  # "«without» λόγος, i. e., without speech, speechless"
+    "gru/zw": {"to say": "to say γρῦ"},  # "to say γρῦ, to grunt, grumble, mutter"
 }
 
 # Translations a Greek word follows without finishing: the gloss is whole, and the Greek

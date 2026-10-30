@@ -164,3 +164,24 @@ places the adjective alone does not; filed, the reading loses the lexicon's word
 Red Sea, which only the note keeps.
 
 **Recommendation:** filed, as now: the reading opens each Greek word, and *sea* is θάλασσα's.
+
+## Q9. The third person imperative: *let him go up* or *let go up*
+
+**Where:** every third person singular imperative; EXO 10:12, 10:24, 11:2 most recently.
+
+**Now:** the corpus does both. Sixteen units carry a pronoun (`let him sprinkle`, EXO 9:8; `let him
+go up`; `let her have`; `let it be watched`); about twenty do not (`let come into being`, EXO 9:9;
+`let give`; `let take its rest`). EXO 10 and 11 follow the second where the subject is named in the
+verse.
+
+| | EXO 9:8 πασάτω Μωυσῆς | EXO 11:2 αἰτησάτω ἕκαστος |
+|---|---|---|
+| with a pronoun | `let him sprinkle Moses` | `let him ask every` |
+| without | `let sprinkle Moses` | `let ask every` |
+
+**The difference:** the Greek ending says the person and number and nothing of gender; *him* adds a
+gender the form does not carry, and beside a named subject says it twice. Without a pronoun the
+English imperative still marks the third person by *let* and the subject that follows.
+
+**Recommendation:** no pronoun where the subject is in the verse, and *him*, *her* or *it* only where
+the verb stands alone, by the gender of what it refers to.
