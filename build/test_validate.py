@@ -605,6 +605,11 @@ CONTROL = [
                                          lambda: run(V.check_articles, "GEN", 1,
                                                      mut(GEN, [0, "reading"],
                                                          "x in the presence of [[of lord|of lord, of master|κύριος]] y"))),
+    # EXO 14:22 ἐξ εὐωνύμων: εὐώνυμος is *of good name*, and its genitive marks the case before it
+    ("articles εὐώνυμος's own *of* inside its genitive",
+                                         lambda: run(V.check_articles, "GEN", 1,
+                                                     mut(GEN, [0, "reading"],
+                                                         "x [[of of good name|of of good name and honoured, of of good omen|εὐώνυμος]] y"))),
     ("articles clean GEN 7, with its neuter participle",
                                          lambda: run(V.check_articles, "GEN", 7, GEN7)),
     ("articles clean GEN 19 and EXO 8, an article over a numeral and a possessive",

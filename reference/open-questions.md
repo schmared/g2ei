@@ -224,3 +224,24 @@ corpus files; kept, it lets an active chain split a run the rule says is one ite
 
 **Recommendation:** join the run in all eighteen units, and give *was reported* to the passive forms by
 `FORM_SENSES`.
+
+## Q12. ὑπάρχω's card is unsettled
+
+**Where:** six units, GEN to EXO 14:11 (`begins`, `the things beginning`, and now `the beginning`).
+
+**Now:** the card for ὑπάρχω's verb forms still carries example pieces and labels — *had been made*,
+*there is store*, *existing*, *current*, the Latin *quae cum ita sint*, *own proper*, *he will be on*,
+*side* — and the chains read three items: `begins and makes a beginning, begins to be and comes into being
+and arises and springs up, is in existence`. Middle Liddell's third sense is one translation, *to be in
+existence, to be there, to be ready*, and the chain keeps a third of it.
+
+- now: `is in existence`
+- the run whole: `is in existence and is there and is ready`, and the senses past it that are senses —
+  *to be*, *to be laid down, to be taken for granted*, *to belong to, fall to*, *to be devoted to*, *it is
+  allowed, it is possible* — read in, with the pieces filed.
+
+**The difference:** which of the entry's later translations are senses of the verb and which are its
+participle's, its impersonal's or an example's is a sorting of the whole entry, not a fix to one unit.
+
+**Recommendation:** settle the card in `NOT_SENSES` and `FORM_SENSES` (participle used as a noun apart,
+impersonal apart), then reread the six units from it.

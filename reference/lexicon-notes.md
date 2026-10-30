@@ -2650,7 +2650,7 @@ the same ground as `the sixth` and `the seventh`: one sense each, so no range to
 | ἐκκλίνω | `you bent out of the regular line` | `you bent out of the regular line, you turned away and gave ground and retired, you avoided and shunned, you turned aside towards` | 18:5 |
 | ἐξανίστημι | `having stood up from one's seat` | `having stood up from one's seat, having risen, having arisen and departed from and emigrated from, having broken up and departed, having been driven out, having been forced to emigrate, having been depopulated` | 18:16 |
 | ἐπάγω | `may bring on` | `may bring on, may bring upon, may set on and urge on, may lead on, may bring in and invite, may bring to, may lay on and apply, may bring forward, may add` | 18:19 |
-| ἐπαναστρέφω | `turning back upon` | `turning back upon, wheeling round, returning to the charge` | 18:10 |
+| ἐπαναστρέφω | `turning back upon one` | `turning back upon one, wheeling round, returning to the charge` | 18:10 |
 | ἔρχομαι | `coming` | `coming, going, going back and returning, going to and intending, coming within a little of and being near` | 18:21 |
 | ἔχω | `I have` | `I have, I hold, I possess, I keep, I dwell in and inhabit, I hold fast, I bear up against and support` | 18:31 |
 | ἔχω | `will have` | `will have, will hold, will possess, will keep, will dwell in and inhabit, will hold fast, will bear up against and support` | 18:10 |
@@ -3621,7 +3621,7 @@ order, *thicken* and *congeal* before *rear*, *keep* and *maintain*.
 | εἰσάγω | aor. impv. | `lead in` | the chain of GEN 6:19, in the imperative | 7:2 |
 | ἐπάγω | pres. 1 sg | `I bring on` | the chain of GEN 6:17 | 7:4 |
 | ἐξαλείφω | fut. 1 sg / aor. 3 sg / aor. pass. 3 pl | `I will plaster` · `plastered` · `were plastered` | `I will plaster, I will wash over, I will wipe out and obliterate, I will strike off, I will destroy utterly`, in the form — *to plaster* or *wash over* is sense I, *to wipe out* sense II | 7:4, 7:23 |
-| ῥήγνυμι | aor. pass. 3 pl | `were broken` | `were broken, were broken asunder and in pieces, were rent and shivered and shattered, burst, burst forth` — the entry's *Pass.* last | 7:11 |
+| ῥήγνυμι | aor. pass. 3 pl | `were broken` | `were broken and broken asunder and in pieces and rent and shivered and shattered, burst, burst forth` — the entry's *Pass.* last | 7:11 |
 | ἀνοίγω | aor. pass. 3 pl | `were opened` | `were opened, were undone, were laid open and unfolded and disclosed, were open and stood open` — the passive's own gloss last | 7:11 |
 | κινέω | pres. mid.-pass. ptcp. | `being set in motion` | `being set in motion, being moved, being removed, being roused and stirred up, being put in motion and moving and stirring, moving forward` — the entry's *Pass.* after the first senses | 7:14, 7:21 |
 | κλείω | aor. 3 sg | `shut` | `shut, closed, barred, shut up and blocked, confined` | 7:16 |
@@ -3739,7 +3739,7 @@ waters* is refused by `validate.py` here as there.
 | κατοικέω | pres. ptcp., articular · pres. ptcp. · impf. 3 sg | `the ones dwelling in` · `dwelling in` · `was dwelling in` | the chain of GEN 9:27, in the form | 14:7, 14:12, 14:13 |
 | ἐξέρχομαι | aor. 3 sg | `went out of` | the chain of GEN 4:16 | 14:8, 14:17 |
 | παρατάσσω | aor. mid. 3 pl | `drew up one's men in battle-order` | `drew up one's men in battle-order, were drawn up along, stood prepared` — the middle, its active *to place side by side* left out | 14:8 |
-| φεύγω | aor. 3 sg · aor. 3 pl | `fled` · `they fled` | `fled, took flight and ran away, had recourse and took refuge, was shy of doing and shrank from doing, shrank back, fled from and shunned and avoided, fled the consequences of, fled one's country, was banished, went into exile and was an exile, was accused and prosecuted, was put on one's trial for, was charged with`, in the form | 14:10 |
+| φεύγω | aor. 3 sg · aor. 3 pl | `fled` · `they fled` | `fled and took flight and ran away, had recourse and took refuge, was shy of doing and shrank from doing, shrank back, fled from and shunned and avoided, fled the consequences of, fled one's country, was banished, went into exile and was an exile, was accused and prosecuted, was put on one's trial for, was charged with`, in the form | 14:10 |
 | ἐμπίπτω | aor. 3 pl | `fell in` | `fell in, fell upon and attacked, lit and chanced upon, fell in with, broke in and burst in` | 14:10 |
 | καταλείπω | aor. pass. ptcp., articular | `the ones having been left behind` | the chain of GEN 7:23, in the participle | 14:10 |
 | λαμβάνω | aor. 3 pl · aor. impv. · fut. 1 sg and 3 pl | `they took` · `take` · `I will take` · `they will take` | the chain of GEN 2:15, in the form | 14:11, 14:12, 14:21, 14:23, 14:24 |
@@ -3812,7 +3812,7 @@ waters* is refused by `validate.py` here as there.
 | ἵστημι | aor1 3 sg | `made to stand` | the chain of GEN 6:18, in the aorist | 12:8 |
 | ἐπικαλέω | aor. mid. 3 sg | `called upon` | the chain of GEN 4:26, in the aorist; Middle Liddell gives sense I *so in Mid.* | 12:8 |
 | ἀπαίρω | aor. 3 sg | `lifted off` | `lifted off and carried off and took away and removed from, led away, sailed and marched away and departed, departed from, set out on` — *to depart* is the entry's intransitive use | 12:9 |
-| στρατοπεδεύω | aor. 3 sg | `encamped` | `encamped, bivouacked, took up a position, was in camp, was stationed` | 12:9 |
+| στρατοπεδεύω | aor. 3 sg | `encamped` | `encamped and bivouacked and took up a position, was in camp, was stationed` | 12:9 |
 | παροικέω | aor. inf. | `to dwell beside` | `to dwell beside, to dwell along the coast of, to live near, to dwell among, to lie near, to live in and sojourn` | 12:10 |
 | ἐνισχύω | aor. 3 sg | `strengthened` | `strengthened, confirmed, prevailed in and among` — LSJ | 12:10 |
 | ἐγγίζω | aor. 3 sg | `brought near` | `brought near and brought up to, approached, was imminent, approximated to, was next of kin, was on the point of` — LSJ | 12:11 |
@@ -7510,3 +7510,49 @@ text uses. Chains already in the corpus (Genesis) were read from it and re-infle
   light`; πῦρ `of the fire`.
 - One translation each, plain text: μήτρα (*the womb*), σήμερον (*to-day*), γάλα (*milk*), μέλι (*honey*),
   ἕξ (*six*), ἀρσενικός (*male*).
+
+### Words new in EXO 14
+
+- **From LSJ** (not in Middle Liddell): ἐνδοξάζομαι, LSJ's passive headword, *to be glorified*, citing
+  14:4, one translation, plain text (14:4, 14:17, 14:18); τριστάτης, `ones who stand next to the king and
+  queen` — `ones who stand next to the king and queen and viziers`, one translation (14:7).
+- **Spelling** (`SPELLING`): στρατιά, Middle Liddell's στρατία, *= στρατός, an army*: `to the army, to the
+  land force, to the host and company and band, to the expedition` (14:4).
+- **Cut translations restored** (`MARKUP_LOST`): παρίημι, *to let drop at the side, let fall*; σιγάω, *to
+  be still, to keep silence*, *to be kept secret*; συμμίγνυμι, *to make acquainted with*; ὑπάγω, *to bring
+  before the judgment-seat*; ἐπαναστρέφω, *to turn back upon one*, which GEN 18:10's participle now reads;
+  ῥήγνυμι, *to break, break asunder or in pieces, rend, shiver, shatter*, one translation, which GEN 7:11's
+  `were broken and broken asunder and in pieces and rent and shivered and shattered` now keeps as one item.
+- **Form** (`FORM_SENSES`): ἐναντίος's declined adjective leaves out the neuter's adverb and preposition
+  senses, which ἐναντίον reads from the same card, the masculine plural's *one's adversaries* and two
+  examples': ἐξ ἐναντίας, `of opposite, of over against and opposite, …` (14:2, 14:9). τεῖχος's singular
+  leaves out the plural's *a single fort, fortifications*. The actives of συναπάγω, παρίημι, πολεμέω,
+  σιγάω, συμμίγνυμι, ὑπάγω, συνταράσσω and ῥήγνυμι leave out the passive's and the middle's senses, and
+  μεταστρέφω's passive leaves out the active's intransitive and its sense with the genitive.
+- **Pieces set aside** (`NOT_SENSES`): μεταστρέφω, μνῆμα (a repeat), παρίημι, κρείσσων (the plural's nouns,
+  examples'), πολεμέω, σιγάω (the imperative's *hush!*), συμμίγνυμι, ὑπάγω, βίαιος (the adverb's), τεῖχος
+  (τοῖχος set against it), ἑωθινός (the neuter adverb's), συνταράσσω, συνδέω, ἄξων (Solon's tablets),
+  σχίζω (*were divided*, an example's), ῥήγνυμι.
+- **Runs joined**: φεύγω's *to flee, take flight, run away* and στρατοπεδεύω's *to encamp, bivouac, take up a
+  position* had been split in every unit, the past tense hiding it from the runs check: `fled and took
+  flight and ran away`, `encamped and bivouacked and took up a position` (GEN 12, 14, 39; EXO 4, 13).
+- **The case marked inside a gloss**: εὐώνυμος is *of good name*, and its genitive reads `of of good name
+  and honoured, of of good omen and prosperous and fortunate, of left and on the left hand, of on the left`
+  (14:22, 14:29). `validate.py` reads the doubled *of* there as the gloss's (`GLOSS_LEADS`).
+- New chains: στρατοπεδεύω `let them encamp`, `you will encamp`; πλανάω `are made to wander`; συγκλείω `has
+  shut`; φεύγω `has fled`, `let us flee`, `fled` (plural); μεταστρέφω `was turned about`; ποιέω `we made`;
+  δουλεύω `of the being a slave`, `we may be slaves`, `to be a slave`; ζεύγνυμι `yoked`; ἅρμα `in the
+  chariots`, `of the chariots`; ἵππος `to horses`; ἐκπορεύομαι `were going out`; ἱππεύς `the horsemen`;
+  προσάγω `was bringing to`; ὑπάρχω `the beginning`; μνῆμα `memorials`; ἐξάγω `you led out`, `having led
+  out`; θανατόω `to put to death`; λαλέω `we talked`; παρίημι `let drop beside`; κρείσσων `stronger`; ὁράω
+  `you have seen`; προστίθημι `you will put to`; χρόνος `time`; πολεμέω `will be at war`, `is at war`; σιγάω
+  `you will be silent`; βοάω `you cry aloud`; ἀναζεύγνυμι `let them yoke again`; ἐπαίρω `lift up and set
+  on`; ῥήγνυμι `break`; εἰσέρχομαι `let go in`; ξηρός `of dry`, `dry`; προπορεύομαι `the one going before`;
+  παρεμβολή `of the insertion`; συμμίγνυμι `mixed together`; ὑπάγω `led`; ἄνεμος `in wind`; νότος `to
+  south`; βίαιος `to forcible`; σχίζω `was split`; τεῖχος `a wall`; εὐώνυμος `of of good name`; ἀναβάτης
+  `the ones mounted`; ἑωθινός `to the in the morning`; συνταράσσω `threw all together into confusion`;
+  συνδέω `bound`; ἀποκαθίστημι `let be re-established`; ἐπικαλύπτω `let cover over`; ἐκτινάσσω `shook out`;
+  ἐπαναστρέφω `having turned back upon one`; εἰσπορεύομαι `the ones having gone into`; πιστεύω `trusted`
+  (plural).
+- One translation each, plain text: ἔπαυλις (*a fold*), ἐνώπιον (*face to face*), σκληρύνω, καταδιώκω (*to
+  pursue closely*), συναπάγω's active (*to lead away with*), ἑξακόσιοι, ἄξων (*an axle*).

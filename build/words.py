@@ -359,6 +359,12 @@ LSJ = {
     # EXO 13. Not in Middle Liddell, which has only πρωτόγονος. LSJ (eng17): πρωτογενής, "first-born,
     # primeval", "of persons, LXX Ex. 13.2"; "Fortuna Primigenia" is a cult title.
     "πρωτογενής": ["first-born, primeval"],
+    # EXO 14. Neither is in Middle Liddell. LSJ (eng5): ἐνδοξάζομαι, "Pass., to be glorified", citing
+    # Ex 14:4, one translation; the morphology files it under the active, ἐνδοξάζω, as the NT does. LSJ
+    # (eng22): τριστάτης, "one who stands next to the king and queen, vizier", one translation, citing
+    # 4 Ki 7:2.
+    "ἐνδοξάζω": ["be glorified"],
+    "τριστάτης": ["one who stands next to the king and queen, vizier"],
     # EXO 12. None of these is in Middle Liddell. LSJ (eng3): γειώρας, "sojourner", "proselyte". LSJ
     # (eng4): δέσμη, "package, bundle", "a measure in Egypt", "in Medicine, handful"; Rahlfs prints the
     # accusative δεσμήν, the module δέσμην. LSJ (eng5): ἐνδόσθια, "= ἐντόσθια", a pointer to ἐντόσθιος,
@@ -904,7 +910,7 @@ NOT_SENSES = {
     "peira/zw": {"let trial be made", "the tempter"},  # the passive's example, the participle
     "a)gaphto/s": {"one must be content"},     # a piece of an example
     "paralamba/nw": {"by inheritance", "undertakings"},  # pieces of examples
-    "sxi/zw": {"divided", "into", "branches"},  # pieces of examples
+    "sxi/zw": {"divided", "into", "branches", "were divided"},  # pieces and translations of examples
     "au)tou=": {"exactly"},                     # a piece of an example
     "paida/rion": {"a child"},                  # a piece of an example
     "ke/ras": {"horns", "horn doors", "true", "in flank", "towards the wing", "in column"},  # pieces of examples
@@ -1366,6 +1372,27 @@ NOT_SENSES = {
                "elections."},                   # examples' translations, a proverb, the note on ballot and lot
     "e)pista/ths": {"the right-", "left-hand man", "the front-rank man)", "a", "master", "which stood over"},  # παραστάτης's and προστάτης's glosses; "a training-master" cut in two, whole in MARKUP_LOST; a piece
     "be/ltistos": {"my good friend"},             # ὦ βέλτιστε, the vocative's mode of address
+    # EXO 14
+    "metastre/fw": {"are changed", "contrariwise"},  # examples' translations: my fortunes are changed; the participle as an adverb
+    "mnh=ma": {"a memorial"},                   # a repeat, of one dedicated to a god
+    "pari/hmi": {"at the side, let fall", "hung down", "to slack away", "letting go one's hold of", "left it",
+                 "have admitted", "their", "obtain", "consent", "I ask", "quarter", "we ask pardon"},  # "to let drop … at the side" cut, whole in MARKUP_LOST; examples' pieces and translations
+    "krei/sswn": {"betters", "advantages", "a better right", "too great", "too bad for", "worse", "superior to"},  # nouns of the plural, examples' translations
+    "poleme/w": {"with", "hostilities passed"},  # a piece; a passive example's
+    "siga/w": {"still, to keep silence", "hush! be still!", "hushed", "secret", "was kept"},  # cut from "to be", whole in MARKUP_LOST; the imperative's; examples'
+    "summi/gnumi": {"with", "having combined", "has not", "as an ingredient in his nature", "happened together",
+                    "to make", "acquainted with"},  # pieces and examples' translations; "to make … acquainted with" whole in MARKUP_LOST
+    "u(pa/gw": {"bring", "under", "to bring", "before the judgment-seat", "beneath", "so as to lead", "on",
+                "on with you !"},  # examples' pieces; "to bring … before the judgment-seat" whole in MARKUP_LOST; what ὑπό refers to
+    "bi/aios": {"violent", "of violence", "by force, perforce"},  # examples' translations; the adverb βιαίως
+    "tei=xos": {"coats", "moenia sibi circumdare", "to breach", "paries, city-walls", "house-wall;"},  # examples' translations, the Latin, τεῖχος set against τοῖχος
+    "e(wqino/s": {"early in the morning"},      # τὸ ἑωθινόν, the neuter as an adverb
+    "suntara/ssw": {"confounded with"},         # a passive example's
+    "sunde/w": {"drawn up", "gird up thy"},     # a passive and a middle example's
+    "a)/cwn": {"the wooden tablets of", "laws, made to turn upon an axis"},  # οἱ ἄξονες, Solon's laws
+    "e)panastre/fw": {"to turn back upon"},    # "to turn back upon one", cut, whole in MARKUP_LOST
+    "r(h/gnumi": {"to break, break asunder", "in pieces, rend, shiver, shatter", "force one's", "breaking into speech",
+                  "rumpere vocem", "having let loose"},  # "to break … or in pieces", cut, whole in MARKUP_LOST; a piece, examples', Virgil
     # EXO 13
     "mnhmoneu/w": {"to call to", "mind, mention"},  # "to call to another's mind, mention", cut in two
     "metame/lei": {"I repent of", "since it repented", "they repented that",
@@ -1487,6 +1514,37 @@ _APOLLUMI_ACT = {"to destroy utterly, kill, slay", "to destroy, demolish, waste"
 _APOLLUMI_MID = {"to perish utterly, die", "to be undone", "you are done for, lost, ruined",
                  "to be lost, slip away, vanish"}
 FORM_SENSES = {
+    # EXO 14. ἐναντίος: "in adv. usages: neut. ἐναντίον, opposite, face to face … as prep. c. gen. in the
+    # presence of, before … against … contrariwise … on the other hand", and the adverb ἐναντίως, are
+    # the neuter's, which the preposition ἐναντίον reads from this card; οἱ ἐν., "one's adversaries",
+    # is the masculine plural's, and "the very reverse" and "exactly opposed" examples'. The declined
+    # adjective of 14:2 and 14:9, ἐξ ἐναντίας, leaves them out; "over against, opposite", which the
+    # entry gives ἐξ ἐναντίας, is its second sense already.
+    "e)nanti/os": [("-", "-", {"one's adversaries", "the very reverse", "opposite, face to face",
+                               "in the presence of, before", "against", "contrariwise", "on the other hand",
+                               "exactly opposed"}, None, "^....[NGDAV]")],
+    # The active of EXO 14 takes none of the passive's or the middle's senses.
+    "metastre/fw": [("PIFAXY", "P", NOT_SENSES["metastre/fw"] | {"to turn another way, change one's ways",
+                                                                  "to care for, regard"})],
+    "sunapa/gw": [("PIFAXY", "A", {"to be led away likewise", "to accommodate oneself to"})],
+    "pari/hmi": [("PIFAXY", "A", NOT_SENSES["pari/hmi"] | {"to be relaxed, weakened, exhausted", "to obtain leave from",
+                                                            "to beg to be let off", "to beg a favour"})],
+    "poleme/w": [("PIFAXY", "A", NOT_SENSES["poleme/w"] | {"to have war made upon", "to be treated as enemies"})],
+    "siga/w": [("PIFAXY", "A", NOT_SENSES["siga/w"] | {"to be kept silent", "to be kept secret"})],
+    "summi/gnumi": [("PIFAXY", "A", NOT_SENSES["summi/gnumi"] | {"to be mingled with", "to join forces",
+                                                                  "to have intercourse with"})],
+    "u(pa/gw": [("PIFAXY", "A", NOT_SENSES["u(pa/gw"] | {"to bring under one's own power, reduce", "to suggest"})],
+    "suntara/ssw": [("PIFAXY", "A", NOT_SENSES["suntara/ssw"] | {"to be thrown into confusion",
+                                                                  "to be confounded, greatly troubled, much distressed"})],
+    # τεῖχος: "pl. of a single fort, fortifications" is the plural's; the singular of 14:22 and 14:29
+    # leaves it out.
+    "tei=xos": [("-", "-", NOT_SENSES["tei=xos"] | {"a single fort, fortifications"}, None, "^.....S")],
+    # ῥήγνυμι: the active of 14:16 leaves out "Mid. to break for oneself … to break oneself a way through"
+    # and "Pass. … to break, burst … to break asunder, be rent … to burst forth … to be wrecked"; "intr.,
+    # like Pass., to break forth … to break its bounds" is the active's.
+    "r(h/gnumi": [("PIFAXY", "A", NOT_SENSES["r(h/gnumi"] | {"to break for oneself, get broken", "to break oneself a way through",
+                                                              "to break, burst", "to break asunder, be rent", "to burst forth",
+                                                              "to be wrecked"})],
     # μεταμέλει: "impers. it repents me, rues me … Mid. μεταμέλομαι, to feel repentance, to rue, regret
     # … to change one's purpose or line of conduct". EXO 13:17's μεταμελήσῃ is the impersonal active.
     "metame/lei": [("PIFAXY", "A", {"I repent of", "since it repented", "they repented that",
@@ -1840,6 +1898,7 @@ FORM_SENSES = {
 # (κατέναντι reads "= κατεναντίον" and glosses nothing itself). Each is recorded in
 # reference/lexicon-notes.md with the entry it resolves to.
 SPELLING = {
+    "stratia/": "strati/a",            # στρατιά, Middle Liddell's στρατία, "= στρατός, an army" (EXO 14:4)
     "perizw/nnumi": "perizw/nnumai",   # the middle, "with perf. pass. -έζωσμαι", the voice the text uses (EXO 12:11)
     "o)leqreu/w": "o)loqreu/w",        # ὀλεθρεύω, Middle Liddell's ὀλοθρεύω (EXO 12:23)
     "gno/fos": "dno/fos",              # γνόφος, Middle Liddell's "= δνόφος" (EXO 10:22)
@@ -2127,6 +2186,16 @@ MARKUP_LOST = {
     # it «taken from one»". The pieces are in NOT_SENSES.
     # EXO 8. κνίψ: "a small «insect which gnaws» figs".
     "kni/y": [(0, "a small insect which gnaws figs")],
+    # EXO 14. παρίημι: "to let drop beside or «at the side, let fall»"; σιγάω: "to be silent or «still, to keep
+    # silence»", and "Pass. to be kept silent or «secret»"; συμμίγνυμι: "«to make» him «acquainted with»
+    # fortune"; ὑπάγω: "«to bring» a person «before the judgment-seat»"; ἐπαναστρέφω: "«to turn back upon»
+    # one". The verb, or its object, stands outside the <tr>.
+    "pari/hmi": [(1, "to let drop at the side, let fall")],
+    "siga/w": [(1, "to be still, to keep silence"), (7, "to be kept secret")],
+    "summi/gnumi": [(11, "to make acquainted with")],
+    "u(pa/gw": [(6, "to bring before the judgment-seat")],
+    "e)panastre/fw": [(0, "to turn back upon one")],
+    "r(h/gnumi": [(0, "to break, break asunder or in pieces, rend, shiver, shatter")],  # «to break, break asunder» or «in pieces, rend, shiver, shatter»
     # EXO 12. αὐτόχθων: "αὐτόχθονες, οἱ, like Lat. Indigenae, aborigines, natives"; προσήλυτος: "a
     # sojourner, Lat. advena: one who has come over to Judaism, a convert, proselyte". The English
     # inside the Latin element, the Latin the capitalised Indigenae and advena.

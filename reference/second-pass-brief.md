@@ -588,6 +588,11 @@ Three disagreements over 502 words. The second pass was right that μεταμε�
 Middle Liddell's impersonal headword. ὄνου stays feminine, the she-ass whose womb opens, and
 πρωτοτόκων at 13:15 neuter, as πρωτοτόκων κτηνῶν beside it and as at 11:5 and 12:29.
 
+### What it found in Exodus 14
+
+Two disagreements over 786 words, and the second pass was right on both: Μαγδώλου is feminine, a town
+in -ος as Αἴγυπτος is, and 14:19's ἐξῆρεν δὲ καί is the adverb, *also*, as GEN 19:35 ἐπότισαν δὲ καί.
+
 ## The brief
 
 Copy everything below the rule into a new agent. Replace `<BOOK NAME>`, `<CHAPTER>`,

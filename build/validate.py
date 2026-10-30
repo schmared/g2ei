@@ -1151,6 +1151,9 @@ DOUBLED = re.compile(r"(?<![\w\-|\[])(of|to) (?:\[\[(?!name:))?\1 (?=the |\w)")
 # uses: ἔναντι is *in the presence of*, and the genitive after it opens with its own *of*,
 # as ἐναντίον's unit, *in the presence of*, stands before *of lord*. That *of* is the gloss's.
 PLAIN_LEADS = ("in the presence ",)
+# A gloss that opens with the word a case marker uses: εὐώνυμος is *of good name* and *of good
+# omen*, and its genitive marks the case before the gloss's own *of* — `of of good name` (EXO 14:22).
+GLOSS_LEADS = ("of of good name", "of of good omen")
 # What stands in a reading, in order: a unit (its anchor), a name, or plain text.
 PIECES = re.compile(r"\[\[name:[^\]]+\]\]|\[\[(?!name:)([^|\]]+)\|[^|\]]+\|[^|\]]+\]\]|[^\[]+")
 THE_LEADS = re.compile(r"^(?:of |to )?the ")
@@ -1456,7 +1459,7 @@ def check_articles(book, chapter, verses, rep):
         if re.search(r"(?<![\w\-])the the(?![\w\-])", plain):
             rep.fail("articles", ref, "`the the` in the plain text: one article, written twice")
         for m in DOUBLED.finditer(text):
-            if text[:m.start()].endswith(PLAIN_LEADS):
+            if text[:m.start()].endswith(PLAIN_LEADS) or text.startswith(GLOSS_LEADS, m.start()):
                 continue
             rep.fail("articles", ref,
                      "`%s %s`: the case is marked twice, once outside the unit or the article's "
