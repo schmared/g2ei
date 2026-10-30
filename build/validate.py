@@ -497,6 +497,7 @@ IRREGULAR = {
     "meant": "mean", "met": "meet", "lost": "lose", "shook": "shake", "shaken": "shake",
     "shone": "shine", "shot": "shoot", "sang": "sing", "sank": "sink",
     "sprang": "spring", "struck": "strike", "swore": "swear", "sworn": "swear",
+    "smote": "smite", "smitten": "smite", "stank": "stink", "smelt": "smell",
     "swept": "sweep", "tore": "tear", "torn": "tear", "woke": "wake",
     "children": "child", "men": "man", "women": "woman", "feet": "foot",
     "teeth": "tooth", "oxen": "ox", "geese": "goose", "mice": "mouse", "lives": "life",

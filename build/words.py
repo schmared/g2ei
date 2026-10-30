@@ -356,6 +356,17 @@ LSJ = {
     # in square". LSJ (eng7): ζωογονέω, "propagate" or "engender living creatures", "breed",
     # "engender", "to be viviparous", "produce alive", "make alive, quicken", and "= ζωγρέω, preserve
     # alive", citing Ex 1:17; "producing" is a piece of the example of Zeus and Pallas.
+    # EXO 8. None of these is in Middle Liddell. LSJ (eng9): θημωνιά, which Rahlfs spells θιμωνιά,
+    # "= foreg.", a pointer to θημών, "heap", citing Ex 8:10. LSJ (eng1): ἀνάψυξις, "cooling",
+    # "exposure", "drying up", "relief, respite", citing Ex 8:11. LSJ (eng5): ἐπαποστέλλω, "send after",
+    # "send to attack" ("send" is an example's piece). LSJ (eng17): παραδοξάζω, "make wonderful or
+    # extraordinary", "will lay unheard-of inflictions upon" (De 28:59, the future's), "put a mark of
+    # distinction between, separate" (Ex 9:4).
+    "θιμωνιά": ["heap"],
+    "ἀνάψυξις": ["cooling", "exposure", "drying up", "relief, respite"],
+    "ἐπαποστέλλω": ["send after", "send to attack"],
+    "παραδοξάζω": ["make wonderful or extraordinary", "lay unheard-of inflictions upon",
+                   "put a mark of distinction between, separate"],
     # EXO 7. LSJ (eng5): ἐπόζω, "become stinking", citing Ex 7:18, one translation; not in Middle
     # Liddell.
     "ἐπόζω": ["become stinking"],
@@ -1318,6 +1329,13 @@ NOT_SENSES = {
                "elections."},                   # examples' translations, a proverb, the note on ballot and lot
     "e)pista/ths": {"the right-", "left-hand man", "the front-rank man)", "a", "master", "which stood over"},  # παραστάτης's and προστάτης's glosses; "a training-master" cut in two, whole in MARKUP_LOST; a piece
     "be/ltistos": {"my good friend"},             # ὦ βέλτιστε, the vocative's mode of address
+    # EXO 8
+    "kni/y": {"insect which gnaws"},              # cut from "a small … figs", whole in MARKUP_LOST
+    "kalu/ptw": {"to be buried", "I will put", "over"},  # κ. χθονὶ γυῖα, a phrase's; pieces of an example
+    "a)fani/zw": {"hypocritical", "to make away with"},  # a piece; "make away with" again, of property
+    "o)/zw": {"smelling", "smelling of", "there is a", "smell from", "there will be an odour of", "from"},  # examples' pieces
+    "e)capata/w": {"in"},                       # a piece of e)c. tina/ ti "in" a thing
+    "da/ktulos": {"the fingers", "the thumb", "the toes"},  # phrases' translations: μέγας δ., δάκτυλοι ποδῶν
     # EXO 7
     "suni/sthmi": {"is joined", "were at issue"},  # examples' translations of finite forms
     "metaba/llw": {"to throw one's", "over", "to drink different", "to change", "give up",
@@ -1584,6 +1602,18 @@ FORM_SENSES = {
     # leaves out the active "to pick out"; λυτρόω's middle, the future λυτρώσομαι, the passive.
     # ἄλογος's "brutes, animals" is τὰ ἄλογα, the neuter plural as a noun, and no other form's.
     "dhlo/w": [("PIFAXY", "A", {"to be", "become manifest"})],
+    # EXO 8. καλύπτω's and ἀφανίζω's active leave out the middle and passive senses.
+    "kalu/ptw": [("PIFAXY", "A", NOT_SENSES["kalu/ptw"] | {"veil oneself", "concealed in"})],
+    # περιαιρέω's active leaves out the middle's and the passive's senses, the passive the active's
+    # and the middle's; βαρύνω's active leaves out the passive's.
+    "periaire/w": [("PIFAXY", "A", NOT_SENSES.get("periaire/w", set()) | {
+                       "to take off from oneself", "to strip off, take away", "to be taken off", "to be stript of"}),
+                   ("PIFAXY", "P", NOT_SENSES.get("periaire/w", set()) | {
+                       "to take off something that surrounds, take off an outer coat, take away, strip off",
+                       "to take off from oneself", "to strip off, take away"})],
+    "baru/nw": [("PIFAXY", "A", {"he is heavy", "weary", "disabled", "to be oppressed, distressed"})],
+    "a)fani/zw": [("PIFAXY", "A", NOT_SENSES["a)fani/zw"] | {"to be concealed", "suppressed",
+                                                         "to become unseen, to disappear"})],
     # EXO 7. μεταβάλλω's active, but the participle, leaves out the middle's senses and the
     # participle's adverbial "instead, in turn".
     # συνίστημι's perfect active is intransitive: the transitive senses, and the participle-noun "the
@@ -1683,6 +1713,8 @@ FORM_SENSES = {
 # (κατέναντι reads "= κατεναντίον" and glosses nothing itself). Each is recorded in
 # reference/lexicon-notes.md with the entry it resolves to.
 SPELLING = {
+    "kuno/muia": "kuna/muia",          # κυνόμυια, Middle Liddell's "= κυνάμυια" (EXO 8:17)
+    "skni/y": "kni/y",                  # σκνίψ, Middle Liddell's κνίψ, "like σκνίψ" (EXO 8:12)
     "e)paoido/s": "e)pw|do/s",          # ἐπαοιδός, the uncontracted ἐπῳδός, LSJ's "= ἐπῳδός" (EXO 7:11)
     # Close forms of the same word, under which Middle Liddell files it. A close form
     # counts only where it covers the form the text uses — not a compound under its
@@ -1961,6 +1993,8 @@ MARKUP_LOST = {
     # EXO 5. Translations a word outside the <tr> cuts: "«to leave» one «in the lurch»", "to have
     # rest or «respite from» a thing", "to have leisure or «opportunity for» a thing", "«to have»
     # it «taken from one»". The pieces are in NOT_SENSES.
+    # EXO 8. κνίψ: "a small «insect which gnaws» figs".
+    "kni/y": [(0, "a small insect which gnaws figs")],
     "a)polei/pw": [(8, "to leave one in the lurch")],
     "sxola/zw": [(5, "to have rest or respite from"), (8, "to have leisure or opportunity for")],
     "a)faire/w": [(9, "to have it taken from one")],

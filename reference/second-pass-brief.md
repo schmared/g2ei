@@ -547,6 +547,12 @@ preposition, `P-`, as MorphGNT codes it in Revelation — GEN 35:5 and 41:48 wer
 and the rule above now names both uses. The first pass stands on τριῶν, gender `C` as the brief has
 τρεῖς, though its noun here is neuter.
 
+### What it found in Exodus 8
+
+One disagreement over 730 words, and the first pass stands: ἐπαοιδοί, which the second pass tagged
+`N-`, is an adjective used as a noun and stays `A-`, as the brief's rule has it and as Exodus 7
+settled. Both passes read ἐμοῦ and σοῦ between the article and its noun as the possessives.
+
 ## The brief
 
 Copy everything below the rule into a new agent. Replace `<BOOK NAME>`, `<CHAPTER>`,

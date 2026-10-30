@@ -7253,3 +7253,46 @@ text uses. Chains already in the corpus (Genesis) were read from it and re-infle
   ἐξερεύγομαι (*to empty themselves*, of rivers), κοιτών, ὀγδοήκοντα, ἑπτά.
 - καί as the adverb, `also`, at 7:11 and 7:22, ἐποίησαν καὶ οἱ ἐπαοιδοί; οὐδέ as the adverb, *not
   even*, at 7:23, `D-`, as MorphGNT codes it where it does not mean *nor*.
+
+### Words new in EXO 8
+
+- **From LSJ** (not in Middle Liddell): θιμωνιά, LSJ's θημωνιά, *= foreg.*, pointing to θημών,
+  *heap*, plain text, `heaps heaps` (8:10); ἀνάψυξις, `cooling, exposure, drying up, relief and
+  respite` (8:11); ἐπαποστέλλω, `I send after, I send to attack` (8:17); παραδοξάζω, `I will make
+  wonderful and extraordinary, I will lay unheard-of inflictions upon, I will put a mark of
+  distinction between and separate` (8:18).
+- **Close forms** (`SPELLING`): σκνίψ is Middle Liddell's κνίψ, *like σκνίψ*, whose one translation
+  a word outside the `<tr>` cuts — *a small «insect which gnaws» figs*, whole in `MARKUP_LOST` —
+  and reads as plain text, `the small insects which gnaw figs`; κυνόμυια is Middle Liddell's pointer
+  to κυνάμυια, `dog-fly, shameless fly`.
+- **Voice** (`FORM_SENSES`): καλύπτω's and ἀφανίζω's active leave out the middle and the passive;
+  περιαιρέω's active leaves out the middle and the passive, and the passive the active and the
+  middle (`will be taken off, will be stript of`); βαρύνω's active leaves out the passive's
+  *heavy, weary, disabled* (ἐβάρυνεν, 8:28).
+- **Pieces set aside** (`NOT_SENSES`): καλύπτω (a phrase's *to be buried*, an example's pieces),
+  ἀφανίζω (*hypocritical*, *make away with* repeated), ὄζω (examples' pieces), ἐξαπατάω (*in*),
+  δάκτυλος (*the fingers*, *the thumb*, *the toes*, phrases').
+- **The possessive**: ἐμοῦ and σοῦ between the article and its noun (τοῦ ἐμοῦ λαοῦ) are ἐμός and
+  σός, not the pronouns: `of the mine`, `of the thy and thine`.
+- **παραγίνομαι's aorist** reads `was near`, as GEN 35:9 has it; the present's `comes to be beside`
+  is the present's.
+- **The stemmer** now reads *smote*, *smitten*, *stank* and *smelt* as forms of *smite*, *stink* and
+  *smell*: πατάσσω's imperative `beat, … strike and smite` and its aorist `beat, … struck and smote`
+  had read as two ranges.
+- New chains: ἀνάγω `lead up`, `led up`; ἀναβιβάζω `was made to go up`; καλύπτω `covered with`;
+  εὔχομαι `pray`, `I may pray`, `I will pray`; περιαιρέω `let him take off something that
+  surrounds`, `took off something that surrounds`; ἐξαποστέλλω `I will send quite away`; τάσσω
+  `arrange` (the middle imperative); οἰκία `of the buildings`, `the buildings`; ἀφανίζω `to make
+  unseen`; ὑπολείπω `will be left behind`; οἶδα `you may know`; βοάω `cried aloud`; ὁρισμός `of
+  the marking out by boundaries`; ἀγρός `of the fields`; ὄζω `smelt`; βαρύνω `was weighed down`,
+  `weighed down`; πατάσσω `beat` (the imperative); χῶμα `the earth thrown up`, `to earth thrown up`;
+  τετράπους with ἐν; δάκτυλος `a finger`; ὀρθρίζω `rise early`; ἵστημι `be set` (the intransitive
+  imperative); βούλομαι `you may will`; πίμπλημι `will be filled full of`; ἔπειμι `is upon`;
+  διαστολή `a notch`; θύω `offer`, `we will offer`, `to offer`, `may offer`; βδέλυγμα `the
+  abominations`; λιθοβολέω `we will be pelted with stones`; ἀποστέλλω `I send off`; ἀποτείνω `you
+  will stretch out`; ὅδε `this`; ἐξέρχομαι `I will go out of`; προστίθημι `you may put to`;
+  ἐξαπατάω `to deceive`; καιρός `of the due measure`.
+- One translation each, plain text: βάτραχος, ἔπαυλις (*a fold*), ἐξολεθρεύω (*to destroy
+  utterly*), θιμωνιά, σκνίψ.
+- καί as the adverb at 8:3, 8:14 (ἐποίησαν καὶ οἱ ἐπαοιδοί) and 8:28 (καὶ ἐπὶ τοῦ καιροῦ τούτου);
+  πλήν with no genitive is the conjunction, `C-`, at 8:5 and 8:7.
