@@ -613,6 +613,9 @@ LSJ = {
     "διωστήρ": ["instrument for pushing out embedded weapons", "pole running through rings for carrying the ark"],
     "ἐνθέμιον": ["cabin on the poop of a ship", "socket of a lampstand"],
     "καρυωτός": ["adorned with a nut-shaped boss"],
+    # EXO 39. Not in Middle Liddell. LSJ (eng25) gives χώνευσις no gloss of its own, "= χωνεία", and LSJ's χωνεία
+    # is "«melting and casting of metal»", so it reads that.
+    "χώνευσις": ["melting and casting of metal"],
     "διασκευή": ["construction", "equipment", "furniture or vessels", "rhetorical elaboration", "set phrases",
                  "new edition or recension", "theatrical performance"],
     # EXO 12. None of these is in Middle Liddell. LSJ (eng3): γειώρας, "sojourner", "proselyte". LSJ
@@ -1748,6 +1751,10 @@ NOT_SENSES = {
     "e)panastre/fw": {"to turn back upon"},    # "to turn back upon one", cut, whole in MARKUP_LOST
     "r(h/gnumi": {"to break, break asunder", "in pieces, rend, shiver, shatter", "force one's", "breaking into speech",
                   "rumpere vocem", "having let loose"},  # "to break … or in pieces", cut, whole in MARKUP_LOST; a piece, examples', Virgil
+    # EXO 39
+    "difqe/ra": {"(an undressed hide)"},       # the entry's contrast with δέρρις
+    "katakosme/w": {"was fitting"},            # an example's, "«was fitting» it on the string"
+    "pro/qesis": {"laid before, the shewbread"},  # an example's, οἱ ἄρτοι τῆς προθέσεως
     # EXO 38
     "stereo/s": {"solid gold", "a cubic"},     # examples', "all of «solid gold»", "«a cubic» number"
     # EXO 37

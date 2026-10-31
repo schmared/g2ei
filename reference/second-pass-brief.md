@@ -735,6 +735,11 @@ Five disagreements over 505 words, and the second pass was right on three: σκ�
 with χερουβ ἕνα, and αὐτῶν after it masculine; τεσσάρων with the neuter μερῶν neuter, the C gender being only for
 forms that cannot tell masculine from feminine. τρύβλιον and θυΐσκη keep the corpus's dictionary forms.
 
+### What it found in Exodus 39
+
+Three disagreements over 443 words, and the second pass was right on one: αὐτοῦ at 39:15 neuter, the altar's. φάος
+keeps the corpus's dictionary form, and Ααρων at 39:18 the dative that τῷ ἱερεῖ shows in the same phrase at 36:8.
+
 ## The brief
 
 Copy everything below the rule into a new agent. Replace `<BOOK NAME>`, `<CHAPTER>`,

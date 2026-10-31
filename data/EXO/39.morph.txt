@@ -1,0 +1,471 @@
+# Exodus 39 — morphology, one word per line.
+#
+# This is the project's own grammatical analysis of each form, written alongside the
+# transcription and not copied from any digital edition.
+#
+# Columns: verse, part of speech, parse, form, lemma — in MorphGNT's code scheme, so
+# the Old and New Testament layers read alike. The parse is eight places: person,
+# tense, voice, mood, case, number, gender, degree ("-" where it does not apply).
+#
+# Two codes go beyond MorphGNT, both to record only what the form itself says:
+#   voice  E  middle/passive — a tense in which the two share one form
+#   gender C  masculine/feminine — an adjective whose form does not distinguish them
+#
+# A trailing annotation records a deliberate difference and the reason for it:
+#   "# module …"  from the reference module, checked when LXX_RAHLFS_DIR is set
+#   "# corpus …"  from this project's own analysis of the same form elsewhere
+# A line may carry both. validate.py prints them as notes instead of failures — and
+# fails if the difference a note claims is not there, so they cannot go stale. The
+# analysis here is this project's own: the module is a reference, not an authority,
+# and the corpus is held to itself.
+#
+# Indeclinables take case and number from the syntax, as MorphGNT does, and gender
+# where there is one to take: a personal name, from the person; a numeral agreeing
+# with its noun; a common noun whose article shows it — but not an indeclinable place
+# name, which has none. A personal name the New Testament also uses takes MorphGNT's
+# dictionary form (Νῶε, Σήμ); every other Semitic name (Χαμ, Ιαφεθ), the form Rahlfs
+# prints.
+
+39:1 A- ----NSN- Πᾶν πᾶς
+39:1 RA ----NSN- τὸ ὁ
+39:1 N- ----NSN- χρυσίον χρυσίον
+39:1 RR ----NSN- ὃ ὅς
+39:1 V- 3API-S-- κατειργάσθη κατεργάζομαι
+39:1 P- -------- εἰς εἰς
+39:1 RA ----APN- τὰ ὁ
+39:1 N- ----APN- ἔργα ἔργον
+39:1 P- -------- κατὰ κατά
+39:1 A- ----ASF- πᾶσαν πᾶς
+39:1 RA ----ASF- τὴν ὁ
+39:1 N- ----ASF- ἐργασίαν ἐργασία
+39:1 RA ----GPN- τῶν ὁ
+39:1 A- ----GPN- ἁγίων ἅγιος
+39:1 V- 3AMI-S-- ἐγένετο γίνομαι
+39:1 N- ----GSN- χρυσίου χρυσίον
+39:1 RA ----GSN- τοῦ ὁ
+39:1 RA ----GSF- τῆς ὁ
+39:1 N- ----GSF- ἀπαρχῆς ἀπαρχή
+39:1 A- ----NPN- ἐννέα ἐννέα  # module M, no features — MorphGNT gives ἐννέα case, number and gender like any adjective
+39:1 C- -------- καὶ καί
+39:1 A- ----NPN- εἴκοσι εἴκοσι  # module M, no features — MorphGNT gives εἴκοσι case, number and gender like any adjective
+39:1 N- ----NPN- τάλαντα τάλαντον  # module N.APN — nominative, the predicate of ἐγένετο
+39:1 C- -------- καὶ καί
+39:1 A- ----NPM- ἑπτακόσιοι ἑπτακόσιοι
+39:1 A- ----NPM- εἴκοσι εἴκοσι  # module M, no features — MorphGNT gives εἴκοσι case, number and gender like any adjective
+39:1 N- ----NPM- σίκλοι σίκλος
+39:1 P- -------- κατὰ κατά
+39:1 RA ----ASM- τὸν ὁ
+39:1 N- ----ASM- σίκλον σίκλος
+39:1 RA ----ASM- τὸν ὁ  # module ASN — masculine, τόν, with σίκλον
+39:1 A- ----ASM- ἅγιον ἅγιος  # module ASN — masculine, τόν, with σίκλον
+39:2 C- -------- καὶ καί
+39:2 N- ----GSN- ἀργυρίου ἀργύριον
+39:2 N- ----NSN- ἀφαίρεμα ἀφαίρεμα
+39:2 P- -------- παρὰ παρά
+39:2 RA ----GPM- τῶν ὁ
+39:2 V- -XEPGPM- ἐπεσκεμμένων ἐπισκέπτομαι
+39:2 N- ----GPM- ἀνδρῶν ἀνήρ
+39:2 RA ----GSF- τῆς ὁ
+39:2 N- ----GSF- συναγωγῆς συναγωγή
+39:2 A- ----NPN- ἑκατὸν ἑκατόν  # module M, no features — MorphGNT gives ἑκατόν case, number and gender like any adjective
+39:2 N- ----NPN- τάλαντα τάλαντον
+39:2 C- -------- καὶ καί
+39:2 A- ----NPM- χίλιοι χίλιοι
+39:2 A- ----NPM- ἑπτακόσιοι ἑπτακόσιοι
+39:2 A- ----NPM- ἑβδομήκοντα ἑβδομήκοντα  # module M, no features — MorphGNT gives ἑβδομήκοντα case, number and gender like any adjective
+39:2 A- ----NPM- πέντε πέντε  # module M, no features — MorphGNT gives πέντε case, number and gender like any adjective
+39:2 N- ----NPM- σίκλοι σίκλος
+39:3 N- ----NSF- δραχμὴ δραχμή
+39:3 A- ----NSF- μία εἷς
+39:3 RA ----DSF- τῇ ὁ
+39:3 N- ----DSF- κεφαλῇ κεφαλή
+39:3 RA ----NSN- τὸ ὁ
+39:3 A- ----NSN- ἥμισυ ἥμισυς
+39:3 RA ----GSM- τοῦ ὁ
+39:3 N- ----GSM- σίκλου σίκλος
+39:3 P- -------- κατὰ κατά
+39:3 RA ----ASM- τὸν ὁ
+39:3 N- ----ASM- σίκλον σίκλος
+39:3 RA ----ASM- τὸν ὁ  # module ASN — masculine, τόν, with σίκλον
+39:3 A- ----ASM- ἅγιον ἅγιος  # module ASN — masculine, τόν, with σίκλον
+39:3 A- ----NSM- πᾶς πᾶς
+39:3 RA ----NSM- ὁ ὁ
+39:3 V- -PEPNSM- παραπορευόμενος παραπορεύομαι
+39:3 RA ----ASF- τὴν ὁ
+39:3 N- ----ASF- ἐπίσκεψιν ἐπίσκεψις
+39:3 P- -------- ἀπὸ ἀπό
+39:3 A- ----GSC- εἰκοσαετοῦς εἰκοσαετής
+39:3 C- -------- καὶ καί
+39:3 D- -------- ἐπάνω ἐπάνω
+39:3 P- -------- εἰς εἰς
+39:3 RA ----APF- τὰς ὁ
+39:3 A- ----APF- ἑξήκοντα ἑξήκοντα  # module M, no features — MorphGNT gives ἑξήκοντα case, number and gender like any adjective
+39:3 N- ----APF- μυριάδας μυριάς
+39:3 C- -------- καὶ καί
+39:3 A- ----NPM- τρισχίλιοι τρισχίλιοι
+39:3 A- ----NPM- πεντακόσιοι πεντακόσιοι
+39:3 C- -------- καὶ καί
+39:3 A- ----NPM- πεντήκοντα πεντήκοντα  # module M, no features — MorphGNT gives πεντήκοντα case, number and gender like any adjective
+39:4 C- -------- καὶ καί
+39:4 V- 3API-S-- ἐγενήθη γίνομαι
+39:4 RA ----NPN- τὰ ὁ
+39:4 A- ----NPN- ἑκατὸν ἑκατόν  # module M, no features — MorphGNT gives ἑκατόν case, number and gender like any adjective
+39:4 N- ----NPN- τάλαντα τάλαντον
+39:4 RA ----GSN- τοῦ ὁ
+39:4 N- ----GSN- ἀργυρίου ἀργύριον
+39:4 P- -------- εἰς εἰς
+39:4 RA ----ASF- τὴν ὁ
+39:4 N- ----ASF- χώνευσιν χώνευσις
+39:4 RA ----GPF- τῶν ὁ
+39:4 A- ----GPF- ἑκατὸν ἑκατόν  # module M, no features — MorphGNT gives ἑκατόν case, number and gender like any adjective
+39:4 N- ----GPF- κεφαλίδων κεφαλίς
+39:4 RA ----GSF- τῆς ὁ
+39:4 N- ----GSF- σκηνῆς σκηνή
+39:4 C- -------- καὶ καί
+39:4 P- -------- εἰς εἰς
+39:4 RA ----APF- τὰς ὁ
+39:4 N- ----APF- κεφαλίδας κεφαλίς
+39:4 RA ----GSN- τοῦ ὁ
+39:4 N- ----GSN- καταπετάσματος καταπέτασμα
+39:4 A- ----NPF- ἑκατὸν ἑκατόν  # module M, no features — MorphGNT gives ἑκατόν case, number and gender like any adjective
+39:4 N- ----NPF- κεφαλίδες κεφαλίς
+39:4 P- -------- εἰς εἰς
+39:4 RA ----APN- τὰ ὁ
+39:4 A- ----APN- ἑκατὸν ἑκατόν  # module M, no features — MorphGNT gives ἑκατόν case, number and gender like any adjective
+39:4 N- ----APN- τάλαντα τάλαντον
+39:4 N- ----NSN- τάλαντον τάλαντον  # module N.ASN — nominative, the subject of a verbless clause, a talent to each capital
+39:4 RA ----DSF- τῇ ὁ
+39:4 N- ----DSF- κεφαλίδι κεφαλίς
+39:5 C- -------- καὶ καί
+39:5 RA ----APM- τοὺς ὁ
+39:5 A- ----APM- χιλίους χίλιοι
+39:5 A- ----APM- ἑπτακοσίους ἑπτακόσιοι
+39:5 A- ----APM- ἑβδομήκοντα ἑβδομήκοντα  # module M, no features — MorphGNT gives ἑβδομήκοντα case, number and gender like any adjective
+39:5 A- ----APM- πέντε πέντε  # module M, no features — MorphGNT gives πέντε case, number and gender like any adjective
+39:5 N- ----APM- σίκλους σίκλος
+39:5 V- 3AAI-P-- ἐποίησαν ποιέω
+39:5 P- -------- εἰς εἰς
+39:5 RA ----APF- τὰς ὁ
+39:5 N- ----APF- ἀγκύλας ἀγκύλη
+39:5 RA ----DPM- τοῖς ὁ
+39:5 N- ----DPM- στύλοις στῦλος
+39:5 C- -------- καὶ καί
+39:5 V- 3AAI-S-- κατεχρύσωσεν καταχρυσόω
+39:5 RA ----APF- τὰς ὁ
+39:5 N- ----APF- κεφαλίδας κεφαλίς
+39:5 RP ----GPM- αὐτῶν αὐτός
+39:5 C- -------- καὶ καί
+39:5 V- 3AAI-S-- κατεκόσμησεν κατακοσμέω
+39:5 RP ----APM- αὐτούς αὐτός
+39:6 C- -------- καὶ καί
+39:6 RA ----NSM- ὁ ὁ
+39:6 N- ----NSM- χαλκὸς χαλκός
+39:6 RA ----GSN- τοῦ ὁ
+39:6 N- ----GSN- ἀφαιρέματος ἀφαίρεμα
+39:6 A- ----NPN- ἑβδομήκοντα ἑβδομήκοντα  # module M, no features — MorphGNT gives ἑβδομήκοντα case, number and gender like any adjective
+39:6 N- ----NPN- τάλαντα τάλαντον
+39:6 C- -------- καὶ καί
+39:6 A- ----NPM- χίλιοι χίλιοι
+39:6 A- ----NPM- πεντακόσιοι πεντακόσιοι
+39:6 N- ----NPM- σίκλοι σίκλος
+39:7 C- -------- καὶ καί
+39:7 V- 3AAI-S-- ἐποίησεν ποιέω
+39:7 P- -------- ἐξ ἐκ
+39:7 RP ----GSM- αὐτοῦ αὐτός
+39:7 RA ----APF- τὰς ὁ
+39:7 N- ----APF- βάσεις βάσις
+39:7 RA ----GSF- τῆς ὁ
+39:7 N- ----GSF- θύρας θύρα
+39:7 RA ----GSF- τῆς ὁ
+39:7 N- ----GSF- σκηνῆς σκηνή
+39:7 RA ----GSN- τοῦ ὁ
+39:7 N- ----GSN- μαρτυρίου μαρτύριον
+39:8 C- -------- καὶ καί
+39:8 RA ----APF- τὰς ὁ
+39:8 N- ----APF- βάσεις βάσις
+39:8 RA ----GSF- τῆς ὁ
+39:8 N- ----GSF- αὐλῆς αὐλή
+39:8 D- -------- κύκλῳ κύκλῳ  # module N.DSM — the adverb, round about, with no genitive after it
+39:8 C- -------- καὶ καί
+39:8 RA ----APF- τὰς ὁ
+39:8 N- ----APF- βάσεις βάσις
+39:8 RA ----GSF- τῆς ὁ
+39:8 N- ----GSF- πύλης πύλη
+39:8 RA ----GSF- τῆς ὁ
+39:8 N- ----GSF- αὐλῆς αὐλή
+39:8 C- -------- καὶ καί
+39:8 RA ----APM- τοὺς ὁ
+39:8 N- ----APM- πασσάλους πάσσαλος
+39:8 RA ----GSF- τῆς ὁ
+39:8 N- ----GSF- σκηνῆς σκηνή
+39:8 C- -------- καὶ καί
+39:8 RA ----APM- τοὺς ὁ
+39:8 N- ----APM- πασσάλους πάσσαλος
+39:8 RA ----GSF- τῆς ὁ
+39:8 N- ----GSF- αὐλῆς αὐλή
+39:8 D- -------- κύκλῳ κύκλῳ  # module N.DSM — the adverb, round about, with no genitive after it
+39:9 C- -------- καὶ καί
+39:9 RA ----ASN- τὸ ὁ
+39:9 N- ----ASN- παράθεμα παράθεμα
+39:9 RA ----ASN- τὸ ὁ
+39:9 A- ----ASN- χαλκοῦν χαλκοῦς  # module lemma χάλκεος — χαλκοῦς, the contracted form, filed under χάλκεος as χρυσοῦς is under χρύσεος
+39:9 RA ----GSN- τοῦ ὁ
+39:9 N- ----GSN- θυσιαστηρίου θυσιαστήριον
+39:9 C- -------- καὶ καί
+39:9 A- ----APN- πάντα πᾶς
+39:9 RA ----APN- τὰ ὁ
+39:9 N- ----APN- σκεύη σκεῦος
+39:9 RA ----GSN- τοῦ ὁ
+39:9 N- ----GSN- θυσιαστηρίου θυσιαστήριον
+39:9 C- -------- καὶ καί
+39:9 A- ----APN- πάντα πᾶς
+39:9 RA ----APN- τὰ ὁ
+39:9 N- ----APN- ἐργαλεῖα ἐργαλεῖον
+39:9 RA ----GSF- τῆς ὁ
+39:9 N- ----GSF- σκηνῆς σκηνή
+39:9 RA ----GSN- τοῦ ὁ
+39:9 N- ----GSN- μαρτυρίου μαρτύριον
+39:10 C- -------- καὶ καί
+39:10 V- 3AAI-P-- ἐποίησαν ποιέω
+39:10 RA ----NPM- οἱ ὁ
+39:10 N- ----NPM- υἱοὶ υἱός
+39:10 N- ----GSM- Ισραηλ Ἰσραήλ
+39:10 C- -------- καθὰ καθά
+39:10 V- 3AAI-S-- συνέταξεν συντάσσω
+39:10 N- ----NSM- κύριος κύριος
+39:10 RA ----DSM- τῷ ὁ
+39:10 N- ----DSM- Μωυσῇ Μωϋσῆς  # module lemma Μωσεύς — Μωϋσῆς, as MorphGNT files it
+39:10 D- -------- οὕτως οὕτως
+39:10 V- 3AAI-P-- ἐποίησαν ποιέω
+39:11 RA ----ASN- Τὸ ὁ
+39:11 C- -------- δὲ δέ
+39:11 A- ----ASN- λοιπὸν λοιπός  # module lemma λοιπόν — λοιπός, the adjective, its neuter with the article
+39:11 N- ----ASN- χρυσίον χρυσίον
+39:11 RA ----GSN- τοῦ ὁ
+39:11 N- ----GSN- ἀφαιρέματος ἀφαίρεμα
+39:11 V- 3AAI-P-- ἐποίησαν ποιέω
+39:11 N- ----APN- σκεύη σκεῦος
+39:11 P- -------- εἰς εἰς
+39:11 RA ----ASN- τὸ ὁ
+39:11 V- -PAN---- λειτουργεῖν λειτουργέω
+39:11 P- -------- ἐν ἐν
+39:11 RP ----DPN- αὐτοῖς αὐτός
+39:11 P- -------- ἔναντι ἔναντι
+39:11 N- ----GSM- κυρίου κύριος
+39:12 C- -------- καὶ καί
+39:12 RA ----ASF- τὴν ὁ
+39:12 V- -APPASF- καταλειφθεῖσαν καταλείπω
+39:12 N- ----ASF- ὑάκινθον ὑάκινθος
+39:12 C- -------- καὶ καί
+39:12 N- ----ASF- πορφύραν πορφύρα
+39:12 C- -------- καὶ καί
+39:12 RA ----ASN- τὸ ὁ
+39:12 A- ----ASN- κόκκινον κόκκινος
+39:12 V- 3AAI-P-- ἐποίησαν ποιέω
+39:12 N- ----APF- στολὰς στολή
+39:12 A- ----APF- λειτουργικὰς λειτουργικός
+39:12 N- ----DSM- Ααρων Ἀαρών
+39:12 C- -------- ὥστε ὥστε
+39:12 V- -PAN---- λειτουργεῖν λειτουργέω
+39:12 P- -------- ἐν ἐν
+39:12 RP ----DPF- αὐταῖς αὐτός
+39:12 P- -------- ἐν ἐν
+39:12 RA ----DSN- τῷ ὁ
+39:12 A- ----DSN- ἁγίῳ ἅγιος
+39:13 C- -------- Καὶ καί
+39:13 V- 3AAI-P-- ἤνεγκαν φέρω
+39:13 RA ----APF- τὰς ὁ
+39:13 N- ----APF- στολὰς στολή
+39:13 P- -------- πρὸς πρός
+39:13 N- ----ASM- Μωυσῆν Μωϋσῆς  # module lemma Μωσεύς — Μωϋσῆς, as MorphGNT files it
+39:13 C- -------- καὶ καί
+39:13 RA ----ASF- τὴν ὁ
+39:13 N- ----ASF- σκηνὴν σκηνή
+39:13 C- -------- καὶ καί
+39:13 RA ----APN- τὰ ὁ
+39:13 N- ----APN- σκεύη σκεῦος
+39:13 RP ----GSF- αὐτῆς αὐτός
+39:13 C- -------- καὶ καί
+39:13 RA ----APF- τὰς ὁ
+39:13 N- ----APF- βάσεις βάσις
+39:13 C- -------- καὶ καί
+39:13 RA ----APM- τοὺς ὁ
+39:13 N- ----APM- μοχλοὺς μοχλός
+39:13 RP ----GSF- αὐτῆς αὐτός
+39:13 C- -------- καὶ καί
+39:13 RA ----APM- τοὺς ὁ
+39:13 N- ----APM- στύλους στῦλος
+39:14 C- -------- καὶ καί
+39:14 RA ----ASF- τὴν ὁ
+39:14 N- ----ASF- κιβωτὸν κιβωτός
+39:14 RA ----GSF- τῆς ὁ
+39:14 N- ----GSF- διαθήκης διαθήκη
+39:14 C- -------- καὶ καί
+39:14 RA ----APM- τοὺς ὁ
+39:14 N- ----APM- διωστῆρας διωστήρ
+39:14 RP ----GSF- αὐτῆς αὐτός
+39:15 C- -------- καὶ καί
+39:15 RA ----ASN- τὸ ὁ
+39:15 N- ----ASN- θυσιαστήριον θυσιαστήριον
+39:15 C- -------- καὶ καί
+39:15 A- ----APN- πάντα πᾶς
+39:15 RA ----APN- τὰ ὁ
+39:15 N- ----APN- σκεύη σκεῦος
+39:15 RP ----GSN- αὐτοῦ αὐτός
+39:15 C- -------- καὶ καί
+39:15 RA ----ASN- τὸ ὁ
+39:15 N- ----ASN- ἔλαιον ἔλαιον
+39:15 RA ----GSF- τῆς ὁ
+39:15 N- ----GSF- χρίσεως χρῖσις
+39:15 C- -------- καὶ καί
+39:15 RA ----ASN- τὸ ὁ
+39:15 N- ----ASN- θυμίαμα θυμίαμα
+39:15 RA ----GSF- τῆς ὁ
+39:15 N- ----GSF- συνθέσεως σύνθεσις
+39:16 C- -------- καὶ καί
+39:16 RA ----ASF- τὴν ὁ
+39:16 N- ----ASF- λυχνίαν λυχνία
+39:16 RA ----ASF- τὴν ὁ
+39:16 A- ----ASF- καθαρὰν καθαρός
+39:16 C- -------- καὶ καί
+39:16 RA ----APM- τοὺς ὁ
+39:16 N- ----APM- λύχνους λύχνος
+39:16 RP ----GSF- αὐτῆς αὐτός
+39:16 N- ----APM- λύχνους λύχνος
+39:16 RA ----GSF- τῆς ὁ
+39:16 N- ----GSF- καύσεως καῦσις
+39:16 C- -------- καὶ καί
+39:16 RA ----ASN- τὸ ὁ
+39:16 N- ----ASN- ἔλαιον ἔλαιον
+39:16 RA ----GSN- τοῦ ὁ
+39:16 N- ----GSN- φωτὸς φάος  # module lemma φῶς — φάος, the uncontracted form Middle Liddell heads
+39:17 C- -------- καὶ καί
+39:17 RA ----ASF- τὴν ὁ
+39:17 N- ----ASF- τράπεζαν τράπεζα
+39:17 RA ----GSF- τῆς ὁ
+39:17 N- ----GSF- προθέσεως πρόθεσις
+39:17 C- -------- καὶ καί
+39:17 A- ----APN- πάντα πᾶς
+39:17 RA ----APN- τὰ ὁ
+39:17 RP ----GSF- αὐτῆς αὐτός
+39:17 N- ----APN- σκεύη σκεῦος
+39:17 C- -------- καὶ καί
+39:17 RA ----APM- τοὺς ὁ
+39:17 N- ----APM- ἄρτους ἄρτος
+39:17 RA ----APM- τοὺς ὁ
+39:17 V- -PEPAPM- προκειμένους πρόκειμαι
+39:18 C- -------- καὶ καί
+39:18 RA ----APF- τὰς ὁ
+39:18 N- ----APF- στολὰς στολή
+39:18 RA ----GSN- τοῦ ὁ
+39:18 A- ----GSN- ἁγίου ἅγιος  # module A.GSM — neuter, the sanctuary's, as τοῦ ἁγίου at 36:3
+39:18 RR ----NPF- αἵ ὅς
+39:18 V- 3PAI-P-- εἰσιν εἰμί
+39:18 N- ----DSM- Ααρων Ἀαρών
+39:18 C- -------- καὶ καί
+39:18 RA ----APF- τὰς ὁ
+39:18 N- ----APF- στολὰς στολή
+39:18 RA ----GPM- τῶν ὁ
+39:18 N- ----GPM- υἱῶν υἱός
+39:18 RP ----GSM- αὐτοῦ αὐτός
+39:18 P- -------- εἰς εἰς
+39:18 RA ----ASF- τὴν ὁ
+39:18 N- ----ASF- ἱερατείαν ἱερατεία
+39:19 C- -------- καὶ καί
+39:19 RA ----APN- τὰ ὁ
+39:19 N- ----APN- ἱστία ἱστίον
+39:19 RA ----GSF- τῆς ὁ
+39:19 N- ----GSF- αὐλῆς αὐλή
+39:19 C- -------- καὶ καί
+39:19 RA ----APM- τοὺς ὁ
+39:19 N- ----APM- στύλους στῦλος
+39:19 C- -------- καὶ καί
+39:19 RA ----ASN- τὸ ὁ
+39:19 N- ----ASN- καταπέτασμα καταπέτασμα
+39:19 RA ----GSF- τῆς ὁ
+39:19 N- ----GSF- θύρας θύρα
+39:19 RA ----GSF- τῆς ὁ
+39:19 N- ----GSF- σκηνῆς σκηνή
+39:19 C- -------- καὶ καί
+39:19 RA ----GSF- τῆς ὁ
+39:19 N- ----GSF- πύλης πύλη
+39:19 RA ----GSF- τῆς ὁ
+39:19 N- ----GSF- αὐλῆς αὐλή
+39:19 C- -------- καὶ καί
+39:19 A- ----APN- πάντα πᾶς
+39:19 RA ----APN- τὰ ὁ
+39:19 N- ----APN- σκεύη σκεῦος
+39:19 RA ----GSF- τῆς ὁ
+39:19 N- ----GSF- σκηνῆς σκηνή
+39:19 C- -------- καὶ καί
+39:19 A- ----APN- πάντα πᾶς
+39:19 RA ----APN- τὰ ὁ
+39:19 N- ----APN- ἐργαλεῖα ἐργαλεῖον
+39:19 RP ----GSF- αὐτῆς αὐτός
+39:20 C- -------- καὶ καί
+39:20 RA ----APF- τὰς ὁ
+39:20 N- ----APF- διφθέρας διφθέρα
+39:20 N- ----APN- δέρματα δέρμα
+39:20 N- ----GPM- κριῶν κριός
+39:20 V- -XEPAPN- ἠρυθροδανωμένα ἐρυθροδανόω
+39:20 C- -------- καὶ καί
+39:20 RA ----APN- τὰ ὁ
+39:20 N- ----APN- καλύμματα κάλυμμα
+39:20 N- ----APN- δέρματα δέρμα
+39:20 A- ----APN- ὑακίνθινα ὑακίνθινος
+39:20 C- -------- καὶ καί
+39:20 RA ----GPN- τῶν ὁ
+39:20 A- ----GPN- λοιπῶν λοιπός
+39:20 RA ----APN- τὰ ὁ
+39:20 N- ----APN- ἐπικαλύμματα ἐπικάλυμμα
+39:21 C- -------- καὶ καί
+39:21 RA ----APM- τοὺς ὁ
+39:21 N- ----APM- πασσάλους πάσσαλος
+39:21 C- -------- καὶ καί
+39:21 A- ----APN- πάντα πᾶς
+39:21 RA ----APN- τὰ ὁ
+39:21 N- ----APN- ἐργαλεῖα ἐργαλεῖον
+39:21 RA ----APN- τὰ ὁ
+39:21 P- -------- εἰς εἰς
+39:21 RA ----APN- τὰ ὁ
+39:21 N- ----APN- ἔργα ἔργον
+39:21 RA ----GSF- τῆς ὁ
+39:21 N- ----GSF- σκηνῆς σκηνή
+39:21 RA ----GSN- τοῦ ὁ
+39:21 N- ----GSN- μαρτυρίου μαρτύριον
+39:22 RR ----APN- ὅσα ὅσος
+39:22 V- 3AAI-S-- συνέταξεν συντάσσω
+39:22 N- ----NSM- κύριος κύριος
+39:22 RA ----DSM- τῷ ὁ
+39:22 N- ----DSM- Μωυσῇ Μωϋσῆς  # module lemma Μωσεύς — Μωϋσῆς, as MorphGNT files it
+39:22 D- -------- οὕτως οὕτως
+39:22 V- 3AAI-P-- ἐποίησαν ποιέω
+39:22 RA ----NPM- οἱ ὁ
+39:22 N- ----NPM- υἱοὶ υἱός
+39:22 N- ----GSM- Ισραηλ Ἰσραήλ
+39:22 A- ----ASF- πᾶσαν πᾶς
+39:22 RA ----ASF- τὴν ὁ
+39:22 N- ----ASF- ἀποσκευήν ἀποσκευή
+39:23 C- -------- καὶ καί
+39:23 V- 3AAI-S-- εἶδεν ὁράω
+39:23 N- ----NSM- Μωυσῆς Μωϋσῆς  # module lemma Μωσεύς — Μωϋσῆς, as MorphGNT files it
+39:23 A- ----APN- πάντα πᾶς
+39:23 RA ----APN- τὰ ὁ
+39:23 N- ----APN- ἔργα ἔργον
+39:23 C- -------- καὶ καί
+39:23 V- 3IAI-P-- ἦσαν εἰμί
+39:23 V- -XAPNPM- πεποιηκότες ποιέω
+39:23 RP ----APN- αὐτὰ αὐτός
+39:23 RR ----ASM- ὃν ὅς
+39:23 N- ----ASM- τρόπον τρόπος
+39:23 V- 3AAI-S-- συνέταξεν συντάσσω
+39:23 N- ----NSM- κύριος κύριος
+39:23 RA ----DSM- τῷ ὁ
+39:23 N- ----DSM- Μωυσῇ Μωϋσῆς  # module lemma Μωσεύς — Μωϋσῆς, as MorphGNT files it
+39:23 D- -------- οὕτως οὕτως
+39:23 V- 3AAI-P-- ἐποίησαν ποιέω
+39:23 RP ----APN- αὐτά αὐτός
+39:23 C- -------- καὶ καί
+39:23 V- 3AAI-S-- εὐλόγησεν εὐλογέω
+39:23 RP ----APM- αὐτοὺς αὐτός
+39:23 N- ----NSM- Μωυσῆς Μωϋσῆς  # module lemma Μωσεύς — Μωϋσῆς, as MorphGNT files it

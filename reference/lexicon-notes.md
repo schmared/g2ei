@@ -8622,3 +8622,30 @@ text uses. Chains already in the corpus (Genesis) were read from it and re-infle
   and EXO 23:31 τῆς Φυλιστιιμ, now `of the one of Φυλιστιιμ`. `test_validate.py` has a case for it.
 - **Morphology**: the second pass was right on three: σκιάζοντα masculine singular with χερουβ ἕνα, αὐτῶν after it
   masculine, and τεσσάρων with the neuter μερῶν neuter. τρύβλιον and θυΐσκη keep the corpus's lemmas.
+
+### Words new in EXO 39
+
+- **The order**: the tallies of the metals, which the Hebrew gives at 38:24–31, come here after the furnishings;
+  a `divergence` note at 39:1.
+- **From LSJ** (not in Middle Liddell): χώνευσις, "= χωνεία", reading LSJ's χωνεία, *melting and casting of metal*,
+  plain.
+- **Set aside** (`NOT_SENSES`): διφθέρα's *(an undressed hide)*, its contrast with δέρρις; κατακοσμέω's example's
+  *was fitting*; πρόθεσις's example's *laid before, the shewbread*, from οἱ ἄρτοι τῆς προθέσεως itself.
+- **A deponent's perfect participle**: τῶν ἐπεσκεμμένων ἀνδρῶν at 39:2 reads ἐπισκέπτομαι's middle senses, `of the
+  ones having looked upon and standing so, …, having examined with themselves and meditated`, as ἐπέσκεμμαι at 3:16;
+  the entry gives no passive sense, and a passive reading had dropped one of the eight (Q31).
+- New chains: κατεργάζομαι's aorist passive `was effected by labour and achieved and accomplished, …, was effected,
+  was overcome`, the intransitive *to be successful* left out; ἐργασία with the article; τάλαντον's plural `balances,
+  a pair of scales, anything weighed, definite weights and talents, weights, sums of money`, the plural's own *pair of
+  scales* given as the entry gives it; ἀπαρχή's genitive; ἀνήρ's anarthrous genitive plural; μυριάς's anarthrous
+  plural; κεφαλίς without the article and in the dative singular; κατακοσμέω `set in order and arranged, fitted out
+  completely and adorned, reduced to order`; καταλείπω's feminine articular aorist passive participle; καῦσις
+  `of the burning, of the cautery`; πρόθεσις `of the placing in public, of the laying out, of the public notice, of
+  the statement, of the purpose and end proposed, of the supposition and calculation`; πρόκειμαι's articular plural;
+  ἱερατεία with the article; διφθέρα `the prepared hides and tanned skins and pieces of leather, the leathern
+  garments, the wallets and bags, the skins used as tents`; λοιπός's articular genitive plural; ἐπικάλυμμα with the
+  article; ποιέω's perfect participle `having made and standing so, having done, having produced, having created`.
+- One translation each, plain text: σίκλος *shekel*; λειτουργικός *ministering*; ἔναντι *in the presence of*; the
+  numerals, the article printing with them, `the a hundred`.
+- **Morphology**: the second pass was right on αὐτοῦ at 39:15, neuter, the altar's. φάος keeps the corpus's lemma;
+  Ααρων at 39:18 keeps the dative of 36:8.

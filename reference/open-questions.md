@@ -579,3 +579,23 @@ adjective's range unread. The noun sense is also the entry's for ῥαπτόν, 
 
 **Recommendation:** keep the noun sense at the head and the adjective's senses after it, wherever an adjective used
 as a noun has a single noun sense.
+
+## Q31. A deponent's perfect participle where the sense is passive
+
+**Where:** EXO 39:2, ἀργυρίου ἀφαίρεμα παρὰ τῶν ἐπεσκεμμένων ἀνδρῶν τῆς συναγωγῆς: the men of the congregation who
+were counted. ἐπισκέπτομαι is filed as a deponent, its perfect middle-passive the same form either way, and Middle
+Liddell gives it no passive sense.
+
+**Now:** the middle's senses, as ἐπέσκεμμαι at 3:16: `of the ones having looked upon and standing so, having looked
+at, …, having examined with themselves and meditated`.
+
+- now: `of the ones having looked upon and standing so`
+- the other reading: the senses in the passive, `of the ones having been looked upon and standing so, having been
+  inspected …`, the reflexive *examine with oneself* left out as having no passive
+
+**The difference:** the context asks for the passive, the men who were mustered; the lexicon gives the deponent's
+middle and nothing else, and the rule reads the lexicon, not the context. The passive reading also breaks one word,
+one range, since the voice code cannot tell middle from passive.
+
+**Recommendation:** keep the middle's senses wherever the entry gives a deponent no passive, and note the passive
+the context asks for.
