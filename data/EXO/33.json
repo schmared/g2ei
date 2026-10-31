@@ -1,0 +1,665 @@
+[
+  {
+    "ref": "EXO 33:1",
+    "greek": "Καὶ εἶπεν κύριος πρὸς Μωυσῆν Πορεύου ἀνάβηθι ἐντεῦθεν σὺ καὶ ὁ λαός σου, οὓς ἐξήγαγες ἐκ γῆς Αἰγύπτου, εἰς τὴν γῆν, ἣν ὤμοσα τῷ Αβρααμ καὶ Ισαακ καὶ Ιακωβ λέγων Τῷ σπέρματι ὑμῶν δώσω αὐτήν.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 144",
+    "hint": "Moses is told to go up with the people to the land sworn to Abraham, Isaac and Jacob.",
+    "notes": [
+      {
+        "lemma": "Πορεύου ἀνάβηθι",
+        "flag": null,
+        "text": "Two imperatives side by side, with no καί: πορεύομαι's present, ἀναβαίνω's aorist."
+      },
+      {
+        "lemma": "Τῷ σπέρματι",
+        "flag": null,
+        "text": "The dative stands first in the oath it quotes."
+      }
+    ],
+    "reading": "And [[said|said, spoke, declared, called by name, told|λέγω]] [[lord|lord, master, the one having power and authority over|κύριος]] [[toward|toward, facing, oriented to, in living motion and address toward|πρός + accusative]] [[name:Μωυσῆν]] [[be driven|be driven, be carried, go, walk, march, go across and pass|πορεύομαι]] [[go up|go up, mount, ascend, go up to, rise, come up, come to and arrive at, go up country, go aboard|ἀναβαίνω]] [[hence|hence, thence, henceforth and thenceforth and thereupon, from that source|ἐντεῦθεν]] you and [[the people|the people, the men, the soldiers, the land-army, the common men, the folk, the Jews, the Christians|λαός]] of you, whom [[you led out|you led out, you led and carried out from, you brought forth into the world, you marched out, you ejected, you carried out and exported, you drew off, you called forth and excited, you led on and tempted|ἐξάγω]] [[out of|out of, forth from, from|ἐκ]] [[of earth|of earth, of land, of ground|γῆ]] of [[name:Αἰγύπτου]], [[into|into, to, in, rest in|εἰς]] [[the earth|the earth, the land, the ground|γῆ]], which [[I swore|I swore, I swore to and affirmed and confirmed by oath, I swore that I would, I swore by|ὄμνυμι]] to the [[name:Αβρααμ]] and to [[name:Ισαακ]] and to [[name:Ιακωβ]] [[saying|saying, speaking, declaring, calling by name, telling|λέγω]] [[to the that which is sown|to the that which is sown, to the seed, to the germ and origin and element, to the offspring and issue, to the race and descent|σπέρμα]] of you [[I will give|I will give, I will grant, I will provide, I will give over and deliver up|δίδωμι]] her.",
+    "names": [
+      {
+        "greek": "Μωυσῆν",
+        "unanchored": "Mōusēn",
+        "anchored": "Moses",
+        "gloss": "(Μωυσῆς, from Hebrew Mōšeh, which the Hebrew of 2:10 hears in māšâ, \"to draw out\")"
+      },
+      {
+        "greek": "Αἰγύπτου",
+        "unanchored": "Aigyptou",
+        "anchored": "Egypt",
+        "gloss": "(Αἴγυπτος, the Greek name of the land; Hebrew Miṣrayim)"
+      },
+      {
+        "greek": "Αβρααμ",
+        "unanchored": "Abraam",
+        "anchored": "Abraham",
+        "gloss": "(Αβρααμ, from Hebrew ʾAbrāhām, which the Hebrew of Genesis 17:5 hears in ʾab hămôn gôyim, \"father of a multitude of nations\")"
+      },
+      {
+        "greek": "Ισαακ",
+        "unanchored": "Isaak",
+        "anchored": "Isaac",
+        "gloss": "(Ισαακ, from Hebrew Yiṣḥāq, \"he laughs\")"
+      },
+      {
+        "greek": "Ιακωβ",
+        "unanchored": "Iakōb",
+        "anchored": "Jacob",
+        "gloss": "(Ιακωβ, from Hebrew Yaʿăqōb, which the Hebrew of Genesis 25:26 hears in ʿāqēb, \"heel\")"
+      }
+    ],
+    "speech": [
+      "Πορεύου",
+      "Τῷ"
+    ]
+  },
+  {
+    "ref": "EXO 33:2",
+    "greek": "καὶ συναποστελῶ τὸν ἄγγελόν μου πρὸ προσώπου σου, καὶ ἐκβαλεῖ τὸν Αμορραῖον καὶ Χετταῖον καὶ Φερεζαῖον καὶ Γεργεσαῖον καὶ Ευαῖον καὶ Ιεβουσαῖον.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 144",
+    "hint": "An angel will go ahead and drive out the six peoples of the land.",
+    "notes": [
+      {
+        "lemma": "συναποστελῶ",
+        "flag": null,
+        "text": "συναποστέλλω, to despatch together with, one translation, plain text."
+      },
+      {
+        "lemma": "Γεργεσαῖον",
+        "flag": "divergence",
+        "text": "The Girgashite, which the Hebrew does not name here; its list has six peoples, the Canaanite first."
+      }
+    ],
+    "reading": "and I will despatch together with [[the messenger|the messenger and envoy, the one that announces, the divine messenger and the angel|ἄγγελος]] of me [[before|before, in front of, further on, sooner, rather than|πρό]] [[of face|of face and visage and countenance, of look, of mask, of outward appearance|πρόσωπον]] of you, and [[will throw|will throw, will cast out of, will throw out, will cast out and banish, will depose, will throw away and reject|ἐκβάλλω]] the [[name:Αμορραῖον]] and [[name:Χετταῖον]] and [[name:Φερεζαῖον]] and [[name:Γεργεσαῖον]] and [[name:Ευαῖον]] and [[name:Ιεβουσαῖον]].",
+    "names": [
+      {
+        "greek": "Αμορραῖον",
+        "unanchored": "Amorraion",
+        "anchored": "Amorite",
+        "gloss": "(Αμορραῖος, from Hebrew ʾĔmōrî, of uncertain meaning)"
+      },
+      {
+        "greek": "Χετταῖον",
+        "unanchored": "Chettaion",
+        "anchored": "Hittite",
+        "gloss": "(Χετταῖος, from Hebrew Ḥittî, \"of Ḥēt\")"
+      },
+      {
+        "greek": "Φερεζαῖον",
+        "unanchored": "Pherezaion",
+        "anchored": "Perizzite",
+        "gloss": "(Φερεζαῖος, from Hebrew Pĕrizzî, usually connected with pĕrāzî, \"a villager\")"
+      },
+      {
+        "greek": "Γεργεσαῖον",
+        "unanchored": "Gergesaion",
+        "anchored": "Girgashite",
+        "gloss": "(Γεργεσαῖος, from Hebrew Girgāšî, of uncertain meaning)"
+      },
+      {
+        "greek": "Ευαῖον",
+        "unanchored": "Euaion",
+        "anchored": "Hivite",
+        "gloss": "(Ευαῖος, from Hebrew Ḥiwwî, of uncertain meaning)"
+      },
+      {
+        "greek": "Ιεβουσαῖον",
+        "unanchored": "Iebousaion",
+        "anchored": "Jebusite",
+        "gloss": "(Ιεβουσαῖος, from Hebrew Yĕbûsî, \"of Jebus\")"
+      }
+    ]
+  },
+  {
+    "ref": "EXO 33:3",
+    "greek": "καὶ εἰσάξω σε εἰς γῆν ῥέουσαν γάλα καὶ μέλι· οὐ γὰρ μὴ συναναβῶ μετὰ σοῦ διὰ τὸ λαὸν σκληροτράχηλόν σε εἶναι, ἵνα μὴ ἐξαναλώσω σε ἐν τῇ ὁδῷ.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 144",
+    "hint": "It is a land of milk and honey, but the Lord will not go up among so stiff-necked a people.",
+    "notes": [
+      {
+        "lemma": "διὰ τὸ λαὸν σκληροτράχηλόν σε εἶναι",
+        "flag": null,
+        "text": "The articular infinitive, through the being: λαόν and σε its accusatives, σκληροτράχηλος, stiff-necked, plain text."
+      },
+      {
+        "lemma": "συναναβῶ",
+        "flag": null,
+        "text": "συναναβαίνω, to go up with, one translation, plain text."
+      },
+      {
+        "lemma": "οὐ … μή",
+        "flag": null,
+        "text": "Two negatives, the emphatic denial."
+      }
+    ],
+    "reading": "and [[I will lead in|I will lead in, I will lead into and introduce, I will admit, I will import, I will call in, I will bring in and bring forward|εἰσάγω]] you [[into|into, to, in, rest in|εἰς]] [[earth|earth, land, ground|γῆ]] [[flowing|flowing and running and streaming and gushing, deriving its stream, flowing, running glibly, being current, falling and dropping off, melting away and perishing, being inclined and given|ῥέω]] milk and honey; not [[for|for, since and as, for otherwise and else, now, but, why and what, would that|γάρ]] [[not|not, that not, perhaps, surely not and you don't mean to say that|μή]] I may go up with [[in the midst of|in the midst of, among, in common, along with, with, by means of|μετά + genitive]] of you [[through|through, throughout and over, during, by aid of and by means of, by reason of, because of, for the sake of|διά + accusative]] the being [[people|people, men, soldiers, land-army, common men, folk, Jews, Christians|λαός]] stiff-necked you, [[that|that, in order that|ἵνα]] [[not|not, that not, perhaps, surely not and you don't mean to say that|μή]] [[I may spend entirely|I may spend entirely, I may exhaust, I may destroy utterly|ἐξαναλίσκω]] you [[in the way|within, inside of, and by means of the way, the path, the track, the road, the highway, the course, the journey, the manner and method|ἐν; ὁδός]].",
+    "names": []
+  },
+  {
+    "ref": "EXO 33:4",
+    "greek": "καὶ ἀκούσας ὁ λαὸς τὸ ῥῆμα τὸ πονηρὸν τοῦτο κατεπένθησαν ἐν πενθικοῖς.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 144",
+    "hint": "Hearing the hard word, the people mourn in mourning dress.",
+    "notes": [
+      {
+        "lemma": "πενθικοῖς",
+        "flag": null,
+        "text": "πενθικός, «of» or «for mourning, mournful», the neuter plural as a noun; the headword keeps the or, as θεῖος at 31:3 (Q26)."
+      },
+      {
+        "lemma": "κατεπένθησαν",
+        "flag": "divergence",
+        "text": "καταπενθέω, to mourn for, bewail; the Hebrew adds that no one put on his ornaments, which the Greek does not have here."
+      }
+    ],
+    "reading": "and [[having heard|having heard, having had hearing of, having heard tell of, having known by hearsay, having hearkened and given ear, having listened to and obeyed|ἀκούω]] [[the people|the people, the men, the soldiers, the land-army, the common men, the folk, the Jews, the Christians|λαός]] [[the that which is said|the that which is said and spoken, the word, the saying, the phrase, the subject of speech and the thing, the verb|ῥῆμα]] [[the toilsome|the toilsome and painful and grievous, the good-for-nothing, the bad and worthless, the wicked|πονηρός]] [[this|this, the nearer, what follows|οὗτος]] [[mourned for|mourned for and bewailed|καταπενθέω]] [[in of or for mourning|within, inside of, and by means of of or for mourning and mournful|ἐν; πενθικός]].",
+    "names": []
+  },
+  {
+    "ref": "EXO 33:5",
+    "greek": "καὶ εἶπεν κύριος τοῖς υἱοῖς Ισραηλ Ὑμεῖς λαὸς σκληροτράχηλος· ὁρᾶτε μὴ πληγὴν ἄλλην ἐπάξω ἐγὼ ἐφʼ ὑμᾶς καὶ ἐξαναλώσω ὑμᾶς· νῦν οὖν ἀφέλεσθε τὰς στολὰς τῶν δοξῶν ὑμῶν καὶ τὸν κόσμον, καὶ δείξω σοι ἃ ποιήσω σοι.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 144",
+    "hint": "The people are told to take off their fine robes and ornaments while the Lord decides what to do.",
+    "notes": [
+      {
+        "lemma": "τὰς στολὰς τῶν δοξῶν ὑμῶν",
+        "flag": "divergence",
+        "text": "The equipments of the notions of you, the robes of glory, for the Hebrew ʿedyĕkā, your ornaments."
+      },
+      {
+        "lemma": "σκληροτράχηλος",
+        "flag": null,
+        "text": "σκληροτράχηλος, stiff-necked, one translation, plain text."
+      }
+    ],
+    "reading": "and [[said|said, spoke, declared, called by name, told|λέγω]] [[lord|lord, master, the one having power and authority over|κύριος]] to the sons of [[name:Ισραηλ]] you [[people|people, men, soldiers, land-army, common men, folk, Jews, Christians|λαός]] stiff-necked; [[see|see, perceive, behold, look at|ὁράω]] [[not|not, that not, perhaps, surely not and you don't mean to say that|μή]] [[a blow|a blow and stroke, a stroke by lightning, a blow and stroke of calamity|πληγή]] [[another|another, one besides, any other and some other, the other, all the others and the rest, yet and still, of other sort and different, other than, else|ἄλλος]] [[I will bring on|I will bring on, I will bring upon, I will set on and urge on, I will lead on, I will bring in and invite, I will bring to, I will lay on and apply, I will bring forward, I will add|ἐπάγω]] I [[upon|upon, on, in, at, near|ἐπί + accusative]] you and [[I will spend entirely|I will spend entirely, I will exhaust, I will destroy utterly|ἐξαναλίσκω]] you; [[now at this very time|now at this very time, now, of the present, the present time, just now and but now, as it is and as the case now stands, in this case|νῦν]] [[really|really, at all events, surely, so, then and therefore|οὖν]] [[take away for yourselves|take away for yourselves and take away, prevent and hinder from|ἀφαιρέω]] [[the equipments|the equipments and armaments, the equipment and raiment and apparel, the pieces of dress and garments and robes|στολή]] [[of the notions|of the notions, of the expectations, of the opinions and judgments, of the mere opinions and conjectures, of the fancies and visions and dreams, of the opinions which others have of one and estimations and reputations and credits and honours and glories, of the estimates popularly formed of a thing, of the glories and splendours and effulgences|δόξα]] of you and [[the order|the order, the good order and decency, the form and fashion, the government, the ornament and adornment|κόσμος]], and [[I will bring to light|I will bring to light and display and exhibit, I will set before one, I will show and point out, I will tell and explain and teach, I will show and prove, I will inform against, I will offer and proffer, I will cause, I will welcome and greet and pledge|δείκνυμι]] to you which [[I will make|I will make, I will do, I will produce, I will create|ποιέω]] to you.",
+    "names": [
+      {
+        "greek": "Ισραηλ",
+        "unanchored": "Israēl",
+        "anchored": "Israel",
+        "gloss": "(Ισραηλ, from Hebrew Yiśrāʾēl, which the Hebrew of Genesis 32:29 hears in śārâ ʿim ʾĕlōhîm, \"he strove with God\")"
+      }
+    ],
+    "speech": [
+      "Ὑμεῖς"
+    ]
+  },
+  {
+    "ref": "EXO 33:6",
+    "greek": "καὶ περιείλαντο οἱ υἱοὶ Ισραηλ τὸν κόσμον αὐτῶν καὶ τὴν περιστολὴν ἀπὸ τοῦ ὄρους τοῦ Χωρηβ.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 144",
+    "hint": "From Horeb on, Israel strips off its ornaments.",
+    "notes": [
+      {
+        "lemma": "περιστολήν",
+        "flag": null,
+        "text": "περιστολή, not in Middle Liddell: LSJ's wrapping up, laying out, peristaltic action, adornments, citing this verse, restraint, decorum; the singular (Q27)."
+      },
+      {
+        "lemma": "τοῦ Χωρηβ",
+        "flag": null,
+        "text": "The name with its article in the genitive, after τοῦ ὄρους, as τοῦ ὄρους τοῦ Σινα at 24:16."
+      }
+    ],
+    "reading": "and [[took off from themselves|took off from themselves, took off their own, stripped off and took away|περιαιρέω]] the sons of [[name:Ισραηλ]] [[the order|the order, the good order and decency, the form and fashion, the government, the ornament and adornment|κόσμος]] of them and [[the wrapping up|the wrapping up, the laying out, the peristaltic action, the adornment, the restraint and decorum|περιστολή]] [[from|from, away from, far from, apart from|ἀπό]] [[of the mountain|of the mountain and hill|ὄρος]] of the [[name:Χωρηβ]].",
+    "names": [
+      {
+        "greek": "Ισραηλ",
+        "unanchored": "Israēl",
+        "anchored": "Israel",
+        "bare": true
+      },
+      {
+        "greek": "Χωρηβ",
+        "unanchored": "Chōrēb",
+        "anchored": "Horeb",
+        "gloss": "(Χωρηβ, from Hebrew Ḥōrēb, usually connected with ḥārēb, \"to be dry, waste\")"
+      }
+    ]
+  },
+  {
+    "ref": "EXO 33:7",
+    "greek": "Καὶ λαβὼν Μωυσῆς τὴν σκηνὴν αὐτοῦ ἔπηξεν ἔξω τῆς παρεμβολῆς μακρὰν ἀπὸ τῆς παρεμβολῆς, καὶ ἐκλήθη σκηνὴ μαρτυρίου· καὶ ἐγένετο πᾶς ὁ ζητῶν κύριον ἐξεπορεύετο εἰς τὴν σκηνὴν ἔξω τῆς παρεμβολῆς.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 144",
+    "hint": "Moses pitches his tent far outside the camp; it is called the tent of witness.",
+    "notes": [
+      {
+        "lemma": "ἔπηξεν",
+        "flag": null,
+        "text": "πήγνυμι, to make fast, fix in the earth, plant."
+      },
+      {
+        "lemma": "ἐκλήθη σκηνὴ μαρτυρίου",
+        "flag": null,
+        "text": "The anarthrous nominative after the passive of καλέω."
+      }
+    ],
+    "reading": "And [[having taken|having taken, having received, having taken hold of and grasped and seized|λαμβάνω]] [[name:Μωυσῆς]] [[the covered place|the covered place and tent, the camp, the dwelling-place, the temple|σκηνή]] of him [[made fast|made fast, fixed in the earth and planted, fastened together and constructed and built, made solid and stiff and hard, froze, became solid and stiff, became congealed and froze|πήγνυμι]] [[out|out, out of, outside, without, foreign, clear of, beyond and over, but and except|ἔξω]] [[of the insertion|of the insertion and interpolation, of the encampment and fortress|παρεμβολή]] [[a long way|a long way and far and far away, far from, at length, long|μακράν]] [[from|from, away from, far from, apart from|ἀπό]] [[of the insertion|of the insertion and interpolation, of the encampment and fortress|παρεμβολή]], and [[was called|was called, was summoned, was invited|καλέω]] [[a covered place|a covered place and tent, a camp, a dwelling-place, a temple|σκηνή]] [[of a testimony|of a testimony and proof|μαρτύριον]]; and [[came to be|came to be, arose, were brought into existence|γίνομαι]] [[all|all, the whole, every, every single|πᾶς]] [[the one seeking|the one seeking, the one seeking for, the one enquiring for and asking about, the one searching after and searching out, the one searching and inquiring into and investigating, the one requiring and demanding, the one seeking after and desiring, the one seeking to, the one having to seek and feeling the want of|ζητέω]] [[lord|lord, master, the one having power and authority over|κύριος]] [[was going out|was going out, was going forth, was marching out|ἐκπορεύομαι]] [[into|into, to, in, rest in|εἰς]] [[the covered place|the covered place and tent, the camp, the dwelling-place, the temple|σκηνή]] [[out|out, out of, outside, without, foreign, clear of, beyond and over, but and except|ἔξω]] [[of the insertion|of the insertion and interpolation, of the encampment and fortress|παρεμβολή]].",
+    "names": [
+      {
+        "greek": "Μωυσῆς",
+        "unanchored": "Mōusēs",
+        "anchored": "Moses",
+        "bare": true
+      }
+    ]
+  },
+  {
+    "ref": "EXO 33:8",
+    "greek": "ἡνίκα δʼ ἂν εἰσεπορεύετο Μωυσῆς εἰς τὴν σκηνὴν ἔξω τῆς παρεμβολῆς, εἱστήκει πᾶς ὁ λαὸς σκοπεύοντες ἕκαστος παρὰ τὰς θύρας τῆς σκηνῆς αὐτοῦ καὶ κατενοοῦσαν ἀπιόντος Μωυσῆ ἕως τοῦ εἰσελθεῖν αὐτὸν εἰς τὴν σκηνήν.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 144",
+    "hint": "Whenever Moses goes out to the tent, the people stand at their doors and watch him go in.",
+    "notes": [
+      {
+        "lemma": "σκοπεύοντες",
+        "flag": null,
+        "text": "σκοπεύω, Middle Liddell's later form for σκοπέω: to look at or after, behold, look out, consider (SPELLING)."
+      },
+      {
+        "lemma": "ἀπιόντος Μωυσῆ",
+        "flag": null,
+        "text": "A genitive absolute: of going away, of Moses. ἄπειμι, of εἶμι, to go away, depart; the second entry (ENTRY)."
+      },
+      {
+        "lemma": "ἕως τοῦ εἰσελθεῖν",
+        "flag": null,
+        "text": "ἕως with the articular infinitive: until of the going in."
+      }
+    ],
+    "reading": "[[at which time|at which time and when, since, whenever|ἡνίκα]] [[but|but, however, whereas, on the other hand|δέ]], ever [[was going into|was going into and entering|εἰσπορεύομαι]] [[name:Μωυσῆς]] [[into|into, to, in, rest in|εἰς]] [[the covered place|the covered place and tent, the camp, the dwelling-place, the temple|σκηνή]] [[out|out, out of, outside, without, foreign, clear of, beyond and over, but and except|ἔξω]] [[of the insertion|of the insertion and interpolation, of the encampment and fortress|παρεμβολή]], [[had been set|had been set and stood so, had been placed and stood, had been there, had been in a state and condition, had lain and been situated, had stood still and stopped and halted, had stood idle, had stopped and ceased and been at rest, had stood firm, had stood up and risen up, had arisen and begun|ἵστημι]] [[all|all, the whole, every, every single|πᾶς]] [[the people|the people, the men, the soldiers, the land-army, the common men, the folk, the Jews, the Christians|λαός]] [[looking at or after|looking at or after, beholding and contemplating, looking out and watching, looking to and considering and examining, looking out for|σκοπεύω]] [[every|every, every one, each, each one, all and each one, singly and by itself, each by himself|ἕκαστος]] [[to the side of|to the side of, motion alongside of, to, beside and near and by, passing by, beyond, contrary to and against, beside and except, on account of and because of and by means of, along the whole course of and during|παρά + accusative]] [[the doors|the doors, the folding doors, the gates, the courts, the trap-doors, the frames of planks and rafts, the entrances|θύρα]] [[of the covered place|of the covered place and tent, of the camp, of the dwelling-place, of the temple|σκηνή]] of him and [[were observing well|were observing well and understanding, were perceiving, were learning, were considering|κατανοέω]] [[of going away|of going away and departing, of returning, of receding, of going|ἄπειμι]] of [[name:Μωυσῆ]] [[until|until, till, while and so long as|ἕως]] [[of the going in|of the going in, of the going into and entering, of the coming into, of the coming in, of the coming upon|εἰσέρχομαι]] him [[into|into, to, in, rest in|εἰς]] [[the covered place|the covered place and tent, the camp, the dwelling-place, the temple|σκηνή]].",
+    "names": [
+      {
+        "greek": "Μωυσῆς",
+        "unanchored": "Mōusēs",
+        "anchored": "Moses",
+        "bare": true
+      },
+      {
+        "greek": "Μωυσῆ",
+        "unanchored": "Mōusē",
+        "anchored": "Moses",
+        "bare": true
+      }
+    ]
+  },
+  {
+    "ref": "EXO 33:9",
+    "greek": "ὡς δʼ ἂν εἰσῆλθεν Μωυσῆς εἰς τὴν σκηνήν, κατέβαινεν ὁ στῦλος τῆς νεφέλης καὶ ἵστατο ἐπὶ τὴν θύραν τῆς σκηνῆς, καὶ ἐλάλει Μωυσῇ·",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 144",
+    "hint": "When Moses enters, the pillar of cloud comes down to the door and speaks with him.",
+    "notes": [
+      {
+        "lemma": "ἵστατο",
+        "flag": null,
+        "text": "ἵστημι, the imperfect middle, intransitive: was being set, was standing (FORM_SENSES)."
+      },
+      {
+        "lemma": "ἐλάλει Μωυσῇ",
+        "flag": null,
+        "text": "The imperfect, was talking, with no subject named."
+      }
+    ],
+    "reading": "[[as|as, according as, considering, like|ὡς]] [[but|but, however, whereas, on the other hand|δέ]], ever [[went in|went in, went into and entered, came into, came in, came upon|εἰσέρχομαι]] [[name:Μωυσῆς]] [[into|into, to, in, rest in|εἰς]] [[the covered place|the covered place and tent, the camp, the dwelling-place, the temple|σκηνή]], [[was stepping down|was stepping down, was going and coming down, was going down from, was dismounting, was coming down stairs, was going down from the inland parts to the sea, was coming to land and getting safe ashore, was going down into the arena, was coming down from the tribune, was coming to, was ending|καταβαίνω]] [[the pillar|the pillar, the support and bearing|στῦλος]] [[of the cloud|of the cloud, of the bird-net|νεφέλη]] and [[was being set|was being set, was being placed and standing, was being there, was being in a state and condition, was lying and being situated, was standing still and stopping and halting, was standing idle, was stopping and ceasing and being at rest, was standing firm, was standing up and rising up, was arising and beginning|ἵστημι]] [[upon|upon, on, in, at, near|ἐπί + accusative]] [[the door|the door, the folding doors, the gate, the court, the trap-door, the frame of planks and raft, the entrance|θύρα]] [[of the covered place|of the covered place and tent, of the camp, of the dwelling-place, of the temple|σκηνή]], and [[was talking|was talking, was chatting, was prattling, was babbling, was saying, was talking of, was speaking, was chattering, was chirping|λαλέω]] to [[name:Μωυσῇ]];",
+    "names": [
+      {
+        "greek": "Μωυσῆς",
+        "unanchored": "Mōusēs",
+        "anchored": "Moses",
+        "bare": true
+      },
+      {
+        "greek": "Μωυσῇ",
+        "unanchored": "Mōusē",
+        "anchored": "Moses",
+        "bare": true
+      }
+    ]
+  },
+  {
+    "ref": "EXO 33:10",
+    "greek": "καὶ ἑώρα πᾶς ὁ λαὸς τὸν στῦλον τῆς νεφέλης ἑστῶτα ἐπὶ τῆς θύρας τῆς σκηνῆς, καὶ στάντες πᾶς ὁ λαὸς προσεκύνησαν ἕκαστος ἀπὸ τῆς θύρας τῆς σκηνῆς αὐτοῦ.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 144",
+    "hint": "The people see the pillar at the door and each bows down at his own tent door.",
+    "notes": [
+      {
+        "lemma": "στάντες πᾶς ὁ λαός",
+        "flag": null,
+        "text": "A plural participle and verb with the collective singular subject."
+      },
+      {
+        "lemma": "ἑστῶτα … στάντες",
+        "flag": null,
+        "text": "ἵστημι, the perfect and the second aorist, both intransitive."
+      }
+    ],
+    "reading": "and [[was seeing|was seeing, was perceiving, was beholding, was looking at|ὁράω]] [[all|all, the whole, every, every single|πᾶς]] [[the people|the people, the men, the soldiers, the land-army, the common men, the folk, the Jews, the Christians|λαός]] [[the pillar|the pillar, the support and bearing|στῦλος]] [[of the cloud|of the cloud, of the bird-net|νεφέλη]] [[having been set|having been set and standing so, having been placed and stood, having been there, having been in a state and condition, having lain and been situated, having stood still and stopped and halted, having stood idle, having stopped and ceased and been at rest, having stood firm, having stood up and risen up, having arisen and begun|ἵστημι]] [[upon|upon, on, in, at, near|ἐπί + genitive]] [[of the door|of the door, of the folding doors, of the gate, of the court, of the trap-door, of the frame of planks and raft, of the entrance|θύρα]] [[of the covered place|of the covered place and tent, of the camp, of the dwelling-place, of the temple|σκηνή]], and [[having been set|having been set, having been placed and stood, having been there, having been in a state and condition, having lain and been situated, having stood still and stopped and halted, having stood idle, having stopped and ceased and been at rest, having stood firm, having stood up and risen up, having arisen and begun|ἵστημι]] [[all|all, the whole, every, every single|πᾶς]] [[the people|the people, the men, the soldiers, the land-army, the common men, the folk, the Jews, the Christians|λαός]] [[made obeisance|made obeisance, fell down and worshipped and worshipped and adored, did reverence to, made the salam, prostrated themselves before|προσκυνέω]] [[every|every, every one, each, each one, all and each one, singly and by itself, each by himself|ἕκαστος]] [[from|from, away from, far from, apart from|ἀπό]] [[of the door|of the door, of the folding doors, of the gate, of the court, of the trap-door, of the frame of planks and raft, of the entrance|θύρα]] [[of the covered place|of the covered place and tent, of the camp, of the dwelling-place, of the temple|σκηνή]] of him.",
+    "names": []
+  },
+  {
+    "ref": "EXO 33:11",
+    "greek": "καὶ ἐλάλησεν κύριος πρὸς Μωυσῆν ἐνώπιος ἐνωπίῳ, ὡς εἴ τις λαλήσει πρὸς τὸν ἑαυτοῦ φίλον. καὶ ἀπελύετο εἰς τὴν παρεμβολήν, ὁ δὲ θεράπων Ἰησοῦς υἱὸς Ναυη νέος οὐκ ἐξεπορεύετο ἐκ τῆς σκηνῆς.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 144",
+    "hint": "The Lord speaks with Moses face to face; Joshua, the young attendant, stays in the tent.",
+    "notes": [
+      {
+        "lemma": "ἐνώπιος ἐνωπίῳ",
+        "flag": null,
+        "text": "ἐνώπιος, face to face, one translation, plain text; the second in the dative, to face to face."
+      },
+      {
+        "lemma": "φίλον",
+        "flag": null,
+        "text": "φίλος as a noun, a friend, its first noun sense, then the adjective's, as ἐχθρός at 23:4; the other genders' nouns left out (FORM_SENSES)."
+      },
+      {
+        "lemma": "Ναυη",
+        "flag": "name",
+        "text": "Ναυη, the Greek's spelling of the Hebrew Nûn."
+      }
+    ],
+    "reading": "and [[talked|talked, chatted, prattled, babbled, said, talked of, spoke, chattered, chirped|λαλέω]] [[lord|lord, master, the one having power and authority over|κύριος]] [[toward|toward, facing, oriented to, in living motion and address toward|πρός + accusative]] [[name:Μωυσῆν]] face to face to face to face, [[as|as, according as, considering, like|ὡς]] [[if|if, whether, come on|εἰ]] [[any one|any one, some one, many a one, each one, every man|τις]] [[will talk|will talk, will chat, will prattle, will babble, will say, will talk of, will speak, will chatter, will chirp|λαλέω]] [[toward|toward, facing, oriented to, in living motion and address toward|πρός + accusative]] of himself [[the friend|the friend, the loved and beloved and dear, the dear, the dear and pleasant and welcome, the one's own, the loving and friendly, the friendly|φίλος]]. and [[was being loosed from|was being loosed from, was being undone, was being set free from and released, was being relieved from, was being acquitted, was being let go free on receipt of ransom and held to ransom, was being ransomed and redeemed, was being discharged and disbanded, was being dismissed, was being divorced, was being redeemed, was being done away with, was departing, was being set free from, was being released and let off, was being freed from, was being acquitted and discharged, was being separated and parting|ἀπολύω]] [[into|into, to, in, rest in|εἰς]] [[the insertion|the insertion and interpolation, the encampment and fortress|παρεμβολή]], [[but|but, however, whereas, on the other hand|δέ]], [[the waiting-man|the waiting-man and attendant, the companion in arms, the servant|θεράπων]] [[name:Ἰησοῦς]] son of [[name:Ναυη]] [[young|young and youthful, new and fresh, new and strange|νέος]] not [[was going out|was going out, was going forth, was marching out|ἐκπορεύομαι]] [[out of|out of, forth from, from|ἐκ]] [[of the covered place|of the covered place and tent, of the camp, of the dwelling-place, of the temple|σκηνή]].",
+    "names": [
+      {
+        "greek": "Μωυσῆν",
+        "unanchored": "Mōusēn",
+        "anchored": "Moses",
+        "bare": true
+      },
+      {
+        "greek": "Ἰησοῦς",
+        "unanchored": "Iēsous",
+        "anchored": "Joshua",
+        "gloss": "(Ἰησοῦς, from Hebrew Yĕhôšuaʿ, \"Yah is salvation\")"
+      },
+      {
+        "greek": "Ναυη",
+        "unanchored": "Nauē",
+        "anchored": "Naue",
+        "gloss": "(Ναυη, for Hebrew Nûn, \"fish\")"
+      }
+    ]
+  },
+  {
+    "ref": "EXO 33:12",
+    "greek": "Καὶ εἶπεν Μωυσῆς πρὸς κύριον Ἰδοὺ σύ μοι λέγεις Ἀνάγαγε τὸν λαὸν τοῦτον· σὺ δὲ οὐκ ἐδήλωσάς μοι ὃν συναποστελεῖς μετʼ ἐμοῦ· σὺ δέ μοι εἶπας Οἶδά σε παρὰ πάντας, καὶ χάριν ἔχεις παρʼ ἐμοί.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 144",
+    "hint": "Moses says he has been told to lead the people but not who will go with him.",
+    "notes": [
+      {
+        "lemma": "παρὰ πάντας",
+        "flag": null,
+        "text": "παρά with the accusative, to the side of all, beyond all."
+      },
+      {
+        "lemma": "συναποστελεῖς",
+        "flag": null,
+        "text": "συναποστέλλω, the future, you will despatch together with, plain text."
+      }
+    ],
+    "reading": "And [[said|said, spoke, declared, called by name, told|λέγω]] [[name:Μωυσῆς]] [[toward|toward, facing, oriented to, in living motion and address toward|πρός + accusative]] [[lord|lord, master, the one having power and authority over|κύριος]] [[lo|lo, behold, see there|ἰδού]] you to me [[you say|you say, you speak, you declare, you call by name, you tell|λέγω]] [[lead up|lead up, lead up to the high sea and carry by sea, put to sea, take up, bring up, conduct, celebrate, lift up and raise, bring back, refer, rebuild, reckon and calculate, draw back and withdraw and retreat, reduce in amount and contract, put out to sea and set sail, make ready and prepare yourself|ἀνάγω]] [[the people|the people, the men, the soldiers, the land-army, the common men, the folk, the Jews, the Christians|λαός]] [[this|this, the nearer, what follows|οὗτος]]; you [[but|but, however, whereas, on the other hand|δέ]], not [[you made visible|you made visible and manifest and showed and exhibited, you made known and disclosed and revealed, you proved, you declared and explained and set forth and indicated and signified, you were clear and plain|δηλόω]] to me whom you will despatch together with [[in the midst of|in the midst of, among, in common, along with, with, by means of|μετά + genitive]] of me; you [[but|but, however, whereas, on the other hand|δέ]], to me [[you said|you said, you spoke, you declared, you called by name, you told|λέγω]] [[I know|I know, I am assured, I am versed in|οἶδα]] you [[to the side of|to the side of, motion alongside of, to, beside and near and by, passing by, beyond, contrary to and against, beside and except, on account of and because of and by means of, along the whole course of and during|παρά + accusative]] [[all|all, the whole, every, every single|πᾶς]], and [[outward grace|outward grace, favour, loveliness, graciousness and kindness and goodwill, thankfulness and thanks and gratitude, a favour and kindness and boon, a gratification and delight|χάρις]] [[you have|you have, you hold, you possess, you keep, you dwell in and inhabit, you hold fast, you bear up against and support|ἔχω]] [[beside|beside, alongside of, by, at, before, with|παρά + dative]] to me.",
+    "names": [
+      {
+        "greek": "Μωυσῆς",
+        "unanchored": "Mōusēs",
+        "anchored": "Moses",
+        "bare": true
+      }
+    ],
+    "speech": [
+      "Ἰδοὺ",
+      "Ἀνάγαγε",
+      "Οἶδά"
+    ]
+  },
+  {
+    "ref": "EXO 33:13",
+    "greek": "εἰ οὖν εὕρηκα χάριν ἐναντίον σου, ἐμφάνισόν μοι σεαυτόν· γνωστῶς ἴδω σε, ὅπως ἂν ὦ εὑρηκὼς χάριν ἐναντίον σου, καὶ ἵνα γνῶ ὅτι λαός σου τὸ ἔθνος τὸ μέγα τοῦτο.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, pp. 144–145",
+    "hint": "Moses asks the Lord to show himself, and to remember that this nation is his people.",
+    "notes": [
+      {
+        "lemma": "γνωστῶς",
+        "flag": null,
+        "text": "γνωστῶς, not in Middle Liddell: LSJ's clearly, the adverb inside γνωστός, one translation, plain text."
+      },
+      {
+        "lemma": "ἐμφάνισον",
+        "flag": null,
+        "text": "ἐμφανίζω, to make manifest, exhibit, to represent, to make clear or plain; the passive's to become visible left out (FORM_SENSES)."
+      },
+      {
+        "lemma": "ὦ εὑρηκώς",
+        "flag": null,
+        "text": "εἰμί's subjunctive with the perfect participle: I may be having found."
+      }
+    ],
+    "reading": "[[if|if, whether, come on|εἰ]] [[really|really, at all events, surely, so, then and therefore|οὖν]] [[I have found|I have found and it stands so, I have found out, I have discovered, I have gotten and gained|εὑρίσκω]] [[outward grace|outward grace, favour, loveliness, graciousness and kindness and goodwill, thankfulness and thanks and gratitude, a favour and kindness and boon, a gratification and delight|χάρις]] [[in the presence of|in the presence of and before, opposite and face to face, against|ἐναντίον]] of you, [[make manifest|make manifest and exhibit, represent, make clear or plain|ἐμφανίζω]] to me yourself; clearly [[I may see|I may see, I may perceive, I may behold, I may look at|ὁράω]] you, [[that|that, in order that|ὅπως]] ever I may be [[having found|having found and standing so, having found out, having discovered, having gotten and gained|εὑρίσκω]] [[outward grace|outward grace, favour, loveliness, graciousness and kindness and goodwill, thankfulness and thanks and gratitude, a favour and kindness and boon, a gratification and delight|χάρις]] [[in the presence of|in the presence of and before, opposite and face to face, against|ἐναντίον]] of you, and [[that|that, in order that|ἵνα]] [[I may learn to know|I may learn to know, I may perceive, I may mark, I may learn, I may discern and distinguish|γινώσκω]] [[that|that, seeing that, although, for that, because, inasmuch as|ὅτι]] [[people|people, men, soldiers, land-army, common men, folk, Jews, Christians|λαός]] of you [[the number of people accustomed to live together|the number of people accustomed to live together and company and body of men, the host, the swarms and flocks, the nation and people, the nations and gentiles, the special class, the caste and tribe, the sex|ἔθνος]] [[the big|the big, the great, the tall, the full-grown, the vast and high, the spacious and wide, the strong and mighty, the violent, the loud, the prevailing, the weighty and important|μέγας]] [[this|this, the nearer, what follows|οὗτος]].",
+    "names": []
+  },
+  {
+    "ref": "EXO 33:14",
+    "greek": "καὶ λέγει Αὐτὸς προπορεύσομαί σου καὶ καταπαύσω σε.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 145",
+    "hint": "The Lord promises to go before Moses himself and give him rest.",
+    "notes": [
+      {
+        "lemma": "Αὐτός",
+        "flag": null,
+        "text": "αὐτός, the intensive, with the first person: myself."
+      },
+      {
+        "lemma": "προπορεύσομαί σου",
+        "flag": null,
+        "text": "προπορεύομαι with the genitive, of you: before you."
+      }
+    ],
+    "reading": "and [[says|says, speaks, declares, calls by name, tells|λέγω]] myself [[I will go before|I will go before, I will go forward, I will come forward, I will be promoted and advance|προπορεύομαι]] of you and [[I will lay to rest|I will lay to rest, I will put an end to, I will make to cease, I will stop and keep in check, I will put down|καταπαύω]] you.",
+    "names": [],
+    "speech": [
+      "Αὐτὸς"
+    ]
+  },
+  {
+    "ref": "EXO 33:15",
+    "greek": "καὶ λέγει πρὸς αὐτόν Εἰ μὴ αὐτὸς σὺ πορεύῃ, μή με ἀναγάγῃς ἐντεῦθεν·",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 145",
+    "hint": "Moses answers that unless the Lord goes himself, he should not lead them on.",
+    "notes": [
+      {
+        "lemma": "πορεύῃ",
+        "flag": null,
+        "text": "πορεύομαι's present, you are driven, you go."
+      },
+      {
+        "lemma": "μή με ἀναγάγῃς",
+        "flag": null,
+        "text": "μή with the aorist subjunctive, the prohibition."
+      }
+    ],
+    "reading": "and [[says|says, speaks, declares, calls by name, tells|λέγω]] [[toward|toward, facing, oriented to, in living motion and address toward|πρός + accusative]] him [[if|if, whether, come on|εἰ]] [[not|not, that not, perhaps, surely not and you don't mean to say that|μή]] yourself you [[you are driven|you are driven, you are carried, you go, you walk, you march, you go across and pass|πορεύομαι]], [[not|not, that not, perhaps, surely not and you don't mean to say that|μή]] me [[you may lead up|you may lead up, you may lead up to the high sea and carry by sea, you may put to sea, you may take up, you may bring up, you may conduct, you may celebrate, you may lift up and raise, you may bring back, you may refer, you may rebuild, you may reckon and calculate, you may draw back and withdraw and retreat, you may reduce in amount and contract, you may put out to sea and set sail, you may make ready and prepare yourself|ἀνάγω]] [[hence|hence, thence, henceforth and thenceforth and thereupon, from that source|ἐντεῦθεν]];",
+    "names": [],
+    "speech": [
+      "Εἰ"
+    ]
+  },
+  {
+    "ref": "EXO 33:16",
+    "greek": "καὶ πῶς γνωστὸν ἔσται ἀληθῶς ὅτι εὕρηκα χάριν παρὰ σοί, ἐγώ τε καὶ ὁ λαός σου, ἀλλʼ ἢ συμπορευομένου σου μεθʼ ἡμῶν; καὶ ἐνδοξασθήσομαι ἐγώ τε καὶ ὁ λαός σου παρὰ πάντα τὰ ἔθνη, ὅσα ἐπὶ τῆς γῆς ἐστιν.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 145",
+    "hint": "Only the Lord's going with them marks Moses and the people out from all the nations.",
+    "notes": [
+      {
+        "lemma": "ἐνδοξασθήσομαι",
+        "flag": null,
+        "text": "ἐνδοξάζω, be glorified, one translation, plain text."
+      },
+      {
+        "lemma": "συμπορευομένου σου",
+        "flag": null,
+        "text": "A genitive absolute: of going, of you."
+      },
+      {
+        "lemma": "ἀλλʼ ἢ",
+        "flag": null,
+        "text": "Otherwise or, except."
+      }
+    ],
+    "reading": "and [[how|how, in what way, in what manner|πῶς]] [[known|known and to be known|γνωστός]] will be [[truly|truly, really and actually and in reality|ἀληθῶς]] [[that|that, seeing that, although, for that, because, inasmuch as|ὅτι]] [[I have found|I have found and it stands so, I have found out, I have discovered, I have gotten and gained|εὑρίσκω]] [[outward grace|outward grace, favour, loveliness, graciousness and kindness and goodwill, thankfulness and thanks and gratitude, a favour and kindness and boon, a gratification and delight|χάρις]] [[beside|beside, alongside of, by, at, before, with|παρά + dative]] to you, I [[and|and, both and, and also|τε]] and [[the people|the people, the men, the soldiers, the land-army, the common men, the folk, the Jews, the Christians|λαός]] of you, [[otherwise|otherwise, but, except, yet, but then and however, but really and certainly|ἀλλά]] [[or|or, either or, whether or, than and as, rather|ἤ]] [[of going|of going, of journeying together, of coming together|συμπορεύομαι]] of you [[in the midst of|in the midst of, among, in common, along with, with, by means of|μετά + genitive]] of us? and I will be glorified I [[and|and, both and, and also|τε]] and [[the people|the people, the men, the soldiers, the land-army, the common men, the folk, the Jews, the Christians|λαός]] of you [[to the side of|to the side of, motion alongside of, to, beside and near and by, passing by, beyond, contrary to and against, beside and except, on account of and because of and by means of, along the whole course of and during|παρά + accusative]] [[all|all, the whole, every, every single|πᾶς]] [[the numbers of people accustomed to live together|the numbers of people accustomed to live together and companies and bodies of men, the hosts, the swarms and flocks, the nations and peoples, the nations and gentiles, the special classes, the castes and tribes, the sexes|ἔθνος]], [[as great as|as great as, as much as, as far as, as long as, as many as|ὅσος]] [[upon|upon, on, in, at, near|ἐπί + genitive]] [[of the earth|of the earth, of the land, of the ground|γῆ]] is.",
+    "names": []
+  },
+  {
+    "ref": "EXO 33:17",
+    "greek": "καὶ εἶπεν κύριος πρὸς Μωυσῆν Καὶ τοῦτόν σοι τὸν λόγον, ὃν εἴρηκας, ποιήσω· εὕρηκας γὰρ χάριν ἐνώπιόν μου, καὶ οἶδά σε παρὰ πάντας.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 145",
+    "hint": "The Lord grants the request: Moses has found favour and is known to him.",
+    "notes": [
+      {
+        "lemma": "Καί",
+        "flag": null,
+        "text": "καί as an adverb, also, even: this word too."
+      },
+      {
+        "lemma": "εἴρηκας",
+        "flag": null,
+        "text": "λέγω's perfect, you have said, a standing state."
+      }
+    ],
+    "reading": "and [[said|said, spoke, declared, called by name, told|λέγω]] [[lord|lord, master, the one having power and authority over|κύριος]] [[toward|toward, facing, oriented to, in living motion and address toward|πρός + accusative]] [[name:Μωυσῆν]] [[also|also and even, but, nay, and yet, as, likewise|καί]] [[this|this, the nearer, what follows|οὗτος]] to you [[the word|the word, that by which the inward thought is expressed, the inward thought itself, language and talk, a word and a saying and a statement, an oracle, a saying and a maxim and a proverb, speech and discourse and conversation, report and repute, a tale and a story, a speech and an oration, that which is stated and a proposition and a principle, reason, account and consideration and esteem and regard, due relation and proportion and analogy|λόγος]], which [[you have said|you have said and it stands said, you have spoken, you have declared, you have called by name, you have told|λέγω]], [[I will make|I will make, I will do, I will produce, I will create|ποιέω]]; [[you have found|you have found and it stands so, you have found out, you have discovered, you have gotten and gained|εὑρίσκω]] [[for|for, since and as, for otherwise and else, now, but, why and what, would that|γάρ]] [[outward grace|outward grace, favour, loveliness, graciousness and kindness and goodwill, thankfulness and thanks and gratitude, a favour and kindness and boon, a gratification and delight|χάρις]] face to face of me, and [[I know|I know, I am assured, I am versed in|οἶδα]] you [[to the side of|to the side of, motion alongside of, to, beside and near and by, passing by, beyond, contrary to and against, beside and except, on account of and because of and by means of, along the whole course of and during|παρά + accusative]] [[all|all, the whole, every, every single|πᾶς]].",
+    "names": [
+      {
+        "greek": "Μωυσῆν",
+        "unanchored": "Mōusēn",
+        "anchored": "Moses",
+        "bare": true
+      }
+    ],
+    "speech": [
+      "Καὶ"
+    ]
+  },
+  {
+    "ref": "EXO 33:18",
+    "greek": "καὶ λέγει Δεῖξόν μοι τὴν σεαυτοῦ δόξαν.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 145",
+    "hint": "Moses asks to see the Lord's glory.",
+    "notes": [
+      {
+        "lemma": "δόξαν",
+        "flag": null,
+        "text": "δόξα, a notion, an opinion, the estimation others have of one, glory, splendour."
+      }
+    ],
+    "reading": "and [[says|says, speaks, declares, calls by name, tells|λέγω]] [[bring to light|bring to light and display and exhibit, set before one, show and point out, tell and explain and teach, show and prove, inform against, offer and proffer, cause, welcome and greet and pledge|δείκνυμι]] to me of yourself [[the notion|the notion, the expectation, the opinion and judgment, the mere opinion and conjecture, the fancy and vision and dream, the opinion which others have of one and the estimation and reputation and credit and honour and glory, the estimate popularly formed of a thing, the glory and splendour and effulgence|δόξα]].",
+    "names": [],
+    "speech": [
+      "Δεῖξόν"
+    ]
+  },
+  {
+    "ref": "EXO 33:19",
+    "greek": "καὶ εἶπεν Ἐγὼ παρελεύσομαι πρότερός σου τῇ δόξῃ μου καὶ καλέσω ἐπὶ τῷ ὀνόματί μου Κύριος ἐναντίον σου· καὶ ἐλεήσω ὃν ἂν ἐλεῶ, καὶ οἰκτιρήσω ὃν ἂν οἰκτίρω.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 145",
+    "hint": "The Lord will pass by in his glory and proclaim his name, showing mercy as he wills.",
+    "notes": [
+      {
+        "lemma": "πρότερός σου",
+        "flag": null,
+        "text": "πρότερος with the genitive, before of you."
+      },
+      {
+        "lemma": "Κύριος",
+        "flag": null,
+        "text": "The name proclaimed, capitalised by the edition as the head of the words spoken."
+      },
+      {
+        "lemma": "οἰκτιρήσω … οἰκτίρω",
+        "flag": null,
+        "text": "οἰκτίρω, Middle Liddell's late form of οἰκτείρω: to pity, have pity upon, to pity one for a thing, to be sorry (SPELLING, MARKUP_LOST)."
+      }
+    ],
+    "reading": "and [[said|said, spoke, declared, called by name, told|λέγω]] I [[I will go by|I will go by, I will go beside, I will go past, I will pass by, I will pass, I will outstrip, I will outwit and escape and elude, I will arrive at, I will pass in, I will go into, I will pass without heeding, I will pass over and disregard and slight, I will overstep and transgress, I will pass unnoticed and escape the notice of, I will come forward|παρέρχομαι]] [[before|before and in front and forward, former and sooner, elder, above and superior, earlier|πρότερος]] of you [[to the notion|to the notion, to the expectation, to the opinion and judgment, to the mere opinion and conjecture, to the fancy and vision and dream, to the opinion which others have of one and the estimation and reputation and credit and honour and glory, to the estimate popularly formed of a thing, to the glory and splendour and effulgence|δόξα]] of me and [[I will call|I will call, I will summon, I will call to myself, I will invite|καλέω]] [[upon|upon, on, in, at, near|ἐπί + dative]] [[to the name|to the name, to the fame, to the mere name, to the phrase and expression|ὄνομα]] of me [[lord|lord, master, the one having power and authority over|κύριος]] [[in the presence of|in the presence of and before, opposite and face to face, against|ἐναντίον]] of you; and [[I will have pity on|I will have pity on and shew mercy upon, I will feel pity|ἐλεέω]] whom ever [[I may have pity on|I may have pity on and shew mercy upon, I may feel pity|ἐλεέω]], and [[I will pity|I will pity and feel pity for and have pity upon, I will pity one for or because of a thing, I will be sorry|οἰκτίρω]] whom ever [[I may pity|I may pity and feel pity for and have pity upon, I may pity one for or because of a thing, I may be sorry|οἰκτίρω]].",
+    "names": [],
+    "speech": [
+      "Ἐγὼ",
+      "Κύριος"
+    ]
+  },
+  {
+    "ref": "EXO 33:20",
+    "greek": "καὶ εἶπεν Οὐ δυνήσῃ ἰδεῖν μου τὸ πρόσωπον· οὐ γὰρ μὴ ἴδῃ ἄνθρωπος τὸ πρόσωπόν μου καὶ ζήσεται.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 145",
+    "hint": "No one can see the Lord's face and live.",
+    "notes": [
+      {
+        "lemma": "οὐ γὰρ μή",
+        "flag": null,
+        "text": "The emphatic denial with the aorist subjunctive."
+      }
+    ],
+    "reading": "and [[said|said, spoke, declared, called by name, told|λέγω]] not [[you will be able|you will be able and capable and strong enough, you will be powerful and mighty, you will have influence, you will dare and bear, you will pass for, you will be worth, you will be equivalent to, you will signify and mean, you will avail|δύναμαι]] [[to see|to see, to perceive, to behold, to look at|ὁράω]] of me [[the face|the face and visage and countenance, the look, the mask, the outward appearance|πρόσωπον]]; not [[for|for, since and as, for otherwise and else, now, but, why and what, would that|γάρ]] [[not|not, that not, perhaps, surely not and you don't mean to say that|μή]] [[may see|may see, may perceive, may behold, may look at|ὁράω]] [[man|a man, a human being, mankind|ἄνθρωπος]] [[the face|the face and visage and countenance, the look, the mask, the outward appearance|πρόσωπον]] of me and [[will live|will live, will be in full life and strength and fresh and strong|ζάω]].",
+    "names": [],
+    "speech": [
+      "Οὐ"
+    ]
+  },
+  {
+    "ref": "EXO 33:21",
+    "greek": "καὶ εἶπεν κύριος Ἰδοὺ τόπος παρʼ ἐμοί, στήσῃ ἐπὶ τῆς πέτρας·",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 145",
+    "hint": "There is a place by the Lord where Moses will stand on the rock.",
+    "notes": [
+      {
+        "lemma": "στήσῃ",
+        "flag": null,
+        "text": "ἵστημι, the future middle, intransitive: you will be set, you will stand."
+      }
+    ],
+    "reading": "and [[said|said, spoke, declared, called by name, told|λέγω]] [[lord|lord, master, the one having power and authority over|κύριος]] [[lo|lo, behold, see there|ἰδού]] [[place|place, local circumstances, position, passage in a book, topic, common-place, occasion and opportunity|τόπος]] [[beside|beside, alongside of, by, at, before, with|παρά + dative]] to me, [[you will be set|you will be set, you will be placed and stand, you will be there, you will be in a state and condition, you will lie and be situated, you will stand still and stop and halt, you will stand idle, you will stop and cease and be at rest, you will stand firm, you will stand up and rise up, you will arise and begin|ἵστημι]] [[upon|upon, on, in, at, near|ἐπί + genitive]] [[of the rock|of the rock and ledge and shelf of rock, of the rocky peak and ridge|πέτρα]];",
+    "names": [],
+    "speech": [
+      "Ἰδοὺ"
+    ]
+  },
+  {
+    "ref": "EXO 33:22",
+    "greek": "ἡνίκα δʼ ἂν παρέλθῃ μου ἡ δόξα, καὶ θήσω σε εἰς ὀπὴν τῆς πέτρας καὶ σκεπάσω τῇ χειρί μου ἐπὶ σέ, ἕως ἂν παρέλθω·",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 145",
+    "hint": "As the glory passes, Moses is put in a cleft of the rock and covered by the Lord's hand.",
+    "notes": [
+      {
+        "lemma": "ὀπήν",
+        "flag": null,
+        "text": "ὀπή, an opening, hole, a hole in the roof."
+      },
+      {
+        "lemma": "καὶ θήσω",
+        "flag": null,
+        "text": "καί opening the main clause after the ἡνίκα clause."
+      }
+    ],
+    "reading": "[[at which time|at which time and when, since, whenever|ἡνίκα]] [[but|but, however, whereas, on the other hand|δέ]], ever [[may go by|may go by, may go beside, may go past, may pass by, may pass, may outstrip, may outwit and escape and elude, may arrive at, may pass in, may go into, may pass without heeding, may pass over and disregard and slight, may overstep and transgress, may pass unnoticed and escape the notice of, may come forward|παρέρχομαι]] of me [[the notion|the notion, the expectation, the opinion and judgment, the mere opinion and conjecture, the fancy and vision and dream, the opinion which others have of one and the estimation and reputation and credit and honour and glory, the estimate popularly formed of a thing, the glory and splendour and effulgence|δόξα]], and [[I will set|I will set, I will put, I will place, I will plant, I will lay|τίθημι]] you [[into|into, to, in, rest in|εἰς]] [[an opening|an opening and hole, a hole in the roof|ὀπή]] [[of the rock|of the rock and ledge and shelf of rock, of the rocky peak and ridge|πέτρα]] and [[I will cover|I will cover and shelter|σκεπάζω]] [[to the hand|to the hand, to the hand and arm, to the arm|χείρ]] of me [[upon|upon, on, in, at, near|ἐπί + accusative]] you, [[until|until, till, while and so long as|ἕως]] ever [[I may go by|I may go by, I may go beside, I may go past, I may pass by, I may pass, I may outstrip, I may outwit and escape and elude, I may arrive at, I may pass in, I may go into, I may pass without heeding, I may pass over and disregard and slight, I may overstep and transgress, I may pass unnoticed and escape the notice of, I may come forward|παρέρχομαι]];",
+    "names": []
+  },
+  {
+    "ref": "EXO 33:23",
+    "greek": "καὶ ἀφελῶ τὴν χεῖρα, καὶ τότε ὄψῃ τὰ ὀπίσω μου, τὸ δὲ πρόσωπόν μου οὐκ ὀφθήσεταί σοι.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 145",
+    "hint": "Moses will see the Lord's back, but not his face.",
+    "notes": [
+      {
+        "lemma": "τὰ ὀπίσω μου",
+        "flag": null,
+        "text": "The article over the phrase, the things after of me; ὀπίσω governing the genitive."
+      },
+      {
+        "lemma": "ὀφθήσεται",
+        "flag": null,
+        "text": "ὁράω, the future passive, will be seen, with the dative."
+      }
+    ],
+    "reading": "and [[I will take from|I will take from, I will take away from, I will take off, I will remove, I will separate and set aside|ἀφαιρέω]] [[the hand|the hand, the hand and arm, the arm|χείρ]], and [[at that time|at that time, then, in those times and formerly, at one time|τότε]] [[you will see|you will see, you will perceive, you will behold, you will look at|ὁράω]] the things [[after|after, backwards, back and back again, again, hereafter, behind|ὀπίσω]] of me, [[but|but, however, whereas, on the other hand|δέ]], [[the face|the face and visage and countenance, the look, the mask, the outward appearance|πρόσωπον]] of me not [[will be seen|will be seen, will be looked at, will be beheld and perceived and observed, will be looked out for|ὁράω]] to you.",
+    "names": []
+  }
+]

@@ -8402,3 +8402,41 @@ text uses. Chains already in the corpus (Genesis) were read from it and re-infle
   reads `house-slaves and menials, one's household and the women and children` (GEN 27:37, GEN 44, GEN 50:18, EXO 5).
 - **Morphology**: two disagreements over 809 words, both θυμόω's lemma, which keeps Middle Liddell's spelling. ἐπὶ
   Ααρων at 32:1 is accusative, against the module's dative.
+
+### Words new in EXO 33
+
+- **From LSJ** (not in Middle Liddell): περιστολή `the wrapping up, the laying out, the peristaltic action, the
+  adornment, the restraint and decorum`, LSJ's *adornments* at this verse read in the singular (Q27), its *secretly* a
+  phrase's; γνωστῶς *clearly*, the adverb inside LSJ's γνωστός, which Middle Liddell does not give.
+- **Filed under another form** (`SPELLING`): σκοπεύω, "later form for σκοπέω", `looking at or after, beholding and
+  contemplating, looking out and watching, looking to and considering and examining, looking out for`; οἰκτίρω, "late
+  form of οἰκτείρω", `I will pity and feel pity for and have pity upon, I will pity one for or because of a thing, I
+  will be sorry`, the second sense restored whole (`MARKUP_LOST`).
+- **The second entry** (`ENTRY`): ἄπειμι, of εἶμι, `of going away and departing, of returning, of receding, of
+  going`; the imperative's *be gone* left out of the other forms. The mapping is the lemma's, so ἄπειμι *to be away*,
+  of εἰμί, will need a lemma of its own when the text has it.
+- **A word used as a noun**: φίλος, `the friend, the loved and beloved and dear, the dear, the dear and pleasant and
+  welcome, the one's own, the loving and friendly, the friendly`, its first noun sense heading, as ἐχθρός's at EXO
+  23:4; the masculine leaves out the feminine's, the neuter's and the superlative's nouns, and the predicative and
+  adverbial examples go in `NOT_SENSES`. Its *Lat. amicus, carus* is Latin throughout (`LATIN_ONLY`).
+- **ἵστημι's middle and passive** are intransitive, as the entry says, "Pass. and intr. tenses of Act.": `FORM_SENSES`
+  leaves the causal senses out of them, so ἵστατο reads `was being set, was being placed and standing, …` and στήσῃ the
+  chain of `you will be set`.
+- **A first translation split by «or»** (Q26): πενθικός, «of» or «for mourning, mournful», `of or for mourning and
+  mournful`, with ἐν merged into it; validate.py's GLOSS_LEADS takes `of of or for mourning`, ἐν's own *by means of*
+  running into the gloss's *of*. ἐμφανίζω `make manifest and exhibit, represent, make clear or plain`, the passive's
+  *to become visible* left out.
+- New chains: καταπενθέω `mourned for and bewailed`; ὀπή `an opening and hole, a hole in the roof`; δόξα's genitive
+  plural; σκηνή's anarthrous nominative `a covered place and tent, a camp, a dwelling-place, a temple`; ζητέω's
+  participle with the article; εἰσπορεύομαι's and κατανοέω's imperfects; ἀπολύω's imperfect; θεράπων with the
+  article; δηλόω's second person; εὑρίσκω's perfects; προπορεύομαι's and καταπαύω's first person; πορεύομαι's second
+  person; συμπορεύομαι's participle; λέγω's perfect second person; δείκνυμι's future and imperative; παρέρχομαι's;
+  καλέω's and ἐλεέω's first person; ἀφαιρέω's; ἐξαναλίσκω's subjunctive and future.
+- One translation each, plain text: συναποστέλλω *will despatch together with*; γάλα; μέλι; συναναβαίνω *may go up
+  with*; σκληροτράχηλος *stiff-necked*; ἐνδοξάζω *will be glorified*; ἐνώπιος *face to face*, its dative `to face to
+  face`; γνωστῶς.
+- **Morphology**: the second pass was right on all eight: ἔξω and ὀπίσω before a genitive are prepositions, as the
+  corpus codes ἔξω τῆς παρεμβολῆς at EXO 29:14; ὅσα and τὸ πρόσωπον nominative subjects; καί at 33:17 the adverb,
+  also. ἕως τοῦ εἰσελθεῖν takes the preposition.
+- **words.py**: three SPELLING comments an earlier edit had moved onto χαλκοῦς's line are back beside σφηκία,
+  ἀναγινώσκω and παλαιστής.

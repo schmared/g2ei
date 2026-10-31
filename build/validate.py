@@ -1195,9 +1195,10 @@ PLAIN_LEADS = ("in the presence ", "hearken ")
 # omen*, and its genitive marks the case before the gloss's own *of* — `of of good name` (EXO 14:22);
 # πένης, as an adjective, is *of a poor man*, and its genitive reads `of of a poor man` (EXO 23:6);
 # λιθουργικός is *of or for a λιθουργός*, and its genitive `of of or for a lithourgos` (EXO 28:11).
-# εἰκοσαετής is *of twenty years*, and its genitive `of of twenty years` (EXO 30:14).
+# εἰκοσαετής is *of twenty years*, and its genitive `of of twenty years` (EXO 30:14). πενθικός is *of or for
+# mourning*, and ἐν merged into it ends on its own *by means of*: `… and by means of of or for mourning` (EXO 33:4).
 GLOSS_LEADS = ("of of good name", "of of good omen", "of of a poor man", "of of or for a lithourgos",
-               "of of twenty years")
+               "of of twenty years", "of of or for mourning")
 # What stands in a reading, in order: a unit (its anchor), a name, or plain text.
 PIECES = re.compile(r"\[\[name:[^\]]+\]\]|\[\[(?!name:)([^|\]]+)\|[^|\]]+\|[^|\]]+\]\]|[^\[]+")
 THE_LEADS = re.compile(r"^(?:of |to )?the ")

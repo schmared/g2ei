@@ -699,6 +699,12 @@ lemmas, ἐμπίπλημι its spelling, and Σινα after τῷ ὄρει the
 
 Two disagreements over 809 words, both θυμόω's lemma, kept as Middle Liddell heads it. Every parse agreed.
 
+### What it found in Exodus 33
+
+Eight disagreements over 551 words, and the second pass was right on all eight: ἔξω before τῆς παρεμβολῆς three times
+and ὀπίσω before μου prepositions; ὅσα at 33:16 and τὸ πρόσωπον at 33:23 nominative subjects; Καί at 33:17 the
+adverb.
+
 ## The brief
 
 Copy everything below the rule into a new agent. Replace `<BOOK NAME>`, `<CHAPTER>`,

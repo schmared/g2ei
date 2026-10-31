@@ -566,6 +566,11 @@ LSJ = {
     # LSJ (eng17): πολυπληθύνω, "«multiply»", citing 32:13, one translation.
     "χωνευτός": ["formed of cast metal, molten"],
     "πολυπληθύνω": ["multiply"],
+    # EXO 33. LSJ (eng17): περιστολή, "«wrapping up»", "«laying out»" of a corpse, "«peristaltic action»", "«adornments»",
+    # citing 33:6, "«restraint, decorum»"; its "ἐν π. «secretly»" a phrase's, left out. Middle Liddell has γνωστός, "later
+    # form of γνωτός", and no adverb; LSJ (eng3), inside γνωστός: "Adv. -τῶς «clearly»", one translation.
+    "περιστολή": ["wrapping up", "laying out", "peristaltic action", "adornments", "restraint, decorum"],
+    "γνωστῶς": ["clearly"],
     "διασκευή": ["construction", "equipment", "furniture or vessels", "rhetorical elaboration", "set phrases",
                  "new edition or recension", "theatrical performance"],
     # EXO 12. None of these is in Middle Liddell. LSJ (eng3): γειώρας, "sojourner", "proselyte". LSJ
@@ -1701,6 +1706,12 @@ NOT_SENSES = {
     "e)panastre/fw": {"to turn back upon"},    # "to turn back upon one", cut, whole in MARKUP_LOST
     "r(h/gnumi": {"to break, break asunder", "in pieces, rend, shiver, shatter", "force one's", "breaking into speech",
                   "rumpere vocem", "having let loose"},  # "to break … or in pieces", cut, whole in MARKUP_LOST; a piece, examples', Virgil
+    # EXO 33
+    "a)/peimi": {"return"},
+    "skope/w": {"considering", "being considered"},  # an example's participles, σκοπῶν καὶ σκοπούμενος
+    "oi)ktei/rw": {"to pity", "for", "because of"},  # "«to pity» one «for» or «because of» a thing", cut, whole in MARKUP_LOST
+    "penqiko/s": {"mourning"},                  # the adverb's example, πενθικῶς ἔχειν                    # an example's, ἄπιτε ἐς ὑμέτερα, after "to return"
+    "fi/los": {"pleases", "please", "his own", "friends", "fain", "in a manner dear", "pleasing", "kindly"},  # predicative and adverbial uses' examples
     # EXO 32
     "i(la/skomai": {"to make", "propitious to one, conciliate"},  # "«to make» him «propitious to one, conciliate» him", cut, whole in MARKUP_LOST
     "troph/": {"bruma", "appears to turn his course", "a change", "by figures", "tropes",  # Latin; an explanation's; cut, whole in MARKUP_LOST
@@ -2041,6 +2052,12 @@ FORM_SENSES = {
     "tektoniko/s": [("-", "-", {"a good carpenter", "builder", "joiners' work, carpentry"}, None, "^......N")],
     # οἰκέτης's singular leaves out "οἱ οἰκέται … one's household, the women and children", the plural's (EXO 32).
     "oi)ke/ths": [("-", "-", {"one's household, the women and children"}, None, "^.....S")],
+    # EXO 33. ἄπειμι's "be gone" is the imperative's, οὐκ ἄπει; = ἄπιθι. φίλος's masculine leaves out the feminine's,
+    # the neuter's and the superlative's as nouns.
+    "a)/peimi": [("PIFAXY", "A", NOT_SENSES["a)/peimi"] | {"be gone"}, None, "^...[^D]")],
+    "e)mfani/zw": [("PIFAXY", "A", {"to become visible"})],
+    "fi/los": [("-", "-", NOT_SENSES["fi/los"] | {"a dear one, friend", "an object of love", "one's nearest and dearest"},
+                None, "^......M")],
     # EXO 32. συνίστημι's second aorist active, συνέστη, is intransitive, as the perfect is: its causal senses and the
     # perfect participle's "a well-disciplined" army and "a standing" one left out. παραβαίνω's and διασκεδάννυμι's
     # active leave out the passive's. τροπή's singular leaves out the plural's tropics and solstices. εἶμι's
@@ -2291,7 +2308,15 @@ FORM_SENSES = {
                                "to halt", "to fix", "to set up", "to raise", "up",
                                "to raise, rouse, stir up", "to stir up", "to set up, appoint",
                                "to establish, institute", "to place in the balance, weigh",
-                               "to weigh", "against"})],
+                               "to weigh", "against"}),
+                 # EXO 33. The middle and passive are intransitive too, "Pass. and intr. tenses of Act. to be set
+                 # or placed, to stand": ἵστατο, στήσῃ.
+                 ("PIFAXY", "MEP", {"to make to stand", "to stand", "to make to stand, set", "to set",
+                                    "in array, post", "to make to stand, stop, stay, check",
+                                    "to halt", "to fix", "to set up", "to raise", "up",
+                                    "to raise, rouse, stir up", "to stir up", "to set up, appoint",
+                                    "to establish, institute", "to place in the balance, weigh",
+                                    "to weigh", "against"})],
     # ἀφίστημι: "Causal in pres. and imperf., in fut. ἀποστήσω, aor1 ἀπέστησα", and NOT_SENSES
     # keeps the intransitive. ἀπέστησαν is both aorists' third plural; at GEN 14:4 it is
     # they revolted, so the causal pattern leaves the third plural to the intransitive.
@@ -2559,6 +2584,8 @@ FORM_SENSES = {
 # (κατέναντι reads "= κατεναντίον" and glosses nothing itself). Each is recorded in
 # reference/lexicon-notes.md with the entry it resolves to.
 SPELLING = {
+    "skopeu/w": "skope/w",           # σκοπεύω, "later form for σκοπέω" (EXO 33:8)
+    "oi)kti/rw": "oi)ktei/rw",       # οἰκτίρω, "late form of οἰκτείρω" (EXO 33:19)
     "linou=s": "li/neos",            # the contracted adjective, filed under the uncontracted, as χαλκοῦς (EXO 28:42)
     "a)/nqinos": "a)nqino/s",         # the entry accented ἀνθινός (EXO 28:34)
     "topa/zion": "to/pazos",         # τοπάζιον, which LSJ files under τόπαζος, "also … τοπάζιον, LXX Ex. 28.17" (EXO 28:17)
@@ -2567,11 +2594,11 @@ SPELLING = {
     "e)gxeiri/dion": "e)gxeiri/dios",  # "as Subst., ἐγχειρίδιον … a hand-knife, dagger", inside the adjective (EXO 20:25)
     "dou/lh": "dou=los",              # "Hom. has only the fem. δούλη, a bondwoman", inside δοῦλος (EXO 21:7)
     "kakw=s": "kako/s",               # the adverb, filed inside the adjective's entry, as καλῶς (EXO 22:27)
-    "sfhki/a": "sfhkia/",
-    "a)naginw/skw": "a)nagignw/skw",
+    "sfhki/a": "sfhkia/",          # σφηκία, the entry accented σφηκιά, whose LSJ cites Ex 23:28 (EXO 23:28)
+    "a)naginw/skw": "a)nagignw/skw", # the entry is headed with the Attic spelling, ἀναγιγνώσκω (EXO 24:7)
     "i(lasth/rion": "i(lasth/rios",   # "as Subst., ἱλαστήριον, the mercy-seat", inside the adjective (EXO 25:17)
-    "palaisth/s": "palasth/",
-    "xalkou=s": "xa/lkeos",          # the contracted adjective, filed under the uncontracted, as χρυσοῦς (EXO 26:11)         # LSJ's παλαιστής (B), "v. παλαστή"; Middle Liddell's παλαιστής is a wrestler (EXO 25:25)   # the entry is headed with the Attic spelling, ἀναγιγνώσκω (EXO 24:7)             # σφηκία, the entry accented σφηκιά, whose LSJ cites Ex 23:28 (EXO 23:28)
+    "palaisth/s": "palasth/",        # LSJ's παλαιστής (B), "v. παλαστή"; Middle Liddell's παλαιστής is a wrestler (EXO 25:25)
+    "xalkou=s": "xa/lkeos",          # the contracted adjective, filed under the uncontracted, as χρυσοῦς (EXO 26:11)
     "di/yos": "di/ya",                # δίψος, "= δίψα", and nothing more (EXO 17:3)
     "ko/rion": "kori/annon",          # LSJ's κόριον (B), "shortd. for κορίαννον"; Middle Liddell's κόριον is the diminutive of κόρη (EXO 16:14)
     "sa/bbaton": "*sa/bbaton",        # σάββατον, keyed with the capital (EXO 16:23)
@@ -2741,7 +2768,8 @@ ENTRY = {
     "e(/lic": "e(/lic2",  # e(/lic1 is the adjective, "twisted"; the vine's tendril of GEN 49:11 is the noun
     "pw=s": "pw=s2",     # pw=s1 is Aristotle's unaccented-sense πῶς, "in a certain way"; the
                          # interrogative, "how?", is the second
-    "a)/nw": "a)/nw2",   # a)/nw1 is the verb, "to accomplish"; the adverb of EXO 20:4, "up", is the second
+    "a)/nw": "a)/nw2",
+    "a)/peimi": "a)/peimi2",  # a)/peimi1 is "to be away"; EXO 33:8's ἀπιόντος, of εἶμι, is "to go away"   # a)/nw1 is the verb, "to accomplish"; the adverb of EXO 20:4, "up", is the second
 }
 
 PUNCT = re.compile(r"[.,;:·!?—·()]")
@@ -3002,6 +3030,8 @@ MARKUP_LOST = {
     "troph/": [(9, "a change by figures or tropes"), (13, "the turning of the enemy, putting him to flight, a rout")],
     "a)naka/mptw": [(2, "to bend one's steps back")],
     "ei)=mi": [(2, "I shall go, shall come"), (3, "to come or go")],
+    # EXO 33. οἰκτείρω: "«to pity» one «for» or «because of» a thing".
+    "oi)ktei/rw": [(1, "to pity one for or because of a thing")],
     "suskia/zw": [(0, "to shade quite over, throw a shade over, shade closely or thickly")],
     "a)ki/nhtos": [(5, "not to be stirred or touched, inviolate")],
     "tu/pos": [(5, "the sound of their tread"), (8, "anything wrought of metal or stone")],
@@ -3090,6 +3120,7 @@ LATIN_ONLY = {
     "ou)de/pote",                               # "Lat. ne unquam quidem, nunquam", after "and not ever" or "nor ever, …, never"
     "fuga/s",                                   # "Lat. exul, profugus", after "a runaway, fugitive, a banished man, exile, refugee" (EXO 23:27)
     "xa/lkeos",                                 # "Lat. aeneus, aheneus", after "of copper" or "bronze, brasen" (EXO 26:11)
+    "fi/los",                                   # "Lat. amicus, carus", after "loved, beloved, dear" (EXO 33:11)
 }
 
 # The same loss with Greek in place of Latin. Middle Liddell names a thing by its Greek word
