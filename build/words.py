@@ -395,6 +395,19 @@ LSJ = {
     # ἀναβαθμίς, "step, stair", citing Ex 20:26, one translation.
     "μακροχρόνιος": ["lasting a long time, lingering", "dwelling a long time", "long-lived"],
     "ἀναβαθμίς": ["step, stair"],
+    # EXO 21. None of these is in Middle Liddell. LSJ (eng11): κατάκαυμα, "anything burnt", "fiery inflammation",
+    # "burning", citing Ex 21:25, the plural's "burnt parts" and "burns" left to the plural; κερατίζω, "butt with
+    # horns", and c. acc. "gore", citing Ex 21:28; κερατιστής, "one that butts", citing Ex 21:29, 36. LSJ (eng12):
+    # λατομέω, "quarry", and "λ. λάκκον «hew» it «out»", citing Ex 21:33, whole. LSJ (eng17): προσαποθνήσκω, "die
+    # besides" or "with", citing Ex 21:29, whole. LSJ (eng5): ἐξεικονίζω, "explain by a simile", Pass. "to be
+    # fully shapen" or "formed", citing Ex 21:22, and "to be exactly like"; "formed in the image of" is a
+    # participle's, in an example.
+    "κατάκαυμα": ["anything burnt", "fiery inflammation", "burning"],
+    "κερατίζω": ["butt with horns", "gore"],
+    "κερατιστής": ["one that butts"],
+    "λατομέω": ["quarry", "hew it out"],
+    "προσαποθνήσκω": ["die besides or with"],
+    "ἐξεικονίζω": ["explain by a simile", "to be fully shapen or formed", "to be exactly like"],
     # EXO 12. None of these is in Middle Liddell. LSJ (eng3): γειώρας, "sojourner", "proselyte". LSJ
     # (eng4): δέσμη, "package, bundle", "a measure in Egypt", "in Medicine, handful"; Rahlfs prints the
     # accusative δεσμήν, the module δέσμην. LSJ (eng5): ἐνδόσθια, "= ἐντόσθια", a pointer to ἐντόσθιος,
@@ -1493,6 +1506,25 @@ NOT_SENSES = {
     "yeudh/s": {"lying", "a liar", "lying men", "lies);", "in falsehood", "falsehoods, lies", "falsely"},  # a repeat; the noun's; examples'; the neuter plural's; the adverb's
     "tima/w": {"penalty", "against", "condemned", "for", "he estimates", "at"},  # examples' pieces
     "e)gxeiri/dion": {"in the hand"},         # the adjective's; the noun is "as Subst." inside ἐγχειρίδιος
+    # EXO 21
+    "dou/lh": {"a born bondman", "slave", "one made a slave", "a bondman, slave", "slave to",
+               "slavish, servile, subject"},  # the masculine's and the adjective's: δούλη is the feminine inside δοῦλος
+    "e)leu/qeros": {"of freedom", "freedom", "to freedom"},  # examples', and the neuter's as a noun
+    "suneise/rxomai": {"to enter along with", "together"},  # cut, whole in MARKUP_LOST
+    "krith/rion": {"a means for judging", "trying, a criterion, standard, test"},  # cut, whole in MARKUP_LOST
+    "trupa/w": {"having", "pierced for earrings", "which had a hole in it", "to force", "through"},  # the passive's examples; cut, whole in MARKUP_LOST
+    "a)qete/w": {"refuse", "request"},          # cut, whole in MARKUP_LOST
+    "o(mili/a": {"communion", "intercourse with", "intercourse", "mates"},  # repeats of the first sense; a piece of "ship-mates"
+    "a)postere/w": {"from"},                   # a piece of the construction
+    "pugmh/": {"diligently;", "often, with;", "the distance from the elbow to the knuckles, = 18"},  # the NT's interpretation by other words, πύκα and πυκνά; the measure's <tr> run on into "= 18 δάκτυλοι", whole in MARKUP_LOST
+    "katakli/nw": {"having made", "recline"},  # an example's participle
+    "di/kh": {"custom", "judgment", "trial", "make amends", "punishment", "vengeance", "penalty", "satisfaction",
+              "to have their causes tried"},  # repeats; phrases' (δίκην διδόναι, λαμβάνειν, ὀφλεῖν, αἰτεῖν)
+    "zhmio/w": {"will suffer", "losses", "to be fined", "amerced in"},  # cut, whole in MARKUP_LOST
+    "e)pizh/mios": {"penalties"},              # the neuter plural's as a noun
+    "lu/tron": {"as ransom", "ransom", "for"},  # examples' and a piece
+    "gnwri/zw": {"to make known"},             # a repeat
+    "a)ci/wma": {"honour"},                    # an example's, γάμων ἀξ., a repeat of the first sense
     "de/on": {"things needful", "proper, advantages", "duties", "in good time", "for a needful purpose", "secret service"},  # τὰ δέοντα cut, whole in MARKUP_LOST; phrases'
     "o)fei/lw": {"debemur morti)", "it is", "destiny", "(ought", "owe)", "O that thou hadst", "O that I had",
                  "would thou hadst never", "would"},  # Horace; examples' translations; the note on "ought"
@@ -1620,6 +1652,10 @@ _APOLLUMI_ACT = {"to destroy utterly, kill, slay", "to destroy, demolish, waste"
 _APOLLUMI_MID = {"to perish utterly, die", "to be undone", "you are done for, lost, ruined",
                  "to be lost, slip away, vanish"}
 FORM_SENSES = {
+    # EXO 21. ἀποστερέω's active leaves out the passive's; δίκη's other cases the accusative's "δίκην as adv.,
+    # after the manner of".
+    "a)postere/w": [("PIFAXY", "A", NOT_SENSES["a)postere/w"] | {"to be robbed", "deprived of"})],
+    "di/kh": [("-", "-", NOT_SENSES["di/kh"] | {"after the manner of"}, None, "^....[NGDV]")],
     # EXO 20. τιμάω's active leaves out the passive's and the middle's; φονεύω's the passive's.
     "tima/w": [("PIFAXY", "A", NOT_SENSES["tima/w"] | {"to be honoured, held in honour", "to be held worthy",
                                                        "to estimate"})],
@@ -2104,6 +2140,7 @@ SPELLING = {
     "e(kato/ntarxos": "e(katonta/rxhs",  # ἑκατόνταρχος, Middle Liddell's ἑκατοντάρχης, "leader of a hundred" (EXO 18:21)
     "kri/ma": "kri=ma",               # κρίμα, the entry headed with the circumflex (EXO 18:22)
     "e)gxeiri/dion": "e)gxeiri/dios",  # "as Subst., ἐγχειρίδιον … a hand-knife, dagger", inside the adjective (EXO 20:25)
+    "dou/lh": "dou=los",              # "Hom. has only the fem. δούλη, a bondwoman", inside δοῦλος (EXO 21:7)
     "di/yos": "di/ya",                # δίψος, "= δίψα", and nothing more (EXO 17:3)
     "ko/rion": "kori/annon",          # LSJ's κόριον (B), "shortd. for κορίαννον"; Middle Liddell's κόριον is the diminutive of κόρη (EXO 16:14)
     "sa/bbaton": "*sa/bbaton",        # σάββατον, keyed with the capital (EXO 16:23)
@@ -2441,6 +2478,15 @@ MARKUP_LOST = {
     "prosa/gw": [(25, "to draw all eyes upon oneself")],
     "pte/ruc": [(6, "anything that covers or protects")],
     "h)xe/w": [(2, "to let it sound")],
+    # EXO 21. συνεισέρχομαι: "«to enter along with» or «together»"; κριτήριον: "«a means for judging» or «trying,
+    # a criterion, standard, test»"; τρυπάω: "«to force» the point «through» the foot"; ἀθετέω: "«refuse» his
+    # «request»"; ζημιόω: "μεγάλα ζημιώσεται «will suffer» great «losses»", "«to be fined» or «amerced in»".
+    "suneise/rxomai": [(0, "to enter along with or together")],
+    "krith/rion": [(0, "a means for judging or trying, a criterion, standard, test")],
+    "trupa/w": [(4, "to force the point through")],
+    "a)qete/w": [(2, "refuse his request")],
+    "zhmio/w": [(2, "will suffer great losses"), (6, "to be fined or amerced in")],
+    "pugmh/": [(4, "the distance from the elbow to the knuckles")],  # the <tr> runs on into the equation "= 18 δάκτυλοι"
     "de/on": [(1, "things needful or proper, advantages or duties")],  # τὰ δέοντα «things needful» or «proper, advantages» or «duties»
     "pleona/zw": [(2, "to go beyond bounds, take or claim too much")],
     "pikrai/nw": [(0, "to make sharp or bitter")],

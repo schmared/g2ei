@@ -307,3 +307,22 @@ aorist's middle are two.
 
 **Recommendation:** read the present from the card as the aorist is read, and restore *to be beside, to be by or
 near, attend upon* whole in `MARKUP_LOST`, so both heads begin where the entry does.
+
+## Q16. κύριος with an infinitive — the noun or the adjective
+
+**Where:** EXO 21:8, ἔθνει δὲ ἀλλοτρίῳ οὐ κύριός ἐστιν πωλεῖν αὐτήν.
+
+**Now:** the noun, as the corpus reads κύριος in some five hundred places: `not lord is to exchange her`. The
+second pass read the adjective, Middle Liddell's first entry, *κύριός εἰμι, c. inf., I have authority to do, am
+entitled to do*, which is the construction here. Both entries are filed under one key, and the noun's card is the
+adjective's entry.
+
+- now: `not [[lord]] is to exchange her`
+- the adjective: `not [[having power]] is to exchange her`, with the adjective's range: `having power and
+  authority over and lord and master of, …`
+
+**The difference:** the adjective is the construction Middle Liddell names for κύριος with an infinitive; the
+noun keeps one reading of κύριος across the corpus.
+
+**Recommendation:** code it A- and read the adjective's entry where κύριος is predicate with an infinitive, and
+settle which entry the noun reads (ENTRY to the second) at the same time.

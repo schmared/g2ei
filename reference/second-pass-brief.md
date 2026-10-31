@@ -631,6 +631,13 @@ Three disagreements over 503 words, and the second pass was right on all three: 
 images and likenesses of 20:4; and ἐάν after the relative at 20:24 is the particle, as at 16:5. Both passes read
 μεμίανται (20:25) as plural; it is the perfect's third singular, which the module has.
 
+### What it found in Exodus 21
+
+Twelve disagreements over 687 words, and the second pass was right on most: the nominatives of 21:1, 21:4 and
+21:28, καί as *also* twice at 21:3, and πλήν at 21:19 as the conjunction. κύριος with the infinitive at 21:8
+stays the noun, as the corpus reads it (open question Q16), and δέον keeps Middle Liddell's headword. The
+second pass worked from a transcription that read αὐτῷ at 21:8 where Rahlfs prints αὑτῷ.
+
 ## The brief
 
 Copy everything below the rule into a new agent. Replace `<BOOK NAME>`, `<CHAPTER>`,

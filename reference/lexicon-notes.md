@@ -3530,7 +3530,7 @@ otherwise.
 | ἐκβάλλω | pres. 2 sg | `you throw` | the chain of GEN 3:24, in the form | 4:14 |
 | κρύπτω | fut. pass. 1 sg | `I will be hidden` | the chain of GEN 3:10, in the form | 4:14 |
 | εὑρίσκω | pres. ptcp. | `the one finding` | `the one finding, the one finding out, the one discovering` | 4:14, 4:15 |
-| ἐκδικέω | pres. ptcp. pass. pl. / perf. 3 sg | `things being avenged` · `has been avenged` | `things being avenged, things being punished, things on which vengeance is exacted` · `has been avenged and stands avenged, has been punished and stands punished` | 4:15, 4:24 |
+| ἐκδικέω | pres. ptcp. pass. pl. / perf. 3 sg | `things being avenged` · `has been avenged` | `things being avenged and punished, things on which vengeance is exacted, things being avenged, things being avenged one on another` · `has been avenged and punished and stands so, has had vengeance exacted for it and stands so, has been avenged and stands so, has been avenged one on another and stands so` | 4:15, 4:24 |
 | παραλύω | fut. 3 sg | `will loose from the side` | `will loose from the side and take off and detach, will undo and put an end to, will set free, will loose beside` | 4:15 |
 | ἀναιρέω | aor. inf. | `to take up` | `to take up, to raise, to take up and carry off, to make away with and destroy and kill, to abolish` | 4:15 |
 | ἐξέρχομαι | aor. 3 sg | `went out of` | `went out of, came out, went away and marched off, went forth` | 4:16 |
@@ -7814,3 +7814,56 @@ text uses. Chains already in the corpus (Genesis) were read from it and re-infle
   ἀποκαλύπτω `you may uncover`; ἀσχημοσύνη `the want of form`.
 - One translation each, plain text: ἕξ (*six*), υἱός, θυγάτηρ, μισέω's active (*the ones hating*),
   θυσιαστήριον (*an altar*). The relative ὅστις is plain *who*, as ἥτις reads *which* at 9:18.
+
+### Words new in EXO 21
+
+- **From LSJ** (not in Middle Liddell): κατάκαυμα, `anything burnt, fiery inflammation, burning`, the plural's
+  *burnt parts* and *burns* left to the plural; κερατίζω, `may butt with horns, may gore`; κερατιστής, *one that
+  butts*, plain text; λατομέω, `may quarry, may hew it out`; προσαποθνήσκω, `will die besides and with`, *die
+  besides or with* whole; ἐξεικονίζω, `having been explained by a simile and standing so, having been fully
+  shapen and formed, having been exactly like` (21:22, 21:23).
+- **In neither lexicon**: ὀπήτιον (21:6), plain text, *to the awl*, as σφυροκόπος at GEN 4:22.
+- **Filed inside another word** (`SPELLING`): δούλη under δοῦλος, "Hom. has only the fem. δούλη, a
+  bondwoman", the masculine's and the adjective's senses set aside by δούλη's own key: *the bondwomen*, plain
+  text (21:7).
+- **Cut translations restored** (`MARKUP_LOST`): συνεισέρχομαι, *to enter along with or together*; κριτήριον, *a
+  means for judging or trying, a criterion, standard, test*; τρυπάω, *to force the point through*; ἀθετέω,
+  *refuse his request*; ζημιόω, *will suffer great losses* and *to be fined or amerced in*; πυγμή's measure, *the
+  distance from the elbow to the knuckles*, the `<tr>` having run on into "= 18 δάκτυλοι".
+- **Form** (`FORM_SENSES`): ἀποστερέω's active leaves out the passive's; δίκη's other cases the accusative's
+  *after the manner of*.
+- **Pieces set aside** (`NOT_SENSES`): ἐλεύθερος, συνεισέρχομαι, κριτήριον, τρυπάω, ἀθετέω, ὁμιλία (repeats of
+  the first sense), ἀποστερέω, πυγμή (the NT's interpretation by πύκα and πυκνά), κατακλίνω (an example's
+  participle), δίκη (repeats; the phrases δίκην διδόναι, λαμβάνειν, ὀφλεῖν, αἰτεῖν), ζημιόω, ἐπιζήμιος, λύτρον,
+  γνωρίζω, ἀξίωμα.
+- **The dative's own English**: πυγμῇ's *with the fist, in boxing* and δίκῃ's *duly, rightly* carry no *to*, as
+  βίᾳ (open question Q4).
+- **Runs joined**: ἐκδικέω at GEN 4:15 and 4:24 had split *to avenge, punish* and stopped short of *to avenge*
+  and *to avenge one on another*; both now read the card's four, as 21:20 and 21:21 do.
+- **Morphology**: the second pass was right on six: the heading's ταῦτα τὰ δικαιώματα (21:1), τὰ παιδία (21:4)
+  and τὰ κρέα (21:28) are nominative; καί at 21:3 is *also*, twice; πλήν at 21:19 is the conjunction, *only*,
+  τῆς ἀργίας the genitive ἀποτίνω governs. αὑτῷ at 21:8 is the reflexive, a misreading of the scan corrected.
+- New chains: δικαίωμα `the act by which wrong is set right`; παρατίθημι `you will place beside`; κτάομαι `you may
+  procure for yourself`; ἐλεύθερος `free`; συνεισέρχομαι `may enter along with`; τίκτω `may bring into the world`;
+  ἀγαπάω `I have treated with affection`; ἀποτρέχω `I run off`; προσάγω `will bring to`; κριτήριον `the means for
+  judging`; σταθμός `the standing place`; τρυπάω `will bore`; οὖς `the ear`; ἀποδίδωμι `may give away of his own
+  will`, `will give away of their own will`; εὐαρεστέω `may be well pleasing`; καθομολογέω `confessed`, `may
+  confess`; πωλέω `to exchange`; ἀθετέω `set aside`; λαμβάνω `may take`; ἱματισμός `the clothing`; ὁμιλία `the
+  being together`; ἀποστερέω `will rob`; θανατόω `let be put to death`; ἑκών `willing`; φεύγω `will flee`; φονεύω
+  `the one having murdered`; ἐπιτίθημι `may put on himself`; δόλος `to a bait`; καταφεύγω `may flee for refuge`;
+  τύπτω `beats`; κακολογέω `the one speaking ill of`; τελευτάω `may complete`, `let complete`, `the thing having
+  completed`, `the one having completed`; κλέπτω `may steal`; λοιδορέω `may rail at one another`; λίθος `to a
+  stone`, `to stones`; πυγμή `to a fist`; κατακλίνω `may be laid down`; περιπατέω `may walk up and down`; ῥάβδος
+  `of a rod`, `in a rod`; ἀργία `of the idleness`; ἀποτίνω `will pay back`; δίκη `to custom`; ἐκδικέω `let be
+  avenged`, `will be avenged`; διαβιόω `may live through`; μάχομαι `may fight`; ἐπιζήμιος `bringing loss upon`;
+  ζημιόω `will be caused loss`; ἐπιβάλλω `may throw`, `may be thrown`; ἀξίωμα `of that of which one is thought
+  worthy`; ὀφθαλμός `eye`, `of eye`, `the eye`, `of the eye`; πούς `of foot`; τραῦμα `of a wound`; μώλωψ `of mark of
+  a stripe`; οἰκέτης `of the house-slave`; κερατίζω `may butt with horns`; διαμαρτύρομαι `may protest solemnly`,
+  `having protested solemnly`; ἀφανίζω `may make unseen`; ἀναιρέω `may take up and raise`; λύτρον `prices paid`;
+  ἀνοίγω `may open`; λάκκος `a pond`; καλύπτω `may cover with`; ἐμπίπτω `may fall in`; μόσχος `a calf`, `of the
+  calf`; ὄνος `an ass`; ζάω `the one living`; διαιρέω `will take one from another`, the middle's with it; θνήσκω
+  `the one being dead`; γνωρίζω `may be made known`; σφάζω `may slay`; πρόβατον `of the thing that walks forward`.
+- One translation each, plain text: ἔτος (*a year*), ἀπολυτρόω (*will release on payment of ransom*), οἰκέτις
+  (*mistress of the house*), καταδυναστεύω (*having exercised power over*), ἰατρεῖον (*the surgeries*), ἐκτυφλόω
+  (*may make quite blind*), ὀδούς (*a tooth*), ταῦρος (*a bull*), καθότι (*in what manner*), ἐχθές, τρεῖς,
+  τριάκοντα, πέντε, τέσσαρες.
