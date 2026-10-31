@@ -308,6 +308,11 @@ aorist's middle are two.
 **Recommendation:** read the present from the card as the aorist is read, and restore *to be beside, to be by or
 near, attend upon* whole in `MARKUP_LOST`, so both heads begin where the entry does.
 
+**Since EXO 36:** the first half is done. EXO 36:4's imperfect παρεγίνοντο shares the present's voice code, so one
+word, one range set the four-sense present against the eight-sense imperfect, and the five present units now read
+the card as the aorist does: `is near and attends upon, …, is fully grown` (`I am near …`, `be near …`). The
+`MARKUP_LOST` restoration of *to be beside, to be by or near* is not done; the heads still begin at *near*.
+
 ## Q16. κύριος with an infinitive — the noun or the adjective
 
 **Where:** EXO 21:8, ἔθνει δὲ ἀλλοτρίῳ οὐ κύριός ἐστιν πωλεῖν αὐτήν.
