@@ -655,6 +655,12 @@ files the comparative; τὰ ὑπολειπόμενα the object of ἔδετα
 Four disagreements over 398 words, and the second pass was right on three: τὸ αἷμα after ἰδού nominative, both
 words, and οὐδὲ εἷς the adverb, as 14:28 codes it. Σινα after τὸ ὄρος τό stays appositional, as at 19:20.
 
+### What it found in Exodus 25
+
+Fourteen disagreements over 667 words, and the second pass was right on ten: ἡμίσους masculine with the cubit
+understood, six times; ἄνωθεν with a genitive the preposition; τρύβλιον accented as Middle Liddell heads it; οἷς and
+αὐτοῖς at 25:29 neuter. ὑάκινθος stays masculine, διὰ παντός neuter, καρυΐσκος with LSJ's diaeresis.
+
 ## The brief
 
 Copy everything below the rule into a new agent. Replace `<BOOK NAME>`, `<CHAPTER>`,

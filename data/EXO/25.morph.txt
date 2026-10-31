@@ -1,0 +1,695 @@
+# Exodus 25 — morphology, one word per line.
+#
+# This is the project's own grammatical analysis of each form, written alongside the
+# transcription and not copied from any digital edition.
+#
+# Columns: verse, part of speech, parse, form, lemma — in MorphGNT's code scheme, so
+# the Old and New Testament layers read alike. The parse is eight places: person,
+# tense, voice, mood, case, number, gender, degree ("-" where it does not apply).
+#
+# Two codes go beyond MorphGNT, both to record only what the form itself says:
+#   voice  E  middle/passive — a tense in which the two share one form
+#   gender C  masculine/feminine — an adjective whose form does not distinguish them
+#
+# A trailing annotation records a deliberate difference and the reason for it:
+#   "# module …"  from the reference module, checked when LXX_RAHLFS_DIR is set
+#   "# corpus …"  from this project's own analysis of the same form elsewhere
+# A line may carry both. validate.py prints them as notes instead of failures — and
+# fails if the difference a note claims is not there, so they cannot go stale. The
+# analysis here is this project's own: the module is a reference, not an authority,
+# and the corpus is held to itself.
+#
+# Indeclinables take case and number from the syntax, as MorphGNT does, and gender
+# where there is one to take: a personal name, from the person; a numeral agreeing
+# with its noun; a common noun whose article shows it — but not an indeclinable place
+# name, which has none. A personal name the New Testament also uses takes MorphGNT's
+# dictionary form (Νῶε, Σήμ); every other Semitic name (Χαμ, Ιαφεθ), the form Rahlfs
+# prints.
+
+25:1 C- -------- Καὶ καί
+25:1 V- 3AAI-S-- ἐλάλησεν λαλέω
+25:1 N- ----NSM- κύριος κύριος
+25:1 P- -------- πρὸς πρός
+25:1 N- ----ASM- Μωυσῆν Μωϋσῆς  # module lemma Μωσεύς — Μωϋσῆς, as MorphGNT files it
+25:1 V- -PAPNSM- λέγων λέγω
+25:2 V- 2AAD-S-- Εἰπὸν λέγω  # module lemma ἔπω — λέγω keeps one dictionary form across both testaments
+25:2 RA ----DPM- τοῖς ὁ
+25:2 N- ----DPM- υἱοῖς υἱός
+25:2 N- ----GSM- Ισραηλ Ἰσραήλ
+25:2 C- -------- καὶ καί
+25:2 V- 2AAD-P-- λάβετέ λαμβάνω
+25:2 RP ----DS-- μοι ἐγώ  # module lemma μοι, the form itself — ἐγώ is the dictionary form
+25:2 N- ----APF- ἀπαρχὰς ἀπαρχή
+25:2 P- -------- παρὰ παρά
+25:2 A- ----GPM- πάντων πᾶς
+25:2 RR ----DPM- οἷς ὅς
+25:2 X- -------- ἂν ἄν
+25:2 V- 3AAS-S-- δόξῃ δοκέω
+25:2 RA ----DSF- τῇ ὁ
+25:2 N- ----DSF- καρδίᾳ καρδία
+25:2 C- -------- καὶ καί
+25:2 V- 2FMI-P-- λήμψεσθε λαμβάνω
+25:2 RA ----APF- τὰς ὁ
+25:2 N- ----APF- ἀπαρχάς ἀπαρχή
+25:2 RP ----GS-- μου ἐγώ  # module lemma μου, the form itself — ἐγώ is the dictionary form
+25:3 C- -------- καὶ καί
+25:3 RD ----NSF- αὕτη οὗτος
+25:3 V- 3PAI-S-- ἐστὶν εἰμί
+25:3 RA ----NSF- ἡ ὁ
+25:3 N- ----NSF- ἀπαρχή ἀπαρχή
+25:3 RR ----ASF- ἣν ὅς
+25:3 V- 2FMI-P-- λήμψεσθε λαμβάνω
+25:3 P- -------- παρʼ παρά
+25:3 RP ----GPM- αὐτῶν αὐτός
+25:3 N- ----ASN- χρυσίον χρυσίον
+25:3 C- -------- καὶ καί
+25:3 N- ----ASN- ἀργύριον ἀργύριον
+25:3 C- -------- καὶ καί
+25:3 N- ----ASM- χαλκὸν χαλκός
+25:4 C- -------- καὶ καί
+25:4 N- ----ASM- ὑάκινθον ὑάκινθος  # module ASF — masculine, ὁ, as Middle Liddell heads ὑάκινθος first
+25:4 C- -------- καὶ καί
+25:4 N- ----ASF- πορφύραν πορφύρα
+25:4 C- -------- καὶ καί
+25:4 A- ----ASN- κόκκινον κόκκινος  # module ASM — neuter, the scarlet stuff, as GEN 38:28's κόκκινον
+25:4 A- ----ASN- διπλοῦν διπλοῦς  # module ASM — neuter, with κόκκινον
+25:4 C- -------- καὶ καί
+25:4 N- ----ASF- βύσσον βύσσος
+25:4 V- -XEPASF- κεκλωσμένην κλώθω
+25:4 C- -------- καὶ καί
+25:4 N- ----APF- τρίχας θρίξ
+25:4 A- ----APF- αἰγείας αἴγειος
+25:5 C- -------- καὶ καί
+25:5 N- ----APN- δέρματα δέρμα
+25:5 N- ----GPM- κριῶν κριός
+25:5 V- -XEPAPN- ἠρυθροδανωμένα ἐρυθροδανόω
+25:5 C- -------- καὶ καί
+25:5 N- ----APN- δέρματα δέρμα
+25:5 A- ----APN- ὑακίνθινα ὑακίνθινος
+25:5 C- -------- καὶ καί
+25:5 N- ----APN- ξύλα ξύλον
+25:5 A- ----APN- ἄσηπτα ἄσηπτος
+25:7 C- -------- καὶ καί
+25:7 N- ----APM- λίθους λίθος
+25:7 N- ----GSN- σαρδίου σάρδιον  # module lemma σάρδιος — σάρδιον, the noun, as Middle Liddell heads it
+25:7 C- -------- καὶ καί
+25:7 N- ----APM- λίθους λίθος
+25:7 P- -------- εἰς εἰς
+25:7 RA ----ASF- τὴν ὁ
+25:7 N- ----ASF- γλυφὴν γλυφή
+25:7 P- -------- εἰς εἰς
+25:7 RA ----ASF- τὴν ὁ
+25:7 N- ----ASF- ἐπωμίδα ἐπωμίς
+25:7 C- -------- καὶ καί
+25:7 RA ----ASM- τὸν ὁ
+25:7 A- ----ASC- ποδήρη ποδήρης
+25:8 C- -------- καὶ καί
+25:8 V- 2FAI-S-- ποιήσεις ποιέω
+25:8 RP ----DS-- μοι ἐγώ  # module lemma μοι, the form itself — ἐγώ is the dictionary form
+25:8 N- ----ASN- ἁγίασμα ἁγίασμα
+25:8 C- -------- καὶ καί
+25:8 V- 1FPI-S-- ὀφθήσομαι ὁράω
+25:8 P- -------- ἐν ἐν
+25:8 RP ----DP-- ὑμῖν σύ  # module lemma ὑμῖν, the form itself — σύ is the dictionary form
+25:9 C- -------- καὶ καί
+25:9 V- 2FAI-S-- ποιήσεις ποιέω
+25:9 RP ----DS-- μοι ἐγώ  # module lemma μοι, the form itself — ἐγώ is the dictionary form
+25:9 P- -------- κατὰ κατά
+25:9 A- ----APN- πάντα πᾶς
+25:9 RR ----APN- ὅσα ὅσος
+25:9 RP ----NS-- ἐγώ ἐγώ
+25:9 RP ----DS-- σοι σύ  # module lemma σοί, the form itself — σύ is the dictionary form
+25:9 V- 1PAI-S-- δεικνύω δείκνυμι  # module lemma δεικνύω — δείκνυμι, as Middle Liddell heads it
+25:9 P- -------- ἐν ἐν
+25:9 RA ----DSN- τῷ ὁ
+25:9 N- ----DSN- ὄρει ὄρος
+25:9 RA ----ASN- τὸ ὁ
+25:9 N- ----ASN- παράδειγμα παράδειγμα
+25:9 RA ----GSF- τῆς ὁ
+25:9 N- ----GSF- σκηνῆς σκηνή
+25:9 C- -------- καὶ καί
+25:9 RA ----ASN- τὸ ὁ
+25:9 N- ----ASN- παράδειγμα παράδειγμα
+25:9 A- ----GPN- πάντων πᾶς  # module GPM — neuter, with τῶν σκευῶν
+25:9 RA ----GPN- τῶν ὁ  # module GPF — neuter, with σκευῶν
+25:9 N- ----GPN- σκευῶν σκεῦος
+25:9 RP ----GSF- αὐτῆς αὐτός
+25:9 D- -------- οὕτω οὕτως
+25:9 V- 2FAI-S-- ποιήσεις ποιέω
+25:10 C- -------- Καὶ καί
+25:10 V- 2FAI-S-- ποιήσεις ποιέω
+25:10 N- ----ASF- κιβωτὸν κιβωτός
+25:10 N- ----GSN- μαρτυρίου μαρτύριον
+25:10 P- -------- ἐκ ἐκ
+25:10 N- ----GPN- ξύλων ξύλον
+25:10 A- ----GPN- ἀσήπτων ἄσηπτος
+25:10 A- ----GPM- δύο δύο  # module M, no features — MorphGNT gives δύο case, number and gender like any adjective
+25:10 N- ----GPM- πήχεων πῆχυς
+25:10 C- -------- καὶ καί
+25:10 A- ----GSM- ἡμίσους ἥμισυς  # module GSN — masculine, with the cubit understood, πήχεος
+25:10 RA ----ASN- τὸ ὁ
+25:10 N- ----ASN- μῆκος μῆκος
+25:10 C- -------- καὶ καί
+25:10 N- ----GSM- πήχεος πῆχυς
+25:10 C- -------- καὶ καί
+25:10 A- ----GSM- ἡμίσους ἥμισυς  # module GSN — masculine, with the cubit understood, πήχεος
+25:10 RA ----ASN- τὸ ὁ
+25:10 N- ----ASN- πλάτος πλάτος
+25:10 C- -------- καὶ καί
+25:10 N- ----GSM- πήχεος πῆχυς
+25:10 C- -------- καὶ καί
+25:10 A- ----GSM- ἡμίσους ἥμισυς  # module GSN — masculine, with the cubit understood, πήχεος
+25:10 RA ----ASN- τὸ ὁ
+25:10 N- ----ASN- ὕψος ὕψος
+25:11 C- -------- καὶ καί
+25:11 V- 2FAI-S-- καταχρυσώσεις καταχρυσόω
+25:11 RP ----ASF- αὐτὴν αὐτός
+25:11 N- ----DSN- χρυσίῳ χρυσίον
+25:11 A- ----DSN- καθαρῷ καθαρός
+25:11 D- -------- ἔξωθεν ἔξωθεν
+25:11 C- -------- καὶ καί
+25:11 D- -------- ἔσωθεν ἔσωθεν
+25:11 V- 2FAI-S-- χρυσώσεις χρυσόω
+25:11 RP ----ASF- αὐτήν αὐτός
+25:11 C- -------- καὶ καί
+25:11 V- 2FAI-S-- ποιήσεις ποιέω
+25:11 RP ----DSF- αὐτῇ αὐτός
+25:11 N- ----APN- κυμάτια κυμάτιον
+25:11 A- ----APN- στρεπτὰ στρεπτός
+25:11 A- ----APN- χρυσᾶ χρυσοῦς  # module lemma χρύσεος — χρυσοῦς, the contracted form, as MorphGNT files it, like διπλοῦς
+25:11 D- -------- κύκλῳ κύκλῳ  # module N.DSM — the adverb, round about, with no genitive after it
+25:12 C- -------- καὶ καί
+25:12 V- 2FAI-S-- ἐλάσεις ἐλαύνω
+25:12 RP ----DSF- αὐτῇ αὐτός
+25:12 A- ----APC- τέσσαρας τέσσαρες
+25:12 N- ----APM- δακτυλίους δακτύλιος
+25:12 A- ----APM- χρυσοῦς χρυσοῦς  # module lemma χρύσεος — χρυσοῦς, the contracted form, as MorphGNT files it, like διπλοῦς
+25:12 C- -------- καὶ καί
+25:12 V- 2FAI-S-- ἐπιθήσεις ἐπιτίθημι
+25:12 P- -------- ἐπὶ ἐπί
+25:12 RA ----APN- τὰ ὁ
+25:12 A- ----APN- τέσσαρα τέσσαρες
+25:12 N- ----APN- κλίτη κλίτος
+25:12 A- ----APM- δύο δύο  # module M, no features — MorphGNT gives δύο case, number and gender like any adjective
+25:12 N- ----APM- δακτυλίους δακτύλιος
+25:12 P- -------- ἐπὶ ἐπί
+25:12 RA ----ASN- τὸ ὁ
+25:12 N- ----ASN- κλίτος κλίτος
+25:12 RA ----ASN- τὸ ὁ
+25:12 A- ----ASN- ἓν εἷς
+25:12 C- -------- καὶ καί
+25:12 A- ----APM- δύο δύο  # module M, no features — MorphGNT gives δύο case, number and gender like any adjective
+25:12 N- ----APM- δακτυλίους δακτύλιος
+25:12 P- -------- ἐπὶ ἐπί
+25:12 RA ----ASN- τὸ ὁ
+25:12 N- ----ASN- κλίτος κλίτος
+25:12 RA ----ASN- τὸ ὁ
+25:12 A- ----ASN- δεύτερον δεύτερος
+25:13 V- 2FAI-S-- ποιήσεις ποιέω
+25:13 C- -------- δὲ δέ
+25:13 N- ----APM- ἀναφορεῖς ἀναφορεύς
+25:13 N- ----APN- ξύλα ξύλον
+25:13 A- ----APN- ἄσηπτα ἄσηπτος
+25:13 C- -------- καὶ καί
+25:13 V- 2FAI-S-- καταχρυσώσεις καταχρυσόω
+25:13 RP ----APN- αὐτὰ αὐτός
+25:13 N- ----DSN- χρυσίῳ χρυσίον
+25:14 C- -------- καὶ καί
+25:14 V- 2FAI-S-- εἰσάξεις εἰσάγω
+25:14 RA ----APM- τοὺς ὁ
+25:14 N- ----APM- ἀναφορεῖς ἀναφορεύς
+25:14 P- -------- εἰς εἰς
+25:14 RA ----APM- τοὺς ὁ
+25:14 N- ----APM- δακτυλίους δακτύλιος
+25:14 RA ----APM- τοὺς ὁ
+25:14 P- -------- ἐν ἐν
+25:14 RA ----DPN- τοῖς ὁ
+25:14 N- ----DPN- κλίτεσι κλίτος
+25:14 RA ----GSF- τῆς ὁ
+25:14 N- ----GSF- κιβωτοῦ κιβωτός
+25:14 V- -PAN---- αἴρειν αἴρω
+25:14 RA ----ASF- τὴν ὁ
+25:14 N- ----ASF- κιβωτὸν κιβωτός
+25:14 P- -------- ἐν ἐν
+25:14 RP ----DPM- αὐτοῖς αὐτός
+25:15 P- -------- ἐν ἐν
+25:15 RA ----DPM- τοῖς ὁ
+25:15 N- ----DPM- δακτυλίοις δακτύλιος
+25:15 RA ----GSF- τῆς ὁ
+25:15 N- ----GSF- κιβωτοῦ κιβωτός
+25:15 V- 3FMI-P-- ἔσονται εἰμί
+25:15 RA ----NPM- οἱ ὁ
+25:15 N- ----NPM- ἀναφορεῖς ἀναφορεύς
+25:15 A- ----NPC- ἀκίνητοι ἀκίνητος
+25:16 C- -------- καὶ καί
+25:16 V- 2FAI-S-- ἐμβαλεῖς ἐμβάλλω
+25:16 P- -------- εἰς εἰς
+25:16 RA ----ASF- τὴν ὁ
+25:16 N- ----ASF- κιβωτὸν κιβωτός
+25:16 RA ----APN- τὰ ὁ
+25:16 N- ----APN- μαρτύρια μαρτύριον
+25:16 RR ----APN- ἃ ὅς
+25:16 X- -------- ἂν ἄν
+25:16 V- 1AAS-S-- δῶ δίδωμι
+25:16 RP ----DS-- σοι σύ  # module lemma σοί, the form itself — σύ is the dictionary form
+25:17 C- -------- καὶ καί
+25:17 V- 2FAI-S-- ποιήσεις ποιέω
+25:17 N- ----ASN- ἱλαστήριον ἱλαστήριον  # module lemma ἱλαστήριος — ἱλαστήριον, the noun, as MorphGNT files Heb 9:5; Middle Liddell gives it as Subst. inside ἱλαστήριος
+25:17 N- ----ASN- ἐπίθεμα ἐπίθεμα
+25:17 N- ----GSN- χρυσίου χρυσίον
+25:17 A- ----GSN- καθαροῦ καθαρός
+25:17 A- ----GPM- δύο δύο  # module M, no features — MorphGNT gives δύο case, number and gender like any adjective
+25:17 N- ----GPM- πήχεων πῆχυς
+25:17 C- -------- καὶ καί
+25:17 A- ----GSM- ἡμίσους ἥμισυς  # module GSN — masculine, with the cubit understood, πήχεος
+25:17 RA ----ASN- τὸ ὁ
+25:17 N- ----ASN- μῆκος μῆκος
+25:17 C- -------- καὶ καί
+25:17 N- ----GSM- πήχεος πῆχυς
+25:17 C- -------- καὶ καί
+25:17 A- ----GSM- ἡμίσους ἥμισυς  # module GSN — masculine, with the cubit understood, πήχεος
+25:17 RA ----ASN- τὸ ὁ
+25:17 N- ----ASN- πλάτος πλάτος
+25:18 C- -------- καὶ καί
+25:18 V- 2FAI-S-- ποιήσεις ποιέω
+25:18 A- ----APN- δύο δύο  # module M, no features — MorphGNT gives δύο case, number and gender like any adjective
+25:18 N- ----APN- χερουβιμ χερουβιμ  # module lemma χερούβ — as printed, unaccented, like the Semitic names
+25:18 A- ----APN- χρυσᾶ χρυσοῦς  # module lemma χρύσεος — χρυσοῦς, the contracted form, as MorphGNT files it, like διπλοῦς
+25:18 A- ----APN- τορευτὰ τορευτός
+25:18 C- -------- καὶ καί
+25:18 V- 2FAI-S-- ἐπιθήσεις ἐπιτίθημι
+25:18 RP ----APN- αὐτὰ αὐτός
+25:18 P- -------- ἐξ ἐκ
+25:18 A- ----GPN- ἀμφοτέρων ἀμφότερος
+25:18 RA ----GPN- τῶν ὁ
+25:18 N- ----GPN- κλιτῶν κλίτος
+25:18 RA ----GSN- τοῦ ὁ
+25:18 N- ----GSN- ἱλαστηρίου ἱλαστήριον  # module lemma ἱλαστήριος — ἱλαστήριον, the noun, as MorphGNT files Heb 9:5; Middle Liddell gives it as Subst. inside ἱλαστήριος
+25:19 V- 3FPI-P-- ποιηθήσονται ποιέω
+25:19 N- ----NSM- χερουβ χερουβ  # module lemma χερούβ — as printed, unaccented, like the Semitic names
+25:19 A- ----NSM- εἷς εἷς
+25:19 P- -------- ἐκ ἐκ
+25:19 RA ----GSN- τοῦ ὁ
+25:19 N- ----GSN- κλίτους κλίτος
+25:19 RD ----GSN- τούτου οὗτος
+25:19 C- -------- καὶ καί
+25:19 N- ----NSM- χερουβ χερουβ  # module lemma χερούβ — as printed, unaccented, like the Semitic names
+25:19 A- ----NSM- εἷς εἷς
+25:19 P- -------- ἐκ ἐκ
+25:19 RA ----GSN- τοῦ ὁ
+25:19 N- ----GSN- κλίτους κλίτος
+25:19 RA ----GSN- τοῦ ὁ
+25:19 A- ----GSN- δευτέρου δεύτερος
+25:19 RA ----GSN- τοῦ ὁ
+25:19 N- ----GSN- ἱλαστηρίου ἱλαστήριον  # module lemma ἱλαστήριος — ἱλαστήριον, the noun, as MorphGNT files Heb 9:5; Middle Liddell gives it as Subst. inside ἱλαστήριος
+25:19 C- -------- καὶ καί
+25:19 V- 2FAI-S-- ποιήσεις ποιέω
+25:19 RA ----APM- τοὺς ὁ
+25:19 A- ----APM- δύο δύο  # module M, no features — MorphGNT gives δύο case, number and gender like any adjective
+25:19 N- ----APM- χερουβιμ χερουβιμ  # module lemma χερούβ — as printed, unaccented, like the Semitic names  # corpus masculine here, with τούς, and οἱ … ἐκτείνοντες in 25:20; neuter at 25:18 and GEN 3:24, with neuter words
+25:19 P- -------- ἐπὶ ἐπί
+25:19 RA ----APN- τὰ ὁ
+25:19 A- ----APN- δύο δύο  # module M, no features — MorphGNT gives δύο case, number and gender like any adjective
+25:19 N- ----APN- κλίτη κλίτος
+25:20 V- 3FMI-P-- ἔσονται εἰμί
+25:20 RA ----NPM- οἱ ὁ
+25:20 N- ----NPM- χερουβιμ χερουβιμ  # module lemma χερούβ — as printed, unaccented, like the Semitic names
+25:20 V- -PAPNPM- ἐκτείνοντες ἐκτείνω
+25:20 RA ----APF- τὰς ὁ
+25:20 N- ----APF- πτέρυγας πτέρυξ
+25:20 D- -------- ἐπάνωθεν ἐπάνωθεν
+25:20 V- -PAPNPM- συσκιάζοντες συσκιάζω
+25:20 RA ----DPF- ταῖς ὁ
+25:20 N- ----DPF- πτέρυξιν πτέρυξ
+25:20 RP ----GPM- αὐτῶν αὐτός
+25:20 P- -------- ἐπὶ ἐπί
+25:20 RA ----GSN- τοῦ ὁ
+25:20 N- ----GSN- ἱλαστηρίου ἱλαστήριον  # module lemma ἱλαστήριος — ἱλαστήριον, the noun, as MorphGNT files Heb 9:5; Middle Liddell gives it as Subst. inside ἱλαστήριος
+25:20 C- -------- καὶ καί
+25:20 RA ----NPN- τὰ ὁ
+25:20 N- ----NPN- πρόσωπα πρόσωπον
+25:20 RP ----GPM- αὐτῶν αὐτός
+25:20 P- -------- εἰς εἰς
+25:20 RP ----APN- ἄλληλα ἀλλήλων
+25:20 P- -------- εἰς εἰς
+25:20 RA ----ASN- τὸ ὁ
+25:20 N- ----ASN- ἱλαστήριον ἱλαστήριον  # module lemma ἱλαστήριος — ἱλαστήριον, the noun, as MorphGNT files Heb 9:5; Middle Liddell gives it as Subst. inside ἱλαστήριος
+25:20 V- 3FMI-P-- ἔσονται εἰμί
+25:20 RA ----NPN- τὰ ὁ  # module APN — nominative, the subject of ἔσονται
+25:20 N- ----NPN- πρόσωπα πρόσωπον  # module APN — nominative, the subject of ἔσονται
+25:20 RA ----GPM- τῶν ὁ
+25:20 N- ----GPM- χερουβιμ χερουβιμ  # module lemma χερούβ — as printed, unaccented, like the Semitic names
+25:21 C- -------- καὶ καί
+25:21 V- 2FAI-S-- ἐπιθήσεις ἐπιτίθημι
+25:21 RA ----ASN- τὸ ὁ
+25:21 N- ----ASN- ἱλαστήριον ἱλαστήριον  # module lemma ἱλαστήριος — ἱλαστήριον, the noun, as MorphGNT files Heb 9:5; Middle Liddell gives it as Subst. inside ἱλαστήριος
+25:21 P- -------- ἐπὶ ἐπί
+25:21 RA ----ASF- τὴν ὁ
+25:21 N- ----ASF- κιβωτὸν κιβωτός
+25:21 D- -------- ἄνωθεν ἄνωθεν
+25:21 C- -------- καὶ καί
+25:21 P- -------- εἰς εἰς
+25:21 RA ----ASF- τὴν ὁ
+25:21 N- ----ASF- κιβωτὸν κιβωτός
+25:21 V- 2FAI-S-- ἐμβαλεῖς ἐμβάλλω
+25:21 RA ----APN- τὰ ὁ
+25:21 N- ----APN- μαρτύρια μαρτύριον
+25:21 RR ----APN- ἃ ὅς
+25:21 X- -------- ἂν ἄν
+25:21 V- 1AAS-S-- δῶ δίδωμι
+25:21 RP ----DS-- σοι σύ  # module lemma σοί, the form itself — σύ is the dictionary form
+25:22 C- -------- καὶ καί
+25:22 V- 1FPI-S-- γνωσθήσομαί γινώσκω
+25:22 RP ----DS-- σοι σύ  # module lemma σοί, the form itself — σύ is the dictionary form
+25:22 D- -------- ἐκεῖθεν ἐκεῖθεν
+25:22 C- -------- καὶ καί
+25:22 V- 1FAI-S-- λαλήσω λαλέω  # module AAS — the future, with γνωσθήσομαι; the two forms are alike  # corpus the future, with γνωσθήσομαι; the aorist subjunctive at GEN 18:30 has the same form
+25:22 RP ----DS-- σοι σύ  # module lemma σοί, the form itself — σύ is the dictionary form
+25:22 P- -------- ἄνωθεν ἄνωθεν
+25:22 RA ----GSN- τοῦ ὁ
+25:22 N- ----GSN- ἱλαστηρίου ἱλαστήριον  # module lemma ἱλαστήριος — ἱλαστήριον, the noun, as MorphGNT files Heb 9:5; Middle Liddell gives it as Subst. inside ἱλαστήριος
+25:22 P- -------- ἀνὰ ἀνά
+25:22 A- ----ASN- μέσον μέσος
+25:22 RA ----GPM- τῶν ὁ
+25:22 A- ----GPM- δύο δύο  # module M, no features — MorphGNT gives δύο case, number and gender like any adjective
+25:22 N- ----GPM- χερουβιμ χερουβιμ  # module lemma χερούβ — as printed, unaccented, like the Semitic names
+25:22 RA ----GPM- τῶν ὁ
+25:22 V- -PAPGPM- ὄντων εἰμί
+25:22 P- -------- ἐπὶ ἐπί
+25:22 RA ----GSF- τῆς ὁ
+25:22 N- ----GSF- κιβωτοῦ κιβωτός
+25:22 RA ----GSN- τοῦ ὁ
+25:22 N- ----GSN- μαρτυρίου μαρτύριον
+25:22 C- -------- καὶ καί
+25:22 P- -------- κατὰ κατά
+25:22 A- ----APN- πάντα πᾶς
+25:22 RR ----APN- ὅσα ὅσος
+25:22 X- -------- ἂν ἄν
+25:22 V- 1AMS-S-- ἐντείλωμαί ἐντέλλομαι
+25:22 RP ----DS-- σοι σύ  # module lemma σοί, the form itself — σύ is the dictionary form
+25:22 P- -------- πρὸς πρός
+25:22 RA ----APM- τοὺς ὁ
+25:22 N- ----APM- υἱοὺς υἱός
+25:22 N- ----GSM- Ισραηλ Ἰσραήλ
+25:23 C- -------- Καὶ καί
+25:23 V- 2FAI-S-- ποιήσεις ποιέω
+25:23 N- ----ASF- τράπεζαν τράπεζα
+25:23 N- ----GSN- χρυσίου χρυσίον
+25:23 A- ----GSN- καθαροῦ καθαρός
+25:23 A- ----GPM- δύο δύο  # module M, no features — MorphGNT gives δύο case, number and gender like any adjective
+25:23 N- ----GPM- πήχεων πῆχυς
+25:23 RA ----ASN- τὸ ὁ
+25:23 N- ----ASN- μῆκος μῆκος
+25:23 C- -------- καὶ καί
+25:23 N- ----GSM- πήχεος πῆχυς
+25:23 RA ----ASN- τὸ ὁ
+25:23 N- ----ASN- εὖρος εὖρος
+25:23 C- -------- καὶ καί
+25:23 N- ----GSM- πήχεος πῆχυς
+25:23 C- -------- καὶ καί
+25:23 A- ----GSM- ἡμίσους ἥμισυς  # module GSN — masculine, with the cubit understood, πήχεος
+25:23 RA ----ASN- τὸ ὁ
+25:23 N- ----ASN- ὕψος ὕψος
+25:24 C- -------- καὶ καί
+25:24 V- 2FAI-S-- ποιήσεις ποιέω
+25:24 RP ----DSF- αὐτῇ αὐτός
+25:24 A- ----APN- στρεπτὰ στρεπτός
+25:24 N- ----APN- κυμάτια κυμάτιον
+25:24 A- ----APN- χρυσᾶ χρυσοῦς  # module lemma χρύσεος — χρυσοῦς, the contracted form, as MorphGNT files it, like διπλοῦς
+25:24 D- -------- κύκλῳ κύκλῳ  # module N.DSM — the adverb, round about, with no genitive after it
+25:25 C- -------- καὶ καί
+25:25 V- 2FAI-S-- ποιήσεις ποιέω
+25:25 RP ----DSF- αὐτῇ αὐτός
+25:25 N- ----ASF- στεφάνην στεφάνη
+25:25 N- ----GSM- παλαιστοῦ παλαιστής  # module lemma παλαιστή — παλαιστής, LSJ's second entry, which points to παλαστή; παλαιστοῦ is masculine
+25:25 D- -------- κύκλῳ κύκλῳ  # module N.DSM — the adverb, round about, with no genitive after it
+25:25 C- -------- καὶ καί
+25:25 V- 2FAI-S-- ποιήσεις ποιέω
+25:25 A- ----ASN- στρεπτὸν στρεπτός
+25:25 N- ----ASN- κυμάτιον κυμάτιον
+25:25 RA ----DSF- τῇ ὁ
+25:25 N- ----DSF- στεφάνῃ στεφάνη
+25:25 D- -------- κύκλῳ κύκλῳ  # module N.DSM — the adverb, round about, with no genitive after it
+25:26 C- -------- καὶ καί
+25:26 V- 2FAI-S-- ποιήσεις ποιέω
+25:26 A- ----APC- τέσσαρας τέσσαρες
+25:26 N- ----APM- δακτυλίους δακτύλιος
+25:26 A- ----APM- χρυσοῦς χρυσοῦς  # module lemma χρύσεος — χρυσοῦς, the contracted form, as MorphGNT files it, like διπλοῦς
+25:26 C- -------- καὶ καί
+25:26 V- 2FAI-S-- ἐπιθήσεις ἐπιτίθημι
+25:26 RA ----APM- τοὺς ὁ
+25:26 N- ----APM- δακτυλίους δακτύλιος
+25:26 P- -------- ἐπὶ ἐπί
+25:26 RA ----APN- τὰ ὁ
+25:26 A- ----APN- τέσσαρα τέσσαρες
+25:26 N- ----APN- μέρη μέρος
+25:26 RA ----GPM- τῶν ὁ
+25:26 N- ----GPM- ποδῶν πούς
+25:26 RP ----GSF- αὐτῆς αὐτός
+25:27 P- -------- ὑπὸ ὑπό
+25:27 RA ----ASF- τὴν ὁ
+25:27 N- ----ASF- στεφάνην στεφάνη
+25:27 C- -------- καὶ καί
+25:27 V- 3FMI-P-- ἔσονται εἰμί
+25:27 RA ----NPM- οἱ ὁ
+25:27 N- ----NPM- δακτύλιοι δακτύλιος
+25:27 P- -------- εἰς εἰς
+25:27 N- ----APF- θήκας θήκη
+25:27 RA ----DPM- τοῖς ὁ
+25:27 N- ----DPM- ἀναφορεῦσιν ἀναφορεύς
+25:27 C- -------- ὥστε ὥστε
+25:27 V- -PAN---- αἴρειν αἴρω
+25:27 P- -------- ἐν ἐν
+25:27 RP ----DPM- αὐτοῖς αὐτός
+25:27 RA ----ASF- τὴν ὁ
+25:27 N- ----ASF- τράπεζαν τράπεζα
+25:28 C- -------- καὶ καί
+25:28 V- 2FAI-S-- ποιήσεις ποιέω
+25:28 RA ----APM- τοὺς ὁ
+25:28 N- ----APM- ἀναφορεῖς ἀναφορεύς
+25:28 P- -------- ἐκ ἐκ
+25:28 N- ----GPN- ξύλων ξύλον
+25:28 A- ----GPN- ἀσήπτων ἄσηπτος
+25:28 C- -------- καὶ καί
+25:28 V- 2FAI-S-- καταχρυσώσεις καταχρυσόω
+25:28 RP ----APM- αὐτοὺς αὐτός
+25:28 N- ----DSN- χρυσίῳ χρυσίον
+25:28 A- ----DSN- καθαρῷ καθαρός
+25:28 C- -------- καὶ καί
+25:28 V- 3FPI-S-- ἀρθήσεται αἴρω
+25:28 P- -------- ἐν ἐν
+25:28 RP ----DPM- αὐτοῖς αὐτός
+25:28 RA ----NSF- ἡ ὁ
+25:28 N- ----NSF- τράπεζα τράπεζα
+25:29 C- -------- καὶ καί
+25:29 V- 2FAI-S-- ποιήσεις ποιέω
+25:29 RA ----APN- τὰ ὁ
+25:29 N- ----APN- τρυβλία τρύβλιον
+25:29 RP ----GSF- αὐτῆς αὐτός
+25:29 C- -------- καὶ καί
+25:29 RA ----APF- τὰς ὁ
+25:29 N- ----APF- θυίσκας θυΐσκη
+25:29 C- -------- καὶ καί
+25:29 RA ----APN- τὰ ὁ
+25:29 N- ----APN- σπονδεῖα σπονδεῖον
+25:29 C- -------- καὶ καί
+25:29 RA ----APM- τοὺς ὁ
+25:29 N- ----APM- κυάθους κύαθος
+25:29 P- -------- ἐν ἐν
+25:29 RR ----DPN- οἷς ὅς  # module DPM — neuter, with the vessels, as αὐτά at the end of the verse
+25:29 V- 2FAI-S-- σπείσεις σπένδω
+25:29 P- -------- ἐν ἐν
+25:29 RP ----DPN- αὐτοῖς αὐτός  # module DPM — neuter, with the vessels, as αὐτά at the end of the verse
+25:29 N- ----GSN- χρυσίου χρυσίον
+25:29 A- ----GSN- καθαροῦ καθαρός
+25:29 V- 2FAI-S-- ποιήσεις ποιέω
+25:29 RP ----APN- αὐτά αὐτός
+25:30 C- -------- καὶ καί
+25:30 V- 2FAI-S-- ἐπιθήσεις ἐπιτίθημι
+25:30 P- -------- ἐπὶ ἐπί
+25:30 RA ----ASF- τὴν ὁ
+25:30 N- ----ASF- τράπεζαν τράπεζα
+25:30 N- ----APM- ἄρτους ἄρτος
+25:30 A- ----APM- ἐνωπίους ἐνώπιος
+25:30 P- -------- ἐναντίον ἐναντίον
+25:30 RP ----GS-- μου ἐγώ  # module lemma μου, the form itself — ἐγώ is the dictionary form
+25:30 P- -------- διὰ διά
+25:30 A- ----GSN- παντός πᾶς  # module GSM — neuter, διὰ παντός, continually, as the corpus codes it
+25:31 C- -------- Καὶ καί
+25:31 V- 2FAI-S-- ποιήσεις ποιέω
+25:31 N- ----ASF- λυχνίαν λυχνία
+25:31 P- -------- ἐκ ἐκ
+25:31 N- ----GSN- χρυσίου χρυσίον
+25:31 A- ----GSN- καθαροῦ καθαρός
+25:31 A- ----ASF- τορευτὴν τορευτός
+25:31 V- 2FAI-S-- ποιήσεις ποιέω
+25:31 RA ----ASF- τὴν ὁ
+25:31 N- ----ASF- λυχνίαν λυχνία
+25:31 RA ----NSM- ὁ ὁ
+25:31 N- ----NSM- καυλὸς καυλός
+25:31 RP ----GSF- αὐτῆς αὐτός
+25:31 C- -------- καὶ καί
+25:31 RA ----NPM- οἱ ὁ
+25:31 N- ----NPM- καλαμίσκοι καλαμίσκος
+25:31 C- -------- καὶ καί
+25:31 RA ----NPM- οἱ ὁ
+25:31 N- ----NPM- κρατῆρες κρατήρ
+25:31 C- -------- καὶ καί
+25:31 RA ----NPM- οἱ ὁ
+25:31 N- ----NPM- σφαιρωτῆρες σφαιρωτήρ
+25:31 C- -------- καὶ καί
+25:31 RA ----NPN- τὰ ὁ
+25:31 N- ----NPN- κρίνα κρίνον
+25:31 P- -------- ἐξ ἐκ
+25:31 RP ----GSF- αὐτῆς αὐτός
+25:31 V- 3FMI-S-- ἔσται εἰμί
+25:32 A- ----NPM- ἓξ ἕξ  # module M, no features — MorphGNT gives ἕξ case, number and gender like any adjective
+25:32 C- -------- δὲ δέ
+25:32 N- ----NPM- καλαμίσκοι καλαμίσκος
+25:32 V- -PEPNPM- ἐκπορευόμενοι ἐκπορεύομαι
+25:32 P- -------- ἐκ ἐκ
+25:32 A- ----GPN- πλαγίων πλάγιος
+25:32 A- ----NPC- τρεῖς τρεῖς
+25:32 N- ----NPM- καλαμίσκοι καλαμίσκος
+25:32 RA ----GSF- τῆς ὁ
+25:32 N- ----GSF- λυχνίας λυχνία
+25:32 P- -------- ἐκ ἐκ
+25:32 RA ----GSN- τοῦ ὁ
+25:32 N- ----GSN- κλίτους κλίτος
+25:32 RP ----GSF- αὐτῆς αὐτός
+25:32 RA ----GSN- τοῦ ὁ
+25:32 A- ----GSN- ἑνὸς εἷς
+25:32 C- -------- καὶ καί
+25:32 A- ----NPC- τρεῖς τρεῖς
+25:32 N- ----NPM- καλαμίσκοι καλαμίσκος
+25:32 RA ----GSF- τῆς ὁ
+25:32 N- ----GSF- λυχνίας λυχνία
+25:32 P- -------- ἐκ ἐκ
+25:32 RA ----GSN- τοῦ ὁ
+25:32 N- ----GSN- κλίτους κλίτος
+25:32 RA ----GSN- τοῦ ὁ
+25:32 A- ----GSN- δευτέρου δεύτερος
+25:33 C- -------- καὶ καί
+25:33 A- ----NPC- τρεῖς τρεῖς
+25:33 N- ----NPM- κρατῆρες κρατήρ
+25:33 V- -XEPNPM- ἐκτετυπωμένοι ἐκτυπόω
+25:33 N- ----APM- καρυίσκους καρυΐσκος  # module lemma καρυίσκος — καρυΐσκος, as LSJ heads it, with the diaeresis
+25:33 P- -------- ἐν ἐν
+25:33 RA ----DSM- τῷ ὁ
+25:33 A- ----DSM- ἑνὶ εἷς
+25:33 N- ----DSM- καλαμίσκῳ καλαμίσκος
+25:33 N- ----NSM- σφαιρωτὴρ σφαιρωτήρ
+25:33 C- -------- καὶ καί
+25:33 N- ----NSN- κρίνον κρίνον
+25:33 D- -------- οὕτως οὕτως
+25:33 RA ----DPM- τοῖς ὁ
+25:33 A- ----DPM- ἓξ ἕξ  # module M, no features — MorphGNT gives ἕξ case, number and gender like any adjective
+25:33 N- ----DPM- καλαμίσκοις καλαμίσκος
+25:33 RA ----DPM- τοῖς ὁ
+25:33 V- -PEPDPM- ἐκπορευομένοις ἐκπορεύομαι
+25:33 P- -------- ἐκ ἐκ
+25:33 RA ----GSF- τῆς ὁ
+25:33 N- ----GSF- λυχνίας λυχνία
+25:34 C- -------- καὶ καί
+25:34 P- -------- ἐν ἐν
+25:34 RA ----DSF- τῇ ὁ
+25:34 N- ----DSF- λυχνίᾳ λυχνία
+25:34 A- ----NPC- τέσσαρες τέσσαρες
+25:34 N- ----NPM- κρατῆρες κρατήρ
+25:34 V- -XEPNPM- ἐκτετυπωμένοι ἐκτυπόω
+25:34 N- ----APM- καρυίσκους καρυΐσκος  # module lemma καρυίσκος — καρυΐσκος, as LSJ heads it, with the diaeresis
+25:34 P- -------- ἐν ἐν
+25:34 RA ----DSM- τῷ ὁ
+25:34 A- ----DSM- ἑνὶ εἷς
+25:34 N- ----DSM- καλαμίσκῳ καλαμίσκος
+25:34 RA ----NPM- οἱ ὁ
+25:34 N- ----NPM- σφαιρωτῆρες σφαιρωτήρ
+25:34 C- -------- καὶ καί
+25:34 RA ----NPN- τὰ ὁ
+25:34 N- ----NPN- κρίνα κρίνον
+25:34 RP ----GSF- αὐτῆς αὐτός
+25:35 RA ----NSM- ὁ ὁ
+25:35 N- ----NSM- σφαιρωτὴρ σφαιρωτήρ
+25:35 P- -------- ὑπὸ ὑπό
+25:35 RA ----APM- τοὺς ὁ
+25:35 A- ----APM- δύο δύο  # module M, no features — MorphGNT gives δύο case, number and gender like any adjective
+25:35 N- ----APM- καλαμίσκους καλαμίσκος
+25:35 P- -------- ἐξ ἐκ
+25:35 RP ----GSF- αὐτῆς αὐτός
+25:35 C- -------- καὶ καί
+25:35 N- ----NSM- σφαιρωτὴρ σφαιρωτήρ
+25:35 P- -------- ὑπὸ ὑπό
+25:35 RA ----APM- τοὺς ὁ
+25:35 A- ----APC- τέσσαρας τέσσαρες
+25:35 N- ----APM- καλαμίσκους καλαμίσκος
+25:35 P- -------- ἐξ ἐκ
+25:35 RP ----GSF- αὐτῆς αὐτός
+25:35 D- -------- οὕτως οὕτως
+25:35 RA ----DPM- τοῖς ὁ
+25:35 A- ----DPM- ἓξ ἕξ  # module M, no features — MorphGNT gives ἕξ case, number and gender like any adjective
+25:35 N- ----DPM- καλαμίσκοις καλαμίσκος
+25:35 RA ----DPM- τοῖς ὁ
+25:35 V- -PEPDPM- ἐκπορευομένοις ἐκπορεύομαι
+25:35 P- -------- ἐκ ἐκ
+25:35 RA ----GSF- τῆς ὁ
+25:35 N- ----GSF- λυχνίας λυχνία
+25:36 RA ----NPM- οἱ ὁ
+25:36 N- ----NPM- σφαιρωτῆρες σφαιρωτήρ
+25:36 C- -------- καὶ καί
+25:36 RA ----NPM- οἱ ὁ
+25:36 N- ----NPM- καλαμίσκοι καλαμίσκος
+25:36 P- -------- ἐξ ἐκ
+25:36 RP ----GSF- αὐτῆς αὐτός
+25:36 V- 3PAD-P-- ἔστωσαν εἰμί
+25:36 A- ----NSF- ὅλη ὅλος
+25:36 A- ----NSF- τορευτὴ τορευτός
+25:36 P- -------- ἐξ ἐκ
+25:36 A- ----GSN- ἑνὸς εἷς
+25:36 N- ----GSN- χρυσίου χρυσίον
+25:36 A- ----GSN- καθαροῦ καθαρός
+25:37 C- -------- καὶ καί
+25:37 V- 2FAI-S-- ποιήσεις ποιέω
+25:37 RA ----APM- τοὺς ὁ
+25:37 N- ----APM- λύχνους λύχνος
+25:37 RP ----GSF- αὐτῆς αὐτός
+25:37 A- ----APM- ἑπτά ἑπτά  # module M, no features — MorphGNT gives ἑπτά case, number and gender like any adjective
+25:37 C- -------- καὶ καί
+25:37 V- 2FAI-S-- ἐπιθήσεις ἐπιτίθημι
+25:37 RA ----APM- τοὺς ὁ
+25:37 N- ----APM- λύχνους λύχνος
+25:37 C- -------- καὶ καί
+25:37 V- 3FAI-P-- φανοῦσιν φαίνω
+25:37 P- -------- ἐκ ἐκ
+25:37 RA ----GSN- τοῦ ὁ
+25:37 A- ----GSN- ἑνὸς εἷς
+25:37 N- ----GSN- προσώπου πρόσωπον
+25:38 C- -------- καὶ καί
+25:38 RA ----ASM- τὸν ὁ
+25:38 N- ----ASM- ἐπαρυστῆρα ἐπαρυστήρ
+25:38 RP ----GSF- αὐτῆς αὐτός
+25:38 C- -------- καὶ καί
+25:38 RA ----APN- τὰ ὁ
+25:38 N- ----APN- ὑποθέματα ὑπόθεμα
+25:38 RP ----GSF- αὐτῆς αὐτός
+25:38 P- -------- ἐκ ἐκ
+25:38 N- ----GSN- χρυσίου χρυσίον
+25:38 A- ----GSN- καθαροῦ καθαρός
+25:38 V- 2FAI-S-- ποιήσεις ποιέω
+25:39 A- ----NPN- πάντα πᾶς
+25:39 RA ----NPN- τὰ ὁ
+25:39 N- ----NPN- σκεύη σκεῦος
+25:39 RD ----NPN- ταῦτα οὗτος
+25:39 N- ----NSN- τάλαντον τάλαντον
+25:39 N- ----GSN- χρυσίου χρυσίον
+25:39 A- ----GSN- καθαροῦ καθαρός
+25:40 V- 2PAD-S-- ὅρα ὁράω
+25:40 V- 2FAI-S-- ποιήσεις ποιέω
+25:40 P- -------- κατὰ κατά
+25:40 RA ----ASM- τὸν ὁ
+25:40 N- ----ASM- τύπον τύπος
+25:40 RA ----ASM- τὸν ὁ
+25:40 V- -XEPASM- δεδειγμένον δείκνυμι  # module lemma δεικνύω — δείκνυμι, as Middle Liddell heads it
+25:40 RP ----DS-- σοι σύ  # module lemma σοί, the form itself — σύ is the dictionary form
+25:40 P- -------- ἐν ἐν
+25:40 RA ----DSN- τῷ ὁ
+25:40 N- ----DSN- ὄρει ὄρος

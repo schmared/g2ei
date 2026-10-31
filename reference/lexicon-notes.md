@@ -8021,3 +8021,54 @@ text uses. Chains already in the corpus (Genesis) were read from it and re-infle
   one`; προσπορεύομαι `let them go to`; φλέγω `burning`; μέσος `the middle`.
 - One translation each, plain text: συναναβαίνω, θυσιαστήριον, νεανίσκος, μοσχάριον, πλίνθος, πυξίον, λίθινος, and
   the numerals.
+
+### Words new in EXO 25
+
+- **From LSJ** (not in Middle Liddell): γλυφή `the carving and carved work, the emblem and device, the work, the hole
+  cut`; θυΐσκη *censer*, plain text; καρυΐσκος, "Dim. of κάρυον", read as κάρυον's `any kinds of nut, walnuts`;
+  κυμάτιον, "Dim. of κῦμα I.3", read as that sense, `waved mouldings and cymas, volutes, grooves`; λυχνία
+  *lampstand*, plain text; σπονδεῖον `the cups from which the spondē (σπονδή) was poured, the bowls, the
+  pouring-cups`; ἀναφορεύς `bearers and bearing-poles`; ἄσηπτος `not liable to decay and corruption, undigested`,
+  its *of Acacia tortilis* the phrase ξύλα ἄσηπτα's; ἐπίθεμα `cover, capital, remedy for external application,
+  addition, higher bid, shaft`; ἐπαρυστήρ *vessel for pouring oil into a lamp*, plain text; ἐρυθροδανόω `having
+  been dyed with madder and dyed red and standing so`; ὑπόθεμα *base*, plain text.
+- **Filed inside another word** (`SPELLING`): ἱλαστήριον inside ἱλαστήριος, "as Subst., the mercy-seat", the
+  adjective's *propitiatory* set aside: `the mercy-seat, the propitiation`. παλαιστής under παλαστή, as LSJ's
+  second entry points, since Middle Liddell's παλαιστής is a wrestler: `of palm of the hand, of a palm and four
+  fingers' breadth`.
+- **Inside the entry** (`MARKUP_LOST`): τράπεζα's first <tr> took in τετράπεζα's gloss, *four-legged a table*; *a
+  table* is restored. Cuts restored: αἴγειος *of a goat or goats*; στρεπτός *a collar of twisted or linked metal*,
+  *to be bent or turned*, *glib, pliant*; συσκιάζω *… shade closely or thickly*; ἀκίνητος *not to be stirred or
+  touched, inviolate*; τύπος *the sound of their tread*, *anything wrought of metal or stone*; φαίνω *to make it
+  clear*, *to inform of as contraband*; ἐλαύνω *to drive to extremities*, *to drive or thrust through*, *to beat
+  with a hammer*, *to draw a line of wall or a trench*, *plant them in line*.
+- **Form** (`FORM_SENSES`): στρεπτός's neuter and feminine leave out the masculine noun's; τάλαντον's and τύπος's
+  singular the plural's (*a pair of scales*, *figures worked in relief*); χρυσόω's, ἐλαύνω's and φαίνω's active
+  the passive's — φαίνω's the middle's and the passive's examples too, so its future reads `they will bring to
+  light and make to appear, …, they will give light`.
+- **Pieces set aside** (`NOT_SENSES`): ὑάκινθος (the entry's prose on the flower's colours, and "not (prob.) our
+  jacinth"), θρίξ, ποδήρης (the examples' frock and shield; the neuter plural's), παράδειγμα, τράπεζα (Horace's
+  *Siculae dapes*; *bankers*, a phrase's), ἐπάνωθεν, καταχρυσόω (*splendid*, the gloss of *golden*), λύχνος,
+  στεφάνη, κλώθω, τάλαντον (*l.*, and "no such coin"), ἐλαύνω's examples.
+- **σπένδω** keeps GEN 35:14's three: `you will pour a drink-offering, you will make a drink-offering, you will pour`.
+- **Morphology**: Rahlfs prints no verse 6. The second pass was right on ten: ἡμίσους masculine, with the cubit
+  understood (six times); ἄνωθεν before a genitive a preposition (25:22), as ἐπάνω is; τρύβλιον as Middle Liddell
+  accents it; οἷς and αὐτοῖς at 25:29 neuter, with the vessels. ὑάκινθος stays masculine, διὰ παντός neuter,
+  καρυΐσκος with LSJ's diaeresis. χερουβιμ is neuter at 25:18 and masculine at 25:19–22, as its words show.
+- New chains: the forms of the furnishings above; ἐλαύνω `you will drive`; δοκέω `may think`; ἀπαρχή `the beginning
+  of a sacrifice`; χαλκός `copper`; πορφύρα `purple-fish`; βύσσος `a fine flax`; κλώθω `having been twisted by
+  spinning`; θρίξ `hairs of the head`; αἴγειος `of a goat`; δέρμα `skins`; κριός `of rams`; σάρδιον `of Sardian
+  stone`; ἐπωμίς `the point of the shoulder`; ποδήρης `the reaching to the feet`; δείκνυμι `I bring to light`, `the
+  one having been brought to light`; παράδειγμα `the pattern`; μαρτύριον `of a testimony`, `the testimonies`;
+  ἥμισυς `of half`; πῆχυς `of fore-arm`; καταχρυσόω `you will cover with gold-leaf`; χρυσόω `you will make golden`;
+  καθαρός `to clear of dirt`, `of clear of dirt`; δακτύλιος `rings`, `the rings`; ἐμβάλλω `you will throw in`;
+  δίδωμι `I may give`; τορευτός `worked in relief`; ποιέω `they will be made`; πτέρυξ `the wings`, `to the wings`;
+  ἐπάνωθεν `from above`; συσκιάζω `shading quite over`; γινώσκω `I will be learned to know`; λαλέω `I will talk`;
+  εἰμί `of the ones being`; τράπεζα `a table`, `the table`; εὖρος `the breadth`; στεφάνη `anything that encircles`
+  and its articular forms; θήκη `cases to put anything in`; αἴρω `will be taken up`; τρύβλιον `the cups`; κύαθος
+  `the cups`; σπένδω `you will pour a drink-offering`; καυλός `the shaft`; κρατήρ `the mixing vessels`; σφαιρωτήρ
+  `thong`, `the thong`, `the thongs`; ἐκπορεύομαι `going out`, `to the ones going out`; εἷς `of the one`, `in the
+  one`; ἐκτυπόω `having been modelled`; λύχνος `the portable lights`; φαίνω `they will bring to light`; τάλαντον `a
+  balance`; τύπος `the blow`.
+- One translation each, plain text: κόκκινος, ὑακίνθινος, κλίτος (*= κλίμα II, a clime*), καλαμίσκος, κρίνον,
+  ἐνώπιος, ἀλλήλων, and the numerals.

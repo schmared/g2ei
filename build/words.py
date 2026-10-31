@@ -431,6 +431,28 @@ LSJ = {
     # "hunt for" paradoxes; "encroach on"; of a day, "draw near, approach".
     "προσπορεύομαι": ["go to, approach", "apply", "take up", "make a start or get on with", "go in quest of",
                       "be candidate for", "hunt for", "encroach on", "draw near, approach"],
+    # EXO 25. Not in Middle Liddell. LSJ (eng3): γλυφή, "carving: carved work", "emblem, device", "the work" of one,
+    # "hole cut" in a beam. LSJ (eng9): θυΐσκη, "censer". LSJ (eng11): καρυΐσκος, "Dim. of κάρυον", read as κάρυον's
+    # "any kind of nut" and "walnuts" (its "filberts" is a phrase's, κ. πλατέα); κυμάτιον, "Dim. of κῦμα I.3", read
+    # as κῦμα I.3's "waved moulding, cyma", and its own "volute", "groove". LSJ (eng12): λυχνία, "lampstand". LSJ
+    # (eng21): σπονδεῖον, "cup from which the σπονδή was poured", "bowl", "pouring-cup". LSJ (eng1): ἀναφορεύς,
+    # "bearer, bearing-pole"; ἄσηπτος, "not liable to decay or corruption", "undigested", its "of Acacia tortilis"
+    # the phrase ξύλα ἄσηπτα's, citing this chapter. LSJ (eng5): ἐπίθεμα, "= ἐπίθημα, cover", "capital", "remedy for
+    # external application", "addition", "higher bid", "shaft"; ἐπαρυστήρ, "vessel for pouring" oil into a lamp,
+    # whole; ἐρυθροδανόω, "dye with madder, dye red". LSJ (eng23): ὑπόθεμα, "= ὑπόθημα, base", its "on the
+    # security" a phrase's, ἐπὶ ὑποθέματι.
+    "γλυφή": ["carving: carved work", "emblem, device", "the work", "hole cut"],
+    "θυΐσκη": ["censer"],
+    "καρυΐσκος": ["any kind of nut", "walnuts"],
+    "κυμάτιον": ["waved moulding, cyma", "volute", "groove"],
+    "λυχνία": ["lampstand"],
+    "σπονδεῖον": ["cup from which the σπονδή was poured", "bowl", "pouring-cup"],
+    "ἀναφορεύς": ["bearer, bearing-pole"],
+    "ἄσηπτος": ["not liable to decay or corruption", "undigested"],
+    "ἐπίθεμα": ["cover", "capital", "remedy for external application", "addition", "higher bid", "shaft"],
+    "ἐπαρυστήρ": ["vessel for pouring oil into a lamp"],
+    "ἐρυθροδανόω": ["dye with madder, dye red"],
+    "ὑπόθεμα": ["base"],
     # EXO 12. None of these is in Middle Liddell. LSJ (eng3): γειώρας, "sojourner", "proselyte". LSJ
     # (eng4): δέσμη, "package, bundle", "a measure in Egypt", "in Medicine, handful"; Rahlfs prints the
     # accusative δεσμήν, the module δέσμην. LSJ (eng5): ἐνδόσθια, "= ἐντόσθια", a pointer to ἐντόσθιος,
@@ -1121,7 +1143,7 @@ NOT_SENSES = {
     "a)/shmos": {"sign", "with"},               # pieces of "without mark or sign"
     "e)pi/shmos": {"with", "inscription on them"},  # pieces of an example
     "ploute/w": {"to be rich"},                 # a bare repetition of the first sense
-    "fai/nw": {"to shew", "to make"},           # pieces of examples
+    "fai/nw": {"to shew", "to make", "clear", "to inform of", "as contraband", "shining"},  # pieces of examples; "to make it clear", "to inform of as contraband" cut, whole in MARKUP_LOST; examples' participles
     # GEN 31
     "do/ca": {"one expects", "expect"},          # pieces of an example
     "a)lla/ssw": {"to take", "for", "in turn", "in turns"},  # pieces of "to take one thing for another" and of examples
@@ -1562,6 +1584,30 @@ NOT_SENSES = {
     "e)panastre/fw": {"to turn back upon"},    # "to turn back upon one", cut, whole in MARKUP_LOST
     "r(h/gnumi": {"to break, break asunder", "in pieces, rend, shiver, shatter", "force one's", "breaking into speech",
                   "rumpere vocem", "having let loose"},  # "to break … or in pieces", cut, whole in MARKUP_LOST; a piece, examples', Virgil
+    # EXO 25
+    "i(lasth/rion": {"propitiatory"},        # the adjective's; the noun is "as Subst." inside ἱλαστήριος
+    "u(a/kinqos": {"hyacinth", "dark blue", "dark", "black.", "jacinth"},  # the entry's prose on the flower's colour, a repeat; "not (prob.) our jacinth"
+    "qri/c": {"the hair", "only a hair's breadth"},  # an example's repeat; a proverb's
+    "ai)/geios": {"of a goat", "goats"},       # cut, whole in MARKUP_LOST
+    "podh/rhs": {"that falls over the feet", "which covered the body quite down to the feet",
+                 "the parts about the feet, the feet"},  # examples', of a frock and a shield; the neuter plural's as a noun
+    "para/deigma": {"example"},               # a phrase's, ἐπὶ παραδείγματος
+    "strepto/s": {"pliant", "a collar of twisted", "linked metal", "to be bent", "turned", "may be turned",
+                  "a glib, pliant"},            # an example's repeat; cut, whole in MARKUP_LOST; an example's
+    "tra/peza": {"four-legged a table", "table", "Siculae dapes", "the bank", "bankers"},  # τετράπεζα's gloss run into the first sense, restored in MARKUP_LOST; a repeat; Horace; a repeat; a phrase's
+    "suskia/zw": {"to shade quite over, throw a shade over, shade closely", "thickly"},  # cut, whole in MARKUP_LOST
+    "e)pa/nwqen": {"men of former time"},      # a phrase's, οἱ ἐπάνωθεν
+    "kataxruso/w": {"splendid"},               # the gloss of "golden", "i. e. splendid"
+    "a)ki/nhtos": {"immovable", "not to be stirred", "touched, inviolate"},  # the adverb's; cut, whole in MARKUP_LOST
+    "lu/xnos": {"lamplighting time"},          # a phrase's, περὶ λύχνων ἁφάς
+    "stefa/nh": {"coronal"},                   # an example's repeat
+    "klw/qw": {"one's destiny"},               # a phrase's, τὰ κλωσθέντα
+    "ta/lanton": {"l.", "coin"},              # pounds sterling; "no such coin as a talent"
+    "tu/pos": {"the print", "marks", "the sound of", "tread", "anything wrought of metal", "stone",
+               "in outline, in general"},       # a repeat; the plural's, letters; cut, whole in MARKUP_LOST; a phrase's
+    "e)lau/nw": {"on", "drove on", "harass", "shall persecute", "they drove it", "he struck", "struck", "thrust",
+                 "to beat with", "he made", "of beaten", "to draw a line of", "has its", "carried down", "plant",
+                 "in line"},                    # pieces and examples'; cut, whole in MARKUP_LOST
     # EXO 24
     "gra/fw": {"having scratched", "to write", "name", "to write for oneself", "for one's own use, note down", "for",
                "the prosecutors", "the articles of the indictment", "the penalty named in the indictment"},  # an example's; cut, whole in MARKUP_LOST; a piece; the participles' as nouns
@@ -1712,6 +1758,21 @@ _APOLLUMI_ACT = {"to destroy utterly, kill, slay", "to destroy, demolish, waste"
 _APOLLUMI_MID = {"to perish utterly, die", "to be undone", "you are done for, lost, ruined",
                  "to be lost, slip away, vanish"}
 FORM_SENSES = {
+    # EXO 25. στρεπτός's neuter and feminine leave out the masculine noun's, "a collar of twisted or linked metal",
+    # "a twist" or "roll"; τάλαντον's and τύπος's singular the plural's; χρυσόω's and ἐλαύνω's active the
+    # passive's; φαίνω's active the middle's, the passive's and the passive's examples.
+    "strepto/s": [("-", "-", NOT_SENSES["strepto/s"] | {"a collar of twisted or linked metal", "a twist", "roll"},
+                   None, "^......[NF]")],
+    "ta/lanton": [("-", "-", NOT_SENSES["ta/lanton"] | {"a pair of scales"}, None, "^.....S")],
+    "tu/pos": [("-", "-", NOT_SENSES["tu/pos"] | {"figures worked in relief"}, None, "^.....S")],
+    "xruso/w": [("PIFAXY", "A", {"to be gilded"})],
+    "fai/nw": [("PIFA", "A", NOT_SENSES["fai/nw"] | {
+        "to exhibit as one's own", "informed against", "appeared", "to come to light, be seen, appear", "to shine brightly",
+        "to come into being", "born", "shewn to be, having become", "what has once come to light", "to appear to be",
+        "a thing appears to be", "that it manifestly is", "appear", "manifestly", "manifestly harms",
+        "appears likely to harm", "they were manifest", "do I look like", "does this appear", "yes",
+        "nullo in loco haberi"})],
+    "e)lau/nw": [("PIFAXY", "A", NOT_SENSES["e)lau/nw"] | {"to go through"})],
     # EXO 24. γράφω's, νομοθετέω's, ἐγχέω's, κατασκεδάννυμι's and φλέγω's active leave out the middle's and the
     # passive's; ἀνέγνω, the second aorist, leaves out the Ionic first aorist's "to persuade" or "induce" and its
     # passive; ἡσυχάζω is "causal in aor1", and its other tenses leave out "to make still, lay to rest".
@@ -2241,7 +2302,9 @@ SPELLING = {
     "dou/lh": "dou=los",              # "Hom. has only the fem. δούλη, a bondwoman", inside δοῦλος (EXO 21:7)
     "kakw=s": "kako/s",               # the adverb, filed inside the adjective's entry, as καλῶς (EXO 22:27)
     "sfhki/a": "sfhkia/",
-    "a)naginw/skw": "a)nagignw/skw",   # the entry is headed with the Attic spelling, ἀναγιγνώσκω (EXO 24:7)             # σφηκία, the entry accented σφηκιά, whose LSJ cites Ex 23:28 (EXO 23:28)
+    "a)naginw/skw": "a)nagignw/skw",
+    "i(lasth/rion": "i(lasth/rios",   # "as Subst., ἱλαστήριον, the mercy-seat", inside the adjective (EXO 25:17)
+    "palaisth/s": "palasth/",         # LSJ's παλαιστής (B), "v. παλαστή"; Middle Liddell's παλαιστής is a wrestler (EXO 25:25)   # the entry is headed with the Attic spelling, ἀναγιγνώσκω (EXO 24:7)             # σφηκία, the entry accented σφηκιά, whose LSJ cites Ex 23:28 (EXO 23:28)
     "di/yos": "di/ya",                # δίψος, "= δίψα", and nothing more (EXO 17:3)
     "ko/rion": "kori/annon",          # LSJ's κόριον (B), "shortd. for κορίαννον"; Middle Liddell's κόριον is the diminutive of κόρη (EXO 16:14)
     "sa/bbaton": "*sa/bbaton",        # σάββατον, keyed with the capital (EXO 16:23)
@@ -2627,6 +2690,21 @@ MARKUP_LOST = {
     "kataskeda/nnumi": [(1, "pour upon or over"), (4, "to spread against"), (7, "to pour or sprinkle about")],
     "fle/gw": [(4, "making it blaze or flash"), (8, "letting blaze up"), (12, "to make illustrious or famous"),
                (15, "to be or become so")],
+    # EXO 25. αἴγειος: "«of a goat» or «goats»"; στρεπτός: "«a collar of twisted» or «linked metal»", "«to be bent» or
+    # «turned»", "«a glib, pliant» tongue", the a the tongue's; τράπεζα: "prob. for τετράπεζα «four-legged a table»",
+    # where the <tr> took in τετράπεζα's gloss; συσκιάζω: "«to shade quite over, throw a shade over, shade closely» or
+    # «thickly»"; ἀκίνητος: "«not to be stirred» or «touched, inviolate»"; τύπος: "«the sound of» their «tread»",
+    # "«anything wrought of metal» or «stone»"; ἐλαύνω: "«to drive» to extremities", "«to drive» or «thrust» through",
+    # "«to beat with» a hammer", "«to draw a line of» wall or a trench", "«plant» them «in line»".
+    "ai)/geios": [(0, "of a goat or goats")],
+    "fai/nw": [(4, "to make it clear"), (11, "to inform of as contraband")],  # "«to make» it «clear» to the ear"; "«to inform of» a thing «as contraband»"
+    "strepto/s": [(4, "a collar of twisted or linked metal"), (9, "to be bent or turned"), (13, "glib, pliant")],
+    "tra/peza": [(0, "a table")],
+    "suskia/zw": [(0, "to shade quite over, throw a shade over, shade closely or thickly")],
+    "a)ki/nhtos": [(5, "not to be stirred or touched, inviolate")],
+    "tu/pos": [(5, "the sound of their tread"), (8, "anything wrought of metal or stone")],
+    "e)lau/nw": [(15, "to drive to extremities"), (26, "to drive or thrust through"), (30, "to beat with a hammer"),
+                 (34, "to draw a line of wall or a trench"), (40, "plant them in line")],
     "de/on": [(1, "things needful or proper, advantages or duties")],  # τὰ δέοντα «things needful» or «proper, advantages» or «duties»
     "pleona/zw": [(2, "to go beyond bounds, take or claim too much")],
     "pikrai/nw": [(0, "to make sharp or bitter")],

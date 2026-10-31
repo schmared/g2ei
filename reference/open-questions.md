@@ -381,3 +381,20 @@ bare; the unit satisfies the check and breaks the rule it exists to hold.
 
 **Recommendation:** let the bare-headword check pass a plain run that is the whole of a word's single translation
 in the chapter's word-by-word layer (συναναβαίνω, *to go up with*), and make GEN 50:7 plain text.
+
+## Q20. LSJ's "Dim. of X" read as X's senses
+
+**Where:** EXO 25:11, 24, 25 κυμάτιον, "Dim. of κῦμα I.3"; 25:33, 34 καρυΐσκος, "Dim. of κάρυον". LSJ gives
+neither word a translation of its own beyond these (κυμάτιον adds *volute* and *groove*).
+
+**Now:** each pointer is read as the senses of the sense it points to, as ἁγίασμα's "= ἁγιαστήριον" was read as *holy place, sanctuary*:
+`waved mouldings and cymas, volutes, grooves`; `any kinds of nut, walnuts`.
+
+- now: `[[any kinds of nut|any kinds of nut, walnuts]]`
+- the other reading: the diminutive made explicit, `little nuts`, which composes rather than reads
+
+**The difference:** "= X" says the words mean the same; "Dim. of X" says the word is a smaller X, which the
+reading cannot say without adding *little* the entry does not print.
+
+**Recommendation:** keep the pointer's senses and say "Dim." in the note, as now; the reading adds no word the
+lexicon lacks.
