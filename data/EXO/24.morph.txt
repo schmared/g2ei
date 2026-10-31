@@ -1,0 +1,426 @@
+# Exodus 24 — morphology, one word per line.
+#
+# This is the project's own grammatical analysis of each form, written alongside the
+# transcription and not copied from any digital edition.
+#
+# Columns: verse, part of speech, parse, form, lemma — in MorphGNT's code scheme, so
+# the Old and New Testament layers read alike. The parse is eight places: person,
+# tense, voice, mood, case, number, gender, degree ("-" where it does not apply).
+#
+# Two codes go beyond MorphGNT, both to record only what the form itself says:
+#   voice  E  middle/passive — a tense in which the two share one form
+#   gender C  masculine/feminine — an adjective whose form does not distinguish them
+#
+# A trailing annotation records a deliberate difference and the reason for it:
+#   "# module …"  from the reference module, checked when LXX_RAHLFS_DIR is set
+#   "# corpus …"  from this project's own analysis of the same form elsewhere
+# A line may carry both. validate.py prints them as notes instead of failures — and
+# fails if the difference a note claims is not there, so they cannot go stale. The
+# analysis here is this project's own: the module is a reference, not an authority,
+# and the corpus is held to itself.
+#
+# Indeclinables take case and number from the syntax, as MorphGNT does, and gender
+# where there is one to take: a personal name, from the person; a numeral agreeing
+# with its noun; a common noun whose article shows it — but not an indeclinable place
+# name, which has none. A personal name the New Testament also uses takes MorphGNT's
+# dictionary form (Νῶε, Σήμ); every other Semitic name (Χαμ, Ιαφεθ), the form Rahlfs
+# prints.
+
+24:1 C- -------- Καὶ καί
+24:1 N- ----DSM- Μωυσῇ Μωϋσῆς  # module lemma Μωσεύς — Μωϋσῆς, as MorphGNT files it
+24:1 V- 3AAI-S-- εἶπεν λέγω  # module lemma ἔπω — λέγω keeps one dictionary form across both testaments
+24:1 V- 2AAD-S-- Ἀνάβηθι ἀναβαίνω
+24:1 P- -------- πρὸς πρός
+24:1 N- ----ASM- κύριον κύριος
+24:1 RP ----NS-- σὺ σύ
+24:1 C- -------- καὶ καί
+24:1 N- ----NSM- Ααρων Ἀαρών
+24:1 C- -------- καὶ καί
+24:1 N- ----NSM- Ναδαβ Ναδαβ
+24:1 C- -------- καὶ καί
+24:1 N- ----NSM- Αβιουδ Ἀβιούδ
+24:1 C- -------- καὶ καί
+24:1 A- ----NPM- ἑβδομήκοντα ἑβδομήκοντα  # module M, no features — MorphGNT gives ἑβδομήκοντα case, number and gender like any adjective
+24:1 RA ----GPM- τῶν ὁ
+24:1 A- ----GPMC πρεσβυτέρων πρεσβύτερος
+24:1 N- ----GSM- Ισραηλ Ἰσραήλ
+24:1 C- -------- καὶ καί
+24:1 V- 3FAI-P-- προσκυνήσουσιν προσκυνέω
+24:1 D- -------- μακρόθεν μακρόθεν
+24:1 RA ----DSM- τῷ ὁ
+24:1 N- ----DSM- κυρίῳ κύριος
+24:2 C- -------- καὶ καί
+24:2 V- 3FAI-S-- ἐγγιεῖ ἐγγίζω
+24:2 N- ----NSM- Μωυσῆς Μωϋσῆς  # module lemma Μωσεύς — Μωϋσῆς, as MorphGNT files it
+24:2 A- ----NSM- μόνος μόνος
+24:2 P- -------- πρὸς πρός
+24:2 RA ----ASM- τὸν ὁ
+24:2 N- ----ASM- θεόν θεός
+24:2 RP ----NPM- αὐτοὶ αὐτός
+24:2 C- -------- δὲ δέ
+24:2 D- -------- οὐκ οὐ
+24:2 V- 3FAI-P-- ἐγγιοῦσιν ἐγγίζω
+24:2 RA ----NSM- ὁ ὁ
+24:2 C- -------- δὲ δέ
+24:2 N- ----NSM- λαὸς λαός
+24:2 D- -------- οὐ οὐ
+24:2 V- 3FMI-S-- συναναβήσεται συναναβαίνω
+24:2 P- -------- μετʼ μετά
+24:2 RP ----GPM- αὐτῶν αὐτός
+24:3 V- 3AAI-S-- εἰσῆλθεν εἰσέρχομαι
+24:3 C- -------- δὲ δέ
+24:3 N- ----NSM- Μωυσῆς Μωϋσῆς  # module lemma Μωσεύς — Μωϋσῆς, as MorphGNT files it
+24:3 C- -------- καὶ καί
+24:3 V- 3AMI-S-- διηγήσατο διηγέομαι
+24:3 RA ----DSM- τῷ ὁ
+24:3 N- ----DSM- λαῷ λαός
+24:3 A- ----APN- πάντα πᾶς
+24:3 RA ----APN- τὰ ὁ
+24:3 N- ----APN- ῥήματα ῥῆμα
+24:3 RA ----GSM- τοῦ ὁ
+24:3 N- ----GSM- θεοῦ θεός
+24:3 C- -------- καὶ καί
+24:3 RA ----APN- τὰ ὁ
+24:3 N- ----APN- δικαιώματα δικαίωμα
+24:3 V- 3API-S-- ἀπεκρίθη ἀποκρίνομαι
+24:3 C- -------- δὲ δέ
+24:3 A- ----NSM- πᾶς πᾶς
+24:3 RA ----NSM- ὁ ὁ
+24:3 N- ----NSM- λαὸς λαός
+24:3 N- ----DSF- φωνῇ φωνή
+24:3 A- ----DSF- μιᾷ εἷς
+24:3 V- -PAPNPM- λέγοντες λέγω
+24:3 A- ----APM- Πάντας πᾶς
+24:3 RA ----APM- τοὺς ὁ
+24:3 N- ----APM- λόγους λόγος
+24:3 RR ----APM- οὓς ὅς
+24:3 V- 3AAI-S-- ἐλάλησεν λαλέω
+24:3 N- ----NSM- κύριος κύριος
+24:3 V- 1FAI-P-- ποιήσομεν ποιέω
+24:3 C- -------- καὶ καί
+24:3 V- 1FMI-P-- ἀκουσόμεθα ἀκούω
+24:4 C- -------- καὶ καί
+24:4 V- 3AAI-S-- ἔγραψεν γράφω
+24:4 N- ----NSM- Μωυσῆς Μωϋσῆς  # module lemma Μωσεύς — Μωϋσῆς, as MorphGNT files it
+24:4 A- ----APN- πάντα πᾶς
+24:4 RA ----APN- τὰ ὁ
+24:4 N- ----APN- ῥήματα ῥῆμα
+24:4 N- ----GSM- κυρίου κύριος
+24:4 V- -AAPNSM- ὀρθρίσας ὀρθρίζω
+24:4 C- -------- δὲ δέ
+24:4 N- ----NSM- Μωυσῆς Μωϋσῆς  # module lemma Μωσεύς — Μωϋσῆς, as MorphGNT files it
+24:4 RA ----ASN- τὸ ὁ
+24:4 D- -------- πρωὶ πρωΐ
+24:4 V- 3AAI-S-- ᾠκοδόμησεν οἰκοδομέω
+24:4 N- ----ASN- θυσιαστήριον θυσιαστήριον
+24:4 P- -------- ὑπὸ ὑπό
+24:4 RA ----ASN- τὸ ὁ
+24:4 N- ----ASN- ὄρος ὄρος
+24:4 C- -------- καὶ καί
+24:4 A- ----APM- δώδεκα δώδεκα  # module M, no features — MorphGNT gives δώδεκα case, number and gender like any adjective
+24:4 N- ----APM- λίθους λίθος
+24:4 P- -------- εἰς εἰς
+24:4 RA ----APF- τὰς ὁ
+24:4 A- ----APF- δώδεκα δώδεκα  # module M, no features — MorphGNT gives δώδεκα case, number and gender like any adjective
+24:4 N- ----APF- φυλὰς φυλή
+24:4 RA ----GSM- τοῦ ὁ
+24:4 N- ----GSM- Ισραηλ Ἰσραήλ
+24:5 C- -------- καὶ καί
+24:5 V- 3AAI-S-- ἐξαπέστειλεν ἐξαποστέλλω
+24:5 RA ----APM- τοὺς ὁ
+24:5 N- ----APM- νεανίσκους νεανίσκος
+24:5 RA ----GPM- τῶν ὁ
+24:5 N- ----GPM- υἱῶν υἱός
+24:5 N- ----GSM- Ισραηλ Ἰσραήλ
+24:5 C- -------- καὶ καί
+24:5 V- 3AAI-P-- ἀνήνεγκαν ἀναφέρω
+24:5 N- ----APN- ὁλοκαυτώματα ὁλοκαύτωμα
+24:5 C- -------- καὶ καί
+24:5 V- 3AAI-P-- ἔθυσαν θύω
+24:5 N- ----ASF- θυσίαν θυσία
+24:5 A- ----GSN- σωτηρίου σωτήριος
+24:5 RA ----DSM- τῷ ὁ
+24:5 N- ----DSM- θεῷ θεός
+24:5 N- ----APN- μοσχάρια μοσχάριον
+24:6 V- -AAPNSM- λαβὼν λαμβάνω
+24:6 C- -------- δὲ δέ
+24:6 N- ----NSM- Μωυσῆς Μωϋσῆς  # module lemma Μωσεύς — Μωϋσῆς, as MorphGNT files it
+24:6 RA ----ASN- τὸ ὁ
+24:6 A- ----ASN- ἥμισυ ἥμισυς
+24:6 RA ----GSN- τοῦ ὁ
+24:6 N- ----GSN- αἵματος αἷμα
+24:6 V- 3AAI-S-- ἐνέχεεν ἐγχέω  # module IAI — the aorist, -χεα, -χεεν uncontracted, as MorphGNT codes ἐξέχεεν
+24:6 P- -------- εἰς εἰς
+24:6 N- ----APM- κρατῆρας κρατήρ
+24:6 RA ----ASN- τὸ ὁ
+24:6 C- -------- δὲ δέ
+24:6 A- ----ASN- ἥμισυ ἥμισυς
+24:6 RA ----GSN- τοῦ ὁ
+24:6 N- ----GSN- αἵματος αἷμα
+24:6 V- 3AAI-S-- προσέχεεν προσχέω  # module IAI — the aorist, -χεα, -χεεν uncontracted, as MorphGNT codes ἐξέχεεν
+24:6 P- -------- πρὸς πρός
+24:6 RA ----ASN- τὸ ὁ
+24:6 N- ----ASN- θυσιαστήριον θυσιαστήριον
+24:7 C- -------- καὶ καί
+24:7 V- -AAPNSM- λαβὼν λαμβάνω
+24:7 RA ----ASN- τὸ ὁ
+24:7 N- ----ASN- βιβλίον βιβλίον
+24:7 RA ----GSF- τῆς ὁ
+24:7 N- ----GSF- διαθήκης διαθήκη
+24:7 V- 3AAI-S-- ἀνέγνω ἀναγινώσκω
+24:7 P- -------- εἰς εἰς
+24:7 RA ----APN- τὰ ὁ
+24:7 N- ----APN- ὦτα οὖς
+24:7 RA ----GSM- τοῦ ὁ
+24:7 N- ----GSM- λαοῦ λαός
+24:7 C- -------- καὶ καί
+24:7 V- 3AAI-P-- εἶπαν λέγω  # module lemma ἔπω — λέγω keeps one dictionary form across both testaments
+24:7 A- ----APN- Πάντα πᾶς
+24:7 RR ----APN- ὅσα ὅσος
+24:7 V- 3AAI-S-- ἐλάλησεν λαλέω
+24:7 N- ----NSM- κύριος κύριος
+24:7 V- 1FAI-P-- ποιήσομεν ποιέω
+24:7 C- -------- καὶ καί
+24:7 V- 1FMI-P-- ἀκουσόμεθα ἀκούω
+24:8 V- -AAPNSM- λαβὼν λαμβάνω
+24:8 C- -------- δὲ δέ
+24:8 N- ----NSM- Μωυσῆς Μωϋσῆς  # module lemma Μωσεύς — Μωϋσῆς, as MorphGNT files it
+24:8 RA ----ASN- τὸ ὁ
+24:8 N- ----ASN- αἷμα αἷμα
+24:8 V- 3AAI-S-- κατεσκέδασεν κατασκεδάννυμι  # module lemma κατασκεδάζω — κατασκεδάννυμι, as Middle Liddell heads it
+24:8 RA ----GSM- τοῦ ὁ
+24:8 N- ----GSM- λαοῦ λαός
+24:8 C- -------- καὶ καί
+24:8 V- 3AAI-S-- εἶπεν λέγω  # module lemma ἔπω — λέγω keeps one dictionary form across both testaments
+24:8 X- -------- Ἰδοὺ ἰδού
+24:8 RA ----NSN- τὸ ὁ  # module ASN — nominative after ἰδού, a verbless clause
+24:8 N- ----NSN- αἷμα αἷμα  # module ASN — nominative after ἰδού, a verbless clause
+24:8 RA ----GSF- τῆς ὁ
+24:8 N- ----GSF- διαθήκης διαθήκη
+24:8 RR ----GSF- ἧς ὅς
+24:8 V- 3AMI-S-- διέθετο διατίθεμαι
+24:8 N- ----NSM- κύριος κύριος
+24:8 P- -------- πρὸς πρός
+24:8 RP ----AP-- ὑμᾶς σύ  # module lemma ὑμᾶς, the form itself — σύ is the dictionary form
+24:8 P- -------- περὶ περί
+24:8 A- ----GPM- πάντων πᾶς
+24:8 RA ----GPM- τῶν ὁ
+24:8 N- ----GPM- λόγων λόγος
+24:8 RD ----GPM- τούτων οὗτος
+24:9 C- -------- Καὶ καί
+24:9 V- 3AAI-S-- ἀνέβη ἀναβαίνω
+24:9 N- ----NSM- Μωυσῆς Μωϋσῆς  # module lemma Μωσεύς — Μωϋσῆς, as MorphGNT files it
+24:9 C- -------- καὶ καί
+24:9 N- ----NSM- Ααρων Ἀαρών
+24:9 C- -------- καὶ καί
+24:9 N- ----NSM- Ναδαβ Ναδαβ
+24:9 C- -------- καὶ καί
+24:9 N- ----NSM- Αβιουδ Ἀβιούδ
+24:9 C- -------- καὶ καί
+24:9 A- ----NPM- ἑβδομήκοντα ἑβδομήκοντα  # module M, no features — MorphGNT gives ἑβδομήκοντα case, number and gender like any adjective
+24:9 RA ----GSF- τῆς ὁ
+24:9 N- ----GSF- γερουσίας γερουσία
+24:9 N- ----GSM- Ισραηλ Ἰσραήλ
+24:10 C- -------- καὶ καί
+24:10 V- 3AAI-P-- εἶδον ὁράω
+24:10 RA ----ASM- τὸν ὁ
+24:10 N- ----ASM- τόπον τόπος
+24:10 D- -------- οὗ οὗ
+24:10 V- 3YAI-S-- εἱστήκει ἵστημι
+24:10 D- -------- ἐκεῖ ἐκεῖ
+24:10 RA ----NSM- ὁ ὁ
+24:10 N- ----NSM- θεὸς θεός
+24:10 RA ----GSM- τοῦ ὁ
+24:10 N- ----GSM- Ισραηλ Ἰσραήλ
+24:10 C- -------- καὶ καί
+24:10 RA ----NPN- τὰ ὁ
+24:10 P- -------- ὑπὸ ὑπό
+24:10 RA ----APM- τοὺς ὁ
+24:10 N- ----APM- πόδας πούς
+24:10 RP ----GSM- αὐτοῦ αὐτός
+24:10 C- -------- ὡσεὶ ὡσεί
+24:10 N- ----NSN- ἔργον ἔργον
+24:10 N- ----GSF- πλίνθου πλίνθος
+24:10 N- ----GSF- σαπφείρου σάπφειρος
+24:10 C- -------- καὶ καί
+24:10 C- -------- ὥσπερ ὥσπερ
+24:10 N- ----NSN- εἶδος εἶδος  # corpus εἶδος, that which is seen, form; GEN 32:31's Εἶδος is the place name, Εἶδος θεοῦ
+24:10 N- ----GSN- στερεώματος στερέωμα
+24:10 RA ----GSM- τοῦ ὁ
+24:10 N- ----GSM- οὐρανοῦ οὐρανός
+24:10 RA ----DSF- τῇ ὁ
+24:10 N- ----DSF- καθαριότητι καθαριότης
+24:11 C- -------- καὶ καί
+24:11 RA ----GPM- τῶν ὁ
+24:11 A- ----GPC- ἐπιλέκτων ἐπίλεκτος
+24:11 RA ----GSM- τοῦ ὁ
+24:11 N- ----GSM- Ισραηλ Ἰσραήλ
+24:11 D- -------- οὐ οὐ
+24:11 V- 3AAI-S-- διεφώνησεν διαφωνέω
+24:11 D- -------- οὐδὲ οὐδέ
+24:11 A- ----NSM- εἷς εἷς
+24:11 C- -------- καὶ καί
+24:11 V- 3API-P-- ὤφθησαν ὁράω
+24:11 P- -------- ἐν ἐν
+24:11 RA ----DSM- τῷ ὁ
+24:11 N- ----DSM- τόπῳ τόπος
+24:11 RA ----GSM- τοῦ ὁ
+24:11 N- ----GSM- θεοῦ θεός
+24:11 C- -------- καὶ καί
+24:11 V- 3AAI-P-- ἔφαγον ἐσθίω  # module lemma φάγω — ἐσθίω, as MorphGNT files φαγεῖν
+24:11 C- -------- καὶ καί
+24:11 V- 3AAI-P-- ἔπιον πίνω
+24:12 C- -------- καὶ καί
+24:12 V- 3AAI-S-- εἶπεν λέγω  # module lemma ἔπω — λέγω keeps one dictionary form across both testaments
+24:12 N- ----NSM- κύριος κύριος
+24:12 P- -------- πρὸς πρός
+24:12 N- ----ASM- Μωυσῆν Μωϋσῆς  # module lemma Μωσεύς — Μωϋσῆς, as MorphGNT files it
+24:12 V- 2AAD-S-- Ἀνάβηθι ἀναβαίνω
+24:12 P- -------- πρός πρός
+24:12 RP ----AS-- με ἐγώ  # module lemma μέ, the form itself — ἐγώ is the dictionary form
+24:12 P- -------- εἰς εἰς
+24:12 RA ----ASN- τὸ ὁ
+24:12 N- ----ASN- ὄρος ὄρος
+24:12 C- -------- καὶ καί
+24:12 V- 2PAD-S-- ἴσθι εἰμί
+24:12 D- -------- ἐκεῖ ἐκεῖ
+24:12 C- -------- καὶ καί
+24:12 V- 1FAI-S-- δώσω δίδωμι
+24:12 RP ----DS-- σοι σύ  # module lemma σοί, the form itself — σύ is the dictionary form
+24:12 RA ----APN- τὰ ὁ
+24:12 N- ----APN- πυξία πυξίον
+24:12 RA ----APN- τὰ ὁ
+24:12 A- ----APN- λίθινα λίθινος
+24:12 RA ----ASM- τὸν ὁ
+24:12 N- ----ASM- νόμον νόμος
+24:12 C- -------- καὶ καί
+24:12 RA ----APF- τὰς ὁ
+24:12 N- ----APF- ἐντολάς ἐντολή
+24:12 RR ----APF- ἃς ὅς
+24:12 V- 1AAI-S-- ἔγραψα γράφω
+24:12 V- -AAN---- νομοθετῆσαι νομοθετέω
+24:12 RP ----DPM- αὐτοῖς αὐτός
+24:13 C- -------- καὶ καί
+24:13 V- -AAPNSM- ἀναστὰς ἀνίστημι
+24:13 N- ----NSM- Μωυσῆς Μωϋσῆς  # module lemma Μωσεύς — Μωϋσῆς, as MorphGNT files it
+24:13 C- -------- καὶ καί
+24:13 N- ----NSM- Ἰησοῦς Ἰησοῦς
+24:13 RA ----NSM- ὁ ὁ
+24:13 V- -XAPNSM- παρεστηκὼς παρίστημι
+24:13 RP ----DSM- αὐτῷ αὐτός
+24:13 V- 3AAI-P-- ἀνέβησαν ἀναβαίνω
+24:13 P- -------- εἰς εἰς
+24:13 RA ----ASN- τὸ ὁ
+24:13 N- ----ASN- ὄρος ὄρος
+24:13 RA ----GSM- τοῦ ὁ
+24:13 N- ----GSM- θεοῦ θεός
+24:14 C- -------- καὶ καί
+24:14 RA ----DPM- τοῖς ὁ
+24:14 A- ----DPMC πρεσβυτέροις πρεσβύτερος
+24:14 V- 3AAI-P-- εἶπαν λέγω  # module lemma ἔπω — λέγω keeps one dictionary form across both testaments
+24:14 V- 2PAD-P-- Ἡσυχάζετε ἡσυχάζω
+24:14 D- -------- αὐτοῦ αὐτοῦ
+24:14 C- -------- ἕως ἕως
+24:14 V- 1AAS-P-- ἀναστρέψωμεν ἀναστρέφω
+24:14 P- -------- πρὸς πρός
+24:14 RP ----AP-- ὑμᾶς σύ  # module lemma ὑμᾶς, the form itself — σύ is the dictionary form
+24:14 C- -------- καὶ καί
+24:14 X- -------- ἰδοὺ ἰδού
+24:14 N- ----NSM- Ααρων Ἀαρών
+24:14 C- -------- καὶ καί
+24:14 N- ----NSM- Ωρ Ωρ
+24:14 P- -------- μεθʼ μετά
+24:14 RP ----GP-- ὑμῶν σύ  # module lemma ὑμῶν, the form itself — σύ is the dictionary form
+24:14 C- -------- ἐάν ἐάν
+24:14 RI ----DSM- τινι τις
+24:14 V- 3AAS-S-- συμβῇ συμβαίνω
+24:14 N- ----NSF- κρίσις κρίσις
+24:14 V- 3PED-P-- προσπορευέσθωσαν προσπορεύομαι
+24:14 RP ----DPM- αὐτοῖς αὐτός
+24:15 C- -------- καὶ καί
+24:15 V- 3AAI-S-- ἀνέβη ἀναβαίνω
+24:15 N- ----NSM- Μωυσῆς Μωϋσῆς  # module lemma Μωσεύς — Μωϋσῆς, as MorphGNT files it
+24:15 C- -------- καὶ καί
+24:15 N- ----NSM- Ἰησοῦς Ἰησοῦς
+24:15 P- -------- εἰς εἰς
+24:15 RA ----ASN- τὸ ὁ
+24:15 N- ----ASN- ὄρος ὄρος
+24:15 C- -------- καὶ καί
+24:15 V- 3AAI-S-- ἐκάλυψεν καλύπτω
+24:15 RA ----NSF- ἡ ὁ
+24:15 N- ----NSF- νεφέλη νεφέλη
+24:15 RA ----ASN- τὸ ὁ
+24:15 N- ----ASN- ὄρος ὄρος
+24:16 C- -------- καὶ καί
+24:16 V- 3AAI-S-- κατέβη καταβαίνω
+24:16 RA ----NSF- ἡ ὁ
+24:16 N- ----NSF- δόξα δόξα
+24:16 RA ----GSM- τοῦ ὁ
+24:16 N- ----GSM- θεοῦ θεός
+24:16 P- -------- ἐπὶ ἐπί
+24:16 RA ----ASN- τὸ ὁ
+24:16 N- ----ASN- ὄρος ὄρος
+24:16 RA ----ASN- τὸ ὁ
+24:16 N- ----AS-- Σινα Σινα  # module lemma Σινᾶ — Σινα, as Rahlfs prints it, unaccented
+24:16 C- -------- καὶ καί
+24:16 V- 3AAI-S-- ἐκάλυψεν καλύπτω
+24:16 RP ----ASN- αὐτὸ αὐτός
+24:16 RA ----NSF- ἡ ὁ
+24:16 N- ----NSF- νεφέλη νεφέλη
+24:16 A- ----APF- ἓξ ἕξ  # module M, no features — MorphGNT gives ἕξ case, number and gender like any adjective
+24:16 N- ----APF- ἡμέρας ἡμέρα
+24:16 C- -------- καὶ καί
+24:16 V- 3AAI-S-- ἐκάλεσεν καλέω
+24:16 N- ----NSM- κύριος κύριος
+24:16 RA ----ASM- τὸν ὁ
+24:16 N- ----ASM- Μωυσῆν Μωϋσῆς  # module lemma Μωσεύς — Μωϋσῆς, as MorphGNT files it
+24:16 RA ----DSF- τῇ ὁ
+24:16 N- ----DSF- ἡμέρᾳ ἡμέρα
+24:16 RA ----DSF- τῇ ὁ
+24:16 A- ----DSF- ἑβδόμῃ ἕβδομος
+24:16 P- -------- ἐκ ἐκ
+24:16 A- ----GSN- μέσου μέσος  # module GSM — ἐκ μέσου, the neuter, as MorphGNT codes it (Matt 13:49)
+24:16 RA ----GSF- τῆς ὁ
+24:16 N- ----GSF- νεφέλης νεφέλη
+24:17 RA ----NSN- τὸ ὁ
+24:17 C- -------- δὲ δέ
+24:17 N- ----NSN- εἶδος εἶδος
+24:17 RA ----GSF- τῆς ὁ
+24:17 N- ----GSF- δόξης δόξα
+24:17 N- ----GSM- κυρίου κύριος
+24:17 C- -------- ὡσεὶ ὡσεί
+24:17 N- ----NSN- πῦρ πῦρ
+24:17 V- -PAPNSN- φλέγον φλέγω
+24:17 P- -------- ἐπὶ ἐπί
+24:17 RA ----GSF- τῆς ὁ
+24:17 N- ----GSF- κορυφῆς κορυφή
+24:17 RA ----GSN- τοῦ ὁ
+24:17 N- ----GSN- ὄρους ὄρος
+24:17 P- -------- ἐναντίον ἐναντίον
+24:17 RA ----GPM- τῶν ὁ
+24:17 N- ----GPM- υἱῶν υἱός
+24:17 N- ----GSM- Ισραηλ Ἰσραήλ
+24:18 C- -------- καὶ καί
+24:18 V- 3AAI-S-- εἰσῆλθεν εἰσέρχομαι
+24:18 N- ----NSM- Μωυσῆς Μωϋσῆς  # module lemma Μωσεύς — Μωϋσῆς, as MorphGNT files it
+24:18 P- -------- εἰς εἰς
+24:18 RA ----ASN- τὸ ὁ
+24:18 A- ----ASN- μέσον μέσος
+24:18 RA ----GSF- τῆς ὁ
+24:18 N- ----GSF- νεφέλης νεφέλη
+24:18 C- -------- καὶ καί
+24:18 V- 3AAI-S-- ἀνέβη ἀναβαίνω
+24:18 P- -------- εἰς εἰς
+24:18 RA ----ASN- τὸ ὁ
+24:18 N- ----ASN- ὄρος ὄρος
+24:18 C- -------- καὶ καί
+24:18 V- 3IAI-S-- ἦν εἰμί
+24:18 D- -------- ἐκεῖ ἐκεῖ
+24:18 P- -------- ἐν ἐν
+24:18 RA ----DSN- τῷ ὁ
+24:18 N- ----DSN- ὄρει ὄρος
+24:18 A- ----APF- τεσσαράκοντα τεσσαράκοντα  # module M, no features — MorphGNT gives τεσσαράκοντα case, number and gender like any adjective
+24:18 N- ----APF- ἡμέρας ἡμέρα
+24:18 C- -------- καὶ καί
+24:18 A- ----APF- τεσσαράκοντα τεσσαράκοντα  # module M, no features — MorphGNT gives τεσσαράκοντα case, number and gender like any adjective
+24:18 N- ----APF- νύκτας νύξ

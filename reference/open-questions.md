@@ -365,3 +365,19 @@ rule; the old chain also carries the causal senses (*changed and altered utterly
 
 **Recommendation:** re-read the six from the card with a `FORM_SENSES` rule for the intransitive tenses, as EXO
 23:27 now does for the causal future, and restore *to lose one's father, give him up* in `MARKUP_LOST`.
+
+## Q19. A compound's one translation that holds a simplex's headword
+
+**Where:** GEN 50:7, καὶ ἀνέβη Ιωσηφ … καὶ συνανέβησαν αὐτῷ: συναναβαίνω has one translation, *to go up with*, so
+it should be plain text, `went up with`; but ἀναβαίνω's unit in the same verse is headed `went up`, and the check
+that no headword stands bare reads the plain `went up with` as that headword written out. The verse carries a
+unit whose chain is its headword, `[[went up with|went up with]]`, which the rule says is not a unit.
+
+- now: `[[went up with|went up with|συναναβαίνω]]`
+- by the rule: `went up with`, plain text
+
+**The difference:** the check cannot tell a word's own one-translation English from another word's headword written
+bare; the unit satisfies the check and breaks the rule it exists to hold.
+
+**Recommendation:** let the bare-headword check pass a plain run that is the whole of a word's single translation
+in the chapter's word-by-word layer (συναναβαίνω, *to go up with*), and make GEN 50:7 plain text.

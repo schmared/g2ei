@@ -426,6 +426,11 @@ LSJ = {
     "θυσίασμα": ["victim, offering"],
     "πρωτογένημα": ["firstfruits"],
     "ἐχθρεύω": ["to be at enmity with"],
+    # EXO 24. Not in Middle Liddell. LSJ (eng17): προσπορεύομαι, "go to, approach"; "apply" for a loan; "take up"
+    # revenue cases; "make a start" or "get on with" the crops; "go in quest of" the office, "be candidate for" it;
+    # "hunt for" paradoxes; "encroach on"; of a day, "draw near, approach".
+    "προσπορεύομαι": ["go to, approach", "apply", "take up", "make a start or get on with", "go in quest of",
+                      "be candidate for", "hunt for", "encroach on", "draw near, approach"],
     # EXO 12. None of these is in Middle Liddell. LSJ (eng3): γειώρας, "sojourner", "proselyte". LSJ
     # (eng4): δέσμη, "package, bundle", "a measure in Egypt", "in Medicine, handful"; Rahlfs prints the
     # accusative δεσμήν, the module δέσμην. LSJ (eng5): ἐνδόσθια, "= ἐντόσθια", a pointer to ἐντόσθιος,
@@ -704,7 +709,7 @@ NOT_SENSES = {
     "kiqa/ra": {"guitar)"},                     # "(whence guitar)"
     "xalko/s": {"a blacksmith."},               # from a cross-reference to χαλκεύς
     "e)cani/sthmi": {"bid one", "rise"},        # from "bid one rise from suppliant posture"
-    "h(suxa/zw": {"the dead"},                  # from "of the dead"
+    "h(suxa/zw": {"the dead", "finding rest", "by resting from war"},  # from "of the dead"; examples', a negated infinitive and a participle
     # GEN 5
     "qh=lus": {"of", "by women"},              # from "of or belonging to women", "murder by women"
     "metati/qhmi": {"he would", "have caused", "among", "and call them", "to put", "in place",
@@ -1557,6 +1562,18 @@ NOT_SENSES = {
     "e)panastre/fw": {"to turn back upon"},    # "to turn back upon one", cut, whole in MARKUP_LOST
     "r(h/gnumi": {"to break, break asunder", "in pieces, rend, shiver, shatter", "force one's", "breaking into speech",
                   "rumpere vocem", "having let loose"},  # "to break … or in pieces", cut, whole in MARKUP_LOST; a piece, examples', Virgil
+    # EXO 24
+    "gra/fw": {"having scratched", "to write", "name", "to write for oneself", "for one's own use, note down", "for",
+               "the prosecutors", "the articles of the indictment", "the penalty named in the indictment"},  # an example's; cut, whole in MARKUP_LOST; a piece; the participles' as nouns
+    "a)nagignw/skw": {"to know", "again", "students", "he had persuaded"},  # cut, whole in MARKUP_LOST; the participle's as a noun; an example's
+    "prosxe/w": {"to pour to", "on"},          # cut, whole in MARKUP_LOST
+    "diafwne/w": {"with"},                     # a piece, the dative's τινι
+    "nomoqete/w": {"it hath been", "ordained by law"},  # cut by "so", whole in MARKUP_LOST
+    "e)gxe/w": {"to fill the κλεψύδρα"},       # a phrase's, ἐγχεῖν ὕδωρ τινί
+    "kataskeda/nnumi": {"pour upon", "over", "to spread", "against", "to pour", "sprinkle about"},  # cut, whole in MARKUP_LOST
+    "krath/r": {"bowls of wine"},              # an example's, the plural of "a bowl of wine"
+    "fle/gw": {"making", "blaze", "flash", "letting", "blaze up", "to make illustrious", "famous", "to be",
+               "become so"},                    # cut, whole in MARKUP_LOST
     # EXO 23
     "pe/nhs": {"(beggar)"},                    # πτωχός's, in the distinction the entry draws
     "sugkatati/qhmi": {"to deposit together", "at the same time", "to deliver", "with"},  # cut, whole in MARKUP_LOST; a phrase's, σ. τινι τὴν αὐτὴν δόξαν
@@ -1695,6 +1712,20 @@ _APOLLUMI_ACT = {"to destroy utterly, kill, slay", "to destroy, demolish, waste"
 _APOLLUMI_MID = {"to perish utterly, die", "to be undone", "you are done for, lost, ruined",
                  "to be lost, slip away, vanish"}
 FORM_SENSES = {
+    # EXO 24. γράφω's, νομοθετέω's, ἐγχέω's, κατασκεδάννυμι's and φλέγω's active leave out the middle's and the
+    # passive's; ἀνέγνω, the second aorist, leaves out the Ionic first aorist's "to persuade" or "induce" and its
+    # passive; ἡσυχάζω is "causal in aor1", and its other tenses leave out "to make still, lay to rest".
+    "gra/fw": [("PIFAXY", "A", NOT_SENSES["gra/fw"] | {"to write for oneself or for one's own use, note down", "to indict",
+                                                       "denounce", "to be indicted"})],
+    "a)nagignw/skw": [("A", "A", NOT_SENSES["a)nagignw/skw"] | {"to persuade", "induce", "to be persuaded"},
+                       "γνω(ν|ς|μεν|τε|σαν)?$")],
+    "nomoqete/w": [("PIFAXY", "A", NOT_SENSES["nomoqete/w"] | {"to make laws for oneself, frame laws",
+                                                               "it hath been ordained by law"})],
+    "e)gxe/w": [("PIFAXY", "A", NOT_SENSES["e)gxe/w"] | {"to fill one's cup"})],
+    "kataskeda/nnumi": [("PIFAXY", "A", NOT_SENSES["kataskeda/nnumi"] | {"to pour or sprinkle about"})],
+    "h(suxa/zw": [("PIFXY", "A", NOT_SENSES["h(suxa/zw"] | {"to make still, lay to rest"})],
+    "fle/gw": [("PIFAXY", "A", NOT_SENSES["fle/gw"] | {"to take fire, blaze up", "to blaze up, be a-light",
+                                                       "to be or become so"})],
     # EXO 23. συγκατατίθημι's middle and ὑποστέλλω's read the middle's senses; συνεγείρω's active and ἀναψύχω's
     # leave out the passive's; πτωχός's masculine and neuter leave out the feminine's "a beggar-woman", πτωχή.
     "sugkatati/qhmi": [("PIFAXY", "ME", NOT_SENSES["sugkatati/qhmi"] | {"to deposit together or at the same time"})],
@@ -2209,7 +2240,8 @@ SPELLING = {
     "e)gxeiri/dion": "e)gxeiri/dios",  # "as Subst., ἐγχειρίδιον … a hand-knife, dagger", inside the adjective (EXO 20:25)
     "dou/lh": "dou=los",              # "Hom. has only the fem. δούλη, a bondwoman", inside δοῦλος (EXO 21:7)
     "kakw=s": "kako/s",               # the adverb, filed inside the adjective's entry, as καλῶς (EXO 22:27)
-    "sfhki/a": "sfhkia/",             # σφηκία, the entry accented σφηκιά, whose LSJ cites Ex 23:28 (EXO 23:28)
+    "sfhki/a": "sfhkia/",
+    "a)naginw/skw": "a)nagignw/skw",   # the entry is headed with the Attic spelling, ἀναγιγνώσκω (EXO 24:7)             # σφηκία, the entry accented σφηκιά, whose LSJ cites Ex 23:28 (EXO 23:28)
     "di/yos": "di/ya",                # δίψος, "= δίψα", and nothing more (EXO 17:3)
     "ko/rion": "kori/annon",          # LSJ's κόριον (B), "shortd. for κορίαννον"; Middle Liddell's κόριον is the diminutive of κόρη (EXO 16:14)
     "sa/bbaton": "*sa/bbaton",        # σάββατον, keyed with the capital (EXO 16:23)
@@ -2582,6 +2614,19 @@ MARKUP_LOST = {
     # ἐλαιών: "«an olive-yard», Lat. olivetum: the Mount of Olives, Olivet, NTest." — the English after the colon inside
     # the Latin element.
     "e)laiw/n": [(1, "the Mount of Olives, Olivet")],
+    # EXO 24. γράφω: "γρ. τινά «to write» a person's «name»", "Mid. «to write for oneself» or «for one's own use, note
+    # down»"; ἀναγιγνώσκω: "«to know» them «again»"; προσχέω: "«to pour to» or «on»"; νομοθετέω: "«it hath been» so
+    # «ordained by law»", the so left out; κατασκεδάννυμι: "«to scatter», or «pour upon» or «over»", "«to spread» a
+    # report «against» one", the report the example's object, "Mid. «to pour» or «sprinkle about»"; φλέγω: "«making» it
+    # «blaze» or «flash»", "«letting» the flame of mischief «blaze up»", the flame the example's object, "«to make
+    # illustrious» or «famous»", "Pass. «to be» or «become so»".
+    "gra/fw": [(4, "to write a person's name"), (14, "to write for oneself or for one's own use, note down")],
+    "a)nagignw/skw": [(2, "to know them again")],
+    "prosxe/w": [(0, "to pour to or on")],
+    "nomoqete/w": [(3, "it hath been ordained by law")],
+    "kataskeda/nnumi": [(1, "pour upon or over"), (4, "to spread against"), (7, "to pour or sprinkle about")],
+    "fle/gw": [(4, "making it blaze or flash"), (8, "letting blaze up"), (12, "to make illustrious or famous"),
+               (15, "to be or become so")],
     "de/on": [(1, "things needful or proper, advantages or duties")],  # τὰ δέοντα «things needful» or «proper, advantages» or «duties»
     "pleona/zw": [(2, "to go beyond bounds, take or claim too much")],
     "pikrai/nw": [(0, "to make sharp or bitter")],
@@ -2673,6 +2718,7 @@ LATIN_ONLY = {
 # gives it, quoted beside it. build/validate.py fails on a new site until it is settled here
 # or in GREEK_AFTER.
 GREEK_LOST = {
+    "e)gxe/w": {"to fill the": "to fill the κλεψύδρα"},  # "ἐγχεῖν ὕδωρ τινί, i. e. to fill the κλεψύδρα (q. v.)" (EXO 24:6)
     "bu/ssinos": {"made of": "made of βύσσος"},  # "made of βύσσος, σινδὼν β. a fine linen bandage"
     "a)gora/zw": {"to be in the a)gora/": "to be in the ἀγορά",  # "to be in the ἀγορά, frequent it"
                   "to lounge in the": "to lounge in the ἀγορά"},  # "to lounge in the ἀγορά"

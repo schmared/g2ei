@@ -7984,3 +7984,40 @@ text uses. Chains already in the corpus (Genesis) were read from it and re-infle
   δουλεύω `you may be a slave`; ποιέω `they may make`; πρόσκομμα `a stumble`.
 - One translation each, plain text: μάρτυς, συνεγείρω (the active), ἐκτυφλόω, γένημα, ἀμπελών, ἀρσενικός, γάλα,
   οἶνος, σφηκία, πρωτογένημα, ἐχθρεύω, ἐρυθρός, μήν (the month).
+
+### Words new in EXO 24
+
+- **From LSJ** (not in Middle Liddell): προσπορεύομαι, `let them go to and approach, let them apply, let them take
+  up, let them make a start and get on with, let them go in quest of, let them be candidate for, let them hunt for,
+  let them encroach on, let them draw near and approach` (24:14).
+- **Filed under another spelling** (`SPELLING`): ἀναγινώσκω under ἀναγιγνώσκω. ἀνέγνω, the second aorist, reads
+  `knew well and knew certainly, knew again and recognised and acknowledged and owned, knew them again, read`; the
+  Ionic first aorist's *to persuade* or *induce* and its passive are left to those forms (`FORM_SENSES`, by form).
+- **γράφω**, its first here: `scratched and scraped and grazed, represented by lines drawn and delineated and drew
+  and painted, expressed by written characters and wrote, wrote a person's name, inscribed, wrote down, set him
+  down, registered and enrolled, proposed and moved, moved that`; the middle's and the passive's senses (*to write
+  for oneself*, *to indict*, *denounce*, *to be indicted*) left to those voices.
+- **Cut translations restored** (`MARKUP_LOST`): γράφω *to write a person's name*, *to write for oneself or for
+  one's own use, note down*; ἀναγιγνώσκω *to know them again*; προσχέω *to pour to or on*; νομοθετέω *it hath been
+  ordained by law*; κατασκεδάννυμι *pour upon or over*, *to spread against*, *to pour or sprinkle about*; φλέγω
+  *making it blaze or flash*, *letting blaze up*, *to make illustrious or famous*, *to be or become so*.
+  ἐγχέω's "to fill the κλεψύδρα" is restored (`GREEK_LOST`) and set aside as a phrase's.
+- **Form** (`FORM_SENSES`): the actives of νομοθετέω, ἐγχέω, κατασκεδάννυμι and φλέγω leave out the middle's and
+  the passive's; ἡσυχάζω is "causal in aor1", and its other tenses leave out *to make still, lay to rest*.
+- **Pieces set aside** (`NOT_SENSES`): διαφωνέω's *with*; κρατήρ's *bowls of wine*, an example's plural; ἡσυχάζω's
+  *finding rest* and *by resting from war*, examples', as the corpus's `be still and keep quiet and at rest`
+  already read it.
+- **Morphology**: the second pass was right on three: τὸ αἷμα after ἰδού is nominative (24:8), and οὐδὲ εἷς is the
+  adverb, as at 14:28. Σινα stays appositional after τὸ ὄρος τό, as at 19:20.
+- **Names**: the check that a name is glossed once keys by the anchored form, so Μωυσῇ, Μωυσῆς and Μωυσῆν, all
+  *Moses*, share one key, while EXO 23's Αμορραῖον and Αμορραίους, *Amorite* and *Amorites*, take two.
+- New chains: ἐγγίζω `will bring near`, `they will bring near`; φωνή `to sound`; γράφω `scratched`, `I scratched`;
+  ὀρθρίζω `having risen early`; φυλή `races`; ἀναφέρω `brought up` (plural); σωτήριος `of deliverance`; ἥμισυς `the
+  half`; ἐγχέω `poured in`; κρατήρ `mixing vessels`; προσχέω `poured to`; βιβλίον `the paper`; ἀναγινώσκω `knew
+  well`; λέγω `they said`; κατασκεδάννυμι `scattered`; λόγος `of the words`; γερουσία `of the Council of Elders`;
+  ὁράω `they saw`, `were seen`; σάπφειρος `of sapphire`; εἶδος `that which is seen`, `the that which is seen`;
+  στερέωμα `of a solid body`; καθαριότης `to the cleanliness`; ἐπίλεκτος `of the chosen`; διαφωνέω `was
+  dissonant`; νομοθετέω `to make law`; παρίστημι `the one having stood by`; πρεσβύτερος `to the elders`; τις `to any
+  one`; προσπορεύομαι `let them go to`; φλέγω `burning`; μέσος `the middle`.
+- One translation each, plain text: συναναβαίνω, θυσιαστήριον, νεανίσκος, μοσχάριον, πλίνθος, πυξίον, λίθινος, and
+  the numerals.
