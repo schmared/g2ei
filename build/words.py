@@ -592,6 +592,13 @@ LSJ = {
     "συμπορπάω": ["to be fastened together"],
     "περισιαλόω": ["to be broidered round the edge"],
     "συνυφή": ["web", "construction", "amorous embrace"],
+    # EXO 37. Not in Middle Liddell. LSJ (eng20) gives ῥαφιδευτός no gloss of its own: "= ῥαπτός, ib. 37.21", so
+    # the senses are Middle Liddell's ῥαπτός, its example's "a stitched" left out, as πόρευσις reads πορεία's
+    # (GEN 33). LSJ (eng17): ποικιλτικός, "«skilful in embroidery»"; its ἡ -κή, "«embroidery»", is the feminine
+    # made a noun, and this verse has the neuter, which LSJ gives only as "v.l. for ποικιλτά".
+    "ῥαφιδευτός": ["stitched, patched", "strung together, continuous", "worked with the needle",
+                   "an embroidered carpet"],
+    "ποικιλτικός": ["skilful in embroidery"],
     "διασκευή": ["construction", "equipment", "furniture or vessels", "rhetorical elaboration", "set phrases",
                  "new edition or recension", "theatrical performance"],
     # EXO 12. None of these is in Middle Liddell. LSJ (eng3): γειώρας, "sojourner", "proselyte". LSJ
@@ -1727,6 +1734,9 @@ NOT_SENSES = {
     "e)panastre/fw": {"to turn back upon"},    # "to turn back upon one", cut, whole in MARKUP_LOST
     "r(h/gnumi": {"to break, break asunder", "in pieces, rend, shiver, shatter", "force one's", "breaking into speech",
                   "rumpere vocem", "having let loose"},  # "to break … or in pieces", cut, whole in MARKUP_LOST; a piece, examples', Virgil
+    # EXO 37
+    "leitourgi/a": {"liturgies", "liturgy."},  # the ordinary liturgies' list; "hence our word liturgy"
+    "e)ciso/w": {"acts"},                     # an example's, "acts in no way like a mother"
     # EXO 36
     "te/mnw": {"cutting", "to wound", "I made", "cut", "off", "had", "cut off", "to have", "wrought", "hewn",
                "by felling the trees", "cutting the corn"},  # examples' pieces

@@ -8561,3 +8561,29 @@ text uses. Chains already in the corpus (Genesis) were read from it and re-infle
 - **Morphology**: the second pass was right on three: κάτωθεν and ἄνωθεν before a genitive are prepositions, as
   ἄνωθεν at 25:22; αὐτοῦ at 36:37 neuter, the plate's. Anarthrous ὑακίνθου keeps the masculine (Q22), διανήθω
   the corpus's lemma, ὅλον ὑακίνθινον at 36:29 the neuter of ἔργον ὑφαντόν beside it.
+
+### Words new in EXO 37
+
+- **The order**: the Greek gives the curtains, the veil and the screen, then the court, which the Hebrew gives at
+  38:9–20; the goats'-hair covering, the skins and the boards of the Hebrew's 36:14–34 are not here. A `divergence`
+  note at 37:1.
+- **From LSJ** (not in Middle Liddell): ῥαφιδευτός, which LSJ glosses only "= ῥαπτός", reads Middle Liddell's
+  ῥαπτός, as πόρευσις reads πορεία's (GEN 33:14); used as a noun at 37:21 it is headed by the entry's noun sense,
+  `the embroidered carpets, the stitched and patched, the strung together and continuous, the worked with the
+  needle` (Q30). ποικιλτικός, *skilful in embroidery*, plain; LSJ's *embroidery* is the feminine's, ἡ ποικιλτική.
+- **Set aside** (`NOT_SENSES`): λειτουργία's list of the Athenian liturgies and its *hence our word liturgy*;
+  ἐξισόω's example's *acts*.
+- New chains: καταχρυσόω's perfect passive `having been covered with gold-leaf and gilded and standing so, having
+  been made golden` and aorist `covered with gold-leaf and gilded, made golden`; αὐλή with the article; ἱστίον's
+  dative with the article; νῶτος's genitive with the article; ἀγκύλη with the article; ἐξισόω's present
+  middle-passive participle `being made equal or even brought to a level with, being put on a level, making itself
+  equal, being or becoming equal, being a match for and rivalling, being equal or like`; συντάσσω's aorist passive
+  `was put in order together, …, was ordained and prescribed`; λειτουργία `the liturgy, the public duty, the any
+  service or ministration and help, the public service, the service or ministry`; ἀρχιτεκτονέω's aorist `was the
+  architect, constructed and contrived`.
+- One translation each, plain text: κλίτος *the clime*; λίψ *SW. wind*, without the article, as at 27:9; ὑφάντης
+  *of a weaver*; the numerals.
+- **The article apart from its word**: τὰ πρὸς λίβα ἱστία, `the any webs` and the phrase after, as at 36:4.
+- **Morphology**: the second pass was right on seventeen: the measures and τὸ αὐτό in the verbless clauses of 37:2
+  and 37:16 nominative; the αὐτῶν that are the hangings' or the curtains' neuter or feminine. Anarthrous ὑακίνθου
+  keeps the masculine (Q22), νῶτος the masculine of GEN 49:8, Ουριας the corpus's lemma.

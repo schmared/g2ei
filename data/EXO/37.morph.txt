@@ -1,0 +1,420 @@
+# Exodus 37 — morphology, one word per line.
+#
+# This is the project's own grammatical analysis of each form, written alongside the
+# transcription and not copied from any digital edition.
+#
+# Columns: verse, part of speech, parse, form, lemma — in MorphGNT's code scheme, so
+# the Old and New Testament layers read alike. The parse is eight places: person,
+# tense, voice, mood, case, number, gender, degree ("-" where it does not apply).
+#
+# Two codes go beyond MorphGNT, both to record only what the form itself says:
+#   voice  E  middle/passive — a tense in which the two share one form
+#   gender C  masculine/feminine — an adjective whose form does not distinguish them
+#
+# A trailing annotation records a deliberate difference and the reason for it:
+#   "# module …"  from the reference module, checked when LXX_RAHLFS_DIR is set
+#   "# corpus …"  from this project's own analysis of the same form elsewhere
+# A line may carry both. validate.py prints them as notes instead of failures — and
+# fails if the difference a note claims is not there, so they cannot go stale. The
+# analysis here is this project's own: the module is a reference, not an authority,
+# and the corpus is held to itself.
+#
+# Indeclinables take case and number from the syntax, as MorphGNT does, and gender
+# where there is one to take: a personal name, from the person; a numeral agreeing
+# with its noun; a common noun whose article shows it — but not an indeclinable place
+# name, which has none. A personal name the New Testament also uses takes MorphGNT's
+# dictionary form (Νῶε, Σήμ); every other Semitic name (Χαμ, Ιαφεθ), the form Rahlfs
+# prints.
+
+37:1 C- -------- Καὶ καί
+37:1 V- 3AAI-P-- ἐποίησαν ποιέω
+37:1 RA ----DSF- τῇ ὁ
+37:1 N- ----DSF- σκηνῇ σκηνή
+37:1 A- ----APF- δέκα δέκα  # module M, no features — MorphGNT gives δέκα case, number and gender like any adjective
+37:1 N- ----APF- αὐλαίας αὐλαία  # module N.GSF — accusative plural, the object of ἐποίησαν, counted by δέκα
+37:2 A- ----GPM- ὀκτὼ ὀκτώ  # module M, no features — MorphGNT gives ὀκτώ case, number and gender like any adjective
+37:2 C- -------- καὶ καί
+37:2 A- ----GPM- εἴκοσι εἴκοσι  # module M, no features — MorphGNT gives εἴκοσι case, number and gender like any adjective
+37:2 N- ----GPM- πήχεων πῆχυς
+37:2 N- ----NSN- μῆκος μῆκος  # module ASN — nominative, the subject of a verbless clause, with its measure in the genitive
+37:2 RA ----GSF- τῆς ὁ
+37:2 N- ----GSF- αὐλαίας αὐλαία
+37:2 RA ----GSF- τῆς ὁ
+37:2 A- ----GSF- μιᾶς εἷς
+37:2 RA ----NSN- τὸ ὁ
+37:2 RP ----NSN- αὐτὸ αὐτός
+37:2 V- 3IAI-P-- ἦσαν εἰμί
+37:2 A- ----NPF- πᾶσαι πᾶς
+37:2 C- -------- καὶ καί
+37:2 A- ----GPC- τεσσάρων τέσσαρες
+37:2 N- ----GPM- πηχῶν πῆχυς
+37:2 RA ----NSN- τὸ ὁ  # module ASN — nominative, the subject of a verbless clause, with its measure in the genitive
+37:2 N- ----NSN- εὖρος εὖρος  # module ASN — nominative, the subject of a verbless clause, with its measure in the genitive
+37:2 RA ----GSF- τῆς ὁ
+37:2 N- ----GSF- αὐλαίας αὐλαία
+37:2 RA ----GSF- τῆς ὁ
+37:2 A- ----GSF- μιᾶς εἷς
+37:3 C- -------- καὶ καί
+37:3 V- 3AAI-P-- ἐποίησαν ποιέω
+37:3 RA ----ASN- τὸ ὁ
+37:3 N- ----ASN- καταπέτασμα καταπέτασμα
+37:3 P- -------- ἐξ ἐκ
+37:3 N- ----GSM- ὑακίνθου ὑάκινθος  # module GSF — masculine, ὁ, as Middle Liddell heads ὑάκινθος first, as at 25:4
+37:3 C- -------- καὶ καί
+37:3 N- ----GSF- πορφύρας πορφύρα
+37:3 C- -------- καὶ καί
+37:3 A- ----GSN- κοκκίνου κόκκινος
+37:3 V- -XEPGSN- νενησμένου νέω  # module lemma νήθω — νέω, to spin, Middle Liddell's second νέω, of which νήθω is the later form
+37:3 C- -------- καὶ καί
+37:3 N- ----GSF- βύσσου βύσσος
+37:3 V- -XEPGSF- κεκλωσμένης κλώθω
+37:3 N- ----ASN- ἔργον ἔργον
+37:3 N- ----GSM- ὑφάντου ὑφάντης
+37:3 N- ----APN- χερουβιμ χερουβιμ  # module lemma χερούβ — as printed, unaccented, like the Semitic names
+37:4 C- -------- καὶ καί
+37:4 V- 3AAI-P-- ἐπέθηκαν ἐπιτίθημι
+37:4 RP ----ASN- αὐτὸ αὐτός
+37:4 P- -------- ἐπὶ ἐπί
+37:4 A- ----APC- τέσσαρας τέσσαρες
+37:4 N- ----APM- στύλους στῦλος
+37:4 A- ----APC- ἀσήπτους ἄσηπτος
+37:4 V- -XEPAPM- κατακεχρυσωμένους καταχρυσόω
+37:4 P- -------- ἐν ἐν
+37:4 N- ----DSN- χρυσίῳ χρυσίον
+37:4 C- -------- καὶ καί
+37:4 RA ----NPF- αἱ ὁ
+37:4 N- ----NPF- κεφαλίδες κεφαλίς
+37:4 RP ----GPM- αὐτῶν αὐτός  # module RD.GPN — masculine, the pillars', στῦλοι
+37:4 A- ----NPF- χρυσαῖ χρυσοῦς  # module lemma χρύσεος — χρυσοῦς, the contracted form, as MorphGNT files it, like διπλοῦς
+37:4 C- -------- καὶ καί
+37:4 RA ----NPF- αἱ ὁ
+37:4 N- ----NPF- βάσεις βάσις
+37:4 RP ----GPM- αὐτῶν αὐτός  # module RD.GPN — masculine, the pillars', στῦλοι
+37:4 A- ----NPC- τέσσαρες τέσσαρες
+37:4 A- ----NPF- ἀργυραῖ ἀργυροῦς  # module lemma ἀργύρεος — ἀργυροῦς, the contracted form, as Middle Liddell heads it
+37:5 C- -------- καὶ καί
+37:5 V- 3AAI-P-- ἐποίησαν ποιέω
+37:5 RA ----ASN- τὸ ὁ
+37:5 N- ----ASN- καταπέτασμα καταπέτασμα
+37:5 RA ----GSF- τῆς ὁ
+37:5 N- ----GSF- θύρας θύρα
+37:5 RA ----GSF- τῆς ὁ
+37:5 N- ----GSF- σκηνῆς σκηνή
+37:5 RA ----GSN- τοῦ ὁ
+37:5 N- ----GSN- μαρτυρίου μαρτύριον
+37:5 P- -------- ἐξ ἐκ
+37:5 N- ----GSM- ὑακίνθου ὑάκινθος  # module GSF — masculine, ὁ, as Middle Liddell heads ὑάκινθος first, as at 25:4
+37:5 C- -------- καὶ καί
+37:5 N- ----GSF- πορφύρας πορφύρα
+37:5 C- -------- καὶ καί
+37:5 A- ----GSN- κοκκίνου κόκκινος
+37:5 V- -XEPGSN- νενησμένου νέω  # module lemma νήθω — νέω, to spin, Middle Liddell's second νέω, of which νήθω is the later form
+37:5 C- -------- καὶ καί
+37:5 N- ----GSF- βύσσου βύσσος
+37:5 V- -XEPGSF- κεκλωσμένης κλώθω
+37:5 N- ----ASN- ἔργον ἔργον
+37:5 N- ----GSM- ὑφάντου ὑφάντης
+37:5 N- ----APN- χερουβιμ χερουβιμ  # module lemma χερούβ — as printed, unaccented, like the Semitic names
+37:6 C- -------- καὶ καί
+37:6 RA ----APM- τοὺς ὁ
+37:6 N- ----APM- στύλους στῦλος
+37:6 RP ----GSN- αὐτοῦ αὐτός
+37:6 A- ----APM- πέντε πέντε  # module M, no features — MorphGNT gives πέντε case, number and gender like any adjective
+37:6 C- -------- καὶ καί
+37:6 RA ----APM- τοὺς ὁ
+37:6 N- ----APM- κρίκους κρίκος
+37:6 C- -------- καὶ καί
+37:6 RA ----APF- τὰς ὁ
+37:6 N- ----APF- κεφαλίδας κεφαλίς
+37:6 RP ----GPM- αὐτῶν αὐτός  # module RD.GPN — masculine, the pillars', στῦλοι
+37:6 C- -------- καὶ καί
+37:6 RA ----APF- τὰς ὁ
+37:6 N- ----APF- ψαλίδας ψαλίς
+37:6 RP ----GPM- αὐτῶν αὐτός  # module RD.GPN — masculine, the pillars', στῦλοι
+37:6 V- 3AAI-P-- κατεχρύσωσαν καταχρυσόω
+37:6 N- ----DSN- χρυσίῳ χρυσίον
+37:6 C- -------- καὶ καί
+37:6 RA ----NPF- αἱ ὁ
+37:6 N- ----NPF- βάσεις βάσις
+37:6 RP ----GPM- αὐτῶν αὐτός  # module RD.GPN — masculine, the pillars', στῦλοι
+37:6 A- ----NPF- πέντε πέντε  # module M, no features — MorphGNT gives πέντε case, number and gender like any adjective
+37:6 A- ----NPF- χαλκαῖ χαλκοῦς  # module lemma χάλκεος — χαλκοῦς, the contracted form, filed under χάλκεος as χρυσοῦς is under χρύσεος
+37:7 C- -------- Καὶ καί
+37:7 V- 3AAI-P-- ἐποίησαν ποιέω
+37:7 RA ----ASF- τὴν ὁ
+37:7 N- ----ASF- αὐλήν αὐλή
+37:7 RA ----NPN- τὰ ὁ
+37:7 P- -------- πρὸς πρός
+37:7 N- ----ASM- λίβα λίψ
+37:7 N- ----NPN- ἱστία ἱστίον
+37:7 RA ----GSF- τῆς ὁ
+37:7 N- ----GSF- αὐλῆς αὐλή
+37:7 P- -------- ἐκ ἐκ
+37:7 N- ----GSF- βύσσου βύσσος
+37:7 V- -XEPGSF- κεκλωσμένης κλώθω
+37:7 A- ----NPM- ἑκατὸν ἑκατόν  # module M, no features — MorphGNT gives ἑκατόν case, number and gender like any adjective
+37:7 P- -------- ἐφʼ ἐπί
+37:7 A- ----APM- ἑκατόν ἑκατόν  # module M, no features — MorphGNT gives ἑκατόν case, number and gender like any adjective
+37:8 C- -------- καὶ καί
+37:8 RA ----NPM- οἱ ὁ
+37:8 N- ----NPM- στῦλοι στῦλος
+37:8 RP ----GPN- αὐτῶν αὐτός
+37:8 A- ----NPM- εἴκοσι εἴκοσι  # module M, no features — MorphGNT gives εἴκοσι case, number and gender like any adjective
+37:8 C- -------- καὶ καί
+37:8 RA ----NPF- αἱ ὁ
+37:8 N- ----NPF- βάσεις βάσις
+37:8 RP ----GPM- αὐτῶν αὐτός  # module RD.GPN — masculine, the pillars', στῦλοι
+37:8 A- ----NPF- εἴκοσι εἴκοσι  # module M, no features — MorphGNT gives εἴκοσι case, number and gender like any adjective
+37:9 C- -------- καὶ καί
+37:9 RA ----NSN- τὸ ὁ  # module ASN — nominative, the subject of a verbless clause, as the pillars and bases after it
+37:9 N- ----NSN- κλίτος κλίτος  # module ASN — nominative, the subject of a verbless clause, as the pillars and bases after it
+37:9 RA ----NSN- τὸ ὁ  # module ASN — nominative, the subject of a verbless clause, as the pillars and bases after it
+37:9 P- -------- πρὸς πρός
+37:9 N- ----ASM- βορρᾶν βορρᾶς
+37:9 A- ----NPM- ἑκατὸν ἑκατόν  # module M, no features — MorphGNT gives ἑκατόν case, number and gender like any adjective
+37:9 P- -------- ἐφʼ ἐπί
+37:9 A- ----APM- ἑκατόν ἑκατόν  # module M, no features — MorphGNT gives ἑκατόν case, number and gender like any adjective
+37:9 C- -------- καὶ καί
+37:9 RA ----NPM- οἱ ὁ
+37:9 N- ----NPM- στῦλοι στῦλος
+37:9 RP ----GPN- αὐτῶν αὐτός
+37:9 A- ----NPM- εἴκοσι εἴκοσι  # module M, no features — MorphGNT gives εἴκοσι case, number and gender like any adjective
+37:9 C- -------- καὶ καί
+37:9 RA ----NPF- αἱ ὁ
+37:9 N- ----NPF- βάσεις βάσις
+37:9 RP ----GPM- αὐτῶν αὐτός  # module RD.GPN — masculine, the pillars', στῦλοι
+37:9 A- ----NPF- εἴκοσι εἴκοσι  # module M, no features — MorphGNT gives εἴκοσι case, number and gender like any adjective
+37:10 C- -------- καὶ καί
+37:10 RA ----NSN- τὸ ὁ  # module ASN — nominative, the subject of a verbless clause, with its measure in the genitive
+37:10 N- ----NSN- κλίτος κλίτος  # module ASN — nominative, the subject of a verbless clause, with its measure in the genitive
+37:10 RA ----NSN- τὸ ὁ  # module ASN — nominative, the subject of a verbless clause, with its measure in the genitive
+37:10 P- -------- πρὸς πρός
+37:10 N- ----ASF- θάλασσαν θάλασσα
+37:10 N- ----NPF- αὐλαῖαι αὐλαία
+37:10 A- ----GPM- πεντήκοντα πεντήκοντα  # module M, no features — MorphGNT gives πεντήκοντα case, number and gender like any adjective
+37:10 N- ----GPM- πήχεων πῆχυς
+37:10 N- ----NPM- στῦλοι στῦλος
+37:10 RP ----GPF- αὐτῶν αὐτός
+37:10 A- ----NPM- δέκα δέκα  # module M, no features — MorphGNT gives δέκα case, number and gender like any adjective
+37:10 C- -------- καὶ καί
+37:10 RA ----NPF- αἱ ὁ
+37:10 N- ----NPF- βάσεις βάσις
+37:10 RP ----GPM- αὐτῶν αὐτός  # module RD.GPF — masculine, the pillars', στῦλοι
+37:10 A- ----NPF- δέκα δέκα  # module M, no features — MorphGNT gives δέκα case, number and gender like any adjective
+37:11 C- -------- καὶ καί
+37:11 RA ----NSN- τὸ ὁ  # module ASN — nominative, the subject of a verbless clause, with its measure in the genitive
+37:11 N- ----NSN- κλίτος κλίτος  # module ASN — nominative, the subject of a verbless clause, with its measure in the genitive
+37:11 RA ----NSN- τὸ ὁ  # module ASN — nominative, the subject of a verbless clause, with its measure in the genitive
+37:11 P- -------- πρὸς πρός
+37:11 N- ----APF- ἀνατολὰς ἀνατολή
+37:11 A- ----GPM- πεντήκοντα πεντήκοντα  # module M, no features — MorphGNT gives πεντήκοντα case, number and gender like any adjective
+37:11 N- ----GPM- πήχεων πῆχυς
+37:12 N- ----NPN- ἱστία ἱστίον
+37:12 A- ----GPM- πεντεκαίδεκα πεντεκαίδεκα  # module M, no features — MorphGNT gives πεντεκαίδεκα case, number and gender like any adjective
+37:12 N- ----GPM- πήχεων πῆχυς
+37:12 RA ----NSN- τὸ ὁ
+37:12 P- -------- κατὰ κατά
+37:12 N- ----GSM- νώτου νῶτος  # module GSN — νῶτος, masculine, as MorphGNT files τὸν νῶτον at Rom 11:10
+37:12 C- -------- καὶ καί
+37:12 RA ----NPM- οἱ ὁ
+37:12 N- ----NPM- στῦλοι στῦλος
+37:12 RP ----GPN- αὐτῶν αὐτός
+37:12 A- ----NPC- τρεῖς τρεῖς
+37:12 C- -------- καὶ καί
+37:12 RA ----NPF- αἱ ὁ
+37:12 N- ----NPF- βάσεις βάσις
+37:12 RP ----GPM- αὐτῶν αὐτός  # module RD.GPF — masculine, the pillars', στῦλοι
+37:12 A- ----NPC- τρεῖς τρεῖς
+37:13 C- -------- καὶ καί
+37:13 P- -------- ἐπὶ ἐπί
+37:13 RA ----GSM- τοῦ ὁ  # module GSN — masculine, with νῶτος, as at GEN 49:8
+37:13 N- ----GSM- νώτου νῶτος  # module GSN — νῶτος, masculine, as MorphGNT files τὸν νῶτον at Rom 11:10
+37:13 RA ----GSM- τοῦ ὁ  # module GSN — masculine, with νῶτος, as at GEN 49:8
+37:13 A- ----GSM- δευτέρου δεύτερος  # module GSN — masculine, with νῶτος, as at GEN 49:8
+37:13 D- -------- ἔνθεν ἔνθεν  # module lemma ἐνθάδε — ἔνθεν, thence, the form Rahlfs prints
+37:13 C- -------- καὶ καί
+37:13 D- -------- ἔνθεν ἔνθεν  # module lemma ἐνθάδε — ἔνθεν, thence, the form Rahlfs prints
+37:13 P- -------- κατὰ κατά
+37:13 RA ----ASF- τὴν ὁ
+37:13 N- ----ASF- πύλην πύλη
+37:13 RA ----GSF- τῆς ὁ
+37:13 N- ----GSF- αὐλῆς αὐλή
+37:13 N- ----NPF- αὐλαῖαι αὐλαία
+37:13 A- ----GPM- πεντεκαίδεκα πεντεκαίδεκα  # module M, no features — MorphGNT gives πεντεκαίδεκα case, number and gender like any adjective
+37:13 N- ----GPM- πήχεων πῆχυς
+37:13 C- -------- καὶ καί
+37:13 RA ----NPM- οἱ ὁ
+37:13 N- ----NPM- στῦλοι στῦλος
+37:13 RP ----GPF- αὐτῶν αὐτός
+37:13 A- ----NPC- τρεῖς τρεῖς
+37:13 C- -------- καὶ καί
+37:13 RA ----NPF- αἱ ὁ
+37:13 N- ----NPF- βάσεις βάσις
+37:13 RP ----GPM- αὐτῶν αὐτός  # module RD.GPF — masculine, the pillars', στῦλοι
+37:13 A- ----NPC- τρεῖς τρεῖς
+37:14 A- ----NPF- πᾶσαι πᾶς
+37:14 RA ----NPF- αἱ ὁ
+37:14 N- ----NPF- αὐλαῖαι αὐλαία
+37:14 RA ----GSF- τῆς ὁ
+37:14 N- ----GSF- αὐλῆς αὐλή
+37:14 P- -------- ἐκ ἐκ
+37:14 N- ----GSF- βύσσου βύσσος
+37:14 V- -XEPGSF- κεκλωσμένης κλώθω
+37:15 C- -------- καὶ καί
+37:15 RA ----NPF- αἱ ὁ
+37:15 N- ----NPF- βάσεις βάσις
+37:15 RA ----GPM- τῶν ὁ
+37:15 N- ----GPM- στύλων στῦλος
+37:15 A- ----NPF- χαλκαῖ χαλκοῦς  # module lemma χάλκεος — χαλκοῦς, the contracted form, filed under χάλκεος as χρυσοῦς is under χρύσεος
+37:15 C- -------- καὶ καί
+37:15 RA ----NPF- αἱ ὁ
+37:15 N- ----NPF- ἀγκύλαι ἀγκύλη
+37:15 RP ----GPM- αὐτῶν αὐτός
+37:15 A- ----NPF- ἀργυραῖ ἀργυροῦς  # module lemma ἀργύρεος — ἀργυροῦς, the contracted form, as Middle Liddell heads it
+37:15 C- -------- καὶ καί
+37:15 RA ----NPF- αἱ ὁ
+37:15 N- ----NPF- κεφαλίδες κεφαλίς
+37:15 RP ----GPM- αὐτῶν αὐτός
+37:15 V- -XEPNPF- περιηργυρωμέναι περιαργυρόω
+37:15 N- ----DSN- ἀργυρίῳ ἀργύριον
+37:15 C- -------- καὶ καί
+37:15 RA ----NPM- οἱ ὁ
+37:15 N- ----NPM- στῦλοι στῦλος
+37:15 V- -XEPNPM- περιηργυρωμένοι περιαργυρόω
+37:15 N- ----DSN- ἀργυρίῳ ἀργύριον
+37:15 A- ----NPM- πάντες πᾶς
+37:15 RA ----NPM- οἱ ὁ
+37:15 N- ----NPM- στῦλοι στῦλος
+37:15 RA ----GSF- τῆς ὁ
+37:15 N- ----GSF- αὐλῆς αὐλή
+37:16 C- -------- καὶ καί
+37:16 RA ----NSN- τὸ ὁ
+37:16 N- ----NSN- καταπέτασμα καταπέτασμα
+37:16 RA ----GSF- τῆς ὁ
+37:16 N- ----GSF- πύλης πύλη
+37:16 RA ----GSF- τῆς ὁ
+37:16 N- ----GSF- αὐλῆς αὐλή
+37:16 N- ----NSN- ἔργον ἔργον
+37:16 N- ----GSM- ποικιλτοῦ ποικιλτής
+37:16 P- -------- ἐξ ἐκ
+37:16 N- ----GSM- ὑακίνθου ὑάκινθος  # module GSF — masculine, ὁ, as Middle Liddell heads ὑάκινθος first, as at 25:4
+37:16 C- -------- καὶ καί
+37:16 N- ----GSF- πορφύρας πορφύρα
+37:16 C- -------- καὶ καί
+37:16 A- ----GSN- κοκκίνου κόκκινος
+37:16 V- -XEPGSN- νενησμένου νέω  # module lemma νήθω — νέω, to spin, Middle Liddell's second νέω, of which νήθω is the later form
+37:16 C- -------- καὶ καί
+37:16 N- ----GSF- βύσσου βύσσος
+37:16 V- -XEPGSF- κεκλωσμένης κλώθω
+37:16 A- ----GPM- εἴκοσι εἴκοσι  # module M, no features — MorphGNT gives εἴκοσι case, number and gender like any adjective
+37:16 N- ----GPM- πήχεων πῆχυς
+37:16 RA ----NSN- τὸ ὁ  # module ASN — nominative, the subject of a verbless clause, with its measure in the genitive
+37:16 N- ----NSN- μῆκος μῆκος  # module ASN — nominative, the subject of a verbless clause, with its measure in the genitive
+37:16 C- -------- καὶ καί
+37:16 RA ----NSN- τὸ ὁ  # module ASN — nominative, the subject of a verbless clause, with its measure in the genitive
+37:16 N- ----NSN- ὕψος ὕψος  # module ASN — nominative, the subject of a verbless clause, with its measure in the genitive
+37:16 C- -------- καὶ καί
+37:16 RA ----NSN- τὸ ὁ  # module ASN — nominative, the subject of a verbless clause, with its measure in the genitive
+37:16 N- ----NSN- εὖρος εὖρος  # module ASN — nominative, the subject of a verbless clause, with its measure in the genitive
+37:16 A- ----GPM- πέντε πέντε  # module M, no features — MorphGNT gives πέντε case, number and gender like any adjective
+37:16 N- ----GPM- πήχεων πῆχυς
+37:16 V- -PEPNSN- ἐξισούμενον ἐξισόω
+37:16 RA ----DPN- τοῖς ὁ  # module RA.DPM — neuter, with ἱστίοις
+37:16 N- ----DPN- ἱστίοις ἱστίον
+37:16 RA ----GSF- τῆς ὁ
+37:16 N- ----GSF- αὐλῆς αὐλή
+37:17 C- -------- καὶ καί
+37:17 RA ----NPM- οἱ ὁ
+37:17 N- ----NPM- στῦλοι στῦλος
+37:17 RP ----GPN- αὐτῶν αὐτός
+37:17 A- ----NPC- τέσσαρες τέσσαρες
+37:17 C- -------- καὶ καί
+37:17 RA ----NPF- αἱ ὁ
+37:17 N- ----NPF- βάσεις βάσις
+37:17 RP ----GPM- αὐτῶν αὐτός  # module RD.GPN — masculine, the pillars', στῦλοι
+37:17 A- ----NPC- τέσσαρες τέσσαρες
+37:17 A- ----NPF- χαλκαῖ χαλκοῦς  # module lemma χάλκεος — χαλκοῦς, the contracted form, filed under χάλκεος as χρυσοῦς is under χρύσεος
+37:17 C- -------- καὶ καί
+37:17 RA ----NPF- αἱ ὁ
+37:17 N- ----NPF- ἀγκύλαι ἀγκύλη
+37:17 RP ----GPM- αὐτῶν αὐτός  # module RD.GPN — masculine, the pillars', στῦλοι
+37:17 A- ----NPF- ἀργυραῖ ἀργυροῦς  # module lemma ἀργύρεος — ἀργυροῦς, the contracted form, as Middle Liddell heads it
+37:17 C- -------- καὶ καί
+37:17 RA ----NPF- αἱ ὁ
+37:17 N- ----NPF- κεφαλίδες κεφαλίς
+37:17 RP ----GPM- αὐτῶν αὐτός  # module RD.GPN — masculine, the pillars', στῦλοι
+37:17 V- -XEPNPF- περιηργυρωμέναι περιαργυρόω
+37:17 N- ----DSN- ἀργυρίῳ ἀργύριον
+37:18 C- -------- καὶ καί
+37:18 RP ----NPM- αὐτοὶ αὐτός
+37:18 V- -XEPNPM- περιηργυρωμένοι περιαργυρόω
+37:18 N- ----DSN- ἀργυρίῳ ἀργύριον
+37:18 C- -------- καὶ καί
+37:18 A- ----NPM- πάντες πᾶς
+37:18 RA ----NPM- οἱ ὁ
+37:18 N- ----NPM- πάσσαλοι πάσσαλος
+37:18 RA ----GSF- τῆς ὁ
+37:18 N- ----GSF- αὐλῆς αὐλή
+37:18 D- -------- κύκλῳ κύκλῳ  # module N.DSM — the adverb, round about, with no genitive after it
+37:18 A- ----NPM- χαλκοῖ χαλκοῦς  # module lemma χάλκεος — χαλκοῦς, the contracted form, filed under χάλκεος as χρυσοῦς is under χρύσεος
+37:19 C- -------- Καὶ καί
+37:19 RD ----NSF- αὕτη οὗτος
+37:19 RA ----NSF- ἡ ὁ
+37:19 N- ----NSF- σύνταξις σύνταξις
+37:19 RA ----GSF- τῆς ὁ
+37:19 N- ----GSF- σκηνῆς σκηνή
+37:19 RA ----GSN- τοῦ ὁ
+37:19 N- ----GSN- μαρτυρίου μαρτύριον
+37:19 C- -------- καθὰ καθά
+37:19 V- 3API-S-- συνετάγη συντάσσω
+37:19 N- ----DSM- Μωυσῇ Μωϋσῆς  # module lemma Μωσεύς — Μωϋσῆς, as MorphGNT files it
+37:19 RA ----ASF- τὴν ὁ
+37:19 N- ----ASF- λειτουργίαν λειτουργία
+37:19 V- -PAN---- εἶναι εἰμί
+37:19 RA ----GPM- τῶν ὁ
+37:19 N- ----GPM- Λευιτῶν Λευίτης  # module lemma Λευΐτης — Λευίτης, as MorphGNT files it
+37:19 P- -------- διὰ διά
+37:19 N- ----GSM- Ιθαμαρ Ιθαμαρ
+37:19 RA ----GSM- τοῦ ὁ
+37:19 N- ----GSM- υἱοῦ υἱός
+37:19 N- ----GSM- Ααρων Ἀαρών
+37:19 RA ----GSM- τοῦ ὁ
+37:19 N- ----GSM- ἱερέως ἱερεύς
+37:20 C- -------- καὶ καί
+37:20 N- ----NSM- Βεσελεηλ Βεσελεηλ
+37:20 RA ----NSM- ὁ ὁ
+37:20 RA ----GSM- τοῦ ὁ
+37:20 N- ----GSM- Ουριου Ουριας  # module lemma Οὐρίας — Ουριας, unaccented as Rahlfs prints it, a name the New Testament does not use for this man
+37:20 P- -------- ἐκ ἐκ
+37:20 N- ----GSF- φυλῆς φυλή
+37:20 N- ----GSM- Ιουδα Ἰούδας  # module lemma Ἰουδά — the genitive of Ἰούδας, as MorphGNT declines it (Luke 3:30)
+37:20 V- 3AAI-S-- ἐποίησεν ποιέω
+37:20 C- -------- καθὰ καθά
+37:20 V- 3AAI-S-- συνέταξεν συντάσσω
+37:20 N- ----NSM- κύριος κύριος
+37:20 RA ----DSM- τῷ ὁ
+37:20 N- ----DSM- Μωυσῇ Μωϋσῆς  # module lemma Μωσεύς — Μωϋσῆς, as MorphGNT files it
+37:21 C- -------- καὶ καί
+37:21 N- ----NSM- Ελιαβ Ελιαβ
+37:21 RA ----NSM- ὁ ὁ
+37:21 RA ----GSM- τοῦ ὁ
+37:21 N- ----GSM- Αχισαμακ Αχισαμακ
+37:21 P- -------- ἐκ ἐκ
+37:21 RA ----GSF- τῆς ὁ
+37:21 N- ----GSF- φυλῆς φυλή
+37:21 N- ----GSM- Δαν Δαν
+37:21 RR ----NSM- ὃς ὅς
+37:21 V- 3AAI-S-- ἠρχιτεκτόνησεν ἀρχιτεκτονέω
+37:21 RA ----APN- τὰ ὁ
+37:21 A- ----APN- ὑφαντὰ ὑφαντός
+37:21 C- -------- καὶ καί
+37:21 RA ----APN- τὰ ὁ
+37:21 A- ----APN- ῥαφιδευτὰ ῥαφιδευτός
+37:21 C- -------- καὶ καί
+37:21 A- ----APN- ποικιλτικὰ ποικιλτικός
+37:21 V- -AAN---- ὑφᾶναι ὑφαίνω
+37:21 RA ----DSN- τῷ ὁ
+37:21 A- ----DSN- κοκκίνῳ κόκκινος
+37:21 C- -------- καὶ καί
+37:21 RA ----DSF- τῇ ὁ
+37:21 N- ----DSF- βύσσῳ βύσσος

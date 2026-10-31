@@ -722,6 +722,13 @@ Thirteen disagreements over 759 words, and the second pass was right on three: �
 are prepositions, as ἄνωθεν at 25:22; αὐτοῦ at 36:37 is neuter, the plate's. Anarthrous ὑακίνθου keeps the
 masculine (Q22), διανήθω the corpus's dictionary form, and ὅλον ὑακίνθινον at 36:29 the neuter, with ἔργον ὑφαντόν.
 
+### What it found in Exodus 37
+
+Twenty-six disagreements over 392 words, and the second pass was right on seventeen: μῆκος, εὖρος, ὕψος and τὸ αὐτό
+in the verbless clauses of 37:2 and 37:16 are nominative, and the αὐτῶν whose pillars belong to the hangings or the
+curtains are neuter or feminine. Anarthrous ὑακίνθου keeps the masculine (Q22), νώτου the masculine νῶτος of
+GEN 49:8, and Ουριας the corpus's dictionary form.
+
 ## The brief
 
 Copy everything below the rule into a new agent. Replace `<BOOK NAME>`, `<CHAPTER>`,

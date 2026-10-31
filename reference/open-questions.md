@@ -560,3 +560,22 @@ two, the two and two` (GEN 44; EXO 2, 6, 12, 16, 18, 21, 31, 32, 34).
 
 **Recommendation:** plain wherever a single δύο stands, the sixteen units flattened, and `two and two` set aside in
 `NOT_SENSES` as the doubled construction's.
+
+## Q30. An adjective used as a noun whose entry has one noun sense
+
+**Where:** EXO 37:21, τὰ ὑφαντὰ καὶ τὰ ῥαφιδευτὰ καὶ ποικιλτικά. LSJ glosses ῥαφιδευτός only "= ῥαπτός", and Middle
+Liddell's ῥαπτός gives three adjective senses and one noun sense, ῥαπτόν, *an embroidered carpet*.
+
+**Now:** the noun sense heads, as the rule for a word used as a noun has it, and the adjective's senses follow:
+`the embroidered carpets — the embroidered carpets, the stitched and patched, the strung together and continuous,
+the worked with the needle —`.
+
+- now: `{the woven} and {the embroidered carpets} and skilful in embroidery`
+- the other reading: the adjective's first sense heads, `the stitched`, as τὰ ὑφαντά reads `the woven` beside it
+
+**The difference:** νόμιμος and καλός used as nouns carry the noun senses only (GEN 26:5, 2:9); with one noun
+sense that leaves a unit whose chain is its headword, which the rules do not allow, and plain text, which leaves the
+adjective's range unread. The noun sense is also the entry's for ῥαπτόν, a neuter singular, read here in a plural.
+
+**Recommendation:** keep the noun sense at the head and the adjective's senses after it, wherever an adjective used
+as a noun has a single noun sense.
