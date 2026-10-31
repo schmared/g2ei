@@ -8477,3 +8477,33 @@ text uses. Chains already in the corpus (Genesis) were read from it and re-infle
 - **Morphology**: the second pass was right on eleven of fourteen: καί at 34:1 and 34:4 the adverb, also; ἅ at 34:1
   and 34:10, τὰ πρόβατα, θύματα nominative subjects; πλησίον before a genitive a preposition; ἑπτά with ἡμέρας
   feminine; λυτρώσῃ after ἐάν the subjunctive; ἕως ἄν the conjunction. Σινα keeps the case of its article.
+
+### Words new in EXO 35
+
+- **Verses Rahlfs does not print**: 35:8, 35:15, 35:17 and 35:18; the module agrees, and a note on the verse after
+  each gap says so. **35:12a**, after 12, is lettered, as 28:29a.
+- **From LSJ** (not in Middle Liddell): διατόνιον *curtain-hook or -ring*, inside LSJ's διατόναιον, plain;
+  ἐμπλόκιον `fashions of plaiting women's hair, hair-clasps`; περιδέξιον *armlet for the right arm*, the noun inside
+  LSJ's περιδέξιος, Middle Liddell's περιδέξιος being the adjective alone, plain; ἀρχιτεκτονία `of architecture and
+  construction`; ποικιλτός `variegated and broidered`. κάτεργον is in neither lexicon: plain, as at 30:16.
+- **Restored whole** (`MARKUP_LOST`): παράρρυμα *anything drawn along the side: a leathern or hair curtain, stretched
+  along the sides of ships*, `the anything drawn along the side and the leathern or hair curtains stretched along the
+  sides of ships`.
+- **By voice** (`FORM_SENSES`): ἀνακαλέω's active, `has called up the dead and it stands so, …, has summoned and cited,
+  has called, has called on, has called back and recalled`, the middle's left out, as the middle at 31:2 leaves out the
+  active's; συνίημι's active `to bring or set together, to perceive and hear, to understand`; ὑφαίνω's active `to
+  weave, to weave and ply the loom, to contrive and plan and invent, to create and construct`.
+- **Set aside** (`NOT_SENSES`): συναθροίζω's examples, *collected amounts*, *has not joined*, `gathered together and
+  assembled`; συνίημι's participle's *to the intelligent*.
+- New chains: κατάπαυσις `a putting to rest and a putting down and deposing, a cessation and calm`; κατοικία `to a
+  settlement and colony and the foundation of a colony`; καταδέχομαι's participle; λιθουργέω `to turn into stone and
+  petrify`, Middle Liddell's one sense; προβιβάζω `to make step forward and lead forward and lead on, to lead on and
+  induce, to push forward and advance and exalt, to teach beforehand`; πλήρωσις `of the filling up and filling, of the
+  satiety, of the completion of a number`; σφραγίς's accusative plural; κάλυμμα's plural; ἱστίον, φάος, σμάραγδος,
+  χιτών, θρίξ, αἴγειος, ἱερατεία, σύνθεσις, κατασκευή, ἀφαίρεμα, σοφία, διάνοια, ποικιλία with or without the article
+  in the forms the chapter has; σοφός in the singular; καίω's, φέρω's, λειτουργέω's futures; ἐργάζομαι's imperative;
+  κατεργάζομαι's infinitive.
+- One translation each, plain text: ὑακίνθινος *hyacinthine*; διανήθω *having been spun out*; νήθω *to spin*; νέω
+  *spun*, *having been spun*; λογεῖον *the speaking-place*.
+- **Morphology**: the second pass was right twice: αὐτοῦ at 35:16 neuter, the altar's; αὐτῶν at 35:26 feminine, the
+  women's. φάος, νέω and Ουριας keep the corpus's lemmas.

@@ -711,6 +711,11 @@ Fourteen disagreements over 808 words, and the second pass was right on eleven: 
 nominative subjects; πλησίον before a genitive a preposition; ἑπτὰ ἡμέρας feminine; λυτρώσῃ after ἐάν the
 subjunctive; ἕως ἄν the conjunction. The three Σινα lines keep the case of their article.
 
+### What it found in Exodus 35
+
+Six disagreements over 575 words, and the second pass was right on two: αὐτοῦ at 35:16 neuter, αὐτῶν at 35:26
+feminine. φάος, νέω and Ουριας keep the corpus's dictionary forms.
+
 ## The brief
 
 Copy everything below the rule into a new agent. Replace `<BOOK NAME>`, `<CHAPTER>`,

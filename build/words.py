@@ -575,6 +575,16 @@ LSJ = {
     # "«very merciful»", citing 34:6. One translation each.
     "οἰκτίρμων": ["merciful"],
     "πολυέλεος": ["very merciful"],
+    # EXO 35. Not in Middle Liddell. LSJ (eng4), inside διατόναιον: "so διατόνιον, «curtain-hook» or «-ring», LXX Ex.
+    # 35.11", one translation. LSJ (eng5): ἐμπλόκιον, "«a fashion of plaiting women's hair»", "«hair-clasp»", citing
+    # 35:22. LSJ (eng17), inside περιδέξιος: "Subst. περιδέξιον, «armlet for the right arm»", citing 35:22; Middle
+    # Liddell's περιδέξιος is the adjective alone, with no noun. LSJ (eng1): ἀρχιτεκτονία, "«architecture,
+    # construction»", citing 35:32. LSJ (eng17): ποικιλτός, "«variegated, broidered»".
+    "διατόνιον": ["curtain-hook or -ring"],
+    "ἐμπλόκιον": ["a fashion of plaiting women's hair", "hair-clasp"],
+    "περιδέξιον": ["armlet for the right arm"],
+    "ἀρχιτεκτονία": ["architecture, construction"],
+    "ποικιλτός": ["variegated, broidered"],
     "διασκευή": ["construction", "equipment", "furniture or vessels", "rhetorical elaboration", "set phrases",
                  "new edition or recension", "theatrical performance"],
     # EXO 12. None of these is in Middle Liddell. LSJ (eng3): γειώρας, "sojourner", "proselyte". LSJ
@@ -1710,6 +1720,10 @@ NOT_SENSES = {
     "e)panastre/fw": {"to turn back upon"},    # "to turn back upon one", cut, whole in MARKUP_LOST
     "r(h/gnumi": {"to break, break asunder", "in pieces, rend, shiver, shatter", "force one's", "breaking into speech",
                   "rumpere vocem", "having let loose"},  # "to break … or in pieces", cut, whole in MARKUP_LOST; a piece, examples', Virgil
+    # EXO 35
+    "sunaqroi/zw": {"collected amounts", "has not joined"},  # examples', the passive's and a single person's
+    "para/rruma": {"anything drawn along the side: a leathern", "hair curtain, stretched along"},  # cut, whole in MARKUP_LOST
+    "suni/hmi": {"to the intelligent"},         # the participle's, an example's
     # EXO 34
     "a)lhqino/s": {"true"},                    # an example's, "to turn out a «true» man"
     "a)llo/fulos": {"with foreigners"},        # an example's, πόλεμος ἀλλ.
@@ -2056,7 +2070,10 @@ FORM_SENSES = {
     # EXO 31. ἀνακαλέω's middle reads the senses Middle Liddell gives "so in Mid." and "Mid.", less the active's "to
     # summon, cite", "to call" by a name and "to call on"; τεκτονικός's neuter leaves out the masculine's and the
     # feminine's as nouns, "a good carpenter or builder" and "joiners' work, carpentry".
-    "a)nakale/w": [("PIFAXY", "ME", NOT_SENSES["a)nakale/w"] | {"to summon, cite", "to call", "to call on"})],
+    "a)nakale/w": [("PIFAXY", "ME", NOT_SENSES["a)nakale/w"] | {"to summon, cite", "to call", "to call on"}),
+                   # EXO 35. The active leaves out the middle's own: "Mid. to call to oneself, send for, summon",
+                   # "Mid. … to cheer on".
+                   ("PIFAXY", "A", NOT_SENSES["a)nakale/w"] | {"to call to oneself, send for, summon", "to cheer on"})],
     "tektoniko/s": [("-", "-", {"a good carpenter", "builder", "joiners' work, carpentry"}, None, "^......N")],
     # οἰκέτης's singular leaves out "οἱ οἰκέται … one's household, the women and children", the plural's (EXO 32).
     "oi)ke/ths": [("-", "-", {"one's household, the women and children"}, None, "^.....S")],
@@ -2072,6 +2089,9 @@ FORM_SENSES = {
         "to hold, consider as", "to take", "to pasture", "graze", "drive to pasture, tend", "to graze", "to give"})],
     "xrw=ma": [("-", "-", NOT_SENSES["xrw=ma"] | {"ornaments, embellishments", "embellishments in music"}, None,
                 "^.....S")],
+    # EXO 35. συνίημι's and ὑφαίνω's active leave out the middle's.
+    "suni/hmi": [("PIFAXY", "A", NOT_SENSES["suni/hmi"] | {"to come together, come to an agreement"})],
+    "u(fai/nw": [("PIFAXY", "A", {"to weave oneself"})],
     "fi/los": [("-", "-", NOT_SENSES["fi/los"] | {"a dear one, friend", "an object of love", "one's nearest and dearest"},
                 None, "^......M")],
     # EXO 32. συνίστημι's second aorist active, συνέστη, is intransitive, as the perfect is: its causal senses and the
@@ -3050,6 +3070,9 @@ MARKUP_LOST = {
     "oi)ktei/rw": [(1, "to pity one for or because of a thing")],
     # EXO 34. χρῶμα: "«the surface, skin: the colour of the» skin".
     "xrw=ma": [(1, "the surface, skin: the colour of the skin")],
+    # EXO 35. παράρρυμα: "«anything drawn along the side: a leathern» or «hair curtain, stretched along» the sides of
+    # ships".
+    "para/rruma": [(0, "anything drawn along the side: a leathern or hair curtain, stretched along the sides of ships")],
     "suskia/zw": [(0, "to shade quite over, throw a shade over, shade closely or thickly")],
     "a)ki/nhtos": [(5, "not to be stirred or touched, inviolate")],
     "tu/pos": [(5, "the sound of their tread"), (8, "anything wrought of metal or stone")],
