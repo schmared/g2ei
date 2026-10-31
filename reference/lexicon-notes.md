@@ -8072,3 +8072,52 @@ text uses. Chains already in the corpus (Genesis) were read from it and re-infle
   balance`; τύπος `the blow`.
 - One translation each, plain text: κόκκινος, ὑακίνθινος, κλίτος (*= κλίμα II, a clime*), καλαμίσκος, κρίνον,
   ἐνώπιος, ἀλλήλων, and the numerals.
+
+### Words new in EXO 26
+
+- **From LSJ** (not in Middle Liddell): αὐλαία `curtains, hunting-nets, screens`, the singular without the plural's
+  *screens*; ἀγκωνίσκος, "= foreg.", ἀγκωνίσκιον, "Dim. of ἀγκών", read as Middle Liddell's ἀγκών (Q20): `bends of
+  the arm and elbows, arms, any bends, jutting angles, bends, reaches, angles`; κατακάλυμμα `covering and veil`;
+  σύμβλησις `union: a joint, comparison, reference to, interpretation, assistance`; ἐπίσπαστρον `rope for pulling,
+  net, the latch or handle by which a door is pulled to, that which is drawn over and curtain and hanging`, its
+  "= ἐπισπαστήρ 1" read as that entry; ἐπιδιπλόω `you will make double, you will fold double, you will multiply by
+  two`; ἐπικάλυμμα `covers and veils, coverings, gills, opercula`. ὑποκαλύπτω is in neither lexicon: plain text,
+  *you will cover under*, with a note.
+- **Filed under another word**: χαλκοῦς under χάλκεος (`SPELLING`), as χρυσοῦς under χρύσεος, its "Lat. aeneus,
+  aheneus" Latin throughout (`LATIN_ONLY`); νέω's second entry, *to spin* (`ENTRY`), not the first, *to swim*;
+  ἐσώτερος, *interior*, for the neuter ἐσώτερον with a genitive.
+- **Inside the Latin** (`MARKUP_LOST`): ἔνθεν, "of Place, Lat. inde, thence", and "Lat. unde, whence, from which" —
+  `thence, on the one side, on this side, on that, …`. χωνεύω's *to cast into a mould (χόανος)* is restored
+  (`GREEK_LOST`): plain text, one translation.
+- **Cut translations restored**: συνάπτω *to bind it fast*, *to connect it with*, *refer it to*; διορίζω *to determine
+  one to be*.
+- **Form** (`FORM_SENSES`): συνάπτω's active leaves out the middle's and the passive's; ἴσος's masculine and
+  feminine the neuter's as a noun; δέρρις's and συμβολή's singular the plural's (δέρρις is one sense in the
+  singular, plain text, and a unit in the plural); κατακαλύπτω's active the middle's, so plain *you will cover up*.
+- **Pieces set aside** (`NOT_SENSES`): συνάπτω's examples; ἴσος's phrases and adverbs; μοχλός's Latin *vectis*;
+  ὀπίσθιος's *the hind-*; συμβολή's Aristophanic repeats and Terence's Latin; χάλκεος's examples and Virgil; νέω's
+  *spun*.
+- **Morphology**: the second pass was right on six: τῷ ὀπισθίῳ with στύλῳ, masculine (26:27); ἐσώτερον the
+  comparative ἐσώτερος, as MorphGNT codes Heb 6:19; τὸ καταπέτασμα the subject of διοριεῖ (26:33); ἔξωθεν with a
+  genitive the preposition. ὑάκινθος stays masculine, as at 25:4; μῆκος and εὖρος at 26:2 nominative, a verbless
+  clause; τὸ πλάτος at 26:16 accusative, as at 25:10.
+- **validate.py**: units are paired with their Greek words in order, and where a verse has fewer units than
+  occurrences of a word the pairing now prefers the occurrences whose entry says more than its headword (one helper,
+  `unit_places`, used by the chains, ranges, cases and articles checks, and the one-sense check likewise): δέρρις's
+  singular, plain, stands before its plural, a unit, at 26:8 and 26:12. And an article over a phrase or an adverb
+  now entitles its own noun as plain text, `of the one` before ἀνὰ μέσον (26:10), which the bare-headword check had
+  read as εἷς's headword loose.
+- New chains: the furnishings above; συνάπτω `you will tie`, `of the one tying`; ἴσος `of equal to`, `equal to`;
+  ἔνθεν `thence`; διορίζω `will draw a boundary through`; βάσις `steppings and steps`, `the steppings and steps`;
+  μοχλός `bars`, `the bar`, `the bars`; στῦλος `pillars`, `the pillars`, `of the pillar`, `to the pillar`, `to
+  pillar`, `of pillars`, `to pillars`, `to the pillars`; ἀγκύλη `loops`, `of the loops`; κρίκος `rings`, `the rings`,
+  `to the rings`; συμβολή `the coming together`, `a coming together`; κεφαλίς `the parts of a shoe`; γωνία `of the
+  corners`, `to corners`; ὀπίσθιος `of the hinder`, `to the hinder`; κάτωθεν `from below`; ὑφαντός `woven`;
+  διικνέομαι `let go through`; ἀντιπίπτω `falling against`; ἐξώτερος `of the outer`; σκέπη `a covering`;
+  καταπέτασμα `a curtain`, `the curtain`, `of the curtain`, `to the curtain`; χαλκοῦς `of copper`; ὑποτίθημι `you
+  will place under`; ὑπερέχω `of the thing holding over`; συγκαλύπτω `covering`; πλάγιος `the sides`; συνέχω `being
+  held together`; ἐργασία `to work`; μέτρον `that by which anything is measured`; ἀνίστημι `you will make to stand
+  up`; τίθημι `you will set`; διορίζω `will draw a boundary through`; ἅγιος `of the devoted to the gods`, `in the
+  devoted to the gods`.
+- One translation each, plain text: ὑφάντης, ποικιλτής, τρίχινος, ἕκτος, χωνεύω, ἐσώτερος, νέω (to spin),
+  ὑποκαλύπτω, κατακαλύπτω (the active), the numerals.

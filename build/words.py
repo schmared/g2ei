@@ -453,6 +453,22 @@ LSJ = {
     "ἐπαρυστήρ": ["vessel for pouring oil into a lamp"],
     "ἐρυθροδανόω": ["dye with madder, dye red"],
     "ὑπόθεμα": ["base"],
+    # EXO 26. Not in Middle Liddell. LSJ (eng1): αὐλαία, "curtain", "hunting-net", "in pl., screens" to protect a wall;
+    # ἀγκωνίσκος, "= foreg.", ἀγκωνίσκιον, "Dim. of ἀγκών", read as Middle Liddell's ἀγκών, as κυμάτιον is read (Q20).
+    # LSJ (eng11): κατακάλυμμα, "covering, veil", citing this chapter. LSJ (eng21): σύμβλησις, "union: a joint",
+    # citing 26:24, "comparison", "reference to", "interpretation", "assistance". LSJ (eng5): ἐπίσπαστρον, "rope for
+    # pulling", a fowler's "net", "= ἐπισπαστήρ 1", read as Middle Liddell's "the latch or handle by which a door is
+    # pulled to", and "that which is drawn over, curtain, hanging", citing 26:36; ἐπιδιπλόω, "make double", citing
+    # 26:9, "«fold» them «double»", "«multiply by» «two»"; ἐπικάλυμμα, "cover, veil", "covering" of an orifice, "of the
+    # gills" and "of the opercula". ὑποκαλύπτω is in neither lexicon (26:12): plain text, with a note.
+    "αὐλαία": ["curtain", "hunting-net", "screens"],
+    "ἀγκωνίσκος": ["the bend of the arm, the elbow", "the arm", "any bend", "jutting angle", "the bend", "reach", "angle"],
+    "κατακάλυμμα": ["covering, veil"],
+    "σύμβλησις": ["union: a joint", "comparison", "reference to", "interpretation", "assistance"],
+    "ἐπίσπαστρον": ["rope for pulling", "net", "the latch or handle by which a door is pulled to",
+                    "that which is drawn over, curtain, hanging"],
+    "ἐπιδιπλόω": ["make double", "fold double", "multiply by two"],
+    "ἐπικάλυμμα": ["cover, veil", "covering", "gills", "opercula"],
     # EXO 12. None of these is in Middle Liddell. LSJ (eng3): γειώρας, "sojourner", "proselyte". LSJ
     # (eng4): δέσμη, "package, bundle", "a measure in Egypt", "in Medicine, handful"; Rahlfs prints the
     # accusative δεσμήν, the module δέσμην. LSJ (eng5): ἐνδόσθια, "= ἐντόσθια", a pointer to ἐντόσθιος,
@@ -1584,6 +1600,18 @@ NOT_SENSES = {
     "e)panastre/fw": {"to turn back upon"},    # "to turn back upon one", cut, whole in MARKUP_LOST
     "r(h/gnumi": {"to break, break asunder", "in pieces, rend, shiver, shatter", "force one's", "breaking into speech",
                   "rumpere vocem", "having let loose"},  # "to break … or in pieces", cut, whole in MARKUP_LOST; a piece, examples', Virgil
+    # EXO 26
+    "suna/ptw": {"to bind", "fast", "with misery", "to connect", "with", "refer", "to", "involved", "engaged",
+                 "in conflict"},               # cut, whole in MARKUP_LOST; examples' and their pieces
+    "i)/sos": {'"measure', 'measure, "', "half and half", "tit for tat", "equally divided",
+               "the equal division of all civic rights", "fair", "even as", "like", "equally", "like as, as if",
+               "alike"},                        # phrases'; an example's repeat; the adverbs'
+    "diori/zw": {"to determine", "to be"},   # "to determine one to be", cut, whole in MARKUP_LOST
+    "moxlo/s": {"vectis"},                    # the Latin
+    "o)pi/sqios": {"the hind-"},              # a piece of an example, "the hind- legs"
+    "sumbolh/": {"encounter", "charges.", "de symbolis esse"},  # Aristophanes' play, repeated; Terence's Latin
+    "xa/lkeos": {"a bronze", "for a shield of brass", "of brass", "ferreus somnus"},  # examples', of a statue, a prize, a heart; Virgil
+    "ne/w": {"spun"},                          # an example's, the middle, of the Fates
     # EXO 25
     "i(lasth/rion": {"propitiatory"},        # the adjective's; the noun is "as Subst." inside ἱλαστήριος
     "u(a/kinqos": {"hyacinth", "dark blue", "dark", "black.", "jacinth"},  # the entry's prose on the flower's colour, a repeat; "not (prob.) our jacinth"
@@ -1758,6 +1786,16 @@ _APOLLUMI_ACT = {"to destroy utterly, kill, slay", "to destroy, demolish, waste"
 _APOLLUMI_MID = {"to perish utterly, die", "to be undone", "you are done for, lost, ruined",
                  "to be lost, slip away, vanish"}
 FORM_SENSES = {
+    # EXO 26. συνάπτω's active leaves out the middle's and the passive's; ἴσος's masculine and feminine the neuter's
+    # as a noun; δέρρις's and συμβολή's singular the plural's; κατακαλύπτω's active the middle's.
+    "suna/ptw": [("PIFAXY", "A", NOT_SENSES["suna/ptw"] | {"to have intercourse with", "to get one's daughter",
+                                                           "to be next to, connected with", "to take part with",
+                                                           "to assist", "to bring upon oneself"})],
+    "i)/sos": [("-", "-", NOT_SENSES["i)/sos"] | {"an equal share, fair measure", "equal rights, equality"}, None,
+                "^......[MFC]")],
+    "de/rris": [("-", "-", {"screens of hide"}, None, "^.....S")],
+    "katakalu/ptw": [("PIFAXY", "A", {"having veiled oneself"})],
+    "sumbolh/": [("-", "-", NOT_SENSES["sumbolh/"] | {"contributions"}, None, "^.....S")],
     # EXO 25. στρεπτός's neuter and feminine leave out the masculine noun's, "a collar of twisted or linked metal",
     # "a twist" or "roll"; τάλαντον's and τύπος's singular the plural's; χρυσόω's and ἐλαύνω's active the
     # passive's; φαίνω's active the middle's, the passive's and the passive's examples.
@@ -2304,7 +2342,8 @@ SPELLING = {
     "sfhki/a": "sfhkia/",
     "a)naginw/skw": "a)nagignw/skw",
     "i(lasth/rion": "i(lasth/rios",   # "as Subst., ἱλαστήριον, the mercy-seat", inside the adjective (EXO 25:17)
-    "palaisth/s": "palasth/",         # LSJ's παλαιστής (B), "v. παλαστή"; Middle Liddell's παλαιστής is a wrestler (EXO 25:25)   # the entry is headed with the Attic spelling, ἀναγιγνώσκω (EXO 24:7)             # σφηκία, the entry accented σφηκιά, whose LSJ cites Ex 23:28 (EXO 23:28)
+    "palaisth/s": "palasth/",
+    "xalkou=s": "xa/lkeos",          # the contracted adjective, filed under the uncontracted, as χρυσοῦς (EXO 26:11)         # LSJ's παλαιστής (B), "v. παλαστή"; Middle Liddell's παλαιστής is a wrestler (EXO 25:25)   # the entry is headed with the Attic spelling, ἀναγιγνώσκω (EXO 24:7)             # σφηκία, the entry accented σφηκιά, whose LSJ cites Ex 23:28 (EXO 23:28)
     "di/yos": "di/ya",                # δίψος, "= δίψα", and nothing more (EXO 17:3)
     "ko/rion": "kori/annon",          # LSJ's κόριον (B), "shortd. for κορίαννον"; Middle Liddell's κόριον is the diminutive of κόρη (EXO 16:14)
     "sa/bbaton": "*sa/bbaton",        # σάββατον, keyed with the capital (EXO 16:23)
@@ -2456,6 +2495,7 @@ SPELLING = {
 # the reason for each is recorded in reference/lexicon-notes.md. Keep it short: a
 # lemma belongs here only when the entries are genuinely different words.
 ENTRY = {
+    "ne/w": "ne/w2",     # ne/w1 is "to swim", ne/w3 "to heap"; EXO 26:31's νενησμένης is spun (ne/w2)
     "xou=s": "xou=s2",   # xou=s1 is the Pitcher-feast, the liquid measure; GEN 2:7 is dust
     "o(/ti": "o(/ti2",   # o(/ti1 is ὅ τι, "for what"; the conjunction is the second entry
     "le/gw": "le/gw3",   # le/gw1 is "to lull to sleep", le/gw2 "to gather"; saying is the third
@@ -2697,7 +2737,13 @@ MARKUP_LOST = {
     # "«anything wrought of metal» or «stone»"; ἐλαύνω: "«to drive» to extremities", "«to drive» or «thrust» through",
     # "«to beat with» a hammer", "«to draw a line of» wall or a trench", "«plant» them «in line»".
     "ai)/geios": [(0, "of a goat or goats")],
-    "fai/nw": [(4, "to make it clear"), (11, "to inform of as contraband")],  # "«to make» it «clear» to the ear"; "«to inform of» a thing «as contraband»"
+    "fai/nw": [(4, "to make it clear"), (11, "to inform of as contraband")],
+    # EXO 26. ἔνθεν: "of Place, Lat. inde, thence", "Lat. unde, whence, from which", the English inside the Latin
+    # element; συνάπτω: "«to bind» it «fast»", "«to connect» it «with» him, «refer» it «to» him"; διορίζω: "«to
+    # determine» one «to be» so and so".
+    "e)/nqen": [(0, "thence"), (7, "whence, from which")],
+    "suna/ptw": [(2, "to bind it fast"), (14, "to connect it with"), (17, "refer it to")],
+    "diori/zw": [(3, "to determine one to be")],  # "«to make» it «clear» to the ear"; "«to inform of» a thing «as contraband»"
     "strepto/s": [(4, "a collar of twisted or linked metal"), (9, "to be bent or turned"), (13, "glib, pliant")],
     "tra/peza": [(0, "a table")],
     "suskia/zw": [(0, "to shade quite over, throw a shade over, shade closely or thickly")],
@@ -2787,6 +2833,7 @@ LATIN_ONLY = {
     "te/ras",                                   # "Lat. portentum, prodigium", after "a sign, wonder, marvel"
     "ou)de/pote",                               # "Lat. ne unquam quidem, nunquam", after "and not ever" or "nor ever, …, never"
     "fuga/s",                                   # "Lat. exul, profugus", after "a runaway, fugitive, a banished man, exile, refugee" (EXO 23:27)
+    "xa/lkeos",                                 # "Lat. aeneus, aheneus", after "of copper" or "bronze, brasen" (EXO 26:11)
 }
 
 # The same loss with Greek in place of Latin. Middle Liddell names a thing by its Greek word
@@ -2796,6 +2843,7 @@ LATIN_ONLY = {
 # gives it, quoted beside it. build/validate.py fails on a new site until it is settled here
 # or in GREEK_AFTER.
 GREEK_LOST = {
+    "xwneu/w": {"to cast into a mould (": "to cast into a mould (χόανος)"},  # "to cast into a mould (χόανος)" (EXO 26:37)
     "e)gxe/w": {"to fill the": "to fill the κλεψύδρα"},  # "ἐγχεῖν ὕδωρ τινί, i. e. to fill the κλεψύδρα (q. v.)" (EXO 24:6)
     "bu/ssinos": {"made of": "made of βύσσος"},  # "made of βύσσος, σινδὼν β. a fine linen bandage"
     "a)gora/zw": {"to be in the a)gora/": "to be in the ἀγορά",  # "to be in the ἀγορά, frequent it"

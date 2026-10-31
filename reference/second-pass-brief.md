@@ -661,6 +661,12 @@ Fourteen disagreements over 667 words, and the second pass was right on ten: ἡ
 understood, six times; ἄνωθεν with a genitive the preposition; τρύβλιον accented as Middle Liddell heads it; οἷς and
 αὐτοῖς at 25:29 neuter. ὑάκινθος stays masculine, διὰ παντός neuter, καρυΐσκος with LSJ's diaeresis.
 
+### What it found in Exodus 26
+
+Twelve disagreements over 772 words, and the second pass was right on six: τῷ ὀπισθίῳ with the pillar; ἐσώτερον the
+comparative adjective; τὸ καταπέτασμα nominative, the subject of διοριεῖ; ἔξωθεν with a genitive the preposition.
+ὑάκινθος stays masculine, as at 25:4; the measures at 26:2 nominative, at 26:16 accusative.
+
 ## The brief
 
 Copy everything below the rule into a new agent. Replace `<BOOK NAME>`, `<CHAPTER>`,

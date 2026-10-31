@@ -761,10 +761,11 @@ def check_chains(targets, rep):
         for verse in json.loads(path.read_text(encoding="utf-8")):
             words = lay.get(verse["ref"]) or []
             nth = collections.Counter()
+            count = collections.Counter(lemmas(lemma)[-1] for _, _, lemma in units(verse["reading"]))
             for head, chain, lemma in units(verse["reading"]):
                 word = lemmas(lemma)[-1]
                 k, nth[word] = nth[word], nth[word] + 1
-                places = [w for w in words if w["lemma"] == word]
+                places = [words[i] for i in unit_places(words, word, count[word])]
                 card = tuple(places[k].get("senses") or ()) if k < len(places) else None
                 seen.setdefault((lemma, head, card), {}).setdefault(chain, verse["ref"])
     for lemma, head, where in chains_that_drifted(seen):
@@ -858,13 +859,14 @@ def check_ranges(targets, rep):
         for verse in json.loads(path.read_text(encoding="utf-8")):
             words = lay.get(verse["ref"]) or []
             nth = collections.Counter()
+            count = collections.Counter(lemmas(field)[-1] for _, _, field in units(verse["reading"]))
             for head, chain, field in units(verse["reading"]):
                 word = lemmas(field)[-1]
                 k, nth[word] = nth[word], nth[word] + 1
                 if (" + " in field.split(";")[-1] or word in FORMULA_LEMMAS
                         or chain.startswith(FORMULA_CHAINS)):
                     continue
-                places = [w for w in words if w["lemma"] == word]
+                places = [words[i] for i in unit_places(words, word, count[word])]
                 if k < len(places):
                     groups[range_key(places[k], chain)].append(
                         (range_of(chain), verse["ref"], head))
@@ -984,6 +986,22 @@ def opens_more(word):
     return bool(whole - set(senses(re.split(r"[,;]", got[0])[0])))
 
 
+
+def unit_places(words, word, count):
+    """Which occurrences of `word` a verse's `count` units open, in order.
+
+    Units are paired with their words in order, which holds while a verse has a unit
+    for every occurrence. Where it has fewer, the units are the occurrences whose entry
+    says more than its headword: δέρρις is one sense in the singular and two in the
+    plural, and EXO 26:8 and 26:12 hold the singular, plain, before the plural, a unit.
+    """
+    places = [i for i, w in enumerate(words) if w["lemma"] == word]
+    if count >= len(places):
+        return places
+    chosen = [i for i in places if opens_more(words[i])][:count]
+    chosen += [i for i in places if i not in chosen][:count - len(chosen)]
+    return sorted(chosen)
+
 def check_one_sense(book, chapter, verses, rep):
     """A word is a unit exactly when its entry says more than its headword does.
 
@@ -1016,9 +1034,18 @@ def check_one_sense(book, chapter, verses, rep):
         claimed = collections.Counter(w.split(" + ")[0] for _, _, lemma in own
                                       for w in lemmas(lemma))
 
-        for word in words:
-            if (word.get("lexicon") == "name" or word["lemma"] in FREE_WORDS
-                    or word["parse"].split(" ·")[0] not in CONTENT_WORDS):
+        content = [w for w in words
+                   if not (w.get("lexicon") == "name" or w["lemma"] in FREE_WORDS
+                           or w["parse"].split(" ·")[0] not in CONTENT_WORDS)]
+        # a unit opens the occurrence that needs one first: δέρρις is one sense in the
+        # singular and two in the plural, and EXO 26:12 holds the plural after a singular
+        opened = set()
+        for i, word in enumerate(content):
+            if claimed[word["lemma"]] > 0 and opens_more(word):
+                claimed[word["lemma"]] -= 1
+                opened.add(i)
+        for i, word in enumerate(content):
+            if i in opened:
                 continue
             if claimed[word["lemma"]] > 0:
                 claimed[word["lemma"]] -= 1
@@ -1352,11 +1379,12 @@ def check_unit_cases(book, chapter, verses, rep):
         if not words:
             continue
         nth = collections.Counter()
+        count = collections.Counter(lemmas(f)[-1].split(" + ")[0] for _, _, f in units(verse["reading"]))
         for head, chain, field in units(verse["reading"]):
             items = lemmas(field)
             word = items[-1].split(" + ")[0]
             k, nth[word] = nth[word], nth[word] + 1
-            places = [i for i, w in enumerate(words) if w["lemma"] == word]
+            places = unit_places(words, word, count[word])
             if " + " not in items[-1] and k < len(places) and own_article_of(words, places[k]) \
                     and not re.search(r"\bthe\b", head):
                 articled += 1
@@ -1475,6 +1503,7 @@ def check_articles(book, chapter, verses, rep):
         # prints with the first word — `of the mine` `of sound`, `the two` `messengers` —
         # and the noun's unit printing it again read `the two the messengers`.
         pieces = list(PIECES.finditer(text))
+        count = collections.Counter(lemmas(f)[-1] for _, _, f in units(text))
         seen = collections.Counter()
         for n, piece in enumerate(pieces):
             if piece.group(1) is None:
@@ -1482,7 +1511,7 @@ def check_articles(book, chapter, verses, rep):
             unit = render.UNIT.match(piece.group(0))
             word = lemmas(unit.group(3))[-1]
             nth, seen[word] = seen[word], seen[word] + 1
-            places = [i for i, w in enumerate(words) if w["lemma"] == word]
+            places = unit_places(words, word, count[word])
             if (nth < len(places) and THE_LEADS.match(unit.group(1).strip())
                     and shared_article(words, places[nth]) and printed_before(pieces, n)):
                 rep.fail("articles", ref,
@@ -1494,7 +1523,7 @@ def check_articles(book, chapter, verses, rep):
             word = lemmas(field)[-1]
             nth, seen[word] = seen[word], seen[word] + 1
             m = ARTICLE_NOUN.match(head)
-            places = [i for i, w in enumerate(words) if w["lemma"] == word]
+            places = unit_places(words, word, count[word])
             if not m or nth >= len(places) or "participle" not in words[places[nth]]["parse"]:
                 continue
             want = article_noun(words[places[nth]]["parse"])
@@ -1592,6 +1621,10 @@ AUXILIARIES = {"has", "have", "had", "was", "were", "will", "shall", "be", "been
                "may", "might", "let"}
 
 
+# What an article over a phrase or an adverb prints as its noun: *the one*, *the things*.
+ARTICLE_NOUNS = ("the one", "the ones", "the thing", "the things")
+
+
 def entitled_to(book, chapter, verses):
     """{ref: {English a word of this verse may print as plain text}}.
 
@@ -1613,7 +1646,13 @@ def entitled_to(book, chapter, verses):
             continue
         claimed = {w for _, _, lemma in units(verse["reading"]) for w in lemmas(lemma)}
         here = set()
-        for word in words:
+        for i, word in enumerate(words):
+            # an article over a phrase or an adverb carries its own noun as plain text,
+            # `of the one` before ἀνὰ μέσον (EXO 26:10), and is no εἷς left loose
+            if (word["lemma"] == "ὁ" and i + 1 < len(words)
+                    and words[i + 1]["parse"].startswith(("preposition", "adverb"))):
+                for mark in ("", "of ", "to "):
+                    here.update(mark + noun for noun in ARTICLE_NOUNS)
             got = word.get("senses") or []
             if got and word["lemma"] not in claimed:
                 first = re.split(r"[,;]", got[0])[0].strip().lower()

@@ -1,0 +1,800 @@
+# Exodus 26 — morphology, one word per line.
+#
+# This is the project's own grammatical analysis of each form, written alongside the
+# transcription and not copied from any digital edition.
+#
+# Columns: verse, part of speech, parse, form, lemma — in MorphGNT's code scheme, so
+# the Old and New Testament layers read alike. The parse is eight places: person,
+# tense, voice, mood, case, number, gender, degree ("-" where it does not apply).
+#
+# Two codes go beyond MorphGNT, both to record only what the form itself says:
+#   voice  E  middle/passive — a tense in which the two share one form
+#   gender C  masculine/feminine — an adjective whose form does not distinguish them
+#
+# A trailing annotation records a deliberate difference and the reason for it:
+#   "# module …"  from the reference module, checked when LXX_RAHLFS_DIR is set
+#   "# corpus …"  from this project's own analysis of the same form elsewhere
+# A line may carry both. validate.py prints them as notes instead of failures — and
+# fails if the difference a note claims is not there, so they cannot go stale. The
+# analysis here is this project's own: the module is a reference, not an authority,
+# and the corpus is held to itself.
+#
+# Indeclinables take case and number from the syntax, as MorphGNT does, and gender
+# where there is one to take: a personal name, from the person; a numeral agreeing
+# with its noun; a common noun whose article shows it — but not an indeclinable place
+# name, which has none. A personal name the New Testament also uses takes MorphGNT's
+# dictionary form (Νῶε, Σήμ); every other Semitic name (Χαμ, Ιαφεθ), the form Rahlfs
+# prints.
+
+26:1 C- -------- Καὶ καί
+26:1 RA ----ASF- τὴν ὁ
+26:1 N- ----ASF- σκηνὴν σκηνή
+26:1 V- 2FAI-S-- ποιήσεις ποιέω
+26:1 A- ----APF- δέκα δέκα  # module M, no features — MorphGNT gives δέκα case, number and gender like any adjective
+26:1 N- ----APF- αὐλαίας αὐλαία
+26:1 P- -------- ἐκ ἐκ
+26:1 N- ----GSF- βύσσου βύσσος
+26:1 V- -XEPGSF- κεκλωσμένης κλώθω
+26:1 C- -------- καὶ καί
+26:1 N- ----GSM- ὑακίνθου ὑάκινθος  # module GSF — masculine, ὁ, as Middle Liddell heads ὑάκινθος first, as at 25:4
+26:1 C- -------- καὶ καί
+26:1 N- ----GSF- πορφύρας πορφύρα
+26:1 C- -------- καὶ καί
+26:1 A- ----GSN- κοκκίνου κόκκινος
+26:1 V- -XEPGSN- κεκλωσμένου κλώθω
+26:1 N- ----APN- χερουβιμ χερουβιμ  # module lemma χερούβ — as printed, unaccented, like the Semitic names
+26:1 N- ----DSF- ἐργασίᾳ ἐργασία
+26:1 N- ----GSM- ὑφάντου ὑφάντης
+26:1 V- 2FAI-S-- ποιήσεις ποιέω
+26:1 RP ----APF- αὐτάς αὐτός
+26:2 N- ----NSN- μῆκος μῆκος
+26:2 RA ----GSF- τῆς ὁ
+26:2 N- ----GSF- αὐλαίας αὐλαία  # corpus genitive singular here, with τῆς … τῆς μιᾶς; accusative plural at 26:1, with δέκα
+26:2 RA ----GSF- τῆς ὁ
+26:2 A- ----GSF- μιᾶς εἷς
+26:2 A- ----GPM- ὀκτὼ ὀκτώ  # module M, no features — MorphGNT gives ὀκτώ case, number and gender like any adjective
+26:2 C- -------- καὶ καί
+26:2 A- ----GPM- εἴκοσι εἴκοσι  # module M, no features — MorphGNT gives εἴκοσι case, number and gender like any adjective
+26:2 N- ----GPM- πήχεων πῆχυς
+26:2 C- -------- καὶ καί
+26:2 N- ----NSN- εὖρος εὖρος
+26:2 A- ----GPC- τεσσάρων τέσσαρες
+26:2 N- ----GPM- πήχεων πῆχυς
+26:2 RA ----NSF- ἡ ὁ
+26:2 N- ----NSF- αὐλαία αὐλαία
+26:2 RA ----NSF- ἡ ὁ
+26:2 A- ----NSF- μία εἷς
+26:2 V- 3FMI-S-- ἔσται εἰμί
+26:2 N- ----NSN- μέτρον μέτρον
+26:2 RA ----NSN- τὸ ὁ
+26:2 RP ----NSN- αὐτὸ αὐτός
+26:2 V- 3FMI-S-- ἔσται εἰμί
+26:2 A- ----DPF- πάσαις πᾶς
+26:2 RA ----DPF- ταῖς ὁ
+26:2 N- ----DPF- αὐλαίαις αὐλαία
+26:3 A- ----NPF- πέντε πέντε  # module M, no features — MorphGNT gives πέντε case, number and gender like any adjective
+26:3 C- -------- δὲ δέ
+26:3 N- ----NPF- αὐλαῖαι αὐλαία
+26:3 V- 3FMI-P-- ἔσονται εἰμί
+26:3 P- -------- ἐξ ἐκ
+26:3 RP ----GPF- ἀλλήλων ἀλλήλων  # module GPM — feminine, the curtains
+26:3 V- -PEPNPF- ἐχόμεναι ἔχω
+26:3 RA ----NSF- ἡ ὁ
+26:3 A- ----NSF- ἑτέρα ἕτερος
+26:3 P- -------- ἐκ ἐκ
+26:3 RA ----GSF- τῆς ὁ
+26:3 A- ----GSF- ἑτέρας ἕτερος
+26:3 C- -------- καὶ καί
+26:3 A- ----NPF- πέντε πέντε  # module M, no features — MorphGNT gives πέντε case, number and gender like any adjective
+26:3 N- ----NPF- αὐλαῖαι αὐλαία
+26:3 V- 3FMI-P-- ἔσονται εἰμί
+26:3 V- -PEPNPF- συνεχόμεναι συνέχω
+26:3 A- ----NSF- ἑτέρα ἕτερος
+26:3 RA ----DSF- τῇ ὁ
+26:3 A- ----DSF- ἑτέρᾳ ἕτερος
+26:4 C- -------- καὶ καί
+26:4 V- 2FAI-S-- ποιήσεις ποιέω
+26:4 RP ----DPF- αὐταῖς αὐτός
+26:4 N- ----APF- ἀγκύλας ἀγκύλη
+26:4 A- ----APF- ὑακινθίνας ὑακίνθινος
+26:4 P- -------- ἐπὶ ἐπί
+26:4 RA ----GSN- τοῦ ὁ
+26:4 N- ----GSN- χείλους χεῖλος
+26:4 RA ----GSF- τῆς ὁ
+26:4 N- ----GSF- αὐλαίας αὐλαία
+26:4 RA ----GSF- τῆς ὁ
+26:4 A- ----GSF- μιᾶς εἷς
+26:4 P- -------- ἐκ ἐκ
+26:4 RA ----GSN- τοῦ ὁ
+26:4 A- ----GSN- ἑνὸς εἷς
+26:4 N- ----GSN- μέρους μέρος
+26:4 P- -------- εἰς εἰς
+26:4 RA ----ASF- τὴν ὁ
+26:4 N- ----ASF- συμβολὴν συμβολή
+26:4 C- -------- καὶ καί
+26:4 D- -------- οὕτως οὕτως
+26:4 V- 2FAI-S-- ποιήσεις ποιέω
+26:4 P- -------- ἐπὶ ἐπί
+26:4 RA ----GSN- τοῦ ὁ
+26:4 N- ----GSN- χείλους χεῖλος
+26:4 RA ----GSF- τῆς ὁ
+26:4 N- ----GSF- αὐλαίας αὐλαία
+26:4 RA ----GSF- τῆς ὁ
+26:4 A- ----GSFC ἐξωτέρας ἐξώτερος
+26:4 P- -------- πρὸς πρός
+26:4 RA ----DSF- τῇ ὁ
+26:4 N- ----DSF- συμβολῇ συμβολή
+26:4 RA ----DSF- τῇ ὁ
+26:4 A- ----DSF- δευτέρᾳ δεύτερος
+26:5 A- ----APF- πεντήκοντα πεντήκοντα  # module M, no features — MorphGNT gives πεντήκοντα case, number and gender like any adjective
+26:5 N- ----APF- ἀγκύλας ἀγκύλη
+26:5 V- 2FAI-S-- ποιήσεις ποιέω
+26:5 RA ----DSF- τῇ ὁ
+26:5 N- ----DSF- αὐλαίᾳ αὐλαία
+26:5 RA ----DSF- τῇ ὁ
+26:5 A- ----DSF- μιᾷ εἷς
+26:5 C- -------- καὶ καί
+26:5 A- ----APF- πεντήκοντα πεντήκοντα  # module M, no features — MorphGNT gives πεντήκοντα case, number and gender like any adjective
+26:5 N- ----APF- ἀγκύλας ἀγκύλη
+26:5 V- 2FAI-S-- ποιήσεις ποιέω
+26:5 P- -------- ἐκ ἐκ
+26:5 RA ----GSN- τοῦ ὁ
+26:5 N- ----GSN- μέρους μέρος
+26:5 RA ----GSF- τῆς ὁ
+26:5 N- ----GSF- αὐλαίας αὐλαία
+26:5 P- -------- κατὰ κατά
+26:5 RA ----ASF- τὴν ὁ
+26:5 N- ----ASF- συμβολὴν συμβολή
+26:5 RA ----GSF- τῆς ὁ
+26:5 A- ----GSF- δευτέρας δεύτερος
+26:5 A- ----NPC- ἀντιπρόσωποι ἀντιπρόσωπος
+26:5 V- -PAPNPF- ἀντιπίπτουσαι ἀντιπίπτω
+26:5 RP ----DPF- ἀλλήλαις ἀλλήλων
+26:5 P- -------- εἰς εἰς
+26:5 A- ----ASF- ἑκάστην ἕκαστος
+26:6 C- -------- καὶ καί
+26:6 V- 2FAI-S-- ποιήσεις ποιέω
+26:6 N- ----APM- κρίκους κρίκος
+26:6 A- ----APM- πεντήκοντα πεντήκοντα  # module M, no features — MorphGNT gives πεντήκοντα case, number and gender like any adjective
+26:6 A- ----APM- χρυσοῦς χρυσοῦς  # module lemma χρύσεος — χρυσοῦς, the contracted form, as MorphGNT files it, like διπλοῦς
+26:6 C- -------- καὶ καί
+26:6 V- 2FAI-S-- συνάψεις συνάπτω
+26:6 RA ----APF- τὰς ὁ
+26:6 N- ----APF- αὐλαίας αὐλαία
+26:6 A- ----ASF- ἑτέραν ἕτερος
+26:6 RA ----DSF- τῇ ὁ
+26:6 A- ----DSF- ἑτέρᾳ ἕτερος
+26:6 RA ----DPM- τοῖς ὁ
+26:6 N- ----DPM- κρίκοις κρίκος
+26:6 C- -------- καὶ καί
+26:6 V- 3FMI-S-- ἔσται εἰμί
+26:6 RA ----NSF- ἡ ὁ
+26:6 N- ----NSF- σκηνὴ σκηνή
+26:6 A- ----NSF- μία εἷς
+26:7 C- -------- καὶ καί
+26:7 V- 2FAI-S-- ποιήσεις ποιέω
+26:7 N- ----APF- δέρρεις δέρρις
+26:7 A- ----APF- τριχίνας τρίχινος  # module lemma τριχίνας — τρίχινος, the dictionary form
+26:7 N- ----ASF- σκέπην σκέπη
+26:7 P- -------- ἐπὶ ἐπί
+26:7 RA ----GSF- τῆς ὁ
+26:7 N- ----GSF- σκηνῆς σκηνή
+26:7 A- ----APF- ἕνδεκα ἕνδεκα  # module M, no features — MorphGNT gives ἕνδεκα case, number and gender like any adjective
+26:7 N- ----APF- δέρρεις δέρρις
+26:7 V- 2FAI-S-- ποιήσεις ποιέω
+26:7 RP ----APF- αὐτάς αὐτός
+26:8 RA ----NSN- τὸ ὁ
+26:8 N- ----NSN- μῆκος μῆκος
+26:8 RA ----GSF- τῆς ὁ
+26:8 N- ----GSF- δέρρεως δέρρις
+26:8 RA ----GSF- τῆς ὁ
+26:8 A- ----GSF- μιᾶς εἷς
+26:8 V- 3FMI-S-- ἔσται εἰμί
+26:8 A- ----GPM- τριάκοντα τριάκοντα  # module M, no features — MorphGNT gives τριάκοντα case, number and gender like any adjective
+26:8 N- ----GPM- πήχεων πῆχυς
+26:8 C- -------- καὶ καί
+26:8 A- ----GPC- τεσσάρων τέσσαρες
+26:8 N- ----GPM- πήχεων πῆχυς
+26:8 RA ----NSN- τὸ ὁ
+26:8 N- ----NSN- εὖρος εὖρος
+26:8 RA ----GSF- τῆς ὁ
+26:8 N- ----GSF- δέρρεως δέρρις
+26:8 RA ----GSF- τῆς ὁ
+26:8 A- ----GSF- μιᾶς εἷς
+26:8 N- ----NSN- μέτρον μέτρον
+26:8 RA ----NSN- τὸ ὁ
+26:8 RP ----NSN- αὐτὸ αὐτός
+26:8 V- 3FMI-S-- ἔσται εἰμί
+26:8 RA ----DPF- ταῖς ὁ
+26:8 A- ----DPF- ἕνδεκα ἕνδεκα  # module M, no features — MorphGNT gives ἕνδεκα case, number and gender like any adjective
+26:8 N- ----DPF- δέρρεσι δέρρις
+26:9 C- -------- καὶ καί
+26:9 V- 2FAI-S-- συνάψεις συνάπτω
+26:9 RA ----APF- τὰς ὁ
+26:9 A- ----APF- πέντε πέντε  # module M, no features — MorphGNT gives πέντε case, number and gender like any adjective
+26:9 N- ----APF- δέρρεις δέρρις
+26:9 P- -------- ἐπὶ ἐπί
+26:9 RA ----ASN- τὸ ὁ
+26:9 RP ----ASN- αὐτὸ αὐτός
+26:9 C- -------- καὶ καί
+26:9 RA ----APF- τὰς ὁ
+26:9 A- ----APF- ἓξ ἕξ  # module M, no features — MorphGNT gives ἕξ case, number and gender like any adjective
+26:9 N- ----APF- δέρρεις δέρρις
+26:9 P- -------- ἐπὶ ἐπί
+26:9 RA ----ASN- τὸ ὁ
+26:9 RP ----ASN- αὐτό αὐτός
+26:9 C- -------- καὶ καί
+26:9 V- 2FAI-S-- ἐπιδιπλώσεις ἐπιδιπλόω
+26:9 RA ----ASF- τὴν ὁ
+26:9 N- ----ASF- δέρριν δέρρις
+26:9 RA ----ASF- τὴν ὁ
+26:9 A- ----ASF- ἕκτην ἕκτος
+26:9 P- -------- κατὰ κατά
+26:9 N- ----ASN- πρόσωπον πρόσωπον
+26:9 RA ----GSF- τῆς ὁ
+26:9 N- ----GSF- σκηνῆς σκηνή
+26:10 C- -------- καὶ καί
+26:10 V- 2FAI-S-- ποιήσεις ποιέω
+26:10 N- ----APF- ἀγκύλας ἀγκύλη
+26:10 A- ----APF- πεντήκοντα πεντήκοντα  # module M, no features — MorphGNT gives πεντήκοντα case, number and gender like any adjective
+26:10 P- -------- ἐπὶ ἐπί
+26:10 RA ----GSN- τοῦ ὁ
+26:10 N- ----GSN- χείλους χεῖλος
+26:10 RA ----GSF- τῆς ὁ
+26:10 N- ----GSF- δέρρεως δέρρις
+26:10 RA ----GSF- τῆς ὁ
+26:10 A- ----GSF- μιᾶς εἷς
+26:10 RA ----GSF- τῆς ὁ
+26:10 P- -------- ἀνὰ ἀνά
+26:10 A- ----ASN- μέσον μέσος
+26:10 P- -------- κατὰ κατά
+26:10 N- ----ASF- συμβολὴν συμβολή
+26:10 C- -------- καὶ καί
+26:10 A- ----APF- πεντήκοντα πεντήκοντα  # module M, no features — MorphGNT gives πεντήκοντα case, number and gender like any adjective
+26:10 N- ----APF- ἀγκύλας ἀγκύλη
+26:10 V- 2FAI-S-- ποιήσεις ποιέω
+26:10 P- -------- ἐπὶ ἐπί
+26:10 RA ----GSN- τοῦ ὁ
+26:10 N- ----GSN- χείλους χεῖλος
+26:10 RA ----GSF- τῆς ὁ
+26:10 N- ----GSF- δέρρεως δέρρις
+26:10 RA ----GSF- τῆς ὁ
+26:10 V- -PAPGSF- συναπτούσης συνάπτω
+26:10 RA ----GSF- τῆς ὁ
+26:10 A- ----GSF- δευτέρας δεύτερος
+26:11 C- -------- καὶ καί
+26:11 V- 2FAI-S-- ποιήσεις ποιέω
+26:11 N- ----APM- κρίκους κρίκος
+26:11 A- ----APM- χαλκοῦς χαλκοῦς  # module lemma χάλκεος — χαλκοῦς, the contracted form, filed under χάλκεος as χρυσοῦς is under χρύσεος
+26:11 A- ----APM- πεντήκοντα πεντήκοντα  # module M, no features — MorphGNT gives πεντήκοντα case, number and gender like any adjective
+26:11 C- -------- καὶ καί
+26:11 V- 2FAI-S-- συνάψεις συνάπτω
+26:11 RA ----APM- τοὺς ὁ
+26:11 N- ----APM- κρίκους κρίκος
+26:11 P- -------- ἐκ ἐκ
+26:11 RA ----GPF- τῶν ὁ
+26:11 N- ----GPF- ἀγκυλῶν ἀγκύλη
+26:11 C- -------- καὶ καί
+26:11 V- 2FAI-S-- συνάψεις συνάπτω
+26:11 RA ----APF- τὰς ὁ
+26:11 N- ----APF- δέρρεις δέρρις
+26:11 C- -------- καὶ καί
+26:11 V- 3FMI-S-- ἔσται εἰμί
+26:11 A- ----NSN- ἕν εἷς
+26:12 C- -------- καὶ καί
+26:12 V- 2FAI-S-- ὑποθήσεις ὑποτίθημι
+26:12 RA ----ASN- τὸ ὁ
+26:12 V- -PAPASN- πλεονάζον πλεονάζω
+26:12 P- -------- ἐν ἐν
+26:12 RA ----DPF- ταῖς ὁ
+26:12 N- ----DPF- δέρρεσιν δέρρις
+26:12 RA ----GSF- τῆς ὁ
+26:12 N- ----GSF- σκηνῆς σκηνή
+26:12 RA ----ASN- τὸ ὁ
+26:12 A- ----ASN- ἥμισυ ἥμισυς
+26:12 RA ----GSF- τῆς ὁ
+26:12 N- ----GSF- δέρρεως δέρρις
+26:12 RA ----ASN- τὸ ὁ
+26:12 V- -XEPASN- ὑπολελειμμένον ὑπολείπω
+26:12 V- 2FAI-S-- ὑποκαλύψεις ὑποκαλύπτω
+26:12 RA ----ASN- τὸ ὁ
+26:12 V- -PAPASN- πλεονάζον πλεονάζω
+26:12 RA ----GPF- τῶν ὁ
+26:12 N- ----GPF- δέρρεων δέρρις
+26:12 RA ----GSF- τῆς ὁ
+26:12 N- ----GSF- σκηνῆς σκηνή
+26:12 V- 2FAI-S-- ὑποκαλύψεις ὑποκαλύπτω
+26:12 P- -------- ὀπίσω ὀπίσω
+26:12 RA ----GSF- τῆς ὁ
+26:12 N- ----GSF- σκηνῆς σκηνή
+26:13 N- ----ASM- πῆχυν πῆχυς
+26:13 P- -------- ἐκ ἐκ
+26:13 RD ----GSN- τούτου οὗτος
+26:13 C- -------- καὶ καί
+26:13 N- ----ASM- πῆχυν πῆχυς
+26:13 P- -------- ἐκ ἐκ
+26:13 RD ----GSN- τούτου οὗτος
+26:13 P- -------- ἐκ ἐκ
+26:13 RA ----GSN- τοῦ ὁ
+26:13 V- -PAPGSN- ὑπερέχοντος ὑπερέχω
+26:13 RA ----GPF- τῶν ὁ
+26:13 N- ----GPF- δέρρεων δέρρις
+26:13 P- -------- ἐκ ἐκ
+26:13 RA ----GSN- τοῦ ὁ
+26:13 N- ----GSN- μήκους μῆκος
+26:13 RA ----GPF- τῶν ὁ
+26:13 N- ----GPF- δέρρεων δέρρις
+26:13 RA ----GSF- τῆς ὁ
+26:13 N- ----GSF- σκηνῆς σκηνή
+26:13 V- 3FMI-S-- ἔσται εἰμί
+26:13 V- -PAPNSN- συγκαλύπτον συγκαλύπτω
+26:13 P- -------- ἐπὶ ἐπί
+26:13 RA ----APN- τὰ ὁ
+26:13 A- ----APN- πλάγια πλάγιος
+26:13 RA ----GSF- τῆς ὁ
+26:13 N- ----GSF- σκηνῆς σκηνή
+26:13 D- -------- ἔνθεν ἔνθεν  # module lemma ἐνθάδε — ἔνθεν, thence, the form Rahlfs prints
+26:13 C- -------- καὶ καί
+26:13 D- -------- ἔνθεν ἔνθεν  # module lemma ἐνθάδε — ἔνθεν, thence, the form Rahlfs prints
+26:13 C- -------- ἵνα ἵνα
+26:13 V- 3PAS-S-- καλύπτῃ καλύπτω
+26:14 C- -------- καὶ καί
+26:14 V- 2FAI-S-- ποιήσεις ποιέω
+26:14 N- ----ASN- κατακάλυμμα κατακάλυμμα
+26:14 RA ----DSF- τῇ ὁ
+26:14 N- ----DSF- σκηνῇ σκηνή
+26:14 N- ----APN- δέρματα δέρμα
+26:14 N- ----GPM- κριῶν κριός
+26:14 V- -XEPAPN- ἠρυθροδανωμένα ἐρυθροδανόω
+26:14 C- -------- καὶ καί
+26:14 N- ----APN- ἐπικαλύμματα ἐπικάλυμμα
+26:14 N- ----APN- δέρματα δέρμα
+26:14 A- ----APN- ὑακίνθινα ὑακίνθινος
+26:14 D- -------- ἐπάνωθεν ἐπάνωθεν
+26:15 C- -------- καὶ καί
+26:15 V- 2FAI-S-- ποιήσεις ποιέω
+26:15 N- ----APM- στύλους στῦλος
+26:15 RA ----DSF- τῇ ὁ
+26:15 N- ----DSF- σκηνῇ σκηνή
+26:15 P- -------- ἐκ ἐκ
+26:15 N- ----GPN- ξύλων ξύλον
+26:15 A- ----GPN- ἀσήπτων ἄσηπτος
+26:16 A- ----GPM- δέκα δέκα  # module M, no features — MorphGNT gives δέκα case, number and gender like any adjective
+26:16 N- ----GPM- πήχεων πῆχυς
+26:16 V- 2FAI-S-- ποιήσεις ποιέω
+26:16 RA ----ASM- τὸν ὁ
+26:16 N- ----ASM- στῦλον στῦλος
+26:16 RA ----ASM- τὸν ὁ
+26:16 A- ----ASM- ἕνα εἷς
+26:16 C- -------- καὶ καί
+26:16 N- ----GSM- πήχεος πῆχυς
+26:16 A- ----GSM- ἑνὸς εἷς
+26:16 C- -------- καὶ καί
+26:16 A- ----GSM- ἡμίσους ἥμισυς
+26:16 RA ----ASN- τὸ ὁ
+26:16 N- ----ASN- πλάτος πλάτος
+26:16 RA ----GSM- τοῦ ὁ
+26:16 N- ----GSM- στύλου στῦλος
+26:16 RA ----GSM- τοῦ ὁ
+26:16 A- ----GSM- ἑνός εἷς
+26:17 A- ----APM- δύο δύο  # module M, no features — MorphGNT gives δύο case, number and gender like any adjective
+26:17 N- ----APM- ἀγκωνίσκους ἀγκωνίσκος
+26:17 RA ----DSM- τῷ ὁ
+26:17 N- ----DSM- στύλῳ στῦλος
+26:17 RA ----DSM- τῷ ὁ
+26:17 A- ----DSM- ἑνὶ εἷς
+26:17 V- -PAPAPM- ἀντιπίπτοντας ἀντιπίπτω
+26:17 A- ----ASM- ἕτερον ἕτερος
+26:17 RA ----DSM- τῷ ὁ
+26:17 A- ----DSM- ἑτέρῳ ἕτερος
+26:17 D- -------- οὕτως οὕτως
+26:17 V- 2FAI-S-- ποιήσεις ποιέω
+26:17 A- ----DPM- πᾶσι πᾶς
+26:17 RA ----DPM- τοῖς ὁ
+26:17 N- ----DPM- στύλοις στῦλος
+26:17 RA ----GSF- τῆς ὁ
+26:17 N- ----GSF- σκηνῆς σκηνή
+26:18 C- -------- καὶ καί
+26:18 V- 2FAI-S-- ποιήσεις ποιέω
+26:18 N- ----APM- στύλους στῦλος
+26:18 RA ----DSF- τῇ ὁ
+26:18 N- ----DSF- σκηνῇ σκηνή
+26:18 A- ----APM- εἴκοσι εἴκοσι  # module M, no features — MorphGNT gives εἴκοσι case, number and gender like any adjective
+26:18 N- ----APM- στύλους στῦλος
+26:18 P- -------- ἐκ ἐκ
+26:18 RA ----GSN- τοῦ ὁ
+26:18 N- ----GSN- κλίτους κλίτος
+26:18 RA ----GSN- τοῦ ὁ
+26:18 P- -------- πρὸς πρός
+26:18 N- ----ASM- βορρᾶν βορρᾶς
+26:19 C- -------- καὶ καί
+26:19 A- ----APF- τεσσαράκοντα τεσσαράκοντα  # module M, no features — MorphGNT gives τεσσαράκοντα case, number and gender like any adjective
+26:19 N- ----APF- βάσεις βάσις
+26:19 A- ----APF- ἀργυρᾶς ἀργυροῦς  # module lemma ἀργύρεος — ἀργυροῦς, the contracted form, as Middle Liddell heads it
+26:19 V- 2FAI-S-- ποιήσεις ποιέω
+26:19 RA ----DPM- τοῖς ὁ
+26:19 A- ----DPM- εἴκοσι εἴκοσι  # module M, no features — MorphGNT gives εἴκοσι case, number and gender like any adjective
+26:19 N- ----DPM- στύλοις στῦλος
+26:19 A- ----APF- δύο δύο  # module M, no features — MorphGNT gives δύο case, number and gender like any adjective
+26:19 N- ----APF- βάσεις βάσις  # module NPF — accusative, with τεσσαράκοντα βάσεις, what is to be made
+26:19 RA ----DSM- τῷ ὁ
+26:19 N- ----DSM- στύλῳ στῦλος
+26:19 RA ----DSM- τῷ ὁ
+26:19 A- ----DSM- ἑνὶ εἷς
+26:19 P- -------- εἰς εἰς
+26:19 A- ----APN- ἀμφότερα ἀμφότερος
+26:19 RA ----APN- τὰ ὁ
+26:19 N- ----APN- μέρη μέρος
+26:19 RP ----GSM- αὐτοῦ αὐτός
+26:19 C- -------- καὶ καί
+26:19 A- ----APF- δύο δύο  # module M, no features — MorphGNT gives δύο case, number and gender like any adjective
+26:19 N- ----APF- βάσεις βάσις  # module NPF — accusative, with τεσσαράκοντα βάσεις, what is to be made
+26:19 RA ----DSM- τῷ ὁ
+26:19 N- ----DSM- στύλῳ στῦλος
+26:19 RA ----DSM- τῷ ὁ
+26:19 A- ----DSM- ἑνὶ εἷς
+26:19 P- -------- εἰς εἰς
+26:19 A- ----APN- ἀμφότερα ἀμφότερος
+26:19 RA ----APN- τὰ ὁ
+26:19 N- ----APN- μέρη μέρος
+26:19 RP ----GSM- αὐτοῦ αὐτός
+26:20 C- -------- καὶ καί
+26:20 RA ----ASN- τὸ ὁ
+26:20 N- ----ASN- κλίτος κλίτος
+26:20 RA ----ASN- τὸ ὁ
+26:20 A- ----ASN- δεύτερον δεύτερος
+26:20 RA ----ASN- τὸ ὁ
+26:20 P- -------- πρὸς πρός
+26:20 N- ----ASM- νότον νότος
+26:20 A- ----APM- εἴκοσι εἴκοσι  # module M, no features — MorphGNT gives εἴκοσι case, number and gender like any adjective
+26:20 N- ----APM- στύλους στῦλος
+26:21 C- -------- καὶ καί
+26:21 A- ----APF- τεσσαράκοντα τεσσαράκοντα  # module M, no features — MorphGNT gives τεσσαράκοντα case, number and gender like any adjective
+26:21 N- ----APF- βάσεις βάσις
+26:21 RP ----GPM- αὐτῶν αὐτός
+26:21 A- ----APF- ἀργυρᾶς ἀργυροῦς  # module lemma ἀργύρεος — ἀργυροῦς, the contracted form, as Middle Liddell heads it
+26:21 A- ----APF- δύο δύο  # module M, no features — MorphGNT gives δύο case, number and gender like any adjective
+26:21 N- ----APF- βάσεις βάσις
+26:21 RA ----DSM- τῷ ὁ
+26:21 N- ----DSM- στύλῳ στῦλος
+26:21 RA ----DSM- τῷ ὁ
+26:21 A- ----DSM- ἑνὶ εἷς
+26:21 P- -------- εἰς εἰς
+26:21 A- ----APN- ἀμφότερα ἀμφότερος
+26:21 RA ----APN- τὰ ὁ
+26:21 N- ----APN- μέρη μέρος
+26:21 RP ----GSM- αὐτοῦ αὐτός
+26:21 C- -------- καὶ καί
+26:21 A- ----APF- δύο δύο  # module M, no features — MorphGNT gives δύο case, number and gender like any adjective
+26:21 N- ----APF- βάσεις βάσις
+26:21 RA ----DSM- τῷ ὁ
+26:21 N- ----DSM- στύλῳ στῦλος
+26:21 RA ----DSM- τῷ ὁ
+26:21 A- ----DSM- ἑνὶ εἷς
+26:21 P- -------- εἰς εἰς
+26:21 A- ----APN- ἀμφότερα ἀμφότερος
+26:21 RA ----APN- τὰ ὁ
+26:21 N- ----APN- μέρη μέρος
+26:21 RP ----GSM- αὐτοῦ αὐτός
+26:22 C- -------- καὶ καί
+26:22 P- -------- ἐκ ἐκ
+26:22 RA ----GPN- τῶν ὁ  # module GPM — neuter, the things behind, τὰ ὀπίσω
+26:22 P- -------- ὀπίσω ὀπίσω
+26:22 RA ----GSF- τῆς ὁ
+26:22 N- ----GSF- σκηνῆς σκηνή
+26:22 P- -------- κατὰ κατά
+26:22 RA ----ASN- τὸ ὁ
+26:22 N- ----ASN- μέρος μέρος
+26:22 RA ----ASN- τὸ ὁ
+26:22 P- -------- πρὸς πρός
+26:22 N- ----ASF- θάλασσαν θάλασσα
+26:22 V- 2FAI-S-- ποιήσεις ποιέω
+26:22 A- ----APM- ἓξ ἕξ  # module M, no features — MorphGNT gives ἕξ case, number and gender like any adjective
+26:22 N- ----APM- στύλους στῦλος
+26:23 C- -------- καὶ καί
+26:23 A- ----APM- δύο δύο  # module M, no features — MorphGNT gives δύο case, number and gender like any adjective
+26:23 N- ----APM- στύλους στῦλος
+26:23 V- 2FAI-S-- ποιήσεις ποιέω
+26:23 P- -------- ἐπὶ ἐπί
+26:23 RA ----GPF- τῶν ὁ
+26:23 N- ----GPF- γωνιῶν γωνία
+26:23 RA ----GSF- τῆς ὁ
+26:23 N- ----GSF- σκηνῆς σκηνή
+26:23 P- -------- ἐκ ἐκ
+26:23 RA ----GPN- τῶν ὁ
+26:23 A- ----GPN- ὀπισθίων ὀπίσθιος
+26:24 C- -------- καὶ καί
+26:24 V- 3FMI-S-- ἔσται εἰμί
+26:24 P- -------- ἐξ ἐκ
+26:24 A- ----GSN- ἴσου ἴσος
+26:24 D- -------- κάτωθεν κάτωθεν
+26:24 P- -------- κατὰ κατά
+26:24 RA ----ASN- τὸ ὁ
+26:24 RP ----ASN- αὐτὸ αὐτός
+26:24 V- 3FMI-P-- ἔσονται εἰμί
+26:24 A- ----NPM- ἴσοι ἴσος
+26:24 P- -------- ἐκ ἐκ
+26:24 RA ----GPF- τῶν ὁ
+26:24 N- ----GPF- κεφαλίδων κεφαλίς
+26:24 P- -------- εἰς εἰς
+26:24 N- ----ASF- σύμβλησιν σύμβλησις
+26:24 A- ----ASF- μίαν εἷς
+26:24 D- -------- οὕτως οὕτως
+26:24 V- 2FAI-S-- ποιήσεις ποιέω
+26:24 A- ----DPF- ἀμφοτέραις ἀμφότερος
+26:24 RA ----DPF- ταῖς ὁ
+26:24 A- ----DPF- δυσὶν δύο
+26:24 N- ----DPF- γωνίαις γωνία
+26:24 V- 3PAD-P-- ἔστωσαν εἰμί
+26:25 C- -------- καὶ καί
+26:25 V- 3FMI-P-- ἔσονται εἰμί
+26:25 A- ----NPM- ὀκτὼ ὀκτώ  # module M, no features — MorphGNT gives ὀκτώ case, number and gender like any adjective
+26:25 N- ----NPM- στῦλοι στῦλος
+26:25 C- -------- καὶ καί
+26:25 RA ----NPF- αἱ ὁ
+26:25 N- ----NPF- βάσεις βάσις
+26:25 RP ----GPM- αὐτῶν αὐτός
+26:25 A- ----NPF- ἀργυραῖ ἀργυροῦς  # module lemma ἀργύρεος — ἀργυροῦς, the contracted form, as Middle Liddell heads it
+26:25 A- ----NPF- δέκα δέκα  # module M, no features — MorphGNT gives δέκα case, number and gender like any adjective
+26:25 A- ----NPF- ἕξ ἕξ  # module M, no features — MorphGNT gives ἕξ case, number and gender like any adjective
+26:25 A- ----NPF- δύο δύο  # module M, no features — MorphGNT gives δύο case, number and gender like any adjective
+26:25 N- ----NPF- βάσεις βάσις
+26:25 RA ----DSM- τῷ ὁ
+26:25 N- ----DSM- στύλῳ στῦλος
+26:25 RA ----DSM- τῷ ὁ
+26:25 A- ----DSM- ἑνὶ εἷς
+26:25 P- -------- εἰς εἰς
+26:25 A- ----APN- ἀμφότερα ἀμφότερος
+26:25 RA ----APN- τὰ ὁ
+26:25 N- ----APN- μέρη μέρος
+26:25 RP ----GSM- αὐτοῦ αὐτός
+26:25 C- -------- καὶ καί
+26:25 A- ----NPF- δύο δύο  # module M, no features — MorphGNT gives δύο case, number and gender like any adjective
+26:25 N- ----NPF- βάσεις βάσις
+26:25 RA ----DSM- τῷ ὁ
+26:25 N- ----DSM- στύλῳ στῦλος
+26:25 RA ----DSM- τῷ ὁ
+26:25 A- ----DSM- ἑνί εἷς
+26:26 C- -------- καὶ καί
+26:26 V- 2FAI-S-- ποιήσεις ποιέω
+26:26 N- ----APM- μοχλοὺς μοχλός
+26:26 P- -------- ἐκ ἐκ
+26:26 N- ----GPN- ξύλων ξύλον
+26:26 A- ----GPN- ἀσήπτων ἄσηπτος
+26:26 A- ----APM- πέντε πέντε  # module M, no features — MorphGNT gives πέντε case, number and gender like any adjective
+26:26 RA ----DSM- τῷ ὁ
+26:26 A- ----DSM- ἑνὶ εἷς
+26:26 N- ----DSM- στύλῳ στῦλος
+26:26 P- -------- ἐκ ἐκ
+26:26 RA ----GSN- τοῦ ὁ
+26:26 A- ----GSN- ἑνὸς εἷς
+26:26 N- ----GSN- μέρους μέρος
+26:26 RA ----GSF- τῆς ὁ
+26:26 N- ----GSF- σκηνῆς σκηνή
+26:27 C- -------- καὶ καί
+26:27 A- ----APM- πέντε πέντε  # module M, no features — MorphGNT gives πέντε case, number and gender like any adjective
+26:27 N- ----APM- μοχλοὺς μοχλός
+26:27 RA ----DSM- τῷ ὁ
+26:27 N- ----DSM- στύλῳ στῦλος
+26:27 RA ----DSN- τῷ ὁ
+26:27 N- ----DSN- κλίτει κλίτος
+26:27 RA ----GSF- τῆς ὁ
+26:27 N- ----GSF- σκηνῆς σκηνή
+26:27 RA ----DSN- τῷ ὁ
+26:27 A- ----DSN- δευτέρῳ δεύτερος
+26:27 C- -------- καὶ καί
+26:27 A- ----APM- πέντε πέντε  # module M, no features — MorphGNT gives πέντε case, number and gender like any adjective
+26:27 N- ----APM- μοχλοὺς μοχλός
+26:27 RA ----DSM- τῷ ὁ
+26:27 N- ----DSM- στύλῳ στῦλος
+26:27 RA ----DSM- τῷ ὁ
+26:27 A- ----DSM- ὀπισθίῳ ὀπίσθιος
+26:27 RA ----DSN- τῷ ὁ
+26:27 N- ----DSN- κλίτει κλίτος
+26:27 RA ----GSF- τῆς ὁ
+26:27 N- ----GSF- σκηνῆς σκηνή
+26:27 RA ----DSN- τῷ ὁ
+26:27 P- -------- πρὸς πρός
+26:27 N- ----ASF- θάλασσαν θάλασσα
+26:28 C- -------- καὶ καί
+26:28 RA ----NSM- ὁ ὁ
+26:28 N- ----NSM- μοχλὸς μοχλός
+26:28 RA ----NSM- ὁ ὁ
+26:28 A- ----NSM- μέσος μέσος
+26:28 P- -------- ἀνὰ ἀνά
+26:28 A- ----ASN- μέσον μέσος
+26:28 RA ----GPM- τῶν ὁ
+26:28 N- ----GPM- στύλων στῦλος
+26:28 V- 3PED-S-- διικνείσθω διικνέομαι  # module lemma διϊκνέομαι — διικνέομαι, as Middle Liddell heads it, without the diaeresis
+26:28 P- -------- ἀπὸ ἀπό
+26:28 RA ----GSN- τοῦ ὁ
+26:28 A- ----GSN- ἑνὸς εἷς
+26:28 N- ----GSN- κλίτους κλίτος
+26:28 P- -------- εἰς εἰς
+26:28 RA ----ASN- τὸ ὁ
+26:28 A- ----ASN- ἕτερον ἕτερος
+26:28 N- ----ASN- κλίτος κλίτος
+26:29 C- -------- καὶ καί
+26:29 RA ----APM- τοὺς ὁ
+26:29 N- ----APM- στύλους στῦλος
+26:29 V- 2FAI-S-- καταχρυσώσεις καταχρυσόω
+26:29 N- ----DSN- χρυσίῳ χρυσίον
+26:29 C- -------- καὶ καί
+26:29 RA ----APM- τοὺς ὁ
+26:29 N- ----APM- δακτυλίους δακτύλιος
+26:29 V- 2FAI-S-- ποιήσεις ποιέω
+26:29 A- ----APM- χρυσοῦς χρυσοῦς  # module lemma χρύσεος — χρυσοῦς, the contracted form, as MorphGNT files it, like διπλοῦς
+26:29 P- -------- εἰς εἰς
+26:29 RR ----APM- οὓς ὅς
+26:29 V- 2FAI-S-- εἰσάξεις εἰσάγω
+26:29 RA ----APM- τοὺς ὁ
+26:29 N- ----APM- μοχλούς μοχλός
+26:29 C- -------- καὶ καί
+26:29 V- 2FAI-S-- καταχρυσώσεις καταχρυσόω
+26:29 RA ----APM- τοὺς ὁ
+26:29 N- ----APM- μοχλοὺς μοχλός
+26:29 N- ----DSN- χρυσίῳ χρυσίον
+26:30 C- -------- καὶ καί
+26:30 V- 2FAI-S-- ἀναστήσεις ἀνίστημι
+26:30 RA ----ASF- τὴν ὁ
+26:30 N- ----ASF- σκηνὴν σκηνή
+26:30 P- -------- κατὰ κατά
+26:30 RA ----ASN- τὸ ὁ
+26:30 N- ----ASN- εἶδος εἶδος
+26:30 RA ----ASN- τὸ ὁ
+26:30 V- -XEPASN- δεδειγμένον δείκνυμι  # module lemma δεικνύω — δείκνυμι, as Middle Liddell heads it
+26:30 RP ----DS-- σοι σύ  # module lemma σοί, the form itself — σύ is the dictionary form
+26:30 P- -------- ἐν ἐν
+26:30 RA ----DSN- τῷ ὁ
+26:30 N- ----DSN- ὄρει ὄρος
+26:31 C- -------- καὶ καί
+26:31 V- 2FAI-S-- ποιήσεις ποιέω
+26:31 N- ----ASN- καταπέτασμα καταπέτασμα
+26:31 P- -------- ἐξ ἐκ
+26:31 N- ----GSM- ὑακίνθου ὑάκινθος  # module GSF — masculine, ὁ, as Middle Liddell heads ὑάκινθος first, as at 25:4
+26:31 C- -------- καὶ καί
+26:31 N- ----GSF- πορφύρας πορφύρα
+26:31 C- -------- καὶ καί
+26:31 A- ----GSN- κοκκίνου κόκκινος
+26:31 V- -XEPGSN- κεκλωσμένου κλώθω
+26:31 C- -------- καὶ καί
+26:31 N- ----GSF- βύσσου βύσσος
+26:31 V- -XEPGSF- νενησμένης νέω  # module lemma νήθω — νέω, to spin, Middle Liddell's second νέω, of which νήθω is the later form
+26:31 N- ----ASN- ἔργον ἔργον
+26:31 A- ----ASN- ὑφαντὸν ὑφαντός
+26:31 V- 2FAI-S-- ποιήσεις ποιέω
+26:31 RP ----ASN- αὐτὸ αὐτός
+26:31 N- ----APN- χερουβιμ χερουβιμ  # module lemma χερούβ — as printed, unaccented, like the Semitic names
+26:32 C- -------- καὶ καί
+26:32 V- 2FAI-S-- ἐπιθήσεις ἐπιτίθημι
+26:32 RP ----ASN- αὐτὸ αὐτός
+26:32 P- -------- ἐπὶ ἐπί
+26:32 A- ----GPC- τεσσάρων τέσσαρες
+26:32 N- ----GPM- στύλων στῦλος
+26:32 A- ----GPC- ἀσήπτων ἄσηπτος
+26:32 V- -XEPGPM- κεχρυσωμένων χρυσόω
+26:32 N- ----DSN- χρυσίῳ χρυσίον
+26:32 C- -------- καὶ καί
+26:32 RA ----NPF- αἱ ὁ
+26:32 N- ----NPF- κεφαλίδες κεφαλίς
+26:32 RP ----GPM- αὐτῶν αὐτός
+26:32 A- ----NPF- χρυσαῖ χρυσοῦς  # module lemma χρύσεος — χρυσοῦς, the contracted form, as MorphGNT files it, like διπλοῦς
+26:32 C- -------- καὶ καί
+26:32 RA ----NPF- αἱ ὁ
+26:32 N- ----NPF- βάσεις βάσις
+26:32 RP ----GPM- αὐτῶν αὐτός
+26:32 A- ----NPC- τέσσαρες τέσσαρες
+26:32 A- ----NPF- ἀργυραῖ ἀργυροῦς  # module lemma ἀργύρεος — ἀργυροῦς, the contracted form, as Middle Liddell heads it
+26:33 C- -------- καὶ καί
+26:33 V- 2FAI-S-- θήσεις τίθημι
+26:33 RA ----ASN- τὸ ὁ
+26:33 N- ----ASN- καταπέτασμα καταπέτασμα
+26:33 P- -------- ἐπὶ ἐπί
+26:33 RA ----APM- τοὺς ὁ
+26:33 N- ----APM- στύλους στῦλος
+26:33 C- -------- καὶ καί
+26:33 V- 2FAI-S-- εἰσοίσεις εἰσφέρω
+26:33 D- -------- ἐκεῖ ἐκεῖ
+26:33 A- ----ASNC ἐσώτερον ἐσώτερος  # module P — the comparative ἐσώτερος, its neuter as an adverb with a genitive, as MorphGNT codes τὸ ἐσώτερον (Heb 6:19)
+26:33 RA ----GSN- τοῦ ὁ
+26:33 N- ----GSN- καταπετάσματος καταπέτασμα
+26:33 RA ----ASF- τὴν ὁ
+26:33 N- ----ASF- κιβωτὸν κιβωτός
+26:33 RA ----GSN- τοῦ ὁ
+26:33 N- ----GSN- μαρτυρίου μαρτύριον
+26:33 C- -------- καὶ καί
+26:33 V- 3FAI-S-- διοριεῖ διορίζω
+26:33 RA ----NSN- τὸ ὁ  # module ASN — nominative, the subject of διοριεῖ
+26:33 N- ----NSN- καταπέτασμα καταπέτασμα  # module ASN — nominative, the subject of διοριεῖ
+26:33 RP ----DP-- ὑμῖν σύ  # module lemma ὑμῖν, the form itself — σύ is the dictionary form
+26:33 P- -------- ἀνὰ ἀνά
+26:33 A- ----ASN- μέσον μέσος
+26:33 RA ----GSN- τοῦ ὁ  # module masculine — neuter, the holy place, as τὸ ἅγιον
+26:33 A- ----GSN- ἁγίου ἅγιος  # module masculine — neuter, the holy place, as τὸ ἅγιον
+26:33 C- -------- καὶ καί
+26:33 P- -------- ἀνὰ ἀνά
+26:33 A- ----ASN- μέσον μέσος
+26:33 RA ----GSN- τοῦ ὁ  # module masculine — neuter, the holy place, as τὸ ἅγιον
+26:33 A- ----GSN- ἁγίου ἅγιος  # module masculine — neuter, the holy place, as τὸ ἅγιον
+26:33 RA ----GPN- τῶν ὁ  # module masculine — neuter, the holy place, as τὸ ἅγιον
+26:33 A- ----GPN- ἁγίων ἅγιος  # module masculine — neuter, the holy place, as τὸ ἅγιον
+26:34 C- -------- καὶ καί
+26:34 V- 2FAI-S-- κατακαλύψεις κατακαλύπτω
+26:34 RA ----DSN- τῷ ὁ
+26:34 N- ----DSN- καταπετάσματι καταπέτασμα
+26:34 RA ----ASF- τὴν ὁ
+26:34 N- ----ASF- κιβωτὸν κιβωτός
+26:34 RA ----GSN- τοῦ ὁ
+26:34 N- ----GSN- μαρτυρίου μαρτύριον
+26:34 P- -------- ἐν ἐν
+26:34 RA ----DSN- τῷ ὁ  # module masculine — neuter, the holy place, as τὸ ἅγιον
+26:34 A- ----DSN- ἁγίῳ ἅγιος  # module masculine — neuter, the holy place, as τὸ ἅγιον
+26:34 RA ----GPN- τῶν ὁ  # module masculine — neuter, the holy place, as τὸ ἅγιον
+26:34 A- ----GPN- ἁγίων ἅγιος  # module masculine — neuter, the holy place, as τὸ ἅγιον
+26:35 C- -------- καὶ καί
+26:35 V- 2FAI-S-- θήσεις τίθημι
+26:35 RA ----ASF- τὴν ὁ
+26:35 N- ----ASF- τράπεζαν τράπεζα
+26:35 P- -------- ἔξωθεν ἔξωθεν
+26:35 RA ----GSN- τοῦ ὁ
+26:35 N- ----GSN- καταπετάσματος καταπέτασμα
+26:35 C- -------- καὶ καί
+26:35 RA ----ASF- τὴν ὁ
+26:35 N- ----ASF- λυχνίαν λυχνία
+26:35 P- -------- ἀπέναντι ἀπέναντι
+26:35 RA ----GSF- τῆς ὁ
+26:35 N- ----GSF- τραπέζης τράπεζα
+26:35 P- -------- ἐπὶ ἐπί
+26:35 N- ----GSN- μέρους μέρος
+26:35 RA ----GSF- τῆς ὁ
+26:35 N- ----GSF- σκηνῆς σκηνή
+26:35 RA ----ASN- τὸ ὁ
+26:35 P- -------- πρὸς πρός
+26:35 N- ----ASM- νότον νότος
+26:35 C- -------- καὶ καί
+26:35 RA ----ASF- τὴν ὁ
+26:35 N- ----ASF- τράπεζαν τράπεζα
+26:35 V- 2FAI-S-- θήσεις τίθημι
+26:35 P- -------- ἐπὶ ἐπί
+26:35 N- ----GSN- μέρους μέρος
+26:35 RA ----GSF- τῆς ὁ
+26:35 N- ----GSF- σκηνῆς σκηνή
+26:35 RA ----ASN- τὸ ὁ
+26:35 P- -------- πρὸς πρός
+26:35 N- ----ASM- βορρᾶν βορρᾶς
+26:36 C- -------- καὶ καί
+26:36 V- 2FAI-S-- ποιήσεις ποιέω
+26:36 N- ----ASN- ἐπίσπαστρον ἐπίσπαστρον
+26:36 P- -------- ἐξ ἐκ
+26:36 N- ----GSM- ὑακίνθου ὑάκινθος  # module GSF — masculine, ὁ, as Middle Liddell heads ὑάκινθος first, as at 25:4
+26:36 C- -------- καὶ καί
+26:36 N- ----GSF- πορφύρας πορφύρα
+26:36 C- -------- καὶ καί
+26:36 A- ----GSN- κοκκίνου κόκκινος
+26:36 V- -XEPGSN- κεκλωσμένου κλώθω
+26:36 C- -------- καὶ καί
+26:36 N- ----GSF- βύσσου βύσσος
+26:36 V- -XEPGSF- κεκλωσμένης κλώθω
+26:36 N- ----ASN- ἔργον ἔργον
+26:36 N- ----GSM- ποικιλτοῦ ποικιλτής
+26:37 C- -------- καὶ καί
+26:37 V- 2FAI-S-- ποιήσεις ποιέω
+26:37 RA ----DSN- τῷ ὁ
+26:37 N- ----DSN- καταπετάσματι καταπέτασμα
+26:37 A- ----APM- πέντε πέντε  # module M, no features — MorphGNT gives πέντε case, number and gender like any adjective
+26:37 N- ----APM- στύλους στῦλος
+26:37 C- -------- καὶ καί
+26:37 V- 2FAI-S-- χρυσώσεις χρυσόω
+26:37 RP ----APM- αὐτοὺς αὐτός
+26:37 N- ----DSN- χρυσίῳ χρυσίον
+26:37 C- -------- καὶ καί
+26:37 RA ----NPF- αἱ ὁ
+26:37 N- ----NPF- κεφαλίδες κεφαλίς
+26:37 RP ----GPM- αὐτῶν αὐτός
+26:37 A- ----NPF- χρυσαῖ χρυσοῦς  # module lemma χρύσεος — χρυσοῦς, the contracted form, as MorphGNT files it, like διπλοῦς
+26:37 C- -------- καὶ καί
+26:37 V- 2FAI-S-- χωνεύσεις χωνεύω
+26:37 RP ----DPM- αὐτοῖς αὐτός
+26:37 A- ----APF- πέντε πέντε  # module M, no features — MorphGNT gives πέντε case, number and gender like any adjective
+26:37 N- ----APF- βάσεις βάσις
+26:37 A- ----APF- χαλκᾶς χαλκοῦς  # module lemma χάλκεος — χαλκοῦς, the contracted form, filed under χάλκεος as χρυσοῦς is under χρύσεος
