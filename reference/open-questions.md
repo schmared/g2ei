@@ -326,3 +326,42 @@ noun keeps one reading of κύριος across the corpus.
 
 **Recommendation:** code it A- and read the adjective's entry where κύριος is predicate with an infinitive, and
 settle which entry the noun reads (ENTRY to the second) at the same time.
+
+## Q17. The perfect's formula — after the first item, or after every item
+
+**Where:** about a hundred perfect units across Genesis and Exodus carry *and it stands so* (*and standing so*)
+after their first item only — λέγω `has said and it stands so, has spoken, …`, ὁράω `I have seen …`, ἄγω `have led
+and it stands so, have carried, …` (GEN 46:32) — while ἕψω, δικαιόω (GEN 38:26), ἀναπληρόω and the notes' own row
+for ἀκούω at GEN 23:15 carry it after every item.
+
+- first item only: `having been sent up and forth and standing so, having been made to spring up, having been
+  produced, …` (ἀνίημι, GEN 49:21)
+- every item: `having been boiled and standing so, having been seethed and standing so, …` (ἕψω)
+
+**The difference:** CLAUDE.md says the formula "follows the whole item", which settles where it goes inside an
+and-joined run but not whether each item of a chain is a perfect of its own. A Greek reader hears one perfect,
+and each sense is that perfect.
+
+**Recommendation:** after every item, and a check that holds it, since each item is the form read in another
+sense; EXO 23 follows the majority until this is settled.
+
+## Q18. ἐξίστημι's intransitive chain does not come from Middle Liddell
+
+**Where:** GEN 27:33, 42:28, 43:33, 45:26, EXO 18:9, 19:18 — `stood out of, changed and altered utterly, was
+driven out of, was deranged, was astonished and amazed, gave way and retired, stood aside from and gave up`.
+
+**Now:** a chain no card gives. Middle Liddell's intransitive section ("intr. in Pass. and Mid., with aor2, perf.,
+and plup. act.") opens *to stand aside from*, and gives *is displaced, disordered*, *to shrink from, shun*, *to
+retire from, give up possession of*, *to cease from, abandon*, *to lose*, *to be out of one's wits, to be
+astonished, amazed*, *to degenerate*, *to change one's position, one's opinion*.
+
+- now: `stood out of, changed and altered utterly, …`
+- from the card: `stood aside from, was displaced and disordered, shrank from and shunned, retired from and gave
+  up possession of, ceased from and abandoned, lost, was out of his wits and was astonished and amazed,
+  degenerated, changed his position and his opinion`
+
+**The difference:** the headword is not the lexicon's first sense in the form the text uses, which is the hard
+rule; the old chain also carries the causal senses (*changed and altered utterly*) on intransitive forms.
+
+**Recommendation:** re-read the six from the card with a `FORM_SENSES` rule for the intransitive tenses, as EXO
+23:27 now does for the causal future, and restore *to lose one's father, give him up* in `MARKUP_LOST`.

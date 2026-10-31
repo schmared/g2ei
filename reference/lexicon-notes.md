@@ -682,7 +682,7 @@ the same ground as `the sixth` and `the seventh`: one sense each, so no range to
 | σπένδω | `poured a drink-offering` | `poured a drink-offering, made a drink-offering, poured` | 35:14 |
 | σπονδή | `a drink-offering` | `a drink-offering, a solemn treaty, a truce, the treaty itself` | 35:14 |
 | στολή | `the equipments` | `the equipments and armaments, the apparel and raiment, the robes` | 35:2 |
-| συναγωγή | `gatherings` | `gatherings, assemblies, places of assembly and synagogues` | 35:11 |
+| συναγωγή | `bringings together` | `bringings together and unitings, places of assembly and synagogues, drawings together and contractings, formings in column, pursings up, wrinklings, collections, conclusions and inferences` | 35:11 |
 | τερέμινθος | `the terebinth` | `the terebinth, the turpentine tree` | 35:4 |
 | τοκετός | `in birth` | `within, inside of, and by means of birth, delivery` | 35:16 |
 | τροφός | `the feeder` | `the feeder and rearer and nurse` | 35:8 |
@@ -1372,7 +1372,7 @@ the same ground as `the sixth` and `the seventh`: one sense each, so no range to
 | φωνή | `to the sound` | `to the sound and tone, to the sound of the voice, to the cry, to the faculty of speech and discourse, to the language, to the saying` | 29:11 |
 | ἀγαπάω | `to treat with affection` | `to treat with affection, to caress, to love, to be fond of, to regard with brotherly love, to be well pleased and contented with, to be content` | 29:20 |
 | ἀγαπάω | `will treat with affection` | `will treat with affection and caress and love and be fond of, will regard with brotherly love, will be well pleased and contented with, will be content` | 29:32 |
-| ἀναπαύω | `desisting from` | `desisting from, taking their rest and sleeping, regaining strength` | 29:2 |
+| ἀναπαύω | `desisting from` | `desisting from, taking their rest and sleeping, halting and resting, regaining strength` | 29:2 |
 | ἀναπληρόω | `filled up` | `filled up, made up and supplied, filled, paid in full` | 29:28 |
 | ἀνοίγω | `opened` | `opened, undid and opened, laid open and unfolded and disclosed, got into the open sea and got clear of land` | 29:31 |
 | ἀπαγγέλλω | `bring tidings` | `bring tidings, report, announce, carry a report, relate and narrate` | 29:15 |
@@ -1451,7 +1451,7 @@ the same ground as `the sixth` and `the seventh`: one sense each, so no range to
 | προσκαλέω | `having called to himself` | `having called to himself, having called to one, having called to his aid, having cited` | 28:1 |
 | στήλη | `block of stone` | `block of stone, prop and buttress to a wall, slab, gravestone, record and contract and agreement, turning-post` | 28:18, 28:22 |
 | στηρίζω | `having been made fast` | `having been made fast and propped and fixed and set and standing so, having been confirmed and established and standing so, having been fixed and settled and determined and standing so, having been firmly set and fixed and standing fast and steady and standing so` | 28:12 |
-| συναγωγή | `bringings together` | `bringings together and unitings, places of assembly and synagogues, drawings together and contractings` | 28:3 |
+| συναγωγή | `bringings together` | `bringings together and unitings, places of assembly and synagogues, drawings together and contractings, formings in column, pursings up, wrinklings, collections, conclusions and inferences` | 28:3 |
 | φοβερός | `fearful` | `fearful, causing fear and dreadful and terrible, matter for fear and regarded with fear` | 28:17 |
 | ἀναβαίνω | `were going up` | `were going up, were mounting, were ascending, were going up to, were rising, were coming up, were coming to and arriving at, were going up country, were going aboard` | 28:12 |
 | ἀπαντάω | `moved from` | `moved from, met, met and encountered, came` | 28:11 |
@@ -2013,7 +2013,7 @@ the same ground as `the sixth` and `the seventh`: one sense each, so no range to
 | ἑτοιμάζω | `made ready` | `made ready, got ready, prepared, provided` | 24:44 |
 | ἑτοιμάζω | `you made ready` | `you made ready, you got ready, you prepared, you provided` | 24:14 |
 | ἔμπροσθεν | `before` | `before and in front of` | 24:7 |
-| ἔρημος | `of the desert part` | `of the desert part, of the desolate and lone and lonely and lonesome and solitary, of the helpless, of the reft and void and destitute, of the undefended` | 24:62 |
+| ἔρημος | `of the desert part` | `of the desert part, of the desolate and lone and lonely and lonesome and solitary, of the desolate and helpless, of the reft of and void, of the destitute of, of the wanting and without, of the undefended` | 24:62 |
 | ἔρχομαι | `you may come` | `you may come, you may go, you may go back and return, you may be going to and intend, you may come within a little of and be near` | 24:41 |
 | ἔχω | `having` | `having, holding, possessing, keeping, dwelling in and inhabiting, holding fast, bearing up against and supporting` | 24:15, 24:45 |
 | ἱματισμός | `clothing` | `clothing and apparel` | 24:53 |
@@ -2492,7 +2492,7 @@ the same ground as `the sixth` and `the seventh`: one sense each, so no range to
 | ἀτμίς | `steam` | `steam and vapour` | 19:28 |
 | ἀφίστημι | `stand away` | `stand away, stand aloof from and keep far from, lose, withdraw from, revolt from, revolt, give up, make way and give way, shrink from, stand aloof` | 19:9 |
 | ἄγγελος | `the messengers` | `the messengers and envoys, the ones that announce, the divine messengers and the angels` | 19:1, 19:15, 19:16 |
-| ἄδικος | `wrong-doing` | `wrong-doing, unrighteous, unjust, obstinate and unmanageable, wrongly done and wrong and unjust` | 19:8 |
+| ἄδικος | `wrong-doing` | `wrong-doing and unrighteous and unjust, unjust in, so unjust as to, obstinate and unmanageable, wrongly done and wrong and unjust` | 19:8 |
 | ἄλλος | `another` | `another, one besides, any other and some other, the other, all the others and the rest, yet and still, of other sort and different, other than, else` | 19:12 |
 | ἅλς | `of a lump of salt` | `of a lump of salt, of salt` | 19:26 |
 | ἅπας | `quite all` | `quite all and the whole, all together, all, everyone` | 19:4 |
@@ -2731,7 +2731,7 @@ the same ground as `the sixth` and `the seventh`: one sense each, so no range to
 | ἀλλογενής | `of of another race` | `of of another race and strangers` | 17:27 |
 | ἀλλότριος | `of belonging to another` | `of belonging to another, of another man's, of unlike one's own, of a forced and unnatural, of foreign and strange, of hostile` | 17:12 |
 | ἄμεμπτος | `not to be blamed` | `not to be blamed and blameless, perfect in its kind, without blame, not blaming and content` | 17:1 |
-| ἐνιαυτός, with ἐν | `in the long period of time` | `within, inside of, and by means of the long period of time, the cycle, the period, the year` | 17:21 |
+| ἐνιαυτός, with ἐν | `in the long period of time` | `within, inside of, and by means of the long period of time and cycle and period, the year` | 17:21 |
 | ἐπακούω | `I listened` | `I listened, I hearkened to and heard, I gave ear and hearkened, I obeyed` | 17:20 |
 | ἑκατονταετής | `to the of a hundred years` | `to the of a hundred years and years old` | 17:17 |
 | ἡμέρα | `of the day` | `of the day, of the day-break, of the time` | 17:23, 17:26 |
@@ -2887,7 +2887,7 @@ the same ground as `the sixth` and `the seventh`: one sense each, so no range to
 | ἀντιπρόσωπος | `with the face towards` | `with the face towards and facing, face to face` | 15:10 |
 | ἀπολύω | `I am loosed from` | `I am loosed from, I am undone, I am set free from and released, I am relieved from, I am acquitted, I am let go free on receipt of ransom and held to ransom, I am ransomed and redeemed, I am discharged and disbanded, I am dismissed, I am divorced, I am redeemed, I am done away with, I depart, I am set free from, I am released and let off, I am freed from, I am acquitted and discharged, I am separated and part` | 15:2 |
 | ἀποσκευή | `of removal` | `of removal and riddance, of baggage, of household stuff, of ordure and filth` | 15:14 |
-| ἀποστρέφω | `they will be turned` | `they will be turned, they will be turned back, they will be turned away, they will be brought back, they will turn oneself about` | 15:16 |
+| ἀποστρέφω | `they will be turned` | `they will be turned, they will be turned back, they will be turned away, they will be brought back, they will turn themselves about` | 15:16 |
 | ἀριθμέω | `number` | `number, count and reckon up, count out and pay, reckon and count as, be reckoned, be counted` | 15:5 |
 | ἀστήρ | `the stars` | `the stars, the flames and lights and fires` | 15:5 |
 | ἁμαρτία | `the failures` | `the failures and faults and sins, the guilts and sins` | 15:16 |
@@ -4757,7 +4757,7 @@ it is a child; τρίβολος is a spiked iron for laming horses before it is 
 | σκηνή | `the covered place` | `the covered place and tent, the camp, the dwelling-place, the temple` — the chain of GEN 4:20, in the singular | 12:8 |
 | θάλασσα (anarthrous) | `sea` | `sea, the Mediterranean, a well of salt water` | 12:8 |
 | ὄνομα with ἐπί | `to the name` | the chain of GEN 3:20, in the dative | 12:8 |
-| ἔρημος, used as a noun | `in the desert part` | `within, inside of, and by means of the desert part, the desolate and lone and lonely and lonesome and solitary, the helpless, the reft and void and destitute, the undefended` — *desert parts*, τὰ ἐρῆμα, is the entry's first noun sense; ἡ ἐρῆμος is given no translation of its own | 12:9 |
+| ἔρημος, used as a noun | `in the desert part` | `within, inside of, and by means of the desert part, the desolate and lone and lonely and lonesome and solitary, the desolate and helpless, the reft of and void, the destitute of, the wanting and without, the undefended` — *desert parts*, τὰ ἐρῆμα, is the entry's first noun sense; ἡ ἐρῆμος is given no translation of its own | 12:9 |
 | λιμός | `hunger` · `the hunger` | `hunger and famine` | 12:10 |
 | εὐπρόσωπος | `fair of face` | `fair of face, with glad countenance, fair in outward show and specious` | 12:11 |
 | γυνή | `woman` · `to the woman` · `a woman` · `the woman` | the chains of GEN 2:22 and 8:16, in the form | 12:5, 12:11–20 |
@@ -7911,3 +7911,76 @@ text uses. Chains already in the corpus (Genesis) were read from it and re-infle
   `you will come far behind`; κύων `to the dog`; ἀπορρίπτω `throw away`.
 - One translation each, plain text: ἀμπελών, γένημα, παρακαταθήκη, ἀπώλεια, θηριάλωτος, θυσιάζω, ὀλεθρεύω,
   πρωτότοκος, ὄγδοος, ἑπτά.
+
+### Words new in EXO 23
+
+- **From LSJ** (not in Middle Liddell): θυσίασμα, "= θυσία II", read as θυσία's `victim and offering`; πρωτογένημα,
+  *firstfruits*, plain text; ἐχθρεύω, *to be at enmity with*, citing this chapter, plain text. ἐμπλατύνω is in
+  neither lexicon: plain text, *I may widen*, from πλατύνω, as σφυροκόπος at GEN 4:22 (23:18).
+- **Filed inside another word** (`SPELLING`): σφηκία under σφηκιά, *a wasps' nest*, plain text. πλείων is filed under
+  πολύς, as at 1:12, and reads the positive's senses in the comparative: `of more and mightier and greater, …` (23:2).
+- **Inside the Latin** (`MARKUP_LOST`): ἐλαιών, "«an olive-yard», Lat. olivetum: the Mount of Olives, Olivet" —
+  `the olive-yard, the Mount of Olives and Olivet`. φυγάς's "Lat. exul, profugus" is Latin throughout (`LATIN_ONLY`).
+- **Cut translations restored** (`MARKUP_LOST`): συγκατατίθημι *to deposit together or at the same time*;
+  λυμαίνομαι *to inflict indignities or outrages upon*; πτωχός *one who crouches or cringes, a beggar*; ἀναψύχω
+  *to let rest and get dry, relieve*, *to let it dry off*, *to give him relief from*; ὑποστέλλω *made him furl*,
+  *to shelter oneself behind*, *to cloak through fear, to prevaricate, dissemble*; δικαιόω *to hold or deem right,
+  think fit, demand*, *to do a man right or justice, to judge*; ἐξίστημι *to drive one out of*; συναγωγή *a forming
+  in column*. An example's object noun is left out, as ὑπάγω's "a person" is (the ships, a thing, an army); a
+  pronoun between the pieces stays, as ἠχέω's "it".
+- **Form** (`FORM_SENSES`): συγκατατίθημι's middle and ὑποστέλλω's read the middle's senses; συνεγείρω's active
+  leaves out the passive's (*to help in raising*, plain text); ἀναψύχω's active leaves out the passive's; πτωχός's
+  masculine and neuter leave out the feminine's *a beggar-woman*; δικαιόω's active leaves out the passive's
+  *proved, tested*, and its passive the active's constructions with an infinitive, *to consent*, *to desire*;
+  ἀναπαύω's middle reads the Mid. and Pass. section, *to halt, rest* included; ἐξίστημι's future active is causal
+  and leaves out the intransitive senses.
+- **Pieces set aside** (`NOT_SENSES`): πένης (πτωχός's *(beggar)*), συντέλεια (a phrase's), ἀντίκειμαι (the
+  adverb's), ἄγριος (a label, the comparative's, a phrase's, the adverb's), ἄδικος (a piece, the neuter's as a noun,
+  the adverb's), ἐρῆμος (the neuter plural's as an adverb, ἐρήμη δίκη's phrases), δικαιόω (a phrase's, οὐ δ.).
+- **Old chains re-read**:
+  - ἄδικος, GEN 19:8: *wrong-doing, unrighteous, unjust* is one translation, and *unjust in*, *so unjust as to* had
+    been dropped: `wrong-doing and unrighteous and unjust, unjust in, so unjust as to, obstinate and unmanageable,
+    wrongly done and wrong and unjust`.
+  - ἐνιαυτός: *any long period of time, a cycle, period* is one translation: `of the long period of time and cycle
+    and period, of the year`, `of long periods of time and cycles and periods, of years`, and with ἐν.
+  - συναγωγή: *a forming in column*, *a pursing up*, *wrinkling*, *a collection*, *a conclusion, inference* had been
+    dropped from every chain; GEN 35:11 read `gatherings, assemblies`, which the card never gave, and reads
+    `bringings together …` with the rest.
+  - ἐρῆμος: *desolate, helpless* is one translation; *reft of, void* or *destitute of* two; *wanting, without* had
+    been dropped: `the desert part, the desolate and lone and lonely and lonesome and solitary, the desolate and
+    helpless, the reft of and void, the destitute of, the wanting and without, the undefended`.
+  - δικαιόω, GEN 38:26 and 44:16: `has been held and deemed right and thought fit and demanded and it stands so,
+    has been done right and justice and judged and it stands so`.
+  - ἀναπαύω, GEN 29:2 and 49:14: the middle's `halting and resting`.
+  - ὑπολείπω, EXO 10:12, `reserved for herself`; ἀποστρέφω, GEN 15:16, `they will turn themselves about`.
+- **Morphology**: the second pass was right on six: πλειόνων is filed under πολύς, GPCC; τὰ ὑπολειπόμενα is the
+  object, accusative (23:11); ἐάν after ὧν is X- (23:16); ἕως ἄν is the conjunction (23:30). σπείρῃς stays aorist,
+  as GEN 47:19's σπείρωμεν.
+- New chains: παραδέχομαι `you will receive from`; ἀκοή `a hearing`; μάταιος `vain`; συγκατατίθημι `you will agree
+  with`; ἄδικος `of the wrong-doing`, `of wrong-doing`; πολύς (comparative) `of more`; προστίθημι `you will be put
+  to`; ἐκκλίνω `to bend out of the regular line`; πένης `one who works for his daily bread`, `of one who works for
+  his daily bread`; ἐλεέω `you will have pity on`; κρίσις `in a separating`; συναντάω `you may meet face to face`;
+  βοῦς `to the bullock`; ἐχθρός `of the one's enemy`, `to the one's enemies`; ὑποζύγιον `to the beast for the
+  yoke`; πλανάω `to being made to wander`; ὁράω `you may see`, `you will be seen`; πίπτω `having fallen`; γόμος `the
+  ship's freight`; διαστρέφω `you will turn different ways`; κρίμα `a decision`; ἀφίστημι `you will stand away`;
+  δικαιόω `you will set right`; δῶρον `of gifts`; ὀφθαλμός `eyes`; βλέπω `of seeing and having the power of sight`;
+  λυμαίνομαι `treats with indignity`; ῥῆμα `things which are said`; θλίβω `you will press`; προσήλυτος `of the one
+  that has arrived at`; σπείρω `you will sow`, `you may sow`; συνάγω `you will bring together`; ἄφεσις `a letting
+  go`; πτωχός `the ones who crouch`; ἔθνος `of the number of people accustomed to live together`; ὑπολείπω `the
+  things being left behind`; ἄγριος `the living in the fields`; θηρίον `wild animals`; ἐλαιών `the olive-yard`;
+  ἀναπαύω `may desist from`; ἀναψύχω `may cool`; λέγω `I have said`; φυλάσσω `keep watch and ward for
+  yourselves`, `may keep watch and ward`; θεός `of gods`; ἕτερος `of other`; ἀναμιμνήσκω `you will be reminded`;
+  ἀκούω `may be heard`, the passive's first; ἑορτάζω `keep festival`; ἑορτή `the feast`, `of the feast`; ἄζυμος
+  `of the unleavened`; συντέλεια `of a joint payment`; ἔξοδος `of a going out`; συναγωγή `in the bringing
+  together`; ἐκβάλλω `I may throw`, `I will throw`; ζύμη `to leaven`; θυσίασμα `of victim`; στέαρ `stiff fat`;
+  ἀπαρχή `the beginnings of a sacrifice`; ἕψω `you will boil`; ἀρήν `a lamb`; ἑτοιμάζω `I made ready`; εἰσακούω
+  `hearken and give ear to`; ἀπειθέω `be disobedient`; ὑποστέλλω `may cloak through fear`; ἐντέλλομαι `I may
+  enjoin`; ἀντίκειμαι `I will be set over against`, `to the ones being set over against`; εἰσάγω `will lead in`;
+  ἐκτρίβω `I will rub out`; καθαίρεσις `to a pulling down`; καθαιρέω `you will take down`; στήλη `the blocks of
+  stone`; ἄγονος `unborn`; ἀριθμός `the number`; ἀναπληρόω `I will fill up`; ἐξίστημι `I will put out of its
+  place`; εἰσπορεύομαι `you go into`; φυγάς `ones who flee`; ἐνιαυτός `in any long period of time`; ἐρῆμος
+  `desolate`; αὐξάνω `you may be made large`; κληρονομέω `you may receive a share of an inheritance`; παραδίδωμι
+  `I will give`; ἐγκάθημαι `the ones sitting in or on`, `they will sit in or on`; ἁμαρτάνω `to miss the mark`;
+  δουλεύω `you may be a slave`; ποιέω `they may make`; πρόσκομμα `a stumble`.
+- One translation each, plain text: μάρτυς, συνεγείρω (the active), ἐκτυφλόω, γένημα, ἀμπελών, ἀρσενικός, γάλα,
+  οἶνος, σφηκία, πρωτογένημα, ἐχθρεύω, ἐρυθρός, μήν (the month).

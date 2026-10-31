@@ -1155,8 +1155,9 @@ DOUBLED = re.compile(r"(?<![\w\-|\[])(of|to) (?:\[\[(?!name:))?\1 (?=the |\w)")
 # (EXO 15:26).
 PLAIN_LEADS = ("in the presence ", "hearken ")
 # A gloss that opens with the word a case marker uses: εὐώνυμος is *of good name* and *of good
-# omen*, and its genitive marks the case before the gloss's own *of* — `of of good name` (EXO 14:22).
-GLOSS_LEADS = ("of of good name", "of of good omen")
+# omen*, and its genitive marks the case before the gloss's own *of* — `of of good name` (EXO 14:22);
+# πένης, as an adjective, is *of a poor man*, and its genitive reads `of of a poor man` (EXO 23:6).
+GLOSS_LEADS = ("of of good name", "of of good omen", "of of a poor man")
 # What stands in a reading, in order: a unit (its anchor), a name, or plain text.
 PIECES = re.compile(r"\[\[name:[^\]]+\]\]|\[\[(?!name:)([^|\]]+)\|[^|\]]+\|[^|\]]+\]\]|[^\[]+")
 THE_LEADS = re.compile(r"^(?:of |to )?the ")

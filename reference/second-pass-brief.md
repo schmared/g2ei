@@ -644,6 +644,12 @@ Nine disagreements over 548 words, and the second pass was right on eight: ὄν
 αὐτοῦ neuter three times (the animal), πλήν the conjunction before a dative, and χήρα as A-, as GEN 38:11 has it.
 ὅσον after κατά stays accusative.
 
+### What it found in Exodus 23
+
+Seven disagreements over 711 words, and the second pass was right on six: πλειόνων filed under πολύς, as MorphGNT
+files the comparative; τὰ ὑπολειπόμενα the object of ἔδεται, accusative; ἐάν after the relative ὧν the particle;
+ἕως before ἄν and a subjunctive the conjunction. σπείρῃς stays aorist, as GEN 47:19 codes σπείρωμεν.
+
 ## The brief
 
 Copy everything below the rule into a new agent. Replace `<BOOK NAME>`, `<CHAPTER>`,

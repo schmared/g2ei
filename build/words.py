@@ -420,6 +420,12 @@ LSJ = {
     "ἀνταποθνήσκω": ["die or am killed in requital"],
     "ἐκδανείζω": ["lend out at interest"],
     "ἐνεχύρασμα": ["pledge, thing pawned"],
+    # EXO 23. Not in Middle Liddell. LSJ (eng9): θυσίασμα, "= θυσία II", a pointer to θυσία's "victim, offering",
+    # which it reads. LSJ (eng17): πρωτογένημα, "firstfruits". LSJ (eng5): ἐχθρεύω, "to be at enmity with",
+    # citing Ex 23:22.
+    "θυσίασμα": ["victim, offering"],
+    "πρωτογένημα": ["firstfruits"],
+    "ἐχθρεύω": ["to be at enmity with"],
     # EXO 12. None of these is in Middle Liddell. LSJ (eng3): γειώρας, "sojourner", "proselyte". LSJ
     # (eng4): δέσμη, "package, bundle", "a measure in Egypt", "in Medicine, handful"; Rahlfs prints the
     # accusative δεσμήν, the module δέσμην. LSJ (eng5): ἐνδόσθια, "= ἐντόσθια", a pointer to ἐντόσθιος,
@@ -1059,7 +1065,7 @@ NOT_SENSES = {
     "mise/w": {"hated (would not suffer)", "grudging"},  # pieces of examples
     # GEN 28
     "proskale/w": {"I have called"},            # a piece of an example
-    "sunagwgh/": {"a levying", "a gathering in of"},  # pieces of examples
+    "sunagwgh/": {"a levying", "a gathering in of", "a forming", "in column"},  # pieces of examples; "a forming in column" cut, whole in MARKUP_LOST
     "a)panta/w": {"from", "anyone that meets you, any chance person"},  # pieces of examples
     "du/w": {"plunged into", "plunge into", "go in to", "he got himself unto", "got behind", "setting", "sank",
              "wilt", "put on", "to enter, come over", "upon", "filled"},  # pieces and translations of examples; "to enter, come over or upon", cut, whole in MARKUP_LOST
@@ -1551,6 +1557,23 @@ NOT_SENSES = {
     "e)panastre/fw": {"to turn back upon"},    # "to turn back upon one", cut, whole in MARKUP_LOST
     "r(h/gnumi": {"to break, break asunder", "in pieces, rend, shiver, shatter", "force one's", "breaking into speech",
                   "rumpere vocem", "having let loose"},  # "to break … or in pieces", cut, whole in MARKUP_LOST; a piece, examples', Virgil
+    # EXO 23
+    "pe/nhs": {"(beggar)"},                    # πτωχός's, in the distinction the entry draws
+    "sugkatati/qhmi": {"to deposit together", "at the same time", "to deliver", "with"},  # cut, whole in MARKUP_LOST; a phrase's, σ. τινι τὴν αὐτὴν δόξαν
+    "lumai/nomai": {"to inflict indignities", "outrages upon"},  # cut, whole in MARKUP_LOST
+    "ptwxo/s": {"one who crouches", "cringes, a beggar", "a beggar-man", "poorly, scantily"},  # cut, whole in MARKUP_LOST; a phrase's, πτωχὸς ἀνήρ; the adverb's
+    "a)nayu/xw": {"to let", "rest and get dry, relieve", "dry off", "to give", "relief from"},  # cut, whole in MARKUP_LOST
+    "sunte/leia": {"defrayed by subscription"},  # a phrase's, εἰς σ. ἄγειν
+    "u(poste/llw": {"made", "furl", "to shelter", "behind", "to cloak", "through fear, to prevaricate, dissemble",
+                    "dissimulation"},  # cut, whole in MARKUP_LOST; a phrase's, μηδὲν ὑποστειλάμενος
+    "a)nti/keimai": {"by way of opposition"},  # the adverb's, ἀντικειμένως
+    "a)/dikos": {"towards", "wrong", "jure an injuria", "without reason"},  # a piece, ἐς τινα after "unjust in"; the neuter plural's as a noun, an example's; the adverb's
+    "dikaio/w": {"to hold", "deem right, think fit, demand", "to do a man right", "justice, to judge",
+                 "to refuse"},  # cut, whole in MARKUP_LOST; a phrase's, οὐ δ.
+    "e)ci/sthmi": {"to drive", "out of"},       # "to drive one out of" cut, whole in MARKUP_LOST; an example's piece
+    "e)rh=mos": {"in solitude", "in which one party does not appear", "by default", "judgment by default",
+                 "in a case where there was no defence"},  # the neuter plural's as an adverb; ἐρήμη δίκη's, phrases'
+    "a)/grios": {"a countryman", "to harsher measures", "more wild, stormy", "a malignant disease", "savagely"},  # a label, "of a countryman, as opp. to a citizen"; the comparative's; a phrase's, ἀγρ. νόσος; the adverb's
     # EXO 13
     "mnhmoneu/w": {"to call to", "mind, mention"},  # "to call to another's mind, mention", cut in two
     "metame/lei": {"I repent of", "since it repented", "they repented that",
@@ -1672,6 +1695,26 @@ _APOLLUMI_ACT = {"to destroy utterly, kill, slay", "to destroy, demolish, waste"
 _APOLLUMI_MID = {"to perish utterly, die", "to be undone", "you are done for, lost, ruined",
                  "to be lost, slip away, vanish"}
 FORM_SENSES = {
+    # EXO 23. συγκατατίθημι's middle and ὑποστέλλω's read the middle's senses; συνεγείρω's active and ἀναψύχω's
+    # leave out the passive's; πτωχός's masculine and neuter leave out the feminine's "a beggar-woman", πτωχή.
+    "sugkatati/qhmi": [("PIFAXY", "ME", NOT_SENSES["sugkatati/qhmi"] | {"to deposit together or at the same time"})],
+    "sunegei/rw": [("PIFAXY", "A", {"to rise together"})],
+    "a)nayu/xw": [("PIFAXY", "A", NOT_SENSES["a)nayu/xw"] | {"to be revived, refreshed"})],
+    "u(poste/llw": [("PIFAXY", "ME", NOT_SENSES["u(poste/llw"] | {"to draw in", "made him furl", "to draw back for shelter",
+                                                                  "to shelter oneself behind", "to withdraw"})],
+    "ptwxo/s": [("-", "-", NOT_SENSES["ptwxo/s"] | {"a beggar-woman"}, None, "^......[MN]")],
+    # δικαιόω's active leaves out the passive's "proved, tested", and the passive the active's constructions with
+    # an infinitive, "to consent" to do and "to desire" one to do, as GEN 38:26 and 44:16 read it. ἀναπαύω's middle
+    # reads the Mid. and Pass. section, as GEN 29:2 and 49:14 do. ἐξίστημι is "causal in pres., imperf., fut.,
+    # aor1": its future active leaves out the intransitive senses.
+    "dikaio/w": [("PIFAXY", "A", NOT_SENSES["dikaio/w"] | {"proved, tested"}),
+                 ("PIFAXY", "PE", NOT_SENSES["dikaio/w"] | {"to consent", "to desire"})],
+    "a)napau/w": [("PIFAXY", "ME", NOT_SENSES["a)napau/w"] | {"to make to cease, to stop", "to stop, put an end to",
+                                                               "to rest, halt", "to take rest"})],
+    "e)ci/sthmi": [("F", "A", NOT_SENSES["e)ci/sthmi"] | {
+        "to stand aside from", "is displaced, disordered", "to shrink from, shun", "to retire from, give up possession of",
+        "to cease from, abandon", "to lose", "give", "up", "to be out of one's wits, to be astonished, amazed",
+        "to degenerate", "changed, sour", "disfigured", "to change one's position, one's opinion"})],
     # EXO 22. ἐνεχυράζω's active leaves out the passive's and the middle's; πιπράσκω's passive its own "to be
     # sold", which is the first sense in the passive.
     "pipra/skw": [("PIFAXY", "P", NOT_SENSES["pipra/skw"] | {"to be sold"})],
@@ -2166,6 +2209,7 @@ SPELLING = {
     "e)gxeiri/dion": "e)gxeiri/dios",  # "as Subst., ἐγχειρίδιον … a hand-knife, dagger", inside the adjective (EXO 20:25)
     "dou/lh": "dou=los",              # "Hom. has only the fem. δούλη, a bondwoman", inside δοῦλος (EXO 21:7)
     "kakw=s": "kako/s",               # the adverb, filed inside the adjective's entry, as καλῶς (EXO 22:27)
+    "sfhki/a": "sfhkia/",             # σφηκία, the entry accented σφηκιά, whose LSJ cites Ex 23:28 (EXO 23:28)
     "di/yos": "di/ya",                # δίψος, "= δίψα", and nothing more (EXO 17:3)
     "ko/rion": "kori/annon",          # LSJ's κόριον (B), "shortd. for κορίαννον"; Middle Liddell's κόριον is the diminutive of κόρη (EXO 16:14)
     "sa/bbaton": "*sa/bbaton",        # σάββατον, keyed with the capital (EXO 16:23)
@@ -2519,6 +2563,25 @@ MARKUP_LOST = {
     "a(li/skomai": [(6, "to be caught or detected")],
     # ὀρφανός: "Lat. orbus, orphan, without parents, fatherless" — the first sense, all inside the Latin element.
     "o)rfano/s": [(0, "orphan, without parents, fatherless")],
+    # EXO 23. συγκατατίθημι: "«to deposit together» or «at the same time»"; λυμαίνομαι: "«to inflict indignities» or
+    # «outrages upon»"; πτωχός: "«one who crouches» or «cringes, a beggar»"; ἀναψύχω: "ναῦς ἀν. «to let» the ships «rest
+    # and get dry, relieve» them", "«to let» it «dry off»", "«to give» him «relief from» toil"; ὑποστέλλω: "«made» him
+    # «furl» his sail", "«to shelter» oneself «behind»", "«to cloak» a thing «through fear, to prevaricate, dissemble»".
+    # The ships and the thing are the examples' objects, left out as ὑπάγω's "a person" is; the pronouns stay.
+    "sugkatati/qhmi": [(0, "to deposit together or at the same time")],
+    "lumai/nomai": [(3, "to inflict indignities or outrages upon")],
+    "ptwxo/s": [(0, "one who crouches or cringes, a beggar")],
+    "a)nayu/xw": [(2, "to let rest and get dry, relieve"), (5, "to let it dry off"), (8, "to give him relief from")],
+    "u(poste/llw": [(1, "made him furl"), (5, "to shelter oneself behind"), (9, "to cloak through fear, to prevaricate, dissemble")],
+    # δικαιόω: "«to hold» or «deem right, think fit, demand»", "«to do a man right» or «justice, to judge»";
+    # ἐξίστημι: "ἐξιστάναι τινὰ φρενῶν «to drive» one «out of» his senses"; συναγωγή: "σ. στρατιᾶς «a forming» an
+    # army «in column»", the army the example's object, left out as ὑπάγω's "a person" is.
+    "dikaio/w": [(2, "to hold or deem right, think fit, demand"), (8, "to do a man right or justice, to judge")],
+    "e)ci/sthmi": [(2, "to drive one out of")],
+    "sunagwgh/": [(5, "a forming in column")],
+    # ἐλαιών: "«an olive-yard», Lat. olivetum: the Mount of Olives, Olivet, NTest." — the English after the colon inside
+    # the Latin element.
+    "e)laiw/n": [(1, "the Mount of Olives, Olivet")],
     "de/on": [(1, "things needful or proper, advantages or duties")],  # τὰ δέοντα «things needful» or «proper, advantages» or «duties»
     "pleona/zw": [(2, "to go beyond bounds, take or claim too much")],
     "pikrai/nw": [(0, "to make sharp or bitter")],
@@ -2600,6 +2663,7 @@ LATIN_ONLY = {
     "e)ntau=qa",                                # "Lat. hic, illic", after "here, there"
     "te/ras",                                   # "Lat. portentum, prodigium", after "a sign, wonder, marvel"
     "ou)de/pote",                               # "Lat. ne unquam quidem, nunquam", after "and not ever" or "nor ever, …, never"
+    "fuga/s",                                   # "Lat. exul, profugus", after "a runaway, fugitive, a banished man, exile, refugee" (EXO 23:27)
 }
 
 # The same loss with Greek in place of Latin. Middle Liddell names a thing by its Greek word
