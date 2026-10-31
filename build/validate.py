@@ -556,8 +556,18 @@ def senses(chain):
     class`, and losing one of the two `part`s is a sense lost.
     """
     out = collections.Counter()
-    for token in re.findall(r"[a-zA-Z']+", ASPECT.sub("", chain).lower()):
-        if token in GRAMMAR:
+    prev = None
+    text = ASPECT.sub("", chain).lower()
+    for m in re.finditer(r"[a-zA-Z']+", text):
+        token = m.group()
+        # the article's noun follows its gender, `the one coming in second` beside `the
+        # thing coming in second`: one is grammar already, and so is the other where words
+        # follow it in the item (δεύτερος at GEN 32:9 and EXO 27:15). Where the item ends
+        # on it, `the subject of speech and the thing`, the thing is a sense.
+        carried = (prev == "the" and token in ("thing", "things")
+                   and re.match(r" [a-z]", text[m.end():m.end() + 2]))
+        prev = token
+        if token in GRAMMAR or carried:
             continue
         token = stem(token)
         if token and token not in GRAMMAR:

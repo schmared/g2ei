@@ -1,0 +1,6408 @@
+{
+  "source": "Dictionary form and parse: this project's own analysis. Senses: Middle Liddell (1889; Perseus Digital Library, CC BY-SA 3.0 US), in the lexicon's own order, without regard to context; LSJ (PerseusDL, CC BY-SA 4.0) where Middle Liddell has no entry. Middle/passive marks a tense in which the two voices share one form; masculine/feminine, an adjective whose form does not distinguish them.",
+  "verses": [
+    {
+      "ref": "EXO 27:1",
+      "words": [
+        {
+          "form": "Καὶ",
+          "lemma": "καί",
+          "parse": "conjunction",
+          "aspect": "",
+          "senses": [
+            "and",
+            "also, even",
+            "both",
+            "and above all",
+            "or"
+          ],
+          "more": 6,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "ποιήσεις",
+          "lemma": "ποιέω",
+          "parse": "verb · future · active · indicative · 2nd person · singular",
+          "aspect": "",
+          "senses": [
+            "to make",
+            "to do",
+            "to make, produce, create",
+            "to build them",
+            "to have"
+          ],
+          "more": 31,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "θυσιαστήριον",
+          "lemma": "θυσιαστήριον",
+          "parse": "noun · accusative · singular · neuter",
+          "aspect": "",
+          "senses": [
+            "an altar"
+          ],
+          "more": 0,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "ἐκ",
+          "lemma": "ἐκ",
+          "parse": "preposition",
+          "aspect": "",
+          "senses": [
+            "from out of",
+            "out of, from. c. gen.",
+            "out of, forth from",
+            "from",
+            "with all"
+          ],
+          "more": 26,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "ξύλων",
+          "lemma": "ξύλον",
+          "parse": "noun · genitive · plural · neuter",
+          "aspect": "",
+          "senses": [
+            "wood",
+            "firewood, timber",
+            "timber",
+            "a piece of wood, a post",
+            "a perch"
+          ],
+          "more": 9,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "ἀσήπτων",
+          "lemma": "ἄσηπτος",
+          "parse": "adjective · genitive · plural · neuter",
+          "aspect": "",
+          "senses": [
+            "not liable to decay or corruption",
+            "undigested"
+          ],
+          "more": 0,
+          "lexicon": "LSJ"
+        },
+        {
+          "form": "πέντε",
+          "lemma": "πέντε",
+          "parse": "adjective · genitive · plural · masculine",
+          "aspect": "",
+          "senses": [
+            "five"
+          ],
+          "more": 0,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "πήχεων",
+          "lemma": "πῆχυς",
+          "parse": "noun · genitive · plural · masculine",
+          "aspect": "",
+          "senses": [
+            "the fore-arm",
+            "the arm",
+            "the centrepiece, which joined the two horns of the bow",
+            "the horns",
+            "sides of the lyre"
+          ],
+          "more": 4,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "τὸ",
+          "lemma": "ὁ",
+          "parse": "article · accusative · singular · neuter",
+          "aspect": "",
+          "senses": [
+            "the",
+            "that",
+            "famous",
+            "namely that",
+            "he, she, it"
+          ],
+          "more": 31,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "μῆκος",
+          "lemma": "μῆκος",
+          "parse": "noun · accusative · singular · neuter",
+          "aspect": "",
+          "senses": [
+            "length",
+            "distances",
+            "height, tallness, stature",
+            "long",
+            "in length"
+          ],
+          "more": 2,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "καὶ",
+          "lemma": "καί",
+          "parse": "conjunction",
+          "aspect": "",
+          "senses": [
+            "and",
+            "also, even",
+            "both",
+            "and above all",
+            "or"
+          ],
+          "more": 6,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "πέντε",
+          "lemma": "πέντε",
+          "parse": "adjective · genitive · plural · masculine",
+          "aspect": "",
+          "senses": [
+            "five"
+          ],
+          "more": 0,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "πήχεων",
+          "lemma": "πῆχυς",
+          "parse": "noun · genitive · plural · masculine",
+          "aspect": "",
+          "senses": [
+            "the fore-arm",
+            "the arm",
+            "the centrepiece, which joined the two horns of the bow",
+            "the horns",
+            "sides of the lyre"
+          ],
+          "more": 4,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "τὸ",
+          "lemma": "ὁ",
+          "parse": "article · accusative · singular · neuter",
+          "aspect": "",
+          "senses": [
+            "the",
+            "that",
+            "famous",
+            "namely that",
+            "he, she, it"
+          ],
+          "more": 31,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "εὖρος",
+          "lemma": "εὖρος",
+          "parse": "noun · accusative · singular · neuter",
+          "aspect": "",
+          "senses": [
+            "breadth, width",
+            "in breadth"
+          ],
+          "more": 0,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "τετράγωνον",
+          "lemma": "τετράγωνος",
+          "parse": "adjective · nominative · singular · neuter",
+          "aspect": "",
+          "senses": [
+            "with four equal angles, rectangular",
+            "square",
+            "squared",
+            "a square",
+            "a body of men drawn up in square"
+          ],
+          "more": 2,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "ἔσται",
+          "lemma": "εἰμί",
+          "parse": "verb · future · middle · indicative · 3rd person · singular",
+          "aspect": "",
+          "senses": [
+            "to be, to exist",
+            "to be, exist",
+            "last",
+            "to be",
+            "appearing to be"
+          ],
+          "more": 11,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "τὸ",
+          "lemma": "ὁ",
+          "parse": "article · nominative · singular · neuter",
+          "aspect": "",
+          "senses": [
+            "the",
+            "that",
+            "famous",
+            "namely that",
+            "he, she, it"
+          ],
+          "more": 31,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "θυσιαστήριον",
+          "lemma": "θυσιαστήριον",
+          "parse": "noun · nominative · singular · neuter",
+          "aspect": "",
+          "senses": [
+            "an altar"
+          ],
+          "more": 0,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "καὶ",
+          "lemma": "καί",
+          "parse": "conjunction",
+          "aspect": "",
+          "senses": [
+            "and",
+            "also, even",
+            "both",
+            "and above all",
+            "or"
+          ],
+          "more": 6,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "τριῶν",
+          "lemma": "τρεῖς",
+          "parse": "adjective · genitive · plural · masculine/feminine",
+          "aspect": "",
+          "senses": [
+            "three"
+          ],
+          "more": 0,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "πήχεων",
+          "lemma": "πῆχυς",
+          "parse": "noun · genitive · plural · masculine",
+          "aspect": "",
+          "senses": [
+            "the fore-arm",
+            "the arm",
+            "the centrepiece, which joined the two horns of the bow",
+            "the horns",
+            "sides of the lyre"
+          ],
+          "more": 4,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "τὸ",
+          "lemma": "ὁ",
+          "parse": "article · accusative · singular · neuter",
+          "aspect": "",
+          "senses": [
+            "the",
+            "that",
+            "famous",
+            "namely that",
+            "he, she, it"
+          ],
+          "more": 31,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "ὕψος",
+          "lemma": "ὕψος",
+          "parse": "noun · accusative · singular · neuter",
+          "aspect": "",
+          "senses": [
+            "height",
+            "in height",
+            "the top, summit, crown"
+          ],
+          "more": 0,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "αὐτοῦ",
+          "lemma": "αὐτός",
+          "parse": "personal pronoun · genitive · singular · neuter",
+          "aspect": "",
+          "senses": [
+            "self",
+            "him, her, it",
+            "the very one, the same",
+            "self, myself, thyself",
+            "oneself, one's true self"
+          ],
+          "more": 25,
+          "lexicon": "Middle Liddell"
+        }
+      ]
+    },
+    {
+      "ref": "EXO 27:2",
+      "words": [
+        {
+          "form": "καὶ",
+          "lemma": "καί",
+          "parse": "conjunction",
+          "aspect": "",
+          "senses": [
+            "and",
+            "also, even",
+            "both",
+            "and above all",
+            "or"
+          ],
+          "more": 6,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "ποιήσεις",
+          "lemma": "ποιέω",
+          "parse": "verb · future · active · indicative · 2nd person · singular",
+          "aspect": "",
+          "senses": [
+            "to make",
+            "to do",
+            "to make, produce, create",
+            "to build them",
+            "to have"
+          ],
+          "more": 31,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "τὰ",
+          "lemma": "ὁ",
+          "parse": "article · accusative · plural · neuter",
+          "aspect": "",
+          "senses": [
+            "the",
+            "that",
+            "famous",
+            "namely that",
+            "he, she, it"
+          ],
+          "more": 31,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "κέρατα",
+          "lemma": "κέρας",
+          "parse": "noun · accusative · plural · neuter",
+          "aspect": "",
+          "senses": [
+            "the horn of an animal",
+            "horn",
+            "anything made of horn",
+            "a bow",
+            "a horn for blowing"
+          ],
+          "more": 11,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "ἐπὶ",
+          "lemma": "ἐπί",
+          "parse": "preposition",
+          "aspect": "",
+          "senses": [
+            "on, upon with gen., dat., and acc.",
+            "upon.",
+            "upon",
+            "on",
+            "in"
+          ],
+          "more": 60,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "τῶν",
+          "lemma": "ὁ",
+          "parse": "article · genitive · plural · feminine",
+          "aspect": "",
+          "senses": [
+            "the",
+            "that",
+            "famous",
+            "namely that",
+            "he, she, it"
+          ],
+          "more": 31,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "τεσσάρων",
+          "lemma": "τέσσαρες",
+          "parse": "adjective · genitive · plural · masculine/feminine",
+          "aspect": "",
+          "senses": [
+            "four"
+          ],
+          "more": 0,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "γωνιῶν",
+          "lemma": "γωνία",
+          "parse": "noun · genitive · plural · feminine",
+          "aspect": "",
+          "senses": [
+            "a corner, angle",
+            "a joiner's square"
+          ],
+          "more": 0,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "ἐξ",
+          "lemma": "ἐκ",
+          "parse": "preposition",
+          "aspect": "",
+          "senses": [
+            "from out of",
+            "out of, from. c. gen.",
+            "out of, forth from",
+            "from",
+            "with all"
+          ],
+          "more": 26,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "αὐτοῦ",
+          "lemma": "αὐτός",
+          "parse": "personal pronoun · genitive · singular · neuter",
+          "aspect": "",
+          "senses": [
+            "self",
+            "him, her, it",
+            "the very one, the same",
+            "self, myself, thyself",
+            "oneself, one's true self"
+          ],
+          "more": 25,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "ἔσται",
+          "lemma": "εἰμί",
+          "parse": "verb · future · middle · indicative · 3rd person · singular",
+          "aspect": "",
+          "senses": [
+            "to be, to exist",
+            "to be, exist",
+            "last",
+            "to be",
+            "appearing to be"
+          ],
+          "more": 11,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "τὰ",
+          "lemma": "ὁ",
+          "parse": "article · nominative · plural · neuter",
+          "aspect": "",
+          "senses": [
+            "the",
+            "that",
+            "famous",
+            "namely that",
+            "he, she, it"
+          ],
+          "more": 31,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "κέρατα",
+          "lemma": "κέρας",
+          "parse": "noun · nominative · plural · neuter",
+          "aspect": "",
+          "senses": [
+            "the horn of an animal",
+            "horn",
+            "anything made of horn",
+            "a bow",
+            "a horn for blowing"
+          ],
+          "more": 11,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "καὶ",
+          "lemma": "καί",
+          "parse": "conjunction",
+          "aspect": "",
+          "senses": [
+            "and",
+            "also, even",
+            "both",
+            "and above all",
+            "or"
+          ],
+          "more": 6,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "καλύψεις",
+          "lemma": "καλύπτω",
+          "parse": "verb · future · active · indicative · 2nd person · singular",
+          "aspect": "",
+          "senses": [
+            "to cover with",
+            "to cover",
+            "covered, grasped",
+            "to bury",
+            "conceal"
+          ],
+          "more": 2,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "αὐτὰ",
+          "lemma": "αὐτός",
+          "parse": "personal pronoun · accusative · plural · neuter",
+          "aspect": "",
+          "senses": [
+            "self",
+            "him, her, it",
+            "the very one, the same",
+            "self, myself, thyself",
+            "oneself, one's true self"
+          ],
+          "more": 25,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "χαλκῷ",
+          "lemma": "χαλκός",
+          "parse": "noun · dative · singular · masculine",
+          "aspect": "",
+          "senses": [
+            "copper",
+            "metal",
+            "bronze",
+            "anything made of brass",
+            "a copper, caldron, urn"
+          ],
+          "more": 2,
+          "lexicon": "Middle Liddell"
+        }
+      ]
+    },
+    {
+      "ref": "EXO 27:3",
+      "words": [
+        {
+          "form": "καὶ",
+          "lemma": "καί",
+          "parse": "conjunction",
+          "aspect": "",
+          "senses": [
+            "and",
+            "also, even",
+            "both",
+            "and above all",
+            "or"
+          ],
+          "more": 6,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "ποιήσεις",
+          "lemma": "ποιέω",
+          "parse": "verb · future · active · indicative · 2nd person · singular",
+          "aspect": "",
+          "senses": [
+            "to make",
+            "to do",
+            "to make, produce, create",
+            "to build them",
+            "to have"
+          ],
+          "more": 31,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "στεφάνην",
+          "lemma": "στεφάνη",
+          "parse": "noun · accusative · singular · feminine",
+          "aspect": "",
+          "senses": [
+            "anything that encircles",
+            "the brim",
+            "a diadem, coronal",
+            "edge",
+            "the brow of a hill, edge of a cliff"
+          ],
+          "more": 0,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "τῷ",
+          "lemma": "ὁ",
+          "parse": "article · dative · singular · neuter",
+          "aspect": "",
+          "senses": [
+            "the",
+            "that",
+            "famous",
+            "namely that",
+            "he, she, it"
+          ],
+          "more": 31,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "θυσιαστηρίῳ",
+          "lemma": "θυσιαστήριον",
+          "parse": "noun · dative · singular · neuter",
+          "aspect": "",
+          "senses": [
+            "an altar"
+          ],
+          "more": 0,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "καὶ",
+          "lemma": "καί",
+          "parse": "conjunction",
+          "aspect": "",
+          "senses": [
+            "and",
+            "also, even",
+            "both",
+            "and above all",
+            "or"
+          ],
+          "more": 6,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "τὸν",
+          "lemma": "ὁ",
+          "parse": "article · accusative · singular · masculine",
+          "aspect": "",
+          "senses": [
+            "the",
+            "that",
+            "famous",
+            "namely that",
+            "he, she, it"
+          ],
+          "more": 31,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "καλυπτῆρα",
+          "lemma": "καλυπτήρ",
+          "parse": "noun · accusative · singular · masculine",
+          "aspect": "",
+          "senses": [
+            "covering, sheath",
+            "cover",
+            "lid",
+            "tiles"
+          ],
+          "more": 0,
+          "lexicon": "LSJ"
+        },
+        {
+          "form": "αὐτοῦ",
+          "lemma": "αὐτός",
+          "parse": "personal pronoun · genitive · singular · neuter",
+          "aspect": "",
+          "senses": [
+            "self",
+            "him, her, it",
+            "the very one, the same",
+            "self, myself, thyself",
+            "oneself, one's true self"
+          ],
+          "more": 25,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "καὶ",
+          "lemma": "καί",
+          "parse": "conjunction",
+          "aspect": "",
+          "senses": [
+            "and",
+            "also, even",
+            "both",
+            "and above all",
+            "or"
+          ],
+          "more": 6,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "τὰς",
+          "lemma": "ὁ",
+          "parse": "article · accusative · plural · feminine",
+          "aspect": "",
+          "senses": [
+            "the",
+            "that",
+            "famous",
+            "namely that",
+            "he, she, it"
+          ],
+          "more": 31,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "φιάλας",
+          "lemma": "φιάλη",
+          "parse": "noun · accusative · plural · feminine",
+          "aspect": "",
+          "senses": [
+            "a broad, flat vessel, a bowl",
+            "a cinerary urn",
+            "a broad, flat bowl"
+          ],
+          "more": 0,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "αὐτοῦ",
+          "lemma": "αὐτός",
+          "parse": "personal pronoun · genitive · singular · neuter",
+          "aspect": "",
+          "senses": [
+            "self",
+            "him, her, it",
+            "the very one, the same",
+            "self, myself, thyself",
+            "oneself, one's true self"
+          ],
+          "more": 25,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "καὶ",
+          "lemma": "καί",
+          "parse": "conjunction",
+          "aspect": "",
+          "senses": [
+            "and",
+            "also, even",
+            "both",
+            "and above all",
+            "or"
+          ],
+          "more": 6,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "τὰς",
+          "lemma": "ὁ",
+          "parse": "article · accusative · plural · feminine",
+          "aspect": "",
+          "senses": [
+            "the",
+            "that",
+            "famous",
+            "namely that",
+            "he, she, it"
+          ],
+          "more": 31,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "κρεάγρας",
+          "lemma": "κρεάγρα",
+          "parse": "noun · accusative · plural · feminine",
+          "aspect": "",
+          "senses": [
+            "a flesh-hook"
+          ],
+          "more": 0,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "αὐτοῦ",
+          "lemma": "αὐτός",
+          "parse": "personal pronoun · genitive · singular · neuter",
+          "aspect": "",
+          "senses": [
+            "self",
+            "him, her, it",
+            "the very one, the same",
+            "self, myself, thyself",
+            "oneself, one's true self"
+          ],
+          "more": 25,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "καὶ",
+          "lemma": "καί",
+          "parse": "conjunction",
+          "aspect": "",
+          "senses": [
+            "and",
+            "also, even",
+            "both",
+            "and above all",
+            "or"
+          ],
+          "more": 6,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "τὸ",
+          "lemma": "ὁ",
+          "parse": "article · accusative · singular · neuter",
+          "aspect": "",
+          "senses": [
+            "the",
+            "that",
+            "famous",
+            "namely that",
+            "he, she, it"
+          ],
+          "more": 31,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "πυρεῖον",
+          "lemma": "πυρεῖον",
+          "parse": "noun · accusative · singular · neuter",
+          "aspect": "",
+          "senses": [
+            "pieces of wood"
+          ],
+          "more": 0,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "αὐτοῦ",
+          "lemma": "αὐτός",
+          "parse": "personal pronoun · genitive · singular · neuter",
+          "aspect": "",
+          "senses": [
+            "self",
+            "him, her, it",
+            "the very one, the same",
+            "self, myself, thyself",
+            "oneself, one's true self"
+          ],
+          "more": 25,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "καὶ",
+          "lemma": "καί",
+          "parse": "conjunction",
+          "aspect": "",
+          "senses": [
+            "and",
+            "also, even",
+            "both",
+            "and above all",
+            "or"
+          ],
+          "more": 6,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "πάντα",
+          "lemma": "πᾶς",
+          "parse": "adjective · accusative · plural · neuter",
+          "aspect": "",
+          "senses": [
+            "all, the whole",
+            "all",
+            "all the",
+            "nothing but",
+            "every"
+          ],
+          "more": 32,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "τὰ",
+          "lemma": "ὁ",
+          "parse": "article · accusative · plural · neuter",
+          "aspect": "",
+          "senses": [
+            "the",
+            "that",
+            "famous",
+            "namely that",
+            "he, she, it"
+          ],
+          "more": 31,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "σκεύη",
+          "lemma": "σκεῦος",
+          "parse": "noun · accusative · plural · neuter",
+          "aspect": "",
+          "senses": [
+            "a vessel",
+            "implement of any kind",
+            "furniture, house-gear, utensils, chattels",
+            "accoutrements, equipment",
+            "baggage, luggage"
+          ],
+          "more": 4,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "αὐτοῦ",
+          "lemma": "αὐτός",
+          "parse": "personal pronoun · genitive · singular · neuter",
+          "aspect": "",
+          "senses": [
+            "self",
+            "him, her, it",
+            "the very one, the same",
+            "self, myself, thyself",
+            "oneself, one's true self"
+          ],
+          "more": 25,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "ποιήσεις",
+          "lemma": "ποιέω",
+          "parse": "verb · future · active · indicative · 2nd person · singular",
+          "aspect": "",
+          "senses": [
+            "to make",
+            "to do",
+            "to make, produce, create",
+            "to build them",
+            "to have"
+          ],
+          "more": 31,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "χαλκᾶ",
+          "lemma": "χαλκοῦς",
+          "parse": "adjective · accusative · plural · neuter",
+          "aspect": "",
+          "senses": [
+            "of copper",
+            "bronze, brasen",
+            "brasen"
+          ],
+          "more": 0,
+          "lexicon": "Middle Liddell"
+        }
+      ]
+    },
+    {
+      "ref": "EXO 27:4",
+      "words": [
+        {
+          "form": "καὶ",
+          "lemma": "καί",
+          "parse": "conjunction",
+          "aspect": "",
+          "senses": [
+            "and",
+            "also, even",
+            "both",
+            "and above all",
+            "or"
+          ],
+          "more": 6,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "ποιήσεις",
+          "lemma": "ποιέω",
+          "parse": "verb · future · active · indicative · 2nd person · singular",
+          "aspect": "",
+          "senses": [
+            "to make",
+            "to do",
+            "to make, produce, create",
+            "to build them",
+            "to have"
+          ],
+          "more": 31,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "αὐτῷ",
+          "lemma": "αὐτός",
+          "parse": "personal pronoun · dative · singular · neuter",
+          "aspect": "",
+          "senses": [
+            "self",
+            "him, her, it",
+            "the very one, the same",
+            "self, myself, thyself",
+            "oneself, one's true self"
+          ],
+          "more": 25,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "ἐσχάραν",
+          "lemma": "ἐσχάρα",
+          "parse": "noun · accusative · singular · feminine",
+          "aspect": "",
+          "senses": [
+            "the hearth, fire-place",
+            "a pan of coals, a brasier",
+            "an altar for burnt-offerings"
+          ],
+          "more": 0,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "ἔργῳ",
+          "lemma": "ἔργον",
+          "parse": "noun · dative · singular · neuter",
+          "aspect": "",
+          "senses": [
+            "work",
+            "business",
+            "deeds",
+            "action",
+            "battle"
+          ],
+          "more": 25,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "δικτυωτῷ",
+          "lemma": "δικτυωτός",
+          "parse": "adjective · dative · singular · neuter",
+          "aspect": "",
+          "senses": [
+            "made in net-fashion",
+            "latticed, trellised",
+            "lattice"
+          ],
+          "more": 0,
+          "lexicon": "LSJ"
+        },
+        {
+          "form": "χαλκῆν",
+          "lemma": "χαλκοῦς",
+          "parse": "adjective · accusative · singular · feminine",
+          "aspect": "",
+          "senses": [
+            "of copper",
+            "bronze, brasen",
+            "brasen"
+          ],
+          "more": 0,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "καὶ",
+          "lemma": "καί",
+          "parse": "conjunction",
+          "aspect": "",
+          "senses": [
+            "and",
+            "also, even",
+            "both",
+            "and above all",
+            "or"
+          ],
+          "more": 6,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "ποιήσεις",
+          "lemma": "ποιέω",
+          "parse": "verb · future · active · indicative · 2nd person · singular",
+          "aspect": "",
+          "senses": [
+            "to make",
+            "to do",
+            "to make, produce, create",
+            "to build them",
+            "to have"
+          ],
+          "more": 31,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "τῇ",
+          "lemma": "ὁ",
+          "parse": "article · dative · singular · feminine",
+          "aspect": "",
+          "senses": [
+            "the",
+            "that",
+            "famous",
+            "namely that",
+            "he, she, it"
+          ],
+          "more": 31,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "ἐσχάρᾳ",
+          "lemma": "ἐσχάρα",
+          "parse": "noun · dative · singular · feminine",
+          "aspect": "",
+          "senses": [
+            "the hearth, fire-place",
+            "a pan of coals, a brasier",
+            "an altar for burnt-offerings"
+          ],
+          "more": 0,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "τέσσαρας",
+          "lemma": "τέσσαρες",
+          "parse": "adjective · accusative · plural · masculine/feminine",
+          "aspect": "",
+          "senses": [
+            "four"
+          ],
+          "more": 0,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "δακτυλίους",
+          "lemma": "δακτύλιος",
+          "parse": "noun · accusative · plural · masculine",
+          "aspect": "",
+          "senses": [
+            "a ring, seal-ring"
+          ],
+          "more": 0,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "χαλκοῦς",
+          "lemma": "χαλκοῦς",
+          "parse": "adjective · accusative · plural · masculine",
+          "aspect": "",
+          "senses": [
+            "of copper",
+            "bronze, brasen",
+            "brasen"
+          ],
+          "more": 0,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "ἐπὶ",
+          "lemma": "ἐπί",
+          "parse": "preposition",
+          "aspect": "",
+          "senses": [
+            "on, upon with gen., dat., and acc.",
+            "upon.",
+            "upon",
+            "on",
+            "in"
+          ],
+          "more": 60,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "τὰ",
+          "lemma": "ὁ",
+          "parse": "article · accusative · plural · neuter",
+          "aspect": "",
+          "senses": [
+            "the",
+            "that",
+            "famous",
+            "namely that",
+            "he, she, it"
+          ],
+          "more": 31,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "τέσσαρα",
+          "lemma": "τέσσαρες",
+          "parse": "adjective · accusative · plural · neuter",
+          "aspect": "",
+          "senses": [
+            "four"
+          ],
+          "more": 0,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "κλίτη",
+          "lemma": "κλίτος",
+          "parse": "noun · accusative · plural · neuter",
+          "aspect": "",
+          "senses": [
+            "a clime"
+          ],
+          "more": 0,
+          "lexicon": "Middle Liddell"
+        }
+      ]
+    },
+    {
+      "ref": "EXO 27:5",
+      "words": [
+        {
+          "form": "καὶ",
+          "lemma": "καί",
+          "parse": "conjunction",
+          "aspect": "",
+          "senses": [
+            "and",
+            "also, even",
+            "both",
+            "and above all",
+            "or"
+          ],
+          "more": 6,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "ὑποθήσεις",
+          "lemma": "ὑποτίθημι",
+          "parse": "verb · future · active · indicative · 2nd person · singular",
+          "aspect": "",
+          "senses": [
+            "to place under",
+            "to place under one's feet",
+            "to place under as a foundation",
+            "to be laid down, assumed",
+            "to lay down as a principle, take for granted, assume"
+          ],
+          "more": 17,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "αὐτοὺς",
+          "lemma": "αὐτός",
+          "parse": "personal pronoun · accusative · plural · masculine",
+          "aspect": "",
+          "senses": [
+            "self",
+            "him, her, it",
+            "the very one, the same",
+            "self, myself, thyself",
+            "oneself, one's true self"
+          ],
+          "more": 25,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "ὑπὸ",
+          "lemma": "ὑπό",
+          "parse": "preposition",
+          "aspect": "",
+          "senses": [
+            "from under, by, c. gen. under, c. dat., towards c. acc.",
+            "from under",
+            "under, beneath",
+            "in under",
+            "under"
+          ],
+          "more": 34,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "τὴν",
+          "lemma": "ὁ",
+          "parse": "article · accusative · singular · feminine",
+          "aspect": "",
+          "senses": [
+            "the",
+            "that",
+            "famous",
+            "namely that",
+            "he, she, it"
+          ],
+          "more": 31,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "ἐσχάραν",
+          "lemma": "ἐσχάρα",
+          "parse": "noun · accusative · singular · feminine",
+          "aspect": "",
+          "senses": [
+            "the hearth, fire-place",
+            "a pan of coals, a brasier",
+            "an altar for burnt-offerings"
+          ],
+          "more": 0,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "τοῦ",
+          "lemma": "ὁ",
+          "parse": "article · genitive · singular · neuter",
+          "aspect": "",
+          "senses": [
+            "the",
+            "that",
+            "famous",
+            "namely that",
+            "he, she, it"
+          ],
+          "more": 31,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "θυσιαστηρίου",
+          "lemma": "θυσιαστήριον",
+          "parse": "noun · genitive · singular · neuter",
+          "aspect": "",
+          "senses": [
+            "an altar"
+          ],
+          "more": 0,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "κάτωθεν",
+          "lemma": "κάτωθεν",
+          "parse": "adverb",
+          "aspect": "",
+          "senses": [
+            "from below, up from below",
+            "from the low country, from the coast",
+            "below, beneath"
+          ],
+          "more": 0,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "ἔσται",
+          "lemma": "εἰμί",
+          "parse": "verb · future · middle · indicative · 3rd person · singular",
+          "aspect": "",
+          "senses": [
+            "to be, to exist",
+            "to be, exist",
+            "last",
+            "to be",
+            "appearing to be"
+          ],
+          "more": 11,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "δὲ",
+          "lemma": "δέ",
+          "parse": "conjunction",
+          "aspect": "",
+          "senses": [
+            "but",
+            "adversative",
+            "while, whereas, on the other hand",
+            "then, yet",
+            "then"
+          ],
+          "more": 3,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "ἡ",
+          "lemma": "ὁ",
+          "parse": "article · nominative · singular · feminine",
+          "aspect": "",
+          "senses": [
+            "the",
+            "that",
+            "famous",
+            "namely that",
+            "he, she, it"
+          ],
+          "more": 31,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "ἐσχάρα",
+          "lemma": "ἐσχάρα",
+          "parse": "noun · nominative · singular · feminine",
+          "aspect": "",
+          "senses": [
+            "the hearth, fire-place",
+            "a pan of coals, a brasier",
+            "an altar for burnt-offerings"
+          ],
+          "more": 0,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "ἕως",
+          "lemma": "ἕως",
+          "parse": "preposition",
+          "aspect": "",
+          "senses": [
+            "until, till",
+            "for a time",
+            "till",
+            "while, so long as"
+          ],
+          "more": 0,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "τοῦ",
+          "lemma": "ὁ",
+          "parse": "article · genitive · singular · neuter",
+          "aspect": "",
+          "senses": [
+            "the",
+            "that",
+            "famous",
+            "namely that",
+            "he, she, it"
+          ],
+          "more": 31,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "ἡμίσους",
+          "lemma": "ἥμισυς",
+          "parse": "adjective · genitive · singular · neuter",
+          "aspect": "",
+          "senses": [
+            "half",
+            "half of",
+            "one half"
+          ],
+          "more": 0,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "τοῦ",
+          "lemma": "ὁ",
+          "parse": "article · genitive · singular · neuter",
+          "aspect": "",
+          "senses": [
+            "the",
+            "that",
+            "famous",
+            "namely that",
+            "he, she, it"
+          ],
+          "more": 31,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "θυσιαστηρίου",
+          "lemma": "θυσιαστήριον",
+          "parse": "noun · genitive · singular · neuter",
+          "aspect": "",
+          "senses": [
+            "an altar"
+          ],
+          "more": 0,
+          "lexicon": "Middle Liddell"
+        }
+      ]
+    },
+    {
+      "ref": "EXO 27:6",
+      "words": [
+        {
+          "form": "καὶ",
+          "lemma": "καί",
+          "parse": "conjunction",
+          "aspect": "",
+          "senses": [
+            "and",
+            "also, even",
+            "both",
+            "and above all",
+            "or"
+          ],
+          "more": 6,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "ποιήσεις",
+          "lemma": "ποιέω",
+          "parse": "verb · future · active · indicative · 2nd person · singular",
+          "aspect": "",
+          "senses": [
+            "to make",
+            "to do",
+            "to make, produce, create",
+            "to build them",
+            "to have"
+          ],
+          "more": 31,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "τῷ",
+          "lemma": "ὁ",
+          "parse": "article · dative · singular · neuter",
+          "aspect": "",
+          "senses": [
+            "the",
+            "that",
+            "famous",
+            "namely that",
+            "he, she, it"
+          ],
+          "more": 31,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "θυσιαστηρίῳ",
+          "lemma": "θυσιαστήριον",
+          "parse": "noun · dative · singular · neuter",
+          "aspect": "",
+          "senses": [
+            "an altar"
+          ],
+          "more": 0,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "φορεῖς",
+          "lemma": "φορεύς",
+          "parse": "noun · accusative · plural · masculine",
+          "aspect": "",
+          "senses": [
+            "a bearer, carrier"
+          ],
+          "more": 0,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "ἐκ",
+          "lemma": "ἐκ",
+          "parse": "preposition",
+          "aspect": "",
+          "senses": [
+            "from out of",
+            "out of, from. c. gen.",
+            "out of, forth from",
+            "from",
+            "with all"
+          ],
+          "more": 26,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "ξύλων",
+          "lemma": "ξύλον",
+          "parse": "noun · genitive · plural · neuter",
+          "aspect": "",
+          "senses": [
+            "wood",
+            "firewood, timber",
+            "timber",
+            "a piece of wood, a post",
+            "a perch"
+          ],
+          "more": 9,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "ἀσήπτων",
+          "lemma": "ἄσηπτος",
+          "parse": "adjective · genitive · plural · neuter",
+          "aspect": "",
+          "senses": [
+            "not liable to decay or corruption",
+            "undigested"
+          ],
+          "more": 0,
+          "lexicon": "LSJ"
+        },
+        {
+          "form": "καὶ",
+          "lemma": "καί",
+          "parse": "conjunction",
+          "aspect": "",
+          "senses": [
+            "and",
+            "also, even",
+            "both",
+            "and above all",
+            "or"
+          ],
+          "more": 6,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "περιχαλκώσεις",
+          "lemma": "περιχαλκόω",
+          "parse": "verb · future · active · indicative · 2nd person · singular",
+          "aspect": "",
+          "senses": [
+            "cover with brass or copper"
+          ],
+          "more": 0,
+          "lexicon": "LSJ"
+        },
+        {
+          "form": "αὐτοὺς",
+          "lemma": "αὐτός",
+          "parse": "personal pronoun · accusative · plural · masculine",
+          "aspect": "",
+          "senses": [
+            "self",
+            "him, her, it",
+            "the very one, the same",
+            "self, myself, thyself",
+            "oneself, one's true self"
+          ],
+          "more": 25,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "χαλκῷ",
+          "lemma": "χαλκός",
+          "parse": "noun · dative · singular · masculine",
+          "aspect": "",
+          "senses": [
+            "copper",
+            "metal",
+            "bronze",
+            "anything made of brass",
+            "a copper, caldron, urn"
+          ],
+          "more": 2,
+          "lexicon": "Middle Liddell"
+        }
+      ]
+    },
+    {
+      "ref": "EXO 27:7",
+      "words": [
+        {
+          "form": "καὶ",
+          "lemma": "καί",
+          "parse": "conjunction",
+          "aspect": "",
+          "senses": [
+            "and",
+            "also, even",
+            "both",
+            "and above all",
+            "or"
+          ],
+          "more": 6,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "εἰσάξεις",
+          "lemma": "εἰσάγω",
+          "parse": "verb · future · active · indicative · 2nd person · singular",
+          "aspect": "",
+          "senses": [
+            "to lead in",
+            "into, to introduce",
+            "to admit",
+            "to introduce into",
+            "to lead"
+          ],
+          "more": 9,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "τοὺς",
+          "lemma": "ὁ",
+          "parse": "article · accusative · plural · masculine",
+          "aspect": "",
+          "senses": [
+            "the",
+            "that",
+            "famous",
+            "namely that",
+            "he, she, it"
+          ],
+          "more": 31,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "φορεῖς",
+          "lemma": "φορεύς",
+          "parse": "noun · accusative · plural · masculine",
+          "aspect": "",
+          "senses": [
+            "a bearer, carrier"
+          ],
+          "more": 0,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "εἰς",
+          "lemma": "εἰς",
+          "parse": "preposition",
+          "aspect": "",
+          "senses": [
+            "into, to c. acc.",
+            "into",
+            "to",
+            "in",
+            "rest in"
+          ],
+          "more": 18,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "τοὺς",
+          "lemma": "ὁ",
+          "parse": "article · accusative · plural · masculine",
+          "aspect": "",
+          "senses": [
+            "the",
+            "that",
+            "famous",
+            "namely that",
+            "he, she, it"
+          ],
+          "more": 31,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "δακτυλίους",
+          "lemma": "δακτύλιος",
+          "parse": "noun · accusative · plural · masculine",
+          "aspect": "",
+          "senses": [
+            "a ring, seal-ring"
+          ],
+          "more": 0,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "καὶ",
+          "lemma": "καί",
+          "parse": "conjunction",
+          "aspect": "",
+          "senses": [
+            "and",
+            "also, even",
+            "both",
+            "and above all",
+            "or"
+          ],
+          "more": 6,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "ἔστωσαν",
+          "lemma": "εἰμί",
+          "parse": "verb · present · active · imperative · 3rd person · plural",
+          "aspect": "going on, in progress",
+          "senses": [
+            "to be, to exist",
+            "to be, exist",
+            "last",
+            "to be",
+            "appearing to be"
+          ],
+          "more": 11,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "οἱ",
+          "lemma": "ὁ",
+          "parse": "article · nominative · plural · masculine",
+          "aspect": "",
+          "senses": [
+            "the",
+            "that",
+            "famous",
+            "namely that",
+            "he, she, it"
+          ],
+          "more": 31,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "φορεῖς",
+          "lemma": "φορεύς",
+          "parse": "noun · nominative · plural · masculine",
+          "aspect": "",
+          "senses": [
+            "a bearer, carrier"
+          ],
+          "more": 0,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "κατὰ",
+          "lemma": "κατά",
+          "parse": "preposition",
+          "aspect": "",
+          "senses": [
+            "down, downwards, with gen. or acc.",
+            "down, downwards.",
+            "motion from above, down from",
+            "downward motion",
+            "down upon"
+          ],
+          "more": 45,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "τὰ",
+          "lemma": "ὁ",
+          "parse": "article · accusative · plural · neuter",
+          "aspect": "",
+          "senses": [
+            "the",
+            "that",
+            "famous",
+            "namely that",
+            "he, she, it"
+          ],
+          "more": 31,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "πλευρὰ",
+          "lemma": "πλευρόν",
+          "parse": "noun · accusative · plural · neuter",
+          "aspect": "",
+          "senses": [
+            "a rib",
+            "the ribs, the side",
+            "the side",
+            "flank"
+          ],
+          "more": 0,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "τοῦ",
+          "lemma": "ὁ",
+          "parse": "article · genitive · singular · neuter",
+          "aspect": "",
+          "senses": [
+            "the",
+            "that",
+            "famous",
+            "namely that",
+            "he, she, it"
+          ],
+          "more": 31,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "θυσιαστηρίου",
+          "lemma": "θυσιαστήριον",
+          "parse": "noun · genitive · singular · neuter",
+          "aspect": "",
+          "senses": [
+            "an altar"
+          ],
+          "more": 0,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "ἐν",
+          "lemma": "ἐν",
+          "parse": "preposition",
+          "aspect": "",
+          "senses": [
+            "in, among. c. dat.",
+            "in",
+            "at the school of",
+            "in, upon",
+            "in the number of, amongst"
+          ],
+          "more": 23,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "τῷ",
+          "lemma": "ὁ",
+          "parse": "article · dative · singular · neuter",
+          "aspect": "",
+          "senses": [
+            "the",
+            "that",
+            "famous",
+            "namely that",
+            "he, she, it"
+          ],
+          "more": 31,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "αἴρειν",
+          "lemma": "αἴρω",
+          "parse": "verb · present · active · infinitive",
+          "aspect": "going on, in progress",
+          "senses": [
+            "to take up, raise, lift up",
+            "to bear, sustain",
+            "to raise up, exalt",
+            "to exalt, excite",
+            "to raise by words, to extol, exaggerate"
+          ],
+          "more": 2,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "αὐτό",
+          "lemma": "αὐτός",
+          "parse": "personal pronoun · accusative · singular · neuter",
+          "aspect": "",
+          "senses": [
+            "self",
+            "him, her, it",
+            "the very one, the same",
+            "self, myself, thyself",
+            "oneself, one's true self"
+          ],
+          "more": 25,
+          "lexicon": "Middle Liddell"
+        }
+      ]
+    },
+    {
+      "ref": "EXO 27:8",
+      "words": [
+        {
+          "form": "κοῖλον",
+          "lemma": "κοῖλος",
+          "parse": "adjective · accusative · singular · neuter",
+          "aspect": "",
+          "senses": [
+            "hollow, hollowed",
+            "the hold",
+            "lying in a hollow",
+            "forming a hollow",
+            "the vale"
+          ],
+          "more": 6,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "σανιδωτὸν",
+          "lemma": "σανιδωτός",
+          "parse": "adjective · accusative · singular · neuter",
+          "aspect": "",
+          "senses": [
+            "planked, boarded over"
+          ],
+          "more": 0,
+          "lexicon": "LSJ"
+        },
+        {
+          "form": "ποιήσεις",
+          "lemma": "ποιέω",
+          "parse": "verb · future · active · indicative · 2nd person · singular",
+          "aspect": "",
+          "senses": [
+            "to make",
+            "to do",
+            "to make, produce, create",
+            "to build them",
+            "to have"
+          ],
+          "more": 31,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "αὐτό",
+          "lemma": "αὐτός",
+          "parse": "personal pronoun · accusative · singular · neuter",
+          "aspect": "",
+          "senses": [
+            "self",
+            "him, her, it",
+            "the very one, the same",
+            "self, myself, thyself",
+            "oneself, one's true self"
+          ],
+          "more": 25,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "κατὰ",
+          "lemma": "κατά",
+          "parse": "preposition",
+          "aspect": "",
+          "senses": [
+            "down, downwards, with gen. or acc.",
+            "down, downwards.",
+            "motion from above, down from",
+            "downward motion",
+            "down upon"
+          ],
+          "more": 45,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "τὸ",
+          "lemma": "ὁ",
+          "parse": "article · accusative · singular · neuter",
+          "aspect": "",
+          "senses": [
+            "the",
+            "that",
+            "famous",
+            "namely that",
+            "he, she, it"
+          ],
+          "more": 31,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "παραδειχθέν",
+          "lemma": "παραδείκνυμι",
+          "parse": "verb · aorist · passive · participle · accusative · singular · neuter",
+          "aspect": "one completed act seen whole, not a process observed in progress",
+          "senses": [
+            "to exhibit side by side",
+            "to represent",
+            "to exhibit and hand over"
+          ],
+          "more": 0,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "σοι",
+          "lemma": "σύ",
+          "parse": "personal pronoun · dative · singular",
+          "aspect": "",
+          "senses": [
+            "thou"
+          ],
+          "more": 0,
+          "lexicon": "LSJ"
+        },
+        {
+          "form": "ἐν",
+          "lemma": "ἐν",
+          "parse": "preposition",
+          "aspect": "",
+          "senses": [
+            "in, among. c. dat.",
+            "in",
+            "at the school of",
+            "in, upon",
+            "in the number of, amongst"
+          ],
+          "more": 23,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "τῷ",
+          "lemma": "ὁ",
+          "parse": "article · dative · singular · neuter",
+          "aspect": "",
+          "senses": [
+            "the",
+            "that",
+            "famous",
+            "namely that",
+            "he, she, it"
+          ],
+          "more": 31,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "ὄρει",
+          "lemma": "ὄρος",
+          "parse": "noun · dative · singular · neuter",
+          "aspect": "",
+          "senses": [
+            "a mountain, hill"
+          ],
+          "more": 0,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "οὕτως",
+          "lemma": "οὕτως",
+          "parse": "adverb",
+          "aspect": "",
+          "senses": [
+            "in this way",
+            "manner, so, thus",
+            "ut",
+            "so",
+            "even so, just so"
+          ],
+          "more": 8,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "ποιήσεις",
+          "lemma": "ποιέω",
+          "parse": "verb · future · active · indicative · 2nd person · singular",
+          "aspect": "",
+          "senses": [
+            "to make",
+            "to do",
+            "to make, produce, create",
+            "to build them",
+            "to have"
+          ],
+          "more": 31,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "αὐτό",
+          "lemma": "αὐτός",
+          "parse": "personal pronoun · accusative · singular · neuter",
+          "aspect": "",
+          "senses": [
+            "self",
+            "him, her, it",
+            "the very one, the same",
+            "self, myself, thyself",
+            "oneself, one's true self"
+          ],
+          "more": 25,
+          "lexicon": "Middle Liddell"
+        }
+      ]
+    },
+    {
+      "ref": "EXO 27:9",
+      "words": [
+        {
+          "form": "Καὶ",
+          "lemma": "καί",
+          "parse": "conjunction",
+          "aspect": "",
+          "senses": [
+            "and",
+            "also, even",
+            "both",
+            "and above all",
+            "or"
+          ],
+          "more": 6,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "ποιήσεις",
+          "lemma": "ποιέω",
+          "parse": "verb · future · active · indicative · 2nd person · singular",
+          "aspect": "",
+          "senses": [
+            "to make",
+            "to do",
+            "to make, produce, create",
+            "to build them",
+            "to have"
+          ],
+          "more": 31,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "αὐλὴν",
+          "lemma": "αὐλή",
+          "parse": "noun · accusative · singular · feminine",
+          "aspect": "",
+          "senses": [
+            "the court-yard",
+            "the wall of the court-yard",
+            "the court",
+            "quadrangle",
+            "any court"
+          ],
+          "more": 1,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "τῇ",
+          "lemma": "ὁ",
+          "parse": "article · dative · singular · feminine",
+          "aspect": "",
+          "senses": [
+            "the",
+            "that",
+            "famous",
+            "namely that",
+            "he, she, it"
+          ],
+          "more": 31,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "σκηνῇ",
+          "lemma": "σκηνή",
+          "parse": "noun · dative · singular · feminine",
+          "aspect": "",
+          "senses": [
+            "a covered place, a tent",
+            "a camp",
+            "a dwelling-place, house, temple",
+            "a wooden stage",
+            "the stage"
+          ],
+          "more": 8,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "εἰς",
+          "lemma": "εἰς",
+          "parse": "preposition",
+          "aspect": "",
+          "senses": [
+            "into, to c. acc.",
+            "into",
+            "to",
+            "in",
+            "rest in"
+          ],
+          "more": 18,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "τὸ",
+          "lemma": "ὁ",
+          "parse": "article · accusative · singular · neuter",
+          "aspect": "",
+          "senses": [
+            "the",
+            "that",
+            "famous",
+            "namely that",
+            "he, she, it"
+          ],
+          "more": 31,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "κλίτος",
+          "lemma": "κλίτος",
+          "parse": "noun · accusative · singular · neuter",
+          "aspect": "",
+          "senses": [
+            "a clime"
+          ],
+          "more": 0,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "τὸ",
+          "lemma": "ὁ",
+          "parse": "article · accusative · singular · neuter",
+          "aspect": "",
+          "senses": [
+            "the",
+            "that",
+            "famous",
+            "namely that",
+            "he, she, it"
+          ],
+          "more": 31,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "πρὸς",
+          "lemma": "πρός",
+          "parse": "preposition",
+          "aspect": "",
+          "senses": [
+            "motion from",
+            "abiding at",
+            "motion to",
+            "from, from forth",
+            "on the side"
+          ],
+          "more": 71,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "λίβα",
+          "lemma": "λίψ",
+          "parse": "noun · accusative · singular · masculine",
+          "aspect": "",
+          "senses": [
+            "the SW. wind"
+          ],
+          "more": 0,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "ἱστία",
+          "lemma": "ἱστίον",
+          "parse": "noun · nominative · plural · neuter",
+          "aspect": "",
+          "senses": [
+            "any web, a sail"
+          ],
+          "more": 0,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "τῆς",
+          "lemma": "ὁ",
+          "parse": "article · genitive · singular · feminine",
+          "aspect": "",
+          "senses": [
+            "the",
+            "that",
+            "famous",
+            "namely that",
+            "he, she, it"
+          ],
+          "more": 31,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "αὐλῆς",
+          "lemma": "αὐλή",
+          "parse": "noun · genitive · singular · feminine",
+          "aspect": "",
+          "senses": [
+            "the court-yard",
+            "the wall of the court-yard",
+            "the court",
+            "quadrangle",
+            "any court"
+          ],
+          "more": 1,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "ἐκ",
+          "lemma": "ἐκ",
+          "parse": "preposition",
+          "aspect": "",
+          "senses": [
+            "from out of",
+            "out of, from. c. gen.",
+            "out of, forth from",
+            "from",
+            "with all"
+          ],
+          "more": 26,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "βύσσου",
+          "lemma": "βύσσος",
+          "parse": "noun · genitive · singular · feminine",
+          "aspect": "",
+          "senses": [
+            "a fine flax",
+            "the linen made from it"
+          ],
+          "more": 0,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "κεκλωσμένης",
+          "lemma": "κλώθω",
+          "parse": "verb · perfect · middle/passive · participle · genitive · singular · feminine",
+          "aspect": "a standing resultant state, not a past event",
+          "senses": [
+            "to twist by spinning, spin"
+          ],
+          "more": 0,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "μῆκος",
+          "lemma": "μῆκος",
+          "parse": "noun · nominative · singular · neuter",
+          "aspect": "",
+          "senses": [
+            "length",
+            "distances",
+            "height, tallness, stature",
+            "long",
+            "in length"
+          ],
+          "more": 2,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "ἑκατὸν",
+          "lemma": "ἑκατόν",
+          "parse": "adjective · genitive · plural · masculine",
+          "aspect": "",
+          "senses": [
+            "a hundred"
+          ],
+          "more": 0,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "πηχῶν",
+          "lemma": "πῆχυς",
+          "parse": "noun · genitive · plural · masculine",
+          "aspect": "",
+          "senses": [
+            "the fore-arm",
+            "the arm",
+            "the centrepiece, which joined the two horns of the bow",
+            "the horns",
+            "sides of the lyre"
+          ],
+          "more": 4,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "τῷ",
+          "lemma": "ὁ",
+          "parse": "article · dative · singular · neuter",
+          "aspect": "",
+          "senses": [
+            "the",
+            "that",
+            "famous",
+            "namely that",
+            "he, she, it"
+          ],
+          "more": 31,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "ἑνὶ",
+          "lemma": "εἷς",
+          "parse": "adjective · dative · singular · neuter",
+          "aspect": "",
+          "senses": [
+            "one",
+            "a single one, one alone",
+            "nullus unus",
+            "single man",
+            "by himself"
+          ],
+          "more": 9,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "κλίτει",
+          "lemma": "κλίτος",
+          "parse": "noun · dative · singular · neuter",
+          "aspect": "",
+          "senses": [
+            "a clime"
+          ],
+          "more": 0,
+          "lexicon": "Middle Liddell"
+        }
+      ]
+    },
+    {
+      "ref": "EXO 27:10",
+      "words": [
+        {
+          "form": "καὶ",
+          "lemma": "καί",
+          "parse": "conjunction",
+          "aspect": "",
+          "senses": [
+            "and",
+            "also, even",
+            "both",
+            "and above all",
+            "or"
+          ],
+          "more": 6,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "οἱ",
+          "lemma": "ὁ",
+          "parse": "article · nominative · plural · masculine",
+          "aspect": "",
+          "senses": [
+            "the",
+            "that",
+            "famous",
+            "namely that",
+            "he, she, it"
+          ],
+          "more": 31,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "στῦλοι",
+          "lemma": "στῦλος",
+          "parse": "noun · nominative · plural · masculine",
+          "aspect": "",
+          "senses": [
+            "a pillar",
+            "a support",
+            "bearing"
+          ],
+          "more": 0,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "αὐτῶν",
+          "lemma": "αὐτός",
+          "parse": "personal pronoun · genitive · plural · neuter",
+          "aspect": "",
+          "senses": [
+            "self",
+            "him, her, it",
+            "the very one, the same",
+            "self, myself, thyself",
+            "oneself, one's true self"
+          ],
+          "more": 25,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "εἴκοσι",
+          "lemma": "εἴκοσι",
+          "parse": "adjective · nominative · plural · masculine",
+          "aspect": "",
+          "senses": [
+            "twenty"
+          ],
+          "more": 0,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "καὶ",
+          "lemma": "καί",
+          "parse": "conjunction",
+          "aspect": "",
+          "senses": [
+            "and",
+            "also, even",
+            "both",
+            "and above all",
+            "or"
+          ],
+          "more": 6,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "αἱ",
+          "lemma": "ὁ",
+          "parse": "article · nominative · plural · feminine",
+          "aspect": "",
+          "senses": [
+            "the",
+            "that",
+            "famous",
+            "namely that",
+            "he, she, it"
+          ],
+          "more": 31,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "βάσεις",
+          "lemma": "βάσις",
+          "parse": "noun · nominative · plural · feminine",
+          "aspect": "",
+          "senses": [
+            "a stepping, step",
+            "steps",
+            "power to step",
+            "rolling",
+            "that with which one steps, a foot"
+          ],
+          "more": 1,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "αὐτῶν",
+          "lemma": "αὐτός",
+          "parse": "personal pronoun · genitive · plural · masculine",
+          "aspect": "",
+          "senses": [
+            "self",
+            "him, her, it",
+            "the very one, the same",
+            "self, myself, thyself",
+            "oneself, one's true self"
+          ],
+          "more": 25,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "εἴκοσι",
+          "lemma": "εἴκοσι",
+          "parse": "adjective · nominative · plural · feminine",
+          "aspect": "",
+          "senses": [
+            "twenty"
+          ],
+          "more": 0,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "χαλκαῖ",
+          "lemma": "χαλκοῦς",
+          "parse": "adjective · nominative · plural · feminine",
+          "aspect": "",
+          "senses": [
+            "of copper",
+            "bronze, brasen",
+            "brasen"
+          ],
+          "more": 0,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "καὶ",
+          "lemma": "καί",
+          "parse": "conjunction",
+          "aspect": "",
+          "senses": [
+            "and",
+            "also, even",
+            "both",
+            "and above all",
+            "or"
+          ],
+          "more": 6,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "οἱ",
+          "lemma": "ὁ",
+          "parse": "article · nominative · plural · masculine",
+          "aspect": "",
+          "senses": [
+            "the",
+            "that",
+            "famous",
+            "namely that",
+            "he, she, it"
+          ],
+          "more": 31,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "κρίκοι",
+          "lemma": "κρίκος",
+          "parse": "noun · nominative · plural · masculine",
+          "aspect": "",
+          "senses": [
+            "a ring",
+            "an eyelet-hole"
+          ],
+          "more": 0,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "αὐτῶν",
+          "lemma": "αὐτός",
+          "parse": "personal pronoun · genitive · plural · masculine",
+          "aspect": "",
+          "senses": [
+            "self",
+            "him, her, it",
+            "the very one, the same",
+            "self, myself, thyself",
+            "oneself, one's true self"
+          ],
+          "more": 25,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "καὶ",
+          "lemma": "καί",
+          "parse": "conjunction",
+          "aspect": "",
+          "senses": [
+            "and",
+            "also, even",
+            "both",
+            "and above all",
+            "or"
+          ],
+          "more": 6,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "αἱ",
+          "lemma": "ὁ",
+          "parse": "article · nominative · plural · feminine",
+          "aspect": "",
+          "senses": [
+            "the",
+            "that",
+            "famous",
+            "namely that",
+            "he, she, it"
+          ],
+          "more": 31,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "ψαλίδες",
+          "lemma": "ψαλίς",
+          "parse": "noun · nominative · plural · feminine",
+          "aspect": "",
+          "senses": [
+            "a pair of scissors",
+            "a building with a pointed stone roof, a vault"
+          ],
+          "more": 0,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "αὐτῶν",
+          "lemma": "αὐτός",
+          "parse": "personal pronoun · genitive · plural · masculine",
+          "aspect": "",
+          "senses": [
+            "self",
+            "him, her, it",
+            "the very one, the same",
+            "self, myself, thyself",
+            "oneself, one's true self"
+          ],
+          "more": 25,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "ἀργυραῖ",
+          "lemma": "ἀργυροῦς",
+          "parse": "adjective · nominative · plural · feminine",
+          "aspect": "",
+          "senses": [
+            "silver, of silver"
+          ],
+          "more": 0,
+          "lexicon": "Middle Liddell"
+        }
+      ]
+    },
+    {
+      "ref": "EXO 27:11",
+      "words": [
+        {
+          "form": "οὕτως",
+          "lemma": "οὕτως",
+          "parse": "adverb",
+          "aspect": "",
+          "senses": [
+            "in this way",
+            "manner, so, thus",
+            "ut",
+            "so",
+            "even so, just so"
+          ],
+          "more": 8,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "τῷ",
+          "lemma": "ὁ",
+          "parse": "article · dative · singular · neuter",
+          "aspect": "",
+          "senses": [
+            "the",
+            "that",
+            "famous",
+            "namely that",
+            "he, she, it"
+          ],
+          "more": 31,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "κλίτει",
+          "lemma": "κλίτος",
+          "parse": "noun · dative · singular · neuter",
+          "aspect": "",
+          "senses": [
+            "a clime"
+          ],
+          "more": 0,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "τῷ",
+          "lemma": "ὁ",
+          "parse": "article · dative · singular · neuter",
+          "aspect": "",
+          "senses": [
+            "the",
+            "that",
+            "famous",
+            "namely that",
+            "he, she, it"
+          ],
+          "more": 31,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "πρὸς",
+          "lemma": "πρός",
+          "parse": "preposition",
+          "aspect": "",
+          "senses": [
+            "motion from",
+            "abiding at",
+            "motion to",
+            "from, from forth",
+            "on the side"
+          ],
+          "more": 71,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "ἀπηλιώτην",
+          "lemma": "ἀπηλιώτης",
+          "parse": "noun · accusative · singular · masculine",
+          "aspect": "",
+          "senses": [
+            "the wind that comes from the rising sun, the east wind"
+          ],
+          "more": 0,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "ἱστία",
+          "lemma": "ἱστίον",
+          "parse": "noun · nominative · plural · neuter",
+          "aspect": "",
+          "senses": [
+            "any web, a sail"
+          ],
+          "more": 0,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "ἑκατὸν",
+          "lemma": "ἑκατόν",
+          "parse": "adjective · genitive · plural · masculine",
+          "aspect": "",
+          "senses": [
+            "a hundred"
+          ],
+          "more": 0,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "πηχῶν",
+          "lemma": "πῆχυς",
+          "parse": "noun · genitive · plural · masculine",
+          "aspect": "",
+          "senses": [
+            "the fore-arm",
+            "the arm",
+            "the centrepiece, which joined the two horns of the bow",
+            "the horns",
+            "sides of the lyre"
+          ],
+          "more": 4,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "μῆκος",
+          "lemma": "μῆκος",
+          "parse": "noun · nominative · singular · neuter",
+          "aspect": "",
+          "senses": [
+            "length",
+            "distances",
+            "height, tallness, stature",
+            "long",
+            "in length"
+          ],
+          "more": 2,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "καὶ",
+          "lemma": "καί",
+          "parse": "conjunction",
+          "aspect": "",
+          "senses": [
+            "and",
+            "also, even",
+            "both",
+            "and above all",
+            "or"
+          ],
+          "more": 6,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "οἱ",
+          "lemma": "ὁ",
+          "parse": "article · nominative · plural · masculine",
+          "aspect": "",
+          "senses": [
+            "the",
+            "that",
+            "famous",
+            "namely that",
+            "he, she, it"
+          ],
+          "more": 31,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "στῦλοι",
+          "lemma": "στῦλος",
+          "parse": "noun · nominative · plural · masculine",
+          "aspect": "",
+          "senses": [
+            "a pillar",
+            "a support",
+            "bearing"
+          ],
+          "more": 0,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "αὐτῶν",
+          "lemma": "αὐτός",
+          "parse": "personal pronoun · genitive · plural · neuter",
+          "aspect": "",
+          "senses": [
+            "self",
+            "him, her, it",
+            "the very one, the same",
+            "self, myself, thyself",
+            "oneself, one's true self"
+          ],
+          "more": 25,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "εἴκοσι",
+          "lemma": "εἴκοσι",
+          "parse": "adjective · nominative · plural · masculine",
+          "aspect": "",
+          "senses": [
+            "twenty"
+          ],
+          "more": 0,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "καὶ",
+          "lemma": "καί",
+          "parse": "conjunction",
+          "aspect": "",
+          "senses": [
+            "and",
+            "also, even",
+            "both",
+            "and above all",
+            "or"
+          ],
+          "more": 6,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "αἱ",
+          "lemma": "ὁ",
+          "parse": "article · nominative · plural · feminine",
+          "aspect": "",
+          "senses": [
+            "the",
+            "that",
+            "famous",
+            "namely that",
+            "he, she, it"
+          ],
+          "more": 31,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "βάσεις",
+          "lemma": "βάσις",
+          "parse": "noun · nominative · plural · feminine",
+          "aspect": "",
+          "senses": [
+            "a stepping, step",
+            "steps",
+            "power to step",
+            "rolling",
+            "that with which one steps, a foot"
+          ],
+          "more": 1,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "αὐτῶν",
+          "lemma": "αὐτός",
+          "parse": "personal pronoun · genitive · plural · masculine",
+          "aspect": "",
+          "senses": [
+            "self",
+            "him, her, it",
+            "the very one, the same",
+            "self, myself, thyself",
+            "oneself, one's true self"
+          ],
+          "more": 25,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "εἴκοσι",
+          "lemma": "εἴκοσι",
+          "parse": "adjective · nominative · plural · feminine",
+          "aspect": "",
+          "senses": [
+            "twenty"
+          ],
+          "more": 0,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "χαλκαῖ",
+          "lemma": "χαλκοῦς",
+          "parse": "adjective · nominative · plural · feminine",
+          "aspect": "",
+          "senses": [
+            "of copper",
+            "bronze, brasen",
+            "brasen"
+          ],
+          "more": 0,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "καὶ",
+          "lemma": "καί",
+          "parse": "conjunction",
+          "aspect": "",
+          "senses": [
+            "and",
+            "also, even",
+            "both",
+            "and above all",
+            "or"
+          ],
+          "more": 6,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "οἱ",
+          "lemma": "ὁ",
+          "parse": "article · nominative · plural · masculine",
+          "aspect": "",
+          "senses": [
+            "the",
+            "that",
+            "famous",
+            "namely that",
+            "he, she, it"
+          ],
+          "more": 31,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "κρίκοι",
+          "lemma": "κρίκος",
+          "parse": "noun · nominative · plural · masculine",
+          "aspect": "",
+          "senses": [
+            "a ring",
+            "an eyelet-hole"
+          ],
+          "more": 0,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "καὶ",
+          "lemma": "καί",
+          "parse": "conjunction",
+          "aspect": "",
+          "senses": [
+            "and",
+            "also, even",
+            "both",
+            "and above all",
+            "or"
+          ],
+          "more": 6,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "αἱ",
+          "lemma": "ὁ",
+          "parse": "article · nominative · plural · feminine",
+          "aspect": "",
+          "senses": [
+            "the",
+            "that",
+            "famous",
+            "namely that",
+            "he, she, it"
+          ],
+          "more": 31,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "ψαλίδες",
+          "lemma": "ψαλίς",
+          "parse": "noun · nominative · plural · feminine",
+          "aspect": "",
+          "senses": [
+            "a pair of scissors",
+            "a building with a pointed stone roof, a vault"
+          ],
+          "more": 0,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "τῶν",
+          "lemma": "ὁ",
+          "parse": "article · genitive · plural · masculine",
+          "aspect": "",
+          "senses": [
+            "the",
+            "that",
+            "famous",
+            "namely that",
+            "he, she, it"
+          ],
+          "more": 31,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "στύλων",
+          "lemma": "στῦλος",
+          "parse": "noun · genitive · plural · masculine",
+          "aspect": "",
+          "senses": [
+            "a pillar",
+            "a support",
+            "bearing"
+          ],
+          "more": 0,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "καὶ",
+          "lemma": "καί",
+          "parse": "conjunction",
+          "aspect": "",
+          "senses": [
+            "and",
+            "also, even",
+            "both",
+            "and above all",
+            "or"
+          ],
+          "more": 6,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "αἱ",
+          "lemma": "ὁ",
+          "parse": "article · nominative · plural · feminine",
+          "aspect": "",
+          "senses": [
+            "the",
+            "that",
+            "famous",
+            "namely that",
+            "he, she, it"
+          ],
+          "more": 31,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "βάσεις",
+          "lemma": "βάσις",
+          "parse": "noun · nominative · plural · feminine",
+          "aspect": "",
+          "senses": [
+            "a stepping, step",
+            "steps",
+            "power to step",
+            "rolling",
+            "that with which one steps, a foot"
+          ],
+          "more": 1,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "αὐτῶν",
+          "lemma": "αὐτός",
+          "parse": "personal pronoun · genitive · plural · masculine",
+          "aspect": "",
+          "senses": [
+            "self",
+            "him, her, it",
+            "the very one, the same",
+            "self, myself, thyself",
+            "oneself, one's true self"
+          ],
+          "more": 25,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "περιηργυρωμέναι",
+          "lemma": "περιαργυρόω",
+          "parse": "verb · perfect · middle/passive · participle · nominative · plural · feminine",
+          "aspect": "a standing resultant state, not a past event",
+          "senses": [
+            "case, plate with silver"
+          ],
+          "more": 0,
+          "lexicon": "LSJ"
+        },
+        {
+          "form": "ἀργύρῳ",
+          "lemma": "ἄργυρος",
+          "parse": "noun · dative · singular · masculine",
+          "aspect": "",
+          "senses": [
+            "white metal",
+            "silver",
+            "silver-money, money"
+          ],
+          "more": 0,
+          "lexicon": "Middle Liddell"
+        }
+      ]
+    },
+    {
+      "ref": "EXO 27:12",
+      "words": [
+        {
+          "form": "τὸ",
+          "lemma": "ὁ",
+          "parse": "article · nominative · singular · neuter",
+          "aspect": "",
+          "senses": [
+            "the",
+            "that",
+            "famous",
+            "namely that",
+            "he, she, it"
+          ],
+          "more": 31,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "δὲ",
+          "lemma": "δέ",
+          "parse": "conjunction",
+          "aspect": "",
+          "senses": [
+            "but",
+            "adversative",
+            "while, whereas, on the other hand",
+            "then, yet",
+            "then"
+          ],
+          "more": 3,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "εὖρος",
+          "lemma": "εὖρος",
+          "parse": "noun · nominative · singular · neuter",
+          "aspect": "",
+          "senses": [
+            "breadth, width",
+            "in breadth"
+          ],
+          "more": 0,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "τῆς",
+          "lemma": "ὁ",
+          "parse": "article · genitive · singular · feminine",
+          "aspect": "",
+          "senses": [
+            "the",
+            "that",
+            "famous",
+            "namely that",
+            "he, she, it"
+          ],
+          "more": 31,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "αὐλῆς",
+          "lemma": "αὐλή",
+          "parse": "noun · genitive · singular · feminine",
+          "aspect": "",
+          "senses": [
+            "the court-yard",
+            "the wall of the court-yard",
+            "the court",
+            "quadrangle",
+            "any court"
+          ],
+          "more": 1,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "τὸ",
+          "lemma": "ὁ",
+          "parse": "article · nominative · singular · neuter",
+          "aspect": "",
+          "senses": [
+            "the",
+            "that",
+            "famous",
+            "namely that",
+            "he, she, it"
+          ],
+          "more": 31,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "κατὰ",
+          "lemma": "κατά",
+          "parse": "preposition",
+          "aspect": "",
+          "senses": [
+            "down, downwards, with gen. or acc.",
+            "down, downwards.",
+            "motion from above, down from",
+            "downward motion",
+            "down upon"
+          ],
+          "more": 45,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "θάλασσαν",
+          "lemma": "θάλασσα",
+          "parse": "noun · accusative · singular · feminine",
+          "aspect": "",
+          "senses": [
+            "the sea",
+            "the Mediterranean",
+            "sea",
+            "a sea",
+            "a well of salt water"
+          ],
+          "more": 0,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "ἱστία",
+          "lemma": "ἱστίον",
+          "parse": "noun · nominative · plural · neuter",
+          "aspect": "",
+          "senses": [
+            "any web, a sail"
+          ],
+          "more": 0,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "πεντήκοντα",
+          "lemma": "πεντήκοντα",
+          "parse": "adjective · genitive · plural · masculine",
+          "aspect": "",
+          "senses": [
+            "fifty"
+          ],
+          "more": 0,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "πηχῶν",
+          "lemma": "πῆχυς",
+          "parse": "noun · genitive · plural · masculine",
+          "aspect": "",
+          "senses": [
+            "the fore-arm",
+            "the arm",
+            "the centrepiece, which joined the two horns of the bow",
+            "the horns",
+            "sides of the lyre"
+          ],
+          "more": 4,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "στῦλοι",
+          "lemma": "στῦλος",
+          "parse": "noun · nominative · plural · masculine",
+          "aspect": "",
+          "senses": [
+            "a pillar",
+            "a support",
+            "bearing"
+          ],
+          "more": 0,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "αὐτῶν",
+          "lemma": "αὐτός",
+          "parse": "personal pronoun · genitive · plural · neuter",
+          "aspect": "",
+          "senses": [
+            "self",
+            "him, her, it",
+            "the very one, the same",
+            "self, myself, thyself",
+            "oneself, one's true self"
+          ],
+          "more": 25,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "δέκα",
+          "lemma": "δέκα",
+          "parse": "adjective · nominative · plural · masculine",
+          "aspect": "",
+          "senses": [
+            "ten"
+          ],
+          "more": 0,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "καὶ",
+          "lemma": "καί",
+          "parse": "conjunction",
+          "aspect": "",
+          "senses": [
+            "and",
+            "also, even",
+            "both",
+            "and above all",
+            "or"
+          ],
+          "more": 6,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "αἱ",
+          "lemma": "ὁ",
+          "parse": "article · nominative · plural · feminine",
+          "aspect": "",
+          "senses": [
+            "the",
+            "that",
+            "famous",
+            "namely that",
+            "he, she, it"
+          ],
+          "more": 31,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "βάσεις",
+          "lemma": "βάσις",
+          "parse": "noun · nominative · plural · feminine",
+          "aspect": "",
+          "senses": [
+            "a stepping, step",
+            "steps",
+            "power to step",
+            "rolling",
+            "that with which one steps, a foot"
+          ],
+          "more": 1,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "αὐτῶν",
+          "lemma": "αὐτός",
+          "parse": "personal pronoun · genitive · plural · masculine",
+          "aspect": "",
+          "senses": [
+            "self",
+            "him, her, it",
+            "the very one, the same",
+            "self, myself, thyself",
+            "oneself, one's true self"
+          ],
+          "more": 25,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "δέκα",
+          "lemma": "δέκα",
+          "parse": "adjective · nominative · plural · feminine",
+          "aspect": "",
+          "senses": [
+            "ten"
+          ],
+          "more": 0,
+          "lexicon": "Middle Liddell"
+        }
+      ]
+    },
+    {
+      "ref": "EXO 27:13",
+      "words": [
+        {
+          "form": "καὶ",
+          "lemma": "καί",
+          "parse": "conjunction",
+          "aspect": "",
+          "senses": [
+            "and",
+            "also, even",
+            "both",
+            "and above all",
+            "or"
+          ],
+          "more": 6,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "εὖρος",
+          "lemma": "εὖρος",
+          "parse": "noun · nominative · singular · neuter",
+          "aspect": "",
+          "senses": [
+            "breadth, width",
+            "in breadth"
+          ],
+          "more": 0,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "τῆς",
+          "lemma": "ὁ",
+          "parse": "article · genitive · singular · feminine",
+          "aspect": "",
+          "senses": [
+            "the",
+            "that",
+            "famous",
+            "namely that",
+            "he, she, it"
+          ],
+          "more": 31,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "αὐλῆς",
+          "lemma": "αὐλή",
+          "parse": "noun · genitive · singular · feminine",
+          "aspect": "",
+          "senses": [
+            "the court-yard",
+            "the wall of the court-yard",
+            "the court",
+            "quadrangle",
+            "any court"
+          ],
+          "more": 1,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "τὸ",
+          "lemma": "ὁ",
+          "parse": "article · nominative · singular · neuter",
+          "aspect": "",
+          "senses": [
+            "the",
+            "that",
+            "famous",
+            "namely that",
+            "he, she, it"
+          ],
+          "more": 31,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "πρὸς",
+          "lemma": "πρός",
+          "parse": "preposition",
+          "aspect": "",
+          "senses": [
+            "motion from",
+            "abiding at",
+            "motion to",
+            "from, from forth",
+            "on the side"
+          ],
+          "more": 71,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "νότον",
+          "lemma": "νότος",
+          "parse": "noun · accusative · singular · masculine",
+          "aspect": "",
+          "senses": [
+            "the south",
+            "south-west wind",
+            "Notus",
+            "south-west quarter"
+          ],
+          "more": 0,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "ἱστία",
+          "lemma": "ἱστίον",
+          "parse": "noun · nominative · plural · neuter",
+          "aspect": "",
+          "senses": [
+            "any web, a sail"
+          ],
+          "more": 0,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "πεντήκοντα",
+          "lemma": "πεντήκοντα",
+          "parse": "adjective · genitive · plural · masculine",
+          "aspect": "",
+          "senses": [
+            "fifty"
+          ],
+          "more": 0,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "πήχεων",
+          "lemma": "πῆχυς",
+          "parse": "noun · genitive · plural · masculine",
+          "aspect": "",
+          "senses": [
+            "the fore-arm",
+            "the arm",
+            "the centrepiece, which joined the two horns of the bow",
+            "the horns",
+            "sides of the lyre"
+          ],
+          "more": 4,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "στῦλοι",
+          "lemma": "στῦλος",
+          "parse": "noun · nominative · plural · masculine",
+          "aspect": "",
+          "senses": [
+            "a pillar",
+            "a support",
+            "bearing"
+          ],
+          "more": 0,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "αὐτῶν",
+          "lemma": "αὐτός",
+          "parse": "personal pronoun · genitive · plural · neuter",
+          "aspect": "",
+          "senses": [
+            "self",
+            "him, her, it",
+            "the very one, the same",
+            "self, myself, thyself",
+            "oneself, one's true self"
+          ],
+          "more": 25,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "δέκα",
+          "lemma": "δέκα",
+          "parse": "adjective · nominative · plural · masculine",
+          "aspect": "",
+          "senses": [
+            "ten"
+          ],
+          "more": 0,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "καὶ",
+          "lemma": "καί",
+          "parse": "conjunction",
+          "aspect": "",
+          "senses": [
+            "and",
+            "also, even",
+            "both",
+            "and above all",
+            "or"
+          ],
+          "more": 6,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "αἱ",
+          "lemma": "ὁ",
+          "parse": "article · nominative · plural · feminine",
+          "aspect": "",
+          "senses": [
+            "the",
+            "that",
+            "famous",
+            "namely that",
+            "he, she, it"
+          ],
+          "more": 31,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "βάσεις",
+          "lemma": "βάσις",
+          "parse": "noun · nominative · plural · feminine",
+          "aspect": "",
+          "senses": [
+            "a stepping, step",
+            "steps",
+            "power to step",
+            "rolling",
+            "that with which one steps, a foot"
+          ],
+          "more": 1,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "αὐτῶν",
+          "lemma": "αὐτός",
+          "parse": "personal pronoun · genitive · plural · masculine",
+          "aspect": "",
+          "senses": [
+            "self",
+            "him, her, it",
+            "the very one, the same",
+            "self, myself, thyself",
+            "oneself, one's true self"
+          ],
+          "more": 25,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "δέκα",
+          "lemma": "δέκα",
+          "parse": "adjective · nominative · plural · feminine",
+          "aspect": "",
+          "senses": [
+            "ten"
+          ],
+          "more": 0,
+          "lexicon": "Middle Liddell"
+        }
+      ]
+    },
+    {
+      "ref": "EXO 27:14",
+      "words": [
+        {
+          "form": "καὶ",
+          "lemma": "καί",
+          "parse": "conjunction",
+          "aspect": "",
+          "senses": [
+            "and",
+            "also, even",
+            "both",
+            "and above all",
+            "or"
+          ],
+          "more": 6,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "πεντεκαίδεκα",
+          "lemma": "πεντεκαίδεκα",
+          "parse": "adjective · genitive · plural · masculine",
+          "aspect": "",
+          "senses": [
+            "fifteen"
+          ],
+          "more": 0,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "πήχεων",
+          "lemma": "πῆχυς",
+          "parse": "noun · genitive · plural · masculine",
+          "aspect": "",
+          "senses": [
+            "the fore-arm",
+            "the arm",
+            "the centrepiece, which joined the two horns of the bow",
+            "the horns",
+            "sides of the lyre"
+          ],
+          "more": 4,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "τὸ",
+          "lemma": "ὁ",
+          "parse": "article · nominative · singular · neuter",
+          "aspect": "",
+          "senses": [
+            "the",
+            "that",
+            "famous",
+            "namely that",
+            "he, she, it"
+          ],
+          "more": 31,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "ὕψος",
+          "lemma": "ὕψος",
+          "parse": "noun · nominative · singular · neuter",
+          "aspect": "",
+          "senses": [
+            "height",
+            "in height",
+            "the top, summit, crown"
+          ],
+          "more": 0,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "τῶν",
+          "lemma": "ὁ",
+          "parse": "article · genitive · plural · neuter",
+          "aspect": "",
+          "senses": [
+            "the",
+            "that",
+            "famous",
+            "namely that",
+            "he, she, it"
+          ],
+          "more": 31,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "ἱστίων",
+          "lemma": "ἱστίον",
+          "parse": "noun · genitive · plural · neuter",
+          "aspect": "",
+          "senses": [
+            "any web, a sail"
+          ],
+          "more": 0,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "τῷ",
+          "lemma": "ὁ",
+          "parse": "article · dative · singular · neuter",
+          "aspect": "",
+          "senses": [
+            "the",
+            "that",
+            "famous",
+            "namely that",
+            "he, she, it"
+          ],
+          "more": 31,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "κλίτει",
+          "lemma": "κλίτος",
+          "parse": "noun · dative · singular · neuter",
+          "aspect": "",
+          "senses": [
+            "a clime"
+          ],
+          "more": 0,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "τῷ",
+          "lemma": "ὁ",
+          "parse": "article · dative · singular · neuter",
+          "aspect": "",
+          "senses": [
+            "the",
+            "that",
+            "famous",
+            "namely that",
+            "he, she, it"
+          ],
+          "more": 31,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "ἑνί",
+          "lemma": "εἷς",
+          "parse": "adjective · dative · singular · neuter",
+          "aspect": "",
+          "senses": [
+            "one",
+            "a single one, one alone",
+            "nullus unus",
+            "single man",
+            "by himself"
+          ],
+          "more": 9,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "στῦλοι",
+          "lemma": "στῦλος",
+          "parse": "noun · nominative · plural · masculine",
+          "aspect": "",
+          "senses": [
+            "a pillar",
+            "a support",
+            "bearing"
+          ],
+          "more": 0,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "αὐτῶν",
+          "lemma": "αὐτός",
+          "parse": "personal pronoun · genitive · plural · neuter",
+          "aspect": "",
+          "senses": [
+            "self",
+            "him, her, it",
+            "the very one, the same",
+            "self, myself, thyself",
+            "oneself, one's true self"
+          ],
+          "more": 25,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "τρεῖς",
+          "lemma": "τρεῖς",
+          "parse": "adjective · nominative · plural · masculine/feminine",
+          "aspect": "",
+          "senses": [
+            "three"
+          ],
+          "more": 0,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "καὶ",
+          "lemma": "καί",
+          "parse": "conjunction",
+          "aspect": "",
+          "senses": [
+            "and",
+            "also, even",
+            "both",
+            "and above all",
+            "or"
+          ],
+          "more": 6,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "αἱ",
+          "lemma": "ὁ",
+          "parse": "article · nominative · plural · feminine",
+          "aspect": "",
+          "senses": [
+            "the",
+            "that",
+            "famous",
+            "namely that",
+            "he, she, it"
+          ],
+          "more": 31,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "βάσεις",
+          "lemma": "βάσις",
+          "parse": "noun · nominative · plural · feminine",
+          "aspect": "",
+          "senses": [
+            "a stepping, step",
+            "steps",
+            "power to step",
+            "rolling",
+            "that with which one steps, a foot"
+          ],
+          "more": 1,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "αὐτῶν",
+          "lemma": "αὐτός",
+          "parse": "personal pronoun · genitive · plural · masculine",
+          "aspect": "",
+          "senses": [
+            "self",
+            "him, her, it",
+            "the very one, the same",
+            "self, myself, thyself",
+            "oneself, one's true self"
+          ],
+          "more": 25,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "τρεῖς",
+          "lemma": "τρεῖς",
+          "parse": "adjective · nominative · plural · masculine/feminine",
+          "aspect": "",
+          "senses": [
+            "three"
+          ],
+          "more": 0,
+          "lexicon": "Middle Liddell"
+        }
+      ]
+    },
+    {
+      "ref": "EXO 27:15",
+      "words": [
+        {
+          "form": "καὶ",
+          "lemma": "καί",
+          "parse": "conjunction",
+          "aspect": "",
+          "senses": [
+            "and",
+            "also, even",
+            "both",
+            "and above all",
+            "or"
+          ],
+          "more": 6,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "τὸ",
+          "lemma": "ὁ",
+          "parse": "article · nominative · singular · neuter",
+          "aspect": "",
+          "senses": [
+            "the",
+            "that",
+            "famous",
+            "namely that",
+            "he, she, it"
+          ],
+          "more": 31,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "κλίτος",
+          "lemma": "κλίτος",
+          "parse": "noun · nominative · singular · neuter",
+          "aspect": "",
+          "senses": [
+            "a clime"
+          ],
+          "more": 0,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "τὸ",
+          "lemma": "ὁ",
+          "parse": "article · nominative · singular · neuter",
+          "aspect": "",
+          "senses": [
+            "the",
+            "that",
+            "famous",
+            "namely that",
+            "he, she, it"
+          ],
+          "more": 31,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "δεύτερον",
+          "lemma": "δεύτερος",
+          "parse": "adjective · nominative · singular · neuter",
+          "aspect": "",
+          "senses": [
+            "second",
+            "comes in second",
+            "the next best",
+            "next",
+            "after"
+          ],
+          "more": 4,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "δέκα",
+          "lemma": "δέκα",
+          "parse": "adjective · genitive · plural · masculine",
+          "aspect": "",
+          "senses": [
+            "ten"
+          ],
+          "more": 0,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "πέντε",
+          "lemma": "πέντε",
+          "parse": "adjective · genitive · plural · masculine",
+          "aspect": "",
+          "senses": [
+            "five"
+          ],
+          "more": 0,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "πηχῶν",
+          "lemma": "πῆχυς",
+          "parse": "noun · genitive · plural · masculine",
+          "aspect": "",
+          "senses": [
+            "the fore-arm",
+            "the arm",
+            "the centrepiece, which joined the two horns of the bow",
+            "the horns",
+            "sides of the lyre"
+          ],
+          "more": 4,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "τῶν",
+          "lemma": "ὁ",
+          "parse": "article · genitive · plural · neuter",
+          "aspect": "",
+          "senses": [
+            "the",
+            "that",
+            "famous",
+            "namely that",
+            "he, she, it"
+          ],
+          "more": 31,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "ἱστίων",
+          "lemma": "ἱστίον",
+          "parse": "noun · genitive · plural · neuter",
+          "aspect": "",
+          "senses": [
+            "any web, a sail"
+          ],
+          "more": 0,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "τὸ",
+          "lemma": "ὁ",
+          "parse": "article · nominative · singular · neuter",
+          "aspect": "",
+          "senses": [
+            "the",
+            "that",
+            "famous",
+            "namely that",
+            "he, she, it"
+          ],
+          "more": 31,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "ὕψος",
+          "lemma": "ὕψος",
+          "parse": "noun · nominative · singular · neuter",
+          "aspect": "",
+          "senses": [
+            "height",
+            "in height",
+            "the top, summit, crown"
+          ],
+          "more": 0,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "στῦλοι",
+          "lemma": "στῦλος",
+          "parse": "noun · nominative · plural · masculine",
+          "aspect": "",
+          "senses": [
+            "a pillar",
+            "a support",
+            "bearing"
+          ],
+          "more": 0,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "αὐτῶν",
+          "lemma": "αὐτός",
+          "parse": "personal pronoun · genitive · plural · neuter",
+          "aspect": "",
+          "senses": [
+            "self",
+            "him, her, it",
+            "the very one, the same",
+            "self, myself, thyself",
+            "oneself, one's true self"
+          ],
+          "more": 25,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "τρεῖς",
+          "lemma": "τρεῖς",
+          "parse": "adjective · nominative · plural · masculine/feminine",
+          "aspect": "",
+          "senses": [
+            "three"
+          ],
+          "more": 0,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "καὶ",
+          "lemma": "καί",
+          "parse": "conjunction",
+          "aspect": "",
+          "senses": [
+            "and",
+            "also, even",
+            "both",
+            "and above all",
+            "or"
+          ],
+          "more": 6,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "αἱ",
+          "lemma": "ὁ",
+          "parse": "article · nominative · plural · feminine",
+          "aspect": "",
+          "senses": [
+            "the",
+            "that",
+            "famous",
+            "namely that",
+            "he, she, it"
+          ],
+          "more": 31,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "βάσεις",
+          "lemma": "βάσις",
+          "parse": "noun · nominative · plural · feminine",
+          "aspect": "",
+          "senses": [
+            "a stepping, step",
+            "steps",
+            "power to step",
+            "rolling",
+            "that with which one steps, a foot"
+          ],
+          "more": 1,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "αὐτῶν",
+          "lemma": "αὐτός",
+          "parse": "personal pronoun · genitive · plural · masculine",
+          "aspect": "",
+          "senses": [
+            "self",
+            "him, her, it",
+            "the very one, the same",
+            "self, myself, thyself",
+            "oneself, one's true self"
+          ],
+          "more": 25,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "τρεῖς",
+          "lemma": "τρεῖς",
+          "parse": "adjective · nominative · plural · masculine/feminine",
+          "aspect": "",
+          "senses": [
+            "three"
+          ],
+          "more": 0,
+          "lexicon": "Middle Liddell"
+        }
+      ]
+    },
+    {
+      "ref": "EXO 27:16",
+      "words": [
+        {
+          "form": "καὶ",
+          "lemma": "καί",
+          "parse": "conjunction",
+          "aspect": "",
+          "senses": [
+            "and",
+            "also, even",
+            "both",
+            "and above all",
+            "or"
+          ],
+          "more": 6,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "τῇ",
+          "lemma": "ὁ",
+          "parse": "article · dative · singular · feminine",
+          "aspect": "",
+          "senses": [
+            "the",
+            "that",
+            "famous",
+            "namely that",
+            "he, she, it"
+          ],
+          "more": 31,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "πύλῃ",
+          "lemma": "πύλη",
+          "parse": "noun · dative · singular · feminine",
+          "aspect": "",
+          "senses": [
+            "one wing of a pair of double gates",
+            "the gates of a town",
+            "the nether world, hell",
+            "an entrance",
+            "the orifice"
+          ],
+          "more": 2,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "τῆς",
+          "lemma": "ὁ",
+          "parse": "article · genitive · singular · feminine",
+          "aspect": "",
+          "senses": [
+            "the",
+            "that",
+            "famous",
+            "namely that",
+            "he, she, it"
+          ],
+          "more": 31,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "αὐλῆς",
+          "lemma": "αὐλή",
+          "parse": "noun · genitive · singular · feminine",
+          "aspect": "",
+          "senses": [
+            "the court-yard",
+            "the wall of the court-yard",
+            "the court",
+            "quadrangle",
+            "any court"
+          ],
+          "more": 1,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "κάλυμμα",
+          "lemma": "κάλυμμα",
+          "parse": "noun · nominative · singular · neuter",
+          "aspect": "",
+          "senses": [
+            "a head-covering",
+            "a hood",
+            "veil",
+            "a covering",
+            "a grave"
+          ],
+          "more": 0,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "εἴκοσι",
+          "lemma": "εἴκοσι",
+          "parse": "adjective · genitive · plural · masculine",
+          "aspect": "",
+          "senses": [
+            "twenty"
+          ],
+          "more": 0,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "πηχῶν",
+          "lemma": "πῆχυς",
+          "parse": "noun · genitive · plural · masculine",
+          "aspect": "",
+          "senses": [
+            "the fore-arm",
+            "the arm",
+            "the centrepiece, which joined the two horns of the bow",
+            "the horns",
+            "sides of the lyre"
+          ],
+          "more": 4,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "τὸ",
+          "lemma": "ὁ",
+          "parse": "article · nominative · singular · neuter",
+          "aspect": "",
+          "senses": [
+            "the",
+            "that",
+            "famous",
+            "namely that",
+            "he, she, it"
+          ],
+          "more": 31,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "ὕψος",
+          "lemma": "ὕψος",
+          "parse": "noun · nominative · singular · neuter",
+          "aspect": "",
+          "senses": [
+            "height",
+            "in height",
+            "the top, summit, crown"
+          ],
+          "more": 0,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "ἐξ",
+          "lemma": "ἐκ",
+          "parse": "preposition",
+          "aspect": "",
+          "senses": [
+            "from out of",
+            "out of, from. c. gen.",
+            "out of, forth from",
+            "from",
+            "with all"
+          ],
+          "more": 26,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "ὑακίνθου",
+          "lemma": "ὑάκινθος",
+          "parse": "noun · genitive · singular · masculine",
+          "aspect": "",
+          "senses": [
+            "the hyacinth",
+            "the sapphire"
+          ],
+          "more": 0,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "καὶ",
+          "lemma": "καί",
+          "parse": "conjunction",
+          "aspect": "",
+          "senses": [
+            "and",
+            "also, even",
+            "both",
+            "and above all",
+            "or"
+          ],
+          "more": 6,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "πορφύρας",
+          "lemma": "πορφύρα",
+          "parse": "noun · genitive · singular · feminine",
+          "aspect": "",
+          "senses": [
+            "the purple-fish",
+            "purple dye, purple",
+            "purple raiment"
+          ],
+          "more": 0,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "καὶ",
+          "lemma": "καί",
+          "parse": "conjunction",
+          "aspect": "",
+          "senses": [
+            "and",
+            "also, even",
+            "both",
+            "and above all",
+            "or"
+          ],
+          "more": 6,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "κοκκίνου",
+          "lemma": "κόκκινος",
+          "parse": "adjective · genitive · singular · neuter",
+          "aspect": "",
+          "senses": [
+            "scarlet"
+          ],
+          "more": 0,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "κεκλωσμένου",
+          "lemma": "κλώθω",
+          "parse": "verb · perfect · middle/passive · participle · genitive · singular · neuter",
+          "aspect": "a standing resultant state, not a past event",
+          "senses": [
+            "to twist by spinning, spin"
+          ],
+          "more": 0,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "καὶ",
+          "lemma": "καί",
+          "parse": "conjunction",
+          "aspect": "",
+          "senses": [
+            "and",
+            "also, even",
+            "both",
+            "and above all",
+            "or"
+          ],
+          "more": 6,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "βύσσου",
+          "lemma": "βύσσος",
+          "parse": "noun · genitive · singular · feminine",
+          "aspect": "",
+          "senses": [
+            "a fine flax",
+            "the linen made from it"
+          ],
+          "more": 0,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "κεκλωσμένης",
+          "lemma": "κλώθω",
+          "parse": "verb · perfect · middle/passive · participle · genitive · singular · feminine",
+          "aspect": "a standing resultant state, not a past event",
+          "senses": [
+            "to twist by spinning, spin"
+          ],
+          "more": 0,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "τῇ",
+          "lemma": "ὁ",
+          "parse": "article · dative · singular · feminine",
+          "aspect": "",
+          "senses": [
+            "the",
+            "that",
+            "famous",
+            "namely that",
+            "he, she, it"
+          ],
+          "more": 31,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "ποικιλίᾳ",
+          "lemma": "ποικιλία",
+          "parse": "noun · dative · singular · feminine",
+          "aspect": "",
+          "senses": [
+            "a marking with various colours, embroidering, embroidery",
+            "varied aspect, diversity",
+            "versatility, subtlety, craft"
+          ],
+          "more": 0,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "τοῦ",
+          "lemma": "ὁ",
+          "parse": "article · genitive · singular · masculine",
+          "aspect": "",
+          "senses": [
+            "the",
+            "that",
+            "famous",
+            "namely that",
+            "he, she, it"
+          ],
+          "more": 31,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "ῥαφιδευτοῦ",
+          "lemma": "ῥαφιδευτής",
+          "parse": "noun · genitive · singular · masculine",
+          "aspect": "",
+          "senses": [
+            "stitcher, embroiderer"
+          ],
+          "more": 0,
+          "lexicon": "LSJ"
+        },
+        {
+          "form": "στῦλοι",
+          "lemma": "στῦλος",
+          "parse": "noun · nominative · plural · masculine",
+          "aspect": "",
+          "senses": [
+            "a pillar",
+            "a support",
+            "bearing"
+          ],
+          "more": 0,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "αὐτῶν",
+          "lemma": "αὐτός",
+          "parse": "personal pronoun · genitive · plural · neuter",
+          "aspect": "",
+          "senses": [
+            "self",
+            "him, her, it",
+            "the very one, the same",
+            "self, myself, thyself",
+            "oneself, one's true self"
+          ],
+          "more": 25,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "τέσσαρες",
+          "lemma": "τέσσαρες",
+          "parse": "adjective · nominative · plural · masculine/feminine",
+          "aspect": "",
+          "senses": [
+            "four"
+          ],
+          "more": 0,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "καὶ",
+          "lemma": "καί",
+          "parse": "conjunction",
+          "aspect": "",
+          "senses": [
+            "and",
+            "also, even",
+            "both",
+            "and above all",
+            "or"
+          ],
+          "more": 6,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "αἱ",
+          "lemma": "ὁ",
+          "parse": "article · nominative · plural · feminine",
+          "aspect": "",
+          "senses": [
+            "the",
+            "that",
+            "famous",
+            "namely that",
+            "he, she, it"
+          ],
+          "more": 31,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "βάσεις",
+          "lemma": "βάσις",
+          "parse": "noun · nominative · plural · feminine",
+          "aspect": "",
+          "senses": [
+            "a stepping, step",
+            "steps",
+            "power to step",
+            "rolling",
+            "that with which one steps, a foot"
+          ],
+          "more": 1,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "αὐτῶν",
+          "lemma": "αὐτός",
+          "parse": "personal pronoun · genitive · plural · masculine",
+          "aspect": "",
+          "senses": [
+            "self",
+            "him, her, it",
+            "the very one, the same",
+            "self, myself, thyself",
+            "oneself, one's true self"
+          ],
+          "more": 25,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "τέσσαρες",
+          "lemma": "τέσσαρες",
+          "parse": "adjective · nominative · plural · masculine/feminine",
+          "aspect": "",
+          "senses": [
+            "four"
+          ],
+          "more": 0,
+          "lexicon": "Middle Liddell"
+        }
+      ]
+    },
+    {
+      "ref": "EXO 27:17",
+      "words": [
+        {
+          "form": "πάντες",
+          "lemma": "πᾶς",
+          "parse": "adjective · nominative · plural · masculine",
+          "aspect": "",
+          "senses": [
+            "all, the whole",
+            "all",
+            "all the",
+            "nothing but",
+            "every"
+          ],
+          "more": 32,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "οἱ",
+          "lemma": "ὁ",
+          "parse": "article · nominative · plural · masculine",
+          "aspect": "",
+          "senses": [
+            "the",
+            "that",
+            "famous",
+            "namely that",
+            "he, she, it"
+          ],
+          "more": 31,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "στῦλοι",
+          "lemma": "στῦλος",
+          "parse": "noun · nominative · plural · masculine",
+          "aspect": "",
+          "senses": [
+            "a pillar",
+            "a support",
+            "bearing"
+          ],
+          "more": 0,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "τῆς",
+          "lemma": "ὁ",
+          "parse": "article · genitive · singular · feminine",
+          "aspect": "",
+          "senses": [
+            "the",
+            "that",
+            "famous",
+            "namely that",
+            "he, she, it"
+          ],
+          "more": 31,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "αὐλῆς",
+          "lemma": "αὐλή",
+          "parse": "noun · genitive · singular · feminine",
+          "aspect": "",
+          "senses": [
+            "the court-yard",
+            "the wall of the court-yard",
+            "the court",
+            "quadrangle",
+            "any court"
+          ],
+          "more": 1,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "κύκλῳ",
+          "lemma": "κύκλῳ",
+          "parse": "adverb",
+          "aspect": "",
+          "senses": [
+            "a ring, circle, round",
+            "round",
+            "in a circle",
+            "ring, round about",
+            "any circular body"
+          ],
+          "more": 14,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "κατηργυρωμένοι",
+          "lemma": "καταργυρόω",
+          "parse": "verb · perfect · middle/passive · participle · nominative · plural · masculine",
+          "aspect": "a standing resultant state, not a past event",
+          "senses": [
+            "to cover with silver",
+            "silvered",
+            "to buy",
+            "bribe with silver"
+          ],
+          "more": 0,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "ἀργυρίῳ",
+          "lemma": "ἀργύριον",
+          "parse": "noun · dative · singular · neuter",
+          "aspect": "",
+          "senses": [
+            "a piece of silver, a silver coin",
+            "money, a sum of money, cash",
+            "silver"
+          ],
+          "more": 0,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "καὶ",
+          "lemma": "καί",
+          "parse": "conjunction",
+          "aspect": "",
+          "senses": [
+            "and",
+            "also, even",
+            "both",
+            "and above all",
+            "or"
+          ],
+          "more": 6,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "αἱ",
+          "lemma": "ὁ",
+          "parse": "article · nominative · plural · feminine",
+          "aspect": "",
+          "senses": [
+            "the",
+            "that",
+            "famous",
+            "namely that",
+            "he, she, it"
+          ],
+          "more": 31,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "κεφαλίδες",
+          "lemma": "κεφαλίς",
+          "parse": "noun · nominative · plural · feminine",
+          "aspect": "",
+          "senses": [
+            "part of a shoe",
+            "a head, chapter"
+          ],
+          "more": 0,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "αὐτῶν",
+          "lemma": "αὐτός",
+          "parse": "personal pronoun · genitive · plural · masculine",
+          "aspect": "",
+          "senses": [
+            "self",
+            "him, her, it",
+            "the very one, the same",
+            "self, myself, thyself",
+            "oneself, one's true self"
+          ],
+          "more": 25,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "ἀργυραῖ",
+          "lemma": "ἀργυροῦς",
+          "parse": "adjective · nominative · plural · feminine",
+          "aspect": "",
+          "senses": [
+            "silver, of silver"
+          ],
+          "more": 0,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "καὶ",
+          "lemma": "καί",
+          "parse": "conjunction",
+          "aspect": "",
+          "senses": [
+            "and",
+            "also, even",
+            "both",
+            "and above all",
+            "or"
+          ],
+          "more": 6,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "αἱ",
+          "lemma": "ὁ",
+          "parse": "article · nominative · plural · feminine",
+          "aspect": "",
+          "senses": [
+            "the",
+            "that",
+            "famous",
+            "namely that",
+            "he, she, it"
+          ],
+          "more": 31,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "βάσεις",
+          "lemma": "βάσις",
+          "parse": "noun · nominative · plural · feminine",
+          "aspect": "",
+          "senses": [
+            "a stepping, step",
+            "steps",
+            "power to step",
+            "rolling",
+            "that with which one steps, a foot"
+          ],
+          "more": 1,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "αὐτῶν",
+          "lemma": "αὐτός",
+          "parse": "personal pronoun · genitive · plural · masculine",
+          "aspect": "",
+          "senses": [
+            "self",
+            "him, her, it",
+            "the very one, the same",
+            "self, myself, thyself",
+            "oneself, one's true self"
+          ],
+          "more": 25,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "χαλκαῖ",
+          "lemma": "χαλκοῦς",
+          "parse": "adjective · nominative · plural · feminine",
+          "aspect": "",
+          "senses": [
+            "of copper",
+            "bronze, brasen",
+            "brasen"
+          ],
+          "more": 0,
+          "lexicon": "Middle Liddell"
+        }
+      ]
+    },
+    {
+      "ref": "EXO 27:18",
+      "words": [
+        {
+          "form": "τὸ",
+          "lemma": "ὁ",
+          "parse": "article · nominative · singular · neuter",
+          "aspect": "",
+          "senses": [
+            "the",
+            "that",
+            "famous",
+            "namely that",
+            "he, she, it"
+          ],
+          "more": 31,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "δὲ",
+          "lemma": "δέ",
+          "parse": "conjunction",
+          "aspect": "",
+          "senses": [
+            "but",
+            "adversative",
+            "while, whereas, on the other hand",
+            "then, yet",
+            "then"
+          ],
+          "more": 3,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "μῆκος",
+          "lemma": "μῆκος",
+          "parse": "noun · nominative · singular · neuter",
+          "aspect": "",
+          "senses": [
+            "length",
+            "distances",
+            "height, tallness, stature",
+            "long",
+            "in length"
+          ],
+          "more": 2,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "τῆς",
+          "lemma": "ὁ",
+          "parse": "article · genitive · singular · feminine",
+          "aspect": "",
+          "senses": [
+            "the",
+            "that",
+            "famous",
+            "namely that",
+            "he, she, it"
+          ],
+          "more": 31,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "αὐλῆς",
+          "lemma": "αὐλή",
+          "parse": "noun · genitive · singular · feminine",
+          "aspect": "",
+          "senses": [
+            "the court-yard",
+            "the wall of the court-yard",
+            "the court",
+            "quadrangle",
+            "any court"
+          ],
+          "more": 1,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "ἑκατὸν",
+          "lemma": "ἑκατόν",
+          "parse": "adjective · nominative · plural · masculine",
+          "aspect": "",
+          "senses": [
+            "a hundred"
+          ],
+          "more": 0,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "ἐφʼ",
+          "lemma": "ἐπί",
+          "parse": "preposition",
+          "aspect": "",
+          "senses": [
+            "on, upon with gen., dat., and acc.",
+            "upon.",
+            "upon",
+            "on",
+            "in"
+          ],
+          "more": 60,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "ἑκατόν",
+          "lemma": "ἑκατόν",
+          "parse": "adjective · accusative · plural · masculine",
+          "aspect": "",
+          "senses": [
+            "a hundred"
+          ],
+          "more": 0,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "καὶ",
+          "lemma": "καί",
+          "parse": "conjunction",
+          "aspect": "",
+          "senses": [
+            "and",
+            "also, even",
+            "both",
+            "and above all",
+            "or"
+          ],
+          "more": 6,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "εὖρος",
+          "lemma": "εὖρος",
+          "parse": "noun · nominative · singular · neuter",
+          "aspect": "",
+          "senses": [
+            "breadth, width",
+            "in breadth"
+          ],
+          "more": 0,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "πεντήκοντα",
+          "lemma": "πεντήκοντα",
+          "parse": "adjective · nominative · plural · masculine",
+          "aspect": "",
+          "senses": [
+            "fifty"
+          ],
+          "more": 0,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "ἐπὶ",
+          "lemma": "ἐπί",
+          "parse": "preposition",
+          "aspect": "",
+          "senses": [
+            "on, upon with gen., dat., and acc.",
+            "upon.",
+            "upon",
+            "on",
+            "in"
+          ],
+          "more": 60,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "πεντήκοντα",
+          "lemma": "πεντήκοντα",
+          "parse": "adjective · accusative · plural · masculine",
+          "aspect": "",
+          "senses": [
+            "fifty"
+          ],
+          "more": 0,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "καὶ",
+          "lemma": "καί",
+          "parse": "conjunction",
+          "aspect": "",
+          "senses": [
+            "and",
+            "also, even",
+            "both",
+            "and above all",
+            "or"
+          ],
+          "more": 6,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "ὕψος",
+          "lemma": "ὕψος",
+          "parse": "noun · nominative · singular · neuter",
+          "aspect": "",
+          "senses": [
+            "height",
+            "in height",
+            "the top, summit, crown"
+          ],
+          "more": 0,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "πέντε",
+          "lemma": "πέντε",
+          "parse": "adjective · genitive · plural · masculine",
+          "aspect": "",
+          "senses": [
+            "five"
+          ],
+          "more": 0,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "πηχῶν",
+          "lemma": "πῆχυς",
+          "parse": "noun · genitive · plural · masculine",
+          "aspect": "",
+          "senses": [
+            "the fore-arm",
+            "the arm",
+            "the centrepiece, which joined the two horns of the bow",
+            "the horns",
+            "sides of the lyre"
+          ],
+          "more": 4,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "ἐκ",
+          "lemma": "ἐκ",
+          "parse": "preposition",
+          "aspect": "",
+          "senses": [
+            "from out of",
+            "out of, from. c. gen.",
+            "out of, forth from",
+            "from",
+            "with all"
+          ],
+          "more": 26,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "βύσσου",
+          "lemma": "βύσσος",
+          "parse": "noun · genitive · singular · feminine",
+          "aspect": "",
+          "senses": [
+            "a fine flax",
+            "the linen made from it"
+          ],
+          "more": 0,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "κεκλωσμένης",
+          "lemma": "κλώθω",
+          "parse": "verb · perfect · middle/passive · participle · genitive · singular · feminine",
+          "aspect": "a standing resultant state, not a past event",
+          "senses": [
+            "to twist by spinning, spin"
+          ],
+          "more": 0,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "καὶ",
+          "lemma": "καί",
+          "parse": "conjunction",
+          "aspect": "",
+          "senses": [
+            "and",
+            "also, even",
+            "both",
+            "and above all",
+            "or"
+          ],
+          "more": 6,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "αἱ",
+          "lemma": "ὁ",
+          "parse": "article · nominative · plural · feminine",
+          "aspect": "",
+          "senses": [
+            "the",
+            "that",
+            "famous",
+            "namely that",
+            "he, she, it"
+          ],
+          "more": 31,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "βάσεις",
+          "lemma": "βάσις",
+          "parse": "noun · nominative · plural · feminine",
+          "aspect": "",
+          "senses": [
+            "a stepping, step",
+            "steps",
+            "power to step",
+            "rolling",
+            "that with which one steps, a foot"
+          ],
+          "more": 1,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "αὐτῶν",
+          "lemma": "αὐτός",
+          "parse": "personal pronoun · genitive · plural · masculine",
+          "aspect": "",
+          "senses": [
+            "self",
+            "him, her, it",
+            "the very one, the same",
+            "self, myself, thyself",
+            "oneself, one's true self"
+          ],
+          "more": 25,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "χαλκαῖ",
+          "lemma": "χαλκοῦς",
+          "parse": "adjective · nominative · plural · feminine",
+          "aspect": "",
+          "senses": [
+            "of copper",
+            "bronze, brasen",
+            "brasen"
+          ],
+          "more": 0,
+          "lexicon": "Middle Liddell"
+        }
+      ]
+    },
+    {
+      "ref": "EXO 27:19",
+      "words": [
+        {
+          "form": "καὶ",
+          "lemma": "καί",
+          "parse": "conjunction",
+          "aspect": "",
+          "senses": [
+            "and",
+            "also, even",
+            "both",
+            "and above all",
+            "or"
+          ],
+          "more": 6,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "πᾶσα",
+          "lemma": "πᾶς",
+          "parse": "adjective · nominative · singular · feminine",
+          "aspect": "",
+          "senses": [
+            "all, the whole",
+            "all",
+            "all the",
+            "nothing but",
+            "every"
+          ],
+          "more": 32,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "ἡ",
+          "lemma": "ὁ",
+          "parse": "article · nominative · singular · feminine",
+          "aspect": "",
+          "senses": [
+            "the",
+            "that",
+            "famous",
+            "namely that",
+            "he, she, it"
+          ],
+          "more": 31,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "κατασκευὴ",
+          "lemma": "κατασκευή",
+          "parse": "noun · nominative · singular · feminine",
+          "aspect": "",
+          "senses": [
+            "preparation",
+            "the equipment",
+            "any kind of furniture that is fixed",
+            "buildings, fixtures",
+            "any furniture"
+          ],
+          "more": 2,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "καὶ",
+          "lemma": "καί",
+          "parse": "conjunction",
+          "aspect": "",
+          "senses": [
+            "and",
+            "also, even",
+            "both",
+            "and above all",
+            "or"
+          ],
+          "more": 6,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "πάντα",
+          "lemma": "πᾶς",
+          "parse": "adjective · nominative · plural · neuter",
+          "aspect": "",
+          "senses": [
+            "all, the whole",
+            "all",
+            "all the",
+            "nothing but",
+            "every"
+          ],
+          "more": 32,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "τὰ",
+          "lemma": "ὁ",
+          "parse": "article · nominative · plural · neuter",
+          "aspect": "",
+          "senses": [
+            "the",
+            "that",
+            "famous",
+            "namely that",
+            "he, she, it"
+          ],
+          "more": 31,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "ἐργαλεῖα",
+          "lemma": "ἐργαλεῖον",
+          "parse": "noun · nominative · plural · neuter",
+          "aspect": "",
+          "senses": [
+            "a tool, instrument"
+          ],
+          "more": 0,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "καὶ",
+          "lemma": "καί",
+          "parse": "conjunction",
+          "aspect": "",
+          "senses": [
+            "and",
+            "also, even",
+            "both",
+            "and above all",
+            "or"
+          ],
+          "more": 6,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "οἱ",
+          "lemma": "ὁ",
+          "parse": "article · nominative · plural · masculine",
+          "aspect": "",
+          "senses": [
+            "the",
+            "that",
+            "famous",
+            "namely that",
+            "he, she, it"
+          ],
+          "more": 31,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "πάσσαλοι",
+          "lemma": "πάσσαλος",
+          "parse": "noun · nominative · plural · masculine",
+          "aspect": "",
+          "senses": [
+            "a peg",
+            "a gag"
+          ],
+          "more": 0,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "τῆς",
+          "lemma": "ὁ",
+          "parse": "article · genitive · singular · feminine",
+          "aspect": "",
+          "senses": [
+            "the",
+            "that",
+            "famous",
+            "namely that",
+            "he, she, it"
+          ],
+          "more": 31,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "αὐλῆς",
+          "lemma": "αὐλή",
+          "parse": "noun · genitive · singular · feminine",
+          "aspect": "",
+          "senses": [
+            "the court-yard",
+            "the wall of the court-yard",
+            "the court",
+            "quadrangle",
+            "any court"
+          ],
+          "more": 1,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "χαλκοῖ",
+          "lemma": "χαλκοῦς",
+          "parse": "adjective · nominative · plural · masculine",
+          "aspect": "",
+          "senses": [
+            "of copper",
+            "bronze, brasen",
+            "brasen"
+          ],
+          "more": 0,
+          "lexicon": "Middle Liddell"
+        }
+      ]
+    },
+    {
+      "ref": "EXO 27:20",
+      "words": [
+        {
+          "form": "Καὶ",
+          "lemma": "καί",
+          "parse": "conjunction",
+          "aspect": "",
+          "senses": [
+            "and",
+            "also, even",
+            "both",
+            "and above all",
+            "or"
+          ],
+          "more": 6,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "σὺ",
+          "lemma": "σύ",
+          "parse": "personal pronoun · nominative · singular",
+          "aspect": "",
+          "senses": [
+            "thou"
+          ],
+          "more": 0,
+          "lexicon": "LSJ"
+        },
+        {
+          "form": "σύνταξον",
+          "lemma": "συντάσσω",
+          "parse": "verb · aorist · active · imperative · 2nd person · singular",
+          "aspect": "one completed act seen whole, not a process observed in progress",
+          "senses": [
+            "to put in order together",
+            "to draw up, put in array",
+            "to arrange, organise",
+            "to concoct",
+            "to fix"
+          ],
+          "more": 2,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "τοῖς",
+          "lemma": "ὁ",
+          "parse": "article · dative · plural · masculine",
+          "aspect": "",
+          "senses": [
+            "the",
+            "that",
+            "famous",
+            "namely that",
+            "he, she, it"
+          ],
+          "more": 31,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "υἱοῖς",
+          "lemma": "υἱός",
+          "parse": "noun · dative · plural · masculine",
+          "aspect": "",
+          "senses": [
+            "a son"
+          ],
+          "more": 0,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "Ισραηλ",
+          "lemma": "Ἰσραήλ",
+          "parse": "noun · genitive · singular · masculine",
+          "aspect": "",
+          "senses": [
+            "(Ισραηλ, from Hebrew Yiśrāʾēl, which the Hebrew of Genesis 32:29 hears in śārâ ʿim ʾĕlōhîm, \"he strove with God\")"
+          ],
+          "more": 0,
+          "lexicon": "name"
+        },
+        {
+          "form": "καὶ",
+          "lemma": "καί",
+          "parse": "conjunction",
+          "aspect": "",
+          "senses": [
+            "and",
+            "also, even",
+            "both",
+            "and above all",
+            "or"
+          ],
+          "more": 6,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "λαβέτωσάν",
+          "lemma": "λαμβάνω",
+          "parse": "verb · aorist · active · imperative · 3rd person · plural",
+          "aspect": "one completed act seen whole, not a process observed in progress",
+          "senses": [
+            "to take",
+            "to receive",
+            "to take hold of, grasp, seize",
+            "seized",
+            "whole"
+          ],
+          "more": 41,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "σοι",
+          "lemma": "σύ",
+          "parse": "personal pronoun · dative · singular",
+          "aspect": "",
+          "senses": [
+            "thou"
+          ],
+          "more": 0,
+          "lexicon": "LSJ"
+        },
+        {
+          "form": "ἔλαιον",
+          "lemma": "ἔλαιον",
+          "parse": "noun · accusative · singular · neuter",
+          "aspect": "",
+          "senses": [
+            "olive-oil"
+          ],
+          "more": 0,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "ἐξ",
+          "lemma": "ἐκ",
+          "parse": "preposition",
+          "aspect": "",
+          "senses": [
+            "from out of",
+            "out of, from. c. gen.",
+            "out of, forth from",
+            "from",
+            "with all"
+          ],
+          "more": 26,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "ἐλαίων",
+          "lemma": "ἔλαιον",
+          "parse": "noun · genitive · plural · neuter",
+          "aspect": "",
+          "senses": [
+            "olive-oil"
+          ],
+          "more": 0,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "ἄτρυγον",
+          "lemma": "ἄτρυγος",
+          "parse": "adjective · accusative · singular · neuter",
+          "aspect": "",
+          "senses": [
+            "without lees, clarified, pure"
+          ],
+          "more": 0,
+          "lexicon": "LSJ"
+        },
+        {
+          "form": "καθαρὸν",
+          "lemma": "καθαρός",
+          "parse": "adjective · accusative · singular · neuter",
+          "aspect": "",
+          "senses": [
+            "clear of dirt, clean, spotless, unsoiled",
+            "clear, open, free",
+            "clear from shame",
+            "pollution, pure",
+            "clear of guilt"
+          ],
+          "more": 8,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "κεκομμένον",
+          "lemma": "κόπτω",
+          "parse": "verb · perfect · middle/passive · participle · accusative · singular · neuter",
+          "aspect": "a standing resultant state, not a past event",
+          "senses": [
+            "to strike, smite, knock down",
+            "to cut off, chop off",
+            "to fell",
+            "to cut down the trees in",
+            "to lay it waste"
+          ],
+          "more": 14,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "εἰς",
+          "lemma": "εἰς",
+          "parse": "preposition",
+          "aspect": "",
+          "senses": [
+            "into, to c. acc.",
+            "into",
+            "to",
+            "in",
+            "rest in"
+          ],
+          "more": 18,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "φῶς",
+          "lemma": "φάος",
+          "parse": "noun · accusative · singular · neuter",
+          "aspect": "",
+          "senses": [
+            "light, daylight",
+            "a light",
+            "eyes"
+          ],
+          "more": 0,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "καῦσαι",
+          "lemma": "καίω",
+          "parse": "verb · aorist · active · infinitive",
+          "aspect": "one completed act seen whole, not a process observed in progress",
+          "senses": [
+            "to light, kindle",
+            "to set on fire, burn up, burn",
+            "to burn, scorch",
+            "to burn and destroy",
+            "to cauterise"
+          ],
+          "more": 0,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "ἵνα",
+          "lemma": "ἵνα",
+          "parse": "conjunction",
+          "aspect": "",
+          "senses": [
+            "in that place, there",
+            "in which place, where",
+            "in whatever part",
+            "in what",
+            "whither"
+          ],
+          "more": 9,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "κάηται",
+          "lemma": "καίω",
+          "parse": "verb · present · middle/passive · subjunctive · 3rd person · singular",
+          "aspect": "going on, in progress",
+          "senses": [
+            "to light, kindle",
+            "to be lighted, to burn",
+            "to set on fire, burn up, burn",
+            "to burn, scorch",
+            "to be burnt"
+          ],
+          "more": 3,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "λύχνος",
+          "lemma": "λύχνος",
+          "parse": "noun · nominative · singular · masculine",
+          "aspect": "",
+          "senses": [
+            "a portable light, a lamp"
+          ],
+          "more": 0,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "διὰ",
+          "lemma": "διά",
+          "parse": "preposition",
+          "aspect": "",
+          "senses": [
+            "through",
+            "in a line, through, right through",
+            "quite through",
+            "in succession",
+            "not in a line, all through, over"
+          ],
+          "more": 34,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "παντός",
+          "lemma": "πᾶς",
+          "parse": "adjective · genitive · singular · neuter",
+          "aspect": "",
+          "senses": [
+            "all, the whole",
+            "all",
+            "all the",
+            "nothing but",
+            "every"
+          ],
+          "more": 32,
+          "lexicon": "Middle Liddell"
+        }
+      ]
+    },
+    {
+      "ref": "EXO 27:21",
+      "words": [
+        {
+          "form": "ἐν",
+          "lemma": "ἐν",
+          "parse": "preposition",
+          "aspect": "",
+          "senses": [
+            "in, among. c. dat.",
+            "in",
+            "at the school of",
+            "in, upon",
+            "in the number of, amongst"
+          ],
+          "more": 23,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "τῇ",
+          "lemma": "ὁ",
+          "parse": "article · dative · singular · feminine",
+          "aspect": "",
+          "senses": [
+            "the",
+            "that",
+            "famous",
+            "namely that",
+            "he, she, it"
+          ],
+          "more": 31,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "σκηνῇ",
+          "lemma": "σκηνή",
+          "parse": "noun · dative · singular · feminine",
+          "aspect": "",
+          "senses": [
+            "a covered place, a tent",
+            "a camp",
+            "a dwelling-place, house, temple",
+            "a wooden stage",
+            "the stage"
+          ],
+          "more": 8,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "τοῦ",
+          "lemma": "ὁ",
+          "parse": "article · genitive · singular · neuter",
+          "aspect": "",
+          "senses": [
+            "the",
+            "that",
+            "famous",
+            "namely that",
+            "he, she, it"
+          ],
+          "more": 31,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "μαρτυρίου",
+          "lemma": "μαρτύριον",
+          "parse": "noun · genitive · singular · neuter",
+          "aspect": "",
+          "senses": [
+            "a testimony, proof"
+          ],
+          "more": 0,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "ἔξωθεν",
+          "lemma": "ἔξωθεν",
+          "parse": "preposition",
+          "aspect": "",
+          "senses": [
+            "from without",
+            "foreigners",
+            "matters outside the house",
+            "without, free from"
+          ],
+          "more": 0,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "τοῦ",
+          "lemma": "ὁ",
+          "parse": "article · genitive · singular · neuter",
+          "aspect": "",
+          "senses": [
+            "the",
+            "that",
+            "famous",
+            "namely that",
+            "he, she, it"
+          ],
+          "more": 31,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "καταπετάσματος",
+          "lemma": "καταπέτασμα",
+          "parse": "noun · genitive · singular · neuter",
+          "aspect": "",
+          "senses": [
+            "a curtain, veil"
+          ],
+          "more": 0,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "τοῦ",
+          "lemma": "ὁ",
+          "parse": "article · genitive · singular · neuter",
+          "aspect": "",
+          "senses": [
+            "the",
+            "that",
+            "famous",
+            "namely that",
+            "he, she, it"
+          ],
+          "more": 31,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "ἐπὶ",
+          "lemma": "ἐπί",
+          "parse": "preposition",
+          "aspect": "",
+          "senses": [
+            "on, upon with gen., dat., and acc.",
+            "upon.",
+            "upon",
+            "on",
+            "in"
+          ],
+          "more": 60,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "τῆς",
+          "lemma": "ὁ",
+          "parse": "article · genitive · singular · feminine",
+          "aspect": "",
+          "senses": [
+            "the",
+            "that",
+            "famous",
+            "namely that",
+            "he, she, it"
+          ],
+          "more": 31,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "διαθήκης",
+          "lemma": "διαθήκη",
+          "parse": "noun · genitive · singular · feminine",
+          "aspect": "",
+          "senses": [
+            "a disposition",
+            "a will, testament",
+            "an arrangement between",
+            "covenant"
+          ],
+          "more": 0,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "καύσει",
+          "lemma": "καίω",
+          "parse": "verb · future · active · indicative · 3rd person · singular",
+          "aspect": "",
+          "senses": [
+            "to light, kindle",
+            "to set on fire, burn up, burn",
+            "to burn, scorch",
+            "to burn and destroy",
+            "to cauterise"
+          ],
+          "more": 0,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "αὐτὸ",
+          "lemma": "αὐτός",
+          "parse": "personal pronoun · accusative · singular · neuter",
+          "aspect": "",
+          "senses": [
+            "self",
+            "him, her, it",
+            "the very one, the same",
+            "self, myself, thyself",
+            "oneself, one's true self"
+          ],
+          "more": 25,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "Ααρων",
+          "lemma": "Ἀαρών",
+          "parse": "noun · nominative · singular · masculine",
+          "aspect": "",
+          "senses": [
+            "(Ααρων, from Hebrew ʾAhărōn, of uncertain meaning)"
+          ],
+          "more": 0,
+          "lexicon": "name"
+        },
+        {
+          "form": "καὶ",
+          "lemma": "καί",
+          "parse": "conjunction",
+          "aspect": "",
+          "senses": [
+            "and",
+            "also, even",
+            "both",
+            "and above all",
+            "or"
+          ],
+          "more": 6,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "οἱ",
+          "lemma": "ὁ",
+          "parse": "article · nominative · plural · masculine",
+          "aspect": "",
+          "senses": [
+            "the",
+            "that",
+            "famous",
+            "namely that",
+            "he, she, it"
+          ],
+          "more": 31,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "υἱοὶ",
+          "lemma": "υἱός",
+          "parse": "noun · nominative · plural · masculine",
+          "aspect": "",
+          "senses": [
+            "a son"
+          ],
+          "more": 0,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "αὐτοῦ",
+          "lemma": "αὐτός",
+          "parse": "personal pronoun · genitive · singular · masculine",
+          "aspect": "",
+          "senses": [
+            "self",
+            "him, her, it",
+            "the very one, the same",
+            "self, myself, thyself",
+            "oneself, one's true self"
+          ],
+          "more": 25,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "ἀφʼ",
+          "lemma": "ἀπό",
+          "parse": "preposition",
+          "aspect": "",
+          "senses": [
+            "from, away from. c. gen.",
+            "from, away from",
+            "from",
+            "away from, far from, apart from",
+            "far from"
+          ],
+          "more": 28,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "ἑσπέρας",
+          "lemma": "ἑσπέρα",
+          "parse": "noun · genitive · singular · feminine",
+          "aspect": "",
+          "senses": [
+            "evening, eventide, eve",
+            "at eve",
+            "nightfall",
+            "the west"
+          ],
+          "more": 0,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "ἕως",
+          "lemma": "ἕως",
+          "parse": "preposition",
+          "aspect": "",
+          "senses": [
+            "until, till",
+            "for a time",
+            "till",
+            "while, so long as"
+          ],
+          "more": 0,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "πρωὶ",
+          "lemma": "πρωΐ",
+          "parse": "adverb",
+          "aspect": "",
+          "senses": [
+            "early in the day, early, at morn",
+            "early",
+            "betimes, early, in good time",
+            "too soon, too early"
+          ],
+          "more": 0,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "ἐναντίον",
+          "lemma": "ἐναντίον",
+          "parse": "preposition",
+          "aspect": "",
+          "senses": [
+            "opposite",
+            "over against, opposite",
+            "fronting, face to face",
+            "in opposite directions, meeting",
+            "opposing, facing"
+          ],
+          "more": 10,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "κυρίου",
+          "lemma": "κύριος",
+          "parse": "noun · genitive · singular · masculine",
+          "aspect": "",
+          "senses": [
+            "having power",
+            "authority over, lord",
+            "master of",
+            "I have authority",
+            "am entitled"
+          ],
+          "more": 14,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "νόμιμον",
+          "lemma": "νόμιμος",
+          "parse": "adjective · nominative · singular · neuter",
+          "aspect": "",
+          "senses": [
+            "conformable to custom, usage",
+            "law, customary, prescriptive, established, lawful, rightful",
+            "usages, customs",
+            "funeral rites"
+          ],
+          "more": 0,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "αἰώνιον",
+          "lemma": "αἰώνιος",
+          "parse": "adjective · nominative · singular · neuter",
+          "aspect": "",
+          "senses": [
+            "lasting for an age",
+            "ever-lasting, eternal"
+          ],
+          "more": 0,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "εἰς",
+          "lemma": "εἰς",
+          "parse": "preposition",
+          "aspect": "",
+          "senses": [
+            "into, to c. acc.",
+            "into",
+            "to",
+            "in",
+            "rest in"
+          ],
+          "more": 18,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "τὰς",
+          "lemma": "ὁ",
+          "parse": "article · accusative · plural · feminine",
+          "aspect": "",
+          "senses": [
+            "the",
+            "that",
+            "famous",
+            "namely that",
+            "he, she, it"
+          ],
+          "more": 31,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "γενεὰς",
+          "lemma": "γενεά",
+          "parse": "noun · accusative · plural · feminine",
+          "aspect": "",
+          "senses": [
+            "race, stock, family",
+            "family",
+            "by birth-right",
+            "by descent",
+            "a breed"
+          ],
+          "more": 10,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "ὑμῶν",
+          "lemma": "σύ",
+          "parse": "personal pronoun · genitive · plural",
+          "aspect": "",
+          "senses": [
+            "thou"
+          ],
+          "more": 0,
+          "lexicon": "LSJ"
+        },
+        {
+          "form": "παρὰ",
+          "lemma": "παρά",
+          "parse": "preposition",
+          "aspect": "",
+          "senses": [
+            "from the side of, c. gen., beside, alongside of, c. dat., to the side of, motion alongside of, c. acc.",
+            "beside",
+            "from the side of, from beside: from",
+            "issuing from",
+            "to be born"
+          ],
+          "more": 48,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "τῶν",
+          "lemma": "ὁ",
+          "parse": "article · genitive · plural · masculine",
+          "aspect": "",
+          "senses": [
+            "the",
+            "that",
+            "famous",
+            "namely that",
+            "he, she, it"
+          ],
+          "more": 31,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "υἱῶν",
+          "lemma": "υἱός",
+          "parse": "noun · genitive · plural · masculine",
+          "aspect": "",
+          "senses": [
+            "a son"
+          ],
+          "more": 0,
+          "lexicon": "Middle Liddell"
+        },
+        {
+          "form": "Ισραηλ",
+          "lemma": "Ἰσραήλ",
+          "parse": "noun · genitive · singular · masculine",
+          "aspect": "",
+          "senses": [
+            "(Ισραηλ, from Hebrew Yiśrāʾēl, which the Hebrew of Genesis 32:29 hears in śārâ ʿim ʾĕlōhîm, \"he strove with God\")"
+          ],
+          "more": 0,
+          "lexicon": "name"
+        }
+      ]
+    }
+  ]
+}

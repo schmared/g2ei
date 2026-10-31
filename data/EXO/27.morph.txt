@@ -1,0 +1,481 @@
+# Exodus 27 — morphology, one word per line.
+#
+# This is the project's own grammatical analysis of each form, written alongside the
+# transcription and not copied from any digital edition.
+#
+# Columns: verse, part of speech, parse, form, lemma — in MorphGNT's code scheme, so
+# the Old and New Testament layers read alike. The parse is eight places: person,
+# tense, voice, mood, case, number, gender, degree ("-" where it does not apply).
+#
+# Two codes go beyond MorphGNT, both to record only what the form itself says:
+#   voice  E  middle/passive — a tense in which the two share one form
+#   gender C  masculine/feminine — an adjective whose form does not distinguish them
+#
+# A trailing annotation records a deliberate difference and the reason for it:
+#   "# module …"  from the reference module, checked when LXX_RAHLFS_DIR is set
+#   "# corpus …"  from this project's own analysis of the same form elsewhere
+# A line may carry both. validate.py prints them as notes instead of failures — and
+# fails if the difference a note claims is not there, so they cannot go stale. The
+# analysis here is this project's own: the module is a reference, not an authority,
+# and the corpus is held to itself.
+#
+# Indeclinables take case and number from the syntax, as MorphGNT does, and gender
+# where there is one to take: a personal name, from the person; a numeral agreeing
+# with its noun; a common noun whose article shows it — but not an indeclinable place
+# name, which has none. A personal name the New Testament also uses takes MorphGNT's
+# dictionary form (Νῶε, Σήμ); every other Semitic name (Χαμ, Ιαφεθ), the form Rahlfs
+# prints.
+
+27:1 C- -------- Καὶ καί
+27:1 V- 2FAI-S-- ποιήσεις ποιέω
+27:1 N- ----ASN- θυσιαστήριον θυσιαστήριον
+27:1 P- -------- ἐκ ἐκ
+27:1 N- ----GPN- ξύλων ξύλον
+27:1 A- ----GPN- ἀσήπτων ἄσηπτος
+27:1 A- ----GPM- πέντε πέντε  # module M, no features — MorphGNT gives πέντε case, number and gender like any adjective
+27:1 N- ----GPM- πήχεων πῆχυς
+27:1 RA ----ASN- τὸ ὁ
+27:1 N- ----ASN- μῆκος μῆκος
+27:1 C- -------- καὶ καί
+27:1 A- ----GPM- πέντε πέντε  # module M, no features — MorphGNT gives πέντε case, number and gender like any adjective
+27:1 N- ----GPM- πήχεων πῆχυς
+27:1 RA ----ASN- τὸ ὁ
+27:1 N- ----ASN- εὖρος εὖρος
+27:1 A- ----NSN- τετράγωνον τετράγωνος
+27:1 V- 3FMI-S-- ἔσται εἰμί
+27:1 RA ----NSN- τὸ ὁ  # module ASN — nominative, the subject of ἔσται
+27:1 N- ----NSN- θυσιαστήριον θυσιαστήριον  # module ASN — nominative, the subject of ἔσται
+27:1 C- -------- καὶ καί
+27:1 A- ----GPC- τριῶν τρεῖς
+27:1 N- ----GPM- πήχεων πῆχυς
+27:1 RA ----ASN- τὸ ὁ
+27:1 N- ----ASN- ὕψος ὕψος
+27:1 RP ----GSN- αὐτοῦ αὐτός  # module GSM — neuter: θυσιαστήριον
+27:2 C- -------- καὶ καί
+27:2 V- 2FAI-S-- ποιήσεις ποιέω
+27:2 RA ----APN- τὰ ὁ
+27:2 N- ----APN- κέρατα κέρας
+27:2 P- -------- ἐπὶ ἐπί
+27:2 RA ----GPF- τῶν ὁ
+27:2 A- ----GPC- τεσσάρων τέσσαρες
+27:2 N- ----GPF- γωνιῶν γωνία
+27:2 P- -------- ἐξ ἐκ
+27:2 RP ----GSN- αὐτοῦ αὐτός  # module GSM — neuter: θυσιαστήριον
+27:2 V- 3FMI-S-- ἔσται εἰμί
+27:2 RA ----NPN- τὰ ὁ  # module APN — nominative, the subject of ἔσται
+27:2 N- ----NPN- κέρατα κέρας  # module APN — nominative, the subject of ἔσται
+27:2 C- -------- καὶ καί
+27:2 V- 2FAI-S-- καλύψεις καλύπτω
+27:2 RP ----APN- αὐτὰ αὐτός
+27:2 N- ----DSM- χαλκῷ χαλκός  # module lemma χάλκεος — χαλκός, the noun, the metal: no noun stands for an adjective to agree with
+27:3 C- -------- καὶ καί
+27:3 V- 2FAI-S-- ποιήσεις ποιέω
+27:3 N- ----ASF- στεφάνην στεφάνη
+27:3 RA ----DSN- τῷ ὁ
+27:3 N- ----DSN- θυσιαστηρίῳ θυσιαστήριον
+27:3 C- -------- καὶ καί
+27:3 RA ----ASM- τὸν ὁ
+27:3 N- ----ASM- καλυπτῆρα καλυπτήρ
+27:3 RP ----GSN- αὐτοῦ αὐτός  # module GSM — neuter: θυσιαστήριον
+27:3 C- -------- καὶ καί
+27:3 RA ----APF- τὰς ὁ
+27:3 N- ----APF- φιάλας φιάλη
+27:3 RP ----GSN- αὐτοῦ αὐτός  # module GSM — neuter: θυσιαστήριον
+27:3 C- -------- καὶ καί
+27:3 RA ----APF- τὰς ὁ
+27:3 N- ----APF- κρεάγρας κρεάγρα
+27:3 RP ----GSN- αὐτοῦ αὐτός  # module GSM — neuter: θυσιαστήριον
+27:3 C- -------- καὶ καί
+27:3 RA ----ASN- τὸ ὁ
+27:3 N- ----ASN- πυρεῖον πυρεῖον
+27:3 RP ----GSN- αὐτοῦ αὐτός  # module GSM — neuter: θυσιαστήριον
+27:3 C- -------- καὶ καί
+27:3 A- ----APN- πάντα πᾶς
+27:3 RA ----APN- τὰ ὁ
+27:3 N- ----APN- σκεύη σκεῦος
+27:3 RP ----GSN- αὐτοῦ αὐτός  # module GSM — neuter: θυσιαστήριον
+27:3 V- 2FAI-S-- ποιήσεις ποιέω
+27:3 A- ----APN- χαλκᾶ χαλκοῦς  # module lemma χάλκεος — χαλκοῦς, the contracted form, filed under χάλκεος as χρυσοῦς is under χρύσεος
+27:4 C- -------- καὶ καί
+27:4 V- 2FAI-S-- ποιήσεις ποιέω
+27:4 RP ----DSN- αὐτῷ αὐτός  # module DSM — neuter: θυσιαστήριον
+27:4 N- ----ASF- ἐσχάραν ἐσχάρα
+27:4 N- ----DSN- ἔργῳ ἔργον
+27:4 A- ----DSN- δικτυωτῷ δικτυωτός
+27:4 A- ----ASF- χαλκῆν χαλκοῦς  # module lemma χάλκεος — χαλκοῦς, the contracted form, filed under χάλκεος as χρυσοῦς is under χρύσεος
+27:4 C- -------- καὶ καί
+27:4 V- 2FAI-S-- ποιήσεις ποιέω
+27:4 RA ----DSF- τῇ ὁ
+27:4 N- ----DSF- ἐσχάρᾳ ἐσχάρα
+27:4 A- ----APC- τέσσαρας τέσσαρες
+27:4 N- ----APM- δακτυλίους δακτύλιος
+27:4 A- ----APM- χαλκοῦς χαλκοῦς  # module lemma χάλκεος — χαλκοῦς, the contracted form, filed under χάλκεος as χρυσοῦς is under χρύσεος
+27:4 P- -------- ἐπὶ ἐπί
+27:4 RA ----APN- τὰ ὁ
+27:4 A- ----APN- τέσσαρα τέσσαρες
+27:4 N- ----APN- κλίτη κλίτος
+27:5 C- -------- καὶ καί
+27:5 V- 2FAI-S-- ὑποθήσεις ὑποτίθημι
+27:5 RP ----APM- αὐτοὺς αὐτός
+27:5 P- -------- ὑπὸ ὑπό
+27:5 RA ----ASF- τὴν ὁ
+27:5 N- ----ASF- ἐσχάραν ἐσχάρα
+27:5 RA ----GSN- τοῦ ὁ
+27:5 N- ----GSN- θυσιαστηρίου θυσιαστήριον
+27:5 D- -------- κάτωθεν κάτωθεν
+27:5 V- 3FMI-S-- ἔσται εἰμί
+27:5 C- -------- δὲ δέ
+27:5 RA ----NSF- ἡ ὁ
+27:5 N- ----NSF- ἐσχάρα ἐσχάρα
+27:5 P- -------- ἕως ἕως
+27:5 RA ----GSN- τοῦ ὁ
+27:5 A- ----GSN- ἡμίσους ἥμισυς
+27:5 RA ----GSN- τοῦ ὁ
+27:5 N- ----GSN- θυσιαστηρίου θυσιαστήριον
+27:6 C- -------- καὶ καί
+27:6 V- 2FAI-S-- ποιήσεις ποιέω
+27:6 RA ----DSN- τῷ ὁ
+27:6 N- ----DSN- θυσιαστηρίῳ θυσιαστήριον
+27:6 N- ----APM- φορεῖς φορεύς  # module lemma φορέω — φορεύς, the noun, bearers, as the article at 27:7 shows; φορεῖς is also φορέω's second person
+27:6 P- -------- ἐκ ἐκ
+27:6 N- ----GPN- ξύλων ξύλον
+27:6 A- ----GPN- ἀσήπτων ἄσηπτος
+27:6 C- -------- καὶ καί
+27:6 V- 2FAI-S-- περιχαλκώσεις περιχαλκόω
+27:6 RP ----APM- αὐτοὺς αὐτός
+27:6 N- ----DSM- χαλκῷ χαλκός  # module lemma χάλκεος — χαλκός, the noun, the metal: no noun stands for an adjective to agree with
+27:7 C- -------- καὶ καί
+27:7 V- 2FAI-S-- εἰσάξεις εἰσάγω
+27:7 RA ----APM- τοὺς ὁ
+27:7 N- ----APM- φορεῖς φορεύς  # module lemma φορέω — φορεύς, the noun, bearers, as the article at 27:7 shows; φορεῖς is also φορέω's second person
+27:7 P- -------- εἰς εἰς
+27:7 RA ----APM- τοὺς ὁ
+27:7 N- ----APM- δακτυλίους δακτύλιος
+27:7 C- -------- καὶ καί
+27:7 V- 3PAD-P-- ἔστωσαν εἰμί
+27:7 RA ----NPM- οἱ ὁ
+27:7 N- ----NPM- φορεῖς φορεύς  # module lemma φορέω — φορεύς, the noun, bearers, as the article at 27:7 shows; φορεῖς is also φορέω's second person
+27:7 P- -------- κατὰ κατά
+27:7 RA ----APN- τὰ ὁ
+27:7 N- ----APN- πλευρὰ πλευρόν  # module lemma πλευρά — πλευρόν, the neuter, as the article τά requires
+27:7 RA ----GSN- τοῦ ὁ
+27:7 N- ----GSN- θυσιαστηρίου θυσιαστήριον
+27:7 P- -------- ἐν ἐν
+27:7 RA ----DSN- τῷ ὁ
+27:7 V- -PAN---- αἴρειν αἴρω
+27:7 RP ----ASN- αὐτό αὐτός
+27:8 A- ----ASN- κοῖλον κοῖλος
+27:8 A- ----ASN- σανιδωτὸν σανιδωτός
+27:8 V- 2FAI-S-- ποιήσεις ποιέω
+27:8 RP ----ASN- αὐτό αὐτός
+27:8 P- -------- κατὰ κατά
+27:8 RA ----ASN- τὸ ὁ
+27:8 V- -APPASN- παραδειχθέν παραδείκνυμι  # module lemma παραδεικύω — παραδείκνυμι, as Middle Liddell heads it
+27:8 RP ----DS-- σοι σύ  # module lemma σοί, the form itself — σύ is the dictionary form
+27:8 P- -------- ἐν ἐν
+27:8 RA ----DSN- τῷ ὁ
+27:8 N- ----DSN- ὄρει ὄρος
+27:8 D- -------- οὕτως οὕτως
+27:8 V- 2FAI-S-- ποιήσεις ποιέω
+27:8 RP ----ASN- αὐτό αὐτός
+27:9 C- -------- Καὶ καί
+27:9 V- 2FAI-S-- ποιήσεις ποιέω
+27:9 N- ----ASF- αὐλὴν αὐλή
+27:9 RA ----DSF- τῇ ὁ
+27:9 N- ----DSF- σκηνῇ σκηνή
+27:9 P- -------- εἰς εἰς
+27:9 RA ----ASN- τὸ ὁ
+27:9 N- ----ASN- κλίτος κλίτος
+27:9 RA ----ASN- τὸ ὁ
+27:9 P- -------- πρὸς πρός
+27:9 N- ----ASM- λίβα λίψ
+27:9 N- ----NPN- ἱστία ἱστίον  # module APN — nominative, a verbless clause after the raised point
+27:9 RA ----GSF- τῆς ὁ
+27:9 N- ----GSF- αὐλῆς αὐλή
+27:9 P- -------- ἐκ ἐκ
+27:9 N- ----GSF- βύσσου βύσσος
+27:9 V- -XEPGSF- κεκλωσμένης κλώθω
+27:9 N- ----NSN- μῆκος μῆκος  # module ASN — subject of a verbless clause, with its measure in the genitive
+27:9 A- ----GPM- ἑκατὸν ἑκατόν  # module M, no features — MorphGNT gives ἑκατόν case, number and gender like any adjective
+27:9 N- ----GPM- πηχῶν πῆχυς
+27:9 RA ----DSN- τῷ ὁ
+27:9 A- ----DSN- ἑνὶ εἷς
+27:9 N- ----DSN- κλίτει κλίτος
+27:10 C- -------- καὶ καί
+27:10 RA ----NPM- οἱ ὁ
+27:10 N- ----NPM- στῦλοι στῦλος
+27:10 RP ----GPN- αὐτῶν αὐτός  # module GPM — neuter, the hangings, ἱστία
+27:10 A- ----NPM- εἴκοσι εἴκοσι  # module M, no features — MorphGNT gives εἴκοσι case, number and gender like any adjective
+27:10 C- -------- καὶ καί
+27:10 RA ----NPF- αἱ ὁ
+27:10 N- ----NPF- βάσεις βάσις
+27:10 RP ----GPM- αὐτῶν αὐτός
+27:10 A- ----NPF- εἴκοσι εἴκοσι  # module M, no features — MorphGNT gives εἴκοσι case, number and gender like any adjective
+27:10 A- ----NPF- χαλκαῖ χαλκοῦς  # module lemma χάλκεος — χαλκοῦς, the contracted form, filed under χάλκεος as χρυσοῦς is under χρύσεος
+27:10 C- -------- καὶ καί
+27:10 RA ----NPM- οἱ ὁ
+27:10 N- ----NPM- κρίκοι κρίκος
+27:10 RP ----GPM- αὐτῶν αὐτός
+27:10 C- -------- καὶ καί
+27:10 RA ----NPF- αἱ ὁ
+27:10 N- ----NPF- ψαλίδες ψαλίς
+27:10 RP ----GPM- αὐτῶν αὐτός
+27:10 A- ----NPF- ἀργυραῖ ἀργυροῦς  # module lemma ἀργύρεος — ἀργυροῦς, the contracted form, as Middle Liddell heads it
+27:11 D- -------- οὕτως οὕτως
+27:11 RA ----DSN- τῷ ὁ
+27:11 N- ----DSN- κλίτει κλίτος
+27:11 RA ----DSN- τῷ ὁ
+27:11 P- -------- πρὸς πρός
+27:11 N- ----ASM- ἀπηλιώτην ἀπηλιώτης
+27:11 N- ----NPN- ἱστία ἱστίον  # module APN — nominative, a verbless clause after the raised point
+27:11 A- ----GPM- ἑκατὸν ἑκατόν  # module M, no features — MorphGNT gives ἑκατόν case, number and gender like any adjective
+27:11 N- ----GPM- πηχῶν πῆχυς
+27:11 N- ----NSN- μῆκος μῆκος  # module ASN — subject of a verbless clause, with its measure in the genitive
+27:11 C- -------- καὶ καί
+27:11 RA ----NPM- οἱ ὁ
+27:11 N- ----NPM- στῦλοι στῦλος
+27:11 RP ----GPN- αὐτῶν αὐτός  # module GPM — neuter, the hangings, ἱστία
+27:11 A- ----NPM- εἴκοσι εἴκοσι  # module M, no features — MorphGNT gives εἴκοσι case, number and gender like any adjective
+27:11 C- -------- καὶ καί
+27:11 RA ----NPF- αἱ ὁ
+27:11 N- ----NPF- βάσεις βάσις
+27:11 RP ----GPM- αὐτῶν αὐτός
+27:11 A- ----NPF- εἴκοσι εἴκοσι  # module M, no features — MorphGNT gives εἴκοσι case, number and gender like any adjective
+27:11 A- ----NPF- χαλκαῖ χαλκοῦς  # module lemma χάλκεος — χαλκοῦς, the contracted form, filed under χάλκεος as χρυσοῦς is under χρύσεος
+27:11 C- -------- καὶ καί
+27:11 RA ----NPM- οἱ ὁ
+27:11 N- ----NPM- κρίκοι κρίκος
+27:11 C- -------- καὶ καί
+27:11 RA ----NPF- αἱ ὁ
+27:11 N- ----NPF- ψαλίδες ψαλίς
+27:11 RA ----GPM- τῶν ὁ
+27:11 N- ----GPM- στύλων στῦλος
+27:11 C- -------- καὶ καί
+27:11 RA ----NPF- αἱ ὁ
+27:11 N- ----NPF- βάσεις βάσις
+27:11 RP ----GPM- αὐτῶν αὐτός
+27:11 V- -XEPNPF- περιηργυρωμέναι περιαργυρόω
+27:11 N- ----DSM- ἀργύρῳ ἄργυρος
+27:12 RA ----NSN- τὸ ὁ  # module ASN — subject of a verbless clause, with its measure in the genitive
+27:12 C- -------- δὲ δέ
+27:12 N- ----NSN- εὖρος εὖρος  # module ASN — subject of a verbless clause, with its measure in the genitive
+27:12 RA ----GSF- τῆς ὁ
+27:12 N- ----GSF- αὐλῆς αὐλή
+27:12 RA ----NSN- τὸ ὁ  # module ASN — subject of a verbless clause, with its measure in the genitive
+27:12 P- -------- κατὰ κατά
+27:12 N- ----ASF- θάλασσαν θάλασσα
+27:12 N- ----NPN- ἱστία ἱστίον
+27:12 A- ----GPM- πεντήκοντα πεντήκοντα  # module M, no features — MorphGNT gives πεντήκοντα case, number and gender like any adjective
+27:12 N- ----GPM- πηχῶν πῆχυς
+27:12 N- ----NPM- στῦλοι στῦλος
+27:12 RP ----GPN- αὐτῶν αὐτός  # module GPM — neuter, the hangings, ἱστία
+27:12 A- ----NPM- δέκα δέκα  # module M, no features — MorphGNT gives δέκα case, number and gender like any adjective
+27:12 C- -------- καὶ καί
+27:12 RA ----NPF- αἱ ὁ
+27:12 N- ----NPF- βάσεις βάσις
+27:12 RP ----GPM- αὐτῶν αὐτός
+27:12 A- ----NPF- δέκα δέκα  # module M, no features — MorphGNT gives δέκα case, number and gender like any adjective
+27:13 C- -------- καὶ καί
+27:13 N- ----NSN- εὖρος εὖρος
+27:13 RA ----GSF- τῆς ὁ
+27:13 N- ----GSF- αὐλῆς αὐλή
+27:13 RA ----NSN- τὸ ὁ  # module ASN — subject of a verbless clause, with its measure in the genitive
+27:13 P- -------- πρὸς πρός
+27:13 N- ----ASM- νότον νότος
+27:13 N- ----NPN- ἱστία ἱστίον
+27:13 A- ----GPM- πεντήκοντα πεντήκοντα  # module M, no features — MorphGNT gives πεντήκοντα case, number and gender like any adjective
+27:13 N- ----GPM- πήχεων πῆχυς
+27:13 N- ----NPM- στῦλοι στῦλος
+27:13 RP ----GPN- αὐτῶν αὐτός  # module GPM — neuter, the hangings, ἱστία
+27:13 A- ----NPM- δέκα δέκα  # module M, no features — MorphGNT gives δέκα case, number and gender like any adjective
+27:13 C- -------- καὶ καί
+27:13 RA ----NPF- αἱ ὁ
+27:13 N- ----NPF- βάσεις βάσις
+27:13 RP ----GPM- αὐτῶν αὐτός
+27:13 A- ----NPF- δέκα δέκα  # module M, no features — MorphGNT gives δέκα case, number and gender like any adjective
+27:14 C- -------- καὶ καί
+27:14 A- ----GPM- πεντεκαίδεκα πεντεκαίδεκα  # module M, no features — MorphGNT gives πεντεκαίδεκα case, number and gender like any adjective
+27:14 N- ----GPM- πήχεων πῆχυς
+27:14 RA ----NSN- τὸ ὁ  # module ASN — subject of a verbless clause, with its measure in the genitive
+27:14 N- ----NSN- ὕψος ὕψος  # module ASN — subject of a verbless clause, with its measure in the genitive
+27:14 RA ----GPN- τῶν ὁ
+27:14 N- ----GPN- ἱστίων ἱστίον
+27:14 RA ----DSN- τῷ ὁ
+27:14 N- ----DSN- κλίτει κλίτος
+27:14 RA ----DSN- τῷ ὁ
+27:14 A- ----DSN- ἑνί εἷς
+27:14 N- ----NPM- στῦλοι στῦλος
+27:14 RP ----GPN- αὐτῶν αὐτός
+27:14 A- ----NPC- τρεῖς τρεῖς
+27:14 C- -------- καὶ καί
+27:14 RA ----NPF- αἱ ὁ
+27:14 N- ----NPF- βάσεις βάσις
+27:14 RP ----GPM- αὐτῶν αὐτός
+27:14 A- ----NPC- τρεῖς τρεῖς
+27:15 C- -------- καὶ καί
+27:15 RA ----NSN- τὸ ὁ  # module ASN — subject of a verbless clause, with its measure in the genitive
+27:15 N- ----NSN- κλίτος κλίτος  # module ASN — subject of a verbless clause, with its measure in the genitive
+27:15 RA ----NSN- τὸ ὁ  # module ASN — subject of a verbless clause, with its measure in the genitive
+27:15 A- ----NSN- δεύτερον δεύτερος  # module ASN — subject of a verbless clause, with its measure in the genitive
+27:15 A- ----GPM- δέκα δέκα  # module M, no features — MorphGNT gives δέκα case, number and gender like any adjective
+27:15 A- ----GPM- πέντε πέντε  # module M, no features — MorphGNT gives πέντε case, number and gender like any adjective
+27:15 N- ----GPM- πηχῶν πῆχυς
+27:15 RA ----GPN- τῶν ὁ
+27:15 N- ----GPN- ἱστίων ἱστίον
+27:15 RA ----NSN- τὸ ὁ  # module ASN — subject of a verbless clause, with its measure in the genitive
+27:15 N- ----NSN- ὕψος ὕψος  # module ASN — subject of a verbless clause, with its measure in the genitive
+27:15 N- ----NPM- στῦλοι στῦλος
+27:15 RP ----GPN- αὐτῶν αὐτός  # module GPM — neuter, the hangings, ἱστία
+27:15 A- ----NPC- τρεῖς τρεῖς
+27:15 C- -------- καὶ καί
+27:15 RA ----NPF- αἱ ὁ
+27:15 N- ----NPF- βάσεις βάσις
+27:15 RP ----GPM- αὐτῶν αὐτός
+27:15 A- ----NPC- τρεῖς τρεῖς
+27:16 C- -------- καὶ καί
+27:16 RA ----DSF- τῇ ὁ
+27:16 N- ----DSF- πύλῃ πύλη
+27:16 RA ----GSF- τῆς ὁ
+27:16 N- ----GSF- αὐλῆς αὐλή
+27:16 N- ----NSN- κάλυμμα κάλυμμα
+27:16 A- ----GPM- εἴκοσι εἴκοσι  # module M, no features — MorphGNT gives εἴκοσι case, number and gender like any adjective
+27:16 N- ----GPM- πηχῶν πῆχυς
+27:16 RA ----NSN- τὸ ὁ  # module ASN — subject of a verbless clause, with its measure in the genitive
+27:16 N- ----NSN- ὕψος ὕψος  # module ASN — subject of a verbless clause, with its measure in the genitive
+27:16 P- -------- ἐξ ἐκ
+27:16 N- ----GSM- ὑακίνθου ὑάκινθος  # module GSF — masculine, ὁ, as Middle Liddell heads ὑάκινθος first, as at 25:4
+27:16 C- -------- καὶ καί
+27:16 N- ----GSF- πορφύρας πορφύρα
+27:16 C- -------- καὶ καί
+27:16 A- ----GSN- κοκκίνου κόκκινος
+27:16 V- -XEPGSN- κεκλωσμένου κλώθω
+27:16 C- -------- καὶ καί
+27:16 N- ----GSF- βύσσου βύσσος
+27:16 V- -XEPGSF- κεκλωσμένης κλώθω
+27:16 RA ----DSF- τῇ ὁ
+27:16 N- ----DSF- ποικιλίᾳ ποικιλία
+27:16 RA ----GSM- τοῦ ὁ  # module GSN — masculine, with ῥαφιδευτής, the noun
+27:16 N- ----GSM- ῥαφιδευτοῦ ῥαφιδευτής  # module lemma ῥαφιδευτός — ῥαφιδευτής, the noun, the embroiderer, as LSJ files this verse
+27:16 N- ----NPM- στῦλοι στῦλος
+27:16 RP ----GPN- αὐτῶν αὐτός
+27:16 A- ----NPC- τέσσαρες τέσσαρες
+27:16 C- -------- καὶ καί
+27:16 RA ----NPF- αἱ ὁ
+27:16 N- ----NPF- βάσεις βάσις
+27:16 RP ----GPM- αὐτῶν αὐτός
+27:16 A- ----NPC- τέσσαρες τέσσαρες
+27:17 A- ----NPM- πάντες πᾶς
+27:17 RA ----NPM- οἱ ὁ
+27:17 N- ----NPM- στῦλοι στῦλος
+27:17 RA ----GSF- τῆς ὁ
+27:17 N- ----GSF- αὐλῆς αὐλή
+27:17 D- -------- κύκλῳ κύκλῳ  # module N.DSM — the adverb, round about, with no genitive after it
+27:17 V- -XEPNPM- κατηργυρωμένοι καταργυρόω
+27:17 N- ----DSN- ἀργυρίῳ ἀργύριον
+27:17 C- -------- καὶ καί
+27:17 RA ----NPF- αἱ ὁ
+27:17 N- ----NPF- κεφαλίδες κεφαλίς
+27:17 RP ----GPM- αὐτῶν αὐτός
+27:17 A- ----NPF- ἀργυραῖ ἀργυροῦς  # module lemma ἀργύρεος — ἀργυροῦς, the contracted form, as Middle Liddell heads it
+27:17 C- -------- καὶ καί
+27:17 RA ----NPF- αἱ ὁ
+27:17 N- ----NPF- βάσεις βάσις
+27:17 RP ----GPM- αὐτῶν αὐτός
+27:17 A- ----NPF- χαλκαῖ χαλκοῦς  # module lemma χάλκεος — χαλκοῦς, the contracted form, filed under χάλκεος as χρυσοῦς is under χρύσεος
+27:18 RA ----NSN- τὸ ὁ  # module ASN — subject of a verbless clause, with its measure in the genitive
+27:18 C- -------- δὲ δέ
+27:18 N- ----NSN- μῆκος μῆκος  # module ASN — subject of a verbless clause, with its measure in the genitive
+27:18 RA ----GSF- τῆς ὁ
+27:18 N- ----GSF- αὐλῆς αὐλή
+27:18 A- ----NPM- ἑκατὸν ἑκατόν  # module M, no features — MorphGNT gives ἑκατόν case, number and gender like any adjective
+27:18 P- -------- ἐφʼ ἐπί
+27:18 A- ----APM- ἑκατόν ἑκατόν  # module M, no features — MorphGNT gives ἑκατόν case, number and gender like any adjective
+27:18 C- -------- καὶ καί
+27:18 N- ----NSN- εὖρος εὖρος
+27:18 A- ----NPM- πεντήκοντα πεντήκοντα  # module M, no features — MorphGNT gives πεντήκοντα case, number and gender like any adjective
+27:18 P- -------- ἐπὶ ἐπί
+27:18 A- ----APM- πεντήκοντα πεντήκοντα  # module M, no features — MorphGNT gives πεντήκοντα case, number and gender like any adjective
+27:18 C- -------- καὶ καί
+27:18 N- ----NSN- ὕψος ὕψος
+27:18 A- ----GPM- πέντε πέντε  # module M, no features — MorphGNT gives πέντε case, number and gender like any adjective
+27:18 N- ----GPM- πηχῶν πῆχυς
+27:18 P- -------- ἐκ ἐκ
+27:18 N- ----GSF- βύσσου βύσσος
+27:18 V- -XEPGSF- κεκλωσμένης κλώθω
+27:18 C- -------- καὶ καί
+27:18 RA ----NPF- αἱ ὁ
+27:18 N- ----NPF- βάσεις βάσις
+27:18 RP ----GPM- αὐτῶν αὐτός
+27:18 A- ----NPF- χαλκαῖ χαλκοῦς  # module lemma χάλκεος — χαλκοῦς, the contracted form, filed under χάλκεος as χρυσοῦς is under χρύσεος
+27:19 C- -------- καὶ καί
+27:19 A- ----NSF- πᾶσα πᾶς
+27:19 RA ----NSF- ἡ ὁ
+27:19 N- ----NSF- κατασκευὴ κατασκευή
+27:19 C- -------- καὶ καί
+27:19 A- ----NPN- πάντα πᾶς  # module APN — nominative, in a verbless clause, with χαλκοῖ its predicate
+27:19 RA ----NPN- τὰ ὁ
+27:19 N- ----NPN- ἐργαλεῖα ἐργαλεῖον
+27:19 C- -------- καὶ καί
+27:19 RA ----NPM- οἱ ὁ
+27:19 N- ----NPM- πάσσαλοι πάσσαλος
+27:19 RA ----GSF- τῆς ὁ
+27:19 N- ----GSF- αὐλῆς αὐλή
+27:19 A- ----NPM- χαλκοῖ χαλκοῦς  # module lemma χάλκεος — χαλκοῦς, the contracted form, filed under χάλκεος as χρυσοῦς is under χρύσεος
+27:20 C- -------- Καὶ καί
+27:20 RP ----NS-- σὺ σύ
+27:20 V- 2AAD-S-- σύνταξον συντάσσω
+27:20 RA ----DPM- τοῖς ὁ
+27:20 N- ----DPM- υἱοῖς υἱός
+27:20 N- ----GSM- Ισραηλ Ἰσραήλ
+27:20 C- -------- καὶ καί
+27:20 V- 3AAD-P-- λαβέτωσάν λαμβάνω
+27:20 RP ----DS-- σοι σύ  # module lemma σοί, the form itself — σύ is the dictionary form
+27:20 N- ----ASN- ἔλαιον ἔλαιον
+27:20 P- -------- ἐξ ἐκ
+27:20 N- ----GPN- ἐλαίων ἔλαιον
+27:20 A- ----ASN- ἄτρυγον ἄτρυγος
+27:20 A- ----ASN- καθαρὸν καθαρός
+27:20 V- -XEPASN- κεκομμένον κόπτω
+27:20 P- -------- εἰς εἰς
+27:20 N- ----ASN- φῶς φάος  # module lemma φῶς — φάος, the uncontracted form Middle Liddell heads
+27:20 V- -AAN---- καῦσαι καίω
+27:20 C- -------- ἵνα ἵνα
+27:20 V- 3PES-S-- κάηται καίω  # module AMS3S — present: κάω, the Attic form of καίω, its subjunctive κάηται; the aorist middle would be καύσηται
+27:20 N- ----NSM- λύχνος λύχνος
+27:20 P- -------- διὰ διά
+27:20 A- ----GSN- παντός πᾶς  # module GSM — neuter, διὰ παντός, continually, as the corpus codes it
+27:21 P- -------- ἐν ἐν
+27:21 RA ----DSF- τῇ ὁ
+27:21 N- ----DSF- σκηνῇ σκηνή
+27:21 RA ----GSN- τοῦ ὁ
+27:21 N- ----GSN- μαρτυρίου μαρτύριον
+27:21 P- -------- ἔξωθεν ἔξωθεν
+27:21 RA ----GSN- τοῦ ὁ
+27:21 N- ----GSN- καταπετάσματος καταπέτασμα
+27:21 RA ----GSN- τοῦ ὁ
+27:21 P- -------- ἐπὶ ἐπί
+27:21 RA ----GSF- τῆς ὁ
+27:21 N- ----GSF- διαθήκης διαθήκη
+27:21 V- 3FAI-S-- καύσει καίω
+27:21 RP ----ASN- αὐτὸ αὐτός
+27:21 N- ----NSM- Ααρων Ἀαρών
+27:21 C- -------- καὶ καί
+27:21 RA ----NPM- οἱ ὁ
+27:21 N- ----NPM- υἱοὶ υἱός
+27:21 RP ----GSM- αὐτοῦ αὐτός
+27:21 P- -------- ἀφʼ ἀπό
+27:21 N- ----GSF- ἑσπέρας ἑσπέρα
+27:21 P- -------- ἕως ἕως
+27:21 D- -------- πρωὶ πρωΐ
+27:21 P- -------- ἐναντίον ἐναντίον
+27:21 N- ----GSM- κυρίου κύριος
+27:21 A- ----NSN- νόμιμον νόμιμος
+27:21 A- ----NSN- αἰώνιον αἰώνιος
+27:21 P- -------- εἰς εἰς
+27:21 RA ----APF- τὰς ὁ
+27:21 N- ----APF- γενεὰς γενεά
+27:21 RP ----GP-- ὑμῶν σύ  # module lemma ὑμῶν, the form itself — σύ is the dictionary form
+27:21 P- -------- παρὰ παρά
+27:21 RA ----GPM- τῶν ὁ
+27:21 N- ----GPM- υἱῶν υἱός
+27:21 N- ----GSM- Ισραηλ Ἰσραήλ

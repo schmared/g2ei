@@ -469,6 +469,20 @@ LSJ = {
                     "that which is drawn over, curtain, hanging"],
     "ἐπιδιπλόω": ["make double", "fold double", "multiply by two"],
     "ἐπικάλυμμα": ["cover, veil", "covering", "gills", "opercula"],
+    # EXO 27. Not in Middle Liddell. LSJ (eng4): δικτυωτός, "made in net-fashion", "latticed, trellised", and in θυρὶς
+    # δ., "«lattice»-window", the adjective's own English; its neuter as a noun is left to its own use. LSJ (eng11):
+    # καλυπτήρ, "covering, sheath", "cover", "lid", and "pl., tiles"; the metaphor 'pillars of society' is quoted,
+    # not translated. LSJ (eng17): περιαργυρόω, "case, plate with silver", its passive citing 27:11; περιχαλκόω,
+    # "«cover with brass» or «copper»", citing 27:6, one translation as LSJ prints it, the "or" kept as in κανοῦν.
+    # LSJ (eng21): σανιδωτός, "planked, boarded over", citing 27:8. LSJ (eng1): ἄτρυγος, "without lees, clarified,
+    # pure", citing 27:20. LSJ (eng20): ῥαφιδευτής, "stitcher, embroiderer", citing 27:16.
+    "δικτυωτός": ["made in net-fashion", "latticed, trellised", "lattice"],
+    "καλυπτήρ": ["covering, sheath", "cover", "lid", "tiles"],
+    "περιαργυρόω": ["case, plate with silver"],
+    "περιχαλκόω": ["cover with brass or copper"],
+    "σανιδωτός": ["planked, boarded over"],
+    "ἄτρυγος": ["without lees, clarified, pure"],
+    "ῥαφιδευτής": ["stitcher, embroiderer"],
     # EXO 12. None of these is in Middle Liddell. LSJ (eng3): γειώρας, "sojourner", "proselyte". LSJ
     # (eng4): δέσμη, "package, bundle", "a measure in Egypt", "in Medicine, handful"; Rahlfs prints the
     # accusative δεσμήν, the module δέσμην. LSJ (eng5): ἐνδόσθια, "= ἐντόσθια", a pointer to ἐντόσθιος,
@@ -745,7 +759,8 @@ NOT_SENSES = {
     # gape", was inside the Latin element and is restored by MARKUP_LOST.
     "xa/skw": {"may", "I was all agape", "gaping fools", "yawn"},
     "kiqa/ra": {"guitar)"},                     # "(whence guitar)"
-    "xalko/s": {"a blacksmith."},               # from a cross-reference to χαλκεύς
+    "xalko/s": {"a blacksmith.",                # from a cross-reference to χαλκεύς
+                "copper alloyed with tin)", "brass", "copper alloyed with zinc"},  # "bronze (i. e. copper alloyed with tin), not brass (i. e. copper alloyed with zinc …)": English defined, and a sense ruled out (EXO 27)
     "e)cani/sthmi": {"bid one", "rise"},        # from "bid one rise from suppliant posture"
     "h(suxa/zw": {"the dead", "finding rest", "by resting from war"},  # from "of the dead"; examples', a negated infinitive and a participle
     # GEN 5
@@ -1021,7 +1036,8 @@ NOT_SENSES = {
     "ke/ras": {"horns", "horn doors", "true", "in flank", "towards the wing", "in column"},  # pieces of examples
     "e)mo/s": {"possessive", "for me"},         # pieces of examples
     # GEN 23
-    "ko/ptw": {"smote", "on"},                  # pieces of an example
+    "ko/ptw": {"smote", "on",                   # pieces of an example
+               "to lay", "waste"},              # "«to lay» it «waste»", cut, whole in MARKUP_LOST (EXO 27)
     "kth=sis": {"success in"},                  # a piece of an example
     "ta/fos": {"a funeral-feast"},              # a piece of an example
     "kwlu/w": {"to hinder", "prevent", "from"},  # pieces of examples
@@ -1600,6 +1616,18 @@ NOT_SENSES = {
     "e)panastre/fw": {"to turn back upon"},    # "to turn back upon one", cut, whole in MARKUP_LOST
     "r(h/gnumi": {"to break, break asunder", "in pieces, rend, shiver, shatter", "force one's", "breaking into speech",
                   "rumpere vocem", "having let loose"},  # "to break … or in pieces", cut, whole in MARKUP_LOST; a piece, examples', Virgil
+    # EXO 27
+    "foreu/s": {"pack-"},                      # a piece of an example, "a pack- horse"
+    "koi=los": {"when no one is in it", "a hollow", "hollow", "cava flumina)"},  # an example's paraphrase, of a bed; examples' repeats, a way and a voice; Virgil
+    "i(sti/on": {"sail", "the sails"},          # examples' repeats, "to lower or furl sail", "to keep the sails close-reefed"
+    "kataskeuh/": {"in preparing for"},        # a phrase's, ἐν κατασκευῇ τοῦ πολέμου
+    "e)sxa/ra": {"the watch-fires"},           # a phrase's, πυρὸς ἐσχάραι
+    "a)/rguros": {"white"},                    # the gloss of ἀργός, from which the word is derived
+    "kaqaro/s": {"a clear, open", "clear", "clear and open", "cleared away", "citizens of pure blood", "a real, genuine",
+                 "the sound portion", "clear, exactly balanced",  # examples', of a space, a way, a river, a hindrance, the marks, citizens, a saying, an army, accounts
+                 "sceleris purus",              # Horace
+                 "pure", "with clean hands, honestly", "clearly, plainly"},  # the adverb's
+    "sunta/ssw": {"to draw up", "in line with", "in the", "order", "with", "having drawn up his", "the conspirators"},  # examples' and their pieces
     # EXO 26
     "suna/ptw": {"to bind", "fast", "with misery", "to connect", "with", "refer", "to", "involved", "engaged",
                  "in conflict"},               # cut, whole in MARKUP_LOST; examples' and their pieces
@@ -1786,6 +1814,18 @@ _APOLLUMI_ACT = {"to destroy utterly, kill, slay", "to destroy, demolish, waste"
 _APOLLUMI_MID = {"to perish utterly, die", "to be undone", "you are done for, lost, ruined",
                  "to be lost, slip away, vanish"}
 FORM_SENSES = {
+    # EXO 27. παραδείκνυμι's active and passive leave out the middle's; ποικιλία's and λύχνος's singular the plural's;
+    # καίω's and συντάσσω's active the middle's and the passive's; κόπτω's middle-passive and passive the middle's.
+    "paradei/knumi": [("PIFAXY", "AP", {"to exhibit, bring forward"})],
+    "poikili/a": [("-", "-", {"pieces of broidery"}, None, "^.....S")],
+    "lu/xnos": [("-", "-", NOT_SENSES["lu/xnos"] | {"the lamp-market"}, None, "^.....S")],
+    "kai/w": [("PIFAXY", "A", NOT_SENSES["kai/w"] | {"to be lighted, to burn", "to be burnt", "parched up"})],
+    "sunta/ssw": [("PIFAXY", "A", NOT_SENSES["sunta/ssw"] | {
+        "to be drawn up in line", "to form in line", "to be collected, resolute, steady", "to be organised",
+        "to be organised for paying contributions", "to agree to such assessment", "to be prescribed",
+        "to agree together", "to take leave of", "bid", "farewell"})],
+    "ko/ptw": [("PIFAXY", "EP", NOT_SENSES["ko/ptw"] | {"to coin oneself", "order to be coined", "to beat one's breast",
+                                                        "to mourn for"})],
     # EXO 26. συνάπτω's active leaves out the middle's and the passive's; ἴσος's masculine and feminine the neuter's
     # as a noun; δέρρις's and συμβολή's singular the plural's; κατακαλύπτω's active the middle's.
     "suna/ptw": [("PIFAXY", "A", NOT_SENSES["suna/ptw"] | {"to have intercourse with", "to get one's daughter",
@@ -2746,6 +2786,8 @@ MARKUP_LOST = {
     "diori/zw": [(3, "to determine one to be")],  # "«to make» it «clear» to the ear"; "«to inform of» a thing «as contraband»"
     "strepto/s": [(4, "a collar of twisted or linked metal"), (9, "to be bent or turned"), (13, "glib, pliant")],
     "tra/peza": [(0, "a table")],
+    # EXO 27. κόπτω: "k. τὴν χώραν «to cut down the trees in» it, «to lay» it «waste»".
+    "ko/ptw": [(6, "to lay it waste")],
     "suskia/zw": [(0, "to shade quite over, throw a shade over, shade closely or thickly")],
     "a)ki/nhtos": [(5, "not to be stirred or touched, inviolate")],
     "tu/pos": [(5, "the sound of their tread"), (8, "anything wrought of metal or stone")],

@@ -1900,7 +1900,7 @@ the same ground as `the sixth` and `the seventh`: one sense each, so no range to
 | κάμηλος | `the camels` | `the camels, the camels in an army, the camelry and camel-brigade` | 24:11, 24:14, 24:22, 24:32, 24:46, 24:61 |
 | κάμηλος | `to the camels` | `to the camels, to the camels in an army, to the camelry and camel-brigade` | 24:19, 24:20, 24:31, 24:32, 24:44 |
 | καθαιρέω | `took down` | `took down, put down and closed, brought down, put down by force and destroyed and killed and slew, put down and reduced and deposed and dethroned and removed, rased to the ground and pulled down, cancelled and rescinded, condemned, reduced, overpowered and seized and caught, fetched down as a reward and achieved and took and carried off` | 24:18, 24:46 |
-| καθαρός | `clear of dirt` | `clear of dirt and clean and spotless and unsoiled, clear and open and free, clear from shame and pollution and pure, clear of admixture, genuine` | 24:8 |
+| καθαρός | `clear of dirt` | `clear of dirt and clean and spotless and unsoiled, clear and open and free, clear from shame and pollution and pure, clear of guilt and defilement and clean and pure, purified, clear of and from, clear of admixture and clear and pure, pure and genuine, without blemish, clear and exact` | 24:8 |
 | κακός | `evil` | `evil, ill, evil word and reproach` | 24:50 |
 | καλέω | `let us call` | `let us call, let us summon, let us call to ourselves, let us invite` | 24:57 |
 | καλός | `to beauty` | `to beauty, to moral beauty and virtue` | 24:50 |
@@ -2133,7 +2133,7 @@ the same ground as `the sixth` and `the seventh`: one sense each, so no range to
 | αὐτοῦ | `at the very place` | `at the very place and just here and just there` | 22:5 |
 | διέρχομαι | `we will go through` | `we will go through and pass through, we will go through in detail` | 22:5 |
 | εὐλογέω | `speaking well of` | `speaking well of, praising, honouring, blessing` | 22:17 |
-| κέρας | `of the horns of an animal` | `of the horns of an animal, of the horn, of the things made of horn, of the bows, of the horns for blowing and flutes, of the drinking-horns, of the horn guards and pipes, of the horn points, of the arms and branches of a river, of the wings of an army and fleet` | 22:13 |
+| κέρας | `of the horns of an animal` | `of the horns of an animal, of the horn, of the things made of horn, of the bows, of the horns for blowing, of the flutes, of the drinking-horns, of the horn guards and pipes, of the horn points, of the arms and branches of a river, of the wings of an army and fleet, of the any projections, of the mountain-peaks` | 22:13 |
 | καθίζω | `make to sit down` | `make to sit down and seat, set and place, encamp, set up, sit down and be seated and take your seat, settle and sink in` | 22:5 |
 | κατέχω | `being held fast` | `being held fast, being held back and withheld, being checked and restrained and controlled and bridled, being detained, being possessed and occupied, being filled, being occupied and spread over and covered, being confined and covered, being held down and overpowered and oppressed and afflicted, being held down and bound and kept under, being detained and staying and stopping and tarrying` | 22:13 |
 | κριός | `the ram` | `the ram, the battering-ram` | 22:13 |
@@ -2303,7 +2303,7 @@ the same ground as `the sixth` and `the seventh`: one sense each, so no range to
 | εἰσέρχομαι | `we may go in` | `we may go in, we may go into and enter, we may come into, we may come in, we may come upon` | 20:13 |
 | ζάω | `you will live` | `you will live, you will be in full life and strength and fresh and strong` | 20:7 |
 | θεοσέβεια | `the service of God` | `the service of God, the fear of God and religiousness` | 20:11 |
-| καθαρός, with ἐν | `in clear of dirt` | `within, inside of, and by means of clear of dirt and clean and spotless and unsoiled, clear and open and free, clear from shame and pollution and pure, clear of admixture, genuine` | 20:5, 20:6 |
+| καθαρός, with ἐν | `in clear of dirt` | `within, inside of, and by means of clear of dirt and clean and spotless and unsoiled, clear and open and free, clear from shame and pollution and pure, clear of guilt and defilement and clean and pure, purified, clear of and from, clear of admixture and clear and pure, pure and genuine, without blemish, clear and exact` | 20:5, 20:6 |
 | καρδία | `heart` | `heart, stomach` | 20:5, 20:6 |
 | κατοικέω | `dwell in` | `dwell in, settle in, colonise, inhabit, settle and dwell, lie and be situate` | 20:15 |
 | κινέω | `set in motion` | `set in motion, moved, removed, meddled with, applied, changed and innovated, roused and disturbed, stirred up and aroused and urged on, set agoing and caused and called` | 20:1 |
@@ -4467,7 +4467,7 @@ though both have the article; they were corrected when GEN 3:18 reused them.
 | ψαλτήριον | `stringed instrument` | `stringed instrument and psaltery and harp` — LSJ | 4:21 |
 | κιθάρα | `lyre` | `lyre, lute` | 4:21 |
 | χαλκεύς | `a worker in copper` | `a worker in copper and smith, a joiner, a worker in metal` | 4:22 |
-| χαλκός, σίδηρος | `of copper` · `of iron` | `of copper, of metal, of bronze, of brass` · `of iron, of a weapon and sword, of a knife and axe-head` | 4:22 |
+| χαλκός, σίδηρος | `of copper` · `of iron` | `of copper, of metal, of bronze, of anything made of brass and metal, of a copper and caldron and urn, of a brasen mirror, of a copper coin` · `of iron, of a weapon and sword, of a knife and axe-head` | 4:22 |
 | λόγος (pl.) | `the words` | `the words, the language and talk, the sayings and statements, the speech and discourse` | 4:23 |
 | ἀνήρ (anarthrous) | `man` | `man, man in the prime of life` | 4:23 |
 | τραῦμα | `a wound` | `a wound, a hurt and damage, a blow and defeat` | 4:23 |
@@ -4556,7 +4556,7 @@ it is a child; τρίβολος is a spiked iron for laming horses before it is 
 | lemma | headword | chain | used |
 | --- | --- | --- | --- |
 | οἶκος | `the house` | `the house and abode and dwelling, the room and chamber, the house of a god and temple, the household goods and substance, the household and family` | 7:1 |
-| καθαρός (articular gen. pl.) | `of the clear of dirt` | `of the clear of dirt and clean and spotless and unsoiled, of the clear and open and free, of the clear from shame and pollution and pure, of the clear of admixture, of the genuine`; μή before it as plain `not` | 7:2, 7:3, 7:8 |
+| καθαρός (articular gen. pl.) | `of the clear of dirt` | `of the clear of dirt and clean and spotless and unsoiled, of the clear and open and free, of the clear from shame and pollution and pure, of the clear of guilt and defilement and clean and pure, of the purified, of the clear of and from, of the clear of admixture and clear and pure, of the pure and genuine, of the without blemish, of the clear and exact`; μή before it as plain `not` | 7:2, 7:3, 7:8 |
 | ἡμέρα (anarthrous gen. pl.) | `of days` | `of days, of day-breaks, of times` | 7:4 |
 | ὑετός | `rain` · `the rain` | `rain, a heavy shower` | 7:4, 7:12 |
 | νύξ (pl.) | `night-seasons` | `night-seasons, nights, watches of the night, darknesses of night, nights of death` — the first tagged translation is *the night-season* | 7:4, 7:12, 7:17 |
@@ -8121,3 +8121,62 @@ text uses. Chains already in the corpus (Genesis) were read from it and re-infle
   devoted to the gods`.
 - One translation each, plain text: ὑφάντης, ποικιλτής, τρίχινος, ἕκτος, χωνεύω, ἐσώτερος, νέω (to spin),
   ὑποκαλύπτω, κατακαλύπτω (the active), the numerals.
+
+### Words new in EXO 27
+
+- **From LSJ** (not in Middle Liddell): δικτυωτός `to made in net-fashion, to latticed and trellised, to lattice`, the
+  last from θυρὶς δ., "lattice-window"; καλυπτήρ `the covering and sheath, the cover, the lid`, the singular without
+  the plural's *tiles*; περιαργυρόω `having been cased and plated with silver and standing so`; περιχαλκόω *you will
+  cover with brass or copper*, one translation, plain text, the "or" kept as in κανοῦν; σανιδωτός `planked and
+  boarded over`; ἄτρυγος `without lees and clarified and pure`; ῥαφιδευτής `of the stitcher and embroiderer`.
+- **Legacy chains brought to their cards**: καθαρός had dropped *clear of guilt or defilement, clean, pure*,
+  *purified*, *clear of or from*, *without blemish*, *clear, exact*, and the tails of *clear of admixture, clear,
+  pure* and *pure, genuine*: now `clear of dirt and clean and spotless and unsoiled, clear and open and free, clear
+  from shame and pollution and pure, clear of guilt and defilement and clean and pure, purified, clear of and from,
+  clear of admixture and clear and pure, pure and genuine, without blemish, clear and exact` (GEN 7, 8, 20, 24, 44,
+  EXO 25, 27). χαλκός carried *brass*, which Middle Liddell rules out ("bronze …, not brass"), and dropped four
+  senses: now `copper, metal, bronze, anything made of brass and metal, a copper and caldron and urn, a brasen
+  mirror, a copper coin` (GEN 4:22, EXO 25:3, 27:2, 27:6). κέρας had dropped *any projection, e.g. a mountain-peak*
+  and joined *a horn for blowing* to *a flute*, two senses: now `… the horns for blowing, the flutes, … the any
+  projections, the mountain-peaks` (GEN 22:13, EXO 27:2).
+- **Pieces set aside** (`NOT_SENSES`): φορεύς's *pack-*; κοῖλος's paraphrase of an empty bed, its examples' repeats
+  and Virgil; ἱστίον's *sail* and *the sails*, examples' repeats; κατασκευή's *in preparing for*; ἐσχάρα's *the
+  watch-fires*, πυρὸς ἐσχάραι; ἄργυρος's *white*, the gloss of ἀργός; καθαρός's examples, Horace and the adverb's;
+  συντάσσω's examples; χαλκός's definitions of *bronze* and *brass*; κόπτω's *to lay … waste*, cut, whole in
+  `MARKUP_LOST`.
+- **Form** (`FORM_SENSES`): παραδείκνυμι's active and passive leave out the middle's *to exhibit, bring forward*;
+  ποικιλία's and λύχνος's singular the plural's; καίω's and συντάσσω's active the middle's and the passive's;
+  κόπτω's middle-passive and passive the middle's.
+- **An adjective's chain is the adjective's**: κοῖλον at 27:8 is predicate, *you will make it hollow*, and its chain
+  leaves to the noun *the hold*, *the vale*, *the valley*, *a hollow, cavity, ravine*, *the cavities*: `hollow and
+  hollowed, lying in a hollow, forming a hollow, lying between high cliffs, embayed, nearly empty`.
+- **The article's noun follows its gender over a phrase**: τὸ πρὸς λίβα, τὸ κατὰ θάλασσαν, τοῦ ἐπὶ τῆς διαθήκης,
+  neuter, *the thing*, *of the thing*; and EXO 26:18, 20, 22, 27, 35, which had read the neuter *the one*, are
+  brought to it. δεύτερος's neuter with the article reads `the second, the thing coming in second, …, the thing
+  after, …`, and validate.py's chains check now takes *thing* after *the*, with words after it, for the article's
+  noun, as it already took *one*.
+- **Morphology**: the second pass was right on two: αὐτῶν after ἱστία is neuter, the hangings (seven times); ἐλαίων
+  is ἔλαιον's genitive plural by its accent (ἐλαία's is ἐλαιῶν), *olive-oil out of of olive-oils*. The measures at
+  27:1 stay accusative, as at 25:10; ὑάκινθος masculine, as at 25:4; φῶς under φάος, as at 10:23; διὰ παντός neuter,
+  as at 25:30.
+- New chains: θυσιαστήριον *altar*, plain; στεφάνη's anarthrous `anything that encircles, brim, a diadem and coronal,
+  edge, brow of a hill and edge of a cliff`; φιάλη `the broad and flat vessels and bowls, the cinerary urns, the
+  broad and flat bowls`; ἐσχάρα `hearth and fire-place, a pan of coals and brasier, an altar for burnt-offerings`, and
+  with the article and its cases; ἔργον `to work, to business, to deeds, to action, to works of industry and tilled
+  lands`; γωνία `of corners`; φορεύς `bearers and carriers`; πλευρόν `the ribs, the ribs and the sides, the sides,
+  the flanks`; αἴρω with ἐν, `in the taking up`; παραδείκνυμι `the thing having been exhibited side by side, the thing
+  having been represented, the thing having been exhibited and handed over`; αὐλή `court-yard, wall of the court-yard,
+  court, quadrangle, any court, hall`, `of the court-yard, …, of the any court, of the hall`; ἱστίον `any webs and
+  sails`, `of the any webs and sails`; ψαλίς `the pairs of scissors, the buildings with a pointed stone roof and
+  vaults`; ἀπηλιώτης `wind that comes from the rising sun and east wind`; ἄργυρος `to white metal, to silver, to
+  silver-money and money`; στῦλος `of the pillars`; κάλυμμα `a head-covering, a hood, veil, a covering, a grave`;
+  ποικιλία `to the marking with various colours and embroidering and embroidery, to the varied aspect and diversity,
+  to the versatility and subtlety and craft`; καταργυρόω `having been covered with silver and standing so, having been
+  silvered, having been bought, having been bribed with silver`; κατασκευή `the preparation, the equipment, the any
+  kind of furniture that is fixed, the building and fixture, the any furniture, the state and condition and
+  constitution, the device and trick`; ἐργαλεῖον `the tools and instruments`; πάσσαλος `the pegs, the gags`;
+  συντάσσω's imperative `put in order together, …`; κόπτω `having been struck and smitten and knocked down and
+  standing so, …` (Q21); καίω `to light and kindle, …`, `will light`, `may be lighted and kindled, may be lighted and
+  burn, …`; λύχνος `a portable light and lamp`; ὕψος `height, top and summit and crown`.
+- One translation each, plain text: θυσιαστήριον, κρεάγρα, πυρεῖον (*the piece of wood*, its plural's gloss in the
+  singular), κλίτος (*clime*, as at 26:18), λίψ (*SW. wind*), ἔλαιον, κόκκινος, περιχαλκόω, the numerals.

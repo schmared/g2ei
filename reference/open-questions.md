@@ -398,3 +398,21 @@ reading cannot say without adding *little* the entry does not print.
 
 **Recommendation:** keep the pointer's senses and say "Dim." in the note, as now; the reading adds no word the
 lexicon lacks.
+
+## Q21. A passive whose English object sits inside a phrase
+
+**Where:** EXO 27:20 κεκομμένον, κόπτω's perfect passive participle. Middle Liddell gives "k. τὴν χώραν «to cut down
+the trees in» it, «to lay» it «waste»": in the active the land is the object, and the English puts it inside the
+phrase, after *in*.
+
+**Now:** the passive is said in English's own way, the land the subject: `having had the trees in it cut down`, and
+`having been laid waste` from *to lay it waste*.
+
+- now: `…, having been felled, having had the trees in it cut down, having been laid waste, …`
+- the other reading: the gloss inflected as it stands, `having been cut down the trees in`, which is not English
+
+**The difference:** English cannot passivise *to cut down the trees in it*; the only English passive adds *had* and
+moves *it*, words the gloss carries in another order.
+
+**Recommendation:** keep the English passive, as now, and say so in the note; or leave such senses out of a passive's
+chain, as the middle's are left out, since the Greek passive of κόπτω with the land as subject is the same sense.

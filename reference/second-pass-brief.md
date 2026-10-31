@@ -667,6 +667,12 @@ Twelve disagreements over 772 words, and the second pass was right on six: τῷ
 comparative adjective; τὸ καταπέτασμα nominative, the subject of διοριεῖ; ἔξωθεν with a genitive the preposition.
 ὑάκινθος stays masculine, as at 25:4; the measures at 26:2 nominative, at 26:16 accusative.
 
+### What it found in Exodus 27
+
+Seventeen disagreements over 453 words, and the second pass was right on two: αὐτῶν after ἱστία neuter, the hangings,
+seven times; ἐλαίων ἔλαιον's genitive plural, by its accent. The measures at 27:1 stay accusative, as at 25:10;
+ὑάκινθος masculine; φῶς under φάος; διὰ παντός neuter.
+
 ## The brief
 
 Copy everything below the rule into a new agent. Replace `<BOOK NAME>`, `<CHAPTER>`,
