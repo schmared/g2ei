@@ -419,7 +419,8 @@ chain, as the middle's are left out, since the Greek passive of κόπτω with 
 
 **Also:** EXO 28:14 καταμεμιγμένα, καταμίγνυμι's *to mix up, mingle the ingredients*: in the passive the ingredients
 are the subject, `having been mixed up and mingled`; EXO 28:20 περικεκαλυμμένα, περικαλύπτω's *to throw a veil* (of
-darkness over …): `having had a veil thrown over them`.
+darkness over …): `having had a veil thrown over them`. EXO 31:18 γεγραμμένας, γράφω's *to write a person's name*: `having had a person's name
+written`; its *to move that* is left out of the passive, whose subject cannot take the clause.
 
 ## Q22. ὑάκινθος: masculine by the lexicon's heading, feminine where the text marks it
 
@@ -488,3 +489,21 @@ the lexicon does not print but tells the reader less.
 
 **Recommendation:** keep the description, as σμάραγδος's *a precious stone of a green colour* is kept from inside its
 Latin.
+
+## Q26. A first translation that is only a preposition
+
+**Where:** EXO 31:3 θεῖον. Middle Liddell prints "«of» or «from the gods, sent by the gods, issuing from them,
+divine»": Perseus marks *of* as a translation of its own, so the entry's first translation, read by its markup, is a
+bare preposition.
+
+**Now:** the headword is `of or from the gods`, the two translations the *or* joins read as one, as LSJ's μυρεψικός
+*of or for unguents* at EXO 30:25. σοφός keeps its first translation alone, `skilled in any handicraft`, with *or art*
+in the chain, because that one is a sense by itself.
+
+- now: `of or from the gods — of or from the gods and sent by the gods and issuing from them and divine, … —`
+- the other reading: `of — of or from the gods and sent by the gods …, … —`, the markup's first translation
+
+**The difference:** *of* alone says nothing, and in the anchored panel it reads as a genitive's marker.
+
+**Recommendation:** keep `of or from the gods`; where a first translation is a preposition or a particle that only an
+*or* completes, read the *or* as the printed entry does.

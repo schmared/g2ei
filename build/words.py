@@ -557,6 +557,13 @@ LSJ = {
     "σίκλος": ["shekel"],
     "χαλβάνη": ["the resinous juice of all-heal"],
     "ἐξιλασμός": ["propitiation, atonement"],
+    # EXO 31. Not in Middle Liddell. LSJ (eng14): νηστός, "«spun»", citing 31:4, one translation. LSJ (eng4):
+    # διασκευή, "«construction»", "«equipment»", "«furniture» or «vessels»", citing 31:7, "«rhetorical elaboration» of
+    # a topic", "«set phrases»", "«new edition» or «recension» of a work", "«theatrical performance»"; its V, "=
+    # ἀνασκευή", is a pointer and not a translation, and is left out.
+    "νηστός": ["spun"],
+    "διασκευή": ["construction", "equipment", "furniture or vessels", "rhetorical elaboration", "set phrases",
+                 "new edition or recension", "theatrical performance"],
     # EXO 12. None of these is in Middle Liddell. LSJ (eng3): γειώρας, "sojourner", "proselyte". LSJ
     # (eng4): δέσμη, "package, bundle", "a measure in Egypt", "in Medicine, handful"; Rahlfs prints the
     # accusative δεσμήν, the module δέσμην. LSJ (eng5): ἐνδόσθια, "= ἐντόσθια", a pointer to ἐντόσθιος,
@@ -1690,6 +1697,9 @@ NOT_SENSES = {
     "e)panastre/fw": {"to turn back upon"},    # "to turn back upon one", cut, whole in MARKUP_LOST
     "r(h/gnumi": {"to break, break asunder", "in pieces, rend, shiver, shatter", "force one's", "breaking into speech",
                   "rumpere vocem", "having let loose"},  # "to break … or in pieces", cut, whole in MARKUP_LOST; a piece, examples', Virgil
+    # EXO 31
+    "a)nakale/w": {"from"},                    # "esp. «from» exile", a piece of to recall
+    "qei=os": {"by divine", "most marvellous", "distinction"},  # examples' pieces: θείᾳ μοίρᾳ, the superlative, a title's
     # EXO 30
     "*)=iris": {"Iris"},                       # the goddess's name, and the plant's, whole in MARKUP_LOST
     "o)/nuc": {"my fingers' ends", "on tiptoe", "de tenero ungui"},  # phrases', ἐξ ἄκρων ὀνύχων and the like; Horace
@@ -1987,7 +1997,11 @@ FORM_SENSES = {
     # passive's; ἀνέγνω, the second aorist, leaves out the Ionic first aorist's "to persuade" or "induce" and its
     # passive; ἡσυχάζω is "causal in aor1", and its other tenses leave out "to make still, lay to rest".
     "gra/fw": [("PIFAXY", "A", NOT_SENSES["gra/fw"] | {"to write for oneself or for one's own use, note down", "to indict",
-                                                       "denounce", "to be indicted"})],
+                                                       "denounce", "to be indicted"}),
+               # EXO 31. The perfect passive reads the active's senses in the passive and the passive's own, less the
+               # middle's and "to move that", whose clause the passive cannot hold (Q21).
+               ("PIFAXY", "EP", NOT_SENSES["gra/fw"] | {"to write for oneself or for one's own use, note down",
+                                                        "to indict", "denounce", "to move that"})],
     "a)nagignw/skw": [("A", "A", NOT_SENSES["a)nagignw/skw"] | {"to persuade", "induce", "to be persuaded"},
                        "γνω(ν|ς|μεν|τε|σαν)?$")],
     "nomoqete/w": [("PIFAXY", "A", NOT_SENSES["nomoqete/w"] | {"to make laws for oneself, frame laws",
@@ -2005,6 +2019,11 @@ FORM_SENSES = {
     "u(poste/llw": [("PIFAXY", "ME", NOT_SENSES["u(poste/llw"] | {"to draw in", "made him furl", "to draw back for shelter",
                                                                   "to shelter oneself behind", "to withdraw"})],
     "ptwxo/s": [("-", "-", NOT_SENSES["ptwxo/s"] | {"a beggar-woman"}, None, "^......[MN]")],
+    # EXO 31. ἀνακαλέω's middle reads the senses Middle Liddell gives "so in Mid." and "Mid.", less the active's "to
+    # summon, cite", "to call" by a name and "to call on"; τεκτονικός's neuter leaves out the masculine's and the
+    # feminine's as nouns, "a good carpenter or builder" and "joiners' work, carpentry".
+    "a)nakale/w": [("PIFAXY", "ME", NOT_SENSES["a)nakale/w"] | {"to summon, cite", "to call", "to call on"})],
+    "tektoniko/s": [("-", "-", {"a good carpenter", "builder", "joiners' work, carpentry"}, None, "^......N")],
     # δικαιόω's active leaves out the passive's "proved, tested", and the passive the active's constructions with
     # an infinitive, "to consent" to do and "to desire" one to do, as GEN 38:26 and 44:16 read it. ἀναπαύω's middle
     # reads the Mid. and Pass. section, as GEN 29:2 and 49:14 do. ἐξίστημι is "causal in pres., imperf., fut.,

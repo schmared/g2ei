@@ -1,0 +1,494 @@
+[
+  {
+    "ref": "EXO 31:1",
+    "greek": "Καὶ ἐλάλησεν κύριος πρὸς Μωυσῆν λέγων",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 140",
+    "hint": "The Lord speaks to Moses again.",
+    "notes": [
+      {
+        "lemma": "λέγων",
+        "flag": null,
+        "text": "λέγω's participle, saying, introducing the speech that follows."
+      }
+    ],
+    "reading": "And [[talked|talked, chatted, prattled, babbled, said, talked of, spoke, chattered, chirped|λαλέω]] [[lord|lord, master, the one having power and authority over|κύριος]] [[toward|toward, facing, oriented to, in living motion and address toward|πρός + accusative]] [[name:Μωυσῆν]] [[saying|saying, speaking, declaring, calling by name, telling|λέγω]]",
+    "names": [
+      {
+        "greek": "Μωυσῆν",
+        "unanchored": "Mōusēn",
+        "anchored": "Moses",
+        "gloss": "(Μωυσῆς, from Hebrew Mōšeh, which the Hebrew of 2:10 hears in māšâ, \"to draw out\")"
+      }
+    ]
+  },
+  {
+    "ref": "EXO 31:2",
+    "greek": "Ἰδοὺ ἀνακέκλημαι ἐξ ὀνόματος τὸν Βεσελεηλ τὸν τοῦ Ουριου τὸν Ωρ τῆς φυλῆς Ιουδα",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 140",
+    "hint": "Bezalel, son of Uri, son of Hur, of Judah, is called by name.",
+    "notes": [
+      {
+        "lemma": "ἀνακέκλημαι",
+        "flag": null,
+        "text": "ἀνακαλέω, the perfect middle: the middle's senses, to call up the dead, to invoke, to call to oneself, summon; the active's to summon, cite, to call by a name, to call on left out (FORM_SENSES)."
+      },
+      {
+        "lemma": "τὸν τοῦ Ουριου τὸν Ωρ",
+        "flag": null,
+        "text": "The article over the genitive, the one of Uri, and over Ωρ, indeclinable and genitive here, the one of Hur, as τὴν δρῦν τὴν Μαμβρη at Genesis 13:18."
+      },
+      {
+        "lemma": "ἐξ ὀνόματος",
+        "flag": null,
+        "text": "Out of a name, ἐκ with the genitive, where the Hebrew has bĕšēm, by name."
+      }
+    ],
+    "reading": "[[lo|lo, behold, see there|ἰδού]] [[I have called up the dead|I have called up the dead and it stands so, I have called again and again, I have invoked and appealed to, I have called to myself and sent for and summoned, I have cheered on, I have called back and recalled|ἀνακαλέω]] [[out of|out of, forth from, from|ἐκ]] [[of a name|of a name, of fame, of a mere name, of a phrase and expression|ὄνομα]] the [[name:Βεσελεηλ]], the one of the [[name:Ουριου]], the one of [[name:Ωρ]], [[of the race|of the race, of the tribe, of the body united by ties of blood and descent, of the clan, of the tribe by local habitation, of the hundred and county, of the contingent furnished by a tribe, of the brigade|φυλή]] of [[name:Ιουδα]]",
+    "names": [
+      {
+        "greek": "Βεσελεηλ",
+        "unanchored": "Beseleēl",
+        "anchored": "Bezalel",
+        "gloss": "(Βεσελεηλ, from Hebrew Bĕṣalʾēl, \"in the shadow of God\")"
+      },
+      {
+        "greek": "Ουριου",
+        "unanchored": "Ouriou",
+        "anchored": "Uri",
+        "gloss": "(Ουριας, from Hebrew ʾÛrî, from ʾûr, \"flame, light\")"
+      },
+      {
+        "greek": "Ωρ",
+        "unanchored": "Ōr",
+        "anchored": "Hur",
+        "gloss": "(Ωρ, from Hebrew Ḥûr, of uncertain meaning)"
+      },
+      {
+        "greek": "Ιουδα",
+        "unanchored": "Iouda",
+        "anchored": "Judah",
+        "gloss": "(Ιουδα, from Hebrew Yĕhûdâ, which the Hebrew of Genesis 29:35 hears in yādâ, \"to praise\")"
+      }
+    ]
+  },
+  {
+    "ref": "EXO 31:3",
+    "greek": "καὶ ἐνέπλησα αὐτὸν πνεῦμα θεῖον σοφίας καὶ συνέσεως καὶ ἐπιστήμης ἐν παντὶ ἔργῳ",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 140",
+    "hint": "He is filled with a divine spirit of wisdom, understanding and knowledge for every work.",
+    "notes": [
+      {
+        "lemma": "πνεῦμα θεῖον",
+        "flag": "divergence",
+        "text": "θεῖος, of or from the gods, divine, an adjective, where the Hebrew has rûaḥ ʾĕlōhîm, the spirit of God, a noun in construct."
+      },
+      {
+        "lemma": "θεῖον",
+        "flag": null,
+        "text": "Middle Liddell prints «of» or «from the gods», two translations of one sense; the headword keeps the or. Its neuter as a noun, the Divinity, and its adverb are left out of the adjective's chain."
+      },
+      {
+        "lemma": "σοφίας … συνέσεως … ἐπιστήμης",
+        "flag": null,
+        "text": "Genitives after ἐνέπλησα with πνεῦμα as its accusative: σοφία, skill; σύνεσις, a coming together, quick comprehension, intelligence; ἐπιστήμη, acquaintance with, knowledge."
+      },
+      {
+        "lemma": "συνέσεως",
+        "flag": null,
+        "text": "σύνεσις: Middle Liddell's conscience, = συνείδησις, keeps conscience; the pointer is not a translation."
+      }
+    ],
+    "reading": "and [[I filled quite full|I filled quite full, I filled full of|ἐμπίπλημι]] him [[blowing|blowing, a wind and blast, a breeze, influence, breathed air and breath, the ghost, that which is breathed forth and odour and scent, spirit, inspiration|πνεῦμα]] [[of or from the gods|of or from the gods and sent by the gods and issuing from them and divine, appointed of God, belonging or sacred to a god and in honour of a god and holy, under divine protection, more than human and wondrous, divinely strong and great and beautiful, excellent, marvellous|θεῖος]] [[of skill|of skill, of knowledge of and acquaintance with, of sound judgment and intelligence and practical wisdom, of cunning and shrewdness and craft, of wisdom and philosophy|σοφία]] and [[of a coming together|of a coming together and union, of quick comprehension and mother-wit and intelligence and sagacity, of intelligence in, of sagacity in respect to, of conscience, of a branch of art or science|σύνεσις]] and [[of acquaintance with|of acquaintance with, of skill and experience, of knowledge, of scientific knowledge and science|ἐπιστήμη]] [[in all|within, inside of, and by means of all, the whole, every, every single|ἐν; πᾶς]] [[to work|to work, to business, to deeds, to action, to works of industry and tilled lands|ἔργον]]",
+    "names": []
+  },
+  {
+    "ref": "EXO 31:4",
+    "greek": "διανοεῖσθαι καὶ ἀρχιτεκτονῆσαι ἐργάζεσθαι τὸ χρυσίον καὶ τὸ ἀργύριον καὶ τὸν χαλκὸν καὶ τὴν ὑάκινθον καὶ τὴν πορφύραν καὶ τὸ κόκκινον τὸ νηστὸν καὶ τὴν βύσσον τὴν κεκλωσμένην",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 140",
+    "hint": "The work is to plan and design in gold, silver, bronze and the dyed and twisted yarns.",
+    "notes": [
+      {
+        "lemma": "ἀρχιτεκτονῆσαι",
+        "flag": null,
+        "text": "ἀρχιτεκτονέω, to be the architect, to construct, contrive."
+      },
+      {
+        "lemma": "νηστόν",
+        "flag": null,
+        "text": "νηστός, not in Middle Liddell: LSJ's spun, citing this verse, one translation, plain text."
+      },
+      {
+        "lemma": "ἐργάζεσθαι",
+        "flag": null,
+        "text": "No καί before it: the infinitive stands beside the two before it."
+      }
+    ],
+    "reading": "[[to be minded|to be minded, to intend, to purpose, to think over, to think of, to think and suppose, to be disposed|διανοέομαι]] and [[to be the architect|to be the architect, to construct and contrive|ἀρχιτεκτονέω]], [[to work|to work, to labour, to work at and make and build, to do and perform and accomplish, to work the land, to earn by working|ἐργάζομαι]] [[the piece of gold|the piece of gold, gold, gold coin and money|χρυσίον]] and [[the piece of silver|the piece of silver and silver coin, the money and sum of money and cash, the silver|ἀργύριον]] and [[the copper|the copper, the metal, the bronze, the anything made of brass and metal, the copper and caldron and urn, the brasen mirror, the copper coin|χαλκός]] and [[the hyacinth|the hyacinth, the sapphire|ὑάκινθος]] and [[the purple-fish|the purple-fish, the purple dye and purple, the purple raiment|πορφύρα]] and the scarlet, the spun, and [[the fine flax|the fine flax, the linen made from it|βύσσος]] [[the one having been twisted by spinning|the one having been twisted by spinning and spun and standing so|κλώθω]]",
+    "names": []
+  },
+  {
+    "ref": "EXO 31:5",
+    "greek": "καὶ τὰ λιθουργικὰ καὶ εἰς τὰ ἔργα τὰ τεκτονικὰ τῶν ξύλων ἐργάζεσθαι κατὰ πάντα τὰ ἔργα.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 140",
+    "hint": "It runs to stonework and woodwork, and to work of every kind.",
+    "notes": [
+      {
+        "lemma": "τὰ λιθουργικά",
+        "flag": null,
+        "text": "λιθουργικός, not in Middle Liddell: LSJ's of or for a λιθουργός, as at 28:11, plain text, with the article."
+      },
+      {
+        "lemma": "τεκτονικά",
+        "flag": null,
+        "text": "τεκτονικός, «practised» or «skilled in building», one sense; the noun's a good carpenter, and joiners' work, left out of the neuter (FORM_SENSES)."
+      }
+    ],
+    "reading": "and the of or for a lithourgos (λιθουργός) and [[into|into, to, in, rest in|εἰς]] [[the works|the works, the business, the deeds|ἔργον]] [[the practised|the practised or skilled in building|τεκτονικός]] [[of the woods|of the woods, of the firewood, of the timbers, of the pieces of wood and posts, of the sticks|ξύλον]] [[to work|to work, to labour, to work at and make and build, to do and perform and accomplish, to work the land, to earn by working|ἐργάζομαι]] [[down|down, downwards, down from, down upon, over, upon|κατά + accusative]] [[all|all, the whole, every, every single|πᾶς]] [[the works|the works, the business, the deeds|ἔργον]].",
+    "names": []
+  },
+  {
+    "ref": "EXO 31:6",
+    "greek": "καὶ ἐγὼ ἔδωκα αὐτὸν καὶ τὸν Ελιαβ τὸν τοῦ Αχισαμαχ ἐκ φυλῆς Δαν καὶ παντὶ συνετῷ καρδίᾳ δέδωκα σύνεσιν, καὶ ποιήσουσιν πάντα, ὅσα σοι συνέταξα,",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, pp. 140–141",
+    "hint": "Eliab of Dan is given to him, and every skilled heart is given understanding to do it all.",
+    "notes": [
+      {
+        "lemma": "Ελιαβ",
+        "flag": "divergence",
+        "text": "Ελιαβ, where the Hebrew has ʾĀhŏlîʾāb, Oholiab; the Greek spells it as the name Eliab, and the reading follows the Greek."
+      },
+      {
+        "lemma": "ἔδωκα αὐτόν",
+        "flag": null,
+        "text": "I gave him: δίδωμι with αὐτόν, Bezalel, the object, for the Hebrew nātattî ʾittô, I have given with him."
+      },
+      {
+        "lemma": "συνετῷ καρδίᾳ",
+        "flag": null,
+        "text": "συνετός, intelligent, sagacious, wise, its run one item; καρδίᾳ the dative of respect, to heart."
+      }
+    ],
+    "reading": "and I [[I gave|I gave, I granted, I provided, I gave over and delivered up|δίδωμι]] him and the [[name:Ελιαβ]], the one of the [[name:Αχισαμαχ]], [[out of|out of, forth from, from|ἐκ]] [[of race|of race, of tribe, of body united by ties of blood and descent, of clan, of tribe by local habitation, of hundred and county, of contingent furnished by a tribe, of brigade|φυλή]] of [[name:Δαν]], and [[to all|to all, to the whole, to every, to every single|πᾶς]] [[to intelligent|to intelligent and sagacious and wise, to intelligent in, to intelligible|συνετός]] [[to heart|to heart, to stomach|καρδία]] [[I have given|I have given and it stands given, I have granted and it stands granted, I have provided and it stands provided, I have given over and delivered up and it stands so|δίδωμι]] [[a coming together|a coming together and union, quick comprehension and mother-wit and intelligence and sagacity, intelligence in, sagacity in respect to, conscience, a branch of art or science|σύνεσις]], and [[they will make|they will make, they will do, they will produce, they will create|ποιέω]] [[all|all, the whole, every, every single|πᾶς]], [[as great as|as great as, as much as, as far as, as long as, as many as|ὅσος]] to you [[I put in order together|I put in order together, I drew up and put in array, I arranged and organised, I concocted, I fixed and assessed, I ordained and prescribed|συντάσσω]],",
+    "names": [
+      {
+        "greek": "Ελιαβ",
+        "unanchored": "Eliab",
+        "anchored": "Eliab",
+        "gloss": "(Ελιαβ, from Hebrew ʾĀhŏlîʾāb, \"father's tent\")"
+      },
+      {
+        "greek": "Αχισαμαχ",
+        "unanchored": "Achisamach",
+        "anchored": "Ahisamach",
+        "gloss": "(Αχισαμαχ, from Hebrew ʾĂḥîsāmāk, \"my brother has supported\")"
+      },
+      {
+        "greek": "Δαν",
+        "unanchored": "Dan",
+        "anchored": "Dan",
+        "gloss": "(Δαν, from Hebrew Dān, which the Hebrew of Genesis 30:6 hears in dîn, \"he judged\")"
+      }
+    ]
+  },
+  {
+    "ref": "EXO 31:7",
+    "greek": "τὴν σκηνὴν τοῦ μαρτυρίου καὶ τὴν κιβωτὸν τῆς διαθήκης καὶ τὸ ἱλαστήριον τὸ ἐπʼ αὐτῆς καὶ τὴν διασκευὴν τῆς σκηνῆς",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 141",
+    "hint": "The list begins: the tent, the ark, its mercy seat and the tent's furnishings.",
+    "notes": [
+      {
+        "lemma": "διασκευήν",
+        "flag": null,
+        "text": "διασκευή, not in Middle Liddell: LSJ's construction, equipment, furniture or vessels, citing this verse, and its later senses; its = ἀνασκευή is a pointer, left out."
+      },
+      {
+        "lemma": "τὸ ἐπʼ αὐτῆς",
+        "flag": null,
+        "text": "The article over the phrase, the thing upon of her: the mercy-seat on the ark, κιβωτός being feminine."
+      }
+    ],
+    "reading": "[[the covered place|the covered place and tent, the camp, the dwelling-place, the temple|σκηνή]] [[of the testimony|of the testimony and proof|μαρτύριον]] and [[the wooden box|the wooden box and chest and coffer|κιβωτός]] [[of the disposition|of the disposition of property by will, of the will and testament, of the arrangement between two parties, of the covenant|διαθήκη]] and [[the mercy-seat|the mercy-seat, the propitiation|ἱλαστήριον]], the thing [[upon|upon, on, in, at, near|ἐπί + genitive]] of her, and [[the construction|the construction, the equipment, the furniture or vessels, the rhetorical elaboration, the set phrases, the new edition or recension, the theatrical performance|διασκευή]] [[of the covered place|of the covered place and tent, of the camp, of the dwelling-place, of the temple|σκηνή]]",
+    "names": []
+  },
+  {
+    "ref": "EXO 31:8",
+    "greek": "καὶ τὰ θυσιαστήρια καὶ τὴν τράπεζαν καὶ πάντα τὰ σκεύη αὐτῆς καὶ τὴν λυχνίαν τὴν καθαρὰν καὶ πάντα τὰ σκεύη αὐτῆς",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 141",
+    "hint": "It goes on: the altars, the table, the pure lampstand and their vessels.",
+    "notes": [
+      {
+        "lemma": "τὰ θυσιαστήρια",
+        "flag": "divergence",
+        "text": "The altars, the plural, where the Hebrew names the altar of incense here and the altar of burnt offering in 31:9."
+      },
+      {
+        "lemma": "θυσιαστήρια",
+        "flag": null,
+        "text": "θυσιαστήριον, an altar, one translation, plain text."
+      }
+    ],
+    "reading": "and the altars and [[the table|the table, the dining-table, the board, the dinner and meal, the money-changer's table and bank|τράπεζα]] and [[all|all, the whole, every, every single|πᾶς]] [[the vessels|the vessels, the implements of any kind, the furniture and house-gear and utensils and chattels, the accoutrements and equipment, the baggage and luggage, the tackling, the gear, the inanimate objects and things, the bodies and vessels|σκεῦος]] of her and the lampstand [[the clear of dirt|the clear of dirt and clean and spotless and unsoiled, the clear and open and free, the clear from shame and pollution and pure, the clear of guilt and defilement and clean and pure, the purified, the clear of and from, the clear of admixture and clear and pure, the pure and genuine, the without blemish, the clear and exact|καθαρός]] and [[all|all, the whole, every, every single|πᾶς]] [[the vessels|the vessels, the implements of any kind, the furniture and house-gear and utensils and chattels, the accoutrements and equipment, the baggage and luggage, the tackling, the gear, the inanimate objects and things, the bodies and vessels|σκεῦος]] of her",
+    "names": []
+  },
+  {
+    "ref": "EXO 31:9",
+    "greek": "καὶ τὸν λουτῆρα καὶ τὴν βάσιν αὐτοῦ",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 141",
+    "hint": "The basin and its stand.",
+    "notes": [
+      {
+        "lemma": "λουτῆρα",
+        "flag": null,
+        "text": "λουτήρ, LSJ's washing or bathing-tub, as at 30:18, plain text."
+      }
+    ],
+    "reading": "and the washing or bathing-tub and [[the stepping and step|the stepping and step, the step, the power to step, the rolling, the that with which one steps and foot, the that whereon one stands and base|βάσις]] of him",
+    "names": []
+  },
+  {
+    "ref": "EXO 31:10",
+    "greek": "καὶ τὰς στολὰς τὰς λειτουργικὰς Ααρων καὶ τὰς στολὰς τῶν υἱῶν αὐτοῦ ἱερατεύειν μοι",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 141",
+    "hint": "The vestments for Aaron and his sons in the priest's office.",
+    "notes": [
+      {
+        "lemma": "λειτουργικάς",
+        "flag": null,
+        "text": "λειτουργικός, ministering, one translation, plain text, with the article."
+      },
+      {
+        "lemma": "ἱερατεύειν",
+        "flag": null,
+        "text": "ἱερατεύω, to be a priest, one translation, plain text."
+      }
+    ],
+    "reading": "and [[the equipments|the equipments and armaments, the equipment and raiment and apparel, the pieces of dress and garments and robes|στολή]] the ministering of [[name:Ααρων]] and [[the equipments|the equipments and armaments, the equipment and raiment and apparel, the pieces of dress and garments and robes|στολή]] of the sons of him to be a priest to me",
+    "names": [
+      {
+        "greek": "Ααρων",
+        "unanchored": "Aarōn",
+        "anchored": "Aaron",
+        "gloss": "(Ααρων, from Hebrew ʾAhărōn, of uncertain meaning)"
+      }
+    ]
+  },
+  {
+    "ref": "EXO 31:11",
+    "greek": "καὶ τὸ ἔλαιον τῆς χρίσεως καὶ τὸ θυμίαμα τῆς συνθέσεως τοῦ ἁγίου· κατὰ πάντα, ὅσα ἐγὼ ἐνετειλάμην σοι, ποιήσουσιν.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 141",
+    "hint": "The anointing oil and the incense close the list: all is to be made as commanded.",
+    "notes": [
+      {
+        "lemma": "τοῦ ἁγίου",
+        "flag": null,
+        "text": "The genitive of ἅγιος with the article, of the devoted to the gods; the composition is the holy one's, or the sanctuary's."
+      },
+      {
+        "lemma": "ἐνετειλάμην",
+        "flag": null,
+        "text": "ἐντέλλομαι, to enjoin, command."
+      }
+    ],
+    "reading": "and the olive-oil [[of the smearing|of the smearing, of the anointing, of the colouring and varnish and wash, of the colour-washing|χρῖσις]] and [[the that which is burnt as incense|the that which is burnt as incense, the fragrant stuffs, the stuff for embalming|θυμίαμα]] [[of the putting together|of the putting together and composition and combination, of the composition, of the agreement and treaty, of the suit of clothes, of the loose gown|σύνθεσις]] [[of the devoted to the gods|of the devoted to the gods and sacred and holy, of the holy and pure|ἅγιος]]; [[down|down, downwards, down from, down upon, over, upon|κατά + accusative]] [[all|all, the whole, every, every single|πᾶς]], [[as great as|as great as, as much as, as far as, as long as, as many as|ὅσος]] I [[I enjoined|I enjoined, I commanded|ἐντέλλομαι]] to you, [[they will make|they will make, they will do, they will produce, they will create|ποιέω]].",
+    "names": []
+  },
+  {
+    "ref": "EXO 31:12",
+    "greek": "Καὶ ἐλάλησεν κύριος πρὸς Μωυσῆν λέγων",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 141",
+    "hint": "The Lord speaks to Moses again.",
+    "notes": [
+      {
+        "lemma": "λέγων",
+        "flag": null,
+        "text": "λέγω's participle, saying."
+      }
+    ],
+    "reading": "And [[talked|talked, chatted, prattled, babbled, said, talked of, spoke, chattered, chirped|λαλέω]] [[lord|lord, master, the one having power and authority over|κύριος]] [[toward|toward, facing, oriented to, in living motion and address toward|πρός + accusative]] [[name:Μωυσῆν]] [[saying|saying, speaking, declaring, calling by name, telling|λέγω]]",
+    "names": [
+      {
+        "greek": "Μωυσῆν",
+        "unanchored": "Mōusēn",
+        "anchored": "Moses",
+        "bare": true
+      }
+    ]
+  },
+  {
+    "ref": "EXO 31:13",
+    "greek": "Καὶ σὺ σύνταξον τοῖς υἱοῖς Ισραηλ λέγων Ὁρᾶτε καὶ τὰ σάββατά μου φυλάξεσθε· σημεῖόν ἐστιν παρʼ ἐμοὶ καὶ ἐν ὑμῖν εἰς τὰς γενεὰς ὑμῶν, ἵνα γνῶτε ὅτι ἐγὼ κύριος ὁ ἁγιάζων ὑμᾶς.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 141",
+    "hint": "Israel is told to keep the Lord's sabbaths, a sign that it is he who makes them holy.",
+    "notes": [
+      {
+        "lemma": "Ὁρᾶτε",
+        "flag": null,
+        "text": "The present imperative of ὁράω; the chain of see, as at 16:29."
+      },
+      {
+        "lemma": "φυλάξεσθε",
+        "flag": null,
+        "text": "The future middle, you will keep watch and ward for yourselves, as at 19:12."
+      },
+      {
+        "lemma": "παρʼ ἐμοὶ καὶ ἐν ὑμῖν",
+        "flag": null,
+        "text": "Beside to me and in to you: παρά with the dative, and ἐν, where the Hebrew has bênî ûbênêkem, between me and you."
+      }
+    ],
+    "reading": "And you [[put in order together|put in order together, draw up and put in array, arrange and organise, concoct, fix and assess, ordain and prescribe|συντάσσω]] to the sons of [[name:Ισραηλ]] [[saying|saying, speaking, declaring, calling by name, telling|λέγω]] [[see|see, perceive, behold, look at|ὁράω]], and [[the sabbaths|the sabbaths, the rests, the periods of seven days and weeks|σάββατον]] of me [[you will keep watch and ward for yourselves|you will keep watch and ward for yourselves and keep guard, you will watch and guard and keep and defend, you will watch for and lie in wait for, you will keep and maintain and cherish, you will observe|φυλάσσω]]; [[a sign|a sign, a mark and token, a sign from the gods and an omen, a signal, a standard and ensign, a boundary|σημεῖον]] is [[beside|beside, alongside of, by, at, before, with|παρά + dative]] to me and [[in|within, inside of, and by means of|ἐν]] to you [[into|into, to, in, rest in|εἰς]] [[the races|the races and stocks and families, the breeds, the tribes and nations, the races and generations, the offspring, the birth-places, the ages and times of life, the times of birth|γενεά]] of you, [[that|that, in order that|ἵνα]] [[you may learn to know|you may learn to know, you may perceive, you may mark, you may learn, you may discern and distinguish|γινώσκω]] [[that|that, seeing that, although, for that, because, inasmuch as|ὅτι]] I [[lord|lord, master, the one having power and authority over|κύριος]], [[the one hallowing|the one hallowing and making sacred|ἁγιάζω]] you.",
+    "names": [
+      {
+        "greek": "Ισραηλ",
+        "unanchored": "Israēl",
+        "anchored": "Israel",
+        "gloss": "(Ισραηλ, from Hebrew Yiśrāʾēl, which the Hebrew of Genesis 32:29 hears in śārâ ʿim ʾĕlōhîm, \"he strove with God\")"
+      }
+    ],
+    "speech": [
+      "Ὁρᾶτε"
+    ]
+  },
+  {
+    "ref": "EXO 31:14",
+    "greek": "καὶ φυλάξεσθε τὰ σάββατα, ὅτι ἅγιον τοῦτό ἐστιν κυρίου ὑμῖν· ὁ βεβηλῶν αὐτὸ θανάτῳ θανατωθήσεται· πᾶς, ὃς ποιήσει ἐν αὐτῷ ἔργον, ἐξολεθρευθήσεται ἡ ψυχὴ ἐκείνη ἐκ μέσου τοῦ λαοῦ αὐτοῦ.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 141",
+    "hint": "Whoever profanes the sabbath dies; whoever works on it is cut off.",
+    "notes": [
+      {
+        "lemma": "βεβηλῶν",
+        "flag": null,
+        "text": "βεβηλόω, to profane, one translation, plain text, the article inside its noun, the one."
+      },
+      {
+        "lemma": "θανάτῳ θανατωθήσεται",
+        "flag": null,
+        "text": "The dative of the noun beside the verb, to death will be put to death, as 21:12."
+      },
+      {
+        "lemma": "ἅγιον τοῦτό ἐστιν κυρίου",
+        "flag": "divergence",
+        "text": "Holy this is of the lord, where the Hebrew has qōdeš hîʾ lākem, it is holy to you; ὑμῖν follows."
+      }
+    ],
+    "reading": "and [[you will keep watch and ward for yourselves|you will keep watch and ward for yourselves and keep guard, you will watch and guard and keep and defend, you will watch for and lie in wait for, you will keep and maintain and cherish, you will observe|φυλάσσω]] [[the sabbaths|the sabbaths, the rests, the periods of seven days and weeks|σάββατον]], [[that|that, seeing that, although, for that, because, inasmuch as|ὅτι]] [[devoted to the gods|devoted to the gods and sacred and holy, holy and pure|ἅγιος]] [[this|this, the nearer, what follows|οὗτος]] is [[of lord|of lord, of master, of the one having power and authority over|κύριος]] to you; the one profaning it [[to death|to death, to the death threatened, to the sentence of death|θάνατος]] [[will be put to death|will be put to death, will be mortified, will be put to death by sentence|θανατόω]]; [[all|all, the whole, every, every single|πᾶς]], who [[will make|will make, will do, will produce, will create|ποιέω]] [[in|within, inside of, and by means of|ἐν]] to it [[work|work, business, deeds, action, works of industry and tilled lands|ἔργον]], will be destroyed utterly [[the breath|the breath, the life, the spirit, life and death, the ghost, the departed soul|ψυχή]] [[that|that, the one there, the more remote|ἐκεῖνος]] [[out of|out of, forth from, from|ἐκ]] [[of middle|of middle, of in the middle, of the centre, of mid, of between two|μέσος]] [[of the people|of the people, of the men, of the soldiers, of the land-army, of the common men, of the folk, of the Jews, of the Christians|λαός]] of him.",
+    "names": []
+  },
+  {
+    "ref": "EXO 31:15",
+    "greek": "ἓξ ἡμέρας ποιήσεις ἔργα, τῇ δὲ ἡμέρᾳ τῇ ἑβδόμῃ σάββατα, ἀνάπαυσις ἁγία τῷ κυρίῳ· πᾶς, ὃς ποιήσει ἔργον τῇ ἡμέρᾳ τῇ ἑβδόμῃ, θανάτῳ θανατωθήσεται.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 141",
+    "hint": "Six days of work; the seventh is a holy sabbath rest, and work on it is death.",
+    "notes": [
+      {
+        "lemma": "σάββατα ἀνάπαυσις ἁγία",
+        "flag": null,
+        "text": "Sabbaths, the plural, with ἀνάπαυσις in apposition, as at 16:23."
+      },
+      {
+        "lemma": "ἓξ ἡμέρας",
+        "flag": null,
+        "text": "The accusative of extent, six days."
+      }
+    ],
+    "reading": "six [[days|days, day-breaks, times|ἡμέρα]] [[you will make|you will make, you will do, you will produce, you will create|ποιέω]] [[works|works, business, deeds|ἔργον]], [[but|but, however, whereas, on the other hand|δέ]], [[to the day|to the day, to the day-break, to the time|ἡμέρα]] [[to the seventh|to the seventh, to the seventh day|ἕβδομος]] [[sabbaths|sabbaths, rests, periods of seven days and weeks|σάββατον]], [[repose|repose, rest, relaxation and recreation, rest from|ἀνάπαυσις]] [[devoted to the gods|devoted to the gods and sacred and holy, holy and pure|ἅγιος]] [[to the lord|to the lord, to the master, to the one having power and authority over|κύριος]]; [[all|all, the whole, every, every single|πᾶς]], who [[will make|will make, will do, will produce, will create|ποιέω]] [[work|work, business, deeds, action, works of industry and tilled lands|ἔργον]] [[to the day|to the day, to the day-break, to the time|ἡμέρα]] [[to the seventh|to the seventh, to the seventh day|ἕβδομος]], [[to death|to death, to the death threatened, to the sentence of death|θάνατος]] [[will be put to death|will be put to death, will be mortified, will be put to death by sentence|θανατόω]].",
+    "names": []
+  },
+  {
+    "ref": "EXO 31:16",
+    "greek": "καὶ φυλάξουσιν οἱ υἱοὶ Ισραηλ τὰ σάββατα ποιεῖν αὐτὰ εἰς τὰς γενεὰς αὐτῶν· διαθήκη αἰώνιος.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 141",
+    "hint": "Israel keeps the sabbaths through its generations, an everlasting covenant.",
+    "notes": [
+      {
+        "lemma": "διαθήκη αἰώνιος",
+        "flag": null,
+        "text": "The nominative, standing alone: a disposition lasting for an age."
+      }
+    ],
+    "reading": "and [[they will keep watch and ward|they will keep watch and ward and keep guard, they will watch and guard and keep and defend, they will watch for and lie in wait for, they will keep and maintain and cherish, they will observe|φυλάσσω]] the sons of [[name:Ισραηλ]] [[the sabbaths|the sabbaths, the rests, the periods of seven days and weeks|σάββατον]] [[to make|to make, to do, to produce, to create|ποιέω]] them [[into|into, to, in, rest in|εἰς]] [[the races|the races and stocks and families, the breeds, the tribes and nations, the races and generations, the offspring, the birth-places, the ages and times of life, the times of birth|γενεά]] of them; [[a disposition|a disposition of property by will, a will and testament, an arrangement between two parties, a covenant|διαθήκη]] [[lasting for an age|lasting for an age, ever-lasting and eternal|αἰώνιος]].",
+    "names": [
+      {
+        "greek": "Ισραηλ",
+        "unanchored": "Israēl",
+        "anchored": "Israel",
+        "bare": true
+      }
+    ]
+  },
+  {
+    "ref": "EXO 31:17",
+    "greek": "ἐν ἐμοὶ καὶ τοῖς υἱοῖς Ισραηλ σημεῖόν ἐστιν αἰώνιον, ὅτι ἐν ἓξ ἡμέραις ἐποίησεν κύριος τὸν οὐρανὸν καὶ τὴν γῆν καὶ τῇ ἡμέρᾳ τῇ ἑβδόμῃ ἐπαύσατο καὶ κατέπαυσεν.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 141",
+    "hint": "The sign recalls the six days of making the heaven and earth, and the seventh day's rest.",
+    "notes": [
+      {
+        "lemma": "ἐπαύσατο καὶ κατέπαυσεν",
+        "flag": "divergence",
+        "text": "Two verbs of rest, παύω's middle and καταπαύω's active used intransitively, for the Hebrew šābat wayyinnāpaš, he rested and was refreshed."
+      },
+      {
+        "lemma": "κατέπαυσεν",
+        "flag": null,
+        "text": "καταπαύω, the chain of Genesis 2:2: transitive in its first sense, though used here as the middle is."
+      },
+      {
+        "lemma": "ἐν ἓξ ἡμέραις",
+        "flag": null,
+        "text": "ἐν takes its own unit before the numeral, as at 20:11."
+      }
+    ],
+    "reading": "[[in|within, inside of, and by means of|ἐν]] to me and to the sons of [[name:Ισραηλ]] [[a sign|a sign, a mark and token, a sign from the gods and an omen, a signal, a standard and ensign, a boundary|σημεῖον]] is [[lasting for an age|lasting for an age, ever-lasting and eternal|αἰώνιος]], [[that|that, seeing that, although, for that, because, inasmuch as|ὅτι]] [[in|within, inside of, and by means of|ἐν]] to six [[to days|to days, to day-breaks, to times|ἡμέρα]] [[made|made, did, produced, created|ποιέω]] [[lord|lord, master, the one having power and authority over|κύριος]] [[the heaven|the heaven, the vault, the firmament and the sky|οὐρανός]] and [[the earth|the earth, the land, the ground|γῆ]] and [[to the day|to the day, to the day-break, to the time|ἡμέρα]] [[to the seventh|to the seventh, to the seventh day|ἕβδομος]] [[took his rest|took his rest and rested and ceased and had done, left off from and rested and ceased from, was at rest, left off doing|παύω]] and [[laid to rest|laid to rest, put an end to, made to cease, stopped and kept in check, put down|καταπαύω]].",
+    "names": [
+      {
+        "greek": "Ισραηλ",
+        "unanchored": "Israēl",
+        "anchored": "Israel",
+        "bare": true
+      }
+    ]
+  },
+  {
+    "ref": "EXO 31:18",
+    "greek": "Καὶ ἔδωκεν Μωυσεῖ, ἡνίκα κατέπαυσεν λαλῶν αὐτῷ ἐν τῷ ὄρει τῷ Σινα, τὰς δύο πλάκας τοῦ μαρτυρίου, πλάκας λιθίνας γεγραμμένας τῷ δακτύλῳ τοῦ θεοῦ.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 141",
+    "hint": "On Sinai the Lord gives Moses the two stone tablets of the testimony, written by God's finger.",
+    "notes": [
+      {
+        "lemma": "πλάκας",
+        "flag": null,
+        "text": "πλάξ, a flat surface, flat land, a plain, a flat stone, tablet."
+      },
+      {
+        "lemma": "λιθίνας",
+        "flag": null,
+        "text": "λίθινος, of stone, one translation, plain text."
+      },
+      {
+        "lemma": "γεγραμμένας",
+        "flag": null,
+        "text": "γράφω, the perfect passive participle: the active's senses in the passive, and the passive's to be indicted; the middle's to write for oneself, to indict, to denounce left out, with to move that, which the passive cannot hold (FORM_SENSES)."
+      },
+      {
+        "lemma": "κατέπαυσεν λαλῶν",
+        "flag": null,
+        "text": "καταπαύω with λαλέω's participle, laid to rest talking: the leaving off is the talking's."
+      }
+    ],
+    "reading": "And [[gave|gave, granted, provided, gave over and delivered up|δίδωμι]] to [[name:Μωυσεῖ]], [[at which time|at which time and when, since, whenever|ἡνίκα]] [[laid to rest|laid to rest, put an end to, made to cease, stopped and kept in check, put down|καταπαύω]] [[talking|talking, chatting, prattling, babbling, saying, talking of, speaking, chattering, chirping|λαλέω]] to him [[in the mountain|within, inside of, and by means of the mountain and hill|ἐν; ὄρος]] to the [[name:Σινα]], [[the two|the two, the two and two|δύο]] [[flat surfaces|flat surfaces and flat lands and plains, plains, the flat tops of a hill and table-lands, flat stones and tablets|πλάξ]] [[of the testimony|of the testimony and proof|μαρτύριον]], [[flat surfaces|flat surfaces and flat lands and plains, plains, the flat tops of a hill and table-lands, flat stones and tablets|πλάξ]] of stone [[having been scratched|having been scratched and scraped and grazed and standing so, having been represented by lines drawn and delineated and drawn and painted, having been expressed by written characters and written, having had a person's name written, having been inscribed, having been written down, having been set down, having been registered and enrolled, having been proposed and moved, having been indicted|γράφω]] [[to the finger|to the finger, to the finger's breadth, to the dactyl|δάκτυλος]] [[of the God|of him who is God definitively, of the one the article marks out, of the known and the only|θεός]].",
+    "names": [
+      {
+        "greek": "Μωυσεῖ",
+        "unanchored": "Mōusei",
+        "anchored": "Moses",
+        "bare": true
+      },
+      {
+        "greek": "Σινα",
+        "unanchored": "Sina",
+        "anchored": "Sinai",
+        "gloss": "(Σινα, from Hebrew Sînay, of uncertain meaning)"
+      }
+    ]
+  }
+]

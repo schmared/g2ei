@@ -1,0 +1,370 @@
+# Exodus 31 — morphology, one word per line.
+#
+# This is the project's own grammatical analysis of each form, written alongside the
+# transcription and not copied from any digital edition.
+#
+# Columns: verse, part of speech, parse, form, lemma — in MorphGNT's code scheme, so
+# the Old and New Testament layers read alike. The parse is eight places: person,
+# tense, voice, mood, case, number, gender, degree ("-" where it does not apply).
+#
+# Two codes go beyond MorphGNT, both to record only what the form itself says:
+#   voice  E  middle/passive — a tense in which the two share one form
+#   gender C  masculine/feminine — an adjective whose form does not distinguish them
+#
+# A trailing annotation records a deliberate difference and the reason for it:
+#   "# module …"  from the reference module, checked when LXX_RAHLFS_DIR is set
+#   "# corpus …"  from this project's own analysis of the same form elsewhere
+# A line may carry both. validate.py prints them as notes instead of failures — and
+# fails if the difference a note claims is not there, so they cannot go stale. The
+# analysis here is this project's own: the module is a reference, not an authority,
+# and the corpus is held to itself.
+#
+# Indeclinables take case and number from the syntax, as MorphGNT does, and gender
+# where there is one to take: a personal name, from the person; a numeral agreeing
+# with its noun; a common noun whose article shows it — but not an indeclinable place
+# name, which has none. A personal name the New Testament also uses takes MorphGNT's
+# dictionary form (Νῶε, Σήμ); every other Semitic name (Χαμ, Ιαφεθ), the form Rahlfs
+# prints.
+
+31:1 C- -------- Καὶ καί
+31:1 V- 3AAI-S-- ἐλάλησεν λαλέω
+31:1 N- ----NSM- κύριος κύριος
+31:1 P- -------- πρὸς πρός
+31:1 N- ----ASM- Μωυσῆν Μωϋσῆς  # module lemma Μωσεύς — Μωϋσῆς, as MorphGNT files it
+31:1 V- -PAPNSM- λέγων λέγω
+31:2 X- -------- Ἰδοὺ ἰδού
+31:2 V- 1XEI-S-- ἀνακέκλημαι ἀνακαλέω
+31:2 P- -------- ἐξ ἐκ
+31:2 N- ----GSN- ὀνόματος ὄνομα
+31:2 RA ----ASM- τὸν ὁ
+31:2 N- ----ASM- Βεσελεηλ Βεσελεηλ
+31:2 RA ----ASM- τὸν ὁ
+31:2 RA ----GSM- τοῦ ὁ
+31:2 N- ----GSM- Ουριου Ουριας  # module lemma Οὐρίας — Ουριας, unaccented as Rahlfs prints it, a name the New Testament does not use for this man
+31:2 RA ----ASM- τὸν ὁ
+31:2 N- ----GSM- Ωρ Ωρ
+31:2 RA ----GSF- τῆς ὁ
+31:2 N- ----GSF- φυλῆς φυλή
+31:2 N- ----GSM- Ιουδα Ἰούδας  # module lemma Ἰουδά — the genitive of Ἰούδας, as MorphGNT declines it (Luke 3:30)
+31:3 C- -------- καὶ καί
+31:3 V- 1AAI-S-- ἐνέπλησα ἐμπίπλημι
+31:3 RP ----ASM- αὐτὸν αὐτός
+31:3 N- ----ASN- πνεῦμα πνεῦμα
+31:3 A- ----ASN- θεῖον θεῖος  # corpus — the adjective, divine, agreeing with πνεῦμα; GEN 19:24's θεῖον is the noun, brimstone
+31:3 N- ----GSF- σοφίας σοφία
+31:3 C- -------- καὶ καί
+31:3 N- ----GSF- συνέσεως σύνεσις
+31:3 C- -------- καὶ καί
+31:3 N- ----GSF- ἐπιστήμης ἐπιστήμη
+31:3 P- -------- ἐν ἐν
+31:3 A- ----DSN- παντὶ πᾶς
+31:3 N- ----DSN- ἔργῳ ἔργον
+31:4 V- -PEN---- διανοεῖσθαι διανοέομαι
+31:4 C- -------- καὶ καί
+31:4 V- -AAN---- ἀρχιτεκτονῆσαι ἀρχιτεκτονέω
+31:4 V- -PEN---- ἐργάζεσθαι ἐργάζομαι
+31:4 RA ----ASN- τὸ ὁ
+31:4 N- ----ASN- χρυσίον χρυσίον
+31:4 C- -------- καὶ καί
+31:4 RA ----ASN- τὸ ὁ
+31:4 N- ----ASN- ἀργύριον ἀργύριον
+31:4 C- -------- καὶ καί
+31:4 RA ----ASM- τὸν ὁ
+31:4 N- ----ASM- χαλκὸν χαλκός
+31:4 C- -------- καὶ καί
+31:4 RA ----ASF- τὴν ὁ
+31:4 N- ----ASF- ὑάκινθον ὑάκινθος
+31:4 C- -------- καὶ καί
+31:4 RA ----ASF- τὴν ὁ
+31:4 N- ----ASF- πορφύραν πορφύρα
+31:4 C- -------- καὶ καί
+31:4 RA ----ASN- τὸ ὁ
+31:4 A- ----ASN- κόκκινον κόκκινος
+31:4 RA ----ASN- τὸ ὁ
+31:4 A- ----ASN- νηστὸν νηστός
+31:4 C- -------- καὶ καί
+31:4 RA ----ASF- τὴν ὁ
+31:4 N- ----ASF- βύσσον βύσσος
+31:4 RA ----ASF- τὴν ὁ
+31:4 V- -XEPASF- κεκλωσμένην κλώθω
+31:5 C- -------- καὶ καί
+31:5 RA ----APN- τὰ ὁ
+31:5 A- ----APN- λιθουργικὰ λιθουργικός
+31:5 C- -------- καὶ καί
+31:5 P- -------- εἰς εἰς
+31:5 RA ----APN- τὰ ὁ
+31:5 N- ----APN- ἔργα ἔργον
+31:5 RA ----APN- τὰ ὁ
+31:5 A- ----APN- τεκτονικὰ τεκτονικός
+31:5 RA ----GPN- τῶν ὁ
+31:5 N- ----GPN- ξύλων ξύλον
+31:5 V- -PEN---- ἐργάζεσθαι ἐργάζομαι
+31:5 P- -------- κατὰ κατά
+31:5 A- ----APN- πάντα πᾶς
+31:5 RA ----APN- τὰ ὁ
+31:5 N- ----APN- ἔργα ἔργον
+31:6 C- -------- καὶ καί
+31:6 RP ----NS-- ἐγὼ ἐγώ
+31:6 V- 1AAI-S-- ἔδωκα δίδωμι
+31:6 RP ----ASM- αὐτὸν αὐτός
+31:6 C- -------- καὶ καί
+31:6 RA ----ASM- τὸν ὁ
+31:6 N- ----ASM- Ελιαβ Ελιαβ
+31:6 RA ----ASM- τὸν ὁ
+31:6 RA ----GSM- τοῦ ὁ
+31:6 N- ----GSM- Αχισαμαχ Αχισαμαχ
+31:6 P- -------- ἐκ ἐκ
+31:6 N- ----GSF- φυλῆς φυλή
+31:6 N- ----GSM- Δαν Δαν
+31:6 C- -------- καὶ καί
+31:6 A- ----DSM- παντὶ πᾶς
+31:6 A- ----DSM- συνετῷ συνετός
+31:6 N- ----DSF- καρδίᾳ καρδία
+31:6 V- 1XAI-S-- δέδωκα δίδωμι
+31:6 N- ----ASF- σύνεσιν σύνεσις
+31:6 C- -------- καὶ καί
+31:6 V- 3FAI-P-- ποιήσουσιν ποιέω
+31:6 A- ----APN- πάντα πᾶς
+31:6 RR ----APN- ὅσα ὅσος
+31:6 RP ----DS-- σοι σύ  # module lemma σοί, the form itself — σύ is the dictionary form
+31:6 V- 1AAI-S-- συνέταξα συντάσσω
+31:7 RA ----ASF- τὴν ὁ
+31:7 N- ----ASF- σκηνὴν σκηνή
+31:7 RA ----GSN- τοῦ ὁ
+31:7 N- ----GSN- μαρτυρίου μαρτύριον
+31:7 C- -------- καὶ καί
+31:7 RA ----ASF- τὴν ὁ
+31:7 N- ----ASF- κιβωτὸν κιβωτός
+31:7 RA ----GSF- τῆς ὁ
+31:7 N- ----GSF- διαθήκης διαθήκη
+31:7 C- -------- καὶ καί
+31:7 RA ----ASN- τὸ ὁ
+31:7 N- ----ASN- ἱλαστήριον ἱλαστήριον  # module lemma ἱλαστήριος — ἱλαστήριον, the noun, as MorphGNT files Heb 9:5; Middle Liddell gives it as Subst. inside ἱλαστήριος
+31:7 RA ----ASN- τὸ ὁ
+31:7 P- -------- ἐπʼ ἐπί
+31:7 RP ----GSF- αὐτῆς αὐτός
+31:7 C- -------- καὶ καί
+31:7 RA ----ASF- τὴν ὁ
+31:7 N- ----ASF- διασκευὴν διασκευή
+31:7 RA ----GSF- τῆς ὁ
+31:7 N- ----GSF- σκηνῆς σκηνή
+31:8 C- -------- καὶ καί
+31:8 RA ----APN- τὰ ὁ
+31:8 N- ----APN- θυσιαστήρια θυσιαστήριον
+31:8 C- -------- καὶ καί
+31:8 RA ----ASF- τὴν ὁ
+31:8 N- ----ASF- τράπεζαν τράπεζα
+31:8 C- -------- καὶ καί
+31:8 A- ----APN- πάντα πᾶς
+31:8 RA ----APN- τὰ ὁ
+31:8 N- ----APN- σκεύη σκεῦος
+31:8 RP ----GSF- αὐτῆς αὐτός
+31:8 C- -------- καὶ καί
+31:8 RA ----ASF- τὴν ὁ
+31:8 N- ----ASF- λυχνίαν λυχνία
+31:8 RA ----ASF- τὴν ὁ
+31:8 A- ----ASF- καθαρὰν καθαρός
+31:8 C- -------- καὶ καί
+31:8 A- ----APN- πάντα πᾶς
+31:8 RA ----APN- τὰ ὁ
+31:8 N- ----APN- σκεύη σκεῦος
+31:8 RP ----GSF- αὐτῆς αὐτός
+31:9 C- -------- καὶ καί
+31:9 RA ----ASM- τὸν ὁ
+31:9 N- ----ASM- λουτῆρα λουτήρ
+31:9 C- -------- καὶ καί
+31:9 RA ----ASF- τὴν ὁ
+31:9 N- ----ASF- βάσιν βάσις
+31:9 RP ----GSM- αὐτοῦ αὐτός
+31:10 C- -------- καὶ καί
+31:10 RA ----APF- τὰς ὁ
+31:10 N- ----APF- στολὰς στολή
+31:10 RA ----APF- τὰς ὁ
+31:10 A- ----APF- λειτουργικὰς λειτουργικός
+31:10 N- ----GSM- Ααρων Ἀαρών
+31:10 C- -------- καὶ καί
+31:10 RA ----APF- τὰς ὁ
+31:10 N- ----APF- στολὰς στολή
+31:10 RA ----GPM- τῶν ὁ
+31:10 N- ----GPM- υἱῶν υἱός
+31:10 RP ----GSM- αὐτοῦ αὐτός
+31:10 V- -PAN---- ἱερατεύειν ἱερατεύω
+31:10 RP ----DS-- μοι ἐγώ  # module lemma μοι, the form itself — ἐγώ is the dictionary form
+31:11 C- -------- καὶ καί
+31:11 RA ----ASN- τὸ ὁ
+31:11 N- ----ASN- ἔλαιον ἔλαιον
+31:11 RA ----GSF- τῆς ὁ
+31:11 N- ----GSF- χρίσεως χρῖσις
+31:11 C- -------- καὶ καί
+31:11 RA ----ASN- τὸ ὁ
+31:11 N- ----ASN- θυμίαμα θυμίαμα
+31:11 RA ----GSF- τῆς ὁ
+31:11 N- ----GSF- συνθέσεως σύνθεσις
+31:11 RA ----GSN- τοῦ ὁ
+31:11 A- ----GSN- ἁγίου ἅγιος
+31:11 P- -------- κατὰ κατά
+31:11 A- ----APN- πάντα πᾶς
+31:11 RR ----APN- ὅσα ὅσος
+31:11 RP ----NS-- ἐγὼ ἐγώ
+31:11 V- 1AMI-S-- ἐνετειλάμην ἐντέλλομαι
+31:11 RP ----DS-- σοι σύ  # module lemma σοί, the form itself — σύ is the dictionary form
+31:11 V- 3FAI-P-- ποιήσουσιν ποιέω
+31:12 C- -------- Καὶ καί
+31:12 V- 3AAI-S-- ἐλάλησεν λαλέω
+31:12 N- ----NSM- κύριος κύριος
+31:12 P- -------- πρὸς πρός
+31:12 N- ----ASM- Μωυσῆν Μωϋσῆς  # module lemma Μωσεύς — Μωϋσῆς, as MorphGNT files it
+31:12 V- -PAPNSM- λέγων λέγω
+31:13 C- -------- Καὶ καί
+31:13 RP ----NS-- σὺ σύ
+31:13 V- 2AAD-S-- σύνταξον συντάσσω
+31:13 RA ----DPM- τοῖς ὁ
+31:13 N- ----DPM- υἱοῖς υἱός
+31:13 N- ----GSM- Ισραηλ Ἰσραήλ
+31:13 V- -PAPNSM- λέγων λέγω
+31:13 V- 2PAD-P-- Ὁρᾶτε ὁράω
+31:13 C- -------- καὶ καί
+31:13 RA ----APN- τὰ ὁ
+31:13 N- ----APN- σάββατά σάββατον
+31:13 RP ----GS-- μου ἐγώ  # module lemma μου, the form itself — ἐγώ is the dictionary form
+31:13 V- 2FMI-P-- φυλάξεσθε φυλάσσω
+31:13 N- ----NSN- σημεῖόν σημεῖον
+31:13 V- 3PAI-S-- ἐστιν εἰμί
+31:13 P- -------- παρʼ παρά
+31:13 RP ----DS-- ἐμοὶ ἐγώ  # module lemma ἐμοί, the form itself — ἐγώ is the dictionary form
+31:13 C- -------- καὶ καί
+31:13 P- -------- ἐν ἐν
+31:13 RP ----DP-- ὑμῖν σύ  # module lemma ὑμῖν, the form itself — σύ is the dictionary form
+31:13 P- -------- εἰς εἰς
+31:13 RA ----APF- τὰς ὁ
+31:13 N- ----APF- γενεὰς γενεά
+31:13 RP ----GP-- ὑμῶν σύ  # module lemma ὑμῶν, the form itself — σύ is the dictionary form
+31:13 C- -------- ἵνα ἵνα
+31:13 V- 2AAS-P-- γνῶτε γινώσκω
+31:13 C- -------- ὅτι ὅτι
+31:13 RP ----NS-- ἐγὼ ἐγώ
+31:13 N- ----NSM- κύριος κύριος
+31:13 RA ----NSM- ὁ ὁ
+31:13 V- -PAPNSM- ἁγιάζων ἁγιάζω
+31:13 RP ----AP-- ὑμᾶς σύ  # module lemma ὑμᾶς, the form itself — σύ is the dictionary form
+31:14 C- -------- καὶ καί
+31:14 V- 2FMI-P-- φυλάξεσθε φυλάσσω
+31:14 RA ----APN- τὰ ὁ
+31:14 N- ----APN- σάββατα σάββατον
+31:14 C- -------- ὅτι ὅτι
+31:14 A- ----NSN- ἅγιον ἅγιος
+31:14 RD ----NSN- τοῦτό οὗτος
+31:14 V- 3PAI-S-- ἐστιν εἰμί
+31:14 N- ----GSM- κυρίου κύριος
+31:14 RP ----DP-- ὑμῖν σύ  # module lemma ὑμῖν, the form itself — σύ is the dictionary form
+31:14 RA ----NSM- ὁ ὁ
+31:14 V- -PAPNSM- βεβηλῶν βεβηλόω
+31:14 RP ----ASN- αὐτὸ αὐτός
+31:14 N- ----DSM- θανάτῳ θάνατος
+31:14 V- 3FPI-S-- θανατωθήσεται θανατόω
+31:14 A- ----NSM- πᾶς πᾶς
+31:14 RR ----NSM- ὃς ὅς
+31:14 V- 3FAI-S-- ποιήσει ποιέω
+31:14 P- -------- ἐν ἐν
+31:14 RP ----DSN- αὐτῷ αὐτός
+31:14 N- ----ASN- ἔργον ἔργον
+31:14 V- 3FPI-S-- ἐξολεθρευθήσεται ἐξολεθρεύω  # module lemma ἐξολοθρεύω — the spelling the text prints, as MorphGNT files ἐξολεθρευθήσεται (Acts 3:23)
+31:14 RA ----NSF- ἡ ὁ
+31:14 N- ----NSF- ψυχὴ ψυχή
+31:14 RD ----NSF- ἐκείνη ἐκεῖνος
+31:14 P- -------- ἐκ ἐκ
+31:14 A- ----GSN- μέσου μέσος
+31:14 RA ----GSM- τοῦ ὁ
+31:14 N- ----GSM- λαοῦ λαός
+31:14 RP ----GSM- αὐτοῦ αὐτός
+31:15 A- ----APF- ἓξ ἕξ  # module M, no features — MorphGNT gives ἕξ case, number and gender like any adjective
+31:15 N- ----APF- ἡμέρας ἡμέρα
+31:15 V- 2FAI-S-- ποιήσεις ποιέω
+31:15 N- ----APN- ἔργα ἔργον
+31:15 RA ----DSF- τῇ ὁ
+31:15 C- -------- δὲ δέ
+31:15 N- ----DSF- ἡμέρᾳ ἡμέρα
+31:15 RA ----DSF- τῇ ὁ
+31:15 A- ----DSF- ἑβδόμῃ ἕβδομος
+31:15 N- ----NPN- σάββατα σάββατον
+31:15 N- ----NSF- ἀνάπαυσις ἀνάπαυσις
+31:15 A- ----NSF- ἁγία ἅγιος
+31:15 RA ----DSM- τῷ ὁ
+31:15 N- ----DSM- κυρίῳ κύριος
+31:15 A- ----NSM- πᾶς πᾶς
+31:15 RR ----NSM- ὃς ὅς
+31:15 V- 3FAI-S-- ποιήσει ποιέω
+31:15 N- ----ASN- ἔργον ἔργον
+31:15 RA ----DSF- τῇ ὁ
+31:15 N- ----DSF- ἡμέρᾳ ἡμέρα
+31:15 RA ----DSF- τῇ ὁ
+31:15 A- ----DSF- ἑβδόμῃ ἕβδομος
+31:15 N- ----DSM- θανάτῳ θάνατος
+31:15 V- 3FPI-S-- θανατωθήσεται θανατόω
+31:16 C- -------- καὶ καί
+31:16 V- 3FAI-P-- φυλάξουσιν φυλάσσω
+31:16 RA ----NPM- οἱ ὁ
+31:16 N- ----NPM- υἱοὶ υἱός
+31:16 N- ----GSM- Ισραηλ Ἰσραήλ
+31:16 RA ----APN- τὰ ὁ
+31:16 N- ----APN- σάββατα σάββατον
+31:16 V- -PAN---- ποιεῖν ποιέω
+31:16 RP ----APN- αὐτὰ αὐτός
+31:16 P- -------- εἰς εἰς
+31:16 RA ----APF- τὰς ὁ
+31:16 N- ----APF- γενεὰς γενεά
+31:16 RP ----GPM- αὐτῶν αὐτός
+31:16 N- ----NSF- διαθήκη διαθήκη
+31:16 A- ----NSC- αἰώνιος αἰώνιος
+31:17 P- -------- ἐν ἐν
+31:17 RP ----DS-- ἐμοὶ ἐγώ  # module lemma ἐμοί, the form itself — ἐγώ is the dictionary form
+31:17 C- -------- καὶ καί
+31:17 RA ----DPM- τοῖς ὁ
+31:17 N- ----DPM- υἱοῖς υἱός
+31:17 N- ----GSM- Ισραηλ Ἰσραήλ
+31:17 N- ----NSN- σημεῖόν σημεῖον
+31:17 V- 3PAI-S-- ἐστιν εἰμί
+31:17 A- ----NSN- αἰώνιον αἰώνιος
+31:17 C- -------- ὅτι ὅτι
+31:17 P- -------- ἐν ἐν
+31:17 A- ----DPF- ἓξ ἕξ  # module M, no features — MorphGNT gives ἕξ case, number and gender like any adjective
+31:17 N- ----DPF- ἡμέραις ἡμέρα
+31:17 V- 3AAI-S-- ἐποίησεν ποιέω
+31:17 N- ----NSM- κύριος κύριος
+31:17 RA ----ASM- τὸν ὁ
+31:17 N- ----ASM- οὐρανὸν οὐρανός
+31:17 C- -------- καὶ καί
+31:17 RA ----ASF- τὴν ὁ
+31:17 N- ----ASF- γῆν γῆ
+31:17 C- -------- καὶ καί
+31:17 RA ----DSF- τῇ ὁ
+31:17 N- ----DSF- ἡμέρᾳ ἡμέρα
+31:17 RA ----DSF- τῇ ὁ
+31:17 A- ----DSF- ἑβδόμῃ ἕβδομος
+31:17 V- 3AMI-S-- ἐπαύσατο παύω
+31:17 C- -------- καὶ καί
+31:17 V- 3AAI-S-- κατέπαυσεν καταπαύω
+31:18 C- -------- Καὶ καί
+31:18 V- 3AAI-S-- ἔδωκεν δίδωμι
+31:18 N- ----DSM- Μωυσεῖ Μωϋσῆς  # module lemma Μωσεύς — Μωϋσῆς, as MorphGNT files it
+31:18 C- -------- ἡνίκα ἡνίκα
+31:18 V- 3AAI-S-- κατέπαυσεν καταπαύω
+31:18 V- -PAPNSM- λαλῶν λαλέω
+31:18 RP ----DSM- αὐτῷ αὐτός
+31:18 P- -------- ἐν ἐν
+31:18 RA ----DSN- τῷ ὁ
+31:18 N- ----DSN- ὄρει ὄρος
+31:18 RA ----DSN- τῷ ὁ
+31:18 N- ----DS-- Σινα Σινα  # module lemma Σινᾶ — Σινα, as Rahlfs prints it, unaccented
+31:18 RA ----APF- τὰς ὁ
+31:18 A- ----APF- δύο δύο  # module M, no features — MorphGNT gives δύο case, number and gender like any adjective
+31:18 N- ----APF- πλάκας πλάξ
+31:18 RA ----GSN- τοῦ ὁ
+31:18 N- ----GSN- μαρτυρίου μαρτύριον
+31:18 N- ----APF- πλάκας πλάξ
+31:18 A- ----APF- λιθίνας λίθινος
+31:18 V- -XEPAPF- γεγραμμένας γράφω
+31:18 RA ----DSM- τῷ ὁ
+31:18 N- ----DSM- δακτύλῳ δάκτυλος
+31:18 RA ----GSM- τοῦ ὁ
+31:18 N- ----GSM- θεοῦ θεός

@@ -6306,8 +6306,8 @@ text uses.
 - ἀληθής — **headword** `unconcealed`; **chain** `unconcealed, true, truthful, coming true`. 41:32.
 - σκέπτομαι — **headword** `look about`; **chain** to *think of beforehand and premeditate*. 41:33.
 - φρόνιμος and συνετός (positive and comparative) — `in one's right mind, …, prudent`, the
-  superlative chain of 3:1 in its degree; `intelligent, sagacious, wise, intelligent in,
-  intelligible`. 41:33, 41:39.
+  superlative chain of 3:1 in its degree; `intelligent and sagacious and wise, intelligent in,
+  intelligible`, its run one item since EXO 31. 41:33, 41:39.
 - φυλάσσω (aorist and perfect passive) — **headword** `let it be watched`, `having been watched`,
   the first passivisable sense heading, *keep watch and ward* being intransitive. 41:35, 41:36.
 - θρόνος — **headword** `the seat`; **chain** `the seat and chair, the throne and chair of state,
@@ -8318,3 +8318,43 @@ text uses. Chains already in the corpus (Genesis) were read from it and re-infle
   μίγνυμι's perfect passive participle; συγκόπτω's second person; ἀπόλλυμι's future middle; ὀσφραίνομαι's infinitive.
 - One translation each, plain text: ἐξιλάσκομαι *will propitiate*, *to propitiate*; ὀβολός; σμύρνα; κιννάμωμον;
   λίβανος; ἐξολεθρεύω; λυχνία; εἰκοσαετής; πεντακόσιοι, διακόσιοι; κάτεργον; ἡδυσμός.
+
+### Words new in EXO 31
+
+- **From LSJ** (not in Middle Liddell): νηστός *spun*, one translation, plain; διασκευή `the construction, the
+  equipment, the furniture or vessels, the rhetorical elaboration, the set phrases, the new edition or recension, the
+  theatrical performance`, its = ἀνασκευή a pointer and left out.
+- **Middle senses** (`FORM_SENSES`): ἀνακαλέω's perfect middle, `I have called up the dead and it stands so, I have
+  called again and again, I have invoked and appealed to, I have called to myself and sent for and summoned, I have
+  cheered on, I have called back and recalled`, the active's *to summon, cite*, *to call* by a name and *to call on*
+  left out.
+- **Passive senses** (`FORM_SENSES`): γράφω's perfect passive participle, `having been scratched and scraped and
+  grazed and standing so, …, having had a person's name written, …, having been indicted`, the middle's left out, and
+  *to move that*, whose clause the passive cannot hold (Q21).
+- **By gender** (`FORM_SENSES`): τεκτονικός's neuter, `the practised or skilled in building`, the masculine's and the
+  feminine's as nouns left out.
+- **A first translation that is a preposition**: θεῖος, «of» or «from the gods, sent by the gods, issuing from them,
+  divine»: the headword `of or from the gods`, as μυρεψικός's at EXO 30:25 (Q26); the chain `of or from the gods and
+  sent by the gods and issuing from them and divine, appointed of God, belonging or sacred to a god and in honour of a
+  god and holy, under divine protection, more than human and wondrous, divinely strong and great and beautiful,
+  excellent, marvellous`, the neuter's and the plural's as nouns and the adverb's left out. Its examples' pieces go in
+  `NOT_SENSES`.
+- New chains: σοφία `of skill, of knowledge of and acquaintance with, of sound judgment and intelligence and practical
+  wisdom, of cunning and shrewdness and craft, of wisdom and philosophy`; σύνεσις `a coming together and union, quick
+  comprehension and mother-wit and intelligence and sagacity, intelligence in, sagacity in respect to, conscience, a
+  branch of art or science`, its = συνείδησις a pointer after *conscience*; ἐπιστήμη `of acquaintance with, of skill
+  and experience, of knowledge, of scientific knowledge and science`; ἀρχιτεκτονέω `to be the architect, to construct
+  and contrive`; διανοέομαι's infinitive; χαλκός with the article; κλώθω's participle with the article, `the one
+  having been twisted by spinning and spun and standing so`; ὄνομα's and φυλή's anarthrous genitives; συνετός's
+  dative; συντάσσω's first person; θυμίαμα and καθαρός with the article; σύνθεσις's genitive; ἁγιάζω's participle,
+  `the one hallowing and making sacred`; θανατόω's future passive; ἔργον's anarthrous plural; πλάξ `flat surfaces and
+  flat lands and plains, plains, the flat tops of a hill and table-lands, flat stones and tablets`.
+- One translation each, plain text: νηστός; θυσιαστήριον; λειτουργικός *ministering*; ἱερατεύω *to be a priest*;
+  βεβηλόω *the one profaning*; λίθινος *of stone*; λιθουργικός with the article, `the of or for a lithourgos
+  (λιθουργός)`.
+- **Legacy chain brought to its rule**: συνετός's run *intelligent, sagacious, wise* is one translation, and is now
+  one item: `intelligent and sagacious and wise, intelligent in, intelligible`, and the comparative `more intelligent
+  and sagacious and wise, …` (GEN 41:33, 41:39). The runs check had let it pass, since *intelligent in* says
+  *intelligent* once its *in* is set aside.
+- **Morphology**: the second pass was right twice: Ωρ after τὸν genitive, the one of Hur, as Μαμβρη at GEN 13:18; ἓξ
+  at 31:17 dative, ἐν ἓξ ἡμέραις. Σινα after τῷ ὄρει keeps the case of its article, as the corpus codes it.

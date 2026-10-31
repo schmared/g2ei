@@ -689,6 +689,12 @@ Five disagreements over 1063 words, and the second pass was right on two: ἔξ�
 Five disagreements over 707 words, and the second pass was right on three: ἐπάνω after ἀπὸ εἰκοσαετοῦς an adverb;
 αὐτοῦ at 30:33 neuter; θυμίαμα at 30:8 accusative. εὐώδους keeps the two-termination C; διὰ παντός neuter.
 
+### What it found in Exodus 31
+
+Five disagreements over 342 words, and the second pass was right twice: Ωρ in τὸν τοῦ Ουριου τὸν Ωρ genitive, the
+article making a noun of it, as τὴν δρῦν τὴν Μαμβρη; ἓξ at 31:17 dative. Ουριας and Σινα keep the corpus's unaccented
+lemmas, ἐμπίπλημι its spelling, and Σινα after τῷ ὄρει the case of its article.
+
 ## The brief
 
 Copy everything below the rule into a new agent. Replace `<BOOK NAME>`, `<CHAPTER>`,
