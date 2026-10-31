@@ -284,3 +284,26 @@ first keeps to the translations the entry prints.
 
 **Recommendation:** read a sense-level *= X* as X's translations, appended in the pointer's place, by a table
 beside `MARKUP_LOST` that names each one.
+
+## Q15. παραγίνομαι's present reads four senses off the card — `comes to be beside`
+
+**Where:** GEN 32:21, 45:19; EXO 18:6, 18:15, 19:9.
+
+**Now:** the present reads `comes to be beside, is present, arrives, comes to help` (EXO 19:9 `I come to be
+beside, …`), as EXO 8 settled it: "the present's `comes to be beside` is the present's". Every other form
+reads the card's eight senses from its first translation, the one Perseus cuts to *near, attend upon* out of
+*to be beside, to be by or near, attend upon*: the aorist `was near and attended upon, was present at, came to
+one's side and came to aid and stood by and seconded and supported, …, was fully grown` (GEN 35:9, EXO 8,
+18:12), the articular infinitive the same (EXO 2).
+
+- now: `comes to be beside, is present, arrives, comes to help`
+- the card read as the aorist reads it: `is near and attends upon, is present at, comes to one's side and comes to
+  aid and stands by and seconds and supports, is at hand and is gained and accrues, comes to, arrives and comes
+  up, comes to maturity, is fully grown`
+
+**The difference:** the present's head *comes to be* is not in the entry, and it carries four of the eight
+senses; the check that holds one word to one range compares one voice, and the present's middle/passive and the
+aorist's middle are two.
+
+**Recommendation:** read the present from the card as the aorist is read, and restore *to be beside, to be by or
+near, attend upon* whole in `MARKUP_LOST`, so both heads begin where the entry does.

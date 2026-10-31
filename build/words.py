@@ -388,6 +388,8 @@ LSJ = {
     "ἀνυπομόνητος": ["unbearable", "not enduring"],
     "πρωΐθεν": ["from morning"],
     "συναντιλαμβάνομαι": ["help in gaining", "assist in supporting", "render assistance", "take part with, help"],
+    # EXO 19. Not in Middle Liddell. LSJ (eng3): γνοφώδης, "dark, gloomy", citing Ex 19:16, one translation.
+    "γνοφώδης": ["dark, gloomy"],
     # EXO 12. None of these is in Middle Liddell. LSJ (eng3): γειώρας, "sojourner", "proselyte". LSJ
     # (eng4): δέσμη, "package, bundle", "a measure in Egypt", "in Medicine, handful"; Rahlfs prints the
     # accusative δεσμήν, the module δέσμην. LSJ (eng5): ἐνδόσθια, "= ἐντόσθια", a pointer to ἐντόσθιος,
@@ -589,7 +591,8 @@ NOT_SENSES = {
     # ἅπτω's sense I is the active, "to fasten, bind fast", with a transitive middle
     # beside it; sense II is marked "Mid." and "c. gen." — the construction of GEN 3:3
     # ἅψησθε αὐτοῦ — and its opening gloss, "to fasten oneself to", is that form's.
-    "a(/ptw": {"engaged in", "on", "to fasten", "to fasten for oneself", "to fasten, bind fast", "to join", "to reach the mark"},  # pieces of examples
+    "a(/ptw": {"engaged in", "on", "to fasten", "to fasten for oneself", "to fasten, bind fast", "to join", "to reach the mark",
+               "touched on", "red-hot"},  # pieces of examples; examples' translations
     # στρέφω's senses A.I–VI are the active; "B. Pass. and Mid." opens "to turn oneself,
     # to turn round", which is GEN 3:24 στρεφομένην.
     "stre/fw": {"to turn about", "aside, turn", "to turn", "guide", "to sway",
@@ -1135,7 +1138,8 @@ NOT_SENSES = {
     "proe/rxomai": {"far advanced", "to go on"},  # a piece of an example, and a repetition
     "prostre/xw": {"towards, come to"},          # a piece of "to run to or towards"
     "e)lee/w": {"mercy shewn one"},               # a piece of the passive
-    "bia/zw": {"overpowered", "suffer violence", "forcibly made slaves"},  # pieces of the passive
+    "bia/zw": {"overpowered", "suffer violence", "forcibly made slaves", "to do", "violence",
+               "[to be favourable]"},  # pieces of the passive; "to do them violence" cut, whole in MARKUP_LOST; an example's
     "loxeu/w": {"brought to birth"},             # a piece of an example
     "sxolh/": {"leisure", "quiet", "time", "a fit time"},  # pieces of examples
     "e)pikale/w": {"to invoke", "to watch over"},  # a repetition, and a piece of an example
@@ -1466,6 +1470,14 @@ NOT_SENSES = {
     "braxu/s": {"briefly", "scantily, seldom", "low", "little by little", "in few words", "briefly, in few words", "lightly"},  # phrases' and the adverb's
     "koufi/zw": {"to make a light", "of", "of their cargo", "from"},  # examples' pieces
     "e)lafro/s": {"lightly, buoyantly", "light, easy", "light", "active", "light troops"},  # the adverb's; examples'
+    # EXO 19
+    "pte/ruc": {"wings", "the wings", "anything that covers", "protects"},  # the plural of the first sense, and a repeat; cut, whole in MARKUP_LOST
+    "h)xe/w": {"to let", "sound", "is made"},  # cut, whole in MARKUP_LOST; examples'
+    "ptoe/w": {"he gapes like one distraught", "distraction"},  # an example's; the participle's as a noun
+    "kapno/s": {"of smoke", "trifles"},       # a proverb's; an example's
+    "qigga/nw": {"reach"},                    # an example's
+    "a)palla/ssw": {"from"},                  # a piece of the construction
+    "prosa/gw": {"to draw", "upon oneself", "will induce", "imports"},  # cut, whole in MARKUP_LOST; an example's; the participle's as a noun
     "de/on": {"things needful", "proper, advantages", "duties", "in good time", "for a needful purpose", "secret service"},  # τὰ δέοντα cut, whole in MARKUP_LOST; phrases'
     "o)fei/lw": {"debemur morti)", "it is", "destiny", "(ought", "owe)", "O that thou hadst", "O that I had",
                  "would thou hadst never", "would"},  # Horace; examples' translations; the note on "ought"
@@ -1593,6 +1605,24 @@ _APOLLUMI_ACT = {"to destroy utterly, kill, slay", "to destroy, demolish, waste"
 _APOLLUMI_MID = {"to perish utterly, die", "to be undone", "you are done for, lost, ruined",
                  "to be lost, slip away, vanish"}
 FORM_SENSES = {
+    # EXO 19. βιάζω's middle and middle/passive read the middle's senses, as GEN 33:11 reads them;
+    # ἅπτω's middle the middle's, and its future middle the passive's too, "Pass., with fut. mid. to be set
+    # on fire"; ἀπαλλάσσω's active leaves out the passive's and middle's; προσάγω's middle the active's
+    # and passive's; ἀφορίζω's active the middle's "to mark off for oneself", and its middle the active's.
+    "bia/zw": [("PIFAXY", "ME", NOT_SENSES["bia/zw"] | {"to constrain", "to be hard pressed", "forced from one"})],
+    "a(/ptw": [("F", "M", NOT_SENSES["a(/ptw"] | {"to kindle, set on fire", "to light"}),
+               ("PIFAXY", "ME", NOT_SENSES["a(/ptw"] | {"to kindle, set on fire", "to light", "to be set on fire, catch fire"})],
+    "a)palla/ssw": [("PIFAXY", "A", NOT_SENSES["a)palla/ssw"] | {
+        "to be set free", "released from", "get rid of", "to get off", "to be acquitted", "to remove, depart from",
+        "to depart", "to depart, die", "to be divorced", "to leave", "inferior to", "to leave off", "cease from",
+        "to have done, give over, cease", "and be done with it", "to depart from enmity", "to be reconciled"})],
+    "prosa/gw": [("PIFAXY", "M", NOT_SENSES["prosa/gw"] | {
+        "to bring to", "upon", "to furnish, supply", "to put to, add", "to put to, bring to, move towards, apply",
+        "to apply", "closely", "to set before", "to put", "to", "make", "take", "to bring up", "move on towards",
+        "put forth", "to bring in", "before", "to introduce", "to attach oneself to", "to draw near, approach",
+        "to bring to, come to land"})],
+    "a)fori/zw": [("PIFAXY", "A", {"to mark off for oneself, appropriate"}),
+                 ("PIFAXY", "M", {"to mark off by boundaries"})],
     # EXO 18. μόχθος's singular leaves out the plural's; the actives of διακρίνω, συμβουλεύω, σημαίνω and κουφίζω
     # leave out the middle's and passive's.
     "mo/xqos": [("-", "-", NOT_SENSES["mo/xqos"] | {"toils, troubles, hardships"}, None, "^.....S")],
@@ -2383,6 +2413,13 @@ MARKUP_LOST = {
     "shmai/nw": [(2, "to give a sign or signal to do"), (16, "to stamp with a sign or mark, to seal")],
     "u(perhfani/a": [(1, "contempt towards or for")],
     "e)lafro/s": [(0, "light in weight")],
+    # EXO 19. βιάζω: "βιάζεσθαι νόμους «to do» them «violence»"; προσάγω: "πάντων πρ. ὄμματα «to draw» all eyes
+    # «upon oneself»"; πτέρυξ: "«anything that covers» or «protects» like wings"; ἠχέω: "ἀχεῖν ὕμνον «to let» it
+    # «sound»". Each the word's own English in that use, with its object between (open question Q7's test).
+    "bia/zw": [(7, "to do them violence")],
+    "prosa/gw": [(25, "to draw all eyes upon oneself")],
+    "pte/ruc": [(6, "anything that covers or protects")],
+    "h)xe/w": [(2, "to let it sound")],
     "de/on": [(1, "things needful or proper, advantages or duties")],  # τὰ δέοντα «things needful» or «proper, advantages» or «duties»
     "pleona/zw": [(2, "to go beyond bounds, take or claim too much")],
     "pikrai/nw": [(0, "to make sharp or bitter")],
@@ -2489,6 +2526,7 @@ GREEK_LOST = {
 # after it is an example's object.
 GREEK_AFTER = {
     "krate/w",                                  # "to become master of, get possession of" τῆς ἀρχῆς
+    "a)palla/ssw",                              # "to leave off or cease from" τῶν μακρῶν λόγων
     "a)/n",                                     # a paragraph on usage tagged as one translation,
                                                 # its Greek the examples: nothing is cut
 }

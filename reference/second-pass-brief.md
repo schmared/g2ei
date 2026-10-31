@@ -618,6 +618,13 @@ neuter, the altar's.
 Two disagreements over 586 words. The second pass was right that πάντα at 18:8 agrees with τὸν μόχθον;
 βοηθός stays a noun, as GEN 2:18 and EXO 15:2 have it.
 
+### What it found in Exodus 19
+
+Eight disagreements over 566 words. Six were Σινα: its lemma (the corpus keeps Rahlfs's unaccented Σινα), and
+the case of τὸ ὄρος τὸ Σινα, where the second pass read the genitive after the article, as τὴν δρῦν τὴν Μαμβρη;
+the name stays in apposition, in the mountain's case, as τῷ ὄρει τῷ Γαλααδ at GEN 31:23. The second pass was
+right that αὐτοῦ at 19:13 is neuter, repeating ἁψάμενος τοῦ ὄρους.
+
 ## The brief
 
 Copy everything below the rule into a new agent. Replace `<BOOK NAME>`, `<CHAPTER>`,

@@ -837,7 +837,7 @@ the same ground as `the sixth` and `the seventh`: one sense each, so no range to
 
 | lemma | headword | chain | used |
 | --- | --- | --- | --- |
-| βιάζω | `overpowered by force` | `overpowered by force, pressed hard, did violence to, laid violent hands on, forced` | 33:11 |
+| βιάζω | `overpowered by force` | `overpowered by force and pressed hard, did them violence, laid violent hands on, forced, used force and struggled, forced one's way, increased in violence` | 33:11 |
 | γινώσκω | `learns to know` | `learns to know, perceives, marks, learns, discerns and distinguishes` | 33:13 |
 | δέχομαι | `take` | `take, accept, receive, receive in exchange for, take rather and choose` | 33:10 |
 | εὐδοκέω | `you will be well pleased` | `you will be well pleased, you will consent, you will be glad` | 33:10 |
@@ -976,7 +976,7 @@ the same ground as `the sixth` and `the seventh`: one sense each, so no range to
 | ἄγγελος | `messengers` | `messengers and envoys, ones that announce, divine messengers and angels` | 32:4 |
 | ἄνθρωπος | `man` | `a man, a human being, mankind` | 32:25 |
 | ἄνθρωπος | `of men` | `of men, of human beings, of mankind` | 32:29 |
-| ἅπτω | `fastened himself to` | `fastened himself to, clung to, hung on by, laid hold of, grasped, touched, engaged in and took part in, laid hold of and disputed` | 32:26, 32:33 |
+| ἅπτω | `fastened himself to` | `fastened himself to and clung to and hung on by and laid hold of and grasped and touched, engaged in and took part in, laid hold of and disputed, set upon and attacked and assailed, touched and affected, grasped with the senses and apprehended and perceived, came up to and reached and gained` | 32:26, 32:33 |
 | ἐκκόπτω | `may cut out` | `may cut out and knock out, may fell and cut down all the trees, may cut off and make an end of, may beat off and repulse` | 32:9 |
 | ἐνισχύω | `you strengthened` | `you strengthened and confirmed, you prevailed in and prevailed among` | 32:29 |
 | ἐξαιρέω | `take out for yourself` | `take out for yourself, choose for yourself and carry off as booty, bereave of, take away from one, set free and deliver` | 32:12 |
@@ -1722,7 +1722,7 @@ the same ground as `the sixth` and `the seventh`: one sense each, so no range to
 | ἀποστέλλω | `you sent off` | `you sent off, you sent away and banished, you despatched, you went away and departed` | 26:27 |
 | ἀρά | `prayer` | `prayer, prayer for evil and curse and imprecation, effect of the curse and bane and ruin` | 26:28 |
 | ἄγνοια | `want of perception` | `want of perception and ignorance, a mistake` | 26:10 |
-| ἅπτω | `the one fastening himself to` | `the one fastening himself to, touching, grasping, laying hold of, engaging in, meddling with` | 26:11 |
+| ἅπτω | `the one fastening himself to` | `the one fastening himself to and clinging to and hanging on by and laying hold of and grasping and touching, engaging in and taking part in, laying hold of and disputing, setting upon and attacking and assailing, touching and affecting, grasping with the senses and apprehending and perceiving, coming up to and reaching and gaining` | 26:11 |
 | ἐμφράσσω | `blocked up` | `blocked up` | 26:15, 26:18 |
 | ἐνιαυτός, with ἐν | `in the year` | `within, inside of, and by means of the year, the long period of time, the cycle of the year` | 26:12 |
 | ἐντολή | `the injunctions` | `the injunctions and orders and commands and behests` | 26:5 |
@@ -2343,8 +2343,8 @@ the same ground as `the sixth` and `the seventh`: one sense each, so no range to
 | ἁμαρτάνω | `we missed the mark` | `we missed the mark, we failed of our purpose, we went wrong, we erred, we sinned` | 20:9 |
 | ἁμαρτία | `a failure` | `a failure and fault and sin, guilt and sin` | 20:9 |
 | ἄνθρωπος | `to the man` | `to the man, to the human being, to mankind` | 20:7 |
-| ἅπτω | `fastened himself to` | `fastened himself to, clung to, hung on by, laid hold of, grasped, touched, engaged in and took part in, laid hold of and disputed` | 20:4 |
-| ἅπτω | `to fasten oneself to` | `to fasten oneself to, to cling to, to hang on by, to lay hold of, to grasp, to touch, to engage in and take part in, to lay hold of and dispute` | 20:6 |
+| ἅπτω | `fastened himself to` | `fastened himself to and clung to and hung on by and laid hold of and grasped and touched, engaged in and took part in, laid hold of and disputed, set upon and attacked and assailed, touched and affected, grasped with the senses and apprehended and perceived, came up to and reached and gained` | 20:4 |
+| ἅπτω | `to fasten oneself to` | `to fasten oneself to and cling to and hang on by and lay hold of and grasp and touch, to engage in and take part in, to lay hold of and dispute, to set upon and attack and assail, to touch and affect, to grasp with the senses and apprehend and perceive, to come up to and reach and gain` | 20:6 |
 | ἐνοράω | `having seen` | `having seen and remarked and observed, having looked at and upon` | 20:10 |
 | ἐπάγω | `you brought on` | `you brought on, you brought upon, you set on and urged on, you led on, you brought in and invited, you brought to, you laid on and applied, you brought forward, you added` | 20:9 |
 | ἔργον | `work` | `work, business, deeds, action, works of industry and tilled lands` | 20:9 |
@@ -3461,7 +3461,7 @@ otherwise.
 | ἐσθίω | fut. 1 pl | `we will eat` | `we will eat, we will eat of` | 3:2 |
 | ἐσθίω | aor. inf. / aor. subj. 3 sg | `to eat` · `he may eat` | `to eat, to eat of` · `he may eat, he may eat of` | 3:11, 3:17, 3:22 |
 | ἀποθνήσκω | aor. subj. 2 pl | `you may die off` | `you may die off and die, you may be put to death and slain` | 3:3 |
-| ἅπτω | aor. mid. subj. 2 pl | `you may fasten yourselves to` | `you may fasten yourselves to, you may cling to, you may hang on by, you may lay hold of, you may grasp, you may touch` | 3:3 |
+| ἅπτω | aor. mid. subj. 2 pl | `you may fasten yourselves to` | `you may fasten yourselves to and cling to and hang on by and lay hold of and grasp and touch, you may engage in and take part in, you may lay hold of and dispute, you may set upon and attack and assail, you may touch and affect, you may grasp with the senses and apprehend and perceive, you may come up to and reach and gain` | 3:3 |
 | οἶδα | pluperf. 3 sg | `knew` | `knew, was assured, was versed in` | 3:5 |
 | διανοίγω | fut. / aor. pass. 3 pl | `will be opened` · `were opened` | `will be opened, will be opened and explained` · `were opened, were opened and explained` | 3:5, 3:7 |
 | γινώσκω | pres. ptcp. / aor. 3 pl | `learning to know` · `learned to know` | `learning to know, perceiving, marking, learning, discerning and distinguishing` · the same in the aorist | 3:5, 3:7 |
@@ -7722,3 +7722,50 @@ text uses. Chains already in the corpus (Genesis) were read from it and re-infle
   `will be light`; κατισχύω `will have power over`; ἐπιλέγω `chose`; ἐλαφρός `light in weight`.
 - One translation each, plain text: συνάντησις (*a meeting*), μισέω's active (*hating*), πεντηκόνταρχος (*the
   commander of fifty men*), δεκάδαρχος (*a commander of ten*), ἑκατόνταρχος, πρωΐθεν.
+
+### Words new in EXO 19
+
+- **From LSJ** (not in Middle Liddell): γνοφώδης, `dark and gloomy`, one translation, citing 19:16.
+- **Voice** (`FORM_SENSES`): βιάζω's middle and middle/passive read the middle's senses, as GEN 33:11 reads them:
+  `let overpower by force and press hard, let do them violence, let lay violent hands on, let force, let use
+  force and struggle, let force one's way, let increase in violence` (19:24). ἅπτω's middle reads the middle's,
+  and its future middle the passive's *to be set on fire, catch fire* too, which the entry gives "with fut.
+  mid.": `will fasten itself to and cling to and hang on by and lay hold of and grasp and touch, …, will be set
+  on fire and catch fire` (19:13). ἀπαλλάσσω's active leaves out the passive's and middle's; προσάγω's middle
+  the active's and passive's; ἀφορίζω's active the middle's *to mark off for oneself*, and its middle the
+  active's *to mark off by boundaries*.
+- **Runs joined, senses restored**: ἅπτω's middle had split *to fasten oneself to, cling to, hang on by, lay
+  hold of, grasp, touch* into six items at GEN 3:3, 20:4, 20:6, 26:11, 32:26 and 32:33, and stopped before
+  *to set upon, attack, assail*, *to touch, affect*, *to grasp with the senses, apprehend, perceive* and *to
+  come up to, reach, gain*; all six now read the run whole and the four senses after it. GEN 26:11 had read
+  *meddling with*, which the entry does not give. βιάζω at GEN 33:11 had split *to overpower by force, press
+  hard* and stopped at *forced*; it now reads `overpowered by force and pressed hard, did them violence, laid
+  violent hands on, forced, used force and struggled, forced one's way, increased in violence`.
+- **Cut translations restored** (`MARKUP_LOST`), each the word's own English in that use with its object
+  between, by open question Q7's test: βιάζω's *to do them violence*, προσάγω's *to draw all eyes upon
+  oneself*; and πτέρυξ's *anything that covers or protects*, ἠχέω's *to let it sound*.
+- **Pieces set aside** (`NOT_SENSES`): πτέρυξ (*wings*, the first sense's plural; *the wings*, a repeat),
+  ἠχέω (examples'), πτοέω (an example's; the participle's as a noun), καπνός (a proverb's, an example's),
+  θιγγάνω (*reach*, an example's), ἀπαλλάσσω (*from*), προσάγω (an example's; the participle's), ἅπτω
+  (*touched on*, *red-hot*, examples'). `GREEK_AFTER`: ἀπαλλάσσω's *to leave off or cease from* τῶν μακρῶν
+  λόγων is whole.
+- **A middle with no middle sense**: ἁγίασαι (19:23) is the aorist middle imperative, by its accent; Middle
+  Liddell gives ἁγιάζω no middle, so it reads `hallow`, as the active, with no *for yourself*. Ἀφόρισαι
+  reads the middle's own `mark off for yourself`.
+- **Names**: τὸ ὄρος τὸ Σινα reads the name in apposition, in the mountain's case (`the mountain the Sinai`), as
+  τῷ ὄρει τῷ Γαλααδ at GEN 31:23; τοῦ Σινα (19:1, 19:2) is neuter, the mountain's.
+- New chains: ἔξοδος `of the going out`; ἐξαίρω `lifted up` (plural); ποιέω `I have made`; ἀναλαμβάνω `I took
+  up`; πτέρυξ `of wings`; ἀετός `of eagles`; προσάγω `I brought`; ἀκούω `we will hear`; περιούσιος `having more
+  than enough`; βασίλειος `of the king`; παραγίνομαι `I come to be beside`; διαμαρτύρομαι `protest solemnly`,
+  `you have protested solemnly`; ἁγνίζω `cleanse away`; πλύνω `let wash`, `washed`; ἀφορίζω `you will mark off
+  by boundaries`, `mark off for yourself`; θιγγάνω `to touch`; ἅπτω `the one having fastened himself to`, `will
+  fasten itself to`; λιθοβολέω `will be pelted with stones`; βολίς `to a javelin`; κατατοξεύω `will be struck
+  down with arrows`; κτῆνος `flock and herd`; σάλπιγξ `the war-trumpets`, `of the war-trumpet`; νεφέλη `the
+  cloud`, `a cloud`; ἀπέρχομαι `may go away`; ἁγιάζω `let be hallowed`; γυνή `to a woman`; γίνομαι `of having
+  come into being`; ἀστραπή `flashes of lightning`; γνοφώδης `dark`; ἠχέω `was sounding`; πτοέω `was
+  terrified`; παρίστημι `stood by` (plural); καπνίζω `was being smoked`; καταβαίνω `the having stepped down`;
+  ἰσχυρός `more strong`; ἐγγίζω `may bring near`, `the ones bringing near`; ἱερεύς `the priests`; ἀπαλλάσσω
+  `may set free`; προσαναβαίνω `to go up`; βιάζω `let overpower by force`; ἀπόλλυμι `may destroy utterly`;
+  ἀναβαίνω `to go up`, `of the going up`; λίθος `in stones`.
+- One translation each, plain text: μήν (*a month*), ἱεράτευμα (*a priesthood*), ὁμοθυμαδόν (*with one
+  accord*), σήμερον (*to-day*), συνάντησις (*a meeting*), τρεῖς (*three*), καπνός (*smoke*).
