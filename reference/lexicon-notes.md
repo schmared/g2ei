@@ -8587,3 +8587,38 @@ text uses. Chains already in the corpus (Genesis) were read from it and re-infle
 - **Morphology**: the second pass was right on seventeen: the measures and τὸ αὐτό in the verbless clauses of 37:2
   and 37:16 nominative; the αὐτῶν that are the hangings' or the curtains' neuter or feminine. Anarthrous ὑακίνθου
   keeps the masculine (Q22), νῶτος the masculine of GEN 49:8, Ουριας the corpus's lemma.
+
+### Words new in EXO 38
+
+- **The order**: the ark, the mercy-seat, the table and the lampstand, which the Hebrew gives at 37:1–24, without the
+  Hebrew's altar of incense; then the pillars, rings and pegs, the bronze altar, the oil and incense, and the laver.
+  `divergence` notes at 38:1 and at 38:26, where the Hebrew's women who served, ṣōbĕʾōt, are the Greek's women who
+  fasted.
+- **From LSJ** (not in Middle Liddell): λαβίς `the handles, the hilts, the holders, the forceps, the clamps and
+  clasps, the tongs or snuffers`, LSJ citing 38:17 for the last; ἐπαρυστρίς, "= foreg.", reading ἐπαρυστήρ's *vessel
+  for pouring oil into a lamp*, plain, as at 25:38; παράθεμα *appendage*, plain; διωστήρ `instruments for pushing out
+  embedded weapons, poles running through rings for carrying the ark`; ἐνθέμιον `cabin on the poop of a ship, socket
+  of a lampstand`; καρυωτός, the adjective LSJ cites from 38:16, *adorned with a nut-shaped boss*, plain, its
+  *date-palm* being the masculine made a noun.
+- **Set aside** (`NOT_SENSES`): στερεός's examples' *solid gold* and *a cubic*; its adjective leaves out the adverb's
+  *firmly, fast* (`FORM_SENSES`). καταστασιάζω's active leaves out the passive's senses, and is plain, *to form a
+  counter-party in the state*.
+- New chains: εὐρύς `wide and broad, far-reaching and far-spread`; σκιάζω's participle `overshadowing and shading,
+  overshadowing and covering, shading in painting`; πρόκειμαι's articular participle; φωτίζω `enlightens and
+  illuminates and instructs and teaches, brings to light and publishes, enlightens spiritually, baptizes`; στερεός
+  `stiff and stark and firm and solid, stiff and stubborn and harsh`; βλαστός with the article; ἐξέχω's participle
+  `standing out, projecting from, standing out and appearing`; λαμπάδιον `the small torches, the bandages`; λύχνος
+  without the article; περιαργυρόω's aorist `cased and plated with silver`; χρυσόω's aorist `made golden and gilded`;
+  ἐκτείνω's articular infinitive; κατακάλυμμα with the article; χαλκοῦς with the article, `the of copper`; ἀνήρ's
+  articular dative plural; δικτυωτός without the dative; κάτοπτρον `of the mirrors, of the mere reflexions`; νίπτω's
+  middle subjunctive and imperfect, `may wash one's hands`, `were washing one's hands`; εἰσπορεύομαι's anarthrous
+  genitive participle; μέρος without the article; δεύτερος's neuter genitive.
+- One translation each, plain text: χωνεύω *cast into a mould (χόανος)*; θυΐσκη *censer*; λυχνία *lampstand*;
+  καλαμίσκος *a bit of reed*; πυρεῖον *pieces of wood*, read in the number the form wears; κρεάγρα *a flesh-hook*;
+  ἔλαιον *olive-oil*; λουτήρ *washing or bathing-tub*; νηστεύω *fasted*; θυσιαστήριον *altar*; the numerals.
+- **Names**: τῆς Κορε συναγωγῆς, the article συναγωγῆς's and the name after its unit, as at 36:4.
+- **validate.py**: `own_article` compares gender as well as case, so an article in another gender is not taken for a
+  name's own. It found two places the case-only check had passed: GEN 24:24 τοῦ Μελχας, now `of the one of Μελχας`,
+  and EXO 23:31 τῆς Φυλιστιιμ, now `of the one of Φυλιστιιμ`. `test_validate.py` has a case for it.
+- **Morphology**: the second pass was right on three: σκιάζοντα masculine singular with χερουβ ἕνα, αὐτῶν after it
+  masculine, and τεσσάρων with the neuter μερῶν neuter. τρύβλιον and θυΐσκη keep the corpus's lemmas.

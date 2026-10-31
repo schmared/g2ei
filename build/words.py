@@ -599,6 +599,20 @@ LSJ = {
     "ῥαφιδευτός": ["stitched, patched", "strung together, continuous", "worked with the needle",
                    "an embroidered carpet"],
     "ποικιλτικός": ["skilful in embroidery"],
+    # EXO 38. Not in Middle Liddell. LSJ (eng12): λαβίς, "«handle»", "«hilt»", "«holder», i.e. «forceps»",
+    # "«clamp, clasp»", "«tongs» or «snuffers» to trim lamps", citing 38:17. LSJ (eng5) gives ἐπαρυστρίς no gloss of
+    # its own, "= foreg.", ἐπαρυστήρ, so it reads ἐπαρυστήρ's, as at 25:38. LSJ (eng17): παράθεμα, "«appendage»",
+    # citing 38:24; its "= ἐπίθεμα" is Hesychius's. LSJ (eng4): διωστήρ, "«instrument for pushing out» embedded
+    # weapons", "«pole running through rings,» for carrying the ark", citing 38:10. LSJ (eng5): ἐνθέμιον, "«cabin on
+    # the poop of a ship»", "«socket» of a lampstand", citing 38:16. LSJ (eng11), under καρυωτός: the masculine made a
+    # noun, ὁ κ. (sc. φοῖνιξ), "«date»-palm", and the adjective, φιάλη καρυωτή, "«adorned with a nut-shaped boss»",
+    # "also κ. λαμπάδια LXX Ex. 38.16": this text has the adjective.
+    "λαβίς": ["handle", "hilt", "holder", "forceps", "clamp, clasp", "tongs", "snuffers"],
+    "ἐπαρυστρίς": ["vessel for pouring oil into a lamp"],
+    "παράθεμα": ["appendage"],
+    "διωστήρ": ["instrument for pushing out embedded weapons", "pole running through rings for carrying the ark"],
+    "ἐνθέμιον": ["cabin on the poop of a ship", "socket of a lampstand"],
+    "καρυωτός": ["adorned with a nut-shaped boss"],
     "διασκευή": ["construction", "equipment", "furniture or vessels", "rhetorical elaboration", "set phrases",
                  "new edition or recension", "theatrical performance"],
     # EXO 12. None of these is in Middle Liddell. LSJ (eng3): γειώρας, "sojourner", "proselyte". LSJ
@@ -1734,6 +1748,8 @@ NOT_SENSES = {
     "e)panastre/fw": {"to turn back upon"},    # "to turn back upon one", cut, whole in MARKUP_LOST
     "r(h/gnumi": {"to break, break asunder", "in pieces, rend, shiver, shatter", "force one's", "breaking into speech",
                   "rumpere vocem", "having let loose"},  # "to break … or in pieces", cut, whole in MARKUP_LOST; a piece, examples', Virgil
+    # EXO 38
+    "stereo/s": {"solid gold", "a cubic"},     # examples', "all of «solid gold»", "«a cubic» number"
     # EXO 37
     "leitourgi/a": {"liturgies", "liturgy."},  # the ordinary liturgies' list; "hence our word liturgy"
     "e)ciso/w": {"acts"},                     # an example's, "acts in no way like a mother"
@@ -2113,6 +2129,9 @@ FORM_SENSES = {
         "to hold, consider as", "to take", "to pasture", "graze", "drive to pasture, tend", "to graze", "to give"})],
     "xrw=ma": [("-", "-", NOT_SENSES["xrw=ma"] | {"ornaments, embellishments", "embellishments in music"}, None,
                 "^.....S")],
+    # EXO 38. στερεός's adjective leaves out the adverb's "firmly, fast"; καταστασιάζω's active the passive's.
+    "stereo/s": [("-", "-", NOT_SENSES["stereo/s"] | {"firmly, fast"}, None, "^....[NGDAV]")],
+    "katastasia/zw": [("PIFAXY", "A", {"to be factiously opposed", "overpowered"})],
     # EXO 36. τέμνω's, κωλύω's and χαλάω's passive leave out the senses that have no passive: the absolute, the
     # intransitive, the middle's, and κωλύω's participle and impersonal third person. γράμμα's plural leaves out the
     # senses Middle Liddell marks "in sg."; ἑκουσίως, the adverb, the neuter's "voluntary acts".

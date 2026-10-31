@@ -729,6 +729,12 @@ in the verbless clauses of 37:2 and 37:16 are nominative, and the αὐτῶν w
 curtains are neuter or feminine. Anarthrous ὑακίνθου keeps the masculine (Q22), νώτου the masculine νῶτος of
 GEN 49:8, and Ουριας the corpus's dictionary form.
 
+### What it found in Exodus 38
+
+Five disagreements over 505 words, and the second pass was right on three: σκιάζοντα at 38:8 masculine singular,
+with χερουβ ἕνα, and αὐτῶν after it masculine; τεσσάρων with the neuter μερῶν neuter, the C gender being only for
+forms that cannot tell masculine from feminine. τρύβλιον and θυΐσκη keep the corpus's dictionary forms.
+
 ## The brief
 
 Copy everything below the rule into a new agent. Replace `<BOOK NAME>`, `<CHAPTER>`,

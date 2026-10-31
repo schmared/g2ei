@@ -1269,10 +1269,16 @@ def own_article(words, i):
     then goes after it."""
     case = lambda w: next((c for c in ("nominative", "genitive", "dative", "accusative",
                                         "vocative") if c in w["parse"].split(" · ")), None)
+    # nor one in another gender: τῆς Κορε συναγωγῆς (EXO 38:22) is συναγωγῆς's article, with
+    # the masculine name between them
+    gender = lambda w: next((g for g in ("masculine", "feminine", "neuter")
+                             if g in w["parse"].split(" · ")), None)
     k = i - 1
     while k >= 0 and words[k]["parse"].split(" · ")[0] in ("conjunction", "particle"):
         k -= 1
-    return k >= 0 and words[k]["parse"].startswith("article") and case(words[k]) == case(words[i])
+    if k < 0 or not words[k]["parse"].startswith("article") or case(words[k]) != case(words[i]):
+        return False
+    return None in (gender(words[k]), gender(words[i])) or gender(words[k]) == gender(words[i])
 
 
 def marker_before(text, at, article=False):

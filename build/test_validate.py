@@ -34,6 +34,7 @@ GEN = json.loads((render.DATA / "GEN/1.json").read_text(encoding="utf-8"))
 GEN3 = json.loads((render.DATA / "GEN/3.json").read_text(encoding="utf-8"))
 GEN7 = json.loads((render.DATA / "GEN/7.json").read_text(encoding="utf-8"))
 GEN36 = json.loads((render.DATA / "GEN/36.json").read_text(encoding="utf-8"))
+GEN24 = json.loads((render.DATA / "GEN/24.json").read_text(encoding="utf-8"))
 GEN19 = json.loads((render.DATA / "GEN/19.json").read_text(encoding="utf-8"))
 EXO8 = json.loads((render.DATA / "EXO/8.json").read_text(encoding="utf-8"))
 EXO15 = json.loads((render.DATA / "EXO/15.json").read_text(encoding="utf-8"))
@@ -312,6 +313,13 @@ NEGATIVE = [
                                              dict(v, reading=v["reading"].replace(
                                                  "of the sons of [[name:Ησαυ]]", "of the sons the [[name:Ησαυ]]"))
                                              for v in GEN36])),
+    # GEN 24:24 τοῦ Μελχας: a masculine article before a woman's name is not hers, and a `the`
+    # before the name stands for nothing (the check had compared case alone)
+    ("names  an article in another gender taken for the name's own",
+                                         lambda: run(V.check_name_cases, "GEN", 24, [
+                                             dict(v, reading=v["reading"].replace(
+                                                 "of the one of [[name:Μελχας]]", "of the one of the [[name:Μελχας]]"))
+                                             for v in GEN24])),
     # GEN 12:17 ἐτασμοῖς μεγάλοις had read `to trials with big`: a dative read by its use
     ("cases  a dative adjective read as an instrumental",
                                          lambda: run(V.check_unit_cases, "GEN", 12, [

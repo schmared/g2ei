@@ -1,0 +1,533 @@
+# Exodus 38 — morphology, one word per line.
+#
+# This is the project's own grammatical analysis of each form, written alongside the
+# transcription and not copied from any digital edition.
+#
+# Columns: verse, part of speech, parse, form, lemma — in MorphGNT's code scheme, so
+# the Old and New Testament layers read alike. The parse is eight places: person,
+# tense, voice, mood, case, number, gender, degree ("-" where it does not apply).
+#
+# Two codes go beyond MorphGNT, both to record only what the form itself says:
+#   voice  E  middle/passive — a tense in which the two share one form
+#   gender C  masculine/feminine — an adjective whose form does not distinguish them
+#
+# A trailing annotation records a deliberate difference and the reason for it:
+#   "# module …"  from the reference module, checked when LXX_RAHLFS_DIR is set
+#   "# corpus …"  from this project's own analysis of the same form elsewhere
+# A line may carry both. validate.py prints them as notes instead of failures — and
+# fails if the difference a note claims is not there, so they cannot go stale. The
+# analysis here is this project's own: the module is a reference, not an authority,
+# and the corpus is held to itself.
+#
+# Indeclinables take case and number from the syntax, as MorphGNT does, and gender
+# where there is one to take: a personal name, from the person; a numeral agreeing
+# with its noun; a common noun whose article shows it — but not an indeclinable place
+# name, which has none. A personal name the New Testament also uses takes MorphGNT's
+# dictionary form (Νῶε, Σήμ); every other Semitic name (Χαμ, Ιαφεθ), the form Rahlfs
+# prints.
+
+38:1 C- -------- Καὶ καί
+38:1 V- 3AAI-S-- ἐποίησεν ποιέω
+38:1 N- ----NSM- Βεσελεηλ Βεσελεηλ
+38:1 RA ----ASF- τὴν ὁ
+38:1 N- ----ASF- κιβωτὸν κιβωτός
+38:2 C- -------- καὶ καί
+38:2 V- 3AAI-S-- κατεχρύσωσεν καταχρυσόω
+38:2 RP ----ASF- αὐτὴν αὐτός
+38:2 N- ----DSN- χρυσίῳ χρυσίον
+38:2 A- ----DSN- καθαρῷ καθαρός
+38:2 D- -------- ἔσωθεν ἔσωθεν
+38:2 C- -------- καὶ καί
+38:2 D- -------- ἔξωθεν ἔξωθεν
+38:3 C- -------- καὶ καί
+38:3 V- 3AAI-S-- ἐχώνευσεν χωνεύω
+38:3 RP ----DSF- αὐτῇ αὐτός
+38:3 A- ----APC- τέσσαρας τέσσαρες
+38:3 N- ----APM- δακτυλίους δακτύλιος
+38:3 A- ----APM- χρυσοῦς χρυσοῦς  # module lemma χρύσεος — χρυσοῦς, the contracted form, as MorphGNT files it, like διπλοῦς
+38:3 A- ----APM- δύο δύο  # module M, no features — MorphGNT gives δύο case, number and gender like any adjective
+38:3 P- -------- ἐπὶ ἐπί
+38:3 RA ----ASN- τὸ ὁ
+38:3 N- ----ASN- κλίτος κλίτος
+38:3 RA ----ASN- τὸ ὁ
+38:3 A- ----ASN- ἓν εἷς
+38:3 C- -------- καὶ καί
+38:3 A- ----APM- δύο δύο  # module M, no features — MorphGNT gives δύο case, number and gender like any adjective
+38:3 P- -------- ἐπὶ ἐπί
+38:3 RA ----ASN- τὸ ὁ
+38:3 N- ----ASN- κλίτος κλίτος
+38:3 RA ----ASN- τὸ ὁ
+38:3 A- ----ASN- δεύτερον δεύτερος  # module A.ASM — neuter, with κλίτος
+38:4 A- ----APM- εὐρεῖς εὐρύς
+38:4 RA ----DPM- τοῖς ὁ
+38:4 N- ----DPM- διωστῆρσιν διωστήρ
+38:4 C- -------- ὥστε ὥστε
+38:4 V- -PAN---- αἴρειν αἴρω
+38:4 RP ----ASF- αὐτὴν αὐτός
+38:4 P- -------- ἐν ἐν
+38:4 RP ----DPM- αὐτοῖς αὐτός
+38:5 C- -------- καὶ καί
+38:5 V- 3AAI-S-- ἐποίησεν ποιέω
+38:5 RA ----ASN- τὸ ὁ
+38:5 N- ----ASN- ἱλαστήριον ἱλαστήριον  # module lemma ἱλαστήριος — ἱλαστήριον, the noun, as MorphGNT files Heb 9:5; Middle Liddell gives it as Subst. inside ἱλαστήριος
+38:5 P- -------- ἐπάνωθεν ἐπάνωθεν
+38:5 RA ----GSF- τῆς ὁ
+38:5 N- ----GSF- κιβωτοῦ κιβωτός
+38:5 P- -------- ἐκ ἐκ
+38:5 N- ----GSN- χρυσίου χρυσίον
+38:6 C- -------- καὶ καί
+38:6 RA ----APM- τοὺς ὁ
+38:6 A- ----APM- δύο δύο  # module M, no features — MorphGNT gives δύο case, number and gender like any adjective
+38:6 N- ----APM- χερουβιμ χερουβιμ  # module lemma χερούβ — as printed, unaccented, like the Semitic names
+38:6 A- ----APM- χρυσοῦς χρυσοῦς  # module lemma χρύσεος — χρυσοῦς, the contracted form, as MorphGNT files it, like διπλοῦς
+38:7 N- ----ASM- χερουβ χερουβ  # module lemma χερούβ — as printed, unaccented, like the Semitic names
+38:7 A- ----ASM- ἕνα εἷς
+38:7 P- -------- ἐπὶ ἐπί
+38:7 RA ----ASN- τὸ ὁ
+38:7 N- ----ASN- ἄκρον ἄκρον
+38:7 RA ----GSN- τοῦ ὁ
+38:7 N- ----GSN- ἱλαστηρίου ἱλαστήριον  # module lemma ἱλαστήριος — ἱλαστήριον, the noun, as MorphGNT files Heb 9:5; Middle Liddell gives it as Subst. inside ἱλαστήριος
+38:7 RA ----ASN- τὸ ὁ
+38:7 A- ----ASN- ἓν εἷς
+38:7 C- -------- καὶ καί
+38:7 N- ----ASM- χερουβ χερουβ  # module lemma χερούβ — as printed, unaccented, like the Semitic names
+38:7 A- ----ASM- ἕνα εἷς
+38:7 P- -------- ἐπὶ ἐπί
+38:7 RA ----ASN- τὸ ὁ
+38:7 N- ----ASN- ἄκρον ἄκρον
+38:7 RA ----ASN- τὸ ὁ
+38:7 A- ----ASN- δεύτερον δεύτερος
+38:7 RA ----GSN- τοῦ ὁ
+38:7 N- ----GSN- ἱλαστηρίου ἱλαστήριον  # module lemma ἱλαστήριος — ἱλαστήριον, the noun, as MorphGNT files Heb 9:5; Middle Liddell gives it as Subst. inside ἱλαστήριος
+38:8 V- -PAPASM- σκιάζοντα σκιάζω
+38:8 RA ----DPF- ταῖς ὁ
+38:8 N- ----DPF- πτέρυξιν πτέρυξ
+38:8 RP ----GPM- αὐτῶν αὐτός
+38:8 P- -------- ἐπὶ ἐπί
+38:8 RA ----ASN- τὸ ὁ
+38:8 N- ----ASN- ἱλαστήριον ἱλαστήριον  # module lemma ἱλαστήριος — ἱλαστήριον, the noun, as MorphGNT files Heb 9:5; Middle Liddell gives it as Subst. inside ἱλαστήριος
+38:9 C- -------- Καὶ καί
+38:9 V- 3AAI-S-- ἐποίησεν ποιέω
+38:9 RA ----ASF- τὴν ὁ
+38:9 N- ----ASF- τράπεζαν τράπεζα
+38:9 RA ----ASF- τὴν ὁ
+38:9 V- -PEPASF- προκειμένην πρόκειμαι
+38:9 P- -------- ἐκ ἐκ
+38:9 N- ----GSN- χρυσίου χρυσίον
+38:9 A- ----GSN- καθαροῦ καθαρός
+38:10 C- -------- καὶ καί
+38:10 V- 3AAI-S-- ἐχώνευσεν χωνεύω
+38:10 RP ----DSF- αὐτῇ αὐτός
+38:10 A- ----APC- τέσσαρας τέσσαρες
+38:10 N- ----APM- δακτυλίους δακτύλιος
+38:10 A- ----APM- δύο δύο  # module M, no features — MorphGNT gives δύο case, number and gender like any adjective
+38:10 P- -------- ἐπὶ ἐπί
+38:10 RA ----GSN- τοῦ ὁ
+38:10 N- ----GSN- κλίτους κλίτος
+38:10 RA ----GSN- τοῦ ὁ
+38:10 A- ----GSN- ἑνὸς εἷς
+38:10 C- -------- καὶ καί
+38:10 A- ----APM- δύο δύο  # module M, no features — MorphGNT gives δύο case, number and gender like any adjective
+38:10 P- -------- ἐπὶ ἐπί
+38:10 RA ----GSN- τοῦ ὁ
+38:10 N- ----GSN- κλίτους κλίτος
+38:10 RA ----GSN- τοῦ ὁ
+38:10 A- ----GSN- δευτέρου δεύτερος
+38:10 A- ----APM- εὐρεῖς εὐρύς
+38:10 C- -------- ὥστε ὥστε
+38:10 V- -PAN---- αἴρειν αἴρω
+38:10 RA ----DPM- τοῖς ὁ
+38:10 N- ----DPM- διωστῆρσιν διωστήρ
+38:10 P- -------- ἐν ἐν
+38:10 RP ----DPM- αὐτοῖς αὐτός
+38:11 C- -------- καὶ καί
+38:11 RA ----APM- τοὺς ὁ
+38:11 N- ----APM- διωστῆρας διωστήρ
+38:11 RA ----GSF- τῆς ὁ
+38:11 N- ----GSF- κιβωτοῦ κιβωτός
+38:11 C- -------- καὶ καί
+38:11 RA ----GSF- τῆς ὁ
+38:11 N- ----GSF- τραπέζης τράπεζα
+38:11 V- 3AAI-S-- ἐποίησεν ποιέω
+38:11 C- -------- καὶ καί
+38:11 V- 3AAI-S-- κατεχρύσωσεν καταχρυσόω
+38:11 RP ----APM- αὐτοὺς αὐτός
+38:11 N- ----DSN- χρυσίῳ χρυσίον
+38:12 C- -------- καὶ καί
+38:12 V- 3AAI-S-- ἐποίησεν ποιέω
+38:12 RA ----APN- τὰ ὁ
+38:12 N- ----APN- σκεύη σκεῦος
+38:12 RA ----GSF- τῆς ὁ
+38:12 N- ----GSF- τραπέζης τράπεζα
+38:12 RA ----APN- τά ὁ
+38:12 C- -------- τε τε
+38:12 N- ----APN- τρυβλία τρύβλιον
+38:12 C- -------- καὶ καί
+38:12 RA ----APF- τὰς ὁ
+38:12 N- ----APF- θυίσκας θυΐσκη
+38:12 C- -------- καὶ καί
+38:12 RA ----APM- τοὺς ὁ
+38:12 N- ----APM- κυάθους κύαθος
+38:12 C- -------- καὶ καί
+38:12 RA ----APN- τὰ ὁ
+38:12 N- ----APN- σπονδεῖα σπονδεῖον
+38:12 P- -------- ἐν ἐν
+38:12 RR ----DPN- οἷς ὅς
+38:12 V- 3FAI-S-- σπείσει σπένδω
+38:12 P- -------- ἐν ἐν
+38:12 RP ----DPN- αὐτοῖς αὐτός
+38:12 A- ----APN- χρυσᾶ χρυσοῦς  # module lemma χρύσεος — χρυσοῦς, the contracted form, as MorphGNT files it, like διπλοῦς
+38:13 C- -------- Καὶ καί
+38:13 V- 3AAI-S-- ἐποίησεν ποιέω
+38:13 RA ----ASF- τὴν ὁ
+38:13 N- ----ASF- λυχνίαν λυχνία
+38:13 RR ----NSF- ἣ ὅς
+38:13 V- 3PAI-S-- φωτίζει φωτίζω
+38:13 A- ----ASF- χρυσῆν χρυσοῦς  # module lemma χρύσεος — χρυσοῦς, the contracted form Rahlfs prints
+38:13 A- ----ASF- στερεὰν στερεός
+38:13 RA ----ASM- τὸν ὁ
+38:13 N- ----ASM- καυλόν καυλός
+38:14 C- -------- καὶ καί
+38:14 RA ----APM- τοὺς ὁ
+38:14 N- ----APM- καλαμίσκους καλαμίσκος
+38:14 P- -------- ἐξ ἐκ
+38:14 A- ----GPN- ἀμφοτέρων ἀμφότερος
+38:14 RA ----GPN- τῶν ὁ
+38:14 N- ----GPN- μερῶν μέρος
+38:14 RP ----GSF- αὐτῆς αὐτός
+38:15 P- -------- ἐκ ἐκ
+38:15 RA ----GPM- τῶν ὁ
+38:15 N- ----GPM- καλαμίσκων καλαμίσκος
+38:15 RP ----GSF- αὐτῆς αὐτός
+38:15 RA ----NPM- οἱ ὁ
+38:15 N- ----NPM- βλαστοὶ βλαστός
+38:15 V- -PAPNPM- ἐξέχοντες ἐξέχω
+38:15 A- ----NPC- τρεῖς τρεῖς
+38:15 P- -------- ἐκ ἐκ
+38:15 RD ----GSN- τούτου οὗτος
+38:15 C- -------- καὶ καί
+38:15 A- ----NPC- τρεῖς τρεῖς
+38:15 P- -------- ἐκ ἐκ
+38:15 RD ----GSN- τούτου οὗτος
+38:15 V- -PEPNPM- ἐξισούμενοι ἐξισόω
+38:15 RP ----DPM- ἀλλήλοις ἀλλήλων
+38:16 C- -------- καὶ καί
+38:16 RA ----APN- τὰ ὁ
+38:16 N- ----APN- λαμπάδια λαμπάδιον
+38:16 RP ----GPM- αὐτῶν αὐτός
+38:16 RR ----NPN- ἅ ὅς
+38:16 V- 3PAI-S-- ἐστιν εἰμί
+38:16 P- -------- ἐπὶ ἐπί
+38:16 RA ----GPN- τῶν ὁ
+38:16 N- ----GPN- ἄκρων ἄκρον
+38:16 A- ----APN- καρυωτὰ καρυωτός  # module N.APM — the neuter plural adjective, with λαμπάδια, as LSJ cites κ. λαμπάδια from this verse
+38:16 P- -------- ἐξ ἐκ
+38:16 RP ----GPM- αὐτῶν αὐτός  # module RD.GPN — masculine, the branches', βλαστοί and καλαμίσκοι
+38:16 C- -------- καὶ καί
+38:16 RA ----APN- τὰ ὁ
+38:16 N- ----APN- ἐνθέμια ἐνθέμιον
+38:16 P- -------- ἐξ ἐκ
+38:16 RP ----GPM- αὐτῶν αὐτός  # module RD.GPN — masculine, the branches', βλαστοί and καλαμίσκοι
+38:16 C- -------- ἵνα ἵνα
+38:16 V- 3PAS-P-- ὦσιν εἰμί
+38:16 P- -------- ἐπʼ ἐπί
+38:16 RP ----GPN- αὐτῶν αὐτός
+38:16 RA ----NPM- οἱ ὁ
+38:16 N- ----NPM- λύχνοι λύχνος
+38:16 C- -------- καὶ καί
+38:16 RA ----ASN- τὸ ὁ
+38:16 N- ----ASN- ἐνθέμιον ἐνθέμιον
+38:16 RA ----ASN- τὸ ὁ
+38:16 A- ----ASN- ἕβδομον ἕβδομος
+38:16 P- -------- ἀπʼ ἀπό
+38:16 N- ----GSN- ἄκρου ἄκρον
+38:16 RA ----GSN- τοῦ ὁ
+38:16 N- ----GSN- λαμπαδίου λαμπάδιον
+38:16 P- -------- ἐπὶ ἐπί
+38:16 RA ----GSF- τῆς ὁ
+38:16 N- ----GSF- κορυφῆς κορυφή
+38:16 D- -------- ἄνωθεν ἄνωθεν
+38:16 A- ----ASN- στερεὸν στερεός
+38:16 A- ----ASN- ὅλον ὅλος
+38:16 A- ----ASN- χρυσοῦν χρυσοῦς  # module lemma χρύσεος — χρυσοῦς, the contracted form Rahlfs prints
+38:17 C- -------- καὶ καί
+38:17 A- ----APM- ἑπτὰ ἑπτά  # module M, no features — MorphGNT gives ἑπτά case, number and gender like any adjective
+38:17 N- ----APM- λύχνους λύχνος
+38:17 P- -------- ἐπʼ ἐπί
+38:17 RP ----GSF- αὐτῆς αὐτός
+38:17 A- ----APM- χρυσοῦς χρυσοῦς  # module lemma χρύσεος — χρυσοῦς, the contracted form, as MorphGNT files it, like διπλοῦς
+38:17 C- -------- καὶ καί
+38:17 RA ----APF- τὰς ὁ
+38:17 N- ----APF- λαβίδας λαβίς
+38:17 RP ----GSF- αὐτῆς αὐτός
+38:17 A- ----APF- χρυσᾶς χρυσοῦς  # module lemma χρύσεος — χρυσοῦς, the contracted form, as MorphGNT files it, like διπλοῦς
+38:17 C- -------- καὶ καί
+38:17 RA ----APF- τὰς ὁ
+38:17 N- ----APF- ἐπαρυστρίδας ἐπαρυστρίς
+38:17 RP ----GPM- αὐτῶν αὐτός
+38:17 A- ----APF- χρυσᾶς χρυσοῦς  # module lemma χρύσεος — χρυσοῦς, the contracted form, as MorphGNT files it, like διπλοῦς
+38:18 RD ----NSM- Οὗτος οὗτος
+38:18 V- 3AAI-S-- περιηργύρωσεν περιαργυρόω
+38:18 RA ----APM- τοὺς ὁ
+38:18 N- ----APM- στύλους στῦλος
+38:18 C- -------- καὶ καί
+38:18 V- 3AAI-S-- ἐχώνευσεν χωνεύω
+38:18 RA ----DSM- τῷ ὁ
+38:18 N- ----DSM- στύλῳ στῦλος
+38:18 N- ----APM- δακτυλίους δακτύλιος
+38:18 A- ----APM- χρυσοῦς χρυσοῦς  # module lemma χρύσεος — χρυσοῦς, the contracted form, as MorphGNT files it, like διπλοῦς
+38:18 C- -------- καὶ καί
+38:18 V- 3AAI-S-- ἐχρύσωσεν χρυσόω
+38:18 RA ----APM- τοὺς ὁ
+38:18 N- ----APM- μοχλοὺς μοχλός
+38:18 N- ----DSN- χρυσίῳ χρυσίον
+38:18 C- -------- καὶ καί
+38:18 V- 3AAI-S-- κατεχρύσωσεν καταχρυσόω
+38:18 RA ----APM- τοὺς ὁ
+38:18 N- ----APM- στύλους στῦλος
+38:18 RA ----GSN- τοῦ ὁ
+38:18 N- ----GSN- καταπετάσματος καταπέτασμα
+38:18 N- ----DSN- χρυσίῳ χρυσίον
+38:18 C- -------- καὶ καί
+38:18 V- 3AAI-S-- ἐποίησεν ποιέω
+38:18 RA ----APF- τὰς ὁ
+38:18 N- ----APF- ἀγκύλας ἀγκύλη
+38:18 A- ----APF- χρυσᾶς χρυσοῦς  # module lemma χρύσεος — χρυσοῦς, the contracted form, as MorphGNT files it, like διπλοῦς
+38:19 RD ----NSM- οὗτος οὗτος
+38:19 V- 3AAI-S-- ἐποίησεν ποιέω
+38:19 C- -------- καὶ καί
+38:19 RA ----APM- τοὺς ὁ
+38:19 N- ----APM- κρίκους κρίκος
+38:19 RA ----GSF- τῆς ὁ
+38:19 N- ----GSF- σκηνῆς σκηνή
+38:19 A- ----APM- χρυσοῦς χρυσοῦς  # module lemma χρύσεος — χρυσοῦς, the contracted form, as MorphGNT files it, like διπλοῦς
+38:19 C- -------- καὶ καί
+38:19 RA ----APM- τοὺς ὁ
+38:19 N- ----APM- κρίκους κρίκος
+38:19 RA ----GSF- τῆς ὁ
+38:19 N- ----GSF- αὐλῆς αὐλή
+38:19 C- -------- καὶ καί
+38:19 N- ----APM- κρίκους κρίκος
+38:19 P- -------- εἰς εἰς
+38:19 RA ----ASN- τὸ ὁ
+38:19 V- -PAN---- ἐκτείνειν ἐκτείνω
+38:19 RA ----ASN- τὸ ὁ
+38:19 N- ----ASN- κατακάλυμμα κατακάλυμμα
+38:19 D- -------- ἄνωθεν ἄνωθεν
+38:19 A- ----APM- χαλκοῦς χαλκοῦς  # module lemma χάλκεος — χαλκοῦς, the contracted form, filed under χάλκεος as χρυσοῦς is under χρύσεος
+38:20 RD ----NSM- οὗτος οὗτος
+38:20 V- 3AAI-S-- ἐχώνευσεν χωνεύω
+38:20 RA ----APF- τὰς ὁ
+38:20 N- ----APF- κεφαλίδας κεφαλίς
+38:20 RA ----APF- τὰς ὁ
+38:20 A- ----APF- ἀργυρᾶς ἀργυροῦς  # module lemma ἀργύρεος — ἀργυροῦς, the contracted form, as Middle Liddell heads it
+38:20 RA ----GSF- τῆς ὁ
+38:20 N- ----GSF- σκηνῆς σκηνή
+38:20 C- -------- καὶ καί
+38:20 RA ----APF- τὰς ὁ
+38:20 N- ----APF- κεφαλίδας κεφαλίς
+38:20 RA ----APF- τὰς ὁ
+38:20 A- ----APF- χαλκᾶς χαλκοῦς  # module lemma χάλκεος — χαλκοῦς, the contracted form, filed under χάλκεος as χρυσοῦς is under χρύσεος
+38:20 RA ----GSF- τῆς ὁ
+38:20 N- ----GSF- θύρας θύρα
+38:20 RA ----GSF- τῆς ὁ
+38:20 N- ----GSF- σκηνῆς σκηνή
+38:20 C- -------- καὶ καί
+38:20 RA ----ASF- τὴν ὁ
+38:20 N- ----ASF- πύλην πύλη
+38:20 RA ----GSF- τῆς ὁ
+38:20 N- ----GSF- αὐλῆς αὐλή
+38:20 C- -------- καὶ καί
+38:20 N- ----APF- ἀγκύλας ἀγκύλη
+38:20 V- 3AAI-S-- ἐποίησεν ποιέω
+38:20 RA ----DPM- τοῖς ὁ
+38:20 N- ----DPM- στύλοις στῦλος
+38:20 A- ----APF- ἀργυρᾶς ἀργυροῦς  # module lemma ἀργύρεος — ἀργυροῦς, the contracted form, as Middle Liddell heads it
+38:20 P- -------- ἐπὶ ἐπί
+38:20 RA ----GPM- τῶν ὁ
+38:20 N- ----GPM- στύλων στῦλος
+38:20 RD ----NSM- οὗτος οὗτος
+38:20 V- 3AAI-S-- περιηργύρωσεν περιαργυρόω
+38:20 RP ----APF- αὐτάς αὐτός
+38:21 RD ----NSM- οὗτος οὗτος
+38:21 V- 3AAI-S-- ἐποίησεν ποιέω
+38:21 C- -------- καὶ καί
+38:21 RA ----APM- τοὺς ὁ
+38:21 N- ----APM- πασσάλους πάσσαλος
+38:21 RA ----GSF- τῆς ὁ
+38:21 N- ----GSF- σκηνῆς σκηνή
+38:21 C- -------- καὶ καί
+38:21 RA ----APM- τοὺς ὁ
+38:21 N- ----APM- πασσάλους πάσσαλος
+38:21 RA ----GSF- τῆς ὁ
+38:21 N- ----GSF- αὐλῆς αὐλή
+38:21 A- ----APM- χαλκοῦς χαλκοῦς  # module lemma χάλκεος — χαλκοῦς, the contracted form, filed under χάλκεος as χρυσοῦς is under χρύσεος
+38:22 RD ----NSM- οὗτος οὗτος
+38:22 V- 3AAI-S-- ἐποίησεν ποιέω
+38:22 RA ----ASN- τὸ ὁ
+38:22 N- ----ASN- θυσιαστήριον θυσιαστήριον
+38:22 RA ----ASN- τὸ ὁ
+38:22 A- ----ASN- χαλκοῦν χαλκοῦς  # module lemma χάλκεος — χαλκοῦς, the contracted form, filed under χάλκεος as χρυσοῦς is under χρύσεος
+38:22 P- -------- ἐκ ἐκ
+38:22 RA ----GPN- τῶν ὁ
+38:22 N- ----GPN- πυρείων πυρεῖον
+38:22 RA ----GPN- τῶν ὁ
+38:22 A- ----GPN- χαλκῶν χαλκοῦς  # module lemma χάλκεος — χαλκοῦς, the contracted form, filed under χάλκεος as χρυσοῦς is under χρύσεος
+38:22 RR ----NPN- ἃ ὅς
+38:22 V- 3IAI-P-- ἦσαν εἰμί
+38:22 RA ----DPM- τοῖς ὁ
+38:22 N- ----DPM- ἀνδράσιν ἀνήρ
+38:22 RA ----DPM- τοῖς ὁ
+38:22 V- -AAPDPM- καταστασιάσασι καταστασιάζω
+38:22 P- -------- μετὰ μετά
+38:22 RA ----GSF- τῆς ὁ
+38:22 N- ----GSM- Κορε Κόρε  # module lemma Κορέ — Κόρε, as MorphGNT files it (Jude 11)
+38:22 N- ----GSF- συναγωγῆς συναγωγή
+38:23 RD ----NSM- οὗτος οὗτος
+38:23 V- 3AAI-S-- ἐποίησεν ποιέω
+38:23 A- ----APN- πάντα πᾶς
+38:23 RA ----APN- τὰ ὁ
+38:23 N- ----APN- σκεύη σκεῦος
+38:23 RA ----GSN- τοῦ ὁ
+38:23 N- ----GSN- θυσιαστηρίου θυσιαστήριον
+38:23 C- -------- καὶ καί
+38:23 RA ----ASN- τὸ ὁ
+38:23 N- ----ASN- πυρεῖον πυρεῖον
+38:23 RP ----GSN- αὐτοῦ αὐτός
+38:23 C- -------- καὶ καί
+38:23 RA ----ASF- τὴν ὁ
+38:23 N- ----ASF- βάσιν βάσις
+38:23 C- -------- καὶ καί
+38:23 RA ----APF- τὰς ὁ
+38:23 N- ----APF- φιάλας φιάλη
+38:23 C- -------- καὶ καί
+38:23 RA ----APF- τὰς ὁ
+38:23 N- ----APF- κρεάγρας κρεάγρα
+38:23 A- ----APF- χαλκᾶς χαλκοῦς  # module lemma χάλκεος — χαλκοῦς, the contracted form, filed under χάλκεος as χρυσοῦς is under χρύσεος
+38:24 RD ----NSM- οὗτος οὗτος
+38:24 V- 3AAI-S-- ἐποίησεν ποιέω
+38:24 RA ----DSN- τῷ ὁ
+38:24 N- ----DSN- θυσιαστηρίῳ θυσιαστήριον
+38:24 N- ----ASN- παράθεμα παράθεμα
+38:24 N- ----ASN- ἔργον ἔργον
+38:24 A- ----ASN- δικτυωτόν δικτυωτός
+38:24 P- -------- κάτωθεν κάτωθεν
+38:24 RA ----GSN- τοῦ ὁ
+38:24 N- ----GSN- πυρείου πυρεῖον
+38:24 P- -------- ὑπὸ ὑπό
+38:24 RP ----ASN- αὐτὸ αὐτός
+38:24 P- -------- ἕως ἕως
+38:24 RA ----GSN- τοῦ ὁ
+38:24 A- ----GSN- ἡμίσους ἥμισυς
+38:24 RP ----GSN- αὐτοῦ αὐτός
+38:24 C- -------- καὶ καί
+38:24 V- 3AAI-S-- ἐπέθηκεν ἐπιτίθημι
+38:24 RP ----DSN- αὐτῷ αὐτός
+38:24 A- ----APC- τέσσαρας τέσσαρες
+38:24 N- ----APM- δακτυλίους δακτύλιος
+38:24 P- -------- ἐκ ἐκ
+38:24 RA ----GPN- τῶν ὁ
+38:24 A- ----GPN- τεσσάρων τέσσαρες
+38:24 N- ----GPN- μερῶν μέρος
+38:24 RA ----GSN- τοῦ ὁ
+38:24 N- ----GSN- παραθέματος παράθεμα
+38:24 RA ----GSN- τοῦ ὁ
+38:24 N- ----GSN- θυσιαστηρίου θυσιαστήριον
+38:24 A- ----APM- χαλκοῦς χαλκοῦς  # module lemma χάλκεος — χαλκοῦς, the contracted form, filed under χάλκεος as χρυσοῦς is under χρύσεος
+38:24 RA ----DPM- τοῖς ὁ
+38:24 N- ----DPM- μοχλοῖς μοχλός
+38:24 A- ----APM- εὐρεῖς εὐρύς
+38:24 C- -------- ὥστε ὥστε
+38:24 V- -PAN---- αἴρειν αἴρω
+38:24 RA ----ASN- τὸ ὁ
+38:24 N- ----ASN- θυσιαστήριον θυσιαστήριον
+38:24 P- -------- ἐν ἐν
+38:24 RP ----DPM- αὐτοῖς αὐτός
+38:25 RD ----NSM- οὗτος οὗτος
+38:25 V- 3AAI-S-- ἐποίησεν ποιέω
+38:25 RA ----ASN- τὸ ὁ
+38:25 N- ----ASN- ἔλαιον ἔλαιον
+38:25 RA ----GSF- τῆς ὁ
+38:25 N- ----GSF- χρίσεως χρῖσις
+38:25 RA ----ASN- τὸ ὁ
+38:25 A- ----ASN- ἅγιον ἅγιος
+38:25 C- -------- καὶ καί
+38:25 RA ----ASF- τὴν ὁ
+38:25 N- ----ASF- σύνθεσιν σύνθεσις
+38:25 RA ----GSN- τοῦ ὁ
+38:25 N- ----GSN- θυμιάματος θυμίαμα
+38:25 A- ----ASN- καθαρὸν καθαρός
+38:25 N- ----ASN- ἔργον ἔργον
+38:25 N- ----GSM- μυρεψοῦ μυρεψός
+38:26 RD ----NSM- οὗτος οὗτος
+38:26 V- 3AAI-S-- ἐποίησεν ποιέω
+38:26 RA ----ASM- τὸν ὁ
+38:26 N- ----ASM- λουτῆρα λουτήρ
+38:26 A- ----ASM- χαλκοῦν χαλκοῦς  # module lemma χάλκεος — χαλκοῦς, the contracted form, filed under χάλκεος as χρυσοῦς is under χρύσεος
+38:26 C- -------- καὶ καί
+38:26 RA ----ASF- τὴν ὁ
+38:26 N- ----ASF- βάσιν βάσις
+38:26 RP ----GSM- αὐτοῦ αὐτός
+38:26 A- ----ASF- χαλκῆν χαλκοῦς  # module lemma χάλκεος — χαλκοῦς, the contracted form, filed under χάλκεος as χρυσοῦς is under χρύσεος
+38:26 P- -------- ἐκ ἐκ
+38:26 RA ----GPN- τῶν ὁ
+38:26 N- ----GPN- κατόπτρων κάτοπτρον
+38:26 RA ----GPF- τῶν ὁ
+38:26 V- -AAPGPF- νηστευσασῶν νηστεύω
+38:26 RR ----NPF- αἳ ὅς
+38:26 V- 3AAI-P-- ἐνήστευσαν νηστεύω
+38:26 P- -------- παρὰ παρά
+38:26 RA ----APF- τὰς ὁ
+38:26 N- ----APF- θύρας θύρα
+38:26 RA ----GSF- τῆς ὁ
+38:26 N- ----GSF- σκηνῆς σκηνή
+38:26 RA ----GSN- τοῦ ὁ
+38:26 N- ----GSN- μαρτυρίου μαρτύριον
+38:26 P- -------- ἐν ἐν
+38:26 RR ----DSF- ᾗ ὅς
+38:26 N- ----DSF- ἡμέρᾳ ἡμέρα
+38:26 V- 3AAI-S-- ἔπηξεν πήγνυμι
+38:26 RP ----ASF- αὐτήν αὐτός
+38:27 C- -------- καὶ καί
+38:27 V- 3AAI-S-- ἐποίησεν ποιέω
+38:27 RA ----ASM- τὸν ὁ
+38:27 N- ----ASM- λουτῆρα λουτήρ
+38:27 C- -------- ἵνα ἵνα
+38:27 V- 3PES-P-- νίπτωνται νίπτω
+38:27 P- -------- ἐξ ἐκ
+38:27 RP ----GSM- αὐτοῦ αὐτός
+38:27 N- ----NSM- Μωυσῆς Μωϋσῆς  # module lemma Μωσεύς — Μωϋσῆς, as MorphGNT files it
+38:27 C- -------- καὶ καί
+38:27 N- ----NSM- Ααρων Ἀαρών
+38:27 C- -------- καὶ καί
+38:27 RA ----NPM- οἱ ὁ
+38:27 N- ----NPM- υἱοὶ υἱός
+38:27 RP ----GSM- αὐτοῦ αὐτός
+38:27 RA ----APF- τὰς ὁ
+38:27 N- ----APF- χεῖρας χείρ
+38:27 RP ----GPM- αὐτῶν αὐτός
+38:27 C- -------- καὶ καί
+38:27 RA ----APM- τοὺς ὁ
+38:27 N- ----APM- πόδας πούς
+38:27 V- -PEPGPM- εἰσπορευομένων εἰσπορεύομαι
+38:27 RP ----GPM- αὐτῶν αὐτός
+38:27 P- -------- εἰς εἰς
+38:27 RA ----ASF- τὴν ὁ
+38:27 N- ----ASF- σκηνὴν σκηνή
+38:27 RA ----GSN- τοῦ ὁ
+38:27 N- ----GSN- μαρτυρίου μαρτύριον
+38:27 C- -------- ἢ ἤ
+38:27 C- -------- ὅταν ὅταν
+38:27 V- 3PES-P-- προσπορεύωνται προσπορεύομαι
+38:27 P- -------- πρὸς πρός
+38:27 RA ----ASN- τὸ ὁ
+38:27 N- ----ASN- θυσιαστήριον θυσιαστήριον
+38:27 V- -PAN---- λειτουργεῖν λειτουργέω
+38:27 V- 3IEI-P-- ἐνίπτοντο νίπτω
+38:27 P- -------- ἐξ ἐκ
+38:27 RP ----GSM- αὐτοῦ αὐτός
+38:27 C- -------- καθάπερ καθάπερ
+38:27 V- 3AAI-S-- συνέταξεν συντάσσω
+38:27 N- ----NSM- κύριος κύριος
+38:27 RA ----DSM- τῷ ὁ
+38:27 N- ----DSM- Μωυσῇ Μωϋσῆς  # module lemma Μωσεύς — Μωϋσῆς, as MorphGNT files it
