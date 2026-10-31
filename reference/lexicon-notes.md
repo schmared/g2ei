@@ -7769,3 +7769,48 @@ text uses. Chains already in the corpus (Genesis) were read from it and re-infle
   ἀναβαίνω `to go up`, `of the going up`; λίθος `in stones`.
 - One translation each, plain text: μήν (*a month*), ἱεράτευμα (*a priesthood*), ὁμοθυμαδόν (*with one
   accord*), σήμερον (*to-day*), συνάντησις (*a meeting*), τρεῖς (*three*), καπνός (*smoke*).
+
+### Words new in EXO 20
+
+- **From LSJ** (not in Middle Liddell): μακροχρόνιος, `lasting a long time and lingering, dwelling a long time,
+  long-lived`, citing 20:12, the neuter's *long duration* left to the noun; ἀναβαθμίς, `in steps and stairs`
+  (with ἐν), one translation, citing 20:26.
+- **A noun filed inside its adjective** (`SPELLING`): ἐγχειρίδιον under ἐγχειρίδιος, "as Subst., ἐγχειρίδιον …
+  a hand-knife, dagger"; the adjective's *in the hand* is set aside for the noun (`NOT_SENSES` by the noun's
+  key): `the hand-knife and dagger` (20:25).
+- **The wrong homograph** (`ENTRY`): ἄνω read Middle Liddell's first entry, the verb *to accomplish*; the
+  adverb is the second. Its card leaves out the phrases' (*the living*, *the dead*, *the gods above*, *up and
+  down*, *upside down*), the comparative's and superlative's, and the *i. e. inland* that glosses *up the
+  country*: `up and upwards, up the country, up and aloft and on high, on earth, in heaven, in the upper
+  quarter, on the north and northward, inward from the coast, formerly and of old, above`.
+- **Form** (`FORM_SENSES`): τιμάω's active leaves out the passive's and the middle's (`pay honour to and hold in
+  honour and honour and revere and reverence, …, condemn, fix`, 20:12); φονεύω's the passive's *to be slain*.
+- **Pieces set aside** (`NOT_SENSES`): κάτω (the comparative's and superlative's), ζηλωτής (the Hebrew *qana*
+  of the NT's note), μάταιος (τὸ μὴ μάταιον's, the adverb's), οὔτε (the construction with τε), ψευδής (a repeat;
+  the noun's, examples', the neuter plural's, the adverb's), τιμάω (examples' pieces).
+- **οὔτε** is opened by its parse, the conjunction: `and not, neither nor, nor`, as τε reads `and, both and,
+  and also`.
+- **The neuter adjective as a noun, without an article**: ἐπὶ ματαίῳ reads `upon to vain and empty and idle
+  and trifling and frivolous, …`, no noun added (20:7).
+- **ἐν before a numeral**: ἐν ἓξ ἡμέραις (20:11), where ἕξ is plain text between ἐν and its noun, gives ἐν a
+  unit of its own: `in for, to six to days`.
+- **Morphology**: μεμίανται (20:25) is the perfect's third singular, as the module codes it; both passes had
+  read it plural. ἐάν after a relative (οὗ ἐάν, 20:24) is the particle, plain *ever*, as at 16:5.
+- New chains: ἐξάγω `I led out`; εἴδωλον `an image`; ὁμοίωμα `a likeness`; οὐρανός `in the heaven`; κάτω
+  `down`; ὕδωρ `in the water`; προσκυνέω `you will make obeisance`; λατρεύω `you may work for hire`; ζηλωτής
+  `an emulator`; ἀποδίδωμι `giving up`; ἁμαρτία `failures`; πατήρ `of fathers`; τέταρτος `of fourth`; ἀγαπάω
+  `to the ones treating with affection`; φυλάσσω `to the ones keeping watch and ward`; μάταιος `to vain`;
+  καθαρίζω `may make clean`; λαμβάνω `the one taking`; σάββατον `of the sabbaths`; ἁγιάζω `to hallow`; βοῦς `the
+  bullock`, `of the bullock`; ὑποζύγιον `the beast for the yoke`, `of the beast for the yoke`; προσήλυτος `the one
+  that has arrived at`; παροικέω `the one dwelling beside`; ἡμέρα `to days`; τιμάω `pay honour to`; γίνομαι `you
+  may come into being`; ἀγαθός `of the good`; δίδωμι `gives`, the present's five; μοιχεύω `you will commit
+  adultery with`; κλέπτω `you will steal`; φονεύω `you will murder`; ψευδομαρτυρέω `you will be a false
+  witness`; μαρτυρία `witness`; ψευδής `lying`; ἐπιθυμέω `you will set your heart upon`; οὔτε `and not`; ὁράω `was
+  seeing`; λαμπάς `the torches`; καπνίζω `the thing making smoke`, the active; φοβέομαι `having been put to
+  flight`; λαλέω `let talk`, `I have talked`; πειράζω `of the making proof`; ἁμαρτάνω `you may miss the mark`;
+  γνόφος `the darkness`; θύω `you will offer`; ὁλοκαύτωμα `the whole burnt-offerings`; σωτήριος `the
+  deliverances`; μόσχος `the calves`; ἐπονομάζω `I may give a surname`; λίθος `of stones`; οἰκοδομέω `you will
+  build a house`; τμητός `cut`; ἐπιβάλλω `you have thrown`; μιαίνω `has been stained`; ἀναβαίνω `you will go up`;
+  ἀποκαλύπτω `you may uncover`; ἀσχημοσύνη `the want of form`.
+- One translation each, plain text: ἕξ (*six*), υἱός, θυγάτηρ, μισέω's active (*the ones hating*),
+  θυσιαστήριον (*an altar*). The relative ὅστις is plain *who*, as ἥτις reads *which* at 9:18.

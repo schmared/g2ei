@@ -390,6 +390,11 @@ LSJ = {
     "συναντιλαμβάνομαι": ["help in gaining", "assist in supporting", "render assistance", "take part with, help"],
     # EXO 19. Not in Middle Liddell. LSJ (eng3): γνοφώδης, "dark, gloomy", citing Ex 19:16, one translation.
     "γνοφώδης": ["dark, gloomy"],
+    # EXO 20. Not in Middle Liddell. LSJ (eng13): μακροχρόνιος, "lasting a long time, lingering", "dwelling a
+    # long time", citing Ex 20:12, "long-lived"; the neuter's "long duration" is the noun's. LSJ (eng1):
+    # ἀναβαθμίς, "step, stair", citing Ex 20:26, one translation.
+    "μακροχρόνιος": ["lasting a long time, lingering", "dwelling a long time", "long-lived"],
+    "ἀναβαθμίς": ["step, stair"],
     # EXO 12. None of these is in Middle Liddell. LSJ (eng3): γειώρας, "sojourner", "proselyte". LSJ
     # (eng4): δέσμη, "package, bundle", "a measure in Egypt", "in Medicine, handful"; Rahlfs prints the
     # accusative δεσμήν, the module δέσμην. LSJ (eng5): ἐνδόσθια, "= ἐντόσθια", a pointer to ἐντόσθιος,
@@ -1478,6 +1483,16 @@ NOT_SENSES = {
     "qigga/nw": {"reach"},                    # an example's
     "a)palla/ssw": {"from"},                  # a piece of the construction
     "prosa/gw": {"to draw", "upon oneself", "will induce", "imports"},  # cut, whole in MARKUP_LOST; an example's; the participle's as a noun
+    # EXO 20
+    "a)/nw": {"the living", "the dead", "the gods above", "up and down, to and fro", "upside down, topsy-turvy",
+              "higher", "further", "above, beyond", "highest", "inland)"},  # phrases' with the article and with κάτω; the comparative's and superlative's; "i. e. inland", what "up the country" means
+    "ka/tw": {"lower, further, downwards", "lower than, below", "at the lowest part"},  # the comparative's and superlative's
+    "zhlwth/s": {"qana, to glow, be zealous)"},  # the Hebrew word the NT's use translates
+    "ma/taios": {"seriousness, gravity", "idly, without ground"},  # a phrase's, τὸ μὴ μάταιον; the adverb's
+    "ou)/te": {"both not", "and"},            # the construction with τε, an example's
+    "yeudh/s": {"lying", "a liar", "lying men", "lies);", "in falsehood", "falsehoods, lies", "falsely"},  # a repeat; the noun's; examples'; the neuter plural's; the adverb's
+    "tima/w": {"penalty", "against", "condemned", "for", "he estimates", "at"},  # examples' pieces
+    "e)gxeiri/dion": {"in the hand"},         # the adjective's; the noun is "as Subst." inside ἐγχειρίδιος
     "de/on": {"things needful", "proper, advantages", "duties", "in good time", "for a needful purpose", "secret service"},  # τὰ δέοντα cut, whole in MARKUP_LOST; phrases'
     "o)fei/lw": {"debemur morti)", "it is", "destiny", "(ought", "owe)", "O that thou hadst", "O that I had",
                  "would thou hadst never", "would"},  # Horace; examples' translations; the note on "ought"
@@ -1605,6 +1620,10 @@ _APOLLUMI_ACT = {"to destroy utterly, kill, slay", "to destroy, demolish, waste"
 _APOLLUMI_MID = {"to perish utterly, die", "to be undone", "you are done for, lost, ruined",
                  "to be lost, slip away, vanish"}
 FORM_SENSES = {
+    # EXO 20. τιμάω's active leaves out the passive's and the middle's; φονεύω's the passive's.
+    "tima/w": [("PIFAXY", "A", NOT_SENSES["tima/w"] | {"to be honoured, held in honour", "to be held worthy",
+                                                       "to estimate"})],
+    "foneu/w": [("PIFAXY", "A", {"to be slain"})],
     # EXO 19. βιάζω's middle and middle/passive read the middle's senses, as GEN 33:11 reads them;
     # ἅπτω's middle the middle's, and its future middle the passive's too, "Pass., with fut. mid. to be set
     # on fire"; ἀπαλλάσσω's active leaves out the passive's and middle's; προσάγω's middle the active's
@@ -2084,6 +2103,7 @@ FORM_SENSES = {
 SPELLING = {
     "e(kato/ntarxos": "e(katonta/rxhs",  # ἑκατόνταρχος, Middle Liddell's ἑκατοντάρχης, "leader of a hundred" (EXO 18:21)
     "kri/ma": "kri=ma",               # κρίμα, the entry headed with the circumflex (EXO 18:22)
+    "e)gxeiri/dion": "e)gxeiri/dios",  # "as Subst., ἐγχειρίδιον … a hand-knife, dagger", inside the adjective (EXO 20:25)
     "di/yos": "di/ya",                # δίψος, "= δίψα", and nothing more (EXO 17:3)
     "ko/rion": "kori/annon",          # LSJ's κόριον (B), "shortd. for κορίαννον"; Middle Liddell's κόριον is the diminutive of κόρη (EXO 16:14)
     "sa/bbaton": "*sa/bbaton",        # σάββατον, keyed with the capital (EXO 16:23)
@@ -2249,6 +2269,7 @@ ENTRY = {
     "e(/lic": "e(/lic2",  # e(/lic1 is the adjective, "twisted"; the vine's tendril of GEN 49:11 is the noun
     "pw=s": "pw=s2",     # pw=s1 is Aristotle's unaccented-sense πῶς, "in a certain way"; the
                          # interrogative, "how?", is the second
+    "a)/nw": "a)/nw2",   # a)/nw1 is the verb, "to accomplish"; the adverb of EXO 20:4, "up", is the second
 }
 
 PUNCT = re.compile(r"[.,;:·!?—·()]")

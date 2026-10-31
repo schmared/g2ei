@@ -625,6 +625,12 @@ the case of τὸ ὄρος τὸ Σινα, where the second pass read the genit
 the name stays in apposition, in the mountain's case, as τῷ ὄρει τῷ Γαλααδ at GEN 31:23. The second pass was
 right that αὐτοῦ at 19:13 is neuter, repeating ἁψάμενος τοῦ ὄρους.
 
+### What it found in Exodus 20
+
+Three disagreements over 503 words, and the second pass was right on all three: αὐτοῖς at 20:5 is neuter, the
+images and likenesses of 20:4; and ἐάν after the relative at 20:24 is the particle, as at 16:5. Both passes read
+μεμίανται (20:25) as plural; it is the perfect's third singular, which the module has.
+
 ## The brief
 
 Copy everything below the rule into a new agent. Replace `<BOOK NAME>`, `<CHAPTER>`,

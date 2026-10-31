@@ -1,0 +1,619 @@
+[
+  {
+    "ref": "EXO 20:1",
+    "greek": "Καὶ ἐλάλησεν κύριος πάντας τοὺς λόγους τούτους λέγων",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 119",
+    "hint": "The lord speaks all the words that follow.",
+    "notes": [
+      {
+        "lemma": "Καὶ ἐλάλησεν κύριος",
+        "flag": "divergence",
+        "text": "And the lord talked: the Hebrew has wayĕdabbēr ʾĕlōhîm, and God spoke."
+      }
+    ],
+    "reading": "And [[talked|talked, chatted, prattled, babbled, said, talked of, spoke, chattered, chirped|λαλέω]] [[lord|lord, master, the one having power and authority over|κύριος]] [[all|all, the whole, every, every single|πᾶς]] [[the words|the words, the language and talk, the sayings and statements, the speech and discourse|λόγος]] [[these|these, the nearer, what follows|οὗτος]] [[saying|saying, speaking, declaring, calling by name, telling|λέγω]]",
+    "names": []
+  },
+  {
+    "ref": "EXO 20:2",
+    "greek": "Ἐγώ εἰμι κύριος ὁ θεός σου, ὅστις ἐξήγαγόν σε ἐκ γῆς Αἰγύπτου ἐξ οἴκου δουλείας.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 119",
+    "hint": "The lord names himself as the God who brought Israel out of Egypt, out of the house of slavery.",
+    "notes": [
+      {
+        "lemma": "ὅστις ἐξήγαγόν σε",
+        "flag": null,
+        "text": "Who led you out, the relative ὅστις with a first person verb: the speaker is its antecedent."
+      },
+      {
+        "lemma": "ἐξ οἴκου δουλείας",
+        "flag": null,
+        "text": "Out of a house of servitude, δουλεία anarthrous, for the Hebrew mibbêt ʿăbādîm, out of a house of slaves."
+      }
+    ],
+    "reading": "I am [[lord|lord, master, the one having power and authority over|κύριος]] [[the God|he who is God definitively, the one the article marks out, the known and the only|θεός]] of you, who [[I led out|I led out, I led and carried out from, I brought forth into the world, I marched out, I ejected, I carried out and exported, I drew off, I called forth and excited, I led on and tempted|ἐξάγω]] you [[out of|out of, forth from, from|ἐκ]] [[of earth|of earth, of land, of ground|γῆ]] of [[name:Αἰγύπτου]] [[out of|out of, forth from, from|ἐκ]] [[of house|of house and abode and dwelling, of room and chamber, of house of a god and temple, of household goods and substance, of household and family|οἶκος]] [[of servitude|of servitude and slavery and bondage, of slaves and slave-class|δουλεία]].",
+    "names": [
+      {
+        "greek": "Αἰγύπτου",
+        "unanchored": "Aigyptou",
+        "anchored": "Egypt",
+        "gloss": "(Αἴγυπτος, the Greek name of the land; Hebrew Miṣrayim)"
+      }
+    ]
+  },
+  {
+    "ref": "EXO 20:3",
+    "greek": "οὐκ ἔσονταί σοι θεοὶ ἕτεροι πλὴν ἐμοῦ. —",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 119",
+    "hint": "There are to be no other gods for Israel besides him.",
+    "notes": [
+      {
+        "lemma": "πλὴν ἐμοῦ",
+        "flag": "divergence",
+        "text": "Besides me, πλήν with the genitive: the Hebrew has ʿal-pānāy, before my face."
+      },
+      {
+        "lemma": "—",
+        "flag": null,
+        "text": "Rahlfs's dash closes each of the commandments in this chapter."
+      }
+    ],
+    "reading": "not will be to you [[gods|gods, the gods, goddesses|θεός]] [[other|other, ones of two, the others of two, others, second, different, other than, worse|ἕτερος]] [[more than|more than, except, save and short of, save in respect, but, than, much like, only not, except that, save that, save so far as|πλήν]] of me. —",
+    "names": []
+  },
+  {
+    "ref": "EXO 20:4",
+    "greek": "οὐ ποιήσεις σεαυτῷ εἴδωλον οὐδὲ παντὸς ὁμοίωμα, ὅσα ἐν τῷ οὐρανῷ ἄνω καὶ ὅσα ἐν τῇ γῇ κάτω καὶ ὅσα ἐν τοῖς ὕδασιν ὑποκάτω τῆς γῆς.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 119",
+    "hint": "Making an image, or a likeness of anything in heaven, on earth or in the waters, is forbidden.",
+    "notes": [
+      {
+        "lemma": "εἴδωλον",
+        "flag": "divergence",
+        "text": "εἴδωλον, an image, phantom, idol: the Hebrew has pesel, a carved image."
+      },
+      {
+        "lemma": "ὅσα ἐν τῷ οὐρανῷ ἄνω",
+        "flag": null,
+        "text": "As many as are in heaven above, a relative clause with no verb, ὅσα its subject."
+      },
+      {
+        "lemma": "ἄνω … κάτω",
+        "flag": null,
+        "text": "ἄνω is Middle Liddell's second entry of that spelling, the adverb; the first is a verb, to accomplish."
+      }
+    ],
+    "reading": "not [[you will make|you will make, you will do, you will produce, you will create|ποιέω]] to yourself [[an image|an image and phantom, any unsubstantial form, an image in the mind and idea, a fancy, an image and likeness, an image and idol|εἴδωλον]] [[but not|but not, and not, nor, not even, not at all|οὐδέ]] [[of all|of all, of the whole, of every, of every single|πᾶς]] [[a likeness|a likeness and image and resemblance and counterfeit|ὁμοίωμα]], [[as great as|as great as, as much as, as far as, as long as, as many as|ὅσος]] [[in the heaven|within, inside of, and by means of the heaven, the vault, the firmament and the sky|ἐν; οὐρανός]] [[up|up and upwards, up the country, up and aloft and on high, on earth, in heaven, in the upper quarter, on the north and northward, inward from the coast, formerly and of old, above|ἄνω]] and [[as great as|as great as, as much as, as far as, as long as, as many as|ὅσος]] [[in the earth|within, inside of, and by means of the earth, the land, the ground|ἐν; γῆ]] [[down|down and downwards, beneath and below and underneath, in the world below, below and southward, on the coast, under and below|κάτω]] and [[as great as|as great as, as much as, as far as, as long as, as many as|ὅσος]] [[in the water|within, inside of, and by means of the water, the waters, the rain-water and rain, the water of the water-clock|ἐν; ὕδωρ]] [[below|below and under|ὑποκάτω]] [[of the earth|of the earth, of the land, of the ground|γῆ]].",
+    "names": []
+  },
+  {
+    "ref": "EXO 20:5",
+    "greek": "οὐ προσκυνήσεις αὐτοῖς οὐδὲ μὴ λατρεύσῃς αὐτοῖς· ἐγὼ γάρ εἰμι κύριος ὁ θεός σου, θεὸς ζηλωτὴς ἀποδιδοὺς ἁμαρτίας πατέρων ἐπὶ τέκνα ἕως τρίτης καὶ τετάρτης γενεᾶς τοῖς μισοῦσίν με",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, pp. 119–120",
+    "hint": "Images are not to be bowed to or served; the lord names himself God the emulator, repaying sins to the fourth generation.",
+    "notes": [
+      {
+        "lemma": "οὐδὲ μὴ λατρεύσῃς",
+        "flag": null,
+        "text": "Nor not may you serve, οὐδὲ μή with the aorist subjunctive, the strong negation."
+      },
+      {
+        "lemma": "ἀποδιδοὺς ἁμαρτίας",
+        "flag": "divergence",
+        "text": "Giving back sins: the Hebrew has pōqēd ʿăwōn, visiting iniquity."
+      },
+      {
+        "lemma": "αὐτοῖς",
+        "flag": null,
+        "text": "To them, neuter: the images and likenesses of 20:4."
+      },
+      {
+        "lemma": "τοῖς μισοῦσίν με",
+        "flag": null,
+        "text": "To the ones hating me: μισέω's active is one translation, plain text."
+      }
+    ],
+    "reading": "not [[you will make obeisance|you will make obeisance, you will fall down and worship and worship and adore, you will do reverence to, you will make the salam, you will prostrate yourself before|προσκυνέω]] to them [[but not|but not, and not, nor, not even, not at all|οὐδέ]] [[not|not, that not, perhaps, surely not and you don't mean to say that|μή]] [[you may work for hire|you may work for hire and pay and be in servitude and serve, you may be bound and enslaved to, you may serve, you may obey, you may render due|λατρεύω]] to them; I [[for|for, since and as, for otherwise and else, now, but, why and what, would that|γάρ]], am [[lord|lord, master, the one having power and authority over|κύριος]] [[the God|he who is God definitively, the one the article marks out, the known and the only|θεός]] of you, [[God|everything that God is by nature, deity in full and undiminished kind|θεός]] [[an emulator|an emulator and zealous admirer, follower, a zealot|ζηλωτής]] [[giving up|giving up, giving back, restoring, returning, rendering what is due and paying, returning and rendering and yielding, suffering and allowing, rendering, delivering over and giving up, delivering, rendering and giving in, giving an account of, increasing|ἀποδίδωμι]] [[failures|failures and faults and sins, guilts and sins|ἁμαρτία]] [[of fathers|of fathers, of grandfathers|πατήρ]] [[upon|upon, on, in, at, near|ἐπί + accusative]] [[things borne|things borne, the born, children, the young|τέκνον]] [[until|until, till, while and so long as|ἕως]] [[of third|of third, of third and finishing, of day after to-morrow, of day before, of thirdly, of a sacrifice to the dead offered the third day after the funeral, of a third part|τρίτος]] and [[of fourth|of fourth, of a fourth time, of fourthly, of a fourth day|τέταρτος]] [[of race and stock and family|of race and stock and family, of breed, of tribe and nation, of race and generation, of offspring, of birth-place, of age and time of life, of time of birth|γενεά]] to the ones hating me",
+    "names": []
+  },
+  {
+    "ref": "EXO 20:6",
+    "greek": "καὶ ποιῶν ἔλεος εἰς χιλιάδας τοῖς ἀγαπῶσίν με καὶ τοῖς φυλάσσουσιν τὰ προστάγματά μου. —",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 120",
+    "hint": "He shows mercy to thousands who love him and keep his ordinances.",
+    "notes": [
+      {
+        "lemma": "ἔλεος",
+        "flag": null,
+        "text": "ἔλεος, pity, mercy, for the Hebrew ḥesed."
+      },
+      {
+        "lemma": "τὰ προστάγματά μου",
+        "flag": "divergence",
+        "text": "My ordinances: the Hebrew has miṣwōtāy, my commandments."
+      }
+    ],
+    "reading": "and [[making|making, doing, producing, creating|ποιέω]] [[pity|pity and mercy and compassion, an object of compassion and a piteous thing|ἔλεος]] [[into|into, to, in, rest in|εἰς]] [[numbers one thousand|numbers one thousand and thousands, very large numbers|χιλιάς]] [[to the ones treating with affection|to the ones treating with affection and caressing and loving and being fond of, regarding with brotherly love, being well pleased and contented with, being content|ἀγαπάω]] me and [[to the ones keeping watch and ward|to the ones keeping watch and ward and keeping guard, watching and guarding and keeping and defending, watching for and lying in wait for, keeping and maintaining and cherishing, observing|φυλάσσω]] [[the ordinances|the ordinances and commands|πρόσταγμα]] of me. —",
+    "names": []
+  },
+  {
+    "ref": "EXO 20:7",
+    "greek": "οὐ λήμψῃ τὸ ὄνομα κυρίου τοῦ θεοῦ σου ἐπὶ ματαίῳ· οὐ γὰρ μὴ καθαρίσῃ κύριος τὸν λαμβάνοντα τὸ ὄνομα αὐτοῦ ἐπὶ ματαίῳ. —",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 120",
+    "hint": "The name of the lord is not to be taken up for a vain thing; the lord will not acquit whoever does.",
+    "notes": [
+      {
+        "lemma": "ἐπὶ ματαίῳ",
+        "flag": null,
+        "text": "Upon vain, the neuter adjective as a noun, with no noun of its own in Middle Liddell; for the Hebrew laššāwʾ."
+      },
+      {
+        "lemma": "οὐ γὰρ μὴ καθαρίσῃ",
+        "flag": null,
+        "text": "Not not may he make clean, οὐ μή with the aorist subjunctive, for the Hebrew lōʾ yĕnaqqeh."
+      }
+    ],
+    "reading": "not [[you will take|you will take, you will receive, you will take hold of and grasp and seize|λαμβάνω]] [[the name|the name, the fame, the mere name, the phrase and expression|ὄνομα]] [[of lord|of lord, of master, of the one having power and authority over|κύριος]] [[of the God|of him who is God definitively, of the one the article marks out, of the known and the only|θεός]] of you [[upon|upon, on, in, at, near|ἐπί + dative]] [[to vain|to vain and empty and idle and trifling and frivolous, to thoughtless and rash and irreverent and profane and impious|μάταιος]]; not [[for|for, since and as, for otherwise and else, now, but, why and what, would that|γάρ]], [[not|not, that not, perhaps, surely not and you don't mean to say that|μή]] [[may make clean|may make clean and cleanse|καθαρίζω]] [[lord|lord, master, the one having power and authority over|κύριος]] [[the one taking|the one taking, receiving, taking hold of and grasping and seizing|λαμβάνω]] [[the name|the name, the fame, the mere name, the phrase and expression|ὄνομα]] of him [[upon|upon, on, in, at, near|ἐπί + dative]] [[to vain|to vain and empty and idle and trifling and frivolous, to thoughtless and rash and irreverent and profane and impious|μάταιος]]. —",
+    "names": []
+  },
+  {
+    "ref": "EXO 20:8",
+    "greek": "μνήσθητι τὴν ἡμέραν τῶν σαββάτων ἁγιάζειν αὐτήν.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 120",
+    "hint": "Israel is to remember the sabbath day and keep it holy.",
+    "notes": [
+      {
+        "lemma": "μνήσθητι",
+        "flag": null,
+        "text": "μιμνήσκομαι, the aorist passive imperative, read as the corpus reads the deponent: remind yourself of."
+      },
+      {
+        "lemma": "τῶν σαββάτων",
+        "flag": null,
+        "text": "Of the sabbaths, the plural, for the Hebrew haššabbāt, singular."
+      }
+    ],
+    "reading": "[[remind yourself of|remind yourself of, call to mind, remember, bethink yourself of, be minded, bear in mind and do not forget, mention and make mention of|μιμνήσκομαι]] [[the day|the day, the day-break, the time|ἡμέρα]] [[of the sabbaths|of the sabbaths, of the rests, of the periods of seven days and weeks|σάββατον]] [[to hallow|to hallow and make sacred|ἁγιάζω]] her.",
+    "names": []
+  },
+  {
+    "ref": "EXO 20:9",
+    "greek": "ἓξ ἡμέρας ἐργᾷ καὶ ποιήσεις πάντα τὰ ἔργα σου·",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 120",
+    "hint": "Six days are for work.",
+    "notes": [
+      {
+        "lemma": "ἐργᾷ",
+        "flag": null,
+        "text": "ἐργάζομαι, the future second singular, for the Hebrew taʿăbōd."
+      },
+      {
+        "lemma": "ἓξ",
+        "flag": null,
+        "text": "Six, ἕξ, one translation, plain text, as at 16:26."
+      }
+    ],
+    "reading": "six [[days|days, day-breaks, times|ἡμέρα]] [[you will work|you will work, you will labour, you will work at and make and build, you will do and perform and accomplish, you will work the land, you will earn by working|ἐργάζομαι]] and [[you will make|you will make, you will do, you will produce, you will create|ποιέω]] [[all|all, the whole, every, every single|πᾶς]] [[the works|the works, the business, the deeds|ἔργον]] of you;",
+    "names": []
+  },
+  {
+    "ref": "EXO 20:10",
+    "greek": "τῇ δὲ ἡμέρᾳ τῇ ἑβδόμῃ σάββατα κυρίῳ τῷ θεῷ σου· οὐ ποιήσεις ἐν αὐτῇ πᾶν ἔργον, σὺ καὶ ὁ υἱός σου καὶ ἡ θυγάτηρ σου, ὁ παῖς σου καὶ ἡ παιδίσκη σου, ὁ βοῦς σου καὶ τὸ ὑποζύγιόν σου καὶ πᾶν κτῆνός σου καὶ ὁ προσήλυτος ὁ παροικῶν ἐν σοί.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 120",
+    "hint": "The seventh day is the lord's sabbath: no work for anyone in the household, slaves, animals or the resident stranger.",
+    "notes": [
+      {
+        "lemma": "ὁ βοῦς σου καὶ τὸ ὑποζύγιόν σου καὶ πᾶν κτῆνός σου",
+        "flag": "divergence",
+        "text": "Your ox and your beast of burden and all your cattle: the Hebrew has ûbĕhemtekā, and your cattle, alone."
+      },
+      {
+        "lemma": "ὁ προσήλυτος ὁ παροικῶν ἐν σοί",
+        "flag": "divergence",
+        "text": "The one who has come over, the one dwelling beside among you: the Hebrew has wĕgērĕkā ʾăšer bišʿārêkā, your sojourner who is within your gates."
+      },
+      {
+        "lemma": "ὁ υἱός … ἡ θυγάτηρ",
+        "flag": null,
+        "text": "υἱός, a son, and θυγάτηρ, a daughter, one translation each, plain text."
+      }
+    ],
+    "reading": "[[but|but, however, whereas, on the other hand|δέ]], [[to the day|to the day, to the day-break, to the time|ἡμέρα]] [[to the seventh|to the seventh, to the seventh day|ἕβδομος]] [[sabbaths|sabbaths, rests, periods of seven days and weeks|σάββατον]] [[to lord|to lord, to master, to the one having power and authority over|κύριος]] [[to the God|to him who is God definitively, to the one the article marks out, to the known and the only|θεός]] of you; not [[you will make|you will make, you will do, you will produce, you will create|ποιέω]] [[in|within, inside of, and by means of|ἐν]] to her [[all|all, the whole, every, every single|πᾶς]] [[work|work, business, deeds, action, works of industry and tilled lands|ἔργον]], you and the son of you and the daughter of you, [[the child|the child, the son, the daughter, the grandchild, the boy and youth and lad, the girl and maiden, the slave and servant and man and maid|παῖς]] of you and [[the young girl|the young girl and maiden, the young slave and courtesan|παιδίσκη]] of you, [[the bullock|the bullock and bull and ox, the cow, the oxen, the kine and cattle, the ox-hide shield|βοῦς]] of you and [[the beast for the yoke|the beast for the yoke and beast of burden|ὑποζύγιον]] of you and [[all|all, the whole, every, every single|πᾶς]] [[flock and herd|flock and herd, a single beast, a beast for riding|κτῆνος]] of you and [[the one that has arrived at|the one that has arrived at, the sojourner, the one who has come over to Judaism and the convert and proselyte|προσήλυτος]] [[the one dwelling beside|the one dwelling beside, dwelling along the coast of, living near, dwelling among, lying near, living in and sojourning|παροικέω]] [[in|within, inside of, and by means of|ἐν]] to you.",
+    "names": []
+  },
+  {
+    "ref": "EXO 20:11",
+    "greek": "ἐν γὰρ ἓξ ἡμέραις ἐποίησεν κύριος τὸν οὐρανὸν καὶ τὴν γῆν καὶ τὴν θάλασσαν καὶ πάντα τὰ ἐν αὐτοῖς καὶ κατέπαυσεν τῇ ἡμέρᾳ τῇ ἑβδόμῃ· διὰ τοῦτο εὐλόγησεν κύριος τὴν ἡμέραν τὴν ἑβδόμην καὶ ἡγίασεν αὐτήν. —",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 120",
+    "hint": "In six days the lord made heaven, earth, sea and all in them, and rested on the seventh, which he blessed and hallowed.",
+    "notes": [
+      {
+        "lemma": "τὴν ἡμέραν τὴν ἑβδόμην",
+        "flag": "divergence",
+        "text": "The seventh day: the Hebrew has ʾet-yôm haššabbāt, the sabbath day."
+      },
+      {
+        "lemma": "ἐν γὰρ ἓξ ἡμέραις",
+        "flag": null,
+        "text": "In six days: the numeral stands between ἐν and its noun, so ἐν takes a unit of its own."
+      },
+      {
+        "lemma": "κατέπαυσεν",
+        "flag": null,
+        "text": "καταπαύω, whose first sense is to lay to rest; intransitive here, for the Hebrew wayyānaḥ."
+      }
+    ],
+    "reading": "[[in|within, inside of, and by means of|ἐν]] [[for|for, since and as, for otherwise and else, now, but, why and what, would that|γάρ]], to six [[to days|to days, to day-breaks, to times|ἡμέρα]] [[made|made, did, produced, created|ποιέω]] [[lord|lord, master, the one having power and authority over|κύριος]] [[the heaven|the heaven, the vault, the firmament and the sky|οὐρανός]] and [[the earth|the earth, the land, the ground|γῆ]] and [[the sea|the sea, the Mediterranean, a well of salt water|θάλασσα]] and [[all|all, the whole, every, every single|πᾶς]] the things [[in|within, inside of, and by means of|ἐν]] to them and [[laid to rest|laid to rest, put an end to, made to cease, stopped and kept in check, put down|καταπαύω]] [[to the day|to the day, to the day-break, to the time|ἡμέρα]] [[to the seventh|to the seventh, to the seventh day|ἕβδομος]]; [[through|through, throughout and over, during, by aid of and by means of, by reason of, because of, for the sake of|διά + accusative]] [[this|this, the nearer, what follows|οὗτος]] [[spoke well of|spoke well of, praised, honoured, blessed|εὐλογέω]] [[lord|lord, master, the one having power and authority over|κύριος]] [[the day|the day, the day-break, the time|ἡμέρα]] [[the seventh|the seventh, the seventh day|ἕβδομος]] and [[hallowed|hallowed and made sacred|ἁγιάζω]] her. —",
+    "names": []
+  },
+  {
+    "ref": "EXO 20:12",
+    "greek": "τίμα τὸν πατέρα σου καὶ τὴν μητέρα, ἵνα εὖ σοι γένηται, καὶ ἵνα μακροχρόνιος γένῃ ἐπὶ τῆς γῆς τῆς ἀγαθῆς, ἧς κύριος ὁ θεός σου δίδωσίν σοι. —",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 120",
+    "hint": "Father and mother are to be honoured, that it may go well and life be long in the good land the lord gives.",
+    "notes": [
+      {
+        "lemma": "ἵνα εὖ σοι γένηται",
+        "flag": "divergence",
+        "text": "That it may come to be well for you: not in the Hebrew of Exodus, which has only that your days may be long; Deuteronomy 5:16 has both."
+      },
+      {
+        "lemma": "τῆς γῆς τῆς ἀγαθῆς",
+        "flag": "divergence",
+        "text": "The good land: the Hebrew has hāʾădāmâ, the ground, with no good."
+      },
+      {
+        "lemma": "μακροχρόνιος",
+        "flag": null,
+        "text": "μακροχρόνιος, not in Middle Liddell: LSJ's lasting a long time, lingering, and dwelling a long time, citing this verse, and long-lived."
+      }
+    ],
+    "reading": "[[pay honour to|pay honour to and hold in honour and honour and revere and reverence, bestow honours, reward, hold in honour and value and prize, prefer, estimate and value, assess, give as an honour, estimate the amount of punishment due, award the penalty, award, give sentence, condemn, fix|τιμάω]] [[the father|the father, the grandfather|πατήρ]] of you and [[the mother|the mother, the dam, the source|μήτηρ]], [[that|that, in order that|ἵνα]] [[well|well, luckily, happily, well off|εὖ]] to you [[may come into being|may come to be, may arise, may be brought into existence|γίνομαι]], and [[that|that, in order that|ἵνα]] [[lasting a long time|lasting a long time and lingering, dwelling a long time, long-lived|μακροχρόνιος]] [[you may come into being|you may come to be, you may arise, you may be brought into existence|γίνομαι]] [[upon|upon, on, in, at, near|ἐπί + genitive]] [[of the earth|of the earth, of the land, of the ground|γῆ]] [[of the good|of the good, of the good and gentle and noble, of the good and brave, of the good and serviceable|ἀγαθός]], of which [[lord|lord, master, the one having power and authority over|κύριος]] [[the God|he who is God definitively, the one the article marks out, the known and the only|θεός]] of you [[gives|gives, is ready to give and offers, grants, provides, gives over and delivers up|δίδωμι]] to you. —",
+    "names": []
+  },
+  {
+    "ref": "EXO 20:13",
+    "greek": "οὐ μοιχεύσεις. —",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 120",
+    "hint": "Adultery is forbidden; in this Greek it comes first of the three.",
+    "notes": [
+      {
+        "lemma": "οὐ μοιχεύσεις",
+        "flag": "divergence",
+        "text": "The Greek's order is adultery, theft, murder (20:13–15); the Hebrew's is murder, adultery, theft."
+      }
+    ],
+    "reading": "not [[you will commit adultery with|you will commit adultery with, you will debauch, you will commit adultery|μοιχεύω]]. —",
+    "names": []
+  },
+  {
+    "ref": "EXO 20:14",
+    "greek": "οὐ κλέψεις. —",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 120",
+    "hint": "Theft is forbidden.",
+    "notes": [
+      {
+        "lemma": "οὐ κλέψεις",
+        "flag": null,
+        "text": "κλέπτω, to steal, filch, purloin, the future as a command."
+      }
+    ],
+    "reading": "not [[you will steal|you will steal and filch and purloin, you will cozen and cheat and deceive and beguile, you will conceal and keep secret and disguise, you will do secretly and treacherously, you will seize and occupy secretly|κλέπτω]]. —",
+    "names": []
+  },
+  {
+    "ref": "EXO 20:15",
+    "greek": "οὐ φονεύσεις. —",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 120",
+    "hint": "Murder is forbidden, third here rather than first.",
+    "notes": [
+      {
+        "lemma": "οὐ φονεύσεις",
+        "flag": null,
+        "text": "φονεύω, to murder, kill, slay; the passive's to be slain is left to the passive."
+      }
+    ],
+    "reading": "not [[you will murder|you will murder and kill and slay|φονεύω]]. —",
+    "names": []
+  },
+  {
+    "ref": "EXO 20:16",
+    "greek": "οὐ ψευδομαρτυρήσεις κατὰ τοῦ πλησίον σου μαρτυρίαν ψευδῆ. —",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 120",
+    "hint": "False testimony against a neighbour is forbidden.",
+    "notes": [
+      {
+        "lemma": "μαρτυρίαν ψευδῆ",
+        "flag": null,
+        "text": "A lying witness, the noun with its verb's root, for the Hebrew ʿēd šāqer, a witness of falsehood."
+      },
+      {
+        "lemma": "τοῦ πλησίον",
+        "flag": null,
+        "text": "Of the one near, the adverb πλησίον with the article, a noun."
+      }
+    ],
+    "reading": "not [[you will be a false witness|you will be a false witness and bear false witness|ψευδομαρτυρέω]] [[down|down, downwards, down from, down upon, over, upon|κατά + genitive]] [[of the neighbour|of the neighbour, of the one near and close to and neighbouring, of the one nigh and hard by, of one's neighbour|πλησίον]] of you [[witness|witness and testimony and evidence|μαρτυρία]] [[lying|lying and false, belied and beguiled and deceived|ψευδής]]. —",
+    "names": []
+  },
+  {
+    "ref": "EXO 20:17",
+    "greek": "οὐκ ἐπιθυμήσεις τὴν γυναῖκα τοῦ πλησίον σου. οὐκ ἐπιθυμήσεις τὴν οἰκίαν τοῦ πλησίον σου οὔτε τὸν ἀγρὸν αὐτοῦ οὔτε τὸν παῖδα αὐτοῦ οὔτε τὴν παιδίσκην αὐτοῦ οὔτε τοῦ βοὸς αὐτοῦ οὔτε τοῦ ὑποζυγίου αὐτοῦ οὔτε παντὸς κτήνους αὐτοῦ οὔτε ὅσα τῷ πλησίον σού ἐστιν.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 120",
+    "hint": "No coveting a neighbour's wife, house, field, slaves, animals or anything that is his; the wife comes first here.",
+    "notes": [
+      {
+        "lemma": "τὴν γυναῖκα … τὴν οἰκίαν",
+        "flag": "divergence",
+        "text": "Wife, then house: the Hebrew puts bêt rēʿekā, your neighbour's house, first, as a sentence of its own."
+      },
+      {
+        "lemma": "οὔτε τὸν ἀγρὸν αὐτοῦ",
+        "flag": "divergence",
+        "text": "Nor his field: not in the Hebrew of Exodus; Deuteronomy 5:21 has śādēhû."
+      },
+      {
+        "lemma": "τοῦ βοὸς … τοῦ ὑποζυγίου",
+        "flag": null,
+        "text": "The genitive after ἐπιθυμέω, where the clauses before have the accusative."
+      }
+    ],
+    "reading": "not [[you will set your heart upon|you will set your heart upon, you will lust after and long for and covet and desire|ἐπιθυμέω]] [[the woman|the woman, the mistress and lady, the wife and spouse, the mortal woman|γυνή]] [[of the neighbour|of the neighbour, of the one near and close to and neighbouring, of the one nigh and hard by, of one's neighbour|πλησίον]] of you. not [[you will set your heart upon|you will set your heart upon, you will lust after and long for and covet and desire|ἐπιθυμέω]] [[the building|the building, the house, the dwelling, the household and domestic establishment, the household and inmates of the house, the house and family from which one is descended|οἰκία]] [[of the neighbour|of the neighbour, of the one near and close to and neighbouring, of the one nigh and hard by, of one's neighbour|πλησίον]] of you [[and not|and not, neither nor, nor|οὔτε]] [[the field|the field, the lands, the farm, the country|ἀγρός]] of him [[and not|and not, neither nor, nor|οὔτε]] [[the child|the child, the son, the daughter, the grandchild, the boy and youth and lad, the girl and maiden, the slave and servant and man and maid|παῖς]] of him [[and not|and not, neither nor, nor|οὔτε]] [[the young girl|the young girl and maiden, the young slave and courtesan|παιδίσκη]] of him [[and not|and not, neither nor, nor|οὔτε]] [[of the bullock|of the bullock and bull and ox, of the cow, of the oxen, of the kine and cattle, of the ox-hide shield|βοῦς]] of him [[and not|and not, neither nor, nor|οὔτε]] [[of the beast for the yoke|of the beast for the yoke and beast of burden|ὑποζύγιον]] of him [[and not|and not, neither nor, nor|οὔτε]] [[of all|of all, of the whole, of every, of every single|πᾶς]] [[of flock and herd|of flock and herd, of a single beast, of a beast for riding|κτῆνος]] of him [[and not|and not, neither nor, nor|οὔτε]] [[as great as|as great as, as much as, as far as, as long as, as many as|ὅσος]] [[to the neighbour|to the neighbour, to the one near and close to and neighbouring, to the one nigh and hard by, to one's neighbour|πλησίον]] of you is.",
+    "names": []
+  },
+  {
+    "ref": "EXO 20:18",
+    "greek": "Καὶ πᾶς ὁ λαὸς ἑώρα τὴν φωνὴν καὶ τὰς λαμπάδας καὶ τὴν φωνὴν τῆς σάλπιγγος καὶ τὸ ὄρος τὸ καπνίζον· φοβηθέντες δὲ πᾶς ὁ λαὸς ἔστησαν μακρόθεν.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 120",
+    "hint": "The people see the sound, the torches, the trumpet and the smoking mountain, and in fear stand far off.",
+    "notes": [
+      {
+        "lemma": "φοβηθέντες",
+        "flag": "divergence",
+        "text": "Having been put to flight, φοβέομαι: the Hebrew has wayyarʾ hāʿām wayyānuʿû, and the people saw and trembled."
+      },
+      {
+        "lemma": "ἑώρα τὴν φωνήν",
+        "flag": null,
+        "text": "Was seeing the sound, ὁράω with φωνή, for the Hebrew rōʾîm ʾet-haqqôlōt."
+      },
+      {
+        "lemma": "φοβηθέντες … ἔστησαν",
+        "flag": null,
+        "text": "A plural participle and verb with πᾶς ὁ λαός, the collective."
+      }
+    ],
+    "reading": "And [[all|all, the whole, every, every single|πᾶς]] [[the people|the people, the men, the soldiers, the land-army, the common men, the folk, the Jews, the Christians|λαός]] [[was seeing|was seeing, was perceiving, was beholding, was looking at|ὁράω]] [[the sound|the sound and tone, the sound of the voice, the cry, the faculty of speech and discourse, the language, the saying|φωνή]] and [[the torches|the torches, the beacon-lights, the oil-lamps, the lights, the torch-races, the races|λαμπάς]] and [[the sound|the sound and tone, the sound of the voice, the cry, the faculty of speech and discourse, the language, the saying|φωνή]] [[of the war-trumpet|of the war-trumpet and trump, of the trumpet-call|σάλπιγξ]] and [[the mountain|the mountain and hill|ὄρος]] [[the thing making smoke|the thing making smoke, making a fire, smoking and blackening with smoke, being black with smoke|καπνίζω]]; [[having been put to flight|having been put to flight, having fled affrighted, having fled, having been seized with fear, having been affrighted, having feared|φοβέομαι]] [[but|but, however, whereas, on the other hand|δέ]], [[all|all, the whole, every, every single|πᾶς]] [[the people|the people, the men, the soldiers, the land-army, the common men, the folk, the Jews, the Christians|λαός]] [[were set|were set, were placed and stood, were there, were in a state and condition, lay and were situated, stood still and stopped and halted, stood idle, stopped and ceased and were at rest, stood firm, stood up and rose up, arose and began|ἵστημι]] [[from afar|from afar, from long since|μακρόθεν]].",
+    "names": []
+  },
+  {
+    "ref": "EXO 20:19",
+    "greek": "καὶ εἶπαν πρὸς Μωυσῆν Λάλησον σὺ ἡμῖν, καὶ μὴ λαλείτω πρὸς ἡμᾶς ὁ θεός, μήποτε ἀποθάνωμεν.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 120",
+    "hint": "They ask Moses to speak to them himself, and that God not speak to them, lest they die.",
+    "notes": [
+      {
+        "lemma": "μὴ λαλείτω",
+        "flag": null,
+        "text": "Let him not talk, the present imperative, third singular."
+      },
+      {
+        "lemma": "ὁ θεός",
+        "flag": null,
+        "text": "God, for the Hebrew ʾĕlōhîm."
+      }
+    ],
+    "reading": "and [[said|said, spoke, declared, called by name, told|λέγω]] [[toward|toward, facing, oriented to, in living motion and address toward|πρός + accusative]] [[name:Μωυσῆν]] [[talk|talk, chat, prattle, babble, say, talk of, speak, chatter, chirp|λαλέω]] you to us, and [[not|not, that not, perhaps, surely not and you don't mean to say that|μή]] [[let talk|let talk, let chat, let prattle, let babble, let say, let talk of, let speak, let chatter, let chirp|λαλέω]] [[toward|toward, facing, oriented to, in living motion and address toward|πρός + accusative]] us [[the God|he who is God definitively, the one the article marks out, the known and the only|θεός]], [[that at no time|that at no time and lest ever, never and on no account, perhaps|μήποτε]] [[we may die off|we may die off and die, we may be put to death and slain|ἀποθνήσκω]].",
+    "names": [
+      {
+        "greek": "Μωυσῆν",
+        "unanchored": "Mōusēn",
+        "anchored": "Moses",
+        "gloss": "(Μωυσῆς, from Hebrew Mōšeh, which the Hebrew of 2:10 hears in māšâ, \"to draw out\")"
+      }
+    ],
+    "speech": [
+      "Λάλησον"
+    ]
+  },
+  {
+    "ref": "EXO 20:20",
+    "greek": "καὶ λέγει αὐτοῖς Μωυσῆς Θαρσεῖτε· ἕνεκεν γὰρ τοῦ πειράσαι ὑμᾶς παρεγενήθη ὁ θεὸς πρὸς ὑμᾶς, ὅπως ἂν γένηται ὁ φόβος αὐτοῦ ἐν ὑμῖν, ἵνα μὴ ἁμαρτάνητε.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 120",
+    "hint": "Moses tells them to take courage: God has come to test them, so that fear of him may keep them from sin.",
+    "notes": [
+      {
+        "lemma": "ἕνεκεν τοῦ πειράσαι",
+        "flag": null,
+        "text": "On account of the making proof, the articular infinitive after ἕνεκεν."
+      },
+      {
+        "lemma": "ὅπως ἂν γένηται",
+        "flag": null,
+        "text": "That ever it may come to be, ὅπως with ἄν and the subjunctive."
+      },
+      {
+        "lemma": "λέγει",
+        "flag": null,
+        "text": "Says, the present among aorists."
+      }
+    ],
+    "reading": "and [[says|says, speaks, declares, calls by name, tells|λέγω]] to them [[name:Μωυσῆς]] [[be of good courage|be of good courage and take courage, be over-bold and audacious, have confidence in, venture|θαρσέω]]; [[on account of|on account of, for the sake of, because of, for, as far as regards|ἕνεκα]] [[for|for, since and as, for otherwise and else, now, but, why and what, would that|γάρ]], [[of the making proof|of the making proof and trial of, of the attempting, of the trying and tempting, of the putting to the test|πειράζω]] you [[was near|was near and attended upon, was present at, came to one's side and came to aid and stood by and seconded and supported, was at hand and was gained and accrued, came to, arrived and came up, came to maturity, was fully grown|παραγίνομαι]] [[the God|he who is God definitively, the one the article marks out, the known and the only|θεός]] [[toward|toward, facing, oriented to, in living motion and address toward|πρός + accusative]] you, [[that|that, in order that|ὅπως]] ever [[may come into being|may come to be, may arise, may be brought into existence|γίνομαι]] [[the flight|the flight, the panic fear, the fear and terror, the outward show of fear, the object of terror|φόβος]] of him [[in|within, inside of, and by means of|ἐν]] to you, [[that|that, in order that|ἵνα]] [[not|not, that not, perhaps, surely not and you don't mean to say that|μή]] [[you may miss the mark|you may miss the mark, you may fail of your purpose, you may go wrong, you may err, you may sin|ἁμαρτάνω]].",
+    "names": [
+      {
+        "greek": "Μωυσῆς",
+        "unanchored": "Mōusēs",
+        "anchored": "Moses",
+        "bare": true
+      }
+    ],
+    "speech": [
+      "Θαρσεῖτε"
+    ]
+  },
+  {
+    "ref": "EXO 20:21",
+    "greek": "εἱστήκει δὲ ὁ λαὸς μακρόθεν, Μωυσῆς δὲ εἰσῆλθεν εἰς τὸν γνόφον, οὗ ἦν ὁ θεός.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 120",
+    "hint": "The people stay at a distance while Moses goes into the darkness where God is.",
+    "notes": [
+      {
+        "lemma": "εἱστήκει",
+        "flag": null,
+        "text": "The pluperfect of ἵστημι, the intransitive: had been set, and stood so."
+      },
+      {
+        "lemma": "γνόφον",
+        "flag": null,
+        "text": "γνόφος, darkness, dusk, gloom, for the Hebrew ʿărāpel."
+      },
+      {
+        "lemma": "οὗ ἦν ὁ θεός",
+        "flag": null,
+        "text": "Where God was, ἦν with its formula."
+      }
+    ],
+    "reading": "[[had been set|had been set and stood so, had been placed and stood, had been there, had been in a state and condition, had lain and been situated, had stood still and stopped and halted, had stood idle, had stopped and ceased and been at rest, had stood firm, had stood up and risen up, had arisen and begun|ἵστημι]] [[but|but, however, whereas, on the other hand|δέ]], [[the people|the people, the men, the soldiers, the land-army, the common men, the folk, the Jews, the Christians|λαός]] [[from afar|from afar, from long since|μακρόθεν]], [[name:Μωυσῆς]] [[but|but, however, whereas, on the other hand|δέ]], [[went in|went in, went into and entered, came into, came in, came upon|εἰσέρχομαι]] [[into|into, to, in, rest in|εἰς]] [[the darkness|the darkness and dusk and gloom|γνόφος]], where was, and kept on being as a standing and continuing condition and not a momentary one, [[the God|he who is God definitively, the one the article marks out, the known and the only|θεός]].",
+    "names": [
+      {
+        "greek": "Μωυσῆς",
+        "unanchored": "Mōusēs",
+        "anchored": "Moses",
+        "bare": true
+      }
+    ]
+  },
+  {
+    "ref": "EXO 20:22",
+    "greek": "Εἶπεν δὲ κύριος πρὸς Μωυσῆν Τάδε ἐρεῖς τῷ οἴκῳ Ιακωβ καὶ ἀναγγελεῖς τοῖς υἱοῖς Ισραηλ Ὑμεῖς ἑωράκατε ὅτι ἐκ τοῦ οὐρανοῦ λελάληκα πρὸς ὑμᾶς·",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 120",
+    "hint": "The lord gives Moses a message for the house of Jacob: they have seen him speak to them from heaven.",
+    "notes": [
+      {
+        "lemma": "τῷ οἴκῳ Ιακωβ καὶ ἀναγγελεῖς",
+        "flag": "divergence",
+        "text": "To the house of Jacob, and you will report: the Hebrew has only ʾel-bĕnê yiśrāʾēl, to the sons of Israel; the Greek's pair is 19:3's."
+      },
+      {
+        "lemma": "λελάληκα",
+        "flag": null,
+        "text": "The perfect: I have talked, and it stands so."
+      }
+    ],
+    "reading": "[[said|said, spoke, declared, called by name, told|λέγω]] [[but|but, however, whereas, on the other hand|δέ]], [[lord|lord, master, the one having power and authority over|κύριος]] [[toward|toward, facing, oriented to, in living motion and address toward|πρός + accusative]] [[name:Μωυσῆν]] [[these|these, the immediate present, here and on the spot, thus, hither and to this spot, therefore and on this account|ὅδε]] [[you will say|you will say, you will speak, you will declare, you will call by name, you will tell|λέγω]] [[to the house|to the house and abode and dwelling, to the room and chamber, to the house of a god and temple, to the household goods and substance, to the household and family|οἶκος]] of [[name:Ιακωβ]] and [[you will carry back tidings of|you will carry back tidings of, you will report|ἀναγγέλλω]] to the sons of [[name:Ισραηλ]] you [[you have seen|you have seen and it stands so, you have perceived and it stands so, you have beheld and it stands so, you have looked at and it stands so|ὁράω]] [[that|that, seeing that, although, for that, because, inasmuch as|ὅτι]] [[out of|out of, forth from, from|ἐκ]] [[of the heaven|of the heaven, of the vault, of the firmament and the sky|οὐρανός]] [[I have talked|I have talked and it stands so, I have chatted, I have prattled, I have babbled, I have said, I have talked of, I have spoken, I have chattered, I have chirped|λαλέω]] [[toward|toward, facing, oriented to, in living motion and address toward|πρός + accusative]] you;",
+    "names": [
+      {
+        "greek": "Μωυσῆν",
+        "unanchored": "Mōusēn",
+        "anchored": "Moses",
+        "bare": true
+      },
+      {
+        "greek": "Ιακωβ",
+        "unanchored": "Iakōb",
+        "anchored": "Jacob",
+        "gloss": "(Ιακωβ, from Hebrew Yaʿăqōb, which the Hebrew of Genesis 25:26 hears in ʿāqēb, \"heel\")"
+      },
+      {
+        "greek": "Ισραηλ",
+        "unanchored": "Israēl",
+        "anchored": "Israel",
+        "gloss": "(Ισραηλ, from Hebrew Yiśrāʾēl, which the Hebrew of Genesis 32:29 hears in śārâ ʿim ʾĕlōhîm, \"he strove with God\")"
+      }
+    ],
+    "speech": [
+      "Τάδε",
+      "Ὑμεῖς"
+    ]
+  },
+  {
+    "ref": "EXO 20:23",
+    "greek": "οὐ ποιήσετε ἑαυτοῖς θεοὺς ἀργυροῦς καὶ θεοὺς χρυσοῦς οὐ ποιήσετε ὑμῖν αὐτοῖς.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 120",
+    "hint": "They are not to make gods of silver or gold for themselves.",
+    "notes": [
+      {
+        "lemma": "ἑαυτοῖς",
+        "flag": "divergence",
+        "text": "For yourselves: the Hebrew has ʾittî, with me, at the first clause."
+      },
+      {
+        "lemma": "ὑμῖν αὐτοῖς",
+        "flag": null,
+        "text": "To you yourselves, αὐτοῖς intensive with the pronoun."
+      }
+    ],
+    "reading": "not [[you will make|you will make, you will do, you will produce, you will create|ποιέω]] to yourselves [[gods|gods, the gods, goddesses|θεός]] [[silver|silver and of silver|ἀργυροῦς]] and [[gods|gods, the gods, goddesses|θεός]] [[golden|golden, of gold, decked and inlaid with gold, gilded and gilt, gold-coloured and golden-yellow|χρυσοῦς]] not [[you will make|you will make, you will do, you will produce, you will create|ποιέω]] to you to yourselves.",
+    "names": []
+  },
+  {
+    "ref": "EXO 20:24",
+    "greek": "θυσιαστήριον ἐκ γῆς ποιήσετέ μοι καὶ θύσετε ἐπʼ αὐτοῦ τὰ ὁλοκαυτώματα καὶ τὰ σωτήρια ὑμῶν, τὰ πρόβατα καὶ τοὺς μόσχους ὑμῶν ἐν παντὶ τόπῳ, οὗ ἐὰν ἐπονομάσω τὸ ὄνομά μου ἐκεῖ, καὶ ἥξω πρὸς σὲ καὶ εὐλογήσω σε.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, pp. 120–121",
+    "hint": "An altar of earth is to be made for offerings, and wherever the lord's name is named he will come and bless.",
+    "notes": [
+      {
+        "lemma": "τὰ σωτήρια",
+        "flag": "divergence",
+        "text": "The things of deliverance, σωτήριος as a noun, for the Hebrew šĕlāmêkā, your peace offerings."
+      },
+      {
+        "lemma": "οὗ ἐὰν ἐπονομάσω",
+        "flag": "divergence",
+        "text": "Where ever I may name: the Hebrew has ʾazkîr, I cause to be remembered; ἐάν after the relative is ἄν, plain text."
+      },
+      {
+        "lemma": "θυσιαστήριον",
+        "flag": null,
+        "text": "θυσιαστήριον, an altar, one translation, plain text."
+      }
+    ],
+    "reading": "an altar [[out of|out of, forth from, from|ἐκ]] [[of earth|of earth, of land, of ground|γῆ]] [[you will make|you will make, you will do, you will produce, you will create|ποιέω]] to me and [[you will offer|you will offer, you will burn, you will sacrifice, you will slaughter and slay, you will offer sacrifices, you will celebrate with offerings|θύω]] [[upon|upon, on, in, at, near|ἐπί + genitive]] of it [[the whole burnt-offerings|the whole burnt-offerings and holocausts|ὁλοκαύτωμα]] and [[the deliverances|the deliverances and safeties, the thankofferings for deliverance|σωτήριος]] of you, [[the things that walk forward|the things that walk forward, the cattle, the flocks and herds, the horses, the small cattle, the sheep|πρόβατον]] and [[the calves|the calves, the young bulls, the heifers and young cows, the boys and girls and maids, the young animals|μόσχος]] of you [[in all|within, inside of, and by means of all, the whole, every, every single|ἐν; πᾶς]] [[to place|to place, to local circumstances, to position, to passage in a book, to topic, to common-place, to occasion and opportunity|τόπος]], where ever [[I may give a surname|I may give a surname, I may name, I may call, I may pronounce|ἐπονομάζω]] [[the name|the name, the fame, the mere name, the phrase and expression|ὄνομα]] of me [[there|there, in that place|ἐκεῖ]], and [[I will have come|I will have come, I will be present, I will be here, I will have returned, I will have reached a point|ἥκω]] [[toward|toward, facing, oriented to, in living motion and address toward|πρός + accusative]] you and [[I will speak well of|I will speak well of, I will praise, I will honour, I will bless|εὐλογέω]] you.",
+    "names": []
+  },
+  {
+    "ref": "EXO 20:25",
+    "greek": "ἐὰν δὲ θυσιαστήριον ἐκ λίθων ποιῇς μοι, οὐκ οἰκοδομήσεις αὐτοὺς τμητούς· τὸ γὰρ ἐγχειρίδιόν σου ἐπιβέβληκας ἐπʼ αὐτούς, καὶ μεμίανται.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 121",
+    "hint": "A stone altar must not be of hewn stones; putting a blade to them defiles them.",
+    "notes": [
+      {
+        "lemma": "τὸ γὰρ ἐγχειρίδιόν σου",
+        "flag": "divergence",
+        "text": "Your hand-knife: the Hebrew has ḥarbĕkā, your sword. ἐγχειρίδιον is filed in Middle Liddell as the noun inside ἐγχειρίδιος, a hand-knife, dagger."
+      },
+      {
+        "lemma": "ἐπιβέβληκας … μεμίανται",
+        "flag": null,
+        "text": "Two perfects, the state standing. μεμίανται is the third singular, as the module codes it, the plural of this stem being a participle with εἰσί; its subject is not expressed."
+      },
+      {
+        "lemma": "τμητούς",
+        "flag": null,
+        "text": "τμητός, cut, shaped by cutting, the verbal adjective, for the Hebrew gāzît, hewn stone."
+      }
+    ],
+    "reading": "[[if haply|if haply, if|ἐάν]] [[but|but, however, whereas, on the other hand|δέ]], an altar [[out of|out of, forth from, from|ἐκ]] [[of stones|of stones, of precious stones, of marbles|λίθος]] [[you may make|you may make, you may do, you may produce, you may create|ποιέω]] to me, not [[you will build a house|you will build a house, you will build, you will build for yourself|οἰκοδομέω]] them [[cut|cut and shaped by cutting, that can be cut, severed|τμητός]]; [[for|for, since and as, for otherwise and else, now, but, why and what, would that|γάρ]], [[the hand-knife|the hand-knife and dagger|ἐγχειρίδιον]] of you [[you have thrown|you have thrown and cast upon and it stands so, you have laid on, you have affixed, you have added, you have mentioned, you have thrown yourself upon and gone straight towards, you have fallen upon and against, you have applied yourself to and devoted yourself to, you have given your attention to and thought on, you have followed and come next, you have belonged to and fallen to|ἐπιβάλλω]] [[upon|upon, on, in, at, near|ἐπί + accusative]] them, and [[has been stained|has been stained and it stands so, has been dyed, has been defiled and sullied, has been tainted and defiled|μιαίνω]].",
+    "names": []
+  },
+  {
+    "ref": "EXO 20:26",
+    "greek": "οὐκ ἀναβήσῃ ἐν ἀναβαθμίσιν ἐπὶ τὸ θυσιαστήριόν μου, ὅπως ἂν μὴ ἀποκαλύψῃς τὴν ἀσχημοσύνην σου ἐπʼ αὐτοῦ.",
+    "print": "Rahlfs 1935 (1950 printing), vol. I, p. 121",
+    "hint": "There are to be no steps up to the altar, so that nakedness is not exposed on it.",
+    "notes": [
+      {
+        "lemma": "ἀναβαθμίσιν",
+        "flag": null,
+        "text": "ἀναβαθμίς, not in Middle Liddell: LSJ's step, stair, citing this verse, one translation."
+      },
+      {
+        "lemma": "ἀσχημοσύνην",
+        "flag": null,
+        "text": "ἀσχημοσύνη, want of form, indecorum, for the Hebrew ʿerwâ, nakedness."
+      }
+    ],
+    "reading": "not [[you will go up|you will go up, you will mount, you will ascend, you will go up to, you will rise, you will come up, you will come to and arrive at, you will go up country, you will go aboard|ἀναβαίνω]] [[in steps|within, inside of, and by means of steps and stairs|ἐν; ἀναβαθμίς]] [[upon|upon, on, in, at, near|ἐπί + accusative]] the altar of me, [[that|that, in order that|ὅπως]] ever [[not|not, that not, perhaps, surely not and you don't mean to say that|μή]] [[you may uncover|you may uncover, you may disclose and reveal, you may reveal your whole mind|ἀποκαλύπτω]] [[the want of form|the want of form and ungracefulness, the indecorum|ἀσχημοσύνη]] of you [[upon|upon, on, in, at, near|ἐπί + genitive]] of it.",
+    "names": []
+  }
+]

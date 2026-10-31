@@ -1,0 +1,531 @@
+# Exodus 20 — morphology, one word per line.
+#
+# This is the project's own grammatical analysis of each form, written alongside the
+# transcription and not copied from any digital edition.
+#
+# Columns: verse, part of speech, parse, form, lemma — in MorphGNT's code scheme, so
+# the Old and New Testament layers read alike. The parse is eight places: person,
+# tense, voice, mood, case, number, gender, degree ("-" where it does not apply).
+#
+# Two codes go beyond MorphGNT, both to record only what the form itself says:
+#   voice  E  middle/passive — a tense in which the two share one form
+#   gender C  masculine/feminine — an adjective whose form does not distinguish them
+#
+# A trailing annotation records a deliberate difference and the reason for it:
+#   "# module …"  from the reference module, checked when LXX_RAHLFS_DIR is set
+#   "# corpus …"  from this project's own analysis of the same form elsewhere
+# A line may carry both. validate.py prints them as notes instead of failures — and
+# fails if the difference a note claims is not there, so they cannot go stale. The
+# analysis here is this project's own: the module is a reference, not an authority,
+# and the corpus is held to itself.
+#
+# Indeclinables take case and number from the syntax, as MorphGNT does, and gender
+# where there is one to take: a personal name, from the person; a numeral agreeing
+# with its noun; a common noun whose article shows it — but not an indeclinable place
+# name, which has none. A personal name the New Testament also uses takes MorphGNT's
+# dictionary form (Νῶε, Σήμ); every other Semitic name (Χαμ, Ιαφεθ), the form Rahlfs
+# prints.
+
+20:1 C- -------- Καὶ καί
+20:1 V- 3AAI-S-- ἐλάλησεν λαλέω
+20:1 N- ----NSM- κύριος κύριος
+20:1 A- ----APM- πάντας πᾶς
+20:1 RA ----APM- τοὺς ὁ
+20:1 N- ----APM- λόγους λόγος
+20:1 RD ----APM- τούτους οὗτος
+20:1 V- -PAPNSM- λέγων λέγω
+20:2 RP ----NS-- Ἐγώ ἐγώ
+20:2 V- 1PAI-S-- εἰμι εἰμί
+20:2 N- ----NSM- κύριος κύριος
+20:2 RA ----NSM- ὁ ὁ
+20:2 N- ----NSM- θεός θεός
+20:2 RP ----GS-- σου σύ  # module lemma σοῦ, the form itself — σύ is the dictionary form
+20:2 RR ----NSM- ὅστις ὅστις
+20:2 V- 1AAI-S-- ἐξήγαγόν ἐξάγω
+20:2 RP ----AS-- σε σύ  # module lemma σέ, the form itself — σύ is the dictionary form
+20:2 P- -------- ἐκ ἐκ
+20:2 N- ----GSF- γῆς γῆ
+20:2 N- ----GSF- Αἰγύπτου Αἴγυπτος
+20:2 P- -------- ἐξ ἐκ
+20:2 N- ----GSM- οἴκου οἶκος
+20:2 N- ----GSF- δουλείας δουλεία
+20:3 D- -------- οὐκ οὐ
+20:3 V- 3FMI-P-- ἔσονταί εἰμί
+20:3 RP ----DS-- σοι σύ  # module lemma σοί, the form itself — σύ is the dictionary form
+20:3 N- ----NPM- θεοὶ θεός
+20:3 A- ----NPM- ἕτεροι ἕτερος
+20:3 P- -------- πλὴν πλήν
+20:3 RP ----GS-- ἐμοῦ ἐγώ  # module lemma ἐμοῦ, the form itself — ἐγώ is the dictionary form
+20:4 D- -------- οὐ οὐ
+20:4 V- 2FAI-S-- ποιήσεις ποιέω
+20:4 RP ----DSM- σεαυτῷ σεαυτοῦ
+20:4 N- ----ASN- εἴδωλον εἴδωλον
+20:4 C- -------- οὐδὲ οὐδέ
+20:4 A- ----GSN- παντὸς πᾶς
+20:4 N- ----ASN- ὁμοίωμα ὁμοίωμα
+20:4 RR ----NPN- ὅσα ὅσος  # module APN — nominative, the subject of a relative clause with no verb
+20:4 P- -------- ἐν ἐν
+20:4 RA ----DSM- τῷ ὁ
+20:4 N- ----DSM- οὐρανῷ οὐρανός
+20:4 D- -------- ἄνω ἄνω
+20:4 C- -------- καὶ καί
+20:4 RR ----NPN- ὅσα ὅσος  # module APN — nominative, the subject of a relative clause with no verb
+20:4 P- -------- ἐν ἐν
+20:4 RA ----DSF- τῇ ὁ
+20:4 N- ----DSF- γῇ γῆ
+20:4 D- -------- κάτω κάτω
+20:4 C- -------- καὶ καί
+20:4 RR ----NPN- ὅσα ὅσος  # module APN — nominative, the subject of a relative clause with no verb
+20:4 P- -------- ἐν ἐν
+20:4 RA ----DPN- τοῖς ὁ
+20:4 N- ----DPN- ὕδασιν ὕδωρ
+20:4 P- -------- ὑποκάτω ὑποκάτω
+20:4 RA ----GSF- τῆς ὁ
+20:4 N- ----GSF- γῆς γῆ
+20:5 D- -------- οὐ οὐ
+20:5 V- 2FAI-S-- προσκυνήσεις προσκυνέω
+20:5 RP ----DPN- αὐτοῖς αὐτός  # module DPM — neuter: the images and likenesses of 20:4
+20:5 C- -------- οὐδὲ οὐδέ
+20:5 D- -------- μὴ μή
+20:5 V- 2AAS-S-- λατρεύσῃς λατρεύω
+20:5 RP ----DPN- αὐτοῖς αὐτός
+20:5 RP ----NS-- ἐγὼ ἐγώ
+20:5 C- -------- γάρ γάρ
+20:5 V- 1PAI-S-- εἰμι εἰμί
+20:5 N- ----NSM- κύριος κύριος
+20:5 RA ----NSM- ὁ ὁ
+20:5 N- ----NSM- θεός θεός
+20:5 RP ----GS-- σου σύ  # module lemma σοῦ, the form itself — σύ is the dictionary form
+20:5 N- ----NSM- θεὸς θεός
+20:5 N- ----NSM- ζηλωτὴς ζηλωτής
+20:5 V- -PAPNSM- ἀποδιδοὺς ἀποδίδωμι
+20:5 N- ----APF- ἁμαρτίας ἁμαρτία  # module GSF — the accusative plural, the object of ἀποδιδούς
+20:5 N- ----GPM- πατέρων πατήρ
+20:5 P- -------- ἐπὶ ἐπί
+20:5 N- ----APN- τέκνα τέκνον
+20:5 P- -------- ἕως ἕως
+20:5 A- ----GSF- τρίτης τρίτος
+20:5 C- -------- καὶ καί
+20:5 A- ----GSF- τετάρτης τέταρτος
+20:5 N- ----GSF- γενεᾶς γενεά
+20:5 RA ----DPM- τοῖς ὁ
+20:5 V- -PAPDPM- μισοῦσίν μισέω
+20:5 RP ----AS-- με ἐγώ  # module lemma μέ, the form itself — ἐγώ is the dictionary form
+20:6 C- -------- καὶ καί
+20:6 V- -PAPNSM- ποιῶν ποιέω
+20:6 N- ----ASN- ἔλεος ἔλεος
+20:6 P- -------- εἰς εἰς
+20:6 N- ----APF- χιλιάδας χιλιάς
+20:6 RA ----DPM- τοῖς ὁ
+20:6 V- -PAPDPM- ἀγαπῶσίν ἀγαπάω
+20:6 RP ----AS-- με ἐγώ  # module lemma μέ, the form itself — ἐγώ is the dictionary form
+20:6 C- -------- καὶ καί
+20:6 RA ----DPM- τοῖς ὁ
+20:6 V- -PAPDPM- φυλάσσουσιν φυλάσσω
+20:6 RA ----APN- τὰ ὁ
+20:6 N- ----APN- προστάγματά πρόσταγμα
+20:6 RP ----GS-- μου ἐγώ  # module lemma μου, the form itself — ἐγώ is the dictionary form
+20:7 D- -------- οὐ οὐ
+20:7 V- 2FMI-S-- λήμψῃ λαμβάνω
+20:7 RA ----ASN- τὸ ὁ
+20:7 N- ----ASN- ὄνομα ὄνομα
+20:7 N- ----GSM- κυρίου κύριος
+20:7 RA ----GSM- τοῦ ὁ
+20:7 N- ----GSM- θεοῦ θεός
+20:7 RP ----GS-- σου σύ  # module lemma σοῦ, the form itself — σύ is the dictionary form
+20:7 P- -------- ἐπὶ ἐπί
+20:7 A- ----DSN- ματαίῳ μάταιος
+20:7 D- -------- οὐ οὐ
+20:7 C- -------- γὰρ γάρ
+20:7 D- -------- μὴ μή
+20:7 V- 3AAS-S-- καθαρίσῃ καθαρίζω
+20:7 N- ----NSM- κύριος κύριος
+20:7 RA ----ASM- τὸν ὁ
+20:7 V- -PAPASM- λαμβάνοντα λαμβάνω
+20:7 RA ----ASN- τὸ ὁ
+20:7 N- ----ASN- ὄνομα ὄνομα
+20:7 RP ----GSM- αὐτοῦ αὐτός
+20:7 P- -------- ἐπὶ ἐπί
+20:7 A- ----DSN- ματαίῳ μάταιος
+20:8 V- 2APD-S-- μνήσθητι μιμνήσκομαι  # module lemma μνάομαι — μιμνήσκομαι, the middle, as MorphGNT files ἐμνήσθη
+20:8 RA ----ASF- τὴν ὁ
+20:8 N- ----ASF- ἡμέραν ἡμέρα
+20:8 RA ----GPN- τῶν ὁ
+20:8 N- ----GPN- σαββάτων σάββατον
+20:8 V- -PAN---- ἁγιάζειν ἁγιάζω
+20:8 RP ----ASF- αὐτήν αὐτός
+20:9 A- ----APF- ἓξ ἕξ  # module M, no features — MorphGNT gives ἕξ case, number and gender like any adjective
+20:9 N- ----APF- ἡμέρας ἡμέρα
+20:9 V- 2FMI-S-- ἐργᾷ ἐργάζομαι
+20:9 C- -------- καὶ καί
+20:9 V- 2FAI-S-- ποιήσεις ποιέω
+20:9 A- ----APN- πάντα πᾶς
+20:9 RA ----APN- τὰ ὁ
+20:9 N- ----APN- ἔργα ἔργον
+20:9 RP ----GS-- σου σύ  # module lemma σοῦ, the form itself — σύ is the dictionary form
+20:10 RA ----DSF- τῇ ὁ
+20:10 C- -------- δὲ δέ
+20:10 N- ----DSF- ἡμέρᾳ ἡμέρα
+20:10 RA ----DSF- τῇ ὁ
+20:10 A- ----DSF- ἑβδόμῃ ἕβδομος
+20:10 N- ----NPN- σάββατα σάββατον  # module APN — nominative, in a clause with no verb
+20:10 N- ----DSM- κυρίῳ κύριος
+20:10 RA ----DSM- τῷ ὁ
+20:10 N- ----DSM- θεῷ θεός
+20:10 RP ----GS-- σου σύ  # module lemma σοῦ, the form itself — σύ is the dictionary form
+20:10 D- -------- οὐ οὐ
+20:10 V- 2FAI-S-- ποιήσεις ποιέω
+20:10 P- -------- ἐν ἐν
+20:10 RP ----DSF- αὐτῇ αὐτός
+20:10 A- ----ASN- πᾶν πᾶς
+20:10 N- ----ASN- ἔργον ἔργον
+20:10 RP ----NS-- σὺ σύ
+20:10 C- -------- καὶ καί
+20:10 RA ----NSM- ὁ ὁ
+20:10 N- ----NSM- υἱός υἱός
+20:10 RP ----GS-- σου σύ  # module lemma σοῦ, the form itself — σύ is the dictionary form
+20:10 C- -------- καὶ καί
+20:10 RA ----NSF- ἡ ὁ
+20:10 N- ----NSF- θυγάτηρ θυγάτηρ
+20:10 RP ----GS-- σου σύ  # module lemma σοῦ, the form itself — σύ is the dictionary form
+20:10 RA ----NSM- ὁ ὁ
+20:10 N- ----NSM- παῖς παῖς
+20:10 RP ----GS-- σου σύ  # module lemma σοῦ, the form itself — σύ is the dictionary form
+20:10 C- -------- καὶ καί
+20:10 RA ----NSF- ἡ ὁ
+20:10 N- ----NSF- παιδίσκη παιδίσκη
+20:10 RP ----GS-- σου σύ  # module lemma σοῦ, the form itself — σύ is the dictionary form
+20:10 RA ----NSM- ὁ ὁ
+20:10 N- ----NSM- βοῦς βοῦς
+20:10 RP ----GS-- σου σύ  # module lemma σοῦ, the form itself — σύ is the dictionary form
+20:10 C- -------- καὶ καί
+20:10 RA ----NSN- τὸ ὁ
+20:10 N- ----NSN- ὑποζύγιόν ὑποζύγιον
+20:10 RP ----GS-- σου σύ  # module lemma σοῦ, the form itself — σύ is the dictionary form
+20:10 C- -------- καὶ καί
+20:10 A- ----NSN- πᾶν πᾶς
+20:10 N- ----NSN- κτῆνός κτῆνος
+20:10 RP ----GS-- σου σύ  # module lemma σοῦ, the form itself — σύ is the dictionary form
+20:10 C- -------- καὶ καί
+20:10 RA ----NSM- ὁ ὁ
+20:10 N- ----NSM- προσήλυτος προσήλυτος
+20:10 RA ----NSM- ὁ ὁ
+20:10 V- -PAPNSM- παροικῶν παροικέω
+20:10 P- -------- ἐν ἐν
+20:10 RP ----DS-- σοί σύ  # module lemma σοί, the form itself — σύ is the dictionary form
+20:11 P- -------- ἐν ἐν
+20:11 C- -------- γὰρ γάρ
+20:11 A- ----DPF- ἓξ ἕξ  # module M, no features — MorphGNT gives ἕξ case, number and gender like any adjective
+20:11 N- ----DPF- ἡμέραις ἡμέρα
+20:11 V- 3AAI-S-- ἐποίησεν ποιέω
+20:11 N- ----NSM- κύριος κύριος
+20:11 RA ----ASM- τὸν ὁ
+20:11 N- ----ASM- οὐρανὸν οὐρανός
+20:11 C- -------- καὶ καί
+20:11 RA ----ASF- τὴν ὁ
+20:11 N- ----ASF- γῆν γῆ
+20:11 C- -------- καὶ καί
+20:11 RA ----ASF- τὴν ὁ
+20:11 N- ----ASF- θάλασσαν θάλασσα
+20:11 C- -------- καὶ καί
+20:11 A- ----APN- πάντα πᾶς
+20:11 RA ----APN- τὰ ὁ
+20:11 P- -------- ἐν ἐν
+20:11 RP ----DPM- αὐτοῖς αὐτός  # module DPN — masculine: οὐρανός, γῆ and θάλασσα together
+20:11 C- -------- καὶ καί
+20:11 V- 3AAI-S-- κατέπαυσεν καταπαύω
+20:11 RA ----DSF- τῇ ὁ
+20:11 N- ----DSF- ἡμέρᾳ ἡμέρα
+20:11 RA ----DSF- τῇ ὁ
+20:11 A- ----DSF- ἑβδόμῃ ἕβδομος
+20:11 P- -------- διὰ διά
+20:11 RD ----ASN- τοῦτο οὗτος
+20:11 V- 3AAI-S-- εὐλόγησεν εὐλογέω
+20:11 N- ----NSM- κύριος κύριος
+20:11 RA ----ASF- τὴν ὁ
+20:11 N- ----ASF- ἡμέραν ἡμέρα
+20:11 RA ----ASF- τὴν ὁ
+20:11 A- ----ASF- ἑβδόμην ἕβδομος
+20:11 C- -------- καὶ καί
+20:11 V- 3AAI-S-- ἡγίασεν ἁγιάζω
+20:11 RP ----ASF- αὐτήν αὐτός
+20:12 V- 2PAD-S-- τίμα τιμάω
+20:12 RA ----ASM- τὸν ὁ
+20:12 N- ----ASM- πατέρα πατήρ
+20:12 RP ----GS-- σου σύ  # module lemma σοῦ, the form itself — σύ is the dictionary form
+20:12 C- -------- καὶ καί
+20:12 RA ----ASF- τὴν ὁ
+20:12 N- ----ASF- μητέρα μήτηρ
+20:12 C- -------- ἵνα ἵνα
+20:12 D- -------- εὖ εὖ
+20:12 RP ----DS-- σοι σύ  # module lemma σοί, the form itself — σύ is the dictionary form
+20:12 V- 3AMS-S-- γένηται γίνομαι
+20:12 C- -------- καὶ καί
+20:12 C- -------- ἵνα ἵνα
+20:12 A- ----NSC- μακροχρόνιος μακροχρόνιος
+20:12 V- 2AMS-S-- γένῃ γίνομαι
+20:12 P- -------- ἐπὶ ἐπί
+20:12 RA ----GSF- τῆς ὁ
+20:12 N- ----GSF- γῆς γῆ
+20:12 RA ----GSF- τῆς ὁ
+20:12 A- ----GSF- ἀγαθῆς ἀγαθός
+20:12 RR ----GSF- ἧς ὅς
+20:12 N- ----NSM- κύριος κύριος
+20:12 RA ----NSM- ὁ ὁ
+20:12 N- ----NSM- θεός θεός
+20:12 RP ----GS-- σου σύ  # module lemma σοῦ, the form itself — σύ is the dictionary form
+20:12 V- 3PAI-S-- δίδωσίν δίδωμι
+20:12 RP ----DS-- σοι σύ  # module lemma σοί, the form itself — σύ is the dictionary form
+20:13 D- -------- οὐ οὐ
+20:13 V- 2FAI-S-- μοιχεύσεις μοιχεύω
+20:14 D- -------- οὐ οὐ
+20:14 V- 2FAI-S-- κλέψεις κλέπτω
+20:15 D- -------- οὐ οὐ
+20:15 V- 2FAI-S-- φονεύσεις φονεύω
+20:16 D- -------- οὐ οὐ
+20:16 V- 2FAI-S-- ψευδομαρτυρήσεις ψευδομαρτυρέω
+20:16 P- -------- κατὰ κατά
+20:16 RA ----GSM- τοῦ ὁ
+20:16 D- -------- πλησίον πλησίον
+20:16 RP ----GS-- σου σύ  # module lemma σοῦ, the form itself — σύ is the dictionary form
+20:16 N- ----ASF- μαρτυρίαν μαρτυρία
+20:16 A- ----ASC- ψευδῆ ψευδής
+20:17 D- -------- οὐκ οὐ
+20:17 V- 2FAI-S-- ἐπιθυμήσεις ἐπιθυμέω
+20:17 RA ----ASF- τὴν ὁ
+20:17 N- ----ASF- γυναῖκα γυνή
+20:17 RA ----GSM- τοῦ ὁ
+20:17 D- -------- πλησίον πλησίον
+20:17 RP ----GS-- σου σύ  # module lemma σοῦ, the form itself — σύ is the dictionary form
+20:17 D- -------- οὐκ οὐ
+20:17 V- 2FAI-S-- ἐπιθυμήσεις ἐπιθυμέω
+20:17 RA ----ASF- τὴν ὁ
+20:17 N- ----ASF- οἰκίαν οἰκία
+20:17 RA ----GSM- τοῦ ὁ
+20:17 D- -------- πλησίον πλησίον
+20:17 RP ----GS-- σου σύ  # module lemma σοῦ, the form itself — σύ is the dictionary form
+20:17 C- -------- οὔτε οὔτε
+20:17 RA ----ASM- τὸν ὁ
+20:17 N- ----ASM- ἀγρὸν ἀγρός
+20:17 RP ----GSM- αὐτοῦ αὐτός
+20:17 C- -------- οὔτε οὔτε
+20:17 RA ----ASM- τὸν ὁ
+20:17 N- ----ASM- παῖδα παῖς
+20:17 RP ----GSM- αὐτοῦ αὐτός
+20:17 C- -------- οὔτε οὔτε
+20:17 RA ----ASF- τὴν ὁ
+20:17 N- ----ASF- παιδίσκην παιδίσκη
+20:17 RP ----GSM- αὐτοῦ αὐτός
+20:17 C- -------- οὔτε οὔτε
+20:17 RA ----GSM- τοῦ ὁ
+20:17 N- ----GSM- βοὸς βοῦς
+20:17 RP ----GSM- αὐτοῦ αὐτός
+20:17 C- -------- οὔτε οὔτε
+20:17 RA ----GSN- τοῦ ὁ
+20:17 N- ----GSN- ὑποζυγίου ὑποζύγιον
+20:17 RP ----GSM- αὐτοῦ αὐτός
+20:17 C- -------- οὔτε οὔτε
+20:17 A- ----GSN- παντὸς πᾶς
+20:17 N- ----GSN- κτήνους κτῆνος
+20:17 RP ----GSM- αὐτοῦ αὐτός
+20:17 C- -------- οὔτε οὔτε
+20:17 RR ----NPN- ὅσα ὅσος
+20:17 RA ----DSM- τῷ ὁ
+20:17 D- -------- πλησίον πλησίον
+20:17 RP ----GS-- σού σύ  # module lemma σοῦ, the form itself — σύ is the dictionary form
+20:17 V- 3PAI-S-- ἐστιν εἰμί
+20:18 C- -------- Καὶ καί
+20:18 A- ----NSM- πᾶς πᾶς
+20:18 RA ----NSM- ὁ ὁ
+20:18 N- ----NSM- λαὸς λαός
+20:18 V- 3IAI-S-- ἑώρα ὁράω
+20:18 RA ----ASF- τὴν ὁ
+20:18 N- ----ASF- φωνὴν φωνή
+20:18 C- -------- καὶ καί
+20:18 RA ----APF- τὰς ὁ
+20:18 N- ----APF- λαμπάδας λαμπάς
+20:18 C- -------- καὶ καί
+20:18 RA ----ASF- τὴν ὁ
+20:18 N- ----ASF- φωνὴν φωνή
+20:18 RA ----GSF- τῆς ὁ
+20:18 N- ----GSF- σάλπιγγος σάλπιγξ
+20:18 C- -------- καὶ καί
+20:18 RA ----ASN- τὸ ὁ
+20:18 N- ----ASN- ὄρος ὄρος
+20:18 RA ----ASN- τὸ ὁ
+20:18 V- -PAPASN- καπνίζον καπνίζω
+20:18 V- -APPNPM- φοβηθέντες φοβέομαι  # module lemma φοβέω — φοβέομαι, as MorphGNT files it
+20:18 C- -------- δὲ δέ
+20:18 A- ----NSM- πᾶς πᾶς
+20:18 RA ----NSM- ὁ ὁ
+20:18 N- ----NSM- λαὸς λαός
+20:18 V- 3AAI-P-- ἔστησαν ἵστημι
+20:18 D- -------- μακρόθεν μακρόθεν
+20:19 C- -------- καὶ καί
+20:19 V- 3AAI-P-- εἶπαν λέγω  # module lemma ἔπω — λέγω keeps one dictionary form across both testaments
+20:19 P- -------- πρὸς πρός
+20:19 N- ----ASM- Μωυσῆν Μωϋσῆς  # module lemma Μωσεύς — Μωϋσῆς, as MorphGNT files it
+20:19 V- 2AAD-S-- Λάλησον λαλέω
+20:19 RP ----NS-- σὺ σύ
+20:19 RP ----DP-- ἡμῖν ἐγώ  # module lemma ἡμῖν, the form itself — ἐγώ is the dictionary form
+20:19 C- -------- καὶ καί
+20:19 D- -------- μὴ μή
+20:19 V- 3PAD-S-- λαλείτω λαλέω
+20:19 P- -------- πρὸς πρός
+20:19 RP ----AP-- ἡμᾶς ἐγώ  # module lemma ἡμᾶς, the form itself — ἐγώ is the dictionary form
+20:19 RA ----NSM- ὁ ὁ
+20:19 N- ----NSM- θεός θεός
+20:19 C- -------- μήποτε μήποτε
+20:19 V- 1AAS-P-- ἀποθάνωμεν ἀποθνήσκω
+20:20 C- -------- καὶ καί
+20:20 V- 3PAI-S-- λέγει λέγω
+20:20 RP ----DPM- αὐτοῖς αὐτός
+20:20 N- ----NSM- Μωυσῆς Μωϋσῆς  # module lemma Μωσεύς — Μωϋσῆς, as MorphGNT files it
+20:20 V- 2PAD-P-- Θαρσεῖτε θαρσέω
+20:20 P- -------- ἕνεκεν ἕνεκα
+20:20 C- -------- γὰρ γάρ
+20:20 RA ----GSN- τοῦ ὁ
+20:20 V- -AAN---- πειράσαι πειράζω
+20:20 RP ----AP-- ὑμᾶς σύ  # module lemma ὑμᾶς, the form itself — σύ is the dictionary form
+20:20 V- 3API-S-- παρεγενήθη παραγίνομαι
+20:20 RA ----NSM- ὁ ὁ
+20:20 N- ----NSM- θεὸς θεός
+20:20 P- -------- πρὸς πρός
+20:20 RP ----AP-- ὑμᾶς σύ  # module lemma ὑμᾶς, the form itself — σύ is the dictionary form
+20:20 C- -------- ὅπως ὅπως
+20:20 X- -------- ἂν ἄν
+20:20 V- 3AMS-S-- γένηται γίνομαι
+20:20 RA ----NSM- ὁ ὁ
+20:20 N- ----NSM- φόβος φόβος
+20:20 RP ----GSM- αὐτοῦ αὐτός
+20:20 P- -------- ἐν ἐν
+20:20 RP ----DP-- ὑμῖν σύ  # module lemma ὑμῖν, the form itself — σύ is the dictionary form
+20:20 C- -------- ἵνα ἵνα
+20:20 D- -------- μὴ μή
+20:20 V- 2PAS-P-- ἁμαρτάνητε ἁμαρτάνω
+20:21 V- 3YAI-S-- εἱστήκει ἵστημι
+20:21 C- -------- δὲ δέ
+20:21 RA ----NSM- ὁ ὁ
+20:21 N- ----NSM- λαὸς λαός
+20:21 D- -------- μακρόθεν μακρόθεν
+20:21 N- ----NSM- Μωυσῆς Μωϋσῆς  # module lemma Μωσεύς — Μωϋσῆς, as MorphGNT files it
+20:21 C- -------- δὲ δέ
+20:21 V- 3AAI-S-- εἰσῆλθεν εἰσέρχομαι
+20:21 P- -------- εἰς εἰς
+20:21 RA ----ASM- τὸν ὁ
+20:21 N- ----ASM- γνόφον γνόφος
+20:21 D- -------- οὗ οὗ
+20:21 V- 3IAI-S-- ἦν εἰμί
+20:21 RA ----NSM- ὁ ὁ
+20:21 N- ----NSM- θεός θεός
+20:22 V- 3AAI-S-- Εἶπεν λέγω  # module lemma ἔπω — λέγω keeps one dictionary form across both testaments
+20:22 C- -------- δὲ δέ
+20:22 N- ----NSM- κύριος κύριος
+20:22 P- -------- πρὸς πρός
+20:22 N- ----ASM- Μωυσῆν Μωϋσῆς  # module lemma Μωσεύς — Μωϋσῆς, as MorphGNT files it
+20:22 RD ----APN- Τάδε ὅδε
+20:22 V- 2FAI-S-- ἐρεῖς λέγω  # module lemma ἐρέω — λέγω, as MorphGNT files ἐροῦσιν (Luke 17:21)
+20:22 RA ----DSM- τῷ ὁ
+20:22 N- ----DSM- οἴκῳ οἶκος
+20:22 N- ----GSM- Ιακωβ Ἰακώβ
+20:22 C- -------- καὶ καί
+20:22 V- 2FAI-S-- ἀναγγελεῖς ἀναγγέλλω
+20:22 RA ----DPM- τοῖς ὁ
+20:22 N- ----DPM- υἱοῖς υἱός
+20:22 N- ----GSM- Ισραηλ Ἰσραήλ
+20:22 RP ----NP-- Ὑμεῖς σύ  # module lemma ὑμεῖς, the form itself — σύ is the dictionary form
+20:22 V- 2XAI-P-- ἑωράκατε ὁράω
+20:22 C- -------- ὅτι ὅτι
+20:22 P- -------- ἐκ ἐκ
+20:22 RA ----GSM- τοῦ ὁ
+20:22 N- ----GSM- οὐρανοῦ οὐρανός
+20:22 V- 1XAI-S-- λελάληκα λαλέω
+20:22 P- -------- πρὸς πρός
+20:22 RP ----AP-- ὑμᾶς σύ  # module lemma ὑμᾶς, the form itself — σύ is the dictionary form
+20:23 D- -------- οὐ οὐ
+20:23 V- 2FAI-P-- ποιήσετε ποιέω
+20:23 RP ----DPM- ἑαυτοῖς ἑαυτοῦ
+20:23 N- ----APM- θεοὺς θεός
+20:23 A- ----APM- ἀργυροῦς ἀργυροῦς  # module lemma ἀργύρεος — ἀργυροῦς, the contracted form, as MorphGNT files it, like διπλοῦς
+20:23 C- -------- καὶ καί
+20:23 N- ----APM- θεοὺς θεός
+20:23 A- ----APM- χρυσοῦς χρυσοῦς  # module lemma χρύσεος — χρυσοῦς, the contracted form, as MorphGNT files it, like διπλοῦς
+20:23 D- -------- οὐ οὐ
+20:23 V- 2FAI-P-- ποιήσετε ποιέω
+20:23 RP ----DP-- ὑμῖν σύ  # module lemma ὑμῖν, the form itself — σύ is the dictionary form
+20:23 RP ----DPM- αὐτοῖς αὐτός
+20:24 N- ----ASN- θυσιαστήριον θυσιαστήριον
+20:24 P- -------- ἐκ ἐκ
+20:24 N- ----GSF- γῆς γῆ
+20:24 V- 2FAI-P-- ποιήσετέ ποιέω
+20:24 RP ----DS-- μοι ἐγώ  # module lemma μοι, the form itself — ἐγώ is the dictionary form
+20:24 C- -------- καὶ καί
+20:24 V- 2FAI-P-- θύσετε θύω
+20:24 P- -------- ἐπʼ ἐπί
+20:24 RP ----GSN- αὐτοῦ αὐτός  # module GSM — neuter: θυσιαστήριον
+20:24 RA ----APN- τὰ ὁ
+20:24 N- ----APN- ὁλοκαυτώματα ὁλοκαύτωμα
+20:24 C- -------- καὶ καί
+20:24 RA ----APN- τὰ ὁ
+20:24 A- ----APN- σωτήρια σωτήριος
+20:24 RP ----GP-- ὑμῶν σύ  # module lemma ὑμῶν, the form itself — σύ is the dictionary form
+20:24 RA ----APN- τὰ ὁ
+20:24 N- ----APN- πρόβατα πρόβατον
+20:24 C- -------- καὶ καί
+20:24 RA ----APM- τοὺς ὁ
+20:24 N- ----APM- μόσχους μόσχος
+20:24 RP ----GP-- ὑμῶν σύ  # module lemma ὑμῶν, the form itself — σύ is the dictionary form
+20:24 P- -------- ἐν ἐν
+20:24 A- ----DSM- παντὶ πᾶς
+20:24 N- ----DSM- τόπῳ τόπος
+20:24 D- -------- οὗ οὗ
+20:24 X- -------- ἐὰν ἐάν
+20:24 V- 1AAS-S-- ἐπονομάσω ἐπονομάζω
+20:24 RA ----ASN- τὸ ὁ
+20:24 N- ----ASN- ὄνομά ὄνομα
+20:24 RP ----GS-- μου ἐγώ  # module lemma μου, the form itself — ἐγώ is the dictionary form
+20:24 D- -------- ἐκεῖ ἐκεῖ
+20:24 C- -------- καὶ καί
+20:24 V- 1FAI-S-- ἥξω ἥκω
+20:24 P- -------- πρὸς πρός
+20:24 RP ----AS-- σὲ σύ  # module lemma σέ, the form itself — σύ is the dictionary form
+20:24 C- -------- καὶ καί
+20:24 V- 1FAI-S-- εὐλογήσω εὐλογέω
+20:24 RP ----AS-- σε σύ  # module lemma σέ, the form itself — σύ is the dictionary form
+20:25 C- -------- ἐὰν ἐάν
+20:25 C- -------- δὲ δέ
+20:25 N- ----ASN- θυσιαστήριον θυσιαστήριον
+20:25 P- -------- ἐκ ἐκ
+20:25 N- ----GPM- λίθων λίθος
+20:25 V- 2PAS-S-- ποιῇς ποιέω
+20:25 RP ----DS-- μοι ἐγώ  # module lemma μοι, the form itself — ἐγώ is the dictionary form
+20:25 D- -------- οὐκ οὐ
+20:25 V- 2FAI-S-- οἰκοδομήσεις οἰκοδομέω
+20:25 RP ----APM- αὐτοὺς αὐτός
+20:25 A- ----APM- τμητούς τμητός
+20:25 RA ----ASN- τὸ ὁ
+20:25 C- -------- γὰρ γάρ
+20:25 N- ----ASN- ἐγχειρίδιόν ἐγχειρίδιον
+20:25 RP ----GS-- σου σύ  # module lemma σοῦ, the form itself — σύ is the dictionary form
+20:25 V- 2XAI-S-- ἐπιβέβληκας ἐπιβάλλω
+20:25 P- -------- ἐπʼ ἐπί
+20:25 RP ----APM- αὐτούς αὐτός
+20:25 C- -------- καὶ καί
+20:25 V- 3XEI-S-- μεμίανται μιαίνω
+20:26 D- -------- οὐκ οὐ
+20:26 V- 2FMI-S-- ἀναβήσῃ ἀναβαίνω
+20:26 P- -------- ἐν ἐν
+20:26 N- ----DPF- ἀναβαθμίσιν ἀναβαθμίς
+20:26 P- -------- ἐπὶ ἐπί
+20:26 RA ----ASN- τὸ ὁ
+20:26 N- ----ASN- θυσιαστήριόν θυσιαστήριον
+20:26 RP ----GS-- μου ἐγώ  # module lemma μου, the form itself — ἐγώ is the dictionary form
+20:26 C- -------- ὅπως ὅπως
+20:26 X- -------- ἂν ἄν
+20:26 D- -------- μὴ μή
+20:26 V- 2AAS-S-- ἀποκαλύψῃς ἀποκαλύπτω
+20:26 RA ----ASF- τὴν ὁ
+20:26 N- ----ASF- ἀσχημοσύνην ἀσχημοσύνη
+20:26 RP ----GS-- σου σύ  # module lemma σοῦ, the form itself — σύ is the dictionary form
+20:26 P- -------- ἐπʼ ἐπί
+20:26 RP ----GSN- αὐτοῦ αὐτός
