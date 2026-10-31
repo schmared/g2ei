@@ -483,6 +483,51 @@ LSJ = {
     "σανιδωτός": ["planked, boarded over"],
     "ἄτρυγος": ["without lees, clarified, pure"],
     "ῥαφιδευτής": ["stitcher, embroiderer"],
+    # EXO 28. Not in Middle Liddell. LSJ (eng3): γλύμμα, "engraved figure, signet", "inscription". LSJ (eng4):
+    # διανήθω, "spin out", its perfect passive participle citing 35:6. LSJ (eng11): κίδαρις, "Persian head-dress",
+    # "turban of Jewish high priest", citing 28:4, "an Arcadian dance"; καθυφαίνω, "interweave, weave in", citing 28:17,
+    # Pass. "to be inwoven"; κατάλιθος, "set with precious stones", citing 28:17; κοσυμβωτός, "tasselled, fringed";
+    # κροσσωτός, "tasselled, fringed", and "stepped", of a wall; κροσσοί, "tassels, fringe", "lappets"; κόσυμβος,
+    # "fringe", citing 28:35, "hair-net". LSJ (eng12): λιγύριον, "a precious stone (Dim. of λίγυρος)", citing 28:19,
+    # with no translation marked, and λίγυρος "= λιγύριον": the description is all the English there is;
+    # λιθουργικός, "«of» or «for a» λιθουργός", citing 28:11, the Greek word given a transliteration, as κάτοικος
+    # is; the neuter's "sum spent on masonry", a noun, is left to the noun. LSJ (eng17): παρωμίς, "shoulderstrap",
+    # citing 28:14; περικύκλῳ, "= πέριξ, round about", inside περίκυκλος; περιστήθιον, "breastband", citing 28:4;
+    # περιστόμιον, inside περιστόμιος: "mouth of a vessel", "mouth-band", "region of the epiglottis", "collar" of a
+    # garment, "edge". LSJ (eng22): τετράστιχος, "«in four rows» or «courses»", citing 28:17, one translation, as
+    # περιχαλκόω. LSJ (eng25): χρυσόλιθος, "topaz", citing 28:20. LSJ (eng1): ἀσπιδίσκη, inside ἀσπιδίσκος, "boss,
+    # disk", "small shield", "constellation"; ἀχάτης, "agate"; ἁλυσιδωτός, "wrought in chain fashion". LSJ (eng5):
+    # ἐκτύπωμα, "figure in relief", "reflection". LSJ (eng16): ὀνύχιον, "small claw", pig's "trotters", "cloues"
+    # (cloves) of garlic, "onyx", citing 28:20. LSJ (eng27): ᾤα, "sheepskin", "garment of this material", "drawers"
+    # or "apron", and "= ὄα (B). 1, «border» or «fringe of a garment»", citing this chapter. LSJ (eng20): ῥοΐσκος
+    # (A), "Dim. of ῥόα, «small pomegranate»: hence, «knob» or «tassel shaped like a pomegranate»", citing this
+    # chapter. LSJ (eng2): βηρύλλιον, "Dim.", inside βήρυλλος, "gem of sea-green colour, beryl", read as κυμάτιον is
+    # read (Q20).
+    "γλύμμα": ["engraved figure, signet", "inscription"],
+    "διανήθω": ["spin out"],
+    "κίδαρις": ["Persian head-dress", "turban of Jewish high priest", "an Arcadian dance"],
+    "καθυφαίνω": ["interweave, weave in", "to be inwoven"],
+    "κατάλιθος": ["set with precious stones"],
+    "κοσυμβωτός": ["tasselled, fringed"],
+    "κροσσωτός": ["tasselled, fringed", "stepped"],
+    "κροσσός": ["tassels, fringe", "lappets"],
+    "κόσυμβος": ["fringe", "hair-net"],
+    "λιγύριον": ["a precious stone"],
+    "λιθουργικός": ["of or for a lithourgos (λιθουργός)"],
+    "παρωμίς": ["shoulderstrap"],
+    "περικύκλῳ": ["round about"],
+    "περιστήθιον": ["breastband"],
+    "περιστόμιον": ["mouth of a vessel", "mouth-band", "region of the epiglottis", "collar", "edge"],
+    "τετράστιχος": ["in four rows or courses"],
+    "χρυσόλιθος": ["topaz"],
+    "ἀσπιδίσκη": ["boss, disk", "small shield", "constellation"],
+    "ἀχάτης": ["agate"],
+    "ἁλυσιδωτός": ["wrought in chain fashion"],
+    "ἐκτύπωμα": ["figure in relief", "reflection"],
+    "ὀνύχιον": ["small claw", "trotters", "cloves", "onyx"],
+    "ᾤα": ["sheepskin", "garment of this material", "drawers", "apron", "border", "fringe of a garment"],
+    "ῥοΐσκος": ["small pomegranate", "knob or tassel shaped like a pomegranate"],
+    "βηρύλλιον": ["gem of sea-green colour, beryl"],
     # EXO 12. None of these is in Middle Liddell. LSJ (eng3): γειώρας, "sojourner", "proselyte". LSJ
     # (eng4): δέσμη, "package, bundle", "a measure in Egypt", "in Medicine, handful"; Rahlfs prints the
     # accusative δεσμήν, the module δέσμην. LSJ (eng5): ἐνδόσθια, "= ἐντόσθια", a pointer to ἐντόσθιος,
@@ -1616,6 +1661,28 @@ NOT_SENSES = {
     "e)panastre/fw": {"to turn back upon"},    # "to turn back upon one", cut, whole in MARKUP_LOST
     "r(h/gnumi": {"to break, break asunder", "in pieces, rend, shiver, shatter", "force one's", "breaking into speech",
                   "rumpere vocem", "having let loose"},  # "to break … or in pieces", cut, whole in MARKUP_LOST; a piece, examples', Virgil
+    # EXO 28
+    "ai)/sqhsis": {"to have a perception of", "perceive", "to give a perception", "to become perceptible",
+                   "visions"},                  # phrases', αἴσθησιν ἔχειν and of things; an example's, αἰσθήσεις θεῶν
+    "zw/nh": {"upper-girdle", "under the breasts)", "girdle", "belt", "rest oneself", "for girdle-money", "pin-money)"},  # the στρόφιον's, set against it; examples' repeats; phrases'
+    "poi/hsis": {"(action)"},                  # πρᾶξις's, set against it
+    "te/xnh": {"wise", "means", "craft", "to practise", "professionally", "a trade"},  # phrases' and examples' repeats
+    "logei=on": {"part", "speakers"},           # pieces of "the part of the stage occupied by the speakers"
+    "r(uqmo/s": {"time", "in numerum", "kind"},  # an example's repeat; Virgil; an example's
+    "spiqamh/": {"inches"},                    # "about 7 1/2 inches", the span measured in English
+    "xrw/s": {"close to the skin", "close", "nearly", "home", "so as to shave", "graze", "near at hand, hard by"},  # phrases', ἐν χροΐ and ἐν χρῷ
+    "mi/tra": {"beneath", "over"},             # the description's, beneath the cuirass and over it
+    "me/twpon": {"line"},                      # a phrase's, ἐπὶ μετώπου
+    "e)carta/w": {"having", "hung on one, be furnished with"},  # cut, whole in MARKUP_LOST
+    "ple/kw": {"having twisted me"},           # the middle's example
+    "perikalu/ptw": {"put", "as a cloak round"},  # pieces of an example
+    "sumple/kw": {"joining", "we are entangled", "engaged with"},  # examples'
+    "ei)/seimi": {"I will", "come before", "it came into their minds"},  # examples' and their pieces
+    "sunufai/nw": {"web was woven"},           # an example's, "this web was woven"
+    "leitourge/w": {"the services performed"},  # an example's, τὰ λελειτουργημένα
+    "xri/w": {"poison) one's", "to smear their"},  # examples' pieces
+    "e)pa/gw": {"against", "lay", "to it"},    # pieces of examples
+    "sune/xw": {"to keep", "together, keep", "from falling to pieces", "together, make", "pull in time"},  # cut, whole in MARKUP_LOST
     # EXO 27
     "foreu/s": {"pack-"},                      # a piece of an example, "a pack- horse"
     "koi=los": {"when no one is in it", "a hollow", "hollow", "cava flumina)"},  # an example's paraphrase, of a bed; examples' repeats, a way and a voice; Virgil
@@ -1814,6 +1881,15 @@ _APOLLUMI_ACT = {"to destroy utterly, kill, slay", "to destroy, demolish, waste"
 _APOLLUMI_MID = {"to perish utterly, die", "to be undone", "you are done for, lost, ruined",
                  "to be lost, slip away, vanish"}
 FORM_SENSES = {
+    # EXO 28. αἴσθησις's and τέχνη's singular leave out the plural's; ἐπάγω's middle the active's; χρίω's active the
+    # middle's and the passive's.
+    "ai)/sqhsis": [("-", "-", NOT_SENSES["ai)/sqhsis"] | {"the senses"}, None, "^.....S")],
+    "te/xnh": [("-", "-", NOT_SENSES["te/xnh"] | {"arts, wiles, cunning devices"}, None, "^.....S")],
+    "e)pa/gw": [("PIFAXY", "M", NOT_SENSES["e)pa/gw"] | {
+        "to bring on", "to bring upon", "to set on, urge on", "to lead on", "to lead on by persuasion, influence",
+        "to induce", "to bring in, invite", "to bring to", "bring in", "to bring in, supply", "to lay on", "apply",
+        "to bring forward, propose", "to bring in over and above, to add", "to intercalate"})],
+    "xri/w": [("PIFAXY", "A", NOT_SENSES["xri/w"] | {"to anoint oneself", "to anoint", "to be coloured"})],
     # EXO 27. παραδείκνυμι's active and passive leave out the middle's; ποικιλία's and λύχνος's singular the plural's;
     # καίω's and συντάσσω's active the middle's and the passive's; κόπτω's middle-passive and passive the middle's.
     "paradei/knumi": [("PIFAXY", "AP", {"to exhibit, bring forward"})],
@@ -2374,6 +2450,9 @@ FORM_SENSES = {
 # (κατέναντι reads "= κατεναντίον" and glosses nothing itself). Each is recorded in
 # reference/lexicon-notes.md with the entry it resolves to.
 SPELLING = {
+    "linou=s": "li/neos",            # the contracted adjective, filed under the uncontracted, as χαλκοῦς (EXO 28:42)
+    "a)/nqinos": "a)nqino/s",         # the entry accented ἀνθινός (EXO 28:34)
+    "topa/zion": "to/pazos",         # τοπάζιον, which LSJ files under τόπαζος, "also … τοπάζιον, LXX Ex. 28.17" (EXO 28:17)
     "e(kato/ntarxos": "e(katonta/rxhs",  # ἑκατόνταρχος, Middle Liddell's ἑκατοντάρχης, "leader of a hundred" (EXO 18:21)
     "kri/ma": "kri=ma",               # κρίμα, the entry headed with the circumflex (EXO 18:22)
     "e)gxeiri/dion": "e)gxeiri/dios",  # "as Subst., ἐγχειρίδιον … a hand-knife, dagger", inside the adjective (EXO 20:25)
@@ -2786,6 +2865,14 @@ MARKUP_LOST = {
     "diori/zw": [(3, "to determine one to be")],  # "«to make» it «clear» to the ear"; "«to inform of» a thing «as contraband»"
     "strepto/s": [(4, "a collar of twisted or linked metal"), (9, "to be bent or turned"), (13, "glib, pliant")],
     "tra/peza": [(0, "a table")],
+    # EXO 28. ἐξαρτάω: "perf. pass. part., c. acc. rei, «having» a thing «hung on one, be furnished with»".
+    "e)carta/w": [(6, "having a thing hung on one, be furnished with")],
+    # σμάραγδος: "Lat. smaragdus, a precious stone of a green colour", the English inside the Latin element, as
+    # εἰ's "Lat. si, if".
+    "sma/ragdos": [(0, "a precious stone of a green colour")],
+    # συνέχω: "s. πόλιν «to keep» the state «together, keep» it «from falling to pieces»", "«to keep» the rowers
+    # «together, make» them «pull in time»".
+    "sune/xw": [(4, "to keep together, keep from falling to pieces"), (8, "to keep together, make pull in time")],
     # EXO 27. κόπτω: "k. τὴν χώραν «to cut down the trees in» it, «to lay» it «waste»".
     "ko/ptw": [(6, "to lay it waste")],
     "suskia/zw": [(0, "to shade quite over, throw a shade over, shade closely or thickly")],
@@ -3014,6 +3101,21 @@ def lexicon_senses(entries, lemma, code="", form=""):
 ANNOTATIONS = ("module", "corpus")
 
 
+def verse_key(ref):
+    """A verse's number from `28:29` or `EXO 28:29`, as an int — or, for a verse Rahlfs
+    prints with a letter after its number (Exod 28:29a, after 28:29), the number and the
+    letter, `29a`."""
+    number = ref.rsplit(":", 1)[1]
+    return int(number) if number.isdigit() else number
+
+
+def verse_order(key):
+    """Sorts verse keys as the page does: 29, 29a, 30."""
+    number = str(key)
+    digits = number.rstrip("abcdefghijklmnopqrstuvwxyz")
+    return int(digits), number[len(digits):]
+
+
 def parse_morph(path):
     """A morphology file as {verse: [(form, lemma, pos, code, notes)]}.
 
@@ -3036,7 +3138,7 @@ def parse_morph(path):
             kind = text.split(None, 1)[0] if text else ""
             notes[kind if kind in ANNOTATIONS else "?"] = text
         ref, pos, code, form, lemma = cols
-        out.setdefault(int(ref.split(":")[1]), []).append((form, lemma, pos, code, notes))
+        out.setdefault(verse_key(ref), []).append((form, lemma, pos, code, notes))
     return out
 
 
@@ -3111,7 +3213,7 @@ def build(book, chapter, entries):
 
     out = []
     for verse in verses:
-        number = int(verse["ref"].rsplit(":", 1)[1])
+        number = verse_key(verse["ref"])
         ours = PUNCT.sub("", verse["greek"]).split()
         theirs = tokens.get(number, [])
         if len(ours) != len(theirs) or not all(same(t[0], o) for t, o in zip(theirs, ours)):

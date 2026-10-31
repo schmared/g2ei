@@ -35,20 +35,20 @@ def diff(first, second):
     b = words.parse_morph(pathlib.Path(second))
     out = []
     for label, morph in (("first", a), ("second", b)):
-        for verse, lines in sorted(morph.items()):
+        for verse, lines in sorted(morph.items(), key=lambda kv: words.verse_order(kv[0])):
             for i, (form, lemma, pos, code, _) in enumerate(lines, 1):
                 for problem in validate.shape_problems(pos, code, lemma):
-                    out.append("verse %d word %d (%s), %s file: %s"
+                    out.append("verse %s word %d (%s), %s file: %s"
                                % (verse, i, form, label, problem))
-    for verse in sorted(set(a) | set(b)):
+    for verse in sorted(set(a) | set(b), key=words.verse_order):
         x, y = a.get(verse, []), b.get(verse, [])
         if len(x) != len(y):
-            out.append("verse %d: %d words in the first, %d in the second"
+            out.append("verse %s: %d words in the first, %d in the second"
                        % (verse, len(x), len(y)))
             continue
         for i, (p, q) in enumerate(zip(x, y), 1):
             if validate.corpus_key(p[0]) != validate.corpus_key(q[0]):
-                out.append("verse %d word %d: the files disagree on the word itself, %s / %s"
+                out.append("verse %s word %d: the files disagree on the word itself, %s / %s"
                            % (verse, i, p[0], q[0]))
                 continue
             what = []
@@ -59,7 +59,7 @@ def diff(first, second):
             if not validate.codes_agree(p[3], q[3]):
                 what.append("parse %s / %s" % (p[3], q[3]))
             if what:
-                out.append("verse %d word %d (%s): %s" % (verse, i, p[0], "; ".join(what)))
+                out.append("verse %s word %d (%s): %s" % (verse, i, p[0], "; ".join(what)))
     return out
 
 

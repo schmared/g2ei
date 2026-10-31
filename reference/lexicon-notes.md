@@ -681,7 +681,7 @@ the same ground as `the sixth` and `the seventh`: one sense each, so no range to
 | πύργος | `of the tower` | `of the tower, of the city walls with towers, of the movable tower for storming, of the tower of defence, of the highest part of any building, of the troops drawn up in close order and the column` | 35:16 |
 | σπένδω | `poured a drink-offering` | `poured a drink-offering, made a drink-offering, poured` | 35:14 |
 | σπονδή | `a drink-offering` | `a drink-offering, a solemn treaty, a truce, the treaty itself` | 35:14 |
-| στολή | `the equipments` | `the equipments and armaments, the apparel and raiment, the robes` | 35:2 |
+| στολή | `the equipments` | `the equipments and armaments, the equipment and raiment and apparel, the pieces of dress and garments and robes` | 35:2 |
 | συναγωγή | `bringings together` | `bringings together and unitings, places of assembly and synagogues, drawings together and contractings, formings in column, pursings up, wrinklings, collections, conclusions and inferences` | 35:11 |
 | τερέμινθος | `the terebinth` | `the terebinth, the turpentine tree` | 35:4 |
 | τοκετός | `in birth` | `within, inside of, and by means of birth, delivery` | 35:16 |
@@ -8180,3 +8180,63 @@ text uses. Chains already in the corpus (Genesis) were read from it and re-infle
   burn, …`; λύχνος `a portable light and lamp`; ὕψος `height, top and summit and crown`.
 - One translation each, plain text: θυσιαστήριον, κρεάγρα, πυρεῖον (*the piece of wood*, its plural's gloss in the
   singular), κλίτος (*clime*, as at 26:18), λίψ (*SW. wind*), ἔλαιον, κόκκινος, περιχαλκόω, the numerals.
+
+### Words new in EXO 28
+
+- **A lettered verse**: Rahlfs prints 28:29a after 28:29, for what the Hebrew's 23–28 give at length; the module keeps
+  it inside 29, after `<br/><i>[a]</i>`. It is a verse of its own here, `EXO 28:29a`: words.py's `verse_key` reads
+  `29a` beside the integers, `verse_order` sorts 29, 29a, 30, and validate.py's `lettered` splits the module's verse
+  at the marker.
+- **From LSJ** (not in Middle Liddell): γλύμμα `engraved figure and signet, inscription`; διανήθω *spin out*, plain;
+  κίδαρις `Persian head-dress, turban of Jewish high priest, an Arcadian dance`; καθυφαίνω `you will interweave and
+  weave in`, the passive's *to be inwoven* left out; κατάλιθος *set with precious stones* and τετράστιχος *in four
+  rows or courses*, plain; κοσυμβωτός `tasselled and fringed`; κροσσωτός `tasselled and fringed, stepped`; κροσσοί
+  `tassels and fringes, lappets`; κόσυμβος `the fringes, the hair-nets`; λιγύριον *a precious stone*, LSJ's
+  description, which marks no translation (Q25); λιθουργικός *of or for a lithourgos (λιθουργός)*, plain, its
+  genitive `of of or for a lithourgos` in validate.py's GLOSS_LEADS; παρωμίς *shoulderstrap*, περιστήθιον
+  *breastband*, χρυσόλιθος *topaz*, ἀχάτης *agate*, ἁλυσιδωτός *wrought in chain fashion*, περικύκλῳ *round about*,
+  plain; περιστόμιον `the mouth of a vessel, the mouth-band, the region of the epiglottis, the collar, the edge`;
+  ἀσπιδίσκη `bosses and disks, small shields, constellations`; ἐκτύπωμα `figure in relief, reflection`; ὀνύχιον
+  `small claw, trotters, cloves, onyx`; ᾤα `sheepskin, garment of this material, drawers, apron, border, fringe of a
+  garment`; ῥοΐσκος `small pomegranates, knobs or tassels shaped like a pomegranate`; βηρύλλιον, "Dim." inside
+  βήρυλλος, `gem of sea-green colour and beryl` (Q20).
+- **Filed under another word** (`SPELLING`): λινοῦς under λίνεος, `of flax and flaxen and linen`; ἄνθινος under
+  ἀνθινός, `like flowers and blooming and fresh, bright-coloured`; τοπάζιον under τόπαζος, which LSJ files it under,
+  *topaz*, plain.
+- **Inside the Latin** (`MARKUP_LOST`): σμάραγδος, "Lat. smaragdus, a precious stone of a green colour", the English
+  in the Latin element as εἰ's *if* is: `a precious stone of a green colour, emerald, malachite`.
+- **Cut translations restored**: ἐξαρτάω *having a thing hung on one, be furnished with*; συνέχω *to keep together,
+  keep from falling to pieces* and *to keep together, make pull in time*.
+- **Form** (`FORM_SENSES`): αἴσθησις's and τέχνη's singular leave out the plural's; ἐπάγω's middle the active's;
+  χρίω's active the middle's and the passive's.
+- **Pieces set aside** (`NOT_SENSES`): αἴσθησις's phrases; ζώνη's στρόφιον, examples' repeats and girdle-money;
+  ποίησις's *(action)*, πρᾶξις's; τέχνη's phrases; λογεῖον's *part* and *speakers*, the description's, so that it
+  is one translation, *a speaking-place*, plain; ῥυθμός's Virgil; σπιθαμή's *inches*; χρώς's phrases with ἐν; μίτρα's
+  *beneath* and *over*; μέτωπον's *line*; πλέκω's, περικαλύπτω's, συμπλέκω's, εἴσειμι's, συνυφαίνω's,
+  λειτουργέω's, χρίω's and ἐπάγω's examples and their pieces.
+- **Legacy chains brought to their cards**: γένεσις's plural had split the run *origin, source, productive cause*
+  and dropped *kind and family* and *generation and age*, which the singular keeps (GEN 6, 10, 11, 25, 36, 37,
+  EXO 6); στολή's plural had dropped *equipment* and *pieces of dress and garments* (GEN 35:2, 45:22);
+  σοφός had cut the run *cleverly devised, wise* (GEN 41:8).
+- **Morphology**: the second pass was right on four: αὐτοῦ at 28:8 neuter, the woven work; μέσον at 28:32 nominative,
+  the predicate of ἔσται; κύκλῳ with a genitive the preposition; ἄνθινον neuter, a noun. ὑάκινθος is feminine at 28:5
+  and 28:37, by its article and its participle, and stays masculine where nothing marks it (Q22). περισκελής reads
+  Middle Liddell's one entry, the word from σκέλλω, though LSJ's second, from σκέλος, is the LXX's *drawers* (Q23).
+- New chains: προσάγω's middle imperative `bring, draw to yourself and attach to yourself and bring over to your
+  side, …`; στολή `an equipment` and its plural; ἅγιος `devoted to the gods and sacred and holy, holy and pure`, with
+  the article; δόξα's anarthrous `notion, …`; σοφός's dative plural; ἐμπίπλημι `I filled quite full`; αἴσθησις `of
+  perception by the senses, …`; χιτών; ζώνη `a belt and girdle, …`, `belts and girdles, …`; συνέχω's active
+  participle; ἐξαρτάω's perfect passive participle; ὕφασμα `woven robe and web`; ποίησις `the making and fabrication
+  and creation and production, …`; γλύφω `you will carve and cut out with a knife, …`; τέχνη `of art and skill and
+  craft in work and cunning of hand, …`; σφραγίς `of a seal and signet and seal-ring, …`; ἀναλαμβάνω's future; ἄνθος
+  with ἐν; πλοκή; πλέκω's perfect participle with the article; ἐμπρόσθιος `of the fore and front`; κρίσις's plural;
+  ῥυθμός `the measured motion and time and rhythm, …`; σπιθαμή; στίχος `the row and file, the line, the verse`;
+  σάρδιον, ἄνθραξ, σάπφειρος, ἀμέθυστος (the noun's range); περικαλύπτω, συνδέω, συμπλέκω, συνυφαίνω perfect
+  participles; εἴσειμι and ἔξειμι datives; δήλωσις; φέρω's future; ἔχω; ῥήγνυμι's aorist passive subjunctive; ἐξανθέω;
+  ῥόα; κώδων; λειτουργέω with ἐν and alone; πέταλον; ἐκτυπόω; ἁγίασμα `holy place and sanctuary, holiness`; μίτρα;
+  μέτωπον; ἁμάρτημα's plural; ἁγιάζω's subjunctive; δόμα; κόσυμβος; κίδαρις's plural; ἐνδύω; χρίω; περισκελής;
+  καλύπτω's infinitive; ἀσχημοσύνη's anarthrous; χρώς; ὀσφύς's anarthrous; προσπορεύομαι's subjunctive; ἐπάγω's
+  middle `will procure, …, will bring upon themselves, …`.
+- One translation each, plain text: ἱερατεύω, διαγλύφω, ἔναντι, ὑποδύτης, ὑακίνθινος, λῶμα, δεκτός, ἴασπις, λογεῖον,
+  ὦμος (*the shoulder with the upper arm*, as at its earlier occurrences), κόκκινος, ποικιλτής, ὑφάντης, and those from
+  LSJ above.

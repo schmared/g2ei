@@ -681,7 +681,7 @@ def unit_cards(book, chapter, verses):
         _ENTRIES.append(words.load_middle_liddell())
     tokens = words.nt_tokens(book, chapter) if book in words.NT else words.lxx_tokens(book, chapter)
     for verse in verses:
-        number = int(verse["ref"].rsplit(":", 1)[1])
+        number = words.verse_key(verse["ref"])
         theirs = (tokens or {}).get(number, [])
         nth = collections.Counter()
         for head, chain, field in units(verse["reading"]):
@@ -1193,8 +1193,9 @@ DOUBLED = re.compile(r"(?<![\w\-|\[])(of|to) (?:\[\[(?!name:))?\1 (?=the |\w)")
 PLAIN_LEADS = ("in the presence ", "hearken ")
 # A gloss that opens with the word a case marker uses: εὐώνυμος is *of good name* and *of good
 # omen*, and its genitive marks the case before the gloss's own *of* — `of of good name` (EXO 14:22);
-# πένης, as an adjective, is *of a poor man*, and its genitive reads `of of a poor man` (EXO 23:6).
-GLOSS_LEADS = ("of of good name", "of of good omen", "of of a poor man")
+# πένης, as an adjective, is *of a poor man*, and its genitive reads `of of a poor man` (EXO 23:6);
+# λιθουργικός is *of or for a λιθουργός*, and its genitive `of of or for a lithourgos` (EXO 28:11).
+GLOSS_LEADS = ("of of good name", "of of good omen", "of of a poor man", "of of or for a lithourgos")
 # What stands in a reading, in order: a unit (its anchor), a name, or plain text.
 PIECES = re.compile(r"\[\[name:[^\]]+\]\]|\[\[(?!name:)([^|\]]+)\|[^|\]]+\|[^|\]]+\]\]|[^\[]+")
 THE_LEADS = re.compile(r"^(?:of |to )?the ")
@@ -1801,6 +1802,21 @@ def agrees(ours, theirs):
 MODULE_WORD = re.compile(r"(\S+?)<S>(\d+)</S>\S*?<m>([^<]+)</m>")
 
 
+def lettered(rows):
+    """{verse: text} with a verse Rahlfs numbers with a letter given its own key.
+
+    The module prints Exod 28:29a inside 28:29, after `<br/><i>[a]</i>`; the page prints it
+    as a verse of its own, and the data keeps it so, as `29a`.
+    """
+    out = {}
+    for verse, text in rows.items():
+        parts = re.split(r"<br/>\s*<i>\[([a-z])\]</i>", text)
+        out[verse] = parts[0]
+        for letter, part in zip(parts[1::2], parts[2::2]):
+            out["%d%s" % (verse, letter)] = part
+    return out
+
+
 def module_words(text):
     """One verse of the module as [(form, lexeme, parse code)].
 
@@ -1835,13 +1851,13 @@ def check_analysis(book, chapter, rep):
     try:
         (number,) = con.execute("select book_number from books where long_name = ?",
                                 (render.BOOKS[book]["name"],)).fetchone()
-        rows = dict(con.execute("select verse, text from verses where book_number = ? "
-                                "and chapter = ?", (number, chapter)).fetchall())
+        rows = lettered(dict(con.execute("select verse, text from verses where book_number = ? "
+                                         "and chapter = ?", (number, chapter)).fetchall()))
     finally:
         con.close()
     nfc = lambda s: unicodedata.normalize("NFC", s)
-    for verse, ours in sorted(morph.items()):
-        ref = "%s %d:%d" % (book, chapter, verse)
+    for verse, ours in sorted(morph.items(), key=lambda kv: words.verse_order(kv[0])):
+        ref = "%s %d:%s" % (book, chapter, verse)
         theirs = module_words(rows.get(verse, ""))
         if len(ours) != len(theirs):
             rep.fail("words", ref, "%d words analysed, %d in the module"
@@ -1940,8 +1956,8 @@ def check_morph_shape(book, chapter, rep):
     if morph is None:
         return
     before, total = rep.failed, 0
-    for verse, lines in sorted(morph.items()):
-        ref = "%s %d:%d" % (book, chapter, verse)
+    for verse, lines in sorted(morph.items(), key=lambda kv: words.verse_order(kv[0])):
+        ref = "%s %d:%s" % (book, chapter, verse)
         for i, (form, lemma, pos, code, notes) in enumerate(lines, 1):
             total += 1
             for problem in shape_problems(pos, code, lemma):
@@ -2002,8 +2018,9 @@ def corpus():
                        key=lambda p: int(p.name.split(".")[0]))
         for path in paths:
             chapter = int(path.name.split(".")[0])
-            for verse, lines in sorted(words.parse_morph(path).items()):
-                ref = "%s %d:%d" % (book, chapter, verse)
+            for verse, lines in sorted(words.parse_morph(path).items(),
+                                       key=lambda kv: words.verse_order(kv[0])):
+                ref = "%s %d:%s" % (book, chapter, verse)
                 for i, line in enumerate(lines, 1):
                     out.append(((book, chapter), ref, i) + tuple(line))
     return out
@@ -2147,11 +2164,11 @@ def lxx_source(name, chapter):
             "select book_number from books where long_name = ?", (name,)).fetchone()
         if row is None:
             return None, "%s is not in the Rahlfs module" % name
-        out = {}
-        for verse, text in con.execute(
-                "select verse, text from verses where book_number = ? and chapter = ?",
-                (row[0], chapter)):
-            out[verse] = re.sub(r"<S>.*?</S>|<m>.*?</m>", "", text).split()
+        rows = lettered(dict(con.execute(
+            "select verse, text from verses where book_number = ? and chapter = ?",
+            (row[0], chapter)).fetchall()))
+        out = {verse: re.sub(r"<S>.*?</S>|<m>.*?</m>", "", text).split()
+               for verse, text in rows.items()}
         return out, None
     finally:
         con.close()
@@ -2188,8 +2205,9 @@ def check_greek(book, chapter, verses, rep):
     if err:
         rep.skip("greek", err)
         return
+    import words
     for verse in verses:
-        number = int(verse["ref"].rsplit(":", 1)[1])
+        number = words.verse_key(verse["ref"])
         if number not in src:
             rep.fail("greek", verse["ref"], "not in the Rahlfs module")
             continue

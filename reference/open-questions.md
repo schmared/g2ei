@@ -416,3 +416,75 @@ moves *it*, words the gloss carries in another order.
 
 **Recommendation:** keep the English passive, as now, and say so in the note; or leave such senses out of a passive's
 chain, as the middle's are left out, since the Greek passive of κόπτω with the land as subject is the same sense.
+
+**Also:** EXO 28:14 καταμεμιγμένα, καταμίγνυμι's *to mix up, mingle the ingredients*: in the passive the ingredients
+are the subject, `having been mixed up and mingled`; EXO 28:20 περικεκαλυμμένα, περικαλύπτω's *to throw a veil* (of
+darkness over …): `having had a veil thrown over them`.
+
+## Q22. ὑάκινθος: masculine by the lexicon's heading, feminine where the text marks it
+
+**Where:** EXO 28:5 τὴν ὑάκινθον, 28:37 ὑακίνθου κεκλωσμένης; the corpus codes ὑάκινθος masculine everywhere else
+(25:4, 26:1, 26:31, 26:36, 27:16, 28:8, 28:15, 28:33), "as Middle Liddell heads ὑάκινθος first", against the module's
+feminine.
+
+**Now:** feminine at 28:5 and 28:37, where the article and the participle show it, with a `# corpus` note; masculine
+where nothing marks the gender.
+
+- now: 28:5 `ASF`, 28:8 `GSM`, 28:37 `GSF`
+- the other reading: feminine throughout Exodus, as the dye is wherever the text shows a gender
+
+**The difference:** a Greek reader hears the gender the text gives the word; where it gives none, the masculine is
+the project's choice, not the text's.
+
+**Recommendation:** code the dye feminine throughout, as 28:5 and 28:37 show it, and drop the module notes that
+defend the masculine.
+
+## Q23. περισκελής: Middle Liddell has the key but not the word
+
+**Where:** EXO 28:42 περισκελῆ λινᾶ. Middle Liddell's only περισκελής is the word from σκέλλω, *dry and hard all round,
+exceeding hard; obstinate, stubborn*. LSJ has two: (A) the same, and (B), from σκέλος, *round the leg*, "hence
+περισκελῆ, τά, drawers, LXX Ex. 28.38(42)".
+
+**Now:** the rule's letter: LSJ answers only where Middle Liddell has no entry under the word's own key, and it has
+one, so the reading is `dry and hard all round and exceeding hard, obstinate and stubborn`.
+
+- now: `[[dry and hard all round|dry and hard all round and exceeding hard, obstinate and stubborn|περισκελής]]`
+- the other reading: LSJ (B), `round the leg, drawers`
+
+**The difference:** ENTRY already picks one homograph over another inside Middle Liddell (νέω2, *to spin*); here
+Middle Liddell lacks the homograph, and the key leads to a different word.
+
+**Recommendation:** let LSJ answer for a homograph Middle Liddell lacks, recorded in a table of its own with the
+etymology that tells the two apart, and have validate.py accept the LSJ entry only through that table.
+
+## Q24. Legacy chains short of their cards
+
+**Where:** a chain written before its card was compared with it can drop senses no check sees: the ranges and chains
+checks compare units with one another, not with the card. This session brought καθαρός, χαλκός, κέρας (EXO 27) and
+γένεσις, στολή, σοφός (EXO 28) to their cards. `covx.py`, a scratch tool, lists for a chapter the card senses each
+unit's chain does not carry; on EXO 28 it also reports χιτών (*a man's frock*, *the upper leather*, *any coat, case*),
+σκηνή (*house*, *a wooden stage*, *the stage*) and ἐπάγω's active (*to induce*, *to bring in, supply*, *to
+intercalate*), whose chains are recorded decisions in this file.
+
+**Now:** those recorded chains are reused as they stand.
+
+**The difference:** a sense dropped by an early chain is dropped from every later unit that copies it.
+
+**Recommendation:** a check in validate.py that reads each unit against its card, with senses left out on purpose
+moved into NOT_SENSES or FORM_SENSES so that the check has nothing else to report; then one pass over the corpus.
+
+## Q25. An entry that marks no translation
+
+**Where:** EXO 28:19 λιγύριον. LSJ: "a precious stone (Dim. of λίγυρος)", no translation marked; λίγυρος "= λιγύριον".
+Middle Liddell has neither.
+
+**Now:** the description is the English: *a precious stone*, plain text.
+
+- now: `… the third a precious stone, agate and …`
+- the other reading: the Greek transliterated, `ligurion (λιγύριον)`, as a word the lexicon names by its Greek
+
+**The difference:** the description is LSJ's English but not marked as a translation; a transliteration adds nothing
+the lexicon does not print but tells the reader less.
+
+**Recommendation:** keep the description, as σμάραγδος's *a precious stone of a green colour* is kept from inside its
+Latin.

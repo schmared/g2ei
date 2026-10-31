@@ -673,6 +673,12 @@ Seventeen disagreements over 453 words, and the second pass was right on two: α
 seven times; ἐλαίων ἔλαιον's genitive plural, by its accent. The measures at 27:1 stay accusative, as at 25:10;
 ὑάκινθος masculine; φῶς under φάος; διὰ παντός neuter.
 
+### What it found in Exodus 28
+
+Fourteen disagreements over 802 words, and the second pass was right on four: αὐτοῦ at 28:8 neuter; μέσον at 28:32
+nominative; κύκλῳ with a genitive the preposition; ἄνθινον neuter. Ααρων at 28:3 stays dative, as at 28:2 and 28:4;
+ῥοΐσκος keeps LSJ's diaeresis; διὰ παντός neuter. Verse 28:29a is a verse of its own: number it `28:29a`.
+
 ## The brief
 
 Copy everything below the rule into a new agent. Replace `<BOOK NAME>`, `<CHAPTER>`,
