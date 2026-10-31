@@ -740,6 +740,11 @@ forms that cannot tell masculine from feminine. τρύβλιον and θυΐσκ�
 Three disagreements over 443 words, and the second pass was right on one: αὐτοῦ at 39:15 neuter, the altar's. φάος
 keeps the corpus's dictionary form, and Ααρων at 39:18 the dative that τῷ ἱερεῖ shows in the same phrase at 36:8.
 
+### What it found in Exodus 40
+
+Two disagreements over 530 words, and the second pass was right on both: τὸ θυσιαστήριον at 40:10 is the nominative
+subject of ἔσται.
+
 ## The brief
 
 Copy everything below the rule into a new agent. Replace `<BOOK NAME>`, `<CHAPTER>`,

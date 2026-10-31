@@ -8649,3 +8649,25 @@ text uses. Chains already in the corpus (Genesis) were read from it and re-infle
   numerals, the article printing with them, `the a hundred`.
 - **Morphology**: the second pass was right on αὐτοῦ at 39:15, neuter, the altar's. φάος keeps the corpus's lemma;
   Ααρων at 39:18 keeps the dative of 36:8.
+
+### Words new in EXO 40
+
+- **Verses Rahlfs does not print**: 40:7, 40:11, 40:28 and 40:30–32; the module agrees, and a note on the verse after
+  each gap says so.
+- **The date**: 40:17 adds ἐκπορευομένων αὐτῶν ἐξ Αἰγύπτου to the Hebrew's month and year; a `divergence` note.
+- **From LSJ** (not in Middle Liddell): διεμβάλλω *put in through*, plain; ἀπαρτία `to the household utensils and
+  movables and chattels, to the spoil, to the public auction`, LSJ's own glosses after its "= ἀποσκευή"; ἀναζυγή, "=
+  ἀνάζευξις", reading Middle Liddell's ἀνάζευξις, `to the marchings off and returns home`.
+- **By voice** (`FORM_SENSES`): προτίθημι's active leaves out the middle's senses and the passive's *was allowed*:
+  `you will place or set before and set out, you will throw, …, you will prefer`; the aorist the same.
+- **Set aside** (`NOT_SENSES`): ἐπισκιάζω's passive participle's example, *keeping a hidden watch*.
+- New chains: νουμηνία `to new moon and first of the month, to true new moon`, without the article; ἵστημι's future;
+  σκεπάζω's future; πρόθεσις's accusative with the article; θυμιάω's articular infinitive and aorist; κάρπωμα's
+  articular genitive plural; καταπέτασμα's anarthrous genitive; ἀλείφω's future `you will anoint with oil and oil,
+  …, you will stop up`; ἱερατεία's anarthrous genitive; δεύτερος's neuter dative; δόξα's anarthrous genitive;
+  δύναμαι's aorist passive singular; ἐπισκιάζω's imperfect `was throwing a shade upon and overshadowing`;
+  ἀναζεύγνυμι's imperfect `were yoking again, were moving off, were breaking up, were moving, were breaking up and
+  shifting one's quarters`.
+- One translation each, plain text: μήν *month*; ἔτος *year*; ἱερατεύω *to be a priest*.
+- **Morphology**: the second pass was right on τὸ θυσιαστήριον at 40:10, the nominative subject of ἔσται; κύκλῳ before
+  a genitive at 40:33 and ἔξωθεν at 40:22 are prepositions.

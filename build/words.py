@@ -616,6 +616,13 @@ LSJ = {
     # EXO 39. Not in Middle Liddell. LSJ (eng25) gives χώνευσις no gloss of its own, "= χωνεία", and LSJ's χωνεία
     # is "«melting and casting of metal»", so it reads that.
     "χώνευσις": ["melting and casting of metal"],
+    # EXO 40. Not in Middle Liddell. LSJ (eng4): διεμβάλλω, "«put in through»". LSJ (eng1): ἀπαρτία, "= ἀποσκευή",
+    # and then glosses of its own, "«household utensils, movables, chattels»", citing 40:36, "«spoil»", "«public
+    # auction»"; Hesychius's list after them is his. LSJ (eng1) gives ἀναζυγή no gloss of its own, "= ἀνάζευξις",
+    # citing 40:38, so it reads Middle Liddell's ἀνάζευξις, as πόρευσις reads πορεία's (GEN 33).
+    "διεμβάλλω": ["put in through"],
+    "ἀπαρτία": ["household utensils, movables, chattels", "spoil", "public auction"],
+    "ἀναζυγή": ["a marching off, return home"],
     "διασκευή": ["construction", "equipment", "furniture or vessels", "rhetorical elaboration", "set phrases",
                  "new edition or recension", "theatrical performance"],
     # EXO 12. None of these is in Middle Liddell. LSJ (eng3): γειώρας, "sojourner", "proselyte". LSJ
@@ -1751,6 +1758,8 @@ NOT_SENSES = {
     "e)panastre/fw": {"to turn back upon"},    # "to turn back upon one", cut, whole in MARKUP_LOST
     "r(h/gnumi": {"to break, break asunder", "in pieces, rend, shiver, shatter", "force one's", "breaking into speech",
                   "rumpere vocem", "having let loose"},  # "to break … or in pieces", cut, whole in MARKUP_LOST; a piece, examples', Virgil
+    # EXO 40
+    "e)piskia/zw": {"keeping a hidden watch"},  # the passive participle's example, ὄμμ' ἐπεσκιασμένη
     # EXO 39
     "difqe/ra": {"(an undressed hide)"},       # the entry's contrast with δέρρις
     "katakosme/w": {"was fitting"},            # an example's, "«was fitting» it on the string"
@@ -2041,7 +2050,11 @@ FORM_SENSES = {
         "to gird oneself, gird up one's loins", "to gird up one's loins, prepare for battle"})],
     "proti/qhmi": [("PIFAXY", "EP", NOT_SENSES["proti/qhmi"] | {
         "to have set before one", "to propose to oneself", "to put forth on one's own part, display, shew",
-        "to set before oneself", "to put in front"})],
+        "to set before oneself", "to put in front"}),
+                   # EXO 40: the active leaves out the middle's and the passive's "was allowed"
+                   ("PIFAXY", "A", NOT_SENSES["proti/qhmi"] | {
+        "to have set before one", "to propose to oneself", "to put forth on one's own part, display, shew",
+        "to set before oneself", "to put in front", "was allowed"})],
     # EXO 28. αἴσθησις's and τέχνη's singular leave out the plural's; ἐπάγω's middle the active's; χρίω's active the
     # middle's and the passive's.
     "ai)/sqhsis": [("-", "-", NOT_SENSES["ai)/sqhsis"] | {"the senses"}, None, "^.....S")],
