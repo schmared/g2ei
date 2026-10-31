@@ -638,6 +638,12 @@ Twelve disagreements over 687 words, and the second pass was right on most: the 
 stays the noun, as the corpus reads it (open question Q16), and δέον keeps Middle Liddell's headword. The
 second pass worked from a transcription that read αὐτῷ at 21:8 where Rahlfs prints αὑτῷ.
 
+### What it found in Exodus 22
+
+Nine disagreements over 548 words, and the second pass was right on eight: ὄνου masculine, ζῶντα nominative,
+αὐτοῦ neuter three times (the animal), πλήν the conjunction before a dative, and χήρα as A-, as GEN 38:11 has it.
+ὅσον after κατά stays accusative.
+
 ## The brief
 
 Copy everything below the rule into a new agent. Replace `<BOOK NAME>`, `<CHAPTER>`,

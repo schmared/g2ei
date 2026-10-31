@@ -765,7 +765,7 @@ the same ground as `the sixth` and `the seventh`: one sense each, so no range to
 | οἰκέω | `we will inhabit` | `we will inhabit, we will occupy, we will dwell and live, we will be settled` | 34:16 |
 | οἰκία | `in the buildings` | `within, inside of, and by means of the buildings, the houses, the dwellings, the households and domestic establishments, the households and inmates of the house, the houses and families from which one is descended` | 34:29 |
 | παρασιωπάω | `passed over in silence` | `passed over in silence` | 34:5 |
-| παρθένος | `of the maid` | `of the maid, of the maiden, of the virgin, of the girl` | 34:3 |
+| παρθένος | `of the maid` | `of the maid and maiden and virgin and girl` | 34:3 |
 | περιτέμνω | `cut themselves` | `cut themselves, clipped themselves round about, pruned themselves, cut themselves off, cut themselves off and hemmed themselves in all round, curtailed themselves of, cut themselves off and intercepted` | 34:24 |
 | περιτέμνω | `they have been cut` | `they have been cut and it stands so, they have been clipped round about, they have been pruned, they have been cut off, they have been cut off and hemmed in all round, they have been curtailed of, they have been cut off and intercepted` | 34:22 |
 | περιτέμνω | `to be cut` | `to be cut, to be clipped round about, to be pruned, to be cut off, to be cut off and hemmed in all round, to be curtailed of, to be cut off and intercepted` | 34:15, 34:17, 34:22 |
@@ -1113,7 +1113,7 @@ the same ground as `the sixth` and `the seventh`: one sense each, so no range to
 | τύμπανον | `of kettledrums` | `of kettledrums, of drum-sticks, of staffs and cudgels, of wheels of solid wood` | 31:27 |
 | φυλάσσω | `keep watch and ward for yourself` | `keep watch and ward for yourself and keep guard, watch and guard and keep and defend, watch for and lie in wait for, keep and maintain and cherish, observe` | 31:24, 31:29 |
 | φόβος | `of the flight` | `of the flight, of the panic fear, of the fear and terror, of the outward show of fear, of the object of terror` | 31:53 |
-| ἀδίκημα | `the wrong done` | `the wrong done, the wrong, the wrong done to one, that which is got by wrong and the ill-gotten goods` | 31:36 |
+| ἀδίκημα | `the wrong done` | `the wrong done and wrong, the wrong done to one, that which is got by wrong and the ill-gotten goods` | 31:36 |
 | ἀλείφω | `you anointed with oil` | `you anointed with oil and oiled, you prepared as if for gymnastics and stimulated, you plastered, you stopped up` | 31:13 |
 | ἀλλάσσω | `made other than it is` | `made other than it is and changed and altered, gave in exchange for and bartered, repaid and requited, gave up and left and quit, took one thing for another and assumed, interchanged and alternated` | 31:7 |
 | ἀλλότριος | `the belonging to another` | `the belonging to another, the another man's, the unlike one's own, the forced and unnatural, the foreign and strange, the hostile` | 31:15 |
@@ -1930,8 +1930,8 @@ the same ground as `the sixth` and `the seventh`: one sense each, so no range to
 | πίνω | `they drank` | `they drank, they drank of, they drank up` | 24:54 |
 | πίνω | `they may drink` | `they may drink, they may drink of, they may drink up` | 24:19 |
 | παρακαλέω | `was called to` | `was called to, was called to aid and called in and sent for and called on and invoked, was summoned, was invited, was called to and exhorted and cheered and encouraged, was excited and fomented, was exhorted, was demanded and required, was comforted and consoled` | 24:67 |
-| παρθένος | `maid` | `maid, maiden, virgin, girl` | 24:16 |
-| παρθένος | `the maid` | `the maid, the maiden, the virgin, the girl` | 24:14, 24:16, 24:43, 24:55 |
+| παρθένος | `maid` | `maid and maiden and virgin and girl` | 24:16 |
+| παρθένος | `the maid` | `the maid and maiden and virgin and girl` | 24:14, 24:16, 24:43, 24:55 |
 | παροικέω | `I dwell beside` | `I dwell beside, I dwell along the coast of, I live near, I dwell among, I lie near, I live in and sojourn` | 24:37 |
 | πατήρ | `to the father` | `to the father, to the grandfather` | 24:23 |
 | παύω | `they may take their rest` | `they may take their rest and rest and cease and have done, they may leave off from and rest and cease from, they may be at rest, they may leave off doing` | 24:14 |
@@ -5946,8 +5946,8 @@ text uses.
 - ὅταν — **headword** `whenever`; **chain** `whenever, until`. 38:9.
 - θανατόω — **headword** `put to death`; **chain** `put to death, mortified, put to death by
   sentence`. 38:10.
-- χήρα (A-, as MorphGNT codes it) — **headword** `bereft of a husband`; **chain** `bereft of a
-  husband, a widow, widowed, bereaved, torn from`. 38:11.
+- χήρα (A-, as MorphGNT codes it) — **headword** `bereft of a husband`; **chain** `bereft of a husband and a
+  widow`. 38:11.
 - πενθερός — **headword** `the father-in-law`; **chain** `the father-in-law, the parents-in-law, the
   connexion by marriage, the brother-in-law`. 38:13, 38:25.
 - περιαιρέω (middle) — **headword** `took off from herself`; the middle's senses, *took off her own,
@@ -7867,3 +7867,47 @@ text uses. Chains already in the corpus (Genesis) were read from it and re-infle
   (*mistress of the house*), καταδυναστεύω (*having exercised power over*), ἰατρεῖον (*the surgeries*), ἐκτυφλόω
   (*may make quite blind*), ὀδούς (*a tooth*), ταῦρος (*a bull*), καθότι (*in what manner*), ἐχθές, τρεῖς,
   τριάκοντα, πέντε, τέσσαρες.
+
+### Words new in EXO 22
+
+- **From LSJ** (not in Middle Liddell): προσεμπίμπρημι, under προσεμπίπρημι, *set on fire besides*, plain text;
+  φερνίζω, `will portion and endow`; ἀμνήστευτος, `unwooed and not sought in lawful wedlock`; ἀνταποθνήσκω, `will
+  die and be killed in requital`, *die or am killed in requital* whole; ἐκδανείζω, *lend out at interest*, plain
+  text; ἐνεχύρασμα, `pledge and thing pawned`.
+- **Filed inside another word** (`SPELLING`): κακῶς under κακός, as καλῶς under καλός: `ill, evil`, the adverb's
+  own translations (22:27).
+- **A first sense inside the Latin** (`MARKUP_LOST`): ὀρφανός, "Lat. orbus, orphan, without parents, fatherless".
+  Also καταβόσκω's *to feed flocks upon or in*, ἀπορρίπτω's *to shoot forth bold, keen words*, ἁλίσκομαι's *to be
+  caught or detected*.
+- **Form** (`FORM_SENSES`): ἐνεχυράζω's active leaves out the passive's and the middle's; πιπράσκω's passive its
+  own *to be sold*, which is the first sense in the passive, so πραθήτω is plain text, *let be sold*.
+- **Pieces set aside** (`NOT_SENSES`): τόκος (*compound interest*, a phrase's), ἀπορρίπτω, ἀνανεύω (the gloss of a
+  gesture), χήρα (χῆρος's senses, the masculine and the adjective formed from χήρα, and an example's), καταβόσκω,
+  ἐγκαλέω (a repeat cut by its object), ἁλίσκομαι.
+- **Runs joined**: χήρα at GEN 38:11 had split *bereft of a husband, a widow* and taken in χῆρος's *widowed,
+  bereaved* and a piece, *torn from*; it reads `bereft of a husband and a widow`. παρθένος at GEN 24 and 34 had
+  split *a maid, maiden, virgin, girl*; ἀδίκημα at GEN 31:36 *a wrong done, a wrong*.
+- **Morphology**: the second pass was right on six: ὄνου is masculine, any ass in a list (22:3); ζῶντα is
+  nominative, with τὸ κλέμμα; αὐτοῦ at 22:10, 13 and 14 is neuter, the animal; πλήν before a dative is the
+  conjunction (22:19); χήρα is A-, as at GEN 38:11. ὅσον after κατά stays accusative.
+- New chains: διόρυγμα `in the through-cut`; κλέπτης `the thief`; ἀνατέλλω `may make to rise up`; ὑπάρχω `may
+  begin`; κλέμμα `of the theft`, `the theft`; καταλαμβάνω `may be seized upon`; πρόβατον `of thing that walks
+  forward`; καταβόσκω `may feed flocks upon`, `to feed flocks upon`; ἀγρός `field`; ἀφίημι `may send forth`; κτῆνος
+  `the flock and herd`; βέλτιστος `the best`; ἅλων `of a threshing-floor`; ἐκκαίω `the one having burned out`;
+  κλέπτω `may be stolen`, `the one having stolen`; ὄμνυμι `will swear`; πονηρεύομαι `to have been evil`; ἀδίκημα `a
+  wrong done`; μόσχος `of a calf`, `the calf`; ὑποζύγιον `of a beast for the yoke`, `a beast for the yoke`; ἱμάτιον
+  `of outer garment`; ἐγκαλέω `of the one being called in`; ἔρχομαι `will come`; κρίσις `the separating`; ἁλίσκομαι
+  `the one having been taken`; συντρίβω `may be rubbed together`; αἰχμάλωτος `taken by the spear`; γινώσκω `may
+  learn to know`; ὅρκος `object by which one swears`; ἄγω `will lead`; αἰτέω `may ask`; μισθός `of the wages`;
+  ἀπατάω `may cheat`; παρθένος `a maid`, `of the maids`; κοιμάω `may be lulled`, `will be lulled`, `being lulled`;
+  φερνή `to that which is brought by the wife`, `the that which is brought by the wife`; ἀνανεύω `throwing the head
+  back`, `may throw the head back`; βούλομαι `may will`; φαρμακός `poisoners`; περιποιέω `you will keep`;
+  ἀποκτείνω `you will kill`; θεός `to gods`; προσήλυτος `ones that have arrived at`; κακόω `you will treat ill`,
+  `you may treat ill`; θλίβω `you may press`; χήρα `bereft of a husband` (plural); ὀρφανός `an orphan`, `orphan`;
+  κράζω `having croaked`; καταβοάω `may cry down`; εἰσακούω `I will hearken`; ὀργίζω `I will be made angry`; θυμός
+  `to soul`; πενιχρός `to the poor`; κατεπείγω `pressing down`; τόκος `a bringing forth`; ἐνεχυράζω `you may take a
+  pledge from`; περιβόλαιον `that which is thrown round`; ἀσχημοσύνη `of want of form`; ἐλεήμων `pitiful`;
+  κακολογέω `you will speak ill of`; κακῶς `ill`; ἀπαρχή `beginnings of a sacrifice`; ληνός `of a tub`; καθυστερέω
+  `you will come far behind`; κύων `to the dog`; ἀπορρίπτω `throw away`.
+- One translation each, plain text: ἀμπελών, γένημα, παρακαταθήκη, ἀπώλεια, θηριάλωτος, θυσιάζω, ὀλεθρεύω,
+  πρωτότοκος, ὄγδοος, ἑπτά.

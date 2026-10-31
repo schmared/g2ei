@@ -408,6 +408,18 @@ LSJ = {
     "λατομέω": ["quarry", "hew it out"],
     "προσαποθνήσκω": ["die besides or with"],
     "ἐξεικονίζω": ["explain by a simile", "to be fully shapen or formed", "to be exactly like"],
+    # EXO 22. None of these is in Middle Liddell. LSJ (eng17): προσεμπίμπρημι, under προσεμπίπρημι, "set on fire
+    # besides", citing Ex 22:6, the passive's "become still further inflamed" left to the passive. LSJ (eng24):
+    # φερνίζω, "portion, endow", citing Ex 22:16. LSJ (eng1): ἀμνήστευτος, "unwooed; not sought in lawful
+    # wedlock", the neuter plural's "without honourable wooing" left to the adverb; ἀνταποθνήσκω, "die" or "am
+    # killed in requital", whole. LSJ (eng5): ἐκδανείζω, "lend out at interest", the middle's "borrow" left to the
+    # middle; ἐνεχύρασμα, "pledge, thing pawned", citing Ex 22:26(25).
+    "προσεμπίμπρημι": ["set on fire besides"],
+    "φερνίζω": ["portion, endow"],
+    "ἀμνήστευτος": ["unwooed; not sought in lawful wedlock"],
+    "ἀνταποθνήσκω": ["die or am killed in requital"],
+    "ἐκδανείζω": ["lend out at interest"],
+    "ἐνεχύρασμα": ["pledge, thing pawned"],
     # EXO 12. None of these is in Middle Liddell. LSJ (eng3): γειώρας, "sojourner", "proselyte". LSJ
     # (eng4): δέσμη, "package, bundle", "a measure in Egypt", "in Medicine, handful"; Rahlfs prints the
     # accusative δεσμήν, the module δέσμην. LSJ (eng5): ἐνδόσθια, "= ἐντόσθια", a pointer to ἐντόσθιος,
@@ -1525,6 +1537,14 @@ NOT_SENSES = {
     "lu/tron": {"as ransom", "ransom", "for"},  # examples' and a piece
     "gnwri/zw": {"to make known"},             # a repeat
     "a)ci/wma": {"honour"},                    # an example's, γάμων ἀξ., a repeat of the first sense
+    # EXO 22
+    "to/kos": {"compound interest"},          # a phrase's, τόκοι τόκων
+    "a)porri/ptw": {"outcasts", "to shoot forth bold, keen"},  # the participle's as a noun; cut from its "words", whole in MARKUP_LOST
+    "a)naneu/w": {"shaking the head)"},       # the gloss of a gesture: "which we express by shaking the head"
+    "xh/ra": {"widow", "widower", "widow)", "widowed, bereaved", "torn from"},  # an example's, a repeat; χῆρος's, the masculine and the adjective formed from χήρα, and its example's piece
+    "katabo/skw": {"to feed flocks upon", "in", "the shepherd"},  # cut, whole in MARKUP_LOST; an example's participle
+    "e)gkale/w": {"to bring a charge", "against one"},  # a repeat of the sense before, cut by its object
+    "a(li/skomai": {"were seized and taken", "to be caught", "detected"},  # an example's; cut, whole in MARKUP_LOST
     "de/on": {"things needful", "proper, advantages", "duties", "in good time", "for a needful purpose", "secret service"},  # τὰ δέοντα cut, whole in MARKUP_LOST; phrases'
     "o)fei/lw": {"debemur morti)", "it is", "destiny", "(ought", "owe)", "O that thou hadst", "O that I had",
                  "would thou hadst never", "would"},  # Horace; examples' translations; the note on "ought"
@@ -1652,6 +1672,10 @@ _APOLLUMI_ACT = {"to destroy utterly, kill, slay", "to destroy, demolish, waste"
 _APOLLUMI_MID = {"to perish utterly, die", "to be undone", "you are done for, lost, ruined",
                  "to be lost, slip away, vanish"}
 FORM_SENSES = {
+    # EXO 22. ἐνεχυράζω's active leaves out the passive's and the middle's; πιπράσκω's passive its own "to be
+    # sold", which is the first sense in the passive.
+    "pipra/skw": [("PIFAXY", "P", NOT_SENSES["pipra/skw"] | {"to be sold"})],
+    "e)nexura/zw": [("PIFAXY", "A", {"to have one's", "seized for debt", "to have security given one, take it for oneself"})],
     # EXO 21. ἀποστερέω's active leaves out the passive's; δίκη's other cases the accusative's "δίκην as adv.,
     # after the manner of".
     "a)postere/w": [("PIFAXY", "A", NOT_SENSES["a)postere/w"] | {"to be robbed", "deprived of"})],
@@ -2141,6 +2165,7 @@ SPELLING = {
     "kri/ma": "kri=ma",               # κρίμα, the entry headed with the circumflex (EXO 18:22)
     "e)gxeiri/dion": "e)gxeiri/dios",  # "as Subst., ἐγχειρίδιον … a hand-knife, dagger", inside the adjective (EXO 20:25)
     "dou/lh": "dou=los",              # "Hom. has only the fem. δούλη, a bondwoman", inside δοῦλος (EXO 21:7)
+    "kakw=s": "kako/s",               # the adverb, filed inside the adjective's entry, as καλῶς (EXO 22:27)
     "di/yos": "di/ya",                # δίψος, "= δίψα", and nothing more (EXO 17:3)
     "ko/rion": "kori/annon",          # LSJ's κόριον (B), "shortd. for κορίαννον"; Middle Liddell's κόριον is the diminutive of κόρη (EXO 16:14)
     "sa/bbaton": "*sa/bbaton",        # σάββατον, keyed with the capital (EXO 16:23)
@@ -2487,6 +2512,13 @@ MARKUP_LOST = {
     "a)qete/w": [(2, "refuse his request")],
     "zhmio/w": [(2, "will suffer great losses"), (6, "to be fined or amerced in")],
     "pugmh/": [(4, "the distance from the elbow to the knuckles")],  # the <tr> runs on into the equation "= 18 δάκτυλοι"
+    # EXO 22. ἀπορρίπτω: "of words, «to shoot forth bold, keen» words"; καταβόσκω: "«to feed flocks upon» or «in» a
+    # place"; ἁλίσκομαι: "«to be caught» or «detected» doing a thing".
+    "a)porri/ptw": [(5, "to shoot forth bold, keen words")],
+    "katabo/skw": [(0, "to feed flocks upon or in")],
+    "a(li/skomai": [(6, "to be caught or detected")],
+    # ὀρφανός: "Lat. orbus, orphan, without parents, fatherless" — the first sense, all inside the Latin element.
+    "o)rfano/s": [(0, "orphan, without parents, fatherless")],
     "de/on": [(1, "things needful or proper, advantages or duties")],  # τὰ δέοντα «things needful» or «proper, advantages» or «duties»
     "pleona/zw": [(2, "to go beyond bounds, take or claim too much")],
     "pikrai/nw": [(0, "to make sharp or bitter")],
