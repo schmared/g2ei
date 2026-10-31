@@ -507,3 +507,22 @@ in the chain, because that one is a sense by itself.
 
 **Recommendation:** keep `of or from the gods`; where a first translation is a preposition or a particle that only an
 *or* completes, read the *or* as the printed entry does.
+
+## Q27. A gloss given in the plural, read in a singular form
+
+**Where:** EXO 32:22 ὅρμημα and 32:16 γραφή. Middle Liddell gives ὅρμημα's *longings* and *struggles* from Homer's
+plural ὁρμήματα, and γραφή's *statements* from an example in the plural, ψευδεῖς γραφαί.
+
+**Now:** the singular form reads them in the singular, `the stir and impulse, the longing, the struggle`, as a plural
+form reads a singular gloss in the plural (στολή, γένεσις). Where the entry says a sense belongs to the plural, "in pl."
+or the plural named as the headword of a sense — τάλαντον's *scales*, τροπή's *tropics, solstices*, οἰκέτης's
+*household* — the singular leaves it out (`FORM_SENSES`).
+
+- now: `the stir and impulse, the longing, the struggle`
+- the other reading: `the stir and impulse`, the plural example's glosses left to a plural form
+
+**The difference:** a gloss that came from a plural example is the word's sense in that example, and the example
+happens to be plural; a sense the entry assigns to the plural is the plural's own.
+
+**Recommendation:** keep the distinction: inflect a gloss whose plural is only the example's, and leave out a sense
+the entry gives to the plural.

@@ -1547,7 +1547,7 @@ the same ground as `the sixth` and `the seventh`: one sense each, so no range to
 | μέν | `on the one hand` | `on the one hand and other hand, as well as and while, whereas, indeed, for my part, surely, accordingly and so, at all events and at any rate, so then, nay rather, nay, yea rather, yet and but however and nevertheless, of course and certainly, only` | 27:22 |
 | μεταπέμπω | `I will send after` | `I will send after, I will send for and summon` | 27:45 |
 | νέος | `younger` | `younger, newer, fresher, unexpected and strange` | 27:15, 27:42 |
-| οἰκέτης | `house-slaves` | `house-slaves, household servants, menials` | 27:37 |
+| οἰκέτης | `house-slaves` | `house-slaves and menials, one's household and the women and children`, brought to its card in EXO 32 | 27:37 |
 | οἰκέω | `inhabit` | `inhabit, occupy, dwell and live, be settled` | 27:44 |
 | οἶνος | `with wine` | `with wine` | 27:37 |
 | πέμπω | `having sent` | `having sent and despatched, having conveyed and carried, having conducted, having sent forth` | 27:42 |
@@ -2698,7 +2698,7 @@ the same ground as `the sixth` and `the seventh`: one sense each, so no range to
 | γενεά | `the races` | `the races and stocks and families, the breeds, the tribes and nations, the races and generations, the offspring, the birth-places, the ages and times of life, the times of birth` | 17:9, 17:10, 17:12 |
 | γεννάω | `will beget` | `will beget and engender, will bring forth, will produce` | 17:20 |
 | διάνοια, with ἐν | `in the thought` | `within, inside of, and by means of the thought, the intention and purpose, the notion and opinion, the intelligence and understanding, the meaning` | 17:17 |
-| διασκεδάννυμι | `scattered abroad` | `scattered abroad, scattered to the winds, dispersed, disbanded` | 17:14 |
+| διασκεδάννυμι | `scattered abroad` | `scattered abroad and scattered to the winds and dispersed, disbanded` | 17:14 |
 | διατηρέω | `you will watch closely` | `you will watch closely and observe, you will keep faithfully and maintain, you will keep` | 17:9, 17:10 |
 | εὐαρεστέω | `be well pleasing` | `be well pleasing, seem good and be resolved, be well pleased and satisfied` | 17:1 |
 | εὐλογέω | `I spoke well of` | `I spoke well of, I praised, I honoured, I blessed` | 17:20 |
@@ -8358,3 +8358,47 @@ text uses. Chains already in the corpus (Genesis) were read from it and re-infle
   *intelligent* once its *in* is set aside.
 - **Morphology**: the second pass was right twice: Ωρ after τὸν genitive, the one of Hur, as Μαμβρη at GEN 13:18; ἓξ
   at 31:17 dative, ἐν ἓξ ἡμέραις. Σινα after τῷ ὄρει keeps the case of its article, as the corpus codes it.
+
+### Words new in EXO 32
+
+- **No 32:9**: Rahlfs prints none, and the verse numbers run from 8 to 10; the module agrees. The note on 32:10 says
+  the Hebrew's verse is not in this text.
+- **From LSJ** (not in Middle Liddell): χωνευτός `formed of cast metal and molten`; πολυπληθύνω *multiply*, plain.
+- **Restored whole** (`MARKUP_LOST`): ἱλάσκομαι *to make him propitious to one, conciliate him*, its aorist passive
+  `was appeased, was made propitious to one and conciliated, was expiated, was gracious`; τροπή *a change by figures or
+  tropes* and *the turning of the enemy, putting him to flight, a rout*; ἀνακάμπτω *to bend one's steps back*, `bend
+  back, bend your steps back, return`; εἶμι's *I shall go, shall come* and *to come or go*, which Perseus runs together.
+- **By form** (`FORM_SENSES`): συνίστημι's second aorist συνέστη intransitive, `stood together, formed in order of
+  battle, met in fight and was engaged with, …, was contracted`; παραβαίνω's and διασκεδάννυμι's active without the
+  passive's; τροπή's singular without the plural's tropics and solstices; εἶμι's imperative `let him go, let him come
+  or go, let him go across, let him go through, let him fly, let him live, let it pass and well then`, ἴτω's own idiom
+  kept and the indicative's future use left out, its other forms the reverse; οἰκέτης's singular without the plural's
+  household.
+- **ἀνίστημι**: ἀνέστησαν, both aorists' third plural, is left to the intransitive, as ἵστημι's ἔστησαν is: `stood up,
+  rose, rose to fight against, rose to go and set out` (32:6).
+- New chains: γραφίς `the stile for writing, the needle for embroidering, the embroidery`; τάχος `the swiftness and
+  speed and fleetness and velocity, the quickness, the hastiness`; παραβαίνω `went by the side of, passed beside or
+  beyond and overstepped and transgressed, passed over and omitted, escaped, came forward, stepped forward`;
+  ἐξαναλίσκω `to spend entirely, to exhaust, to destroy utterly`; γραφή `representation by means of lines, drawing or
+  delineation, painting, a drawing and painting and picture, writing and the art of writing, a writing, a letter, a
+  statement, an indictment, a criminal prosecution`, with the article and without; κολάπτω `having been pecked at and
+  standing so, having been struck, having been carved or chiselled`; τροπή `of a turn and turning, of a turn and
+  change, of a change by figures or tropes, of the turning of the enemy and putting him to flight and a rout`; ὅρμημα
+  `the stir and impulse, the longing, the struggle` (Q27); ἐπίχαρμα `an object of malignant joy, malignant joy`;
+  συνέρχομαι `went together or in company, came together and assembled, had dealings or intercourse with, …`; νυνί
+  `now and at this moment`; χρυσίον's plural `pieces of gold, gold, gold coin and money`; ἐγγύς's superlative ἔγγιστα,
+  `most hard by and near to, …`, as φρόνιμος's at GEN 3:1; and the forms of χρονίζω, περιαιρέω's middle, δέχομαι,
+  προσκυνέω's and θύω's perfects, δέομαι's aorist, θυμόω's present, παύω's imperative, μιμνήσκομαι's participle,
+  ὄμνυμι, κατέχω's future, καταγράφω's perfect passive, κράζω's and ἐξάρχω's participles, ἐγγίζω's imperfect, ὀργίζω's
+  participle, κατακαίω's aorist, διασκεδάννυμι's perfect passive, τίθημι's middle imperative, διέρχομαι's imperative,
+  πληρόω's second person, δίδωμι's aorist passive infinitive, ἁμαρτάνω's perfects, ἀφίημι's present, ἐξαλείφω's
+  imperative, γράφω's second person, ἐπισκέπτομαι's subjunctive, προπορεύομαι's future and present.
+- One translation each, plain text: ἐνώτιον *ear-ring*; θυγάτηρ; ἐπαύριον; ἀνομέω *acted lawlessly*; ἔναντι;
+  βραχίων *the arm*; ἄστρον *the stars*; οἶνος; καταλέω *ground down*; τρισχίλιοι; σήμερον; ἐξιλάσκομαι; ἐνώπιον *face
+  to face*.
+- **Legacy chains brought to their cards**: διασκεδάννυμι's run *to scatter abroad, scatter to the winds, disperse*
+  is one item, `scattered abroad and scattered to the winds and dispersed, disbanded` (GEN 17:14); οἰκέτης's plural
+  had read `house-slaves, household servants, menials`, a word the lexicon does not give and its run split, and now
+  reads `house-slaves and menials, one's household and the women and children` (GEN 27:37, GEN 44, GEN 50:18, EXO 5).
+- **Morphology**: two disagreements over 809 words, both θυμόω's lemma, which keeps Middle Liddell's spelling. ἐπὶ
+  Ααρων at 32:1 is accusative, against the module's dative.

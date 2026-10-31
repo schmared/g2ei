@@ -562,6 +562,10 @@ LSJ = {
     # a topic", "«set phrases»", "«new edition» or «recension» of a work", "«theatrical performance»"; its V, "=
     # ἀνασκευή", is a pointer and not a translation, and is left out.
     "νηστός": ["spun"],
+    # EXO 32. Not in Middle Liddell. LSJ (eng25): χωνευτός, "«formed of cast metal, molten»", one translation.
+    # LSJ (eng17): πολυπληθύνω, "«multiply»", citing 32:13, one translation.
+    "χωνευτός": ["formed of cast metal, molten"],
+    "πολυπληθύνω": ["multiply"],
     "διασκευή": ["construction", "equipment", "furniture or vessels", "rhetorical elaboration", "set phrases",
                  "new edition or recension", "theatrical performance"],
     # EXO 12. None of these is in Middle Liddell. LSJ (eng3): γειώρας, "sojourner", "proselyte". LSJ
@@ -1697,6 +1701,17 @@ NOT_SENSES = {
     "e)panastre/fw": {"to turn back upon"},    # "to turn back upon one", cut, whole in MARKUP_LOST
     "r(h/gnumi": {"to break, break asunder", "in pieces, rend, shiver, shatter", "force one's", "breaking into speech",
                   "rumpere vocem", "having let loose"},  # "to break … or in pieces", cut, whole in MARKUP_LOST; a piece, examples', Virgil
+    # EXO 32
+    "i(la/skomai": {"to make", "propitious to one, conciliate"},  # "«to make» him «propitious to one, conciliate» him", cut, whole in MARKUP_LOST
+    "troph/": {"bruma", "appears to turn his course", "a change", "by figures", "tropes",  # Latin; an explanation's; cut, whole in MARKUP_LOST
+               "the turning of the enemy, putting", "to flight, a rout", "flight", "in the rout"},  # cut, whole in MARKUP_LOST; examples'
+    "a)naka/mptw": {"to bend one's steps"},    # "«to bend one's steps» back", cut, whole in MARKUP_LOST
+    "ei)=mi": {"I shall go, shall come. to come", "go", "goes", "go and"},  # two translations run together, whole in MARKUP_LOST; examples' pieces
+    "ta/xos": {"for speed"},                   # an example's, ὡς τάχεος εἶχεν
+    "grafh/": {"in a picture"},                # an example's, ὅσον γραφῇ
+    "o(/rmhma": {"for"},                       # the example's "«longings» … «for» Helen", a piece
+    "sune/rxomai": {"engaged in, contested"},  # the battle's participle, an example's
+    "parabai/nw": {"standing beside", "the transgressors", "though offences are committed"},  # participles' in examples
     # EXO 31
     "a)nakale/w": {"from"},                    # "esp. «from» exile", a piece of to recall
     "qei=os": {"by divine", "most marvellous", "distinction"},  # examples' pieces: θείᾳ μοίρᾳ, the superlative, a title's
@@ -2024,6 +2039,19 @@ FORM_SENSES = {
     # feminine's as nouns, "a good carpenter or builder" and "joiners' work, carpentry".
     "a)nakale/w": [("PIFAXY", "ME", NOT_SENSES["a)nakale/w"] | {"to summon, cite", "to call", "to call on"})],
     "tektoniko/s": [("-", "-", {"a good carpenter", "builder", "joiners' work, carpentry"}, None, "^......N")],
+    # οἰκέτης's singular leaves out "οἱ οἰκέται … one's household, the women and children", the plural's (EXO 32).
+    "oi)ke/ths": [("-", "-", {"one's household, the women and children"}, None, "^.....S")],
+    # EXO 32. συνίστημι's second aorist active, συνέστη, is intransitive, as the perfect is: its causal senses and the
+    # perfect participle's "a well-disciplined" army and "a standing" one left out. παραβαίνω's and διασκεδάννυμι's
+    # active leave out the passive's. τροπή's singular leaves out the plural's tropics and solstices. εἶμι's
+    # imperative keeps ἴτω's own "let it pass, well then" and leaves out the indicative's future use; its other
+    # forms the reverse.
+    "parabai/nw": [("PIFAXY", "A", NOT_SENSES["parabai/nw"] | {"to be transgressed"})],
+    "diaskeda/nnumi": [("PIFAXY", "A", {"to be dispersed"})],
+    "troph/": [("-", "-", NOT_SENSES["troph/"] | {"the tropics", "solstices", "midsummer", "midwinter",
+                                                  "the winter solstice"}, None, "^.....S")],
+    "ei)=mi": [("PIFAXY", "A", NOT_SENSES["ei)=mi"] | {"I shall go, shall come"}, None, "^...D"),
+               ("PIFAXY", "A", NOT_SENSES["ei)=mi"] | {"let it pass, well then"})],
     # δικαιόω's active leaves out the passive's "proved, tested", and the passive the active's constructions with
     # an infinitive, "to consent" to do and "to desire" one to do, as GEN 38:26 and 44:16 read it. ἀναπαύω's middle
     # reads the Mid. and Pass. section, as GEN 29:2 and 49:14 do. ἐξίστημι is "causal in pres., imperf., fut.,
@@ -2291,7 +2319,8 @@ FORM_SENSES = {
     # "by his hand") and the aorist middle "to build oneself".
     # The first aorist and future active are causal too, "in pres., imperf., fut., and aor1",
     # but the parse code does not tell ἀνάστησον (aor1, GEN 38:8) from ἀνέστη (aor2, 37:7),
-    # so the form decides: the causal tenses are built on στησ-.
+    # so the form decides: the causal tenses are built on στησ-. ἀνέστησαν is both aorists' third plural, as ἔστησαν
+    # is ἵστημι's; at EXO 32:6 it has no object and is they stood up, so the third plural is left to the intransitive.
     "a)ni/sthmi": [("PI", "A", {
         "by", "to build oneself",
         "to stand up, rise", "to rise from one's seat", "to rise from bed", "to rise from the dead",
@@ -2303,7 +2332,7 @@ FORM_SENSES = {
         "to stand up, rise", "to rise from one's seat", "to rise from bed", "to rise from the dead",
         "to rise from", "recover", "to rise", "to stand up", "to be set up, to rise up, rear itself",
         "to rise to go, set out, go away", "to be compelled to migrate", "to be depopulated",
-        "subject to migration", "to be put up"}, "στησ")],
+        "subject to migration", "to be put up"}, "στησ(?!αν)")],
     # ἐπιτίθημι heads its actives "A. Act." and its middles "B. Mid."; a middle form — GEN 9:23
     # ἐπέθεντο — takes B, whose first sense is "to put on oneself". "to give" is left out with
     # the actives: the middle's own "to give" a name would otherwise be listed in the active's
@@ -2435,7 +2464,12 @@ FORM_SENSES = {
     "suni/sthmi": [("XY", "A", NOT_SENSES["suni/sthmi"] | {
         "to set together, combine, associate, unite, band together", "to bring", "into union with", "to win, acquire",
         "to put together, organise, frame", "to contrive", "to settle", "to bring together as friends, introduce",
-        "recommend one to another", "to offer", "as a guarantee", "the conspirators"})],
+        "recommend one to another", "to offer", "as a guarantee", "the conspirators"}),
+                   ("A", "A", NOT_SENSES["suni/sthmi"] | {
+        "to set together, combine, associate, unite, band together", "to bring", "into union with", "to win, acquire",
+        "to put together, organise, frame", "to contrive", "to settle", "to bring together as friends, introduce",
+        "recommend one to another", "to offer", "as a guarantee", "the conspirators", "a well-disciplined",
+        "a standing"}, "^(?!.*στησ)")],
     "e)pistre/fw": [("PIFAXY", "MEP", {
         "to turn about, turn round", "to make a sudden tack", "to put", "to flight", "to return", "to turn towards",
         "to press", "to turn", "to correct, make to repent", "to repent", "to curve, twist, torment",
@@ -2960,6 +2994,14 @@ MARKUP_LOST = {
     "sune/xw": [(4, "to keep together, keep from falling to pieces"), (8, "to keep together, make pull in time")],
     # EXO 27. κόπτω: "k. τὴν χώραν «to cut down the trees in» it, «to lay» it «waste»".
     "ko/ptw": [(6, "to lay it waste")],
+    # EXO 32. ἱλάσκομαι: "«to make» him «propitious to one, conciliate» him". τροπή: "«a change» of speech «by
+    # figures» or «tropes»", the "of speech" the example's λέξεως; "«the turning of the enemy, putting» him «to
+    # flight, a rout»". ἀνακάμπτω: "«to bend one's steps» back". εἶμι: "«I shall go, shall come. to come» or «go»",
+    # the future use and the second sense run together in one element.
+    "i(la/skomai": [(3, "to make him propitious to one, conciliate him")],
+    "troph/": [(9, "a change by figures or tropes"), (13, "the turning of the enemy, putting him to flight, a rout")],
+    "a)naka/mptw": [(2, "to bend one's steps back")],
+    "ei)=mi": [(2, "I shall go, shall come"), (3, "to come or go")],
     "suskia/zw": [(0, "to shade quite over, throw a shade over, shade closely or thickly")],
     "a)ki/nhtos": [(5, "not to be stirred or touched, inviolate")],
     "tu/pos": [(5, "the sound of their tread"), (8, "anything wrought of metal or stone")],

@@ -695,6 +695,10 @@ Five disagreements over 342 words, and the second pass was right twice: Ωρ in 
 article making a noun of it, as τὴν δρῦν τὴν Μαμβρη; ἓξ at 31:17 dative. Ουριας and Σινα keep the corpus's unaccented
 lemmas, ἐμπίπλημι its spelling, and Σινα after τῷ ὄρει the case of its article.
 
+### What it found in Exodus 32
+
+Two disagreements over 809 words, both θυμόω's lemma, kept as Middle Liddell heads it. Every parse agreed.
+
 ## The brief
 
 Copy everything below the rule into a new agent. Replace `<BOOK NAME>`, `<CHAPTER>`,
