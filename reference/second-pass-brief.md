@@ -684,6 +684,11 @@ nominative; κύκλῳ with a genitive the preposition; ἄνθινον neuter.
 Five disagreements over 1063 words, and the second pass was right on two: ἔξω with a genitive the preposition; τὸ
 θυσιαστήριον at 29:37 nominative. Ἁγίασμα keeps the dictionary form ἁγίασμα; πρωινός Middle Liddell's spelling.
 
+### What it found in Exodus 30
+
+Five disagreements over 707 words, and the second pass was right on three: ἐπάνω after ἀπὸ εἰκοσαετοῦς an adverb;
+αὐτοῦ at 30:33 neuter; θυμίαμα at 30:8 accusative. εὐώδους keeps the two-termination C; διὰ παντός neuter.
+
 ## The brief
 
 Copy everything below the rule into a new agent. Replace `<BOOK NAME>`, `<CHAPTER>`,

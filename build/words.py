@@ -546,6 +546,17 @@ LSJ = {
     "ἀφόρισμα": ["that which is set apart: the wave-offering"],
     "ἐνδελεχισμός": ["persistence", "perpetual"],
     "ὁλοκαύτωσις": ["sacrifice of a burnt-offering"],
+    # EXO 30. Not in Middle Liddell. LSJ (eng12): λουτήρ, "«washing» or «bathing-tub»", citing 30:18, one
+    # translation. LSJ (eng13): μυρεψικός, "«of» or «for unguents, aromatic»", citing 30:25; its "Balanites
+    # aegyptiaca" is a plant's Latin name. LSJ (eng21): σίκλος, "= σίγλος", whose sense is "Hebr. «shekel», a weight",
+    # citing 30:23. LSJ (eng25): χαλβάνη, "«the» resinous «juice of all-heal, Ferula galbaniflua»", citing 30:34, the
+    # Latin name of the plant left to the Latin. LSJ (eng5): ἐξιλασμός, "= ἐξίλασις", whose senses are "propitiation,
+    # atonement". κάτεργον and ἡδυσμός are in neither lexicon: plain text, with a note.
+    "λουτήρ": ["washing or bathing-tub"],
+    "μυρεψικός": ["of or for unguents, aromatic"],
+    "σίκλος": ["shekel"],
+    "χαλβάνη": ["the resinous juice of all-heal"],
+    "ἐξιλασμός": ["propitiation, atonement"],
     # EXO 12. None of these is in Middle Liddell. LSJ (eng3): γειώρας, "sojourner", "proselyte". LSJ
     # (eng4): δέσμη, "package, bundle", "a measure in Egypt", "in Medicine, handful"; Rahlfs prints the
     # accusative δεσμήν, the module δέσμην. LSJ (eng5): ἐνδόσθια, "= ἐντόσθια", a pointer to ἐντόσθιος,
@@ -1679,6 +1690,9 @@ NOT_SENSES = {
     "e)panastre/fw": {"to turn back upon"},    # "to turn back upon one", cut, whole in MARKUP_LOST
     "r(h/gnumi": {"to break, break asunder", "in pieces, rend, shiver, shatter", "force one's", "breaking into speech",
                   "rumpere vocem", "having let loose"},  # "to break … or in pieces", cut, whole in MARKUP_LOST; a piece, examples', Virgil
+    # EXO 30
+    "*)=iris": {"Iris"},                       # the goddess's name, and the plant's, whole in MARKUP_LOST
+    "o)/nuc": {"my fingers' ends", "on tiptoe", "de tenero ungui"},  # phrases', ἐξ ἄκρων ὀνύχων and the like; Horace
     # EXO 29
     "teleio/w": {"to make", "perfect, complete, accomplish", "to bring", "to perfection",  # cut, whole in MARKUP_LOST
                  "when", "had their wishes accomplished", "successful"},  # examples' pieces
@@ -2639,6 +2653,7 @@ SPELLING = {
     "dikai/ws": "di/kaios",         # likewise
     "e)ndelexw=s": "e)ndelexh/s",    # the adverb, "adv. -χῶς", inside the adjective's entry (EXO 29:38)
     "kaqarismo/s": "kaqarmo/s",     # "later form for καθαρμός" (EXO 29:36)
+    "i)=ris": "*)=iris",             # the appellative ἶρις, "as Appellat. ἶρις", inside the goddess's entry (EXO 30:24)
     "e)piginw/skw": "e)pigignw/skw",  # the Attic spelling of a Koine form, as γινώσκω
     "zugo/s": "zugo/n",             # the entry is headed with the neuter
     "kli/mac": "kli=mac",           # the entry is headed with the circumflex
@@ -2909,6 +2924,8 @@ MARKUP_LOST = {
     "diori/zw": [(3, "to determine one to be")],  # "«to make» it «clear» to the ear"; "«to inform of» a thing «as contraband»"
     "strepto/s": [(4, "a collar of twisted or linked metal"), (9, "to be bent or turned"), (13, "glib, pliant")],
     "tra/peza": [(0, "a table")],
+    # EXO 30. ἶρις: "the plant «Iris»", the appellative's last sense, its tr the bare name.
+    "*)=iris": [(3, "the plant Iris")],
     # EXO 29. τελειόω: "of things, «to make» it «perfect, complete, accomplish»", "«to bring» one «to perfection»";
     # προτίθημι: "«to lay out» a dead body, «let» it «lie in state»", "«to set out» wares «for show» or «sale»",
     # "speech «was» not «allowed» them".

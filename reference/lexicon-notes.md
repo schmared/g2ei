@@ -608,7 +608,7 @@ the same ground as `the sixth` and `the seventh`: one sense each, so no range to
 
 ### Small words new in GEN 10
 
-- ὅθεν — **headword** `from whom`: Perseus leaves the entry's first gloss, *whence, from which*,
+- ὅθεν — **headword** `from whom` (`whence` since EXO 30, which reads the gloss MARKUP_LOST recovers): Perseus leaves the entry's first gloss, *whence, from which*,
   untagged, and the first it tags is *from whom*; **chain** `from whom, from whatever source and in
   what manner soever, where, whence and wherefore`. 10:14.
 - ἕως before an infinitive with no article (ἕως ἐλθεῖν, 10:19, 10:30) — `until`, the chain of GEN
@@ -8287,3 +8287,34 @@ text uses. Chains already in the corpus (Genesis) were read from it and re-infle
   the article; δέκατος; ἐπικαλέω's first person and infinitive; δόξα with ἐν.
 - One translation each, plain text: μοσχάριον, λάγανον, σεμίδαλις, πυρός, ἧπαρ, νεφρός, βραχίων, εὐωδία, ἔλαιον, οἶνος,
   δειλινός, ἀμνός, κατακαλύπτω's active, ὁλοκαύτωσις, ἱερατεύω, λογεῖον.
+
+### Words new in EXO 30
+
+- **From LSJ** (not in Middle Liddell): λουτήρ *a washing or bathing-tub*, one translation, plain; μυρεψικός `of or for
+  unguents and aromatic`; σίκλος, "= σίγλος", *shekel*, plain; χαλβάνη *the resinous juice of all-heal*, plain, its
+  plant's Latin name left out; ἐξιλασμός, "= ἐξίλασις", `of the propitiation and atonement`.
+- **In neither lexicon**: κάτεργον, plain *a thing effected by labour*, from κατεργάζομαι; ἡδυσμός, plain *of
+  seasoning*, from ἡδύνω — as σφυροκόπος (GEN 4:22) and ὑποκαλύπτω (EXO 26:12).
+- **Filed under another word**: ἶρις, the appellative inside Middle Liddell's Ἶρις, `of rainbow and iris, of
+  bright-coloured circle, of plant Iris`, the goddess's name set aside and the plant's restored (`MARKUP_LOST`).
+- **Pieces set aside** (`NOT_SENSES`): ὄνυξ's phrases and Horace's Latin, `talon, a nail, a hoof, a veined gem and
+  onyx`.
+- **Legacy chains brought to their cards**: ὅθεν's first sense, *whence, from which*, which MARKUP_LOST recovers from
+  inside its Latin, had never reached its units: `whence, whence and from which, from whom, …` (GEN 10:14, 13:3,
+  24:5, EXO 5:11).
+- **validate.py**: GLOSS_LEADS takes `of of twenty years`, εἰκοσαετής's genitive.
+- **Morphology**: the second pass was right on three: ἐπάνω after ἀπὸ εἰκοσαετοῦς an adverb; αὐτοῦ at 30:33 neuter,
+  the oil; θυμίαμα at 30:8 accusative in apposition, as κάρπωμα at 29:38. εὐώδης keeps the two-termination C.
+- New chains: θυμίαμα with the article and the genitive; τοῖχος `the walls of a house and court, the sides of a ship`;
+  στρεπτός with the article; πλευρόν's dative plural; σκυτάλη `staffs and cudgels and clubs, staffs, batons, Spartan
+  dispatches, messages`; μαρτύριον's plural; θυμιάω `will burn so as to produce smoke and burn`; σύνθετος; ἐπισκευάζω
+  `may get ready and equip and fit out, may make afresh and repair`, the middle's left out; ἐξάπτω `may fasten from and
+  to, may let fall from, may place upon` — the lighting of the lamps is not among Middle Liddell's senses; ἁμαρτία's
+  plural; συλλογισμός; πτῶσις; παραπορεύομαι; ἐπίσκεψις; δίδραχμον's singular; εἰσφορά; πλουτέω's and πένομαι's
+  participles; ἐλαττονέω's future; προστίθημι's third person; δίδωμι's present with ἐν, `in the giving, … the being
+  ready to give and offer, …`; νίπτω's future middle; ἀναφέρω's infinitive; ἥδυσμα's plural; ἄνθος with the article;
+  ἐκλεκτός's and εὐώδης's genitives; κάλαμος `of a reed, …`; χρῖσμα; μύρον; μυρεψός `of one who prepares unguents and a
+  perfumer`; τέχνη's dative; ἄλειμμα; σύνθεσις; ἀλλογενής's dative; ὄνυξ; διαφανής; ἴσος's neuter and its dative;
+  μίγνυμι's perfect passive participle; συγκόπτω's second person; ἀπόλλυμι's future middle; ὀσφραίνομαι's infinitive.
+- One translation each, plain text: ἐξιλάσκομαι *will propitiate*, *to propitiate*; ὀβολός; σμύρνα; κιννάμωμον;
+  λίβανος; ἐξολεθρεύω; λυχνία; εἰκοσαετής; πεντακόσιοι, διακόσιοι; κάτεργον; ἡδυσμός.
