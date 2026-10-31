@@ -1632,7 +1632,9 @@ def check_banned(verses, rep):
 # 4. anchors
 # --------------------------------------------------------------------------
 
-AUXILIARIES = {"has", "have", "had", "was", "were", "will", "shall", "be", "been", "being",
+# the perfect participle's *having* among them: διυφαίνω is plain *having been filled up by
+# weaving*, and that *having* is not ἔχω's beside it (EXO 36:30)
+AUXILIARIES = {"has", "have", "had", "having", "was", "were", "will", "shall", "be", "been", "being",
                "may", "might", "let"}
 
 

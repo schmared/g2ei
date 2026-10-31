@@ -543,3 +543,20 @@ God at all; the plural's range treats θεός as a common noun.
 
 **Recommendation:** keep the formula for anarthrous θεός where the referent is the God of the text, and read a
 singular θεός qualified by ἕτερος or ἀλλότριος as the plural is read.
+
+## Q29. δύο: plain text in most places, a unit in sixteen
+
+**Where:** δύο's card reads `two` and `two and two`, the doubled δύο δύο. The validator's sense split reads `two and
+two` as `two`, so it lets the word stand either way. About 111 of its 127 occurrences are plain; 16 are units, `the
+two, the two and two` (GEN 44; EXO 2, 6, 12, 16, 18, 21, 31, 32, 34).
+
+**Now:** both stand. EXO 36 follows EXO 28, its parallel, and prints δύο plain.
+
+- now: `the two [[rings|…]]` at 36:23, beside `[[the two|the two, the two and two|δύο]]` at EXO 31:18
+- the other reading: a unit everywhere, `two — two, two and two —`
+
+**The difference:** *two and two* is the distributive the doubled word makes; a Greek reader hears it only where
+δύο stands twice.
+
+**Recommendation:** plain wherever a single δύο stands, the sixteen units flattened, and `two and two` set aside in
+`NOT_SENSES` as the doubled construction's.

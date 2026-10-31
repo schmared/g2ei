@@ -585,6 +585,13 @@ LSJ = {
     "περιδέξιον": ["armlet for the right arm"],
     "ἀρχιτεκτονία": ["architecture, construction"],
     "ποικιλτός": ["variegated, broidered"],
+    # EXO 36. Not in Middle Liddell. LSJ (eng21): συμπορπάομαι, "Pass., «to be fastened together»", citing 36:13, the
+    # voice the text uses. LSJ (eng17): περισιαλόομαι, "Pass., «to be broidered round the edge»", citing 36:13. LSJ (eng21):
+    # συνυφή, "= συνύφασμα, «web»", metaph. "«construction»", "amorous «embrace»". ἐκκόλαμμα and συμπλεκτός are in
+    # neither lexicon: plain text, from ἐκκολάπτω and συμπλέκω.
+    "συμπορπάω": ["to be fastened together"],
+    "περισιαλόω": ["to be broidered round the edge"],
+    "συνυφή": ["web", "construction", "amorous embrace"],
     "διασκευή": ["construction", "equipment", "furniture or vessels", "rhetorical elaboration", "set phrases",
                  "new edition or recension", "theatrical performance"],
     # EXO 12. None of these is in Middle Liddell. LSJ (eng3): γειώρας, "sojourner", "proselyte". LSJ
@@ -1720,6 +1727,13 @@ NOT_SENSES = {
     "e)panastre/fw": {"to turn back upon"},    # "to turn back upon one", cut, whole in MARKUP_LOST
     "r(h/gnumi": {"to break, break asunder", "in pieces, rend, shiver, shatter", "force one's", "breaking into speech",
                   "rumpere vocem", "having let loose"},  # "to break … or in pieces", cut, whole in MARKUP_LOST; a piece, examples', Virgil
+    # EXO 36
+    "te/mnw": {"cutting", "to wound", "I made", "cut", "off", "had", "cut off", "to have", "wrought", "hewn",
+               "by felling the trees", "cutting the corn"},  # examples' pieces
+    "e)ggra/fw": {"having", "written on", "flores inscripti nomina."},  # an example's pieces; Virgil
+    "gra/mma": {"to read", "kept school"},     # examples'
+    "e)pi/keimai": {"off the coast", "having their", "covered", "under an assumed"},  # examples' pieces
+    "xala/w": {"having unbent"},               # an example's participle
     # EXO 35
     "sunaqroi/zw": {"collected amounts", "has not joined"},  # examples', the passive's and a single person's
     "para/rruma": {"anything drawn along the side: a leathern", "hair curtain, stretched along"},  # cut, whole in MARKUP_LOST
@@ -2089,6 +2103,18 @@ FORM_SENSES = {
         "to hold, consider as", "to take", "to pasture", "graze", "drive to pasture, tend", "to graze", "to give"})],
     "xrw=ma": [("-", "-", NOT_SENSES["xrw=ma"] | {"ornaments, embellishments", "embellishments in music"}, None,
                 "^.....S")],
+    # EXO 36. τέμνω's, κωλύω's and χαλάω's passive leave out the senses that have no passive: the absolute, the
+    # intransitive, the middle's, and κωλύω's participle and impersonal third person. γράμμα's plural leaves out the
+    # senses Middle Liddell marks "in sg."; ἑκουσίως, the adverb, the neuter's "voluntary acts".
+    "te/mnw": [("PIFAXY", "P", NOT_SENSES["te/mnw"] | {
+        "to use the knife", "to sacrifice", "to take solemn oaths", "to fell oneself", "to make", "advance"})],
+    "kwlu/w": [("PIFAXY", "P", NOT_SENSES["kwlu/w"] | {
+        "let there be", "hindrance", "one to hinder", "a hindrance", "there is", "nothing hinders, be it so"})],
+    "xala/w": [("PIFAXY", "EP", NOT_SENSES["xala/w"] | {
+        "to let go, slacken one's hold", "to become slack", "loose", "stand open", "to have a remission of",
+        "to yield to", "to be indulgent to", "to remit, to grow slack"})],
+    "gra/mma": [("-", "-", NOT_SENSES["gra/mma"] | {"a drawing, picture", "a bill, account"}, None, "^.....P")],
+    "e(kou/sios": [("-", "-", {"voluntary acts"}, None, "^--------")],
     # EXO 35. συνίημι's and ὑφαίνω's active leave out the middle's.
     "suni/hmi": [("PIFAXY", "A", NOT_SENSES["suni/hmi"] | {"to come together, come to an agreement"})],
     "u(fai/nw": [("PIFAXY", "A", {"to weave oneself"})],
@@ -2620,6 +2646,7 @@ FORM_SENSES = {
 # (κατέναντι reads "= κατεναντίον" and glosses nothing itself). Each is recorded in
 # reference/lexicon-notes.md with the entry it resolves to.
 SPELLING = {
+    "e(kousi/ws": "e(kou/sios",       # the adverb, "adv. -ίως", inside the adjective's entry (EXO 36:2)
     "skopeu/w": "skope/w",           # σκοπεύω, "later form for σκοπέω" (EXO 33:8)
     "oi)kti/rw": "oi)ktei/rw",       # οἰκτίρω, "late form of οἰκτείρω" (EXO 33:19)
     "linou=s": "li/neos",            # the contracted adjective, filed under the uncontracted, as χαλκοῦς (EXO 28:42)

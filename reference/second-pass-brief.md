@@ -716,6 +716,12 @@ subjunctive; ἕως ἄν the conjunction. The three Σινα lines keep the ca
 Six disagreements over 575 words, and the second pass was right on two: αὐτοῦ at 35:16 neuter, αὐτῶν at 35:26
 feminine. φάος, νέω and Ουριας keep the corpus's dictionary forms.
 
+### What it found in Exodus 36
+
+Thirteen disagreements over 759 words, and the second pass was right on three: κάτωθεν and ἄνωθεν before a genitive
+are prepositions, as ἄνωθεν at 25:22; αὐτοῦ at 36:37 is neuter, the plate's. Anarthrous ὑακίνθου keeps the
+masculine (Q22), διανήθω the corpus's dictionary form, and ὅλον ὑακίνθινον at 36:29 the neuter, with ἔργον ὑφαντόν.
+
 ## The brief
 
 Copy everything below the rule into a new agent. Replace `<BOOK NAME>`, `<CHAPTER>`,

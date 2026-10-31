@@ -1690,7 +1690,7 @@ the same ground as `the sixth` and `the seventh`: one sense each, so no range to
 | νόμιμος | `the usages` | `the usages and customs, the funeral rites` | 26:5 |
 | πάλιν | `back` | `back and backwards, contrariwise, opposite, the change, again and once more and anew, again in turn` | 26:18 |
 | πήγνυμι | `made fast` | `made fast, fixed in the earth and planted, fastened together and constructed and built, made solid and stiff and hard, froze, became solid and stiff, became congealed and froze` | 26:25 |
-| παραγίνομαι | `having come to be beside` | `having come to be beside, having come up and arrived, having come to help, having been present, having stood by` | 26:32 |
+| παραγίνομαι | `having been near` | `having been near and attended upon, having been present at, …, having been fully grown`, the eight senses of every form (EXO 36) | 26:32 |
 | παρακύπτω | `having stooped sideways` | `having stooped sideways, having stooped for the purpose of looking at, having looked sideways at and cast a careless glance on, having peeped out of, having peeped in and looked in` | 26:8 |
 | παροικέω | `dwell beside` | `dwell beside, dwell along the coast of, live near, dwell among, lie near, live in and sojourn` | 26:3 |
 | πλατύνω | `made broad` | `made broad, widened, enlarged` | 26:22 |
@@ -4244,8 +4244,8 @@ kept precisely so the connection stays on the page.
 
 ### χρυσίον, ἄνθραξ, λίθος, πράσινος
 
-- χρυσίον — **headword** `the piece of gold`; **chain** `the piece of gold, gold, gold coin
-  and money`. The diminutive names a nugget before the metal. GEN 2:11, 2:12.
+- χρυσίον — **headword** `the piece of gold`; **chain** `the piece of gold, the gold, the gold
+  coin and money`, the article on every item as on every noun's (EXO 36). The diminutive names a nugget before the metal. GEN 2:11, 2:12.
 - ἄνθραξ — **headword** `the charcoal`; **chain** `the charcoal and coal`. One sense only;
   the gem is named from the burning coal, as Latin *carbunculus* is. GEN 2:12.
 - λίθος — **headword** `the stone`; **chain** `the stone, the precious stone, the marble`.
@@ -6625,8 +6625,8 @@ text uses.
 - μυελός — `the marrow, the brain, the strengthening food, the inmost part`. 45:18.
 - ἅμαξα — Perseus keys Middle Liddell's entry with the smooth breathing (`SPELLING`): `wagons and
   wains, wagon-loads of, carriages of the plough, Charles' wains, Great Bears`. 45:19, 45:21, 45:27.
-- παραγίνομαι (present imperative) — `come to be beside, be present, arrive, come to help`, the four
-  senses 32:21 gives the present. 45:19.
+- παραγίνομαι (present imperative) — `be near and attend upon, be present at, …, be fully grown`, the
+  eight senses of every form; it read four, `come to be beside`, until EXO 36. 45:19.
 - πᾶς with its own article, τὰ πάντα ἀγαθά — `the all`, the unit carrying the article. 45:20.
 - χρυσοῦς as a noun, *gold pieces* — the adjective's chain of 24:22. 45:22.
 - ἐξαλλάσσω (participle) — `changing utterly, withdrawing from, removing from, changing and turning
@@ -7756,7 +7756,7 @@ text uses. Chains already in the corpus (Genesis) were read from it and re-infle
   τῷ ὄρει τῷ Γαλααδ at GEN 31:23; τοῦ Σινα (19:1, 19:2) is neuter, the mountain's.
 - New chains: ἔξοδος `of the going out`; ἐξαίρω `lifted up` (plural); ποιέω `I have made`; ἀναλαμβάνω `I took
   up`; πτέρυξ `of wings`; ἀετός `of eagles`; προσάγω `I brought`; ἀκούω `we will hear`; περιούσιος `having more
-  than enough`; βασίλειος `of the king`; παραγίνομαι `I come to be beside`; διαμαρτύρομαι `protest solemnly`,
+  than enough`; βασίλειος `of the king`; παραγίνομαι `I am near`, the eight senses since EXO 36; διαμαρτύρομαι `protest solemnly`,
   `you have protested solemnly`; ἁγνίζω `cleanse away`; πλύνω `let wash`, `washed`; ἀφορίζω `you will mark off
   by boundaries`, `mark off for yourself`; θιγγάνω `to touch`; ἅπτω `the one having fastened himself to`, `will
   fasten itself to`; λιθοβολέω `will be pelted with stones`; βολίς `to a javelin`; κατατοξεύω `will be struck
@@ -8504,6 +8504,60 @@ text uses. Chains already in the corpus (Genesis) were read from it and re-infle
   in the forms the chapter has; σοφός in the singular; καίω's, φέρω's, λειτουργέω's futures; ἐργάζομαι's imperative;
   κατεργάζομαι's infinitive.
 - One translation each, plain text: ὑακίνθινος *hyacinthine*; διανήθω *having been spun out*; νήθω *to spin*; νέω
-  *spun*, *having been spun*; λογεῖον *the speaking-place*.
+  *spun*, *having been spun and standing so*; λογεῖον *the speaking-place*.
 - **Morphology**: the second pass was right twice: αὐτοῦ at 35:16 neuter, the altar's; αὐτῶν at 35:26 feminine, the
   women's. φάος, νέω and Ουριας keep the corpus's lemmas.
+
+### Words new in EXO 36
+
+- **The page's own misprint**: 36:13 prints παὶ for καί; the transcription keeps it, the verse's `printed` field
+  lists it, the module reads καί, and it reads *and*.
+- **The order**: 36:8–38 gives the priests' garments, which the Hebrew gives at 39:1–31, before the tent's
+  curtains; a `divergence` note at 36:8.
+- **From LSJ** (not in Middle Liddell): συμπορπάω, which LSJ files as the passive συμπορπάομαι, *to be fastened
+  together*; περισιαλόω, filed as περισιαλόομαι, *to be broidered round the edge*: plain, in the perfect's state.
+  συνυφή `of the web, of the construction, of the amorous embrace`. ἐκκόλαμμα and συμπλεκτός are in neither
+  lexicon: plain *a thing scraped out*, from ἐκκολάπτω, and *twined or plaited together*, from συμπλέκω.
+- **The passive** (`FORM_SENSES`), each sense in the passive and the senses with no passive left out — the absolute,
+  the intransitive, the middle's: τέμνω's aorist `was cut and hewn, …, was brought to a decision, was operated
+  upon`; κωλύω's aorist `was let and hindered and checked and prevented, was let or hindered, was hindered and
+  prevented and impeded, was hindered`, its participle's and impersonal senses left out; χαλάω's subjunctive `may be
+  slackened and loosened, may be unstrung, may be let down and let sink and fall or droop, …, may be loosened or
+  undone`. δίδωμι's aorist passive `was given, was granted, was provided, was given over and delivered up`, the
+  present's *is ready to be given and offered* left to the present.
+- **By number**: γράμμα's plural `things which are drawn, the lines of a drawing or picture, …, letters and
+  learning`, the singular's senses in the plural and the senses marked "in sg." left out.
+- **The adverb**: ἑκουσίως, inside ἑκούσιος (`SPELLING`), `voluntarily, willingly and acting of free will`, as
+  δικαίως at GEN 27:36; the neuter's *voluntary acts* left out.
+- **Set aside** (`NOT_SENSES`): the examples' pieces of τέμνω, ἐγγράφω (and Virgil's Latin), γράμμα (*to read*,
+  *kept school*), ἐπίκειμαι and χαλάω (*having unbent*).
+- **One translation, one item**: μηκέτι `no more and no longer and no further`; ἐκκολάπτω `having been scraped out
+  and obliterated and standing so`; ἀδιάλυτος `undissolved and indissoluble`.
+- **The article apart from its word**: τὰ ἅγια καθήκοντα, the article in ἅγια's unit and καθήκοντα `things having
+  come`, as τὴν ἐρυθρὰν θάλασσαν at 13:18; τοὺς ἑκουσίως βουλομένους, `the ones` plain before the adverb; τὸ αὐτοῦ
+  ἔργον, `the work` of him, as 18:23; τὸ δὲ περιστόμιον, the particle first.
+- New chains: σοφία and ἐπιστήμη in the nominative; ἔχω's articular plural participle; βούλομαι's participle;
+  προσπορεύομαι's and συντελέω's infinitives; φέρω's present and genitive participle; the imperfects of προσδέχομαι
+  `were receiving favourably`, παραγίνομαι `were being near` and ἐργάζομαι `were working`; προσφέρω's infinitive and
+  passive participle; προσκαταλείπω `left besides as a legacy, lost besides`; ἐν with ἐργάζομαι's participle;
+  χρυσίον's articular genitive; the datives of ὑάκινθος, πορφύρα and κλώθω; συνυφαίνω's aorist infinitive and
+  passive; πέταλον's plural; γλύφω's perfect participle; ὄνομα's articular genitive singular; ποικιλία without the
+  article; περικυκλόω's perfect passive, *to surround* among its senses; ἐγγράφω's perfect passive `having been marked
+  in or on and painted on and standing so, …, having been entered on the judge's list and indicted`; ἐμπλόκιον's
+  genitive singular and articular plural; δακτύλιος's genitive plural; συμβολή's plural; πτερύγιον `wings, turrets
+  or pinnacles`; ῥοΐσκος's articular genitive plural; κώδων's articular plural; λειτουργέω's articular infinitive;
+  περισκελής and ζώνη with the article; ἐπίκειμαι `to be laid upon, to be put to or closed, …, to be imposed`;
+  ἐν τῷ μέσῳ `in the middle`.
+- One translation each, plain text: ὦμος, λογεῖον, λῶμα (*border of a robe* without the article), ὑποδύτης,
+  τοπάζιον *topaz*, ἴασπις, λιγύριον, ἀχάτης, χρυσόλιθος *topaz*, κατάλιθος, τετράστιχος, δώδεκα *twelve*, συσφίγγω
+  *condensed*, διυφαίνω, ποικιλτής, ἀλλήλων *one another*. δύο plain, as at 28:9 (Q29).
+- **Corpus fixes**: χρυσίον's articular chain `the piece of gold, the gold, the gold coin and money`, the article on
+  every item as on every noun's (GEN 2:11, 2:12; EXO 28:5, 31:4, 35:32); EXO 35:25's plain νενησμένα `having been
+  spun and standing so`, the perfect's state; παραγίνομαι's present forms (GEN 32:21, 45:19; EXO 18:6, 18:15, 19:9)
+  take the card's eight senses, `is near and attends upon, …, is fully grown`, where they had four not on the card,
+  `come to be beside, be present, arrive, come to help`.
+- **validate.py**: `AUXILIARIES` takes *having*, the plain perfect participle's: διυφαίνω's *having been filled up
+  by weaving* is not ἔχω's headword loose beside it.
+- **Morphology**: the second pass was right on three: κάτωθεν and ἄνωθεν before a genitive are prepositions, as
+  ἄνωθεν at 25:22; αὐτοῦ at 36:37 neuter, the plate's. Anarthrous ὑακίνθου keeps the masculine (Q22), διανήθω
+  the corpus's lemma, ὅλον ὑακίνθινον at 36:29 the neuter of ἔργον ὑφαντόν beside it.
