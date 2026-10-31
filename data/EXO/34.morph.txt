@@ -1,0 +1,836 @@
+# Exodus 34 — morphology, one word per line.
+#
+# This is the project's own grammatical analysis of each form, written alongside the
+# transcription and not copied from any digital edition.
+#
+# Columns: verse, part of speech, parse, form, lemma — in MorphGNT's code scheme, so
+# the Old and New Testament layers read alike. The parse is eight places: person,
+# tense, voice, mood, case, number, gender, degree ("-" where it does not apply).
+#
+# Two codes go beyond MorphGNT, both to record only what the form itself says:
+#   voice  E  middle/passive — a tense in which the two share one form
+#   gender C  masculine/feminine — an adjective whose form does not distinguish them
+#
+# A trailing annotation records a deliberate difference and the reason for it:
+#   "# module …"  from the reference module, checked when LXX_RAHLFS_DIR is set
+#   "# corpus …"  from this project's own analysis of the same form elsewhere
+# A line may carry both. validate.py prints them as notes instead of failures — and
+# fails if the difference a note claims is not there, so they cannot go stale. The
+# analysis here is this project's own: the module is a reference, not an authority,
+# and the corpus is held to itself.
+#
+# Indeclinables take case and number from the syntax, as MorphGNT does, and gender
+# where there is one to take: a personal name, from the person; a numeral agreeing
+# with its noun; a common noun whose article shows it — but not an indeclinable place
+# name, which has none. A personal name the New Testament also uses takes MorphGNT's
+# dictionary form (Νῶε, Σήμ); every other Semitic name (Χαμ, Ιαφεθ), the form Rahlfs
+# prints.
+
+34:1 C- -------- Καὶ καί
+34:1 V- 3AAI-S-- εἶπεν λέγω  # module lemma ἔπω — λέγω keeps one dictionary form across both testaments
+34:1 N- ----NSM- κύριος κύριος
+34:1 P- -------- πρὸς πρός
+34:1 N- ----ASM- Μωυσῆν Μωϋσῆς  # module lemma Μωσεύς — Μωϋσῆς, as MorphGNT files it
+34:1 V- 2AAD-S-- Λάξευσον λαξεύω
+34:1 RP ----DSM- σεαυτῷ σεαυτοῦ
+34:1 A- ----APF- δύο δύο  # module M, no features — MorphGNT gives δύο case, number and gender like any adjective
+34:1 N- ----APF- πλάκας πλάξ
+34:1 A- ----APF- λιθίνας λίθινος
+34:1 C- -------- καθὼς καθώς
+34:1 D- -------- καὶ καί
+34:1 RA ----NPF- αἱ ὁ
+34:1 A- ----NPF- πρῶται πρῶτος
+34:1 C- -------- καὶ καί
+34:1 V- 2AAD-S-- ἀνάβηθι ἀναβαίνω
+34:1 P- -------- πρός πρός
+34:1 RP ----AS-- με ἐγώ  # module lemma μέ, the form itself — ἐγώ is the dictionary form
+34:1 P- -------- εἰς εἰς
+34:1 RA ----ASN- τὸ ὁ
+34:1 N- ----ASN- ὄρος ὄρος
+34:1 C- -------- καὶ καί
+34:1 V- 1FAI-S-- γράψω γράφω
+34:1 P- -------- ἐπὶ ἐπί
+34:1 RA ----GPF- τῶν ὁ
+34:1 N- ----GPF- πλακῶν πλάξ
+34:1 RA ----APN- τὰ ὁ
+34:1 N- ----APN- ῥήματα ῥῆμα
+34:1 RR ----NPN- ἃ ὅς
+34:1 V- 3IAI-S-- ἦν εἰμί
+34:1 P- -------- ἐν ἐν
+34:1 RA ----DPF- ταῖς ὁ
+34:1 N- ----DPF- πλαξὶν πλάξ
+34:1 RA ----DPF- ταῖς ὁ
+34:1 A- ----DPF- πρώταις πρῶτος
+34:1 RR ----DPF- αἷς ὅς
+34:1 V- 2AAI-S-- συνέτριψας συντρίβω
+34:2 C- -------- καὶ καί
+34:2 V- 2PED-S-- γίνου γίνομαι
+34:2 A- ----NSM- ἕτοιμος ἕτοιμος  # module lemma ἑτοίμος — ἕτοιμος, as Rahlfs accents the form and the corpus files it
+34:2 P- -------- εἰς εἰς
+34:2 RA ----ASN- τὸ ὁ
+34:2 D- -------- πρωὶ πρωΐ
+34:2 C- -------- καὶ καί
+34:2 V- 2FMI-S-- ἀναβήσῃ ἀναβαίνω
+34:2 P- -------- ἐπὶ ἐπί
+34:2 RA ----ASN- τὸ ὁ
+34:2 N- ----ASN- ὄρος ὄρος
+34:2 RA ----ASN- τὸ ὁ
+34:2 N- ----AS-- Σινα Σινα  # module lemma Σινᾶ — Σινα, as Rahlfs prints it, unaccented
+34:2 C- -------- καὶ καί
+34:2 V- 2FMI-S-- στήσῃ ἵστημι
+34:2 RP ----DS-- μοι ἐγώ  # module lemma μοι, the form itself — ἐγώ is the dictionary form
+34:2 D- -------- ἐκεῖ ἐκεῖ
+34:2 P- -------- ἐπʼ ἐπί
+34:2 N- ----GSN- ἄκρου ἄκρον
+34:2 RA ----GSN- τοῦ ὁ
+34:2 N- ----GSN- ὄρους ὄρος
+34:3 C- -------- καὶ καί
+34:3 A- ----NSM- μηδεὶς μηδείς
+34:3 V- 3AAD-S-- ἀναβήτω ἀναβαίνω
+34:3 P- -------- μετὰ μετά
+34:3 RP ----GS-- σοῦ σύ  # module lemma σοῦ, the form itself — σύ is the dictionary form
+34:3 C- -------- μηδὲ μηδέ
+34:3 V- 3APD-S-- ὀφθήτω ὁράω
+34:3 P- -------- ἐν ἐν
+34:3 A- ----DSN- παντὶ πᾶς
+34:3 RA ----DSN- τῷ ὁ
+34:3 N- ----DSN- ὄρει ὄρος
+34:3 C- -------- καὶ καί
+34:3 RA ----NPN- τὰ ὁ
+34:3 N- ----NPN- πρόβατα πρόβατον
+34:3 C- -------- καὶ καί
+34:3 RA ----NPF- αἱ ὁ
+34:3 N- ----NPF- βόες βοῦς
+34:3 D- -------- μὴ μή
+34:3 V- 3PED-P-- νεμέσθωσαν νέμω
+34:3 P- -------- πλησίον πλησίον
+34:3 RA ----GSN- τοῦ ὁ
+34:3 N- ----GSN- ὄρους ὄρος
+34:3 RD ----GSN- ἐκείνου ἐκεῖνος
+34:4 C- -------- καὶ καί
+34:4 V- 3AAI-S-- ἐλάξευσεν λαξεύω
+34:4 A- ----APF- δύο δύο  # module M, no features — MorphGNT gives δύο case, number and gender like any adjective
+34:4 N- ----APF- πλάκας πλάξ
+34:4 A- ----APF- λιθίνας λίθινος
+34:4 C- -------- καθάπερ καθάπερ
+34:4 D- -------- καὶ καί
+34:4 RA ----NPF- αἱ ὁ
+34:4 A- ----NPF- πρῶται πρῶτος
+34:4 C- -------- καὶ καί
+34:4 V- -AAPNSM- ὀρθρίσας ὀρθρίζω
+34:4 N- ----NSM- Μωυσῆς Μωϋσῆς  # module lemma Μωσεύς — Μωϋσῆς, as MorphGNT files it
+34:4 V- 3AAI-S-- ἀνέβη ἀναβαίνω
+34:4 P- -------- εἰς εἰς
+34:4 RA ----ASN- τὸ ὁ
+34:4 N- ----ASN- ὄρος ὄρος
+34:4 RA ----ASN- τὸ ὁ
+34:4 N- ----AS-- Σινα Σινα  # module lemma Σινᾶ — Σινα, as Rahlfs prints it, unaccented
+34:4 C- -------- καθότι καθότι
+34:4 V- 3AAI-S-- συνέταξεν συντάσσω
+34:4 RP ----DSM- αὐτῷ αὐτός
+34:4 N- ----NSM- κύριος κύριος
+34:4 C- -------- καὶ καί
+34:4 V- 3AAI-S-- ἔλαβεν λαμβάνω
+34:4 N- ----NSM- Μωυσῆς Μωϋσῆς  # module lemma Μωσεύς — Μωϋσῆς, as MorphGNT files it
+34:4 RA ----APF- τὰς ὁ
+34:4 A- ----APF- δύο δύο  # module M, no features — MorphGNT gives δύο case, number and gender like any adjective
+34:4 N- ----APF- πλάκας πλάξ
+34:4 RA ----APF- τὰς ὁ
+34:4 A- ----APF- λιθίνας λίθινος
+34:5 C- -------- καὶ καί
+34:5 V- 3AAI-S-- κατέβη καταβαίνω
+34:5 N- ----NSM- κύριος κύριος
+34:5 P- -------- ἐν ἐν
+34:5 N- ----DSF- νεφέλῃ νεφέλη
+34:5 C- -------- καὶ καί
+34:5 V- 3AAI-S-- παρέστη παρίστημι
+34:5 RP ----DSM- αὐτῷ αὐτός
+34:5 D- -------- ἐκεῖ ἐκεῖ
+34:5 C- -------- καὶ καί
+34:5 V- 3AAI-S-- ἐκάλεσεν καλέω
+34:5 RA ----DSN- τῷ ὁ
+34:5 N- ----DSN- ὀνόματι ὄνομα
+34:5 N- ----GSM- κυρίου κύριος
+34:6 C- -------- καὶ καί
+34:6 V- 3AAI-S-- παρῆλθεν παρέρχομαι
+34:6 N- ----NSM- κύριος κύριος
+34:6 P- -------- πρὸ πρό
+34:6 N- ----GSN- προσώπου πρόσωπον
+34:6 RP ----GSM- αὐτοῦ αὐτός
+34:6 C- -------- καὶ καί
+34:6 V- 3AAI-S-- ἐκάλεσεν καλέω
+34:6 N- ----NSM- Κύριος κύριος
+34:6 RA ----NSM- ὁ ὁ
+34:6 N- ----NSM- θεὸς θεός
+34:6 A- ----NSC- οἰκτίρμων οἰκτίρμων
+34:6 C- -------- καὶ καί
+34:6 A- ----NSC- ἐλεήμων ἐλεήμων
+34:6 A- ----NSC- μακρόθυμος μακρόθυμος
+34:6 C- -------- καὶ καί
+34:6 A- ----NSC- πολυέλεος πολυέλεος
+34:6 C- -------- καὶ καί
+34:6 A- ----NSM- ἀληθινὸς ἀληθινός
+34:7 C- -------- καὶ καί
+34:7 N- ----ASF- δικαιοσύνην δικαιοσύνη
+34:7 V- -PAPNSM- διατηρῶν διατηρέω
+34:7 C- -------- καὶ καί
+34:7 V- -PAPNSM- ποιῶν ποιέω
+34:7 N- ----ASN- ἔλεος ἔλεος
+34:7 P- -------- εἰς εἰς
+34:7 N- ----APF- χιλιάδας χιλιάς
+34:7 V- -PAPNSM- ἀφαιρῶν ἀφαιρέω
+34:7 N- ----APF- ἀνομίας ἀνομία
+34:7 C- -------- καὶ καί
+34:7 N- ----APF- ἀδικίας ἀδικία  # corpus — the accusative plural, after ἀφαιρῶν, with ἀνομίας and ἁμαρτίας; GEN 6:11's ἀδικίας is the genitive singular
+34:7 C- -------- καὶ καί
+34:7 N- ----APF- ἁμαρτίας ἁμαρτία
+34:7 C- -------- καὶ καί
+34:7 D- -------- οὐ οὐ
+34:7 V- 3FAI-S-- καθαριεῖ καθαρίζω
+34:7 RA ----ASM- τὸν ὁ
+34:7 A- ----ASC- ἔνοχον ἔνοχος
+34:7 V- -PAPNSM- ἐπάγων ἐπάγω
+34:7 N- ----APF- ἀνομίας ἀνομία  # module GSF — accusative plural, the object of ἐπάγων, as ἀνομίας after ἀφαιρῶν
+34:7 N- ----GPM- πατέρων πατήρ
+34:7 P- -------- ἐπὶ ἐπί
+34:7 N- ----APN- τέκνα τέκνον
+34:7 C- -------- καὶ καί
+34:7 P- -------- ἐπὶ ἐπί
+34:7 N- ----APN- τέκνα τέκνον
+34:7 N- ----GPN- τέκνων τέκνον
+34:7 P- -------- ἐπὶ ἐπί
+34:7 A- ----ASF- τρίτην τρίτος
+34:7 C- -------- καὶ καί
+34:7 A- ----ASF- τετάρτην τέταρτος
+34:7 N- ----ASF- γενεάν γενεά
+34:8 C- -------- καὶ καί
+34:8 V- -AAPNSM- σπεύσας σπεύδω
+34:8 N- ----NSM- Μωυσῆς Μωϋσῆς  # module lemma Μωσεύς — Μωϋσῆς, as MorphGNT files it
+34:8 V- -AAPNSM- κύψας κύπτω
+34:8 P- -------- ἐπὶ ἐπί
+34:8 RA ----ASF- τὴν ὁ
+34:8 N- ----ASF- γῆν γῆ
+34:8 V- 3AAI-S-- προσεκύνησεν προσκυνέω
+34:9 C- -------- καὶ καί
+34:9 V- 3AAI-S-- εἶπεν λέγω  # module lemma ἔπω — λέγω keeps one dictionary form across both testaments
+34:9 C- -------- Εἰ εἰ
+34:9 V- 1XAI-S-- εὕρηκα εὑρίσκω
+34:9 N- ----ASF- χάριν χάρις
+34:9 P- -------- ἐνώπιόν ἐνώπιον  # module lemma ἐνώπιος — ἐνώπιον, the preposition, as MorphGNT files it
+34:9 RP ----GS-- σου σύ  # module lemma σοῦ, the form itself — σύ is the dictionary form
+34:9 V- 3APD-S-- συμπορευθήτω συμπορεύομαι
+34:9 RA ----NSM- ὁ ὁ
+34:9 N- ----NSM- κύριός κύριος
+34:9 RP ----GS-- μου ἐγώ  # module lemma μου, the form itself — ἐγώ is the dictionary form
+34:9 P- -------- μεθʼ μετά
+34:9 RP ----GP-- ἡμῶν ἐγώ  # module lemma ἡμῶν, the form itself — ἐγώ is the dictionary form
+34:9 RA ----NSM- ὁ ὁ
+34:9 N- ----NSM- λαὸς λαός
+34:9 C- -------- γὰρ γάρ
+34:9 A- ----NSM- σκληροτράχηλός σκληροτράχηλος
+34:9 V- 3PAI-S-- ἐστιν εἰμί
+34:9 C- -------- καὶ καί
+34:9 V- 2FAI-S-- ἀφελεῖς ἀφαιρέω
+34:9 RP ----NS-- σὺ σύ
+34:9 RA ----APF- τὰς ὁ
+34:9 N- ----APF- ἁμαρτίας ἁμαρτία
+34:9 RP ----GP-- ἡμῶν ἐγώ  # module lemma ἡμῶν, the form itself — ἐγώ is the dictionary form
+34:9 C- -------- καὶ καί
+34:9 RA ----APF- τὰς ὁ
+34:9 N- ----APF- ἀνομίας ἀνομία
+34:9 RP ----GP-- ἡμῶν ἐγώ  # module lemma ἡμῶν, the form itself — ἐγώ is the dictionary form
+34:9 C- -------- καὶ καί
+34:9 V- 1FMI-P-- ἐσόμεθα εἰμί
+34:9 RP ----DS-- σοί σύ  # module lemma σοί, the form itself — σύ is the dictionary form
+34:10 C- -------- καὶ καί
+34:10 V- 3AAI-S-- εἶπεν λέγω  # module lemma ἔπω — λέγω keeps one dictionary form across both testaments
+34:10 N- ----NSM- κύριος κύριος
+34:10 P- -------- πρὸς πρός
+34:10 N- ----ASM- Μωυσῆν Μωϋσῆς  # module lemma Μωσεύς — Μωϋσῆς, as MorphGNT files it
+34:10 X- -------- Ἰδοὺ ἰδού
+34:10 RP ----NS-- ἐγὼ ἐγώ
+34:10 V- 1PAI-S-- τίθημί τίθημι
+34:10 RP ----DS-- σοι σύ  # module lemma σοί, the form itself — σύ is the dictionary form
+34:10 N- ----ASF- διαθήκην διαθήκη
+34:10 P- -------- ἐνώπιον ἐνώπιον  # module lemma ἐνώπιος — ἐνώπιον, the preposition, as MorphGNT files it
+34:10 A- ----GSM- παντὸς πᾶς
+34:10 RA ----GSM- τοῦ ὁ
+34:10 N- ----GSM- λαοῦ λαός
+34:10 RP ----GS-- σου σύ  # module lemma σοῦ, the form itself — σύ is the dictionary form
+34:10 V- 1FAI-S-- ποιήσω ποιέω
+34:10 A- ----APN- ἔνδοξα ἔνδοξος
+34:10 RR ----NPN- ἃ ὅς  # module APN — nominative, the subject of γέγονεν
+34:10 D- -------- οὐ οὐ
+34:10 V- 3XAI-S-- γέγονεν γίνομαι
+34:10 P- -------- ἐν ἐν
+34:10 A- ----DSF- πάσῃ πᾶς
+34:10 RA ----DSF- τῇ ὁ
+34:10 N- ----DSF- γῇ γῆ
+34:10 C- -------- καὶ καί
+34:10 P- -------- ἐν ἐν
+34:10 A- ----DSN- παντὶ πᾶς
+34:10 N- ----DSN- ἔθνει ἔθνος
+34:10 C- -------- καὶ καί
+34:10 V- 3FMI-S-- ὄψεται ὁράω
+34:10 A- ----NSM- πᾶς πᾶς
+34:10 RA ----NSM- ὁ ὁ
+34:10 N- ----NSM- λαός λαός
+34:10 P- -------- ἐν ἐν
+34:10 RR ----DPM- οἷς ὅς
+34:10 V- 2PAI-S-- εἶ εἰμί
+34:10 RP ----NS-- σύ σύ
+34:10 RA ----APN- τὰ ὁ
+34:10 N- ----APN- ἔργα ἔργον
+34:10 N- ----GSM- κυρίου κύριος
+34:10 C- -------- ὅτι ὅτι
+34:10 A- ----NPN- θαυμαστά θαυμαστός
+34:10 V- 3PAI-S-- ἐστιν εἰμί
+34:10 RR ----APN- ἃ ὅς
+34:10 RP ----NS-- ἐγὼ ἐγώ
+34:10 V- 1FAI-S-- ποιήσω ποιέω
+34:10 RP ----DS-- σοι σύ  # module lemma σοί, the form itself — σύ is the dictionary form
+34:11 V- 2PAD-S-- πρόσεχε προσέχω
+34:11 RP ----NS-- σὺ σύ
+34:11 A- ----APN- πάντα πᾶς
+34:11 RR ----APN- ὅσα ὅσος
+34:11 RP ----NS-- ἐγὼ ἐγώ
+34:11 V- 1PEI-S-- ἐντέλλομαί ἐντέλλομαι
+34:11 RP ----DS-- σοι σύ  # module lemma σοί, the form itself — σύ is the dictionary form
+34:11 X- -------- ἰδοὺ ἰδού
+34:11 RP ----NS-- ἐγὼ ἐγώ
+34:11 V- 1PAI-S-- ἐκβάλλω ἐκβάλλω
+34:11 P- -------- πρὸ πρό
+34:11 N- ----GSN- προσώπου πρόσωπον
+34:11 RP ----GP-- ὑμῶν σύ  # module lemma ὑμῶν, the form itself — σύ is the dictionary form
+34:11 RA ----ASM- τὸν ὁ
+34:11 N- ----ASM- Αμορραῖον Αμορραῖος  # module lemma Ἀμορραῖος — the form Rahlfs prints, with no breathing
+34:11 C- -------- καὶ καί
+34:11 N- ----ASM- Χαναναῖον Χαναναῖος
+34:11 C- -------- καὶ καί
+34:11 N- ----ASM- Χετταῖον Χετταῖος
+34:11 C- -------- καὶ καί
+34:11 N- ----ASM- Φερεζαῖον Φερεζαῖος
+34:11 C- -------- καὶ καί
+34:11 N- ----ASM- Ευαῖον Ευαῖος
+34:11 C- -------- καὶ καί
+34:11 N- ----ASM- Γεργεσαῖον Γεργεσαῖος
+34:11 C- -------- καὶ καί
+34:11 N- ----ASM- Ιεβουσαῖον Ιεβουσαῖος
+34:12 V- 2PAD-S-- πρόσεχε προσέχω
+34:12 RP ----DSM- σεαυτῷ σεαυτοῦ
+34:12 C- -------- μήποτε μήποτε
+34:12 V- 2AAS-S-- θῇς τίθημι
+34:12 N- ----ASF- διαθήκην διαθήκη
+34:12 RA ----DPM- τοῖς ὁ
+34:12 V- -PEPDPM- ἐγκαθημένοις ἐγκάθημαι
+34:12 P- -------- ἐπὶ ἐπί
+34:12 RA ----GSF- τῆς ὁ
+34:12 N- ----GSF- γῆς γῆ
+34:12 P- -------- εἰς εἰς
+34:12 RR ----ASF- ἣν ὅς
+34:12 V- 2PEI-S-- εἰσπορεύῃ εἰσπορεύομαι
+34:12 P- -------- εἰς εἰς
+34:12 RP ----ASF- αὐτήν αὐτός
+34:12 D- -------- μή μή
+34:12 RP ----DS-- σοι σύ  # module lemma σοί, the form itself — σύ is the dictionary form
+34:12 V- 3AMS-S-- γένηται γίνομαι
+34:12 N- ----NSN- πρόσκομμα πρόσκομμα
+34:12 P- -------- ἐν ἐν
+34:12 RP ----DP-- ὑμῖν σύ  # module lemma ὑμῖν, the form itself — σύ is the dictionary form
+34:13 RA ----APM- τοὺς ὁ
+34:13 N- ----APM- βωμοὺς βωμός
+34:13 RP ----GPM- αὐτῶν αὐτός
+34:13 V- 2FAI-P-- καθελεῖτε καθαιρέω
+34:13 C- -------- καὶ καί
+34:13 RA ----APF- τὰς ὁ
+34:13 N- ----APF- στήλας στήλη
+34:13 RP ----GPM- αὐτῶν αὐτός
+34:13 V- 2FAI-P-- συντρίψετε συντρίβω
+34:13 C- -------- καὶ καί
+34:13 RA ----APN- τὰ ὁ
+34:13 N- ----APN- ἄλση ἄλσος
+34:13 RP ----GPM- αὐτῶν αὐτός
+34:13 V- 2FAI-P-- ἐκκόψετε ἐκκόπτω
+34:13 C- -------- καὶ καί
+34:13 RA ----APN- τὰ ὁ
+34:13 A- ----APN- γλυπτὰ γλυπτός
+34:13 RA ----GPM- τῶν ὁ
+34:13 N- ----GPM- θεῶν θεός
+34:13 RP ----GPM- αὐτῶν αὐτός
+34:13 V- 2FAI-P-- κατακαύσετε κατακαίω
+34:13 P- -------- ἐν ἐν
+34:13 N- ----DSN- πυρί πῦρ
+34:14 D- -------- οὐ οὐ
+34:14 C- -------- γὰρ γάρ
+34:14 D- -------- μὴ μή
+34:14 V- 2AAS-P-- προσκυνήσητε προσκυνέω
+34:14 N- ----DSM- θεῷ θεός
+34:14 A- ----DSM- ἑτέρῳ ἕτερος
+34:14 RA ----NSM- ὁ ὁ
+34:14 C- -------- γὰρ γάρ
+34:14 N- ----NSM- κύριος κύριος
+34:14 RA ----NSM- ὁ ὁ
+34:14 N- ----NSM- θεὸς θεός
+34:14 A- ----NSN- ζηλωτὸν ζηλωτός
+34:14 N- ----NSN- ὄνομα ὄνομα
+34:14 N- ----NSM- θεὸς θεός
+34:14 N- ----NSM- ζηλωτής ζηλωτής
+34:14 V- 3PAI-S-- ἐστιν εἰμί
+34:15 C- -------- μήποτε μήποτε
+34:15 V- 2AAS-S-- θῇς τίθημι
+34:15 N- ----ASF- διαθήκην διαθήκη
+34:15 RA ----DPM- τοῖς ὁ
+34:15 V- -PEPDPM- ἐγκαθημένοις ἐγκάθημαι
+34:15 P- -------- πρὸς πρός
+34:15 A- ----APC- ἀλλοφύλους ἀλλόφυλος
+34:15 P- -------- ἐπὶ ἐπί
+34:15 RA ----GSF- τῆς ὁ
+34:15 N- ----GSF- γῆς γῆ
+34:15 C- -------- καὶ καί
+34:15 V- 3AAS-P-- ἐκπορνεύσωσιν ἐκπορνεύω
+34:15 P- -------- ὀπίσω ὀπίσω
+34:15 RA ----GPM- τῶν ὁ
+34:15 N- ----GPM- θεῶν θεός
+34:15 RP ----GPM- αὐτῶν αὐτός
+34:15 C- -------- καὶ καί
+34:15 V- 3AAS-P-- θύσωσι θύω
+34:15 RA ----DPM- τοῖς ὁ
+34:15 N- ----DPM- θεοῖς θεός
+34:15 RP ----GPM- αὐτῶν αὐτός
+34:15 C- -------- καὶ καί
+34:15 V- 3AAS-P-- καλέσωσίν καλέω
+34:15 RP ----AS-- σε σύ  # module lemma σέ, the form itself — σύ is the dictionary form
+34:15 C- -------- καὶ καί
+34:15 V- 2AAS-S-- φάγῃς ἐσθίω  # module lemma φάγω — ἐσθίω, under which MorphGNT files the aorist φαγ- and the future φάγομαι
+34:15 RA ----GPN- τῶν ὁ
+34:15 N- ----GPN- θυμάτων θῦμα
+34:15 RP ----GPM- αὐτῶν αὐτός
+34:16 C- -------- καὶ καί
+34:16 V- 2AAS-S-- λάβῃς λαμβάνω
+34:16 RA ----GPF- τῶν ὁ
+34:16 N- ----GPF- θυγατέρων θυγάτηρ
+34:16 RP ----GPM- αὐτῶν αὐτός
+34:16 RA ----DPM- τοῖς ὁ
+34:16 N- ----DPM- υἱοῖς υἱός
+34:16 RP ----GS-- σου σύ  # module lemma σοῦ, the form itself — σύ is the dictionary form
+34:16 C- -------- καὶ καί
+34:16 RA ----GPF- τῶν ὁ
+34:16 N- ----GPF- θυγατέρων θυγάτηρ
+34:16 RP ----GS-- σου σύ  # module lemma σοῦ, the form itself — σύ is the dictionary form
+34:16 V- 2AAS-S-- δῷς δίδωμι
+34:16 RA ----DPM- τοῖς ὁ
+34:16 N- ----DPM- υἱοῖς υἱός
+34:16 RP ----GPM- αὐτῶν αὐτός
+34:16 C- -------- καὶ καί
+34:16 V- 3AAS-P-- ἐκπορνεύσωσιν ἐκπορνεύω
+34:16 RA ----NPF- αἱ ὁ
+34:16 N- ----NPF- θυγατέρες θυγάτηρ
+34:16 RP ----GS-- σου σύ  # module lemma σοῦ, the form itself — σύ is the dictionary form
+34:16 P- -------- ὀπίσω ὀπίσω
+34:16 RA ----GPM- τῶν ὁ
+34:16 N- ----GPM- θεῶν θεός
+34:16 RP ----GPM- αὐτῶν αὐτός
+34:16 C- -------- καὶ καί
+34:16 V- 3AAS-P-- ἐκπορνεύσωσιν ἐκπορνεύω
+34:16 RA ----APM- τοὺς ὁ
+34:16 N- ----APM- υἱούς υἱός
+34:16 RP ----GS-- σου σύ  # module lemma σοῦ, the form itself — σύ is the dictionary form
+34:16 P- -------- ὀπίσω ὀπίσω
+34:16 RA ----GPM- τῶν ὁ
+34:16 N- ----GPM- θεῶν θεός
+34:16 RP ----GPM- αὐτῶν αὐτός
+34:17 C- -------- καὶ καί
+34:17 N- ----APM- θεοὺς θεός
+34:17 A- ----APM- χωνευτοὺς χωνευτός
+34:17 D- -------- οὐ οὐ
+34:17 V- 2FAI-S-- ποιήσεις ποιέω
+34:17 RP ----DSM- σεαυτῷ σεαυτοῦ
+34:18 C- -------- καὶ καί
+34:18 RA ----ASF- τὴν ὁ
+34:18 N- ----ASF- ἑορτὴν ἑορτή
+34:18 RA ----GPN- τῶν ὁ  # module GPM — neuter, with ἀζύμων, τὰ ἄζυμα, as at 23:15
+34:18 A- ----GPN- ἀζύμων ἄζυμος  # module GPM — neuter, τὰ ἄζυμα, the feast of unleavened bread, as ἄζυμα later in this verse
+34:18 V- 2FMI-S-- φυλάξῃ φυλάσσω  # corpus — the second person future middle, you will keep, as the commands round it; EXO 23:20's is the subjunctive after ἵνα
+34:18 A- ----APF- ἑπτὰ ἑπτά  # module M, no features — MorphGNT gives ἑπτά case, number and gender like any adjective
+34:18 N- ----APF- ἡμέρας ἡμέρα
+34:18 V- 2FMI-S-- φάγῃ ἐσθίω  # module lemma φάγω — ἐσθίω, under which MorphGNT files the aorist φαγ- and the future φάγομαι
+34:18 A- ----APN- ἄζυμα ἄζυμος
+34:18 C- -------- καθάπερ καθάπερ
+34:18 V- 1XEI-S-- ἐντέταλμαί ἐντέλλομαι
+34:18 RP ----DS-- σοι σύ  # module lemma σοί, the form itself — σύ is the dictionary form
+34:18 P- -------- εἰς εἰς
+34:18 RA ----ASM- τὸν ὁ
+34:18 N- ----ASM- καιρὸν καιρός
+34:18 P- -------- ἐν ἐν
+34:18 N- ----DSM- μηνὶ μήν
+34:18 RA ----GPN- τῶν ὁ
+34:18 A- ----GPN- νέων νέος
+34:18 P- -------- ἐν ἐν
+34:18 C- -------- γὰρ γάρ
+34:18 N- ----DSM- μηνὶ μήν
+34:18 RA ----GPN- τῶν ὁ
+34:18 A- ----GPN- νέων νέος
+34:18 V- 2AAI-S-- ἐξῆλθες ἐξέρχομαι
+34:18 P- -------- ἐξ ἐκ
+34:18 N- ----GSF- Αἰγύπτου Αἴγυπτος
+34:19 A- ----NSN- πᾶν πᾶς
+34:19 V- -PAPNSN- διανοῖγον διανοίγω
+34:19 N- ----ASF- μήτραν μήτρα
+34:19 RP ----DS-- ἐμοί ἐγώ  # module lemma ἐμοί, the form itself — ἐγώ is the dictionary form
+34:19 RA ----NPN- τὰ ὁ
+34:19 A- ----NPN- ἀρσενικά ἀρσενικός
+34:19 A- ----NSN- πρωτότοκον πρωτότοκος
+34:19 N- ----GSM- μόσχου μόσχος
+34:19 C- -------- καὶ καί
+34:19 A- ----NSN- πρωτότοκον πρωτότοκος
+34:19 N- ----GSN- προβάτου πρόβατον
+34:20 C- -------- καὶ καί
+34:20 A- ----ASN- πρωτότοκον πρωτότοκος  # module NSN — accusative, the object of λυτρώσῃ
+34:20 N- ----GSN- ὑποζυγίου ὑποζύγιον
+34:20 V- 2FMI-S-- λυτρώσῃ λυτρόω
+34:20 N- ----DSN- προβάτῳ πρόβατον
+34:20 C- -------- ἐὰν ἐάν
+34:20 C- -------- δὲ δέ
+34:20 D- -------- μὴ μή
+34:20 V- 2AMS-S-- λυτρώσῃ λυτρόω  # corpus — the subjunctive after ἐάν; the λυτρώσῃ before and after it, and EXO 13:13's, the future  # module FMI2S — the aorist subjunctive after ἐάν
+34:20 RP ----ASN- αὐτό αὐτός
+34:20 N- ----ASF- τιμὴν τιμή
+34:20 V- 2FAI-S-- δώσεις δίδωμι
+34:20 A- ----ASN- πᾶν πᾶς
+34:20 A- ----ASN- πρωτότοκον πρωτότοκος
+34:20 RA ----GPM- τῶν ὁ
+34:20 N- ----GPM- υἱῶν υἱός
+34:20 RP ----GS-- σου σύ  # module lemma σοῦ, the form itself — σύ is the dictionary form
+34:20 V- 2FMI-S-- λυτρώσῃ λυτρόω
+34:20 D- -------- οὐκ οὐ
+34:20 V- 2FPI-S-- ὀφθήσῃ ὁράω
+34:20 P- -------- ἐνώπιόν ἐνώπιον  # module lemma ἐνώπιος — ἐνώπιον, the preposition, as MorphGNT files it
+34:20 RP ----GS-- μου ἐγώ  # module lemma μου, the form itself — ἐγώ is the dictionary form
+34:20 A- ----NSM- κενός κενός
+34:21 A- ----APF- ἓξ ἕξ  # module M, no features — MorphGNT gives ἕξ case, number and gender like any adjective
+34:21 N- ----APF- ἡμέρας ἡμέρα
+34:21 V- 2FMI-S-- ἐργᾷ ἐργάζομαι
+34:21 RA ----DSF- τῇ ὁ
+34:21 C- -------- δὲ δέ
+34:21 A- ----DSF- ἑβδόμῃ ἕβδομος
+34:21 V- 2FAI-S-- καταπαύσεις καταπαύω
+34:21 RA ----DSM- τῷ ὁ
+34:21 N- ----DSM- σπόρῳ σπόρος
+34:21 C- -------- καὶ καί
+34:21 RA ----DSM- τῷ ὁ
+34:21 N- ----DSM- ἀμήτῳ ἄμητος
+34:21 V- 2FAI-S-- καταπαύσεις καταπαύω
+34:22 C- -------- καὶ καί
+34:22 N- ----ASF- ἑορτὴν ἑορτή
+34:22 N- ----GPF- ἑβδομάδων ἑβδομάς
+34:22 V- 2FAI-S-- ποιήσεις ποιέω
+34:22 RP ----DS-- μοι ἐγώ  # module lemma μοι, the form itself — ἐγώ is the dictionary form
+34:22 N- ----ASF- ἀρχὴν ἀρχή
+34:22 N- ----GSM- θερισμοῦ θερισμός
+34:22 N- ----GPM- πυρῶν πυρός
+34:22 C- -------- καὶ καί
+34:22 N- ----ASF- ἑορτὴν ἑορτή
+34:22 N- ----GSF- συναγωγῆς συναγωγή
+34:22 V- -PAPGSM- μεσοῦντος μεσόω
+34:22 RA ----GSM- τοῦ ὁ
+34:22 N- ----GSM- ἐνιαυτοῦ ἐνιαυτός
+34:23 A- ----APC- τρεῖς τρεῖς
+34:23 N- ----APM- καιροὺς καιρός
+34:23 RA ----GSM- τοῦ ὁ
+34:23 N- ----GSM- ἐνιαυτοῦ ἐνιαυτός
+34:23 V- 3FPI-S-- ὀφθήσεται ὁράω
+34:23 A- ----NSN- πᾶν πᾶς
+34:23 A- ----NSN- ἀρσενικόν ἀρσενικός
+34:23 RP ----GS-- σου σύ  # module lemma σοῦ, the form itself — σύ is the dictionary form
+34:23 P- -------- ἐνώπιον ἐνώπιον  # module lemma ἐνώπιος — ἐνώπιον, the preposition, as MorphGNT files it
+34:23 N- ----GSM- κυρίου κύριος
+34:23 RA ----GSM- τοῦ ὁ
+34:23 N- ----GSM- θεοῦ θεός
+34:23 N- ----GSM- Ισραηλ Ἰσραήλ
+34:24 C- -------- ὅταν ὅταν
+34:24 C- -------- γὰρ γάρ
+34:24 V- 1AAS-S-- ἐκβάλω ἐκβάλλω
+34:24 RA ----APN- τὰ ὁ
+34:24 N- ----APN- ἔθνη ἔθνος
+34:24 P- -------- πρὸ πρό
+34:24 N- ----GSN- προσώπου πρόσωπον
+34:24 RP ----GS-- σου σύ  # module lemma σοῦ, the form itself — σύ is the dictionary form
+34:24 C- -------- καὶ καί
+34:24 V- 1AAS-S-- πλατύνω πλατύνω  # module PAS1S — the aorist subjunctive, beside ἐκβάλω after ὅταν
+34:24 RA ----APN- τὰ ὁ
+34:24 N- ----APN- ὅριά ὅριον
+34:24 RP ----GS-- σου σύ  # module lemma σοῦ, the form itself — σύ is the dictionary form
+34:24 D- -------- οὐκ οὐ
+34:24 V- 3FAI-S-- ἐπιθυμήσει ἐπιθυμέω
+34:24 A- ----NSM- οὐδεὶς οὐδείς
+34:24 RA ----GSF- τῆς ὁ
+34:24 N- ----GSF- γῆς γῆ
+34:24 RP ----GS-- σου σύ  # module lemma σοῦ, the form itself — σύ is the dictionary form
+34:24 C- -------- ἡνίκα ἡνίκα
+34:24 X- -------- ἂν ἄν
+34:24 V- 2PAS-S-- ἀναβαίνῃς ἀναβαίνω
+34:24 V- -APN---- ὀφθῆναι ὁράω
+34:24 P- -------- ἐναντίον ἐναντίον
+34:24 N- ----GSM- κυρίου κύριος
+34:24 RA ----GSM- τοῦ ὁ
+34:24 N- ----GSM- θεοῦ θεός
+34:24 RP ----GS-- σου σύ  # module lemma σοῦ, the form itself — σύ is the dictionary form
+34:24 A- ----APC- τρεῖς τρεῖς
+34:24 N- ----APM- καιροὺς καιρός
+34:24 RA ----GSM- τοῦ ὁ
+34:24 N- ----GSM- ἐνιαυτοῦ ἐνιαυτός
+34:25 D- -------- οὐ οὐ
+34:25 V- 2FAI-S-- σφάξεις σφάζω
+34:25 P- -------- ἐπὶ ἐπί
+34:25 N- ----DSF- ζύμῃ ζύμη
+34:25 N- ----ASN- αἷμα αἷμα
+34:25 N- ----GPN- θυμιαμάτων θυμίαμα
+34:25 RP ----GS-- μου ἐγώ  # module lemma μου, the form itself — ἐγώ is the dictionary form
+34:25 C- -------- καὶ καί
+34:25 D- -------- οὐ οὐ
+34:25 V- 3FPI-S-- κοιμηθήσεται κοιμάω
+34:25 P- -------- εἰς εἰς
+34:25 RA ----ASN- τὸ ὁ
+34:25 D- -------- πρωὶ πρωΐ
+34:25 N- ----NPN- θύματα θῦμα
+34:25 RA ----GSF- τῆς ὁ
+34:25 N- ----GSF- ἑορτῆς ἑορτή
+34:25 RA ----GSN- τοῦ ὁ
+34:25 N- ----GSN- πασχα πασχα  # module lemma πάσχα — πασχα, unaccented as Rahlfs prints it, a name here
+34:26 RA ----APN- τὰ ὁ
+34:26 N- ----APN- πρωτογενήματα πρωτογένημα
+34:26 RA ----GSF- τῆς ὁ
+34:26 N- ----GSF- γῆς γῆ
+34:26 RP ----GS-- σου σύ  # module lemma σοῦ, the form itself — σύ is the dictionary form
+34:26 V- 2FAI-S-- θήσεις τίθημι
+34:26 P- -------- εἰς εἰς
+34:26 RA ----ASM- τὸν ὁ
+34:26 N- ----ASM- οἶκον οἶκος
+34:26 N- ----GSM- κυρίου κύριος
+34:26 RA ----GSM- τοῦ ὁ
+34:26 N- ----GSM- θεοῦ θεός
+34:26 RP ----GS-- σου σύ  # module lemma σοῦ, the form itself — σύ is the dictionary form
+34:26 D- -------- οὐ οὐ
+34:26 V- 2FAI-S-- προσοίσεις προσφέρω
+34:26 N- ----ASM- ἄρνα ἀρήν
+34:26 P- -------- ἐν ἐν
+34:26 N- ----DSN- γάλακτι γάλα
+34:26 N- ----GSF- μητρὸς μήτηρ
+34:26 RP ----GSM- αὐτοῦ αὐτός
+34:27 C- -------- Καὶ καί
+34:27 V- 3AAI-S-- εἶπεν λέγω  # module lemma ἔπω — λέγω keeps one dictionary form across both testaments
+34:27 N- ----NSM- κύριος κύριος
+34:27 P- -------- πρὸς πρός
+34:27 N- ----ASM- Μωυσῆν Μωϋσῆς  # module lemma Μωσεύς — Μωϋσῆς, as MorphGNT files it
+34:27 V- 2AAD-S-- Γράψον γράφω
+34:27 RP ----DSM- σεαυτῷ σεαυτοῦ
+34:27 RA ----APN- τὰ ὁ
+34:27 N- ----APN- ῥήματα ῥῆμα
+34:27 RD ----APN- ταῦτα οὗτος
+34:27 P- -------- ἐπὶ ἐπί
+34:27 C- -------- γὰρ γάρ
+34:27 RA ----GPM- τῶν ὁ
+34:27 N- ----GPM- λόγων λόγος
+34:27 RD ----GPM- τούτων οὗτος
+34:27 V- 1XEI-S-- τέθειμαί τίθημι
+34:27 RP ----DS-- σοι σύ  # module lemma σοί, the form itself — σύ is the dictionary form
+34:27 N- ----ASF- διαθήκην διαθήκη
+34:27 C- -------- καὶ καί
+34:27 RA ----DSM- τῷ ὁ
+34:27 N- ----DSM- Ισραηλ Ἰσραήλ
+34:28 C- -------- καὶ καί
+34:28 V- 3IAI-S-- ἦν εἰμί
+34:28 D- -------- ἐκεῖ ἐκεῖ
+34:28 N- ----NSM- Μωυσῆς Μωϋσῆς  # module lemma Μωσεύς — Μωϋσῆς, as MorphGNT files it
+34:28 P- -------- ἐναντίον ἐναντίον
+34:28 N- ----GSM- κυρίου κύριος
+34:28 A- ----APF- τεσσαράκοντα τεσσαράκοντα  # module M, no features — MorphGNT gives τεσσαράκοντα case, number and gender like any adjective
+34:28 N- ----APF- ἡμέρας ἡμέρα
+34:28 C- -------- καὶ καί
+34:28 A- ----APF- τεσσαράκοντα τεσσαράκοντα  # module M, no features — MorphGNT gives τεσσαράκοντα case, number and gender like any adjective
+34:28 N- ----APF- νύκτας νύξ
+34:28 N- ----ASM- ἄρτον ἄρτος
+34:28 D- -------- οὖκ οὐ
+34:28 V- 3AAI-S-- ἔφαγεν ἐσθίω  # module lemma φάγω — ἐσθίω, under which MorphGNT files the aorist φαγ- and the future φάγομαι
+34:28 C- -------- καὶ καί
+34:28 N- ----ASN- ὕδωρ ὕδωρ  # module NSN — accusative, the object of ἔπιεν
+34:28 D- -------- οὐκ οὐ
+34:28 V- 3AAI-S-- ἔπιεν πίνω
+34:28 C- -------- καὶ καί
+34:28 V- 3AAI-S-- ἔγραψεν γράφω
+34:28 RA ----APN- τὰ ὁ
+34:28 N- ----APN- ῥήματα ῥῆμα
+34:28 RD ----APN- ταῦτα οὗτος
+34:28 P- -------- ἐπὶ ἐπί
+34:28 RA ----GPF- τῶν ὁ
+34:28 N- ----GPF- πλακῶν πλάξ
+34:28 RA ----GSF- τῆς ὁ
+34:28 N- ----GSF- διαθήκης διαθήκη
+34:28 RA ----APM- τοὺς ὁ
+34:28 A- ----APM- δέκα δέκα  # module M, no features — MorphGNT gives δέκα case, number and gender like any adjective
+34:28 N- ----APM- λόγους λόγος
+34:29 C- -------- ὡς ὡς  # module lemma ὥς — ὡς, the comparative particle, as MorphGNT files it
+34:29 C- -------- δὲ δέ
+34:29 V- 3IAI-S-- κατέβαινεν καταβαίνω
+34:29 N- ----NSM- Μωυσῆς Μωϋσῆς  # module lemma Μωσεύς — Μωϋσῆς, as MorphGNT files it
+34:29 P- -------- ἐκ ἐκ
+34:29 RA ----GSN- τοῦ ὁ
+34:29 N- ----GSN- ὄρους ὄρος
+34:29 C- -------- καὶ καί
+34:29 RA ----NPF- αἱ ὁ
+34:29 A- ----NPF- δύο δύο  # module M, no features — MorphGNT gives δύο case, number and gender like any adjective
+34:29 N- ----NPF- πλάκες πλάξ
+34:29 P- -------- ἐπὶ ἐπί
+34:29 RA ----GPF- τῶν ὁ
+34:29 N- ----GPF- χειρῶν χείρ
+34:29 N- ----GSM- Μωυσῆ Μωϋσῆς  # module lemma Μωσεύς — Μωϋσῆς, as MorphGNT files it
+34:29 V- -PAPGSM- καταβαίνοντος καταβαίνω
+34:29 C- -------- δὲ δέ
+34:29 RP ----GSM- αὐτοῦ αὐτός
+34:29 P- -------- ἐκ ἐκ
+34:29 RA ----GSN- τοῦ ὁ
+34:29 N- ----GSN- ὄρους ὄρος
+34:29 N- ----NSM- Μωυσῆς Μωϋσῆς  # module lemma Μωσεύς — Μωϋσῆς, as MorphGNT files it
+34:29 D- -------- οὐκ οὐ
+34:29 V- 3YAI-S-- ᾔδει οἶδα
+34:29 C- -------- ὅτι ὅτι
+34:29 V- 3XEI-S-- δεδόξασται δοξάζω
+34:29 RA ----NSF- ἡ ὁ
+34:29 N- ----NSF- ὄψις ὄψις
+34:29 RA ----GSN- τοῦ ὁ
+34:29 N- ----GSN- χρώματος χρῶμα
+34:29 RA ----GSN- τοῦ ὁ
+34:29 N- ----GSN- προσώπου πρόσωπον
+34:29 RP ----GSM- αὐτοῦ αὐτός
+34:29 P- -------- ἐν ἐν
+34:29 RA ----DSN- τῷ ὁ
+34:29 V- -PAN---- λαλεῖν λαλέω
+34:29 RP ----ASM- αὐτὸν αὐτός
+34:29 RP ----DSM- αὐτῷ αὐτός
+34:30 C- -------- καὶ καί
+34:30 V- 3AAI-S-- εἶδεν ὁράω
+34:30 N- ----NSM- Ααρων Ἀαρών
+34:30 C- -------- καὶ καί
+34:30 A- ----NPM- πάντες πᾶς
+34:30 RA ----NPM- οἱ ὁ
+34:30 A- ----NPMC πρεσβύτεροι πρεσβύτερος
+34:30 N- ----GSM- Ισραηλ Ἰσραήλ
+34:30 RA ----ASM- τὸν ὁ
+34:30 N- ----ASM- Μωυσῆν Μωϋσῆς  # module lemma Μωσεύς — Μωϋσῆς, as MorphGNT files it
+34:30 C- -------- καὶ καί
+34:30 V- 3IAI-S-- ἦν εἰμί
+34:30 V- -XEPNSF- δεδοξασμένη δοξάζω
+34:30 RA ----NSF- ἡ ὁ
+34:30 N- ----NSF- ὄψις ὄψις
+34:30 RA ----GSN- τοῦ ὁ
+34:30 N- ----GSN- χρώματος χρῶμα
+34:30 RA ----GSN- τοῦ ὁ
+34:30 N- ----GSN- προσώπου πρόσωπον
+34:30 RP ----GSM- αὐτοῦ αὐτός
+34:30 C- -------- καὶ καί
+34:30 V- 3API-P-- ἐφοβήθησαν φοβέομαι  # module lemma φοβέω — φοβέομαι, as MorphGNT files it
+34:30 V- -AAN---- ἐγγίσαι ἐγγίζω
+34:30 RP ----GSM- αὐτοῦ αὐτός
+34:31 C- -------- καὶ καί
+34:31 V- 3AAI-S-- ἐκάλεσεν καλέω
+34:31 RP ----APM- αὐτοὺς αὐτός
+34:31 N- ----NSM- Μωυσῆς Μωϋσῆς  # module lemma Μωσεύς — Μωϋσῆς, as MorphGNT files it
+34:31 C- -------- καὶ καί
+34:31 V- 3API-P-- ἐπεστράφησαν ἐπιστρέφω
+34:31 P- -------- πρὸς πρός
+34:31 RP ----ASM- αὐτὸν αὐτός
+34:31 N- ----NSM- Ααρων Ἀαρών
+34:31 C- -------- καὶ καί
+34:31 A- ----NPM- πάντες πᾶς
+34:31 RA ----NPM- οἱ ὁ
+34:31 N- ----NPM- ἄρχοντες ἄρχων
+34:31 RA ----GSF- τῆς ὁ
+34:31 N- ----GSF- συναγωγῆς συναγωγή
+34:31 C- -------- καὶ καί
+34:31 V- 3AAI-S-- ἐλάλησεν λαλέω
+34:31 RP ----DPM- αὐτοῖς αὐτός
+34:31 N- ----NSM- Μωυσῆς Μωϋσῆς  # module lemma Μωσεύς — Μωϋσῆς, as MorphGNT files it
+34:32 C- -------- καὶ καί
+34:32 P- -------- μετὰ μετά
+34:32 RD ----APN- ταῦτα οὗτος
+34:32 V- 3AAI-P-- προσῆλθον προσέρχομαι
+34:32 P- -------- πρὸς πρός
+34:32 RP ----ASM- αὐτὸν αὐτός
+34:32 A- ----NPM- πάντες πᾶς
+34:32 RA ----NPM- οἱ ὁ
+34:32 N- ----NPM- υἱοὶ υἱός
+34:32 N- ----GSM- Ισραηλ Ἰσραήλ
+34:32 C- -------- καὶ καί
+34:32 V- 3AMI-S-- ἐνετείλατο ἐντέλλομαι
+34:32 RP ----DPM- αὐτοῖς αὐτός
+34:32 A- ----APN- πάντα πᾶς
+34:32 RR ----APN- ὅσα ὅσος
+34:32 V- 3AAI-S-- ἐλάλησεν λαλέω
+34:32 N- ----NSM- κύριος κύριος
+34:32 P- -------- πρὸς πρός
+34:32 RP ----ASM- αὐτὸν αὐτός
+34:32 P- -------- ἐν ἐν
+34:32 RA ----DSN- τῷ ὁ
+34:32 N- ----DSN- ὄρει ὄρος
+34:32 N- ----DS-- Σινα Σινα  # module lemma Σινᾶ — Σινα, as Rahlfs prints it, unaccented
+34:33 C- -------- καὶ καί
+34:33 C- -------- ἐπειδὴ ἐπειδή
+34:33 V- 3AAI-S-- κατέπαυσεν καταπαύω
+34:33 V- -PAPNSM- λαλῶν λαλέω
+34:33 P- -------- πρὸς πρός
+34:33 RP ----APM- αὐτούς αὐτός
+34:33 V- 3AAI-S-- ἐπέθηκεν ἐπιτίθημι
+34:33 P- -------- ἐπὶ ἐπί
+34:33 RA ----ASN- τὸ ὁ
+34:33 N- ----ASN- πρόσωπον πρόσωπον
+34:33 RP ----GSM- αὐτοῦ αὐτός
+34:33 N- ----ASN- κάλυμμα κάλυμμα
+34:34 C- -------- ἡνίκα ἡνίκα
+34:34 C- -------- δʼ δέ
+34:34 X- -------- ἂν ἄν
+34:34 V- 3IEI-S-- εἰσεπορεύετο εἰσπορεύομαι
+34:34 N- ----NSM- Μωυσῆς Μωϋσῆς  # module lemma Μωσεύς — Μωϋσῆς, as MorphGNT files it
+34:34 P- -------- ἔναντι ἔναντι
+34:34 N- ----GSM- κυρίου κύριος
+34:34 V- -PAN---- λαλεῖν λαλέω
+34:34 RP ----DSM- αὐτῷ αὐτός
+34:34 V- 3IEI-S-- περιῃρεῖτο περιαιρέω
+34:34 RA ----ASN- τὸ ὁ
+34:34 N- ----ASN- κάλυμμα κάλυμμα
+34:34 P- -------- ἕως ἕως
+34:34 RA ----GSN- τοῦ ὁ
+34:34 V- -PEN---- ἐκπορεύεσθαι ἐκπορεύομαι
+34:34 C- -------- καὶ καί
+34:34 V- -AAPNSM- ἐξελθὼν ἐξέρχομαι
+34:34 V- 3IAI-S-- ἐλάλει λαλέω
+34:34 A- ----DPM- πᾶσιν πᾶς
+34:34 RA ----DPM- τοῖς ὁ
+34:34 N- ----DPM- υἱοῖς υἱός
+34:34 N- ----GSM- Ισραηλ Ἰσραήλ
+34:34 RR ----APN- ὅσα ὅσος
+34:34 V- 3AMI-S-- ἐνετείλατο ἐντέλλομαι
+34:34 RP ----DSM- αὐτῷ αὐτός
+34:34 N- ----NSM- κύριος κύριος
+34:35 C- -------- καὶ καί
+34:35 V- 3AAI-P-- εἶδον ὁράω
+34:35 RA ----NPM- οἱ ὁ
+34:35 N- ----NPM- υἱοὶ υἱός
+34:35 N- ----GSM- Ισραηλ Ἰσραήλ
+34:35 RA ----ASN- τὸ ὁ
+34:35 N- ----ASN- πρόσωπον πρόσωπον
+34:35 N- ----GSM- Μωυσῆ Μωϋσῆς  # module lemma Μωσεύς — Μωϋσῆς, as MorphGNT files it
+34:35 C- -------- ὅτι ὅτι
+34:35 V- 3XEI-S-- δεδόξασται δοξάζω
+34:35 C- -------- καὶ καί
+34:35 V- 3AAI-S-- περιέθηκεν περιτίθημι
+34:35 N- ----NSM- Μωυσῆς Μωϋσῆς  # module lemma Μωσεύς — Μωϋσῆς, as MorphGNT files it
+34:35 N- ----ASN- κάλυμμα κάλυμμα
+34:35 P- -------- ἐπὶ ἐπί
+34:35 RA ----ASN- τὸ ὁ
+34:35 N- ----ASN- πρόσωπον πρόσωπον
+34:35 RP ----GSM- ἑαυτοῦ ἑαυτοῦ
+34:35 C- -------- ἕως ἕως
+34:35 X- -------- ἂν ἄν
+34:35 V- 3AAS-S-- εἰσέλθῃ εἰσέρχομαι
+34:35 V- -PAN---- συλλαλεῖν συλλαλέω
+34:35 RP ----DSM- αὐτῷ αὐτός

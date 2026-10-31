@@ -571,6 +571,10 @@ LSJ = {
     # form of γνωτός", and no adverb; LSJ (eng3), inside γνωστός: "Adv. -τῶς «clearly»", one translation.
     "περιστολή": ["wrapping up", "laying out", "peristaltic action", "adornments", "restraint, decorum"],
     "γνωστῶς": ["clearly"],
+    # EXO 34. Not in Middle Liddell. LSJ (eng16): οἰκτίρμων, "«merciful»", citing 34:6; LSJ (eng17): πολυέλεος,
+    # "«very merciful»", citing 34:6. One translation each.
+    "οἰκτίρμων": ["merciful"],
+    "πολυέλεος": ["very merciful"],
     "διασκευή": ["construction", "equipment", "furniture or vessels", "rhetorical elaboration", "set phrases",
                  "new edition or recension", "theatrical performance"],
     # EXO 12. None of these is in Middle Liddell. LSJ (eng3): γειώρας, "sojourner", "proselyte". LSJ
@@ -1706,6 +1710,10 @@ NOT_SENSES = {
     "e)panastre/fw": {"to turn back upon"},    # "to turn back upon one", cut, whole in MARKUP_LOST
     "r(h/gnumi": {"to break, break asunder", "in pieces, rend, shiver, shatter", "force one's", "breaking into speech",
                   "rumpere vocem", "having let loose"},  # "to break … or in pieces", cut, whole in MARKUP_LOST; a piece, examples', Virgil
+    # EXO 34
+    "a)lhqino/s": {"true"},                    # an example's, "to turn out a «true» man"
+    "a)llo/fulos": {"with foreigners"},        # an example's, πόλεμος ἀλλ.
+    "xrw=ma": {"the surface, skin: the colour of the"},  # "«the colour of the» skin", cut, whole in MARKUP_LOST
     # EXO 33
     "a)/peimi": {"return"},
     "skope/w": {"considering", "being considered"},  # an example's participles, σκοπῶν καὶ σκοπούμενος
@@ -2056,6 +2064,14 @@ FORM_SENSES = {
     # the neuter's and the superlative's as nouns.
     "a)/peimi": [("PIFAXY", "A", NOT_SENSES["a)/peimi"] | {"be gone"}, None, "^...[^D]")],
     "e)mfani/zw": [("PIFAXY", "A", {"to become visible"})],
+    # EXO 34. νέμω's middle and passive read the first sense in the passive, the senses Middle Liddell marks "Mid."
+    # and "Pass.", and leave out the active's own, as GEN 41:3's ἐνέμοντο has them. χρῶμα's singular leaves out
+    # "metaph. in pl. ornaments, embellishments".
+    "ne/mw": [("PIFAXY", "ME", NOT_SENSES["ne/mw"] | {
+        "to pay", "to hold, possess", "to hold sway, manage", "to manage", "to support", "to use",
+        "to hold, consider as", "to take", "to pasture", "graze", "drive to pasture, tend", "to graze", "to give"})],
+    "xrw=ma": [("-", "-", NOT_SENSES["xrw=ma"] | {"ornaments, embellishments", "embellishments in music"}, None,
+                "^.....S")],
     "fi/los": [("-", "-", NOT_SENSES["fi/los"] | {"a dear one, friend", "an object of love", "one's nearest and dearest"},
                 None, "^......M")],
     # EXO 32. συνίστημι's second aorist active, συνέστη, is intransitive, as the perfect is: its causal senses and the
@@ -3032,6 +3048,8 @@ MARKUP_LOST = {
     "ei)=mi": [(2, "I shall go, shall come"), (3, "to come or go")],
     # EXO 33. οἰκτείρω: "«to pity» one «for» or «because of» a thing".
     "oi)ktei/rw": [(1, "to pity one for or because of a thing")],
+    # EXO 34. χρῶμα: "«the surface, skin: the colour of the» skin".
+    "xrw=ma": [(1, "the surface, skin: the colour of the skin")],
     "suskia/zw": [(0, "to shade quite over, throw a shade over, shade closely or thickly")],
     "a)ki/nhtos": [(5, "not to be stirred or touched, inviolate")],
     "tu/pos": [(5, "the sound of their tread"), (8, "anything wrought of metal or stone")],

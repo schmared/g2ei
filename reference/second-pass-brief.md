@@ -705,6 +705,12 @@ Eight disagreements over 551 words, and the second pass was right on all eight: 
 and ὀπίσω before μου prepositions; ὅσα at 33:16 and τὸ πρόσωπον at 33:23 nominative subjects; Καί at 33:17 the
 adverb.
 
+### What it found in Exodus 34
+
+Fourteen disagreements over 808 words, and the second pass was right on eleven: καί after καθώς the adverb; four
+nominative subjects; πλησίον before a genitive a preposition; ἑπτὰ ἡμέρας feminine; λυτρώσῃ after ἐάν the
+subjunctive; ἕως ἄν the conjunction. The three Σινα lines keep the case of their article.
+
 ## The brief
 
 Copy everything below the rule into a new agent. Replace `<BOOK NAME>`, `<CHAPTER>`,

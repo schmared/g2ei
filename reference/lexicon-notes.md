@@ -6277,7 +6277,7 @@ text uses.
   passive, then the passive's own *feeding and grazing*, *feeding on*, *nurtured*, *running riot
   in*. 41:2.
 - νέμω (imperfect middle/passive) — **headword** `were being dealt out`; the middle's *distributing
-  among themselves … possessing … dwelling in*, and of cattle *feeding, going to pasture and
+  among themselves … possessing … dwelling in … dwelling*, and of cattle *feeding, going to pasture and
   grazing, feeding on, eating, consuming and devouring*. 41:3, 41:18.
 - ἀναφύω (imperfect middle/passive) — **headword** `were being produced again`; **chain** adds
   *let grow*, *growing up*, *growing again*. 41:6, 41:23.
@@ -8440,3 +8440,40 @@ text uses. Chains already in the corpus (Genesis) were read from it and re-infle
   also. ἕως τοῦ εἰσελθεῖν takes the preposition.
 - **words.py**: three SPELLING comments an earlier edit had moved onto χαλκοῦς's line are back beside σφηκία,
   ἀναγινώσκω and παλαιστής.
+
+### Words new in EXO 34
+
+- **The page's own misprint**: 34:28 prints ἄρτον οὖκ ἔφαγεν, with the circumflex; the transcription keeps it, the
+  module prints it too, and the note says so.
+- **From LSJ** (not in Middle Liddell): οἰκτίρμων *merciful* and πολυέλεος *very merciful*, plain, citing 34:6.
+- **νέμω's middle and passive** (`FORM_SENSES`): the first sense in the passive, then the senses Middle Liddell marks
+  "Mid." and "Pass.", the active's own left out, as GEN 41:3's ἐνέμοντο read them: `let them be dealt out and
+  distributed and dispensed, let them distribute among themselves, …, let them spread`. GEN 41:3 and 41:18 had
+  dropped *dwelling*, the absolute *to dwell*, and now carry it.
+- **Restored whole** (`MARKUP_LOST`): χρῶμα's *the surface, skin: the colour of the skin*, `of the surface and skin
+  and the colour of the skin, of the complexion, of the colour`; the plural's embellishments left out of the singular.
+- **Set aside** (`NOT_SENSES`): ἀληθινός's example's *true*, `agreeable to truth, truthful and trusty, true and real`;
+  ἀλλόφυλος's example's *with foreigners*, `of another tribe and foreign`.
+- **validate.py**: GLOSS_LEADS takes `of of seven years`, ἑβδομάς's genitive, `of the numbers seven or numbers of
+  seven, of periods of seven days and weeks, of of seven years and septenaries`.
+- **πλησίον before a genitive** is a preposition, as ἔξω and ὀπίσω are (EXO 33): `near and close to, near and
+  neighbouring, near and nigh and hard by`, its noun senses left to ὁ πλησίον.
+- **θεῷ ἑτέρῳ** at 34:14 reads with the anarthrous formula (Q28).
+- New chains: μακρόθυμος `longsuffering and patient`; διατηρέω's participle; ἀφαιρέω's participle; ἀδικία's plural;
+  ἔνοχος with the article; ἐπάγω's participle; συμπορεύομαι's imperative; ἔνδοξος's positive; ἐκβάλλω's first person;
+  τίθημι's subjunctive and perfect middle, `I have set for myself and it stands so, …`; ἐγκάθημαι's dative; βωμός
+  `the any raised platforms and stands, the bases and pedestals, the raised places for sacrificing and altars, the
+  tombs and cairns`; ἄλσος `the glades or groves, the groves`; ἐκκόπτω's future; θεός's articular plural genitive and
+  dative; προσκυνέω's subjunctive; θύω's and καλέω's third plural subjunctive; φυλάσσω's future middle singular;
+  ἐντέλλομαι's perfect; πρόβατον's dative; λυτρόω's subjunctive; καταπαύω's second person; σπόρος `to the sowing, to
+  the seed-time, to the seed, to the produce and fruit and harvest and crop`; ἄμητος with the article; πλατύνω's,
+  ἀναβαίνω's subjunctive; ἐπιθυμέω's future; ὁράω's aorist passive infinitive; γράφω's imperative and future;
+  λόγος's anarthrous plural; καταβαίνω's imperfect and participle; ἐγγίζω's infinitive; κάλυμμα with the article;
+  περιαιρέω's imperfect middle; ἐκπορεύομαι's articular infinitive; λαλέω's with ἐν; συλλαλέω `to talk or converse
+  with`; σπεύδω's participle in the masculine; ὄρος's dative.
+- One translation each, plain text: λαξεύω *hew in stone*; καθότι *in what manner*; ἀνομία *lawlessness*; γλυπτός
+  *carved*; ἐκπορνεύω *commit fornication*; μήτρα *womb*; ἀρσενικός *male*; πρωτότοκος *first-born*; πυρός *wheat*;
+  πρωτογένημα *firstfruits*; οἰκτίρμων; πολυέλεος.
+- **Morphology**: the second pass was right on eleven of fourteen: καί at 34:1 and 34:4 the adverb, also; ἅ at 34:1
+  and 34:10, τὰ πρόβατα, θύματα nominative subjects; πλησίον before a genitive a preposition; ἑπτά with ἡμέρας
+  feminine; λυτρώσῃ after ἐάν the subjunctive; ἕως ἄν the conjunction. Σινα keeps the case of its article.

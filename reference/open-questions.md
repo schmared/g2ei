@@ -526,3 +526,20 @@ happens to be plural; a sense the entry assigns to the plural is the plural's ow
 
 **Recommendation:** keep the distinction: inflect a gloss whose plural is only the example's, and leave out a sense
 the entry gives to the plural.
+
+## Q28. Anarthrous θεός used of another god
+
+**Where:** EXO 34:14, οὐ γὰρ μὴ προσκυνήσητε θεῷ ἑτέρῳ, the first singular θεός without the article whose referent is
+not the God of the text. The plural, θεοὶ ἕτεροι (EXO 20:3), reads `gods, the gods, goddesses`.
+
+**Now:** the anarthrous formula, as the convention gives it for every anarthrous θεός: `to everything that God is by
+nature, to deity in full and undiminished kind`, with ἑτέρῳ `to other` after it.
+
+- now: `not for not you may make obeisance to everything that God is by nature, … to other`
+- the other reading: the singular of the plural's chain, `to a god, to the god, to a goddess`
+
+**The difference:** the formula says what the noun is by nature, and here the text denies that what it names is the
+God at all; the plural's range treats θεός as a common noun.
+
+**Recommendation:** keep the formula for anarthrous θεός where the referent is the God of the text, and read a
+singular θεός qualified by ἕτερος or ἀλλότριος as the plural is read.
