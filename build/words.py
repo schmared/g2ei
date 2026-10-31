@@ -528,6 +528,24 @@ LSJ = {
     "ᾤα": ["sheepskin", "garment of this material", "drawers", "apron", "border", "fringe of a garment"],
     "ῥοΐσκος": ["small pomegranate", "knob or tassel shaped like a pomegranate"],
     "βηρύλλιον": ["gem of sea-green colour, beryl"],
+    # EXO 29. Not in Middle Liddell. LSJ (eng11): κάρπωμα, "fruit", "profit", "offering of fruits" (printed
+    # "offering offruits"). LSJ (eng12): λάγανον, "a thin broad cake", its Latin "tracta" the Latin. LSJ (eng21):
+    # στηθύνιον, "Dim. of στῆθος", citing 29:26, no translation of its own, read as Middle Liddell's στῆθος (Q20).
+    # LSJ (eng25): χρῖσις, "smearing", "anointing", citing 29:21, "colouring, varnish, wash", "colour-washing". LSJ
+    # (eng1): ἀφαίρεμα, "that which is taken away as the choice part", "tribute", "deduction", "«coarse grits made
+    # from» ζέα", the Greek word given its English spelling, as βύσσος is; ἀφόρισμα, "that which is set apart: the
+    # wave-offering", citing 29:24, one translation. LSJ (eng5): ἐνδελεχισμός, "= ἐνδελέχεια, «persistence»", and
+    # "θυμίαμα -ισμοῦ «perpetual» incense", the genitive's English, citing 29:38. LSJ (eng16): ὁλοκαύτωσις,
+    # "sacrifice of a burnt-offering" (printed "burntoffering"), citing 29:25.
+    "κάρπωμα": ["fruit", "profit", "offering of fruits"],
+    "λάγανον": ["a thin broad cake"],
+    "στηθύνιον": ["the breast", "the breast as the seat of feeling, the heart"],
+    "χρῖσις": ["smearing", "anointing", "colouring, varnish, wash", "colour-washing"],
+    "ἀφαίρεμα": ["that which is taken away as the choice part", "tribute", "deduction",
+                 "coarse grits made from zea (ζέα)"],
+    "ἀφόρισμα": ["that which is set apart: the wave-offering"],
+    "ἐνδελεχισμός": ["persistence", "perpetual"],
+    "ὁλοκαύτωσις": ["sacrifice of a burnt-offering"],
     # EXO 12. None of these is in Middle Liddell. LSJ (eng3): γειώρας, "sojourner", "proselyte". LSJ
     # (eng4): δέσμη, "package, bundle", "a measure in Egypt", "in Medicine, handful"; Rahlfs prints the
     # accusative δεσμήν, the module δέσμην. LSJ (eng5): ἐνδόσθια, "= ἐντόσθια", a pointer to ἐντόσθιος,
@@ -1661,6 +1679,15 @@ NOT_SENSES = {
     "e)panastre/fw": {"to turn back upon"},    # "to turn back upon one", cut, whole in MARKUP_LOST
     "r(h/gnumi": {"to break, break asunder", "in pieces, rend, shiver, shatter", "force one's", "breaking into speech",
                   "rumpere vocem", "having let loose"},  # "to break … or in pieces", cut, whole in MARKUP_LOST; a piece, examples', Virgil
+    # EXO 29
+    "teleio/w": {"to make", "perfect, complete, accomplish", "to bring", "to perfection",  # cut, whole in MARKUP_LOST
+                 "when", "had their wishes accomplished", "successful"},  # examples' pieces
+    "proti/qhmi": {"let", "lie in state", "to set out", "for show", "sale", "was", "allowed",  # cut, whole in MARKUP_LOST
+                   "first", "over", "proposed to themselves, observed", "appointed"},  # the or-alternatives' pieces; middle examples'
+    "zw/nnumi": {"girded on his", "to gird on one's"},  # the middle's examples' pieces
+    "me/los": {"limb by limb", "in tune", "out of tune"},  # phrases', κατὰ μέλεα, ἐν μέλει, παρὰ μέλος
+    "a)mno/s": {"lambs"},                       # an example's, "lambs in temper"
+    "kaqarmo/s": {"an atonement", "by purifying", "avert", "by purification", "a purifying"},  # examples' pieces
     # EXO 28
     "ai)/sqhsis": {"to have a perception of", "perceive", "to give a perception", "to become perceptible",
                    "visions"},                  # phrases', αἴσθησιν ἔχειν and of things; an example's, αἰσθήσεις θεῶν
@@ -1881,6 +1908,21 @@ _APOLLUMI_ACT = {"to destroy utterly, kill, slay", "to destroy, demolish, waste"
 _APOLLUMI_MID = {"to perish utterly, die", "to be undone", "you are done for, lost, ruined",
                  "to be lost, slip away, vanish"}
 FORM_SENSES = {
+    # EXO 29. τελειόω's and ζώννυμι's active leave out the middle's and the passive's; προτίθημι's middle-passive and
+    # passive the middle's; τάσσω's middle the active's and the passive's.
+    "ta/ssw": [("PIFAXY", "M", {
+        "to arrange, put in order", "to draw up in order of battle, to form, array, marshal", "to be drawn up",
+        "in rank and file", "to post, station", "to appoint", "over", "to be appointed to", "to appoint one to do",
+        "to be appointed", "to order", "to assign to", "set", "to join", "to place in a certain order",
+        "to appoint, ordain, order, prescribe", "fix", "certain", "to fix", "fixed, prescribed"})],
+    "teleio/w": [("PIFAXY", "A", NOT_SENSES["teleio/w"] | {
+        "to be accomplished", "to be fulfilled", "to attain perfection, come to the end of one's labours",
+        "to reach maturity"})],
+    "zw/nnumi": [("PIFAXY", "A", NOT_SENSES["zw/nnumi"] | {
+        "to gird oneself, gird up one's loins", "to gird up one's loins, prepare for battle"})],
+    "proti/qhmi": [("PIFAXY", "EP", NOT_SENSES["proti/qhmi"] | {
+        "to have set before one", "to propose to oneself", "to put forth on one's own part, display, shew",
+        "to set before oneself", "to put in front"})],
     # EXO 28. αἴσθησις's and τέχνη's singular leave out the plural's; ἐπάγω's middle the active's; χρίω's active the
     # middle's and the passive's.
     "ai)/sqhsis": [("-", "-", NOT_SENSES["ai)/sqhsis"] | {"the senses"}, None, "^.....S")],
@@ -2595,6 +2637,8 @@ SPELLING = {
     "e)xqri/a": "e)/xqrh",          # LSJ: "late form of ἔχθρα", whose entry is headed ἔχθρη
     "taxu/": "taxu/s",              # the adverb, filed inside the adjective's entry
     "dikai/ws": "di/kaios",         # likewise
+    "e)ndelexw=s": "e)ndelexh/s",    # the adverb, "adv. -χῶς", inside the adjective's entry (EXO 29:38)
+    "kaqarismo/s": "kaqarmo/s",     # "later form for καθαρμός" (EXO 29:36)
     "e)piginw/skw": "e)pigignw/skw",  # the Attic spelling of a Koine form, as γινώσκω
     "zugo/s": "zugo/n",             # the entry is headed with the neuter
     "kli/mac": "kli=mac",           # the entry is headed with the circumflex
@@ -2865,6 +2909,11 @@ MARKUP_LOST = {
     "diori/zw": [(3, "to determine one to be")],  # "«to make» it «clear» to the ear"; "«to inform of» a thing «as contraband»"
     "strepto/s": [(4, "a collar of twisted or linked metal"), (9, "to be bent or turned"), (13, "glib, pliant")],
     "tra/peza": [(0, "a table")],
+    # EXO 29. τελειόω: "of things, «to make» it «perfect, complete, accomplish»", "«to bring» one «to perfection»";
+    # προτίθημι: "«to lay out» a dead body, «let» it «lie in state»", "«to set out» wares «for show» or «sale»",
+    # "speech «was» not «allowed» them".
+    "teleio/w": [(1, "to make it perfect, complete, accomplish"), (8, "to bring one to perfection")],
+    "proti/qhmi": [(15, "let it lie in state"), (18, "to set out for show or sale"), (27, "was allowed")],
     # EXO 28. ἐξαρτάω: "perf. pass. part., c. acc. rei, «having» a thing «hung on one, be furnished with»".
     "e)carta/w": [(6, "having a thing hung on one, be furnished with")],
     # σμάραγδος: "Lat. smaragdus, a precious stone of a green colour", the English inside the Latin element, as

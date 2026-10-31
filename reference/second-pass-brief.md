@@ -679,6 +679,11 @@ Fourteen disagreements over 802 words, and the second pass was right on four: α
 nominative; κύκλῳ with a genitive the preposition; ἄνθινον neuter. Ααρων at 28:3 stays dative, as at 28:2 and 28:4;
 ῥοΐσκος keeps LSJ's diaeresis; διὰ παντός neuter. Verse 28:29a is a verse of its own: number it `28:29a`.
 
+### What it found in Exodus 29
+
+Five disagreements over 1063 words, and the second pass was right on two: ἔξω with a genitive the preposition; τὸ
+θυσιαστήριον at 29:37 nominative. Ἁγίασμα keeps the dictionary form ἁγίασμα; πρωινός Middle Liddell's spelling.
+
 ## The brief
 
 Copy everything below the rule into a new agent. Replace `<BOOK NAME>`, `<CHAPTER>`,

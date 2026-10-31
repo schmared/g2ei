@@ -1671,6 +1671,9 @@ def entitled_to(book, chapter, verses):
                 # and each word of it: ἐνευλογέω is plain *will be blessed in*, and its
                 # *in* is its own, not a loose headword of the ἐν beside it (GEN 12:3)
                 here.update(first.split())
+                # in the number the form wears: λάγανον is plain *a thin broad cake*, and the
+                # plural's *cakes* is its own, not ἄρτος's headword loose beside it (EXO 29:2)
+                here.update(w + "s" for w in first.split())
                 # and a plain verb prints the auxiliaries its tense needs: ἐκπορνεύω is
                 # plain *has committed fornication*, and that *has* is not ἔχω's (GEN 38:24)
                 if word["parse"].startswith("verb"):

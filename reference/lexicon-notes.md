@@ -3273,7 +3273,7 @@ up — where the lexicon has it intransitive; the verse's note records that. GEN
 
 - **headword:** `is marked off by boundaries` — Middle Liddell, first sense *to mark off by
   boundaries*; present, 3rd singular, one form for middle and passive.
-- **chain:** `is marked off by boundaries, is marked off for itself, is distinguished and determined and defined, is set apart and separated`
+- **chain:** `is marked off by boundaries, is distinguished and determined and defined, is banished, is set apart and separated, is cast out and excommunicated, is set apart, is appointed and ordained`
 - **used:** GEN 2:10
 
 ### κυκλόω — present participle
@@ -3864,7 +3864,7 @@ waters* is refused by `validate.py` here as there.
 | lemma | form | headword | chain | used |
 | --- | --- | --- | --- | --- |
 | γίνομαι | aor. pass. 3 pl · aor. mid. 3 sg and 3 pl · aor. pass. 3 sg, no subject | `came into being` | the chains of GEN 5:5, 4:2 and JHN 1:6, in the form | 10:1, 10:10, 10:19, 10:21, 10:25, 10:30 |
-| ἀφορίζω | aor. pass. 3 pl | `were marked off by boundaries` | `were marked off by boundaries, were marked off for themselves, were distinguished and determined and defined, were set apart and separated` — the chain of GEN 2:10, in the aorist | 10:5 |
+| ἀφορίζω | aor. pass. 3 pl | `were marked off by boundaries` | `were marked off by boundaries, were distinguished and determined and defined, were banished, were set apart and separated, were cast out and excommunicated, were set apart, were appointed and ordained` — the chain of GEN 2:10, in the aorist | 10:5 |
 | γεννάω | aor. 3 sg | `begot` | the chain of GEN 4:18 | 10:8–26 |
 | ἄρχω | aor. mid. 3 sg | `began` | the chain of GEN 2:3 | 10:8 |
 | λέγω | fut. 3 pl | `they will say` | `they will say, they will speak, they will declare, they will call by name, they will tell` | 10:9 |
@@ -7285,7 +7285,7 @@ text uses. Chains already in the corpus (Genesis) were read from it and re-infle
 - New chains: ἀνάγω `lead up`, `led up`; ἀναβιβάζω `was made to go up`; καλύπτω `covered with`;
   εὔχομαι `pray`, `I may pray`, `I will pray`; περιαιρέω `let him take off something that
   surrounds`, `took off something that surrounds`; ἐξαποστέλλω `I will send quite away`; τάσσω
-  `arrange` (the middle imperative); οἰκία `of the buildings`, `the buildings`; ἀφανίζω `to make
+  `fall in` (the middle imperative; `arrange` until EXO 29 read it with the middle's own senses); οἰκία `of the buildings`, `the buildings`; ἀφανίζω `to make
   unseen`; ὑπολείπω `will be left behind`; οἶδα `you may know`; βοάω `cried aloud`; ὁρισμός `of
   the marking out by boundaries`; ἀγρός `of the fields`; ὄζω `smelt`; βαρύνω `was weighed down`,
   `weighed down`; πατάσσω `beat` (the imperative); χῶμα `the earth thrown up`, `to earth thrown up`;
@@ -8240,3 +8240,50 @@ text uses. Chains already in the corpus (Genesis) were read from it and re-infle
 - One translation each, plain text: ἱερατεύω, διαγλύφω, ἔναντι, ὑποδύτης, ὑακίνθινος, λῶμα, δεκτός, ἴασπις, λογεῖον,
   ὦμος (*the shoulder with the upper arm*, as at its earlier occurrences), κόκκινος, ποικιλτής, ὑφάντης, and those from
   LSJ above.
+
+### Words new in EXO 29
+
+- **From LSJ** (not in Middle Liddell): κάρπωμα `fruit, profit, offering of fruits`; λάγανον *a thin broad cake*,
+  plain; στηθύνιον, "Dim. of στῆθος", no translation of its own, read as Middle Liddell's στῆθος, `the breast, the
+  breast as the seat of feeling and heart` (Q20); χρῖσις `of the smearing, of the anointing, of the colouring and
+  varnish and wash, of the colour-washing`; ἀφαίρεμα `that which is taken away as the choice part, tribute,
+  deduction, coarse grits made from zea (ζέα)`; ἀφόρισμα `that which is set apart and the wave-offering`, one
+  translation run; ἐνδελεχισμός `of persistence, of perpetual`, the second LSJ's English for this genitive;
+  ὁλοκαύτωσις *the sacrifice of a burnt-offering*, plain.
+- **Filed under another word** (`SPELLING`): ἐνδελεχῶς inside ἐνδελεχής, `continuously and perpetually`, as δικαίως is
+  read inside δίκαιος; καθαρισμός, "later form for καθαρμός", `of the cleansing and purification, of the means of
+  purification and purifying sacrifice and atonement and expiation, of the rites of initiation`.
+- **A name in lower case**: ιν, the hin, `of the [[name:ιν]]`, *in* / *hin*, as χερουβιμ is a name.
+- **Cut translations restored** (`MARKUP_LOST`): τελειόω *to make it perfect, complete, accomplish*, *to bring one to
+  perfection*; προτίθημι *let it lie in state*, *to set out for show or sale*, *was allowed*.
+- **Form** (`FORM_SENSES`): τελειόω's and ζώννυμι's active leave out the middle's and the passive's; προτίθημι's
+  middle-passive and passive the middle's; τάσσω's middle the active's and the passive's — so τάξομαι reads `I will
+  fall in and form in order, I will take a payment on myself, I will agree to pay, I will agree upon and settle, I
+  will impose`, and EXO 8:5 Τάξαι and 8:8 ἐτάξατο, middles that had been given the active's range, are brought to
+  it: `fall in, …`, `fell in, …`.
+- **Pieces set aside** (`NOT_SENSES`): τελειόω's and προτίθημι's examples; ζώννυμι's middle examples; μέλος's
+  phrases *limb by limb*, *in tune*, *out of tune*; ἀμνός's *lambs*, an example's, so that ἀμνός is one translation,
+  *lamb*, plain; καθαρμός's examples.
+- **Legacy chains brought to their cards**: ἀφορίζω's passive had dropped *banish*, *cast out, excommunicate*, *set
+  apart*, *appoint, ordain* and carried the middle's *marked off for itself* (GEN 2:10, 10:5). GEN 3:8's τὸ δειλινόν,
+  plain *at evening*, had dropped its article: *the at evening*, as 29:39 and 29:41.
+- **validate.py**: a plain word's own English counts in the number its form wears: λάγανα, plain *thin broad cakes*,
+  holds its own *cakes*, not ἄρτος's headword loose beside it.
+- **Morphology**: the second pass was right on two: ἔξω with a genitive the preposition; τὸ θυσιαστήριον at 29:37
+  nominative, the subject of ἔσται.
+- New chains: ἄμωμος `without blame and blameless`; φυράω's perfect passive participle `having been mixed and standing
+  so, having been kneaded, having been made up`; χρίω's `having been touched on the surface …`; κανοῦν's singular;
+  προσφέρω `you will bring to, …`; θύρα's plural; λούω `you will wash, you will bathe`; μίτρα and πέταλον with the
+  article; ἁγίασμα `the holy place`; χρῖσμα `of the anything smeared on, …`; ἐπιχέω `you will pour water over, you
+  will pour`; ζώννυμι `you will gird, you will gird round the loins`; ζώνη's dative plural; περιτίθημι; κίδαρις with
+  the article; ἱερατεία `priest's office and priesthood`; τελειόω `you will make perfect and complete, …`; ἐπιτίθημι's
+  third persons; σφάζω `you will slay, …`; δάκτυλος; βάσις's singular; στέαρ's singular; λοβός `the lobe of the ear,
+  the lobe of the liver, the liver`; κοιλία with the article; δέρμα's singular; κόπρος; κατακαίω's future; διχοτομέω;
+  μέλος `limbs, …`; πλύνω's future; ἐνδόσθια `the inwards and entrails`; ὁλοκαύτωμα's singular; θυσίασμα `victim and
+  offering`; οὖς; δεξιός with the article and the genitive; ἄκρον's plural with the article; ῥαίνω; τελείωσις
+  `accomplishment and fulfilment`; προτίθημι's perfect passive participle; ἀφορίζω's and ἀφαιρέω's perfects; θῦμα and
+  σωτήριος with the article; χρίω's aorist passive infinitive; ἐνδύω's future middle; ἱερεύς with the article; κρέας;
+  ἄρτος's plural with the article; καταλείπω's aorist passive subjunctive; θυσία with the article; πρωινός; σπονδή with
+  the article; δέκατος; ἐπικαλέω's first person and infinitive; δόξα with ἐν.
+- One translation each, plain text: μοσχάριον, λάγανον, σεμίδαλις, πυρός, ἧπαρ, νεφρός, βραχίων, εὐωδία, ἔλαιον, οἶνος,
+  δειλινός, ἀμνός, κατακαλύπτω's active, ὁλοκαύτωσις, ἱερατεύω, λογεῖον.
