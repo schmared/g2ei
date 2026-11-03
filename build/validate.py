@@ -693,8 +693,8 @@ def unit_cards(book, chapter, verses):
                 if k < len(places):
                     form, lemma, code = places[k][:3]
                     card = words.lexicon_senses(_ENTRIES[0], lemma, code, form, places[k][3][0])
-                    if card is None:
-                        card = words.LSJ.get(lemma)
+                    if card is None or lemma in words.LSJ_HOMOGRAPHS:
+                        card = words.lsj_senses(lemma, code, form)
             yield verse, head, chain, field, card
 
 
@@ -1575,8 +1575,17 @@ def check_lexicon(rep):
                      "Middle Liddell has this word, so LSJ may not stand in for it — take "
                      "the LSJ entry out, and recover anything the markup hides with "
                      "MARKUP_LOST")
-    rep.done("lexicon", "%d words from LSJ, none of them in Middle Liddell" % len(W.LSJ),
-             before)
+    # A homograph Middle Liddell lacks is read from LSJ by name: Middle Liddell has the key, or
+    # it would belong in the LSJ table, and the entry says which word it is by its etymology.
+    for lemma, (origin, senses) in W.LSJ_HOMOGRAPHS.items():
+        if W.lexicon_senses(entries, lemma) is None:
+            rep.fail("lexicon", lemma, "Middle Liddell has no entry under this key, so the word "
+                     "belongs in the LSJ table, not among the homographs")
+        if not origin or not senses or lemma in W.LSJ:
+            rep.fail("lexicon", lemma, "a homograph names the word it comes from and its senses, "
+                     "and stands in one table only")
+    rep.done("lexicon", "%d words from LSJ, none of them in Middle Liddell, and %d homographs it "
+             "lacks" % (len(W.LSJ), len(W.LSJ_HOMOGRAPHS)), before)
 
 
 AORIST_FORMULA = "one completed act seen whole, not a process observed in progress"
@@ -1692,6 +1701,49 @@ def entitled_to(book, chapter, verses):
     return out
 
 
+def own_runs(book, chapter, verses):
+    """{ref: [stems]} — the single translation of each plain word, as a run of stems.
+
+    συναναβαίνω has one translation, *to go up with*, so it is plain text, `went up with`; and
+    ἀναβαίνω's unit beside it at GEN 50:7 heads with `went up`. A plain run that is the whole
+    of a word's one translation is that word's own English, not another word's headword left
+    loose inside it.
+    """
+    path = render.DATA / book / ("%d.words.json" % chapter) if book else None
+    if path is None or not path.exists():
+        return {}
+    layer = {v["ref"]: v["words"] for v in
+             json.loads(path.read_text(encoding="utf-8")).get("verses", [])}
+    out = {}
+    for verse in verses:
+        claimed = {w for _, _, lemma in units(verse["reading"]) for w in lemmas(lemma)}
+        runs = []
+        for word in layer.get(verse["ref"]) or []:
+            got = word.get("senses") or []
+            if len(got) == 1 and not word.get("more") and word["lemma"] not in claimed:
+                tokens = re.findall(r"[a-z']+", got[0].lower())
+                if tokens[:1] == ["to"] and word["parse"].startswith("verb"):
+                    tokens = tokens[1:]
+                if len(tokens) > 1:
+                    runs.append([stem(t) for t in tokens])
+        out[verse["ref"]] = runs
+    return out
+
+
+def inside_own_run(bare, at, end, runs):
+    """Whether bare[at:end] falls inside a stretch that is one of `runs` word for word."""
+    tokens = [(m.start(), m.end(), stem(m.group().lower())) for m in re.finditer(r"[A-Za-z']+", bare)]
+    first = next((i for i, t in enumerate(tokens) if t[1] > at), None)
+    last = next((i for i, t in reversed(list(enumerate(tokens))) if t[0] < end), None)
+    if first is None or last is None:
+        return False
+    for run in runs:
+        for start in range(max(0, last - len(run) + 1), first + 1):
+            if [t[2] for t in tokens[start:start + len(run)]] == run and start + len(run) > last:
+                return True
+    return False
+
+
 def check_anchors(verses, rep, book=None, chapter=None):
     """No headword stands bare in the reading.
 
@@ -1703,6 +1755,7 @@ def check_anchors(verses, rep, book=None, chapter=None):
     """
     before, total = rep.failed, 0
     entitled = entitled_to(book, chapter, verses)
+    runs = own_runs(book, chapter, verses)
     for verse in verses:
         ref, text = verse["ref"], verse["reading"]
         bare = outside_units(text)
@@ -1732,7 +1785,9 @@ def check_anchors(verses, rep, book=None, chapter=None):
                 continue
             # a hyphenated word is one word: the plain *drinking-troughs* of GEN 30:38 does
             # not hold the gerund *the drinking* beside it
-            if re.search(r"(?<![\w-])%s(?![\w-])" % re.escape(anchor), bare, re.I):
+            loose = [m for m in re.finditer(r"(?<![\w-])%s(?![\w-])" % re.escape(anchor), bare, re.I)
+                     if not inside_own_run(bare, m.start(), m.end(), runs.get(ref, ()))]
+            if loose:
                 rep.fail("anchors", ref,
                          "%r (%s) is written as plain text; make it a unit, "
                          "[[%s|…]], so the unanchored panel drops it" % (anchor, why, anchor))

@@ -36,6 +36,7 @@ GEN7 = json.loads((render.DATA / "GEN/7.json").read_text(encoding="utf-8"))
 GEN36 = json.loads((render.DATA / "GEN/36.json").read_text(encoding="utf-8"))
 GEN24 = json.loads((render.DATA / "GEN/24.json").read_text(encoding="utf-8"))
 GEN19 = json.loads((render.DATA / "GEN/19.json").read_text(encoding="utf-8"))
+GEN50 = json.loads((render.DATA / "GEN/50.json").read_text(encoding="utf-8"))
 EXO8 = json.loads((render.DATA / "EXO/8.json").read_text(encoding="utf-8"))
 EXO15 = json.loads((render.DATA / "EXO/15.json").read_text(encoding="utf-8"))
 JHN = json.loads((render.DATA / "JHN/1.json").read_text(encoding="utf-8"))
@@ -70,6 +71,23 @@ def with_lsj(extra):
     finally:
         W.LSJ.clear()
         W.LSJ.update(saved)
+
+
+def with_homograph(extra):
+    """The lexicon check, with a word added to LSJ_HOMOGRAPHS for the length of one run."""
+    import words as W
+    saved = dict(W.LSJ_HOMOGRAPHS)
+    W.LSJ_HOMOGRAPHS.update(extra)
+    try:
+        return run(V.check_lexicon)
+    finally:
+        W.LSJ_HOMOGRAPHS.clear()
+        W.LSJ_HOMOGRAPHS.update(saved)
+
+
+def anchors_in(book, chapter):
+    """check_anchors with the chapter named, so it reads the word-by-word layer."""
+    return lambda verses, rep: V.check_anchors(verses, rep, book, chapter)
 
 
 def with_greek_lost(drop):
@@ -386,6 +404,16 @@ NEGATIVE = [
     # names; once named, it is a word Middle Liddell has, and LSJ may not answer for it
     ("lexicon  ...and a word it has only under a close form",
                                          lambda: with_lsj({"ποιμήν": ["shepherd"]})),
+    # a homograph is a word Middle Liddell has under its key, but as another word; one it
+    # lacks altogether belongs in the LSJ table
+    ("lexicon  a homograph Middle Liddell has no key for",
+                                         lambda: with_homograph({"γειώρας": ("γῆ", ["sojourner"])})),
+    # GEN 50:7: συναναβαίνω's plain *went up with* holds ἀνέβη's headword, and passes; a bare
+    # *went up* beside it is the headword loose
+    ("anchors  a headword loose beside a word's own run",
+                                         lambda: run(anchors_in("GEN", 50), [dict(v, reading=v["reading"].replace(
+                                             "[[went up|", "went up [[went up|", 1)) if v["ref"] == "GEN 50:7" else v
+                                             for v in GEN50])),
     # βύσσινος reads "made of βύσσος", and the <tr> stopped at "made of": the card had shown
     # half a translation, and nothing failed
     ("markup   a translation a Greek word cuts off",
@@ -545,6 +573,8 @@ CONTROL = [
     ("names    clean JHN",               lambda: run(V.check_names, JHN)),
     ("banned   clean GEN",               lambda: run(V.check_banned, GEN)),
     ("anchors  clean GEN + JHN",         lambda: run(V.check_anchors, GEN + JHN)),
+    ("anchors  a word's one translation holds another's headword",
+                                         lambda: run(anchors_in("GEN", 50), GEN50)),
     ("words    clean GEN",               lambda: run(V.check_words, "GEN", 1, GEN)),
     ("greek    clean GEN",               lambda: run(V.check_greek, "GEN", 1, GEN)),
     ("greek    clean JHN",               lambda: run(V.check_greek, "JHN", 1, JHN)),

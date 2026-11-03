@@ -1230,8 +1230,8 @@ the same ground as `the sixth` and `the seventh`: one sense each, so no range to
   husk, skin or bark*, λέπισμα *peel*, καρύινος *of nuts*, *made of walnut-wood*. 30:32–30:41.
 - ἀρήν and ἀμνός — two Greek words for the lamb, and one English word between them: the chains read the
   same, and only the Greek line tells them apart. 30:32, 30:40.
-- στυράκινος — Middle Liddell glosses it *made of the wood of the tree* and leaves the tree's name,
-  στύραξ, in Greek; the chain keeps the gloss as it stands. 30:37.
+- στυράκινος — Middle Liddell glosses it *made of the wood of the tree στύραξ*, and `GREEK_LOST`
+  restores the name the markup cuts: plain `made of the wood of the tree storax (στύραξ)`. 30:37.
 - κλέπτω and πληρόω — two perfect passives, κεκλεμμένον and πεπλήρωνται, each a standing state. 29:21, 30:33.
 - οὐθείς — the later spelling of οὐδείς, which the lexicon files it under. 30:31.
 - ἐνώπιον — the preposition, as at 11:28, and plain text there: `face to face of`. 30:33, 30:38.
@@ -1291,14 +1291,14 @@ the same ground as `the sixth` and `the seventh`: one sense each, so no range to
 | πότε | `when` | `when, at what time` | 30:30 |
 | σποδοειδής | `ashy` | `ashy and ash-coloured` | 30:39 |
 | στερέω | `deprived` | `deprived, bereaved, robbed of, took away` | 30:2 |
-| στυράκινος | `made of the wood of the tree` | `made of the wood of the tree` | 30:37 |
+| στυράκινος | plain | `made of the wood of the tree storax (στύραξ)` | 30:37 |
 | συλλαμβάνω | `laid hold of for himself` | `laid hold of for himself, seized for himself, took part with and assisted` | 30:8 |
 | συναναστρέφω | `was turned back together` | `was turned back together, lived along with` | 30:8 |
 | τίθημι | `was setting` | `was setting, was putting, was placing, was planting, was laying` | 30:42 |
 | τίκτω | `were bringing into the world` | `were bringing into the world, were bearing, were bringing forth, were begetting, were producing and yielding` | 30:39 |
 | τίκτω | `will bring into the world` | `will bring into the world, will bear, will bring forth, will beget, will produce and yield` | 30:3 |
 | τελευτάω | `I will finish` | `I will finish, I will accomplish, I will end my life and die, I will end and come to an end` | 30:1 |
-| τράγος | `the he-goats` | `the he-goats` | 30:35 |
+| τράγος | plain | `the he-goats` | 30:35 |
 | τύχη, with ἐν | `in the good which man obtains` | `within, inside of, and by means of the good which man obtains, the favour of the gods and good fortune and luck and success, fortune and chance, ill fortune` | 30:11 |
 | φαίνω | `was being brought to light` | `was being brought to light and made to appear, was showing itself, was appearing, was coming to light and being seen, was shining` | 30:37 |
 | φαιός | `dusky` | `dusky and dun and gray` | 30:32, 30:33, 30:35 |
@@ -2414,9 +2414,8 @@ the same ground as `the sixth` and `the seventh`: one sense each, so no range to
 - ἀπό + μικρός, ἕως + μέγας — the adjectives as the entry gives them, in the genitive. 19:11.
 - The instrumental dative takes `with` — ἀορασίᾳ `with inability to see` (19:11), as θανάτῳ is
   `with death` at 3:4 and τοῖς ὀφθαλμοῖς `with the eyes` at 13:14 and 18:2.
-- εἰσσπάομαι — LSJ's one translation, *draw into oneself*, written as a unit whose chain is the
-  headword alone, because the verse's εἰς is also *into*, and plain text would put that headword
-  outside its unit. 19:10.
+- εἰσσπάομαι — LSJ's one translation, *draw into oneself*, plain text: its *into* is its own,
+  not the verse's εἰς left loose (Q19). 19:10.
 - Names: Σοδομῖται `(Σοδομῖται, the men of Σόδομα, Sodom)`; Μωαβ, and Μωαβιτῶν `(Μωαβῖται, the
   people of Μωαβ, Moab)`; Αμμαν `(Αμμαν, for Hebrew Ben-ʿammî, "son of my people")`, anchored
   Ammon, the people's name the Greek form matches, and Αμμανιτῶν. The article before a people's
@@ -6969,8 +6968,8 @@ From Middle Liddell unless marked; the headword is the entry's first translation
 text uses. Chains already in the corpus were read from it.
 
 - **From LSJ** (not in Middle Liddell): ἐνταφιαστής, *undertaker, embalmer*, one translation,
-  `the undertakers and embalmers`; πανοικία, *whole household*, plain text (its dative's *with all
-  the house* is the dative's); συναναφέρω, the active's senses, `you will carry up together, you
+  `the undertakers and embalmers`; πανοικία, *whole household*, plain text in the nominative; its
+  dative's *with all the house* is the dative's, by `FORM_SENSES`, which LSJ words now take (Q3); συναναφέρω, the active's senses, `you will carry up together, you
   will bring up together with yourselves, …, you will report`. 50:2, 50:8, 50:25.
 - **Cross-references:** ἅλων reads only *= ἅλως found in the obl. cases*, and takes that entry, `a
   threshing-floor, disk`; κοπετός reads only *= κομμός*, `a striking, a beating of the breast in
@@ -7008,8 +7007,8 @@ text uses. Chains already in the corpus were read from it.
   τίκτω `were brought into the world`; μηρός `of thighs`; ἐπισκέπτομαι `will look upon`; ἀνάγω `will
   lead up`; πατήρ `to the fathers`; ὀστέον `the bones`; σορός with ἐν, `in the vessel for holding`.
 - One translation each, plain text: ἐνταφιάζω (*to prepare for burial*), κάτοικος (*a settler*),
-  διατρέφω (*to sustain continually*), πανοικία, συναναβαίνω — a unit at 50:7 only, its chain the
-  headword alone, because ἀνέβη's unit in that verse heads with *went up*, as ὁρκίζω at 24:37.
+  διατρέφω (*to sustain continually*), πανοικία, συναναβαίνω — plain at 50:7 too, where ἀνέβη's unit
+  heads with *went up*: a plain run that is a word's one translation is its own English (Q19).
 - Names: Αταδ (from Hebrew ʾĀṭād, *bramble, thornbush*), and Πένθος, the name of 50:11, *Πένθος
   Αἰγύπτου*, `Mourning`, the Greek of ʾĀbēl Miṣrayim; the first Πένθος of the verse is the common
   noun, capitalised as the start of speech.
@@ -7056,8 +7055,9 @@ text uses. Chains already in the corpus (Genesis) were read from it and re-infle
   mothers`; τίκτω `to the bringing into the world`, `bring into the world`, `were bringing into the
   world`, `may be brought into the world`; περιποιέω `keep` (the middle); ἄρσην `the male`;
   φοβέομαι `were being put to flight`; ῥίπτω `throw`.
-- One translation each, plain text: πανοικία (*whole household* — but see open-questions.md, Q3),
-  πέντε, καθότι (*in what manner*), καταδυναστεύω (*to exercise power over*), κατοδυνάω, μαιόομαι
+- πανοικίᾳ, the dative, a unit: `to whole household, with all the house`, the dative's own English
+  unmarked (Q3, Q4).
+- One translation each, plain text: πέντε, καθότι (*in what manner*), καταδυναστεύω (*to exercise power over*), κατοδυνάω, μαιόομαι
   (*to deliver*).
 - Names new to the corpus: Πιθωμ, Ων, Σεπφωρα (Shiphrah), Φουα (Puah, the midwife — GEN 46:13's
   Φουα is Issachar's son, and the morphology says so).
@@ -8285,7 +8285,8 @@ text uses. Chains already in the corpus (Genesis) were read from it and re-infle
 - **Morphology**: the second pass was right on four: αὐτοῦ at 28:8 neuter, the woven work; μέσον at 28:32 nominative,
   the predicate of ἔσται; κύκλῳ with a genitive the preposition; ἄνθινον neuter, a noun. ὑάκινθος is feminine at 28:5
   and 28:37, by its article and its participle, and so feminine throughout Exodus, as the dye (Q22). περισκελής reads
-  Middle Liddell's one entry, the word from σκέλλω, though LSJ's second, from σκέλος, is the LXX's *drawers* (Q23).
+  LSJ's second entry, from σκέλος, by `LSJ_HOMOGRAPHS`: Middle Liddell's one entry is the word from σκέλλω.
+  Used as a noun, `drawers, round the leg`; `the drawers, the round the leg` at 36:35 (Q23).
 - New chains: προσάγω's middle imperative `bring, draw to yourself and attach to yourself and bring over to your
   side, …`; στολή `an equipment` and its plural; ἅγιος `devoted to the gods and sacred and holy, holy and pure`, with
   the article; δόξα's anarthrous `notion, …`; σοφός's dative plural; ἐμπίπλημι `I filled quite full`; αἴσθησις `of

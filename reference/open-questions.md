@@ -54,23 +54,6 @@ wrongly as an item of its own; one that is (*pass*) loses a sense if it is dropp
 **Recommendation:** join with *and* everywhere, in the entry's own order — `went up with and
 together`, `of and belonging to women` — and add a check that no tagged piece is dropped.
 
-## Q3. A sense LSJ gives one form only — πανοικίᾳ
-
-**Where:** EXO 1:1 πανοικίᾳ, and any later LSJ word whose entry gives a form a sense of its own.
-
-**Now:** LSJ's πανοικία reads *whole household*, then *dat. as Adv., πανοικίᾳ with all the house*.
-`FORM_SENSES` can split Middle Liddell's senses by form, but an LSJ entry is one fixed list for every
-form, so the dative's *with all the house* cannot be given to the dative without being given to the
-nominative of GEN 50:8 too. EXO 1:1 has `to whole household` as plain text.
-
-| | EXO 1:1 *ἕκαστος πανοικίᾳ αὐτῶν* |
-|---|---|
-| now | `to whole household of them` |
-| with the dative's sense | a unit, `to whole household, with all the house` |
-
-**Recommendation:** let an LSJ entry take the same form rules as Middle Liddell's (a small change in
-`words.py` and the checks that read LSJ), then open πανοικίᾳ.
-
 ## Q11. A run split where a passive sense hid it — ἀναγγέλλω
 
 **Where:** seventeen units from GEN 3:11 to EXO 4:28, and EXO 13:8.
@@ -197,40 +180,6 @@ rule; the old chain also carries the causal senses (*changed and altered utterly
 
 **Recommendation:** re-read the six from the card with a `FORM_SENSES` rule for the intransitive tenses, as EXO
 23:27 now does for the causal future, and restore *to lose one's father, give him up* in `MARKUP_LOST`.
-
-## Q19. A compound's one translation that holds a simplex's headword
-
-**Where:** GEN 50:7, καὶ ἀνέβη Ιωσηφ … καὶ συνανέβησαν αὐτῷ: συναναβαίνω has one translation, *to go up with*, so
-it should be plain text, `went up with`; but ἀναβαίνω's unit in the same verse is headed `went up`, and the check
-that no headword stands bare reads the plain `went up with` as that headword written out. The verse carries a
-unit whose chain is its headword, `[[went up with|went up with]]`, which the rule says is not a unit.
-
-- now: `[[went up with|went up with|συναναβαίνω]]`
-- by the rule: `went up with`, plain text
-
-**The difference:** the check cannot tell a word's own one-translation English from another word's headword written
-bare; the unit satisfies the check and breaks the rule it exists to hold.
-
-**Recommendation:** let the bare-headword check pass a plain run that is the whole of a word's single translation
-in the chapter's word-by-word layer (συναναβαίνω, *to go up with*), and make GEN 50:7 plain text.
-
-## Q23. περισκελής: Middle Liddell has the key but not the word
-
-**Where:** EXO 28:42 περισκελῆ λινᾶ. Middle Liddell's only περισκελής is the word from σκέλλω, *dry and hard all round,
-exceeding hard; obstinate, stubborn*. LSJ has two: (A) the same, and (B), from σκέλος, *round the leg*, "hence
-περισκελῆ, τά, drawers, LXX Ex. 28.38(42)".
-
-**Now:** the rule's letter: LSJ answers only where Middle Liddell has no entry under the word's own key, and it has
-one, so the reading is `dry and hard all round and exceeding hard, obstinate and stubborn`.
-
-- now: `[[dry and hard all round|dry and hard all round and exceeding hard, obstinate and stubborn|περισκελής]]`
-- the other reading: LSJ (B), `round the leg, drawers`
-
-**The difference:** ENTRY already picks one homograph over another inside Middle Liddell (νέω2, *to spin*); here
-Middle Liddell lacks the homograph, and the key leads to a different word.
-
-**Recommendation:** let LSJ answer for a homograph Middle Liddell lacks, recorded in a table of its own with the
-etymology that tells the two apart, and have validate.py accept the LSJ entry only through that table.
 
 ## Q24. Legacy chains short of their cards
 

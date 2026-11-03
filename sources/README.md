@@ -79,7 +79,7 @@ curl -sL --create-dirs -o sources/lsj/grc.lsj.perseus-eng1.xml https://raw.githu
 | `eng13` | mu (12 MB) | μώλωψ (Gen 4:23), μοσχάριον (Gen 18:7), μήτρα (Gen 20:18), μνημεῖον (Gen 23:6), μακροχρόνιος (Exod 20:12), μυρεψικός (Exod 30:25) |
 | `eng14` | nu (4 MB) | νευροκοπέω (Gen 49:6), νηστός (Exod 31:4) |
 | `eng16` | omicron (12 MB) | ὀστέον (Gen 2:23), ὀκτώ (Gen 5:28), ὀπισθοφανής and ὀπισθοφανῶς (Gen 9:23), ὅλος (Gen 25:25), ὀλιγοψυχία (Exod 6:9), ὀνύχιον (Exod 28:20), ὁλοκαύτωσις (Exod 29:25), οἰκτίρμων (Exod 34:6) |
-| `eng17` | pi, `p` to `πώϋξ` (38 MB) | πράσινος (Gen 2:12), ποιμήν (Gen 4:2), πρῶτος (Gen 8:5), filed under πρότερος, περάτης and πορθμεύς (Gen 14:13), προσοίγνυμι (Gen 19:6), παρεπίδημος (Gen 23:4), ποτιστήριον (Gen 24:20), πυρράκης (Gen 25:25), πιότης, πτερνίζω, προσοχθίζω (Gen 27), πλινθεία (Exod 1:14), πισσάσφαλτος (Exod 2:3), πολυπληθέω, πλινθουργία (Exod 5), παραδοξάζω (Exod 8:18), πικρίς (Exod 12:8), πρωτογενής (Exod 13:2), πρωΐθεν (Exod 18:13), προσαποθνήσκω (Exod 21:29), προσεμπίμπρημι (Exod 22:5), πρωτογένημα (Exod 23:16), προσπορεύομαι (Exod 24:14), περιαργυρόω (Exod 27:11), περιχαλκόω (Exod 27:6), παρωμίς (Exod 28:14), περικύκλῳ (Exod 28:33), περιστήθιον (Exod 28:4), περιστόμιον (Exod 28:32), πολυπληθύνω (Exod 32:13), περιστολή (Exod 33:6), πολυέλεος (Exod 34:6), περιδέξιον (Exod 35:22), ποικιλτός (Exod 35:35), περισιαλόομαι (Exod 36:13), ποικιλτικός (Exod 37:21), παράθεμα (Exod 38:24) |
+| `eng17` | pi, `p` to `πώϋξ` (38 MB) | πράσινος (Gen 2:12), ποιμήν (Gen 4:2), πρῶτος (Gen 8:5), filed under πρότερος, περάτης and πορθμεύς (Gen 14:13), προσοίγνυμι (Gen 19:6), παρεπίδημος (Gen 23:4), ποτιστήριον (Gen 24:20), πυρράκης (Gen 25:25), πιότης, πτερνίζω, προσοχθίζω (Gen 27), πλινθεία (Exod 1:14), πισσάσφαλτος (Exod 2:3), πολυπληθέω, πλινθουργία (Exod 5), παραδοξάζω (Exod 8:18), πικρίς (Exod 12:8), πρωτογενής (Exod 13:2), πρωΐθεν (Exod 18:13), προσαποθνήσκω (Exod 21:29), προσεμπίμπρημι (Exod 22:5), πρωτογένημα (Exod 23:16), προσπορεύομαι (Exod 24:14), περιαργυρόω (Exod 27:11), περιχαλκόω (Exod 27:6), παρωμίς (Exod 28:14), περικύκλῳ (Exod 28:33), περιστήθιον (Exod 28:4), περιστόμιον (Exod 28:32), πολυπληθύνω (Exod 32:13), περιστολή (Exod 33:6), πολυέλεος (Exod 34:6), περιδέξιον (Exod 35:22), ποικιλτός (Exod 35:35), περισιαλόομαι (Exod 36:13), ποικιλτικός (Exod 37:21), παράθεμα (Exod 38:24), περισκελής (B), a homograph Middle Liddell lacks (Exod 28:42) |
 | `eng21` | sigma (23 MB) | σύ (Gen 3), which Middle Liddell omits, σφαιρωτήρ (Gen 14:23), συνάντημα (Exod 9:14), σπερματίζω (Exod 9:31), σκῶλον (Exod 10:7), σκεπαστής (Exod 15:2), συσκήνιος (Exod 16:16), συναντιλαμβάνομαι (Exod 18:22), σπονδεῖον (Exod 25:29), σύμβλησις (Exod 26:24), σανιδωτός (Exod 27:8), στηθύνιον (Exod 29:26), σίκλος (Exod 30:23), συμπορπάομαι (Exod 36:13), συνυφή (Exod 36:27) |
 | `eng22` | tau (12 MB) | τρεῖς (Gen 5:32), filed under τρία, τριετίζω (Gen 15:9), τροφεύω (Exod 2:7), τριστάτης (Exod 14:7), τετράστιχος (Exod 28:17) |
 | `eng23` | upsilon (9 MB) | ὑπερασπίζω (Gen 15:1), ὑπερισχύω (Gen 49:26), ὑπόθεμα (Exod 25:38) |
@@ -100,7 +100,10 @@ curl -sL -r 0-199999 https://raw.githubusercontent.com/PerseusDL/lexica/master/C
 Entries are `<entryFree key="…">` in Beta Code, with `<tr>` for each translation, as in
 Middle Liddell. Some entries define a word only by cross-reference (`ἁγιάζω` reads
 `= ἁγίζω`), in which case the senses are the ones the reference points at. `build/words.py`
-carries the handful found so far in its `LSJ` table, each with the entry it came from.
+carries the handful found so far in its `LSJ` table, each with the entry it came from. A word whose
+key Middle Liddell has, but under it another word, is read from LSJ through `LSJ_HOMOGRAPHS`
+only, with the etymology that tells the two apart (περισκελής: σκέλλω in Middle Liddell, σκέλος
+in the text).
 
 ## The printed Rahlfs — where the Old Testament Greek comes from
 

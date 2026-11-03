@@ -341,12 +341,12 @@ LSJ = {
     "νευροκοπέω": ["hamstring, hough"],
     # GEN 50. LSJ (eng5): ἐνταφιαστής, "undertaker, embalmer", one translation. LSJ (eng17): πανοικία,
     # "whole household", and its dative as an adverb, "with all the house", which is the dative's
-    # and not GEN 50:8's nominative. LSJ (eng21): συναναφέρω, the active's senses, "carry up
+    # and not GEN 50:8's nominative: FORM_SENSES gives it to the dative alone. LSJ (eng21): συναναφέρω, the active's senses, "carry up
     # together", metaph. "bring up together with itself", "refer to … at the same time", "certify at
     # the same time", "report"; the passive's and the astronomers' are left out, as GEN 50:25's
     # συνανοίσετε is active.
     "ἐνταφιαστής": ["undertaker, embalmer"],
-    "πανοικία": ["whole household"],
+    "πανοικία": ["whole household", "with all the house"],
     "συναναφέρω": ["carry up together", "bring up together with itself", "refer to at the same time",
                    "certify at the same time", "report"],
     # EXO 1. None of these is in Middle Liddell. LSJ (eng25): χυδαῖος, "poured out in streams,
@@ -717,6 +717,16 @@ LSJ = {
     "κατακενόω": ["empty", "empty of", "to be emptied, made or left empty", "make empty by leaving, desert",
                   "empty by depletion", "carry off", "empty out, pour away", "make away with", "expend",
                   "waste away, shrivel", "make empty", "make void, of no effect"],
+}
+
+# Homographs Middle Liddell lacks: it has the key, but under it a different word, so its entry is
+# not the text's word at all. περισκελής is two words in LSJ — (A) from σκέλλω, "dry and hard all
+# round", the one Middle Liddell has; (B) from σκέλος, "round the leg", whence τὰ περισκελῆ, drawers,
+# citing EXO 28:42 — and the text's is (B). Each is named with the etymology that tells the two
+# apart; build/validate.py accepts an LSJ reading of a word Middle Liddell has through this table
+# only.
+LSJ_HOMOGRAPHS = {
+    "περισκελής": ("σκέλος", ["round the leg", "drawers"]),  # LSJ περισκελής (B) (eng10)
 }
 
 # New Testament books: MorphGNT file and its book number.
@@ -2039,6 +2049,8 @@ _APOLLUMI_ACT = {"to destroy utterly, kill, slay", "to destroy, demolish, waste"
 _APOLLUMI_MID = {"to perish utterly, die", "to be undone", "you are done for, lost, ruined",
                  "to be lost, slip away, vanish"}
 FORM_SENSES = {
+    # Q3: an LSJ word takes the same rules. πανοικία's "with all the house" is the dative's, "dat. as Adv."
+    "panoiki/a": [("-", "-", {"with all the house"}, None, "^....[NGAV]")],
     # The edit pass after Exodus. κύριος, two entries under one key (ENTRY): the noun's κυρία,
     # "mistress, lady of the house", is the feminine's; "sir", the vocative's ("later, κύριε was a
     # form of respectful address"); "the Lord" and "Jehovah", ὁ Κύριος's, the singular's. The
@@ -3294,6 +3306,7 @@ GREEK_LOST = {
     "eu)labe/omai": {"to behave like the": "to behave like the εὐλαβής"},  # "to behave like the εὐλαβής, have a care"
     "a)/logos": {"without": "without λόγος"},  # "«without» λόγος, i. e., without speech, speechless"
     "gru/zw": {"to say": "to say γρῦ"},  # "to say γρῦ, to grunt, grumble, mutter"
+    "stura/kinos": {"made of the wood of the tree": "made of the wood of the tree στύραξ"},  # "made of the wood of the tree στύραξ" (GEN 30:37)
 }
 
 # Translations a Greek word follows without finishing: the gloss is whole, and the Greek
@@ -3379,7 +3392,24 @@ def lexicon_senses(entries, lemma, code="", form="", parse=""):
     key = entry_key(key, parse)
     if key not in entries:
         return None
-    bare = re.sub(r"\d+$", "", key)
+    return form_senses(entries[key], re.sub(r"\d+$", "", key), lemma, code, form)
+
+
+def lsj_senses(lemma, code="", form=""):
+    """An LSJ word's senses, by the same NOT_SENSES and FORM_SENSES as Middle Liddell's: LSJ's
+    πανοικία gives its dative as an adverb a sense of its own (EXO 1:1), which the nominative of
+    GEN 50:8 does not have. A homograph Middle Liddell lacks (LSJ_HOMOGRAPHS) reads here too."""
+    if lemma in LSJ_HOMOGRAPHS:
+        senses = LSJ_HOMOGRAPHS[lemma][1]
+    elif lemma in LSJ:
+        senses = LSJ[lemma]
+    else:
+        return None
+    return form_senses(senses, beta(lemma), lemma, code, form)
+
+
+def form_senses(senses, bare, lemma, code="", form=""):
+    """The senses of an entry a form reads, NOT_SENSES and FORM_SENSES applied."""
     # A word filed under another word's entry reads that entry's exclusions and its own, less
     # any it keeps: νή is filed under ναί, and the oath formula ναί sets aside is what νή is.
     skip = ((NOT_SENSES.get(bare, set()) | NOT_SENSES.get(beta(lemma), set()))
@@ -3398,7 +3428,7 @@ def lexicon_senses(entries, lemma, code="", form="", parse=""):
             skip = instead
             break
     seen, out = set(), []
-    for sense in entries[key]:
+    for sense in senses:
         if sense not in skip and sense not in seen:
             seen.add(sense)
             out.append(sense)
@@ -3553,6 +3583,8 @@ def build(book, chapter, entries):
             # FILED_WITHIN). An entry whose translation the markup hides is recovered from
             # Middle Liddell itself (MARKUP_LOST), not replaced by LSJ.
             senses, lexicon = lexicon_senses(entries, lemma, code, form, parse), "Middle Liddell"
+            if lemma in LSJ_HOMOGRAPHS:
+                senses, lexicon = lsj_senses(lemma, code, form), "LSJ"
             if not senses and (lemma in names or form in names or lemma in by_lemma):
                 # A name entry is keyed by the form the verse prints (Ἀσσυρίων), which
                 # is not always the dictionary form the morphology gives (Ἀσσύριος). It
@@ -3562,7 +3594,7 @@ def build(book, chapter, entries):
                             if n["greek"] == form), None)
                 senses, lexicon = [own or names.get(lemma) or names.get(form) or by_lemma[lemma]], "name"
             elif senses is None and lemma in LSJ:
-                senses, lexicon = LSJ[lemma], "LSJ"
+                senses, lexicon = lsj_senses(lemma, code, form), "LSJ"
             elif senses is None:
                 print("  note: no lexicon senses for %s (%s) — add it to LSJ in words.py"
                       % (lemma, verse["ref"]))
