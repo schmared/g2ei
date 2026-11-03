@@ -1647,7 +1647,7 @@ the same ground as `the sixth` and `the seventh`: one sense each, so no range to
 | ἐλάσσων | `smaller` | `smaller, less, worse and worse off, worse than and inferior to, subservient to, fewer, the smaller number` | 27:6 |
 | ἐνδύω | `clothed` | `clothed, put on, made to go into` | 27:15 |
 | ἐντέλλομαι | `I enjoin` | `I enjoin, I command` | 27:8 |
-| ἐξίστημι | `stood out of` | `stood out of, changed and altered utterly, was driven out of, was deranged, was astonished and amazed, gave way and retired, stood aside from and gave up` | 27:33 |
+| ἐξίστημι | `stood aside from` | `stood aside from, was displaced / disordered, …, changed one's position / one's opinion`, the intransitive section (Q18) | 27:33 |
 | ἐπάγω | `I will bring upon` | `I will bring upon, I will bring on and forward, I will lead on and bring on, I will bring in, I will lay on` | 27:12 |
 | ἐπιγινώσκω | `looked upon` | `looked upon and witnessed and observed, recognised and knew again, acknowledged and approved, found out and discovered and detected, came to a decision and resolved and decided` | 27:23 |
 | ἐπιλανθάνομαι | `may forget` | `may forget` | 27:45 |
@@ -1729,7 +1729,7 @@ the same ground as `the sixth` and `the seventh`: one sense each, so no range to
 | νόμιμος | `the usages` | `the usages and customs, the funeral rites` | 26:5 |
 | πάλιν | `back` | `back and backwards, contrariwise, opposite, the change, again and once more and anew, again in turn` | 26:18 |
 | πήγνυμι | `made fast` | `made fast, fixed in the earth and planted, fastened together and constructed and built, made solid and stiff and hard, froze, became solid and stiff, became congealed and froze` | 26:25 |
-| παραγίνομαι | `having been near` | `having been near and attended upon, having been present at, …, having been fully grown`, the eight senses of every form (EXO 36) | 26:32 |
+| παραγίνομαι | `having been beside` | `having been beside / been by / near / attended upon, having been present at, …, having been fully grown`, the eight senses of every form (EXO 36; Q15) | 26:32 |
 | παρακύπτω | `having stooped sideways` | `having stooped sideways, having stooped for the purpose of looking at, having looked sideways at and cast a careless glance on, having peeped out of, having peeped in and looked in` | 26:8 |
 | παροικέω | `dwell beside` | `dwell beside, dwell along the coast of, live near, dwell among, lie near, live in and sojourn` | 26:3 |
 | πλατύνω | `made broad` | `made broad, widened, enlarged` | 26:22 |
@@ -3793,7 +3793,7 @@ waters* is refused by `validate.py` here as there.
 | λαμβάνω | aor. 3 pl · aor. impv. · fut. 1 sg and 3 pl | `they took` · `take` · `I will take` · `they will take` | the chain of GEN 2:15, in the form | 14:11, 14:12, 14:21, 14:23, 14:24 |
 | ἀπέρχομαι | aor. 3 pl | `they went away` | the chain of GEN 3:19, in the aorist | 14:11 |
 | ἀποίχομαι | impf. 3 pl | `were being gone away` | `were being gone away and far from, were being gone and had departed and were being absent, were being gone and had perished, were being dead and gone` | 14:12 |
-| παραγίνομαι | aor. ptcp. | `having been near` | `having been near and attended upon, having been present at, having come to one's side and come to aid and stood by and seconded and supported, having been at hand and been gained and accrued, having come to, having arrived and come up, having come to maturity, having been fully grown` — Perseus tags *near, attend upon* inside *to be beside, to be by or near*, and the headword takes *been* from there | 14:13 |
+| παραγίνομαι | aor. ptcp. | `having been beside` | `having been beside / been by / near / attended upon, having been present at, having come to one's side and come to aid and stood by and seconded and supported, …, having been fully grown` — Perseus tags *near, attend upon* inside *to be beside, to be by or near*, and `MARKUP_LOST` restores the whole run, so every form heads with *beside* (Q15) | 14:13 |
 | ἀνασώζω | aor. pass. ptcp., articular gen. | `of the ones having been recovered` | `of the ones having been recovered and rescued, of the ones having returned safe` — the first sense in the passive, the entry's *Pass.* after it, its middles left out | 14:13 |
 | ἀπαγγέλλω | aor. 3 sg | `brought tidings` | the chain of GEN 12:18, in the third person | 14:13 |
 | ἀκούω | aor. ptcp. | `having heard` | the chain of GEN 3:8, in the participle | 14:14 |
@@ -8750,3 +8750,14 @@ Chains the settled open questions changed, corpus-wide.
   θάνατος, βότρυς, γερουσία and ὅρμος add their pointers' translations. Not read (`POINTERS_NOT_READ`):
   περί's *= ἀμφί* (a compound's), ἅμαξα's *= ἁμαξιτός* (no entry), δοῦλος's (the neuter τὸ δοῦλον's),
   εἰ's (a construction's), ὅς's (early Greek's demonstrative).
+- **παραγίνομαι** (Q15): `MARKUP_LOST` restores the first translation whole, *to be beside, to be by or near,
+  attend upon*, which Perseus cut to *near, attend upon*; every form heads with *beside* and reads the card's
+  eight senses: `was beside / was by / near / attended upon, was present at, …, was fully grown`, `is beside
+  …`, `I am beside / am by / near / attend upon …`.
+- **ἐξίστημι** (Q18): the intransitive forms — second aorist, perfect and pluperfect active, and the middle
+  and passive — read Middle Liddell's intransitive section, by `FORM_SENSES`, and `MARKUP_LOST` restores *to
+  lose one's father, give him up* and *to lose one's senses*: `stood aside from, was displaced / disordered,
+  shrank from / shunned, retired from / gave up possession of, ceased from / abandoned, lost one's father / gave
+  him up, lost one's senses, was out of one's wits / was astonished / amazed, degenerated, changed one's position
+  / one's opinion` (GEN 27:33, 42:28, 45:26; EXO 18:9, 19:18), `were standing aside from, …` (GEN 43:33). The
+  chain it replaced, `stood out of, changed and altered utterly, …`, came from no card.

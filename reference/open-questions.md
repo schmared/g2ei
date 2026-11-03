@@ -95,34 +95,6 @@ participle's, its impersonal's or an example's is a sorting of the whole entry, 
 **Recommendation:** settle the card in `NOT_SENSES` and `FORM_SENSES` (participle used as a noun apart,
 impersonal apart), then reread the six units from it.
 
-## Q15. παραγίνομαι's present reads four senses off the card — `comes to be beside`
-
-**Where:** GEN 32:21, 45:19; EXO 18:6, 18:15, 19:9.
-
-**Now:** the present reads `comes to be beside, is present, arrives, comes to help` (EXO 19:9 `I come to be
-beside, …`), as EXO 8 settled it: "the present's `comes to be beside` is the present's". Every other form
-reads the card's eight senses from its first translation, the one Perseus cuts to *near, attend upon* out of
-*to be beside, to be by or near, attend upon*: the aorist `was near and attended upon, was present at, came to
-one's side and came to aid and stood by and seconded and supported, …, was fully grown` (GEN 35:9, EXO 8,
-18:12), the articular infinitive the same (EXO 2).
-
-- now: `comes to be beside, is present, arrives, comes to help`
-- the card read as the aorist reads it: `is near and attends upon, is present at, comes to one's side and comes to
-  aid and stands by and seconds and supports, is at hand and is gained and accrues, comes to, arrives and comes
-  up, comes to maturity, is fully grown`
-
-**The difference:** the present's head *comes to be* is not in the entry, and it carries four of the eight
-senses; the check that holds one word to one range compares one voice, and the present's middle/passive and the
-aorist's middle are two.
-
-**Recommendation:** read the present from the card as the aorist is read, and restore *to be beside, to be by or
-near, attend upon* whole in `MARKUP_LOST`, so both heads begin where the entry does.
-
-**Since EXO 36:** the first half is done. EXO 36:4's imperfect παρεγίνοντο shares the present's voice code, so one
-word, one range set the four-sense present against the eight-sense imperfect, and the five present units now read
-the card as the aorist does: `is near and attends upon, …, is fully grown` (`I am near …`, `be near …`). The
-`MARKUP_LOST` restoration of *to be beside, to be by or near* is not done; the heads still begin at *near*.
-
 ## Q17. The perfect's formula — after the first item, or after every item
 
 **Where:** about a hundred perfect units across Genesis and Exodus carry *and it stands so* (*and standing so*)
@@ -140,27 +112,6 @@ and each sense is that perfect.
 
 **Recommendation:** after every item, and a check that holds it, since each item is the form read in another
 sense; EXO 23 follows the majority until this is settled.
-
-## Q18. ἐξίστημι's intransitive chain does not come from Middle Liddell
-
-**Where:** GEN 27:33, 42:28, 43:33, 45:26, EXO 18:9, 19:18 — `stood out of, changed and altered utterly, was
-driven out of, was deranged, was astonished and amazed, gave way and retired, stood aside from and gave up`.
-
-**Now:** a chain no card gives. Middle Liddell's intransitive section ("intr. in Pass. and Mid., with aor2, perf.,
-and plup. act.") opens *to stand aside from*, and gives *is displaced, disordered*, *to shrink from, shun*, *to
-retire from, give up possession of*, *to cease from, abandon*, *to lose*, *to be out of one's wits, to be
-astonished, amazed*, *to degenerate*, *to change one's position, one's opinion*.
-
-- now: `stood out of, changed and altered utterly, …`
-- from the card: `stood aside from, was displaced and disordered, shrank from and shunned, retired from and gave
-  up possession of, ceased from and abandoned, lost, was out of his wits and was astonished and amazed,
-  degenerated, changed his position and his opinion`
-
-**The difference:** the headword is not the lexicon's first sense in the form the text uses, which is the hard
-rule; the old chain also carries the causal senses (*changed and altered utterly*) on intransitive forms.
-
-**Recommendation:** re-read the six from the card with a `FORM_SENSES` rule for the intransitive tenses, as EXO
-23:27 now does for the causal future, and restore *to lose one's father, give him up* in `MARKUP_LOST`.
 
 ## Q24. Legacy chains short of their cards
 

@@ -1686,6 +1686,7 @@ NOT_SENSES = {
     "w)di/s": {"birth"},                       # an example's, at a single birth
     # EXO 16
     "pa/gos": {"that which is fixed", "firmly set"},  # cut, whole in MARKUP_LOST
+    "paragi/gnomai": {"near, attend upon"},       # cut, whole in MARKUP_LOST (Q15)
     "metre/w": {"by the eye", "to get", "measure"},  # examples' pieces
     "pleona/zw": {"to go beyond bounds, take", "claim too much"},  # cut, whole in MARKUP_LOST
     "pikrai/nw": {"to make sharp", "bitter"},   # cut, whole in MARKUP_LOST
@@ -1921,7 +1922,8 @@ NOT_SENSES = {
     "a)/dikos": {"towards", "wrong", "jure an injuria", "without reason"},  # a piece, ἐς τινα after "unjust in"; the neuter plural's as a noun, an example's; the adverb's
     "dikaio/w": {"to hold", "deem right, think fit, demand", "to do a man right", "justice, to judge",
                  "to refuse"},  # cut, whole in MARKUP_LOST; a phrase's, οὐ δ.
-    "e)ci/sthmi": {"to drive", "out of"},       # "to drive one out of" cut, whole in MARKUP_LOST; an example's piece
+    "e)ci/sthmi": {"to drive", "out of", "to lose", "give", "up"},  # "to drive one out of", "to lose one's father, give him
+                                                 # up", "to lose one's senses" cut, whole in MARKUP_LOST; an example's piece
     "e)rh=mos": {"in solitude", "in which one party does not appear", "by default", "judgment by default",
                  "in a case where there was no defence"},  # the neuter plural's as an adverb; ἐρήμη δίκη's, phrases'
     "a)/grios": {"a countryman", "to harsher measures", "more wild, stormy", "a malignant disease", "savagely"},  # a label, "of a countryman, as opp. to a citizen"; the comparative's; a phrase's, ἀγρ. νόσος; the adverb's
@@ -2038,6 +2040,7 @@ _ANAIREO_MID = {
     "to take up in one's arms", "to conceive in the womb", "to take upon oneself, undertake",
     "to undertake, contract for the execution of", "to accept as one's own", "to take back to oneself, cancel"}
 _ANAIREO_SCRAPS = {"for burial", "own", "against", "to entertain"}  # pieces of examples
+_EXISTHMI_CAUS = {"to put out of its place, to change", "alter utterly", "to drive one out of", "to derange"}
 _EXANISTHMI_INTR = {
     "bid one", "rise", "to stand up from one's seat", "to arise and depart from, emigrate from",
     "to break up, depart", "to be driven out", "to be forced to emigrate", "to be depopulated"}
@@ -2218,10 +2221,16 @@ FORM_SENSES = {
                  ("PIFAXY", "PE", NOT_SENSES["dikaio/w"] | {"to consent", "to desire"})],
     "a)napau/w": [("PIFAXY", "ME", NOT_SENSES["a)napau/w"] | {"to make to cease, to stop", "to stop, put an end to",
                                                                "to rest, halt", "to take rest"})],
+    # Q18: and "intr. in Pass. and Mid., with aor2, perf., and plup. act.", which leave out the causal senses;
+    # "changed, sour" and "disfigured" translate the perfect participle in examples, and stay with it.
     "e)ci/sthmi": [("F", "A", NOT_SENSES["e)ci/sthmi"] | {
         "to stand aside from", "is displaced, disordered", "to shrink from, shun", "to retire from, give up possession of",
-        "to cease from, abandon", "to lose", "give", "up", "to be out of one's wits, to be astonished, amazed",
-        "to degenerate", "changed, sour", "disfigured", "to change one's position, one's opinion"})],
+        "to cease from, abandon", "to lose one's father, give him up", "to lose one's senses",
+        "to be out of one's wits, to be astonished, amazed", "to degenerate", "changed, sour", "disfigured",
+        "to change one's position, one's opinion"}),
+                   ("A", "A", NOT_SENSES["e)ci/sthmi"] | _EXISTHMI_CAUS | {"changed, sour", "disfigured"}, "εστη$"),
+                   ("PIFAXY", "EMP", NOT_SENSES["e)ci/sthmi"] | _EXISTHMI_CAUS | {"changed, sour", "disfigured"}),
+                   ("XY", "A", NOT_SENSES["e)ci/sthmi"] | _EXISTHMI_CAUS)],
     # EXO 22. ἐνεχυράζω's active leaves out the passive's and the middle's; πιπράσκω's passive its own "to be
     # sold", which is the first sense in the passive.
     "pipra/skw": [("PIFAXY", "P", NOT_SENSES["pipra/skw"] | {"to be sold"})],
@@ -3084,6 +3093,9 @@ MARKUP_LOST = {
     # EXO 16. πάγος: "«that which is fixed» or «firmly set»"; πλεονάζω: "«to go beyond bounds, take» or «claim
     # too much»"; πικραίνω: "«to make sharp» or «bitter» to the taste".
     "pa/gos": [(0, "that which is fixed or firmly set")],
+    # Q15. παραγίνομαι: "to be beside, to be by or «near, attend upon» one" — the first two cut off
+    # outside the <tr>, so the head began at *near*.
+    "paragi/gnomai": [(0, "to be beside, to be by or near, attend upon")],
     # EXO 17. πέτρα: "«a rock, a ledge» or «shelf of rock» … «a rocky peak» or
     # «ridge»"; στηρίζω: "«to be firmly set» or «fixed, to stand fast» or «steady»"; καταγράφω: "«to fill» tablets
     # «with writing»".
@@ -3133,7 +3145,9 @@ MARKUP_LOST = {
     # ἐξίστημι: "ἐξιστάναι τινὰ φρενῶν «to drive» one «out of» his senses"; συναγωγή: "σ. στρατιᾶς «a forming» an
     # army «in column»", the army the example's object, left out as ὑπάγω's "a person" is.
     "dikaio/w": [(2, "to hold or deem right, think fit, demand"), (8, "to do a man right or justice, to judge")],
-    "e)ci/sthmi": [(2, "to drive one out of")],
+    "e)ci/sthmi": [(2, "to drive one out of"),
+                   # Q18: "ἐκστῆναι πατρός «to lose» one's father, «give» him «up»"; "φρενῶν ἐξεστάναι «to lose» one's senses"
+                   (12, "to lose one's father, give him up"), (13, "to lose one's senses")],
     "sunagwgh/": [(5, "a forming in column")],
     # ἐλαιών: "«an olive-yard», Lat. olivetum: the Mount of Olives, Olivet, NTest." — the English after the colon inside
     # the Latin element.
