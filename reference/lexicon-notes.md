@@ -249,6 +249,45 @@ Each entry below records the lexicon sense its headword came from.
   case, so the capital is always the editor's. *God* itself keeps its capital, as the lexicon
   prints it.
 
+### How an entry's translations are read
+
+Settled in the edit pass after Exodus (the open questions named after each).
+
+- **A pointer is followed.** A whole entry that is a pointer — *= X*, *strengthd. for X* — reads
+  X's entry: κατέναντι, ἁγίασμα, κατεμβλέπω (*strengthd. for ἐμβλέπω*, EXO 3:6), the entry's own
+  translation kept after it (Q5). A pointer that is one sense of an entry, πάγος's *= παγετός*,
+  reads X's translations in its place, by `SENSE_POINTERS` in `build/words.py` (Q14). LSJ's *Dim.
+  of X* reads X's senses (κυμάτιον, καρυΐσκος), and the note says *Dim.*: the reading cannot say
+  *little* without adding a word the entry does not print (Q20).
+- **An example's translation:** a translation of the word, in that use, is kept (σύνταξις's
+  *contingent*); a translation of the whole phrase, or a repeat of a sense above it, goes in
+  `NOT_SENSES` (ψῆφος's *by vote*; φόνος's *murder and manslaughter*, where the adjectives carry the
+  difference; καλάμη's *the residue*, which says what a metaphor means) (Q7). Where the phrase
+  itself is in the text, its translations are the word's there: ἐρυθρός keeps *the Erythraean sea*
+  and its extent at Ἐρυθρὴ θάλασσα (Q8).
+- **An adverb its entry names and never glosses** reads its adjective's senses, made adverbs where
+  English has the adverb and left as the entry's phrase where it has none: ἐνδόξως, `held in esteem
+  and honour and of high repute, notably` (Q13).
+- **A passive whose English object sits inside a phrase** is said in English's own passive, the
+  object the subject: κόπτω's *to cut down the trees in it* is `having had the trees in it cut down`
+  (EXO 27:20), περικαλύπτω's *to throw a veil* `having had a veil thrown over them` (28:20), γράφω's
+  *to write a person's name* `having had a person's name written` (31:18), and the note says so (Q21).
+- **An entry that marks no translation** gives its description as the English: λιγύριον, *a precious
+  stone* (EXO 28:19), as σμάραγδος's *a precious stone of a green colour* is kept from inside its
+  Latin (Q25).
+- **A first translation that is only a preposition or a particle**, which an *or* completes, is read
+  with the *or* as the printed entry gives it: θεῖον, `of or from the gods` (EXO 31:3); μυρεψικός *of
+  or for unguents* (Q26). Alone, *of* says nothing, and in the anchored panel it reads as a case-marker.
+- **A gloss given in the plural:** one whose plural is only its example's is inflected to the form
+  (ὅρμημα's *longings*, `the longing`, in a singular); a sense the entry gives the plural — "in pl.",
+  or the plural named as a sense's headword (τάλαντον's *scales*, οἰκέτης's *household*) — the
+  singular leaves out, by `FORM_SENSES` (Q27).
+- **An adjective used as a noun whose entry has one noun sense:** the noun sense heads, the
+  adjective's senses after it, so the unit is not a headword alone: `the embroidered carpets — the
+  embroidered carpets, the stitched and patched, … —` (ῥαφιδευτά, EXO 37:21) (Q30).
+- **A deponent whose entry gives no passive** reads the middle's senses, even where the context asks
+  for a passive, and the note says what the context asks: ἐπεσκεμμένων, EXO 39:2 (Q31).
+
 ---
 
 ## Prepositions and particles

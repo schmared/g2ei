@@ -71,60 +71,6 @@ nominative of GEN 50:8 too. EXO 1:1 has `to whole household` as plain text.
 **Recommendation:** let an LSJ entry take the same form rules as Middle Liddell's (a small change in
 `words.py` and the checks that read LSJ), then open πανοικίᾳ.
 
-## Q4. The case marker on a sense that is the case's own English — βίᾳ
-
-**Where:** EXO 1:13 βίᾳ.
-
-**Now:** `to bodily strength and force and power and might, to force and an act of violence, against
-one's will and in spite of, perforce` — the marker *to* on the noun's senses, none on the dative's
-own adverbial senses, where Middle Liddell's English already renders the dative (*perforce*). The
-rule says every dative unit opens with *to*, which this does; it says nothing of later items, and
-the corpus marks every item elsewhere.
-
-| | reads |
-|---|---|
-| now | `…, against one's will and in spite of, perforce` |
-| every item marked | `…, to against one's will and in spite of, to perforce` |
-
-**Recommendation:** leave them unmarked, as ἐν's own English is (*within, inside of, and by means
-of*): the marker shows a form English cannot, and these senses are that form in English already.
-
-## Q5. *Strengthd. for X*: is that a pointer? — κατεμβλέπω
-
-**Where:** EXO 3:6 κατεμβλέψαι.
-
-**Now:** LSJ's κατεμβλέπω reads *strengthd. for ἐμβλέπω*, citing this verse, then its one
-translation, *look down upon, despise*, from a later writer. The chain follows the pointer, as `=
-X` pointers are followed (θηριόβρωτος, ἀσφαλτόπισσα, θλιμμός), and keeps the entry's own sense
-after it.
-
-| | 3:6 *εὐλαβεῖτο γὰρ κατεμβλέψαι ἐνώπιον τοῦ θεοῦ* |
-|---|---|
-| now (pointer followed) | `to look in the face and look at, to consider, to look into, to look, to look down upon and despise` |
-| the entry's translation only | `to look down upon and despise` |
-
-**Recommendation:** keep following it. The entry's only `<tr>` belongs to another writer, and LSJ
-itself says what the word means here by sending the reader to ἐμβλέπω.
-
-## Q7. An example's translation that names a sense
-
-**Where:** EXO 5: φόνος, καλάμη, σύνταξις; earlier, ψῆφος (EXO 4), κωφός (EXO 4).
-
-**Now:** Middle Liddell often translates a whole example phrase, and only part of the
-translation is the word's. The corpus files such a translation in `NOT_SENSES` when it is the
-phrase's (ψῆφος's *by vote*) or repeats a sense above it, and keeps it when it is the word's own
-English in that use. Three calls in EXO 5 sit near the line:
-
-| entry | the run | now |
-|---|---|---|
-| φόνος | *f. ἑκούσιος and ἀκούσιος «murder and manslaughter»* | filed: the adjectives carry the difference |
-| καλάμη | *perceive «the stubble» (i. e. «the residue)» of former strength* | filed: says what the metaphor means |
-| σύνταξις | *ἡ εἰς μυρίους σ. their «contingent» towards 10,000* | kept: σύνταξις itself, in that use |
-
-**Recommendation:** the test the corpus has used — keep a translation of the word, file a
-translation of the phrase — written down in `/reference/lexicon-notes.md`, so these calls are made
-the same way each time.
-
 ## Q11. A run split where a passive sense hid it — ἀναγγέλλω
 
 **Where:** seventeen units from GEN 3:11 to EXO 4:28, and EXO 13:8.
@@ -165,26 +111,6 @@ participle's, its impersonal's or an example's is a sorting of the whole entry, 
 
 **Recommendation:** settle the card in `NOT_SENSES` and `FORM_SENSES` (participle used as a noun apart,
 impersonal apart), then reread the six units from it.
-
-## Q13. An adverb its entry names and never glosses — ἐνδόξως
-
-**Where:** EXO 15:1 and 15:21, ἐνδόξως γὰρ δεδόξασται.
-
-**Now:** Middle Liddell has no ἐνδόξως; ἔνδοξος ends *adv. -ως, hence Sup. ἐνδοξότατα*, with no translation.
-The corpus reads such adverbs from their adjective's entry (δικαίως, βαρέως, ἀφρόνως), making adverbs of
-the adjective's senses. ἔνδοξος's first sense, *held in esteem or honour, of high repute*, has no English
-adverb; its second, *notable*, has one. The reading keeps the first as it stands and makes the second an
-adverb: `held in esteem and honour and of high repute, notably`.
-
-- now: `held in esteem and honour and of high repute, notably`
-- the adjective's senses as they stand: `held in esteem and honour and of high repute, notable`
-- LSJ, which glosses the adverb's use (*glorious*): not available while Middle Liddell has the word.
-
-**The difference:** the first reading mixes an adjective phrase with an adverb; the second reads an adverb as
-an adjective. Neither adds a word the entry lacks.
-
-**Recommendation:** keep it as it is: where English has the adverb, use it; where it has none, the entry's
-phrase stands.
 
 ## Q14. A sense that points to another entry — πάγος, *= παγετός*
 
@@ -288,46 +214,6 @@ bare; the unit satisfies the check and breaks the rule it exists to hold.
 **Recommendation:** let the bare-headword check pass a plain run that is the whole of a word's single translation
 in the chapter's word-by-word layer (συναναβαίνω, *to go up with*), and make GEN 50:7 plain text.
 
-## Q20. LSJ's "Dim. of X" read as X's senses
-
-**Where:** EXO 25:11, 24, 25 κυμάτιον, "Dim. of κῦμα I.3"; 25:33, 34 καρυΐσκος, "Dim. of κάρυον". LSJ gives
-neither word a translation of its own beyond these (κυμάτιον adds *volute* and *groove*).
-
-**Now:** each pointer is read as the senses of the sense it points to, as ἁγίασμα's "= ἁγιαστήριον" was read as *holy place, sanctuary*:
-`waved mouldings and cymas, volutes, grooves`; `any kinds of nut, walnuts`.
-
-- now: `[[any kinds of nut|any kinds of nut, walnuts]]`
-- the other reading: the diminutive made explicit, `little nuts`, which composes rather than reads
-
-**The difference:** "= X" says the words mean the same; "Dim. of X" says the word is a smaller X, which the
-reading cannot say without adding *little* the entry does not print.
-
-**Recommendation:** keep the pointer's senses and say "Dim." in the note, as now; the reading adds no word the
-lexicon lacks.
-
-## Q21. A passive whose English object sits inside a phrase
-
-**Where:** EXO 27:20 κεκομμένον, κόπτω's perfect passive participle. Middle Liddell gives "k. τὴν χώραν «to cut down
-the trees in» it, «to lay» it «waste»": in the active the land is the object, and the English puts it inside the
-phrase, after *in*.
-
-**Now:** the passive is said in English's own way, the land the subject: `having had the trees in it cut down`, and
-`having been laid waste` from *to lay it waste*.
-
-- now: `…, having been felled, having had the trees in it cut down, having been laid waste, …`
-- the other reading: the gloss inflected as it stands, `having been cut down the trees in`, which is not English
-
-**The difference:** English cannot passivise *to cut down the trees in it*; the only English passive adds *had* and
-moves *it*, words the gloss carries in another order.
-
-**Recommendation:** keep the English passive, as now, and say so in the note; or leave such senses out of a passive's
-chain, as the middle's are left out, since the Greek passive of κόπτω with the land as subject is the same sense.
-
-**Also:** EXO 28:14 καταμεμιγμένα, καταμίγνυμι's *to mix up, mingle the ingredients*: in the passive the ingredients
-are the subject, `having been mixed up and mingled`; EXO 28:20 περικεκαλυμμένα, περικαλύπτω's *to throw a veil* (of
-darkness over …): `having had a veil thrown over them`. EXO 31:18 γεγραμμένας, γράφω's *to write a person's name*: `having had a person's name
-written`; its *to move that* is left out of the passive, whose subject cannot take the clause.
-
 ## Q23. περισκελής: Middle Liddell has the key but not the word
 
 **Where:** EXO 28:42 περισκελῆ λινᾶ. Middle Liddell's only περισκελής is the word from σκέλλω, *dry and hard all round,
@@ -361,95 +247,3 @@ intercalate*), whose chains are recorded decisions in this file.
 
 **Recommendation:** a check in validate.py that reads each unit against its card, with senses left out on purpose
 moved into NOT_SENSES or FORM_SENSES so that the check has nothing else to report; then one pass over the corpus.
-
-## Q25. An entry that marks no translation
-
-**Where:** EXO 28:19 λιγύριον. LSJ: "a precious stone (Dim. of λίγυρος)", no translation marked; λίγυρος "= λιγύριον".
-Middle Liddell has neither.
-
-**Now:** the description is the English: *a precious stone*, plain text.
-
-- now: `… the third a precious stone, agate and …`
-- the other reading: the Greek transliterated, `ligurion (λιγύριον)`, as a word the lexicon names by its Greek
-
-**The difference:** the description is LSJ's English but not marked as a translation; a transliteration adds nothing
-the lexicon does not print but tells the reader less.
-
-**Recommendation:** keep the description, as σμάραγδος's *a precious stone of a green colour* is kept from inside its
-Latin.
-
-## Q26. A first translation that is only a preposition
-
-**Where:** EXO 31:3 θεῖον. Middle Liddell prints "«of» or «from the gods, sent by the gods, issuing from them,
-divine»": Perseus marks *of* as a translation of its own, so the entry's first translation, read by its markup, is a
-bare preposition.
-
-**Now:** the headword is `of or from the gods`, the two translations the *or* joins read as one, as LSJ's μυρεψικός
-*of or for unguents* at EXO 30:25. σοφός keeps its first translation alone, `skilled in any handicraft`, with *or art*
-in the chain, because that one is a sense by itself.
-
-- now: `of or from the gods — of or from the gods and sent by the gods and issuing from them and divine, … —`
-- the other reading: `of — of or from the gods and sent by the gods …, … —`, the markup's first translation
-
-**The difference:** *of* alone says nothing, and in the anchored panel it reads as a genitive's marker.
-
-**Recommendation:** keep `of or from the gods`; where a first translation is a preposition or a particle that only an
-*or* completes, read the *or* as the printed entry does.
-
-## Q27. A gloss given in the plural, read in a singular form
-
-**Where:** EXO 32:22 ὅρμημα and 32:16 γραφή. Middle Liddell gives ὅρμημα's *longings* and *struggles* from Homer's
-plural ὁρμήματα, and γραφή's *statements* from an example in the plural, ψευδεῖς γραφαί.
-
-**Now:** the singular form reads them in the singular, `the stir and impulse, the longing, the struggle`, as a plural
-form reads a singular gloss in the plural (στολή, γένεσις). Where the entry says a sense belongs to the plural, "in pl."
-or the plural named as the headword of a sense — τάλαντον's *scales*, τροπή's *tropics, solstices*, οἰκέτης's
-*household* — the singular leaves it out (`FORM_SENSES`).
-
-- now: `the stir and impulse, the longing, the struggle`
-- the other reading: `the stir and impulse`, the plural example's glosses left to a plural form
-
-**The difference:** a gloss that came from a plural example is the word's sense in that example, and the example
-happens to be plural; a sense the entry assigns to the plural is the plural's own.
-
-**Recommendation:** keep the distinction: inflect a gloss whose plural is only the example's, and leave out a sense
-the entry gives to the plural.
-
-## Q30. An adjective used as a noun whose entry has one noun sense
-
-**Where:** EXO 37:21, τὰ ὑφαντὰ καὶ τὰ ῥαφιδευτὰ καὶ ποικιλτικά. LSJ glosses ῥαφιδευτός only "= ῥαπτός", and Middle
-Liddell's ῥαπτός gives three adjective senses and one noun sense, ῥαπτόν, *an embroidered carpet*.
-
-**Now:** the noun sense heads, as the rule for a word used as a noun has it, and the adjective's senses follow:
-`the embroidered carpets — the embroidered carpets, the stitched and patched, the strung together and continuous,
-the worked with the needle —`.
-
-- now: `{the woven} and {the embroidered carpets} and skilful in embroidery`
-- the other reading: the adjective's first sense heads, `the stitched`, as τὰ ὑφαντά reads `the woven` beside it
-
-**The difference:** νόμιμος and καλός used as nouns carry the noun senses only (GEN 26:5, 2:9); with one noun
-sense that leaves a unit whose chain is its headword, which the rules do not allow, and plain text, which leaves the
-adjective's range unread. The noun sense is also the entry's for ῥαπτόν, a neuter singular, read here in a plural.
-
-**Recommendation:** keep the noun sense at the head and the adjective's senses after it, wherever an adjective used
-as a noun has a single noun sense.
-
-## Q31. A deponent's perfect participle where the sense is passive
-
-**Where:** EXO 39:2, ἀργυρίου ἀφαίρεμα παρὰ τῶν ἐπεσκεμμένων ἀνδρῶν τῆς συναγωγῆς: the men of the congregation who
-were counted. ἐπισκέπτομαι is filed as a deponent, its perfect middle-passive the same form either way, and Middle
-Liddell gives it no passive sense.
-
-**Now:** the middle's senses, as ἐπέσκεμμαι at 3:16: `of the ones having looked upon and standing so, having looked
-at, …, having examined with themselves and meditated`.
-
-- now: `of the ones having looked upon and standing so`
-- the other reading: the senses in the passive, `of the ones having been looked upon and standing so, having been
-  inspected …`, the reflexive *examine with oneself* left out as having no passive
-
-**The difference:** the context asks for the passive, the men who were mustered; the lexicon gives the deponent's
-middle and nothing else, and the rule reads the lexicon, not the context. The passive reading also breaks one word,
-one range, since the voice code cannot tell middle from passive.
-
-**Recommendation:** keep the middle's senses wherever the entry gives a deponent no passive, and note the passive
-the context asks for.
