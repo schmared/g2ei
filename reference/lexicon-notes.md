@@ -7098,7 +7098,7 @@ text uses. Chains already in the corpus (Genesis) were read from it and re-infle
   `you made quickly`; καταλείπω `you have left behind`; κατοικίζω `was removed to`; ἀλλότριος `to
   belonging to another`; βοή `the loud cry`; γινώσκω `was learned to know` (the passive, with the
   passive's own *to be pronounced*); ἕλος `the low ground by rivers`, with ἐν.
-- One translation each, plain text: θυγάτηρ, ἀδελφή, μήν (*month*, filed under μείς), τρεῖς, ἅβρα
+- One translation each, plain text: θυγάτηρ, ἀδελφή, τρεῖς, ἅβρα
   (*favourite slave*), ἐχθές, σήμερον, θῖβις, ἀσφαλτόπισσα, λούω's middle.
 - Names new to the corpus: Μωυσῆς (from Hebrew Mōšeh, which 2:10 hears in māšâ, *to draw out*; the
   Greek gives *from the water* and loses the play), Ιοθορ (Jethro, which the Greek adds at 2:16),
@@ -7831,7 +7831,7 @@ text uses. Chains already in the corpus (Genesis) were read from it and re-infle
   ἰσχυρός `more strong`; ἐγγίζω `may bring near`, `the ones bringing near`; ἱερεύς `the priests`; ἀπαλλάσσω
   `may set free`; προσαναβαίνω `to go up`; βιάζω `let overpower by force`; ἀπόλλυμι `may destroy utterly`;
   ἀναβαίνω `to go up`, `of the going up`; λίθος `in stones`.
-- One translation each, plain text: μήν (*a month*), ἱεράτευμα (*a priesthood*), ὁμοθυμαδόν (*with one
+- One translation each, plain text: ἱεράτευμα (*a priesthood*), ὁμοθυμαδόν (*with one
   accord*), σήμερον (*to-day*), συνάντησις (*a meeting*), τρεῖς (*three*), καπνός (*smoke*).
 
 ### Words new in EXO 20
@@ -8047,7 +8047,7 @@ text uses. Chains already in the corpus (Genesis) were read from it and re-infle
   `I will give`; ἐγκάθημαι `the ones sitting in or on`, `they will sit in or on`; ἁμαρτάνω `to miss the mark`;
   δουλεύω `you may be a slave`; ποιέω `they may make`; πρόσκομμα `a stumble`.
 - One translation each, plain text: μάρτυς, συνεγείρω (the active), ἐκτυφλόω, γένημα, ἀμπελών, ἀρσενικός, γάλα,
-  οἶνος, σφηκία, πρωτογένημα, ἐχθρεύω, μήν (the month).
+  οἶνος, σφηκία, πρωτογένημα, ἐχθρεύω.
 
 ### Words new in EXO 24
 
@@ -8733,6 +8733,20 @@ text uses. Chains already in the corpus (Genesis) were read from it and re-infle
   δύναμαι's aorist passive singular; ἐπισκιάζω's imperfect `was throwing a shade upon and overshadowing`;
   ἀναζεύγνυμι's imperfect `were yoking again, were moving off, were breaking up, were moving, were breaking up and
   shifting one's quarters`.
-- One translation each, plain text: μήν *month*; ἔτος *year*; ἱερατεύω *to be a priest*.
+- One translation each, plain text: ἔτος *year*; ἱερατεύω *to be a priest*.
 - **Morphology**: the second pass was right on τὸ θυσιαστήριον at 40:10, the nominative subject of ἔσται; κύκλῳ before
   a genitive at 40:33 and ἔξωθεν at 40:22 are prepositions.
+
+### The edit pass after Exodus
+
+Chains the settled open questions changed, corpus-wide.
+
+- **Pointers read** (`SENSE_POINTERS`, Q14): πάγος adds *frost* (παγετός); μήν, filed under μείς, adds
+  μηνίσκος's *a crescent, nimbus, glory*, and is a unit now: `month, a crescent, nimbus, glory`, `of the
+  month, of the crescent, of the nimbus, of the glory`, ἐν merged where it stands before it; λίβανος
+  adds λιβανωτός's *frankincense, the gum of the tree, a censer* (EXO 30:34, a unit); ἀποσκηνόω adds
+  ἀποσκηνέω's *to encamp apart from* (GEN 13:18, a unit); καθώς reads καθά's two runs first, `according
+  as / just as, like as if / exactly as, how`. διπλοῦς's *= δύο* and μηρός's *= μηρία* are the plural's;
+  θάνατος, βότρυς, γερουσία and ὅρμος add their pointers' translations. Not read (`POINTERS_NOT_READ`):
+  περί's *= ἀμφί* (a compound's), ἅμαξα's *= ἁμαξιτός* (no entry), δοῦλος's (the neuter τὸ δοῦλον's),
+  εἰ's (a construction's), ὅς's (early Greek's demonstrative).

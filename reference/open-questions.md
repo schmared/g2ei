@@ -95,25 +95,6 @@ participle's, its impersonal's or an example's is a sorting of the whole entry, 
 **Recommendation:** settle the card in `NOT_SENSES` and `FORM_SENSES` (participle used as a noun apart,
 impersonal apart), then reread the six units from it.
 
-## Q14. A sense that points to another entry — πάγος, *= παγετός*
-
-**Where:** EXO 16:14, ὡσεὶ πάγος ἐπὶ τῆς γῆς.
-
-**Now:** Middle Liddell's πάγος reads *that which is fixed or firmly set: a mountain-peak, a rocky hill … the
-Areopagus … = παγετός*, and παγετός is *frost*. The pointer is not a translation, so the card stops at the
-Areopagus and the reading has no frost: `that which is fixed and firmly set, a mountain-peak and a rocky
-hill, Areopagus`. Where a whole entry is a pointer (κατέναντι, *= κατεναντίον*; LSJ's λατρευτός, *= foreg.*;
-ἁγίασμα, *= ἁγιαστήριον*), the corpus reads the entry pointed to.
-
-- now: `…, Areopagus`
-- the pointer read: `…, Areopagus, frost`
-
-**The difference:** the second reads a sense-level pointer the way whole-entry pointers are already read; the
-first keeps to the translations the entry prints.
-
-**Recommendation:** read a sense-level *= X* as X's translations, appended in the pointer's place, by a table
-beside `MARKUP_LOST` that names each one.
-
 ## Q15. παραγίνομαι's present reads four senses off the card — `comes to be beside`
 
 **Where:** GEN 32:21, 45:19; EXO 18:6, 18:15, 19:9.

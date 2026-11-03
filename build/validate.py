@@ -1169,8 +1169,28 @@ def check_markup(targets, rep):
                          "the translation `%s` stops at a Greek word, or holds one — if the "
                          "word finishes it, restore it in GREEK_LOST; if the gloss is whole, "
                          "name it in GREEK_AFTER" % text[:60])
-    rep.done("markup", "%d first-sense Latin runs and %d translations a Greek word cuts, all "
-             "settled" % (seen, cut), before)
+    # A sense that is only a pointer, "= X" with no translation of its own — πάγος's "= παγετός",
+    # frost — is a sense the card cannot show. Every one among the corpus's words is settled in
+    # SENSE_POINTERS, which reads X's translations in its place, or in POINTERS_NOT_READ.
+    pointers = 0
+    settled_pointers = set(W.SENSE_POINTERS) | set(W.POINTERS_NOT_READ)
+    for lemma, key in sorted({(lemma, key) for lemma in wanted
+                              for key in W.entry_keys(W.SPELLING.get(W.beta(lemma), W.beta(lemma)))}):
+        body = bodies.get(key)
+        if not body or body.find("<sense") < 0:
+            continue
+        for sense in re.finditer(r"<sense\b[^>]*>(.*?)</sense>", body[body.find("<sense"):], re.S):
+            inner = re.sub(r"<usg\b[^>]*>.*?</usg>", "", sense.group(1), flags=re.S)
+            if "<tr" in inner or not re.search(r"=\s*<ref\b", inner):
+                continue
+            pointers += 1
+            if key not in settled_pointers:
+                rep.fail("markup", lemma,
+                         "a sense of the entry is only a pointer, `%s` — read it in SENSE_POINTERS, "
+                         "or say in POINTERS_NOT_READ why not"
+                         % re.sub(r"\s+", " ", re.sub(r"<[^>]+>", "", inner)).strip()[:60])
+    rep.done("markup", "%d first-sense Latin runs, %d translations a Greek word cuts and %d "
+             "pointers, all settled" % (seen, cut, pointers), before)
 
 
 GREEK_CUT = re.compile(r'<tr\b[^>]*>(.*?)</tr>\s*(<foreign[^>]*lang="greek")?', re.S)
@@ -1723,6 +1743,10 @@ def own_runs(book, chapter, verses):
             if len(got) == 1 and not word.get("more") and word["lemma"] not in claimed:
                 tokens = re.findall(r"[a-z']+", got[0].lower())
                 if tokens[:1] == ["to"] and word["parse"].startswith("verb"):
+                    tokens = tokens[1:]
+                # the form puts its own article and case-marker before the gloss: εἰκάς is
+                # *the twentieth day of the month*, and its genitive *of twentieth day of the month*
+                while tokens[:1] and tokens[0] in ("the", "a", "an"):
                     tokens = tokens[1:]
                 if len(tokens) > 1:
                     runs.append([stem(t) for t in tokens])

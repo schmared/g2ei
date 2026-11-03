@@ -2051,6 +2051,9 @@ _APOLLUMI_MID = {"to perish utterly, die", "to be undone", "you are done for, lo
 FORM_SENSES = {
     # Q3: an LSJ word takes the same rules. πανοικία's "with all the house" is the dative's, "dat. as Adv."
     "panoiki/a": [("-", "-", {"with all the house"}, None, "^....[NGAV]")],
+    # Q14: a pointer the entry gives the plural, read in the plural only
+    "diplo/os": [("-", "-", NOT_SENSES["diplo/os"] | {"two"}, None, "^.....S")],
+    "mhro/s": [("-", "-", {"slices cut from the thighs", "the thighs"}, None, "^.....S")],
     # The edit pass after Exodus. κύριος, two entries under one key (ENTRY): the noun's κυρία,
     # "mistress, lady of the house", is the feminine's; "sir", the vocative's ("later, κύριε was a
     # form of respectful address"); "the Lord" and "Jehovah", ὁ Κύριος's, the singular's. The
@@ -3309,6 +3312,47 @@ GREEK_LOST = {
     "stura/kinos": {"made of the wood of the tree": "made of the wood of the tree στύραξ"},  # "made of the wood of the tree στύραξ" (GEN 30:37)
 }
 
+# A sense that is only a pointer, "= X": πάγος ends "= παγετός, Soph.", and παγετός is *frost*.
+# Where a whole entry is a pointer the corpus reads the entry pointed to; a sense that is one
+# reads X's translations in its place (after the translation named, or first where none is), X's
+# own NOT_SENSES applied. build/validate.py fails on a pointer among the corpus's words until it
+# is settled here or in POINTERS_NOT_READ.
+SENSE_POINTERS = {
+    "bo/trus": ("bunch of grapes", "bo/struxos"),         # "a cluster or bunch of grapes, … = βόστρυχος, Anth."
+    "gerousi/a": ("a Council of Elders, Senate", "presbei/a"),  # "a Council of Elders, Senate, Eur. = πρεσβεία"
+    "diplo/os": ("mutual", "du/o"),                        # "in pl., = δύο" — the plural's (FORM_SENSES)
+    "qa/natos": ("Death", "nekro/s"),                      # "Θάνατος Death, … = νεκρός, Anth."
+    "kaqw/s": (None, "kaqa/"),                             # "= καθά, Hdt., NTest.", the entry's first sense
+    "li/banos": ("the frankincense-tree", "libanwto/s"),   # "= λιβανωτός, in which sense it is fem."
+    "mei/s": ("by the month", "mhni/skos"),                # "= μηνίσκος, Ar."
+    "mhro/s": ("the thigh", "mhri/a"),                     # "in pl. = μηρία" — the plural's (FORM_SENSES)
+    "pa/gos": ("the Areopagus", "pageto/s"),               # "= παγετός, Soph."
+    "a)poskhno/w": ("to keep apart from", "a)poskhne/w"),  # "= ἀποσκηνέω, Plut."
+    "o(/rmos": ("refuge", "e(/rma1"),                      # "= ἕρμα 1, Anth."
+}
+POINTERS_NOT_READ = {
+    "peri/": "rarely = ἀμφί, as in περιδέξιος: a compound's sense, not the preposition's",
+    "a)/maca": "= ἁμαξιτός, which Middle Liddell has no entry for",
+    "dou=los": "the neuter τὸ δοῦλον's, a collective, = οἱ δοῦλοι and δουλεία: not δούλη's, which is filed here",
+    "ei)": "a construction's: εἰ after verbs of wonder or indignation, = ὅτι",
+    "o(/s": "early Greek's demonstrative use, = οὗτος: not the relative's",
+}
+
+
+def read_pointers(entries):
+    """SENSE_POINTERS read into the entries they stand in, in place."""
+    for key, (after, target) in SENSE_POINTERS.items():
+        senses = entries[key]
+        bare = re.sub(r"\d+$", "", target)
+        add = []
+        for g in entries[target]:
+            g = g.rstrip(".")
+            if g not in NOT_SENSES.get(bare, set()) and g not in senses and g not in add:
+                add.append(g)
+        at = 0 if after is None else senses.index(after) + 1
+        senses[at:at] = add
+
+
 # Translations a Greek word follows without finishing: the gloss is whole, and the Greek
 # after it is an example's object.
 GREEK_AFTER = {
@@ -3384,6 +3428,7 @@ def load_middle_liddell():
         for word, (host, section, parts) in FILED_WITHIN.items():
             if key == host:
                 entries[word] = filed_within(body, section, parts)
+    read_pointers(entries)
     return entries
 
 

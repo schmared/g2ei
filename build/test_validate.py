@@ -90,6 +90,16 @@ def anchors_in(book, chapter):
     return lambda verses, rep: V.check_anchors(verses, rep, book, chapter)
 
 
+def with_pointer_dropped(drop):
+    """The markup check with one entry taken out of SENSE_POINTERS for the length of one run."""
+    import words as W
+    saved = W.SENSE_POINTERS.pop(drop)
+    try:
+        return run(V.check_markup, [("EXO", 16)])
+    finally:
+        W.SENSE_POINTERS[drop] = saved
+
+
 def with_greek_lost(drop):
     """The markup check with one entry taken out of GREEK_LOST for the length of one run."""
     import words as W
@@ -414,6 +424,10 @@ NEGATIVE = [
                                          lambda: run(anchors_in("GEN", 50), [dict(v, reading=v["reading"].replace(
                                              "[[went up|", "went up [[went up|", 1)) if v["ref"] == "GEN 50:7" else v
                                              for v in GEN50])),
+    # πάγος ends "= παγετός", a sense with no translation of its own: the card stopped short of
+    # frost, and nothing failed
+    ("markup   a sense that is only a pointer",
+                                         lambda: with_pointer_dropped("pa/gos")),
     # βύσσινος reads "made of βύσσος", and the <tr> stopped at "made of": the card had shown
     # half a translation, and nothing failed
     ("markup   a translation a Greek word cuts off",
