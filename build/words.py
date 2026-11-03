@@ -1336,7 +1336,10 @@ NOT_SENSES = {
     "pipra/skw": {"I am bought and sold!", "betrayed, ruined, undone"},  # pieces of examples
     "plou=tos": {"Plutus"},                      # the god, not the word
     "a)pa/gw": {"to take away for", "with oneself", "brought to a point, tapering off"},  # pieces of the middle and passive
-    "u(pa/rxw": {"to make a beginning of", "to begin", "to be begun", "a beginning"},  # pieces of sense I
+    "u(pa/rxw": {"to make a beginning of", "to begin", "a beginning", "had been made",  # pieces and repeats of sense I
+                 "there is store", "quae cum ita sint", "he will be on", "side",  # a construction's; Latin; an example's pieces
+                 "the fact is that . .", "it is allowed, it is possible", "was possible", "since it is allowed"},  # the
+                 # impersonal construction's, ὑπάρχει c. acc. (or dat.) et inf. (Q12)
     "kei/rw": {"to cut off one's", "have", "cut off"},  # pieces of the middle
     "ei)/dwlon": {"phantoms"},                   # a piece of an example
     "diabai/nw": {"stand with the legs apart", "planting himself firmly"},  # pieces of sense I
@@ -2040,6 +2043,11 @@ _ANAIREO_MID = {
     "to take up in one's arms", "to conceive in the womb", "to take upon oneself, undertake",
     "to undertake, contract for the execution of", "to accept as one's own", "to take back to oneself, cancel"}
 _ANAIREO_SCRAPS = {"for burial", "own", "against", "to entertain"}  # pieces of examples
+_UPARXW_NOUN = {"existing circumstances, present advantages", "what belongs to one, one's possessions, means"}
+_UPARXW_PTCP = {"existing", "current", "own proper", "normal"}
+_UPARXW_VERB = {"to begin, make a beginning", "to begin to be, come into being, arise, spring up",
+                "to be in existence, to be there, to be ready", "to be", "to be laid down, to be taken for granted",
+                "to belong to, fall to", "accrue", "to be devoted to", "to be begun"} | _UPARXW_PTCP
 _EXISTHMI_CAUS = {"to put out of its place, to change", "alter utterly", "to drive one out of", "to derange"}
 _EXANISTHMI_INTR = {
     "bid one", "rise", "to stand up from one's seat", "to arise and depart from, emigrate from",
@@ -2056,6 +2064,13 @@ FORM_SENSES = {
     "panoiki/a": [("-", "-", {"with all the house"}, None, "^....[NGAV]")],
     # Q14: a pointer the entry gives the plural, read in the plural only
     "diplo/os": [("-", "-", NOT_SENSES["diplo/os"] | {"two"}, None, "^.....S")],
+    # Q12: ὑπάρχω's passive alone is "to be begun"; its participle alone "existing", "current", "own proper",
+    # "normal" (ἡ ὑπάρχουσα οὐσία, φύσις); its neuter plural participle, τὰ ὑπάρχοντα, is the noun, read in the
+    # noun's senses only, as a word used as a noun is. Q11: ἀναγγέλλω's "was reported" is the passive's.
+    "u(pa/rxw": [("PIFAXY", "AME", NOT_SENSES["u(pa/rxw"] | _UPARXW_VERB, None, "^...P.PN"),
+                 ("PIFAXY", "AME", NOT_SENSES["u(pa/rxw"] | _UPARXW_NOUN | {"to be begun"}, None, "^...P"),
+                 ("PIFAXY", "AME", NOT_SENSES["u(pa/rxw"] | _UPARXW_NOUN | _UPARXW_PTCP | {"to be begun"})],
+    "a)nagge/llw": [("PIFAXY", "AM", {"was reported"})],
     "mhro/s": [("-", "-", {"slices cut from the thighs", "the thighs"}, None, "^.....S")],
     # The edit pass after Exodus. κύριος, two entries under one key (ENTRY): the noun's κυρία,
     # "mistress, lady of the house", is the feminine's; "sir", the vocative's ("later, κύριε was a

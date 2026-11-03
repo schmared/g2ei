@@ -8761,3 +8761,14 @@ Chains the settled open questions changed, corpus-wide.
   him up, lost one's senses, was out of one's wits / was astonished / amazed, degenerated, changed one's position
   / one's opinion` (GEN 27:33, 42:28, 45:26; EXO 18:9, 19:18), `were standing aside from, …` (GEN 43:33). The
   chain it replaced, `stood out of, changed and altered utterly, …`, came from no card.
+- **ὑπάρχω** (Q12): the card settled. `NOT_SENSES` files sense I's repeats and pieces, the c. gen.
+  construction's *there is store*, the Latin, an example's *he will be on … side*, and the impersonal
+  construction's *the fact is that*, *it is allowed, it is possible*; `FORM_SENSES` gives the passive *to be
+  begun*, the participle *existing, current, own proper, normal*, and τὰ ὑπάρχοντα, the neuter plural
+  participle, the noun's senses alone. The verb: `begins / makes a beginning, begins to be / comes into being /
+  arises / springs up, is in existence / is there / is ready, is, is laid down / is taken for granted, belongs to
+  / falls to, accrues, is devoted to`; the noun: `the existing circumstances / present advantages, the what
+  belongs to one / one's possessions / means`, which GEN 31:18 and 34:23, read before as `the things beginning`,
+  now take too.
+- **ἀναγγέλλω** (Q11): the run is one item, `carried back tidings of / reported`; *was reported* is the
+  passive's, by `FORM_SENSES`, and the passive's run says it: `was carried back tidings of / reported`.

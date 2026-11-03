@@ -54,47 +54,6 @@ wrongly as an item of its own; one that is (*pass*) loses a sense if it is dropp
 **Recommendation:** join with *and* everywhere, in the entry's own order — `went up with and
 together`, `of and belonging to women` — and add a check that no tagged piece is dropped.
 
-## Q11. A run split where a passive sense hid it — ἀναγγέλλω
-
-**Where:** seventeen units from GEN 3:11 to EXO 4:28, and EXO 13:8.
-
-**Now:** Middle Liddell gives ἀναγγέλλω *to carry back tidings of, report* as one translation, and a
-passive example's *was reported* beside it. Every chain splits the run, `carried back tidings of,
-reported`, and the one-translation check lets it pass because *reported* matches *was reported*. Filing
-*was reported* as an example's piece, as EXO 13 first did, made all seventeen fail. EXO 13:8 follows the
-corpus: `you will carry back tidings of, you will report`.
-
-- now: `carried back tidings of, reported` — two items, as if two senses.
-- the run whole: `carried back tidings of and reported` — one item, and *was reported* filed, or kept for
-  the passive forms only.
-
-**The difference:** *was reported* is ML's translation of a passive form in an example, the kind the
-corpus files; kept, it lets an active chain split a run the rule says is one item.
-
-**Recommendation:** join the run in all eighteen units, and give *was reported* to the passive forms by
-`FORM_SENSES`.
-
-## Q12. ὑπάρχω's card is unsettled
-
-**Where:** six units, GEN to EXO 14:11 (`begins`, `the things beginning`, and now `the beginning`).
-
-**Now:** the card for ὑπάρχω's verb forms still carries example pieces and labels — *had been made*,
-*there is store*, *existing*, *current*, the Latin *quae cum ita sint*, *own proper*, *he will be on*,
-*side* — and the chains read three items: `begins and makes a beginning, begins to be and comes into being
-and arises and springs up, is in existence`. Middle Liddell's third sense is one translation, *to be in
-existence, to be there, to be ready*, and the chain keeps a third of it.
-
-- now: `is in existence`
-- the run whole: `is in existence and is there and is ready`, and the senses past it that are senses —
-  *to be*, *to be laid down, to be taken for granted*, *to belong to, fall to*, *to be devoted to*, *it is
-  allowed, it is possible* — read in, with the pieces filed.
-
-**The difference:** which of the entry's later translations are senses of the verb and which are its
-participle's, its impersonal's or an example's is a sorting of the whole entry, not a fix to one unit.
-
-**Recommendation:** settle the card in `NOT_SENSES` and `FORM_SENSES` (participle used as a noun apart,
-impersonal apart), then reread the six units from it.
-
 ## Q17. The perfect's formula — after the first item, or after every item
 
 **Where:** about a hundred perfect units across Genesis and Exodus carry *and it stands so* (*and standing so*)
