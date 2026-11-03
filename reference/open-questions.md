@@ -106,26 +106,6 @@ after it.
 **Recommendation:** keep following it. The entry's only `<tr>` belongs to another writer, and LSJ
 itself says what the word means here by sending the reader to ἐμβλέπω.
 
-## Q6. The reflexive dative in plain text — ἑαυτοῖς
-
-**Where:** GEN 3:7, 6:2, 6:4, 11:4, 11:29, 47:23; EXO 5:7, 5:11.
-
-**Now:** ἑαυτοῖς is a pronoun and stays plain text, and the corpus reads it two ways: *for
-themselves* (GEN 3:7, 6:2, 6:4, 11:4, 11:29, EXO 5:7) and *to yourselves* (GEN 47:23, EXO 5:11).
-At EXO 5:11 *for* was not open to it: γάρ's unit heads with *for* in the same verse, and a plain
-*for* beside it reads as the particle left bare.
-
-| | EXO 5:7 *συναγαγέτωσαν ἑαυτοῖς ἄχυρα* | EXO 5:11 *συλλέγετε ἑαυτοῖς ἄχυρα* |
-|---|---|---|
-| now | `let them bring together for themselves husks` | `collect to yourselves husks` |
-| the case's marker everywhere | `… to themselves husks` | `… to yourselves husks` |
-
-**The difference:** *for* says what the dative is for here, which is a reading of its use; *to* is
-the dative's marker on every declined word, whatever the use. A pronoun has not been held to the
-marker, but nothing in the rule exempts it.
-
-**Recommendation:** *to* everywhere, as the case's own marker, and the six *for*s changed.
-
 ## Q7. An example's translation that names a sense
 
 **Where:** EXO 5: φόνος, καλάμη, σύνταξις; earlier, ψῆφος (EXO 4), κωφός (EXO 4).
@@ -144,66 +124,6 @@ English in that use. Three calls in EXO 5 sit near the line:
 **Recommendation:** the test the corpus has used — keep a translation of the word, file a
 translation of the phrase — written down in `/reference/lexicon-notes.md`, so these calls are made
 the same way each time.
-
-## Q8. A phrase's translation that names the phrase in the text — ἐρυθρός
-
-**Where:** EXO 10:19 εἰς τὴν ἐρυθρὰν θάλασσαν.
-
-**Now:** Middle Liddell's ἐρυθρός opens *red*, then translates the phrase Ἐρυθρὴ θάλασσα: *the
-Erythraean sea*, including *the Red Sea* or *Arabian Gulf* and *the Indian Ocean*, later *the
-Persian Gulf*. By Q7's test those are the phrase's, since θάλασσα gives the *sea*, and they are in
-`NOT_SENSES`. ἐρυθρός is left one translation, *red*, plain text, and the names go in a note. Here,
-unlike Q7's cases, the phrase itself is in the text.
-
-- now: `into the red` and θάλασσα's unit, `sea`.
-- the names kept: ἐρυθρός a unit, `the red` — `the red, the Erythraean sea, Red Sea, Arabian Gulf,
-  Indian Ocean, the Persian Gulf` — and then `sea`.
-
-**The difference:** kept, the adjective's chain says *sea* beside θάλασσα's own unit, and names
-places the adjective alone does not; filed, the reading loses the lexicon's word that this is the
-Red Sea, which only the note keeps.
-
-**Recommendation:** filed, as now: the reading opens each Greek word, and *sea* is θάλασσα's.
-
-## Q9. The third person imperative: *let him go up* or *let go up*
-
-**Where:** every third person singular imperative; EXO 10:12, 10:24, 11:2 most recently.
-
-**Now:** the corpus does both. Sixteen units carry a pronoun (`let him sprinkle`, EXO 9:8; `let him
-go up`; `let her have`; `let it be watched`); about twenty do not (`let come into being`, EXO 9:9;
-`let give`; `let take its rest`). EXO 10 and 11 follow the second where the subject is named in the
-verse.
-
-| | EXO 9:8 πασάτω Μωυσῆς | EXO 11:2 αἰτησάτω ἕκαστος |
-|---|---|---|
-| with a pronoun | `let him sprinkle Moses` | `let him ask every` |
-| without | `let sprinkle Moses` | `let ask every` |
-
-**The difference:** the Greek ending says the person and number and nothing of gender; *him* adds a
-gender the form does not carry, and beside a named subject says it twice. Without a pronoun the
-English imperative still marks the third person by *let* and the subject that follows.
-
-**Recommendation:** no pronoun where the subject is in the verse, and *him*, *her* or *it* only where
-the verb stands alone, by the gender of what it refers to.
-
-## Q10. A transliteration with Greek endings — γειώρας
-
-**Where:** EXO 12:19 ἔν τε τοῖς γειώραις.
-
-**Now:** γειώρας is the Aramaic gîyôrāʾ, sojourner, in Greek letters, as πασχα is pasḥāʾ. But it
-takes Greek case endings, and LSJ has an entry for it, *sojourner, proselyte*, so it is read as a word:
-`in the sojourners, the proselytes`. πασχα, indeclinable and printed lower case, is a name, as
-χερουβιμ at Genesis 3:24, and Middle Liddell's own entry for it is set aside.
-
-- now: γειώρας a word, from LSJ; πασχα a name, `pascha (πασχα, from Aramaic pasḥāʾ, …)` / `passover`.
-- alternative: both names, each with its gloss, by the rule that every obvious transliteration carries
-  its meaning; or both words, each from its lexicon.
-
-**The difference:** the rule names transliterations without saying whether a declined one counts; a
-lexicon entry gives a word its range, which a name's gloss does not.
-
-**Recommendation:** a word where it declines and a lexicon has it; a name where it is indeclinable,
-whether or not a lexicon has it.
 
 ## Q11. A run split where a passive sense hid it — ἀναγγέλλω
 
@@ -313,25 +233,6 @@ word, one range set the four-sense present against the eight-sense imperfect, an
 the card as the aorist does: `is near and attends upon, …, is fully grown` (`I am near …`, `be near …`). The
 `MARKUP_LOST` restoration of *to be beside, to be by or near* is not done; the heads still begin at *near*.
 
-## Q16. κύριος with an infinitive — the noun or the adjective
-
-**Where:** EXO 21:8, ἔθνει δὲ ἀλλοτρίῳ οὐ κύριός ἐστιν πωλεῖν αὐτήν.
-
-**Now:** the noun, as the corpus reads κύριος in some five hundred places: `not lord is to exchange her`. The
-second pass read the adjective, Middle Liddell's first entry, *κύριός εἰμι, c. inf., I have authority to do, am
-entitled to do*, which is the construction here. Both entries are filed under one key, and the noun's card is the
-adjective's entry.
-
-- now: `not [[lord]] is to exchange her`
-- the adjective: `not [[having power]] is to exchange her`, with the adjective's range: `having power and
-  authority over and lord and master of, …`
-
-**The difference:** the adjective is the construction Middle Liddell names for κύριος with an infinitive; the
-noun keeps one reading of κύριος across the corpus.
-
-**Recommendation:** code it A- and read the adjective's entry where κύριος is predicate with an infinitive, and
-settle which entry the noun reads (ENTRY to the second) at the same time.
-
 ## Q17. The perfect's formula — after the first item, or after every item
 
 **Where:** about a hundred perfect units across Genesis and Exodus carry *and it stands so* (*and standing so*)
@@ -427,24 +328,6 @@ are the subject, `having been mixed up and mingled`; EXO 28:20 περικεκα�
 darkness over …): `having had a veil thrown over them`. EXO 31:18 γεγραμμένας, γράφω's *to write a person's name*: `having had a person's name
 written`; its *to move that* is left out of the passive, whose subject cannot take the clause.
 
-## Q22. ὑάκινθος: masculine by the lexicon's heading, feminine where the text marks it
-
-**Where:** EXO 28:5 τὴν ὑάκινθον, 28:37 ὑακίνθου κεκλωσμένης; the corpus codes ὑάκινθος masculine everywhere else
-(25:4, 26:1, 26:31, 26:36, 27:16, 28:8, 28:15, 28:33), "as Middle Liddell heads ὑάκινθος first", against the module's
-feminine.
-
-**Now:** feminine at 28:5 and 28:37, where the article and the participle show it, with a `# corpus` note; masculine
-where nothing marks the gender.
-
-- now: 28:5 `ASF`, 28:8 `GSM`, 28:37 `GSF`
-- the other reading: feminine throughout Exodus, as the dye is wherever the text shows a gender
-
-**The difference:** a Greek reader hears the gender the text gives the word; where it gives none, the masculine is
-the project's choice, not the text's.
-
-**Recommendation:** code the dye feminine throughout, as 28:5 and 28:37 show it, and drop the module notes that
-defend the masculine.
-
 ## Q23. περισκελής: Middle Liddell has the key but not the word
 
 **Where:** EXO 28:42 περισκελῆ λινᾶ. Middle Liddell's only περισκελής is the word from σκέλλω, *dry and hard all round,
@@ -531,40 +414,6 @@ happens to be plural; a sense the entry assigns to the plural is the plural's ow
 
 **Recommendation:** keep the distinction: inflect a gloss whose plural is only the example's, and leave out a sense
 the entry gives to the plural.
-
-## Q28. Anarthrous θεός used of another god
-
-**Where:** EXO 34:14, οὐ γὰρ μὴ προσκυνήσητε θεῷ ἑτέρῳ, the first singular θεός without the article whose referent is
-not the God of the text. The plural, θεοὶ ἕτεροι (EXO 20:3), reads `gods, the gods, goddesses`.
-
-**Now:** the anarthrous formula, as the convention gives it for every anarthrous θεός: `to everything that God is by
-nature, to deity in full and undiminished kind`, with ἑτέρῳ `to other` after it.
-
-- now: `not for not you may make obeisance to everything that God is by nature, … to other`
-- the other reading: the singular of the plural's chain, `to a god, to the god, to a goddess`
-
-**The difference:** the formula says what the noun is by nature, and here the text denies that what it names is the
-God at all; the plural's range treats θεός as a common noun.
-
-**Recommendation:** keep the formula for anarthrous θεός where the referent is the God of the text, and read a
-singular θεός qualified by ἕτερος or ἀλλότριος as the plural is read.
-
-## Q29. δύο: plain text in most places, a unit in sixteen
-
-**Where:** δύο's card reads `two` and `two and two`, the doubled δύο δύο. The validator's sense split reads `two and
-two` as `two`, so it lets the word stand either way. About 111 of its 127 occurrences are plain; 16 are units, `the
-two, the two and two` (GEN 44; EXO 2, 6, 12, 16, 18, 21, 31, 32, 34).
-
-**Now:** both stand. EXO 36 follows EXO 28, its parallel, and prints δύο plain.
-
-- now: `the two [[rings|…]]` at 36:23, beside `[[the two|the two, the two and two|δύο]]` at EXO 31:18
-- the other reading: a unit everywhere, `two — two, two and two —`
-
-**The difference:** *two and two* is the distributive the doubled word makes; a Greek reader hears it only where
-δύο stands twice.
-
-**Recommendation:** plain wherever a single δύο stands, the sixteen units flattened, and `two and two` set aside in
-`NOT_SENSES` as the doubled construction's.
 
 ## Q30. An adjective used as a noun whose entry has one noun sense
 

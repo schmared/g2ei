@@ -692,7 +692,7 @@ def unit_cards(book, chapter, verses):
                 places = [t for t in theirs if t[1] == word]
                 if k < len(places):
                     form, lemma, code = places[k][:3]
-                    card = words.lexicon_senses(_ENTRIES[0], lemma, code, form)
+                    card = words.lexicon_senses(_ENTRIES[0], lemma, code, form, places[k][3][0])
                     if card is None:
                         card = words.LSJ.get(lemma)
             yield verse, head, chain, field, card
@@ -823,7 +823,7 @@ def opening(word, chain):
         if chain.startswith(lead):
             chain = chain[len(lead):]
     first = re.sub(r"^(?:of |to )?(?:the |a |an )?", "", chain.split(", ")[0]).lower()
-    for i, sense in enumerate(words.lexicon_senses(_ENTRIES[0], word["lemma"]) or []):
+    for i, sense in enumerate(words.lexicon_senses(_ENTRIES[0], word["lemma"], parse=word["parse"]) or []):
         core = re.sub(r"^(?:to |the |a |an )", "", re.split(r"[,;:]", sense)[0].strip()).lower()
         # a run joined into the first item: `the existing circumstances and present advantages`
         if first == core or first.startswith(core + " and "):
@@ -1127,9 +1127,8 @@ def check_markup(targets, rep):
 
     settled = set(W.LATIN_ONLY) | {re.sub(r"\d+$", "", k) for k in W.MARKUP_LOST}
     seen = 0
-    for lemma in sorted(wanted):
-        key = W.SPELLING.get(W.beta(lemma), W.beta(lemma))
-        key = W.ENTRY.get(key, key)
+    for lemma, key in sorted((lemma, key) for lemma in wanted
+                             for key in W.entry_keys(W.SPELLING.get(W.beta(lemma), W.beta(lemma)))):
         body = bodies.get(key)
         if not body:
             continue
@@ -1155,9 +1154,8 @@ def check_markup(targets, rep):
     # GREEK_AFTER, which says the gloss was whole and the Greek is an example's.
     greek = set(W.GREEK_LOST) | set(W.GREEK_AFTER)
     cut = 0
-    for lemma in sorted(wanted):
-        key = W.SPELLING.get(W.beta(lemma), W.beta(lemma))
-        key = W.ENTRY.get(key, key)
+    for lemma, key in sorted((lemma, key) for lemma in wanted
+                             for key in W.entry_keys(W.SPELLING.get(W.beta(lemma), W.beta(lemma)))):
         body = bodies.get(key)
         if not body or body.find("<sense") < 0:
             continue

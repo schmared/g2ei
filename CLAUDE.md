@@ -66,8 +66,11 @@ load-bearing word is one unit: a **headword** and its **chain**.
   of its own, a transliteration: `dwelt in as a katoikos (κάτοικος)`. Tense, voice and
   person come from the Greek form (ποιέω *to make* → ἐποίησεν *made*), and so does the
   article: English gets one where the Greek has one and
-  nowhere else (ἐν ἀρχῇ → *in beginning*; ὁ θεός → *the God*). No translation is consulted
-  — lexicon glosses ignore context, and that is the point.
+  nowhere else (ἐν ἀρχῇ → *in beginning*; ὁ θεός → *the God*). The person is the ending's
+  and no more: a third-person imperative is *let …* with no pronoun where its subject stands
+  in the verse (πασάτω Μωυσῆς, *let sprinkle Moses*), and *him*, *her* or *it* only where the
+  verb stands alone, by the gender of what it refers to (κατακαυθήτω, *let her be burnt
+  down*). No translation is consulted — lexicon glosses ignore context, and that is the point.
 - The chain is the whole range, identical in both panels. Unanchored shows the chain;
   anchored shows `headword — chain —`. The headword may repeat inside its own chain; it is
   the chain's first sense.
@@ -146,6 +149,10 @@ Articular θεός → "he who is God definitively, the one the article marks ou
 the only." Anarthrous → qualitative: "everything that God is by nature, deity in full and
 undiminished kind." Note fronted anarthrous predicate nominatives explicitly.
 
+Both formulas are for the God of the text. A θεός that names another god — θεῷ ἑτέρῳ, EXO
+34:14 — is read literally, by its lexicon range, as the plural θεοὶ ἕτεροι is: *to God, to a
+god, to the god, to a goddess*, with a note saying why the formula is not used.
+
 ### Names and transliterations
 Every proper name and obvious transliteration carries its meaning in parentheses,
 in **both** reading texts:
@@ -175,14 +182,21 @@ here: give it a `names` entry and a `[[name:…]]` marker, with no capital in ei
 name that opens a sentence (Gen 4:1 *Αδαμ δὲ ἔγνω*) the same way, since that capital proves
 nothing.
 
+A transliteration is a name though it takes Greek endings and a lexicon has it: γειώρας, the
+Aramaic gîyôrāʾ (EXO 12:19 *τοῖς γειώραις*), is `[[name:γειώραις]]`, marked for its case as any
+name, its lexicon gloss in the name's gloss.
+
 ### A declined word marks its own case
 The genitive reads *of*, the dative *to*, on every declined word — noun, adjective,
-demonstrative, participle, numeral — everywhere and whatever governs the word: *from
+demonstrative, pronoun, participle, numeral — everywhere and whatever governs the word: *from
 of the earth*, *above of the water*. The form stays visible in English, and the marker never
 depends on a judgement about what governs what or about which use of a dative is in play —
 ὀφθαλμός's dative is *to the eyes* whether it is instrumental or not. The one exception is a
 preposition that merges into its object's unit: *within, inside of, and by means of the well*
-is ἐν's own English, not a case-marker, and it keeps the lead.
+is ἐν's own English, not a case-marker, and it keeps the lead. A pronoun is plain text and
+marks its case the same way: ἑαυτοῖς is *to themselves*, never *for themselves*, which reads a
+use of the dative into it. Nor does a later sense that is already the case's own English take
+the marker again: βίᾳ's *perforce* is the dative in English, as ἐν's *within* is.
 
 Agreement puts one ending on every word of a phrase, and each shows it: τῇ ἡμέρᾳ ταύτῃ is
 *to the day to this*, ἀπὸ πάντων τῶν ἔργων *from of all of the works*, ἐτῶν ἐνενήκοντα ἐννέα

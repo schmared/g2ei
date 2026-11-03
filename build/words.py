@@ -1943,7 +1943,6 @@ NOT_SENSES = {
     "e(ch=s": {"the next"},                      # ἡ ἑξῆς ἡμέρα, the phrase's; "next" is a sense above it
     "a)/nemos": {"the wind", "to the winds"},     # a repeat with the article; ἀνέμοις, an example's dative
     "qu/ella": {"thunderstorms"},                # πυρὸς θύελλαι, the phrase's
-    "e)ruqro/s": {"the Erythraean sea", "Red Sea", "Arabian Gulf", "Indian Ocean", "the Persian Gulf"},  # Ἐρυθρὴ θάλασσα, the phrase's
     "fa/os": {"day-light", "light", "the light", "light of my life"},  # repeats of "light, daylight"; γλυκερὸν φάος, an address
     "fu/w": {"made", "grow", "will bring to light", "birth", "is", "by nature", "to fall", "grew", "natural lot",
              "it is natural", "is natural", "by nature, be"},  # examples' pieces and translations
@@ -1987,6 +1986,10 @@ NOT_SENSES = {
     "ou)ke/ti": {"(not yet)"},                   # what οὔπω means, set against it
     "kaqh/kw": {"came", "is come", "[the time]", "comes", "duty it is"},  # examples' translations
     "e)rhmo/w": {"of", "without"},                # pieces of "to bereave one of", "to leave the oars without men"
+    # The edit pass after Exodus (reference/open-questions.md, settled)
+    "du/o": {"two and two"},                     # Q29: the doubled δύο δύο's, which only the doubled word makes
+    "qeo/s": {"his will", "God's name", "more divine", "more used by the gods"},  # Q28: pieces of ὑπὲρ θεόν and
+                                                 # the oath "in God's name"; the comparative θεώτερος's, and an example's
     # ἄν: a paragraph on the particle's uses, tagged as one translation, opens the card.
     "a)/n": {'conditional Particle. In attic, it is not joined with pres. or perf. ind., nor with imperat. of any tense. Three uses of a)/n must be distinguished in practice: in combination with Conjunctions and Relatives. in Apodosis. in Iterative sentences. in combinations with Conjunctions and Relatives: such words are regularly foll. by the subj., viz. e)a/n (= ei) a)/n) h)/n, a)/n , e)ph/n; o(\\s a)/n quicunque'},
 }
@@ -2036,6 +2039,18 @@ _APOLLUMI_ACT = {"to destroy utterly, kill, slay", "to destroy, demolish, waste"
 _APOLLUMI_MID = {"to perish utterly, die", "to be undone", "you are done for, lost, ruined",
                  "to be lost, slip away, vanish"}
 FORM_SENSES = {
+    # The edit pass after Exodus. κύριος, two entries under one key (ENTRY): the noun's κυρία,
+    # "mistress, lady of the house", is the feminine's; "sir", the vocative's ("later, κύριε was a
+    # form of respectful address"); "the Lord" and "Jehovah", ὁ Κύριος's, the singular's. The
+    # adjective's comparatives (κυριώτεροι, "better able", "of more authority"), its uses as a
+    # noun (τὸ κύριον, τὰ κύρια) and the phrase κ. θέσθαι's "by authority" are not EXO 21:8's
+    # predicate. Each entry's strings are its own, so one set serves both.
+    "ku/rios": [("-", "-", {"mistress", "lady of the house", "better able", "of more authority", "the ruling power",
+                            "the authorities", "by authority", "the appointed"}, None, "^....VS"),
+                ("-", "-", {"mistress", "lady of the house", "the Lord", "Jehovah"}, None, "^....VP"),
+                ("-", "-", {"mistress", "lady of the house", "sir", "the Lord", "Jehovah"}, None, "^.....P"),
+                ("-", "-", {"mistress", "lady of the house", "sir", "better able", "of more authority",
+                            "the ruling power", "the authorities", "by authority", "the appointed"}, None, "^.....S")],
     # EXO 29. τελειόω's and ζώννυμι's active leave out the middle's and the passive's; προτίθημι's middle-passive and
     # passive the middle's; τάσσω's middle the active's and the passive's.
     "ta/ssw": [("PIFAXY", "M", {
@@ -2882,7 +2897,27 @@ ENTRY = {
                          # interrogative, "how?", is the second
     "a)/nw": "a)/nw2",
     "a)/peimi": "a)/peimi2",  # a)/peimi1 is "to be away"; EXO 33:8's ἀπιόντος, of εἶμι, is "to go away"   # a)/nw1 is the verb, "to accomplish"; the adverb of EXO 20:4, "up", is the second
+    # Two words under one spelling, told apart by the part of speech the morphology gives: the
+    # adjective, "having power or authority over", is the first entry; the noun, "a lord,
+    # master", the second. EXO 21:8's οὐ κύριός ἐστιν πωλεῖν is the adjective, the
+    # construction its entry names: κύριός εἰμι, c. inf., "I have authority to do".
+    "ku/rios": {"noun": "ku/rios2", "adjective": "ku/rios1"},
 }
+
+
+def entry_key(key, parse=""):
+    """The entry a key reads, by ENTRY, for a form whose parse begins `parse`."""
+    to = ENTRY.get(key, key)
+    if isinstance(to, dict):
+        pos = parse.split(" ·")[0]
+        return to.get(pos, next(iter(to.values())))
+    return to
+
+
+def entry_keys(key):
+    """Every entry ENTRY may send a key to."""
+    to = ENTRY.get(key, key)
+    return list(to.values()) if isinstance(to, dict) else [to]
 
 PUNCT = re.compile(r"[.,;:·!?—·()]")
 
@@ -3323,6 +3358,9 @@ def load_middle_liddell():
         # One translation in the whole lexicon runs on into the voice label after it —
         # ἐξαποστέλλω's "to send quite away:—Pass." — so the label is cut off, not the gloss.
         glosses = (re.sub(r":\s*—\s*(?:Pass|Mid|Act)\.$", "", g) for g in glosses)
+        # Nine run on into the sign of an equivalence after them — κύριος's "the Lord, = Hebr.
+        # Jehovah" — so the sign is cut, and the translation it points to stays its own.
+        glosses = (re.sub(r",?\s*=$", "", g) for g in glosses)
         senses = [g for g in glosses if g]
         for at, gloss in MARKUP_LOST.get(key, ()):
             senses.insert(at, gloss)
@@ -3336,9 +3374,9 @@ def load_middle_liddell():
     return entries
 
 
-def lexicon_senses(entries, lemma, code="", form=""):
+def lexicon_senses(entries, lemma, code="", form="", parse=""):
     key = SPELLING.get(beta(lemma), beta(lemma))
-    key = ENTRY.get(key, key)
+    key = entry_key(key, parse)
     if key not in entries:
         return None
     bare = re.sub(r"\d+$", "", key)
@@ -3514,7 +3552,7 @@ def build(book, chapter, entries):
             # the word under its own key or a close form of it (SPELLING, ENTRY,
             # FILED_WITHIN). An entry whose translation the markup hides is recovered from
             # Middle Liddell itself (MARKUP_LOST), not replaced by LSJ.
-            senses, lexicon = lexicon_senses(entries, lemma, code, form), "Middle Liddell"
+            senses, lexicon = lexicon_senses(entries, lemma, code, form, parse), "Middle Liddell"
             if not senses and (lemma in names or form in names or lemma in by_lemma):
                 # A name entry is keyed by the form the verse prints (Ἀσσυρίων), which
                 # is not always the dictionary form the morphology gives (Ἀσσύριος). It

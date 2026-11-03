@@ -1908,7 +1908,7 @@ the same ground as `the sixth` and `the seventh`: one sense each, so no range to
 | καταλύω | `to put down` | `to put down and destroy, to dissolve and break up, to depose, to dismiss and disband, to neglect, to end and bring to an end, to break, to make peace with, to unloose and unyoke, to take down, to take up one's quarters and lodge, to go and lodge, to take one's rest` | 24:23, 24:25 |
 | καταμανθάνω | `was observing well` | `was observing well and examining closely, was learning thoroughly, was perceiving and understanding, was discovering and finding, was considering` | 24:21 |
 | κληρονομέω | `let receive a share of an inheritance` | `let receive a share of an inheritance and inherit a portion, let inherit, let be an inheritor, let succeed` | 24:60 |
-| κύριος | `of the lord` | `of the lord, of the master, of the one having power and authority over` | 24:9, 24:10, 24:12, 24:27, 24:36, 24:42, 24:48, 24:51 |
+| κύριος | `of the lord` | `of the lord / master, of the head, of the master, of the Lord, of the Jehovah` | 24:9, 24:10, 24:12, 24:27, 24:36, 24:42, 24:48, 24:51 |
 | λέγω | `of saying` | `of saying, of speaking, of declaring, of calling by name, of telling` | 24:30 |
 | λαλέω | `has talked` | `has talked and it stands so, has chatted, has prattled, has babbled, has said, has talked of, has spoken, has chattered, has chirped` | 24:30 |
 | λαμβάνω | `you may take` | `you may take, you may receive, you may take hold of and grasp and seize` | 24:3 |
@@ -2427,7 +2427,7 @@ the same ground as `the sixth` and `the seventh`: one sense each, so no range to
 | κοιμάω, with ἐν τῷ | `in the being lulled` | `within, inside of, and by means of the being lulled, the being hushed to sleep and put to sleep, the being lulled to rest and stilled and calmed, the falling asleep, the going abed and lying abed, the sleeping, the falling asleep and dying, the keeping watch at night` | 19:33, 19:35 |
 | κρίνω | `to pick out` | `to pick out and choose, to pick out for oneself and choose, to decide, to judge, to adjudge, to judge of and estimate, to expound and interpret, to determine, to question, to bring to trial and accuse, to pass sentence upon and condemn` | 19:9 |
 | κρατέω | `were strong` | `were strong and mighty and powerful, ruled and held sway and were sovereign, ruled among, were lords and masters of and rulers over, conquered and prevailed and got the upper hand, prevailed and became current, prevailed over, surpassed and went beyond, conquered and mastered and outdid and surpassed, became masters of and got possession of, laid hold of, seized and held fast, controlled and commanded` | 19:16 |
-| κύριος | `lords` | `lords, masters, the ones having power and authority over` | 19:2 |
+| κύριος | `lords` | `lords / masters, the heads, masters, sirs` (the vocative) | 19:2 |
 | λέγω | `were saying` | `were saying, were speaking, were declaring, were calling by name, were telling` | 19:5 |
 | λαλέω | `you talked` | `you talked, you chatted, you prattled, you babbled, you said, you talked of, you spoke, you chattered, you chirped` | 19:21 |
 | λαμβάνω | `having taken` | `having taken, having received, having taken hold of and grasped and seized` | 19:14 |
@@ -3034,7 +3034,7 @@ against normal usage, because John 1:1c turns on articular τὸν θεόν agai
 
 ### κυρίου τοῦ θεοῦ — genitive
 
-- `of lord` / `of lord, of master, of the one having power and authority over`
+- `of lord` / `of lord / master, of the head, of master, of the Lord, of Jehovah`
 - `of the God` / `of him who is God definitively, of the one the article marks out, of the known and the only`
 - **used:** GEN 3:8, twice
 
@@ -3046,6 +3046,16 @@ The nominative chains, in the genitive.
   one a plural can take, lower case as the lexicon prints it.
 - **chain:** `gods, the gods, goddesses`
 - **used:** GEN 3:5 (ὡς θεοί)
+
+### θεός — singular, of another god
+
+- **headword:** `to God` — the first sense, as the lexicon prints it; anarthrous, so no article.
+- **chain:** `to God, to a god, to the god, to a goddess` — Middle Liddell's range, the oath πρὸς
+  θεῶν's *the gods* in the singular. The formulas say what the God of the text is; of another
+  god the text denies that, so the word is read literally, as the plural is (Q28). `NOT_SENSES`
+  sets aside *his will* and *God's name* (pieces of ὑπὲρ θεόν and an oath) and the comparative
+  θεώτερος's *more divine*.
+- **used:** EXO 34:14 (θεῷ ἑτέρῳ)
 
 ---
 
@@ -4143,9 +4153,22 @@ phrase runs breath into breath.
 
 ### κύριος
 
-- **headword:** `lord` — the entry opens as an adjective, *having power*; the first **noun**
-  sense is *authority over, lord*, and the rule takes the first noun sense. Anarthrous.
-- **chain:** `lord, master, the one having power and authority over`
+- **headword:** `lord` — Middle Liddell files two words under κύριος: the adjective, *having
+  power or authority over*, and the noun, *a lord, master*. `ENTRY` sends the noun to the second
+  entry and the adjective to the first, by the part of speech the morphology gives (Q16).
+  Anarthrous, so *lord* without the lexicon's *a*.
+- **chain:** `lord / master, the head, master, the Lord, Jehovah` — the noun's entry whole: *the
+  head* (of a family), *master* (of a house), and ὁ Κύριος, *the Lord, = Hebr. Jehovah*, the LXX's
+  rendering of the divine name. The vocative adds *sir*, "later, κύριε was a form of respectful
+  address" (`lord / master, the head, master, sir, the Lord, Jehovah`); the plural leaves out the
+  singular ὁ Κύριος's two (`lords / masters, the heads, masters`, `sirs` in the vocative); κυρία's
+  *mistress, lady of the house* is the feminine's. Articular, every item takes the article, as τὸ
+  σπέρμα is *the that which is sown*, save where the gloss has it already: `the lord / master, the
+  head, the master, the Lord, the Jehovah`.
+- **the adjective:** EXO 21:8, οὐ κύριός ἐστιν πωλεῖν, the construction the first entry names,
+  κύριός εἰμι c. inf., *I have authority to do, am entitled to do*: `having power / authority over /
+  lord / master of, having authority, entitled, having authority / authoritative / supreme, …`, its
+  comparatives and its uses as a noun left out by `FORM_SENSES`.
 - **used:** GEN 2:8
 
 Renders the Hebrew divine name, which the Greek replaces with a title rather than
@@ -6566,7 +6589,7 @@ text uses.
   after it. 44:30.
 - ἐπιμελέομαι — **headword** `I take care of`; **chain** `I take care of and have charge of and have
   the management of, I take care that, I give heed and attend, I am curator of`. 44:21.
-- δύο — `two, two and two`. 44:27.
+- δύο — plain `two`; *two and two* is the doubled δύο δύο's, set aside in `NOT_SENSES` (Q29). 44:27.
 - παραμένω — **headword** `I will stay beside`; **chain** `I will stay beside or near and stand by,
   I will remain faithful, I will stand my ground and stand fast, I will remain with, I will stay,
   I will stay behind or at home, I will survive and remain alive, I will endure and last`. *trusty*
@@ -7354,8 +7377,7 @@ text uses. Chains already in the corpus (Genesis) were read from it and re-infle
   it stands so, has been undone and it stands so, is done for and lost and ruined and it stands so,
   has been lost and slipped away and vanished and it stands so` (10:7).
 - **Pieces set aside** (`NOT_SENSES`): ἑξῆς (*the next*, ἡ ἑξῆς ἡμέρα's), ἄνεμος (*the wind*, a
-  repeat; *to the winds*, an example's dative), θύελλα (*thunderstorms*, πυρὸς θύελλαι's), ἐρυθρός
-  (the names of the Erythraean sea, the phrase's: see open question Q8), φάος (repeats of *light,
+  repeat; *to the winds*, an example's dative), θύελλα (*thunderstorms*, πυρὸς θύελλαι's), φάος (repeats of *light,
   daylight*; an address), φύω (examples' pieces and translations).
 - **Used as a noun**: τὸ περισσόν takes the entry's noun senses, `the surplus, the surplus and
   residue` (10:5).
@@ -7394,7 +7416,9 @@ text uses. Chains already in the corpus (Genesis) were read from it and re-infle
   ὁλοκαύτωμα `whole burnt-offerings`; θυσία `offerings`; ὁπλή `a hoof`; βούλομαι `willed`;
   προστίθημι `to put to`; ποιέω `we will make`; ἀναβαίνω `let go up`; τέκνον `of the things borne`.
 - One translation each, plain text: σκληρύνω, ἀκρίς (*a locust*), πρόπαππος (*a great-grandfather*),
-  νεανίσκος (*a youth*), καθότι (*in what manner*), ἐρυθρός (*red*), ψηλαφητός.
+  νεανίσκος (*a youth*), καθότι (*in what manner*), ψηλαφητός. ἐρυθρός is a unit: `the red, the
+  Erythraean sea, the Red Sea / Arabian Gulf, the Indian Ocean, the Persian Gulf`, the phrase's names kept, since the
+  phrase Ἐρυθρὴ θάλασσα is in the text, and their extent in the note (Q8; 10:19, 13:18, 15:4, 15:22, 23:31).
 
 ### Words new in EXO 11
 
@@ -7426,8 +7450,7 @@ text uses. Chains already in the corpus (Genesis) were read from it and re-infle
 
 ### Words new in EXO 12
 
-- **From LSJ** (not in Middle Liddell): γειώρας, `in the sojourners, the proselytes` with ἐν (12:19);
-  δέσμη, `package and bundle, measure, handful` (12:22; Rahlfs prints δεσμήν, the module δέσμην, and
+- **From LSJ** (not in Middle Liddell): δέσμη, `package and bundle, measure, handful` (12:22; Rahlfs prints δεσμήν, the module δέσμην, and
   `printed` lists it); ἐνδόσθια, LSJ's "= ἐντόσθια", whose substantive is *inwards, entrails*: `to
   the inwards and entrails` (12:9); ἐπίμικτος, LSJ's ἐπίμεικτος, `common to, mixed, combining the
   features, sociable and gregarious` (12:38); ζυμωτός, `fermented and leavened` (12:19, 12:20);
@@ -7452,6 +7475,8 @@ text uses. Chains already in the corpus (Genesis) were read from it and re-infle
   `usage and custom, funeral rites` (12:14, 12:17, 12:24).
 - **A name**: πασχα, the Aramaic pasḥāʾ in Greek letters, indeclinable and printed lower case, is a
   name, as χερουβιμ: `pascha` / `passover`, glossed at its first occurrence (12:11).
+  γειώρας, the Aramaic gîyôrāʾ, is one too, though it declines (Q10): `in to the geiōrais` /
+  `in to the sojourners`, glossed with LSJ's *sojourner, proselyte* (12:19).
 - New chains, among them: ἐνιαυτός `of the long period of time`; δέκατος `to the tenth`; λαμβάνω `let them
   take`; συλλαμβάνω `will lay hold of for himself`; γείτων `the one of the same land`; συναριθμέω `will
   reckon in`; ἐνιαύσιος `of a year`; ἀρήν `of the lambs`; διατηρέω `having been watched closely … and
@@ -7609,7 +7634,7 @@ text uses. Chains already in the corpus (Genesis) were read from it and re-infle
   a hearing`; ἀκούω `you may hear`; ἀρεστός `the acceptable`; ἐντολή `to the injunctions`; φυλάσσω `you may keep
   watch and ward`; νόσος `sickness`; ἐπάγω `I brought on`; ἰάομαι `the one healing`; στέλεχος `crowns of the
   root`; φοῖνιξ `of purple-reds`.
-- One translation each, plain text: μόλιβος (*lead*), ἐρυθρός (*red*), βραχίων (*the arm*), κληρονομία (*an
+- One translation each, plain text: μόλιβος (*lead*), βραχίων (*the arm*), κληρονομία (*an
   inheritance*), καταφυτεύω (*to plant*), ἀπολιθόω, ἀδελφή (*a sister*), διαγογγύζω (*to murmur among
   themselves*), ἐνωτίζομαι (*to hearken to*), and the numerals.
 
@@ -7983,7 +8008,7 @@ text uses. Chains already in the corpus (Genesis) were read from it and re-infle
   `I will give`; ἐγκάθημαι `the ones sitting in or on`, `they will sit in or on`; ἁμαρτάνω `to miss the mark`;
   δουλεύω `you may be a slave`; ποιέω `they may make`; πρόσκομμα `a stumble`.
 - One translation each, plain text: μάρτυς, συνεγείρω (the active), ἐκτυφλόω, γένημα, ἀμπελών, ἀρσενικός, γάλα,
-  οἶνος, σφηκία, πρωτογένημα, ἐχθρεύω, ἐρυθρός, μήν (the month).
+  οἶνος, σφηκία, πρωτογένημα, ἐχθρεύω, μήν (the month).
 
 ### Words new in EXO 24
 
@@ -8053,7 +8078,7 @@ text uses. Chains already in the corpus (Genesis) were read from it and re-infle
 - **σπένδω** keeps GEN 35:14's three: `you will pour a drink-offering, you will make a drink-offering, you will pour`.
 - **Morphology**: Rahlfs prints no verse 6. The second pass was right on ten: ἡμίσους masculine, with the cubit
   understood (six times); ἄνωθεν before a genitive a preposition (25:22), as ἐπάνω is; τρύβλιον as Middle Liddell
-  accents it; οἷς and αὐτοῖς at 25:29 neuter, with the vessels. ὑάκινθος stays masculine, διὰ παντός neuter,
+  accents it; οἷς and αὐτοῖς at 25:29 neuter, with the vessels. ὑάκινθος feminine (Q22), διὰ παντός neuter,
   καρυΐσκος with LSJ's diaeresis. χερουβιμ is neuter at 25:18 and masculine at 25:19–22, as its words show.
 - New chains: the forms of the furnishings above; ἐλαύνω `you will drive`; δοκέω `may think`; ἀπαρχή `the beginning
   of a sacrifice`; χαλκός `copper`; πορφύρα `purple-fish`; βύσσος `a fine flax`; κλώθω `having been twisted by
@@ -8099,7 +8124,7 @@ text uses. Chains already in the corpus (Genesis) were read from it and re-infle
   *spun*.
 - **Morphology**: the second pass was right on six: τῷ ὀπισθίῳ with στύλῳ, masculine (26:27); ἐσώτερον the
   comparative ἐσώτερος, as MorphGNT codes Heb 6:19; τὸ καταπέτασμα the subject of διοριεῖ (26:33); ἔξωθεν with a
-  genitive the preposition. ὑάκινθος stays masculine, as at 25:4; μῆκος and εὖρος at 26:2 nominative, a verbless
+  genitive the preposition. ὑάκινθος feminine, as the dye is wherever the text shows a gender (Q22); μῆκος and εὖρος at 26:2 nominative, a verbless
   clause; τὸ πλάτος at 26:16 accusative, as at 25:10.
 - **validate.py**: units are paired with their Greek words in order, and where a verse has fewer units than
   occurrences of a word the pairing now prefers the occurrences whose entry says more than its headword (one helper,
@@ -8157,7 +8182,7 @@ text uses. Chains already in the corpus (Genesis) were read from it and re-infle
   noun, as it already took *one*.
 - **Morphology**: the second pass was right on two: αὐτῶν after ἱστία is neuter, the hangings (seven times); ἐλαίων
   is ἔλαιον's genitive plural by its accent (ἐλαία's is ἐλαιῶν), *olive-oil out of of olive-oils*. The measures at
-  27:1 stay accusative, as at 25:10; ὑάκινθος masculine, as at 25:4; φῶς under φάος, as at 10:23; διὰ παντός neuter,
+  27:1 stay accusative, as at 25:10; ὑάκινθος feminine (Q22); φῶς under φάος, as at 10:23; διὰ παντός neuter,
   as at 25:30.
 - New chains: θυσιαστήριον *altar*, plain; στεφάνη's anarthrous `anything that encircles, brim, a diadem and coronal,
   edge, brow of a hill and edge of a cliff`; φιάλη `the broad and flat vessels and bowls, the cinerary urns, the
@@ -8220,7 +8245,7 @@ text uses. Chains already in the corpus (Genesis) were read from it and re-infle
   σοφός had cut the run *cleverly devised, wise* (GEN 41:8).
 - **Morphology**: the second pass was right on four: αὐτοῦ at 28:8 neuter, the woven work; μέσον at 28:32 nominative,
   the predicate of ἔσται; κύκλῳ with a genitive the preposition; ἄνθινον neuter, a noun. ὑάκινθος is feminine at 28:5
-  and 28:37, by its article and its participle, and stays masculine where nothing marks it (Q22). περισκελής reads
+  and 28:37, by its article and its participle, and so feminine throughout Exodus, as the dye (Q22). περισκελής reads
   Middle Liddell's one entry, the word from σκέλλω, though LSJ's second, from σκέλος, is the LXX's *drawers* (Q23).
 - New chains: προσάγω's middle imperative `bring, draw to yourself and attach to yourself and bring over to your
   side, …`; στολή `an equipment` and its plural; ἅγιος `devoted to the gods and sacred and holy, holy and pure`, with
