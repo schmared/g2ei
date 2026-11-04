@@ -8772,3 +8772,17 @@ Chains the settled open questions changed, corpus-wide.
   now take too.
 - **ἀναγγέλλω** (Q11): the run is one item, `carried back tidings of / reported`; *was reported* is the
   passive's, by `FORM_SENSES`, and the passive's run says it: `was carried back tidings of / reported`.
+- **Every chain carries its card** (Q1, Q24). `validate.py`'s coverage check reads each unit against the
+  translations its entry gives its form, after `NOT_SENSES` and `FORM_SENSES`; the coverage pass sorted every
+  translation a chain left out into a sense, now in the chain, or a non-sense, set aside in `COVERAGE_NOT`
+  (`words.py`, the reason the value: a label, Latin, an example's piece, a phrase's translation, a repeat), or a
+  sense of some forms only, in `COVERAGE_ONLY` (by a `FORMS` name: plural, passive, participle, neuter …).
+  φιλέω now says *kissed*; προσάγω's intransitive *draws near* is in EXO 3:4's chain. The pronouns and the
+  formula words — θεός, ἐν, γίνομαι, ἀρχή at GEN 1:1 — are outside the check.
+- **The delimiter** (Q2). A run of one translation is one item, its pieces joined with ` / `: `the wooden box /
+  chest / coffer`, `carried back tidings of / reported`. Two translations the entry joins with *or* are one
+  translation on the card (the loader joins them) and one item in the chain, `went up with / together`; where the
+  first piece is a bare preposition or a word only the second completes, the *or* stays as printed: `of or from
+  the gods`, `washing or bathing-tub`, `little or young child` (Q26). *and* stays only where the entry's own
+  translation has it, `murder and manslaughter`.
+- **The perfect's formula after every item** (Q17): `has given and it stands so, has granted and it stands so, …`.

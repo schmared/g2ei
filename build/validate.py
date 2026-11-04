@@ -475,11 +475,21 @@ GRAMMAR = {
     "you", "your", "one", "ones", "oneself", "himself", "herself", "itself",
     "themselves", "myself", "yourself", "yourselves", "ourselves", "who", "whom", "what", "one's",
     "which", "this", "these", "those", "there", "so", "as", "own",
+    # `any` is the lexicon's article for a sense, *any articulate sound*, which a form with the
+    # article says `the articulate sound`
+    "any",
 }
 
 # English's irregular parts, so that a chain wearing the form the Greek calls for still
 # reads as the lexicon's own word: the entry says `take`, the chain says `took`.
 IRREGULAR = {
+    "anything": "any", "something": "any", "goes": "go", "does": "do", "agreed": "agree",
+    "untied": "untie", "tied": "tie", "misled": "mislead", "vying": "vie", "vied": "vie", "lied": "lie", "tying": "tie", "untying": "untie", "burnt": "burn",
+    "felled": "fall", "smelted": "smell", "rent": "rend", "trafficking": "traffic", "hamstrung": "hamstring",
+    "leaves": "leave", "leaf": "leave",
+    "decreed": "decree", "freed": "free", "disagreed": "disagree", "eyries": "eyrie",
+    "life": "live", "founded": "find", "founding": "find", "bivouacked": "bivouac", "trafficked": "traffic",
+    "panicked": "panic", "mimicked": "mimic",
     "took": "take", "taken": "take", "gave": "give", "given": "give", "went": "go",
     "gone": "go", "came": "come", "made": "make", "brought": "bring", "stood": "stand",
     "strove": "strive", "striven": "strive", "broke": "break", "broken": "break",
@@ -504,28 +514,63 @@ IRREGULAR = {
     "smote": "smite", "smitten": "smite", "stank": "stink", "smelt": "smell",
     "swept": "sweep", "tore": "tear", "torn": "tear", "woke": "wake",
     "children": "child", "men": "man", "women": "woman", "feet": "foot",
-    "teeth": "tooth", "oxen": "ox", "geese": "goose", "mice": "mouse", "lives": "life",
-    "wives": "wife", "knives": "knife", "leaves": "leaf", "calves": "calf",
+    "teeth": "tooth", "oxen": "ox", "geese": "goose", "mice": "mouse", 
+    "wives": "wife", "knives": "knife", "calves": "calf",
     "halves": "half", "thieves": "thief", "loaves": "loaf", "selves": "self",
     "slew": "slay", "slain": "slay", "begot": "beget", "begotten": "beget", "sped": "speed",
     "died": "die", "dying": "die", "oversaw": "oversee", "overseen": "oversee", "lying": "lie",
+    # the rest of English's irregular parts (the edit pass after Exodus)
+    "arisen": "arise", "arose": "arise", "awoke": "awake", "awoken": "awake",
+    "bade": "bid", "beaten": "beat", "became": "become", "befallen": "befall", "befell": "befall",
+    "beheld": "behold", "bent": "bend", "bereft": "bereave", "besought": "beseech", "bidden": "bid",
+    "bit": "bite", "bitten": "bite", "bled": "bleed", "blew": "blow", "blown": "blow", "bred": "breed",
+    "chid": "chide", "chidden": "chide", "clove": "cleave", "cloven": "cleave", "clung": "cling",
+    "crept": "creep", "dealt": "deal", "did": "do", "done": "do", "drank": "drink", "dreamt": "dream",
+    "drunk": "drink", "dug": "dig", "dwelt": "dwell", "fed": "feed", "fled": "flee", "flew": "fly",
+    "flown": "fly", "flung": "fling", "forbade": "forbid", "forbidden": "forbid", "forbore": "forbear",
+    "forborne": "forbear", "forgave": "forgive", "forgiven": "forgive", "forsaken": "forsake",
+    "forsook": "forsake", "fought": "fight", "frozen": "freeze", "hewn": "hew",
+    "knelt": "kneel", "laden": "lade", "leant": "lean", "leapt": "leap", "lent": "lend", "lit": "light",
+    "mown": "mow", "rang": "ring", "ridden": "ride", "rode": "ride", "rung": "ring",
+    "sewn": "sew", "shewn": "shew", "shod": "shoe", "shorn": "shear", "shown": "show", "shrank": "shrink",
+    "shrunk": "shrink", "slid": "slide", "slung": "sling", "sown": "sow", "spat": "spit", "spelt": "spell",
+    "spent": "spend", "spilt": "spill", "spoilt": "spoil", "sprung": "spring", "spun": "spin",
+    "strewn": "strew", "stridden": "stride", "strode": "stride", "strung": "string", "stuck": "stick",
+    "stung": "sting", "stunk": "stink", "sung": "sing", "sunk": "sink", "swam": "swim", "swollen": "swell",
+    "swum": "swim", "swung": "swing", "thriven": "thrive", "throve": "thrive", "trod": "tread",
+    "trodden": "tread", "wept": "weep", "woken": "wake", "wove": "weave", "woven": "weave",
+    "wrung": "wring",
 }
 
 # The project's own wording for verbal aspect (CLAUDE.md). It is grammar written into the
 # text, not a sense the lexicon gave, so it is set aside like an auxiliary — a perfect
 # participle and an aorist one may share an English headword, and then only this differs.
-ASPECT = re.compile(r"\band (?:it )?(?:stands?|standing|remains?|remaining|continues?|"
+ASPECT = re.compile(r"\band (?:it |to )?(?:stands?|standing|stood so|remains?|remaining|continues?|"
                     r"continuing|holds?|holding)\b(?![^,]*\bwith\b)[^,]*")
+
+
+IRREGULAR_PREFIXES = ("over", "under", "with", "up", "out", "fore", "be", "mis", "re", "un")
+# parts too short to carry a prefix safely: `relied` is not re- and `lied`
+IRREGULAR_UNPREFIXED = {"lied", "tied", "vied", "died", "led", "fed", "bid", "wed"}
 
 
 def stem(token):
     """One English word cut back to a stem an entry and a chain both reach."""
+    if token not in IRREGULAR:
+        for prefix in IRREGULAR_PREFIXES:
+            # overtook, undertook, withdrew, forsook: the prefix on an irregular part
+            if (token.startswith(prefix) and token[len(prefix):] in IRREGULAR and len(token) > len(prefix) + 2
+                    and token[len(prefix):] not in IRREGULAR_UNPREFIXED):
+                token = prefix + IRREGULAR[token[len(prefix):]]
+                break
     token = IRREGULAR.get(token, token)
+    if len(token) > 4 and token.endswith("men") and not token.endswith(("omen", "amen")):
+        token = token[:-3] + "man"                 # herdsmen, kinsmen, horsemen
     # A plural ending comes off and lets one more come off after it — `beings` to `being`
     # to `be`. A verb ending is the last: taking an `s` from what `-ed` left cut `deposed`
     # to `depo` where `depose` stays `depos`, and two forms of one word read as two words.
     for _ in range(2):
-        if len(token) > 5 and token.endswith(("ies", "ied")):
+        if len(token) > 4 and token.endswith(("ies", "ied")):
             token = token[:-3] + "y"
             break
         elif len(token) > 4 and token.endswith("ing") and re.search(r"[aeiouy]", token[:-3]):
@@ -533,16 +578,17 @@ def stem(token):
             # left without a vowel was never an `-ing` ending
             token = token[:-3]
             break
-        elif len(token) > 4 and token.endswith("ed"):
+        elif len(token) > 3 and token.endswith("ed") and not token.endswith("eed") and token not in ("shed", "sled", "wed"):
             token = token[:-2]
             break
-        elif len(token) > 4 and token.endswith("es"):
+        elif len(token) > 4 and token.endswith("es") and re.search(r"(?:ss|x|z|ch|sh)es$", token):
+            # `boxes` to `box`; but `houses` is `house` with an s, and loses only that
             token = token[:-2]
-        elif len(token) > 3 and token.endswith("s") and not token.endswith("ss"):
+        elif len(token) > 3 and token.endswith("s") and not token.endswith(("ss", "us")):
             token = token[:-1]
         else:
             break
-    if len(token) > 3 and token.endswith("e"):
+    if len(token) > 2 and token.endswith("e"):
         token = token[:-1]
     if len(token) > 3 and token[-1] == token[-2] and token[-1] not in "aeiou":
         token = token[:-1]
@@ -591,6 +637,29 @@ def leading_grammar(item):
     return out
 
 
+# The pieces of one translation: a run the entry gives with commas, *a wooden box, chest, coffer*,
+# or two it joins with "or", *to go up with or together* (Q2). The first piece is the headword's.
+PIECES_OF = re.compile(r",\s*|:\s*|\s+or\s+")
+FIRST_OF = re.compile(r"[,;:]|\s+or\s+")
+
+
+# A first piece the `or` completes is not a translation by itself: a bare preposition, θεῖος *of or
+# from the gods* (Q26), or a word the second piece finishes, λουτήρ *washing or bathing-tub*,
+# διατόνιον *curtain-hook or -ring*. The `or` stays as the entry prints it, and the headword is the whole.
+OR_AS_PRINTED = ("washing or bathing-tub", "curtain-hook or -ring", "a little or young child")
+BARE_PREPOSITIONS = {"of", "from", "for", "by", "with", "to", "in", "on", "at", "about", "against", "into",
+                     "upon", "over", "under", "through", "towards", "toward", "before", "after"}
+
+
+def headword_of(gloss):
+    """The part of a translation the headword is: its first piece, or the whole where the `or` completes it."""
+    first = re.split(r"[,;:]", gloss)[0].strip()
+    pieces = re.split(r"\s+or\s+", first)
+    if first in OR_AS_PRINTED or pieces[0].lower() in BARE_PREPOSITIONS:
+        return first
+    return pieces[0]
+
+
 def split_runs(chain, card):
     """Where a chain splits one translation of its card across items: [(first, last)].
 
@@ -613,10 +682,10 @@ def split_runs(chain, card):
     # with the opening noun and without it
     said = [content(item) for item in items]
     bare = [content(re.sub(r"^(?:of |to )?(?:the )?(?:things?|ones?) ", "", item)) for item in items]
-    alone = [content(sense) for sense in card if len(re.split(r",\s*", sense)) == 1]
+    alone = [content(sense) for sense in card if len(PIECES_OF.split(sense)) == 1]
     found = []
     for sense in card:
-        pieces = [content(p) for p in re.split(r",\s*", sense)]
+        pieces = [content(p) for p in PIECES_OF.split(sense)]
         pieces = [p for p in pieces if p]
         if len(pieces) < 2:
             continue
@@ -669,7 +738,7 @@ def join_runs(chain, card):
     return ", ".join(items)
 
 
-def unit_cards(book, chapter, verses):
+def unit_cards(book, chapter, verses, with_parse=False):
     """Each unit of a chapter with the full card of the word it opens.
 
     Yields (verse, head, chain, field, card); the card is None where it cannot be had — a
@@ -687,15 +756,16 @@ def unit_cards(book, chapter, verses):
         for head, chain, field in units(verse["reading"]):
             word = lemmas(field)[-1]
             k, nth[word] = nth[word], nth[word] + 1
-            card = None
-            if " + " not in field.split(";")[-1] and word not in FORMULA_LEMMAS:
+            card, parse = None, ""
+            if " + " not in field.split(";")[-1] and word not in FORMULA_LEMMAS | {"ἐν"}:
                 places = [t for t in theirs if t[1] == word]
                 if k < len(places):
                     form, lemma, code = places[k][:3]
+                    parse = places[k][3][0]
                     card = words.lexicon_senses(_ENTRIES[0], lemma, code, form, places[k][3][0])
                     if card is None or lemma in words.LSJ_HOMOGRAPHS:
                         card = words.lsj_senses(lemma, code, form)
-            yield verse, head, chain, field, card
+            yield (verse, head, chain, field, card, parse) if with_parse else (verse, head, chain, field, card)
 
 
 def check_runs(book, chapter, verses, rep):
@@ -711,6 +781,143 @@ def check_runs(book, chapter, verses, rep):
             rep.fail("runs", verse["ref"], "%s `%s` splits one translation across `%s` — join "
                      "it with and" % (lemmas(field)[-1], head, ", ".join(items[first:last + 1])))
     rep.done("runs", "%d units, each translation one item" % count, before)
+
+
+COMPARED = {"better": "good", "best": "good", "worse": "bad", "worst": "bad", "less": "little",
+            "least": "little", "more": "many", "most": "many", "elder": "old", "eldest": "old"}
+
+
+def positive(word):
+    """The positive a comparative or superlative English word was made from: `bigger` to `big`."""
+    if word in COMPARED:
+        return COMPARED[word]
+    m = re.match(r"^(\w+?)(i?)(er|est)$", word)
+    if not m or len(m.group(1)) < 2:
+        return word
+    base = m.group(1) + ("y" if m.group(2) else "")
+    if len(base) > 2 and base[-1] == base[-2] and base[-1] not in "aeiou":
+        base = base[:-1]                          # bigger, big
+    return base
+
+
+def missing_senses(chain, card, degree=False, adverb=False):
+    """The translations of a card a chain does not carry: those with a word the chain lacks.
+
+    A comparative's chain, `bigger, greater`, is read back to the positive its card gives, `big,
+    great`, and `more`, `most` are the form's own words."""
+    have = content(chain)
+    # the article's noun, `the thing seen in sleep`, is the form's: so is the card's own *a thing*
+    have.add("thing")
+    if "more" in chain.split() or "most" in chain.split():
+        have |= {stem("many"), stem("much")}
+    if "lay" in have:
+        have.add(stem("lie"))                      # lie's past, `lay, was situate`
+    if degree:
+        for word in re.findall(r"[a-z]+", chain.lower()):
+            have |= {stem(positive(word)), stem(positive(word) + "e")}
+    if adverb:
+        # an adverb made of its adjective's senses (Q13): carefully, happily, notably, basically
+        for word in re.findall(r"[a-z]+", chain.lower()):
+            if word.endswith("ly") and len(word) > 4:
+                for base in (word[:-2], word[:-3] + "y", word[:-1] + "e", word[:-4] if word.endswith("ally") else word[:-2]):
+                    have.add(stem(base))
+    return [sense for sense in card if not content(sense) <= have]
+
+
+# Words the project renders by a formula of its own, whose chain is not the card: γίνομαι's
+# `came to be, arose, was brought into existence`, set against εἰμί's (CLAUDE.md); and the
+# pronouns and the article, which are grammar and not a range (CONTENT_WORDS).
+COVERAGE_FORMULAS = {"θεός", "ἐν", "γίνομαι"}
+NOT_COVERED = {"personal pronoun", "demonstrative pronoun", "relative pronoun", "interrogative pronoun",
+               "article"}
+
+
+def check_coverage(book, chapter, verses, rep):
+    """A chain carries its card: every translation the entry gives the form, after NOT_SENSES
+    and FORM_SENSES, is in it.
+
+    The other checks compare units with one another, so a chain written short of its card,
+    and copied, was short everywhere and passed: φιλέω's stopped at sense I and never said
+    *to kiss*, where the Hebrew has kiss seven times (Q1). A sense left out on purpose is set
+    aside in NOT_SENSES or FORM_SENSES, with the reason, so this has nothing else to report.
+    """
+    before = rep.failed
+    count = 0
+    for verse, head, chain, field, card, parse in unit_cards(book, chapter, verses, with_parse=True):
+        if (not card or lemmas(field)[-1] in COVERAGE_FORMULAS or parse.split(" ·")[0] in NOT_COVERED
+                or chain.startswith(FORMULA_CHAINS)):
+            continue
+        count += 1
+        missing = missing_senses(chain, card, degree=bool({"comparative", "superlative"} & set(parse.split(" · "))),
+                                 adverb=parse.startswith("adverb"))
+        if missing:
+            rep.fail("coverage", verse["ref"], "%s `%s` leaves out `%s` — add it, or set it aside in "
+                     "NOT_SENSES or FORM_SENSES with the reason"
+                     % (lemmas(field)[-1], head, "`, `".join(missing)))
+    rep.done("coverage", "%d units, each carrying its card" % count, before)
+
+
+def joined_with_and(item, sense):
+    """Whether an item joins a run's pieces with *and* where the delimiter belongs (Q2).
+
+    `and` is a word the Greek does not have; the pieces of one translation are joined with ` / `,
+    so they cannot be read as one phrase, nor parted into senses of their own. An item may hold the
+    gloss's own *and* — φόνος's `murder and manslaughter` — and the perfect's formula, `and it
+    stands so`.
+    """
+    if len(PIECES_OF.split(sense)) < 2:
+        return False
+    body = ASPECT.sub("", item)
+    return len(re.findall(r"\band\b", body)) > len(re.findall(r"\band\b", sense))
+
+
+def check_delimiter(book, chapter, verses, rep):
+    """The pieces of one translation are joined with ` / `, not with *and* (Q2)."""
+    before = rep.failed
+    count = 0
+    for verse, head, chain, field, card in unit_cards(book, chapter, verses):
+        if not card:
+            continue
+        for lead in MERGED_LEAD:
+            if chain.startswith(lead):
+                chain = chain[len(lead):]
+        items = chain.split(", ")
+        for sense in card:
+            want = content(sense)
+            if len(PIECES_OF.split(sense)) < 2 or not want:
+                continue
+            item = next((it for it in items if want <= content(ASPECT.sub("", it))), None)
+            if item is None:
+                continue
+            count += 1
+            if joined_with_and(item, sense):
+                rep.fail("delimiter", verse["ref"], "%s `%s` joins the pieces of `%s` with and, in `%s` — "
+                         "join them with ` / `" % (lemmas(field)[-1], head, sense, item))
+                break
+    rep.done("delimiter", "%d runs, each joined with the delimiter" % count, before)
+
+
+def check_perfects(book, chapter, verses, rep):
+    """A perfect's formula follows every item of its chain, not the first alone (Q17): each item is
+    the one perfect read in another sense, and each is a standing state."""
+    before = rep.failed
+    count = 0
+    for verse, head, chain, field, card, parse in unit_cards(book, chapter, verses, with_parse=True):
+        if not ({"perfect", "pluperfect"} & set(parse.split(" · "))):
+            continue
+        for lead in MERGED_LEAD:
+            if chain.startswith(lead):
+                chain = chain[len(lead):]
+        items = chain.split(", ")
+        marked = [bool(ASPECT.search(it)) for it in items]
+        if not any(marked):
+            continue                              # οἶδα, a perfect read as a present, carries none
+        count += 1
+        if not all(marked):
+            rep.fail("perfects", verse["ref"], "%s `%s`: the formula is on %d of %d items — put it after "
+                     "every one, `%s`" % (lemmas(field)[-1], head, sum(marked), len(items),
+                                          items[marked.index(False)]))
+    rep.done("perfects", "%d perfects, the formula after every item" % count, before)
 
 
 def chains_that_drifted(seen):
@@ -768,15 +975,26 @@ def check_chains(targets, rep):
         lay = ({v["ref"]: v["words"] for v in
                 json.loads(layer.read_text(encoding="utf-8")).get("verses", [])}
                if layer.exists() else {})
-        for verse in json.loads(path.read_text(encoding="utf-8")):
+        verses = json.loads(path.read_text(encoding="utf-8"))
+        # the whole card of each unit's form: two forms whose cards part after the fifth sense, which
+        # the layer shows no further (πᾶς's neuter, *all things, everything*), are two cards
+        full = {}
+        try:
+            for n, (verse, head, chain, field, card) in enumerate(unit_cards(book, chapter, verses)):
+                full.setdefault(verse["ref"], []).append(tuple(card) if card else None)
+        except Exception:                          # pragma: no cover — no morphology for the chapter
+            full = {}
+        for verse in verses:
             words = lay.get(verse["ref"]) or []
             nth = collections.Counter()
             count = collections.Counter(lemmas(lemma)[-1] for _, _, lemma in units(verse["reading"]))
-            for head, chain, lemma in units(verse["reading"]):
+            cards = full.get(verse["ref"]) or []
+            for u, (head, chain, lemma) in enumerate(units(verse["reading"])):
                 word = lemmas(lemma)[-1]
                 k, nth[word] = nth[word], nth[word] + 1
                 places = [words[i] for i in unit_places(words, word, count[word])]
-                card = tuple(places[k].get("senses") or ()) if k < len(places) else None
+                card = (cards[u] if u < len(cards) and cards[u] else
+                        tuple(places[k].get("senses") or ()) if k < len(places) else None)
                 seen.setdefault((lemma, head, card), {}).setdefault(chain, verse["ref"])
     for lemma, head, where in chains_that_drifted(seen):
         short, long_ = min(where, key=lambda kv: sum(senses(kv[0]).values())), \
@@ -824,7 +1042,7 @@ def opening(word, chain):
             chain = chain[len(lead):]
     first = re.sub(r"^(?:of |to )?(?:the |a |an )?", "", chain.split(", ")[0]).lower()
     for i, sense in enumerate(words.lexicon_senses(_ENTRIES[0], word["lemma"], parse=word["parse"]) or []):
-        core = re.sub(r"^(?:to |the |a |an )", "", re.split(r"[,;:]", sense)[0].strip()).lower()
+        core = re.sub(r"^(?:to |the |a |an )", "", FIRST_OF.split(sense)[0].strip()).lower()
         # a run joined into the first item: `the existing circumstances and present advantages`
         if first == core or first.startswith(core + " and "):
             return "" if i == 0 else core
@@ -993,7 +1211,7 @@ def opens_more(word):
     whole = set()
     for sense in got:
         whole |= set(senses(sense))
-    return bool(whole - set(senses(re.split(r"[,;]", got[0])[0])))
+    return bool(whole - set(senses(headword_of(got[0]))))
 
 
 
@@ -1217,7 +1435,11 @@ PLAIN_LEADS = ("in the presence ", "hearken ")
 # mourning*, and ἐν merged into it ends on its own *by means of*: `… and by means of of or for mourning` (EXO 33:4).
 # ἑβδομάς is *of seven years, a septenary*, and its genitive `of of seven years and septenaries` (EXO 34:22).
 GLOSS_LEADS = ("of of good name", "of of good omen", "of of a poor man", "of of or for a lithourgos",
-               "of of twenty years", "of of or for mourning", "of of seven years")
+               "of of twenty years", "of of or for mourning", "of of seven years",
+               # the coverage pass's: πᾶς *of all kinds*, ψυχή *of things dear as life*, μέσος *of middle
+               # rank*, ὄχλος *of the multitude*, μικρός *of small account*, εὐλογία *of the alms collected*
+               "of of all kinds", "of of things dear as li", "of of middle rank", "of of the multitude",
+               "of of small account", "of of the alms collected")
 # What stands in a reading, in order: a unit (its anchor), a name, or plain text.
 PIECES = re.compile(r"\[\[name:[^\]]+\]\]|\[\[(?!name:)([^|\]]+)\|[^|\]]+\|[^|\]]+\]\]|[^\[]+")
 THE_LEADS = re.compile(r"^(?:of |to )?the ")
@@ -1705,7 +1927,7 @@ def entitled_to(book, chapter, verses):
                     here.update(mark + noun for noun in ARTICLE_NOUNS)
             got = word.get("senses") or []
             if got and word["lemma"] not in claimed:
-                first = re.split(r"[,;]", got[0])[0].strip().lower()
+                first = FIRST_OF.split(got[0])[0].strip().lower()
                 here.add(first)
                 # and each word of it: ἐνευλογέω is plain *will be blessed in*, and its
                 # *in* is its own, not a loose headword of the ἐν beside it (GEN 12:3)
@@ -2359,6 +2581,9 @@ def validate(book, chapter, rep):
     check_unit_words(book, chapter, verses, rep)
     check_one_sense(book, chapter, verses, rep)
     check_runs(book, chapter, verses, rep)
+    check_coverage(book, chapter, verses, rep)
+    check_delimiter(book, chapter, verses, rep)
+    check_perfects(book, chapter, verses, rep)
     check_greek(book, chapter, verses, rep)
 
 

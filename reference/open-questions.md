@@ -5,85 +5,74 @@ reading the text has now (the nearest precedent), the alternative, and examples 
 of these is a defect under a rule already set — those are fixed when found. Settle one, apply it
 across the corpus, and delete its entry.
 
-## Q1. A chain that stops before the end of its entry — φιλέω
+## Q32. Chain items no card translation gives
 
-**Where:** every φιλέω unit: GEN 27:4, 27:9, 27:14, 27:26, 27:27, 29:11, 29:13, 33:4, 37:4, 48:10, 50:1.
+**Where:** 160 distinct items in 1,729 units, after the coverage pass. The largest: δέ's `however` (all 1,255
+units); ἄνθρωπος's `the human being` (about 120); παῖς's `the grandchildren`; ἕτερος's `worse`; μαῖα's `the
+midwives`; ἀρχή's `the headship and rule and governing precedence` beside the card's senses.
 
-**Now:** `loved, regarded with affection, felt affection, loved and cherished, treated
-affectionately and kindly and welcomed` — Middle Liddell's sense I only. The entry goes on: *to
-kiss* (sense II), then *to love, like, approve*, *to be fond*, *to be wont, used, apt*. Where the
-Hebrew has *kiss* (nāšaq: 27:26, 27:27, 29:11, 29:13, 33:4, 48:10, 50:1) the reader never sees the
-word.
+**Now:** kept where they stood. The coverage check reads what a chain leaves out of its card, not what it adds
+beyond it. In the twenty-odd words whose forms had to be brought to one range, such items were dropped.
 
-**The rule says** the chain is the whole range, and that would put *kissed* in it:
+- now: `but, however, while / whereas / on the other hand, then / yet, …` (δέ)
+- the other reading: `but, while / whereas / on the other hand, then / yet, …`
 
-| | 50:1 *καὶ ἐφίλησεν αὐτόν* |
-|---|---|
-| now | `loved, regarded with affection, felt affection, loved and cherished, treated affectionately and kindly and welcomed` |
-| whole range | `loved, regarded with affection, felt affection, loved and cherished, treated affectionately and kindly and welcomed, kissed, loved and liked and approved, was fond, was wont and used and apt` |
+**The difference:** the hard rule makes the chain the lexicon's range. An item from no translation is English
+the Greek word was never given. Some are older readings of a sense the pass set aside. παῖς's *a child's child,
+grandchild* was filed as the phrase παῖς παιδός's, and the item that rendered it stayed.
 
-**Why it is a question and not a fix:** GEN 27's lexicon note chose sense I on purpose (*`love`
-where the Hebrew has kiss*), and nothing in `validate.py` checks that a chain covers its card — the
-checks compare chains of one lemma with each other, not with the entry. So other chains may stop
-early the same way. The fix is a new check (a chain must carry every sense its card gives, after
-`NOT_SENSES`) and then whatever it finds.
+**Recommendation:** a check that every item renders a translation on the card. Then, for each of the 160, either
+drop the item or settle the sense it came from.
 
-**Also:** προσάγω (GEN, EXO 3:4) — its chains stop before the intransitive *to draw near*, which is
-the sense of προσάγει at EXO 3:4.
+## Q33. The coverage pass's calls
 
-**Recommendation:** the whole range, and the check. A Greek reader hears φιλέω's kiss in a
-farewell over a dead father; the chain should give it to the English reader too.
+**Where:** `COVERAGE_NOT` and `COVERAGE_ONLY` in `build/words.py`, about 3,500 verdicts on the translations chains
+had left out.
 
-## Q2. *X or Y*: three treatments of one shape
+**Now:** six agents made the calls, each from a brief that gives the test the corpus uses (Q7). I read samples and
+every addition the rebuild flagged as suspect, and overrode about sixty in `dec9_manual`. A sense of some forms
+only is mapped onto the parse coarsely:
+- *neuter used as a noun* is every neuter form;
+- *first aorist* is every aorist;
+- *used as an adjective* cannot be told from a noun use at all.
 
-**Where:** any entry that writes two translations joined by *or* and tags them apart, `«to go up
-with» or «together»`.
+The chains of the commonest verbs are now long: λέγω, ποιέω, λαμβάνω, φέρω and ἔχω run to twenty or forty items.
 
-**Now:** the corpus does three things with them.
+**The difference:** most calls are the lexicon read as written. The rest are judgments the corpus has made one way
+before, each now made at scale by a reader working alone.
 
-| treatment | example | chain |
-|---|---|---|
-| joined with *and* | ἐφίστημι perfect, GEN 24; κατασοφίζομαι, ἐπιστάτης, EXO 1 | `I have stood by and near`, `let us conquer by sophisms and fallacies and outwit` |
-| the piece dropped | θῆλυς (*of or belonging to women*); συναναβαίνω (*to go up with or together*), GEN 50 | `belonging to women`; `went up with` |
-| kept as an item of its own | ἐπανέρχομαι, GEN 50:5 (*to go up or pass from one place to another*) | `I will go up, I will pass` |
+**Recommendation:** read the two tables word by word for the fifty most frequent lemmas, beginning with the verbs
+above, and move any call you would make differently.
 
-**The difference:** a piece that is not a translation by itself (*of*, *together*, *near*) reads
-wrongly as an item of its own; one that is (*pass*) loses a sense if it is dropped. Joining with
-*and* keeps both and reads as the one sense the entry means.
+## Q34. Pronouns and γίνομαι outside the coverage check
 
-**Recommendation:** join with *and* everywhere, in the entry's own order — `went up with and
-together`, `of and belonging to women` — and add a check that no tagged piece is dropped.
+**Where:** οὗτος, ἐκεῖνος, ὅσος, τις, ὅς, τοιοῦτος (pronouns); γίνομαι (256 units).
 
-## Q17. The perfect's formula — after the first item, or after every item
+**Now:** the check leaves out the pronouns, as the one-sense rule does (CONTENT_WORDS). It also leaves out γίνομαι,
+whose `came to be, arose, was brought into existence` is the formula CLAUDE.md sets against εἰμί. Their chains are
+short of their cards: οὗτος `of these, of the nearer, of what follows` beside an entry of about thirty
+translations.
 
-**Where:** about a hundred perfect units across Genesis and Exodus carry *and it stands so* (*and standing so*)
-after their first item only — λέγω `has said and it stands so, has spoken, …`, ὁράω `I have seen …`, ἄγω `have led
-and it stands so, have carried, …` (GEN 46:32) — while ἕψω, δικαιόω (GEN 38:26), ἀναπληρόω and the notes' own row
-for ἀκούω at GEN 23:15 carry it after every item.
+**The difference:** a pronoun's entry is mostly grammar. γίνομαι's formula is the reading's own wording, chosen for
+the contrast with ἦν, and the card would bury it under *to be born, to be produced, to take place*.
 
-- first item only: `having been sent up and forth and standing so, having been made to spring up, having been
-  produced, …` (ἀνίημι, GEN 49:21)
-- every item: `having been boiled and standing so, having been seethed and standing so, …` (ἕψω)
+**Recommendation:** keep both outside, and say so in CLAUDE.md's validation list.
 
-**The difference:** CLAUDE.md says the formula "follows the whole item", which settles where it goes inside an
-and-joined run but not whether each item of a chain is a perfect of its own. A Greek reader hears one perfect,
-and each sense is that perfect.
+## Q35. Passive forms of senses that have no passive
 
-**Recommendation:** after every item, and a check that holds it, since each item is the form read in another
-sense; EXO 23 follows the majority until this is settled.
+**Where:** passive units of verbs whose cards gained intransitive or active-only senses: φαίνω, ὁράω, ἔχω, καλέω and
+others.
 
-## Q24. Legacy chains short of their cards
+**Now:** the rebuild renders each new sense in the unit's form, so a passive unit renders every translation as a
+passive. Where English has no passive of the sense, the result is wrong:
+- `was given light`, `was appeared` (φαίνω), fixed by hand to the English the passive means;
+- `was had sight` (ὁράω), set aside as a sense with no passive (`COVERAGE_ONLY`, *not passive*).
 
-**Where:** a chain written before its card was compared with it can drop senses no check sees: the ranges and chains
-checks compare units with one another, not with the card. This session brought καθαρός, χαλκός, κέρας (EXO 27) and
-γένεσις, στολή, σοφός (EXO 28) to their cards. `covx.py`, a scratch tool, lists for a chapter the card senses each
-unit's chain does not carry; on EXO 28 it also reports χιτών (*a man's frock*, *the upper leather*, *any coat, case*),
-σκηνή (*house*, *a wooden stage*, *the stage*) and ἐπάγω's active (*to induce*, *to bring in, supply*, *to
-intercalate*), whose chains are recorded decisions in this file.
+Others of the same kind may remain.
 
-**Now:** those recorded chains are reused as they stand.
+**The difference:** the passive rule leaves out a sense with no passive. Whether a sense has one is a judgment
+about English the rebuild cannot make.
 
-**The difference:** a sense dropped by an early chain is dropped from every later unit that copies it.
+**Recommendation:** list every item the rebuild added to a passive unit, and settle each: a passive the English
+has, the sense left out, or the passive's own intransitive English (*came to light*).
 
-**Recommendation:** a check in validate.py that reads each unit against its card, with senses left out on purpose
-moved into NOT_SENSES or FORM_SENSES so that the check has nothing else to report; then one pass over the corpus.

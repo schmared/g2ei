@@ -37,6 +37,7 @@ GEN36 = json.loads((render.DATA / "GEN/36.json").read_text(encoding="utf-8"))
 GEN24 = json.loads((render.DATA / "GEN/24.json").read_text(encoding="utf-8"))
 GEN19 = json.loads((render.DATA / "GEN/19.json").read_text(encoding="utf-8"))
 GEN50 = json.loads((render.DATA / "GEN/50.json").read_text(encoding="utf-8"))
+GEN9 = json.loads((render.DATA / "GEN/9.json").read_text(encoding="utf-8"))
 EXO8 = json.loads((render.DATA / "EXO/8.json").read_text(encoding="utf-8"))
 EXO15 = json.loads((render.DATA / "EXO/15.json").read_text(encoding="utf-8"))
 JHN = json.loads((render.DATA / "JHN/1.json").read_text(encoding="utf-8"))
@@ -385,14 +386,14 @@ NEGATIVE = [
     ("articles a neuter participle given `the ones`",
                                          lambda: run(V.check_articles, "GEN", 7, [
                                              dict(v, reading=v["reading"].replace(
-                                                 "[[the things going into|the things going into and entering|",
-                                                 "[[the ones going into|the ones going into and entering|"))
+                                                 "[[the things going into|the things going into / entering|",
+                                                 "[[the ones going into|the ones going into / entering|"))
                                              for v in GEN7])),
     # GEN 19:1 οἱ δύο ἄγγελοι: one article, printed with the numeral — `the two the messengers`
     ("articles the article printed again past a numeral",
                                          lambda: run(V.check_articles, "GEN", 19, [
                                              dict(v, reading=v["reading"].replace(
-                                                 "[[messengers|messengers and", "[[the messengers|the messengers and"))
+                                                 "[[messengers|messengers /", "[[the messengers|the messengers /"))
                                              for v in GEN19])),
     # EXO 8:19 τοῦ ἐμοῦ λαοῦ: printed with the possessive — `of the mine of the people`
     ("articles the article printed again past a possessive",
@@ -402,10 +403,29 @@ NEGATIVE = [
                                              for v in EXO8])),
     # κιβωτός reads *a wooden box, chest, coffer*, one translation: split across items, each
     # word reads as a sense of its own
+    # Q24: a chain that stops short of its card — κιβωτός without its chest and coffer
+    ("coverage a chain short of its card",
+                                         lambda: run(V.check_coverage, "GEN", 7, [
+                                             dict(v, reading=v["reading"].replace(
+                                                 "[[the wooden box|the wooden box / chest / coffer|",
+                                                 "[[the wooden box|the wooden box / chest|"))
+                                             for v in GEN7])),
+    # Q2: a run's pieces joined with *and*, a word the Greek does not have
+    ("delimiter a run joined with and",
+                                         lambda: run(V.check_delimiter, "GEN", 7, [
+                                             dict(v, reading=v["reading"].replace(
+                                                 "the wooden box / chest / coffer", "the wooden box and chest and coffer"))
+                                             for v in GEN7])),
+    # Q17: the perfect's formula on some items and not all
+    ("perfects the formula missing from an item",
+                                         lambda: run(V.check_perfects, "GEN", 9, [
+                                             dict(v, reading=v["reading"].replace(
+                                                 "I have remitted and it stands so", "I have remitted"))
+                                             for v in GEN9])),
     ("runs     one translation split across items",
                                          lambda: run(V.check_runs, "GEN", 7, [
                                              dict(v, reading=v["reading"].replace(
-                                                 "[[the wooden box|the wooden box and chest and coffer|",
+                                                 "[[the wooden box|the wooden box / chest / coffer|",
                                                  "[[the wooden box|the wooden box, the chest, the coffer|"))
                                              for v in GEN7])),
     ("lexicon  LSJ standing in for a word Middle Liddell has",
@@ -587,6 +607,9 @@ CONTROL = [
     ("names    clean JHN",               lambda: run(V.check_names, JHN)),
     ("banned   clean GEN",               lambda: run(V.check_banned, GEN)),
     ("anchors  clean GEN + JHN",         lambda: run(V.check_anchors, GEN + JHN)),
+    ("coverage clean GEN 7",              lambda: run(V.check_coverage, "GEN", 7, GEN7)),
+    ("delimiter clean GEN 7",             lambda: run(V.check_delimiter, "GEN", 7, GEN7)),
+    ("perfects clean GEN 9",              lambda: run(V.check_perfects, "GEN", 9, GEN9)),
     ("anchors  a word's one translation holds another's headword",
                                          lambda: run(anchors_in("GEN", 50), GEN50)),
     ("words    clean GEN",               lambda: run(V.check_words, "GEN", 1, GEN)),

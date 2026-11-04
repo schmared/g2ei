@@ -12,11 +12,11 @@
           "senses": [
             "and",
             "also, even",
-            "both",
             "and above all",
-            "or"
+            "or",
+            "but"
           ],
-          "more": 6,
+          "more": 5,
           "lexicon": "Middle Liddell"
         },
         {
@@ -49,11 +49,11 @@
           "senses": [
             "all, the whole",
             "all",
-            "all the",
             "nothing but",
-            "every"
+            "every",
+            "everyone"
           ],
-          "more": 32,
+          "more": 8,
           "lexicon": "Middle Liddell"
         },
         {
@@ -66,9 +66,9 @@
             "a place of assembly, synagogue",
             "a drawing together, contracting",
             "a forming in column",
-            "a pursing up"
+            "a pursing up or wrinkling"
           ],
-          "more": 3,
+          "more": 2,
           "lexicon": "Middle Liddell"
         },
         {
@@ -101,11 +101,11 @@
           "senses": [
             "and",
             "also, even",
-            "both",
             "and above all",
-            "or"
+            "or",
+            "but"
           ],
-          "more": 6,
+          "more": 5,
           "lexicon": "Middle Liddell"
         },
         {
@@ -120,7 +120,7 @@
             "say something of",
             "to call by name"
           ],
-          "more": 20,
+          "more": 9,
           "lexicon": "Middle Liddell"
         },
         {
@@ -133,9 +133,9 @@
             "abiding at",
             "motion to",
             "from, from forth",
-            "on the side"
+            "on the side or quarter of"
           ],
-          "more": 71,
+          "more": 67,
           "lexicon": "Middle Liddell"
         },
         {
@@ -150,7 +150,7 @@
             "self, myself, thyself",
             "oneself, one's true self"
           ],
-          "more": 25,
+          "more": 10,
           "lexicon": "Middle Liddell"
         },
         {
@@ -161,11 +161,11 @@
           "senses": [
             "this",
             "the nearer",
-            "the more remote",
             "what follows",
-            "what precedes"
+            "the opponent",
+            "here"
           ],
-          "more": 18,
+          "more": 4,
           "lexicon": "Middle Liddell"
         },
         {
@@ -180,7 +180,7 @@
             "namely that",
             "he, she, it"
           ],
-          "more": 31,
+          "more": 30,
           "lexicon": "Middle Liddell"
         },
         {
@@ -189,13 +189,13 @@
           "parse": "noun · nominative · plural · masculine",
           "aspect": "",
           "senses": [
-            "the word",
-            "that by which the inward thought is expressed",
+            "the word or that by which the inward thought is expressed",
             "the inward thought itself",
             "spoken",
-            "a word"
+            "a word",
+            "words"
           ],
-          "more": 45,
+          "more": 34,
           "lexicon": "Middle Liddell"
         },
         {
@@ -210,7 +210,7 @@
             "she",
             "they"
           ],
-          "more": 19,
+          "more": 8,
           "lexicon": "Middle Liddell"
         },
         {
@@ -225,7 +225,7 @@
             "say something of",
             "to call by name"
           ],
-          "more": 20,
+          "more": 9,
           "lexicon": "Middle Liddell"
         },
         {
@@ -252,10 +252,10 @@
             "to make",
             "to do",
             "to make, produce, create",
-            "to build them",
-            "to have"
+            "to have",
+            "made"
           ],
-          "more": 31,
+          "more": 17,
           "lexicon": "Middle Liddell"
         },
         {
@@ -270,7 +270,7 @@
             "self, myself, thyself",
             "oneself, one's true self"
           ],
-          "more": 25,
+          "more": 10,
           "lexicon": "Middle Liddell"
         }
       ]
@@ -297,11 +297,11 @@
           "senses": [
             "day",
             "day-break",
-            "a state",
-            "time of life",
-            "a life"
+            "a state or time of life",
+            "a life",
+            "days"
           ],
-          "more": 10,
+          "more": 4,
           "lexicon": "Middle Liddell"
         },
         {
@@ -313,10 +313,10 @@
             "to make",
             "to do",
             "to make, produce, create",
-            "to build them",
-            "to have"
+            "to have",
+            "made"
           ],
-          "more": 31,
+          "more": 17,
           "lexicon": "Middle Liddell"
         },
         {
@@ -331,7 +331,7 @@
             "action",
             "battle"
           ],
-          "more": 25,
+          "more": 18,
           "lexicon": "Middle Liddell"
         },
         {
@@ -346,7 +346,7 @@
             "namely that",
             "he, she, it"
           ],
-          "more": 31,
+          "more": 30,
           "lexicon": "Middle Liddell"
         },
         {
@@ -356,12 +356,12 @@
           "aspect": "",
           "senses": [
             "but",
-            "adversative",
             "while, whereas, on the other hand",
             "then, yet",
-            "then"
+            "at",
+            "I say, now, so then"
           ],
-          "more": 3,
+          "more": 0,
           "lexicon": "Middle Liddell"
         },
         {
@@ -372,11 +372,11 @@
           "senses": [
             "day",
             "day-break",
-            "a state",
-            "time of life",
-            "a life"
+            "a state or time of life",
+            "a life",
+            "days"
           ],
-          "more": 10,
+          "more": 4,
           "lexicon": "Middle Liddell"
         },
         {
@@ -391,7 +391,7 @@
             "namely that",
             "he, she, it"
           ],
-          "more": 31,
+          "more": 30,
           "lexicon": "Middle Liddell"
         },
         {
@@ -426,7 +426,6 @@
           "senses": [
             "devoted to the gods, sacred, holy",
             "the Temple",
-            "theHoly of Holies",
             "holy, pure"
           ],
           "more": 0,
@@ -481,11 +480,11 @@
           "senses": [
             "all, the whole",
             "all",
-            "all the",
             "nothing but",
-            "every"
+            "every",
+            "everyone"
           ],
-          "more": 32,
+          "more": 8,
           "lexicon": "Middle Liddell"
         },
         {
@@ -500,7 +499,7 @@
             "namely that",
             "he, she, it"
           ],
-          "more": 31,
+          "more": 30,
           "lexicon": "Middle Liddell"
         },
         {
@@ -512,10 +511,10 @@
             "to make",
             "to do",
             "to make, produce, create",
-            "to build them",
-            "to have"
+            "to have",
+            "made"
           ],
-          "more": 31,
+          "more": 17,
           "lexicon": "Middle Liddell"
         },
         {
@@ -530,7 +529,7 @@
             "action",
             "battle"
           ],
-          "more": 25,
+          "more": 18,
           "lexicon": "Middle Liddell"
         },
         {
@@ -539,7 +538,7 @@
           "parse": "preposition",
           "aspect": "",
           "senses": [
-            "in, among. c. dat.",
+            "in, among",
             "in",
             "at the school of",
             "in, upon",
@@ -560,7 +559,7 @@
             "self, myself, thyself",
             "oneself, one's true self"
           ],
-          "more": 25,
+          "more": 12,
           "lexicon": "Middle Liddell"
         },
         {
@@ -570,12 +569,12 @@
           "aspect": "going on, in progress",
           "senses": [
             "to complete, finish, accomplish",
-            "to fulfil an oath",
-            "promise",
+            "to fulfil an oath or promise",
             "to bring about",
-            "end"
+            "end",
+            "to bring to an end"
           ],
-          "more": 15,
+          "more": 11,
           "lexicon": "Middle Liddell"
         }
       ]
@@ -628,7 +627,7 @@
           "parse": "preposition",
           "aspect": "",
           "senses": [
-            "in, among. c. dat.",
+            "in, among",
             "in",
             "at the school of",
             "in, upon",
@@ -645,11 +644,11 @@
           "senses": [
             "all, the whole",
             "all",
-            "all the",
             "nothing but",
-            "every"
+            "every",
+            "everyone"
           ],
-          "more": 32,
+          "more": 8,
           "lexicon": "Middle Liddell"
         },
         {
@@ -686,7 +685,7 @@
             "namely that",
             "he, she, it"
           ],
-          "more": 31,
+          "more": 30,
           "lexicon": "Middle Liddell"
         },
         {
@@ -697,11 +696,11 @@
           "senses": [
             "day",
             "day-break",
-            "a state",
-            "time of life",
-            "a life"
+            "a state or time of life",
+            "a life",
+            "days"
           ],
-          "more": 10,
+          "more": 4,
           "lexicon": "Middle Liddell"
         },
         {
@@ -716,7 +715,7 @@
             "namely that",
             "he, she, it"
           ],
-          "more": 31,
+          "more": 30,
           "lexicon": "Middle Liddell"
         },
         {
@@ -771,11 +770,11 @@
           "senses": [
             "and",
             "also, even",
-            "both",
             "and above all",
-            "or"
+            "or",
+            "but"
           ],
-          "more": 6,
+          "more": 5,
           "lexicon": "Middle Liddell"
         },
         {
@@ -790,7 +789,7 @@
             "say something of",
             "to call by name"
           ],
-          "more": 20,
+          "more": 9,
           "lexicon": "Middle Liddell"
         },
         {
@@ -814,9 +813,9 @@
             "abiding at",
             "motion to",
             "from, from forth",
-            "on the side"
+            "on the side or quarter of"
           ],
-          "more": 71,
+          "more": 67,
           "lexicon": "Middle Liddell"
         },
         {
@@ -827,11 +826,11 @@
           "senses": [
             "all, the whole",
             "all",
-            "all the",
             "nothing but",
-            "every"
+            "every",
+            "everyone"
           ],
-          "more": 32,
+          "more": 8,
           "lexicon": "Middle Liddell"
         },
         {
@@ -844,9 +843,9 @@
             "a place of assembly, synagogue",
             "a drawing together, contracting",
             "a forming in column",
-            "a pursing up"
+            "a pursing up or wrinkling"
           ],
-          "more": 3,
+          "more": 2,
           "lexicon": "Middle Liddell"
         },
         {
@@ -883,7 +882,7 @@
             "say something of",
             "to call by name"
           ],
-          "more": 20,
+          "more": 9,
           "lexicon": "Middle Liddell"
         },
         {
@@ -894,11 +893,11 @@
           "senses": [
             "this",
             "the nearer",
-            "the more remote",
             "what follows",
-            "what precedes"
+            "the opponent",
+            "here"
           ],
-          "more": 18,
+          "more": 4,
           "lexicon": "Middle Liddell"
         },
         {
@@ -913,7 +912,7 @@
             "namely that",
             "he, she, it"
           ],
-          "more": 31,
+          "more": 30,
           "lexicon": "Middle Liddell"
         },
         {
@@ -922,8 +921,7 @@
           "parse": "noun · nominative · singular · neuter",
           "aspect": "",
           "senses": [
-            "that which is said",
-            "spoken, a word, saying",
+            "that which is said or spoken, a word, saying",
             "a phrase",
             "the subject of speech, a thing",
             "a verb"
@@ -943,7 +941,7 @@
             "she",
             "they"
           ],
-          "more": 19,
+          "more": 11,
           "lexicon": "Middle Liddell"
         },
         {
@@ -956,9 +954,9 @@
             "to draw up, put in array",
             "to arrange, organise",
             "to concoct",
-            "to fix"
+            "to fix or assess"
           ],
-          "more": 2,
+          "more": 1,
           "lexicon": "Middle Liddell"
         },
         {
@@ -988,7 +986,7 @@
             "say something of",
             "to call by name"
           ],
-          "more": 20,
+          "more": 9,
           "lexicon": "Middle Liddell"
         }
       ]
@@ -1006,9 +1004,9 @@
             "to receive",
             "to take hold of, grasp, seize",
             "seized",
-            "whole"
+            "caught"
           ],
-          "more": 41,
+          "more": 33,
           "lexicon": "Middle Liddell"
         },
         {
@@ -1017,13 +1015,13 @@
           "parse": "preposition",
           "aspect": "",
           "senses": [
-            "from the side of, c. gen., beside, alongside of, c. dat., to the side of, motion alongside of, c. acc.",
+            "from the side of, c. gen., beside, alongside of, c. dat., to the side of, motion alongside of",
             "beside",
             "from the side of, from beside: from",
             "issuing from",
             "to be born"
           ],
-          "more": 48,
+          "more": 49,
           "lexicon": "Middle Liddell"
         },
         {
@@ -1049,7 +1047,7 @@
             "self, myself, thyself",
             "oneself, one's true self"
           ],
-          "more": 25,
+          "more": 10,
           "lexicon": "Middle Liddell"
         },
         {
@@ -1089,11 +1087,11 @@
           "senses": [
             "all, the whole",
             "all",
-            "all the",
             "nothing but",
-            "every"
+            "every",
+            "everyone"
           ],
-          "more": 32,
+          "more": 8,
           "lexicon": "Middle Liddell"
         },
         {
@@ -1108,7 +1106,7 @@
             "namely that",
             "he, she, it"
           ],
-          "more": 31,
+          "more": 30,
           "lexicon": "Middle Liddell"
         },
         {
@@ -1135,7 +1133,7 @@
             "namely that",
             "he, she, it"
           ],
-          "more": 31,
+          "more": 30,
           "lexicon": "Middle Liddell"
         },
         {
@@ -1145,7 +1143,6 @@
           "aspect": "",
           "senses": [
             "the heart",
-            "freely",
             "the stomach"
           ],
           "more": 0,
@@ -1158,12 +1155,12 @@
           "aspect": "",
           "senses": [
             "to bear",
-            "carry",
+            "to bear or carry",
             "to bear, bear along",
             "to bear, endure, suffer",
             "bearing"
           ],
-          "more": 69,
+          "more": 31,
           "lexicon": "Middle Liddell"
         },
         {
@@ -1178,7 +1175,7 @@
             "namely that",
             "he, she, it"
           ],
-          "more": 31,
+          "more": 30,
           "lexicon": "Middle Liddell"
         },
         {
@@ -1245,7 +1242,7 @@
             "copper",
             "metal",
             "bronze",
-            "anything made of brass",
+            "anything made of brass or metal",
             "a copper, caldron, urn"
           ],
           "more": 2,
@@ -1323,11 +1320,11 @@
           "senses": [
             "and",
             "also, even",
-            "both",
             "and above all",
-            "or"
+            "or",
+            "but"
           ],
-          "more": 6,
+          "more": 5,
           "lexicon": "Middle Liddell"
         },
         {
@@ -1361,11 +1358,11 @@
           "senses": [
             "and",
             "also, even",
-            "both",
             "and above all",
-            "or"
+            "or",
+            "but"
           ],
-          "more": 6,
+          "more": 5,
           "lexicon": "Middle Liddell"
         },
         {
@@ -1408,11 +1405,11 @@
           "senses": [
             "and",
             "also, even",
-            "both",
             "and above all",
-            "or"
+            "or",
+            "but"
           ],
-          "more": 6,
+          "more": 5,
           "lexicon": "Middle Liddell"
         },
         {
@@ -1422,12 +1419,12 @@
           "aspect": "",
           "senses": [
             "the skin, hide",
-            "skins prepared for bags",
-            "bottles",
+            "skins prepared for bags or bottles",
             "a man's skin stript off",
-            "skin"
+            "skin",
+            "the shell"
           ],
-          "more": 1,
+          "more": 0,
           "lexicon": "Middle Liddell"
         },
         {
@@ -1461,11 +1458,11 @@
           "senses": [
             "and",
             "also, even",
-            "both",
             "and above all",
-            "or"
+            "or",
+            "but"
           ],
-          "more": 6,
+          "more": 5,
           "lexicon": "Middle Liddell"
         },
         {
@@ -1475,12 +1472,12 @@
           "aspect": "",
           "senses": [
             "the skin, hide",
-            "skins prepared for bags",
-            "bottles",
+            "skins prepared for bags or bottles",
             "a man's skin stript off",
-            "skin"
+            "skin",
+            "the shell"
           ],
-          "more": 1,
+          "more": 0,
           "lexicon": "Middle Liddell"
         },
         {
@@ -1502,11 +1499,11 @@
           "senses": [
             "and",
             "also, even",
-            "both",
             "and above all",
-            "or"
+            "or",
+            "but"
           ],
-          "more": 6,
+          "more": 5,
           "lexicon": "Middle Liddell"
         },
         {
@@ -1521,7 +1518,7 @@
             "a piece of wood, a post",
             "a perch"
           ],
-          "more": 9,
+          "more": 7,
           "lexicon": "Middle Liddell"
         },
         {
@@ -1549,11 +1546,11 @@
           "senses": [
             "and",
             "also, even",
-            "both",
             "and above all",
-            "or"
+            "or",
+            "but"
           ],
-          "more": 6,
+          "more": 5,
           "lexicon": "Middle Liddell"
         },
         {
@@ -1568,7 +1565,7 @@
             "blocks, stones",
             "stone"
           ],
-          "more": 7,
+          "more": 2,
           "lexicon": "Middle Liddell"
         },
         {
@@ -1590,11 +1587,11 @@
           "senses": [
             "and",
             "also, even",
-            "both",
             "and above all",
-            "or"
+            "or",
+            "but"
           ],
-          "more": 6,
+          "more": 5,
           "lexicon": "Middle Liddell"
         },
         {
@@ -1609,7 +1606,7 @@
             "blocks, stones",
             "stone"
           ],
-          "more": 7,
+          "more": 2,
           "lexicon": "Middle Liddell"
         },
         {
@@ -1618,13 +1615,13 @@
           "parse": "preposition",
           "aspect": "",
           "senses": [
-            "into, to c. acc.",
+            "into, to",
             "into",
             "to",
-            "in",
-            "rest in"
+            "into or to",
+            "in"
           ],
-          "more": 18,
+          "more": 15,
           "lexicon": "Middle Liddell"
         },
         {
@@ -1639,7 +1636,7 @@
             "namely that",
             "he, she, it"
           ],
-          "more": 31,
+          "more": 30,
           "lexicon": "Middle Liddell"
         },
         {
@@ -1662,13 +1659,13 @@
           "parse": "preposition",
           "aspect": "",
           "senses": [
-            "into, to c. acc.",
+            "into, to",
             "into",
             "to",
-            "in",
-            "rest in"
+            "into or to",
+            "in"
           ],
-          "more": 18,
+          "more": 15,
           "lexicon": "Middle Liddell"
         },
         {
@@ -1683,7 +1680,7 @@
             "namely that",
             "he, she, it"
           ],
-          "more": 31,
+          "more": 30,
           "lexicon": "Middle Liddell"
         },
         {
@@ -1695,10 +1692,10 @@
             "the point of the shoulder",
             "the acromion",
             "the shoulder",
-            "the front",
-            "the uppermost part of a ship"
+            "the front or the uppermost part of a ship",
+            "the shoulder-strap"
           ],
-          "more": 1,
+          "more": 0,
           "lexicon": "Middle Liddell"
         },
         {
@@ -1709,11 +1706,11 @@
           "senses": [
             "and",
             "also, even",
-            "both",
             "and above all",
-            "or"
+            "or",
+            "but"
           ],
-          "more": 6,
+          "more": 5,
           "lexicon": "Middle Liddell"
         },
         {
@@ -1728,7 +1725,7 @@
             "namely that",
             "he, she, it"
           ],
-          "more": 31,
+          "more": 30,
           "lexicon": "Middle Liddell"
         },
         {
@@ -1756,11 +1753,11 @@
           "senses": [
             "and",
             "also, even",
-            "both",
             "and above all",
-            "or"
+            "or",
+            "but"
           ],
-          "more": 6,
+          "more": 5,
           "lexicon": "Middle Liddell"
         },
         {
@@ -1771,11 +1768,11 @@
           "senses": [
             "all, the whole",
             "all",
-            "all the",
             "nothing but",
-            "every"
+            "every",
+            "everyone"
           ],
-          "more": 32,
+          "more": 8,
           "lexicon": "Middle Liddell"
         },
         {
@@ -1784,13 +1781,13 @@
           "parse": "adjective · nominative · singular · masculine",
           "aspect": "",
           "senses": [
-            "skilled in any handicraft",
-            "art, cunning in his craft",
+            "skilled in any handicraft or art, cunning in his craft",
             "clever in matters of common life, wise, prudent, shrewd",
             "shrewd",
-            "skilled in the sciences, learned, profound, wise"
+            "skilled in the sciences, learned, profound, wise",
+            "abstruse, obscure"
           ],
-          "more": 4,
+          "more": 2,
           "lexicon": "Middle Liddell"
         },
         {
@@ -1805,7 +1802,7 @@
             "namely that",
             "he, she, it"
           ],
-          "more": 31,
+          "more": 30,
           "lexicon": "Middle Liddell"
         },
         {
@@ -1815,7 +1812,6 @@
           "aspect": "",
           "senses": [
             "the heart",
-            "freely",
             "the stomach"
           ],
           "more": 0,
@@ -1827,7 +1823,7 @@
           "parse": "preposition",
           "aspect": "",
           "senses": [
-            "in, among. c. dat.",
+            "in, among",
             "in",
             "at the school of",
             "in, upon",
@@ -1853,11 +1849,11 @@
           "parse": "verb · aorist · active · participle · nominative · singular · masculine",
           "aspect": "one completed act seen whole, not a process observed in progress",
           "senses": [
-            "to come",
-            "go",
-            "go back, return",
+            "to come or go",
+            "to come or go back, return",
             "to go",
-            "I go to"
+            "I go to",
+            "I am going to"
           ],
           "more": 3,
           "lexicon": "Middle Liddell"
@@ -1874,7 +1870,7 @@
             "to work",
             "to earn by working"
           ],
-          "more": 6,
+          "more": 4,
           "lexicon": "Middle Liddell"
         },
         {
@@ -1885,11 +1881,11 @@
           "senses": [
             "all, the whole",
             "all",
-            "all the",
             "nothing but",
-            "every"
+            "every",
+            "everyone"
           ],
-          "more": 32,
+          "more": 8,
           "lexicon": "Middle Liddell"
         },
         {
@@ -1904,7 +1900,7 @@
             "as long as, how long;",
             "as many as, how many;"
           ],
-          "more": 31,
+          "more": 16,
           "lexicon": "Middle Liddell"
         },
         {
@@ -1917,9 +1913,9 @@
             "to draw up, put in array",
             "to arrange, organise",
             "to concoct",
-            "to fix"
+            "to fix or assess"
           ],
-          "more": 2,
+          "more": 1,
           "lexicon": "Middle Liddell"
         },
         {
@@ -1954,7 +1950,7 @@
             "namely that",
             "he, she, it"
           ],
-          "more": 31,
+          "more": 30,
           "lexicon": "Middle Liddell"
         },
         {
@@ -1967,9 +1963,9 @@
             "a camp",
             "a dwelling-place, house, temple",
             "a wooden stage",
-            "the stage"
+            "stage-effect, unreality"
           ],
-          "more": 8,
+          "more": 3,
           "lexicon": "Middle Liddell"
         },
         {
@@ -1980,11 +1976,11 @@
           "senses": [
             "and",
             "also, even",
-            "both",
             "and above all",
-            "or"
+            "or",
+            "but"
           ],
-          "more": 6,
+          "more": 5,
           "lexicon": "Middle Liddell"
         },
         {
@@ -1999,7 +1995,7 @@
             "namely that",
             "he, she, it"
           ],
-          "more": 31,
+          "more": 30,
           "lexicon": "Middle Liddell"
         },
         {
@@ -2021,11 +2017,11 @@
           "senses": [
             "and",
             "also, even",
-            "both",
             "and above all",
-            "or"
+            "or",
+            "but"
           ],
-          "more": 6,
+          "more": 5,
           "lexicon": "Middle Liddell"
         },
         {
@@ -2040,7 +2036,7 @@
             "namely that",
             "he, she, it"
           ],
-          "more": 31,
+          "more": 30,
           "lexicon": "Middle Liddell"
         },
         {
@@ -2050,8 +2046,7 @@
           "aspect": "",
           "senses": [
             "a head-covering",
-            "a hood",
-            "veil",
+            "a hood or veil",
             "a covering",
             "a grave"
           ],
@@ -2066,11 +2061,11 @@
           "senses": [
             "and",
             "also, even",
-            "both",
             "and above all",
-            "or"
+            "or",
+            "but"
           ],
-          "more": 6,
+          "more": 5,
           "lexicon": "Middle Liddell"
         },
         {
@@ -2085,7 +2080,7 @@
             "namely that",
             "he, she, it"
           ],
-          "more": 31,
+          "more": 30,
           "lexicon": "Middle Liddell"
         },
         {
@@ -2107,11 +2102,11 @@
           "senses": [
             "and",
             "also, even",
-            "both",
             "and above all",
-            "or"
+            "or",
+            "but"
           ],
-          "more": 6,
+          "more": 5,
           "lexicon": "Middle Liddell"
         },
         {
@@ -2126,7 +2121,7 @@
             "namely that",
             "he, she, it"
           ],
-          "more": 31,
+          "more": 30,
           "lexicon": "Middle Liddell"
         },
         {
@@ -2151,11 +2146,11 @@
           "senses": [
             "and",
             "also, even",
-            "both",
             "and above all",
-            "or"
+            "or",
+            "but"
           ],
-          "more": 6,
+          "more": 5,
           "lexicon": "Middle Liddell"
         },
         {
@@ -2170,7 +2165,7 @@
             "namely that",
             "he, she, it"
           ],
-          "more": 31,
+          "more": 30,
           "lexicon": "Middle Liddell"
         },
         {
@@ -2180,8 +2175,7 @@
           "aspect": "",
           "senses": [
             "a pillar",
-            "a support",
-            "bearing"
+            "a support or bearing"
           ],
           "more": 0,
           "lexicon": "Middle Liddell"
@@ -2199,11 +2193,11 @@
           "senses": [
             "and",
             "also, even",
-            "both",
             "and above all",
-            "or"
+            "or",
+            "but"
           ],
-          "more": 6,
+          "more": 5,
           "lexicon": "Middle Liddell"
         },
         {
@@ -2218,7 +2212,7 @@
             "namely that",
             "he, she, it"
           ],
-          "more": 31,
+          "more": 30,
           "lexicon": "Middle Liddell"
         },
         {
@@ -2244,7 +2238,7 @@
             "namely that",
             "he, she, it"
           ],
-          "more": 31,
+          "more": 30,
           "lexicon": "Middle Liddell"
         },
         {
@@ -2266,11 +2260,11 @@
           "senses": [
             "and",
             "also, even",
-            "both",
             "and above all",
-            "or"
+            "or",
+            "but"
           ],
-          "more": 6,
+          "more": 5,
           "lexicon": "Middle Liddell"
         },
         {
@@ -2285,7 +2279,7 @@
             "namely that",
             "he, she, it"
           ],
-          "more": 31,
+          "more": 30,
           "lexicon": "Middle Liddell"
         },
         {
@@ -2311,7 +2305,7 @@
             "self, myself, thyself",
             "oneself, one's true self"
           ],
-          "more": 25,
+          "more": 10,
           "lexicon": "Middle Liddell"
         },
         {
@@ -2322,11 +2316,11 @@
           "senses": [
             "and",
             "also, even",
-            "both",
             "and above all",
-            "or"
+            "or",
+            "but"
           ],
-          "more": 6,
+          "more": 5,
           "lexicon": "Middle Liddell"
         },
         {
@@ -2341,7 +2335,7 @@
             "namely that",
             "he, she, it"
           ],
-          "more": 31,
+          "more": 30,
           "lexicon": "Middle Liddell"
         },
         {
@@ -2368,7 +2362,7 @@
             "self, myself, thyself",
             "oneself, one's true self"
           ],
-          "more": 25,
+          "more": 10,
           "lexicon": "Middle Liddell"
         },
         {
@@ -2379,11 +2373,11 @@
           "senses": [
             "and",
             "also, even",
-            "both",
             "and above all",
-            "or"
+            "or",
+            "but"
           ],
-          "more": 6,
+          "more": 5,
           "lexicon": "Middle Liddell"
         },
         {
@@ -2398,7 +2392,7 @@
             "namely that",
             "he, she, it"
           ],
-          "more": 31,
+          "more": 30,
           "lexicon": "Middle Liddell"
         },
         {
@@ -2425,11 +2419,11 @@
           "senses": [
             "and",
             "also, even",
-            "both",
             "and above all",
-            "or"
+            "or",
+            "but"
           ],
-          "more": 6,
+          "more": 5,
           "lexicon": "Middle Liddell"
         },
         {
@@ -2444,7 +2438,7 @@
             "namely that",
             "he, she, it"
           ],
-          "more": 31,
+          "more": 30,
           "lexicon": "Middle Liddell"
         },
         {
@@ -2470,7 +2464,7 @@
             "namely that",
             "he, she, it"
           ],
-          "more": 31,
+          "more": 30,
           "lexicon": "Middle Liddell"
         },
         {
@@ -2481,11 +2475,10 @@
           "senses": [
             "the court-yard",
             "the wall of the court-yard",
-            "the court",
-            "quadrangle",
-            "any court"
+            "the court or quadrangle",
+            "any court or hall"
           ],
-          "more": 1,
+          "more": 0,
           "lexicon": "Middle Liddell"
         },
         {
@@ -2496,11 +2489,11 @@
           "senses": [
             "and",
             "also, even",
-            "both",
             "and above all",
-            "or"
+            "or",
+            "but"
           ],
-          "more": 6,
+          "more": 5,
           "lexicon": "Middle Liddell"
         },
         {
@@ -2515,7 +2508,7 @@
             "namely that",
             "he, she, it"
           ],
-          "more": 31,
+          "more": 30,
           "lexicon": "Middle Liddell"
         },
         {
@@ -2525,8 +2518,7 @@
           "aspect": "",
           "senses": [
             "a pillar",
-            "a support",
-            "bearing"
+            "a support or bearing"
           ],
           "more": 0,
           "lexicon": "Middle Liddell"
@@ -2543,7 +2535,7 @@
             "self, myself, thyself",
             "oneself, one's true self"
           ],
-          "more": 25,
+          "more": 10,
           "lexicon": "Middle Liddell"
         },
         {
@@ -2554,11 +2546,11 @@
           "senses": [
             "and",
             "also, even",
-            "both",
             "and above all",
-            "or"
+            "or",
+            "but"
           ],
-          "more": 6,
+          "more": 5,
           "lexicon": "Middle Liddell"
         },
         {
@@ -2573,7 +2565,7 @@
             "namely that",
             "he, she, it"
           ],
-          "more": 31,
+          "more": 30,
           "lexicon": "Middle Liddell"
         },
         {
@@ -2588,7 +2580,7 @@
             "blocks, stones",
             "stone"
           ],
-          "more": 7,
+          "more": 2,
           "lexicon": "Middle Liddell"
         },
         {
@@ -2603,7 +2595,7 @@
             "namely that",
             "he, she, it"
           ],
-          "more": 31,
+          "more": 30,
           "lexicon": "Middle Liddell"
         },
         {
@@ -2627,11 +2619,11 @@
           "senses": [
             "and",
             "also, even",
-            "both",
             "and above all",
-            "or"
+            "or",
+            "but"
           ],
-          "more": 6,
+          "more": 5,
           "lexicon": "Middle Liddell"
         },
         {
@@ -2646,7 +2638,7 @@
             "namely that",
             "he, she, it"
           ],
-          "more": 31,
+          "more": 30,
           "lexicon": "Middle Liddell"
         },
         {
@@ -2670,11 +2662,11 @@
           "senses": [
             "and",
             "also, even",
-            "both",
             "and above all",
-            "or"
+            "or",
+            "but"
           ],
-          "more": 6,
+          "more": 5,
           "lexicon": "Middle Liddell"
         },
         {
@@ -2689,7 +2681,7 @@
             "namely that",
             "he, she, it"
           ],
-          "more": 31,
+          "more": 30,
           "lexicon": "Middle Liddell"
         },
         {
@@ -2715,7 +2707,7 @@
             "namely that",
             "he, she, it"
           ],
-          "more": 31,
+          "more": 30,
           "lexicon": "Middle Liddell"
         },
         {
@@ -2744,11 +2736,11 @@
           "senses": [
             "and",
             "also, even",
-            "both",
             "and above all",
-            "or"
+            "or",
+            "but"
           ],
-          "more": 6,
+          "more": 5,
           "lexicon": "Middle Liddell"
         },
         {
@@ -2763,7 +2755,7 @@
             "namely that",
             "he, she, it"
           ],
-          "more": 31,
+          "more": 30,
           "lexicon": "Middle Liddell"
         },
         {
@@ -2789,11 +2781,11 @@
           "senses": [
             "and",
             "also, even",
-            "both",
             "and above all",
-            "or"
+            "or",
+            "but"
           ],
-          "more": 6,
+          "more": 5,
           "lexicon": "Middle Liddell"
         },
         {
@@ -2804,11 +2796,11 @@
           "senses": [
             "all, the whole",
             "all",
-            "all the",
             "nothing but",
-            "every"
+            "every",
+            "everyone"
           ],
-          "more": 32,
+          "more": 8,
           "lexicon": "Middle Liddell"
         },
         {
@@ -2823,7 +2815,7 @@
             "namely that",
             "he, she, it"
           ],
-          "more": 31,
+          "more": 30,
           "lexicon": "Middle Liddell"
         },
         {
@@ -2832,13 +2824,13 @@
           "parse": "noun · accusative · plural · neuter",
           "aspect": "",
           "senses": [
-            "a vessel",
-            "implement of any kind",
+            "a vessel or implement of any kind",
             "furniture, house-gear, utensils, chattels",
             "accoutrements, equipment",
-            "baggage, luggage"
+            "baggage, luggage",
+            "the tackling or gear"
           ],
-          "more": 4,
+          "more": 2,
           "lexicon": "Middle Liddell"
         },
         {
@@ -2853,7 +2845,7 @@
             "self, myself, thyself",
             "oneself, one's true self"
           ],
-          "more": 25,
+          "more": 10,
           "lexicon": "Middle Liddell"
         }
       ]
@@ -2869,11 +2861,11 @@
           "senses": [
             "and",
             "also, even",
-            "both",
             "and above all",
-            "or"
+            "or",
+            "but"
           ],
-          "more": 6,
+          "more": 5,
           "lexicon": "Middle Liddell"
         },
         {
@@ -2888,7 +2880,7 @@
             "namely that",
             "he, she, it"
           ],
-          "more": 31,
+          "more": 30,
           "lexicon": "Middle Liddell"
         },
         {
@@ -2914,7 +2906,7 @@
             "namely that",
             "he, she, it"
           ],
-          "more": 31,
+          "more": 30,
           "lexicon": "Middle Liddell"
         },
         {
@@ -2938,11 +2930,11 @@
           "senses": [
             "and",
             "also, even",
-            "both",
             "and above all",
-            "or"
+            "or",
+            "but"
           ],
-          "more": 6,
+          "more": 5,
           "lexicon": "Middle Liddell"
         },
         {
@@ -2953,11 +2945,11 @@
           "senses": [
             "all, the whole",
             "all",
-            "all the",
             "nothing but",
-            "every"
+            "every",
+            "everyone"
           ],
-          "more": 32,
+          "more": 8,
           "lexicon": "Middle Liddell"
         },
         {
@@ -2972,7 +2964,7 @@
             "namely that",
             "he, she, it"
           ],
-          "more": 31,
+          "more": 30,
           "lexicon": "Middle Liddell"
         },
         {
@@ -2981,13 +2973,13 @@
           "parse": "noun · accusative · plural · neuter",
           "aspect": "",
           "senses": [
-            "a vessel",
-            "implement of any kind",
+            "a vessel or implement of any kind",
             "furniture, house-gear, utensils, chattels",
             "accoutrements, equipment",
-            "baggage, luggage"
+            "baggage, luggage",
+            "the tackling or gear"
           ],
-          "more": 4,
+          "more": 2,
           "lexicon": "Middle Liddell"
         },
         {
@@ -3002,7 +2994,7 @@
             "self, myself, thyself",
             "oneself, one's true self"
           ],
-          "more": 25,
+          "more": 10,
           "lexicon": "Middle Liddell"
         }
       ]
@@ -3018,11 +3010,11 @@
           "senses": [
             "and",
             "also, even",
-            "both",
             "and above all",
-            "or"
+            "or",
+            "but"
           ],
-          "more": 6,
+          "more": 5,
           "lexicon": "Middle Liddell"
         },
         {
@@ -3037,7 +3029,7 @@
             "namely that",
             "he, she, it"
           ],
-          "more": 31,
+          "more": 30,
           "lexicon": "Middle Liddell"
         },
         {
@@ -3059,11 +3051,11 @@
           "senses": [
             "and",
             "also, even",
-            "both",
             "and above all",
-            "or"
+            "or",
+            "but"
           ],
-          "more": 6,
+          "more": 5,
           "lexicon": "Middle Liddell"
         },
         {
@@ -3074,11 +3066,11 @@
           "senses": [
             "all, the whole",
             "all",
-            "all the",
             "nothing but",
-            "every"
+            "every",
+            "everyone"
           ],
-          "more": 32,
+          "more": 8,
           "lexicon": "Middle Liddell"
         },
         {
@@ -3093,7 +3085,7 @@
             "namely that",
             "he, she, it"
           ],
-          "more": 31,
+          "more": 30,
           "lexicon": "Middle Liddell"
         },
         {
@@ -3102,13 +3094,13 @@
           "parse": "noun · accusative · plural · neuter",
           "aspect": "",
           "senses": [
-            "a vessel",
-            "implement of any kind",
+            "a vessel or implement of any kind",
             "furniture, house-gear, utensils, chattels",
             "accoutrements, equipment",
-            "baggage, luggage"
+            "baggage, luggage",
+            "the tackling or gear"
           ],
-          "more": 4,
+          "more": 2,
           "lexicon": "Middle Liddell"
         },
         {
@@ -3123,7 +3115,7 @@
             "self, myself, thyself",
             "oneself, one's true self"
           ],
-          "more": 25,
+          "more": 11,
           "lexicon": "Middle Liddell"
         }
       ]
@@ -3139,11 +3131,11 @@
           "senses": [
             "and",
             "also, even",
-            "both",
             "and above all",
-            "or"
+            "or",
+            "but"
           ],
-          "more": 6,
+          "more": 5,
           "lexicon": "Middle Liddell"
         },
         {
@@ -3158,7 +3150,7 @@
             "namely that",
             "he, she, it"
           ],
-          "more": 31,
+          "more": 30,
           "lexicon": "Middle Liddell"
         },
         {
@@ -3186,7 +3178,7 @@
             "namely that",
             "he, she, it"
           ],
-          "more": 31,
+          "more": 30,
           "lexicon": "Middle Liddell"
         },
         {
@@ -3196,8 +3188,6 @@
           "aspect": "",
           "senses": [
             "devoted to the gods, sacred, holy",
-            "the Temple",
-            "theHoly of Holies",
             "holy, pure"
           ],
           "more": 0,
@@ -3226,7 +3216,7 @@
             "namely that",
             "he, she, it"
           ],
-          "more": 31,
+          "more": 30,
           "lexicon": "Middle Liddell"
         },
         {
@@ -3249,11 +3239,11 @@
           "senses": [
             "and",
             "also, even",
-            "both",
             "and above all",
-            "or"
+            "or",
+            "but"
           ],
-          "more": 6,
+          "more": 5,
           "lexicon": "Middle Liddell"
         },
         {
@@ -3268,7 +3258,7 @@
             "namely that",
             "he, she, it"
           ],
-          "more": 31,
+          "more": 30,
           "lexicon": "Middle Liddell"
         },
         {
@@ -3290,7 +3280,7 @@
           "parse": "preposition",
           "aspect": "",
           "senses": [
-            "in, among. c. dat.",
+            "in, among",
             "in",
             "at the school of",
             "in, upon",
@@ -3311,7 +3301,7 @@
             "she",
             "they"
           ],
-          "more": 19,
+          "more": 8,
           "lexicon": "Middle Liddell"
         },
         {
@@ -3321,8 +3311,7 @@
           "aspect": "",
           "senses": [
             "to serve public offices at one's own cost",
-            "to perform public duties, to serve the people",
-            "state",
+            "to perform public duties, to serve the people or state",
             "to serve",
             "to perform religious service, minister"
           ],
@@ -3335,7 +3324,7 @@
           "parse": "preposition",
           "aspect": "",
           "senses": [
-            "in, among. c. dat.",
+            "in, among",
             "in",
             "at the school of",
             "in, upon",
@@ -3356,7 +3345,7 @@
             "self, myself, thyself",
             "oneself, one's true self"
           ],
-          "more": 25,
+          "more": 12,
           "lexicon": "Middle Liddell"
         },
         {
@@ -3367,11 +3356,11 @@
           "senses": [
             "and",
             "also, even",
-            "both",
             "and above all",
-            "or"
+            "or",
+            "but"
           ],
-          "more": 6,
+          "more": 5,
           "lexicon": "Middle Liddell"
         },
         {
@@ -3386,7 +3375,7 @@
             "namely that",
             "he, she, it"
           ],
-          "more": 31,
+          "more": 30,
           "lexicon": "Middle Liddell"
         },
         {
@@ -3416,7 +3405,7 @@
             "namely that",
             "he, she, it"
           ],
-          "more": 31,
+          "more": 30,
           "lexicon": "Middle Liddell"
         },
         {
@@ -3453,7 +3442,7 @@
             "namely that",
             "he, she, it"
           ],
-          "more": 31,
+          "more": 30,
           "lexicon": "Middle Liddell"
         },
         {
@@ -3475,11 +3464,11 @@
           "senses": [
             "and",
             "also, even",
-            "both",
             "and above all",
-            "or"
+            "or",
+            "but"
           ],
-          "more": 6,
+          "more": 5,
           "lexicon": "Middle Liddell"
         },
         {
@@ -3494,7 +3483,7 @@
             "namely that",
             "he, she, it"
           ],
-          "more": 31,
+          "more": 30,
           "lexicon": "Middle Liddell"
         },
         {
@@ -3520,7 +3509,7 @@
             "namely that",
             "he, she, it"
           ],
-          "more": 31,
+          "more": 30,
           "lexicon": "Middle Liddell"
         },
         {
@@ -3544,11 +3533,11 @@
           "senses": [
             "and",
             "also, even",
-            "both",
             "and above all",
-            "or"
+            "or",
+            "but"
           ],
-          "more": 6,
+          "more": 5,
           "lexicon": "Middle Liddell"
         },
         {
@@ -3563,7 +3552,7 @@
             "namely that",
             "he, she, it"
           ],
-          "more": 31,
+          "more": 30,
           "lexicon": "Middle Liddell"
         },
         {
@@ -3591,7 +3580,7 @@
             "namely that",
             "he, she, it"
           ],
-          "more": 31,
+          "more": 30,
           "lexicon": "Middle Liddell"
         },
         {
@@ -3622,11 +3611,11 @@
           "senses": [
             "and",
             "also, even",
-            "both",
             "and above all",
-            "or"
+            "or",
+            "but"
           ],
-          "more": 6,
+          "more": 5,
           "lexicon": "Middle Liddell"
         },
         {
@@ -3635,13 +3624,13 @@
           "parse": "verb · aorist · active · indicative · 3rd person · singular",
           "aspect": "one completed act seen whole, not a process observed in progress",
           "senses": [
-            "to go",
-            "come out of",
+            "to go or come out of",
             "to come out",
             "to go away, march off",
-            "to march out, go forth"
+            "to march out, go forth",
+            "to go out on"
           ],
-          "more": 8,
+          "more": 6,
           "lexicon": "Middle Liddell"
         },
         {
@@ -3652,11 +3641,11 @@
           "senses": [
             "all, the whole",
             "all",
-            "all the",
             "nothing but",
-            "every"
+            "every",
+            "everyone"
           ],
-          "more": 32,
+          "more": 8,
           "lexicon": "Middle Liddell"
         },
         {
@@ -3669,9 +3658,9 @@
             "a place of assembly, synagogue",
             "a drawing together, contracting",
             "a forming in column",
-            "a pursing up"
+            "a pursing up or wrinkling"
           ],
-          "more": 3,
+          "more": 2,
           "lexicon": "Middle Liddell"
         },
         {
@@ -3702,13 +3691,13 @@
           "parse": "preposition",
           "aspect": "",
           "senses": [
-            "from, away from. c. gen.",
             "from, away from",
             "from",
             "away from, far from, apart from",
-            "far from"
+            "far from",
+            "away from"
           ],
-          "more": 28,
+          "more": 15,
           "lexicon": "Middle Liddell"
         },
         {
@@ -3735,11 +3724,11 @@
           "senses": [
             "and",
             "also, even",
-            "both",
             "and above all",
-            "or"
+            "or",
+            "but"
           ],
-          "more": 6,
+          "more": 5,
           "lexicon": "Middle Liddell"
         },
         {
@@ -3749,12 +3738,12 @@
           "aspect": "one completed act seen whole, not a process observed in progress",
           "senses": [
             "to bear",
-            "carry",
+            "to bear or carry",
             "to bear, bear along",
             "to bear, endure, suffer",
             "bearing"
           ],
-          "more": 69,
+          "more": 31,
           "lexicon": "Middle Liddell"
         },
         {
@@ -3784,7 +3773,7 @@
             "she",
             "they"
           ],
-          "more": 19,
+          "more": 8,
           "lexicon": "Middle Liddell"
         },
         {
@@ -3794,12 +3783,12 @@
           "aspect": "was, and kept on being: action going on in past time",
           "senses": [
             "to bear",
-            "carry",
+            "to bear or carry",
             "to bear, bear along",
             "to bear, endure, suffer",
             "bearing"
           ],
-          "more": 69,
+          "more": 31,
           "lexicon": "Middle Liddell"
         },
         {
@@ -3814,7 +3803,7 @@
             "self, myself, thyself",
             "oneself, one's true self"
           ],
-          "more": 25,
+          "more": 10,
           "lexicon": "Middle Liddell"
         },
         {
@@ -3829,7 +3818,7 @@
             "namely that",
             "he, she, it"
           ],
-          "more": 31,
+          "more": 30,
           "lexicon": "Middle Liddell"
         },
         {
@@ -3839,7 +3828,6 @@
           "aspect": "",
           "senses": [
             "the heart",
-            "freely",
             "the stomach"
           ],
           "more": 0,
@@ -3853,11 +3841,11 @@
           "senses": [
             "and",
             "also, even",
-            "both",
             "and above all",
-            "or"
+            "or",
+            "but"
           ],
-          "more": 6,
+          "more": 5,
           "lexicon": "Middle Liddell"
         },
         {
@@ -3872,7 +3860,7 @@
             "as long as, how long;",
             "as many as, how many;"
           ],
-          "more": 31,
+          "more": 11,
           "lexicon": "Middle Liddell"
         },
         {
@@ -3881,13 +3869,13 @@
           "parse": "verb · aorist · active · indicative · 3rd person · singular",
           "aspect": "one completed act seen whole, not a process observed in progress",
           "senses": [
-            "videor mihi, to think, suppose, imagine, expect",
+            "to think, suppose, imagine, expect",
             "she thought",
             "I think",
-            "to have",
-            "form an opinion"
+            "to have or form an opinion",
+            "think you"
           ],
-          "more": 18,
+          "more": 5,
           "lexicon": "Middle Liddell"
         },
         {
@@ -3902,7 +3890,7 @@
             "namely that",
             "he, she, it"
           ],
-          "more": 31,
+          "more": 30,
           "lexicon": "Middle Liddell"
         },
         {
@@ -3917,7 +3905,7 @@
             "life and death",
             "the life"
           ],
-          "more": 11,
+          "more": 8,
           "lexicon": "Middle Liddell"
         },
         {
@@ -3932,7 +3920,7 @@
             "self, myself, thyself",
             "oneself, one's true self"
           ],
-          "more": 25,
+          "more": 10,
           "lexicon": "Middle Liddell"
         },
         {
@@ -3942,12 +3930,12 @@
           "aspect": "one completed act seen whole, not a process observed in progress",
           "senses": [
             "to bear",
-            "carry",
+            "to bear or carry",
             "to bear, bear along",
             "to bear, endure, suffer",
             "bearing"
           ],
-          "more": 69,
+          "more": 31,
           "lexicon": "Middle Liddell"
         },
         {
@@ -3985,13 +3973,13 @@
           "parse": "preposition",
           "aspect": "",
           "senses": [
-            "into, to c. acc.",
+            "into, to",
             "into",
             "to",
-            "in",
-            "rest in"
+            "into or to",
+            "in"
           ],
-          "more": 18,
+          "more": 15,
           "lexicon": "Middle Liddell"
         },
         {
@@ -4002,11 +3990,11 @@
           "senses": [
             "all, the whole",
             "all",
-            "all the",
             "nothing but",
-            "every"
+            "every",
+            "everyone"
           ],
-          "more": 32,
+          "more": 8,
           "lexicon": "Middle Liddell"
         },
         {
@@ -4021,7 +4009,7 @@
             "namely that",
             "he, she, it"
           ],
-          "more": 31,
+          "more": 30,
           "lexicon": "Middle Liddell"
         },
         {
@@ -4036,7 +4024,7 @@
             "action",
             "battle"
           ],
-          "more": 25,
+          "more": 18,
           "lexicon": "Middle Liddell"
         },
         {
@@ -4051,7 +4039,7 @@
             "namely that",
             "he, she, it"
           ],
-          "more": 31,
+          "more": 30,
           "lexicon": "Middle Liddell"
         },
         {
@@ -4064,9 +4052,9 @@
             "a camp",
             "a dwelling-place, house, temple",
             "a wooden stage",
-            "the stage"
+            "stage-effect, unreality"
           ],
-          "more": 8,
+          "more": 3,
           "lexicon": "Middle Liddell"
         },
         {
@@ -4081,7 +4069,7 @@
             "namely that",
             "he, she, it"
           ],
-          "more": 31,
+          "more": 30,
           "lexicon": "Middle Liddell"
         },
         {
@@ -4103,11 +4091,11 @@
           "senses": [
             "and",
             "also, even",
-            "both",
             "and above all",
-            "or"
+            "or",
+            "but"
           ],
-          "more": 6,
+          "more": 5,
           "lexicon": "Middle Liddell"
         },
         {
@@ -4116,13 +4104,13 @@
           "parse": "preposition",
           "aspect": "",
           "senses": [
-            "into, to c. acc.",
+            "into, to",
             "into",
             "to",
-            "in",
-            "rest in"
+            "into or to",
+            "in"
           ],
-          "more": 18,
+          "more": 15,
           "lexicon": "Middle Liddell"
         },
         {
@@ -4133,11 +4121,11 @@
           "senses": [
             "all, the whole",
             "all",
-            "all the",
             "nothing but",
-            "every"
+            "every",
+            "everyone"
           ],
-          "more": 32,
+          "more": 8,
           "lexicon": "Middle Liddell"
         },
         {
@@ -4152,7 +4140,7 @@
             "namely that",
             "he, she, it"
           ],
-          "more": 31,
+          "more": 30,
           "lexicon": "Middle Liddell"
         },
         {
@@ -4176,7 +4164,7 @@
             "self, myself, thyself",
             "oneself, one's true self"
           ],
-          "more": 25,
+          "more": 10,
           "lexicon": "Middle Liddell"
         },
         {
@@ -4187,11 +4175,11 @@
           "senses": [
             "and",
             "also, even",
-            "both",
             "and above all",
-            "or"
+            "or",
+            "but"
           ],
-          "more": 6,
+          "more": 5,
           "lexicon": "Middle Liddell"
         },
         {
@@ -4200,13 +4188,13 @@
           "parse": "preposition",
           "aspect": "",
           "senses": [
-            "into, to c. acc.",
+            "into, to",
             "into",
             "to",
-            "in",
-            "rest in"
+            "into or to",
+            "in"
           ],
-          "more": 18,
+          "more": 15,
           "lexicon": "Middle Liddell"
         },
         {
@@ -4217,11 +4205,11 @@
           "senses": [
             "all, the whole",
             "all",
-            "all the",
             "nothing but",
-            "every"
+            "every",
+            "everyone"
           ],
-          "more": 32,
+          "more": 6,
           "lexicon": "Middle Liddell"
         },
         {
@@ -4236,7 +4224,7 @@
             "namely that",
             "he, she, it"
           ],
-          "more": 31,
+          "more": 30,
           "lexicon": "Middle Liddell"
         },
         {
@@ -4264,7 +4252,7 @@
             "namely that",
             "he, she, it"
           ],
-          "more": 31,
+          "more": 30,
           "lexicon": "Middle Liddell"
         },
         {
@@ -4275,7 +4263,6 @@
           "senses": [
             "devoted to the gods, sacred, holy",
             "the Temple",
-            "theHoly of Holies",
             "holy, pure"
           ],
           "more": 0,
@@ -4294,11 +4281,11 @@
           "senses": [
             "and",
             "also, even",
-            "both",
             "and above all",
-            "or"
+            "or",
+            "but"
           ],
-          "more": 6,
+          "more": 5,
           "lexicon": "Middle Liddell"
         },
         {
@@ -4308,12 +4295,12 @@
           "aspect": "one completed act seen whole, not a process observed in progress",
           "senses": [
             "to bear",
-            "carry",
+            "to bear or carry",
             "to bear, bear along",
             "to bear, endure, suffer",
             "bearing"
           ],
-          "more": 69,
+          "more": 31,
           "lexicon": "Middle Liddell"
         },
         {
@@ -4328,7 +4315,7 @@
             "namely that",
             "he, she, it"
           ],
-          "more": 31,
+          "more": 30,
           "lexicon": "Middle Liddell"
         },
         {
@@ -4352,13 +4339,13 @@
           "parse": "preposition",
           "aspect": "",
           "senses": [
-            "from the side of, c. gen., beside, alongside of, c. dat., to the side of, motion alongside of, c. acc.",
+            "from the side of, c. gen., beside, alongside of, c. dat., to the side of, motion alongside of",
             "beside",
             "from the side of, from beside: from",
             "issuing from",
             "to be born"
           ],
-          "more": 48,
+          "more": 49,
           "lexicon": "Middle Liddell"
         },
         {
@@ -4373,7 +4360,7 @@
             "namely that",
             "he, she, it"
           ],
-          "more": 31,
+          "more": 30,
           "lexicon": "Middle Liddell"
         },
         {
@@ -4398,11 +4385,11 @@
           "senses": [
             "all, the whole",
             "all",
-            "all the",
             "nothing but",
-            "every"
+            "every",
+            "everyone"
           ],
-          "more": 32,
+          "more": 8,
           "lexicon": "Middle Liddell"
         },
         {
@@ -4417,7 +4404,7 @@
             "she",
             "they"
           ],
-          "more": 19,
+          "more": 11,
           "lexicon": "Middle Liddell"
         },
         {
@@ -4426,13 +4413,13 @@
           "parse": "verb · aorist · active · indicative · 3rd person · singular",
           "aspect": "one completed act seen whole, not a process observed in progress",
           "senses": [
-            "videor mihi, to think, suppose, imagine, expect",
+            "to think, suppose, imagine, expect",
             "she thought",
             "I think",
-            "to have",
-            "form an opinion"
+            "to have or form an opinion",
+            "think you"
           ],
-          "more": 18,
+          "more": 5,
           "lexicon": "Middle Liddell"
         },
         {
@@ -4447,7 +4434,7 @@
             "namely that",
             "he, she, it"
           ],
-          "more": 31,
+          "more": 30,
           "lexicon": "Middle Liddell"
         },
         {
@@ -4459,10 +4446,9 @@
             "a thought, intention, purpose",
             "a thought, notion, opinion",
             "intelligence, understanding",
-            "the thought",
-            "meaning of"
+            "the thought or meaning of"
           ],
-          "more": 1,
+          "more": 0,
           "lexicon": "Middle Liddell"
         },
         {
@@ -4472,12 +4458,12 @@
           "aspect": "one completed act seen whole, not a process observed in progress",
           "senses": [
             "to bear",
-            "carry",
+            "to bear or carry",
             "to bear, bear along",
             "to bear, endure, suffer",
             "bearing"
           ],
-          "more": 69,
+          "more": 31,
           "lexicon": "Middle Liddell"
         },
         {
@@ -4487,8 +4473,7 @@
           "aspect": "",
           "senses": [
             "a seal, signet, seal-ring",
-            "the gem",
-            "stone for a ring",
+            "the gem or stone for a ring",
             "the impression of a signet-ring, a seal"
           ],
           "more": 0,
@@ -4502,11 +4487,11 @@
           "senses": [
             "and",
             "also, even",
-            "both",
             "and above all",
-            "or"
+            "or",
+            "but"
           ],
-          "more": 6,
+          "more": 5,
           "lexicon": "Middle Liddell"
         },
         {
@@ -4528,11 +4513,11 @@
           "senses": [
             "and",
             "also, even",
-            "both",
             "and above all",
-            "or"
+            "or",
+            "but"
           ],
-          "more": 6,
+          "more": 5,
           "lexicon": "Middle Liddell"
         },
         {
@@ -4554,11 +4539,11 @@
           "senses": [
             "and",
             "also, even",
-            "both",
             "and above all",
-            "or"
+            "or",
+            "but"
           ],
-          "more": 6,
+          "more": 5,
           "lexicon": "Middle Liddell"
         },
         {
@@ -4581,11 +4566,11 @@
           "senses": [
             "and",
             "also, even",
-            "both",
             "and above all",
-            "or"
+            "or",
+            "but"
           ],
-          "more": 6,
+          "more": 5,
           "lexicon": "Middle Liddell"
         },
         {
@@ -4607,11 +4592,11 @@
           "senses": [
             "all, the whole",
             "all",
-            "all the",
             "nothing but",
-            "every"
+            "every",
+            "everyone"
           ],
-          "more": 32,
+          "more": 9,
           "lexicon": "Middle Liddell"
         },
         {
@@ -4620,13 +4605,12 @@
           "parse": "noun · accusative · singular · neuter",
           "aspect": "",
           "senses": [
-            "a vessel",
-            "implement of any kind",
-            "furniture, house-gear, utensils, chattels",
-            "accoutrements, equipment",
-            "baggage, luggage"
+            "a vessel or implement of any kind",
+            "the tackling or gear",
+            "an inanimate object, a thing",
+            "the body"
           ],
-          "more": 4,
+          "more": 0,
           "lexicon": "Middle Liddell"
         },
         {
@@ -4635,13 +4619,13 @@
           "parse": "adjective · accusative · singular · neuter",
           "aspect": "",
           "senses": [
-            "golden, of gold, decked",
-            "inlaid with gold",
+            "golden, of gold, decked or inlaid with gold",
             "gilded, gilt",
             "gold",
-            "gold-coloured, golden-yellow"
+            "gold-coloured, golden-yellow",
+            "golden"
           ],
-          "more": 2,
+          "more": 1,
           "lexicon": "Middle Liddell"
         },
         {
@@ -4652,11 +4636,11 @@
           "senses": [
             "and",
             "also, even",
-            "both",
             "and above all",
-            "or"
+            "or",
+            "but"
           ],
-          "more": 6,
+          "more": 5,
           "lexicon": "Middle Liddell"
         },
         {
@@ -4667,11 +4651,11 @@
           "senses": [
             "all, the whole",
             "all",
-            "all the",
             "nothing but",
-            "every"
+            "every",
+            "everyone"
           ],
-          "more": 32,
+          "more": 6,
           "lexicon": "Middle Liddell"
         },
         {
@@ -4686,7 +4670,7 @@
             "as long as, how long;",
             "as many as, how many;"
           ],
-          "more": 31,
+          "more": 10,
           "lexicon": "Middle Liddell"
         },
         {
@@ -4696,12 +4680,12 @@
           "aspect": "one completed act seen whole, not a process observed in progress",
           "senses": [
             "to bear",
-            "carry",
+            "to bear or carry",
             "to bear, bear along",
             "to bear, endure, suffer",
             "bearing"
           ],
-          "more": 69,
+          "more": 31,
           "lexicon": "Middle Liddell"
         },
         {
@@ -4760,11 +4744,11 @@
           "senses": [
             "and",
             "also, even",
-            "both",
             "and above all",
-            "or"
+            "or",
+            "but"
           ],
-          "more": 6,
+          "more": 5,
           "lexicon": "Middle Liddell"
         },
         {
@@ -4773,13 +4757,13 @@
           "parse": "preposition",
           "aspect": "",
           "senses": [
-            "from the side of, c. gen., beside, alongside of, c. dat., to the side of, motion alongside of, c. acc.",
+            "from the side of, c. gen., beside, alongside of, c. dat., to the side of, motion alongside of",
             "beside",
             "from the side of, from beside: from",
             "issuing from",
             "to be born"
           ],
-          "more": 48,
+          "more": 49,
           "lexicon": "Middle Liddell"
         },
         {
@@ -4794,7 +4778,7 @@
             "she",
             "they"
           ],
-          "more": 19,
+          "more": 11,
           "lexicon": "Middle Liddell"
         },
         {
@@ -4809,7 +4793,7 @@
             "to find out, discover",
             "to find out for oneself"
           ],
-          "more": 7,
+          "more": 3,
           "lexicon": "Middle Liddell"
         },
         {
@@ -4832,11 +4816,11 @@
           "senses": [
             "and",
             "also, even",
-            "both",
             "and above all",
-            "or"
+            "or",
+            "but"
           ],
-          "more": 6,
+          "more": 5,
           "lexicon": "Middle Liddell"
         },
         {
@@ -4846,12 +4830,12 @@
           "aspect": "",
           "senses": [
             "the skin, hide",
-            "skins prepared for bags",
-            "bottles",
+            "skins prepared for bags or bottles",
             "a man's skin stript off",
-            "skin"
+            "skin",
+            "the shell"
           ],
-          "more": 1,
+          "more": 0,
           "lexicon": "Middle Liddell"
         },
         {
@@ -4873,11 +4857,11 @@
           "senses": [
             "and",
             "also, even",
-            "both",
             "and above all",
-            "or"
+            "or",
+            "but"
           ],
-          "more": 6,
+          "more": 5,
           "lexicon": "Middle Liddell"
         },
         {
@@ -4887,12 +4871,12 @@
           "aspect": "",
           "senses": [
             "the skin, hide",
-            "skins prepared for bags",
-            "bottles",
+            "skins prepared for bags or bottles",
             "a man's skin stript off",
-            "skin"
+            "skin",
+            "the shell"
           ],
-          "more": 1,
+          "more": 0,
           "lexicon": "Middle Liddell"
         },
         {
@@ -4925,12 +4909,12 @@
           "aspect": "one completed act seen whole, not a process observed in progress",
           "senses": [
             "to bear",
-            "carry",
+            "to bear or carry",
             "to bear, bear along",
             "to bear, endure, suffer",
             "bearing"
           ],
-          "more": 69,
+          "more": 31,
           "lexicon": "Middle Liddell"
         }
       ]
@@ -4946,11 +4930,11 @@
           "senses": [
             "and",
             "also, even",
-            "both",
             "and above all",
-            "or"
+            "or",
+            "but"
           ],
-          "more": 6,
+          "more": 5,
           "lexicon": "Middle Liddell"
         },
         {
@@ -4961,11 +4945,11 @@
           "senses": [
             "all, the whole",
             "all",
-            "all the",
             "nothing but",
-            "every"
+            "every",
+            "everyone"
           ],
-          "more": 32,
+          "more": 8,
           "lexicon": "Middle Liddell"
         },
         {
@@ -4980,7 +4964,7 @@
             "namely that",
             "he, she, it"
           ],
-          "more": 31,
+          "more": 30,
           "lexicon": "Middle Liddell"
         },
         {
@@ -4991,11 +4975,10 @@
           "senses": [
             "to take from, take away from",
             "to remove",
-            "separate, set aside",
             "to take away for oneself, take away",
-            "to prevent, hinder from"
+            "to have it taken from one"
           ],
-          "more": 3,
+          "more": 0,
           "lexicon": "Middle Liddell"
         },
         {
@@ -5033,11 +5016,11 @@
           "senses": [
             "and",
             "also, even",
-            "both",
             "and above all",
-            "or"
+            "or",
+            "but"
           ],
-          "more": 6,
+          "more": 5,
           "lexicon": "Middle Liddell"
         },
         {
@@ -5049,7 +5032,7 @@
             "copper",
             "metal",
             "bronze",
-            "anything made of brass",
+            "anything made of brass or metal",
             "a copper, caldron, urn"
           ],
           "more": 2,
@@ -5062,12 +5045,12 @@
           "aspect": "one completed act seen whole, not a process observed in progress",
           "senses": [
             "to bear",
-            "carry",
+            "to bear or carry",
             "to bear, bear along",
             "to bear, endure, suffer",
             "bearing"
           ],
-          "more": 69,
+          "more": 31,
           "lexicon": "Middle Liddell"
         },
         {
@@ -5082,7 +5065,7 @@
             "namely that",
             "he, she, it"
           ],
-          "more": 31,
+          "more": 30,
           "lexicon": "Middle Liddell"
         },
         {
@@ -5122,11 +5105,11 @@
           "senses": [
             "and",
             "also, even",
-            "both",
             "and above all",
-            "or"
+            "or",
+            "but"
           ],
-          "more": 6,
+          "more": 5,
           "lexicon": "Middle Liddell"
         },
         {
@@ -5135,13 +5118,13 @@
           "parse": "preposition",
           "aspect": "",
           "senses": [
-            "from the side of, c. gen., beside, alongside of, c. dat., to the side of, motion alongside of, c. acc.",
+            "from the side of, c. gen., beside, alongside of, c. dat., to the side of, motion alongside of",
             "beside",
             "from the side of, from beside: from",
             "issuing from",
             "to be born"
           ],
-          "more": 48,
+          "more": 49,
           "lexicon": "Middle Liddell"
         },
         {
@@ -5156,7 +5139,7 @@
             "she",
             "they"
           ],
-          "more": 19,
+          "more": 8,
           "lexicon": "Middle Liddell"
         },
         {
@@ -5171,7 +5154,7 @@
             "to find out, discover",
             "to find out for oneself"
           ],
-          "more": 7,
+          "more": 3,
           "lexicon": "Middle Liddell"
         },
         {
@@ -5186,7 +5169,7 @@
             "a piece of wood, a post",
             "a perch"
           ],
-          "more": 9,
+          "more": 7,
           "lexicon": "Middle Liddell"
         },
         {
@@ -5207,13 +5190,13 @@
           "parse": "preposition",
           "aspect": "",
           "senses": [
-            "into, to c. acc.",
+            "into, to",
             "into",
             "to",
-            "in",
-            "rest in"
+            "into or to",
+            "in"
           ],
-          "more": 18,
+          "more": 15,
           "lexicon": "Middle Liddell"
         },
         {
@@ -5224,11 +5207,11 @@
           "senses": [
             "all, the whole",
             "all",
-            "all the",
             "nothing but",
-            "every"
+            "every",
+            "everyone"
           ],
-          "more": 32,
+          "more": 8,
           "lexicon": "Middle Liddell"
         },
         {
@@ -5243,7 +5226,7 @@
             "namely that",
             "he, she, it"
           ],
-          "more": 31,
+          "more": 30,
           "lexicon": "Middle Liddell"
         },
         {
@@ -5258,7 +5241,7 @@
             "action",
             "battle"
           ],
-          "more": 25,
+          "more": 18,
           "lexicon": "Middle Liddell"
         },
         {
@@ -5273,7 +5256,7 @@
             "namely that",
             "he, she, it"
           ],
-          "more": 31,
+          "more": 30,
           "lexicon": "Middle Liddell"
         },
         {
@@ -5298,12 +5281,12 @@
           "aspect": "one completed act seen whole, not a process observed in progress",
           "senses": [
             "to bear",
-            "carry",
+            "to bear or carry",
             "to bear, bear along",
             "to bear, endure, suffer",
             "bearing"
           ],
-          "more": 69,
+          "more": 31,
           "lexicon": "Middle Liddell"
         }
       ]
@@ -5319,11 +5302,11 @@
           "senses": [
             "and",
             "also, even",
-            "both",
             "and above all",
-            "or"
+            "or",
+            "but"
           ],
-          "more": 6,
+          "more": 5,
           "lexicon": "Middle Liddell"
         },
         {
@@ -5334,11 +5317,11 @@
           "senses": [
             "all, the whole",
             "all",
-            "all the",
             "nothing but",
-            "every"
+            "every",
+            "everyone"
           ],
-          "more": 32,
+          "more": 8,
           "lexicon": "Middle Liddell"
         },
         {
@@ -5361,13 +5344,13 @@
           "parse": "adjective · nominative · singular · feminine",
           "aspect": "",
           "senses": [
-            "skilled in any handicraft",
-            "art, cunning in his craft",
+            "skilled in any handicraft or art, cunning in his craft",
             "clever in matters of common life, wise, prudent, shrewd",
             "shrewd",
-            "skilled in the sciences, learned, profound, wise"
+            "skilled in the sciences, learned, profound, wise",
+            "abstruse, obscure"
           ],
-          "more": 4,
+          "more": 2,
           "lexicon": "Middle Liddell"
         },
         {
@@ -5382,7 +5365,7 @@
             "namely that",
             "he, she, it"
           ],
-          "more": 31,
+          "more": 30,
           "lexicon": "Middle Liddell"
         },
         {
@@ -5394,10 +5377,9 @@
             "a thought, intention, purpose",
             "a thought, notion, opinion",
             "intelligence, understanding",
-            "the thought",
-            "meaning of"
+            "the thought or meaning of"
           ],
-          "more": 1,
+          "more": 0,
           "lexicon": "Middle Liddell"
         },
         {
@@ -5412,7 +5394,7 @@
             "namely that",
             "he, she, it"
           ],
-          "more": 31,
+          "more": 30,
           "lexicon": "Middle Liddell"
         },
         {
@@ -5427,7 +5409,7 @@
             "the arm",
             "on"
           ],
-          "more": 32,
+          "more": 15,
           "lexicon": "Middle Liddell"
         },
         {
@@ -5448,12 +5430,12 @@
           "aspect": "one completed act seen whole, not a process observed in progress",
           "senses": [
             "to bear",
-            "carry",
+            "to bear or carry",
             "to bear, bear along",
             "to bear, endure, suffer",
             "bearing"
           ],
-          "more": 69,
+          "more": 31,
           "lexicon": "Middle Liddell"
         },
         {
@@ -5479,7 +5461,7 @@
             "namely that",
             "he, she, it"
           ],
-          "more": 31,
+          "more": 30,
           "lexicon": "Middle Liddell"
         },
         {
@@ -5502,11 +5484,11 @@
           "senses": [
             "and",
             "also, even",
-            "both",
             "and above all",
-            "or"
+            "or",
+            "but"
           ],
-          "more": 6,
+          "more": 5,
           "lexicon": "Middle Liddell"
         },
         {
@@ -5521,7 +5503,7 @@
             "namely that",
             "he, she, it"
           ],
-          "more": 31,
+          "more": 30,
           "lexicon": "Middle Liddell"
         },
         {
@@ -5545,11 +5527,11 @@
           "senses": [
             "and",
             "also, even",
-            "both",
             "and above all",
-            "or"
+            "or",
+            "but"
           ],
-          "more": 6,
+          "more": 5,
           "lexicon": "Middle Liddell"
         },
         {
@@ -5564,7 +5546,7 @@
             "namely that",
             "he, she, it"
           ],
-          "more": 31,
+          "more": 30,
           "lexicon": "Middle Liddell"
         },
         {
@@ -5586,11 +5568,11 @@
           "senses": [
             "and",
             "also, even",
-            "both",
             "and above all",
-            "or"
+            "or",
+            "but"
           ],
-          "more": 6,
+          "more": 5,
           "lexicon": "Middle Liddell"
         },
         {
@@ -5605,7 +5587,7 @@
             "namely that",
             "he, she, it"
           ],
-          "more": 31,
+          "more": 30,
           "lexicon": "Middle Liddell"
         },
         {
@@ -5633,11 +5615,11 @@
           "senses": [
             "and",
             "also, even",
-            "both",
             "and above all",
-            "or"
+            "or",
+            "but"
           ],
-          "more": 6,
+          "more": 5,
           "lexicon": "Middle Liddell"
         },
         {
@@ -5648,11 +5630,11 @@
           "senses": [
             "all, the whole",
             "all",
-            "all the",
             "nothing but",
-            "every"
+            "every",
+            "everyone"
           ],
-          "more": 32,
+          "more": 6,
           "lexicon": "Middle Liddell"
         },
         {
@@ -5667,7 +5649,7 @@
             "namely that",
             "he, she, it"
           ],
-          "more": 31,
+          "more": 30,
           "lexicon": "Middle Liddell"
         },
         {
@@ -5696,7 +5678,7 @@
             "she",
             "they"
           ],
-          "more": 19,
+          "more": 8,
           "lexicon": "Middle Liddell"
         },
         {
@@ -5705,13 +5687,13 @@
           "parse": "verb · aorist · active · indicative · 3rd person · singular",
           "aspect": "one completed act seen whole, not a process observed in progress",
           "senses": [
-            "videor mihi, to think, suppose, imagine, expect",
+            "to think, suppose, imagine, expect",
             "she thought",
             "I think",
-            "to have",
-            "form an opinion"
+            "to have or form an opinion",
+            "think you"
           ],
-          "more": 18,
+          "more": 5,
           "lexicon": "Middle Liddell"
         },
         {
@@ -5726,7 +5708,7 @@
             "namely that",
             "he, she, it"
           ],
-          "more": 31,
+          "more": 30,
           "lexicon": "Middle Liddell"
         },
         {
@@ -5738,10 +5720,9 @@
             "a thought, intention, purpose",
             "a thought, notion, opinion",
             "intelligence, understanding",
-            "the thought",
-            "meaning of"
+            "the thought or meaning of"
           ],
-          "more": 1,
+          "more": 0,
           "lexicon": "Middle Liddell"
         },
         {
@@ -5756,7 +5737,7 @@
             "self, myself, thyself",
             "oneself, one's true self"
           ],
-          "more": 25,
+          "more": 10,
           "lexicon": "Middle Liddell"
         },
         {
@@ -5765,7 +5746,7 @@
           "parse": "preposition",
           "aspect": "",
           "senses": [
-            "in, among. c. dat.",
+            "in, among",
             "in",
             "at the school of",
             "in, upon",
@@ -5812,7 +5793,7 @@
             "namely that",
             "he, she, it"
           ],
-          "more": 31,
+          "more": 30,
           "lexicon": "Middle Liddell"
         },
         {
@@ -5841,7 +5822,7 @@
             "namely that",
             "he, she, it"
           ],
-          "more": 31,
+          "more": 30,
           "lexicon": "Middle Liddell"
         },
         {
@@ -5870,11 +5851,11 @@
           "senses": [
             "and",
             "also, even",
-            "both",
             "and above all",
-            "or"
+            "or",
+            "but"
           ],
-          "more": 6,
+          "more": 5,
           "lexicon": "Middle Liddell"
         },
         {
@@ -5889,7 +5870,7 @@
             "namely that",
             "he, she, it"
           ],
-          "more": 31,
+          "more": 30,
           "lexicon": "Middle Liddell"
         },
         {
@@ -5912,12 +5893,12 @@
           "aspect": "one completed act seen whole, not a process observed in progress",
           "senses": [
             "to bear",
-            "carry",
+            "to bear or carry",
             "to bear, bear along",
             "to bear, endure, suffer",
             "bearing"
           ],
-          "more": 69,
+          "more": 31,
           "lexicon": "Middle Liddell"
         },
         {
@@ -5932,7 +5913,7 @@
             "namely that",
             "he, she, it"
           ],
-          "more": 31,
+          "more": 30,
           "lexicon": "Middle Liddell"
         },
         {
@@ -5947,7 +5928,7 @@
             "blocks, stones",
             "stone"
           ],
-          "more": 7,
+          "more": 2,
           "lexicon": "Middle Liddell"
         },
         {
@@ -5962,7 +5943,7 @@
             "namely that",
             "he, she, it"
           ],
-          "more": 31,
+          "more": 30,
           "lexicon": "Middle Liddell"
         },
         {
@@ -5986,11 +5967,11 @@
           "senses": [
             "and",
             "also, even",
-            "both",
             "and above all",
-            "or"
+            "or",
+            "but"
           ],
-          "more": 6,
+          "more": 5,
           "lexicon": "Middle Liddell"
         },
         {
@@ -6005,7 +5986,7 @@
             "namely that",
             "he, she, it"
           ],
-          "more": 31,
+          "more": 30,
           "lexicon": "Middle Liddell"
         },
         {
@@ -6020,7 +6001,7 @@
             "blocks, stones",
             "stone"
           ],
-          "more": 7,
+          "more": 2,
           "lexicon": "Middle Liddell"
         },
         {
@@ -6035,7 +6016,7 @@
             "namely that",
             "he, she, it"
           ],
-          "more": 31,
+          "more": 30,
           "lexicon": "Middle Liddell"
         },
         {
@@ -6057,13 +6038,13 @@
           "parse": "preposition",
           "aspect": "",
           "senses": [
-            "into, to c. acc.",
+            "into, to",
             "into",
             "to",
-            "in",
-            "rest in"
+            "into or to",
+            "in"
           ],
-          "more": 18,
+          "more": 15,
           "lexicon": "Middle Liddell"
         },
         {
@@ -6078,7 +6059,7 @@
             "namely that",
             "he, she, it"
           ],
-          "more": 31,
+          "more": 30,
           "lexicon": "Middle Liddell"
         },
         {
@@ -6090,10 +6071,10 @@
             "the point of the shoulder",
             "the acromion",
             "the shoulder",
-            "the front",
-            "the uppermost part of a ship"
+            "the front or the uppermost part of a ship",
+            "the shoulder-strap"
           ],
-          "more": 1,
+          "more": 0,
           "lexicon": "Middle Liddell"
         },
         {
@@ -6104,11 +6085,11 @@
           "senses": [
             "and",
             "also, even",
-            "both",
             "and above all",
-            "or"
+            "or",
+            "but"
           ],
-          "more": 6,
+          "more": 5,
           "lexicon": "Middle Liddell"
         },
         {
@@ -6117,13 +6098,13 @@
           "parse": "preposition",
           "aspect": "",
           "senses": [
-            "into, to c. acc.",
+            "into, to",
             "into",
             "to",
-            "in",
-            "rest in"
+            "into or to",
+            "in"
           ],
-          "more": 18,
+          "more": 15,
           "lexicon": "Middle Liddell"
         },
         {
@@ -6138,7 +6119,7 @@
             "namely that",
             "he, she, it"
           ],
-          "more": 31,
+          "more": 30,
           "lexicon": "Middle Liddell"
         },
         {
@@ -6165,11 +6146,11 @@
           "senses": [
             "and",
             "also, even",
-            "both",
             "and above all",
-            "or"
+            "or",
+            "but"
           ],
-          "more": 6,
+          "more": 5,
           "lexicon": "Middle Liddell"
         },
         {
@@ -6184,7 +6165,7 @@
             "namely that",
             "he, she, it"
           ],
-          "more": 31,
+          "more": 30,
           "lexicon": "Middle Liddell"
         },
         {
@@ -6210,11 +6191,11 @@
           "senses": [
             "and",
             "also, even",
-            "both",
             "and above all",
-            "or"
+            "or",
+            "but"
           ],
-          "more": 6,
+          "more": 5,
           "lexicon": "Middle Liddell"
         },
         {
@@ -6229,7 +6210,7 @@
             "namely that",
             "he, she, it"
           ],
-          "more": 31,
+          "more": 30,
           "lexicon": "Middle Liddell"
         },
         {
@@ -6255,7 +6236,7 @@
             "namely that",
             "he, she, it"
           ],
-          "more": 31,
+          "more": 30,
           "lexicon": "Middle Liddell"
         },
         {
@@ -6280,11 +6261,11 @@
           "senses": [
             "and",
             "also, even",
-            "both",
             "and above all",
-            "or"
+            "or",
+            "but"
           ],
-          "more": 6,
+          "more": 5,
           "lexicon": "Middle Liddell"
         },
         {
@@ -6299,7 +6280,7 @@
             "namely that",
             "he, she, it"
           ],
-          "more": 31,
+          "more": 30,
           "lexicon": "Middle Liddell"
         },
         {
@@ -6329,7 +6310,7 @@
             "namely that",
             "he, she, it"
           ],
-          "more": 31,
+          "more": 30,
           "lexicon": "Middle Liddell"
         },
         {
@@ -6358,11 +6339,11 @@
           "senses": [
             "and",
             "also, even",
-            "both",
             "and above all",
-            "or"
+            "or",
+            "but"
           ],
-          "more": 6,
+          "more": 5,
           "lexicon": "Middle Liddell"
         },
         {
@@ -6373,11 +6354,11 @@
           "senses": [
             "all, the whole",
             "all",
-            "all the",
             "nothing but",
-            "every"
+            "every",
+            "everyone"
           ],
-          "more": 32,
+          "more": 8,
           "lexicon": "Middle Liddell"
         },
         {
@@ -6403,11 +6384,11 @@
           "senses": [
             "and",
             "also, even",
-            "both",
             "and above all",
-            "or"
+            "or",
+            "but"
           ],
-          "more": 6,
+          "more": 5,
           "lexicon": "Middle Liddell"
         },
         {
@@ -6436,7 +6417,7 @@
             "she",
             "they"
           ],
-          "more": 19,
+          "more": 8,
           "lexicon": "Middle Liddell"
         },
         {
@@ -6446,12 +6427,12 @@
           "aspect": "was, and kept on being: action going on in past time",
           "senses": [
             "to bear",
-            "carry",
+            "to bear or carry",
             "to bear, bear along",
             "to bear, endure, suffer",
             "bearing"
           ],
-          "more": 69,
+          "more": 31,
           "lexicon": "Middle Liddell"
         },
         {
@@ -6466,7 +6447,7 @@
             "namely that",
             "he, she, it"
           ],
-          "more": 31,
+          "more": 30,
           "lexicon": "Middle Liddell"
         },
         {
@@ -6478,10 +6459,9 @@
             "a thought, intention, purpose",
             "a thought, notion, opinion",
             "intelligence, understanding",
-            "the thought",
-            "meaning of"
+            "the thought or meaning of"
           ],
-          "more": 1,
+          "more": 0,
           "lexicon": "Middle Liddell"
         },
         {
@@ -6496,7 +6476,7 @@
             "self, myself, thyself",
             "oneself, one's true self"
           ],
-          "more": 25,
+          "more": 10,
           "lexicon": "Middle Liddell"
         },
         {
@@ -6505,13 +6485,13 @@
           "parse": "verb · aorist · active · participle · accusative · plural · masculine",
           "aspect": "one completed act seen whole, not a process observed in progress",
           "senses": [
-            "to go in",
-            "into, enter",
+            "to go in or into, enter",
             "to come into",
             "to enter",
-            "to come in"
+            "to come in",
+            "to come upon"
           ],
-          "more": 6,
+          "more": 4,
           "lexicon": "Middle Liddell"
         },
         {
@@ -6523,10 +6503,10 @@
             "to make",
             "to do",
             "to make, produce, create",
-            "to build them",
-            "to have"
+            "to have",
+            "made"
           ],
-          "more": 31,
+          "more": 17,
           "lexicon": "Middle Liddell"
         },
         {
@@ -6537,11 +6517,11 @@
           "senses": [
             "all, the whole",
             "all",
-            "all the",
             "nothing but",
-            "every"
+            "every",
+            "everyone"
           ],
-          "more": 32,
+          "more": 8,
           "lexicon": "Middle Liddell"
         },
         {
@@ -6556,7 +6536,7 @@
             "namely that",
             "he, she, it"
           ],
-          "more": 31,
+          "more": 30,
           "lexicon": "Middle Liddell"
         },
         {
@@ -6571,7 +6551,7 @@
             "action",
             "battle"
           ],
-          "more": 25,
+          "more": 18,
           "lexicon": "Middle Liddell"
         },
         {
@@ -6586,7 +6566,7 @@
             "as long as, how long;",
             "as many as, how many;"
           ],
-          "more": 31,
+          "more": 16,
           "lexicon": "Middle Liddell"
         },
         {
@@ -6599,9 +6579,9 @@
             "to draw up, put in array",
             "to arrange, organise",
             "to concoct",
-            "to fix"
+            "to fix or assess"
           ],
-          "more": 2,
+          "more": 1,
           "lexicon": "Middle Liddell"
         },
         {
@@ -6628,10 +6608,10 @@
             "to make",
             "to do",
             "to make, produce, create",
-            "to build them",
-            "to have"
+            "to have",
+            "made"
           ],
-          "more": 31,
+          "more": 17,
           "lexicon": "Middle Liddell"
         },
         {
@@ -6646,7 +6626,7 @@
             "self, myself, thyself",
             "oneself, one's true self"
           ],
-          "more": 25,
+          "more": 11,
           "lexicon": "Middle Liddell"
         },
         {
@@ -6655,13 +6635,13 @@
           "parse": "preposition",
           "aspect": "",
           "senses": [
+            "through c. gen, through, by means of",
             "through",
             "in a line, through, right through",
             "quite through",
-            "in succession",
-            "not in a line, all through, over"
+            "in succession"
           ],
-          "more": 34,
+          "more": 35,
           "lexicon": "Middle Liddell"
         },
         {
@@ -6682,12 +6662,12 @@
           "aspect": "one completed act seen whole, not a process observed in progress",
           "senses": [
             "to bear",
-            "carry",
+            "to bear or carry",
             "to bear, bear along",
             "to bear, endure, suffer",
             "bearing"
           ],
-          "more": 69,
+          "more": 31,
           "lexicon": "Middle Liddell"
         },
         {
@@ -6702,7 +6682,7 @@
             "namely that",
             "he, she, it"
           ],
-          "more": 31,
+          "more": 30,
           "lexicon": "Middle Liddell"
         },
         {
@@ -6769,11 +6749,11 @@
           "senses": [
             "and",
             "also, even",
-            "both",
             "and above all",
-            "or"
+            "or",
+            "but"
           ],
-          "more": 6,
+          "more": 5,
           "lexicon": "Middle Liddell"
         },
         {
@@ -6788,7 +6768,7 @@
             "say something of",
             "to call by name"
           ],
-          "more": 20,
+          "more": 9,
           "lexicon": "Middle Liddell"
         },
         {
@@ -6814,7 +6794,7 @@
             "namely that",
             "he, she, it"
           ],
-          "more": 31,
+          "more": 30,
           "lexicon": "Middle Liddell"
         },
         {
@@ -6880,7 +6860,7 @@
             "namely that",
             "he, she, it"
           ],
-          "more": 31,
+          "more": 30,
           "lexicon": "Middle Liddell"
         },
         {
@@ -6904,12 +6884,12 @@
           "aspect": "",
           "senses": [
             "from out of",
-            "out of, from. c. gen.",
+            "out of, from",
             "out of, forth from",
             "from",
-            "with all"
+            "out of"
           ],
-          "more": 26,
+          "more": 15,
           "lexicon": "Middle Liddell"
         },
         {
@@ -6919,12 +6899,12 @@
           "aspect": "",
           "senses": [
             "a name",
-            "name. fame",
+            "name, fame",
             "a mere name",
             "a false name, pretence, pretext",
-            "pretence"
+            "a phrase, expression"
           ],
-          "more": 4,
+          "more": 2,
           "lexicon": "Middle Liddell"
         },
         {
@@ -6939,7 +6919,7 @@
             "namely that",
             "he, she, it"
           ],
-          "more": 31,
+          "more": 30,
           "lexicon": "Middle Liddell"
         },
         {
@@ -6965,7 +6945,7 @@
             "namely that",
             "he, she, it"
           ],
-          "more": 31,
+          "more": 30,
           "lexicon": "Middle Liddell"
         },
         {
@@ -6980,7 +6960,7 @@
             "namely that",
             "he, she, it"
           ],
-          "more": 31,
+          "more": 30,
           "lexicon": "Middle Liddell"
         },
         {
@@ -7006,7 +6986,7 @@
             "namely that",
             "he, she, it"
           ],
-          "more": 31,
+          "more": 30,
           "lexicon": "Middle Liddell"
         },
         {
@@ -7027,12 +7007,12 @@
           "aspect": "",
           "senses": [
             "from out of",
-            "out of, from. c. gen.",
+            "out of, from",
             "out of, forth from",
             "from",
-            "with all"
+            "out of"
           ],
-          "more": 26,
+          "more": 15,
           "lexicon": "Middle Liddell"
         },
         {
@@ -7041,13 +7021,13 @@
           "parse": "noun · genitive · singular · feminine",
           "aspect": "",
           "senses": [
-            "a race",
-            "tribe",
+            "a race or tribe",
             "a body",
             "united by ties of blood and descent, a clan",
-            "a tribe"
+            "a tribe",
+            "by local habitation"
           ],
-          "more": 6,
+          "more": 4,
           "lexicon": "Middle Liddell"
         },
         {
@@ -7074,11 +7054,11 @@
           "senses": [
             "and",
             "also, even",
-            "both",
             "and above all",
-            "or"
+            "or",
+            "but"
           ],
-          "more": 6,
+          "more": 5,
           "lexicon": "Middle Liddell"
         },
         {
@@ -7105,7 +7085,7 @@
             "self, myself, thyself",
             "oneself, one's true self"
           ],
-          "more": 25,
+          "more": 10,
           "lexicon": "Middle Liddell"
         },
         {
@@ -7116,11 +7096,11 @@
           "senses": [
             "a blowing",
             "a wind, blast",
-            "breeze",
-            "influence",
-            "the wind"
+            "breeze or influence",
+            "the wind",
+            "breathed air, breath"
           ],
-          "more": 12,
+          "more": 11,
           "lexicon": "Middle Liddell"
         },
         {
@@ -7129,13 +7109,13 @@
           "parse": "adjective · accusative · singular · neuter",
           "aspect": "",
           "senses": [
-            "of",
-            "from the gods, sent by the gods, issuing from them, divine",
+            "of or from the gods, sent by the gods, issuing from them, divine",
             "appointed of God",
-            "belonging",
-            "sacred to a god, in honour of a god, holy"
+            "belonging or sacred to a god, in honour of a god, holy",
+            "under divine protection",
+            "more than human, wondrous"
           ],
-          "more": 11,
+          "more": 4,
           "lexicon": "Middle Liddell"
         },
         {
@@ -7161,11 +7141,11 @@
           "senses": [
             "and",
             "also, even",
-            "both",
             "and above all",
-            "or"
+            "or",
+            "but"
           ],
-          "more": 6,
+          "more": 5,
           "lexicon": "Middle Liddell"
         },
         {
@@ -7180,7 +7160,7 @@
             "sagacity in respect to",
             "conscience"
           ],
-          "more": 2,
+          "more": 1,
           "lexicon": "Middle Liddell"
         },
         {
@@ -7191,11 +7171,11 @@
           "senses": [
             "and",
             "also, even",
-            "both",
             "and above all",
-            "or"
+            "or",
+            "but"
           ],
-          "more": 6,
+          "more": 5,
           "lexicon": "Middle Liddell"
         },
         {
@@ -7220,11 +7200,11 @@
           "senses": [
             "all, the whole",
             "all",
-            "all the",
             "nothing but",
-            "every"
+            "every",
+            "everyone"
           ],
-          "more": 32,
+          "more": 8,
           "lexicon": "Middle Liddell"
         }
       ]
@@ -7250,13 +7230,13 @@
           "parse": "preposition",
           "aspect": "",
           "senses": [
-            "down, downwards, with gen. or acc.",
+            "down, downwards, with gen, or acc.",
             "down, downwards.",
             "motion from above, down from",
             "downward motion",
-            "down upon"
+            "down upon or over"
           ],
-          "more": 45,
+          "more": 44,
           "lexicon": "Middle Liddell"
         },
         {
@@ -7267,11 +7247,11 @@
           "senses": [
             "all, the whole",
             "all",
-            "all the",
             "nothing but",
-            "every"
+            "every",
+            "everyone"
           ],
-          "more": 32,
+          "more": 8,
           "lexicon": "Middle Liddell"
         },
         {
@@ -7286,7 +7266,7 @@
             "namely that",
             "he, she, it"
           ],
-          "more": 31,
+          "more": 30,
           "lexicon": "Middle Liddell"
         },
         {
@@ -7301,7 +7281,7 @@
             "action",
             "battle"
           ],
-          "more": 25,
+          "more": 18,
           "lexicon": "Middle Liddell"
         },
         {
@@ -7316,7 +7296,7 @@
             "namely that",
             "he, she, it"
           ],
-          "more": 31,
+          "more": 30,
           "lexicon": "Middle Liddell"
         },
         {
@@ -7339,10 +7319,10 @@
             "to make",
             "to do",
             "to make, produce, create",
-            "to build them",
-            "to have"
+            "to have",
+            "made"
           ],
-          "more": 31,
+          "more": 17,
           "lexicon": "Middle Liddell"
         },
         {
@@ -7357,7 +7337,7 @@
             "namely that",
             "he, she, it"
           ],
-          "more": 31,
+          "more": 30,
           "lexicon": "Middle Liddell"
         },
         {
@@ -7382,11 +7362,11 @@
           "senses": [
             "and",
             "also, even",
-            "both",
             "and above all",
-            "or"
+            "or",
+            "but"
           ],
-          "more": 6,
+          "more": 5,
           "lexicon": "Middle Liddell"
         },
         {
@@ -7401,7 +7381,7 @@
             "namely that",
             "he, she, it"
           ],
-          "more": 31,
+          "more": 30,
           "lexicon": "Middle Liddell"
         },
         {
@@ -7425,11 +7405,11 @@
           "senses": [
             "and",
             "also, even",
-            "both",
             "and above all",
-            "or"
+            "or",
+            "but"
           ],
-          "more": 6,
+          "more": 5,
           "lexicon": "Middle Liddell"
         },
         {
@@ -7444,7 +7424,7 @@
             "namely that",
             "he, she, it"
           ],
-          "more": 31,
+          "more": 30,
           "lexicon": "Middle Liddell"
         },
         {
@@ -7456,7 +7436,7 @@
             "copper",
             "metal",
             "bronze",
-            "anything made of brass",
+            "anything made of brass or metal",
             "a copper, caldron, urn"
           ],
           "more": 2,
@@ -7475,11 +7455,11 @@
           "senses": [
             "and",
             "also, even",
-            "both",
             "and above all",
-            "or"
+            "or",
+            "but"
           ],
-          "more": 6,
+          "more": 5,
           "lexicon": "Middle Liddell"
         },
         {
@@ -7505,7 +7485,7 @@
             "namely that",
             "he, she, it"
           ],
-          "more": 31,
+          "more": 30,
           "lexicon": "Middle Liddell"
         },
         {
@@ -7520,7 +7500,7 @@
             "blocks, stones",
             "stone"
           ],
-          "more": 7,
+          "more": 2,
           "lexicon": "Middle Liddell"
         },
         {
@@ -7531,11 +7511,11 @@
           "senses": [
             "and",
             "also, even",
-            "both",
             "and above all",
-            "or"
+            "or",
+            "but"
           ],
-          "more": 6,
+          "more": 5,
           "lexicon": "Middle Liddell"
         },
         {
@@ -7545,12 +7525,12 @@
           "aspect": "going on, in progress",
           "senses": [
             "to effect by labour, to achieve, accomplish",
-            "to be effected",
-            "to earn",
-            "gain by labour, to achieve, acquire",
-            "to be successful"
+            "to be effected or achieved",
+            "to earn or gain by labour, to achieve, acquire",
+            "to be successful",
+            "to overpower, subdue, conquer"
           ],
-          "more": 4,
+          "more": 3,
           "lexicon": "Middle Liddell"
         },
         {
@@ -7565,7 +7545,7 @@
             "namely that",
             "he, she, it"
           ],
-          "more": 31,
+          "more": 30,
           "lexicon": "Middle Liddell"
         },
         {
@@ -7580,7 +7560,7 @@
             "a piece of wood, a post",
             "a perch"
           ],
-          "more": 9,
+          "more": 7,
           "lexicon": "Middle Liddell"
         },
         {
@@ -7591,11 +7571,11 @@
           "senses": [
             "and",
             "also, even",
-            "both",
             "and above all",
-            "or"
+            "or",
+            "but"
           ],
-          "more": 6,
+          "more": 5,
           "lexicon": "Middle Liddell"
         },
         {
@@ -7607,10 +7587,10 @@
             "to make",
             "to do",
             "to make, produce, create",
-            "to build them",
-            "to have"
+            "to have",
+            "made"
           ],
-          "more": 31,
+          "more": 17,
           "lexicon": "Middle Liddell"
         },
         {
@@ -7619,7 +7599,7 @@
           "parse": "preposition",
           "aspect": "",
           "senses": [
-            "in, among. c. dat.",
+            "in, among",
             "in",
             "at the school of",
             "in, upon",
@@ -7636,11 +7616,11 @@
           "senses": [
             "all, the whole",
             "all",
-            "all the",
             "nothing but",
-            "every"
+            "every",
+            "everyone"
           ],
-          "more": 32,
+          "more": 9,
           "lexicon": "Middle Liddell"
         },
         {
@@ -7655,7 +7635,7 @@
             "action",
             "battle"
           ],
-          "more": 25,
+          "more": 18,
           "lexicon": "Middle Liddell"
         },
         {
@@ -7686,11 +7666,11 @@
           "senses": [
             "and",
             "also, even",
-            "both",
             "and above all",
-            "or"
+            "or",
+            "but"
           ],
-          "more": 6,
+          "more": 5,
           "lexicon": "Middle Liddell"
         },
         {
@@ -7734,7 +7714,7 @@
             "to offer to the gods",
             "gave"
           ],
-          "more": 12,
+          "more": 9,
           "lexicon": "Middle Liddell"
         },
         {
@@ -7749,7 +7729,7 @@
             "self, myself, thyself",
             "oneself, one's true self"
           ],
-          "more": 25,
+          "more": 12,
           "lexicon": "Middle Liddell"
         },
         {
@@ -7758,7 +7738,7 @@
           "parse": "preposition",
           "aspect": "",
           "senses": [
-            "in, among. c. dat.",
+            "in, among",
             "in",
             "at the school of",
             "in, upon",
@@ -7779,7 +7759,7 @@
             "namely that",
             "he, she, it"
           ],
-          "more": 31,
+          "more": 30,
           "lexicon": "Middle Liddell"
         },
         {
@@ -7791,10 +7771,9 @@
             "a thought, intention, purpose",
             "a thought, notion, opinion",
             "intelligence, understanding",
-            "the thought",
-            "meaning of"
+            "the thought or meaning of"
           ],
-          "more": 1,
+          "more": 0,
           "lexicon": "Middle Liddell"
         },
         {
@@ -7809,7 +7788,7 @@
             "self, myself, thyself",
             "oneself, one's true self"
           ],
-          "more": 25,
+          "more": 12,
           "lexicon": "Middle Liddell"
         },
         {
@@ -7833,11 +7812,11 @@
           "senses": [
             "and",
             "also, even",
-            "both",
             "and above all",
-            "or"
+            "or",
+            "but"
           ],
-          "more": 6,
+          "more": 5,
           "lexicon": "Middle Liddell"
         },
         {
@@ -7863,7 +7842,7 @@
             "namely that",
             "he, she, it"
           ],
-          "more": 31,
+          "more": 30,
           "lexicon": "Middle Liddell"
         },
         {
@@ -7878,7 +7857,7 @@
             "namely that",
             "he, she, it"
           ],
-          "more": 31,
+          "more": 30,
           "lexicon": "Middle Liddell"
         },
         {
@@ -7899,12 +7878,12 @@
           "aspect": "",
           "senses": [
             "from out of",
-            "out of, from. c. gen.",
+            "out of, from",
             "out of, forth from",
             "from",
-            "with all"
+            "out of"
           ],
-          "more": 26,
+          "more": 15,
           "lexicon": "Middle Liddell"
         },
         {
@@ -7913,13 +7892,13 @@
           "parse": "noun · genitive · singular · feminine",
           "aspect": "",
           "senses": [
-            "a race",
-            "tribe",
+            "a race or tribe",
             "a body",
             "united by ties of blood and descent, a clan",
-            "a tribe"
+            "a tribe",
+            "by local habitation"
           ],
-          "more": 6,
+          "more": 4,
           "lexicon": "Middle Liddell"
         },
         {
@@ -7962,7 +7941,7 @@
             "self, myself, thyself",
             "oneself, one's true self"
           ],
-          "more": 25,
+          "more": 10,
           "lexicon": "Middle Liddell"
         },
         {
@@ -7988,11 +7967,11 @@
           "senses": [
             "and",
             "also, even",
-            "both",
             "and above all",
-            "or"
+            "or",
+            "but"
           ],
-          "more": 6,
+          "more": 5,
           "lexicon": "Middle Liddell"
         },
         {
@@ -8007,7 +7986,7 @@
             "sagacity in respect to",
             "conscience"
           ],
-          "more": 2,
+          "more": 1,
           "lexicon": "Middle Liddell"
         },
         {
@@ -8019,10 +7998,9 @@
             "a thought, intention, purpose",
             "a thought, notion, opinion",
             "intelligence, understanding",
-            "the thought",
-            "meaning of"
+            "the thought or meaning of"
           ],
-          "more": 1,
+          "more": 0,
           "lexicon": "Middle Liddell"
         },
         {
@@ -8033,11 +8011,11 @@
           "senses": [
             "all, the whole",
             "all",
-            "all the",
             "nothing but",
-            "every"
+            "every",
+            "everyone"
           ],
-          "more": 32,
+          "more": 8,
           "lexicon": "Middle Liddell"
         },
         {
@@ -8046,8 +8024,7 @@
           "parse": "verb · present · active · infinitive",
           "aspect": "going on, in progress",
           "senses": [
-            "to bring",
-            "set together",
+            "to bring or set together",
             "to perceive, hear",
             "to understand"
           ],
@@ -8063,10 +8040,10 @@
             "to make",
             "to do",
             "to make, produce, create",
-            "to build them",
-            "to have"
+            "to have",
+            "made"
           ],
-          "more": 31,
+          "more": 17,
           "lexicon": "Middle Liddell"
         },
         {
@@ -8081,7 +8058,7 @@
             "namely that",
             "he, she, it"
           ],
-          "more": 31,
+          "more": 30,
           "lexicon": "Middle Liddell"
         },
         {
@@ -8096,7 +8073,7 @@
             "action",
             "battle"
           ],
-          "more": 25,
+          "more": 18,
           "lexicon": "Middle Liddell"
         },
         {
@@ -8111,7 +8088,7 @@
             "namely that",
             "he, she, it"
           ],
-          "more": 31,
+          "more": 30,
           "lexicon": "Middle Liddell"
         },
         {
@@ -8122,7 +8099,6 @@
           "senses": [
             "devoted to the gods, sacred, holy",
             "the Temple",
-            "theHoly of Holies",
             "holy, pure"
           ],
           "more": 0,
@@ -8136,11 +8112,11 @@
           "senses": [
             "and",
             "also, even",
-            "both",
             "and above all",
-            "or"
+            "or",
+            "but"
           ],
-          "more": 6,
+          "more": 5,
           "lexicon": "Middle Liddell"
         },
         {
@@ -8155,7 +8131,7 @@
             "namely that",
             "he, she, it"
           ],
-          "more": 31,
+          "more": 30,
           "lexicon": "Middle Liddell"
         },
         {
@@ -8178,11 +8154,11 @@
           "senses": [
             "and",
             "also, even",
-            "both",
             "and above all",
-            "or"
+            "or",
+            "but"
           ],
-          "more": 6,
+          "more": 5,
           "lexicon": "Middle Liddell"
         },
         {
@@ -8222,7 +8198,7 @@
             "namely that",
             "he, she, it"
           ],
-          "more": 31,
+          "more": 30,
           "lexicon": "Middle Liddell"
         },
         {
@@ -8244,11 +8220,11 @@
           "senses": [
             "and",
             "also, even",
-            "both",
             "and above all",
-            "or"
+            "or",
+            "but"
           ],
-          "more": 6,
+          "more": 5,
           "lexicon": "Middle Liddell"
         },
         {
@@ -8263,7 +8239,7 @@
             "namely that",
             "he, she, it"
           ],
-          "more": 31,
+          "more": 30,
           "lexicon": "Middle Liddell"
         },
         {
@@ -8287,10 +8263,10 @@
             "to make",
             "to do",
             "to make, produce, create",
-            "to build them",
-            "to have"
+            "to have",
+            "made"
           ],
-          "more": 31,
+          "more": 17,
           "lexicon": "Middle Liddell"
         },
         {
@@ -8301,11 +8277,11 @@
           "senses": [
             "all, the whole",
             "all",
-            "all the",
             "nothing but",
-            "every"
+            "every",
+            "everyone"
           ],
-          "more": 32,
+          "more": 9,
           "lexicon": "Middle Liddell"
         },
         {
@@ -8320,7 +8296,7 @@
             "action",
             "battle"
           ],
-          "more": 25,
+          "more": 18,
           "lexicon": "Middle Liddell"
         },
         {

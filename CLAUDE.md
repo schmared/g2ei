@@ -76,13 +76,17 @@ load-bearing word is one unit: a **headword** and its **chain**.
   the chain's first sense.
 - **One translation is one item.** Where the lexicon gives a sense as a run of words in one
   translation — σταθμός *a dwelling, abode*, κιβωτός *a wooden box, chest, coffer* — the
-  chain keeps the run as one item, joined with *and*: `dwelling and abode`, `the wooden box
-  and chest and coffer`. The commas of a chain part the entry's senses; a run split into
-  items of its own reads as that many senses. What the form puts before the run is said
-  once (`of the face and visage and countenance`), and the perfect's formula follows the
-  whole item. Where an item could be a sense the entry gives by itself as well as part of
-  a run — ἀκούω's *to have hearing of*, beside *to hear of, hear tell of* — it is left as
-  it stands.
+  chain keeps the run as one item, its pieces joined with ` / `: `dwelling / abode`, `the
+  wooden box / chest / coffer`. Two translations the entry joins with *or* are one item the
+  same way: συναναβαίνω *to go up with or together* is `went up with / together`, and neither
+  piece is dropped. The delimiter is not *and*, which is a word the Greek does not have, and
+  it keeps the pieces apart so they cannot be read as one phrase. The commas of a chain part
+  the entry's senses; a run split into items of its own reads as that many senses. What the
+  form puts before the run is said once (`of the face / visage / countenance`). Where the
+  first piece is a bare preposition that only the *or* completes, θεῖος *of or from the gods*,
+  the *or* stays as the entry prints it. Where an item could be a sense the entry gives by
+  itself as well as part of a run — ἀκούω's *to have hearing of*, beside *to hear of, hear
+  tell of* — it is left as it stands.
 - The headword never stands bare in the unanchored text: nothing that belongs in a unit is
   written as plain text.
 - **A word is a unit exactly when its entry says more than its headword does.** More can be
@@ -131,7 +135,8 @@ to quietly repair. Mark with the `divergence` flag.
 ### Verbal aspect goes in the text, not a footnote
 Every past tense but one is marked, so the one left plain is marked by that:
 - imperfect → "was …ing", "was being …" in the verb's own unit; εἰμί's "and kept on being"
-- perfect → a standing resultant state, not a past event: "and it stands so"
+- perfect → a standing resultant state, not a past event: "and it stands so", after every
+  item of the chain, since each item is the one perfect read in another sense
 - aorist → the plain English past. A Greek reader hears the aorist as the narrative's plain
   tense and the imperfect against it, and the English does the same. The formula "one
   completed act seen whole, not a process observed in progress" stood on 59 of Genesis
@@ -369,7 +374,13 @@ The count is checked as well as the name: two units may not open one word.
 - one case is one chain: a preposition has one form, so its chain cannot follow the
   form; within one lemma and one case it reads the same everywhere
 - one translation is one item: no run of words the card gives in one translation is split
-  across items of a chain
+  across items of a chain, and its pieces are joined with ` / `, not *and*
+- a chain carries its card: every translation the entry gives the form, after `NOT_SENSES`,
+  `FORM_SENSES` and the coverage pass's `COVERAGE_NOT` and `COVERAGE_ONLY`, is in the chain —
+  the other checks compare units with one another, and a chain written short of its card and
+  copied was short everywhere. The pronouns and the words with a formula of their own (θεός, ἐν,
+  γίνομαι, ἀρχή at Gen 1:1) are outside it
+- a perfect's formula follows every item of its chain
 - the word-by-word layer, where there is one, still matches the verse's Greek
 - the project's own morphology is well-formed by its code's own grammar
 - that morphology agrees with itself across every chapter — a form keeps its dictionary
