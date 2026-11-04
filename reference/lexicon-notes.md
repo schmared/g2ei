@@ -8847,6 +8847,15 @@ Chains the settled open questions changed, corpus-wide.
 
 - **The text**: SBLGNT's line, verbatim, its signs kept (⸀, ⸂…⸃); MorphGNT's morphology. Every verse carrying a
   sign has a note flagged `variant`, and validate now checks it (1:28's ⸀ before ὁ had none).
+- **The variants**: each of the 33 units has a note of its own carrying the apparatus's statement, as
+  `build/apparatus.py` prints it from `sources/sblgntapp`: *SBLGNT's ⸀: ἕστηκεν, Nestle–Aland 28 and
+  Robinson–Pierpont; στήκει, Westcott–Hort and Tregelles.* The notes had first been written from memory, as what
+  *some manuscripts* read. The apparatus compares editions, and against it 1:18 had a second reading it does not
+  give (ὁ μονογενὴς θεός), 1:27 had two units of three and not Westcott–Hort's omission of ὁ, 1:45 set Robinson–
+  Pierpont's τόν before Ἰησοῦν where it follows it, and 1:34 said *most manuscripts*. The lexical remarks that had
+  shared a variant note — ἕστηκεν's perfect, μέσος, ὑπέρ, περιστερά, πρῶτον, Ἰωάννου, the article of 1:37 — are
+  notes of their own. SBLGNT's own reading against all four editions is cited as *SBLGNT's editor*, the
+  apparatus's `Holmes` (1:27 οὐκ εἰμὶ, 1:34 ἐκλεκτὸς, each with Westcott–Hort's margin).
 - **εἰμί**: where the Logos, the life or the light is the subject, the prologue's formula, `was, and was
   continuously, and was already in unbroken existence without any point of having come to be` (1:1, 1:2, 1:4, 1:9,
   1:10, and 1:15 and 1:30 of the one coming after John, who was first). Elsewhere the creature's, `was, and kept on
@@ -8871,6 +8880,14 @@ Chains the settled open questions changed, corpus-wide.
 - **A misprint** (`MISPRINTS`, new): μένω's «to be lasting, remian, last, stand». GEN 24 had printed *remain*; the
   Q24 rebuild read the card back, misprint and all, into every μένω unit. The card says *remain* now, and the nine
   units do.
+- **μένω's first sense**: «Lat. maneo, to stay stand fast, abide», which MARKUP_LOST restores from inside the Latin
+  element, is a comma short, and read as one translation put *stayed stand fast* in 1:32 and 1:39. The comma is
+  restored in `MISPRINTS`, beside *remian*: one run in three pieces, headword *stayed*, `stayed / stood fast /
+  abided` (1:32, 1:39), `staying / standing fast / abiding` (1:33), `stays / stands fast / abides` (1:39), `you
+  stay / stand fast / abide` (1:38), and in GEN 24:55 `let stay`, 45:9 `you may stay`, EXO 9:28 `to stay`. Those
+  three had also carried a run their first drafts joined with *and*, `remain as one was and hold good and remain
+  contented`, before *hold good* and *remain contented* as items of their own: `remain as one was` now, as John's
+  units have it.
 - **ὅπου**: a relative adverb of place, which the entry says in prose. Its first translation, «in some places», is
   the phrase ἔσθ' ὅπου's, and «somewhere or other» and «wherever» are ὅκου δή's and ὅπου ἄν's; with the pieces of
   οὐκ ἔσθ' ὅπου they are set aside. It heads with *where*: `where, whereas` (1:28).

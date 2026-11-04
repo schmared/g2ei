@@ -3287,7 +3287,7 @@ MARKUP_LOST = {
     "bre/xw": [(0, "to wet")],                   # "Lat. rigo, to wet"
     "nu/c": [(0, "night")],                      # "Lat. nox, night, i. e. either the night-season or a night"
     "a)gro/s": [(0, "a field")],                 # "Lat. ager, a field, in pl. fields, lands"
-    "me/nw": [(0, "to stay stand fast, abide")],  # "Lat. maneo, to stay stand fast, abide" — the page's own comma
+    "me/nw": [(0, "to stay stand fast, abide")],  # "Lat. maneo, to stay stand fast, abide"; the comma after *stay*, lost, in MISPRINTS
     "mh=lon2": [(0, "an apple")],                # "Lat. malum, an apple or (generally) any tree-fruit"
     "tre/mw": [(0, "to tremble, quake, quiver")],  # "Lat. tremo, to tremble, quake, quiver"
     "xa/skw": [(0, "to yawn, gape")],            # "Lat. hio, to yawn, gape"
@@ -3456,10 +3456,21 @@ TEXT_LOST = {
 # A misprint in the encoded entry, corrected to the word the entry plainly means and nothing more:
 # μένω's «to be lasting, remian, last, stand». GEN 24:55 printed it *remain* from its first draft
 # (lexicon-notes, *Words new in GEN 24*); the Q24 rebuild read the card back, misprint and all, into
-# every μένω unit, and John 1 gave it five more.
+# every μένω unit, and John 1 gave it five more. The same entry opens «Lat. maneo, to stay stand
+# fast, abide», a comma short: *stay stand fast* is no English, and read as one translation it put
+# *stayed stand fast* in JHN 1:32 and 1:39. The comma is restored, so the run is three pieces, `stayed
+# / stood fast / abided`, and the headword *stayed* (2026-11-04). A correction applies to the
+# translations MARKUP_LOST restores as well as to the <tr>s.
 MISPRINTS = {
-    "me/nw": {"remian": "remain"},
+    "me/nw": {"remian": "remain", "stay stand fast": "stay, stand fast"},
 }
+
+
+def corrected(key, gloss):
+    """A translation with the entry's misprints put right (MISPRINTS)."""
+    for bad, good in MISPRINTS.get(re.sub(r"\d+$", "", key), {}).items():
+        gloss = re.sub(r"\b%s\b" % bad, good, gloss)
+    return gloss
 
 
 # A word Middle Liddell files as a section of another word's entry instead of under a key
@@ -3552,12 +3563,10 @@ def load_middle_liddell():
             # A preposition's entry opens with the case it governs inside the translation —
             # ἀπό's "from, away from. c. gen." — and the label is the entry's, not the gloss's.
             gloss = re.sub(r"\.?\s+c\. (?:gen|dat|acc)\.$", "", gloss)
-            gloss = tidy_gloss(gloss)
-            for bad, good in MISPRINTS.get(re.sub(r"\d+$", "", key), {}).items():
-                gloss = re.sub(r"\b%s\b" % bad, good, gloss)
+            gloss = corrected(key, tidy_gloss(gloss))
             cleaned.append((lost.get(gloss, gloss), joined))
         for at, gloss in MARKUP_LOST.get(key, ()):
-            cleaned.insert(at, (gloss, False))
+            cleaned.insert(at, (corrected(key, gloss), False))
         senses = []
         for gloss, joined in cleaned:
             if not gloss:

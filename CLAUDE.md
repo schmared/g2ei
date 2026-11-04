@@ -287,6 +287,7 @@ reading requires — do not adjudicate.
 /build/render.py                data → HTML
 /build/words.py                 /sources → the word-by-word layer
 /build/validate.py              mechanical checks
+/build/apparatus.py             SBLGNT's apparatus → what a variant note says of each variation unit
 /build/morph_diff.py            two independent passes at a chapter's morphology, compared
 /tools/                         the chapter pipeline and the edit-pass tools; tools/README.md says how
 /tools/decisions/               the coverage verdicts COVERAGE_NOT and COVERAGE_ONLY are generated from
@@ -362,7 +363,11 @@ The count is checked as well as the name: two units may not open one word.
 - For a New Testament chapter the Greek is SBLGNT's line, verbatim, its critical signs
   included, and the morphology MorphGNT's. Verses MorphGNT does not analyse (John
   7:53–8:11, which SBLGNT prints in double brackets) take the project's own morphology,
-  written twice as an Old Testament chapter's is.
+  written twice as an Old Testament chapter's is. Each variation unit SBLGNT marks gets a
+  note flagged `variant` carrying the statement `python build/apparatus.py <BOOK>/<chapter>`
+  prints from SBLGNT's apparatus, word for word: which printed editions read what. The
+  apparatus compares editions, not manuscripts, and a note says nothing of a reading the
+  apparatus does not give.
 - The steps, and the tools that do them, are in `/tools/README.md`.
 - After writing a chapter, append any newly-established gloss-chains to that file.
 - Run `python build/words.py <BOOK>/<chapter>` to build the word-by-word layer from
@@ -439,7 +444,11 @@ The count is checked as well as the name: two units may not open one word.
 - Greek text matches the source edition — New Testament character-for-character against
   SBLGNT; the Old Testament against the printed page every verse cites in `print`
 - every New Testament verse whose Greek carries SBLGNT's sign of a variant (⸀ ⸁ ⸂…⸃ ⸄…⸅ ⟦…⟧)
-  has a note flagged `variant`
+  has a note flagged `variant`; every variation unit is stated in one as SBLGNT's apparatus
+  states it, word for word; every variant note states one; and what a variant note adds names
+  no Greek the verse and its apparatus lack and no manuscripts — John 1's notes, written from
+  memory, had given 1:18 a reading the apparatus does not have, missed a unit at 1:27, and set
+  a word of 1:45 on the wrong side of another
 
 Mechanical checks catch drift that reading won't.
 

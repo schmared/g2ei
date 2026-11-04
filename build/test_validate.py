@@ -50,6 +50,15 @@ J48 = next(i for i, v in enumerate(JHN) if v["ref"] == "JHN 1:48")
 S42 = next(i for i, n in enumerate(JHN[J42]["names"]) if n["greek"] == "Σίμων")
 J51 = next(i for i, v in enumerate(JHN) if v["ref"] == "JHN 1:51")
 A51 = next(i for i, n in enumerate(JHN[J51]["names"]) if n["greek"] == "ἀμὴν")
+J26 = next(i for i, v in enumerate(JHN) if v["ref"] == "JHN 1:26")
+J27 = next(i for i, v in enumerate(JHN) if v["ref"] == "JHN 1:27")
+STAND = next(i for i, n in enumerate(JHN[J26]["notes"]) if n["flag"] == "variant" and n["lemma"] == "ἕστηκεν")
+NOT_AM = next(i for i, n in enumerate(JHN[J27]["notes"]) if n["flag"] == "variant" and n["lemma"] == "οὐκ εἰμὶ")
+
+
+def noted(index, note, text):
+    """JHN 1 with one note's text replaced."""
+    return mut(JHN, [index, "notes", note, "text"], text)
 
 
 def mut(data, path, value):
@@ -537,6 +546,21 @@ NEGATIVE = [
     ("greek    NT verse altered",        lambda: run(V.check_greek, "JHN", 1, mut(JHN, [0, "greek"], "Ἐν ἀρχῇ ἦν ὁ λόγος."))),
     ("greek    capital with no reason for it",
                                          lambda: run(V.check_greek, "GEN", 1, mut(GEN, [0, "greek"], "Ἐν ἀρχῇ ἐποίησεν ὁ Θεὸς τὸν οὐρανὸν καὶ τὴν γῆν."))),
+    # the apparatus: ἕστηκεν NA28 RP ] στήκει WH Treg
+    ("variant  editions swapped in a statement",
+                                         lambda: run(V.check_apparatus, "JHN", 1, noted(J26, STAND,
+                                             "SBLGNT's ⸀: ἕστηκεν, Westcott–Hort and Tregelles; στήκει, Nestle–Aland 28 "
+                                             "and Robinson–Pierpont."))),
+    ("variant  a note stating no unit",  lambda: run(V.check_apparatus, "JHN", 1, mut(JHN, [J26, "notes"],
+                                             JHN[J26]["notes"] + [{"lemma": "ἕστηκεν", "flag": "variant",
+                                                                   "text": "SBLGNT's ⸀: the editions differ here."}]))),
+    ("variant  a unit no note states",   lambda: run(V.check_apparatus, "JHN", 1, mut(JHN, [J27, "notes"],
+                                             [n for i, n in enumerate(JHN[J27]["notes"]) if i != NOT_AM]))),
+    ("variant  manuscripts",             lambda: run(V.check_apparatus, "JHN", 1, noted(J26, STAND,
+                                             JHN[J26]["notes"][STAND]["text"] + " Some manuscripts read στήκει."))),
+    ("variant  a reading the apparatus lacks",
+                                         lambda: run(V.check_apparatus, "JHN", 1, noted(J26, STAND,
+                                             JHN[J26]["notes"][STAND]["text"] + " Others read ἔστη."))),
     ("names    bare entry on a first occurrence",
                                          lambda: run(V.check_names, mut(JHN, [J6, "names"], [BARE]))),
     ("names    lower-case transliteration with no marker",
@@ -667,6 +691,7 @@ CONTROL = [
     ("words    clean GEN",               lambda: run(V.check_words, "GEN", 1, GEN)),
     ("greek    clean GEN",               lambda: run(V.check_greek, "GEN", 1, GEN)),
     ("greek    clean JHN",               lambda: run(V.check_greek, "JHN", 1, JHN)),
+    ("variant  clean JHN",               lambda: run(V.check_apparatus, "JHN", 1, JHN)),
     ("anchors  headword repeats in its own chain",
                                          lambda: run(V.check_anchors, mut(GEN, [1, "reading"], "[[wind|breath, wind, spirit|πνεῦμα]] x"))),
     ("names    sentence-initial capital is not a name",

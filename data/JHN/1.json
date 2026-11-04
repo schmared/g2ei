@@ -396,7 +396,7 @@
       {
         "lemma": "ὃν εἶπον",
         "flag": "variant",
-        "text": "SBLGNT's ⸂…⸃: the manuscripts differ on these words."
+        "text": "SBLGNT's ⸂…⸃: ὃν εἶπον, Tregelles, Nestle–Aland 28 and Robinson–Pierpont; ὁ εἰπών, Westcott–Hort."
       }
     ],
     "reading": "([[name:Ἰωάννης]] [[bears witness|bears witness / is a witness / gives evidence / bears testimony, bears witness to / in favour of, testifies|μαρτυρέω]] [[round about|round about, around, about / near, about / for / on account of, about / concerning, for very|περί + genitive]] of him and [[has croaked|has croaked and it stands so, has screamed / shrieked / cried aloud and it stands so, has bawled aloud and it stands so, has clamoured for and it stands so|κράζω]] [[saying|saying / speaking, saying / declaring, saying something of, calling by name, telling, boasting of / telling of, reciting|λέγω]]: [[this|this, the nearer, what follows|οὗτος]] was, and was continuously, and was already in unbroken existence without any point of having come to be whom [[I said|I said / spoke, I said / declared, I said something of, I called by name, I told, I meant, I boasted of / told of, I recited|λέγω]]: [[the one coming|the one coming / going, the one coming / going back / returning|ἔρχομαι]] [[after|after, backwards, back / back again, again, hereafter, behind, future, following|ὀπίσω]] of me [[before|before / in front of, before / earlier / of old|ἔμπροσθεν]] of me [[has come into being|has come to be and stands so, has arisen and remains arisen, has been brought into existence and continues so|γίνομαι]], [[that|that, for that / because / seeing that / inasmuch as|ὅτι]] [[first|first, first / foremost, outermost, first men, first prize, first part / beginning, first / highest, extremities, chief|πρῶτος]] of me was, and was continuously, and was already in unbroken existence without any point of having come to be)",
@@ -421,7 +421,7 @@
       {
         "lemma": "ὅτι",
         "flag": "variant",
-        "text": "SBLGNT's ⸀: some manuscripts read καί."
+        "text": "SBLGNT's ⸀: ὅτι, Westcott–Hort, Tregelles and Nestle–Aland 28; Καὶ, Robinson–Pierpont."
       },
       {
         "lemma": "πληρώματος",
@@ -492,8 +492,13 @@
       },
       {
         "lemma": "μονογενὴς θεός",
+        "flag": null,
+        "text": "Anarthrous θεός takes the qualitative formula."
+      },
+      {
+        "lemma": "μονογενὴς θεὸς",
         "flag": "variant",
-        "text": "SBLGNT's ⸂…⸃: other manuscripts read ὁ μονογενὴς υἱός, *the only-begotten son*, or ὁ μονογενὴς θεός. Anarthrous θεός takes the qualitative formula."
+        "text": "SBLGNT's ⸂…⸃: μονογενὴς θεὸς, Westcott–Hort, Tregelles and Nestle–Aland 28; ὁ μονογενὴς υἱός, Robinson–Pierpont."
       },
       {
         "lemma": "εἰς τὸν κόλπον",
@@ -527,7 +532,7 @@
       {
         "lemma": "ἀπέστειλαν",
         "flag": "variant",
-        "text": "SBLGNT's ⸀: some manuscripts add πρὸς αὐτόν."
+        "text": "SBLGNT's ⸀: ἀπέστειλαν, the NIV's Greek and Robinson–Pierpont; ἀπέστειλαν πρὸς αὐτὸν, Westcott–Hort, Tregelles and Nestle–Aland 28."
       },
       {
         "lemma": "οἱ Ἰουδαῖοι",
@@ -589,7 +594,7 @@
       {
         "lemma": "Ἐγὼ οὐκ εἰμὶ",
         "flag": "variant",
-        "text": "SBLGNT's ⸂…⸃: the manuscripts differ on the order of these words."
+        "text": "SBLGNT's ⸂…⸃: Ἐγὼ οὐκ εἰμὶ, Westcott–Hort, Tregelles and Nestle–Aland 28; Οὐκ εἰμὶ ἐγὼ, Robinson–Pierpont."
       }
     ],
     "reading": "and [[spoke together|spoke together, spoke one language, held the same language with, agreed with, allowed / admitted / confessed / conceded / granted, agreed / promised to, made an agreement / came to terms|ὁμολογέω]] and not [[denied|denied / disowned, declined to give / refused, said no / declined / refused|ἀρνέομαι]], and [[spoke together|spoke together, spoke one language, held the same language with, agreed with, allowed / admitted / confessed / conceded / granted, agreed / promised to, made an agreement / came to terms|ὁμολογέω]] [[that|that, for that / because / seeing that / inasmuch as|ὅτι]] I not am [[the anointed one|the anointed one / the christ, the messiah|Χριστός]].",
@@ -616,7 +621,7 @@
       {
         "lemma": "σὺ Ἠλίας εἶ",
         "flag": "variant",
-        "text": "SBLGNT's ⸂…⸃: the manuscripts differ on the order of these words."
+        "text": "SBLGNT's ⸂…⸃: σὺ Ἠλίας εἶ, Westcott–Hort, Tregelles and Nestle–Aland 28; Ἠλίας εἶ σύ, Robinson–Pierpont."
       }
     ],
     "reading": "and [[asked|asked, asked about, enquired of and questioned, begged / solicited|ἐρωτάω]] him: [[what|what / which|τίς]] [[really|really / at all events, surely, so, I say, then / therefore|οὖν]]? you [[name:Ἠλίας]] are? and [[says|says / speaks, says / declares, says something of, calls by name, tells, boasts of / tells of, recites|λέγω]]: not I am. [[the one who speaks for a God and interprets his will|the one who speaks for a God and interprets his will, the prophet, the interpreter / declarer, the one who possesses the gift of, the inspired preacher and teacher, the revealer of God's counsel for the future / the prophet, the predicter of future events|προφήτης]] are you? and [[gave answer to|gave answer to / replied, answered, answered charges / defended oneself|ἀποκρίνομαι]]: surely not.",
@@ -704,7 +709,7 @@
       {
         "lemma": "Καὶ",
         "flag": "variant",
-        "text": "SBLGNT's ⸀: some manuscripts add οἱ before ἀπεσταλμένοι, making them *the ones sent*."
+        "text": "SBLGNT's ⸀: Καὶ, Westcott–Hort, Tregelles and Nestle–Aland 28; Καὶ οἱ, Robinson–Pierpont. οἱ ἀπεσταλμένοι would be *the ones sent*."
       },
       {
         "lemma": "ἀπεσταλμένοι ἦσαν",
@@ -738,9 +743,9 @@
         "text": "τί as *why?*, one of the pronoun's senses, plain text here."
       },
       {
-        "lemma": "οὐδὲ Ἠλίας οὐδὲ",
+        "lemma": "οὐδὲ … οὐδὲ",
         "flag": "variant",
-        "text": "SBLGNT's ⸂…⸃: the manuscripts differ on these words."
+        "text": "SBLGNT's ⸂…⸃: οὐδὲ … οὐδὲ, Westcott–Hort, Tregelles and Nestle–Aland 28; οὔτε … οὔτε, Robinson–Pierpont."
       }
     ],
     "reading": "and [[asked|asked, asked about, enquired of and questioned, begged / solicited|ἐρωτάω]] him and [[said|said / spoke, said / declared, said something of, called by name, told, boasted of / told of, recited|λέγω]] to him: why [[really|really / at all events, surely, so, I say, then / therefore|οὖν]] [[you dip in|you dip in / under water, you baptize|βαπτίζω]] [[if|if, whether, come on|εἰ]] you not are [[the anointed one|the anointed one / the christ, the messiah|Χριστός]] [[but not|but not, and not, nor, not even, not at all, (one)|οὐδέ]] [[name:Ἠλίας]] [[but not|but not, and not, nor, not even, not at all, (one)|οὐδέ]] [[the one who speaks for a God and interprets his will|the one who speaks for a God and interprets his will, the prophet, the interpreter / declarer, the one who possesses the gift of, the inspired preacher and teacher, the revealer of God's counsel for the future / the prophet, the predicter of future events|προφήτης]]?",
@@ -763,13 +768,23 @@
     "notes": [
       {
         "lemma": "μέσος",
+        "flag": null,
+        "text": "μέσος, *middle*, predicative: he stands *in the middle* of you."
+      },
+      {
+        "lemma": "μέσος",
         "flag": "variant",
-        "text": "SBLGNT's ⸀ before μέσος: some manuscripts add δέ. μέσος, *middle*, predicative: he stands *in the middle* of you."
+        "text": "SBLGNT's ⸀: μέσος, Westcott–Hort, Tregelles and Nestle–Aland 28; μέσος δὲ, the NIV's Greek and Robinson–Pierpont."
+      },
+      {
+        "lemma": "ἕστηκεν",
+        "flag": null,
+        "text": "Perfect of ἵστημι, intransitive, *has been set, stands*: the perfect is a present state."
       },
       {
         "lemma": "ἕστηκεν",
         "flag": "variant",
-        "text": "Perfect of ἵστημι, intransitive, *has been set, stands*: the perfect is a present state. SBLGNT's ⸀: some manuscripts read the present στήκει."
+        "text": "SBLGNT's ⸀: ἕστηκεν, Nestle–Aland 28 and Robinson–Pierpont; στήκει, Westcott–Hort and Tregelles. στήκει is a present."
       },
       {
         "lemma": "οἴδατε",
@@ -806,9 +821,19 @@
         "text": "ἱμάς, *a leathern strap or thong*; the plural's senses (the reins, the traces) are left out of the singular, and *a latchet or thong* of a sandal stands in the chain."
       },
       {
-        "lemma": "ὁ ὀπίσω μου ἐρχόμενος",
+        "lemma": "ὁ",
         "flag": "variant",
-        "text": "SBLGNT's ⸀ twice: some manuscripts add αὐτός ἐστιν before ὁ, or ὃς ἔμπροσθέν μου γέγονεν after ἐρχόμενος."
+        "text": "SBLGNT's ⸀: ὁ, Tregelles and Nestle–Aland 28; omitted, Westcott–Hort; αὐτός ἐστιν ὁ, Robinson–Pierpont."
+      },
+      {
+        "lemma": "ἐρχόμενος",
+        "flag": "variant",
+        "text": "SBLGNT's ⸀: ἐρχόμενος, Westcott–Hort, Tregelles and Nestle–Aland 28; ἐρχόμενος ὃς ἔμπροσθέν μου γέγονεν, Robinson–Pierpont."
+      },
+      {
+        "lemma": "οὐκ εἰμὶ",
+        "flag": "variant",
+        "text": "SBLGNT's ⸂…⸃: οὐκ εἰμὶ, SBLGNT's editor and Westcott–Hort's margin; οὐκ εἰμὶ ἐγὼ, Westcott–Hort, Tregelles and Nestle–Aland 28; ἐγὼ οὐκ εἰμὶ, Robinson–Pierpont."
       }
     ],
     "reading": "[[the one coming|the one coming / going, the one coming / going back / returning|ἔρχομαι]] [[after|after, backwards, back / back again, again, hereafter, behind, future, following|ὀπίσω]] of me, of whom not I am [[weighing as much|weighing as much / of like value / worth as much as, worthy / goodly, of a proper value / cheap, deserved / meet / due, sufficient for, worthy of / deserving / meet for, meet / fit / due|ἄξιος]] [[that|that / in order that, that he might, that not|ἵνα]] [[I may loose|I may loose, I may loosen / unbind / unfasten, I may untie, I may slack, I may open, I may unfold, I may undo / unyoke / unharness, I may loose / release, I may loose / set free, I may release on receipt of ransom, I may hold to ransom / release, I may release by payment of ransom / get a person released / ransom / redeem, I may give up, I may resolve a whole into its parts / dissolve / break up, I may loosen / slacken, I may weaken / relax, I may undo / bring to naught / break down / destroy, I may undo / do away with / put an end to, I may repeal / annul / do away with, I may rescind, I may solve, I may refute, I may unravel, I may solve / fulfil / accomplish, I may atone for / make up for, I may pay, I may pay / profit / avail|λύω]] of him [[the leathern strap|the leathern strap / thong, the girdle, the chin-strap, the latchet / thong, the dog-leash|ἱμάς]] [[of the sole bound under the foot with straps|of the sole bound under the foot with straps / sandal, of the shoe / half-boot|ὑπόδημα]].",
@@ -842,7 +867,7 @@
       {
         "lemma": "ὁ Ἰωάννης",
         "flag": "variant",
-        "text": "SBLGNT's ⸀ before ὁ: the manuscripts differ on the article."
+        "text": "SBLGNT's ⸀: ὁ, Westcott–Hort, Tregelles and Nestle–Aland 28; omitted, Robinson–Pierpont."
       }
     ],
     "reading": "[[these|these, the nearer, what follows|οὗτος]] [[in|within, inside of, and by means of|ἐν]] to [[name:Βηθανίᾳ]] [[came into being|came to be, arose, was brought into existence|γίνομαι]] [[on the other side|on the other side / across / beyond, on the other side, over / across, over against / opposite, beyond|πέραν]] of the [[name:Ἰορδάνου]], [[where|where, whereas|ὅπου]] was, and kept on being as a standing and continuing condition and not a momentary one the [[name:Ἰωάννης]] [[dipping in|dipping in / under water, baptizing|βαπτίζω]].",
@@ -913,8 +938,13 @@
     "notes": [
       {
         "lemma": "ὑπὲρ οὗ",
+        "flag": null,
+        "text": "ὑπέρ with the genitive, *over, on behalf of*, and like περί *concerning*: the chain is the genitive section of the entry."
+      },
+      {
+        "lemma": "ὑπὲρ",
         "flag": "variant",
-        "text": "ὑπέρ with the genitive, *over, on behalf of*, and like περί *concerning*: the chain is the genitive section of the entry. SBLGNT's ⸀: some manuscripts read περί."
+        "text": "SBLGNT's ⸀: ὑπὲρ, Westcott–Hort, Tregelles and Nestle–Aland 28; περὶ, Robinson–Pierpont."
       },
       {
         "lemma": "ἀνὴρ",
@@ -956,7 +986,7 @@
       {
         "lemma": "ἐν ὕδατι",
         "flag": "variant",
-        "text": "SBLGNT's ⸀: some manuscripts add τῷ, *in the water*."
+        "text": "SBLGNT's ⸀: ἐν, Westcott–Hort, Tregelles and Nestle–Aland 28; ἐν τῷ, Robinson–Pierpont."
       }
     ],
     "reading": "and I not [[knew|knew, was assured, was versed in, cunning in the use of, knew how|οἶδα]] him, [[otherwise|otherwise / but, except / but, but / yet, but then / however, but really / certainly|ἀλλά]] [[that|that / in order that, that he might, that not|ἵνα]] [[may be made manifest|may be made manifest, may be made known / famous, may become so|φανερόω]] to the [[name:Ἰσραὴλ]] [[through|through, throughout / over, during, by aid of / by means of, by reason of, because of, for the sake of|διά + accusative]] [[this|this, the nearer, what follows|οὗτος]] [[came|came / went, came / went back / returned|ἔρχομαι]] I [[in water|within, inside of, and by means of water, waters, rain-water / rain, water of a water-clock|ἐν; ὕδωρ]] [[dipping in|dipping in / under water, baptizing|βαπτίζω]].",
@@ -985,9 +1015,14 @@
         "text": "πνεῦμα heads with *blowing*: wind, breath, before spirit. Lower case: the manuscripts have no capitals, and none is supplied."
       },
       {
-        "lemma": "ὡς περιστερὰν",
+        "lemma": "περιστερὰν",
+        "flag": null,
+        "text": "περιστερά, *common pigeon*, the dove."
+      },
+      {
+        "lemma": "ὡς",
         "flag": "variant",
-        "text": "περιστερά, *common pigeon*, the dove. SBLGNT's ⸀ before ὡς: some manuscripts read ὡσεί."
+        "text": "SBLGNT's ⸀: ὡς, Westcott–Hort, Tregelles and Nestle–Aland 28; ὡσεὶ, Robinson–Pierpont."
       },
       {
         "lemma": "ἔμεινεν",
@@ -995,7 +1030,7 @@
         "text": "Aorist of μένω, *to stay, stand fast, abide*: it came down and stayed."
       }
     ],
-    "reading": "and [[bore witness|bore witness / was a witness / gave evidence / bore testimony, bore witness to / in favour of, testified that|μαρτυρέω]] [[name:Ἰωάννης]] [[saying|saying / speaking, saying / declaring, saying something of, calling by name, telling, boasting of / telling of, reciting|λέγω]] [[that|that, for that / because / seeing that / inasmuch as|ὅτι]] [[I have looked on|I have looked on / gazed at / viewed / beheld and it stands so, I have reconnoitred and it stands so, I have viewed as spectators and it stands so, I have reviewed and it stands so|θεάομαι]] [[the blowing|the blowing, the wind / blast, the breeze / influence, the breathed air / breath, the ghost, that which is breathed forth / the odour / scent, the spirit, the inspiration, the Holy Spirit, the angels, the evil spirits|πνεῦμα]] [[stepping down|stepping down / going / coming down, going down from, dismounting, coming down stairs, going down from the inland parts to the sea, coming to land / getting safe ashore, going down into the arena, coming down from the tribune, coming to, ending, bringing down|καταβαίνω]] [[as|as, according as, considering, like, that / in order that, so, so that, such that, as / inasmuch / as / since, when, whenever, so long as / while, how, however, where, if / as, to, how greatly, and straightway, oh that, as it were / about / nearly|ὡς]] [[common pigeon|common pigeon / dove|περιστερά]] [[out of|out of, out of / forth from, from, outside of / beyond, on, upon, for, after, in or by, by the hand of, of, in consequence, by means of, according to|ἐκ]] [[of heaven|of heaven, of the vault / firmament of heaven / the sky, of a region of heaven / climate|οὐρανός]], and [[stayed stand fast|stayed stand fast / abided, stayed at home / stayed where one is / did not stir, stayed away from, stayed / tarried, was lasting / remained / lasted / stood, remained as one was, held good, remained contented, abided by, awaited / expected / waited for|μένω]] [[upon|upon, on, in, at, near|ἐπί + accusative]] him;",
+    "reading": "and [[bore witness|bore witness / was a witness / gave evidence / bore testimony, bore witness to / in favour of, testified that|μαρτυρέω]] [[name:Ἰωάννης]] [[saying|saying / speaking, saying / declaring, saying something of, calling by name, telling, boasting of / telling of, reciting|λέγω]] [[that|that, for that / because / seeing that / inasmuch as|ὅτι]] [[I have looked on|I have looked on / gazed at / viewed / beheld and it stands so, I have reconnoitred and it stands so, I have viewed as spectators and it stands so, I have reviewed and it stands so|θεάομαι]] [[the blowing|the blowing, the wind / blast, the breeze / influence, the breathed air / breath, the ghost, that which is breathed forth / the odour / scent, the spirit, the inspiration, the Holy Spirit, the angels, the evil spirits|πνεῦμα]] [[stepping down|stepping down / going / coming down, going down from, dismounting, coming down stairs, going down from the inland parts to the sea, coming to land / getting safe ashore, going down into the arena, coming down from the tribune, coming to, ending, bringing down|καταβαίνω]] [[as|as, according as, considering, like, that / in order that, so, so that, such that, as / inasmuch / as / since, when, whenever, so long as / while, how, however, where, if / as, to, how greatly, and straightway, oh that, as it were / about / nearly|ὡς]] [[common pigeon|common pigeon / dove|περιστερά]] [[out of|out of, out of / forth from, from, outside of / beyond, on, upon, for, after, in or by, by the hand of, of, in consequence, by means of, according to|ἐκ]] [[of heaven|of heaven, of the vault / firmament of heaven / the sky, of a region of heaven / climate|οὐρανός]], and [[stayed|stayed / stood fast / abided, stayed at home / stayed where one is / did not stir, stayed away from, stayed / tarried, was lasting / remained / lasted / stood, remained as one was, held good, remained contented, abided by, awaited / expected / waited for|μένω]] [[upon|upon, on, in, at, near|ἐπί + accusative]] him;",
     "names": [
       {
         "greek": "Ἰωάννης",
@@ -1029,7 +1064,7 @@
         "text": "Present participle with the article: *the one dipping in*, the one whose work it is."
       }
     ],
-    "reading": "and I not [[knew|knew, was assured, was versed in, cunning in the use of, knew how|οἶδα]] him, [[otherwise|otherwise / but, except / but, but / yet, but then / however, but really / certainly|ἀλλά]] [[the one having sent|the one having sent / despatched, the one having conveyed / carried, the one having conducted, the one having sent forth / away / dismissed, the one having sent home, the one having discharged / shot forth, the one having sent forth / uttered, the one having conducted / convoyed / escorted, the one having given, the one having sent up / produced|πέμπω]] me [[to dip in|to dip in / under water, to baptize|βαπτίζω]] [[in water|within, inside of, and by means of water, waters, rain-water / rain, water of a water-clock|ἐν; ὕδωρ]] [[that|that, the one there, the more remote|ἐκεῖνος]] to me [[said|said / spoke, said / declared, said something of, called by name, told, boasted of / told of, recited|λέγω]]: [[upon|upon, on, in, at, near|ἐπί + accusative]] whom ever [[you may see|you may see / look, you may have sight, you may take heed / beware, you may look at / behold / perceive / observe, you may look out for / provide, you may discern / perceive|ὁράω]] [[the blowing|the blowing, the wind / blast, the breeze / influence, the breathed air / breath, the ghost, that which is breathed forth / the odour / scent, the spirit, the inspiration, the Holy Spirit, the angels, the evil spirits|πνεῦμα]] [[stepping down|stepping down / going / coming down, going down from, dismounting, coming down stairs, going down from the inland parts to the sea, coming to land / getting safe ashore, going down into the arena, coming down from the tribune, coming to, ending, bringing down|καταβαίνω]] and [[staying stand fast|staying stand fast / abiding, staying at home / staying where one is / not stirring, staying away from, staying / tarrying, being lasting / remaining / lasting / standing, remaining as one was, holding good, remaining contented, abiding by, awaiting / expecting / waiting for|μένω]] [[upon|upon, on, in, at, near|ἐπί + accusative]] him, [[this|this, the nearer, what follows|οὗτος]] is [[the one dipping in|the one dipping in / under water, the one baptizing|βαπτίζω]] [[in blowing|within, inside of, and by means of blowing, a wind / blast, breeze / influence, breathed air / breath, the ghost, that is breathed forth / odour / scent, spirit, inspiration, the Holy Spirit, angels, evil spirits|ἐν; πνεῦμα]] [[to devoted to the gods|to devoted to the gods / sacred / holy, to holy / pure, to the Temple|ἅγιος]];",
+    "reading": "and I not [[knew|knew, was assured, was versed in, cunning in the use of, knew how|οἶδα]] him, [[otherwise|otherwise / but, except / but, but / yet, but then / however, but really / certainly|ἀλλά]] [[the one having sent|the one having sent / despatched, the one having conveyed / carried, the one having conducted, the one having sent forth / away / dismissed, the one having sent home, the one having discharged / shot forth, the one having sent forth / uttered, the one having conducted / convoyed / escorted, the one having given, the one having sent up / produced|πέμπω]] me [[to dip in|to dip in / under water, to baptize|βαπτίζω]] [[in water|within, inside of, and by means of water, waters, rain-water / rain, water of a water-clock|ἐν; ὕδωρ]] [[that|that, the one there, the more remote|ἐκεῖνος]] to me [[said|said / spoke, said / declared, said something of, called by name, told, boasted of / told of, recited|λέγω]]: [[upon|upon, on, in, at, near|ἐπί + accusative]] whom ever [[you may see|you may see / look, you may have sight, you may take heed / beware, you may look at / behold / perceive / observe, you may look out for / provide, you may discern / perceive|ὁράω]] [[the blowing|the blowing, the wind / blast, the breeze / influence, the breathed air / breath, the ghost, that which is breathed forth / the odour / scent, the spirit, the inspiration, the Holy Spirit, the angels, the evil spirits|πνεῦμα]] [[stepping down|stepping down / going / coming down, going down from, dismounting, coming down stairs, going down from the inland parts to the sea, coming to land / getting safe ashore, going down into the arena, coming down from the tribune, coming to, ending, bringing down|καταβαίνω]] and [[staying|staying / standing fast / abiding, staying at home / staying where one is / not stirring, staying away from, staying / tarrying, being lasting / remaining / lasting / standing, remaining as one was, holding good, remaining contented, abiding by, awaiting / expecting / waiting for|μένω]] [[upon|upon, on, in, at, near|ἐπί + accusative]] him, [[this|this, the nearer, what follows|οὗτος]] is [[the one dipping in|the one dipping in / under water, the one baptizing|βαπτίζω]] [[in blowing|within, inside of, and by means of blowing, a wind / blast, breeze / influence, breathed air / breath, the ghost, that is breathed forth / odour / scent, spirit, inspiration, the Holy Spirit, angels, evil spirits|ἐν; πνεῦμα]] [[to devoted to the gods|to devoted to the gods / sacred / holy, to holy / pure, to the Temple|ἅγιος]];",
     "names": [],
     "speech": [
       "Ἐφʼ"
@@ -1048,7 +1083,7 @@
       {
         "lemma": "ὁ ἐκλεκτὸς",
         "flag": "variant",
-        "text": "SBLGNT's ⸀: most manuscripts read ὁ υἱός, *the son*; SBLGNT prints ἐκλεκτός, *picked out, chosen*."
+        "text": "SBLGNT's ⸀: ἐκλεκτὸς, SBLGNT's editor and Westcott–Hort's margin; υἱὸς, Westcott–Hort, Tregelles, Nestle–Aland 28 and Robinson–Pierpont. ἐκλεκτὸς, *picked out, chosen*; υἱὸς, *son*."
       }
     ],
     "reading": "and I [[have seen|have seen / looked and it stands so, have had sight and it stands so, have taken heed / bewared and it stands so, have looked at / beheld / perceived / observed and it stands so, have looked out for / provided and it stands so, have discerned / perceived and it stands so|ὁράω]], and [[I have borne witness|I have borne witness / been a witness / given evidence / borne testimony and it stands so, I have borne witness to / in favour of and it stands so, I have testified that and it stands so|μαρτυρέω]] [[that|that, for that / because / seeing that / inasmuch as|ὅτι]] [[this|this, the nearer, what follows|οὗτος]] is [[the picked out|the picked out / select|ἐκλεκτός]] [[of the God|of him who is God definitively, of the one the article marks out, of the known and the only|θεός]].",
@@ -1077,7 +1112,7 @@
       {
         "lemma": "ὁ Ἰωάννης",
         "flag": "variant",
-        "text": "SBLGNT's ⸀: some manuscripts lack the article."
+        "text": "SBLGNT's ⸀: ὁ, Nestle–Aland 28 and Robinson–Pierpont; omitted, Westcott–Hort and Tregelles."
       }
     ],
     "reading": "to the one on the morrow [[back|back / backwards, contrariwise, opposite, the change, again / once more / anew, again in turn|πάλιν]] [[had been set|had been set / placed / stood and stood so, had been in a state / condition and stood so, had lain / been situated and stood so, had stood still / stopped / halted and stood so, had stood idle and stood so, had stopped / ceased / been at rest and stood so, had stood firm and stood so, had stood up / risen up and stood so, had arisen / begun and stood so, had been appointed and stood so, had been there and stood so|ἵστημι]] the [[name:Ἰωάννης]] and [[out of|out of, out of / forth from, from, outside of / beyond, on, upon, for, after, in or by, by the hand of, of, in consequence, by means of, according to|ἐκ]] [[of the learners|of the learners / pupils|μαθητής]] of him two,",
@@ -1131,8 +1166,13 @@
       },
       {
         "lemma": "οἱ δύο μαθηταὶ αὐτοῦ",
+        "flag": null,
+        "text": "The article stands before δύο and prints once, before the numeral."
+      },
+      {
+        "lemma": "οἱ δύο μαθηταὶ αὐτοῦ",
         "flag": "variant",
-        "text": "SBLGNT's ⸂…⸃: the manuscripts differ on the order of these words. The article stands before δύο and prints once, before the numeral."
+        "text": "SBLGNT's ⸂…⸃: οἱ δύο μαθηταὶ αὐτοῦ, Westcott–Hort, Tregelles and Nestle–Aland 28; αὐτοῦ οἱ δύο μαθηταὶ, Robinson–Pierpont."
       },
       {
         "lemma": "λαλοῦντος",
@@ -1178,7 +1218,7 @@
       {
         "lemma": "μεθερμηνευόμενον",
         "flag": "variant",
-        "text": "SBLGNT's ⸀: some manuscripts read ἑρμηνευόμενον."
+        "text": "SBLGNT's ⸀: μεθερμηνευόμενον, Westcott–Hort, Tregelles and Nestle–Aland 28; ἑρμηνευόμενον, Robinson–Pierpont."
       },
       {
         "lemma": "μένεις",
@@ -1186,7 +1226,7 @@
         "text": "Present of μένω, *to stay, stand fast, abide*: the word of verse 32, now asked of Jesus."
       }
     ],
-    "reading": "[[having turned himself|having turned himself / having turned round / having turned about / having turned to and fro, having tossed, having turned to / from, having turned back / returned, having revolved, having twisted about, having twisted / turned / shuffled, having turned / changed, having twisted oneself up with, having stuck close, having been at large / gone about|στρέφω]] [[but|but, while / whereas / on the other hand, then / yet, at, I say / now / so then|δέ]] the [[name:Ἰησοῦς]] and [[having looked on|having looked on / gazed at / viewed / beheld, having reconnoitred, having viewed as spectators, having reviewed|θεάομαι]] them [[following|following / obeying, going after or with, following the thread, following upon / being consequent upon|ἀκολουθέω]] [[says|says / speaks, says / declares, says something of, calls by name, tells, boasts of / tells of, recites|λέγω]] to them: [[what|what / which|τίς]] [[you seek|you seek, you enquire for and ask about, you search after / search out, you search / inquire into / investigate, you require / demand, you seek after / desire, you seek for, you have to seek / feel the want of|ζητέω]]? the ones [[but|but, while / whereas / on the other hand, then / yet, at, I say / now / so then|δέ]] [[said|said / spoke, said / declared, said something of, called by name, told, boasted of / told of, recited|λέγω]] to him: [[name:Ῥαββί]] (which [[is said|is said / spoken, is said / declared, is said something of, is called by name, is told, is boasted of / told of, is recited|λέγω]] being translated [[teacher|teacher / master, a dramatic poet|διδάσκαλος]]), [[where|where, at what point, how, how? by what right?|ποῦ]] [[you stay stand fast|you stay stand fast / abide, you stay at home / stay where one is / not stir, you stay away from, you stay / tarry, you are lasting / remain / last / stand, you remain as one was, you hold good, you remain contented, you abide by, you await / expect / wait for|μένω]]?",
+    "reading": "[[having turned himself|having turned himself / having turned round / having turned about / having turned to and fro, having tossed, having turned to / from, having turned back / returned, having revolved, having twisted about, having twisted / turned / shuffled, having turned / changed, having twisted oneself up with, having stuck close, having been at large / gone about|στρέφω]] [[but|but, while / whereas / on the other hand, then / yet, at, I say / now / so then|δέ]] the [[name:Ἰησοῦς]] and [[having looked on|having looked on / gazed at / viewed / beheld, having reconnoitred, having viewed as spectators, having reviewed|θεάομαι]] them [[following|following / obeying, going after or with, following the thread, following upon / being consequent upon|ἀκολουθέω]] [[says|says / speaks, says / declares, says something of, calls by name, tells, boasts of / tells of, recites|λέγω]] to them: [[what|what / which|τίς]] [[you seek|you seek, you enquire for and ask about, you search after / search out, you search / inquire into / investigate, you require / demand, you seek after / desire, you seek for, you have to seek / feel the want of|ζητέω]]? the ones [[but|but, while / whereas / on the other hand, then / yet, at, I say / now / so then|δέ]] [[said|said / spoke, said / declared, said something of, called by name, told, boasted of / told of, recited|λέγω]] to him: [[name:Ῥαββί]] (which [[is said|is said / spoken, is said / declared, is said something of, is called by name, is told, is boasted of / told of, is recited|λέγω]] being translated [[teacher|teacher / master, a dramatic poet|διδάσκαλος]]), [[where|where, at what point, how, how? by what right?|ποῦ]] [[you stay|you stay / stand fast / abide, you stay at home / stay where one is / not stir, you stay away from, you stay / tarry, you are lasting / remain / last / stand, you remain as one was, you hold good, you remain contented, you abide by, you await / expect / wait for|μένω]]?",
     "names": [
       {
         "greek": "Ἰησοῦς",
@@ -1219,7 +1259,7 @@
       {
         "lemma": "ὄψεσθε. ἦλθαν οὖν",
         "flag": "variant",
-        "text": "SBLGNT's ⸂…⸃: the manuscripts differ on these words."
+        "text": "SBLGNT's ⸂…⸃: ὄψεσθε. ἦλθαν οὖν, Westcott–Hort, Tregelles and Nestle–Aland 28; ἴδετε. ἦλθαν, Robinson–Pierpont."
       },
       {
         "lemma": "ὥρα … δεκάτη",
@@ -1232,7 +1272,7 @@
         "text": "The accusative of time: *the day, that one*, how long they stayed."
       }
     ],
-    "reading": "[[says|says / speaks, says / declares, says something of, calls by name, tells, boasts of / tells of, recites|λέγω]] to them: [[come|come / go, come / go back / return|ἔρχομαι]] and [[you will see|you will see / look, you will have sight, you will take heed / beware, you will look at / behold / perceive / observe, you will look out for / provide, you will discern / perceive|ὁράω]]. [[came|came / went, came / went back / returned|ἔρχομαι]] [[really|really / at all events, surely, so, I say, then / therefore|οὖν]] and [[saw|saw / looked, had sight, took heed / bewared, looked at / beheld / perceived / observed, looked out for / provided, discerned / perceived|ὁράω]] [[where|where, at what point, how, how? by what right?|ποῦ]] [[stays stand fast|stays stand fast / abides, stays at home / stays where one is / does not stir, stays away from, stays / tarries, is lasting / remains / lasts / stands, remains as one was, holds good, remains contented, abides by, awaits / expects / waits for|μένω]], and [[beside|beside, alongside of, by, at, before, with|παρά + dative]] to him [[stayed stand fast|stayed stand fast / abided, stayed at home / stayed where one is / did not stir, stayed away from, stayed / tarried, were lasting / remained / lasted / stood, remained as one was, held good, remained contented, abided by, awaited / expected / waited for|μένω]] [[the day|the day, the state / time of life|ἡμέρα]] [[that|that, the one there, the more remote|ἐκεῖνος]]; [[period|period, a part of the year / a season, the seasons, the prime of the year / springtime, the part of the year available for war / the summer-season, the quarters of the heavens, a part of the day, the times of day, the prime of life / youth / early manhood, the fruits of the year|ὥρα]] was, and kept on being as a standing and continuing condition and not a momentary one [[as|as, according as, considering, like, that / in order that, so, so that, such that, as / inasmuch / as / since, when, whenever, so long as / while, how, however, where, if / as, to, how greatly, and straightway, oh that, as it were / about / nearly|ὡς]] [[tenth|tenth, tenth part / tithe, tenth day|δέκατος]].",
+    "reading": "[[says|says / speaks, says / declares, says something of, calls by name, tells, boasts of / tells of, recites|λέγω]] to them: [[come|come / go, come / go back / return|ἔρχομαι]] and [[you will see|you will see / look, you will have sight, you will take heed / beware, you will look at / behold / perceive / observe, you will look out for / provide, you will discern / perceive|ὁράω]]. [[came|came / went, came / went back / returned|ἔρχομαι]] [[really|really / at all events, surely, so, I say, then / therefore|οὖν]] and [[saw|saw / looked, had sight, took heed / bewared, looked at / beheld / perceived / observed, looked out for / provided, discerned / perceived|ὁράω]] [[where|where, at what point, how, how? by what right?|ποῦ]] [[stays|stays / stands fast / abides, stays at home / stays where one is / does not stir, stays away from, stays / tarries, is lasting / remains / lasts / stands, remains as one was, holds good, remains contented, abides by, awaits / expects / waits for|μένω]], and [[beside|beside, alongside of, by, at, before, with|παρά + dative]] to him [[stayed|stayed / stood fast / abided, stayed at home / stayed where one is / did not stir, stayed away from, stayed / tarried, were lasting / remained / lasted / stood, remained as one was, held good, remained contented, abided by, awaited / expected / waited for|μένω]] [[the day|the day, the state / time of life|ἡμέρα]] [[that|that, the one there, the more remote|ἐκεῖνος]]; [[period|period, a part of the year / a season, the seasons, the prime of the year / springtime, the part of the year available for war / the summer-season, the quarters of the heavens, a part of the day, the times of day, the prime of life / youth / early manhood, the fruits of the year|ὥρα]] was, and kept on being as a standing and continuing condition and not a momentary one [[as|as, according as, considering, like, that / in order that, so, so that, such that, as / inasmuch / as / since, when, whenever, so long as / while, how, however, where, if / as, to, how greatly, and straightway, oh that, as it were / about / nearly|ὡς]] [[tenth|tenth, tenth part / tithe, tenth day|δέκατος]].",
     "names": [],
     "speech": [
       "Ἔρχεσθε"
@@ -1294,8 +1334,13 @@
     "notes": [
       {
         "lemma": "πρῶτον",
+        "flag": null,
+        "text": "Neuter accusative used as an adverb, *first*."
+      },
+      {
+        "lemma": "πρῶτον",
         "flag": "variant",
-        "text": "Neuter accusative used as an adverb, *first*. SBLGNT's ⸀: some manuscripts read πρῶτος, making Andrew the first to find."
+        "text": "SBLGNT's ⸀: πρῶτον, Westcott–Hort, Tregelles and Nestle–Aland 28; πρῶτος, Robinson–Pierpont. πρῶτος, nominative, would agree with οὗτος: Andrew the first to find."
       },
       {
         "lemma": "Εὑρήκαμεν",
@@ -1349,8 +1394,13 @@
       },
       {
         "lemma": "Ἰωάννου",
+        "flag": null,
+        "text": "Simon's father, a different John from the Baptist."
+      },
+      {
+        "lemma": "Ἰωάννου",
         "flag": "variant",
-        "text": "Simon's father, a different John from the Baptist. SBLGNT's ⸀: some manuscripts read Ἰωνᾶ."
+        "text": "SBLGNT's ⸀: Ἰωάννου, Westcott–Hort, Tregelles and Nestle–Aland 28; Ἰωνᾶ, Robinson–Pierpont."
       },
       {
         "lemma": "ὁ υἱὸς",
@@ -1360,7 +1410,7 @@
       {
         "lemma": "ἤγαγεν",
         "flag": "variant",
-        "text": "SBLGNT's ⸀: some manuscripts add καί before it."
+        "text": "SBLGNT's ⸀: ἤγαγεν, Westcott–Hort, Tregelles and Nestle–Aland 28; καὶ ἤγαγεν, Robinson–Pierpont."
       }
     ],
     "reading": "[[led|led / carried / conveyed / brought, marched, took with one, carried off, fetched, brought in / imported, drew on / brought on, bore up, led towards, conducted, brought up / trained / educated, drew out, kept in memory, held / celebrated, held / kept / observed, kept / maintained, passed, believed in, thought, weighed|ἄγω]] him [[toward|toward, facing, oriented to, in living motion and address toward|πρός + accusative]] the [[name:Ἰησοῦν]]. [[having looked in the face|having looked in the face / looked at|ἐμβλέπω]] to him the [[name:Ἰησοῦς]] [[said|said / spoke, said / declared, said something of, called by name, told, boasted of / told of, recited|λέγω]]: you are [[name:Σίμων]] the son of [[name:Ἰωάννου]], you [[will be called|will be called / summoned, will be called to a repast / invited, will be called on / invoked, will be cited / summoned, will be called by name / called / named|καλέω]] [[name:Κηφᾶς]] (which [[is interpreted|is interpreted / put into words / given utterance to, is explained|ἑρμηνεύω]] [[name:Πέτρος]]).",
@@ -1509,7 +1559,7 @@
       {
         "lemma": "Ἰησοῦν",
         "flag": "variant",
-        "text": "SBLGNT's ⸀: some manuscripts add τόν before Ἰησοῦν."
+        "text": "SBLGNT's ⸀: Ἰησοῦν, Westcott–Hort and Nestle–Aland 28; Ἰησοῦν τὸν, Tregelles and Robinson–Pierpont."
       },
       {
         "lemma": "Ναθαναήλ",
@@ -1578,7 +1628,7 @@
       {
         "lemma": "ὁ Φίλιππος",
         "flag": "variant",
-        "text": "SBLGNT's ⸀: some manuscripts lack the article."
+        "text": "SBLGNT's ⸀: ὁ, Westcott–Hort, Tregelles and Nestle–Aland 28; omitted, Robinson–Pierpont."
       }
     ],
     "reading": "and [[said|said / spoke, said / declared, said something of, called by name, told, boasted of / told of, recited|λέγω]] to him [[name:Ναθαναήλ]]: [[out of|out of, out of / forth from, from, outside of / beyond, on, upon, for, after, in or by, by the hand of, of, in consequence, by means of, according to|ἐκ]] of [[name:Ναζαρὲτ]] [[is able|is able / capable / strong enough, dares / bears, passes for, is worth, is equivalent to, signifies / means, avails|δύναμαι]] [[some|some, any, a certain one|τις]] good [[to be|to be, to exist, to lasting|εἰμί]]? [[says|says / speaks, says / declares, says something of, calls by name, tells, boasts of / tells of, recites|λέγω]] to him the [[name:Φίλιππος]]: [[come|come / go, come / go back / return|ἔρχομαι]] and [[see|see / look, have sight, take heed / beware, look at / behold / perceive / observe, look out for / provide, discern / perceive|ὁράω]].",
@@ -1625,7 +1675,7 @@
       {
         "lemma": "ὁ Ἰησοῦς",
         "flag": "variant",
-        "text": "SBLGNT's ⸀: some manuscripts lack the article."
+        "text": "SBLGNT's ⸀: ὁ, Robinson–Pierpont and Nestle–Aland 28; omitted, Westcott–Hort and Tregelles."
       }
     ],
     "reading": "[[saw|saw / looked, had sight, took heed / bewared, looked at / beheld / perceived / observed, looked out for / provided, discerned / perceived|ὁράω]] the [[name:Ἰησοῦς]] the [[name:Ναθαναὴλ]] [[coming|coming / going, coming / going back / returning|ἔρχομαι]] [[toward|toward, facing, oriented to, in living motion and address toward|πρός + accusative]] him and [[says|says / speaks, says / declares, says something of, calls by name, tells, boasts of / tells of, recites|λέγω]] [[round about|round about, around, about / near, about / for / on account of, about / concerning, for very|περί + genitive]] of him: [[lo|lo / behold|ἴδε]] [[truly|truly, really / actually / in reality|ἀληθῶς]] [[name:Ἰσραηλίτης]] [[in|within, inside of, and by means of|ἐν]] to whom [[a bait|a bait, any cunning contrivance for deceiving / catching, any trick / stratagem, guile / craft / cunning / treachery|δόλος]] not is.",
@@ -1713,7 +1763,12 @@
       {
         "lemma": "αὐτῷ Ναθαναήλ",
         "flag": "variant",
-        "text": "SBLGNT's ⸂…⸃: the manuscripts differ on these words; also on βασιλεὺς εἶ."
+        "text": "SBLGNT's ⸂…⸃: αὐτῷ Ναθαναήλ, Westcott–Hort, Tregelles and Nestle–Aland 28; Ναθαναήλ καὶ λέγει αὐτῷ, Robinson–Pierpont."
+      },
+      {
+        "lemma": "βασιλεὺς εἶ",
+        "flag": "variant",
+        "text": "SBLGNT's ⸂…⸃: βασιλεὺς εἶ, Westcott–Hort, Tregelles and Nestle–Aland 28; εἶ ὁ βασιλεὺς, Robinson–Pierpont."
       }
     ],
     "reading": "[[gave answer to|gave answer to / replied, answered, answered charges / defended oneself|ἀποκρίνομαι]] to him [[name:Ναθαναήλ]]: [[name:Ῥαββί]], you are the son [[of the God|of him who is God definitively, of the one the article marks out, of the known and the only|θεός]], you [[a king|a king / chief, an hereditary king, a lord / master / householder, the second of the nine archons, the king of Persia|βασιλεύς]] are of the [[name:Ἰσραήλ]].",
@@ -1756,12 +1811,12 @@
       {
         "lemma": "ὅτι εἶδόν σε",
         "flag": "variant",
-        "text": "SBLGNT's ⸀: some manuscripts lack the second ὅτι."
+        "text": "SBLGNT's ⸀: ὅτι, Westcott–Hort, Tregelles and Nestle–Aland 28; omitted, Robinson–Pierpont. The verse's second ὅτι."
       },
       {
         "lemma": "ὄψῃ",
         "flag": "variant",
-        "text": "SBLGNT's ⸀: some manuscripts read ὄψει."
+        "text": "SBLGNT's ⸀: ὄψῃ, Westcott–Hort, Tregelles and Nestle–Aland 28; ὄψει, Robinson–Pierpont."
       }
     ],
     "reading": "[[gave answer to|gave answer to / replied, answered, answered charges / defended oneself|ἀποκρίνομαι]] [[name:Ἰησοῦς]] and [[said|said / spoke, said / declared, said something of, called by name, told, boasted of / told of, recited|λέγω]] to him: [[that|that, for that / because / seeing that / inasmuch as|ὅτι]] [[I said|I said / spoke, I said / declared, I said something of, I called by name, I told, I meant, I boasted of / told of, I recited|λέγω]] to you [[that|that, for that / because / seeing that / inasmuch as|ὅτι]] [[I saw|I saw / looked, I had sight, I took heed / bewared, I looked at / beheld / perceived / observed, I looked out for / provided, I discerned / perceived|ὁράω]] you [[below|below / under|ὑποκάτω]] [[of the fig-tree|of the fig-tree, of the fig|συκῆ]] [[you trust|you trust / trust to or in / put faith in / rely on / believe in, you believe, you are trusted / believed, you comply, you believe that / feel sure / confident that, you dare, you believe / have faith, you entrust|πιστεύω]]? [[bigger|bigger / greater, taller, greater / more full-grown, vaster / higher, vaster / more spacious / more wide, greater / stronger / mightier, the Great, greater / stronger / more violent, greater / louder, more prevailing, greater / mightier / weightier / more important, more over-great, bigger, higher, too great / too much / more than enough, very much / more exceedingly, more aloud / loudlier|μέγας]] [[of these|of these, of the nearer, of what follows|οὗτος]] [[you will see|you will see / look, you will have sight, you will take heed / beware, you will look at / behold / perceive / observe, you will look out for / provide, you will discern / perceive|ὁράω]].",
@@ -1805,7 +1860,7 @@
       {
         "lemma": "ὑμῖν",
         "flag": "variant",
-        "text": "SBLGNT's ⸀: some manuscripts add ἀπʼ ἄρτι, *from now*."
+        "text": "SBLGNT's ⸀: ὑμῖν, Westcott–Hort, Tregelles and Nestle–Aland 28; ὑμῖν ἀπʼ ἄρτι, Robinson–Pierpont. ἀπʼ ἄρτι, *from now*."
       }
     ],
     "reading": "and [[says|says / speaks, says / declares, says something of, calls by name, tells, boasts of / tells of, recites|λέγω]] to him: [[name:Ἀμὴν]] [[name:ἀμὴν]] [[I say|I say / speak, I say / declare, I say something of, I call by name, I tell, I mean, I boast of / tell of, I recite|λέγω]] to you, [[you will see|you will see / look, you will have sight, you will take heed / beware, you will look at / behold / perceive / observe, you will look out for / provide, you will discern / perceive|ὁράω]] [[the heaven|the heaven, the vault / firmament of heaven / sky, the region of heaven / climate|οὐρανός]] [[having opened|having opened and standing so, having undone / opened and standing so, having laid open / unfolded / disclosed and standing so, having got into the open sea / got clear of land and standing so|ἀνοίγω]] and [[the messengers|the messengers / envoys, the ones that announce, the divine messengers / the angels|ἄγγελος]] [[of the God|of him who is God definitively, of the one the article marks out, of the known and the only|θεός]] [[going up|going up / mounting / going up to, going up among, trampling on, going up on, mounting, going on board / embarking, going up, rising, overflowing, mounting the tribune, coming, coming to an end / turning out, coming to / passing over to|ἀναβαίνω]] and [[stepping down|stepping down / going / coming down, going down from, dismounting, coming down stairs, going down from the inland parts to the sea, coming to land / getting safe ashore, going down into the arena, coming down from the tribune, coming to, ending, bringing down|καταβαίνω]] [[upon|upon, on, in, at, near|ἐπί + accusative]] the son [[of the man|of the man, of mankind, of the man / fellow|ἄνθρωπος]].",

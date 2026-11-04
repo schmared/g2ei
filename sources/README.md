@@ -10,14 +10,26 @@ explicitly rather than passing quietly. Every other check works without any of t
 
 ## New Testament — SBL Greek New Testament
 
-CC BY 4.0. Free to redistribute with attribution.
+CC BY 4.0. Free to redistribute with attribution. The repository is
+[Faithlife/SBLGNT](https://github.com/Faithlife/SBLGNT), once LogosBible/SBLGNT; it keeps the text
+under `data/sblgnt/` and the apparatus under `data/sblgntapp/`, and both are fetched here a book at
+a time:
 
 ```bash
-git clone --depth 1 https://github.com/LogosBible/SBLGNT.git sources/sblgnt
+for b in John; do curl -sSfL --create-dirs -o sources/sblgnt/text/$b.txt https://raw.githubusercontent.com/Faithlife/SBLGNT/master/data/sblgnt/text/$b.txt; curl -sSfL --create-dirs -o sources/sblgntapp/text/$b.txt https://raw.githubusercontent.com/Faithlife/SBLGNT/master/data/sblgntapp/text/$b.txt; done
 ```
 
 `validate.py` reads `sources/sblgnt/text/<Book>.txt`, one verse per line as
 `John 1:1<TAB><greek>`.
+
+The apparatus, `sources/sblgntapp/text/<Book>.txt`, says for each variation unit the text marks
+(⸀ ⸁ before a word, ⸂…⸃ ⸄…⸅ around several) which printed editions read what:
+Westcott–Hort, Tregelles, the Greek behind the NIV, Robinson–Pierpont and, since the 2022 update,
+Nestle–Aland 28. It compares editions, not manuscripts. `build/apparatus.py` reads it and the
+`variant` check holds every variant note to it; without it that check reports `SKIP`. The sigla
+are defined in Holmes's introduction, *Symbols Used in the Notes*
+(<https://ebible.org/grcsbl/INT01.htm>); `Holmes` marks a reading the editor prints against all
+four editions.
 
 ## New Testament morphology — MorphGNT
 

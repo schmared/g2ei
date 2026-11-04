@@ -37,6 +37,9 @@ that hold the project's own morphology to its own grammar and to itself:
            The Old Testament is transcribed from the printed Rahlfs, so its word forms
            are cross-checked only where LXX_RAHLFS_DIR points at a local morphological
            module; otherwise that check, and the one on our own morphology, report SKIP
+  variant  every variation unit the SBLGNT marks is stated in a `variant` note as its
+           apparatus in sources/sblgntapp states it (build/apparatus.py), and a variant note
+           says no more of the readings than the apparatus does
 
 Both reading panels are derived from the one `reading` string (see build/render.py),
 so they cannot disagree with each other. These checks are about what that string says.
@@ -2751,6 +2754,62 @@ def check_greek(book, chapter, verses, rep):
                       "the printed page each verse cites")
 
 
+def greek_words(text):
+    """The Greek words of a text, without accents or case, for asking whether a note names a
+    word the verse or its apparatus has: θεός and θεὸς are one word here."""
+    plain = "".join(c for c in unicodedata.normalize("NFD", text) if not unicodedata.combining(c))
+    return set(re.findall(r"[Ͱ-Ͽἀ-῿]+", plain.lower()))
+
+
+def check_apparatus(book, chapter, verses, rep):
+    """A variant note says what the SBLGNT's apparatus says, word for word, and no more.
+
+    Each variation unit the text marks has its statement (build/apparatus.py) in a note flagged
+    `variant`; each variant note carries one; and what a note adds after it names no Greek the
+    verse and its apparatus do not have, and no manuscripts, since the apparatus compares printed
+    editions. John 1's notes had been written from memory: one gave 1:18 a second reading the
+    apparatus does not have, one missed a unit at 1:27, and one set Robinson–Pierpont's τόν before
+    Ἰησοῦν at 1:45, where it follows it."""
+    if EDITIONS.get(book) != "sblgnt":
+        return
+    import apparatus
+    before = rep.failed
+    name = render.BOOKS[book]["name"]
+    app = apparatus.load(name)
+    if app is None:
+        rep.skip("variant", "sources/sblgntapp/text/%s.txt not found; see sources/README.md" % name)
+        return
+    count = 0
+    for verse in verses:
+        ref, tail = verse["ref"], verse["ref"].split(" ", 1)[1]
+        said, problem = apparatus.verse_statements(tail, verse["greek"], app)
+        if problem:
+            rep.fail("variant", ref, problem)
+            continue
+        notes = [n for n in verse.get("notes") or [] if n.get("flag") == "variant"]
+        for line in said:
+            count += 1
+            if not any(line in n["text"] for n in notes):
+                rep.fail("variant", ref, "no variant note says the apparatus's %s" % line)
+        known = greek_words(verse["greek"] + " " + " ".join(app.get(tail, [])))
+        for note in notes:
+            own = [line for line in said if line in note["text"]]
+            if not own and "⟦" not in verse["greek"]:
+                rep.fail("variant", ref, "the variant note on %s states no unit of the apparatus"
+                         % note.get("lemma"))
+            rest = note["text"]
+            for line in own:
+                rest = rest.replace(line, "")
+            if re.search(r"manuscript", rest, re.I):
+                rep.fail("variant", ref, "the note on %s speaks of manuscripts: the apparatus compares "
+                                         "printed editions, and nothing in sources/ says what a "
+                                         "manuscript reads" % note.get("lemma"))
+            for word in sorted(greek_words(rest) - known):
+                rep.fail("variant", ref, "the variant note on %s names %s, which neither the verse nor "
+                                         "its apparatus has" % (note.get("lemma"), word))
+    rep.done("variant", "%d variation units, each in a note as the apparatus states it" % count, before)
+
+
 # --------------------------------------------------------------------------
 
 def validate(book, chapter, rep):
@@ -2790,6 +2849,7 @@ def validate(book, chapter, rep):
     check_support(book, chapter, verses, rep)
     check_english(book, chapter, verses, rep)
     check_greek(book, chapter, verses, rep)
+    check_apparatus(book, chapter, verses, rep)
 
 
 def main():

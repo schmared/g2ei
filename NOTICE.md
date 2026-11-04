@@ -32,6 +32,9 @@ where each one comes from.
 > [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).
 > <https://sblgnt.com>
 
+Each `variant` note quotes the SBLGNT's apparatus (Michael W. Holmes, same copyright and
+licence), the readings and the editions it cites for them.
+
 CC BY 4.0 — attribution is the only condition. Commercial use is permitted and there is no
 share-alike requirement. (The SBLGNT was relicensed to CC BY 4.0 in December 2022; older
 descriptions of it as non-commercial-only refer to the superseded EULA.) CC BY 4.0 material

@@ -56,6 +56,14 @@ dictionary form is lower case). `words.nt_tokens` reads MorphGNT. Steps 5–7, 9
 not. The verses MorphGNT does not analyse — John 7:53–8:11 — take the project's own morphology in
 `data/JHN/<ch>.morph.txt`, written and checked as an Old Testament chapter's is (steps 2–4).
 
+Every variation unit the text marks takes a note flagged `variant` holding the statement
+`python build/apparatus.py JHN/<ch>` prints for it from `sources/sblgntapp`, word for word — *SBLGNT's ⸀:
+ἕστηκεν, Nestle–Aland 28 and Robinson–Pierpont; στήκει, Westcott–Hort and Tregelles.* — with anything said of
+the reading after it; a lexical remark goes in a note of its own. One unit, one note. Where the parser cannot
+line the text up with the apparatus it says so, and the `variant` check fails until it is taught the shape: a
+unit running over two verses (Luke 22:19–20) and the reading at John 7:52 that adds 7:53–8:11 are two it does
+not read yet.
+
 ## The coverage tables
 
 `COVERAGE_NOT` and `COVERAGE_ONLY` in `build/words.py` are generated, between `# BEGIN COVERAGE` and
