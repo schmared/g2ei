@@ -333,7 +333,7 @@ def proper_names(greek):
     """
     words, out, initial = greek.split(), [], True
     for word in words:
-        bare = word.strip("".join(set(",.;:·!?()[]«»—’")))
+        bare = word.strip("".join(set(",.;:·!?()[]«»—’⸀⸁⸂⸃⸄⸅⟦⟧")))
         # A capital with its iota written beside it (ᾌσωμεν, EXO 15:1) is titlecase, not upper case.
         if bare and (bare[0].isupper() or bare[0].istitle()) and not initial:
             out.append(bare)
@@ -748,6 +748,14 @@ def unit_cards(book, chapter, verses, with_parse=False):
     preposition, read by its case's section; a formula word; a word the morphology does not
     hold where the unit says.
     """
+    for verse, head, chain, field, place, card, parse in aligned_units(book, chapter, verses):
+        yield (verse, head, chain, field, card, parse) if with_parse else (verse, head, chain, field, card)
+
+
+def aligned_units(book, chapter, verses):
+    """Each unit with the occurrence of its word it opens and that form's card: (verse, head, chain,
+    field, place, card, parse), place the morphology's (form, lemma, code, …) or None. The tools
+    read the corpus through this too, so they and the checks pair a unit with the same form."""
     import words
     if not _ENTRIES:
         _ENTRIES.append(words.load_middle_liddell())
@@ -769,29 +777,33 @@ def unit_cards(book, chapter, verses, with_parse=False):
         for head, chain, field in units(verse["reading"]):
             word = lemmas(field)[-1]
             k, nth[word] = nth[word], nth[word] + 1
-            card, parse = None, ""
-            if " + " not in field.split(";")[-1] and word not in FORMULA_LEMMAS | {"ἐν"}:
-                places = [t for t in theirs if t[1] == word]
-                # A word a verse says more often than it opens is opened once, and not always at its first
-                # occurrence: EXO 26:8 says δέρρις three times and opens the third, δέρρεσι, after two in the
-                # genitive singular. The unit takes, in order, the occurrence whose card its chain fits.
-                later = everyone[word] - k - 1
-                choices = list(range(taken[word], len(places) - later))
-                if len(choices) > 1:
-                    def misfit(j):
-                        c, _ = card_of(places[j])
-                        if not c:
-                            return (1, j)
-                        return (len(missing_senses(chain, c)) + len(unsupported(chain, c, lemma=word)), j)
-                    j = min(choices, key=misfit)
-                elif choices:
-                    j = choices[0]
+            card, parse, place = None, "", None
+            carded = " + " not in field.split(";")[-1] and word not in FORMULA_LEMMAS | {"ἐν"}
+            places = [t for t in theirs if t[1] == word]
+            # A word a verse says more often than it opens is opened once, and not always at its first
+            # occurrence: EXO 26:8 says δέρρις three times and opens the third, δέρρεσι, after two in the
+            # genitive singular. The unit takes, in order, the occurrence whose card its chain fits.
+            later = everyone[word] - k - 1
+            choices = list(range(taken[word], len(places) - later))
+            if len(choices) > 1 and carded:
+                def misfit(j):
+                    c, _ = card_of(places[j])
+                    if not c:
+                        return (1, j)
+                    return (len(missing_senses(chain, c)) + len(unsupported(chain, c, lemma=word)), j)
+                j = min(choices, key=misfit)
+            elif choices:
+                j = choices[0]
+            else:
+                j = None
+            if j is not None:
+                taken[word] = j + 1
+                place = places[j]
+                if carded:
+                    card, parse = card_of(place)
                 else:
-                    j = None
-                if j is not None:
-                    taken[word] = j + 1
-                    card, parse = card_of(places[j])
-            yield (verse, head, chain, field, card, parse) if with_parse else (verse, head, chain, field, card)
+                    parse = place[3][0]
+            yield verse, head, chain, field, place, card, parse
 
 
 def check_runs(book, chapter, verses, rep):
@@ -2560,7 +2572,9 @@ def check_corpus(book, chapter, rep):
 # 6. Greek against the source edition
 # --------------------------------------------------------------------------
 
-PUNCT = re.compile(r"[.,;:·!?—·()]")
+# SBLGNT's critical signs — ⸀ ⸂…⸃ marking a variant, ⟦…⟧ the bracketed John 7:53–8:11 — stand
+# beside a word and are not one
+PUNCT = re.compile(r"[.,;:·!?—·()⸀⸁⸂⸃⸄⸅⟦⟧]")
 
 # A local module carries bare word forms: no capitals, and its own choice of elision
 # mark. Neither is evidence about what the printed page has, so neither counts as a
@@ -2721,7 +2735,9 @@ def validate(book, chapter, rep):
     check_name_cases(book, chapter, verses, rep)
     check_unit_cases(book, chapter, verses, rep)
     check_imperfect_be(book, chapter, verses, rep)
-    if EDITIONS.get(book) == "lxx":
+    # the project's own morphology: every LXX chapter's, and a New Testament chapter's for the verses
+    # MorphGNT does not analyse (John 7:53–8:11)
+    if EDITIONS.get(book) == "lxx" or (render.DATA / book / ("%d.morph.txt" % chapter)).exists():
         check_morph_shape(book, chapter, rep)
         check_corpus(book, chapter, rep)
     check_words(book, chapter, verses, rep)

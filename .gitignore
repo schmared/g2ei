@@ -14,3 +14,6 @@ Thumbs.db
 .idea/
 .vscode/
 *.swp
+
+# The tools' working files: drafts, transcriptions, scans, second-pass replies, reports, pickles
+/tools/work/

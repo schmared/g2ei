@@ -286,6 +286,8 @@ reading requires — do not adjudicate.
 /build/words.py                 /sources → the word-by-word layer
 /build/validate.py              mechanical checks
 /build/morph_diff.py            two independent passes at a chapter's morphology, compared
+/tools/                         the chapter pipeline and the edit-pass tools; tools/README.md says how
+/tools/decisions/               the coverage verdicts COVERAGE_NOT and COVERAGE_ONLY are generated from
 /templates/verse.html           the verse layout: Greek, notes and readings as toggleable columns
 /site/                          generated output — never hand-edit
 /reference/lexicon-notes.md     recurring gloss-chains, kept consistent across books
@@ -355,6 +357,11 @@ The count is checked as well as the name: two units may not open one word.
   second time, by a separate agent briefed from `/reference/second-pass-brief.md` and never
   shown the first, and settle every disagreement `python build/morph_diff.py` reports
   before going on.
+- For a New Testament chapter the Greek is SBLGNT's line, verbatim, its critical signs
+  included, and the morphology MorphGNT's. Verses MorphGNT does not analyse (John
+  7:53–8:11, which SBLGNT prints in double brackets) take the project's own morphology,
+  written twice as an Old Testament chapter's is.
+- The steps, and the tools that do them, are in `/tools/README.md`.
 - After writing a chapter, append any newly-established gloss-chains to that file.
 - Run `python build/words.py <BOOK>/<chapter>` to build the word-by-word layer from
   `/sources`, and skim the cards for lexicon scraps to add to its `NOT_SENSES`.

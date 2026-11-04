@@ -2967,7 +2967,9 @@ def entry_keys(key):
     to = ENTRY.get(key, key)
     return list(to.values()) if isinstance(to, dict) else [to]
 
-PUNCT = re.compile(r"[.,;:·!?—·()]")
+# SBLGNT's critical signs — ⸀ ⸂…⸃ marking a variant, ⟦…⟧ the bracketed John 7:53–8:11 — stand
+# beside a word and are not one
+PUNCT = re.compile(r"[.,;:·!?—·()⸀⸁⸂⸃⸄⸅⟦⟧]")
 
 
 # --------------------------------------------------------------------------
@@ -7085,6 +7087,13 @@ def nt_tokens(book, chapter):
             continue
         _, pos, code, _, word, _, lemma = cols[:7]
         out.setdefault(int(cols[0][4:6]), []).append((word, lemma, code, morphgnt(pos, code)))
+    # Verses SBLGNT prints and MorphGNT does not analyse — John 7:53–8:11, which SBLGNT gives in
+    # double brackets — take the project's own morphology, written as an LXX chapter's is, in
+    # data/<book>/<chapter>.morph.txt. It holds those verses only; MorphGNT's stand for the rest.
+    own = read_morph(book, chapter)
+    for verse, words in (own or {}).items():
+        if verse not in out:
+            out[verse] = [(form, lemma, code, morphgnt(pos, code)) for form, lemma, pos, code, _ in words]
     return out
 
 
