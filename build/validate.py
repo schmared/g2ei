@@ -201,6 +201,15 @@ FORMULAS = (
     # and where a semicolon follows them (EXO 13:17)
     "was, and kept on being as a standing and continuing condition and not a momentary one;",
     "were, and kept on being as a standing and continuing condition and not a momentary one;",
+    # and where a word follows them with no stop between (JHN 1:39, 1:40)
+    "was, and kept on being as a standing and continuing condition and not a momentary one ",
+    "were, and kept on being as a standing and continuing condition and not a momentary one ",
+    # John's prologue, where ἦν is the Logos's (CLAUDE.md, ἦν vs. ἐγένετο), with what may follow it
+    "was, and was continuously, and was already in unbroken existence without any point of having come to be,",
+    "was, and was continuously, and was already in unbroken existence without any point of having come to be.",
+    "was, and was continuously, and was already in unbroken existence without any point of having come to be;",
+    "was, and was continuously, and was already in unbroken existence without any point of having come to be)",
+    "was, and was continuously, and was already in unbroken existence without any point of having come to be ",
 )
 
 
@@ -256,6 +265,12 @@ def check_fields(verses, rep):
         if EDITIONS.get(ref.split(" ")[0]) == "lxx" and not str(verse.get("print", "")).strip():
             rep.fail("fields", ref, "no `print` citation — Old Testament Greek is transcribed "
                                     "from the printed Rahlfs, and each verse cites its page")
+        # SBLGNT's signs mark where the manuscripts differ, and each such verse says so in a
+        # `variant` note: JHN 1:28's ⸀ before ὁ had none
+        if (EDITIONS.get(ref.split(" ")[0]) != "lxx" and re.search("[⸀⸁⸂⸄⟦]", str(verse.get("greek", "")))
+                and not any(n.get("flag") == "variant" for n in verse.get("notes") or [])):
+            rep.fail("fields", ref, "the Greek carries SBLGNT's sign of a variant and no note is "
+                                    "flagged `variant`")
         for field in ("speech", "printed"):
             words = verse.get(field, [])
             if not (isinstance(words, list) and all(isinstance(w, str) and w for w in words)):
@@ -364,7 +379,10 @@ def matches(candidate, entry_greek):
             break
         shared += 1
     ends = a[shared:], b[shared:]
-    return (shared >= 4 and (abs(len(a) - len(b)) <= 1 or all(ends))
+    # a third-declension name is its own bare stem in the nominative, Σίμων beside Σίμωνος,
+    # Σίμωνι and Σίμωνα (JHN 1:40–42): its oblique endings are no Semitic name's second half
+    third = shared >= 4 and a[shared - 1] in "νρ" and sorted(ends)[0] == "" and sorted(ends)[1] in ("ος", "ι", "α")
+    return (shared >= 4 and (abs(len(a) - len(b)) <= 1 or all(ends) or third)
             and ends[0] in CASE_ENDINGS and ends[1] in CASE_ENDINGS)
 
 
@@ -410,7 +428,10 @@ def check_names(verses, rep):
             entry = (next((e for e in entries if e["greek"] == candidate), None)
                      or next((e for e in entries if matches(candidate, e["greek"])), None))
             key = next((k for k in glossed if matches(candidate, k)), None)
-            if key is not None and entry is not None and entry["anchored"] not in glossed[key]:
+            # the English compared without its capital: Ἀμὴν ἀμήν at JHN 1:51 is one name, the
+            # first capitalised because it opens the speech
+            anchored = entry["anchored"].lower() if entry is not None else None
+            if key is not None and entry is not None and anchored not in glossed[key]:
                 # the same Greek form naming someone else, with another English name:
                 # Σεννααρ the land at GEN 14:1 and the king at 14:2. It is glossed anew.
                 key = None
@@ -427,16 +448,17 @@ def check_names(verses, rep):
                              "%s is marked bare here, but this is its first occurrence in "
                              "the chapter, where it carries its gloss" % candidate)
                 used.add(entry["greek"])
-                glossed.setdefault(entry["greek"], {})[entry["anchored"]] = ref
+                glossed.setdefault(entry["greek"], {})[entry["anchored"].lower()] = ref
                 if marker not in verse["reading"]:
                     rep.fail("names", ref, "%s is glossed here first but the reading "
                                            "carries no %s" % (candidate, marker))
             elif entry is not None:
                 used.add(entry["greek"])
-                first = glossed[key][entry["anchored"]]
-                if first == ref and not entry.get("bare"):
+                first = glossed[key][anchored]
+                if first == ref and not entry.get("bare") and entry["greek"] == key:
                     # the same name again in the verse that glosses it: the renderer
-                    # glosses the first marker only
+                    # glosses the first marker only. Another entry for it is glossed
+                    # again, as ἀμὴν after Ἀμὴν at JHN 1:51 was, so it takes bare.
                     continue
                 if not entry.get("bare"):
                     rep.fail("names", ref,
@@ -553,8 +575,8 @@ ASPECT = re.compile(r"\band (?:it |to |the )?(?:stands?|standing|stood so|remain
 
 
 IRREGULAR_PREFIXES = ("over", "under", "with", "up", "out", "fore", "be", "mis", "re", "un")
-# parts too short to carry a prefix safely: `relied` is not re- and `lied`
-IRREGULAR_UNPREFIXED = {"lied", "tied", "vied", "died", "led", "fed", "bid", "wed"}
+# parts too short to carry a prefix safely: `relied` is not re- and `lied`, nor `relying` re- and `lying`
+IRREGULAR_UNPREFIXED = {"lied", "tied", "vied", "died", "led", "fed", "bid", "wed", "lying"}
 
 
 def stem(token):
@@ -927,9 +949,14 @@ def check_delimiter(book, chapter, verses, rep):
             want = content(sense)
             if len(PIECES_OF.split(sense)) < 2 or not want:
                 continue
-            item = next((it for it in items if want <= content(ASPECT.sub("", it))), None)
-            if item is None:
+            # the item that renders the run is the one saying it and least else: στρέφω's `to turn
+            # to or from` says only *turn*, and the first item to hold *turn* was `turning to and
+            # fro`, whose own *and* this took for the run's — the false report that cut it to `to /
+            # fro` in GEN 3:24, EXO 4:17 and 7:15
+            found = [it for it in items if want <= content(ASPECT.sub("", it))]
+            if not found:
                 continue
+            item = min(found, key=lambda it: len(content(ASPECT.sub("", it)) - want))
             count += 1
             if joined_with_and(item, sense):
                 rep.fail("delimiter", verse["ref"], "%s `%s` joins the pieces of `%s` with and, in `%s` — "
@@ -1369,8 +1396,21 @@ def opens_more(word):
         return True
     whole = set()
     for sense in got:
-        whole |= set(senses(sense))
-    return bool(whole - set(senses(headword_of(got[0]))))
+        whole |= whole_words(sense)
+    return bool(whole - whole_words(headword_of(got[0])))
+
+
+def whole_words(text):
+    """The stems a gloss says, a hyphenated word kept whole: συκῆ's *a fig* is a second sense
+    beside *the fig-tree*, and read as *fig* and *tree* it had looked like nothing more, so
+    JHN 1:48 and 1:50 stood plain where GEN 3:7 opened it."""
+    out = set()
+    for token in re.findall(r"[a-z']+(?:-[a-z']+)*", ASPECT.sub("", text).lower()):
+        if "-" not in token:
+            out |= set(senses(token))
+        elif token not in GRAMMAR:
+            out.add(token)
+    return out
 
 
 

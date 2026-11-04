@@ -29,6 +29,7 @@ V, W = R.V, R.W
 R.VERBS.update({"hand", "imply", "ween"})
 R.VERBS.discard("more")
 R.VERBS.discard("not")
+R.FUNCTION.add("not")       # a run's piece after a verb, *not stir*, is not itself a verb
 
 ASPECT = R.ASPECT
 PASSIVE_PREFIX = {"was", "were", "am", "is", "are", "be", "been", "being"}
@@ -195,6 +196,8 @@ def fix(u, notes):
     card = [c.rstrip(";").strip() for c in card]
     lead = next((l for l in V.MERGED_LEAD if chain.startswith(l)), "")
     items = chain[len(lead):].split(", ")
+    # a unit written as its headword alone, to be filled from its card (tools/README.md)
+    seeded = len(items) == 1 and strip_formula(items[0])[0] == ASPECT.sub("", head)
     formula = ""
     if code[1] in "XY":
         m = ASPECT.search(items[0])
@@ -261,7 +264,12 @@ def fix(u, notes):
     # 6: translations the chain lacks
     if tpl is not None or pos != "verb":
         missing = V.missing_senses(lead + ", ".join(items), card, degree, pos == "adverb")
+        bare = ASPECT.sub("", head)
         for s in missing:
+            # a translation an item added before this one already says is not added again: μαρτυρέω's *to
+            # give* and *evidence*, pieces of an example, are said by its first run, *give evidence*
+            if s not in V.missing_senses(lead + ", ".join(items), [s], degree, pos == "adverb"):
+                continue
             if pos == "verb":
                 act = set(active_card(u)) if code[2] in "PE" else set(card)
                 t = active(tpl) if (is_own(s, act, code) or person_led(s)) else tpl
@@ -274,6 +282,21 @@ def fix(u, notes):
                 text = got[1][card.index(s)]
             if text in items:
                 continue
+            # a chain that is its headword alone, a unit seeded to be filled: the headword's own run takes
+            # its place, the headword's piece first, as the corpus has it — μαρτυρέω's `bears witness / is a
+            # witness / gives evidence / bears testimony`, where the run opens *to be a witness*
+            if len(items) == 1 and strip_formula(items[0])[0] == bare:
+                pieces = text.split(" / ")
+                grammar = V.leading_grammar(bare)
+                core = " ".join(bare.split(" ")[len(grammar):])
+                lead_words = " ".join(grammar)
+                plain = [re.sub(r"^%s " % re.escape(lead_words), "", p) if lead_words and i == 0 else p
+                         for i, p in enumerate(pieces)]
+                if bare in pieces or core in plain:
+                    rest = [p for p in plain if p not in (bare, core)]
+                    items[0] = " / ".join([bare] + rest) + (strip_formula(items[0])[1] or formula)
+                    notes.append("SEED %s  [%s]" % (items[0], s))
+                    continue
             # card order: after the last item that renders an earlier translation
             at = len(items)
             idx = card.index(s)
@@ -286,6 +309,14 @@ def fix(u, notes):
             notes.append("ADD %s  [%s]" % (text, s))
     elif V.missing_senses(lead + ", ".join(items), card, degree, pos == "adverb"):
         notes.append("MISSING (no template) %s" % V.missing_senses(lead + ", ".join(items), card, degree))
+    # a bare headword that a later item opens, `you trust` before `you trust / trust to or in / …`, is
+    # that item's first piece: the item takes its place
+    if seeded and items and strip_formula(items[0])[0] == ASPECT.sub("", head):
+        bare = strip_formula(items[0])[0]
+        later = [n for n, it in enumerate(items[1:], 1) if strip_formula(it)[0].startswith(bare + " / ")]
+        if later:
+            items[0] = items.pop(later[0])
+            notes.append("MERGE %s" % items[0])
     # 7: the formula after every item; no item twice
     if formula:
         items = [it if ASPECT.search(it) else it + formula for it in items]

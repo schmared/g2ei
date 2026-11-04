@@ -73,6 +73,78 @@
     "names": []
   },
   {
+    "ref": "JHN 1:3",
+    "greek": "πάντα διʼ αὐτοῦ ἐγένετο, καὶ χωρὶς αὐτοῦ ἐγένετο οὐδὲ ἕν. ὃ γέγονεν",
+    "hint": "Everything, the verse says, came to be through him. Where its last two words belong is a question of punctuation.",
+    "notes": [
+      {
+        "lemma": "ἐγένετο",
+        "flag": null,
+        "text": "Aorist of γίνομαι, *came to be*: the verb verses 1–2 kept from the Logos is now given to everything else. The verse says it twice, once positively and once with χωρίς, *apart from*."
+      },
+      {
+        "lemma": "διʼ αὐτοῦ",
+        "flag": null,
+        "text": "διά with the genitive, *through*: the Logos is the agency, not the source. The writer could have used ὑπό (*by*) or ἐκ (*out of*) and did not."
+      },
+      {
+        "lemma": "ὃ γέγονεν",
+        "flag": null,
+        "text": "SBLGNT puts the full stop before ὃ γέγονεν, so the words open verse 4: *what has come to be, in him was life*. Placed after them, they close verse 3: *apart from him came to be not one thing that has come to be*. The earliest manuscripts carry no punctuation; both readings construe. γέγονεν is perfect: a state that stands, beside the aorist ἐγένετο."
+      }
+    ],
+    "reading": "[[all|all / the whole, all, nothing but, every, everyone, every single, the whole, quite, full, of all kinds, all things, everything|πᾶς]] [[through|through, right through, by means of, by the agency of|διά + genitive]] of him [[came into being|came to be, arose, was brought into existence|γίνομαι]], and [[separately|separately / asunder / apart, by oneself, separately / besides, separately / one by one, except, of different nature / kind, without, separate from / apart / aloof from / far from, independent of / without reckoning / not to mention / besides, differently from / otherwise than|χωρίς]] of him [[came into being|came to be, arose, was brought into existence|γίνομαι]] [[but not|but not, and not, nor, not even, not at all, (one)|οὐδέ]] [[one|one, a single one / one alone, the same|εἷς]]. which [[has come into being|has come to be and stands so, has arisen and remains arisen, has been brought into existence and continues so|γίνομαι]]",
+    "names": []
+  },
+  {
+    "ref": "JHN 1:4",
+    "greek": "ἐν αὐτῷ ζωὴ ἦν, καὶ ἡ ζωὴ ἦν τὸ φῶς τῶν ἀνθρώπων·",
+    "hint": "Life was in him, and that life was the light of men: two more ἦν, none of them ἐγένετο.",
+    "notes": [
+      {
+        "lemma": "ἦν",
+        "flag": null,
+        "text": "Twice imperfect of εἰμί, and so the prologue's formula twice. Created things γίνονται; the life in the Logos is said to be, not to have come to be."
+      },
+      {
+        "lemma": "φῶς",
+        "flag": null,
+        "text": "Middle Liddell files φῶς as the contracted φάος: *light, daylight*, *a light*. The plural's *eyes* belongs to the plural and is left out."
+      },
+      {
+        "lemma": "ζωή",
+        "flag": null,
+        "text": "Anarthrous first, then articular: *life* is introduced, then *the life* is that life, named again."
+      }
+    ],
+    "reading": "[[in|within, inside of, and by means of|ἐν]] to him [[life|life / existence, a living, means of life / substance, way of life|ζωή]] was, and was continuously, and was already in unbroken existence without any point of having come to be, and [[the life|the life / existence, the living, the means of life / substance, the way of life|ζωή]] was, and was continuously, and was already in unbroken existence without any point of having come to be [[the light|the light / daylight|φῶς]] [[of the men|of the men, of mankind, of the men / fellows|ἄνθρωπος]];",
+    "names": []
+  },
+  {
+    "ref": "JHN 1:5",
+    "greek": "καὶ τὸ φῶς ἐν τῇ σκοτίᾳ φαίνει, καὶ ἡ σκοτία αὐτὸ οὐ κατέλαβεν.",
+    "hint": "The light shines on in the dark, present tense; the dark did not lay hold of it, aorist.",
+    "notes": [
+      {
+        "lemma": "φαίνει",
+        "flag": null,
+        "text": "Present active: the light's shining goes on. Middle Liddell gives the active its intransitive *to give light, shine* beside the causative *to bring to light*, which heads."
+      },
+      {
+        "lemma": "κατέλαβεν",
+        "flag": null,
+        "text": "Aorist of καταλαμβάνω. The range holds both *to seize, overtake* and *to seize with the mind, apprehend, comprehend*: the dark did not overcome it, or did not grasp it. The Greek does not choose and the chain keeps both."
+      },
+      {
+        "lemma": "αὐτό",
+        "flag": null,
+        "text": "Neuter, agreeing with φῶς: *it*, the light."
+      }
+    ],
+    "reading": "and [[the light|the light / daylight|φῶς]] [[in the darkness|within, inside of, and by means of the darkness / gloom|ἐν; σκοτία]] [[brings to light|brings to light / makes to appear, shews forth / makes known / reveals / discloses / shews, makes it clear, makes it ring clear, makes clear / explains / expounds, informs against, indicts / impeaches, informs of as contraband, gives information, proclaims, calls out, gives light|φαίνω]], and [[the darkness|the darkness / gloom|σκοτία]] it not [[seized upon|seized upon / laid hold of, seized / overpowered, seized with the mind / apprehended / comprehended, caught / overtook / came up with, overtook / befell, surprised / caught / found, repressed / arrested / checked, put an end to, bound, forced / compelled to do|καταλαμβάνω]].",
+    "names": []
+  },
+  {
     "ref": "JHN 1:6",
     "greek": "Ἐγένετο ἄνθρωπος ἀπεσταλμένος παρὰ θεοῦ, ὄνομα αὐτῷ Ἰωάννης·",
     "hint": "The sentence opens with the verb the Logos was never given.",
@@ -108,5 +180,1648 @@
       "note": "None of the four verses above contains a proper name, so here is the naming rule working on the first one the prologue offers — a verse that also puts the ἦν / ἐγένετο contrast on display."
     },
     "notes_sub": "Lexical range, aspect, and the naming rule"
+  },
+  {
+    "ref": "JHN 1:7",
+    "greek": "οὗτος ἦλθεν εἰς μαρτυρίαν, ἵνα μαρτυρήσῃ περὶ τοῦ φωτός, ἵνα πάντες πιστεύσωσιν διʼ αὐτοῦ.",
+    "hint": "The man of verse 6 came for witness: two purpose clauses, one for the witness, one for those who would trust.",
+    "notes": [
+      {
+        "lemma": "εἰς μαρτυρίαν",
+        "flag": null,
+        "text": "εἰς with the accusative: *for* or *into* witness, the purpose of the coming. μαρτυρία and μαρτυρέω, the witness and the bearing of it, recur through the chapter."
+      },
+      {
+        "lemma": "πιστεύσωσιν",
+        "flag": null,
+        "text": "Aorist subjunctive of πιστεύω, whose first sense is *to trust*: a reliance placed in someone, which English *believe* narrows to holding a proposition true."
+      },
+      {
+        "lemma": "διʼ αὐτοῦ",
+        "flag": null,
+        "text": "Through John, here: the witness is the means by which all might trust."
+      }
+    ],
+    "reading": "[[this|this, the nearer, what follows|οὗτος]] [[came|came / went, came / went back / returned|ἔρχομαι]] [[into|into / to, into or to, in, rest in, there, to / up to / until, till, against, for a, at, on, with, as far as, as much as, to the number of, to or towards, in regard to|εἰς]] [[witness|witness / testimony / evidence|μαρτυρία]], [[that|that / in order that, that he might, that not|ἵνα]] [[may bear witness|may bear witness / be a witness / give evidence / bear testimony, may bear witness to / in favour of, may testify that|μαρτυρέω]] [[round about|round about, around, about / near, about / for / on account of, about / concerning, for very|περί + genitive]] [[of the light|of the light / daylight|φῶς]], [[that|that / in order that, that he might, that not|ἵνα]] [[all|all / the whole, all, nothing but, every, everyone, every single, the whole, quite, full, of all kinds|πᾶς]] [[may trust|may trust / trust to / in / put faith in / rely on / believe in, may believe, may be trusted / believed, may comply, may believe that / feel sure / confident that, may dare, may believe / have faith, may entrust|πιστεύω]] [[through|through, right through, by means of, by the agency of|διά + genitive]] of him.",
+    "names": []
+  },
+  {
+    "ref": "JHN 1:8",
+    "greek": "οὐκ ἦν ἐκεῖνος τὸ φῶς, ἀλλʼ ἵνα μαρτυρήσῃ περὶ τοῦ φωτός.",
+    "hint": "John is not the light. The clause after ἀλλά has no verb of its own; the sense is supplied from verse 7.",
+    "notes": [
+      {
+        "lemma": "οὐκ ἦν ἐκεῖνος",
+        "flag": null,
+        "text": "The ἦν of the Baptist takes the imperfect's own formula, not the prologue's: he is a man who came to be (ἐγένετο, 1:6), and the prologue's formula belongs to the Logos."
+      },
+      {
+        "lemma": "ἀλλʼ ἵνα",
+        "flag": null,
+        "text": "Elliptical: *but [he came] that …*. The verb is understood from verse 7 and does not stand in the text, so none is supplied."
+      }
+    ],
+    "reading": "not was, and kept on being as a standing and continuing condition and not a momentary one [[that|that, the one there, the more remote|ἐκεῖνος]] [[the light|the light / daylight|φῶς]], [[otherwise|otherwise / but, except / but, but / yet, but then / however, but really / certainly|ἀλλά]] [[that|that / in order that, that he might, that not|ἵνα]] [[may bear witness|may bear witness / be a witness / give evidence / bear testimony, may bear witness to / in favour of, may testify that|μαρτυρέω]] [[round about|round about, around, about / near, about / for / on account of, about / concerning, for very|περί + genitive]] [[of the light|of the light / daylight|φῶς]].",
+    "names": []
+  },
+  {
+    "ref": "JHN 1:9",
+    "greek": "ἦν τὸ φῶς τὸ ἀληθινὸν ὃ φωτίζει πάντα ἄνθρωπον ἐρχόμενον εἰς τὸν κόσμον.",
+    "hint": "Whether 'coming into the world' belongs to the light or to every man, the participle's form allows both.",
+    "notes": [
+      {
+        "lemma": "ἐρχόμενον",
+        "flag": null,
+        "text": "The form is neuter nominative or masculine accusative. Neuter, it goes with τὸ φῶς and with ἦν: *the true light … was coming into the world*. Masculine, it goes with ἄνθρωπον: *every man coming into the world*. MorphGNT parses it masculine; the grammar does not decide."
+      },
+      {
+        "lemma": "τὸ ἀληθινόν",
+        "flag": null,
+        "text": "The adjective carries its own article, so its unit takes *the*: *the light, the true one*. ἀληθινός, *agreeable to truth*, is genuine as against counterfeit, not ἀληθής, *true* as against false."
+      },
+      {
+        "lemma": "κόσμον",
+        "flag": null,
+        "text": "κόσμος heads with *order*: an arrangement, then an ornament, then the ordered whole, the world. The chain keeps the range."
+      }
+    ],
+    "reading": "was, and was continuously, and was already in unbroken existence without any point of having come to be [[the light|the light / daylight|φῶς]], [[the agreeable to truth|the agreeable to truth, the truthful / trusty, the true / real|ἀληθινός]], which [[enlightens|enlightens / illuminates / instructs / teaches, brings to light / publishes, enlightens spiritually, baptizes|φωτίζω]] [[all|all / the whole, all, nothing but, every, everyone, every single, the whole, quite, full, of all kinds|πᾶς]] [[man|a man, mankind, the man / the fellow|ἄνθρωπος]] [[coming|coming / going, coming / going back / returning|ἔρχομαι]] [[into|into / to, into or to, in, rest in, there, to / up to / until, till, against, for a, at, on, with, as far as, as much as, to the number of, to or towards, in regard to|εἰς]] [[the order|the order, the good order / good behaviour / decency, the form / fashion, the order / government, the ornament / decoration / embellishment / dress, the honour / credit, the regulator, the world / universe, the mankind|κόσμος]].",
+    "names": []
+  },
+  {
+    "ref": "JHN 1:10",
+    "greek": "Ἐν τῷ κόσμῳ ἦν, καὶ ὁ κόσμος διʼ αὐτοῦ ἐγένετο, καὶ ὁ κόσμος αὐτὸν οὐκ ἔγνω.",
+    "hint": "Three clauses on the world: he was in it, it came to be through him, it did not know him.",
+    "notes": [
+      {
+        "lemma": "ἦν … ἐγένετο",
+        "flag": null,
+        "text": "The prologue's contrast inside one verse: he ἦν in the world; the world ἐγένετο through him."
+      },
+      {
+        "lemma": "ἔγνω",
+        "flag": null,
+        "text": "Aorist of γινώσκω, *to learn to know, perceive*: an acquaintance made, not information held. The masculine αὐτόν shows the referent is a person now, after the neuter φῶς of verses 5–9."
+      }
+    ],
+    "reading": "[[in the order|within, inside of, and by means of the order, the good order / good behaviour / decency, the form / fashion, the order / government, the ornament / decoration / embellishment / dress, the honour / credit, the regulator, the world / universe, the mankind|ἐν; κόσμος]] was, and was continuously, and was already in unbroken existence without any point of having come to be, and [[the order|the order, the good order / good behaviour / decency, the form / fashion, the order / government, the ornament / decoration / embellishment / dress, the honour / credit, the regulator, the world / universe, the mankind|κόσμος]] [[through|through, right through, by means of, by the agency of|διά + genitive]] of him [[came into being|came to be, arose, was brought into existence|γίνομαι]], and [[the order|the order, the good order / good behaviour / decency, the form / fashion, the order / government, the ornament / decoration / embellishment / dress, the honour / credit, the regulator, the world / universe, the mankind|κόσμος]] him not [[learned to know|learned to know / perceived / marked / learned, discerned / distinguished, was aware of, observed / formed a judgment on, judged / thought, judged / determined / decreed that|γινώσκω]].",
+    "names": []
+  },
+  {
+    "ref": "JHN 1:11",
+    "greek": "εἰς τὰ ἴδια ἦλθεν, καὶ οἱ ἴδιοι αὐτὸν οὐ παρέλαβον.",
+    "hint": "Neuter, then masculine: he came to what was his own, and his own people did not take him in.",
+    "notes": [
+      {
+        "lemma": "τὰ ἴδια … οἱ ἴδιοι",
+        "flag": null,
+        "text": "The same adjective twice, made a noun by the article: neuter plural *the things one's own*, his own domain; masculine plural *the ones one's own*, his own people. English *his own* hides the change of gender."
+      },
+      {
+        "lemma": "παρέλαβον",
+        "flag": null,
+        "text": "Aorist of παραλαμβάνω, *to receive from*: taking over what is handed on, as a successor or a household receives. It is not the simple λαμβάνω of verse 12."
+      }
+    ],
+    "reading": "[[into|into / to, into or to, in, rest in, there, to / up to / until, till, against, for a, at, on, with, as far as, as much as, to the number of, to or towards, in regard to|εἰς]] [[the things one's own|the things one's own, the one's own / pertaining to oneself, the private / personal, the peculiar / separate / distinct, the peculiar and different, the strange / unaccustomed|ἴδιος]] [[came|came / went, came / went back / returned|ἔρχομαι]], and [[the ones one's own|the ones one's own, the one's own / pertaining to oneself, the private / personal, the peculiar / separate / distinct, the peculiar and different, the strange / unaccustomed|ἴδιος]] him not [[received from|received from, inherited, took upon himself / undertook, took in pledge, took by force / treachery / got possession of, received by hearsay / report / ascertained, took up / caught up, took to himself / associated with himself, invited, waited for / intercepted, took prisoner|παραλαμβάνω]].",
+    "names": []
+  },
+  {
+    "ref": "JHN 1:12",
+    "greek": "ὅσοι δὲ ἔλαβον αὐτόν, ἔδωκεν αὐτοῖς ἐξουσίαν τέκνα θεοῦ γενέσθαι, τοῖς πιστεύουσιν εἰς τὸ ὄνομα αὐτοῦ,",
+    "hint": "To those who took him he gave the right to become children of God: γενέσθαι, become, not be.",
+    "notes": [
+      {
+        "lemma": "ἐξουσίαν",
+        "flag": null,
+        "text": "ἐξουσία heads with *power* but is *power or authority*: the right or licence to do a thing, not δύναμις, ability. The chain keeps *licence* and *an office*."
+      },
+      {
+        "lemma": "τέκνα … γενέσθαι",
+        "flag": null,
+        "text": "γίνομαι again, the infinitive: children of God are made, they come to be. The verb the prologue keeps from the Logos is the one it gives them."
+      },
+      {
+        "lemma": "τοῖς πιστεύουσιν",
+        "flag": null,
+        "text": "Present participle, dative, in apposition to αὐτοῖς: *to them, to the ones trusting*. πιστεύειν εἰς, *to trust into*: εἰς with the accusative where English uses *in*."
+      }
+    ],
+    "reading": "[[as great as|as great as, as much as, as far as, as long as, as many as|ὅσος]] [[but|but, while / whereas / on the other hand, then / yet, at, I say / now / so then|δέ]] [[took|took, received, took hold of / grasped / seized, caught, took by violence / seized / carried off as prize / booty, attacked, seized / possessed, occupied / possessed, caught / came upon / overtook, caught / found / came upon, caught / found out / detected, bound, took / kept, assumed, apprehended by the senses, seized with the mind / apprehended / comprehended, understood, took in hand / undertook, had given one / got / gained / won, received in marriage, accepted, demanded, conceived, received as produce / profit, purchased, admitted of|λαμβάνω]] him, [[gave|gave, granted, provided, offered to the gods, tendered, gave over / delivered up, pardoned, forgave, remitted, granted / allowed / brought about that, gave oneself up / devoted oneself|δίδωμι]] to them [[power|power / authority, power over / licence in, an office / magistracy, abundance of means / resources, pomp|ἐξουσία]] [[things borne|things borne / born / children, the young|τέκνον]] [[of God|of everything that God is by nature, of deity in full and undiminished kind|θεός]] [[to come into being|to come to be, to arise, to be brought into existence|γίνομαι]], [[to the ones trusting|to the ones trusting / trusting to or in / putting faith in / relying on / believing in, to the ones believing, to the ones being trusted / believed, to the ones complying, to the ones believing that / feeling sure / confident that, to the ones daring, to the ones believing / having faith, to the ones entrusting|πιστεύω]] [[into|into / to, into or to, in, rest in, there, to / up to / until, till, against, for a, at, on, with, as far as, as much as, to the number of, to or towards, in regard to|εἰς]] [[the name|the name, the name / fame, the mere name, the false name / pretence / pretext, the phrase / expression, the saying / speech, the noun|ὄνομα]] of him,",
+    "names": []
+  },
+  {
+    "ref": "JHN 1:13",
+    "greek": "οἳ οὐκ ἐξ αἱμάτων οὐδὲ ἐκ θελήματος σαρκὸς οὐδὲ ἐκ θελήματος ἀνδρὸς ἀλλʼ ἐκ θεοῦ ἐγεννήθησαν.",
+    "hint": "Three denials of human origin, then one affirmation: they were begotten out of God.",
+    "notes": [
+      {
+        "lemma": "ἐξ αἱμάτων",
+        "flag": null,
+        "text": "Plural, *out of bloods*. The plural is the text's and is kept."
+      },
+      {
+        "lemma": "θελήματος",
+        "flag": null,
+        "text": "θέλημα has one sense, *will*, and is plain text: *of will of flesh*, *of will of a man*."
+      },
+      {
+        "lemma": "ἀνδρός",
+        "flag": null,
+        "text": "ἀνήρ, *a man*, the male, where verse 9 had ἄνθρωπος, a human being."
+      },
+      {
+        "lemma": "ἐγεννήθησαν",
+        "flag": null,
+        "text": "Aorist passive of γεννάω, *to beget*: begotten, of the father's part."
+      }
+    ],
+    "reading": "who not [[out of|out of, out of / forth from, from, outside of / beyond, on, upon, for, after, in or by, by the hand of, of, in consequence, by means of, according to|ἐκ]] [[of bloods|of bloods / race, of streams of blood, of bloodshed / murders, of blood-relationships / kins|αἷμα]] [[but not|but not, and not, nor, not even, not at all, (one)|οὐδέ]] [[out of|out of, out of / forth from, from, outside of / beyond, on, upon, for, after, in or by, by the hand of, of, in consequence, by means of, according to|ἐκ]] of will [[of flesh|of flesh, of the flesh / muscles, of the flesh / the body, of man's nature generally, of human kind|σάρξ]] [[but not|but not, and not, nor, not even, not at all, (one)|οὐδέ]] [[out of|out of, out of / forth from, from, outside of / beyond, on, upon, for, after, in or by, by the hand of, of, in consequence, by means of, according to|ἐκ]] of will [[of a man|of a man, of a man in the prime of life, of a man indeed|ἀνήρ]] [[otherwise|otherwise / but, except / but, but / yet, but then / however, but really / certainly|ἀλλά]] [[out of|out of, out of / forth from, from, outside of / beyond, on, upon, for, after, in or by, by the hand of, of, in consequence, by means of, according to|ἐκ]] [[of God|of everything that God is by nature, of deity in full and undiminished kind|θεός]] [[were begotten|were begotten / engendered, were brought forth, were produced|γεννάω]].",
+    "names": []
+  },
+  {
+    "ref": "JHN 1:14",
+    "greek": "Καὶ ὁ λόγος σὰρξ ἐγένετο καὶ ἐσκήνωσεν ἐν ἡμῖν, καὶ ἐθεασάμεθα τὴν δόξαν αὐτοῦ, δόξαν ὡς μονογενοῦς παρὰ πατρός, πλήρης χάριτος καὶ ἀληθείας·",
+    "hint": "The Logos now takes ἐγένετο, the verb withheld from it: it came to be flesh and pitched its tent 'among us'.",
+    "notes": [
+      {
+        "lemma": "ὁ λόγος σὰρξ ἐγένετο",
+        "flag": null,
+        "text": "The verb verses 1–2 withheld from the Logos, now given it: not ἦν but ἐγένετο. σάρξ is anarthrous, the predicate."
+      },
+      {
+        "lemma": "ἐσκήνωσεν",
+        "flag": null,
+        "text": "Aorist of σκηνόω, *to pitch a tent*, from σκηνή: the word for Exodus's tent of witness, ἡ σκηνὴ τοῦ μαρτυρίου, which stands in the corpus (EXO 26–40)."
+      },
+      {
+        "lemma": "δόξαν",
+        "flag": null,
+        "text": "δόξα heads with *notion, expectation, opinion*, its classical sense; *glory* is the Septuagint's use of it for Hebrew kābôd, which Middle Liddell gives further down the entry."
+      },
+      {
+        "lemma": "πλήρης",
+        "flag": null,
+        "text": "Nominative, though the nearest nouns are accusative and genitive. It may go with ὁ λόγος, or πλήρης was by this period used indeclinably. The grammar does not decide."
+      },
+      {
+        "lemma": "μονογενοῦς",
+        "flag": null,
+        "text": "μονογενής, *only-begotten, single*: μόνος with the root of γίνομαι, the only one of its kind. *one and the same* follows in the chain."
+      }
+    ],
+    "reading": "And [[the word|the word / that by which the inward thought is expressed, the inward thought itself, the spoken, language / talk, a word / a saying / a statement, an oracle, a saying / a maxim / a proverb, the assertion / promise, the resolution, the consent, the condition, the command, speech / discourse / conversation, the expression, the mention, the right of speech / power to speak, report / repute, a tale and a story, the fictitious story / fable, the narrative, the one part of such a work, the prose-writing / prose, a speech / an oration, the thing spoken of / subject / matter of the, the that which is stated / proposition / position / principle, the definition, reason, the opinion / expectation, the reason / ground / plea, account / consideration / esteem / regard, due relation / proportion / analogy, the Logos|λόγος]] [[flesh|flesh, the flesh / muscles, the flesh / the body, man's nature generally, human kind|σάρξ]] [[came into being|came to be, arose, was brought into existence|γίνομαι]], and [[pitched tents|pitched tents / encamped, dwelt in a tent, settled / took up one's abode, lived, occupied with tents|σκηνόω]] [[in|within, inside of, and by means of|ἐν]] to us, and [[we looked on|we looked on / gazed at / viewed / beheld, we reconnoitred, we viewed as spectators, we reviewed|θεάομαι]] [[the notion|the notion, the expectation, the opinion / judgment, the mere opinion / conjecture, the fancy / vision / dream, the opinion which others have of one / the estimation / reputation / credit / honour / glory, the ill repute, the estimate popularly formed of a thing, the glory / splendour / effulgence|δόξα]] of him, [[notion|notion, expectation, opinion / judgment, mere opinion / conjecture, fancy / vision / dream, opinion which others have of one / the estimation / reputation / credit / honour / glory, ill repute, estimate popularly formed of a thing, glory / splendour / effulgence|δόξα]] [[as|as, according as, considering, like, that / in order that, so, so that, such that, as / inasmuch / as / since, when, whenever, so long as / while, how, however, where, if / as, to, how greatly, and straightway, oh that, as it were / about / nearly|ὡς]] [[of only-begotten|of only-begotten / single, of one and the same|μονογενής]] [[from the side of|from the side of, from beside, from, near|παρά + genitive]] [[of father|of father, of grandfather|πατήρ]], [[full|full, filled / infected by, satiated with, filled with, full of people, full / complete|πλήρης]] [[of outward grace|of outward grace / favour, of grace / favour felt, of grace / graciousness / kindness / goodwill, of the sense of favour, of thankfulness / thanks / gratitude, of favour / influence, of a grace / kindness / boon, of a return, of a gratification / delight, of homage due, of worship / majesty, of an offering, of a pleasure|χάρις]] and [[of truth|of truth, of truth / reality, of truthfulness / sincerity / frankness / candour|ἀλήθεια]];",
+    "names": []
+  },
+  {
+    "ref": "JHN 1:15",
+    "greek": "(Ἰωάννης μαρτυρεῖ περὶ αὐτοῦ καὶ κέκραγεν λέγων· Οὗτος ἦν ⸂ὃν εἶπον⸃· Ὁ ὀπίσω μου ἐρχόμενος ἔμπροσθέν μου γέγονεν, ὅτι πρῶτός μου ἦν·)",
+    "hint": "A parenthesis: John's cry about the one coming after him, who was before him.",
+    "notes": [
+      {
+        "lemma": "κέκραγεν",
+        "flag": null,
+        "text": "Perfect of κράζω, which heads with *to croak*, a raven's cry, and runs to *to scream, cry aloud*. The perfect is used with a present sense; the formula marks the standing state."
+      },
+      {
+        "lemma": "μαρτυρεῖ",
+        "flag": null,
+        "text": "Present, beside the perfect κέκραγεν: the witness is still being given."
+      },
+      {
+        "lemma": "γέγονεν … ἦν",
+        "flag": null,
+        "text": "*Has come to be before me, because he was first of me*: γίνομαι of the position he has come to hold, εἰμί of what he was. πρῶτός μου, *first of me*, is a genitive of comparison."
+      },
+      {
+        "lemma": "ὃν εἶπον",
+        "flag": "variant",
+        "text": "SBLGNT's ⸂…⸃: the manuscripts differ on these words."
+      }
+    ],
+    "reading": "([[name:Ἰωάννης]] [[bears witness|bears witness / is a witness / gives evidence / bears testimony, bears witness to / in favour of, testifies|μαρτυρέω]] [[round about|round about, around, about / near, about / for / on account of, about / concerning, for very|περί + genitive]] of him and [[has croaked|has croaked and it stands so, has screamed / shrieked / cried aloud and it stands so, has bawled aloud and it stands so, has clamoured for and it stands so|κράζω]] [[saying|saying / speaking, saying / declaring, saying something of, calling by name, telling, boasting of / telling of, reciting|λέγω]]: [[this|this, the nearer, what follows|οὗτος]] was, and was continuously, and was already in unbroken existence without any point of having come to be whom [[I said|I said / spoke, I said / declared, I said something of, I called by name, I told, I meant, I boasted of / told of, I recited|λέγω]]: [[the one coming|the one coming / going, the one coming / going back / returning|ἔρχομαι]] [[after|after, backwards, back / back again, again, hereafter, behind, future, following|ὀπίσω]] of me [[before|before / in front of, before / earlier / of old|ἔμπροσθεν]] of me [[has come into being|has come to be and stands so, has arisen and remains arisen, has been brought into existence and continues so|γίνομαι]], [[that|that, for that / because / seeing that / inasmuch as|ὅτι]] [[first|first, first / foremost, outermost, first men, first prize, first part / beginning, first / highest, extremities, chief|πρῶτος]] of me was, and was continuously, and was already in unbroken existence without any point of having come to be)",
+    "names": [
+      {
+        "greek": "Ἰωάννης",
+        "unanchored": "Iōannēs",
+        "anchored": "John",
+        "bare": true
+      }
+    ],
+    "speech": [
+      "Οὗτος",
+      "Ὁ"
+    ]
+  },
+  {
+    "ref": "JHN 1:16",
+    "greek": "⸀ὅτι ἐκ τοῦ πληρώματος αὐτοῦ ἡμεῖς πάντες ἐλάβομεν, καὶ χάριν ἀντὶ χάριτος·",
+    "hint": "From his fullness all received, and grace in return for grace, or grace upon grace: ἀντί allows both.",
+    "notes": [
+      {
+        "lemma": "ὅτι",
+        "flag": "variant",
+        "text": "SBLGNT's ⸀: some manuscripts read καί."
+      },
+      {
+        "lemma": "πληρώματος",
+        "flag": null,
+        "text": "πλήρωμα, *a full measure*: that which fills, from πληρόω. *fulness, full and perfect nature* is the New Testament's sense, further down the entry."
+      },
+      {
+        "lemma": "χάριν ἀντὶ χάριτος",
+        "flag": null,
+        "text": "ἀντί with the genitive: *over against, instead of, in the place of, for*. One grace in exchange for another, or one upon another; the preposition holds both."
+      }
+    ],
+    "reading": "[[that|that, for that / because / seeing that / inasmuch as|ὅτι]] [[out of|out of, out of / forth from, from, outside of / beyond, on, upon, for, after, in or by, by the hand of, of, in consequence, by means of, according to|ἐκ]] [[of the full measure|of the full measure, of the satiety, of the full number, of the sum / total, of the piece inserted to fill up, of the fulness / full and perfect nature, of the filling up / completing, of the task of filling, of the fulfilment|πλήρωμα]] of him we [[all|all / the whole, all, nothing but, every, everyone, every single, the whole, quite, full, of all kinds|πᾶς]] [[took|took, received, took hold of / grasped / seized, caught, took by violence / seized / carried off as prize / booty, attacked, seized / possessed, occupied / possessed, caught / came upon / overtook, caught / found / came upon, caught / found out / detected, bound, took / kept, assumed, apprehended by the senses, seized with the mind / apprehended / comprehended, understood, took in hand / undertook, had given one / got / gained / won, received in marriage, accepted, demanded, conceived, received as produce / profit, purchased, admitted of|λαμβάνω]], [[also|also / even, and, or, but, nay, and yet, as, likewise|καί]] [[outward grace|outward grace / favour, grace / favour felt, grace / graciousness / kindness / goodwill, the sense of favour, thankfulness / thanks / gratitude, favour / influence, a grace / kindness / boon, a return, a gratification / delight, homage due, worship / majesty, an offering, sake, pleasure / sake|χάρις]] [[over against|over against / opposite, instead / in the place of, as good as / equal to, at the price of / for, for the sake of, set against and compared with|ἀντί]] [[of outward grace|of outward grace / favour, of grace / favour felt, of grace / graciousness / kindness / goodwill, of the sense of favour, of thankfulness / thanks / gratitude, of favour / influence, of a grace / kindness / boon, of a return, of a gratification / delight, of homage due, of worship / majesty, of an offering, of a pleasure|χάρις]];",
+    "names": []
+  },
+  {
+    "ref": "JHN 1:17",
+    "greek": "ὅτι ὁ νόμος διὰ Μωϋσέως ἐδόθη, ἡ χάρις καὶ ἡ ἀλήθεια διὰ Ἰησοῦ Χριστοῦ ἐγένετο.",
+    "hint": "The law was given through Moses; grace and truth came to be through Jesus Christ. Two verbs, given and came.",
+    "notes": [
+      {
+        "lemma": "ἐδόθη … ἐγένετο",
+        "flag": null,
+        "text": "Aorist passive of δίδωμι, *was given*, beside ἐγένετο, *came to be*: the law handed over, grace and truth coming into being."
+      },
+      {
+        "lemma": "νόμος",
+        "flag": null,
+        "text": "νόμος heads with *anything assigned*, a usage or custom, before *law*. Exodus's νόμος stands in the corpus under the same chain."
+      },
+      {
+        "lemma": "Ἰησοῦ Χριστοῦ",
+        "flag": "name",
+        "text": "Both names, glossed on first occurrence here. Χριστός, printed with a capital in SBLGNT, is a name in this verse; printed lower case in 1:20, 25 and 41 it is the common noun."
+      }
+    ],
+    "reading": "[[that|that, for that / because / seeing that / inasmuch as|ὅτι]] [[the anything assigned|the anything assigned / usage / custom / law / ordinance, the musical mode / strain, the song|νόμος]] [[through|through, right through, by means of, by the agency of|διά + genitive]] of [[name:Μωϋσέως]] [[was given|was given, was granted, was provided, was offered to the gods, was tendered, was given over / delivered up, was pardoned, was forgiven, was remitted, was granted / allowed / brought about that|δίδωμι]], [[the outward grace|the outward grace / favour, the grace / favour felt, the grace / graciousness / kindness / goodwill, the sense of favour, the thankfulness / thanks / gratitude, the favour / influence, the grace / kindness / boon, the return, the gratification / delight, the homage due, the worship / majesty, the offering, the pleasure|χάρις]] and [[the truth|the truth, the truth / reality, the truthfulness / sincerity / frankness / candour|ἀλήθεια]] [[through|through, right through, by means of, by the agency of|διά + genitive]] of [[name:Ἰησοῦ]] of [[name:Χριστοῦ]] [[came into being|came to be, arose, was brought into existence|γίνομαι]].",
+    "names": [
+      {
+        "greek": "Μωϋσέως",
+        "unanchored": "Mōuseōs",
+        "anchored": "Moses",
+        "gloss": "(Μωϋσῆς, from Hebrew Mōšeh, which the Hebrew of Exodus 2:10 hears in māšâ, \"to draw out\")"
+      },
+      {
+        "greek": "Ἰησοῦ",
+        "unanchored": "Iēsou",
+        "anchored": "Jesus",
+        "gloss": "(Ἰησοῦς, from Hebrew Yēšûaʿ, a late form of Yĕhôšuaʿ, \"Yah is salvation\")"
+      },
+      {
+        "greek": "Χριστοῦ",
+        "unanchored": "Christou",
+        "anchored": "Christ",
+        "gloss": "(Χριστός, the Greek for \"anointed\", which the Septuagint gives for Hebrew māšîaḥ)"
+      }
+    ]
+  },
+  {
+    "ref": "JHN 1:18",
+    "greek": "θεὸν οὐδεὶς ἑώρακεν πώποτε· ⸂μονογενὴς θεὸς⸃ ὁ ὢν εἰς τὸν κόλπον τοῦ πατρὸς ἐκεῖνος ἐξηγήσατο.",
+    "hint": "No one has ever seen God; the only-begotten God, who is into the father's bosom, has led the way out.",
+    "notes": [
+      {
+        "lemma": "θεὸν",
+        "flag": null,
+        "text": "Anarthrous and fronted: God as such, what God is, not yet the God of the article. Qualitative, as θεός in 1:1c."
+      },
+      {
+        "lemma": "μονογενὴς θεός",
+        "flag": "variant",
+        "text": "SBLGNT's ⸂…⸃: other manuscripts read ὁ μονογενὴς υἱός, *the only-begotten son*, or ὁ μονογενὴς θεός. Anarthrous θεός takes the qualitative formula."
+      },
+      {
+        "lemma": "εἰς τὸν κόλπον",
+        "flag": null,
+        "text": "εἰς with the accusative, *into*, where ἐν, *in*, would be the static word. The writer used the directional preposition, as πρός with the accusative in 1:1."
+      },
+      {
+        "lemma": "ἐξηγήσατο",
+        "flag": null,
+        "text": "Aorist of ἐξηγέομαι, which heads with *to be leader of* and runs to *to tell at length, relate in full* and *to prescribe or expound*: leading out and setting out. The verb gives English *exegesis*."
+      },
+      {
+        "lemma": "οὐδεὶς … πώποτε",
+        "flag": null,
+        "text": "πώποτε, *ever yet*, one sense, plain text. ἑώρακεν is perfect: no one has seen, and it stands so."
+      }
+    ],
+    "reading": "[[God|everything that God is by nature, deity in full and undiminished kind|θεός]] [[and not one|and not one, no one / none, naught / good for naught|οὐδείς]] [[has seen|has seen / looked and it stands so, has had sight and it stands so, has taken heed / bewared and it stands so, has looked at / beheld / perceived / observed and it stands so, has looked out for / provided and it stands so, has discerned / perceived and it stands so|ὁράω]] ever yet; [[only-begotten|only-begotten / single, one and the same|μονογενής]] [[God|everything that God is by nature, deity in full and undiminished kind|θεός]] [[the one being|the one being, the one being / existing, the one lasting, the one being true|εἰμί]] [[into|into / to, into or to, in, rest in, there, to / up to / until, till, against, for a, at, on, with, as far as, as much as, to the number of, to or towards, in regard to|εἰς]] [[the bosom|the bosom, the womb, the fold formed by a loose garment, the pocket, any hollow, the deep hollow between waves, the bay / gulf, the vale|κόλπος]] [[of the father|of the father, of the grandfather|πατήρ]] [[that|that, the one there, the more remote|ἐκεῖνος]] [[was leader of|was leader of, led / directed / governed, went first / led the way, shewed one the way / went before / led, conducted, led an army, prescribed / dictated, prescribed / ordered, prescribed / expounded, told at length / related in full|ἐξηγέομαι]].",
+    "names": []
+  },
+  {
+    "ref": "JHN 1:19",
+    "greek": "Καὶ αὕτη ἐστὶν ἡ μαρτυρία τοῦ Ἰωάννου ὅτε ⸀ἀπέστειλαν οἱ Ἰουδαῖοι ἐξ Ἱεροσολύμων ἱερεῖς καὶ Λευίτας ἵνα ἐρωτήσωσιν αὐτόν· Σὺ τίς εἶ;",
+    "hint": "The narrative begins: Jerusalem sends priests and Levites to ask John who he is.",
+    "notes": [
+      {
+        "lemma": "αὕτη",
+        "flag": null,
+        "text": "Feminine, agreeing with μαρτυρία: *this* is the witness, pointing forward to what follows."
+      },
+      {
+        "lemma": "ἀπέστειλαν",
+        "flag": "variant",
+        "text": "SBLGNT's ⸀: some manuscripts add πρὸς αὐτόν."
+      },
+      {
+        "lemma": "οἱ Ἰουδαῖοι",
+        "flag": "name",
+        "text": "From Hebrew Yəhûdî, *of Judah*: Judaeans, the people of the region and the faith centred on Jerusalem. The word recurs through the book; the gloss gives its origin, not a judgement on its use."
+      },
+      {
+        "lemma": "τίς",
+        "flag": null,
+        "text": "The interrogative pronoun, *who? which?*, in the chain without its question marks; the Greek's ; asks the question."
+      }
+    ],
+    "reading": "And [[this|this, the nearer, what follows|οὗτος]] is [[the witness|the witness / testimony / evidence|μαρτυρία]] of the [[name:Ἰωάννου]], [[when|when, sometimes|ὅτε]] [[sent off|sent off / away from, sent away / banished, sent off / despatched, went back / retired|ἀποστέλλω]] the [[name:Ἰουδαῖοι]] [[out of|out of, out of / forth from, from, outside of / beyond, on, upon, for, after, in or by, by the hand of, of, in consequence, by means of, according to|ἐκ]] of [[name:Ἱεροσολύμων]] [[priests|priests / sacrificers, ministers|ἱερεύς]] and [[name:Λευίτας]] [[that|that / in order that, that he might, that not|ἵνα]] [[may ask|may ask, may ask about, may enquire of and question, may beg / solicit|ἐρωτάω]] him: you [[who|who / which|τίς]] are?",
+    "names": [
+      {
+        "greek": "Ἰωάννου",
+        "unanchored": "Iōannou",
+        "anchored": "John",
+        "bare": true
+      },
+      {
+        "greek": "Ἰουδαῖοι",
+        "unanchored": "Ioudaioi",
+        "anchored": "Judaeans",
+        "gloss": "(Ἰουδαῖος, from Hebrew Yəhûdî, \"of Judah\")"
+      },
+      {
+        "greek": "Ἱεροσολύμων",
+        "unanchored": "Hierosolymōn",
+        "anchored": "Jerusalem",
+        "gloss": "(Ἱεροσόλυμα, from Hebrew Yərûšālayim, of uncertain meaning; the Greek form hears ἱερός, \"holy\")"
+      },
+      {
+        "greek": "Λευίτας",
+        "unanchored": "Leuitas",
+        "anchored": "Levites",
+        "gloss": "(Λευίτης, \"of Levi\", from Hebrew Lēwî, which the Hebrew of Genesis 29:34 hears in lāwâ, \"he was joined\")"
+      }
+    ],
+    "speech": [
+      "Σὺ"
+    ]
+  },
+  {
+    "ref": "JHN 1:20",
+    "greek": "καὶ ὡμολόγησεν καὶ οὐκ ἠρνήσατο, καὶ ὡμολόγησεν ὅτι ⸂Ἐγὼ οὐκ εἰμὶ⸃ ὁ χριστός.",
+    "hint": "John answers by saying what he is not: not the anointed one. The verse says the same thing three ways.",
+    "notes": [
+      {
+        "lemma": "ὡμολόγησεν",
+        "flag": null,
+        "text": "Aorist of ὁμολογέω, from ὁμός and λόγος, which heads with *to speak together, speak one language* and runs to *to agree, admit, confess*. To confess is to say the same thing as another."
+      },
+      {
+        "lemma": "ὁ χριστός",
+        "flag": null,
+        "text": "Lower case in SBLGNT, so the common noun with its article: Middle Liddell's noun sense is *the Anointed One, the Christ*, then *Messiah*; the adjective's *to be rubbed on* and *anointed* and the neuter plural's *salves* are left out of the noun."
+      },
+      {
+        "lemma": "Ἐγὼ οὐκ εἰμὶ",
+        "flag": "variant",
+        "text": "SBLGNT's ⸂…⸃: the manuscripts differ on the order of these words."
+      }
+    ],
+    "reading": "and [[spoke together|spoke together, spoke one language, held the same language with, agreed with, allowed / admitted / confessed / conceded / granted, agreed / promised to, made an agreement / came to terms|ὁμολογέω]] and not [[denied|denied / disowned, declined to give / refused, said no / declined / refused|ἀρνέομαι]], and [[spoke together|spoke together, spoke one language, held the same language with, agreed with, allowed / admitted / confessed / conceded / granted, agreed / promised to, made an agreement / came to terms|ὁμολογέω]] [[that|that, for that / because / seeing that / inasmuch as|ὅτι]] I not am [[the anointed one|the anointed one / the christ, the messiah|Χριστός]].",
+    "names": [],
+    "speech": [
+      "Ἐγὼ"
+    ]
+  },
+  {
+    "ref": "JHN 1:21",
+    "greek": "καὶ ἠρώτησαν αὐτόν· Τί οὖν; ⸂σὺ Ἠλίας εἶ⸃; καὶ λέγει· Οὐκ εἰμί. Ὁ προφήτης εἶ σύ; καὶ ἀπεκρίθη· Οὔ.",
+    "hint": "Not Elijah, not the prophet: each answer is shorter than the last, and the last is one word, οὔ.",
+    "notes": [
+      {
+        "lemma": "ὁ προφήτης",
+        "flag": null,
+        "text": "Articular: *the* prophet, a particular one expected. προφήτης heads with Middle Liddell's *one who speaks for a God and interprets his will*, before *a prophet*: one who speaks for, before one who foretells."
+      },
+      {
+        "lemma": "Οὔ",
+        "flag": null,
+        "text": "The bare negative, *surely not*, plain text: one sense."
+      },
+      {
+        "lemma": "σὺ Ἠλίας εἶ",
+        "flag": "variant",
+        "text": "SBLGNT's ⸂…⸃: the manuscripts differ on the order of these words."
+      }
+    ],
+    "reading": "and [[asked|asked, asked about, enquired of and questioned, begged / solicited|ἐρωτάω]] him: [[what|what / which|τίς]] [[really|really / at all events, surely, so, I say, then / therefore|οὖν]]? you [[name:Ἠλίας]] are? and [[says|says / speaks, says / declares, says something of, calls by name, tells, boasts of / tells of, recites|λέγω]]: not I am. [[the one who speaks for a God and interprets his will|the one who speaks for a God and interprets his will, the prophet, the interpreter / declarer, the one who possesses the gift of, the inspired preacher and teacher, the revealer of God's counsel for the future / the prophet, the predicter of future events|προφήτης]] are you? and [[gave answer to|gave answer to / replied, answered, answered charges / defended oneself|ἀποκρίνομαι]]: surely not.",
+    "names": [
+      {
+        "greek": "Ἠλίας",
+        "unanchored": "Ēlias",
+        "anchored": "Elijah",
+        "gloss": "(Ἠλίας, from Hebrew ʾĒliyyāhû, \"my God is Yah\")"
+      }
+    ],
+    "speech": [
+      "Τί",
+      "Οὐκ",
+      "Οὔ"
+    ]
+  },
+  {
+    "ref": "JHN 1:22",
+    "greek": "εἶπαν οὖν αὐτῷ· Τίς εἶ; ἵνα ἀπόκρισιν δῶμεν τοῖς πέμψασιν ἡμᾶς· τί λέγεις περὶ σεαυτοῦ;",
+    "hint": "They need an answer to carry back to those who sent them.",
+    "notes": [
+      {
+        "lemma": "ἀπόκρισιν",
+        "flag": null,
+        "text": "ἀπόκρισις heads with *a separating* and gives *an answer* second: from ἀποκρίνω, to set apart, and then to answer. The headword is the first sense, awkward as it is."
+      },
+      {
+        "lemma": "τοῖς πέμψασιν",
+        "flag": null,
+        "text": "Aorist participle of πέμπω, dative, with the article: *to the ones having sent* us."
+      }
+    ],
+    "reading": "[[said|said / spoke, said / declared, said something of, called by name, told, boasted of / told of, recited|λέγω]] [[really|really / at all events, surely, so, I say, then / therefore|οὖν]] to him: [[who|who / which|τίς]] are you? [[that|that / in order that, that he might, that not|ἵνα]] [[a separating|a separating, an answer|ἀπόκρισις]] [[we may give|we may give, we may grant, we may provide, we may offer to the gods, we may tender, we may give over / deliver up, we may pardon, we may forgive, we may remit, we may grant / allow / bring about that, we may give ourselves up / devote ourselves|δίδωμι]] [[to the ones having sent|to the ones having sent / despatched, to the ones having conveyed / carried, to the ones having conducted, to the ones having sent forth / away / dismissed, to the ones having sent home, to the ones having discharged / shot forth, to the ones having sent forth / uttered, to the ones having conducted / convoyed / escorted, to the ones having given, to the ones having sent up / produced|πέμπω]] us; [[what|what / which|τίς]] [[you say|you say / speak, you say / declare, you say something of, you call by name, you tell, you boast of / tell of, you recite|λέγω]] [[round about|round about, around, about / near, about / for / on account of, about / concerning, for very|περί + genitive]] of yourself?",
+    "names": [],
+    "speech": [
+      "Τίς"
+    ]
+  },
+  {
+    "ref": "JHN 1:23",
+    "greek": "ἔφη· Ἐγὼ φωνὴ βοῶντος ἐν τῇ ἐρήμῳ· Εὐθύνατε τὴν ὁδὸν κυρίου, καθὼς εἶπεν Ἠσαΐας ὁ προφήτης.",
+    "hint": "John answers in Isaiah's words, but not quite Isaiah's: the Septuagint says ἑτοιμάσατε, prepare.",
+    "notes": [
+      {
+        "lemma": "Ἐγὼ φωνὴ βοῶντος ἐν τῇ ἐρήμῳ",
+        "flag": null,
+        "text": "Isaiah 40:3 in the Septuagint: φωνὴ βοῶντος ἐν τῇ ἐρήμῳ. The quotation is Greek, and on a Septuagint base it is visible as one."
+      },
+      {
+        "lemma": "Εὐθύνατε",
+        "flag": null,
+        "text": "Isaiah 40:3 LXX reads ἑτοιμάσατε τὴν ὁδὸν κυρίου, *prepare the way of the lord*, and then εὐθείας ποιεῖτε τὰς τρίβους. John's εὐθύνατε, *guide straight, make straight*, draws on the second line."
+      },
+      {
+        "lemma": "φωνὴ",
+        "flag": null,
+        "text": "φωνή heads with *sound*: a sound or tone, then the voice. John calls himself a sound, not a person speaking."
+      },
+      {
+        "lemma": "ἔφη",
+        "flag": null,
+        "text": "Imperfect of φημί, *was declaring*."
+      }
+    ],
+    "reading": "[[was declaring|was declaring / making known, was saying / affirming / asserting, was thinking / deeming / supposing, was saying yes / affirming, was saying no / denying / refusing|φημί]]: I [[sound|sound / tone, sound of the voice, a battlecry, the voice / cry, any articulate sound, faculty of speech / discourse, language, a kind of language / dialect, a phrase / saying|φωνή]] [[of crying aloud|of crying aloud / shouting, of sounding / resounding / roaring / howling, of calling to one / calling on, of calling for / shouting out for, of noising abroad, of crying aloud / command in a loud voice|βοάω]] [[in the desert part|within, inside of, and by means of the desert part, the desolate / lone / lonely / lonesome / solitary, the desolate / helpless, the reft of / void / destitute of, the wanting / without, the undefended|ἐν; ἔρημος]]: [[guide straight|guide straight / direct, steer, manage / guide, direct / govern, make / put straight, audit the accounts, call to account for|εὐθύνω]] [[the way|the way / path / track / road / highway, the course, the travelling / journeying, the journey / voyage, the expedition / foray, the way / manner, the way / intent, the course of action, the way / method / system, the Christian Faith|ὁδός]] [[of lord|of lord / master, of the head, of master, of the Lord, of Jehovah|κύριος]], [[according as|according as / just as, like as if / exactly as, how|καθώς]] [[said|said / spoke, said / declared, said something of, called by name, told, boasted of / told of, recited|λέγω]] [[name:Ἠσαΐας]] [[the one who speaks for a God and interprets his will|the one who speaks for a God and interprets his will, the prophet, the interpreter / declarer, the one who possesses the gift of, the inspired preacher and teacher, the revealer of God's counsel for the future / the prophet, the predicter of future events|προφήτης]].",
+    "names": [
+      {
+        "greek": "Ἠσαΐας",
+        "unanchored": "Ēsaias",
+        "anchored": "Isaiah",
+        "gloss": "(Ἠσαΐας, from Hebrew Yəšaʿyāhû, \"Yah saves\")"
+      }
+    ],
+    "speech": [
+      "Ἐγὼ",
+      "Εὐθύνατε"
+    ]
+  },
+  {
+    "ref": "JHN 1:24",
+    "greek": "⸀Καὶ ἀπεσταλμένοι ἦσαν ἐκ τῶν Φαρισαίων.",
+    "hint": "A note on the senders: they had been sent from the Pharisees.",
+    "notes": [
+      {
+        "lemma": "Καὶ",
+        "flag": "variant",
+        "text": "SBLGNT's ⸀: some manuscripts add οἱ before ἀπεσταλμένοι, making them *the ones sent*."
+      },
+      {
+        "lemma": "ἀπεσταλμένοι ἦσαν",
+        "flag": null,
+        "text": "Perfect participle with the imperfect of εἰμί: *they were, as ones having been sent*. Both formulas stand: the perfect's standing state, the imperfect's continuing condition."
+      }
+    ],
+    "reading": "And [[having been sent off|having been sent off / away from, having been sent away / banished, having gone away / departed / set out, having been sent off / despatched|ἀποστέλλω]] were, and kept on being as a standing and continuing condition and not a momentary one [[out of|out of, out of / forth from, from, outside of / beyond, on, upon, for, after, in or by, by the hand of, of, in consequence, by means of, according to|ἐκ]] of the [[name:Φαρισαίων]].",
+    "names": [
+      {
+        "greek": "Φαρισαίων",
+        "unanchored": "Pharisaiōn",
+        "anchored": "Pharisees",
+        "gloss": "(Φαρισαῖος, from Aramaic pərîšayyā, \"the separated ones\")"
+      }
+    ]
+  },
+  {
+    "ref": "JHN 1:25",
+    "greek": "καὶ ἠρώτησαν αὐτὸν καὶ εἶπαν αὐτῷ· Τί οὖν βαπτίζεις εἰ σὺ οὐκ εἶ ὁ χριστὸς ⸂οὐδὲ Ἠλίας οὐδὲ⸃ ὁ προφήτης;",
+    "hint": "If he is none of the three, they ask, why does he baptize at all?",
+    "notes": [
+      {
+        "lemma": "βαπτίζεις",
+        "flag": null,
+        "text": "Present of βαπτίζω, which heads with *to dip in or under water* before *to baptize*: a dipping before it is a rite. The passive's *soaked in wine* and the middle's *to get oneself baptized* are left out of the active."
+      },
+      {
+        "lemma": "Τί",
+        "flag": null,
+        "text": "τί as *why?*, one of the pronoun's senses, plain text here."
+      },
+      {
+        "lemma": "οὐδὲ Ἠλίας οὐδὲ",
+        "flag": "variant",
+        "text": "SBLGNT's ⸂…⸃: the manuscripts differ on these words."
+      }
+    ],
+    "reading": "and [[asked|asked, asked about, enquired of and questioned, begged / solicited|ἐρωτάω]] him and [[said|said / spoke, said / declared, said something of, called by name, told, boasted of / told of, recited|λέγω]] to him: why [[really|really / at all events, surely, so, I say, then / therefore|οὖν]] [[you dip in|you dip in / under water, you baptize|βαπτίζω]] [[if|if, whether, come on|εἰ]] you not are [[the anointed one|the anointed one / the christ, the messiah|Χριστός]] [[but not|but not, and not, nor, not even, not at all, (one)|οὐδέ]] [[name:Ἠλίας]] [[but not|but not, and not, nor, not even, not at all, (one)|οὐδέ]] [[the one who speaks for a God and interprets his will|the one who speaks for a God and interprets his will, the prophet, the interpreter / declarer, the one who possesses the gift of, the inspired preacher and teacher, the revealer of God's counsel for the future / the prophet, the predicter of future events|προφήτης]]?",
+    "names": [
+      {
+        "greek": "Ἠλίας",
+        "unanchored": "Ēlias",
+        "anchored": "Elijah",
+        "bare": true
+      }
+    ],
+    "speech": [
+      "Τί"
+    ]
+  },
+  {
+    "ref": "JHN 1:26",
+    "greek": "ἀπεκρίθη αὐτοῖς ὁ Ἰωάννης λέγων· Ἐγὼ βαπτίζω ἐν ὕδατι· ⸀μέσος ὑμῶν ⸀ἕστηκεν ὃν ὑμεῖς οὐκ οἴδατε,",
+    "hint": "John says he baptizes in water, and that one stands among them whom they do not know.",
+    "notes": [
+      {
+        "lemma": "μέσος",
+        "flag": "variant",
+        "text": "SBLGNT's ⸀ before μέσος: some manuscripts add δέ. μέσος, *middle*, predicative: he stands *in the middle* of you."
+      },
+      {
+        "lemma": "ἕστηκεν",
+        "flag": "variant",
+        "text": "Perfect of ἵστημι, intransitive, *has been set, stands*: the perfect is a present state. SBLGNT's ⸀: some manuscripts read the present στήκει."
+      },
+      {
+        "lemma": "οἴδατε",
+        "flag": null,
+        "text": "Perfect of οἶδα in a present sense, *you know*: knowledge held, beside γινώσκω's knowledge got."
+      }
+    ],
+    "reading": "[[gave answer to|gave answer to / replied, answered, answered charges / defended oneself|ἀποκρίνομαι]] to them the [[name:Ἰωάννης]] [[saying|saying / speaking, saying / declaring, saying something of, calling by name, telling, boasting of / telling of, reciting|λέγω]]: I [[dip in|dip in / under water, baptize|βαπτίζω]] [[in water|within, inside of, and by means of water, waters, rain-water / rain, water of a water-clock|ἐν; ὕδωρ]]; [[middle|middle, the middle / centre, mid, between two, middling / moderate, of middle rank, middling good, midway between|μέσος]] of you [[has been set|has been set / placed / stood and it stands so, has been in a state / condition and it stands so, has lain / been situated and it stands so, has stood still / stopped / halted and it stands so, has stood idle and it stands so, has stopped / ceased / been at rest and it stands so, has stood firm and it stands so, has stood up / risen up and it stands so, has arisen / begun and it stands so, has been appointed and it stands so, has been there and it stands so|ἵστημι]] whom you not [[know|know, be assured, be versed in, cunning in the use of, know how|οἶδα]],",
+    "names": [
+      {
+        "greek": "Ἰωάννης",
+        "unanchored": "Iōannēs",
+        "anchored": "John",
+        "bare": true
+      }
+    ],
+    "speech": [
+      "Ἐγὼ"
+    ]
+  },
+  {
+    "ref": "JHN 1:27",
+    "greek": "⸀ὁ ὀπίσω μου ⸀ἐρχόμενος, οὗ ⸂οὐκ εἰμὶ⸃ ἄξιος ἵνα λύσω αὐτοῦ τὸν ἱμάντα τοῦ ὑποδήματος.",
+    "hint": "John is not worth enough to untie the strap of his sandal: the slave's task, refused.",
+    "notes": [
+      {
+        "lemma": "ἄξιος",
+        "flag": null,
+        "text": "ἄξιος heads with *weighing as much, of like value*: worth reckoned on a scale before *worthy*."
+      },
+      {
+        "lemma": "ἱμάντα",
+        "flag": null,
+        "text": "ἱμάς, *a leathern strap or thong*; the plural's senses (the reins, the traces) are left out of the singular, and *a latchet or thong* of a sandal stands in the chain."
+      },
+      {
+        "lemma": "ὁ ὀπίσω μου ἐρχόμενος",
+        "flag": "variant",
+        "text": "SBLGNT's ⸀ twice: some manuscripts add αὐτός ἐστιν before ὁ, or ὃς ἔμπροσθέν μου γέγονεν after ἐρχόμενος."
+      }
+    ],
+    "reading": "[[the one coming|the one coming / going, the one coming / going back / returning|ἔρχομαι]] [[after|after, backwards, back / back again, again, hereafter, behind, future, following|ὀπίσω]] of me, of whom not I am [[weighing as much|weighing as much / of like value / worth as much as, worthy / goodly, of a proper value / cheap, deserved / meet / due, sufficient for, worthy of / deserving / meet for, meet / fit / due|ἄξιος]] [[that|that / in order that, that he might, that not|ἵνα]] [[I may loose|I may loose, I may loosen / unbind / unfasten, I may untie, I may slack, I may open, I may unfold, I may undo / unyoke / unharness, I may loose / release, I may loose / set free, I may release on receipt of ransom, I may hold to ransom / release, I may release by payment of ransom / get a person released / ransom / redeem, I may give up, I may resolve a whole into its parts / dissolve / break up, I may loosen / slacken, I may weaken / relax, I may undo / bring to naught / break down / destroy, I may undo / do away with / put an end to, I may repeal / annul / do away with, I may rescind, I may solve, I may refute, I may unravel, I may solve / fulfil / accomplish, I may atone for / make up for, I may pay, I may pay / profit / avail|λύω]] of him [[the leathern strap|the leathern strap / thong, the girdle, the chin-strap, the latchet / thong, the dog-leash|ἱμάς]] [[of the sole bound under the foot with straps|of the sole bound under the foot with straps / sandal, of the shoe / half-boot|ὑπόδημα]].",
+    "names": []
+  },
+  {
+    "ref": "JHN 1:28",
+    "greek": "ταῦτα ἐν Βηθανίᾳ ἐγένετο πέραν τοῦ Ἰορδάνου, ὅπου ἦν ⸀ὁ Ἰωάννης βαπτίζων.",
+    "hint": "The place is named: Bethany beyond the Jordan, where John was baptizing.",
+    "notes": [
+      {
+        "lemma": "ταῦτα",
+        "flag": null,
+        "text": "Neuter plural of οὗτος, *these*: the exchange of 19–27."
+      },
+      {
+        "lemma": "ἐν Βηθανίᾳ",
+        "flag": "name",
+        "text": "A name, so ἐν takes its own unit: *in to Bethany*. Not the Bethany near Jerusalem of chapter 11."
+      },
+      {
+        "lemma": "ὅπου",
+        "flag": null,
+        "text": "ὅπου is a relative adverb of place, which Middle Liddell says in prose. Its first translation, *in some places*, is the phrase ἔσθ' ὅπου's, and *somewhere or other* and *wherever* belong to ὅκου δή and ὅπου ἄν, none of them here; the word's own senses are *where* and, of cause, *whereas*."
+      },
+      {
+        "lemma": "ἦν … βαπτίζων",
+        "flag": null,
+        "text": "Imperfect of εἰμί with a present participle: *was, … dipping in*, an activity going on."
+      },
+      {
+        "lemma": "ὁ Ἰωάννης",
+        "flag": "variant",
+        "text": "SBLGNT's ⸀ before ὁ: the manuscripts differ on the article."
+      }
+    ],
+    "reading": "[[these|these, the nearer, what follows|οὗτος]] [[in|within, inside of, and by means of|ἐν]] to [[name:Βηθανίᾳ]] [[came into being|came to be, arose, was brought into existence|γίνομαι]] [[on the other side|on the other side / across / beyond, on the other side, over / across, over against / opposite, beyond|πέραν]] of the [[name:Ἰορδάνου]], [[where|where, whereas|ὅπου]] was, and kept on being as a standing and continuing condition and not a momentary one the [[name:Ἰωάννης]] [[dipping in|dipping in / under water, baptizing|βαπτίζω]].",
+    "names": [
+      {
+        "greek": "Βηθανίᾳ",
+        "unanchored": "Bēthania",
+        "anchored": "Bethany",
+        "gloss": "(Βηθανία, from Hebrew or Aramaic bêt, \"house of\", and a second element of uncertain meaning)"
+      },
+      {
+        "greek": "Ἰορδάνου",
+        "unanchored": "Iordanou",
+        "anchored": "Jordan",
+        "gloss": "(Ἰορδάνης, from Hebrew Yardēn, usually connected with yārad, \"to go down\")"
+      },
+      {
+        "greek": "Ἰωάννης",
+        "unanchored": "Iōannēs",
+        "anchored": "John",
+        "bare": true
+      }
+    ]
+  },
+  {
+    "ref": "JHN 1:29",
+    "greek": "Τῇ ἐπαύριον βλέπει τὸν Ἰησοῦν ἐρχόμενον πρὸς αὐτόν, καὶ λέγει· Ἴδε ὁ ἀμνὸς τοῦ θεοῦ ὁ αἴρων τὴν ἁμαρτίαν τοῦ κόσμου.",
+    "hint": "The next day John sees Jesus and names him the lamb of God, who takes up the world's sin.",
+    "notes": [
+      {
+        "lemma": "Τῇ ἐπαύριον",
+        "flag": null,
+        "text": "The article in the dative, feminine, with ἡμέρᾳ understood: *to the one on the morrow*. ἐπαύριον has one sense and is plain text."
+      },
+      {
+        "lemma": "ὁ ἀμνὸς τοῦ θεοῦ",
+        "flag": null,
+        "text": "ἀμνός, *a lamb*, one sense, plain text. Isaiah 53:7 LXX has ὡς ἀμνός, where the Passover of Exodus 12 has πρόβατον."
+      },
+      {
+        "lemma": "ὁ αἴρων",
+        "flag": null,
+        "text": "Present participle of αἴρω, *to take up, raise, lift up*, then *to lift and take away, remove*: the chain keeps both the bearing and the removing."
+      },
+      {
+        "lemma": "ἁμαρτίαν",
+        "flag": null,
+        "text": "Singular. ἁμαρτία heads with *failure*: missing the mark, before *fault* and *sin*."
+      }
+    ],
+    "reading": "to the one on the morrow [[sees|sees / has the power of sight, looks, looks longingly / expects eagerly, looks to, bewares of, sees that, sees / beholds, sees the light of day / lives, is alive / lives|βλέπω]] the [[name:Ἰησοῦν]] [[coming|coming / going, coming / going back / returning|ἔρχομαι]] [[toward|toward, facing, oriented to, in living motion and address toward|πρός + accusative]] him, and [[says|says / speaks, says / declares, says something of, calls by name, tells, boasts of / tells of, recites|λέγω]]: [[lo|lo / behold|ἴδε]] the lamb [[of the God|of him who is God definitively, of the one the article marks out, of the known and the only|θεός]] [[the one taking up|the one taking up / raising / lifting up, the one bearing / sustaining, the one raising up / exalting, the one exalting / exciting, the one raising by words / extolling / exaggerating, the one lifting and taking away / removing, the one taking off / killing|αἴρω]] [[the failure|the failure / fault / sin, the guilt / sin|ἁμαρτία]] [[of the order|of the order, of the good order / good behaviour / decency, of the form / fashion, of the order / government, of the ornament / decoration / embellishment / dress, of the honour / credit, of the regulator, of the world / universe, of the mankind|κόσμος]].",
+    "names": [
+      {
+        "greek": "Ἰησοῦν",
+        "unanchored": "Iēsoun",
+        "anchored": "Jesus",
+        "bare": true
+      }
+    ],
+    "speech": [
+      "Ἴδε"
+    ]
+  },
+  {
+    "ref": "JHN 1:30",
+    "greek": "οὗτός ἐστιν ⸀ὑπὲρ οὗ ἐγὼ εἶπον· Ὀπίσω μου ἔρχεται ἀνὴρ ὃς ἔμπροσθέν μου γέγονεν, ὅτι πρῶτός μου ἦν·",
+    "hint": "John repeats what he said in verse 15, now pointing at the man.",
+    "notes": [
+      {
+        "lemma": "ὑπὲρ οὗ",
+        "flag": "variant",
+        "text": "ὑπέρ with the genitive, *over, on behalf of*, and like περί *concerning*: the chain is the genitive section of the entry. SBLGNT's ⸀: some manuscripts read περί."
+      },
+      {
+        "lemma": "ἀνὴρ",
+        "flag": null,
+        "text": "ἀνήρ, *a man*, the male: where verse 15 had only the participle."
+      },
+      {
+        "lemma": "γέγονεν … ἦν",
+        "flag": null,
+        "text": "As in verse 15: γίνομαι of what he has come to be, εἰμί of what he was."
+      }
+    ],
+    "reading": "[[this|this, the nearer, what follows|οὗτος]] is [[over|over / above, above / further inland, over / across, over / beyond, standing over, for / for defence of / in behalf of, for the sake of, for the purpose of, for / instead of / in the name of, by commission from, on / of / concerning|ὑπέρ + genitive]] of whom I [[said|said / spoke, said / declared, said something of, called by name, told, boasted of / told of, meant, recited|λέγω]]: [[after|after, backwards, back / back again, again, hereafter, behind, future, following|ὀπίσω]] of me [[comes|comes / goes, comes / goes back / returns|ἔρχομαι]] [[a man|a man, a man in the prime of life, a man indeed|ἀνήρ]] who [[before|before / in front of, before / earlier / of old|ἔμπροσθεν]] of me [[has come into being|has come to be and stands so, has arisen and remains arisen, has been brought into existence and continues so|γίνομαι]], [[that|that, for that / because / seeing that / inasmuch as|ὅτι]] [[first|first, first / foremost, outermost, first men, first prize, first part / beginning, first / highest, extremities, chief|πρῶτος]] of me was, and was continuously, and was already in unbroken existence without any point of having come to be;",
+    "names": [],
+    "speech": [
+      "Ὀπίσω"
+    ]
+  },
+  {
+    "ref": "JHN 1:31",
+    "greek": "κἀγὼ οὐκ ᾔδειν αὐτόν, ἀλλʼ ἵνα φανερωθῇ τῷ Ἰσραὴλ διὰ τοῦτο ἦλθον ἐγὼ ⸀ἐν ὕδατι βαπτίζων.",
+    "hint": "John did not know him; he came baptizing so that he might be shown to Israel.",
+    "notes": [
+      {
+        "lemma": "κἀγὼ",
+        "flag": null,
+        "text": "Crasis of καί and ἐγώ, *and I*, plain text."
+      },
+      {
+        "lemma": "ᾔδειν",
+        "flag": null,
+        "text": "Pluperfect of οἶδα, which has a past sense: *knew*. With κἀγώ the pronoun stands, so the verb's headword drops its own, as the corpus has it where ἐγώ and σύ stand beside their verbs."
+      },
+      {
+        "lemma": "φανερωθῇ",
+        "flag": null,
+        "text": "Aorist passive subjunctive of φανερόω, *to make manifest*: *that he may be made manifest*. The passive's own *to become so*, known or famous, follows in its own voice."
+      },
+      {
+        "lemma": "ἐν ὕδατι",
+        "flag": "variant",
+        "text": "SBLGNT's ⸀: some manuscripts add τῷ, *in the water*."
+      }
+    ],
+    "reading": "and I not [[knew|knew, was assured, was versed in, cunning in the use of, knew how|οἶδα]] him, [[otherwise|otherwise / but, except / but, but / yet, but then / however, but really / certainly|ἀλλά]] [[that|that / in order that, that he might, that not|ἵνα]] [[may be made manifest|may be made manifest, may be made known / famous, may become so|φανερόω]] to the [[name:Ἰσραὴλ]] [[through|through, throughout / over, during, by aid of / by means of, by reason of, because of, for the sake of|διά + accusative]] [[this|this, the nearer, what follows|οὗτος]] [[came|came / went, came / went back / returned|ἔρχομαι]] I [[in water|within, inside of, and by means of water, waters, rain-water / rain, water of a water-clock|ἐν; ὕδωρ]] [[dipping in|dipping in / under water, baptizing|βαπτίζω]].",
+    "names": [
+      {
+        "greek": "Ἰσραὴλ",
+        "unanchored": "Israēl",
+        "anchored": "Israel",
+        "gloss": "(Ἰσραήλ, from Hebrew Yiśrāʾēl, which the Hebrew of Genesis 32:29 hears in śārâ ʿim ʾĕlōhîm, \"he strove with God\")"
+      }
+    ]
+  },
+  {
+    "ref": "JHN 1:32",
+    "greek": "καὶ ἐμαρτύρησεν Ἰωάννης λέγων ὅτι Τεθέαμαι τὸ πνεῦμα καταβαῖνον ⸀ὡς περιστερὰν ἐξ οὐρανοῦ, καὶ ἔμεινεν ἐπʼ αὐτόν·",
+    "hint": "John's witness: he has seen the spirit come down like a dove and remain on him.",
+    "notes": [
+      {
+        "lemma": "Τεθέαμαι",
+        "flag": null,
+        "text": "Perfect of θεάομαι, *to look on, gaze at, behold*: a sight held, and it stands so."
+      },
+      {
+        "lemma": "τὸ πνεῦμα",
+        "flag": null,
+        "text": "πνεῦμα heads with *blowing*: wind, breath, before spirit. Lower case: the manuscripts have no capitals, and none is supplied."
+      },
+      {
+        "lemma": "ὡς περιστερὰν",
+        "flag": "variant",
+        "text": "περιστερά, *common pigeon*, the dove. SBLGNT's ⸀ before ὡς: some manuscripts read ὡσεί."
+      },
+      {
+        "lemma": "ἔμεινεν",
+        "flag": null,
+        "text": "Aorist of μένω, *to stay, stand fast, abide*: it came down and stayed."
+      }
+    ],
+    "reading": "and [[bore witness|bore witness / was a witness / gave evidence / bore testimony, bore witness to / in favour of, testified that|μαρτυρέω]] [[name:Ἰωάννης]] [[saying|saying / speaking, saying / declaring, saying something of, calling by name, telling, boasting of / telling of, reciting|λέγω]] [[that|that, for that / because / seeing that / inasmuch as|ὅτι]] [[I have looked on|I have looked on / gazed at / viewed / beheld and it stands so, I have reconnoitred and it stands so, I have viewed as spectators and it stands so, I have reviewed and it stands so|θεάομαι]] [[the blowing|the blowing, the wind / blast, the breeze / influence, the breathed air / breath, the ghost, that which is breathed forth / the odour / scent, the spirit, the inspiration, the Holy Spirit, the angels, the evil spirits|πνεῦμα]] [[stepping down|stepping down / going / coming down, going down from, dismounting, coming down stairs, going down from the inland parts to the sea, coming to land / getting safe ashore, going down into the arena, coming down from the tribune, coming to, ending, bringing down|καταβαίνω]] [[as|as, according as, considering, like, that / in order that, so, so that, such that, as / inasmuch / as / since, when, whenever, so long as / while, how, however, where, if / as, to, how greatly, and straightway, oh that, as it were / about / nearly|ὡς]] [[common pigeon|common pigeon / dove|περιστερά]] [[out of|out of, out of / forth from, from, outside of / beyond, on, upon, for, after, in or by, by the hand of, of, in consequence, by means of, according to|ἐκ]] [[of heaven|of heaven, of the vault / firmament of heaven / the sky, of a region of heaven / climate|οὐρανός]], and [[stayed stand fast|stayed stand fast / abided, stayed at home / stayed where one is / did not stir, stayed away from, stayed / tarried, was lasting / remained / lasted / stood, remained as one was, held good, remained contented, abided by, awaited / expected / waited for|μένω]] [[upon|upon, on, in, at, near|ἐπί + accusative]] him;",
+    "names": [
+      {
+        "greek": "Ἰωάννης",
+        "unanchored": "Iōannēs",
+        "anchored": "John",
+        "bare": true
+      }
+    ],
+    "speech": [
+      "Τεθέαμαι"
+    ]
+  },
+  {
+    "ref": "JHN 1:33",
+    "greek": "κἀγὼ οὐκ ᾔδειν αὐτόν, ἀλλʼ ὁ πέμψας με βαπτίζειν ἐν ὕδατι ἐκεῖνός μοι εἶπεν· Ἐφʼ ὃν ἂν ἴδῃς τὸ πνεῦμα καταβαῖνον καὶ μένον ἐπʼ αὐτόν, οὗτός ἐστιν ὁ βαπτίζων ἐν πνεύματι ἁγίῳ·",
+    "hint": "The sign was given John beforehand: the one on whom the spirit comes down and stays.",
+    "notes": [
+      {
+        "lemma": "ἐφʼ ὃν ἂν ἴδῃς",
+        "flag": null,
+        "text": "ἄν with the relative and the subjunctive, *whom ever you may see*: ἄν is *ever*, plain text, as in the corpus."
+      },
+      {
+        "lemma": "ἐν πνεύματι ἁγίῳ",
+        "flag": null,
+        "text": "ἐν merges into its noun's unit, *within, inside of, and by means of blowing*. ἅγιος heads with *devoted to the gods*, the adjective's first sense, and marks the dative."
+      },
+      {
+        "lemma": "ὁ βαπτίζων",
+        "flag": null,
+        "text": "Present participle with the article: *the one dipping in*, the one whose work it is."
+      }
+    ],
+    "reading": "and I not [[knew|knew, was assured, was versed in, cunning in the use of, knew how|οἶδα]] him, [[otherwise|otherwise / but, except / but, but / yet, but then / however, but really / certainly|ἀλλά]] [[the one having sent|the one having sent / despatched, the one having conveyed / carried, the one having conducted, the one having sent forth / away / dismissed, the one having sent home, the one having discharged / shot forth, the one having sent forth / uttered, the one having conducted / convoyed / escorted, the one having given, the one having sent up / produced|πέμπω]] me [[to dip in|to dip in / under water, to baptize|βαπτίζω]] [[in water|within, inside of, and by means of water, waters, rain-water / rain, water of a water-clock|ἐν; ὕδωρ]] [[that|that, the one there, the more remote|ἐκεῖνος]] to me [[said|said / spoke, said / declared, said something of, called by name, told, boasted of / told of, recited|λέγω]]: [[upon|upon, on, in, at, near|ἐπί + accusative]] whom ever [[you may see|you may see / look, you may have sight, you may take heed / beware, you may look at / behold / perceive / observe, you may look out for / provide, you may discern / perceive|ὁράω]] [[the blowing|the blowing, the wind / blast, the breeze / influence, the breathed air / breath, the ghost, that which is breathed forth / the odour / scent, the spirit, the inspiration, the Holy Spirit, the angels, the evil spirits|πνεῦμα]] [[stepping down|stepping down / going / coming down, going down from, dismounting, coming down stairs, going down from the inland parts to the sea, coming to land / getting safe ashore, going down into the arena, coming down from the tribune, coming to, ending, bringing down|καταβαίνω]] and [[staying stand fast|staying stand fast / abiding, staying at home / staying where one is / not stirring, staying away from, staying / tarrying, being lasting / remaining / lasting / standing, remaining as one was, holding good, remaining contented, abiding by, awaiting / expecting / waiting for|μένω]] [[upon|upon, on, in, at, near|ἐπί + accusative]] him, [[this|this, the nearer, what follows|οὗτος]] is [[the one dipping in|the one dipping in / under water, the one baptizing|βαπτίζω]] [[in blowing|within, inside of, and by means of blowing, a wind / blast, breeze / influence, breathed air / breath, the ghost, that is breathed forth / odour / scent, spirit, inspiration, the Holy Spirit, angels, evil spirits|ἐν; πνεῦμα]] [[to devoted to the gods|to devoted to the gods / sacred / holy, to holy / pure, to the Temple|ἅγιος]];",
+    "names": [],
+    "speech": [
+      "Ἐφʼ"
+    ]
+  },
+  {
+    "ref": "JHN 1:34",
+    "greek": "κἀγὼ ἑώρακα, καὶ μεμαρτύρηκα ὅτι οὗτός ἐστιν ὁ ⸀ἐκλεκτὸς τοῦ θεοῦ.",
+    "hint": "Two perfects: John has seen, and has borne witness. What he says is in dispute among the manuscripts.",
+    "notes": [
+      {
+        "lemma": "ἑώρακα … μεμαρτύρηκα",
+        "flag": null,
+        "text": "Two perfects: what John has seen and borne witness to stands so."
+      },
+      {
+        "lemma": "ὁ ἐκλεκτὸς",
+        "flag": "variant",
+        "text": "SBLGNT's ⸀: most manuscripts read ὁ υἱός, *the son*; SBLGNT prints ἐκλεκτός, *picked out, chosen*."
+      }
+    ],
+    "reading": "and I [[have seen|have seen / looked and it stands so, have had sight and it stands so, have taken heed / bewared and it stands so, have looked at / beheld / perceived / observed and it stands so, have looked out for / provided and it stands so, have discerned / perceived and it stands so|ὁράω]], and [[I have borne witness|I have borne witness / been a witness / given evidence / borne testimony and it stands so, I have borne witness to / in favour of and it stands so, I have testified that and it stands so|μαρτυρέω]] [[that|that, for that / because / seeing that / inasmuch as|ὅτι]] [[this|this, the nearer, what follows|οὗτος]] is [[the picked out|the picked out / select|ἐκλεκτός]] [[of the God|of him who is God definitively, of the one the article marks out, of the known and the only|θεός]].",
+    "names": []
+  },
+  {
+    "ref": "JHN 1:35",
+    "greek": "Τῇ ἐπαύριον πάλιν εἱστήκει ⸀ὁ Ἰωάννης καὶ ἐκ τῶν μαθητῶν αὐτοῦ δύο,",
+    "hint": "The next day again: John stands with two of his disciples.",
+    "notes": [
+      {
+        "lemma": "εἱστήκει",
+        "flag": null,
+        "text": "Pluperfect of ἵστημι, intransitive: *had been set, was standing*."
+      },
+      {
+        "lemma": "μαθητῶν",
+        "flag": null,
+        "text": "μαθητής, *a learner, pupil*: from μανθάνω, to learn. Its first use in the book."
+      },
+      {
+        "lemma": "δύο",
+        "flag": null,
+        "text": "δύο, *two*, one sense, plain text."
+      },
+      {
+        "lemma": "ὁ Ἰωάννης",
+        "flag": "variant",
+        "text": "SBLGNT's ⸀: some manuscripts lack the article."
+      }
+    ],
+    "reading": "to the one on the morrow [[back|back / backwards, contrariwise, opposite, the change, again / once more / anew, again in turn|πάλιν]] [[had been set|had been set / placed / stood and stood so, had been in a state / condition and stood so, had lain / been situated and stood so, had stood still / stopped / halted and stood so, had stood idle and stood so, had stopped / ceased / been at rest and stood so, had stood firm and stood so, had stood up / risen up and stood so, had arisen / begun and stood so, had been appointed and stood so, had been there and stood so|ἵστημι]] the [[name:Ἰωάννης]] and [[out of|out of, out of / forth from, from, outside of / beyond, on, upon, for, after, in or by, by the hand of, of, in consequence, by means of, according to|ἐκ]] [[of the learners|of the learners / pupils|μαθητής]] of him two,",
+    "names": [
+      {
+        "greek": "Ἰωάννης",
+        "unanchored": "Iōannēs",
+        "anchored": "John",
+        "bare": true
+      }
+    ]
+  },
+  {
+    "ref": "JHN 1:36",
+    "greek": "καὶ ἐμβλέψας τῷ Ἰησοῦ περιπατοῦντι λέγει· Ἴδε ὁ ἀμνὸς τοῦ θεοῦ.",
+    "hint": "John looks at Jesus walking by and says it again, shorter: the lamb of God.",
+    "notes": [
+      {
+        "lemma": "ἐμβλέψας",
+        "flag": null,
+        "text": "Aorist participle of ἐμβλέπω, *to look in the face, look at*: ἐν and βλέπω, a fixed look."
+      },
+      {
+        "lemma": "περιπατοῦντι",
+        "flag": null,
+        "text": "Present participle of περιπατέω, *to walk up and down, walk about*, dative with τῷ Ἰησοῦ."
+      }
+    ],
+    "reading": "and [[having looked in the face|having looked in the face / looked at|ἐμβλέπω]] to the [[name:Ἰησοῦ]] [[to walking up and down|to walking up and down / walking about, to walking, to living|περιπατέω]] [[says|says / speaks, says / declares, says something of, calls by name, tells, boasts of / tells of, recites|λέγω]]: [[lo|lo / behold|ἴδε]] the lamb [[of the God|of him who is God definitively, of the one the article marks out, of the known and the only|θεός]].",
+    "names": [
+      {
+        "greek": "Ἰησοῦ",
+        "unanchored": "Iēsou",
+        "anchored": "Jesus",
+        "bare": true
+      }
+    ],
+    "speech": [
+      "Ἴδε"
+    ]
+  },
+  {
+    "ref": "JHN 1:37",
+    "greek": "καὶ ἤκουσαν ⸂οἱ δύο μαθηταὶ αὐτοῦ⸃ λαλοῦντος καὶ ἠκολούθησαν τῷ Ἰησοῦ.",
+    "hint": "The two disciples hear John and follow Jesus. ἀκολουθέω is both walking behind and following as a pupil.",
+    "notes": [
+      {
+        "lemma": "ἠκολούθησαν",
+        "flag": null,
+        "text": "Aorist of ἀκολουθέω, *to follow, go after or with*, then *to follow, obey*: the chain keeps the walking and the allegiance."
+      },
+      {
+        "lemma": "οἱ δύο μαθηταὶ αὐτοῦ",
+        "flag": "variant",
+        "text": "SBLGNT's ⸂…⸃: the manuscripts differ on the order of these words. The article stands before δύο and prints once, before the numeral."
+      },
+      {
+        "lemma": "λαλοῦντος",
+        "flag": null,
+        "text": "Present participle of λαλέω, genitive with ἤκουσαν: they heard him *talking*."
+      }
+    ],
+    "reading": "and [[heard|heard, heard of / heard tell of, knew by hearsay, hearkened / gave ear, listened to / gave ear to, obeyed, heard themselves called / were called|ἀκούω]] the two [[learners|learners / pupils|μαθητής]] of him [[of talking|of talking / chatting / prattling / babbling, of saying / talking of, of speaking, of chattering, of chirping|λαλέω]] and [[followed|followed / obeyed, went after or with, followed the thread, followed upon / were consequent upon|ἀκολουθέω]] to the [[name:Ἰησοῦ]].",
+    "names": [
+      {
+        "greek": "Ἰησοῦ",
+        "unanchored": "Iēsou",
+        "anchored": "Jesus",
+        "bare": true
+      }
+    ]
+  },
+  {
+    "ref": "JHN 1:38",
+    "greek": "στραφεὶς δὲ ὁ Ἰησοῦς καὶ θεασάμενος αὐτοὺς ἀκολουθοῦντας λέγει αὐτοῖς· Τί ζητεῖτε; οἱ δὲ εἶπαν αὐτῷ· Ῥαββί (ὃ λέγεται ⸀μεθερμηνευόμενον Διδάσκαλε), ποῦ μένεις;",
+    "hint": "Jesus turns and asks what they seek. They answer with a title, Rabbi, and a question: where is he staying?",
+    "notes": [
+      {
+        "lemma": "στραφεὶς",
+        "flag": null,
+        "text": "Aorist passive participle of στρέφω, whose passive heads with *to turn oneself, turn round*: the passive's own sense, intransitive."
+      },
+      {
+        "lemma": "οἱ δὲ",
+        "flag": null,
+        "text": "The article as a pronoun, carrying its noun: *the ones*, with δέ after it."
+      },
+      {
+        "lemma": "Ῥαββί",
+        "flag": "name",
+        "text": "From Hebrew or Aramaic rabbî, *my great one, my master*. The verse translates it itself: μεθερμηνευόμενον Διδάσκαλε. Capitalised in SBLGNT as the first word of their speech, glossed as a transliteration."
+      },
+      {
+        "lemma": "μεθερμηνευόμενον",
+        "flag": null,
+        "text": "Present passive participle of μεθερμηνεύω, *to translate*, which only LSJ has: one sense, plain text, *being translated*."
+      },
+      {
+        "lemma": "μεθερμηνευόμενον",
+        "flag": "variant",
+        "text": "SBLGNT's ⸀: some manuscripts read ἑρμηνευόμενον."
+      },
+      {
+        "lemma": "μένεις",
+        "flag": null,
+        "text": "Present of μένω, *to stay, stand fast, abide*: the word of verse 32, now asked of Jesus."
+      }
+    ],
+    "reading": "[[having turned himself|having turned himself / having turned round / having turned about / having turned to and fro, having tossed, having turned to / from, having turned back / returned, having revolved, having twisted about, having twisted / turned / shuffled, having turned / changed, having twisted oneself up with, having stuck close, having been at large / gone about|στρέφω]] [[but|but, while / whereas / on the other hand, then / yet, at, I say / now / so then|δέ]] the [[name:Ἰησοῦς]] and [[having looked on|having looked on / gazed at / viewed / beheld, having reconnoitred, having viewed as spectators, having reviewed|θεάομαι]] them [[following|following / obeying, going after or with, following the thread, following upon / being consequent upon|ἀκολουθέω]] [[says|says / speaks, says / declares, says something of, calls by name, tells, boasts of / tells of, recites|λέγω]] to them: [[what|what / which|τίς]] [[you seek|you seek, you enquire for and ask about, you search after / search out, you search / inquire into / investigate, you require / demand, you seek after / desire, you seek for, you have to seek / feel the want of|ζητέω]]? the ones [[but|but, while / whereas / on the other hand, then / yet, at, I say / now / so then|δέ]] [[said|said / spoke, said / declared, said something of, called by name, told, boasted of / told of, recited|λέγω]] to him: [[name:Ῥαββί]] (which [[is said|is said / spoken, is said / declared, is said something of, is called by name, is told, is boasted of / told of, is recited|λέγω]] being translated [[teacher|teacher / master, a dramatic poet|διδάσκαλος]]), [[where|where, at what point, how, how? by what right?|ποῦ]] [[you stay stand fast|you stay stand fast / abide, you stay at home / stay where one is / not stir, you stay away from, you stay / tarry, you are lasting / remain / last / stand, you remain as one was, you hold good, you remain contented, you abide by, you await / expect / wait for|μένω]]?",
+    "names": [
+      {
+        "greek": "Ἰησοῦς",
+        "unanchored": "Iēsous",
+        "anchored": "Jesus",
+        "bare": true
+      },
+      {
+        "greek": "Ῥαββί",
+        "unanchored": "Rhabbi",
+        "anchored": "Rabbi",
+        "gloss": "(Ῥαββί, from Hebrew or Aramaic rabbî, \"my great one, my master\")"
+      }
+    ],
+    "speech": [
+      "Τί",
+      "Διδάσκαλε"
+    ]
+  },
+  {
+    "ref": "JHN 1:39",
+    "greek": "λέγει αὐτοῖς· Ἔρχεσθε καὶ ⸂ὄψεσθε. ἦλθαν οὖν⸃ καὶ εἶδαν ποῦ μένει, καὶ παρʼ αὐτῷ ἔμειναν τὴν ἡμέραν ἐκείνην· ὥρα ἦν ὡς δεκάτη.",
+    "hint": "Come and see. They stayed with him that day; it was about the tenth hour.",
+    "notes": [
+      {
+        "lemma": "Ἔρχεσθε καὶ ὄψεσθε",
+        "flag": null,
+        "text": "Present imperative, then future: *come, and you will see*. The seeing is promised, not commanded."
+      },
+      {
+        "lemma": "ὄψεσθε. ἦλθαν οὖν",
+        "flag": "variant",
+        "text": "SBLGNT's ⸂…⸃: the manuscripts differ on these words."
+      },
+      {
+        "lemma": "ὥρα … δεκάτη",
+        "flag": null,
+        "text": "ὥρα heads with *period*: any season or span before the hour. The tenth, counted from daybreak."
+      },
+      {
+        "lemma": "ἔμειναν … ἐκείνην",
+        "flag": null,
+        "text": "The accusative of time: *the day, that one*, how long they stayed."
+      }
+    ],
+    "reading": "[[says|says / speaks, says / declares, says something of, calls by name, tells, boasts of / tells of, recites|λέγω]] to them: [[come|come / go, come / go back / return|ἔρχομαι]] and [[you will see|you will see / look, you will have sight, you will take heed / beware, you will look at / behold / perceive / observe, you will look out for / provide, you will discern / perceive|ὁράω]]. [[came|came / went, came / went back / returned|ἔρχομαι]] [[really|really / at all events, surely, so, I say, then / therefore|οὖν]] and [[saw|saw / looked, had sight, took heed / bewared, looked at / beheld / perceived / observed, looked out for / provided, discerned / perceived|ὁράω]] [[where|where, at what point, how, how? by what right?|ποῦ]] [[stays stand fast|stays stand fast / abides, stays at home / stays where one is / does not stir, stays away from, stays / tarries, is lasting / remains / lasts / stands, remains as one was, holds good, remains contented, abides by, awaits / expects / waits for|μένω]], and [[beside|beside, alongside of, by, at, before, with|παρά + dative]] to him [[stayed stand fast|stayed stand fast / abided, stayed at home / stayed where one is / did not stir, stayed away from, stayed / tarried, were lasting / remained / lasted / stood, remained as one was, held good, remained contented, abided by, awaited / expected / waited for|μένω]] [[the day|the day, the state / time of life|ἡμέρα]] [[that|that, the one there, the more remote|ἐκεῖνος]]; [[period|period, a part of the year / a season, the seasons, the prime of the year / springtime, the part of the year available for war / the summer-season, the quarters of the heavens, a part of the day, the times of day, the prime of life / youth / early manhood, the fruits of the year|ὥρα]] was, and kept on being as a standing and continuing condition and not a momentary one [[as|as, according as, considering, like, that / in order that, so, so that, such that, as / inasmuch / as / since, when, whenever, so long as / while, how, however, where, if / as, to, how greatly, and straightway, oh that, as it were / about / nearly|ὡς]] [[tenth|tenth, tenth part / tithe, tenth day|δέκατος]].",
+    "names": [],
+    "speech": [
+      "Ἔρχεσθε"
+    ]
+  },
+  {
+    "ref": "JHN 1:40",
+    "greek": "ἦν Ἀνδρέας ὁ ἀδελφὸς Σίμωνος Πέτρου εἷς ἐκ τῶν δύο τῶν ἀκουσάντων παρὰ Ἰωάννου καὶ ἀκολουθησάντων αὐτῷ·",
+    "hint": "One of the two is named: Andrew, Simon Peter's brother.",
+    "notes": [
+      {
+        "lemma": "ἀδελφὸς",
+        "flag": null,
+        "text": "ἀδελφός heads with Middle Liddell's first sense, *the son of the same mother*: ἀ- and δελφύς, the womb."
+      },
+      {
+        "lemma": "τῶν ἀκουσάντων … καὶ ἀκολουθησάντων",
+        "flag": null,
+        "text": "One article governs both participles; it prints once, on the first: *of the ones having heard … and of having followed*."
+      },
+      {
+        "lemma": "Ἀνδρέας",
+        "flag": "name",
+        "text": "A Greek name, from ἀνήρ: *manly*."
+      }
+    ],
+    "reading": "was, and kept on being as a standing and continuing condition and not a momentary one [[name:Ἀνδρέας]] [[the son of the same mother|the son of the same mother, the brother, the near kinsman|ἀδελφός]] of [[name:Σίμωνος]] of [[name:Πέτρου]] [[one|one, a single one / one alone, the same|εἷς]] [[out of|out of, out of / forth from, from, outside of / beyond, on, upon, for, after, in or by, by the hand of, of, in consequence, by means of, according to|ἐκ]] of the two [[of the ones having heard|of the ones having heard, of the ones having heard of / heard tell of, of the ones having known by hearsay, of the ones having hearkened / given ear, of the ones having listened to / given ear to, of the ones having obeyed, of the ones having heard oneself called / been called|ἀκούω]] [[from the side of|from the side of, from beside, from, near|παρά + genitive]] of [[name:Ἰωάννου]] and [[of having followed|of having followed / obeyed, of having gone after or with, of having followed the thread, of having followed upon / been consequent upon|ἀκολουθέω]] to him;",
+    "names": [
+      {
+        "greek": "Ἀνδρέας",
+        "unanchored": "Andreas",
+        "anchored": "Andrew",
+        "gloss": "(Ἀνδρέας, a Greek name, from ἀνήρ, \"manly\")"
+      },
+      {
+        "greek": "Σίμωνος",
+        "unanchored": "Simōnos",
+        "anchored": "Simon",
+        "gloss": "(Σίμων, a Greek name that renders Hebrew Šimʿôn, which the Hebrew of Genesis 29:33 hears in šāmaʿ, \"he heard\")"
+      },
+      {
+        "greek": "Πέτρου",
+        "unanchored": "Petrou",
+        "anchored": "Peter",
+        "gloss": "(Πέτρος, Greek, \"a rock, a stone\")"
+      },
+      {
+        "greek": "Ἰωάννου",
+        "unanchored": "Iōannou",
+        "anchored": "John",
+        "bare": true
+      }
+    ]
+  },
+  {
+    "ref": "JHN 1:41",
+    "greek": "εὑρίσκει οὗτος ⸀πρῶτον τὸν ἀδελφὸν τὸν ἴδιον Σίμωνα καὶ λέγει αὐτῷ· Εὑρήκαμεν τὸν Μεσσίαν (ὅ ἐστιν μεθερμηνευόμενον χριστός).",
+    "hint": "Andrew finds his brother first and tells him they have found the Messiah; the evangelist translates the word.",
+    "notes": [
+      {
+        "lemma": "πρῶτον",
+        "flag": "variant",
+        "text": "Neuter accusative used as an adverb, *first*. SBLGNT's ⸀: some manuscripts read πρῶτος, making Andrew the first to find."
+      },
+      {
+        "lemma": "Εὑρήκαμεν",
+        "flag": null,
+        "text": "Perfect of εὑρίσκω, *to find*: we have found, and it stands so."
+      },
+      {
+        "lemma": "τὸν Μεσσίαν",
+        "flag": "name",
+        "text": "From Hebrew māšîaḥ or Aramaic məšîḥāʾ, *anointed*. The verse gives the Greek for it, χριστός, lower case: the common noun, anarthrous here."
+      },
+      {
+        "lemma": "τὸν ἴδιον",
+        "flag": null,
+        "text": "The adjective with its own article: *the one's own* brother, his own."
+      }
+    ],
+    "reading": "[[finds|finds, finds out / discovers, devises / invents, finds / gets / gains / procures, fetches / earns|εὑρίσκω]] [[this|this, the nearer, what follows|οὗτος]] [[first|first, first / foremost, outermost, first men, first prize, first part / beginning, first / highest, extremities, chief|πρῶτος]] [[the son of the same mother|the son of the same mother, the brother, the near kinsman|ἀδελφός]] [[the one's own|the one's own, the pertaining to oneself, the private / personal, the peculiar / separate / distinct, the peculiar and different, the strange / unaccustomed|ἴδιος]] [[name:Σίμωνα]] and [[says|says / speaks, says / declares, says something of, calls by name, tells, boasts of / tells of, recites|λέγω]] to him: [[we have found|we have found and it stands so, we have found out / discovered and it stands so, we have devised / invented and it stands so, we have found / got / gained / procured and it stands so, we have fetched / earned and it stands so|εὑρίσκω]] the [[name:Μεσσίαν]] (which is being translated [[anointed one|anointed one / christ, messiah|Χριστός]]).",
+    "names": [
+      {
+        "greek": "Σίμωνα",
+        "unanchored": "Simōna",
+        "anchored": "Simon",
+        "bare": true
+      },
+      {
+        "greek": "Μεσσίαν",
+        "unanchored": "Messian",
+        "anchored": "Messiah",
+        "gloss": "(Μεσσίας, from Hebrew māšîaḥ or Aramaic məšîḥāʾ, \"anointed\")"
+      }
+    ],
+    "speech": [
+      "Εὑρήκαμεν"
+    ]
+  },
+  {
+    "ref": "JHN 1:42",
+    "greek": "⸀ἤγαγεν αὐτὸν πρὸς τὸν Ἰησοῦν. ἐμβλέψας αὐτῷ ὁ Ἰησοῦς εἶπεν· Σὺ εἶ Σίμων ὁ υἱὸς ⸀Ἰωάννου, σὺ κληθήσῃ Κηφᾶς (ὃ ἑρμηνεύεται Πέτρος).",
+    "hint": "Jesus looks at Simon and gives him a new name, Cephas, which the evangelist turns into Greek: Peter.",
+    "notes": [
+      {
+        "lemma": "Κηφᾶς",
+        "flag": "name",
+        "text": "From Aramaic kêpāʾ, *rock, stone*. The verse translates it: Πέτρος."
+      },
+      {
+        "lemma": "Πέτρος",
+        "flag": "name",
+        "text": "Greek, *a rock, a stone*. Glossed as a name here, translating Κηφᾶς; first glossed in 1:40."
+      },
+      {
+        "lemma": "Ἰωάννου",
+        "flag": "variant",
+        "text": "Simon's father, a different John from the Baptist. SBLGNT's ⸀: some manuscripts read Ἰωνᾶ."
+      },
+      {
+        "lemma": "ὁ υἱὸς",
+        "flag": null,
+        "text": "υἱός, *a son*, one sense, plain text."
+      },
+      {
+        "lemma": "ἤγαγεν",
+        "flag": "variant",
+        "text": "SBLGNT's ⸀: some manuscripts add καί before it."
+      }
+    ],
+    "reading": "[[led|led / carried / conveyed / brought, marched, took with one, carried off, fetched, brought in / imported, drew on / brought on, bore up, led towards, conducted, brought up / trained / educated, drew out, kept in memory, held / celebrated, held / kept / observed, kept / maintained, passed, believed in, thought, weighed|ἄγω]] him [[toward|toward, facing, oriented to, in living motion and address toward|πρός + accusative]] the [[name:Ἰησοῦν]]. [[having looked in the face|having looked in the face / looked at|ἐμβλέπω]] to him the [[name:Ἰησοῦς]] [[said|said / spoke, said / declared, said something of, called by name, told, boasted of / told of, recited|λέγω]]: you are [[name:Σίμων]] the son of [[name:Ἰωάννου]], you [[will be called|will be called / summoned, will be called to a repast / invited, will be called on / invoked, will be cited / summoned, will be called by name / called / named|καλέω]] [[name:Κηφᾶς]] (which [[is interpreted|is interpreted / put into words / given utterance to, is explained|ἑρμηνεύω]] [[name:Πέτρος]]).",
+    "names": [
+      {
+        "greek": "Ἰησοῦν",
+        "unanchored": "Iēsoun",
+        "anchored": "Jesus",
+        "bare": true
+      },
+      {
+        "greek": "Ἰησοῦς",
+        "unanchored": "Iēsous",
+        "anchored": "Jesus",
+        "bare": true
+      },
+      {
+        "greek": "Σίμων",
+        "unanchored": "Simōn",
+        "anchored": "Simon",
+        "bare": true
+      },
+      {
+        "greek": "Ἰωάννου",
+        "unanchored": "Iōannou",
+        "anchored": "John",
+        "bare": true
+      },
+      {
+        "greek": "Κηφᾶς",
+        "unanchored": "Kēphas",
+        "anchored": "Cephas",
+        "gloss": "(Κηφᾶς, from Aramaic kêpāʾ, \"rock, stone\")"
+      },
+      {
+        "greek": "Πέτρος",
+        "unanchored": "Petros",
+        "anchored": "Peter",
+        "bare": true
+      }
+    ],
+    "speech": [
+      "Σὺ"
+    ]
+  },
+  {
+    "ref": "JHN 1:43",
+    "greek": "Τῇ ἐπαύριον ἠθέλησεν ἐξελθεῖν εἰς τὴν Γαλιλαίαν. καὶ εὑρίσκει Φίλιππον καὶ λέγει αὐτῷ ὁ Ἰησοῦς· Ἀκολούθει μοι.",
+    "hint": "The next day Jesus sets out for Galilee, finds Philip, and tells him in two words to follow.",
+    "notes": [
+      {
+        "lemma": "Ἀκολούθει μοι",
+        "flag": null,
+        "text": "Present imperative of ἀκολουθέω with the dative: *follow to me*, keep following."
+      },
+      {
+        "lemma": "ἠθέλησεν",
+        "flag": null,
+        "text": "Aorist of θέλω, *to will, wish, purpose*."
+      }
+    ],
+    "reading": "to the one on the morrow [[willed|willed / wished / purposed, wished, was wont / accustomed, meant / purported|θέλω]] [[to go out of|to go out of / come out, to go away / march off, to march out / go forth, to go through, to stand forth and come to, to turn out, to execute, to come to an end / expire, to be accomplished / come true|ἐξέρχομαι]] [[into|into / to, into or to, in, rest in, there, to / up to / until, till, against, for a, at, on, with, as far as, as much as, to the number of, to or towards, in regard to|εἰς]] the [[name:Γαλιλαίαν]]. and [[finds|finds, finds out / discovers, devises / invents, finds / gets / gains / procures, fetches / earns|εὑρίσκω]] [[name:Φίλιππον]] and [[says|says / speaks, says / declares, says something of, calls by name, tells, boasts of / tells of, recites|λέγω]] to him the [[name:Ἰησοῦς]]: [[follow|follow / obey, go after or with, follow the thread, follow upon / be consequent upon|ἀκολουθέω]] to me.",
+    "names": [
+      {
+        "greek": "Γαλιλαίαν",
+        "unanchored": "Galilaian",
+        "anchored": "Galilee",
+        "gloss": "(Γαλιλαία, from Hebrew gālîl, \"circle, district\")"
+      },
+      {
+        "greek": "Φίλιππον",
+        "unanchored": "Philippon",
+        "anchored": "Philip",
+        "gloss": "(Φίλιππος, a Greek name, \"lover of horses\")"
+      },
+      {
+        "greek": "Ἰησοῦς",
+        "unanchored": "Iēsous",
+        "anchored": "Jesus",
+        "bare": true
+      }
+    ],
+    "speech": [
+      "Ἀκολούθει"
+    ]
+  },
+  {
+    "ref": "JHN 1:44",
+    "greek": "ἦν δὲ ὁ Φίλιππος ἀπὸ Βηθσαϊδά, ἐκ τῆς πόλεως Ἀνδρέου καὶ Πέτρου.",
+    "hint": "Philip is placed: from Bethsaida, the town of Andrew and Peter.",
+    "notes": [
+      {
+        "lemma": "Βηθσαϊδά",
+        "flag": "name",
+        "text": "From Aramaic bêt ṣaydāʾ, *house of fishing*: a town on the Sea of Galilee."
+      },
+      {
+        "lemma": "ἦν",
+        "flag": null,
+        "text": "The imperfect's own formula: a fact about Philip, not the prologue's."
+      }
+    ],
+    "reading": "was, and kept on being as a standing and continuing condition and not a momentary one [[but|but, while / whereas / on the other hand, then / yet, at, I say / now / so then|δέ]] the [[name:Φίλιππος]] [[from|from, away from, away from / far from / apart from, alien from, of, from / after, sprung from, in descent from, born of, from or of, from or by, because of, by reason of, moved by / for, what is one's own|ἀπό]] of [[name:Βηθσαϊδά]], [[out of|out of, out of / forth from, from, outside of / beyond, on, upon, for, after, in or by, by the hand of, of, in consequence, by means of, according to|ἐκ]] [[of the city|of the city, of the citadel, of the one's city / country, of the body of citizens, of the number of citizens, of the state, of the free state / republic, of the right of citizenship|πόλις]] of [[name:Ἀνδρέου]] and of [[name:Πέτρου]].",
+    "names": [
+      {
+        "greek": "Φίλιππος",
+        "unanchored": "Philippos",
+        "anchored": "Philip",
+        "bare": true
+      },
+      {
+        "greek": "Βηθσαϊδά",
+        "unanchored": "Bēthsaida",
+        "anchored": "Bethsaida",
+        "gloss": "(Βηθσαϊδά, from Aramaic bêt ṣaydāʾ, \"house of fishing\")"
+      },
+      {
+        "greek": "Ἀνδρέου",
+        "unanchored": "Andreou",
+        "anchored": "Andrew",
+        "bare": true
+      },
+      {
+        "greek": "Πέτρου",
+        "unanchored": "Petrou",
+        "anchored": "Peter",
+        "bare": true
+      }
+    ]
+  },
+  {
+    "ref": "JHN 1:45",
+    "greek": "εὑρίσκει Φίλιππος τὸν Ναθαναὴλ καὶ λέγει αὐτῷ· Ὃν ἔγραψεν Μωϋσῆς ἐν τῷ νόμῳ καὶ οἱ προφῆται εὑρήκαμεν, ⸀Ἰησοῦν υἱὸν τοῦ Ἰωσὴφ τὸν ἀπὸ Ναζαρέτ.",
+    "hint": "Philip tells Nathanael they have found the one of whom Moses and the prophets wrote: Jesus of Nazareth.",
+    "notes": [
+      {
+        "lemma": "ἔγραψεν",
+        "flag": null,
+        "text": "Aorist of γράφω, which heads with *to scratch*, cut into a surface, before *to write*."
+      },
+      {
+        "lemma": "τὸν ἀπὸ Ναζαρέτ",
+        "flag": null,
+        "text": "The article makes a noun of the phrase: *the one from of Nazareth*, plain text."
+      },
+      {
+        "lemma": "Ἰησοῦν",
+        "flag": "variant",
+        "text": "SBLGNT's ⸀: some manuscripts add τόν before Ἰησοῦν."
+      },
+      {
+        "lemma": "Ναθαναήλ",
+        "flag": "name",
+        "text": "From Hebrew Nətanʾēl, *God has given*."
+      },
+      {
+        "lemma": "Ναζαρέτ",
+        "flag": "name",
+        "text": "A Galilean village, of uncertain meaning."
+      }
+    ],
+    "reading": "[[finds|finds, finds out / discovers, devises / invents, finds / gets / gains / procures, fetches / earns|εὑρίσκω]] [[name:Φίλιππος]] the [[name:Ναθαναὴλ]] and [[says|says / speaks, says / declares, says something of, calls by name, tells, boasts of / tells of, recites|λέγω]] to him: whom [[scratched|scratched / scraped / grazed, represented by lines drawn / delineated / drew / painted, expressed by written characters / wrote, wrote a person's name, inscribed, wrote down, set him down, registered / enrolled, proposed / moved, moved that|γράφω]] [[name:Μωϋσῆς]] [[in the anything assigned|within, inside of, and by means of the anything assigned / usage / custom / law / ordinance, the musical mode / strain, the song|ἐν; νόμος]] and [[the ones who speak for a God and interpret his will|the ones who speak for a God and interpret his will, the prophets, the interpreters / declarers, the ones who possess the gift of, the inspired preachers and teachers, the revealers of God's counsel for the future / the prophets, the predicters of future events|προφήτης]] [[we have found|we have found and it stands so, we have found out / discovered and it stands so, we have devised / invented and it stands so, we have found / got / gained / procured and it stands so, we have fetched / earned and it stands so|εὑρίσκω]], [[name:Ἰησοῦν]] son of the [[name:Ἰωσὴφ]] the one [[from|from, away from, away from / far from / apart from, alien from, of, from / after, sprung from, in descent from, born of, from or of, from or by, because of, by reason of, moved by / for, what is one's own|ἀπό]] of [[name:Ναζαρέτ]].",
+    "names": [
+      {
+        "greek": "Φίλιππος",
+        "unanchored": "Philippos",
+        "anchored": "Philip",
+        "bare": true
+      },
+      {
+        "greek": "Ναθαναὴλ",
+        "unanchored": "Nathanaēl",
+        "anchored": "Nathanael",
+        "gloss": "(Ναθαναήλ, from Hebrew Nətanʾēl, \"God has given\")"
+      },
+      {
+        "greek": "Μωϋσῆς",
+        "unanchored": "Mōusēs",
+        "anchored": "Moses",
+        "bare": true
+      },
+      {
+        "greek": "Ἰησοῦν",
+        "unanchored": "Iēsoun",
+        "anchored": "Jesus",
+        "bare": true
+      },
+      {
+        "greek": "Ἰωσὴφ",
+        "unanchored": "Iōsēph",
+        "anchored": "Joseph",
+        "gloss": "(Ἰωσήφ, from Hebrew Yôsēp̄, which the Hebrew of Genesis 30:24 hears in yōsēp̄, \"may he add\")"
+      },
+      {
+        "greek": "Ναζαρέτ",
+        "unanchored": "Nazaret",
+        "anchored": "Nazareth",
+        "gloss": "(Ναζαρέτ, a Galilean village, of uncertain meaning)"
+      }
+    ],
+    "speech": [
+      "Ὃν"
+    ]
+  },
+  {
+    "ref": "JHN 1:46",
+    "greek": "καὶ εἶπεν αὐτῷ Ναθαναήλ· Ἐκ Ναζαρὲτ δύναταί τι ἀγαθὸν εἶναι; λέγει αὐτῷ ⸀ὁ Φίλιππος· Ἔρχου καὶ ἴδε.",
+    "hint": "Can anything good come out of Nazareth? Philip answers with Jesus' own words: come and see.",
+    "notes": [
+      {
+        "lemma": "Ἔρχου καὶ ἴδε",
+        "flag": null,
+        "text": "Present imperative of ἔρχομαι, then aorist imperative of ὁράω: *come, and see*. Verse 39's invitation, in the singular."
+      },
+      {
+        "lemma": "ὁ Φίλιππος",
+        "flag": "variant",
+        "text": "SBLGNT's ⸀: some manuscripts lack the article."
+      }
+    ],
+    "reading": "and [[said|said / spoke, said / declared, said something of, called by name, told, boasted of / told of, recited|λέγω]] to him [[name:Ναθαναήλ]]: [[out of|out of, out of / forth from, from, outside of / beyond, on, upon, for, after, in or by, by the hand of, of, in consequence, by means of, according to|ἐκ]] of [[name:Ναζαρὲτ]] [[is able|is able / capable / strong enough, dares / bears, passes for, is worth, is equivalent to, signifies / means, avails|δύναμαι]] [[some|some, any, a certain one|τις]] good [[to be|to be, to exist, to lasting|εἰμί]]? [[says|says / speaks, says / declares, says something of, calls by name, tells, boasts of / tells of, recites|λέγω]] to him the [[name:Φίλιππος]]: [[come|come / go, come / go back / return|ἔρχομαι]] and [[see|see / look, have sight, take heed / beware, look at / behold / perceive / observe, look out for / provide, discern / perceive|ὁράω]].",
+    "names": [
+      {
+        "greek": "Ναθαναήλ",
+        "unanchored": "Nathanaēl",
+        "anchored": "Nathanael",
+        "bare": true
+      },
+      {
+        "greek": "Ναζαρὲτ",
+        "unanchored": "Nazaret",
+        "anchored": "Nazareth",
+        "bare": true
+      },
+      {
+        "greek": "Φίλιππος",
+        "unanchored": "Philippos",
+        "anchored": "Philip",
+        "bare": true
+      }
+    ],
+    "speech": [
+      "Ἐκ",
+      "Ἔρχου"
+    ]
+  },
+  {
+    "ref": "JHN 1:47",
+    "greek": "εἶδεν ⸀ὁ Ἰησοῦς τὸν Ναθαναὴλ ἐρχόμενον πρὸς αὐτὸν καὶ λέγει περὶ αὐτοῦ· Ἴδε ἀληθῶς Ἰσραηλίτης ἐν ᾧ δόλος οὐκ ἔστιν.",
+    "hint": "Jesus calls Nathanael a true Israelite, one with no guile in him.",
+    "notes": [
+      {
+        "lemma": "δόλος",
+        "flag": null,
+        "text": "δόλος heads with *a bait*, a lure for catching, before *any trick or stratagem* and *guile, craft*."
+      },
+      {
+        "lemma": "Ἰσραηλίτης",
+        "flag": "name",
+        "text": "*Of Israel*, from Ἰσραήλ: Jacob's name, the one who was a deceiver in Genesis 27 before he was renamed in 32:29. The word sits beside δόλος."
+      },
+      {
+        "lemma": "ὁ Ἰησοῦς",
+        "flag": "variant",
+        "text": "SBLGNT's ⸀: some manuscripts lack the article."
+      }
+    ],
+    "reading": "[[saw|saw / looked, had sight, took heed / bewared, looked at / beheld / perceived / observed, looked out for / provided, discerned / perceived|ὁράω]] the [[name:Ἰησοῦς]] the [[name:Ναθαναὴλ]] [[coming|coming / going, coming / going back / returning|ἔρχομαι]] [[toward|toward, facing, oriented to, in living motion and address toward|πρός + accusative]] him and [[says|says / speaks, says / declares, says something of, calls by name, tells, boasts of / tells of, recites|λέγω]] [[round about|round about, around, about / near, about / for / on account of, about / concerning, for very|περί + genitive]] of him: [[lo|lo / behold|ἴδε]] [[truly|truly, really / actually / in reality|ἀληθῶς]] [[name:Ἰσραηλίτης]] [[in|within, inside of, and by means of|ἐν]] to whom [[a bait|a bait, any cunning contrivance for deceiving / catching, any trick / stratagem, guile / craft / cunning / treachery|δόλος]] not is.",
+    "names": [
+      {
+        "greek": "Ἰησοῦς",
+        "unanchored": "Iēsous",
+        "anchored": "Jesus",
+        "bare": true
+      },
+      {
+        "greek": "Ναθαναὴλ",
+        "unanchored": "Nathanaēl",
+        "anchored": "Nathanael",
+        "bare": true
+      },
+      {
+        "greek": "Ἰσραηλίτης",
+        "unanchored": "Israēlitēs",
+        "anchored": "Israelite",
+        "gloss": "(Ἰσραηλίτης, \"of Israel\", from Ἰσραήλ)"
+      }
+    ],
+    "speech": [
+      "Ἴδε"
+    ]
+  },
+  {
+    "ref": "JHN 1:48",
+    "greek": "λέγει αὐτῷ Ναθαναήλ· Πόθεν με γινώσκεις; ἀπεκρίθη Ἰησοῦς καὶ εἶπεν αὐτῷ· Πρὸ τοῦ σε Φίλιππον φωνῆσαι ὄντα ὑπὸ τὴν συκῆν εἶδόν σε.",
+    "hint": "How does Jesus know him? He saw him under the fig tree before Philip called him.",
+    "notes": [
+      {
+        "lemma": "Πρὸ τοῦ … φωνῆσαι",
+        "flag": null,
+        "text": "πρό with the articular infinitive, genitive: *before of the producing a sound*. φωνέω heads with *to produce a sound or tone* and runs to *to call by name, call*."
+      },
+      {
+        "lemma": "ὄντα",
+        "flag": null,
+        "text": "Present participle of εἰμί, accusative, with σε: *you, being under the fig-tree*."
+      },
+      {
+        "lemma": "ὑπὸ τὴν συκῆν",
+        "flag": null,
+        "text": "ὑπό with the accusative, *towards and under*: a place reached, beside the genitive ὑποκάτω of verse 50. συκῆ, *the fig-tree*, and the fruit, *a fig*, its second sense, as at GEN 3:7."
+      }
+    ],
+    "reading": "[[says|says / speaks, says / declares, says something of, calls by name, tells, boasts of / tells of, recites|λέγω]] to him [[name:Ναθαναήλ]]: [[whence|whence, from what source, whence and wherefore|πόθεν]] me [[you learn to know|you learn to know / perceive / mark / learn, you discern / distinguish, you are aware of, you observe / form a judgment on, you judge / think, you judge / determine / decree that|γινώσκω]]? [[gave answer to|gave answer to / replied, answered, answered charges / defended oneself|ἀποκρίνομαι]] [[name:Ἰησοῦς]] and [[said|said / spoke, said / declared, said something of, called by name, told, boasted of / told of, recited|λέγω]] to him: [[before|before, before / in front of, in defence of / for, further on, before / sooner / rather than, above, for|πρό]] [[of the producing a sound|of the producing a sound / tone, of the speaking loud / clearly, of the uttering the sound, of the crying aloud, of the singing, of the crowing, of the having a voice / being significant, of the speaking to / calling to, of the calling by name / calling, of the commanding, of the speaking / telling of|φωνέω]] you [[name:Φίλιππον]] [[being|being, being / existing, lasting, being true|εἰμί]] [[towards and under|towards / under, under / into, under / before, under, in subjection, towards, about, about the time, to a certain degree / in some measure|ὑπό + accusative]] [[the fig-tree|the fig-tree, the fig|συκῆ]] [[I saw|I saw / looked, I had sight, I took heed / bewared, I looked at / beheld / perceived / observed, I looked out for / provided, I discerned / perceived|ὁράω]] you.",
+    "names": [
+      {
+        "greek": "Ναθαναήλ",
+        "unanchored": "Nathanaēl",
+        "anchored": "Nathanael",
+        "bare": true
+      },
+      {
+        "greek": "Ἰησοῦς",
+        "unanchored": "Iēsous",
+        "anchored": "Jesus",
+        "bare": true
+      },
+      {
+        "greek": "Φίλιππον",
+        "unanchored": "Philippon",
+        "anchored": "Philip",
+        "bare": true
+      }
+    ],
+    "speech": [
+      "Πόθεν",
+      "Πρὸ"
+    ]
+  },
+  {
+    "ref": "JHN 1:49",
+    "greek": "ἀπεκρίθη ⸂αὐτῷ Ναθαναήλ⸃· Ῥαββί, σὺ εἶ ὁ υἱὸς τοῦ θεοῦ, σὺ ⸂βασιλεὺς εἶ⸃ τοῦ Ἰσραήλ.",
+    "hint": "Nathanael answers with two titles: son of God, king of Israel.",
+    "notes": [
+      {
+        "lemma": "βασιλεὺς … τοῦ Ἰσραήλ",
+        "flag": null,
+        "text": "Anarthrous βασιλεύς before εἶ, a predicate placed first: *you are king of the Israel*."
+      },
+      {
+        "lemma": "αὐτῷ Ναθαναήλ",
+        "flag": "variant",
+        "text": "SBLGNT's ⸂…⸃: the manuscripts differ on these words; also on βασιλεὺς εἶ."
+      }
+    ],
+    "reading": "[[gave answer to|gave answer to / replied, answered, answered charges / defended oneself|ἀποκρίνομαι]] to him [[name:Ναθαναήλ]]: [[name:Ῥαββί]], you are the son [[of the God|of him who is God definitively, of the one the article marks out, of the known and the only|θεός]], you [[a king|a king / chief, an hereditary king, a lord / master / householder, the second of the nine archons, the king of Persia|βασιλεύς]] are of the [[name:Ἰσραήλ]].",
+    "names": [
+      {
+        "greek": "Ναθαναήλ",
+        "unanchored": "Nathanaēl",
+        "anchored": "Nathanael",
+        "bare": true
+      },
+      {
+        "greek": "Ῥαββί",
+        "unanchored": "Rhabbi",
+        "anchored": "Rabbi",
+        "bare": true
+      },
+      {
+        "greek": "Ἰσραήλ",
+        "unanchored": "Israēl",
+        "anchored": "Israel",
+        "bare": true
+      }
+    ]
+  },
+  {
+    "ref": "JHN 1:50",
+    "greek": "ἀπεκρίθη Ἰησοῦς καὶ εἶπεν αὐτῷ· Ὅτι εἶπόν σοι ⸀ὅτι εἶδόν σε ὑποκάτω τῆς συκῆς πιστεύεις; μείζω τούτων ⸀ὄψῃ.",
+    "hint": "Jesus asks whether Nathanael trusts because of so little, and promises greater things.",
+    "notes": [
+      {
+        "lemma": "Ὅτι",
+        "flag": null,
+        "text": "ὅτι, *that, because*: *because I said to you … you trust?* The sentence may be a question or a statement; SBLGNT punctuates it as a question."
+      },
+      {
+        "lemma": "μείζω τούτων",
+        "flag": null,
+        "text": "Comparative of μέγας, neuter plural, with a genitive of comparison: *bigger of these*, greater things than these."
+      },
+      {
+        "lemma": "ὅτι εἶδόν σε",
+        "flag": "variant",
+        "text": "SBLGNT's ⸀: some manuscripts lack the second ὅτι."
+      },
+      {
+        "lemma": "ὄψῃ",
+        "flag": "variant",
+        "text": "SBLGNT's ⸀: some manuscripts read ὄψει."
+      }
+    ],
+    "reading": "[[gave answer to|gave answer to / replied, answered, answered charges / defended oneself|ἀποκρίνομαι]] [[name:Ἰησοῦς]] and [[said|said / spoke, said / declared, said something of, called by name, told, boasted of / told of, recited|λέγω]] to him: [[that|that, for that / because / seeing that / inasmuch as|ὅτι]] [[I said|I said / spoke, I said / declared, I said something of, I called by name, I told, I meant, I boasted of / told of, I recited|λέγω]] to you [[that|that, for that / because / seeing that / inasmuch as|ὅτι]] [[I saw|I saw / looked, I had sight, I took heed / bewared, I looked at / beheld / perceived / observed, I looked out for / provided, I discerned / perceived|ὁράω]] you [[below|below / under|ὑποκάτω]] [[of the fig-tree|of the fig-tree, of the fig|συκῆ]] [[you trust|you trust / trust to or in / put faith in / rely on / believe in, you believe, you are trusted / believed, you comply, you believe that / feel sure / confident that, you dare, you believe / have faith, you entrust|πιστεύω]]? [[bigger|bigger / greater, taller, greater / more full-grown, vaster / higher, vaster / more spacious / more wide, greater / stronger / mightier, the Great, greater / stronger / more violent, greater / louder, more prevailing, greater / mightier / weightier / more important, more over-great, bigger, higher, too great / too much / more than enough, very much / more exceedingly, more aloud / loudlier|μέγας]] [[of these|of these, of the nearer, of what follows|οὗτος]] [[you will see|you will see / look, you will have sight, you will take heed / beware, you will look at / behold / perceive / observe, you will look out for / provide, you will discern / perceive|ὁράω]].",
+    "names": [
+      {
+        "greek": "Ἰησοῦς",
+        "unanchored": "Iēsous",
+        "anchored": "Jesus",
+        "bare": true
+      }
+    ],
+    "speech": [
+      "Ὅτι"
+    ]
+  },
+  {
+    "ref": "JHN 1:51",
+    "greek": "καὶ λέγει αὐτῷ· Ἀμὴν ἀμὴν λέγω ⸀ὑμῖν, ὄψεσθε τὸν οὐρανὸν ἀνεῳγότα καὶ τοὺς ἀγγέλους τοῦ θεοῦ ἀναβαίνοντας καὶ καταβαίνοντας ἐπὶ τὸν υἱὸν τοῦ ἀνθρώπου.",
+    "hint": "Amen, amen: heaven opened and God's messengers going up and down, Jacob's ladder from Genesis 28:12.",
+    "notes": [
+      {
+        "lemma": "ἀναβαίνοντας καὶ καταβαίνοντας",
+        "flag": null,
+        "text": "Genesis 28:12 in the Septuagint: οἱ ἄγγελοι τοῦ θεοῦ ἀνέβαινον καὶ κατέβαινον ἐπʼ αὐτῆς, on the ladder. Here they go up and down ἐπὶ τὸν υἱὸν τοῦ ἀνθρώπου. GEN 28:12 stands in the corpus, the same verbs in the same order."
+      },
+      {
+        "lemma": "Ἀμὴν ἀμὴν",
+        "flag": "name",
+        "text": "From Hebrew ʾāmēn, *firm, sure*, said to affirm: a transliteration, glossed as a name. Doubled, it opens a solemn saying, here for the first time in the book."
+      },
+      {
+        "lemma": "ἀγγέλους",
+        "flag": null,
+        "text": "ἄγγελος heads with *a messenger*: one sent with word, before the heavenly sense."
+      },
+      {
+        "lemma": "ἀνεῳγότα",
+        "flag": null,
+        "text": "Perfect participle of ἀνοίγω: heaven opened and standing open."
+      },
+      {
+        "lemma": "ὑμῖν",
+        "flag": "variant",
+        "text": "SBLGNT's ⸀: some manuscripts add ἀπʼ ἄρτι, *from now*."
+      }
+    ],
+    "reading": "and [[says|says / speaks, says / declares, says something of, calls by name, tells, boasts of / tells of, recites|λέγω]] to him: [[name:Ἀμὴν]] [[name:ἀμὴν]] [[I say|I say / speak, I say / declare, I say something of, I call by name, I tell, I mean, I boast of / tell of, I recite|λέγω]] to you, [[you will see|you will see / look, you will have sight, you will take heed / beware, you will look at / behold / perceive / observe, you will look out for / provide, you will discern / perceive|ὁράω]] [[the heaven|the heaven, the vault / firmament of heaven / sky, the region of heaven / climate|οὐρανός]] [[having opened|having opened and standing so, having undone / opened and standing so, having laid open / unfolded / disclosed and standing so, having got into the open sea / got clear of land and standing so|ἀνοίγω]] and [[the messengers|the messengers / envoys, the ones that announce, the divine messengers / the angels|ἄγγελος]] [[of the God|of him who is God definitively, of the one the article marks out, of the known and the only|θεός]] [[going up|going up / mounting / going up to, going up among, trampling on, going up on, mounting, going on board / embarking, going up, rising, overflowing, mounting the tribune, coming, coming to an end / turning out, coming to / passing over to|ἀναβαίνω]] and [[stepping down|stepping down / going / coming down, going down from, dismounting, coming down stairs, going down from the inland parts to the sea, coming to land / getting safe ashore, going down into the arena, coming down from the tribune, coming to, ending, bringing down|καταβαίνω]] [[upon|upon, on, in, at, near|ἐπί + accusative]] the son [[of the man|of the man, of mankind, of the man / fellow|ἄνθρωπος]].",
+    "names": [
+      {
+        "greek": "Ἀμὴν",
+        "unanchored": "Amēn",
+        "anchored": "Amen",
+        "gloss": "(ἀμήν, from Hebrew ʾāmēn, \"firm, sure\", said to affirm)"
+      },
+      {
+        "greek": "ἀμὴν",
+        "unanchored": "amēn",
+        "anchored": "amen",
+        "bare": true
+      }
+    ]
   }
 ]

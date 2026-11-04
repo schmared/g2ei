@@ -42,6 +42,14 @@ EXO26 = json.loads((render.DATA / "EXO/26.json").read_text(encoding="utf-8"))
 EXO8 = json.loads((render.DATA / "EXO/8.json").read_text(encoding="utf-8"))
 EXO15 = json.loads((render.DATA / "EXO/15.json").read_text(encoding="utf-8"))
 JHN = json.loads((render.DATA / "JHN/1.json").read_text(encoding="utf-8"))
+# the verse that names John first, found by its reference: the chapter once held 1:1, 1:2 and 1:6 alone
+JHN6 = next(v for v in JHN if v["ref"] == "JHN 1:6")
+J6 = JHN.index(JHN6)
+J42 = next(i for i, v in enumerate(JHN) if v["ref"] == "JHN 1:42")
+J48 = next(i for i, v in enumerate(JHN) if v["ref"] == "JHN 1:48")
+S42 = next(i for i, n in enumerate(JHN[J42]["names"]) if n["greek"] == "Σίμων")
+J51 = next(i for i, v in enumerate(JHN) if v["ref"] == "JHN 1:51")
+A51 = next(i for i, n in enumerate(JHN[J51]["names"]) if n["greek"] == "ἀμὴν")
 
 
 def mut(data, path, value):
@@ -214,7 +222,7 @@ R11 = GEN[0]["reading"]
 
 # The same name entry as John 1:6's, marked as a later occurrence: no gloss, and the
 # panel-specific form kept.
-BARE = {k: v for k, v in JHN[2]["names"][0].items() if k != "gloss"}
+BARE = {k: v for k, v in JHN6["names"][0].items() if k != "gloss"}
 BARE["bare"] = True
 
 # A transliteration the edition prints in lower case (GEN 3:24), in a verse of its own.
@@ -481,6 +489,10 @@ NEGATIVE = [
     ("1 sense  a word whose entry says more, left as plain text",
                                          lambda: run(V.check_one_sense, "GEN", 1,
                                                      shut(GEN, 0, "γῆ"))),
+    # συκῆ's *a fig* beside *the fig-tree*: read as *fig* and *tree*, the second sense was nothing more
+    ("1 sense  a hyphenated headword's second sense, left as plain text",
+                                         lambda: run(V.check_one_sense, "JHN", 1,
+                                                     shut(JHN, J48, "συκῆ"))),
     ("1 sense  a chain that only repeats its headword",
                                          lambda: run(V.check_one_sense, "GEN", 1,
                                                      mut(GEN, [0, "reading"],
@@ -494,16 +506,26 @@ NEGATIVE = [
     ("fields   dangling [[name:…]]",     lambda: run(V.check_fields, mut(GEN, [0, "reading"], "x [[name:Ἀβραάμ]]"))),
     ("fields   [[flag]] in the reading", lambda: run(V.check_fields, mut(GEN, [0, "reading"], "x [[flag]]"))),
     ("fields   OT verse with no print",  lambda: run(V.check_fields, mut(GEN, [0, "print"], ""))),
-    ("names    proper name unglossed",   lambda: run(V.check_names, mut(JHN, [2, "names"], []))),
-    ("names    marker missing",          lambda: run(V.check_names, mut(JHN, [2, "reading"], "no marker"))),
-    ("names    re-glossed in chapter",   lambda: run(V.check_names, JHN + [dict(JHN[2], ref="JHN 1:15")])),
+    ("names    proper name unglossed",   lambda: run(V.check_names, mut(JHN, [J6, "names"], []))),
+    ("names    marker missing",          lambda: run(V.check_names, mut(JHN, [J6, "reading"], "no marker"))),
+    ("names    re-glossed in chapter",   lambda: run(V.check_names, JHN + [dict(JHN6, ref="JHN 1:15")])),
+    # Σίμων at 1:42 is Σίμωνος of 1:40 in the nominative, its own bare stem: glossed again, it fails
+    # SBLGNT's ⸀ at JHN 1:28, with no note flagged variant
+    ("fields   a variant sign with no variant note",
+                                         lambda: run(V.check_fields, [dict(v, notes=[n for n in v["notes"] if n["flag"] != "variant"])
+                                                                      for v in JHN if v["ref"] == "JHN 1:28"])),
+    ("names    a third-declension name re-glossed",
+                                         lambda: run(V.check_names, mut(JHN, [J42, "names", S42], dict(JHN[J42]["names"][S42], bare=False, gloss="(Σίμων)")))),
+    # ἀμὴν after Ἀμὴν at 1:51 is one name, the capital the speech's: glossed again, it fails
+    ("names    a name re-glossed after its capital",
+                                         lambda: run(V.check_names, mut(JHN, [J51, "names", A51], dict(JHN[J51]["names"][A51], bare=False, gloss="(ἀμήν)")))),
     ("names    speech word not capital", lambda: run(V.check_names, mut(GEN, [0, "speech"], ["γῆν"]))),
     ("banned   in plain text",           lambda: run(V.check_banned, mut(GEN, [1, "reading"], "over the face of the waters"))),
     ("banned   inside a chain",          lambda: run(V.check_banned, mut(GEN, [1, "reading"], "[[x|upon the Face Of The Deep|γῆ]]"))),
     ("anchors  listed headword as text", lambda: run(V.check_anchors, mut(GEN, [0, "reading"], "In the beginning, " + R11))),
     ("anchors  own headword as text",    lambda: run(V.check_anchors, mut(GEN, [1, "reading"], "[[wind|a, b|πνεῦμα]] and the wind"))),
     ("anchors  name written as plain text",
-                                         lambda: run(V.check_anchors, mut(JHN, [2, "reading"], "there came to be John, [[name:Ἰωάννης]]"))),
+                                         lambda: run(V.check_anchors, mut(JHN, [J6, "reading"], "there came to be John, [[name:Ἰωάννης]]"))),
     ("words    a recorded difference that is not there",
                                          with_morph(lambda t: t.replace(
                                              "1:1 V- 3AAI-S-- ἐποίησεν ποιέω",
@@ -516,15 +538,15 @@ NEGATIVE = [
     ("greek    capital with no reason for it",
                                          lambda: run(V.check_greek, "GEN", 1, mut(GEN, [0, "greek"], "Ἐν ἀρχῇ ἐποίησεν ὁ Θεὸς τὸν οὐρανὸν καὶ τὴν γῆν."))),
     ("names    bare entry on a first occurrence",
-                                         lambda: run(V.check_names, mut(JHN, [2, "names"], [BARE]))),
+                                         lambda: run(V.check_names, mut(JHN, [J6, "names"], [BARE]))),
     ("names    lower-case transliteration with no marker",
                                          lambda: run(V.check_names, [dict(TRANSLIT, reading="and cherubim.")])),
     ("names    a name opening the verse, glossed but not marked",
-                                         lambda: run(V.check_names, [dict(JHN[2], greek="Ἰωάννης ἦν.", reading="John was.")])),
+                                         lambda: run(V.check_names, [dict(JHN6, greek="Ἰωάννης ἦν.", reading="John was.")])),
     ("names    transliteration entry for a word not printed",
                                          lambda: run(V.check_names, [dict(TRANSLIT, greek="καὶ ἔταξεν αὐτούς.")])),
     ("fields   bare entry still carrying a gloss",
-                                         lambda: run(V.check_fields, [dict(JHN[2], names=[dict(JHN[2]["names"][0], bare=True)])])),
+                                         lambda: run(V.check_fields, [dict(JHN6, names=[dict(JHN6["names"][0], bare=True)])])),
     # the project's own morphology, judged by its code's own grammar
     ("morph    infinitive with its slots shifted",
                                          with_morph(lambda t: t.replace("1:1 V- 3AAI-S-- ἐποίησεν", "1:1 V- --AAN--- ἐποίησεν"), "check_morph_shape")),
@@ -627,6 +649,10 @@ CONTROL = [
     ("anchors  clean GEN + JHN",         lambda: run(V.check_anchors, GEN + JHN)),
     ("coverage clean GEN 7",              lambda: run(V.check_coverage, "GEN", 7, GEN7)),
     ("delimiter clean GEN 7",             lambda: run(V.check_delimiter, "GEN", 7, GEN7)),
+    # στρέφω's `to turn to or from` says only *turn*: the item rendering it is `turning to / from`,
+    # not the first item holding *turn*, whose *and* is `to and fro`'s own
+    ("delimiter clean GEN 3, to and fro beside to / from",
+                                         lambda: run(V.check_delimiter, "GEN", 3, GEN3)),
     ("perfects clean GEN 9",              lambda: run(V.check_perfects, "GEN", 9, GEN9)),
     ("support  clean GEN 7",              lambda: run(V.check_support, "GEN", 7, GEN7)),
     ("english  clean GEN 7",              lambda: run(V.check_english, "GEN", 7, GEN7)),
@@ -674,25 +700,25 @@ CONTROL = [
                                                        "a capital with no reason must be a discrepancy")),
     # A name glossed once per chapter, bare after that, and still panel-specific.
     ("fields   a bare name needs no gloss",
-                                         lambda: run(V.check_fields, [dict(JHN[2], names=[BARE])])),
+                                         lambda: run(V.check_fields, [dict(JHN6, names=[BARE])])),
     ("names    a later occurrence takes a bare entry",
-                                         lambda: run(V.check_names, JHN + [dict(JHN[2], ref="JHN 1:15", names=[BARE])])),
+                                         lambda: run(V.check_names, JHN + [dict(JHN6, ref="JHN 1:15", names=[BARE])])),
     ("names    two cases of one name in one verse, each with its entry",
                                          lambda: run(V.check_names, json.loads((render.DATA / "GEN/16.json").read_text(encoding="utf-8"))[:2])),
     ("names    one form naming two bearers is glossed for each",
-                                         lambda: run(V.check_names, JHN + [dict(JHN[2], ref="JHN 1:15",
-                                                     names=[dict(JHN[2]["names"][0], anchored="Jonah")])])),
+                                         lambda: run(V.check_names, JHN + [dict(JHN6, ref="JHN 1:15",
+                                                     names=[dict(JHN6["names"][0], anchored="Jonah")])])),
     ("names    a lower-case transliteration is glossed like a name",
                                          lambda: run(V.check_names, [TRANSLIT])),
     ("names    a name twice in the verse that glosses it",
-                                         lambda: run(V.check_names, [dict(JHN[2], greek="ἦν Ἰωάννης, καὶ Ἰωάννης ἦν.",
+                                         lambda: run(V.check_names, [dict(JHN6, greek="ἦν Ἰωάννης, καὶ Ἰωάννης ἦν.",
                                                                           reading="was [[name:Ἰωάννης]], and [[name:Ἰωάννης]] was.")])),
     ("names    ...is glossed the first time only",
-                                         lambda: holds(render.reading("[[name:Ἰωάννης]] and [[name:Ἰωάννης]]", JHN[2]["names"], "anchored")
+                                         lambda: holds(render.reading("[[name:Ἰωάννης]] and [[name:Ἰωάννης]]", JHN6["names"], "anchored")
                                                        .count('class="paren"') == 1,
                                                        "a repeated name prints its gloss once")),
     ("names    a name opening the verse is still a name",
-                                         lambda: run(V.check_names, [dict(JHN[2], greek="Ἰωάννης ἦν.", reading="[[name:Ἰωάννης]] was.")])),
+                                         lambda: run(V.check_names, [dict(JHN6, greek="Ἰωάννης ἦν.", reading="[[name:Ἰωάννης]] was.")])),
     ("unit wds a merged unit names both its words",
                                          lambda: holds(V.lemmas("ἀνά + accusative; μέσος") == ["ἀνά", "μέσος"]
                                                        and V.lemmas("μετά + accusative") == ["μετά"],
@@ -763,12 +789,12 @@ CONTROL = [
     ("words    a documented difference is a note, not a failure",
                                          lambda: run(V.check_analysis, "GEN", 2)),
     ("anchors  a chain may contain the conventional form",
-                                         lambda: run(V.check_anchors, mut(JHN, [2, "reading"], "[[a park|a park, the garden of John, paradise|παράδεισος]] [[name:Ἰωάννης]]"))),
+                                         lambda: run(V.check_anchors, mut(JHN, [J6, "reading"], "[[a park|a park, the garden of John, paradise|παράδεισος]] [[name:Ἰωάννης]]"))),
     ("names    a bare name prints its form with no parenthetical",
                                          lambda: holds(
-                                             'class="paren"' not in render.reading(JHN[2]["reading"], [BARE], "anchored")
-                                             and "John" in render.reading(JHN[2]["reading"], [BARE], "anchored")
-                                             and "Iōannēs" in render.reading(JHN[2]["reading"], [BARE], "unanchored"),
+                                             'class="paren"' not in render.reading(JHN6["reading"], [BARE], "anchored")
+                                             and "John" in render.reading(JHN6["reading"], [BARE], "anchored")
+                                             and "Iōannēs" in render.reading(JHN6["reading"], [BARE], "unanchored"),
                                              "a bare name keeps its panel form and drops the gloss")),
     # the morphology: well-formed, consistent with itself, and comparable across passes
     ("morph    clean GEN 1",             lambda: run(V.check_morph_shape, "GEN", 1)),

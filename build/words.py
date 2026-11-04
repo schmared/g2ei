@@ -55,6 +55,8 @@ LSJ = {
     # LSJ gives ἁγιάζω no gloss of its own: the entry reads "= ἁγίζω, LXX Ge. 2.3",
     # so the senses are the ones the cross-reference points at, under ἁγίζω.
     "ἁγιάζω": ["hallow, make sacred"],
+    # Middle Liddell has no μεθερμηνεύω. LSJ: "translate, LXX Si.Prol., …:—freq. in Pass." (JHN 1:38)
+    "μεθερμηνεύω": ["translate"],
     # Middle Liddell has no πράσινος at all. LSJ prints "leek-green, light green" and
     # cites this very verse for the stone: "λίθος π., = πρασῖτις, LXX Ge. 2.12". Its
     # later sense, "the green faction", is the Circus faction, a substantive plural.
@@ -2756,6 +2758,8 @@ FORM_SENSES = {
 # (κατέναντι reads "= κατεναντίον" and glosses nothing itself). Each is recorded in
 # reference/lexicon-notes.md with the entry it resolves to.
 SPELLING = {
+    "fw=s": "fa/os",                # φῶς, the contraction Middle Liddell prints inside φάος (JHN 1:4)
+    "i)/de": "i)de/2",              # ἴδε, "imperat. aor. of εἶδον, lo, behold", the second ἰδέ (JHN 1:29)
     "e(kousi/ws": "e(kou/sios",       # the adverb, "adv. -ίως", inside the adjective's entry (EXO 36:2)
     "skopeu/w": "skope/w",           # σκοπεύω, "later form for σκοπέω" (EXO 33:8)
     "oi)kti/rw": "oi)ktei/rw",       # οἰκτίρω, "late form of οἰκτείρω" (EXO 33:19)
@@ -3445,6 +3449,16 @@ TEXT_LOST = {
     "a)lla/ssw": {"to take": "to take one thing for another"},            # «to take» one thing «for» another
     "sugxai/rw": {"joy, congratulate": "wish one joy, congratulate"},    # «to wish» one «joy, congratulate»
     "a)po/llumi": {"bore": "bore one to death"},                         # «to talk» or «bore» one «to death»
+    "e)chge/omai": {"to shew": "to shew one the way, go before, lead"},  # «to shew» one «the way, go before, lead»
+    "i(ma/s": {"the traces by which horses were": "the traces by which horses were attached to the chariot"},
+}
+
+# A misprint in the encoded entry, corrected to the word the entry plainly means and nothing more:
+# μένω's «to be lasting, remian, last, stand». GEN 24:55 printed it *remain* from its first draft
+# (lexicon-notes, *Words new in GEN 24*); the Q24 rebuild read the card back, misprint and all, into
+# every μένω unit, and John 1 gave it five more.
+MISPRINTS = {
+    "me/nw": {"remian": "remain"},
 }
 
 
@@ -3539,6 +3553,8 @@ def load_middle_liddell():
             # ἀπό's "from, away from. c. gen." — and the label is the entry's, not the gloss's.
             gloss = re.sub(r"\.?\s+c\. (?:gen|dat|acc)\.$", "", gloss)
             gloss = tidy_gloss(gloss)
+            for bad, good in MISPRINTS.get(re.sub(r"\d+$", "", key), {}).items():
+                gloss = re.sub(r"\b%s\b" % bad, good, gloss)
             cleaned.append((lost.get(gloss, gloss), joined))
         for at, gloss in MARKUP_LOST.get(key, ()):
             cleaned.insert(at, (gloss, False))
@@ -3760,6 +3776,9 @@ COVERAGE_NOT = {
         'independently': 'label: αὐτο- IN COMPOS.: the prefix',
         'just, exactly': 'label: αὐτο- IN COMPOS.: the prefix',
     },
+    'bapti/zw': {
+        'over head and ears': 'phrase: ὀφλήμασι βεβαπτισμένος, over head and ears in debt',
+    },
     'bo/trus': {
         'a flash of lightning': 'phrase: βόστρυχος: πυρὸς β., of a flash of lightning: πυρός says the fire',
     },
@@ -3805,6 +3824,10 @@ COVERAGE_NOT = {
     },
     'diati/qhmi': {
         'by will': 'piece: «devise» it «by will»: restored whole in TEXT_LOST',
+    },
+    'dida/skalos': {
+        'school': 'phrase: εἰς διδασκάλου φοιτᾶν, to go to school',
+        'taught the actors': 'label: why a dramatic poet was called διδάσκαλος',
     },
     'die/rxomai': {
         'shot through': "repeat: of 'to shoot through'; a thought shot through me",
@@ -3901,6 +3924,9 @@ COVERAGE_NOT = {
     },
     'e)ce/rxomai': {
         'turn out': "repeat: of 'to turn out'",
+    },
+    'e)chge/omai': {
+        'the way, go before, lead': 'piece: «to shew» one «the way, go before, lead»: restored whole in TEXT_LOST',
     },
     'e)k': {
         'with all': 'phrase: ἐκ θυμοῦ, with all my heart',
@@ -4011,6 +4037,12 @@ COVERAGE_NOT = {
     'eu)logi/a': {
         'of the alms collected': "label: the entry's label for a use",
     },
+    'eu)qu/nw': {
+        'straight': 'piece: «to steer» the bark «straight», «to make» crooked judgments «straight»',
+        'to make': 'piece: «to make» crooked judgments «straight»',
+        'call': 'piece: «call» him «to account»: the next translation says it whole',
+        'to account': 'piece: «call» him «to account»',
+    },
     'fai/nw': {
         '': "scrap: an empty item: the validator's report cut here",
         'a thing appears to be': "label: prose: 'φαίνεσθαι c. inf. indicates that a thing appears to be so and so'",
@@ -4065,6 +4097,12 @@ COVERAGE_NOT = {
     },
     'futeu/w': {
         'with fruit-trees': 'piece: to plant ground with fruit-trees',
+    },
+    'fwne/w': {
+        'making': 'piece: ὄπα φωνήσασα, «making» the voice «sound»',
+        'sound': 'piece: ὄπα φωνήσασα, «making» the voice «sound»',
+        'to have the': 'piece: μέγιστα φωνέειν, «to have the» loudest «voice»',
+        'voice': 'piece: μέγιστα φωνέειν, «to have the» loudest «voice»',
     },
     'fwnh/': {
         'an articulate sound': "repeat: φωνὴν ῥηγνύναι; the same as 'any articulate sound'",
@@ -4129,6 +4167,9 @@ COVERAGE_NOT = {
     },
     'i(kano/s': {
         'far enough': 'phrase: III.2, ἱκ. ἔχειν',
+    },
+    'i(ma/s': {
+        'leash': "repeat: ἱμὰς κύνειος, a proverb's: 'a dog-leash' again",
     },
     'i)sxu/s': {
         'perforce': "phrase: κατ' ἰσχύν",
@@ -4397,6 +4438,13 @@ COVERAGE_NOT = {
         'the person or thing to which one is like': 'label: Construction: in dat.',
         'in which each takes part': "piece: ὁμοία μάχη, an example's translation",
     },
+    'o(/pou': {
+        'in some places': "phrase: ἔσθ' ὅπου, Lat. est ubi",
+        'somewhere or other': 'phrase: ὅκου δή, with another particle, Lat. nescio ubi',
+        'wherever': "phrase: ὅπου ἄν, with the subjunctive: ἄν's",
+        'by which': "piece: οὐκ ἔσθ' ὅπου, there are no means «by which»",
+        'that': "piece: οὐκ ἔσθ' ὅπου, it is impossible «that»",
+    },
     'o(/pws': {
         'how, as': 'repeat: heading of I; repeats «as, in such manner as» and «how, in what manner»',
         'in such manner as, as': 'repeat: repeats «as, in such manner as»',
@@ -4446,6 +4494,10 @@ COVERAGE_NOT = {
         'further on the way, forwards': 'phrase: πρὸς ὁδοῦ',
         'methodically, systematically': 'phrase: ὁδῷ, the dative as a phrase (cf. ψήφῳ)',
         '': "scrap: empty: validate's cap cut here; the next card item is 'the Way'",
+    },
+    'o(mologe/w': {
+        'to have': "phrase: οὐδὲν ὁμ. τινι, to have naught to do with: οὐδέν carries 'naught'",
+        'to do with': 'phrase: οὐδὲν ὁμ. τινι, to have naught to do with',
     },
     'o(ra/w': {
         'he kept looking': "repeat: ὅρα, the imperfect of 'to see or look'",
@@ -4621,6 +4673,10 @@ COVERAGE_NOT = {
     'platu/nw': {
         "to widen one's": "piece: a piece of an example, to widen one's phylacteries",
     },
+    'plh/rwma': {
+        'their fill': "piece: πλ. τυρῶν, their fill of cheese: the example's possessive",
+        'their complement': "piece: of single ships, their complement: the example's possessive",
+    },
     'po/lis': {
         'their dwellings': 'label: glosses ἄστυ, set against πόλις',
     },
@@ -4760,6 +4816,9 @@ COVERAGE_NOT = {
     },
     'qe/ros': {
         'during the summer': 'phrase: τὸ θέρος, the accusative of time as a phrase',
+    },
+    'qea/omai': {
+        'the spectators': 'construction: οἱ θεώμενοι, the participle with the article',
     },
     'qu/ra': {
         'to put to': "phrase: θύρην ἐπιτιθέναι: ἐπιτιθέναι's",
@@ -5247,6 +5306,10 @@ COVERAGE_ONLY = {
         'together with': 'dative',  # in dat. with Subst.
         'and all': 'dative',  # αὐτῇ σὺν πήληκι; αὐτοῖς ἀνδράσι
     },
+    'bapti/zw': {
+        'soaked in wine': 'passive',  # Pass., βεβαπτισμένοι, metaph.
+        'to get oneself baptized': 'middle',  # Mid.
+    },
     'baru/s': {
         'ill': 'adverb',  # adv., βαρέως φέρειν, to take a thing ill
         'with disgust': 'adverb',  # adv., βαρέως ἀκούειν, to hear with disgust
@@ -5410,6 +5473,9 @@ COVERAGE_ONLY = {
     },
     'e)ci/sthmi': {
         'to shrink from, shun': 'perfect or passive',  # B.2, c. acc.
+    },
+    'e)cousi/a': {
+        'the authorities': 'plural',  # αἱ ἐξουσίαι
     },
     'e)gei/rw': {
         'to awake': 'passive',  # II Pass., with perf. act. ἐγρήγορα
@@ -5628,6 +5694,9 @@ COVERAGE_ONLY = {
     'eu)=': {
         'the right, the good cause': 'neuter',  # II as Subst., τὸ εὖ
     },
+    'fa/os': {
+        'eyes': 'plural',  # φάος, metaph., in pl. the eyes
+    },
     'fai/nw': {
         "to exhibit as one's own": 'middle',  # A, Mid.
         'born': 'passive',  # B.2, Pass., φανεὶς δύστηνος 'born to misery'
@@ -5645,6 +5714,9 @@ COVERAGE_ONLY = {
     },
     'fanero/s': {
         'openly, manifestly': 'adverb',  # I 5 adv. -ρῶς
+    },
+    'fanero/w': {
+        'to become so': 'passive',  # Pass., to become known or famous
     },
     'fe/rw': {
         "for one's own use": 'middle',  # Mid., to bring with one or for one's own use (IV)
@@ -5765,6 +5837,15 @@ COVERAGE_ONLY = {
     },
     'i(kano/s': {
         'sufficiently, adequately, enough': 'adverb',  # III, adv. -νῶς
+    },
+    'i(ma/s': {
+        'the traces by which horses were attached to the chariot': 'plural',  # in pl.
+        'the reins': 'plural',  # in pl.
+        'the straps': 'plural',  # in pl., on which the body of the chariot was hung
+        'the lash': 'plural',  # in pl., of a whip
+        'the caestus': 'plural',  # in pl., of boxers
+        'straps put round the hand': 'plural',  # in pl., the caestus
+        'girdle': 'singular',  # in sg., the magic girdle of Aphrodite
     },
     'i)a/omai': {
         'to be healed, to recover': 'passive',  # II, aor1 ἰάθην is always pass.
@@ -6204,6 +6285,13 @@ COVERAGE_ONLY = {
     },
     'o(moio/w': {
         'to make a like return': 'middle',  # 3, in Mid. also
+    },
+    'o(mologe/w': {
+        'I grant': 'first person active',  # ὁμολογῶ σοι, I grant you
+        'to be agreed upon, allowed or granted by common consent': 'passive',  # Pass.
+        'to be allowed or confessed to be': 'passive',  # Pass., c. inf.
+        'it is granted, allowed': 'passive',  # Pass., ὁμολογεῖται
+        'things granted': 'passive participle',  # τὰ ὁμολογούμενα
     },
     'o(ra/w': {
         'to let on': 'passive',  # cut at validate's 200-char limit (GEN 2:19); full: to let oneself be seen, appear (Pass.)
@@ -6878,6 +6966,11 @@ COVERAGE_ONLY = {
     'xrh/simos': {
         'advantage': 'neuter',  # τὸ αὐτίκα χρ., present advantage
     },
+    'xristo/s': {
+        'to be rubbed on': 'adjective',  # the adjective's
+        'anointed': 'adjective',  # the adjective's
+        'salves': 'neuter plural',  # τὰ χριστά
+    },
     'xroni/zw': {
         'to be prolonged or protracted': 'passive',  # II Pass.
         'to grow up': 'passive',  # II 2 under Pass., χρονισθείς
@@ -7103,9 +7196,13 @@ def nfc(s):
     return unicodedata.normalize("NFC", s)
 
 
+# Elision is written four ways: SBLGNT's ʼ (U+02BC), MorphGNT's ’ (U+2019), the koronis-like ᾿ and ᾽.
+ELIDED = dict.fromkeys(map(ord, "’᾿᾽ʼ'"), "ʼ")
+
+
 def same(a, b):
     """The source's form against ours; the verse-initial capital is ours to print."""
-    a, b = nfc(a), nfc(b)
+    a, b = nfc(a).translate(ELIDED), nfc(b).translate(ELIDED)
     return a == b or (a[:1].lower() == b[:1].lower() and a[1:] == b[1:])
 
 

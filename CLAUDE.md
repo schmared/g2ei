@@ -184,7 +184,9 @@ so genealogies stay readable.
 Both occurrences are written `[[name:…]]`. The first carries a full `names` entry; every
 later one carries an entry marked `"bare": true` with no `gloss`, which prints the form
 alone. A later occurrence is never plain text: the two panels print different forms of a
-name (*Edem* / *Eden*), and plain text cannot.
+name (*Edem* / *Eden*), and plain text cannot. A later occurrence in another case, or without
+the capital that opened a speech, is the same name and takes a bare entry: Σίμων after
+Σίμωνος, ἀμὴν after Ἀμὴν (JHN 1:42, 1:51).
 
 Both editions also capitalise the first word of direct speech (Gen 1:3 *Γενηθήτω*). List
 such words in the verse's `speech` field, so `validate.py` does not take them for names.
@@ -436,6 +438,8 @@ The count is checked as well as the name: two units may not open one word.
   *as a* with the Greek word next, or holds a Greek word the card would print as Beta Code
 - Greek text matches the source edition — New Testament character-for-character against
   SBLGNT; the Old Testament against the printed page every verse cites in `print`
+- every New Testament verse whose Greek carries SBLGNT's sign of a variant (⸀ ⸁ ⸂…⸃ ⸄…⸅ ⟦…⟧)
+  has a note flagged `variant`
 
 Mechanical checks catch drift that reading won't.
 

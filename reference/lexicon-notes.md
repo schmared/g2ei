@@ -8842,3 +8842,72 @@ Chains the settled open questions changed, corpus-wide.
   auxiliary, no function word with a verb's ending), which found the 70 units of example sentences rendered as the
   word's; and the cards' alignment: a word a verse says more often than it opens takes, in order, the occurrence
   whose card its chain fits (δέρρις at EXO 26:8 opens its third occurrence).
+
+### Words new in JHN 1
+
+- **The text**: SBLGNT's line, verbatim, its signs kept (⸀, ⸂…⸃); MorphGNT's morphology. Every verse carrying a
+  sign has a note flagged `variant`, and validate now checks it (1:28's ⸀ before ὁ had none).
+- **εἰμί**: where the Logos, the life or the light is the subject, the prologue's formula, `was, and was
+  continuously, and was already in unbroken existence without any point of having come to be` (1:1, 1:2, 1:4, 1:9,
+  1:10, and 1:15 and 1:30 of the one coming after John, who was first). Elsewhere the creature's, `was, and kept on
+  being as a standing and continuing condition and not a momentary one`: John at 1:8, the ones sent at 1:24, the
+  place and the hour at 1:28 and 1:39, Andrew at 1:40, Philip at 1:44. The infinitive at 1:46 `to be, to exist, to
+  last`.
+- **γίνομαι**: `came into being` heading `came to be, arose, was brought into existence` (1:3, 1:10, 1:14, 1:17,
+  1:28); the perfect `has come into being` heading `has come to be and stands so, has arisen and remains arisen, has
+  been brought into existence and continues so` (1:3, 1:15, 1:30); 1:6 keeps its `there came to be`.
+- **χριστός**: capitalised at 1:17, Ἰησοῦ Χριστοῦ, it is a name, `Christ (Χριστός, the Greek for "anointed", …)`. In
+  lower case at 1:20, 1:25 and 1:41 it is the noun, `the anointed one / the christ, the messiah`, Middle Liddell's «the
+  Anointed One, the Christ», «Messiah», with no capital, since the Greek marks none.
+- **Names**: Ῥαββί, Μεσσίας and ἀμήν are transliterations, and names. A later occurrence in another case, or without
+  the capital that opened a speech, takes a bare entry: Σίμων at 1:42 after Σίμωνος at 1:40, ἀμὴν after Ἀμὴν at
+  1:51. The names check had read the first pair as two names (a bare stem is matched only to a form one letter
+  longer, which keeps Καιν from Καιναν) and the second as two because of the capital; both had been glossed twice.
+- **Lexicon keys**: φῶς reads φάος, the contraction Middle Liddell prints inside it (`SPELLING`), and φάος's *eyes*,
+  "in pl.", is the plural's alone, out of EXO 10:23, 27:20, 35:14 and 39:16's singulars. ἴδε reads the second ἰδέ,
+  «lo, behold». μεθερμηνεύω is not in Middle Liddell: LSJ, *translate*, plain.
+- **Restored** (`TEXT_LOST`): ἐξηγέομαι's «to shew» one «the way, go before, lead»; ἱμάς's «the traces by which horses
+  were» attached to the chariot.
+- **A misprint** (`MISPRINTS`, new): μένω's «to be lasting, remian, last, stand». GEN 24 had printed *remain*; the
+  Q24 rebuild read the card back, misprint and all, into every μένω unit. The card says *remain* now, and the nine
+  units do.
+- **ὅπου**: a relative adverb of place, which the entry says in prose. Its first translation, «in some places», is
+  the phrase ἔσθ' ὅπου's, and «somewhere or other» and «wherever» are ὅκου δή's and ὅπου ἄν's; with the pieces of
+  οὐκ ἔσθ' ὅπου they are set aside. It heads with *where*: `where, whereas` (1:28).
+- **By form** (`dec9zz_john.jsonl`): ὁμολογέω's Pass. senses, *things granted* the passive participle's, *I grant*
+  the first person's; ἱμάς's plural senses (*the reins*, *the lash*, *the caestus*) and the singular's *girdle*;
+  βαπτίζω's *soaked in wine* (Pass.) and *to get oneself baptized* (Mid.); ἐξουσία's *the authorities* (pl.);
+  φανερόω's *to become so* (Pass.).
+- **Set aside** (`NOT_SENSES`): εὐθύνω's pieces (*straight*, *to make*, *call*, *to account*); ὁμολογέω's οὐδὲν ὁμ.
+  τινι; διδάσκαλος's *school* and the label *taught the actors*; φωνέω's pieces; θεάομαι's οἱ θεώμενοι; βαπτίζω's
+  *over head and ears*; πλήρωμα's possessives (*their fill*, *their complement*); ἐξηγέομαι's piece of «to shew».
+- **πᾶς**: Q33 gave *the whole / one's all* to the neuter singular, τὸ πᾶν. 564 chains in Genesis and Exodus
+  carried it in other forms; they do not now.
+- **Corrections beside it**: στρέφω at GEN 3:24, EXO 4:17 and 7:15 reads `turning to and fro` again. The delimiter
+  check had taken that *and* for the pieces of «to turn to» or «from», since the first item holding *turn* was the
+  one it read, and a mechanical pass cut it to `to / fro`; the check now reads the item that says the run and least
+  else. `to turn to or from` is in all four chains (`the one turning to / from`), and `revolving` carries the
+  article's noun as the rest of the chain does. JHN 1:38's aorist passive had been passivized again (`having been
+  tossed`), which Q35 rules out: `having turned himself / having turned round / having turned about / having turned
+  to and fro, having tossed, …`, as EXO 4:17. ὑπόδημα's «a shoe or half-boot» is two translations joined with *or*:
+  `the shoe / half-boot` (GEN 14:23, EXO 3:5, 12:11, JHN 1:27). πλήρης at GEN 35:29, EXO 9:8 and 16:33 gains
+  `filled with`, as its siblings carry it. The stemmer read *relying* as *re-* and *lying*; it does not now.
+- New chains: φῶς `the light / daylight`; σκοτία `within, inside of, and by means of the darkness / gloom`; ἐξουσία
+  `power / authority, power over / licence in, an office / magistracy, abundance of means / resources, pomp`; θεάομαι
+  `we looked on / gazed at / viewed / beheld, we reconnoitred, we viewed as spectators, we reviewed`; μονογενής
+  `only-begotten / single, one and the same`; πλήρωμα `of the full measure, of the satiety, of the full number, …`;
+  ἐξηγέομαι `was leader of, led / directed / governed, went first / led the way, …`; ὁμολογέω `spoke together, spoke
+  one language, …`; ἀπόκρισις `a separating, an answer`; εὐθύνω `guide straight / direct, steer, …`; βαπτίζω `you
+  dip in / under water, you baptize`; ἱμάς `the leathern strap / thong, the girdle, the chin-strap, the latchet /
+  thong, the dog-leash`; ἴδε `lo / behold`; φανερόω `may be made manifest, may be made known / famous, may become
+  so`; μαθητής `of the learners / pupils`; ἐμβλέπω `having looked in the face / looked at`; ἀκολουθέω `followed /
+  obeyed, went after or with, followed the thread, followed upon / were consequent upon`; διδάσκαλος `teacher /
+  master, a dramatic poet`; ἑρμηνεύω `is interpreted / put into words / given utterance to, is explained`; φωνέω's
+  articular infinitive `of the producing a sound / tone, …, of the having a voice / being significant, …`; τίς `who
+  / which`; σκηνόω `pitched tents / encamped, dwelt in a tent, …`, the verb of GEN 13:12.
+- One translation each, plain text: ἀμνός *a lamb*; ἀγαθός at 1:46, whose noun senses are the same word.
+- συκῆ: `the fig-tree, the fig` (1:48), `of the fig-tree, of the fig` (1:50), as GEN 3:7. Drafted plain, it passed:
+  the unit check read *fig-tree* as *fig* and *tree*, so *a fig* said nothing more. It keeps a hyphenated word
+  whole now, and no other word in the corpus moved.
+- **Tools**: `siblings.py` rebuilds a new chapter's units from their fullest corpus sibling, so the range check has
+  nothing to report; `repair.py`'s seed rule expands a chain that is its headword alone.

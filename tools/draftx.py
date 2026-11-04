@@ -76,6 +76,11 @@ def build():
         for field in ("speech", "printed"):
             if field in sk:
                 v[field] = sk[field]
+        # a speech capital the chapter glosses as a name (Ῥαββί, Ἀμήν) is a name, not a speech-opener
+        if v.get("speech"):
+            v["speech"] = [w for w in v["speech"] if w not in NAMES]
+            if not v["speech"]:
+                del v["speech"]
         out.append(v)
     return out
 

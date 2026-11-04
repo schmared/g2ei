@@ -73,7 +73,14 @@ The files are read in name order and a later hand-made file replaces an earlier 
 - `repair.py [--write]` brings chains to their cards: drops an item no translation gives, prints a voice's own
   sense in its own voice, renders an example's person or tense in the form, joins a run's pieces with the
   delimiter, renders a translation the chain lacks, and puts the perfect's formula after every item. It writes
-  `work/fix35_report.txt`; read it before writing.
+  `work/fix35_report.txt`; read it before writing. On a new chapter's draft, a unit whose chain is its headword
+  alone is a seed: it is expanded into the headword's own run, the headword's piece first, and only a seed has
+  its pieces merged into one item — a settled chain's items are not merged.
+- `siblings.py BOOK CH [--write]` reads a chapter's units against their siblings, the units elsewhere of one word,
+  part of speech, voice and number on one card, which validate's range check holds to one count. A unit with
+  fewer items than its fullest sibling is rebuilt in the sibling's order, each translation rendered in this
+  unit's form (`work/siblings_report.txt`). Run it after `repair.py` on a new chapter, and on an old one the
+  range check names.
 - `cards.py LEMMA … | --top N` writes a review sheet, each card's translations with their verdicts and the
   entry's text (`work/review33.txt`).
 - `rebuild.py` and `rebuild2.py` are the Q24 rebuild, kept for the renderer they hold (`rebuild.verb_item`,
@@ -88,3 +95,8 @@ The files are read in name order and a later hand-made file replaces an earlier 
 - Filing a scrap can expose old split runs elsewhere: rebuild every layer and validate.
 - A name: reuse an earlier chapter's gloss, and check the bearer is the same.
 - Never write a regex with `\b` through a shell heredoc: it can arrive as a backspace. Use a file.
+- A chain's own *and* is not always a run's: `to and fro` is one English expression. The delimiter check once
+  took it for `to turn to or from`'s pieces, and a mechanical pass cut it to `to / fro`; read a delimiter report
+  against the entry before acting on it.
+- A name's later occurrence in another case or under another capital takes a bare entry: Σίμων after Σίμωνος,
+  ἀμὴν after Ἀμὴν. The names check reads them as one name.

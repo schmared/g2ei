@@ -65,7 +65,7 @@ def main():
             if line:
                 row = json.loads(line)
                 # only the hand-made verdicts replace an earlier call; the agents' files are read as before
-                row["_manual"] = "manual" in path or "q33" in path
+                row["_manual"] = not re.match(r"dec[1-6](_hidden|_extra)?\.jsonl$", os.path.basename(path))
                 rows.append(row)
     notd = collections.defaultdict(dict)
     onlyd = collections.defaultdict(dict)
