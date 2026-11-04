@@ -80,12 +80,12 @@
           "aspect": "",
           "senses": [
             "day",
-            "day-break",
             "a state or time of life",
             "a life",
-            "days"
+            "days",
+            "time"
           ],
-          "more": 5,
+          "more": 1,
           "lexicon": "Middle Liddell"
         },
         {
@@ -111,7 +111,7 @@
             "to see to, look to",
             "take heed, beware"
           ],
-          "more": 8,
+          "more": 7,
           "lexicon": "Middle Liddell"
         },
         {
@@ -133,12 +133,12 @@
           "aspect": "was, and kept on being: action going on in past time",
           "senses": [
             "to suppose, think, deem, imagine",
-            "I think",
-            "I think I shall. .",
-            "I do",
-            "think"
+            "think",
+            "mean",
+            "I expect",
+            "I fear"
           ],
-          "more": 13,
+          "more": 8,
           "lexicon": "Middle Liddell"
         },
         {
@@ -1407,11 +1407,11 @@
           "senses": [
             "one",
             "a single one, one alone",
-            "by himself",
-            "one by one",
-            "the same"
+            "the same",
+            "one with . .",
+            "a, an"
           ],
-          "more": 2,
+          "more": 0,
           "lexicon": "Middle Liddell"
         },
         {
@@ -1992,9 +1992,9 @@
             "to jumble up",
             "to trouble",
             "confound, agitate, disturb, disquiet",
-            "to cause confusion"
+            "to throw into disorder"
           ],
-          "more": 8,
+          "more": 7,
           "lexicon": "Middle Liddell"
         },
         {
@@ -2083,7 +2083,7 @@
             "invited",
             "to call on, invoke"
           ],
-          "more": 9,
+          "more": 3,
           "lexicon": "Middle Liddell"
         },
         {
@@ -2098,7 +2098,7 @@
             "every",
             "everyone"
           ],
-          "more": 6,
+          "more": 5,
           "lexicon": "Middle Liddell"
         },
         {
@@ -2166,7 +2166,7 @@
             "every",
             "everyone"
           ],
-          "more": 6,
+          "more": 5,
           "lexicon": "Middle Liddell"
         },
         {
@@ -2498,12 +2498,12 @@
           "aspect": "going on, in progress",
           "senses": [
             "to say, speak",
-            "say on",
             "to say, declare",
             "say something of",
-            "to call by name"
+            "to call by name",
+            "to call"
           ],
-          "more": 9,
+          "more": 4,
           "lexicon": "Middle Liddell"
         },
         {
@@ -2668,7 +2668,7 @@
             "in",
             "into"
           ],
-          "more": 41,
+          "more": 40,
           "lexicon": "Middle Liddell"
         },
         {
@@ -2749,12 +2749,12 @@
           "aspect": "",
           "senses": [
             "a house, abode, dwelling",
-            "home, within",
             "part of a house, a room, chamber",
             "the house of a god, a temple",
-            "one's house, household goods, substance"
+            "one's house, household goods, substance",
+            "a house, household, family"
           ],
-          "more": 1,
+          "more": 0,
           "lexicon": "Middle Liddell"
         },
         {
@@ -2880,7 +2880,7 @@
             "to see to, look to",
             "take heed, beware"
           ],
-          "more": 8,
+          "more": 7,
           "lexicon": "Middle Liddell"
         },
         {
@@ -2933,11 +2933,11 @@
           "senses": [
             "one",
             "a single one, one alone",
-            "by himself",
-            "one by one",
-            "the same"
+            "the same",
+            "one with . .",
+            "a, an"
           ],
-          "more": 2,
+          "more": 0,
           "lexicon": "Middle Liddell"
         },
         {
@@ -3077,7 +3077,7 @@
             "to see to, look to",
             "take heed, beware"
           ],
-          "more": 8,
+          "more": 7,
           "lexicon": "Middle Liddell"
         }
       ]
@@ -3606,7 +3606,7 @@
             "invited",
             "to call on, invoke"
           ],
-          "more": 9,
+          "more": 3,
           "lexicon": "Middle Liddell"
         },
         {
@@ -3790,9 +3790,9 @@
             "to give in exchange for, barter",
             "to repay, requite",
             "to give up, leave, quit",
-            "to assume"
+            "to take one thing for another"
           ],
-          "more": 1,
+          "more": 2,
           "lexicon": "Middle Liddell"
         },
         {
@@ -3862,10 +3862,9 @@
             "to come or go",
             "to come or go back, return",
             "to go",
-            "I go to",
-            "I am going to"
+            "to come"
           ],
-          "more": 3,
+          "more": 0,
           "lexicon": "Middle Liddell"
         },
         {
@@ -3906,12 +3905,12 @@
           "aspect": "one completed act seen whole, not a process observed in progress",
           "senses": [
             "to say, speak",
-            "say on",
             "to say, declare",
             "say something of",
-            "to call by name"
+            "to call by name",
+            "to call"
           ],
-          "more": 9,
+          "more": 4,
           "lexicon": "Middle Liddell"
         },
         {
@@ -3990,7 +3989,7 @@
             "to see to, look to",
             "take heed, beware"
           ],
-          "more": 8,
+          "more": 7,
           "lexicon": "Middle Liddell"
         },
         {
@@ -4109,12 +4108,12 @@
           "aspect": "a standing resultant state, not a past event",
           "senses": [
             "to hear",
-            "pers, from whom it is heard",
             "to have hearing of",
             "to hear of, hear tell of",
-            "from whom"
+            "to know by hearsay",
+            "to hearken, give ear"
           ],
-          "more": 6,
+          "more": 4,
           "lexicon": "Middle Liddell"
         },
         {
@@ -4150,12 +4149,12 @@
           "aspect": "going on, in progress",
           "senses": [
             "to say, speak",
-            "say on",
             "to say, declare",
             "say something of",
-            "to call by name"
+            "to call by name",
+            "to call"
           ],
-          "more": 9,
+          "more": 4,
           "lexicon": "Middle Liddell"
         },
         {
@@ -4165,12 +4164,12 @@
           "aspect": "one completed act seen whole, not a process observed in progress",
           "senses": [
             "to hear",
-            "pers, from whom it is heard",
             "to have hearing of",
             "to hear of, hear tell of",
-            "from whom"
+            "to know by hearsay",
+            "to hearken, give ear"
           ],
-          "more": 6,
+          "more": 4,
           "lexicon": "Middle Liddell"
         },
         {
@@ -4302,12 +4301,12 @@
           "aspect": "one completed act seen whole, not a process observed in progress",
           "senses": [
             "to say, speak",
-            "say on",
             "to say, declare",
             "say something of",
-            "to call by name"
+            "to call by name",
+            "to call"
           ],
-          "more": 9,
+          "more": 4,
           "lexicon": "Middle Liddell"
         },
         {
@@ -4496,12 +4495,12 @@
           "aspect": "going on, in progress",
           "senses": [
             "to say, speak",
-            "say on",
             "to say, declare",
             "say something of",
-            "to call by name"
+            "to call by name",
+            "to call"
           ],
-          "more": 9,
+          "more": 4,
           "lexicon": "Middle Liddell"
         },
         {
@@ -4565,12 +4564,12 @@
           "aspect": "was, and kept on being: action going on in past time",
           "senses": [
             "to suppose, think, deem, imagine",
-            "I think",
-            "I think I shall. .",
-            "I do",
-            "think"
+            "think",
+            "mean",
+            "I expect",
+            "I fear"
           ],
-          "more": 15,
+          "more": 11,
           "lexicon": "Middle Liddell"
         },
         {
@@ -5280,7 +5279,7 @@
             "to see to, look to",
             "take heed, beware"
           ],
-          "more": 8,
+          "more": 7,
           "lexicon": "Middle Liddell"
         },
         {
@@ -5775,7 +5774,6 @@
           "aspect": "",
           "senses": [
             "that",
-            "although",
             "for that, because, seeing that, inasmuch as"
           ],
           "more": 0,
@@ -6062,7 +6060,7 @@
             "to see to, look to",
             "take heed, beware"
           ],
-          "more": 8,
+          "more": 7,
           "lexicon": "Middle Liddell"
         },
         {
@@ -6236,11 +6234,11 @@
           "senses": [
             "one",
             "a single one, one alone",
-            "by himself",
-            "one by one",
-            "the same"
+            "the same",
+            "one with . .",
+            "a, an"
           ],
-          "more": 2,
+          "more": 0,
           "lexicon": "Middle Liddell"
         },
         {
@@ -6407,11 +6405,11 @@
           "senses": [
             "to have or to hold",
             "to have, possess",
-            "a wealthy man",
             "to be possessed by, belong to",
-            "kept"
+            "kept",
+            "to dwell in, inhabit, haunt"
           ],
-          "more": 53,
+          "more": 41,
           "lexicon": "Middle Liddell"
         },
         {
@@ -6677,12 +6675,12 @@
           "aspect": "one completed act seen whole, not a process observed in progress",
           "senses": [
             "to say, speak",
-            "say on",
             "to say, declare",
             "say something of",
-            "to call by name"
+            "to call by name",
+            "to call"
           ],
-          "more": 10,
+          "more": 5,
           "lexicon": "Middle Liddell"
         },
         {
@@ -6835,12 +6833,12 @@
           "aspect": "one completed act seen whole, not a process observed in progress",
           "senses": [
             "to say, speak",
-            "say on",
             "to say, declare",
             "say something of",
-            "to call by name"
+            "to call by name",
+            "to call"
           ],
-          "more": 9,
+          "more": 4,
           "lexicon": "Middle Liddell"
         },
         {
@@ -6926,11 +6924,11 @@
           "senses": [
             "one",
             "a single one, one alone",
-            "by himself",
-            "one by one",
-            "the same"
+            "the same",
+            "one with . .",
+            "a, an"
           ],
-          "more": 2,
+          "more": 0,
           "lexicon": "Middle Liddell"
         },
         {
@@ -7000,10 +6998,10 @@
             "to make",
             "to do",
             "to make, produce, create",
-            "to have",
-            "made"
+            "to make, create",
+            "to compose, write"
           ],
-          "more": 17,
+          "more": 12,
           "lexicon": "Middle Liddell"
         },
         {
@@ -7325,11 +7323,11 @@
           "senses": [
             "one",
             "a single one, one alone",
-            "by himself",
-            "one by one",
-            "the same"
+            "the same",
+            "one with . .",
+            "a, an"
           ],
-          "more": 2,
+          "more": 0,
           "lexicon": "Middle Liddell"
         },
         {
@@ -7763,12 +7761,12 @@
           "aspect": "a standing resultant state, not a past event",
           "senses": [
             "to say, speak",
-            "say on",
             "to say, declare",
             "say something of",
-            "to call by name"
+            "to call by name",
+            "to call"
           ],
-          "more": 10,
+          "more": 5,
           "lexicon": "Middle Liddell"
         },
         {
@@ -7835,10 +7833,10 @@
             "to make",
             "to do",
             "to make, produce, create",
-            "to have",
-            "made"
+            "to make, create",
+            "to compose, write"
           ],
-          "more": 17,
+          "more": 12,
           "lexicon": "Middle Liddell"
         },
         {
@@ -7934,10 +7932,9 @@
             "to come or go",
             "to come or go back, return",
             "to go",
-            "I go to",
-            "I am going to"
+            "to come"
           ],
-          "more": 3,
+          "more": 0,
           "lexicon": "Middle Liddell"
         },
         {
@@ -7996,7 +7993,7 @@
             "every",
             "everyone"
           ],
-          "more": 8,
+          "more": 5,
           "lexicon": "Middle Liddell"
         },
         {
@@ -8356,8 +8353,7 @@
             "to look upon, witness, observe",
             "to recognise, know again",
             "to acknowledge or approve",
-            "to find out, discover, detect",
-            "to come to a decision, to resolve, decide"
+            "to find out, discover, detect"
           ],
           "more": 0,
           "lexicon": "Middle Liddell"
@@ -8448,7 +8444,7 @@
             "far from",
             "away from"
           ],
-          "more": 15,
+          "more": 13,
           "lexicon": "Middle Liddell"
         },
         {
@@ -8560,9 +8556,9 @@
             "since, as",
             "for otherwise, else",
             "now",
-            "but"
+            "why, what"
           ],
-          "more": 2,
+          "more": 0,
           "lexicon": "Middle Liddell"
         },
         {
@@ -8713,7 +8709,6 @@
           "aspect": "",
           "senses": [
             "that",
-            "although",
             "for that, because, seeing that, inasmuch as"
           ],
           "more": 0,
@@ -8916,10 +8911,10 @@
             "to make",
             "to do",
             "to make, produce, create",
-            "to have",
-            "made"
+            "to make, create",
+            "to compose, write"
           ],
-          "more": 17,
+          "more": 12,
           "lexicon": "Middle Liddell"
         },
         {
@@ -9156,10 +9151,10 @@
             "to make",
             "to do",
             "to make, produce, create",
-            "to have",
-            "made"
+            "to make, create",
+            "to compose, write"
           ],
-          "more": 18,
+          "more": 13,
           "lexicon": "Middle Liddell"
         },
         {
@@ -9298,7 +9293,7 @@
             "every",
             "everyone"
           ],
-          "more": 8,
+          "more": 7,
           "lexicon": "Middle Liddell"
         },
         {
@@ -9483,7 +9478,7 @@
             "every",
             "everyone"
           ],
-          "more": 8,
+          "more": 7,
           "lexicon": "Middle Liddell"
         },
         {
@@ -9575,10 +9570,9 @@
             "to come or go",
             "to come or go back, return",
             "to go",
-            "I go to",
-            "I am going to"
+            "to come"
           ],
-          "more": 3,
+          "more": 0,
           "lexicon": "Middle Liddell"
         },
         {
@@ -9648,12 +9642,12 @@
           "aspect": "one completed act seen whole, not a process observed in progress",
           "senses": [
             "to bring together, gather together, collect, convene",
-            "to engage",
             "to bring together, join in one, unite",
             "to contract",
-            "to receive into one's house"
+            "to receive into one's house",
+            "to gather together"
           ],
-          "more": 6,
+          "more": 5,
           "lexicon": "Middle Liddell"
         },
         {
@@ -9711,9 +9705,9 @@
             "the hand and arm, the arm",
             "the arms",
             "the arm",
-            "on"
+            "hand"
           ],
-          "more": 15,
+          "more": 9,
           "lexicon": "Middle Liddell"
         },
         {
@@ -9789,13 +9783,13 @@
           "parse": "verb · aorist · passive · imperative · 3rd person · singular",
           "aspect": "one completed act seen whole, not a process observed in progress",
           "senses": [
-            "to keep watch and ward, keep guard",
             "to watch, guard, keep, defend",
             "to guard",
             "to be watched, kept under guard",
-            "to watch for, lie in wait or ambush for"
+            "to watch for, lie in wait or ambush for",
+            "to look out for"
           ],
-          "more": 11,
+          "more": 10,
           "lexicon": "Middle Liddell"
         }
       ]
@@ -9864,13 +9858,13 @@
           "parse": "verb · perfect · middle/passive · participle · nominative · plural · neuter",
           "aspect": "a standing resultant state, not a past event",
           "senses": [
-            "to keep watch and ward, keep guard",
             "to watch, guard, keep, defend",
             "to guard",
             "to be watched, kept under guard",
-            "to watch for, lie in wait or ambush for"
+            "to watch for, lie in wait or ambush for",
+            "to look out for"
           ],
-          "more": 22,
+          "more": 18,
           "lexicon": "Middle Liddell"
         },
         {
@@ -10293,7 +10287,7 @@
             "every",
             "everyone"
           ],
-          "more": 6,
+          "more": 5,
           "lexicon": "Middle Liddell"
         },
         {
@@ -10368,12 +10362,12 @@
           "aspect": "one completed act seen whole, not a process observed in progress",
           "senses": [
             "to say, speak",
-            "say on",
             "to say, declare",
             "say something of",
-            "to call by name"
+            "to call by name",
+            "to call"
           ],
-          "more": 9,
+          "more": 4,
           "lexicon": "Middle Liddell"
         },
         {
@@ -10399,7 +10393,7 @@
             "every",
             "everyone"
           ],
-          "more": 6,
+          "more": 5,
           "lexicon": "Middle Liddell"
         },
         {
@@ -10471,9 +10465,9 @@
             "to find that",
             "found",
             "to find out, discover",
-            "to find out for oneself"
+            "to devise, invent"
           ],
-          "more": 3,
+          "more": 2,
           "lexicon": "Middle Liddell"
         },
         {
@@ -10530,7 +10524,7 @@
             "kept",
             "to dwell in, inhabit, haunt"
           ],
-          "more": 39,
+          "more": 33,
           "lexicon": "Middle Liddell"
         },
         {
@@ -10604,12 +10598,12 @@
           "aspect": "one completed act seen whole, not a process observed in progress",
           "senses": [
             "to say, speak",
-            "say on",
             "to say, declare",
             "say something of",
-            "to call by name"
+            "to call by name",
+            "to call"
           ],
-          "more": 9,
+          "more": 4,
           "lexicon": "Middle Liddell"
         },
         {
@@ -10746,7 +10740,7 @@
             "every",
             "everyone"
           ],
-          "more": 8,
+          "more": 7,
           "lexicon": "Middle Liddell"
         },
         {
@@ -10921,12 +10915,12 @@
           "aspect": "",
           "senses": [
             "a house, abode, dwelling",
-            "home, within",
             "part of a house, a room, chamber",
             "the house of a god, a temple",
-            "one's house, household goods, substance"
+            "one's house, household goods, substance",
+            "a house, household, family"
           ],
-          "more": 1,
+          "more": 0,
           "lexicon": "Middle Liddell"
         },
         {
@@ -11038,7 +11032,7 @@
             "every",
             "everyone"
           ],
-          "more": 8,
+          "more": 5,
           "lexicon": "Middle Liddell"
         },
         {
@@ -11176,12 +11170,12 @@
           "aspect": "one completed act seen whole, not a process observed in progress",
           "senses": [
             "to say, speak",
-            "say on",
             "to say, declare",
             "say something of",
-            "to call by name"
+            "to call by name",
+            "to call"
           ],
-          "more": 9,
+          "more": 4,
           "lexicon": "Middle Liddell"
         },
         {
@@ -11314,7 +11308,7 @@
             "every",
             "everyone"
           ],
-          "more": 8,
+          "more": 5,
           "lexicon": "Middle Liddell"
         },
         {
@@ -11426,7 +11420,7 @@
             "far from",
             "away from"
           ],
-          "more": 15,
+          "more": 13,
           "lexicon": "Middle Liddell"
         },
         {
@@ -11454,9 +11448,9 @@
             "the hand and arm, the arm",
             "the arms",
             "the arm",
-            "on"
+            "hand"
           ],
-          "more": 15,
+          "more": 9,
           "lexicon": "Middle Liddell"
         },
         {
@@ -11541,9 +11535,9 @@
             "the hand and arm, the arm",
             "the arms",
             "the arm",
-            "on"
+            "hand"
           ],
-          "more": 15,
+          "more": 9,
           "lexicon": "Middle Liddell"
         },
         {
@@ -12070,12 +12064,12 @@
           "aspect": "one completed act seen whole, not a process observed in progress",
           "senses": [
             "to say, speak",
-            "say on",
             "to say, declare",
             "say something of",
-            "to call by name"
+            "to call by name",
+            "to call"
           ],
-          "more": 9,
+          "more": 4,
           "lexicon": "Middle Liddell"
         },
         {
@@ -12240,9 +12234,9 @@
             "the hand and arm, the arm",
             "the arms",
             "the arm",
-            "on"
+            "hand"
           ],
-          "more": 15,
+          "more": 9,
           "lexicon": "Middle Liddell"
         },
         {
@@ -12287,7 +12281,7 @@
             "every",
             "everyone"
           ],
-          "more": 8,
+          "more": 5,
           "lexicon": "Middle Liddell"
         },
         {
@@ -12348,7 +12342,7 @@
             "invited",
             "to call on, invoke"
           ],
-          "more": 9,
+          "more": 3,
           "lexicon": "Middle Liddell"
         },
         {
@@ -12441,7 +12435,7 @@
             "to offer to the gods",
             "gave"
           ],
-          "more": 9,
+          "more": 8,
           "lexicon": "Middle Liddell"
         },
         {
@@ -12845,7 +12839,7 @@
             "every",
             "everyone"
           ],
-          "more": 8,
+          "more": 5,
           "lexicon": "Middle Liddell"
         },
         {
@@ -12903,10 +12897,10 @@
             "to make",
             "to do",
             "to make, produce, create",
-            "to have",
-            "made"
+            "to make, create",
+            "to compose, write"
           ],
-          "more": 17,
+          "more": 12,
           "lexicon": "Middle Liddell"
         },
         {
@@ -13082,7 +13076,7 @@
             "every",
             "everyone"
           ],
-          "more": 8,
+          "more": 7,
           "lexicon": "Middle Liddell"
         },
         {
@@ -13757,9 +13751,9 @@
             "since, as",
             "for otherwise, else",
             "now",
-            "but"
+            "why, what"
           ],
-          "more": 2,
+          "more": 0,
           "lexicon": "Middle Liddell"
         },
         {
@@ -13913,10 +13907,9 @@
             "to come or go",
             "to come or go back, return",
             "to go",
-            "I go to",
-            "I am going to"
+            "to come"
           ],
-          "more": 3,
+          "more": 0,
           "lexicon": "Middle Liddell"
         },
         {
@@ -14117,7 +14110,7 @@
             "invited",
             "to call on, invoke"
           ],
-          "more": 9,
+          "more": 3,
           "lexicon": "Middle Liddell"
         },
         {
@@ -14220,7 +14213,6 @@
           "aspect": "",
           "senses": [
             "that",
-            "although",
             "for that, because, seeing that, inasmuch as"
           ],
           "more": 0,
@@ -14257,10 +14249,10 @@
             "to make",
             "to do",
             "to make, produce, create",
-            "to have",
-            "made"
+            "to make, create",
+            "to compose, write"
           ],
-          "more": 17,
+          "more": 12,
           "lexicon": "Middle Liddell"
         },
         {
@@ -14304,7 +14296,7 @@
             "every",
             "everyone"
           ],
-          "more": 6,
+          "more": 5,
           "lexicon": "Middle Liddell"
         },
         {
@@ -14375,7 +14367,7 @@
             "every",
             "everyone"
           ],
-          "more": 6,
+          "more": 5,
           "lexicon": "Middle Liddell"
         },
         {
@@ -14417,8 +14409,7 @@
             "a father",
             "a grandfather",
             "the father",
-            "fathers",
-            "from one's fathers"
+            "fathers"
           ],
           "more": 0,
           "lexicon": "Middle Liddell"
@@ -14526,7 +14517,7 @@
             "invited",
             "to call on, invoke"
           ],
-          "more": 9,
+          "more": 3,
           "lexicon": "Middle Liddell"
         },
         {
@@ -14547,7 +14538,6 @@
           "aspect": "",
           "senses": [
             "that",
-            "although",
             "for that, because, seeing that, inasmuch as"
           ],
           "more": 0,
@@ -14944,10 +14934,9 @@
             "to come or go",
             "to come or go back, return",
             "to go",
-            "I go to",
-            "I am going to"
+            "to come"
           ],
-          "more": 3,
+          "more": 0,
           "lexicon": "Middle Liddell"
         },
         {
@@ -14969,12 +14958,12 @@
           "aspect": "one completed act seen whole, not a process observed in progress",
           "senses": [
             "to say, speak",
-            "say on",
             "to say, declare",
             "say something of",
-            "to call by name"
+            "to call by name",
+            "to call"
           ],
-          "more": 9,
+          "more": 4,
           "lexicon": "Middle Liddell"
         },
         {
@@ -15056,7 +15045,7 @@
             "every",
             "everyone"
           ],
-          "more": 8,
+          "more": 5,
           "lexicon": "Middle Liddell"
         },
         {
@@ -15131,7 +15120,7 @@
             "every",
             "everyone"
           ],
-          "more": 8,
+          "more": 5,
           "lexicon": "Middle Liddell"
         },
         {
@@ -15230,7 +15219,7 @@
             "every",
             "everyone"
           ],
-          "more": 8,
+          "more": 5,
           "lexicon": "Middle Liddell"
         },
         {
@@ -15393,12 +15382,12 @@
           "aspect": "one completed act seen whole, not a process observed in progress",
           "senses": [
             "to say, speak",
-            "say on",
             "to say, declare",
             "say something of",
-            "to call by name"
+            "to call by name",
+            "to call"
           ],
-          "more": 9,
+          "more": 4,
           "lexicon": "Middle Liddell"
         },
         {
@@ -15439,7 +15428,7 @@
             "every",
             "everyone"
           ],
-          "more": 6,
+          "more": 5,
           "lexicon": "Middle Liddell"
         },
         {
@@ -15558,12 +15547,12 @@
           "aspect": "one completed act seen whole, not a process observed in progress",
           "senses": [
             "to say, speak",
-            "say on",
             "to say, declare",
             "say something of",
-            "to call by name"
+            "to call by name",
+            "to call"
           ],
-          "more": 9,
+          "more": 4,
           "lexicon": "Middle Liddell"
         },
         {
@@ -15586,10 +15575,10 @@
             "to make",
             "to do",
             "to make, produce, create",
-            "to have",
-            "made"
+            "to make, create",
+            "to compose, write"
           ],
-          "more": 18,
+          "more": 13,
           "lexicon": "Middle Liddell"
         }
       ]
@@ -15694,7 +15683,7 @@
             "every",
             "everyone"
           ],
-          "more": 8,
+          "more": 5,
           "lexicon": "Middle Liddell"
         },
         {
@@ -15780,7 +15769,7 @@
             "every",
             "everyone"
           ],
-          "more": 6,
+          "more": 5,
           "lexicon": "Middle Liddell"
         },
         {
@@ -15851,7 +15840,7 @@
             "every",
             "everyone"
           ],
-          "more": 6,
+          "more": 5,
           "lexicon": "Middle Liddell"
         },
         {
@@ -15912,7 +15901,7 @@
             "every",
             "everyone"
           ],
-          "more": 6,
+          "more": 5,
           "lexicon": "Middle Liddell"
         },
         {
@@ -15954,10 +15943,9 @@
             "to come or go",
             "to come or go back, return",
             "to go",
-            "I go to",
-            "I am going to"
+            "to come"
           ],
-          "more": 3,
+          "more": 0,
           "lexicon": "Middle Liddell"
         },
         {
@@ -16052,9 +16040,9 @@
             "since, as",
             "for otherwise, else",
             "now",
-            "but"
+            "why, what"
           ],
-          "more": 2,
+          "more": 0,
           "lexicon": "Middle Liddell"
         },
         {
@@ -16110,7 +16098,7 @@
             "every",
             "everyone"
           ],
-          "more": 8,
+          "more": 5,
           "lexicon": "Middle Liddell"
         },
         {

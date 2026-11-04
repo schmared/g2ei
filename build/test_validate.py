@@ -38,6 +38,7 @@ GEN24 = json.loads((render.DATA / "GEN/24.json").read_text(encoding="utf-8"))
 GEN19 = json.loads((render.DATA / "GEN/19.json").read_text(encoding="utf-8"))
 GEN50 = json.loads((render.DATA / "GEN/50.json").read_text(encoding="utf-8"))
 GEN9 = json.loads((render.DATA / "GEN/9.json").read_text(encoding="utf-8"))
+EXO26 = json.loads((render.DATA / "EXO/26.json").read_text(encoding="utf-8"))
 EXO8 = json.loads((render.DATA / "EXO/8.json").read_text(encoding="utf-8"))
 EXO15 = json.loads((render.DATA / "EXO/15.json").read_text(encoding="utf-8"))
 JHN = json.loads((render.DATA / "JHN/1.json").read_text(encoding="utf-8"))
@@ -422,6 +423,23 @@ NEGATIVE = [
                                              dict(v, reading=v["reading"].replace(
                                                  "I have remitted and it stands so", "I have remitted"))
                                              for v in GEN9])),
+    # Q32: an item no translation on the card gives — δέ's *however*, which stood beside all 1,255 of its units
+    ("support  an item no card translation gives",
+                                         lambda: run(V.check_support, "GEN", 7, [
+                                             dict(v, reading=v["reading"].replace(
+                                                 "[[but|but, while / whereas", "[[but|but, however, while / whereas"))
+                                             for v in GEN7])),
+    # Q35: an example's own person rendered as if it were the word's — `will I mean`, `be shall be given`
+    ("english  an example's person in the word's form",
+                                         lambda: run(V.check_english, "GEN", 7, [
+                                             dict(v, reading=v["reading"].replace(
+                                                 "I say / now / so then|δέ]]", "I say / now / so then, will I mean|δέ]]"))
+                                             for v in GEN7])),
+    ("english  a function word given a verb's ending",
+                                         lambda: run(V.check_english, "GEN", 7, [
+                                             dict(v, reading=v["reading"].replace(
+                                                 "I say / now / so then|δέ]]", "I say / now / so then, whatted concerns|δέ]]"))
+                                             for v in GEN7])),
     ("runs     one translation split across items",
                                          lambda: run(V.check_runs, "GEN", 7, [
                                              dict(v, reading=v["reading"].replace(
@@ -610,6 +628,14 @@ CONTROL = [
     ("coverage clean GEN 7",              lambda: run(V.check_coverage, "GEN", 7, GEN7)),
     ("delimiter clean GEN 7",             lambda: run(V.check_delimiter, "GEN", 7, GEN7)),
     ("perfects clean GEN 9",              lambda: run(V.check_perfects, "GEN", 9, GEN9)),
+    ("support  clean GEN 7",              lambda: run(V.check_support, "GEN", 7, GEN7)),
+    ("english  clean GEN 7",              lambda: run(V.check_english, "GEN", 7, GEN7)),
+    # a unit on a word's third occurrence, after two in another case: δέρρις at EXO 26:8 opens δέρρεσι,
+    # and its chain is read against that form's card, not the first occurrence's
+    ("support  clean EXO 26, a unit on a later occurrence",
+                                         lambda: run(V.check_support, "EXO", 26, EXO26)),
+    ("coverage clean EXO 26, a unit on a later occurrence",
+                                         lambda: run(V.check_coverage, "EXO", 26, EXO26)),
     ("anchors  a word's one translation holds another's headword",
                                          lambda: run(anchors_in("GEN", 50), GEN50)),
     ("words    clean GEN",               lambda: run(V.check_words, "GEN", 1, GEN)),

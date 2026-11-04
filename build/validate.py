@@ -478,6 +478,8 @@ GRAMMAR = {
     # `any` is the lexicon's article for a sense, *any articulate sound*, which a form with the
     # article says `the articulate sound`
     "any",
+    # the lexicon's own archaic auxiliaries and pronouns, ζημιόω's *wilt lose*
+    "wilt", "shalt", "hast", "hath", "dost", "doth", "art", "thou", "thee", "thy", "thine",
 }
 
 # English's irregular parts, so that a chain wearing the form the Greek calls for still
@@ -495,7 +497,8 @@ IRREGULAR = {
     "strove": "strive", "striven": "strive", "broke": "break", "broken": "break",
     "sheaves": "sheaf",  # δράγμα, singular beside plural at GEN 37:7
     "stole": "steal", "stolen": "steal", "felt": "feel", "held": "hold", "kept": "keep",
-    "left": "leave", "laid": "lay", "lain": "lie", "led": "lead", "said": "say",
+    "left": "leave", "laid": "lay", "lain": "lie", "led": "lead", "said": "say", "gainsaid": "gainsay",
+    "midwives": "midwife", "genera": "genus", "portcullises": "portcullis",
     "saw": "see", "seen": "see", "sent": "send", "sat": "sit", "slept": "sleep",
     "spoke": "speak", "spoken": "speak", "paid": "pay", "ran": "run", "rose": "rise",
     "risen": "rise", "sold": "sell", "sought": "seek", "taught": "teach", "told": "tell",
@@ -545,7 +548,7 @@ IRREGULAR = {
 # The project's own wording for verbal aspect (CLAUDE.md). It is grammar written into the
 # text, not a sense the lexicon gave, so it is set aside like an auxiliary — a perfect
 # participle and an aorist one may share an English headword, and then only this differs.
-ASPECT = re.compile(r"\band (?:it |to )?(?:stands?|standing|stood so|remains?|remaining|continues?|"
+ASPECT = re.compile(r"\band (?:it |to |the )?(?:stands?|standing|stood so|remains?|remaining|continues?|"
                     r"continuing|holds?|holding)\b(?![^,]*\bwith\b)[^,]*")
 
 
@@ -749,22 +752,45 @@ def unit_cards(book, chapter, verses, with_parse=False):
     if not _ENTRIES:
         _ENTRIES.append(words.load_middle_liddell())
     tokens = words.nt_tokens(book, chapter) if book in words.NT else words.lxx_tokens(book, chapter)
+
+    def card_of(place):
+        form, lemma, code = place[:3]
+        card = words.lexicon_senses(_ENTRIES[0], lemma, code, form, place[3][0])
+        if card is None or lemma in words.LSJ_HOMOGRAPHS:
+            card = words.lsj_senses(lemma, code, form)
+        return card, place[3][0]
+
     for verse in verses:
         number = words.verse_key(verse["ref"])
         theirs = (tokens or {}).get(number, [])
         nth = collections.Counter()
+        taken = collections.Counter()               # the next occurrence of a word a unit may take
+        everyone = collections.Counter(lemmas(f)[-1] for _, _, f in units(verse["reading"]))
         for head, chain, field in units(verse["reading"]):
             word = lemmas(field)[-1]
             k, nth[word] = nth[word], nth[word] + 1
             card, parse = None, ""
             if " + " not in field.split(";")[-1] and word not in FORMULA_LEMMAS | {"ἐν"}:
                 places = [t for t in theirs if t[1] == word]
-                if k < len(places):
-                    form, lemma, code = places[k][:3]
-                    parse = places[k][3][0]
-                    card = words.lexicon_senses(_ENTRIES[0], lemma, code, form, places[k][3][0])
-                    if card is None or lemma in words.LSJ_HOMOGRAPHS:
-                        card = words.lsj_senses(lemma, code, form)
+                # A word a verse says more often than it opens is opened once, and not always at its first
+                # occurrence: EXO 26:8 says δέρρις three times and opens the third, δέρρεσι, after two in the
+                # genitive singular. The unit takes, in order, the occurrence whose card its chain fits.
+                later = everyone[word] - k - 1
+                choices = list(range(taken[word], len(places) - later))
+                if len(choices) > 1:
+                    def misfit(j):
+                        c, _ = card_of(places[j])
+                        if not c:
+                            return (1, j)
+                        return (len(missing_senses(chain, c)) + len(unsupported(chain, c, lemma=word)), j)
+                    j = min(choices, key=misfit)
+                elif choices:
+                    j = choices[0]
+                else:
+                    j = None
+                if j is not None:
+                    taken[word] = j + 1
+                    card, parse = card_of(places[j])
             yield (verse, head, chain, field, card, parse) if with_parse else (verse, head, chain, field, card)
 
 
@@ -784,6 +810,7 @@ def check_runs(book, chapter, verses, rep):
 
 
 COMPARED = {"better": "good", "best": "good", "worse": "bad", "worst": "bad", "less": "little",
+            "farther": "far", "further": "far", "farthest": "far", "furthest": "far",
             "least": "little", "more": "many", "most": "many", "elder": "old", "eldest": "old"}
 
 
@@ -812,6 +839,8 @@ def missing_senses(chain, card, degree=False, adverb=False):
         have |= {stem("many"), stem("much")}
     if "lay" in have:
         have.add(stem("lie"))                      # lie's past, `lay, was situate`
+    if re.search(r"\bbor(?:ed|ing|es)\b", chain):
+        have.add(stem("bore"))                     # to bore, not bear's past: ἀπόλλυμι's `bored one to death`
     if degree:
         for word in re.findall(r"[a-z]+", chain.lower()):
             have |= {stem(positive(word)), stem(positive(word) + "e")}
@@ -918,6 +947,124 @@ def check_perfects(book, chapter, verses, rep):
                      "every one, `%s`" % (lemmas(field)[-1], head, sum(marked), len(items),
                                           items[marked.index(False)]))
     rep.done("perfects", "%d perfects, the formula after every item" % count, before)
+
+
+# A word the chain spells out of Greek, `katoikos (κάτοικος)`, stands beside the Greek it renders.
+TRANSLITERATED = re.compile(r"[\w'\-]+ \([^)]*[Ͱ-Ͽἀ-῿][^)]*\)")
+
+
+def unsupported(chain, card, degree=False, adverb=False, lemma=""):
+    """The items of a chain that say a word no translation on the card says (Q32).
+
+    The reverse of missing_senses, with its allowances: the article's noun, the form's own *more*
+    and *most*, a comparative read back to its positive, an adverb made of its adjective's senses.
+    """
+    text = POSSESSIVE.sub("", " ".join(card).lower())
+    # every word the card spells, grammar's own words too: θέλω's *to will* is a sense, though
+    # *will* is an auxiliary everywhere else
+    tokens = set(re.findall(r"[a-z']+", text))
+    have = {stem(t) for t in tokens} | {"thing"} | SUPPORTED.get(lemma, set())
+    if degree or adverb or re.search(r"\b(?:many|much)\b", text):
+        # the form's own comparative, or many's; an adverb's degree its parse does not carry, ἔγγιστα
+        have |= {stem("more"), stem("most")}
+    if stem("lie") in have:
+        have.add("lay")
+    if stem("bore") in have:
+        have.add(stem("bored"))                    # to bore, which the stemmer reads as bear's past
+    out = []
+    for lead in MERGED_LEAD:
+        if chain.startswith(lead):
+            chain = chain[len(lead):]
+    for item in chain.split(", "):
+        extra = set()
+        body = POSSESSIVE.sub("", TRANSLITERATED.sub("", ASPECT.sub("", item)).lower())
+        for raw in re.findall(r"[a-z']+", body):
+            word = stem(raw)
+            if raw in GRAMMAR or not word or word in GRAMMAR or word in have:
+                continue
+            # the card's word with an ending the stemmer reads another way: *bound* is bind's past
+            # to the stemmer, and σκιρτάω's *bounding* is bound's
+            if any(raw[:-n] in tokens for n in (1, 2, 3) if len(raw) - n > 2):
+                continue
+            if degree and {stem(positive(raw)), stem(positive(raw) + "e")} & have:
+                continue
+            # an adverb made of its adjective's senses (Q13), ταχύ's *swiftly*
+            if raw.endswith("ly") and len(raw) > 4 and {
+                    stem(b) for b in (raw[:-2], raw[:-3] + "y", raw[:-1] + "e", raw[:-4])} & have:
+                continue
+            extra.add(raw)
+        if extra:
+            out.append((item, sorted(extra)))
+    return out
+
+
+# `sisters'`, `wife's`: the possessive's ending, which the stemmer does not take off
+POSSESSIVE = re.compile(r"(?<=[a-z])'s?\b|(?<=s)'")
+# Words a chain may carry that its card does not, each settled by a decision: English's own
+# passive says the object as the subject, κόπτω's `having had the trees in it cut down`, and
+# περικαλύπτω's `having had a veil thrown over them` names where (Q21).
+SUPPORTED = {"περικαλύπτω": {"over"}}
+
+
+def check_support(book, chapter, verses, rep):
+    """Every item of a chain renders a translation on its card (Q32).
+
+    The coverage check reads what a chain leaves out of its card, not what it adds beyond it, so an
+    item from no translation stood: δέ's *however*, beside every one of its 1,255 units, is English
+    the lexicon never gave the word. The words outside coverage are outside this too.
+    """
+    before = rep.failed
+    count = 0
+    for verse, head, chain, field, card, parse in unit_cards(book, chapter, verses, with_parse=True):
+        if (not card or lemmas(field)[-1] in COVERAGE_FORMULAS or parse.split(" ·")[0] in NOT_COVERED
+                or chain.startswith(FORMULA_CHAINS)):
+            continue
+        count += 1
+        degree = bool({"comparative", "superlative"} & set(parse.split(" · ")))
+        for item, extra in unsupported(chain, card, degree, parse.startswith("adverb"), lemmas(field)[-1]):
+            rep.fail("support", verse["ref"], "%s `%s`: `%s` says `%s`, which no translation on the card "
+                     "says — drop it, or settle the sense it came from" % (lemmas(field)[-1], head, item,
+                                                                          "`, `".join(extra)))
+    rep.done("support", "%d units, each item from the card" % count, before)
+
+
+# English no form of a word can wear: an auxiliary before a subject, or before a second
+# auxiliary — `will I mean`, `she will be shall be given`, `to be is carried about` — which is a
+# translation an example gives in its own person, rendered as if it were the word's (Q35). And a
+# function word given a verb's ending, `whatted`, `withed`: a piece that was never a verb.
+AUX_THEN_SUBJECT = re.compile(r"\b(?:am|is|are|was|were|be|been|being|will|shall|would|should)\s+"
+                              r"(?:I|thou|he|she|we|they|you)\b")
+AUX_THEN_AUX = re.compile(r"\b(?:am|is|are|was|were|be|been|being|will|shall|may|might|would|should)\s+"
+                          r"(?:am|is|are|was|were|will|shall|may|can|could|must|wilt|shalt|art)\b")
+VERB_ENDED = re.compile(r"\b(what|with|more|upon|over|after|next|up|near|hard|in|on|so|very)(?:t?ed|s)\b")
+
+
+def english_faults(item):
+    """What makes an item English no form of a word can be: the first fault found, or None."""
+    body = ASPECT.sub("", item)
+    for pattern, what in ((AUX_THEN_SUBJECT, "an auxiliary before a subject"),
+                          (AUX_THEN_AUX, "an auxiliary before an auxiliary"),
+                          (VERB_ENDED, "a function word with a verb's ending")):
+        m = pattern.search(body)
+        if m:
+            return "%s, `%s`" % (what, m.group(0))
+    return None
+
+
+def check_english(book, chapter, verses, rep):
+    """No item is English no form of the word can wear (Q35): a template's form put on a piece of
+    an example, or on a word that was never a verb."""
+    before = rep.failed
+    count = 0
+    for verse in verses:
+        for head, chain, field in units(verse["reading"]):
+            for item in chain.split(", "):
+                count += 1
+                fault = english_faults(item)
+                if fault:
+                    rep.fail("english", verse["ref"], "%s `%s`: `%s` has %s — render the sense in the form, "
+                             "or set the piece aside in NOT_SENSES" % (lemmas(field)[-1], head, item, fault))
+    rep.done("english", "%d items, each English a form can wear" % count, before)
 
 
 def chains_that_drifted(seen):
@@ -2584,6 +2731,8 @@ def validate(book, chapter, rep):
     check_coverage(book, chapter, verses, rep)
     check_delimiter(book, chapter, verses, rep)
     check_perfects(book, chapter, verses, rep)
+    check_support(book, chapter, verses, rep)
+    check_english(book, chapter, verses, rep)
     check_greek(book, chapter, verses, rep)
 
 

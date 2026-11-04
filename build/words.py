@@ -2054,9 +2054,14 @@ _EXANISTHMI_CAUS = {
     "to raise up: to make one rise", "bid one", "rise", "to order", "to rise", "to make",
     "emigrate, to remove", "expel", "to depopulate, destroy", "to rouse", "from their lair"}
 _APOLLUMI_ACT = {"to destroy utterly, kill, slay", "to destroy, demolish, waste", "to talk", "bore", "to death",
-                 "to lose utterly"}
+                 "bore one to death", "to lose utterly"}
 _APOLLUMI_MID = {"to perish utterly, die", "to be undone", "you are done for, lost, ruined",
                  "to be lost, slip away, vanish"}
+# συνίστημι's B, "Pass. and intr. tenses of Act.": read by the passive, the perfect and the aor2
+SUNISTHMI_INTRANSITIVE = {
+    "to stand together", "to form in order of battle", "to meet", "in fight, be engaged with", "to be involved",
+    "to form a league or union", "to be connected or allied", "to arise, become, take place",
+    "to hold together, endure, continue", "to be compact, solid, firm", "to be contracted"}
 FORM_SENSES = {
     # Q3: an LSJ word takes the same rules. πανοικία's "with all the house" is the dative's, "dat. as Adv."
     "panoiki/a": [("-", "-", {"with all the house"}, None, "^....[NGAV]")],
@@ -2658,7 +2663,10 @@ FORM_SENSES = {
         "to set together, combine, associate, unite, band together", "to bring", "into union with", "to win, acquire",
         "to put together, organise, frame", "to contrive", "to settle", "to bring together as friends, introduce",
         "recommend one to another", "to offer", "as a guarantee", "the conspirators", "a well-disciplined",
-        "a standing"}, "^(?!.*στησ)")],
+        "a standing"}, "^(?!.*στησ)"),
+                   # the transitive tenses, aor1 συνέστησεν (GEN 40:4) and the present and future, leave out
+                   # the intransitive section, which the coverage pass had given the passive alone (Q33)
+                   ("PIFA", "A", NOT_SENSES["suni/sthmi"] | SUNISTHMI_INTRANSITIVE)],
     "e)pistre/fw": [("PIFAXY", "MEP", {
         "to turn about, turn round", "to make a sudden tack", "to put", "to flight", "to return", "to turn towards",
         "to press", "to turn", "to correct, make to repent", "to repent", "to curve, twist, torment",
@@ -2872,7 +2880,6 @@ SPELLING = {
     "e)kkre/mamai": "e)kkrema/nnumi",  # the passive, filed at the end of the active's entry
     "a(/maca": "a)/maca",            # Perseus keys ἅμαξα with the smooth breathing
     "o)rqri/zw": "o)rqreu/w",       # cross-reference; "= ὀρθρεύω"
-    "platei=a": "platu/s",          # the feminine used as a noun, filed inside the adjective's entry
     "suggi/nomai": "suggi/gnomai",  # the Attic spelling
     "sw/|zw": "sw/zw",              # the entry is headed without the iota subscript
     "diasw/|zw": "diasw/zw",        # likewise
@@ -3067,6 +3074,10 @@ MARKUP_LOST = {
     # conditional, which is what εἰ is in every one of its Genesis occurrences, is
     # nowhere in the chain.
     "ei)1": [(0, "if")],
+    # The same fault in a later sense, which the first-sense check never reads; found by the
+    # support check (Q32), where a chain carried the English and its card did not.
+    "ai(=ma": [(4, "blood-relationship, kin")],    # III, "like Lat. sanguis, blood-relationship, kin"
+    "e)calei/fw": [(5, "to wipe out, destroy utterly")],  # 2, "metaph., like Lat. delere, to wipe out, destroy utterly"
     # The same fault, found by looking for a comma inside a <foreign lang="la">: Middle
     # Liddell writes "Lat. <latin>, <English>" and Perseus wraps the whole run, English
     # and all, in the Latin element. Each line quotes the entry. Nineteen of these lost
@@ -3399,6 +3410,41 @@ GREEK_AFTER = {
                                                 # its Greek the examples: nothing is cut
 }
 
+# Translations the tagging cuts where the printed entry runs on in plain English (Q32): διαθήκη's
+# «an arrangement between» two parties, «covenant» — the <tr> stops at *between*, and *two parties*
+# stands outside it, though it is the translation's own end. GREEK_LOST restores a translation a
+# Greek word finishes; this one a translation its own English finishes. Each value is the entry's
+# words, in order, with nothing added: the chains carried them already, written from the page,
+# and the support check, which reads a chain against its card, found the card short of them.
+TEXT_LOST = {
+    "diaqh/kh": {"a disposition": "a disposition of property by will",      # «a disposition» of property by will
+                 "an arrangement between": "an arrangement between two parties"},  # «an arrangement between» two parties
+    "diati/qhmi": {"to dispose of one's": "to dispose of one's property",  # «to dispose of one's» property,
+                   "devise": "devise it by will"},                       # «devise» it «by will»
+    "glw=ssa": {"mouthpiece": "mouthpiece of a pipe"},                    # «the tongue» or «mouthpiece» of a pipe
+    "kei/rw": {"to ravage": "to ravage a country",                        # «to ravage» a country,
+               "by cutting down": "by cutting down the crops and fruit-trees"},  # «by cutting down» the crops and fruit-trees
+    # «a number of» 10, 000: the numeral in words, since a comma parts a chain's senses
+    "muria/s": {"a number of": "a number of ten thousand"},
+    "pu/rgos": {"a movable tower for": "a movable tower for storming towns"},  # «a movable tower for» storming towns
+    "sfa/zw": {"to slaughter": "to slaughter victims for sacrifice"},     # esp. «to slaughter» victims for sacrifice
+    "suntele/w": {"to belong to": "to belong to a class, be counted in it"},  # «to belong to» a class, be counted in it
+    "tetra/pous": {"four feet": "four feet in length"},                   # of things, «four feet» in length
+    "e)rgasi/a": {"a working": "a working of a material"},                # «a working» of a material
+    "e)gxw/rios": {"a dweller in": "a dweller in the land"},              # «a dweller in» the land, «inhabitant»
+    "e)cariqme/w": {"to count out, pay in ready": "to count out, pay in ready money"},  # «to count out, pay in ready» money
+    "e)pikale/w": {"to call in": "to call in as a helper or ally"},       # Mid. «to call in» as a helper or ally
+    "kta/omai": {"get": "get for another"},                               # «to procure» or «get» for another
+    "a)/ggos": {"a cinerary": "a cinerary urn"},                          # «a cinerary» urn
+    "sunnefe/w": {"wearing a clouded": "wearing a clouded look"},         # «wearing a clouded» look
+    "xroni/zw": {"long": "to remain long"},                               # to remain «long»
+    "mai=a": {"a": "a true mother"},                                      # «a» true «mother»
+    "a)pa/gw": {"to lead away": "to lead away from the subject"},         # «to lead away» from the subject
+    "a)lla/ssw": {"to take": "to take one thing for another"},            # «to take» one thing «for» another
+    "sugxai/rw": {"joy, congratulate": "wish one joy, congratulate"},    # «to wish» one «joy, congratulate»
+    "a)po/llumi": {"bore": "bore one to death"},                         # «to talk» or «bore» one «to death»
+}
+
 
 # A word Middle Liddell files as a section of another word's entry instead of under a key
 # of its own. "πρότερος and πρῶτος, Comp. and Sup. formed from πρό": section A is the
@@ -3406,10 +3452,14 @@ GREEK_AFTER = {
 # used as a noun; III and IV are the adverbs πρῶτον and πρώτως. -> (host, section, parts)
 FILED_WITHIN = {
     "prw=tos": ("pro/teros", "B", ("I", "II")),
+    # πλατεῖα, the street: "πλατεῖα (sc. ὁδός), a street; (sub. χείρ), the flat of the hand", πλατύς I.5. Read
+    # through the whole adjective it took the adjective's senses, which the noun is not (Q32). A fourth
+    # item is the level the section stands at, where the entry has no lettered sections above it.
+    "platei=a": ("platu/s", "I", ("5",), 2),
 }
 
 
-def filed_within(body, section, parts):
+def filed_within(body, section, parts, depth=1):
     """The translations of one lettered section of an entry, and only the parts named."""
     out, inside, part = [], False, None
     for s in re.finditer(r"<sense\b([^>]*)>(.*?)</sense>", body, re.S):
@@ -3417,12 +3467,12 @@ def filed_within(body, section, parts):
         n = re.search(r'\bn="([^"]*)"', s.group(1))
         level = int(level.group(1)) if level else 0
         n = n.group(1) if n else ""
-        if level <= 1:
+        if level <= depth:
             inside = n == section
             continue
         if not inside:
             continue
-        if level == 2:
+        if level == depth + 1:
             part = n
         if part in parts:
             out += [re.sub(r"\s+", " ", re.sub(r"<[^>]+>", "", g)).strip()
@@ -3473,7 +3523,8 @@ def load_middle_liddell():
             between = re.sub(r"<[^>]+>", "", scope[last:t.start()]).strip() if last is not None else None
             trs.append((text, between == "or"))
             last = t.end()
-        lost = GREEK_LOST.get(re.sub(r"\d+$", "", key), {})
+        lost = dict(GREEK_LOST.get(re.sub(r"\d+$", "", key), {}))
+        lost.update(TEXT_LOST.get(re.sub(r"\d+$", "", key), {}))
         cleaned = []
         for gloss, joined in trs:
             # One translation in the whole lexicon runs on into the voice label after it —
@@ -3499,9 +3550,9 @@ def load_middle_liddell():
                 senses.append(gloss)
         entries.setdefault(key, senses)
         entries.setdefault(re.sub(r"\d+$", "", key), senses)
-        for word, (host, section, parts) in FILED_WITHIN.items():
+        for word, (host, section, parts, *depth) in FILED_WITHIN.items():
             if key == host:
-                entries[word] = filed_within(body, section, parts)
+                entries[word] = filed_within(body, section, parts, *depth)
     read_pointers(entries)
     return entries
 
@@ -3566,6 +3617,7 @@ COVERAGE_NOT = {
     },
     'a)/roura': {
         'jugerum': "latin: II, 'nearly = the Roman jugerum'",
+        'as bearing children': "label: metaph. of a woman: the entry's description of a use",
     },
     'a)/rxw': {
         'even': 'phrase: ἀρξάμενοι ἀπὸ παιδίων, even from boyhood',
@@ -3590,9 +3642,14 @@ COVERAGE_NOT = {
     'a)kou/w': {
         'to be ill spoken of by': 'phrase: κακῶς ἀκ. πρός τινος',
         'to have evil spoken of': 'phrase: ἀκ. κακά',
+        'pers, from whom it is heard': 'label: the construction: gen. of the person',
+        'from whom': 'label: the person from whom the thing is heard takes a prep.',
     },
     'a)lhqh/s': {
         'itane? indeed? really? in sooth?': "phrase: ἀληθές; in a question, the sentence's, Latin first",
+    },
+    'a)lla/ssw': {
+        'for': 'piece: «to take» one thing «for» another: restored whole in TEXT_LOST',
     },
     'a)mfo/teros': {
         'from both sides, ex utraque parte': "phrase: ἀπ᾽ ἀμφοτέρων, as 'on both sides, utrinque' already is",
@@ -3619,9 +3676,11 @@ COVERAGE_NOT = {
         'back again': 'label: IN COMPOS.: the prefix, not the preposition',
         'in full': 'label: IN COMPOS.: the prefix, not the preposition',
         'by way of abuse': 'label: IN COMPOS.: the prefix, not the preposition',
+        "what is one's own": 'label: IN COMPOS., as ἀπέχω: the prefix, not the preposition',
     },
     'a)po/llumi': {
         'to talk or bore': "phrase: λόγοις ἀπ. τινα, to talk or bore one to death: λόγοις says 'talk'",
+        'to death': 'piece: «to talk» or «bore» one «to death»: restored whole in TEXT_LOST',
     },
     'a)pobai/nw': {
         '': 'scrap: empty string where the 200-char message cut; later items not listed',
@@ -3635,12 +3694,20 @@ COVERAGE_NOT = {
         'to deliver': "repeat: I.5, ἀπ. ἐπιστολήν: repeats 'to deliver over, give up'",
         'to give an account of': "phrase: I.6, λόγον ἀπ.: λόγον carries 'an account'",
         'increase': "repeat: 'if the land increase in height': repeats 'to increase'",
+        'decrease': "label: a piece of the entry's explanation",
+    },
+    'a)pokri/nomai': {
+        'to separate, set apart': "deponent: the deponent ἀποκρίνομαι: the active's sense, set aside by name",
+        'to mark by a distinctive form, distinguish': "deponent: the deponent ἀποκρίνομαι: the active's sense, set aside by name",
+        'to choose out, choose': "deponent: the deponent ἀποκρίνομαι: the active's sense, set aside by name",
     },
     'a)pore/w': {
         'hesitation': 'phrase: οὐκ ἀπορήσας, without hesitation',
     },
     'a)postre/fw': {
         'to avert': "repeat: of 'to turn back, avert'; a danger",
+        'bent back': 'piece: to have their beaks bent back',
+        'twisted': "piece: to have one's feet twisted",
     },
     'a)riqmo/s': {
         'into my account': "phrase: οὐδ' εἰς ἀριθμὸν ἥκεις, you come not into my account",
@@ -3715,11 +3782,13 @@ COVERAGE_NOT = {
         'above all': 'phrase: γε δή, καὶ δή',
         'what is more': 'phrase: καὶ δή',
         'now suppose': 'phrase: καὶ δή in assumptions',
+        'be they who they may': "phrase: οἵτινες δή: the phrase's",
     },
     'di/dwmi': {
         'having indulged': 'phrase: ὀργῇ χάριν δούς',
         'to deliberate': 'phrase: δ. λόγον ἑαυτῷ',
         'to wife': 'piece: to give their daughter to wife',
+        'up': 'piece: to give oneself up',
     },
     'di/kaios': {
         'quite exactly': 'phrase: τῷ δικαιοτάτῳ τῶν λόγων',
@@ -3731,6 +3800,9 @@ COVERAGE_NOT = {
     },
     'dia/noia': {
         'regards the sense': 'phrase: τῇ διανοίᾳ as «regards the sense»: the dative as a phrase',
+    },
+    'diati/qhmi': {
+        'by will': 'piece: «devise» it «by will»: restored whole in TEXT_LOST',
     },
     'die/rxomai': {
         'shot through': "repeat: of 'to shoot through'; a thought shot through me",
@@ -3747,6 +3819,9 @@ COVERAGE_NOT = {
     },
     'dw=ron': {
         'receiving presents': 'phrase: δώρων ἑλεῖν, the genitive of the charge',
+    },
+    'dwre/w': {
+        'to make': "piece: of 'to make presents': the run cut by its object",
     },
     'e(/teros': {
         'after to-morrow': 'phrase: ἡ ἑτέρα (sc. ἡμέρα), day after to-morrow',
@@ -3776,6 +3851,14 @@ COVERAGE_NOT = {
         'there is need of, use of': 'construction: ἔργον ἐστί c. gen. rei',
         'it is hard work, difficult': 'construction: ἔργον ἐστί c. inf.',
         "of women's work, weaving": "label: the entry's label for a use",
+        'his business, his proper work': 'construction: ἔργον ἐστί c. gen. pers.',
+        'use': "construction: οὐκ ἔργον c. inf., 'tis no use",
+    },
+    'e)/rxomai': {
+        'I go to': 'construction: c. part. fut., ἔρχομαι οἰσόμενος: the participle carries the purpose',
+        'I am going to': 'construction: c. part. fut., ἔρχομαι λέξων',
+        'I intend': 'construction: c. part. fut., ἔρχομαι λέξων',
+        'to come within a little of, be near': 'phrase: παρὰ μικρὸν ἐλθεῖν',
     },
     'e)/sxatos': {
         'worst of possible': "phrase: ἔσχατ' ἐσχάτων κακά",
@@ -3798,6 +3881,11 @@ COVERAGE_NOT = {
         'he held his course': "piece: an example's translation",
         'he could not': "piece: an example's translation",
         'the case stands': 'phrase: πῶς ἔχει, how the case stands',
+        'by': 'piece: to hold him by the hand',
+        'will': 'piece: οὐ σχήσει, will not withhold',
+        'I will hold fast': "repeat: ἕξω, an example of 'to hold oneself'",
+        'you keep': 'piece: ληρεῖς ἔχων, you keep chattering',
+        'the neighbouring people': 'construction: οἱ ἐχόμενοι, the participle with the article',
     },
     'e)a/n': {
         'whosoever': 'phrase: ὃς ἐάν',
@@ -3881,6 +3969,8 @@ COVERAGE_NOT = {
         'one, as opp, to': "label: 'one' with the label 'as opp. to'",
         'another;': 'label: the opposed term',
         'faber unus': 'latin: Latin',
+        'by himself': 'phrase: εἷς ἕκαστος, each by himself',
+        'one by one': 'phrase: καθ᾽ ἕνα, καθ᾽ ἕν',
     },
     'ei)mi/': {
         'appearing to be': 'label: to be, opp. to appearing to be',
@@ -3928,6 +4018,7 @@ COVERAGE_NOT = {
         'nullo in loco haberi': 'latin: B.II.3, Latin of οὐδαμοῦ φανῆναι',
         'yes': "phrase: φαίνεται, the answer's",
         'does this appear': "piece: an example's question",
+        'do I look like': 'phrase: τί φαίνομαι; what do I look like',
     },
     'fanero/s': {
         'openly': 'phrase: ἐκ τοῦ φανεροῦ, with a prep. in adverb sense',
@@ -3941,6 +4032,12 @@ COVERAGE_NOT = {
         'inclined to': "repeat: ἡ γνώμη ἔφερε συμβάλλειν: repeats 'inclines'",
         'it tends': 'construction: VII.3.c, impers., much like συμφέρει',
         'is conducive': 'construction: VII.3.c, impers. φέρει',
+        'take': 'phrase: βαρέως φέρειν, take ill: with adverbs',
+        'to have': 'piece: ἔπος φέρεσθαι, to have word brought one',
+        'brought one, receive': 'piece: ἔπος φέρεσθαι, to have word brought one',
+        'to be': 'piece: εὖ φέρεσθαι, to be well spoken of',
+        'what': 'piece: τὸ φέρον, what heaven bears to you',
+        'bears to you, awards you': "piece: an example's rendering of τὸ φέρον",
     },
     'file/w': {
         'she kissed': "piece: 'the kiss wherewith she kissed him'",
@@ -3957,12 +4054,22 @@ COVERAGE_NOT = {
     'fu/w': {
         'to get': "repeat: A 4, φρένας φύειν: a piece of 'to grow or get'",
         'not formed': "phrase: φύσει μὴ πεφυκότα: μή says 'not'",
+        'is putting forth scions': "repeat: an example of 'to put forth shoots'",
+    },
+    'fula/ssw': {
+        'I will take care': "piece: εἰσορῶν φυλάξομαι, an example's",
+        'by one, bear': 'piece: to keep a thing by one, bear it in mind',
+        'in mind': 'piece: to keep a thing by one, bear it in mind',
     },
     'futeu/w': {
         'with fruit-trees': 'piece: to plant ground with fruit-trees',
     },
     'fwnh/': {
         'an articulate sound': "repeat: φωνὴν ῥηγνύναι; the same as 'any articulate sound'",
+    },
+    'ga/r': {
+        'but': "phrase: ἀλλὰ γάρ: ἀλλά carries 'but'",
+        'would that': 'phrase: πῶς γάρ, εἰ γάρ, in wishes',
     },
     'genea/': {
         'by birth-right': 'phrase: γενεῇ, the dative as a phrase',
@@ -3981,6 +4088,9 @@ COVERAGE_NOT = {
     },
     'gignw/skw': {
         'was aware of': "repeat: repeats 'were aware of'",
+        'thou mayst discern': "repeat: an example of 'to discern'",
+        'I felt that I was': "piece: ἔγνων ἡττημένος, an example's rendering",
+        'that he may learn how to': "piece: ἵνα γνῷ, the example's: ἵνα carries 'that'",
     },
     'h(/kw': {
         'to be gone': 'label: glosses οἴχομαι, set against ἥκω',
@@ -3994,6 +4104,10 @@ COVERAGE_NOT = {
         'sufficient for the day': 'phrase: ἐφ᾽ ἡμέραν',
         'day by day, daily': 'phrase: τοὐφ᾽ ἡμέραν, καθ᾽ ἡμέραν',
         'every day': 'phrase: τὸ καθ᾽ ἡμ.',
+        'day-break': 'phrase: ἅμα ἡμέρᾳ and the phrases for day-break',
+        'on': "piece: τῇδε τῇ ἡμέρᾳ, on this day: the dative's English, which its marker says",
+        'within': "piece: ἡμερῶν ὀλίγων, within a few days: the genitive's English, which its marker says",
+        'day by day': 'phrase: τοὐφ᾽ ἡμέραν',
     },
     'h)/': {
         'sooner than . .': "phrase: φθάνειν ἤ: φθάνω carries 'sooner'",
@@ -4003,6 +4117,7 @@ COVERAGE_NOT = {
         'ne': 'latin: Lat. ut ne or ne',
         '[I tell thee this] that': 'phrase: elliptical; the bracket supplies the verb',
         'to what end?': 'phrase: ἵνα τί',
+        'see that': 'phrase: elliptical, ὅρα or βλέπε understood',
     },
     'i(/sthmi': {
         'to stir up': 'repeat: φυλόπιδα στήσειν, repeats «to raise, rouse, stir up»',
@@ -4035,7 +4150,11 @@ COVERAGE_NOT = {
     },
     'kale/w': {
         'a supposititious': 'piece: καλεῖ με πλαστόν, calls me a supposititious son',
-        'to have received a name, to bear it': "construction: κέκλημαι, the perfect passive said as English's active: the passive chains say was called",
+        'shall be given': 'piece: a name shall be given to thy tomb: the name the subject',
+        'I am': 'piece: an example of κέκλημαι = εἰμί',
+        'were to be': 'piece: an example of κέκλημαι = εἰμί',
+        'is': 'piece: an example of κέκλημαι = εἰμί',
+        'called': 'repeat: κέκληται, where is the hill called',
     },
     'kalo/s': {
         'in good time, in season': 'phrase: ἐν κ. (sub. χρόνῳ)',
@@ -4049,6 +4168,8 @@ COVERAGE_NOT = {
     },
     'kaqi/sthmi': {
         "to get one's": "piece: τὴν ζόην καταστήσασθαι, to get one's living",
+        'middle': 'piece: ἡ καθεστηκυῖα ἡλικία, middle age',
+        'presence': 'piece: to stand in his presence',
     },
     'kardi/a': {
         'freely': 'phrase: τἀπὸ καρδίας λέγειν, Lat. ex animo',
@@ -4058,6 +4179,8 @@ COVERAGE_NOT = {
         'fortune': "construction: II.3 impers., «it is» one's «fortune» to do",
         'inquiries about': "piece: ὁ θάνατος καταλαμφθείς, «inquiries about» the death «being checked»: the sentence's",
         'forces': 'repeat: ἀναγκαίη μιν κ. φαίνειν; repeats «to force or compel»',
+        'to get': 'piece: κ. τὸ πῦρ, to get it under',
+        'under': 'piece: κ. τὸ πῦρ, to get it under',
     },
     'kate/xw': {
         'conquest': "piece: A.II.7, 'to occupy, in right of conquest'",
@@ -4095,6 +4218,10 @@ COVERAGE_NOT = {
     'korufh/': {
         'best of all': "phrase: παντὸς ἔχει κορυφάν: παντός says 'of all'",
     },
+    'ku/rios': {
+        'I have authority': 'construction: κύριός εἰμι c. inf.',
+        'am entitled': 'construction: κύριός εἰμι c. inf.',
+    },
     'kwlu/w': {
         'hindrance': "piece: 3, Pass., μηδὲ δαπάνῃ κεκωλύσθω 'and let there be no hindrance'",
         'nothing hinders, be it so': 'phrase: 5, οὐδὲν κωλύει, absol., as a form of assent',
@@ -4104,6 +4231,12 @@ COVERAGE_NOT = {
         'part': 'piece: with gen. of part only',
         'to catch it': 'phrase: λ. δίκην, as we say',
         'added': 'piece: having battlements added',
+        'seized': 'label: the part seized in gen.',
+        'by': 'piece: caught her by the wing: the genitive of the part',
+        'so and so': 'piece: to take a thing so and so',
+        'suffer': 'phrase: λ. δίκην, to receive, i.e. suffer, punishment',
+        '"to take': "repeat: 'to take a cold': a repeat, with the entry's quotation mark",
+        'having': 'piece: having battlements added',
     },
     'le/gw': {
         'to say something': "phrase: λ. τι; τι carries 'something'",
@@ -4115,6 +4248,9 @@ COVERAGE_NOT = {
         'mean?': 'scrap: what does this mean?',
         'mean you': 'phrase: πῶς λέγεις; how mean you?',
         'as the saying goes': 'phrase: τὸ λεγόμενον',
+        'has': 'piece: οὐδὲν λέγει, has no meaning',
+        'does': 'piece: τί τοῦτο λέγει; what does this mean',
+        'they are said': "repeat: λέγονται: 'to say' in the passive, which the passive chain says",
     },
     'li/an': {
         'aye truly, verily': 'phrase: strengthened καὶ λίην',
@@ -4132,6 +4268,9 @@ COVERAGE_NOT = {
     'logi/zomai': {
         'set down': 'repeat: to spend 3 minae and «set down» 12; repeats «to set down»',
     },
+    'lumai/nomai': {
+        'used to murder': 'piece: ἐλυμαίνου, the speeches you used to murder',
+    },
     'ma/la': {
         'more than': "phrase: παντὸς μᾶλλον: the genitive carries 'than'",
         'a fortiori`': 'latin: cut from «a fortiori»: τὸ μ. καὶ ἧττον, a form of argument, in Latin',
@@ -4143,6 +4282,9 @@ COVERAGE_NOT = {
     'ma/xaira': {
         "with the rasor's": "piece: μιᾷ μαχαίρᾳ 'with the rasor's single blade'",
         'scissars': "phrase: διπλῆ μ. 'scissars': διπλῆ carries it",
+    },
+    'mai=a': {
+        'mother': 'piece: «a» true «mother»: restored whole in TEXT_LOST',
     },
     'me/gas': {
         'to greatness': "piece: μέγας ηὐξήθη, 'rose to greatness'",
@@ -4183,6 +4325,9 @@ COVERAGE_NOT = {
     },
     'metati/qhmi': {
         'to adopt a new': "piece: of 'to adopt a new opinion', Mid. τὴν γνώμην",
+    },
+    'mh/': {
+        'fear or apprehension': 'label: after Verbs expressing fear or apprehension',
     },
     'mh/n': {
         'quid vero?': 'latin: Latin',
@@ -4293,6 +4438,7 @@ COVERAGE_NOT = {
     },
     'o(/ti': {
         'seeing or knowing, thinking or saying': 'label: after Verbs of seeing or knowing, thinking or saying',
+        'although': 'phrase: οὐχ ὅτι, not followed by a second clause',
     },
     'o(do/s': {
         'further on the way, forwards': 'phrase: πρὸς ὁδοῦ',
@@ -4306,6 +4452,7 @@ COVERAGE_NOT = {
         'keeping': 'piece: always keeping it in sight',
         'in sight': 'piece: always keeping it in sight',
         'to behold': "repeat: δεινὸς ἰδεῖν; repeats 'behold'",
+        'I see': "repeat: φωνῇ γὰρ ὁρῶ, I see by sound: 'to see' in the first person",
     },
     'o(rma/w': {
         'that had got': "piece: αἱ μάλιστα ὁρμήσασαι [νῆες] 'the ships that had got the greatest start'",
@@ -4370,12 +4517,16 @@ COVERAGE_NOT = {
         'think it': "phrase: cut of 'think it my duty', οἴομαι δεῖν: δεῖν says the duty; later items not listed",
         'think it my duty': 'phrase: IV, οἴομαι δεῖν: δεῖν says the duty',
         'je crois devoir': 'latin: French, for οἴομαι δεῖν',
+        'I think I shall. .': "piece: an example's rendering",
+        'I do': 'piece: I do not think, i.e. mean',
+        'I think': "repeat: κιχήσεσθαί σε ὀίω: 'to think' in the first person",
     },
     'oi)=da': {
         'to acknowledge a debt to another, thank him': 'phrase: χάριν εἰδέναι',
     },
     'oi)=kos': {
         'home': "repeat: ἐπ' οἴκου, ἀπ' οἴκου; repeats «home, within»",
+        'home, within': 'phrase: κατ᾽ οἴκους',
     },
     'ou(/tws': {
         'ut': 'latin: Lat. sic … ut',
@@ -4399,6 +4550,7 @@ COVERAGE_NOT = {
         'whosoever;': 'phrase: ὁστισοῦν',
         'how': 'label: glosses ὅπως',
         'howsoever;': 'phrase: ὁπωσοῦν',
+        'be he who he may': "phrase: ὁστισοῦν, ὅστις οὖν: the phrase's",
     },
     'ou)de/': {
         'not even . . , nor yet . .': 'construction: οὐδέ repeated at the head of two clauses',
@@ -4436,6 +4588,7 @@ COVERAGE_NOT = {
     'path/r': {
         "by the father's side": 'phrase: τὰ πρὸς πατρός',
         'Zeus': 'label: prose: among the gods Zeus is called πατήρ',
+        "from one's fathers": "phrase: ἐξ ἔτι πατρῶν, as an inheritance from one's fathers",
     },
     'pau/w': {
         'stopt [flowing]': "phrase: αἷμα ἐπαύσατο, 'flowing' supplied; the sense is «to leave off doing», already on the card",
@@ -4479,6 +4632,10 @@ COVERAGE_NOT = {
         'to cause': "repeat: πόλεμον ποιεῖν; repeats 'to bring to pass, bring about, cause'",
         'to bring about': "repeat: εἰρήνην π.; repeats 'to bring to pass, bring about, cause'",
         'fortunately': 'phrase: εὖ ποιοῦν',
+        'to have': 'piece: Mid., to have a thing made: the run cut by its object',
+        'made': "piece: of 'to have a thing made, get it made'",
+        "one's": "piece: to make him one's son",
+        "one's own": "piece: to make a thing one's own (Mid.)",
     },
     'poiki/los': {
         'the Poecile or great hall at Athens adorned with paintings': "phrase: II.3, ἡ στοὰ ἡ ποικίλη, as 'the Poecile' already is",
@@ -4587,6 +4744,7 @@ COVERAGE_NOT = {
     'prosti/qhmi': {
         "to associate one's": "piece: of 'to associate one's opinion to another', Mid. τὴν γνώμην",
         'to be profited': 'phrase: πρ. πλέον: πλέον carries the profit',
+        'made': "piece: προσεθήκαντο πόλεμον, made war: of 'to bring upon others'",
     },
     'qa/natos': {
         "for one's life": "phrase: θανάτου κρίνεσθαι, to be tried for one's life",
@@ -4627,6 +4785,9 @@ COVERAGE_NOT = {
     'ske/ptomai': {
         'only consider': "phrase: σκέψασθε δέ: δέ says 'only'",
     },
+    'skeu=os': {
+        'the vessel': "label: metaph., τὸ σκεῦος, the body, as the vessel of the soul: the entry's explanation",
+    },
     'skhnh/': {
         'the stage': "label: prose: 'the stage (in our sense) was προσκήνιον'",
         'the actors, players': 'phrase: οἱ ἀπὸ σκηνῆς',
@@ -4647,6 +4808,10 @@ COVERAGE_NOT = {
     },
     'stre/fw': {
         "d'ye shuffle": "piece: from 'why d'ye shuffle so?'",
+    },
+    'sugxai/rw': {
+        'to wish': 'piece: «to wish» one «joy, congratulate»: restored whole in TEXT_LOST',
+        'joy of': 'piece: «to wish» one «joy of» the events: the run before it again',
     },
     'sullamba/nw': {
         'to take part with': "repeat: V.2, 'to take part with one in a thing': repeats 'to take part with, assist'",
@@ -4706,6 +4871,7 @@ COVERAGE_NOT = {
         'hold': "repeat: I hold not that he lives; repeats 'to hold'",
         'to lay down, assume': "repeat: repeats 'to lay down, assume, hold, reckon or regard as'",
         'left': "piece: an example's participle",
+        "to give one's": "piece: τίθεσθαι τὴν γνώμην, to give one's opinion",
     },
     'timh/': {
         'to pay or make': "piece: τίνειν or ἀποτίνειν τιμήν 'to pay or make it': the verbs'",
@@ -4725,6 +4891,8 @@ COVERAGE_NOT = {
         'left the nursery': "phrase: ἐξ ὅτου 'τράφην ἐγώ, the sentence's free rendering",
         'puts': 'piece: this is what «puts» fat «on» swine',
         'she constantly performs': "phrase: οἵας λατρείας τρέφει, the sentence's free rendering",
+        'he keeps': "piece: an example's",
+        'on': 'piece: this is what puts fat on swine',
     },
     'tro/pos': {
         'means': "piece: παντὶ τρόπῳ 'by all means', as 'way' and 'wise' already are",
@@ -4790,6 +4958,12 @@ COVERAGE_NOT = {
         "under one's power": 'phrase: ὑπὸ χεῖρα ποιεῖσθαι',
         'single-': "piece: μιᾷ χειρί 'single-handed': μιᾷ carries 'single-'",
         'grappling-': "piece: χ. σιδηρᾶ 'a grappling-iron': σιδηρᾶ carries 'iron'; 'grapnel' gives the sense whole",
+        'on': 'piece: λαιᾶς χειρός, on the left hand: the genitive of place',
+        'hand?': 'repeat: on which hand?',
+        'in hand': 'phrase: διὰ χειρὸς ἔχειν, εἰς χεῖρας λαμβάνειν, μετὰ χεῖρας ἔχειν',
+        'hand to hand': 'phrase: ἐν χερσί',
+        'in, the hands': 'phrase: μετὰ χερσὶν ἔχειν',
+        'handed': 'piece: μιᾷ χειρί, single-handed',
     },
     'xra/omai': {
         'to become a slave': "phrase: ζυγῷ χρ. δουλίῳ: the dative carries 'slave'",
@@ -4833,14 +5007,15 @@ COVERAGE_ONLY = {
         'worthily of': 'adverb',  # III, adv. ἀξίως, c. gen.
     },
     'a)/gw': {
-        'taking': 'participle',  # part. ἄγων used in sense
-        'being formed': 'passive',  # κόλπου ἀγομένου
-        'to carry away for oneself, take with one': 'middle',  # Mid. ἄγομαι
-        'to marry': 'middle',  # simply ἄγεσθαι
+        'taking': 'active participle',  # ἄγων, in the sense of 'with'
+        'being formed': 'passive participle',  # κόλπου ἀγομένου
+        'to carry away for oneself, take with one': 'middle',  # Mid.
+        'to marry': 'middle',  # Mid., ἄγεσθαι
         'to bring home': 'middle',  # Mid., of the father
-        'to let pass': 'middle',  # διὰ στόμα ἄγεσθαι μῦθον
+        'to let pass': 'middle',  # Mid., διὰ στόμα ἄγεσθαι μῦθον
         'to take': 'middle',  # ἄγεσθαί τι ἐς χεῖρας
-        'to undertake': 'middle',  # ἄγεσθαί τι ἐς χεῖρας
+        'to undertake': 'middle',  # Mid., ἄγεσθαι ἐς χεῖρας
+        'let us go': 'first person',  # ἄγωμεν
     },
     'a)/nqos': {
         'bright colours': 'plural',  # III, in pl.
@@ -4861,7 +5036,7 @@ COVERAGE_ONLY = {
         'to hold a subordinate': 'active',  # cut at validate's 200-char limit; full: to hold a subordinate office (only in Act.)
         'to hold a subordinate office': 'active',  # of Authority, only in Act.
         'to be archon': 'active',  # of Authority, only in Act.; at Athens
-        'subjects': 'passive',  # Pass., οἱ ἀρχόμενοι
+        'subjects': 'passive participle',  # Pass., οἱ ἀρχόμενοι
         'to be ruled, governed': 'passive',  # Pass.
     },
     'a)/rxwn': {
@@ -4885,6 +5060,7 @@ COVERAGE_ONLY = {
     },
     'a)fi/hmi': {
         'let go hold of': 'middle',  # B.3, Mid. c. gen. only, τέκνων ἀφοῦ
+        'to break up, march, sail': 'not passive',  # seemingly intr.
     },
     'a)fori/zw': {
         'to mark off for oneself, appropriate': 'middle',  # Mid.
@@ -4905,13 +5081,15 @@ COVERAGE_ONLY = {
         'good qualities': 'neuter plural',  # II.2, in pl., of a horse
         'a good': 'neuter',  # τὸ ἀγαθόν, a good, used as a noun
     },
+    'a)kou/w': {
+        'to hear oneself called, be called': 'not passive',  # the active in a passive sense, with an adv.
+    },
     'a)lhqh/s': {
         'unconcealed, true': 'not adverb',  # the adverb ἀληθῶς has its own II, «truly», «really, actually, in reality»
         'true': 'not adverb',  # I, opp. to ψευδής
         'the truth': 'neuter',  # τὸ ἀληθές, τὰ ἀληθῆ
         'truthful': 'not adverb',  # I.2 of persons
         'true, coming true': 'not adverb',  # I.3 of oracles
-        'itane? indeed? really? in sooth?': 'neuter',  # III, ἄληθες; ('itane?' is Latin)
         'in very truth': 'superlative',  # III 2, τὸ ἀληθέστατον
         'truly': 'adverb',  # II adv. ἀληθῶς
         'really, actually, in reality': 'adverb',  # II 2
@@ -4932,7 +5110,7 @@ COVERAGE_ONLY = {
         'to put on shipboard': 'aorist',  # aor1 ἀνέβησα used as aor. to ἀναβιβάζω
     },
     'a)nabiba/zw': {
-        'to ascend': 'passive',  # II 5 Pass., εἰς τιμήν
+        'to ascend': 'passive',  # Pass., ἀναβιβάζεσθαι εἰς τιμήν
     },
     'a)nafe/rw': {
         'to fetch up a deep-drawn breath, heave a deep sigh': 'middle',  # I.2 Mid., ἀνενείκασθαι, absol.
@@ -4980,13 +5158,20 @@ COVERAGE_ONLY = {
     },
     'a)noi/gnumi': {
         'to be open, stand open': 'passive',  # II Pass., of doors
+        'to get into the open sea, get clear of land': 'not passive',  # absol., nautical
     },
     'a)ntile/gw': {
         'to be disputed': 'passive',  # 2, Pass.
         'to be counter-claimed': 'passive',  # 2, Pass., of a place
     },
+    'a)pa/gw': {
+        'to retire, withdraw, march away': 'not passive',  # intr.
+    },
     'a)pata/w': {
         'to be deceived into thinking': 'passive',  # Pass., ἀπατᾶσθαι, ὡς . .
+    },
+    'a)po/': {
+        'far away': 'adverb',  # AS ADVERB
     },
     'a)pobai/nw': {
         'to make to dismount, disembark, land': 'aorist',  # B, Causal in aor1 ἀπέβησα
@@ -4997,26 +5182,22 @@ COVERAGE_ONLY = {
         'to sell for': 'middle',  # III, Mid., ἀπ. τοῦ εὑρίσκοντος
         'to farm out': 'middle',  # III, Mid., at Athens, of the public taxes
         'was allowed': 'passive',  # I.3, so in Pass., ὁ λόγος ἀπεδόθη αὐτοῖς
+        'to yield fruit': 'not passive',  # intr., of land
     },
     'a)pokalu/ptw': {
         'to be disclosed, made known': 'passive',  # Pass.
     },
-    'a)pokri/nw': {
-        'to separate, set apart': 'active',  # I active; the middle ἀποκρίνομαι is III
-        'to mark by a distinctive form, distinguish': 'active',  # I.2 active
-        'to choose out, choose': 'active',  # II active
-    },
     'a)poste/llw': {
-        'to go away, depart, set out': 'passive',  # I Pass.
+        'to go away, depart, set out': 'passive',  # Pass.: the passive's own English
+        'to go back, retire': 'not passive',  # intr.
     },
     'a)postre/fw': {
-        'bent back': 'passive',  # Pass., ἀπεστράφθαι τοὺς ἐμβόλους, 'to have … bent back'
-        'twisted': 'passive',  # Pass., ἀποστραφῆναι τὼ πόδε, 'to have … twisted'
-        'hostile': 'passive',  # ἀπεστραμμένοι λόγοι
-        'to turn and flee': 'passive',  # B.II.2, Pass.
+        'hostile': 'perfect passive',  # ἀπεστραμμένοι λόγοι
+        'to turn and flee': 'passive',  # B, Pass.
         'to fa': 'passive',  # cut by validate's 200-char cap: 'to fall off from' (B.II.3, ἀποστραφῆναί τινος)
-        'to fall off from': 'passive',  # B.II.3, ἀποστραφῆναί τινος
-        'desert': 'passive',  # B.II.3, ἀποστραφῆναί τινος
+        'to fall off from': 'passive',  # B, Pass.
+        'desert': 'passive',  # B, Pass., ἀποστραφῆναί τινος
+        'to turn oneself about, turn back': 'passive',  # B, Pass.
     },
     'a)poti/nw': {
         'to get paid one, to exact or require': 'middle',  # II Mid. ἀποτίνομαι, a penalty from a man
@@ -5033,7 +5214,6 @@ COVERAGE_ONLY = {
     },
     'a)rxh/': {
         'to begin with, first': 'accusative',  # absol. in acc. ἀρχήν
-        'in all': 'accusative',  # with numerals, ἀρχὴν ἑπτά (under absol. in acc. ἀρχήν)
         '"the authorities, "': 'plural',  # in pl., αἱ ἀρχαί
         'the magistrates': 'plural',  # in pl., αἱ ἀρχαί
     },
@@ -5055,7 +5235,7 @@ COVERAGE_ONLY = {
         'to feel shame before one': 'passive',  # B. Pass., c. acc. pers.
     },
     'au)ca/nw': {
-        'grew taller': 'passive',  # II Pass., ηὐξανόμην I «grew taller»
+        'grew taller': 'passive',  # Pass., ηὐξανόμην I grew taller
     },
     'au)lai/a': {
         'screens': 'plural',  # LSJ, in pl., screens against missiles
@@ -5090,6 +5270,9 @@ COVERAGE_ONLY = {
     'de/w': {
         'save': 'active',  # I so in partic., ἑνὸς δέον εἰκοστόν the 20th year «save» one
         'to bind, tie, put on oneself': 'middle',  # II Mid.
+    },
+    'di/dwmi': {
+        'to give oneself up, devote oneself': 'not passive',  # IV, seemingly intr.
     },
     'di/kaios': {
         'in due form, decently': 'adverb',  # adv., δικαίως μνᾶσθαι (A.I)
@@ -5134,15 +5317,15 @@ COVERAGE_ONLY = {
     'do/los': {
         'wiles': 'plural',  # 1, in pl.
     },
+    'doca/zw': {
+        'to hold an opinion': 'not passive',  # absol.
+    },
     'doke/w': {
         'the decree': 'participle',  # II.4, τὸ δόξαν
         'when it was decreed or resolved': 'participle',  # II.4.b, acc. absol. δόξαν
         'men who are held': 'participle',  # II.5, οἱ δοκοῦντες εἶναί τι
         'of repute': 'participle',  # II.5, men 'of repute'
         'those who have been found guilty': 'passive',  # II.5, in Pass., οἱ δεδογμένοι ἀνδροφόνοι
-    },
-    'dwre/w': {
-        'to make': 'middle',  # II, as Mid., δ. τινά 'to make him presents', split by 'him'
     },
     'dwrea/': {
         'a gift, present': 'not adverb',  # I
@@ -5161,13 +5344,12 @@ COVERAGE_ONLY = {
         'the utmost': 'neuter',  # as Subst., τὸ ἔσχατον, τὰ ἔσχατα
         'extremest': 'superlative',  # so in Sup., τὰ πάντων ἐσχατώτατα
         'the end': 'neuter',  # ἐς τὸ ἔσχατον, to the end
-        'for the last time': 'neuter',  # neut. ἔσχατον as adv.
         'to the uttermost, exceedingly': 'adverb',  # V adv. -τως
     },
     'e)/xw': {
-        'a wealthy man': 'participle',  # ὁ ἔχων «a wealthy man»
+        'a wealthy man': 'active participle',  # ὁ ἔχων
         'to be possessed by, belong to': 'passive',  # Pass. «to be possessed by, belong to», τινι
-        'what concerns': 'participle',  # τὸ ἐς Ἀργείους ἔχον
+        'what concerns': 'neuter participle',  # τὸ ἐς Ἀργείους ἔχον
         'to hold on by, cling to': 'middle',  # Mid., c. gen.
         'to cleave or cling to': 'middle',  # Mid., metaph.
         'to lay claim to': 'middle',  # Mid.
@@ -5175,7 +5357,6 @@ COVERAGE_ONLY = {
         'to come next to, follow closely': 'middle',  # Mid.
         'follows up': 'middle',  # Mid., τῆς πληγῆς ἔχεται
         'to be close, touch, border on': 'middle',  # Mid., of peoples or places
-        'the neighbouring people': 'middle',  # οἱ ἐχόμενοι
         'next': 'middle',  # of Time, τὸ ἐχόμενον ἔτος
         'to depend on': 'middle',  # Mid.
         'to pertain to': 'middle',  # Mid.
@@ -5187,6 +5368,13 @@ COVERAGE_ONLY = {
         'to have to wife': 'not passive',  # no passive
         "to have in one's house, to entertain": 'not passive',  # no passive
         'to have means or power': 'not passive',  # intransitive
+        'with': 'participle',  # ἔχων with a verb: come with an army
+        'to bear or hold for oneself': 'middle',  # Mid. II
+        'extended': 'not passive',  # intr., of the view
+        'to lead towards': 'not passive',  # intr.
+        'to point towards, tend towards': 'not passive',  # intr.
+        'to put in, land': 'not passive',  # intr.
+        'to take part in, have to do with': 'not passive',  # intr.
     },
     'e)a/w': {
         'to be given up': 'passive',  # I Pass.
@@ -5249,9 +5437,6 @@ COVERAGE_ONLY = {
     'e)kei=qen': {
         'yon': 'never',  # c. gen., τοὐκεῖθεν ἄλσους
     },
-    'e)klei/pw': {
-        'the deceased': 'participle',  # II.2 οἱ ἐκλελοιπότες
-    },
     'e)klekto/s': {
         'the elect': 'plural',  # II, οἱ ἐκλεκτοί, NTest.
     },
@@ -5274,7 +5459,7 @@ COVERAGE_ONLY = {
         'to pour out, stream out or forth': 'passive',  # II Pass.
         'to be spread out': 'passive',  # II Pass., generally
         'to be poured out like water, forgotten': 'passive',  # II.2 Pass.
-        'to give oneself up to joy, to be overjoyed': 'passive',  # II.3 Pass.
+        'to give oneself up to joy, to be overjoyed': 'passive',  # Pass.
         'to burst out': 'passive',  # II.3 Pass., ἐκχ. γελῶν
         'to lie languidly': 'passive',  # II.4 Pass.
     },
@@ -5294,8 +5479,6 @@ COVERAGE_ONLY = {
     'e)mo/s': {
         'my property': 'neuter',  # 3, τὸ ἐμόν, τὰ ἐμά
         'my part, my affairs, my interest': 'neuter',  # 3, τὰ ἐμά or τὸ ἐμόν
-        'for my part, as far as concerns me': 'neuter',  # 3, absol., τό γε ἐμόν, τὸ μὲν ἐμόν
-        'my country': 'feminine',  # 4, ἡ ἐμή (sub. γῆ)
     },
     'e)nanti/os': {
         'over against, opposite': 'adjective',  # I.1; the existing FORM_SENSES note reads the preposition from the neuter's senses
@@ -5335,22 +5518,32 @@ COVERAGE_ONLY = {
         'he lay outstretched': 'middle',  # V aor2 mid. ἐπέσχετο
     },
     'e)piba/llw': {
-        'the portion that falls to one': 'participle',  # τὸ ἐπιβάλλον (sc. μέρος)
+        'the portion that falls to one': 'neuter participle',  # τὸ ἐπιβάλλον (sc. μέρος)
         'to throw oneself upon, desire eagerly': 'middle',  # Mid., c. gen.
         'to put upon oneself': 'middle',  # Mid., c. acc.
         'to take possession of, take': 'middle',  # cut at validate's 200-char limit; full: to take possession of, take upon oneself (Mid., me
         'to take possession of, take upon oneself': 'middle',  # Mid., metaph.
         'to be put upon': 'passive',  # in Pass.
+        'devote oneself to': 'not passive',  # intr.
+        'to apply oneself to': 'not passive',  # intr.
+        'to belong to, fall to': 'not passive',  # intr.
+        'to fall upon or against': 'not passive',  # intr.
+        'to follow, come next': 'not passive',  # intr.
+        "to give one's attention to, think on": 'not passive',  # intr.
+        'to throw oneself upon, go straight towards': 'not passive',  # intr.
     },
     'e)pibai/nw': {
         'to make one mount, set him upon': 'active',  # B, Causal in aor1 act.
     },
     'e)pife/rw': {
         'to bring with or upon oneself, bring as dowry': 'middle',  # Mid.
-        'to rush upon or after, attack, assault': 'passive',  # Pass.
-        'to come after or next, ensue': 'passive',  # Pass.
+        'to rush upon or after, attack, assault': 'passive',  # III, Pass.
+        'to come after or next, ensue': 'passive',  # III, Pass.
         'coming events': 'neuter plural',  # τὰ ἐπιφερόμενα
         'to be borne onwards': 'passive',  # Pass.
+    },
+    'e)pigignw/skw': {
+        'to come to a decision, to resolve, decide': 'not passive',  # intr.
     },
     'e)pikale/w': {
         'to call before one, summon': 'middle',  # Mid. (I.4)
@@ -5415,6 +5608,9 @@ COVERAGE_ONLY = {
     'ei)mi/': {
         'true': 'participle',  # τὸν ἐόντα λόγον, the true story
     },
+    'ei)sa/gw': {
+        'to introduce new': 'not passive',  # its noun outside the translation
+    },
     'ei)sfe/rw': {
         'to carry with one, sweep along': 'middle',  # II, Mid.
         'to bring in for oneself, to import': 'middle',  # II.2, Mid.
@@ -5425,6 +5621,7 @@ COVERAGE_ONLY = {
     },
     'eu(ri/skw': {
         'to get for oneself, bring on oneself': 'middle',  # Mid.
+        'to find out for oneself': 'middle',  # so in Mid.
     },
     'eu)=': {
         'the right, the good cause': 'neuter',  # II as Subst., τὸ εὖ
@@ -5434,21 +5631,21 @@ COVERAGE_ONLY = {
         'born': 'passive',  # B.2, Pass., φανεὶς δύστηνος 'born to misery'
         'shewn to': 'passive',  # B.2, Pass., δοῦλος φανείς 'shewn to be, having become': the card cuts the tr
         'shewn to be, having become': 'passive',  # B.2, Pass., δοῦλος φανείς
-        'what has once come to light': 'passive',  # B.2, τὸ φανθέν
-        'manifestly': 'passive',  # B.II, c. part., εὔνοος ἐφαίνετο ἐών
-        'do I look like': 'passive',  # B.II, τί φαίνομαι (sc. ὤν);
-        'yes': 'passive',  # B.II.2, in dialogue, the answer φαίνεται
-        'informed against': 'passive',  # A.4, Pass., τὰ φανθέντα, articles informed against
+        'what has once come to light': 'passive participle',  # τὸ φανθέν
+        'manifestly': 'passive',  # B, Pass., εὔνοος ἐφαίνετο ἐών
+        'informed against': 'passive participle',  # A.4, Pass., τὰ φανθέντα, articles informed against
         'to shine brightly': 'passive',  # B, Pass., of fire
-        'they were manifest': 'passive',  # B.II, Κᾶρες ἐφάνησαν (sc. ὄντες)
+        'they were manifest': 'passive',  # B, Pass., Κᾶρες ἐφάνησαν
         'to give light': 'active',  # intr. in act., to give light, shine
+        'make it ring clear': 'not passive',  # its object 'it'
+        'to give information': 'not passive',  # absol.
+        'to make it clear': 'not passive',  # its object 'it'
     },
     'fanero/s': {
         'openly, manifestly': 'adverb',  # I 5 adv. -ρῶς
     },
     'fe/rw': {
         "for one's own use": 'middle',  # Mid., to bring with one or for one's own use (IV)
-        'brought one, receive': 'middle',  # ἔπος φέρεσθαι, 'to have word brought one, receive' (IV.4)
         'to carry off with one': 'middle',  # VI, Mid.
         'to win for oneself': 'middle',  # VI.3, so in Mid.
         'to win and hold': 'middle',  # VI.3, metaph., τὰ πρῶτα φέρεσθαι
@@ -5459,17 +5656,21 @@ COVERAGE_ONLY = {
         'it is said': 'passive',  # VIII, φέρεται, i. e. it is said
         'come, now, well': 'imperative',  # IX, imperat. φέρε used as adv.
         'well then': 'imperative',  # IX.2, φέρε before a question
-        'fortune, fate': 'participle',  # X, part. neut. τὸ φέρον, as Subst.
-        'bears to you, awards you': 'participle',  # X, τὸ φέρον ἐκ θεοῦ
+        'fortune, fate': 'neuter participle',  # τὸ φέρον
         'to be swept away': 'passive',  # B.I, Pass.
         'flying': 'passive',  # B.I, ἧκε φέρεσθαι, sent him flying
         'go': 'passive',  # B.I, ἧκα πόδας … φέρεσθαι, I let go: ἧκα carries 'let'
         'swing free': 'passive',  # B.I, φέρεσθαι
-        'with a rush': 'passive',  # B.I.2, φερόμενοι with another verb of motion
-        'hurriedly, in haste': 'participle',  # B.I.2, part. act. φέρων used intr.
+        'with a rush': 'passive participle',  # B.I.2, φερόμενοι with another verb of motion
+        'hurriedly, in haste': 'active participle',  # φέρων, intr.
         'to come': 'passive',  # B.II, of voluntary motion, ὁμόσε τινὶ φέρεσθαι
         'to turn out well or ill, succeed or fail': 'passive',  # B.III, εὖ, κακῶς φέρεσθαι
         'take their course': 'passive',  # B.III, ἐᾶν ταῦτα φέρεσθαι
+        'inclines': 'not passive',  # intr.
+        'to aim at a thing, hint or point at, refer to it': 'not passive',  # absol.
+        'to lead to': 'not passive',  # absol., of roads
+        'to lead to, be conducive to': 'not passive',  # absol.
+        'to stretch, extend to or towards': 'not passive',  # absol., of country
     },
     'file/w': {
         'welcome shalt thou be': 'passive',  # I.2, Pass., φιλήσεαι
@@ -5479,8 +5680,8 @@ COVERAGE_ONLY = {
         'terror, danger': 'neuter',  # I.2, τὸ φ.
     },
     'fqei/rw': {
-        'to have suffered loss from shipwreck': 'not passive',  # the passive's own English, already passive
-        'to pine away in': 'passive',  # Pass., χέρσους φθαρῆναι (II.3)
+        'to have suffered loss from shipwreck': 'passive',  # Pass.: the passive's own English, as printed
+        'to pine away in': 'passive',  # Pass.
     },
     'fro/nimos': {
         'presence of mind': 'neuter',  # τὸ φρ.
@@ -5491,26 +5692,27 @@ COVERAGE_ONLY = {
         'the garrison': 'plural',  # οἱ φ.
     },
     'fu/w': {
-        'the begetter, father': 'active',  # ὁ φύσας
+        'the begetter, father': 'active participle',  # ὁ φύσας
         'to be by nature disposed to do': 'perfect',  # B II 2 c. inf.
         'to be by nature prone': 'perfect',  # B II 3, φῦναι ἐπὶ δακρύοις
+        'the things produced': 'participle',  # τῶν φύντων
+        'to be': 'perfect',  # the perfect in a present sense
+        'to put forth shoots': 'not passive',  # absol.
     },
     'fula/ssw': {
         'to be watched, kept under guard': 'passive',  # Pass.
         'to be fostered in or by . .': 'passive',  # Pass., φυλάττεσθαι παρά τινι
-        'cautious, prudent': 'middle',  # Mid. with perf. pass., πεφυλαγμένος εἶναι
+        'cautious, prudent': 'perfect passive',  # πεφυλαγμένος
         '': 'middle',  # cut at validate's 200-char limit (GEN 2:15); full: with caution (φυλασσομένους, Mid.)
         'cautious, prudent`': 'middle',  # cut at validate's 200-char limit; full: cautious, prudent (Mid.)
         'with caution': 'middle',  # φυλασσομένους πορεύεσθαι
-        'by one, bear': 'middle',  # Mid. c. acc., to keep a thing by one, bear it in mind
-        'in mind': 'middle',  # Mid. c. acc., to keep a thing by one, bear it in mind
         'to guard, keep safe': 'middle',  # C.I.3 Mid.
         'to take care': 'middle',  # Mid. c. inf.
         'to take care for': 'middle',  # Mid. c. gen.
         'be chary of': 'middle',  # Mid. c. gen.
         "to beware of, be on one's guard against, shun, avoid": 'middle',  # φυλάσσεσθαί τι or τινα
-        'I will take care': 'middle',  # φυλάξομαι
         'guard against': 'middle',  # Mid. c. inf., φ. μὴ ποιεῖν
+        'to keep watch and ward, keep guard': 'not passive',  # absol.
     },
     'futeu/w': {
         'the father': 'participle',  # ὁ φυτεύσας alone
@@ -5522,24 +5724,29 @@ COVERAGE_ONLY = {
     },
     'gi/gnomai': {
         'the result or amount': 'participle',  # of sums, ὁ γεγονὼς ἀριθμός
-        'the event, the fact': 'participle',  # in neut. part., τὸ γενόμενον
-        'the facts': 'participle',  # τὰ γενόμενα
-        'former events, the past': 'participle',  # τὰ γεγενημένα
-        'the f': 'participle',  # cut at validate's 200-char limit; full: the future (τὸ γενησόμενον)
-        'the future': 'participle',  # τὸ γενησόμενον
+        'the event, the fact': 'neuter participle',  # in neut. part., τὸ γενόμενον
+        'the facts': 'neuter participle',  # τὰ γενόμενα
+        'former events, the past': 'neuter participle',  # τὰ γεγενημένα
+        'the f': 'neuter participle',  # cut at validate's 200-char limit; full: the future (τὸ γενησόμενον)
+        'the future': 'neuter participle',  # τὸ γενησόμενον
     },
     'gignw/skw': {
         'to be pronounced': 'passive',  # Pass., of a sentence or judgment
+        'I understand': 'first person active',  # ἔγνων, in dialogue: the active's
+        'were aware of': 'not passive',  # c. gen., to be aware of: no passive
     },
     'gumno/s': {
         'the parts not covered by armour, the exposed parts': 'neuter plural',  # τὰ γυμνά
         'the right side': 'neuter plural',  # τὰ γυμνά, esp.
     },
+    'gumno/w': {
+        'to strip oneself naked or to be stript naked': 'passive',  # Pass.
+    },
     'gunaikei=os': {
         "the women's apartments, harem": 'feminine',  # II as Subst. ἡ γυναικηίη = γυναικών
     },
     'h(me/ra': {
-        'within': 'genitive',  # in gen., τριῶν ἡμερέων, within three days
+        'by day': 'genitive',  # ἡμέρας, by day
     },
     'h(suxa/zw': {
         'to make still, lay to rest': 'aorist',  # II, Causal in aor1
@@ -5580,9 +5787,10 @@ COVERAGE_ONLY = {
         'I call down': 'middle',  # ἀρὰς καλοῦμαι
         'to be invoked': 'passive',  # in Pass., of the god
         'to sue': 'middle',  # of the plaintiff, in Mid.
-        'shall be given': 'passive',  # ὄνομα κεκλήσεται
-        'to have received a name, to b': 'passive',  # cut at validate's 200-char limit; full: to have received a name, to bear it (perf. pass. κ
-        'to have received a name, to bear it': 'passive',  # perf. pass. κέκλημαι
+        'to have received a name, to b': 'perfect passive',  # cut at validate's 200-char limit; full: to have received a name, to bear it (perf. pass. κ
+        'is called on': 'passive',  # πρὶν … καλεῖσθαι, before it is called on
+        'to have received a name, to bear it': 'perfect passive',  # κέκλημαι: the perfect passive's own English, as printed
+        'to be': 'perfect passive',  # κέκλημαι, often = εἰμί
     },
     'kalo/s': {
         'beauty': 'neuter',  # I.2, τὸ καλόν
@@ -5618,15 +5826,13 @@ COVERAGE_ONLY = {
         'to be set, set oneself down, settle, arrive': 'passive',  # B 1
         'to come before': 'passive',  # B 1 b
         'stand in': 'passive',  # B 1 b: 'stand in his presence', one translation
-        'presence': 'passive',  # B 1 b: rest of 'stand in his presence'
         'to stand quiet, be c': 'passive',  # B 3; string cut by the 200-char message, card item 'to stand quiet, be calm'; later items 
         'abated': 'aorist',  # ὁ θόρυβος κατέστη
-        'composedly': 'participle',  # καταστάς, of persons
-        'middle': 'participle',  # ἡ καθεστηκυῖα ἡλικία, middle age
+        'composedly': 'active participle',  # καταστάς
         'are ye?': 'perfect',  # B 4, τίνι τρόπῳ καθέστατε;
         'the present state of life': 'neuter plural',  # τὰ καθεστῶτα
         'existing laws, customs': 'neuter plural',  # τὰ κατεστεῶτα
-        'to stand against, oppose': 'passive',  # B 6 Pass.
+        'to stand against, oppose': 'passive',  # [6] Pass.: the passive's own English
         'to stand quiet, be calm': 'passive',  # B.3, of water
         'to come into a certain state, to become': 'perfect',  # B.4, in perf.
         'to be established or instituted, to prevail, exist': 'passive',  # B.5
@@ -5656,6 +5862,9 @@ COVERAGE_ONLY = {
     'katafrone/w': {
         'to be thought little of, despised': 'passive',  # I.2, Pass.
     },
+    'katagela/w': {
+        'to laugh scornfully': 'not passive',  # absol.
+    },
     'katakeno/w': {
         'waste away, shrivel': 'passive',  # LSJ strengthd. for κενόω; κενόω I 6, in Pass.
     },
@@ -5664,12 +5873,16 @@ COVERAGE_ONLY = {
         'being constrained': 'passive',  # III.3 Pass., καταλαμβανόμενος
     },
     'katalei/pw': {
-        'to reserve for oneself': 'middle',  # III Mid.
+        'to reserve for oneself': 'middle',  # Mid.
         'to leave behind one': 'middle',  # so in Mid., καταλείπεσθαι παῖδας
         'to leave': 'middle',  # I 3, in Mid., simply, to leave in a certain state
     },
     'katamanqa/nw': {
         'to have learnt, to be aware': 'perfect',  # 5, in perf.
+    },
+    'katapau/w': {
+        'to leave off from, cease from': 'middle or passive',  # III, Pass. and Mid.
+        'to leave off, cease': 'middle or passive',  # III, Pass. and Mid.
     },
     'katara/omai': {
         'accursed': 'passive',  # the perfect passive participle, κατηραμένος
@@ -5693,9 +5906,14 @@ COVERAGE_ONLY = {
         'to hold, contain': 'middle',  # C.3, Mid.
         'subdued': 'middle',  # C.II, κατασχόμενος: the aor. mid. used like a Pass.
         'to be stopped, to stop': 'middle',  # C.II, the aor. mid. used like a Pass.
+        'prevail, are frequent': 'not passive',  # intr.
+        'prevails, is rife': 'not passive',  # intr.
+        'to come from the high sea to shore, put in': 'not passive',  # intr.
+        'to have the upper hand': 'not passive',  # intr.
+        'to prevail': 'not passive',  # intr.
     },
     'katerga/zomai': {
-        'to be overcome': 'passive',  # I 2 b, perf. pass.
+        'to be overcome': 'perfect passive',  # I 2 b, perf. pass.
     },
     'katesqi/w': {
         'corroded': 'passive',  # 3, perf. pass. part. κατεδηδεσμένοι
@@ -5706,7 +5924,7 @@ COVERAGE_ONLY = {
     },
     'katoiki/zw': {
         'to be placed or settled': 'passive',  # Pass., of persons (II.1)
-        'to have colonies planted there, to be colonised': 'passive',  # Pass., of places (II.2)
+        'to have colonies planted there, to be colonised': 'passive',  # Pass., of places
     },
     'kei/rw': {
         'shorn': 'passive',  # I, Pass., κεκάρθαι τὰς κεφαλάς
@@ -5727,8 +5945,9 @@ COVERAGE_ONLY = {
         'to bewail to oneself': 'middle',  # III.2, Mid., trans.
     },
     'kle/ptw': {
-        'blindfold': 'passive',  # II, Pass., προβαίνει κλεπτόμενος 'he goes on blindfold'
-        'by fraud': 'participle',  # IV, κλέπτων ἢ βιαζόμενος
+        'blindfold': 'passive',  # Pass., προβαίνει κλεπτόμενος
+        'by fraud': 'active participle',  # κλέπτων ἢ βιαζόμενος
+        'to whisper malicious': 'not passive',  # its noun outside the translation
     },
     'ko/ptw': {
         'to be shattered or disabled': 'passive',  # I.2, Pass., of ships
@@ -5761,6 +5980,9 @@ COVERAGE_ONLY = {
     },
     'kri/nw': {
         'to be brought to trial': 'passive',  # IV.2, Pass.
+    },
+    'kru/ptw': {
+        'to hide oneself, lie hidden': 'middle or passive',  # Mid. and Pass.
     },
     'kta/omai': {
         'to possess, have, hold': 'pluperfect',  # in perf. and plup. (II)
@@ -5796,7 +6018,7 @@ COVERAGE_ONLY = {
     },
     'kuro/w': {
         "to accomplish one's end": 'middle',  # 1, Mid.
-        'it has been accomplished': 'passive',  # 1, πρὶν κεκυρῶσθαι σφαγάς
+        'it has been accomplished': 'passive',  # Pass.
     },
     'kwlu/w': {
         'a hindrance': 'participle',  # 4, τὸ κωλῦον
@@ -5805,9 +6027,14 @@ COVERAGE_ONLY = {
         'to take hold of, lay hold on': 'middle',  # B. Mid., c. gen.
         'reach, gain': 'middle',  # Mid., λ. τῶν ὀρῶν
         'to have given one, to get, gain, win': 'not passive',  # no passive
+        'took and': 'participle',  # λαβών, almost pleonastic
+        'to take to': 'middle',  # B.2, Mid., λ. τῶν ὀρῶν
+        'to admit of': 'not passive',  # no passive
     },
     'le/gw': {
-        'I mean': 'first person',  # λέγω, I mean, in parenthesis
+        'I mean': 'first person active',  # λέγω, I mean, in parenthesis: the active's
+        'say on': 'imperative',  # λέγε, say on
+        'the so-called': 'passive participle',  # ὁ λεγόμενος
     },
     'li/qos': {
         'some special stone': 'feminine',  # the fem. was mostly used of some special stone
@@ -5819,8 +6046,11 @@ COVERAGE_ONLY = {
         'histories, history': 'plural',  # A.IV.2, in pl.
         'one part of such a work': 'singular',  # A.IV.2, in sg.
     },
+    'logi/zomai': {
+        'to form calculations': 'not passive',  # intr.
+    },
     'loxeu/w': {
-        'to lie embedded': 'passive',  # III Pass., metaph., ἐν τεύτλοισι
+        'to lie embedded': 'middle or passive',  # Pass.
     },
     'lupe/w': {
         'to grieve about': 'passive',  # Pass., c. acc. rei (II)
@@ -5849,8 +6079,6 @@ COVERAGE_ONLY = {
         'greatly, mightily, exceedingly': 'adverb',  # B, adv. μεγάλως
         'very much, exceedingly': 'neuter',  # B.II
         'aloud, loudly': 'neuter',  # B.II, with verbs of sound
-        'far': 'neuter',  # B.II.2, of Space, μέγα ἄνευθε
-        'by far': 'neuter',  # B.II.2, with comp. and Sup.
         'greater': 'comparative',  # μείζων (C.1)
         'too': 'comparative',  # cut by validate's cap: 'too great, too much, more than enough', μείζων (C.1)
         'too great, too much, more than enough': 'comparative',  # C.1, μείζων
@@ -5869,7 +6097,7 @@ COVERAGE_ONLY = {
         'in a middle way': 'adverb',  # μέσως βεβιωκέναι
     },
     'megalu/nw': {
-        'to gain great glory': 'passive',  # Pass., μεγαλύνεσθαι ἔκ τινος
+        'to gain great glory': 'passive',  # Pass.
         'to boast oneself': 'middle',  # II Mid.
     },
     'mei/s': {
@@ -5878,9 +6106,6 @@ COVERAGE_ONLY = {
     },
     'metati/qhmi': {
         "to get rid of, transfer one's": 'middle',  # Mid. (II.3.b), τὸν φόβον
-    },
-    'mh=kos': {
-        'at length, in full': 'accusative',  # II, absol. as adv.
     },
     'mh=lon': {
         "girl's breasts": 'plural',  # II, pl., metaph.
@@ -5893,21 +6118,19 @@ COVERAGE_ONLY = {
         'to be bound': 'passive',  # B, Pass., μίσγεσθαι ξενίῃ
         'to mingle with, hold intercourse with': 'passive',  # B, Pass.: a report cut of 'to mingle with, hold intercourse with, live with'
         'to mingle with, hold intercourse with, live with': 'passive',  # B, Pass.
-        'to hold intercourse': 'passive',  # B, Pass., absol. in pl.
+        'to hold intercourse': 'passive',  # B, Pass.
         'to be brought into contact with': 'passive',  # B.2, Pass.
         'was rolled': 'passive',  # B.2, Pass., κάρη κονίῃσιν ἐμίχθη
         'to rea': 'passive',  # B.2, Pass., 'to reach, get at': the report cut it
-        'to reach, get at': 'passive',  # B.2, Pass., κλισίῃσι μιγῆναι
-        'to go to join': 'passive',  # B.2, μίσγεσθαι ἐς Ἀχαιούς
-        'to come to': 'passive',  # B.2, μίσγεσθαι φύλλοις, στεφάνοις
-        'win': 'passive',  # B.2, μίσγεσθαι στεφάνοις, i. e. win
-        'to mix in fight': 'passive',  # B.3, Pass., in hostile sense
+        'to reach, get at': 'passive',  # B, Pass.
+        'to go to join': 'passive',  # B, Pass.
+        'to come to': 'passive',  # B, Pass. absol.
+        'to mix in fight': 'passive',  # B, Pass., in hostile sense
         'to have intercourse with, to be united to': 'passive',  # B.4, Pass., of men and women
     },
     'mikro/s': {
         'but little': 'adverb',  # III.1 regul. adv., σμικρῶς
         'within a little, almost': 'genitive',  # III.2 adverbial usages
-        'for a little, cheap': 'genitive',  # III.2 μικροῦ πρίασθαι
         'by a little': 'dative',  # III.3 μικρῷ, with the comp.
         'a little': 'accusative',  # III.4
     },
@@ -5952,9 +6175,6 @@ COVERAGE_ONLY = {
         'conformable to custom, usage': 'not neuter',  # I; the units are the neuter plural noun
         'law, customary, prescriptive, established, lawful, rightful': 'not neuter',  # I; the units are the neuter plural noun
     },
-    'no/mos': {
-        'by custom, conventionally': 'dative',  # dat. νόμῳ, opp. to φύσει
-    },
     'nu/c': {
         'the goddess of Night': 'never',  # III Νύξ as prop. n., daughter of Chaos (cf. οὐρανός's Uranus in NOT_SENSES)
     },
@@ -5988,6 +6208,7 @@ COVERAGE_ONLY = {
         'to let oneself be seen, appear': 'passive',  # Pass., like φαίνομαι
         'all that is seen, things visible': 'neuter plural',  # τὰ ὁρώμενα
         'to have sight': 'not passive',  # intransitive
+        'take heed, beware': 'not passive',  # absol.
     },
     'o(rma/w': {
         'think': 'middle or passive',  # B.1, c. inf.
@@ -6017,9 +6238,10 @@ COVERAGE_ONLY = {
         'the nominative': 'feminine',  # IV.3, ἡ ὀρθή (sub. πτῶσις), Lat. casus rectus
     },
     'o)rqo/w': {
-        'to succeed, prosper': 'passive',  # III 2 Pass.
-        'success': 'passive',  # τὸ ὀρθούμενον
+        'to succeed, prosper': 'passive',  # Pass.
+        'success': 'neuter participle',  # τὸ ὀρθούμενον
         'to be upright, deal justly': 'passive',  # III 3, in Pass. also
+        "to rise from one's seat, stand up": 'passive',  # Pass., simply
     },
     'o)ru/ssw': {
         'dug or quarried': 'middle',  # II, Mid., λίθους ὀρύξασθαι 'to have stones dug or quarried'
@@ -6028,6 +6250,8 @@ COVERAGE_ONLY = {
         'I ween': 'first person',  # III, ὀίω used parenthetically in first person
         'I believe you, of course, no doubt': 'first person',  # III 2
         "don't you think so? what think you": 'second person',  # οἴει; as a question
+        'I think, I suppose, I believe': 'first person',  # οἶμαι, parenthetic
+        'think you': 'second person',  # πῶς οἴει; parenthetic
     },
     'oi)=da': {
         'my witness': 'imperative',  # the Imperat. in protestations, ἴστω Ζεύς
@@ -6055,17 +6279,13 @@ COVERAGE_ONLY = {
         'not at all, naught': 'neuter',  # III, neut. οὐδέν as adv.
     },
     'pa=s': {
-        'with or in the judgment of all': 'plural',  # in dat. pl. masc. πᾶσι
-        'in all things, altogether': 'plural',  # πᾶσι as neut.
         'all things': 'neuter plural',  # πάντα γίγνεσθαι
         'everything': 'neuter',  # εἰς πᾶν; πάντα εἶναί τινι
         'in all points': 'neuter plural',  # cut at validate's 200-char limit; full: in all points, entirely, wholly (πάντα as adv.)
         'in all points, en': 'neuter plural',  # cut at validate's 200-char limit; full: in all points, entirely, wholly (πάντα as adv.)
-        'in all points, entirely, wholly': 'neuter plural',  # πάντα as adv. for πάντως
-        'in every way, by all means, altogether': 'neuter plural',  # τὰ πάντα
-        'on the whole, altogether': 'singular',  # τὸ πᾶν as adv.
-        'everything, anything': 'singular',  # πᾶν
-        'anything': 'singular',  # πᾶν μᾶλλον ἤ
+        'everything, anything': 'neuter singular',  # πᾶν
+        'anything': 'neuter singular',  # πᾶν
+        "the whole, one's all": 'neuter singular',  # τὸ πᾶν
     },
     'pai/zw': {
         'in jest, jestingly': 'participle',  # II, the part. παίζων used absol.
@@ -6124,7 +6344,7 @@ COVERAGE_ONLY = {
     },
     'periba/llw': {
         'the space enclosed, enclosure': 'passive',  # III, Pass., τὸ περιβεβλημένον
-        'to have come into possession of': 'passive',  # IV, perf. pass.
+        'to have come into possession of': 'perfect passive',  # IV, perf. pass.
     },
     'perisso/s': {
         'greater things': 'comparative',  # I 4, περισσότερα, greater things than
@@ -6141,8 +6361,8 @@ COVERAGE_ONLY = {
         'to be turned round, spin round': 'passive',  # 1 Pass.
     },
     'perite/mnw': {
-        'to make incisions all round': 'middle',  # I Mid., περιτάμνεσθαι βραχίονας
-        'they practise circumcision': 'middle',  # I.2 in Mid., περιτάμνονται τὰ αἰδοῖα
+        'to make incisions all round': 'middle',  # Mid.
+        'they practise circumcision': 'middle',  # Mid., περιτάμνονται
         'to be curtailed of': 'passive',  # I.3 Pass., περιτάμνεσθαι γῆν
         'to be cut off, intercepted': 'passive',  # II Pass.
     },
@@ -6150,7 +6370,7 @@ COVERAGE_ONLY = {
         'to put round oneself, put on': 'middle',  # I, Mid.
     },
     'ph/gnumi': {
-        'to become solid, stiff or hard': 'perfect or passive',  # III, intr. perf. and Pass.
+        'to become solid, stiff or hard': 'perfect or passive',  # intr. perf. and Pass.
         'to become congealed, freeze': 'perfect or passive',  # III, intr. perf. and Pass., of liquids
         'to be irrevocably fixed, established': 'perfect or passive',  # IV, intr. perf. and Pass.
     },
@@ -6164,6 +6384,8 @@ COVERAGE_ONLY = {
     },
     'pisteu/w': {
         'to believe mutually': 'middle',  # I Mid.
+        'to comply': 'not passive',  # absol.
+        'to dare': 'not passive',  # c. inf.
     },
     'pla/gios': {
         'placed sideways, slanting, aslant': 'noun',  # I
@@ -6178,27 +6400,33 @@ COVERAGE_ONLY = {
         'to grow broad, widen out': 'passive',  # Pass. «to grow broad, widen out»
     },
     'platu/s': {
-        'wide, broad': 'noun',  # πλατεῖα (sc. ὁδός) is I.5 «a street»
-        'flat, level': 'noun',  # I.2
-        'broad-shouldered': 'noun',  # I.3 of a man
+        'wide, broad': 'adjective',  # I, the adjective: not the noun
+        'flat, level': 'adjective',  # II, the adjective
+        'broad-shouldered': 'adjective',  # II, the adjective
         'flatly, merely': 'neuter',  # neut. as adv.
-        'salt, brackish': 'noun',  # II
+        'salt, brackish': 'adjective',  # of liquids, the adjective
+        'a street': 'noun',  # III, as Subst., ἡ πλατεῖα
+        'the flat of the hand': 'noun',  # III, as Subst., ἡ πλατεῖα
     },
     'plhqu/nw': {
         'to be in the majority, to prevail': 'passive',  # Pass.
     },
     'plhro/w': {
         'fully observed': 'passive',  # III.4 Pass., νόμοι πληρούμενοι
-        'to crowd in': 'passive',  # III.5 Pass. «to crowd in» to a place
+        'to crowd in': 'passive',  # Pass.
+        'comes in full': 'not passive',  # intr.
     },
     'poie/w': {
         'to take': 'middle',  # Mid., ποιεῖσθαί τινα ἄλοχον
         'to adopt': 'middle',  # Mid., ποιεῖσθαί τινα υἱόν
         'to hold, deem, consider, reckon, esteem': 'middle',  # V. in Mid.
         'to deem': 'middle',  # V. in Mid., μέγα π.
-        'those who are reputed . .': 'passive',  # Pass., οἱ φιλοσοφώτατοι ποιούμενοι
+        'those who are reputed . .': 'passive participle',  # οἱ ποιούμενοι
         'spend': 'middle',  # τὴν νύκτα ἐφ᾽ ὅπλοις ποιεῖσθαι
         'to put the case assume': 'imperative',  # ποίει, put the case, assume
+        'to oneself': 'middle',  # to take her to oneself as wife
+        'to act': 'not passive',  # intr.
+        'to work, operate': 'not passive',  # absol., of medicine
     },
     'poiki/los': {
         'in double sense': 'adverb',  # III.3, adv. ποικίλως
@@ -6214,18 +6442,19 @@ COVERAGE_ONLY = {
         'very much, too much': 'neuter plural',  # II.4, the pl. πολλά with Verbs, as decided for the cut 'ver'
         'much, very': 'neuter',  # III.1.a, neut. πολύ, πολλά
         'many times, ofttimes, often, much': 'neuter',  # III.1.a, of repetition
-        'for the most part': 'neuter',  # III.1.a, with the Art., τὸ πολύ
         'far, very much': 'neuter',  # III.1.b, of Degree
         'very': 'genitive',  # III.1.b, absol. gen. πολλοῦ
         'a great way, far': 'neuter',  # III.1.c, of Space, οὐ πολλόν
         'much, far': 'neuter',  # III.2.a, with a comp., πολὺ κάλλιον
-        'by far': 'dative',  # III.2.a, so dat. πολλῷ
     },
     'ponhri/a': {
         'knavish tricks, rogueries': 'plural',  # in pl.
     },
     'ponhro/s': {
         'the evil one': 'masculine',  # ὁ π.
+    },
+    'poreu/w': {
+        'to carry or ferry over': 'active',  # Act., c. dupl. acc.
     },
     'pou/s': {
         'the arms': 'plural',  # in pl., a bird's talons; «the arms» of a polypus
@@ -6300,25 +6529,26 @@ COVERAGE_ONLY = {
         'to be borne towar': 'passive',  # cut by validate's cap: 'to be borne towards' (B, Pass.)
         'to be borne towards': 'passive',  # B, Pass., as decided for the cut 'to be borne towar'
         'to put in': 'passive',  # B, Pass., of ships
-        'to go against, attack, assault': 'passive',  # B.2, Pass.
-        'to rush on, make an onset': 'passive',  # B.2, Pass., absol.
-        'to engage': 'passive',  # B.2, προσφέρεσθαι ἄποροι, difficult to engage
+        'to go against, attack, assault': 'passive',  # B, Pass.
+        'to rush on, make an onset': 'passive',  # B, Pass.
+        'to engage': 'passive',  # B, Pass.
         'to go to or towards': 'passive',  # B.3, Pass.
-        'sailing': 'passive',  # B.3, προσφερόμενοι
+        'sailing': 'passive',  # B, Pass., προσφερόμενοι
         'to deal with, behave oneself': 'middle only',  # Mid.
-        'to answer': 'passive',  # B.4, προσφέρεσθαι πρὸς λόγον, to answer it
-        'to come near': 'passive',  # B.5, προσφέρεσθαί τινι
+        'to answer': 'passive',  # B, Pass., προσφέρεσθαι πρὸς λόγον
+        'to come near': 'passive',  # B, Pass.
         'be like': 'passive',  # B.5, προσφέρεσθαί τινι
         'to be put or imposed upon': 'passive',  # B.II, προσφέρεσθαί τινι
         'to take to oneself as meat or drink': 'middle',  # C, Mid.
-        'meat or drink, food': 'neuter plural',  # C, Pass., τὰ προσφερόμενα
+        'meat or drink, food': 'passive participle',  # Pass., τὰ προσφερόμενα
         'to exhibit': 'middle',  # C.2, Mid., φιλοτιμίαν ὑμῖν
         'to apply or cause to be applied': 'middle',  # C.3, Mid.
+        'make an offer': 'not passive',  # no passive
     },
     'proskale/w': {
         'to cite or summon into court': 'middle',  # II.2, under Mid., in attic of an accuser
         'to be summoned': 'passive',  # II.2, Pass.
-        'the party summoned': 'passive',  # II.2, ὁ προσκληθείς
+        'the party summoned': 'passive participle',  # ὁ προσκληθείς
         'to cite as witness': 'middle',  # II.3, under Mid.
     },
     'prosti/qhmi': {
@@ -6334,8 +6564,8 @@ COVERAGE_ONLY = {
         'to add to oneself, gain': 'middle',  # B.II.2, Mid., c. acc. rei
         'to bring upon oneself': 'middle',  # B.II.2, Mid., of evils
         'to bring upon': 'middle',  # B.II.2.b, Mid., others
-        'made': 'middle',  # B.II.2.b, προσεθήκαντο πόλεμον, made war
         'to vent': 'middle',  # B.II.2.b, μῆνιν προσθέσθαι τινί
+        'to make additions, to augment': 'not passive',  # absol.
     },
     'pw=los': {
         'a young man': 'masculine',  # more rarely masc., a young man
@@ -6391,6 +6621,7 @@ COVERAGE_ONLY = {
         'to beat the g': 'never',  # cut from «to beat the ground, dance»: II absol. in the form ῥήσσω
         'to beat the ground, dance': 'never',  # II, absol. in the form ῥήσσω
         'to be wrecked': 'passive',  # B.4, Pass., of ships
+        'to break its bounds': 'perfect or passive',  # C, intr., like Pass.
     },
     'ske/ptomai': {
         'well-considered': 'passive',  # II 3, ἐσκεμμένα
@@ -6453,6 +6684,9 @@ COVERAGE_ONLY = {
     'sumpodi/zw': {
         'to be entangled in a net': 'passive',  # I, Pass.
     },
+    'suna/gw': {
+        'to engage': 'not passive',  # intr.
+    },
     'sunapo/llumi': {
         'to perish together': 'passive',  # Pass. «to perish together»
     },
@@ -6461,27 +6695,17 @@ COVERAGE_ONLY = {
     },
     'sune/xw': {
         'to be constrained, oppressed, afflicted': 'passive',  # I.4 Pass.
+        'to meet': 'not passive',  # intr.
     },
     'suneto/s': {
         'intelligently': 'adverb',  # III adv. -τῶς
         'intelligibly': 'adverb',  # III 2
     },
     'suni/sthmi': {
-        'to stand together': 'passive',  # B 2
-        'to form in order of battle': 'passive',  # B 2, of soldiers
-        'to meet': 'passive',  # B II, συνίστασθαί τινι, to meet him in fight
-        'in fight, be engaged with': 'passive',  # B II, rest of 'to meet him in fight, be engaged with'
-        'to be involved': 'passive',  # B II 2
-        'to form a league or union': 'passive',  # B III
         'the conspirators': 'participle',  # τὸ ξυνιστάμενον, οἱ ξυνεστῶτες
-        'to be connected or allied': 'passive',  # B III 2
         'to arise, bec': 'passive',  # string cut by the 200-char message; card item 'to arise, become, take place' (B IV 2); lat
-        'to arise, become, take place': 'passive',  # B IV 2
-        'to hold together, endure, continue': 'passive',  # B.IV.3
         'a well-disciplined': 'participle',  # B.IV.3, ξυνεστὼς στρατός
         'a standing': 'participle',  # B.IV.3, στράτευμα συνεστηκός
-        'to be compact, solid, firm': 'passive',  # B.V
-        'to be contracted': 'passive',  # B.VI
     },
     'sunoike/w': {
         'to be thickly peopled': 'passive',  # II, Pass., of a country
@@ -6497,6 +6721,11 @@ COVERAGE_ONLY = {
         'bi': 'middle',  # string cut by the 200-char message; card item 'bid' (IV Mid., 'bid him farewell', with 'fa
         'bid': 'middle',  # IV, Mid., σ. τινι, bid him farewell
         'farewell': 'middle',  # IV, Mid., rest of 'bid him farewell'
+    },
+    'suntele/w': {
+        'to belong to a class, be counted in it': 'not passive',  # intr.
+        'to pay towards common expenses, contribute': 'not passive',  # absol.
+        'tributary or subject to': 'not passive',  # συντελεῖν εἰς, intr.
     },
     'sw/zw': {
         'to come safe, escape to': 'passive',  # II in Pass., a place
@@ -6519,6 +6748,9 @@ COVERAGE_ONLY = {
         'to agree upon, settle': 'middle',  # in Mid. (III.4)
         'to take a payment on oneself': 'middle',  # III.3, Mid., φόρον τάξασθαι
         'fixed, prescribed': 'passive',  # III.6, in perf. part. pass., ὁ τεταγμένος χρόνος
+    },
+    'tara/ssw': {
+        'to cause confusion': 'not passive',  # absol.
     },
     'taxu/s': {
         'quick, swift, fleet': 'not adverb',  # I
@@ -6552,18 +6784,19 @@ COVERAGE_ONLY = {
         'to be constantly guarded': 'passive',  # Pass.
     },
     'ti/ktw': {
-        'the parents': 'plural',  # οἱ τεκόντες
-        'the father': 'participle',  # ὁ τεκών
-        'the mother': 'participle',  # ἡ τεκοῦσα
+        'the parents': 'active participle',  # οἱ τεκόντες
+        'the father': 'active participle',  # ὁ τεκών
+        'the mother': 'active participle',  # ἡ τεκοῦσα
+        'to bear young, breed': 'not passive',  # intr.
+        'to lay eggs': 'not passive',  # its object the eggs
     },
     'ti/qhmi': {
-        "to give one's": 'middle',  # τίθεσθαι τὴν γνώμην
         'to vote': 'middle',  # τίθεσθαι absol.
         'to lay up': 'middle',  # Mid., θέσθαι θυμὸν ἐν στήθεσσι
         'to harbour': 'middle',  # Mid., θέσθαι τινὶ κότον
-        'the deposits': 'passive',  # Pass., τὰ τεθέντα
+        'the deposits': 'passive participle',  # τὰ τεθέντα
         'to settle, end': 'middle',  # πόλεμον θέσθαι
-        'the prizes': 'passive',  # Pass., τὰ τιθέμενα
+        'the prizes': 'passive participle',  # τὰ τιθέμενα
         'to give': 'middle',  # Mid., ὄνομα θέσθαι
         'to give oneself': 'middle',  # Mid., of republican legislatures
         'make': 'middle',  # Mid., make a law
@@ -6591,12 +6824,13 @@ COVERAGE_ONLY = {
         'rainiest': 'superlative',  # II as adj. in Sup. ὑετώτατοι
     },
     'u(polei/pw': {
-        'to remain in force': 'passive',  # II.2, Pass.
-        'to stay behind': 'passive',  # II.3, Pass.
-        'to lag behind': 'passive',  # II.4, Pass.
-        'to fall behind': 'passive',  # II.4, Pass.
+        'to remain in force': 'passive',  # Pass., of things
+        'to stay behind': 'passive',  # Pass.
+        'to lag behind': 'passive',  # Pass.
+        'to fall behind': 'passive',  # Pass.
         'to be inferior to': 'passive',  # II.5, Pass.
-        'to fail, come to an end': 'passive',  # II.6, Pass. absol.
+        'to fail, come to an end': 'not passive',  # intr., of things
+        'to fail': 'not passive',  # intr., of things
     },
     'u(postre/fw': {
         'reversely': 'participle',  # II.4 part. ὑποστρέψας as adv.
@@ -6621,7 +6855,6 @@ COVERAGE_ONLY = {
         'graces, charms': 'plural',  # of persons, pl. (I)
         'sake': 'accusative',  # VI.1, acc. sg. as adv., for his sake
         'pleasure or sake': 'accusative',  # VI.1, ἐμὴν χάριν, σὴν χάριν
-        'as far as regards, as to': 'accusative',  # VI.1, χάριν τινός
         'Charis': 'never',  # B, as a mythological pr. n., wife of Hephaestus
         'the Charites or Graces': 'never',  # B.2, mostly in pl. Χάριτες
     },
@@ -6636,7 +6869,6 @@ COVERAGE_ONLY = {
     },
     'xra/omai': {
         'he was endowed': 'pluperfect',  # φρεσὶ κέχρητ' ἀγαθῇσι; I.7 the perf. as strengthened pres.
-        'friends': 'plural',  # I.3 absol., οἱ χρώμενοι
         'to be in need or want of, to yearn after': 'perfect',  # I.6 perf. κέχρημαι
         'needy, in need, poor': 'participle',  # I.6 part. κεχρημένος used as an adj.
         'to be used': 'passive',  # I.8 aor1 pass. χρησθῆναι
@@ -6687,7 +6919,32 @@ FORMS = {
     "preposition": lambda c, p: p.startswith("preposition"), "verb": lambda c, p: p.startswith("verb"),
     "first person": lambda c, p: c[0] == "1", "second person": lambda c, p: c[0] == "2",
     "middle only": lambda c, p: c[2] == "M",
+    # Q33: the parse read more finely where a sense belongs to one form of a form — πᾶν, not πᾶς;
+    # ὁ τεκών, not the passive participle; τὸ φέρον, not every neuter
+    "neuter singular": lambda c, p: c[6] == "N" and c[5] in "S-",
+    "active participle": lambda c, p: c[3] == "P" and c[2] == "A",
+    "passive participle": lambda c, p: c[3] == "P" and c[2] in "PE",
+    "middle participle": lambda c, p: c[3] == "P" and c[2] in "ME",
+    "neuter participle": lambda c, p: c[3] == "P" and c[6] == "N",
+    "perfect passive": lambda c, p: c[1] in "XY" and c[2] in "PE",
+    "first person active": lambda c, p: c[0] == "1" and c[2] == "A",
     "never": lambda c, p: False,
+}
+
+# Senses whose English object is the passive's own subject (Q35). In the passive the object
+# becomes the subject, so a passive form reads the sense without it, as English says the passive:
+# δικαιόω's *to do a man right or justice, to judge* is, of the man, *to be done right or justice,
+# to be judged*. A gloss whose object stays an object — κόπτω's *to cut down the trees in it* — is
+# said in English's own passive in the chain itself, `having had the trees in it cut down` (Q21).
+PASSIVE_OF = {
+    "dikaio/w": {"to do a man right or justice, to judge": "to be done right or justice, to be judged"},
+    "diako/ptw": {"to break through the line": "to be broken through"},
+    "kate/xw": {"to bring a ship to land, bring it in or to": "to be brought to land, brought in or to"},
+    "poti/zw": {"to water cattle": "to be watered"},
+    "xala/w": {"to loosen or undo things drawn tightly together": "to be loosened or undone"},
+    "a)nasw/zw": {"to recover what is lost, rescue": "to be recovered, rescued"},
+    "te/mnw": {"plough the sea": "be ploughed"},
+    "katapau/w": {"to make one stop from": "to be made to stop from"},
 }
 
 # Senses the entry gives only some forms of a word: {key: {sense: form}}, form a FORMS name — a
@@ -6734,7 +6991,10 @@ def form_senses(senses, bare, lemma, code="", form="", parse=""):
         skip |= {sense for sense, where in only.items() if not FORMS[where](code, parse)}
     seen, out = set(), []
     restored = {g for k in (bare, bare + "1", bare + "2") for _, g in MARKUP_LOST.get(k, ())}
+    passive = PASSIVE_OF.get(bare, {}) if code[2] in "PE" else {}
     for sense in senses:
+        if sense in passive and sense not in skip:
+            sense = passive[sense]
         # two translations joined by "or" are set aside together or not at all: one of them
         # set aside alone is a piece of the translation dropped (Q2). Pieces set aside because
         # MARKUP_LOST restores the whole are not the whole set aside.

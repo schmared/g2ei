@@ -63,7 +63,9 @@ load-bearing word is one unit: a **headword** and its **chain**.
   the `<tr>` stops at *made of* — and `GREEK_LOST` restores it, or `GREEK_AFTER` records
   that the gloss was whole. The reading gives such a word its English spelling with the
   Greek after it in parentheses: `made of byssus (βύσσος)`; where English has no spelling
-  of its own, a transliteration: `dwelt in as a katoikos (κάτοικος)`. Tense, voice and
+  of its own, a transliteration: `dwelt in as a katoikos (κάτοικος)`. Plain English the
+  tagging cuts off is restored the same way, in `TEXT_LOST`: διαθήκη's «an arrangement
+  between» two parties, where *two parties* stands outside the `<tr>`. Tense, voice and
   person come from the Greek form (ποιέω *to make* → ἐποίησεν *made*), and so does the
   article: English gets one where the Greek has one and
   nowhere else (ἐν ἀρχῇ → *in beginning*; ὁ θεός → *the God*). The person is the ending's
@@ -71,6 +73,16 @@ load-bearing word is one unit: a **headword** and its **chain**.
   in the verse (πασάτω Μωυσῆς, *let sprinkle Moses*), and *him*, *her* or *it* only where the
   verb stands alone, by the gender of what it refers to (κατακαυθήτω, *let her be burnt
   down*). No translation is consulted — lexicon glosses ignore context, and that is the point.
+- **A sense keeps the voice the lexicon prints it in** (Q35). A passive form reads the
+  active's senses in the passive (*was hidden*), the entry's own Pass. senses as printed, in
+  the form's tense and person and not passivized again (κοιμάω's *to fall asleep*: `fell
+  asleep`, never `was fallen asleep`), and leaves out a sense with no passive (*to go back,
+  retire*), by `COVERAGE_ONLY`. A form parsed middle-or-passive reads the Mid. senses in the
+  middle's own English. Where a gloss's object is the passive's subject, `PASSIVE_OF` gives the
+  passive (δικαιόω *to do a man right or justice* → *to be done right or justice*); where the
+  object stays an object, English's own passive says it, `having had the trees in it cut down`
+  (Q21). A translation an example gives in its own person or tense — *I fear*, *were aware of* —
+  is the verb, worn in the form's person and tense.
 - The chain is the whole range, identical in both panels. Unanchored shows the chain;
   anchored shows `headword — chain —`. The headword may repeat inside its own chain; it is
   the chain's first sense.
@@ -379,7 +391,15 @@ The count is checked as well as the name: two units may not open one word.
   `FORM_SENSES` and the coverage pass's `COVERAGE_NOT` and `COVERAGE_ONLY`, is in the chain —
   the other checks compare units with one another, and a chain written short of its card and
   copied was short everywhere. The pronouns and the words with a formula of their own (θεός, ἐν,
-  γίνομαι, ἀρχή at Gen 1:1) are outside it
+  γίνομαι, ἀρχή at Gen 1:1) are outside it: a pronoun's entry is mostly grammar, and γίνομαι's
+  formula is the reading's own wording, set against εἰμί's, which its card would bury (Q34)
+- a chain says only its card: every item renders a translation the entry gives the form — the
+  reverse of the check above, which reads what a chain leaves out and not what it adds, so δέ's
+  *however* stood beside all 1,255 of its units with no translation behind it (Q32). The same
+  words stand outside it
+- no item is English no form can wear: an auxiliary before a subject or a second auxiliary
+  (`will I mean`, `she will be shall be given`), or a function word with a verb's ending
+  (`whatted`) — a template's form put on a piece of an example (Q35)
 - a perfect's formula follows every item of its chain
 - the word-by-word layer, where there is one, still matches the verse's Greek
 - the project's own morphology is well-formed by its code's own grammar

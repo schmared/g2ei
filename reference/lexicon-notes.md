@@ -8786,3 +8786,59 @@ Chains the settled open questions changed, corpus-wide.
   the gods`, `washing or bathing-tub`, `little or young child` (Q26). *and* stays only where the entry's own
   translation has it, `murder and manslaughter`.
 - **The perfect's formula after every item** (Q17): `has given and it stands so, has granted and it stands so, …`.
+
+### Q32–Q35: the cards read back, and the voice of each sense
+
+- **A chain says only its card** (Q32). `validate.py`'s support check is the coverage check turned round: every
+  item renders a translation the entry gives the form. 314 items no card gave were dropped or settled. Dropped:
+  δέ's *however* (all 1,255 units); ὅτι's *although* and γάρ's *but* (the phrases οὐχ ὅτι and ἀλλὰ γάρ);
+  ἄνθρωπος's *the human being* (the entry gives *man, mankind*; its *homo, not vir* is Latin, which the notes
+  say); ἕτερος's *worse*; παῖς's *the grandchildren* (παῖς παιδός's); ἀρχή's *the headship and rule and governing
+  precedence* outside GEN 1:1's formula; and the older *X and Y* items one of whose words no card has (τίκτω's
+  *produced and yielded*, θυμός's *will and desire*, κόσμος's *ornament and adornment*, …), each sense still said
+  by the card's own item.
+- **Settled, not dropped**: translations the tagging cuts where the printed entry runs on in plain English,
+  restored in `TEXT_LOST` (`words.py`), each value the entry's words in order — διαθήκη `the disposition of
+  property by will`, `the arrangement between two parties`; διατίθημι `to dispose of one's property`, `devise it
+  by will`; γλῶσσα `the tongue / mouthpiece of a pipe`; κείρω `to ravage a country`, `by cutting down the crops
+  and fruit-trees`; μυριάς `a number of ten thousand` (the entry's *10, 000*, in words, since a comma parts a
+  chain); πύργος, σφάζω, συντελέω, τετράπους, ἐργασία, ἐγχώριος, ἐξαριθμέω, ἐπικαλέω, κτάομαι, ἀγγεῖον, συννεφέω,
+  χρονίζω, μαῖα (`the true mother`, its *mother* a piece), ἀπάγω (`to lead away from the subject`), ἀλλάσσω,
+  συγχαίρω (`wish one joy / congratulate`), ἀπόλλυμι (`talk / bore one to death`). Two later-sense Latin runs, which
+  the first-sense check never reads, go in `MARKUP_LOST`: αἷμα's *blood-relationship, kin*, ἐξαλείφω's *to wipe
+  out, destroy utterly*. σκεῦος's «the vessel» stands inside the entry's account of a metaphor (*the body, as the
+  vessel of the soul*) and is a label.
+- **πλατεῖα** (`FILED_WITHIN`): *the street* is πλατύς I.5, read now as that section alone, `a street, the flat
+  of the hand` (GEN 19:2); πλατύς's adjective senses are the adjective's, its noun senses the noun's (Q33).
+- **The coverage calls, read word by word** (Q33), for the fifty commonest words and ἔχω, φέρω, γινώσκω, ἀκούω,
+  οἴομαι, φύω, φιλέω, εὑρίσκω, προστίθημι: 99 calls moved, now in `COVERAGE_NOT` and `COVERAGE_ONLY`. Example sentences kept as senses are pieces now: γινώσκω's *I felt that I was*, *thou mayst
+  discern*; καλέω's *shall be given*, *I am*, *is*; ἀκούω's *pers. from whom it is heard*; ἔρχομαι's *I go to*,
+  *I intend*; λέγω's *has*, *does*; ἔχω's *by*, *will*, *you keep*. Phrases with a preposition are phrases: χείρ's
+  *in hand*, *hand to hand*; οἶκος's *home, within* (κατ᾽ οἴκους); εἷς's *one by one*; ἡμέρα's *day-break*, *day by
+  day*; and a case's own English is its marker's: ἡμέρα's *within*, *on*, χείρ's *on*. Finer forms, by new `FORMS`
+  names: πᾶς's *everything, anything* the neuter singular's; τίκτω's *the father, the mother, the parents* and
+  ἔχω's *a wealthy man* the active participle's; λέγω's *the so-called* and τίθημι's *the deposits* the passive
+  participle's; φέρω's *fortune, fate* and ὀρθόω's *success* the neuter participle's; καλέω's *to have received a
+  name, to bear it* and *to be* the perfect passive's; γινώσκω's *I understand* and λέγω's *I mean* the first
+  person active's. συνίστημι's intransitive section, given the passive alone, is read again by the perfect and
+  the aor2 (EXO 7:19, 32:1); its transitive tenses leave it out by `FORM_SENSES`. ἀποκρίνω's *to separate, set
+  apart* is its passive's too (GEN 31:14), and the deponent ἀποκρίνομαι sets it aside by name.
+- **Each sense in its own voice** (Q35). A passive form reads the entry's Pass. senses as printed, in the form's
+  tense and person: κοιμάω `fell asleep / went / lay abed` (GEN 19:33, never `was fallen asleep`); ἐπιφέρω at
+  GEN 1:2 `was rushing upon or after / attacking / assaulting, …, was coming after / next / ensuing`; ἀποστέλλω at
+  JHN 1:6 `having gone away / departed / set out and standing so`, its Pass. sense, while the intransitive *to go
+  back, retire* is left out; ὁράω `let oneself be seen / appeared`; καθίστημι's [6] Pass. *to stand against,
+  oppose*; φθείρω's *to have suffered loss from shipwreck* (`had suffered loss from shipwreck`, GEN 6:11) and
+  *to pine away in*. 48 Pass. and Mid. senses read in every voice before are the passive's or the middle's now
+  (`COVERAGE_ONLY`). A sense with no passive is left out of passive forms (*not passive*): ἐπιβάλλω's
+  intransitives, κατέχω's *to prevail*, ἔχω's *to lead towards*, φέρω's *to lead to*: sixty in all. A form
+  parsed middle-or-passive reads the Mid. senses in the middle's English: ἄγω at GEN 38:25 `being led, …,
+  marrying, bringing home`. Where the object is the passive's subject, `PASSIVE_OF` gives the passive the entry's
+  gloss makes: δικαιόω `has been done right / justice / judged` (GEN 38:26), διακόπτω, κατέχω, ποτίζω, χαλάω,
+  ἀνασώζω (`of the ones having been recovered / rescued`, the reading before the coverage pass), τέμνω, καταπαύω.
+  An example's person or tense is the verb's, worn in the form: οἴομαι at GEN 37:7 `I was having a presage, …, I
+  was holding`; γινώσκω `will be aware of`.
+- **The checks behind it**: the support check above; the English check (no auxiliary before a subject or a second
+  auxiliary, no function word with a verb's ending), which found the 70 units of example sentences rendered as the
+  word's; and the cards' alignment: a word a verse says more often than it opens takes, in order, the occurrence
+  whose card its chain fits (δέρρις at EXO 26:8 opens its third occurrence).
