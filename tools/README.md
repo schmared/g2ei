@@ -106,5 +106,9 @@ The files are read in name order and a later hand-made file replaces an earlier 
 - A chain's own *and* is not always a run's: `to and fro` is one English expression. The delimiter check once
   took it for `to turn to or from`'s pieces, and a mechanical pass cut it to `to / fro`; read a delimiter report
   against the entry before acting on it.
+- A pass that turns *and* into ` / ` must read where the card's own *and* stands. The first delimiter pass put it
+  on the wrong seam in 431 units (ζάω's `in full life / strength / fresh and strong` for «to be in full life and
+  strength, to be fresh, be strong»), and left the joins in 115 headwords. Two translations joined with *and* are
+  a separate fault the run check cannot see (Q36); `validate.py`'s `joins` reads them.
 - A name's later occurrence in another case or under another capital takes a bare entry: Σίμων after Σίμωνος,
   ἀμὴν after Ἀμὴν. The names check reads them as one name.

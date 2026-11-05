@@ -99,6 +99,17 @@ load-bearing word is one unit: a **headword** and its **chain**.
   the *or* stays as the entry prints it. Where an item could be a sense the entry gives by
   itself as well as part of a run — ἀκούω's *to have hearing of*, beside *to hear of, hear
   tell of* — it is left as it stands.
+- **Two translations are two items** (Q36), whatever the entry's prose puts between them: ἀντί's
+  «set against» the other, «compared with» it, is `set against, compared with`; οἰκία's «the
+  household», i. e. «inmates of the house», is `the household, the inmates of the house`. They
+  are never joined with *and*. Only *or* makes them one item: ἵστημι's «to set up» the loom, or
+  «to raise» the mast, is `set up / raised`. A piece of a run another item already says is not
+  said again beside the next translation: ἀκούω's `listened to / gave ear to, obeyed`, not a
+  further `listened to and obeyed`. A translation's own *and* stays on the seam where the entry
+  prints it, and the delimiter goes only between pieces: ζάω's «to be in full life and strength,
+  to be fresh, be strong» is `in full life and strength / fresh / strong`, χείρ's «the hand and
+  arm, the arm» `the hand and arm / arm`. A headword is its run's first piece: ζώνη's `belt`,
+  not `belt and girdle`.
 - The headword never stands bare in the unanchored text: nothing that belongs in a unit is
   written as plain text.
 - **A word is a unit exactly when its entry says more than its headword does.** More can be
@@ -401,6 +412,11 @@ The count is checked as well as the name: two units may not open one word.
   form; within one lemma and one case it reads the same everywhere
 - one translation is one item: no run of words the card gives in one translation is split
   across items of a chain, and its pieces are joined with ` / `, not *and*
+- two translations are two items: no item joins with *and* two translations the card gives
+  apart, or a run's piece to the translation after it, and no headword joins a run's pieces;
+  a translation's own *and* stays on its own seam, not turned into the delimiter — the first
+  drafts had joined 670 items so, and the first delimiter pass had moved the *and* in 431
+  more, which the run check could not see, since it reads one translation at a time (Q36)
 - a chain carries its card: every translation the entry gives the form, after `NOT_SENSES`,
   `FORM_SENSES` and the coverage pass's `COVERAGE_NOT` and `COVERAGE_ONLY`, is in the chain —
   the other checks compare units with one another, and a chain written short of its card and

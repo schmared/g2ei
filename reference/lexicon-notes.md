@@ -8928,3 +8928,49 @@ Chains the settled open questions changed, corpus-wide.
   whole now, and no other word in the corpus moved.
 - **Tools**: `siblings.py` rebuilds a new chapter's units from their fullest corpus sibling, so the range check has
   nothing to report; `repair.py`'s seed rule expands a chain that is its headword alone.
+
+### Q36: two translations, two items
+
+- **Two translations, two items.** Where the first drafts had joined two of a card's translations with an *and*
+  the entry does not print, each is an item of its own now, in 438 units over 55 words: ἀντί `set against, compared
+  with` (45); οἰκία `the household, the inmates of the house`; γένος `a tribe, a caste`, `sex, gender`; ἐκβάλλω `cast
+  out, banished`; παροικέω `lived in, sojourned`; ἐρωτάω `enquired of, questioned`; ἀναφέρω `brought back, reported`;
+  ἐπιβάλλω `applied himself to, devoted himself to`; φεύγω `had recourse, took refuge`; παρίστημι, ζητέω, ὀρύσσω,
+  χώρα, ὑδρία, δέομαι, θυμός, φυλακή, ὑποτίθημι, διατίθημι, παρακαλέω, μίτρα, σῶμα, ἀλλάσσω, ὑποστρέφω, πλανάω,
+  ἐκκόπτω, καταπίνω, ἀνίστημι, ἀφίστημι, διώκω (`attached himself`, the person the ending's), ἄρα and ἆρα `just,
+  very`, παίζω, τάφος, ἡγέομαι, ἐπέχω, ἔγκειμαι, καπνίζω, ἐπιβαίνω, ἐξανθέω, ἰδέα, γυμνόω, συνοικέω, ἐφίστημι,
+  ἑρμηνευτής, κάλλος (`rich garments, stuffs`, though the entry prints *and* between them), ἐμφανής, προΐημι,
+  μεταμέλει, προτίθημι. What the item opened with is said for each: `will cast out, will banish`, `of the
+  household, of the inmates of the house`, `has had recourse and it stands so, has taken refuge and it stands so`.
+  An item said twice once split is said once: ἐκβάλλω's `cast out, banished`, not `cast out, banished, banished`;
+  ἐκκόπτω's `may fell, may cut down all the trees`; σῶμα's `the bodies, …, the any material substances`.
+- **Where the entry joins them with *or*,** one item with the delimiter: ἵστημι `set up / raised` («to set up» the
+  loom, or «to raise» the mast); μέρος `the part one takes in / the part assigned`; νύμφη `the chrysalis / pupa`;
+  δράκων `a dragon / serpent`; οἷος `what manner of nature / kind / temper` («manner of nature, kind», or «temper»).
+- **A run's piece joined to the next translation** (232 units): the piece another item already says is not said
+  again. ἀκούω `listened to / gave ear to, obeyed` (it had read `…, listened to and obeyed`); ἀναφέρω `brought /
+  carried back, recovered`; πρόβατον `cattle / flocks, herds` («cattle, flocks» and «herds»; GEN 22:8's singular had
+  split the run as `cattle, flocks and herds`); σκεῦος `bodies` (its *vessels* the chain's first item); ῥίπτω `threw
+  away, wasted`; συντελέω `made up the whole, made up the number`; καθαιρέω `achieved, took and carried off /
+  seized` (the run whole); ἕρπω `of the stealing, of the creeping on / spreading`.
+- **The card's own *and*, back on its seam** (431 units). The first delimiter pass had turned a translation's
+  own *and* into ` / ` and the next comma into *and*: ζάω `in full life and strength / fresh / strong` (79 units;
+  it had read `in full life / strength / fresh and strong`); προσκυνέω `fell down and worshipped / worshipped /
+  adored`; φυλάσσω `to keep watch and ward / keep guard`; αἴρω `lift and take away / remove`; ἅρμα `chariots and
+  horses / yoked chariots`; δίκαιος `observant of custom and social rule / well-ordered / civilised`; περιπατέω,
+  διαβουλεύομαι, θαυμάζω, κατάσκοπος, μουσικός, σπιθαμή, τριστάτης, ἀναιρέω, ἀναψύχω; στρέφω `twisting and turning /
+  shuffling`, `turning and changing`. χείρ's «the hand and arm, the arm» had collapsed to `the hand / arm`: `the hand
+  and arm / arm` (185 units). ὑπό with the accusative opens `towards and under` again, its headword's own words (31
+  units).
+- **Headwords** (115 units): a headword holding a run's pieces joined with *and*, left by the delimiter pass when
+  it mended the chain, is the run's first piece: ζώνη `belt`, βάσις `the steppings`, στίχος `the row`, ἐσχάρα `the
+  hearth`, μίτρα `the belt`, ὑπεναντίος `the ones set over against`, γενεά, σφραγίς, ἁμαρτία, ἁμάρτημα, κόπρος,
+  ἄκρον, φάος, τέχνη, εἰσακούω, ἀναιρέω, βλέπω, καθίστημι, … φιάλη's «a broad, flat vessel, a bowl» parts two
+  adjectives with its first comma, not two translations, and reads `the broad flat vessels / bowls`, as ψῆφος's
+  `a pebble rubbed and rounded`.
+- **ἀκούω's «to hear of, hear tell of»**: 65 units in Genesis and Exodus said only the second piece, `heard tell of`;
+  they say the run now, `heard of / heard tell of`, as JHN 1:37 does. The drift check found it once the extra
+  `listened to` beside it was gone.
+- **The checks**: `joins` reads each item against its card, and each headword against its chain's first item; the
+  delimiter check reads that a translation's own *and* is still on its own seam. Neither failure could be seen
+  before: the run check reads one translation at a time, and a join of two is in neither.

@@ -37,6 +37,8 @@ that hold the project's own morphology to its own grammar and to itself:
            The Old Testament is transcribed from the printed Rahlfs, so its word forms
            are cross-checked only where LXX_RAHLFS_DIR points at a local morphological
            module; otherwise that check, and the one on our own morphology, report SKIP
+  joins    two translations are two items: none joined with *and* in one item, nor a run's
+           piece with the translation after it, and no headword joining a run's pieces (Q36)
   variant  every variation unit the SBLGNT marks is stated in a `variant` note as its
            apparatus in sources/sblgntapp states it (build/apparatus.py), and a variant note
            says no more of the readings than the apparatus does
@@ -50,6 +52,7 @@ written; see the comments on each.
 import argparse
 import collections
 import html
+import itertools
 import json
 import os
 import pathlib
@@ -694,7 +697,7 @@ def split_runs(chain, card):
     Middle Liddell gives a sense as a run of words in one translation — σταθμός *a
     dwelling, abode*, κιβωτός *a wooden box, chest, coffer* — and the run is one sense with
     several English words for it. The chain keeps it as one item, the words joined with
-    *and*: `dwelling and abode`. Split into items of their own, `face, visage, countenance`,
+    the delimiter: `dwelling / abode` (Q2). Split into items of their own, `face, visage, countenance`,
     each word reads as a sense of its own, and the commas no longer tell the reader where
     the entry's senses part.
 
@@ -742,7 +745,7 @@ def join_runs(chain, card):
     """The chain with each split run joined into one item, its shared opening said once.
 
     The perfect's formula comes once, at the end of the joined item, where it stood on the
-    item that carried it: `has talked and chatted and prattled and babbled and it stands
+    item that carried it: `has talked / chatted / prattled / babbled and it stands
     so`. Anywhere inside, it would close the item early for every check that reads one.
     """
     for lead in MERGED_LEAD:
@@ -759,7 +762,7 @@ def join_runs(chain, card):
             n = 0
             while n < len(head) and n < len(words) - 1 and words[n] == head[n]:
                 n += 1
-            joined += " and " + " ".join(words[n:])
+            joined += " / " + " ".join(words[n:])
         if aspect:
             joined += " " + aspect.group(0).strip()
         items[first:last + 1] = [joined]
@@ -842,7 +845,7 @@ def check_runs(book, chapter, verses, rep):
         for first, last in split_runs(chain, card):
             items = chain.split(", ")
             rep.fail("runs", verse["ref"], "%s `%s` splits one translation across `%s` — join "
-                     "it with and" % (lemmas(field)[-1], head, ", ".join(items[first:last + 1])))
+                     "it with ` / `" % (lemmas(field)[-1], head, ", ".join(items[first:last + 1])))
     rep.done("runs", "%d units, each translation one item" % count, before)
 
 
@@ -961,11 +964,125 @@ def check_delimiter(book, chapter, verses, rep):
                 continue
             item = min(found, key=lambda it: len(content(ASPECT.sub("", it)) - want))
             count += 1
+            # an item that is another translation exactly, its own *and* in it: φυλάσσω's `to keep watch
+            # and ward / keep guard` is «to keep watch and ward, keep guard», and says the pieces of «to
+            # be on one's guard, keep watch» only because the two share their words
+            said = content(ASPECT.sub("", item)) - {"thing"}
+            if any(other != sense and content(other) - {"thing"} == said and not joined_with_and(item, other)
+                   and len(re.findall(r"\band\b", other)) >= len(re.findall(r"\band\b", ASPECT.sub("", item)))
+                   for other in card):
+                continue
             if joined_with_and(item, sense):
                 rep.fail("delimiter", verse["ref"], "%s `%s` joins the pieces of `%s` with and, in `%s` — "
                          "join them with ` / `" % (lemmas(field)[-1], head, sense, item))
                 break
+        # the card's own *and* stays where it prints it: ζάω's «to be in full life and strength, to be
+        # fresh, be strong» had read `in full life / strength / fresh and strong`, the first delimiter
+        # pass having put the *and* on the wrong seam (Q36)
+        for sense in card:
+            item = own_and_lost(items, sense, card)
+            if item:
+                rep.fail("delimiter", verse["ref"], "%s `%s`: `%s` puts the delimiter inside «%s», whose *and* "
+                         "is the entry's — keep the *and* there, and ` / ` between the pieces"
+                         % (lemmas(field)[-1], head, item, sense))
+                break
     rep.done("delimiter", "%d runs, each joined with the delimiter" % count, before)
+
+
+def own_and_lost(items, sense, card=()):
+    """The item rendering a translation whose own *and* it has turned into the delimiter, or None.
+
+    Each piece of the translation holding an *and* — `to be in full life and strength` — is a piece of
+    the item still holding one, `in full life and strength`: not `in full life / strength`.
+    """
+    own = []
+    for piece in PIECES_OF.split(sense):
+        # an *and* between two words, not a scrap's (λαμβάνω's «took and» killed), nor one word twice
+        # (ὀλίγος's «by little and little»), nor what reads as the perfect's formula («and continue»)
+        piece = ASPECT.sub("", piece)
+        m = re.search(r"(\S+) and (\S+)", piece)
+        if m and content(m.group(1)) and content(m.group(2)) and content(m.group(1)) != content(m.group(2)):
+            own.append(piece)
+    if not own:
+        return None
+    want = content(sense) - {"thing"}
+    found = [it for it in items if want <= content(ASPECT.sub("", it))]
+    if not found:
+        return None
+    item = min(found, key=lambda it: len(content(ASPECT.sub("", it)) - want))
+    said = [p for p in ASPECT.sub("", item).split(" / ")]
+    # an item that is another translation exactly: πλάσσω's `formed / moulded / shaped` is «to form,
+    # mould, shape», which says the words of «to mould and form» as well
+    if any(other != sense and content(other) - {"thing"} == content(" ".join(said)) - {"thing"}
+           for other in card):
+        return None
+    for piece in own:
+        need = content(piece) - {"thing"}
+        if need and not any(need <= content(p) and re.search(r"\band\b", p) for p in said):
+            return item
+    return None
+
+
+def and_joined(body, card):
+    """The translations an item joins with an *and* the entry does not print (Q36), or [].
+
+    An item is one translation of the card, or one run of its pieces. Two translations the card gives
+    separately — ἀντί's «set against» the other, «compared with» it — are two items, `set against,
+    compared with`; and where the entry joins them with *or*, ἵστημι's «to set up» the loom, or «to
+    raise» the mast, one item with the delimiter, `set up / raised`. The first drafts had joined them
+    with *and*, a word the Greek does not have, in 438 units, and a piece of a run with the translation
+    after it, ἀκούω's `listened to and obeyed`, in 232 more.
+    """
+    whole = content(body) - {"thing"}
+    if " and " not in body or not whole or any(whole <= content(s) | {"thing"} for s in card):
+        return []
+    pieces = body.split(" and ")
+    for k in range(1, len(pieces)):
+        for cuts in itertools.combinations(range(1, len(pieces)), k):
+            bounds = (0,) + cuts + (len(pieces),)
+            parts = [" and ".join(pieces[bounds[i]:bounds[i + 1]]) for i in range(len(bounds) - 1)]
+            said = [content(p) - {"thing"} for p in parts]
+            if not all(said):
+                continue
+            within = [[i for i, s in enumerate(card) if x <= content(s)] for x in said]
+            if all(within) and all(not set(within[i]) & set(within[i + 1]) for i in range(len(within) - 1)):
+                return [card[w[0]] for w in within]
+    return []
+
+
+def check_joins(book, chapter, verses, rep):
+    """No item joins two of its card's translations with *and*, and no headword joins a run's pieces
+    with it (Q36).
+
+    A headword is the first piece of its run, κιβωτός's *the wooden box*: ζώνη's `belt and girdle`,
+    beside the chain's `belt / girdle`, was a first draft's join the delimiter pass left in the
+    headword, in 115 units.
+    """
+    before = rep.failed
+    count = 0
+    for verse, head, chain, field, card, parse in unit_cards(book, chapter, verses, with_parse=True):
+        word = lemmas(field)[-1]
+        rest, bare = chain, head
+        for lead in MERGED_LEAD:
+            if rest.startswith(lead):
+                rest = rest[len(lead):]
+                bare = re.sub(r"^(?:up to|in) ", "", head)
+        first = ASPECT.sub("", rest.split(", ")[0]).rstrip()
+        if (" and " in bare and not first.startswith(bare)
+                and first.startswith(bare.replace(" and ", " / "))):
+            rep.fail("joins", verse["ref"], "%s `%s` joins the pieces of `%s` with and — the headword is "
+                     "the first piece, `%s`" % (word, head, first, first.split(" / ")[0]))
+        if not card or word in COVERAGE_FORMULAS or chain.startswith(FORMULA_CHAINS):
+            continue
+        count += 1
+        for item in rest.split(", "):
+            joined = and_joined(ASPECT.sub("", item).rstrip(), card)
+            if joined:
+                rep.fail("joins", verse["ref"], "%s `%s`: `%s` joins «%s» with and, which the entry does "
+                         "not print — give each its own item, or ` / ` where the entry joins them with or"
+                         % (word, head, item, "» and «".join(joined)))
+                break
+    rep.done("joins", "%d units, each translation its own item" % count, before)
 
 
 def check_perfects(book, chapter, verses, rep):
@@ -2845,6 +2962,7 @@ def validate(book, chapter, rep):
     check_runs(book, chapter, verses, rep)
     check_coverage(book, chapter, verses, rep)
     check_delimiter(book, chapter, verses, rep)
+    check_joins(book, chapter, verses, rep)
     check_perfects(book, chapter, verses, rep)
     check_support(book, chapter, verses, rep)
     check_english(book, chapter, verses, rep)

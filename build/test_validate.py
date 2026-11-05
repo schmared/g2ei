@@ -31,6 +31,7 @@ import validate as V  # noqa: E402
 import morph_diff as D  # noqa: E402
 
 GEN = json.loads((render.DATA / "GEN/1.json").read_text(encoding="utf-8"))
+GEN2 = json.loads((render.DATA / "GEN/2.json").read_text(encoding="utf-8"))
 GEN3 = json.loads((render.DATA / "GEN/3.json").read_text(encoding="utf-8"))
 GEN7 = json.loads((render.DATA / "GEN/7.json").read_text(encoding="utf-8"))
 GEN36 = json.loads((render.DATA / "GEN/36.json").read_text(encoding="utf-8"))
@@ -434,6 +435,35 @@ NEGATIVE = [
                                              dict(v, reading=v["reading"].replace(
                                                  "the wooden box / chest / coffer", "the wooden box and chest and coffer"))
                                              for v in GEN7])),
+    # Q36: two of the card's translations joined with an *and* the entry does not print — ἀντί's «set
+    # against» the other, «compared with» it, as 45 units had read them
+    ("joins    two translations joined with and",
+                                         lambda: run(V.check_joins, "GEN", 2, [
+                                             dict(v, reading=v["reading"].replace(
+                                                 "set against, compared with", "set against and compared with"))
+                                             for v in GEN2])),
+    # a piece of a run joined to the translation after it: ἀκούω's `listened to and obeyed`
+    ("joins    a run's piece joined to another translation",
+                                         lambda: run(V.check_joins, "GEN", 3, [
+                                             dict(v, reading=v["reading"].replace(
+                                                 "I listened to / gave ear to, I obeyed",
+                                                 "I listened to / gave ear to, I listened to and obeyed"))
+                                             for v in GEN3])),
+    # a headword holding a run's pieces joined with *and*, ζώνη's `belt and girdle` beside `belt / girdle`
+    ("joins    a headword joining a run's pieces",
+                                         lambda: run(V.check_joins, "GEN", 7, [
+                                             dict(v, reading=v["reading"].replace(
+                                                 "[[the wooden box|the wooden box / chest / coffer|",
+                                                 "[[the wooden box and chest|the wooden box / chest / coffer|"))
+                                             for v in GEN7])),
+    # the card's own *and* turned into the delimiter, and the delimiter into *and*: ζάω had read `in full
+    # life / strength / fresh and strong` for «to be in full life and strength, to be fresh, be strong»
+    ("delimiter the card's own and on the wrong seam",
+                                         lambda: run(V.check_delimiter, "GEN", 2, [
+                                             dict(v, reading=v["reading"].replace(
+                                                 "in full life and strength / fresh / strong",
+                                                 "in full life / strength / fresh and strong"))
+                                             for v in GEN2])),
     # Q17: the perfect's formula on some items and not all
     ("perfects the formula missing from an item",
                                          lambda: run(V.check_perfects, "GEN", 9, [
@@ -677,6 +707,12 @@ CONTROL = [
     # not the first item holding *turn*, whose *and* is `to and fro`'s own
     ("delimiter clean GEN 3, to and fro beside to / from",
                                          lambda: run(V.check_delimiter, "GEN", 3, GEN3)),
+    ("joins    clean GEN 2",              lambda: run(V.check_joins, "GEN", 2, GEN2)),
+    ("joins    clean GEN 7",              lambda: run(V.check_joins, "GEN", 7, GEN7)),
+    # φυλάσσω's `to keep watch and ward / keep guard` is «to keep watch and ward, keep guard»; that it
+    # says the words of «to be on one's guard, keep watch» too does not make its *and* a join
+    ("delimiter clean GEN 2, an item that is another translation",
+                                         lambda: run(V.check_delimiter, "GEN", 2, GEN2)),
     ("perfects clean GEN 9",              lambda: run(V.check_perfects, "GEN", 9, GEN9)),
     ("support  clean GEN 7",              lambda: run(V.check_support, "GEN", 7, GEN7)),
     ("english  clean GEN 7",              lambda: run(V.check_english, "GEN", 7, GEN7)),
